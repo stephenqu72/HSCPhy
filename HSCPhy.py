@@ -592,17 +592,26 @@ if mode == "Past Paper":
     selected_topic = "PastPaper"
     selected_subtopic = st.session_state.selected_paper.replace(" ", "_")
 else:
-    selected_topic = selected_topic if 'selected_topic' in locals() else st.session_state.last_selected_topic
-    selected_subtopic = selected_subtopic if 'selected_subtopic' in locals() else st.session_state.last_selected_subtopic
-    folder_path = os.path.join(base_root, selected_topic, selected_subtopic)
+    # = selected_topic if 'selected_topic' in locals() else st.session_state.last_selected_topic
+    #selected_subtopic = selected_subtopic if 'selected_subtopic' in locals() else st.session_state.last_selected_subtopic
+    st.session_state.last_selected_topic = selected_topic
+    st.session_state.last_selected_subtopic = selected_subtopicfolder_path = os.path.join(base_root, selected_topic, selected_subtopic)
 
 ############################################
 # ---------- Selection Changed ----------
 ############################################
+#selection_changed = (
+#    st.session_state.last_selected_course != course_level or
+#    st.session_state.last_selected_topic != st.session_state.get("last_selected_topic") or
+#    st.session_state.last_selected_subtopic != st.session_state.get("last_selected_subtopic") or
+#    st.session_state.last_mode != mode or
+#    st.session_state.last_paper != st.session_state.get("selected_paper")
+#)
+
 selection_changed = (
     st.session_state.last_selected_course != course_level or
-    st.session_state.last_selected_topic != st.session_state.get("last_selected_topic") or
-    st.session_state.last_selected_subtopic != st.session_state.get("last_selected_subtopic") or
+    st.session_state.last_selected_topic != selected_topic or
+    st.session_state.last_selected_subtopic != selected_subtopic or
     st.session_state.last_mode != mode or
     st.session_state.last_paper != st.session_state.get("selected_paper")
 )
