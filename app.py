@@ -526,15 +526,13 @@ if st.session_state.image_files:
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
         # Explain / Video / Generate (in col2)
         with col2:
-            c1, c2 = st.columns(2)
-            clicked_explain = c1.button("🧠 Answer", key=f"explain_{q_index}")
-            clicked_regen   = c2.button("🔄 Regenerate", key=f"regen_{q_index}")
+             c1, c2 = st.columns(2)
+            clicked_explain = c1.button("🧠 Answer with Text", key=f"explain_{q_index}")
+            clicked_regen   = c2.button("🔄 Answer with Graph", key=f"regen_{q_index}")
 
-            if clicked_explain or clicked_regen:
+            if clicked_explain:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
                     import base64, sys, importlib.util
-
-                    force_regen = clicked_regen
 
                     base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
                     json_filename = f"{base_no_ext}.explain.json"
@@ -562,6 +560,116 @@ if st.session_state.image_files:
                         st.markdown(reply)
                     else:
                         st.info("No 'Answer' field returned.")
+            if clicked_regen:
+                with st.spinner("LLM is thinking ... ... 👩‍✨"):
+                    import base64, sys, importlib.util
+
+                    force_regen = clicked_regen
+
+                    base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
+                    txt_filename  = f"{base_no_ext}.explain.json"
+                    explain_path = os.path.join(folder_path, txt_filename )
+                    
+                    prompt_answer = """
+                        You are a top HSC teacher.
+
+                        ⬇️ RETURN PLAIN TEXT ONLY (NO JSON).  
+                        Format your answer using these exact section headers:
+
+                        ###ANSWER
+                        (write the final answer only, concise)
+
+                        ###PLOT_CODE (optional)
+                        # Python code that defines generate_plot() and returns a Plotly or Matplotlib figure as `fig`
+                        ###EXPLANATION
+                        (step-by-step reasoning, key HSC concepts)
+
+                        ###OTHERS
+                        (any extra insights)
+
+                        ⚠️ Do NOT return JSON. Do NOT escape characters. Just plain text.
+                        """
+                    # Load from cache if available
+                    data = {"ANSWER": "", "PLOT_CODE": "", "EXPLANATION": "", "OTHERS": ""}
+                    loaded_from_cache = False
+
+                    if (not force_regen) and os.path.exists(explain_path):
+                        with open(explain_path, "r", encoding="utf-8") as f:
+                            raw = f.read()
+                        loaded_from_cache = True
+                        st.success(f"Loaded saved explanation: {txt_filename}")
+                    else:
+                        # call LLM
+                        with open(img_path, "rb") as img_file:
+                            img_bytes = img_file.read()
+                        image = Image.open(BytesIO(img_bytes))
+
+                        response = call_model(prompt_answer, image)
+                        raw = response.text
+
+                        with open(explain_path, "w", encoding="utf-8") as f:
+                            f.write(raw)
+                        st.info(f"💾 Explanation saved to: {explain_path}")
+                    
+                    # ---- Parse sections ----
+                    def extract_section(text, key):
+                        """
+                        Extract a section using ###KEY and removes ``` fences if present.
+                        """
+                        marker = f"###{key}"
+                        if marker not in text:
+                            return ""
+
+                        part = text.split(marker, 1)[1]
+
+                        # Stop section at next heading
+                        for next_header in ["###ANSWER", "###PLOT_CODE", "###EXPLANATION", "###OTHERS"]:
+                            if next_header != marker and next_header in part:
+                                part = part.split(next_header, 1)[0]
+
+                        cleaned = part.strip()
+
+                        # ✅ Strip code fences if LLM wrapped it
+                        if cleaned.startswith("```"):
+                            cleaned = cleaned.lstrip("`")  # remove opening backticks
+                            cleaned = cleaned.lstrip("python")  # if format is ```python
+                            cleaned = cleaned.strip()  # remove whitespace
+                        if cleaned.endswith("```"):
+                            cleaned = cleaned[:-3].rstrip()
+
+                        return cleaned
+
+                    data["ANSWER"]       = extract_section(raw, "ANSWER")
+                    data["PLOT_CODE"]    = extract_section(raw, "PLOT_CODE")
+                    data["EXPLANATION"]  = extract_section(raw, "EXPLANATION")
+                    data["OTHERS"]       = extract_section(raw, "OTHERS")
+                    
+                    # ---- Display ----
+                    if data["ANSWER"]:
+                        st.markdown("#### ✅ Answer")
+                        st.markdown(data["ANSWER"])
+
+                    # plot / code
+                    if data["PLOT_CODE"]:
+                        try:
+                            explain_py = os.path.join(user_tmp_dir, f"explain_plot_{base_no_ext}.py")
+                            with open(explain_py, "w", encoding="utf-8") as f:
+                                f.write(data["PLOT_CODE"])
+
+                            mod = load_plot_module(explain_py)
+                            fig = getattr(mod, "generate_plot", lambda: None)()
+                            if fig is not None:
+                                st.plotly_chart(fig, use_container_width=True)
+                        except Exception as e:
+                            st.warning(f"⚠️ Unable to execute plot code: {e}")
+
+                    if data["EXPLANATION"]:
+                        st.markdown("#### 📘 Detailed Explanation")
+                        st.markdown(data["EXPLANATION"])
+
+                    if data["OTHERS"]:
+                        st.markdown("#### 🧩 Other Information")
+                        st.markdown(data["OTHERS"])
                         
         with col2:
             if st.button("🎮 Video Help", key=f"video_{q_index}"):
