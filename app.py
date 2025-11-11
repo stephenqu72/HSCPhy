@@ -526,7 +526,7 @@ if st.session_state.image_files:
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
         # Explain / Video / Generate (in col2)
         with col2:
-             c1, c2 = st.columns(2)
+            c1, c2 = st.columns(2)
             clicked_explain = c1.button("🧠 Answer with Text", key=f"explain_{q_index}")
             clicked_regen   = c2.button("🔄 Answer with Graph", key=f"regen_{q_index}")
 
