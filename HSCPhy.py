@@ -301,7 +301,7 @@ OLLAMA_VISION_MODEL = os.getenv("OLLAMA_VISION_MODEL", "qwen3-vl:8b")
 
 def call_model(prompt, image):
     if selected_model == "Gemini":
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-3-flash-preview")
         return model.generate_content([prompt, image])
     elif selected_model == "Ollama":
         # Ollama: qwen3-vl:8b
@@ -976,7 +976,7 @@ Please format like:
                         with open(img_path, "rb") as f:
                             image = Image.open(BytesIO(f.read()))
 
-                        model = genai.GenerativeModel("gemini-2.5-flash")
+                        model = genai.GenerativeModel("gemini-3-flash-preview")
                         with st.spinner("Gemini is thinking..."):
                             try:
                                 response = model.generate_content([user_input, image])

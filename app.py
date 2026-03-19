@@ -262,7 +262,7 @@ def extract_picture_number(filename):
     return int(match.group(1)) if match else 0
 
 def call_model(prompt, image):
-    #model = genai.GenerativeModel("gemini-2.5-flash")
+    #model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
     model = genai.GenerativeModel(selected_model)
     return model.generate_content([prompt, image])
 
@@ -387,7 +387,7 @@ if not os.path.isdir(base_root):
 
 # 🔄 LLM Model Selection
 st.sidebar.markdown("## 🧠 Choose LLM Model")
-selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-2.5-flash", "gemini-2.5-pro","gemini-3-flash-preview"], key="llm_choice")
+selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite-preview", "gemini-flash-lite-latest","gemini-3-flash-preview"], key="llm_choice")
 
 ############################################
 # ---------- Topic or Past Paper Selection ----------
