@@ -387,7 +387,7 @@ if not os.path.isdir(base_root):
 
 # 🔄 LLM Model Selection
 st.sidebar.markdown("## 🧠 Choose LLM Model")
-selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite-preview", "gemini-flash-lite-latest","gemini-3-flash-preview"], key="llm_choice")
+selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite-preview", "gemma-4-31b-it","gemma-4-26b-a4b-it"], key="llm_choice")
 
 ############################################
 # ---------- Topic or Past Paper Selection ----------
