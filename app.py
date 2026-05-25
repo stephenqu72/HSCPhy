@@ -20,6 +20,7 @@ APP_TITLE = "HSC AI Tutoring Centre"
 # Use secrets or env to configure base paths for deployment
 PERSIST_DIR = os.getenv("PERSIST_DIR") or st.secrets.get("PERSIST_DIR", "persist")
 BASE_ROOT = os.getenv("BASE_ROOT") or st.secrets.get("BASE_ROOT", "data/HSCPhy")
+NOTES_ROOT = os.getenv("NOTES_ROOT") or st.secrets.get("NOTES_ROOT", os.path.join(os.path.dirname(BASE_ROOT), "Notes"))
 
 ACCOUNTS_DB = os.path.join(PERSIST_DIR, "server", "users.json")
 USERS_ROOT = os.path.join(PERSIST_DIR, "users")
@@ -306,6 +307,42 @@ def write_question_plot(cache_key: str, data: dict):
     return path
 
 
+@st.cache_data(show_spinner=False)
+def list_note_pdfs(notes_root: str) -> list:
+    if not os.path.isdir(notes_root):
+        return []
+    pdfs = []
+    for root, _, files in os.walk(notes_root):
+        for filename in files:
+            if filename.lower().endswith(".pdf"):
+                path = os.path.join(root, filename)
+                pdfs.append(os.path.relpath(path, notes_root))
+    return sorted(pdfs, key=str.lower)
+
+
+@st.cache_data(show_spinner=False)
+def pdf_data_uri(pdf_path: str) -> str:
+    with open(pdf_path, "rb") as f:
+        encoded = base64.b64encode(f.read()).decode("utf-8")
+    return f"data:application/pdf;base64,{encoded}"
+
+
+def show_pdf(pdf_path: str, height: int = 720):
+    data_uri = pdf_data_uri(pdf_path)
+    st.markdown(
+        f"""
+        <iframe
+            src="{data_uri}"
+            width="100%"
+            height="{height}"
+            type="application/pdf"
+            style="border: 1px solid #ddd; border-radius: 6px;">
+        </iframe>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def extract_dot(text: str) -> str:
     if not text:
         return ""
@@ -460,6 +497,15 @@ if mode == "Topic by Topic" and not os.path.isdir(base_root):
 st.sidebar.markdown("## 🧠 Choose LLM Model")
 selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite", "gemini-3.5-flash","gemma-4-26b-a4b-it"], key="llm_choice")
 
+st.sidebar.markdown("## 📚 Physics Notes")
+note_pdf_options = list_note_pdfs(NOTES_ROOT)
+selected_note_pdf = None
+if note_pdf_options:
+    note_choice = st.sidebar.selectbox("Open note PDF:", ["None"] + note_pdf_options, key="selected_note_pdf")
+    selected_note_pdf = note_choice if note_choice != "None" else None
+else:
+    st.sidebar.caption(f"No PDF notes found in {NOTES_ROOT}")
+
 ############################################
 # ---------- Topic or Past Paper Selection ----------
 ############################################
@@ -608,6 +654,13 @@ if st.session_state.image_files:
             current_question = st.session_state.question_index + 1
             st.markdown(f"### 📘 Question {current_question} of {total_questions}")
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
+            if selected_note_pdf:
+                selected_note_path = os.path.join(NOTES_ROOT, selected_note_pdf)
+                with st.expander(f"📚 Note: {selected_note_pdf}", expanded=True):
+                    if os.path.exists(selected_note_path):
+                        show_pdf(selected_note_path)
+                    else:
+                        st.warning(f"⚠️ Note PDF not found: {selected_note_path}")
         # Explain / Video / Generate (in col2)
         with col2:
             c1, c2 = st.columns(2)
