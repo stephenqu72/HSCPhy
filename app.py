@@ -238,6 +238,74 @@ def get_all_feedback_for_key(path: str, key: str):
     return data
 
 
+def question_cache_key(course: str, topic: str, subtopic: str, image_name: str) -> str:
+    return f"{course}/{topic}/{subtopic}/{image_name}"
+
+
+def question_cache_path(cache_key: str) -> str:
+    cache_dir = os.path.join(user_root, "generated_questions")
+    os.makedirs(cache_dir, exist_ok=True)
+    filename = hashlib.sha1(cache_key.encode("utf-8")).hexdigest() + ".json"
+    return os.path.join(cache_dir, filename)
+
+
+def load_generated_question(cache_key: str):
+    path = question_cache_path(cache_key)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else None
+    except Exception:
+        return None
+
+
+def save_generated_question(cache_key: str, data: dict) -> str:
+    path = question_cache_path(cache_key)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return path
+
+
+def answer_cache_path(cache_key: str, answer_type: str) -> str:
+    cache_dir = os.path.join(user_root, "saved_answers")
+    os.makedirs(cache_dir, exist_ok=True)
+    filename = f"{hashlib.sha1(cache_key.encode('utf-8')).hexdigest()}.{answer_type}.txt"
+    return os.path.join(cache_dir, filename)
+
+
+def load_saved_answer(cache_key: str, answer_type: str):
+    path = answer_cache_path(cache_key, answer_type)
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception:
+        return None
+
+
+def save_answer(cache_key: str, answer_type: str, text: str) -> str:
+    path = answer_cache_path(cache_key, answer_type)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return path
+
+
+def write_question_plot(cache_key: str, data: dict):
+    code = (data.get("Image_DataTable") or "").strip()
+    if not code:
+        return None
+    plot_dir = os.path.join(user_tmp_dir, "question_plots")
+    os.makedirs(plot_dir, exist_ok=True)
+    filename = hashlib.sha1(cache_key.encode("utf-8")).hexdigest() + ".py"
+    path = os.path.join(plot_dir, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(code)
+    return path
+
+
 def extract_dot(text: str) -> str:
     if not text:
         return ""
@@ -462,30 +530,38 @@ else:
     selected_subtopic = selected_subtopic if 'selected_subtopic' in locals() else st.session_state.last_selected_subtopic
     folder_path = os.path.join(base_root, selected_topic, selected_subtopic)
 
+current_course_key = "Physics" if mode == "Past Paper" else course_level
+current_topic_key = selected_topic
+current_subtopic_key = selected_subtopic
+current_paper_key = st.session_state.get("selected_paper", "") if mode == "Past Paper" else ""
+
 ############################################
 # ---------- Selection Changed ----------
 ############################################
 selection_changed = (
-    st.session_state.last_selected_course != ("Physics" if mode == "Past Paper" else course_level) or
-    st.session_state.last_selected_topic != st.session_state.get("last_selected_topic") or
-    st.session_state.last_selected_subtopic != st.session_state.get("last_selected_subtopic") or
+    st.session_state.last_selected_course != current_course_key or
+    st.session_state.last_selected_topic != current_topic_key or
+    st.session_state.last_selected_subtopic != current_subtopic_key or
     st.session_state.last_mode != mode or
-    st.session_state.last_paper != st.session_state.get("selected_paper")
+    st.session_state.last_paper != current_paper_key
 )
 
 if selection_changed:
     st.session_state.question_index = 0
-    st.session_state.last_selected_course = "Physics" if mode == "Past Paper" else course_level
-    st.session_state.last_selected_topic = st.session_state.get("last_selected_topic")
-    st.session_state.last_selected_subtopic = st.session_state.get("last_selected_subtopic")
+    st.session_state.questions = {}
+    st.session_state.user_answers = {}
+    st.session_state.gemini_chat_history = []
+    st.session_state.last_selected_course = current_course_key
+    st.session_state.last_selected_topic = current_topic_key
+    st.session_state.last_selected_subtopic = current_subtopic_key
     st.session_state.last_mode = mode
-    st.session_state.last_paper = st.session_state.get("selected_paper")
+    st.session_state.last_paper = current_paper_key
     st.session_state.thinking_map_dot = ""
 
 ############################################
 # ---------- Per-user, per-course feedback LOG (append-only) ----------
 ############################################
-feedback_course = "Physics" if mode == "Past Paper" else course_level
+feedback_course = current_course_key
 FEEDBACK_FILE = os.path.join(user_fb_dir, f"question_feedback_{feedback_course}.json")
 st.sidebar.caption(f"🗂️ Feedback log (per-user, append-only): **{FEEDBACK_FILE}**")
 
@@ -498,12 +574,10 @@ with col2:
     b1, b2 = st.columns(2)
     with b1:
         if st.button("⬅️ Previous", disabled=st.session_state.question_index == 0):
-            st.session_state.questions.pop(st.session_state.question_index, None)
             st.session_state.question_index -= 1
             st.session_state.gemini_chat_history = []
     with b2:
         if st.button("➡️ Next", disabled=st.session_state.question_index >= len(st.session_state.image_files) - 1):
-            st.session_state.questions.pop(st.session_state.question_index, None)
             st.session_state.question_index += 1
             st.session_state.gemini_chat_history = []
     if "question_number" not in st.session_state or st.session_state.question_number != st.session_state.question_index + 1:
@@ -522,6 +596,12 @@ if st.session_state.image_files:
     if 0 <= q_index < len(st.session_state.image_files):
         img_name = st.session_state.image_files[q_index]
         img_path = os.path.join(folder_path, img_name)
+        generated_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
+
+        if q_index not in st.session_state.questions:
+            cached_question = load_generated_question(generated_question_key)
+            if cached_question:
+                st.session_state.questions[q_index] = cached_question
 
         with col1:
             total_questions = len(st.session_state.image_files)
@@ -531,17 +611,21 @@ if st.session_state.image_files:
         # Explain / Video / Generate (in col2)
         with col2:
             c1, c2 = st.columns(2)
-            clicked_explain = c1.button("🧠 Answer with Text", key=f"explain_{q_index}")
-            clicked_regen   = c2.button("🔄 Answer with Graph", key=f"regen_{q_index}")
+            has_text_answer = load_saved_answer(generated_question_key, "text") is not None
+            has_graph_answer = load_saved_answer(generated_question_key, "graph") is not None
+            clicked_explain = c1.button(
+                "🧠 Show Text Answer" if has_text_answer else "🧠 Answer with Text",
+                key=f"explain_{q_index}",
+            )
+            clicked_text_regen = c1.button("🔄 Regenerate Text", key=f"regen_text_{q_index}")
+            clicked_graph = c2.button(
+                "📈 Show Graph Answer" if has_graph_answer else "📈 Answer with Graph",
+                key=f"graph_{q_index}",
+            )
+            clicked_graph_regen = c2.button("🔄 Regenerate Graph", key=f"regen_graph_{q_index}")
 
-            if clicked_explain:
+            if clicked_explain or clicked_text_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
-                    import base64, sys, importlib.util
-
-                    base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
-                    json_filename = f"{base_no_ext}.explain.json"
-                    explain_path = os.path.join(folder_path, json_filename)
-                    
                     prompt_answer = """
     You are a top HSC teacher. Read the image and question below, then ANSWER the question and EXPLAIN how to solve it.
     ⚠️ IMPORTANT: Please format all LaTeX math expressions using:
@@ -550,29 +634,22 @@ if st.session_state.image_files:
 
     Do not use `\\(...\\)` or `\\[...\\]`.
 """
-                    # Try to load existing JSON to avoid re-running the LLM
-                    data = None
-                    # If no cached JSON, call LLM and save
-                    if data is None:
+                    reply = None if clicked_text_regen else load_saved_answer(generated_question_key, "text")
+                    if reply is None:
                         with open(img_path, "rb") as img_file:
                             img_bytes = img_file.read()
                         image = Image.open(BytesIO(img_bytes))
 
                         response = call_model(prompt_answer, image)
-                        st.markdown("#### ✅ Answer")
                         reply = response.text
-                        st.markdown(reply)
-                    else:
-                        st.info("No 'Answer' field returned.")
-            if clicked_regen:
+                        save_answer(generated_question_key, "text", reply)
+
+                    st.markdown("#### ✅ Answer")
+                    st.markdown(reply)
+
+            if clicked_graph or clicked_graph_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
-                    import base64, sys, importlib.util
-
-                    force_regen = clicked_regen
-
                     base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
-                    txt_filename  = f"{base_no_ext}.explain.json"
-                    explain_path = os.path.join(folder_path, txt_filename )
                     
                     prompt_answer = """
                         You are a top HSC teacher.
@@ -595,14 +672,9 @@ if st.session_state.image_files:
                         """
                     # Load from cache if available
                     data = {"ANSWER": "", "PLOT_CODE": "", "EXPLANATION": "", "OTHERS": ""}
-                    loaded_from_cache = False
+                    raw = None if clicked_graph_regen else load_saved_answer(generated_question_key, "graph")
 
-                    if (not force_regen) and os.path.exists(explain_path):
-                        with open(explain_path, "r", encoding="utf-8") as f:
-                            raw = f.read()
-                        loaded_from_cache = True
-                        st.success(f"Loaded saved explanation: {txt_filename}")
-                    else:
+                    if raw is None:
                         # call LLM
                         with open(img_path, "rb") as img_file:
                             img_bytes = img_file.read()
@@ -610,10 +682,7 @@ if st.session_state.image_files:
 
                         response = call_model(prompt_answer, image)
                         raw = response.text
-
-                        with open(explain_path, "w", encoding="utf-8") as f:
-                            f.write(raw)
-                        st.info(f"💾 Explanation saved to: {explain_path}")
+                        save_answer(generated_question_key, "graph", raw)
                     
                     # ---- Parse sections ----
                     def extract_section(text, key):
@@ -690,7 +759,12 @@ Please format like:
                 st.markdown(response.text.strip())
 
         with col2:
-            if st.button("✨ Generate Question"):
+            has_generated_question = q_index in st.session_state.questions
+            generate_label = "🔄 Regenerate Question" if has_generated_question else "✨ Generate Question"
+            if has_generated_question:
+                st.caption("Saved generated question loaded. Regenerate if you want a fresh version.")
+
+            if st.button(generate_label, key=f"generate_{q_index}"):
                 with st.spinner("Generating your magical question... 👩‍✨"):
                     img_name = st.session_state.image_files[q_index]
                     img_path = os.path.join(folder_path, img_name)
@@ -703,16 +777,7 @@ Please format like:
                         response_text = call_model(prompt_generating, image)
                         data = extract_json_from_response(response_text)
                         st.session_state.questions[q_index] = data
-                        tk_dir = os.path.join(user_tmp_dir, "TK_questions")
-                        os.makedirs(tk_dir, exist_ok=True)
-                        out_json = os.path.join(tk_dir, f"{selected_subtopic}_Q{q_index+1:02d}.json")
-                        with open(out_json, "w", encoding="utf-8") as f:
-                            json.dump(data, f, indent=2, ensure_ascii=False)
-                        if "Image_DataTable" in data:
-                            image_py = os.path.join(user_tmp_dir, "image.py")
-                            with open(image_py, "w", encoding="utf-8") as f:
-                                f.write(data["Image_DataTable"])
-                            st.session_state["_image_py_path"] = image_py
+                        out_json = save_generated_question(generated_question_key, data)
                         st.success(f"Saved generated question to {out_json}")
                     except Exception as e:
                         st.error(f"❌ Oops! Something went wrong: {str(e)}")
@@ -724,8 +789,8 @@ Please format like:
                 q_type = question.get("Question_Type", "MultipleChoice")
 
                 # load per-user image.py if exists
-                image_py = st.session_state.get("_image_py_path", os.path.join(user_tmp_dir, "image.py"))
-                if os.path.exists(image_py):
+                image_py = write_question_plot(generated_question_key, question)
+                if image_py and os.path.exists(image_py):
                     try:
                         fig = load_plot_module(image_py).generate_plot()
                         if fig:
