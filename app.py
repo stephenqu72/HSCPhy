@@ -11,6 +11,10 @@ from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
+try:
+    from pypdf import PdfReader
+except ImportError:
+    from PyPDF2 import PdfReader
 
 ############################################
 # 💼 Multi-user Auth + Per-user Storage (Streamlit Cloud ready)
@@ -20,6 +24,7 @@ APP_TITLE = "HSC AI Tutoring Centre"
 # Use secrets or env to configure base paths for deployment
 PERSIST_DIR = os.getenv("PERSIST_DIR") or st.secrets.get("PERSIST_DIR", "persist")
 BASE_ROOT = os.getenv("BASE_ROOT") or st.secrets.get("BASE_ROOT", "data/HSCPhy")
+NOTES_ROOT = os.getenv("NOTES_ROOT") or st.secrets.get("NOTES_ROOT", os.path.join(os.path.dirname(BASE_ROOT), "Notes"))
 
 ACCOUNTS_DB = os.path.join(PERSIST_DIR, "server", "users.json")
 USERS_ROOT = os.path.join(PERSIST_DIR, "users")
@@ -304,6 +309,130 @@ def write_question_plot(cache_key: str, data: dict):
     with open(path, "w", encoding="utf-8") as f:
         f.write(code)
     return path
+
+
+NOTE_STOPWORDS = {
+    "and", "are", "for", "from", "has", "have", "into", "not", "that", "the",
+    "this", "with", "your", "question", "picture", "group", "pastpaper", "png",
+}
+
+
+def tokenize_for_notes(text: str) -> list:
+    tokens = re.findall(r"[a-z0-9]+", text.lower())
+    return [t for t in tokens if len(t) > 2 and t not in NOTE_STOPWORDS]
+
+
+def infer_module_key(*values: str):
+    joined = " ".join(v or "" for v in values)
+    match = re.search(r"\bM([1-8])\b", joined, re.IGNORECASE)
+    if match:
+        return f"M{match.group(1)}"
+    match = re.search(r"\bMod(?:ule)?\s*([1-8])\b", joined, re.IGNORECASE)
+    if match:
+        return f"M{match.group(1)}"
+    return None
+
+
+def note_file_module(path: str):
+    filename = os.path.basename(path)
+    if re.search(r"M5\s*[-_ ]\s*M8", filename, re.IGNORECASE):
+        return None
+    return infer_module_key(filename)
+
+
+def chunk_words(words: list, size: int = 220, overlap: int = 40):
+    step = max(size - overlap, 1)
+    for start in range(0, len(words), step):
+        chunk = words[start:start + size]
+        if chunk:
+            yield " ".join(chunk)
+        if start + size >= len(words):
+            break
+
+
+@st.cache_data(show_spinner=False)
+def build_notes_index(notes_root: str):
+    if not os.path.isdir(notes_root):
+        return []
+
+    chunks = []
+    for root, _, files in os.walk(notes_root):
+        for filename in files:
+            if not filename.lower().endswith(".pdf"):
+                continue
+
+            path = os.path.join(root, filename)
+            source = os.path.relpath(path, notes_root)
+            module = note_file_module(path)
+            try:
+                reader = PdfReader(path)
+            except Exception:
+                continue
+
+            for page_index, page in enumerate(reader.pages):
+                try:
+                    text = page.extract_text() or ""
+                except Exception:
+                    text = ""
+
+                words = text.split()
+                if len(words) < 20:
+                    continue
+
+                for chunk_index, chunk in enumerate(chunk_words(words)):
+                    chunks.append({
+                        "source": source,
+                        "module": module,
+                        "page": page_index + 1,
+                        "chunk": chunk_index,
+                        "text": chunk,
+                        "tokens": tokenize_for_notes(f"{filename} {chunk}"),
+                    })
+    return chunks
+
+
+def build_note_query(course: str, topic: str, subtopic: str, image_name: str) -> str:
+    image_text = os.path.splitext(image_name.replace("\\", " ").replace("/", " "))[0]
+    return " ".join([course or "", topic or "", subtopic or "", image_text])
+
+
+def search_note_chunks(notes_root: str, query: str, module_filter=None, limit: int = 4):
+    query_tokens = tokenize_for_notes(query)
+    if not query_tokens:
+        return []
+
+    query_set = set(query_tokens)
+    scored = []
+    for chunk in build_notes_index(notes_root):
+        if module_filter and chunk["module"] and chunk["module"] != module_filter:
+            continue
+
+        token_counts = {}
+        for token in chunk["tokens"]:
+            if token in query_set:
+                token_counts[token] = token_counts.get(token, 0) + 1
+
+        score = sum(min(count, 4) for count in token_counts.values())
+        if module_filter and chunk["module"] == module_filter:
+            score += 4
+        source_lower = chunk["source"].lower()
+        score += sum(3 for token in query_set if token in source_lower)
+
+        if score > 0:
+            scored.append((score, chunk))
+
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [chunk for _, chunk in scored[:limit]]
+
+
+def note_context_for_prompt(chunks: list) -> str:
+    parts = []
+    for i, chunk in enumerate(chunks, 1):
+        parts.append(
+            f"[{i}] Source: {chunk['source']}, page {chunk['page']}\n"
+            f"{chunk['text']}"
+        )
+    return "\n\n".join(parts)
 
 
 def extract_dot(text: str) -> str:
@@ -597,6 +726,10 @@ if st.session_state.image_files:
         img_name = st.session_state.image_files[q_index]
         img_path = os.path.join(folder_path, img_name)
         generated_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
+        note_module_filter = infer_module_key(current_course_key, img_name)
+        note_query = build_note_query(current_course_key, selected_topic, selected_subtopic, img_name)
+        with st.spinner("Indexing and searching your notes..."):
+            relevant_note_chunks = search_note_chunks(NOTES_ROOT, note_query, note_module_filter)
 
         if q_index not in st.session_state.questions:
             cached_question = load_generated_question(generated_question_key)
@@ -608,11 +741,22 @@ if st.session_state.image_files:
             current_question = st.session_state.question_index + 1
             st.markdown(f"### 📘 Question {current_question} of {total_questions}")
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
+            if relevant_note_chunks:
+                with st.expander("📚 Related Notes", expanded=False):
+                    for note in relevant_note_chunks:
+                        snippet = note["text"][:700].strip()
+                        if len(note["text"]) > 700:
+                            snippet += "..."
+                        st.markdown(f"**{note['source']}**, page {note['page']}")
+                        st.caption(snippet)
+            elif os.path.isdir(NOTES_ROOT):
+                st.caption("No closely related note snippets found for this question.")
         # Explain / Video / Generate (in col2)
         with col2:
-            c1, c2 = st.columns(2)
+            c1, c2, c3 = st.columns(3)
             has_text_answer = load_saved_answer(generated_question_key, "text") is not None
             has_graph_answer = load_saved_answer(generated_question_key, "graph") is not None
+            has_notes_answer = load_saved_answer(generated_question_key, "notes") is not None
             clicked_explain = c1.button(
                 "🧠 Show Text Answer" if has_text_answer else "🧠 Answer with Text",
                 key=f"explain_{q_index}",
@@ -623,6 +767,16 @@ if st.session_state.image_files:
                 key=f"graph_{q_index}",
             )
             clicked_graph_regen = c2.button("🔄 Regenerate Graph", key=f"regen_graph_{q_index}")
+            clicked_notes = c3.button(
+                "📚 Show Notes Answer" if has_notes_answer else "📚 Explain using Notes",
+                key=f"notes_answer_{q_index}",
+                disabled=not relevant_note_chunks,
+            )
+            clicked_notes_regen = c3.button(
+                "🔄 Regenerate Notes",
+                key=f"regen_notes_{q_index}",
+                disabled=not relevant_note_chunks,
+            )
 
             if clicked_explain or clicked_text_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
@@ -645,6 +799,36 @@ if st.session_state.image_files:
                         save_answer(generated_question_key, "text", reply)
 
                     st.markdown("#### ✅ Answer")
+                    st.markdown(reply)
+
+            if clicked_notes or clicked_notes_regen:
+                with st.spinner("Using your notes to explain this question..."):
+                    reply = None if clicked_notes_regen else load_saved_answer(generated_question_key, "notes")
+                    if reply is None:
+                        notes_context = note_context_for_prompt(relevant_note_chunks)
+                        prompt_answer = f"""
+You are a top HSC Physics teacher. Use the student's HSC Physics notes below as the primary source for the explanation, then read the question image and answer it.
+
+Requirements:
+- Give the final answer first.
+- Explain the reasoning in clear HSC Physics language.
+- Connect the solution to the relevant note concepts.
+- Cite note sources inline using the supplied source labels, for example: [1], [2].
+- If the notes do not contain enough information, say what is inferred from the image.
+- Format LaTeX math with `$...$` or `$$...$$`.
+
+Student notes:
+{notes_context}
+"""
+                        with open(img_path, "rb") as img_file:
+                            img_bytes = img_file.read()
+                        image = Image.open(BytesIO(img_bytes))
+
+                        response = call_model(prompt_answer, image)
+                        reply = response.text
+                        save_answer(generated_question_key, "notes", reply)
+
+                    st.markdown("#### 📚 Answer Using Your Notes")
                     st.markdown(reply)
 
             if clicked_graph or clicked_graph_regen:
