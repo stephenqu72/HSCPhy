@@ -868,13 +868,13 @@ You are an expert NSW HSC Physics teacher. Based on the image below, recommend o
 Priority:
 1. Prioritise Science Ready HSC Physics tutorial videos on YouTube.
 2. If a Science Ready video is relevant, recommend it before any other channel.
-3. Avoid inventing direct YouTube watch URLs or video IDs. Only include a direct youtube.com/watch URL if you are highly confident it exists.
-4. If you are not highly confident of an exact video URL, provide a durable YouTube search URL instead, using this pattern:
-   https://www.youtube.com/results?search_query=Science+Ready+HSC+Physics+<topic keywords>
-5. If Science Ready is not suitable for the concept, provide a fallback YouTube search URL for another reliable HSC Physics channel, and explain why.
+3. Provide full direct YouTube links, preferably youtube.com/watch or youtube.com/playlist URLs.
+4. Do NOT provide YouTube search-result URLs.
+5. Do NOT invent video IDs. If you are not confident of an exact Science Ready video URL, provide the most relevant official Science Ready YouTube channel, playlist, or video URL you are confident exists, and explain what the student should look for.
+6. If Science Ready is not suitable for the concept, provide a direct YouTube video or playlist URL from another reliable HSC Physics channel, and explain why.
 
 Please format like:
-- [Science Ready: topic/search title](https://www.youtube.com/results?search_query=Science+Ready+HSC+Physics+...)
+- [Science Ready: video or playlist title](https://www.youtube.com/...)
   Short reason this matches the question.
 """
                 with open(img_path, "rb") as img_file:
