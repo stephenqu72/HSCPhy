@@ -321,26 +321,65 @@ def list_note_pdfs(notes_root: str) -> list:
 
 
 @st.cache_data(show_spinner=False)
-def pdf_data_uri(pdf_path: str) -> str:
-    with open(pdf_path, "rb") as f:
-        encoded = base64.b64encode(f.read()).decode("utf-8")
-    return f"data:application/pdf;base64,{encoded}"
+def pdf_page_count(pdf_path: str) -> int:
+    import fitz
+
+    with fitz.open(pdf_path) as doc:
+        return doc.page_count
 
 
-def show_pdf(pdf_path: str, height: int = 720):
-    data_uri = pdf_data_uri(pdf_path)
-    st.markdown(
-        f"""
-        <iframe
-            src="{data_uri}"
-            width="100%"
-            height="{height}"
-            type="application/pdf"
-            style="border: 1px solid #ddd; border-radius: 6px;">
-        </iframe>
-        """,
-        unsafe_allow_html=True,
-    )
+@st.cache_data(show_spinner=False)
+def render_pdf_page(pdf_path: str, page_number: int, zoom: float = 1.8) -> bytes:
+    import fitz
+
+    with fitz.open(pdf_path) as doc:
+        page = doc.load_page(page_number - 1)
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
+        return pix.tobytes("png")
+
+
+def show_pdf_page_viewer(pdf_path: str, viewer_key: str):
+    try:
+        total_pages = pdf_page_count(pdf_path)
+    except ImportError:
+        st.error("PyMuPDF is required to render PDF notes. Install the PyMuPDF package.")
+        return
+    except Exception as e:
+        st.warning(f"⚠️ Unable to open this PDF: {e}")
+        return
+
+    if total_pages <= 0:
+        st.warning("⚠️ This PDF has no pages to show.")
+        return
+
+    page_key = f"note_page_{viewer_key}"
+    if page_key not in st.session_state:
+        st.session_state[page_key] = 1
+    st.session_state[page_key] = min(max(st.session_state[page_key], 1), total_pages)
+
+    nav_prev, nav_page, nav_next = st.columns([1, 2, 1])
+    with nav_prev:
+        if st.button("⬅️ Previous page", key=f"prev_{viewer_key}", disabled=st.session_state[page_key] <= 1):
+            st.session_state[page_key] -= 1
+    with nav_page:
+        st.number_input(
+            "Page",
+            min_value=1,
+            max_value=total_pages,
+            step=1,
+            key=page_key,
+            label_visibility="collapsed",
+        )
+        st.caption(f"Page {st.session_state[page_key]} of {total_pages}")
+    with nav_next:
+        if st.button("Next page ➡️", key=f"next_{viewer_key}", disabled=st.session_state[page_key] >= total_pages):
+            st.session_state[page_key] += 1
+
+    try:
+        page_png = render_pdf_page(pdf_path, st.session_state[page_key])
+        st.image(page_png, use_container_width=True)
+    except Exception as e:
+        st.warning(f"⚠️ Unable to render this PDF page: {e}")
 
 
 def extract_dot(text: str) -> str:
@@ -658,7 +697,8 @@ if st.session_state.image_files:
                 selected_note_path = os.path.join(NOTES_ROOT, selected_note_pdf)
                 with st.expander(f"📚 Note: {selected_note_pdf}", expanded=True):
                     if os.path.exists(selected_note_path):
-                        show_pdf(selected_note_path)
+                        viewer_key = hashlib.sha1(selected_note_pdf.encode("utf-8")).hexdigest()
+                        show_pdf_page_viewer(selected_note_path, viewer_key)
                     else:
                         st.warning(f"⚠️ Note PDF not found: {selected_note_path}")
         # Explain / Video / Generate (in col2)
