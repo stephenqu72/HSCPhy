@@ -863,9 +863,19 @@ if st.session_state.image_files:
         with col2:
             if st.button("🎮 Video Help", key=f"video_{q_index}"):
                 video_prompt = """
-You are an expert HSC teacher. Based on the image below, recommend one or two specific YouTube video tutorials (with full URLs) that help explain the concepts or topic shown. Include a short description of each video.
+You are an expert NSW HSC Physics teacher. Based on the image below, recommend one or two YouTube tutorial resources that help explain the concepts or topic shown.
+
+Priority:
+1. Prioritise Science Ready HSC Physics tutorial videos on YouTube.
+2. If a Science Ready video is relevant, recommend it before any other channel.
+3. Avoid inventing direct YouTube watch URLs or video IDs. Only include a direct youtube.com/watch URL if you are highly confident it exists.
+4. If you are not highly confident of an exact video URL, provide a durable YouTube search URL instead, using this pattern:
+   https://www.youtube.com/results?search_query=Science+Ready+HSC+Physics+<topic keywords>
+5. If Science Ready is not suitable for the concept, provide a fallback YouTube search URL for another reliable HSC Physics channel, and explain why.
+
 Please format like:
-- [Video Title](https://youtube.com/...)
+- [Science Ready: topic/search title](https://www.youtube.com/results?search_query=Science+Ready+HSC+Physics+...)
+  Short reason this matches the question.
 """
                 with open(img_path, "rb") as img_file:
                     img_bytes = img_file.read()
