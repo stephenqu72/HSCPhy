@@ -381,7 +381,10 @@ st.sidebar.markdown("## 🧭 Select Practice Mode")
 mode = st.sidebar.radio("Choose practice mode:", ["Topic by Topic", "Past Paper"], key="practice_mode")
 
 base_root = os.path.join(BASE_ROOT, course_level)
-if not os.path.isdir(base_root):
+if not os.path.isdir(BASE_ROOT):
+    st.warning(f"⚠️ The path '{BASE_ROOT}' was not found. Please check your course folder structure.")
+    st.stop()
+if mode == "Topic by Topic" and not os.path.isdir(base_root):
     st.warning(f"⚠️ The path '{base_root}' was not found. Please check your course folder structure.")
     st.stop()
 
@@ -394,7 +397,7 @@ selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite",
 ############################################
 past_paper_images = []
 if mode == "Past Paper":
-    list_file_path = os.path.join(BASE_ROOT, f"{course_level}_List.txt")
+    list_file_path = os.path.join(BASE_ROOT, "Physics_List.txt")
     if not os.path.exists(list_file_path):
         st.error(f"❌ Past paper list file '{list_file_path}' not found in BASE_ROOT.")
         st.stop()
@@ -405,7 +408,7 @@ if mode == "Past Paper":
     selected_paper = st.sidebar.selectbox("📄 Select Past Paper:", paper_names)
     st.session_state.selected_paper = selected_paper
 
-    question_library = os.path.join(BASE_ROOT, course_level)
+    question_library = BASE_ROOT
     if not os.path.exists(question_library):
         st.error(f"❌ Question library folder not found at: {question_library}")
         st.stop()
@@ -463,7 +466,7 @@ else:
 # ---------- Selection Changed ----------
 ############################################
 selection_changed = (
-    st.session_state.last_selected_course != course_level or
+    st.session_state.last_selected_course != ("Physics" if mode == "Past Paper" else course_level) or
     st.session_state.last_selected_topic != st.session_state.get("last_selected_topic") or
     st.session_state.last_selected_subtopic != st.session_state.get("last_selected_subtopic") or
     st.session_state.last_mode != mode or
@@ -472,7 +475,7 @@ selection_changed = (
 
 if selection_changed:
     st.session_state.question_index = 0
-    st.session_state.last_selected_course = course_level
+    st.session_state.last_selected_course = "Physics" if mode == "Past Paper" else course_level
     st.session_state.last_selected_topic = st.session_state.get("last_selected_topic")
     st.session_state.last_selected_subtopic = st.session_state.get("last_selected_subtopic")
     st.session_state.last_mode = mode
@@ -482,7 +485,8 @@ if selection_changed:
 ############################################
 # ---------- Per-user, per-course feedback LOG (append-only) ----------
 ############################################
-FEEDBACK_FILE = os.path.join(user_fb_dir, f"question_feedback_{course_level}.json")
+feedback_course = "Physics" if mode == "Past Paper" else course_level
+FEEDBACK_FILE = os.path.join(user_fb_dir, f"question_feedback_{feedback_course}.json")
 st.sidebar.caption(f"🗂️ Feedback log (per-user, append-only): **{FEEDBACK_FILE}**")
 
 ############################################
@@ -756,7 +760,7 @@ Please format like:
         # 📝 Feedback & Notes Section (append-only log + auto-load previous notes)
         with col1:
             st.markdown("### 📝 Your Feedback")
-            feedback_key = f"{course_level}/{selected_topic}/{selected_subtopic}/{img_name}"
+            feedback_key = f"{feedback_course}/{selected_topic}/{selected_subtopic}/{img_name}"
             # --- Load ALL previous notes immediately when question loads ---
             history = get_all_feedback_for_key(FEEDBACK_FILE, feedback_key)
             if history:
@@ -801,7 +805,7 @@ Please format like:
                 entry = {
                     "ts": datetime.utcnow().isoformat() + "Z",
                     "user": current_user,
-                    "course": course_level,
+                    "course": feedback_course,
                     "topic": selected_topic,
                     "subtopic": selected_subtopic,
                     "image": img_name,
