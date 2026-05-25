@@ -353,27 +353,50 @@ def show_pdf_page_viewer(pdf_path: str, viewer_key: str):
         return
 
     page_key = f"note_page_{viewer_key}"
+    input_key = f"note_page_input_{viewer_key}"
     if page_key not in st.session_state:
         st.session_state[page_key] = 1
     st.session_state[page_key] = min(max(st.session_state[page_key], 1), total_pages)
+    if input_key not in st.session_state:
+        st.session_state[input_key] = st.session_state[page_key]
+    st.session_state[input_key] = min(max(st.session_state[input_key], 1), total_pages)
+
+    def set_note_page(delta=0):
+        next_page = min(max(st.session_state[page_key] + delta, 1), total_pages)
+        st.session_state[page_key] = next_page
+        st.session_state[input_key] = next_page
+
+    def sync_note_page_input():
+        st.session_state[page_key] = min(max(st.session_state[input_key], 1), total_pages)
 
     nav_prev, nav_page, nav_next = st.columns([1, 2, 1])
     with nav_prev:
-        if st.button("⬅️ Previous page", key=f"prev_{viewer_key}", disabled=st.session_state[page_key] <= 1):
-            st.session_state[page_key] -= 1
+        st.button(
+            "⬅️ Previous page",
+            key=f"prev_{viewer_key}",
+            disabled=st.session_state[page_key] <= 1,
+            on_click=set_note_page,
+            args=(-1,),
+        )
     with nav_page:
         st.number_input(
             "Page",
             min_value=1,
             max_value=total_pages,
             step=1,
-            key=page_key,
+            key=input_key,
+            on_change=sync_note_page_input,
             label_visibility="collapsed",
         )
         st.caption(f"Page {st.session_state[page_key]} of {total_pages}")
     with nav_next:
-        if st.button("Next page ➡️", key=f"next_{viewer_key}", disabled=st.session_state[page_key] >= total_pages):
-            st.session_state[page_key] += 1
+        st.button(
+            "Next page ➡️",
+            key=f"next_{viewer_key}",
+            disabled=st.session_state[page_key] >= total_pages,
+            on_click=set_note_page,
+            args=(1,),
+        )
 
     try:
         page_png = render_pdf_page(pdf_path, st.session_state[page_key])
