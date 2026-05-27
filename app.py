@@ -776,8 +776,9 @@ if st.session_state.image_files:
                         ###ANSWER
                         (write the final answer only, concise)
 
-                        ###PLOT_CODE (optional)
-                        # Python code that defines generate_plot() and returns a Plotly or Matplotlib figure as `fig`
+                        ###PLOT_CODE
+                        If a helpful graph is needed, provide Python code that defines generate_plot() and returns a Plotly or Matplotlib figure as `fig`.
+                        If no graph is needed, leave this section blank.
                         ###EXPLANATION
                         (step-by-step reasoning, key HSC concepts)
 
@@ -828,8 +829,20 @@ if st.session_state.image_files:
 
                         return cleaned
 
+                    def clean_plot_code(code):
+                        lines = []
+                        for line in (code or "").splitlines():
+                            stripped = line.strip()
+                            if stripped.lower() in {"(optional)", "optional"}:
+                                continue
+                            if stripped.startswith("# Python code that defines generate_plot"):
+                                continue
+                            lines.append(line)
+                        cleaned = "\n".join(lines).strip()
+                        return cleaned if "def generate_plot" in cleaned else ""
+
                     data["ANSWER"]       = extract_section(raw, "ANSWER")
-                    data["PLOT_CODE"]    = extract_section(raw, "PLOT_CODE")
+                    data["PLOT_CODE"]    = clean_plot_code(extract_section(raw, "PLOT_CODE"))
                     data["EXPLANATION"]  = extract_section(raw, "EXPLANATION")
                     data["OTHERS"]       = extract_section(raw, "OTHERS")
                     
