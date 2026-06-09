@@ -219,24 +219,93 @@ def append_json_log(path: str, entry: dict):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def get_last_feedback_for_key(path: str, key: str):
-    """Return the most recent feedback entry for a given logical key (or None)."""
-    data = read_json_list(path)
-    for item in reversed(data):
-        if item.get("key") == key:
-            return item
-    return None
+QUESTION_TYPES = [
+    "Multiple choice",
+    "Short answer",
+    "Calculation question",
+    "Essay",
+    "Experimental questions",
+    "Data analysis questions",
+    "Other questions",
+]
+QUESTION_TYPE_FILTERS = ["All types"] + QUESTION_TYPES
+DEFAULT_QUESTION_TYPE = "Other questions"
 
-def get_all_feedback_for_key(path: str, key: str):
-    """Return all feedback entries for a key, sorted ascending by timestamp."""
-    data = [d for d in read_json_list(path) if d.get("key") == key]
-    def _parse_ts(x):
-        try:
-            return datetime.fromisoformat(x.replace("Z", "+00:00"))
-        except Exception:
-            return datetime.min
-    data.sort(key=lambda d: _parse_ts(d.get("ts", "")))
-    return data
+
+def normalize_question_type(value: str) -> str:
+    cleaned = (value or "").strip().lower()
+    aliases = {
+        "multiple choice": "Multiple choice",
+        "multiple-choice": "Multiple choice",
+        "mcq": "Multiple choice",
+        "short answer": "Short answer",
+        "short-answer": "Short answer",
+        "calculation": "Calculation question",
+        "calculation question": "Calculation question",
+        "numerical": "Calculation question",
+        "essay": "Essay",
+        "extended response": "Essay",
+        "experimental": "Experimental questions",
+        "experiment": "Experimental questions",
+        "experimental question": "Experimental questions",
+        "experimental questions": "Experimental questions",
+        "data analysis": "Data analysis questions",
+        "data analysis question": "Data analysis questions",
+        "data analysis questions": "Data analysis questions",
+        "other": "Other questions",
+        "other question": "Other questions",
+        "other questions": "Other questions",
+    }
+    return aliases.get(cleaned, DEFAULT_QUESTION_TYPE)
+
+
+def read_json_dict(path: str) -> dict:
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def get_question_type(path: str, key: str) -> str:
+    data = read_json_dict(path)
+    entry = data.get(key, {})
+    if isinstance(entry, dict):
+        return normalize_question_type(entry.get("type"))
+    return normalize_question_type(entry)
+
+
+def question_type_exists(path: str, key: str) -> bool:
+    return key in read_json_dict(path)
+
+
+def save_question_type(path: str, key: str, question_type: str, metadata: dict):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    data = read_json_dict(path)
+    data[key] = {
+        **metadata,
+        "type": normalize_question_type(question_type),
+        "updated": datetime.utcnow().isoformat() + "Z",
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def classify_question_type_from_text(text: str) -> str:
+    match = re.search(r"###QUESTION_TYPE\s*([\s\S]*?)(?=###|$)", text or "", re.IGNORECASE)
+    if match:
+        return normalize_question_type(match.group(1).strip())
+    match = re.search(r"Question\s*Type\s*:\s*(.+)", text or "", re.IGNORECASE)
+    if match:
+        return normalize_question_type(match.group(1).strip())
+    return DEFAULT_QUESTION_TYPE
+
+
+def strip_question_type_section(text: str) -> str:
+    return re.sub(r"\n?\s*###QUESTION_TYPE\s*[\s\S]*?(?=\n\s*###|$)", "", text or "", flags=re.IGNORECASE).strip()
 
 
 def question_cache_key(course: str, topic: str, subtopic: str, image_name: str) -> str:
@@ -527,6 +596,7 @@ _defaults = {
     "last_selected_course": None,
     "last_selected_topic": None,
     "last_selected_subtopic": None,
+    "last_selected_question_type": None,
     "feedback_cache": {},
     "thinking_map_dot": "",
     "last_mode": None,
@@ -623,10 +693,20 @@ else:
     selected_subtopic = st.sidebar.selectbox("📁 Sub-topic:", subtopics)
     folder_path = os.path.join(subtopic_path, selected_subtopic)
 
-    if st.session_state.folder != folder_path:
-        image_files = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(".png")])
-        st.session_state.folder = folder_path
-        st.session_state.image_files = image_files
+    question_type_file = os.path.join(user_fb_dir, f"question_type_{course_level}.json")
+    selected_question_type = st.sidebar.selectbox("🏷️ Type of question:", QUESTION_TYPE_FILTERS, key="question_type_filter")
+
+    image_files = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(".png")])
+    if selected_question_type != "All types":
+        image_files = [
+            f for f in image_files
+            if get_question_type(
+                question_type_file,
+                question_cache_key(course_level, selected_topic, selected_subtopic, f),
+            ) == selected_question_type
+        ]
+    st.session_state.folder = folder_path
+    st.session_state.image_files = image_files
 
 # Determine full image path depending on mode
 if mode == "Past Paper":
@@ -642,6 +722,7 @@ current_course_key = "Physics" if mode == "Past Paper" else course_level
 current_topic_key = selected_topic
 current_subtopic_key = selected_subtopic
 current_paper_key = st.session_state.get("selected_paper", "") if mode == "Past Paper" else ""
+current_question_type_key = selected_question_type if mode == "Topic by Topic" else "All types"
 
 ############################################
 # ---------- Selection Changed ----------
@@ -650,6 +731,7 @@ selection_changed = (
     st.session_state.last_selected_course != current_course_key or
     st.session_state.last_selected_topic != current_topic_key or
     st.session_state.last_selected_subtopic != current_subtopic_key or
+    st.session_state.last_selected_question_type != current_question_type_key or
     st.session_state.last_mode != mode or
     st.session_state.last_paper != current_paper_key
 )
@@ -662,16 +744,16 @@ if selection_changed:
     st.session_state.last_selected_course = current_course_key
     st.session_state.last_selected_topic = current_topic_key
     st.session_state.last_selected_subtopic = current_subtopic_key
+    st.session_state.last_selected_question_type = current_question_type_key
     st.session_state.last_mode = mode
     st.session_state.last_paper = current_paper_key
     st.session_state.thinking_map_dot = ""
 
 ############################################
-# ---------- Per-user, per-course feedback LOG (append-only) ----------
+# ---------- Per-user, per-course question type tags ----------
 ############################################
-feedback_course = current_course_key
-FEEDBACK_FILE = os.path.join(user_fb_dir, f"question_feedback_{feedback_course}.json")
-st.sidebar.caption(f"🗂️ Feedback log (per-user, append-only): **{FEEDBACK_FILE}**")
+question_type_course = current_course_key
+QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_course}.json")
 
 ############################################
 # ---------- Main layout ----------
@@ -705,6 +787,7 @@ if st.session_state.image_files:
         img_name = st.session_state.image_files[q_index]
         img_path = os.path.join(folder_path, img_name)
         generated_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
+        current_question_type = get_question_type(QUESTION_TYPE_FILE, generated_question_key)
 
         if q_index not in st.session_state.questions:
             cached_question = load_generated_question(generated_question_key)
@@ -716,6 +799,7 @@ if st.session_state.image_files:
             current_question = st.session_state.question_index + 1
             st.markdown(f"### 📘 Question {current_question} of {total_questions}")
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
+            st.caption(f"🏷️ Type of question: {current_question_type}")
             if selected_note_pdf:
                 selected_note_path = os.path.join(NOTES_ROOT, selected_note_pdf)
                 with st.expander(f"📚 Note: {selected_note_pdf}", expanded=True):
@@ -744,6 +828,20 @@ if st.session_state.image_files:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
                     prompt_answer = """
     You are a top HSC teacher. Read the image and question below, then ANSWER the question and EXPLAIN how to solve it.
+
+    Also classify the question into exactly one of these types:
+    Multiple choice
+    Short answer
+    Calculation question
+    Essay
+    Experimental questions
+    Data analysis questions
+    Other questions
+
+    At the very end, add this exact section:
+    ###QUESTION_TYPE
+    <one exact type from the list>
+
     ⚠️ IMPORTANT: Please format all LaTeX math expressions using:
     - `$...$` for inline math
     - `$$...$$` for block math
@@ -760,8 +858,48 @@ if st.session_state.image_files:
                         reply = response.text
                         save_answer(generated_question_key, "text", reply)
 
+                    question_type = classify_question_type_from_text(reply)
+                    if (
+                        question_type == DEFAULT_QUESTION_TYPE
+                        and "###QUESTION_TYPE" not in reply
+                        and (
+                            clicked_text_regen
+                            or not question_type_exists(QUESTION_TYPE_FILE, generated_question_key)
+                        )
+                    ):
+                        classify_prompt = """
+Classify the HSC Physics question in this image into exactly one of these types:
+Multiple choice
+Short answer
+Calculation question
+Essay
+Experimental questions
+Data analysis questions
+Other questions
+
+Return only the exact type text and nothing else.
+"""
+                        with open(img_path, "rb") as img_file:
+                            img_bytes = img_file.read()
+                        image = Image.open(BytesIO(img_bytes))
+                        question_type = normalize_question_type(call_model(classify_prompt, image).text)
+
+                    save_question_type(
+                        QUESTION_TYPE_FILE,
+                        generated_question_key,
+                        question_type,
+                        {
+                            "user": current_user,
+                            "course": question_type_course,
+                            "topic": selected_topic,
+                            "subtopic": selected_subtopic,
+                            "image": img_name,
+                            "question_number": q_index + 1,
+                        },
+                    )
                     st.markdown("#### ✅ Answer")
-                    st.markdown(reply)
+                    st.caption(f"Question type: {question_type}")
+                    st.markdown(strip_question_type_section(reply))
 
             if clicked_graph or clicked_graph_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
@@ -962,66 +1100,6 @@ Please format like:
                     else:
                         st.info(f"✅ Your answer is saved. Here's the marking guide or solution:\n\n**{correct}**")
 
-        # 📝 Feedback & Notes Section (append-only log + auto-load previous notes)
-        with col1:
-            st.markdown("### 📝 Your Feedback")
-            feedback_key = f"{feedback_course}/{selected_topic}/{selected_subtopic}/{img_name}"
-            # --- Load ALL previous notes immediately when question loads ---
-            history = get_all_feedback_for_key(FEEDBACK_FILE, feedback_key)
-            if history:
-                with st.expander("📚 Previous notes & statuses (this question)", expanded=True):
-                    for i, h in enumerate(history, 1):
-                        st.markdown(
-                            f"**{i}. {h.get('ts','')}** — **{h.get('status','')}**<br/>"
-                            f"{(h.get('note') or '').strip()}",
-                            unsafe_allow_html=True,
-                        )
-            else:
-                st.info("No previous notes yet for this question.")
-
-            # Use the most recent entry to prefill
-            last = history[-1] if history else None
-
-            feedback_options = {
-                "good": "✅ I am good on this question",
-                "review": "🔄 I need to review this question",
-                "challenge": "❗ It is challenging and I need more understanding",
-            }
-
-            default_index = 1
-            if last and last.get("status") in feedback_options:
-                default_index = list(feedback_options.keys()).index(last["status"])
-
-            selected_feedback = st.radio(
-                "🗣️ How do you feel about this question?",
-                list(feedback_options.keys()),
-                format_func=lambda x: feedback_options[x],
-                index=default_index,
-                key=f"feedback_{q_index}",
-            )
-
-            user_note = st.text_area(
-                "📝 Your personal note:",
-                value=last.get("note", "") if last else "",
-                key=f"note_{q_index}",
-            )
-
-            if st.button("💾 Save Feedback (Append)", key=f"save_{q_index}"):
-                entry = {
-                    "ts": datetime.utcnow().isoformat() + "Z",
-                    "user": current_user,
-                    "course": feedback_course,
-                    "topic": selected_topic,
-                    "subtopic": selected_subtopic,
-                    "image": img_name,
-                    "key": feedback_key,
-                    "status": selected_feedback,
-                    "question_number": st.session_state.question_number,  # or another source
-                    "note": user_note,
-                }
-                append_json_log(FEEDBACK_FILE, entry)
-                st.success("✅ Logged! (Appended to feedback file)")
-
         with col2:
             # 🔮 Gemini Chatbox on Main Page (latest on top)
             st.markdown("### 🤖 Chat with Gemini about this Question")
@@ -1067,95 +1145,6 @@ Please format like:
                         st.markdown(message)
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")
-
-import pandas as pd
-
-if mode == "Past Paper":
-    if st.sidebar.button("📊 Show Past Paper Summary"):
-        st.markdown("## 📊 Past Paper Feedback Summary")
-
-        # Load all feedback entries for this user and course
-        all_feedback = read_json_list(FEEDBACK_FILE)
-
-        # Filter for only past paper entries (topic == "PastPaper")
-        current_paper = st.session_state.get("selected_paper", "")
-        past_paper_feedback = [
-            fb for fb in all_feedback
-            if fb.get("topic") == "PastPaper" and fb.get("subtopic") == current_paper.replace(" ", "_")
-        ]
-
-        if not past_paper_feedback:
-            st.info("ℹ️ No past paper feedback available yet.")
-        else:
-            # Build a nested dictionary: { paper: { Q#: feedback_status } }
-            summary = {}
-            for fb in past_paper_feedback:
-                paper = fb.get("subtopic", "Unknown Paper")
-                image = fb.get("image", "")
-                q_num = fb.get("question_number")
-                if not q_num:
-                    continue  # skip if missing
-
-                feedback_status = fb.get("status", "-")
-
-                if paper not in summary:
-                    summary[paper] = {}
-                summary[paper][q_num] = feedback_status
-
-            # Determine the max number of questions for column layout
-            max_q = max((max(qs.keys()) for qs in summary.values()), default=0)
-            df = pd.DataFrame([
-                {"Past Paper": paper, **{f"Q{q}": status for q, status in questions.items()}}
-                for paper, questions in summary.items()
-            ])
-
-            # Reorder columns: put 'Past Paper' first, then Q1, Q2, ...
-            desired_columns = ["Past Paper"] + [f"Q{i}" for i in range(1, max_q + 1)]
-            df = df.reindex(columns=desired_columns, fill_value="-")
-
-            df.fillna("-", inplace=True)
-
-            # Style feedback cells
-            def style_feedback(val):
-                color_map = {
-                    "good": "#a7f3d0",
-                    "review": "#fde68a",
-                    "challenge": "#fca5a5",
-                }
-                color = color_map.get(val, "")
-                if color:
-                    return f"background-color: {color}; color: transparent;"  # Hide text
-                return ""
-
-            # Assumes: df contains columns like "Past Paper", "Q1", ..., "Q20"
-            chunk_size = 10
-
-            # Extract only question columns (Q1, Q2, ...)
-            question_cols = [col for col in df.columns if col.startswith("Q")]
-            chunks = [question_cols[i:i + chunk_size] for i in range(0, len(question_cols), chunk_size)]
-
-            for chunk in chunks:
-                display_cols = ["Past Paper"] + chunk
-                sub_df = df[display_cols]
-
-                styled_chunk = sub_df.style.map(style_feedback, subset=chunk)
-
-                # Optional: Add section header
-                q_start = chunk[0]
-                q_end = chunk[-1]
-                
-                st.table(styled_chunk)
-
-            # Add legend
-            st.markdown("""
-                <div style='margin-top:10px;'>
-                <strong>Legend:</strong><br>
-                <span style='background-color:#a7f3d0;padding:4px;'>✅ good</span>
-                <span style='background-color:#fde68a;padding:4px;'>🔄 review</span>
-                <span style='background-color:#fca5a5;padding:4px;'>❗ challenge</span>
-                <span style='padding:4px;'>➖ no feedback</span>
-                </div>
-            """, unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("<p style='text-align:center; font-size:16px;'>👧 Keep going! Every question makes you stronger 💪 and smarter 🧠.</p>", unsafe_allow_html=True)
