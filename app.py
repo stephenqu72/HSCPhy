@@ -79,7 +79,7 @@ if "auth_user" not in st.session_state:
 
 st.markdown("<h1 style='text-align: center;'> Your personal HSC Assistant ✨</h1>", unsafe_allow_html=True)
 
-with st.expander("🔐 Sign in (Auto sign-up if no account)", expanded=st.session_state.auth_user is None):
+if st.session_state.auth_user is None:
     colA, colB = st.columns([2, 1])
     with colA:
         username = st.text_input("Username (e.g., email)", key="login_user")
