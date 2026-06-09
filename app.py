@@ -308,6 +308,83 @@ def strip_question_type_section(text: str) -> str:
     return re.sub(r"\n?\s*###QUESTION_TYPE\s*[\s\S]*?(?=\n\s*###|$)", "", text or "", flags=re.IGNORECASE).strip()
 
 
+def extract_answer_section(text, key):
+    marker = f"###{key}"
+    if marker not in text:
+        return ""
+
+    part = text.split(marker, 1)[1]
+    for next_header in ["###ANSWER", "###PLOT_CODE", "###EXPLANATION", "###OTHERS"]:
+        if next_header != marker and next_header in part:
+            part = part.split(next_header, 1)[0]
+
+    cleaned = part.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.lstrip("`")
+        cleaned = cleaned.lstrip("python")
+        cleaned = cleaned.strip()
+    if cleaned.endswith("```"):
+        cleaned = cleaned[:-3].rstrip()
+    return cleaned
+
+
+def clean_plot_code(code):
+    lines = []
+    for line in (code or "").splitlines():
+        stripped = line.strip()
+        if stripped.lower() in {"(optional)", "optional"}:
+            continue
+        if stripped.startswith("# Python code that defines generate_plot"):
+            continue
+        lines.append(line)
+    cleaned = "\n".join(lines).strip()
+    return cleaned if "def generate_plot" in cleaned else ""
+
+
+def parse_graph_answer(raw: str) -> dict:
+    return {
+        "ANSWER": extract_answer_section(raw, "ANSWER"),
+        "PLOT_CODE": clean_plot_code(extract_answer_section(raw, "PLOT_CODE")),
+        "EXPLANATION": extract_answer_section(raw, "EXPLANATION"),
+        "OTHERS": extract_answer_section(raw, "OTHERS"),
+    }
+
+
+def display_text_answer(reply: str, question_type: str):
+    st.markdown("#### ✅ Answer")
+    st.caption(f"Question type: {question_type}")
+    st.markdown(strip_question_type_section(reply))
+
+
+def display_graph_answer(raw: str, base_no_ext: str):
+    data = parse_graph_answer(raw)
+
+    if data["ANSWER"]:
+        st.markdown("#### ✅ Answer")
+        st.markdown(data["ANSWER"])
+
+    if data["PLOT_CODE"]:
+        try:
+            explain_py = os.path.join(user_tmp_dir, f"explain_plot_{base_no_ext}.py")
+            with open(explain_py, "w", encoding="utf-8") as f:
+                f.write(data["PLOT_CODE"])
+
+            mod = load_plot_module(explain_py)
+            fig = getattr(mod, "generate_plot", lambda: None)()
+            if fig is not None:
+                st.plotly_chart(fig, use_container_width=True)
+        except Exception as e:
+            st.warning(f"⚠️ Unable to execute plot code: {e}")
+
+    if data["EXPLANATION"]:
+        st.markdown("#### 📘 Detailed Explanation")
+        st.markdown(data["EXPLANATION"])
+
+    if data["OTHERS"]:
+        st.markdown("#### 🧩 Other Information")
+        st.markdown(data["OTHERS"])
+
+
 def question_cache_key(course: str, topic: str, subtopic: str, image_name: str) -> str:
     return f"{course}/{topic}/{subtopic}/{image_name}"
 
@@ -602,6 +679,8 @@ _defaults = {
     "last_mode": None,
     "last_paper": None,
     "selected_paper": "",
+    "visible_text_answers": {},
+    "visible_graph_answers": {},
 }
 for k, v in _defaults.items():
     if k not in st.session_state:
@@ -808,6 +887,41 @@ if st.session_state.image_files:
                         show_pdf_page_viewer(selected_note_path, viewer_key)
                     else:
                         st.warning(f"⚠️ Note PDF not found: {selected_note_path}")
+
+            st.markdown("### 🤖 Chat with Gemini about this Question")
+            if "gemini_chat_history" not in st.session_state:
+                st.session_state.gemini_chat_history = []
+
+            with st.expander("💬 Open Chat with Gemini", expanded=True):
+                user_input = st.chat_input("Ask a question about the image, explanation, or topic...")
+                if user_input:
+                    with st.chat_message("user"):
+                        st.markdown(user_input)
+                    st.session_state.gemini_chat_history.append(("user", user_input))
+
+                    if st.session_state.image_files and 0 <= q_index < len(st.session_state.image_files):
+                        with open(img_path, "rb") as f:
+                            image = Image.open(BytesIO(f.read()))
+
+                        model = genai.GenerativeModel(selected_model)
+                        with st.spinner("Gemini is thinking..."):
+                            try:
+                                response = model.generate_content([user_input, image])
+                                reply = response.text
+                            except Exception as e:
+                                reply = f"❌ Error: {e}"
+                    else:
+                        reply = "⚠️ No image context available."
+
+                    with st.chat_message("assistant"):
+                        st.markdown(reply)
+                    st.session_state.gemini_chat_history.append(("assistant", reply))
+
+                    st.rerun()
+
+                for role, message in reversed(st.session_state.gemini_chat_history):
+                    with st.chat_message(role):
+                        st.markdown(message)
         # Explain / Video / Generate (in col2)
         with col2:
             c1, c2 = st.columns(2)
@@ -897,9 +1011,10 @@ Return only the exact type text and nothing else.
                             "question_number": q_index + 1,
                         },
                     )
-                    st.markdown("#### ✅ Answer")
-                    st.caption(f"Question type: {question_type}")
-                    st.markdown(strip_question_type_section(reply))
+                    st.session_state.visible_text_answers[generated_question_key] = {
+                        "reply": reply,
+                        "question_type": question_type,
+                    }
 
             if clicked_graph or clicked_graph_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
@@ -938,78 +1053,15 @@ Return only the exact type text and nothing else.
                         response = call_model(prompt_answer, image)
                         raw = response.text
                         save_answer(generated_question_key, "graph", raw)
-                    
-                    # ---- Parse sections ----
-                    def extract_section(text, key):
-                        """
-                        Extract a section using ###KEY and removes ``` fences if present.
-                        """
-                        marker = f"###{key}"
-                        if marker not in text:
-                            return ""
+                    st.session_state.visible_graph_answers[generated_question_key] = raw
 
-                        part = text.split(marker, 1)[1]
-
-                        # Stop section at next heading
-                        for next_header in ["###ANSWER", "###PLOT_CODE", "###EXPLANATION", "###OTHERS"]:
-                            if next_header != marker and next_header in part:
-                                part = part.split(next_header, 1)[0]
-
-                        cleaned = part.strip()
-
-                        # ✅ Strip code fences if LLM wrapped it
-                        if cleaned.startswith("```"):
-                            cleaned = cleaned.lstrip("`")  # remove opening backticks
-                            cleaned = cleaned.lstrip("python")  # if format is ```python
-                            cleaned = cleaned.strip()  # remove whitespace
-                        if cleaned.endswith("```"):
-                            cleaned = cleaned[:-3].rstrip()
-
-                        return cleaned
-
-                    def clean_plot_code(code):
-                        lines = []
-                        for line in (code or "").splitlines():
-                            stripped = line.strip()
-                            if stripped.lower() in {"(optional)", "optional"}:
-                                continue
-                            if stripped.startswith("# Python code that defines generate_plot"):
-                                continue
-                            lines.append(line)
-                        cleaned = "\n".join(lines).strip()
-                        return cleaned if "def generate_plot" in cleaned else ""
-
-                    data["ANSWER"]       = extract_section(raw, "ANSWER")
-                    data["PLOT_CODE"]    = clean_plot_code(extract_section(raw, "PLOT_CODE"))
-                    data["EXPLANATION"]  = extract_section(raw, "EXPLANATION")
-                    data["OTHERS"]       = extract_section(raw, "OTHERS")
-                    
-                    # ---- Display ----
-                    if data["ANSWER"]:
-                        st.markdown("#### ✅ Answer")
-                        st.markdown(data["ANSWER"])
-
-                    # plot / code
-                    if data["PLOT_CODE"]:
-                        try:
-                            explain_py = os.path.join(user_tmp_dir, f"explain_plot_{base_no_ext}.py")
-                            with open(explain_py, "w", encoding="utf-8") as f:
-                                f.write(data["PLOT_CODE"])
-
-                            mod = load_plot_module(explain_py)
-                            fig = getattr(mod, "generate_plot", lambda: None)()
-                            if fig is not None:
-                                st.plotly_chart(fig, use_container_width=True)
-                        except Exception as e:
-                            st.warning(f"⚠️ Unable to execute plot code: {e}")
-
-                    if data["EXPLANATION"]:
-                        st.markdown("#### 📘 Detailed Explanation")
-                        st.markdown(data["EXPLANATION"])
-
-                    if data["OTHERS"]:
-                        st.markdown("#### 🧩 Other Information")
-                        st.markdown(data["OTHERS"])
+            visible_text = st.session_state.visible_text_answers.get(generated_question_key)
+            visible_graph = st.session_state.visible_graph_answers.get(generated_question_key)
+            if visible_text:
+                display_text_answer(visible_text["reply"], visible_text["question_type"])
+            if visible_graph:
+                base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
+                display_graph_answer(visible_graph, base_no_ext)
                         
         with col2:
             if st.button("🎮 Video Help", key=f"video_{q_index}"):
@@ -1100,49 +1152,6 @@ Please format like:
                     else:
                         st.info(f"✅ Your answer is saved. Here's the marking guide or solution:\n\n**{correct}**")
 
-        with col2:
-            # 🔮 Gemini Chatbox on Main Page (latest on top)
-            st.markdown("### 🤖 Chat with Gemini about this Question")
-
-            if "gemini_chat_history" not in st.session_state:
-                st.session_state.gemini_chat_history = []
-
-            with st.expander("💬 Open Chat with Gemini", expanded=True):
-                user_input = st.chat_input("Ask a question about the image, explanation, or topic...")
-                if user_input:
-                    # Show user message
-                    with st.chat_message("user"):
-                        st.markdown(user_input)
-                    st.session_state.gemini_chat_history.append(("user", user_input))
-
-                    # Get image for context
-                    if st.session_state.image_files and 0 <= q_index < len(st.session_state.image_files):
-                        img_name = st.session_state.image_files[q_index]
-                        img_path = os.path.join(folder_path, img_name)
-                        with open(img_path, "rb") as f:
-                            image = Image.open(BytesIO(f.read()))
-
-                        model = genai.GenerativeModel(selected_model)
-                        with st.spinner("Gemini is thinking..."):
-                            try:
-                                response = model.generate_content([user_input, image])
-                                reply = response.text
-                            except Exception as e:
-                                reply = f"❌ Error: {e}"
-                    else:
-                        reply = "⚠️ No image context available."
-
-                    # Show assistant response
-                    with st.chat_message("assistant"):
-                        st.markdown(reply)
-                    st.session_state.gemini_chat_history.append(("assistant", reply))
-
-                    st.rerun()  # Refresh UI to show new message at top
-                
-                # Show latest messages at the top
-                for role, message in reversed(st.session_state.gemini_chat_history):
-                    with st.chat_message(role):
-                        st.markdown(message)
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")
 
