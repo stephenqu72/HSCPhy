@@ -478,6 +478,81 @@ def call_model(prompt, image):
     model = genai.GenerativeModel(selected_model)
     return model.generate_content([prompt, image])
 
+
+TEXT_ANSWER_PROMPT = """
+You are a top HSC teacher. Read the image and question below, then ANSWER the question and EXPLAIN how to solve it.
+
+Also classify the question into exactly one of these types:
+Multiple choice
+Short answer
+Calculation question
+Essay
+Experimental questions
+Data analysis questions
+Other questions
+
+At the very end, add this exact section:
+###QUESTION_TYPE
+<one exact type from the list>
+
+⚠️ IMPORTANT: Please format all LaTeX math expressions using:
+- `$...$` for inline math
+- `$$...$$` for block math
+
+Do not use `\\(...\\)` or `\\[...\\]`.
+"""
+
+
+CLASSIFY_QUESTION_TYPE_PROMPT = """
+Classify the HSC Physics question in this image into exactly one of these types:
+Multiple choice
+Short answer
+Calculation question
+Essay
+Experimental questions
+Data analysis questions
+Other questions
+
+Return only the exact type text and nothing else.
+"""
+
+
+def load_image_for_model(img_path: str):
+    with open(img_path, "rb") as img_file:
+        img_bytes = img_file.read()
+    return Image.open(BytesIO(img_bytes))
+
+
+def classify_question_type_from_image(img_path: str) -> str:
+    image = load_image_for_model(img_path)
+    return normalize_question_type(call_model(CLASSIFY_QUESTION_TYPE_PROMPT, image).text)
+
+
+def generate_text_answer_for_question(
+    img_path: str,
+    cache_key: str,
+    question_type_file: str,
+    metadata: dict,
+    force_regen: bool = False,
+):
+    reply = None if force_regen else load_saved_answer(cache_key, "text")
+    if reply is None:
+        image = load_image_for_model(img_path)
+        response = call_model(TEXT_ANSWER_PROMPT, image)
+        reply = response.text
+        save_answer(cache_key, "text", reply)
+
+    question_type = classify_question_type_from_text(reply)
+    if (
+        question_type == DEFAULT_QUESTION_TYPE
+        and "###QUESTION_TYPE" not in reply
+        and (force_regen or not question_type_exists(question_type_file, cache_key))
+    ):
+        question_type = classify_question_type_from_image(img_path)
+
+    save_question_type(question_type_file, cache_key, question_type, metadata)
+    return reply, question_type
+
 ############################################
 # ---------- Session Init ----------
 ############################################
@@ -652,6 +727,56 @@ if selection_changed:
 question_type_course = current_course_key
 QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_course}.json")
 
+st.sidebar.markdown("## ⚙️ Bulk Actions")
+if st.sidebar.button("🧠 Bulk generate Text Answers"):
+    pending_images = [
+        image_name for image_name in st.session_state.image_files
+        if load_saved_answer(
+            question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name),
+            "text",
+        ) is None
+    ]
+
+    if not pending_images:
+        st.sidebar.success("All selected questions already have saved Text Answers.")
+    else:
+        progress = st.sidebar.progress(0, text=f"Starting 0/{len(pending_images)}")
+        status = st.sidebar.empty()
+        generated_count = 0
+        failed_count = 0
+
+        for i, image_name in enumerate(pending_images, 1):
+            cache_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
+            image_path = os.path.join(folder_path, image_name)
+            status.caption(f"Generating {i}/{len(pending_images)}: {os.path.basename(image_name)}")
+
+            try:
+                generate_text_answer_for_question(
+                    image_path,
+                    cache_key,
+                    QUESTION_TYPE_FILE,
+                    {
+                        "user": current_user,
+                        "course": question_type_course,
+                        "topic": selected_topic,
+                        "subtopic": selected_subtopic,
+                        "image": image_name,
+                        "question_number": i,
+                    },
+                    force_regen=False,
+                )
+                generated_count += 1
+            except Exception as e:
+                failed_count += 1
+                status.caption(f"Skipped {os.path.basename(image_name)}: {e}")
+
+            progress.progress(i / len(pending_images), text=f"Generated {i}/{len(pending_images)}")
+
+        if failed_count:
+            st.sidebar.warning(f"Generated {generated_count}; failed {failed_count}.")
+        else:
+            st.sidebar.success(f"Generated {generated_count} Text Answers.")
+
 ############################################
 # ---------- Main layout ----------
 ############################################
@@ -753,68 +878,10 @@ if st.session_state.image_files:
 
             if clicked_explain or clicked_text_regen:
                 with st.spinner("LLM is thinking ... ... 👩‍✨"):
-                    prompt_answer = """
-    You are a top HSC teacher. Read the image and question below, then ANSWER the question and EXPLAIN how to solve it.
-
-    Also classify the question into exactly one of these types:
-    Multiple choice
-    Short answer
-    Calculation question
-    Essay
-    Experimental questions
-    Data analysis questions
-    Other questions
-
-    At the very end, add this exact section:
-    ###QUESTION_TYPE
-    <one exact type from the list>
-
-    ⚠️ IMPORTANT: Please format all LaTeX math expressions using:
-    - `$...$` for inline math
-    - `$$...$$` for block math
-
-    Do not use `\\(...\\)` or `\\[...\\]`.
-"""
-                    reply = None if clicked_text_regen else load_saved_answer(generated_question_key, "text")
-                    if reply is None:
-                        with open(img_path, "rb") as img_file:
-                            img_bytes = img_file.read()
-                        image = Image.open(BytesIO(img_bytes))
-
-                        response = call_model(prompt_answer, image)
-                        reply = response.text
-                        save_answer(generated_question_key, "text", reply)
-
-                    question_type = classify_question_type_from_text(reply)
-                    if (
-                        question_type == DEFAULT_QUESTION_TYPE
-                        and "###QUESTION_TYPE" not in reply
-                        and (
-                            clicked_text_regen
-                            or not question_type_exists(QUESTION_TYPE_FILE, generated_question_key)
-                        )
-                    ):
-                        classify_prompt = """
-Classify the HSC Physics question in this image into exactly one of these types:
-Multiple choice
-Short answer
-Calculation question
-Essay
-Experimental questions
-Data analysis questions
-Other questions
-
-Return only the exact type text and nothing else.
-"""
-                        with open(img_path, "rb") as img_file:
-                            img_bytes = img_file.read()
-                        image = Image.open(BytesIO(img_bytes))
-                        question_type = normalize_question_type(call_model(classify_prompt, image).text)
-
-                    save_question_type(
-                        QUESTION_TYPE_FILE,
+                    reply, question_type = generate_text_answer_for_question(
+                        img_path,
                         generated_question_key,
-                        question_type,
+                        QUESTION_TYPE_FILE,
                         {
                             "user": current_user,
                             "course": question_type_course,
@@ -823,6 +890,7 @@ Return only the exact type text and nothing else.
                             "image": img_name,
                             "question_number": q_index + 1,
                         },
+                        force_regen=clicked_text_regen,
                     )
                     st.session_state.visible_text_answers[generated_question_key] = {
                         "reply": reply,
