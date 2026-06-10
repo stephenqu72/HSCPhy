@@ -7,6 +7,7 @@ from io import BytesIO
 import importlib.util
 import hashlib
 import binascii
+import time
 from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -540,7 +541,13 @@ def generate_text_answer_for_question(
         image = load_image_for_model(img_path)
         response = call_model(TEXT_ANSWER_PROMPT, image)
         reply = response.text
+        if not (reply or "").strip():
+            raise RuntimeError("LLM returned an empty Text Answer.")
         save_answer(cache_key, "text", reply)
+
+    saved_reply = load_saved_answer(cache_key, "text")
+    if not (saved_reply or "").strip():
+        raise RuntimeError("Text Answer was generated but not saved.")
 
     question_type = classify_question_type_from_text(reply)
     if (
@@ -551,6 +558,8 @@ def generate_text_answer_for_question(
         question_type = classify_question_type_from_image(img_path)
 
     save_question_type(question_type_file, cache_key, question_type, metadata)
+    if not question_type_exists(question_type_file, cache_key):
+        raise RuntimeError("Question type was generated but not saved.")
     return reply, question_type
 
 ############################################
@@ -729,51 +738,64 @@ QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_co
 
 st.sidebar.markdown("## ⚙️ Bulk Actions")
 if st.sidebar.button("🧠 Bulk generate Text Answers"):
-    pending_images = [
-        image_name for image_name in st.session_state.image_files
-        if load_saved_answer(
-            question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name),
-            "text",
-        ) is None
-    ]
+    pending_images = list(st.session_state.image_files)
 
     if not pending_images:
-        st.sidebar.success("All selected questions already have saved Text Answers.")
+        st.sidebar.info("No questions in the current selection.")
     else:
         progress = st.sidebar.progress(0, text=f"Starting 0/{len(pending_images)}")
         status = st.sidebar.empty()
         generated_count = 0
         failed_count = 0
+        failed_images = []
 
         for i, image_name in enumerate(pending_images, 1):
             cache_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
             image_path = os.path.join(folder_path, image_name)
-            status.caption(f"Generating {i}/{len(pending_images)}: {os.path.basename(image_name)}")
+            display_name = os.path.basename(image_name)
 
-            try:
-                generate_text_answer_for_question(
-                    image_path,
-                    cache_key,
-                    QUESTION_TYPE_FILE,
-                    {
-                        "user": current_user,
-                        "course": question_type_course,
-                        "topic": selected_topic,
-                        "subtopic": selected_subtopic,
-                        "image": image_name,
-                        "question_number": i,
-                    },
-                    force_regen=False,
-                )
-                generated_count += 1
-            except Exception as e:
+            last_error = None
+            for attempt in range(1, 4):
+                status.caption(f"Generating {i}/{len(pending_images)}: {display_name} (attempt {attempt}/3)")
+                try:
+                    generate_text_answer_for_question(
+                        image_path,
+                        cache_key,
+                        QUESTION_TYPE_FILE,
+                        {
+                            "user": current_user,
+                            "course": question_type_course,
+                            "topic": selected_topic,
+                            "subtopic": selected_subtopic,
+                            "image": image_name,
+                            "question_number": i,
+                        },
+                        force_regen=True,
+                    )
+                    generated_count += 1
+                    last_error = None
+                    break
+                except Exception as e:
+                    last_error = e
+                    if attempt < 3:
+                        status.caption(f"Retrying {display_name}: {e}")
+                        time.sleep(2 * attempt)
+
+            if last_error is not None:
                 failed_count += 1
-                status.caption(f"Skipped {os.path.basename(image_name)}: {e}")
+                failed_images.append(display_name)
+                status.caption(f"Failed {display_name}: {last_error}")
+            else:
+                status.caption(f"Stored {i}/{len(pending_images)}: {display_name}")
+                time.sleep(0.5)
 
-            progress.progress(i / len(pending_images), text=f"Generated {i}/{len(pending_images)}")
+            progress.progress(i / len(pending_images), text=f"Processed {i}/{len(pending_images)}")
 
         if failed_count:
             st.sidebar.warning(f"Generated {generated_count}; failed {failed_count}.")
+            with st.sidebar.expander("Failed questions"):
+                for image_name in failed_images:
+                    st.caption(image_name)
         else:
             st.sidebar.success(f"Generated {generated_count} Text Answers.")
 
