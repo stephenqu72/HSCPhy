@@ -453,7 +453,6 @@ def write_question_plot(cache_key: str, data: dict):
     return path
 
 
-@st.cache_data(show_spinner=False)
 def list_note_pdfs(notes_root: str) -> list:
     if not os.path.isdir(notes_root):
         return []
@@ -712,9 +711,13 @@ st.sidebar.markdown("## 📚 Physics Notes")
 note_pdf_options = list_note_pdfs(NOTES_ROOT)
 selected_note_pdf = None
 if note_pdf_options:
-    note_choice = st.sidebar.selectbox("Open note PDF:", ["None"] + note_pdf_options, key="selected_note_pdf")
+    note_options = ["None"] + note_pdf_options
+    if st.session_state.get("selected_note_pdf") not in note_options:
+        st.session_state.selected_note_pdf = "None"
+    note_choice = st.sidebar.selectbox("Open note PDF:", note_options, key="selected_note_pdf")
     selected_note_pdf = note_choice if note_choice != "None" else None
 else:
+    st.session_state.selected_note_pdf = "None"
     st.sidebar.caption(f"No PDF notes found in {NOTES_ROOT}")
 
 ############################################
