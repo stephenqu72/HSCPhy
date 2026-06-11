@@ -602,41 +602,17 @@ for k, v in _defaults.items():
 ############################################
 # ---------- Sidebar: Course & Mode Selection ----------
 ############################################
-st.sidebar.markdown("## 🔍 Select HSC Course")
-course_level = st.sidebar.selectbox("🎓 Module:", ["M1.Kinematics","M2.Dynamics","M3.Waves and thermodynamics","M4.Electricity and magnetism","M5.Advanced Mechanics","M6.Electromagnetism","M7.The nature of light","M8.From the universe to the atom"], key="course_level")
-
 st.sidebar.markdown("## 🧭 Select Practice Mode")
 mode = st.sidebar.radio("Choose practice mode:", ["Topic by Topic", "Past Paper"], key="practice_mode")
-
-base_root = os.path.join(BASE_ROOT, course_level)
 if not os.path.isdir(BASE_ROOT):
     st.warning(f"⚠️ The path '{BASE_ROOT}' was not found. Please check your course folder structure.")
     st.stop()
-if mode == "Topic by Topic" and not os.path.isdir(base_root):
-    st.warning(f"⚠️ The path '{base_root}' was not found. Please check your course folder structure.")
-    st.stop()
-
-# 🔄 LLM Model Selection
-st.sidebar.markdown("## 🧠 Choose LLM Model")
-selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite", "gemini-3.5-flash","gemma-4-26b-a4b-it"], key="llm_choice")
-
-st.sidebar.markdown("## 📚 Physics Notes")
-note_pdf_options = list_note_pdfs(NOTES_ROOT)
-selected_note_pdf = None
-if note_pdf_options:
-    note_options = ["None"] + note_pdf_options
-    if st.session_state.get("selected_note_pdf") not in note_options:
-        st.session_state.selected_note_pdf = "None"
-    note_choice = st.sidebar.selectbox("Open note PDF:", note_options, key="selected_note_pdf")
-    selected_note_pdf = note_choice if note_choice != "None" else None
-else:
-    st.session_state.selected_note_pdf = "None"
-    st.sidebar.caption(f"No PDF notes found in {NOTES_ROOT}")
 
 ############################################
 # ---------- Topic or Past Paper Selection ----------
 ############################################
 past_paper_images = []
+selected_question_type = "All types"
 if mode == "Past Paper":
     list_file_path = os.path.join(BASE_ROOT, "Physics_List.txt")
     if not os.path.exists(list_file_path):
@@ -671,6 +647,13 @@ if mode == "Past Paper":
     st.session_state.image_files = past_paper_images
 
 else:
+    st.sidebar.markdown("## 🔍 Select HSC Course")
+    course_level = st.sidebar.selectbox("🎓 Module:", ["M1.Kinematics","M2.Dynamics","M3.Waves and thermodynamics","M4.Electricity and magnetism","M5.Advanced Mechanics","M6.Electromagnetism","M7.The nature of light","M8.From the universe to the atom"], key="course_level")
+    base_root = os.path.join(BASE_ROOT, course_level)
+    if not os.path.isdir(base_root):
+        st.warning(f"⚠️ The path '{base_root}' was not found. Please check your course folder structure.")
+        st.stop()
+
     st.sidebar.markdown("## 🔍 Select Your Topic")
     topics = [f for f in os.listdir(base_root) if os.path.isdir(os.path.join(base_root, f))]
     if not topics:
@@ -702,6 +685,23 @@ else:
         ]
     st.session_state.folder = folder_path
     st.session_state.image_files = image_files
+
+# 🔄 LLM Model Selection
+st.sidebar.markdown("## 🧠 Choose LLM Model")
+selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite", "gemini-3.5-flash","gemma-4-26b-a4b-it"], key="llm_choice")
+
+st.sidebar.markdown("## 📚 Physics Notes")
+note_pdf_options = list_note_pdfs(NOTES_ROOT)
+selected_note_pdf = None
+if note_pdf_options:
+    note_options = ["None"] + note_pdf_options
+    if st.session_state.get("selected_note_pdf") not in note_options:
+        st.session_state.selected_note_pdf = "None"
+    note_choice = st.sidebar.selectbox("Open note PDF:", note_options, key="selected_note_pdf")
+    selected_note_pdf = note_choice if note_choice != "None" else None
+else:
+    st.session_state.selected_note_pdf = "None"
+    st.sidebar.caption(f"No PDF notes found in {NOTES_ROOT}")
 
 # Determine full image path depending on mode
 if mode == "Past Paper":
@@ -750,7 +750,6 @@ QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_co
 USER_ANSWER_FILE = os.path.join(user_fb_dir, f"user_answers_{question_type_course}.json")
 
 st.sidebar.markdown("## ⚙️ Bulk Actions")
-show_answer_summary = st.sidebar.button("📊 Show Answer Summary")
 if st.sidebar.button("🧠 Bulk generate Text Answers"):
     pending_images = list(st.session_state.image_files)
 
@@ -812,6 +811,8 @@ if st.sidebar.button("🧠 Bulk generate Text Answers"):
                     st.caption(image_name)
         else:
             st.sidebar.success(f"Generated {generated_count} Text Answers.")
+
+show_answer_summary = st.sidebar.button("📊 Show Answer Summary")
 
 ############################################
 # ---------- Main layout ----------
