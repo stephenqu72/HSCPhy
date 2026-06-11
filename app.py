@@ -18,6 +18,7 @@ from src.student_answers import (
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
+    question_type_course_for_cache_key,
     read_json_list,
 )
 
@@ -750,6 +751,11 @@ question_type_course = current_course_key
 QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_course}.json")
 USER_ANSWER_FILE = os.path.join(user_fb_dir, f"user_answers_{question_type_course}.json")
 
+
+def question_type_file_for_key(cache_key: str) -> str:
+    course = question_type_course_for_cache_key(cache_key, question_type_course)
+    return os.path.join(user_fb_dir, f"question_type_{course}.json")
+
 st.sidebar.markdown("## ⚙️ Bulk Actions")
 if st.sidebar.button("🧠 Bulk generate Text Answers"):
     pending_images = list(st.session_state.image_files)
@@ -776,10 +782,10 @@ if st.sidebar.button("🧠 Bulk generate Text Answers"):
                     generate_text_answer_for_question(
                         image_path,
                         cache_key,
-                        QUESTION_TYPE_FILE,
+                        question_type_file_for_key(cache_key),
                         {
                             "user": current_user,
-                            "course": question_type_course,
+                            "course": question_type_course_for_cache_key(cache_key, question_type_course),
                             "topic": selected_topic,
                             "subtopic": selected_subtopic,
                             "image": image_name,
@@ -856,7 +862,7 @@ if show_answer_summary and st.session_state.image_files:
             {
                 "key": answer_key,
                 "image": os.path.basename(image_name),
-                "question_type": get_question_type(QUESTION_TYPE_FILE, answer_key),
+                "question_type": get_question_type(question_type_file_for_key(answer_key), answer_key),
             }
         )
 
@@ -886,7 +892,8 @@ if st.session_state.image_files:
         img_path = os.path.join(folder_path, img_name)
         fallback_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
         generated_question_key = canonical_question_cache_key(BASE_ROOT, img_path, fallback_question_key)
-        current_question_type = get_question_type(QUESTION_TYPE_FILE, generated_question_key)
+        current_question_type_file = question_type_file_for_key(generated_question_key)
+        current_question_type = get_question_type(current_question_type_file, generated_question_key)
 
         with col1:
             total_questions = len(st.session_state.image_files)
@@ -939,10 +946,10 @@ if st.session_state.image_files:
                                 teacher_answer, feedback_question_type = generate_text_answer_for_question(
                                     img_path,
                                     generated_question_key,
-                                    QUESTION_TYPE_FILE,
+                                    current_question_type_file,
                                     {
                                         "user": current_user,
-                                        "course": question_type_course,
+                                        "course": question_type_course_for_cache_key(generated_question_key, question_type_course),
                                         "topic": selected_topic,
                                         "subtopic": selected_subtopic,
                                         "image": img_name,
@@ -1049,10 +1056,10 @@ if st.session_state.image_files:
                     reply, question_type = generate_text_answer_for_question(
                         img_path,
                         generated_question_key,
-                        QUESTION_TYPE_FILE,
+                        current_question_type_file,
                         {
                             "user": current_user,
-                            "course": question_type_course,
+                            "course": question_type_course_for_cache_key(generated_question_key, question_type_course),
                             "topic": selected_topic,
                             "subtopic": selected_subtopic,
                             "image": img_name,

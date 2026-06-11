@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 
 def read_json_list(path: str) -> list:
@@ -97,3 +98,10 @@ def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: 
     if len(rel_parts) < 4 or rel_path.startswith(".."):
         return fallback_key
     return rel_path.replace(os.sep, "/")
+
+
+def question_type_course_for_cache_key(cache_key: str, fallback_course: str) -> str:
+    first_part = (cache_key or "").split("/", 1)[0]
+    if re.match(r"^M\d+\.", first_part or ""):
+        return first_part
+    return fallback_course

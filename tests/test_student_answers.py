@@ -8,6 +8,7 @@ from src.student_answers import (
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
+    question_type_course_for_cache_key,
     read_json_list,
 )
 
@@ -90,6 +91,20 @@ class StudentAnswerTests(unittest.TestCase):
             cache_key = canonical_question_cache_key(tmp, os.path.join(os.path.dirname(tmp), "question.png"), fallback_key)
 
             self.assertEqual(cache_key, fallback_key)
+
+    def test_question_type_course_for_cache_key_uses_module_prefix(self):
+        cache_key = "M7.The nature of light/12.Light and special relativity/12.2.Evidence/image.png"
+
+        course = question_type_course_for_cache_key(cache_key, "Physics")
+
+        self.assertEqual(course, "M7.The nature of light")
+
+    def test_question_type_course_for_cache_key_uses_fallback_for_past_paper_key(self):
+        cache_key = "Physics/PastPaper/Barker_2020/image.png"
+
+        course = question_type_course_for_cache_key(cache_key, "Physics")
+
+        self.assertEqual(course, "Physics")
 
 
 if __name__ == "__main__":
