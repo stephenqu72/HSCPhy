@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 import base64
 from src.student_answers import (
     append_answer_log,
+    build_answer_feedback_prompt,
     build_answer_summary,
     latest_answers_by_key,
     read_json_list,
@@ -486,6 +487,11 @@ def call_model(prompt, image):
     return model.generate_content([prompt, image])
 
 
+def call_text_model(prompt):
+    model = genai.GenerativeModel(selected_model)
+    return model.generate_content(prompt)
+
+
 TEXT_ANSWER_PROMPT = """
 You are a top HSC teacher. Read the image and question below, then ANSWER the question and EXPLAIN how to solve it.
 
@@ -856,7 +862,10 @@ if show_answer_summary and st.session_state.image_files:
             answer_preview = str(row["Answer"]).replace("\n", " ").strip()
             if len(answer_preview) > 160:
                 answer_preview = answer_preview[:157] + "..."
-            display_rows.append({**row, "Answer": answer_preview})
+            feedback_preview = str(row.get("Feedback", "")).replace("\n", " ").strip()
+            if len(feedback_preview) > 160:
+                feedback_preview = feedback_preview[:157] + "..."
+            display_rows.append({**row, "Answer": answer_preview, "Feedback": feedback_preview})
         st.dataframe(display_rows, use_container_width=True, hide_index=True)
     else:
         st.info("No student answers saved for this selection yet.")
@@ -882,6 +891,9 @@ if st.session_state.image_files:
             previous_answer_text = (previous_student_answer or {}).get("answer", "")
             if previous_student_answer:
                 st.caption(f"Last submitted: {previous_student_answer.get('timestamp', '')}")
+                if previous_student_answer.get("feedback"):
+                    with st.expander("📝 Latest feedback", expanded=False):
+                        st.markdown(previous_student_answer["feedback"])
 
             if current_question_type == "Multiple choice":
                 choices = ["A", "B", "C", "D"]
@@ -907,6 +919,38 @@ if st.session_state.image_files:
                     st.warning("Please write an answer before submitting.")
                 else:
                     timestamp = datetime.utcnow().isoformat() + "Z"
+                    feedback_text = ""
+                    feedback_error = ""
+                    with st.spinner("Checking your answer against the saved teacher answer..."):
+                        try:
+                            teacher_answer = load_saved_answer(generated_question_key, "text")
+                            feedback_question_type = current_question_type
+                            if teacher_answer is None:
+                                teacher_answer, feedback_question_type = generate_text_answer_for_question(
+                                    img_path,
+                                    generated_question_key,
+                                    QUESTION_TYPE_FILE,
+                                    {
+                                        "user": current_user,
+                                        "course": question_type_course,
+                                        "topic": selected_topic,
+                                        "subtopic": selected_subtopic,
+                                        "image": img_name,
+                                        "question_number": q_index + 1,
+                                    },
+                                    force_regen=False,
+                                )
+
+                            feedback_prompt = build_answer_feedback_prompt(
+                                feedback_question_type,
+                                answer_text,
+                                strip_question_type_section(teacher_answer),
+                            )
+                            feedback_response = call_text_model(feedback_prompt)
+                            feedback_text = (feedback_response.text or "").strip()
+                        except Exception as e:
+                            feedback_error = f"Unable to generate feedback right now: {e}"
+
                     append_answer_log(
                         USER_ANSWER_FILE,
                         {
@@ -920,9 +964,16 @@ if st.session_state.image_files:
                             "question_number": q_index + 1,
                             "question_type": current_question_type,
                             "answer": answer_text,
+                            "feedback": feedback_text,
+                            "feedback_error": feedback_error,
                         },
                     )
                     st.success(f"Answer saved at {timestamp}.")
+                    if feedback_text:
+                        st.markdown("#### 📝 Feedback")
+                        st.markdown(feedback_text)
+                    elif feedback_error:
+                        st.warning(feedback_error)
 
             if selected_note_pdf:
                 selected_note_path = os.path.join(NOTES_ROOT, selected_note_pdf)

@@ -50,6 +50,7 @@ def build_answer_summary(entries: list, selection: list) -> dict:
                 "Type": entry.get("question_type") or item.get("question_type", ""),
                 "Last answered": entry.get("timestamp", ""),
                 "Answer": entry.get("answer", ""),
+                "Feedback": entry.get("feedback", ""),
             }
         )
     return {
@@ -57,3 +58,25 @@ def build_answer_summary(entries: list, selection: list) -> dict:
         "total_count": len(selection),
         "rows": rows,
     }
+
+
+def build_answer_feedback_prompt(question_type: str, student_answer: str, teacher_answer: str) -> str:
+    return f"""
+You are a supportive NSW HSC Physics tutor. Compare the student's answer with the saved teacher answer.
+
+Question type: {question_type}
+
+Student answer:
+{student_answer}
+
+Saved teacher answer:
+{teacher_answer}
+
+Give concise, encouraging feedback in this format:
+- Result: correct, partly correct, or needs work
+- What was good
+- What to fix or add
+- A short improved answer the student could write
+
+Keep it student-friendly and do not be harsh.
+""".strip()

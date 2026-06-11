@@ -4,6 +4,7 @@ import unittest
 
 from src.student_answers import (
     append_answer_log,
+    build_answer_feedback_prompt,
     build_answer_summary,
     latest_answers_by_key,
     read_json_list,
@@ -26,7 +27,13 @@ class StudentAnswerTests(unittest.TestCase):
 
     def test_build_answer_summary_filters_to_current_selection(self):
         entries = [
-            {"key": "q1", "answer": "A", "question_type": "Multiple choice", "timestamp": "2026-01-01T00:00:00Z"},
+            {
+                "key": "q1",
+                "answer": "A",
+                "question_type": "Multiple choice",
+                "timestamp": "2026-01-01T00:00:00Z",
+                "feedback": "Correct choice.",
+            },
             {"key": "q2", "answer": "worked response", "question_type": "Short answer", "timestamp": "2026-01-02T00:00:00Z"},
             {"key": "outside", "answer": "ignore me", "question_type": "Essay", "timestamp": "2026-01-03T00:00:00Z"},
         ]
@@ -42,7 +49,20 @@ class StudentAnswerTests(unittest.TestCase):
         self.assertEqual(summary["total_count"], 3)
         self.assertEqual([row["Question"] for row in summary["rows"]], [1, 2])
         self.assertEqual(summary["rows"][0]["Answer"], "A")
+        self.assertEqual(summary["rows"][0]["Feedback"], "Correct choice.")
         self.assertNotIn("three.png", [row["Image"] for row in summary["rows"]])
+
+    def test_build_answer_feedback_prompt_contains_both_answers(self):
+        prompt = build_answer_feedback_prompt(
+            "Multiple choice",
+            "B",
+            "The correct answer is B because the wave speed is constant.",
+        )
+
+        self.assertIn("Question type: Multiple choice", prompt)
+        self.assertIn("Student answer:\nB", prompt)
+        self.assertIn("Saved teacher answer:\nThe correct answer is B", prompt)
+        self.assertIn("Give concise, encouraging feedback", prompt)
 
 
 if __name__ == "__main__":
