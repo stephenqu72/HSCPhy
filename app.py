@@ -12,6 +12,7 @@ from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
+from src.auth_approval import apply_approval_policy, is_root_user, is_user_approved
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
@@ -79,6 +80,15 @@ def ensure_user_space(username: str):
     return root, fb_dir, tmp_dir
 
 
+def load_auth_db() -> dict:
+    db = load_users()
+    db, usernames_changed = normalize_user_db(db)
+    db, approval_changed = apply_approval_policy(db)
+    if usernames_changed or approval_changed:
+        save_users(db)
+    return db
+
+
 ############################################
 # 🌟 App Settings
 ############################################
@@ -106,35 +116,48 @@ if st.session_state.auth_user is None:
         if not username or not password:
             st.error("Please enter both username and password.")
         else:
-            db = load_users()
-            db, usernames_changed = normalize_user_db(db)
-            if usernames_changed:
-                save_users(db)
+            db = load_auth_db()
             user = db["users"].get(username)
             if user is None:
                 # auto sign-up
                 salt = _new_salt()
                 pw_hash = _hash_pw(password, salt)
+                approved = is_root_user(username)
                 db["users"][username] = {
                     "salt": salt,
                     "hash": pw_hash,
                     "created": datetime.utcnow().isoformat() + "Z",
+                    "approved": approved,
+                    "role": "root" if approved else "user",
                 }
                 save_users(db)
                 ensure_user_space(username)
-                st.success("Account created and signed in ✨")
-                st.session_state.auth_user = username
+                if approved:
+                    st.success("Root account created and signed in ✨")
+                    st.session_state.auth_user = username
+                else:
+                    st.info("Account created and waiting for approval by stephenqu72@gmail.com.")
             else:
                 calc = _hash_pw(password, user["salt"])
                 if calc == user["hash"]:
-                    ensure_user_space(username)
-                    st.success("Signed in ✅")
-                    st.session_state.auth_user = username
+                    if is_user_approved(username, user):
+                        ensure_user_space(username)
+                        st.success("Signed in ✅")
+                        st.session_state.auth_user = username
+                    else:
+                        st.warning("Your account is waiting for approval by stephenqu72@gmail.com.")
                 else:
                     st.error("Incorrect password. Please try again.")
 
 # sign-out
 if st.session_state.auth_user:
+    db = load_auth_db()
+    active_user = db.get("users", {}).get(st.session_state.auth_user)
+    if not is_user_approved(st.session_state.auth_user, active_user):
+        st.warning("Your account is waiting for approval by stephenqu72@gmail.com.")
+        st.session_state.auth_user = None
+        st.stop()
+
     st.sidebar.success(f"Signed in as **{st.session_state.auth_user}**")
     if st.sidebar.button("Sign out"):
         st.session_state.auth_user = None
@@ -145,6 +168,42 @@ if st.session_state.auth_user is None:
 
 current_user = st.session_state.auth_user
 user_root, user_fb_dir, user_tmp_dir = ensure_user_space(current_user)
+
+if is_root_user(current_user):
+    auth_db = load_auth_db()
+    users = auth_db.get("users", {})
+    managed_users = sorted(username for username in users if not is_root_user(username))
+
+    st.sidebar.markdown("## 🔐 User Approval")
+    if not managed_users:
+        st.sidebar.caption("No student accounts yet.")
+    else:
+        pending_users = [username for username in managed_users if not users[username].get("approved")]
+        approved_users = [username for username in managed_users if users[username].get("approved")]
+
+        with st.sidebar.expander("Pending accounts", expanded=True):
+            if not pending_users:
+                st.caption("No pending accounts.")
+            for username in pending_users:
+                st.caption(username)
+                if st.button("Approve", key=f"approve_{hashlib.sha1(username.encode('utf-8')).hexdigest()}"):
+                    users[username]["approved"] = True
+                    users[username]["approved_by"] = current_user
+                    users[username]["approved_at"] = datetime.utcnow().isoformat() + "Z"
+                    save_users(auth_db)
+                    st.rerun()
+
+        with st.sidebar.expander("Approved accounts", expanded=False):
+            if not approved_users:
+                st.caption("No approved student accounts.")
+            for username in approved_users:
+                st.caption(username)
+                if st.button("Revoke", key=f"revoke_{hashlib.sha1(username.encode('utf-8')).hexdigest()}"):
+                    users[username]["approved"] = False
+                    users[username]["revoked_by"] = current_user
+                    users[username]["revoked_at"] = datetime.utcnow().isoformat() + "Z"
+                    save_users(auth_db)
+                    st.rerun()
 
 st.markdown(
     f"<p style='text-align: center;'>Be a star today, {current_user}! ⭐ Your data is saved in <code>{user_root}</code></p>",

@@ -3,6 +3,7 @@ import os, json, hashlib, binascii
 import streamlit as st
 from datetime import datetime
 from src.config import ACCOUNTS_DB, USERS_ROOT
+from src.auth_approval import apply_approval_policy, is_root_user, is_user_approved
 from src.usernames import normalize_user_db, normalize_username
 
 _DEF_ITER = 200_000
@@ -50,23 +51,37 @@ def handle_auth():
             u = normalize_username(u)
             db = load_users()
             db, usernames_changed = normalize_user_db(db)
-            if usernames_changed:
+            db, approval_changed = apply_approval_policy(db)
+            if usernames_changed or approval_changed:
                 save_users(db)
             user = db["users"].get(u)
             if user is None:
                 salt = _new_salt()
                 hash_ = _hash_pw(p, salt)
-                db["users"][u] = {"salt": salt, "hash": hash_, "created": datetime.utcnow().isoformat() + "Z"}
+                approved = is_root_user(u)
+                db["users"][u] = {
+                    "salt": salt,
+                    "hash": hash_,
+                    "created": datetime.utcnow().isoformat() + "Z",
+                    "approved": approved,
+                    "role": "root" if approved else "user",
+                }
                 save_users(db)
                 ensure_user_space(u)
-                st.session_state.auth_user = u
-                st.success("✅ Registered & Logged in!")
+                if approved:
+                    st.session_state.auth_user = u
+                    st.success("✅ Root account registered & logged in!")
+                else:
+                    st.info("Account created and waiting for approval by stephenqu72@gmail.com.")
             else:
                 calc = _hash_pw(p, user["salt"])
                 if calc == user["hash"]:
-                    ensure_user_space(u)
-                    st.session_state.auth_user = u
-                    st.success("✅ Logged in")
+                    if is_user_approved(u, user):
+                        ensure_user_space(u)
+                        st.session_state.auth_user = u
+                        st.success("✅ Logged in")
+                    else:
+                        st.warning("Your account is waiting for approval by stephenqu72@gmail.com.")
                 else:
                     st.error("Wrong password")
 
