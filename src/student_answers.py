@@ -80,3 +80,20 @@ Give concise, encouraging feedback in this format:
 
 Keep it student-friendly and do not be harsh.
 """.strip()
+
+
+def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
+    try:
+        base_abs = os.path.abspath(base_root)
+        image_abs = os.path.abspath(image_path)
+        common = os.path.commonpath([base_abs, image_abs])
+        if common != base_abs:
+            return fallback_key
+        rel_path = os.path.relpath(image_abs, base_abs)
+    except Exception:
+        return fallback_key
+
+    rel_parts = rel_path.split(os.sep)
+    if len(rel_parts) < 4 or rel_path.startswith(".."):
+        return fallback_key
+    return rel_path.replace(os.sep, "/")

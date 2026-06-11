@@ -6,6 +6,7 @@ from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
     build_answer_summary,
+    canonical_question_cache_key,
     latest_answers_by_key,
     read_json_list,
 )
@@ -63,6 +64,32 @@ class StudentAnswerTests(unittest.TestCase):
         self.assertIn("Student answer:\nB", prompt)
         self.assertIn("Saved teacher answer:\nThe correct answer is B", prompt)
         self.assertIn("Give concise, encouraging feedback", prompt)
+
+    def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            image_path = os.path.join(
+                tmp,
+                "M7.The nature of light",
+                "9.Exploring the Electromagnetic Spectrum",
+                "9.1.Electromagnetism",
+                "Barker 2020 Y12_Picture 43.png",
+            )
+            fallback_key = "Physics/PastPaper/Barker_2020_Y12/M7.The nature of light/9.Exploring the Electromagnetic Spectrum/9.1.Electromagnetism/Barker 2020 Y12_Picture 43.png"
+
+            cache_key = canonical_question_cache_key(tmp, image_path, fallback_key)
+
+            self.assertEqual(
+                cache_key,
+                "M7.The nature of light/9.Exploring the Electromagnetic Spectrum/9.1.Electromagnetism/Barker 2020 Y12_Picture 43.png",
+            )
+
+    def test_canonical_question_cache_key_uses_fallback_outside_base_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            fallback_key = "Physics/PastPaper/paper/question.png"
+
+            cache_key = canonical_question_cache_key(tmp, os.path.join(os.path.dirname(tmp), "question.png"), fallback_key)
+
+            self.assertEqual(cache_key, fallback_key)
 
 
 if __name__ == "__main__":

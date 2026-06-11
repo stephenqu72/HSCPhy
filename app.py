@@ -16,6 +16,7 @@ from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
     build_answer_summary,
+    canonical_question_cache_key,
     latest_answers_by_key,
     read_json_list,
 )
@@ -763,8 +764,9 @@ if st.sidebar.button("🧠 Bulk generate Text Answers"):
         failed_images = []
 
         for i, image_name in enumerate(pending_images, 1):
-            cache_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
             image_path = os.path.join(folder_path, image_name)
+            fallback_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
+            cache_key = canonical_question_cache_key(BASE_ROOT, image_path, fallback_key)
             display_name = os.path.basename(image_name)
 
             last_error = None
@@ -825,10 +827,14 @@ with col2:
         if st.button("⬅️ Previous", disabled=st.session_state.question_index == 0):
             st.session_state.question_index -= 1
             st.session_state.gemini_chat_history = []
+            st.session_state.visible_text_answers = {}
+            st.session_state.visible_graph_answers = {}
     with b2:
         if st.button("➡️ Next", disabled=st.session_state.question_index >= len(st.session_state.image_files) - 1):
             st.session_state.question_index += 1
             st.session_state.gemini_chat_history = []
+            st.session_state.visible_text_answers = {}
+            st.session_state.visible_graph_answers = {}
     if "question_number" not in st.session_state or st.session_state.question_number != st.session_state.question_index + 1:
         st.session_state.question_number = st.session_state.question_index + 1
 
@@ -843,7 +849,9 @@ else:
 if show_answer_summary and st.session_state.image_files:
     selected_answer_items = []
     for image_name in st.session_state.image_files:
-        answer_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
+        answer_path = os.path.join(folder_path, image_name)
+        fallback_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
+        answer_key = canonical_question_cache_key(BASE_ROOT, answer_path, fallback_key)
         selected_answer_items.append(
             {
                 "key": answer_key,
@@ -876,7 +884,8 @@ if st.session_state.image_files:
     if 0 <= q_index < len(st.session_state.image_files):
         img_name = st.session_state.image_files[q_index]
         img_path = os.path.join(folder_path, img_name)
-        generated_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
+        fallback_question_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, img_name)
+        generated_question_key = canonical_question_cache_key(BASE_ROOT, img_path, fallback_question_key)
         current_question_type = get_question_type(QUESTION_TYPE_FILE, generated_question_key)
 
         with col1:
