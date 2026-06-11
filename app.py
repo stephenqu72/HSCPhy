@@ -12,6 +12,12 @@ from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
+from src.student_answers import (
+    append_answer_log,
+    build_answer_summary,
+    latest_answers_by_key,
+    read_json_list,
+)
 
 ############################################
 # 💼 Multi-user Auth + Per-user Storage (Streamlit Cloud ready)
@@ -735,8 +741,10 @@ if selection_changed:
 ############################################
 question_type_course = current_course_key
 QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_course}.json")
+USER_ANSWER_FILE = os.path.join(user_fb_dir, f"user_answers_{question_type_course}.json")
 
 st.sidebar.markdown("## ⚙️ Bulk Actions")
+show_answer_summary = st.sidebar.button("📊 Show Answer Summary")
 if st.sidebar.button("🧠 Bulk generate Text Answers"):
     pending_images = list(st.session_state.image_files)
 
@@ -825,6 +833,34 @@ else:
     st.progress((st.session_state.question_index + 1) / total_imgs,
                 text=f"🌟 You're working on question {min(st.session_state.question_index + 1, total_imgs)}!")
 
+if show_answer_summary and st.session_state.image_files:
+    selected_answer_items = []
+    for image_name in st.session_state.image_files:
+        answer_key = question_cache_key(current_course_key, selected_topic, selected_subtopic, image_name)
+        selected_answer_items.append(
+            {
+                "key": answer_key,
+                "image": os.path.basename(image_name),
+                "question_type": get_question_type(QUESTION_TYPE_FILE, answer_key),
+            }
+        )
+
+    answer_summary = build_answer_summary(read_json_list(USER_ANSWER_FILE), selected_answer_items)
+    st.markdown("### 📊 Your Answer Summary")
+    st.caption(
+        f"Answered {answer_summary['answered_count']} of {answer_summary['total_count']} questions in the current selection."
+    )
+    if answer_summary["rows"]:
+        display_rows = []
+        for row in answer_summary["rows"]:
+            answer_preview = str(row["Answer"]).replace("\n", " ").strip()
+            if len(answer_preview) > 160:
+                answer_preview = answer_preview[:157] + "..."
+            display_rows.append({**row, "Answer": answer_preview})
+        st.dataframe(display_rows, use_container_width=True, hide_index=True)
+    else:
+        st.info("No student answers saved for this selection yet.")
+
 if st.session_state.image_files:
     q_index = st.session_state.question_index
     if 0 <= q_index < len(st.session_state.image_files):
@@ -839,6 +875,55 @@ if st.session_state.image_files:
             st.markdown(f"### 📘 Question {current_question} of {total_questions}")
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
             st.caption(f"🏷️ Type of question: {current_question_type}")
+
+            st.markdown("### ✍️ Your Answer")
+            answer_widget_id = hashlib.sha1(generated_question_key.encode("utf-8")).hexdigest()
+            previous_student_answer = latest_answers_by_key(read_json_list(USER_ANSWER_FILE)).get(generated_question_key)
+            previous_answer_text = (previous_student_answer or {}).get("answer", "")
+            if previous_student_answer:
+                st.caption(f"Last submitted: {previous_student_answer.get('timestamp', '')}")
+
+            if current_question_type == "Multiple choice":
+                choices = ["A", "B", "C", "D"]
+                selected_index = choices.index(previous_answer_text) if previous_answer_text in choices else 0
+                student_answer = st.radio(
+                    "Choose your answer:",
+                    choices,
+                    index=selected_index,
+                    horizontal=True,
+                    key=f"student_answer_choice_{answer_widget_id}",
+                )
+            else:
+                student_answer = st.text_area(
+                    "Write your answer:",
+                    value=previous_answer_text,
+                    height=140,
+                    key=f"student_answer_text_{answer_widget_id}",
+                )
+
+            if st.button("💾 Submit Answer", key=f"submit_student_answer_{answer_widget_id}"):
+                answer_text = (student_answer or "").strip()
+                if current_question_type != "Multiple choice" and not answer_text:
+                    st.warning("Please write an answer before submitting.")
+                else:
+                    timestamp = datetime.utcnow().isoformat() + "Z"
+                    append_answer_log(
+                        USER_ANSWER_FILE,
+                        {
+                            "timestamp": timestamp,
+                            "user": current_user,
+                            "course": question_type_course,
+                            "topic": selected_topic,
+                            "subtopic": selected_subtopic,
+                            "image": img_name,
+                            "key": generated_question_key,
+                            "question_number": q_index + 1,
+                            "question_type": current_question_type,
+                            "answer": answer_text,
+                        },
+                    )
+                    st.success(f"Answer saved at {timestamp}.")
+
             if selected_note_pdf:
                 selected_note_path = os.path.join(NOTES_ROOT, selected_note_pdf)
                 with st.expander(f"📚 Note: {selected_note_pdf}", expanded=True):
