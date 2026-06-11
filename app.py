@@ -21,6 +21,7 @@ from src.student_answers import (
     question_type_course_for_cache_key,
     read_json_list,
 )
+from src.usernames import normalize_user_db, normalize_username
 
 ############################################
 # 💼 Multi-user Auth + Per-user Storage (Streamlit Cloud ready)
@@ -86,6 +87,8 @@ st.set_page_config(page_title=APP_TITLE, layout="wide")
 # --------- Auth UI ---------
 if "auth_user" not in st.session_state:
     st.session_state.auth_user = None
+elif st.session_state.auth_user is not None:
+    st.session_state.auth_user = normalize_username(st.session_state.auth_user)
 
 st.markdown("<h1 style='text-align: center;'> Your personal HSC Assistant ✨</h1>", unsafe_allow_html=True)
 
@@ -99,10 +102,14 @@ if st.session_state.auth_user is None:
         go = st.button("Sign in / Create Account", use_container_width=True)
 
     if go:
+        username = normalize_username(username)
         if not username or not password:
             st.error("Please enter both username and password.")
         else:
             db = load_users()
+            db, usernames_changed = normalize_user_db(db)
+            if usernames_changed:
+                save_users(db)
             user = db["users"].get(username)
             if user is None:
                 # auto sign-up

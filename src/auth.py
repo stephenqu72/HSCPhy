@@ -3,6 +3,7 @@ import os, json, hashlib, binascii
 import streamlit as st
 from datetime import datetime
 from src.config import ACCOUNTS_DB, USERS_ROOT
+from src.usernames import normalize_user_db, normalize_username
 
 _DEF_ITER = 200_000
 _DEF_ALG = "sha256"
@@ -46,7 +47,11 @@ def handle_auth():
         u = st.text_input("Username")
         p = st.text_input("Password", type="password")
         if st.button("Login / Register"):
+            u = normalize_username(u)
             db = load_users()
+            db, usernames_changed = normalize_user_db(db)
+            if usernames_changed:
+                save_users(db)
             user = db["users"].get(u)
             if user is None:
                 salt = _new_salt()
