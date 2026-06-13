@@ -12,7 +12,13 @@ from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
-from src.auth_approval import apply_approval_policy, is_root_user, is_user_approved
+from src.auth_approval import (
+    apply_approval_policy,
+    can_generate_shared_answer_from_submission,
+    is_root_user,
+    is_user_approved,
+    llm_owner_username,
+)
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
@@ -168,6 +174,9 @@ if st.session_state.auth_user is None:
 
 current_user = st.session_state.auth_user
 user_root, user_fb_dir, user_tmp_dir = ensure_user_space(current_user)
+llm_owner = llm_owner_username(current_user)
+llm_root, llm_fb_dir, _ = ensure_user_space(llm_owner)
+can_generate_llm_answers = is_root_user(current_user)
 
 if is_root_user(current_user):
     auth_db = load_auth_db()
@@ -405,7 +414,7 @@ def question_cache_key(course: str, topic: str, subtopic: str, image_name: str) 
 
 
 def answer_cache_path(cache_key: str, answer_type: str) -> str:
-    cache_dir = os.path.join(user_root, "saved_answers")
+    cache_dir = os.path.join(llm_root, "saved_answers")
     os.makedirs(cache_dir, exist_ok=True)
     filename = f"{hashlib.sha1(cache_key.encode('utf-8')).hexdigest()}.{answer_type}.txt"
     return os.path.join(cache_dir, filename)
@@ -739,7 +748,7 @@ else:
     selected_subtopic = st.sidebar.selectbox("📁 Sub-topic:", subtopics)
     folder_path = os.path.join(subtopic_path, selected_subtopic)
 
-    question_type_file = os.path.join(user_fb_dir, f"question_type_{course_level}.json")
+    question_type_file = os.path.join(llm_fb_dir, f"question_type_{course_level}.json")
     selected_question_type = st.sidebar.selectbox("🏷️ Type of question:", QUESTION_TYPE_FILTERS, key="question_type_filter")
 
     image_files = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(".png")])
@@ -814,16 +823,15 @@ if selection_changed:
 # ---------- Per-user, per-course question type tags ----------
 ############################################
 question_type_course = current_course_key
-QUESTION_TYPE_FILE = os.path.join(user_fb_dir, f"question_type_{question_type_course}.json")
 USER_ANSWER_FILE = os.path.join(user_fb_dir, f"user_answers_{question_type_course}.json")
 
 
 def question_type_file_for_key(cache_key: str) -> str:
     course = question_type_course_for_cache_key(cache_key, question_type_course)
-    return os.path.join(user_fb_dir, f"question_type_{course}.json")
+    return os.path.join(llm_fb_dir, f"question_type_{course}.json")
 
 st.sidebar.markdown("## ⚙️ Bulk Actions")
-if st.sidebar.button("🧠 Bulk generate Text Answers"):
+if can_generate_llm_answers and st.sidebar.button("🧠 Bulk generate Text Answers"):
     pending_images = list(st.session_state.image_files)
 
     if not pending_images:
@@ -1008,7 +1016,7 @@ if st.session_state.image_files:
                         try:
                             teacher_answer = load_saved_answer(generated_question_key, "text")
                             feedback_question_type = current_question_type
-                            if teacher_answer is None:
+                            if teacher_answer is None and can_generate_shared_answer_from_submission(current_user):
                                 teacher_answer, feedback_question_type = generate_text_answer_for_question(
                                     img_path,
                                     generated_question_key,
@@ -1024,13 +1032,16 @@ if st.session_state.image_files:
                                     force_regen=False,
                                 )
 
-                            feedback_prompt = build_answer_feedback_prompt(
-                                feedback_question_type,
-                                answer_text,
-                                strip_question_type_section(teacher_answer),
-                            )
-                            feedback_response = call_text_model(feedback_prompt)
-                            feedback_text = (feedback_response.text or "").strip()
+                            if teacher_answer is None:
+                                feedback_error = "No shared teacher answer is available yet."
+                            else:
+                                feedback_prompt = build_answer_feedback_prompt(
+                                    feedback_question_type,
+                                    answer_text,
+                                    strip_question_type_section(teacher_answer),
+                                )
+                                feedback_response = call_text_model(feedback_prompt)
+                                feedback_text = (feedback_response.text or "").strip()
                         except Exception as e:
                             feedback_error = f"Unable to generate feedback right now: {e}"
 
@@ -1106,33 +1117,59 @@ if st.session_state.image_files:
             c1, c2 = st.columns(2)
             has_text_answer = load_saved_answer(generated_question_key, "text") is not None
             has_graph_answer = load_saved_answer(generated_question_key, "graph") is not None
-            clicked_explain = c1.button(
-                "🧠 Show Text Answer" if has_text_answer else "🧠 Answer with Text",
-                key=f"explain_{q_index}",
-            )
-            clicked_text_regen = c1.button("🔄 Regenerate Text", key=f"regen_text_{q_index}")
-            clicked_graph = c2.button(
-                "📈 Show Graph Answer" if has_graph_answer else "📈 Answer with Graph",
-                key=f"graph_{q_index}",
-            )
-            clicked_graph_regen = c2.button("🔄 Regenerate Graph", key=f"regen_graph_{q_index}")
+            clicked_explain = False
+            clicked_text_regen = False
+            clicked_graph = False
+            clicked_graph_regen = False
+
+            if can_generate_llm_answers or has_text_answer:
+                clicked_explain = c1.button(
+                    "🧠 Show Text Answer" if has_text_answer else "🧠 Answer with Text",
+                    key=f"explain_{q_index}",
+                )
+            else:
+                c1.caption("No shared Text Answer yet.")
+
+            if can_generate_llm_answers:
+                clicked_text_regen = c1.button("🔄 Regenerate Text", key=f"regen_text_{q_index}")
+
+            if can_generate_llm_answers or has_graph_answer:
+                clicked_graph = c2.button(
+                    "📈 Show Graph Answer" if has_graph_answer else "📈 Answer with Graph",
+                    key=f"graph_{q_index}",
+                )
+            else:
+                c2.caption("No shared Graph Answer yet.")
+
+            if can_generate_llm_answers:
+                clicked_graph_regen = c2.button("🔄 Regenerate Graph", key=f"regen_graph_{q_index}")
 
             if clicked_explain or clicked_text_regen:
-                with st.spinner("LLM is thinking ... ... 👩‍✨"):
-                    reply, question_type = generate_text_answer_for_question(
-                        img_path,
-                        generated_question_key,
-                        current_question_type_file,
-                        {
-                            "user": current_user,
-                            "course": question_type_course_for_cache_key(generated_question_key, question_type_course),
-                            "topic": selected_topic,
-                            "subtopic": selected_subtopic,
-                            "image": img_name,
-                            "question_number": q_index + 1,
-                        },
-                        force_regen=clicked_text_regen,
-                    )
+                if has_text_answer and not clicked_text_regen:
+                    reply = load_saved_answer(generated_question_key, "text")
+                    question_type = current_question_type
+                elif can_generate_llm_answers:
+                    with st.spinner("LLM is thinking ... ... 👩‍✨"):
+                        reply, question_type = generate_text_answer_for_question(
+                            img_path,
+                            generated_question_key,
+                            current_question_type_file,
+                            {
+                                "user": current_user,
+                                "course": question_type_course_for_cache_key(generated_question_key, question_type_course),
+                                "topic": selected_topic,
+                                "subtopic": selected_subtopic,
+                                "image": img_name,
+                                "question_number": q_index + 1,
+                            },
+                            force_regen=clicked_text_regen,
+                        )
+                else:
+                    reply = None
+                    question_type = current_question_type
+                    st.warning("No shared Text Answer is available yet. Please ask the root user to generate it first.")
+
+                if reply:
                     st.session_state.visible_text_answers[generated_question_key] = {
                         "reply": reply,
                         "question_type": question_type,
@@ -1166,7 +1203,7 @@ if st.session_state.image_files:
                     data = {"ANSWER": "", "PLOT_CODE": "", "EXPLANATION": "", "OTHERS": ""}
                     raw = None if clicked_graph_regen else load_saved_answer(generated_question_key, "graph")
 
-                    if raw is None:
+                    if raw is None and can_generate_llm_answers:
                         # call LLM
                         with open(img_path, "rb") as img_file:
                             img_bytes = img_file.read()
@@ -1175,7 +1212,11 @@ if st.session_state.image_files:
                         response = call_model(prompt_answer, image)
                         raw = response.text
                         save_answer(generated_question_key, "graph", raw)
-                    st.session_state.visible_graph_answers[generated_question_key] = raw
+                    elif raw is None:
+                        st.warning("No shared Graph Answer is available yet. Please ask the root user to generate it first.")
+
+                    if raw:
+                        st.session_state.visible_graph_answers[generated_question_key] = raw
 
             visible_text = st.session_state.visible_text_answers.get(generated_question_key)
             visible_graph = st.session_state.visible_graph_answers.get(generated_question_key)

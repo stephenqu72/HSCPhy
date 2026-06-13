@@ -14,6 +14,14 @@ def is_user_approved(username: str, user: dict | None) -> bool:
     return bool(isinstance(user, dict) and user.get("approved") is True)
 
 
+def llm_owner_username(username: str) -> str:
+    return ROOT_USER
+
+
+def can_generate_shared_answer_from_submission(username: str) -> bool:
+    return bool(normalize_username(username))
+
+
 def apply_approval_policy(db: dict) -> tuple[dict, bool]:
     users = db.get("users", {}) if isinstance(db, dict) else {}
     updated_users = {}

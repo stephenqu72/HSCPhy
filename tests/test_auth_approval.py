@@ -3,8 +3,10 @@ import unittest
 from src.auth_approval import (
     ROOT_USER,
     apply_approval_policy,
+    can_generate_shared_answer_from_submission,
     is_root_user,
     is_user_approved,
+    llm_owner_username,
 )
 
 
@@ -41,6 +43,14 @@ class AuthApprovalTests(unittest.TestCase):
         self.assertTrue(is_user_approved("stephenqu72@gmail.com", None))
         self.assertFalse(is_user_approved("student@example.com", {"approved": False}))
         self.assertTrue(is_user_approved("student@example.com", {"approved": True}))
+
+    def test_llm_owner_username_is_always_root(self):
+        self.assertEqual(llm_owner_username("student@example.com"), ROOT_USER)
+        self.assertEqual(llm_owner_username("stephenqu72@gmail.com"), ROOT_USER)
+
+    def test_submitted_answers_can_generate_shared_teacher_answer(self):
+        self.assertTrue(can_generate_shared_answer_from_submission("student@example.com"))
+        self.assertTrue(can_generate_shared_answer_from_submission("stephenqu72@gmail.com"))
 
 
 if __name__ == "__main__":
