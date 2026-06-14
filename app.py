@@ -243,8 +243,8 @@ if st.session_state.auth_user is None:
                 save_users(db)
                 ensure_user_space(username)
                 if approved:
-                    st.success("Root account created and signed in ✨")
                     st.session_state.auth_user = username
+                    st.rerun()
                 else:
                     st.info("Account created and waiting for approval by stephenqu72@gmail.com.")
             else:
@@ -252,8 +252,8 @@ if st.session_state.auth_user is None:
                 if calc == user["hash"]:
                     if is_user_approved(username, user):
                         ensure_user_space(username)
-                        st.success("Signed in ✅")
                         st.session_state.auth_user = username
+                        st.rerun()
                     else:
                         st.warning("Your account is waiting for approval by stephenqu72@gmail.com.")
                 else:
@@ -268,7 +268,18 @@ if st.session_state.auth_user:
         st.session_state.auth_user = None
         st.stop()
 
-    st.sidebar.success(f"Signed in as **{st.session_state.auth_user}**")
+if st.session_state.auth_user is None:
+    st.stop()
+
+current_user = st.session_state.auth_user
+user_root, user_fb_dir, user_tmp_dir = ensure_user_space(current_user)
+llm_owner = llm_owner_username(current_user)
+llm_root, llm_fb_dir, _ = ensure_user_space(llm_owner)
+can_generate_llm_answers = is_root_user(current_user)
+
+def render_account_sidebar():
+    st.sidebar.markdown("---")
+    st.sidebar.success(f"Signed in as **{current_user}**")
     if st.sidebar.button("Sign out"):
         st.session_state.auth_user = None
         st.rerun()
@@ -284,27 +295,22 @@ if st.session_state.auth_user:
                 st.warning("New passwords do not match.")
             else:
                 db = load_auth_db()
-                user = db.get("users", {}).get(st.session_state.auth_user)
+                user = db.get("users", {}).get(current_user)
                 if not user or _hash_pw(current_password, user["salt"]) != user["hash"]:
                     st.error("Current password is incorrect.")
                 else:
                     try:
-                        db = update_user_password(db, st.session_state.auth_user, new_password)
+                        db = update_user_password(db, current_user, new_password)
                         save_users(db)
                         st.success("Password updated.")
                     except Exception as e:
                         st.error(f"Unable to update password: {e}")
 
-if st.session_state.auth_user is None:
-    st.stop()
 
-current_user = st.session_state.auth_user
-user_root, user_fb_dir, user_tmp_dir = ensure_user_space(current_user)
-llm_owner = llm_owner_username(current_user)
-llm_root, llm_fb_dir, _ = ensure_user_space(llm_owner)
-can_generate_llm_answers = is_root_user(current_user)
+def render_root_admin_sidebar():
+    if not is_root_user(current_user):
+        return
 
-if is_root_user(current_user):
     auth_db = load_auth_db()
     users = auth_db.get("users", {})
     managed_users = sorted(username for username in users if not is_root_user(username))
@@ -1072,6 +1078,8 @@ if can_generate_llm_answers and st.sidebar.button("🧠 Bulk generate Text Answe
             st.sidebar.success(f"Generated {generated_count} Text Answers.")
 
 show_answer_summary = st.sidebar.button("📊 Show Answer Summary")
+render_account_sidebar()
+render_root_admin_sidebar()
 
 ############################################
 # ---------- Main layout ----------
