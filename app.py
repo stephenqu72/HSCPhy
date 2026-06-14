@@ -8,6 +8,7 @@ import importlib.util
 import hashlib
 import binascii
 import time
+import random
 from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -398,7 +399,11 @@ gemini_key_values = {
 
 
 def configure_gemini_for_current_user():
-    gemini_key_selection = select_gemini_key(current_user, gemini_key_values)
+    try:
+        gemini_key_selection = select_gemini_key(current_user, gemini_key_values)
+    except TypeError:
+        random_index = random.randrange(len(ROOT_GEMINI_KEY_NAMES))
+        gemini_key_selection = select_gemini_key(current_user, gemini_key_values, random_index)
     genai.configure(api_key=gemini_key_selection.api_key)
     return gemini_key_selection
 
