@@ -121,6 +121,7 @@ from src.student_answers import (
     question_type_course_for_cache_key,
     read_json_list,
 )
+from src.password_reset import set_user_password
 
 ############################################
 # 💼 Multi-user Auth + Per-user Storage (Streamlit Cloud ready)
@@ -185,6 +186,17 @@ def load_auth_db() -> dict:
     if usernames_changed or approval_changed:
         save_users(db)
     return db
+
+
+def update_user_password(db: dict, username: str, new_password: str) -> dict:
+    return set_user_password(
+        db,
+        username,
+        new_password,
+        salt_factory=_new_salt,
+        hash_password=_hash_pw,
+        updated_at=datetime.utcnow().isoformat() + "Z",
+    )
 
 
 ############################################
@@ -261,6 +273,28 @@ if st.session_state.auth_user:
         st.session_state.auth_user = None
         st.rerun()
 
+    with st.sidebar.expander("🔑 Change Password", expanded=False):
+        current_password = st.text_input("Current password", type="password", key="self_current_password")
+        new_password = st.text_input("New password", type="password", key="self_new_password")
+        confirm_password = st.text_input("Confirm new password", type="password", key="self_confirm_password")
+        if st.button("Update My Password", key="self_update_password"):
+            if not current_password or not new_password or not confirm_password:
+                st.warning("Please fill in all password fields.")
+            elif new_password != confirm_password:
+                st.warning("New passwords do not match.")
+            else:
+                db = load_auth_db()
+                user = db.get("users", {}).get(st.session_state.auth_user)
+                if not user or _hash_pw(current_password, user["salt"]) != user["hash"]:
+                    st.error("Current password is incorrect.")
+                else:
+                    try:
+                        db = update_user_password(db, st.session_state.auth_user, new_password)
+                        save_users(db)
+                        st.success("Password updated.")
+                    except Exception as e:
+                        st.error(f"Unable to update password: {e}")
+
 if st.session_state.auth_user is None:
     st.stop()
 
@@ -305,6 +339,29 @@ if is_root_user(current_user):
                     users[username]["revoked_at"] = datetime.utcnow().isoformat() + "Z"
                     save_users(auth_db)
                     st.rerun()
+
+        reset_options = sorted(users)
+        with st.sidebar.expander("Reset User Password", expanded=False):
+            if not reset_options:
+                st.caption("No accounts to reset.")
+            else:
+                reset_user = st.selectbox("User", reset_options, key="root_reset_user")
+                root_new_password = st.text_input("New password", type="password", key="root_reset_new_password")
+                root_confirm_password = st.text_input("Confirm password", type="password", key="root_reset_confirm_password")
+                if st.button("Reset Password", key="root_reset_password"):
+                    if not root_new_password or not root_confirm_password:
+                        st.warning("Please enter and confirm the new password.")
+                    elif root_new_password != root_confirm_password:
+                        st.warning("Passwords do not match.")
+                    else:
+                        try:
+                            auth_db = update_user_password(auth_db, reset_user, root_new_password)
+                            users[reset_user]["password_reset_by"] = current_user
+                            users[reset_user]["password_reset_at"] = datetime.utcnow().isoformat() + "Z"
+                            save_users(auth_db)
+                            st.success(f"Password reset for {reset_user}.")
+                        except Exception as e:
+                            st.error(f"Unable to reset password: {e}")
 
 st.markdown(
     f"<p style='text-align: center;'>Be a star today, {current_user}! ⭐ Your data is saved in <code>{user_root}</code></p>",
