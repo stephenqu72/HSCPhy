@@ -9,6 +9,7 @@ import hashlib
 import binascii
 import time
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
@@ -82,8 +83,34 @@ except Exception:
         return {**(db if isinstance(db, dict) else {}), "users": updated_users}, changed
 
 
+
 def can_generate_shared_answer_from_submission(username: str) -> bool:
     return bool(normalize_username(username))
+
+try:
+    from src.gemini_keys import (
+        ROOT_GEMINI_KEY_NAMES,
+        STUDENT_GEMINI_KEY_NAME,
+        select_gemini_key,
+    )
+except Exception:
+    ROOT_GEMINI_KEY_NAMES = ["GEMINI_API_KEY", "GEMINI_API_KEY_1", "GEMINI_API_KEY_2"]
+    STUDENT_GEMINI_KEY_NAME = "GEMINI_API_KEY_stu"
+
+    class GeminiKeySelection:
+        def __init__(self, key_name: str, api_key: str):
+            self.key_name = key_name
+            self.api_key = api_key
+
+    def select_gemini_key(username: str, key_values: dict, weekday_index: int):
+        if is_root_user(username):
+            key_name = ROOT_GEMINI_KEY_NAMES[weekday_index % len(ROOT_GEMINI_KEY_NAMES)]
+        else:
+            key_name = STUDENT_GEMINI_KEY_NAME
+        api_key = (key_values.get(key_name) or "").strip()
+        if not api_key:
+            raise ValueError(f"{key_name} not set in environment or Streamlit secrets.")
+        return GeminiKeySelection(key_name, api_key)
 
 from src.student_answers import (
     append_answer_log,
@@ -288,12 +315,40 @@ st.markdown(
 # 🧠 Gemini API Setup
 ############################################
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or st.secrets.get("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    st.error("GEMINI_API_KEY not set in environment or secrets")
+
+
+def get_config_value(name: str):
+    env_value = os.getenv(name)
+    if env_value:
+        return env_value
+    try:
+        return st.secrets.get(name)
+    except Exception:
+        return None
+
+
+def current_gemini_weekday_index() -> int:
+    try:
+        return datetime.now(ZoneInfo("Australia/Sydney")).weekday()
+    except Exception:
+        return datetime.now().weekday()
+
+
+gemini_key_values = {
+    key_name: get_config_value(key_name)
+    for key_name in [*ROOT_GEMINI_KEY_NAMES, STUDENT_GEMINI_KEY_NAME]
+}
+try:
+    gemini_key_selection = select_gemini_key(
+        current_user,
+        gemini_key_values,
+        current_gemini_weekday_index(),
+    )
+except ValueError as e:
+    st.error(str(e))
     st.stop()
 
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=gemini_key_selection.api_key)
 
 
 ############################################
