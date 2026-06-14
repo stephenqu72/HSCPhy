@@ -124,6 +124,7 @@ from src.student_answers import (
     read_json_list,
 )
 from src.password_reset import set_user_password
+from src.session_prefs import load_session_prefs, save_session_prefs
 
 ############################################
 # 💼 Multi-user Auth + Per-user Storage (Streamlit Cloud ready)
@@ -278,6 +279,12 @@ user_root, user_fb_dir, user_tmp_dir = ensure_user_space(current_user)
 llm_owner = llm_owner_username(current_user)
 llm_root, llm_fb_dir, _ = ensure_user_space(llm_owner)
 can_generate_llm_answers = is_root_user(current_user)
+USER_SESSION_PREFS_FILE = os.path.join(user_root, "ui_session_state.json")
+if st.session_state.get("_session_prefs_loaded_for") != current_user:
+    for key, value in load_session_prefs(USER_SESSION_PREFS_FILE).items():
+        st.session_state[key] = value
+    st.session_state["_session_prefs_loaded_for"] = current_user
+    st.session_state["_sync_restored_selection_once"] = True
 
 def render_account_sidebar():
     st.sidebar.markdown("---")
@@ -854,6 +861,8 @@ _defaults = {
     "last_mode": None,
     "last_paper": None,
     "selected_paper": "",
+    "selected_topic": None,
+    "selected_subtopic": None,
     "visible_text_answers": {},
     "visible_graph_answers": {},
 }
@@ -866,6 +875,8 @@ for k, v in _defaults.items():
 # ---------- Sidebar: Course & Mode Selection ----------
 ############################################
 st.sidebar.markdown("## 🧭 Select Practice Mode")
+if st.session_state.get("practice_mode") not in ["Topic by Topic", "Past Paper"]:
+    st.session_state.practice_mode = "Topic by Topic"
 mode = st.sidebar.radio("Choose practice mode:", ["Topic by Topic", "Past Paper"], key="practice_mode")
 if not os.path.isdir(BASE_ROOT):
     st.warning(f"⚠️ The path '{BASE_ROOT}' was not found. Please check your course folder structure.")
@@ -885,8 +896,9 @@ if mode == "Past Paper":
     with open(list_file_path, "r", encoding="utf-8") as f:
         paper_names = [line.strip() for line in f if line.strip()]
 
-    selected_paper = st.sidebar.selectbox("📄 Select Past Paper:", paper_names)
-    st.session_state.selected_paper = selected_paper
+    if st.session_state.get("selected_paper") not in paper_names:
+        st.session_state.selected_paper = paper_names[0]
+    selected_paper = st.sidebar.selectbox("📄 Select Past Paper:", paper_names, key="selected_paper")
 
     question_library = BASE_ROOT
     if not os.path.exists(question_library):
@@ -911,7 +923,10 @@ if mode == "Past Paper":
 
 else:
     st.sidebar.markdown("## 🔍 Select HSC Course")
-    course_level = st.sidebar.selectbox("🎓 Module:", ["M1.Kinematics","M2.Dynamics","M3.Waves and thermodynamics","M4.Electricity and magnetism","M5.Advanced Mechanics","M6.Electromagnetism","M7.The nature of light","M8.From the universe to the atom"], key="course_level")
+    course_options = ["M1.Kinematics","M2.Dynamics","M3.Waves and thermodynamics","M4.Electricity and magnetism","M5.Advanced Mechanics","M6.Electromagnetism","M7.The nature of light","M8.From the universe to the atom"]
+    if st.session_state.get("course_level") not in course_options:
+        st.session_state.course_level = course_options[0]
+    course_level = st.sidebar.selectbox("🎓 Module:", course_options, key="course_level")
     base_root = os.path.join(BASE_ROOT, course_level)
     if not os.path.isdir(base_root):
         st.warning(f"⚠️ The path '{base_root}' was not found. Please check your course folder structure.")
@@ -923,7 +938,9 @@ else:
         st.warning(f"⚠️ No topics found under {base_root}.")
         st.stop()
 
-    selected_topic = st.sidebar.selectbox("📘 Main Topic:", topics)
+    if st.session_state.get("selected_topic") not in topics:
+        st.session_state.selected_topic = topics[0]
+    selected_topic = st.sidebar.selectbox("📘 Main Topic:", topics, key="selected_topic")
 
     subtopic_path = os.path.join(base_root, selected_topic)
     subtopics = [f for f in os.listdir(subtopic_path) if os.path.isdir(os.path.join(subtopic_path, f))]
@@ -931,10 +948,14 @@ else:
         st.warning(f"⚠️ No sub-topics found under {subtopic_path}.")
         st.stop()
 
-    selected_subtopic = st.sidebar.selectbox("📁 Sub-topic:", subtopics)
+    if st.session_state.get("selected_subtopic") not in subtopics:
+        st.session_state.selected_subtopic = subtopics[0]
+    selected_subtopic = st.sidebar.selectbox("📁 Sub-topic:", subtopics, key="selected_subtopic")
     folder_path = os.path.join(subtopic_path, selected_subtopic)
 
     question_type_file = os.path.join(llm_fb_dir, f"question_type_{course_level}.json")
+    if st.session_state.get("question_type_filter") not in QUESTION_TYPE_FILTERS:
+        st.session_state.question_type_filter = "All types"
     selected_question_type = st.sidebar.selectbox("🏷️ Type of question:", QUESTION_TYPE_FILTERS, key="question_type_filter")
 
     image_files = sorted([f for f in os.listdir(folder_path) if f.lower().endswith(".png")])
@@ -951,7 +972,10 @@ else:
 
 # 🔄 LLM Model Selection
 st.sidebar.markdown("## 🧠 Choose LLM Model")
-selected_model = st.sidebar.selectbox("LLM Provider:", ["gemini-3.1-flash-lite", "gemini-3.5-flash","gemma-4-26b-a4b-it"], key="llm_choice")
+model_options = ["gemini-3.1-flash-lite", "gemini-3.5-flash","gemma-4-26b-a4b-it"]
+if st.session_state.get("llm_choice") not in model_options:
+    st.session_state.llm_choice = model_options[0]
+selected_model = st.sidebar.selectbox("LLM Provider:", model_options, key="llm_choice")
 
 st.sidebar.markdown("## 📚 Physics Notes")
 note_pdf_options = list_note_pdfs(NOTES_ROOT)
@@ -976,11 +1000,28 @@ else:
     selected_subtopic = selected_subtopic if 'selected_subtopic' in locals() else st.session_state.last_selected_subtopic
     folder_path = os.path.join(base_root, selected_topic, selected_subtopic)
 
+try:
+    st.session_state.question_index = int(st.session_state.question_index)
+except Exception:
+    st.session_state.question_index = 0
+if st.session_state.image_files:
+    st.session_state.question_index = min(max(st.session_state.question_index, 0), len(st.session_state.image_files) - 1)
+else:
+    st.session_state.question_index = 0
+
 current_course_key = "Physics" if mode == "Past Paper" else course_level
 current_topic_key = selected_topic
 current_subtopic_key = selected_subtopic
 current_paper_key = st.session_state.get("selected_paper", "") if mode == "Past Paper" else ""
 current_question_type_key = selected_question_type if mode == "Topic by Topic" else "All types"
+
+if st.session_state.pop("_sync_restored_selection_once", False):
+    st.session_state.last_selected_course = current_course_key
+    st.session_state.last_selected_topic = current_topic_key
+    st.session_state.last_selected_subtopic = current_subtopic_key
+    st.session_state.last_selected_question_type = current_question_type_key
+    st.session_state.last_mode = mode
+    st.session_state.last_paper = current_paper_key
 
 ############################################
 # ---------- Selection Changed ----------
@@ -1015,6 +1056,23 @@ USER_ANSWER_FILE = os.path.join(user_fb_dir, f"user_answers_{question_type_cours
 def question_type_file_for_key(cache_key: str) -> str:
     course = question_type_course_for_cache_key(cache_key, question_type_course)
     return os.path.join(llm_fb_dir, f"question_type_{course}.json")
+
+
+def save_current_ui_session():
+    save_session_prefs(
+        USER_SESSION_PREFS_FILE,
+        {
+            "practice_mode": st.session_state.get("practice_mode"),
+            "course_level": st.session_state.get("course_level"),
+            "selected_topic": st.session_state.get("selected_topic"),
+            "selected_subtopic": st.session_state.get("selected_subtopic"),
+            "selected_paper": st.session_state.get("selected_paper"),
+            "question_type_filter": st.session_state.get("question_type_filter"),
+            "llm_choice": st.session_state.get("llm_choice"),
+            "selected_note_pdf": st.session_state.get("selected_note_pdf"),
+            "question_index": st.session_state.get("question_index", 0),
+        },
+    )
 
 st.sidebar.markdown("## ⚙️ Bulk Actions")
 if can_generate_llm_answers and st.sidebar.button("🧠 Bulk generate Text Answers"):
@@ -1442,6 +1500,8 @@ Please format like:
 
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")
+
+save_current_ui_session()
 
 st.markdown("---")
 st.markdown("<p style='text-align:center; font-size:16px;'>👧 Keep going! Every question makes you stronger 💪 and smarter 🧠.</p>", unsafe_allow_html=True)
