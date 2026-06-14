@@ -9,7 +9,6 @@ import hashlib
 import binascii
 import time
 from datetime import datetime
-from zoneinfo import ZoneInfo
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
@@ -102,9 +101,11 @@ except Exception:
             self.key_name = key_name
             self.api_key = api_key
 
-    def select_gemini_key(username: str, key_values: dict, weekday_index: int):
+    def select_gemini_key(username: str, key_values: dict, random_index=None):
         if is_root_user(username):
-            key_name = ROOT_GEMINI_KEY_NAMES[weekday_index % len(ROOT_GEMINI_KEY_NAMES)]
+            import random
+            selected_index = random.randrange(len(ROOT_GEMINI_KEY_NAMES)) if random_index is None else random_index
+            key_name = ROOT_GEMINI_KEY_NAMES[selected_index % len(ROOT_GEMINI_KEY_NAMES)]
         else:
             key_name = STUDENT_GEMINI_KEY_NAME
         api_key = (key_values.get(key_name) or "").strip()
@@ -390,28 +391,23 @@ def get_config_value(name: str):
         return None
 
 
-def current_gemini_weekday_index() -> int:
-    try:
-        return datetime.now(ZoneInfo("Australia/Sydney")).weekday()
-    except Exception:
-        return datetime.now().weekday()
-
-
 gemini_key_values = {
     key_name: get_config_value(key_name)
     for key_name in [*ROOT_GEMINI_KEY_NAMES, STUDENT_GEMINI_KEY_NAME]
 }
+
+
+def configure_gemini_for_current_user():
+    gemini_key_selection = select_gemini_key(current_user, gemini_key_values)
+    genai.configure(api_key=gemini_key_selection.api_key)
+    return gemini_key_selection
+
+
 try:
-    gemini_key_selection = select_gemini_key(
-        current_user,
-        gemini_key_values,
-        current_gemini_weekday_index(),
-    )
+    configure_gemini_for_current_user()
 except ValueError as e:
     st.error(str(e))
     st.stop()
-
-genai.configure(api_key=gemini_key_selection.api_key)
 
 
 ############################################
@@ -743,11 +739,13 @@ def extract_picture_number(filename):
 
 def call_model(prompt, image):
     #model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
+    configure_gemini_for_current_user()
     model = genai.GenerativeModel(selected_model)
     return model.generate_content([prompt, image])
 
 
 def call_text_model(prompt):
+    configure_gemini_for_current_user()
     model = genai.GenerativeModel(selected_model)
     return model.generate_content(prompt)
 
@@ -1278,6 +1276,7 @@ if st.session_state.image_files:
                         with open(img_path, "rb") as f:
                             image = Image.open(BytesIO(f.read()))
 
+                        configure_gemini_for_current_user()
                         model = genai.GenerativeModel(selected_model)
                         with st.spinner("Gemini is thinking..."):
                             try:

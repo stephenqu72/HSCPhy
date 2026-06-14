@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import random
 
 from src.auth_approval import is_root_user
 
@@ -13,9 +14,10 @@ class GeminiKeySelection:
     api_key: str
 
 
-def select_gemini_key(username: str, key_values: dict, weekday_index: int) -> GeminiKeySelection:
+def select_gemini_key(username: str, key_values: dict, random_index: int | None = None) -> GeminiKeySelection:
     if is_root_user(username):
-        key_name = ROOT_GEMINI_KEY_NAMES[weekday_index % len(ROOT_GEMINI_KEY_NAMES)]
+        selected_index = random.randrange(len(ROOT_GEMINI_KEY_NAMES)) if random_index is None else random_index
+        key_name = ROOT_GEMINI_KEY_NAMES[selected_index % len(ROOT_GEMINI_KEY_NAMES)]
     else:
         key_name = STUDENT_GEMINI_KEY_NAME
 
