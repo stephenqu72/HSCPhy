@@ -1503,6 +1503,7 @@ if st.session_state.image_files:
         generated_question_key = canonical_question_cache_key(BASE_ROOT, img_path, fallback_question_key)
         current_question_type_file = question_type_file_for_key(generated_question_key)
         current_question_type = get_question_type(current_question_type_file, generated_question_key)
+        saved_flash_card = load_saved_answer(generated_question_key, "flash_card")
 
         with col1:
             total_questions = len(st.session_state.image_files)
@@ -1510,6 +1511,10 @@ if st.session_state.image_files:
             st.markdown(f"### 📘 Question {current_question} of {total_questions}")
             st.image(img_path, caption=f"🖼️ Question Image {q_index+1}: {img_name}")
             st.caption(f"🏷️ Type of question: {current_question_type}")
+
+            if (saved_flash_card or "").strip():
+                st.markdown("### 🃏 Flash Card")
+                render_flash_card(saved_flash_card, f"{generated_question_key}:{q_index}")
 
             st.markdown("### ✍️ Your Answer")
             answer_widget_id = hashlib.sha1(generated_question_key.encode("utf-8")).hexdigest()
@@ -1761,9 +1766,9 @@ if st.session_state.image_files:
                 display_graph_answer(visible_graph, base_no_ext)
                         
         with col2:
-            saved_flash_card = load_saved_answer(generated_question_key, "flash_card")
+            video_col, flash_col = st.columns(2)
 
-            if st.button("🎮 Video Help", key=f"video_{q_index}"):
+            if video_col.button("🎮 Video Help", key=f"video_{q_index}"):
                 video_prompt = """
 You are an expert NSW HSC Physics teacher. Based on the image below, recommend one or two YouTube tutorial resources that help explain the concepts or topic shown.
 
@@ -1787,10 +1792,10 @@ Please format like:
                 st.markdown("### 🎥 Recommended Video")
                 st.markdown(response.text.strip())
 
-            if st.button("🃏 Flash Card", key=f"flash_card_{q_index}"):
+            if flash_col.button("🃏 Flash Card", key=f"flash_card_{q_index}"):
                 saved_text_answer = load_saved_answer(generated_question_key, "text")
                 if (saved_flash_card or "").strip():
-                    st.info("Saved flash card is shown below.")
+                    st.info("Saved flash card is shown under the question.")
                 elif not (saved_text_answer or "").strip():
                     st.warning("No saved Text Answer is available yet. Please show or generate the Text Answer first.")
                 else:
@@ -1798,10 +1803,7 @@ Please format like:
                         response = call_text_model(build_flash_card_prompt(strip_question_type_section(saved_text_answer)))
                     saved_flash_card = response.text.strip()
                     save_answer(generated_question_key, "flash_card", saved_flash_card)
-
-            if (saved_flash_card or "").strip():
-                st.markdown("### 🃏 Flash Card")
-                render_flash_card(saved_flash_card, f"{generated_question_key}:{q_index}")
+                    st.rerun()
 
             if visible_text:
                 st.markdown("### ✅ Answer")
