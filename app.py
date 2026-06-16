@@ -117,6 +117,7 @@ except Exception:
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
+    build_flash_card_prompt,
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
@@ -1497,6 +1498,16 @@ Please format like:
                 response = call_model(video_prompt, image)
                 st.markdown("### 🎥 Recommended Video")
                 st.markdown(response.text.strip())
+
+            if st.button("🃏 Flash Card", key=f"flash_card_{q_index}"):
+                saved_text_answer = load_saved_answer(generated_question_key, "text")
+                if not (saved_text_answer or "").strip():
+                    st.warning("No saved Text Answer is available yet. Please show or generate the Text Answer first.")
+                else:
+                    with st.spinner("Creating flash card..."):
+                        response = call_text_model(build_flash_card_prompt(strip_question_type_section(saved_text_answer)))
+                    st.markdown("### 🃏 Flash Card")
+                    st.markdown(response.text.strip())
 
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")

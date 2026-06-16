@@ -83,6 +83,27 @@ Keep it student-friendly and do not be harsh.
 """.strip()
 
 
+def build_flash_card_prompt(saved_answer: str) -> str:
+    return f"""
+You are a concise NSW HSC Physics study coach. Create one flash card from the saved answer below.
+
+Saved answer:
+{saved_answer}
+
+Format exactly:
+### Front
+A short recall question about the key physics law, formula, constant, figure, graph feature, or principle.
+
+### Back
+- Key idea:
+- Formula / law / constant / figure:
+- When to use it:
+- Common trap:
+
+Keep it compact and exam-focused. If no numeric constant or fixed figure applies, write "No fixed constant or figure".
+""".strip()
+
+
 def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
     try:
         base_abs = os.path.abspath(base_root)

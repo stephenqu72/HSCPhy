@@ -5,6 +5,7 @@ import unittest
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
+    build_flash_card_prompt,
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
@@ -65,6 +66,16 @@ class StudentAnswerTests(unittest.TestCase):
         self.assertIn("Student answer:\nB", prompt)
         self.assertIn("Saved teacher answer:\nThe correct answer is B", prompt)
         self.assertIn("Give concise, encouraging feedback", prompt)
+
+    def test_build_flash_card_prompt_uses_saved_answer_for_exam_facts(self):
+        prompt = build_flash_card_prompt("Use F = ma and gravitational acceleration g = 9.8 m s^-2.")
+
+        self.assertIn("saved answer", prompt.lower())
+        self.assertIn("key physics law", prompt)
+        self.assertIn("formula", prompt.lower())
+        self.assertIn("constant", prompt.lower())
+        self.assertIn("figure", prompt.lower())
+        self.assertIn("Use F = ma", prompt)
 
     def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
         with tempfile.TemporaryDirectory() as tmp:
