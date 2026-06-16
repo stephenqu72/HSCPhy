@@ -104,6 +104,15 @@ Keep it compact and exam-focused. If no numeric constant or fixed figure applies
 """.strip()
 
 
+def parse_flash_card(text: str) -> dict:
+    front_match = re.search(r"###\s*Front\s*([\s\S]*?)(?=###\s*Back|$)", text or "", re.IGNORECASE)
+    back_match = re.search(r"###\s*Back\s*([\s\S]*)", text or "", re.IGNORECASE)
+    return {
+        "front": front_match.group(1).strip() if front_match else "Review this key HSC Physics idea.",
+        "back": back_match.group(1).strip() if back_match else (text or "").strip(),
+    }
+
+
 def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
     try:
         base_abs = os.path.abspath(base_root)

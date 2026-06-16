@@ -9,10 +9,12 @@ import hashlib
 import binascii
 import time
 import random
+import html
 from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
 import base64
+import streamlit.components.v1 as components
 try:
     from src.usernames import normalize_user_db, normalize_username
 except Exception:
@@ -124,7 +126,7 @@ from src.student_answers import (
     read_json_list,
 )
 try:
-    from src.student_answers import build_flash_card_prompt
+    from src.student_answers import build_flash_card_prompt, parse_flash_card
 except ImportError:
     def build_flash_card_prompt(saved_answer: str) -> str:
         return f"""
@@ -145,6 +147,14 @@ A short recall question about the key physics law, formula, constant, figure, gr
 
 Keep it compact and exam-focused. If no numeric constant or fixed figure applies, write "No fixed constant or figure".
 """.strip()
+
+    def parse_flash_card(text: str) -> dict:
+        front_match = re.search(r"###\s*Front\s*([\s\S]*?)(?=###\s*Back|$)", text or "", re.IGNORECASE)
+        back_match = re.search(r"###\s*Back\s*([\s\S]*)", text or "", re.IGNORECASE)
+        return {
+            "front": front_match.group(1).strip() if front_match else "Review this key HSC Physics idea.",
+            "back": back_match.group(1).strip() if back_match else (text or "").strip(),
+        }
 from src.password_reset import set_user_password
 from src.session_prefs import load_session_prefs, save_session_prefs
 
@@ -591,6 +601,95 @@ def display_text_answer(reply: str, question_type: str):
     st.markdown("#### ✅ Answer")
     st.caption(f"Question type: {question_type}")
     st.markdown(strip_question_type_section(reply))
+
+
+def render_flash_card(card_text: str, card_key: str):
+    card = parse_flash_card(card_text)
+    front_html = html.escape(card["front"]).replace("\n", "<br>")
+    back_html = html.escape(card["back"]).replace("\n", "<br>")
+    element_id = f"flash-card-{hashlib.sha1(card_key.encode('utf-8')).hexdigest()}"
+    components.html(
+        f"""
+<style>
+  .flash-card-wrap {{
+    width: 100%;
+    min-height: 280px;
+    perspective: 1200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }}
+  .flash-card-toggle {{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }}
+  .flash-card {{
+    display: block;
+    width: 100%;
+    min-height: 260px;
+    cursor: pointer;
+  }}
+  .flash-card-inner {{
+    position: relative;
+    width: 100%;
+    min-height: 260px;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+  }}
+  .flash-card-toggle:checked + .flash-card .flash-card-inner {{
+    transform: rotateY(180deg);
+  }}
+  .flash-card-face {{
+    position: absolute;
+    inset: 0;
+    box-sizing: border-box;
+    padding: 22px 24px;
+    border: 1px solid #d9dee8;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.10);
+    color: #172033;
+    overflow: auto;
+  }}
+  .flash-card-front {{
+    background: linear-gradient(135deg, #fff7d6, #e8f4ff);
+  }}
+  .flash-card-back {{
+    background: linear-gradient(135deg, #e9fff3, #fff1f1);
+    transform: rotateY(180deg);
+  }}
+  .flash-card-label {{
+    display: inline-block;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #5b6475;
+    text-transform: uppercase;
+  }}
+  .flash-card-content {{
+    font-size: 17px;
+    line-height: 1.55;
+    white-space: normal;
+  }}
+</style>
+<div class="flash-card-wrap">
+  <input class="flash-card-toggle" id="{element_id}" type="checkbox">
+  <label class="flash-card" for="{element_id}">
+    <div class="flash-card-inner">
+      <section class="flash-card-face flash-card-front">
+        <div class="flash-card-label">Front</div>
+        <div class="flash-card-content">{front_html}</div>
+      </section>
+      <section class="flash-card-face flash-card-back">
+        <div class="flash-card-label">Back</div>
+        <div class="flash-card-content">{back_html}</div>
+      </section>
+    </div>
+  </label>
+</div>
+""",
+        height=300,
+    )
 
 
 def display_graph_answer(raw: str, base_no_ext: str):
@@ -1528,7 +1627,7 @@ Please format like:
                     with st.spinner("Creating flash card..."):
                         response = call_text_model(build_flash_card_prompt(strip_question_type_section(saved_text_answer)))
                     st.markdown("### 🃏 Flash Card")
-                    st.markdown(response.text.strip())
+                    render_flash_card(response.text.strip(), f"{generated_question_key}:{q_index}")
 
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")

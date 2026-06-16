@@ -9,6 +9,7 @@ from src.student_answers import (
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
+    parse_flash_card,
     question_type_course_for_cache_key,
     read_json_list,
 )
@@ -76,6 +77,21 @@ class StudentAnswerTests(unittest.TestCase):
         self.assertIn("constant", prompt.lower())
         self.assertIn("figure", prompt.lower())
         self.assertIn("Use F = ma", prompt)
+
+    def test_parse_flash_card_splits_front_and_back(self):
+        flash_card = parse_flash_card(
+            """
+### Front
+What does Newton's second law connect?
+
+### Back
+- Key idea: Force causes acceleration
+- Formula / law / constant / figure: F = ma
+""".strip()
+        )
+
+        self.assertEqual(flash_card["front"], "What does Newton's second law connect?")
+        self.assertIn("F = ma", flash_card["back"])
 
     def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
         with tempfile.TemporaryDirectory() as tmp:
