@@ -117,13 +117,34 @@ except Exception:
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
-    build_flash_card_prompt,
     build_answer_summary,
     canonical_question_cache_key,
     latest_answers_by_key,
     question_type_course_for_cache_key,
     read_json_list,
 )
+try:
+    from src.student_answers import build_flash_card_prompt
+except ImportError:
+    def build_flash_card_prompt(saved_answer: str) -> str:
+        return f"""
+You are a concise NSW HSC Physics study coach. Create one flash card from the saved answer below.
+
+Saved answer:
+{saved_answer}
+
+Format exactly:
+### Front
+A short recall question about the key physics law, formula, constant, figure, graph feature, or principle.
+
+### Back
+- Key idea:
+- Formula / law / constant / figure:
+- When to use it:
+- Common trap:
+
+Keep it compact and exam-focused. If no numeric constant or fixed figure applies, write "No fixed constant or figure".
+""".strip()
 from src.password_reset import set_user_password
 from src.session_prefs import load_session_prefs, save_session_prefs
 
