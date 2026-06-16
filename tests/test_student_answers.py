@@ -13,6 +13,7 @@ from src.student_answers import (
     parse_flash_card,
     question_type_course_for_cache_key,
     read_json_list,
+    study_markdown_to_html,
 )
 
 
@@ -106,6 +107,20 @@ What does Newton's second law connect?
         self.assertIn("<strong>Key idea:</strong>", html)
         self.assertIn("<code>$W = q\\Delta V$</code>", html)
         self.assertIn("</ul>", html)
+
+    def test_study_markdown_to_html_renders_answer_markdown(self):
+        html = study_markdown_to_html(
+            """
+### Answer
+The current is **2 A**.
+
+- Use `I = q/t`
+""".strip()
+        )
+
+        self.assertIn("<h3>Answer</h3>", html)
+        self.assertIn("<strong>2 A</strong>", html)
+        self.assertIn("<li>Use <code>I = q/t</code></li>", html)
 
     def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
         with tempfile.TemporaryDirectory() as tmp:

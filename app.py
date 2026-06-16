@@ -126,7 +126,7 @@ from src.student_answers import (
     read_json_list,
 )
 try:
-    from src.student_answers import build_flash_card_prompt, flash_card_markdown_to_html, parse_flash_card
+    from src.student_answers import build_flash_card_prompt, parse_flash_card, study_markdown_to_html
 except ImportError:
     def build_flash_card_prompt(saved_answer: str) -> str:
         return f"""
@@ -162,7 +162,7 @@ Keep it compact and exam-focused. If no numeric constant or fixed figure applies
         rendered = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", rendered)
         return rendered
 
-    def flash_card_markdown_to_html(text: str) -> str:
+    def study_markdown_to_html(text: str) -> str:
         blocks = []
         list_items = []
         paragraph_lines = []
@@ -650,8 +650,8 @@ def display_text_answer(reply: str, question_type: str):
 
 def render_flash_card(card_text: str, card_key: str):
     card = parse_flash_card(card_text)
-    front_html = flash_card_markdown_to_html(card["front"])
-    back_html = flash_card_markdown_to_html(card["back"])
+    front_html = study_markdown_to_html(card["front"])
+    back_html = study_markdown_to_html(card["back"])
     element_id = f"flash-card-{hashlib.sha1(card_key.encode('utf-8')).hexdigest()}"
     components.html(
         f"""
@@ -764,6 +764,99 @@ def render_flash_card(card_text: str, card_key: str):
 </div>
 """,
         height=300,
+    )
+
+
+def render_text_answer_card(reply: str, question_type: str, card_key: str):
+    answer_html = study_markdown_to_html(strip_question_type_section(reply))
+    element_id = f"answer-card-{hashlib.sha1(card_key.encode('utf-8')).hexdigest()}"
+    components.html(
+        f"""
+<script>
+  window.MathJax = {{
+    tex: {{
+      inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+      displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+    }},
+    svg: {{ fontCache: 'global' }}
+  }};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+  #{element_id} {{
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 520px;
+    overflow: auto;
+    padding: 22px 24px;
+    border: 1px solid #d9dee8;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f8fbff, #fff8ed);
+    box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+    color: #172033;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }}
+  #{element_id} .answer-card-label {{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #5b6475;
+    text-transform: uppercase;
+  }}
+  #{element_id} .answer-card-type {{
+    margin: 0 0 16px;
+    color: #687386;
+    font-size: 13px;
+  }}
+  #{element_id} .answer-card-content {{
+    font-size: 16px;
+    line-height: 1.58;
+  }}
+  #{element_id} p {{
+    margin: 0 0 12px;
+  }}
+  #{element_id} ul {{
+    margin: 0 0 12px;
+    padding-left: 22px;
+  }}
+  #{element_id} li {{
+    margin: 0 0 9px;
+  }}
+  #{element_id} h1,
+  #{element_id} h2,
+  #{element_id} h3,
+  #{element_id} h4 {{
+    margin: 16px 0 10px;
+    color: #172033;
+    font-size: 18px;
+    line-height: 1.25;
+  }}
+  #{element_id} h1:first-child,
+  #{element_id} h2:first-child,
+  #{element_id} h3:first-child,
+  #{element_id} h4:first-child {{
+    margin-top: 0;
+  }}
+  #{element_id} code {{
+    padding: 1px 5px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.78);
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+    font-size: 0.95em;
+  }}
+  #{element_id} strong {{
+    font-weight: 750;
+  }}
+</style>
+<section id="{element_id}">
+  <div class="answer-card-label">Answer</div>
+  <div class="answer-card-type">Question type: {html.escape(question_type or DEFAULT_QUESTION_TYPE)}</div>
+  <div class="answer-card-content">{answer_html}</div>
+</section>
+""",
+        height=560,
     )
 
 
@@ -1663,8 +1756,6 @@ if st.session_state.image_files:
 
             visible_text = st.session_state.visible_text_answers.get(generated_question_key)
             visible_graph = st.session_state.visible_graph_answers.get(generated_question_key)
-            if visible_text:
-                display_text_answer(visible_text["reply"], visible_text["question_type"])
             if visible_graph:
                 base_no_ext = os.path.splitext(os.path.basename(img_name))[0]
                 display_graph_answer(visible_graph, base_no_ext)
@@ -1711,6 +1802,14 @@ Please format like:
             if (saved_flash_card or "").strip():
                 st.markdown("### 🃏 Flash Card")
                 render_flash_card(saved_flash_card, f"{generated_question_key}:{q_index}")
+
+            if visible_text:
+                st.markdown("### ✅ Answer")
+                render_text_answer_card(
+                    visible_text["reply"],
+                    visible_text["question_type"],
+                    f"{generated_question_key}:{q_index}:text",
+                )
 
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")

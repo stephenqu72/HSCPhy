@@ -121,7 +121,7 @@ def _flash_card_inline_markdown_to_html(text: str) -> str:
     return rendered
 
 
-def flash_card_markdown_to_html(text: str) -> str:
+def study_markdown_to_html(text: str) -> str:
     blocks = []
     list_items = []
     paragraph_lines = []
@@ -162,6 +162,10 @@ def flash_card_markdown_to_html(text: str) -> str:
     flush_paragraph()
     flush_list()
     return "\n".join(blocks)
+
+
+def flash_card_markdown_to_html(text: str) -> str:
+    return study_markdown_to_html(text)
 
 
 def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
