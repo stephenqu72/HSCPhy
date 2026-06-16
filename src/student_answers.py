@@ -168,6 +168,25 @@ def flash_card_markdown_to_html(text: str) -> str:
     return study_markdown_to_html(text)
 
 
+def estimate_study_panel_height(text: str, min_height: int = 220, max_height: int = 1800) -> int:
+    raw_lines = (text or "").splitlines() or [""]
+    visual_lines = 0
+    for raw_line in raw_lines:
+        line = raw_line.strip()
+        if not line:
+            visual_lines += 1
+            continue
+        line_weight = 1
+        if re.match(r"^#{1,6}\s+", line):
+            line_weight = 2
+        elif line.startswith(("- ", "* ")):
+            line_weight = 1.15
+        visual_lines += max(line_weight, len(line) / 82)
+
+    estimated = 118 + int(visual_lines * 29)
+    return max(min_height, min(max_height, estimated))
+
+
 def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
     try:
         base_abs = os.path.abspath(base_root)

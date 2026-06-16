@@ -126,7 +126,7 @@ from src.student_answers import (
     read_json_list,
 )
 try:
-    from src.student_answers import build_flash_card_prompt, parse_flash_card, study_markdown_to_html
+    from src.student_answers import build_flash_card_prompt, estimate_study_panel_height, parse_flash_card, study_markdown_to_html
 except ImportError:
     def build_flash_card_prompt(saved_answer: str) -> str:
         return f"""
@@ -200,6 +200,23 @@ Keep it compact and exam-focused. If no numeric constant or fixed figure applies
         flush_paragraph()
         flush_list()
         return "\n".join(blocks)
+
+    def estimate_study_panel_height(text: str, min_height: int = 220, max_height: int = 1800) -> int:
+        raw_lines = (text or "").splitlines() or [""]
+        visual_lines = 0
+        for raw_line in raw_lines:
+            line = raw_line.strip()
+            if not line:
+                visual_lines += 1
+                continue
+            line_weight = 1
+            if re.match(r"^#{1,6}\s+", line):
+                line_weight = 2
+            elif line.startswith(("- ", "* ")):
+                line_weight = 1.15
+            visual_lines += max(line_weight, len(line) / 82)
+        estimated = 118 + int(visual_lines * 29)
+        return max(min_height, min(max_height, estimated))
 from src.password_reset import set_user_password
 from src.session_prefs import load_session_prefs, save_session_prefs
 
@@ -768,7 +785,9 @@ def render_flash_card(card_text: str, card_key: str):
 
 
 def render_text_answer_card(reply: str, question_type: str, card_key: str):
-    answer_html = study_markdown_to_html(strip_question_type_section(reply))
+    answer_text = strip_question_type_section(reply)
+    answer_html = study_markdown_to_html(answer_text)
+    panel_height = estimate_study_panel_height(answer_text)
     element_id = f"answer-card-{hashlib.sha1(card_key.encode('utf-8')).hexdigest()}"
     components.html(
         f"""
@@ -786,8 +805,6 @@ def render_text_answer_card(reply: str, question_type: str, card_key: str):
   #{element_id} {{
     box-sizing: border-box;
     width: 100%;
-    max-height: 520px;
-    overflow: auto;
     padding: 22px 24px;
     border: 1px solid #d9dee8;
     border-radius: 8px;
@@ -856,7 +873,7 @@ def render_text_answer_card(reply: str, question_type: str, card_key: str):
   <div class="answer-card-content">{answer_html}</div>
 </section>
 """,
-        height=560,
+        height=panel_height,
     )
 
 

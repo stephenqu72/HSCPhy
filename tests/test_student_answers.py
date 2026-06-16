@@ -9,6 +9,7 @@ from src.student_answers import (
     build_answer_summary,
     canonical_question_cache_key,
     flash_card_markdown_to_html,
+    estimate_study_panel_height,
     latest_answers_by_key,
     parse_flash_card,
     question_type_course_for_cache_key,
@@ -121,6 +122,13 @@ The current is **2 A**.
         self.assertIn("<h3>Answer</h3>", html)
         self.assertIn("<strong>2 A</strong>", html)
         self.assertIn("<li>Use <code>I = q/t</code></li>", html)
+
+    def test_estimate_study_panel_height_grows_for_long_answers(self):
+        short_height = estimate_study_panel_height("Short answer.")
+        long_height = estimate_study_panel_height("\n".join([f"- point {index}: " + ("detail " * 12) for index in range(12)]))
+
+        self.assertGreaterEqual(short_height, 220)
+        self.assertGreater(long_height, short_height)
 
     def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
         with tempfile.TemporaryDirectory() as tmp:
