@@ -126,7 +126,7 @@ from src.student_answers import (
     read_json_list,
 )
 try:
-    from src.student_answers import build_flash_card_prompt, parse_flash_card
+    from src.student_answers import build_flash_card_prompt, flash_card_markdown_to_html, parse_flash_card
 except ImportError:
     def build_flash_card_prompt(saved_answer: str) -> str:
         return f"""
@@ -155,6 +155,51 @@ Keep it compact and exam-focused. If no numeric constant or fixed figure applies
             "front": front_match.group(1).strip() if front_match else "Review this key HSC Physics idea.",
             "back": back_match.group(1).strip() if back_match else (text or "").strip(),
         }
+
+    def _flash_card_inline_markdown_to_html(text: str) -> str:
+        rendered = html.escape(text or "")
+        rendered = re.sub(r"`([^`]+)`", r"<code>\1</code>", rendered)
+        rendered = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", rendered)
+        return rendered
+
+    def flash_card_markdown_to_html(text: str) -> str:
+        blocks = []
+        list_items = []
+        paragraph_lines = []
+
+        def flush_list():
+            if list_items:
+                blocks.append("<ul>" + "".join(f"<li>{item}</li>" for item in list_items) + "</ul>")
+                list_items.clear()
+
+        def flush_paragraph():
+            if paragraph_lines:
+                blocks.append(f"<p>{_flash_card_inline_markdown_to_html(' '.join(paragraph_lines))}</p>")
+                paragraph_lines.clear()
+
+        for raw_line in (text or "").splitlines():
+            line = raw_line.strip()
+            if not line:
+                flush_paragraph()
+                flush_list()
+                continue
+            heading = re.match(r"^(#{1,6})\s+(.+)$", line)
+            if heading:
+                flush_paragraph()
+                flush_list()
+                level = min(len(heading.group(1)), 4)
+                blocks.append(f"<h{level}>{_flash_card_inline_markdown_to_html(heading.group(2))}</h{level}>")
+                continue
+            if line.startswith(("- ", "* ")):
+                flush_paragraph()
+                list_items.append(_flash_card_inline_markdown_to_html(line[2:].strip()))
+                continue
+            flush_list()
+            paragraph_lines.append(line)
+
+        flush_paragraph()
+        flush_list()
+        return "\n".join(blocks)
 from src.password_reset import set_user_password
 from src.session_prefs import load_session_prefs, save_session_prefs
 
@@ -605,11 +650,21 @@ def display_text_answer(reply: str, question_type: str):
 
 def render_flash_card(card_text: str, card_key: str):
     card = parse_flash_card(card_text)
-    front_html = html.escape(card["front"]).replace("\n", "<br>")
-    back_html = html.escape(card["back"]).replace("\n", "<br>")
+    front_html = flash_card_markdown_to_html(card["front"])
+    back_html = flash_card_markdown_to_html(card["back"])
     element_id = f"flash-card-{hashlib.sha1(card_key.encode('utf-8')).hexdigest()}"
     components.html(
         f"""
+<script>
+  window.MathJax = {{
+    tex: {{
+      inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+      displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+    }},
+    svg: {{ fontCache: 'global' }}
+  }};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 <style>
   .flash-card-wrap {{
     width: 100%;
@@ -670,6 +725,26 @@ def render_flash_card(card_text: str, card_key: str):
     font-size: 17px;
     line-height: 1.55;
     white-space: normal;
+  }}
+  .flash-card-content p {{
+    margin: 0 0 12px;
+  }}
+  .flash-card-content ul {{
+    margin: 0;
+    padding-left: 22px;
+  }}
+  .flash-card-content li {{
+    margin: 0 0 10px;
+  }}
+  .flash-card-content code {{
+    padding: 1px 5px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.72);
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+    font-size: 0.95em;
+  }}
+  .flash-card-content strong {{
+    font-weight: 750;
   }}
 </style>
 <div class="flash-card-wrap">

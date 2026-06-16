@@ -8,6 +8,7 @@ from src.student_answers import (
     build_flash_card_prompt,
     build_answer_summary,
     canonical_question_cache_key,
+    flash_card_markdown_to_html,
     latest_answers_by_key,
     parse_flash_card,
     question_type_course_for_cache_key,
@@ -92,6 +93,19 @@ What does Newton's second law connect?
 
         self.assertEqual(flash_card["front"], "What does Newton's second law connect?")
         self.assertIn("F = ma", flash_card["back"])
+
+    def test_flash_card_markdown_to_html_renders_bullets_and_inline_markdown(self):
+        html = flash_card_markdown_to_html(
+            """
+- **Key idea:** Work equals charge times potential difference.
+- Formula: `$W = q\\Delta V$`
+""".strip()
+        )
+
+        self.assertIn("<ul>", html)
+        self.assertIn("<strong>Key idea:</strong>", html)
+        self.assertIn("<code>$W = q\\Delta V$</code>", html)
+        self.assertIn("</ul>", html)
 
     def test_canonical_question_cache_key_matches_topic_by_topic_key(self):
         with tempfile.TemporaryDirectory() as tmp:

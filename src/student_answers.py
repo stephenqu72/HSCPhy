@@ -1,4 +1,5 @@
 import json
+import html
 import os
 import re
 
@@ -111,6 +112,56 @@ def parse_flash_card(text: str) -> dict:
         "front": front_match.group(1).strip() if front_match else "Review this key HSC Physics idea.",
         "back": back_match.group(1).strip() if back_match else (text or "").strip(),
     }
+
+
+def _flash_card_inline_markdown_to_html(text: str) -> str:
+    rendered = html.escape(text or "")
+    rendered = re.sub(r"`([^`]+)`", r"<code>\1</code>", rendered)
+    rendered = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", rendered)
+    return rendered
+
+
+def flash_card_markdown_to_html(text: str) -> str:
+    blocks = []
+    list_items = []
+    paragraph_lines = []
+
+    def flush_list():
+        if list_items:
+            blocks.append("<ul>" + "".join(f"<li>{item}</li>" for item in list_items) + "</ul>")
+            list_items.clear()
+
+    def flush_paragraph():
+        if paragraph_lines:
+            blocks.append(f"<p>{_flash_card_inline_markdown_to_html(' '.join(paragraph_lines))}</p>")
+            paragraph_lines.clear()
+
+    for raw_line in (text or "").splitlines():
+        line = raw_line.strip()
+        if not line:
+            flush_paragraph()
+            flush_list()
+            continue
+
+        heading = re.match(r"^(#{1,6})\s+(.+)$", line)
+        if heading:
+            flush_paragraph()
+            flush_list()
+            level = min(len(heading.group(1)), 4)
+            blocks.append(f"<h{level}>{_flash_card_inline_markdown_to_html(heading.group(2))}</h{level}>")
+            continue
+
+        if line.startswith(("- ", "* ")):
+            flush_paragraph()
+            list_items.append(_flash_card_inline_markdown_to_html(line[2:].strip()))
+            continue
+
+        flush_list()
+        paragraph_lines.append(line)
+
+    flush_paragraph()
+    flush_list()
+    return "\n".join(blocks)
 
 
 def canonical_question_cache_key(base_root: str, image_path: str, fallback_key: str) -> str:
