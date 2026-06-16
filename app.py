@@ -1670,6 +1670,8 @@ if st.session_state.image_files:
                 display_graph_answer(visible_graph, base_no_ext)
                         
         with col2:
+            saved_flash_card = load_saved_answer(generated_question_key, "flash_card")
+
             if st.button("🎮 Video Help", key=f"video_{q_index}"):
                 video_prompt = """
 You are an expert NSW HSC Physics teacher. Based on the image below, recommend one or two YouTube tutorial resources that help explain the concepts or topic shown.
@@ -1696,13 +1698,19 @@ Please format like:
 
             if st.button("🃏 Flash Card", key=f"flash_card_{q_index}"):
                 saved_text_answer = load_saved_answer(generated_question_key, "text")
-                if not (saved_text_answer or "").strip():
+                if (saved_flash_card or "").strip():
+                    st.info("Saved flash card is shown below.")
+                elif not (saved_text_answer or "").strip():
                     st.warning("No saved Text Answer is available yet. Please show or generate the Text Answer first.")
                 else:
                     with st.spinner("Creating flash card..."):
                         response = call_text_model(build_flash_card_prompt(strip_question_type_section(saved_text_answer)))
-                    st.markdown("### 🃏 Flash Card")
-                    render_flash_card(response.text.strip(), f"{generated_question_key}:{q_index}")
+                    saved_flash_card = response.text.strip()
+                    save_answer(generated_question_key, "flash_card", saved_flash_card)
+
+            if (saved_flash_card or "").strip():
+                st.markdown("### 🃏 Flash Card")
+                render_flash_card(saved_flash_card, f"{generated_question_key}:{q_index}")
 
 else:
     st.warning("⚠️ No PNG images found in the selected sub-topic.")
