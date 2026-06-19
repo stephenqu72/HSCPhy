@@ -1,0 +1,19 @@
+Hello! As an HSC Physics teacher, let's break down this question.
+
+### Answer
+The correct answer is **(A) eddy currents produce heat.**
+
+### Explanation
+To solve this, we must understand the definition of an "ideal" transformer versus a "real" transformer:
+
+1.  **Defining the Ideal Transformer:** An ideal transformer is a theoretical model that assumes $100\%$ efficiency. It assumes there is no resistance in the coils, no magnetic flux leakage, and no energy losses within the core material itself.
+2.  **Why Real Transformers aren't 100% efficient:** In the real world, transformers are made of conducting materials (like iron cores and copper wire). When a changing magnetic flux passes through the conducting core, it induces circular currents known as **eddy currents**. According to Joule’s Law ($P = I^2 R$), these currents flowing through the resistance of the core material generate thermal energy (heat). This represents a loss of input energy, meaning the transformer cannot be $100\%$ efficient.
+3.  **Evaluating the other options:**
+    *   **(B)** While the current must change to induce an EMF, this is a requirement for the *operation* of a transformer, not a reason why they fail to be $100\%$ efficient.
+    *   **(C)** Transformers rely on Faraday’s Law of Induction, which requires a *changing* magnetic flux. This explains why they don't work with steady DC, but it is a functional limitation, not an efficiency limitation.
+    *   **(D)** This is factually incorrect; iron cores are used specifically *because* they are highly magnetic (ferromagnetic), which helps concentrate the magnetic flux.
+
+In summary, energy dissipation due to eddy currents is a primary physical factor that prevents real-world transformers from achieving the $100\%$ efficiency of an ideal model.
+
+###QUESTION_TYPE
+Multiple choice

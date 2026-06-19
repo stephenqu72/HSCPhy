@@ -1,0 +1,22 @@
+To solve this problem, we must apply **Lenz's Law** and the **Right-Hand Motor Rule** (also known as Fleming's Left-Hand Rule for force on a current-carrying conductor).
+
+### Explanation
+
+1.  **Understand Lenz's Law:** Lenz's Law states that an induced current will flow in a direction that produces a magnetic field that opposes the change in magnetic flux that created it. Essentially, it describes the conservation of energy: the mechanical work done to rotate the generator is converted into electrical energy. The induced current creates a magnetic force (the "back force") that opposes the motion of the rotor.
+2.  **Determine the Direction of Current:** As the coil rotates clockwise, the top side is moving upwards through the magnetic field from North to South. Using the Right-Hand Generator Rule:
+    *   Point your thumb in the direction of velocity (upwards for the top side).
+    *   Point your fingers in the direction of the magnetic field ($N \rightarrow S$).
+    *   Your palm (or fingers) points in the direction of the induced current. For the top side, the current flows into the page.
+3.  **Determine the Direction of the Induced Force:** Now apply the Right-Hand Motor Rule to find the force on this current-carrying wire:
+    *   Point your index finger in the direction of the magnetic field ($N \rightarrow S$).
+    *   Point your middle finger in the direction of the current (into the page).
+    *   Your thumb points in the direction of the force.
+    *   Alternatively, simply use Lenz's Law: Since the motion is clockwise, the induced force must oppose the rotation. The top of the coil is moving upwards and to the right; therefore, the opposing force must act **downwards** and to the left to resist this motion.
+
+By opposing the mechanical motion that drives the generator, the force on the top wire is directed downwards.
+
+### Answer
+The correct option is **(C) Downwards**.
+
+###QUESTION_TYPE
+Multiple choice

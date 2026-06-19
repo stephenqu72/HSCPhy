@@ -1,0 +1,39 @@
+### Question 2
+**Answer:** (A)
+
+**Explanation:**
+A diffraction grating consists of many closely spaced parallel slits. When monochromatic light (like a laser) passes through these slits, each slit acts as a coherent point source of light waves (Huygens' Principle). These waves overlap and undergo superposition. Where the waves arrive in phase, constructive interference occurs, resulting in bright bands on the screen. Therefore, the pattern is a direct consequence of the wave nature of light and the interference of light from multiple slits.
+
+---
+
+### Question 3
+**Answer:** (B)
+
+**Explanation:**
+To calculate the distance between the central bright band and the adjacent bright band, we use the diffraction grating equation for small angles:
+$$d \sin(\theta) = n \lambda$$
+For the first adjacent band, $n = 1$.
+
+1.  **Find the slit separation ($d$):**
+    The grating has $10\text{ lines/mm}$. 
+    $$d = \frac{1}{10} \text{ mm/line} = 0.1 \text{ mm} = 1 \times 10^{-4} \text{ m}$$
+
+2.  **Use the small angle approximation:**
+    When $\theta$ is very small, $\sin(\theta) \approx \tan(\theta) = \frac{y}{L}$, where $y$ is the distance from the central band and $L$ is the screen distance.
+    The formula becomes:
+    $$d \left( \frac{y}{L} \right) = \lambda$$
+    $$y = \frac{\lambda L}{d}$$
+
+3.  **Substitute the given values:**
+    - $\lambda = 400 \text{ nm} = 400 \times 10^{-9} \text{ m} = 4 \times 10^{-7} \text{ m}$
+    - $L = 3.0 \text{ m}$
+    - $d = 1 \times 10^{-4} \text{ m}$
+
+    $$y = \frac{(4 \times 10^{-7} \text{ m}) \times (3.0 \text{ m})}{1 \times 10^{-4} \text{ m}}$$
+    $$y = \frac{12 \times 10^{-7}}{10^{-4}} \text{ m}$$
+    $$y = 12 \times 10^{-3} \text{ m} = 1.2 \times 10^{-2} \text{ m}$$
+
+Comparing this to the options, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

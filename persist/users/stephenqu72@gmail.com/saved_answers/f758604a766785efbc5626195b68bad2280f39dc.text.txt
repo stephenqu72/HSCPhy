@@ -1,0 +1,37 @@
+To solve this problem, we must apply the principles of electromagnetism as they relate to DC motors.
+
+### Part (a): Determine the torque on side $WZ$
+
+**1. Analyze the physics:** 
+The force $F$ on a current-carrying conductor in a magnetic field is given by $F = nILB \sin(\theta)$. Torque ($\tau$) is defined as $F \times r$, where $r$ is the perpendicular distance from the axis of rotation.
+
+**2. Identify values:**
+* Number of turns ($n$) = $20$
+* Current ($I$) = $2.5 \text{ A}$
+* Side length ($L$) = $0.04 \text{ m}$
+* Magnetic field ($B$) = $2.0 \text{ T}$
+* Since the magnetic field is perpendicular to side $WZ$, $\theta = 90^\circ$, so $\sin(90^\circ) = 1$.
+* The side $WZ$ is at a distance $r = \frac{L}{2} = 0.02 \text{ m}$ from the axis of rotation.
+
+**3. Calculate Force:**
+$$F = nILB = 20 \times 2.5 \times 0.04 \times 2.0 = 4.0 \text{ N}$$
+
+**4. Calculate Torque:**
+$$\tau = F \times r = 4.0 \text{ N} \times 0.02 \text{ m} = 0.08 \text{ Nm}$$
+
+**Answer:** The torque on side $WZ$ is $0.08 \text{ Nm}$.
+
+---
+
+### Part (b): Explain the continuous movement of the coil
+
+The continuous rotation of the coil in a DC motor is achieved through the use of a **split-ring commutator**.
+
+1. **Torque Variation:** The torque acting on the coil is given by $\tau = nIBA \sin(\theta)$ (where $\theta$ is the angle between the normal to the coil and the magnetic field). As the coil rotates, the torque varies from a maximum when the coil is parallel to the field to zero when the coil is perpendicular to the field.
+2. **The Role of the Commutator:** When the coil reaches the vertical position (where torque would normally cause it to stop or oscillate), the split-ring commutator reverses the direction of the current through the coil. 
+3. **Continuous Motion:** By reversing the current, the direction of the forces on the sides of the coil is also reversed. This ensures that the torque continues to act in the same rotational direction, allowing the motor to complete a full revolution and continue moving without reversing direction.
+
+---
+
+###QUESTION_TYPE
+Calculation question

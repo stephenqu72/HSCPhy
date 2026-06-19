@@ -1,0 +1,24 @@
+To answer this question effectively, you need to recognize that it is asking for a "compare" response. In HSC Physics, this means you must identify both the similarities and differences, or the relationship between the two concepts.
+
+### Answer
+
+Back emf and the current produced in a generator are fundamentally linked through the principles of electromagnetic induction and energy conservation.
+
+1.  **Origin and Nature:** The current produced in a generator is the output caused by the change in magnetic flux through the coil (Faraday’s Law). Back emf (electromotive force) is an induced voltage that opposes the change in the magnetic flux that produced it (Lenz’s Law).
+2.  **Relationship:** The back emf is a direct consequence of the current flowing in the generator. As the generator supplies current to an external load, that current creates its own magnetic field, which interacts with the external magnetic field of the generator.
+3.  **The "Opposition" Effect:** While the generator produces a terminal voltage to drive current, the back emf acts to oppose the motion of the generator (the mechanical torque). If the load current increases, the back emf becomes more significant, requiring more mechanical input energy (torque) to maintain the rotation speed, which illustrates the Law of Conservation of Energy.
+4.  **Mathematical Link:** Both are governed by the rate of change of magnetic flux, $\Phi_B$. The induced emf is given by $\varepsilon = -N \frac{\Delta\Phi_B}{\Delta t}$. The current $I$ is related by Ohm’s Law, $I = \frac{V - \varepsilon}{R}$, where $V$ is the supply or terminal voltage and $R$ is the internal resistance.
+
+---
+
+### How to solve it
+1.  **Understand the Verb:** "Compare" requires you to look for the relationship between the two. Do not just define them separately. You must show how they interact.
+2.  **Use Physics Laws:** Explicitly mention **Faraday’s Law** (which describes how the generator produces electricity) and **Lenz’s Law** (which explains the existence and direction of back emf).
+3.  **Structure the response:**
+    *   **Introduction:** Define both concepts briefly.
+    *   **The Link:** Explain how the current and back emf are related via magnetic fields.
+    *   **The Mechanism:** Discuss how back emf represents the "cost" of extracting energy (the mechanical resistance to rotation).
+    *   **Conclusion:** Mention how this satisfies the Law of Conservation of Energy (mechanical work input equals electrical energy output).
+
+###QUESTION_TYPE
+Short answer

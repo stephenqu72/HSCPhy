@@ -1,0 +1,37 @@
+To solve this problem, we use the fundamental definition of magnetic flux.
+
+### 1. Identify the given information
+*   Magnetic flux ($\Phi$) = $1.25 \times 10^{-5}\text{ Wb}$
+*   Magnetic flux density ($B$) = $1.25\text{ mT}$
+
+First, we must convert the magnetic flux density into standard SI units (Tesla):
+$$B = 1.25 \times 10^{-3}\text{ T}$$
+
+### 2. The Formula
+The relationship between magnetic flux, magnetic flux density, and the area ($A$) of a loop (assuming the area is perpendicular to the field) is given by:
+$$\Phi = B \times A$$
+
+### 3. Calculation
+We need to solve for the area ($A$):
+$$A = \frac{\Phi}{B}$$
+
+Substitute the values:
+$$A = \frac{1.25 \times 10^{-5}\text{ Wb}}{1.25 \times 10^{-3}\text{ T}}$$
+
+Divide the coefficients and the powers of 10:
+$$A = \left(\frac{1.25}{1.25}\right) \times 10^{-5 - (-3)}$$
+$$A = 1 \times 10^{-2}\text{ m}^2$$
+$$A = 0.010\text{ m}^2$$
+
+Comparing this result to the given options, we can see that it matches **(B)**.
+
+***
+
+### Summary of steps:
+1.  **Extract variables:** Always note down $\Phi$ and $B$.
+2.  **Unit Consistency:** Convert milli-Tesla (mT) to Tesla (T) by multiplying by $10^{-3}$. This is a common trap in HSC exams!
+3.  **Rearrange:** Use $\Phi = BA$ to isolate $A$.
+4.  **Solve:** Perform the division and select the correct option.
+
+###QUESTION_TYPE
+Multiple choice

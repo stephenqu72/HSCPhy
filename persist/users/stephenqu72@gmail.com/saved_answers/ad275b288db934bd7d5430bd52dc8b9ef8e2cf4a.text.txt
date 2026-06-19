@@ -1,0 +1,32 @@
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To solve this problem, we need to analyze the relationship between voltage, current, and power loss in electrical transmission lines.
+
+**1. Relationship between Power, Voltage, and Current:**
+The power transmitted ($P$) is given by the formula:
+$$P = VI$$
+If the power $P$ remains constant and the voltage $V$ is doubled ($V' = 2V$), the current $I$ must be halved to maintain the same power:
+$$P = (2V) \times I' \implies I' = \frac{I}{2}$$
+
+**2. Power Loss in Transmission Lines:**
+Power loss ($P_{loss}$) due to resistance ($R$) in the transmission wires is calculated using:
+$$P_{loss} = I^2 R$$
+
+**3. Calculating the new Power Loss:**
+If the current is halved ($I' = 0.5I$), we substitute this into the power loss formula:
+$$P'_{loss} = (0.5I)^2 R = 0.25 I^2 R$$
+$$P'_{loss} = 0.25 P_{loss}$$
+
+**4. Conclusion:**
+The new power loss is $25\%$ of the original power loss. This represents a **$75\%$ reduction** in the energy wasted due to the resistance in the transmission lines (calculated as $100\% - 25\% = 75\%$).
+
+*   (A) is incorrect because the loss is reduced to one-quarter (not one-half).
+*   (B) is incorrect because the current is halved, not doubled.
+*   (C) is incorrect because power loss is significantly reduced.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through these questions. They test your understanding of electromagnetism and the foundational postulates of special relativity.
+
+---
+
+### Answer
+
+**(a) Describe how Maxwell’s electromagnetic theory is compatible with the methods used to produce radio waveband electromagnetic radiation.**
+
+Maxwell’s theory posits that an accelerating charge produces a time-varying electric field, which in turn induces a time-varying magnetic field, and vice versa. This self-propagating cycle creates an electromagnetic wave. In a transmitting antenna, an alternating current (AC) is applied, causing electrons to oscillate (accelerate and decelerate). According to Maxwell’s equations (specifically the Ampere-Maxwell law), this oscillation of charge creates a changing electric field around the antenna, which generates a perpendicular, changing magnetic field. This field interaction radiates away from the antenna as a transverse electromagnetic wave at the speed of light $c$.
+
+**(b) Describe how the speed of light is related to the current definitions of the dimensions of time and distance, and how it is the same regardless of the relative motion of the source and the observer.**
+
+The speed of light $c$ is defined as a universal constant ($299,792,458 \text{ m/s}$). Because $c$ is invariant, our definitions of distance and time are linked through it: the metre is defined as the distance light travels in a vacuum in $1/299,792,458$ of a second. Regarding motion, Einstein’s second postulate of Special Relativity states that the speed of light in a vacuum is the same for all observers, regardless of the motion of the light source or the observer. Unlike classical mechanics where velocities add linearly, light maintains $c$ in all inertial frames, necessitating the phenomena of time dilation and length contraction to keep this velocity constant.
+
+---
+
+### Explanation and Strategy
+
+*   **For part (a):** This is a 4-mark question, so you need a logical flow. 
+    1. Define the core of Maxwell’s theory (accelerating charges create EM waves).
+    2. Link this to the antenna (the AC current forces electrons to oscillate/accelerate).
+    3. Explain the mechanism (changing $E$ fields create changing $B$ fields).
+    4. Conclude with the resulting wave propagation.
+
+*   **For part (b):** This is a 3-mark question covering two distinct concepts. 
+    1. **Link to definitions:** Mention that the SI unit of length (the metre) is now *defined* by the speed of light. This shows a deep understanding of standard units.
+    2. **Invariance:** Explicitly mention Einstein’s second postulate. A common student mistake is to describe light as if it were a ball thrown from a moving train; ensure you state that light does not obey Galilean transformation (it doesn't "add" speed).
+
+###QUESTION_TYPE
+Short answer

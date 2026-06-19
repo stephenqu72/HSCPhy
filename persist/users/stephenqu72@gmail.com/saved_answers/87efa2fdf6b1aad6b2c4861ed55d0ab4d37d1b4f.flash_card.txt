@@ -1,0 +1,8 @@
+### Front
+How do you use energy conservation to find the spring constant ($k$) when a mass falls from height $h$ and compresses a spring by distance $x$?
+
+### Back
+- Key idea: All initial gravitational potential energy is converted into elastic potential energy at the point of maximum compression.
+- Formula / law / constant / figure: $mg(h + x) = \frac{1}{2}kx^2$
+- When to use it: To relate vertical drop and spring deformation in a closed system with no friction.
+- Common trap: Forgetting that the total height change ($\Delta h$) must include both the initial drop height AND the compression distance ($x$).

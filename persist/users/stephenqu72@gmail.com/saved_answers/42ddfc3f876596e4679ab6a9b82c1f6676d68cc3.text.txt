@@ -1,0 +1,29 @@
+This is a high-mark Physics response that requires a structured explanation of the motor effect, the application of torque, and a comparison between DC motors and induction motors.
+
+### How to approach this question
+To secure 9 marks, your answer must be comprehensive:
+1.  **Define the Motor Effect:** Explain the force exerted on a current-carrying conductor in a magnetic field.
+2.  **Relate to Torque:** Explain that $Torque (\tau) = F \cdot d \cdot \sin(\theta)$ (or $\tau = nIAB\cos(\theta)$), where the motor effect provides the force $F$.
+3.  **DC Motor Mechanism:** Describe the loop of wire, split-ring commutator, and how force creates rotation.
+4.  **Induction Motor Mechanism:** Explain that the "motor effect" here relies on *induced* currents (Lenz’s Law/Faraday’s Law) in the squirrel-cage rotor due to a rotating magnetic field.
+5.  **Diagram:** Ensure you draw a basic motor setup (stator/magnets and rotor/coil) with force vectors shown using the right-hand rule.
+
+---
+
+### Model Answer
+
+**The Motor Effect and Torque**
+The motor effect occurs when a current-carrying conductor placed in an external magnetic field experiences a force. The magnitude is given by $F = BIl \sin(\theta)$. Torque ($\tau$) is the turning effect of this force, defined as $\tau = Fd$, where $d$ is the perpendicular distance from the pivot. By maximizing the perpendicular distance and the force (by increasing $B$, $I$, or $n$ turns), we produce continuous rotation.
+
+**DC Motors**
+In a DC motor, current flows through a coil placed in a magnetic field. According to the motor effect, the opposite sides of the coil experience forces in opposite directions, creating a couple that exerts torque. A split-ring commutator reverses the current direction every half-turn, ensuring the torque always acts in the same direction, maintaining continuous rotation.
+
+**Induction Motors**
+Induction motors also rely on the motor effect but lack physical connections to the rotor. A rotating magnetic field (RMF) is produced by the stator coils. This RMF cuts the bars of the "squirrel-cage" rotor, inducing an EMF (Faraday’s Law) and a resulting current (Lenz’s Law). The rotor bars, now carrying current within the stator's magnetic field, experience a force via the motor effect. This force exerts a torque that causes the rotor to "chase" the RMF.
+
+*(Diagram description: Draw a rectangular loop between two magnetic poles. Label the force vectors on each side pointing in opposite directions ($F=BIl$) to show a torque couple.)*
+
+---
+
+###QUESTION_TYPE
+Essay

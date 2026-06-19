@@ -1,0 +1,8 @@
+### Front
+What factors determine the terminal velocity of a mass being pulled by an electric motor?
+
+### Back
+- Key idea: Terminal velocity is reached when the tension ($T$) provided by the motor equals the frictional force ($F_f$), limited by the reduction in motor torque as speed increases.
+- Formula / law / constant / figure: $P = Tv$; $\epsilon = k\omega$; $V = IR + \epsilon$. No fixed constant or figure.
+- When to use it: When explaining how electrical properties (back EMF, current) constrain mechanical performance (acceleration, max speed).
+- Common trap: Forgetting that increasing speed increases back EMF ($\epsilon$), which reduces current ($I$) and therefore reduces the available driving torque ($\tau$).

@@ -1,0 +1,30 @@
+To determine the ratio of the torque of Motor 2 to Motor 1, we use the formula for the torque $\tau$ on a DC motor armature:
+
+$$\tau = nIAB \sin(\theta)$$
+
+Since the motors are of similar design and we are comparing them at their operating states, the torque is proportional to the product of the number of loops ($n$), the current ($I$), the area of the armature ($A$), and the magnetic field strength ($B$). 
+
+Note that the area $A$ is proportional to the square of the diameter ($d^2$), since $A = \pi (\frac{d}{2})^2$. Thus, we can express the proportionality as:
+$$\tau \propto n \cdot I \cdot d^2 \cdot B$$
+
+### Step 1: Calculate the proportionality for Motor 1
+$$\text{Value}_1 = n_1 \cdot I_1 \cdot d_1^2 \cdot B_1$$
+$$\text{Value}_1 = 200 \cdot 3.0 \cdot (0.10)^2 \cdot 0.50$$
+$$\text{Value}_1 = 600 \cdot 0.01 \cdot 0.50 = 3.0$$
+
+### Step 2: Calculate the proportionality for Motor 2
+$$\text{Value}_2 = n_2 \cdot I_2 \cdot d_2^2 \cdot B_2$$
+$$\text{Value}_2 = 300 \cdot 2.0 \cdot (0.20)^2 \cdot 0.30$$
+$$\text{Value}_2 = 600 \cdot 0.04 \cdot 0.30$$
+$$\text{Value}_2 = 24 \cdot 0.30 = 7.2$$
+
+### Step 3: Find the ratio
+To compare Motor 2 to Motor 1:
+$$\text{Ratio} = \frac{\text{Value}_2}{\text{Value}_1} = \frac{7.2}{3.0} = 2.4$$
+
+Therefore, the operating torque of Motor 2 is 2.4 times that of Motor 1.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we must first calculate the power required by the secondary circuit and then relate it to the primary side using the concept of transformer efficiency.
+
+### 1. Calculate the Secondary Power ($P_s$)
+Each of the four identical lamps is rated at $24\text{ W}$. Since they are connected in parallel, the total power output ($P_s$) is:
+$$P_s = 4 \times 24\text{ W} = 96\text{ W}$$
+
+### 2. Relate to the Primary Power ($P_p$)
+In an ideal transformer, the power input equals the power output ($P_p = P_s$). However, this transformer is **not** $100\%$ efficient, meaning some energy is lost as heat. Therefore, the power input must be greater than the power output:
+$$P_p > P_s$$
+$$P_p > 96\text{ W}$$
+
+### 3. Calculate the Primary Current ($I_p$)
+The power input to the primary coil is given by the formula $P_p = V_p \times I_p$, where $V_p = 240\text{ V}$.
+Rearranging for current:
+$$I_p = \frac{P_p}{V_p}$$
+
+If the transformer were $100\%$ efficient, the current would be:
+$$I_p = \frac{96\text{ W}}{240\text{ V}} = 0.40\text{ A}$$
+
+Because the transformer is less than $100\%$ efficient, it requires **more** power from the source to maintain the same output. Consequently, the current drawn from the power supply must be **greater than $0.40\text{ A}$**.
+
+Looking at the options:
+(A) $0.10\text{ A}$ (Too low)
+(B) $0.20\text{ A}$ (Too low)
+(C) $0.40\text{ A}$ (The ideal case, not possible due to inefficiency)
+(D) $0.45\text{ A}$ (Greater than $0.40\text{ A}$, accounting for losses)
+
+**Correct Answer:** (D) $0.45\text{ A}$
+
+###QUESTION_TYPE
+Multiple choice

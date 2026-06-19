@@ -1,0 +1,25 @@
+As an HSC Physics teacher, here is how I would guide you through this typical Electromagnetism question.
+
+### Answer
+
+**(a) Two limitations of the ideal transformer model:**
+1.  **Resistance in coils (Copper loss):** The wires used to wind the coils have non-zero electrical resistance, which causes energy to be dissipated as heat ($I^2R$ losses) when current flows through them.
+2.  **Eddy currents in the core:** The changing magnetic flux induces circulating currents (eddy currents) within the iron core itself, which causes heating and energy loss.
+
+**(b) Two strategies to improve transformer efficiency:**
+1.  **Laminated iron core:** Using a core made of thin, insulated layers (laminations) of iron rather than a solid block increases the electrical resistance path for eddy currents, significantly reducing energy loss as heat.
+2.  **Soft iron core:** Using a material with high magnetic permeability (like soft iron) ensures that magnetic flux is effectively confined to the core, minimizing "magnetic leakage" where flux lines do not thread through the secondary coil.
+
+***
+
+### How to solve this
+*   **For part (a):** The "ideal" model assumes 100% efficiency and perfect coupling. To identify limitations, think about real-world physics: are wires perfect conductors? (No, they have resistance). Are magnetic fields perfectly confined? (No, flux leaks). Does a changing magnetic field affect conductive metal? (Yes, it creates eddy currents). Identifying these real-world imperfections earns the marks.
+*   **For part (b):** Once you have identified the energy loss mechanisms in part (a), you must name the corresponding engineering solutions. 
+    *   To stop **Eddy Currents**, we "laminate" the core.
+    *   To stop **Flux Leakage**, we use a soft iron core (or a closed-core design).
+    *   To stop **Copper Losses**, we use thicker copper wire (lowering $R$).
+    *   To stop **Hysteresis losses** (the magnetic domains flipping), we use magnetically "soft" materials.
+    *   You only need to provide two, so pick the most distinct ones.
+
+###QUESTION_TYPE
+Short answer

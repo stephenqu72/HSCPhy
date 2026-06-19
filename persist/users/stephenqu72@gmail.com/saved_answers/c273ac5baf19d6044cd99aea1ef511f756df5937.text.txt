@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To solve this problem, we use the formula for motional emf ($\varepsilon$) induced in a conductor moving through a magnetic field:
+$$\varepsilon = Blv_{\perp}$$
+Where:
+*   $B$ is the magnetic field strength (constant).
+*   $l$ is the length of the rod (constant).
+*   $v_{\perp}$ is the component of the rod's velocity that is perpendicular to both the length of the rod and the magnetic field.
+
+**Step-by-step analysis:**
+1.  **Understand the setup:** The Earth's magnetic field points downwards. The problem states the rod’s long axis is always perpendicular to this magnetic field. 
+2.  **Analyze the motion:** The rod is a projectile. Its velocity vector changes over time: the horizontal component ($v_x$) remains constant, and the vertical component ($v_y$) changes due to gravity ($g$).
+3.  **Determine the relevant velocity component:** For an emf to be induced, there must be a velocity component perpendicular to the magnetic field ($B_{vertical}$). Since the rod is moving, its horizontal velocity component ($v_x$) is always moving horizontally, which is perpendicular to the vertical magnetic field. 
+4.  **Evaluate the induction:** The emf induced depends on the velocity component perpendicular to the magnetic field. Since the rod's horizontal velocity ($v_x$) is constant throughout the flight, the component of velocity that "cuts" the magnetic field lines remains constant at all times.
+5.  **Conclusion:** Because $B$, $l$, and the relevant velocity component ($v_x$) are all constant throughout the motion, the induced emf $\varepsilon$ must also be constant. Therefore, the graph of induced emf vs. time is a horizontal straight line.
+
+### QUESTION_TYPE
+Multiple choice

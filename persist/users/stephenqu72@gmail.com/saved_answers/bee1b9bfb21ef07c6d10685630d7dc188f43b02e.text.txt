@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To solve this problem, we must apply the principle of **back EMF** in a DC motor.
+
+1.  **Understanding Back EMF:** When a motor rotates, the coils move through a magnetic field, which induces an electromotive force (EMF) that opposes the supply voltage. This is known as back EMF ($\varepsilon_{back}$). The magnitude of the back EMF is directly proportional to the speed of the motor's rotation ($v$):
+    $$\varepsilon_{back} \propto \omega$$
+    where $\omega$ is the angular velocity of the coil.
+
+2.  **The Circuit Equation:** The net voltage ($V_{net}$) across the motor coils is the difference between the supply voltage ($V_{supply}$) and the back EMF:
+    $$V_{net} = V_{supply} - \varepsilon_{back}$$
+    The current ($I$) flowing through the coils is determined by Ohm's Law:
+    $$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+    where $R$ is the constant resistance of the coils.
+
+3.  **The Effect of Slowing Down:** When the drill hits a "tough material" and slows down, $\omega$ decreases. Consequently, the back EMF ($\varepsilon_{back}$) decreases. Since $V_{supply}$ remains constant, a decrease in $\varepsilon_{back}$ leads to an increase in the net voltage across the coils. 
+
+4.  **Heat Production:** According to Joule's Law, the power dissipated as heat in the coils is given by:
+    $$P = I^2 R$$
+    Because the current ($I$) has increased significantly due to the drop in back EMF, the heat generated ($P$) increases dramatically, causing the coils to overheat.
+
+**Why the others are incorrect:**
+*   **(A)** Eddy currents are present in the core, but the primary cause of overheating in the *coils* under load is the increase in current.
+*   **(C)** Resistance is a physical property of the wire; while it may increase slightly as the temperature rises, it is not the *cause* of the initial surge in current.
+*   **(D)** While the drill bit gets hot due to friction, the question specifically asks why the *coils* (the electrical component) overheat.
+
+### QUESTION_TYPE
+Multiple choice

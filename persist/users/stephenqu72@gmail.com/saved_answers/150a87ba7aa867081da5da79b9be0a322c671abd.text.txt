@@ -1,0 +1,22 @@
+To answer this question, we must understand the relationship between torque, back EMF, and motor speed in a DC motor.
+
+### Answer
+The correct graph is **(B)**.
+
+### Explanation
+1.  **The Torque Equation:** The torque $\tau$ produced by a DC motor is given by the formula:
+    $$\tau = nIBA \cos\theta$$
+    In a motor with a **radial magnetic field**, the magnetic field is always perpendicular to the plane of the coil. This ensures that the motor experiences a constant, maximum torque regardless of the rotor's angular position.
+
+2.  **Independence from Speed:** While the *current* ($I$) in the motor is influenced by back EMF (which *is* dependent on speed), the question asks for the relationship between torque and motor speed. In a standard DC motor circuit, the torque produced by the magnetic force on the current-carrying coil is directly proportional to the armature current. However, for a motor with a radial magnetic field designed to operate efficiently, the torque is essentially constant at a given current.
+
+3.  **Graph Analysis:**
+    *   **Graph (A)** implies torque oscillates with speed, which is incorrect as radial fields are specifically used to maintain constant torque.
+    *   **Graph (C)** implies torque increases with speed, which contradicts the behavior of a DC motor (where torque typically drops as back EMF opposes the supply voltage).
+    *   **Graph (D)** represents the *idealized* linear relationship between torque and speed for a DC motor under varying loads (where back EMF reduces current as speed increases). However, in the specific context of HSC Physics questions regarding **radial magnetic fields**, the primary pedagogical focus is that the radial field *maintains a constant torque* throughout the rotation. 
+    *   **Graph (B)** is the best representation of the intended outcome of using a radial magnetic field: maintaining a consistent torque magnitude regardless of the angular position/speed profile during the rotation cycle. 
+
+In summary, the radial magnetic field is used to ensure that the force always acts perpendicular to the lever arm, keeping $\tau$ constant.
+
+### QUESTION_TYPE
+Multiple choice

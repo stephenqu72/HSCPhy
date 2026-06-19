@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+**a) State what type of motor it is. Justify your answer.**
+
+*   **Answer:** This is a **DC motor**.
+*   **Justification:** The presence of the **split-ring commutator** is the defining feature. In a DC motor, the split-ring commutator reverses the direction of the current in the coil every half-rotation, ensuring that the torque remains in the same rotational direction, allowing for continuous rotation.
+
+---
+
+**b) Calculate the magnitude of the maximum torque on the coil and the direction of its rotation.**
+
+*   **Step 1: Identify the formula.** The torque $\tau$ on a coil in a magnetic field is given by:
+    $$\tau = n \cdot B \cdot I \cdot A \cdot \sin(\theta)$$
+    For maximum torque, the plane of the coil is parallel to the magnetic field ($\theta = 90^\circ$), so $\sin(90^\circ) = 1$.
+*   **Step 2: Calculate Area ($A$).**
+    $A = 5.0\text{ cm} \times 3.0\text{ cm} = 0.05\text{ m} \times 0.03\text{ m} = 0.0015\text{ m}^2$
+*   **Step 3: Plug in values.**
+    $n = 10$, $B = 1\text{ T}$, $I = 0.50\text{ A}$, $A = 0.0015\text{ m}^2$
+    $$\tau = 10 \times 1 \times 0.50 \times 0.0015 = 0.0075\text{ Nm}$$
+*   **Step 4: Determine direction.** Using the Right-Hand Motor Rule (or Fleming’s Left-Hand Rule):
+    *   Current flows from $W$ to $X$ (towards the back).
+    *   Magnetic field is North to South ($N \to S$).
+    *   Force on $WX$ is directed downwards.
+    *   Force on $YZ$ is directed upwards.
+    *   This results in a **clockwise** rotation when viewed from the commutator end.
+
+---
+
+**c) Draw TWO graphs for torque and back emf over time.**
+
+*   **Graph 1 (Torque vs Time):** The torque starts at a maximum value (at $t=0$) and fluctuates as the coil rotates. Due to the split-ring commutator, the torque follows a "rectified sine" pattern, never crossing the axis into negative values. As the motor speeds up, the average torque will decrease slightly due to the induced back emf reducing the effective current.
+*   **Graph 2 (Back EMF vs Time):** Back emf is zero at $t=0$ (when the motor is stopped). As the motor begins to spin and increases to its operating speed, the back emf will **increase** in magnitude (or amplitude, if considering AC/ripple) until it reaches a steady state proportional to the final angular velocity of the motor.
+
+*(Teacher's Note: For the HSC, ensure your graphs show the back emf increasing toward a steady maximum and the torque pulses remaining above the time axis.)*
+
+###QUESTION_TYPE
+Calculation question

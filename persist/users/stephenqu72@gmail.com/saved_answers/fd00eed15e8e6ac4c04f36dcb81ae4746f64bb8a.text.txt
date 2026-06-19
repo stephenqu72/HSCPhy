@@ -1,0 +1,31 @@
+To solve this problem, we use the fundamental wave equation that relates the speed, frequency, and wavelength of an electromagnetic wave (such as a photon).
+
+### 1. Identify the given values
+*   **Frequency ($f$):** $5 \times 10^{14} \text{ Hz}$
+*   **Wavelength ($\lambda$):** $600 \text{ nm}$
+    *   Since the speed of light is measured in $\text{m/s}$, we must convert the wavelength into meters:
+    *   $600 \text{ nm} = 600 \times 10^{-9} \text{ m} = 6 \times 10^{-7} \text{ m}$
+
+### 2. Apply the wave equation
+The speed of a wave ($v$) is given by the formula:
+$$v = f \times \lambda$$
+
+### 3. Calculate
+Substitute the values into the equation:
+$$v = (5 \times 10^{14} \text{ Hz}) \times (6 \times 10^{-7} \text{ m})$$
+$$v = 30 \times 10^{(14 - 7)} \text{ m/s}$$
+$$v = 30 \times 10^7 \text{ m/s}$$
+To express this in standard scientific notation ($a \times 10^n$ where $1 \le a < 10$):
+$$v = 3.0 \times 10^8 \text{ m/s}$$
+
+### Conclusion
+Comparing this result to the provided options:
+*   A) $2.8 \times 10^8 \text{ m/s}$
+*   B) $2.9 \times 10^8 \text{ m/s}$
+*   **C) $3.0 \times 10^8 \text{ m/s}$**
+*   D) $2.72 \times 10^9 \text{ m/s}$
+
+The correct answer is **C**. This confirms the theoretical speed of light in a vacuum ($c \approx 3.00 \times 10^8 \text{ m/s}$).
+
+###QUESTION_TYPE
+Multiple choice

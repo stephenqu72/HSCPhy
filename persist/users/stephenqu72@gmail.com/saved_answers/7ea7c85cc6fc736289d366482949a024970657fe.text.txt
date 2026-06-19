@@ -1,0 +1,35 @@
+To solve this problem, we rely on **Faraday's Law of Induction**, which states that an induced EMF ($\varepsilon$) is generated when there is a change in the magnetic flux ($\Phi$) through a loop:
+$$\varepsilon = -N \frac{d\Phi}{dt}$$
+where magnetic flux is defined as $\Phi = BA \cos(\theta)$.
+
+### Analysis of Movements
+
+**Movement A: Rotation about the $x$-axis**
+*   **Physics:** As the loop rotates, the angle $\theta$ between the magnetic field lines (pointing into the page) and the normal to the area of the loop changes continuously. Because $\cos(\theta)$ is changing, the magnetic flux through the loop changes.
+*   **EMF:** The change in flux is sinusoidal. One full rotation results in one full cycle of an alternating EMF.
+*   **Current:** Since the EMF is alternating, the induced current is **alternating**.
+
+**Movement B: Moving parallel to the wire (Position 1 to 2)**
+*   **Physics:** The magnetic field produced by a long straight wire at a distance $r$ is $B = \frac{\mu_0 I}{2\pi r}$. Moving parallel to the wire means the distance $r$ from the wire remains constant for every point on the loop. Therefore, the magnetic field strength $B$ through the loop remains constant, and the area and orientation do not change.
+*   **EMF:** Since $\Phi$ is constant, $\frac{d\Phi}{dt} = 0$. There is **no induced EMF**.
+*   **Current:** **No current**.
+
+**Movement C: Moving perpendicular to the wire (Position 2 to 3)**
+*   **Physics:** Moving away from the wire increases the distance $r$ for all parts of the loop. As $r$ increases, the magnetic field $B$ decreases. Consequently, the magnetic flux through the loop decreases.
+*   **EMF:** A change in flux induces an EMF. Since the motion is at a constant speed, the rate of change of flux is constant for a short duration, leading to a constant (non-zero) EMF value.
+*   **Current:** According to Lenz’s Law, the induced current will create a magnetic field to oppose the decrease in flux (i.e., it tries to maintain the field pointing into the page). Using the Right-Hand Grip Rule, a **clockwise** current produces a magnetic field into the page.
+
+---
+
+### Table Completion
+
+| Movement | Possible induced EMF | Direction of induced current |
+| :--- | :--- | :--- |
+| **A** | A sine wave cycle starting from zero | Alternating |
+| **B** | A horizontal line at zero | No current |
+| **C** | A constant horizontal line (non-zero) | Clockwise |
+
+*(Note for the EMF sketches: For A, draw a standard sine wave. For B, draw a line along the time axis. For C, draw a horizontal line above or below the axis, representing a constant induced EMF.)*
+
+###QUESTION_TYPE
+Other questions

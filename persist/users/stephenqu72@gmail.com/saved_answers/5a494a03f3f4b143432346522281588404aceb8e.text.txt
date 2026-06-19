@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+#### (a) Identify this device justifying your answer.
+**Answer:** The device is an **AC generator** (or alternator).
+**Justification:** The device consists of a coil of wire (armature) placed within a magnetic field produced by permanent magnets. A mechanical input (the crank) is used to rotate the coil, which changes the magnetic flux through the coil. According to Faraday's Law, this change in flux induces an electromotive force (EMF), converting mechanical energy into electrical energy, which is the definition of a generator.
+
+#### (b) Calculate the EMF created in this device if the coil was spun $1/4$ of a revolution in $18\text{ ms}$.
+**Explanation:** To solve this, we use Faraday’s Law of Induction: $\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$.
+
+1.  **Calculate Area ($A$):** $A = 0.10\text{ m} \times 0.05\text{ m} = 0.005\text{ m}^2$.
+2.  **Initial Flux ($\Phi_i$):** At the start, the plane of the coil is parallel to the magnetic field (assuming the diagram shows the start of the rotation), so the angle between the normal to the coil and the field is $90^\circ$. Therefore, $\Phi_i = B \cdot A \cdot \cos(90^\circ) = 0\text{ Wb}$.
+3.  **Final Flux ($\Phi_f$):** After a $1/4$ turn ($90^\circ$), the plane of the coil is perpendicular to the field. The normal to the coil is now parallel to the field. $\Phi_f = B \cdot A \cdot \cos(0^\circ) = 0.8 \times 0.005 \times 1 = 0.004\text{ Wb}$.
+4.  **Calculate EMF:**
+    $\Delta \Phi = 0.004 - 0 = 0.004\text{ Wb}$
+    $\Delta t = 18\text{ ms} = 0.018\text{ s}$
+    $N = 200$
+    $$\mathcal{E} = N \frac{\Delta \Phi}{\Delta t} = 200 \times \frac{0.004}{0.018} \approx 44.44\text{ V}$$
+
+#### (c) Explain how back EMF causes this device to obey the law of conservation of energy.
+**Answer:** When the generator supplies a current to an external circuit, that current flows through the coil in the magnetic field, creating a magnetic force (motor effect) that opposes the rotation of the crank (Lenz’s Law). This induced torque requires a mechanical input to overcome. If the device did not produce back EMF (or opposing torque), it could generate electrical energy without requiring an equivalent amount of mechanical work, which would violate the law of conservation of energy. Thus, the mechanical energy supplied by the crank is exactly what is converted into the electrical energy produced by the generator.
+
+###QUESTION_TYPE
+Calculation question

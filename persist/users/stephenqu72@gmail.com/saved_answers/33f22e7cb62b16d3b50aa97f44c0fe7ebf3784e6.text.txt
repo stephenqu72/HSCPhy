@@ -1,0 +1,18 @@
+To determine when a clockwise current flows through the loop, we use **Lenz’s Law** and the concept of **magnetic flux ($\Phi_B$)**. Lenz’s Law states that an induced current will flow in a direction that creates a magnetic field to oppose the change in magnetic flux.
+
+### Step-by-Step Explanation:
+
+1.  **Understand Magnetic Flux:** Flux is defined as $\Phi_B = B \cdot A \cdot \cos(\theta)$. A change in flux occurs when the loop enters or leaves a magnetic field, or transitions between regions of different magnetic field directions.
+2.  **Analyze the Regions:**
+    *   **Entering the first region (Point 1):** The loop is moving into a region of "into the page" ($\times$) magnetic field. Flux into the page is increasing. To oppose this, the loop must create a field "out of the page" (dot $\cdot$). By the Right-Hand Grip Rule, this requires a **counter-clockwise** current.
+    *   **Transitioning from region 1 to 2 (Point 2):** The loop is moving entirely within a uniform "into the page" field. The flux is constant ($\Delta \Phi_B = 0$), so no current is induced.
+    *   **Transitioning from the "into the page" region to the "out of the page" region (Point 3):** As the loop crosses the boundary, it loses "into the page" flux and gains "out of the page" flux. Both changes act in the same direction: they increase the net flux "out of the page." According to Lenz's Law, the loop must create a field "into the page" to oppose this change. By the Right-Hand Grip Rule, pointing your thumb into the page, your fingers curl in a **clockwise** direction.
+    *   **Leaving the region (Point 4):** The loop is moving out of the "out of the page" field. Flux "out of the page" is decreasing. The loop attempts to maintain it by inducing a field "out of the page," which corresponds to a **counter-clockwise** current.
+
+### Conclusion:
+At **point 3**, the loop is transitioning from a region of magnetic field pointing into the page to a region pointing out of the page. This causes a rapid change in magnetic flux that induces a clockwise current.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

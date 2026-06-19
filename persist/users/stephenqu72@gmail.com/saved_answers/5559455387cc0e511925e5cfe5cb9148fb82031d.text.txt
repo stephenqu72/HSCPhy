@@ -1,0 +1,37 @@
+To solve this problem, we must understand the relationship between magnetic flux ($\Phi$), magnetic flux density ($B$), and the area of the coil ($A$).
+
+### 1. Identify the given information
+*   Area ($A$) = $2.5 \times 10^{-3} \text{ m}^2$
+*   Initial flux ($\Phi_1$) = $0.15 \text{ Wb}$ when the coil is perpendicular to the field.
+
+### 2. Step-by-Step Explanation
+
+**Step 1: Calculate the magnetic flux density ($B$)**
+When the coil is perpendicular to the magnetic field, the angle $\theta$ between the magnetic field lines and the **normal** to the coil surface is $0^\circ$ (or simply put, all flux passes through the area). The formula is:
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+Since it is perpendicular, $\cos(0^\circ) = 1$, so $\Phi = BA$.
+Rearranging to find $B$:
+$$B = \frac{\Phi_1}{A}$$
+$$B = \frac{0.15}{2.5 \times 10^{-3}}$$
+$$B = 60 \text{ T}$$
+
+**Step 2: Address the second part of the question**
+The question asks for the "flux density" when the coil is $25^\circ$ to the magnetic field. It is important to note that **magnetic flux density ($B$) is a property of the field itself**, not the orientation of the coil. Therefore, the magnetic flux density remains constant regardless of the coil's angle.
+
+If the question intended to ask for the *new magnetic flux* ($\Phi_2$) through the coil at that angle:
+The angle between the field and the **normal** to the coil would be $90^\circ - 25^\circ = 65^\circ$.
+$$\Phi_2 = B \cdot A \cdot \cos(65^\circ)$$
+$$\Phi_2 = 60 \times (2.5 \times 10^{-3}) \times \cos(65^\circ)$$
+$$\Phi_2 \approx 0.063 \text{ Wb}$$
+
+However, strictly answering the question as written:
+**The magnetic flux density is $60 \text{ T}$.**
+
+***
+
+### Summary of Answer
+1. Using the initial conditions, $B = \frac{\Phi}{A} = \frac{0.15}{2.5 \times 10^{-3}} = 60 \text{ T}$.
+2. The flux density $B$ is a field constant and does not change with the orientation of the coil. Thus, $B = 60 \text{ T}$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,17 @@
+To answer this question effectively, you must link the mechanical and electrical energy transformations to the **Law of Conservation of Energy**, which states that energy cannot be created or destroyed, only transformed from one form to another.
+
+### Answer
+A DC motor and a DC generator are both electromagnetic devices that utilize the interaction between a current-carrying coil and a magnetic field. Their fundamental difference lies in the direction of the energy transformation:
+
+1.  **DC Motor (Drive mode):** The motor functions as a transducer that converts **electrical energy** into **mechanical energy**. Electrical energy is supplied by a source (e.g., a battery), which drives a current through the coil. The interaction between the magnetic field and the current produces a torque (via the Motor Effect) that causes the coil to rotate, creating kinetic energy to move the vehicle.
+2.  **DC Generator (Brake mode):** When switched to the generator mode, the device converts **mechanical energy** back into **electrical energy**. As the vehicle's momentum keeps the rotor spinning (kinetic energy), the coils move through the stationary magnetic field. According to Faraday’s Law of Induction, this changing magnetic flux induces an electromotive force (EMF) and current. This generated electrical energy is then directed into the battery or a resistive load, effectively removing kinetic energy from the vehicle to act as a "regenerative brake."
+
+### How to solve it
+To score full marks on this HSC-style question, follow these steps:
+*   **Identify the transformation for the Motor:** Clearly state that electrical input leads to mechanical output. Mention the Motor Effect ($F = BIL\sin\theta$).
+*   **Identify the transformation for the Generator:** Clearly state that mechanical input (from the moving wheels) leads to electrical output. Mention electromagnetic induction (Faraday’s Law).
+*   **Explicitly reference the Law of Conservation of Energy:** State that energy is not created, but transferred between kinetic and electrical stores. In the braking scenario, the kinetic energy of the car is reduced because it is being "tapped" and converted into electrical energy.
+*   **Use Precise Terminology:** Ensure you use terms like *electromagnetic induction*, *torque*, *mechanical work*, and *energy transformation*. 
+
+###QUESTION_TYPE
+Short answer

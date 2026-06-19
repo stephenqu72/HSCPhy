@@ -1,0 +1,28 @@
+To solve this problem, we use the principles of an ideal transformer. We are given the following values:
+*   Primary turns ($N_p$) = $3000$
+*   Secondary turns ($N_s$) = $150$
+*   Primary voltage ($V_p$) = $240\text{ V}$
+*   Secondary current ($I_s$) = $15\text{ A}$
+
+### 1. Calculate Secondary Voltage ($V_s$)
+The transformer equation relates the turns ratio to the voltage ratio:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Rearranging for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+$$V_s = 240\text{ V} \times \frac{150}{3000}$$
+$$V_s = 240 \times 0.05 = 12\text{ V}$$
+
+### 2. Calculate Primary Current ($I_p$)
+For an ideal transformer, we assume $100\%$ efficiency, meaning the primary power equals the secondary power ($P_p = P_s$). Since $P = V \times I$:
+$$V_p \times I_p = V_s \times I_s$$
+Rearranging for $I_p$:
+$$I_p = \frac{V_s \times I_s}{V_p}$$
+Alternatively, using the turns ratio property ($I_p/I_s = N_s/N_p$):
+$$I_p = I_s \times \frac{N_s}{N_p}$$
+$$I_p = 15\text{ A} \times \frac{150}{3000}$$
+$$I_p = 15 \times 0.05 = 0.75\text{ A}$$
+
+Comparing our results ($12\text{ V}$ and $0.75\text{ A}$) to the given options, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

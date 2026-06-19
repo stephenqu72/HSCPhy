@@ -1,0 +1,28 @@
+To solve this problem, we use the formula for Young’s Double Slit Experiment, which relates the wavelength of light, the distance between the slits, the distance to the screen, and the fringe separation (the distance between bright spots).
+
+### 1. Identify the given variables:
+*   Wavelength ($\lambda$): $536\text{ nm} = 536 \times 10^{-9}\text{ m}$
+*   Distance to the screen ($D$): $5.54\text{ m}$
+*   Fringe separation ($\Delta x$): $3.3\text{ cm} = 0.033\text{ m}$
+
+### 2. The formula:
+The relationship is given by:
+$$\Delta x = \frac{\lambda D}{d}$$
+where $d$ is the separation between the slits. We need to rearrange this to solve for $d$:
+$$d = \frac{\lambda D}{\Delta x}$$
+
+### 3. Calculation:
+Substitute the values into the equation:
+$$d = \frac{(536 \times 10^{-9}\text{ m}) \times (5.54\text{ m})}{0.033\text{ m}}$$
+$$d = \frac{2.96944 \times 10^{-6}}{0.033}$$
+$$d \approx 9.0 \times 10^{-5}\text{ m}$$
+
+### 4. Convert to micrometers ($\mu\text{m}$):
+Since $1\text{ m} = 10^6\text{ }\mu\text{m}$:
+$$d = 9.0 \times 10^{-5} \times 10^6\text{ }\mu\text{m}$$
+$$d = 90\text{ }\mu\text{m}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

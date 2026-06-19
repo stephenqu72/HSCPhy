@@ -1,0 +1,34 @@
+To determine the correct values for this transformer, we must apply the transformer equations based on the principle of electromagnetic induction and the law of conservation of energy.
+
+### Step 1: Identify the Transformer Ratio
+The ratio of the turns in the coils is given by:
+$$ \frac{V_p}{V_s} = \frac{N_p}{N_s} $$
+Where:
+- $N_p = 250$ (input/primary turns)
+- $N_s = 1000$ (output/secondary turns)
+
+The ratio $\frac{N_p}{N_s} = \frac{250}{1000} = \frac{1}{4}$.
+Therefore, the secondary voltage ($V_s$) must be exactly 4 times the primary voltage ($V_p$):
+$$ V_s = 4 \times V_p $$
+
+### Step 2: Check for Ideal Power
+For an ideal transformer, the input power equals the output power ($P_p = P_s$). Since $P = VI$:
+$$ V_p I_p = V_s I_s $$
+Because $V_s = 4 V_p$, it follows that the secondary current must be one-fourth of the primary current:
+$$ I_s = \frac{I_p}{4} $$
+
+### Step 3: Evaluate the Choices
+We are looking for a pair where $V_s = 4 V_p$ and $I_s = 0.25 I_p$.
+
+*   **a) $240\text{ V}, 10\text{ A}$ to $48\text{ V}, 50\text{ A}$:** Incorrect. $V_s$ decreased.
+*   **b) $500\text{ V}, 50\text{ A}$ to $2000\text{ V}, 200\text{ A}$:** Incorrect. While $V_s = 4 V_p$, the current increased. This violates the conservation of energy (power increased).
+*   **c) $1200\text{ V}, 4\text{ A}$ to $240\text{ V}, 20\text{ A}$:** Incorrect. $V_s$ decreased.
+*   **d) $240\text{ V}, 10\text{ A}$ to $960\text{ V}, 2.5\text{ A}$:** 
+    *   Check Voltage: $4 \times 240\text{ V} = 960\text{ V}$. (Correct)
+    *   Check Current: $10\text{ A} / 4 = 2.5\text{ A}$. (Correct)
+    *   Check Power: $240 \times 10 = 2400\text{ W}$; $960 \times 2.5 = 2400\text{ W}$. (Correct)
+
+**The correct choice is d).**
+
+###QUESTION_TYPE
+Multiple choice

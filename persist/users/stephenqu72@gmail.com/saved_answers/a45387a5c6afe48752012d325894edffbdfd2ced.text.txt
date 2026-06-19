@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+As ball Q enters the region of the magnetic field, it experiences a change in magnetic flux. According to Faraday's Law, this change in flux induces an electromotive force (EMF) in the conducting aluminium ball. Because the ball is a conductor, this EMF drives **eddy currents** within the ball. According to Lenz's Law, these eddy currents create their own magnetic field that opposes the change in magnetic flux that produced them. Consequently, the interaction between the induced eddy currents and the external magnetic field exerts an upward **magnetic force** (Lenz’s force) on the ball. This force acts against the gravitational force, resulting in a net acceleration that is less than $g$. Since ball Q experiences a smaller downward acceleration than ball P (which is in free fall at $g$), ball Q takes longer to reach the ground.
+
+**How to solve:**
+1.  Identify that eddy currents are generated because the aluminium is a conductor moving through a magnetic field.
+2.  Link this to Faraday's Law (change in magnetic flux induces EMF).
+3.  Apply Lenz's Law to explain that the resulting force opposes the motion.
+4.  Conclude by relating the upward force to a reduction in net acceleration and an increase in time taken.
+
+---
+
+#### Part (b)
+**(i) Direction of induced current:**
+The current in the wire produces a magnetic field pointing *into* the page to the right of the wire. As the loop moves toward the wire, the magnetic flux into the page increases. According to Lenz's Law, the loop will induce a current to create a magnetic field pointing *out* of the page to oppose this increase. Using the Right-Hand Grip Rule, the induced current must be **counter-clockwise**.
+
+**(ii) Calculation:**
+**Given:**
+Area $A = 25 \text{ cm}^2 = 25 \times 10^{-4} \text{ m}^2 = 0.0025 \text{ m}^2$
+Magnetic flux density $B = 0.12 \text{ T}$
+
+**Formula:**
+$$\Phi = B \cdot A$$
+
+**Calculation:**
+$$\Phi = 0.12 \text{ T} \times 0.0025 \text{ m}^2$$
+$$\Phi = 3 \times 10^{-4} \text{ Wb} \quad (\text{or } 0.0003 \text{ Wb})$$
+
+**How to solve:**
+1.  Convert the area from $\text{cm}^2$ to $\text{m}^2$ (standard SI units).
+2.  Use the magnetic flux formula $\Phi = BA$.
+3.  Substitute the values and provide the answer with the correct unit, Weber (Wb).
+
+###QUESTION_TYPE
+Short answer

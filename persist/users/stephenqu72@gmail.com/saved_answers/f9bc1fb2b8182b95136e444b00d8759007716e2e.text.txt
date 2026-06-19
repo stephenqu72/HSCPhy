@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+**(a) Sketching "emf 1"**
+The induced emf is given by Faraday's Law: $\varepsilon = -\frac{d\Phi}{dt}$. This means the emf is proportional to the negative gradient of the magnetic flux graph. Where the flux graph has a zero gradient (peaks/troughs), the emf is zero. Where the flux graph has a maximum negative gradient (crossing the axis), the emf is at a positive peak.
+*   **Result:** Sketch a sine wave that is zero when flux is at its maximum/minimum, and has a positive peak when the flux graph is falling steeply.
+
+**(b) Sketching "emf 2"**
+If the rotation speed is doubled, the frequency of the emf doubles ($f' = 2f$) and the magnitude of the peak emf doubles because $\varepsilon_{max} = N B A \omega$ (where $\omega = 2\pi f$).
+*   **Result:** Sketch a sine wave with twice the frequency (two full oscillations in the same time interval as one for "emf 1") and twice the amplitude.
+
+**(c) Calculation of Magnetic Flux**
+Magnetic flux is defined as $\Phi = BA\cos(\theta)$, where $\theta$ is the angle between the **normal** to the coil and the magnetic field lines.
+*   Given: Angle to the plane is $30^\circ$, so the angle to the normal is $\theta = 90^\circ - 30^\circ = 60^\circ$.
+*   $B = 3.2\text{ T}$, $A = 2.25 \times 10^{-3}\text{ m}^2$.
+*   $\Phi = 3.2 \times (2.25 \times 10^{-3}) \times \cos(60^\circ)$
+*   $\Phi = 0.0072 \times 0.5 = 3.6 \times 10^{-3}\text{ Wb}$.
+
+**(d) Calculation of Induced EMF**
+The average induced emf is $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$.
+*   At maximum flux, $\Phi_{max} = NBA = 500 \times 3.2 \times 2.25 \times 10^{-3} = 3.6\text{ Wb}$.
+*   At minimum flux, $\Phi_{min} = -3.6\text{ Wb}$.
+*   $\Delta\Phi = -3.6 - 3.6 = -7.2\text{ Wb}$.
+*   $|\varepsilon| = N \frac{|\Delta\Phi|}{\Delta t} = \frac{7.2}{0.52} \approx 13.85\text{ V}$.
+
+**(e) Change in rotational speed**
+When the circuit is completed, current flows, creating an induced magnetic field that opposes the change in flux (Lenz's Law). This results in a magnetic torque (back-torque) that acts against the rotation of the coil. Since the external torque applied to the coil remains constant, the opposing magnetic torque will cause the net torque to decrease, resulting in the **coil slowing down**.
+
+###QUESTION_TYPE
+Calculation question

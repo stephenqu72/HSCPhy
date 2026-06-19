@@ -1,0 +1,19 @@
+To determine the correct direction of the induced current, we must apply **Lenz’s Law**. Lenz’s Law states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+
+### Step-by-Step Analysis:
+
+1.  **Understand the goal:** We are looking for the scenario where the magnetic pole induced by the current in the coil repels the approaching magnet or attracts the receding magnet, effectively opposing the relative motion.
+2.  **Use the Right-Hand Grip Rule:** Once the required induced magnetic pole is determined, point your right thumb in the direction of the magnetic field lines (pointing away from the induced North pole). Your fingers will curl in the direction of the conventional current $I$ in the coil.
+3.  **Evaluate the options:**
+    *   **Option A:** The North pole ($N$) of the magnet is moving *towards* the coil. To oppose this, the left side of the coil must become a **North pole** to repel the approaching magnet. Using the right-hand grip rule, if the left side of the coil is North, the current must flow **upward** in the front loops. The diagram shows the current flowing down, so A is incorrect.
+    *   **Option B:** The North pole ($N$) is moving *away* from the coil. To oppose this, the left side of the coil must become a **South pole** to attract the retreating magnet. Using the right-hand grip rule, the current must flow **upward** in the front loops for the left side to act as a South pole. The diagram shows the current flowing upward, which matches.
+    *   **Option C:** Both the magnet and coil are moving in the same direction at the same speed. There is **no relative motion**, therefore no change in magnetic flux, and **no induced current**. This option is incorrect.
+    *   **Option D:** Both the magnet and coil are moving in the same direction at the same speed. Again, there is **no relative motion** and no induced current. This option is incorrect.
+
+### Conclusion:
+In Option B, the relative motion of the magnet moving away from the coil induces a magnetic pole at the near end of the coil that attracts the magnet. The direction of current indicated by the arrow correctly satisfies the right-hand grip rule to create that pole.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

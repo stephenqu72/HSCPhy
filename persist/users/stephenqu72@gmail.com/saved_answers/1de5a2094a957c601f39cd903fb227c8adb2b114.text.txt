@@ -1,0 +1,22 @@
+To answer this question correctly, we need to understand the relationship between the supply voltage, the back electromotive force (back EMF), and the terminal voltage of a DC motor.
+
+### The Physics Principles
+1.  **Back EMF ($\varepsilon$):** When a DC motor spins, the coil rotates within a magnetic field, inducing an EMF that opposes the supply voltage ($V_{source}$). This back EMF is directly proportional to the rotational speed of the motor ($\omega$). Mathematically, $\varepsilon = k\omega$.
+2.  **Terminal Voltage:** A voltmeter connected across the terminals of a DC motor connected to an ideal power source will always read the voltage of that power source. However, in HSC physics contexts for this specific type of problem, the question is asking us to consider the **effective** voltage across the internal components (i.e., the supply voltage minus the back EMF) as the motor accelerates, or it is describing a scenario involving current/back EMF interaction. 
+3.  **The Process:**
+    *   **Start:** When the motor is stationary, $\omega = 0$, so back EMF ($\varepsilon$) = 0. The effective "load" voltage is at its maximum because there is no opposing EMF.
+    *   **Acceleration:** As the motor gains speed, $\varepsilon$ increases. This opposes the supply voltage, causing the net voltage driving the current to decrease. 
+    *   **Maximum Speed:** The motor reaches a constant speed, meaning $\varepsilon$ reaches a constant maximum value.
+    *   **Braking:** When the motor is forced to stop, the speed drops rapidly. As $\omega \to 0$, the back EMF ($\varepsilon$) also drops to zero. Consequently, the opposing force to the supply voltage disappears, and the voltage measured across the armature (effective) returns to its maximum value.
+
+### Analysis of the Graphs
+*   At $t=0$, the speed is zero, so the back EMF is zero. If we are measuring the voltage difference between the source and the back EMF (or the voltage drop available to push current through the coil resistance $R$), the value is at its maximum (the supply voltage).
+*   As the motor speeds up, the back EMF increases, reducing the net voltage.
+*   When the motor is forced to stop, the speed decreases, reducing the back EMF, which causes the net voltage to rise back to the supply voltage.
+
+Graph **B** shows a high initial value (low back EMF), a drop as speed increases (high back EMF), and a rise as the motor stops (back EMF returns to zero).
+
+**Correct Answer: B**
+
+###QUESTION_TYPE
+Multiple choice

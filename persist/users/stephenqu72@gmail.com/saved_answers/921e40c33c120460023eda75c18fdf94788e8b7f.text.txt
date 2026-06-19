@@ -1,0 +1,21 @@
+As an HSC teacher, I want to emphasize that these questions test your fundamental understanding of electromagnetism—specifically flux linkage and back EMF. Here are the model answers and the strategy to solve them.
+
+### Part (a)
+**Answer:** 
+The transformer built by Group B is more efficient due to two main factors:
+1. **Flux Linkage:** Group A uses a paper core (air core), which has low magnetic permeability, resulting in significant "flux leakage." Group B uses an iron core, which has high magnetic permeability, effectively confining the magnetic flux and ensuring almost all flux produced by the primary coil links the secondary coil.
+2. **Eddy Currents:** Group B uses a **laminated** iron core. As the magnetic flux changes, eddy currents are induced in the core, which dissipate energy as heat. By laminating the core (using thin insulated sheets), the path for these eddy currents is restricted, significantly reducing energy loss compared to a solid or non-laminated conductor.
+
+**Strategy:** Always address the two "enemies" of transformer efficiency: flux leakage (solved by soft iron cores) and eddy current heating (solved by lamination).
+
+---
+
+### Part (b)
+**Answer:**
+As a DC motor spins, the rotating coils cut through the magnetic field lines, inducing an electromotive force (EMF) known as **back EMF** ($\varepsilon_{back}$), which opposes the supply voltage ($V$). According to the conservation of energy, the mechanical work done by the motor and the heat dissipated are derived from the electrical input. 
+The net voltage driving the current ($I$) is given by $I = \frac{V - \varepsilon_{back}}{R}$. As the rotational speed increases, the rate of change of magnetic flux through the coil increases, causing $\varepsilon_{back}$ to increase. This effectively "chokes" the current, causing it to decrease. If current remained high at high speeds, the power input would exceed the power output (mechanical work + heat), violating the principle of conservation of energy.
+
+**Strategy:** Connect the "speed" to the "back EMF." Remember the relationship: higher speed $\rightarrow$ higher rate of flux change $\rightarrow$ higher back EMF $\rightarrow$ lower net voltage $\rightarrow$ lower current.
+
+###QUESTION_TYPE
+Short answer

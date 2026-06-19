@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **B. reducing incomplete flux linkage.**
+
+---
+
+### Explanation
+To understand why this is the correct answer, we must consider the fundamental principle of how a transformer works: **electromagnetic induction**.
+
+1.  **The Role of Magnetic Flux:** In a transformer, the primary coil creates a time-varying magnetic field (flux) when an alternating current flows through it. This magnetic flux is intended to pass through the core and induce an EMF in the secondary coil via Faraday's Law of Induction.
+2.  **Magnetic Flux Leakage:** Ideally, all the magnetic flux produced by the primary coil should pass through the secondary coil. However, in reality, some magnetic field lines "leak" out into the air rather than staying within the iron core to link with the secondary coil. This is known as **magnetic flux leakage**.
+3.  **Maximizing Coupling:** When the secondary coil is wound directly on top of the primary coil, the two coils are physically as close as possible. This tight coupling ensures that the magnetic flux lines produced by the primary coil are almost entirely captured by the secondary coil, minimizing the amount of flux that escapes into the surrounding space.
+4.  **Efficiency:** Efficiency in a transformer is the ratio of output power to input power. By ensuring that more magnetic flux is "linked" between the two coils, we reduce energy losses, thereby increasing the efficiency of the power transfer.
+
+**Why the other options are incorrect:**
+*   **A (Decreasing back EMF):** Back EMF is a necessary part of the transformer's operation (it limits the primary current); reducing it would generally be undesirable or counter-productive to the transformer's function.
+*   **C (Producing smaller eddy currents):** Eddy currents are minimized by using laminated iron cores and high-resistivity materials, not by the physical placement of the coils relative to each other.
+*   **D (Decreasing resistive heat production):** Resistive heat (or "copper loss") is determined by the resistance of the wire ($P = I^2 R$) and the current. While coil placement affects efficiency via linkage, it does not change the physical resistance of the wires used to wind the coils.
+
+###QUESTION_TYPE
+Multiple choice

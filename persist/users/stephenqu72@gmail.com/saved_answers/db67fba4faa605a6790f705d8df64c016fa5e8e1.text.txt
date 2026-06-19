@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+**(a) What is this device? Justify your answer.**
+**Answer:** The device is a **DC generator**.
+**Justification:** The presence of a split-ring commutator (the two-segmented ring connected to the ends of the coil) indicates that the device is designed to convert mechanical energy into DC electrical energy by reversing the connection to the external circuit every half-rotation, ensuring current flows in the same direction.
+
+**(b) On the diagram, draw arrows to show the direction of current induced in the coil.**
+**Explanation:** Using Lenz's Law/Right-Hand Rule:
+*   The right side of the coil (near the N pole) is moving **downward**. The left side (near the S pole) is moving **upward**.
+*   Using the Right-Hand Generator Rule: Point your thumb in the direction of the wire's motion and fingers in the direction of the magnetic field ($N \rightarrow S$).
+*   On the right side (moving down), current flows **away** from you (into the page).
+*   On the left side (moving up), current flows **toward** you (out of the page).
+*   Draw arrows on the coil showing the path: out of the S-pole side, around the back, and into the N-pole side.
+
+**(c) On the axes, sketch the graphs.**
+
+*   **Emf produced in the device:** This is an AC sine wave. Since the coil is rotating at a constant speed, the induced emf $\varepsilon = N B A \omega \sin(\omega t)$ alternates polarity as the coil rotates. You should sketch a sine wave that crosses the zero axis, completing two full cycles (four peaks total: two positive, two negative).
+*   **Emf delivered to external circuit:** Because of the split-ring commutator, the negative portions of the sine wave are "flipped" to become positive. The graph will show a "pulsating DC" output—a series of four identical positive humps (half-sine waves) with no negative values.
+
+---
+
+### Strategy for Success
+1.  **Identify Components:** Always look for the commutator type first. Slip rings = AC Generator; Split-ring = DC Generator.
+2.  **Right-Hand Rule:** In an HSC exam, always visualize the magnetic field lines going from North to South.
+3.  **Graphing Physics:** When drawing induced emf, remember that $emf = 0$ when the coil is perpendicular to the magnetic field (flux is maximum, rate of change is zero) and $emf$ is maximum when the coil is parallel to the field (flux is zero, rate of change is maximum).
+
+###QUESTION_TYPE
+Short answer

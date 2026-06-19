@@ -1,0 +1,8 @@
+### Front
+How can you determine the maximum vertical height of a projectile using time-lapse (frames per second) data?
+
+### Back
+- Key idea: Convert frame intervals into time ($\Delta t$) and use kinematic equations for the point where $v_y = 0$.
+- Formula / law / constant / figure: $\Delta t = \frac{1}{\text{FPS}}$; $h_{\text{total}} = h_0 + \Delta y$ ($g = 9.8 \text{ m/s}^2$)
+- When to use it: When given frame counts or frame rates to solve for displacement or velocity.
+- Common trap: Forgetting to add the initial release height ($h_0$) to the vertical displacement ($\Delta y$).

@@ -1,0 +1,17 @@
+The correct answer is **(B)**.
+
+### Explanation
+
+To understand why a diffraction grating produces narrower and more distinct fringes than a single slit (or even a double slit), we must look at the physics of superposition and interference:
+
+1.  **Single Slit:** A single slit produces a broad central maximum because the diffraction pattern is governed by the interference of light waves originating from different parts of the same opening. The resulting fringes are relatively wide and diffuse.
+2.  **Diffraction Grating:** A diffraction grating consists of a large number of very closely spaced parallel slits ($N$ slits). When light passes through, the interference pattern is formed by the superposition of light from all $N$ slits.
+3.  **The Physics of "Sharpness":** 
+    *   According to the grating equation $d \sin(\theta) = n\lambda$, light of a specific wavelength will only constructively interfere at very specific angles $\theta$.
+    *   As the number of slits ($N$) increases, destructive interference becomes much more efficient between the principal maxima. For any angle slightly away from a constructive peak, waves from the various slits will cancel each other out much more effectively than they would with only one or two slits.
+    *   Mathematically, the intensity distribution of a grating is given by the product of the single-slit diffraction envelope and the $N$-slit interference pattern. As $N$ becomes large, the peaks of the interference pattern become extremely sharp (narrow) and intense (more distinct).
+
+Consequently, compared to a single slit, a diffraction grating concentrates light into very fine, bright lines, making the fringes significantly **narrower and more distinct**.
+
+###QUESTION_TYPE
+Multiple choice

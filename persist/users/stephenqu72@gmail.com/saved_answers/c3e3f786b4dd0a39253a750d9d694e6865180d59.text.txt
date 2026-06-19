@@ -1,0 +1,21 @@
+To solve this problem, we apply **Lenz’s Law**, which states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it. We also use the **Right-Hand Grip Rule** to determine the relationship between the induced current and the magnetic polarity of the coil.
+
+### Step-by-Step Explanation:
+
+1.  **Desired Direction:** The question asks for the current to flow from $X \to G \to Y$. 
+    *   Looking at the coil winding (the wire passes *in front* of the core, moving downwards on the left side), if current flows from $X$ (left) to $Y$ (right) through the galvanometer, it must be entering the left side of the coil. 
+    *   Using the Right-Hand Grip Rule: If you curl your fingers in the direction of the current (down the front of the coils), your thumb points to the **left**. Thus, the left end of the coil must act as a **North pole** and the right end as a **South pole** to induce this specific current direction.
+
+2.  **Analyzing each coil:**
+    *   **Coil 1:** The North pole is moving *away* from the right side. To oppose this, the coil must attract the magnet by creating a South pole on the right. This induces a current that flows from $Y$ to $X$. (Incorrect)
+    *   **Coil 2:** The North pole is moving *towards* the right side. To oppose this, the coil must repel the magnet by creating a North pole on the right. This induces a current that flows from $Y$ to $X$. (Incorrect)
+    *   **Coil 3:** The South pole is moving *away* from the left side. To oppose this, the coil must attract the magnet by creating a North pole on the left. As determined in step 1, a North pole on the left requires the current to flow from $X$ to $Y$. (**Correct**)
+    *   **Coil 4:** The North pole is moving *towards* the left side. To oppose this, the coil must repel the magnet by creating a North pole on the left. A North pole on the left requires the current to flow from $X$ to $Y$. (**Correct**)
+
+Since both Coil 3 and Coil 4 result in a North pole forming on the left side of the coil (which induces current in the $X \to G \to Y$ direction), the correct answer is **(B)**.
+
+### Answer:
+The correct answer is **(B) 3 and 4**.
+
+###QUESTION_TYPE
+Multiple choice

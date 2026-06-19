@@ -1,0 +1,19 @@
+To solve this problem, we must apply Faraday's Law of Induction, which states that the induced electromotive force (EMF), or voltage ($\varepsilon$), is proportional to the negative rate of change of magnetic flux ($\Phi_B$) through a loop:
+
+$$\varepsilon = -N \frac{d\Phi_B}{dt}$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Physical System:** As the coil rotates in the uniform magnetic field, the magnetic flux $\Phi_B$ through the loop changes as a function of the angle $\theta$ between the magnetic field lines and the normal to the loop area. Mathematically, $\Phi_B = BA\cos(\theta)$. Since the generator rotates at a constant angular velocity $\omega$, $\theta = \omega t$, so the flux follows a **cosine function**.
+2.  **Relate Flux and Voltage:** According to Faraday's Law, the voltage is the negative derivative of the flux. If flux is a cosine function (e.g., $\cos(\omega t)$), its derivative is a sine function (specifically $-\sin(\omega t)$). The negative sign in Faraday's Law turns this into a $+\sin(\omega t)$ function.
+3.  **Analyze Phase Shift:**
+    *   When the plane of the coil is perpendicular to the magnetic field lines (the "vertical" position), the magnetic flux is at a **maximum**. At this exact moment, the rate of change of flux is zero, so the induced voltage is **zero**.
+    *   When the plane of the coil is parallel to the magnetic field lines, the magnetic flux is **zero**. At this point, the rate of change of flux is at its maximum, so the induced voltage is at its **maximum (or minimum) value**.
+4.  **Evaluate the Graphs:**
+    *   We are looking for a relationship where the voltage is zero when the flux is at its maximum, and the voltage is at its peak when the flux is zero. This indicates a **90-degree phase shift** between the two waves.
+    *   Graph A shows exactly this relationship: when the dashed line (flux) is at its peak, the solid line (voltage) is at zero.
+
+**Conclusion:** The correct graph is **A**.
+
+###QUESTION_TYPE
+Multiple choice

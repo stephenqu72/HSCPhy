@@ -1,0 +1,20 @@
+Hello! As an HSC physics teacher, I am happy to guide you through this classic wave interference problem.
+
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this, we need to understand the physical significance of the variable $m$ in the equation for constructive interference:
+$$d \sin \theta = m\lambda$$
+
+1.  **Constructive Interference:** This occurs when two waves meet in phase, meaning their path difference is an integer multiple of the wavelength ($\lambda$).
+2.  **The meaning of $m$:** The variable $m$ is known as the **order of the interference fringe**. 
+    *   $m = 0$ represents the central maximum (the central bright fringe located directly in the middle of the pattern).
+    *   $m = 1$ and $m = -1$ represent the first-order bright fringes located on either side of the central maximum.
+    *   $m = 2$ and $m = -2$ represent the second-order bright fringes, and so on.
+3.  **Why D is the correct choice:** The integers ($..., -2, -1, 0, 1, 2, ...$) represent the symmetrical nature of the interference pattern produced by two point sources. The pattern is mirror-imaged across the central axis. Option D correctly lists the central maximum ($0$) and the corresponding fringes on either side of that center ($-1, 1, -2, 2$), which are the standard identifiers used in Young's double-slit experiment.
+
+*   Option B and C are incorrect because values like $0.5$ or $1.5$ represent **destructive interference** (minima), where the waves are $180^\circ$ out of phase, leading to dark fringes.
+
+###QUESTION_TYPE
+Multiple choice

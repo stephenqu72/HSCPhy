@@ -1,0 +1,35 @@
+As a physics teacher, I will guide you through this HSC-style problem step-by-step.
+
+### Solutions and Explanations
+
+**a. Alternator**
+The device uses slip rings to output an AC current. A DC generator requires a split-ring commutator.
+
+**b. i. $0\text{ Wb}$**
+**ii.** Magnetic flux is defined by $\Phi = BA\cos(\theta)$, where $\theta$ is the angle between the **normal** to the loop and the magnetic field. In Figure 5, the plane of the loop is parallel to the magnetic field lines. Therefore, the normal to the loop is perpendicular ($90^\circ$) to the field. Since $\cos(90^\circ) = 0$, the flux is zero.
+
+**c. $0.05\text{ s}$**
+The period $T$ is the reciprocal of frequency $f$.
+$$T = \frac{1}{f} = \frac{1}{20} = 0.05\text{ s}$$
+
+**d. $0.05\text{ Wb}$**
+Maximum flux occurs when the loop is perpendicular to the field ($\theta = 0^\circ$):
+$$\Phi_{\text{max}} = B \times A = 0.40\text{ T} \times (0.50\text{ m} \times 0.25\text{ m}) = 0.40 \times 0.125 = 0.05\text{ Wb}$$
+
+**e. $4\text{ V}$**
+Average induced emf is given by Faraday's Law: $\varepsilon_{\text{avg}} = -N \frac{\Delta\Phi}{\Delta t}$.
+$\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = 0.05 - 0 = 0.05\text{ Wb}$.
+$\Delta t = \frac{1}{4}$ of a period $= \frac{0.05}{4} = 0.0125\text{ s}$.
+$$\varepsilon_{\text{avg}} = \frac{0.05}{0.0125} = 4\text{ V}$$
+
+**f. Ways to increase amplitude:**
+1. Increase the rate of rotation (frequency).
+2. Increase the strength of the magnetic field ($B$).
+3. Increase the area of the loop ($A$).
+4. Increase the number of turns of wire ($N$).
+
+**g. Sketching the output:**
+When a split-ring commutator is used, it reverses the connection every half-cycle, ensuring the output current flows in the same direction. The negative half-cycle of the sine wave is "flipped" to become positive. You should draw a series of positive-only humps (rectified AC).
+
+###QUESTION_TYPE
+Calculation question

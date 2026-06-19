@@ -1,0 +1,25 @@
+To solve this problem, we must apply Faraday's Law of Induction and Lenz's Law within the context of a DC transformer circuit.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+1.  **Understanding Transformers:** A transformer only works with a **changing** magnetic flux. In a transformer, the primary coil creates a magnetic field that is coupled to the secondary coil via the iron core. Faraday's Law states that an electromotive force (EMF) is induced in the secondary coil only when there is a change in the magnetic flux ($\Phi$) passing through it:
+    $$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+2.  **Analyzing the Circuit:** The primary circuit consists of a DC battery, a resistor, and a switch. 
+    *   **At the moment the switch is closed:** The current in the primary coil starts to rise from zero. As current increases, the magnetic field in the core increases.
+    *   **The transient phase:** Because the current is changing, the magnetic flux is also changing, which induces a momentary pulse of current in the secondary circuit.
+    *   **Steady state:** Once the current in the primary circuit reaches a constant value (Ohm’s law, $I = V/R$), the magnetic flux through the secondary coil becomes constant. Since $\frac{\Delta \Phi}{\Delta t} = 0$, the induced EMF in the secondary coil becomes zero.
+
+3.  **Graph Interpretation:**
+    *   Initially, as the switch closes, the current rises rapidly, inducing a current in the secondary. 
+    *   As the primary current approaches its steady-state value, the rate of change of current decreases, causing the induced current in the secondary to drop back to zero. 
+    *   Graph (C) shows a brief pulse of current that returns to zero, which is exactly what happens when a DC source is connected to a transformer.
+
+- (A) is incorrect because an induced current *does* occur during the switching transient.
+- (B) represents the buildup of current in a DC inductor circuit, not the induced current in a secondary coil.
+- (D) represents an AC input, but the circuit uses a battery (DC).
+
+### QUESTION_TYPE
+Multiple choice

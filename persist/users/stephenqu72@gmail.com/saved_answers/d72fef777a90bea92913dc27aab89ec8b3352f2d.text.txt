@@ -1,0 +1,29 @@
+To solve this physics problem, we apply **Lenz's Law** and the **Right-Hand Grip Rule** (or Fleming’s Right-Hand Rule).
+
+### Step-by-Step Explanation:
+
+1.  **Determine the direction of the Eddy Current at X:**
+    *   The disc is rotating clockwise, so the metal at point X is moving *into* the magnetic field region under the North pole.
+    *   According to **Lenz's Law**, the induced current must create a magnetic field that opposes the change in magnetic flux. As the metal moves into the North pole, the flux through that region increases. To oppose this, the induced magnetic field must point *out* of the page (towards the viewer) to oppose the North pole's field.
+    *   Using the **Right-Hand Grip Rule**: If your thumb points out of the page (the required direction of the induced magnetic field), your fingers curl in an **anticlockwise** direction. Thus, the eddy current at X is anticlockwise.
+
+2.  **Identify Vector Quantity Y:**
+    *   The eddy currents induced in the disc interact with the magnetic field of the electromagnet. According to the formula for magnetic force on a current-carrying conductor, $F = BIL \sin(\theta)$, a force is exerted on the disc.
+    *   This force acts in a direction that opposes the motion of the disc (Lenz's Law), acting as a braking force.
+    *   Since this force is applied at a distance from the axis of rotation (the shaft), it produces a **torque** that opposes the rotation of the disc.
+    *   Given the vector arrow $Y$ is shown acting tangentially at the point of the interaction to oppose the motion, it represents the braking force. However, in the context of braking systems causing a reduction in rotational speed, we look at the standard terminology used in HSC Physics for the interaction effect: the eddy currents create a *retarding force* which creates a *retarding torque*. Looking at the options, since the arrow represents the force vector responsible for the braking action, we identify the interaction $Y$ as a **force**.
+
+3.  **Conclusion:**
+    *   Direction of eddy current at X: **Anticlockwise**.
+    *   Vector quantity Y: **Force** (The force acting on the charge carriers/disc).
+
+Comparing this to the options provided:
+*   A: Clockwise / Force
+*   B: Clockwise / Torque
+*   **C: Anticlockwise / Force**
+*   D: Anticlockwise / Torque
+
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

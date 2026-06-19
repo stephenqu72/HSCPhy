@@ -1,0 +1,30 @@
+To answer a 9-mark question like this in an HSC Physics exam, you must provide a comprehensive, structured response that demonstrates depth of knowledge. Here is a model answer and the strategy to achieve full marks.
+
+### Model Answer
+
+**1. How a spectroscope works:**
+A spectroscope functions by collecting light from a celestial source and dispersing it into its constituent wavelengths (a spectrum). The process involves:
+*   **Collimation:** Light enters through a narrow slit and is passed through a collimating lens to produce a parallel beam.
+*   **Dispersion:** This beam passes through a dispersing element, such as a diffraction grating or a prism. Due to the wave nature of light, different wavelengths undergo varying degrees of refraction or diffraction, spreading the light out into a spectrum.
+*   **Observation/Recording:** The resulting spectrum is then focused by an objective lens onto a detector (such as a CCD or photographic film) for analysis.
+
+**2. Justification: Information gained about stars:**
+Spectroscopy is essential because it allows us to analyze the light emitted by stars to determine key physical characteristics:
+*   **Chemical Composition:** By observing absorption lines (Fraunhofer lines) against the continuous spectrum, we identify specific elements in the stellar atmosphere. Each element has a unique "fingerprint" of electron transitions. Comparing these to laboratory spectra reveals the elemental composition of the star.
+*   **Temperature:** According to Wien’s Law, the peak wavelength $\lambda_{max}$ of a star's continuous spectrum is inversely proportional to its temperature ($T$):
+    $$\lambda_{max} = \frac{b}{T}$$
+    By finding the peak of the spectral curve, we can determine the surface temperature of the star.
+*   **Radial Velocity and Motion:** Using the Doppler effect, we observe the shift in spectral lines. A shift towards the blue end of the spectrum indicates the star is moving toward us, while a red shift indicates it is moving away. The magnitude of the shift ($z$) allows us to calculate the radial velocity:
+    $$\frac{\Delta \lambda}{\lambda} \approx \frac{v}{c}$$
+*   **Rotational Velocity:** The broadening of spectral lines (Doppler broadening) indicates the speed at which a star is rotating. Rapid rotation causes one side of the star to shift blue and the other red, blurring the absorption lines.
+
+---
+
+### How to solve this question:
+1.  **Structure is everything:** For a 9-mark response, divide your answer into two clear sections: "Mechanism" and "Application." Use subheadings to help the examiner see your logic.
+2.  **Use Physics terminology:** You must include terms like *diffraction grating*, *absorption spectrum*, *Doppler effect*, and *Wien's Law*.
+3.  **Link back to the prompt:** The question asks you to "Justify the statement." Ensure your conclusion explicitly states that because spectroscopy provides data on composition, temperature, and motion, it is indeed the "key tool" in astrophysics.
+4.  **Incorporate formulae:** Even if not strictly required, adding the relevant physics equations (Wien’s Law or the Doppler shift) demonstrates high-level understanding and "levels up" your response.
+
+###QUESTION_TYPE
+Essay

@@ -1,0 +1,28 @@
+### Physics Teacher's Solution
+
+#### (a) Explain why the central band at $O$ is a bright band.
+**Answer:** The central point $O$ is equidistant from both slits. Therefore, light waves traveling from each slit to $O$ have a path difference of zero ($\Delta x = 0$). Because the path difference is zero, the waves arrive in phase, resulting in constructive interference, which produces a bright band.
+
+#### (b) Label point $B$ and justify.
+**Answer:** We calculate the order of the fringe ($m$) using the path difference equation $\Delta x = m\lambda$.
+Given $\Delta x = 1.288 \text{ \mu m} = 1288 \text{ nm}$ and $\lambda = 515 \text{ nm}$:
+$$m = \frac{\Delta x}{\lambda} = \frac{1288}{515} = 2.5$$
+**Justification:** A path difference of $2.5\lambda$ results in destructive interference. Therefore, point $B$ is located at the position of the **3rd dark band** to the right of $O$.
+
+#### (c) Calculate the wavelength of the new laser.
+**Explanation:** 
+1. The position of the first dark band in the original pattern occurs at $\Delta x = 0.5\lambda_1$.
+2. The position of the first non-central bright band in the new pattern occurs at $\Delta x = 1.0\lambda_2$.
+3. Since the position ($\Delta x$) is the same for both scenarios:
+$$0.5 \lambda_1 = 1.0 \lambda_2$$
+$$\lambda_2 = 0.5 \times 515 \text{ nm} = 257.5 \text{ nm}$$
+
+---
+
+### How to solve these problems
+1. **Understand Interference Conditions:** Always remember that constructive interference (bright) occurs when path difference $\Delta x = m\lambda$ (where $m$ is an integer), and destructive interference (dark) occurs when $\Delta x = (m + 0.5)\lambda$.
+2. **Apply Path Difference:** In part (b), convert all units to nanometers to ensure consistency before dividing. The result $2.5$ clearly indicates a dark band (specifically the third dark band, as the first is at $0.5$, second at $1.5$, etc.).
+3. **Compare Patterns:** In part (c), equate the path differences for the two specific states described. Because the physical position on the screen is identical, the path difference $\Delta x$ remains constant for both lasers.
+
+###QUESTION_TYPE
+Calculation question

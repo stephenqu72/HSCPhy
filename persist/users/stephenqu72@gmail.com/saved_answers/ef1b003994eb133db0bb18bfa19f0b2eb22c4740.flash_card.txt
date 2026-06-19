@@ -1,0 +1,8 @@
+### Front
+How can you determine the SI units of an unknown constant ($k$) within a physical equation?
+
+### Back
+- Key idea: Dimensional consistency (the units on the LHS must equal the units on the RHS).
+- Formula / law / constant / figure: Isolate the constant and substitute the SI units of all other variables.
+- When to use it: To find the units/dimensions of a constant or to verify if an equation is dimensionally valid.
+- Common trap: Including dimensionless constants (e.g., $2, 3, \pi$) in unit calculations or failing to correctly simplify exponents during substitution.

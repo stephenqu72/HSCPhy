@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The induced EMF graph is a **sine wave** (or negative cosine wave depending on the initial phase) that is shifted $90^\circ$ ($\pi/2$ radians) out of phase with the magnetic flux graph. Specifically, since the induced EMF is defined by Faraday’s Law, $\varepsilon = - \frac{d\Phi}{dt}$, the EMF graph will start at **zero** at $t=0$, go to a negative peak when the flux slope is steepest, cross zero at the flux minima/maxima, and reach a positive peak.
+
+**How to solve:**
+1. **Understand Faraday’s Law:** The induced EMF is proportional to the **negative gradient** (rate of change) of the magnetic flux.
+2. **Analyze the gradient:**
+   - At $t=0$, the flux is at a maximum, so the gradient is $0$. Therefore, the EMF starts at $0$.
+   - As the flux decreases towards zero (the first intercept), the gradient is negative. Since the EMF is the *negative* gradient, the EMF will go positive initially (or negative depending on the direction of the derivative of the specific cosine function).
+   - At the point of maximum negative flux, the slope is again $0$, so the EMF must cross the zero axis.
+3. **Sketch:** Draw a sinusoidal wave that is at $0$ when the flux is at a maximum/minimum and at a maximum/minimum when the flux is at $0$.
+
+#### Part (b)
+**Answer:** The induced EMF graph would change in two primary ways (you only need to state one):
+1. **Increase in Amplitude:** The peak value of the induced EMF will increase.
+2. **Increase in Frequency:** The period of the oscillation will decrease, meaning the wave will oscillate more rapidly (closer together on the time axis).
+
+**How to solve:**
+1. **Relate to Physics principles:** Faraday's Law states $\varepsilon = -N \frac{d\Phi}{dt}$. When the loop rotates faster, the angular velocity $\omega$ increases.
+2. **Mathematical reasoning:** If the flux is $\Phi = \Phi_{max} \cos(\omega t)$, then the EMF is $\varepsilon = - \frac{d}{dt} (\Phi_{max} \cos(\omega t)) = \omega \Phi_{max} \sin(\omega t)$.
+3. **Conclusion:** 
+   - Because the peak EMF is proportional to $\omega$, increasing the speed increases the amplitude.
+   - Because the frequency of the oscillation is $\omega$, increasing the speed increases the frequency (decreases the period).
+
+***
+
+### QUESTION_TYPE
+Data analysis questions

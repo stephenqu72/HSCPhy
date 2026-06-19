@@ -1,0 +1,18 @@
+To determine the correct answer, we must apply the principles of electromagnetism as they relate to a simple DC motor.
+
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this, we need to analyze the forces acting on the side $WX$ as the coil rotates through the magnetic field:
+
+1.  **Direction of force on side $WX$:** According to the Motor Effect, the force $F$ on a current-carrying conductor is given by $F = IlB\sin\theta$. As the coil rotates, side $WX$ moves from being near the North pole to the South pole. In a DC motor, the current flows in a fixed direction through the coil *relative to the wire*. However, as the coil rotates $180^\circ$, the orientation of side $WX$ relative to the magnetic field poles flips. Since the magnetic field direction is constant (North to South), and the side $WX$ moves to the opposite side of the motor after a half-turn, the force direction on that specific side of the wire reverses every $180^\circ$.
+
+2.  **Direction of torque:** Torque $\tau$ is defined by $\tau = r \times F$. If we consider a standard DC motor *without* a split-ring commutator, the torque would indeed reverse, causing the motor to oscillate rather than rotate continuously. However, the question asks for the behavior of the torque *produced by the force acting on side $WX$*. As side $WX$ rotates $180^\circ$, the force direction reverses, and because the lever arm relative to the axis of rotation also effectively changes orientation, the rotational effect (torque) produced by that specific side also reverses every $180^\circ$. 
+
+*Self-Correction/Refinement:* In a simple DC motor, we use a split-ring commutator to ensure the *net* torque on the whole coil remains in one direction. However, the question asks specifically about the force and torque related to **side $WX$**. Because side $WX$ switches from the "upward force" side to the "downward force" side (or vice-versa) relative to the axis of rotation every half turn, both the force direction on that segment and the resulting contribution to the torque cycle through a reversal. 
+
+Therefore, both the force on the side $WX$ and the torque it contributes reverse every $180^\circ$.
+
+### QUESTION_TYPE
+Multiple choice

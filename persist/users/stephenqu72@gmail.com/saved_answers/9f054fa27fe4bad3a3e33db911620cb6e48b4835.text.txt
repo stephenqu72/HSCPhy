@@ -1,0 +1,18 @@
+To earn full marks for this 5-mark response, you must clearly link the physical principles of electromagnetism to the mechanical motion of the motor.
+
+### Answer
+When the switch is closed, current flows through the coil $EFGH$. According to the motor effect, a current-carrying conductor placed within an external magnetic field experiences a force. The magnitude of this force is given by $F = nBIL\sin(\theta)$.
+
+Because the current flows in opposite directions in segments $EF$ and $HG$ (e.g., if $EF$ experiences an upward force, $HG$ experiences a downward force), a **torque** is created about the central axis. This torque causes the coil to rotate. As the coil reaches the vertical position, the split-ring commutator reverses the direction of the current in the coil. This reversal ensures that the forces on each side of the coil always act in the same rotational direction, allowing for continuous rotation in one direction.
+
+### How to solve this
+To structure your answer for maximum marks, follow this checklist:
+
+1.  **Mention the Motor Effect:** Explicitly state that the current-carrying wire in a magnetic field experiences a force.
+2.  **Apply the Right-Hand Rule:** Explain that the force on each side of the coil is determined by the interaction between the magnetic field (from North to South) and the current direction.
+3.  **Explain the Torque:** Note that because the current flows in opposite directions on opposite sides of the loop, the forces create a couple (or torque) that produces rotation.
+4.  **Describe the Commutator's Role:** Crucially, mention that the commutator reverses the current direction every half-turn. Without this, the motor would "stall" at the vertical position; the reversal ensures the torque remains in a consistent direction.
+5.  **Use Terminology:** Use physics keywords like *magnetic field*, *current-carrying conductor*, *torque*, and *commutator*.
+
+###QUESTION_TYPE
+Short answer

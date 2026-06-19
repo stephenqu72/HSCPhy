@@ -1,0 +1,36 @@
+Hello! As your HSC Physics teacher, I am happy to guide you through this problem. This question tests your understanding of electromagnetic induction and the relationship between magnetic flux and induced EMF.
+
+### Part (a): Calculation
+**Step 1: Identify the given values.**
+- Radius $r = 0.500\text{ m}$
+- Magnetic field $B = 5.00 \times 10^{-5}\text{ T}$
+- Area of the coil $A = \pi r^2 = \pi \times (0.500)^2 \approx 0.7854\text{ m}^2$
+
+**Step 2: Define magnetic flux.**
+The magnetic flux $\Phi$ is given by $\Phi = BA\cos(\theta)$, where $\theta$ is the angle between the magnetic field and the **normal** to the coil.
+
+**Step 3: Calculate the change in flux.**
+- Initial state: The coil is perpendicular to the field lines (as shown in the diagram), meaning the normal to the coil is parallel to the field. Thus, $\theta = 0^\circ$ and $\Phi_{initial} = BA$.
+- Final state: The coil rotates $90^\circ$ so that its plane is parallel to the field lines. The normal is now perpendicular to the field, so $\theta = 90^\circ$ and $\Phi_{final} = 0$.
+- Change in flux $\Delta\Phi = |\Phi_{final} - \Phi_{initial}| = BA$.
+- $\Delta\Phi = (5.00 \times 10^{-5}\text{ T}) \times (0.7854\text{ m}^2) = 3.93 \times 10^{-5}\text{ Wb}$.
+
+---
+
+### Part (b): Graphing
+**Explanation:**
+- Faraday’s Law states that induced EMF ($\varepsilon$) is proportional to the negative rate of change of flux: $\varepsilon = -\frac{d\Phi}{dt}$.
+- Since $\Phi = \Phi_{max}\cos(\omega t)$, the induced EMF will follow a sine function: $\varepsilon = \varepsilon_{max}\sin(\omega t)$.
+- If we start at maximum positive flux ($\theta=0$), the rate of change is zero at the start. Therefore, the EMF graph must start at **zero** and move in the negative direction (or positive depending on your chosen direction of rotation, but a standard sine wave starting at zero is the core requirement).
+- For 2 full rotations, you should draw two full cycles of a sine wave.
+
+**Visualizing the graph:**
+- The x-axis represents time ($t$).
+- The y-axis represents Induced EMF ($\varepsilon$).
+- The curve should be a periodic sine wave starting at $(0,0)$.
+- It should cross the x-axis 5 times (at 0, T/2, T, 3T/2, and 2T) and complete two full peaks and two full troughs.
+
+---
+
+###QUESTION_TYPE
+Calculation question

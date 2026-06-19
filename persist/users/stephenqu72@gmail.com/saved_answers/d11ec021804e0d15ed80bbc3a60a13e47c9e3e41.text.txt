@@ -1,0 +1,20 @@
+To account for the increase in the amplitude of oscillation of magnet B, we must apply the principles of electromagnetic induction and resonance.
+
+### Answer
+The increase in the amplitude of magnet B is due to the transfer of energy through an electromagnetic circuit leading to mechanical resonance.
+
+1.  **Electromagnetic Induction:** As magnet A oscillates, the changing magnetic flux through its respective solenoid induces an electromotive force (EMF) and a corresponding alternating current in the circuit, according to Faraday’s Law of Induction.
+2.  **Motor Effect:** This alternating current flows into the second solenoid, creating a time-varying magnetic field within it. This field exerts a magnetic force on the oscillating south pole of magnet B (the Motor Effect).
+3.  **Resonance:** Because the two systems (spring-magnet assemblies) are identical, they have the same natural frequency. The alternating magnetic force acts as a driving force on magnet B. Since the driving frequency matches the natural frequency of the second system, the system enters a state of **resonance**.
+4.  **Energy Transfer:** At resonance, the amplitude of the driven oscillation (magnet B) increases over time as energy is efficiently transferred from the induced current into the mechanical motion of magnet B, until limited by damping forces.
+
+### How to solve this type of question
+To tackle physics problems involving linked systems or electromagnetic components, follow this structured approach:
+
+*   **Step 1: Identify the "Generator" side.** Recognize that moving a magnet through a coil constitutes an electrical generator. The key concept here is Faraday's Law ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$).
+*   **Step 2: Identify the "Motor" side.** Recognize that the current produced flows into the second coil, creating a magnetic field that interacts with a magnet. This is the Motor Effect ($F = BIL$).
+*   **Step 3: Connect the systems.** Identify the physical link (the wires) and the phenomenon causing the growth in motion. When an external driving force (the varying magnetic field from the second coil) has a frequency equal to the natural frequency of an oscillating system, the amplitude must increase—this is the definition of **resonance**.
+*   **Step 4: Structure your argument.** HSC markers look for a logical flow: Flux change $\rightarrow$ Induced EMF/Current $\rightarrow$ Magnetic Force on second magnet $\rightarrow$ Matching frequencies $\rightarrow$ Resonance.
+
+### QUESTION_TYPE
+Short answer

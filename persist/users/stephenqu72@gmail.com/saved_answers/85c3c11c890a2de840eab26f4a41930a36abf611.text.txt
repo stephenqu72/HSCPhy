@@ -1,0 +1,33 @@
+To solve this problem, we use the transformer turns ratio formula, which relates the number of turns in the coils to the voltages across them.
+
+### Answer
+The correct answer is **A. 70**.
+
+### Explanation
+The relationship between the primary voltage ($V_p$), secondary voltage ($V_s$), number of turns in the primary coil ($N_p$), and number of turns in the secondary coil ($N_s$) is given by the ideal transformer equation:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+**1. Identify the given values:**
+*   Primary voltage ($V_p$) = $13.2\text{ kV} = 13,200\text{ V}$
+*   Secondary voltage ($V_s$) = $240\text{ V}$
+*   Primary turns ($N_p$) = $3,850$
+
+**2. Rearrange the formula to solve for the secondary turns ($N_s$):**
+$$N_s = N_p \times \frac{V_s}{V_p}$$
+
+**3. Substitute the values into the equation:**
+$$N_s = 3,850 \times \frac{240}{13,200}$$
+
+**4. Perform the calculation:**
+First, simplify the fraction:
+$$\frac{240}{13,200} = \frac{24}{1,320} = \frac{1}{55}$$
+
+Then:
+$$N_s = 3,850 \times \frac{1}{55}$$
+$$N_s = 70$$
+
+Therefore, there are $70$ turns in the secondary coil.
+
+###QUESTION_TYPE
+Multiple choice

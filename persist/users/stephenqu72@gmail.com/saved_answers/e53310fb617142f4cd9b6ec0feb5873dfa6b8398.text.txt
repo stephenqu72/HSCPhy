@@ -1,0 +1,20 @@
+**Answer:** (A) They both rely on Faraday's Law.
+
+### Explanation
+
+To solve this problem, let's analyze the fundamental operating principles of DC motors and generators:
+
+1.  **Fundamental Principles:** 
+    *   **Motors:** Convert electrical energy into mechanical energy. They utilize the motor effect (Ampere's Law), where a current-carrying conductor in a magnetic field experiences a force ($F = BIL\sin\theta$). However, as the coil rotates, it also acts as a generator, creating a "back EMF" to oppose the input voltage, which is governed by Faraday's Law and Lenz's Law.
+    *   **Generators:** Convert mechanical energy into electrical energy. They operate primarily on the principle of electromagnetic induction (Faraday's Law), where a changing magnetic flux through a coil induces an EMF ($\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$).
+
+2.  **Evaluating the Options:**
+    *   **(A) They both rely on Faraday's Law:** This is correct. In a generator, Faraday's law produces the output EMF. In a motor, Faraday's law explains the creation of back EMF, which is critical for the motor's operation and efficiency.
+    *   **(B) They both require an input current to work:** Incorrect. A generator produces an output current; it does not require an input current to function (other than perhaps initial field excitation in some designs, but not in principle).
+    *   **(C) They both can be explained by Ampere's Law:** While the motor effect is a result of Ampere's Law (force on a wire), a generator's primary function is induction, not the force on a conductor. While the laws are linked, (A) is a more fundamental and universally accepted similarity in HSC Physics regarding the interaction of flux and motion.
+    *   **(D) They both need to be rotated by an external force:** Incorrect. A motor is designed to *produce* rotational motion, not require it. A generator is the one that requires the external torque.
+
+Therefore, because both devices involve the interaction between magnetic fields and moving coils—governed by the relationship between magnetic flux, induced EMF, and torque—Faraday’s Law is the common physical principle linking their operation.
+
+###QUESTION_TYPE
+Multiple choice

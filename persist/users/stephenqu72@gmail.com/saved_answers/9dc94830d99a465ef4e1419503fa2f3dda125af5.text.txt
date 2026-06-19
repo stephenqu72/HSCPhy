@@ -1,0 +1,24 @@
+To solve this problem, we must use the fundamental formula for Young’s Double-Slit Experiment, which describes the fringe separation (the distance between adjacent bright or dark bands):
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ is the fringe separation (the distance between adjacent dark bands).
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance between the slits and the screen.
+*   $d$ is the separation between the two slits.
+
+### Analysis of the Options:
+We want to **increase** $\Delta x$. Looking at the relationship $\Delta x \propto \frac{\lambda L}{d}$, we can determine the effect of each change:
+
+*   **(A) Decrease $L$:** Since $\Delta x$ is directly proportional to $L$, decreasing $L$ will decrease $\Delta x$.
+*   **(B) Decrease $\lambda$:** Since $\Delta x$ is directly proportional to $\lambda$, decreasing $\lambda$ will decrease $\Delta x$.
+*   **(C) Decrease $d$:** Since $\Delta x$ is inversely proportional to $d$, **decreasing the denominator ($d$) will increase the value of $\Delta x$.** This is the correct action.
+*   **(D) Decrease the slit width:** The slit width does not appear in the fringe separation formula (it mainly affects the intensity and the diffraction envelope). Changing the slit width does not change the spacing between the interference fringes.
+
+Therefore, the correct action to increase the fringe separation is to decrease the distance between the slits.
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

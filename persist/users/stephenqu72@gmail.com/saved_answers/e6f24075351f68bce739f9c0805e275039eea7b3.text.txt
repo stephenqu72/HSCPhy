@@ -1,0 +1,16 @@
+To determine the elements present in the star, we use the principle of **spectral fingerprinting**. Each element has a unique set of absorption lines (dark lines) corresponding to the specific energy levels of its electrons. For an element to be present in the star, all of its characteristic dark lines must be visible in the star's total absorption spectrum.
+
+### How to solve:
+We must compare the dark lines of each known element to the dark lines present in the "Star’s Spectrum":
+
+1.  **Check Hydrogen:** Look at the lines for Hydrogen. The star's spectrum shows a line that aligns with the leftmost Hydrogen line, but the rest of the Hydrogen lines do not perfectly match the pattern of the star. More importantly, we can see if other elements match better.
+2.  **Check Helium:** The star's spectrum has four distinct dark lines. Comparing these to the Helium reference spectrum, we see that all four lines of Helium align perfectly with the four lines in the Star’s Spectrum. Therefore, **Helium is present**.
+3.  **Check Sodium:** Sodium has a distinctive doublet (two lines close together) on the right side of its spectrum. Looking at the Star's Spectrum, there is no corresponding doublet in that position. Therefore, **Sodium is likely absent**.
+4.  **Check Magnesium:** Magnesium has one distinct line slightly to the left of center. Looking at the Star's Spectrum, there is a line that aligns perfectly with this position. Therefore, **Magnesium is present**.
+
+**Conclusion:** The star's spectral lines are a composite of Helium and Magnesium. 
+
+The correct answer is **D. He and Mg**.
+
+###QUESTION_TYPE
+Multiple choice

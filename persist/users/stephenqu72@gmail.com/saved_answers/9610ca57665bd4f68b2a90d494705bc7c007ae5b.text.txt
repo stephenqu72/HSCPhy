@@ -1,0 +1,20 @@
+To solve this problem, we must apply **Lenz's Law** and the principles of electromagnetic induction.
+
+### Analysis
+1.  **Open Switch:** When the switch is open, the rotating magnet induces an electromotive force (emf) across the coil. However, because the circuit is open, no current flows ($I = 0$). With no current, there is no magnetic field created by the coil, so there is no electromagnetic force acting on the magnet to oppose its rotation.
+2.  **Closed Switch:** When the switch is closed, the changing magnetic flux through the coil (caused by the rotating magnet) induces an emf, which drives a current through the circuit. 
+3.  **Lenz's Law:** According to Lenz's Law, the direction of the induced current is such that it opposes the change that created it. The induced current in the coil creates its own magnetic field. This field will exert a magnetic force on the rotating magnet that acts in the opposite direction to its motion. This is an application of the **conservation of energy**: the work done by the wind to rotate the magnet is now being converted into electrical energy in the circuit, which creates a "magnetic drag" or braking torque on the magnet.
+
+### Conclusion
+As the switch is closed, the induced current creates an opposing magnetic force (a braking effect) on the rotating magnet. This force acts against the direction of rotation, causing the spindle to slow down.
+
+The correct answer is **(C)**.
+
+### Explanation of options:
+*   (A) is incorrect because closing the circuit allows current to flow, which interacts with the magnet.
+*   (B) is a partial explanation, but "back emf" is the effect, not the primary mechanism that exerts a physical force on the rotating magnet; the force arises from the magnetic interaction between the induced current and the magnet.
+*   (C) is correct as it identifies the magnetic force (Lorentz force/magnetic braking) as the cause of the decrease in rotational speed.
+*   (D) is incorrect because the interaction opposes the motion, it does not assist it.
+
+###QUESTION_TYPE
+Multiple choice

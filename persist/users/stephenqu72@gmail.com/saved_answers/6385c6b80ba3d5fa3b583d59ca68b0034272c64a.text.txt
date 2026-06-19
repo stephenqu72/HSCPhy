@@ -1,0 +1,25 @@
+To determine the correct answer, we must apply the **Right-Hand Motor Rule** (or Fleming’s Left-Hand Rule) to the current-carrying coil in the magnetic field.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+1.  **Determine Current Direction:** Looking at the battery, the current leaves the positive terminal and travels to the split-ring commutator. Based on the wiring in the diagram, current enters side $JK$ and leaves through side $LM$.
+2.  **Apply Fleming’s Left-Hand Rule:**
+    *   **Magnetic Field ($B$):** Directed from North ($N$) to South ($S$).
+    *   **Current ($I$):** Along the wire segment $JK$, the current is moving away from the viewer/battery side.
+    *   **Force ($F$):** Using the left-hand rule (Thumb = Force, Index Finger = Magnetic Field, Middle Finger = Current), point your index finger towards the $S$ pole and your middle finger along the wire $JK$ (current direction). Your thumb will point **upward**.
+3.  **Analyze the Torque:**
+    *   On side $JK$, the force is directed upwards.
+    *   On side $LM$, the current is flowing in the opposite direction, so the force is directed downwards.
+    *   These two forces create a torque that causes the coil to rotate. Looking from the perspective of the diagram, this force couple causes the coil to rotate in **direction A**.
+4.  **Role of the Commutator:** As the coil reaches the vertical position, the split-ring commutator reverses the current direction. This ensures that the torque remains in the same rotational direction, allowing the motor to continue spinning in direction A rather than oscillating.
+
+### How to solve this type of question:
+*   **Identify the poles:** Always note the direction of the magnetic field ($N \rightarrow S$).
+*   **Trace the current:** Follow the wires from the battery to the coil to determine the direction of $I$ in the active sides of the coil.
+*   **Apply the rule:** Always use the Left-Hand Rule for motors (remember: "Left" for "Logic/Motors", "Right" for "Generators").
+*   **Verify symmetry:** Remember that in a standard motor, the forces on the two sides of the coil act in opposite directions to create rotation.
+
+###QUESTION_TYPE
+Multiple choice

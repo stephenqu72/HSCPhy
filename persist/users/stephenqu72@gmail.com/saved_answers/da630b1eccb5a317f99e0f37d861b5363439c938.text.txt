@@ -1,0 +1,30 @@
+Here are the solutions to the questions provided, written from the perspective of an experienced HSC Physics teacher.
+
+### (a) Explanation of Bright Fringes
+A bright fringe is formed due to **constructive interference**. This occurs when the path difference between the light waves originating from the two slits is an **integer multiple of the wavelength** ($n\lambda$, where $n = 0, 1, 2, ...$). At these points, the waves arrive in phase, crest meets crest and trough meets trough, resulting in a maximum amplitude.
+
+### (b) Calculation of Slit Separation
+To find the slit separation ($d$), we use the formula for Young's double-slit experiment: 
+$$\Delta x = \frac{\lambda L}{d}$$
+Where:
+*   $\lambda = 5.7 \times 10^{-7}\text{ m}$
+*   $L = 20\text{ cm} = 0.20\text{ m}$
+*   The distance between 5 consecutive fringes covers 4 fringe widths ($\Delta x$).
+*   $4 \Delta x = 3.89\text{ mm} = 3.89 \times 10^{-3}\text{ m}$
+*   Therefore, $\Delta x = \frac{3.89 \times 10^{-3}}{4} = 9.725 \times 10^{-4}\text{ m}$
+
+Rearranging the formula to solve for $d$:
+$$d = \frac{\lambda L}{\Delta x} = \frac{(5.7 \times 10^{-7}) \times 0.20}{9.725 \times 10^{-4}}$$
+$$d \approx 1.17 \times 10^{-4}\text{ m} \text{ (or } 0.117\text{ mm)}$$
+
+### (c) Safety Issues
+1.  **Eye Safety:** Sodium lamps or lasers can be intense. This is addressed by never looking directly into the light source and ensuring the beam is directed away from others.
+2.  **Electrical Safety:** Electrical equipment (lamps/power supplies) can pose a shock hazard. This is addressed by ensuring cables are not frayed, not using equipment near water, and checking that the equipment is tagged/tested.
+
+### (d) Improving Reliability
+Reliability is improved by measuring the distance across **multiple** fringes rather than just one. By measuring the distance between five fringes and dividing by the number of gaps (four), the student reduces the impact of random error associated with identifying the exact center of a single fringe, leading to a more precise average value.
+
+***
+
+###QUESTION_TYPE
+Calculation question

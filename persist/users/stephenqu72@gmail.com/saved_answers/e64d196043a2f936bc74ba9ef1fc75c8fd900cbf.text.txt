@@ -1,0 +1,24 @@
+Hello! As your HSC Physics teacher, I'm here to help you break down this wave interference question. This is a classic concept in the "Light: Waves and Particles" module.
+
+### Answer
+The correct answer is **(D) The alternating bands of bright light would become more separated.**
+
+### Explanation
+To solve this, we need to use the mathematical relationship for Young's Double Slit experiment. The separation between adjacent bright fringes (the fringe width, denoted by $\Delta x$) is given by the formula:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ = fringe separation (the distance between adjacent bright bands)
+*   $\lambda$ = wavelength of the light used
+*   $L$ = distance from the slits to the screen
+*   $d$ = distance between the two slits
+
+**Step-by-step reasoning:**
+1.  **Identify the variables:** The experiment setup ($L$ and $d$) remains unchanged. The only variable being altered is the wavelength ($\lambda$).
+2.  **Analyze the relationship:** Looking at the formula, we can see that the fringe separation $\Delta x$ is **directly proportional** to the wavelength $\lambda$ (i.e., $\Delta x \propto \lambda$).
+3.  **Apply the change:** You are changing the laser from green ($\lambda = 532\text{ nm}$) to red ($\lambda = 633\text{ nm}$). Since $633\text{ nm} > 532\text{ nm}$, the wavelength has increased.
+4.  **Conclusion:** Because the wavelength has increased, and $\Delta x$ is directly proportional to $\lambda$, the distance between the bright bands ($\Delta x$) must also increase. Therefore, the bands become more separated (spread out).
+
+### QUESTION_TYPE
+Multiple choice

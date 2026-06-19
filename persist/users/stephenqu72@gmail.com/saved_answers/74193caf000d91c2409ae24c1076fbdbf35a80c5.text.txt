@@ -1,0 +1,27 @@
+To determine the correct answer, we must refer to the mathematical formula that describes Young's double-slit experiment. The fringe separation (the distance between consecutive bright or dark bands), denoted by $\Delta x$, is given by the formula:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+- $\lambda$ is the wavelength of the light used.
+- $L$ is the distance between the double slits and the screen.
+- $d$ is the distance of separation between the two slits.
+
+### Analysis of the Options:
+We want to **increase** $\Delta x$. Looking at the relationship in the formula:
+*   $\Delta x$ is directly proportional to $\lambda$ (increasing $\lambda$ increases $\Delta x$).
+*   $\Delta x$ is directly proportional to $L$ (increasing $L$ increases $\Delta x$).
+*   $\Delta x$ is inversely proportional to $d$ (decreasing $d$ increases $\Delta x$).
+
+Now, let's evaluate the choices:
+*   (A) Slit width affects the intensity and diffraction envelope, but not significantly the fringe separation $\Delta x$.
+*   (B) **Decreasing $d$**: Since $\Delta x \propto \frac{1}{d}$, making $d$ smaller results in a larger $\Delta x$. This is correct.
+*   (C) Decreasing $L$: Since $\Delta x \propto L$, this would decrease the fringe separation.
+*   (D) Decreasing $\lambda$: Since $\Delta x \propto \lambda$, this would decrease the fringe separation.
+
+The correct action to increase the distance between the bands is to decrease the distance of separation between the slits.
+
+**Correct Answer: (B)**
+
+###QUESTION_TYPE
+Multiple choice

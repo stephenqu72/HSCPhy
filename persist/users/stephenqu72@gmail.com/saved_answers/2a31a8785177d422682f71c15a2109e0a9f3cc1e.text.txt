@@ -1,0 +1,21 @@
+To answer this question effectively for the HSC Physics exam, you need to link the physical design of the transformer to the reduction of energy losses (usually in the form of heat).
+
+### Answer
+**Feature 1: Laminations**
+The iron core is laminated (made of thin, insulated sheets) rather than being a single solid block. This increases the electrical resistance of the path for induced eddy currents. By breaking up the current paths, laminations significantly reduce the magnitude of eddy currents, thereby minimizing energy loss due to resistive heating ($P = I^2R$).
+
+**Feature 2: Copper Wire**
+The coils are made of copper wire, which has a very low electrical resistivity. This minimizes the resistance of the windings, which reduces energy lost as heat (Joule heating) when the current flows through the primary and secondary coils.
+
+---
+
+### How to solve this question
+1.  **Understand the Goal:** The question asks for how specific features contribute to **efficiency**. In a transformer, efficiency is lost primarily through heat. Therefore, your answer must explain how these features reduce energy dissipation.
+2.  **Identify Key Features:** The diagram explicitly labels "Laminations" and "Copper wire." These are the two most common features to discuss regarding transformer efficiency.
+3.  **Use Physics Principles:**
+    *   **Laminations:** You must mention "eddy currents." The changing magnetic flux induces unwanted currents in the core. If the core were solid, these currents would be large and create significant heat. Laminations restrict the cross-sectional area available for these currents to circulate, forcing them to be smaller, which reduces the $I^2R$ power loss.
+    *   **Copper Wire:** Use the concept of "resistivity." Copper is a high-conductivity metal. By using low-resistance copper coils, we keep the heating losses to a minimum when high currents pass through the coils.
+4.  **Structure:** Since it is a 4-mark question, allocate 2 marks per feature. You gain marks by naming the feature and providing a clear, accurate explanation of the underlying physical mechanism (Eddy currents vs. Resistive heating).
+
+###QUESTION_TYPE
+Short answer

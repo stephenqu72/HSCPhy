@@ -1,0 +1,32 @@
+As an HSC Physics teacher, I will guide you through these fundamental wave interference questions.
+
+### **a. Explanation of interference pattern**
+*   **Bright band at C:** Point C is equidistant from both slits $S_1$ and $S_2$. Therefore, the path difference between the waves arriving at C is zero. Because they are in phase, they undergo **constructive interference**, resulting in a bright band.
+*   **Dark band to the left:** Moving to the left of the centre, the path difference increases. At the point where the path difference is equal to $(n + \frac{1}{2})\lambda$ (where $\lambda$ is the wavelength and $n$ is an integer), the waves arrive **out of phase** (a crest meets a trough). They undergo **destructive interference**, resulting in a dark band.
+
+### **b. Support for the wave-like nature of light**
+Thomas Young’s experiment demonstrated **interference** and **diffraction**. These are phenomena unique to waves. If light were purely particles (as Newton proposed), they would simply pass through the slits and create two bright lines on the screen. The formation of an interference pattern—a series of bright and dark fringes—can only be explained by the superposition of waves.
+
+### **c. Calculation of band spacing**
+1.  **Find the wavelength ($\lambda$):**
+    Using $c = f\lambda$, where $c = 3.00 \times 10^8 \text{ m/s}$ and $f = 6.00 \times 10^{14} \text{ Hz}$:
+    $$\lambda = \frac{c}{f} = \frac{3.00 \times 10^8}{6.00 \times 10^{14}} = 5.00 \times 10^{-7} \text{ m}$$
+
+2.  **Use the fringe spacing formula:**
+    The spacing between adjacent bright (or dark) bands is $\Delta x = \frac{\lambda L}{d}$, where:
+    - $\lambda = 5.00 \times 10^{-7} \text{ m}$
+    - $L = 2.00 \text{ m}$
+    - $d = 0.10 \text{ mm} = 1.00 \times 10^{-4} \text{ m}$
+
+    $$\Delta x = \frac{(5.00 \times 10^{-7} \text{ m}) \times (2.00 \text{ m})}{1.00 \times 10^{-4} \text{ m}} = 0.01 \text{ m}$$
+
+**Answer:** $0.01 \text{ m}$
+
+### **d. Immersion in a liquid**
+*   **Observation:** The spacing between the bands decreases.
+*   **Explanation:** When light enters a denser medium (liquid), its speed $v$ decreases. Since frequency $f$ remains constant (determined by the source), the wavelength $\lambda$ must decrease according to $v = f\lambda$. Looking at the formula $\Delta x = \frac{\lambda L}{d}$, if $\lambda$ decreases, the fringe spacing $\Delta x$ must also decrease.
+
+***
+
+###QUESTION_TYPE
+Calculation question

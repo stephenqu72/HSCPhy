@@ -1,0 +1,27 @@
+To answer this question, we must understand the principles of a DC motor, specifically the relationship between torque, back EMF, and rotational speed.
+
+### (a) Sketching the Graph
+The graph should show the speed of rotation starting at $0$ at $t=0$, increasing at a decreasing rate (a curve that flattens out), and eventually reaching a constant horizontal asymptote representing the terminal (operating) speed.
+
+**Key features to include in your sketch:**
+1. Starts at the origin $(0,0)$.
+2. An upward-sloping curve that becomes less steep over time (concave down).
+3. The curve plateaus at a constant maximum value.
+
+### (b) Explanation
+When the switch is closed, current flows through the loop, creating a magnetic torque that causes the loop to accelerate from rest. As the loop rotates faster, it acts as a generator, inducing a **back EMF** ($\varepsilon$) in the coil. According to Lenz's Law, this back EMF opposes the supply voltage ($V$). 
+
+The net current ($I$) flowing through the loop is given by:
+$$I = \frac{V - \varepsilon}{R}$$
+Where $R$ is the resistance of the loop. 
+
+As the speed of rotation increases, the back EMF increases. This causes the net current to decrease, which in turn reduces the torque produced by the motor. The loop continues to accelerate until the torque produced equals the load/friction torque. At this point, the motor reaches a constant terminal speed where the net torque is zero, and the acceleration becomes zero.
+
+### Summary for Full Marks:
+*   **Initial phase:** Current is high, torque is high, speed increases rapidly.
+*   **Back EMF effect:** As speed increases, back EMF ($\varepsilon$) increases.
+*   **Net current decrease:** Since $I = \frac{V - \varepsilon}{R}$, the net current decreases.
+*   **Equilibrium:** Torque drops until it equals opposing forces (friction/load); the loop then maintains a constant terminal speed.
+
+###QUESTION_TYPE
+Short answer

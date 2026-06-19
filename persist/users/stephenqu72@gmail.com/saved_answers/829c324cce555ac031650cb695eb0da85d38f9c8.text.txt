@@ -1,0 +1,33 @@
+As a top HSC Physics teacher, here is how you should approach this problem.
+
+### (a) Sketching the emf graph
+The generator is in the position where the plane of the coil is perpendicular to the magnetic field lines. At this position, magnetic flux $\Phi$ is maximum, which means the rate of change of flux is zero. Therefore, the induced emf $\varepsilon = -N \frac{d\Phi}{dt}$ is **zero**. As the coil rotates, it will produce a standard sine wave starting from $(0,0)$. 
+*   **Key features:** Ensure your graph starts at the origin $(0,0)$, reaches a positive peak, crosses the axis, reaches a negative peak, and returns to zero at $t = 4.00 \times 10^{-3}\text{ s}$ (one full period).
+
+### (b) Identify the transformer
+By counting the coils shown in the diagram:
+*   Primary coil ($N_p$) has 6 turns.
+*   Secondary coil ($N_s$) has 4 turns.
+Since $N_s < N_p$, the secondary voltage is less than the primary voltage ($V_s < V_p$). Therefore, it is a **step-down transformer**.
+
+### (c) Calculation of maximum galvanometer reading
+**1. Find the frequency ($f$):**
+$$f = \frac{1}{T} = \frac{1}{4.00 \times 10^{-3}} = 250\text{ Hz}$$
+
+**2. Find maximum emf ($\varepsilon_{max}$):**
+Given $\varepsilon_{max} = 2\pi fBA$:
+$$\varepsilon_{max} = 2 \times \pi \times 250 \times (8.50 \times 10^{-2}) \times 1.50 \approx 200.28\text{ V}$$
+
+**3. Find maximum current ($I_{max}$):**
+Using Ohm’s Law for the secondary circuit ($V = IR$):
+$$I_{max} = \frac{\varepsilon_{s,max}}{R}$$
+Since it is an ideal transformer, the turns ratio is $\frac{N_s}{N_p} = \frac{4}{6} = \frac{2}{3}$.
+$$\varepsilon_{s,max} = \varepsilon_{p,max} \times \left(\frac{N_s}{N_p}\right) = 200.28 \times \left(\frac{2}{3}\right) \approx 133.52\text{ V}$$
+$$I_{max} = \frac{133.52}{5.25} \approx 25.43\text{ A}$$
+*(Note: Students should provide the answer to 3 significant figures: **25.4 A**).*
+
+### (d) Changing to a DC generator
+If a split-ring commutator is used, the output of the generator becomes **pulsating DC**. A transformer relies on a changing magnetic flux (which requires a changing current, i.e., AC) to induce an emf in the secondary coil via electromagnetic induction. Because the output is no longer alternating, the magnetic flux in the transformer core will not change in the same way. The reading on the galvanometer will drop to **zero** (after a brief initial deflection when the generator starts).
+
+### QUESTION_TYPE
+Calculation question

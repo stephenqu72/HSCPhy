@@ -1,0 +1,18 @@
+To determine the correct graph for the EMF induced in the conductor, we must apply Faraday’s Law of Induction: $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$. In a rotating system, the induced EMF is proportional to the rate at which the magnetic flux ($\Phi$) through the area enclosed by the conductor changes.
+
+### Step-by-Step Explanation:
+
+1.  **Understanding the Magnetic Flux:** The magnetic flux is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the area vector and the magnetic field. The EMF is proportional to the rate of change of flux, which is $\frac{d\Phi}{dt} \propto \sin(\theta)$.
+2.  **Analyzing the Positions:**
+    *   **At $0^\circ$ and $180^\circ$:** The conductor is moving parallel to the magnetic field lines (or is positioned such that the rate of change of flux is maximum). In this specific setup, as the conductor passes through the magnetic field regions, it "cuts" the flux lines. 
+    *   **At $0^\circ$:** The conductor enters the region of maximum magnetic field. The rate of change of flux is at its peak here, so the EMF should be at a maximum (or minimum).
+    *   **Between Magnets ($90^\circ$ and $270^\circ$):** As the conductor moves through the space between the sets of magnets, it is in a region where the magnetic field is effectively zero. Because there is no change in magnetic flux while moving through this gap, the induced EMF must be **zero**.
+3.  **Evaluating the Graph Shape:**
+    *   The conductor experiences a "pulse" of EMF when it passes through the magnetic field at $0^\circ$, then stays at $0$ EMF while rotating through the gap until it reaches the next magnet at $180^\circ$.
+    *   At $180^\circ$, it passes through the magnetic field again, creating another pulse of EMF. Since the magnetic polarity or the direction of motion has effectively reversed relative to the field, this pulse will be in the opposite direction (negative).
+    *   Graph (A) shows a pulse at $0^\circ$, zero EMF at $90^\circ$, a negative pulse at $180^\circ$, zero EMF at $270^\circ$, and another positive pulse at $360^\circ$. This matches the physical expectation of the conductor "chopping" through the magnetic fields at specific intervals.
+
+**Conclusion:** Graph **(A)** correctly illustrates this periodic induction with periods of zero EMF while the conductor is between the magnetic regions.
+
+###QUESTION_TYPE
+Multiple choice

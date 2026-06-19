@@ -1,0 +1,44 @@
+To find the average induced EMF, we use Faraday's Law: 
+$$\varepsilon = - \frac{\Delta \Phi}{\Delta t}$$
+where $\Phi = B A \cos(\theta)$. We need to compare the change in magnetic flux ($\Delta \Phi$) over the given time ($\Delta t$) for each scenario. Let the initial area be $A$ and the initial field be $B$. Initially, $\Phi_i = BA$.
+
+### Step-by-Step Analysis:
+
+1.  **Situation (S):** The loop rotates $90^\circ$.
+    *   $\Phi_i = BA$, $\Phi_f = BA \cos(90^\circ) = 0$.
+    *   $\Delta \Phi = |0 - BA| = BA$.
+    *   $\Delta t = 2.0\text{ s}$.
+    *   $|\varepsilon_S| = \frac{BA}{2.0} = 0.5BA$.
+
+2.  **Situation (T):** Magnetic field reduced to zero.
+    *   $\Phi_i = BA$, $\Phi_f = 0$.
+    *   $\Delta \Phi = BA$.
+    *   $\Delta t = 4.0\text{ s}$.
+    *   $|\varepsilon_T| = \frac{BA}{4.0} = 0.25BA$.
+
+3.  **Situation (U):** Radius doubles.
+    *   If radius doubles, area $A$ becomes $(2r)^2 = 4A$.
+    *   $\Phi_i = BA$, $\Phi_f = B(4A) = 4BA$.
+    *   $\Delta \Phi = |4BA - BA| = 3BA$.
+    *   $\Delta t = 2.0\text{ s}$.
+    *   $|\varepsilon_U| = \frac{3BA}{2.0} = 1.5BA$.
+
+4.  **Situation (V):** Magnetic field direction reversed.
+    *   $\Phi_i = BA$, $\Phi_f = -BA$.
+    *   $\Delta \Phi = |-BA - BA| = 2BA$.
+    *   $\Delta t = 2.0\text{ s}$.
+    *   $|\varepsilon_V| = \frac{2BA}{2.0} = 1.0BA$.
+
+### Conclusion:
+Comparing the magnitudes:
+*   $S = 0.5BA$
+*   $T = 0.25BA$
+*   $U = 1.5BA$
+*   $V = 1.0BA$
+
+The greatest induced EMF occurs in situation **(U)**.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+**Part a: Calculate the number of photons**
+
+To find the number of photons per second, we first determine the energy of a single photon using $E = \frac{hc}{\lambda}$.
+
+*   Planck's constant $h = 6.626 \times 10^{-34}\text{ J s}$
+*   Speed of light $c = 3.00 \times 10^8\text{ m s}^{-1}$
+*   Wavelength $\lambda = 610 \times 10^{-9}\text{ m}$
+
+$$E_{\text{photon}} = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{610 \times 10^{-9}} \approx 3.2587 \times 10^{-19}\text{ J}$$
+
+The total power $P$ is $5.03 \times 10^{-3}\text{ J s}^{-1}$. The number of photons per second $N$ is:
+$$N = \frac{P}{E_{\text{photon}}} = \frac{5.03 \times 10^{-3}}{3.2587 \times 10^{-19}} \approx 1.54 \times 10^{16}\text{ photons s}^{-1}$$
+
+**Part b: Explanation for point C**
+
+Point C is the centre of the interference pattern. At this point, the path length from $S_1$ to C is equal to the path length from $S_2$ to C. Therefore, the path difference is zero. Waves arriving from both slits are in phase, leading to **constructive interference**, which results in a bright band.
+
+**Part c: Justification and location**
+
+To determine the nature of the interference at a path difference $\Delta x = 2.14 \times 10^{-6}\text{ m}$, we compare it to the wavelength $\lambda = 610 \times 10^{-9}\text{ m}$:
+$$\text{Order } m = \frac{\Delta x}{\lambda} = \frac{2.14 \times 10^{-6}}{610 \times 10^{-9}} \approx 3.508$$
+Since the value is approximately $3.5$, the point represents a **destructive interference** (a dark band) located between the 3rd and 4th order bright fringes. Specifically, it is the dark band between the 3rd and 4th maximum to the right of the centre. On Figure 16, you would place an X over the 4th dark band to the right of C.
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,22 @@
+To solve this problem, we must understand the relationship between the rotational speed of an AC generator and its output voltage.
+
+### The Physics Principles
+1. **Frequency ($f$):** The rate of rotation (revolutions per second) is the frequency of the AC voltage. If the frequency is halved (from $50\text{ Hz}$ to $25\text{ Hz}$), the time period ($T = 1/f$) of the wave must **double**. Visually, this means the wave will appear "stretched out" horizontally, completing fewer cycles in the same amount of time.
+2. **Peak Voltage ($V_{peak}$):** The output voltage of an AC generator is governed by Faraday's Law, where the induced emf is proportional to the rate of change of magnetic flux. Mathematically, for a generator, $V(t) = NAB\omega \sin(\omega t)$, where $\omega = 2\pi f$. Since the angular velocity $\omega$ is directly proportional to the frequency, if the frequency is halved, the **peak voltage must also be halved**.
+
+### Evaluating the Options
+*   **Original Graph:** Shows 2 complete cycles in the time interval provided.
+*   **Condition:** Frequency is changed from $50\text{ rev/s}$ to $25\text{ rev/s}$ (half the speed).
+*   **Result 1 (Period):** The new wave should take twice as long to complete a cycle. Therefore, in the same time interval, we should only see **1 cycle** instead of 2.
+*   **Result 2 (Amplitude):** The peak voltage should drop from $1$ to $0.5$.
+
+Looking at the choices:
+*   Graph A: Frequency is doubled (incorrect).
+*   Graph B: Frequency is halved, but the peak voltage remains $1$ (incorrect).
+*   Graph C: Frequency is doubled and peak voltage remains $1$ (incorrect).
+*   **Graph D:** The frequency is halved (1 cycle shown) and the peak voltage is halved ($0.5$). This matches both criteria.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

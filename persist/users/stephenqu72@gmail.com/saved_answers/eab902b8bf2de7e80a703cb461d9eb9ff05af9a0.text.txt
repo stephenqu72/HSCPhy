@@ -1,0 +1,25 @@
+### Answer
+The correct statement is **D**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the relationship between supply voltage ($V$), back EMF ($\varepsilon$), and current ($I$) in a DC motor circuit:
+$$V = \varepsilon + I R$$
+where $R$ is the internal resistance of the motor coils. Rearranging for current, we get:
+$$I = \frac{V - \varepsilon}{R}$$
+
+The torque ($\tau$) produced by a DC motor is directly proportional to the armature current ($\tau \propto I$). Therefore, torque is zero when the current is zero, which occurs when $\varepsilon = V$.
+
+1.  **Analyze the graph:** The graph shows that at $2000\text{ rpm}$, the back EMF ($\varepsilon$) is exactly $250\text{ V}$.
+2.  **Evaluate the conditions:** We are given that the supply voltage ($V$) is $250\text{ V}$. 
+3.  **Calculate current at 2000 rpm:** At $2000\text{ rpm}$, $\varepsilon = V = 250\text{ V}$. Substituting this into the current equation:
+    $$I = \frac{250\text{ V} - 250\text{ V}}{R} = 0\text{ A}$$
+4.  **Conclusion:** Since the current is $0\text{ A}$ at $2000\text{ rpm}$, the motor produces zero torque at this speed. This represents the "no-load" speed of an ideal motor.
+
+*   **A is incorrect:** Torque is highest when the motor is starting (when $\varepsilon = 0$ and current is maximum).
+*   **B is incorrect:** In an ideal motor, it cannot exceed the supply voltage, so it cannot rotate faster than the speed where back EMF equals the supply voltage.
+*   **C is incorrect:** The motor produces the most torque at low speeds (near $0\text{ rpm}$), not high speeds.
+
+###QUESTION_TYPE
+Multiple choice

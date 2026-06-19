@@ -1,0 +1,19 @@
+### Answer and Explanation
+
+To solve this problem, we apply **Faraday’s Law of Induction** and **Lenz’s Law**. 
+
+1.  **Faraday’s Law** states that an electromotive force (EMF) is induced in a circuit whenever there is a change in the magnetic flux through that circuit. 
+2.  **Lenz’s Law** states that the direction of the induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+
+#### (a) Just after switch S is closed:
+*   **Direction:** The current in the resistor will flow to the **left**.
+*   **Explanation:** When the switch $S$ is closed, current flows through the left coil, creating an increasing magnetic field directed towards the right. This causes an increasing magnetic flux through the coil on the right. According to Lenz's Law, the induced current in the right coil must create a magnetic field pointing to the **left** to oppose this increase. Using the right-hand grip rule, if you point your thumb to the left (the direction of the induced B-field), your fingers curl in the direction of the current, which directs the current to the **left** through resistor $R$.
+
+#### (b) After the switch has been closed for several seconds:
+*   **Direction:** **Zero**.
+*   **Explanation:** Once the switch has been closed for several seconds, the current in the left coil reaches a steady state (DC). A steady current produces a constant magnetic field. Because the magnetic field is no longer changing, the magnetic flux through the right coil is constant. Since $\Delta \Phi = 0$, there is no induced EMF (according to $\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$), and therefore no induced current flows through the resistor.
+
+***
+
+###QUESTION_TYPE
+Short answer

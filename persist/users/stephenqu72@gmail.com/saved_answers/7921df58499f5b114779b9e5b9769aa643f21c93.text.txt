@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **B. To the right**.
+
+### Explanation
+To solve this problem, we apply **Lenz's Law**, which states that an induced current will always flow in a direction that opposes the change that caused it.
+
+1.  **Change in Magnetic Flux:** As the magnet moves to the right, the region of the copper block to the right of the magnet experiences an *increasing* magnetic flux (as the magnet approaches), while the region to the left of the magnet experiences a *decreasing* magnetic flux (as the magnet moves away).
+2.  **Eddy Currents:** This change in flux induces eddy currents within the copper block.
+    *   **In front of the magnet (to the right):** The block "sees" the approaching North pole. According to Lenz's Law, the induced current creates a North pole to repel the approaching magnet, creating a resistive force that opposes the motion of the magnet. However, by Newton’s Third Law, the magnet also exerts an equal and opposite force on the block.
+    *   **Behind the magnet (to the left):** The block "sees" the North pole moving away. The induced current creates a South pole to attract the departing magnet. 
+3.  **Resultant Force:** Both the repulsion in front of the magnet and the attraction behind the magnet act to "drag" the copper block in the direction of the magnet's motion. 
+4.  **Conclusion:** Because the magnetic field tries to "catch up" to or "hold onto" the magnet, the magnet exerts a force on the copper block in the same direction as the velocity $v$. Therefore, the copper block experiences a force to the right.
+
+### QUESTION_TYPE
+Multiple choice

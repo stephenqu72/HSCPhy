@@ -1,0 +1,18 @@
+### Answer
+
+**(a) Explain how Lenz’s Law is demonstrated during regenerative braking.**
+
+Lenz's Law states that an induced electromotive force (EMF) always gives rise to a current whose magnetic field opposes the original change in magnetic flux that produced it. In regenerative braking, the electric motor acts as a generator. As the wheels turn, they rotate a rotor within the magnetic field of the stator. This changing magnetic flux induces an EMF in the stator coils. According to Lenz’s Law, the resulting current creates its own magnetic field that opposes the rotation of the rotor, effectively exerting a torque that slows the car down.
+
+**(b) Describe how the regenerative braking force changes as the car slows down.**
+
+The regenerative braking force decreases as the car slows down. The induced EMF ($\varepsilon$) is proportional to the rate of change of magnetic flux ($\Phi_B$), represented by Faraday’s Law: $\varepsilon = -N \frac{\Delta\Phi_B}{\Delta t}$. As the angular velocity of the wheels decreases, the rate at which the magnetic flux changes through the coils also decreases. Consequently, the induced EMF and the resulting current decrease. Since the retarding torque (and thus the braking force) is dependent on the magnitude of this current, the braking force diminishes as the vehicle's speed approaches zero.
+
+***
+
+### How to solve this
+*   **For part (a):** Focus on the core mechanism of electromagnetic induction. You must link the motion of the car to the change in magnetic flux and explicitly state that the induced current produces a force that acts to *oppose* the motion that created it, as per Lenz's Law.
+*   **For part (b):** Connect the physics of the generator to the kinematics of the car. Use the relationship that induced EMF depends on the speed of the rotor ($v \propto \omega$). Since the braking force is proportional to the induced current (and thus EMF), a reduction in speed leads to a reduction in the rate of flux change, which directly leads to a decrease in the braking force.
+
+###QUESTION_TYPE
+Short answer

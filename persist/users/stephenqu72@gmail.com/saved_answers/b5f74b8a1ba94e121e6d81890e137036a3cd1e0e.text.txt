@@ -1,0 +1,17 @@
+To determine the correct answer, we must refer to **Faraday's Law of Induction**, which is a core concept in the HSC Physics curriculum.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+Electromagnetic induction is the process by which a changing magnetic flux through a circuit induces an electromotive force (EMF), which can drive an electric current if the circuit is closed.
+
+*   **Why B is correct:** Faraday's Law states that an induced EMF is proportional to the rate of change of magnetic flux ($\Phi_B$) through a coil. This change in flux can be achieved by moving a magnet relative to a stationary conductor, or by moving a conductor through a stationary magnetic field. In both cases, there is relative motion that causes the magnetic field lines to "cut" the conductor, leading to induction.
+*   **Why A is incorrect:** While this is a description of Maxwell’s addition to Ampere’s Law (linking changing electric fields to magnetic fields), it describes the propagation of electromagnetic waves rather than the process of electromagnetic induction in a circuit.
+*   **Why C is incorrect:** A static magnetic field (constant flux) does not produce an induced current. Induction only occurs when the magnetic flux is *changing* over time.
+*   **Why D is incorrect:** Simply having charges moving at a constant velocity creates a steady magnetic field, but it does not, by itself, create an *induced* current in an external circuit unless that movement constitutes a changing magnetic flux through a loop.
+
+To solve questions like this, always look for the word **"change."** Electromagnetic induction is fundamentally about a change in the magnetic environment of a conductor.
+
+###QUESTION_TYPE
+Multiple choice

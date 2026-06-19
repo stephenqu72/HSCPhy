@@ -1,0 +1,42 @@
+As an HSC Physics teacher, here is how you should approach this question to secure full marks.
+
+### Part (a): Calculation
+To solve for the secondary current in an ideal transformer, we use the principle of conservation of energy (power in = power out). For an ideal transformer:
+$$V_p I_p = V_s I_s$$
+
+Since the voltage ratio is proportional to the turns ratio ($\frac{V_p}{V_s} = \frac{N_p}{N_s}$), we can derive the relationship between current and turns:
+$$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$
+
+**Given:**
+- $N_p = 1200$
+- $N_s = 900$
+- $I_p = 4.0\text{ A}$
+
+**Calculation:**
+$$I_s = I_p \times \frac{N_p}{N_s}$$
+$$I_s = 4.0 \times \frac{1200}{900}$$
+$$I_s = 4.0 \times \frac{4}{3}$$
+$$I_s \approx 5.33\text{ A}$$
+
+---
+
+### Part (b): Descriptive Response
+In non-ideal transformers, energy is lost as heat. You should identify the specific mechanisms and their solutions:
+
+1.  **Resistance of the coils ($I^2R$ loss/Copper loss):**
+    *   **Where:** In the copper wire windings due to electrical resistance.
+    *   **Improvement:** Use thicker copper wire to reduce the resistance $R$.
+2.  **Eddy Currents:**
+    *   **Where:** In the iron core, induced by the changing magnetic flux.
+    *   **Improvement:** Use a laminated core (thin sheets of iron insulated from each other) to break the path of eddy currents.
+3.  **Hysteresis Loss:**
+    *   **Where:** In the magnetic core material due to the repeated magnetization and demagnetization cycles.
+    *   **Improvement:** Use "soft" magnetic materials (like silicon steel) which are easier to magnetize and demagnetize.
+4.  **Flux Leakage:**
+    *   **Where:** Magnetic flux escaping outside the core.
+    *   **Improvement:** Wind the secondary coil directly over the primary coil on a closed-loop core to ensure maximum flux linkage.
+
+---
+
+###QUESTION_TYPE
+Calculation question

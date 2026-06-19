@@ -1,0 +1,34 @@
+### Answer and Explanation
+
+#### Part (a)
+To calculate the power dissipated in the light bulb, we must first find the voltage across the secondary coil ($V_s$) and then use the power formula.
+
+**1. Determine the secondary voltage ($V_s$):**
+Using the ideal transformer equation:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Given $V_p = 12\text{ V}$, $N_p = 300$, and $N_s = 50$:
+$$\frac{12}{V_s} = \frac{300}{50}$$
+$$\frac{12}{V_s} = 6$$
+$$V_s = \frac{12}{6} = 2\text{ V}$$
+
+**2. Calculate the power ($P$):**
+Using the power formula $P = V \times I$, where $I_s = 0.23\text{ A}$:
+$$P = 2\text{ V} \times 0.23\text{ A}$$
+$$P = 0.46\text{ W}$$
+
+**Final Answer:** The power dissipated in the light bulb is $0.46\text{ W}$.
+
+***
+
+#### Part (b)
+To more closely approximate an ideal transformer, the model needs to address energy losses. One such way is:
+
+**Explanation:** Use a **laminated core** instead of a solid soft iron core. 
+**Why:** A solid core allows large "eddy currents" to circulate within the iron, which generates heat due to resistance, causing energy loss. By using thin, insulated steel laminations, the path for these eddy currents is broken, significantly reducing energy dissipation as heat.
+
+*(Alternative answers could include: Using superconducting wire to eliminate resistance in the coils, or ensuring the magnetic coupling is tighter by winding the primary and secondary coils on top of each other to reduce flux leakage.)*
+
+***
+
+###QUESTION_TYPE
+Calculation question

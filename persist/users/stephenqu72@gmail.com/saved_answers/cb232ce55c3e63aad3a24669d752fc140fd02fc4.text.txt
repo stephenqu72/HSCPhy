@@ -1,0 +1,16 @@
+To answer this question, we must apply **Lenz's Law**, which is a consequence of the **Law of Conservation of Energy**.
+
+### Answer
+The diagram on the right is invalid because it violates **Lenz’s Law**. According to Lenz’s Law, the induced current in a coil creates a magnetic field that opposes the change in magnetic flux that produced it. As the North pole of the magnet moves toward the coil, the coil must induce a North pole at its left face to repel the approaching magnet (opposing its motion). Using the right-hand grip rule, this requires the current to flow in a direction that creates this repulsion. The right diagram depicts an induced current that would create an attractive force, thereby accelerating the magnet toward the coil. This would increase the kinetic energy of the magnet and the electrical energy in the circuit without any work being done, violating the Law of Conservation of Energy.
+
+### How to solve this
+1.  **Identify the governing law:** Whenever you see a magnet moving relative to a coil, the interaction is governed by **Lenz's Law**. 
+2.  **Determine the required direction:** When the North pole of a magnet approaches a coil, the coil must induce a North pole at that end to **repel** the incoming magnet. This ensures the change in flux is opposed.
+3.  **Use the Right-Hand Grip Rule:** Point your right thumb in the direction of the "North" pole created by the coil (to the left, away from the magnet). Your fingers will curl in the direction of the induced current.
+4.  **Analyze the diagrams:** 
+    *   In the **left diagram**, the current flows in the correct direction to generate a North pole on the left face of the coil.
+    *   In the **right diagram**, the current is shown flowing in the opposite direction. This would create a South pole at the left face of the coil, which would **attract** the approaching North pole.
+5.  **Connect to physics principles:** An attractive force would pull the magnet in, causing it to accelerate and induce a larger current, which would lead to an even stronger force. This runaway process violates the Law of Conservation of Energy because energy would be created from nothing.
+
+###QUESTION_TYPE
+Short answer

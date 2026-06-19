@@ -1,0 +1,22 @@
+To solve this problem, we need to analyze two components of the DC motor's operation as it rotates through $360^\circ$ (one revolution).
+
+### 1. Magnetic Flux ($\phi$)
+The magnetic flux through a coil area $A$ in a magnetic field $B$ is defined by the formula:
+$$\phi = BA \cos(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field lines. 
+- In the diagram, the coil is horizontal and the field lines are horizontal. This means the normal to the coil is vertical (perpendicular to the field), so $\theta = 90^\circ$. 
+- However, standard graphing for a rotating motor typically sets $t=0$ at the position where the flux is maximum (coil vertical) or zero (coil horizontal). Looking at the options provided, the graphs show the flux starting at $0$ at $t=0$. This indicates that as the coil rotates from the horizontal position, the flux increases to a maximum, returns to zero, goes negative (due to the orientation of the area vector), and returns to zero. This follows a **sine wave** pattern.
+
+### 2. Force on wire $WX$ ($F$)
+The force on a current-carrying wire is given by:
+$$F = BIL \sin(\theta)$$
+where $\theta$ is the angle between the current and the magnetic field.
+- As the coil rotates, the wire $WX$ remains parallel to the magnetic field lines (or moves through the field). Crucially, in a DC motor, the **split-ring commutator** reverses the current direction every half-turn.
+- Because the commutator ensures the current in wire $WX$ always flows in the same direction relative to the magnetic field (e.g., always "into" or "out of" the page depending on the rotation side), the force $F$ does not oscillate between positive and negative; it remains a constant directional force (or a pulsed force if considering the instantaneous change at the gap).
+- The correct representation for the force $F$ on wire $WX$ is a constant value (or a sequence of constant pulses) that does not cross the x-axis, distinguishing it from an AC generator.
+
+### Conclusion
+Option D shows a sinusoidal flux graph (starting at zero) and a force graph that represents a constant force (consistent with the operation of a DC motor commutator), which correctly describes the physics of the system.
+
+###QUESTION_TYPE
+Multiple choice

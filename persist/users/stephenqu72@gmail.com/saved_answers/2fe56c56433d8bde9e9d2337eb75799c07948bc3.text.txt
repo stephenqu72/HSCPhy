@@ -1,0 +1,24 @@
+To solve this problem, we use the principle of motional electromotive force (EMF), which occurs when a conductor moves through a magnetic field. The formula for the motional EMF induced across a conductor of length $l$ moving at velocity $v$ perpendicular to a magnetic field $B$ is:
+$$\varepsilon = Bvl$$
+
+### Part (a)
+1.  **Identify the relevant dimension:** The bullet is moving east, and the magnetic field is directed north. The EMF is induced across the dimension of the conductor that is perpendicular to both the velocity vector and the magnetic field vector. Since the bullet has a radius of $0.35\ cm$ ($0.0035\ m$), its diameter is $d = 2 \times 0.0035 = 0.007\ m$. This is the dimension cutting across the field lines as it travels east.
+2.  **Calculate the EMF:**
+    *   $B = 7.5 \times 10^{-5}\ T$
+    *   $v = 330\ ms^{-1}$
+    *   $l = 0.007\ m$
+    $$\varepsilon = (7.5 \times 10^{-5}) \times 330 \times 0.007 = 1.7325 \times 10^{-4}\ V \approx 1.7 \times 10^{-4}\ V$$
+3.  **Determine polarity:** Using the Right-Hand Rule (for positive charge carriers), point your fingers north (B) and your thumb east (v). Your palm faces upwards (or outwards from the page depending on orientation). More simply, free electrons in the metal will experience a force $F = q(v \times B)$. Using the right-hand rule for negative electrons, they will be pushed to one side of the diameter, leaving the other side with a relative positive potential. In this geometry, the side of the bullet facing "up" (or left, depending on the coordinate mapping) will have the higher potential.
+
+### Part (b)
+1.  **Analyze the direction:** The formula for motional EMF is $\varepsilon = Blv\sin(\theta)$, where $\theta$ is the angle between the velocity vector and the magnetic field vector. 
+2.  **Calculate:** When the bullet is fired to the south, it is moving parallel to the magnetic field lines (which point north).
+    *   $\theta = 180^\circ$ (or $0^\circ$ relative to the line of the field).
+    *   Since $\sin(180^\circ) = 0$, the induced EMF is **$0\ V$**. No magnetic force acts on the charge carriers perpendicular to the conductor's length in this orientation.
+
+### Summary
+*   **(a)** EMF $\approx 1.7 \times 10^{-4}\ V$. The side of the bullet forced by the Lorentz force direction (determined by the right-hand rule) will be at higher potential.
+*   **(b)** EMF $= 0\ V$, because the velocity is parallel to the magnetic field.
+
+###QUESTION_TYPE
+Calculation question

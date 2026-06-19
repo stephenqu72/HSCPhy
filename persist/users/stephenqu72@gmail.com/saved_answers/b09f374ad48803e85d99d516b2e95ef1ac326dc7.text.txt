@@ -1,0 +1,36 @@
+To solve this problem, we need to understand the relationship between the force on the current-carrying wires and the resulting torque on the motor's armature.
+
+### Step-by-Step Explanation
+
+1.  **Identify the force acting on the armature sides:**
+    The problem states that each side perpendicular to the magnetic field experiences a force of $F = 0.275\text{ N}$. In a square loop motor, there are two sides perpendicular to the field that contribute to the torque (one side with current flowing into the page and one with current flowing out).
+
+2.  **Determine the number of turns:**
+    The coil consists of $n = 50$ turns. Since the force is given for "the sides," we must consider that the total force contributing to the torque is the force per side multiplied by the number of turns:
+    $$F_{\text{total}} = 50 \times 0.275\text{ N} = 13.75\text{ N}$$
+
+3.  **Use the Torque Formula:**
+    Torque ($\tau$) is defined as the force multiplied by the lever arm distance ($d$):
+    $$\tau = F_{\text{total}} \times d$$
+    In a DC motor with radial magnets, the wires are effectively at a distance $r$ from the axis of rotation, so the total lever arm for the two sides is the width of the coil, $w = 2r$. However, we can also use the formula for torque on a coil: $\tau = nIBw \cdot l$.
+    
+    Given that $F = nBIl$, we know the force on one side of the coil is $F = 0.275\text{ N}$. The torque exerted by one side is $F \times r$, where $r$ is the distance from the axis of rotation to the side. 
+    Since the two sides provide torque in the same rotational direction, the total torque is:
+    $$\tau = 2 \times (F \times r) = F \times (2r) = F \times w$$
+    Wait—we are not given the width ($w$). Let's look at the parameters: $F = 0.275\text{ N}$, $B = 0.35\text{ T}$, $I = 0.25\text{ A}$, $n = 50$.
+    Using $F = nBIl \implies 0.275 = 50 \times 0.35 \times 0.25 \times l$:
+    $$0.275 = 4.375 \times l \implies l = \frac{0.275}{4.375} \approx 0.0628\text{ m}$$
+    
+    Now, calculate the torque:
+    $$\tau = nIBw \times l$$
+    Since the loop is square, $w = l = 0.0628\text{ m}$.
+    $$\tau = (n \times B \times I \times l) \times w$$
+    $$\tau = F \times w = 0.275 \times 0.0628 \approx 0.01727\text{ Nm}$$
+
+4.  **Conclusion:**
+    Rounding to the appropriate significant figures, we get $0.017\text{ Nm}$.
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Calculation question

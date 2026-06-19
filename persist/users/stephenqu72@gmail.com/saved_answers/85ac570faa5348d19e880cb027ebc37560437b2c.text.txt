@@ -1,0 +1,32 @@
+To solve for the energy of a photon given its wavelength, we use the relationship between energy, frequency, and wavelength:
+
+$$E = \frac{hc}{\lambda}$$
+
+### Given Data:
+*   Planck’s constant: $h = 4.14 \times 10^{-15} \text{ eV s}$
+*   Speed of light: $c = 3.0 \times 10^8 \text{ m s}^{-1}$
+*   Wavelength: $\lambda = 414 \text{ nm} = 414 \times 10^{-9} \text{ m}$
+
+### Step-by-Step Calculation:
+
+1.  **Substitute the values into the formula:**
+    $$E = \frac{(4.14 \times 10^{-15} \text{ eV s}) \times (3.0 \times 10^8 \text{ m s}^{-1})}{414 \times 10^{-9} \text{ m}}$$
+
+2.  **Simplify the numerator:**
+    $$(4.14 \times 3.0) \times 10^{-15 + 8} = 12.42 \times 10^{-7}$$
+
+3.  **Divide by the wavelength:**
+    $$E = \frac{12.42 \times 10^{-7}}{414 \times 10^{-9}}$$
+
+4.  **Perform the division:**
+    $$E = \left( \frac{12.42}{414} \right) \times 10^{-7 - (-9)}$$
+    $$E = 0.03 \times 10^{2}$$
+    $$E = 3.0 \text{ eV}$$
+
+Comparing this result to the provided options, the correct answer is **C**.
+
+### Summary of logic
+By using the energy-wavelength formula and ensuring that the units for Planck's constant (in eV s) align with the result required (in eV), we can quickly determine the energy. The calculation simplifies neatly because $414$ is a multiple of $4.14$, making the math straightforward.
+
+###QUESTION_TYPE
+Multiple choice

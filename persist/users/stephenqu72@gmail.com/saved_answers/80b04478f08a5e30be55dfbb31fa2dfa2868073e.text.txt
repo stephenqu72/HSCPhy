@@ -1,0 +1,18 @@
+To determine the correct answer, we need to understand the physics of eddy currents and how they are mitigated in transformer cores.
+
+### Answer
+The correct answer is **A**.
+
+### Explanation
+1.  **What are Eddy Currents?** When a changing magnetic flux passes through a conductor (like a solid soft iron core), it induces circulating currents known as eddy currents. According to Lenz's Law, these currents oppose the change in magnetic flux and result in significant energy loss due to the heating effect ($P = I^2R$).
+2.  **How to minimize them:** To minimize these currents, we must increase the electrical resistance in the path of the circulation. We do this by **laminating** the core. By cutting the core into thin sheets and separating them with insulating material, we break the path of the large, circular eddy currents.
+3.  **Orientation matters:** The eddy currents circulate in a plane perpendicular to the magnetic field lines. Therefore, to be effective, the insulating layers must be oriented **parallel** to the magnetic field lines (and the flux path) to break the circulation.
+4.  **Analysis of the options:**
+    *   The transformer coils are wound around the core. The magnetic flux will travel through the center of the coils.
+    *   In **Option A**, the laminations (the insulating layers) are parallel to the direction of the magnetic flux. This effectively interrupts the circular loops of eddy currents, significantly reducing the induced currents and the resulting heat.
+    *   Option B and C show laminations perpendicular to the flux path, which is ineffective at breaking the loops. Option D shows fewer laminations than A, making it less effective at reducing the current magnitude.
+
+By ensuring the laminations run parallel to the magnetic field lines, we constrain the eddy currents to very small paths within each thin sheet, greatly increasing the resistance and reducing power loss.
+
+###QUESTION_TYPE
+Multiple choice

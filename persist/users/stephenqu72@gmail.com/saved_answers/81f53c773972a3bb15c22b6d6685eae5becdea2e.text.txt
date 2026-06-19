@@ -1,0 +1,23 @@
+To answer this question effectively for an HSC Physics exam, you need to break it down into two distinct parts: the principle of operation and the role of the iron core.
+
+### Answer
+**How a transformer works:**
+A transformer operates on the principle of electromagnetic induction. An alternating current (AC) is passed through the primary coil, which creates a continuously changing magnetic flux. Because this magnetic field is linked to the secondary coil via the iron core, the changing flux induces an electromotive force (EMF) in the secondary coil according to Faraday’s Law ($ \varepsilon = -N \frac{\Delta \Phi}{\Delta t} $).
+
+**How the iron core increases efficiency:**
+The iron core is ferromagnetic, meaning it has high magnetic permeability. This effectively "channels" or concentrates the magnetic flux lines produced by the primary coil, ensuring that almost all of the magnetic flux passes through the secondary coil, thereby minimizing "flux leakage." Furthermore, the core is typically **laminated** (composed of thin, insulated sheets) to increase resistance to induced eddy currents, which reduces energy loss due to heating ($ P = I^2R $).
+
+***
+
+### How to solve this question
+When you see a 4-mark question like this, think of it as a **"2+2" structure**:
+
+1.  **Part 1 (Operation - 2 marks):** You must mention **AC** (without AC, there is no change in flux, and thus no induction). Mention **Faraday's Law** or the process of "changing magnetic flux" creating an induced EMF in the secondary coil.
+2.  **Part 2 (Efficiency - 2 marks):** 
+    *   First, explain *flux linkage*: The high permeability of iron ensures the flux stays within the core, preventing energy from being lost to the air (flux leakage).
+    *   Second, explain *eddy currents*: It is crucial to mention that the core is **laminated**. If the core were a solid block of metal, the changing flux would induce large circular currents (eddy currents) that cause significant heat loss. Lamination breaks these paths, reducing energy loss.
+
+**HSC Tip:** Always link the physics principles (Faraday's Law/Permeability) to the physical characteristics of the device (laminated core/iron material).
+
+###QUESTION_TYPE
+Short answer

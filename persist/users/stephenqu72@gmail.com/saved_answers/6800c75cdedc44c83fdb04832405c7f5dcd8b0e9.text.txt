@@ -1,0 +1,31 @@
+To solve this physics problem, we need to apply the transformer equation, which relates the number of turns in the coils to the voltages across them.
+
+### Step-by-Step Explanation
+
+**1. Identify the given values:**
+*   Number of primary turns ($N_p$) = $12\,000$
+*   Number of secondary turns ($N_s$) = $2\,400$
+*   Primary voltage ($V_p$) = $240\text{ V}$
+
+**2. Determine the type of transformer:**
+A transformer is classified by comparing the number of turns in the primary coil to the secondary coil:
+*   If $N_s < N_p$, the voltage is decreased, making it a **step-down** transformer.
+*   Since $2\,400 < 12\,000$, this is a **step-down** transformer. This allows us to eliminate options A and B immediately.
+
+**3. Calculate the secondary voltage ($V_s$):**
+We use the transformer ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Rearranging the formula to solve for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+
+Substitute the known values:
+$$V_s = 240 \times \frac{2\,400}{12\,000}$$
+$$V_s = 240 \times 0.2$$
+$$V_s = 48\text{ V}$$
+
+**Conclusion:**
+The transformer is a **step-down** transformer and the secondary voltage is **$48\text{ V}$**. This corresponds to option **C**.
+
+###QUESTION_TYPE
+Multiple choice

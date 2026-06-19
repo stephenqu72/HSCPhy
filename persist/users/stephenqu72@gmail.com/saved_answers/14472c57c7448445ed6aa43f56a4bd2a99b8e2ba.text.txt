@@ -1,0 +1,35 @@
+To solve this problem, we assume the transformer is an ideal transformer, meaning the power input at the primary coil is equal to the power output at the secondary coil.
+
+### Step-by-Step Solution:
+
+1.  **Understand the Relationship:**
+    For an ideal transformer, the power input equals the power output:
+    $$P_p = P_s$$
+    Since $P = V_{RMS} \times I_{RMS}$, we can write:
+    $$V_p \times I_p = V_s \times I_s$$
+
+2.  **Identify the Given Values:**
+    From the table and the diagram:
+    *   $V_p = 240\text{ V}_{RMS}$
+    *   $I_s = 2.2\text{ A}_{RMS}$
+    *   $V_s = 11.3\text{ V}_{RMS}$
+    *   $I_p = ?$ (This is the missing value we need to find)
+
+3.  **Rearrange the Formula:**
+    To find the primary current ($I_p$), rearrange the equation:
+    $$I_p = \frac{V_s \times I_s}{V_p}$$
+
+4.  **Perform the Calculation:**
+    Substitute the values into the equation:
+    $$I_p = \frac{11.3 \times 2.2}{240}$$
+    $$I_p = \frac{24.86}{240}$$
+    $$I_p \approx 0.103583... \text{ A}$$
+
+5.  **Conclusion:**
+    Rounding to four decimal places as per the options provided, we get $0.1035\text{ A}$. This corresponds to option (A).
+
+### Answer:
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

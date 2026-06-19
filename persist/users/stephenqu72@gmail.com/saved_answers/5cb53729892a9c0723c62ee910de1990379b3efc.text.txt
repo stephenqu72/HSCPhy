@@ -1,0 +1,32 @@
+To solve this problem, we use the diffraction grating equation:
+$$d \sin \theta = n \lambda$$
+
+### 1. Identify the given values
+*   **Number of slits ($N$):** $10,000$
+*   **Width ($w$):** $5\text{ cm} = 0.05\text{ m}$
+*   **Order ($n$):** $3$
+*   **Angle subtended by the pair:** $90^\circ$
+
+### 2. Calculate the grating spacing ($d$)
+The grating spacing $d$ is the distance between adjacent slits:
+$$d = \frac{w}{N} = \frac{0.05\text{ m}}{10,000} = 5 \times 10^{-6}\text{ m}$$
+
+### 3. Determine the angle $\theta$
+The "pair" of third-order maxima refers to the spots on either side of the central maximum. If the total angle between them is $90^\circ$, then the angle of diffraction $\theta$ from the central axis is:
+$$\theta = \frac{90^\circ}{2} = 45^\circ$$
+
+### 4. Calculate the wavelength ($\lambda$)
+Substitute the values into the grating equation:
+$$d \sin \theta = n \lambda$$
+$$\lambda = \frac{d \sin \theta}{n}$$
+$$\lambda = \frac{(5 \times 10^{-6}\text{ m}) \cdot \sin(45^\circ)}{3}$$
+$$\lambda = \frac{5 \times 10^{-6} \cdot 0.7071}{3}$$
+$$\lambda \approx 1.1785 \times 10^{-6}\text{ m}$$
+
+Convert to nanometers ($1\text{ m} = 10^9\text{ nm}$):
+$$\lambda \approx 1178.5\text{ nm}$$
+
+Comparing this to the options provided, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

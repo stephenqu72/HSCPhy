@@ -1,0 +1,14 @@
+To determine the correct answer, we must analyze the components of the DC generator shown in the diagram.
+
+### Analysis
+1.  **The Generator Components**: The diagram shows a wire loop rotating between permanent magnets. Crucially, the loop is connected to a **split-ring commutator** (the circular component with the split).
+2.  **Internal EMF (Graph 1)**: As the coil rotates in the magnetic field, the magnetic flux through the loop changes, inducing an alternating sinusoidal EMF. The split-ring commutator acts as a mechanical rectifier. It reverses the connection to the external circuit every half-turn, ensuring that the current flowing into the external circuit stays in one direction. Graph 1 displays a "pulsating" rectified waveform, which is exactly what the internal process produces when passed through the commutator. Thus, **Graph 1 is correct**.
+3.  **External EMF (Graph 2)**: Graph 2 represents a pure alternating current (AC) waveform, where the EMF reverses polarity (going into the negative region) every half-cycle. This is characteristic of an **AC generator using slip rings**, not a DC generator using a split-ring commutator. Since the device in the diagram is a DC generator, it cannot produce the AC waveform shown in Graph 2. Thus, **Graph 2 is incorrect**.
+
+### Conclusion
+Graph 1 correctly represents the output of a DC generator with a split-ring commutator, whereas Graph 2 represents the output of an AC generator. Therefore, the statement "Graph 1 is correct, and Graph 2 is incorrect" is the true statement.
+
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

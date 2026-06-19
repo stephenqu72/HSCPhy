@@ -1,0 +1,21 @@
+To answer this HSC-level physics question effectively, you must identify the primary sources of energy loss in a transformer (specifically eddy currents and resistive heating) and explain how engineering designs mitigate these losses.
+
+### Answer
+Two strategies to increase the efficiency of a transformer are:
+
+1.  **Laminated Cores:** The iron core is constructed from thin, insulated sheets (laminations) rather than a solid block. This increases the electrical resistance in the path of induced currents, significantly reducing the magnitude of **eddy currents** and the subsequent energy lost as heat.
+2.  **Use of Low-Resistance Copper Wiring:** The windings are made from high-conductivity copper wire with a large cross-sectional area. This minimizes the resistance ($R$) of the coils. Since power loss due to heating is given by $P = I^2 R$, reducing the resistance decreases the thermal energy dissipated during operation.
+
+---
+
+### How to solve this
+When approaching 3-mark questions in HSC Physics, follow these steps:
+
+1.  **Identify the Source of Inefficiency:** Recognise that transformers lose energy primarily as heat. You need to relate your strategies back to reducing heat.
+2.  **Explain the Mechanism:** Do not just name the strategy; explain *why* it works. 
+    *   For **laminated cores**, mention that the changing magnetic flux induces eddy currents in the core. By creating a physical gap (insulation) between thin sheets, you break the path of these large loops, preventing large currents from flowing.
+    *   For **wiring**, link the design (thickness/material) to the electrical resistance and use the relationship $P = I^2R$ to justify the improvement.
+3.  **Allocate Time/Marks:** Since this is a 3-mark question, a concise, well-structured paragraph for each point is sufficient. A common mark breakdown would be 1 mark for identifying the strategy and 0.5–1 mark for the scientific explanation for each point.
+
+###QUESTION_TYPE
+Short answer

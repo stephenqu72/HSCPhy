@@ -1,0 +1,42 @@
+To solve this problem, we use the double-slit interference formula for constructive interference (maxima):
+
+$$d \sin(\theta) = n\lambda$$
+
+Given the small-angle approximation (where $\sin(\theta) \approx \tan(\theta) = \frac{y}{L}$), this formula is commonly expressed as:
+
+$$d \frac{y}{L} = n\lambda$$
+
+### 1. Identify the given variables
+*   Wavelength ($\lambda$) = $800\text{ nm} = 800 \times 10^{-9}\text{ m} = 8 \times 10^{-7}\text{ m}$
+*   Slit separation ($d$) = $20\text{ }\mu\text{m} = 20 \times 10^{-6}\text{ m} = 2 \times 10^{-5}\text{ m}$
+*   Distance to screen ($L$) = $8.2\text{ m}$
+*   Order ($n$) = $2$ (for the second order)
+*   Distance from central maxima ($y$) = ?
+
+### 2. Rearrange the formula to solve for $y$
+$$y = \frac{n\lambda L}{d}$$
+
+### 3. Substitute the values
+$$y = \frac{2 \times (8 \times 10^{-7}\text{ m}) \times 8.2\text{ m}}{2 \times 10^{-5}\text{ m}}$$
+
+First, simplify the numerator:
+$$2 \times 8 \times 8.2 = 131.2$$
+$$131.2 \times 10^{-7} = 1.312 \times 10^{-5}$$
+
+Now, divide by $d$:
+$$y = \frac{1.312 \times 10^{-5}}{2 \times 10^{-5}}$$
+$$y = 0.656\text{ m}$$
+
+To match the scientific notation format in the options:
+$$0.656\text{ m} = 6.56 \times 10^{-1}\text{ m}$$
+
+Comparing this to the provided options:
+A. $6.56 \times 10^{-1}\text{ m}$
+B. $6.56 \times 10^{-2}\text{ m}$
+C. $6.56 \times 10^{-3}\text{ m}$
+D. $6.56 \times 10^{-4}\text{ m}$
+
+The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

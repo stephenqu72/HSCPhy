@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To determine the correct statement about an induction motor, let's analyze each option based on physics principles regarding AC motors:
+
+*   **(A) It has no moving parts:** This is incorrect. An induction motor consists of a stationary part (stator) and a rotating part (rotor). The rotor must rotate to perform mechanical work.
+*   **(B) It utilises a rotating magnetic field:** This is **correct**. In an AC induction motor, the stator windings are supplied with polyphase (typically three-phase) AC current, which creates a magnetic field that rotates at a constant speed (the synchronous speed). This changing magnetic field induces a current in the rotor (via Faraday’s Law and Lenz’s Law), creating a torque that causes the rotor to follow the magnetic field.
+*   **(C) It is the only type of motor that uses AC:** This is incorrect. There are other types of AC motors, such as synchronous motors and universal motors, which also operate using alternating current.
+*   **(D) It does not have a current carrying conductor:** This is incorrect. The fundamental principle of an induction motor relies on current being induced in the conductors of the rotor (the "squirrel cage" bars or windings). Without these current-carrying conductors experiencing a magnetic force ($\vec{F} = I\vec{L} \times \vec{B}$), the motor could not generate torque.
+
+**Key takeaway for HSC exams:** Always remember that the "induction" in an induction motor refers to the process of electromagnetic induction, where a changing magnetic field induces an electromotive force (EMF) and subsequently a current in the rotor.
+
+###QUESTION_TYPE
+Multiple choice

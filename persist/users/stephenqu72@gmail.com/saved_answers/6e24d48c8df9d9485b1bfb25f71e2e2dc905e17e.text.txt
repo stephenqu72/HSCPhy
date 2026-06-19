@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for Young’s Double Slit experiment, which calculates the fringe separation ($\Delta y$):
+
+$$\Delta y = \frac{\lambda L}{d}$$
+
+### 1. Identify the given variables
+*   Wavelength ($\lambda$): $600\text{ nm} = 600 \times 10^{-9}\text{ m} = 6 \times 10^{-7}\text{ m}$
+*   Distance to screen ($L$): $1\text{ m}$
+*   Slit separation ($d$): $40\text{ }\mu\text{m} = 40 \times 10^{-6}\text{ m} = 4 \times 10^{-5}\text{ m}$
+
+### 2. Substitute the values into the formula
+$$\Delta y = \frac{(6 \times 10^{-7}\text{ m}) \times (1\text{ m})}{4 \times 10^{-5}\text{ m}}$$
+
+### 3. Perform the calculation
+$$\Delta y = \frac{6}{4} \times 10^{-7 - (-5)}\text{ m}$$
+$$\Delta y = 1.5 \times 10^{-2}\text{ m}$$
+
+### 4. Convert to centimeters
+Since $10^{-2}\text{ m} = 1\text{ cm}$:
+$$\Delta y = 1.5\text{ cm}$$
+
+Comparing this result to the options provided, the correct answer is **B**.
+
+### Explanation for Students
+In HSC Physics, interference patterns are a classic topic. The key to these questions is **unit consistency**. Always convert your prefix units (like $\mu\text{m}$ and $\text{nm}$) into standard SI base units (meters) before plugging them into the formula. This avoids the most common pitfall in these calculations: order-of-magnitude errors.
+
+###QUESTION_TYPE
+Multiple choice

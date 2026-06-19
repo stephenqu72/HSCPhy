@@ -1,0 +1,30 @@
+To solve this problem, we use the wave equation for light, which relates velocity ($v$), frequency ($f$), and wavelength ($\lambda$):
+
+$$v = f \times \lambda$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given variables:**
+    *   Speed of light in Perspex ($v$) = $2.10 \times 10^8 \text{ m s}^{-1}$
+    *   Frequency ($f$) = $6.20 \times 10^{14} \text{ Hz}$
+
+2.  **Rearrange the formula to solve for wavelength ($\lambda$):**
+    $$\lambda = \frac{v}{f}$$
+
+3.  **Substitute the values:**
+    $$\lambda = \frac{2.10 \times 10^8}{6.20 \times 10^{14}}$$
+
+4.  **Perform the calculation:**
+    $$\lambda \approx 3.387 \times 10^{-7} \text{ m}$$
+
+5.  **Convert to nanometers (nm):**
+    Since $1 \text{ nm} = 10^{-9} \text{ m}$, we convert the result:
+    $$\lambda \approx 3.387 \times 10^{-7} \times 10^9 \text{ nm} \approx 338.7 \text{ nm}$$
+
+6.  **Round to appropriate significant figures:**
+    Rounding to three significant figures (matching the input data), we get **339 nm**.
+
+Comparing this result to the given options, it matches option **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

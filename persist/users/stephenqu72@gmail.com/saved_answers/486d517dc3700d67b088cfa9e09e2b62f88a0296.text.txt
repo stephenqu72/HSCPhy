@@ -1,0 +1,25 @@
+The correct answer is **C**.
+
+### Explanation
+
+To solve this question, we need to understand the physics of energy transmission in the electrical grid, specifically focusing on how to minimize energy loss.
+
+1.  **The Goal of Transmission:** The goal is to transmit electrical energy from a power station to homes with minimal power loss in the transmission lines. Power loss due to resistance in the wires is given by the formula:
+    $$P_{loss} = I^2 R$$
+    where $I$ is the current and $R$ is the resistance of the wires. To minimize $P_{loss}$, we must keep the current $I$ as low as possible.
+
+2.  **Maintaining Power Output:** Since the total power $P$ delivered by the station is $P = VI$ (where $V$ is voltage), if we decrease the current ($I$) to reduce heat loss, we must increase the voltage ($V$) proportionally to deliver the same amount of power. 
+
+3.  **The Process:**
+    *   **At the Power Station:** A **step-up transformer** is used to increase the voltage to very high levels, which inherently decreases the current flowing through the long-distance transmission lines. This minimizes the $I^2 R$ power loss.
+    *   **At the House:** The high voltage is unsafe for residential use. A **step-down transformer** is used to reduce the voltage to a safe level (e.g., $240V$ in Australia) before it enters the home.
+
+**Why the other options are incorrect:**
+*   **A:** Using a step-down transformer at the power station would result in a massive increase in current, leading to enormous energy loss in the wires.
+*   **B:** A step-down transformer followed by high-current transmission is inefficient.
+*   **D:** While it uses the correct transformers, it incorrectly labels the transmission phase as "high current" and "low voltage," which is the opposite of what is required to minimize losses.
+
+Diagram **C** correctly illustrates the use of a step-up transformer at the station for efficient transmission (high voltage/low current) and a step-down transformer near the houses for safe consumption.
+
+###QUESTION_TYPE
+Multiple choice

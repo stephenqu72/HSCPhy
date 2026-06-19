@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To solve this question, we must understand the underlying physics of induction cooking:
+
+1.  **Property of the saucepan:** Induction cooktops rely on the principle of electromagnetic induction. An alternating current in the coil beneath the cooktop creates a rapidly changing magnetic field. This magnetic field penetrates the base of the saucepan. According to Faraday’s Law of Induction, a changing magnetic flux induces an electromotive force (EMF), which in turn drives **eddy currents** within the material of the base. For these currents to flow and generate heat through resistive heating ($P = I^2R$), the saucepan must be made of an electrically **conducting** material (typically ferromagnetic metals like cast iron or magnetic stainless steel). Therefore, an insulator would not allow for the flow of eddy currents and would not heat up.
+
+2.  **Frequency of the magnetic field:** The power transferred to the saucepan is dependent on the rate of change of the magnetic flux ($\frac{d\Phi}{dt}$). A standard mains frequency of $50\text{ Hz}$ is far too low to generate significant power for efficient cooking. Induction cooktops utilize high-frequency oscillating currents, typically in the range of $20\text{ kHz}$ to $100\text{ kHz}$. A high frequency (such as $50\text{ kHz}$) ensures a high rate of change in the magnetic field, which induces stronger eddy currents, leading to efficient heat generation.
+
+Comparing these requirements to the options provided:
+*   The material must be a **conductor**.
+*   The frequency must be **high ($50\text{ kHz}$)**.
+
+This corresponds exactly to row **B**.
+
+###QUESTION_TYPE
+Multiple choice

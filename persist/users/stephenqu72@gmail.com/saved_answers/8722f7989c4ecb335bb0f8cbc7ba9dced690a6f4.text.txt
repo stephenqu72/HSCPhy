@@ -1,0 +1,27 @@
+To determine the correct graph for the induced electromotive force (emf), we apply **Faraday's Law of Induction**, which states:
+
+$$\varepsilon = -N \frac{d\Phi_B}{dt}$$
+
+Since the magnetic field is normal to the plane of the coil, the magnetic flux is given by $\Phi_B = B \cdot A$. Assuming the area $A$ of the coil and the number of turns $N$ are constant, the equation becomes:
+
+$$\varepsilon = -NA \frac{dB}{dt}$$
+
+This tells us that the induced emf $\varepsilon$ is proportional to the **negative gradient (slope)** of the magnetic field $B$ versus time $t$ graph.
+
+### Step-by-Step Solution:
+
+1.  **Analyze the Slopes of the $B$-$t$ Graph:**
+    *   The graph provided shows $B$ changing linearly with time. This means the gradient ($dB/dt$) is constant over each linear segment.
+    *   Since the gradient is constant, the resulting emf $\varepsilon$ must also be constant over those intervals, resulting in a **square wave** pattern.
+2.  **Determine the Signs:**
+    *   In the first segment, the slope is positive ($dB/dt > 0$). According to the negative sign in Faraday’s Law, $\varepsilon$ should be **negative**.
+    *   In the second segment, the slope is negative ($dB/dt < 0$). This makes $\varepsilon$ **positive** ($-\text{negative} = \text{positive}$).
+3.  **Evaluate the Options:**
+    *   Graphs A, B, and C show varying emfs (sloped or curved), which would only occur if the $B$-$t$ graph were parabolic or sinusoidal.
+    *   Graph **D** displays a square wave, which correctly represents the constant gradients of the linear segments of the $B$-$t$ graph.
+    *   Looking at the first segment of the $B$-$t$ graph (a positive slope), the emf must be negative. Graph D correctly starts in the negative region.
+
+**Conclusion:** Graph D is the only one that correctly represents the derivative (gradient) of the piecewise linear $B$-$t$ graph.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,38 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this electromagnetism problem. This is a classic application of the force between parallel current-carrying conductors.
+
+### Part (a)
+**Answer:** The force is **repulsive** (directed upwards, away from the other wire).
+
+**Explanation:**
+To determine the direction of the force, we use the right-hand grip rule and the motor effect rule (or simply memorize the rule for parallel conductors):
+1. **Rule:** Currents in the same direction attract; currents in opposite directions repel.
+2. Since the $3\text{ A}$ current is flowing to the right and the $5\text{ A}$ current is flowing to the left, the currents are in **opposite directions**.
+3. Therefore, the wires will experience a repulsive force. The top wire will be pushed upwards away from the bottom wire.
+
+---
+
+### Part (b)
+**Answer:**
+We use the formula for the force per unit length between two parallel conductors:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+
+**Step-by-step solution:**
+1. **Identify the variables:**
+   - Permeability of free space, $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+   - $I_1 = 3\text{ A}$
+   - $I_2 = 5\text{ A}$
+   - Separation distance, $d = 12\text{ cm} = 0.12\text{ m}$
+
+2. **Substitute into the formula:**
+   $$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times 3 \times 5}{2\pi \times 0.12}$$
+
+3. **Simplify the expression:**
+   - Cancel $2\pi$ from the numerator and denominator:
+   $$\frac{F}{L} = \frac{2 \times 10^{-7} \times 15}{0.12}$$
+   $$\frac{F}{L} = \frac{30 \times 10^{-7}}{0.12}$$
+   $$\frac{F}{L} = 2.5 \times 10^{-5}\text{ N/m}$$
+
+**Final Result:** The force per unit length is $2.5 \times 10^{-5}\text{ N/m}$.
+
+###QUESTION_TYPE
+Calculation question

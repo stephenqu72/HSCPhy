@@ -1,0 +1,27 @@
+### Answer
+
+**(a) Identification of elements**
+The two elements present in the star are **Element D** and **Element Z**.
+
+**(b) Motion and Velocity of Yopitrix**
+*   **Motion:** The star Yopitrix is moving **away** from Earth.
+*   **Explanation:** Comparing the absorption spectrum of Yopitrix to the known spectrum of Element A, we can see that all the spectral lines for Yopitrix have shifted towards the longer wavelength (red) end of the spectrum. This phenomenon is known as a **redshift**.
+*   **Determining velocity:** The velocity of the star can be determined by measuring the shift in wavelength ($\Delta\lambda$) of the spectral lines. By comparing the observed wavelength ($\lambda_{obs}$) of a specific line to its known rest wavelength ($\lambda_{rest}$) from Element A, the velocity ($v$) can be calculated using the Doppler effect formula for non-relativistic speeds:
+    $$\frac{v}{c} = \frac{\Delta\lambda}{\lambda_{rest}}$$
+    where $c$ is the speed of light, $\Delta\lambda = \lambda_{obs} - \lambda_{rest}$, and $\frac{\Delta\lambda}{\lambda_{rest}}$ is the redshift parameter ($z$).
+
+---
+
+### How to solve it
+
+1.  **For part (a):** This is a pattern-matching task. Look at the spectral lines of the "nearby star" and compare their positions to the reference elements provided.
+    *   Notice that the star has two distinct lines close together around $660\text{ nm}$ and $650\text{ nm}$, and a single line around $590\text{ nm}$. These match the pattern of **Element D**.
+    *   The star also contains lines at roughly $700\text{ nm}$, $500\text{ nm}$, $460\text{ nm}$, and $450\text{ nm}$. These perfectly align with the positions of the lines for **Element Z**.
+
+2.  **For part (b):** 
+    *   First, align the "Element A" spectrum with the "Yopitrix" spectrum. You will observe that every single black absorption line in the Yopitrix spectrum is positioned to the right (towards the higher wavelength/red end) compared to the laboratory spectrum of Element A.
+    *   In astrophysics, a shift towards longer wavelengths is a **redshift**, which indicates the source is moving away from the observer.
+    *   To quantify the velocity, recall that the Doppler effect for light relates the change in wavelength to the velocity of the source relative to the speed of light. Measuring the precise displacement of a specific line allows you to calculate $z$ and subsequently the velocity $v$.
+
+###QUESTION_TYPE
+Data analysis questions

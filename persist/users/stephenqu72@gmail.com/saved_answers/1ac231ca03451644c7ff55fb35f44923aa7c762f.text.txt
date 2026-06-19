@@ -1,0 +1,23 @@
+To determine the correct answer, we must analyze both the mechanical motion of the pendulum and the electromagnetic principles governing the induced current.
+
+### 1. The Motion of the Magnet
+The magnet is a pendulum swinging back and forth. Due to air resistance and internal friction, the amplitude of the oscillation will decrease over time. This is known as **damped harmonic motion**. Therefore, we can immediately eliminate option **A**, which shows constant amplitude (undamped motion).
+
+### 2. The Induced Current
+According to **Faraday’s Law**, the magnitude of the induced EMF ($\varepsilon$) is proportional to the rate of change of magnetic flux ($\Phi_B$):
+$$\varepsilon = -N \frac{\Delta \Phi_B}{\Delta t}$$
+The rate of change of flux is highest when the magnet is moving at its **maximum velocity**. In simple harmonic motion, the velocity is at a maximum when the displacement is at its equilibrium point (the center). Conversely, at the maximum displacement (the turning points of the swing), the velocity is zero, and therefore the induced current should be zero.
+
+*   Looking at the "distance" graph (which tracks position from the sensor), the peaks and troughs represent the turning points where velocity is zero.
+*   At these points, the "current" graph should also be at zero.
+*   Between these points (the equilibrium position), the velocity is at a maximum, so the "current" graph should be at its peak magnitude.
+
+### 3. Analyzing the Remaining Options
+*   **Option B:** The distance graph starts at a peak and oscillates, but the current graph shows a peak at the same time the distance graph is at its peak. This is physically incorrect because, as established, current should be zero when the magnet is momentarily stationary at its turning point.
+*   **Option C:** This graph shows the distance oscillating with damping. However, the current graph starts at zero when the distance is at a maximum. As the magnet moves towards the equilibrium position, the velocity (and thus the current) increases. This correctly reflects the relationship between displacement and velocity.
+*   **Option D:** Similar to B, this implies the current is at a maximum when the magnet is at its turning point, which contradicts Faraday’s Law.
+
+**Conclusion:** Option **C** best represents the damped oscillation of the magnet and the corresponding induced current, which is proportional to the velocity of the magnet.
+
+###QUESTION_TYPE
+Multiple choice

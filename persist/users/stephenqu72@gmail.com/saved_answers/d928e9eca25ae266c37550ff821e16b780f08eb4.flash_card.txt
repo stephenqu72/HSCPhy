@@ -1,0 +1,8 @@
+### Front
+How do you determine the correct precision (decimal places) when **adding or subtracting** measured values?
+
+### Back
+- Key idea: The final result must be rounded to the same precision (the least number of decimal places) as the least precise measurement.
+- Formula / law / constant / figure: No fixed constant or figure.
+- When to use it: When calculating sums, differences, or perimeters from measurements with different levels of uncertainty.
+- Common trap: Over-precision (rounding to too many decimal places) or forgetting to standardize units before performing the calculation.

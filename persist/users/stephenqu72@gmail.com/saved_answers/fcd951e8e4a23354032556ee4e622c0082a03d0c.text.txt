@@ -1,0 +1,15 @@
+The correct answer is **C. AC generator**.
+
+### Explanation
+To identify the device, we look at the core components and the physical principles shown in the diagram:
+
+1.  **Input of energy:** The diagram shows a "Handle" being rotated manually. This indicates that mechanical energy is being input into the system to induce an electrical current. This process defines a **generator**, not a motor (which consumes electrical energy to produce motion).
+2.  **Magnetic induction:** A coil is rotating within a magnetic field (provided by the $N$ and $S$ poles of the magnet). According to Faraday’s Law of Induction, as the coil rotates, the magnetic flux through the coil changes, inducing an electromotive force (EMF) and consequently an electric current.
+3.  **Output connection:** The coil is connected to **slip rings** (not a split-ring commutator). 
+    *   **Slip rings** maintain a continuous contact between the rotating coil and the external circuit, which allows the direction of the induced current to reverse every half-turn as the coil moves through the magnetic field. This results in the production of **alternating current (AC)**. 
+    *   If the device were a DC generator, it would require a split-ring commutator to reverse the connections to the external circuit, ensuring the output current flows in only one direction.
+
+Therefore, because it converts mechanical energy into electrical energy using slip rings to produce alternating current, it is an **AC generator**.
+
+###QUESTION_TYPE
+Multiple choice

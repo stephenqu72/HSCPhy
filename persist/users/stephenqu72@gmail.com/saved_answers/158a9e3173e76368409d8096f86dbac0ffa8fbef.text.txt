@@ -1,0 +1,33 @@
+To find the correct arrangement that produces the greatest angle $\theta$, we use the diffraction grating formula:
+
+$$d \sin \theta = n\lambda$$
+
+Where:
+- $d$ is the distance between adjacent slits (grating spacing).
+- $\theta$ is the angle of diffraction.
+- $n$ is the order of the fringe (here $n=1$).
+- $\lambda$ is the wavelength of the light.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship for $\theta$:**
+    Rearranging the formula for $\sin \theta$, we get:
+    $$\sin \theta = \frac{n\lambda}{d}$$
+    To maximize $\theta$ (and thus $\sin \theta$), we need to maximize $\lambda$ and minimize $d$.
+
+2.  **Analyze the Grating Spacing ($d$):**
+    The spacing $d$ is inversely proportional to the number of lines per mm ($N$).
+    $$d = \frac{1}{N}$$
+    Therefore, to minimize $d$, we must select the higher number of lines per mm. Between 400 lines/mm and 600 lines/mm, **600 lines/mm** will result in a smaller $d$, which increases the angle $\theta$.
+
+3.  **Analyze the Wavelength ($\lambda$):**
+    Different colours have different wavelengths. Visible light ranges from violet (shorter wavelength, $\approx 400$ nm) to red (longer wavelength, $\approx 700$ nm). Yellow light has a longer wavelength than violet light.
+    To maximize $\theta$, we need the largest $\lambda$, so **Yellow** light is the correct choice.
+
+4.  **Conclusion:**
+    To get the greatest angle, we require the highest lines per mm (600) and the longest wavelength (Yellow). This corresponds to option **D**.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

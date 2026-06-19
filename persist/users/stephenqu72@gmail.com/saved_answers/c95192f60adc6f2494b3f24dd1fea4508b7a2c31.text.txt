@@ -1,0 +1,24 @@
+### Answer
+The correct option is **D**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the principle of **back electromotive force (back emf)** in a DC motor.
+
+1.  **Understanding Back EMF:** When a motor spins, the rotating armature cuts through the magnetic field lines. According to Faraday's Law and Lenz's Law, this induces an emf in the coils that opposes the supply voltage from the battery. This is known as back emf ($\varepsilon_{back}$).
+2.  **The Relationship:** The net voltage ($V_{net}$) across the internal resistance ($R$) of the motor is given by:
+    $$V_{net} = V_{supply} - \varepsilon_{back}$$
+    According to Ohm’s Law, the current ($I$) flowing through the motor is:
+    $$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+3.  **The Effect of Stopping the Motor:** When the person holds the shaft to stop the motor, the rotational speed drops to zero. Since back emf is directly proportional to the speed of the motor ($\varepsilon_{back} \propto \omega$), the **back emf decreases to zero**.
+4.  **The Ammeter Reading:** With $\varepsilon_{back}$ reduced to zero, the term $(V_{supply} - \varepsilon_{back})$ increases. Consequently, the current $I$ flowing through the motor **increases**.
+
+**Conclusion:**
+*   The reading on the ammeter **increases**.
+*   This is caused by a **decrease in back emf**.
+
+Comparing this to the provided choices, row **D** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

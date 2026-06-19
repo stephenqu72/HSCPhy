@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the principles of electromagnetic induction, specifically **Faraday’s Law** and **Lenz’s Law**.
+
+1.  **The Physics of Eddy Currents:** As a conductive plate enters or leaves the magnetic field between the poles, the magnetic flux passing through the plate changes. According to Faraday's Law, this change in flux induces an electromotive force (EMF), which drives circular currents within the metal known as **eddy currents**.
+2.  **Lenz’s Law:** These eddy currents create their own magnetic field that opposes the change in flux that created them. This results in a magnetic force (drag force) that opposes the motion of the plate, causing it to slow down.
+3.  **Comparing Plate A and Plate B:**
+    *   **Plate B (Solid):** This plate allows for large, unrestricted circular paths for eddy currents to flow. According to Ohm's Law ($I = V/R$), if the path is wide and resistance is low, the eddy current $I$ will be larger. A larger current leads to a stronger opposing magnetic force, bringing the plate to rest more quickly.
+    *   **Plate A (Segmented/Slotted):** The slits in Plate A physically interrupt the paths that the eddy currents would normally follow. By restricting the size and path of these currents, the total magnitude of the eddy currents is reduced. Consequently, the opposing magnetic force is weaker, meaning Plate A will swing for longer and take more time to come to rest compared to Plate B.
+
+**Why the other options are incorrect:**
+*   **(A)** is incorrect because Plate A actually comes to rest *more slowly* than Plate B because the cuts inhibit the formation of eddy currents.
+*   **(B)** is incorrect; Plate B oscillates *more slowly* (damps out faster), not "more quickly."
+*   **(C)** is incorrect because while Plate A is "slotted" (which reduces eddy currents), the conclusion that it slows down *more quickly* is false; it slows down more slowly than the solid plate.
+
+###QUESTION_TYPE
+Multiple choice

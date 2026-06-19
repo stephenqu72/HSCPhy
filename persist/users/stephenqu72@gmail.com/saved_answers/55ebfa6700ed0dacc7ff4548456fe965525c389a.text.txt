@@ -1,0 +1,23 @@
+To answer this question effectively, you need to connect the principles of electromagnetic induction (back EMF) with rotational dynamics. 
+
+### Model Answer
+The student’s claim is **correct**.
+
+1. **Back EMF generation:** As the DC motor spins, the coil rotates within the magnetic field, inducing a back EMF ($\varepsilon$) that opposes the supply voltage ($V$). According to Faraday's Law, the magnitude of this back EMF is directly proportional to the rotational speed ($\omega$). 
+2. **Current reduction:** The effective voltage driving the current ($I$) through the motor is $(V - \varepsilon)$. As the speed increases, $\varepsilon$ increases, causing the current $I$ to decrease according to $I = \frac{V - \varepsilon}{R}$.
+3. **Torque relationship:** The motor torque ($\tau_m$) is proportional to the current ($\tau_m = kI$). As current decreases, the motor torque decreases.
+4. **Equilibrium:** Even with "no load," there are internal frictional and air-resistance torques ($\tau_f$) that oppose rotation. The motor accelerates until the motor torque equals the frictional torque ($\tau_m = \tau_f$). At this point, the net torque is zero, the rotational speed remains constant (terminal velocity), and the motor maintains a steady back EMF.
+
+---
+
+### How to solve this question
+1. **Identify the mechanism:** Always link speed to back EMF in DC motors. Remember that back EMF is the "self-regulating" mechanism of a motor.
+2. **Link to Current:** Remember the circuit equation $V_{net} = V_{supply} - \varepsilon = IR$. As speed increases, $\varepsilon$ approaches $V_{supply}$, causing $I$ to drop.
+3. **Link to Physics Principles:** Use Newton’s Second Law for rotation ($\sum \tau = I\alpha$). If $\alpha$ (angular acceleration) is zero, then $\sum \tau$ must be zero.
+4. **Structure your response:**
+   * **State your verdict:** Start by validating the student's claim.
+   * **Sequence the logic:** Explain the causal chain: Speed $\rightarrow$ Back EMF $\rightarrow$ Current $\rightarrow$ Torque.
+   * **Address the "No Load" aspect:** Clarify that "no load" does not mean "no resistance"; internal friction is the opposing torque that allows for equilibrium.
+
+### QUESTION_TYPE
+Short answer

@@ -1,0 +1,26 @@
+To solve this problem, we apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Answer
+When the shape of the coil changes, the galvanometer needle will deflect, indicating an induced current. 
+1. **Pulling the coil horizontally:** The area of the coil decreases. The magnetic flux $\Phi_B$ (where $\Phi_B = BA\cos\theta$) decreases. According to Lenz's Law, the induced current creates a magnetic field to oppose this decrease, meaning the induced field must point **into the page**. Using the Right-Hand Grip Rule, the current flows in a **clockwise** direction.
+2. **Pushing the coil back to a circle:** The area increases, causing an increase in magnetic flux. The induced field must point out of the page to oppose this increase. The current flows **counter-clockwise**.
+3. **Pulling the coil vertically:** This is equivalent to the first scenario; the area decreases, flux decreases, and a **clockwise** current is induced.
+
+### Explanation
+To secure full marks (5 marks), you must link the change in physical area to the change in magnetic flux and justify the current direction using Lenz's Law.
+
+1. **Principle of Induction:** Faraday’s Law states that an induced electromotive force (EMF) is proportional to the rate of change of magnetic flux through the coil. Since the magnetic field $B$ is constant, changing the area $A$ changes the flux.
+2. **Horizontal/Vertical Distortion:** When the coil is pulled (distorted), its area $A$ decreases. This results in a reduction in the total magnetic flux $\Phi_B$ threading through the loop.
+3. **Lenz’s Law:** Nature "dislikes" changes in flux. To oppose the reduction of flux pointing into the page, the induced current creates its own magnetic field pointing **into the page**.
+4. **Direction:** By pointing your right thumb into the page and curling your fingers, you see that the current must flow in a **clockwise** direction.
+5. **Reversal:** When returning to a circle (increasing area), the flux increases. To oppose the *increase*, the induced field points *out* of the page, reversing the current to **counter-clockwise**.
+
+**Summary for the marker:**
+*   **Observation:** The needle deflects (current is induced) whenever the shape changes.
+*   **Flux change:** Distorting the coil changes the cross-sectional area, hence changing magnetic flux.
+*   **Lenz's Law:** The system induces a current to oppose the change in flux.
+*   **Clockwise:** Current flows clockwise when the area decreases (pulling the coil).
+*   **Counter-clockwise:** Current flows counter-clockwise when the area increases (returning to circular).
+
+###QUESTION_TYPE
+Short answer

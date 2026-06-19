@@ -1,0 +1,41 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+The diffraction grating equation is given by $d \sin(\theta) = n\lambda$. For a specific order $n$, the angle of diffraction $\theta$ is directly proportional to the wavelength $\lambda$ of the light. Since white light consists of a range of wavelengths (from violet to red), each wavelength diffracts at a different angle. As the order $n$ increases, the angular separation ($\Delta\theta$) between the shortest wavelength (violet) and the longest wavelength (red) increases because the derivative of $\sin(\theta)$ with respect to $\lambda$ is larger at higher angles. Consequently, the individual spectra appear stretched or "wider" the further they are from the central $n=0$ fringe.
+
+**How to solve:**
+To answer this, link the physics of the grating equation to the geometry of the pattern. Remember:
+1. Mention the grating equation: $d \sin(\theta) = n\lambda$.
+2. Explain that $\theta$ depends on $\lambda$, which causes the dispersion of white light.
+3. Explain that because the relationship between $\sin(\theta)$ and $\theta$ is non-linear (as $\theta$ increases, $\sin(\theta)$ changes more rapidly), the separation between colors grows as $n$ increases.
+
+***
+
+#### Part (b)
+**Answer:**
+1. **Identify the variables:**
+   - Wavelength $\lambda = 450\text{ nm} = 450 \times 10^{-9}\text{ m}$.
+   - Distance from grating to screen $L = 94.4\text{ cm} = 0.944\text{ m}$.
+   - From the image, the blue end of the first-order spectrum ($n=1$) is at $x \approx 2.7\text{ cm} = 0.027\text{ m}$.
+
+2. **Calculate $\theta$:**
+   $\tan(\theta) = \frac{x}{L} = \frac{0.027}{0.944} \approx 0.0286$
+   $\theta = \arctan(0.0286) \approx 1.639^\circ$
+
+3. **Calculate $d$ (grating spacing):**
+   Using $d \sin(\theta) = n\lambda$ with $n=1$:
+   $d = \frac{1 \times 450 \times 10^{-9}}{\sin(1.639^\circ)} \approx \frac{450 \times 10^{-9}}{0.0286} \approx 1.57 \times 10^{-5}\text{ m}$
+
+4. **Calculate lines per mm ($N$):**
+   $N = \frac{1}{d} \text{ (in mm)} = \frac{1}{1.57 \times 10^{-2}\text{ mm}} \approx 63.69\text{ lines/mm}$
+   *(Note: Depending on the precision of reading the scale, the answer is approximately $64\text{ lines/mm}$)*.
+
+**How to solve:**
+1. Read the distance $x$ from the central white fringe to the blue edge of the first spectrum on the ruler.
+2. Use the geometry of the triangle ($\tan \theta = x/L$) to find the diffraction angle.
+3. Use the grating equation to find the slit separation $d$ in meters.
+4. Convert $d$ to mm and take the reciprocal to find the lines per mm.
+
+###QUESTION_TYPE
+Calculation question

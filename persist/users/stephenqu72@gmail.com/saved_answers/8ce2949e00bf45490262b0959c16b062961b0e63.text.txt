@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+**Part (a): Identify this device.**
+The device is a **DC generator**. We can identify this because it features a split-ring commutator (seen as the circular structure where the coil ends meet), which is specifically used to rectify the current in a generator so that it flows in one direction in the external circuit.
+
+**Part (b): Draw arrows to show the direction of current.**
+*   **Physics Principle:** Use Fleming's Right-Hand Rule.
+*   **Application:** The magnetic field points from North to South. The side of the coil near the South pole is moving downwards. With the magnetic field ($B$) pointing towards the left (N to S) and the velocity ($v$) pointing down, the induced current in that side of the coil must be directed **towards the back of the page** (away from the observer).
+*   **Result:** On the diagram, draw an arrow on the wire segment near the South pole pointing **towards the back** and an arrow on the segment near the North pole pointing **towards the front** (towards the observer).
+
+**Part (c): Sketch the emf graphs.**
+
+1.  **Emf produced in the device:** This is the induced emf inside the rotating coil. Since it is a rotating coil in a magnetic field, the emf follows a sinusoidal pattern. Because it starts from a position where the plane of the coil is perpendicular to the magnetic field (the position of maximum magnetic flux), the induced emf is zero at $t=0$, rises to a peak, passes through zero, reaches a negative peak, and returns to zero. This is a **sine wave**.
+2.  **Emf delivered to the external circuit:** Because the device uses a split-ring commutator, the negative portion of the sine wave is flipped to become positive. This results in a **pulsating DC (rectified sine wave)**. The graph should show only positive peaks with zero-value intervals in between.
+
+---
+
+### How to solve this:
+*   **Step 1 (Recognition):** Always look for the commutator. A slip ring indicates an AC generator; a split-ring indicates a DC generator.
+*   **Step 2 (Fleming's Right-Hand Rule):** Remember: Thumb = Motion, First finger = Magnetic field (N to S), Second finger = Induced current. Apply this to the side of the coil moving through the magnetic field.
+*   **Step 3 (Graphing):** 
+    *   The "Emf produced" is the raw induced emf, which is naturally AC (alternating).
+    *   The "Emf delivered" is the result of the split-ring commutator "switching" the connections, ensuring current always leaves the generator through the same terminal, creating a "rectified" output.
+
+###QUESTION_TYPE
+Short answer

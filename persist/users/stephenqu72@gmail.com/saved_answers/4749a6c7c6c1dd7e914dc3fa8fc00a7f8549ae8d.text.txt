@@ -1,0 +1,36 @@
+As an HSC Physics teacher, here is how you should approach this 8-mark response to ensure you capture full marks.
+
+---
+
+### Part (a): Qualitative limitations of the ideal transformer model
+**Answer:**
+The ideal transformer assumes 100% efficiency and perfect coupling, whereas real-world transformers suffer from several energy loss mechanisms:
+1.  **Resistance in windings:** Copper wires have inherent resistance, leading to energy loss as heat ($I^2R$ losses). This reduces the output voltage and efficiency.
+2.  **Eddy Currents:** The changing magnetic flux induces circulating currents within the iron core itself. These create their own magnetic fields and cause significant heating. This is mitigated by using laminated cores.
+3.  **Flux Leakage:** Not all magnetic flux produced by the primary coil reaches the secondary coil; some flux lines escape through the air. This decreases the coupling efficiency, meaning the output voltage is lower than the ideal theoretical value.
+4.  **Hysteresis:** The magnetic domains in the iron core must constantly flip to track the AC frequency. The energy required to overcome the magnetic "friction" of these domains is dissipated as heat.
+
+**How to solve:**
+*   Use the "Discuss" command term: identify the limitation and link it to the consequence (efficiency/voltage drop).
+*   Structure your response by listing at least 3-4 distinct physical phenomena.
+*   Ensure you mention the impact on the "applicability," which is that real transformers always require cooling systems and are never 100% efficient.
+
+---
+
+### Part (b): Change in flux and secondary turns
+**Answer:**
+According to Faraday’s Law of Induction, the induced electromotive force (EMF) in a coil is directly proportional to the rate of change of magnetic flux through the coil:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+Where $N$ is the number of turns. In a transformer, the primary coil creates a changing magnetic flux that is channeled through the soft-iron core to the secondary coil. Because the flux is "linked" through the core, the rate of change of flux ($\frac{\Delta\Phi}{\Delta t}$) is essentially the same for every single loop of wire in the secondary coil. 
+
+By increasing the number of turns ($N$), the total induced EMF is the sum of the EMF induced in each individual turn. Therefore, $V_s \propto N_s$. More turns "intercept" the changing magnetic flux more times, resulting in a proportionally higher total output voltage.
+
+**How to solve:**
+*   **Cite the physics:** Always reference Faraday's Law of Induction.
+*   **Explain the link:** Explicitly state that $\frac{\Delta\Phi}{\Delta t}$ is constant across the core.
+*   **Explain the summation:** Clarify that each turn acts as a source of EMF in series; adding more turns adds more EMF to the total, effectively multiplying the induced voltage.
+
+---
+
+###QUESTION_TYPE
+Short answer

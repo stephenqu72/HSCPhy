@@ -1,0 +1,28 @@
+To find the frequency of the wave shown on the oscilloscope, follow these steps:
+
+### 1. Identify the Time Period ($T$)
+First, observe the horizontal axis (time $t$ in seconds). The label "0.1" is positioned at the third vertical grid line from the left. This means each grid division represents:
+$$\text{Time per division} = \frac{0.1 \text{ s}}{3} = \frac{1}{30} \text{ s} \approx 0.0333 \text{ s}$$
+
+Now, count the number of grid divisions for one complete cycle. A full cycle starts at the peak (y-axis) and returns to the peak.
+- The first peak is at $t = 0$.
+- The second peak is at exactly 1.5 grid divisions (midway between the first and second grid line).
+- Therefore, the period $T$ (time for one cycle) is $1.5$ divisions $\times (\frac{1}{30} \text{ s/division}) = 0.05 \text{ s}$.
+
+Alternatively, count the total cycles:
+- In the time interval of $0.1 \text{ s}$ (3 divisions), there are exactly 2 full cycles.
+- This confirms $T = \frac{\text{total time}}{\text{number of cycles}} = \frac{0.1 \text{ s}}{2} = 0.05 \text{ s}$.
+
+### 2. Calculate the Frequency ($f$)
+Frequency is defined as the reciprocal of the time period:
+$$f = \frac{1}{T}$$
+$$f = \frac{1}{0.05 \text{ s}}$$
+$$f = 20 \text{ Hz}$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+### Answer
+The frequency is **20 Hz**.
+
+###QUESTION_TYPE
+Multiple choice

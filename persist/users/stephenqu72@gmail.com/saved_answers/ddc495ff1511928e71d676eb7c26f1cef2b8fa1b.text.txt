@@ -1,0 +1,38 @@
+To find the distance from the central maximum to the $2^{\text{nd}}$ bright spot, we use the double-slit interference formula for bright fringes (constructive interference):
+
+$$\Delta x = \frac{m \lambda L}{d}$$
+
+### 1. Identify the given variables:
+*   Wavelength ($\lambda$) = $621\text{ nm} = 621 \times 10^{-9}\text{ m}$
+*   Distance between slits ($d$) = $100\text{ }\mu\text{m} = 100 \times 10^{-6}\text{ m} = 1.0 \times 10^{-4}\text{ m}$
+*   Distance to the screen ($L$) = $1.50\text{ m}$
+*   Order of the bright spot ($m$) = $2$
+
+### 2. Perform the calculation:
+Substitute the values into the formula:
+
+$$\Delta x = \frac{2 \times (621 \times 10^{-9}\text{ m}) \times 1.50\text{ m}}{1.0 \times 10^{-4}\text{ m}}$$
+
+First, calculate the numerator:
+$$2 \times 621 \times 10^{-9} \times 1.50 = 1863 \times 10^{-9} = 1.863 \times 10^{-6}$$
+
+Now, divide by the denominator:
+$$\Delta x = \frac{1.863 \times 10^{-6}}{1.0 \times 10^{-4}}$$
+$$\Delta x = 1.863 \times 10^{-2}\text{ m}$$
+
+### 3. Convert to millimeters:
+Since $1\text{ m} = 1000\text{ mm}$:
+$$\Delta x = 1.863 \times 10^{-2} \times 1000\text{ mm} = 18.63\text{ mm}$$
+
+Rounding to two significant figures (consistent with the provided options), we get **$19\text{ mm}$**.
+
+Comparing this result to the given options:
+(A) $19\text{ mm}$
+(B) $15\text{ mm}$
+(C) $12\text{ mm}$
+(D) $3.0\text{ mm}$
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

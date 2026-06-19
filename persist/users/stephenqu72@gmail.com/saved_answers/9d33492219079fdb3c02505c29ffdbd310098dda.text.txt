@@ -1,0 +1,23 @@
+To answer this question effectively, you must link electromagnetic induction (Faraday’s and Lenz’s Laws) to the mechanical action of the motor.
+
+### Explanation of how an AC Induction Motor generates torque
+
+1.  **Rotating Magnetic Field (RMF):** When a three-phase AC supply is connected to the stator coils, it produces a rotating magnetic field that rotates at synchronous speed.
+2.  **Electromagnetic Induction:** As the magnetic field lines from the stator sweep across the conductive bars of the squirrel cage rotor, they undergo a change in magnetic flux. According to **Faraday’s Law**, this induces an electromotive force (EMF) in the rotor bars.
+3.  **Rotor Current:** Because the rotor bars form a closed circuit (short-circuited by end rings), this induced EMF causes a current to flow through the rotor bars.
+4.  **Lenz’s Law and Force:** According to **Lenz’s Law**, the direction of this induced current creates its own magnetic field that opposes the change in the original magnetic field. This creates a force ($F = BIL$) acting on the rotor bars.
+5.  **Torque Generation:** The force exerted on the current-carrying rotor bars in the presence of the stator's magnetic field creates a torque. The rotor is "dragged" along in the direction of the rotating magnetic field to minimize the relative motion between the field and the rotor.
+
+### How to approach this for full marks:
+*   **Annotate the Diagram:** 
+    *   Draw curved arrows inside the stator showing the **rotating magnetic field**.
+    *   Label the rotor bars and indicate **induced current ($I$)**.
+    *   Show force vectors ($F$) on the rotor bars to indicate the direction of rotation.
+*   **Use Keywords:** You must use the terms "Rotating Magnetic Field," "Relative Motion," "Induced Current," and "Lenz's Law."
+*   **Structure:** Break your explanation into the logical sequence of events: Input $\rightarrow$ Field $\rightarrow$ Induction $\rightarrow$ Force $\rightarrow$ Motion.
+
+### Answer Summary
+The AC supply in the stator creates a rotating magnetic field. This field cuts the rotor bars, inducing an EMF and subsequently a current in the rotor (Faraday's Law). The interaction between this induced rotor current and the stator's magnetic field produces a Lorentz force on the rotor bars. By Lenz's Law, the rotor rotates to oppose the relative motion between the rotor and the magnetic field, generating the torque necessary for rotation.
+
+###QUESTION_TYPE
+Short answer

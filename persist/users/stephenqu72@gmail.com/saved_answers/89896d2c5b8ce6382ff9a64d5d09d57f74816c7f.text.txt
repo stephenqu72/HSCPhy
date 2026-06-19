@@ -1,0 +1,22 @@
+To solve this problem, we must apply Faraday's Law of Induction, which states that the induced electromotive force (EMF or voltage) in a circuit is proportional to the negative rate of change of the magnetic flux through that circuit:
+
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+### Explanation:
+
+1.  **Mathematical Relationship:** The magnetic flux $\Phi$ through a rotating loop in a uniform magnetic field is given by $\Phi(t) = \Phi_{max} \cos(\omega t)$. When we take the derivative of the cosine function with respect to time, we obtain a sine function:
+    $$\varepsilon = - \frac{d}{dt} (\Phi_{max} \cos(\omega t)) = \omega \Phi_{max} \sin(\omega t)$$
+    This shows that the induced voltage (solid line) is the negative gradient of the magnetic flux (dashed line). 
+
+2.  **Graphical Analysis:** 
+    *   When the magnetic flux is at a **maximum** (loop perpendicular to the field), the rate of change is zero, so the voltage is **zero**.
+    *   When the magnetic flux is **zero** (loop parallel to the field), the rate of change is at its **maximum**, so the voltage is at its **peak** (or trough).
+    *   Mathematically, if the flux is a cosine wave, the voltage must be a negative sine wave (or a shifted sine wave). Looking at the options, we need the voltage to be zero when flux is at its peak.
+
+3.  **Evaluating the Graphs:**
+    *   In **Graph A**, when the magnetic flux (dashed line) is at its maximum, the voltage (solid line) is at zero. As the flux decreases, the voltage becomes positive. This is the correct phase relationship representing the derivative function $\varepsilon \propto - \frac{d\Phi}{dt}$.
+
+**Correct Answer:** The graph that best shows the relationship is **A**.
+
+###QUESTION_TYPE
+Multiple choice

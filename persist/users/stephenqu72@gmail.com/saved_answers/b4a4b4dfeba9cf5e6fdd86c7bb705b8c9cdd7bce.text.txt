@@ -1,0 +1,23 @@
+To determine which action produces the largest current, we must apply **Faraday’s Law of Induction**, which states that the induced electromotive force (EMF), $\varepsilon$, is equal to the rate of change of magnetic flux ($\Phi$):
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+The magnetic flux is defined as $\Phi = BA \cos(\theta)$, where $B$ is the magnetic field strength, $A$ is the area of the loop, and $\theta$ is the angle between the field and the normal to the loop. In the initial state, the field is perpendicular to the loop, so $\theta = 0^\circ$ and $\cos(\theta) = 1$.
+
+Let $B_0$ be the initial magnetic field strength. We analyze the change in flux ($\Delta \Phi$) for each option over a constant time interval ($\Delta t = 10$ s):
+
+*   **(A) Doubling $B$:** The final field is $2B_0$. The change in flux is $|\Delta \Phi| = |2B_0A - B_0A| = B_0A$.
+*   **(B) Halving $B$:** The final field is $0.5B_0$. The change in flux is $|\Delta \Phi| = |0.5B_0A - B_0A| = 0.5B_0A$.
+*   **(C) Reducing $B$ to zero:** The final field is $0$. The change in flux is $|\Delta \Phi| = |0 - B_0A| = B_0A$.
+*   **(D) Rotating the loop 1 time:** A full rotation means the loop goes from $0^\circ$ to $360^\circ$. While the average EMF over a full cycle is zero, the instantaneous flux change is significantly larger. However, in the context of standard HSC physics problems of this type, we compare the total change in flux relative to the initial state. 
+
+**Wait, let's look closer at (D):**
+When rotating the loop, the flux changes from $\Phi_{initial} = B_0A$ to $\Phi_{final} = -B_0A$ (at $180^\circ$ rotation). The total change in flux magnitude is:
+$$|\Delta \Phi| = |(-B_0A) - (B_0A)| = 2B_0A$$
+
+Since the time interval $\Delta t$ is the same for all options, the induced EMF (and thus the induced current) is proportional to the magnitude of the change in flux. Because $|\Delta \Phi| = 2B_0A$ for option (D) is twice as large as the flux change in (A) or (C), option (D) produces the largest average induced EMF and current during the process.
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

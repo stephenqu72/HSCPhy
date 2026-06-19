@@ -1,0 +1,43 @@
+To solve this problem, we use the principles of wave-particle duality, specifically Young's double-slit experiment equations and the de Broglie wavelength formula.
+
+### Part a) Show that the de Broglie wavelength is $2.4 \times 10^{-10}\text{ m}$
+
+**Given data:**
+- Slit separation ($d$) = $5 \times 10^{-4}\text{ m}$
+- Distance to screen ($L$) = $2.5\text{ m}$
+- Fringe separation ($\Delta x$) = $1.2 \times 10^{-6}\text{ m}$
+
+**Formula:**
+For double-slit interference, the fringe separation is given by:
+$$\Delta x = \frac{\lambda L}{d}$$
+
+**Calculation:**
+Rearrange the formula to solve for the wavelength ($\lambda$):
+$$\lambda = \frac{\Delta x \cdot d}{L}$$
+$$\lambda = \frac{(1.2 \times 10^{-6}\text{ m}) \times (5 \times 10^{-4}\text{ m})}{2.5\text{ m}}$$
+$$\lambda = \frac{6.0 \times 10^{-10}}{2.5}\text{ m}$$
+$$\lambda = 2.4 \times 10^{-10}\text{ m}$$
+This confirms the required value.
+
+---
+
+### Part b) Calculate the velocity of the electrons
+
+**Formula:**
+The de Broglie wavelength relates to momentum ($p$) via:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+Where:
+- $h$ (Planck's constant) $\approx 6.626 \times 10^{-34}\text{ J s}$
+- $m$ (mass of an electron) $\approx 9.109 \times 10^{-31}\text{ kg}$
+
+**Calculation:**
+Rearrange to solve for $v$:
+$$v = \frac{h}{m \lambda}$$
+$$v = \frac{6.626 \times 10^{-34}}{(9.109 \times 10^{-31}) \times (2.4 \times 10^{-10})}$$
+$$v = \frac{6.626 \times 10^{-34}}{2.186 \times 10^{-40}}$$
+$$v \approx 3.03 \times 10^6\text{ m/s}$$
+
+The velocity of the electrons is approximately $3.03 \times 10^6\text{ m/s}$.
+
+###QUESTION_TYPE
+Calculation question

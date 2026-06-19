@@ -1,0 +1,33 @@
+### Answer
+The correct option is **C**.
+
+---
+
+### Explanation
+
+To solve this problem, we must identify the physical meaning of the variables in the given diffraction equation: $d \sin \theta = \lambda$.
+
+1.  **Identify $d$:**
+    In the context of the Young's double-slit experiment (or diffraction grating), $d$ represents the **slit separation** (the distance between the two slits). The problem explicitly states that the light passes through "two slits $1\ \mu\text{m}$ apart." Therefore, $d = 1\ \mu\text{m}$.
+
+2.  **Identify $\theta$:**
+    The angle $\theta$ represents the angle from the central maximum to the specific maximum being observed. By constructing a right-angled triangle between the slits and the screen:
+    *   The **opposite** side of the triangle is the distance from the central maximum to the first maximum, which is $0.08\ \text{m}$.
+    *   The **adjacent** side of the triangle is the perpendicular distance from the slits to the screen, which is $0.3\ \text{m}$.
+    
+    Using basic trigonometry, the definition of tangent is:
+    $$\tan \theta = \frac{\text{opposite}}{\text{adjacent}} = \frac{0.08}{0.3}$$
+    Solving for $\theta$:
+    $$\theta = \tan^{-1} \left( \frac{0.08}{0.3} \right)$$
+
+3.  **Conclusion:**
+    Comparing these values to the provided options:
+    *   $d = 1\ \mu\text{m}$
+    *   $\theta = \tan^{-1} \left( \frac{0.08}{0.3} \right)$
+    
+    This matches **Option C**.
+
+*(Note: While small-angle approximations often allow for $\sin \theta \approx \tan \theta \approx \theta$, the question asks for the values to be used in the trigonometric expression provided, and $\tan \theta$ is the precise geometric definition derived from the right-angled triangle.)*
+
+###QUESTION_TYPE
+Multiple choice

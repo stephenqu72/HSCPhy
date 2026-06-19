@@ -1,0 +1,21 @@
+To solve this problem, we must refer to the mathematical formula for Young's Double-Slit Experiment, which describes the fringe spacing (the distance between adjacent bright fringes), denoted as $\Delta x$:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\lambda$ is the **wavelength** of the incident light.
+*   $L$ is the **distance from the slits to the screen**.
+*   $d$ is the **separation distance between the slits**.
+
+### Analysis of the options:
+To **increase** the distance between bright fringes ($\Delta x$), we need to increase the numerator ($\lambda$ or $L$) or decrease the denominator ($d$).
+
+*   **(A) Moving the screen closer to the double slits:** This decreases $L$. Since $\Delta x \propto L$, decreasing $L$ will **decrease** the fringe spacing.
+*   **(B) Increase the wavelength of the incident light:** This increases $\lambda$. Since $\Delta x \propto \lambda$, increasing $\lambda$ will **increase** the fringe spacing. This is the correct answer.
+*   **(C) Increasing the width of the slits:** The width of the individual slits affects the intensity envelope (diffraction pattern), but it does not appear in the formula for the spacing of the interference fringes ($\Delta x$). Therefore, it does not change the distance between the bright fringes.
+*   **(D) Increasing the separation distance between the slits ($d$):** Since $\Delta x \propto \frac{1}{d}$, increasing $d$ will **decrease** the fringe spacing.
+
+**Conclusion:** The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

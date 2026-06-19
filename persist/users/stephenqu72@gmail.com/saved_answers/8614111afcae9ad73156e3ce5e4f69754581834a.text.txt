@@ -1,0 +1,38 @@
+To solve this problem, we apply **Snell's Law**, which states $n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$, where $n$ is the refractive index and $\theta$ is the angle relative to the normal.
+
+### a. Angles of Refraction
+Given $n_1 = 1.00$ (air), $\theta_1 = 30^\circ$, and $n_{prism}$ values for each color:
+
+*   **Red:** $1.00 \times \sin(30^\circ) = 1.514 \times \sin(\theta_{r})$
+    $$\sin(\theta_{r}) = \frac{0.5}{1.514} \approx 0.33025 \implies \theta_{r} \approx 19.28^\circ$$
+*   **Blue:** $1.00 \times \sin(30^\circ) = 1.528 \times \sin(\theta_{b})$
+    $$\sin(\theta_{b}) = \frac{0.5}{1.528} \approx 0.32723 \implies \theta_{b} \approx 19.11^\circ$$
+
+**Red:** $19.28^\circ$, **Blue:** $19.11^\circ$
+
+---
+
+### b. Sketching to Surface B
+To find the angle of incidence at Surface B, we use geometry. The ray enters Surface A and travels towards Surface B. In a $60^\circ-60^\circ-60^\circ$ prism, the angle between the rays and the normal at Surface B is determined by the apex angle. Since the ray bends *towards* the normal upon entering, and blue bends more than red, the blue ray will strike Surface B at a slightly larger angle relative to the normal than the red ray. Draw both rays inside the prism, with the blue ray deviating more from the original path than the red ray.
+
+---
+
+### c. Critical Angles
+The critical angle $\theta_c$ is found using $\sin(\theta_c) = \frac{n_2}{n_1}$, where $n_2 = 1.00$ (air):
+
+*   **Red:** $\sin(\theta_{c,r}) = \frac{1}{1.514} \approx 0.6605 \implies \theta_{c,r} \approx 41.34^\circ$
+*   **Blue:** $\sin(\theta_{c,b}) = \frac{1}{1.528} \approx 0.6545 \implies \theta_{c,b} \approx 40.88^\circ$
+
+**Red:** $41.34^\circ$, **Blue:** $40.88^\circ$
+
+---
+
+### d. Extending beyond Surface B
+At Surface B, the rays will refract *away* from the normal when exiting into the air ($n < 1.5$). Because the blue component has a lower critical angle and higher refractive index, it will experience greater refraction (bend further away from the normal) than the red component. 
+
+1. Calculate the internal angle of incidence at Surface B using geometry (the sum of internal angles in the triangle formed by the prism surface and the ray).
+2. Use Snell's Law to find the exit angle.
+3. Draw the red ray exiting at a shallower angle than the blue ray, showing the dispersion of the light.
+
+###QUESTION_TYPE
+Calculation question

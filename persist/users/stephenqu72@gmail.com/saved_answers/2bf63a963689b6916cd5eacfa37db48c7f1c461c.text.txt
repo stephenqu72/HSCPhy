@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### (a)
+**Answer:** The curve for a four-part commutator should be drawn as a "rippling" line that oscillates at a higher frequency but with a much smaller amplitude, staying consistently above the zero line (since the torque direction is maintained). It effectively sits as the "top section" of the original sine-squared waves.
+**Explanation:** A four-part commutator switches the current more frequently, preventing the torque from dropping to zero. The peaks will occur twice as often, creating a flatter profile.
+
+#### (b)
+**Explanation:** According to Kirchhoff’s Voltage Law for a DC motor: $V_s = \mathcal{E}_b + IR$. When there is no load, the motor accelerates until the back-emf $\mathcal{E}_b$ equals the supply voltage $V_s$. At this point, the net voltage ($V_s - \mathcal{E}_b$) is zero, so $I = 0$. Since $\mathcal{E}_b = \mu\omega$, setting $\mathcal{E}_b = V_s$ gives $\mu\omega = V_s$, thus $\omega = \frac{V_s}{\mu}$.
+
+#### (c)
+**Explanation:** 
+1. Initially, $\omega = 0$, so $\mathcal{E}_b = 0$. The current is $I = \frac{V_s}{P}$.
+2. The motor produces torque $\tau = \lambda I = \frac{\lambda V_s}{P}$.
+3. The chain transfers force $F_c = \frac{\tau}{R} = \frac{\lambda V_s}{PR}$.
+4. This force creates a torque on the rear wheel: $\tau_w = F_c \times r_2 = \frac{\lambda V_s r_2}{PR}$.
+5. The force at the ground $F_g = \frac{\tau_w}{R_w} = \frac{\lambda V_s r_2}{PR R_w}$.
+6. Using $F = ma$, the initial acceleration is $a = \frac{F_g}{m} = \frac{\lambda V_s r_2}{m P R R_w}$.
+
+#### (d)
+**Answer:** $T_2 = T_1$
+**Explanation:** In an ideal system with massless gears and negligible friction, the tension in the chain is uniform throughout its length to maintain the equilibrium of the chain itself. Reversing the polarity reverses the direction of the motor, but the magnitude of the force applied through the chain remains defined by the torque magnitude.
+
+#### (e)
+**Explanation:** At terminal velocity, back-emf $\mathcal{E}_b = V_s$. When the gear is switched from $R$ to $r_1$ (where $r_1 < R$), the motor is suddenly forced to spin faster to maintain the same linear speed of the bike. Because $\mathcal{E}_b = \mu\omega$, if $\omega$ increases due to the gear change, $\mathcal{E}_b$ will step up instantaneously (or over a very short interval) to a higher value. 
+**Graph:** The line should step up at $t_1$ to a higher horizontal asymptote because the motor must rotate faster to match the wheel speed for the same forward velocity.
+
+### QUESTION_TYPE
+Calculation question

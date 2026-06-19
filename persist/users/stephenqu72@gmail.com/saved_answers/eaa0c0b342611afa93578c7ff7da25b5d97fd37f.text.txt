@@ -1,0 +1,17 @@
+To answer this question effectively, you need to connect Faraday’s Law of Induction with the graphical evidence provided.
+
+### Answer
+An electric current is induced in the solenoid due to the continuous change in magnetic flux passing through it as the magnet rotates. According to **Faraday’s Law**, an electromotive force (EMF) is induced when there is a rate of change of magnetic flux ($$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$). 
+
+Looking at the graph, the magnetic flux is constantly changing over time (the slope of the graph is non-zero for most of the cycle). Where the slope of the flux-time graph is steepest (e.g., at $t = 0, 3.5, 6.5\text{ ms}$), the rate of change of magnetic flux is at a maximum, producing the maximum induced EMF and current. Conversely, at the peaks and troughs (e.g., $t = 2, 5, 8.5\text{ ms}$), the slope is zero, meaning the rate of change of flux is zero, resulting in zero induced EMF at those specific instants. Because the flux oscillates, the induced EMF and current will also be alternating.
+
+### How to solve it
+1.  **Identify the Physics Principle:** Always link induction to **Faraday’s Law**. You must explicitly state that an EMF is induced by a *change* in magnetic flux.
+2.  **Analyze the Graph:** Do not just look at the flux values; look at the **gradient (slope)** of the line. Faraday's Law relates to the *rate* of change ($\frac{\Delta \Phi}{\Delta t}$), which is represented by the slope of the graph.
+3.  **Synthesize for the 3 Marks:**
+    *   **Mark 1:** State that the rotation of the magnet causes a changing magnetic flux through the solenoid.
+    *   **Mark 2:** Reference Faraday’s Law to explain that a changing flux induces an EMF/current.
+    *   **Mark 3:** Connect the graph specifically—mention that the *rate of change* (slope) is what determines the magnitude of the induced current (e.g., maximum current occurs where the slope is steepest).
+
+###QUESTION_TYPE
+Short answer

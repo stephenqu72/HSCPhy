@@ -1,0 +1,15 @@
+The correct answer is **(C)**.
+
+### Explanation
+To understand why transformers require AC (alternating current), you must refer to **Faraday’s Law of Induction**.
+
+1.  **How a transformer works:** A transformer consists of two coils (primary and secondary) wound around a common iron core. When an AC current flows through the primary coil, it creates a magnetic field. Because AC constantly changes its direction and magnitude, the resulting magnetic flux, $\Phi$, through the iron core is also constantly changing.
+2.  **Faraday's Law:** Faraday's Law states that an electromotive force (EMF) is induced in a conductor whenever there is a **change** in magnetic flux passing through it. This is expressed by:
+    $$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+    Where $\varepsilon$ is the induced EMF, $N$ is the number of turns, and $\frac{\Delta \Phi}{\Delta t}$ is the rate of change of magnetic flux.
+3.  **Why DC fails:** If you were to connect the primary coil to a steady DC source, the current would be constant. A constant current creates a constant magnetic field. Since the magnetic field is not changing ($\frac{\Delta \Phi}{\Delta t} = 0$), there is no induced EMF in the secondary coil, and no power is transferred. (In fact, connecting a DC source to a primary coil often results in excessive current flow due to the lack of "back EMF" or impedance, which can overheat and damage the coils).
+
+Therefore, option (C) is the only scientifically correct explanation.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+As a top HSC Physics teacher, here is how you should approach this question to secure full marks.
+
+### (a) Identify the component labelled X.
+**Answer:** Slip ring.
+
+**Explanation:** In an AC generator, slip rings are used to maintain a continuous electrical connection between the rotating coil and the external circuit, allowing the current to reverse direction every half-turn. (Distinguish this from a split-ring commutator used in DC motors).
+
+---
+
+### (b) Explain how an alternating emf is induced within the coil as it is rotated.
+**Answer:**
+1. As the coil rotates in the uniform magnetic field, the magnetic flux passing through the area of the coil changes over time.
+2. According to Faraday’s Law of Induction, an emf is induced equal to the rate of change of magnetic flux linkage, $\mathcal{E} = -N \frac{d\Phi}{dt}$.
+3. Because the coil rotates, the angle between the normal to the coil and the magnetic field changes sinusoidally. This causes the magnetic flux $\Phi = BA \cos(\theta)$ to vary periodically. As the sides of the coil move across the field lines, the direction of the induced current reverses every half-rotation (as dictated by Lenz's Law), resulting in an alternating emf.
+
+---
+
+### (c) The frequency of the generator is doubled. Draw the resulting voltage output.
+**Explanation:** 
+Doubling the frequency ($f$) has two effects:
+1. **Time period ($T$):** Since $T = \frac{1}{f}$, doubling the frequency halves the period. The original wave completed one full cycle in $20\text{ ms}$. The new wave will complete one full cycle in $10\text{ ms}$.
+2. **Peak Voltage ($V_{peak}$):** The induced emf is given by $\mathcal{E} = N B A \omega \sin(\omega t)$, where $\omega = 2\pi f$. Since $\omega$ is proportional to frequency, doubling the frequency also doubles the peak voltage from $25\text{ kV}$ to $50\text{ kV}$.
+
+**Drawing instructions:**
+*   Draw a sine wave that reaches a peak of $+50\text{ kV}$ at $t = 2.5\text{ ms}$ and a trough of $-50\text{ kV}$ at $t = 7.5\text{ ms}$.
+*   The wave must cross zero at $t = 0, 5, 10, 15, 20\text{ ms}$.
+*   You should see two complete cycles between $0$ and $20\text{ ms}$.
+
+---
+
+### QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,27 @@
+To answer this question, we must look at the mathematical relationship governing Young's double-slit experiment.
+
+### The Physics Principle
+The fringe spacing ($\Delta x$) of an interference pattern—which is the distance between adjacent bright fringes—is given by the formula:
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance from the slits to the screen.
+*   $d$ is the separation between the two slits.
+
+### How to Solve It
+1.  **Identify the variables:** The question states that all patterns were recorded at the same distance ($L$) and we assume the same light source is used ($\lambda$). Therefore, the fringe spacing ($\Delta x$) is **inversely proportional** to the slit separation ($d$):
+    $$\Delta x \propto \frac{1}{d}$$
+2.  **Apply the relationship:** If the slit separation $d$ is **largest**, the fringe spacing $\Delta x$ must be the **smallest**.
+3.  **Analyze the images:** We need to find the pattern where the fringes are most tightly packed together (i.e., the smallest distance between the centers of adjacent bright bands).
+    *   Pattern A has the widest spacing.
+    *   Pattern B has narrower spacing.
+    *   Pattern C has even narrower spacing.
+    *   Pattern D has the most compressed, closely packed fringes.
+
+Since pattern **D** has the smallest fringe spacing, it corresponds to the largest slit separation.
+
+**Answer:** D
+
+###QUESTION_TYPE
+Multiple choice

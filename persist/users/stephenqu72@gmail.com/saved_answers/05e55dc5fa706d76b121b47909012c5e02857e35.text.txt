@@ -1,0 +1,32 @@
+To solve this HSC physics problem, we use the formula for Young’s Double Slit Experiment, which relates the wavelength ($\lambda$), the slit separation ($d$), the fringe separation ($\Delta x$), and the distance to the screen ($L$).
+
+### 1. The Diagram
+When drawing the diagram, ensure you label:
+*   The two slits separated by distance $d = 300\text{ }\mu\text{m}$.
+*   The distance from the slits to the screen, $L = 4.3\text{ m}$.
+*   The fringe pattern on the screen, indicating the distance between the central maximum ($m=0$) and the first bright fringe ($m=1$) as $\Delta x = 8\text{ mm}$.
+
+### 2. Calculation
+**Step 1: Identify and convert variables to SI units.**
+*   Slit separation $d = 300\text{ }\mu\text{m} = 300 \times 10^{-6}\text{ m} = 3 \times 10^{-4}\text{ m}$
+*   Distance to screen $L = 4.3\text{ m}$
+*   Fringe separation $\Delta x = 8\text{ mm} = 8 \times 10^{-3}\text{ m}$
+
+**Step 2: Use the fringe separation formula.**
+The formula for the position of bright fringes is $\Delta x = \frac{\lambda L}{d}$. We rearrange this to solve for $\lambda$:
+$$\lambda = \frac{\Delta x \cdot d}{L}$$
+
+**Step 3: Substitute the values.**
+$$\lambda = \frac{(8 \times 10^{-3}\text{ m}) \times (3 \times 10^{-4}\text{ m})}{4.3\text{ m}}$$
+$$\lambda = \frac{24 \times 10^{-7}}{4.3}\text{ m}$$
+$$\lambda \approx 5.58 \times 10^{-7}\text{ m}$$
+
+**Step 4: Convert to nanometers (optional but standard for light).**
+$$\lambda \approx 558\text{ nm}$$
+
+**Final Answer:** The wavelength of the laser is approximately $5.58 \times 10^{-7}\text{ m}$ or $558\text{ nm}$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,24 @@
+To solve this problem, we apply **Lenz's Law**, which states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+
+### Step-by-Step Explanation:
+
+**1. Entering the field:**
+As the square coil moves from left to right and enters the uniform magnetic field (directed into the page), the magnetic flux through the coil *increases* (from zero to a maximum value). 
+*   According to Lenz's Law, the coil must induce a magnetic field that points **out of the page** to oppose this increase in inward flux.
+*   Using the Right-Hand Grip Rule, if you point your thumb out of the page, your fingers curl in an **anti-clockwise** direction. Therefore, as the coil enters the field, the induced current is anti-clockwise.
+
+**2. Inside the field:**
+While the entire coil is fully within the uniform magnetic field, the total magnetic flux passing through the area of the coil remains constant (because the field is uniform and the coil is moving at a constant speed). Since there is no change in flux ($\Delta\Phi = 0$), no current is induced during this phase.
+
+**3. Leaving the field:**
+As the coil exits the field, the magnetic flux through the coil *decreases* (from a maximum value back to zero).
+*   According to Lenz's Law, the coil must induce a magnetic field that points **into the page** to oppose this decrease.
+*   Using the Right-Hand Grip Rule, if you point your thumb into the page, your fingers curl in a **clockwise** direction. Therefore, as the coil leaves the field, the induced current is clockwise.
+
+**Conclusion:**
+The sequence of induced current is first anti-clockwise (entering) and then clockwise (leaving).
+
+Comparing this to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

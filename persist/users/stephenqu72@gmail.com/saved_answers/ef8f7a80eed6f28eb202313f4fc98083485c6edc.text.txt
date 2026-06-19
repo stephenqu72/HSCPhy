@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To solve this problem, we need to analyze the components of the generator and the orientation of the coil at $t=0$.
+
+1.  **Identify the generator type:** The diagram shows a coil rotating in a magnetic field connected to a **split-ring commutator** (visible at the axle). A split-ring commutator is used in DC generators to ensure that the output current (and voltage) remains in the same direction, even though the induced current in the coil alternates. This process is known as **rectification**.
+2.  **Analyze the orientation at $t=0$:** The question states that at $t=0$, the coil is horizontal. In this position, the plane of the coil is parallel to the magnetic field lines. The magnetic flux $\Phi$ through the coil is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field. When the coil is horizontal, $\theta = 90^\circ$, so $\Phi = 0$. 
+3.  **Determine the induced EMF:** According to Faraday's Law, the induced EMF is $\varepsilon = -N \frac{d\Phi}{dt}$. When the flux is zero (at $t=0$), the **rate of change of flux is at its maximum**. Therefore, the induced EMF should be at its **maximum value** at $t=0$. 
+    *   *Self-Correction/Note:* If the question implies $t=0$ is the start of the motion from the horizontal position where the flux is changing fastest, the graph should start at a maximum. Looking at the options, we see that graphs (C) and (D) are rectified outputs. 
+4.  **Differentiating (C) and (D):**
+    *   A standard DC generator with a single-loop coil and split-ring commutator produces a "pulsating" DC voltage.
+    *   As the coil rotates from the horizontal position, the EMF is maximum. As it reaches the vertical position (where flux is max), the EMF drops to zero. 
+    *   Graph (C) shows the voltage starting at a peak and dropping to zero, which corresponds to the coil moving from horizontal to vertical. Graph (D) represents a full-wave rectified output (often achieved with a different brush arrangement or a bridge rectifier), whereas the split-ring setup depicted produces the half-wave pulsating output shown in (C).
+
+Therefore, (C) is the best representation of a single-coil DC generator output.
+
+###QUESTION_TYPE
+Multiple choice

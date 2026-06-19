@@ -1,0 +1,18 @@
+To answer this question effectively, you must identify the key difference in the output current produced by these two components in a generator.
+
+### Answer
+*   **Slip rings:** Used in AC generators (alternators) to maintain a continuous connection between the rotating coil and the external circuit, allowing the induced current to reverse direction every half-rotation, resulting in an alternating current (AC) output.
+*   **Split-ring commutator:** Used in DC generators to reverse the connection to the external circuit every half-rotation. This ensures that the current flows in the same direction through the external circuit, resulting in a pulsating direct current (DC) output.
+
+### How to solve this
+1.  **Understand the "Compare" directive:** Whenever you see "compare," you must highlight both similarities and/or differences. Here, the focus is on their different roles in dictating the nature of the output current.
+2.  **Focus on the function:**
+    *   Think about the physics of induction. As a coil rotates in a magnetic field, the induced EMF reverses sign every $180^\circ$ (half-turn) due to the change in magnetic flux.
+    *   **Slip rings** are two complete circular rings that simply pass this reversing current directly to the load. Thus, the output matches the nature of the induced current (AC).
+    *   **Split-ring commutators** are designed to mechanically rectify the current. By flipping the contacts at the exact moment the induced EMF reverses, they ensure the output always travels in the same direction relative to the external circuit (DC).
+3.  **Structure your answer for 2 marks:**
+    *   Mark 1: Identify that slip rings produce alternating current because they maintain the orientation of the coil to the circuit.
+    *   Mark 2: Identify that split-ring commutators produce direct current because they reverse the external connections to maintain unidirectional current flow.
+
+###QUESTION_TYPE
+Short answer

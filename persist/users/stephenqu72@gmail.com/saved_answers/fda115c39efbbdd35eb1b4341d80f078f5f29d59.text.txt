@@ -1,0 +1,23 @@
+### Answer
+
+**(a)** To calculate the surface temperature, we use Wien’s Displacement Law:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$$
+
+1. From the provided graph, identify the peak wavelength ($\lambda_{max}$). The peak occurs at approximately $790 \, \text{nm}$ (or $7.9 \times 10^{-7} \, \text{m}$).
+2. Rearrange the formula: $T = \frac{2.898 \times 10^{-3}}{\lambda_{max}}$
+3. Substitute the values:
+   $$T = \frac{2.898 \times 10^{-3}}{7.9 \times 10^{-7}} \approx 3668 \, \text{K}$$
+The surface temperature of 30 Piscium is approximately **$3670 \, \text{K}$**.
+
+**(b)** The light from the star can be used to determine its chemical composition through **absorption spectroscopy**. 
+As light passes from the hot interior of the star through its cooler outer atmosphere, the gases in the atmosphere absorb specific wavelengths of light corresponding to the energy levels of their atoms. When the resulting light is passed through a spectroscope or spectrometer, it produces an absorption spectrum—a continuous spectrum crossed by dark lines. Because every element has a unique set of energy levels, these dark lines act as a "fingerprint," allowing astronomers to identify the specific elements present in the star's atmosphere by comparing the observed lines to known laboratory spectra.
+
+---
+
+### How to solve it
+
+*   **For part (a):** Recognize that the peak of a blackbody radiation curve is directly linked to temperature via Wien’s Law. Always ensure your units are consistent; convert nanometers ($\text{nm}$) to meters ($\text{m}$) by multiplying by $10^{-9}$ before calculating, as the constant is in standard SI units.
+*   **For part (b):** This is a conceptual question testing your knowledge of spectroscopy. Focus on three key terms: "absorption," "spectral lines," and "fingerprint." Explaining that each element has unique electron energy transitions is essential to show a deep understanding of why the technique works.
+
+###QUESTION_TYPE
+Calculation question

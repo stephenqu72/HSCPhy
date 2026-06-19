@@ -1,0 +1,29 @@
+To answer this question effectively for an HSC Physics exam, you need to apply Faraday's Law and Lenz's Law to the principles of electromagnetic induction.
+
+### Answer
+Magnet B takes longer to fall through the aluminium tube because of the interaction between the moving magnetic field and the conductive material of the tube. As magnet B falls, the magnetic flux through the cross-section of the aluminium tube changes. According to **Faraday's Law of Induction**, this changing magnetic flux induces an electromotive force (EMF) in the aluminium tube, which drives **eddy currents** within the tube walls.
+
+According to **Lenz's Law**, these eddy currents create their own magnetic field that opposes the change in magnetic flux that produced them. This induced magnetic field exerts a repulsive force on the approaching pole of the magnet and an attractive force on the trailing pole, creating a magnetic braking effect. No such currents are induced in the plastic tube because plastic is an insulator. Therefore, magnet A falls freely under gravity, while magnet B experiences an opposing magnetic force that decelerates its fall.
+
+---
+
+### How to solve this (HSC Exam Strategy)
+When approaching a 5-mark explanation question like this, follow this logical framework:
+
+1.  **Identify the Physics Principles:** Immediately recall the relationship between moving magnets and conductors. The key concepts are **Faraday’s Law** (change in flux induces EMF) and **Lenz’s Law** (the opposition to that change).
+2.  **Define the mechanism:** Explicitly mention "eddy currents." These are circular loops of current induced in the bulk material of the conductor (the aluminium tube).
+3.  **Establish causality:** 
+    *   Explain *why* the current is there: Change in magnetic flux ($\Delta \Phi_B / \Delta t$) as the magnet moves.
+    *   Explain *the effect* of the current: The eddy currents produce a secondary magnetic field.
+4.  **Connect to Lenz's Law:** State that the induced magnetic field acts to oppose the motion of the magnet. Use the phrase "opposes the change in magnetic flux" to ensure you hit the syllabus terminology.
+5.  **Contrast:** Briefly state why this doesn't happen in the plastic tube (plastic is a non-conductor/insulator, so no EMF can drive a current).
+
+**Structuring your 5 marks:**
+*   **Mark 1:** Identifying the change in magnetic flux.
+*   **Mark 2:** Mentioning the induction of eddy currents in the aluminium.
+*   **Mark 3:** Referencing Lenz’s Law/the opposition to motion.
+*   **Mark 4:** Describing the repulsive/attractive forces (the magnetic braking effect).
+*   **Mark 5:** Explicitly contrasting with the non-conductive plastic tube.
+
+###QUESTION_TYPE
+Short answer

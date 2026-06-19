@@ -1,0 +1,8 @@
+### Front
+How do you calculate the spring constant ($k$) when given the elastic potential energy ($E_p$) and the displacement ($x$)?
+
+### Back
+- Key idea: Relate the energy stored during deformation to the magnitude of that deformation.
+- Formula / law / constant / figure: $E_p = \frac{1}{2}kx^2 \implies k = \frac{2E_p}{x^2}$
+- When to use it: When you know how much energy was absorbed by a net/spring and the distance it stretched or compressed.
+- Common trap: Using the total vertical height fallen instead of only the displacement ($x$) produced by the spring/net.

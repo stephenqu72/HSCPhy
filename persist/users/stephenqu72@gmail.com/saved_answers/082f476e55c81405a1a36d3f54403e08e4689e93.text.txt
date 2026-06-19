@@ -1,0 +1,27 @@
+To solve this problem, we need to determine the difference in the lengths of the two paths taken by the radio waves and express that difference in terms of the wavelength $\lambda$.
+
+### 1. Calculate the length of each path
+*   **Path 1 ($P \rightarrow Q \rightarrow R$):** The total distance is the sum of the segments $PQ$ and $QR$.
+    $$\text{Path}_1 = 20\text{ m} + 18\text{ m} = 38\text{ m}$$
+*   **Path 2 ($P \rightarrow R$):** The distance is given directly as the straight line segment $PR$.
+    $$\text{Path}_2 = 30\text{ m}$$
+
+### 2. Calculate the path difference ($\Delta x$)
+The path difference is the absolute difference between the two path lengths:
+$$\Delta x = |\text{Path}_1 - \text{Path}_2| = 38\text{ m} - 30\text{ m} = 8\text{ m}$$
+
+### 3. Calculate the wavelength ($\lambda$)
+Radio waves travel at the speed of light, $c \approx 3.0 \times 10^8\text{ m/s}$. Given the frequency $f = 75\text{ MHz} = 75 \times 10^6\text{ Hz}$, we use the wave equation $c = f\lambda$:
+$$\lambda = \frac{c}{f} = \frac{3.0 \times 10^8\text{ m/s}}{75 \times 10^6\text{ Hz}}$$
+$$\lambda = \frac{300}{75}\text{ m} = 4\text{ m}$$
+
+### 4. Express path difference in terms of $\lambda$
+We want to find $n$ such that $\Delta x = n\lambda$:
+$$8\text{ m} = n \times (4\text{ m})$$
+$$n = \frac{8}{4} = 2$$
+Therefore, the path difference is $2\lambda$.
+
+**Correct Option:** **(B)**
+
+###QUESTION_TYPE
+Multiple choice

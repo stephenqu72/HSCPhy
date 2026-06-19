@@ -1,0 +1,19 @@
+### Answer
+To convert electrical energy into mechanical energy (rotational kinetic energy), the following process occurs:
+
+1.  **Stator Induction:** When an AC supply is connected to the stator windings, it creates a **rotating magnetic field (RMF)**.
+2.  **Electromagnetic Induction:** This RMF cuts across the conductors in the rotor (squirrel cage). According to Faraday’s Law and Lenz’s Law, this induces an EMF and subsequently a current within the rotor bars.
+3.  **Torque Production:** The induced current in the rotor creates its own magnetic field. This field interacts with the stator's rotating magnetic field, producing a Lorentz force (or torque) that causes the rotor to spin in the same direction as the RMF to minimize relative motion.
+
+### Explanation
+To score full marks on a "discuss" question like this, you must link the concepts of energy transformation to the underlying electromagnetic principles:
+
+*   **The "Why":** Start by explicitly stating the energy conversion: Electrical energy from the supply is converted into mechanical energy (rotation).
+*   **The "How" (The physics):** Use the technical vocabulary required for Physics HSC. Key terms include:
+    *   **Rotating Magnetic Field (RMF):** The fundamental mechanism provided by the AC current in the stator.
+    *   **Induction:** The rotor is not connected to a power supply; the current is *induced* by the RMF cutting the rotor bars.
+    *   **Lenz's Law:** Explain that the rotor spins to "chase" the magnetic field to oppose the change in magnetic flux. This explains why the rotor turns.
+*   **Structure:** Since it is worth 3 marks, provide three clear, logical steps or points as shown above (Stator action $\rightarrow$ Induction in rotor $\rightarrow$ Resultant torque/motion).
+
+###QUESTION_TYPE
+Short answer

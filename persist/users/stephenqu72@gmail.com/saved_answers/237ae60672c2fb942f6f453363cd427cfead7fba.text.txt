@@ -1,0 +1,16 @@
+To solve this question, we must understand the relationship between the rotational speed of a DC motor and the voltage within the system.
+
+### Explanation
+1.  **Understanding Back EMF:** When the armature of a DC motor rotates within a magnetic field, the coils cut magnetic flux lines. According to Faraday's Law, this induces an EMF in the coils. By Lenz's Law, this induced EMF acts in opposition to the supply voltage that is driving the motor; hence, it is called **back EMF** ($\varepsilon_{back}$).
+2.  **The Relationship:** The net voltage driving the current $I$ through the armature resistance $R$ is given by:
+    $$V_{supply} - \varepsilon_{back} = IR$$
+3.  **Speed and EMF:** The back EMF is directly proportional to the rotational speed ($\omega$) of the motor ($\varepsilon_{back} \propto \omega$). 
+4.  **Reaching the Maximum Speed:** As the motor speeds up, the back EMF increases. Eventually, the back EMF becomes almost equal to the supply voltage. As $\varepsilon_{back}$ approaches $V_{supply}$, the net voltage ($V_{supply} - \varepsilon_{back}$) approaches zero, which in turn causes the armature current $I$ to approach zero. 
+5.  **Torque:** Since torque $\tau$ is proportional to current ($\tau = kI$), when the current drops to zero, the motor can no longer provide any additional torque to accelerate further. This point is the **maximum no-load speed**.
+
+Therefore, the limit on the rotational speed of a DC motor is primarily caused by the back EMF increasing until it balances the supply voltage.
+
+**Correct Option: (B) back EMF.**
+
+###QUESTION_TYPE
+Multiple choice

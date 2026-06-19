@@ -1,0 +1,30 @@
+To achieve full marks on this 7-mark HSC Physics question, you must demonstrate a deep understanding of energy transformations, power, and efficiency.
+
+### Answer
+The maximum brightness of the light globe is determined by the **power output** ($P_{out}$) of the generator, which is limited by the **rate of energy input** from the gravitational potential energy of the falling mass.
+
+Factors affecting brightness include:
+1.  **Mass ($m$) and Height ($h$):** The total energy available is $E = mgh$. Increasing the mass or the initial height increases the total energy available to the system.
+2.  **Velocity of the mass ($v$):** The rate at which energy is delivered (power) depends on the velocity of the falling mass. Since $P = \frac{\Delta E}{\Delta t} = Fv = mgv$, a higher velocity translates to higher mechanical power input to the generator.
+3.  **Efficiency ($\eta$):** The generator is not 100% efficient due to friction, heat loss, and internal resistance. The output power is $P_{out} = \eta \times P_{in}$.
+4.  **Circuit Resistance ($R$):** The brightness (electrical power) depends on the voltage produced ($V$) and the resistance of the bulb ($R$). Power is given by $P = \frac{V^2}{R}$. The generator must induce a voltage high enough to overcome internal losses to effectively light the bulb.
+
+---
+
+### How to solve this
+To structure your response for 7 marks, use the following approach:
+
+*   **1. Establish the Energy Model:** Start with the conservation of energy. State that the gravitational potential energy of the mass is converted into mechanical work to spin the generator:
+    $$E_p = mgh$$
+*   **2. Introduce Power:** Explain that "brightness" is directly related to the **electrical power output**. Link mechanical power input to the falling mass:
+    $$P_{mechanical} = \frac{\Delta E}{\Delta t} = mgv$$
+*   **3. Discuss Efficiency:** Acknowledge that energy is lost. Define efficiency ($\eta$) as:
+    $$\eta = \frac{P_{output}}{P_{input}}$$
+    Mention that friction in the pulley/axle and resistive heating ($I^2R$ losses) in the generator windings reduce the power that actually reaches the bulb.
+*   **4. Link to Brightness:** Connect electrical power to the bulb's brightness. Use the formula:
+    $$P_{electrical} = VI = I^2R = \frac{V^2}{R}$$
+    Explain that the generator must spin fast enough to induce a sufficient EMF to overcome the globe's required operating voltage and internal resistance.
+*   **5. Synthesis:** Conclude by summarizing that maximum brightness is achieved by maximizing the rate of work done by gravity (maximizing $v$) and minimizing losses within the conversion process (optimizing efficiency).
+
+###QUESTION_TYPE
+Essay

@@ -1,0 +1,20 @@
+To solve this problem, we must apply **Faraday’s Law of Induction**, which states that the induced electromotive force (EMF) in a circuit is proportional to the negative rate of change of magnetic flux ($\Phi$) through the circuit:
+
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Relationship:** The equation above shows that the induced EMF is the negative derivative of the magnetic flux with respect to time. Mathematically, if the magnetic flux is a cosine function, $\Phi(t) = \Phi_0 \cos(\omega t)$, then the EMF will be a sine function (specifically, $\varepsilon(t) = \Phi_0 \omega \sin(\omega t)$). Conversely, if the flux is a sine function, the EMF will be a negative cosine function.
+2.  **Analyze the Given Graph:** The provided graph for the induced EMF starts at **zero** and moves to a **positive maximum**. This is characteristic of a **sine wave** ($\sin(\theta)$).
+3.  **Determine the Flux Function:** Since $\varepsilon \propto -\frac{d\Phi}{dt}$, we are looking for a function $\Phi(t)$ such that its derivative results in the given sine wave.
+    *   If $\Phi(t)$ is a **positive cosine wave** (starting at a maximum), its derivative is a **negative sine wave**.
+    *   If $\Phi(t)$ is a **negative cosine wave** (starting at a minimum), its derivative is a **positive sine wave**.
+4.  **Evaluate the Options:**
+    *   Look at the starting point ($t=0$): At $t=0$, the EMF is $0$. At this moment, the rate of change of flux must be zero (the tangent of the flux graph must be horizontal).
+    *   For the EMF to increase positively immediately after $t=0$, the flux must be **decreasing** at its maximum rate. This corresponds to the flux starting at a maximum and dropping (a negative cosine wave).
+    *   Graph **B** shows the flux starting at a maximum. As the flux decreases from its maximum, the rate of change is negative, which, multiplied by the negative sign in Faraday's Law, produces the positive induced EMF seen in the original graph.
+
+The correct graph is **B**.
+
+###QUESTION_TYPE
+Multiple choice

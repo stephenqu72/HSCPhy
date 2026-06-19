@@ -1,0 +1,28 @@
+### Answer
+
+To obtain full marks on a 9-mark HSC question, you must demonstrate a deep, structured understanding of the physics of stellar spectra. The production of a star’s spectrum is generally described by the model of a hot, dense core (producing a continuous blackbody spectrum) surrounded by a cooler, thinner atmosphere (the photosphere), which absorbs specific wavelengths to create absorption lines.
+
+**1. Surface Temperature:**
+The continuous spectrum follows Planck’s Law. By applying **Wien’s Displacement Law** ($\lambda_{max} = \frac{b}{T}$), astronomers identify the peak wavelength of the continuous spectrum. A shift toward shorter (bluer) wavelengths indicates a hotter surface, while a shift toward longer (redder) wavelengths indicates a cooler surface. Furthermore, the relative strengths of specific absorption lines (e.g., hydrogen vs. ionized metals) are used to classify stars into spectral types (O, B, A, F, G, K, M).
+
+**2. Chemical Composition:**
+Each element has a unique set of energy levels for its electrons. When light from the core passes through the cooler photosphere, atoms absorb photons with energies exactly matching the transition between these levels. These appear as absorption lines at specific wavelengths. By matching these lines to known laboratory spectra, astronomers identify the specific elements present in the star’s atmosphere.
+
+**3. Translational and Rotational Velocity:**
+*   **Translational Velocity:** Using the **Doppler Effect**, if a star is moving relative to Earth, the entire spectrum is shifted. A redshift indicates movement away, and a blueshift indicates movement toward the observer ($z = \frac{\Delta \lambda}{\lambda} \approx \frac{v}{c}$).
+*   **Rotational Velocity:** As a star rotates, one side approaches Earth (blueshift) and the other recedes (redshift). This causes **spectral line broadening**. The faster the star rotates, the wider the absorption lines appear.
+
+**4. Density:**
+Density affects the pressure in the stellar atmosphere, which influences the spectral lines through **pressure broadening** (Stark effect). Higher density leads to more frequent collisions between atoms, which perturbs energy levels and causes spectral lines to broaden. Comparing the width of lines allows astronomers to determine the luminosity class (e.g., a supergiant vs. a main-sequence star), which is directly related to atmospheric density.
+
+---
+
+### How to solve this question
+1.  **Structure your essay:** Use clear subheadings for each parameter (Temperature, Composition, Velocity, Density). This makes your answer easy for the marker to navigate.
+2.  **Define the mechanism:** Start by briefly explaining *why* the spectrum is an absorption spectrum (core/photosphere model).
+3.  **Link Physics to Analysis:** For every point, ensure you name the physical principle (e.g., Doppler Effect, Wien's Law, Quantum Energy Levels).
+4.  **Use Terminology:** Use "HSC-level" vocabulary like "blackbody radiation," "spectral lines," "photosphere," "redshift/blueshift," and "broadening."
+5.  **Address all parts of the prompt:** The question asks for temperature, rotation, translation, density, and composition. Ensure you have a dedicated sentence or two for each.
+
+###QUESTION_TYPE
+Essay

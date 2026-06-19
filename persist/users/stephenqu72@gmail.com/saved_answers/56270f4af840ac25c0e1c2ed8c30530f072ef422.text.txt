@@ -1,0 +1,33 @@
+To solve this problem, we apply **Faraday's Law of Induction**, which states that the induced electromotive force (emf), denoted by $\varepsilon$, is equal to the negative rate of change of magnetic flux ($\Phi$) with respect to time ($t$):
+
+$$\varepsilon = - \frac{\Delta \Phi}{\Delta t}$$
+
+The magnitude of the induced emf, $|\varepsilon|$, is equivalent to the **steepness (gradient)** of the magnetic flux-time graph at any given point.
+
+### Step-by-Step Analysis:
+
+1.  **Understand the Gradient:**
+    *   Where the graph is **horizontal** (gradient $= 0$), the induced emf is **zero**.
+    *   Where the graph has a **constant slope**, the induced emf is constant and non-zero.
+    *   A **steeper slope** corresponds to a **larger magnitude** of induced emf.
+
+2.  **Evaluate the times:**
+    *   **Points P, R, and T:** These points lie on horizontal sections of the graph. The gradient at these points is $0$, meaning the induced emf is $0$.
+    *   **Point Q:** This point lies on a very steep section of the graph where the magnetic flux is changing rapidly.
+    *   **Point S:** This point lies on a section of the graph that is less steep (closer to horizontal) than the section at Q.
+
+3.  **Compare magnitudes:**
+    *   **$emf = 0$:** P, R, and T.
+    *   **Largest emf:** The steepest section of the graph is where point Q is located. Thus, Q has the largest magnitude of induced emf.
+    *   **Smallest non-zero emf:** Among the non-zero sections, the slope at S is less steep than the slope at Q. Thus, S has the smallest non-zero emf.
+
+### Conclusion:
+Comparing our findings to the options:
+*   Largest emf: **Q**
+*   Smallest non-zero emf: **S**
+*   $emf = 0$: **P, R, T**
+
+This matches option **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+### Answer
+The correct answer is **(A) Increase the distance between the mirrors.**
+
+### Explanation
+To understand why this is the correct adjustment, let's look at the physics behind Foucault’s experiment.
+
+1.  **Understand the Variables:**
+    The light travels from the rotating mirror to the fixed mirror and back. Let the distance between the two mirrors be $d$. The total distance the light travels is $2d$.
+    If the speed of light is $c$, the time taken for the round trip is:
+    $$t = \frac{2d}{c}$$
+
+2.  **Relate Time to Angular Displacement:**
+    During this time $t$, the rotating mirror spins at an angular velocity $\omega$. The angle $\theta$ (in radians) through which the mirror rotates is given by:
+    $$\theta = \omega \cdot t$$
+
+3.  **Combine the Equations:**
+    Substituting $t$ into the angle equation:
+    $$\theta = \omega \cdot \frac{2d}{c} = \frac{2\omega d}{c}$$
+
+4.  **Analyzing the Relationship:**
+    From the final formula $\theta = \frac{2\omega d}{c}$, we can see that the angle $\theta$ is **directly proportional** to the distance $d$ between the mirrors. 
+    *   If you **increase the distance ($d$)**, the light takes longer to travel back and forth.
+    *   Because the light takes longer, the mirror has more time to rotate, which results in a **larger angle ($\theta$)**.
+    *   A larger measured angle reduces the relative uncertainty in the measurement, making the final value for the speed of light more precise.
+
+**Why the other options are incorrect:**
+*   **(B)** Decreasing the distance would decrease the time taken, leading to a smaller angle and higher uncertainty.
+*   **(C) and (D)** While increasing the angular velocity ($\omega$) also increases the angle $\theta$, increasing the distance is the standard "easiest" experimental adjustment in this classical setup to amplify the effect without requiring the mechanical complexities of spinning a mirror significantly faster (which could lead to structural failure or increased vibrations). In the context of HSC Physics, increasing the distance is the preferred conceptual answer for maximizing the measurable deviation.
+
+### QUESTION_TYPE
+Multiple choice

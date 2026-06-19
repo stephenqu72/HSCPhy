@@ -1,0 +1,8 @@
+### Front
+How do you calculate the change in kinetic energy ($\Delta E_k$) when given net force ($F$), mass ($m$), time interval ($t$), and initial velocity ($u$)?
+
+### Back
+- Key idea: Use Newton’s Second Law and kinematics to find final velocity, then apply the Work-Energy Theorem.
+- Formula / law / constant / figure: $\Delta E_k = \frac{1}{2}m(v^2 - u^2)$
+- When to use it: When $v$ is unknown but acceleration ($a$) can be derived from $F$ and $m$.
+- Common trap: Forgetting to convert mass to kilograms (e.g., $200\text{ g} \rightarrow 0.2\text{ kg}$) or failing to calculate $v$ using $v = u + at$ first.

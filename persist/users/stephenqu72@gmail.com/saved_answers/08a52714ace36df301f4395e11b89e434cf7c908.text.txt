@@ -1,0 +1,35 @@
+To determine the wavelength of the laser light, we use the diffraction grating formula:
+
+$$d \sin(\theta) = n\lambda$$
+
+### 1. Identify the given values
+*   **Grating density:** $600\text{ lines/mm} = 600,000\text{ lines/m}$.
+    The slit separation $d$ is:
+    $$d = \frac{1}{600,000} \approx 1.667 \times 10^{-6}\text{ m}$$
+*   **Distance to screen ($L$):** $2.0\text{ m}$
+*   **Position of first-order fringe ($x$):** $0.65\text{ m}$ (at $n = 1$)
+
+### 2. Calculate the angle ($\theta$)
+Using trigonometry for the right-angled triangle formed by the grating, the central fringe, and the first-order fringe:
+$$\tan(\theta) = \frac{x}{L} = \frac{0.65}{2.0} = 0.325$$
+$$\theta = \arctan(0.325) \approx 18.00^\circ$$
+
+### 3. Calculate the wavelength ($\lambda$)
+Using $n = 1$ for the first-order fringe:
+$$\lambda = \frac{d \sin(\theta)}{n}$$
+$$\lambda = (1.667 \times 10^{-6}) \times \sin(18.00^\circ) / 1$$
+$$\lambda \approx 1.667 \times 10^{-6} \times 0.309$$
+$$\lambda \approx 5.15 \times 10^{-7}\text{ m}$$
+
+Converting to nanometers ($1\text{ nm} = 10^{-9}\text{ m}$):
+$$\lambda \approx 515\text{ nm}$$
+
+**Final Answer:** The wavelength of the laser light is approximately $515\text{ nm}$.
+
+### Teacher's Explanation
+1.  **Calculate the slit spacing ($d$):** Remember that $d$ must be in metres. Since there are 600 lines in $1\text{ mm}$, there are $600 \times 10^3$ lines in $1\text{ m}$. Thus, $d = 1 / (600,000)$.
+2.  **Find the angle ($\theta$):** The pattern shows the first-order maximum ($n=1$) at $0.65\text{ m}$. We use the geometry of the setup to find the angle of diffraction using $\tan(\theta) = \text{opposite}/\text{adjacent}$.
+3.  **Apply the formula:** Substitute $d$, $\theta$, and $n=1$ into the grating equation to solve for $\lambda$. Ensure your calculator is in "Degrees" mode.
+
+###QUESTION_TYPE
+Calculation question

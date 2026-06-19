@@ -1,0 +1,30 @@
+### Solution and Explanation
+
+#### Part (A): Derivation
+To derive the motional emf formula, we begin with Faraday's Law of Induction, which states that the induced emf ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = -\frac{\Delta\Phi}{\Delta t}$$
+
+1. Magnetic flux is defined as $\Phi = BA$, where $A$ is the area perpendicular to the magnetic field.
+2. Consider a wire of length $L$ moving at velocity $v$. In a small time interval $\Delta t$, the wire moves a distance $\Delta x = v\Delta t$.
+3. The change in the area swept by the wire is $\Delta A = L \cdot \Delta x = L \cdot v \cdot \Delta t$.
+4. The change in flux is therefore $\Delta\Phi = B \cdot \Delta A = B \cdot L \cdot v \cdot \Delta t$.
+5. Substituting this into Faraday's Law (taking the magnitude):
+$$\varepsilon = \frac{B \cdot L \cdot v \cdot \Delta t}{\Delta t} = BLv$$
+
+#### Part (B): Calculation
+Given the parameters:
+* Magnetic field strength ($B$) = $2\text{ T}$
+* Length of wire ($L$) = $3\text{ m}$
+* Velocity ($v$) = $4\text{ ms}^{-1}$
+
+Using the derived formula:
+$$\varepsilon = BLv$$
+$$\varepsilon = 2 \times 3 \times 4$$
+$$\varepsilon = 24\text{ V}$$
+
+The potential difference generated across the wire is $24\text{ V}$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

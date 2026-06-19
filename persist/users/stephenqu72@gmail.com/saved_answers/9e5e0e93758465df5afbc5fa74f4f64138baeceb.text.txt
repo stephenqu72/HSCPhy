@@ -1,0 +1,17 @@
+The correct answer is **A**.
+
+### Explanation
+
+To understand why the core of a transformer is laminated, we must look at the physics of energy losses:
+
+1.  **The Problem (Eddy Currents):** As the primary coil of a transformer carries an alternating current, it creates a changing magnetic flux through the iron core. According to Faraday’s Law and Lenz’s Law, this changing magnetic field induces circular currents within the conducting material of the iron core itself. These are known as **eddy currents**.
+2.  **Energy Loss:** Because the iron core has electrical resistance, these eddy currents generate significant thermal energy (heat) via the Joule heating effect ($P = I^2R$). This represents a loss of energy that reduces the overall efficiency of the transformer.
+3.  **The Solution (Laminations):** By constructing the core from thin sheets (laminations) of iron separated by an insulating layer (like varnish), we physically break the paths available for the eddy currents to circulate. Because the current paths are restricted to smaller areas, the magnitude of the eddy currents is significantly reduced. This effectively suppresses the heat loss without affecting the magnetic permeability of the core.
+
+**Why the other options are incorrect:**
+*   **B:** Laminations do not change the magnetic permeability of the iron; they are purely for reducing electrical losses.
+*   **C:** Increasing electrical resistance would actually be a result of the thin insulating layers, but the goal is to reduce the *current*, not to manipulate the resistance of the iron itself.
+*   **D:** We want to maximize, not reduce, the flux linkage between the primary and secondary coils; a solid or laminated core is specifically designed to concentrate and direct the magnetic flux to ensure high linkage.
+
+###QUESTION_TYPE
+Multiple choice

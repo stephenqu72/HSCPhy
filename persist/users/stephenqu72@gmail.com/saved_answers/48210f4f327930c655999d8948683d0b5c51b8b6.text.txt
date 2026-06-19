@@ -1,0 +1,25 @@
+To solve this problem, we must understand the relationship between the time it takes for light to travel to the mirror and back, and the time it takes for the cogwheel to rotate by a specific angle.
+
+### Explanation
+For the light to be blocked, the light must pass through a gap in the cogwheel, travel to the mirror and back, and return to find that a "tooth" has moved into the position previously occupied by the gap.
+
+1.  **Total distance traveled by light:** Since the mirror is $d = 8.50\text{ km} = 8500\text{ m}$ away, the total round-trip distance is $2d = 17000\text{ m}$.
+2.  **Time taken by light ($t$):** Using the speed of light $c \approx 3.00 \times 10^8\text{ m/s}$:
+    $$t = \frac{2d}{c} = \frac{17000}{3.00 \times 10^8} \approx 5.67 \times 10^{-5}\text{ s}$$
+3.  **Rotation requirement:** The wheel has 50 teeth and 50 gaps, meaning there are 100 "sections" in total. For the light to be blocked, the wheel must rotate by the width of half a section (moving from the center of a gap to the center of an adjacent tooth). This corresponds to $1/100$ of a full rotation.
+4.  **Frequency ($f$):** If the wheel rotates at $f$ revolutions per second, the time for $1/100$ of a rotation is $T_{gap} = \frac{1}{100f}$. We set this equal to the time taken by light:
+    $$\frac{1}{100f} = 5.67 \times 10^{-5}\text{ s}$$
+
+### Calculations
+Using the speed of light $c = 3 \times 10^8\text{ m/s}$:
+1.  **Time for light to return:**
+    $$t = \frac{2 \times 8500}{3 \times 10^8} = 5.667 \times 10^{-5}\text{ s}$$
+2.  **Rotation speed:** To block the light, the wheel must rotate such that a tooth covers the gap in time $t$. The angle of one gap is $1/100$ of a circle. The time taken to rotate one tooth width must be $t$:
+    $$f = \frac{1}{100 \times t} = \frac{1}{100 \times 5.667 \times 10^{-5}} \approx 176.5\text{ Hz}$$
+(Note: Any odd multiple of this rotation speed will also block the light, as the light would hit subsequent teeth).
+
+### Summary
+The light is blocked because the wheel rotates at a speed such that a tooth occupies the path of the returning light beam during the exact interval the light takes to complete its round trip to the mirror and back.
+
+###QUESTION_TYPE
+Calculation question

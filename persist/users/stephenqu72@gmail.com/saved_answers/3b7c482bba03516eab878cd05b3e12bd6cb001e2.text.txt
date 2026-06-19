@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Description and Explanation:**
+As the pendulum bob enters the magnetic field, the changing magnetic flux induces an electromotive force (EMF) and a resulting current in the coil (Faraday’s Law and Lenz’s Law). This current produces a magnetic force that opposes the motion of the bob (Lenz's Law). 
+
+1. **Entering the field:** An eddy current is induced in the coil. By Lenz’s Law, the magnetic force generated acts to oppose the motion (acting to the left), causing the bob to experience a retarding force.
+2. **Leaving the field:** As the bob exits the region, the change in flux again induces a current. The resulting magnetic force acts to oppose the exit (acting to the right), which also acts as a retarding force.
+3. **Energy and Height:** Because work must be done against the magnetic forces to light the bulb, mechanical energy is converted into electrical energy and dissipated as heat/light. Consequently, the bob will reach a maximum height on the other side that is **less than** the initial height of $0.20\text{ m}$.
+
+#### Part (b)
+**Calculation:**
+The energy dissipated is equal to the loss in mechanical energy of the pendulum.
+The initial mechanical energy (gravitational potential energy) is:
+$$E_p = mgh$$
+Given $m = 0.50\text{ kg}$, $g \approx 9.8\text{ m/s}^2$, and $h = 0.20\text{ m}$:
+$$E_p = 0.50 \times 9.8 \times 0.20$$
+$$E_p = 0.98\text{ J}$$
+
+Since the question implies the light bulb lights up because of the energy transfer from the pendulum, and we are told to ignore air resistance and friction, the electrical energy dissipated depends on the height reached on the other side. However, in standard HSC physics problems of this type, if the final height is not provided, we acknowledge that the energy dissipated is the change in gravitational potential energy ($\Delta E_p = mg(h_{initial} - h_{final})$). 
+
+If we assume the pendulum comes to a rest or the problem implies the total conversion of the energy provided at that height:
+**Total energy dissipated = $0.98\text{ J}$** (Assuming it loses all available potential energy to the globe).
+
+---
+
+### How to solve:
+1. **For (a):** Focus on Lenz's Law. Remember that the induced current always creates a magnetic field that opposes the change in flux. This opposition manifests as a physical force (magnetic braking) that saps kinetic energy from the system.
+2. **For (b):** Use the principle of Conservation of Energy. The potential energy at the start is $mgh$. Any energy not remaining as potential energy at the end of the swing (at the new height) must have been dissipated as electrical energy.
+
+###QUESTION_TYPE
+Short answer

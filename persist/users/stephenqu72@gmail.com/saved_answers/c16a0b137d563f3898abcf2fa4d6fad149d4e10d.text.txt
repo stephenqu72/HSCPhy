@@ -1,0 +1,28 @@
+### Answer
+
+**(a) (i) End $X$ is negative.**
+
+**(a) (ii)** The emf is produced because the free electrons in the metal rod experience a magnetic force (Lorentz force) as the rod moves through the external magnetic field. This causes a separation of charge, with electrons accumulating at one end, creating an electric field and thus a potential difference across the ends of the rod.
+
+**(b)** As the aluminium wheel rotates through the magnetic field, the change in magnetic flux induces eddy currents within the metal. According to Lenz’s Law, these eddy currents create their own magnetic field that opposes the change in flux causing them. This interaction creates a magnetic force that opposes the motion of the wheel, thereby dampening or retarding its rotation.
+
+---
+
+### Explanation
+
+**How to solve this:**
+
+1.  **For (a)(i):** Use the **Right-Hand Rule** for positive charges (or the Left-Hand Rule for electrons).
+    *   Point your fingers in the direction of the magnetic field ($B$): from North to South (left to right in this diagram).
+    *   Point your thumb in the direction of motion: upwards.
+    *   Your palm (or fingers for electrons) points in the direction of the force. Since this is a conductor, positive charges would be pushed towards End $Y$, meaning electrons are pushed towards **End $X$**. Thus, End $X$ becomes negatively charged.
+
+2.  **For (a)(ii):** This is a conceptual question on motional emf. Remember that a conductor contains free charges. When these charges move through a magnetic field at a velocity $v$, they experience a force $F = qvB$. This force pushes charges to opposite ends until the resulting electrostatic force balances the magnetic force.
+
+3.  **For (b):** This is a classic HSC Physics topic regarding **eddy currents**.
+    *   **Induction:** The rotation of the wheel causes sections of the metal to move in and out of the magnetic field, resulting in a change in magnetic flux ($\Delta \Phi$).
+    *   **Lenz's Law:** By Faraday's Law, this change induces an emf, which drives eddy currents in the aluminium. Lenz's Law dictates that these currents must flow in a direction that opposes the original change (the rotation).
+    *   **Damping:** The interaction between the induced eddy currents and the external magnetic field produces a force that opposes the motion, effectively acting as a magnetic brake.
+
+### QUESTION_TYPE
+Short answer

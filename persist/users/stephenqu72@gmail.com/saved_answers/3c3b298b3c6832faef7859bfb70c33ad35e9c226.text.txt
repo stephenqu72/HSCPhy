@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+Locate $0.4\ \mu\text{m}$ on the vertical axis. Move horizontally to the right until you intersect the curve, then drop down to the horizontal axis. The intersection occurs exactly at $7500\ \text{K}$.
+**Surface temperature $\approx 7500\ \text{K}$.**
+
+#### Part (b)
+**Explanation:**
+To support the graph reflecting Wien’s Law, we need to show that the product of wavelength ($\lambda_{\text{max}}$) and temperature ($T$) is constant, specifically $\lambda_{\text{max}}T \approx b$, where $b \approx 2.9 \times 10^{-3}\ \text{m}\cdot\text{K}$. 
+
+Note: The graph uses $\mu\text{m}$ ($10^{-6}\ \text{m}$), so we must convert units.
+
+1. **Select a data point from the graph:**
+   At $T = 10\,000\ \text{K}$, the graph shows $\lambda_{\text{max}} = 0.3\ \mu\text{m} = 0.3 \times 10^{-6}\ \text{m}$.
+   Calculation: $\lambda_{\text{max}}T = (0.3 \times 10^{-6}\ \text{m}) \times (10\,000\ \text{K}) = 0.003\ \text{m}\cdot\text{K} = 3.0 \times 10^{-3}\ \text{m}\cdot\text{K}$.
+
+2. **Select a second data point to verify:**
+   At $T = 20\,000\ \text{K}$, the graph shows $\lambda_{\text{max}} \approx 0.15\ \mu\text{m} = 0.15 \times 10^{-6}\ \text{m}$.
+   Calculation: $\lambda_{\text{max}}T = (0.15 \times 10^{-6}\ \text{m}) \times (20\,000\ \text{K}) = 0.003\ \text{m}\cdot\text{K} = 3.0 \times 10^{-3}\ \text{m}\cdot\text{K}$.
+
+**Conclusion:**
+Since $\lambda_{\text{max}}T$ remains constant (approximately $3.0 \times 10^{-3}\ \text{m}\cdot\text{K}$), this confirms the relationship follows the inverse proportionality characteristic of Wien's Displacement Law: $\lambda_{\text{max}} = \frac{b}{T}$.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

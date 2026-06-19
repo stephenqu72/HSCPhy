@@ -1,0 +1,25 @@
+To determine which scenario produces the greatest average rate of change of magnetic flux ($\Delta \Phi / \Delta t$), we use the formula for magnetic flux:
+$$\Phi = BA \cos(\theta)$$
+where $B$ is the magnetic field intensity, $A$ is the area of the loop, and $\theta$ is the angle between the magnetic field and the normal to the loop's surface. Initially, the field is perpendicular to the loop, so $\theta = 0^\circ$ and $\cos(0) = 1$. Let the initial flux be $\Phi_0 = BA$.
+
+**Analysis of scenarios:**
+
+*   **(A) Doubling the magnetic field:** $B$ becomes $2B$. 
+    $\Delta \Phi = |2BA - BA| = BA$.
+*   **(B) Reducing the loop to zero:** $A$ becomes $0$.
+    $\Delta \Phi = |0 - BA| = BA$.
+*   **(C) Laying the loop horizontally:** The loop rotates $90^\circ$ so the normal is now perpendicular to the field. $\theta$ becomes $90^\circ$, so $\Phi_{final} = BA \cos(90^\circ) = 0$.
+    $\Delta \Phi = |0 - BA| = BA$.
+*   **(D) Rotating the loop one full turn ($360^\circ$):** 
+    - At $0$s: $\Phi = BA$ ($\theta = 0^\circ$)
+    - At $2.5$s: $\Phi = 0$ ($\theta = 90^\circ$)
+    - At $5$s: $\Phi = -BA$ ($\theta = 180^\circ$)
+    - At $7.5$s: $\Phi = 0$ ($\theta = 270^\circ$)
+    - At $10$s: $\Phi = BA$ ($\theta = 360^\circ$)
+    
+    The **average** rate of change is $\frac{\Delta \Phi}{\Delta t_{total}}$. In scenarios (A), (B), and (C), the total change in flux is $BA$. However, in scenario (D), the flux changes from $BA$ to $-BA$ within the first 5 seconds (a change of $2BA$), and then back to $BA$ in the next 5 seconds. If we look at the interval where the magnitude of change is greatest (the first 5 seconds), the change is $2BA$ over 5 seconds, which is $\frac{2BA}{5} = 0.4BA$ per second. Compared to the others which provide $\frac{BA}{10} = 0.1BA$ per second, scenario (D) yields a much higher rate of change of magnetic flux.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

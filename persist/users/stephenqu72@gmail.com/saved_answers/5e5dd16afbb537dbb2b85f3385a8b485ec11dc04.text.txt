@@ -1,0 +1,21 @@
+### Teacher's Solution and Explanation
+
+#### Part (a): Line of Best Fit
+To draw the line of best fit, place a ruler on the graph such that it passes through the general trend of the points, balancing the number of points above and below the line. The line should be a straight line starting near $(0, 0.95)$ and ending near $(0.5, 0.55)$.
+
+#### Part (b): Finding Constants $a$ and $b$
+The equation given is $P_{loss} = al + b$, which is in the form $y = mx + c$.
+1. **Find $b$ (y-intercept):** Observe where the line crosses the y-axis (where $l=0$). Looking at the trend of the data, the y-intercept is approximately $0.95$. Therefore, $b \approx 0.95$.
+2. **Find $a$ (gradient):** Choose two points on your drawn line, for example $(0, 0.95)$ and $(0.5, 0.55)$.
+   $$a = \frac{y_2 - y_1}{x_2 - x_1} = \frac{0.55 - 0.95}{0.5 - 0} = \frac{-0.4}{0.5} = -0.8$$
+   So, the constants are $a \approx -0.8$ and $b \approx 0.95$. (Note: Small variations are acceptable based on your specific drawing).
+
+#### Part (c): Physics Explanation
+In a transformer, a changing magnetic flux induces an electromotive force (EMF) in the iron core. Because iron is a conductor, this induced EMF causes circulating currents within the core known as **eddy currents**. According to Lenz’s Law and the Joule heating effect ($P = I^2R$), these eddy currents dissipate energy as heat, resulting in power loss. 
+
+By laminating the core—that is, dividing the iron core into thin, insulated sheets—we increase the electrical resistance in the path of these eddy currents. This effectively restricts the magnitude of the eddy currents that can flow through the core, thereby reducing the amount of energy dissipated as heat and decreasing the total power loss.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

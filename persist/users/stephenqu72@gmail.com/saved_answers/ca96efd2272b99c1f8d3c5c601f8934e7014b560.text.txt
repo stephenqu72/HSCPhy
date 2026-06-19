@@ -1,0 +1,35 @@
+To solve this problem, we rely on the fundamental principle of ideal transformers: **the conservation of energy**. In an ideal transformer, the power input to the primary coil equals the power output from the secondary coil ($P_p = P_s$). Since $P = VI$, it follows that $V_p I_p = V_s I_s$.
+
+### Step-by-Step Solution:
+
+**1. Analyze the Load (Output of Transformer 2):**
+We are given the output current $I_{load} = 5.0\text{ A}$ and output voltage $V_{load} = 24\text{ V}$.
+The power delivered to the load is:
+$$P_{load} = V_{load} \times I_{load} = 24\text{ V} \times 5.0\text{ A} = 120\text{ W}$$
+
+**2. Analyze the Ammeter Circuit (The link between Transformer 1 and Transformer 2):**
+In an ideal system, the power flowing out of Transformer 1 must equal the power flowing into Transformer 2, which in turn must equal the power delivered to the load.
+$$P_{ammeter} = P_{load} = 120\text{ W}$$
+
+**3. Determine the Voltage at the Ammeter:**
+We must first find the voltage across the secondary of Transformer 1, which is where the ammeter is located. Transformer 1 has $N_p = 1000$ and $N_s = 500$, with a primary input of $240\text{ V}$.
+Using the transformer ratio:
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+$$V_s = 240\text{ V} \times \left(\frac{500}{1000}\right) = 240\text{ V} \times 0.5 = 120\text{ V}$$
+
+**4. Calculate the Ammeter Reading:**
+We now have the power flowing through the ammeter ($120\text{ W}$) and the voltage at that point ($120\text{ V}$). Since $P = VI$, the current $I$ is:
+$$I = \frac{P}{V} = \frac{120\text{ W}}{120\text{ V}} = 1.0\text{ A}$$
+
+The reading on the ammeter is **1.0 A**.
+
+Comparing this to the given options:
+(A) 0.25 A
+(B) 0.50 A
+(C) 1.0 A
+(D) 2.5 A
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(A) A smoother output of voltage**.
+
+### Explanation
+To solve this question, we need to understand the relationship between the number of coils on an armature and the resulting electromotive force (EMF) generated.
+
+1.  **Single Coil EMF:** A single coil rotating in a magnetic field produces a sinusoidal EMF. This means the voltage oscillates between a maximum peak and zero (or a minimum peak). This creates a "pulsating" output where the voltage drops to zero twice per cycle.
+2.  **Multiple Coils (The Modification):** By placing multiple coils at regular angles (often called a "distributed winding"), each coil reaches its peak voltage at a slightly different time in the rotation cycle. 
+3.  **Superposition:** Because the coils are connected to the commutator, their outputs are summed. At any given moment, when one coil is approaching a zero-voltage position, another coil is near its peak voltage position. When you add these individual sinusoidal outputs together, the dips in voltage are "filled in." 
+4.  **Result:** The sum of these overlapping sinusoidal EMFs results in a much flatter, more consistent DC output (if a split-ring commutator is used) or a more constant magnitude, effectively "smoothing" the voltage output. 
+
+**Why the other options are incorrect:**
+*   **(B) and (C):** While efficiency and power are crucial in generator design, adding more coils primarily affects the *quality* (consistency) of the output rather than the total energy efficiency or maximum power capacity, which are largely determined by magnetic field strength and rotation speed.
+*   **(D):** Multi-phase power usually refers to specifically arranged sets of windings connected to separate circuits (e.g., three-phase power). The diagram shows a single armature assembly commonly used to smooth DC output in a basic generator.
+
+### QUESTION_TYPE
+Multiple choice

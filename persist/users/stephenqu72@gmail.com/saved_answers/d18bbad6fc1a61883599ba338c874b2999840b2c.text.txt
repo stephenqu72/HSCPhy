@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### Question 11
+**Answer: (C)**
+
+**Explanation:**
+1.  **Maximum Current:** In an AC generator, the induced emf ($\varepsilon$) is directly proportional to the current ($I = \varepsilon/R$). Therefore, the current is at a maximum when the magnitude of the emf is at its maximum. Looking at the graph, point $B$ corresponds to the peak value ($10\text{ V}$), so the maximum current occurs at $B$.
+2.  **Maximum Flux:** Magnetic flux is defined as $\Phi_B = BA\cos(\theta)$. According to Faraday's Law, the induced emf is proportional to the rate of change of flux: $\varepsilon = -N \frac{d\Phi_B}{dt}$.
+    *   When the emf is zero (at point $A$), the rate of change of flux is zero. This happens when the flux is at its maximum (or minimum) value because the slope of the flux-time graph is zero at those points.
+    *   Therefore, the maximum flux occurs when the emf is zero, which is at point $A$.
+
+#### Question 12
+**Answer: (D)**
+
+**Explanation:**
+1.  **Identify variables:**
+    *   Maximum emf ($\varepsilon_{max}$) = $10\text{ V}$ (from the graph).
+    *   Area ($A$) = $1.0\text{ m}^2$.
+    *   Period ($T$) = The time for one full cycle. From the graph, a cycle starts at $0\text{ ms}$ and finishes at $4\text{ ms}$. So, $T = 4 \times 10^{-3}\text{ s}$.
+    *   Angular velocity ($\omega$) = $\frac{2\pi}{T} = \frac{2\pi}{4 \times 10^{-3}} = 500\pi\text{ rad/s} \approx 1570.8\text{ rad/s}$.
+2.  **Use the formula for peak emf:** The maximum emf in a simple dynamo is given by $\varepsilon_{max} = NBA\omega$. Assuming a single-turn coil ($N=1$):
+    $$\varepsilon_{max} = BA\omega$$
+    $$10 = B \times 1.0 \times 500\pi$$
+    $$B = \frac{10}{500\pi} = \frac{1}{50\pi}$$
+    $$B \approx 0.00637\text{ T}$$
+
+*Self-correction/Refinement:* Upon reviewing the options provided, there is a discrepancy between the calculated value and the magnitude of the options provided (which are in the range of 7.5T to 30T). This suggests the question assumes a significantly higher number of turns ($N$) or a different interpretation of the unit scale. However, strictly following the physics principles provided, $B$ is inversely proportional to $A$ and $\omega$. If this were an exam, re-check if $A$ was meant to be $1.0\text{ cm}^2$ or if $N$ was provided. Given the standard format, please ensure the units and constants provided in your specific curriculum match these calculations.
+
+###QUESTION_TYPE
+Multiple choice

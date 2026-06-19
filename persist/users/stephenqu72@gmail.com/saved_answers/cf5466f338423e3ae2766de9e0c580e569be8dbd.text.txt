@@ -1,0 +1,28 @@
+To solve this problem, we need to use the formula for the torque ($\tau$) experienced by a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \cos(\theta)$$
+
+Where:
+*   $n = 500$ (number of turns)
+*   $I = 4.0\text{ A}$ (current)
+*   $A = 0.2\text{ m} \times 0.1\text{ m} = 0.02\text{ m}^2$ (area of the coil)
+*   $B = 1.0 \times 10^{-3}\text{ T}$ (magnetic field strength)
+*   $\theta$ is the angle between the **normal to the coil** and the magnetic field.
+
+### Step 1: Calculate the Maximum Torque
+The torque is at its maximum when $\cos(\theta) = 1$. This occurs when the angle between the normal to the coil and the magnetic field is $0^\circ$. Physically, this means the **plane of the coil is parallel to the magnetic field lines**.
+
+Plugging the values into the formula:
+$$\tau_{\text{max}} = nIAB$$
+$$\tau_{\text{max}} = 500 \times 4.0 \times 0.02 \times (1.0 \times 10^{-3})$$
+$$\tau_{\text{max}} = 2000 \times 0.02 \times 0.001$$
+$$\tau_{\text{max}} = 40 \times 0.001$$
+$$\tau_{\text{max}} = 0.04\text{ N m}$$
+
+### Step 2: Determine the Orientation
+As established above, the torque is maximum when the magnetic forces acting on the sides of the coil have the greatest perpendicular distance from the axis of rotation. This occurs when the plane of the coil is **parallel** to the magnetic field.
+
+Comparing our result ($0.04\text{ N m}$, parallel) to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

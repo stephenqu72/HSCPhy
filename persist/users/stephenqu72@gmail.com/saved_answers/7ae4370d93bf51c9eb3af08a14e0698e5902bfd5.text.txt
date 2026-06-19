@@ -1,0 +1,21 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+In astrophysics, "spectral broadening" refers to the phenomenon where spectral lines appear wider than their "natural" or "intrinsic" width. While several physical processes can cause broadening, we must evaluate the options based on what spectral broadening is **most effectively** used to determine in standard HSC Physics contexts:
+
+*   **(A) Incorrect:** Redshift is a shift of the entire spectrum toward longer wavelengths due to the expansion of the universe or relative motion; it is not a "broadening" effect.
+*   **(B) Incorrect (Partial):** While thermal motion (Doppler broadening) does relate to temperature, other factors like pressure broadening often dominate the line width in many stars, making it a less precise method for temperature compared to techniques like Wien’s Displacement Law or spectral classification.
+*   **(C) Correct:** Rotational broadening is a classic application of the Doppler effect. Because a star rotates, one side of the star moves toward the observer (blueshift) while the other moves away (redshift). This causes the spectral lines to smear out, or "broaden," across a range of wavelengths. By measuring this broadening, astronomers can calculate the projected rotational velocity ($v \sin i$) of the star with high accuracy.
+*   **(D) Incorrect:** Zeeman splitting is a distinct physical effect caused by the interaction of a magnetic field with the energy levels of atoms, resulting in the splitting of a single spectral line into multiple components. While this does cause the lines to look broader at low resolutions, it is technically categorized as "splitting" rather than "broadening," and it is used to measure magnetic field strength specifically, not general spectral broadening.
+
+**How to solve this type of question:**
+1.  **Analyze the terminology:** Identify the physical mechanism behind "broadening." Broadening generally implies a spread of wavelengths centered around a mean.
+2.  **Evaluate mechanisms:** Match the mechanism to the astronomical phenomenon.
+    *   *Thermal motion* $\rightarrow$ Doppler broadening (temperature/velocity dispersion).
+    *   *Rotation* $\rightarrow$ Doppler broadening (rotational velocity).
+    *   *Pressure/Collisions* $\rightarrow$ Pressure broadening (gas density/luminosity class).
+3.  **Select the best fit:** Option (C) describes the most direct and common diagnostic application of rotational broadening in stellar spectroscopy.
+
+###QUESTION_TYPE
+Multiple choice

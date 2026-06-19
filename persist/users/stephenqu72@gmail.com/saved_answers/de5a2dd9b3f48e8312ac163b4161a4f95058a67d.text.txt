@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **C. Varying sinusoidally**.
+
+---
+
+### Explanation
+To understand why the torque varies sinusoidally, we must look at the physics governing the DC motor:
+
+1.  **The Torque Equation:** The torque ($\tau$) on a current-carrying coil in a magnetic field is given by the formula:
+    $$\tau = nI AB \cos(\theta)$$
+    where:
+    *   $n$ is the number of turns in the coil.
+    *   $I$ is the current.
+    *   $A$ is the area of the coil.
+    *   $B$ is the magnetic field strength.
+    *   $\theta$ is the angle between the normal to the plane of the coil and the magnetic field lines.
+
+2.  **The Role of the Angle ($\theta$):** As the coil rotates, the angle $\theta$ changes continuously from $0^\circ$ to $360^\circ$. Because the torque depends on $\cos(\theta)$, the torque value is at a maximum when the coil plane is parallel to the magnetic field ($\theta = 0^\circ$ or $180^\circ$, where $\cos(0)=1$) and drops to zero when the coil is perpendicular to the field ($\theta = 90^\circ$ or $270^\circ$, where $\cos(90)=0$). 
+
+3.  **Why not A or B?** 
+    *   The torque is **not constant** because the effective "leverage" (the perpendicular distance from the axis of rotation to the force) changes as the coil rotates.
+    *   Even though a commutator is used to reverse the current direction so that the motor continues to spin in the same direction, the magnitude of the torque still fluctuates significantly as the coil passes through different orientations relative to the magnetic field.
+
+4.  **Why D is incorrect:** While the torque magnitude changes, the split-ring commutator ensures that the direction of the current reverses at the exact moment the coil passes the vertical position. This keeps the torque in the same rotational direction; therefore, the torque does not oscillate between positive and negative values.
+
+Because the output follows the mathematical function of a cosine wave (which is a type of sinusoid), the torque is described as **varying sinusoidally**.
+
+###QUESTION_TYPE
+Multiple choice

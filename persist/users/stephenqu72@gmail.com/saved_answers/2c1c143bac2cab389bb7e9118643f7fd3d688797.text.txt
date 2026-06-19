@@ -1,0 +1,19 @@
+To determine the correct graph for the induced electromotive force (emf), we use **Faraday's Law of Induction**, which states that the induced emf ($\varepsilon$) in a circuit is proportional to the negative rate of change of magnetic flux ($\Phi$) with respect to time ($t$):
+
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+This means the value of the emf at any point in time is equal to the **negative gradient** (slope) of the magnetic flux-time graph. Let's analyze the flux graph in three distinct stages:
+
+1.  **First stage (increasing gradient):** The flux is increasing with an increasing slope (it is concave up). The gradient is positive and increasing. Since $\varepsilon = - \text{gradient}$, the emf must be negative and becoming increasingly negative (moving further away from zero in the negative direction).
+2.  **Second stage (constant flux):** The flux is constant (a flat horizontal line). The gradient is $0$. Therefore, $\varepsilon = 0$.
+3.  **Third stage (constant negative gradient):** The flux is decreasing linearly (a straight line with a constant negative slope). Since the gradient is constant and negative, the emf must be a constant positive value (because $\varepsilon = -(\text{negative value}) = \text{positive value}$).
+
+**Evaluating the options:**
+Looking at the provided options, there appears to be a slight ambiguity in the graph labels provided in the image versus standard physics conventions regarding the negative sign. However, in HSC physics, we often look for the **magnitude** of the relationship or the correct representation of the slopes. 
+
+*   Option **D** shows an initial negative emf (corresponding to the positive slope of the flux), a period of zero emf (corresponding to constant flux), and a positive constant emf (corresponding to the negative slope of the flux). 
+
+Therefore, **Graph D** is the correct representation because it correctly maps the changing positive slope of the flux to an increasing magnitude of emf and the constant negative slope of the flux to a constant positive emf.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,21 @@
+To determine the correct answer, we must understand the fundamental principles of an ideal transformer.
+
+### Explanation
+
+1.  **Frequency:** In an ideal transformer, the alternating magnetic flux produced by the primary coil is linked to the secondary coil through a magnetic core. Because the secondary voltage is induced by the rate of change of this magnetic flux, the frequency of the induced electromotive force (EMF) must match the frequency of the alternating current in the primary coil. Therefore, the frequency remains unchanged: $f_s = f$.
+2.  **Voltage:** The relationship between the primary voltage ($V_p$) and the secondary voltage ($V_s$) in an ideal transformer is determined by the ratio of the number of turns in each coil ($N_p$ and $N_s$). This is given by the ideal transformer equation:
+    $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+    Rearranging this to solve for the secondary voltage ($V_s$):
+    $$V_s = \frac{N_s}{N_p} V_p$$
+
+Comparing these findings to the options provided:
+*   Frequency must be $f$.
+*   Voltage must be $\frac{N_s}{N_p} V_p$.
+
+This corresponds to option **D**.
+
+### Answer
+**D**
+
+###QUESTION_TYPE
+Multiple choice

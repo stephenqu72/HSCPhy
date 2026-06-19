@@ -1,0 +1,36 @@
+Hello! As an HSC Physics teacher, I am happy to guide you through this classic electromagnetism question. These concepts are foundational for the "Motors and Generators" module.
+
+---
+
+### Part (a): How to solve
+To achieve full marks (4 marks), you need to demonstrate the conversion of electrical energy into mechanical energy. 
+
+**Steps to construct your diagrams:**
+1.  **Diagram 1 (The Setup):** Draw a rectangular coil positioned between two permanent magnets (North and South poles). Label the split-ring commutator and the brushes.
+2.  **Diagram 2 (The Motor Effect):** Apply the **Right-Hand Motor Rule** (or Fleming’s Left-Hand Rule). Show the current $I$ flowing through the coil. Note that the force $F = IlB\sin\theta$ acts in opposite directions on opposite sides of the coil, creating a torque that causes rotation.
+3.  **Diagram 3 (Commutation):** Show the coil rotated by $180^\circ$. Annotate the importance of the **split-ring commutator**: it reverses the direction of current in the coil every half-turn, ensuring the torque always acts in the same rotational direction. 
+
+**Key annotations to include:**
+*   Magnetic field direction (N to S).
+*   Force vectors acting on the coil sides.
+*   The role of the split-ring commutator in maintaining continuous rotation.
+
+---
+
+### Part (b): How to solve
+This question tests your understanding of the output of a DC generator.
+
+**Explanation:**
+A DC generator uses a split-ring commutator. Unlike an AC generator (which uses slip rings and produces a sine wave), the split-ring commutator "flips" the negative half of the AC waveform into the positive region.
+
+**The Sketch:**
+*   **Axes:** The $y$-axis should be labeled "Output Voltage ($V$)" and the $x$-axis should be "Angle ($\theta$)" from $0$ to $360^\circ$ (or $2\pi$ radians).
+*   **The Waveform:** Draw two "humps" (like a rectified sine wave).
+*   The first hump goes from $0$ to $180^\circ$ and the second hump goes from $180$ to $360^\circ$. 
+*   Ensure both humps are **entirely above the $x$-axis** (positive voltage). 
+*   The peak voltage occurs at $90^\circ$ and $270^\circ$, while the voltage is $0$ at $0^\circ$, $180^\circ$, and $360^\circ$.
+
+---
+
+###QUESTION_TYPE
+Other questions

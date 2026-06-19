@@ -1,0 +1,21 @@
+To determine the correct answer, we must apply the principle of **Conservation of Energy** to an ideal transformer.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+1.  **The Physics:** According to the law of conservation of energy, energy cannot be created or destroyed. In an ideal transformer (assuming no energy loss), the power input ($P_p$) must equal the power output ($P_s$). Since $P = VI$ (where $V$ is voltage and $I$ is current), we have:
+    $$V_p I_p = V_s I_s$$
+
+2.  **Analyzing Transformer Types:**
+    *   **Step-up transformers:** Increase voltage ($V_s > V_p$). To satisfy the conservation of energy equation, the current must decrease proportionally ($I_s < I_p$).
+    *   **Step-down transformers:** Decrease voltage ($V_s < V_p$). To satisfy the conservation of energy equation, the current must increase proportionally ($I_s > I_p$).
+
+3.  **Evaluating the Options:**
+    *   (A) is incorrect; transformers change current depending on the turns ratio.
+    *   (B) is incorrect; a step-up transformer increases voltage, meaning it must decrease current to conserve power.
+    *   (C) is **correct**; because a step-down transformer decreases the voltage, the current must increase in the secondary coil to maintain the same power output.
+    *   (D) is incorrect; while real transformers have losses (like heat), the efficiency is generally very high, and this is not the fundamental reason for the relationship between voltage and current.
+
+###QUESTION_TYPE
+Multiple choice

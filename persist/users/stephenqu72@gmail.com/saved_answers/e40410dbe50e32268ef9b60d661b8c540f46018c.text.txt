@@ -1,0 +1,28 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this motor torque problem. It’s a classic question that tests your understanding of the motor effect and the role of the commutator.
+
+### Part (a): Sketching the Graph
+
+To sketch the graph, we must remember the torque formula: 
+$$\tau = nIAB \sin(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+1.  **Starting position:** The question states the coil is **parallel** to the magnetic field lines. This means the *normal* to the coil is at $90^\circ$ to the field. Since $\sin(90^\circ) = 1$, the torque starts at its **maximum positive value**.
+2.  **Rotation:** As the coil rotates, the torque follows a sinusoidal pattern: $\tau(t) = \tau_{max} \cos(\omega t)$ (or a shifted sine wave).
+3.  **The Commutator:** In a simple DC motor, the split-ring commutator reverses the current direction every half-turn. This ensures that the torque remains in the same direction, preventing the motor from oscillating back and forth.
+4.  **Frequency:** The angular velocity is $\omega = \pi \, \text{rad s}^{-1}$. Since one full revolution is $2\pi$ radians, the period of one revolution is $T = \frac{2\pi}{\pi} = 2 \, \text{seconds}$. For two full revolutions, the graph must span $4$ seconds.
+
+**The Graph:**
+- **Y-axis:** Label as "Torque ($\tau$)".
+- **X-axis:** Label as "Time ($t$) in seconds".
+- **Shape:** A series of "humps" (all above the x-axis).
+- **Points:** Starts at maximum at $t=0$, hits zero at $t=1$, max at $t=2$, zero at $t=3$, max at $t=4$.
+
+### Part (b): Accounting for Features
+
+You need to justify the behavior shown in your sketch:
+
+1.  **The torque is always positive (or acts in one direction):** Because the split-ring commutator reverses the direction of the current in the coil every half-revolution, the direction of the magnetic force on the wires is also reversed. This ensures the torque remains unidirectional, allowing the motor to spin continuously in one direction.
+2.  **The torque varies sinusoidally between zero and a maximum:** The torque is given by $\tau = nIAB \sin(\theta)$. When the plane of the coil is parallel to the magnetic field, the angle between the normal and the field is $90^\circ$, resulting in maximum torque. When the plane of the coil is perpendicular to the field, the normal is at $0^\circ$ to the field, resulting in zero torque.
+
+###QUESTION_TYPE
+Short answer

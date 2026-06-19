@@ -1,0 +1,29 @@
+### Solution and Explanation
+
+**a. AC or DC Generator?**
+This is an **AC generator** (alternator). 
+**Reason:** The generator uses **slip rings** (the two continuous metal rings X and Y) to connect the rotating coil to the external circuit. Unlike a split-ring commutator used in DC generators, slip rings maintain a continuous connection between each end of the coil and its respective terminal, causing the current direction to reverse every half-turn.
+
+**b. Direction of induced current**
+Using Lenz’s Law or the Right-Hand Generator Rule: The side of the loop moving up (JK) near the North pole will experience an induced current flowing from $J$ to $K$. Conversely, the side moving down (LM) near the South pole will experience current flowing from $L$ to $M$. Therefore, the current flows in the direction **$J \rightarrow K \rightarrow L \rightarrow M$**.
+
+**c. Calculation of average EMF**
+To find the average induced EMF, we use Faraday's Law: $\varepsilon_{avg} = N \left| \frac{\Delta \Phi}{\Delta t} \right|$.
+*   Number of turns $N = 1$ (assumed).
+*   Area $A = 0.060\text{ m} \times 0.025\text{ m} = 0.0015\text{ m}^2$.
+*   Magnetic field $B = 0.3\text{ mT} = 0.3 \times 10^{-3}\text{ T}$.
+*   Frequency $f = 50\text{ Hz}$, so period $T = \frac{1}{f} = 0.02\text{ s}$. 
+*   A quarter turn takes $\Delta t = \frac{T}{4} = 0.005\text{ s}$.
+
+Initial flux $\Phi_i$ (at vertical position) $= BA = (0.3 \times 10^{-3})(0.0015) = 4.5 \times 10^{-7}\text{ Wb}$.
+Final flux $\Phi_f$ (at horizontal position) $= 0\text{ Wb}$.
+$$\varepsilon_{avg} = \frac{|0 - 4.5 \times 10^{-7}|}{0.005} = 9 \times 10^{-5}\text{ V} = 0.09\text{ mV}$$
+
+**d. Sketching EMF vs Time**
+Since it is an AC generator, the output is a **sine wave**. 
+*   Two rotations mean two complete cycles.
+*   The frequency is $50\text{ Hz}$, so each cycle takes $0.02\text{ s}$.
+*   Draw a sinusoidal curve starting at $0$ (since the coil is perpendicular to the field at $t=0$, flux is max, so EMF is $0$), reaching a peak at $0.005\text{ s}$, crossing $0$ at $0.01\text{ s}$, reaching a negative peak at $0.015\text{ s}$, and returning to $0$ at $0.02\text{ s}$. Repeat this for the second rotation.
+
+###QUESTION_TYPE
+Calculation question

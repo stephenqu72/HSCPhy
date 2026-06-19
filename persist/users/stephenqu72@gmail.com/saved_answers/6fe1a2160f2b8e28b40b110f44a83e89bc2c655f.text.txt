@@ -1,0 +1,40 @@
+To solve this problem, we use the principles of electromagnetism related to DC motors.
+
+### Part (a): Determine the torque on the coil at the position shown.
+
+**1. Identify given variables:**
+*   Side length $s = 3\text{ cm} = 0.03\text{ m}$
+*   Area $A = s^2 = (0.03\text{ m})^2 = 9 \times 10^{-4}\text{ m}^2$
+*   Magnetic field strength $B = 0.15\text{ T}$
+*   Current $I = 3\text{ A}$
+
+**2. Formula:**
+The torque $\tau$ on a current-carrying coil in a magnetic field is given by:
+$$\tau = nI AB \sin(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+**3. Analysis:**
+In the provided image, the plane of the coil is parallel to the magnetic field lines. Therefore, the **normal** to the coil is perpendicular ($90^\circ$) to the magnetic field.
+$$\tau = (1)(3\text{ A})(9 \times 10^{-4}\text{ m}^2)(0.15\text{ T}) \sin(90^\circ)$$
+$$\tau = 3 \times 0.0009 \times 0.15 \times 1 = 4.05 \times 10^{-4}\text{ N m}$$
+
+**Answer:** The torque is $4.05 \times 10^{-4}\text{ N m}$.
+
+---
+
+### Part (b): Draw a torque vs time graph.
+
+**1. Analyze the movement:**
+*   The coil rotates at $240\text{ rpm} = 4\text{ revolutions per second}$.
+*   The period $T = \frac{1}{f} = \frac{1}{4} = 0.25\text{ s}$.
+*   At the start position shown, the torque is at its maximum ($4.05 \times 10^{-4}\text{ N m}$).
+*   As the coil rotates, the angle $\theta$ changes, following a cosine wave: $\tau(t) = \tau_{\text{max}} \cos(\omega t)$.
+*   Due to the split-ring commutator in a DC motor, the current direction reverses every half turn, ensuring the torque remains in the same direction for a full revolution.
+
+**2. Graph construction:**
+*   **Y-axis:** Label "Torque ($10^{-4}\text{ N m}$)" with the peak at $4.05$.
+*   **X-axis:** Label "Time ($s$)" with markers at $0$, $0.0625$, $0.125$, $0.1875$, and $0.25$.
+*   **Shape:** The graph should start at $+4.05$, drop to $0$ at $0.0625\text{ s}$, reach $0$ again at $0.125\text{ s}$ (the vertical position), and follow the absolute value of a cosine curve (or a rectified sine wave) since the commutator keeps the torque positive. It will have two identical "humps" within one full $0.25\text{ s}$ revolution.
+
+###QUESTION_TYPE
+Calculation question

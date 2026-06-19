@@ -1,0 +1,33 @@
+To solve this problem, we apply **Faraday's Law of Induction** and **Lenz's Law**.
+
+### (a) Determine the magnitude of the total emf induced in the entire loop.
+
+1.  **Faraday's Law:** The magnitude of the induced emf ($\varepsilon$) is given by:
+    $$\varepsilon = \left| \frac{\Delta \Phi}{\Delta t} \right| = A \left| \frac{\Delta B}{\Delta t} \right|$$
+    where $A$ is the area of the circle and $B$ is the magnetic field.
+2.  **Calculate the EMF for each loop:**
+    *   Top loop radius $= r$, Area $A_1 = \pi r^2$. Given $\varepsilon_1 = 1\text{ V}$.
+    *   Bottom loop radius $= 2r$, Area $A_2 = \pi (2r)^2 = 4\pi r^2 = 4 A_1$.
+    *   Since $\frac{\Delta B}{\Delta t}$ is uniform, $\varepsilon \propto A$. Thus, $\varepsilon_2 = 4 \times \varepsilon_1 = 4\text{ V}$.
+3.  **Determine the direction:**
+    *   The magnetic field $B$ is increasing into the page. According to Lenz's Law, both loops will generate a current to create a magnetic field pointing *out* of the page to oppose this change.
+    *   Using the Right-Hand Grip Rule, the top loop induces a counter-clockwise current, and the bottom loop induces a clockwise current.
+4.  **Net EMF:** Because the figure-eight creates two opposing loops, their emfs act in opposite directions.
+    *   Total emf $= |\varepsilon_2 - \varepsilon_1| = |4\text{ V} - 1\text{ V}| = 3\text{ V}$.
+
+---
+
+### (b) Determine the direction of the force on the current induced in the wire at point A.
+
+1.  **Identify Current Direction:** As established, the bottom loop (larger area, higher emf) dictates the net direction of the current flow. For the bottom loop to oppose the increasing inward field, the current must flow **clockwise**.
+2.  **Locate Point A:** Point A is at the bottom-most part of the larger circle. A clockwise current at the bottom of the circle moves from left to right.
+3.  **Apply Right-Hand Rule (Motor Effect):**
+    *   $I$ (current) is to the right.
+    *   $B$ (magnetic field) is into the page.
+    *   Using the Right-Hand Rule: Point fingers right, curl them into the page, thumb points **up**.
+4.  **Conclusion:** The magnetic force on the wire at point A is directed **upwards**.
+
+---
+
+### QUESTION_TYPE
+Calculation question

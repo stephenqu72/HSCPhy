@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+To calculate the torque exerted by the marbles, we must consider the equilibrium condition of the system.
+1.  **Torque from Marbles ($\tau_{load}$):** Since the marbles are on a platform attached to a pulley of radius $r$, the gravitational force of $n$ marbles ($n \cdot m \cdot g$) acts at the edge of the pulley. Therefore, the load torque is $\tau_{load} = n \cdot m \cdot g \cdot r$.
+2.  **Torque from Motors ($\tau_{motor}$):** The torque produced by a DC motor is given by $\tau = n_{turns} \cdot I \cdot A \cdot B$. Since there are two motors, the total motor torque available to hold the marbles is $2 \times (N \cdot I \cdot A \cdot B)$.
+3.  **Equilibrium:** For the marbles to be stationary, the motor torque must balance the load torque:
+    $$2(N \cdot I \cdot A \cdot B) = n \cdot m \cdot g \cdot r$$
+The engineer can calculate the torque exerted by a single marble ($m \cdot g \cdot r$) by rearranging this to $\tau_{marble} = \frac{2 \cdot N \cdot A \cdot B \cdot I}{n}$.
+
+#### Part (b)
+1.  **Identify Constants:**
+    *   $N = 100$
+    *   $B = 0.50\text{ T}$
+    *   $A = 1 \times 10^{-4}\text{ m}^2$
+    *   $r = 0.10\text{ m}$
+    *   $g \approx 9.8\text{ m/s}^2$
+2.  **Use the equilibrium formula:** $2(N \cdot I \cdot A \cdot B) = n \cdot m \cdot g \cdot r$
+    $$m = \frac{2 \cdot N \cdot I \cdot A \cdot B}{n \cdot g \cdot r}$$
+3.  **Calculate the slope ($I/n$):** From the data table, the relationship between $I$ and $n$ is linear.
+    $$\text{Slope} = \frac{\Delta I}{\Delta n} = \frac{0.64}{1} \approx 0.638\text{ A/marble}$$
+4.  **Substitute into the mass equation:**
+    $$m = \left( \frac{I}{n} \right) \cdot \frac{2 \cdot N \cdot A \cdot B}{g \cdot r}$$
+    $$m = 0.638 \cdot \frac{2 \cdot 100 \cdot 1 \times 10^{-4} \cdot 0.50}{9.8 \cdot 0.10}$$
+    $$m = 0.638 \cdot \frac{0.01}{0.98} \approx 0.638 \cdot 0.0102 \approx 0.00651\text{ kg}$$
+The average mass of a marble is approximately **$6.51\text{ g}$**.
+
+###QUESTION_TYPE
+Data analysis questions

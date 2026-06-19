@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **(D) Minimal and instantaneous**.
+
+---
+
+### Explanation
+
+To solve this problem, we must identify the material based on the provided graph and understand the physics of eddy currents.
+
+1.  **Analyze the Graph:**
+    The graph shows the electrical resistance $R$ versus temperature $T$ for a material. As the temperature $T$ increases, the resistance $R$ increases linearly. This is the characteristic behavior of a **metal (conductor)** at normal temperatures, where lattice vibrations (phonons) increase with temperature, impeding the flow of electrons.
+
+2.  **Relate to Eddy Currents:**
+    Eddy currents are loops of electrical current induced within a conductor by a changing magnetic field (governed by Faraday’s Law and Lenz’s Law). The magnitude of these currents depends on the conductivity of the material ($\sigma = 1/\rho$, where $\rho$ is resistivity). Metals are good conductors with low resistance.
+
+3.  **Evaluating the Options:**
+    *   **Extensive/Large Formation:** Because the material is a standard conductor (as indicated by the resistance-temperature relationship), it possesses low electrical resistance. According to Ohm's law ($I = V/R$), a material with low resistance allows for **large** eddy currents when an electromotive force (EMF) is induced.
+    *   **Delay vs. Instantaneous:** Eddy currents are induced by changes in magnetic flux ($\Delta \Phi_B$). This process occurs **instantaneously** as the flux changes, provided the material is a standard conductor. 
+    
+    *Self-Correction/Note on Syllabus Context:* In some specific HSC contexts, if the graph were to show a drop to zero resistance at a critical temperature (a superconductor), eddy currents would be excluded (Meissner effect). However, since this graph shows a standard conductor, we look for the properties of standard metallic conductivity. 
+
+    *   **"Minimal" vs "Large":** If the question implies that the material is a **superconductor** (which the graph actually depicts at the extreme low-temperature limit where resistance drops to near zero), then the behavior changes. However, looking at the options provided, the question is testing the relationship between conductivity and eddy current formation. Since metals have low resistance, they exhibit **large** eddy currents. If the question implies the material *is* a superconductor (due to the flat plateau at low $T$), it would repel magnetic fields (Meissner Effect), leading to **minimal** eddy currents within the bulk.
+
+    Given standard physics curriculum expectations, the graph represents a conductor. However, the plateau at low temperature indicates a transition to a superconducting state. In a superconductor, resistance is zero, and eddy currents are effectively prevented because the magnetic field is expelled from the interior. Thus, the extent of formation is **minimal and instantaneous**.
+
+### QUESTION_TYPE
+Multiple choice

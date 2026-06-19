@@ -1,0 +1,27 @@
+To determine the correct answer, we must apply the **Right-Hand Motor Rule** (also known as the Right-Hand Palm Rule) to the DC motor.
+
+### Step-by-Step Solution:
+
+1.  **Determine Current Direction:**
+    *   The circuit is connected to a DC power supply. By convention, current flows from the positive (+) terminal to the negative (-) terminal.
+    *   Looking at the diagram, the positive terminal is connected to the left side of the split-ring commutator (the side corresponding to wire $A$). The negative terminal is connected to the right side (the side corresponding to wire $B$).
+    *   Following the path, current enters the coil at $A$ and travels towards $B$. Therefore, the current flows from **$A$ to $B$**. This eliminates options (A) and (B).
+
+2.  **Determine Direction of Rotation:**
+    *   Apply the Right-Hand Motor Rule to wire $A$:
+        *   **Fingers:** Point in the direction of the magnetic field ($B$-field). In a standard DC motor, the magnetic field lines point from the North pole (left) to the South pole (right).
+        *   **Thumb:** Points in the direction of the current ($A$ to $B$).
+        *   **Palm:** The force experienced by wire $A$ pushes the wire **downwards**.
+    *   Apply the rule to wire $B$:
+        *   The current is returning through $B$ (going into the page/away from the viewer). Using the same rule, the force on wire $B$ pushes it **upwards**.
+    *   Looking at the motor from point $A$:
+        *   Since the side $A$ is being pushed down and side $B$ is being pushed up, the coil will rotate in an **anti-clockwise** direction.
+
+3.  **Conclusion:**
+    *   Current: $A$ to $B$
+    *   Rotation: Anti-clockwise
+
+Matching this with the options provided, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

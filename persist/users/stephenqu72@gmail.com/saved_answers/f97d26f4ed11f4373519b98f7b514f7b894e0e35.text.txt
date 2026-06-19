@@ -1,0 +1,32 @@
+To achieve full marks on an 8-mark response like this, you must provide a logical, structured argument that connects the physics of energy transmission to the engineering solutions used to minimise losses.
+
+### Answer
+
+**1. Applications of Transformers in Power Distribution**
+Electrical power is generated at power stations at relatively low voltages (e.g., $25\text{ kV}$). To transmit this power over long distances efficiently, a **step-up transformer** is used at the power station to increase the voltage to very high levels ($200\text{--}500\text{ kV}$). 
+
+By the transformer relation $P = VI$, since power $P$ remains relatively constant, increasing voltage $V$ proportionally decreases the current $I$. This is critical because power loss in transmission lines occurs due to heating (Joule heating), calculated by $P_{loss} = I^2R$. By drastically reducing the current, the power loss across transmission wires is minimised. Near the consumer, **step-down transformers** are used to reduce the high transmission voltage to safe, usable levels (e.g., $240\text{ V}$) for domestic and industrial applications.
+
+**2. Minimising Power Loss in Transmission Wires**
+*   **High Voltage Transmission:** As established, stepping up the voltage reduces current, which is the most effective way to decrease the $I^2R$ energy loss.
+*   **Low Resistance Materials:** Using high-conductivity materials such as aluminium or copper for transmission lines reduces the resistance $R$ of the wire.
+
+**3. Minimising Power Loss in Transformers**
+Transformers are not 100% efficient due to several factors; engineers use specific techniques to mitigate these:
+*   **Eddy Currents:** The changing magnetic flux induces unwanted currents (eddy currents) in the iron core, causing heating. This is minimised by using a **laminated core**, where thin sheets of iron are insulated from each other to break the path of eddy currents.
+*   **Hysteresis Loss:** The repeated magnetisation and demagnetisation of the core consumes energy. This is minimised by using "soft" iron cores, which are easily magnetised and demagnetised.
+*   **Flux Leakage:** To ensure the maximum magnetic flux created by the primary coil links with the secondary coil, the coils are wound on the same core, often with one on top of the other.
+*   **Resistance of Coils:** The wires in the coils have resistance. This is minimised by using thick copper wire to ensure low resistance. 
+*   **Heat Dissipation:** Oil cooling systems or external cooling fins are often used to dissipate heat, which prevents the resistance of the wires from increasing due to high temperatures.
+
+***
+
+### How to solve this question
+1.  **Understand the Verb "Analyse":** You must identify components and examine the relationship between them. In this case, you are linking the relationship between voltage, current, and energy loss.
+2.  **Structure:** Divide your answer into two distinct parts: (1) The role of transformers in the transmission system, and (2) The engineering techniques used to reduce losses.
+3.  **Include Formulas:** Examiners look for explicit references to physics principles. Use $P = VI$ to explain why current drops and $P_{loss} = I^2R$ to explain why that reduces heat loss.
+4.  **Cover all domains:** Ensure you discuss both the *transmission lines* (external) and the *transformer internal design* (internal).
+5.  **Use Terminology:** Use technical terms like "laminated core," "eddy currents," "flux linkage," and "hysteresis."
+
+###QUESTION_TYPE
+Essay

@@ -1,0 +1,17 @@
+As an HSC Physics teacher, I am happy to help you break down this concept, which is fundamental to the operation of AC motors.
+
+### Answer
+The correct answer is **B. The rotor rotates slower than the external magnetic field.**
+
+### Explanation
+To understand why this is the case, we must look at the principle of electromagnetic induction (Faraday’s and Lenz’s Laws) that governs how an induction motor operates:
+
+1.  **The Rotating Magnetic Field:** The stator coils create a magnetic field that rotates at a specific speed, known as the **synchronous speed** ($v_s$).
+2.  **Relative Motion:** For an emf (and therefore a current) to be induced in the rotor, there must be a change in magnetic flux through the rotor's conductors. This requires **relative motion** between the magnetic field and the rotor.
+3.  **Lenz's Law:** If the rotor were to rotate at exactly the same speed as the magnetic field (synchronous speed), the magnetic field would appear stationary relative to the rotor. Consequently, there would be no change in flux, no induced current, no magnetic force, and thus no torque to keep the rotor spinning.
+4.  **Slip:** Because the rotor must always be "cutting" the field lines to experience an induced current and torque, it must lag behind the speed of the magnetic field. This difference in speed is defined as **slip**. The rotor will always spin at a speed ($v_r$) that is slightly less than the synchronous speed ($v_r < v_s$).
+
+If the rotor were to spin at the same speed as the field (Option A), the motor would produce zero torque. If it spun faster (Option C), it would be acting as a generator. Therefore, in normal motor operation, the rotor must rotate slower than the external magnetic field.
+
+###QUESTION_TYPE
+Multiple choice

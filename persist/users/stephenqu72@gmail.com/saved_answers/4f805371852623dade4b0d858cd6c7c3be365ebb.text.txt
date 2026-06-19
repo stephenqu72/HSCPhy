@@ -1,0 +1,22 @@
+To determine the correct graph for the brightness of the lamp, we must analyze the effect of the external magnetic field on the current flowing through the circuit using Faraday's Law and Lenz's Law.
+
+### Analysis
+1.  **Initial State:** The circuit consists of a battery and a lamp. Initially, a constant current $I = \frac{V}{R}$ flows through the lamp, providing a constant initial brightness.
+2.  **Entering the Field:** As the loop moves from $P$ into the region of the uniform magnetic field (directed into the page), the magnetic flux $\Phi_B$ through the loop increases. According to **Faraday's Law**, $\mathcal{E} = -\frac{d\Phi_B}{dt}$, this change in flux induces an electromotive force (EMF).
+3.  **Lenz's Law:** To oppose the increase in magnetic flux (which is directed into the page), the induced current will create its own magnetic field directed **out of the page**. Using the right-hand grip rule, this induced current flows in a counter-clockwise direction.
+4.  **Interaction with the Battery:** The battery is pushing current in a clockwise direction. The induced EMF acts in the opposite direction to the battery's EMF. Consequently, the net current through the lamp is reduced ($I_{net} = I_{battery} - I_{induced}$), causing the lamp to become **dimmer**.
+5.  **Inside the Field:** Once the entire loop is within the uniform magnetic field, the magnetic flux through the loop is constant. Since the rate of change of flux is zero ($\frac{d\Phi_B}{dt} = 0$), there is no induced EMF. The current returns to its original value dictated by the battery, and the brightness returns to its initial level.
+6.  **Exiting the Field:** As the loop leaves the region, the magnetic flux decreases. Lenz's Law dictates that an induced EMF will act to support the magnetic field, creating a clockwise induced current. This now adds to the battery's current, causing the lamp to momentarily become **brighter** than its initial state, before returning to the initial brightness once it has completely exited the field.
+
+Looking at the options, **Graph B** shows an initial dip in brightness as it enters the field, a return to baseline, a peak in brightness as it exits the field, and a final return to baseline.
+
+**Correct Answer: B**
+
+### How to solve it
+*   **Identify the physics principles:** Recall Faraday's Law ($\mathcal{E} = -N\frac{d\Phi_B}{dt}$) and Lenz's Law (the induced effect opposes the change).
+*   **Track the flux:** Break the motion into three segments: entering the field (flux increases), inside the field (flux constant), and exiting the field (flux decreases).
+*   **Apply superposition:** Determine whether the induced current opposes or reinforces the battery current. Remember that "dimmer" corresponds to a decrease in current, and "brighter" corresponds to an increase.
+*   **Match to graph:** Observe that the dip occurs upon entry and the spike occurs upon exit.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we use the principles of an **ideal transformer**, where power is conserved and the ratio of voltages is equal to the ratio of the number of turns in the coils.
+
+### Given Data:
+- Number of primary turns: $N_p = 1000$
+- Number of secondary turns: $N_s = 1125$
+- Primary voltage: $V_p = 240\text{ V}$
+- Primary current: $I_p = 5\text{ A}$
+
+### Step 1: Calculate the secondary voltage ($V_s$)
+Using the transformer turn ratio formula:
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+
+Rearranging to solve for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+$$V_s = 240 \times \frac{1125}{1000}$$
+$$V_s = 240 \times 1.125 = 270\text{ V}$$
+
+### Step 2: Calculate the secondary current ($I_s$)
+For an ideal transformer, the power input equals the power output ($P_p = P_s$). Since $P = VI$:
+$$V_p I_p = V_s I_s$$
+
+Rearranging to solve for $I_s$:
+$$I_s = \frac{V_p I_p}{V_s}$$
+$$I_s = \frac{240 \times 5}{270}$$
+$$I_s = \frac{1200}{270} \approx 4.44\text{ A}$$
+
+Rounding to one decimal place, we get $4.4\text{ A}$.
+
+### Conclusion
+The voltage across the globe is $270\text{ V}$ and the current is $4.4\text{ A}$. This corresponds to option **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

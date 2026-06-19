@@ -1,0 +1,30 @@
+To solve this physics problem, we assume an ideal transformer, meaning the power input equals the power output ($P_p = P_s$).
+
+### Step-by-Step Solution:
+
+1.  **Identify the given information:**
+    *   Number of turns in the primary coil, $N_p = 2400$
+    *   Number of turns in the secondary coil, $N_s = 400$
+    *   Secondary current, $I_s = 4.2\text{ A}$
+
+2.  **State the relationship for an ideal transformer:**
+    For an ideal transformer, the ratio of the number of turns is inversely proportional to the ratio of the currents:
+    $$\frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+
+3.  **Rearrange the formula to solve for the primary current ($I_p$):**
+    $$I_p = I_s \times \frac{N_s}{N_p}$$
+
+4.  **Substitute the values into the equation:**
+    $$I_p = 4.2\text{ A} \times \frac{400}{2400}$$
+    $$I_p = 4.2\text{ A} \times \frac{1}{6}$$
+    $$I_p = 0.70\text{ A}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+***
+
+### Explanation:
+Transformers work on the principle of electromagnetic induction. In an ideal scenario, the energy is perfectly conserved. Since Power ($P = VI$) is conserved, if the voltage is stepped down (as it is here, since $N_s < N_p$), the current must be stepped up by the same factor. Because we have fewer turns in the secondary coil, the secondary current is higher than the primary current. We use the inverse relationship between turns and current to find that the primary current is $1/6$ of the secondary current.
+
+###QUESTION_TYPE
+Multiple choice

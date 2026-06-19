@@ -1,0 +1,35 @@
+To solve this problem, we first identify the given parameters:
+- Magnetic field strength ($B$) = $0.96\text{ T}$
+- Number of turns ($N$) = $460$
+- Area of each turn ($A$) = $0.225\text{ m}^2$
+- Time interval for leaving the field ($\Delta t$) = $0.9\text{ s} - 0.5\text{ s} = 0.4\text{ s}$
+
+### Part (A): Graph of Magnetic Flux ($\Phi$) vs Time
+The flux through a single turn is given by $\Phi = B \times A$.
+- For $t = 0$ to $0.5\text{ s}$, the coil is fully in the field: $\Phi = 0.96 \times 0.225 = 0.216\text{ Wb}$.
+- For $t = 0.5$ to $0.9\text{ s}$, the coil exits the field linearly, so flux drops from $0.216\text{ Wb}$ to $0\text{ Wb}$.
+- For $t > 0.9\text{ s}$, $\Phi = 0$.
+
+**Graph description:** A horizontal line at $0.216\text{ Wb}$ from $0$ to $0.5\text{ s}$, then a straight line connecting $(0.5, 0.216)$ to $(0.9, 0)$.
+
+### Part (B): Graph of Induced EMF ($\varepsilon$) vs Time
+Faraday’s Law states $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$.
+- From $0$ to $0.5\text{ s}$, $\Delta \Phi = 0$, so $\varepsilon = 0\text{ V}$.
+- From $0.5$ to $0.9\text{ s}$, the rate of change of flux is constant:
+  $$\frac{\Delta \Phi}{\Delta t} = \frac{0 - 0.216}{0.4} = -0.54\text{ Wb/s}$$
+  $$\varepsilon = -460 \times (-0.54) = +248.4\text{ V}$$
+- After $0.9\text{ s}$, $\varepsilon = 0\text{ V}$.
+
+**Graph description:** A horizontal line at $0\text{ V}$ from $0$ to $0.5\text{ s}$, then a horizontal line at $248.4\text{ V}$ from $0.5$ to $0.9\text{ s}$, then back to $0\text{ V}$.
+
+### Part (C): Calculate the current ($I$)
+Using Ohm’s Law, $I = \frac{V}{R}$:
+$$I = \frac{248.4\text{ V}}{5\text{ }\Omega} = 49.68\text{ A}$$
+
+### Summary of steps
+1. **Calculate total flux** per turn inside the field.
+2. **Apply Faraday’s Law** to find the induced EMF during the time the coil is moving out of the field.
+3. **Use Ohm's Law** with the calculated induced EMF and provided resistance to find the current.
+
+###QUESTION_TYPE
+Calculation question

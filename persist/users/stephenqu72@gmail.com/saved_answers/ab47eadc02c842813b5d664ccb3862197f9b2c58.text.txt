@@ -1,0 +1,21 @@
+To determine the correct adjustment to reduce uncertainty in Foucault's experiment, we must examine the relationship between the variables involved in calculating the speed of light ($c$).
+
+### Answer
+The correct answer is **A. Increase the distance between the mirrors.**
+
+### Explanation
+The formula for the speed of light in Foucault's experiment is derived from the time it takes for light to travel the distance $D$ twice (to the stationary mirror and back) and the angle $\theta$ through which the mirror rotates during that time.
+
+1.  **The Physics:** The time taken for the light to travel the round trip is $t = \frac{2D}{c}$.
+2.  **Mirror Rotation:** During this time $t$, the mirror rotates through an angle $\theta = \omega t$, where $\omega$ is the angular velocity.
+3.  **Substitution:** Substituting $t$ into the rotation equation gives $\theta = \omega (\frac{2D}{c})$. Rearranging for $c$, we get:
+    $$c = \frac{2D\omega}{\theta}$$
+
+**How to reduce uncertainty:**
+*   **Distance ($D$):** If you increase the distance $D$ between the rotating mirror and the stationary mirror, the time taken for the light to return increases. Consequently, the deflection angle ($2\theta$) becomes larger and easier to measure precisely. In experimental physics, larger values of a measured quantity (like displacement or angle) relative to the smallest scale division of the measuring instrument result in a lower percentage of relative uncertainty.
+*   **Why not the others?** 
+    *   Decreasing the distance (B) would make the deflection angle smaller, making it harder to measure and increasing the relative uncertainty.
+    *   Increasing the rotational velocity ($\omega$) (C) would increase the angle $\theta$, which helps, but increasing the distance ($D$) is generally cited as the primary design adjustment in this classical experiment to improve accuracy because it increases the time interval directly, which is the limiting factor in measuring the speed of light. However, in standard physics curriculum context, increasing the separation distance ($D$) is the standard method for improving the precision of timing-based light experiments.
+
+### QUESTION_TYPE
+Multiple choice

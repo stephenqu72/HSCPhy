@@ -1,0 +1,20 @@
+### Answer
+The phenomenon observed is due to the principles of **polarization**. The left-hand lens is a polarizing filter oriented such that its transmission axis is parallel to the polarization direction of the incident light (or the incident light is unpolarized and the lens acts as a consistent filter), meaning its orientation relative to the light source does not change its ability to transmit light intensity. 
+
+Conversely, the right-hand lens is part of a system involving two polarizers (the light source/environment and the lens). As the angle of inclination changes, the angle $\theta$ between the transmission axis of the lens and the polarization plane of the incident light changes. According to **Malus's Law**, the transmitted intensity $I$ is given by:
+$$I = I_0 \cos^2(\theta)$$
+As the angle increases, the value of $\cos^2(\theta)$ decreases, leading to the observed reduction in the amount of light passing through the right-hand lens.
+
+---
+
+### How to solve this
+To tackle this type of HSC Physics question, follow these steps:
+
+1.  **Identify the Phenomenon:** Recognize the apparatus as polarized lenses. In physics, when you see variable light intensity based on orientation, immediately think of **Polarization** and **Malus's Law**.
+2.  **Analyze the "Control":** Explain why the left lens remains constant. In this experiment, the left lens is likely acting as a reference or is aligned such that it is not being rotated relative to the incoming polarized light vector, or it is a simple neutral density filter.
+3.  **Analyze the "Variable":** Identify that the right lens is effectively rotating relative to the polarization axis of the incoming light.
+4.  **Apply the Law:** Cite **Malus's Law**. State the formula $I = I_0 \cos^2(\theta)$.
+5.  **Relate to the Diagram:** Explicitly connect the "change in angle" mentioned in the prompt to the variable $\theta$ in the formula. Explain that as $\theta$ increases from $0^\circ$ toward $90^\circ$, $\cos^2(\theta)$ decreases toward zero, which accounts for the darkening (change in light intensity) observed in the photograph.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,17 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To understand why **(C)** is the correct answer, we need to look at the operating principles of an AC induction motor:
+
+1.  **The Stator's Role:** The stator in an induction motor consists of coils supplied with alternating current. These coils are arranged such that they create a **rotating magnetic field** (RMF) when powered.
+2.  **Induction:** This rotating magnetic field sweeps across the rotor (often a "squirrel cage" design). According to Faraday’s Law of Induction, because the magnetic field is changing relative to the rotor, an induced EMF is created in the rotor bars.
+3.  **Lenz’s Law and Torque:** The induced EMF drives a current through the rotor. This current interacts with the stator's magnetic field, creating a force ($F = BIL$) that produces torque. According to Lenz's Law, the rotor will spin in the same direction as the rotating magnetic field to minimize the relative motion between them.
+
+**Why the other options are incorrect:**
+*   **(A)** A commutator is a feature of **DC motors**, used to reverse current direction to ensure continuous rotation. Induction motors do not use commutators.
+*   **(B)** Induction motors do not require permanent magnets in the rotor; the rotor relies entirely on induced currents. Motors with permanent magnets are typically DC brushless motors or synchronous AC motors.
+*   **(D)** Split rings (or slip rings) are not used to connect current *to the rotor* in a standard squirrel-cage induction motor. The rotor current is entirely **induced** by the stator field, meaning there is no physical electrical connection to the rotor.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,38 @@
+To find the distance between adjacent maxima (often called the "fringe width") in Young's double-slit experiment, we use the formula:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+### Given values:
+*   Wavelength ($\lambda$) = $589\text{ nm} = 589 \times 10^{-9}\text{ m}$
+*   Distance between slits ($d$) = $2.4 \times 10^{-4}\text{ m}$
+*   Slit-to-screen distance ($L$) = $0.75\text{ m}$
+
+### Calculation:
+Substitute the values into the formula:
+
+$$\Delta x = \frac{(589 \times 10^{-9}\text{ m}) \times (0.75\text{ m})}{2.4 \times 10^{-4}\text{ m}}$$
+
+First, multiply the numerator:
+$589 \times 0.75 = 441.75$
+So, the numerator is $441.75 \times 10^{-9}\text{ m}^2$.
+
+Now, divide by $d$:
+$$\Delta x = \frac{441.75 \times 10^{-9}}{2.4 \times 10^{-4}}$$
+$$\Delta x = 184.0625 \times 10^{-5}\text{ m}$$
+
+To convert this to scientific notation or standard units:
+$$\Delta x \approx 1.84 \times 10^{-3}\text{ m}$$
+
+Since $10^{-3}\text{ m}$ is equivalent to $1\text{ mm}$, we get:
+$$\Delta x \approx 1.84\text{ mm}$$
+
+Comparing this result to the given options, it matches **(A)**.
+
+### How to solve:
+1.  **Identify the variables:** Always ensure all units are in standard SI units (meters). Convert nanometers (nm) to meters by multiplying by $10^{-9}$.
+2.  **Recall the formula:** Use the standard interference formula $\Delta x = \frac{\lambda L}{d}$.
+3.  **Perform the algebra:** Carefully manage the powers of 10. A common mistake is miscalculating the decimal placement when converting between meters, millimeters, and centimeters.
+4.  **Match the units:** Look closely at the units provided in the options to ensure your final conversion matches the intended answer choice.
+
+###QUESTION_TYPE
+Multiple choice

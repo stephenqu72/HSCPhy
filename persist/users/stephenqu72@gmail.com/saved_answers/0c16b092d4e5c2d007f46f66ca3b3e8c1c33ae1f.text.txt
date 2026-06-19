@@ -1,0 +1,43 @@
+### Part a: Calculation of Average EMF
+
+**Answer:**
+To calculate the average EMF induced in the loop as it moves from position X (outside) to position Y (inside), we use Faraday's Law of induction:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+1.  **Identify the variables:**
+    *   Number of turns, $N = 10$
+    *   Magnetic field strength, $B = 2.0 \times 10^{-2} \text{ T}$
+    *   Cross-sectional area, $A = 1.6 \times 10^{-3} \text{ m}^2$
+    *   Time interval, $\Delta t = 0.50 \text{ s}$
+
+2.  **Calculate the change in flux ($\Delta \Phi$):**
+    *   Initial flux ($\Phi_i$) at position X (outside): $0 \text{ Wb}$
+    *   Final flux ($\Phi_f$) at position Y (inside): $B \times A = (2.0 \times 10^{-2}) \times (1.6 \times 10^{-3}) = 3.2 \times 10^{-5} \text{ Wb}$
+    *   $\Delta \Phi = \Phi_f - \Phi_i = 3.2 \times 10^{-5} \text{ Wb}$
+
+3.  **Calculate the magnitude of average EMF:**
+    $$\varepsilon = 10 \times \frac{3.2 \times 10^{-5}}{0.50} = 6.4 \times 10^{-4} \text{ V}$$
+
+**Explanation:**
+Faraday's Law states that the induced EMF is equal to the rate of change of magnetic flux linkage. Since the loop starts with zero flux linkage and ends with full flux linkage within the field over a duration of $0.50 \text{ s}$, we calculate the total change and divide by the time elapsed.
+
+---
+
+### Part b: Sketch of EMF
+
+**Sketch Description:**
+*   **Loop outside field:** EMF = $0$.
+*   **Loop entering field:** A constant, non-zero EMF is generated (either positive or negative depending on the direction of current defined by Lenz's Law).
+*   **Loop inside field:** Flux is constant ($\Delta \Phi = 0$), so EMF = $0$.
+*   **Loop leaving field:** A constant EMF is generated with the *opposite* sign to the "entering" phase, as the flux is decreasing.
+*   **Loop outside field:** EMF = $0$.
+
+**Visual representation guide:**
+*   Between "loop entering": A horizontal line segment at a constant non-zero value.
+*   Between "loop inside": The line drops to the x-axis ($0$).
+*   Between "loop leaving": A horizontal line segment at a constant value opposite in sign to the "entering" segment.
+
+---
+
+###QUESTION_TYPE
+Calculation question

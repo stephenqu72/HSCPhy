@@ -1,0 +1,34 @@
+To solve this problem, we apply the principles of ideal transformers, specifically the conservation of energy and the ratio of turns.
+
+### Part a
+The physics law that governs the operation of an ideal transformer is the **Law of Conservation of Energy**. In an ideal transformer, the power input equals the total power output ($P_{in} = P_{out1} + P_{out2}$).
+
+### Part b
+For an ideal transformer, the voltage ratio is determined by the turns ratio: $\frac{V_p}{V_s} = \frac{N_p}{N_s}$.
+The relationship between input and output for a dual-output transformer is:
+$$V_p I_p = V_{s1} I_{s1} + V_{s2} I_{s2}$$
+Where $V_p$ and $I_p$ are primary voltage and current, and $V_{s1}, I_{s1}, V_{s2}, I_{s2}$ are the voltages and currents of the two secondary coils.
+
+### Part c
+1. **Find secondary voltages:**
+   - $V_{s1} = V_p \times (\frac{N_{s1}}{N_p}) = 240 \times (\frac{500}{1000}) = 120\text{ V}$
+   - $V_{s2} = V_p \times (\frac{N_{s2}}{N_p}) = 240 \times (\frac{200}{1000}) = 48\text{ V}$
+2. **Calculate Power:**
+   - Total input power $P_{in} = V_p \times I_{p(max)} = 240\text{ V} \times 2\text{ A} = 480\text{ W}$.
+   - Power used by the first secondary: $P_1 = \frac{V_{s1}^2}{R_1} = \frac{120^2}{100} = 144\text{ W}$.
+   - Max power available for heater X: $P_X = P_{in} - P_1 = 480 - 144 = 336\text{ W}$.
+
+### Part d
+The current drawn by the heater ($I_{s2}$) is found using $P_X = V_{s2} \times I_{s2}$:
+$$I_{s2} = \frac{P_X}{V_{s2}} = \frac{336\text{ W}}{48\text{ V}} = 7\text{ A}$$
+
+***
+
+### Summary of Steps
+1. **Identify the transformer ratio:** Use $\frac{V_s}{V_p} = \frac{N_s}{N_p}$ to find the output voltages.
+2. **Apply Conservation of Power:** Since the transformer is ideal, assume $100\%$ efficiency ($P_{in} = \sum P_{out}$).
+3. **Algebraic Manipulation:** Calculate the load on the first circuit to find the remaining power capacity allowed by the primary fuse limit.
+4. **Ohm's Law/Power Law:** Use $P=VI$ to determine the current for the final component.
+
+###QUESTION_TYPE
+Calculation question

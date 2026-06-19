@@ -1,0 +1,39 @@
+To solve this problem, we use Faraday’s Law of Induction, which states that the induced electromotive force (EMF) in a circuit is proportional to the rate of change of magnetic flux:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t} = -N \frac{\Delta(BA)}{\Delta t}$$
+
+### (a) Calculate the EMF induced as it enters the field
+
+**1. Identify the variables:**
+*   Number of turns, $N = 10$
+*   Magnetic field, $B = 2.0 \times 10^{-2}\text{ T}$
+*   Area of the coil, $A = 1.6 \times 10^{-3}\text{ m}^2$
+*   Time to enter the field, $\Delta t = 0.40\text{ s}$
+
+**2. Calculation:**
+The change in magnetic flux $\Delta\Phi$ as the coil enters the field is equal to the total flux through the coil when fully inside:
+$$\Delta\Phi = B \times A = (2.0 \times 10^{-2}) \times (1.6 \times 10^{-3}) = 3.2 \times 10^{-5}\text{ Wb}$$
+Now, apply Faraday's Law:
+$$\varepsilon = N \frac{\Delta\Phi}{\Delta t} = 10 \times \frac{3.2 \times 10^{-5}}{0.40}$$
+$$\varepsilon = \frac{3.2 \times 10^{-4}}{0.40} = 8.0 \times 10^{-4}\text{ V}$$
+
+**Answer:** The induced EMF is $8.0 \times 10^{-4}\text{ V}$.
+
+---
+
+### (b) Complete the EMF-position diagram
+
+To determine the graph, we analyze the rate of change of flux at each position:
+
+*   **A (Outside):** No magnetic field lines pass through the coil. $\Phi = 0$ and $\Delta\Phi/\Delta t = 0$. **EMF = 0**.
+*   **B (Entering):** Flux is increasing at a constant rate as the coil moves into the field. The EMF is constant and non-zero (calculated above as $8.0 \times 10^{-4}\text{ V}$). By Lenz's Law, the induced current opposes the change; if we define this as a positive EMF, it will be a horizontal line above the axis.
+*   **C (Totally inside):** The coil is fully submerged in a uniform magnetic field. The flux is constant ($\Delta\Phi = 0$). **EMF = 0**.
+*   **D (Exiting):** Flux is decreasing at the same rate it increased at B. The magnitude is the same, but the direction of current is reversed by Lenz's Law. **EMF is a constant negative value** (the mirror image of B).
+*   **E (Outside):** No magnetic field lines pass through the coil. **EMF = 0**.
+
+**Summary for graph:**
+1. Draw a horizontal line at a positive value between $B$ and $C$.
+2. Draw a horizontal line at an equal negative value between $D$ and $E$.
+3. All other segments (before $B$, at $C$, after $E$) should lie on the horizontal axis (EMF = 0).
+
+###QUESTION_TYPE
+Calculation question

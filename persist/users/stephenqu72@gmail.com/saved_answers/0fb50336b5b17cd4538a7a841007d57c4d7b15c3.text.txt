@@ -1,0 +1,23 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To determine the correct graph, we must look at the physical principle governing the potential difference (EMF) induced in a conductor moving through a magnetic field. This is described by the formula for motional EMF:
+
+$$\varepsilon = Blv \sin(\theta)$$
+
+Where:
+*   $\varepsilon$ is the induced potential difference (EMF).
+*   $B$ is the magnetic field strength.
+*   $l$ is the length of the wire within the field.
+*   $v$ is the velocity of the wire.
+*   $\theta$ is the angle between the velocity vector and the magnetic field.
+
+The question states that the wire "cuts a magnetic field at a constant rate." This implies that the velocity ($v$) of the wire is constant. Assuming the magnetic field strength ($B$), the length of the wire ($l$), and the angle ($\theta$) are also constant, the variables on the right side of the equation ($B, l, v, \sin\theta$) are all constant values.
+
+Therefore, the induced potential difference $\varepsilon$ must also be a constant value over time. On a graph where the $y$-axis is $V$ (potential difference) and the $x$-axis is time ($t$), a constant value is represented by a horizontal straight line. 
+
+Graph **D** is the only one that shows a constant potential difference over time.
+
+###QUESTION_TYPE
+Multiple choice

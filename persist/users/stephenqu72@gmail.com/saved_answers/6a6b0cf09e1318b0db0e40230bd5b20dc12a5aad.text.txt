@@ -1,0 +1,32 @@
+To solve this problem, we apply Faraday's Law of Induction, which states that the induced electromotive force (emf) $\varepsilon$ is equal to the negative rate of change of magnetic flux linkage:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+### (a) Explanation of zero induced emf
+At the instant shown, the plane of the coil is perpendicular to the magnetic field lines. This means the magnetic flux $\Phi$ through the coil is at a **maximum**. 
+
+For a very small change in time $dt$, the change in the angle $\theta$ between the area vector and the magnetic field is negligible because the rate of change of the cosine function ($\cos \theta$) is zero at $\theta = 0^\circ$. Mathematically, $\varepsilon = N B A \omega \sin(\omega t)$. When the coil is in the position shown, the magnetic flux is changing at its slowest rate (the instantaneous rate of change of flux is zero), resulting in zero induced emf.
+
+### (b) Calculation of average induced emf
+To find the average induced emf as the coil rotates through $90^\circ$, we use the formula:
+$$\varepsilon_{avg} = -N \frac{\Phi_f - \Phi_i}{\Delta t}$$
+
+**1. Identify variables:**
+*   $N = 20$
+*   $B = 0.30\text{ T}$
+*   Area $A = 1.0\text{ m} \times 2.0\text{ m} = 2.0\text{ m}^2$
+*   Initial flux $\Phi_i = B \cdot A = 0.30 \times 2.0 = 0.60\text{ Wb}$
+*   Final flux $\Phi_f$ (after $90^\circ$ rotation) $= 0\text{ Wb}$ (the plane is now parallel to the field)
+
+**2. Determine the time interval ($\Delta t$):**
+*   Angular velocity $\omega = 150\text{ rpm} = \frac{150 \times 2\pi}{60}\text{ rad/s} = 5\pi\text{ rad/s} \approx 15.71\text{ rad/s}$
+*   A rotation of $90^\circ$ is $\frac{\pi}{2}\text{ radians}$.
+*   $\Delta t = \frac{\Delta \theta}{\omega} = \frac{\pi/2}{5\pi} = \frac{1}{10} = 0.10\text{ s}$
+
+**3. Calculate the average emf:**
+$$\varepsilon_{avg} = -20 \times \frac{0 - 0.60}{0.10}$$
+$$\varepsilon_{avg} = -20 \times (-6) = 120\text{ V}$$
+
+The magnitude of the average induced emf is **$120\text{ V}$**.
+
+###QUESTION_TYPE
+Calculation question

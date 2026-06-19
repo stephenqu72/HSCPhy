@@ -1,0 +1,18 @@
+To solve this problem, we must understand the relationship between a DC motor's starting current, back EMF, and torque.
+
+### Explanation
+
+1.  **Back EMF ($ \varepsilon $)**: As the motor spins, it acts as a generator, producing a back EMF that opposes the supply voltage ($ V $). The current through the armature is given by $ I = \frac{V - \varepsilon}{R} $.
+2.  **Starting Up**: At $ t=0 $, the motor is stationary, so $\varepsilon = 0$. The current is $ I = \frac{V}{R} $. In many motors, $R$ is very low, leading to a massive "inrush current" that can damage the motor. A **variable resistor** is added in series to increase the total resistance, thereby limiting the initial current.
+3.  **Torque ($ \tau $)**: Since $\tau = nIAB \sin \theta$, the torque is directly proportional to the current $I$.
+    *   **Without a resistor**: The initial current is very high, leading to a very high initial torque (the red dashed peak is tall). As the motor speeds up, $\varepsilon$ increases, $I$ decreases, and therefore $\tau$ decreases until it stabilizes at $t_1$.
+    *   **With a resistor**: The initial current is lower due to the added resistance, so the initial torque is lower than the "without resistor" case. As the motor speeds up, the operator gradually decreases the variable resistance, allowing the torque to "catch up" to the level of the standard motor once $t_1$ is reached.
+4.  **Analysis of the Graphs**:
+    *   We need a graph where the "with resistor" (black line) starts lower than the "without resistor" (red dashed line) to protect the motor.
+    *   As time progresses toward $t_1$, the "with resistor" line should rise or maintain a level that converges with the "without resistor" line by the time the motor reaches maximum speed ($t_1$).
+    *   Looking at **Graph D**, the black line starts significantly lower than the red line and gradually approaches it, meeting it exactly at $t_1$. This represents the controlled acceleration provided by the variable resistor.
+
+The correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

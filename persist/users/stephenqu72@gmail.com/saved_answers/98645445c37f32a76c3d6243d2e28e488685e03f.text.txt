@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To solve this problem, we must understand the relationship between power, voltage, current, and heat loss in transmission lines.
+
+1.  **Relationship between Power, Voltage, and Current:**
+    The power transmitted ($P$) is given by the formula:
+    $$P = VI$$
+    If the power transmitted remains constant and the voltage ($V$) is doubled ($2V$), the current ($I$) must be halved ($I/2$) to maintain the same power:
+    $$P = (2V) \times \left(\frac{I}{2}\right)$$
+
+2.  **Relationship between Current and Heat Loss:**
+    The power lost as heat ($P_{loss}$) in a transmission line with resistance ($R$) is given by Joule's Law:
+    $$P_{loss} = I^2R$$
+
+3.  **Calculating the effect of doubling voltage:**
+    If the current is halved ($I' = \frac{I}{2}$), the new power loss ($P'_{loss}$) is:
+    $$P'_{loss} = \left(\frac{I}{2}\right)^2 \times R = \frac{I^2}{4} \times R = \frac{1}{4}P_{loss}$$
+    
+    If the new heat loss is $\frac{1}{4}$ of the original heat loss, this represents a reduction of:
+    $$1 - \frac{1}{4} = \frac{3}{4} = 75\%$$
+
+Therefore, doubling the transmission voltage reduces the energy wasted as heat by $75\%$, which corresponds to option (D).
+
+###QUESTION_TYPE
+Multiple choice

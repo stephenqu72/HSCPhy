@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Part a: Secondary Voltage Graph
+To solve this, we use **Faraday's Law of Induction**, which states that the induced EMF ($\varepsilon$) is proportional to the negative rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+The secondary voltage ($V$) is therefore proportional to the **negative gradient** of the given $\Phi$ vs. $t$ graph.
+
+1.  **Segment 0 to A:** The slope is positive and constant. The negative slope results in a **constant negative voltage**.
+2.  **Segment A to B:** The slope is zero (horizontal line). Thus, the voltage is **zero**.
+3.  **Segment B to C:** The slope is negative (steep). A negative value multiplied by the negative in Faraday's Law results in a **constant positive voltage** (higher magnitude than the first section due to the steeper gradient).
+4.  **Segment C to D:** The slope is positive and less steep than B-C. This results in a **constant negative voltage**.
+
+**Graph Sketching Instructions:**
+*   Draw a horizontal line at a negative $V$ value from time 0 to A.
+*   Draw a horizontal line at $V=0$ from A to B.
+*   Draw a horizontal line at a positive $V$ value from B to C.
+*   Draw a horizontal line at a negative $V$ value from C to D.
+
+---
+
+#### Part b: Energy Loss
+One major way energy is lost in a transformer is through **eddy currents**. As the changing magnetic flux passes through the iron core, it induces circular currents (eddy currents) within the conducting material of the core, which leads to energy loss as heat (Joule heating).
+
+**How it is reduced:**
+These losses are reduced by using a **laminated core**. The core is constructed from thin sheets of iron insulated from each other by a thin layer of varnish or oxide. This increases the electrical resistance to the path of the eddy currents, effectively breaking the current loops and significantly reducing heat dissipation.
+
+*Alternative correct answers include:*
+*   **Joule Heating (Copper loss):** Reduced by using low-resistance copper wires for coils.
+*   **Magnetic Flux Leakage:** Reduced by using a closed soft-iron core to direct the flux.
+*   **Hysteresis:** Reduced by using "soft" magnetic materials (e.g., silicon steel) that are easily magnetized and demagnetized.
+
+###QUESTION_TYPE
+Data analysis questions

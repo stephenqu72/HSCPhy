@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To determine when the torque on a DC motor coil is at a maximum, we look at the formula for torque ($\tau$) acting on a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \cos(\theta)$$
+
+or, expressed in terms of the angle $\alpha$ between the plane of the coil and the magnetic field:
+
+$$\tau = nIAB \sin(\alpha)$$
+
+Where:
+*   $n$ is the number of turns in the coil.
+*   $I$ is the current.
+*   $A$ is the area of the coil.
+*   $B$ is the magnetic field strength.
+*   $\alpha$ is the angle between the **plane of the coil** and the magnetic field lines.
+
+**Reasoning:**
+1.  When the plane of the coil is **parallel** to the external magnetic field ($\alpha = 90^\circ$), the sides of the coil are moving perpendicular to the magnetic field lines. This is the point where the motor effect force ($F = IlB \sin(\theta)$) on the sides of the coil is at its maximum, creating the greatest "lever arm" for torque. Since $\sin(90^\circ) = 1$, the torque is at its maximum value.
+2.  When the plane of the coil is **perpendicular** to the field ($\alpha = 0^\circ$), the forces on the sides of the coil are acting along the same line as the axis of rotation or towards/away from each other, resulting in zero torque.
+3.  Therefore, the torque is maximized when the plane of the coil is parallel to the magnetic field.
+
+###QUESTION_TYPE
+Multiple choice

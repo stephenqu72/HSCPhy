@@ -1,0 +1,25 @@
+To solve this problem, we need to understand the physics of a DC motor, specifically the concepts of **Back EMF** and the relationship between current, voltage, and rotation.
+
+### Answer
+The correct answer is **(D) the current running through the motor will be highest when it is first turned on.**
+
+### Explanation
+When a DC motor rotates, the coils move through a magnetic field. According to Faraday's Law and Lenz's Law, this motion induces an electromotive force (EMF) that opposes the supply voltage. This is known as **Back EMF** ($\varepsilon_{back}$).
+
+The net voltage ($V_{net}$) across the internal resistance ($R$) of the motor's coil is determined by the difference between the supply voltage ($V_{supply}$) and the back EMF:
+$$V_{net} = V_{supply} - \varepsilon_{back}$$
+
+The current ($I$) flowing through the motor is given by Ohm's Law:
+$$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+
+1.  **When the motor is first turned on:** The rotor is stationary, meaning there is no movement through the magnetic field and therefore **no back EMF** ($\varepsilon_{back} = 0$). At this instant, the current is limited only by the resistance of the coil ($I = V_{supply} / R$). This results in a high "starting current" or "inrush current."
+2.  **As the motor speeds up:** The rotor begins to turn, inducing a back EMF. As the speed increases, $\varepsilon_{back}$ increases.
+3.  **At operational speed:** The back EMF is at its maximum value. Looking at the equation above, as $\varepsilon_{back}$ increases, the net voltage decreases, which causes the current ($I$) to decrease significantly compared to the starting current.
+
+**Why the other options are incorrect:**
+*   **(A)** is incorrect because the current is lowest at operational speed due to maximum back EMF.
+*   **(B)** is incorrect because the internal resistance ($R$) is the primary factor limiting the current when the back EMF is zero (at startup).
+*   **(C)** is incorrect because if the coil is held stationary, $\varepsilon_{back} = 0$, meaning the current will be at its maximum, not smaller.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To find the magnitude and direction of the induced EMF, we use Faraday’s Law of Induction, which states that the induced EMF is equal to the negative rate of change of magnetic flux: $\varepsilon = - \frac{\Delta \Phi}{\Delta t}$.
+
+### 1. Calculate the change in area
+The total length of the wire is $L = 0.36\text{ m}$.
+
+*   **Initial Area ($A_1$):** For a circle, the circumference $C = 2\pi r = 0.36\text{ m}$, so $r = \frac{0.36}{2\pi} \approx 0.0573\text{ m}$.
+    $$A_1 = \pi r^2 = \pi \left(\frac{0.36}{2\pi}\right)^2 = \frac{0.36^2}{4\pi} \approx 0.01031\text{ m}^2$$
+*   **Final Area ($A_2$):** For a square, the perimeter $P = 4s = 0.36\text{ m}$, so $s = 0.09\text{ m}$.
+    $$A_2 = s^2 = 0.09^2 = 0.0081\text{ m}^2$$
+*   **Change in Area ($\Delta A$):**
+    $$\Delta A = A_2 - A_1 = 0.0081 - 0.01031 = -0.00221\text{ m}^2$$
+
+### 2. Calculate the magnitude of induced EMF
+Since the magnetic field $B = 1.5\text{ T}$ is constant and perpendicular to the area, $\Delta \Phi = B \cdot \Delta A$.
+$$\Delta \Phi = 1.5 \times (-0.00221) \approx -0.003315\text{ Wb}$$
+Using $\Delta t = 0.6\text{ s}$:
+$$|\varepsilon| = \left| \frac{\Delta \Phi}{\Delta t} \right| = \frac{0.003315}{0.6} \approx 0.00553\text{ V} \text{ (or } 5.53\text{ mV)}$$
+
+### 3. Determine the direction
+According to Lenz’s Law, the induced current creates a magnetic field that opposes the change in flux.
+*   The area is decreasing, so the magnetic flux *into* the page is decreasing.
+*   To oppose this "loss" of inward flux, the induced current must create a magnetic field pointing **into the page**.
+*   Using the Right-Hand Grip Rule, a current flowing **clockwise** produces a magnetic field into the page inside the loop.
+
+**Final Answer:** The magnitude of the induced EMF is approximately **$5.53\text{ mV}$** and the direction is **clockwise**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

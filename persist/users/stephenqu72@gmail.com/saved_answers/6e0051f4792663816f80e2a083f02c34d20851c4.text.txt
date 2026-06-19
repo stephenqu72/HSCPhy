@@ -1,0 +1,34 @@
+To solve this problem, we need to analyze how the two modifications affect the output voltage waveform of the AC generator.
+
+### 1. Analysis of the Modifications
+
+**Modification A: Frequency is doubled**
+*   The original waveform completes one full cycle in $20\text{ ms}$.
+*   Frequency $f$ is related to period $T$ by $f = \frac{1}{T}$. 
+*   If the frequency is doubled, the period must be halved.
+*   The new period becomes $\frac{20\text{ ms}}{2} = 10\text{ ms}$. This means the generator will now complete two full cycles within the original $20\text{ ms}$ timeframe.
+
+**Modification B: Split-ring commutator is added**
+*   Slip rings produce an AC output (alternating current that swings between positive and negative).
+*   A split-ring commutator acts as a mechanical rectifier. It reverses the connection to the external circuit every half-turn. This forces the negative portion of the sine wave to become positive. 
+*   Therefore, the resulting output will be a "pulsating DC" waveform where all peaks are positive.
+
+### 2. Evaluating the Options
+*   **Original graph:** One cycle in $20\text{ ms}$, amplitude $8\text{ V}$.
+*   **Modified graph:** Two cycles in $20\text{ ms}$ (frequency doubled) and all peaks positive (due to the split-ring).
+
+Looking at the options:
+*   (A) Shows two cycles but retains a lower frequency/different shape and doesn't account for the potential change in peak voltage magnitude.
+*   (B) Shows AC output (incorrect) and double the peak voltage.
+*   (C) Shows **four** half-cycles within $20\text{ ms}$. Since the frequency doubled, we expect 2 full cycles (which consists of 4 half-cycles). It shows only positive values (due to the commutator).
+*   (D) Shows AC output (incorrect).
+
+**Note on Voltage:** When you double the frequency of an AC generator (by spinning it twice as fast), the induced EMF $\mathcal{E} = N \cdot A \cdot B \cdot \omega \cdot \sin(\omega t)$ increases. Since $\omega$ (angular velocity) doubles, the peak voltage ($V_{peak}$) also doubles from $8\text{ V}$ to $16\text{ V}$. Graph (C) correctly shows the peak at $16\text{ V}$.
+
+### Conclusion
+Graph (C) displays the correct frequency (2 cycles in $20\text{ ms}$), the correct rectification (pulsating DC), and the correct peak voltage ($16\text{ V}$).
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

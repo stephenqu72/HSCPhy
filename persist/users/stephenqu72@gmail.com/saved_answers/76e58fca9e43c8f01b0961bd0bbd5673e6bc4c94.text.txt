@@ -1,0 +1,30 @@
+To solve this problem, we use the transformer ratio formula, which relates the number of turns in the coils to the voltages across them.
+
+### Answer
+The correct answer is **D. 400**.
+
+### Explanation
+For an ideal transformer, the ratio of the primary voltage ($V_p$) to the secondary voltage ($V_s$) is equal to the ratio of the number of turns in the primary coil ($N_p$) to the number of turns in the secondary coil ($N_s$). This is expressed by the formula:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+From the diagram, we have:
+- Primary voltage ($V_p$) = $12\text{ V}$
+- Primary turns ($N_p$) = $20$
+- Secondary voltage ($V_s$) = $240\text{ V}$
+- Secondary turns ($N_s$) = $?$
+
+Substitute the known values into the formula:
+$$\frac{12}{240} = \frac{20}{N_s}$$
+
+Simplify the fraction on the left:
+$$\frac{1}{20} = \frac{20}{N_s}$$
+
+Now, solve for $N_s$ by cross-multiplying:
+$$1 \times N_s = 20 \times 20$$
+$$N_s = 400$$
+
+Since the voltage increased from $12\text{ V}$ to $240\text{ V}$ (a step-up transformer), the number of turns must increase proportionally, confirming that $400$ is the correct result.
+
+###QUESTION_TYPE
+Multiple choice

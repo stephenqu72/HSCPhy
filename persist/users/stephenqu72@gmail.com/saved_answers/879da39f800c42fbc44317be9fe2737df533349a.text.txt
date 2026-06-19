@@ -1,0 +1,34 @@
+As a top HSC teacher, here is how you should structure your response to secure full marks.
+
+---
+
+### Part (a): Explanation
+**Answer:**
+A mercury emission spectrum is produced when mercury atoms in a low-pressure discharge tube are excited by an electric current. Electrons in the mercury atoms absorb energy from colliding high-speed electrons, causing them to transition from lower energy ground states to higher energy excited states. Because these excited states are unstable, the electrons quickly undergo transitions back to lower energy levels. In accordance with the law of conservation of energy, the difference in energy between these two levels is emitted as a discrete photon of light with a frequency $f$ determined by $E = hf$. Since mercury atoms have unique, quantized energy levels, only specific wavelengths are produced, resulting in a characteristic line emission spectrum.
+
+---
+
+### Part (b): Calculation
+**Step 1: Identify the line with the least energy.**
+Energy is related to wavelength by $E = \frac{hc}{\lambda}$. Therefore, the lowest energy corresponds to the longest wavelength. Looking at the spectrum, the longest wavelength is $623.4 \text{ nm}$.
+
+**Step 2: Calculate the energy.**
+Using $h = 4.136 \times 10^{-15} \text{ eV s}$ and $c = 3.00 \times 10^8 \text{ m/s}$:
+$$E = \frac{(4.136 \times 10^{-15} \text{ eV s}) \times (3.00 \times 10^8 \text{ m/s})}{623.4 \times 10^{-9} \text{ m}}$$
+$$E \approx 1.99 \text{ eV}$$
+
+---
+
+### Part (c): Evaluation
+**Answer:**
+The student's hypothesis is **incorrect**. The spectral lines of an element are determined by the unique, fixed energy level structure of its atoms (governed by the electron configuration). Increasing the voltage increases the number of collisions and the intensity of the light produced, but it does not change the energy levels themselves. Since the gaps between energy levels remain constant, the photons emitted will always have the same specific wavelengths and frequencies.
+
+---
+
+### How to solve this type of question:
+1.  **For conceptual questions (a & c):** Always link your answer back to the "quantized energy levels" of the atom. In emission spectra, the photon's energy must exactly equal the difference between energy levels ($\Delta E = E_2 - E_1$). 
+2.  **For calculations (b):** Always remember the inverse relationship between energy and wavelength. Longest wavelength = lowest energy; shortest wavelength = highest energy. Keep track of unit conversions (nm to m).
+3.  **For evaluation (c):** Remember that atomic spectra act as a "fingerprint." External factors like voltage or temperature (to a point) change the *intensity* or *excitation rate*, but they cannot change the fundamental quantum mechanics of the atom's electron shells.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To find the magnitude of the average induced EMF, we use **Faraday’s Law of Induction**, which states that the average induced EMF ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi_B$):
+
+$$\varepsilon = - \frac{\Delta \Phi_B}{\Delta t}$$
+
+We are looking for the magnitude, so we focus on the absolute value:
+$$|\varepsilon| = \frac{|\Delta \Phi_B|}{\Delta t}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   Magnetic field strength $B = 3.5 \times 10^{-4} \text{ T}$
+    *   Time interval $\Delta t = 0.20 \text{ s}$
+    *   Area of the loop $A = 0.05 \text{ m}^2$
+
+2.  **Calculate the change in magnetic flux ($\Delta \Phi_B$):**
+    The magnetic flux is defined as $\Phi_B = B \cdot A \cdot \cos(\theta)$. Since the loop is moving into the field, the initial flux is $0 \text{ Wb}$ and the final flux is $B \cdot A$.
+    $$\Delta \Phi_B = B \cdot A = (3.5 \times 10^{-4} \text{ T}) \times (0.05 \text{ m}^2)$$
+    $$\Delta \Phi_B = 1.75 \times 10^{-5} \text{ Wb}$$
+
+3.  **Calculate the average induced EMF ($\varepsilon$):**
+    $$|\varepsilon| = \frac{1.75 \times 10^{-5} \text{ Wb}}{0.20 \text{ s}}$$
+    $$|\varepsilon| = 8.75 \times 10^{-5} \text{ V}$$
+
+4.  **Conclusion:**
+    Rounding $8.75 \times 10^{-5} \text{ V}$ gives $8.8 \times 10^{-5} \text{ V}$. Comparing this to the given options, it matches option **C**.
+
+**Correct Answer:** **C**
+
+###QUESTION_TYPE
+Multiple choice

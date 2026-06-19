@@ -1,0 +1,32 @@
+To find the wavelength of the light, we use the formula for Young's double-slit interference (or diffraction grating) for constructive interference (maxima):
+
+$$d \sin(\theta) = n\lambda$$
+
+### Given information:
+*   Slit separation ($d$) = $5\ \mu\text{m} = 5 \times 10^{-6}\ \text{m}$
+*   Angle ($\theta$) = $20^\circ$
+*   Order ($n$) = $1$ (for the first maxima)
+
+### Step-by-step Calculation:
+1.  **Rearrange the formula to solve for wavelength ($\lambda$):**
+    $$\lambda = \frac{d \sin(\theta)}{n}$$
+
+2.  **Substitute the values into the equation:**
+    $$\lambda = \frac{5 \times 10^{-6} \times \sin(20^\circ)}{1}$$
+
+3.  **Calculate the sine value:**
+    $\sin(20^\circ) \approx 0.342$
+
+4.  **Complete the calculation:**
+    $$\lambda = 5 \times 10^{-6} \times 0.342$$
+    $$\lambda = 1.71 \times 10^{-6}\ \text{m}$$
+
+5.  **Convert to the appropriate units:**
+    Since $1 \times 10^{-6}\ \text{m} = 1\ \mu\text{m}$, then $1.71 \times 10^{-6}\ \text{m} = 1.71\ \mu\text{m}$.
+
+Rounding to two significant figures, we get $1.7\ \mu\text{m}$.
+
+Comparing this to the provided options, the correct answer is **c**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this transformer problem. Transformers are a staple of the HSC Physics curriculum, and the key is to remember that an ideal transformer conserves power ($P_{in} = P_{out}$).
+
+---
+
+### **Part (a)**
+**Answer:** The ratio is $20:1$.
+
+**Explanation:** For an ideal transformer, the turns ratio is proportional to the voltage ratio:
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s}$$
+Given $V_p = 240\text{ V}$ and $V_s = 12\text{ V}$:
+$$\frac{N_p}{N_s} = \frac{240}{12} = 20$$
+So, the ratio of primary to secondary turns is $20:1$.
+
+---
+
+### **Part (b)**
+**Answer:** $0.5\text{ A}$
+
+**Explanation:** 
+1. First, find the total power output in the secondary circuit. Since there are 6 globes, each consuming $20\text{ W}$:
+   $$P_s = 6 \times 20\text{ W} = 120\text{ W}$$
+2. For an ideal transformer, the input power equals the output power ($P_p = P_s$):
+   $$P_p = 120\text{ W}$$
+3. Use the power formula $P = V \times I$ for the primary coil to find the current $I_p$:
+   $$120\text{ W} = 240\text{ V} \times I_p$$
+   $$I_p = \frac{120}{240} = 0.5\text{ A}$$
+
+---
+
+### **Part (c)**
+**Answer:** Transformers rely on electromagnetic induction, which requires a changing magnetic flux.
+
+**Explanation:** 
+1. A transformer works on the principle of Faraday's Law and mutual induction. When AC flows through the primary coil, it creates a constantly changing magnetic field.
+2. This changing magnetic field induces a changing magnetic flux in the iron core, which passes through the secondary coil.
+3. According to Faraday’s Law, the induced EMF in the secondary coil is proportional to the *rate of change* of magnetic flux ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$).
+4. If the input were constant DC, the magnetic field would be static ($\Delta\Phi = 0$), meaning no EMF would be induced in the secondary coil, and the globes would not light up.
+
+---
+
+###QUESTION_TYPE
+Calculation question

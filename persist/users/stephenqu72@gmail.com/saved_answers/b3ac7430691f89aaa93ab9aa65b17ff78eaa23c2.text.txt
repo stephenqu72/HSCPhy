@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **(B) back EMF**.
+
+### Explanation
+To solve this problem, we must understand the relationship between the rotational speed of a DC motor and the voltage across its coils.
+
+1.  **The role of Back EMF:** As a DC motor spins, its internal coils rotate within a magnetic field. According to Faraday’s Law and Lenz’s Law, this motion induces an electromotive force (EMF) that opposes the supply voltage. This is known as **back EMF** ($\varepsilon$).
+2.  **The relationship:** The back EMF is directly proportional to the rotational speed ($\omega$) of the motor: $\varepsilon \propto \omega$.
+3.  **Circuit behavior:** The current ($I$) flowing through the motor is determined by Ohm's Law in the context of the motor's internal resistance ($R$) and the supply voltage ($V$):
+    $$I = \frac{V - \varepsilon}{R}$$
+4.  **Reaching "No-Load" Speed:** As the motor speeds up, the back EMF increases. Eventually, the back EMF becomes almost equal to the supply voltage ($V \approx \varepsilon$). At this point, the net voltage across the coils approaches zero, meaning the current $I$ drops to near zero.
+5.  **Conclusion:** Since torque is proportional to the current ($T \propto I$), when the current drops to zero, the motor can no longer produce any additional torque to accelerate further. This speed is the **maximum no-load speed**.
+
+If we look at the other options:
+*   (A) and (D) are design factors that might affect efficiency but do not dictate the physical limit of the no-load speed.
+*   (C) Resistance of the coils affects the *slope* of the curve and how much torque the motor can produce, but the physical limit (where torque hits zero) is primarily defined by the back EMF balancing the input voltage.
+
+### QUESTION_TYPE
+Multiple choice

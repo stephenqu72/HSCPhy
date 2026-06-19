@@ -1,0 +1,30 @@
+### Answer
+To achieve full marks for a 9-mark response, you must demonstrate a deep understanding of wave phenomena and provide specific examples of how the classical wave model allows for quantitative predictions.
+
+**1. Evidence Supporting the Wave Model**
+The classical wave model is supported by phenomena that demonstrate superposition and interference, which are unique to waves:
+*   **Interference (Young’s Double Slit Experiment):** When coherent light passes through two closely spaced slits, it creates a pattern of alternating bright and dark fringes on a screen. This is due to constructive and destructive interference, where light waves overlap and superimpose.
+*   **Diffraction:** Light waves bend around corners or through narrow apertures. The degree of spreading depends on the ratio of the wavelength to the size of the aperture ($\frac{\lambda}{w}$), which is consistent with the wave model.
+*   **Polarization:** The fact that light can be polarized (e.g., using polaroid filters) confirms that light is a transverse wave. Longitudinal waves cannot be polarized.
+
+**2. Predictive Power of the Model**
+The classical wave model allows for precise mathematical predictions:
+*   **Double Slit Interference:** The position of the bright fringes can be predicted using the formula:
+    $$d \sin \theta = n\lambda$$
+    where $d$ is the slit separation, $\theta$ is the angle of the fringe, $n$ is an integer (order), and $\lambda$ is the wavelength.
+*   **Diffraction Limits:** The angular resolution of optical instruments can be predicted using the Rayleigh criterion:
+    $$\sin \theta \approx 1.22 \frac{\lambda}{D}$$
+    where $D$ is the diameter of the aperture. This predicts how diffraction limits the clarity of images.
+*   **Maxwell’s Equations:** James Clerk Maxwell successfully predicted that light is an electromagnetic wave travelling at a speed $c = \frac{1}{\sqrt{\mu_0 \epsilon_0}}$. This linked electricity, magnetism, and optics, providing a robust theoretical framework for predicting light propagation.
+
+---
+
+### How to solve it
+1.  **Structure:** Since this is a 9-mark question, treat it as a mini-essay. Use headings or clear paragraphs to separate "Evidence" from "Predictive Capabilities."
+2.  **Define the Model:** Start by stating that the classical wave model treats light as an oscillating electromagnetic field propagating through space.
+3.  **Provide Evidence (The 'What'):** Choose at least three distinct wave phenomena (Interference, Diffraction, Polarization) and explain *why* they prove light behaves as a wave (e.g., mention superposition).
+4.  **Show Predictive Power (The 'How'):** It is not enough to just name the phenomena; you must show the *mathematical* nature of the model. Explicitly state the equations for double-slit interference or diffraction. This demonstrates that the model is not just descriptive, but quantitative.
+5.  **Conclusion:** Briefly summarize that while the wave model successfully explains these classical phenomena, it was later challenged by the photoelectric effect (which requires a particle model), showing the transition in physics from classical to quantum models.
+
+###QUESTION_TYPE
+Essay

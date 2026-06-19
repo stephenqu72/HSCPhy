@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To understand this, we must look at the relationship between current, voltage, and the back-emf ($V_{back}$) produced by a motor. According to Ohm's Law, the current ($I$) flowing through the motor coils is given by:
+
+$$I = \frac{V_{applied} - V_{back}}{R_{coil}}$$
+
+1.  **At start-up:** When the motor is just starting, the coil is stationary. Because the rate of change of magnetic flux is zero initially (or the motor has not yet reached sufficient speed to generate a significant back-emf), $V_{back} \approx 0$.
+2.  **The current spike:** With $V_{back} = 0$, the formula simplifies to $I = \frac{V_{applied}}{R_{coil}}$. Since the resistance of the motor coils ($R_{coil}$) is usually very low, the resulting current at start-up is extremely high.
+3.  **The solution:** This large "in-rush" current can cause the coils to overheat and melt the insulation (burn-out). By adding a small resistor in series, the total resistance of the circuit increases ($R_{total} = R_{coil} + R_{resistor}$), which limits the initial current to a safe level. Once the motor spins up to speed, the back-emf increases, which naturally regulates the current, rendering the starting resistor's influence negligible for the continuous running state.
+
+*   **A** is incorrect because brushes maintain connection through mechanical springs, not series resistors.
+*   **B** is incorrect because adding resistance actually increases the load/impedance of the circuit, it does not decrease the power required to do work.
+*   **D** is incorrect because torque is determined by magnetic field strength and current, and adding a resistor at start-up is a protection mechanism, not a means of smoothing mechanical torque ripple.
+
+###QUESTION_TYPE
+Multiple choice

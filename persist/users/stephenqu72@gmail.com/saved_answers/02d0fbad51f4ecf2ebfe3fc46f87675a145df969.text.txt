@@ -1,0 +1,38 @@
+### Solution and Explanation
+
+#### Part a) Determine the spacing of the slits.
+
+**1. Identify the relevant physics formula:**
+The interference pattern for a double-slit experiment is governed by the formula for fringe spacing:
+$$x = \frac{\lambda D}{d}$$
+Where:
+*   $x$ = fringe spacing (m)
+*   $\lambda$ = wavelength of light (m)
+*   $D$ = distance from slits to screen (m)
+*   $d$ = spacing between slits (m)
+
+**2. Relate the formula to the graph:**
+The graph plots $x$ vs $D$. Since $x = (\frac{\lambda}{d})D$, this is a linear relationship ($y = mx$) where the gradient (slope) of the line is equal to $\frac{\lambda}{d}$.
+
+**3. Calculate the gradient:**
+Using the points $(0,0)$ and $(6, 13.2)$ from the graph:
+$$\text{Gradient} = \frac{\Delta x}{\Delta D} = \frac{13.2 \text{ mm} - 0 \text{ mm}}{6 \text{ m} - 0 \text{ m}} = 2.2 \text{ mm/m} = 2.2 \times 10^{-3} \text{ m/m}$$
+
+**4. Solve for $d$:**
+Given $\lambda = 620 \text{ nm} = 620 \times 10^{-9} \text{ m}$:
+$$\text{Gradient} = \frac{\lambda}{d} \implies d = \frac{\lambda}{\text{Gradient}}$$
+$$d = \frac{620 \times 10^{-9} \text{ m}}{2.2 \times 10^{-3} \text{ m/m}} \approx 2.818 \times 10^{-4} \text{ m}$$
+Rounding to two significant figures (consistent with the wavelength), $d \approx 2.8 \times 10^{-4} \text{ m}$ (or $0.28 \text{ mm}$).
+
+---
+
+#### Part b) If the experiment is repeated with the slit spacing doubled, state how the graph and the interference pattern change.
+
+**1. Effect on the graph:**
+Since the gradient of the graph is $\frac{\lambda}{d}$, doubling the slit spacing ($d_{new} = 2d$) will halve the gradient. Therefore, the slope of the line on the graph will decrease by a factor of 2, resulting in a line that is less steep (closer to the D-axis).
+
+**2. Effect on the interference pattern:**
+Since the fringe spacing $x$ is inversely proportional to $d$ ($x \propto \frac{1}{d}$), doubling the slit spacing will cause the fringes to become half as far apart. The interference pattern will appear more "compressed" or crowded.
+
+###QUESTION_TYPE
+Calculation question

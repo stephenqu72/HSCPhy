@@ -1,0 +1,23 @@
+To solve this problem, we must apply the theory of Young's double-slit experiment, which describes the pattern of bright and dark fringes created by interference.
+
+### Answer
+The correct answer is **D. The fringes would be narrower.**
+
+### Explanation
+In a double-slit experiment, the separation between consecutive bright fringes (the fringe width, often denoted as $\Delta x$ or $w$) is given by the following formula:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance from the slits to the screen.
+*   $d$ is the distance between the two slits.
+
+From this formula, we can see that the fringe width $\Delta x$ is directly proportional to the wavelength $\lambda$ (assuming $L$ and $d$ remain constant).
+
+1.  **Identify the change:** The wavelength of the light is changed from red ($660\text{ nm}$) to blue ($450\text{ nm}$). Therefore, the wavelength decreases ($\lambda_{blue} < \lambda_{red}$).
+2.  **Relate to fringe width:** Since $\Delta x \propto \lambda$, a decrease in wavelength results in a decrease in the fringe width.
+3.  **Conclusion:** As the fringe width decreases, the spacing between the fringes becomes smaller, meaning the fringes become **narrower** (closer together).
+
+###QUESTION_TYPE
+Multiple choice

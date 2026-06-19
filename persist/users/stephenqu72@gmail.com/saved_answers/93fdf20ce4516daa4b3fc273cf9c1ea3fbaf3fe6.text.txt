@@ -1,0 +1,29 @@
+To solve this problem, we need to determine if the current $I$ required to produce a torque $\tau = 2.95\text{ Nm}$ exceeds the $5\text{ A}$ limit of the circuit breaker.
+
+### Step-by-Step Solution:
+
+**1. Determine the angular velocity ($\omega$) at $\tau = 2.95\text{ Nm}$:**
+Looking at the graph, the line passes through $(0, 160)$ and $(4, 80)$. We can find the equation of the line using the gradient-intercept form $y = mx + c$:
+- Gradient ($m$) = $\frac{80 - 160}{4 - 0} = \frac{-80}{4} = -20$
+- Equation: $\omega = -20\tau + 160$
+
+Substitute $\tau = 2.95\text{ Nm}$ into the equation:
+$$\omega = -20(2.95) + 160$$
+$$\omega = -59 + 160 = 101\text{ rad s}^{-1}$$
+
+**2. Calculate the required current ($I$):**
+Using the provided efficiency formula:
+$$\tau = \frac{V I \eta}{\omega}$$
+Rearrange to solve for $I$:
+$$I = \frac{\tau \omega}{V \eta}$$
+
+Substitute the known values ($V = 240\text{ V}$, $\eta = 0.3$, $\tau = 2.95\text{ Nm}$, $\omega = 101\text{ rad s}^{-1}$):
+$$I = \frac{2.95 \times 101}{240 \times 0.3}$$
+$$I = \frac{297.95}{72}$$
+$$I \approx 4.14\text{ A}$$
+
+**3. Conclusion:**
+Since the calculated current $I \approx 4.14\text{ A}$ is less than the circuit breaker limit of $5\text{ A}$, the circuit breaker will **not** trip. The motor will continue to operate normally at this torque.
+
+###QUESTION_TYPE
+Calculation question

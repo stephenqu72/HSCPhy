@@ -1,0 +1,26 @@
+To solve this problem, we need to analyze the physics of a diffraction grating using the diffraction grating equation:
+
+$$d \sin \theta = n\lambda$$
+
+Where:
+*   $d$ is the grating spacing (constant).
+*   $\theta$ is the angle of diffraction for the $n$-th order maximum.
+*   $n$ is the order of the maximum (an integer).
+*   $\lambda$ is the wavelength of the light.
+
+### 1. Longer Wavelength
+If we use a longer wavelength ($\lambda$ increases), the product $d \sin \theta$ must increase to maintain the equality for a given $n$. Since $d$ is constant, $\sin \theta$ must increase, which means the angle $\theta$ increases. As the angle $\theta$ increases, the intensity maxima move further away from the central axis. Therefore, the maxima become **more widely spaced**.
+
+### 2. Distance from Grating to Screen Increased
+The linear distance $y$ of a maximum from the center of the screen can be approximated for small angles as $y = D \tan \theta$, where $D$ is the distance from the grating to the screen. 
+Since $d \sin \theta = n\lambda$, the angle $\theta$ is determined solely by the grating properties ($d$, $n$, and $\lambda$). If these are held constant, $\theta$ remains constant.
+If we increase the distance $D$ between the grating and the screen, the linear spacing $y$ between the maxima is determined by $y \approx D \sin \theta$ (or $y = D \tan \theta$). Because $D$ is increasing while $\theta$ stays constant, the linear distance $y$ on the screen must increase. Therefore, the maxima become **more widely spaced**.
+
+### Conclusion
+*   Increasing the wavelength makes the maxima more widely spaced.
+*   Increasing the distance to the screen makes the maxima more widely spaced.
+
+Comparing this to the provided options, row **B** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

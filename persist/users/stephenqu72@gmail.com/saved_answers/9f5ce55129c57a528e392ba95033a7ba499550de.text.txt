@@ -1,0 +1,21 @@
+To solve this problem, we must identify the roles of the variables based on the experimental design provided in the text.
+
+### Answer
+The correct option is **B**.
+
+### Explanation
+In a scientific experiment, we define variables as follows:
+1.  **Independent Variable:** The variable that is purposefully changed or manipulated by the experimenter. In this experiment, the students deliberately vary the rotation speed (50, 100, and 150 revolutions per minute). Therefore, the **speed of rotation** is the independent variable.
+2.  **Dependent Variable:** The variable that is measured in response to changes in the independent variable. Here, the students are measuring the **peak EMF** on the oscilloscope as the speed changes. Therefore, the peak EMF is the dependent variable.
+3.  **Controlled Variable:** A variable that is kept constant throughout the experiment to ensure a fair test. For electromagnetic induction in a generator, the induced EMF ($\varepsilon$) is determined by Faraday’s Law and the generator equation:
+    $$\varepsilon = NBA\omega \sin(\omega t)$$
+    where $B$ is the magnetic field strength, $N$ is the number of turns, $A$ is the area of the coil, and $\omega$ is the angular velocity. To see the direct relationship between speed ($\omega$) and EMF, the students must keep the magnets (the magnetic field strength, $B$) and the coil dimensions constant. Thus, the **strength of the magnetic field** is a controlled variable.
+
+Looking at the options:
+*   **A** is incorrect because the peak EMF is being measured, not controlled.
+*   **B** matches our analysis: independent = speed, dependent = peak EMF, controlled = magnetic field strength.
+*   **C** is incorrect because the speed is being manipulated, not measured as a result.
+*   **D** is incorrect because the magnetic field strength is not the variable being measured.
+
+###QUESTION_TYPE
+Multiple choice

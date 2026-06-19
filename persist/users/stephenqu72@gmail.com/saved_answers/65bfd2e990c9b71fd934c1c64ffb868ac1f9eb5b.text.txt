@@ -1,0 +1,44 @@
+To solve this problem, we need to calculate the magnetic force between two parallel current-carrying wires and then use Newton's Second Law to determine the mass of the trolley.
+
+### 1. Identify the Physics Principles
+*   **Magnetic Force between two parallel wires:** The force per unit length $F/L$ is given by the formula:
+    $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+    where:
+    *   $\mu_0 = 4\pi \times 10^{-7} \text{ T m/A}$ (permeability of free space)
+    *   $I_1 = 25.0 \text{ A}$
+    *   $I_2 = 50.0 \text{ A}$
+    *   $r = 2.00 \text{ mm} = 2.00 \times 10^{-3} \text{ m}$
+    *   $L = 2.00 \text{ m}$
+
+*   **Newton's Second Law:**
+    $$F = ma \implies m = \frac{F}{a}$$
+
+### 2. Step-by-Step Calculation
+
+**Step A: Calculate the force $F$**
+$$\frac{F}{2.00} = \frac{(4\pi \times 10^{-7}) \times 25.0 \times 50.0}{2\pi \times (2.00 \times 10^{-3})}$$
+
+Simplify the expression:
+$$\frac{F}{2.00} = \frac{2 \times 10^{-7} \times 1250}{2.00 \times 10^{-3}}$$
+$$\frac{F}{2.00} = \frac{2.5 \times 10^{-4}}{2 \times 10^{-3}}$$
+$$\frac{F}{2.00} = 0.125 \text{ N/m}$$
+
+Now, multiply by the length $L = 2.00 \text{ m}$:
+$$F = 0.125 \times 2.00 = 0.250 \text{ N}$$
+
+**Step B: Calculate the mass $m$**
+Using $F = ma$ where $a = 0.200 \text{ m/s}^2$:
+$$0.250 = m \times 0.200$$
+$$m = \frac{0.250}{0.200}$$
+$$m = 1.25 \text{ kg}$$
+
+Comparing our result to the given options:
+(A) 0.625 kg
+(B) 1.25 kg
+(C) 2.50 kg
+(D) 5.00 kg
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

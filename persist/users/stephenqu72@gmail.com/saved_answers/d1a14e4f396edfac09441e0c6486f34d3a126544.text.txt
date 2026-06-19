@@ -1,0 +1,21 @@
+To solve this problem, we apply the principles of electromagnetic induction, specifically the **Faraday Disc (or Faraday Generator)**.
+
+### Answer
+The correct statement is **B. A direct current flows from $Y$ to $X$.**
+
+### Explanation
+1.  **Magnetic Force on Charge Carriers:** When the metal disc rotates in the magnetic field, the free electrons within the metal experience a magnetic force due to the Lorentz force equation: $\mathbf{F} = q(\mathbf{v} \times \mathbf{B})$.
+2.  **Determining Direction:**
+    *   The magnetic field ($\mathbf{B}$) points from the North pole (N) to the South pole (S).
+    *   The velocity vector ($\mathbf{v}$) of the disc at the bottom (near Brush $Y$) is directed forward (out of the page or tangentially depending on rotation), but we can look at the radial movement. As the disc rotates through the field, the motional EMF induces a separation of charge.
+    *   Using the Right-Hand Rule (or Fleming's Right-Hand Generator Rule) for positive charges: With fingers pointing in the direction of the magnetic field ($\text{N} \rightarrow \text{S}$) and the thumb pointing in the direction of motion, the palm (the direction of force on positive charges) points toward the center (the axle/Brush $X$).
+3.  **Current Flow:** 
+    *   Positive charges are pushed toward the axle (Brush $X$), making it the positive terminal.
+    *   Consequently, electrons (negative charges) move toward the rim (Brush $Y$).
+    *   Since conventional current is defined as the flow of positive charge, the current will flow from the rim (Brush $Y$) through the external circuit (the globe) to the axle (Brush $X$).
+4.  **Nature of Current:** Because the disc rotates continuously in the same magnetic field and the orientation relative to the poles does not change, the polarity remains constant. Therefore, the generator produces **direct current (DC)**, not alternating current.
+
+Thus, a direct current flows from $Y$ to $X$.
+
+###QUESTION_TYPE
+Multiple choice

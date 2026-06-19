@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To identify the variables in an experiment, consider these definitions:
+*   **Independent variable:** The factor that the experimenter intentionally changes or manipulates. In this experiment, the students deliberately choose to spin the coil at $50\text{ rpm}$, $100\text{ rpm}$, and $150\text{ rpm}$. Therefore, the **speed of rotation** is the independent variable.
+*   **Dependent variable:** The factor that is measured or observed as a result of changing the independent variable. The students measure the **peak EMF** on the oscilloscope to see how it changes in response to the different rotational speeds. Therefore, the peak EMF is the dependent variable.
+*   **Controlled variable:** A factor that must be kept constant throughout the experiment to ensure the results are valid and a "fair test." Since the investigation focuses on the relationship between speed and EMF, all other factors—such as the **strength of the magnetic field**, the area of the coil, and the number of turns in the coil—must remain unchanged.
+
+**Scientific Context:**
+The peak EMF ($\varepsilon_{peak}$) of a rotating coil in a magnetic field is given by the formula:
+$$\varepsilon_{peak} = N B A \omega$$
+Where:
+- $N$ is the number of turns
+- $B$ is the magnetic field strength
+- $A$ is the area of the coil
+- $\omega$ is the angular velocity ($2\pi f$)
+
+Since $\varepsilon_{peak} \propto \omega$ (or rotational speed), the students are testing this linear relationship while keeping $B$, $A$, and $N$ (the controlled variables) constant. Option (D) is the only choice that correctly aligns these roles.
+
+### QUESTION_TYPE
+Multiple choice

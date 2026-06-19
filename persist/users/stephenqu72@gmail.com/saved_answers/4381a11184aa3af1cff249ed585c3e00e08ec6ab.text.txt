@@ -1,0 +1,28 @@
+To answer this question, we apply Faraday's Law of Induction, which states that the magnitude of the induced electromotive force (emf) is equal to the rate of change of magnetic flux through a coil:
+
+$$\varepsilon = N \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+
+*(Note: Based on typical context for this level of physics problem, if the number of turns $N$ is not specified, it is assumed to be $N=1$.)*
+
+### Step-by-Step Solution:
+
+1.  **Identify the change in flux ($\Delta \Phi$):**
+    *   "Maximum flux" ($\Phi_{max}$) occurs when the coil is perpendicular to the magnetic field.
+    *   "Minimum flux" ($\Phi_{min}$) occurs when the coil is parallel to the magnetic field, meaning $\Phi_{min} = 0$.
+    *   Therefore, the change in flux is $\Delta \Phi = \Phi_{max} - 0 = \Phi_{max}$.
+    *   *Looking at the context provided by typical HSC problems of this type, you would take the $\Phi_{max}$ value provided in the previous parts of your specific exam paper (let's denote this value as $B \times A$).*
+
+2.  **Identify the time interval ($\Delta t$):**
+    *   The problem provides $\Delta t = 0.52\text{ s}$.
+
+3.  **Calculate the magnitude of the induced emf ($\varepsilon$):**
+    *   Using the formula $\varepsilon = \frac{\Phi_{max}}{0.52}$.
+
+**Example Calculation:**
+If your previous working found the maximum flux to be, for example, $0.26\text{ Wb}$, the calculation would be:
+$$\varepsilon = \frac{0.26}{0.52} = 0.5\text{ V}$$
+
+**Teacher's Tip:** Always ensure your flux is in Webers ($\text{Wb}$) and time is in seconds ($\text{s}$) to ensure your answer is in Volts ($\text{V}$). If the coil has multiple turns ($N > 1$), don't forget to multiply your result by $N$.
+
+###QUESTION_TYPE
+Calculation question

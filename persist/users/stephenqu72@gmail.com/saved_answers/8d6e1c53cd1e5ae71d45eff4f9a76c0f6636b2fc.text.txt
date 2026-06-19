@@ -1,0 +1,33 @@
+To determine which coil experiences the greatest torque, we use the formula for the torque $\tau$ exerted on a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \sin(\theta)$$
+
+Where:
+- $n$ is the number of loops (turns)
+- $I$ is the current
+- $A$ is the area of a single loop
+- $B$ is the magnetic field strength
+- $\theta$ is the angle between the normal to the coil and the magnetic field
+
+### Step-by-Step Explanation
+
+1. **Identify Constant Variables:**
+   The current $I = 4.0\text{ A}$ and the magnetic field $B = 0.2\text{ T}$ are identical for all four coils. Assuming the orientation $\theta$ is the same, the torque is directly proportional to the product of the number of turns $n$ and the area $A$ of the coil ($n \times A$).
+
+2. **Calculate the Proportional Factor ($n \times A$) for each option:**
+   Since the length of the wire $L$ is fixed, the perimeter of each loop changes as we add more turns. Let's calculate the value of $n \times A$ for each:
+   - **a)** $1 \times 0.18 = 0.18$
+   - **b)** $2 \times 0.045 = 0.09$
+   - **c)** $3 \times 0.020 = 0.06$
+   - **d)** $4 \times 0.011 = 0.044$
+
+3. **Comparison:**
+   Comparing the products calculated above, the value for option (a) is the largest ($0.18 > 0.09 > 0.06 > 0.044$). 
+
+**Conclusion:**
+Because the torque $\tau$ is directly proportional to the product $nA$, the coil with the highest product of $n \times A$ will experience the greatest torque. 
+
+The correct answer is **a**.
+
+###QUESTION_TYPE
+Multiple choice

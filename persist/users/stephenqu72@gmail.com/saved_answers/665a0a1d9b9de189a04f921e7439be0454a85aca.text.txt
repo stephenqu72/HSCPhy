@@ -1,0 +1,33 @@
+To solve these problems, we use the Rydberg formula for the Balmer series and the Doppler effect formula for radial velocity.
+
+### (a) Calculate the next wavelength, $H_{\epsilon}$, in the Balmer series.
+
+**Explanation:**
+The Balmer series corresponds to transitions where electrons fall to the $n=2$ energy level. The formula is:
+$$\frac{1}{\lambda} = R \left( \frac{1}{2^2} - \frac{1}{n^2} \right)$$
+Where $R \approx 1.097 \times 10^7 \, \text{m}^{-1}$.
+The first four lines ($H_{\alpha}, H_{\beta}, H_{\gamma}, H_{\delta}$) correspond to $n = 3, 4, 5, 6$. The next line, $H_{\epsilon}$, corresponds to $n = 7$:
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{4} - \frac{1}{49} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( 0.25 - 0.020408 \right) = 2,519,591 \, \text{m}^{-1}$$
+$$\lambda \approx 3.97 \times 10^{-7} \, \text{m} = 397.0 \, \text{nm}$$
+
+### (b) Determine the velocity of the star with respect to Earth.
+
+**Explanation:**
+The observed wavelength $\lambda_{obs} = 673.2 \, \text{nm}$ is greater than the rest wavelength $\lambda_{rest} = 656.3 \, \text{nm}$ ($H_{\alpha}$). This indicates a redshift, meaning the star is moving away. We use the Doppler formula:
+$$\frac{\Delta \lambda}{\lambda} = \frac{v}{c}$$
+Where $\Delta \lambda = 673.2 - 656.3 = 16.9 \, \text{nm}$, and $c \approx 3.00 \times 10^8 \, \text{m/s}$.
+$$v = c \times \frac{\Delta \lambda}{\lambda} = 3.00 \times 10^8 \times \left( \frac{16.9}{656.3} \right)$$
+$$v \approx 7.72 \times 10^6 \, \text{m/s} \, (\text{or } 7,720 \, \text{km/s away from Earth})$$
+
+### (c) Calculate the surface temperature of the star.
+
+**Explanation:**
+We use Wien's Displacement Law:
+$$\lambda_{peak} \times T = 2.898 \times 10^{-3} \, \text{m K}$$
+Looking at the graph, the peak intensity occurs at approximately $400 \, \text{nm}$ (or $4.00 \times 10^{-7} \, \text{m}$):
+$$T = \frac{2.898 \times 10^{-3}}{4.00 \times 10^{-7}}$$
+$$T \approx 7245 \, \text{K}$$
+
+###QUESTION_TYPE
+Calculation question

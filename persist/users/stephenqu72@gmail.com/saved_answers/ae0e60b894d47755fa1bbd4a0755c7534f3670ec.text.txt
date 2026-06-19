@@ -1,0 +1,33 @@
+To solve this problem, we apply **Faraday's Law of Induction**, which states that the induced electromotive force (EMF) is equal to the negative rate of change of magnetic flux:
+$$\varepsilon = - \frac{\Delta \Phi}{\Delta t}$$
+
+### Step 1: Identify the net magnetic flux
+The wire is twisted into a figure-eight. Because the loops are wound in a figure-eight configuration, their magnetic fluxes effectively oppose each other in the circuit. The net flux $\Phi_{net}$ is the difference between the flux in the two loops:
+$$\Phi_{net} = |A_1 - A_2| \cdot B$$
+where $A_1 = \pi r_1^2$ and $A_2 = \pi r_2^2$.
+
+### Step 2: Determine the change in flux ($\Delta \Phi$)
+The magnetic field changes from $0.1\text{ T}$ to $-0.06\text{ T}$ (since it is in the opposite direction). 
+The total change in magnetic field is:
+$$\Delta B = B_f - B_i = -0.06 - 0.1 = -0.16\text{ T}$$
+The change in flux is:
+$$\Delta \Phi = (A_2 - A_1) \cdot \Delta B = \pi (r_2^2 - r_1^2) \cdot (-0.16)$$
+
+### Step 3: Use the EMF equation
+Given $\varepsilon = 2.3\text{ V}$, $\Delta t = 0.015\text{ s}$, and the magnitude of induced voltage $|\varepsilon| = \left| \frac{\Delta \Phi}{\Delta t} \right|$:
+$$2.3 = \left| \frac{\pi (r_2^2 - r_1^2) \cdot (-0.16)}{0.015} \right|$$
+$$2.3 = \frac{\pi (r_2^2 - (0.07)^2) \cdot 0.16}{0.015}$$
+
+### Step 4: Solve for $r_2$
+First, multiply by $0.015$:
+$$0.0345 = \pi (r_2^2 - 0.0049) \cdot 0.16$$
+Divide by $0.16\pi$:
+$$\frac{0.0345}{0.16\pi} = r_2^2 - 0.0049$$
+$$0.06864 = r_2^2 - 0.0049$$
+$$r_2^2 = 0.07354$$
+$$r_2 = \sqrt{0.07354} \approx 0.271\text{ m}$$
+
+Converting to centimetres, the radius $r$ is approximately **$27.1\text{ cm}$**.
+
+###QUESTION_TYPE
+Calculation question

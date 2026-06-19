@@ -1,0 +1,41 @@
+### Answer
+
+The relationship between the supplied emf ($V$), back emf ($\varepsilon$), and the net emf ($V_{net}$) in a motor is governed by the principle of conservation of energy. As a motor spins, it acts as both a motor and a generator, creating a "back emf" that opposes the supplied voltage. The net emf driving the current through the internal resistance ($r$) of the motor coil is given by:
+
+$$V_{net} = V - \varepsilon = Ir$$
+
+1. **At start-up:** The speed of the motor is zero, so the back emf ($\varepsilon$) is zero. Consequently, the net emf is equal to the full supply voltage ($V_{net} = V$). This results in a high "inrush current" ($I = V/r$).
+2. **As it accelerates:** As the motor gains speed, the magnetic flux through the coils changes more rapidly, causing the back emf to increase. As $\varepsilon$ increases, the net emf ($V - \varepsilon$) decreases, which in turn reduces the current flowing through the motor.
+3. **At constant speed:** The motor reaches a steady state where the back emf is just enough to keep the net emf at a value that provides the current necessary to maintain constant rotation against load and friction.
+
+**Graph of emf vs. time:**
+
+```text
+emf (V)
+^
+| V (Supplied) --------------------------
+|
+|         /-------- ε (Back emf)
+|        /
+|       /
+|      /
+|     / 
+|    / 
+|   /
+|  /     V - ε (Net emf)
+| /--------------------------------------->
+0                                     time (t)
+```
+*(In this graph, $V$ is a horizontal constant line, $\varepsilon$ starts at $0$ and curves upwards towards $V$, and $V_{net}$ starts at $V$ and drops towards $0$ as the motor reaches operating speed.)*
+
+---
+
+### How to solve this
+To achieve full marks (4 marks), you must address three specific areas:
+1.  **Define the relationship:** State the formula $V_{net} = V - \varepsilon$.
+2.  **Explain the dynamics:** Describe what happens at the moment of start-up (high current, zero back emf) and what happens as it reaches constant speed (back emf increases, net emf/current decreases).
+3.  **Include a labeled graph:** Ensure your axes are labeled (Voltage/emf on y-axis, Time on x-axis). Your graph must clearly show that the supplied voltage is constant, the back emf increases from zero, and the net emf decreases.
+4.  **Connect to Physics:** Explicitly mention that back emf opposes the supplied voltage (Lenz's Law context).
+
+###QUESTION_TYPE
+Short answer

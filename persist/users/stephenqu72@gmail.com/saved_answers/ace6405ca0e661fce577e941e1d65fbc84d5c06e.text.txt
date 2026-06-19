@@ -1,0 +1,15 @@
+To solve this problem, we need to apply the principles of **electromagnetic induction**, specifically **Faraday’s Law** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Initial State:** When the switch is closed, a steady direct current (DC) flows through the left coil. This creates a constant magnetic field within the iron rod. Because the current is constant, the magnetic flux through the right coil is also constant. According to Faraday's Law, an induced electromotive force (EMF) is only produced when there is a *change* in magnetic flux ($ \Delta\Phi / \Delta t \neq 0 $). Since the flux is steady, there is no induced current, and the galvanometer reads zero.
+2.  **The Action:** Opening the switch breaks the circuit. The current in the left coil rapidly drops to zero, which causes the magnetic field inside the iron rod to rapidly collapse.
+3.  **The Result:** As the magnetic field collapses, the magnetic flux through the right coil decreases rapidly. This change in flux induces an EMF in the right coil, causing a momentary current to flow through the galvanometer. 
+4.  **Observation:** Once the current in the primary circuit has reached zero and the magnetic field has fully dissipated, the flux through the right coil becomes constant again (at zero). Consequently, the induced EMF disappears, and the galvanometer pointer returns to zero.
+
+Therefore, the needle will deflect (move to a non-zero reading) while the field is changing during the opening of the switch, and then return to its original position at zero once the system stabilizes.
+
+**Correct Answer:** **D**
+
+###QUESTION_TYPE
+Multiple choice

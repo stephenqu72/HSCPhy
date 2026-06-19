@@ -1,0 +1,42 @@
+### Answer
+
+**Part (a): Calculation**
+
+To find the average induced EMF, we use Faraday’s Law of Induction:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+1.  **Identify given values:**
+    *   Number of turns, $N = 10$
+    *   Area, $A = 1.6 \times 10^{-3} \text{ m}^2$
+    *   Magnetic field strength, $B = 2.0 \times 10^{-2} \text{ T}$
+    *   Time interval, $\Delta t = 0.50 \text{ s}$
+
+2.  **Calculate change in flux ($\Delta \Phi$):**
+    *   Initial flux ($\Phi_i$) at position X (outside field) = $0 \text{ Wb}$
+    *   Final flux ($\Phi_f$) at position Y (inside field) = $B \times A = (2.0 \times 10^{-2}) \times (1.6 \times 10^{-3}) = 3.2 \times 10^{-5} \text{ Wb}$
+    *   $\Delta \Phi = 3.2 \times 10^{-5} - 0 = 3.2 \times 10^{-5} \text{ Wb}$
+
+3.  **Calculate EMF ($\varepsilon$):**
+    *   $\varepsilon = 10 \times \frac{3.2 \times 10^{-5}}{0.50}$
+    *   $\varepsilon = 6.4 \times 10^{-4} \text{ V}$
+
+**Part (b): Sketch**
+
+*   **Outside field:** EMF = $0$.
+*   **Entering field:** Magnetic flux is increasing, so there is a constant negative (or positive, depending on convention) EMF.
+*   **Inside field:** Magnetic flux is constant ($\Delta \Phi = 0$), so EMF = $0$.
+*   **Leaving field:** Magnetic flux is decreasing, creating an EMF equal in magnitude but opposite in sign to the "entering" phase.
+*   **Outside field:** EMF = $0$.
+
+---
+
+### How to solve it
+
+1.  **Understand Faraday’s Law:** The magnitude of induced EMF is directly proportional to the rate of change of magnetic flux linkage. Remember that flux is $\Phi = B \times A \times \cos(\theta)$. Since the loop is perpendicular to the field, $\cos(0^\circ) = 1$.
+2.  **Handle the signs:** In HSC Physics, we often focus on the magnitude. If you use Lenz's Law, ensure your direction is consistent. The entering phase generates a flux change that opposes the incoming field, and the exiting phase generates a flux change that tries to maintain it.
+3.  **Graphing logic:**
+    *   The EMF is the **gradient** of the flux-time graph.
+    *   When the loop is fully inside the field, the flux is constant. The derivative of a constant is zero, meaning the EMF must return to the x-axis (zero) while the loop is completely submerged in the magnetic field.
+
+### QUESTION_TYPE
+Calculation question

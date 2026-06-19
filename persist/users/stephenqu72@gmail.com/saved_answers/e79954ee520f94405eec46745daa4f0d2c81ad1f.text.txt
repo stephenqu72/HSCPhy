@@ -1,0 +1,17 @@
+The correct answer is **(A) Emission Spectrum**.
+
+### Explanation
+
+To solve this problem, you need to understand the physics of gas discharge tubes and how they interact with light:
+
+1.  **Nature of the Source:** A discharge tube contains a low-pressure gas (in this case, noble gases like He, Ne, Ar, Kr, and Xe). When a high voltage is applied, electrons are accelerated, causing the gas atoms to become excited. As these atoms return to their ground state, they release energy in the form of photons.
+2.  **Origin of the Light:** Because the energy levels within an atom are "quantized" (discrete), the electrons can only transition between specific energy levels. This results in the emission of photons with specific wavelengths, corresponding to the energy difference:
+    $$\Delta E = E_2 - E_1 = hf = \frac{hc}{\lambda}$$
+3.  **The Spectrum Type:** 
+    *   An **emission spectrum** (or line spectrum) is produced by hot, low-density gases where atoms emit light at specific, discrete wavelengths. This appears as a series of bright, coloured lines on a dark background when viewed through a diffraction grating.
+    *   A **continuous spectrum** (like that from an incandescent bulb) contains all wavelengths and is produced by hot, dense objects (blackbody radiation).
+    *   An **absorption spectrum** occurs when light passes through a cool gas, which absorbs specific wavelengths, creating dark lines on a continuous background.
+    *   Since these tubes are light sources emitting their own light due to electronic transitions, they produce an **emission spectrum**.
+
+###QUESTION_TYPE
+Multiple choice

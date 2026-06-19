@@ -1,0 +1,21 @@
+To solve this problem, we must apply **Faraday’s Law of Induction**, **Lenz’s Law**, and **Newton’s Third Law**.
+
+### Explanation of Observations
+
+1.  **Current in Galvanometer 1 ($G_1$):** When the switch on Cart 1 is closed, current flows from the battery into the solenoid. This current increases rapidly from zero to a maximum value. According to Ampere's Law, this creates a magnetic field inside the solenoid. Because the magnetic flux ($\Phi$) through the solenoid is changing ($d\Phi/dt > 0$), an induced electromotive force (EMF) is generated in the coil according to Faraday’s Law. This results in a transient current through the galvanometer $G_1$ that opposes the change in flux (Lenz's Law).
+2.  **Current in Galvanometer 2 ($G_2$):** As the solenoid on Cart 1 becomes an electromagnet, it produces a magnetic field that extends toward Cart 2. As the magnetic flux through the solenoid on Cart 2 changes, an induced EMF is created in the second solenoid, causing a transient current to be registered on galvanometer $G_2$.
+3.  **Movement of the Carts:** 
+    *   **Interaction:** The two solenoids act as magnets. Based on Lenz's Law, the induced current in Cart 2 will create a magnetic field that opposes the field produced by Cart 1, resulting in a repulsive force between the two carts.
+    *   **Newton's Third Law:** The repulsive force acting on Cart 1 is equal in magnitude and opposite in direction to the force acting on Cart 2. Let this force be $F$.
+    *   **Newton's Second Law ($F = ma$):** We are given that $m_1 = 2m_2$. 
+        *   For Cart 1: $a_1 = F / (2m_2)$
+        *   For Cart 2: $a_2 = F / m_2$
+    *   Since Cart 2 has half the mass of Cart 1, it will experience twice the acceleration of Cart 1 ($a_2 = 2a_1$). Therefore, both carts will move away from each other, with Cart 2 moving with a greater initial acceleration than Cart 1.
+
+### Summary of Observations
+*   **$G_1$:** A momentary deflection is observed as the magnetic field is established.
+*   **$G_2$:** A momentary deflection is observed due to electromagnetic induction from the changing magnetic flux.
+*   **Motion:** Both carts will move away from each other due to magnetic repulsion. Cart 2 will accelerate away at a rate twice as high as Cart 1 because it has half the mass ($a \propto 1/m$).
+
+###QUESTION_TYPE
+Short answer

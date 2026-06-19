@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### (a) Explain the formation of dark fringes observed by the student on the screen.
+Dark fringes are formed due to **destructive interference**. When light passes through the two slits, the two resulting wavefronts overlap. At certain positions on the screen, the waves from the two slits arrive such that they are $180^\circ$ (or $\pi$ radians) out of phase with each other. This occurs when the path difference between the two waves is an odd-integer multiple of half-wavelengths, given by:
+$$\text{Path difference} = (m + 0.5)\lambda \quad \text{for } m = 0, 1, 2, ...$$
+At these points, the crest of one wave coincides with the trough of the other, resulting in the cancellation of wave amplitudes and the production of a dark region.
+
+#### (b) Calculate the wavelength, $\lambda$, of the blue light.
+**Step 1: Determine the fringe separation ($x$).**
+The student measures the distance between nine successive bright fringes to be $15\text{ cm}$. The number of intervals between nine fringes is $9 - 1 = 8$.
+$$x = \frac{15\text{ cm}}{8} = 1.875\text{ cm} = 0.01875\text{ m}$$
+
+**Step 2: Use the double-slit interference formula.**
+The formula for the fringe spacing is:
+$$x = \frac{\lambda L}{d}$$
+Rearranging for $\lambda$:
+$$\lambda = \frac{x d}{L}$$
+Where:
+- $x = 0.01875\text{ m}$
+- $d = 60\text{ }\mu\text{m} = 60 \times 10^{-6}\text{ m}$
+- $L = 2.5\text{ m}$
+
+**Step 3: Calculate.**
+$$\lambda = \frac{0.01875 \times 60 \times 10^{-6}}{2.5} = 4.5 \times 10^{-7}\text{ m} = 450\text{ nm}$$
+
+#### (c) Predict the resulting pattern that the student will see on the screen.
+When two wavelengths are present, the student will see two overlapping interference patterns. Since the red light has a longer wavelength ($1.5\lambda$), its fringe separation will be $1.5$ times wider than that of the blue light. The central maximum will remain a white/mixed color (as both wavelengths interfere constructively at the center), but moving outward, the fringes will become increasingly separated and blurred due to the superposition of the blue and red patterns. At specific points, a blue fringe might overlap with a red dark space, leading to color variation across the screen.
+
+### QUESTION_TYPE
+Calculation question

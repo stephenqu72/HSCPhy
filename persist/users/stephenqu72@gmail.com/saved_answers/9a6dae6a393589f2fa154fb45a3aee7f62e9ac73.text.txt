@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **C. is zero**.
+
+### Explanation
+To understand why the induced current is zero, we must apply **Faraday's Law of Induction** and the concept of **magnetic flux**.
+
+1.  **Magnetic Flux ($\Phi$):** The magnetic flux through a loop is defined by the formula:
+    $$\Phi = B \cdot A \cdot \cos(\theta)$$
+    where $B$ is the magnetic field strength, $A$ is the area of the loop, and $\theta$ is the angle between the magnetic field and the normal to the area.
+
+2.  **Faraday’s Law:** Faraday's Law states that an electromotive force (EMF) is induced in a circuit only when there is a **change in magnetic flux** over time ($\varepsilon = -\frac{\Delta\Phi}{\Delta t}$).
+
+3.  **Application to the Scenario:**
+    *   The problem states that the rectangular loop is moving at a **constant velocity** and remains **completely inside** a **uniform magnetic field**.
+    *   Because the field is uniform ($B$ is constant) and the loop is entirely within the field, the amount of magnetic field lines passing through the loop does not change as it moves.
+    *   Since the area of the loop ($A$) remains constant and the field ($B$) is constant throughout the region, the magnetic flux ($\Phi$) through the loop remains constant.
+    *   Because $\Delta\Phi = 0$, there is no change in magnetic flux, and therefore no induced EMF or induced current. 
+
+In simple terms: as long as the entire loop is within the uniform field, no side of the loop is "cutting" through new magnetic field lines relative to its motion; thus, no current is generated.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,22 @@
+To solve this problem, we need to apply the concepts of transformer efficiency and the power formula $P = VI$.
+
+### Step-by-Step Explanation:
+
+1.  **Calculate the secondary output power ($P_s$):**
+    Efficiency ($\eta$) is defined as the ratio of output power to input power. Given the primary input power ($P_p$) is $500\text{ W}$ and the efficiency is $70\%$:
+    $$P_s = P_p \times \text{efficiency}$$
+    $$P_s = 500\text{ W} \times 0.70$$
+    $$P_s = 350\text{ W}$$
+
+2.  **Calculate the current in the secondary coil ($I_s$):**
+    We use the power formula for the secondary side of the transformer:
+    $$P_s = V_s \times I_s$$
+    Where $V_s$ is the secondary voltage ($70\text{ V}$). Rearranging to solve for $I_s$:
+    $$I_s = \frac{P_s}{V_s}$$
+    $$I_s = \frac{350\text{ W}}{70\text{ V}}$$
+    $$I_s = 5.0\text{ A}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

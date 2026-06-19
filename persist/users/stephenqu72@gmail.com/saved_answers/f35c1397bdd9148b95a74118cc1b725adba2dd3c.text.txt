@@ -1,0 +1,18 @@
+Hello! As your HSC Physics teacher, I am happy to help you break down this question.
+
+### Answer
+The correct answer is **A. Radio Waves**.
+
+### Explanation
+To solve this, we need to understand how electromagnetic radiation (EMR) is generated. According to the principles of electromagnetism, when an electric charge is accelerated, it emits electromagnetic radiation. In an electrical circuit, the most efficient way to produce EMR is by using an **antenna**, where electrons oscillate back and forth at a specific frequency.
+
+1.  **The physics of the antenna:** A wire acting as an antenna is most efficient when its length $L$ is related to the wavelength $\lambda$ of the radiation it emits. Commonly, a "half-wave dipole" antenna has a length equal to half the wavelength of the radiation it is designed to transmit ($L = \frac{\lambda}{2}$).
+2.  **Evaluating the scale:** The problem mentions a wire that is $50$ metres long. If we consider this a resonant structure, the wavelength $\lambda$ would be in the order of magnitude of $100$ metres.
+3.  **Comparing to the EMR spectrum:**
+    *   **Radio waves** typically have wavelengths ranging from $1\text{ mm}$ to over $100\text{ km}$. A wavelength of $\sim 100\text{ m}$ sits squarely in the **Radio wave** portion of the electromagnetic spectrum.
+    *   Microwaves, Infrared, and Visible light have significantly shorter wavelengths (micrometres to centimetres). To produce these types of radiation, the "antenna" (or the electronic transition creating the oscillation) would need to be on an atomic or molecular scale, which is impossible for a macroscopic $50\text{m}$ wire.
+
+Therefore, a macroscopic, long wire oscillating with current is a classic description of a radio transmitter.
+
+###QUESTION_TYPE
+Multiple choice

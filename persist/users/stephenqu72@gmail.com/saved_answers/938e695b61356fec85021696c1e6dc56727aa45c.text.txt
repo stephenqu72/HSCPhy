@@ -1,0 +1,28 @@
+To solve this problem, we must apply **Faraday’s Law of Induction**, which states that the induced electromotive force ($\varepsilon$) in a coil is proportional to the negative rate of change of magnetic flux ($\Phi$) over time:
+
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+
+In mathematical terms, the EMF is the **negative gradient** of the flux-time graph.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Slope (Gradient) of the Flux Graph:**
+    *   The flux graph starts at a negative value and is increasing (positive slope).
+    *   At the first vertical dashed line, the slope is at its maximum positive value.
+    *   At the peak of the flux curve (second dashed line), the tangent is horizontal, meaning the slope is $0$.
+    *   At the third dashed line, the flux is decreasing (negative slope).
+
+2.  **Apply Faraday’s Law ($\varepsilon \propto -\text{slope}$):**
+    *   **At the start:** The flux is increasing (positive slope). Since $\varepsilon = -\text{slope}$, the EMF must be **negative**. Looking at the options, both (A) and (B) start with a negative EMF.
+    *   **At the first dashed line:** The flux slope is at its maximum positive value. Therefore, the EMF must be at its **maximum negative value**. Graph (A) shows a negative trough at this position.
+    *   **At the second dashed line (peak of flux):** The slope is $0$. Therefore, the EMF must be **$0$**. Graph (A) crosses the zero axis here.
+    *   **At the third dashed line:** The flux is decreasing (negative slope). Therefore, the EMF ($\varepsilon = -(\text{negative})$) must be **positive**. Graph (A) shows a positive peak here.
+
+3.  **Conclusion:**
+    By checking the gradient of the flux curve at various points and negating it, we find that the resulting EMF curve is a negative sine wave (or a cosine wave shifted), which corresponds perfectly to graph **(A)**.
+
+### Answer:
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

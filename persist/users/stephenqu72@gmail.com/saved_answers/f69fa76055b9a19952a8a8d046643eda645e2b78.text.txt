@@ -1,0 +1,19 @@
+### Answer
+When a current is passed through a motor, a magnetic force (torque) is produced, causing the motor to accelerate. As the coil rotates faster, the rate of change of magnetic flux through the coil increases, inducing a **back electromotive force (back EMF)** in the opposite direction to the supply voltage. 
+
+According to Lenz’s Law, this back EMF opposes the supply voltage, causing the net current through the motor to decrease. As the motor reaches a specific speed, the back EMF becomes large enough that the net current (and thus the driving magnetic force/torque) decreases until it exactly balances the opposing frictional and load forces. At this point, the net force on the motor is zero, and the motor reaches a constant terminal velocity (maximum speed).
+
+---
+
+### How to solve this
+To achieve full marks (4 marks) in an HSC Physics context, you must structure your answer by linking the electrical and mechanical properties:
+
+1.  **Initiation of motion:** State that the supply current and magnetic field create a motor torque ($F = nBIl\sin\theta$) that causes acceleration.
+2.  **The role of Back EMF:** Explain that as the motor rotates, it acts like a generator, inducing a back EMF ($\varepsilon$). This must be linked to Faraday's Law or Lenz's Law (the change in flux induces an EMF that opposes the supply).
+3.  **The effect on current:** Explain that the effective voltage becomes $V_{net} = V_{supply} - \varepsilon$. As speed increases, $\varepsilon$ increases, causing the current $I$ to drop.
+4.  **Equilibrium condition:** Conclude that the motor reaches maximum speed when the driving torque equals the resistive/load torques. At this steady state, there is no net torque, so there is no angular acceleration ($a=0$).
+
+**Key Terms to include:** Back EMF, Lenz's Law, net current, torque balance, terminal speed.
+
+###QUESTION_TYPE
+Short answer

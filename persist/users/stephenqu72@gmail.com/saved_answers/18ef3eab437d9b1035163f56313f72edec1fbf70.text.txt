@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(A) A smoother output of voltage**.
+
+---
+
+### Explanation
+To understand this, we must look at how a simple DC generator functions. 
+
+1.  **The Problem with Single Coils:** A single coil rotating in a magnetic field produces a sinusoidal output. When converted to DC using a split-ring commutator, the output looks like a series of "humps" (pulsating DC). This results in a large "ripple" where the voltage drops to zero twice per cycle.
+2.  **The Solution (Multiple Coils):** By adding more coils set at regular angles around the armature, you ensure that as one coil reaches the position where its induced EMF is zero (the neutral plane), another coil is positioned where it is cutting the magnetic flux lines at a steeper angle (producing a higher EMF). 
+3.  **Resulting Waveform:** Because these coils are connected to a multi-segment commutator, the total output voltage becomes the sum of these overlapping waveforms. Instead of the voltage dropping all the way to zero, the troughs are "filled in" by the peaks of the other coils. This creates a much flatter, more constant DC output, commonly referred to as a "smoother" voltage.
+
+**Why the other options are incorrect:**
+*   **(B) and (C):** While more coils do increase the total average EMF (and thus power), the primary *design* purpose of placing them at "regular angles" is specifically to minimize the ripple effect, not just to increase magnitude. 
+*   **(D):** Multi-phase AC output typically involves multiple independent sets of stator coils rather than simply arranging armature coils at angles on a single rotating shaft for DC conversion.
+
+###QUESTION_TYPE
+Multiple choice

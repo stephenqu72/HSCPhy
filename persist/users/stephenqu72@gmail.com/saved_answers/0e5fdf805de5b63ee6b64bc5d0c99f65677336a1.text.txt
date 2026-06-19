@@ -1,0 +1,28 @@
+To determine the correct graph, we must apply Faraday’s Law of Induction, which relates the induced electromotive force (EMF) to the rate of change of magnetic flux.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Physical Relationship:**
+    Faraday's Law states that the induced voltage (EMF) is proportional to the negative rate of change of magnetic flux ($\Phi$):
+    $$\varepsilon = - \frac{d\Phi}{dt}$$
+    In a rotating generator, the magnetic flux through the coil follows a sinusoidal pattern: $\Phi(t) = \Phi_{max} \cos(\omega t)$.
+
+2.  **Analyze the Calculus:**
+    If the flux is a cosine function, the rate of change of flux (the derivative) follows a sine function. Mathematically:
+    - Flux ($\Phi$): Proportional to $\cos(\omega t)$
+    - Voltage ($\varepsilon$): Proportional to $-\frac{d}{dt}(\cos(\omega t)) = \sin(\omega t)$
+
+    This implies that when the magnetic flux is at a maximum (or minimum), the slope of the flux graph is zero, meaning the induced voltage is zero. Conversely, when the flux is zero (passing through the vertical position), the rate of change is at its maximum, meaning the induced voltage is at a peak.
+
+3.  **Evaluating the Graphs:**
+    *   The **dashed line** (flux) must be a maximum when the **solid line** (voltage) is zero.
+    *   Looking at **Graph A**: When the dashed line (flux) is at its maximum peak, the solid line (voltage) is at zero. As the flux decreases towards zero, the voltage increases to a peak. This correctly illustrates the relationship $\varepsilon = -\frac{d\Phi}{dt}$.
+    *   In the other options, the phase relationship does not correctly represent the derivative relationship required by Faraday's Law.
+
+### Conclusion:
+Graph A is the only one that correctly depicts the $90^\circ$ phase shift between magnetic flux and induced voltage consistent with the physical principles of an AC generator.
+
+**Correct Answer: A**
+
+###QUESTION_TYPE
+Multiple choice

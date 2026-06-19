@@ -1,0 +1,32 @@
+### Solution
+
+#### Part (a)
+1. **Electromagnetic Induction:** As the rod falls, it cuts through the magnetic field, inducing an emf ($ \mathcal{E} = BvL $) according to Faraday's Law. This creates a current $ I = \frac{\mathcal{E}}{R} = \frac{BvL}{R} $ in the circuit.
+2. **Magnetic Force:** According to Lenz's Law, the resulting current interacts with the magnetic field to produce an upward magnetic force ($ F_B = BIl $) that opposes the motion of the rod.
+3. **Equilibrium:** As velocity $v$ increases, the induced current and the opposing force $F_B$ increase. The net force is $ F_{net} = mg - F_B $. As $F_B$ grows, $F_{net}$ decreases, which leads to a decreasing acceleration. Eventually, $F_B = mg$, the net force becomes zero, and the rod reaches a constant "terminal" velocity.
+
+#### Part (b)
+To find the final (terminal) velocity, we set the downward force of gravity equal to the upward magnetic force:
+$$mg = F_B$$
+Since $ F_B = BIl $ and $ I = \frac{BvL}{R} $, we substitute to get:
+$$mg = B\left(\frac{BvL}{R}\right)L = \frac{B^2 L^2 v}{R}$$
+Rearranging to solve for $v$:
+$$v = \frac{mgR}{B^2 L^2}$$
+**Given values:**
+- $m = 0.1\text{ kg}$
+- $g = 9.8\text{ m/s}^2$
+- $R = 5\text{ }\Omega$
+- $B = 2.0\text{ T}$
+- $L = 0.15\text{ m}$
+
+$$v = \frac{0.1 \times 9.8 \times 5}{2.0^2 \times 0.15^2}$$
+$$v = \frac{4.9}{4 \times 0.0225}$$
+$$v = \frac{4.9}{0.09} \approx 54.44\text{ m/s}$$
+
+### Explanation
+To solve this, we apply the principle of **terminal velocity** in electromagnetic systems. 
+- In part (a), you must link Faraday's Law, Lenz's Law, and Newton's Second Law. The key is showing that the "drag" (magnetic force) depends on velocity.
+- In part (b), you must derive the velocity by equating the weight of the rod ($mg$) to the magnetic force ($BIL$). The substitution $I = \frac{BvL}{R}$ is the standard "HSC-style" derivation for electromagnetic braking problems. Always convert units to SI (e.g., $15\text{ cm} = 0.15\text{ m}$ and $100\text{ g} = 0.1\text{ kg}$) before calculating.
+
+###QUESTION_TYPE
+Calculation question

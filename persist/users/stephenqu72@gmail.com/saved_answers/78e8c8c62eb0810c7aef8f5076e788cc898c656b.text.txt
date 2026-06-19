@@ -1,0 +1,24 @@
+### Answer
+
+**(a)** If the separation between the slits ($d$) is increased, the spacing between the interference fringes ($\Delta y$) will **decrease**.
+
+**(b)** The interference pattern will disappear, and instead, a single-slit diffraction pattern will be observed on the screen (resulting in a single, broader bright central maximum).
+
+---
+
+### Explanation
+
+**(a)** To solve this, you must recall the formula for fringe separation in Young’s double-slit experiment:
+$$\Delta y = \frac{\lambda L}{d}$$
+Where:
+- $\Delta y$ is the fringe separation (distance between adjacent bright fringes).
+- $\lambda$ is the wavelength of the light used.
+- $L$ is the distance from the slits to the screen.
+- $d$ is the separation between the two slits.
+
+From this relationship, we can see that fringe separation $\Delta y$ is **inversely proportional** to the slit separation $d$. Therefore, if $d$ increases, the denominator of the fraction increases, causing the overall value of $\Delta y$ to decrease.
+
+**(b)** The formation of an interference pattern requires the superposition of coherent light waves originating from two different sources (the two slits). If one slit is covered, there is no longer a second source to interfere with the light from the first. Consequently, the interference effect is lost, and the light from the remaining open slit undergoes single-slit diffraction, creating a wider central maximum with much lower intensity than the original central fringe.
+
+###QUESTION_TYPE
+Short answer

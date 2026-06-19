@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for Young's double-slit interference pattern, which relates the wavelength of the light to the separation of the fringes on a screen.
+
+### 1. Identify the given variables:
+*   Slit separation ($d$): $90\text{ }\mu\text{m} = 90 \times 10^{-6}\text{ m}$
+*   Distance to the wall ($L$): $6\text{ m}$
+*   Fringe separation ($\Delta x$): $3\text{ cm} = 0.03\text{ m}$
+
+### 2. The Formula:
+The distance between adjacent bright fringes ($\Delta x$) in a double-slit experiment is given by:
+$$\Delta x = \frac{\lambda L}{d}$$
+Where $\lambda$ is the wavelength of the light.
+
+### 3. Rearrange to solve for $\lambda$:
+$$\lambda = \frac{\Delta x \cdot d}{L}$$
+
+### 4. Substitute the values:
+$$\lambda = \frac{0.03\text{ m} \times (90 \times 10^{-6}\text{ m})}{6\text{ m}}$$
+$$\lambda = \frac{2.7 \times 10^{-6}}{6}\text{ m}$$
+$$\lambda = 0.45 \times 10^{-6}\text{ m}$$
+$$\lambda = 4.5 \times 10^{-7}\text{ m}$$
+
+### 5. Convert to nanometers (nm):
+Since $1\text{ nm} = 10^{-9}\text{ m}$, we have:
+$$\lambda = 450 \times 10^{-9}\text{ m} = 450\text{ nm}$$
+
+Comparing this result to the given options, the correct answer is **(C)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

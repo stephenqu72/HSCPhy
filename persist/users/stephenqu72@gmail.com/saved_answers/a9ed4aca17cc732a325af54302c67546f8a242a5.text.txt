@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for magnetic flux ($\Phi$):
+
+$$\Phi = B A \cos(\theta)$$
+
+where:
+- $B$ is the magnetic field strength.
+- $A$ is the area of the ring.
+- $\theta$ is the angle between the magnetic field vector (which points into the page) and the area vector (which is normal to the surface of the ring).
+
+### Step-by-Step Solution:
+
+1.  **Initial State:**
+    In the image, the ring is facing directly into the magnetic field. The area vector is parallel to the magnetic field lines. Therefore, the initial angle $\theta_1 = 0^\circ$.
+    $$\Phi_1 = B A \cos(0^\circ) = B A (1) = BA$$
+
+2.  **Final State:**
+    The ring rotates by $120^\circ$. The new angle between the area vector and the magnetic field lines is $\theta_2 = 120^\circ$.
+    $$\Phi_2 = B A \cos(120^\circ)$$
+    Using the trigonometric identity $\cos(120^\circ) = -0.5$ or $-\frac{1}{2}$:
+    $$\Phi_2 = B A \left( -\frac{1}{2} \right) = -\frac{1}{2} BA$$
+
+3.  **Calculate the change in flux ($\Delta\Phi$):**
+    $$\Delta\Phi = \Phi_2 - \Phi_1$$
+    $$\Delta\Phi = -\frac{1}{2} BA - BA$$
+    $$\Delta\Phi = -\frac{3}{2} BA$$
+
+Comparing this result to the given options, it matches option (A).
+
+**Answer:** (A) $-\frac{3}{2} B \times A$
+
+###QUESTION_TYPE
+Multiple choice

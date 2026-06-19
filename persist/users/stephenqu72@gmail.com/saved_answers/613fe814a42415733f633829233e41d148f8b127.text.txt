@@ -1,0 +1,30 @@
+### Answer
+
+**a) Calculation**
+
+First, convert the values to standard SI units (meters):
+- Wavelength $\lambda = 545 \text{ nm} = 545 \times 10^{-9} \text{ m}$
+- Rulings $N = 1.2 \times 10^3 \text{ lines/cm} = 1.2 \times 10^5 \text{ lines/m}$
+
+The grating spacing $d$ is:
+$$d = \frac{1}{N} = \frac{1}{1.2 \times 10^5} \approx 8.333 \times 10^{-6} \text{ m}$$
+
+Using the diffraction grating formula $d \sin(\theta) = n\lambda$ for the third-order ($n=3$):
+$$\sin(\theta) = \frac{n\lambda}{d} = \frac{3 \times 545 \times 10^{-9}}{8.333 \times 10^{-6}}$$
+$$\sin(\theta) = 0.1962$$
+$$\theta = \arcsin(0.1962) \approx 11.31^\circ$$
+
+**b) Explanation**
+When monochromatic light passes through the multiple slits of a diffraction grating, it undergoes diffraction. As the light waves emerge from each slit, they act as point sources of coherent light. These secondary wavefronts overlap and undergo **superposition**.
+- **Bright spots (constructive interference):** Occur where light waves from adjacent slits arrive at the screen in phase (the path difference between waves is an integer multiple of the wavelength, $n\lambda$). Their amplitudes add together to create increased intensity.
+- **Dark spots (destructive interference):** Occur where light waves arrive out of phase (typically a path difference of odd half-multiples of the wavelength). The crests of one wave coincide with the troughs of another, cancelling each other out.
+
+---
+
+### How to solve this
+1.  **Identify variables:** Always convert diffraction grating "lines per unit length" to the distance between slits $d$ (measured in meters). Remember $d = \frac{1}{\text{lines per meter}}$.
+2.  **Apply the formula:** Use the grating equation $d \sin(\theta) = n\lambda$. Ensure your calculator is in "Degree" mode when finding $\theta$.
+3.  **Conceptual Reasoning:** For the explanation part (part b), ensure you mention the key physics terms: **coherent sources**, **superposition**, **path difference**, **constructive interference**, and **destructive interference**. These are the "keywords" HSC markers look for.
+
+###QUESTION_TYPE
+Calculation question

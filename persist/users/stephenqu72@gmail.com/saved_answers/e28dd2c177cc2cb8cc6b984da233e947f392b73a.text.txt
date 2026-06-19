@@ -1,0 +1,38 @@
+To find the magnitude of the induced electromotive force (emf), we use Faraday's Law of Induction, which states that the induced emf ($\varepsilon$) is equal to the negative rate of change of magnetic flux linkage:
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Number of turns, $N = 30$
+*   Diameter of the coil, $d = 80\text{ mm} = 0.08\text{ m}$
+*   Radius of the coil, $r = \frac{d}{2} = 0.04\text{ m}$
+*   Magnetic flux density, $B = 120\text{ mT} = 0.120\text{ T}$
+*   Time interval, $\Delta t = 0.30\text{ s}$
+
+**2. Calculate the area of the coil ($A$):**
+$$A = \pi r^2 = \pi \times (0.04\text{ m})^2 \approx 5.0265 \times 10^{-3}\text{ m}^2$$
+
+**3. Calculate the initial and final magnetic flux ($\Phi$):**
+Magnetic flux is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the magnetic field lines and the **normal** to the coil's plane.
+*   **Initial state (Diagram X):** The plane is perpendicular to the field lines, meaning the normal is parallel to the field lines ($\theta = 0^\circ$).
+    $$\Phi_i = BA \cos(0^\circ) = BA$$
+*   **Final state (Diagram Y):** The plane is parallel to the field lines, meaning the normal is perpendicular to the field lines ($\theta = 90^\circ$).
+    $$\Phi_f = BA \cos(90^\circ) = 0$$
+
+**4. Calculate the change in flux ($\Delta \Phi$):**
+$$\Delta \Phi = \Phi_f - \Phi_i = 0 - BA = -BA$$
+
+**5. Calculate the magnitude of the induced emf:**
+Using the magnitude formula $|\varepsilon| = N \frac{|\Delta \Phi|}{\Delta t}$:
+$$|\varepsilon| = N \frac{BA}{\Delta t}$$
+$$|\varepsilon| = 30 \times \frac{0.120\text{ T} \times (5.0265 \times 10^{-3}\text{ m}^2)}{0.30\text{ s}}$$
+$$|\varepsilon| = 30 \times \frac{6.0318 \times 10^{-4}\text{ Wb}}{0.30\text{ s}}$$
+$$|\varepsilon| = 0.060318\text{ V}$$
+$$|\varepsilon| \approx 60\text{ mV}$$
+
+Comparing this to the provided options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

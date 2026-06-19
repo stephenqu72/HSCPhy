@@ -1,0 +1,23 @@
+To determine the speed of light using the method employed by Louis Essen and A. C. Gordon-Smith, we rely on the fundamental wave equation:
+
+$$v = f \times \lambda$$
+
+Where:
+- $v$ is the speed of the wave (the speed of light, $c$).
+- $f$ is the frequency of the wave.
+- $\lambda$ is the wavelength.
+
+### Explanation:
+1. **The given information:** The problem states that the scientists already have the "known frequencies" ($f$) of the microwaves used.
+2. **The method:** By using a resonance cavity, the microwaves are trapped such that they form a standing wave. A standing wave occurs at specific resonant lengths of the cavity, which allows the experimenter to accurately determine the wavelength ($\lambda$) of the microwaves based on the physical dimensions of the cavity.
+3. **The requirement:** To complete the calculation of the speed of light ($c = f \lambda$), since we already possess $f$, we must measure the wavelength. The length of the resonance cavity provides the necessary geometric data to determine the wavelength of the standing waves.
+
+- (A) The oscillation rate is synonymous with frequency, which is already known.
+- (B) Amplitude does not affect the speed of the wave.
+- (C) The period is the reciprocal of the frequency ($T = 1/f$), so it provides no new information.
+- (D) The length of the cavity allows for the calculation of the wavelength ($\lambda$), which is the missing variable required to complete the equation $c = f \lambda$.
+
+Therefore, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To answer this question effectively for an HSC Physics exam, you need to link electromagnetic induction to the concepts of Lenz’s Law and the conservation of energy.
+
+### Answer
+Magnetic braking relies on the principle of electromagnetic induction. As the metal disc rotates through the region of the external magnetic field, the free electrons within the metal experience a changing magnetic flux. According to **Faraday's Law**, this change in flux induces an electromotive force (EMF) in the disc, which drives circulating currents known as **eddy currents**.
+
+According to **Lenz’s Law**, these eddy currents generate their own magnetic field that opposes the change in magnetic flux that produced them. This interaction creates a magnetic force (a Lorentz force) that acts in the opposite direction to the rotation of the disc, thereby exerting a torque that slows the disc down.
+
+Regarding the **conservation of energy**, the mechanical kinetic energy of the rotating disc is not lost; rather, it is transformed. Due to the electrical resistance of the metal, the eddy currents dissipate energy as thermal energy (heat) within the disc ($P = I^2R$). Thus, the initial mechanical kinetic energy of the system is converted into internal thermal energy, bringing the disc to a stop.
+
+---
+
+### How to solve this question
+To score full marks, structure your response as follows:
+
+1.  **Identify the Mechanism:** Start by mentioning that the relative motion between the conductor (the disc) and the magnetic field causes a change in magnetic flux.
+2.  **Apply Faraday’s and Lenz’s Laws:**
+    *   Explain that the changing flux induces **eddy currents** (Faraday's Law).
+    *   State that these eddy currents create magnetic fields that act to **oppose the motion** of the disc (Lenz's Law).
+3.  **Explain the Energy Transformation:** You must explicitly state the conversion of energy:
+    *   Initial state: Kinetic energy of the rotating disc.
+    *   Process: Electrical work done to drive eddy currents against the resistance of the metal.
+    *   Final state: Dissipation of energy as heat (thermal energy).
+4.  **Use correct terminology:** Use key terms like "eddy currents," "changing magnetic flux," "Lorentz force," and "thermal energy" to ensure you hit the marking criteria.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,41 @@
+To solve this problem, we use the double-slit interference formula for constructive interference (bright fringes):
+
+$$d \sin \theta = m \lambda$$
+
+Where:
+*   $d$ is the slit separation ($1 \times 10^{-5} \text{ m}$)
+*   $\theta$ is the angle of deflection
+*   $m$ is the maxima number (order)
+*   $\lambda$ is the wavelength
+
+### 1. Determining the Graph
+To find the wavelength $\lambda$ from a graph, we rearrange the formula to the linear form $y = mx$:
+$$\sin \theta = \left( \frac{\lambda}{d} \right) m$$
+
+By plotting $\sin \theta$ on the y-axis and $m$ on the x-axis, the slope of the line of best fit will be equal to $\frac{\lambda}{d}$. Therefore:
+$$\lambda = \text{slope} \times d$$
+
+### 2. Calculating the Slope
+Let's use the first and last data points to estimate the gradient (slope):
+*   Point 1: $(m=2, \sin \theta=0.136)$
+*   Point 4: $(m=5, \sin \theta=0.331)$
+
+$$\text{slope} = \frac{\Delta y}{\Delta x} = \frac{0.331 - 0.136}{5 - 2} = \frac{0.195}{3} = 0.065$$
+
+### 3. Calculating the Wavelength
+Using the slope calculated above and the given $d = 1 \times 10^{-5} \text{ m}$:
+$$\lambda = \text{slope} \times d$$
+$$\lambda = 0.065 \times 1 \times 10^{-5} \text{ m}$$
+$$\lambda = 6.5 \times 10^{-7} \text{ m}$$
+
+Converting to nanometers (a common unit for light):
+$$\lambda = 650 \text{ nm}$$
+
+### Summary of steps for your answer:
+1.  **Graph Construction:** Label the x-axis as "Maxima number ($m$)" and the y-axis as "$\sin \theta$". Plot the four points provided in the table.
+2.  **Line of Best Fit:** Draw a straight line through the origin (since at $m=0, \sin \theta=0$) that best represents the trend of the data.
+3.  **Calculate Slope:** Pick two points on your line of best fit (not necessarily data points) and calculate $m = \frac{y_2 - y_1}{x_2 - x_1}$.
+4.  **Final Calculation:** Multiply the resulting slope by $10^{-5} \text{ m}$ to find $\lambda$.
+
+###QUESTION_TYPE
+Data analysis questions

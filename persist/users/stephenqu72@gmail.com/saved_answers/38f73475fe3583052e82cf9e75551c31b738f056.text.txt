@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(C)**.
+
+---
+
+### Explanation
+To solve this question, we must understand the fundamental advantage of alternating current (AC) in power distribution systems: **efficiency in transmission**.
+
+1.  **The Physics of Transmission:** Electrical power lost as heat in transmission lines is given by the formula $P_{loss} = I^2R$, where $I$ is the current and $R$ is the resistance of the cables. To minimize these energy losses, we need to keep the current ($I$) as low as possible.
+2.  **The Relationship between Power, Voltage, and Current:** The power transmitted is given by $P = VI$. If we want to transmit a large amount of power ($P$) while keeping the current ($I$) very low, we must increase the voltage ($V$) to a very high level.
+3.  **The Role of Transformers:** Transformers are devices that can efficiently "step up" or "step down" AC voltages using electromagnetic induction. Transformers require a changing magnetic field to induce a voltage in the secondary coil, which occurs naturally with AC. Because DC does not produce a changing magnetic field, simple transformers do not work with DC.
+4.  **Why (C) is the answer:** Electricity authorities use transformers to step up the voltage to very high levels for long-distance transmission (to minimize $I^2R$ losses) and then step it down to lower, safer levels for consumer use. This ability to easily change voltage levels is the primary reason AC is preferred over DC for national power grids.
+
+**Why the other options are incorrect:**
+*   **(A)** is incorrect because, for a given power, the current is determined by the voltage level. AC doesn't inherently require lower current; it is the *use* of high-voltage transformers that allows for the lowering of current.
+*   **(B)** refers to the mechanism of current flow, but it is not the *reason* for distribution; it is merely a description of AC motion.
+*   **(D)** is incorrect because AC peak voltages actually require more robust insulation than a DC voltage of the same RMS value.
+
+###QUESTION_TYPE
+Multiple choice

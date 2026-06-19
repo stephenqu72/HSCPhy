@@ -1,0 +1,30 @@
+To determine the correct answer, we must look at the mathematical relationship governing the interference pattern produced in Young's double-slit experiment.
+
+### Explanation
+The spacing between adjacent bright fringes (the fringe width, denoted as $\Delta x$) in a Young’s double-slit experiment is given by the formula:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+- $\Delta x$ is the distance between adjacent bright fringes.
+- $\lambda$ is the wavelength of the light source.
+- $L$ is the distance from the slits to the screen.
+- $d$ is the separation distance between the two slits.
+
+In this scenario:
+1. The slit separation $d$ remains constant.
+2. The distance to the screen $L$ remains constant.
+3. The wavelength $\lambda$ is increased from $532\text{ nm}$ (green) to $633\text{ nm}$ (red).
+
+Since $\Delta x$ is directly proportional to the wavelength ($\Delta x \propto \lambda$), increasing the wavelength will result in an increase in the spacing between the fringes. Therefore, the alternating bands of bright light will become more spread out (more separated).
+
+Comparing this to the given options:
+(A) Incorrect: The fringe width depends on the wavelength.
+(B) Incorrect: Brightness is related to the intensity/power of the laser, not the wavelength.
+(C) Incorrect: This would happen if the wavelength were decreased.
+(D) **Correct**: The increase in wavelength results in a larger fringe separation.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

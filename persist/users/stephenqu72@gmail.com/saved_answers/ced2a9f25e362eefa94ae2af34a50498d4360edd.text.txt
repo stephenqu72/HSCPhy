@@ -1,0 +1,19 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down this question on wave optics.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To understand why (A) is correct, we need to look at the physics of the double-slit experiment:
+
+1.  **The Envelope Effect:** The interference pattern shown is the result of two phenomena. The closely spaced fringes are caused by the interference of light from two slits. However, the overall "shape" or envelope of the pattern is determined by **diffraction** from the individual slits.
+2.  **Conservation of Energy:** In any wave system, energy cannot be created or destroyed. When light passes through slits, it is redirected (diffracted) into different directions. As we move further from the central axis (the central maximum), the light intensity drops because the energy is being spread out over a larger area on the screen and is fundamentally limited by the diffraction envelope of the single-slit aperture.
+3.  **Why the others are incorrect:**
+    *   **(B)** is incorrect because the inverse square law ($I \propto 1/r^2$) applies to point sources radiating in three dimensions, not the specific interference intensity profile of a double-slit experiment on a flat screen.
+    *   **(C)** is incorrect because the path difference $d \sin(\theta)$ is exactly what *creates* the interference fringes themselves, not the cause of the overall decrease in peak intensity.
+    *   **(D)** is incorrect because polarisation does not change as a function of the angle of diffraction in a standard Young's double-slit experiment; it is not the mechanism that causes the intensity envelope to decrease.
+
+When answering HSC-style questions, always distinguish between the **fringe spacing** (controlled by interference, $x = \frac{\lambda L}{d}$) and the **fringe intensity envelope** (controlled by diffraction from the slits).
+
+### QUESTION_TYPE
+Multiple choice

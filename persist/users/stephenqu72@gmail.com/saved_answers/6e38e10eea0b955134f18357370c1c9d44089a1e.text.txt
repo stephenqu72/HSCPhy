@@ -1,0 +1,34 @@
+Hello! As your HSC Physics teacher, I am happy to guide you through this classic interference question. Let's break this down systematically.
+
+---
+
+### Part (a)
+**Answer:** Newton proposed the **Corpuscular Theory** of light, which suggested light consisted of small particles (corpuscles). Based on this model, particles would pass through the two slits and travel in straight lines, striking the screen directly behind each slit. Therefore, you should draw two distinct, narrow vertical lines directly behind the two slits.
+
+### Part (b)
+**Explanation:** This is a Young's Double Slit interference problem. For constructive interference (bright fringes), we use the formula:
+$$d \sin(\theta) = n\lambda$$
+Where:
+- $d = 5.0 \times 10^{-5} \text{ m}$ (slit separation)
+- $\lambda = 655 \text{ nm} = 655 \times 10^{-9} \text{ m}$
+- $n$ is the order of the bright fringe. Looking at the diagram, point $A$ is the *first* bright fringe adjacent to the central maximum, so $n = 1$.
+
+**Calculation:**
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\sin(\theta) = \frac{1 \times (655 \times 10^{-9})}{5.0 \times 10^{-5}}$$
+$$\sin(\theta) = 0.0131$$
+$$\theta = \arcsin(0.0131) \approx 0.75^\circ$$
+
+### Part (c)
+**Explanation:** When the wavelength decreases (from $655 \text{ nm}$ to $520 \text{ nm}$), the angular separation between the fringes decreases. 
+According to the formula $\sin(\theta) = \frac{n\lambda}{d}$, $\sin(\theta)$ is directly proportional to $\lambda$. Since $\lambda$ is smaller, the angle $\theta$ for each fringe order ($n$) will be smaller. Consequently, the entire interference pattern will become "compressed" or more tightly packed towards the centre of the screen.
+
+---
+
+### How to solve it:
+1.  **Conceptualize:** For (a), always remember that pre-wave-theory models predicted "shadows" and straight-line propagation, not diffraction or interference.
+2.  **Formula Selection:** For (b), identify that this is double-slit interference. Always convert units to SI (metres) immediately to avoid errors with scientific notation.
+3.  **Proportionality:** For (c), rely on the relationship $\theta \approx \sin(\theta) \propto \lambda$. When you see a change in wavelength, look at the math to determine the effect on the fringe spacing ($w \approx \frac{\lambda L}{d}$).
+
+###QUESTION_TYPE
+Calculation question

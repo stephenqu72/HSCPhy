@@ -1,0 +1,10 @@
+### Front
+How do you propagate uncertainties when performing addition, subtraction, multiplication, and division?
+
+### Back
+- Key idea: Uncertainty propagation rules for arithmetic operations.
+- Formula / law / constant / figure: 
+  - Addition/Subtraction: $\Delta(A \pm B) = \Delta A + \Delta B$ (Add absolute uncertainties).
+  - Multiplication/Division: $\% \text{ uncertainty} = (\frac{\Delta A}{A} \times 100\%) + (\frac{\Delta B}{B} \times 100\%)$ (Add percentage uncertainties).
+- When to use it: Calculating the total uncertainty in a derived value from measured quantities.
+- Common trap: Subtracting absolute uncertainties during subtraction (you must **always add** the absolute errors) or forgetting to convert absolute error to percentage error before adding for multiplication/division.

@@ -1,0 +1,15 @@
+To solve this question, we must understand the dual function of the soft iron core in a transformer:
+
+1.  **Soft Iron Material:** The core is made of a ferromagnetic material (soft iron) because it has high magnetic permeability. This allows it to concentrate the magnetic field lines, effectively **minimizing** flux leakage and ensuring the magnetic flux produced by the primary coil is efficiently coupled to the secondary coil.
+2.  **Laminated Structure:** When a changing magnetic field passes through a solid metal core, it induces circular currents called **eddy currents** (due to Faraday’s Law and Lenz’s Law). These currents cause energy loss through heating (Joule heating). By "laminating" the core—stacking thin, insulated sheets of metal together—the path for these eddy currents is restricted, significantly reducing their magnitude and therefore increasing the efficiency of the transformer.
+
+**Evaluating the options:**
+*   (A) is incorrect because the goal is to **minimize** flux leakage, not maximize it.
+*   (B) is incorrect because laminating the core actually **increases** the electrical resistance to eddy currents to prevent them from flowing.
+*   (C) is correct. The primary purpose of the *laminations* is to restrict the physical space in which eddy currents can circulate, thereby reducing energy loss.
+
+**Conclusion:** 
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

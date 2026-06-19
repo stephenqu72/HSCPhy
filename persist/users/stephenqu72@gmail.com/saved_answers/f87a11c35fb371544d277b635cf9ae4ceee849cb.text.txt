@@ -1,0 +1,15 @@
+### Part a
+**Answer:** The force on side EH is $0\text{ N}$.
+
+**Explanation:** The force on a current-carrying wire in a magnetic field is given by the formula $F = BIL\sin(\theta)$, where $\theta$ is the angle between the current and the magnetic field lines. In Figure 3, the current in side EH flows parallel to the direction of the magnetic field (from the North pole to the South pole). Since the angle $\theta = 0^\circ$ (or $180^\circ$), $\sin(0^\circ) = 0$, resulting in zero magnetic force acting on that segment.
+
+---
+
+### Part b
+**Explanation:** 
+The commutator serves two critical functions in a DC motor:
+1. **Current Reversal:** As the coil rotates and passes the vertical position (where the torque would otherwise reverse direction), the commutator segments lose contact with their respective brushes and swap connections. This reverses the direction of the current flowing through the coil loop every half-turn.
+2. **Maintaining Continuous Rotation:** By reversing the current, the commutator ensures that the magnetic force on each side of the coil consistently produces a torque in the same direction (e.g., clockwise or counter-clockwise). Without the commutator, the coil would simply oscillate back and forth around the equilibrium position instead of completing full rotations.
+
+###QUESTION_TYPE
+Short answer

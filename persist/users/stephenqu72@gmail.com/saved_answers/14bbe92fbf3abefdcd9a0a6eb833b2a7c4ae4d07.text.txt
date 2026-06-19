@@ -1,0 +1,28 @@
+As an HSC Physics teacher, I will guide you through this typical transformer analysis question.
+
+### Part (a) Answer and Explanation
+
+**Calculation:**
+1. Calculate the power output in the secondary circuit: 
+   $$P_s = V_s \times I_s = 50\text{ V} \times 9\text{ A} = 450\text{ W (or J s}^{-1}\text{)}$$
+2. The power input ($P_p$) is given as $500\text{ J s}^{-1}$ (or $500\text{ W}$).
+3. Calculate efficiency: 
+   $$\text{Efficiency} = \frac{P_s}{P_p} \times 100\% = \frac{450}{500} \times 100\% = 90\%$$
+
+**Explanation:**
+The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed. In a perfect transformer, input power would equal output power ($P_p = P_s$). Here, the output power is $450\text{ W}$ while the input is $500\text{ W}$. The "missing" $50\text{ W}$ ($500 - 450 = 50$) is not destroyed; it is transformed into thermal energy (heat) due to internal inefficiencies such as eddy currents in the solid iron core and resistance in the copper wires. Thus, the system is consistent with the law because the total energy input equals the total energy output plus the energy dissipated as heat.
+
+---
+
+### Part (b) Answer and Explanation
+
+To improve the efficiency of a transformer, we must minimize energy losses (typically dissipated as heat). Here are two effective modifications:
+
+1. **Laminate the iron core:** The current transformer uses a "solid iron core," which allows large **eddy currents** to flow, causing significant resistive heating. By replacing the solid core with a **laminated core** (thin sheets of iron insulated from each other), the path for eddy currents is restricted, significantly reducing power loss due to heat.
+2. **Use a "soft" magnetic material:** Using a material with low magnetic hysteresis loss (like silicon steel) for the core ensures that less energy is wasted flipping magnetic domains every time the AC cycle reverses. 
+*(Alternative: Use thicker gauge wire for the coils to reduce their electrical resistance ($P = I^2R$), though this is secondary to the core improvements in many HSC contexts).*
+
+---
+
+###QUESTION_TYPE
+Short answer

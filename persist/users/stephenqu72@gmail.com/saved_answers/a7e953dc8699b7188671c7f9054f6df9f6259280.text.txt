@@ -1,0 +1,30 @@
+### Answer
+
+**(a)**
+To find the input current, we assume the transformer is ideal (100% efficient), meaning power input equals power output:
+$$P_{in} = P_{out}$$
+$$V_{in} \cdot I_{in} = V_{out} \cdot I_{out}$$
+
+Given:
+$V_{in} = 240\text{ V}$
+$V_{out} = 6\text{ V}$
+$I_{out} = 1\text{ A}$
+
+Rearranging for input current ($I_{in}$):
+$$I_{in} = \frac{V_{out} \cdot I_{out}}{V_{in}}$$
+$$I_{in} = \frac{6 \times 1}{240} = \frac{6}{240} = 0.025\text{ A}$$
+
+The input current is **$0.025\text{ A}$** (or $25\text{ mA}$).
+
+**(b)**
+One way transformers are designed to maximise efficiency is by using a **laminated iron core**. 
+By using thin, insulated layers of iron rather than a single solid block, the transformer reduces the flow of eddy currents. Eddy currents generate unwanted heat (thermal energy loss) when induced in the core by the changing magnetic flux. Minimising these currents ensures more electrical energy is transferred to the secondary coil rather than being lost as heat.
+
+---
+
+### How to solve it
+1.  **For part (a):** Recognize that this is a conservation of energy problem applied to a transformer. In the HSC Physics syllabus, unless otherwise specified, we assume ideal transformer conditions where input power equals output power ($P = VI$). Identify your known variables, write the power equation, and solve for the unknown variable ($I_{in}$). Always check your units and ensure the final answer is clearly stated.
+2.  **For part (b):** When asked about efficiency in electrical devices, focus on energy loss mechanisms. In transformers, the primary losses are heat-related. You need to identify a specific design feature (like laminated cores, soft iron cores, or using low-resistance copper wire) and explain *why* it reduces energy loss (e.g., reducing eddy currents, reducing resistance, or increasing magnetic permeability).
+
+###QUESTION_TYPE
+Calculation question

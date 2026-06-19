@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To determine the function of the split-ring commutator, we must analyze the physics of electromagnetic induction within a generator:
+
+1.  **Electromagnetic Induction:** As the wire loop rotates through the magnetic field, the magnetic flux through the loop changes, inducing an electromotive force (EMF) and a current according to Faraday's Law and Lenz's Law.
+2.  **Directional Change:** In a simple rotating loop, the direction of the induced current reverses every half-rotation as the sides of the loop pass through different magnetic poles. If the loop were connected to solid slip rings (as in an AC generator), the current in the external circuit would be alternating (AC).
+3.  **Role of the Split-Ring Commutator:** The split-ring commutator consists of two insulated semi-circular segments. As the loop rotates and the induced current within the wire reverses direction, the brushes switch contact from one half of the commutator to the other.
+4.  **Rectification:** By switching contact at the exact moment the internal current reverses, the commutator ensures that the current flowing into the external circuit (where the light globe is) always flows in the same direction. This process effectively converts the internal AC into a direct current (DC) output.
+
+*   **Option A is correct:** It successfully describes the function of the commutator, which is to provide a unidirectional (DC) current to the external load.
+*   **Option B is incorrect:** This is the function of slip rings, not a split-ring commutator.
+*   **Options C and D are incorrect:** These describe the operation of a DC *motor*. In a motor, we supply current to create a force to drive rotation. In a generator, we provide mechanical rotation to induce a current. Furthermore, the forces on the sides of the loop in a generator change direction throughout the cycle due to the rotation, rather than being forced to stay "up" or "down" by the commutator.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+To determine the correct answer, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Faraday’s Law:** The induced electromotive force (EMF) in a coil is proportional to the rate of change of magnetic flux through that coil:
+    $$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+    For the microammeter to register a reading, there must be a **changing** magnetic flux through the secondary coil.
+
+2.  **The Process:**
+    *   **Steady current:** When the current is steady (or zero), the magnetic flux through the iron core is constant ($\Delta \Phi = 0$). Therefore, the induced EMF is zero. This eliminates (A) and (D).
+    *   **Increasing current:** As the current in coil X is increased, the magnetic flux through the iron core increases. This change creates an induced current in the secondary coil. However, because the current is increased "slowly," the rate of change $\frac{\Delta \Phi}{\Delta t}$ is relatively small.
+    *   **Switching off:** When the switch is opened, the current drops from its maximum value to zero almost instantaneously. This represents a very high rate of change of magnetic flux ($\frac{\Delta \Phi}{\Delta t}$ is very large).
+
+3.  **Conclusion:** According to Faraday's Law, the magnitude of the induced current is directly proportional to the rate of change of flux. Since the change in current (and thus flux) is much faster when the circuit is broken than when it is being adjusted via the variable resistor, the induced EMF—and therefore the microammeter reading—will be at its maximum at the moment the switch is opened.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

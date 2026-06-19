@@ -1,0 +1,31 @@
+### Answer
+
+**(a) Calculate the current in the secondary coil.**
+
+Assuming an ideal transformer (where power in = power out):
+$$P_p = P_s$$
+$$V_p I_p = V_s I_s$$
+
+Given:
+- $V_p = 125\text{ V}$
+- $I_p = 9.00\text{ A}$
+- $V_s = 545\text{ V}$
+
+Rearranging to solve for $I_s$:
+$$I_s = \frac{V_p I_p}{V_s}$$
+$$I_s = \frac{125 \times 9.00}{545}$$
+$$I_s \approx 2.06\text{ A}$$
+
+**(b) Explain why this does not disobey the law of conservation of energy.**
+
+The measured current ($1.90\text{ A}$) is lower than the theoretical ideal current ($2.06\text{ A}$). This indicates that the power output ($V_s I_s$) is less than the power input ($V_p I_p$). Real transformers are not 100% efficient; energy is lost to the environment as heat due to factors such as resistance in the coils (Joule heating), eddy currents in the iron core, and magnetic hysteresis. Since the energy lost is accounted for, the total energy of the system is conserved, satisfying the Law of Conservation of Energy.
+
+---
+
+### How to solve it
+
+1.  **For part (a):** Recognize that in an ideal transformer, the power input must equal the power output. Use the formula $P = VI$ for both sides. By plugging in the known variables, you can isolate the unknown current $I_s$ using basic algebra. Always check your significant figures; since the data provided has three significant figures, your final answer should be expressed accordingly.
+2.  **For part (b):** This is a conceptual physics question. You must recognize that the Law of Conservation of Energy states energy cannot be created or destroyed, only transformed. When the actual output is lower than the theoretical "perfect" output, the "missing" energy has not disappeared—it has simply been dissipated as thermal energy (heat). Explicitly mentioning "efficiency" and "energy loss" is the key to gaining full marks in HSC-style responses.
+
+###QUESTION_TYPE
+Calculation question

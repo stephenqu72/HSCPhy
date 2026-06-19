@@ -1,0 +1,30 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this problem. It covers the core principles of the DC motor effect.
+
+### Answers
+
+**a. In which direction will the coil rotate?**
+The coil will rotate **clockwise** (when viewed from the perspective where the North pole is to the left). Using the Right-Hand Palm Rule, side JK experiences an upward force (out of the page) and side LM experiences a downward force (into the page), creating a clockwise rotation.
+
+**b. Describe what happens to the force on side J-K as the coil rotates.**
+The magnitude of the force on side JK remains **constant**. The force on a current-carrying wire in a magnetic field is given by $F = BIl \sin(\theta)$. Since the current ($I$), magnetic field ($B$), and the length of the side ($l$) are constant, and the side JK remains perpendicular to the magnetic field throughout the rotation, the force magnitude does not change.
+
+**c. Calculate the torque provided by the force on side JK at the position shown in fig. 2.**
+First, identify the force on side JK:
+$F = BIl = 0.08\,\text{T} \times 0.2\,\text{A} \times 0.05\,\text{m} = 0.0008\,\text{N}$.
+
+The torque is $\tau = F \times r_{\perp}$, where $r_{\perp}$ is the perpendicular distance from the axis of rotation to the line of action of the force.
+The width of the coil is $KL = 3.0\,\text{cm} = 0.03\,\text{m}$. The distance from the axis to side JK is $r = \frac{0.03}{2} = 0.015\,\text{m}$.
+From Fig 2, the angle between the coil and the horizontal is $30^\circ$. The perpendicular distance is:
+$r_{\perp} = r \cos(30^\circ) = 0.015 \times \cos(30^\circ) \approx 0.01299\,\text{m}$.
+
+$\tau = 0.0008\,\text{N} \times 0.01299\,\text{m} \approx 1.04 \times 10^{-5}\,\text{Nm}$.
+
+---
+
+### How to solve it:
+1.  **Direction (Right-Hand Palm Rule):** Point your thumb in the direction of the current, your fingers in the direction of the magnetic field (N to S). Your palm faces the direction of the force. 
+2.  **Force Magnitude:** Remember that $F = BIl \sin(\theta)$ applies to the wire. In a DC motor, the sides parallel to the axis are usually perpendicular to the magnetic field, meaning $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. This is why the force remains constant.
+3.  **Torque Calculation:** Torque is $F \times d$ (perpendicular distance). In Fig 2, notice the angle provided. You must decompose the lever arm into the component perpendicular to the force. Since the force is directed vertically (upwards), the lever arm $r$ must be projected horizontally using $\cos(30^\circ)$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,24 @@
+To answer this question effectively, you need to describe the electromagnetic principles occurring between the stator and the rotor. This is a classic Physics question concerning electromagnetic induction and Lenz's Law.
+
+### Answer
+A current is induced in the rotor coil through the following process:
+
+1.  **Changing Magnetic Field:** The alternating current $I_s$ in the stator coils creates a magnetic field that is also alternating (changing in magnitude and direction) over time.
+2.  **Magnetic Flux Linkage:** Because the stator is positioned around the rotor, this changing magnetic field passes through the rotor coil, resulting in a changing magnetic flux through the area of the rotor coil.
+3.  **Faraday's Law:** According to Faraday's Law, a changing magnetic flux through a conductor induces an electromotive force (EMF) across that conductor.
+4.  **Lenz's Law:** Because the rotor coil is a closed loop, the induced EMF causes an induced current to flow through it. The direction of this current is determined by Lenz’s Law, such that it creates its own magnetic field to oppose the change in magnetic flux that produced it.
+
+---
+
+### How to solve this (Teacher's Tips)
+When approaching a 4-mark "Explain" question in the HSC, use the **Causal Link** method. You must connect the input (the current) to the final output (the induced current) using the correct physical laws as milestones:
+
+*   **Step 1: Identify the source.** State that the AC supply causes the magnetic field in the stator to fluctuate. (1 mark)
+*   **Step 2: Link the fields.** Explain that this changing magnetic field results in a changing magnetic flux ($\Delta \Phi$) threading the rotor. (1 mark)
+*   **Step 3: Invoke the core principle.** Cite Faraday’s Law ($EMF = -N \frac{\Delta \Phi}{\Delta t}$), explaining that a changing flux induces an EMF. (1 mark)
+*   **Step 4: Final consequence.** Mention that since the rotor is a closed circuit, this EMF drives an induced current (and acknowledge Lenz's Law regarding the direction of the induced current). (1 mark)
+
+**Key Vocabulary:** Alternating current, magnetic flux, electromagnetic induction, Faraday's Law, Lenz's Law.
+
+###QUESTION_TYPE
+Short answer

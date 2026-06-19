@@ -1,0 +1,31 @@
+### Answer
+
+**(a)** Faraday's Law of electromagnetic induction states that the magnitude of the induced electromotive force (e.m.f.) in a circuit is directly proportional to the rate of change of magnetic flux through the circuit. Mathematically, it is expressed as:
+$$\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$$
+where $\mathcal{E}$ is the induced e.m.f., $N$ is the number of turns, and $\frac{\Delta \Phi}{\Delta t}$ is the rate of change of magnetic flux.
+
+**(b)** To sketch the e.m.f. graph, we use the formula for flux: $\Phi = B A \sin(\theta)$. Since $A$ and $\theta$ are constant, $\mathcal{E} \propto -\frac{\Delta B}{\Delta t}$.
+
+1.  **Interval $0$ to $T$:** $B$ is constant, so $\frac{\Delta B}{\Delta t} = 0$. Therefore, $\mathcal{E} = 0$.
+2.  **Interval $T$ to $2T$:** $B$ increases at a constant positive rate. Since the slope is positive, $-\frac{\Delta B}{\Delta t}$ will be a **constant negative value**.
+3.  **Interval $2T$ to $3T$:** $B$ decreases at a steeper rate than the previous section. Because the slope is negative, $-\frac{\Delta B}{\Delta t}$ will be a **constant positive value** (larger in magnitude than the section from $T$ to $2T$).
+
+**Sketching Guide:**
+*   From $0$ to $T$: Draw a horizontal line on the $t$-axis at $E=0$.
+*   From $T$ to $2T$: Draw a horizontal line below the $t$-axis (negative $E$).
+*   From $2T$ to $3T$: Draw a horizontal line above the $t$-axis (positive $E$) that is higher than the magnitude of the previous section.
+*   After $3T$: Draw a horizontal line on the $t$-axis at $E=0$.
+
+---
+
+### How to solve this problem
+1.  **Understand Faraday’s Law:** Always remember that the induced e.m.f. is proportional to the *gradient* (slope) of the magnetic flux graph. Since the area and angle are fixed, the e.m.f. is simply proportional to the negative gradient of the $B$ vs $t$ graph.
+2.  **Analyze Slopes:** 
+    *   Zero slope ($0$ to $T$) = zero e.m.f.
+    *   Positive slope ($T$ to $2T$) = negative e.m.f.
+    *   Negative slope ($2T$ to $3T$) = positive e.m.f.
+3.  **Compare Magnitudes:** Observe the steepness of the $B$ graph. The line from $2T$ to $3T$ is steeper than the line from $T$ to $2T$, so the induced e.m.f. for that interval should have a larger vertical displacement from the axis.
+4.  **Lenz's Law:** The negative sign in Faraday's Law indicates the direction of the e.m.f. (opposing the change), which is why we flip the sign of the gradient when sketching the e.m.f.
+
+###QUESTION_TYPE
+Data analysis questions

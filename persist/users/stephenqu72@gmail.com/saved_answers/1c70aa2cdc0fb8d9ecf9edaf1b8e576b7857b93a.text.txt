@@ -1,0 +1,16 @@
+The correct answer is **(A)**.
+
+### Explanation
+
+To understand why, let's look at the physics of a DC motor and the role of back electromotive force (back emf):
+
+*   **The Physics of Back EMF:** As the armature of a motor rotates within a magnetic field, the conductors in the coil experience a change in magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an emf in the coil that opposes the supply voltage. This is "back emf" ($\varepsilon$).
+*   **Analysis of Statement (A):** Because back emf is a direct consequence of the laws of electromagnetic induction, it is an **inevitable physical property** of any motor operating in a magnetic field. It cannot be "eliminated" by design; it is a fundamental aspect of how motors regulate their own current. Therefore, this statement is **FALSE**.
+*   **Analysis of Statement (B):** Back emf is proportional to the speed of the motor ($\varepsilon \propto \omega$). As the motor spins faster, the rate of change of flux through the coils increases, causing the back emf to increase. This statement is TRUE.
+*   **Analysis of Statement (C):** The net voltage across the armature is $V_{net} = V_{supply} - \varepsilon$. Since the current $I$ is given by $I = \frac{V_{supply} - \varepsilon}{R}$, an increase in back emf reduces the net voltage and consequently reduces the armature current. This statement is TRUE.
+*   **Analysis of Statement (D):** If the motor slows down (decreasing back emf), the net voltage ($V_{supply} - \varepsilon$) increases. This causes a surge in current through the armature. High current leads to increased heat dissipation ($P = I^2 R$), which can cause the motor to overheat or burn out. This statement is TRUE.
+
+Since the question asks for the **FALSE** statement, **(A)** is the correct choice.
+
+### QUESTION_TYPE
+Multiple choice

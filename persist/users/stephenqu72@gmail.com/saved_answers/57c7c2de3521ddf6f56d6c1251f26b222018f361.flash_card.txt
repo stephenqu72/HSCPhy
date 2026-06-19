@@ -1,0 +1,8 @@
+### Front
+What is the fundamental difference between an inertial and a non-inertial frame of reference regarding Newton's Laws?
+
+### Back
+- **Key idea:** In an inertial frame (constant velocity), Newton’s laws hold true. In a non-inertial frame (accelerating/rotating), the laws appear to be violated due to the perceived presence of "fictitious forces."
+- **Formula / law / constant / figure:** Newton's First Law (holds in inertial frames); Fictitious force $F_{fict} = -ma_{frame}$.
+- **When to use it:** When identifying if an object’s acceleration is caused by a real physical interaction or simply the acceleration of the observer's frame.
+- **Common trap:** Treating a "fictitious force" (like centrifugal force) as a real, physical interaction between two objects; it is actually an effect of the frame's acceleration.

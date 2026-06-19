@@ -1,0 +1,31 @@
+To determine the direction of the induced electromotive force (emf) in the conducting material of the plane, we use the **Right-Hand Rule** for motional emf (often referred to as the Right-Hand Palm Rule for forces on moving charges).
+
+### Answer
+The correct answer is **(C) $P$ to $R$**.
+
+### Explanation
+When a conductor moves through a magnetic field, the free electrons within the conductor experience a magnetic force ($F_m$). This force is described by the equation:
+$$F_m = qvB\sin\theta$$
+where:
+*   $q$ is the charge of the particle (an electron is negative).
+*   $v$ is the velocity of the conductor (the plane flying to the right).
+*   $B$ is the magnetic field (directed into the page, represented by the $x$ symbols).
+
+**Step-by-step application of the Right-Hand Rule:**
+1.  **Identify the vectors:** 
+    *   Velocity ($v$) is directed to the **right**.
+    *   Magnetic field ($B$) is directed **into the page**.
+2.  **Apply the Right-Hand Rule (for positive charges):**
+    *   Point your fingers in the direction of the velocity ($v$) — **to the right**.
+    *   Curl your fingers into the page to represent the magnetic field ($B$).
+    *   Your thumb points in the direction of the force on a **positive** charge. In this case, your thumb points **upward** (towards $P$).
+3.  **Determine electron flow:**
+    *   Because we are dealing with free electrons (which have a negative charge), the force acts in the *opposite* direction to the thumb. Therefore, the electrons are pushed towards $R$.
+4.  **Induced emf direction:**
+    *   By convention, the direction of induced emf is defined as the direction a *positive* charge would be pushed. Since electrons accumulate at $R$, the wing tip $P$ becomes positively charged relative to $R$.
+    *   Therefore, the induced emf is directed from the negative terminal ($R$) to the positive terminal ($P$).
+
+Thus, the induced emf acts from **$P$ to $R$**.
+
+###QUESTION_TYPE
+Multiple choice

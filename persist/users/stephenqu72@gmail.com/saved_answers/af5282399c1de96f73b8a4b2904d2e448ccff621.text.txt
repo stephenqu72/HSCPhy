@@ -1,0 +1,36 @@
+### HSC Teacher Response
+
+#### Part (a) Compare and contrast Lenz's Law and Faraday's Law (4 marks)
+
+**Answer:**
+Faraday’s Law and Lenz’s Law both describe the phenomenon of electromagnetic induction, but they focus on different aspects:
+
+*   **Faraday’s Law:** Quantifies the magnitude of the induced electromotive force (EMF). It states that the magnitude of the induced EMF in a circuit is directly proportional to the rate of change of magnetic flux through the circuit: 
+    $$\varepsilon = -N \frac{\Delta \Phi_B}{\Delta t}$$
+    It establishes the relationship between a changing magnetic field and the creation of electricity.
+*   **Lenz’s Law:** Determines the *direction* of the induced EMF and resulting current. It states that the induced current will flow in a direction that creates a magnetic field to oppose the change in magnetic flux that produced it.
+*   **Comparison:** Both laws are fundamental to understanding how generators and transformers work. Faraday’s law provides the *mathematical magnitude*, while Lenz’s law provides the *physical direction* (indicated by the negative sign in the Faraday equation). Both rely on the requirement that there must be a *change* in magnetic flux to induce an EMF.
+
+**How to solve:**
+1.  **Define both:** Briefly state what each law does.
+2.  **Contrast:** Highlight that Faraday’s law is quantitative (magnitude/calculable) and Lenz’s law is qualitative (direction).
+3.  **The Link:** Explicitly mention the negative sign in the equation $\varepsilon = -N \frac{\Delta \Phi_B}{\Delta t}$, explaining that the negative sign is the mathematical representation of Lenz's Law (the "opposition").
+
+---
+
+#### Part (b) Describe an example in a practical device (2 marks)
+
+**Answer:**
+A prime example is an **induction cooktop**. The device uses an alternating current (AC) coil beneath the cooktop surface to produce a rapidly changing magnetic field.
+*   **Faraday’s Law:** The changing magnetic flux induces an EMF (and subsequently eddy currents) within the metal base of the cookware placed on the surface.
+*   **Lenz’s Law:** The induced eddy currents flow in a direction that opposes the change in the magnetic field. These currents encounter electrical resistance in the cookware, causing it to heat up rapidly due to the Joule heating effect ($P = I^2R$).
+
+**How to solve:**
+1.  **Select a clear device:** Choose a common example like an induction cooktop, a transformer, or a generator.
+2.  **Apply Faraday:** State how a changing magnetic flux induces an EMF.
+3.  **Apply Lenz:** State how the resulting current reacts to that change to create the desired outcome (e.g., heat or resistance).
+
+---
+
+###QUESTION_TYPE
+Essay

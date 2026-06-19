@@ -1,0 +1,31 @@
+### Part (a): Diagram
+To draw the diagram, represent:
+1.  Two slits separated by distance $d$.
+2.  A screen at distance $L$ from the slits.
+3.  A central bright fringe ($m=0$) and the first-order bright fringe ($m=1$) at a vertical distance $y$.
+4.  The angle $\theta$ between the central line and the path to the first bright fringe.
+
+### Part (b): Calculation and Explanation
+
+**1. Given Data:**
+*   Wavelength $\lambda = 652 \text{ nm} = 652 \times 10^{-9} \text{ m}$
+*   Slit separation $d = 250 \text{ } \mu\text{m} = 250 \times 10^{-6} \text{ m}$
+*   Fringe separation $y = 5 \text{ mm} = 5 \times 10^{-3} \text{ m}$
+
+**2. Explanation of Physics Principles:**
+In Young’s Double Slit experiment, the path difference for the first-order fringe is $\Delta x = d \sin \theta = \lambda$.
+On the screen, the geometry forms a right-angled triangle where $\tan \theta = \frac{y}{L}$.
+Since the angle $\theta$ is typically very small in this experiment, we can use the **small angle approximation** where $\sin \theta \approx \tan \theta \approx \theta$ (in radians). Therefore, we can equate $\sin \theta = \frac{\lambda}{d}$ and $\tan \theta = \frac{y}{L}$ to solve for $L$:
+$$\frac{\lambda}{d} = \frac{y}{L}$$
+
+**3. Calculation:**
+Rearrange the formula to solve for $L$:
+$$L = \frac{y \cdot d}{\lambda}$$
+$$L = \frac{(5 \times 10^{-3} \text{ m}) \times (250 \times 10^{-6} \text{ m})}{652 \times 10^{-9} \text{ m}}$$
+$$L = \frac{1.25 \times 10^{-6}}{652 \times 10^{-9}}$$
+$$L \approx 1.917 \text{ m}$$
+
+The distance from the diffraction slits to the screen is approximately **$1.92 \text{ m}$**.
+
+###QUESTION_TYPE
+Calculation question

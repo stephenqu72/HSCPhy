@@ -1,0 +1,25 @@
+To solve this problem, we need to calculate the efficiency ($\eta$) of the transformer, which is defined as the ratio of the output power ($P_{out}$) to the input power ($P_{in}$), expressed as a percentage:
+
+$$\eta = \frac{P_{out}}{P_{in}} \times 100\%$$
+
+### Step 1: Calculate Input Power ($P_{in}$)
+The input power is calculated using the primary voltage ($V_p$) and primary current ($I_p$):
+$$P_{in} = V_p \times I_p = 200\text{ V} \times 0.25\text{ A} = 50\text{ W}$$
+
+### Step 2: Calculate Secondary Voltage ($V_s$)
+We use the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Given the ratio of primary turns to secondary turns is $5:2$, we have $\frac{N_p}{N_s} = \frac{5}{2} = 2.5$.
+$$\frac{200}{V_s} = 2.5 \implies V_s = \frac{200}{2.5} = 80\text{ V}$$
+
+### Step 3: Calculate Output Power ($P_{out}$)
+The output power is calculated using the secondary voltage ($V_s$) and secondary current ($I_s$):
+$$P_{out} = V_s \times I_s = 80\text{ V} \times 0.50\text{ A} = 40\text{ W}$$
+
+### Step 4: Calculate Efficiency ($\eta$)
+$$\eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{40\text{ W}}{50\text{ W}} \times 100\% = 0.8 \times 100\% = 80\%$$
+
+Comparing this to the given options, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

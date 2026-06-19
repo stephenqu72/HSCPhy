@@ -1,0 +1,8 @@
+### Front
+How do you calculate the period ($T$) and its absolute uncertainty ($\Delta T$) when measuring total time ($t$) for a fixed number of oscillations ($n$)?
+
+### Back
+- **Key idea:** Calculating period from multiple cycles and propagating uncertainty through division by an exact constant ($n$).
+- **Formula / law / constant / figure:** $T = \frac{t}{n}$ and $\Delta T = \frac{\Delta t}{n}$
+- **When to use it:** When you have measured the time for a set number of oscillations (e.g., 20) rather than a single cycle.
+- **Common trap:** Forgetting to divide the uncertainty ($\Delta t$) by $n$, or failing to ensure the final answer and its uncertainty are expressed to the same number of decimal places.

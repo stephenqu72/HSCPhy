@@ -1,0 +1,29 @@
+To find the number of turns on the secondary winding, we use the transformer turns ratio formula:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+### Given data:
+*   Primary turns ($N_p$) = $2000$
+*   Primary voltage ($V_p$) = $23\,000\text{ V}$
+*   Secondary voltage ($V_s$) = $660\,000\text{ V}$
+
+### Step-by-step solution:
+
+1.  **Rearrange the formula** to solve for the secondary turns ($N_s$):
+    $$N_s = N_p \times \frac{V_s}{V_p}$$
+
+2.  **Substitute the known values** into the equation:
+    $$N_s = 2000 \times \frac{660\,000}{23\,000}$$
+
+3.  **Simplify and calculate:**
+    $$N_s = 2000 \times \frac{660}{23}$$
+    $$N_s \approx 2000 \times 28.6956...$$
+    $$N_s \approx 57\,391.3$$
+
+Since the number of turns must be a whole number, we round to the nearest integer:
+**The number of turns on the secondary winding is $57\,391$.**
+
+***
+
+###QUESTION_TYPE
+Calculation question

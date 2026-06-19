@@ -1,0 +1,21 @@
+To solve this problem, we must apply Faraday’s Law of Induction, which states that the induced electromotive force (EMF) in a coil is proportional to the rate of change of magnetic flux through that coil:
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+In a transformer, the magnetic flux $\Phi$ in the core is directly proportional to the input voltage $V_{in}$. Therefore, the output voltage $V_{out}$ is proportional to the rate of change of the input voltage:
+
+$$V_{out} \propto -\frac{d(V_{in})}{dt}$$
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the input:** The input voltage changes "uniformly" from $12\text{ V}$ to $-12\text{ V}$. This means the rate of change, $\frac{d(V_{in})}{dt}$, is a **constant negative value** throughout this time interval.
+2.  **Relate to Faraday's Law:** Since the output voltage is proportional to the negative of the rate of change of the input voltage, if the rate of change is a constant negative value, the output voltage must be a **constant positive value**.
+3.  **Evaluate the options:** 
+    *   Transformers only induce an output voltage when there is a *changing* magnetic flux. If the input were constant, the output would be zero. 
+    *   Since the input is changing at a constant rate, the transformer will produce a steady (constant) output voltage for the duration of that change.
+    *   Option C states that the output is approximately constant, which correctly describes the physical behavior of an ideal transformer when the input voltage changes at a uniform rate.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

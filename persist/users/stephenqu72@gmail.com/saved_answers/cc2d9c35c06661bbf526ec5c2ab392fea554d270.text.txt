@@ -1,0 +1,26 @@
+To achieve full marks on an HSC Physics question like this, you must explicitly link the physics principles (Faraday’s and Lenz’s Laws) to the engineering solutions used to mitigate energy losses.
+
+### Answer
+
+Transformers operate based on **Faraday’s Law of Induction** and **Lenz’s Law**. An alternating current in the primary coil creates a changing magnetic flux, which is guided by a ferromagnetic core to the secondary coil, inducing an electromotive force (EMF) via mutual induction. Energy loss occurs primarily through heat. Key design features to improve efficiency include:
+
+1.  **Laminated Cores:** The changing magnetic flux in the iron core induces circular currents known as **eddy currents** (a consequence of Faraday's Law). These cause significant resistive heating ($P = I^2R$). By constructing the core from thin, insulated laminated sheets, the path for these currents is restricted, significantly reducing energy loss.
+2.  **Soft Iron Core:** To maximize magnetic flux linkage, a core with high magnetic permeability is used. A "soft" iron core can be easily magnetized and demagnetized, minimizing energy loss due to **magnetic hysteresis** (the energy required to realign magnetic domains in the core).
+3.  **Low-resistance Copper Windings:** Coils are made of thick copper wire to minimize resistance ($R$). Since power loss due to resistance is given by $P = I^2R$, reducing resistance directly reduces the thermal energy lost during power transmission.
+4.  **Flux Leakage Reduction:** The primary and secondary coils are often wound one on top of the other, or on a closed-loop core, to ensure that the magnetic flux produced by the primary coil is almost entirely captured by the secondary coil, ensuring efficient energy transfer.
+
+---
+
+### How to solve this
+To tackle this 5-mark question, follow this structure:
+
+*   **Step 1: Establish the Principle (Context).** Briefly mention that transformers work via mutual induction (Faraday's Law). This shows the marker you understand the fundamental mechanism before discussing efficiency.
+*   **Step 2: Identify and Justify (The Core).** For a 5-mark question, you should aim for at least 3 distinct sources of loss. Use a "Name the loss -> Explain the physics -> Name the feature" structure.
+    *   *Example:* "Eddy currents are induced in the core (Physics). These cause heating. Lamination breaks the current loops (Feature)."
+*   **Step 3: Check against the Marking Criteria.** 
+    *   Did I identify the losses? (Yes: eddy currents, hysteresis, resistive heating).
+    *   Did I justify the design? (Yes: lamination, soft iron, copper gauge).
+    *   Did I mention underlying physics? (Yes: Faraday's/Lenz's laws).
+
+### QUESTION_TYPE
+Short answer

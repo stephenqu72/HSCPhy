@@ -1,0 +1,23 @@
+To determine which action will **not** induce a current in the spring, we must apply **Faraday’s Law of Induction**, which states that an electromotive force (EMF) is induced in a circuit whenever the magnetic flux ($\Phi$) through the circuit changes over time.
+
+Magnetic flux is defined by the formula:
+$$\Phi = B A \cos(\theta)$$
+Where:
+*   $B$ is the magnitude of the magnetic field.
+*   $A$ is the area of the loop.
+*   $\theta$ is the angle between the magnetic field vector and the normal to the area of the loop.
+
+A current is induced if the magnetic flux $\Phi$ changes. Let’s evaluate the options:
+
+*   **(A) Rotating the spring about a diameter:** This changes the angle $\theta$ between the magnetic field and the area vector. Consequently, $\cos(\theta)$ changes, altering the magnetic flux and inducing a current.
+*   **(B) Changing the magnitude of the magnetic field ($B$):** This directly changes the value of $\Phi$, which induces a current.
+*   **(C) Moving the spring parallel to the magnetic field:** In the diagram, the magnetic field is uniform and directed into the page. If the spring is moved "parallel" to the field (i.e., sliding it into or out of the page along the field lines), the flux through the loop remains constant because the strength of the field $B$ and the area $A$ inside the field remain unchanged. Therefore, **no change in flux occurs**, and no current is induced.
+*   **(D) Moving the spring in and out of the magnetic field:** This changes the area $A$ of the loop that is covered by the magnetic field, which changes the total flux through the loop, inducing a current.
+
+**Conclusion:**
+Moving the spring parallel to the uniform magnetic field lines results in no change in the number of field lines passing through the loop area.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

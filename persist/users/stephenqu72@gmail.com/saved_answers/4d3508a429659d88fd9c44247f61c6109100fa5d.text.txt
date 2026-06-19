@@ -1,0 +1,26 @@
+To solve these problems, we use the principles of ideal transformers. Given:
+*   Primary voltage $V_p = 240\text{ V}$
+*   Turns ratio $\frac{N_p}{N_s} = \frac{13}{1}$ (Since it is a step-down transformer, $N_p > N_s$)
+*   Primary current $I_p = 0.020\text{ A}$
+
+### (a) Determine the current in the secondary
+For an ideal transformer, the power is conserved ($P_p = P_s$), which implies $V_p I_p = V_s I_s$. We also know the transformer equation: $\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$.
+Using the current relationship:
+$$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$
+$$I_s = I_p \times \frac{N_p}{N_s}$$
+$$I_s = 0.020\text{ A} \times 13 = 0.26\text{ A}$$
+
+### (b) Determine the power delivered to the DVD player
+The power delivered to the DVD player is the power in the secondary coil. Since it is an ideal transformer, $P_s = P_p$:
+$$P_p = V_p \times I_p$$
+$$P_p = 240\text{ V} \times 0.020\text{ A} = 4.8\text{ W}$$
+So, the power delivered is $4.8\text{ W}$.
+
+### (c) Describe one effect in a real transformer that would reduce its efficiency
+A common effect is **Eddy Currents**. 
+*   **Explanation:** The changing magnetic flux in the iron core induces circular currents within the core material itself. These eddy currents generate thermal energy due to the resistance of the iron, leading to energy loss as heat.
+*   **How it is reduced:** In real transformers, the core is laminated (made of thin, insulated sheets) to increase resistance to these currents and minimize energy loss.
+*   *Alternative answer:* **Resistance in the coils (Joule heating/Copper loss)**, where the copper wire of the coils has some inherent resistance, causing energy to be dissipated as heat ($I^2R$ loss) when current flows through them.
+
+###QUESTION_TYPE
+Calculation question

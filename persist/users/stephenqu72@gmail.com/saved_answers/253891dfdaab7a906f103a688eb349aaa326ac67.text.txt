@@ -1,0 +1,27 @@
+As an HSC Physics teacher, here is the breakdown and solution for this question.
+
+### Part (a)
+**Answer:** The "Paddle Wheel" relies primarily on the **impulse/kinetic energy** of the water flow hitting the flat paddles at the base. In contrast, the "Bucket Wheel" utilizes the **gravitational potential energy** of the water filling the buckets. Because the bucket design allows water to remain in the buckets for a larger portion of the rotation, it exerts a torque over a longer duration compared to the paddle wheel, where the force is transient as each paddle passes through the flow.
+
+### Part (b)
+**Answer:** The farmer should choose the **Bucket Wheel** with a **4-metre diameter**.
+**Justification:** The bucket design is more efficient because it captures a greater portion of the water’s potential energy as the buckets descend, rather than just relying on the kinetic energy of the flow. The 4-metre wheel provides the largest radius ($r$), which maximizes torque ($\tau = F \cdot r \cdot \sin\theta$). A larger wheel also rotates more slowly but with higher torque, which is generally more effective for driving generators when paired with appropriate gearing.
+
+### Part (c) - Generator Table
+
+| Part | Name | Function |
+| :--- | :--- | :--- |
+| **1.** | **Magnets** | Provide a constant, strong magnetic field through which the coil rotates. |
+| **2.** | **Armature / Coil** | Rotates within the magnetic field to induce an electromotive force (EMF) via electromagnetic induction. |
+| **3.** | **Slip Rings** | Provide a continuous electrical connection between the rotating coil and the external circuit, maintaining the AC output. |
+| **4.** | **Brushes** | Maintain sliding contact with the slip rings to conduct the induced current to the external circuit. |
+
+---
+
+### How to solve this
+1.  **For part (a):** Focus on the physics of energy transfer. Identify that the paddle wheel is an undershot design (momentum transfer), while the bucket wheel is an overshot/gravity-fed design. 
+2.  **For part (b):** Connect the concept of "maximizing production" to energy efficiency and mechanical advantage. Remember that torque is directly proportional to the radius of the wheel, so selecting the largest diameter is a clear winner for maximizing mechanical work.
+3.  **For part (c):** This is a standard recall question for DC/AC motor and generator theory. You must memorize the components of an AC generator. Note that because they are **slip rings** (continuous circles), this is specifically an AC generator.
+
+###QUESTION_TYPE
+Short answer

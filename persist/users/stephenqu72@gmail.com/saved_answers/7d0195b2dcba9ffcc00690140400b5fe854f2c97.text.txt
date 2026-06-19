@@ -1,0 +1,45 @@
+### Answer and Explanation
+
+**Given Data:**
+*   Number of primary turns ($N_p$) = $1000$
+*   Primary voltage ($V_p$) = $23\text{ kV} = 23,000\text{ V}$
+*   Secondary voltage ($V_s$) = $330\text{ kV} = 330,000\text{ V}$
+*   Primary power ($P_p$) = $230\text{ MW} = 230 \times 10^6\text{ W}$
+
+---
+
+#### (a) Determine the number of turns of the secondary coil.
+**Solution:**
+Using the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Rearranging for $N_s$:
+$$N_s = N_p \times \left(\frac{V_s}{V_p}\right) = 1000 \times \left(\frac{330,000}{23,000}\right) \approx 14,347.8$$
+Rounding to the nearest whole turn, $N_s = 14,348$ turns.
+
+---
+
+#### (b) If the power input of the primary coil is $230\text{ MW}$, calculate the current in the secondary coil.
+**Solution:**
+Since the transformer is $100\%$ efficient, Input Power ($P_p$) = Output Power ($P_s$).
+$$P_s = V_s \times I_s$$
+$$230 \times 10^6\text{ W} = 330,000\text{ V} \times I_s$$
+$$I_s = \frac{230,000,000}{330,000} \approx 696.97\text{ A}$$
+The current in the secondary coil is approximately $697\text{ A}$.
+
+---
+
+#### (c) Explain why it is desirable for the power station to step up the voltage for electricity transmission over long distances.
+**Explanation:**
+Power lost in transmission lines is given by $P_{loss} = I^2 R$. By stepping up the voltage using a transformer, the current ($I$) required to deliver the same amount of power ($P=VI$) is significantly reduced. Because power loss is proportional to the **square** of the current, even a small reduction in current leads to a massive reduction in energy lost as heat in the transmission wires, making long-distance transport efficient.
+
+---
+
+#### (d) Explain the cause of most of this energy loss, and how transformer design attempts to overcome this loss.
+**Explanation:**
+Most energy loss in a transformer is due to **eddy currents** induced in the iron core, which cause heating (Joule heating).
+**Design mitigation:** The core is constructed using **laminated layers** of soft iron insulated from each other. This restricts the path of the eddy currents, reducing their magnitude and consequently reducing heat dissipation. (Alternatively: The use of soft magnetic materials reduces hysteresis losses, and high-conductivity copper windings reduce resistive heating).
+
+---
+
+###QUESTION_TYPE
+Calculation question

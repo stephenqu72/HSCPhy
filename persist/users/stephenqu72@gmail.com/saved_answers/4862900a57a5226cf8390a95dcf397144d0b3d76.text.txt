@@ -1,0 +1,22 @@
+As an HSC teacher, here is how you should approach this problem to secure full marks.
+
+### (a) Sketch and label the shape of the induced EMF
+**Answer:** The induced EMF is proportional to the negative gradient of the magnetic flux graph ($ \mathcal{E} = -N \frac{\Delta \Phi}{\Delta t} $). 
+*   When the flux $\Phi$ is at a maximum (gradient is zero), the EMF is zero.
+*   When the flux gradient is steepest (at the zero crossings), the EMF reaches its maximum or minimum value.
+*   The shape of the EMF graph will be a **sine wave** that starts at zero and is shifted relative to the flux graph (which is a cosine wave). Note: The blue line drawn on your image actually correctly represents this phase relationship.
+
+### (b) Describe how the induced EMF graph would change if the loop was rotated faster
+**Answer:** If the loop rotates faster, two specific changes occur to the graph:
+1.  **Increased Amplitude:** Since $ \mathcal{E} = -N \frac{d\Phi}{dt} $ and the angular velocity $\omega$ increases, the rate of change of flux increases, resulting in a higher peak voltage (amplitude).
+2.  **Decreased Period:** The loop completes cycles more quickly, meaning the frequency of the wave increases and the time period $T$ of the wave decreases. The graph will look "squashed" horizontally.
+
+---
+
+### How to solve this:
+1.  **Understand Faraday's Law:** Always recall that induced EMF is the negative rate of change of magnetic flux. Mathematically, it is the derivative of the flux graph.
+2.  **Graph Analysis:** Remember that the derivative of a cosine function ($\Phi$) is a negative sine function. Therefore, if $\Phi$ starts at a maximum, the EMF must start at zero and decrease initially (based on Lenz's Law).
+3.  **Variable impact:** Recognize that rotating the coil faster increases the frequency ($\omega$). In the equation $ \mathcal{E}_{max} = N B A \omega $, since $\mathcal{E}$ is directly proportional to $\omega$, both the magnitude (height) and the frequency (width) of the resulting induced EMF wave will be affected.
+
+###QUESTION_TYPE
+Short answer

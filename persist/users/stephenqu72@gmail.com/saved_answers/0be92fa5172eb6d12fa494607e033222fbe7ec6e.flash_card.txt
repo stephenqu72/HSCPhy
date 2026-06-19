@@ -1,0 +1,8 @@
+### Front
+How do you calculate the magnitude of the electric force on a charge (e.g., an electron) located between two parallel plates, given the potential difference and separation distance?
+
+### Back
+- Key idea: Relate potential difference and distance to find the uniform electric field strength, then apply it to the charge.
+- Formula / law / constant / figure: $E = \frac{V}{d}$ and $F = qE$; ($q_e = 1.6 \times 10^{-19}\text{ C}$)
+- When to use it: Calculating force on a particle within a uniform electric field (parallel plate setup).
+- Common trap: Assuming the particle's position (e.g., "halfway between") changes the force; in a uniform field, $E$ and $F$ are constant everywhere between the plates.

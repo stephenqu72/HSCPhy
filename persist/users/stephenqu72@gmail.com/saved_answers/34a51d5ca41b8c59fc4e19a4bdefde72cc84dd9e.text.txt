@@ -1,0 +1,33 @@
+Here are the solutions to the questions provided.
+
+### Part a
+**Answer:**
+The path difference for constructive interference at the $n$-th bright fringe is given by $\Delta x = n\lambda$.
+Point $P_0$ is the central maximum ($n=0$), $P_1$ is the first order ($n=1$), and $P_2$ is the second order ($n=2$).
+For point $P_2$, $n = 2$.
+Given $\lambda = 510\text{ nm} = 510 \times 10^{-9}\text{ m}$.
+$$\Delta x = 2 \times 510 \times 10^{-9}\text{ m} = 1.02 \times 10^{-6}\text{ m}$$
+
+**Explanation:**
+To solve this, recognize that for constructive interference in Young’s double-slit experiment, the path difference between light waves traveling from the two slits to a point on the screen must be an integer multiple of the wavelength ($n\lambda$). Since $P_2$ is the second bright fringe from the center, we set $n=2$ and multiply by the given wavelength.
+
+---
+
+### Part b
+**Answer:**
+The spacing between adjacent bright bands will **increase**.
+
+**Explanation:**
+The formula for fringe spacing is $\Delta y = \frac{\lambda L}{d}$. Since the wavelength of red light ($\lambda_{red}$) is longer than the wavelength of green light ($\lambda_{green}$), and both $L$ (distance to screen) and $d$ (slit separation) remain constant, the fringe spacing $\Delta y$ is directly proportional to $\lambda$. Increasing the wavelength leads to a wider interference pattern.
+
+---
+
+### Part c
+**Answer:**
+Young’s double-slit experiment demonstrates the wave-like nature of light through two key phenomena: **interference** and **diffraction**.
+1. **Diffraction:** As light passes through the two narrow slits, it spreads out, which is a characteristic behavior of waves encountering an obstacle.
+2. **Interference:** The overlapping waves from the two slits create a pattern of bright and dark fringes. Bright fringes occur where the waves arrive in phase (constructive interference), and dark fringes occur where they arrive out of phase (destructive interference).
+3. **Refutation of Particle Theory:** A purely particle-based model (Newton's corpuscular theory) would predict that light passing through two slits would simply create two bright lines on the screen directly behind the slits. The formation of multiple alternating bands can only be explained by the superposition of waves.
+
+###QUESTION_TYPE
+Calculation question

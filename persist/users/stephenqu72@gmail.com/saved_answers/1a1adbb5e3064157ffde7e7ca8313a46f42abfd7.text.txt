@@ -1,0 +1,26 @@
+To solve this problem, we apply the principles of Young’s Double Slit Experiment, which demonstrates the wave nature of light.
+
+### (a) Calculation of the distance between maxima
+The formula for the fringe separation (the distance between adjacent maxima) in a double-slit experiment is given by:
+$$\Delta y = \frac{\lambda L}{d}$$
+
+**Given values:**
+*   Wavelength $\lambda = 500\text{ nm} = 500 \times 10^{-9}\text{ m}$
+*   Distance to screen $L = 6.0\text{ m}$
+*   Slit separation $d = 3.0 \times 10^{-5}\text{ m}$
+
+**Calculation:**
+$$\Delta y = \frac{(500 \times 10^{-9}\text{ m}) \times (6.0\text{ m})}{3.0 \times 10^{-5}\text{ m}}$$
+$$\Delta y = \frac{3000 \times 10^{-9}}{3.0 \times 10^{-5}} = \frac{3.0 \times 10^{-6}}{3.0 \times 10^{-5}} = 0.1\text{ m}$$
+
+**Answer:** The distance between each of the maxima is $0.1\text{ m}$ (or $10\text{ cm}$).
+
+---
+
+### (b) Support for the wave model
+**Answer:** This experiment supports the **wave model** of light.
+
+**Explanation:** The formation of a pattern of maxima and minima (an interference pattern) on the screen occurs because light waves passing through the two slits undergo **superposition**. Where the waves arrive in phase, they undergo constructive interference (maxima), and where they arrive out of phase, they undergo destructive interference (minima). Particles traveling in straight lines would simply form two distinct bright spots corresponding to the slit positions; therefore, the observation of an interference pattern is evidence that light behaves as a wave.
+
+###QUESTION_TYPE
+Calculation question

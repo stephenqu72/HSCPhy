@@ -1,0 +1,34 @@
+To solve this problem, we use the fundamental equation for a DC motor:
+$$V = \varepsilon + IR$$
+where $V$ is the terminal voltage, $\varepsilon$ is the back electromotive force (back emf), $I$ is the current, and $R$ is the internal resistance.
+
+### Part (a): Calculate the magnitude of the back emf under no load
+Given:
+- $V = 150\,V$
+- $R = 8.0\,\Omega$
+- $I_{no\_load} = 2.0\,A$
+
+The voltage drop across the internal resistance is $V_{internal} = I \times R = 2.0\,A \times 8.0\,\Omega = 16\,V$.
+The back emf is the remainder of the supply voltage:
+$$\varepsilon_{no\_load} = V - I_{no\_load}R$$
+$$\varepsilon_{no\_load} = 150\,V - 16\,V = 134\,V$$
+
+---
+
+### Part (b): Calculate the current drawn under a heavy load
+In a DC motor, the back emf $\varepsilon$ is directly proportional to the rotational speed of the motor ($\omega$), such that $\varepsilon = k\omega$ for some constant $k$.
+
+1. **Find the back emf under heavy load:**
+   The speed halves under heavy load, so the back emf also halves:
+   $$\varepsilon_{load} = \frac{1}{2} \varepsilon_{no\_load} = \frac{134\,V}{2} = 67\,V$$
+
+2. **Calculate the current using the motor equation:**
+   Rearrange the equation $V = \varepsilon + IR$ to solve for $I$:
+   $$I_{load} = \frac{V - \varepsilon_{load}}{R}$$
+   $$I_{load} = \frac{150\,V - 67\,V}{8.0\,\Omega}$$
+   $$I_{load} = \frac{83\,V}{8.0\,\Omega} = 10.375\,A$$
+
+Rounding to significant figures (based on the input data), we get $10\,A$ (or $10.4\,A$).
+
+###QUESTION_TYPE
+Calculation question

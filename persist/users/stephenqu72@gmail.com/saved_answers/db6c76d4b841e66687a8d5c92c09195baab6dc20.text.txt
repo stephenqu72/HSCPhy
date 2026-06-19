@@ -1,0 +1,39 @@
+To determine which set of changes results in the largest reading on the voltmeter, we must analyze the formula for the peak induced EMF ($\mathcal{E}$) in a rotating coil:
+
+$$\mathcal{E} = N \omega B A \sin(\theta)$$
+
+Where:
+*   $N$ is the number of turns (constant here).
+*   $\omega$ is the angular velocity (constant here).
+*   $B$ is the magnetic field strength (constant here, unless rotated).
+*   $A$ is the area of the coil ($A = l \times r$).
+*   $\theta$ is the angle between the magnetic field vector and the normal to the coil. Crucially, the effective flux contributing to EMF depends on the **horizontal component** of the magnetic field ($B_{\text{horiz}} = B \cos(45^\circ)$) because the coil rotates about a vertical axis.
+
+The induced EMF is proportional to $A \times B_{\text{horiz}} = (l \cdot r) \times (B \cos \phi)$, where $\phi$ is the angle of the field relative to the horizontal.
+
+### Analysis of options:
+*   **A: Double $r$, halve $l$.** 
+    New Area = $(2r) \times (0.5l) = 1.0A$. No change in EMF.
+*   **B: Increase $l$ and $r$ by 50% ($1.5 \times 1.5 = 2.25$).** 
+    New Area = $2.25A$. EMF increases by a factor of $2.25$.
+*   **C: Rotate field to vertical ($\phi = 90^\circ$).** 
+    The horizontal component $B_{\text{horiz}}$ becomes $B \cos(90^\circ) = 0$. The EMF becomes zero.
+*   **D: Rotate field to horizontal ($\phi = 0^\circ$) and double $l$.** 
+    New $B_{\text{horiz}} = B \cos(0^\circ) = B$. The current $B_{\text{horiz}}$ was $B \cos(45^\circ) \approx 0.707B$.
+    The new $B_{\text{horiz}}$ is $\frac{1}{0.707} \approx 1.414$ times the original.
+    New Area = $2 \times$ original.
+    Total effect = $1.414 \times 2 = 2.828 \times$ original.
+
+Comparing the factors:
+- A: $1.0$
+- B: $2.25$
+- C: $0$
+- D: $2.828$
+
+Therefore, **Option D** results in the largest reading.
+
+### Answer
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

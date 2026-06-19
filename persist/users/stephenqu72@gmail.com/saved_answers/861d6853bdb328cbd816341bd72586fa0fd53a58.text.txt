@@ -1,0 +1,12 @@
+### Answer
+The induced current flows **upwards** through the conductor.
+
+### Explanation
+To solve this, we apply two fundamental laws of electromagnetism: the **Right-Hand Rule (for the Lorentz Force)** and **Lenz's Law**.
+
+1.  **Lorentz Force Application:** The free electrons in the conductor are moving to the right within a magnetic field directed into the page (represented by the $X$ symbols). Using the right-hand rule for conventional current (where the thumb points in the direction of motion, the fingers point into the page, and the palm indicates the direction of positive charge flow), we find the force on positive charges is directed upwards. Therefore, the induced current flows **upwards**.
+2.  **Lenz's Law:** Alternatively, consider the conservation of energy. As the conductor moves to the right, it encloses a larger area of the magnetic field, increasing the magnetic flux through the circuit. According to Lenz's Law, the induced current must create a magnetic field that opposes this change. To oppose the increase in flux, the induced current creates a magnetic field directed **out of the page**. By the Right-Hand Grip Rule, an upward current produces a magnetic field that points out of the page to the left of the conductor (inside the loop area), which opposes the existing field directed into the page.
+3.  **Why it *must* be in this direction:** It must be in this direction to satisfy the **Law of Conservation of Energy**. If the current were in the opposite direction, the resulting magnetic force on the current-carrying conductor (via the motor effect) would push the conductor further to the right, increasing its speed and the resulting current indefinitely without any external work input. This would violate the Law of Conservation of Energy. Thus, the current must flow in a direction that produces a magnetic force opposing the applied force $F$ (an "opposing" force).
+
+###QUESTION_TYPE
+Short answer

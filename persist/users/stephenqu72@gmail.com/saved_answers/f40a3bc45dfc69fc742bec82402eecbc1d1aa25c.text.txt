@@ -1,0 +1,28 @@
+To solve this problem, we rely on the fundamental principles of an "ideal transformer."
+
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To arrive at this answer, we use two key concepts regarding ideal transformers:
+
+**1. Conservation of Energy**
+By definition, an "ideal" transformer has no internal energy losses (such as heat due to resistance or eddy currents). This means that all the power put into the primary coil is transferred to the secondary coil.
+$$P_{\text{input}} = P_{\text{output}}$$
+Given that the power input is $480\text{ W}$, the maximum power output must also be $480\text{ W}$.
+
+**2. Calculating Current**
+Power is defined by the relationship $P = VI$, where $P$ is power, $V$ is potential difference (voltage), and $I$ is current.
+For the secondary coil, we know the power output ($P_s = 480\text{ W}$) and the secondary voltage ($V_s = 120\text{ V}$). We can rearrange the formula to solve for the secondary current ($I_s$):
+$$I_s = \frac{P_s}{V_s}$$
+$$I_s = \frac{480\text{ W}}{120\text{ V}}$$
+$$I_s = 4\text{ A}$$
+
+Comparing these results to the options provided:
+*   Power output: $480\text{ W}$
+*   Secondary current: $4\text{ A}$
+
+This corresponds to option **A**.
+
+###QUESTION_TYPE
+Multiple choice

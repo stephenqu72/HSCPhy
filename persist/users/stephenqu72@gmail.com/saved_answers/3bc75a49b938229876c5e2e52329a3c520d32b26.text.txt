@@ -1,0 +1,26 @@
+Hello! As an HSC Physics teacher, I'm happy to help you break down this concept. This is a classic electromagnetic induction question that tests your understanding of Faraday's Law and the geometry of magnetic flux.
+
+### The Answer
+The correct option is **B**.
+
+### Explanation
+To solve this, we need to look at the definitions of magnetic flux ($\Phi$) and the rate of change of magnetic flux ($d\Phi/dt$).
+
+1.  **Magnetic Flux ($\Phi$):**
+    Magnetic flux is defined as $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the **normal to the coil** and the magnetic field lines.
+    *   In the diagram, the coil is in the "vertical" position. Its surface is parallel to the magnetic field lines (which travel from N to S).
+    *   Because the surface is parallel to the field, the normal to the coil (the line perpendicular to the surface) is at $90^\circ$ to the field lines.
+    *   Since $\cos(90^\circ) = 0$, the magnetic flux through the loop is at its **minimum magnitude (zero)**.
+
+2.  **Rate of Change of Magnetic Flux ($d\Phi/dt$):**
+    According to Faraday's Law, the induced EMF ($\varepsilon$) is proportional to the rate of change of magnetic flux ($\varepsilon = -N \frac{d\Phi}{dt}$).
+    *   When the coil is vertical and rotating, the edges of the coil are moving "across" the magnetic field lines most rapidly (cutting through them at a perpendicular angle).
+    *   Mathematically, as the coil passes through the vertical position, the rate of change of the angle is at its peak influence on the flux value. The sine function (which represents the derivative of the flux function $\cos(\theta)$) is at its maximum value of $1$ when $\theta = 90^\circ$.
+    *   Therefore, the rate of change of magnetic flux is at its **maximum magnitude**.
+
+**Summary for your notes:**
+*   When the coil is **perpendicular** to the field lines (horizontal position): Flux is maximum, rate of change is minimum (zero).
+*   When the coil is **parallel** to the field lines (vertical position): Flux is minimum (zero), rate of change is maximum.
+
+###QUESTION_TYPE
+Multiple choice

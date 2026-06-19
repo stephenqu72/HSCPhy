@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### (a) Why the transformer needs to be cooled
+To earn full marks, you must link physical energy losses to the production of thermal energy.
+*   **Explanation:** Transformers are not 100% efficient. Energy is lost due to several factors:
+    1.  **Resistance in coils:** As current flows through the copper windings, the resistance of the wire causes energy loss as heat (governed by $P = I^2R$).
+    2.  **Eddy currents:** The changing magnetic flux in the iron core induces circular currents (eddy currents) in the core itself. The resistance of the core to these currents generates heat.
+    3.  **Hysteresis:** Energy is lost due to the work required to constantly re-orient the magnetic domains in the iron core as the AC magnetic field reverses direction.
+*   **Conclusion:** These accumulated losses manifest as thermal energy. If not dissipated by a cooling system (like oil or fins), the internal temperature would rise to a point where insulation fails, leading to permanent damage to the transformer.
+
+#### (b) Calculating output voltage and current
+**1. Finding Output Voltage ($V_s$):**
+Use the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Given: $V_p = 30,000\text{ V}$, $N_p = 500$, $N_s = 200$.
+$$\frac{30,000}{V_s} = \frac{500}{200}$$
+$$V_s = 30,000 \times \frac{200}{500} = 12,000\text{ V} = 12\text{ kV}$$
+
+**2. Finding Output Current ($I_s$):**
+Since power losses are negligible, we assume the transformer is ideal: $P_p = P_s$, or $V_p I_p = V_s I_s$.
+$$30,000 \times 12 = 12,000 \times I_s$$
+$$360,000 = 12,000 \times I_s$$
+$$I_s = \frac{360,000}{12,000} = 30\text{ A}$$
+
+#### (c) Practical application of a step-down transformer
+A common application is **distributing electricity from a local street substation to residential homes**, where the voltage is stepped down from high-voltage distribution lines to a safe $240\text{ V}$ for household use. (Other acceptable answers: phone chargers, microwave power supplies, or power adapters for electronics).
+
+---
+
+###QUESTION_TYPE
+Calculation question

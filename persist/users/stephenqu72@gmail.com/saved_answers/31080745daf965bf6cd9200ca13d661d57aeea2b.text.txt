@@ -1,0 +1,28 @@
+To solve this problem, we must apply **Faraday’s Law of Induction**, which states that the induced electromotive force (EMF) or voltage is proportional to the negative rate of change of magnetic flux:
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Physical System:**
+    *   The loop is rotating in a uniform magnetic field. The magnetic flux $\Phi$ through the loop is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the area vector and the magnetic field.
+    *   As the loop rotates, the flux $\Phi$ follows a **cosine** (or sine) function, meaning it oscillates between a maximum positive value, zero, and a maximum negative value.
+
+2.  **Relate Flux and EMF (Voltage):**
+    *   According to Faraday's Law, the voltage (EMF) is the **negative derivative** of the magnetic flux with respect to time.
+    *   In calculus, if the flux $\Phi$ is represented by a cosine function (like $\cos(\omega t)$), the derivative is a negative sine function. Because the EMF is defined as the *negative* of the derivative ($-\frac{d\Phi}{dt}$), the EMF becomes a **positive sine function**.
+    *   Mathematically, if $\Phi \propto \cos(\omega t)$, then $\varepsilon \propto \sin(\omega t)$.
+
+3.  **Analyze the Phase Relationship:**
+    *   When the magnetic flux is at its **maximum** (the loop is perpendicular to the field), the rate of change of flux is **zero**. Therefore, the voltage must be **zero**.
+    *   When the magnetic flux is **zero** (the loop is parallel to the field), the rate of change is at its **maximum**. Therefore, the voltage must be at its **peak** (positive or negative).
+    *   This indicates that the voltage graph and the flux graph must be **$90^\circ$ (or $\pi/2$ radians) out of phase**.
+
+4.  **Evaluate the Options:**
+    *   We need a graph where one function is zero when the other is at a peak.
+    *   Looking at **Graph B**: When the dashed line (flux) is at its maximum, the solid line (voltage) is at zero. When the dashed line crosses the axis (rate of change is steepest), the solid line is at its peak. This correctly represents the derivative relationship between flux and induced EMF.
+
+**Conclusion:** The correct graph is **B**.
+
+###QUESTION_TYPE
+Multiple choice

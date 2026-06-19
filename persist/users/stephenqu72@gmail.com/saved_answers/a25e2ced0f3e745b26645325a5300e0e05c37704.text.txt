@@ -1,0 +1,15 @@
+### Answer
+1.  **Why the speed of rotation decreases:** As the aluminium disc rotates through the magnetic field, the area of the disc within the magnetic field experiences a change in magnetic flux. This induces **eddy currents** in the disc. According to **Lenz's Law**, these eddy currents create a magnetic field that opposes the motion that produced them, resulting in a magnetic braking force (drag) on the disc. This opposes the torque provided by the motor, causing the disc to slow down.
+2.  **Why the current in the ammeter increases:** An electric motor acts as both a motor and a generator. As it spins, it produces a **back electromotive force (back EMF)**, which opposes the supply voltage from the battery. The net voltage across the motor is $V_{net} = V_{battery} - \varepsilon_{back}$. Since the back EMF is directly proportional to the speed of rotation ($\varepsilon_{back} \propto \omega$), the decrease in rotational speed leads to a decrease in back EMF. Consequently, the net voltage increases, leading to an increase in the current drawn from the battery ($I = \frac{V_{battery} - \varepsilon_{back}}{R}$).
+
+### How to solve this
+To tackle this HSC-style physics question, follow this logical framework:
+*   **Identify the key phenomena:** Recognize that the moving conductor in a magnetic field triggers **electromagnetic induction** (specifically eddy currents).
+*   **Apply Lenz's Law:** Always use Lenz's Law to explain the "direction" of the effect. Because the induced current opposes the change that created it, the resulting force must oppose the rotation.
+*   **Connect electrical and mechanical states:** Remember the relationship between a motor's speed and its electrical characteristics. A motor is essentially a generator in reverse. The faster it spins, the higher the back EMF.
+*   **Structure your argument:**
+    *   Observation 1 (Speed): State "Eddy currents" $\rightarrow$ "Lenz's Law/Opposing force" $\rightarrow$ "Deceleration".
+    *   Observation 2 (Current): State "Decreased speed" $\rightarrow$ "Decreased back EMF" $\rightarrow$ "Higher net voltage" $\rightarrow$ "Increased current".
+
+### QUESTION_TYPE
+Other questions

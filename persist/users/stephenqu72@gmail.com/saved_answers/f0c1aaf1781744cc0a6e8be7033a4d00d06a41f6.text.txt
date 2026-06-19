@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The transformer is acting as both a step-down and a step-up transformer, depending on the number of turns in the secondary coil ($N_s$). 
+
+**Justification:** 
+A transformer is classified based on the ratio of output voltage ($V_s$) to input voltage ($V_p$):
+*   A **step-down** transformer occurs when $V_s < V_p$ (or $N_s < N_p$). In the table, when $N_s$ is 150, 300, or 450, the output voltage is less than or equal to the input voltage (e.g., $9.8\text{ V} < 30\text{ V}$).
+*   A **step-up** transformer occurs when $V_s > V_p$ (or $N_s > N_p$). In the table, when $N_s$ is 600, 750, or 900, the output voltage is greater than the input voltage (e.g., $38\text{ V} > 30\text{ V}$).
+
+**How to solve:** Compare the columns for "Turns in secondary coil" and "Output voltage" against the constant primary values ($N_p = 450, V_p = 30$). Since the experiment varies $N_s$ across the threshold of $N_p$, the device functions as both types throughout the experiment.
+
+---
+
+#### Part (b)
+**Answer:** Two reasons why everyday transformers are not 100% efficient are:
+1.  **Resistance in the coils (Joule heating):** The wires used to wind the primary and secondary coils have a finite electrical resistance. As current flows through these coils, energy is dissipated as heat according to the formula $P_{loss} = I^2R$.
+2.  **Eddy currents:** The changing magnetic flux induces circulating currents (eddy currents) within the iron core itself. These currents generate heat, leading to energy loss. This is why cores are often laminated to increase resistance to these currents.
+*(Alternative acceptable answers include: Magnetic hysteresis in the core or magnetic flux leakage where not all flux produced by the primary passes through the secondary.)*
+
+**How to solve:** Recall the physics of energy losses in transformers. Efficiency is reduced whenever energy is converted into non-useful forms, primarily thermal energy. Focus on the two main sources: the resistance of the conductive materials and the electromagnetic properties of the core.
+
+###QUESTION_TYPE
+Data analysis questions

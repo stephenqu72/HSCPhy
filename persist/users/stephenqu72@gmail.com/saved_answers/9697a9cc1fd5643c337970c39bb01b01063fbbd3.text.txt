@@ -1,0 +1,29 @@
+### Answer
+
+**(a) Magnitude of the induced emf:**
+Using Faraday's Law, the induced emf $\varepsilon$ is given by:
+$$\varepsilon = \frac{|\Delta \Phi|}{\Delta t}$$
+where $\Delta \Phi = B \cdot \Delta A$.
+
+1.  **Calculate the area:** The side length $L = 37 \text{ cm} = 0.37 \text{ m}$.
+    $$A = L^2 = (0.37 \text{ m})^2 = 0.1369 \text{ m}^2$$
+2.  **Calculate the change in flux:** Since the loop starts outside the field, $\Delta \Phi = B \times A$.
+    $$\Delta \Phi = 0.80 \text{ T} \times 0.1369 \text{ m}^2 = 0.10952 \text{ Wb}$$
+3.  **Calculate emf:**
+    $$\varepsilon = \frac{0.10952 \text{ Wb}}{0.04 \text{ s}} = 2.738 \text{ V}$$
+Rounding to significant figures (based on the provided data), the magnitude is **$2.7 \text{ V}$**.
+
+**(b) Direction of induced current:**
+The induced current flows **counter-clockwise**.
+
+***
+
+### Explanation
+**Part (a):**
+To solve for induced emf, identify Faraday's Law of Induction, which states that an emf is induced by a change in magnetic flux linkage. The magnetic flux $\Phi$ is defined as $\Phi = BA \cos \theta$. As the loop enters the field, the area $A$ exposed to the magnetic field $B$ increases from $0$ to the full area of the square. We calculate the area of the loop, multiply by the field strength to find the total change in flux, and divide by the time taken to enter the field.
+
+**Part (b):**
+To determine the direction, apply Lenz's Law. As the loop enters the magnetic field (directed into the page), the magnetic flux into the page is increasing. The loop will induce a current that creates its own magnetic field to *oppose* this increase. Therefore, the induced field must point *out of the page*. According to the Right-Hand Grip Rule, a current flowing **counter-clockwise** creates a magnetic field pointing out of the page within the loop, thereby opposing the change.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of an ideal transformer, where power is conserved and the ratio of voltages is equal to the ratio of the number of turns.
+
+### 1. Calculate the number of turns in the primary coil ($N_p$)
+The transformer equation relates voltage ($V$) and the number of turns ($N$) as follows:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Given:
+*   Primary voltage $V_p = 240\text{ V}$
+*   Secondary voltage $V_s = 12\text{ V}$
+*   Secondary turns $N_s = 50$
+
+Rearranging for $N_p$:
+$$N_p = N_s \times \frac{V_p}{V_s}$$
+$$N_p = 50 \times \frac{240}{12}$$
+$$N_p = 50 \times 20 = 1000\text{ turns}$$
+
+### 2. Calculate the current in the primary coil ($I_p$)
+For an ideal transformer, power is conserved, meaning input power equals output power ($P_p = P_s$). Since $P = VI$:
+$$V_p \times I_p = V_s \times I_s$$
+
+Given:
+*   Secondary current $I_s = 2.0\text{ A}$
+
+Rearranging for $I_p$:
+$$I_p = \frac{V_s \times I_s}{V_p}$$
+$$I_p = \frac{12 \times 2.0}{240}$$
+$$I_p = \frac{24}{240} = 0.1\text{ A}$$
+
+### Conclusion
+The number of turns in the primary coil is $1000$ and the current is $0.1\text{ A}$. Looking at the provided options, row **B** matches these values.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

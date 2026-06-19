@@ -1,0 +1,43 @@
+To solve these problems, we use the principles of electromagnetism as taught in the HSC Physics syllabus.
+
+### Part a: Force on side EF
+**Answer:**
+The magnitude of the force is $0.032\text{ N}$ directed **upwards**.
+
+**Explanation:**
+1. **Identify the formula:** The force on a current-carrying wire in a magnetic field is given by $F = nBIL\sin(\theta)$.
+   - $n = 10$ (number of turns)
+   - $B = 2.0 \times 10^{-3}\text{ T}$
+   - $I = 4.0\text{ A}$
+   - $L = 0.04\text{ m}$ (length of the side)
+   - $\theta = 90^{\circ}$ (since the wire is perpendicular to the magnetic field), $\sin(90^{\circ}) = 1$.
+2. **Calculation:**
+   $$F = 10 \times 2.0 \times 10^{-3} \times 4.0 \times 0.04 = 0.032\text{ N}$$
+3. **Direction:** Use the **Right-Hand Rule** (or Fleming’s Left-Hand Rule for motors). Point your fingers from North to South, your thumb in the direction of current (from E to F), and your palm will face **upwards**.
+
+---
+
+### Part b: Average voltage during one-quarter revolution
+**Answer:**
+The magnitude of the average voltage is $0.0064\text{ V}$ (or $6.4\text{ mV}$).
+
+**Explanation:**
+1. **Identify the formula:** Faraday's Law states $\varepsilon_{avg} = -N \frac{\Delta \Phi}{\Delta t}$.
+2. **Find $\Delta \Phi$:** The flux changes from $\Phi = BA$ (when vertical) to $0$ (when horizontal) in one-quarter turn.
+   - Area $A = 0.04 \times 0.04 = 0.0016\text{ m}^2$.
+   - $\Delta \Phi = BA - 0 = (2.0 \times 10^{-3}) \times 0.0016 = 3.2 \times 10^{-6}\text{ Wb}$.
+3. **Find $\Delta t$:** Two revolutions per second means the period $T = 0.5\text{ s}$. One-quarter revolution takes $\Delta t = \frac{T}{4} = 0.125\text{ s}$.
+4. **Calculation:**
+   $$\varepsilon_{avg} = 10 \times \frac{3.2 \times 10^{-6}}{0.125} = 0.0064\text{ V}$$
+
+---
+
+### Part c: Conversion to AC generator
+**Answer:**
+Replace the **split-ring commutator** with two **slip rings**.
+
+**Justification:**
+A split-ring commutator acts as a mechanical rectifier, reversing the connection to the external circuit every half-turn to ensure current always flows in the same direction (DC). Slip rings maintain a continuous connection to the same side of the coil throughout the rotation, allowing the induced current to reverse direction every half-turn, which is the definition of alternating current (AC).
+
+###QUESTION_TYPE
+Calculation question

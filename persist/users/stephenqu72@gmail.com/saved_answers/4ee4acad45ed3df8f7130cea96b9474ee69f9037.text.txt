@@ -1,0 +1,29 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down this classic wave optics question.
+
+### Part a)
+**Answer:**
+The formula is: 
+$$d \sin(\theta) = n\lambda$$
+*(Where $d$ is the slit separation, $\theta$ is the angle of diffraction, $n$ is the order of the maximum, and $\lambda$ is the wavelength).*
+
+The scientist credited with performing this experiment is **Thomas Young**.
+
+**Explanation:**
+To solve this, you simply need to recall the standard equation for constructive interference in Young's Double Slit Experiment. When two coherent light sources interfere, maxima occur at angles where the path difference between the two sources is an integer multiple of the wavelength ($n\lambda$).
+
+---
+
+### Part b)
+**Answer:**
+The formula $d \sin(\theta) = n\lambda$ is derived assuming that the light rays coming from the two slits are perfectly **parallel**.
+
+**Explanation:**
+In a real-world laboratory setup, the screen is placed at a finite distance $L$ from the slits. Because the screen is at a finite distance, the rays traveling from the two slits to a specific point on the screen are not actually parallel; they are slightly divergent.
+
+1.  **Geometric Reason:** The path difference is exactly $d \sin(\theta)$ only if the rays are parallel (which effectively happens at infinity).
+2.  **The Approximation:** We often use the "small angle approximation" ($ \sin(\theta) \approx \tan(\theta) \approx \frac{y}{L} $) where $y$ is the distance from the central fringe and $L$ is the distance to the screen. Because the rays are actually converging at a point on the screen, the true path difference is slightly different from $d \sin(\theta)$, making the standard formula an approximation that becomes increasingly accurate only as the distance to the screen $L$ becomes very large relative to the slit separation $d$.
+
+***
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,34 @@
+### Teacher's Solution
+
+#### (a) Calculate the secondary voltage
+**Answer:** $6\text{ V}$
+
+**Explanation:**
+For an ideal transformer, the ratio of voltages is equal to the ratio of turns:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Where:
+- $N_p = 600$
+- $N_s = 300$
+- $V_p = 12\text{ V}$
+
+Rearranging to solve for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p} = 12 \times \frac{300}{600} = 12 \times 0.5 = 6\text{ V}$$
+
+---
+
+#### (b) Explain why a DC power supply would not work
+**Answer:** A DC supply provides a constant current, resulting in a constant magnetic flux in the transformer core. According to Faraday’s Law of Induction, an electromotive force (EMF) is only induced when there is a *changing* magnetic flux. Without a changing flux, there is no change in magnetic linkage, and thus no voltage is induced in the secondary coil. Furthermore, DC would provide zero resistance (other than wire resistance), likely causing the primary coil to overheat and burn out.
+
+---
+
+#### (c) Calculate the efficiency
+**Answer:** $87.5\%$ (or $\approx 88\%$)
+
+**Explanation:**
+Efficiency ($\eta$) is defined as the ratio of output power to input power:
+$$\eta = \frac{P_{out}}{P_{in}} \times 100\%$$
+Choose a point on the line from the graph. At $P_{in} = 40\text{ W}$, the line passes through $P_{out} = 35\text{ W}$.
+$$\eta = \frac{35}{40} \times 100\% = 0.875 \times 100\% = 87.5\%$$
+
+###QUESTION_TYPE
+Calculation question

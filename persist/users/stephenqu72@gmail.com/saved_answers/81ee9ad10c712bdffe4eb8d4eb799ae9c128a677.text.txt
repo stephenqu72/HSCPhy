@@ -1,0 +1,48 @@
+Hello! As an HSC teacher, I’m happy to help you break down these transformer problems. Transformers are a core component of the HSC Physics syllabus, particularly in the "Motors and Generators" topic.
+
+### (a) Calculate the number of turns on the secondary winding.
+
+**Solution:**
+We use the ideal transformer equation:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Given:
+- $V_p = 5000\text{ V}$
+- $V_s = 45\,000\text{ V}$
+- $N_p = 2500\text{ turns}$
+
+Rearranging to solve for $N_s$:
+$$N_s = N_p \times \frac{V_s}{V_p}$$
+$$N_s = 2500 \times \frac{45\,000}{5000}$$
+$$N_s = 2500 \times 9 = 22\,500\text{ turns}$$
+
+---
+
+### (b) What is the power loss in the secondary winding?
+
+**Solution:**
+Assuming an ideal transformer (where input power = output power), we find the secondary current ($I_s$) first. 
+*Note: In an ideal transformer, $P_p = P_s$*
+
+$$V_p I_p = V_s I_s$$
+$$5000 \times 80 = 45\,000 \times I_s$$
+$$I_s = \frac{400\,000}{45\,000} \approx 8.89\text{ A}$$
+
+Now, calculate power loss ($P_{\text{loss}}$) using $P = I^2 R$:
+$$P_{\text{loss}} = I_s^2 \times R$$
+$$P_{\text{loss}} = (8.89)^2 \times 1200$$
+$$P_{\text{loss}} \approx 79.03 \times 1200 \approx 94\,836\text{ W (or } 94.84\text{ kW)}$$
+
+---
+
+### (c) Explain why AC is preferable to DC as an input current for transformers.
+
+**Explanation:**
+Transformers operate based on **Faraday's Law of Induction** and **Lenz's Law**. 
+1. For a secondary voltage to be induced, there must be a **changing magnetic flux** through the secondary coil.
+2. An **Alternating Current (AC)** constantly changes direction and magnitude, creating a constantly changing magnetic field in the primary coil, which then induces a voltage in the secondary coil.
+3. **Direct Current (DC)** provides a steady magnetic field. Once the field is established, it no longer changes, meaning the flux through the secondary coil is constant. Since there is no change in flux ($d\Phi/dt = 0$), no voltage is induced in the secondary coil. 
+4. Furthermore, if connected to DC, the transformer would essentially act as a simple low-resistance wire, likely leading to excessive current draw and damaging the primary coil (the "burnout" effect).
+
+###QUESTION_TYPE
+Calculation question

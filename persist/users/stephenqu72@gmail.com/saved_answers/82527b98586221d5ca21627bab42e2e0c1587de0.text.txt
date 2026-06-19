@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### Part (a)
+
+**1. Determine the peak wavelength ($\lambda_{max}$):**
+According to Wien’s Displacement Law, the peak wavelength of a blackbody radiator is inversely proportional to its temperature:
+$$\lambda_{max} = \frac{b}{T}$$
+Where $b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$ and $T = 6000 \text{ K}$.
+$$\lambda_{max} = \frac{2.898 \times 10^{-3}}{6000} \approx 4.83 \times 10^{-7} \text{ m} = 483 \text{ nm}$$
+
+**2. Determine the grating spacing ($d$):**
+The grating has $500 \text{ lines/mm}$, which is $500,000 \text{ lines/m}$.
+$$d = \frac{1}{500,000} = 2.0 \times 10^{-6} \text{ m} = 2000 \text{ nm}$$
+
+**3. Use the diffraction grating formula:**
+For the first-order maxima ($n=1$):
+$$d \sin(\theta) = n\lambda$$
+$$\sin(\theta) = \frac{1 \cdot 483 \times 10^{-9}}{2.0 \times 10^{-6}} = 0.2415$$
+$$\theta = \arcsin(0.2415) \approx 13.97^\circ \approx 14^\circ$$
+This shows that the most intense wavelength (peak of the spectrum) corresponds to an angle of $14^\circ$.
+
+---
+
+#### Part (b)
+
+A single angle cannot be calculated because the light source is **polychromatic** (it contains a continuous range of wavelengths). 
+
+According to the grating equation $d \sin(\theta) = n\lambda$, the angle $\theta$ is directly dependent on the wavelength $\lambda$. Since the incandescent source emits light across the entire visible spectrum (approximately $400 \text{ nm}$ to $700 \text{ nm}$), each specific wavelength will diffract at a slightly different angle for any given order $n > 0$. Therefore, instead of a single point, the second-order maximum will appear as a **spread-out spectrum** of light rather than a single discrete angle.
+
+###QUESTION_TYPE
+Calculation question

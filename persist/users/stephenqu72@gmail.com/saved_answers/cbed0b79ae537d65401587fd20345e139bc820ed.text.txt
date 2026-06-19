@@ -1,0 +1,17 @@
+The correct answer is **D**.
+
+### Explanation
+
+To solve this problem, we must analyze the relationship between the mechanical design of a generator and its electrical output graph.
+
+1.  **Analyze the Graph:** The graph shows a series of identical pulses that are always positive (unidirectional). This is characteristic of **pulsating direct current (DC)**. Specifically, it represents the output of a single-coil generator equipped with a **split-ring commutator**.
+2.  **Evaluate the Options:**
+    *   **A:** Shows a simple AC generator using slip rings. Slip rings maintain a continuous connection between the coil and the external circuit, resulting in a sine wave that alternates between positive and negative values as the coil rotates.
+    *   **B:** Shows an AC generator with slip rings, similar to A, but with curved pole pieces. This will also produce an alternating sine wave output.
+    *   **C:** Shows a DC motor (indicated by the power source/battery). This consumes electrical energy to produce rotation, whereas the graph represents an output voltage.
+    *   **D:** Shows a generator using a **split-ring commutator**. As the coil rotates through the vertical position (where the magnetic flux change is momentarily zero), the split-ring commutator reverses the connections to the external circuit. This reversal happens exactly when the induced EMF would have become negative, effectively "flipping" the negative half of the sine wave into the positive region. This results in the unidirectional, pulsating output shown in the graph.
+
+**Summary:** The split-ring commutator acts as a mechanical rectifier, converting the induced AC into pulsating DC.
+
+### QUESTION_TYPE
+Multiple choice

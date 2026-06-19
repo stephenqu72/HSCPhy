@@ -1,0 +1,20 @@
+To achieve full marks on this 5-mark HSC-style question, you need to link the physical principles of electrical power transmission to the relevant mathematical formulas.
+
+### Answer
+Power loss in transmission lines occurs primarily due to heating as a result of resistance in the wires. The power lost as heat is given by the equation:
+$$P_{\text{loss}} = I^2 R$$
+where $I$ is the current and $R$ is the resistance of the transmission lines.
+
+Because the power output from the power station is constant and defined by $P = VI$, increasing the voltage ($V$) by a factor of $n$ results in a decrease in current ($I$) by the same factor $n$. Since power loss is proportional to the **square** of the current ($I^2$), reducing the current significantly reduces the energy lost as heat. 
+
+For example, if the voltage is stepped up by a factor of 10, the current is reduced by a factor of 10, which reduces the power loss by a factor of $10^2 = 100$. Therefore, step-up transformers are used to increase the voltage to very high levels for long-distance transmission, minimizing $I$ and effectively reducing $P_{\text{loss}}$. Finally, step-down transformers are used at the destination to lower the voltage to a safe level for consumer use.
+
+### How to solve it
+1.  **Identify the goal:** The question asks "how power loss is reduced." You must focus on the physics of resistive heating ($I^2R$ losses).
+2.  **Define the relationship:** Start by stating the power loss equation: $P_{\text{loss}} = I^2 R$.
+3.  **Connect to transmission:** Explain that $R$ (the resistance of the wires) is fixed. Therefore, to minimize $P_{\text{loss}}$, you must minimize $I$.
+4.  **Incorporate the transformer:** Use the power equation $P = VI$. Explain that for a constant power output, increasing the voltage ($V$) forces the current ($I$) to decrease.
+5.  **Emphasize the square relationship:** Explicitly state that because the current is squared in the power loss formula, even a small reduction in current leads to a massive reduction in wasted energy. This is the crucial concept examiners look for to award the final marks.
+
+###QUESTION_TYPE
+Short answer

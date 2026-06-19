@@ -1,0 +1,25 @@
+To solve this problem, we apply the principles of simple harmonic motion (SHM) and electromagnetic induction ($emf = Blv$).
+
+### Part (a) and (b) Solutions
+*   **Velocity:** Velocity $v$ is the derivative of displacement $d$ with respect to time ($v = \frac{dd}{dt}$). Since $d$ is a cosine function, $v$ will be a negative sine function. At $t=0$, $d$ is at a maximum, so $v=0$. As the rod moves downward, velocity becomes negative. The graph should be a sine wave starting at the origin and heading downwards into the negative region.
+*   **EMF:** Since the rod is moving through a constant magnetic field, the induced $emf = Blv$. Because $B$ and $l$ are constant, $emf$ is directly proportional to $v$. Therefore, the graph of $emf$ will have the **exact same shape and phase** as the velocity graph.
+
+### Part (c) Calculation
+We use the formula for motional $emf$: $\varepsilon = Blv$.
+1.  **Identify variables:**
+    *   $l = 12.5\text{ cm} = 0.125\text{ m}$
+    *   $B = 1.5\text{ T}$
+    *   Amplitude $A = 0.16\text{ cm} = 0.0016\text{ m}$ (Total displacement is $0.32\text{ cm}$, so amplitude is half that).
+    *   Frequency $f = 1.5\text{ Hz}$
+2.  **Calculate maximum velocity ($v_{max}$):**
+    For SHM, $v_{max} = A\omega = A(2\pi f)$.
+    $$v_{max} = 0.0016 \times 2 \times \pi \times 1.5 \approx 0.01508\text{ m/s}$$
+3.  **Calculate $emf_{max}$:**
+    $$\varepsilon_{max} = B \times l \times v_{max}$$
+    $$\varepsilon_{max} = 1.5 \times 0.125 \times 0.01508 \approx 0.00283\text{ V} \text{ or } 2.83\text{ mV}$$
+
+### Part (d) Description
+If the frequency is halved ($f_{new} = 0.5f$), the angular frequency $\omega$ is also halved. Since $v_{max} = A\omega$, the maximum velocity of the rod is halved. Because $emf = Blv$, the maximum induced $emf$ will also be **halved**. Additionally, the frequency of the oscillation of the $emf$ will be halved, meaning the period of the $emf$ wave will double.
+
+###QUESTION_TYPE
+Calculation question

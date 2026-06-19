@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To solve this problem, we need to analyze the physics of an AC generator:
+
+1.  **Nature of the Generator:** The diagram shows an AC generator because it utilizes **slip rings** (the two complete circular rings). Slip rings maintain a continuous connection between the rotating coil and the external circuit, meaning the direction of the induced current reverses every half-rotation. This produces an alternating current (AC).
+2.  **Initial Position:** In the diagram, the coil is in a **vertical position** (parallel to the magnetic field lines). At this position, the magnetic flux passing through the coil is zero. According to Faraday’s Law and Lenz’s Law, the induced EMF ($\varepsilon$) is proportional to the rate of change of magnetic flux ($\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$). When the coil is parallel to the field, the rate of change of flux is at its **maximum**, which means the induced current is also at its **maximum** value at $t=0$.
+3.  **Analyzing the Waveform:**
+    *   Since it is an AC generator, we expect a sinusoidal wave that alternates between positive and negative values.
+    *   Because the current starts at a maximum value at $t=0$, the graph should look like a **cosine wave** (starts at a peak, crosses zero at $1/4$ of a revolution, reaches a trough at $1/2$ a revolution).
+    *   The question states the coil rotates through **2 full revolutions**. One full revolution corresponds to one full cycle of the AC wave. Therefore, the graph must show two complete wave cycles over the time interval.
+4.  **Evaluating Options:**
+    *   (A) and (B) only show one cycle and drop to zero, which does not represent the output of a continuously rotating generator.
+    *   (D) shows a decreasing amplitude (damping), which is not typical for an ideal generator.
+    *   **(C)** shows two complete sinusoidal cycles, which correctly represents the output of an AC generator over two revolutions.
+
+### QUESTION_TYPE
+Multiple choice

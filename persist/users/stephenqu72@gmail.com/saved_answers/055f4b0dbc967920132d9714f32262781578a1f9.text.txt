@@ -1,0 +1,33 @@
+To secure full marks on a 9-mark response like this, you must demonstrate a deep understanding of the energy transformations, the function of individual components, and the application of electromagnetic principles (specifically the Motor Effect and Back EMF).
+
+### Model Answer
+
+**Energy Transformations**
+A DC motor converts electrical energy into mechanical (kinetic) energy. This process is driven by the interaction of magnetic fields.
+
+**Components and Operation**
+1.  **Stator (Permanent Magnets):** Provides a constant external magnetic field.
+2.  **Rotor (Armature coil):** A current-carrying coil placed within the magnetic field. When current flows, the **Motor Effect** creates a force on the sides of the coil given by $F = BIL \sin(\theta)$.
+3.  **Split-ring Commutator:** This is crucial for continuous rotation. Every half-turn, it reverses the direction of the current in the coil. This ensures that the torque remains in the same direction, preventing the coil from oscillating and instead allowing it to spin continuously.
+4.  **Brushes:** Carbon blocks that maintain electrical contact with the rotating commutator.
+
+**Physics of Starting the Motor**
+When the motor is first switched on, it is stationary. At this moment, the resistance to current flow is purely the ohmic resistance ($R$) of the coil. Since $I = \frac{V}{R}$, the initial current is very high. This produces a large starting torque, which is necessary to overcome the inertia of the rotor.
+
+**Physics of Running the Motor (Back EMF)**
+As the coil begins to rotate, it experiences a changing magnetic flux, which induces an EMF in the coil according to **Faraday's Law**. By **Lenz’s Law**, this induced EMF (known as **Back EMF**, $\varepsilon$) acts in opposition to the supply voltage ($V$). The net voltage across the motor becomes $(V - \varepsilon)$. As the motor speeds up, the rate of change of flux increases, so $\varepsilon$ increases. Consequently, the net current decreases to a steady value required to maintain the motor's speed against its load. If the motor is stalled, $\varepsilon$ drops to zero, potentially causing the current to spike and overheat the windings.
+
+***
+
+### How to Solve This Type of Question
+1.  **Analyze the Command Term:** "Analyse" requires you to identify the components and their roles, then link them to the underlying physical principles.
+2.  **Structure:** Use headings or clear paragraphs.
+    *   Start with the energy transformation ($Electrical \rightarrow Mechanical$).
+    *   Define the role of each component (Stator, Rotor, Commutator, Brushes).
+    *   Explain the *Motor Effect* ($F = BIL$) for movement.
+    *   Explain the *Back EMF* for steady-state operation.
+3.  **Check the Marks:** At 9 marks, you are expected to write a mini-essay. Ensure you explicitly mention **Faraday's Law** and **Lenz's Law** to get into the top band for "Physics knowledge."
+4.  **Keywords:** Always include: *Motor Effect, Back EMF, Commutator, Torque, Lenz's Law, Faraday's Law, and Current.*
+
+###QUESTION_TYPE
+Essay

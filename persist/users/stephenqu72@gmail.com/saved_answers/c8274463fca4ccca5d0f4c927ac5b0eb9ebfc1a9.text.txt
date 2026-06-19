@@ -1,0 +1,33 @@
+To solve this problem, we use Snell's Law and the relationship between the speed of light in a vacuum and a medium.
+
+### 1. Identify the given information:
+*   Angle of incidence ($i$) = $60^\circ$
+*   Speed of light in vacuum ($c$) $\approx 3.00 \times 10^8 \text{ ms}^{-1}$
+*   Speed of blue light in glass ($v_b$) = $1.90 \times 10^8 \text{ ms}^{-1}$
+*   Speed of red light in glass ($v_r$) = $1.95 \times 10^8 \text{ ms}^{-1}$
+
+### 2. Determine the refractive indices ($n$):
+The refractive index of a medium is given by $n = \frac{c}{v}$.
+*   For blue light: $n_b = \frac{3.00 \times 10^8}{1.90 \times 10^8} \approx 1.5789$
+*   For red light: $n_r = \frac{3.00 \times 10^8}{1.95 \times 10^8} \approx 1.5385$
+
+### 3. Apply Snell's Law:
+Snell's Law states: $n_1 \sin(i) = n_2 \sin(r)$. Since the light travels from air ($n_1 \approx 1$) into glass:
+$$\sin(r) = \frac{\sin(60^\circ)}{n}$$
+
+*   **For blue light:**
+    $$\sin(r_b) = \frac{\sin(60^\circ)}{1.5789} \approx \frac{0.8660}{1.5789} \approx 0.5485$$
+    $$r_b = \arcsin(0.5485) \approx 33.26^\circ$$
+
+*   **For red light:**
+    $$\sin(r_r) = \frac{\sin(60^\circ)}{1.5385} \approx \frac{0.8660}{1.5385} \approx 0.5630$$
+    $$r_r = \arcsin(0.5630) \approx 34.26^\circ$$
+
+### 4. Calculate angular separation:
+The angular separation ($\Delta\theta$) is the difference between the angles of refraction:
+$$\Delta\theta = |r_r - r_b| = 34.26^\circ - 33.26^\circ = 1.00^\circ$$
+
+**Final Answer:** The angular separation between the red and blue rays is approximately $1.00^\circ$.
+
+###QUESTION_TYPE
+Calculation question

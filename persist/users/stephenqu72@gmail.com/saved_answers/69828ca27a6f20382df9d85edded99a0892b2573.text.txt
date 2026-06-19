@@ -1,0 +1,49 @@
+To solve this problem, we use the principles of double-slit interference.
+
+### Given Data:
+*   Wavelength ($\lambda$) = $854\text{ nm} = 854 \times 10^{-9}\text{ m}$
+*   Slit separation ($d$) = $0.200\text{ mm} = 0.200 \times 10^{-3}\text{ m} = 2.00 \times 10^{-4}\text{ m}$
+*   Screen distance ($L$) = $2.5\text{ m}$
+*   Order ($n$) = $1$
+
+---
+
+### (a) Determine the angle of the first-order maximum
+
+The condition for constructive interference (maxima) in a double-slit experiment is given by:
+$$d \sin(\theta) = n\lambda$$
+
+Rearranging to solve for $\theta$:
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\sin(\theta) = \frac{1 \times 854 \times 10^{-9}\text{ m}}{2.00 \times 10^{-4}\text{ m}}$$
+$$\sin(\theta) = 0.00427$$
+$$\theta = \arcsin(0.00427) \approx 0.2446^\circ$$
+
+**Answer:** The angle is approximately **$0.245^\circ$**.
+
+---
+
+### (b) Calculate the distance on the screen between the first-order maximum and the central maximum
+
+The distance ($y$) on the screen can be found using the relationship:
+$$\tan(\theta) = \frac{y}{L}$$
+$$y = L \tan(\theta)$$
+
+Using the angle found in part (a):
+$$y = 2.5 \times \tan(0.2446^\circ)$$
+$$y \approx 2.5 \times 0.00427003 \approx 0.010675\text{ m}$$
+
+Converting to millimetres:
+$$y \approx 10.7\text{ mm}$$
+
+**Answer:** The distance is approximately **$10.7\text{ mm}$**.
+
+---
+
+### How to solve it:
+1.  **Identify the physics principle:** Since we are dealing with double-slit interference, use the formula $d \sin(\theta) = n\lambda$ for maxima.
+2.  **Unit conversion:** Always ensure your units are in SI base units (metres) before plugging them into the formula.
+3.  **Use trigonometry:** For part (b), remember that while small-angle approximation ($\sin(\theta) \approx \tan(\theta)$) is often valid for these problems, using the explicit tangent function ensures higher precision.
+
+###QUESTION_TYPE
+Calculation question

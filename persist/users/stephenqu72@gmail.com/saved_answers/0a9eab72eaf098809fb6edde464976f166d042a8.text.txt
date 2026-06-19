@@ -1,0 +1,39 @@
+### Question 17 Analysis
+
+**Answer: B**
+
+**Explanation:**
+To solve this, we use the double-slit interference formula for the fringe separation (distance between adjacent maxima):
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ is the fringe separation $= 3.1 \text{ mm} = 3.1 \times 10^{-3} \text{ m}$
+*   $\lambda$ is the wavelength $= 1064 \text{ nm} = 1064 \times 10^{-9} \text{ m}$
+*   $L$ is the distance to the screen $= 1.912 \text{ m}$
+*   $d$ is the slit separation
+
+Rearranging the formula to solve for $d$:
+$$d = \frac{\lambda L}{\Delta x}$$
+
+Substitute the values:
+$$d = \frac{(1064 \times 10^{-9} \text{ m}) \times (1.912 \text{ m})}{3.1 \times 10^{-3} \text{ m}}$$
+$$d \approx 6.564 \times 10^{-4} \text{ m}$$
+
+Converting to micrometers ($\mu\text{m}$):
+$$6.564 \times 10^{-4} \text{ m} = 656.4 \times 10^{-6} \text{ m} = 656.4 \text{ }\mu\text{m}$$
+
+Comparing this to the options, **B** ($65.6 \text{ }\mu\text{m}$) seems to have a typo in the provided options compared to the calculation, but mathematically, based on the physics principles, the result is $\approx 656 \text{ }\mu\text{m}$, which corresponds to option **C**. 
+*(Self-Correction: Re-evaluating the arithmetic: $1064 \times 10^{-9} \times 1.912 / 3.1 \times 10^{-3} = 6.56 \times 10^{-4}$. Since $1 \text{ mm} = 1000 \text{ }\mu\text{m}$, then $0.656 \text{ mm} = 656 \text{ }\mu\text{m}$. Therefore, **C** is the correct answer.)*
+
+***
+
+### Question 18 Analysis
+
+**Answer: C**
+
+**Explanation:**
+1.  **Type of error:** The measurement is taken using a ruler where the start point ($0$) and end point of the fringe are subjective based on the observer's judgment of the center of the blurry interference bands. This is a classic **observer error** (a form of systematic or human-induced measurement error).
+2.  **Amount of error:** In physics experiments, the uncertainty of a ruler is typically taken as half the smallest scale division. The ruler shows $1 \text{ mm}$ markings. Half of $1 \text{ mm}$ is $0.5 \text{ mm}$. Looking at the diagram, the distance $\Delta x$ covers slightly more than $3.1 \text{ mm}$ (it extends slightly past the $3.1$ mark). By estimating it at $3.1 \text{ mm}$, the measurement has been **overestimated** relative to the precise visual markings if one considers the limitations of the human eye in reading the scale. 
+
+###QUESTION_TYPE
+Multiple choice

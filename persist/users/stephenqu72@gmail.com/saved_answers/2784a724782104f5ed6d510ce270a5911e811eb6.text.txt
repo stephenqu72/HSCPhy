@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+To solve these problems, we use the principles of electromagnetism related to current-carrying wires.
+
+**Given values:**
+- Current in wire X ($I_1$) = $3.0\text{ A}$
+- Current in wire Y ($I_2$) = $5.0\text{ A}$
+- Distance ($r$) = $0.17\text{ m}$
+- Length ($L$) = $4.6\text{ m}$
+- Permeability of free space ($\mu_0$) = $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+---
+
+#### Part (b): Determine the magnitude of the magnetic field strength on wire Y caused by wire X.
+*(Note: It is logical to solve part (b) first, as the force depends on this magnetic field).*
+
+The magnetic field ($B$) produced by a long straight wire at a distance $r$ is given by:
+$$B = \frac{\mu_0 I_1}{2\pi r}$$
+
+Substitute the known values:
+$$B = \frac{(4\pi \times 10^{-7}) \times 3.0}{2\pi \times 0.17}$$
+$$B = \frac{2 \times 10^{-7} \times 3.0}{0.17}$$
+$$B \approx 3.53 \times 10^{-6}\text{ T}$$
+
+**Answer:** The magnetic field strength is approximately $3.5 \times 10^{-6}\text{ T}$.
+
+---
+
+#### Part (a): Determine the magnitude and direction of the force on wire Y caused by wire X.
+
+**Magnitude:**
+The force ($F$) on a wire of length $L$ in a magnetic field is $F = B I_2 L \sin(\theta)$. Since the wire is perpendicular to the field, $\sin(90^\circ) = 1$. Using the values from part (b):
+$$F = (3.53 \times 10^{-6}) \times 5.0 \times 4.6$$
+$$F \approx 8.12 \times 10^{-5}\text{ N}$$
+
+**Direction:**
+Using the right-hand grip rule, wire X creates a magnetic field that points into the page at the position of wire Y. Applying the right-hand push rule (Fleming's Left-Hand Rule for force on a current-carrying wire), with current $I_2$ upwards and field $B$ into the page, the force points towards wire X. Since the currents are in the same direction, the wires **attract** each other.
+
+**Answer:** The magnitude of the force is $8.1 \times 10^{-5}\text{ N}$ and the direction is attractive (towards wire X).
+
+###QUESTION_TYPE
+Calculation question

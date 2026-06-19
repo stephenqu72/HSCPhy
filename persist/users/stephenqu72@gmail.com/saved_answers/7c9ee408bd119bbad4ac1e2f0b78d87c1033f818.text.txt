@@ -1,0 +1,25 @@
+To solve this physics problem, we need to understand the relationship between the torque exerted on a current-carrying coil in a magnetic field and its angle of rotation.
+
+### Explanation
+
+1.  **The Formula for Torque:** The torque $\tau$ on a current-carrying loop in a magnetic field is given by the formula:
+    $$\tau = nIAB \sin(\theta)$$
+    where $\theta$ is the angle between the **normal to the plane of the coil** and the magnetic field lines.
+
+2.  **Initial Position:** At $0^\circ$, the plane of the coil is parallel to the magnetic field. This means the *normal* to the coil is perpendicular to the field ($90^\circ$ to the field lines). However, in standard textbook diagrams for a DC motor, $0^\circ$ is usually defined where the torque is at a maximum (the coil is flat). Let's look at the behavior:
+    *   When the coil is parallel to the magnetic field, the torque is at its maximum ($\sin(90^\circ) = 1$).
+    *   As it rotates $90^\circ$, it reaches a position where the plane of the coil is perpendicular to the field (the normal is parallel to the field). Here, $\sin(0^\circ) = 0$, so the torque is zero.
+    *   Because of the split-ring commutator in a D.C. motor, the direction of the current reverses every half-turn. This ensures that the torque continues to push the motor in the same direction, rather than reversing the torque.
+
+3.  **Analyzing the Graph:**
+    *   Starting at $0^\circ$ (maximum torque), the torque decreases to $0$ at $90^\circ$.
+    *   As it continues to $180^\circ$, the current flips, keeping the torque in the same direction, and the torque rises back to its maximum.
+    *   This cycle repeats every $180^\circ$. Therefore, we expect a rectified sine wave pattern that hits $0$ at $90^\circ, 270^\circ, 450^\circ,$ and $630^\circ$, and reaches a maximum at $0^\circ, 180^\circ, 360^\circ, 540^\circ,$ and $720^\circ$.
+
+Comparing this to the options:
+*   Graph (D) perfectly matches this "full-wave rectified" behavior where the torque is always positive and peaks twice per revolution.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

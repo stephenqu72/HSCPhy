@@ -1,0 +1,28 @@
+To determine the correct adjustment, let's look at the physics behind Foucault’s method for measuring the speed of light ($c$).
+
+### Physics Explanation
+
+1.  **The Time Taken:** Light travels from the rotating mirror to the fixed mirror and back. If the distance between the mirrors is $d$, the total distance traveled is $2d$. The time taken for this round trip is:
+    $$t = \frac{2d}{c}$$
+
+2.  **The Angle of Rotation:** While the light is in transit, the rotating mirror spins at an angular velocity of $\omega$. The angle $\theta$ through which the mirror rotates during time $t$ is:
+    $$\theta = \omega \cdot t$$
+    Substituting the expression for $t$:
+    $$\theta = \frac{2d\omega}{c}$$
+
+3.  **Analyzing the Variables:**
+    *   To **increase the size of the angle ($\theta$)**, we can either increase the distance $d$ or increase the angular velocity $\omega$.
+    *   The question asks for the **easiest adjustment** that makes the measurement more precise by reducing uncertainty. 
+    *   Increasing the angular velocity ($\omega$) is mechanically difficult and introduces high-frequency vibrations and stability issues. 
+    *   Increasing the distance ($d$) between the mirrors is a standard and effective way to increase the time $t$ light spends in transit, which directly results in a larger, more measurable angle $\theta$ without requiring complex mechanical changes to the rotating apparatus.
+
+### Evaluation of Options
+*   **(A) Increase the distance between the mirrors:** Correct. Increasing $d$ increases $\theta$, making the measurement easier to read and reducing the percentage uncertainty.
+*   **(B) Decrease the distance:** This would decrease $\theta$, making the angle harder to measure and increasing uncertainty.
+*   **(C) Increase the rotational velocity:** While this mathematically increases $\theta$, it is physically more complex to implement than simply moving the fixed mirror further away.
+*   **(D) Decrease the rotational velocity:** This would decrease $\theta$ and increase uncertainty.
+
+**Answer:** (A)
+
+###QUESTION_TYPE
+Multiple choice

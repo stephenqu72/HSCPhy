@@ -1,0 +1,31 @@
+As an HSC Physics teacher, here is how you should structure your response to this 7-mark question.
+
+### (a) Describe one application of this type of transformer. (2 marks)
+**Answer:** A step-up transformer is used at power stations to increase the voltage and decrease the current for the transmission of electricity across the electrical grid. This minimizes energy loss due to heating ($P = I^2R$) in the transmission lines.
+
+**Explanation:** You need to name a specific application (e.g., power transmission or domestic appliances like phone chargers) and link it to the core function of the transformer (changing voltage to improve efficiency or for safety).
+
+---
+
+### (b) Show that for an ideal transformer $\frac{V_p}{V_s} = \frac{N_p}{N_s}$. (2 marks)
+**Answer:** 
+1. Faraday's Law of induction states that the induced EMF in a coil is proportional to the rate of change of magnetic flux: $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$.
+2. In an ideal transformer, the magnetic flux $\Phi$ is shared perfectly between the coils. Therefore:
+$$V_p = N_p \frac{\Delta\Phi}{\Delta t} \quad \text{and} \quad V_s = N_s \frac{\Delta\Phi}{\Delta t}$$
+3. Dividing the two equations:
+$$\frac{V_p}{V_s} = \frac{N_p (\Delta\Phi / \Delta t)}{N_s (\Delta\Phi / \Delta t)} = \frac{N_p}{N_s}$$
+
+**Explanation:** This is a standard derivation. Always start with Faraday's Law and emphasize that in an "ideal" transformer, there is no flux leakage, meaning the rate of change of flux is identical for both the primary and secondary coils.
+
+---
+
+### (c) Outline three methods used to increase the efficiency of real transformers. (3 marks)
+**Answer:**
+1. **Laminated Cores:** The iron core is made of thin, insulated sheets (laminations) rather than a solid block. This increases the electrical resistance of the core, which significantly reduces eddy current losses.
+2. **Soft Iron Core:** Using "soft" magnetic materials that are easily magnetized and demagnetized reduces energy loss due to magnetic hysteresis (the energy required to flip magnetic domains).
+3. **Thick Copper Winding:** Using low-resistance, thick copper wire for the windings minimizes energy loss due to the heating effect of the current (Joule heating/resistive losses).
+
+**Explanation:** To get full marks, you must mention both the technique and the specific physical phenomenon it mitigates (e.g., laminations reduce eddy currents).
+
+###QUESTION_TYPE
+Short answer

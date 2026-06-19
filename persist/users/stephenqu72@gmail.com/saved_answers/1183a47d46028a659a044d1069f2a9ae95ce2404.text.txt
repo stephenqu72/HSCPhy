@@ -1,0 +1,33 @@
+To solve this problem, we must understand the relationship between the induced electromotive force (emf) and the rotational speed of a coil in a magnetic field.
+
+### Physics Principles
+The induced emf $\varepsilon$ in a rotating coil is given by the formula derived from Faraday’s Law:
+$$\varepsilon = N B A \omega \sin(\omega t)$$
+where:
+*   $N$ is the number of turns
+*   $B$ is the magnetic field strength
+*   $A$ is the area of the coil
+*   $\omega$ is the angular velocity (rotational speed)
+*   $t$ is time
+
+Since the angle $\theta = \omega t$, we can express the emf as a function of the angle:
+$$\varepsilon = \varepsilon_{max} \sin(\theta)$$
+where the peak emf $\varepsilon_{max} = N B A \omega$.
+
+### Step-by-Step Analysis
+1.  **Analyze the effect on $\varepsilon_{max}$:** The peak emf is directly proportional to the angular velocity ($\omega$). If the speed at which the coil is turned is **halved**, the new angular velocity $\omega' = \frac{1}{2}\omega$. Therefore, the new peak emf will be:
+    $$\varepsilon_{max}' = N B A (\frac{1}{2}\omega) = \frac{1}{2} \varepsilon_{max}$$
+    This means the amplitude of the wave on the graph should be **half the height** of the original graph.
+
+2.  **Analyze the effect on the x-axis (angle):** The question asks for the graph of emf versus **angle**, not time. The original graph completes one full cycle every $360^\circ$ (from $0^\circ$ to $360^\circ$). Because the sine function depends on the angle $\theta$ relative to the magnetic field, a full rotation of the coil will **always** result in a full sine wave cycle, regardless of how fast you turn it. Therefore, the cycle will still complete at $360^\circ$. 
+
+3.  **Evaluate the options:**
+    *   (A) Shows an increase in frequency (incorrect, as we are plotting against angle).
+    *   (B) Shows an incorrect phase shift or period.
+    *   (C) Shows the amplitude reduced by half, while the period relative to the angle remains the same (the peak is still at $90^\circ$ and the crossing point is still at $180^\circ$). This matches our derivation.
+    *   (D) Shows an increase in amplitude (incorrect).
+
+**Conclusion:** The correct graph is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

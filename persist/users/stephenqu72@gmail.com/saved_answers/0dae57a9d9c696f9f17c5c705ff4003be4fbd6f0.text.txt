@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(C)**.
+
+---
+
+### Explanation
+To solve this question, we need to understand the physics of electromagnetic induction as it applies to braking systems:
+
+1.  **How Magnetic Braking Works:** When a conducting material (like a metal wheel or disc) moves through a non-uniform magnetic field, the changing magnetic flux experienced by the conductor induces electromotive force (EMF). According to **Faraday's Law** and **Lenz's Law**, this induced EMF causes circular loops of current to flow within the conductor, known as **eddy currents**.
+2.  **Lenz's Law:** Lenz’s Law states that the direction of the induced current creates a magnetic field that opposes the motion that caused it. This creates a magnetic drag force that slows down the vehicle.
+3.  **Energy Transformation:** The kinetic energy of the moving vehicle is used to do work against the magnetic drag force. The electrical energy associated with the eddy currents is dissipated as **heat energy** due to the internal resistance of the material (Joule heating, $P = I^2R$).
+
+**Why the other options are incorrect:**
+*   **(A) Elastic potential energy:** This relates to springs or stretching materials, not magnetic braking.
+*   **(B) Magnetic fields:** While magnetic fields are involved in the process, they are not "generated" as a form of energy conversion from kinetic energy. The field exists as a prerequisite for the braking to occur.
+*   **(D) Gravitational potential energy:** This relates to vertical position and height, which is not involved in the horizontal braking process of a car.
+
+Therefore, the kinetic energy is converted into electrical energy in the form of **eddy currents**, which is ultimately dissipated as **heat energy**.
+
+###QUESTION_TYPE
+Multiple choice

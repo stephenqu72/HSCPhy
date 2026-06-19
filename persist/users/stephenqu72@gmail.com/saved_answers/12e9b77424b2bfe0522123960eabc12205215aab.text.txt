@@ -1,0 +1,23 @@
+To achieve full marks on this HSC Physics question, you need to identify a specific cause of energy loss in a transformer and explain the engineering solution used to mitigate it.
+
+### Answer
+**Reason for inefficiency:** Resistance within the copper windings (Joule heating).
+
+**How it is minimised:** Transformers use thick copper wires with low resistivity for the windings. By increasing the cross-sectional area of the wire, the resistance $R$ is reduced (based on the formula $R = \rho \frac{L}{A}$), which minimizes the power loss given by $P = I^2R$ when current flows through the coils.
+
+*(Alternative acceptable answer: Magnetic leakage/flux leakage. This is minimized by winding the primary and secondary coils on top of each other on a common soft iron core.)*
+
+---
+
+### How to solve this
+1.  **Identify the Requirement:** The question asks for two things: an "outline" (briefly identify) of a reason for inefficiency and a "description" (how/why it works) of the minimization technique.
+2.  **Recall Core Concepts:** In HSC Physics, common reasons for energy loss in transformers include:
+    *   **Resistance of coils:** Solved by using low-resistance, thick copper wire.
+    *   **Flux leakage:** Solved by winding coils on a common iron core or layering them.
+    *   **Hysteresis losses:** Solved by using "soft" iron cores that are easily magnetized and demagnetized.
+3.  **Structure the Answer:**
+    *   **Mark Allocation:** This is a 3-mark question. Allocate 1 mark for identifying the cause and 2 marks for a clear, technical description of the minimization process.
+    *   **Technical Language:** Ensure you use correct terminology like "resistivity," "cross-sectional area," or "magnetic flux" to ensure you secure all available marks. 
+
+###QUESTION_TYPE
+Short answer

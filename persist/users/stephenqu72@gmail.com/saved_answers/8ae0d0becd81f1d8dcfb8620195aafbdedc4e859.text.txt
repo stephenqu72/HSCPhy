@@ -1,0 +1,30 @@
+To find the distance between the slits, we use the double-slit interference formula for constructive interference (maxima):
+
+$$d \sin \theta = m \lambda$$
+
+### Given Values:
+*   Wavelength ($\lambda$) = $425\text{ nm} = 425 \times 10^{-9}\text{ m}$
+*   Order of maximum ($m$) = $1$ (for the "first maximum")
+*   Angle of deflection ($\theta$) = $5^{\circ}$
+
+### Step-by-Step Calculation:
+
+1.  **Rearrange the formula to solve for $d$ (slit separation):**
+    $$d = \frac{m \lambda}{\sin \theta}$$
+
+2.  **Substitute the known values into the equation:**
+    $$d = \frac{1 \times (425 \times 10^{-9}\text{ m})}{\sin 5^{\circ}}$$
+
+3.  **Perform the calculation:**
+    *   $\sin 5^{\circ} \approx 0.087156$
+    *   $d = \frac{425 \times 10^{-9}}{0.087156}$
+    *   $d \approx 4876.3 \times 10^{-9}\text{ m}$
+    *   $d \approx 4.8763 \times 10^{-6}\text{ m}$
+
+Comparing this to the provided options, it matches **(A) $4.88 \times 10^{-6}\text{ m}$**.
+
+### Explanation for Students:
+In HSC Physics, when dealing with Young's Double Slit Experiment, always ensure your units are in standard SI units (meters). Convert nanometers ($10^{-9}$) to meters immediately to avoid calculation errors. The formula $d \sin \theta = m \lambda$ is valid here because the problem defines the "first maximum" ($m=1$) at a specific diffraction angle. Ensure your calculator is set to **degrees mode** when calculating $\sin 5^{\circ}$.
+
+###QUESTION_TYPE
+Multiple choice

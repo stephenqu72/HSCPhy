@@ -1,0 +1,18 @@
+### Answer
+The graph should show two distinct pulses of induced voltage:
+1.  **First pulse:** As the North pole enters the solenoid, a magnetic field is induced to oppose the change (Lenz’s Law). This results in a negative voltage pulse (assuming the winding orientation relative to the data logger terminals).
+2.  **Second pulse:** As the magnet leaves the solenoid, the magnetic flux decreases. The solenoid induces a magnetic field to attract the departing magnet, resulting in a **positive** voltage pulse.
+3.  **Key features:** The second pulse will have a **greater amplitude** and a **shorter duration** than the first because the magnet is accelerating due to gravity, meaning the rate of change of flux ($\Delta\Phi/\Delta t$) is higher as it exits.
+
+### Explanation
+To solve this, we apply **Faraday’s Law** and **Lenz’s Law**:
+
+1.  **Faraday's Law:** The induced EMF is given by $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$. This tells us that the voltage is proportional to the rate of change of magnetic flux.
+2.  **Phase 1 (Entering):** As the North pole moves toward the coil, the magnetic flux through the coil increases. Lenz’s Law states the coil will induce a current to create a North pole at the top of the solenoid to repel the incoming magnet. Based on the wire connection shown in the diagram, this produces an initial negative excursion on the data logger.
+3.  **Phase 2 (Exiting):** As the magnet falls through, it accelerates due to gravity. When the North pole moves away from the bottom of the coil, the flux decreases. The coil induces a South pole at the bottom to attract the magnet. This change in flux direction induces an EMF of the opposite polarity (positive).
+4.  **Graphing the features:**
+    *   The **amplitude** of the second peak is larger because the velocity of the magnet is higher, leading to a larger $\Delta\Phi/\Delta t$.
+    *   The **width** of the second peak is narrower because the magnet spends less time in the exit region than the entry region due to its increased speed.
+
+###QUESTION_TYPE
+Other questions

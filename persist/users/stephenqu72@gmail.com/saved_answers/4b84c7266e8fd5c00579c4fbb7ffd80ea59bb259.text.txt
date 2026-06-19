@@ -1,0 +1,20 @@
+To determine the correct pair of graphs, we must apply the principles of electromagnetic induction, specifically Faraday's Law and Lenz's Law.
+
+### Explanation
+
+1.  **Coil X (Primary Circuit):** Coil $X$ is connected directly to a DC battery. When the switch is closed, current rises from zero to a steady value. When the switch is open, current drops to zero. Because it is connected to the battery, the voltage across Coil $X$ will mirror the status of the switch: it will show a voltage (the EMF of the battery) while the switch is closed, and zero otherwise. This matches the "square-wave" pulse shapes seen in graphs **A** and **C**.
+
+2.  **Coil Y (Secondary Circuit):** Coil $Y$ is an isolated circuit connected only to the data logger. According to Faraday’s Law, an induced EMF is generated only when there is a *change* in magnetic flux through the coil ($\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$).
+    *   **At the instant the switch is closed:** The current in Coil $X$ increases rapidly, causing a rapid increase in magnetic flux through the iron core. This induces a sharp voltage spike in Coil $Y$.
+    *   **While the switch is closed:** The current in Coil $X$ is constant. A steady current produces a steady magnetic flux. Since the flux is not changing ($\frac{\Delta \Phi}{\Delta t} = 0$), no EMF is induced in Coil $Y$, so the voltage returns to zero.
+    *   **At the instant the switch is opened:** The current in Coil $X$ drops rapidly to zero, causing a rapid decrease in magnetic flux. This induces another voltage spike in Coil $Y$, but in the opposite direction (due to Lenz's Law).
+
+3.  **Comparing Options:**
+    *   Graph $X$ must show a pulse for the duration the switch is closed.
+    *   Graph $Y$ must show two sharp, opposite-direction spikes (one when the switch closes, one when it opens).
+    *   Option **C** correctly shows a constant voltage pulse for $X$ and the characteristic "spike" behavior for $Y$ (negative spike upon closing, positive spike upon opening).
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

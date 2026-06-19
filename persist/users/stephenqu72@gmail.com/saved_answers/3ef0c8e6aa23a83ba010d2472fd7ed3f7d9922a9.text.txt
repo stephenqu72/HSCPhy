@@ -1,0 +1,21 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+To solve this problem, we must apply **Faraday's Law of Induction** and **Lenz's Law**.
+
+1.  **Loop 1 (Source):** Loop 1 is connected to an alternating current (AC) source. The current in loop 1 varies sinusoidally with time ($I_1 = I_0 \sin(\omega t)$). This alternating current creates a magnetic field that passes through both loops. Because the current in loop 1 is changing, the magnetic flux ($\Phi$) through loop 2 is also changing.
+
+2.  **Loop 2 (Induced):** According to Faraday's Law, an electromotive force (EMF) is induced in loop 2, which is proportional to the negative rate of change of the magnetic flux through it:
+    $$\varepsilon = - \frac{d\Phi}{dt}$$
+    Since the flux $\Phi$ through loop 2 is directly proportional to the current in loop 1 ($I_1$), the induced EMF (and thus the induced current $I_2$) is proportional to the negative derivative of $I_1$:
+    $$I_2 \propto -\frac{d}{dt} (I_0 \sin(\omega t)) = -I_0 \omega \cos(\omega t)$$
+
+3.  **Analyzing the Graphs:**
+    *   Graph (A) is incorrect because electromagnetic induction will definitely produce a current in loop 2 as long as the flux from loop 1 is changing.
+    *   Graph (B) suggests the currents are in phase, which contradicts the derivative relationship.
+    *   Graph (C) suggests the currents are $180^\circ$ out of phase (an inverted sine wave), which would only happen if the flux were a static scalar value, not the rate of change.
+    *   **Graph (D)** shows a phase shift of $90^\circ$ (or $\pi/2$ radians). Mathematically, the derivative of a sine function is a cosine function, and the negative of a cosine function is a sine function shifted by $90^\circ$. Specifically, since $I_2 \propto -\cos(\omega t)$, the current in loop 2 starts at a negative maximum when the current in loop 1 is zero, which is exactly what is depicted in graph (D).
+
+###QUESTION_TYPE
+Multiple choice

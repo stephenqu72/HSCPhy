@@ -1,0 +1,31 @@
+This question assesses your understanding of electromagnetic induction (Faraday's Law) and your ability to design and evaluate a practical scientific investigation.
+
+---
+
+### Part a) Labelled Diagram
+To earn 3 marks, your diagram must be clear and include:
+*   **A solenoid:** A coil of wire.
+*   **A magnet:** A bar magnet shown near or inside the coil.
+*   **Measuring device:** A sensitive galvanometer or a data logger/voltmeter connected to the ends of the solenoid to detect the induced current.
+*   **Labels:** Clearly indicate the "Solenoid," "Bar Magnet," and "Galvanometer."
+
+### Part b) Validity and Reliability
+**Choice:** Speed of the magnet.
+
+*   **Validity (Fair Test):** To ensure the results are valid, you must keep all other variables constant. For this experiment, ensure the distance between the magnet and the coil remains the same during trials, use the same solenoid, and use the same magnet strength. Only the speed of the magnet should be the independent variable.
+*   **Reliability:** To improve reliability, repeat the experiment at least three times for each different speed to calculate an average. Ensure the measurement technique for speed is consistent (e.g., using a photogate or a metronome to time the movement).
+
+### Part c) Effect on Current
+**Explanation:** According to Faraday's Law of Induction, the induced electromotive force (EMF) is proportional to the rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+As the speed of the magnet increases, the rate at which the magnetic field lines cut through the coils of the solenoid increases (decreasing $\Delta t$). Consequently, a higher rate of change of magnetic flux produces a larger induced EMF, which, according to Ohm’s Law ($I = \frac{V}{R}$), results in a **greater magnitude of induced current** in the solenoid.
+
+---
+
+### How to solve it
+1.  **Diagramming:** Always use a ruler. Labeling is just as important as the drawing itself. Ensure the circuit is shown as a complete loop to allow current to flow.
+2.  **Experimental Design:** In HSC Physics, **validity** = "fair test" (controlled variables), and **reliability** = "consistent results" (repetition and averaging). Always link these to the specific context of the question.
+3.  **The Physics:** Remember that induction is about the *rate of change*. If you move the magnet slowly, the flux change is slow, current is low. If you move it fast, the flux change is rapid, current is high.
+
+###QUESTION_TYPE
+Experimental questions

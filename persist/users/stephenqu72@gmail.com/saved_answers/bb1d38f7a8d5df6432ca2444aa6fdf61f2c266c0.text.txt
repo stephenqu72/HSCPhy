@@ -1,0 +1,33 @@
+To solve this problem, we must equate the magnetic torque produced by the current in the galvanometer to the restoring torque of the torsion spring.
+
+### 1. Identify the given variables:
+*   Number of turns, $N = 100$
+*   Dimensions of the square coil: $3.0\text{ cm} \times 3.0\text{ cm} = 0.03\text{ m} \times 0.03\text{ m}$
+*   Area of the coil, $A = 0.03 \times 0.03 = 9.0 \times 10^{-4}\text{ m}^2$
+*   Magnetic field strength, $B = 0.54\text{ T}$
+*   Torsion constant, $k = 0.034\text{ Nm/rad}$
+*   Angle of deflection, $\theta = 18^\circ$
+
+### 2. Convert units:
+The formula for the restoring torque uses radians. We must convert the deflection angle from degrees to radians:
+$$\theta_{\text{rad}} = 18^\circ \times \left( \frac{\pi}{180^\circ} \right) = \frac{\pi}{10} \approx 0.31416\text{ rad}$$
+
+### 3. Set up the equilibrium condition:
+At equilibrium, the magnetic torque ($\tau_m$) equals the restoring torque ($\tau_s$):
+$$\tau_m = \tau_s$$
+The formula for magnetic torque in a radial magnetic field is $\tau_m = NIAB$. The formula for restoring torque is $\tau_s = k\theta$.
+$$NIAB = k\theta$$
+
+### 4. Solve for current ($I$):
+$$I = \frac{k\theta}{NAB}$$
+Substitute the known values:
+$$I = \frac{0.034 \times (\frac{\pi}{10})}{100 \times (9.0 \times 10^{-4}) \times 0.54}$$
+$$I = \frac{0.010681}{0.0486}$$
+$$I \approx 0.21977\text{ A}$$
+
+Rounding to two significant figures, we get $0.22\text{ A}$.
+
+**Answer:** The correct option is **B. 0.22 A**.
+
+###QUESTION_TYPE
+Calculation question

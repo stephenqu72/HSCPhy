@@ -1,0 +1,31 @@
+To find the magnitude of the induced electromotive force (emf), we use Faraday's Law of Induction:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+where $\Phi = BA \cos(\theta)$.
+
+### 1. Identify the given information:
+*   Number of turns, $N = 100$
+*   Radius of the coil, $r = 2.0\text{ cm} = 0.02\text{ m}$
+*   Area of the coil, $A = \pi r^2 = \pi(0.02)^2 \approx 1.2566 \times 10^{-3}\text{ m}^2$
+*   The angle given is between the magnetic field and the **plane of the coil** ($60^\circ$). The angle $\theta$ in the flux formula must be the angle between the magnetic field and the **normal** to the coil. Therefore, $\theta = 90^\circ - 60^\circ = 30^\circ$.
+*   From the graph, the rate of change of the magnetic field ($\frac{\Delta B}{\Delta t}$) is the gradient:
+    $$\frac{\Delta B}{\Delta t} = \frac{0.5 - 0.0}{0.10 - 0.0} = 5.0\text{ T/s}$$
+
+### 2. Set up the calculation:
+Substituting the expression for flux into Faraday's law:
+$$\varepsilon = -N A \cos(\theta) \frac{\Delta B}{\Delta t}$$
+
+Now, plug in the values:
+$$\varepsilon = -(100) \times (1.2566 \times 10^{-3}) \times \cos(30^\circ) \times 5.0$$
+$$\varepsilon = -(100) \times (1.2566 \times 10^{-3}) \times 0.866 \times 5.0$$
+$$\varepsilon \approx -0.544\text{ V}$$
+
+The magnitude is approximately $0.54\text{ V}$. Looking at the options provided, (B) $-0.54\text{ V}$ is the correct answer.
+
+### Summary of steps:
+1.  **Calculate the area** of the circular loop.
+2.  **Determine the effective angle**: Ensure you use the complement of the angle given because the formula requires the angle with the normal.
+3.  **Find the rate of change** of the magnetic field from the slope of the provided graph.
+4.  **Apply Faraday's Law** to compute the induced emf.
+
+###QUESTION_TYPE
+Multiple choice

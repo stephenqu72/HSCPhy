@@ -1,0 +1,22 @@
+To determine which action produces an anticlockwise current, we use **Lenz's Law** and the **Right-Hand Grip Rule**.
+
+### The Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this, we must look at how each action affects the magnetic flux ($\Phi = B A \cos\theta$) through the loop formed by the U-shaped conductor and the metal bar.
+
+*   **Initial State:** The magnetic field is directed into the page (indicated by the crosses). An anticlockwise current, by the Right-Hand Grip Rule, would create an induced magnetic field pointing **out of the page**. According to Lenz’s Law, the induced current must oppose the change in magnetic flux. To produce an "out of page" field, the original "into the page" flux must be **decreasing**.
+
+*   **Evaluating A:** If you **decrease the strength of the magnetic field ($B$)**, the magnetic flux through the loop decreases. The system will attempt to oppose this loss by creating an induced magnetic field pointing into the page (to maintain the status quo). Wait, let's re-verify: If flux *into* the page decreases, the induced field must point *into* the page to oppose the decrease. By the Right-Hand Grip Rule, an induced field pointing *into* the page corresponds to a **clockwise** current.
+
+*   **Correction/Refinement:** Let's look at the options again. If we want an **anticlockwise** current, we need the magnetic field *into* the page to **increase**. However, looking at the options provided:
+    *   **A (Decrease B):** Results in a clockwise current.
+    *   **B (Move bar to the end):** Increases the area ($A$), which increases the inward flux. This requires an outward induced field to oppose it. An outward field creates an **anticlockwise** current.
+
+**Correction:** Upon closer inspection of the physics, option **B** causes an increase in area. An increase in inward flux creates an outward magnetic field to oppose the change. This outward field produces an **anticlockwise** current.
+
+Therefore, **B** is the correct action to produce an anticlockwise current.
+
+###QUESTION_TYPE
+Multiple choice

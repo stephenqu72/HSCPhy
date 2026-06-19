@@ -1,0 +1,43 @@
+### Solution and Explanation
+
+#### Part a) Calculate the kinetic energy of an electron
+To find the kinetic energy ($E_k$), we use the classical formula:
+$$E_k = \frac{1}{2}mv^2$$
+
+**Given:**
+- $m = 9.1 \times 10^{-31}\text{ kg}$
+- $v = 1.72 \times 10^5\text{ m s}^{-1}$
+
+**Calculation:**
+$$E_k = 0.5 \times (9.1 \times 10^{-31}) \times (1.72 \times 10^5)^2$$
+$$E_k = 0.5 \times (9.1 \times 10^{-31}) \times (2.9584 \times 10^{10})$$
+$$E_k \approx 1.346 \times 10^{-20}\text{ J}$$
+
+To convert to electron-volts (eV), divide by the elementary charge ($1.602 \times 10^{-19}\text{ C}$):
+$$\text{Energy in eV} = \frac{1.346 \times 10^{-20}}{1.602 \times 10^{-19}} \approx 0.084\text{ eV}$$
+
+---
+
+#### Part b) Calculate the energy of one X-ray photon
+If the diffraction pattern is the same, the de Broglie wavelength of the electrons must match the wavelength of the X-ray photons ($\lambda_{electron} = \lambda_{photon}$).
+
+**1. Find the electron wavelength ($\lambda$):**
+$$\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{(9.1 \times 10^{-31}) \times (1.72 \times 10^5)}$$
+$$\lambda \approx 4.23 \times 10^{-9}\text{ m}$$
+
+**2. Find the photon energy ($E$):**
+Using $E = \frac{hc}{\lambda}$:
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{4.23 \times 10^{-9}}$$
+$$E \approx 4.70 \times 10^{-17}\text{ J}$$
+
+**Converting to eV:**
+$$E (\text{in eV}) = \frac{4.70 \times 10^{-17}}{1.602 \times 10^{-19}} \approx 293.4\text{ eV}$$
+
+---
+
+### How to solve it:
+1. **Part (a):** Use the standard classical kinetic energy formula. Since the question asks for the answer in eV, always remember to divide the result in Joules by $1.602 \times 10^{-19}$.
+2. **Part (b):** Recognize the principle of wave-particle duality. For the diffraction pattern to be identical, the wavelength of the particles (or waves) hitting the crystal must be identical. Calculate the electron's de Broglie wavelength first, then use the photon energy formula $E = \frac{hc}{\lambda}$ to find the required energy of the X-ray.
+
+###QUESTION_TYPE
+Calculation question

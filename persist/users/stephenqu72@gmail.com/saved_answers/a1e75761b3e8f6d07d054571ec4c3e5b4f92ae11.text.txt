@@ -1,0 +1,35 @@
+To solve this problem, we need to calculate the magnetic flux through a cross-section of an air-filled solenoid.
+
+### Given Data:
+*   Turns per metre ($n$) = $4000 \text{ m}^{-1}$
+*   Area ($A$) = $0.01 \text{ m}^2$
+*   Current ($I$) = $6 \text{ A}$
+*   Permeability of free space ($\mu_0$) = $4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$
+
+### Step-by-Step Solution:
+
+1.  **Calculate the Magnetic Field ($B$):**
+    The magnetic field inside a long, tightly wound solenoid is given by the formula:
+    $$B = \mu_0 n I$$
+    Substitute the known values:
+    $$B = (4\pi \times 10^{-7}) \times 4000 \times 6$$
+    $$B = (4\pi \times 10^{-7}) \times 24000$$
+    $$B = 9.6\pi \times 10^{-3} \text{ T} \approx 0.03016 \text{ T}$$
+
+2.  **Calculate the Magnetic Flux ($\Phi$):**
+    Magnetic flux is defined as the product of the magnetic field and the area through which it passes ($ \Phi = B \cdot A $). Note that for a single cross-section of the solenoid, we use the area of the coil:
+    $$\Phi = B \times A$$
+    $$\Phi = (9.6\pi \times 10^{-3} \text{ T}) \times 0.01 \text{ m}^2$$
+    $$\Phi = 9.6\pi \times 10^{-5} \text{ Wb}$$
+    $$\Phi \approx 3.016 \times 10^{-4} \text{ Wb}$$
+
+Comparing this result to the provided options, the correct answer is **(A)**.
+
+### Explanation:
+*   First, we determine the strength of the magnetic field produced by the solenoid. Because it is an air-filled solenoid, we use $\mu_0$. 
+*   We use the formula for a solenoid field, $B = \mu_0 n I$, where $n$ is the number of turns per unit length.
+*   Once $B$ is found, we calculate the flux $\Phi$ by multiplying $B$ by the cross-sectional area $A$. 
+*   The result $3.01 \times 10^{-4} \text{ Wb}$ matches option (A).
+
+###QUESTION_TYPE
+Multiple choice

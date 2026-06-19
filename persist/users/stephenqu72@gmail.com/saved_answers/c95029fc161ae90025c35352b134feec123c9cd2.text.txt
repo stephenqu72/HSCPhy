@@ -1,0 +1,26 @@
+To solve this HSC Physics problem, we apply the principles of electromagnetism, specifically the motor effect and torque on a current-carrying loop.
+
+### (a) Labeling Terminals A and B
+Using the **Right-Hand Grip Rule** (or Fleming’s Left-Hand Rule) for the motor effect:
+1. The magnetic field runs from North (N) to South (S).
+2. At position $XY$, the force must push the side $XY$ "up" (out of the page/upward) to create a clockwise rotation.
+3. According to Fleming's Left-Hand Rule, with the field pointing left and the force pointing up, the current must flow from $X$ to $Y$.
+4. This means the current flows from brush $B$ into the commutator segment connected to $X$. Thus, **terminal $B$ is positive (+)** and **terminal $A$ is negative (-)**.
+
+### (b) Motor Component
+*   **Component:** The **split-ring commutator**.
+*   **Explanation:** As the coil rotates past the vertical position, the current through the coil would normally reverse direction relative to the magnets, which would reverse the torque and cause the motor to oscillate rather than spin. The split-ring commutator acts as a mechanical switch; it reverses the current flow through the loop every half-turn, ensuring the torque consistently acts in the same rotational direction, allowing continuous rotation.
+
+### (c) Calculation of Torque
+The formula for torque is $\tau = nIAB \cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field.
+Given: $I = 12\text{ A}$, $B = 0.65\text{ T}$, $A = 0.08\text{ m} \times 0.04\text{ m} = 0.0032\text{ m}^2$, $n=1$.
+Maximum torque ($\tau_{max}$) at the horizontal position (Position I):
+$$\tau = 12 \times 0.0032 \times 0.65 = 0.02496\text{ Nm} \approx 0.025\text{ Nm}$$
+
+*   **Position I (Horizontal):** Plane is horizontal, so normal is at $0^\circ$ to the field. $\tau = 0.025\text{ Nm}$. Direction: **Clockwise**.
+*   **Position II ($60^\circ$ from horizontal):** The normal to the coil is at $60^\circ$ to the magnetic field.
+    $$\tau = 0.025 \times \cos(60^\circ) = 0.025 \times 0.5 = 0.0125\text{ Nm}$$. Direction: **Clockwise**.
+*   **Position III ($90^\circ$ from horizontal/Vertical):** The plane is vertical, so the normal is at $90^\circ$ to the field. $\cos(90^\circ) = 0$. $\tau = 0\text{ Nm}$. Direction: **No torque** (the coil coasts through this position due to momentum).
+
+###QUESTION_TYPE
+Calculation question

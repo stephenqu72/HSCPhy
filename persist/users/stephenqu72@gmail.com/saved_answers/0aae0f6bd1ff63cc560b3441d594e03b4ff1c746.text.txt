@@ -1,0 +1,28 @@
+To solve this problem, we need to use the diffraction grating formula provided:
+$$\lambda = d \sin \theta$$
+
+### Step 1: Identify the wavelength ($\lambda$)
+Looking at the provided spectrum, line **P** aligns with the mark between 500 nm and 550 nm. Each small tick mark represents a step of 10 nm ($600 - 650$ covers 5 divisions, so $50 / 5 = 10$). Counting from 500 nm, the line P is at **530 nm**.
+Convert this to meters:
+$$\lambda = 530 \times 10^{-9} \text{ m}$$
+
+### Step 2: Identify the grating spacing ($d$)
+The grating has 300 slits per mm. The distance between slits ($d$) is given as $\frac{1}{300}$ mm.
+First, convert $d$ to meters:
+$$d = \frac{1}{300} \text{ mm} = \frac{1}{300} \times 10^{-3} \text{ m} \approx 3.333 \times 10^{-6} \text{ m}$$
+
+### Step 3: Rearrange and calculate the angle ($\theta$)
+Using the formula $\lambda = d \sin \theta$:
+$$\sin \theta = \frac{\lambda}{d}$$
+$$\sin \theta = \frac{530 \times 10^{-9}}{(\frac{1}{300} \times 10^{-3})}$$
+$$\sin \theta = \frac{530 \times 10^{-9} \times 300}{10^{-3}}$$
+$$\sin \theta = 0.159$$
+
+Now, take the inverse sine to find $\theta$:
+$$\theta = \arcsin(0.159)$$
+$$\theta \approx 9.14^\circ$$
+
+**Final Answer:** The angle of diffraction for line P is approximately **$9.14^\circ$**.
+
+###QUESTION_TYPE
+Calculation question

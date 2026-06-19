@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To minimize the heating effects caused by eddy currents in magnetic cores (such as those in transformers), we must reduce the magnitude of the eddy currents. 
+
+1.  **Understanding Eddy Currents:** Eddy currents are induced currents that flow in closed loops within a conductor (like a solid block of iron) when it is exposed to a changing magnetic field. These currents lead to significant energy loss via heat dissipation (Joule heating), given by $P = I^2R$.
+2.  **The Solution (Lamination):** By breaking up a solid metal core into thin sheets (laminae) and separating these sheets with an insulating material, we increase the electrical resistance to the flow of eddy currents.
+3.  **Orientation:** To be effective, the plane of the laminations must be **parallel** to the direction of the magnetic flux. This ensures that the laminations act as barriers to the potential circular paths of the eddy currents.
+4.  **Analysis of the Diagram:**
+    *   In option **B**, the core is laminated with the insulating layers oriented such that they cut across the path the eddy currents would naturally attempt to take in response to the coiled magnetic field. This orientation effectively forces the eddy currents to stay within thin, high-resistance sections, significantly reducing their magnitude and the resulting heat loss.
+    *   Options A, C, and D do not provide the same optimal lamination density or orientation to break up the current loops effectively for the given coil configuration.
+
+### QUESTION_TYPE
+Multiple choice

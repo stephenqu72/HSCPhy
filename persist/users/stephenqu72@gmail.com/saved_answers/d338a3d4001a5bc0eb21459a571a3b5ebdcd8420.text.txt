@@ -1,0 +1,30 @@
+To answer this question effectively for an HSC Physics exam, you need to address two distinct parts: the qualitative mechanism (the wave model) and the quantitative application (the mathematical relationship).
+
+### Answer
+
+**Qualitative Support for the Wave Model:**
+Thomas Young’s double-slit experiment demonstrated that light, when passed through two closely spaced narrow slits, produces an interference pattern of alternating bright and dark fringes on a screen. This provided clear evidence for the wave nature of light because:
+*   **Constructive Interference:** When light waves from both slits arrive at a point in phase (path difference is a whole number of wavelengths, $n\lambda$), they reinforce each other, creating a bright fringe.
+*   **Destructive Interference:** When waves arrive out of phase (path difference is a half-integer number of wavelengths, $(n + \frac{1}{2})\lambda$), they cancel each other out, creating a dark fringe.
+*   Particles would simply pass through the slits and create two distinct bright bands directly behind the slits; only waves can spread out (diffract) and overlap to form an interference pattern.
+
+**Quantitative Measurements:**
+From the spacing of the fringes on the screen, one can calculate the wavelength ($\lambda$) of the light used. The relationship is given by the formula:
+$$\lambda = \frac{xd}{L}$$
+Where:
+*   $\lambda$ = wavelength of the light.
+*   $x$ = the distance between adjacent bright (or dark) fringes.
+*   $d$ = the distance between the two slits.
+*   $L$ = the perpendicular distance from the slits to the viewing screen.
+
+---
+
+### How to Solve
+1.  **Understand the "Qualitative" requirement:** You must explicitly mention **interference**. If you explain it as "light bending," you are describing diffraction, which is a precursor, but the *interference* of those diffracted waves is what proves the wave nature. Focus on the concept of superposition—the adding and subtracting of wave amplitudes.
+2.  **Understand the "Quantitative" requirement:** You are expected to show the mathematical formula that links the macroscopic, measurable variables ($x, d, L$) to the microscopic property ($\lambda$).
+3.  **Structuring for 6 marks:** 
+    *   Allocate 3 marks for the qualitative explanation (mentioning diffraction, superposition, constructive vs. destructive interference).
+    *   Allocate 3 marks for the quantitative explanation (stating the formula, defining the variables, and explaining that the experiment allows for the determination of the light's wavelength).
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,32 @@
+### Solution and Explanation
+
+#### Part (a): Calculate the wavelength of the helium-neon laser
+
+**1. Identify given values:**
+*   Grating lines $n = 100 \text{ lines/mm} = 100,000 \text{ lines/m}$.
+*   Grating spacing $d = \frac{1}{n} = \frac{1}{100,000} = 1.0 \times 10^{-5} \text{ m}$.
+*   Distance to screen $L = 0.80 \text{ m}$.
+*   From the ruler image, the central maximum is at $50 \text{ mm}$ and the first order ($m=1$) is at $100 \text{ mm}$. Thus, the distance $x = 100 \text{ mm} - 50 \text{ mm} = 50 \text{ mm} = 0.05 \text{ m}$.
+
+**2. Find the angle $\theta$:**
+Using trigonometry, $\tan(\theta) = \frac{x}{L} = \frac{0.05}{0.80} = 0.0625$.
+$\theta = \arctan(0.0625) \approx 3.576^\circ$.
+
+**3. Use the diffraction grating formula:**
+$$d \sin(\theta) = m\lambda$$
+For $m=1$:
+$$\lambda = d \sin(\theta) = (1.0 \times 10^{-5} \text{ m}) \times \sin(3.576^\circ)$$
+$$\lambda \approx 1.0 \times 10^{-5} \times 0.06235 \approx 6.235 \times 10^{-7} \text{ m} = 624 \text{ nm}$$
+
+---
+
+#### Part (b): Effect of using blue laser light
+
+**Prediction:**
+The distances between the central maximum and subsequent maxima will decrease.
+
+**Justification:**
+The diffraction grating equation is $d \sin(\theta) = m\lambda$. Since the grating spacing ($d$) and the order number ($m$) remain constant, $\sin(\theta)$ is directly proportional to the wavelength ($\lambda$). Blue light has a shorter wavelength than the helium-neon (red) light used previously. Because $\lambda$ is smaller, $\sin(\theta)$ must be smaller, which results in a smaller angle $\theta$. Consequently, the spots will appear closer to the central maximum on the screen.
+
+###QUESTION_TYPE
+Calculation question

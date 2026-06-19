@@ -1,0 +1,30 @@
+To solve this problem, we use the principle of conservation of energy for an ideal transformer.
+
+### Answer
+The correct option is **(D) 7.5 A**.
+
+### Explanation
+For a transformer that is $100\%$ efficient, the electrical power input in the primary coil is equal to the electrical power output in the secondary coil. The formula for power is $P = VI$, where $V$ is voltage and $I$ is current.
+
+Therefore:
+$$P_{\text{primary}} = P_{\text{secondary}}$$
+$$V_p I_p = V_s I_s$$
+
+Given the values from the question:
+- Primary voltage ($V_p$) = $500\text{ V}$
+- Primary current ($I_p$) = $1.5\text{ A}$
+- Secondary voltage ($V_s$) = $100\text{ V}$
+- Secondary current ($I_s$) = $?$
+
+Substitute these values into the equation:
+$$(500\text{ V}) \times (1.5\text{ A}) = (100\text{ V}) \times I_s$$
+$$750\text{ W} = 100\text{ V} \times I_s$$
+
+Now, solve for $I_s$:
+$$I_s = \frac{750}{100}$$
+$$I_s = 7.5\text{ A}$$
+
+Since the voltage was stepped down (from $500\text{ V}$ to $100\text{ V}$), the current must step up proportionally to maintain the power balance, resulting in $7.5\text{ A}$.
+
+###QUESTION_TYPE
+Multiple choice

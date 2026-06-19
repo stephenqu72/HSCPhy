@@ -1,0 +1,31 @@
+To find the wavelength of the laser light, we use the formula for Young's double-slit interference, which relates the fringe separation to the slit geometry:
+
+$$x = \frac{m \lambda L}{d}$$
+
+### 1. Identify the given variables:
+*   Slit separation ($d$) = $3.00 \times 10^{-4} \text{ m}$
+*   Distance to screen ($L$) = $2.50 \text{ m}$
+*   Distance to the bright spot ($x$) = $9.50 \times 10^{-3} \text{ m}$
+*   Order of the bright spot ($m$): Looking at the diagram, the distance $9.50 \times 10^{-3} \text{ m}$ covers exactly **two** fringe intervals (from the central spot to the first, then to the second). Therefore, $m = 2$.
+
+### 2. Rearrange the formula to solve for wavelength ($\lambda$):
+$$\lambda = \frac{x d}{m L}$$
+
+### 3. Substitute the values:
+$$\lambda = \frac{(9.50 \times 10^{-3} \text{ m}) \times (3.00 \times 10^{-4} \text{ m})}{2 \times 2.50 \text{ m}}$$
+
+$$\lambda = \frac{28.5 \times 10^{-7}}{5.00} \text{ m}$$
+
+$$\lambda = 5.70 \times 10^{-7} \text{ m}$$
+
+Comparing this result to the given options, it matches exactly with option **B**.
+
+***
+
+### Explanation of the approach:
+1.  **Understand the Geometry:** In an interference pattern, the central bright spot is $m=0$. The next bright spot is $m=1$, and the one after that is $m=2$. Since the diagram indicates the measurement spans the gap between the central spot and the second bright spot, we use $m=2$.
+2.  **Apply the Formula:** The standard formula for constructive interference is $d \sin(\theta) = m\lambda$. For small angles, $\sin(\theta) \approx \tan(\theta) = \frac{x}{L}$, which leads us to the approximation $d \frac{x}{L} = m\lambda$.
+3.  **Calculation:** Plug in the values with careful attention to powers of 10 to ensure the units are consistent (all variables are in meters).
+
+###QUESTION_TYPE
+Multiple choice

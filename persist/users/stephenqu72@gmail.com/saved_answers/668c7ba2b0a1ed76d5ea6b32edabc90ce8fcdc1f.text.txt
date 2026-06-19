@@ -1,0 +1,15 @@
+The correct answer is **C. Lenz's law**.
+
+### Explanation
+
+To solve this, we need to distinguish between the various laws of electromagnetism taught in the HSC Physics syllabus:
+
+1.  **Oersted's Law:** This describes how a current-carrying wire produces a magnetic field. It relates current to the magnetic effect, not the induction of current.
+2.  **Faraday's Law:** This law states that the magnitude of an induced electromotive force (EMF) is directly proportional to the rate of change of magnetic flux through a circuit. It tells us *how much* EMF is produced, but it does not specify the *direction* of the current (this is why the formula is often written as $\varepsilon = - \frac{d\Phi_B}{dt}$).
+3.  **Lenz's Law:** This is the specific law used to determine the **direction** of an induced current. It states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it. This is represented by the negative sign in Faraday's law.
+4.  **Newton's Third Law:** This is a fundamental principle of mechanics (for every action, there is an equal and opposite reaction). While Lenz's law is a consequence of the **Law of Conservation of Energy** (a requirement for energy conservation), it is not the specific law used to predict the direction of current in a circuit.
+
+Therefore, because Lenz's Law specifically defines the direction of induced current to oppose the change in magnetic flux, option **C** is the correct choice.
+
+### QUESTION_TYPE
+Multiple choice

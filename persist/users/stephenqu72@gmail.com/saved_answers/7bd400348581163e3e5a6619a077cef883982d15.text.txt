@@ -1,0 +1,29 @@
+### Answer
+
+To determine the wavelength of the laser, Mr. Warner should follow this procedure:
+
+1.  **Set up the apparatus:** Place the laser so that it shines directly onto a wall or screen. Position the diffraction grating in the path of the laser beam, ensuring the laser hits the grating perpendicularly.
+2.  **Align components:** Use the tape measure to ensure the diffraction grating is at a known distance ($D$) from the screen.
+3.  **Identify diffraction patterns:** The laser light will diffract, creating a series of bright spots on the screen (a central maximum and various higher-order maxima).
+4.  **Take measurements:** Use the tape measure to record the distance from the central maximum (the point where the laser would hit if the grating were absent) to the first-order bright spot ($x_1$) on either side.
+5.  **Calculate the grating spacing:** Convert the grating density (lines per cm) into the slit separation distance ($d$) using the formula $d = \frac{1}{\text{lines per unit length}}$.
+6.  **Geometry:** Use the distance between the grating and the screen ($D$) and the distance from the central spot to the order $n$ spot ($x_n$) to determine the angle of diffraction ($\theta$) using trigonometry, specifically $\tan(\theta) = \frac{x_n}{D}$.
+
+---
+
+### How to solve it (Teacher's explanation)
+
+This question tests your understanding of the **Young’s Double Slit / Diffraction Grating experiment**. To solve this, you must demonstrate a logical, step-by-step experimental process:
+
+*   **Understanding the Physics:** Diffraction gratings follow the relationship $d \sin(\theta) = n\lambda$. To find $\lambda$ (wavelength), you need $d$ (grating spacing), $n$ (the order of the bright spot), and $\theta$ (the angle).
+*   **Measurement requirement:** The question asks for the "necessary measurements." You must measure:
+    *   $D$: The distance from the grating to the screen.
+    *   $x_n$: The distance between the central spot and the $n^{th}$ order bright spot.
+*   **Grating constant:** Note that the grating has $5000$ lines/cm. You must mention that this value is used to calculate the distance between the slits ($d$), which is $1 / 5000$ cm per line. 
+*   **Practical tips for full marks:**
+    *   Always mention measuring the distance to the screen clearly.
+    *   Specify that you are measuring the position of the spots on the screen.
+    *   Avoid complex formulas if the question specifically says "no need to discuss calculations," but focus heavily on the *experimental methodology*—how you set it up and what data you collect.
+
+###QUESTION_TYPE
+Experimental questions

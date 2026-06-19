@@ -1,0 +1,8 @@
+### Front
+How does using an extremely short slope length affect the **validity** of an experiment measuring acceleration?
+
+### Back
+- Key idea: It compromises validity because a very small $t$ causes massive percentage uncertainty ($\Delta t/t$) and allows noise (friction/release error) to dominate, meaning the experiment no longer measures actual acceleration.
+- Formula / law / constant / figure: $a = \frac{2s}{t^2}$ (for $u=0$)
+- When to use it: Calculating acceleration from displacement ($s$) and time ($t$).
+- Common trap: Confusing **validity** (is the method measuring what it claims?) with **reliability/accuracy** (e.g., human reaction time or instrument precision).

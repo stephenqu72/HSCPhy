@@ -1,0 +1,22 @@
+To answer this question, we must look at the fundamental physics of a DC motor, specifically the magnetic force on a current-carrying wire.
+
+### Answer
+The correct answer is **(B) It decreases to zero.**
+
+### Explanation
+The magnitude of the magnetic force $F_m$ on a current-carrying wire in a uniform magnetic field is given by the formula:
+$$F_m = IlB \sin(\theta)$$
+where:
+*   $I$ is the current
+*   $l$ is the length of the wire
+*   $B$ is the magnetic field strength
+*   $\theta$ is the angle between the wire and the magnetic field lines.
+
+1.  **Current Position:** In the diagram, the coil is in a horizontal position. At this point, the wire is perpendicular to the magnetic field lines (i.e., $\theta = 90^\circ$). Since $\sin(90^\circ) = 1$, the force is at its **maximum value**.
+2.  **Rotation:** As the coil rotates clockwise $60^\circ$ toward a vertical position, it is rotating away from being perpendicular to the magnetic field.
+3.  **Vertical Position:** When the coil reaches the vertical position, the wires are now moving parallel to the magnetic field lines. In this alignment, $\theta = 0^\circ$ (or $180^\circ$). Since $\sin(0^\circ) = 0$, the magnetic force $F_m$ acting on the individual wires of the coil becomes **zero**.
+
+Therefore, as the coil rotates from its current horizontal position toward the vertical, the angle $\theta$ decreases, causing the magnitude of the force to decrease from its maximum value to zero.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,8 @@
+### Front
+In a vertical mass-spring system with no air resistance or friction, which quantity remains constant?
+
+### Back
+- **Key idea**: Total mechanical energy of the entire system (mass + spring) is conserved.
+- **Formula / law / constant / figure**: $E_{total} = U_g + K + U_e$ (where $U_g = mgh$, $K = \frac{1}{2}mv^2$, and $U_e = \frac{1}{2}kx^2$)
+- **When to use it**: When only conservative forces (gravity, spring force) are acting on the system.
+- **Common trap**: Assuming the energy of the *mass alone* is constant; energy continuously transfers between kinetic, gravitational, and elastic potential forms.

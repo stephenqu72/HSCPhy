@@ -1,0 +1,22 @@
+As an HSC Physics teacher, I will guide you through the principles of electromagnetism required to solve this problem.
+
+### Part (a)
+**Answer:**
+The induced EMF ($\varepsilon$) across a conductor moving in a magnetic field is given by the formula $\varepsilon = B l v \sin(\theta)$, where $\theta$ is the angle between the velocity vector of the rod and the magnetic field lines, or more specifically, the component of the rod's motion cutting the magnetic field lines.
+
+1.  **At the ends of the swing:** The rod momentarily comes to rest to change direction. Since velocity $v = 0$, the induced EMF is zero.
+2.  **At the vertical (mid-way) position:** While the rod has maximum velocity here, the rod is moving parallel to the magnetic field lines. For an EMF to be induced, the conductor must "cut" the magnetic flux lines. Because the rod is moving parallel to the $B$-field lines, the magnetic flux is not being "cut," or effectively, the velocity component perpendicular to the field is zero. Thus, $\varepsilon = 0$.
+
+**Explanation:**
+To maximize the induced EMF, the rod needs to move perpendicularly to the magnetic field lines. You must demonstrate an understanding that EMF is proportional to the rate at which magnetic flux lines are cut. At the extremes, it is the lack of motion ($v=0$) that causes zero EMF. At the vertical position, it is the orientation of the velocity vector relative to the field lines that results in zero flux cutting.
+
+### Part (b)
+**Answer:**
+No, the rod will not swing.
+
+**Explanation:**
+When a current ($I$) flows through a conductor of length ($l$) in a magnetic field ($B$), it experiences a magnetic force given by $F = B I l \sin(\phi)$, where $\phi$ is the angle between the current and the magnetic field. 
+In this setup, the rod is vertical and the magnetic field lines are horizontal. Therefore, the current is flowing parallel to the magnetic field lines (or antiparallel depending on orientation, but the angle $\phi$ is $0^\circ$ or $180^\circ$). Because $\sin(0^\circ) = 0$ and $\sin(180^\circ) = 0$, the magnetic force exerted on the rod is zero. Without an external torque or force, the rod remains stationary.
+
+###QUESTION_TYPE
+Short answer

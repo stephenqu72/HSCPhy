@@ -1,0 +1,25 @@
+### Answer
+
+**(a)**
+To block the light, the cogwheel must rotate such that a tooth moves into the position previously occupied by a gap during the time it takes for light to travel to the mirror and back.
+*   Total distance $d = 2 \times 500\text{ m} = 1000\text{ m}$.
+*   Using $c \approx 3.00 \times 10^8\text{ m/s}$, the time taken is $t = \frac{d}{c} = \frac{1000}{3.00 \times 10^8} \approx 3.33 \times 10^{-6}\text{ s}$.
+*   There are 250 teeth and 250 gaps, totaling 500 divisions. The angle for one division is $\theta = \frac{2\pi}{500} = \frac{\pi}{250}\text{ rad}$.
+*   Angular velocity $\omega = \frac{\theta}{t} = \frac{\pi / 250}{3.33 \times 10^{-6}} \approx 3770\text{ rad/s}$.
+
+**(b) i.**
+The lower rotation speed indicates that the light takes a longer time to travel to the mirror and back through the water than through the air. Since $t = \frac{d}{v}$, a larger time for the same distance implies that the velocity of light in water ($v_w$) is slower than the velocity of light in a vacuum/air ($v_a$). This confirms that $v_w < c$.
+
+**(b) ii.**
+Huygens' principle, which describes light as a wave, is supported by phenomena such as **diffraction** (the bending of light around obstacles or through slits) or **interference** (such as Young's Double Slit Experiment), which cannot be explained by a purely corpuscular (particle) model.
+
+---
+
+### How to solve it
+
+1.  **Part (a):** Understand that for the light to be blocked, the cogwheel must rotate far enough that a tooth arrives at the gap's original position within the time light travels the round trip. Calculate the round-trip distance, determine the time $t$ using the speed of light, and calculate the angular displacement $\Delta\theta$ required (one gap width). Finally, use $\omega = \frac{\Delta\theta}{t}$.
+2.  **Part (b)(i):** Relate rotation speed to time. If the required $\omega$ is smaller, the time $t$ must be larger. Use the relationship $v = \frac{d}{t}$ to show that as $t$ increases, $v$ decreases.
+3.  **Part (b)(ii):** Recall that Huygens proposed a wave model. Waves exhibit properties that particles do not, specifically diffraction and interference patterns. Select one of these as your evidence.
+
+###QUESTION_TYPE
+Calculation question

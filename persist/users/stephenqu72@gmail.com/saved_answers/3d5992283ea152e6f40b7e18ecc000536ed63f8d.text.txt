@@ -1,0 +1,17 @@
+### Answer
+In an ideal transformer with 100% efficiency, the power input at the primary coil is equal to the power output at the secondary coil. Since power is defined as the product of voltage and current ($P = VI$), if the transformer steps down the voltage ($V_{secondary} < V_{primary}$), it must proportionally step up the current ($I_{secondary} > I_{primary}$) to maintain the conservation of energy. Therefore, $V_p I_p = V_s I_s$, ensuring that the total energy transferred per unit time remains constant.
+
+### Explanation
+To solve this 3-mark HSC physics question, you need to connect the Law of Conservation of Energy to the operation of a transformer:
+
+1.  **State the Principle:** Acknowledge that energy cannot be created or destroyed. In an ideal transformer, the total power input must equal the total power output ($P_{in} = P_{out}$).
+2.  **Relate Power to Variables:** Use the formula $P = VI$. This shows that power is determined by both voltage and current.
+3.  **Explain the Trade-off:** Explain that when a transformer steps down voltage, it is changing the ratio of $V$ and $I$. If $V$ decreases, $I$ must increase by the same factor to keep $P$ constant. This is how the "energy" (represented by power) is conserved across the device.
+
+**Structuring for 3 marks:**
+*   **Mark 1:** Stating that input power equals output power ($P_p = P_s$) due to the conservation of energy.
+*   **Mark 2:** Identifying the relationship $VI = \text{constant}$.
+*   **Mark 3:** Explaining that a decrease in voltage must be compensated by a proportional increase in current, satisfying the conservation of energy.
+
+###QUESTION_TYPE
+Short answer

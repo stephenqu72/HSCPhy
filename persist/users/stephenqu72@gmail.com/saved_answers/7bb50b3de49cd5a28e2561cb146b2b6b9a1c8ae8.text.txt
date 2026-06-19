@@ -1,0 +1,18 @@
+### Answer
+This device is a version of a Faraday disk generator (or homopolar generator). It produces a steady direct current (DC) because:
+
+1. **Magnetic Flux Cutting:** As the metal disk rotates through the constant magnetic field provided by the permanent magnets, the free electrons in the metal experience a magnetic force (Lorentz force, $F = qvB$).
+2. **Charge Separation:** This force causes a radial separation of charge, creating a potential difference between the center of the disk (connected to the axle/Brush A) and the outer rim (connected to Brush B).
+3. **Continuous Path:** Because the magnetic field is uniform and the disk is continuously rotating, the induced EMF is constant in both magnitude and direction. Unlike a standard wire-coil generator that requires a split-ring commutator to reverse connections to maintain a unidirectional flow, this device maintains a constant polarity at the contacts.
+4. **DC Flow:** As long as the disk is turned, electrons flow consistently from one brush, through the external circuit (lightbulb), and back to the other brush, resulting in a steady, non-oscillating DC current.
+
+### How to solve this
+To achieve full marks (4 marks) on an HSC Physics question like this, follow these steps:
+
+*   **Step 1: Identify the principle (1 mark):** State that rotation through a magnetic field induces an EMF via magnetic flux cutting (or the Lorentz force on charge carriers).
+*   **Step 2: Explain the mechanism (1 mark):** Mention how the radial movement of the metal disk through the fixed magnetic field results in a constant potential difference between the center and the rim.
+*   **Step 3: Explain the "Direct" nature (1 mark):** Contrast this with AC generators. Explain that because the polarity between the center and the rim remains constant throughout the rotation, the output does not reverse direction.
+*   **Step 4: Connect to the circuit (1 mark):** Explain that the brushes provide a sliding contact that allows the steady current to flow through the external load (the lightbulb) without needing a mechanical commutator.
+
+### QUESTION_TYPE
+Short answer

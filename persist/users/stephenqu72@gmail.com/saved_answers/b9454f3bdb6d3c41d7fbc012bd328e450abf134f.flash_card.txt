@@ -1,0 +1,8 @@
+### Front
+How do you distinguish between average speed and the magnitude of average velocity when an object moves along a semicircular path?
+
+### Back
+- Key idea: Average speed depends on total distance traveled (path length), whereas average velocity depends on net displacement (straight-line change in position).
+- Formula / law / constant / figure: $\text{Avg Speed} = \frac{\pi r}{\Delta t}$ | $\text{Avg Velocity} = \frac{2r}{\Delta t}$
+- When to use it: For any motion involving a change in direction or curved paths.
+- Common trap: Using the arc length ($\pi r$) to calculate velocity instead of the diameter ($2r$).

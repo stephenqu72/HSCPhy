@@ -1,0 +1,23 @@
+### Answer
+
+**a. Which spectral line indicates the photon with the lowest energy?**
+$668 \text{ nm}$
+
+**b. Calculate the frequency of the photon emitted at the 588 nm line.**
+Using the wave equation $c = f\lambda$, where $c = 3.00 \times 10^8 \text{ m/s}$ and $\lambda = 588 \times 10^{-9} \text{ m}$:
+$$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8}{588 \times 10^{-9}}$$
+$$f \approx 5.10 \times 10^{14} \text{ Hz}$$
+
+**c. Explain why only certain wavelengths and, therefore, certain energies are present in the helium spectrum.**
+Electrons in helium atoms exist in discrete, quantized energy levels. When an electron transitions from a higher energy level to a lower energy level, a photon is emitted with an energy exactly equal to the difference between these two levels ($\Delta E = E_2 - E_1$). Since only specific energy level differences are possible for helium, only specific photon energies—and thus specific wavelengths—are observed.
+
+---
+
+### Explanation of how to solve
+
+*   **Part (a):** Recall the relationship between energy ($E$) and wavelength ($\lambda$): $E = \frac{hc}{\lambda}$. Since $h$ (Planck’s constant) and $c$ (speed of light) are constants, energy is inversely proportional to wavelength. Therefore, the **longest wavelength** corresponds to the **lowest energy**. Looking at the spectrum, $668 \text{ nm}$ is the longest wavelength shown.
+*   **Part (b):** This is a standard calculation using the wave equation. First, convert the wavelength from nanometers to meters ($588 \text{ nm} = 588 \times 10^{-9} \text{ m}$). Then, rearrange $c = f\lambda$ to solve for $f$. Ensure your final answer has appropriate scientific notation and units (Hz).
+*   **Part (c):** This is a fundamental concept in quantum physics/atomic theory. Always link the "discrete nature of light" (the lines) back to the "quantized energy states of the electrons." Mentioning the transition of electrons between shells is key to securing full marks.
+
+###QUESTION_TYPE
+Calculation question

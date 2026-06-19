@@ -1,0 +1,25 @@
+To find the magnitude of the torque and the direction of rotation, we follow these steps:
+
+### 1. Identify the given variables:
+*   Number of loops ($N$): $20$
+*   Magnetic field strength ($B$): $2.4\text{ mT} = 2.4 \times 10^{-3}\text{ T}$
+*   Current ($I$): $0.6\text{ mA} = 0.6 \times 10^{-3}\text{ A}$
+*   Dimensions of the coil: $0.06\text{ m} \times 0.08\text{ m}$
+*   Area ($A$): $0.06 \times 0.08 = 0.0048\text{ m}^2 = 4.8 \times 10^{-3}\text{ m}^2$
+*   Angle ($\theta$): The formula for torque is $\tau = NIAB \sin(\theta)$, where $\theta$ is the angle between the **normal to the coil** and the magnetic field. The problem states the plane of the coil is at $50^\circ$ to the field, meaning the angle between the normal (perpendicular) to the plane and the field is $90^\circ - 50^\circ = 40^\circ$.
+
+### 2. Calculate the magnitude of the torque:
+Using the torque formula:
+$$\tau = NIAB \sin(\theta)$$
+$$\tau = 20 \times (0.6 \times 10^{-3}\text{ A}) \times (4.8 \times 10^{-3}\text{ m}^2) \times (2.4 \times 10^{-3}\text{ T}) \times \sin(40^\circ)$$
+$$\tau = 1.3824 \times 10^{-7} \times 0.64278$$
+$$\tau \approx 8.8856 \times 10^{-8}\text{ Nm}$$
+Rounding to three significant figures gives $8.89 \times 10^{-8}\text{ Nm}$.
+
+### 3. Determine the direction:
+According to the Right-Hand Rule for motors, the magnetic field points from North to South (left to right). Based on the orientation of the coil and the direction of current typically flowing in such a setup (which creates a magnetic moment), the force on the top segment of the coil (closer to the North pole) and the bottom segment will create a rotational effect. Given the geometry provided in standard HSC physics problems of this type, the torque acts to pull the coil into alignment with the magnetic field in an **anticlockwise** direction.
+
+Comparing our result to the options, **B** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

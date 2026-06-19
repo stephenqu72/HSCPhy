@@ -1,0 +1,44 @@
+Hello! As an HSC Physics teacher, I'm here to help you break down this transformer question. Let's tackle each part methodically.
+
+### Part (a)
+**Answer:**
+The alternating current in the primary coil creates a constantly changing magnetic flux within the soft iron core. This changing flux is linked to the secondary coil via the iron core. According to Faraday’s Law ($V = -N \frac{\Delta \Phi}{\Delta t}$), the induced emf in the secondary coil is proportional to the rate of change of magnetic flux linkage.
+
+**How to solve:**
+To get the full 2 marks, you must link three key concepts:
+1. The **primary AC** creates a **changing magnetic field/flux**.
+2. The **iron core** directs this flux into the secondary coil.
+3. The **rate of change of flux** induces an emf in the secondary coil as defined by Faraday's Law.
+
+---
+
+### Part (b)
+**Answer:**
+Eddy currents are reduced by using a **laminated core** consisting of thin layers of soft iron separated by an insulating material. This increases the resistance path for the induced eddy currents, significantly reducing their magnitude, which minimizes energy loss due to heating ($P = I^2R$).
+
+**How to solve:**
+You need to identify the specific design feature (laminations) and explain *why* it works (increased resistance to current flow) and the *benefit* (reduced resistive heating/energy loss).
+
+---
+
+### Part (c)
+**Answer:**
+We use the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Given:
+- $V_p = 240\text{ V}$
+- $V_s = 12\text{ V}$
+- $N_s = 100\text{ turns}$
+
+Rearranging for $N_p$:
+$$N_p = N_s \times \frac{V_p}{V_s}$$
+$$N_p = 100 \times \frac{240}{12}$$
+$$N_p = 100 \times 20$$
+$$N_p = 2000\text{ turns}$$
+
+**How to solve:**
+Identify that this is a ratio problem. Set up the turns ratio equation, plug in your known values, and solve for the unknown $N_p$. Always check that your answer makes sense: since it is a *step-down* transformer, the primary turns must be greater than the secondary turns.
+
+###QUESTION_TYPE
+Calculation question

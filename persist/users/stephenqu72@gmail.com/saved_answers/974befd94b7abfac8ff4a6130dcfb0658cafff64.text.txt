@@ -1,0 +1,27 @@
+To solve this problem, we use the definition of magnetic flux $\Phi$, which is given by the formula:
+
+$$\Phi = B A \cos(\theta)$$
+
+Where:
+*   $B$ is the magnetic field strength ($5.2\text{ T}$).
+*   $A$ is the area of the loop. Since it is a square of side length $0.15\text{ m}$, $A = 0.15\text{ m} \times 0.15\text{ m} = 0.0225\text{ m}^2$.
+*   $\theta$ is the angle between the **normal to the surface** of the loop and the magnetic field lines.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the angle $\theta$**: The diagram shows the angle between the *loop itself* and the magnetic field lines is $60^\circ$. The formula for magnetic flux requires the angle $\theta$ between the magnetic field and the *normal* (the perpendicular line) to the surface.
+    *   The angle between the plane of the loop and the normal is $90^\circ$.
+    *   Therefore, the angle $\theta$ between the normal and the magnetic field lines is $90^\circ - 60^\circ = 30^\circ$.
+
+2.  **Calculate the area ($A$)**:
+    $$A = 0.15 \times 0.15 = 0.0225\text{ m}^2$$
+
+3.  **Calculate the magnetic flux ($\Phi$)**:
+    $$\Phi = 5.2 \times 0.0225 \times \cos(30^\circ)$$
+    $$\Phi = 0.117 \times 0.866025...$$
+    $$\Phi \approx 0.1013\text{ Wb}$$
+
+Comparing this result to the given options, the correct answer is **(B) 0.101 Wb**.
+
+###QUESTION_TYPE
+Multiple choice

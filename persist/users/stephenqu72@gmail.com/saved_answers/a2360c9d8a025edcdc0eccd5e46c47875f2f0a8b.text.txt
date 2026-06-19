@@ -1,0 +1,20 @@
+To solve this question, we must apply the principles of **Faraday’s Law of Induction**, which is a core concept in the HSC Physics syllabus.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+Electromagnetic induction is the process by which a changing magnetic field creates an electromotive force (EMF), which can drive a current in a conductor. 
+
+1.  **Understanding Faraday's Law:** Faraday's Law states that the magnitude of the induced EMF ($\varepsilon$) in a circuit is directly proportional to the rate of change of magnetic flux ($\Phi_B$) through the circuit: 
+    $$\varepsilon = -N \frac{\Delta\Phi_B}{\Delta t}$$
+2.  **Why (B) is correct:** For an EMF to be induced, there must be a *change* in the magnetic flux. This can occur if the magnetic field strength changes, the area of the conductor in the field changes, or the angle between the field and the conductor changes. All of these are essentially captured by saying the magnetic field changes *relative* to the conductor.
+3.  **Why the others are incorrect:**
+    *   **(A)** describes Maxwell's displacement current (or Ampere-Maxwell Law), which explains how electromagnetic waves propagate, but it is not the definition of electromagnetic induction.
+    *   **(C)** is incorrect because a static (constant) magnetic field does not produce an induced EMF. Induction requires a *changing* magnetic flux.
+    *   **(D)** describes a steady current. Moving charges create a magnetic field (Oersted's discovery), but they do not *induce* a current in an external circuit unless that movement (or the resulting field) is changing over time.
+
+By focusing on the requirement of a **change** in magnetic flux, you can correctly identify that (B) is the only statement describing the fundamental cause of induction.
+
+###QUESTION_TYPE
+Multiple choice

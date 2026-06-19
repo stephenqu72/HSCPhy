@@ -1,0 +1,36 @@
+To solve this problem, we must apply the principles of transformers and power transmission.
+
+### a. Calculate the power dissipated in the light globe.
+The power $P$ dissipated in a component is given by $P = VI$. Assuming the light globe behaves as an ohmic load, or simply using the provided parameters:
+We know $V_{globe} = 4.0\text{ V}$. We need the current in the secondary circuit $I_{sec}$.
+Using the transformer ratio $N_p:N_s = 4:1$, the secondary current is related to the transmission (primary) current $I_p = 3.0\text{ A}$ by:
+$$\frac{I_s}{I_p} = \frac{N_p}{N_s} \implies I_s = 3.0\text{ A} \times 4 = 12.0\text{ A}$$
+$$P_{globe} = V_s \times I_s = 4.0\text{ V} \times 12.0\text{ A} = 48\text{ W}$$
+**Answer: 48 W**
+
+### b. Calculate the voltage output of the power supply.
+The total voltage output $V_{total}$ must account for the voltage drop across the transmission lines ($V_{lines}$) and the input voltage to the transformer ($V_p$).
+1. Voltage drop in lines: $V_{lines} = I_p \times R_{total} = 3.0\text{ A} \times 8.0\text{ }\Omega = 24\text{ V}$.
+2. Primary voltage of transformer: $\frac{V_p}{V_s} = \frac{N_p}{N_s} \implies V_p = 4.0\text{ V} \times 4 = 16\text{ V}$.
+3. Total voltage: $V_{total} = V_{lines} + V_p = 24\text{ V} + 16\text{ V} = 40\text{ V}$.
+**Answer: 40 V**
+
+### c. Calculate the total power loss in the transmission lines.
+Power loss in the lines is given by $P_{loss} = I_p^2 R_{total}$.
+$$P_{loss} = (3.0\text{ A})^2 \times 8.0\text{ }\Omega = 9.0 \times 8.0 = 72\text{ W}$$
+**Answer: 72 W**
+
+### d. Calculate the total power loss in the transmission lines (8:1 ratio).
+1. The power required by the globe remains $48\text{ W}$ (since $V=4.0\text{ V}$ and power is constant).
+2. New transformer ratio is $8:1$. Thus, $I_s = I_p \times 8$.
+3. We need $V_s I_s = 48\text{ W} \implies I_s = \frac{48}{4} = 12\text{ A}$.
+4. $I_p = \frac{I_s}{8} = \frac{12}{8} = 1.5\text{ A}$.
+5. $P_{loss} = I_p^2 R_{total} = (1.5\text{ A})^2 \times 8.0\text{ }\Omega = 2.25 \times 8.0 = 18\text{ W}$.
+**Answer: 18 W**
+
+### e. Suggest two reasons why high voltages are used for transmission.
+1. **Reduced Power Loss:** As shown in part (d), increasing voltage decreases current for a constant power requirement. Since power loss is proportional to $I^2$, significantly lower current results in drastically lower heat loss ($I^2R$).
+2. **Efficiency/Economic factors:** Lower current allows for the use of thinner, less expensive transmission cables, reducing infrastructure costs.
+
+###QUESTION_TYPE
+Calculation question

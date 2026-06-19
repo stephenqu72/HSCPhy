@@ -1,0 +1,21 @@
+To solve this question, we must understand the principles of electromagnetic induction and energy loss within transformers.
+
+### Explanation
+
+1.  **What are Eddy Currents?**
+    When a changing magnetic flux (from the AC current in the coils) passes through a solid metal core, it induces circular currents within the iron itself, known as **eddy currents**. According to Lenz's Law, these currents create magnetic fields that oppose the change, and by Joule's Law ($P = I^2R$), they generate significant heat.
+
+2.  **Why use Lamination?**
+    A solid iron core provides a large cross-sectional area, which offers a low-resistance path for these eddy currents to flow, leading to substantial energy loss as heat. By cutting the core into thin sheets (lamination) and insulating them from each other, we effectively increase the resistance to the flow of eddy currents.
+
+3.  **The Result:**
+    Because the insulation forces the eddy currents to stay within thin layers, their magnitude ($I$) is significantly reduced. Since power loss due to eddy currents is proportional to the square of the current ($P_{loss} \propto I^2$), minimizing these currents is crucial. Reducing heat loss directly increases the overall efficiency of the transformer.
+
+*   **A and D are incorrect:** Increasing eddy currents would increase energy loss as heat, decreasing efficiency.
+*   **C is incorrect:** While it correctly identifies the reduction of eddy currents, it falsely suggests that we *want* to increase heat to control efficiency; in reality, we want to *minimize* heat to maximize efficiency.
+*   **B is correct:** It accurately states that lamination reduces eddy currents, which in turn minimizes heat loss and improves the transformer's efficiency.
+
+**Correct Answer:** **B**
+
+###QUESTION_TYPE
+Multiple choice

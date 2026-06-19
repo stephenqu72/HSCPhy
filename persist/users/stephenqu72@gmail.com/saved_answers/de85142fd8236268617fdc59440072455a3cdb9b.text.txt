@@ -1,0 +1,17 @@
+To solve this problem, we must apply the principles of an ideal transformer.
+
+### Answer
+The correct answer is **B. $100\ W$**.
+
+### Explanation
+In HSC Physics, unless otherwise stated, we assume an "ideal transformer." The defining characteristic of an ideal transformer is that there are no energy losses due to resistance in the coils, eddy currents, or magnetic flux leakage.
+
+The principle of the **Law of Conservation of Energy** dictates that the power input must equal the power output:
+$$P_{primary} = P_{secondary}$$
+
+While the number of turns in the primary coil ($N_p = 350$) and secondary coil ($N_s = 420$) allows us to calculate the change in voltage or current (specifically, $V_s/V_p = N_s/N_p$), it does not change the total power. Even though this is a "step-up" transformer (because $N_s > N_p$), which increases voltage, the current decreases proportionally to ensure that the power remains constant.
+
+Since the power in the primary circuit is $100\ W$, the power in the secondary circuit must also be $100\ W$.
+
+###QUESTION_TYPE
+Multiple choice

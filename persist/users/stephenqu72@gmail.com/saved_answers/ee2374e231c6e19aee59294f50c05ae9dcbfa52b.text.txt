@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **D. 0.06 A**.
+
+### Explanation
+To solve this problem, we use the principle of the **ideal transformer**. In an ideal transformer, there is no energy loss, which means the power input at the primary coil must equal the power output at the secondary coil ($P_p = P_s$).
+
+**1. Identify the given values:**
+*   Primary voltage ($V_p$): $240\text{ V}$
+*   Secondary voltage ($V_s$): $5.0\text{ V}$
+*   Secondary current ($I_s$): $3.0\text{ A}$
+
+**2. State the formula:**
+Since power $P = VI$, the relationship for an ideal transformer is:
+$$V_p I_p = V_s I_s$$
+
+**3. Rearrange to solve for the primary current ($I_p$):**
+$$I_p = \frac{V_s I_s}{V_p}$$
+
+**4. Substitute the values:**
+$$I_p = \frac{5.0\text{ V} \times 3.0\text{ A}}{240\text{ V}}$$
+$$I_p = \frac{15.0}{240}$$
+$$I_p = 0.0625\text{ A}$$
+
+Comparing our result of $0.0625\text{ A}$ to the given options, the value closest to our calculation is $0.06\text{ A}$. Therefore, **Option D** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,41 @@
+To excel in the HSC Physics examination, you must be precise with your terminology, especially when comparing motors and generators. Here is the step-by-step solution.
+
+### (a) What type of motor is it?
+**Answer:** It is a **DC motor** (Direct Current motor).
+**Reasoning:** The presence of a split-ring commutator is the definitive feature of a DC motor. Its function is to reverse the direction of the current every half-turn to ensure the torque remains in the same rotational direction.
+
+---
+
+### (b) Compare the physical principles of operation of this motor and a generator.
+**Answer:**
+*   **Motor:** Converts electrical energy into mechanical energy. It operates based on the **Motor Effect**, where a current-carrying conductor in an external magnetic field experiences a force ($F = BIL\sin\theta$).
+*   **Generator:** Converts mechanical energy into electrical energy. It operates based on **Electromagnetic Induction** (Faraday’s Law), where a change in magnetic flux linkage through a coil induces an electromotive force (EMF).
+*   **Comparison:** While both involve coils rotating in magnetic fields, the motor *consumes* current to produce motion, whereas the generator *produces* current due to external mechanical motion. The split-ring commutator in a DC motor acts to reverse current direction, whereas in a DC generator, it acts as a mechanical rectifier to ensure a unidirectional output current.
+
+---
+
+### (c) Calculate the magnitude of the maximum torque and the direction of rotation.
+**1. Identification of variables:**
+*   Number of turns ($n$) = $10$
+*   Current ($I$) = $0.50\text{ A}$
+*   Magnetic field strength ($B$) = $1\text{ T}$
+*   Length of side ($L$) = $5.0\text{ cm} = 0.05\text{ m}$
+*   Width of coil ($w$) = $3.0\text{ cm} = 0.03\text{ m}$
+*   Area ($A$) = $L \times w = 0.05\text{ m} \times 0.03\text{ m} = 0.0015\text{ m}^2$
+
+**2. Calculation:**
+The formula for maximum torque ($\tau$) is:
+$$\tau = nIAB$$
+$$\tau = 10 \times 0.50 \times 1 \times 0.0015$$
+$$\tau = 0.0075\text{ Nm}$$
+
+**3. Direction:**
+Using the Right-Hand Rule (or Right-Hand Palm Rule) for the force on side $WX$:
+*   Fingers point North to South (Magnetic field).
+*   Thumb points in the direction of current (from $W$ to $X$).
+*   The palm faces "upward" (out of the page).
+*   Conversely, for side $YZ$, the force is downward (into the page).
+*   This creates a counter-clockwise rotation (when viewed from the end of the axle).
+
+###QUESTION_TYPE
+Calculation question

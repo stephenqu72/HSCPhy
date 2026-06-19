@@ -1,0 +1,29 @@
+To solve this problem, we use the principle of conservation of energy applied to an ideal transformer. Since the problem states there is "no loss of power," we assume that the power input ($P_{in}$) is equal to the power output ($P_{out}$).
+
+### 1. Identify the given values:
+*   Primary voltage ($V_p$) = $230\text{ V}$
+*   Primary current ($I_p$) = $0.85\text{ A}$
+*   Secondary voltage ($V_s$) = $20\text{ V}$
+*   Secondary current ($I_s$) = $?$
+
+### 2. Apply the Ideal Transformer formula:
+The power in an electrical circuit is given by $P = VI$. For an ideal transformer:
+$$P_{in} = P_{out}$$
+$$V_p \times I_p = V_s \times I_s$$
+
+### 3. Calculate the output current:
+Rearrange the formula to solve for $I_s$:
+$$I_s = \frac{V_p \times I_p}{V_s}$$
+
+Substitute the given values into the equation:
+$$I_s = \frac{230\text{ V} \times 0.85\text{ A}}{20\text{ V}}$$
+$$I_s = \frac{195.5}{20}$$
+$$I_s = 9.775\text{ A}$$
+
+Rounding to two significant figures (consistent with the provided options), we get:
+$$I_s \approx 9.8\text{ A}$$
+
+Comparing this to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

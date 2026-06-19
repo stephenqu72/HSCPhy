@@ -1,0 +1,29 @@
+### Answer
+For the light to be blocked, the time it takes for the light to travel to the mirror and back must be exactly equal to the time it takes for the cogwheel to rotate by the width of one "gap plus one tooth." This ensures that when the light returns, it hits a tooth instead of passing through the next gap.
+
+**Given:**
+*   Distance to mirror, $d = 8\text{ km} = 8000\text{ m}$
+*   Total distance light travels (round trip), $D = 2 \times 8000 = 16000\text{ m}$
+*   Speed of light, $c \approx 3.00 \times 10^8\text{ m/s}$
+*   Number of teeth = 50, Number of gaps = 50. Total divisions = 100.
+*   One full rotation ($360^\circ$) consists of 100 divisions. The angle occupied by one gap and one tooth is $1/100$ of a rotation.
+
+**Calculation:**
+1.  Calculate the time ($t$) taken for the light to return:
+    $$t = \frac{D}{c} = \frac{16000}{3.00 \times 10^8} \approx 5.33 \times 10^{-5}\text{ s}$$
+
+2.  To block the light, the wheel must rotate by $1/100$ of a full turn in time $t$:
+    $$f = \frac{1}{100 \times t} = \frac{1}{100 \times 5.33 \times 10^{-5}} \approx 187.5\text{ Hz (revolutions per second)}$$
+
+The light is blocked because at specific rotational frequencies, the outgoing beam passes through a gap, travels to the mirror, and by the time it returns, the cogwheel has moved such that a tooth is now positioned in the path of the returning beam.
+
+---
+
+### How to solve it
+1.  **Understand the physics:** The core concept is that the cogwheel acts as a mechanical shutter. Light travels at a finite speed. If the wheel moves just enough so that a tooth replaces the gap during the light's round-trip travel time, the reflection will be blocked.
+2.  **Determine the travel time:** Use the formula $t = \frac{\text{total distance}}{\text{speed}}$. Remember that the distance is twice the mirror distance ($d_{total} = 2d$).
+3.  **Relate to rotation:** The gear has $N$ teeth and $N$ gaps. One full rotation is $2N$ segments. To block the light, the wheel must rotate by $1/(2N)$ of a full circle in time $t$.
+4.  **Calculate Frequency:** Once you have the time $t$ for $1/(2N)$ of a rotation, the period of one full rotation is $T = 2N \times t$. Since frequency $f = 1/T$, you can derive the required rotational speed.
+
+###QUESTION_TYPE
+Calculation question

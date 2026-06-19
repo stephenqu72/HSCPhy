@@ -1,0 +1,34 @@
+### Solution and Explanation
+
+#### Part (a): Calculate the torque acting on the loop
+The formula for torque $\tau$ on a current-carrying loop in a magnetic field is:
+$$\tau = nIAB \cos(\theta)$$
+where:
+*   $n = 1$ (single loop)
+*   $I = 5.0\text{ A}$
+*   $A = 0.20\text{ m} \times 0.20\text{ m} = 0.04\text{ m}^2$
+*   $B = 0.3\text{ T}$
+*   $\theta = 60^{\circ}$ (This is the angle between the plane of the loop and the magnetic field. Since the formula uses the angle between the normal to the loop and the field, we use $\cos(60^{\circ})$).
+
+Calculation:
+$$\tau = 1 \times 5.0 \times 0.04 \times 0.3 \times \cos(60^{\circ})$$
+$$\tau = 0.06 \times 0.5 = 0.03\text{ Nm}$$
+
+#### Part (b): Calculate the average emf induced in the loop
+The average induced emf is given by Faraday’s Law:
+$$\mathcal{E} = -N \frac{\Delta\Phi}{\Delta t}$$
+where $\Phi = BA \cos(\theta)$.
+
+1.  **Initial magnetic flux ($\Phi_i$):** The plane of the loop is at $60^{\circ}$ to the field. The angle $\alpha$ between the normal to the loop and the field is $90^{\circ} - 60^{\circ} = 30^{\circ}$.
+    $$\Phi_i = BA \cos(30^{\circ}) = 0.3 \times 0.04 \times \frac{\sqrt{3}}{2} \approx 0.01039\text{ Wb}$$
+2.  **Final magnetic flux ($\Phi_f$):** The loop is rotated $90^{\circ}$ anticlockwise from a top view. It is now parallel to the magnetic field. Therefore, the normal to the loop is at $90^{\circ}$ to the field.
+    $$\Phi_f = BA \cos(90^{\circ}) = 0\text{ Wb}$$
+3.  **Calculate $\Delta\Phi$:**
+    $$\Delta\Phi = 0 - 0.01039 = -0.01039\text{ Wb}$$
+4.  **Calculate $\mathcal{E}$:**
+    $$\mathcal{E} = -\frac{-0.01039}{0.4} = 0.025975\text{ V} \approx 0.026\text{ V}$$
+
+***
+
+###QUESTION_TYPE
+Calculation question

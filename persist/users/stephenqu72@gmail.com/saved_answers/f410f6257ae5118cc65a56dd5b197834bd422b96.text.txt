@@ -1,0 +1,37 @@
+To solve this problem, we use **Faraday's Law of Induction**, which relates the induced electromotive force (emf) to the rate of change of magnetic flux through a coil.
+
+### 1. Identify the relevant formula
+The magnitude of the induced emf ($\varepsilon$) in a coil with $N$ turns is given by:
+$$\varepsilon = N \frac{\Delta \Phi}{\Delta t}$$
+where $\Delta \Phi$ is the change in magnetic flux. Since magnetic flux $\Phi$ is defined as $\Phi = B \cdot A$ (where $B$ is the magnetic flux density and $A$ is the area of the coil), the formula becomes:
+$$\varepsilon = N \cdot A \cdot \frac{\Delta B}{\Delta t}$$
+We are asked to find the rate at which the magnetic flux density changes, which is $\frac{\Delta B}{\Delta t}$. Rearranging the formula gives:
+$$\frac{\Delta B}{\Delta t} = \frac{\varepsilon}{N \cdot A}$$
+
+### 2. Extract the given values
+*   Induced emf ($\varepsilon$) = $32.5\text{ mV} = 32.5 \times 10^{-3}\text{ V}$
+*   Number of turns ($N$) = $25$
+*   Radius ($r$) = $60.0\text{ cm} = 0.600\text{ m}$
+*   Area ($A$) = $\pi r^2 = \pi \times (0.600)^2 \approx 1.13097\text{ m}^2$
+
+### 3. Perform the calculation
+Substitute the values into the rearranged formula:
+$$\frac{\Delta B}{\Delta t} = \frac{32.5 \times 10^{-3}}{25 \times (\pi \times 0.600^2)}$$
+$$\frac{\Delta B}{\Delta t} = \frac{0.0325}{25 \times 1.13097}$$
+$$\frac{\Delta B}{\Delta t} = \frac{0.0325}{28.2743} \approx 1.1494 \times 10^{-3}\text{ T s}^{-1}$$
+
+*Note: In the context of the question, "rate at which magnetic flux changes" (units of $\text{Wb s}^{-1}$) is often conflated with "rate of change of flux density" (units of $\text{T s}^{-1}$). Looking at the provided options, they are expressed in $\text{Wb s}^{-1}$, which is mathematically equivalent to $\frac{\Delta \Phi}{\Delta t}$.*
+
+Using $\frac{\Delta \Phi}{\Delta t} = \frac{\varepsilon}{N}$:
+$$\frac{\Delta \Phi}{\Delta t} = \frac{32.5 \times 10^{-3}}{25} = 1.30 \times 10^{-3}\text{ Wb s}^{-1}$$
+
+Comparing this to the options provided:
+(A) $1.15 \times 10^{-3}$
+(B) $1.30 \times 10^{-3}$
+(C) $2.17 \times 10^{-3}$
+(D) $2.87 \times 10^{-2}$
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

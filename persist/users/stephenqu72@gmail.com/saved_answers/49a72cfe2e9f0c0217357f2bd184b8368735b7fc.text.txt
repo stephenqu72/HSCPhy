@@ -1,0 +1,17 @@
+To solve this physics problem, we need to understand what information can be derived from the analysis of a star's electromagnetic spectrum.
+
+### Answer
+The correct answer is **(A) Fact 1**.
+
+### Explanation
+To determine which fact cannot be derived from a spectrum, let's analyze each one:
+
+*   **Fact 2 (Surface temperature):** By analyzing the peak wavelength of the star's continuous spectrum (using Wien's Displacement Law, $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$) or by comparing the relative intensities of specific absorption lines, we can accurately determine the effective surface temperature of a star.
+*   **Fact 3 (Composition):** Each element and molecule (like titanium oxide) produces a unique set of absorption lines (a "fingerprint") in the spectrum. By identifying these characteristic dark lines, we can determine the chemical composition of the star's atmosphere.
+*   **Fact 4 (Speed/Velocity):** The Doppler effect causes the spectral lines of a star to shift towards the red end of the spectrum if the star is moving away (redshift) or towards the blue end if it is moving closer (blueshift). By measuring the amount of shift ($\Delta\lambda$), we can calculate the star's radial velocity ($v = c \times \frac{\Delta\lambda}{\lambda_0}$).
+*   **Fact 1 (Distance):** A star's spectrum does not provide its distance. While distance can be inferred using methods like parallax, standard candles (such as Cepheid variables), or the inverse square law of light (if the absolute magnitude is known), the light spectrum itself (the wavelengths and intensities of light received) is independent of the distance of the source. A star of a certain temperature and composition will produce the same spectrum regardless of how far away it is.
+
+Therefore, **Fact 1** is the only piece of information that cannot be determined through spectroscopic analysis.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+### Answer
+
+**a.** The motor will rotate in the **anticlockwise (A)** direction.
+
+**Explanation:**
+To determine the direction of rotation, we apply the Right-Hand Motor Rule (or Fleming's Left-Hand Rule) to the current-carrying sides of the coil:
+1.  **Current direction:** Based on the battery polarity, the current flows from the positive terminal into the right side of the split-ring commutator. This means current travels from $H$ to $G$ (the side near the South pole) and from $F$ to $E$ (the side near the North pole).
+2.  **Force on GH:** Using the right-hand rule, with fingers pointing from North to South (magnetic field) and the thumb pointing in the direction of current ($H$ to $G$), the palm pushes **upwards**.
+3.  **Force on EF:** Conversely, for side $EF$, the current flows from $F$ to $E$. The magnetic force pushes this side **downwards**.
+4.  **Result:** Since side $GH$ is pushed up and side $EF$ is pushed down, the coil will rotate in an **anticlockwise (A)** direction.
+
+**b.**
+If the commutator were replaced with slip rings, the motor would **not produce continuous rotation**. While the motor would begin to rotate, every half-turn, the current direction through the coil sides would reverse relative to the magnetic field. This would cause the forces on the sides to reverse direction, resulting in the motor oscillating back and forth (or stalling) rather than spinning continuously in one direction. The commutator is essential because it reverses the current direction every half-turn to ensure the torque remains in the same rotational direction.
+
+---
+
+### How to solve this type of problem
+1.  **Identify the orientation:** Always note the position of the North and South magnets. The magnetic field $B$ always points from North to South.
+2.  **Trace the current:** Follow the wires from the positive terminal of the power source to determine which direction the current $I$ enters the coil.
+3.  **Apply the Motor Rule:** Use your left hand (for the motor effect):
+    *   **Thumb:** Direction of force ($F$).
+    *   **Index finger:** Direction of magnetic field ($B$: North to South).
+    *   **Middle finger:** Direction of current ($I$).
+4.  **Commutator vs. Slip rings:** Remember that a **split-ring commutator** is a mechanical switch that reverses current to maintain unidirectional torque. **Slip rings** maintain constant contact, resulting in an AC-style current profile that causes the motor to experience reverse torque every 180 degrees.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,25 @@
+To find the greatest rate of change of magnetic flux, we use the formula for magnetic flux ($\Phi$):
+$$\Phi = BA\cos(\theta)$$
+where $B$ is the magnetic field intensity, $A$ is the area of the loop, and $\theta$ is the angle between the magnetic field vector and the area vector (the normal to the loop). The rate of change of flux is given by $\frac{\Delta\Phi}{\Delta t}$.
+
+Let the initial state be $B_0$, $A_0$, and $\theta = 0^\circ$ (where $\cos(0) = 1$). So, $\Phi_{initial} = B_0 A_0$.
+
+**Analysis of scenarios:**
+
+*   **(A) Doubling $B$:** Final flux $\Phi_f = (2B_0)A_0 = 2B_0A_0$. Change $\Delta\Phi = B_0A_0$.
+*   **(B) Reducing size to zero:** Final flux $\Phi_f = B_0(0) = 0$. Change $\Delta\Phi = B_0A_0$.
+*   **(C) Laying loop horizontally:** The loop starts perpendicular to the field ($\theta = 0^\circ$) and moves to being parallel to the field ($\theta = 90^\circ$). Final flux $\Phi_f = B_0 A_0 \cos(90^\circ) = 0$. Change $\Delta\Phi = B_0A_0 - 0 = B_0A_0$.
+*   **(D) Full turn in 10 seconds:** A full rotation means the loop goes from $\theta = 0^\circ$ to $\theta = 360^\circ$. Because the rate of change asks for the *average* rate, we look at the total change over the interval. If we consider the magnitude of the change in flux over half a rotation (from $\theta = 0^\circ$ to $\theta = 180^\circ$):
+    Initial flux = $B_0A_0$.
+    Final flux = $B_0A_0 \cos(180^\circ) = -B_0A_0$.
+    The total change in magnitude of flux over this half-turn is $|(-B_0A_0) - (B_0A_0)| = 2B_0A_0$.
+
+Since the change in flux for scenario (D) is $2B_0A_0$ over the same time interval (or even half the time interval), the average rate of change $\frac{\Delta\Phi}{\Delta t}$ is significantly greater than in the other three scenarios, which only produce a change of $B_0A_0$.
+
+**Conclusion:**
+Scenario (D) produces the greatest average rate of change because it transitions the flux from its maximum positive value to its maximum negative value, doubling the total flux change compared to the other options.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

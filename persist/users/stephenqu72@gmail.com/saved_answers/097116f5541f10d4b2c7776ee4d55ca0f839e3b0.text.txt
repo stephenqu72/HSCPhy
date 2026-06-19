@@ -1,0 +1,27 @@
+To determine the direction of rotation in a DC motor, we use the **Right-Hand Motor Rule** (or Fleming’s Left-Hand Rule). The direction of the force $F$ on a current-carrying wire in a magnetic field is determined by the cross product $F = I(L \times B)$.
+
+### Analysis of the Physics
+1.  **Magnetic Field ($B$):** The field runs from the North pole to the South pole. In these diagrams, the pole on the left is the North pole (indicated by the stator configuration) and the pole on the right is the South pole. Thus, the magnetic field points from **left to right**.
+2.  **Current ($I$):** We need to look at the current flowing through the "arm" of the coil closest to us.
+    *   For the rotor to turn **anticlockwise** (when viewed from the front), the force on the left side of the coil must be **downward**, and the force on the right side of the coil must be **upward**.
+    *   Using the Right-Hand Rule: If $B$ is to the right, to get a downward force on the left side of the coil, the current must flow **into the page** (away from the viewer).
+3.  **Circuit Configuration:** 
+    *   Looking at the diagrams, we follow the wire from the positive terminal.
+    *   In **Diagram B**, the positive terminal is connected to the commutator segment on the right. This causes the current to flow into the right side of the coil and out of the left.
+    *   In **Diagram A**, the positive terminal is connected to the commutator segment on the left. This causes the current to flow into the left side of the coil.
+
+When the current flows into the left side (as in **Diagram A**), the force is directed downward, and since the right side is connected to the negative terminal (current flowing out), the force is directed upward. This creates a torque that results in an **anticlockwise** rotation.
+
+### Conclusion
+**The correct answer is A.**
+
+### How to solve it:
+1.  **Identify the Magnetic Field:** Note the North and South poles (left to right).
+2.  **Apply Fleming’s Left-Hand Rule:** 
+    *   Point your index finger in the direction of the magnetic field ($B$ = right).
+    *   Point your middle finger in the direction of the current ($I$).
+    *   Your thumb will point in the direction of the force ($F$).
+3.  **Test the choices:** For the rotor to move anticlockwise, the force on the left wire of the coil must be directed downwards. In diagram **A**, the positive terminal pushes current into the left-hand side of the coil. By the left-hand rule, this produces a downward force, initiating anticlockwise rotation.
+
+###QUESTION_TYPE
+Multiple choice

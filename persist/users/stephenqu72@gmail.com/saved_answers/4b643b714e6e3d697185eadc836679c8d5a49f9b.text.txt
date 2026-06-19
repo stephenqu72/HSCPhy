@@ -1,0 +1,30 @@
+### Part (a)
+*   **Graph X (Continuous Spectrum):** Produced by a dense, hot black-body source (like a stellar core) emitting radiation across all wavelengths, resulting in a smooth, continuous curve.
+*   **Graph Y (Emission Spectrum):** Produced when light from a diffuse gas (often at low pressure) is viewed from a direction where it does not pass through the source; atoms in the gas are excited and emit photons at specific characteristic wavelengths.
+*   **Graph Z (Absorption Spectrum):** Produced when light from a continuous source passes through a cooler, diffuse gas. The atoms in the gas absorb specific photons corresponding to their electron energy levels, creating "gaps" (dark lines) in the otherwise continuous spectrum.
+
+### Part (b)
+To find the temperature, we use **Wien’s Displacement Law**:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$$
+
+1.  **Identify $\lambda_{max}$:** Looking at the provided stellar spectrum, the peak of the continuous curve (the "hump") occurs at approximately $400 \text{ nm} = 4.0 \times 10^{-7} \text{ m}$.
+2.  **Calculate $T$:**
+$$T = \frac{2.898 \times 10^{-3}}{4.0 \times 10^{-7}}$$
+$$T \approx 7245 \text{ K}$$
+(An answer in the range of $7000\text{--}7500 \text{ K}$ is acceptable based on visual estimation of the peak).
+
+### Part (c)
+i. **Moving away:** The entire spectrum would undergo a **redshift**. The graph would shift toward longer wavelengths (to the right). The relative flux profile remains similar, but the absorption lines and the peak intensity wavelength $\lambda_{max}$ move to the right.
+ii. **Higher density and temperature:**
+*   **Temperature:** According to Wien's Law, the peak ($\lambda_{max}$) would shift to a shorter wavelength (to the left), and the total intensity (area under the curve) would increase significantly (Stefan-Boltzmann Law).
+*   **Density:** A higher density of the outer layers (the atmosphere) would cause the absorption lines to broaden due to increased pressure broadening.
+
+***
+
+### Explaining how to solve it
+1.  **Theory Identification:** Part (a) tests your understanding of Kirchhoff's Laws of Spectroscopy. Memorize the three types of spectra and their origins.
+2.  **Calculation Strategy:** For part (b), always locate the peak of the curve. Be careful with unit conversions (nanometers to meters). The constant $2.898 \times 10^{-3} \text{ m K}$ is a standard value provided in HSC physics data sheets.
+3.  **Conceptual Application:** Part (c) requires understanding the Doppler Effect (redshift/blueshift) and how physical stellar properties affect spectral features (Broadening and Wien's Law).
+
+###QUESTION_TYPE
+Calculation question

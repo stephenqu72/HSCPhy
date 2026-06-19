@@ -1,0 +1,31 @@
+### Answer
+
+**a) How does the speed of the light change as it enters and propagates through the acrylic?**
+
+When light passes from air ($n_1 \approx 1.00$) into acrylic ($n_2 = 1.47$), it moves from an optically less dense medium to an optically denser medium. Consequently, the speed of the light decreases. 
+
+**Justification:** According to Snell's Law, when light enters a denser medium, it refracts towards the normal (the dashed line perpendicular to the interface). In the diagram, the light ray bends closer to the normal upon entering the acrylic. Since the refractive index $n$ is defined by $n = \frac{c}{v}$, a higher refractive index results in a lower speed $v$ for a constant speed of light in a vacuum ($c$).
+
+**b) Calculate the angle of refraction, $y$.**
+
+1. **Identify the angle of incidence:** The angle of incidence ($\theta_1$) must be measured from the **normal**, not the interface. 
+   $$\theta_1 = 90^\circ - 41^\circ = 49^\circ$$
+2. **Apply Snell's Law:** 
+   $$n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$$
+   $$(1.00) \sin(49^\circ) = (1.47) \sin(y)$$
+3. **Solve for $y$:**
+   $$\sin(y) = \frac{\sin(49^\circ)}{1.47}$$
+   $$\sin(y) \approx \frac{0.7547}{1.47} \approx 0.5134$$
+   $$y = \arcsin(0.5134) \approx 30.89^\circ$$
+
+The angle of refraction $y$ is approximately $30.9^\circ$.
+
+---
+
+### How to solve it
+
+*   **Part (a):** Focus on the relationship between optical density and speed. Remember that light slows down when entering a medium with a higher refractive index. The visual evidence is the bending of the ray toward the normal line.
+*   **Part (b):** This is a classic refraction problem. The most common trap is using the given $41^\circ$ as the angle of incidence. Always identify the normal line and calculate the angle relative to it ($90^\circ - \text{angle to interface}$). Once you have $\theta_1$, simply plug the known values into Snell's Law formula and use the inverse sine ($\arcsin$) function on your calculator to find $y$.
+
+###QUESTION_TYPE
+Calculation question

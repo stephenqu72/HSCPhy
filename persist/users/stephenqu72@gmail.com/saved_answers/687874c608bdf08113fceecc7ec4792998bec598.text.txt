@@ -1,0 +1,20 @@
+The correct answer is **A**.
+
+### Explanation
+
+To understand why, we must refer to **Faraday’s Law of Induction**, which states that the induced electromotive force (EMF) in a circuit is proportional to the rate of change of magnetic flux through the circuit:
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+In the context of a simple generator, where a coil rotates in a magnetic field, the induced voltage (EMF) is determined by the following factors:
+
+1.  **The rotation speed ($\omega$ or $\Delta t$):** Increasing the rotation speed of the rotor decreases the time ($\Delta t$) taken for the coil to complete a rotation, thereby increasing the rate of change of magnetic flux ($\Delta \Phi / \Delta t$). Therefore, **increasing the rotation speed directly increases the voltage output**. This confirms that **A** is correct.
+2.  **The number of turns in the coil ($N$):** Increasing the number of turns increases the EMF. Option **B** suggests *reducing* the number of windings, which would actually decrease the voltage.
+3.  **The magnetic field strength ($B$) and area of the coil ($A$):** A stronger magnetic field or a larger coil area would also increase the voltage.
+4.  **Commutators vs. Slip Rings:** Option **C** describes changing the output type (from DC to AC) but does not inherently increase the magnitude of the peak voltage output.
+5.  **Core Material:** Option **D** is incorrect because an aluminium core is non-ferromagnetic and would not enhance the magnetic flux through the coil like a soft-iron core would. Furthermore, while laminating cores reduces eddy currents, the material choice (aluminium) is not designed to increase the output voltage in the same way that increasing speed or magnetic flux density is.
+
+Thus, increasing the rotation speed is the most direct and effective method listed to increase the voltage output.
+
+### QUESTION_TYPE
+Multiple choice

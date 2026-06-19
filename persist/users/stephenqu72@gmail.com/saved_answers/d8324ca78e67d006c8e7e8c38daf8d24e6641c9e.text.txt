@@ -1,0 +1,28 @@
+To solve this problem, we need to understand the relationship between the rotational speed of an AC generator, its output voltage, and its frequency.
+
+### Explanation
+
+1.  **Understand the Physics:** The output voltage of an AC generator is governed by Faraday's Law of Induction, where the peak voltage ($V_{peak}$) is proportional to the angular velocity ($\omega$) of the coil:
+    $$V_{peak} = N A B \omega = N A B (2\pi f)$$
+    where $f$ is the frequency (revolutions per second).
+
+2.  **Analyze the Change in Frequency:**
+    *   The original frequency is $f_1 = 50\text{ rev/s}$.
+    *   The new frequency is $f_2 = 25\text{ rev/s}$.
+    *   Since $f_2 = \frac{1}{2} f_1$, the new peak voltage must be half of the original peak voltage:
+        $$V_{peak, 2} = \frac{1}{2} V_{peak, 1}$$
+    *   Since the peak voltage drops from $1$ to $0.5$, we can immediately eliminate options A and C.
+
+3.  **Analyze the Change in Period:**
+    *   The period ($T$) is the inverse of the frequency: $T = \frac{1}{f}$.
+    *   Because the frequency is halved ($f_2 = 0.5 f_1$), the period must double ($T_2 = 2T_1$).
+    *   Looking at the original graph, one full cycle (one peak and one trough) occurs between the start and the second vertical dashed line. In the new graph, we expect one full cycle to take twice as long, meaning we should only see half as many cycles in the same time interval.
+
+4.  **Evaluate the Options:**
+    *   **Option B:** Keeps the same peak voltage (1), which is incorrect.
+    *   **Option D:** Shows a peak voltage of $0.5$ and a frequency that is half of the original (one full cycle takes twice the time of the original cycle). This matches our calculations.
+
+**Answer:** The correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

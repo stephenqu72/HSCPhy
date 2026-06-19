@@ -1,0 +1,21 @@
+To explain the shape of this graph, we must apply the principles of electromagnetic induction, specifically Faraday’s Law and Lenz’s Law.
+
+### Answer
+The graph shows an initial increase in velocity, followed by a transition to a constant terminal velocity.
+
+1.  **Initial Motion:** As the magnet slides down the copper ramp, gravity exerts a force causing it to accelerate.
+2.  **Induction:** As the magnet moves, the magnetic flux through the copper sheet changes. According to **Faraday’s Law**, this induces an electromotive force (EMF) in the conducting copper.
+3.  **Eddy Currents:** Because copper is a conductor, the induced EMF creates circular currents within the sheet known as **eddy currents**.
+4.  **Lenz’s Law:** These eddy currents generate their own magnetic field that opposes the change in flux causing them. This produces a magnetic braking force that acts in the opposite direction to the magnet's motion.
+5.  **Terminal Velocity:** As the magnet’s velocity increases, the rate of change of magnetic flux increases, which increases the eddy currents and the resulting magnetic braking force. Eventually, the magnitude of the braking force equals the component of gravitational force pulling the magnet down the ramp. At this point, the net force is zero, the acceleration becomes zero, and the magnet reaches a constant **terminal velocity**.
+
+### How to solve this type of HSC question
+When tackling 5-mark physics "explain" questions, use the **PEEL** structure or a logical sequence of cause-and-effect:
+*   **Identify the physics principles:** Immediately name Faraday’s and Lenz’s Laws.
+*   **Link the cause to the effect:** State clearly that motion causes a change in magnetic flux, which creates currents.
+*   **Address the specific scenario:** Explain *why* there is a braking force (the opposition to motion).
+*   **Explain the trend:** Relate the velocity change to the balance of forces (gravity vs. magnetic braking). 
+*   **Use terminology:** Ensure you use key terms like "magnetic flux," "eddy currents," "terminal velocity," and "net force" to ensure you hit all the marking criteria.
+
+###QUESTION_TYPE
+Short answer

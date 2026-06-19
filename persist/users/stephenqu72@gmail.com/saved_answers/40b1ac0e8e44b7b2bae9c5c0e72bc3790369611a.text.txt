@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this problem, we must apply the principle of **Conservation of Energy** and the relationship between electrical power and mechanical work.
+
+1.  **Understand the Power Requirement:**
+    *   In Circuit 1, the generator supplies power to one light globe ($P_1 = VI$).
+    *   In Circuit 2, the two identical globes are connected in series. The total resistance of the circuit increases ($R_{total} = R_1 + R_2 = 2R$), which results in a smaller current flowing through the circuit ($I = \frac{V}{2R}$). 
+    *   Even though the current is smaller, the generator must now supply power to **two** globes. The total power required is $P_2 = I^2 \times (2R) = (\frac{V}{2R})^2 \times 2R = \frac{V^2}{4R^2} \times 2R = \frac{V^2}{2R}$.
+    *   Alternatively, simply by observation: for the globes to light up, electrical energy must be converted from mechanical energy. Since there are two globes consuming electrical power, the total power output required from the generator is greater than in the case of a single globe.
+
+2.  **Relate Power to Mechanical Torque:**
+    *   The AC generator acts as a transducer, converting mechanical work (input) into electrical energy (output).
+    *   Power is defined as $P = \tau \omega$, where $\tau$ is the torque and $\omega$ is the angular velocity.
+    *   Since the handle is turned at a **constant speed** ($\omega$ is constant), any increase in required electrical power ($P$) must result in an increase in the mechanical torque ($\tau$) provided by the user.
+
+3.  **Evaluate the Options:**
+    *   Options A and C are incorrect because they focus on the "opposing torque" being determined solely by current without considering the total power demand. While Lenz's Law explains the opposing force, the total energy demand is the primary driver here.
+    *   Option B is incorrect because voltage sharing does not explain the mechanical effort; it describes the electrical distribution.
+    *   Option D correctly identifies that the generator must perform more work (provide more power) to illuminate two globes, requiring more effort (torque) from the operator to maintain a constant speed.
+
+### QUESTION_TYPE
+Multiple choice

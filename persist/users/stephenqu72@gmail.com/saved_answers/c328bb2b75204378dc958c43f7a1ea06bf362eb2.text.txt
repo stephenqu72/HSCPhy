@@ -1,0 +1,25 @@
+To solve this question, we must understand the principles of a DC motor, specifically the role of **back EMF (electromotive force)**.
+
+### Explanation
+
+1.  **Back EMF Principle:** When a DC motor spins, the rotating coil experiences a changing magnetic flux, which induces an electromotive force (EMF) in the coil. According to **Lenz’s Law**, this induced EMF opposes the supply voltage (back EMF).
+2.  **Relationship to Speed:** The magnitude of the back EMF ($\varepsilon$) is directly proportional to the angular velocity ($\omega$) of the motor:
+    $$\varepsilon \propto \omega$$
+3.  **Current and Ohm's Law:** The current ($I$) flowing through the motor is governed by the net voltage across the coil:
+    $$I = \frac{V_{supply} - \varepsilon}{R}$$
+    Where $V_{supply}$ is the applied voltage and $R$ is the resistance of the coil.
+4.  **Comparing the Tests:**
+    *   **Test 1:** The motor is switched on continuously for one minute. It reaches a high steady-state angular speed. A higher speed means a larger back EMF, which results in a lower net voltage, and consequently, a **lower average current**.
+    *   **Test 2:** The motor is switched on and off repeatedly. It spends significant time accelerating from rest or slowing down, meaning its average angular speed is lower than in Test 1. A lower average speed results in a smaller average back EMF, which results in a **higher average current**.
+
+Therefore, the motor in Test 1 has a higher average angular speed, which creates a greater back EMF, effectively "choking" the current flow more than in Test 2. This aligns with option **D**.
+
+*   *Why the others are incorrect:*
+    *   **A:** Friction generally increases with speed, and extra friction would likely lower speed, not explain current trends in this context.
+    *   **B:** Resistance usually increases with temperature (due to increased lattice vibrations in the metal), not decreases.
+    *   **C:** While flux changes, the primary driver for the reduced current at higher speeds is the back EMF resulting from those changes. Option D is a more precise description of the mechanism.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

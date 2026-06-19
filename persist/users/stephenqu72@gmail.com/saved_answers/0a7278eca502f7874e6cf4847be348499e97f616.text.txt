@@ -1,0 +1,40 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this analysis of stellar spectra. This is a classic topic in the "Astrophysics" option of the HSC syllabus.
+
+---
+
+### **a. Explain why a main sequence star produces a spectrum as shown in figure 1.**
+**Answer:** The star produces a continuous spectrum (the smooth curve) because its dense, hot core acts as a blackbody radiator, emitting a continuous range of wavelengths. The sharp dips (absorption lines) occur because light from the core passes through the cooler, thinner gases of the stellar atmosphere. Atoms in the atmosphere absorb specific photons corresponding to the energy difference between electron energy levels, creating "missing" intensity at those specific wavelengths.
+
+---
+
+### **b. With reference to Bohr’s model of the atom, explain how the hydrogen spectrum, as shown in figure 2, is produced.**
+**Answer:** According to Bohr’s model, electrons exist in fixed, quantized energy levels. When an electron transitions from a higher energy level ($n_{high}$) to a lower energy level ($n_{low}$), a photon is emitted. The energy of this photon is equal to the difference between the two levels: $E_{photon} = E_{high} - E_{low}$. Because $E = \frac{hc}{\lambda}$, each specific transition corresponds to a specific wavelength of light, resulting in the discrete, colored lines observed in the emission spectrum.
+
+---
+
+### **c. Use the information provided in the figure 1, determine the temperature of the main sequence star.**
+**Method:** We use **Wien’s Displacement Law**, which states $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+1.  **Identify $\lambda_{max}$:** Looking at Figure 1, the peak intensity occurs at approximately $400 \text{ nm} = 4.0 \times 10^{-7} \text{ m}$.
+2.  **Calculate:**
+    $$T = \frac{2.898 \times 10^{-3}}{4.0 \times 10^{-7}}$$
+    $$T \approx 7245 \text{ K}$$
+(Note: Depending on the precise reading of the graph, a range of $7000\text{--}7500 \text{ K}$ is typically accepted).
+
+---
+
+### **d. By using the information in figure 1 and figure 2 show that hydrogen is one of the gases in the main sequence star.**
+**Answer:** To confirm the presence of hydrogen, we look for a correspondence between the emission lines in Figure 2 and the absorption lines in Figure 1. 
+- In Figure 2, there is a prominent red hydrogen line at $656 \text{ nm}$. 
+- Looking at Figure 1, there is a distinct sharp "dip" (absorption line) at exactly $656 \text{ nm}$. 
+- Since the absorption lines in a stellar spectrum occur at the exact same wavelengths as the emission lines of the elements present in the stellar atmosphere, the presence of an absorption dip at the characteristic hydrogen wavelength confirms hydrogen is present in the star.
+
+---
+
+### **Teacher’s Tip for Success:**
+When answering these in an exam:
+*   **Part (a):** Always mention "blackbody radiation" for the continuous background and "selective absorption" for the lines.
+*   **Part (c):** Ensure your units are converted correctly ($nm$ to meters). If you use $nm$ for $\lambda$, you must use $2.898 \times 10^6$ for the constant.
+*   **Part (d):** Use the word "correlation" or "coincidence"—explain that the energy gaps of the atoms match the photons removed from the continuous spectrum.
+
+###QUESTION_TYPE
+Data analysis questions

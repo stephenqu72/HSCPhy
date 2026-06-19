@@ -1,0 +1,34 @@
+To solve this problem, we use the definition of magnetic flux ($\Phi$).
+
+### 1. Identify the given information:
+*   Magnetic field strength ($B$) = $2\text{ T}$
+*   Radius of the loop ($r$) = $8\text{ cm}$ = $0.08\text{ m}$
+
+### 2. The Formula for Magnetic Flux:
+Magnetic flux is defined as the product of the magnetic field strength ($B$) and the area ($A$) perpendicular to the field lines that it passes through:
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+Since the loop is placed perpendicular to the field (the dots represent field lines coming out of the page), the angle $\theta$ between the area vector and the magnetic field is $0^\circ$. Because $\cos(0^\circ) = 1$, the formula simplifies to:
+$$\Phi = B \cdot A$$
+
+### 3. Calculation:
+First, calculate the area ($A$) of the circular loop:
+$$A = \pi \cdot r^2$$
+$$A = \pi \cdot (0.08\text{ m})^2$$
+$$A = \pi \cdot 0.0064\text{ m}^2 \approx 0.0201\text{ m}^2$$
+
+Now, calculate the magnetic flux:
+$$\Phi = B \cdot A$$
+$$\Phi = 2\text{ T} \cdot (0.0064\pi\text{ m}^2)$$
+$$\Phi \approx 2 \cdot 0.0201 \approx 0.0402\text{ Wb}$$
+
+Rounding to the nearest provided option, we get $0.04\text{ Wb}$.
+
+**Correct Answer:** **(A)**
+
+### How to solve this type of question:
+1.  **Check units:** Always convert units to standard SI units (meters, Tesla, etc.) before calculating. Here, cm was converted to meters.
+2.  **Determine the orientation:** Identify if the magnetic field is perpendicular to the area. If it is, use $\Phi = BA$. If it is at an angle, remember to include the $\cos(\theta)$ component.
+3.  **Calculate the area:** Remember the standard area formulas for shapes ($A = \pi r^2$ for a circle, $A = l \cdot w$ for a rectangle).
+
+###QUESTION_TYPE
+Multiple choice

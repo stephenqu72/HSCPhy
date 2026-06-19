@@ -1,0 +1,14 @@
+### Answer
+At the moment the motor is connected to the voltage source, the speed is zero, meaning there is no back electromotive force (back EMF). The current is therefore limited only by the internal resistance of the armature, resulting in the high starting current $I_{max} = \frac{V}{R}$.
+
+As the motor begins to rotate, the armature coils cut through the magnetic field, inducing a back EMF ($\varepsilon$) that opposes the supply voltage ($V$). According to Lenz’s Law, the back EMF acts to reduce the net potential difference driving the current. As the motor speed increases, the magnitude of the back EMF increases, causing the net voltage ($V - \varepsilon$) to decrease, which subsequently causes the armature current to drop.
+
+### How to solve this
+To secure full marks on this HSC physics question, you must demonstrate an understanding of the relationship between motor speed, back EMF, and Ohm's Law. Follow these logical steps:
+
+1.  **Address the initial state ($t=0$):** Explain that at the start, the motor is stationary. Consequently, the back EMF is zero. Use the relationship $I = \frac{V}{R}$ to show that the initial current is at its maximum because it is limited only by the resistance of the armature circuit.
+2.  **Define Back EMF:** Explain that as the motor rotates, the armature coil experiences a changing magnetic flux, inducing an EMF (back EMF) that opposes the supply voltage.
+3.  **Explain the trend:** Relate speed to back EMF. As the speed increases, the rate of change of magnetic flux increases, leading to a larger back EMF. Since the net voltage driving the current is $(V - \varepsilon)$, an increase in back EMF reduces the net potential difference, causing the current to fall toward its steady-state value.
+
+###QUESTION_TYPE
+Short answer

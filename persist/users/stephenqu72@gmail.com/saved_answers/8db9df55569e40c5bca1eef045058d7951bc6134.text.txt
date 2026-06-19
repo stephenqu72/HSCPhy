@@ -1,0 +1,30 @@
+### Answer
+
+**(a) Calculate the current in the primary coil.**
+
+For an ideal transformer, the power input equals the power output ($P_p = P_s$). Since $P = VI$, we have $V_p I_p = V_s I_s$. Given the transformer equation $\frac{V_p}{V_s} = \frac{N_p}{N_s}$, we can derive the current relationship:
+$$\frac{I_p}{I_s} = \frac{N_s}{N_p}$$
+Substituting the given values:
+$N_p = 6$
+$N_s = 12$
+$I_s = 5\text{ A}$
+
+$$I_p = I_s \times \frac{N_s}{N_p}$$
+$$I_p = 5 \times \frac{12}{6}$$
+$$I_p = 5 \times 2 = 10\text{ A}$$
+
+The current in the primary coil is **10 A**.
+
+**(b) Explain why it is important to use AC rather than DC when operating transformers.**
+
+Transformers rely on the principle of electromagnetic induction. AC provides a constantly changing current, which creates a constantly changing magnetic flux through the iron core. This changing magnetic flux induces an EMF (voltage) in the secondary coil according to Faraday's Law. If DC were used, the current would be constant, resulting in a constant magnetic field (after the initial switch-on). A constant magnetic field does not induce an EMF in the secondary coil, meaning no power would be transferred.
+
+---
+
+### How to solve it
+
+1.  **For part (a):** Identify the relationship between turns ratio and current ratio in an ideal transformer. Remember that transformers are inverse devices regarding voltage and current: if you step up the voltage (by having more turns on the secondary), you must step down the current to conserve energy. Use the formula $\frac{I_p}{I_s} = \frac{N_s}{N_p}$ and ensure you substitute the secondary current and turns on the correct side of the equation.
+2.  **For part (b):** Connect your understanding of induction to the requirements for voltage production. The key phrase for HSC examiners is "changing magnetic flux." Because $V = -N\frac{\Delta\Phi}{\Delta t}$, there must be a change in flux ($\Delta\Phi$) over time ($\Delta t$). DC does not provide this change after the initial transient state, whereas AC provides a continuous change.
+
+###QUESTION_TYPE
+Calculation question

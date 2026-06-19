@@ -1,0 +1,24 @@
+### Answer
+
+The difference between a DC motor and a DC generator, in terms of the Law of Conservation of Energy, lies in the energy conversion process:
+
+*   **DC Motor:** The device acts as a transducer that converts **electrical energy** (supplied by the battery/power source) into **mechanical kinetic energy** (motion of the vehicle). The current flowing through the coil in a magnetic field experiences a magnetic force (Lorentz force) that produces torque.
+*   **DC Generator:** The device acts as a transducer that converts **mechanical kinetic energy** (provided by the vehicle's forward momentum) into **electrical energy**. As the coil is forced to rotate within the magnetic field, the changing magnetic flux induces an electromotive force (EMF) according to Faraday’s Law. This electrical energy can then be used to recharge the battery.
+
+In both cases, energy is not created or destroyed; it is merely transformed from one form to another. In the "Brake" mode, the kinetic energy of the vehicle is depleted as it is converted into electrical energy, which results in a resistive force that slows the vehicle down.
+
+---
+
+### How to solve this question
+
+To secure full marks (4 marks) for this HSC-style question, you must demonstrate a clear understanding of physics principles and link them to the specific context provided. Use this step-by-step approach:
+
+1.  **Define the Energy Transformation (Motor):** Explicitly state that a motor is a device where $Electrical \rightarrow Mechanical$ energy. Briefly mention that this occurs because current interacts with the magnetic field to produce force.
+2.  **Define the Energy Transformation (Generator):** State that a generator is a device where $Mechanical \rightarrow Electrical$ energy. Mention that the rotation of the coil creates a changing magnetic flux, which induces an EMF (Faraday's Law).
+3.  **Invoke the Principle:** Explicitly reference the Law of Conservation of Energy by stating that the total energy in an isolated system remains constant.
+4.  **Connect to the Context (Regenerative Braking):** Explain how "braking" occurs. The vehicle's kinetic energy is "used up" to drive the generator. Because the generator does work to produce electricity, it creates a back-EMF and torque that opposes the motion of the vehicle, thereby acting as a braking mechanism.
+
+---
+
+###QUESTION_TYPE
+Short answer

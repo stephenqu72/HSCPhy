@@ -1,0 +1,38 @@
+Hello! As an HSC Physics teacher, I'm here to help you break down these transformer concepts. Let's tackle these one by one.
+
+### Part (a)
+**Answer:**
+We assume an ideal transformer where input power equals output power ($P_{in} = P_{out}$).
+Using the formula $P = VI$:
+$$V_{in}I_{in} = V_{out}I_{out}$$
+$$240 \times I_{in} = 6 \times 1$$
+$$I_{in} = \frac{6}{240}$$
+$$I_{in} = 0.025 \text{ A}$$
+
+**How to solve it:**
+1. **Identify the principle:** In an ideal transformer, energy is conserved, meaning the power entering the primary coil equals the power leaving the secondary coil.
+2. **Set up the equation:** Use the relationship $V_{in}I_{in} = V_{out}I_{out}$.
+3. **Substitute:** Plug in the known values ($V_{in}=240\text{V}$, $V_{out}=6\text{V}$, $I_{out}=1\text{A}$).
+4. **Calculate:** Solve for $I_{in}$. Always include units in your final answer.
+
+---
+
+### Part (b)
+**How to solve it:**
+To model a transformer:
+1. Draw two separate coils (the primary and the secondary) connected by a rectangular soft-iron core.
+2. Label the primary side (left) with $240\text{V}$ AC and the secondary side (right) with $6\text{V}$ AC.
+3. Show fewer turns on the secondary coil than the primary coil (since it is a step-down transformer).
+
+---
+
+### Part (c)
+**Answer:**
+To maximize efficiency and minimize energy losses, transformers are designed with the following features:
+*   **Laminated soft-iron core:** The core is made of thin, insulated sheets to reduce "eddy currents," which minimize thermal energy loss.
+*   **Soft magnetic material:** Using materials like silicon steel allows for easy magnetization and demagnetization, reducing "hysteresis loss."
+*   **Thick copper windings:** Using low-resistance wire (copper) minimizes heat loss due to the resistance of the wires ($I^2R$ heating or "copper loss").
+*   **Tight coupling:** Winding coils closely around each other ensures almost all magnetic flux passes through both coils, minimizing "flux leakage."
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,44 @@
+As an HSC Physics teacher, here is how we approach this multi-part electrical power problem.
+
+### Part a: Current of the grid power supply
+**Concept:** Use the power formula $P = VI$.
+Given: $P = 50\text{ kW} = 50,000\text{ W}$, $V = 11\text{ kV} = 11,000\text{ V}$.
+
+**Calculation:**
+$$I = \frac{P}{V} = \frac{50,000}{11,000} \approx 4.545\dots\text{ A}$$
+Rounding to a reasonable number of significant figures (usually 2 or 3 in HSC), we get:
+**Current $\approx 4.55\text{ A}$**
+
+---
+
+### Part b: Ratio of transformer windings
+**Concept:** The transformer equation states $\frac{V_p}{V_s} = \frac{N_p}{N_s}$.
+Given: $V_p = 11,000\text{ V}$, $V_s = 230\text{ V}$.
+
+**Calculation:**
+$$\frac{N_p}{N_s} = \frac{11,000}{230} \approx 47.826$$
+Rounding to the nearest whole number ratio:
+**$N_p : N_s = 48 : 1$**
+
+---
+
+### Part c: Determining the location for least power loss
+**Concept:** Power loss in transmission lines is calculated by $P_{\text{loss}} = I^2 R$. To minimize power loss, we must minimize the current $I$.
+
+**Scenario A (Transformer at start):**
+The transformer steps down the voltage to $230\text{ V}$ at the source. If $P = 50\text{ kW}$ is delivered at $230\text{ V}$:
+$$I_A = \frac{50,000}{230} \approx 217.39\text{ A}$$
+$$P_{\text{loss(A)}} = I_A^2 R = (217.39)^2 \times 1.0 \approx 47,258\text{ W} \text{ (or } 47.3\text{ kW)}$$
+
+**Scenario B (Transformer at end):**
+The current remains at the high-voltage level ($11\text{ kV}$) for the duration of the transmission:
+$$I_B = 4.55\text{ A}$$
+$$P_{\text{loss(B)}} = I_B^2 R = (4.55)^2 \times 1.0 \approx 20.7\text{ W}$$
+
+**Conclusion:**
+The transformer should be at **Location B**. 
+**Reasoning:** Placing the transformer at the buildings allows electricity to be transmitted at a high voltage and low current. Since power loss is proportional to the square of the current ($P \propto I^2$), keeping the current low (at $4.55\text{ A}$ vs $217\text{ A}$) drastically reduces resistive heating losses in the wires.
+
+---
+###QUESTION_TYPE
+Calculation question

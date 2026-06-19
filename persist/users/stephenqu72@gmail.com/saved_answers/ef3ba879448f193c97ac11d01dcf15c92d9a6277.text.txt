@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### (a) Sketch of EMF against time
+The generator coil starts in a position where the plane of the coil is parallel to the magnetic field lines. At this position, the magnetic flux $\Phi$ through the coil is zero, but the rate of change of flux is at its maximum. Therefore, the EMF starts at its maximum positive value.
+*   **Graph:** A cosine wave starting at a positive peak at $t=0$, crossing zero at $t = T/4$ ($1.00 \times 10^{-3} \text{ s}$), reaching a minimum at $t = T/2$ ($2.00 \times 10^{-3} \text{ s}$), etc.
+
+#### (b) Identify the transformer
+By counting the turns in the diagram:
+*   Primary coil ($N_p$) has 8 turns.
+*   Secondary coil ($N_s$) has 4 turns.
+Since $N_s < N_p$, this is a **step-down transformer**.
+
+#### (c) Calculate the maximum reading on the galvanometer
+**1. Find frequency ($f$):**
+$$f = \frac{1}{T} = \frac{1}{4.00 \times 10^{-3}} = 250 \text{ Hz}$$
+
+**2. Calculate maximum EMF ($\varepsilon_{max}$) of the generator:**
+$$\varepsilon_{max} = 2\pi f BA = 2\pi(250)(8.50 \times 10^{-2})(1.50) \approx 200.28 \text{ V}$$
+
+**3. Relate to secondary voltage:**
+For an ideal transformer: $\frac{V_s}{V_p} = \frac{N_s}{N_p}$
+$$V_s = V_p \times \frac{4}{8} = 200.28 \times 0.5 = 100.14 \text{ V}$$
+
+**4. Find maximum galvanometer current ($I_{max}$):**
+Using Ohm's Law ($I = V/R$):
+$$I_{max} = \frac{V_s}{R} = \frac{100.14}{5.25} \approx 19.07 \text{ A}$$
+*(Note: A real galvanometer would likely be damaged by this current, but mathematically, the peak reading is $19.1 \text{ A}$.)*
+
+#### (d) Effect of a split-ring commutator
+Replacing slip rings with a split-ring commutator converts the output to **pulsating DC** (direct current). Because a transformer requires a changing magnetic flux (which only occurs with AC), the flux in the transformer core will no longer oscillate back and forth. Instead, it will rise and fall in one direction. While there will be a momentary induction when the current changes magnitude, the steady-state operation of a transformer fails with DC. The galvanometer reading would drop to **zero** (or show only momentary "blips" when the DC magnitude changes, but it will not sustain a continuous AC output).
+
+### QUESTION_TYPE
+Calculation question

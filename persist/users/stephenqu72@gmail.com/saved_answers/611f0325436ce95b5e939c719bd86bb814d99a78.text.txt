@@ -1,0 +1,28 @@
+To solve this problem, we must understand the physics of single-slit diffraction.
+
+### Explanation
+
+The condition for the first dark fringe (minimum) in a single-slit diffraction pattern is given by the formula:
+$$a \sin \theta = n \lambda$$
+For the first minimum ($n=1$), we have:
+$$a \sin \theta = \lambda$$
+For small angles, $\sin \theta \approx \tan \theta \approx \frac{y}{D}$, where $y$ is the distance from the central maximum to the first minimum, and $D$ is the distance to the screen. Thus, the angular width of the central maximum is proportional to:
+$$\theta \approx \frac{\lambda}{a}$$
+
+**Analyzing the image:**
+1. Looking at the patterns, we can see that the central maximum of $S_1$ is much wider than the central maximum of $S_2$. Therefore, the angular width of the diffraction pattern for $S_1$ is greater than that for $S_2$:
+$$\theta_1 > \theta_2$$
+2. Since $\theta$ is proportional to the ratio $\frac{\lambda}{a}$, we can conclude that:
+$$\frac{\lambda_1}{a_1} > \frac{\lambda_2}{a_2}$$
+
+This relationship shows that for $S_1$, the ratio of wavelength to slit width is larger, which is consistent with its broader diffraction pattern.
+
+Comparing this to the given options, this matches **(D)**.
+
+***
+
+### Answer
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

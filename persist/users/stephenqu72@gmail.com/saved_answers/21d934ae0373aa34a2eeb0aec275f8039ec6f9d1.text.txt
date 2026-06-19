@@ -1,0 +1,30 @@
+As an HSC Physics teacher, let's break this question down. This is a classic electromagnetism problem disguised as a magic trick.
+
+### Analysis of the Physics
+The question asks us to identify the graph representing the induced electromotive force (EMF) in a metal ring as it is thrown into the air. 
+
+According to **Faraday's Law of Induction**, an EMF is induced in a conducting loop if there is a **change in magnetic flux** ($\Phi$) through the area enclosed by that loop:
+$$\text{EMF} = -N \frac{\Delta\Phi}{\Delta t}$$
+
+In this scenario:
+1. The metal ring is in Earth's magnetic field.
+2. As the magician throws the ring into the air, the ring undergoes projectile motion.
+3. Crucially, the orientation of the ring relative to Earth's magnetic field **remains constant** as it moves through the air (assuming it doesn't tumble).
+4. Because the magnetic field strength ($B$), the area of the ring ($A$), and the angle ($\theta$) between the field and the normal to the area are all constant during the flight, the magnetic flux $\Phi = BA \cos \theta$ remains **constant**.
+
+Since the magnetic flux does not change ($\Delta\Phi = 0$), there is no induced EMF in the ring during its flight.
+
+### Evaluating the Options
+*   **Options A, B, and D** all suggest that there is a non-zero, time-varying, or constant EMF present, which would violate the law of conservation of energy in this context.
+*   **Option C** shows an EMF of zero throughout the time interval. This correctly represents the physical situation where no change in magnetic flux occurs.
+
+**Correct Answer: C**
+
+### How to solve it
+1.  **Identify the principle:** Recognise that this is an induction problem requiring Faraday's Law.
+2.  **Determine the flux:** Ask, "Is the amount of magnetic field passing through the loop changing?" 
+3.  **Evaluate variables:** Since the Earth's magnetic field is essentially uniform over the scale of the magic trick and the ring is not rotating or changing area, the flux is constant.
+4.  **Conclude:** If flux is constant, the rate of change of flux is zero, therefore induced EMF must be zero. Look for the graph representing a constant zero value.
+
+###QUESTION_TYPE
+Multiple choice

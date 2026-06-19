@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### (a) How are dark fringes produced?
+Dark fringes are the result of **destructive interference**. Light waves originating from the two slits $S_1$ and $S_2$ travel different path lengths to reach a point on the screen. When the path difference is an odd integer multiple of half-wavelengths ($[m + 0.5]\lambda$ where $m = 0, 1, 2...$), the crest of one wave arrives at the same time as the trough of the other. These waves are $180^\circ$ ($\pi$ radians) out of phase, causing them to cancel each other out, resulting in zero intensity (a dark fringe).
+
+#### (b) Effect of doubling the wavelength
+The location of a fringe (distance $y$) on the screen is governed by the formula $\Delta x = d \sin \theta \approx d \frac{y}{R}$. For a dark fringe, $\Delta x = (m + 0.5)\lambda$.
+Thus, $y = \frac{(m + 0.5)\lambda R}{d}$.
+If the wavelength $\lambda$ is doubled ($2\lambda$), then the new position $y'$ becomes:
+$y' = \frac{(m + 0.5)(2\lambda) R}{d} = 2y$.
+**Quantitatively, the location of every dark fringe would double (they move twice as far from the central bright fringe).**
+
+#### (c) Effect of adding two extra slits
+Yes, there would still be a dark fringe at point $P$. Point $P$ represents the first dark fringe in a two-slit system, where the path difference between $S_1$ and $S_2$ is $0.5\lambda$. When you add more slits (creating a diffraction grating), the condition for destructive interference becomes more complex; however, for any pair of slits separated by distance $d$, the destructive interference condition remains. Because the question specifies the new slits are separated by the same distance, the destructive interference pattern at the original location $P$ persists, although the fringes will become much sharper and brighter due to the constructive interference of the additional slits.
+
+#### (d) Adjustments to keep the fringe spacing constant
+The fringe position is given by $y = \frac{(m + 0.5)\lambda R}{d}$. To keep $y$ constant while increasing $\lambda$, we must decrease the value of the ratio $\frac{\lambda}{d}$ or $\lambda R$.
+1. **Decrease the slit separation ($d$):** By moving the two slits closer together, we counteract the increase in $\lambda$.
+2. **Decrease the distance to the screen ($R$):** By moving the screen closer to the slits, we reduce the spread of the pattern, counteracting the increase in $\lambda$.
+
+---
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,25 @@
+To score full marks on an 8-mark HSC physics question, you need to demonstrate a deep understanding of the relationship between motor design, back EMF ($\epsilon$), and torque ($\tau$).
+
+### Answer
+
+To improve motor performance and mitigate issues regarding torque and back EMF, several engineering modifications can be implemented:
+
+1.  **Increasing the Number of Coils (Armature Windings):** By using multiple coils wound on a cylindrical iron core (an armature), the motor maintains a more consistent torque. As one coil rotates out of the position of maximum torque, another enters it, preventing the "dead spots" seen in simple motors and ensuring smooth rotational speed.
+2.  **Using a Radial Magnetic Field:** Instead of flat pole pieces, using curved (concave) permanent magnets or electromagnets ensures that the magnetic field lines are always perpendicular to the current-carrying wires in the armature. Since torque is defined by $\tau = nBIA \cos(\theta)$, keeping the field radial keeps the coil in the position of maximum torque throughout the rotation.
+3.  **Increasing the Strength of the Magnetic Field ($B$):** Using stronger permanent magnets (e.g., Neodymium) or electromagnets with higher current capacity increases the magnetic flux density. This directly increases the maximum torque ($\tau = nBIA$) and enhances the magnitude of the back EMF induced, which helps regulate the motor's operating speed.
+4.  **Increasing the Number of Turns ($n$) in the Coil:** Adding more turns to the armature coil increases the total flux linkage and the magnetic force experienced by the coil, significantly boosting both starting and running torque.
+5.  **Using a Laminated Iron Core:** To address back EMF efficiency, the armature should be built on a laminated iron core. This reduces the circulation of **eddy currents** within the core, which would otherwise generate unwanted heat and oppose the motion, thereby improving the efficiency of the motor and reducing energy losses.
+6.  **Optimizing Commutation:** Using more commutator segments ensures that current is always directed in the most efficient path through the armature, reducing sparking and power loss, which maintains a more stable torque output.
+
+---
+
+### How to solve this question
+1.  **Analyze the context:** The question mentions a "variable resistor." This is a clue that the motor faces high starting current (because back EMF is zero at zero velocity). Your answer should address how structural improvements remove the need for such external protections.
+2.  **Focus on the Physics principles:** 
+    *   **Torque:** Recall $\tau = nBIA \sin(\theta)$ (or $\cos(\theta)$ depending on geometry). To improve torque, you must increase $n, B, I,$ or $A$.
+    *   **Back EMF:** Recall $\epsilon = -N \frac{\Delta \Phi}{\Delta t}$. Back EMF is necessary to limit current at high speeds. 
+3.  **Structure the response:** Since this is an 8-mark question, aim for 4 distinct, well-explained points. Use technical vocabulary (e.g., *armature, flux density, radial field, eddy currents*).
+4.  **Connect concepts:** Explain *why* the change works. For example, do not just say "use curved magnets," say "use curved magnets *to ensure a radial field, which keeps the force perpendicular to the coil for maximum, constant torque*."
+
+###QUESTION_TYPE
+Short answer

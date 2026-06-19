@@ -1,0 +1,35 @@
+Hello! As your HSC Physics teacher, I will guide you through this classic electromagnetism problem. Let's break this down step-by-step.
+
+### Answers and Explanations
+
+**a. Which terminal of the commutator is connected to the positive terminal of the current supply?**
+*   **Answer:** **X**
+*   **Explanation:** Conventional current flows from positive to negative. Looking at the arrow on the coil, the current is flowing from $J$ towards $K$. By tracing the path, the current enters the coil through commutator segment $X$. Therefore, $X$ must be connected to the positive terminal.
+
+**b. Draw an arrow on Figure 3 to indicate the direction of the magnetic force acting on the side JK.**
+*   **Explanation:** Use the Right-Hand Palm Rule (or Fleming’s Left-Hand Rule).
+    *   Point your fingers in the direction of the magnetic field ($B$) from North to South (towards the right).
+    *   Point your thumb in the direction of the current ($I$) from $J$ to $K$ (into the page/away from the viewer).
+    *   Your palm pushes **upwards**.
+*   **Action:** Draw an arrow pointing vertically upwards from the side $JK$.
+
+**c. Explain the role of the commutator in the operation of the DC motor.**
+*   **Answer:** The commutator reverses the direction of the current in the coil every half-rotation.
+*   **Explanation:** This reversal ensures that the torque produced by the magnetic force consistently acts in the same rotational direction. Without it, the coil would oscillate back and forth once it reached the vertical position rather than completing full rotations.
+
+**d. Calculate the size of the magnetic force on the side JK.**
+*   **Formula:** $F = nBIL\sin(\theta)$
+    *   $n = 100$ turns
+    *   $B = 0.45\text{ T}$
+    *   $I = 6.0\text{ A}$
+    *   $L = 5.0\text{ cm} = 0.05\text{ m}$
+    *   $\theta = 90^\circ$ (since the coil is perpendicular to the field lines in the shown orientation)
+*   **Calculation:**
+    $$F = 100 \times 0.45 \times 6.0 \times 0.05 \times \sin(90^\circ)$$
+    $$F = 100 \times 0.45 \times 6.0 \times 0.05 \times 1$$
+    $$F = 135\text{ N}$$
+
+---
+
+###QUESTION_TYPE
+Calculation question

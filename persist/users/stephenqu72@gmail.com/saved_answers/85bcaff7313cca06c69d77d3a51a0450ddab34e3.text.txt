@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this problem, we must apply **Lenz’s Law** and the principle of **electromagnetic induction**.
+
+1.  **Electromagnetic Induction:** As the coil of wire swings over the stationary magnet, it experiences a change in the magnetic flux ($\Delta\Phi$) passing through it. According to Faraday’s Law, this change in flux induces an electromotive force (EMF) and, because it is a closed loop of copper wire, an induced current flows through the coil.
+2.  **Lenz’s Law:** Lenz’s Law states that the direction of the induced current will create a magnetic field that opposes the change in magnetic flux that produced it. 
+    *   As the coil approaches the north pole of the magnet, the coil "sees" an increasing magnetic field pointing upwards. To oppose this, the bottom of the coil will induce a **north pole** to repel the magnet (and conversely, a **south pole** forms at the top).
+    *   As the coil moves away, it experiences a decreasing magnetic field. To oppose this decrease, the bottom of the coil will induce a **south pole** to attract the magnet and pull it back.
+3.  **Damping:** This interaction creates an attractive or repulsive force (depending on the position) that acts against the motion of the pendulum. This process converts the kinetic energy of the swinging pendulum into electrical energy (and eventually thermal energy due to the resistance of the wire, known as Joule heating). This is a form of **eddy current damping** (or electromagnetic braking). 
+
+Because the system loses kinetic energy to perform this work, the pendulum will experience significant drag and come to a stop in **less time** than it would in a vacuum or an environment without magnetic interaction. 
+
+*   Option C is correct because the induced magnetic pole at the bottom of the coil switches to oppose the motion (forming a south pole when moving away to attract the magnet, or resisting the change), and the overall effect is a rapid dissipation of energy leading to shorter swing time.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+To solve this problem, we need to understand the relationship between voltage, current, power, and energy loss in transmission lines.
+
+### Explanation
+
+1.  **Relating Power and Current:**
+    The power $P$ delivered by a transmission line is given by the formula $P = VI$, where $V$ is voltage and $I$ is current. Since the power transmitted ($P$) remains constant, if we double the voltage ($2V$), the current must be halved to maintain the same power:
+    $$P = (2V) \times I_{new} \implies I_{new} = \frac{I}{2}$$
+    Therefore, the current is halved. This immediately invalidates option (B).
+
+2.  **Relating Current and Heat Loss:**
+    Power lost as heat in the transmission line due to resistance $R$ is given by Joule's Law:
+    $$P_{loss} = I^2R$$
+    When we substitute our new current ($I_{new} = \frac{I}{2}$) into the power loss equation, we get:
+    $$P_{loss\_new} = (\frac{I}{2})^2 \times R$$
+    $$P_{loss\_new} = \frac{I^2}{4} \times R$$
+    $$P_{loss\_new} = \frac{1}{4} P_{loss\_original}$$
+
+3.  **Analyzing the Result:**
+    *   The power lost as heat becomes one-quarter of the original, meaning there is a $75\%$ reduction in energy wasted ($100\% - 25\% = 75\%$).
+    *   This confirms that option (D) is correct.
+    *   Option (A) is incorrect because the loss is reduced to one-quarter, not one-half.
+    *   Option (C) is incorrect because the heat generated decreases significantly.
+
+**Conclusion:** By doubling the voltage, we reduce the current by a factor of 2, which decreases the resistive power loss by a factor of $2^2 = 4$. This results in a $75\%$ reduction in power loss.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,18 @@
+Hello! As your HSC physics teacher, I am happy to help you break down this conceptual question regarding wave superposition.
+
+### Answer
+The correct answer is **(B) They have the same frequency.**
+
+### Explanation
+To understand why, we need to look at the condition for sustained interference. Constructive interference occurs when two waves superimpose to create a larger displacement. For this to occur in a stable, observable way, the waves must be **coherent**.
+
+1.  **Coherence:** Two sources are coherent if they maintain a constant phase relationship over time. A fundamental requirement for coherence is that the waves must have the **same frequency** (and therefore the same wavelength in a given medium).
+2.  **Why not the others?**
+    *   **(A) Velocity:** While waves in the same medium have the same velocity, this is a property of the *medium*, not a requirement for the waves themselves to interfere constructively.
+    *   **(C) Amplitude:** Waves do not need to have the same amplitude to interfere constructively; they just need to arrive at the point with a phase difference of $0, 2\pi, 4\pi, \dots$ (or a path difference of $n\lambda$).
+    *   **(D) Phase:** Waves do not need to have the same phase at the source to interfere constructively at a specific point; they only need to arrive at that point with a relative phase difference of $0$ (or an integer multiple of $2\pi$).
+
+If the frequencies were different, the phase difference between the two waves would change continuously over time, causing the interference pattern to shift rapidly, resulting in an "average" intensity rather than a stable point of constructive interference. Therefore, having the same frequency is the essential condition for a stable interference pattern.
+
+###QUESTION_TYPE
+Multiple choice

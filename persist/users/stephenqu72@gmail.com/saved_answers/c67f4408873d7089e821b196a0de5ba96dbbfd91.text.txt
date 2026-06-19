@@ -1,0 +1,32 @@
+To find the current in the primary coil, we use the principles of an ideal transformer.
+
+### Answer
+The correct option is **(D) 4.2 mA**.
+
+*(Note: Upon solving the calculation, the result is $4.166...$ mA. Rounding to two significant figures, we get 4.2 mA, matching option (D).)*
+
+### Explanation
+An ideal transformer is one where the input power equals the output power ($P_p = P_s$). Since $P = VI$, we have $V_p I_p = V_s I_s$. 
+
+In an ideal transformer, the relationship between voltage, turns, and current is given by:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+
+From the problem, we are given:
+- The turns ratio $\frac{N_p}{N_s} = \frac{3}{5}$
+- The secondary current $I_s = 2.5$ mA
+
+Using the relationship between the turns ratio and the current ratio:
+$$\frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+
+Substitute the known values into the equation:
+$$\frac{3}{5} = \frac{2.5 \text{ mA}}{I_p}$$
+
+To solve for $I_p$, rearrange the equation:
+$$I_p = \frac{2.5 \text{ mA} \times 5}{3}$$
+$$I_p = \frac{12.5}{3} \text{ mA}$$
+$$I_p \approx 4.167 \text{ mA}$$
+
+Rounding to two significant figures, we get **4.2 mA**, which corresponds to option **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

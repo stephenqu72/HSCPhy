@@ -1,0 +1,24 @@
+To answer this question, we must look at the physical definitions of **magnetic flux density** and **magnetic flux**.
+
+### Answer
+1.  **Magnetic Flux Density ($B$):** The magnetic flux density is the same for both coils $P$ and $Q$.
+2.  **Magnetic Flux ($\Phi$):** The magnetic flux through coil $Q$ is greater than the magnetic flux through coil $P$.
+
+### Justification
+*   **Flux Density ($B$):** The magnetic flux density is represented by the density of the magnetic field lines (indicated by the '$\times$' symbols). Since the '$\times$' symbols are uniformly spaced throughout the entire region, the strength of the magnetic field is identical at the locations of both coils.
+*   **Magnetic Flux ($\Phi$):** Magnetic flux is defined by the formula $\Phi = B \cdot A \cos \theta$, where $A$ is the area of the coil. Since both coils are perpendicular to the field ($\theta = 0^\circ$), the flux is simply $\Phi = BA$. Because coil $Q$ has a larger surface area than coil $P$, and the magnetic flux density ($B$) is the same for both, coil $Q$ encompasses more magnetic field lines, resulting in a larger total magnetic flux.
+
+---
+
+### How to solve it
+To solve a 3-mark HSC physics question like this, follow the **"Define, Compare, Justify"** method:
+
+1.  **Identify the variables:** Recognize that the image shows a uniform external magnetic field ($B$ is constant) and two coils of different surface areas ($A_Q > A_P$).
+2.  **Define the relationship:** Use the formula $\Phi = BA$. This formula is your "evidence" for the justification.
+3.  **Structure your argument:**
+    *   **Mark 1:** State that the flux density ($B$) is equal because the spacing of the field lines is uniform.
+    *   **Mark 2:** State that the flux ($\Phi$) is greater in $Q$ than $P$.
+    *   **Mark 3:** Provide the mathematical justification using the area: since $\Phi = BA$ and $B$ is constant, $\Phi$ is directly proportional to $A$. Therefore, the larger area of $Q$ leads to greater flux.
+
+###QUESTION_TYPE
+Short answer

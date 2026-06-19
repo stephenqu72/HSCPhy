@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+James Clerk Maxwell's contribution to physics was primarily theoretical. He unified the existing laws of electricity and magnetism (Gauss’s Law, Gauss’s Law for magnetism, Faraday’s Law of induction, and Ampère’s Law with his own addition of the displacement current) into what are now known as **Maxwell’s Equations**.
+
+When Maxwell analyzed these equations in a vacuum, he derived a wave equation for both electric and magnetic fields. This wave equation took the standard mathematical form of a wave propagating through a medium, where the wave speed $v$ is related to the constants of the medium. Specifically, Maxwell found that the speed of these electromagnetic waves ($c$) could be expressed in terms of two fundamental physical constants: the permittivity of free space ($\epsilon_0$) and the permeability of free space ($\mu_0$):
+
+$$c = \frac{1}{\sqrt{\mu_0 \epsilon_0}}$$
+
+By substituting the known values of $\mu_0$ and $\epsilon_0$ obtained from previous experimental work by Weber and Kohlrausch, Maxwell calculated the velocity to be approximately $3 \times 10^8 \text{ m/s}$. He realized this value was nearly identical to the measured speed of light, leading him to the revolutionary conclusion that light itself is an electromagnetic wave.
+
+*   **A is incorrect** because particle accelerators did not exist in Maxwell's time, and his work was purely mathematical and theoretical.
+*   **B is incorrect** because while Maxwell used existing data for the speed of light to confirm his results, the *basis* for his prediction was his theoretical derivation from his equations, not the experimental setup of mirrors.
+*   **D is incorrect** because Maxwell’s classical electromagnetism does not account for gravitational fields; the interaction between electromagnetic waves and gravity is a feature of Einstein’s General Relativity.
+
+###QUESTION_TYPE
+Multiple choice

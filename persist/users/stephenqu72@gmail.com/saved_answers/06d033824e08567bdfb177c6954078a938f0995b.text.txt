@@ -1,0 +1,32 @@
+As an HSC Physics teacher, I will guide you through this problem step-by-step.
+
+### Part (a): Diagram
+You should draw a standard Young’s Double Slit setup:
+1. A light source on the left.
+2. Two slits separated by distance $d$ (250 $\mu$m).
+3. A screen at distance $D$ (which is $X$ in the question).
+4. A central bright fringe, and the first-order bright fringe at a distance $y$ (5 mm) from the center.
+5. Indicate the angle $\theta$ between the central axis and the first-order fringe.
+
+### Part (b): Calculation
+**Step 1: Identify given values and convert to SI units.**
+*   $\lambda = 652 \times 10^{-9}$ m
+*   $d = 250 \times 10^{-6}$ m
+*   $y = 5 \times 10^{-3}$ m
+
+**Step 2: Use the double-slit formula.**
+The condition for constructive interference is $d \sin \theta = n \lambda$. For the first order, $n = 1$:
+$$\sin \theta = \frac{\lambda}{d} = \frac{652 \times 10^{-9}}{250 \times 10^{-6}} = 0.002608$$
+Since $\sin \theta$ is very small, $\sin \theta \approx \tan \theta$. 
+From the geometry of the experiment, $\tan \theta = \frac{y}{D}$.
+Therefore, $D = \frac{y}{\tan \theta} \approx \frac{y}{\sin \theta}$:
+$$D = \frac{5 \times 10^{-3}}{0.002608} \approx 1.917 \text{ m}$$
+**Explanation:** $\sin \theta$ relates the path difference ($d \sin \theta$) to the wavelength ($\lambda$) for constructive interference. $\tan \theta$ relates the physical geometry ($y/D$) of the screen. Because $\theta$ is very small, the approximation $\sin \theta \approx \tan \theta$ allows us to bridge the wave property (interference) with the physical measurement ($D$).
+
+### Part (c): Evaluation
+This experiment demonstrates the **wave nature** of light through the phenomena of **interference** and **diffraction**. Light behaves like a wave because waves from the two slits overlap and superimpose to create a pattern of bright and dark fringes. 
+
+However, this experiment **does not** by itself provide evidence for the *particle* nature of light (which is demonstrated by the Photoelectric Effect). To support "wave-particle duality," one must synthesize evidence from *both* wave-based experiments (like this one) and particle-based experiments (like the Photoelectric Effect), showing that light exhibits properties of both depending on the context of the observation.
+
+###QUESTION_TYPE
+Calculation question

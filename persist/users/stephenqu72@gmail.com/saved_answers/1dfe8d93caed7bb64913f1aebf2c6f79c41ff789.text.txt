@@ -1,0 +1,27 @@
+To determine the correct graph, we must look at the physics principles governing electromagnetic induction in a moving wire.
+
+### Explanation
+
+When a wire of length $l$ moves through a magnetic field of strength $B$ with a velocity $v$, the induced electromotive force (EMF) or potential difference $V$ across the wire is given by the formula:
+
+$$V = Blv \sin(\theta)$$
+
+In this specific scenario, the question states that the wire is cutting the magnetic field at a **constant rate**. This implies two things:
+1. The magnetic field strength $B$ is uniform and constant.
+2. The length of the wire $l$ cutting the field is constant.
+3. The velocity $v$ of the wire is constant.
+
+Since $B$, $l$, and $v$ are all constants, the resulting induced potential difference $V$ must also be a **constant value**. 
+
+Looking at the provided graphs:
+*   **Graph A** shows $V$ decreasing over time.
+*   **Graph B** shows $V$ increasing exponentially over time.
+*   **Graph C** shows $V$ increasing linearly over time.
+*   **Graph D** shows $V$ remaining at a constant value over time.
+
+Since the potential difference is constant, Graph D is the only correct representation.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

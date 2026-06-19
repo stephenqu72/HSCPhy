@@ -1,0 +1,20 @@
+To determine the correct statement regarding AC induction motors, let’s analyze each option based on the fundamental principles of physics:
+
+### Analysis of Options:
+
+*   **(A) There is no current produced in induction motors:** **Incorrect.** The operation of an induction motor relies entirely on electromagnetic induction. The rotating magnetic field from the stator induces an EMF in the rotor conductors (often bars of a squirrel cage), which creates eddy currents. These currents interact with the magnetic field to create a torque.
+*   **(B) Induction motors need slip rings to operate:** **Incorrect.** While some specialized motors (like wound-rotor induction motors) might use slip rings to add external resistance for starting, the standard "squirrel cage" induction motor—which is the type most commonly referred to in the HSC Physics syllabus—does not use slip rings or brushes.
+*   **(C) The magnetic field rotates faster than the rotor:** **Correct.** For an induction motor to generate torque, the rotor conductors must "cut" the magnetic field lines. This is only possible if there is relative motion between the stator's rotating magnetic field and the rotor. The rotor "chases" the magnetic field but can never reach its speed (the synchronous speed), as that would result in zero relative motion, no induced EMF, no current, and consequently no torque. The difference in speed is known as "slip."
+*   **(D) The rotor rotates faster than the magnetic field:** **Incorrect.** If the rotor were to rotate faster than the magnetic field, it would no longer be an induction motor; it would be acting as an induction generator. In normal motoring operation, the rotor is always slower than the synchronous speed of the magnetic field.
+
+### Conclusion:
+The correct answer is **(C)**.
+
+### How to solve this type of question:
+1.  **Recall the definition of "Induction":** Always look for the interaction between a magnetic field and a conductor. This requires relative motion (Faraday's Law).
+2.  **Define "Slip":** Remember the fundamental HSC physics concept that the rotor must "slip" behind the rotating magnetic field to maintain the induced current necessary to produce a force ($F = IlB$).
+3.  **Eliminate impossibilities:** Options like (A) are physically impossible given the name of the device. Option (B) confuses induction motors with DC motors or synchronous motors.
+4.  **Compare speeds:** Always contrast synchronous speed ($v_s$) and rotor speed ($v_r$). In a motor, $v_s > v_r$.
+
+###QUESTION_TYPE
+Multiple choice

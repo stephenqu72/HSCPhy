@@ -1,0 +1,33 @@
+To find the rate at which the magnetic flux density is changing, we use **Faraday’s Law of Induction**, which states that the induced electromotive force ($\varepsilon$) in a coil is proportional to the rate of change of the magnetic flux ($\Phi$) through the coil:
+
+$$\varepsilon = N \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+
+Where:
+*   $\varepsilon = 28.5 \text{ mV} = 28.5 \times 10^{-3} \text{ V}$
+*   $N = 35 \text{ turns}$
+*   $\Phi = B \cdot A$ (where $B$ is the magnetic flux density and $A$ is the area of the coil)
+
+Since the area $A$ of the receiving coil is constant, the rate of change of flux is:
+$$\frac{\Delta \Phi}{\Delta t} = A \frac{\Delta B}{\Delta t}$$
+
+Substituting this into Faraday's Law:
+$$\varepsilon = N \cdot A \cdot \frac{\Delta B}{\Delta t}$$
+
+**1. Calculate the area of the receiving coil ($A$):**
+The radius $r = 50.0 \text{ cm} = 0.50 \text{ m}$.
+$$A = \pi r^2 = \pi \times (0.50 \text{ m})^2 = 0.25\pi \text{ m}^2 \approx 0.7854 \text{ m}^2$$
+
+**2. Rearrange the formula to solve for the rate of change of magnetic flux density ($\Delta B / \Delta t$):**
+$$\frac{\Delta B}{\Delta t} = \frac{\varepsilon}{N \times A}$$
+
+**3. Substitute the values:**
+$$\frac{\Delta B}{\Delta t} = \frac{28.5 \times 10^{-3}}{35 \times (0.25\pi)}$$
+$$\frac{\Delta B}{\Delta t} = \frac{0.0285}{27.4889...}$$
+$$\frac{\Delta B}{\Delta t} \approx 1.0367... \times 10^{-3} \text{ T s}^{-1}$$
+
+Rounding to three significant figures, we get $1.04 \times 10^{-3} \text{ T s}^{-1}$ (Note: The units in the options are written as $\text{Wb s}^{-1}$ which refers to the rate of change of flux per unit area, effectively Tesla per second).
+
+Comparing this to the given choices, the correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

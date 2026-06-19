@@ -1,0 +1,27 @@
+### Answer
+
+**(a) Determine the flux through the coil.**
+The magnetic flux $\Phi$ through a single loop is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the **normal** to the coil and the magnetic field.
+Given: $B = 2.7\text{ T}$, $A = 1.96 \times 10^{-3}\text{ m}^2$, and $\theta = 30^\circ$.
+For a coil with $N$ turns, the flux linkage is $\Phi_{total} = NBA \cos(\theta)$. However, usually "flux through the coil" refers to the flux per loop ($\Phi$) or total flux linkage. Given the marks, we calculate flux per loop:
+$$\Phi = 2.7 \times (1.96 \times 10^{-3}) \times \cos(30^\circ)$$
+$$\Phi \approx 2.7 \times 0.00196 \times 0.866 \approx 0.00458\text{ Wb}$$
+(If interpreting as flux linkage $N\Phi$: $20 \times 0.00458 \approx 0.0916\text{ Wb}$).
+
+**(b) As the coil rotates, at what angle will the emf induced in the coil first reach a maximum?**
+The induced emf is given by Faraday's Law: $\varepsilon = -N \frac{d\Phi}{dt}$. Since $\Phi(t) = BA \cos(\omega t)$, the emf is $\varepsilon = NBA\omega \sin(\omega t)$.
+The emf is at a maximum when $\sin(\omega t) = 1$, which occurs when the angle between the normal and the magnetic field is $90^\circ$. Since the coil is currently at $30^\circ$ and rotating, it must rotate another $60^\circ$ to reach the $90^\circ$ position.
+
+**(c) The coil is connected to an external circuit containing a light bulb. When the light bulb is connected, the coil's angular speed is observed to change. Account for this observation.**
+Connecting the light bulb completes the circuit, allowing an induced current to flow (Lenz's Law). This current interacting with the magnetic field produces a magnetic torque that opposes the rotation of the coil (the motor effect/Lenz's Law). To maintain rotation against this resistive torque, energy must be extracted from the kinetic energy of the system, causing the angular speed to decrease.
+
+---
+
+### How to solve
+
+1.  **For (a):** Identify the correct angle. The formula uses the angle between the magnetic field and the *normal* (the perpendicular to the surface). The problem explicitly states this angle is $30^\circ$, so simply plug the values into $\Phi = BA \cos(\theta)$.
+2.  **For (b):** Recall the relationship between flux and emf. Flux is maximum when the coil is perpendicular to the field ($\theta=0^\circ$), and emf is maximum when the flux is changing fastest, which occurs when the coil is parallel to the field ($\theta=90^\circ$). Calculate the difference between the current angle and the target angle.
+3.  **For (c):** Apply the Principle of Conservation of Energy and Lenz's Law. Connecting a load creates a closed loop, allowing current to flow. The interaction between the current-carrying wire and the magnetic field creates a "back-torque." Without an increased external input of energy, the system compensates by losing rotational kinetic energy, resulting in a decrease in angular speed.
+
+###QUESTION_TYPE
+Calculation question

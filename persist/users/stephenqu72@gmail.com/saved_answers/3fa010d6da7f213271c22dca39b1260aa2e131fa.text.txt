@@ -1,0 +1,32 @@
+To solve this problem, we use the diffraction grating formula:
+$$d \sin \theta = m \lambda$$
+Where:
+*   $d$ is the grating spacing (distance between slits).
+*   $\theta$ is the angle of the maxima.
+*   $m$ is the order of the maxima.
+*   $\lambda$ is the wavelength of the light.
+
+The grating has $100 \text{ slits/mm}$, which is $10^5 \text{ slits/m}$. Thus, the spacing is:
+$$d = \frac{1}{10^5} \text{ m} = 1 \times 10^{-5} \text{ m}$$
+
+### Part (a)
+Rearranging the formula to match the graph ($y = mx$ form), we get $\sin \theta = \left(\frac{\lambda}{d}\right) m$. The gradient of the line is $\frac{\lambda}{d}$.
+
+1.  **Calculate the gradient**: Using the line of best fit, at $m = 6$, $\sin \theta \approx 0.39$.
+    $$\text{Gradient} = \frac{\Delta y}{\Delta x} = \frac{0.39}{6} = 0.065$$
+2.  **Calculate wavelength**:
+    $$\lambda = \text{Gradient} \times d = 0.065 \times (1 \times 10^{-5} \text{ m}) = 6.5 \times 10^{-7} \text{ m} = 650 \text{ nm}$$
+
+### Part (b)
+The maximum possible value for $\sin \theta$ is $1.00$ (since $\sin(90^\circ) = 1$). 
+Using the relationship derived from the graph:
+$$\sin \theta = 0.065 \times m$$
+Set $\sin \theta = 1$:
+$$1 = 0.065 \times m_{max}$$
+$$m_{max} = \frac{1}{0.065} \approx 15.38$$
+Since the order $m$ must be an integer, the maximum observable order is $15$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

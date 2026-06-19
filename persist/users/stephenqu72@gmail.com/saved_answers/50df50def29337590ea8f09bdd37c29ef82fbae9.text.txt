@@ -1,0 +1,22 @@
+To determine the correct emf vs. time graph, we use Faraday’s Law of Induction, which states that the induced emf ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi_B$):
+$$\varepsilon = - \frac{\Delta \Phi_B}{\Delta t}$$
+
+### Step-by-Step Explanation:
+
+1.  **Entering the magnetic field (at position 1):**
+    As the coil enters the region of the magnetic field, the magnetic flux through the coil increases from zero. According to Lenz's Law, the induced current creates a magnetic field to oppose this increase. The rate of change of flux is initially zero (as the edge just touches), reaches a maximum as the coil enters, and returns to zero once the entire coil is inside the field. This produces a **positive pulse** (or negative, depending on convention, but let's observe the relative shape).
+
+2.  **Inside the magnetic field:**
+    Once the coil is entirely within the uniform magnetic field region, the magnetic flux through the coil is constant. Since the change in flux is zero ($\frac{\Delta \Phi_B}{\Delta t} = 0$), the induced **emf is zero** during this period.
+
+3.  **Exiting the magnetic field (at position 2):**
+    As the coil leaves the region, the magnetic flux through the coil decreases. This change in flux induces an emf that opposes the decrease. Because the coil is exiting, the rate of change of flux is in the opposite direction to when it entered. This results in an emf pulse of the **opposite polarity** to the entry pulse.
+
+### Conclusion:
+- The graph must show a pulse for entry, a period of zero emf while inside, and a pulse of opposite polarity for exit.
+- **Graph (D)** correctly depicts a positive pulse as the coil enters the field, a zero-emf segment while the coil is fully contained within the field, and a negative pulse as the coil leaves the field.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

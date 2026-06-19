@@ -1,0 +1,20 @@
+### Answer and Explanation
+
+#### (a) Calculate the theoretical maximum torque
+The formula for the torque ($\tau$) on a motor coil is given by:
+$$\tau = nIBA\sin(\theta)$$
+Where $n=80$, $I=1.5\text{ A}$, $B=0.41\text{ T}$, and $A=0.0036\text{ m}^2$. The maximum torque occurs when the plane of the coil is parallel to the magnetic field ($\theta = 90^\circ$, so $\sin(90^\circ) = 1$):
+$$\tau_{max} = 80 \times 1.5 \times 0.41 \times 0.0036 = 0.17712\text{ Nm} \approx 0.18\text{ Nm}$$
+
+#### (b) Construct a graph
+In the diagram, the coil is shown perpendicular to the magnetic field lines. At this starting position ($0^\circ$), the torque is zero. As it rotates, it hits maximum torque at $90^\circ$, zero at $180^\circ$, maximum at $270^\circ$, and zero at $360^\circ$.
+*   **Graph description:** Draw a sine wave starting at $(0, 0)$, peaking at $(90^\circ, 0.177\text{ Nm})$, crossing the axis at $(180^\circ, 0)$, peaking in the positive region again at $(270^\circ, 0.177\text{ Nm})$, and returning to $0$ at $360^\circ$. (Note: In a simple DC motor, the split-ring commutator ensures the torque remains positive).
+
+#### (c) Radial magnets
+**Effect on graph:** The torque graph will change from a sine wave to a straight horizontal line at the maximum value ($0.177\text{ Nm}$).
+**Justification:** Radial magnets are curved to ensure that the magnetic field lines are always perpendicular to the plane of the coil throughout the entire rotation. Since $\theta$ is maintained at $90^\circ$ at all times, $\sin(90^\circ) = 1$, and the torque remains constant at its maximum value ($\tau = nIBA$) instead of fluctuating.
+
+---
+
+###QUESTION_TYPE
+Calculation question

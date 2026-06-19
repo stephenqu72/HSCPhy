@@ -1,0 +1,27 @@
+To determine the direction of rotation in a DC motor, we use the **Motor Effect** and the **Right-Hand Palm Rule**.
+
+### 1. Identify the components
+*   **Magnetic Field ($B$):** The permanent magnets provide a magnetic field directed from the North pole to the South pole. Assuming standard motor configurations, the left magnet is North and the right is South, so the field points from left to right.
+*   **Current Direction ($I$):** We must determine which side of the coil connects to the positive terminal.
+*   **Motor Effect:** The force $F$ on a current-carrying wire is given by $F = BIL \sin\theta$. Using the Right-Hand Palm Rule (fingers in direction of $B$, thumb in direction of $I$, palm pushes in direction of $F$):
+    *   If current flows "up" the side closest to the North pole, the force is directed "out" of the page (towards the viewer).
+    *   If current flows "down" the side closest to the South pole, the force is directed "into" the page (away from the viewer).
+    *   This combination creates a torque that results in **anticlockwise** rotation.
+
+### 2. Evaluate the Options
+We need the current to flow into the wire segment that, when placed in the magnetic field, experiences an upward or outward force on the left side of the axis.
+
+*   **Looking at the diagrams:** The diagrams show different wiring configurations between the power supply and the brushes.
+*   In **Diagram (B)**, the positive terminal is connected to the brush on the right side. This sends current into the right side of the coil. If current enters the right side, it flows "up" the right side and "down" the left side. By the Right-Hand Palm Rule, this generates a clockwise rotation.
+*   In **Diagram (D)**, the wiring configuration creates the opposite effect to (B). By tracing the path from the positive terminal to the left-hand brush, current enters the left side of the coil. This current travels "up" the left side of the coil.
+*   Applying the Right-Hand Palm Rule for **(D)**: 
+    *   Fingers point right ($B$ field).
+    *   Thumb points "up" (current on the left wire).
+    *   Palm faces "out" of the page.
+    *   Since the left side is pushed "out" and the right side is pushed "in", the rotor turns **anticlockwise**.
+
+### Conclusion
+**The correct answer is (D).**
+
+###QUESTION_TYPE
+Multiple choice

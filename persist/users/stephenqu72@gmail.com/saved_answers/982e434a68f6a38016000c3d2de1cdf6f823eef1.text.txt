@@ -1,0 +1,18 @@
+To solve this problem, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Faraday's Law:** An induced current is generated when there is a change in the magnetic flux ($\Phi$) through the metal ring. This occurs as the ring moves into and out of the magnetic field region.
+2.  **Lenz's Law:** The direction of the induced current is such that it creates a magnetic field that opposes the change in flux.
+    *   **Entering the field:** As the ring moves into the region of magnetic field (directed into the page), the magnetic flux through the ring *increases* into the page. To oppose this, the ring creates a counter-current (let's say anticlockwise) to produce a magnetic field directed *out of* the page.
+    *   **Inside the field:** While the ring is entirely within the uniform magnetic field, the magnetic flux through the ring is constant ($\Delta \Phi = 0$). Therefore, according to Faraday's Law, the induced current drops to **zero**.
+    *   **Exiting the field:** As the ring moves out of the field, the magnetic flux into the page *decreases*. To oppose this loss, the ring creates a current (now clockwise) to produce a magnetic field directed *into* the page.
+
+### Analysis of the Graphs
+*   The graph must show a pulse of current in one direction (positive) as the ring enters, a period of zero current while it is inside the field, and a pulse of current in the opposite direction (negative) as it exits.
+*   The third graph (bottom) shows this exact pattern: an initial positive peak, a return to the zero-axis, and a subsequent negative peak.
+
+**Answer:** The correct graph is the third one (bottom-most), which shows a pulse in one direction, followed by a zero-current gap, then a pulse in the opposite direction.
+
+###QUESTION_TYPE
+Multiple choice

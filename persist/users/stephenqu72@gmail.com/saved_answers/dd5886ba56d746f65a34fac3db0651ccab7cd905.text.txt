@@ -1,0 +1,23 @@
+To determine which modification will increase the torque of the DC motor, we must first look at the formula for the torque $\tau$ experienced by a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB\sin(\theta)$$
+
+Where:
+- $n$ is the number of turns in the coil.
+- $I$ is the current flowing through the coil.
+- $A$ is the area of the coil.
+- $B$ is the magnetic field strength.
+- $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+### Analysis of the options:
+1.  **Formula relationship:** The torque is directly proportional to the current $I$. By Ohm's Law ($V = IR$), we know that current is inversely proportional to resistance ($I = V/R$). Therefore, to increase the torque, we need to increase the current, which is achieved by **decreasing the resistance** of the coil.
+2.  **(A) Replacing split rings with slip rings:** This would turn the motor into an AC motor configuration, which does not inherently increase the starting torque of this specific DC circuit setup.
+3.  **(B) Removing the brushes:** If the brushes are removed, the circuit is broken, and no current will flow. The torque would drop to zero.
+4.  **(C) Increasing resistance:** Increasing the resistance will decrease the current ($I = V/R$), which will decrease the torque.
+5.  **(D) Decreasing resistance:** Decreasing the resistance will increase the current ($I = V/R$), which directly increases the torque produced by the motor.
+
+### Conclusion:
+The correct answer is **(D)**. Decreasing the resistance of the wire allows more current to flow through the coil for a fixed supply voltage, which in turn increases the magnetic force exerted on the coil and therefore increases the torque.
+
+###QUESTION_TYPE
+Multiple choice

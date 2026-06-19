@@ -1,0 +1,21 @@
+### Answer
+
+**(a)** Plate Z has high electrical resistance (is an electrical insulator) or is made of a non-conductive material.
+
+**(b)** As the solid aluminium plate enters the magnetic field, the changing magnetic flux induces large eddy currents within the plate (Faraday’s Law). According to Lenz’s Law, these eddy currents create a magnetic field that opposes the change in flux causing them. This results in a magnetic force (Lorentz force) that acts in the opposite direction to the plate's motion, causing the plate to be brought to rest rapidly.
+
+---
+
+### How to solve this question
+
+To tackle this HSC-style physics question, you must apply the principles of electromagnetic induction:
+
+1.  **Analyze the Physics of Eddy Currents:** Eddy currents are loops of electrical current induced within conductors by a changing magnetic field.
+2.  **Part (a) Reasoning:** The observation for Plate Z is that it swings through without stopping, similar to Plate Y (which has slits). Slits are used to break the path of eddy currents, increasing the effective resistance and limiting the damping force. For Plate Z to behave the same way, it must either be non-conductive (an insulator) or have a very high electrical resistance, preventing the formation of significant eddy currents.
+3.  **Part (b) Structure (The 3-mark explanation):** To secure full marks, you must follow the logical sequence of electromagnetic damping:
+    *   **Cause:** The movement of the conductor into the magnetic field causes a change in magnetic flux ($\Delta \Phi$).
+    *   **Induction:** By Faraday's Law, this change induces an electromotive force (EMF), which drives eddy currents within the solid, highly conductive aluminium plate.
+    *   **Effect:** By Lenz's Law, the induced currents produce a magnetic field that opposes the motion of the plate. The interaction between the external magnetic field and the induced current creates a retarding force (magnetic braking), converting the kinetic energy of the plate into thermal energy (Joule heating).
+
+### QUESTION_TYPE
+Short answer

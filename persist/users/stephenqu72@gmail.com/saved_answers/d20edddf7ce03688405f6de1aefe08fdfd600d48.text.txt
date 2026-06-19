@@ -1,0 +1,33 @@
+### Answer
+
+**Part a) Outline the experimental evidence that supports Newton’s theory of light.**
+Newton’s corpuscular (particle) theory of light was supported by his observation of the **rectilinear propagation of light** (light travelling in straight lines), which explains the formation of sharp shadows. Furthermore, he used the corpuscular model to explain **reflection** (particles bouncing off a surface like an elastic ball) and **refraction** (particles speeding up as they enter a denser medium, which Newton incorrectly predicted, but which provided a mathematical consistency for Snell’s Law at the time).
+
+**Part b) Determine the gravitational force between the Earth and the Moon.**
+*Note: There appears to be a typo in the question numbering provided in the image; the second part is treated as the calculation component.*
+
+To solve this, we use Newton’s Law of Universal Gravitation:
+$$F = \frac{G M_1 M_2}{r^2}$$
+However, since the mass of the Moon and the Earth are not provided in the prompt, and the force of the Sun on the Moon is given, we must look at the centripetal force required to keep the Moon in orbit. The force of the Earth on the Moon ($F_{EM}$) is the primary gravitational force providing the centripetal acceleration ($a_c$) for the Moon’s orbit around the Earth.
+
+Using $F = m_m \omega^2 r$ or $F = \frac{m_m v^2}{r}$:
+1. Orbital period of the Moon ($T$) $\approx 27.3$ days $= 2.358 \times 10^6$ s.
+2. Radius of orbit ($r$) $= 3.8 \times 10^8$ m.
+3. Using the standard mass of the Earth ($M_e \approx 5.97 \times 10^{24}$ kg) and Moon ($M_m \approx 7.35 \times 10^{22}$ kg):
+$$F_{EM} = \frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times (7.35 \times 10^{22})}{(3.8 \times 10^8)^2}$$
+$$F_{EM} \approx 2.03 \times 10^{20} \text{ N}$$
+
+*(Self-correction: In an exam setting, if constants are missing, you are expected to use your provided data sheet values for $G$, $M_e$, and $M_m$.)*
+
+---
+
+### How to solve it
+1.  **For Part (a):** This is a knowledge-based recall question. Focus on the core tenants of Newton's corpuscular theory: straight-line motion, reflection, and refraction. Ensure you link the "particle" behavior to these macroscopic observations.
+2.  **For Part (b):** 
+    *   **Identify the physics:** The question asks for the gravitational force between two masses. This immediately points to $F = \frac{G M_1 M_2}{r^2}$.
+    *   **Data extraction:** Identify that $r = 3.8 \times 10^5$ km $= 3.8 \times 10^8$ m. 
+    *   **Missing variables:** Recognize that the mass of the Earth and Moon are standard constants found in your Physics Data Sheet.
+    *   **Calculation:** Substitute the values carefully into the formula, ensuring all units are in SI (meters and kilograms).
+
+###QUESTION_TYPE
+Calculation question

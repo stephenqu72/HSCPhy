@@ -1,0 +1,19 @@
+To determine the correct current profile, we use Faraday’s Law of Induction and Lenz’s Law.
+
+### Answer
+The correct diagram is **(A)**.
+
+### Explanation
+1.  **Faraday's Law:** The induced electromotive force (EMF), and therefore the induced current $I$, is proportional to the rate of change of magnetic flux ($\Phi$) through the loop:
+    $$\varepsilon = - \frac{\Delta\Phi}{\Delta t}$$
+    Since the loop moves at a constant speed, the rate of change of flux is directly proportional to the **gradient (slope)** of the flux-position graph provided.
+
+2.  **Analyzing the Flux Graph:**
+    *   **Entering the field:** As the loop enters the magnetic field, the flux increases linearly over time. The positive gradient of the flux graph results in a constant induced EMF/current in one direction (let's define this as positive).
+    *   **Fully inside the field:** The flux remains constant as the loop moves through the uniform field. Since the change in flux ($\Delta\Phi$) is zero, the induced current is **zero**.
+    *   **Exiting the field:** As the loop leaves the field, the flux decreases linearly. The negative gradient of the flux graph results in an induced EMF/current in the **opposite direction** (negative).
+
+3.  **Conclusion:** The current profile must show a positive pulse when entering, a zero-current interval while inside, and a negative pulse when leaving. Diagram (A) is the only graph that reflects this change in direction (sign) of the current.
+
+### QUESTION_TYPE
+Multiple choice

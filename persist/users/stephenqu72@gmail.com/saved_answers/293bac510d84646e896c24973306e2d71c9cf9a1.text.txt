@@ -1,0 +1,31 @@
+To solve this problem, we apply **Faraday's Law of Induction**, which states that the magnitude of the induced electromotive force ($\varepsilon$) in a coil is equal to the rate of change of magnetic flux through the coil:
+
+$$\varepsilon = N \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+
+Where:
+*   $N = 35$ (number of turns)
+*   $\Phi = B \cdot A$ (magnetic flux)
+*   $A = 0.02\text{ m}^2$ (cross-sectional area)
+*   $\Delta B = B_{\text{final}} - B_{\text{initial}} = 0 - 0.15 = -0.15\text{ T}$
+*   $\Delta t = 0.4\text{ s}$
+
+### Step-by-Step Calculation:
+
+1.  **Calculate the change in magnetic flux ($\Delta \Phi$):**
+    Since the area is constant and the field is perpendicular to the coil:
+    $$\Delta \Phi = A \cdot \Delta B$$
+    $$\Delta \Phi = 0.02\text{ m}^2 \times (0 - 0.15\text{ T}) = -0.003\text{ Wb}$$
+
+2.  **Calculate the magnitude of the induced emf ($\varepsilon$):**
+    Substitute the values into Faraday's Law:
+    $$\varepsilon = N \frac{|\Delta \Phi|}{\Delta t}$$
+    $$\varepsilon = 35 \times \frac{0.003\text{ Wb}}{0.4\text{ s}}$$
+    $$\varepsilon = 35 \times 0.0075$$
+    $$\varepsilon = 0.2625\text{ V}$$
+
+**Final Answer:**
+The magnitude of the induced emf in the coil is **$0.2625\text{ V}$**.
+
+---
+###QUESTION_TYPE
+Calculation question

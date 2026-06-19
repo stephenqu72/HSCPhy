@@ -1,0 +1,20 @@
+To determine the correct graph, we must apply **Faraday’s Law of Induction**, which states that an electromotive force (emf) is induced when there is a change in magnetic flux ($\Phi$) through a conductor:
+$$\mathcal{E} = - \frac{\Delta \Phi}{\Delta t}$$
+
+### Analysis of the movement:
+
+1.  **Position P (Entering the field):** As the leading edge of the copper plate enters the magnetic field, the magnetic flux through the plate increases rapidly. According to Faraday’s Law, this change in flux induces an emf. Using Lenz’s Law, the induced current will create a magnetic field to oppose this increase. This results in a constant emf value for the duration that the area is changing at a constant rate.
+2.  **Position Q (Fully inside the field):** Once the plate is completely inside the uniform magnetic field, the amount of magnetic flux passing through the plate is no longer changing ($\Delta \Phi = 0$). Since the flux is constant, the induced emf drops to **zero**.
+3.  **Position R (Exiting the field):** As the plate exits the magnetic field, the magnetic flux through the plate decreases. This change in flux induces an emf in the **opposite direction** to the emf created when entering the field. Again, because the speed is constant, the rate of change of area is constant, leading to a constant (but negative) emf.
+4.  **Position S (Completely outside):** Once the plate has left the magnetic field entirely, there is no magnetic flux through it and no change in flux. The emf is **zero**.
+
+### Conclusion:
+- At **P**, there is a positive constant emf.
+- At **Q**, the emf is zero.
+- At **R**, there is a negative constant emf.
+- At **S**, the emf is zero.
+
+Comparing this to the provided options, **Graph (B)** correctly shows a positive rectangular pulse while entering, a zero interval while moving through, and a negative rectangular pulse while exiting.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,45 @@
+To solve this problem, we must apply the principles of magnetic flux and Faraday's Law of Induction.
+
+### Part (a): Calculate the magnetic flux
+Magnetic flux $\Phi$ through a single turn of the coil is given by:
+$$\Phi = B A \cos(\theta)$$
+Where:
+- $B = 85\text{ mT} = 0.085\text{ T}$
+- Diameter $d = 125\text{ mm} = 0.125\text{ m}$, so radius $r = 0.0625\text{ m}$
+- $A = \pi r^2 = \pi \times (0.0625)^2 \approx 0.01227\text{ m}^2$
+- Since the plane is perpendicular to the field, the angle $\theta$ between the area vector and the magnetic field is $0^\circ$, so $\cos(0) = 1$.
+
+$$\Phi = 0.085 \times 0.01227 \approx 1.043 \times 10^{-3}\text{ Wb}$$
+*(Note: Flux is property of the field through the area; it is calculated per turn).*
+
+**Answer:** $\Phi \approx 1.04 \times 10^{-3}\text{ Wb}$
+
+---
+
+### Part (b): Calculate the average emf
+Faraday's Law of Induction states that the average induced emf ($\varepsilon$) is equal to the negative rate of change of magnetic flux linkage:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+1. **Calculate change in flux ($\Delta \Phi$):**
+   - Initial flux linkage: $\Phi_{initial} = \Phi \approx 1.043 \times 10^{-3}\text{ Wb}$
+   - Final flux: When the coil rotates $90^\circ$ about the axis $XX'$, it becomes parallel to the magnetic field. The flux through the coil becomes zero ($\Phi_{final} = 0$).
+   - $\Delta \Phi = \Phi_{final} - \Phi_{initial} = 0 - 1.043 \times 10^{-3} = -1.043 \times 10^{-3}\text{ Wb}$
+
+2. **Calculate emf:**
+   - $N = 450$ turns
+   - $\Delta t = 135\text{ ms} = 0.135\text{ s}$
+   - Magnitude of emf:
+   $$\varepsilon = 450 \times \frac{1.043 \times 10^{-3}}{0.135}$$
+   $$\varepsilon \approx 3.48\text{ V}$$
+
+**Answer:** The average emf is approximately $3.48\text{ V}$.
+
+---
+
+### Strategy for Solving
+1. **Convert units:** Always convert mm to m, mT to T, and ms to s before plugging values into formulas.
+2. **Identify Orientation:** Remember that "plane perpendicular to the field" means the area vector is parallel to the field ($\theta = 0^\circ$). Rotating by $90^\circ$ brings the plane parallel to the field, making flux zero.
+3. **Flux Linkage:** Do not forget to include the number of turns $N$ when calculating induced emf, as it acts on the total flux linkage of the coil.
+
+###QUESTION_TYPE
+Calculation question

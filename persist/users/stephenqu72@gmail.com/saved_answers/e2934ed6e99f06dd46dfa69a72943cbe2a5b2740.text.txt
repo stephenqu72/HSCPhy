@@ -1,0 +1,28 @@
+### Answer
+The correct option is **D**.
+
+---
+
+### Explanation
+To identify the variables in an experiment, recall these definitions:
+*   **Independent Variable:** The factor that the experimenter deliberately changes or manipulates. In this experiment, the students change the rate of rotation of the coil (50, 100, and 150 rpm). Therefore, the **rate of rotation** is the independent variable.
+*   **Dependent Variable:** The factor being measured or observed in response to the changes. Here, the students measure the **peak EMF**.
+*   **Controlled Variable:** A factor that must be kept constant throughout the experiment to ensure the results are valid and that the observed change is only due to the independent variable. Factors such as the **strength of the magnetic field**, the area of the coil, and the number of turns in the coil must remain constant for this investigation.
+
+**Evaluating the options:**
+*   A & B are incorrect because the peak EMF is the dependent variable, not the independent variable.
+*   C is incorrect because the peak EMF is the dependent variable, not a controlled variable.
+*   D is correct because the rate of rotation is what the students purposefully vary, and the strength of the magnetic field is a key factor that must be kept constant to isolate the effect of rotation speed on the EMF.
+
+The relationship can be understood through Faraday's Law of Induction, where the peak EMF ($\varepsilon_{peak}$) in a rotating coil is given by:
+$$\varepsilon_{peak} = N A B \omega$$
+Where:
+- $N$ is the number of turns
+- $A$ is the area of the coil
+- $B$ is the magnetic field strength
+- $\omega$ is the angular velocity ($2\pi f$)
+
+Since $N$, $A$, and $B$ are kept constant, the experiment tests the relationship between $\varepsilon_{peak}$ and $\omega$ (rate of rotation).
+
+###QUESTION_TYPE
+Multiple choice

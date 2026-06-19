@@ -1,0 +1,37 @@
+To find the energy of a photon given its wavelength, we use the relationship between energy ($E$), Planck's constant ($h$), the speed of light ($c$), and the wavelength ($\lambda$).
+
+### Step-by-Step Calculation:
+
+1.  **Identify the formula:**
+    The energy of a photon in Joules is given by:
+    $$E = \frac{hc}{\lambda}$$
+    However, since the options are in electron-volts (eV), we can use the convenient constant $hc \approx 1240 \text{ eV}\cdot\text{nm}$. This allows for a much faster calculation in HSC physics problems.
+
+2.  **Convert values:**
+    *   Wavelength ($\lambda$) = $414 \text{ nm}$
+    *   $hc \approx 1240 \text{ eV}\cdot\text{nm}$
+
+3.  **Perform the calculation:**
+    $$E = \frac{1240 \text{ eV}\cdot\text{nm}}{414 \text{ nm}}$$
+    $$E \approx 2.995 \text{ eV}$$
+
+4.  **Conclusion:**
+    Rounding our result gives $3.0 \text{ eV}$, which matches option (C).
+
+---
+
+### Alternative Method (using SI units):
+If you prefer using SI units, you calculate energy in Joules first and then convert to eV:
+*   $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+*   $c = 3.00 \times 10^8 \text{ m/s}$
+*   $\lambda = 414 \times 10^{-9} \text{ m}$
+
+$$E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{414 \times 10^{-9}} \approx 4.80 \times 10^{-19} \text{ J}$$
+
+To convert Joules to eV, divide by $1.602 \times 10^{-19} \text{ J/eV}$:
+$$E = \frac{4.80 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 3.0 \text{ eV}$$
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

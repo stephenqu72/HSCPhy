@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I’m happy to help you work through this transformer problem. These are classic questions that test your understanding of the ideal transformer model.
+
+---
+
+### Part (a): Calculation
+**The Question:** A current of $3.0 \times 10^{-2} \text{ A}$ was input into a transformer in which the secondary winding had 20 times the number of primary turns. Calculate the output current if there were no power loss.
+
+**Solution:**
+In an ideal transformer (no power loss), the power in the primary circuit equals the power in the secondary circuit ($P_p = P_s$). Since $P = VI$, we have $V_p I_p = V_s I_s$.
+We also know the transformer ratio formula: $\frac{V_s}{V_p} = \frac{N_s}{N_p}$.
+
+By substituting the ratio into the power equation, we derive:
+$$I_s = I_p \times \frac{N_p}{N_s}$$
+
+**Given:**
+- $I_p = 3.0 \times 10^{-2} \text{ A}$
+- $\frac{N_s}{N_p} = 20 \implies \frac{N_p}{N_s} = \frac{1}{20}$
+
+**Calculation:**
+$$I_s = (3.0 \times 10^{-2} \text{ A}) \times \left(\frac{1}{20}\right)$$
+$$I_s = \frac{0.03}{20} \text{ A}$$
+$$I_s = 1.5 \times 10^{-3} \text{ A} \quad (\text{or } 0.0015 \text{ A})$$
+
+---
+
+### Part (b): Outline
+**The Question:** Outline the role of transformers in household electrical goods.
+
+**Explanation:**
+The primary role of transformers in household goods is to adjust the voltage levels provided by the mains supply (which is typically $240 \text{ V}$ AC in Australia) to the specific requirements of the electronic components within the device.
+- **Step-down transformers:** These are most common in household electronics (like phone chargers or laptops) to reduce the high mains voltage to a lower, safer DC voltage (after rectification) required by sensitive microchips and circuits.
+- **Isolation/Safety:** Transformers can also act as an isolation barrier between the user and the mains power, increasing safety.
+
+---
+
+###QUESTION_TYPE
+Calculation question

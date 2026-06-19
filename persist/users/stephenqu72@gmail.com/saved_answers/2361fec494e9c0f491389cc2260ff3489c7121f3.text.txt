@@ -1,0 +1,26 @@
+To solve this problem, we use the principles of an **ideal transformer**. In an ideal transformer, we assume there is no power loss, meaning the power in the primary coil equals the power in the secondary coil ($P_p = P_s$).
+
+### 1. Identify the given variables:
+*   Number of turns in the primary coil ($N_p$) = $1600$
+*   Number of turns in the secondary coil ($N_s$) = $800$
+*   Current in the secondary coil ($I_s$) = $3.34\text{ A}$ (Note: The phrasing "draws a current" in this context refers to the output load/secondary side).
+
+### 2. The Relationship:
+For an ideal transformer, the ratio of currents is inversely proportional to the ratio of turns:
+$$\frac{I_p}{I_s} = \frac{N_s}{N_p}$$
+
+Rearranging for the primary current ($I_p$):
+$$I_p = I_s \times \frac{N_s}{N_p}$$
+
+### 3. Calculation:
+Substitute the values into the equation:
+$$I_p = 3.34\text{ A} \times \frac{800}{1600}$$
+$$I_p = 3.34\text{ A} \times 0.5$$
+$$I_p = 1.67\text{ A}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

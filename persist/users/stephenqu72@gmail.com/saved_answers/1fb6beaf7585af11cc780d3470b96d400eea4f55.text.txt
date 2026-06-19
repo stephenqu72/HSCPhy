@@ -1,0 +1,25 @@
+To solve this problem, we must understand the timing synchronization between the travel time of the light and the rotation of the cogwheel.
+
+### Explanation
+For the returning light to be blocked, the cogwheel must rotate such that a **tooth** arrives at the position where the light was initially emitted just as the light returns from the distant mirror. 
+
+1.  **Light Travel:** The light travels to the mirror and back, a total distance of $d = 2 \times 8\text{ km} = 16\text{ km} = 16,000\text{ m}$. Using the speed of light $c \approx 3 \times 10^8\text{ m/s}$, the time taken for the light to return is $t = \frac{d}{c}$.
+2.  **Wheel Rotation:** The wheel has 50 teeth and 50 gaps, totaling 100 "units" per revolution. If the light passes through a gap, it will be blocked if the wheel rotates by the width of one gap (or any odd multiple of a gap width) in the time $t$. 
+3.  **Synchronization:** The time taken for the wheel to rotate by one tooth width must equal the time taken for the light to travel to the mirror and back.
+
+### Calculation
+**Step 1: Calculate the time taken for light to travel the round trip ($t$):**
+$$t = \frac{d}{c} = \frac{16,000\text{ m}}{3 \times 10^8\text{ m/s}} = 5.33 \times 10^{-5}\text{ s}$$
+
+**Step 2: Relate this to the rotation of the cogwheel:**
+The wheel has 100 segments (50 teeth + 50 gaps). One segment represents $\frac{1}{100}$ of a revolution. Let $f$ be the frequency of rotation in revolutions per second (Hz). The time taken for the wheel to move by one segment is:
+$$t = \frac{1}{100f}$$
+Setting these times equal:
+$$\frac{1}{100f} = 5.33 \times 10^{-5}$$
+$$f = \frac{1}{100 \times 5.33 \times 10^{-5}} = \frac{1}{0.00533} \approx 187.5\text{ Hz}$$
+
+**Conclusion:**
+The light is blocked when the wheel rotates such that a tooth occupies the path of the returning light. This occurs at a base frequency of approximately $187.5\text{ Hz}$ (and subsequent odd multiples of this frequency, such as $3 \times 187.5\text{ Hz}$, etc., where the light hits the 2nd, 3rd, etc. tooth).
+
+###QUESTION_TYPE
+Calculation question

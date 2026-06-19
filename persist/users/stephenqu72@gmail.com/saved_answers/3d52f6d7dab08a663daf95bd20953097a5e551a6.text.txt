@@ -1,0 +1,27 @@
+### Answer
+
+**a.** The magnetic flux through the coil will **decrease**.
+
+**b.** As the students pull the sides of the coil, the area $A$ enclosed by the coil decreases. Since the magnetic flux is given by $\Phi = BA\cos(\theta)$, a decrease in area leads to a decrease in the magnetic flux $\Phi_B$ passing through the coil. According to **Faraday’s Law**, a changing magnetic flux induces an electromotive force (EMF) in the coil. According to **Lenz’s Law**, the induced current will flow in a direction that creates a magnetic field to oppose the change in flux. Since the flux into the page is decreasing, the induced current will flow in a **clockwise** direction to create a magnetic field that points into the page, opposing the loss of flux.
+
+**c.** 
+*   **From 6a to 6b:** The area increases back to the original circular shape. The flux into the page increases. To oppose this increase, the induced current flows **counter-clockwise**.
+*   **From 6b to 6c:** The coil is rotated so that its plane becomes parallel to the magnetic field lines. The angle $\theta$ between the area vector and the magnetic field vector changes from $0^\circ$ to $90^\circ$, causing the magnetic flux to decrease to zero. To oppose the loss of inward flux, the induced current flows **clockwise**.
+
+***
+
+### Explanation of Physics Principles
+
+To solve this problem, you must apply the fundamental laws of electromagnetism:
+
+1.  **Magnetic Flux Equation:** Use $\Phi_B = BA \cos(\theta)$. Note that the magnetic field $B$ is constant; the change occurs because the effective cross-sectional area $A$ or the orientation $\theta$ changes.
+2.  **Faraday’s Law:** An induced EMF is proportional to the rate of change of magnetic flux ($\mathcal{E} = -N \frac{\Delta \Phi_B}{\Delta t}$). This explains why a current is registered—the changing shape creates a changing flux.
+3.  **Lenz’s Law:** This is the key for direction. Think of the coil as being "stubborn":
+    *   If flux is **decreasing**, the coil wants to "add more" of the same field.
+    *   If flux is **increasing**, the coil wants to "oppose" it by creating a field in the opposite direction.
+4.  **Right-Hand Grip Rule:** Use this to determine the current direction. Point your thumb in the direction of the magnetic field you need to create to oppose the change; your fingers will curl in the direction of the induced current.
+
+***
+
+###QUESTION_TYPE
+Short answer

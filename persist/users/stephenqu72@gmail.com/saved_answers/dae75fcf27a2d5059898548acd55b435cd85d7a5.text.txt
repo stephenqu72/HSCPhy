@@ -1,0 +1,16 @@
+### Answer
+The slowing of the spinning disc is due to the formation of **eddy currents** caused by electromagnetic induction, which subsequently create a braking force according to **Lenz's Law**.
+
+### Explanation
+To solve this problem for full HSC marks, you must link the mechanical motion to the production of induced currents and the resulting magnetic interaction. Follow these logical steps:
+
+1.  **Electromagnetic Induction:** As the metal disc rotates through the region of the strong magnetic field, the free electrons in the metal experience a change in magnetic flux. According to Faraday’s Law of Induction, this change in magnetic flux induces an electromotive force (EMF) within the disc.
+2.  **Formation of Eddy Currents:** Because the metal disc is a conductor, this induced EMF causes circular currents to circulate within the bulk of the disc. These are known as **eddy currents**.
+3.  **Lenz’s Law:** Lenz’s Law states that the direction of an induced current will be such that it creates a magnetic field that opposes the change in flux that produced it. 
+4.  **The Braking Force:** The eddy currents generate their own magnetic field that interacts with the external magnetic field of the electromagnet. This interaction creates a Lorentz force that acts in the opposite direction to the rotation of the disc. This opposing force exerts a torque that slows down the angular velocity of the disc, effectively acting as a brake. 
+5.  **Energy Transformation:** The kinetic energy of the rotating disc is dissipated as thermal energy due to the resistance of the metal as the eddy currents flow through it.
+
+***
+
+###QUESTION_TYPE
+Short answer

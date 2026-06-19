@@ -1,0 +1,22 @@
+To solve this question, we must apply our knowledge of the electromagnetic spectrum and the photoelectric effect.
+
+### Analysis of the Statements:
+
+*   **(A) Gamma radiation has a higher wavelength:** This is **incorrect**. In the electromagnetic spectrum, gamma rays have the highest frequency and therefore the *shortest* wavelength. Ultraviolet (UV) radiation has a longer wavelength than gamma rays.
+*   **(B) Gamma radiation travels faster in a vacuum:** This is **incorrect**. All electromagnetic radiation, regardless of frequency or wavelength, travels at the same speed in a vacuum (the speed of light, $c \approx 3 \times 10^8 \text{ m/s}$).
+*   **(C) Gamma radiation has less power to ionise molecular bonds:** This is **incorrect**. Gamma radiation is much more energetic than UV radiation; therefore, it has significantly higher ionizing potential.
+*   **(D) Gamma radiation produces photoelectrons with higher maximum kinetic energy:** This is **correct**. The photoelectric effect is governed by the equation:
+    $$E_k = hf - \phi$$
+    where $E_k$ is the maximum kinetic energy of the emitted photoelectron, $h$ is Planck’s constant, $f$ is the frequency of the incident radiation, and $\phi$ is the work function of the material. Since gamma radiation has a much higher frequency ($f$) than UV radiation, the energy of the incident photons ($hf$) is much greater. Consequently, for a given material, gamma rays will produce photoelectrons with a higher maximum kinetic energy compared to UV rays.
+
+**Correct Answer: (D)**
+
+---
+
+### How to solve:
+1.  **Recall the electromagnetic spectrum order:** Remember the sequence (Radio, Microwave, Infrared, Visible, UV, X-ray, Gamma). As you move toward gamma, frequency increases and wavelength decreases.
+2.  **Recall constant velocity:** Know that all EM waves are the same physical phenomenon moving at $c$ in a vacuum.
+3.  **Use the Photoelectric Equation:** Recognize that photon energy $E = hf$ is directly proportional to frequency. Since gamma photons are more energetic, they transfer more energy to the ejected electrons after overcoming the work function $\phi$.
+
+###QUESTION_TYPE
+Multiple choice

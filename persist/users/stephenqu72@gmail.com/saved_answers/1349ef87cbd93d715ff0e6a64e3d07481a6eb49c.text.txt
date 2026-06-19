@@ -1,0 +1,32 @@
+To solve this problem, we apply the **Law of Conservation of Energy** for an ideal transformer. In an ideal transformer, the total power input from the primary coil must equal the total power output from all secondary coils combined:
+
+$$P_{\text{primary}} = P_{\text{secondary}_1} + P_{\text{secondary}_2}$$
+
+### Step-by-Step Explanation:
+
+1.  **Calculate the input power ($P_1$):**
+    Using the formula $P = VI$, we have:
+    $$P_1 = V_1 \times I_1 = 240\text{ V} \times 1.0\text{ A} = 240\text{ W}$$
+
+2.  **Determine the voltages in the secondary coils:**
+    The ratio of voltage to the number of turns is constant for all coils in a transformer ($V/N = \text{constant}$).
+    From the primary coil: $V_1 / N_1 = 240 / 40 = 6\text{ V per turn}$.
+    *   For the first secondary coil ($N_2 = 10$): $V_2 = 10 \times 6 = 60\text{ V}$.
+    *   For the second secondary coil ($N_3 = 20$): $V_3 = 20 \times 6 = 120\text{ V}$.
+
+3.  **Use the conservation of energy equation:**
+    $$P_1 = (V_2 \times I_2) + (V_3 \times I_3)$$
+    Substitute the known values:
+    $$240 = (60 \times 0.5) + (120 \times I_3)$$
+    $$240 = 30 + 120 \times I_3$$
+
+4.  **Solve for $I_3$:**
+    $$240 - 30 = 120 \times I_3$$
+    $$210 = 120 \times I_3$$
+    $$I_3 = 210 / 120$$
+    $$I_3 = 1.75\text{ A}$$
+
+Comparing this to the given options, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

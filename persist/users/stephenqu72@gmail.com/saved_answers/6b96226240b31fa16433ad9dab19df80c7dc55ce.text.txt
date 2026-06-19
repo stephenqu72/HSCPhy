@@ -1,0 +1,17 @@
+To solve this problem, we need to understand the relationship between the rotational speed of a DC motor and the concept of **back electromotive force (back emf)**.
+
+### Explanation
+
+1.  **Back EMF Principle:** A DC motor operates by converting electrical energy into mechanical energy. As the motor spins, the internal coils move through a magnetic field, which induces an opposing voltage known as back emf ($\varepsilon_{back}$). According to Lenz's Law, this emf opposes the supply voltage ($V_{supply}$) from the battery.
+2.  **Circuit Equation:** The current ($I$) flowing through the motor is governed by Ohm's Law in the context of the total potential difference across the motor's internal resistance ($R$):
+    $$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+3.  **Impact of Stopping the Motor:** When the shaft of the motor is held and the motor stops, the coils are no longer cutting through magnetic field lines at the same rate. Since back emf is directly proportional to the rotational speed ($\varepsilon_{back} \propto \omega$), if the speed drops to zero, the **back emf drops to zero**.
+4.  **Resulting Change in Current:** Looking back at the equation $I = \frac{V_{supply} - \varepsilon_{back}}{R}$, if $\varepsilon_{back}$ decreases (in this case, disappears), the numerator ($V_{supply} - \varepsilon_{back}$) increases. Consequently, the current $I$ flowing through the circuit **increases**.
+
+**Conclusion:** When the motor is stopped, the back emf decreases (effectively becoming zero), which leads to an increase in the ammeter reading. This corresponds to the scenario described in row **D**.
+
+### Correct Answer
+The correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

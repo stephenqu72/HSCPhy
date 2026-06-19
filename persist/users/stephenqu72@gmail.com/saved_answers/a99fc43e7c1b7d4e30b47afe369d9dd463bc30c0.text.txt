@@ -1,0 +1,27 @@
+### Answer and Explanation
+
+To solve this problem, we need to apply the transformer equation, which relates the primary voltage ($V_p$), secondary voltage ($V_s$), primary turns ($N_p$), and secondary turns ($N_s$):
+
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+
+**1. Identify the given values:**
+*   Primary voltage ($V_p$) = $40\text{ V}$
+*   Primary turns ($N_p$) = $1000$
+*   Secondary turns ($N_s$) = $6000$
+
+**2. Calculate the secondary voltage ($V_s$):**
+Rearranging the formula to solve for $V_s$:
+$$V_s = V_p \times \left( \frac{N_s}{N_p} \right)$$
+$$V_s = 40 \times \left( \frac{6000}{1000} \right)$$
+$$V_s = 40 \times 6$$
+$$V_s = 240\text{ V}$$
+
+**3. Determine the type of transformer:**
+*   A **step-up** transformer is one where the secondary voltage is greater than the primary voltage ($V_s > V_p$), which corresponds to having more turns in the secondary coil than in the primary coil ($N_s > N_p$).
+*   Since $N_s (6000) > N_p (1000)$ and $V_s (240\text{ V}) > V_p (40\text{ V})$, this is a **step-up** transformer.
+
+**Conclusion:**
+The secondary voltage is $240\text{ V}$ and the transformer is a step-up transformer. This matches option **D**.
+
+###QUESTION_TYPE
+Multiple choice

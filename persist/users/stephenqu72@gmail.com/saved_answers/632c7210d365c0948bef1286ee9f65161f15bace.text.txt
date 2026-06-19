@@ -1,0 +1,17 @@
+The correct answer is **C**.
+
+### Explanation
+
+To understand why high voltages are used for the transmission of electric power, we must look at the power loss that occurs in transmission lines.
+
+1.  **The Power Formula:** Electrical power $P$ is transmitted from a power station according to the formula $P = VI$, where $V$ is the voltage and $I$ is the current. For a fixed amount of power to be delivered, if we increase the voltage ($V$), we must decrease the current ($I$) proportionally.
+2.  **Energy Loss Formula:** Power lost as heat in the transmission lines (due to resistance $R$) is calculated using the formula:
+    $$P_{loss} = I^2 R$$
+3.  **The Relationship:** Because the power loss is proportional to the **square** of the current ($I^2$), reducing the current has a significant impact on reducing energy waste. By stepping up the voltage to a very high level, we drastically reduce the current $I$ flowing through the wires. Even a small reduction in current leads to a massive reduction in the power lost as heat.
+
+**Why the other options are incorrect:**
+*   **A and D:** While transformers are efficient and can step voltages down to required levels for household use, these features are *consequences* or *enablers* of the AC grid system, but they are not the *reason* why we use high voltages for long-distance transmission itself.
+*   **B:** If we used larger currents, we would increase the power loss ($P_{loss} = I^2 R$) significantly, making the transmission extremely inefficient. We specifically want to avoid large currents.
+
+### QUESTION_TYPE
+Multiple choice

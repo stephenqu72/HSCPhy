@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To solve this problem, we need to understand the fundamental principles of an **ideal transformer**.
+
+1.  **Definition of a "Step-up" Transformer:** A step-up transformer is designed to increase the output voltage ($V_s > V_p$). According to the transformer equation, this is achieved by having more turns in the secondary coil than in the primary coil ($N_s > N_p$).
+2.  **Conservation of Energy:** In an *ideal* transformer, there are no energy losses (e.g., no heat loss due to resistance, no flux leakage). Therefore, the power input must equal the power output:
+    $$P_{in} = P_{out}$$
+    Since electrical power is calculated by the product of voltage and current ($P = VI$), we have:
+    $$V_p I_p = V_s I_s$$
+3.  **The Relationship between Voltage and Current:** Because the power must remain constant ($P_{in} = P_{out}$), if the transformer increases the voltage ($V_s > V_p$), the current must decrease proportionally to keep the product constant ($I_s < I_p$).
+
+**Evaluating the options:**
+*   **(A)** is incorrect because it describes a *step-down* transformer (decreasing voltage).
+*   **(B)** is correct because it identifies that a step-up transformer increases voltage, decreases current, and adheres to the law of conservation of power.
+*   **(C)** is incorrect because an ideal transformer cannot create energy; power cannot be increased.
+*   **(D)** is incorrect because it suggests current is maintained, which would violate the conservation of energy if the voltage were increased.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,23 @@
+To determine the correct graph, we must look at the relationship between the magnitude of the back electromotive force ($\varepsilon$) and the angular velocity ($\omega$) of a DC motor.
+
+### Explanation
+
+1.  **The Physics Principle:** When a DC motor rotates, the coil inside the magnetic field experiences a changing magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an electromotive force (emf) that opposes the supply voltage, known as the "back emf."
+2.  **The Formula:** The magnitude of the back emf ($\varepsilon$) in a DC motor is given by the expression:
+    $$\varepsilon = N \cdot A \cdot B \cdot \omega \cdot \sin(\theta)$$
+    where:
+    *   $N$ is the number of turns in the coil.
+    *   $A$ is the area of the coil.
+    *   $B$ is the magnetic field strength.
+    *   $\omega$ is the angular velocity.
+3.  **The Relationship:** Assuming the motor is operating in a constant magnetic field and the coil geometry remains constant, the variables $N$, $A$, and $B$ are constants. Therefore, the back emf is directly proportional to the angular velocity ($\varepsilon \propto \omega$).
+4.  **Graph Analysis:** A direct proportionality between two variables results in a straight line passing through the origin. Looking at the options provided:
+    *   **A:** Shows an exponential increase (incorrect).
+    *   **B:** Shows a negative linear relationship (incorrect).
+    *   **C:** Shows a square root or logarithmic-style growth (incorrect).
+    *   **D:** Shows a linear relationship passing through the origin (correct).
+
+**Answer:** The correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this question, you need to understand the fundamental purpose of a transformer in a domestic context:
+
+1.  **Function of a Transformer:** A transformer is an electrical device that changes the voltage of an alternating current (AC) supply using electromagnetic induction. It operates based on Faraday’s Law and can either step up or step down the voltage.
+2.  **Domestic Mains Supply:** In Australia, the standard output voltage from a household power point is approximately $230\text{--}240\text{ V}$ AC.
+3.  **Application:** Many small household appliances (such as chargers, LED lights, or game consoles) contain delicate electronic components that cannot operate at $240\text{ V}$ because they would be damaged. These devices require a much lower voltage (e.g., $5\text{ V}$, $9\text{ V}$, or $12\text{ V}$) to function safely. Therefore, a **step-down transformer** is used to reduce the mains voltage to the appropriate level for that specific appliance.
+
+**Why the other options are incorrect:**
+*   **A:** While many appliances use DC, a transformer *cannot* convert AC to DC. This conversion requires a rectifier (such as a diode bridge).
+*   **B:** Transformers change voltage and current, but they do not change the frequency of the AC supply.
+*   **C:** Using a transformer does not inherently make a device more energy-efficient; in fact, there is always a small amount of energy lost as heat due to eddy currents and resistance in the coils (Joule heating).
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down this electromagnetism problem.
+
+### Part a) Calculation
+To find the torque ($\tau$) on a current-carrying coil in a magnetic field, we use the formula:
+$$\tau = nIAB \sin(\theta)$$
+where:
+*   $n = 10$ (number of loops)
+*   $I = 7.5\text{ A}$ (current)
+*   $A = 20\text{ cm}^2 = 20 \times 10^{-4}\text{ m}^2 = 0.002\text{ m}^2$ (Area must be in SI units)
+*   $B = 0.6\text{ T}$ (Magnetic field strength)
+*   $\theta$ is the angle between the **normal to the coil** and the magnetic field. Since the plane of the loop is parallel to the field, the normal is at $90^\circ$ to the field. Thus, $\sin(90^\circ) = 1$.
+
+**Calculation:**
+$$\tau = 10 \times 7.5 \times 0.002 \times 0.6 \times \sin(90^\circ)$$
+$$\tau = 75 \times 0.002 \times 0.6 \times 1$$
+$$\tau = 0.15 \times 0.6$$
+$$\tau = 0.09\text{ Nm}$$
+
+**Answer:** The magnitude of the torque is **$0.09\text{ Nm}$**.
+
+---
+
+### Part b) Description
+The component required is the **split-ring commutator**.
+
+*   **Structure:** It consists of a metal ring split into two halves (or more, depending on the design) that are insulated from each other and attached to the rotating coil. Carbon brushes make contact with the commutator as it rotates.
+*   **Function:** As the coil rotates past the vertical position, the split-ring commutator reverses the direction of the current through the coil every half-turn. This ensures that the magnetic force on each side of the coil always acts in the same direction, thereby maintaining a continuous torque and allowing the motor to rotate in one direction rather than oscillating.
+
+---
+
+### How to solve these types of problems:
+1.  **Always convert units:** Remember that $1\text{ cm}^2 = 10^{-4}\text{ m}^2$. Forgetting this is the most common error in HSC physics.
+2.  **Identify $\theta$:** The angle $\theta$ in the torque formula is the angle between the *normal* vector (perpendicular to the plane of the coil) and the B-field. If the coil is parallel to the B-field, the normal is at $90^\circ$.
+3.  **Conceptual clarity:** For motor questions, always link the "reversal of current" provided by the commutator to the "maintenance of rotational direction."
+
+###QUESTION_TYPE
+Calculation question

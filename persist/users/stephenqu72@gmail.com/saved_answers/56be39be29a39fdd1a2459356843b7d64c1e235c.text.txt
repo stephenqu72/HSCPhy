@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To understand why, we look at the physics of the magnetic force acting on a current-carrying conductor in a magnetic field, described by the formula:
+$$F = BIL \sin(\theta)$$
+where:
+*   $B$ is the magnetic field strength.
+*   $I$ is the current.
+*   $L$ is the length of the wire.
+*   $\theta$ is the angle between the wire and the magnetic field lines.
+
+In a DC motor, as the coil rotates, the orientation of the segments of the coil relative to the external magnetic field changes. 
+
+1.  **The Formula:** The torque produced by the motor depends on the force acting perpendicular to the axis of rotation. The force exerted on the side arms of the coil is given by the cross product of the current vector and the magnetic field vector. 
+2.  **Angular Dependency:** As the coil rotates, the angle between the coil's plane and the vertical changes. If we define the angle $\theta$ relative to the vertical position (where the coil is perpendicular to the magnetic field), the effective force that contributes to the rotation follows a sinusoidal variation.
+3.  **Why (B):** When the coil is horizontal (parallel to the magnetic field), the force is at its maximum. When the coil is vertical (perpendicular to the magnetic field), the effective turning force (torque) becomes zero. This transition from maximum to zero as it moves from horizontal to vertical is mathematically described by a sine function (or cosine, depending on the starting reference point, but in HSC physics contexts, the variation of torque/force relative to the vertical orientation of the coil is standardly described as varying sinusoidally). Specifically, as the coil rotates through angle $\phi$ from the vertical, the torque varies as $\cos(\phi)$, and the component of the force related to the geometry follows the sine of the angle relative to the field lines.
+
+Option (B) is the standard curriculum description for how these forces vary throughout the rotation cycle of a DC motor.
+
+###QUESTION_TYPE
+Multiple choice

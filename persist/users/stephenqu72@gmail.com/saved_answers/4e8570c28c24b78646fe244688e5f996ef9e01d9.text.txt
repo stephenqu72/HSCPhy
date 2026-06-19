@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **D. Split-ring commutator**.
+
+### Explanation
+To solve this problem, you need to understand the function of each component within a DC motor:
+
+1.  **The Physics of the DC Motor:** A DC motor operates on the motor effect, where a current-carrying conductor in a magnetic field experiences a force ($F = BIL\sin\theta$). 
+2.  **The Problem with Continuous Rotation:** As the coil rotates past the vertical position (where the force becomes zero), the sides of the coil swap positions. If the current direction remained constant, the motor would experience a force in the opposite direction, causing the coil to oscillate or stop, rather than spinning continuously in one direction.
+3.  **The Role of the Split-ring Commutator:** This component consists of a metal ring split into two halves, separated by an insulator. As the coil rotates, the split-ring commutator rotates with it. Every half-turn, the brushes move from one segment of the commutator to the other. This mechanical switching **reverses the direction of the current** flowing through the coil every half-turn.
+4.  **Result:** By reversing the current direction at the precise moment the coil is vertical, the direction of the magnetic force is also reversed. This ensures the torque remains in the same rotational direction, allowing the motor to spin continuously.
+
+**Why the other options are incorrect:**
+*   **A. Coil:** The coil is where the current flows and the magnetic force acts; it does not perform the switching.
+*   **B. Magnets:** These provide the constant external magnetic field required for the motor effect to occur.
+*   **C. DC power supply:** This provides the source of electrical energy (the current), but it outputs a constant, unidirectional current, not a reversing one.
+
+###QUESTION_TYPE
+Multiple choice

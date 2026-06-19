@@ -1,0 +1,31 @@
+To solve this problem, we must calculate the maximum torque produced by the DC motor and compare it to the torque required to turn the spanner (load).
+
+### 1. Calculate the required torque to turn the spanner ($\tau_{load}$)
+The torque is given by $\tau = r \cdot F \cdot \sin(\theta)$. 
+- Length of spanner ($r$) = $8\text{ cm} = 0.08\text{ m}$
+- Force ($F$) = $14\text{ N}$
+- Angle ($\theta$) = $32^\circ$
+
+$$\tau_{load} = 0.08 \times 14 \times \sin(32^\circ)$$
+$$\tau_{load} \approx 1.12 \times 0.5299 \approx 0.593\text{ Nm}$$
+
+### 2. Calculate the maximum torque produced by the DC motor ($\tau_{motor}$)
+The torque produced by a DC motor is given by $\tau = n \cdot B \cdot I \cdot A$, where $n$ is the number of loops, $B$ is the magnetic field strength, $I$ is the current, and $A$ is the area of the coil.
+- $n = 2$
+- $B = 3\text{ T}$
+- $I = 2.5\text{ A}$
+- Area ($A$) = $240\text{ mm} \times 300\text{ mm} = 0.24\text{ m} \times 0.30\text{ m} = 0.072\text{ m}^2$
+
+$$\tau_{motor} = 2 \times 3 \times 2.5 \times 0.072$$
+$$\tau_{motor} = 15 \times 0.072 = 1.08\text{ Nm}$$
+
+### 3. Conclusion and Comparison
+Comparing the two values:
+- $\tau_{motor} = 1.08\text{ Nm}$
+- $\tau_{load} = 0.593\text{ Nm}$
+
+Since the motor produces a torque of $1.08\text{ Nm}$, which is greater than the required $0.593\text{ Nm}$ to turn the spanner, the student's hypothesis is **verified**. The difference is $1.08 - 0.593 = 0.487\text{ Nm}$, meaning the motor provides sufficient torque to overcome the load and rotate the spanner.
+
+---
+###QUESTION_TYPE
+Calculation question

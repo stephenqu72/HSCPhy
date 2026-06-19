@@ -1,0 +1,21 @@
+To solve this problem, we must understand the relationship between the operation of a DC motor, its rotation speed, and the concept of back electromotive force (back EMF).
+
+### Explanation
+1.  **Back EMF ($\varepsilon$):** When a DC motor spins, the motor coils rotate within a magnetic field. According to Faraday’s Law of Induction, this induces an EMF in the coils that opposes the supply voltage ($V$). This is known as back EMF.
+2.  **Proportionality:** The magnitude of the back EMF is directly proportional to the speed of the motor ($\omega$). We can represent this as $\varepsilon = k\omega$, where $k$ is a constant related to the motor's construction.
+3.  **Circuit Equation:** The current ($I$) flowing through the motor windings is determined by the net voltage across the internal resistance ($R$) of the motor:
+    $$V_{net} = V - \varepsilon = IR$$
+    Rearranging for current:
+    $$I = \frac{V - \varepsilon}{R} = \frac{V - k\omega}{R}$$
+4.  **Relationship:** Since $V$, $R$, and $k$ are constants, the equation $I = \frac{V}{R} - (\frac{k}{R})\omega$ takes the form of a linear equation $y = mx + c$, where:
+    *   The slope is negative ($-\frac{k}{R}$).
+    *   The y-intercept is $\frac{V}{R}$ (the current when speed is zero, known as "stall current").
+    *   As speed increases, the back EMF increases, which reduces the effective voltage driving the current, leading to a linear decrease in current.
+
+Comparing this to the provided graphs, **Graph (C)** correctly illustrates a linear decrease in current as the speed increases.
+
+### Answer
+The correct graph is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

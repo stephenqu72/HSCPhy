@@ -1,0 +1,24 @@
+To determine the correct graph, we apply the principles of electromagnetic induction.
+
+### Analysis
+1.  **Motional EMF:** When a conductor of length $l$ moves with velocity $v$ perpendicular to a uniform magnetic field $B$, an induced EMF ($\varepsilon$) is generated, given by the formula:
+    $$\varepsilon = Blv$$
+    Since $B$ and $l$ are constant, the induced voltage is directly proportional to the velocity $v$ of the rod.
+
+2.  **Direction (Lenz's Law):** The direction of the induced current (and thus the sign of the voltage) depends on the direction of movement. Moving the rod in one direction creates a positive voltage, while moving it in the opposite direction creates a negative voltage.
+
+3.  **The Movement Sequence:**
+    *   **Phase 1:** The rod moves $5\text{ cm}$ to the **left**. This generates a constant velocity and a constant voltage of one polarity (let's call it positive).
+    *   **Phase 2:** The rod moves $10\text{ cm}$ to the **right**. It passes its original position and moves to the right. During this entire motion, the velocity is constant in the opposite direction, generating a constant voltage of the opposite polarity (negative).
+    *   **Phase 3:** The rod moves back to the original position (a short distance to the left). This generates a constant positive voltage again.
+
+### Conclusion
+Because the velocity is constant during each segment of the movement, the induced voltage should be a constant value (a horizontal line on a graph) for each specific direction of movement. 
+*   Moving left: Positive voltage.
+*   Moving right: Negative voltage.
+*   Returning left: Positive voltage.
+
+Graph **(d)** represents a constant voltage magnitude during each constant-velocity phase, with reversals in polarity corresponding to reversals in the direction of motion.
+
+### QUESTION_TYPE
+Multiple choice

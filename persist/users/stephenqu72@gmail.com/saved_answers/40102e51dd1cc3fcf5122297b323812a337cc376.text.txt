@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I'm happy to help you break down this transformer problem. These concepts regarding energy losses in electrical systems are core to the HSC syllabus.
+
+### Part a) Explain why everyday transformers are not ideal.
+
+To score full marks (3 marks) here, you need to identify and briefly explain the physical mechanisms that cause energy loss (heat) in a transformer:
+
+1.  **Resistance in the Coils (Joule Heating):** The copper wires used to wind the primary and secondary coils have non-zero electrical resistance. When current flows through them, energy is dissipated as heat according to the formula $P = I^2R$.
+2.  **Eddy Currents:** The changing magnetic flux in the iron core induces small circular currents (eddy currents) within the core itself. These currents produce heat in the core. *Teacher tip: Mention that laminated cores are used to minimize this.*
+3.  **Magnetic Hysteresis:** Energy is lost as the iron core is repeatedly magnetized and demagnetized by the alternating current. The internal friction of the magnetic domains as they reorient generates thermal energy.
+4.  **Flux Leakage:** Not all magnetic flux produced by the primary coil passes through the secondary coil; some leaks into the air, meaning the secondary coil does not capture 100% of the magnetic energy generated.
+
+---
+
+### Part b) Assuming all transformers are ideal, how much current is available for the neighbourhood?
+
+**How to solve:**
+In an "ideal" transformer system, we assume no power is lost during the transmission and transformation stages. Therefore, the total power generated ($P_{gen}$) is equal to the power available at the neighbourhood ($P_{neigh}$).
+
+1.  **Identify the variables:**
+    *   Total Power ($P$) = $250\text{ kW} = 250,000\text{ W}$
+    *   Neighbourhood Voltage ($V_{neigh}$) = $1,300\text{ V}$
+
+2.  **Use the power formula:**
+    Since $P = VI$, we rearrange the formula to solve for current ($I$):
+    $$I = \frac{P}{V}$$
+
+3.  **Substitute the values:**
+    $$I = \frac{250,000\text{ W}}{1,300\text{ V}}$$
+    $$I \approx 192.3076... \text{ A}$$
+
+**Final Answer:**
+Rounding to a reasonable number of significant figures (consistent with the data provided), the current available is approximately **$192\text{ A}$**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

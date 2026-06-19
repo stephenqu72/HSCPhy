@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+**Part a)**
+
+To solve for the length $XY$, we use the formula for the maximum torque ($\tau_{max}$) on a current-carrying loop in a magnetic field:
+$$\tau = nIAB\cos(\theta)$$
+For maximum torque, the plane of the coil is parallel to the magnetic field, meaning the angle between the normal to the coil and the field is $0^\circ$, so $\cos(0^\circ) = 1$. The formula simplifies to:
+$$\tau = nIABL$$
+where:
+- $\tau = 1.8 \times 10^{-4} \text{ Nm}$
+- $n = 1$ (it is a single coil)
+- $I = 0.50 \text{ A}$
+- $B = 0.3 \text{ T}$
+- $w = 5.0 \text{ cm} = 0.05 \text{ m}$ (this is the width of the coil, the lever arm for the force)
+- $L = XY$ (the length we need to find)
+
+Since torque is force times perpendicular distance, and force $F = BIL$, the torque is $\tau = F \times w = (BIL) \times w$.
+$$1.8 \times 10^{-4} = 0.50 \times 0.3 \times L \times 0.05$$
+$$1.8 \times 10^{-4} = 0.0075 \times L$$
+$$L = \frac{1.8 \times 10^{-4}}{0.0075} = 0.024 \text{ m}$$
+**The length $XY$ is $0.024 \text{ m}$ or $2.4 \text{ cm}$.**
+
+***
+
+**Part b)**
+
+If the motor were connected to an AC supply, the direction of the current would reverse periodically. In a DC motor, the **split-ring commutator** is designed to reverse the current in the coil every half-turn to ensure the torque remains in the same direction, allowing continuous rotation.
+
+If an AC supply is used, the current in the wires feeding the commutator already reverses direction at the frequency of the AC supply. If the frequency of the AC current matches the frequency at which the commutator reverses the current, the forces on the sides of the coil would flip, and the motor would likely "stutter," stall, or attempt to vibrate rapidly rather than rotating smoothly. Essentially, the combination of an AC supply and a commutator results in a chaotic torque profile that prevents effective, continuous motor operation.
+
+###QUESTION_TYPE
+Calculation question

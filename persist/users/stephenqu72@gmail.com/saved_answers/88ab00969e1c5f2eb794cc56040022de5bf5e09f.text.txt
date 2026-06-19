@@ -1,0 +1,33 @@
+### Answer
+
+**(a) DCBA**
+
+**(b) Explanation:**
+When the switch is closed, an induced current flows through the coil. According to **Lenz’s Law**, the direction of this induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it. 
+
+Specifically, the interaction between the induced current in the coil and the external magnetic field produces a **Lorentz force** (or a magnetic torque) that acts in the opposite direction to the rotation being applied by hand. This effect is a manifestation of the **Law of Conservation of Energy**; the mechanical work done to rotate the coil against this opposing torque is converted into the electrical energy powering the load.
+
+***
+
+### How to solve this question
+
+**Part (a):**
+To determine the direction of the induced current, use the **Right-Hand Rule for Generators (Fleming’s Right-Hand Rule)**:
+1.  **Thumb:** Point in the direction of the motion of the conductor. For side AB, the motion is "out of the page."
+2.  **Fingers (Index):** Point in the direction of the magnetic field (from North to South, i.e., left to right).
+3.  **Middle Finger:** Points in the direction of the induced current.
+For side AB (moving out), the current flows from $A$ to $B$. Consequently, for the loop $ABCD$, the current must flow $A \rightarrow B \rightarrow C \rightarrow D$ is incorrect; let's re-verify:
+*   Side AB (left side): Motion is out of the page. Field is right. Current flows **up** (from A to B).
+*   Side CD (right side): Motion is into the page. Field is right. Current flows **down** (from C to D).
+*   Therefore, the path of the current around the coil is **$A \rightarrow B \rightarrow C \rightarrow D$**.
+*(Self-Correction: Looking at the diagram, if AB is moving out and CD is moving in, the current flows $A \rightarrow B$ and $C \rightarrow D$. Therefore the direction is **ABCD**).*
+
+**Part (b):**
+This is a standard HSC Physics question regarding the **Motor Effect** and **Lenz's Law**. 
+1.  Identify the cause: Closing the switch allows a current to flow.
+2.  Identify the interaction: The current-carrying wire (the coil) experiences a force when placed in a magnetic field ($F = BIL\sin\theta$).
+3.  Connect to Lenz's Law: The direction of this force always opposes the motion that generated the current.
+4.  Conservation of Energy: Explicitly mention that energy is not created; mechanical energy is converted to electrical energy, which requires work against an opposing force.
+
+###QUESTION_TYPE
+Short answer

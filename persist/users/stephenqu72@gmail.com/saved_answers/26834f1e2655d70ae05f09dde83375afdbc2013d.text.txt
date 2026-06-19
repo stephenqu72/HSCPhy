@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+#### (a) Use physics principles to explain how this transformer works. (3 marks)
+
+**Answer:**
+A transformer operates based on the principle of electromagnetic induction. When an alternating current (AC) flows through the input (primary) coil, it creates a continuously changing magnetic flux within the soft iron core. This changing magnetic flux is carried by the core to the output (secondary) coil. According to Faraday’s Law of Induction, this changing flux induces an electromotive force (EMF) or voltage in the secondary coil. Because the number of turns in the output coil is greater than in the input coil ($N_s > N_p$), this specific device acts as a step-up transformer, increasing the voltage.
+
+**How to solve:**
+To secure full marks, you must mention these three key concepts:
+1. **Source:** AC in the primary coil creates a changing magnetic field.
+2. **Transfer:** The iron core channels this changing magnetic flux to the secondary coil.
+3. **Induction:** Faraday’s Law explains that the changing flux induces an EMF in the secondary coil.
+
+---
+
+#### (b) Calculate the amount of output current if the input current was 15 A. (2 marks)
+
+**Answer:**
+For an ideal transformer, the power input equals the power output ($P_p = P_s$), which implies $V_p I_p = V_s I_s$. We also know the transformer equation:
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p} = \frac{I_p}{I_s}$$
+
+Given:
+- Input turns $N_p = 4$
+- Output turns $N_s = 16$
+- Input current $I_p = 15 \text{ A}$
+
+Using the relationship $\frac{N_s}{N_p} = \frac{I_p}{I_s}$:
+$$\frac{16}{4} = \frac{15}{I_s}$$
+$$4 = \frac{15}{I_s}$$
+$$I_s = \frac{15}{4} = 3.75 \text{ A}$$
+
+**The output current is 3.75 A.**
+
+**How to solve:**
+1. Identify the relationship between turns and current: current is inversely proportional to the number of turns in an ideal transformer.
+2. Set up the ratio: $\frac{N_s}{N_p} = \frac{I_p}{I_s}$.
+3. Substitute the known values and solve for $I_s$.
+
+###QUESTION_TYPE
+Calculation question

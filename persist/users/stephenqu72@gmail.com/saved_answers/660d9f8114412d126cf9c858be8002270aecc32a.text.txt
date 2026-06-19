@@ -1,0 +1,17 @@
+### Answer
+The correct statement is **(A)**.
+
+### Explanation
+To distinguish between AC and DC generators, we must look at how the electrical connection is made between the rotating coil and the external circuit:
+
+1.  **AC Generators (Alternators):** These use **slip rings**. Each end of the coil is permanently connected to its own slip ring, which rotates with the coil. As the coil rotates, the induced current changes direction every half-turn (due to the changing magnetic flux). Because the slip rings maintain the same physical connection to the external circuit throughout the rotation, the output voltage and current alternate direction in the external circuit accordingly. Thus, the connection "reverses" relative to the coil's motion every half-rotation, producing an alternating current.
+2.  **DC Generators:** These use a **split-ring commutator**. The commutator acts as a mechanical rectifier. Every half-turn, the two halves of the ring swap contact with the brushes. This switching action ensures that the output current always flows in the same direction through the external circuit, despite the current alternating within the rotating coil itself.
+
+**Evaluating the options:**
+*   **(A) is correct:** AC generators use slip rings, and the physical setup ensures the induced EMF is delivered as an alternating current (the direction relative to the load reverses).
+*   **(B) is incorrect:** Slip rings ensure the connection is consistent, which is exactly why the output alternates; it does not remain "constant" in terms of direction.
+*   **(C) is incorrect:** AC generators do not use split-ring commutators; DC generators do.
+*   **(D) is incorrect:** While a split-ring commutator does make the external connection "constant" in direction, this description applies to a DC generator, not an AC generator.
+
+### QUESTION_TYPE
+Multiple choice

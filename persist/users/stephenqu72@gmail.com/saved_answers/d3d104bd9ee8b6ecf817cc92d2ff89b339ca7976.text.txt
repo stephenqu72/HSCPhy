@@ -1,0 +1,28 @@
+To determine which situation produces the greatest average induced EMF, we use Faraday’s Law of Induction, which states that the average induced EMF ($\varepsilon$) is equal to the magnitude of the rate of change of magnetic flux ($\Phi$):
+
+$$\varepsilon = \left| \frac{\Delta \Phi}{\Delta t} \right| = \left| \frac{\Delta (BA \cos \theta)}{\Delta t} \right|$$
+
+Let $B$ be the initial field, $A$ be the initial area ($\pi r^2$), and $\Delta t$ be the time interval.
+
+**Analysis of each situation:**
+
+*   **(S) Rotation:** The flux changes from $\Phi_{initial} = BA$ to $\Phi_{final} = 0$ (since the loop is now parallel to the field, $\cos 90^\circ = 0$).
+    $$\Delta \Phi_S = |0 - BA| = BA, \quad \Delta t = 2.0\text{ s} \implies \varepsilon_S = \frac{BA}{2.0} = 0.5BA$$
+
+*   **(T) Field reduced to zero:** The flux changes from $BA$ to $0$.
+    $$\Delta \Phi_T = |0 - BA| = BA, \quad \Delta t = 4.0\text{ s} \implies \varepsilon_T = \frac{BA}{4.0} = 0.25BA$$
+
+*   **(U) Radius doubles:** The radius $r$ becomes $2r$, so the new area $A' = \pi(2r)^2 = 4\pi r^2 = 4A$. The flux changes from $BA$ to $4BA$.
+    $$\Delta \Phi_U = |4BA - BA| = 3BA, \quad \Delta t = 2.0\text{ s} \implies \varepsilon_U = \frac{3BA}{2.0} = 1.5BA$$
+
+*   **(V) Field reversed:** The magnetic field changes from $+B$ to $-B$. The flux changes from $BA$ to $-BA$.
+    $$\Delta \Phi_V = |-BA - BA| = 2BA, \quad \Delta t = 2.0\text{ s} \implies \varepsilon_V = \frac{2BA}{2.0} = 1.0BA$$
+
+Comparing the results: $\varepsilon_U (1.5BA) > \varepsilon_V (1.0BA) > \varepsilon_S (0.5BA) > \varepsilon_T (0.25BA)$.
+
+The greatest average induced EMF occurs in situation **(U)**.
+
+**Correct Answer: (c)**
+
+###QUESTION_TYPE
+Multiple choice

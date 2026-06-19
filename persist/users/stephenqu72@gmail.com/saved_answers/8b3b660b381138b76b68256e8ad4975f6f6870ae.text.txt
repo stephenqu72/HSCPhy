@@ -1,0 +1,21 @@
+To determine the correct graph, we need to analyze the components and operation of the generator shown in the diagram.
+
+### Answer
+The correct graph is **A**.
+
+### Explanation
+1.  **Analyze the Generator Type**: The diagram shows a coil rotating in a magnetic field connected to a **split-ring commutator** (visible at points $X$ and $Y$). A split-ring commutator is the defining feature of a **DC generator**.
+2.  **Understand the Commutator's Function**: In an AC generator (which uses slip rings), the current changes direction every half-turn, resulting in a sinusoidal waveform (Graph B). However, the split-ring commutator reverses the connections to the external circuit every half-turn. This action ensures that the induced current flows in the same direction through the external circuit (the galvanometer) at all times.
+3.  **Analyze the Waveform**:
+    *   Starting at the position shown (where the plane of the coil is parallel to the magnetic field lines), the rate of change of magnetic flux is at its maximum, so the induced EMF (and thus current) is at its **maximum**.
+    *   As the coil rotates $90^\circ$ to be perpendicular to the field, the flux linkage is at its maximum, but the rate of change of flux is zero, so the current drops to **zero**.
+    *   As it continues to $180^\circ$, the current would normally reverse in an AC setup, but the commutator flips the connection, causing the current to "bounce" back up to a positive value.
+    *   This results in a rectified, pulsating DC output where the current stays above the horizontal axis. 
+4.  **Evaluate the Graphs**:
+    *   **Graph A**: Starts at a maximum value, drops to zero, and returns to a positive maximum (pulsating DC). This matches the physical principles of a DC generator starting from the position of maximum magnetic flux change.
+    *   **Graph B**: Represents standard AC (sinusoidal).
+    *   **Graph C**: Starts at zero. If the coil were starting perpendicular to the field, this would be correct, but the diagram shows the coil in the vertical plane (parallel to field lines), corresponding to maximum induction.
+    *   **Graph D**: Represents a reflected AC wave, which is incorrect for this setup.
+
+###QUESTION_TYPE
+Multiple choice

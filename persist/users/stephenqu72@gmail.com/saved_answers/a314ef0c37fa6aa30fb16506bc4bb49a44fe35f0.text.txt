@@ -1,0 +1,25 @@
+To answer this question effectively, you need to identify the primary causes of energy loss in a transformer and propose design changes to mitigate them.
+
+### Answer
+Two modifications to significantly improve the efficiency of the transformer are:
+
+1.  **Use a Laminated Core:** Replace a solid iron core with a core made of thin, insulated laminated sheets of soft iron. This reduces the magnitude of eddy currents, which are loops of induced current in the core that cause energy loss as heat through the Joule effect ($P = I^2R$).
+2.  **Use a Soft Iron Core with Low Retentivity:** Replace the core material with a high-permeability, "soft" magnetic material that has a narrow hysteresis loop. This reduces the energy dissipated as heat when the magnetic domains in the core are flipped back and forth by the alternating current (hysteresis loss).
+
+---
+
+### How to solve this question
+To score full marks (4 marks) on an HSC physics question like this, you must follow the **"State, Explain, Link"** structure:
+
+*   **Step 1: Identify the loss mechanism.** You need to know the specific ways energy is wasted in a transformer:
+    *   **Eddy currents:** Oscillating magnetic fields induce circular currents in the conductive metal core.
+    *   **Hysteresis loss:** Energy is required to constantly re-align the magnetic dipoles within the core material.
+    *   **Flux leakage:** Flux lines not staying within the core.
+    *   **Resistance (Ohmic heating):** $I^2R$ losses in the coils.
+*   **Step 2: Propose the modification.** Be specific about the engineering change (e.g., "lamination").
+*   **Step 3: Justify the modification.** A "Justify" question requires you to explain *why* the modification works. For example, simply saying "laminate the core" isn't enough; you must explicitly state that laminations **break the path** for eddy currents, thereby increasing resistance to those currents and lowering the total heat generated.
+
+**Teacher's Tip:** When discussing transformers, always link your answer back to the conservation of energy. Heat dissipation is the primary reason for low efficiency. By reducing the physical mechanisms that generate heat (eddy currents and hysteresis), you maximize the power output relative to the power input.
+
+###QUESTION_TYPE
+Short answer

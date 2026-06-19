@@ -1,0 +1,24 @@
+To answer this question, we must apply the principles of electromagnetic induction and Lenz's Law to the interaction between the moving aluminium disc and the magnetic field.
+
+### Explanation and Answer
+
+**1. The Production of Eddy Currents**
+As the aluminium disc rotates through the region of the stationary magnetic field provided by the horseshoe magnet, the free electrons in the metal disc experience a magnetic force (Lorentz force). This results in the creation of circular loops of current within the disc, known as **eddy currents**.
+
+**2. Applying Lenz's Law**
+Lenz’s Law states that the direction of an induced current is such that it opposes the change in magnetic flux that produced it. Specifically, the eddy currents generate their own magnetic field that interacts with the external magnetic field of the horseshoe magnet. 
+*   **The Braking Effect:** This interaction creates a magnetic force (a Lorentz force) that opposes the motion of the disc. Because the force acts to oppose the rotation, it acts as a magnetic brake. This explains why the **speed of rotation of the disc decreases** when the magnet is attached.
+
+**3. The Effect on Current (Back EMF)**
+The motor driving the disc is an electromechanical device. As the disc rotates, the motor experiences a **Back Electromotive Force (Back EMF)**, which is proportional to the speed of rotation ($\varepsilon \propto \omega$).
+*   When the magnet is attached and the disc slows down (due to the eddy current braking), the Back EMF produced by the motor decreases.
+*   In an electrical circuit, the net voltage driving the current is given by $V_{net} = V_{battery} - \varepsilon_{back}$. 
+*   Because the Back EMF ($\varepsilon_{back}$) is reduced as the motor slows down, the net voltage across the motor increases. 
+*   According to Ohm's Law ($I = \frac{V}{R}$), an increase in net voltage leads to an **increase in the current** measured by the ammeter.
+
+### Summary of observations:
+*   **Speed is less:** Eddy currents induced in the disc create a magnetic force that opposes the rotation of the disc (Lenz's Law), effectively acting as a brake.
+*   **Current is more:** The slower rotation of the motor leads to a reduction in Back EMF. A lower Back EMF allows more current to flow from the battery through the motor circuit.
+
+###QUESTION_TYPE
+Short answer

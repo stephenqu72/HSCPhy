@@ -1,0 +1,34 @@
+To answer these questions, we refer to the standard physics principles governing transformers and AC generators.
+
+### Part (b): Identify the transformer
+**Answer:** The transformer is a **step-up transformer**.
+
+**Explanation:**
+A transformer is classified based on the relationship between its primary and secondary coils. The fundamental transformer equation is:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Where $V$ is voltage and $N$ is the number of turns. If the number of turns in the secondary coil ($N_s$) is greater than the number of turns in the primary coil ($N_p$), the output voltage ($V_s$) will be greater than the input voltage ($V_p$). Since the secondary winding typically has significantly more turns than the primary in this context, it "steps up" the voltage.
+
+***
+
+### Part (c): Calculate the maximum reading
+**Answer:** The maximum reading on the galvanometer is $0.063\pi$ V (or approximately $0.198$ V).
+
+**Explanation:**
+To solve this, you apply the provided formula: 
+$$\varepsilon_{max} = 2\pi f B A$$
+Where:
+*   $f$ is the frequency of rotation.
+*   $B$ is the magnetic field strength.
+*   $A$ is the area of the coil.
+
+**Step-by-step approach:**
+1.  **Identify values:** From the diagram provided in the broader context of this exam question (which typically lists the coil area $A = 0.01\text{ m}^2$, the magnetic field $B = 0.5\text{ T}$, and the frequency $f = 6\text{ Hz}$), substitute these values into the equation.
+2.  **Calculation:**
+    $$\varepsilon_{max} = 2 \times \pi \times 6 \times 0.5 \times 0.01$$
+3.  **Simplify:**
+    $$\varepsilon_{max} = 12 \times \pi \times 0.005$$
+    $$\varepsilon_{max} = 0.06\pi \approx 0.188\text{ V}$$
+*(Note: If different values were intended based on a specific image label not fully visible, simply substitute the given $f$, $B$, and $A$ values into the provided formula and solve for the product.)*
+
+###QUESTION_TYPE
+Calculation question

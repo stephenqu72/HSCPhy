@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(c)**.
+
+### Explanation
+To understand why transformers require Alternating Current (AC), we must look at **Faraday’s Law of Induction**.
+
+A transformer works based on the principle of **electromagnetic induction**. When an alternating current flows through the primary coil, it creates a magnetic field that is constantly changing in magnitude and direction. This magnetic flux is directed through the iron core to the secondary coil.
+
+According to Faraday’s Law, an electromotive force (EMF) is induced in a conductor when there is a **changing magnetic flux** ($\Delta\Phi_B / \Delta t$) passing through it. Mathematically, this is expressed as:
+$$\varepsilon = -N \frac{\Delta\Phi_B}{\Delta t}$$
+
+*   **With AC:** The current is constantly oscillating, which means the magnetic field produced in the primary coil is also constantly changing. This change in flux induces a voltage in the secondary coil.
+*   **With DC:** A steady Direct Current produces a constant magnetic field. Because the magnetic field is not changing ($\Delta\Phi_B = 0$), no EMF is induced in the secondary coil once the magnetic field has been established. 
+
+If you were to connect a transformer to a steady DC source, there would be no voltage output in the secondary circuit, and the primary coil would likely overheat due to the lack of "back EMF" (impedance) that usually limits the current in AC circuits.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,16 @@
+To answer this question, we must apply **Lenz's Law** and **Faraday’s Law of Induction**.
+
+### Answer
+The correct option is **(C)**.
+
+### Explanation
+1.  **Electromagnetic Induction:** Copper is a conductor. As the magnet falls through the pipe, the magnetic flux through the circular cross-sections of the pipe changes. According to Faraday’s Law, this changing flux induces an electromotive force (EMF) and, consequently, eddy currents in the walls of the copper pipe.
+2.  **Lenz’s Law:** Lenz’s Law states that the direction of the induced current will be such that it creates a magnetic field that opposes the change in flux that produced it.
+    *   **North pole facing down:** As the magnet approaches a section of the pipe, the increasing North magnetic flux induces a current that creates a North pole at the top of that section, repelling the magnet. As the magnet leaves, the decreasing North magnetic flux induces a current that creates a South pole, attracting the magnet upwards. In both cases, the magnetic force opposes the downward motion due to gravity.
+    *   **South pole facing down:** The same logic applies. The induced magnetic field will always be oriented to oppose the relative motion of the magnet. Thus, it will create a South pole below the magnet (repulsion) as it approaches and a North pole above it (attraction) as it leaves.
+3.  **Resulting Acceleration:** Because there is an upward magnetic force $F_B$ opposing gravity $mg$, the net force on the magnet is $F_{net} = mg - F_B$. According to Newton’s Second Law ($F = ma$), the acceleration $a$ will be less than the acceleration due to gravity ($g$). Since the magnitude of the opposing force is independent of which pole faces down (the physics of the opposition is symmetrical), the acceleration in both orientations will be equal and both will be less than $g$.
+
+Therefore, the acceleration is $< g$ for the North pole down and $< g$ for the South pole down.
+
+###QUESTION_TYPE
+Multiple choice

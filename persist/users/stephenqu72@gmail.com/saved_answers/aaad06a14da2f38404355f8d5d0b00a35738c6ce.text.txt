@@ -1,0 +1,26 @@
+To solve this problem, we apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Faraday's Law** states that an induced electromotive force (EMF) is produced in a coil when there is a change in the magnetic flux ($\Phi$) through that coil. The magnitude of the induced EMF is given by:
+    $$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+    If the magnet is moving at a constant speed, an EMF (and therefore a current) is only induced when the magnetic flux is **changing**.
+
+2.  **Galvanometer Y (Magnet completely inside the coil):**
+    When the magnet is fully inside the solenoid, the magnetic flux through the turns of the coil remains constant as the magnet moves (assuming the magnet is shorter than the solenoid). Since there is no change in magnetic flux ($\Delta \Phi = 0$), there is no induced current. The galvanometer reading will be **zero** (represented by a vertical arrow pointing at the center mark).
+
+3.  **Galvanometer X (Magnet moves away from coil X):**
+    As the North pole of the magnet moves away from the left coil, the magnetic flux through it decreases. According to **Lenz’s Law**, the coil will induce a current to create a magnetic field that opposes this change. To "pull" the receding North pole, the coil will behave like a South pole on its right side. Using the right-hand grip rule, this results in a specific direction of current flow. This causes a deflection in one direction (e.g., to the left).
+
+4.  **Galvanometer Z (Magnet moves towards coil Z):**
+    As the North pole moves towards the right coil, the magnetic flux through it increases. The coil will induce a current to create a magnetic field that opposes the incoming North pole by acting as a North pole on its left side. This induces a current in the *opposite* direction to the one observed when moving away, causing a deflection in the opposite direction to that of galvanometer X (e.g., to the right).
+
+**Analyzing the options:**
+*   Galvanometer Y must show a zero reading (vertical arrow $\uparrow$). This leaves options B and C.
+*   Between B and C, we see that for X and Z, the deflections must be in opposite directions because the motion relative to the coil is reversed (moving away vs moving towards). 
+*   Option C shows a left-tilted arrow for X and a right-tilted arrow for Z, which correctly reflects these opposite directions of induced current.
+
+**Answer:** The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

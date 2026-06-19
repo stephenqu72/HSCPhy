@@ -1,0 +1,31 @@
+To solve this problem, we must apply **Lenz’s Law**, which states that an induced current will flow in a direction that produces a magnetic field to oppose the change in magnetic flux that caused it.
+
+### Step-by-Step Analysis
+
+1.  **Determine the direction of the magnetic field in Coil J:**
+    When switch $S$ is closed, current flows from the positive terminal of the battery through Coil $J$. Using the right-hand grip rule, if you curl your fingers in the direction of the current, your thumb points to the **right** (towards Coil $K$). Thus, Coil $J$ acts as a magnet with its North pole facing Coil $K$.
+
+2.  **Analyze Scenario (i): Switch S is opened (Flux is decreasing)**
+    *   **Change:** The current in Coil $J$ drops to zero, so the magnetic field to the right through Coil $K$ decreases.
+    *   **Lenz's Law:** Coil $K$ wants to maintain the flux to the right. It induces a current to create its own magnetic field pointing to the right. 
+    *   **Right-hand grip rule (Coil K):** To produce a field to the right, current must flow such that the resulting magnetic field opposes the loss. Applying the rule, the induced current in the resistor must flow from **$x$ to $y$**.
+
+3.  **Analyze Scenario (ii): Switch S is closed (Flux is increasing)**
+    *   **Change:** The current in Coil $J$ increases from zero, creating a growing magnetic field pointing to the right through Coil $K$.
+    *   **Lenz's Law:** Coil $K$ wants to oppose this increase. It induces a current to create a magnetic field pointing to the **left**.
+    *   **Right-hand grip rule (Coil K):** To produce a field pointing to the left, current must flow in the opposite direction to scenario (i), which is from **$y$ to $x$**.
+
+4.  **Analyze Scenario (iii): Resistance R decreases (Flux is increasing)**
+    *   **Change:** As $R$ decreases while $S$ is closed, the current in Coil $J$ increases (Ohm's Law: $I = V/R$). This increases the magnetic field pointing to the right through Coil $K$.
+    *   **Lenz's Law:** Similar to scenario (ii), the flux is increasing. The induced current must oppose the increase, requiring a field to the left.
+    *   **Direction:** The current must flow from **$y$ to $x$**.
+
+### Conclusion
+*   Change (i): $x$ to $y$
+*   Change (ii): $y$ to $x$
+*   Change (iii): $y$ to $x$
+
+This corresponds to row **B**.
+
+###QUESTION_TYPE
+Multiple choice

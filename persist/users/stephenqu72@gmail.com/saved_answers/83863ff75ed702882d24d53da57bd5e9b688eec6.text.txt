@@ -1,0 +1,20 @@
+The correct answer is **(D)**.
+
+### Explanation:
+To identify the correct diagram for a DC generator, we must analyze the components and the function of each option:
+
+1.  **Fundamental Difference between AC and DC Generators:**
+    *   An **AC generator** (alternator) uses **slip rings**, which maintain a continuous connection between the rotating coil and the external circuit. This results in the current reversing direction every half-turn (producing Alternating Current).
+    *   A **DC generator** uses a **split-ring commutator**. This device reverses the connections of the coil to the external circuit every half-turn. Because the current in the coil naturally reverses direction every half-turn, the action of the split-ring commutator ensures that the current flowing into the external circuit remains in a single direction (producing Direct Current).
+
+2.  **Evaluating the Options:**
+    *   **(A)** shows electromagnetic induction (Faraday’s Law) involving a moving permanent magnet near a solenoid. This is not a generator.
+    *   **(B)** shows a coil in a magnetic field connected to a split-ring commutator, but it is labeled as an **"Input"**. A device that uses electrical input to produce motion (rotation) is an **electric motor**, not a generator.
+    *   **(C)** shows a coil in a magnetic field connected to **slip rings** (two continuous metal rings). This is the standard design for an **AC generator**.
+    *   **(D)** shows a coil in a magnetic field connected to a **split-ring commutator** and labeled as an **"Output"**. Mechanical energy is input (rotation), and electrical energy is extracted. This is the correct configuration for a **DC generator**.
+
+### Summary for your HSC Exam:
+Always look for the **split-ring commutator** (a ring split into two halves) when identifying a DC device. If it is a motor, it will be an "input" of current; if it is a generator, it will be an "output" of current.
+
+###QUESTION_TYPE
+Multiple choice

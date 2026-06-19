@@ -1,0 +1,29 @@
+### Answer
+The correct option is **(C)**.
+
+### Explanation
+To solve this problem, we use the formula for the fringe width ($\Delta x$) in Young’s double-slit experiment:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ is the fringe separation (the distance between adjacent dark or bright bands).
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance from the double slits to the screen.
+*   $d$ is the separation distance between the two slits.
+
+To **increase** the value of $\Delta x$, we must manipulate the variables in the equation:
+*   **Increase** $\lambda$ (the wavelength).
+*   **Increase** $L$ (the distance to the screen).
+*   **Decrease** $d$ (the slit separation).
+
+Let's evaluate the options provided:
+*   **(A) Decrease the distance between the slits and the screen ($L$):** According to the formula, $\Delta x$ is directly proportional to $L$. Decreasing $L$ will **decrease** $\Delta x$.
+*   **(B) Decrease the wavelength of the light ($\lambda$):** $\Delta x$ is directly proportional to $\lambda$. Decreasing $\lambda$ will **decrease** $\Delta x$.
+*   **(C) Decrease the slit separation ($d$):** $\Delta x$ is inversely proportional to $d$. Therefore, **decreasing** the denominator ($d$) will **increase** the value of $\Delta x$. This is the correct action.
+*   **(D) Decrease the slit width:** The slit width affects the intensity profile and the single-slit diffraction envelope, but it does not appear in the primary formula for the spacing of the interference fringes in an ideal double-slit experiment.
+
+Thus, decreasing the slit separation ($d$) is the correct way to increase the fringe spacing.
+
+### QUESTION_TYPE
+Multiple choice

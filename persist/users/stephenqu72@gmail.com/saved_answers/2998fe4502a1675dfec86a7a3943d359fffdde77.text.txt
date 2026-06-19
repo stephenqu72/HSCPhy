@@ -1,0 +1,33 @@
+To solve this problem, we use the transformer ratio formula, which relates the voltage and the number of turns in the primary and secondary coils.
+
+### Answer
+The correct option is **(A) 15**.
+
+### Explanation
+In an ideal transformer, the ratio of the voltages across the primary and secondary coils is directly proportional to the ratio of the number of turns in those coils. The relationship is given by the formula:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Where:
+- $V_p = 240\text{ V}$ (primary voltage)
+- $V_s = 12\text{ V}$ (secondary voltage)
+- $N_p = 300$ (number of turns in the primary coil)
+- $N_s = ?$ (number of turns in the secondary coil)
+
+*Note: The input current ($10\text{ A}$) is extraneous information in this context, as it is not required to find the number of turns when the voltages and primary turns are known.*
+
+**Step-by-step calculation:**
+1. Substitute the known values into the equation:
+   $$\frac{240}{12} = \frac{300}{N_s}$$
+
+2. Simplify the voltage ratio:
+   $$20 = \frac{300}{N_s}$$
+
+3. Solve for $N_s$:
+   $$N_s = \frac{300}{20}$$
+   $$N_s = 15$$
+
+Therefore, there are **15 turns** in the secondary coil.
+
+###QUESTION_TYPE
+Multiple choice

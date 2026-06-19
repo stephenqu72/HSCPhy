@@ -1,0 +1,20 @@
+To determine the path difference between ray X and ray Y, we must apply the principles of Young's Double Slit Experiment regarding constructive and destructive interference.
+
+### Answer
+The correct answer is **B. $1.0 \lambda$**.
+
+### Explanation
+1.  **Analyze the Interference Condition:** The diagram shows an interference pattern on a screen. Ray X and Ray Y meet at a point labeled "Max" on the screen. A "Max" position corresponds to a point of **constructive interference**.
+2.  **Recall the Path Difference Formula:** For constructive interference, the condition is that the path difference ($\Delta L$) must be an integer multiple of the wavelength ($\lambda$):
+    $$\Delta L = n\lambda, \text{ where } n = 0, 1, 2, 3, \dots$$
+3.  **Identify the Order ($n$):** 
+    *   The central maximum ($n=0$) is located exactly halfway between the two slits. 
+    *   The "Max" point indicated by the intersection of Ray X and Ray Y is the **first** bright fringe above the central maximum. Therefore, this corresponds to $n = 1$.
+4.  **Calculate:**
+    Substituting $n=1$ into the condition for constructive interference:
+    $$\Delta L = 1 \times \lambda = 1.0 \lambda$$
+
+If the point had been a "Min" (destructive interference), the path difference would have been an odd half-integer multiple of $\lambda$ (e.g., $0.5 \lambda$ or $1.5 \lambda$). Since the rays meet at a "Max" position that is not the central fringe, the path difference must be $1.0 \lambda$.
+
+###QUESTION_TYPE
+Multiple choice

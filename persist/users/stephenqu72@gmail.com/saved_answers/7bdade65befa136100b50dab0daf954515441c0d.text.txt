@@ -1,0 +1,24 @@
+To determine the correct answer, we need to apply **Lenz's Law** and the **Right-Hand Generator Rule** to the rotating coil.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the motion of the coil:**
+    The coil is rotating clockwise. Looking at the diagram, side $AB$ is moving upward (out of the page relative to the magnetic field) while side $CD$ is moving downward (into the page).
+
+2.  **Apply the Right-Hand Generator Rule:**
+    For side $AB$, the magnetic field lines point from $N$ to $S$. Since the wire is moving upward through the field, the induced current flows from $A$ to $B$. For side $CD$ moving downward, the induced current flows from $C$ to $D$. Thus, the induced current travels around the loop in the path $A \to B \to C \to D$. 
+    *   *Conclusion:* Statement (A) is false because the current flows $A$ to $B$.
+
+3.  **Understand the role of the Split-Ring Commutator:**
+    In a generator, the internal current generated within the coil is **alternating (AC)**. As the coil rotates, each side passes first the North pole and then the South pole, causing the direction of the induced EMF within the wire to reverse every half-turn.
+    *   *Conclusion:* Statement (C) is true because the induced current in the rotating loop naturally reverses direction every half-turn.
+
+4.  **Evaluate the remaining options:**
+    *   (B) is false because the commutator ensures a direct (unidirectional) current in the *external circuit*, not in the coils themselves.
+    *   (D) is false because the purpose of the split-ring commutator is to ensure that the voltage/current at the brushes remains unidirectional (DC), preventing it from reversing.
+
+### Answer:
+The correct statement is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

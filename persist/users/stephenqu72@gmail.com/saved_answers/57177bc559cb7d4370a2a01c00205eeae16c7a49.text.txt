@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+**a. Maxwell's Model of Light (2 marks)**
+*   **Description:** Maxwell’s model proposes that light is an electromagnetic wave consisting of oscillating electric and magnetic fields that are perpendicular to each other and perpendicular to the direction of wave propagation.
+*   **Predictions:**
+    1.  Electromagnetic waves travel at a constant speed in a vacuum: $c \approx 3.0 \times 10^8 \text{ m/s}$.
+    2.  Light is a form of electromagnetic radiation that does not require a medium to propagate.
+
+**b. Einstein's Postulates (2 marks)**
+*   **Postulates:**
+    1.  The laws of physics are the same in all inertial frames of reference.
+    2.  The speed of light in a vacuum ($c$) is constant for all observers, regardless of the motion of the source or the observer.
+*   **Impact:** These postulates invalidated the concept of the "luminiferous ether" and absolute time/space, establishing that time and distance are relative to the observer's frame of reference.
+
+**c. Evidence for Special Relativity (2 marks)**
+*   **Evidence:** Time dilation of subatomic particles (e.g., muons). Muons created in the upper atmosphere have a short half-life; without time dilation, they should decay before reaching the Earth's surface. However, because they travel at relativistic speeds, their "internal clock" slows down, allowing them to be detected on the ground.
+*   **Technology:** Particle accelerators (like the CERN Large Hadron Collider) or high-precision atomic clocks (used in GPS satellites to correct for relativistic time shifts).
+
+**d. Length Contraction Calculation (2 marks)**
+*   **Formula:** $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, where $L = 5.5 \text{ m}$ (contracted length), $v = 0.95c$, and $L_0$ is the proper length.
+*   **Calculation:**
+    $$5.5 = L_0 \sqrt{1 - (0.95)^2}$$
+    $$5.5 = L_0 \sqrt{1 - 0.9025}$$
+    $$5.5 = L_0 \sqrt{0.0975}$$
+    $$5.5 = L_0 \times 0.31225$$
+    $$L_0 = \frac{5.5}{0.31225} \approx 17.61 \text{ m}$$
+*   **Answer:** The proper length (as measured by a passenger onboard) is approximately $17.61 \text{ m}$.
+
+---
+
+### How to solve:
+1.  **Part a:** Recall the key components of Maxwell's theory: orthogonality of fields and the derivation of the speed of light from constants ($\epsilon_0$ and $\mu_0$).
+2.  **Part b:** Focus on the "invariance of the speed of light." Understand that this fundamental change shifted physics from Galilean relativity to Einsteinian relativity.
+3.  **Part c:** When asked for evidence in physics, always link the theoretical concept (Time Dilation) to a concrete, verifiable experimental observation (Muon decay) and the technology that enabled it.
+4.  **Part d:** Identify which length is the "proper length" ($L_0$). The observer on the platform measures the *contracted* length ($L$), so you must rearrange the length contraction formula to solve for $L_0$.
+
+###QUESTION_TYPE
+Other questions

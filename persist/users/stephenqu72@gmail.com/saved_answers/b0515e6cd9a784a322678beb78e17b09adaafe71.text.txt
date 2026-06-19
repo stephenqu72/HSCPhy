@@ -1,0 +1,42 @@
+### Teacher's Guide & Solutions
+
+#### (a) Calculate the number of photons leaving the laser each second.
+**Solution:**
+1.  Energy of a single photon: $E = \frac{hc}{\lambda}$
+    *   $h = 6.626 \times 10^{-34}\text{ J s}$
+    *   $c = 3.00 \times 10^8\text{ m s}^{-1}$
+    *   $\lambda = 610 \times 10^{-9}\text{ m}$
+    *   $E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{610 \times 10^{-9}} \approx 3.258 \times 10^{-19}\text{ J}$
+2.  Number of photons per second ($n$):
+    *   $n = \frac{\text{Total Power}}{\text{Energy per photon}} = \frac{5.03 \times 10^{-3}\text{ J s}^{-1}}{3.258 \times 10^{-19}\text{ J}}$
+    *   $n \approx 1.54 \times 10^{16}\text{ photons s}^{-1}$
+
+---
+
+#### (b) Explain why point C is in a bright band.
+**Explanation:**
+Point C is the central point of the interference pattern. Waves from $S_1$ and $S_2$ travel identical distances to reach C. Therefore, the path difference is $0$. Since the path difference is zero (which is an integer multiple of the wavelength, $m\lambda$ where $m=0$), the waves arrive in phase, resulting in **constructive interference**.
+
+---
+
+#### (c) Mark the point on Figure 2.
+**Calculation:**
+*   Path difference $\Delta d = 2.14 \times 10^{-6}\text{ m}$
+*   Wavelength $\lambda = 610 \times 10^{-9}\text{ m} = 0.61 \times 10^{-6}\text{ m}$
+*   Calculate the order $m$: $\Delta d = m\lambda \implies m = \frac{2.14 \times 10^{-6}}{0.61 \times 10^{-6}} \approx 3.5$
+*   Since $m = 3.5$, the point corresponds to a **dark band** (half-integer interference).
+*   **Answer:** Locate the 3rd dark band to the right of the central bright fringe (C) and mark it with an X.
+
+---
+
+#### (d) Find the slit separation ($d$).
+**Calculation:**
+Using the formula for bright fringes: $d \sin(\theta) = m\lambda$. With small angle approximation, $\sin(\theta) \approx \tan(\theta) = \frac{y}{L}$.
+*   We know $y = 0.05\text{ m}$ and $L = 2\text{ m}$.
+*   From part (c), we are looking at the 3rd dark fringe ($m = 3.5$ for destructive).
+*   $d \left(\frac{y}{L}\right) = m\lambda \implies d = \frac{m\lambda L}{y}$
+*   $d = \frac{3.5 \times (610 \times 10^{-9}) \times 2}{0.05}$
+*   $d = \frac{4.27 \times 10^{-6}}{0.05} = 8.54 \times 10^{-5}\text{ m}$ (or $0.0854\text{ mm}$)
+
+###QUESTION_TYPE
+Calculation question

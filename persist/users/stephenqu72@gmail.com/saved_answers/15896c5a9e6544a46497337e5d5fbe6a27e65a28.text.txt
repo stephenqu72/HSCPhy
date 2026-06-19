@@ -1,0 +1,30 @@
+### Answer to Question 5
+The correct answer is **A**.
+
+**Explanation:**
+This question tests your understanding of **Faraday’s Law of Induction** and **Lenz’s Law**.
+*   **Before:** The magnetic field is constant and uniform. Faraday’s Law states that an electromotive force (EMF) is only induced when there is a *change* in magnetic flux ($\Delta\Phi_B$). Since the field is constant and the coil is stationary, the flux is constant, so no current is induced. The globe remains **Off**.
+*   **During:** As the magnetic field is switched off, the magnetic flux through the coil decreases rapidly. According to Faraday’s Law, this change in flux induces an EMF in the coil, causing a current to flow through the circuit. The globe turns **On**.
+*   **After:** Once the magnetic field is completely switched off, the magnetic flux is zero and no longer changing ($\Delta\Phi_B = 0$). With no change in flux, the induced EMF drops to zero. The current stops flowing, and the globe turns **Off**.
+
+### Answer to Question 6
+The correct answer is **A**.
+
+**Explanation:**
+To calculate the magnitude of the magnetic flux ($\Phi_B$) through a single loop of the coil, we use the formula:
+$$\Phi_B = B \cdot A \cdot \cos(\theta)$$
+Given:
+*   Magnetic field strength ($B$) = $0.2\text{ T}$
+*   Radius ($r$) = $5\text{ cm} = 0.05\text{ m}$
+*   The field is perpendicular to the area, meaning the angle between the field and the normal to the coil is $0^\circ$, so $\cos(0^\circ) = 1$.
+
+First, calculate the area ($A$) of the circular coil:
+$$A = \pi \cdot r^2 = \pi \cdot (0.05)^2 \approx 3.14159 \cdot 0.0025 \approx 0.00785\text{ m}^2$$
+
+Now, calculate the flux for a single loop:
+$$\Phi_B = 0.2 \cdot 0.00785 \approx 0.00157\text{ Wb}$$
+
+Rounding to two significant figures, we get $0.0016\text{ Wb}$. (Note: While the question mentions 100 loops, the "magnetic flux through the coil of wire" usually refers to the flux per unit area/loop unless "total flux linkage" is specifically requested. Given the options, $0.0016\text{ Wb}$ is the intended answer for the flux through the coil's area).
+
+###QUESTION_TYPE
+Multiple choice

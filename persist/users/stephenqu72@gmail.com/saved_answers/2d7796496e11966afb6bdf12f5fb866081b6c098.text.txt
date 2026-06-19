@@ -1,0 +1,36 @@
+### Answer
+The magnetic flux density is $84.85\text{ T}$.
+
+---
+
+### Explanation
+To solve this problem, we use the formula for magnetic flux ($\Phi$):
+
+$$\Phi = BA \cos(\theta)$$
+
+Where:
+*   $\Phi$ is the magnetic flux ($0.15\text{ Wb}$)
+*   $B$ is the magnetic flux density (the value we need to find)
+*   $A$ is the area of the coil ($2.5 \times 10^{-3}\text{ m}^2$)
+*   $\theta$ is the angle between the **normal** to the coil and the magnetic field.
+
+**Important Note:** The question states the coil is at $45^\circ$ to the magnetic field. In physics, the angle $\theta$ in the flux formula must be the angle between the *normal* (the perpendicular line) to the coil and the magnetic field lines. If the coil itself is at $45^\circ$ to the field, the angle between the normal and the field is $90^\circ - 45^\circ = 45^\circ$.
+
+**Step-by-step Calculation:**
+
+1.  **Rearrange the formula to solve for $B$:**
+    $$B = \frac{\Phi}{A \cos(\theta)}$$
+
+2.  **Substitute the known values:**
+    $$B = \frac{0.15}{(2.5 \times 10^{-3}) \cos(45^\circ)}$$
+
+3.  **Perform the calculation:**
+    $$\cos(45^\circ) \approx 0.7071$$
+    $$B = \frac{0.15}{(2.5 \times 10^{-3}) \times 0.7071}$$
+    $$B = \frac{0.15}{0.0017677...}$$
+    $$B \approx 84.85\text{ T}$$
+
+*(Note: In an HSC context, check if the flux value provided is realistic for the area given, as $84.85\text{ T}$ is an extremely high magnetic field density, but mathematically this is the correct result based on the provided numbers.)*
+
+###QUESTION_TYPE
+Calculation question

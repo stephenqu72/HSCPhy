@@ -1,0 +1,31 @@
+This is a classic Physics problem that tests your understanding of Newton’s Laws, fluid dynamics (thrust), and the operation of electric motors (back EMF).
+
+### Part (a) Answer and Explanation
+
+**Answer:** 
+Initially, the spring balance reads the weight of the fan ($W = mg$). As the fan speeds up from $0$ to $10\text{ s}$, the blades push air downwards. By Newton’s Third Law, the air exerts an equal and opposite upward reaction force (thrust) on the fan. Consequently, the reading on the spring balance **decreases** during the first 10 seconds. Once the fan reaches maximum rotational velocity at $10\text{ s}$, the thrust becomes constant, and the reading remains steady at this new, lower value from $10\text{ s}$ to $15\text{ s}$.
+
+**How to solve:**
+1.  **Identify forces:** The spring balance measures the tension $T$. Before the fan is on, $T = mg$.
+2.  **Apply Newton's Third Law:** As the fan blades spin, they accelerate air downwards. The reaction force $F_{thrust}$ acts upwards on the fan.
+3.  **Equilibrium equation:** $T = mg - F_{thrust}$.
+4.  **Analyze the change:** As rotational speed increases, the volume and velocity of air pushed downwards increase, causing $F_{thrust}$ to increase. Since $mg$ is constant, $T$ must decrease until the fan hits maximum speed.
+
+---
+
+### Part (b) Answer and Explanation
+
+**Answer:**
+The student's prediction is **inaccurate**. While the current is high at start-up, it does not increase linearly to a maximum at $10\text{ s}$. In a DC motor, as the armature speeds up, it generates **back EMF** ($\varepsilon_{back} = N \frac{d\Phi}{dt}$). The net voltage driving the current is $V_{net} = V_{source} - \varepsilon_{back}$. Because back EMF increases with rotational speed, the current will be at its **maximum at $t=0$** (when speed is zero) and will **decrease** as the motor accelerates, eventually plateauing at a constant value when the motor reaches terminal velocity.
+
+**How to solve:**
+1.  **Recognize the motor principle:** The current in a motor is given by $I = \frac{V - \varepsilon_{back}}{R}$.
+2.  **Relate speed to back EMF:** Back EMF is directly proportional to angular velocity ($\omega$). 
+3.  **Trace the time progression:**
+    *   At $t=0$, $\omega = 0$, so $\varepsilon_{back} = 0$. Current is at its maximum ($I_{start}$).
+    *   As $t \to 10\text{ s}$, $\omega$ increases, so $\varepsilon_{back}$ increases. Consequently, $I$ decreases.
+    *   At $t > 10\text{ s}$, $\omega$ is constant, so $\varepsilon_{back}$ is constant, and $I$ remains constant (the running current).
+4.  **Conclusion:** The graph provided shows the inverse of the actual current behavior.
+
+###QUESTION_TYPE
+Short answer

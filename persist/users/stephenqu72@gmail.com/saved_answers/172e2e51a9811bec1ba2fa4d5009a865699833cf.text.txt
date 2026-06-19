@@ -1,0 +1,32 @@
+To determine the reading on the scale, we must calculate the net vertical magnetic force exerted by conductors $A$ and $B$ on conductor $C$.
+
+### 1. Identify the Physics Principles
+The force per unit length $f$ between two parallel wires carrying currents $I_1$ and $I_2$ separated by distance $r$ is given by:
+$$f = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+The total force $F$ for a length $L$ is $F = f \cdot L$.
+*   **Direction:** Currents in the same direction attract; currents in opposite directions repel.
+
+### 2. Calculate individual forces on C
+*   **Conductor A:** $I_A = 120\text{ A}$ (into page), $I_C = 80\text{ A}$ (out of page). Opposite directions = **Repulsion**.
+    *   Distance $r_{AC} = \sqrt{2^2 + 2^2} = \sqrt{8} \approx 2.828\text{ mm} = 2.828 \times 10^{-3}\text{ m}$.
+    *   The force is directed away from A. The vertical component ($F_{AC,y}$) is directed **upwards** (positive).
+    *   Angle $\theta = 45^\circ$.
+    *   $F_{AC} = \frac{(4\pi \times 10^{-7}) \times 120 \times 80}{2\pi \times 2.828 \times 10^{-3}} \times 0.1 \approx 0.06788\text{ N}$.
+    *   $F_{AC,y} = F_{AC} \sin(45^\circ) \approx 0.06788 \times 0.7071 \approx 0.048\text{ N}$.
+
+*   **Conductor B:** $I_B = 80\text{ A}$ (out of page), $I_C = 80\text{ A}$ (out of page). Same direction = **Attraction**.
+    *   Distance $r_{BC} = 2.0\text{ mm} = 2.0 \times 10^{-3}\text{ m}$.
+    *   The force is directed towards B. The vertical component ($F_{BC,y}$) is directed **upwards** (positive).
+    *   $F_{BC} = \frac{(4\pi \times 10^{-7}) \times 80 \times 80}{2\pi \times 2.0 \times 10^{-3}} \times 0.1 = 0.064\text{ N}$.
+    *   Since B is directly above C, the force is entirely vertical: $F_{BC,y} = 0.064\text{ N}$.
+
+### 3. Determine the Scale Reading
+The total upward force on C is:
+$$F_{net,y} = F_{AC,y} + F_{BC,y} = 0.048 + 0.064 = 0.112\text{ N}$$
+Since the force is directed upwards (lifting the conductor off the scale), the scale reading will decrease. Assuming the initial reading was $0.000\text{ kg}$, the scale measures the "normal force" required to keep the conductor in equilibrium. Since the wires are pulling the conductor *upwards* with $0.112\text{ N}$, the scale would technically read a negative value if it were capable, or more commonly in HSC physics contexts, the **downward pressure** on the scale is reduced by this amount.
+
+To convert force to mass: $m = \frac{F}{g} = \frac{0.112}{9.8} \approx 0.0114\text{ kg}$.
+Since the force is directed away from the scale, the reading on the scale will change by $-0.0114\text{ kg}$.
+
+###QUESTION_TYPE
+Calculation question

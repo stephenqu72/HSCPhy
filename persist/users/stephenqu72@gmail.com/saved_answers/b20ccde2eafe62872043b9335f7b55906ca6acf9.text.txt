@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To understand this, we must look at the relationship between supply voltage ($V$), back EMF ($\varepsilon$), the resistance of the motor coils ($R$), and the current ($I$) drawn by the motor. According to Ohm's Law for a motor circuit, the net voltage driving the current is the difference between the supply voltage and the back EMF:
+
+$$I = \frac{V - \varepsilon}{R}$$
+
+1.  **Origin of Back EMF:** As the motor rotates, the armature coil experiences a changing magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an EMF that opposes the supply voltage. This is called the back EMF ($\varepsilon$).
+2.  **Dependence on Speed:** Back EMF is directly proportional to the rotational speed ($\omega$) of the motor ($\varepsilon \propto \omega$). As the motor speeds up, $\varepsilon$ increases.
+3.  **Effect on Current:** Looking at the equation above, as $\varepsilon$ increases, the numerator $(V - \varepsilon)$ decreases. Consequently, the current $I$ drawn from the power source decreases. 
+
+**Why the other options are incorrect:**
+*   **(A)** Back EMF is actually essential for the stable and efficient operation of a motor; it acts as a self-regulating mechanism.
+*   **(B)** While back EMF is linked to work done, it does not act to increase power output; rather, it regulates the current to prevent the motor from overheating at high speeds.
+*   **(C)** Back EMF *decreases* the current, not increases it. If there were no back EMF (such as when the motor is stalled or just starting), the current would be dangerously high, potentially damaging the motor.
+
+### QUESTION_TYPE
+Multiple choice

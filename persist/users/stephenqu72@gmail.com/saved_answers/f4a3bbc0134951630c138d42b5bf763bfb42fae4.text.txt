@@ -1,0 +1,27 @@
+To answer this question effectively for an HSC Physics exam, you must demonstrate a clear understanding of **Lenz's Law**, which states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+
+### Answer
+Lenz's Law is a consequence of the **Law of Conservation of Energy**. When a magnet moves relative to a solenoid, the change in magnetic flux induces an electromotive force (EMF) and a current in the solenoid. This induced current creates its own magnetic field, which acts to oppose the motion of the magnet.
+
+**Case: North pole moving towards a solenoid**
+As a North pole approaches the solenoid, the magnetic flux through the coils increases. To oppose this increase, the solenoid induces a current that creates a North pole at the end of the solenoid closest to the magnet, resulting in a repulsive force.
+
+**Labelled Diagram Description:**
+*   **Magnet:** A bar magnet with the North ($N$) pole facing the solenoid. An arrow indicates movement towards the solenoid.
+*   **Solenoid:** A coil of wire.
+*   **Induced Polarity:** The face of the solenoid nearest the magnet is labelled $N$, and the far end is labelled $S$.
+*   **Interaction:** A repulsive force vector is drawn between the $N$ pole of the magnet and the induced $N$ pole of the solenoid.
+
+### How to solve this question
+1.  **State Lenz's Law:** Start by defining the law clearly. It is the principle that the system "resists" the change.
+2.  **Explain the cause:** Explicitly state that moving the magnet changes the magnetic flux ($\Phi$) through the solenoid coils, inducing an EMF ($\epsilon = -N \frac{d\Phi}{dt}$).
+3.  **Define the Polarity:** Explain that the induced magnetic field must oppose the motion. If the magnet is moving *towards* the coil, the coil mimics the magnet's pole to push it away. If moving *away*, the coil creates the opposite pole to attract it and pull it back.
+4.  **Draw and Label:** A diagram is essential for the full 5 marks. Ensure you label:
+    *   The poles of the permanent magnet.
+    *   The direction of movement.
+    *   The induced poles on the solenoid.
+    *   The direction of the induced current (using the Right-Hand Grip Rule: if the North pole is induced, your thumb points towards the magnet, and your fingers curl in the direction of the current).
+5.  **Relate to Energy:** Mentioning that this process requires work to be done, which is converted into electrical energy, demonstrates deep syllabus knowledge.
+
+###QUESTION_TYPE
+Short answer

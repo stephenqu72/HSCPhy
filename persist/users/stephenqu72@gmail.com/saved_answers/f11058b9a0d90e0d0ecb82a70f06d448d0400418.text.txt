@@ -1,0 +1,33 @@
+To solve this problem, we must link the quantum physics of the atom (energy transitions) with the wave physics of light (diffraction/interference).
+
+### Step 1: Calculate the wavelengths produced by the transitions
+In a gas discharge tube, electrons transition from higher energy levels to lower ones, emitting photons where the energy of the photon $E = \Delta E$. The wavelength $\lambda$ is given by $\lambda = \frac{hc}{\Delta E}$, where $h = 6.626 \times 10^{-34} \, \text{J s}$ and $c = 3.00 \times 10^8 \, \text{m/s}$.
+
+The energy levels are: $E_4 = 4.92 \times 10^{-19} \, \text{J}$, $E_3 = 9.29 \times 10^{-20} \, \text{J}$, $E_2 = 3.52 \times 10^{-20} \, \text{J}$, and $E_1 = 0$.
+
+*   **Transition $4 \rightarrow 3$:** $\Delta E = (4.92 - 0.929) \times 10^{-19} = 3.991 \times 10^{-19} \, \text{J}$
+    $\lambda_{43} = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{3.991 \times 10^{-19}} \approx 498 \, \text{nm}$
+*   **Transition $4 \rightarrow 2$:** $\Delta E = (4.92 - 0.352) \times 10^{-19} = 4.568 \times 10^{-19} \, \text{J}$
+    $\lambda_{42} = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{4.568 \times 10^{-19}} \approx 435 \, \text{nm}$
+*   **Transition $3 \rightarrow 2$:** $\Delta E = (9.29 - 3.52) \times 10^{-20} = 5.77 \times 10^{-20} \, \text{J}$
+    $\lambda_{32} = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{5.77 \times 10^{-20}} \approx 3445 \, \text{nm}$ (Infrared, not visible)
+
+*Note: The question specifies three visible wavelengths; assuming transitions to level 1 were omitted or transitions to level 2 are the primary visible ones.*
+
+### Step 2: Determine the wavelength from the double-slit experiment
+For the first-order maximum ($n=1$), the double-slit formula is:
+$$d \sin \theta = n \lambda$$
+Given $d = 1.0 \times 10^{-5} \, \text{m}$ and $\theta = 2.32^\circ$:
+$$\lambda = d \sin \theta = (1.0 \times 10^{-5}) \times \sin(2.32^\circ)$$
+$$\lambda \approx (1.0 \times 10^{-5}) \times 0.04048 \approx 4.048 \times 10^{-7} \, \text{m} = 405 \, \text{nm}$$
+
+### Conclusion
+Comparing our calculated values, the experimental wavelength is approximately $405 \, \text{nm}$. Re-evaluating the transition $4 \rightarrow 1$:
+$\Delta E = 4.92 \times 10^{-19} \, \text{J} \implies \lambda = \frac{1.988 \times 10^{-25}}{4.92 \times 10^{-19}} \approx 404 \, \text{nm}$.
+
+The light that formed the bright fringe at point A corresponds to the **transition from level 4 to level 1**.
+
+**Qualitative analysis:** The discharge tube excites electrons to higher states; as they return to lower energy states, they emit photons of specific frequencies (quantised energy). The double-slit experiment demonstrates the wave nature of light, where constructive interference occurs at path difference $n\lambda$. By matching the observed fringe angle to the calculated photon energy, we identify the specific electronic transition.
+
+###QUESTION_TYPE
+Calculation question

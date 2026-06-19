@@ -1,0 +1,35 @@
+To find the induced electromotive force (emf) across the wings of the aeroplane, we use the formula for motional emf:
+
+$$\varepsilon = B_{\perp} lv$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relevant component of the magnetic field:**
+    The formula requires the component of the magnetic field ($B_{\perp}$) that is **perpendicular** to both the velocity of the plane and the length of the wings. 
+    *   The wingspan ($l$) is horizontal.
+    *   The velocity ($v$) is horizontal (flying parallel to the Earth's surface).
+    *   The magnetic field $B$ makes an angle of $25^\circ$ to the vertical.
+    *   Since the wings are horizontal, the component of the magnetic field that induces the emf is the **horizontal component**.
+    *   Using trigonometry, if the field makes an angle of $25^\circ$ with the vertical, the horizontal component is given by:
+        $$B_{\perp} = B \sin(25^\circ)$$
+
+2.  **State the given values:**
+    *   $l = 37.8 \text{ m}$
+    *   $v = 230 \text{ ms}^{-1}$
+    *   $B = 4.59 \times 10^{-5} \text{ T}$
+    *   Angle $\theta = 25^\circ$
+
+3.  **Perform the calculation:**
+    $$\varepsilon = (B \sin 25^\circ) \cdot l \cdot v$$
+    $$\varepsilon = (4.59 \times 10^{-5} \times \sin 25^\circ) \times 37.8 \times 230$$
+    $$\varepsilon = (4.59 \times 10^{-5} \times 0.4226) \times 8694$$
+    $$\varepsilon \approx 1.94 \times 10^{-5} \times 8694$$
+    $$\varepsilon \approx 0.1687 \text{ V}$$
+
+4.  **Conclusion:**
+    Rounding our result to two significant figures (consistent with the provided options), we get $0.17 \text{ V}$.
+
+Comparing this to the given options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

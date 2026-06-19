@@ -1,0 +1,16 @@
+### Answer
+A simple DC motor uses a single coil of wire. The torque produced by this coil is given by the formula $\tau = nIAB\cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field. When the coil is in the vertical position (perpendicular to the magnetic field), the torque becomes zero. As the coil rotates, the torque fluctuates, falling to zero twice per revolution. This creates a "pulsing" effect rather than a smooth, constant output.
+
+To reduce this effect, the motor can be adjusted by adding additional coils wrapped around the armature at different angles, each connected to their own segments on the commutator. By distributing the coils, at least one coil is always in a position of high torque while others are near the zero-torque position. This ensures that the sum of the torques produced by all coils remains near-constant, resulting in a smoother, more continuous rotational force.
+
+### Explanation of how to solve this
+1.  **Understand the Physics:** Recognize that torque in a DC motor is dependent on the orientation of the coil relative to the magnetic field. When the coil plane is perpendicular to the magnetic field lines, the magnetic force acts along the axis of rotation, resulting in zero lever arm and thus zero torque.
+2.  **Explain the "Why":** Address the mechanism of the simple motor. Mention the cyclic nature of the torque—it varies as the angle changes, leading to periodic "dead spots" where torque drops to zero.
+3.  **Provide the Solution:** Suggest the practical engineering fix. In the HSC Physics syllabus, the standard solution is to use "multiple coils" (often arranged in a drum armature). 
+4.  **Connect the Concepts:** Clearly link the increase in the number of coils to the summation of torque. Even though individual coils have zero torque at certain points, the collective output does not drop to zero, creating the "smooth" torque required for practical machinery.
+5.  **Structure for Marks:** Since it is a 4-mark question, ensure you provide:
+    *   One or two marks for explaining the cause (fluctuation/zero-torque points).
+    *   One or two marks for the solution (additional coils).
+
+###QUESTION_TYPE
+Short answer

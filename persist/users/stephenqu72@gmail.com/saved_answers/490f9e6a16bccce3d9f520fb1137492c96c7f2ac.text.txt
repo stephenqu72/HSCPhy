@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To understand how an electromagnetic (EM) wave propagates, we look to Maxwell’s equations, which describe the relationship between electric and magnetic fields.
+
+1.  **The Nature of EM Waves:** An electromagnetic wave consists of time-varying (oscillating) electric fields ($E$) and magnetic fields ($B$) that are coupled together.
+2.  **Maxwell-Faraday and Ampère-Maxwell Laws:** 
+    *   A changing electric field creates a changing magnetic field.
+    *   A changing magnetic field creates a changing electric field.
+    *   Because the source of the oscillation is an accelerating charge (or changing current), both the electric and magnetic fields must be **oscillating** in time and space to sustain the wave as it travels. Therefore, options suggesting "constant" fields (B and C) are incorrect.
+3.  **Orthogonality:** In an EM wave, the oscillating electric field and the oscillating magnetic field are oriented **perpendicular** to each other. Furthermore, both are perpendicular to the direction of wave propagation.
+4.  **Evaluating the Options:**
+    *   **A:** Incorrect because the fields must be perpendicular, not parallel.
+    *   **B & C:** Incorrect because the fields must be oscillating, not constant.
+    *   **D:** Correct because it states that an oscillating electric field induces an oscillating magnetic field, and these fields are perpendicular to one another.
+
+This self-sustaining cycle of induction allows the electromagnetic wave to propagate through a vacuum at the speed of light ($c$).
+
+### QUESTION_TYPE
+Multiple choice

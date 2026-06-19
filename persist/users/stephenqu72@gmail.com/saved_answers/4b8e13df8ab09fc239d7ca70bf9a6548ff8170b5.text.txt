@@ -1,0 +1,26 @@
+To solve this problem, we must analyze the interaction between a square loop of side length $s$ and a magnetic field region of horizontal width $2s$ (since the loop width is half the field width). The loop moves at a constant speed $v$.
+
+### Part (a): Magnetic Flux ($\Phi$) vs. Position
+Magnetic flux is defined as $\Phi = B \cdot A_{\text{effective}}$, where $A_{\text{effective}}$ is the area of the loop inside the magnetic field.
+1.  **$P$ to $Q$:** The loop is outside the field. Flux is $0$.
+2.  **$Q$ to $R$:** As the loop enters the field, the area inside increases linearly until the entire loop is within the field (at the midpoint between $Q$ and $R$). Since the loop width is half the field width, once the loop is fully inside, the flux remains constant at its maximum value for a distance.
+3.  **$R$ to $T$:** As the loop exits, the area inside decreases linearly until the flux reaches $0$ at position $T$.
+**Sketch:** A horizontal line at $0$ from $P$ to $Q$, a linear rise to a plateau, a flat horizontal plateau, a linear drop to $0$ at $R$, and a flat line at $0$ from $R$ to $T$.
+
+### Part (b): Induced EMF ($\varepsilon$) vs. Position
+Faraday’s Law states $\varepsilon = - \frac{d\Phi}{dt}$. Since speed is constant ($v = \frac{dx}{dt}$), the EMF is proportional to the negative gradient of the flux-position graph.
+1.  **$P$ to $Q$:** No change in flux, $\varepsilon = 0$.
+2.  **$Q$ to entering field:** The flux is increasing, so $\varepsilon$ is constant and negative.
+3.  **Inside field:** The flux is constant, so $\frac{d\Phi}{dt} = 0$, thus $\varepsilon = 0$.
+4.  **Exiting field ($R$ to $T$):** The flux is decreasing, so $\varepsilon$ is constant and positive.
+**Sketch:** A line at $0$ ($P$ to $Q$), a negative rectangular pulse ($Q$ to mid-point), a line at $0$ (mid-point to $R$), a positive rectangular pulse ($R$ to $T$).
+
+### Part (c): Direction of Current
+As the loop enters the field at $Q$, the magnetic flux *into* the page increases. According to **Lenz's Law**, the induced current must create a magnetic field to oppose this change—i.e., it must create a field *out of* the page. Using the Right-Hand Grip Rule, a current creating an upward field (out of the page) must flow **anticlockwise** when viewed from above.
+
+### Summary of Graphs
+*   **Flux graph:** $0 \rightarrow$ ramp up $\rightarrow$ flat plateau $\rightarrow$ ramp down $\rightarrow 0$.
+*   **EMF graph:** $0 \rightarrow$ negative constant $\rightarrow 0 \rightarrow$ positive constant $\rightarrow 0$.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,43 @@
+### Answer and Explanation
+
+To solve this problem, we use the principles of electromagnetism related to the torque on a current-carrying coil in a magnetic field.
+
+**Given data:**
+*   Number of turns, $N = 25$
+*   Magnetic field strength, $B = 0.4\text{ T}$
+*   Area of the coil, $A = 1 \times 10^{-3}\text{ m}^2$
+*   Torque, $\tau = 0.03\text{ Nm}$
+*   Distance of side X from the axis of rotation, $r = 0.01\text{ m}$
+
+---
+
+#### a) What is the current through side X of the coil?
+
+The torque on a current-carrying coil is given by the formula:
+$$\tau = nIAB\cos(\theta)$$
+In the position shown, the plane of the coil is horizontal (parallel to the magnetic field lines), meaning the angle between the normal to the coil and the magnetic field is $\theta = 0^\circ$. Thus, $\cos(0^\circ) = 1$.
+
+Rearranging for current ($I$):
+$$I = \frac{\tau}{nAB}$$
+$$I = \frac{0.03}{25 \times (1 \times 10^{-3}) \times 0.4}$$
+$$I = \frac{0.03}{0.01} = 3\text{ A}$$
+
+**The current through the coil is $3\text{ A}$.**
+
+---
+
+#### b) What is the force on side X due to the magnetic field?
+
+The force on a single wire of length $L$ in a magnetic field is given by $F = BIL$. However, we can also use the relationship between torque and force. Since torque is the product of force and the perpendicular distance from the pivot, and there are two sides of the coil contributing to the torque:
+$$\tau = 2 \times (F \times r)$$
+Where $F$ is the force on one side. Substituting the known values:
+$$0.03 = 2 \times F \times 0.01$$
+$$0.03 = 0.02 \times F$$
+$$F = \frac{0.03}{0.02} = 1.5\text{ N}$$
+
+**The force on side X is $1.5\text{ N}$.**
+
+---
+
+###QUESTION_TYPE
+Calculation question

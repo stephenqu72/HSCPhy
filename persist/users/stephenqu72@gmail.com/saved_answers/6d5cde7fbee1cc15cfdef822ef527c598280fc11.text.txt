@@ -1,0 +1,15 @@
+### Answer
+When the motor is held stationary, there is no change in magnetic flux linkage through the coils, so no back electromotive force (back EMF) is induced. The current is limited only by the internal resistance of the coils ($I = V/R$).
+
+When the motor spins, the rotating coils cut magnetic field lines, inducing a back EMF ($\varepsilon$) in accordance with Faraday’s Law. According to Lenz’s Law, this induced EMF acts in opposition to the supply voltage ($V_{supply}$). The net voltage driving the current becomes $(V_{supply} - \varepsilon)$. Since the net voltage decreases while the resistance remains constant, the total current flowing through the motor significantly decreases.
+
+### How to solve it
+To solve this 3-mark HSC Physics question, you must demonstrate an understanding of the relationship between motor rotation, induction, and circuit analysis:
+
+1.  **Identify the stationary state:** Explain that when the motor is stationary, the back EMF is zero. Therefore, the current is determined solely by Ohm’s Law: $I = V/R$, where $R$ is the resistance of the motor windings.
+2.  **Explain the rotating state:** State that as the motor rotates, the coil experiences a changing magnetic flux. By Faraday’s Law, this induces an EMF (back EMF).
+3.  **Apply Lenz's Law:** Explicitly state that the back EMF opposes the applied supply voltage. The effective voltage across the motor is $V_{net} = V_{supply} - \varepsilon$.
+4.  **Connect to Current:** Conclude that because the effective driving voltage is reduced during rotation, the current ($I = (V_{supply} - \varepsilon) / R$) must drop compared to the stationary state.
+
+### QUESTION_TYPE
+Short answer

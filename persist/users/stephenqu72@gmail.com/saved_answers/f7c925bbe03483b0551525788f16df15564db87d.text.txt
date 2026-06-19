@@ -1,0 +1,39 @@
+To solve this problem, we will apply the principles of electromagnetism (the motor effect) and rotational equilibrium (torque).
+
+### Part (a) Determine the size and direction of the force acting on side JK.
+
+**1. Calculate the current ($I$):**
+Using Ohm’s Law, $V = IR$:
+$$I = \frac{V}{R} = \frac{9.0\text{ V}}{6.0\text{ }\Omega} = 1.5\text{ A}$$
+
+**2. Calculate the force ($F$):**
+The force on a current-carrying wire is given by $F = nBIL\sin(\theta)$. Since the coil is horizontal and the field is horizontal, $\theta = 90^\circ$, so $\sin(90^\circ) = 1$.
+*   $n = 10$ loops
+*   $B = 0.50\text{ T}$
+*   $I = 1.5\text{ A}$
+*   $L = 0.12\text{ m}$ (length of JK)
+
+$$F = 10 \times 0.50 \times 1.5 \times 0.12 = 0.9\text{ N}$$
+
+**3. Determine direction:**
+Using the Right-Hand Rule: Current flows from the positive terminal into the left side (JK). The magnetic field points from North (N) to South (S) (left to right). Pointing fingers in the direction of the magnetic field (right) and thumb in the direction of current (into the page, if viewed from the side, or "away" from the commutator), the palm faces **upwards (Direction A)**.
+
+---
+
+### Part (b) Calculate the weight of the mass and its location to prevent spinning.
+
+To prevent the motor from spinning, the clockwise torque produced by the magnetic forces must be balanced by an equal counter-clockwise torque produced by the weight of the added mass.
+
+**1. Calculate the magnetic torque ($\tau_m$):**
+The two sides (JK and LM) both experience a force of $0.9\text{ N}$ (opposite directions). The distance between them is the width of the coil, $w = 6.0\text{ cm} = 0.06\text{ m}$. The pivot is the central axis.
+$$\tau_m = (F \times r) + (F \times r) = F \times w = 0.9\text{ N} \times 0.06\text{ m} = 0.054\text{ Nm}$$
+
+**2. Calculate weight and location:**
+To balance this, we use $\tau_g = mgd$, where $d$ is the distance from the pivot. Since the mass and distance can vary, we define the relationship:
+$$mgd = 0.054\text{ Nm}$$
+If we assume the mass is placed at the edge of the coil ($d = 0.03\text{ m}$ from the axis):
+$$mg = \frac{0.054}{0.03} = 1.8\text{ N}$$
+*(Note: Any combination of mass $m$ and distance $d$ that satisfies $mgd = 0.054$ is a correct solution).*
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+To solve this problem, we must apply Snell's Law and the principles of geometric optics.
+
+### Analysis of the Diagram
+1.  **Angle of Incidence vs. Refraction:** Draw a normal line (a line perpendicular to the boundary) at the point of incidence. You will observe that the angle between the incoming ray and the normal (angle of incidence, $\theta_1$) is smaller than the angle between the outgoing ray and the normal (angle of refraction, $\theta_2$). Therefore, the **angle of refraction is greater**.
+2.  **Snell's Law:** The relationship is given by:
+    $$n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$$
+    Rearranging for the indices of refraction:
+    $$\frac{n_1}{n_2} = \frac{\sin(\theta_2)}{\sin(\theta_1)}$$
+3.  **Determining the Change:** Since we have established that $\theta_2 > \theta_1$, it follows that $\sin(\theta_2) > \sin(\theta_1)$. This means the ratio $\frac{\sin(\theta_2)}{\sin(\theta_1)} > 1$. Consequently, $\frac{n_1}{n_2} > 1$, which implies $n_1 > n_2$.
+4.  **Conclusion:** As the light moves from medium 1 to medium 2, the index of refraction **decreases**.
+
+Comparing this to the provided options, the angle of refraction is "greater" and the change in the index of refraction is a "decrease." This corresponds to option **B**.
+
+### Answer
+**B**
+
+###QUESTION_TYPE
+Multiple choice

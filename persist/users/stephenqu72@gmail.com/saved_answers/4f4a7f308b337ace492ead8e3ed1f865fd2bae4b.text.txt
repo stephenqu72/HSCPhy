@@ -1,0 +1,19 @@
+### Answer
+
+**(a) Generation and Effect of Back EMF**
+As the armature of a DC motor rotates within the external magnetic field, the conducting coils experience a change in magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an electromotive force (EMF) that opposes the supply voltage driving the motor; this is called back EMF ($\epsilon$). The back EMF acts to limit the current flowing through the armature. As the motor speeds up, the back EMF increases, reducing the net voltage and effectively regulating the current to prevent the motor from drawing excessive power once it reaches a steady state.
+
+**(b) Controlling Motor Speed**
+The relationship between current, supply voltage ($V$), and back EMF ($\epsilon$) is given by $V - \epsilon = IR$. Since $\epsilon$ is directly proportional to the angular velocity of the motor, changing the load or the supply voltage alters the equilibrium speed. To control the speed, one can vary the input supply voltage: increasing the supply voltage increases the net potential difference, causing the motor to accelerate until the back EMF rises to a new, higher equilibrium point, resulting in a higher operational speed. Conversely, decreasing the supply voltage reduces the torque, causing the motor to slow down until the back EMF decreases to match the lower supply voltage.
+
+---
+
+### How to solve this
+1.  **Understand the Physics:** Recognize that a motor also acts as a generator. When it spins, the coils cut magnetic field lines, creating an induced EMF ($ \epsilon $) that opposes the input voltage. This is the definition of "Back EMF."
+2.  **Lenz's Law:** Always mention that the back EMF opposes the original motion (Lenz's Law), which is why it is "back" EMF.
+3.  **The Circuit Equation:** Use the standard DC motor circuit equation: $V_{supply} = \epsilon + IR$. This helps explain how the back EMF limits the current ($I$).
+4.  **Connecting to Speed:** Realise that $\epsilon \propto \omega$ (where $\omega$ is angular velocity). If you change the input voltage ($V$), the motor must reach a new speed where the new $\epsilon$ balances the equation. This is the core mechanism of speed control.
+5.  **Structure:** Since both parts are worth 3 marks, ensure you provide three distinct points/logical steps for each part to ensure full marks.
+
+###QUESTION_TYPE
+Short answer

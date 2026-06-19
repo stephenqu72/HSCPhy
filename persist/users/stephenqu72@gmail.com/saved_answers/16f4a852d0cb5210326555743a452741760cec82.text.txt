@@ -1,0 +1,26 @@
+To solve this problem, we use the principle of the **ideal transformer**, where power input equals power output ($P_p = P_s$). Since $P = VI$, we have $V_p I_p = V_s I_s$. Given the transformer turns ratio relationship $\frac{V_p}{V_s} = \frac{N_p}{N_s}$, we can derive the current relationship:
+
+$$\frac{I_p}{I_s} = \frac{N_s}{N_p}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given variables:**
+    *   Number of turns in the primary coil, $N_p = 1600$
+    *   Number of turns in the secondary coil, $N_s = 800$
+    *   Current in the secondary coil, $I_s = 3.34\text{ A}$
+
+2.  **State the formula for an ideal transformer:**
+    $$I_p N_p = I_s N_s$$
+
+3.  **Rearrange the formula to solve for the primary current $I_p$:**
+    $$I_p = I_s \times \frac{N_s}{N_p}$$
+
+4.  **Substitute the values into the equation:**
+    $$I_p = 3.34 \times \frac{800}{1600}$$
+    $$I_p = 3.34 \times 0.5$$
+    $$I_p = 1.67\text{ A}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

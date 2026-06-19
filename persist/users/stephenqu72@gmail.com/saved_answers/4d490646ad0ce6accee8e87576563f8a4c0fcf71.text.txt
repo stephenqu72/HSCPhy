@@ -1,0 +1,34 @@
+To answer this question, we must apply the physics of DC motors and the formula for torque ($\tau$) on a current-carrying coil:
+$$\tau = nIAB\sin\theta$$
+Where $n$ is the number of turns, $I$ is current, $A$ is the area, $B$ is the magnetic field strength, and $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+### Part 1: Quantitative Analysis
+Let Stacy’s motor have $n_S$ turns and Jonathan’s have $n_J = 2n_S$ turns.
+Because both use the same length of wire ($L$) to form square coils, we must consider the resistance ($R$). The resistance of a wire is $R = \rho \frac{L}{A_{wire}}$. Since the total length of wire is the same, the resistance is the same for both coils.
+According to Ohm's Law ($I = V/R$), since $V$ (6V) and $R$ are identical, the current $I$ is the same for both.
+
+However, the side length of the square coil changes. If $L$ is the total length of wire:
+- Stacy’s perimeter is $P_S = 4s_S = L/n_S$, so $s_S = L/(4n_S)$. Area $A_S = s_S^2 = \frac{L^2}{16n_S^2}$.
+- Jonathan’s perimeter is $P_J = 4s_J = L/n_J = L/(2n_S)$, so $s_J = L/(8n_S)$. Area $A_J = s_J^2 = \frac{L^2}{64n_S^2}$.
+
+Comparing the two:
+$$\tau_S = n_S \cdot I \cdot \frac{L^2}{16n_S^2} \cdot B = \frac{IL^2B}{16n_S}$$
+$$\tau_J = (2n_S) \cdot I \cdot \frac{L^2}{64n_S^2} \cdot B = \frac{2IL^2B}{64n_S} = \frac{IL^2B}{32n_S}$$
+
+Comparing $\tau_S$ and $\tau_J$:
+$$\frac{\tau_S}{\tau_J} = \frac{1/16}{1/32} = 2$$
+Thus, the torque of Stacy's motor is double that of Jonathan's.
+
+### Part 2: Suggestions for Jonathan
+To match Stacy's torque, Jonathan needs to double his torque. He could:
+1. **Increase the current:** By doubling the voltage of his battery (e.g., using a 12V battery), he would double the current ($I$), effectively doubling the torque ($I \propto \tau$).
+2. **Increase the magnetic field strength ($B$):** By using stronger permanent magnets or an electromagnet, he can increase $B$. Since $\tau \propto B$, doubling the magnetic field strength would double the torque.
+
+### How to solve it:
+1. Identify the relevant formula $\tau = nIAB$.
+2. Express the dimensions of the square coil in terms of the total wire length $L$ and the number of turns $n$.
+3. Substitute the dimensions into the torque equation to show the proportionality.
+4. Use the derived relationship to suggest physical modifications that target specific variables in the torque equation.
+
+###QUESTION_TYPE
+Calculation question

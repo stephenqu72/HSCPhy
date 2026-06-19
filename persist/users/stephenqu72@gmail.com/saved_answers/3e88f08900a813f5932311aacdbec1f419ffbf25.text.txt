@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Part a) Calculate the average EMF
+To calculate the average induced EMF ($\varepsilon$), we use Faraday's Law of Induction, which states that the induced EMF is equal to the rate of change of magnetic flux ($\Phi_B$):
+$$\varepsilon = - \frac{\Delta \Phi_B}{\Delta t}$$
+
+**1. Identify given values:**
+*   Side length of the square loop ($s$) = $0.040\text{ m}$
+*   Area of the loop ($A$) = $s^2 = (0.040\text{ m})^2 = 0.0016\text{ m}^2$
+*   Magnetic field strength ($B$) = $0.30\text{ T}$
+*   Time interval ($\Delta t$) = $0.50\text{ s}$
+
+**2. Calculate the change in flux ($\Delta \Phi_B$):**
+*   Initial flux ($\Phi_{initial}$) = $0\text{ Wb}$ (loop is outside the field).
+*   Final flux ($\Phi_{final}$) = $B \times A = 0.30\text{ T} \times 0.0016\text{ m}^2 = 0.00048\text{ Wb}$.
+*   Change in flux ($\Delta \Phi_B$) = $0.00048\text{ Wb} - 0\text{ Wb} = 0.00048\text{ Wb}$.
+
+**3. Calculate the EMF:**
+$$\varepsilon = \frac{0.00048\text{ Wb}}{0.50\text{ s}} = 0.00096\text{ V}$$
+The average EMF produced is **$9.6 \times 10^{-4}\text{ V}$** (or $0.96\text{ mV}$).
+
+---
+
+#### Part b) Direction of the induced current
+According to **Lenz's Law**, the direction of the induced current will be such that it creates a magnetic field to oppose the change in magnetic flux. 
+
+1.  As the loop moves into the field, the magnetic flux directed **out of the page** is **increasing**.
+2.  To oppose this increase, the loop must create a magnetic field directed **into the page**.
+3.  Using the Right-Hand Grip Rule, for a magnetic field pointing into the page, the current must flow in a **clockwise** direction.
+
+**Direction:** Clockwise.
+
+---
+
+### QUESTION_TYPE
+Calculation question

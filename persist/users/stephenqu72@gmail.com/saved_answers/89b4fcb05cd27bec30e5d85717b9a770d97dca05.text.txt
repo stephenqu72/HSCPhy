@@ -1,0 +1,25 @@
+To solve these problems, we need to apply the fundamental principles of transformer physics.
+
+### Question 16 Analysis
+1.  **Identifying Coils:** The input side of a transformer, where the source (generator) is connected, is always the **primary coil**. The output side, where the load (resistor) is connected, is the **secondary coil**. Therefore, $X$ is the primary coil and $Y$ is the secondary coil.
+2.  **Transformer Function:** A transformer is "step-up" if the secondary voltage is greater than the primary voltage ($V_s > V_p$), or if the number of secondary turns is greater than the primary turns ($N_s > N_p$). Here, $N_p = 1000$ and $N_s = 6000$. Since $N_s > N_p$, it is a **step-up** transformer.
+3.  **Conclusion:** The correct option is **B**.
+
+### Question 17 Analysis
+To find the current in the primary circuit, we use the principle of conservation of energy for an *ideal* transformer, which states that the input power equals the output power: $P_p = P_s$.
+
+1.  **Calculate Secondary Power ($P_s$):**
+    Using the voltage $V_s = 240\text{ V}$ and resistance $R = 1200\text{ }\Omega$:
+    $$P_s = \frac{V_s^2}{R} = \frac{240^2}{1200} = \frac{57600}{1200} = 48\text{ W}$$
+2.  **Calculate Primary Current ($I_p$):**
+    Since the transformer is ideal, $P_p = P_s = 48\text{ W}$.
+    The input power is also defined by $P_p = V_p \times I_p$.
+    Given $V_p = 40\text{ V}$:
+    $$48 = 40 \times I_p$$
+    $$I_p = \frac{48}{40} = 1.2\text{ A}$$
+3.  **Conclusion:** The correct option is **C**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

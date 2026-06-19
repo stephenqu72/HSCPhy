@@ -1,0 +1,21 @@
+To solve this problem, we apply **Lenz's Law** and the **Right-Hand Grip Rule**.
+
+### Step-by-Step Explanation:
+
+1.  **Lenz’s Law:** The induced current creates a magnetic field that opposes the change in magnetic flux.
+2.  **Determine the target current direction:** The question asks for current flowing from $X$ to $Y$ through the galvanometer. Looking at the coils, current flowing $X \rightarrow Y$ would enter the coil from the left side and travel "over the top" of the coil winding towards the right.
+3.  **Use the Right-Hand Grip Rule:** If you curl the fingers of your right hand in the direction of the current (over the top towards the right), your thumb points towards the **left** end of the coil. Therefore, for the current to flow $X \rightarrow Y$, the coil must act as a magnet with a **North pole on the left**.
+
+**Now analyze each coil:**
+
+*   **Coil 1:** The South pole is moving *away* from the left side of the coil. To oppose this, the coil must attract the South pole by creating a **North pole on the left**. This matches our requirement. **(Matches)**
+*   **Coil 2:** The North pole is moving *towards* the left side of the coil. To oppose this, the coil must repel the North pole by creating a **North pole on the left**. This also matches our requirement. **(Matches)**
+*   **Coil 3:** The North pole is moving *away* from the right side. To oppose this, the coil must create a South pole on the right, which means a North pole on the left. Wait—let's check the winding. In Coil 3, the wire comes from the back, so current flowing $X \rightarrow Y$ would create a magnetic field pointing to the right. This does not match.
+*   **Coil 4:** The North pole is moving *towards* the right side. To oppose this, the coil must create a North pole on the right. This would require the current to flow in the opposite direction ($Y \rightarrow X$).
+
+**Conclusion:** Both Coil 1 and Coil 2 generate an induced current that flows from $X$ to $Y$ through the galvanometer.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

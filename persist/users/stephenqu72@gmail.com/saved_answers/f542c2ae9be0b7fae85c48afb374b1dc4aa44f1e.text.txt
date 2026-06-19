@@ -1,0 +1,36 @@
+### Teacher's Solution and Explanation
+
+To solve this problem, we use the diffraction grating formula:
+$$d \sin \theta = n \lambda$$
+
+**Given data:**
+*   Lines per metre ($N$) = $8.00 \times 10^5 \text{ lines/m}$
+*   Grating spacing ($d$) = $\frac{1}{N} = \frac{1}{8.00 \times 10^5} = 1.25 \times 10^{-6} \text{ m}$
+*   Order ($n$) = $2$
+*   Wavelengths: $\lambda_1 = 589 \times 10^{-9} \text{ m}$ and $\lambda_2 = 590 \times 10^{-9} \text{ m}$
+
+---
+
+#### Part (a): Determine the angular separation
+1. Calculate the angle $\theta_1$ for $\lambda_1$:
+   $$\sin \theta_1 = \frac{n \lambda_1}{d} = \frac{2 \times 589 \times 10^{-9}}{1.25 \times 10^{-6}} = 0.9424$$
+   $$\theta_1 = \arcsin(0.9424) \approx 70.453^\circ$$
+
+2. Calculate the angle $\theta_2$ for $\lambda_2$:
+   $$\sin \theta_2 = \frac{n \lambda_2}{d} = \frac{2 \times 590 \times 10^{-9}}{1.25 \times 10^{-6}} = 0.944$$
+   $$\theta_2 = \arcsin(0.944) \approx 70.730^\circ$$
+
+3. Find the angular separation ($\Delta \theta$):
+   $$\Delta \theta = \theta_2 - \theta_1 = 70.730^\circ - 70.453^\circ = 0.277^\circ$$
+
+**Answer:** The angular separation is approximately **$0.277^\circ$**.
+
+---
+
+#### Part (b): Why is it more difficult in the first order?
+In the first order ($n=1$), the diffraction angles are smaller. Because the angular separation between two lines is proportional to the order $n$, the lines are packed much closer together at $n=1$ compared to $n=2$. This reduced angular dispersion makes it harder for the human eye or a detector to resolve the two distinct wavelengths, as they may overlap and appear as a single blurred line.
+
+---
+
+###QUESTION_TYPE
+Calculation question

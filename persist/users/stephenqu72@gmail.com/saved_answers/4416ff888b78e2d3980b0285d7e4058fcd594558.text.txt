@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To solve this problem, we use the principles of an ideal transformer. The key relationship is defined by the transformer equation:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+
+Where:
+*   $V_p$ and $V_s$ are the primary and secondary voltages.
+*   $N_p$ and $N_s$ are the number of turns in the primary and secondary coils.
+*   $I_p$ and $I_s$ are the primary and secondary currents.
+
+**Step-by-step reasoning:**
+1.  **Analyze the turns ratio:** The question states there are "more turns of wire in the secondary coil than in the primary coil." This means $N_s > N_p$.
+2.  **Determine Voltage:** Since the ratio of voltage is proportional to the ratio of turns ($\frac{V_s}{V_p} = \frac{N_s}{N_p}$), having more turns in the secondary ($N_s > N_p$) results in a higher secondary voltage ($V_s > V_p$). This is a **step-up transformer**.
+3.  **Determine Current:** An ideal transformer obeys the law of conservation of energy, meaning the power input equals the power output ($P_p = P_s$). Since $P = VI$, we have $V_p I_p = V_s I_s$. Because the voltage increases ($V_s > V_p$), the current must decrease proportionally ($I_s < I_p$) to maintain the same power level.
+4.  **Conclusion:** The transformer increases the voltage and decreases the current. This matches option **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

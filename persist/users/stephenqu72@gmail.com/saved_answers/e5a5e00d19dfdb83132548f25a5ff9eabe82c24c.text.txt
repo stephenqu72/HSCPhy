@@ -1,0 +1,25 @@
+As a Physics teacher, let’s break down the mechanics of this DC motor model.
+
+### Answer and Explanation
+
+**(a) Describe what would happen to the motor if it was connected to an AC supply.**
+If an AC supply is connected, the motor will experience a rapidly oscillating torque. Because the current reverses direction every half-cycle, and the split-ring commutator also reverses the connection to the external circuit every half-cycle, these two effects will cancel each other out. Specifically, the direction of the force on the wires $WX$ and $YZ$ will remain constant (or oscillate in a way that provides no net continuous rotation). The motor coil will likely vibrate or oscillate around the vertical position rather than rotating continuously.
+
+**(b) What modification would be required to turn the motor into an AC motor?**
+Replace the **split-ring commutator** with **slip rings**. Slip rings maintain a continuous connection between the coil and the external circuit, allowing the current direction within the coil to change in sync with the AC supply, which is necessary to maintain continuous rotation in an AC motor.
+
+**(c) On the axis below, draw the output voltage...**
+*   **The Physics:** The diagram shows a DC generator setup (the split-ring acts as a rectifier). In a DC generator, the output voltage is the absolute value of the induced EMF.
+*   **The Starting Point:** The diagram shows the coil in the vertical position ($0^\circ$ relative to the magnetic field, or $90^\circ$ to the flux). The question asks to start $90^\circ$ from this position. At this point, the coil is horizontal, meaning it is cutting the maximum number of field lines. Therefore, the induced EMF is at a **maximum value**.
+*   **The Shape:** Since it is a split-ring commutator, the output is a "rectified sine wave" (only the positive peaks).
+*   **The Result:** You should draw three "humps" (like a camel’s back) starting from the maximum positive value at $t=0$. Each full rotation consists of two half-cycles that are both rectified to be positive.
+
+### Summary for Drawing:
+1. Start at a **maximum positive value** on the y-axis.
+2. Draw a downward curve reaching zero at $90^\circ$ of rotation, then curve back up to a maximum at $180^\circ$.
+3. Repeat this process for three full turns (totaling 6 "humps").
+
+---
+
+###QUESTION_TYPE
+Short answer

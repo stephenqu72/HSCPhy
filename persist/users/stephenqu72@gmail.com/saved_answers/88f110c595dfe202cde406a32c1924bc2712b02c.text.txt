@@ -1,0 +1,37 @@
+As an HSC Physics teacher, I will guide you through this transmission line problem step-by-step.
+
+### Solutions
+
+**Part (a)**
+The power dissipated in the light globe is given by $P = IV$. However, we aren't given the current in the globe directly. We know the power must be conserved (assuming an ideal transformer), so the power into the transformer equals the power out.
+First, we need the current in the secondary coil ($I_s$). Since the transformer turns ratio is $N_p:N_s = 4:1$, the current ratio is $I_p:I_s = 1:4$. Given $I_p = 3.0\text{ A}$, then $I_s = 4 \times 3.0 = 12.0\text{ A}$.
+$$P = I_s V_s = 12.0\text{ A} \times 4.0\text{ V} = 48\text{ W}$$
+
+**Part (b)**
+The voltage output of the power supply ($V_{in}$) must account for the voltage drop across the transmission lines ($V_{lines}$) and the input to the primary coil of the transformer ($V_p$).
+1. Voltage drop on lines: $V_{lines} = I_p \times R_{total} = 3.0\text{ A} \times 8.0\text{ }\Omega = 24.0\text{ V}$.
+2. Primary voltage: $\frac{V_p}{V_s} = \frac{N_p}{N_s} \implies V_p = 4 \times 4.0\text{ V} = 16.0\text{ V}$.
+3. Supply voltage: $V_{supply} = V_{lines} + V_p = 24.0\text{ V} + 16.0\text{ V} = 40.0\text{ V}$.
+
+**Part (c)**
+The power loss in the lines is calculated using the current in the transmission lines and the total resistance of the lines:
+$$P_{loss} = I_p^2 \times R_{total} = (3.0)^2 \times 8.0 = 9 \times 8.0 = 72\text{ W}$$
+
+**Part (d)**
+In the second experiment, the ratio is $8:1$. To keep the globe at $4.0\text{ V}$ ($48\text{ W}$), the current in the primary must change.
+1. New primary current: $\frac{I_p'}{I_s} = \frac{N_s}{N_p} \implies I_p' = \frac{12.0}{8} = 1.5\text{ A}$.
+2. Power loss: $P_{loss}' = (I_p')^2 \times R_{total} = (1.5)^2 \times 8.0 = 2.25 \times 8.0 = 18\text{ W}$.
+
+**Part (e)**
+1. **Minimizing Power Loss:** As shown in part (d), increasing voltage decreases current, which drastically reduces power loss ($P = I^2R$) since the loss is proportional to the square of the current.
+2. **Efficiency/Cost:** Lower power loss means less energy is wasted as heat, allowing for the use of thinner (cheaper) transmission wires while maintaining high efficiency over long distances.
+
+---
+
+### How to solve it
+1. **Identify the Transformer Ratio:** Always remember that $V_p/V_s = N_p/N_s$ and $I_p/I_s = N_s/N_p$. If you know the ratio, you can calculate the current or voltage at any point.
+2. **Treat the transmission lines as a resistor:** The power supply sees the transmission lines and the transformer in series. Use Ohm's Law ($V = IR$) for the lines and $P = I^2R$ to find power dissipation.
+3. **Conservation of Energy:** In an ideal transformer, $P_{in} = P_{out}$. This is your strongest tool when you are missing variables.
+
+###QUESTION_TYPE
+Calculation question

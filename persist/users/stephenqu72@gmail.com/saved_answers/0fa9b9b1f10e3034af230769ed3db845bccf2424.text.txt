@@ -1,0 +1,21 @@
+As a physics teacher, I am happy to help you break down this question.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this, we must distinguish between the theoretical model of an "ideal transformer" and the reality of physical devices.
+
+1.  **Defining "Ideal":** In physics problems, an "ideal transformer" is defined by assuming there are no energy losses. It assumes zero resistance in the coils, no magnetic flux leakage, and no energy dissipation in the core.
+2.  **Why 100% efficiency is not possible in reality:** Real-world transformers face energy loss mechanisms that convert electrical energy into thermal energy (heat). One of the primary sources of this energy loss is **eddy currents**. 
+    *   The changing magnetic flux in the transformer core induces circular currents within the conducting iron material itself, according to Faraday's Law and Lenz's Law. 
+    *   Because the core has finite electrical resistance, these eddy currents dissipate energy as heat ($P = I^2R$). This is why transformer cores are often laminated—to increase the resistance path for these currents and minimize heat loss.
+3.  **Evaluating the other options:**
+    *   **(B)** While true that current must change in a transformer, this is a requirement for operation, not an explanation for why efficiency cannot reach 100%.
+    *   **(C)** It is true that transformers cannot operate on DC (because a steady current produces a constant flux, inducing no EMF), but again, this is a functional characteristic, not a reason for energy loss.
+    *   **(D)** This is factually incorrect; iron cores are used specifically because they are ferromagnetic and highly efficient at concentrating magnetic flux.
+
+Therefore, because heat loss due to eddy currents (along with resistive heating in the windings, known as "copper loss") is an inherent physical limitation, a perfectly efficient transformer is an impossibility.
+
+###QUESTION_TYPE
+Multiple choice

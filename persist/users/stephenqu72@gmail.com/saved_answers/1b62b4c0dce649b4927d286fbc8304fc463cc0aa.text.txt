@@ -1,0 +1,27 @@
+To solve these problems, we must apply Faraday’s Law of Induction, which states that the induced electromotive force (EMF), $\varepsilon$, is proportional to the negative rate of change of magnetic flux, $\Phi$:
+
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+### Question 8: Determining the EMF Graph
+1. **Analyze the Flux graph ($\Phi$ vs $t$):** At the start of the graph ($t=0$), the flux is at a negative maximum. 
+2. **Determine the slope:** The slope of the flux graph represents the rate of change ($\frac{d\Phi}{dt}$). At the start, the graph is at a local minimum (a flat point), so the slope is $0$. Therefore, the induced EMF must start at $0$.
+3. **Check the signs:** Immediately after $t=0$, the flux increases (moves from negative toward zero). Since the slope is positive, $-\frac{d\Phi}{dt}$ will be negative. 
+4. **Conclusion:** We look for a graph that starts at zero and goes negative. Graph **(A)** starts at zero and immediately becomes negative, matching the physical requirement derived from Faraday's Law.
+
+### Question 9: Determining the Initial Coil Position
+1. **Recall the definition of flux:** Magnetic flux is defined by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the magnetic field vector and the **normal** to the coil.
+2. **Analyze the flux at $t=0$:** The graph shows that at $t=0$, the flux is at a **negative maximum**. 
+3. **Relate to geometry:**
+   - Flux is maximum when the coil is perpendicular to the field (plane of the coil is vertical).
+   - Flux is zero when the coil is parallel to the field (plane of the coil is horizontal).
+   - Since the flux is a negative maximum, the coil is perpendicular to the field, but facing "opposite" to the reference direction.
+4. **Match the diagram:** Diagram **(B)** shows the coil oriented vertically, perpendicular to the magnetic field lines. This orientation yields the maximum flux magnitude.
+
+***
+
+### Summary of Answers:
+*   **Question 8:** (A)
+*   **Question 9:** (B)
+
+###QUESTION_TYPE
+Multiple choice

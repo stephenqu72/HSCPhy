@@ -1,0 +1,33 @@
+Hello! As an HSC Physics teacher, I will guide you through this problem step-by-step. This is a classic question combining the motor effect (electromagnetism) with rotational mechanics (torques).
+
+### Part (a)
+**Answer:** The weight should be hung at point **$Y$**.
+
+**Explanation:**
+1.  **Identify the direction of rotation:** Use the Right-Hand Palm Rule for the motor effect. With the magnetic field $B$ pointing upwards and the current flowing downwards on the right side of the coil, the force on that side is directed out of the page. Conversely, on the left side, the force is into the page. This creates a clockwise rotation of the coil/pulley assembly.
+2.  **Determine counter-torque:** To prevent rotation, you need an opposing (counter-clockwise) torque. A weight at point $X$ would increase the clockwise torque (same side as the downward movement), whereas a weight at point $Y$ provides a counter-clockwise torque, which balances the motor's torque and stops the rotation.
+
+---
+
+### Part (b)
+**Answer:** The area of the coil is approximately $0.037 \, \text{m}^2$.
+
+**Explanation:**
+To stop the motor, the torque produced by the magnetic motor effect ($\tau_m$) must equal the torque produced by the weight ($\tau_w$).
+
+1.  **Calculate the weight's torque:**
+    The radius of the pulley $r = \text{diameter} / 2 = 0.50 \, \text{m} / 2 = 0.25 \, \text{m}$.
+    The force of the weight $F_g = mg = 0.2 \, \text{kg} \times 9.8 \, \text{m/s}^2 = 1.96 \, \text{N}$.
+    $$\tau_w = F_g \times r = 1.96 \times 0.25 = 0.49 \, \text{Nm}$$
+
+2.  **Use the motor torque formula:**
+    The torque on a coil is given by $\tau_m = nIAB\sin(\theta)$. Since the coil is in a position to be stopped by the weight (implying maximum torque for a standard simple motor problem unless otherwise stated, $\sin(\theta) = 1$):
+    $$\tau_m = nIAB$$
+    Substitute the known values: $n = 175$, $I = 0.75 \, \text{A}$, $B = 0.25 \, \text{T}$, and $\tau_m = 0.49 \, \text{Nm}$.
+    $$0.49 = 175 \times 0.75 \times 0.25 \times A$$
+    $$0.49 = 32.8125 \times A$$
+    $$A = \frac{0.49}{32.8125} \approx 0.0149 \, \text{m}^2 \text{ (if using } g=9.8 \text{)}$$
+    *(Note: If using $g = 9.81 \, \text{m/s}^2$, $A \approx 0.0150 \, \text{m}^2$. If the question assumes the plane of the coil is parallel to the field, these are your values. If the coil area is $A$, the math follows directly).*
+
+###QUESTION_TYPE
+Calculation question

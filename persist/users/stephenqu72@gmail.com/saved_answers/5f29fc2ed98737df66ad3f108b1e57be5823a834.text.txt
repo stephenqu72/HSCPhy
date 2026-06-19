@@ -1,0 +1,25 @@
+To achieve full marks for this 4-mark HSC physics question, you must provide a logical discussion that links the principles of electromagnetic induction to motor performance.
+
+### Answer
+
+Back electromotive force (back emf) is produced in an electric motor as the armature coil rotates within an external magnetic field. According to Faraday’s Law and Lenz’s Law, as the coil rotates, the magnetic flux through the coil changes, inducing an emf. This induced emf acts in opposition to the supply voltage ($V$), hence the term "back emf" ($\epsilon$).
+
+The magnitude of the back emf is directly proportional to the speed of rotation. When a motor is first turned on, it has a high starting current because the rotation speed (and thus back emf) is zero. As the motor speeds up, the back emf increases, which reduces the effective voltage across the armature according to the relationship $I = \frac{V - \epsilon}{R}$, where $R$ is the internal resistance of the coil.
+
+This regulation of current serves two key functions:
+1. **Energy Efficiency:** It prevents the motor from drawing excessive current once it has reached its operating speed, preventing overheating.
+2. **Load Adaptation:** If an increased mechanical load slows down the motor, the back emf decreases, allowing more current to flow. This increased current provides the higher torque required to overcome the load.
+
+---
+
+### How to solve this
+When you see a "Discuss" command term, you must provide more than just a definition; you need to demonstrate the relationship between the concepts.
+
+1.  **Explain the origin (1-2 marks):** Start by identifying the mechanism. You must mention that as the motor rotates, it acts as a generator. Mention Faraday’s Law (change in flux induces emf) and Lenz’s Law (direction opposes the change).
+2.  **State the relationship (1 mark):** Explain that back emf is dependent on rotation speed. The faster it turns, the higher the back emf.
+3.  **Discuss effects/implications (1-2 marks):** Use the equation $I = \frac{V - \epsilon}{R}$ to explain why the motor doesn't burn out. Explain how it acts as a self-regulating mechanism for both current draw and handling mechanical loads.
+
+**Teacher's Tip:** Always mention Lenz’s Law when discussing back emf. It is the core physics principle that explains why the induced emf opposes the supply voltage, which is essential for scoring in the "knowledge and understanding" component of your HSC exam.
+
+###QUESTION_TYPE
+Short answer

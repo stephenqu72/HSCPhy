@@ -1,0 +1,23 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To understand why increasing the distance between the mirrors is the most effective adjustment, let's look at the physics behind Foucault’s experiment.
+
+1.  **The Relationship:** The light travels from the rotating mirror to the fixed mirror and back. Let $d$ be the distance between the mirrors. The total distance traveled by the light is $2d$.
+2.  **Time Elapsed:** The time $t$ taken for the light to travel this distance is:
+    $$t = \frac{2d}{c}$$
+    where $c$ is the speed of light.
+3.  **Angle of Rotation:** During this time $t$, the mirror rotates at an angular velocity $\omega$. The angle $\theta$ through which the mirror rotates is:
+    $$\theta = \omega t$$
+    Substituting the expression for $t$:
+    $$\theta = \omega \left( \frac{2d}{c} \right)$$
+4.  **Reducing Uncertainty:** The question states that a smaller measured angle leads to more uncertainty. To reduce uncertainty, we need to **increase the value of $\theta$**.
+    *   Looking at the formula $\theta = \frac{2\omega d}{c}$, we see that $\theta$ is directly proportional to both the angular velocity $\omega$ and the distance $d$.
+    *   While increasing $\omega$ (Option C) would theoretically increase the angle, it is practically very difficult to increase the rotational speed of a physical mirror without causing it to shatter or become unstable.
+    *   **Increasing the distance $d$** (Option A) provides a direct, stable, and linear way to increase the time the light spends in transit, which directly results in a larger, more measurable angle $\theta$ without requiring extreme mechanical engineering to push the limits of the mirror's rotational frequency.
+
+Therefore, increasing the distance between the mirrors is the most practical and effective adjustment to increase the angle and reduce measurement uncertainty.
+
+###QUESTION_TYPE
+Multiple choice

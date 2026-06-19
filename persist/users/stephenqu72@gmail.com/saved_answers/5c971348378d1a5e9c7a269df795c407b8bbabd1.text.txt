@@ -1,0 +1,28 @@
+To solve this problem, we use the double-slit interference formula for fringe separation:
+$$\Delta x = \frac{\lambda L}{d}$$
+where:
+*   $\Delta x$ is the fringe separation (the distance between adjacent fringes).
+*   $\lambda$ is the wavelength of the light.
+*   $L$ is the distance from the slits to the screen.
+*   $d$ is the slit separation distance.
+
+### Step-by-Step Calculation:
+
+1.  **Identify the variables:**
+    *   Wavelength $\lambda = 5.7 \times 10^{-7} \, \text{m}$
+    *   Distance to screen $L = 20 \, \text{cm} = 0.20 \, \text{m}$
+    *   The distance across **five** consecutive fringes (which covers 4 fringe gaps) is $3.89 \, \text{mm} = 3.89 \times 10^{-3} \, \text{m}$.
+    *   Therefore, the single fringe separation $\Delta x = \frac{3.89 \times 10^{-3} \, \text{m}}{4} = 9.725 \times 10^{-4} \, \text{m}$.
+
+2.  **Rearrange the formula to solve for $d$:**
+    $$d = \frac{\lambda L}{\Delta x}$$
+
+3.  **Substitute the values:**
+    $$d = \frac{(5.7 \times 10^{-7} \, \text{m}) \times (0.20 \, \text{m})}{9.725 \times 10^{-4} \, \text{m}}$$
+    $$d \approx 1.172 \times 10^{-4} \, \text{m} \approx 0.117 \, \text{mm}$$
+
+### Justification of the Method:
+Measuring the distance across several consecutive fringes (in this case, five) and dividing by the number of intervals ($n-1$) is a standard experimental technique used to **reduce the percentage uncertainty** in the measurement. Because individual fringes can be slightly blurry or difficult to centre exactly, taking a larger span across multiple fringes averages out the random error associated with locating the centre of a single fringe.
+
+###QUESTION_TYPE
+Calculation question

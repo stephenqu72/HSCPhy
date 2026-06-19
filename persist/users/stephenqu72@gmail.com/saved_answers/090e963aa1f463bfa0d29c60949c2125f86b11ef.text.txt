@@ -1,0 +1,21 @@
+### Answer
+
+**(a)**
+*   **Student A used the split-ring commutator.** This is evidenced by the output voltage being strictly unipolar (only positive), which is the characteristic output of a DC generator using a split-ring commutator to reverse the connection every half-turn to keep the current flowing in one direction.
+*   **Student B used the slip-ring commutator.** This is evidenced by the output voltage being bipolar (both positive and negative), which is the characteristic output of an AC generator where the coil maintains a constant connection to the external circuit, causing the induced EMF to flip polarity as the coil rotates through the magnetic field.
+
+**(b)**
+*   **Direction of Rotation:** The polarity of the pulses in Student B’s display is negative, indicating that Student B rotated the generator in the opposite direction to the reference direction used for Student A.
+*   **Speed of Rotation:** The frequency of the pulses for Student B is higher than for Student A. By observing the time axis (5 ms/div), Student A produces two pulses every ~15 ms, while Student B produces four pulses in a similar time interval. This indicates that Student B rotated the generator faster, resulting in a higher frequency of induced EMF ($f \propto \omega$).
+
+---
+
+### How to solve this
+1.  **Identify the Commutators:** Recall that a **slip-ring** commutator maintains the connection between the rotating coil and the circuit, producing a sinusoidal AC waveform. A **split-ring** commutator acts as a mechanical rectifier, swapping connections every half-cycle to ensure the output current (or voltage) remains in the same direction, producing a DC waveform.
+2.  **Analyze Student A:** Observe the graph. The pulses are all above the x-axis (positive). This matches the definition of a DC output, confirming the use of a split-ring commutator.
+3.  **Analyze Student B:** Observe the graph. The pulses are below the x-axis (negative). Because the waveform oscillates between negative and positive (or is consistently negative here, representing the "negative half" of an AC cycle), it confirms the use of slip rings.
+4.  **Compare Frequencies:** To account for differences, calculate the period $T$. Count the grid squares between repeating pulses. Student B’s pulses occur more frequently (shorter period), which implies a higher angular velocity $\omega$ of the hand generator.
+5.  **Compare Polarity:** The fact that Student B’s graph is inverted compared to a standard AC sine wave indicates a change in the direction of the input mechanical motion (Lenz’s Law/Faraday’s Law).
+
+###QUESTION_TYPE
+Data analysis questions

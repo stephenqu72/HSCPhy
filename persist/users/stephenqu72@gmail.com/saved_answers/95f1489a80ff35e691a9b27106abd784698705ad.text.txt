@@ -1,0 +1,18 @@
+The correct answer is **(A)**.
+
+### Explanation
+
+To understand magnetic braking, we must look at the underlying physics of electromagnetic induction, specifically **Lenz's Law** and the creation of **eddy currents**.
+
+1.  **The Mechanism:** When a conductor moves through a non-uniform magnetic field (or a magnetic field moves relative to a conductor), the magnetic flux through the conductor changes over time. According to Faraday’s Law of Induction, this change in flux induces an electromotive force (EMF) in the conductor.
+2.  **Eddy Currents:** This induced EMF causes circular currents, known as eddy currents, to flow within the body of the conductor. 
+3.  **Lenz’s Law:** Lenz’s Law states that the direction of the induced current will be such that it creates a magnetic field that opposes the change in flux that produced it. Consequently, the interaction between the eddy currents and the external magnetic field produces a magnetic force that opposes the motion of the conductor.
+4.  **Requirement of Relative Motion:** If there is no relative motion between the magnetic field and the conductor, the magnetic flux through the conductor remains constant ($\Delta \Phi = 0$). If $\Delta \Phi = 0$, there is no induced EMF, no eddy currents are generated, and therefore no braking force is applied. Thus, magnetic braking **only works when there is relative motion**.
+
+**Why the other options are incorrect:**
+*   **(B):** Magnetic braking is a "non-contact" force; it does not rely on physical surface friction.
+*   **(C):** Magnetic braking typically involves eddy currents in a conductor (like a metal disk), not just the static attraction between two permanent magnets.
+*   **(D):** The magnitude of the braking force is proportional to the velocity of the conductor ($F_{drag} \propto v$). As the speed decreases, the induced eddy currents decrease, and the braking force diminishes, making it very ineffective as the object approaches a stop.
+
+### QUESTION_TYPE
+Multiple choice

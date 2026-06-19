@@ -1,0 +1,31 @@
+To solve this problem, we use the principle of an ideal transformer. For an ideal transformer, the power input is equal to the power output ($P_p = P_s$), which implies:
+
+$$V_p I_p = V_s I_s$$
+
+Rearranging for the ratio of currents gives:
+$$\frac{I_s}{I_p} = \frac{V_p}{V_s}$$
+
+We also know the transformer turn ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Combining these, we get the relationship between current and turns:
+$$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$
+
+### Step-by-Step Solution:
+
+1.  **Find the gradient of the graph:** The gradient represents the ratio $\frac{I_s}{I_p}$.
+    Looking at the graph, when the primary current ($I_p$) is $3\text{ A}$, the secondary current ($I_s$) is $1.7\text{ A}$ (the line passes through the point $(3, 1.7)$).
+    $$\text{Gradient} = \frac{I_s}{I_p} = \frac{1.7}{3} \approx 0.5667$$
+
+2.  **Use the transformer turns ratio formula:**
+    $$\frac{N_p}{N_s} = 0.5667$$
+    Given $N_p = 580$ turns, we solve for $N_s$:
+    $$N_s = \frac{N_p}{0.5667} = \frac{580}{0.5667} \approx 1023.4$$
+
+3.  **Compare with the given options:**
+    The calculated value is approximately $1023$. Looking at the provided options, $1000$ (Option D) is the closest value.
+
+**Correct Option: D**
+
+###QUESTION_TYPE
+Multiple choice

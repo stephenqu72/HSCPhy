@@ -1,0 +1,33 @@
+As an HSC teacher, I recommend approaching this 9-mark extended response by structuring your answer around the specific physical principles that link spectral features to stellar characteristics.
+
+### How to solve this question:
+To achieve full marks, you must explicitly link the "production of the spectrum" (blackbody radiation and absorption lines) to each of the required variables. Use the following framework:
+
+1.  **Production of the spectrum:** Explain that the core of the star acts as a blackbody, producing a continuous spectrum. The cooler outer layers (photosphere) absorb specific wavelengths as photons pass through, creating an **absorption line spectrum**.
+2.  **Surface Temperature:** Link this to **Wien’s Displacement Law** ($\lambda_{max} = b / T$). A hotter star shifts the peak wavelength towards the blue/UV end of the spectrum, while a cooler star shifts it towards the red/IR.
+3.  **Chemical Composition:** State that each element has a unique set of electron energy levels. Absorption lines occur at specific frequencies corresponding to energy transitions ($E = hf$). By matching these lines to known laboratory spectra, we identify the chemical elements present.
+4.  **Density (Pressure):** Mention **pressure broadening**. Higher density in the stellar atmosphere causes more frequent atomic collisions, which shortens the lifetime of excited states, resulting in broader spectral lines.
+5.  **Velocity (Translational and Rotational):**
+    *   **Translational (Radial Velocity):** Explain the **Doppler Effect**. If a star moves away, lines redshift; if it moves toward us, they blueshift ($\Delta \lambda / \lambda \approx v / c$).
+    *   **Rotational Velocity:** Explain that rotation causes one side of the star to move toward us and the other away. This causes a differential Doppler shift that broadens the entire absorption line profile.
+
+---
+
+### Suggested Response Structure
+
+**Introduction:** 
+Briefly define a star’s spectrum as a continuous spectrum (from the hot core) overlaid with absorption lines (from the cooler outer atmosphere).
+
+**Body Paragraphs:**
+*   **Temperature:** Apply Wien's Law. Discuss how the continuous spectrum's peak intensity is used to determine temperature. Mention that ionization levels of elements (visible in line strength) also indicate temperature.
+*   **Composition:** Describe how absorption lines act as a "fingerprint." Atoms absorb photons of energy equal to the difference between energy levels, allowing for elemental identification via spectroscopy.
+*   **Density:** Discuss the effect of atmospheric pressure on line width. High-density/high-pressure atmospheres increase collision frequency, causing pressure broadening of spectral lines.
+*   **Velocity:** 
+    *   Explain Doppler shift for translational (radial) velocity, where the entire spectrum shifts due to the star’s motion relative to Earth.
+    *   Explain how rotation creates "rotational broadening," where the combined red and blue shifts from opposite sides of the rotating star smear the spectral lines.
+
+**Conclusion:** 
+Summarize that by decoding these specific features—the peak of the continuum, the specific location, width, and shift of absorption lines—astronomers can build a detailed physical profile of a star from light alone.
+
+###QUESTION_TYPE
+Essay

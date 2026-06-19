@@ -1,0 +1,44 @@
+To solve this problem, we use the principles of light diffraction through a grating.
+
+### (a) Determine the separation between the slits ($d$)
+
+The grating has $120 \text{ lines/cm}$. To find the slit separation $d$ in metres, we first convert the lines per unit length to lines per metre:
+$$120 \text{ lines/cm} = 12,000 \text{ lines/m}$$
+The separation $d$ is the reciprocal of the line density:
+$$d = \frac{1}{12,000} \text{ m} \approx 8.33 \times 10^{-5} \text{ m}$$
+
+---
+
+### (b) Determine the additional path difference for the 3rd order maximum
+
+The condition for constructive interference (maxima) in a diffraction grating is given by the formula:
+$$d \sin \theta = m\lambda$$
+The "path difference" refers to $d \sin \theta$. For the $m$-th order maximum, the path difference is simply $m\lambda$.
+For the 3rd order maximum ($m = 3$):
+$$\text{Path difference} = 3 \times \lambda$$
+Given $\lambda = 632 \text{ nm} = 632 \times 10^{-9} \text{ m}$:
+$$\text{Path difference} = 3 \times 632 \times 10^{-9} \text{ m} = 1.896 \times 10^{-6} \text{ m}$$
+
+---
+
+### (c) Determine the distance on the screen ($y$)
+
+We use the diffraction grating formula $d \sin \theta = m\lambda$.
+1. **Find $\sin \theta$:**
+   $$\sin \theta = \frac{m\lambda}{d} = \frac{3 \times 632 \times 10^{-9}}{8.333 \times 10^{-5}} \approx 0.02275$$
+2. **Find $\theta$:**
+   $$\theta = \arcsin(0.02275) \approx 1.304^\circ$$
+3. **Find $y$:**
+   Using the geometry of the setup where $\tan \theta = \frac{y}{L}$:
+   $$y = L \tan \theta = 5.00 \times \tan(1.304^\circ)$$
+   $$y \approx 5.00 \times 0.02275 \approx 0.1138 \text{ m} = 11.38 \text{ cm}$$
+
+*(Note: Since $\theta$ is very small, the small-angle approximation $\sin \theta \approx \tan \theta$ is valid, leading directly to $y = L \cdot \frac{m\lambda}{d}$).*
+
+### Summary of steps
+*   Convert units carefully (cm to m, nm to m).
+*   Identify that the path difference for a diffraction grating is $m\lambda$.
+*   Use the grating equation $d \sin \theta = m\lambda$ to find the angle, then use trigonometry ($y = L \tan \theta$) to find the screen position.
+
+###QUESTION_TYPE
+Calculation question

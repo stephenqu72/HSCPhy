@@ -1,0 +1,19 @@
+### Answer
+
+Electric motors reach a maximum operating speed because the driving torque produced by the motor eventually becomes equal to the opposing torque (friction and air resistance). 
+
+1. **Newton’s First and Second Laws:** According to Newton’s second law, $F_{net} = ma$ (or $\tau_{net} = I\alpha$ for rotation). As the motor speeds up, the constant driving torque provided by the electromagnetic forces remains relatively steady.
+2. **Opposing Forces:** As the angular velocity increases, resistive torques—primarily air resistance and mechanical friction—increase in magnitude. 
+3. **Equilibrium:** Eventually, the magnitude of the resistive torque equals the magnitude of the driving torque. At this point, the net torque is zero ($\tau_{net} = 0$), meaning the angular acceleration $\alpha$ is zero. According to Newton’s first law, the object will maintain a constant velocity, which is the motor’s maximum operating speed (terminal velocity).
+
+---
+
+### How to solve this
+To gain full marks for a 3-mark HSC question like this, you must explicitly link the physics principles (Newton's laws) to the specific behavior of the motor:
+
+*   **Step 1: Identify the driving force.** Acknowledge that the motor provides a constant driving torque due to the interaction between the magnetic field and the current-carrying coil.
+*   **Step 2: Connect to Newton's Second Law.** Explain that acceleration occurs when there is a net torque. Mention that resistive forces (friction/drag) are velocity-dependent and increase as the motor spins faster.
+*   **Step 3: Connect to Newton's First Law (or Equilibrium).** Explain that the maximum speed is reached when the system reaches dynamic equilibrium. When the resistive torque equals the driving torque, the net torque is zero, so the motor stops accelerating and continues at a constant speed.
+
+###QUESTION_TYPE
+Short answer

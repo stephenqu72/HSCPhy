@@ -1,0 +1,32 @@
+To find the magnetic flux through the coil, we use the formula for magnetic flux ($\Phi$):
+
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   Magnetic field strength ($B$): $20.0\text{ T}$
+    *   Dimensions of the coil: $2.0\text{ cm}$ and $5.0\text{ cm}$.
+    *   Area ($A$): $2.0\text{ cm} \times 5.0\text{ cm} = 10\text{ cm}^2$. 
+    *   Convert the area to SI units (square meters): $10\text{ cm}^2 = 10 \times (10^{-2}\text{ m})^2 = 10 \times 10^{-4}\text{ m}^2 = 1.0 \times 10^{-3}\text{ m}^2$.
+
+2.  **Determine the angle ($\theta$):**
+    The formula $\Phi = BA\cos(\theta)$ requires $\theta$ to be the angle between the **magnetic field** and the **normal to the plane of the coil**. 
+    *   The problem states the coil lies at $30^\circ$ to the magnetic field.
+    *   The angle between the plane and the normal is $90^\circ$.
+    *   Therefore, the angle $\theta$ between the magnetic field and the normal is $90^\circ - 30^\circ = 60^\circ$.
+
+3.  **Calculate the flux:**
+    $$\Phi = (20.0\text{ T}) \times (1.0 \times 10^{-3}\text{ m}^2) \times \cos(60^\circ)$$
+    $$\Phi = 20.0 \times 0.001 \times 0.5$$
+    $$\Phi = 0.01\text{ Wb}$$
+
+4.  **Convert to milliwebers (mWb):**
+    $0.01\text{ Wb} = 10\text{ mWb}$.
+
+Comparing this to the provided options, the correct choice is **(D)**. 
+
+*(Note: There is a typographical error in the unit for options A-D in the question image, as magnetic flux should be in Webers ($Wb$), not Watts ($W$). The numerical value $10\text{ mW}$ corresponds to the calculated $10\text{ mWb}$.)*
+
+###QUESTION_TYPE
+Multiple choice

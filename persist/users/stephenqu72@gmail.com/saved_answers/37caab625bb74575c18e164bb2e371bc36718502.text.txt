@@ -1,0 +1,42 @@
+To solve this problem, we use the principles of Young's Double Slit interference. First, let's identify our known variables and convert them into SI units:
+
+*   Wavelength ($\lambda$) = $589\text{ nm} = 589 \times 10^{-9}\text{ m}$
+*   Slit separation ($d$) = $0.100\text{ mm} = 1.00 \times 10^{-4}\text{ m}$
+*   Distance to screen ($L$) = $1.50\text{ m}$
+*   Order of maximum ($n$) = $1$
+
+### Part a) Determine the angle of the first-order maximum
+
+The condition for constructive interference (bright fringes) is given by the formula:
+$$d \sin(\theta) = n\lambda$$
+
+Rearranging for $\sin(\theta)$:
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\sin(\theta) = \frac{1 \times 589 \times 10^{-9}\text{ m}}{1.00 \times 10^{-4}\text{ m}}$$
+$$\sin(\theta) = 5.89 \times 10^{-3}$$
+
+Taking the inverse sine:
+$$\theta = \arcsin(5.89 \times 10^{-3}) \approx 0.337^\circ$$
+
+---
+
+### Part b) Determine the distance from the central bright maxima
+
+The distance $y$ on the screen for small angles can be found using the relationship $\tan(\theta) = \frac{y}{L}$, or more commonly via the small-angle approximation $\sin(\theta) \approx \tan(\theta) = \frac{y}{L}$.
+
+Using the small-angle approximation:
+$$y = L \tan(\theta) \approx L \sin(\theta)$$
+$$y = 1.50\text{ m} \times 5.89 \times 10^{-3}$$
+$$y = 0.008835\text{ m}$$
+
+Converting to millimeters:
+$$y \approx 8.84\text{ mm}$$
+
+**Summary of steps:**
+1. **Identify the formula:** Use $d \sin(\theta) = n\lambda$ for double-slit interference.
+2. **Convert units:** Always ensure $d$ and $\lambda$ are in meters.
+3. **Calculate angle:** Solve for $\theta$ using the inverse sine function.
+4. **Calculate distance:** Use trigonometry ($\tan(\theta) = y/L$) or the small-angle approximation ($y \approx L \cdot \sin(\theta)$) to find the position on the screen.
+
+###QUESTION_TYPE
+Calculation question

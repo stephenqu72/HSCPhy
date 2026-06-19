@@ -1,0 +1,27 @@
+To answer this question effectively, you must link the mechanical motion of the motor to the electrical principles of induction and circuit analysis.
+
+### Answer
+As a DC motor rotates, the armature coils cut through the magnetic field, inducing a back electromotive force (back EMF), denoted as $\varepsilon_{back}$. According to **Faraday's Law of Induction**, this induced EMF is proportional to the rate of change of magnetic flux, which in this case is directly proportional to the rotational speed of the rotor ($\omega$).
+
+The net voltage ($V_{net}$) across the rotor coils is given by the difference between the supply voltage ($V_{supply}$) and the back EMF:
+$$V_{net} = V_{supply} - \varepsilon_{back}$$
+
+According to **Ohm’s Law**, the current ($I$) flowing through the rotor coils is:
+$$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+where $R$ is the internal resistance of the coils. 
+
+As the motor approaches its maximum speed, the back EMF increases until it is almost equal to the supply voltage ($\varepsilon_{back} \approx V_{supply}$). Consequently, the net voltage across the coils approaches zero, causing the current drawn from the supply to approach zero. This is a manifestation of **Lenz's Law**, where the induced back EMF acts to oppose the change in flux (the rotation) that created it, effectively limiting the current to only what is necessary to overcome mechanical friction and maintain the maximum speed.
+
+### How to solve this
+To secure full marks (5/5) in an HSC-style response, follow this structure:
+
+1.  **Identify the phenomenon:** Explicitly name "back EMF."
+2.  **Apply Physics Laws:**
+    *   **Faraday’s Law:** Explain that motion through a magnetic field induces an EMF. 
+    *   **Lenz’s Law:** Note that the back EMF opposes the supply voltage.
+3.  **Use Mathematical Relationships:** State the equation $I = \frac{V - \varepsilon_{back}}{R}$. This is the strongest way to demonstrate the relationship between speed and current.
+4.  **Logical Chain:** Connect "increase in speed" $\rightarrow$ "increase in $\varepsilon_{back}$" $\rightarrow$ "decrease in $V_{net}$" $\rightarrow$ "decrease in current."
+5.  **Conclusion:** Mention that at constant maximum speed, the current is only sufficient to provide torque to counteract internal friction and load.
+
+###QUESTION_TYPE
+Short answer

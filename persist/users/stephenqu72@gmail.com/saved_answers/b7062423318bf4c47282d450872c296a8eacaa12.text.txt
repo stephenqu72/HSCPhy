@@ -1,0 +1,26 @@
+### Answer
+
+To generate torque in an AC induction motor, the following physical principles occur:
+
+1.  **Rotating Magnetic Field:** When a three-phase AC supply is connected to the stator windings, it creates a rotating magnetic field ($RMF$) that spins at a constant synchronous speed.
+2.  **Electromagnetic Induction:** This rotating magnetic field sweeps across the stationary conductive bars of the rotor. According to Faraday's Law, this changing magnetic flux induces an electromotive force ($EMF$) in the rotor bars.
+3.  **Induced Current:** Because the rotor bars form a closed circuit (often via end rings), the induced $EMF$ drives a current through the rotor.
+4.  **Lenz’s Law and Force:** The current-carrying rotor conductors now experience a force when placed within the stator's magnetic field, consistent with the Motor Effect ($F = BIL \sin \theta$). Lenz’s Law dictates that the direction of this induced current creates a magnetic field that opposes the change that caused it; thus, the rotor attempts to "catch up" to the rotating magnetic field to reduce the relative motion.
+5.  **Torque Generation:** This interaction between the stator’s magnetic field and the current induced in the rotor creates a mechanical torque, causing the rotor to spin in the same direction as the rotating magnetic field.
+
+---
+
+### How to solve this question
+
+To achieve full marks (5 marks) in an HSC Physics context, you must demonstrate a logical progression of cause and effect. Think of it as a chain reaction:
+
+*   **Mark 1:** Identify the role of the 3-phase supply in creating the Rotating Magnetic Field ($RMF$).
+*   **Mark 2:** Mention the induction process (Faraday's Law) where the $RMF$ cuts the rotor conductors.
+*   **Mark 3:** Explain the creation of an induced current in the rotor.
+*   **Mark 4:** Apply the Motor Effect ($F = BIL$) or Lenz's Law to explain the interaction between the field and the current.
+*   **Mark 5:** Explicitly state that this results in the production of torque and the rotation of the rotor.
+
+**Tip:** Always use physics terminology like "Faraday's Law," "Induced EMF," "Rotating Magnetic Field," and "Motor Effect" to ensure you hit the marking criteria for an "Explain" question.
+
+###QUESTION_TYPE
+Short answer

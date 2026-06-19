@@ -1,0 +1,29 @@
+Hello! As an HSC teacher, I can certainly help you break down this classic electromagnetism practical question. This scenario explores the fundamental principles behind the DC motor.
+
+### Explanation and Answers
+
+**(a) Explain and justify the sanding instruction.**
+The purpose of sanding only one side of the wire ends is to act as a **mechanical switch** (a commutator). 
+*   **Justification:** When current flows through the coil in the presence of a magnetic field, the motor effect creates a torque that rotates the coil. If current were allowed to flow continuously, the coil would rotate 180 degrees and then experience a torque in the opposite direction, causing it to oscillate back and forth. 
+*   **The Physics:** By sanding only one side, the circuit is "broken" for half of the rotation (when the insulated side touches the paperclip). During this time, no current flows, and the motor relies on **momentum** to complete the second half of the rotation. This ensures the torque is always applied in the same direction, allowing for continuous rotation.
+
+**(b) Identify which part of a DC motor works in the same way as the half-sanded wire section?**
+The **split-ring commutator**.
+
+**(c) Describe what will happen to this student’s coil when the power is turned on.**
+If both sides are sanded, the circuit remains closed throughout the entire 360-degree rotation.
+*   **Observation:** The coil will turn until it reaches the vertical position, at which point the torque reverses direction. The coil will simply **oscillate (or "flicker") back and forth** around the balance point rather than completing full rotations.
+
+**(d) Explain why the current was significantly higher for the student who sanded both sides.**
+This observation relates to **Back Electromotive Force (Back EMF)**.
+*   **The Physics:** As a motor spins, the moving coil through a magnetic field acts as a generator, inducing an EMF that opposes the supply voltage (Lenz’s Law). This induced voltage is called Back EMF ($V_{back}$).
+*   **Ohm’s Law application:** The net current in the motor is determined by the equation $I = \frac{V_{supply} - V_{back}}{R}$.
+*   **Reasoning:** Because the student’s motor could not maintain continuous, high-speed rotation, it failed to generate significant Back EMF. Without this opposing voltage to "choke" the current, the current remained high (limited only by the internal resistance of the wire and battery), whereas the successfully spinning motors generated Back EMF, which effectively reduced the net current in their circuits.
+
+### How to solve this type of question:
+1.  **Identify the underlying concept:** Always look for the "DC motor principle." Remember that motors rely on the *Motor Effect* ($F = BIL\sin\theta$) and the *Commutator* is essential for continuous rotation.
+2.  **Relate to components:** In simple physics models, always map the experimental parts to real-world engineering components (e.g., sanded wire = split-ring commutator).
+3.  **Think about energy/laws:** When asked about current or speed, always consider **Lenz's Law** and **Back EMF**. Back EMF is a high-yield concept in HSC Physics that explains why motors draw less current when spinning freely at high speeds.
+
+###QUESTION_TYPE
+Short answer

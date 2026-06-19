@@ -1,0 +1,38 @@
+### Solution and Explanation
+
+#### Part (a)
+To solve this, we must relate the average induced emf to the rate of change of magnetic flux. 
+
+**1. Identify given values:**
+*   Area $A = 0.20\text{ m} \times 0.40\text{ m} = 0.08\text{ m}^2$
+*   Magnetic field $B = 0.050\text{ T}$
+*   Frequency $f = 5\text{ rev/s}$
+*   Average emf $\varepsilon_{avg} = 4.0\text{ V}$
+
+**2. Formula for average emf:**
+For a rotating coil in a magnetic field, the average emf over a quarter cycle (from zero flux to maximum flux) is given by:
+$$\varepsilon_{avg} = \frac{\Delta \Phi}{\Delta t} = \frac{n \times B \times A}{\Delta t}$$
+Since the coil rotates at $5\text{ rev/s}$, the time for one full revolution $T$ is $1/5 = 0.2\text{ s}$. A quarter cycle takes $\Delta t = \frac{T}{4} = 0.05\text{ s}$.
+
+**3. Calculation:**
+$$4.0 = \frac{n \times 0.050 \times 0.08}{0.05}$$
+$$4.0 = n \times 0.08$$
+$$n = \frac{4.0}{0.08} = 50$$
+
+**Answer:** The coil has **50 turns**.
+
+***
+
+#### Part (b)
+Replacing the slip rings with a split-ring commutator converts the AC generator into a DC generator.
+
+**Explanation of the change:**
+*   **Mechanism:** As the coil rotates, the split-ring commutator reverses the connection to the external circuit every half-turn (at the point where the emf is zero). 
+*   **Result:** This ensures that the current flows in the same direction through the external circuit at all times. 
+*   **Graph:** The output changes from a sinusoidal wave (oscillating between positive and negative) to a "pulsating DC" output (a series of positive-only humps).
+
+**Diagram Description:**
+The output graph should show a series of semi-circular positive pulses on the voltage-time axes, never crossing the time axis into the negative region.
+
+###QUESTION_TYPE
+Calculation question

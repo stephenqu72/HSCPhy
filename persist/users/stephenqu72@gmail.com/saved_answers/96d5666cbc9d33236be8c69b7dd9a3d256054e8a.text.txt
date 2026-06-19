@@ -1,0 +1,22 @@
+To solve this problem, we apply **Lenz’s Law** and the principle of **electromagnetic induction** (Faraday's Law).
+
+### Explanation
+
+Faraday’s Law states that an electromotive force (EMF) is induced in a circuit whenever the magnetic flux through the loop changes. Lenz’s Law states that the direction of this induced current will be such that it creates a magnetic field to oppose the change in flux.
+
+*   **Position 1 (Entering the field):** The loop is moving from a region of zero magnetic field into a region with a magnetic field directed "out of the page." As the loop enters, the **outward magnetic flux is increasing**. To oppose this increase, the loop must generate its own magnetic field directed "into the page." According to the right-hand grip rule, a current flowing **clockwise** produces a magnetic field directed into the page.
+*   **Position 2 (Completely inside the field):** The loop is moving through a uniform magnetic field. Because the magnetic field is uniform and the loop is entirely within it, the total magnetic flux through the loop remains constant. Since $\Delta \Phi = 0$, there is **zero** induced EMF and therefore **zero** current.
+*   **Position 3 (Exiting the field):** The loop is moving out of the region with the magnetic field. The outward magnetic flux through the loop is decreasing. To oppose this decrease, the loop must generate its own magnetic field directed "out of the page" to try and maintain the flux. According to the right-hand grip rule, a current flowing **anti-clockwise** produces a magnetic field directed out of the page.
+
+Comparing these results to the options provided:
+*   Position 1: Clockwise
+*   Position 2: Zero
+*   Position 3: Anti-clockwise
+
+This corresponds to **Option C**.
+
+### Answer
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

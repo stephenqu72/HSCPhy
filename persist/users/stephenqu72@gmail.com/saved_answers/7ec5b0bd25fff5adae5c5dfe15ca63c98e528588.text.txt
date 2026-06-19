@@ -1,0 +1,26 @@
+To solve this problem, we use the transformer turns ratio formula, which relates the number of turns in the primary and secondary coils to their respective voltages.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given variables:**
+    *   Number of turns in the primary coil ($N_p$) = $2000$
+    *   Number of turns in the secondary coil ($N_s$) = $60$
+    *   Primary voltage ($V_p$) = $240\text{ V}$
+    *   Secondary voltage ($V_s$) = $?$
+
+2.  **Recall the transformer equation:**
+    The relationship between voltage and the number of turns is given by the formula:
+    $$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+3.  **Rearrange the formula to solve for $V_s$:**
+    $$V_s = V_p \times \left( \frac{N_s}{N_p} \right)$$
+
+4.  **Substitute the values into the equation:**
+    $$V_s = 240\text{ V} \times \left( \frac{60}{2000} \right)$$
+    $$V_s = 240 \times 0.03$$
+    $$V_s = 7.2\text{ V}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

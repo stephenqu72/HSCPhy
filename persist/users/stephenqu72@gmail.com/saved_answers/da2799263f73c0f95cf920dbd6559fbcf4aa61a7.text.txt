@@ -1,0 +1,34 @@
+### Answer
+
+**Part (a)**
+A bright fringe is formed at point $P$ due to the constructive interference of light waves originating from slits $S_1$ and $S_2$. Because the distance from $S_2$ to $P$ is greater than the distance from $S_1$ to $P$, the two waves arrive at $P$ with a path difference equal to an integer multiple of the wavelength ($n\lambda$). When the waves are in phase (phase difference is zero or a multiple of $2\pi$), they superpose constructively, resulting in an increase in amplitude and intensity at that point.
+
+**Part (b)**
+To calculate the wavelength, we use the Young's Double Slit interference formula:
+$$\Delta x = \frac{\lambda L}{d}$$
+Where:
+- $\Delta x = 1.26 \times 10^{-2} \text{ m}$ (the distance to the fringe)
+- $L = 2.00 \text{ m}$ (distance to screen)
+- $d = 4.0 \times 10^{-4} \text{ m}$ (slit separation)
+
+*Self-correction/Refinement:* By observing Figure 11b, point $P$ is the 6th bright fringe from the center (counting the fringes: 1, 2, 3, 4, 5, 6). Thus, $n=6$.
+The formula is $d \sin(\theta) = n\lambda$, or using the small angle approximation, $d \frac{\Delta x}{L} = n\lambda$.
+
+$$\lambda = \frac{d \cdot \Delta x}{n \cdot L}$$
+$$\lambda = \frac{(4.0 \times 10^{-4} \text{ m}) \times (1.26 \times 10^{-2} \text{ m})}{6 \times 2.00 \text{ m}}$$
+$$\lambda = \frac{5.04 \times 10^{-6}}{12}$$
+$$\lambda = 4.2 \times 10^{-7} \text{ m}$$
+The wavelength is $420 \text{ nm}$.
+
+---
+
+### How to solve this type of problem
+
+1.  **Understand the Physics:** Recognize that double-slit interference relies on the superposition principle. A bright fringe always requires constructive interference, which occurs when the path difference $\delta = S_2P - S_1P = n\lambda$ for $n = 0, 1, 2, \dots$.
+2.  **Analyze the Diagram:** 
+    *   Always check if the point $P$ is the *first* bright fringe or a higher order ($n > 1$). Counting the fringes in Figure 11b clearly shows $P$ is the 6th bright fringe ($n=6$).
+    *   Identify your variables: $d$ (slit separation), $L$ (slit-to-screen distance), and $y$ (distance from central maximum).
+3.  **Apply the formula:** Use the standard approximation formula $\lambda = \frac{yd}{nL}$. Ensure all units are in SI (meters) before calculating.
+
+###QUESTION_TYPE
+Calculation question

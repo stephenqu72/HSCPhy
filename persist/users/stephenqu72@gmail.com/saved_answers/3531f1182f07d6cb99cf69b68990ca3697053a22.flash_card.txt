@@ -1,0 +1,8 @@
+### Front
+Does the launch angle of a projectile affect its final impact speed when thrown from a height $h$ with initial speed $v$ (neglecting air resistance)?
+
+### Back
+- Key idea: No; final speed depends only on the initial vertical height and initial speed, not the direction.
+- Formula / law / constant / figure: Conservation of Mechanical Energy: $v_f = \sqrt{2gh + v^2}$
+- When to use it: Comparing impact speeds or calculating velocity at a specific height without needing time or components.
+- Common trap: Assuming that a steeper launch angle results in a higher final speed.

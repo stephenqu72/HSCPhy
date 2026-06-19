@@ -1,0 +1,18 @@
+The correct answer is **(D) diffraction**.
+
+### Explanation
+To solve this question, we must recognize the physical characteristics of the light pattern shown:
+
+1.  **Observation:** The image displays a central bright fringe that is significantly wider and more intense than the secondary fringes flanking it. This alternating pattern of bright and dark regions produced by a single light source passing through a narrow aperture is the characteristic signature of **diffraction**.
+2.  **Definition:** Diffraction is the bending of waves around the corners of an obstacle or through an aperture into the region of geometrical shadow. When monochromatic light (like a laser) passes through a single slit of width $a$ comparable to the wavelength $\lambda$ of the light, the waves interfere with one another (Huygens' Principle), resulting in a diffraction pattern defined by the intensity distribution.
+3.  **Process of Elimination:**
+    *   **(A) Refraction:** This is the bending of light as it passes from one medium to another due to a change in speed. It does not produce a series of fringes from a single slit.
+    *   **(B) Reflection:** This is the bouncing of light off a surface. It does not produce this fringe pattern.
+    *   **(C) Polarisation:** This relates to the orientation of the oscillations of the light wave. While light can be polarised, this does not create a fringe pattern when passing through a single slit.
+
+The condition for destructive interference (dark fringes) in a single-slit diffraction pattern is given by:
+$$a \sin(\theta) = n\lambda$$
+where $n = 1, 2, 3, ...$ (excluding $n=0$, which is the central maximum).
+
+###QUESTION_TYPE
+Multiple choice

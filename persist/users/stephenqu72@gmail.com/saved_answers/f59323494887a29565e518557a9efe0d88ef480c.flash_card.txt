@@ -1,0 +1,8 @@
+### Front
+How is the aberration angle ($\theta$) related to Earth's orbital velocity ($v_E$) and the speed of light ($c$)?
+
+### Back
+- **Key idea:** Aberration of starlight due to the observer's motion relative to the light source.
+- **Formula / law / constant / figure:** $\tan(\theta) \approx \theta = \frac{v_E}{c}$ (where $\theta$ is in radians).
+- **When to use it:** To calculate the speed of light or orbital velocity using the observed shift in apparent stellar position.
+- **Common trap:** Failing to convert the angle from arcseconds/degrees into **radians** before using the small-angle approximation ($\tan\theta \approx \theta$).

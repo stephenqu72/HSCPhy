@@ -1,0 +1,8 @@
+### Front
+How do you calculate final velocity ($v_f$) when an object with an initial velocity ($v_i$) falls from a height ($h$)?
+
+### Back
+- Key idea: Conservation of Mechanical Energy ($\text{KE}_{\text{initial}} + \text{GPE}_{\text{initial}} = \text{KE}_{\text{final}}$).
+- Formula / law / constant / figure: $v_f = \sqrt{v_i^2 + 2gh}$
+- When to use it: When calculating speed changes due to gravity or springs in an isolated system (ignoring air resistance/friction).
+- Common trap: Neglecting the initial kinetic energy ($\frac{1}{2}mv_i^2$) if the object was already in motion.

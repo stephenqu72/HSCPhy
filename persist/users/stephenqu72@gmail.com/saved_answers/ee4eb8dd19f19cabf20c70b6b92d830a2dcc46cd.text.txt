@@ -1,0 +1,35 @@
+To solve this problem, we use the transformer ratio formula, which relates the voltages and the number of turns in the primary and secondary coils:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Where:
+- $V_p$ = input (primary) voltage = $230\text{V}$
+- $V_s$ = output (secondary) voltage = $6\text{V}$
+- $N_p$ = number of turns in the primary coil
+- $N_s$ = number of turns in the secondary coil
+
+**1. Calculate the required ratio:**
+$$\frac{N_p}{N_s} = \frac{230}{6}$$
+
+Simplify the fraction by dividing both numbers by 2:
+$$\frac{N_p}{N_s} = \frac{115}{3} \approx 38.33$$
+
+This means for every $115$ turns in the primary coil, there must be $3$ turns in the secondary coil.
+
+**2. Evaluate the options:**
+We are looking for an option where $\frac{N_p}{N_s} = \frac{115}{3} \approx 38.33$.
+
+*   **A)** $\frac{690}{12} = 57.5$ (Incorrect)
+*   **B)** $\frac{12}{690} \approx 0.017$ (Incorrect)
+*   **C)** $\frac{2760}{72}$
+    To simplify this: $2760 \div 72 = 38.33...$
+    Alternatively, check the ratio: $\frac{2760}{72} = \frac{115 \times 24}{3 \times 24} = \frac{115}{3}$ (Correct)
+*   **D)** $\frac{72}{2760} \approx 0.026$ (Incorrect)
+
+**Conclusion:**
+Option C provides the correct ratio of turns to transform $230\text{V}$ down to $6\text{V}$.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

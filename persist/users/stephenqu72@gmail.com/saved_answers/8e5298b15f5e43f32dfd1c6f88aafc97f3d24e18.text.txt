@@ -1,0 +1,27 @@
+### Part (a)
+**Answer:**
+After one-quarter of a revolution, both stars move into a position where their orbital motion is perpendicular to the line of sight (they are at the "top" and "bottom" of their orbits relative to Earth). Consequently, their radial velocity relative to Earth becomes zero. The spectral lines will shift back to their "rest" positions (the central unshifted position). Both lines should be drawn at the same central position on the spectrum.
+
+**Explanation:**
+1. **Analyze the motion:** In the initial position, Star A is moving directly away from Earth (redshifted, moving to higher wavelength) and Star B is moving directly towards Earth (blueshifted, moving to lower wavelength). 
+2. **One-quarter revolution:** Rotate the stars 90 degrees. Their velocity vectors are now directed tangent to their circular orbits, which is perpendicular to the line of sight to Earth.
+3. **Doppler Effect:** The Doppler shift only depends on the *radial* velocity (velocity along the line of sight). Since the radial velocity is zero at this point, there is no Doppler shift. Therefore, both spectral lines return to their original, rest-wavelength position.
+
+---
+
+### Part (b)
+**i) Determine the temperature:**
+To find the temperature, we use Wien’s Displacement Law. First, identify the peak frequency $f_{peak}$ from the graph, which is approximately $1.6 \times 10^{11} \text{ Hz}$.
+We use the relationship for peak frequency:
+$$f_{peak} \approx 5.88 \times 10^{10} \times T$$
+$$T = \frac{1.6 \times 10^{11}}{5.88 \times 10^{10}} \approx 2.7 \text{ K}$$
+(Alternatively, using Wien's Law $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$ where $c = \lambda f$):
+$$T \approx 2.7 - 3.0 \text{ K}$$
+
+**ii) Significance:**
+The cosmic microwave background (CMB) radiation is considered the "afterglow" of the Big Bang. It provides strong evidence for the Big Bang theory because:
+1. It represents the thermal radiation left over from the time of recombination (when the universe cooled enough for neutral atoms to form).
+2. It confirms the universe was once in a hot, dense state and has been expanding and cooling ever since, resulting in a nearly uniform blackbody spectrum across the sky.
+
+###QUESTION_TYPE
+Data analysis questions

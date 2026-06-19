@@ -1,0 +1,27 @@
+To solve this problem, we apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Faraday’s Law** states that an electromotive force (EMF) is induced in a circuit whenever there is a change in the magnetic flux through the area bounded by the circuit.
+2.  **Lenz’s Law** states that the direction of the induced current is such that it opposes the change in magnetic flux that produced it.
+
+**Analyzing each situation:**
+
+*   **Galvanometer X (Magnet moves away from the coil):**
+    As the magnet moves away, the magnetic flux through coil $X$ decreases. To oppose this decrease, the coil will induce a magnetic field to "attract" the receding pole. Based on the right-hand grip rule, this results in a deflection in a specific direction (represented as the arrow to the left $\swarrow$ in this diagram's conventions).
+
+*   **Galvanometer Y (Magnet is completely inside the coil):**
+    When the magnet is moving through the center of the coil at a constant speed, the total magnetic flux linking the coil remains essentially constant (as the lines of flux entering the front of the coil are balanced by those exiting the back). Because the change in flux ($\Delta\Phi = 0$), there is no induced EMF. Therefore, the galvanometer will show no deflection (represented by the vertical arrow $\uparrow$).
+
+*   **Galvanometer Z (Magnet moves towards the coil):**
+    As the North pole of the magnet moves towards coil $Z$, the magnetic flux through the coil increases. According to Lenz's Law, the coil will produce an induced magnetic field to oppose this approach by creating a North pole on the side facing the magnet. This induces a current that causes the needle to deflect in the opposite direction to the "moving away" case (represented by the arrow to the right $\nearrow$).
+
+**Conclusion:**
+*   $X$: Deflection ($\swarrow$)
+*   $Y$: No deflection ($\uparrow$)
+*   $Z$: Deflection ($\nearrow$)
+
+Comparing this to the options, **Option C** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

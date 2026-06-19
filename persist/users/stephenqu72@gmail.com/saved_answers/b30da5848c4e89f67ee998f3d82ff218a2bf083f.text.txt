@@ -1,0 +1,27 @@
+To determine the correct answer, we must refer to the diffraction grating equation:
+
+$$d \sin(\theta) = n\lambda$$
+
+Where:
+- $d$ is the distance between the slits (grating spacing).
+- $\theta$ is the angle of diffraction for the $n$-th order maximum.
+- $n$ is the order of the maximum.
+- $\lambda$ is the wavelength of the light.
+
+The "separation of the maxima" on the screen is determined by the angle $\theta$. For small angles (which is often the case in these problems), we can approximate $\sin(\theta) \approx \tan(\theta) \approx \frac{y}{L}$, where $y$ is the linear distance from the central maximum and $L$ is the distance to the screen. Substituting this into the diffraction equation gives:
+
+$$y \approx \frac{n \lambda L}{d}$$
+
+### Analysis of the options:
+*   **(A) Using light with a longer wavelength:** If $\lambda$ increases, $y$ increases. The separation increases. Incorrect.
+*   **(B) Using a grating with a greater slit separation:** If $d$ increases, $y$ decreases because $d$ is in the denominator. This makes the maxima appear closer together. **Correct.**
+*   **(C) Not using monochromatic light:** This would cause the maxima to smear into spectra because different wavelengths diffract at different angles, not specifically decreasing the separation of the set pattern. Incorrect.
+*   **(D) Increasing the distance between the screen and grating:** If $L$ increases, $y$ increases. The separation increases. Incorrect.
+
+**Conclusion:** 
+To decrease the separation of the maxima, we need to increase the value of $d$ (the slit separation).
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

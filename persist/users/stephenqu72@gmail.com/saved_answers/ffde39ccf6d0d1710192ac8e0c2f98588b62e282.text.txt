@@ -1,0 +1,21 @@
+### Answer
+
+**(a)** If connected to an AC supply, the motor would experience a rapid reversal of torque. Because an AC supply continuously changes direction, the current through the coil would reverse polarity. While the split-ring commutator normally reverses the current to keep the motor spinning in one direction, the combination of AC input and the commutator results in the motor "stuttering" or failing to rotate consistently. It will not operate as a functional DC motor and would likely vibrate due to the rapid fluctuations in magnetic force.
+
+**(b)** To turn this DC motor into an AC motor (specifically an induction or synchronous-type arrangement), the **split-ring commutator must be replaced with slip rings**. Slip rings maintain a continuous connection between the coil and the external circuit without reversing the current direction relative to the coil. This allows the motor to rotate in sync with the alternating frequency of the AC power supply.
+
+**(c)** Starting at $90^{\circ}$ (vertical position where the plane of the coil is parallel to the magnetic field lines), the magnetic flux linkage is at its minimum, but the rate of change of flux is at its maximum. Therefore, the induced EMF starts at its **maximum value**. As the coil rotates through three full turns at a constant speed, the oscilloscope would show **three complete cycles of a sine wave**. The wave would begin at its peak amplitude, pass through zero at $180^{\circ}$ rotation, reach a negative peak, and return to the starting positive peak for each full rotation.
+
+---
+
+### Explanation and Strategy
+
+1.  **Part (a):** Understand the function of the split-ring commutator. Its purpose is to reverse the current every half-turn to maintain a constant torque direction in a DC motor. If the input is already alternating (AC), the commutator will attempt to "flip" the polarity at the same time the input flips, often cancelling the intended rotation.
+2.  **Part (b):** Differentiate between DC and AC motor components. A DC motor requires a commutator to reverse current polarity relative to the stator. An AC motor (in its simplest form) requires slip rings to allow the current to flow naturally with the AC supply.
+3.  **Part (c):** Use Faraday's Law and Lenz's Law concepts. The induced EMF $\varepsilon$ is proportional to the rate of change of magnetic flux $\Phi$.
+    *   Flux is maximum when the coil is perpendicular to the field lines ($\text{position shown in diagram}$, $0^\circ$).
+    *   Flux is zero when the coil is parallel to the field lines ($90^\circ$).
+    *   The induced EMF follows a sinusoidal path, $\varepsilon = -N \frac{d\Phi}{dt}$. Since $\Phi = BA \cos(\theta)$, the derivative is $\sin(\theta)$. Starting at $90^\circ$ corresponds to the peak of a sine/cosine wave.
+
+### QUESTION_TYPE
+Short answer

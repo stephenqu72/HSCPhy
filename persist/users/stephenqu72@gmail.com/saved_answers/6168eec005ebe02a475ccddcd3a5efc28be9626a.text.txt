@@ -1,0 +1,22 @@
+### Answer
+The vital component missing in this simple motor is the **split-ring commutator**.
+
+**Function of the commutator:**
+In a standard manufactured DC motor, the split-ring commutator reverses the direction of the current through the coil every half-turn (every $180^\circ$). This ensures that the torque exerted on the coil remains in the same rotational direction, allowing the motor to spin continuously.
+
+**Why this student motor works without it:**
+This motor uses a "half-stripped" wire technique as a substitute. By removing the insulation from only half of the wire's circumference at one end of the coil, the electrical contact with the safety pin (the brush) is broken for the second half of the rotation. During this "off" phase, there is no current, and thus no magnetic force; however, the coil continues to rotate due to its **inertia**. When the contact is re-established after the half-turn, the current flows again, and the magnetic force pushes the coil in the same direction, maintaining continuous rotation without needing a mechanical split-ring.
+
+---
+
+### How to solve this question
+To score full marks on a 4-mark HSC physics question like this, you must structure your response to address the three distinct parts of the prompt:
+
+1.  **Identification (1 mark):** State clearly that the missing component is the "split-ring commutator."
+2.  **Function (1 mark):** Explain the purpose of the component in a real motor—specifically, the reversal of current to ensure the force (torque) consistently acts in the same direction.
+3.  **Explanation (2 marks):** Explain the "how" and "why" of the student's design. Focus on:
+    *   The **intermittent contact**: Explain that the stripped insulation acts as a switch.
+    *   **Inertia**: Explicitly mention that inertia allows the coil to coast through the half-turn where the current is disconnected, preventing the motor from reversing direction or stalling.
+
+### QUESTION_TYPE
+Short answer

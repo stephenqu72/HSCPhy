@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(B) back EMF.**
+
+### Explanation
+To understand why the motor reaches a "maximum no-load speed," we must look at the physics of how a DC motor operates:
+
+1.  **The Driving Force:** A motor rotates because a current $I$ flows through a coil in a magnetic field, creating a torque $\tau = nIAB \sin \theta$.
+2.  **Back EMF ($\varepsilon$):** As the coil rotates within the magnetic field, it experiences a changing magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an electromotive force (EMF) that opposes the supply voltage $V$. This is known as **back EMF**, and it is directly proportional to the rotational speed ($\omega$) of the motor:
+    $$\varepsilon \propto \omega$$
+3.  **Net Current:** The net voltage driving current through the armature resistance $R$ is $(V - \varepsilon)$. Thus, the current $I$ is given by:
+    $$I = \frac{V - \varepsilon}{R}$$
+4.  **The Equilibrium:** As the motor speeds up, the back EMF increases. As $\varepsilon$ increases, the net current $I$ decreases. Because torque is proportional to current ($\tau \propto I$), the torque produced by the motor decreases as speed increases (as shown by the downward slope of your graph).
+5.  **Maximum Speed:** The motor reaches its "maximum no-load speed" when the torque produced by the motor drops to zero (the point where the line hits the horizontal axis). This occurs when the back EMF $\varepsilon$ becomes equal to the supply voltage $V$. At this point, the net current is zero, and the motor can no longer accelerate.
+
+Therefore, it is the generation of **back EMF** that provides the self-regulating mechanism that limits the maximum speed of a DC motor.
+
+### QUESTION_TYPE
+Multiple choice

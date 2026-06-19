@@ -1,0 +1,36 @@
+To solve this problem, we need to convert the wavelength of the light into its corresponding frequency using the wave equation.
+
+### Step-by-Step Explanation:
+
+**1. Identify the wavelength ($\lambda$) from the diagram:**
+Looking at the spectrum, the arrow points exactly to the line at $650\text{ nm}$.
+Convert this value into standard SI units (metres):
+$$\lambda = 650\text{ nm} = 650 \times 10^{-9}\text{ m} = 6.5 \times 10^{-7}\text{ m}$$
+
+**2. State the wave equation:**
+The relationship between the speed of light ($c$), frequency ($f$), and wavelength ($\lambda$) is given by:
+$$c = f \lambda$$
+Where $c \approx 3.00 \times 10^8\text{ m/s}$.
+
+**3. Rearrange to solve for frequency ($f$):**
+$$f = \frac{c}{\lambda}$$
+
+**4. Substitute the known values:**
+$$f = \frac{3.00 \times 10^8\text{ m/s}}{6.5 \times 10^{-7}\text{ m}}$$
+
+**5. Perform the calculation:**
+$$f \approx 0.4615 \times 10^{15}\text{ Hz}$$
+To express this in standard scientific notation ($a \times 10^n$):
+$$f \approx 4.6 \times 10^{14}\text{ Hz}$$
+
+**Conclusion:**
+Comparing this result to the given options:
+A. $6.5 \times 10^2\text{ Hz}$
+B. $4.6 \times 10^{14}\text{ Hz}$
+C. $6.5 \times 10^{14}\text{ Hz}$
+D. $4.6 \times 10^{16}\text{ Hz}$
+
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

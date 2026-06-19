@@ -1,0 +1,40 @@
+This is a classic Young’s Double Slit experiment problem. Here are the solutions and the pedagogical breakdown.
+
+### Answers and Explanations
+
+**(a) Diffraction and its role**
+*   **Definition:** Diffraction is the spreading out of waves as they pass through an aperture or around an obstacle.
+*   **Significance:** Diffraction is essential because it allows the light from the two individual slits to spread out and overlap on the screen. Without diffraction, the light would continue in straight lines, and there would be no overlap to create the constructive and destructive interference required for an interference pattern.
+
+**(b) Why there is a bright fringe at M**
+*   Point M is the central point of the interference pattern. Light reaching M from $S_1$ and $S_2$ travels an identical distance (zero path difference). Because the path difference is zero, the waves arrive in phase, resulting in constructive interference, which produces a bright central maximum.
+
+**(c) Calculate the angle $\theta$ for point P**
+To solve this, we use the formula for constructive interference (bright fringes) in a double-slit experiment:
+$$d \sin(\theta) = m\lambda$$
+
+**1. Identify given variables:**
+*   $d$ (slit separation) $= 0.2 \text{ mm} = 0.2 \times 10^{-3} \text{ m}$
+*   $\lambda$ (wavelength) $= 532 \text{ nm} = 532 \times 10^{-9} \text{ m}$
+*   $m$ (order of the fringe) $= 2$ (as it is the second bright band from the center)
+
+**2. Rearrange the formula:**
+$$\sin(\theta) = \frac{m\lambda}{d}$$
+
+**3. Substitute the values:**
+$$\sin(\theta) = \frac{2 \times 532 \times 10^{-9}}{0.2 \times 10^{-3}}$$
+$$\sin(\theta) = \frac{1064 \times 10^{-9}}{0.2 \times 10^{-3}}$$
+$$\sin(\theta) = 0.00532$$
+
+**4. Solve for $\theta$:**
+$$\theta = \arcsin(0.00532) \approx 0.3048^\circ$$
+
+The angle is approximately **$0.305^\circ$**.
+
+---
+
+### Teacher's Tip for HSC Physics:
+When dealing with wave interference problems, always check your units first. Converting millimeters ($10^{-3}$) and nanometers ($10^{-9}$) into standard SI meters is the most common place where students lose marks due to calculation errors.
+
+###QUESTION_TYPE
+Calculation question

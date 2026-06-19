@@ -1,0 +1,29 @@
+To solve this problem, we must analyze the motion of a falling magnet through different materials based on the provided displacement-time graph.
+
+### (a) Find the lengths of each section in the cylindrical pipe.
+
+The graph shows three distinct regions of motion corresponding to the three materials. We determine the length of each section by observing the vertical displacement ($\Delta h$) during the time the magnet passes through each specific material.
+
+1.  **Section 1:** From $t = 0$ to $t \approx 0.5$ s, the magnet drops from $h = 8$ m to $h = 6.8$ m. 
+    Length = $8.0 - 6.8 = 1.2$ m.
+2.  **Section 2:** From $t \approx 0.5$ s to $t \approx 2.1$ s, the magnet falls slowly from $h = 6.8$ m to $h = 6.4$ m. 
+    Length = $6.8 - 6.4 = 0.4$ m.
+3.  **Section 3:** From $t \approx 2.1$ s to $t \approx 4.5$ s, the magnet falls from $h = 6.4$ m to $h = 0$ m. 
+    Length = $6.4 - 0 = 6.4$ m.
+
+**Summary:** The lengths are $1.2$ m, $0.4$ m, and $6.4$ m.
+
+---
+
+### (b) Explain and compare the motion of the magnet with respect to the law of conservation of energy.
+
+The motion is governed by Lenz's Law and the Law of Conservation of Energy:
+
+*   **Wood (Section 1 and 3):** Wood is an insulator. There are no induced eddy currents, so there is no magnetic braking. The magnet undergoes free-fall (or near free-fall). The gravitational potential energy is converted entirely into kinetic energy ($GPE \rightarrow KE$). The steep slope on the graph indicates high acceleration.
+*   **Copper (Section 2):** Copper is a highly conductive metal. As the magnet falls, the changing magnetic flux induces large eddy currents in the pipe wall (Faraday’s Law). By Lenz's Law, these currents create a magnetic field that opposes the motion of the magnet, exerting an upward magnetic force. This converts gravitational potential energy into both kinetic energy and thermal energy ($GPE \rightarrow KE + \text{Heat}$). The shallow slope shows the magnet is significantly slowed (terminal velocity).
+*   **Aluminium (Section 1 or 3):** Aluminium is conductive but has higher resistivity than copper. Similar to the copper section, eddy currents are induced, but they are weaker. The magnet experiences braking, but less than in copper. $GPE \rightarrow KE + \text{Heat}$.
+
+**Comparison:** The magnet falls fastest through wood (no energy loss), moderately through aluminium (moderate energy loss to heat), and slowest through copper (highest energy loss to heat due to lower electrical resistivity).
+
+###QUESTION_TYPE
+Data analysis questions

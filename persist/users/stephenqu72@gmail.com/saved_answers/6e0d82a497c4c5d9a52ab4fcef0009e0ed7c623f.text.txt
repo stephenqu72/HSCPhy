@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### (a) Direction of rotation
+To find the direction of rotation, apply the **Right-Hand Motor Rule** (or Fleming’s Left-Hand Rule). With the magnetic field lines pointing from North ($N$) to South ($S$), and the current flowing into the back side of the coil (away from the viewer), the force on the back wire is directed upwards, and the force on the front wire is directed downwards.
+**Result:** The coil will rotate in a **clockwise** direction when viewed from the front.
+
+#### (b) Changes in current from startup
+This question assesses your understanding of **Back EMF**.
+*   **Startup:** At the moment the motor is switched on, the coil is stationary, so there is no Back EMF. The current is at its maximum, limited only by the resistance of the coil ($I = V/R$).
+*   **Acceleration:** As the motor gains speed, the rotating coil experiences a changing magnetic flux, which induces an EMF (Back EMF) that opposes the supply voltage, according to Lenz's Law.
+*   **Constant speed:** As the speed increases, the Back EMF increases. The effective voltage driving the current becomes $(V_{supply} - \epsilon_{back})$. Therefore, as the motor accelerates, the current **decreases** until it reaches a constant, smaller value when the motor reaches a steady speed (where the motor torque balances the load torque).
+
+#### (c) Torque calculation
+The formula for torque on a current-carrying coil in a magnetic field is:
+$$\tau = nIAB \cos(\theta)$$
+where:
+*   $n = 300$ (number of turns)
+*   $I = 10\text{ A}$ (current)
+*   $A = 0.25\text{ m} \times 0.25\text{ m} = 0.0625\text{ m}^2$ (area of the square coil)
+*   $B = 1.2\text{ T}$ (magnetic field strength)
+*   $\theta = 38^\circ$ (angle between the plane of the coil and the horizontal, which corresponds to the angle between the normal to the coil and the magnetic field lines in this orientation).
+
+**Calculation:**
+$$\tau = 300 \times 10 \times 0.0625 \times 1.2 \times \cos(38^\circ)$$
+$$\tau = 225 \times 0.78801...$$
+$$\tau \approx 177.30\text{ Nm}$$
+
+###QUESTION_TYPE
+Calculation question

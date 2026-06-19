@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+**Correct Answer: (A)**
+
+**Explanation:**
+This experiment demonstrates the fundamental operating principle of an **induction motor**. Here is the step-by-step physics behind the motion:
+
+1.  **Creation of a Rotating Magnetic Field (RMF):** By sequencing the current in the solenoids such that the North pole appears in A, then B, then C, the student has created a magnetic field that effectively rotates in a clockwise direction around the squirrel cage.
+2.  **Electromagnetic Induction (Faraday’s Law):** As the magnetic field rotates, it cuts across the metal bars of the squirrel cage. According to Faraday’s Law of Induction, this changing magnetic flux induces an electromotive force (EMF) and, consequently, an eddy current in the metal bars.
+3.  **Lenz’s Law and Lorentz Force:** Lenz’s Law states that the induced current will create its own magnetic field to oppose the change that caused it. Essentially, the squirrel cage "tries" to catch up to the rotating magnetic field to reduce the relative motion between the bars and the field. 
+4.  **Direction of Rotation:** The interaction between the induced currents in the bars and the external magnetic field produces a Lorentz force ($F = ILB\sin\theta$). This force acts on the bars in the same direction as the rotating magnetic field. Since the field is rotating clockwise, the squirrel cage will also rotate in a **clockwise** direction to minimize the relative velocity (slippage).
+
+**Why the other options are incorrect:**
+*   (B) is incorrect because the squirrel cage follows the direction of the rotating magnetic field, not the opposite.
+*   (C) and (D) are incorrect because the bars do not become permanent magnets; they are conductors carrying induced eddy currents.
+
+###QUESTION_TYPE
+Multiple choice

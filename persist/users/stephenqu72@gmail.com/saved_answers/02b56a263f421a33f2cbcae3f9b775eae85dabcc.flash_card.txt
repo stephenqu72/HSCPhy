@@ -1,0 +1,8 @@
+### Front
+How does the gradient of a Force vs $\Delta x$ graph change when a secondary, stiffer spring engages in a progressive rate system?
+
+### Back
+- Key idea: The gradient increases (the line becomes steeper) at the point where the second spring engages.
+- Formula / law / constant / figure: Gradient $= k$.
+- When to use it: Analyzing multi-stage springs or variable stiffness systems (e.g., car suspension).
+- Common trap: Calculating $k$ for the second spring using the total $\Delta x$ instead of only the additional compression ($\Delta x_{B}$) caused by that spring.

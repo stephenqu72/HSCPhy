@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for constructive interference in Young’s double-slit experiment:
+
+$$d \sin(\theta) = n\lambda$$
+
+### 1. Identify the given variables:
+*   **Wavelength ($\lambda$):** $621\text{ nm} = 621 \times 10^{-9}\text{ m}$
+*   **Slit separation ($d$):** $100\text{ }\mu\text{m} = 100 \times 10^{-6}\text{ m} = 1.0 \times 10^{-4}\text{ m}$
+*   **Order ($n$):** We are looking for the $2^{\text{nd}}$ bright spot, so $n = 2$.
+*   **Screen distance ($L$):** $1.50\text{ m}$ (Note: This is provided as extra information, as the question asks for the *angle*, which is independent of screen distance in the path difference formula).
+
+### 2. Rearrange the formula:
+We need to solve for the angle $\theta$:
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\theta = \arcsin\left(\frac{n\lambda}{d}\right)$$
+
+### 3. Substitute the values:
+$$\sin(\theta) = \frac{2 \times (621 \times 10^{-9}\text{ m})}{1.0 \times 10^{-4}\text{ m}}$$
+$$\sin(\theta) = \frac{1242 \times 10^{-9}}{10^{-4}}$$
+$$\sin(\theta) = 1.242 \times 10^{-2} = 0.01242$$
+
+Now, take the inverse sine:
+$$\theta = \arcsin(0.01242)$$
+$$\theta \approx 0.7119^\circ$$
+
+Rounding to two significant figures, we get $0.71^\circ$.
+
+### Conclusion:
+Comparing this to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

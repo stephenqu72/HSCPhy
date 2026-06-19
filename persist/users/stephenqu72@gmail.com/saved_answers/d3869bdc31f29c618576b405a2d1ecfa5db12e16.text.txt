@@ -1,0 +1,27 @@
+To solve this problem, we use the principles of an **ideal transformer**, where the power input equals the power output ($P_{in} = P_{out}$), and the ratio of voltages is equal to the ratio of the number of turns.
+
+### Step 1: Find the secondary voltage ($V_s$)
+The transformer equation is:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Given $V_p = 120\text{ V}$, $N_p = 1500$, and $N_s = 50$:
+$$\frac{120}{V_s} = \frac{1500}{50}$$
+$$\frac{120}{V_s} = 30$$
+$$V_s = \frac{120}{30} = 4\text{ V}$$
+
+### Step 2: Find the secondary current ($I_s$)
+Since the resistor $R$ dissipates $35\text{ W}$, we use the power formula $P = V_s \times I_s$:
+$$35 = 4 \times I_s$$
+$$I_s = \frac{35}{4} = 8.75\text{ A} \approx 8.8\text{ A}$$
+
+### Step 3: Find the primary current ($I_p$)
+For an ideal transformer, the power in the primary circuit equals the power in the secondary circuit:
+$$P_p = P_s$$
+$$V_p \times I_p = 35\text{ W}$$
+$$120 \times I_p = 35$$
+$$I_p = \frac{35}{120} \approx 0.29\text{ A}$$
+
+### Conclusion
+The current in the primary coil is $0.29\text{ A}$ and the current in the secondary coil is $8.8\text{ A}$. Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

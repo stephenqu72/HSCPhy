@@ -1,0 +1,31 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this classic electromagnetism problem. This question tests your understanding of **Lenz’s Law** and **Electromagnetic Induction**.
+
+---
+
+### Answers and Explanations
+
+**(a) Observation:**
+The magnet dropped through the **aluminium tube** will take significantly longer to reach the bottom compared to the magnet dropped through the **plastic tube**.
+
+**(b) Explanation (Physics Principles):**
+To secure the 5 marks, you must link the physical principles in a logical sequence:
+1. **Change in Flux:** As the magnet falls through the aluminium tube, the magnetic flux through the circular cross-sections of the tube changes.
+2. **Induced EMF and Current:** According to **Faraday’s Law**, this changing magnetic flux induces an electromotive force (EMF) in the conducting aluminium, which results in circular **eddy currents** within the tube walls.
+3. **Lenz’s Law:** According to **Lenz’s Law**, these induced eddy currents create their own magnetic field that opposes the change in flux that created them.
+4. **Interaction:** The magnetic field produced by the eddy currents interacts with the falling magnet's magnetic field to create an upward magnetic force (repulsive underneath, attractive above), which opposes the downward motion due to gravity.
+5. **Plastic vs. Aluminium:** Plastic is an insulator, so no eddy currents are induced. Therefore, the magnet in the plastic tube falls solely under gravity, whereas the magnet in the aluminium tube experiences an additional retarding force.
+
+**(c) Explanation of the cut tube:**
+If the tube is cut vertically, the magnet will fall through the tube in a time **approximately equal** to that of the plastic tube (i.e., it will fall much faster than the uncut aluminium tube).
+
+**Reasoning:** The vertical cut breaks the path for the circular eddy currents. Since the electrons cannot complete a circular loop around the tube, significant eddy currents cannot be established. Without these currents, there is no induced magnetic field to create a retarding force, so the damping effect is virtually eliminated.
+
+---
+
+### How to solve it
+1. **Identify the materials:** Always check if the material is a conductor (Aluminium) or an insulator (Plastic). Electromagnetic induction only occurs in conductors.
+2. **Apply the "Chain of Logic":** For questions involving induction, use this sequence: Change in flux $\rightarrow$ Induced EMF $\rightarrow$ Induced current $\rightarrow$ Opposing force (Lenz's Law).
+3. **Visualize the geometry:** For the cut tube, realize that eddy currents require a continuous closed loop of conductive material. Breaking the loop prevents the phenomenon entirely.
+
+###QUESTION_TYPE
+Other questions

@@ -1,0 +1,30 @@
+To determine the starting position of the generator coil, we must look at the standard relationship between magnetic flux and induced EMF in an AC generator.
+
+### The Physics Principles
+The magnetic flux $\Phi$ through a coil is given by:
+$$\Phi = BA \cos(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field lines. The induced EMF $\varepsilon$ is proportional to the rate of change of magnetic flux:
+$$\varepsilon = -N \frac{d\Phi}{dt}$$
+
+1.  **When the coil is perpendicular to the field lines:** The normal to the coil is parallel to the field ($\theta = 0^\circ$). The flux is at its **maximum**, and the rate of change of flux is zero. Thus, the **EMF is zero**.
+2.  **When the coil is parallel to the field lines:** The normal to the coil is perpendicular to the field ($\theta = 90^\circ$). The flux is **zero**, but the rate of change of flux is at its maximum. Thus, the **EMF is at its maximum**.
+
+### Analyzing the Graph (Standard AC Generator)
+While the graph is not provided in your text, standard HSC Physics questions of this type typically show a sine wave starting at $t = 0$ with an EMF of $0$ and increasing in the positive direction.
+
+*   **At $t=0$, if EMF = 0:** The coil must be in the position where the flux is at its maximum. This occurs when the coil is **perpendicular** to the magnetic field lines (i.e., the plane of the coil is vertical, as shown in diagram **B**).
+*   **If the graph started at maximum EMF:** The coil would be parallel to the field lines (diagram **C**).
+
+Assuming the standard convention where $t=0$ begins at the zero-crossing of the EMF graph:
+**The correct answer is (B).**
+
+### How to solve this type of question:
+1.  **Identify the y-axis:** Check if the graph represents Magnetic Flux ($\Phi$) or Induced EMF ($\varepsilon$).
+2.  **Locate $t=0$:** Determine the value of the variable at the start.
+3.  **Relate to Orientation:** 
+    *   If $t=0$ is maximum EMF, the coil is parallel to the field (flat/horizontal).
+    *   If $t=0$ is zero EMF, the coil is perpendicular to the field (vertical).
+4.  **Visualize the normal:** Always remember that $\theta$ in the flux formula is the angle relative to the *normal* of the coil area, not the plane of the coil itself.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,21 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+To solve this, we must consider the physics of power transmission. Power is transmitted from power stations to consumers through long cables that have an inherent electrical resistance, denoted as $R$.
+
+1.  **Power Loss:** The energy lost as heat during transmission is given by the formula for power dissipation in a resistor:
+    $$P_{\text{loss}} = I^2R$$
+    where $I$ is the current flowing through the transmission lines.
+
+2.  **The Relationship between Voltage and Current:** The power transmitted by the system is given by $P = VI$. For a fixed amount of power, if we increase the voltage ($V$), the current ($I$) must decrease proportionally.
+
+3.  **The Advantage:** By using "step-up" transformers at the power station, the voltage is significantly increased. Because $P = VI$, a higher voltage allows the same amount of power to be transmitted at a much lower current. Since the power loss is proportional to the **square** of the current ($I^2$), reducing the current results in a massive reduction in energy loss due to heating in the wires.
+
+**Evaluating the options:**
+*   (A) and (C) are incorrect because they focus on "usable levels" rather than the efficiency of transmission. Additionally, power is typically generated at moderate voltages, not extremely high ones.
+*   (B) is incorrect because stepping up voltage results in *lower* current, not larger current.
+*   (D) is correct because it identifies the crucial link: stepping up the voltage allows for lower current, which minimizes resistive power loss ($I^2R$), thereby increasing the efficiency of the power grid.
+
+### QUESTION_TYPE
+Multiple choice

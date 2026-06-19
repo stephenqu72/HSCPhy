@@ -1,0 +1,36 @@
+### Answer
+
+**a. Calculation**
+
+Given:
+*   Wavelength ($\lambda$) = $620\text{ nm} = 620 \times 10^{-9}\text{ m}$
+*   Distance between slits ($d$) = $2.0\text{ mm} = 2.0 \times 10^{-3}\text{ m}$
+*   Distance to screen ($L$) = $1.0\text{ m}$
+
+The formula for the fringe separation ($\Delta x$) in Young's double-slit experiment is:
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Substituting the values:
+$$\Delta x = \frac{(620 \times 10^{-9}\text{ m}) \times (1.0\text{ m})}{2.0 \times 10^{-3}\text{ m}}$$
+$$\Delta x = 3.1 \times 10^{-4}\text{ m}$$
+
+Converting to millimeters:
+$$\Delta x = 0.31\text{ mm}$$
+
+**Answer:** $0.31\text{ mm}$
+
+**b. Explanation**
+
+This experiment supports the wave model of light because the observed interference pattern (alternating bright and dark bands) can only be explained by the superposition of light waves. When light passes through the two slits, it acts as two coherent point sources. These waves overlap and undergo constructive interference (creating bright bands where the path difference is an integer multiple of the wavelength) and destructive interference (creating dark bands where the path difference is an odd multiple of half a wavelength). Particles (corpuscles) would simply produce two bright lines directly behind the slits, rather than a diffraction/interference pattern.
+
+---
+
+### How to solve
+
+1.  **Identify the variables:** Always extract your knowns from the text ($d$, $L$, $\lambda$) and ensure they are in consistent SI units (meters). Converting $620\text{ nm}$ to $10^{-9}\text{ m}$ and $2.0\text{ mm}$ to $10^{-3}\text{ m}$ is crucial to avoid common errors.
+2.  **Select the formula:** For double-slit interference, the distance between any two adjacent fringes (whether bright-to-bright or dark-to-dark) is given by the fringe separation formula $\Delta x = \frac{\lambda L}{d}$.
+3.  **Perform the calculation:** Carefully compute the division. Note that the question asks for the final answer in **mm**, so remember to convert your final answer from meters back to millimeters at the end.
+4.  **Conceptual link:** For part (b), always link the physical observation (interference pattern) to the underlying mechanism (superposition/path difference), and contrast it with what would happen if light were purely a stream of particles.
+
+###QUESTION_TYPE
+Calculation question

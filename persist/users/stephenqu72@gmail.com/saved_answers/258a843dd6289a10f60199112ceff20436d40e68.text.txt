@@ -1,0 +1,29 @@
+To solve this problem, we need to calculate the efficiency of the transformer based on the input and output power, and then identify the physical causes for the energy loss.
+
+### 1. Calculation of Efficiency
+Efficiency ($\eta$) is defined as the ratio of useful output power to total input power, expressed as a percentage:
+$$\eta = \frac{P_{out}}{P_{in}} \times 100\%$$
+
+**Step A: Calculate Input Power ($P_{in}$)**
+$$P_{in} = V_{in} \times I_{in} = 240\text{ V} \times 0.02\text{ A} = 4.8\text{ W}$$
+
+**Step B: Calculate Output Power ($P_{out}$)**
+$$P_{out} = V_{out} \times I_{out} = 12\text{ V} \times 0.28\text{ A} = 3.36\text{ W}$$
+
+**Step C: Calculate Efficiency**
+$$\eta = \frac{3.36\text{ W}}{4.8\text{ W}} \times 100\% = 70\%$$
+
+---
+
+### 2. Accounting for Loss of Energy
+In real-world transformers, energy is not 100% efficient due to several physical factors:
+
+*   **Joule Heating (Resistance):** The copper wires in the primary and secondary coils have resistance, leading to energy loss as heat ($I^2R$ losses).
+*   **Eddy Currents:** The changing magnetic field induces small, circular currents (eddy currents) in the iron core, which dissipate energy as heat. This is typically minimized by using a laminated core.
+*   **Hysteresis Losses:** The rapid switching of the magnetic domain orientation in the iron core as the AC current oscillates requires energy, which is released as heat.
+*   **Magnetic Flux Leakage:** Not all magnetic flux produced by the primary coil links with the secondary coil; some flux escapes into the air, meaning that energy is not transferred to the output circuit.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,19 @@
+### Answer
+
+**(a) Sketching the graph**
+The graph should show two pulses. The first pulse will be negative (as the North pole enters the solenoid) and the second pulse will be positive (as the North pole exits the solenoid). The second pulse should have a larger amplitude and be narrower than the first pulse because the magnet is accelerating due to gravity, meaning it is moving faster when it exits the solenoid.
+
+**(b) Explanation of features**
+1.  **Change in Polarity (Lenz’s Law):** As the North pole enters the solenoid, magnetic flux increases, inducing a current to oppose this change (creating a North pole at the top). As the magnet leaves, flux decreases, inducing a current to oppose the removal (creating a South pole at the top). The reversal of current direction results in the shift from a negative voltage peak to a positive voltage peak.
+2.  **Amplitude and Width (Faraday’s Law):** According to Faraday’s Law, induced EMF is proportional to the rate of change of magnetic flux ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$). As the magnet falls, it accelerates due to gravity. The higher velocity at the exit means the magnet passes through the bottom coils in less time, resulting in a steeper change in flux ($\Delta\Phi/\Delta t$), producing a pulse with a higher peak voltage but a shorter duration.
+
+---
+
+### How to solve this problem
+1.  **Identify the underlying physics:** This is a classic application of **Faraday’s Law** of induction and **Lenz’s Law**.
+2.  **Determine the direction (Lenz’s Law):** Lenz’s Law states that the induced EMF drives a current in a direction that opposes the change in magnetic flux that produced it. When the North pole approaches, the solenoid "repels" it by creating a North pole; as it recedes, it "attracts" it by creating a South pole. This requires the current direction to reverse.
+3.  **Determine the magnitude (Faraday’s Law):** Since $\varepsilon = -N \frac{d\Phi}{dt}$, the magnitude of the voltage is directly proportional to the speed of the magnet. Because the magnet accelerates as it falls, it is moving faster as it exits than as it enters. Therefore, the second pulse must be taller (higher EMF) and narrower (shorter time interval) than the first.
+4.  **Drafting the graph:** Ensure the curve starts at zero, drops to a negative peak, crosses zero as the magnet reaches the center of the solenoid, rises to a higher positive peak, and returns to zero.
+
+###QUESTION_TYPE
+Data analysis questions

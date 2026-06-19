@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+**Part a) Explanation**
+
+An electromotive force (EMF) is induced in a conductor when there is a change in the magnetic flux ($\Phi$) passing through the area bounded by the loop, as described by Faraday’s Law:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+where $\Phi = BA \cos(\theta)$.
+
+In the current setup, the magnets are placed along the axis of rotation. The magnetic field lines point directly from the North pole to the South pole, running parallel to the axis of the axle. As the loop rotates, the plane of the loop remains parallel to the magnetic field lines, or more importantly, the magnetic field lines never "cut" through the surface area of the loop. Because the angle between the magnetic field vector and the normal to the area of the loop is effectively constant (or the flux remains zero throughout the rotation), there is no change in magnetic flux. Consequently, no EMF is induced.
+
+**Part b) Solution**
+
+To generate an EMF, the magnetic field lines must pass through the loop. Kim and Charlie should reposition the magnets so that they are on **opposite sides of the rotating loop** (e.g., one magnet placed above the loop and one below, or one in front and one behind), such that the magnetic field lines are perpendicular to the axis of rotation. This ensures that as the loop rotates, the amount of magnetic flux passing through the loop area changes continuously.
+
+***
+
+###QUESTION_TYPE
+Short answer

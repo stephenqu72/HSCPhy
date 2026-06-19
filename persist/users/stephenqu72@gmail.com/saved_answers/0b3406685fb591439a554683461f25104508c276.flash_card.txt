@@ -1,0 +1,8 @@
+### Front
+What is the condition required for an object to be in rotational equilibrium?
+
+### Back
+- Key idea: The net torque ($\sum \tau$) acting about a pivot point must be zero.
+- Formula / law / constant / figure: $\sum \tau = 0$ (or $\tau_{\text{clockwise}} = \tau_{\text{counter-clockwise}}$)
+- When to use it: To calculate unknown forces, distances, or angles when an object is not rotating (e.g., stable flight or static beams).
+- Common trap: Forgetting to use only the component of the force that is perpendicular to the lever arm ($F\sin\theta$ or $F\cos\theta$).

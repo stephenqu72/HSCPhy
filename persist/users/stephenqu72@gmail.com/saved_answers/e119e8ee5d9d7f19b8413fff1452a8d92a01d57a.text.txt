@@ -1,0 +1,25 @@
+To answer this question, you need to apply the principles of electromagnetism, specifically **back EMF** (Electromotive Force) in DC motors.
+
+### Explanation of the DC Motor Mechanics
+As a DC motor begins to spin, the rotating coil cuts through the magnetic field lines. According to Faraday’s Law and Lenz’s Law, this induces a back EMF ($\varepsilon$) that opposes the supply voltage ($V$). The net current ($I$) in the motor is given by:
+$$I = \frac{V - \varepsilon}{R}$$
+where $R$ is the internal resistance of the coil.
+
+---
+
+### Answer: What is occurring in each section?
+
+*   **Section A (Startup):** The motor has just been switched on ($t=1$). At this point, the rotational speed is zero, meaning there is no back EMF ($\varepsilon = 0$). Because the opposition to the supply voltage is minimal, the current rises rapidly to its maximum value, providing the high starting torque required to overcome the motor's inertia.
+*   **Section B (Acceleration):** As the motor gains rotational speed, the back EMF begins to increase ($\varepsilon \propto \text{speed}$). According to the formula above, as the back EMF increases, the effective voltage across the resistance decreases, causing the current to drop. During this stage, the motor is accelerating rapidly.
+*   **Section C (Steady State/Terminal Speed):** The motor reaches its operating speed where the back EMF is at its maximum value. The torque produced by the motor now exactly equals the load torque (or friction). The speed levels off (plateaus), and the current stabilizes at a low value sufficient to maintain this constant rotational speed.
+
+---
+
+### How to solve this type of question:
+1.  **Analyze the variables:** Recognize that the dashed line (current) and solid line (speed) are inversely related as the motor speeds up.
+2.  **Recall the physics principle:** Always link the physical motion (speed) to the electrical consequence (back EMF) and the resulting circuit behavior (current).
+3.  **Structure by phases:** Break the timeline into the transient startup phase, the transitional acceleration phase, and the equilibrium phase.
+4.  **Use the formula:** Invoking $I = \frac{V - \varepsilon}{R}$ shows the examiner that you understand the mathematical relationship between the variables, which is key to scoring full marks in Physics.
+
+###QUESTION_TYPE
+Data analysis questions

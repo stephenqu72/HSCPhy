@@ -1,0 +1,21 @@
+To determine the direction of rotation for the DC motor, we apply the **Right-Hand Motor Rule** (or Fleming’s Left-Hand Rule) to the current-carrying wires within the magnetic field.
+
+### Step-by-Step Solution:
+
+1.  **Identify the Magnetic Field Direction:** The magnetic field lines flow from the North ($N$) pole to the South ($S$) pole. In the diagram, the $N$ pole is on the bottom-left and the $S$ pole is on the top-right. Thus, the field is directed from the bottom-left toward the top-right.
+2.  **Determine Current Direction:** By tracing the circuit from the battery, we see the current flows into the coil segment closest to the $N$ pole and out through the segment closest to the $S$ pole. 
+3.  **Apply Fleming’s Left-Hand Rule:**
+    *   **Thumb:** Force ($F$)
+    *   **First Finger:** Magnetic Field ($B$) — directed towards the $S$ pole.
+    *   **Second Finger:** Current ($I$) — directed into the page on the left side of the coil.
+4.  **Analyze the forces:**
+    *   On the left side of the coil (near the $N$ pole), applying the rule results in an upward force.
+    *   On the right side of the coil (near the $S$ pole), the current is flowing in the opposite direction, resulting in a downward force.
+5.  **Determine the Rotation:** An upward force on the left and a downward force on the right creates a torque that causes the coil to rotate in a **clockwise** direction when viewed from the commutator side. The commutator ensures that as the coil passes the vertical position, the current direction through the coil segments reverses, maintaining the same direction of rotation.
+
+Therefore, the motor turns clockwise.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

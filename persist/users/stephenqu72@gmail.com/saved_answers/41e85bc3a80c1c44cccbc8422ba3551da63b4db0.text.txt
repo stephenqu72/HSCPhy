@@ -1,0 +1,31 @@
+To determine the magnitude of the average EMF induced in the loop, we use Faraday’s Law of Induction, which states that the induced EMF ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi_B$):
+
+$$\varepsilon = - \frac{\Delta \Phi_B}{\Delta t}$$
+
+Since we are asked for the magnitude, we ignore the negative sign.
+
+### 1. Identify the given variables:
+*   Radius of the loop ($r$) = $0.030\text{ m}$
+*   Initial magnetic field ($B_i$) = $0.060\text{ T}$
+*   Final magnetic field ($B_f$) = $-0.040\text{ T}$ (the negative sign indicates it is in the opposite direction)
+*   Time interval ($\Delta t$) = $0.35\text{ s}$
+*   Area of the loop ($A$) = $\pi r^2 = \pi \times (0.030)^2 \approx 2.827 \times 10^{-3}\text{ m}^2$
+
+### 2. Calculate the change in magnetic flux ($\Delta \Phi_B$):
+Magnetic flux is defined as $\Phi_B = B \cdot A$ (since the field is perpendicular to the plane of the loop, the angle is $0^\circ$).
+
+$$\Delta \Phi_B = \Phi_f - \Phi_i = (B_f \cdot A) - (B_i \cdot A) = (B_f - B_i) \cdot A$$
+$$\Delta \Phi_B = (-0.040 - 0.060) \cdot (2.827 \times 10^{-3})$$
+$$\Delta \Phi_B = -0.100 \cdot (2.827 \times 10^{-3}) = -2.827 \times 10^{-4}\text{ Wb}$$
+
+### 3. Calculate the magnitude of the average EMF:
+Using the magnitude of the flux change:
+
+$$|\varepsilon| = \frac{|\Delta \Phi_B|}{\Delta t} = \frac{2.827 \times 10^{-4}\text{ Wb}}{0.35\text{ s}}$$
+$$|\varepsilon| \approx 8.08 \times 10^{-4}\text{ V}$$
+
+**Final Answer:** The magnitude of the average EMF induced in the loop is approximately $8.1 \times 10^{-4}\text{ V}$ (or $0.81\text{ mV}$).
+
+---
+###QUESTION_TYPE
+Calculation question

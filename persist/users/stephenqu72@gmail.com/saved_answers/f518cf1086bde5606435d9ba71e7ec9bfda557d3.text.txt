@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### (a) Explain the formation of the bright and dark regions in terms of the wave-like nature of light.
+**Answer:**
+When the coherent light passes through the two slits, they act as secondary point sources that undergo diffraction. The light waves overlap and undergo superposition as they reach the screen.
+*   **Bright regions:** Occur where the waves undergo **constructive interference**. This happens when the waves arrive in phase, meaning the path difference between them is an integer multiple of the wavelength ($n\lambda$).
+*   **Dark regions:** Occur where the waves undergo **destructive interference**. This happens when the waves arrive exactly out of phase (half a wavelength apart), meaning the path difference is an odd-integer multiple of half the wavelength $(n + \frac{1}{2})\lambda$.
+
+#### (b) Calculate the difference in length between P1 and P2.
+**Explanation:**
+The path difference ($\Delta x$) for a bright fringe in a double-slit interference pattern is given by the formula:
+$$\Delta x = n\lambda$$
+Where:
+*   $n$ is the order of the bright spot (here $n = 6$).
+*   $\lambda$ is the wavelength of the light ($632\text{ nm}$).
+
+**Calculation:**
+$$\Delta x = 6 \times 632\text{ nm}$$
+$$\Delta x = 3792\text{ nm}$$
+The difference in length is $3792\text{ nm}$ (or $3.792 \times 10^{-6}\text{ m}$).
+
+#### (c) Monochromatic light is now replaced with white light. Does this result in any changes?
+**Answer:**
+Yes, the pattern will change. White light consists of a spectrum of different wavelengths (colors).
+*   **Central Maximum:** A white central fringe will appear because all wavelengths interfere constructively at the center where the path difference is zero.
+*   **Fringes:** For $n \geq 1$, the positions of the bright fringes depend on the wavelength ($\Delta x = n\lambda$). Because each color has a different wavelength, they will form constructive interference at different locations, resulting in a series of colored spectra (fringes) rather than sharp monochromatic bands. The blue end of the spectrum will appear closer to the center, and the red end will appear further out.
+
+---
+
+###QUESTION_TYPE
+Calculation question

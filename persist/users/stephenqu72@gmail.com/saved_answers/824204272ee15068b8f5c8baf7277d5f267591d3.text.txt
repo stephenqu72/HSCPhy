@@ -1,0 +1,37 @@
+Hello! As your HSC Physics teacher, I am happy to help you break down this diffraction grating problem. These questions rely on understanding the relationship between line density, slit spacing, and the interference of waves.
+
+### Part (a): Finding the slit spacing ($d$)
+**Answer:**
+The slit spacing $d$ is the reciprocal of the number of lines per unit length.
+$$d = \frac{1}{1250 \text{ lines/mm}} = 0.0008 \text{ mm} = 8.0 \times 10^{-7} \text{ m} = 800 \text{ nm}$$
+
+**Explanation:**
+The grating has 1250 lines in every millimeter. The distance $d$ between the center of one slit and the next is simply the total length (1 mm) divided by the number of lines ($N$). Always convert your result to standard SI units (meters) to ensure your calculations in later parts remain consistent.
+
+---
+
+### Part (b): Finding the wavelength ($\lambda$)
+**Answer:**
+Using the diffraction grating formula $d \sin(\theta) = n\lambda$, where $n=1$, $\theta = 16^\circ$, and $d = 8 \times 10^{-7} \text{ m}$:
+$$\lambda = \frac{d \sin(\theta)}{n}$$
+$$\lambda = \frac{8 \times 10^{-7} \times \sin(16^\circ)}{1}$$
+$$\lambda \approx 2.205 \times 10^{-7} \text{ m} \approx 220.5 \text{ nm}$$
+
+**Explanation:**
+The formula $d \sin(\theta) = n\lambda$ represents the condition for constructive interference. Here, $n$ is the order of the maximum. Since we are looking at the "first-order" maximum, we set $n=1$. Plug in your $d$ value from part (a) and the provided angle. Make sure your calculator is in **Degree mode**.
+
+---
+
+### Part (c): Finding the angle ($\theta$) for the second-order maximum
+**Answer:**
+We use the same formula $d \sin(\theta) = n\lambda$, but solve for $\theta$. Here $n=2$, $\lambda = 375 \text{ nm} = 3.75 \times 10^{-7} \text{ m}$:
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\sin(\theta) = \frac{2 \times 3.75 \times 10^{-7}}{8 \times 10^{-7}}$$
+$$\sin(\theta) = \frac{7.5 \times 10^{-7}}{8 \times 10^{-7}} = 0.9375$$
+$$\theta = \arcsin(0.9375) \approx 69.64^\circ$$
+
+**Explanation:**
+Rearrange the formula to solve for the unknown angle by using the inverse sine function ($\sin^{-1}$). By inputting the values for $n=2$ and the new wavelength, you find the angular position where the second-order interference pattern appears.
+
+###QUESTION_TYPE
+Calculation question

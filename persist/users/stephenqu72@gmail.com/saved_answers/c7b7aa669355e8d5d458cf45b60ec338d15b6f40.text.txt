@@ -1,0 +1,19 @@
+To solve this problem, we rely on **Faraday’s Law of Induction**, which states that the induced electromotive force (emf), denoted as $\varepsilon$, in a coil is proportional to the negative rate of change of magnetic flux ($\Phi$) over time ($t$). Mathematically, this is expressed as:
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+In terms of the provided graph, the induced emf is proportional to the **gradient (or slope)** of the flux-time graph. Specifically, the magnitude of the emf $|\varepsilon|$ is proportional to the steepness of the line:
+
+$$|\varepsilon| \propto \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+
+### Analysis of the graph:
+1.  **Constant Flux:** Where the line is horizontal, the gradient is $0$. Therefore, $\varepsilon = 0$. (Rules out A)
+2.  **Flux increases gradually:** This corresponds to the linear portion with a moderate positive gradient.
+3.  **Flux decreases rapidly:** This corresponds to the final section of the graph where the line curves downwards. A steep, downward slope indicates a high absolute value of the rate of change ($\frac{\Delta \Phi}{\Delta t}$).
+
+Comparing the slopes of the graph, the final section where the flux decreases exhibits the steepest gradient. Because the induced emf is largest where the rate of change of flux is highest, the interval where the flux decreases rapidly will produce the largest magnitude of induced emf.
+
+Therefore, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

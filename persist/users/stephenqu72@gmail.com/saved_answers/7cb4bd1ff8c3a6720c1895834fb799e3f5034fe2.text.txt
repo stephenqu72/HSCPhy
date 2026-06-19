@@ -1,0 +1,26 @@
+To find the magnetic flux through the coil, we use the formula for magnetic flux ($\Phi$):
+
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   Magnetic field strength ($B$): $0.03\text{ T}$
+    *   Area of the coil ($A$): $10\text{ cm}^2$. We must convert this to square meters ($m^2$) for standard SI units. Since $1\text{ m} = 100\text{ cm}$, then $1\text{ m}^2 = 10,000\text{ cm}^2$.
+        $$A = 10 \times 10^{-4}\text{ m}^2 = 1.0 \times 10^{-3}\text{ m}^2$$
+    *   Angle ($\theta$): The angle $\theta$ is defined as the angle between the **normal** to the surface of the coil and the magnetic field lines. The problem states the plane of the coil is perpendicular to the field. This means the normal to the coil is parallel to the field, so $\theta = 0^\circ$ and $\cos(0^\circ) = 1$.
+
+2.  **Calculate the flux through a single loop:**
+    $$\Phi_{\text{single}} = 0.03\text{ T} \times (1.0 \times 10^{-3}\text{ m}^2) \times 1 = 3.0 \times 10^{-5}\text{ Wb}$$
+
+3.  **Calculate the total flux for the coil:**
+    The coil has $N = 20$ loops. The total magnetic flux linkage ($\Phi_{\text{total}}$) is:
+    $$\Phi_{\text{total}} = N \cdot B \cdot A \cdot \cos(\theta)$$
+    $$\Phi_{\text{total}} = 20 \times (3.0 \times 10^{-5}\text{ Wb})$$
+    $$\Phi_{\text{total}} = 6.0 \times 10^{-4}\text{ Wb}$$
+
+**Conclusion:**
+Comparing this result to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

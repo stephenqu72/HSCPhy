@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this electromagnetic induction problem. Let's walk through it step-by-step.
+
+### Part (a): Calculating Magnetic Flux
+
+**Answer:**
+The magnetic flux $\Phi$ is given by the formula $\Phi = B A \cos(\theta)$.
+- Magnetic field strength $B = 20\text{ T}$
+- Side length of square $s = 0.480\text{ m}$
+- Area $A = s^2 = (0.480\text{ m})^2 = 0.2304\text{ m}^2$
+- Since the field is perpendicular to the loop, $\theta = 0^\circ$ and $\cos(0) = 1$.
+
+$$\Phi = 20 \times 0.2304 = 4.608\text{ Wb}$$
+
+**Explanation:**
+Magnetic flux is defined as the measure of the total magnetic field lines passing through a given surface area. Because the field lines are perpendicular to the surface of the square loop, we simply multiply the magnetic field strength by the surface area of the loop.
+
+---
+
+### Part (b): Calculating Average Induced Voltage
+
+**Answer:**
+We use Faraday's Law of Induction, which states that the induced electromotive force (EMF) is equal to the rate of change of magnetic flux:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+
+- Number of turns $N = 1$
+- Initial flux $\Phi_i = 4.608\text{ Wb}$
+- Final flux $\Phi_f = 0\text{ Wb}$ (since the field is reduced to zero)
+- Change in flux $\Delta\Phi = 4.608 - 0 = 4.608\text{ Wb}$
+- Time interval $\Delta t = 50\text{ ms} = 0.050\text{ s}$
+
+$$\varepsilon = \frac{4.608\text{ Wb}}{0.050\text{ s}} = 92.16\text{ V}$$
+
+**Explanation:**
+To solve this, recognize that "induced voltage" is the same as EMF. Faraday’s Law tells us that any change in magnetic flux over time will induce a potential difference across the ends of a conductor. Since the magnetic field drops to zero, the change in flux is equal to the initial flux we calculated in part (a). Dividing this total change by the time taken gives the average induced EMF.
+
+###QUESTION_TYPE
+Calculation question

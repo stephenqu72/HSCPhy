@@ -1,0 +1,25 @@
+To answer this 8-mark question effectively, you need to link the physics principles of DC motors—specifically the torque produced and the back EMF—to practical engineering design improvements.
+
+### Answer
+To minimize issues with torque and back EMF in a DC motor, several design modifications can be implemented:
+
+**1. Improving Torque:**
+*   **Increasing the number of turns ($N$):** Torque is directly proportional to the number of loops of wire in the coil ($\tau = nIAB \sin \theta$). Increasing the number of turns increases the total force experienced by the coil.
+*   **Using a soft iron core:** Placing an iron core inside the coil increases the magnetic flux density ($B$) due to its high magnetic permeability, which significantly boosts the motor's torque.
+*   **Radial Magnetic Field:** Using curved pole pieces ensures that the magnetic field lines are always radial (perpendicular to the plane of the coil) for a wider rotation range. This ensures that $\sin \theta$ remains at its maximum value ($1$), providing constant, maximum torque throughout the rotation.
+
+**2. Managing Back EMF and Efficiency:**
+*   **Laminated Armature:** To minimize eddy current losses, which cause heating and oppose the motor's rotation, the armature core should be laminated. This increases electrical resistance to eddy currents without affecting the magnetic circuit.
+*   **Increasing Back EMF at Operating Speed:** Back EMF ($\varepsilon$) opposes the supply voltage ($V$), which limits the current. By designing the motor to rotate faster, the back EMF increases, preventing the motor from drawing excessive current that could overheat the windings.
+*   **Use of Multiple Coils and Commutator Segments:** Using a motor with more coils and more segments on the commutator reduces the "ripple" in torque, ensuring smoother operation and more consistent back EMF, which prevents sudden current surges that could damage the motor.
+
+---
+
+### How to solve this
+1.  **Understand the Relationship:** Recall the key formulas: $\tau = nIAB \sin \theta$ (torque) and $V = I R + \varepsilon$ (where $\varepsilon$ is back EMF).
+2.  **Break it into two parts:** The question asks for improvements regarding **torque** AND **back EMF**. You must address both to achieve full marks.
+3.  **Application:** Don't just list physics concepts; explain *why* they help. For example, don't just say "add a core," say "adding a soft iron core increases magnetic flux density, which linearly increases the torque."
+4.  **HSC Exam Tip:** For an 8-mark question, aim for a "cause and effect" structure. Use clear headings or bullet points to ensure the marker sees you have addressed both halves of the question comprehensively.
+
+###QUESTION_TYPE
+Short answer

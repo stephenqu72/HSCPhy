@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part a: Find the torque on the DC motor
+**Answer:**
+The torque on the motor in the position shown is **$0\text{ Nm}$**.
+
+**Explanation:**
+The torque $\tau$ on a current-carrying coil in a magnetic field is given by the formula:
+$$\tau = nIAB \cos(\theta)$$
+where:
+*   $n = 100$ (number of turns)
+*   $I = 2.0\text{ A}$ (current)
+*   $A = \text{side}^2 = (0.05\text{ m})^2 = 0.0025\text{ m}^2$
+*   $B = 3.0 \times 10^{-2}\text{ T}$ (magnetic field strength)
+*   $\theta$ is the angle between the **normal to the plane of the coil** and the magnetic field lines.
+
+Looking at the diagram, the coil is in a horizontal position, and the magnetic field lines (from N to S) are also horizontal. The normal to the plane of the coil is therefore vertical (at $90^\circ$ to the magnetic field). 
+Since $\cos(90^\circ) = 0$, the torque at this specific moment is zero. This position is known as the "dead point" or equilibrium position where the motor relies on momentum to continue rotating.
+
+---
+
+#### Part b: Explain the role and operation of the commutator
+**Answer:**
+The commutator consists of a split ring that rotates with the coil. Its role is to reverse the direction of the current in the coil every half-turn.
+
+**Explanation:**
+1.  **Role:** Without a commutator, the force on each side of the coil would reverse direction every half-turn (due to the motor effect/Fleming’s Left-Hand Rule), causing the coil to oscillate back and forth rather than spinning continuously in one direction.
+2.  **Operation:** As the coil rotates past the vertical position, the split-ring segments lose contact with their respective brushes and make contact with the opposite brush. This "commutation" reverses the current direction in the coil. 
+3.  **Result:** By reversing the current exactly when the coil crosses the vertical plane, the forces on the sides (EF and GH) are maintained in the same rotational direction, ensuring continuous unidirectional rotation of the motor.
+
+###QUESTION_TYPE
+Calculation question

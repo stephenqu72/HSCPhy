@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To understand this phenomenon, we must apply **Lenz’s Law** and the principle of **Conservation of Energy**.
+
+1.  **Electromagnetic Induction:** As the magnet oscillates through the coil, the change in magnetic flux ($\Delta \Phi$) induces an electromotive force (EMF) in the coil according to Faraday's Law: $\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$.
+2.  **Lenz’s Law:** The induced current always flows in a direction such that it creates a magnetic field that opposes the change in magnetic flux that produced it. This "opposition" creates a magnetic force that acts against the motion of the magnet.
+3.  **Energy Transformation:** 
+    *   When the circuit is connected to an **ammeter** (which has very low resistance), a significant current ($I$) flows through the coil. This current dissipates energy as heat due to the resistance of the wire ($P = I^2R$). This energy must come from the kinetic energy of the oscillating magnet, causing it to undergo "magnetic damping" and come to rest more quickly.
+    *   When the circuit is connected to a **voltmeter** (which has extremely high resistance), the current flowing is negligible. Because there is almost no current, there is minimal energy dissipation and minimal opposing force created by the induced magnetic field. 
+4.  **Evaluating the Options:**
+    *   **A** is incorrect; the voltmeter does not provide energy to keep the magnet moving.
+    *   **B** is **correct**; the induced current creates a magnetic field that exerts a force opposing the magnet's motion, effectively dampening the oscillation.
+    *   **C** is a true statement, but it is not the *explanation* for why the magnet stops; it is the reason why the current is lower in the voltmeter circuit. 
+    *   **D** is incorrect; the induced EMF depends on the rate of change of flux (the speed of the magnet), not on which meter is connected.
+
+###QUESTION_TYPE
+Multiple choice

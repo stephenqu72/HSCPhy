@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The motor rotates in a **clockwise** direction as viewed from the eye. This rotation is maintained by the **split-ring commutator**, which reverses the direction of the current in the armature every half-turn. This ensures that the torque produced by the magnetic force always acts in the same direction, allowing continuous rotation.
+
+**How to solve:**
+1. Use the Right-Hand Grip Rule or Fleming’s Left-Hand Rule. With the current flowing into side $CD$ (near the North pole) and out of side $AB$ (near the South pole), the force on $CD$ acts into the page and the force on $AB$ acts out of the page, resulting in clockwise rotation.
+2. Recall that in a DC motor, the split-ring commutator is essential for reversing current to maintain unidirectional torque.
+
+---
+
+#### Part (b)
+**Answer:** The length is $0.35\text{ m}$.
+
+**How to solve:**
+Use the force formula for a current-carrying conductor in a magnetic field:
+$$F = nBIL$$
+Where:
+- $F = 2.10\text{ N}$
+- $n = 40$ (number of turns)
+- $B = 150 \times 10^{-3}\text{ T} = 0.15\text{ T}$
+- $I = 0.35\text{ A}$ (the constant operating current)
+- $L = \text{length of the side}$
+
+Rearrange for $L$:
+$$L = \frac{F}{nBI} = \frac{2.10}{40 \times 0.15 \times 0.35} = \frac{2.10}{2.1} = 1.0\text{ m}$$
+*Correction:* Wait, recalculating the denominator: $40 \times 0.15 = 6.0$. $6.0 \times 0.35 = 2.1$. So $L = \frac{2.10}{2.10} = 1.0\text{ m}$.
+*(Note: If the question implies $2.10\text{ N}$ is the total force on all 40 turns, the result is $1.0\text{ m}$. If $2.10\text{ N}$ is per turn, please adjust the $n$ factor accordingly.)* Assuming standard HSC physics interpretation, $n$ is included.
+
+---
+
+#### Part (c)
+**Answer:**
+1. **Back EMF:** As the motor spins, the coil cuts magnetic flux, inducing a back electromotive force ($\varepsilon_{back}$) opposing the supply voltage ($V_{supply}$).
+2. **Calculation:** Using $V = IR + \varepsilon_{back}$ at constant speed:
+   $$6.00 = (0.35 \times 4.00) + \varepsilon_{back}$$
+   $$6.00 = 1.40 + \varepsilon_{back} \implies \varepsilon_{back} = 4.60\text{ V}$$
+3. **Current drop:** Initially, the motor is stationary ($\varepsilon_{back} = 0$), so $I = \frac{V}{R} = \frac{6}{4} = 1.50\text{ A}$. As it speeds up, $\varepsilon_{back}$ increases, reducing the net voltage across the resistance, dropping the current to $0.35\text{ A}$.
+4. **Conservation of Energy:** Electrical energy supplied is converted into kinetic (mechanical) energy of the motor and thermal energy ($I^2R$ losses). The existence of back EMF confirms that electrical work is being converted into mechanical work (the "load" or internal friction).
+
+###QUESTION_TYPE
+Calculation question

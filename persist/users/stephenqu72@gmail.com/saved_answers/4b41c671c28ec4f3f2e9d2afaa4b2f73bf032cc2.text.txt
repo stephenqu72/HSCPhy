@@ -1,0 +1,46 @@
+To solve this problem, we must apply the principles of electromagnetism as they relate to DC motors.
+
+### Given Data:
+- Number of turns ($N$) = $100$
+- Magnetic field strength ($B$) = $25.0\text{ mT} = 0.025\text{ T}$
+- Length of coil side ($l$) = $0.32\text{ m}$
+- Width of coil ($w$) = $0.1\text{ m}$
+- Driving voltage ($V$) = $120\text{ V}$
+- Resistance per turn ($R_{turn}$) = $0.018\text{ }\Omega$
+
+---
+
+### (a) Current flow from the power supply
+First, calculate the total resistance of the coil ($R_{total}$):
+$$R_{total} = N \times R_{turn} = 100 \times 0.018 = 1.8\text{ }\Omega$$
+
+Using Ohm's Law ($V = IR$):
+$$I = \frac{V}{R_{total}} = \frac{120}{1.8} = 66.67\text{ A}$$
+
+**Answer:** The current flow from the power supply is $66.7\text{ A}$ (to 3 significant figures).
+
+---
+
+### (b) Effective torque supplied by the motor
+The formula for the torque ($\tau$) on a motor coil is given by:
+$$\tau = N I A B$$
+where $A$ is the area of the coil ($l \times w$).
+
+1. Calculate the area ($A$):
+$$A = 0.32\text{ m} \times 0.1\text{ m} = 0.032\text{ m}^2$$
+
+2. Calculate the torque:
+$$\tau = 100 \times 66.67\text{ A} \times 0.032\text{ m}^2 \times 0.025\text{ T}$$
+$$\tau = 6667 \times 0.032 \times 0.025$$
+$$\tau = 5.33\text{ Nm}$$
+
+**Answer:** The effective torque supplied by the motor is $5.33\text{ Nm}$.
+
+---
+
+### How to solve this:
+1. **Identify the circuit parameters:** Always start by finding the total resistance of the coil by multiplying the turns by the resistance per turn. Then use Ohm's law to find the total current.
+2. **Apply the motor torque formula:** Recognize that for a coil in a radial magnetic field, the torque is constant and determined by $\tau = NIAB$. Ensure your units are in SI (meters, Tesla, Amperes) before calculating.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,21 @@
+The correct answer is **D**.
+
+### Explanation
+To identify the correct diagram for a DC motor, we need to distinguish between two key components: the electrical source and the commutator.
+
+1.  **The Electrical Source:** A motor is a device that converts electrical energy into mechanical energy. Therefore, it requires a power supply (a battery or DC source) to drive the current through the coil.
+    *   Diagrams A and B show a circle with a waveform inside, representing an **AC generator** (which produces electricity).
+    *   Diagrams C and D show a battery symbol (parallel lines of different lengths), representing a **DC power source**.
+
+2.  **The Commutator:** A DC motor requires a **split-ring commutator** to reverse the direction of the current every half-turn. This ensures that the torque remains in the same direction, allowing the motor to spin continuously.
+    *   The "rings" in diagrams A and C are complete, continuous circles (slip rings), which are used in AC generators to maintain the alternating current.
+    *   The "rings" in diagrams B and D are split into two halves (a split-ring commutator), which is the defining mechanical feature of a DC motor.
+
+**Conclusion:** 
+*   Diagram A is an AC generator (slip rings + output).
+*   Diagram B is an AC motor (split rings + AC source—though rare, this isn't a DC motor).
+*   Diagram C is a DC generator (split rings + output).
+*   **Diagram D** contains both a **DC power source** (the battery) and a **split-ring commutator**, which satisfies the requirements for a **DC motor**.
+
+### QUESTION_TYPE
+Multiple choice

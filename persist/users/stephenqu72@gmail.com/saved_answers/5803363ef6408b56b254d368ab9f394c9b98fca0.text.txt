@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(A) To reduce eddy currents in the core.**
+
+### Explanation
+To solve this question, you need to understand the physics of energy losses in transformers, specifically those relating to the iron core:
+
+1.  **The Problem:** Because the core is made of a conducting material (iron) and is placed within a changing magnetic field, the principles of electromagnetic induction (Faraday's Law) dictate that induced voltages will create circulating currents within the bulk of the metal core. These are known as **eddy currents**.
+2.  **The Consequence:** These eddy currents dissipate energy as heat due to the resistance of the metal. This represents an inefficiency in the transformer, as energy is lost rather than being transferred to the secondary coil.
+3.  **The Solution (Lamination):** Lamination involves breaking the iron core into thin sheets and separating them with an insulating material. This high-resistance barrier disrupts the path of the eddy currents. By restricting the physical path length over which these currents can circulate, the resistance to the eddy currents increases, effectively reducing their magnitude and, consequently, minimizing heat loss.
+
+**Why the other options are incorrect:**
+*   **(B):** Lamination does not significantly change the magnetic permeability of the soft iron.
+*   **(C):** Lamination actually *increases* the electrical resistance of the core by breaking the conductive path, which is exactly what suppresses the eddy currents.
+*   **(D):** The goal of the iron core is to *increase* and guide the flux linkage between the primary and secondary coils, not to reduce it.
+
+### QUESTION_TYPE
+Multiple choice

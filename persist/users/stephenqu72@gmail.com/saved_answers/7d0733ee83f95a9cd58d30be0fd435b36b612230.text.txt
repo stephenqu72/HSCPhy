@@ -1,0 +1,28 @@
+To solve this problem, we use the fundamental transformer equation, which relates the voltage and the number of turns in the primary and secondary coils.
+
+### (a) Calculate the voltage across the secondary coil
+The transformer equation is given by:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Given values:
+- Primary voltage ($V_p$) = $200\text{ V}$
+- Primary turns ($N_p$) = $400$
+- Secondary turns ($N_s$) = $1200$
+
+Rearranging for the secondary voltage ($V_s$):
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+$$V_s = 200 \times \frac{1200}{400}$$
+$$V_s = 200 \times 3$$
+$$V_s = 600\text{ V}$$
+
+### (b) Identify if this is a step-up or step-down transformer
+This is a **step-up transformer**. We can identify this because the number of turns in the secondary coil ($1200$) is greater than the number of turns in the primary coil ($400$), which results in an increase in output voltage ($600\text{ V} > 200\text{ V}$).
+
+### (c) Explain one method of increasing the efficiency
+One common method to increase the efficiency of a transformer is to use a **laminated iron core**. 
+**Explanation:** A solid iron core allows for the formation of large "eddy currents" (circular currents induced by the changing magnetic field), which leads to significant energy loss as heat due to the resistance of the core. By laminating the core (using thin sheets of metal insulated from each other), the path for these eddy currents is broken, significantly reducing energy losses due to heating and increasing overall efficiency.
+
+***
+
+###QUESTION_TYPE
+Calculation question

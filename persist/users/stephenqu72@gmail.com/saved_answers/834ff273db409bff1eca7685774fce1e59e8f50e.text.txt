@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To determine the direction of the induced current in a moving conductor within a magnetic field, we use **Right-Hand Palm Rule** (or Fleming’s Right-Hand Rule).
+
+1.  **The Physics Principle:** When a conductor moves through a magnetic field, the free electrons in the conductor experience a magnetic force ($F_m = qvB \sin \theta$). This force causes the charges to separate, creating an induced EMF and, consequently, an induced current if the circuit is closed. The direction of the "conventional current" is opposite to the movement of the electrons.
+2.  **Using the Right-Hand Palm Rule:**
+    *   **Thumb:** Points in the direction of the velocity of the conductor (to the **right**).
+    *   **Fingers:** Point in the direction of the magnetic field ($B$).
+    *   **Palm:** Represents the direction of the force acting on a *positive* charge (the direction of conventional current). We want this to be from **X to Y** (upwards).
+3.  **Testing the Options:**
+    *   **Option (A):** Fingers point into the page. Thumb points right. The palm faces **downwards** (towards X). This would induce current from Y to X.
+    *   **Option (B):** Fingers point **out of the page** (dots). Thumb points right. The palm faces **upwards** (towards Y). This matches the requirement for current to flow from X to Y.
+    *   **Options (C) and (D):** The magnetic field lines are parallel to the velocity vector. Since the angle $\theta$ between the velocity and the field is $0^\circ$ or $180^\circ$, the magnetic force $F_m = qvB \sin \theta$ is zero. No current will be induced.
+
+Therefore, for the current to flow from X to Y, the magnetic field must be directed out of the page.
+
+###QUESTION_TYPE
+Multiple choice

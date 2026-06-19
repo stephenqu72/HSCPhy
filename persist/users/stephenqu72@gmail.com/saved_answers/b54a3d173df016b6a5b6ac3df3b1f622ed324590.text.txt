@@ -1,0 +1,22 @@
+To justify this statement, we must identify the underlying physical principle governing both phenomena, which is **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Answer
+The statement is correct because the operation of both motors relies on the principle that a changing magnetic flux induces an electromotive force (emf) that opposes the change producing it (Lenz’s Law).
+
+1.  **Back EMF in DC Motors:** As the armature of a DC motor rotates in a magnetic field, the conductors cut magnetic flux lines. According to Faraday’s Law, this induces an emf within the armature coils. Lenz’s Law dictates that this induced emf (the back emf) acts in opposition to the supply voltage, limiting the current drawn by the motor.
+2.  **Induction Motors:** In an induction motor, a rotating magnetic field (produced by stator coils) sweeps across the rotor bars. This changing magnetic flux induces an emf in the rotor (Faraday’s Law). This induced emf drives a current in the rotor, which then experiences a force due to the interaction between the current and the magnetic field (motor effect). The induced currents always flow in a direction that produces a magnetic field to oppose the relative motion between the rotor and the rotating magnetic field (Lenz’s Law).
+3.  **Conclusion:** In both cases, the "Physics" is the electromagnetic induction that occurs when there is relative motion between a magnetic field and a conductor, resulting in an opposing emf or current as described by Faraday's and Lenz's Laws.
+
+---
+
+### How to solve this
+To achieve full marks (5/5) for this HSC-style question, follow this strategy:
+
+*   **Identify the Core Physics:** Immediately name the principles: Faraday’s Law ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$) and Lenz’s Law. This shows the examiner you understand the scientific foundation.
+*   **Structure the Argument:** Use a comparative structure. Dedicate one paragraph to the DC motor and one to the induction motor. This ensures you address the "both" part of the prompt clearly.
+*   **Use Technical Terminology:** Use terms like "relative motion," "changing magnetic flux," "induced emf," and "opposing."
+*   **Explicitly Link to the Prompt:** Ensure you state that the *same* physical laws are at play—specifically the interaction between motion, magnetic fields, and induced electrical effects.
+*   **Check the "Justify" Directive:** Since the question asks you to "justify," do not just describe the motors; you must prove *why* the physics is the same by highlighting the common reliance on electromagnetic induction.
+
+###QUESTION_TYPE
+Essay

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the contact force between two connected blocks moving together under an external force?
+
+### Back
+- Key idea: Use Newton's 2nd Law to find system acceleration, then isolate one block to find the internal contact force.
+- Formula / law / constant / figure: $a = \frac{F_{net}}{m_{total}}$ and $F_{contact} = m_{isolated} \times a$
+- When to use it: Problems involving connected bodies (blocks, pulleys, or trailers) moving with a common acceleration.
+- Common trap: Forgetting to use the *total* mass ($m_A + m_B$) when calculating system acceleration.

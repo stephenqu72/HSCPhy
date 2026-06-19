@@ -1,0 +1,19 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To understand how an AC induction motor works, let’s break down the components and the physics involved:
+
+1.  **Identify the parts:** In the diagram provided, the outer stationary part with the coils is the **stator**, while the central rotating part labeled $X$ is the **rotor**.
+2.  **The Stator's role:** The coils on the stator are supplied with an alternating current (AC). This current creates a **rotating magnetic field** that changes over time (it provides a varying magnetic flux).
+3.  **The Rotor's role ($X$):** As the magnetic field from the stator rotates, it "cuts" across the conductors in the rotor. According to **Faraday’s Law**, this changing magnetic flux induces an EMF in the rotor. Because the rotor consists of conductive loops or bars (a "squirrel cage"), this induced EMF results in a large induced current.
+4.  **Lenz’s Law and Motion:** According to **Lenz’s Law**, the induced current in the rotor creates its own magnetic field that opposes the change in flux produced by the stator. The interaction between the stator’s rotating magnetic field and the magnetic field created by the rotor’s induced current produces a torque, causing the rotor $X$ to spin in the same direction as the rotating magnetic field.
+
+**Why the other options are incorrect:**
+*   **(A) and (B):** The stator provides the magnetic flux, not the rotor.
+*   **(D):** An induction motor relies specifically on a **varying** (changing) magnetic flux to induce currents in the rotor. A constant magnetic flux would not induce a current (as per Faraday's Law, $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$), and therefore no torque would be produced to cause rotation.
+
+Therefore, $X$ is the component that rotates as a direct result of the varying magnetic flux produced by the stator.
+
+### QUESTION_TYPE
+Multiple choice

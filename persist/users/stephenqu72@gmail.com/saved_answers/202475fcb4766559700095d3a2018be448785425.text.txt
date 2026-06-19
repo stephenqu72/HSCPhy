@@ -1,0 +1,33 @@
+To solve this problem, we use Young's double-slit interference formula.
+
+### 1. Identify the given variables
+*   Slit separation ($d$): $90\ \mu\text{m} = 90 \times 10^{-6}\ \text{m}$
+*   Distance to the wall ($L$): $6\ \text{m}$
+*   Fringe separation ($\Delta y$): $3\ \text{cm} = 0.03\ \text{m}$
+
+### 2. The formula
+The interference pattern for a double slit is given by:
+$$\Delta y = \frac{\lambda L}{d}$$
+where:
+*   $\lambda$ is the wavelength
+*   $\Delta y$ is the distance between consecutive bright fringes (the "bright spots")
+
+### 3. Rearrange and solve
+Rearrange the formula to solve for $\lambda$:
+$$\lambda = \frac{\Delta y \cdot d}{L}$$
+
+Substitute the values:
+$$\lambda = \frac{0.03\ \text{m} \times (90 \times 10^{-6}\ \text{m})}{6\ \text{m}}$$
+$$\lambda = \frac{2.7 \times 10^{-6}}{6}\ \text{m}$$
+$$\lambda = 0.45 \times 10^{-6}\ \text{m}$$
+
+Convert to nanometers (since $1\ \text{nm} = 10^{-9}\ \text{m}$):
+$$\lambda = 450 \times 10^{-9}\ \text{m} = 450\ \text{nm}$$
+
+Comparing this result to the given options, the correct answer is **(C)**.
+
+### Explanation Summary
+This is a standard Young's double-slit experiment problem. The key is ensuring all units are converted into SI base units (meters) before calculating, and then converting back to the requested unit (nanometers) at the end. By identifying the variables for fringe spacing, slit separation, and distance to the screen, we apply the formula $\Delta y = \frac{\lambda L}{d}$ to isolate the wavelength.
+
+###QUESTION_TYPE
+Multiple choice

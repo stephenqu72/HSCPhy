@@ -1,0 +1,21 @@
+To answer this question effectively, you must demonstrate an understanding of electromagnetism, specifically the **Motor Effect** and **Lenz's Law**.
+
+### Answer
+**Propelling the vehicle:**
+When the electric motor is used as a motor, it utilizes the **Motor Effect**. A current is supplied to the motor coils, which are placed within a magnetic field. According to the formula $F = BIL \sin(\theta)$, the interaction between the current-carrying conductors and the magnetic field creates a torque, which propels the vehicle forward by converting electrical energy into kinetic energy.
+
+**Braking the vehicle (Regenerative Braking):**
+When the motor acts as a generator, the vehicle's kinetic energy forces the motor coils to rotate within the magnetic field, inducing an EMF (electromagnetic induction). According to **Lenz’s Law**, the direction of the induced current creates a magnetic force that opposes the change in motion that produced it. This magnetic braking force exerts a torque in the opposite direction of the rotation, slowing the vehicle down while converting kinetic energy back into electrical energy.
+
+---
+
+### How to solve this question
+To secure all 4 marks, structure your answer by addressing both "propelling" and "braking" distinctly:
+
+1.  **Address the Motor Effect (Propulsion):** Mention that electrical energy is converted to mechanical energy. You must explicitly link the presence of current in a magnetic field to the production of a force/torque.
+2.  **Use Physics Terminology:** Use key terms like "Lorentz force" or "Motor Effect" for the propulsion phase. 
+3.  **Address Electromagnetic Induction (Braking):** Clearly state that the motor is now acting as a generator. Note that mechanical energy is being converted back to electrical energy.
+4.  **Explain the Braking Force (Lenz's Law):** This is the most crucial part for the marks. You must state that **Lenz’s Law** dictates that the induced current creates a magnetic field that opposes the original motion. Without mentioning opposition to motion, you cannot explain why it *brakes* the vehicle.
+
+###QUESTION_TYPE
+Short answer

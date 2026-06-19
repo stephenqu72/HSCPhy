@@ -1,0 +1,25 @@
+To achieve full marks on this 6-mark question, you need to combine your observations of the graphs with your knowledge of physics principles regarding light spectra and the practical constraints of manual instrumentation.
+
+### Answer
+
+**1. Analysis of the Light Sources**
+*   **Incandescent Light (Figure 1):** This spectrum is **continuous**. It shows a smooth, broad distribution of intensity across all wavelengths in the visible range ($400\text{ nm}$ to $750\text{ nm}$). This is characteristic of black-body radiation, where the filament emits light due to its high thermal temperature.
+*   **Fluorescent Light (Figure 2):** This spectrum is **discrete/emission-line**. It shows specific peaks of high intensity at certain wavelengths superimposed on a low-intensity background. This occurs because the electrical discharge excites mercury vapor atoms, which emit light at specific quantized energy levels (spectral lines), followed by the phosphor coating converting UV light into specific visible wavelengths.
+
+**2. Limitations of the Hand-held Spectroscope**
+*   **Lack of Calibration:** A simple hand-held spectroscope typically lacks a precise intensity scale (y-axis) or a highly accurate wavelength scale (x-axis), making it impossible to obtain objective, repeatable quantitative data.
+*   **Subjectivity:** The results are observer-dependent. Determining the exact peak intensity or identifying the exact wavelength relies on the human eye’s ability to resolve colors, which varies between individuals.
+*   **Resolution:** Hand-held spectroscopes have a low spectral resolution. They may fail to separate closely spaced spectral lines that a digital spectrometer would clearly distinguish.
+*   **Sensitivity:** The human eye is not sensitive to the extremes of the spectrum (near UV or IR) and has a non-linear response to intensity, making it an unreliable tool for quantitative measurement compared to a calibrated electronic sensor.
+
+---
+
+### How to solve this
+1.  **Read the Data:** Note the contrast between the *smooth curve* (incandescent) and the *sharp spikes* (fluorescent). Use the term "continuous spectrum" for the former and "emission spectrum" or "line spectrum" for the latter.
+2.  **Apply Physics Knowledge:** Link the visual appearance to the underlying physics. Remember: Incandescent = thermal radiation; Fluorescent = atomic excitation/fluorescence.
+3.  **Address "Quantitative Analysis":** When a question asks for "limitations," think about why a scientist would choose a $50,000 digital spectrometer over a $50 plastic tube.
+    *   *Human factor:* Eyes are not sensors; they are subjective.
+    *   *Instrument factor:* Manual devices lack built-in sensors (CCD/CMOS) and computer interfaces to provide a digital readout of intensity.
+
+### QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,43 @@
+As your HSC physics teacher, I will guide you through these calculations step-by-step. The key here is to keep track of where the power is being lost—specifically in the resistance of the wires.
+
+---
+
+### Part a
+**Goal:** Calculate the power produced by the generator ($P_{gen}$).
+
+Using the formula for electrical power $P = VI$:
+$$P = 415\text{ V} \times 100\text{ A} = 41,500\text{ W}$$
+To convert to kilowatts:
+$$41,500\text{ W} \div 1000 = 41.5\text{ kW}$$
+
+**Answer:** $41.5\text{ kW}$
+
+---
+
+### Part b
+**Goal:** Determine if the factory receives the required $40\text{ kW}$.
+
+1. **Calculate Power Loss ($P_{loss}$):** Power is lost in the wires due to their resistance ($R = 2.00\ \Omega$).
+   $$P_{loss} = I^2R = (100\text{ A})^2 \times 2.00\ \Omega = 10,000 \times 2 = 20,000\text{ W} = 20\text{ kW}$$
+2. **Calculate Power at Factory ($P_{factory}$):**
+   $$P_{factory} = P_{gen} - P_{loss} = 41.5\text{ kW} - 20\text{ kW} = 21.5\text{ kW}$$
+3. **Conclusion:** Since $21.5\text{ kW} < 40\text{ kW}$, the energy supply system is **not sufficient** to operate the factory.
+
+---
+
+### Part c
+**Goal:** Determine the new power at the factory after using transformers.
+
+1. **New Current ($I_{new}$):** The step-up transformer has a turns ratio of $1:10$. Since $P = VI$ remains constant, if the voltage increases by a factor of 10, the current decreases by a factor of 10.
+   $$I_{new} = \frac{100\text{ A}}{10} = 10\text{ A}$$
+2. **New Power Loss ($P_{loss\_new}$):**
+   $$P_{loss\_new} = (I_{new})^2R = (10\text{ A})^2 \times 2.00\ \Omega = 100 \times 2 = 200\text{ W} = 0.2\text{ kW}$$
+3. **New Power at Factory:**
+   $$P_{factory\_new} = P_{gen} - P_{loss\_new} = 41.5\text{ kW} - 0.2\text{ kW} = 41.3\text{ kW}$$
+
+**Answer:** The power supplied to the factory is $41.3\text{ kW}$.
+
+---
+
+###QUESTION_TYPE
+Calculation question

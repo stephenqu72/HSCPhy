@@ -1,0 +1,22 @@
+### Answer
+The correct option is **C**.
+
+### Explanation
+To solve this problem, we must analyze the physics of DC motor design as shown in the diagrams and the resulting torque graphs.
+
+1.  **Effect of Radial Magnets (Motor A):**
+    *   In Motor A, the magnets are curved (radial). This design ensures that the magnetic field lines are always perpendicular to the plane of the coil (or parallel to the face of the coil) throughout the rotation. 
+    *   Since torque is given by $\tau = nIAB \sin(\theta)$ (where $\theta$ is the angle between the normal to the coil and the magnetic field), radial magnets ensure the coil experiences a constant, maximum magnetic influence for a greater proportion of the rotation. This results in the "flatter" and more consistent torque output seen in the graph for Motor A compared to Motor B.
+
+2.  **Effect of Increasing Number of Coils (Motor A vs. Motor B):**
+    *   Motor A has multiple coils (as indicated by the star-like cross-section), while Motor B has a single coil (a cross shape).
+    *   When you have multiple coils set at different angles, the total torque is the sum of the torques produced by each individual coil. As one coil moves out of the optimal position, another is moving into it.
+    *   This effectively **reduces the range of torque** (the ripple effect). The difference between the maximum and minimum torque values is much smaller for Motor A (the black line) than for Motor B (the red line), providing a smoother, more constant output.
+
+**Why the other options are incorrect:**
+*   **A:** Incorrect because increasing the number of coils *increases* the frequency of torque pulses, as there are more segments in the commutator.
+*   **B:** While radial magnets do keep the torque high, the primary goal of increasing the number of coils is to smooth the output, not necessarily to change the maximum torque of the motor itself.
+*   **D:** While it is true that multiple coils help prevent torque from dropping to zero, "Reduces the range of torque" is a more precise description of the graphical data provided. Option C more accurately captures both physical phenomena: the radial magnets provide consistent torque over a greater proportion of rotation, and the multiple coils smooth out the torque ripple (reducing the range).
+
+### QUESTION_TYPE
+Multiple choice

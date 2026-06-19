@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Goal:** Show $OPD = 2dn_2 \cos \theta_2$.
+
+**Solution:**
+1.  From the geometry of the triangle $ABC$ (where $AB = BC$), we know that $\cos \theta_2 = \frac{d}{AB}$, so $AB = BC = \frac{d}{\cos \theta_2}$.
+2.  The term $n_2(AB + BC)$ becomes:
+    $$n_2 \left( \frac{d}{\cos \theta_2} + \frac{d}{\cos \theta_2} \right) = \frac{2dn_2}{\cos \theta_2}$$
+3.  For the path $AD$, consider the triangle $ADC$. The length $AC = 2d \tan \theta_2$. In the triangle involving $\theta_1$, we use Snell's Law: $n_1 \sin \theta_1 = n_2 \sin \theta_2$. 
+4.  Since $AD = AC \sin \theta_1 = (2d \tan \theta_2) \sin \theta_1$, substitute $\sin \theta_1 = \frac{n_2}{n_1} \sin \theta_2$:
+    $$n_1(AD) = n_1 (2d \tan \theta_2) \left( \frac{n_2}{n_1} \sin \theta_2 \right) = 2dn_2 \frac{\sin^2 \theta_2}{\cos \theta_2}$$
+5.  Subtracting the terms:
+    $$OPD = \frac{2dn_2}{\cos \theta_2} - \frac{2dn_2 \sin^2 \theta_2}{\cos \theta_2} = \frac{2dn_2}{\cos \theta_2} (1 - \sin^2 \theta_2)$$
+6.  Using the identity $\cos^2 \theta_2 = 1 - \sin^2 \theta_2$:
+    $$OPD = \frac{2dn_2 \cos^2 \theta_2}{\cos \theta_2} = 2dn_2 \cos \theta_2$$
+
+#### Part (b)
+**Conditions for interference:**
+*   **Constructive Interference:** Occurs when the path difference is an integer multiple of the wavelength, $OPD = m\lambda$ (where $m = 0, 1, 2...$), resulting in a bright fringe (assuming no additional phase shifts).
+*   **Destructive Interference:** Occurs when the path difference is an odd integer multiple of half-wavelengths, $OPD = (m + \frac{1}{2})\lambda$, resulting in a dark fringe.
+*   *Note:* In an exam, you should also mention that if there is a phase change of $\pi$ upon reflection (at the first surface), these conditions are inverted.
+
+#### Part (c)
+**Observations:**
+Because incandescent light is polychromatic (contains all visible colors), different wavelengths interfere constructively and destructively at different parts of the film based on the thickness ($d$) and the viewing angle ($\theta_2$).
+1.  **Colored Fringes:** You will observe a pattern of shifting colors across the surface of the soap bubble.
+2.  **Angle Dependence:** As you change the viewing angle, $\cos \theta_2$ changes, altering the $OPD$ for specific wavelengths. This causes the colors at any specific point on the bubble to change (iridescence).
+3.  **Thickness Variation:** The non-uniform thickness leads to different regions of the bubble favoring different wavelengths for constructive interference, creating the characteristic swirling "rainbow" pattern.
+
+###QUESTION_TYPE
+Calculation question

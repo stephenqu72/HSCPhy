@@ -1,0 +1,27 @@
+To solve this problem, we need to determine the difference in distance between the two paths taken by the radio waves and compare that to the wavelength of the waves.
+
+### Step 1: Calculate the distance of each path
+*   **Path 1 ($P \rightarrow Q \rightarrow R$):** The total distance is the sum of the segments $PQ$ and $QR$.
+    $$d_1 = 20\text{ m} + 18\text{ m} = 38\text{ m}$$
+*   **Path 2 ($P \rightarrow R$):** The distance is given directly.
+    $$d_2 = 30\text{ m}$$
+
+### Step 2: Calculate the path difference ($\Delta d$)
+The path difference is the difference between the lengths of the two paths:
+$$\Delta d = d_1 - d_2 = 38\text{ m} - 30\text{ m} = 8\text{ m}$$
+
+### Step 3: Determine the wavelength ($\lambda$) of the radio waves
+Radio waves travel at the speed of light, $c \approx 3 \times 10^8\text{ m/s}$. We use the wave equation $c = f\lambda$, where $f = 75\text{ MHz} = 75 \times 10^6\text{ Hz}$.
+$$\lambda = \frac{c}{f} = \frac{3 \times 10^8\text{ m/s}}{75 \times 10^6\text{ Hz}}$$
+$$\lambda = \frac{300 \times 10^6}{75 \times 10^6}\text{ m} = 4\text{ m}$$
+
+### Step 4: Express the path difference in terms of $\lambda$
+We want to find $n$ such that $\Delta d = n\lambda$:
+$$8\text{ m} = n \times 4\text{ m}$$
+$$n = \frac{8}{4} = 2$$
+Therefore, the path difference is $2\lambda$.
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

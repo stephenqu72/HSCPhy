@@ -1,0 +1,19 @@
+To determine the correct direction of the induced current, we apply **Lenz’s Law** and **Faraday’s Law of Induction**.
+
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+
+1.  **Analyze the Magnetic Flux:** As the square copper sheet moves downwards out of the magnetic field region (represented by the crosses, meaning the field points into the page), the magnetic flux $\Phi$ passing through the area of the sheet is decreasing.
+2.  **Apply Lenz’s Law:** Lenz’s Law states that an induced current will always flow in a direction that creates a magnetic field to oppose the *change* in flux. Since the downward motion causes a decrease in the magnetic flux pointing *into* the page, the induced current must create its own magnetic field pointing *into* the page to reinforce the diminishing flux.
+3.  **Determine Current Direction:** We use the **Right-Hand Grip Rule** to determine the current direction. Point your right thumb in the direction of the required induced magnetic field (into the page). Your fingers will curl in the direction of the induced current. This results in a **clockwise** flow of current.
+4.  **Evaluate Options:**
+    *   (A) and (B) show linear currents, which do not represent the eddy currents typically formed in bulk conductors like a sheet.
+    *   (C) shows a counter-clockwise current, which would create a magnetic field pointing *out* of the page, opposing the existing field rather than opposing the *change* (this would violate Lenz's Law).
+    *   (D) shows a **clockwise** current, which creates a magnetic field pointing *into* the page, supporting the magnetic flux that is currently being lost as the sheet exits the region.
+
+Therefore, (D) is the only option that correctly describes the physical process.
+
+###QUESTION_TYPE
+Multiple choice

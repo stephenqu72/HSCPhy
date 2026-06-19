@@ -1,0 +1,41 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down these transformer questions. These are classic syllabus-based questions that test your understanding of electromagnetic induction and efficiency.
+
+---
+
+### Part (a)
+**Answer:** The primary role of the iron core is to provide a path of low magnetic reluctance, which confines and directs the magnetic flux produced by the primary coil towards the secondary coil. By concentrating the flux, the core ensures maximum magnetic flux linkage between the primary and secondary coils, significantly reducing flux leakage and increasing the efficiency of the electromagnetic induction process.
+
+**How to solve:** Focus on the keyword "flux linkage." You must mention the core's ability to channel the magnetic field lines (reducing leakage) to ensure the secondary coil experiences the maximum change in flux as required by Faraday’s Law.
+
+---
+
+### Part (b)
+**Answer:** The iron core is laminated (made of thin, insulated sheets) to increase the resistance within the core. This breaks up the paths for eddy currents, which are circular currents induced in the core by the changing magnetic field. Reducing eddy currents minimizes heat dissipation (energy loss) caused by the heating effect of these currents (Joule heating). The laminations do not affect the main role of the core because they are oriented parallel to the magnetic field lines, allowing the magnetic flux to pass through the core effectively while blocking the perpendicular circular paths of the eddy currents.
+
+**How to solve:** To get full marks, you need to link the physical structure (lamination) to the physical effect (increased resistance $\rightarrow$ decreased eddy currents $\rightarrow$ decreased heat loss) and then explain why this doesn't hinder the magnetic function (magnetic field orientation vs. current path).
+
+---
+
+### Part (c)
+**Answer:** 
+Given:
+- Primary Voltage $V_p = 11,000\text{ V}$
+- Secondary Voltage $V_s = 220\text{ V}$
+- Primary Current $I_p = 0.5\text{ A}$
+- Efficiency $\eta = 95\% = 0.95$
+
+Efficiency is defined as:
+$$\text{Efficiency} = \frac{P_{out}}{P_{in}} = \frac{V_s I_s}{V_p I_p}$$
+
+Rearranging to solve for secondary current $I_s$:
+$$I_s = \frac{\text{Efficiency} \times V_p \times I_p}{V_s}$$
+$$I_s = \frac{0.95 \times 11,000 \times 0.5}{220}$$
+$$I_s = \frac{5,225}{220}$$
+$$I_s = 23.75\text{ A}$$
+
+**How to solve:** Use the efficiency formula. Remember that efficiency is the ratio of output power to input power. First calculate input power $P_{in} = V_p I_p$, apply the 95% efficiency to get $P_{out}$, and then divide by $V_s$ to isolate $I_s$.
+
+---
+
+###QUESTION_TYPE
+Calculation question

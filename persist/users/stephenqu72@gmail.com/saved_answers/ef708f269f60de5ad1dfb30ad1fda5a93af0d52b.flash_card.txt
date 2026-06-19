@@ -1,0 +1,8 @@
+### Front
+How does the normal force acting on an object change when its supporting platform accelerates downwards?
+
+### Back
+- **Key idea:** The normal force decreases because a net downward force is required to produce downward acceleration.
+- **Formula / law / constant / figure:** $\sum F = ma \rightarrow (mg - F_N) = ma \rightarrow F_N = m(g - a)$
+- **When to use it:** When analysing contact forces in systems undergoing vertical acceleration.
+- **Common trap:** Assuming $F_N = mg$; this only applies when the object is stationary or moving at constant velocity ($\sum F = 0$).

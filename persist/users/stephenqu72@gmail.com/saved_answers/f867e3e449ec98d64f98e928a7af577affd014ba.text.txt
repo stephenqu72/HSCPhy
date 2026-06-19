@@ -1,0 +1,32 @@
+To solve this problem, we use the diffraction grating formula:
+$$d \sin(\theta) = n\lambda$$
+
+### Part a) Calculation
+**1. Identify the given values:**
+*   Wavelength ($\lambda$): $545\text{ nm} = 545 \times 10^{-9}\text{ m}$
+*   Order of the bright spot ($n$): $3$
+*   Number of lines per cm: $1.2 \times 10^3\text{ lines/cm} = 1.2 \times 10^5\text{ lines/m}$
+
+**2. Calculate the grating spacing ($d$):**
+The spacing $d$ is the reciprocal of the number of lines per meter ($N$):
+$$d = \frac{1}{N} = \frac{1}{1.2 \times 10^5} \approx 8.333 \times 10^{-6}\text{ m}$$
+
+**3. Solve for $\theta$:**
+$$8.333 \times 10^{-6} \times \sin(\theta) = 3 \times (545 \times 10^{-9})$$
+$$\sin(\theta) = \frac{1.635 \times 10^{-6}}{8.333 \times 10^{-6}}$$
+$$\sin(\theta) = 0.1962$$
+$$\theta = \arcsin(0.1962) \approx 11.31^\circ$$
+
+The angular deviation is approximately **$11.31^\circ$**.
+
+---
+
+### Part b) Explanation
+This experiment creates regions of bright and dark spots due to the principle of **superposition and interference** of light waves:
+
+1.  **Diffraction:** When monochromatic light passes through the narrow slits of the grating, the light waves spread out (diffract) from each slit.
+2.  **Constructive Interference (Bright Spots):** When waves from adjacent slits arrive at a point on the screen in phase (where the path difference is an integer multiple of the wavelength, $n\lambda$), they undergo constructive interference. This reinforces the amplitude, resulting in a bright spot.
+3.  **Destructive Interference (Dark Spots):** When waves arrive at a point out of phase (where the path difference is a half-integer multiple of the wavelength), they undergo destructive interference. The crests of one wave coincide with the troughs of another, cancelling each other out and resulting in dark regions.
+
+###QUESTION_TYPE
+Calculation question

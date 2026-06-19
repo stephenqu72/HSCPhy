@@ -1,0 +1,19 @@
+To answer this question effectively, you must link the physical principles of electromagnetic induction to the specific data provided on the transformer label.
+
+### Answer
+Transformers operate based on the principle of **Faraday’s Law of Induction**. When an alternating current (AC) is applied to the primary coil (in this case, $120\text{V}$ at $60\text{Hz}$), it creates a changing magnetic flux within the transformer's iron core. This changing magnetic flux passes through the secondary coil, inducing an alternating electromotive force (EMF) across it (the $12\text{VAC}$ output).
+
+By applying the transformer equation $\frac{V_p}{V_s} = \frac{N_p}{N_s}$, we can see that since the input voltage is $120\text{V}$ and the output is $12\text{V}$, this is a step-down transformer where the primary coil has ten times as many turns as the secondary coil. Furthermore, the efficiency can be evaluated by comparing input power ($P_{in} = V_p \times I_p = 120\text{V} \times 0.55\text{A} = 66\text{W}$) to output power ($12\text{W}$). Since $P_{out} < P_{in}$, energy is being dissipated as heat due to factors like eddy currents and resistance.
+
+### How to solve this question
+To secure all 4 marks, follow this structured approach:
+
+1.  **Identify the Core Physics:** Start by mentioning **electromagnetic induction**. Explain that the input AC ($60\text{Hz}$) produces a changing magnetic field in the core, which links to the secondary coil to produce an output voltage.
+2.  **Reference the Transformer Equation:** Explicitly link the voltages provided ($120\text{V}$ and $12\text{V}$) to the ratio of turns between the primary and secondary coils.
+3.  **Perform Power Analysis:** Use the provided quantities to calculate power.
+    *   Input Power: $P_{in} = V_p \times I_p = 120 \times 0.55 = 66\text{W}$.
+    *   Output Power: $P_{out} = 12\text{W}$.
+4.  **Discuss Efficiency:** Note the discrepancy between input and output power. In an ideal transformer, $P_{in}$ would equal $P_{out}$, but in reality, some energy is lost as heat (Joule heating/eddy currents).
+
+###QUESTION_TYPE
+Short answer

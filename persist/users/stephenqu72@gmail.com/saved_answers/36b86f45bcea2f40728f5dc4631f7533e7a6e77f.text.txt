@@ -1,0 +1,33 @@
+To find the magnitude of the induced current in the rod, we follow a two-step physics process: calculating the induced electromotive force (EMF) and then applying Ohm's Law.
+
+### 1. Identify the given values
+*   Magnetic field strength ($B$): $0.33\text{ T}$
+*   Length of the rod within the magnetic field ($l$): $30\text{ cm} = 0.30\text{ m}$ (Note: Use the distance between the rails, as that defines the loop's width).
+*   Velocity ($v$): $6.2\text{ m/s}$
+*   Resistance ($R$): $9.0\text{ }\Omega$
+
+### 2. Calculate the Induced EMF ($\varepsilon$)
+The motional EMF induced in a conductor moving through a magnetic field is given by the formula:
+$$\varepsilon = B \cdot l \cdot v$$
+
+Substituting the values:
+$$\varepsilon = 0.33 \times 0.30 \times 6.2$$
+$$\varepsilon = 0.6138\text{ V}$$
+
+### 3. Calculate the Induced Current ($I$)
+Using Ohm's Law, $I = \frac{V}{R}$ (where $V = \varepsilon$):
+$$I = \frac{0.6138}{9.0}$$
+$$I = 0.0682\text{ A}$$
+
+### 4. Convert to milliamperes (mA)
+To convert Amperes to milliamperes, multiply by $1000$:
+$$0.0682\text{ A} \times 1000 = 68.2\text{ mA}$$
+
+Rounding to the nearest option provided, we get **$68\text{ mA}$**.
+
+**Correct Answer: B**
+
+***
+
+###QUESTION_TYPE
+Multiple choice

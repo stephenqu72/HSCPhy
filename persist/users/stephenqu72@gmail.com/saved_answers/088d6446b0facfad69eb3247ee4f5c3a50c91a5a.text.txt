@@ -1,0 +1,24 @@
+### Answer
+
+**(a)**
+To calculate the voltage across light globe $X$, we use the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Given $V_p = 240\text{ V}$, $N_p = 300$, and $N_s = 50$:
+$$\frac{240}{V_s} = \frac{300}{50}$$
+$$\frac{240}{V_s} = 6$$
+$$V_s = \frac{240}{6} = 40\text{ V}$$
+The voltage across light globe $X$ is **$40\text{ V}$**.
+
+**(b)**
+When the switch is open, the secondary circuit is incomplete, meaning no current flows through the secondary coil. The primary coil acts purely as an inductor, drawing only a small magnetizing current to create the changing magnetic flux in the core.
+
+When the switch is closed, the circuit is completed, and current flows through the light globes. According to the principle of conservation of energy (and the transformer ideal model where $P_{in} = P_{out}$), the secondary circuit now draws power. This change in the secondary circuit creates a secondary magnetic field that opposes the change in flux (Lenz’s Law). To maintain the required back EMF in the primary coil, the primary coil must draw additional current from the source to compensate for the load in the secondary. Therefore, the total current in the primary coil increases.
+
+---
+
+### How to solve it
+1.  **For part (a):** Recognize that an ideal transformer follows the ratio formula $\frac{V_p}{V_s} = \frac{N_p}{N_s}$. Simply plug in the provided values to solve for the unknown secondary voltage $V_s$. Since globe $X$ is connected in parallel with the secondary coil, it experiences the full secondary voltage regardless of the state of the switch (as long as the source is connected).
+2.  **For part (b):** Focus on the relationship between primary and secondary circuits in an ideal transformer. Remember that the primary current is dependent on the secondary current. When a load is added (closing the switch), the power demand increases. The transformer responds to this increased secondary current by increasing the primary current to maintain the magnetic flux and satisfy the power balance equation ($V_p I_p = V_s I_s$).
+
+###QUESTION_TYPE
+Calculation question

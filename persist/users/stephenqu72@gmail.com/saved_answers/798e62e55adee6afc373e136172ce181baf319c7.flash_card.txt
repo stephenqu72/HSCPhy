@@ -1,0 +1,8 @@
+### Front
+How do you determine if an object will escape a planet's gravitational field, and what is the formula for escape velocity?
+
+### Back
+- Key idea: Compare the object's current velocity ($v$) to the required escape velocity ($v_e$); if $v \ge v_e$, it escapes.
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{R}}$
+- When to use it: To calculate the minimum speed needed to move an object from a planet's surface to infinity.
+- Common trap: Using the mass of the object ($m$) instead of the mass of the planet ($M$), or confusing escape velocity with orbital velocity ($\sqrt{GM/R}$).

@@ -1,0 +1,22 @@
+### Answer
+
+**(a) Evaluation:**
+The student's definition is partially correct but incomplete. While eddy currents are indeed induced in conductors due to relative motion within a magnetic field, they are not exclusively "circular." Eddy currents are more broadly defined as **closed loops of induced current** within the bulk of a conductor that occur due to a **changing magnetic flux** through the conductor (which is caused by relative motion). 
+
+**(b) Explanation and Drawing:**
+*   **Direction:** As the metal plate moves to the right into the magnetic field, the magnetic flux through the plate increases. According to **Lenz’s Law**, the induced current must create a magnetic field to oppose this increase in flux.
+*   **Analysis:** The external magnetic field is directed **out of the page** (represented by dots). To oppose the increasing outward flux, the induced current must create an **inward** magnetic field (into the page). By the **Right-Hand Grip Rule**, an induced current flowing in a **clockwise** direction will create an inward magnetic field.
+*   **Drawing:** You should draw a clockwise loop of current inside the portion of the plate currently entering the magnetic field.
+
+---
+
+### How to solve this
+
+1.  **For part (a):** When evaluating definitions, look for missing nuance. The term "circular" is too restrictive; eddy currents can take various shapes depending on the geometry of the conductor. The fundamental driver is Faraday's Law (a change in magnetic flux, $\Delta \Phi_B$), which is triggered by motion.
+2.  **For part (b):** This is a classic application of **Lenz's Law**. Follow these steps:
+    *   **Identify the change:** The plate moves into the field, so the flux $\Phi_B$ increases in the outward direction.
+    *   **Determine the goal:** Lenz’s Law states the system resists the change. Therefore, the induced field must point **into the page** to counteract the increasing outward flux.
+    *   **Apply the Right-Hand Grip Rule:** Point your thumb into the page; your fingers curl in a **clockwise** direction. This is the direction of the induced eddy current.
+
+###QUESTION_TYPE
+Short answer

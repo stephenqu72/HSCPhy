@@ -1,0 +1,36 @@
+To determine which transition corresponds to the emission spectrum, we use the relationship between the energy of a photon ($\Delta E$) and its wavelength ($\lambda$):
+
+$$\Delta E = \frac{hc}{\lambda}$$
+
+Where:
+- $h \approx 4.136 \times 10^{-15} \text{ eV s}$ (Planck's constant)
+- $c \approx 3.00 \times 10^8 \text{ m/s}$ (speed of light)
+- $hc \approx 1241 \text{ eV nm}$
+
+### Step-by-step calculation:
+
+We need to calculate the energy change $\Delta E$ for each option and see which wavelength $\lambda$ from the spectrum ($565, 569, 575, 582, 587, 594, 600 \text{ nm}$) matches:
+
+**Option A: $-1.45 \text{ eV}$ to $-3.54 \text{ eV}$**
+$\Delta E = -1.45 - (-3.54) = 2.09 \text{ eV}$
+$\lambda = \frac{1241}{2.09} \approx 593.8 \text{ nm}$ (Matches the **594 nm** line)
+
+**Option B: $-1.45 \text{ eV}$ to $-5.74 \text{ eV}$**
+$\Delta E = -1.45 - (-5.74) = 4.29 \text{ eV}$
+$\lambda = \frac{1241}{4.29} \approx 289 \text{ nm}$ (Not in the visible spectrum shown)
+
+**Option C: $-1.47 \text{ eV}$ to $-5.74 \text{ eV}$**
+$\Delta E = -1.47 - (-5.74) = 4.27 \text{ eV}$
+$\lambda = \frac{1241}{4.27} \approx 291 \text{ nm}$ (Not in the visible spectrum shown)
+
+**Option D: $-1.45 \text{ eV}$ to $-1.47 \text{ eV}$**
+$\Delta E = 0.02 \text{ eV}$
+$\lambda = \frac{1241}{0.02} = 62050 \text{ nm}$ (Infrared, not in spectrum)
+
+### Conclusion
+The transition from $-1.45 \text{ eV}$ to $-3.54 \text{ eV}$ produces a photon with a wavelength of approximately $594 \text{ nm}$, which is clearly visible in the provided emission spectrum.
+
+**The correct answer is A.**
+
+###QUESTION_TYPE
+Multiple choice

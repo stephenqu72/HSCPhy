@@ -1,0 +1,25 @@
+To solve this problem, we must understand the timing between the light traveling to the mirror and returning, relative to the physical movement of the cogwheel.
+
+### Explanation
+For the light to be blocked, it must pass through a gap in the cogwheel, travel to the mirror and back, and then strike a tooth upon its return. 
+1. The total distance traveled by the light is $d = 2 \times 8 \text{ km} = 16 \text{ km} = 16,000 \text{ m}$.
+2. Taking the speed of light $c \approx 3 \times 10^8 \text{ m/s}$, the time taken for the round trip is $t = \frac{d}{c}$.
+3. For the light to be blocked, in the time $t$, the cogwheel must rotate such that a tooth moves into the position previously occupied by a gap. Since there are 50 teeth and 50 gaps (100 divisions total), a rotation of $1/100$ of a full circle will move a gap to a tooth position.
+
+### Calculation
+Using the standard speed of light $c = 3.00 \times 10^8 \text{ m/s}$:
+
+**Step 1: Calculate time taken for the round trip**
+$$t = \frac{d}{c} = \frac{16,000}{3.00 \times 10^8} = 5.33 \times 10^{-5} \text{ s}$$
+
+**Step 2: Determine angular requirements**
+The wheel has 100 "slots" (50 teeth + 50 gaps). To block the light, the wheel must rotate by $1/100$ of a revolution in time $t$. 
+The frequency $f$ (revolutions per second) required is:
+$$f = \frac{\text{rotation required}}{t} = \frac{1/100}{5.33 \times 10^{-5}} = \frac{1}{100 \times 5.33 \times 10^{-5}}$$
+$$f \approx 187.5 \text{ revolutions per second (Hz)}$$
+
+**Conclusion:** 
+The light is blocked when the cogwheel rotates at a speed such that a tooth moves into the path of the returning light beam within the duration of the light's round-trip travel time. This occurs at a frequency of approximately $187.5 \text{ Hz}$ (and odd multiples thereof, such that the light hits the 2nd, 3rd, etc., subsequent teeth).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,22 @@
+### Answer
+
+**(a) Describe the function of magnets within a DC motor (2 marks)**
+The magnets provide a constant external magnetic field ($B$). This magnetic field interacts with the current-carrying coil to exert a magnetic force ($F = BIL\sin\theta$) on the sides of the coil, which is necessary for the production of torque.
+
+**(b) Explain why the motor will turn when a current is applied (2 marks)**
+When a DC current flows through the coil in the presence of the external magnetic field, a magnetic force is exerted on the current-carrying wires (the motor effect). Because the current flows in opposite directions on opposite sides of the coil, the forces act in opposite directions, creating a torque that causes the coil to rotate.
+
+**(c) State how a simple DC motor can be converted into a DC generator (1 mark)**
+Remove the external power source (the DC battery) and replace it with a mechanical device (like a turbine or handle) to rotate the coil within the magnetic field, generating an electromotive force (EMF) via electromagnetic induction.
+
+---
+
+### Teacher's Explanation
+To solve these questions, you need to apply your knowledge of **Electromagnetism**, specifically the **Motor Effect** and **Electromagnetic Induction**.
+
+*   **For (a):** Focus on the purpose of the field. Without the permanent magnets (or electromagnets), there would be no external magnetic field to interact with the current. You must mention the interaction with the current to earn full marks.
+*   **For (b):** This is a standard HSC Physics question. Remember to mention the "Motor Effect" and the physical mechanism: the force on a current-carrying conductor in a magnetic field. Because the coil has two sides with current moving in opposite directions, it creates a "couple" or torque, which induces the rotation.
+*   **For (c):** Recall the principle of **Faraday’s Law**. While a motor converts electrical energy into mechanical energy, a generator does the reverse. By rotating the coil mechanically (changing magnetic flux), you induce an electrical current in the coil.
+
+###QUESTION_TYPE
+Short answer

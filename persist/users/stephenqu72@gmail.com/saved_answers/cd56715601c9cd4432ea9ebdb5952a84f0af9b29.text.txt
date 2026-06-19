@@ -1,0 +1,29 @@
+To answer this HSC Physics question effectively, we must address both the visual representation of a DC motor and the electromagnetic principles governing its operation.
+
+### Part (a): Diagram of a DC Motor
+To receive full marks for the diagram, you must include the essential components of a simple DC motor. 
+
+**How to draw it:**
+1.  **Magnetic Field:** Draw two magnets (North and South poles) on opposite sides with magnetic field lines directed from North to South.
+2.  **The Coil:** Draw a rectangular loop of wire placed between the poles. Label the dimensions ($5\text{ cm} \times 6\text{ cm}$).
+3.  **Commutator:** Include a split-ring commutator connected to the ends of the coil.
+4.  **Brushes:** Draw carbon brushes in contact with the split-ring.
+5.  **Circuit:** Show a power source connected to the brushes to supply the $8\text{ A}$ current.
+
+*Self-correction/Tip:* Ensure the current direction is clearly marked using arrows on the coil wires so that the forces on opposite sides of the coil act in opposite directions (creating a torque).
+
+---
+
+### Part (b): Back EMF
+**Answer:**
+As the motor spins, the coil is rotating within an external magnetic field, which causes the magnetic flux through the coil to change over time. According to **Faraday’s Law**, this change in flux induces an electromotive force (EMF) in the coil. **Lenz’s Law** dictates that this induced EMF (the "back EMF") will act in the opposite direction to the applied supply voltage. 
+
+As the motor spins faster, the rate of change of magnetic flux increases, leading to a higher back EMF. This effectively reduces the net voltage across the coil ($V_{net} = V_{supply} - \mathcal{E}_{back}$), which reduces the current. Consequently, the motor reaches a steady state where the back EMF limits the motor's speed, preventing it from accelerating indefinitely.
+
+**How to solve:**
+1.  **Identify the cause:** Link the motion of the coil in the magnetic field to the changing magnetic flux.
+2.  **Reference Laws:** Explicitly mention Faraday’s Law (induction) and Lenz’s Law (the direction of the induced EMF).
+3.  **Explain the limiting effect:** Explain how the back EMF opposes the supply voltage, thereby reducing the net current and creating a "self-regulating" mechanism that stabilizes the rotational speed.
+
+###QUESTION_TYPE
+Other questions

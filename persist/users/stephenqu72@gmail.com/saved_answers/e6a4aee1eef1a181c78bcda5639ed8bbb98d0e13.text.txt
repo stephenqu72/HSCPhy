@@ -1,0 +1,25 @@
+To answer this question, you need to describe the classic school laboratory demonstration of an AC induction motor, which is often called the **"Arago’s Disc"** or **"Rotating Magnetic Field"** experiment.
+
+### How to solve this
+1.  **Understand the core concept:** An AC induction motor works by creating a rotating magnetic field that induces eddy currents in a conductor (the rotor), causing it to move due to Lenz's Law.
+2.  **Sketch the setup:** Draw a strong bar magnet suspended by a string above a metal disc (usually aluminum or copper) that is free to rotate on a pivot. Alternatively, you may have used a hand-cranked setup where a U-shaped magnet is rotated around a suspended metal cylinder or disc.
+3.  **Labeling:**
+    *   **The Rotating Magnet:** Represents the **Stator** (which produces the rotating magnetic field).
+    *   **The Metal Disc/Cylinder:** Represents the **Rotor** (or "squirrel cage").
+    *   **The Pivot/Bearing:** Represents the **Shaft**.
+4.  **Marking criteria:** You get 4 marks for:
+    *   A clear, neat diagram.
+    *   Accurate labels for the apparatus parts.
+    *   Clear labels mapping those parts to the real motor components (Stator vs. Rotor).
+
+### Sketch and Labels Description
+Imagine a drawing featuring:
+*   **A horseshoe magnet:** Label as "Rotating Magnet" $\rightarrow$ Represents **Stator**.
+*   **A metallic disc on a pivot:** Label as "Aluminium Disc" $\rightarrow$ Represents **Rotor**.
+*   **A support stand:** Label as "Support" $\rightarrow$ Represents the **Frame/Housing**.
+
+**Explanation for the examiner:**
+When the magnet is rotated, the changing magnetic flux induces eddy currents in the aluminium disc. According to Lenz's Law, these eddy currents create a magnetic field that opposes the change in flux, effectively "dragging" the disc along with the rotation of the magnet. This simulates how a stator's rotating magnetic field induces currents in the squirrel cage rotor of an industrial AC motor, causing it to spin.
+
+###QUESTION_TYPE
+Experimental questions

@@ -1,0 +1,33 @@
+To answer this question effectively for an HSC Physics exam, you need to demonstrate the core principle of **Huygens' Principle**: that every point on a wavefront acts as a source of secondary spherical wavelets.
+
+### How to solve it:
+
+1.  **Draw the initial wavefront:** Start by drawing a straight line representing a plane wavefront at time $t$.
+2.  **Add secondary sources:** Place several points (dots) along this wavefront. These represent the sources of the secondary wavelets.
+3.  **Draw spherical wavelets:** From each point, draw a semi-circle (or circle) expanding outwards. These represent the wavelets traveling at speed $v$ for a short time interval $\Delta t$. The radius of these circles should be $r = v \Delta t$.
+4.  **Draw the new wavefront:** Draw a tangent line that touches the front of all these secondary wavelets. This new line represents the position of the plane wavefront at time $t + \Delta t$.
+5.  **Label:** Ensure you label the "Initial Wavefront," "Secondary Wavelets," "New Wavefront," and the "Direction of Propagation" (indicated by rays/arrows perpendicular to the wavefronts).
+
+### Diagram Representation:
+
+```text
+       Direction of Propagation
+                |
+                v
+Initial Wavefront (t)
+   |-----------------------|
+   o      o      o      o    <-- Secondary sources
+  / \    / \    / \    / \
+ (   )  (   )  (   )  (   )  <-- Secondary wavelets
+  \ /    \ /    \ /    \ /
+   -----------------------   <-- New Wavefront (t + Δt)
+```
+
+**Key components for 4 marks:**
+*   **1 mark:** Initial straight wavefront shown.
+*   **1 mark:** Correct placement of secondary sources along the wavefront.
+*   **1 mark:** Arcs/wavelets drawn from the sources with consistent radii.
+*   **1 mark:** The new tangent line (the new wavefront) correctly constructed.
+
+###QUESTION_TYPE
+Short answer

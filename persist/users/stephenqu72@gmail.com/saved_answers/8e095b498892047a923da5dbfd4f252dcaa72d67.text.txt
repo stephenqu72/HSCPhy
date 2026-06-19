@@ -1,0 +1,25 @@
+To determine the correct graph, we must apply Faraday’s Law of Induction, which states that the induced electromotive force (voltage) is proportional to the negative rate of change of magnetic flux:
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Initial Position ($t=0$):**
+    In the diagram, the plane of the coil is parallel to the magnetic field lines. When the plane of the coil is parallel to the field, the magnetic flux $\Phi$ passing through the loop is at a **minimum (zero)**. As the coil rotates clockwise, the flux will increase as the coil becomes more perpendicular to the magnetic field.
+
+2.  **Determine the Voltage at $t=0$:**
+    Faraday's Law tells us that voltage is the rate of change of flux. When the coil is in this parallel position, its velocity vector is perpendicular to the magnetic field, meaning the wires are "cutting" the field lines at their maximum rate. Therefore, the induced voltage is at a **maximum**.
+
+3.  **Analyze the Relationship:**
+    *   Since flux $\Phi$ starts at $0$ and increases (a sine-like function), its derivative (the voltage $\varepsilon$) must start at a maximum (a cosine-like function).
+    *   Looking at the options:
+        *   **Option A** shows flux starting at a maximum and voltage starting at $0$. This is incorrect.
+        *   **Option B** shows flux starting at $0$ (dashed) and voltage starting at $0$. This is incorrect.
+        *   **Option A** (re-examined): Actually, let's look at the phase. If flux is $\Phi = \Phi_{max} \sin(\omega t)$, then voltage is $\varepsilon = - \frac{d\Phi}{dt} = -\omega \Phi_{max} \cos(\omega t)$.
+        *   In the starting position, as the coil turns clockwise, the side moving toward the North pole will experience a force/current direction. Looking at the standard generator orientation, the initial rate of change of flux is negative, leading to a negative peak for voltage.
+        *   Graph **A** shows the flux (dashed) starting at $0$ and increasing, and the voltage (solid) starting at a negative maximum. This is the correct mathematical representation of $-\cos$ relative to $\sin$.
+
+### Conclusion:
+Graph **A** correctly depicts the mathematical relationship where the voltage is the negative derivative of the magnetic flux. Specifically, when flux is zero and increasing, the magnitude of induced voltage is at its maximum.
+
+###QUESTION_TYPE
+Multiple choice

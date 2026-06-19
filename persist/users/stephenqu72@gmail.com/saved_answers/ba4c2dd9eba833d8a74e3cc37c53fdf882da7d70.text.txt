@@ -1,0 +1,41 @@
+### Solution
+
+**Part (a): Determine the primary to secondary turns ratio**
+
+The turns ratio of a transformer is defined by the relationship between the number of turns in the primary coil ($N_p$) and the secondary coil ($N_s$), which is proportional to their respective voltages ($V_p$ and $V_s$):
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s}$$
+
+Given:
+- $V_p = 415\text{ V}$
+- $V_s = 11.0\text{ kV} = 11,000\text{ V}$
+
+Calculation:
+$$\frac{N_p}{N_s} = \frac{415}{11,000} \approx 0.0377$$
+
+The primary to secondary turns ratio is **0.0377 : 1** (or approximately **1 : 26.5**).
+
+---
+
+**Part (b): Determine the current available at the output**
+
+Assuming an ideal transformer (where power input equals power output), we use the power formula $P = VI$, where $P$ is the power, $V$ is the voltage, and $I$ is the current.
+
+Given:
+- $P = 3.00 \times 10^2\text{ kW} = 300,000\text{ W}$
+- $V_s = 11,000\text{ V}$
+
+Calculation:
+$$I_s = \frac{P}{V_s}$$
+$$I_s = \frac{300,000}{11,000}$$
+$$I_s \approx 27.27\text{ A}$$
+
+The current available at the output is **27.3 A** (rounded to 3 significant figures).
+
+---
+
+### How to solve it
+1. **Identify the transformer principle:** Remember that transformers rely on the ratio of voltages being equal to the ratio of turns. For part (a), simply divide the primary voltage by the secondary voltage, ensuring both are in the same units (Volts).
+2. **Apply the power formula:** For part (b), recognize that power ($P = VI$) is conserved across an ideal transformer. Since you have the total power produced by the generator and the output voltage of the transformer, rearrange $P = VI$ to solve for $I_s$. Always watch your units—convert kilowatts to Watts and kilovolts to Volts before calculating.
+
+###QUESTION_TYPE
+Calculation question

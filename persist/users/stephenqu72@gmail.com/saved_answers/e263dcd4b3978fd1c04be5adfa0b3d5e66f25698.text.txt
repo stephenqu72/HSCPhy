@@ -1,0 +1,27 @@
+To solve this physics problem, we need to use the formula for the **critical angle** ($\theta_c$):
+
+$$\sin(\theta_c) = \frac{n_2}{n_1}$$
+
+where:
+*   $n_1$ is the refractive index of the incident medium (the denser medium).
+*   $n_2$ is the refractive index of the second medium (the less dense medium).
+*   Crucially, for a critical angle to exist, light must be traveling from a more dense medium to a less dense medium, meaning $n_1 > n_2$.
+
+### Step-by-Step Calculation:
+
+1.  **Identify the given values:** We are looking for a combination where $\theta_c = 35.15^\circ$.
+2.  **Calculate the required ratio:**
+    $$\sin(35.15^\circ) \approx 0.5757$$
+3.  **Evaluate the options:** We need to find which option provides $n_2 / n_1 \approx 0.5757$. Since $n_1$ must be the larger value, we can immediately narrow this down to rows where the first column is greater than the second.
+    *   (A) $n_1 = 2.42, n_2 = 1.76$: $\frac{1.76}{2.42} \approx 0.727$
+    *   (B) $n_1 = 1.76, n_2 = 2.42$: This is impossible as light would not be traveling from more dense to less dense.
+    *   (C) $n_1 = 1.14, n_2 = 1.98$: Also impossible ($n_1 < n_2$).
+    *   (D) $n_1 = 1.98, n_2 = 1.14$:
+        $$\frac{1.14}{1.98} \approx 0.57576$$
+
+Comparing our result with $\sin(35.15^\circ)$, we see that row **(D)** matches the calculation.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

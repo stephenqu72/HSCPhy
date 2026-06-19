@@ -1,0 +1,20 @@
+### Answer
+An AC induction motor operates through the following process:
+
+1. **Production of a Rotating Magnetic Field (RMF):** When an AC supply is connected to the stator coils, it produces a magnetic field that rotates at the synchronous speed.
+2. **Induction of Eddy Currents:** This rotating magnetic field sweeps across the stationary conductors of the rotor, causing a change in magnetic flux. According to Faraday's Law, this induces an EMF, and because the rotor conductors form a closed loop (a squirrel-cage design), large eddy currents are induced in the rotor.
+3. **Motor Effect (Lenz’s Law/Lorentz Force):** The induced currents in the rotor interact with the stator’s magnetic field. By the motor effect, a force is exerted on the rotor conductors. In accordance with Lenz's Law, the rotor spins in the same direction as the rotating magnetic field to oppose the relative motion between the field and the rotor, effectively "chasing" the magnetic field.
+
+---
+
+### How to solve this question
+To secure full marks (3) in an HSC-style physics response, you must link the mechanical motion of the motor to the underlying electromagnetic principles. Use the following "cause-and-effect" structure:
+
+*   **Step 1: Stator (1 mark):** Clearly state that the AC input creates a rotating magnetic field. This is the catalyst for the entire process.
+*   **Step 2: Induction (1 mark):** Explain the interaction between the field and the rotor. Mention that the field "cuts" the rotor bars, inducing an EMF and subsequently a current (Faraday’s Law).
+*   **Step 3: Force/Motion (1 mark):** Explain why the rotor moves. Mention the interaction between the induced rotor current and the stator field (Motor Effect/Lorentz Force) and link the direction of rotation to Lenz’s Law.
+
+**Teacher's Tip:** Avoid just saying "electricity makes it spin." You must use the specific terminology: *rotating magnetic field*, *induced EMF/current*, and *Lorentz force*.
+
+###QUESTION_TYPE
+Short answer

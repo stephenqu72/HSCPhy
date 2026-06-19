@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of transformers and power transmission.
+
+### Part a: Power dissipated in the light globe
+The power $P$ dissipated in a component is given by $P = IV$. Assuming the globe is a resistive load where it operates at its rated voltage of $4.0\text{ V}$ and the current measured at the secondary is required (the diagram implies the ammeter at the globe measures the globe's current).
+*Note: In physics problems of this type, unless specified, the globe's resistance is assumed constant.*
+Using the ideal transformer ratio $\frac{N_p}{N_s} = \frac{V_p}{V_s} = \frac{I_s}{I_p}$:
+Current in transmission lines ($I_p$) = $3.0\text{ A}$.
+Ratio ($N_p/N_s$) = $4/1$.
+Secondary current ($I_s$) = $I_p \times (\text{Ratio}) = 3.0 \times 4 = 12.0\text{ A}$.
+$P = 12.0\text{ A} \times 4.0\text{ V} = 48\text{ W}$.
+
+### Part b: Voltage output of the power supply
+The power supply voltage $V_{\text{source}}$ must cover the voltage drop across the transmission lines ($V_{\text{lines}}$) and the primary voltage of the transformer ($V_p$).
+1. $V_{\text{lines}} = I_p \times R_{\text{total}} = 3.0\text{ A} \times 8.0\text{ }\Omega = 24.0\text{ V}$.
+2. $V_p = V_s \times (\text{Ratio}) = 4.0\text{ V} \times 4 = 16.0\text{ V}$.
+3. $V_{\text{source}} = 24.0\text{ V} + 16.0\text{ V} = 40.0\text{ V}$.
+
+### Part c: Total power loss in transmission lines
+Power loss ($P_{\text{loss}}$) is calculated using $I^2R$:
+$P_{\text{loss}} = (I_p)^2 \times R_{\text{total}} = (3.0\text{ A})^2 \times 8.0\text{ }\Omega = 9 \times 8 = 72\text{ W}$.
+
+### Part d: Power loss with 8:1 ratio
+If the ratio is $8:1$, the secondary current remains $I_s = 12\text{ A}$ (to keep the globe operating at $4.0\text{ V}$ assuming constant resistance).
+New primary current ($I_p'$) = $I_s / (\text{Ratio}) = 12\text{ A} / 8 = 1.5\text{ A}$.
+New $P_{\text{loss}} = (I_p')^2 \times R_{\text{total}} = (1.5\text{ A})^2 \times 8.0\text{ }\Omega = 2.25 \times 8 = 18\text{ W}$.
+
+### Part e: Reasons for high voltage transmission
+1. **Minimizing power loss:** Since $P_{\text{loss}} = I^2R$, increasing voltage allows for a decrease in current for the same power delivery ($P=VI$), which significantly reduces resistive heating losses in the lines.
+2. **Efficiency/Cost:** Using thinner cables is possible with lower currents, and less energy is wasted as heat, making the distribution more economically efficient over long distances.
+
+###QUESTION_TYPE
+Calculation question

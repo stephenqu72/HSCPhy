@@ -1,0 +1,29 @@
+To achieve full marks on an 8-mark HSC physics question, you must demonstrate a structured logical argument that connects physics principles to practical applications.
+
+### Sample Answer
+
+**1. Applications of Transformers**
+*   **Step-up Transformers:** Located at power stations, these increase the output voltage of the generator. By the transformer equation $\frac{V_p}{V_s} = \frac{N_p}{N_s}$, increasing the secondary voltage ($V_s$) results in a proportional decrease in current ($I_s$) for a constant power ($P=VI$). This is crucial for long-distance transmission to reduce heating losses in wires.
+*   **Step-down Transformers:** Located near urban areas or substations, these decrease the high transmission voltage to safer, usable levels (e.g., $240V$) for domestic and industrial consumption, ensuring the safety of appliances and end-users.
+
+**2. Limiting Power Loss in Transmission Wires**
+*   Power loss in wires is given by $P_{loss} = I^2R$. 
+*   By using step-up transformers to increase voltage, the current ($I$) is significantly reduced. Because power loss is proportional to the **square** of the current, even a small reduction in current leads to a massive reduction in energy wasted as heat. 
+*   Wires are typically made of materials with low resistivity (e.g., aluminum or copper) to minimize $R$.
+
+**3. Limiting Power Loss in Transformers**
+*   **Eddy Currents:** These are circular currents induced in the iron core. They are minimized by using a **laminated core** (thin layers of metal separated by insulating material), which breaks the path of the currents.
+*   **Joule Heating (Resistance):** Thick copper wire is used for coils to minimize resistance ($R$), reducing $I^2R$ losses.
+*   **Magnetic Flux Leakage:** The core is designed as a closed-loop (e.g., shell-type core) to ensure maximum flux linkage between primary and secondary coils.
+*   **Hysteresis Losses:** Using "soft" iron cores allows the magnetic domains to flip easily with the alternating current, minimizing energy lost as heat during magnetization cycles.
+
+---
+
+### How to solve this
+1.  **Deconstruct the prompt:** Note that the question asks for three distinct things: (a) Analysis of applications, (b) Techniques to limit loss in wires, and (c) Techniques to limit loss in transformers. Allocate roughly 2.5 marks to each section.
+2.  **Use the Physics Equations:** Explicitly link the conceptual explanation to the mathematical models ($P=VI$, $P=I^2R$, and the transformer ratio). HSC markers look for these connections.
+3.  **Terminology:** Use "HSC-level" vocabulary. Use terms like *laminated cores*, *resistivity*, *eddy currents*, *hysteresis*, and *flux linkage*.
+4.  **Structure:** Use headings or clear paragraphs to ensure the marker can easily identify that you have addressed all parts of the question.
+
+###QUESTION_TYPE
+Essay

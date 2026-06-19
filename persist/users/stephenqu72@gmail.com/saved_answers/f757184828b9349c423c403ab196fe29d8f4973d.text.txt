@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation of the formation of the bright band at point $P$:**
+The bright band at point $P$ is formed due to the **superposition** of light waves originating from slits $S_1$ and $S_2$. When the coherent light passes through the two slits, it diffracts and overlaps on the screen. Constructive interference occurs at point $P$ because the path difference between the two waves (the difference in the distance traveled from each slit to point $P$) is an integer multiple of the wavelength ($\lambda$). Mathematically, this condition is expressed as:
+$$\Delta x = d \sin(\theta) = n\lambda \quad \text{where } n = 1, 2, 3...$$
+At this point, the crests of one wave align with the crests of the other, resulting in an increased amplitude and intensity, which we perceive as a bright band.
+
+#### Part (b)
+**Calculation of the wavelength:**
+To find the wavelength ($\lambda$), we use the formula for the position of bright fringes in a double-slit experiment:
+$$\Delta x = \frac{n\lambda L}{d}$$
+Where:
+*   $\Delta x$ (distance to fringe $P$) = $9.45 \times 10^{-3}\text{ m}$
+*   $L$ (distance to screen) = $2.0\text{ m}$
+*   $d$ (slit separation) = $4.0 \times 10^{-4}\text{ m}$
+*   $n$ (order of the fringe) = To determine $n$, we look at the provided diagram. By counting the fringes from central maximum $C$, point $P$ is the **3rd** bright fringe ($n=3$).
+
+Rearranging for $\lambda$:
+$$\lambda = \frac{\Delta x \cdot d}{n \cdot L}$$
+$$\lambda = \frac{(9.45 \times 10^{-3}) \cdot (4.0 \times 10^{-4})}{3 \cdot 2.0}$$
+$$\lambda = \frac{3.78 \times 10^{-6}}{6.0}$$
+$$\lambda = 6.3 \times 10^{-7}\text{ m}$$
+Converting to nanometers (optional but standard): **$630\text{ nm}$**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

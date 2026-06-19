@@ -1,0 +1,31 @@
+To determine the correct answer, we must apply **Lenz’s Law** and the principles of electromagnetic induction.
+
+### Analysis of the Original Situation
+1.  **The physics:** As the North pole of the magnet moves toward coil $X$, the magnetic flux through the coil increases. According to Lenz's Law, the induced current must create a magnetic field that opposes this change.
+2.  **The pole created:** To oppose the incoming North pole, the end of coil $X$ closest to the magnet must become a **North pole**.
+3.  **The current direction:** Using the right-hand grip rule, if the end of the coil nearest the magnet is a North pole, the current must flow in a specific direction through the windings of coil $X$.
+
+### Analysis of the Options
+The secondary coils (the white ones) act as electromagnets. We are looking for the configuration where the secondary coil creates a North pole facing coil $X$ that is *strengthening* or acting in the same way as the original magnet.
+
+*   **Rule:** For the induced current in coil $X$ to be the same, the secondary coil must produce a magnetic field that is either:
+    *   Increasing in strength while acting as a North pole (mimicking the approach of the N-pole magnet).
+    *   Decreasing in strength while acting as a South pole (mimicking the removal of a magnet, though here we want to match the *original* direction).
+
+Let’s look at **Option A**:
+*   The current enters the coil from the left and wraps "over the top" toward the right. 
+*   Using the right-hand grip rule (fingers curl in the direction of current), the magnetic field lines point toward the right. This makes the right-hand side of the secondary coil a **North pole**.
+*   Since the current is **increasing**, the magnetic flux through coil $X$ is increasing in the same way it did when the magnet was approaching. This induces the same current direction in coil $X$.
+
+Comparing the physical orientation:
+In the original diagram, the N-pole is to the left of $X$. In Option A, the secondary coil creates an N-pole to the left of $X$ and its flux is increasing, effectively mimicking the approaching magnet.
+
+**Correct Answer: A**
+
+### How to solve this type of problem:
+1.  **Identify the change:** Determine how the magnetic flux is changing in the primary scenario (e.g., "magnetic field increasing to the right").
+2.  **Apply the Right-Hand Grip Rule:** Determine the magnetic polarity of the secondary coils in the options based on their current direction.
+3.  **Relate to Lenz's Law:** Match the scenario that results in the same rate of change of magnetic flux through the target coil $X$. If the secondary coil acts like an approaching N-pole (increasing field), it will induce the same current as the original magnet.
+
+###QUESTION_TYPE
+Multiple choice

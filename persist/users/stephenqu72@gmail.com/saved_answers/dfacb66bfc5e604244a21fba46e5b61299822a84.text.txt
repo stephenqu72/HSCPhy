@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(A) Lenz's Law**.
+
+---
+
+### Explanation
+To understand why this is the correct answer, we must break down the physics of "eddy current braking":
+
+1.  **The Mechanism:** As the conductive metal plate (typically copper or aluminium) passes through the strong magnetic field of the magnets on the rails, the free electrons in the metal experience a change in magnetic flux. 
+2.  **Faraday's Law:** According to Faraday's Law, this changing magnetic flux induces an electromotive force (EMF), which drives circular currents within the metal plate known as **eddy currents**.
+3.  **Lenz's Law:** Lenz's Law states that the direction of an induced current is such that it creates a magnetic field that opposes the change in flux that produced it. 
+    *   In this scenario, the induced eddy currents create their own magnetic field that opposes the motion of the ride. 
+    *   This opposition manifests as a magnetic force that acts against the direction of the ride's travel, effectively providing a braking force that slows the ride down.
+
+**Why the other options are incorrect:**
+*   **(B) Malus' Law:** Relates to the intensity of polarized light passing through a polarizer. It has nothing to do with electromagnetism in motion.
+*   **(C) Wien's Law:** Relates to the peak wavelength of black-body radiation and the temperature of an object.
+*   **(D) Faraday's Law:** While Faraday's Law describes the *creation* of the induced EMF, **Lenz's Law** is the specific principle that dictates the *direction* of the current and the resulting force that causes the actual "braking" or opposition to motion. In the context of HSC Physics, when asked for the principle that explains the *braking* action (the opposition to change), Lenz's Law is the most precise and correct answer.
+
+###QUESTION_TYPE
+Multiple choice

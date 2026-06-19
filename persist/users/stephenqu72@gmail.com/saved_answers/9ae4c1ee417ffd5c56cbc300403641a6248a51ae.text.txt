@@ -1,0 +1,25 @@
+To answer this question, we must apply the physics principle of Young’s double-slit interference.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To determine which pattern corresponds to the smallest slit separation, we look at the formula for the fringe spacing (the distance between adjacent bright fringes), denoted as $\Delta x$:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\lambda$ is the wavelength of the monochromatic light (constant in this problem).
+*   $L$ is the distance to the screen (constant in this problem).
+*   $d$ is the slit separation.
+
+From the formula, we can see that the fringe spacing $\Delta x$ is **inversely proportional** to the slit separation $d$ ($\Delta x \propto \frac{1}{d}$). 
+
+1.  **Analyze the relationship:** If you want to find the **smallest** slit separation ($d$), you must look for the pattern with the **largest** fringe spacing ($\Delta x$).
+2.  **Compare the images:** Observe the width of the bright fringes in each option.
+    *   (A) has the widest spacing between the fringes (the fewest number of fringes visible in the central region).
+    *   (B), (C), and (D) show progressively tighter spacing, meaning they have larger slit separations.
+3.  **Conclusion:** Since pattern (A) has the largest $\Delta x$, it must correspond to the smallest $d$.
+
+###QUESTION_TYPE
+Multiple choice

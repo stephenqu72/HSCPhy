@@ -1,0 +1,31 @@
+To determine the correct graph, we must analyze the definition of magnetic flux ($\Phi$) through a coil.
+
+### Explanation
+
+1.  **The Formula:** The magnetic flux through a coil is given by the formula:
+    $$\Phi = BA\cos(\theta)$$
+    where:
+    *   $B$ is the magnetic field strength.
+    *   $A$ is the area of the coil.
+    *   $\theta$ is the angle between the **normal vector** to the coil's surface and the magnetic field lines.
+
+2.  **Initial Conditions:** The question states that the **plane of the coil** is parallel to the magnetic field.
+    *   If the plane is parallel to the field, the normal vector (perpendicular to the plane) is at $90^\circ$ to the field.
+    *   At $t = 0$, $\theta = 90^\circ$.
+    *   Since $\cos(90^\circ) = 0$, the initial flux is $\Phi = 0$.
+
+3.  **Rotation:** As the coil rotates from $0^\circ$ to $360^\circ$:
+    *   At $90^\circ$ of rotation, the plane is perpendicular to the field, so $\theta = 0^\circ$ (or $180^\circ$). The flux reaches a maximum value ($\Phi = BA$).
+    *   At $180^\circ$ of rotation, the plane is parallel again, so $\Phi = 0$.
+    *   At $270^\circ$ of rotation, the plane is perpendicular again, so $\Phi$ reaches a maximum value (or minimum, depending on the direction of the normal vector).
+    *   At $360^\circ$ of rotation, the plane is back to parallel, so $\Phi = 0$.
+
+4.  **Selecting the Graph:**
+    *   The flux must start at zero at $t=0$.
+    *   It must oscillate as a sine/cosine wave, crossing through zero at the $180^\circ$ and $360^\circ$ marks.
+    *   Looking at the options, **Graph A** shows a sine wave starting at $0$ and completing one full cycle (positive and negative peaks) over the course of the rotation. This represents the change in flux correctly as the coil rotates through $360^\circ$.
+
+**Answer: A**
+
+###QUESTION_TYPE
+Multiple choice

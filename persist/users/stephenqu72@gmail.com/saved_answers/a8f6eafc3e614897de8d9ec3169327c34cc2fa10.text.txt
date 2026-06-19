@@ -1,0 +1,25 @@
+Hello! As an HSC Physics teacher, I’m happy to help you master this core concept. Electromagnetic induction in generators is a classic exam topic, so let’s break it down.
+
+### Part (a)
+**Answer:**
+To sketch the magnetic flux ($\Phi$) on the graph, remember Faraday's Law: the induced electromotive force (EMF) is proportional to the negative rate of change of magnetic flux, given by $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$.
+
+Because the voltage (EMF) is a sine wave starting at zero, the flux must be a **negative cosine wave** (or a phase-shifted sine wave). Specifically, when the voltage is at its maximum, the flux is changing most rapidly (crossing zero). When the voltage is zero, the flux is at its maximum or minimum value.
+*   **Sketch instructions:** Draw a cosine-shaped curve. It should start at a **minimum** (or maximum, depending on the starting orientation of the coil, but usually starting at a peak/trough is standard) at $t=0$, where the voltage is zero. When the voltage hits its first peak, your flux curve should be crossing the horizontal axis.
+
+### Part (b)
+**Answer:**
+Generators operate based on the principle of electromagnetic induction. 
+1.  **Mechanical Energy:** An external force rotates the coil within the constant magnetic field of the permanent magnets.
+2.  **Changing Flux:** As the coil rotates, the orientation of the coil area relative to the magnetic field changes, resulting in a continuous change in the magnetic flux ($\Phi$) passing through the coil.
+3.  **Faraday's Law:** According to Faraday's Law, a changing magnetic flux through a conductor induces an electromotive force (EMF) or voltage.
+4.  **Lenz's Law:** The direction of the induced current creates a magnetic field that opposes the change in flux, which results in the alternating current (AC) observed as the coil completes its rotation.
+
+---
+
+### How to solve this:
+*   **For (a):** Always link the EMF graph to the Flux graph using the calculus relationship. Since EMF $\propto$ slope of the Flux graph, look for the "peaks" of the voltage graph and ensure your flux graph has a "zero" (gradient of 0) at those points.
+*   **For (b):** This is a process question. Use the "cause-and-effect" structure: **Mechanical movement $\rightarrow$ Change in flux $\rightarrow$ Induced EMF (Faraday's Law) $\rightarrow$ Output current.**
+
+###QUESTION_TYPE
+Short answer

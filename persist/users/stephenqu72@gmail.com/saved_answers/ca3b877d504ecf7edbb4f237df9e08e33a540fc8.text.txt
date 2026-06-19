@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **D. 1.88**.
+
+### Explanation
+To ensure total internal reflection (TIR) occurs at the glass-water interface, the angle of incidence ($\theta_i$) must be greater than or equal to the critical angle ($\theta_c$).
+
+1.  **Identify the angle of incidence:**
+    Looking at the diagram, the light ray hits the hypotenuse of the $45^\circ$ prism at an angle of incidence of $45^\circ$ relative to the normal. Thus, $\theta_i = 45^\circ$.
+
+2.  **Define the condition for TIR:**
+    For TIR to occur, the critical angle must be less than or equal to the angle of incidence:
+    $$\theta_c \leq 45^\circ$$
+
+3.  **Use the formula for the critical angle:**
+    The formula for the critical angle at an interface between two media with refractive indices $n_1$ (glass) and $n_2$ (water) is:
+    $$\sin(\theta_c) = \frac{n_2}{n_1}$$
+    Given $n_2 = 1.33$ (the refractive index of water), we set the condition:
+    $$\sin(45^\circ) \geq \frac{n_2}{n_1}$$
+    $$\frac{1}{\sqrt{2}} \geq \frac{1.33}{n_1}$$
+
+4.  **Solve for $n_1$:**
+    $$n_1 \geq 1.33 \times \sqrt{2}$$
+    $$n_1 \geq 1.33 \times 1.414...$$
+    $$n_1 \geq 1.8806...$$
+
+Rounding to two decimal places, the lowest refractive index required is $1.88$. Comparing this to the given options, **D** is the only value that satisfies the condition $n_1 \geq 1.88$.
+
+###QUESTION_TYPE
+Calculation question

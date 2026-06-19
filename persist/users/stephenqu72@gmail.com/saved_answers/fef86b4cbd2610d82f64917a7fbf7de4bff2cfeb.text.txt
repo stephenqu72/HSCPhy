@@ -1,0 +1,36 @@
+To solve this problem, we use the principles of electromagnetism as they apply to a DC motor.
+
+### Given Data:
+*   Number of turns, $N = 20$
+*   Magnetic field strength, $B = 2.5 \times 10^{-2} \text{ T}$
+*   Side length, $L = 5 \text{ cm} = 0.05 \text{ m}$
+*   Current, $I = 0.45 \text{ A}$
+*   Angle of coil to the field, $\theta = 25^\circ$
+
+---
+
+### a) Determine the force acting on side B
+The magnetic force on a current-carrying wire is given by $F = BIL \sin(\theta)$, where $\theta$ is the angle between the wire and the magnetic field lines. Since the coil is at $25^\circ$ to the field, the side $B$ is also at $25^\circ$ to the field.
+$$F = (2.5 \times 10^{-2} \text{ T}) \times (0.45 \text{ A}) \times (0.05 \text{ m}) \times \sin(25^\circ)$$
+$$F \approx 0.000475 \text{ N} \approx 4.75 \times 10^{-4} \text{ N}$$
+**Direction:** Using the Right-Hand Grip Rule (or Fleming's Left-Hand Rule), since the current is directed toward the observer (indicated by the dot at B), the force is directed **upwards**.
+
+---
+
+### b) Calculate the torque acting on the coil
+Torque ($\tau$) on a coil is given by $\tau = NBI A \sin(\phi)$, where $\phi$ is the angle between the *normal* to the coil area and the magnetic field.
+Since the coil makes $25^\circ$ with the field, the normal to the coil makes an angle of $\phi = 90^\circ - 25^\circ = 65^\circ$ with the field.
+Area $A = L^2 = (0.05)^2 = 0.0025 \text{ m}^2$.
+$$\tau = 20 \times (2.5 \times 10^{-2}) \times 0.45 \times 0.0025 \times \sin(65^\circ)$$
+$$\tau \approx 0.5 \times 0.45 \times 0.0025 \times 0.9063$$
+$$\tau \approx 5.1 \times 10^{-4} \text{ Nm}$$
+
+---
+
+### c) What will be the effect of adding extra coils?
+Adding extra coils at regular angles creates a more uniform and consistent torque. As the motor rotates, at least one coil will always be in a position of high torque (perpendicular to the field). This eliminates the "dead spots" where the torque might drop to zero and results in a smoother, more constant rotational speed for the motor.
+
+---
+
+###QUESTION_TYPE
+Calculation question

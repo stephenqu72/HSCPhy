@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for Young's double-slit interference experiment, which relates the wavelength of light ($\lambda$) to the slit separation ($d$), the distance to the screen ($D$), and the fringe separation ($\Delta y$):
+
+$$\Delta y = \frac{\lambda D}{d}$$
+
+### 1. Identify the given values and convert to SI units:
+*   **Slit separation ($d$):** $90 \text{ \mu m} = 90 \times 10^{-6} \text{ m}$
+*   **Distance to wall ($D$):** $6 \text{ m}$
+*   **Fringe separation ($\Delta y$):** $3 \text{ cm} = 0.03 \text{ m} = 3 \times 10^{-2} \text{ m}$
+
+### 2. Rearrange the formula to solve for $\lambda$:
+$$\lambda = \frac{\Delta y \cdot d}{D}$$
+
+### 3. Substitute the values:
+$$\lambda = \frac{(3 \times 10^{-2} \text{ m}) \cdot (90 \times 10^{-6} \text{ m})}{6 \text{ m}}$$
+$$\lambda = \frac{270 \times 10^{-8}}{6} \text{ m}$$
+$$\lambda = 45 \times 10^{-8} \text{ m}$$
+$$\lambda = 450 \times 10^{-9} \text{ m}$$
+
+Since $1 \text{ nm} = 10^{-9} \text{ m}$, the wavelength is $450 \text{ nm}$.
+
+Comparing this to the given options, the correct answer is **(C)**.
+
+### Explanation:
+This question tests your understanding of wave interference. When light passes through two slits, it diffracts and interferes constructively at specific points on the screen, creating bright fringes. The spacing between these fringes is directly proportional to the wavelength and the distance to the screen, and inversely proportional to the distance between the slits. By plugging the correctly converted SI units into the interference formula, we find the wavelength of the laser light.
+
+###QUESTION_TYPE
+Multiple choice

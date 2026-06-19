@@ -1,0 +1,22 @@
+To determine the correct graph, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Faraday's Law:** An electromotive force (EMF) is induced in the ring when the magnetic flux through it changes over time ($ \varepsilon = - \frac{\Delta \Phi}{\Delta t} $). As the North pole of the magnet approaches the ring, the magnetic flux increases. As it passes through and leaves, the flux decreases.
+2.  **Lenz's Law:** The direction of the induced current must oppose the change in magnetic flux.
+    *   **Entering the ring:** The North pole approaches. To oppose this, the ring induces a magnetic field that acts like a North pole facing upward. Using the right-hand grip rule, this corresponds to a current in one direction (e.g., counter-clockwise, let's define this as positive).
+    *   **Leaving the ring:** As the magnet passes through, the North pole moves away. To oppose this "loss" of flux, the ring creates a magnetic field that acts like a South pole facing upward, effectively trying to pull the magnet back. This requires a current in the opposite direction (negative).
+3.  **Magnitude:** The rate of change of flux is zero when the magnet is exactly in the center of the ring (where the flux is at a maximum). Therefore, the current must drop to zero at that precise point.
+4.  **Conclusion:** The induced current will be positive as the magnet approaches, reach zero when the magnet is in the center, and become negative as the magnet exits. 
+
+Graph **(C)** perfectly illustrates this behavior: a positive pulse followed by a return to zero, and then a negative pulse.
+
+**Answer:** (C)
+
+### How to solve it
+*   **Step 1:** Recognize that electromagnetic induction occurs because of the changing magnetic flux.
+*   **Step 2:** Identify that as the magnet moves through the ring, the direction of the induced current *must* reverse according to Lenz's Law when the magnet crosses the center of the ring. This immediately eliminates (A) and (B).
+*   **Step 3:** Note that the induced current is proportional to the rate of change of flux ($ d\Phi/dt $). At the center of the ring, the magnetic field lines are "densest" (maximum flux), meaning the rate of change is momentarily zero as it transitions from increasing to decreasing. Thus, the current must pass through zero. This matches graph (C).
+
+###QUESTION_TYPE
+Multiple choice

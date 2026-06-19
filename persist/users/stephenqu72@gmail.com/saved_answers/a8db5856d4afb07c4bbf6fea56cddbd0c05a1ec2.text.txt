@@ -1,0 +1,42 @@
+To solve this problem, we must apply Faraday’s Law of Induction and the definition of magnetic flux.
+
+### Part a: Calculate the initial magnetic flux
+
+**Method:** 
+The magnetic flux $\Phi$ through a coil is given by $\Phi = B A \cos(\theta)$, where $B$ is the magnetic field strength, $A$ is the area of the coil, and $\theta$ is the angle between the normal to the coil and the magnetic field lines. 
+
+1. **Calculate Area ($A$):** $A = 4.0\text{ cm} \times 2.5\text{ cm} = 0.04\text{ m} \times 0.025\text{ m} = 0.001\text{ m}^2$.
+2. **Determine $\theta$:** As shown in the figure, the coil is in the "vertical position" (the plane of the coil is parallel to the field lines). The normal to the coil is therefore at $90^\circ$ to the field. 
+3. **Calculate $\Phi$:** $\Phi = B A \cos(90^\circ) = 0$.
+
+**Answer:** 
+The initial magnetic flux is **0 Wb**.
+
+---
+
+### Part b: Calculate the average EMF generated per quarter turn
+
+**Method:**
+Average EMF is given by Faraday’s Law: $\varepsilon_{avg} = -n \frac{\Delta \Phi}{\Delta t}$.
+
+1. **Magnetic Flux at quarter turn:** At a quarter turn, the coil is horizontal, so the field lines are perpendicular to the coil surface ($\theta = 0^\circ$).
+   $\Phi_{final} = B A = 0.045\text{ T} \times 0.001\text{ m}^2 = 4.5 \times 10^{-5}\text{ Wb}$.
+2. **Change in flux ($\Delta \Phi$):** $\Delta \Phi = \Phi_{final} - \Phi_{initial} = 4.5 \times 10^{-5}\text{ Wb} - 0 = 4.5 \times 10^{-5}\text{ Wb}$.
+3. **Time for quarter turn ($\Delta t$):** A full rotation is $T = 1/f = 1/3\text{ s}$. A quarter turn is $t = T/4 = 1/12\text{ s} \approx 0.0833\text{ s}$.
+4. **Calculate EMF:** 
+   $$\varepsilon_{avg} = 40 \times \frac{4.5 \times 10^{-5}\text{ Wb}}{1/12\text{ s}} = 40 \times 4.5 \times 10^{-5} \times 12 = 0.0216\text{ V}$$
+
+**Answer:** 
+The average EMF is **0.0216 V**.
+
+---
+
+### Part c: Direction of current
+
+**Method:**
+Use Lenz’s Law and the Right-Hand Grip Rule. As the coil rotates anticlockwise from the vertical, side WX moves "up" and out of the page towards the observer (or towards the North pole). Applying the Right-Hand Rule (or Fleming’s Right-Hand Rule), the induced current flows from **W to X**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

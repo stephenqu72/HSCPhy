@@ -1,0 +1,20 @@
+To determine the correct answer, we must apply Faraday’s Law of Induction and the definition of magnetic flux.
+
+### Analysis of the Physics
+1.  **Magnetic Flux ($\Phi$):** Magnetic flux is defined by the formula $\Phi = B_\perp A$, where $B$ is the magnetic field strength and $A$ is the area of the loop.
+2.  **The Scenario:** The problem states the loop is moving within a **uniform** magnetic field. A uniform field has the same strength ($B$) at all points. Because the loop is moving in the plane perpendicular to the field lines, the area ($A$) of the loop enclosed by the field lines remains constant, and the strength of the field ($B$) it is passing through remains constant.
+3.  **Evaluating Flux:** Since $\Phi = BA$ and both $B$ and $A$ remain constant as the loop moves from point A to point B, the magnetic flux through the coil remains constant ($\Delta\Phi = 0$).
+4.  **Induced EMF:** According to Faraday’s Law, an induced electromotive force (EMF) is created only when there is a *change* in magnetic flux ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$). Since there is no change in flux, there is no induced EMF and therefore no induced current.
+
+### Evaluating the Options
+*   **(A) The flux through the coil remains unchanged:** This is true. The magnetic field is uniform, so the number of field lines passing through the area of the loop does not change.
+*   **(B) A clockwise current is induced:** Incorrect; there is no change in flux, so no current is induced.
+*   **(C) An anticlockwise current is induced:** Incorrect; there is no change in flux, so no current is induced.
+*   **(D) The coil experiences a change in flux:** Incorrect; as established, the flux is constant.
+
+**Conclusion:** The correct statement is **(A)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

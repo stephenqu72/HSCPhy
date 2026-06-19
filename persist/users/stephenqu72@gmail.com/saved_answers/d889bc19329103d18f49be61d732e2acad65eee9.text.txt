@@ -1,0 +1,30 @@
+To solve this problem, we must first recall the formula for the separation between adjacent bright fringes (maxima) in a double-slit interference pattern, which is given by:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+- $\Delta x$ is the distance between maxima (the distance between $A$ and $B$).
+- $\lambda$ is the wavelength of the light.
+- $L$ is the distance from the slits to the screen (labeled $y$ in the diagram).
+- $d$ is the distance between the slits.
+
+### The Question
+The goal is to keep $\Delta x$ constant when the wavelength ($\lambda$) is **reduced**. Since $\Delta x$ is directly proportional to $\lambda$, reducing $\lambda$ will cause $\Delta x$ to decrease. To keep $\Delta x$ constant, we must adjust the other variables ($L$ or $d$) to counteract this decrease.
+
+### Solution
+
+**Method 1: Decrease the slit separation ($d$)**
+From the formula, $\Delta x \propto \frac{1}{d}$. If we decrease $d$, the value of $\Delta x$ will increase. By decreasing $d$ in the same proportion as we decrease $\lambda$, the ratio $\frac{\lambda}{d}$ remains constant, keeping the distance between maxima constant.
+
+**Method 2: Increase the distance to the screen ($L$ or $y$)**
+From the formula, $\Delta x \propto L$. If we increase the distance $L$, the value of $\Delta x$ will increase. By increasing the screen distance $y$ in the same proportion as we decrease the wavelength, the product $\lambda L$ remains constant, keeping the distance between maxima constant.
+
+***
+
+### Summary for your response:
+To keep the fringe separation constant as $\lambda$ decreases, you must manipulate the variables to compensate:
+1. **Decrease the slit separation ($d$):** Because $\Delta x$ is inversely proportional to $d$, reducing $d$ will increase the spacing, compensating for the reduction in wavelength.
+2. **Increase the screen distance ($y$):** Because $\Delta x$ is directly proportional to $y$, increasing the distance between the slits and the screen will increase the spacing, compensating for the reduction in wavelength.
+
+###QUESTION_TYPE
+Short answer

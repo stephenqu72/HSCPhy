@@ -1,0 +1,17 @@
+To determine the correct emf trace, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Answer
+The correct answer is **A**.
+
+### Explanation
+1.  **Faraday’s Law:** The magnitude of the induced electromotive force (emf) is proportional to the rate of change of magnetic flux linkage. As the magnet falls through the coil, it speeds up due to gravity, meaning the rate of change of flux is greater when it exits than when it enters. Thus, the second peak (exit) should have a larger amplitude than the first peak (entry).
+2.  **Lenz’s Law:** This law states that the induced current will create a magnetic field that opposes the change in flux.
+    *   **Entering:** As the South pole approaches the coil, the coil induces a magnetic field to oppose the incoming flux (it will create a South pole at the top). By the right-hand grip rule, this results in an initial negative emf pulse.
+    *   **Exiting:** As the North pole leaves the bottom of the coil, the coil tries to attract it back (creating a South pole at the bottom). This change in flux direction causes the induced current to reverse, creating a positive emf pulse.
+3.  **Evaluating the Options:**
+    *   **Option A** shows a negative initial pulse followed by a larger positive pulse, which correctly matches the physics of the magnet accelerating as it passes through the coil.
+    *   Option B represents a smooth oscillation which is incorrect for a single pass.
+    *   Option C and D do not account for the acceleration of the magnet (the peaks should be of different heights).
+
+###QUESTION_TYPE
+Multiple choice

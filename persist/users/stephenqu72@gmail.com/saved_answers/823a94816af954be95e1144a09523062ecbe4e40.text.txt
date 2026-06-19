@@ -1,0 +1,33 @@
+To find the maximum angle $\theta$ the cart can climb, we must consider two physical limitations: the **maximum torque provided by the DC motor** and the **limit of static friction** (preventing the wheels from slipping).
+
+### 1. Analysis of Factors
+*   **Motor Torque Limit:** The motor converts electrical power to mechanical torque. As the angle $\theta$ increases, the gravitational force component $mg\sin\theta$ increases. Eventually, the torque required to move the cart exceeds the maximum torque the motor can output.
+*   **Friction Limit:** To move up the hill, the motor applies torque to the wheels, creating a friction force acting up the slope. If the required friction force exceeds $f_{s,max} = \mu_s N = \mu_s mg\cos\theta$, the wheels will spin in place (slip).
+*   **Stability (Tip-over):** Though less likely here, the high center of mass could cause the cart to tip backward if the torque causes a normal force redistribution that drops to zero on the front wheels.
+
+### 2. Quantitative Calculation
+
+**Step A: Motor Torque ($\tau$)**
+Assuming the motor is stalled or operating at its limit, the back-EMF is zero (or negligible at the threshold of motion). The current $I = V / R = 20 / 0.13 \approx 153.85 \text{ A}$.
+The torque of a DC motor is $\tau = N I B A$.
+Area $A = 12 \text{ cm}^2 = 1.2 \times 10^{-3} \text{ m}^2$.
+$$\tau = 500 \times 153.85 \times 0.023 \times 1.2 \times 10^{-3} \approx 2.123 \text{ Nm}$$
+
+**Step B: Force Equilibrium**
+The force provided at the wheels is $F = \tau / r_{wheel}$.
+Radius $r = 11 \text{ cm} = 0.11 \text{ m}$.
+$$F_{motor} = 2.123 / 0.11 \approx 19.3 \text{ N}$$
+The cart climbs when $F_{motor} \geq mg\sin\theta$.
+$$19.3 \geq (3.8 \times 9.8) \sin\theta \implies \sin\theta \leq 19.3 / 37.24 \approx 0.518$$
+$$\theta \approx 31.2^\circ$$
+
+**Step C: Friction Constraint**
+The wheels must not slip: $F_{motor} \leq \mu_s mg\cos\theta$.
+$$19.3 \leq 0.62 \times 3.8 \times 9.8 \times \cos\theta$$
+$$19.3 \leq 23.09 \cos\theta \implies \cos\theta \geq 0.836$$
+$$\theta \leq 33.3^\circ$$
+
+**Conclusion:** The motor limit is reached first. The maximum steepness is approximately **$31.2^\circ$**.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this question, we must understand the fundamental operation of an AC generator and the role of the components shown in the diagram:
+
+1.  **Faraday's Law of Induction:** As the coil rotates within the magnetic field, the magnetic flux linkage through the coil changes over time. According to Faraday's Law, this change in flux induces an electromotive force (emf) in the coil.
+2.  **The Role of Slip-Rings:** The diagram shows the coil ends connected to two separate circular **slip-rings**. Slip-rings maintain a continuous electrical connection between the rotating coil and the external circuit (the oscilloscope) without reversing the polarity of the connection.
+3.  **Nature of the Output:** 
+    *   As the coil rotates, the angle between the normal to the coil and the magnetic field changes sinusoidally ($\theta = \omega t$).
+    *   Since the induced $emf$ is proportional to the rate of change of magnetic flux ($\Phi_B = BA\cos(\omega t)$), the induced $emf$ is given by $\varepsilon = -\frac{d\Phi_B}{dt} = BA\omega\sin(\omega t)$.
+    *   Because the slip-rings preserve the direction of the current/voltage as the coil moves through the different halves of its rotation, the polarity of the induced $emf$ switches every half-turn. This results in an alternating current (AC) output.
+
+**Analysis of Options:**
+*   **A is incorrect** because the flux is constantly changing, so the $emf$ cannot be constant.
+*   **B is incorrect** because that describes a generator with a *commutator* (DC generator) that has been rectified, not one with slip-rings.
+*   **C is incorrect** because the induced $emf$ is sinusoidal, not square, and it must alternate between positive and negative values in an AC generator.
+*   **D is correct** because an AC generator with slip-rings produces a sinusoidal output that oscillates between positive and negative values as the coil rotates.
+
+###QUESTION_TYPE
+Multiple choice

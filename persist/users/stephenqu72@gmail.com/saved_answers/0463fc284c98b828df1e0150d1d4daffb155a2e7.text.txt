@@ -1,0 +1,39 @@
+To determine the correct statement, we must apply **Lenz's Law** and the **Right-Hand Grip Rule** to electromagnetic induction.
+
+### Explanation
+
+1.  **Magnetic Field Direction:** Using the Right-Hand Grip Rule on the vertical wire (current $I$ flowing downwards), the magnetic field to the *left* of the wire points **out of the page**, and the magnetic field to the *right* of the wire points **into the page**. The magnitude of this field ($B$) increases as you get closer to the wire.
+
+2.  **Analyzing Motion from P to Q (Moving toward the wire):**
+    *   The loop is on the left side, where $B$ is **out of the page**.
+    *   As the loop moves from P to Q, it approaches the wire, meaning the magnetic flux (pointing out of the page) increases.
+    *   According to Lenz's Law, the induced current creates a magnetic field to *oppose* this increase. It must create a field pointing **into the page**.
+    *   Using the Right-Hand Grip Rule for the loop, a field pointing into the page requires a **clockwise** current.
+
+3.  **Analyzing Motion from S to R (Moving toward the wire):**
+    *   The loop is on the right side, where $B$ is **into the page**.
+    *   As the loop moves from S to R, it approaches the wire, meaning the magnetic flux (pointing into the page) increases.
+    *   Lenz's Law dictates that the induced current must create a field pointing **out of the page** to oppose this increase.
+    *   Using the Right-Hand Grip Rule for the loop, a field pointing out of the page requires a **counterclockwise** current.
+
+4.  **Analyzing Motion from R to S (Moving away from the wire):**
+    *   The loop is on the right side, where $B$ is **into the page**.
+    *   As the loop moves from R to S, it moves away from the wire, so the magnetic flux (into the page) decreases.
+    *   Lenz's Law dictates that the induced current must create a field pointing **into the page** to reinforce the weakening flux.
+    *   This requires a **clockwise** current.
+
+**Evaluating the Options:**
+*   Option (A) states "clockwise as the loop moves from Q to P" (wrong, moving away decreases flux, so counterclockwise) and "clockwise as the loop moves from S to R" (wrong, moving toward increases flux, so counterclockwise).
+*   Option (B) states "counterclockwise as the loop moves from P to Q" (wrong, as determined above, it is clockwise).
+*   Option (C) states "clockwise as the loop moves from P to Q" (Correct) and "counterclockwise as the loop moves from R to S" (Wait, let's re-verify R to S). *Correction:* Moving R to S is moving *away* from the wire. Flux into the page is decreasing, so the induced field is into the page. That creates a **clockwise** current. 
+*   *Self-Correction on Options:* Let's re-check the provided options. If we look at (A), (B), (C), (D) against the logic:
+    *   P to Q: Moving toward wire ($B$ out, increasing) $\rightarrow$ Induced $B$ in $\rightarrow$ **Clockwise**.
+    *   Q to P: Moving away from wire ($B$ out, decreasing) $\rightarrow$ Induced $B$ out $\rightarrow$ **Counterclockwise**.
+    *   R to S: Moving away from wire ($B$ in, decreasing) $\rightarrow$ Induced $B$ in $\rightarrow$ **Clockwise**.
+    *   S to R: Moving toward wire ($B$ in, increasing) $\rightarrow$ Induced $B$ out $\rightarrow$ **Counterclockwise**.
+
+Given the standard interpretations of these physics problems, there might be a typo in the provided options. However, based on the physics principles, **clockwise** is definitely the direction for P to Q. Re-reading the prompt, if the question implies a specific choice must be made, re-evaluate:
+None of the provided options perfectly align with the standard physical derivation. However, strictly following the logic of Lenz's Law, you should look for the option that identifies P to Q as clockwise.
+
+###QUESTION_TYPE
+Multiple choice

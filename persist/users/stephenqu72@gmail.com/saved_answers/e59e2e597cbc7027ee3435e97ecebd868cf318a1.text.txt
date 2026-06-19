@@ -1,0 +1,15 @@
+To determine the correct statements, let’s analyze the physics of electromagnetic (EM) waves regarding energy:
+
+1.  **Student 1 (Amplitude):** The intensity (and thus the total energy delivered by the wave over time) is proportional to the square of the amplitude of the electric and magnetic fields. Therefore, an increase in amplitude corresponds to an increase in the energy density of the wave. **Statement 1 is correct.**
+2.  **Student 2 (Frequency):** The energy of an individual photon is given by Planck's relation $E = hf$, where $h$ is Planck's constant and $f$ is frequency. Higher frequency waves carry photons with higher individual energy. **Statement 2 is correct.**
+3.  **Student 3 (Wavelength):** EM waves in a vacuum (or air) obey the wave equation $c = f\lambda$, meaning $f = \frac{c}{\lambda}$. Since frequency is inversely proportional to wavelength, decreasing the wavelength results in an increase in frequency. As we established in point 2 that energy increases with frequency, it must also increase as wavelength decreases. **Statement 3 is correct.**
+
+Since all three students describe valid physical relationships regarding the energy of electromagnetic waves, the correct answer is **D**.
+
+### How to solve this:
+*   **Recall the relationship between intensity and amplitude:** In classical wave theory, intensity (energy per unit area per unit time) is proportional to the square of the amplitude ($I \propto A^2$).
+*   **Recall the quantum mechanical relationship:** For individual photons, the energy is $E = hf$.
+*   **Connect the variables:** Recognize that for light, $f$ and $\lambda$ are inversely related. If $f$ increases, $\lambda$ must decrease. Therefore, if energy increases with frequency, it must also increase as wavelength decreases.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,22 @@
+To determine the direction of rotation, we apply the **Right-Hand Motor Rule** (also known as Fleming's Left-Hand Rule for motors) to the current-carrying coil.
+
+### Step-by-Step Solution:
+
+1.  **Identify the direction of the magnetic field ($B$):** The magnetic field lines point from the North pole to the South pole. In the diagram, the North pole is on the right and the South pole is on the left, so the magnetic field points **towards the left**.
+2.  **Determine the direction of current ($I$):** The battery has the positive terminal on the left and the negative terminal on the right. Current flows from the positive terminal, through the left brush, into the left side of the coil, and out through the right side of the coil to the negative terminal.
+    *   On the **left side** of the coil, the current is moving **upwards**.
+    *   On the **right side** of the coil, the current is moving **downwards**.
+3.  **Apply Fleming’s Left-Hand Rule:**
+    *   **Thumb:** Force/Motion ($F$)
+    *   **First Finger:** Magnetic Field ($B$) — Point this to the **left** (towards the South pole).
+    *   **Second Finger:** Current ($I$) — Point this **upwards** (for the left side of the coil).
+    *   **Result:** Your thumb points **out of the page** (or "up" relative to the orientation in the diagram, pushing the left side of the coil towards the observer).
+4.  **Visualize the Rotation:** Since the left side of the coil is pushed toward the front (out of the page) and the right side (where current flows down) is pushed toward the back (into the page), the coil will rotate in **direction $X$**.
+
+### Conclusion:
+The coil experiences a torque that causes it to rotate in the direction indicated by $X$.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

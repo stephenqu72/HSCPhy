@@ -1,0 +1,25 @@
+### Answer
+
+**a) Explain the relationship between rotation, magnetic flux, and back emf as the motor turns. (4 marks)**
+
+As the coil of the motor rotates within the external magnetic field, the magnetic flux $\Phi$ passing through the coil changes continuously. According to Faraday’s Law, the induced electromotive force (emf) is proportional to the rate of change of magnetic flux:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+As the motor turns, this changing flux induces a voltage within the coil that opposes the applied voltage (Lenz’s Law). This is known as **back emf**. 
+
+The magnitude of the back emf depends on the rate of rotation; as the motor speeds up, the rate of change of flux increases, leading to a higher back emf. This back emf acts to limit the net current flowing through the motor, which prevents the motor from overheating and helps it reach a steady-state operating speed where the torque produced matches the mechanical load.
+
+**b) Explain why AC induction motors are widely used in industries. (3 marks)**
+
+AC induction motors are preferred in industrial applications for several key reasons:
+1. **Durability and low maintenance:** They have a simple, robust construction (particularly the squirrel-cage rotor) with no brushes or commutators, which reduces mechanical wear and the need for frequent servicing.
+2. **Efficiency and Reliability:** They are highly efficient and can operate in harsh industrial environments (such as dusty or volatile conditions) because they do not produce sparks, unlike DC motors with brushes.
+3. **Cost-effectiveness:** They are relatively inexpensive to manufacture, simple to control via modern variable frequency drives (VFDs), and can operate directly from the standard AC power supply available in industrial facilities.
+
+***
+
+### How to solve this
+*   **For part (a):** Focus on the physics principles. You must link the motion (rotation) to the change in flux, define that change using Faraday’s Law, and apply Lenz's Law to identify the "back emf" as the opposing force. A high-scoring answer connects the rate of rotation to the magnitude of the back emf and explains its role in regulating current.
+*   **For part (b):** Think about practical industrial advantages. Industrial settings value "reliability," "low maintenance," and "cost." Mentioning the absence of brushes (unlike DC motors) is a "must-have" point for an HSC-level response, as it highlights why they are safer and more durable.
+
+###QUESTION_TYPE
+Short answer

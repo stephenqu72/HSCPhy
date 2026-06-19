@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this AC generator problem. Faraday’s Law of Induction is the key principle here.
+
+### (a) Identify one time when the induced EMF will be zero.
+
+**Answer:** Any time where $\Phi$ is at a maximum or minimum, such as $t = 0\text{ s}$, $0.2\text{ s}$, or $0.4\text{ s}$.
+
+**Explanation:** According to Faraday's Law, the induced EMF is given by $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$. The EMF is proportional to the **gradient** (slope) of the magnetic flux graph. When the graph is at its peak or trough (turning points), the tangent is horizontal, meaning the gradient is zero. Therefore, the induced EMF is zero at these points.
+
+---
+
+### (b) Estimate the magnitude of the average EMF generated over the first 0.2 s.
+
+**Answer:** 
+We use the formula: 
+$$\varepsilon_{avg} = N \left| \frac{\Delta\Phi}{\Delta t} \right|$$
+
+Given $N = 60$. From the graph:
+- At $t = 0\text{ s}$, $\Phi = 4\text{ Wb}$.
+- At $t = 0.2\text{ s}$, $\Phi = -4\text{ Wb}$.
+
+$$\Delta\Phi = \Phi_f - \Phi_i = -4 - 4 = -8\text{ Wb}$$
+$$\Delta t = 0.2 - 0 = 0.2\text{ s}$$
+
+$$\varepsilon_{avg} = 60 \times \left| \frac{-8}{0.2} \right| = 60 \times 40 = 2400\text{ V}$$
+
+**Explanation:** The "average" EMF is determined by the total change in flux over the total time interval. We find the flux at the start ($t=0$) and end ($t=0.2$) of the interval, calculate the difference, divide by the time elapsed, and multiply by the number of coils ($N$).
+
+---
+
+### (c) At $t = 0.1\text{ s}$, which of P and Q would be the positive terminal?
+
+**Answer:** $Q$ is the positive terminal.
+
+**Explanation:** At $t = 0.1\text{ s}$, the flux is decreasing from a positive maximum. According to Lenz's Law, the induced current will create a magnetic field that opposes the change. As the coil rotates, we can use the Right-Hand Grip Rule and the geometry of the generator. At $t = 0.1\text{ s}$, the coil is passing through the vertical position where flux change is most rapid. Using the Right-Hand Rule for generators (or analyzing the direction of motion relative to the magnetic field), the current is induced to flow in a direction that makes $Q$ the positive terminal relative to $P$ during this phase of the cycle.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+### Answer
+The correct answer is **B. $v_1 > v_3 > v_2$**.
+
+### Explanation
+To solve this problem, we apply **Snell’s Law** and the relationship between the angle of refraction and the speed of light in different media. 
+
+1.  **Refraction principle:** When light travels from one medium to another, the direction it bends relative to the normal line depends on its change in speed:
+    *   If light bends **towards the normal**, it is slowing down ($v_{new} < v_{old}$).
+    *   If light bends **away from the normal**, it is speeding up ($v_{new} > v_{old}$).
+
+2.  **Analyze the interface between Medium 1 and Medium 2:**
+    *   Draw an imaginary normal line perpendicular to the interface. 
+    *   Observing the path, the light ray bends **towards the normal** as it enters Medium 2. 
+    *   Therefore, the light slows down: **$v_1 > v_2$**.
+
+3.  **Analyze the interface between Medium 2 and Medium 3:**
+    *   Again, draw a normal line at the interface.
+    *   Observing the path, the light ray bends **away from the normal** as it enters Medium 3 (the angle with the normal is larger in Medium 3 than in Medium 2).
+    *   Therefore, the light speeds up: **$v_3 > v_2$**.
+
+4.  **Comparing $v_1$ and $v_3$:**
+    *   Since the interfaces are parallel, the angle of incidence at the second interface is equal to the angle of refraction from the first interface.
+    *   Looking at the diagram, the angle of the ray in Medium 3 relative to the normal is greater than the angle of the ray in Medium 1 relative to the normal. This indicates that $v_3$ is the second-fastest medium.
+    *   Combining these observations: $v_1$ is the fastest (least deviation towards the normal), followed by $v_3$, and $v_2$ is the slowest (most deviation towards the normal).
+    *   Thus, the order is **$v_1 > v_3 > v_2$**.
+
+### QUESTION_TYPE
+Multiple choice

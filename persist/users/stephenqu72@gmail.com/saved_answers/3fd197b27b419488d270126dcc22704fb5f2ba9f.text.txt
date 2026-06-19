@@ -1,0 +1,24 @@
+### Answer
+The braking system relies on **eddy currents**. As the magnets move past the aluminium fin, the changing magnetic flux induces eddy currents in the conductor (Faraday's Law). These currents create their own magnetic fields that oppose the motion of the magnets (Lenz's Law), resulting in a braking force that produces negative acceleration.
+
+**Similarities:**
+*   Both curves exhibit the same general shape: a rapid increase in magnitude of negative acceleration, reaching a peak, followed by a gradual decay back to zero as the car loses velocity.
+*   The time taken to reach peak acceleration (approximately $0.75\text{--}0.8\text{ s}$) and the time to return to zero acceleration ($4\text{ s}$) are identical for both initial speeds.
+
+**Differences:**
+*   The peak magnitude of acceleration is greater for the car with the higher initial velocity ($u = 12\text{ m s}^{-1}$ reaches $\approx -8.6\text{ m s}^{-2}$, whereas $u = 10\text{ m s}^{-1}$ reaches $\approx -6.6\text{ m s}^{-2}$).
+*   Because $F = ma$ and the induced EMF (and thus current) is proportional to the rate of change of flux ($v \cdot B$), a higher initial velocity induces larger eddy currents, leading to a stronger opposing magnetic force and higher deceleration.
+
+---
+
+### How to solve this
+To achieve full marks for this 5-mark Physics response, you must connect the visual data to the underlying physical principles:
+
+1.  **Identify the Physics Principle (The "Why"):** Start by explaining the mechanism. Mention Faraday’s Law (changing flux induces EMF/current) and Lenz’s Law (the force opposes the motion). Without this, you cannot explain the acceleration values.
+2.  **Compare the Data (The "What"):**
+    *   **Similarities:** Observe the x-intercepts and the general "hump" shape. They both start and end at zero acceleration at the same time intervals.
+    *   **Differences:** Contrast the peaks. Use the numbers from the graph ($6.6\text{ m s}^{-2}$ vs $8.6\text{ m s}^{-2}$).
+3.  **Synthesize (The "Link"):** Explain *why* the higher speed leads to higher acceleration. The key relationship is $EMF \propto \frac{\Delta\Phi}{\Delta t}$. Since the car is moving faster, the rate of change of magnetic flux is higher, leading to larger eddy currents and a greater retarding force (Lorentz force).
+
+### QUESTION_TYPE
+Data analysis questions

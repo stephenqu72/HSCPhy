@@ -1,0 +1,33 @@
+To solve this problem, we apply the principles of electromagnetic induction as defined by Faraday’s Law of Induction.
+
+### (a) Identify the device
+The device is an **AC generator** (or alternator).
+**Justification:** The device uses a crank to physically rotate a coil within a static magnetic field provided by permanent magnets. According to Faraday’s Law, the changing magnetic flux through the coil induces an electromotive force (EMF), converting mechanical work into electrical energy.
+
+### (b) Calculate the EMF
+We use Faraday’s Law: $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$
+Where $\Phi = BA \cos \theta$. 
+
+1. **Calculate Area ($A$):** 
+   $A = 0.10 \, \text{m} \times 0.05 \, \text{m} = 0.005 \, \text{m}^2$
+2. **Calculate Change in Flux ($\Delta \Phi$):**
+   - Initial flux ($\theta = 0^\circ$): $\Phi_i = B \times A = 0.8 \times 0.005 = 0.004 \, \text{Wb}$
+   - Final flux ($\theta = 90^\circ$): $\Phi_f = B \times A \times \cos(90^\circ) = 0 \, \text{Wb}$
+   - Magnitude $|\Delta \Phi| = 0.004 \, \text{Wb}$
+3. **Calculate EMF ($\varepsilon$):**
+   - $\Delta t = 18 \, \text{ms} = 0.018 \, \text{s}$
+   - $\varepsilon = 200 \times \frac{0.004}{0.018}$
+   - $\varepsilon \approx 44.44 \, \text{V}$
+
+### (c) Explain back EMF and Conservation of Energy
+As the generator produces current, the current flowing through the coil in a magnetic field experiences a Lorentz force (the motor effect). By Lenz's Law, this force acts in the direction opposite to the rotation (back torque). To keep the device spinning, the operator must perform work against this opposing force. The mechanical energy supplied by the operator is thus converted directly into the electrical energy produced by the generator, satisfying the law of conservation of energy.
+
+***
+
+### Explanation of Strategy
+- **Part (a):** Focus on the function—mechanical input to electrical output via flux change defines a generator.
+- **Part (b):** Always convert units to SI (meters and seconds). The $1/4$ turn represents the transition from maximum flux to zero flux.
+- **Part (c):** Remember the energy link: Mechanical Work $\rightarrow$ Electrical Energy. Back EMF/back torque represents the "cost" of extracting electrical energy.
+
+###QUESTION_TYPE
+Calculation question

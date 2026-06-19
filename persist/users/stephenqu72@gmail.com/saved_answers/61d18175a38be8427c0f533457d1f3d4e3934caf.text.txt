@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this question, we must understand the construction of transformers used in electrical substations for local distribution.
+
+1.  **Step-down functionality**: The substation supplies local households, schools, and businesses. This means the transformer must be a **step-down transformer**, which reduces the high transmission voltage to a safer, usable voltage (e.g., $240\text{ V}$). A step-down transformer requires more turns in the primary coil and fewer turns in the secondary coil.
+2.  **Laminations**: Transformer cores are laminated to reduce **eddy currents**. Eddy currents are induced circular currents in the iron core caused by the changing magnetic flux. If the core were a solid block, these large currents would cause significant energy loss as heat. By using thin, insulated sheets (laminations) oriented parallel to the magnetic field, we break the paths of these eddy currents. 
+    *   In the provided diagrams, the magnetic field loops around the rectangular core. To effectively block eddy currents, the laminations must be oriented **parallel to the magnetic flux lines**. In these standard core designs, the laminations should be **vertical** (running the length of the sides of the core) to be parallel to the path of the magnetic field.
+3.  **Analyzing the options**:
+    *   **A and B**: Use horizontal laminations, which would cut across the magnetic flux lines and be less effective at reducing eddy currents.
+    *   **C**: Has more turns on the left (primary) than the right (secondary), making it a step-down transformer. It also uses vertical laminations, which correctly align with the magnetic field path to minimise eddy currents.
+    *   **D**: Has fewer turns on the primary than the secondary, making it a step-up transformer, which is not suitable for local distribution from a substation.
+
+Therefore, **C** is the correct model.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **A. $0\text{ V}$**.
+
+### Explanation
+To solve this problem, you must understand the fundamental operating principle of a transformer. 
+
+1.  **Principle of Induction:** Transformers operate based on **Faraday's Law of Induction**, which states that an electromotive force (EMF) is induced in a conductor when it experiences a *changing* magnetic flux.
+2.  **The Role of AC:** In a transformer, an alternating current (AC) is passed through the primary coil. This creates an alternating magnetic field that constantly changes, which then induces an alternating voltage in the secondary coil.
+3.  **The Problem with DC:** The input provided in the question is **DC (Direct Current)**. DC provides a constant, non-changing current. Because the current is constant, the magnetic flux produced in the core is also constant (it does not change).
+4.  **Conclusion:** Since the magnetic flux is not changing ($\frac{d\Phi}{dt} = 0$), no voltage is induced across the secondary coil according to Faraday's Law ($V = -N\frac{d\Phi}{dt}$). Therefore, the output voltage is $0\text{ V}$.
+
+Many students incorrectly attempt to use the transformer turns ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+Using this formula would give:
+$$V_s = V_p \times \frac{N_s}{N_p} = 240 \times \frac{80}{2000} = 9.6\text{ V}$$
+However, this formula **only applies to AC circuits**. Recognizing the input as DC is the critical step in this HSC physics problem.
+
+###QUESTION_TYPE
+Multiple choice

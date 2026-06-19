@@ -1,0 +1,24 @@
+To solve this problem, we must apply **Lenz's Law** and the **Right-Hand Rule** to the phenomenon of eddy currents induced in a conductor moving through a magnetic field.
+
+### Explanation
+
+1.  **Understanding Eddy Currents and Lenz's Law:**
+    Lenz's Law states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it. Because the plate is moving into or out of a region of magnetic field (or experiencing a change in flux), eddy currents are induced to produce a force that **opposes the motion** (a resistive force/magnetic braking).
+
+2.  **Analyzing Position 1 (Entering the field):**
+    As the metallic plate enters the region of the magnetic field ($\vec{B}$ directed into the page), the magnetic flux through the plate increases. According to Lenz's Law, the induced current must create an opposing magnetic field (pointing *out* of the page). Using the Right-Hand Grip Rule, a magnetic field pointing *out* is produced by an **anticlockwise** current. The interaction between this induced current and the external magnetic field produces a Lorentz force that acts against the velocity of the plate, creating a **resistive force**.
+
+3.  **Analyzing Position 2 (Leaving the field):**
+    As the plate swings out of the region of the magnetic field, the magnetic flux through the plate decreases. Lenz's Law states the induced current will attempt to maintain the original flux (creating an *into-the-page* magnetic field). Using the Right-Hand Grip Rule, a magnetic field pointing *into* the page is produced by a **clockwise** current. Again, by the motor effect (Fleming's Left-Hand Rule), this interaction produces a force that opposes the motion, creating a **resistive force**.
+
+4.  **Conclusion:**
+    *   At **Position 1**: The plate enters the field, inducing an **anticlockwise** current which creates a **resistive force**.
+    *   At **Position 2**: The plate leaves the field, inducing a **clockwise** current which also creates a **resistive force**.
+
+This matches statement **(A)**.
+
+### Answer
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

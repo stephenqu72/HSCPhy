@@ -1,0 +1,30 @@
+### Solution and Teacher's Explanation
+
+To solve this problem, we must understand the principles of electromagnetic induction and AC/DC generator design.
+
+#### Part a)
+1. **Determine the period ($T$):** The loop rotates at 50 revolutions per second ($f = 50\text{ Hz}$). The time for one revolution is $T = 1/f = 1/50 = 0.02\text{ s}$ ($20\text{ ms}$).
+2. **Determine the peak voltage ($V_{\text{peak}}$):** We are given $V_{\text{RMS}} = 4.25\text{ V}$.
+   $$V_{\text{peak}} = V_{\text{RMS}} \times \sqrt{2} \approx 4.25 \times 1.414 \approx 6.01\text{ V}$$
+3. **Determine the starting point:** In Figure 6, the plane of the loop is parallel to the magnetic field lines. At this instant, the rate of change of magnetic flux is maximum, meaning the induced EMF is at its **maximum**. 
+4. **Sketching:** Plot a cosine wave (since it starts at a maximum).
+   - Draw the curve starting at $t=0$, $V=6\text{ V}$.
+   - One cycle ends at $t=0.02\text{ s}$.
+   - Two cycles end at $t=0.04\text{ s}$.
+
+#### Part b)
+Slip rings maintain a continuous electrical connection between the rotating coil and the external circuit while allowing the coil to rotate freely. They ensure that the alternating current produced by the coil is passed to the external circuit without being rectified.
+
+#### Part c)
+i. **Conversion to DC:** Replace the slip rings with a **split-ring commutator**. This reverses the connection to the external circuit every half-turn, ensuring the current flows in one direction.
+ii. **Sketch:** The output EMF will be a "pulsating DC" signal. It will look like the absolute value of the AC graph (all peaks remain positive). The period remains $0.02\text{ s}$, and the output will return to $0\text{ V}$ twice per revolution.
+
+***
+
+### Summary of Calculations for Sketching (a)
+*   **Peak Voltage:** $\approx 6\text{ V}$.
+*   **Time axis:** Each grid square (if using 2 squares per 0.01s) should represent $0.005\text{ s}$.
+*   **Function:** $V(t) = 6\cos(100\pi t)$.
+
+###QUESTION_TYPE
+Calculation question

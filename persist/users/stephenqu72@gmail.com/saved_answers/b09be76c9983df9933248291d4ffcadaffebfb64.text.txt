@@ -1,0 +1,23 @@
+To score full marks on an 8-mark HSC physics question of this nature, you must balance historical context, technical explanation of principles, and modern metrology definitions.
+
+### Answer
+
+**Historical Method: Fizeau’s Experiment (1849)**
+Hippolyte Fizeau determined the speed of light using a terrestrial method. He directed a beam of light through the gap between teeth of a rapidly rotating cogwheel. The light traveled to a distant mirror (located at Suresnes, approx. 8 km away) and reflected back. If the cogwheel rotated at the correct speed, the returning light would be blocked by the next tooth. By knowing the distance ($d$) to the mirror, the number of teeth on the wheel, and the frequency of rotation ($f$), Fizeau could calculate the speed of light ($v$) using the relationship $v = \frac{2d}{t}$, where $t$ is the time taken for the light to travel the round trip.
+
+**Contemporary Method: Laser Interferometry**
+Modern measurements utilize lasers to determine the frequency ($f$) and wavelength ($\lambda$) of light in a vacuum. By applying the wave equation $c = f\lambda$, scientists can determine the speed of light with extreme precision. Techniques often involve stabilizing a laser frequency using atomic transitions (e.g., iodine or methane) and measuring the wavelength using a frequency comb or an interferometer.
+
+**Definition of the Metre**
+Since 1983, the speed of light ($c$) has been defined as a fixed universal constant: exactly $299\,792\,458 \text{ m s}^{-1}$. Consequently, the SI unit of length, the **metre**, is now defined as the distance light travels in a vacuum during a time interval of exactly $1/299\,792\,458$ of a second. This links our standard of length directly to the constancy of the speed of light and the precision of atomic clocks.
+
+---
+
+### How to solve this question
+1.  **Break down the 8 marks:** Aim for 3 marks for the historical method, 3 marks for the contemporary method, and 2 marks for the definition of the metre.
+2.  **Focus on Physics Principles:** Do not just list facts. For the historical method, explicitly state the equation $v = d/t$ or explain the mechanics of the "pulse" (like the cogwheel blocking the return).
+3.  **Ensure Correct Terminology:** Use terms like "terrestrial," "frequency," "wavelength," "vacuum," and "atomic transition."
+4.  **Connect to the SI Definition:** Clearly explain that because $c$ is now a *defined constant*, the metre is no longer a physical object (like the former platinum-iridium bar) but a derivation based on time (seconds) and the invariant speed of light.
+
+###QUESTION_TYPE
+Essay

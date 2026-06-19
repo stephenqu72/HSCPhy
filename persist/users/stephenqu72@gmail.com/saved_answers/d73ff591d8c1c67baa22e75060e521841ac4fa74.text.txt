@@ -1,0 +1,38 @@
+To solve this problem, we first identify the given variables:
+*   Side length of the coil, $L = 0.25\text{ m}$
+*   Magnetic field strength, $B = 0.10\text{ T}$
+*   Current, $I = 150\text{ mA} = 0.150\text{ A}$
+
+---
+
+### (a) Calculate the magnitude of the maximum force on a single side of the coil.
+
+**Explanation:** The force on a current-carrying conductor in a magnetic field is given by $F = BIL\sin(\theta)$. For the maximum force, the angle $\theta$ between the current and the magnetic field is $90^\circ$, so $\sin(90^\circ) = 1$.
+
+**Calculation:**
+$$F = B \times I \times L$$
+$$F = 0.10 \times 0.150 \times 0.25$$
+$$F = 0.00375\text{ N} = 3.75 \times 10^{-3}\text{ N}$$
+
+---
+
+### (b) Calculate the magnitude of the maximum torque on the coil.
+
+**Explanation:** The torque $\tau$ on a coil is given by $\tau = nIAB\cos(\alpha)$, where $n$ is the number of turns and $A$ is the area. For a single square coil, $n = 1$ and $A = L^2 = (0.25)^2 = 0.0625\text{ m}^2$. The maximum torque occurs when the plane of the coil is parallel to the magnetic field (or the normal to the coil is perpendicular to the field).
+
+**Calculation:**
+$$\tau = IAB$$
+$$\tau = 0.150 \times (0.25)^2 \times 0.10$$
+$$\tau = 0.150 \times 0.0625 \times 0.10$$
+$$\tau = 0.0009375\text{ N}\cdot\text{m} = 9.375 \times 10^{-4}\text{ N}\cdot\text{m}$$
+
+---
+
+### (c) Explain why the current is larger at start-up and why it settles to 150 mA.
+
+**Explanation:** 
+1.  **At Start-up:** When the motor is stationary, there is no back EMF (electromotive force). According to Ohm's Law ($I = \frac{V - \varepsilon}{R}$), if the back EMF ($\varepsilon$) is zero, the current is limited only by the internal resistance of the coil, which is typically very low, resulting in a large surge of current.
+2.  **Settling:** As the motor begins to rotate, the coil cuts through the magnetic field lines, inducing a back EMF that opposes the supply voltage (Lenz's Law). As the motor speeds up, the back EMF increases. This effectively reduces the net voltage across the coil's resistance. The motor reaches a steady state when the back EMF is high enough that the net voltage results in the operating current of $150\text{ mA}$.
+
+###QUESTION_TYPE
+Calculation question

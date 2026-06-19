@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship between terminal velocity ($v$) and mass ($m$) if a graph of $v^2$ vs $m$ yields a straight line through the origin?
+
+### Back
+- Key idea: Proportionality derived from Newton’s Second Law at equilibrium ($\Sigma F = 0$).
+- Formula / law / constant / figure: $v \propto \sqrt{m}$ (No fixed constant or figure).
+- When to use it: To interpret linear graphs involving squared velocity and mass, or to predict terminal velocity for different masses.
+- Common trap: Assuming a linear relationship between $v$ and $m$ instead of the square root relationship ($v \propto \sqrt{m}$).

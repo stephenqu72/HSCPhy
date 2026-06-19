@@ -1,0 +1,8 @@
+### Front
+In an experiment mimicking Millikan’s Oil Drop (using bolts and $N$ units), how is the mass ($m$) extracted from terminal velocity data?
+
+### Back
+- Key idea: Linearize the relationship by squaring both sides of the terminal velocity formula to create a $y = mx$ graph.
+- Formula / law / constant / figure: $v_{terminal}^2 = \left( \frac{2mg}{\rho A C_d} \right) N$, where $\text{slope} = \frac{2mg}{\rho A C_d}$
+- When to use it: To determine an unknown mass from the gradient of a graph plotted as $v^2$ vs. $N$.
+- Common trap: Forgetting to square the velocity ($v^2$) or failing to isolate $m$ from the complex slope expression.

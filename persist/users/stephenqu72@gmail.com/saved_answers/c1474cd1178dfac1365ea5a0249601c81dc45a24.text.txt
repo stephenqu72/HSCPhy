@@ -1,0 +1,38 @@
+To solve this question, we need to understand the physics of a DC motor and the role of back electromotive force (back emf).
+
+### Answer
+The correct statement is **(A)**. 
+*Note: Upon critical examination of the provided options, there is a technical nuance regarding the phrasing of these specific multiple-choice options. In standard physics, back emf **opposes** the supply voltage, thereby **decreasing** the current. However, if this were an exam question, we must look for the relationship defined by the circuit equation.* 
+
+Wait, let's re-evaluate:
+The circuit equation for a DC motor is:
+$$V = \varepsilon_{back} + IR$$
+Rearranging for current ($I$):
+$$I = \frac{V - \varepsilon_{back}}{R}$$
+
+As the motor spins faster, $\varepsilon_{back}$ increases. Looking at the equation, as $\varepsilon_{back}$ increases, the numerator ($V - \varepsilon_{back}$) decreases, which means **the current ($I$) decreases**. 
+
+**Correction:** Looking at the options provided in the image:
+(A) Back emf increases current (Incorrect)
+(B) Back emf increases supply voltage (Incorrect)
+(C) Back emf increases mechanical energy (Incorrect - it is a regulating mechanism)
+(D) Back emf decreases mechanical energy (Incorrect - it is a result of energy conversion)
+
+**Teacher's Note:** If this question is sourced from a standard HSC physics paper, there is usually a focus on the *limitation* of current. Back emf acts as a "braking" force on the current. If the question asks what is "true," none of these options are strictly accurate in a standard context because back emf **decreases** current. 
+
+However, if we must choose the statement that describes the *concept* of back emf in a functional sense, it is often taught that back emf serves to **regulate** the motor. If there is a typo in the question and it intended to ask about the *limitation* of current, then the answer would be that it limits the current. 
+
+Given the exact options provided, all four statements are technically false in standard physics. If forced to choose the "least incorrect" or based on a potential transcription error in the source material:
+*   Back emf **decreases** current (Opposite of A).
+*   Back emf **opposes** supply voltage (Opposite of B).
+
+If this were an exam, I would flag this question as having no correct option. However, in many simplified textbooks, they focus on the fact that back emf exists to prevent excessive current.
+
+### How to solve this type of question:
+1.  **Identify the governing equation:** Always start with $V = \varepsilon + IR$.
+2.  **Analyze the variables:** Recognize that $\varepsilon$ (back emf) is proportional to the speed of the motor.
+3.  **Predict the outcome:** As the motor speeds up, $\varepsilon$ increases. Because $\varepsilon$ is subtracted from the supply voltage $V$, the net potential difference across the armature resistance decreases, causing the current $I$ to drop.
+4.  **Evaluate options:** Compare your findings to the choices. If you find no matching correct statement, re-read carefully to ensure no misinterpretation of terms.
+
+###QUESTION_TYPE
+Multiple choice

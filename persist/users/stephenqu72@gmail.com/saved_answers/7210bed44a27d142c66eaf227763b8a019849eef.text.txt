@@ -1,0 +1,23 @@
+To solve this problem, we must refer to Young's Double-Slit Experiment equation, which relates the spacing between the interference fringes ($\Delta x$) to the physical parameters of the setup:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ is the spacing between the bright bands (fringe width).
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance between the double slits and the screen.
+*   $d$ is the distance between the two slits.
+
+### Analysis of the options:
+
+*   **(A) Increasing the separation of the laser and the double slits:** This distance does not appear in the formula for fringe spacing. Moving the laser source closer or further does not change the wavelength or the geometry of the interference occurring *after* the slits.
+*   **(B) Decreasing the distance between the double slits and the screen ($L$):** If $L$ decreases, the numerator in the equation decreases, which would **decrease** the fringe spacing $\Delta x$.
+*   **(C) Changing from a green laser to a blue laser:** Blue light has a shorter wavelength ($\lambda$) than green light. Decreasing $\lambda$ results in a **decrease** in fringe spacing.
+*   **(D) Changing from a green laser to a red laser:** Red light has a longer wavelength ($\lambda$) than green light. Increasing $\lambda$ in the numerator results in an **increase** in the fringe spacing $\Delta x$.
+
+Therefore, to increase the spacing between the bands, we need to increase the wavelength of the light source.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

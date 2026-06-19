@@ -1,0 +1,30 @@
+To determine the correct answer, we use the formula for the force per unit length $f$ between two parallel current-carrying wires:
+
+$$f = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+where $I_1$ and $I_2$ are the currents, and $r$ is the distance between them.
+
+### Step-by-Step Solution:
+
+1.  **Analyze the initial state:**
+    The net force $F$ on wire $Y$ is the vector sum of the forces exerted by wire $X$ and wire $Z$. Let $F_{XY}$ be the force from wire $X$ on $Y$, and $F_{ZY}$ be the force from wire $Z$ on $Y$.
+    $$F_{net} = F_{XY} + F_{ZY}$$
+    From the formula, we see that $F \propto \frac{1}{r}$. Therefore, $F_{XY} \propto \frac{I_X I_Y}{d}$ and $F_{ZY} \propto \frac{I_Z I_Y}{2d}$.
+
+2.  **Analyze the changed state:**
+    We are told the distances are doubled. The new distance between $X$ and $Y$ becomes $2d$, and the new distance between $Z$ and $Y$ becomes $2(2d) = 4d$.
+    The new forces are:
+    $$F'_{XY} \propto \frac{I_X I_Y}{2d} = \frac{1}{2} F_{XY}$$
+    $$F'_{ZY} \propto \frac{I_Z I_Y}{4d} = \frac{1}{2} F_{ZY}$$
+
+3.  **Calculate the new net force:**
+    $$F'_{net} = F'_{XY} + F'_{ZY} = \frac{1}{2} F_{XY} + \frac{1}{2} F_{ZY} = \frac{1}{2} (F_{XY} + F_{ZY})$$
+    Since the original force $F = F_{XY} + F_{ZY}$, the new force is:
+    $$F' = \frac{1}{2} F$$
+
+The force halves to $F/2$.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

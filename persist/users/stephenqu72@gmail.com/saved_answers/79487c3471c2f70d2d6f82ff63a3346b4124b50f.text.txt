@@ -1,0 +1,27 @@
+To find the electromotive force (emf) induced in a wire moving through a magnetic field, we use the formula for motional emf:
+
+$$\varepsilon = Blv \sin(\theta)$$
+
+### Given Data:
+*   Magnetic field strength ($B$) = $0.1\text{ T}$
+*   Length of the wire ($l$) = $0.5\text{ m}$
+*   Velocity of the wire ($v$) = $2.0\text{ m s}^{-1}$
+*   Angle between the wire and the magnetic field ($\theta$) = $90^\circ$
+
+### Step-by-Step Solution:
+
+1.  **Identify the relevant formula:** The emf induced in a conductor moving perpendicularly through a magnetic field is given by $\varepsilon = Blv \sin(\theta)$.
+2.  **Substitute the values into the formula:** 
+    $$\varepsilon = 0.1\text{ T} \times 0.5\text{ m} \times 2.0\text{ m s}^{-1} \times \sin(90^\circ)$$
+3.  **Perform the calculation:** 
+    Since $\sin(90^\circ) = 1$:
+    $$\varepsilon = 0.1 \times 0.5 \times 2.0 \times 1$$
+    $$\varepsilon = 0.1\text{ V}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+### Explanation:
+When a conductor moves through a magnetic field, the magnetic force acts on the free electrons within the wire, causing them to move to one end. This separation of charge creates a potential difference, or motional emf, across the ends of the wire. Because the wire is moving at a $90^\circ$ angle to the field, it cuts the magnetic field lines at the maximum possible rate, resulting in the maximum induced emf for these specific parameters.
+
+###QUESTION_TYPE
+Multiple choice

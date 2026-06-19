@@ -1,0 +1,36 @@
+To solve these questions, we must apply the principles of electromagnetic induction and the ideal transformer model.
+
+### Question 5
+**Explanation:**
+1.  **Primary vs. Secondary:** The **primary coil** is the side connected to the source (the AC generator), and the **secondary coil** is the side connected to the load (the resistor). Therefore, $X$ is the primary coil and $Y$ is the secondary coil.
+2.  **Transformer Function:** We compare the number of turns ($N$) and the voltage ($V$):
+    *   Primary turns $N_p = 1000$
+    *   Secondary turns $N_s = 6000$
+    *   Since $N_s > N_p$ (the number of turns increases), the transformer increases the voltage from $40\text{ V}$ to $240\text{ V}$. This is a **step-up** transformer.
+
+Comparing this to the options, **B** is the correct choice.
+
+### Question 6
+**Explanation:**
+For an ideal transformer, the power input equals the power output ($P_p = P_s$). 
+
+1.  **Calculate the secondary current ($I_s$):**
+    Using Ohm's Law, $I = \frac{V}{R}$:
+    $$I_s = \frac{V_s}{R_s} = \frac{240\text{ V}}{1200\text{ }\Omega} = 0.2\text{ A}$$
+
+2.  **Calculate the primary current ($I_p$):**
+    Using the ideal transformer power relationship $V_p I_p = V_s I_s$:
+    $$I_p = \frac{V_s I_s}{V_p} = \frac{240\text{ V} \times 0.2\text{ A}}{40\text{ V}}$$
+    $$I_p = 6 \times 0.2\text{ A} = 1.2\text{ A}$$
+
+Alternatively, using the transformer turns ratio formula $\frac{I_p}{I_s} = \frac{N_s}{N_p}$:
+$$I_p = I_s \times \frac{N_s}{N_p} = 0.2\text{ A} \times \frac{6000}{1000} = 0.2\text{ A} \times 6 = 1.2\text{ A}$$
+
+The closest value is **1.20 A**, which corresponds to option **C**.
+
+### Summary of Answers
+*   **Question 5:** B
+*   **Question 6:** C
+
+###QUESTION_TYPE
+Multiple choice

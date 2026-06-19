@@ -1,0 +1,16 @@
+The correct answer is **(A)**.
+
+### Explanation
+Magnetic braking is a practical application of **Lenz's Law** and **Faraday's Law of Induction**. Here is the step-by-step breakdown of the physics:
+
+1.  **Requirement for Change:** For a braking force to be generated, there must be a change in magnetic flux ($\Delta \Phi$) through a conductor (such as a metal disc or track).
+2.  **Relative Motion:** This change in flux occurs only when there is **relative motion** between the conductor and the magnetic field. As the conductor moves through the magnetic field, the free electrons within the conductor experience a magnetic force (the Lorentz force, $F = qvB$), causing them to swirl and form **eddy currents**.
+3.  **Lenz's Law:** According to Lenz's Law, these eddy currents generate their own magnetic field that opposes the change that created them. This results in a retarding force that opposes the motion, effectively acting as a "brake."
+
+**Why the other options are incorrect:**
+*   **(B):** Magnetic braking is a **contactless** process. It relies on electromagnetic induction, not mechanical friction between surfaces.
+*   **(C):** It is not caused by simple magnetic attraction (like two magnets sticking together). It is caused by the interaction between a magnetic field and the induced eddy currents within a moving conductor.
+*   **(D):** Magnetic braking is speed-dependent. The retarding force is proportional to the velocity of the conductor ($F \propto v$). Therefore, the braking effect becomes negligible at very slow speeds, which is why it is often used in combination with mechanical brakes (e.g., on trains or rollercoasters) to bring the object to a complete stop.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+### Answer
+
+Two limitations of the ideal transformer model and corresponding strategies to improve efficiency are:
+
+1.  **Limitation: Eddy Currents.**
+    *   **Description:** Changing magnetic flux in the iron core induces circular currents (eddy currents) within the core material itself, causing energy loss as heat due to the resistance of the iron.
+    *   **Strategy:** The core is constructed using **laminated sheets** insulated from each other. This breaks the path of the eddy currents, significantly reducing their magnitude and the resulting heat dissipation.
+
+2.  **Limitation: Resistance in Windings (Copper Loss).**
+    *   **Description:** The copper wires used in the primary and secondary coils have inherent electrical resistance. As current flows through these coils, energy is dissipated as heat according to $P = I^2R$.
+    *   **Strategy:** Use **low-resistance, thick copper wire** for the windings to minimize the power lost to heat.
+
+---
+
+### How to solve this question
+
+To secure full marks (4 marks) for this HSC-style response, you must balance identifying the physics "flaw" (the limitation) with the engineering "solution" (the strategy):
+
+1.  **Identify the Limitation:** Think about why a real transformer gets hot. Real-world physics involves non-ideal materials. The two biggest factors are the iron core (magnetic/conductive properties) and the copper coils (resistive properties).
+2.  **Use correct terminology:** Examiners look for key terms like "Eddy currents," "laminated," "resistance," and "Copper loss (or $I^2R$ loss)."
+3.  **Structure your answer:** Provide a clear, two-part response. Link each limitation directly to its specific engineering strategy. For example:
+    *   *Point 1:* Limitation (Eddy currents) $\rightarrow$ Strategy (Lamination).
+    *   *Point 2:* Limitation (Resistance in wires) $\rightarrow$ Strategy (Thick wire/Low resistivity material).
+4.  **Avoid generic statements:** Do not simply say "make it better." Be specific about *why* the strategy works (e.g., "lamination limits the path for eddy currents," not just "lamination fixes the core").
+
+###QUESTION_TYPE
+Short answer

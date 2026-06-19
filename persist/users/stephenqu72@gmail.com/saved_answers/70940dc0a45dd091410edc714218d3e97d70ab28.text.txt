@@ -1,0 +1,23 @@
+### Answer
+The correct graph is **A**.
+
+### Explanation
+To solve this problem, we must apply Faraday's Law of Induction, which states that the induced electromotive force (EMF or voltage) is equal to the negative rate of change of magnetic flux:
+$$\varepsilon = -\frac{d\Phi}{dt}$$
+
+1.  **Analyze the Magnetic Flux ($\Phi$):** 
+    As the loop rotates in the magnetic field, the flux is given by $\Phi = BA \cos(\theta)$. Since the loop rotates at a constant angular velocity, $\theta = \omega t$. Thus, the flux follows a cosine function. At $t=0$, the loop is parallel to the magnetic field lines (or perpendicular to the area vector depending on the setup), but looking at the typical generator diagram, the flux is zero when the loop is parallel to the field and maximum when perpendicular. Based on the options provided, the flux is represented as a sine wave starting at zero (dashed line).
+
+2.  **Analyze the Voltage ($\varepsilon$):**
+    The voltage is the derivative of the flux function. Mathematically:
+    - If $\Phi(t) = \Phi_{max} \sin(\omega t)$
+    - Then $\varepsilon(t) = -\frac{d}{dt} [\Phi_{max} \sin(\omega t)] = -\Phi_{max} \omega \cos(\omega t)$
+
+3.  **Relate the Functions:**
+    A negative cosine wave is exactly a sine wave shifted by $90^\circ$ (or $\pi/2$ radians) to the left, or more simply, it acts as a "phase-shifted" version of the sine wave. Specifically, when the magnitude of the rate of change of flux is zero (at the peaks and troughs of the flux graph), the voltage must be zero. When the slope of the flux graph is steepest (at the crossing points of the flux graph), the voltage must be at its maximum or minimum.
+
+4.  **Evaluate the Graphs:**
+    *   **Graph A** shows the voltage (solid line) being zero when the flux (dashed line) is at its maximum, and the voltage reaching its extreme values when the flux is zero. This perfectly matches the derivative relationship $\varepsilon \propto -\frac{d\Phi}{dt}$.
+
+###QUESTION_TYPE
+Multiple choice

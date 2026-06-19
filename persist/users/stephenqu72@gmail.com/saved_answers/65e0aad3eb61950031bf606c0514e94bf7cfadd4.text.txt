@@ -1,0 +1,29 @@
+To solve this problem, we use **Faraday's Law of Induction**, which states that the induced electromotive force (emf) in a circuit is equal to the negative rate of change of magnetic flux through the circuit:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+where $\Phi = B A \cos(\theta)$, and $\theta$ is the angle between the magnetic field lines and the **normal** to the coil.
+
+### 1. Identify the given variables:
+*   Area $A = 0.02\text{ m} \times 0.03\text{ m} = 0.0006\text{ m}^2$
+*   Magnetic field strength $B = 0.075\text{ T}$
+*   Number of turns $N = 200$
+*   Time interval $\Delta t = 0.010\text{ s}$
+
+### 2. Determine the change in magnetic flux ($\Delta \Phi$):
+*   **Initial position:** The coil is parallel to the field lines. Therefore, the normal to the coil is at an angle of $90^\circ$ to the field lines.
+    $$\Phi_{\text{initial}} = B A \cos(90^\circ) = 0\text{ Wb}$$
+*   **Final position:** The coil is perpendicular to the field lines. Therefore, the normal to the coil is at an angle of $0^\circ$ to the field lines.
+    $$\Phi_{\text{final}} = B A \cos(0^\circ) = 0.075 \times 0.0006 \times 1 = 0.000045\text{ Wb}$$
+*   **Change in flux:**
+    $$\Delta \Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = 0.000045 - 0 = 0.000045\text{ Wb}$$
+
+### 3. Calculate the emf:
+Using Faraday's Law (we calculate the magnitude of the induced emf):
+$$\varepsilon = N \frac{\Delta \Phi}{\Delta t}$$
+$$\varepsilon = 200 \times \frac{0.000045}{0.010}$$
+$$\varepsilon = 200 \times 0.0045$$
+$$\varepsilon = 0.9\text{ V}$$
+
+**Answer:** The emf generated in the coil is **$0.9\text{ V}$**.
+
+###QUESTION_TYPE
+Calculation question

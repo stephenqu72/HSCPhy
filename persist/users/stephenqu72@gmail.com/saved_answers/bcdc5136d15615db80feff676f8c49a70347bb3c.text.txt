@@ -1,0 +1,26 @@
+To determine how the interference pattern changes, we must refer to the mathematical formula for the fringe separation (also known as fringe width) in Young’s double-slit experiment:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+- $\Delta x$ is the distance between adjacent bright fringes (the separation).
+- $\lambda$ is the wavelength of the light used.
+- $L$ is the distance from the slits to the screen.
+- $d$ is the distance between the two slits.
+
+### Explanation
+1. **Identify the variables:** In this problem, the slit separation ($d$) and the distance to the screen ($L$) remain constant. Only the wavelength ($\lambda$) is changing.
+2. **Analyze the relationship:** The formula shows that the fringe separation ($\Delta x$) is directly proportional to the wavelength ($\lambda$) of the light source ($\Delta x \propto \lambda$).
+3. **Compare the wavelengths:** The green laser has a wavelength of $532\text{ nm}$ and the red laser has a wavelength of $633\text{ nm}$. Since the wavelength is increasing ($633\text{ nm} > 532\text{ nm}$), the fringe separation ($\Delta x$) must also increase.
+4. **Conclusion:** Because the fringes are more widely spaced, the alternating bands of bright light become more separated.
+
+Comparing this to the provided options:
+(A) Incorrect: The pattern depends on the wavelength.
+(B) Incorrect: Brightness is related to the intensity of the source, not the wavelength.
+(C) Incorrect: This would happen if the wavelength decreased.
+(D) **Correct:** An increase in wavelength results in an increase in fringe separation.
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

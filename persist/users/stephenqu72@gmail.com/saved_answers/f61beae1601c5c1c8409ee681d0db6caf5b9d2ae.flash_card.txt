@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal component ($v_x$) of a velocity vector $v$ acting at an angle $\theta$ to the horizontal?
+
+### Back
+- Key idea: Vector resolution (decomposing a magnitude into perpendicular components).
+- Formula / law / constant / figure: $v_x = v \cos(\theta)$
+- When to use it: To analyze 2D motion (e.g., projectile motion) by separating vertical and horizontal effects.
+- Common trap: Using $\sin$ instead of $\cos$ if the angle is provided relative to the *vertical* rather than the horizontal.

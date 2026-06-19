@@ -1,0 +1,28 @@
+As an HSC Physics teacher, here is how I would guide you through answering this 6-mark question.
+
+### Part (a): Role of the Commutator and Brushes (3 marks)
+
+**Answer:**
+The **brushes** provide the electrical connection between the stationary external circuit (power supply) and the rotating **commutator**. The **commutator** acts as a mechanical reversing switch. As the armature rotates, the commutator segments swap contact with the brushes every half-turn. This reverses the direction of the current within the armature coils, ensuring that the magnetic torque always acts in the same rotational direction, allowing for continuous motion.
+
+**How to solve:**
+*   **Identify the components individually:** You must address both parts. 
+*   **The "Why":** Focus on the *purpose* (the "role"). For the brushes, it's about electrical contact to a moving part. For the commutator, it's about current reversal.
+*   **HSC Tip:** Use the phrase "reversing the direction of current every half-turn" to capture the key marking criteria for this syllabus point.
+
+---
+
+### Part (b): Induction in an AC Motor Rotor (3 marks)
+
+**Answer:**
+In an AC induction motor, the stator coils are supplied with AC, creating a rotating magnetic field ($B$). This magnetic field sweeps across the stationary rotor bars. According to Faraday’s Law, a changing magnetic flux induces an EMF in the rotor bars. Since the rotor bars are short-circuited by the end rings, this induced EMF drives a large current through the bars (Lenz’s Law). This induced current interacts with the stator's magnetic field to produce a force ($F = BIL$), creating torque that causes the rotor to spin to "chase" the rotating magnetic field.
+
+**How to solve:**
+*   **The Sequence of Physics:** This is a cause-and-effect chain. Start with the rotating magnetic field, mention the change in flux (Faraday’s Law), mention the induced EMF/current in the short-circuited bars, and conclude with the interaction producing force/torque.
+*   **Key terminology:** Ensure you include "rotating magnetic field," "Faraday’s Law," "induced EMF," and "Lenz’s Law/short-circuited."
+*   **The "Trick":** The prompt mentions there is no external electrical contact. Your answer *must* explain that the current is purely **induced** rather than supplied, which is why we describe the motor as an "induction" motor.
+
+---
+
+### QUESTION_TYPE
+Short answer

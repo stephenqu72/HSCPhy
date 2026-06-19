@@ -1,0 +1,20 @@
+The correct answer is **(D) To reduce heating effects**.
+
+### Explanation
+
+In a transformer, the varying magnetic flux in the iron core induces unwanted circular currents within the core itself, known as **eddy currents**. According to Lenz's Law and Faraday's Law, these currents flow in paths perpendicular to the changing magnetic field. Because the iron core has electrical resistance, these circulating eddy currents dissipate energy in the form of thermal energy (heat) due to the Joule heating effect ($P = I^2 R$).
+
+To mitigate this energy loss and prevent the transformer from overheating, the core is constructed from thin, insulated sheets (laminations) of metal pressed together rather than a single solid block. 
+
+1.  **Breaking the path:** The insulating layers between the laminations break the path of the eddy currents.
+2.  **Increasing resistance:** By confining the eddy currents to smaller paths within each individual lamina, the resistance of the path is effectively increased, and the total magnitude of the eddy currents is significantly reduced.
+3.  **Efficiency:** Less energy is wasted as heat, which increases the overall efficiency of the transformer.
+
+Therefore, laminating the core is a deliberate design choice specifically used to minimize energy loss caused by these currents.
+
+*   (A) is incorrect: Laminating the core does not increase the magnitude of the magnetic field.
+*   (B) is incorrect: The goal is to minimize, not increase, eddy currents.
+*   (C) is incorrect: The goal is to prevent the generation of heat, not to conduct it away.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To determine the correct expression for the speed of light ($c$) using Foucault's rotating mirror apparatus, we follow these logical steps:
+
+### 1. The Physics of the Path
+The light travels from the rotating mirror to the fixed mirror (distance $d$) and reflects back to the rotating mirror (distance $d$). The total distance traveled by the light is $2d$.
+The time taken for this round trip is:
+$$t = \frac{2d}{c}$$
+
+### 2. The Rotation of the Mirror
+While the light is traveling, the mirror rotates by an angle $\theta$ at an angular velocity $\omega$. The time taken for this rotation is:
+$$t = \frac{\theta}{\omega}$$
+
+### 3. The Relationship Between Angles
+When a mirror rotates by an angle $\theta$, the reflected beam of light rotates by an angle of $2\theta$ because the angle of incidence and the angle of reflection both change by $\theta$. The angle measured by Foucault, $\theta'$, represents this total angular deflection of the light beam:
+$$\theta' = 2\theta$$
+
+### 4. Deriving the Expression
+Equating the two expressions for time ($t$):
+$$\frac{2d}{c} = \frac{\theta}{\omega}$$
+
+However, since the deflection of the reflected light is $2\theta$, we substitute the actual deflection angle observed ($2\theta = \theta'$):
+$$\frac{2d}{c} = \frac{\theta'}{2\omega}$$
+Rearranging for $c$:
+$$c = \frac{4d\omega}{\theta'}$$
+In the context of the options provided, the question defines $\theta$ as the angle through which the mirror rotates. Since the reflected light beam is deflected by $2\theta$, and that deflection is what Foucault measured as $\theta'$ (where $\theta' = 2\theta$), we substitute $\theta = \frac{\theta'}{2}$ into the time equation:
+$$\frac{2d}{c} = \frac{\theta}{\omega} \implies c = \frac{2d\omega}{\theta}$$
+
+Looking at the options, option **A** represents the standard derivation for the speed of light in this experimental configuration where $\theta$ is the angle of rotation of the mirror.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

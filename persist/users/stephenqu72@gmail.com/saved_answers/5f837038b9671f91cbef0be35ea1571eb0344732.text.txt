@@ -1,0 +1,19 @@
+To determine which graph correctly shows the induced EMF, we must analyze the physical setup based on Faraday's Law of Induction, where the induced EMF $\varepsilon$ is proportional to the rate of change of magnetic flux $\Phi$ through the coil: $\varepsilon = -N \frac{d\Phi}{dt}$.
+
+### Analysis:
+1.  **Magnetic Flux ($\Phi$):** The magnetic flux is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the area vector and the magnetic field lines.
+2.  **The Geometry:** 
+    *   There are two sets of magnets. One set is positioned at $0^\circ$ and the other at $90^\circ$.
+    *   As the conductor rotates, it enters a region of high magnetic field twice every $90^\circ$ (effectively four times per full rotation).
+3.  **Induced EMF ($\varepsilon$):** The EMF is the derivative of the flux. As the conductor passes through a magnetic field region, the flux changes from zero to maximum and back to zero. This creates a pulse of EMF.
+    *   Because there are two distinct locations ($0^\circ$ and $90^\circ$) where the conductor experiences a change in magnetic flux per $90^\circ$ interval, we expect to see two peaks (one positive, one negative) within each $90^\circ$ sector.
+4.  **Evaluating the Graphs:**
+    *   In a full $360^\circ$ rotation, the conductor passes through four magnetic regions ($0^\circ, 90^\circ, 180^\circ, 270^\circ$).
+    *   At each region, the rate of change of flux is non-zero, producing a pulse in the EMF. Between these regions, the coil is in a "dead zone" where the flux is constant (zero), resulting in zero EMF.
+    *   Graph (D) shows distinct, periodic pulses of EMF occurring exactly at the intervals where the conductor passes through the magnet sets. It shows four pairs of pulses over $360^\circ$, which corresponds to the four magnet-interaction events.
+
+### Conclusion:
+Graph **(D)** correctly represents the intermittent induction caused by the conductor moving through localized magnetic fields at $0^\circ, 90^\circ, 180^\circ,$ and $270^\circ$, with periods of zero EMF in between.
+
+###QUESTION_TYPE
+Multiple choice

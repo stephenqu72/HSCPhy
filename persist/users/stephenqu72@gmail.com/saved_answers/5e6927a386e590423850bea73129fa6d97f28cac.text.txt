@@ -1,0 +1,36 @@
+To solve this problem, we use the principles of magnetic flux and Faraday’s Law of Induction.
+
+### Part a) Show that the magnetic flux is $3 \times 10^{-3} \text{ Wb}$
+
+**Theory:** The magnetic flux ($\Phi$) through a single loop of area $A$ in a magnetic field $B$ is given by the formula:
+$$\Phi = BA \cos(\theta)$$
+where $\theta$ is the angle between the magnetic field vector and the normal to the surface (the area vector). 
+
+**Calculation:**
+1. Given: $B = 0.25 \text{ T}$, $A = 1.2 \times 10^{-2} \text{ m}^2$.
+2. The problem states the area vector is parallel to the magnetic field, meaning $\theta = 0^\circ$. Since $\cos(0^\circ) = 1$:
+$$\Phi = 0.25 \times (1.2 \times 10^{-2})$$
+$$\Phi = 0.3 \times 10^{-2} \text{ Wb} = 3 \times 10^{-3} \text{ Wb}$$
+
+---
+
+### Part b) Calculate the emf induced across the coil
+
+**Theory:** Faraday’s Law states that the induced electromotive force (emf) is equal to the negative rate of change of magnetic flux linkage ($N\Phi$):
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+where $N = 1100$ is the number of turns.
+
+**Calculation:**
+1. Initial flux: $\Phi_i = 3 \times 10^{-3} \text{ Wb}$.
+2. The coil rotates $180^\circ$. The area vector now points in the opposite direction to the magnetic field, so $\theta = 180^\circ$.
+3. Final flux: $\Phi_f = BA \cos(180^\circ) = -3 \times 10^{-3} \text{ Wb}$.
+4. Change in flux: $\Delta \Phi = \Phi_f - \Phi_i = (-3 \times 10^{-3}) - (3 \times 10^{-3}) = -6 \times 10^{-3} \text{ Wb}$.
+5. Time interval: $\Delta t = 0.01 \text{ s}$.
+6. Induced emf:
+$$\varepsilon = -1100 \times \left( \frac{-6 \times 10^{-3}}{0.01} \right)$$
+$$\varepsilon = 1100 \times 0.6 = 660 \text{ V}$$
+
+The induced emf across the coil is **$660 \text{ V}$**.
+
+###QUESTION_TYPE
+Calculation question

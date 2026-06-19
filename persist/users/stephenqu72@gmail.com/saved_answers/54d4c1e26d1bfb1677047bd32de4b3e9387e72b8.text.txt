@@ -1,0 +1,25 @@
+### Answer and Explanation
+
+#### (a) Hypothesising the Relationships
+*   **Relationship between $\theta$ and $d$ (Table 1):** Looking at Table 1, as the diameter $d$ increases, the angle $\theta$ decreases. Specifically, if you multiply $d \times \theta$, the value remains approximately constant ($20 \times 2.4 = 48$; $40 \times 1.2 = 48$; $90 \times 0.5 \approx 45$). Therefore, $\theta \propto \frac{1}{d}$ (inversely proportional).
+*   **Relationship between $\theta$ and $\lambda$ (Table 2):** Looking at Table 2, as the wavelength $\lambda$ increases, the angle $\theta$ increases. For example, moving from $400\ nm$ to $800\ nm$ doubles the wavelength and roughly doubles the angle ($0.6^\circ$ to $1.1^\circ$). Therefore, $\theta \propto \lambda$ (directly proportional).
+
+**Conclusion:** Combining these, $\theta \propto \frac{\lambda}{d}$.
+
+#### (b) Deriving the Expression
+We are given that $\theta \propto \frac{\lambda}{d}$, which means $\theta = k \frac{\lambda}{d}$ for some constant $k$.
+1. From Table 1 (fixed $\lambda = 690\ nm = 6.9 \times 10^{-7}\ m$):
+   $\theta \times d \approx 8.4 \times 10^{-7}\ m \cdot rad$. Since $\theta = k \frac{\lambda}{d}$, then $k = \frac{\theta \cdot d}{\lambda} = \frac{8.4 \times 10^{-7}}{6.9 \times 10^{-7}} \approx 1.22$.
+2. From Table 2 (fixed $d = 50\ \mu m = 5.0 \times 10^{-5}\ m$):
+   $\frac{\theta}{\lambda} \approx 2.4 \times 10^4\ rad/m$. Since $\theta = k \frac{\lambda}{d}$, then $k = \frac{\theta \cdot d}{\lambda} = \frac{\theta}{\lambda} \times d = (2.4 \times 10^4) \times (5.0 \times 10^{-5}) = 1.2$.
+
+Both calculations yield $k \approx 1.22$. Therefore, the expression for the first minimum of an Airy disc is:
+$$\theta \approx 1.22 \frac{\lambda}{d}$$
+
+#### (c) Explanation of Airy Disc Formation
+An Airy disc forms due to the wave nature of light, specifically **diffraction**. When light passes through a circular aperture, each point across the aperture acts as a source of secondary wavelets (Huygens' Principle). These wavelets interfere with each other as they propagate. 
+*   In the centre, the waves arrive in phase, causing **constructive interference**, creating the central bright maximum.
+*   As the angle increases, the path difference between light originating from different parts of the aperture leads to **destructive interference**, where the waves cancel out. This first point of complete destructive interference defines the edge of the central Airy disc (the first minimum). The circular symmetry of the aperture results in concentric rings of intensity rather than a linear pattern.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of wave optics related to diffraction gratings. 
+
+**Given data:**
+*   Wavelength $\lambda = 632 \text{ nm} = 632 \times 10^{-9} \text{ m}$
+*   Grating density $N = 8000 \text{ lines/cm} = 800,000 \text{ lines/m}$
+*   Distance to screen $L = 5.00 \text{ m}$
+
+---
+
+### (a) Determine the separation between the slits ($d$)
+The separation between slits is the reciprocal of the number of lines per unit length.
+$$d = \frac{1}{N} = \frac{1}{800,000 \text{ m}^{-1}} = 1.25 \times 10^{-6} \text{ m} \text{ (or } 1.25 \times 10^{-3} \text{ mm)}$$
+
+---
+
+### (b) Distance on the screen between the central maximum ($M=0$) and 1st order ($M=1$)
+First, we find the angle $\theta$ for the first-order maximum using the grating equation $d \sin(\theta) = m\lambda$:
+$$\sin(\theta) = \frac{m\lambda}{d} = \frac{1 \times 632 \times 10^{-9}}{1.25 \times 10^{-6}} = 0.5056$$
+$$\theta = \arcsin(0.5056) \approx 30.37^\circ$$
+The distance $y$ on the screen is found using trigonometry: $\tan(\theta) = \frac{y}{L}$.
+$$y = L \tan(\theta) = 5.00 \times \tan(30.37^\circ) \approx 5.00 \times 0.5864 \approx 2.93 \text{ m}$$
+
+---
+
+### (c) Maximum number of maxima
+The condition for the maximum possible order $m$ is that $\sin(\theta)$ cannot exceed $1$ (since the angle cannot exceed $90^\circ$):
+$$m \leq \frac{d}{\lambda} = \frac{1.25 \times 10^{-6}}{632 \times 10^{-9}} \approx 1.977$$
+Since $m$ must be an integer, the highest order observed is $m = 1$.
+The total number of maxima includes the central maximum ($M=0$), the 1st order on one side ($M=1$), and the 1st order on the other side ($M=-1$).
+$$\text{Total maxima} = 1 (\text{left}) + 1 (\text{center}) + 1 (\text{right}) = 3$$
+
+---
+
+###QUESTION_TYPE
+Calculation question

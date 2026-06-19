@@ -1,0 +1,8 @@
+### Front
+How do you calculate the apparent weight ($F_N$) of an object in a vertically accelerating elevator?
+
+### Back
+- **Key idea:** Apparent weight is the Normal Force ($F_N$), which varies based on acceleration, unlike mass.
+- **Formula / law / constant / figure:** $F_N = m(g + a)$ (where upward acceleration is positive).
+- **When to use it:** When determining scale readings or "heaviness/lightness" in vertical motion.
+- **Common trap:** Forgetting to use a negative value for downward acceleration ($a < 0$), which leads to an incorrect increase in weight.

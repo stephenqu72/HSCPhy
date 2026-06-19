@@ -1,0 +1,36 @@
+To solve this problem, we apply Snell's Law to determine the angle of refraction and then use trigonometry to calculate the displacement $OX$.
+
+### Part a: Calculation of distance OX
+
+**1. Determine the angle of incidence ($\theta_1$):**
+The angle given ($40.00^\circ$) is with respect to the *surface*. The angle of incidence used in Snell’s Law must be measured from the *normal* (the dotted vertical line).
+$$\theta_1 = 90^\circ - 40.00^\circ = 50.00^\circ$$
+
+**2. Use Snell's Law to find the angle of refraction ($\theta_2$):**
+The formula is $n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$, where $n_1 = 1.000$ (air) and $n_2 = 1.335$ (water).
+$$1.000 \cdot \sin(50.00^\circ) = 1.335 \cdot \sin(\theta_2)$$
+$$\sin(\theta_2) = \frac{\sin(50.00^\circ)}{1.335} \approx \frac{0.7660}{1.335} \approx 0.5738$$
+$$\theta_2 = \arcsin(0.5738) \approx 35.01^\circ$$
+
+**3. Calculate distance $OX$ using trigonometry:**
+In the right-angled triangle formed by the depth of the tank ($80.00 \text{ cm}$) and the refracted ray, $OX$ is the opposite side to the angle of refraction $\theta_2$.
+$$\tan(\theta_2) = \frac{OX}{\text{depth}}$$
+$$OX = 80.00 \times \tan(35.01^\circ)$$
+$$OX \approx 80.00 \times 0.7003 \approx 56.02 \text{ cm}$$
+
+---
+
+### Part b: Effect of white sunlight
+
+When white light enters the water, **dispersion** occurs because different wavelengths of light have different refractive indices in water (the refractive index is higher for shorter wavelengths like violet/blue and lower for longer wavelengths like red).
+
+*   **Left of point X:** Violet/Blue light. These colors have a higher refractive index than green light, meaning they refract (bend) more towards the normal, resulting in a smaller angle of refraction and landing to the left of the green light's position.
+*   **At point X:** Green light. (As calculated in part a, green is the central part of the spectrum in this context relative to the initial calculation).
+*   **Right of point X:** Red light. Red light has a lower refractive index than green light, meaning it bends less towards the normal, resulting in a larger angle of refraction and landing further to the right.
+
+| Light to the left of point X | Light at point X | Light to the right of point X |
+| :--- | :--- | :--- |
+| Violet / Blue | Green | Red |
+
+###QUESTION_TYPE
+Calculation question

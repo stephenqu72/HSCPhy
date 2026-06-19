@@ -1,0 +1,34 @@
+To solve this problem, we need to understand the relationship between the rotation of a coil in a magnetic field and the induced electromotive force (EMF), as described by Faraday’s Law of Induction.
+
+### Step-by-Step Explanation
+
+1.  **Analyze the initial state:**
+    From the original graph, we can see that one full cycle (period $T$) is completed in $0.1\text{ s}$. 
+    The maximum voltage (peak amplitude) is $V_{max} = 1\text{ V}$.
+
+2.  **Understand the effect of frequency:**
+    The induced EMF in a rotating coil is given by the formula:
+    $$\varepsilon = NBA\omega \sin(\omega t)$$
+    Where:
+    *   $N$ is the number of turns.
+    *   $B$ is the magnetic field strength.
+    *   $A$ is the area of the coil.
+    *   $\omega$ is the angular velocity, where $\omega = 2\pi f$ ($f$ is frequency).
+
+3.  **Apply the changes:**
+    *   **Frequency ($f$):** The problem states the frequency is doubled. Since $\omega = 2\pi f$, the angular velocity also doubles.
+    *   **Period ($T$):** Since $T = 1/f$, doubling the frequency results in the period being halved. The new period will be $0.1\text{ s} / 2 = 0.05\text{ s}$. This means we should see two full cycles within the $0.1\text{ s}$ timeframe.
+    *   **Amplitude ($V_{max}$):** Looking at the formula $\varepsilon_{max} = NBA\omega$, since $\omega$ has doubled, the peak voltage must also double. The new peak voltage will be $1\text{ V} \times 2 = 2\text{ V}$.
+
+4.  **Evaluate the options:**
+    *   We are looking for a graph where:
+        *   The peak voltage reaches $2\text{ V}$.
+        *   There are exactly two full cycles between $t = 0$ and $t = 0.1\text{ s}$.
+
+    Comparing this to the options:
+    *   **Graph C** shows the amplitude reaching $2\text{ V}$ and two full cycles completed in $0.1\text{ s}$.
+
+**Correct Answer:** **C**
+
+###QUESTION_TYPE
+Multiple choice

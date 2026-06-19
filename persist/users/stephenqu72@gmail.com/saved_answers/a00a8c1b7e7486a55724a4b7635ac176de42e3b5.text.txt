@@ -1,0 +1,24 @@
+As a top HSC teacher, let's break down this physics concept.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To understand why the torque varies, we must look at the definition of torque ($\tau$) in a rotational system:
+$$\tau = rF\sin(\theta)$$
+where:
+*   $r$ is the distance from the pivot (axle) to the point where the force is applied.
+*   $F$ is the magnitude of the force ($F = BIL$).
+*   $\theta$ is the angle between the force vector and the lever arm.
+
+In a DC motor, as the coil rotates, the orientation of the side $AB$ relative to the magnetic field changes.
+1.  **Force ($F$):** Since the current ($I$), the magnetic field strength ($B$), and the length of the wire ($L$) remain constant, the magnitude of the force acting on side $AB$ remains constant. This eliminates choice A.
+2.  **Distance:** Torque is defined as the "turning effect" of a force, which depends on the **perpendicular distance** from the axis of rotation to the line of action of the force. As the coil rotates, the lever arm component perpendicular to the magnetic force changes. 
+    *   When the coil is parallel to the magnetic field, the force is perpendicular to the arm, maximizing the torque.
+    *   When the coil is perpendicular to the magnetic field, the force acts through the axle (or has no perpendicular component), resulting in zero torque.
+3.  **External factors:** Choices C and D are incorrect because, in a standard simple DC motor, we assume a constant DC voltage supply and permanent magnets (or a constant field supply), meaning $V$ and $B$ do not vary with time.
+
+Therefore, the variation in torque is due to the change in the effective perpendicular distance as the coil rotates, which is accurately described by choice **B**.
+
+###QUESTION_TYPE
+Multiple choice

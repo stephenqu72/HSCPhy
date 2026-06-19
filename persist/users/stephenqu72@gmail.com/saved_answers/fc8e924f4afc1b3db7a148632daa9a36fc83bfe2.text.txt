@@ -1,0 +1,16 @@
+To determine the correct answer, we must apply Faraday’s Law of Induction and Lenz’s Law.
+
+### Explanation
+
+1.  **Faraday's Law:** When the current in the solenoid increases, the magnetic flux passing through the nearby conductive metal plate also increases. According to Faraday’s Law, a changing magnetic flux induces an electromotive force (EMF) in a conductor. Because the plate is conductive, this EMF causes circulating currents to flow within the material of the plate. These are known as **eddy currents**.
+2.  **Lenz's Law:** Lenz’s Law states that the direction of the induced current is such that it creates a magnetic field that opposes the *change* in the original magnetic flux. 
+3.  **Evaluating the options:**
+    *   **A is incorrect:** Eddy currents do not require an external circuit; they occur within the bulk of any conductive material experiencing a changing magnetic field.
+    *   **B is partially descriptive but vague:** While a pole may form, the defining characteristic of this physical interaction is the *opposition* to the change in flux, as stated by Lenz's Law.
+    *   **C is incorrect:** The induced current only exists while the magnetic flux is changing (i.e., while the current in the solenoid is increasing). Once the current becomes constant, the flux is no longer changing, and the eddy currents cease.
+    *   **D is correct:** This statement accurately reflects both the creation of eddy currents (due to changing flux) and the principle of Lenz’s Law (the induced field opposes the increase in the solenoid’s magnetic field).
+
+Therefore, the correct statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

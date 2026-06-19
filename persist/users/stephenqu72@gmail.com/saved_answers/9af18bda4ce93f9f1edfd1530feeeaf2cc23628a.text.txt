@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+To solve this problem, we first identify the given variables:
+- Rail separation ($l$) = $0.2\text{ m}$
+- Angle of rails ($\theta$) = $30^\circ$
+- Magnetic field ($B$) = $1\text{ T}$ (upward)
+- Distance moved along the rails ($\Delta x$) = $0.3\text{ m}$
+- Time taken ($\Delta t$) = $2.5\text{ s}$
+
+---
+
+#### (a) Show that the change in magnetic flux is $5.2 \times 10^{-2}\text{ Wb}$
+
+The magnetic flux $\Phi$ is given by $\Phi = B \cdot A_{\perp}$, where $A_{\perp}$ is the area of the circuit perpendicular to the magnetic field.
+The horizontal width of the circuit is $l = 0.2\text{ m}$. The distance moved along the slope is $0.3\text{ m}$. The horizontal distance covered ($\Delta x_h$) is:
+$$\Delta x_h = 0.3 \cos(30^\circ) \approx 0.2598\text{ m}$$
+The change in area perpendicular to the vertical magnetic field is:
+$$\Delta A = l \cdot \Delta x_h = 0.2 \times (0.3 \cos(30^\circ)) \approx 0.05196\text{ m}^2$$
+$$\Delta \Phi = B \cdot \Delta A = 1 \times 0.05196 \approx 5.2 \times 10^{-2}\text{ Wb}$$
+
+---
+
+#### (b) Calculate the emf and state the direction of current
+
+**emf calculation:**
+Using Faraday's Law, $|\varepsilon| = \frac{\Delta \Phi}{\Delta t}$:
+$$|\varepsilon| = \frac{5.196 \times 10^{-2}\text{ Wb}}{2.5\text{ s}} \approx 0.0208\text{ V} \text{ (or } 2.1 \times 10^{-2}\text{ V)}$$
+
+**Direction:**
+Using Lenz's Law: The rod is moving such that the area of the circuit in the upward magnetic field is increasing. The induced current will create a magnetic field pointing **downward** to oppose this increase. By the Right-Hand Grip Rule, the current must flow in a **clockwise** direction as viewed from above.
+
+---
+
+#### (c) Why is the force different without the magnetic field?
+
+1. **With the magnetic field:** When the rod moves, an induced emf is generated, causing a current to flow. This current interacts with the external magnetic field to create a magnetic braking force (Lenz's Law), which acts in the opposite direction to the motion. Therefore, an additional applied force $F$ is required to overcome this magnetic drag and maintain constant speed.
+2. **Without the magnetic field:** There is no induced emf and no induced current, so there is no magnetic braking force. The only forces acting on the rod parallel to the rails are the component of gravity ($mg \sin 30^\circ$) pulling it down and the applied force $F$ pulling it up. Consequently, the force $F$ required is purely to counteract gravity (or friction), making it significantly different (smaller) than in the presence of the magnetic field.
+
+---
+
+###QUESTION_TYPE
+Calculation question

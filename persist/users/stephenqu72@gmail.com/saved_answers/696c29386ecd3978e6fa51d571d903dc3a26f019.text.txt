@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for Young's double-slit interference pattern, which relates the distance between bright fringes (or spots) to the slit separation, wavelength, and distance to the screen.
+
+### 1. Identify the given values:
+*   Wavelength ($\lambda$) = $536\text{ nm} = 536 \times 10^{-9}\text{ m}$
+*   Distance to screen ($D$) = $5.54\text{ m}$
+*   Fringe separation ($\Delta y$) = $3.30\text{ cm} = 3.30 \times 10^{-2}\text{ m}$
+
+### 2. The Formula:
+The relationship is given by:
+$$\Delta y = \frac{\lambda D}{d}$$
+where $d$ is the separation distance between the two slits. We need to rearrange this to solve for $d$:
+$$d = \frac{\lambda D}{\Delta y}$$
+
+### 3. Calculation:
+Substitute the values into the equation:
+$$d = \frac{(536 \times 10^{-9}\text{ m}) \times (5.54\text{ m})}{3.30 \times 10^{-2}\text{ m}}$$
+$$d = \frac{2.96944 \times 10^{-6}}{3.30 \times 10^{-2}}\text{ m}$$
+$$d \approx 9.00 \times 10^{-5}\text{ m}$$
+
+### 4. Convert to micrometers ($\mu\text{m}$):
+Since $1\text{ m} = 10^6\text{ }\mu\text{m}$:
+$$d = 9.00 \times 10^{-5} \times 10^6\text{ }\mu\text{m} = 90.0\text{ }\mu\text{m}$$
+
+Comparing this result to the given options, the correct choice is **D**.
+
+###QUESTION_TYPE
+Multiple choice

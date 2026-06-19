@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### Part (a): Sketch of Speed vs. Time
+To sketch this, you must represent a curve that starts at the origin $(0,0)$, increases rapidly at first, and then levels off to a constant horizontal asymptote as it approaches the steady-state operating speed.
+
+*   **Key features of the sketch:**
+    1.  Starts at $(0,0)$.
+    2.  Positive gradient that continuously decreases (a "plateauing" curve).
+    3.  The graph flattens out as it approaches a maximum constant speed value.
+
+#### Part (b): Explanation
+To secure full marks for this question, you need to link the physical rotation of the coil to the principles of electromagnetic induction (back EMF).
+
+1.  **Initial State:** When the motor is first switched on, the loop is stationary. Since there is no motion, there is no magnetic flux change through the coil, meaning no back EMF is produced. Consequently, the current in the coil is at its maximum value, resulting in high torque and rapid initial acceleration.
+2.  **Back EMF Induction:** As the motor gains speed, the coil cuts through the magnetic field lines, inducing a back EMF ($\varepsilon_{back}$) according to Faraday’s Law and Lenz’s Law. This back EMF acts in opposition to the supply voltage ($V_{supply}$).
+3.  **The Net Voltage:** The effective current ($I$) driving the motor is determined by the equation:
+    $$I = \frac{V_{supply} - \varepsilon_{back}}{R}$$
+    where $R$ is the internal resistance of the coil.
+4.  **Reaching Steady State:** As the motor speeds up, $\varepsilon_{back}$ increases, which decreases the net voltage and, subsequently, the current. This leads to a reduction in the torque. The motor continues to accelerate until the torque produced by the current exactly balances the frictional/load torques. At this point, the speed remains constant because the net force is zero.
+
+---
+
+### QUESTION_TYPE
+Other questions

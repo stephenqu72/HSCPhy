@@ -1,0 +1,19 @@
+To determine which scenario produces the greatest diffraction effects, we need to apply the fundamental principle of wave optics regarding aperture size and wavelength.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+Diffraction is the bending of waves around obstacles or through openings. The degree of diffraction depends on the relationship between the **wavelength ($\lambda$)** of the wave and the **width of the gap ($w$)**.
+
+1.  **The Principle:** Significant diffraction occurs when the wavelength of the wave is approximately equal to or larger than the size of the gap through which it is passing ($\lambda \approx w$ or $\lambda > w$). If the gap is significantly larger than the wavelength, the wave tends to travel in a straight line with minimal diffraction.
+2.  **Analyzing the options:**
+    *   **A:** $\lambda = 1.0\text{ cm}$, $w = 2.0\text{ cm}$. Here, $\lambda < w$. Diffraction is minimal.
+    *   **B:** $\lambda = 2.0\text{ cm}$, $w = 2.0\text{ cm}$. Here, **$\lambda = w$**. This is the condition for maximum diffraction, where the wave will spread out into a semi-circular wavefront after passing through the gap.
+    *   **C:** $\lambda = 1.0\text{ cm}$, $w = 3.0\text{ cm}$. Here, $\lambda < w$. Diffraction is minimal.
+    *   **D:** $\lambda = 2.0\text{ cm}$, $w = 3.0\text{ cm}$. Here, $\lambda < w$. While there is more diffraction than in A or C, it is less than in B because the gap is wider than the wavelength.
+
+Since option **B** has the wavelength equal to the gap width, it will exhibit the most significant diffraction effects.
+
+###QUESTION_TYPE
+Multiple choice

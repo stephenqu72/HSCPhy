@@ -1,0 +1,14 @@
+### Answer
+The reading on the galvanometer would no longer oscillate between positive and negative values. Instead, the galvanometer would show a deflection in only one direction (a pulsating direct current).
+
+### Explanation
+To solve this, you need to understand the fundamental difference between the roles of slip rings and a split-ring commutator in electromagnetic induction:
+
+1.  **The Role of Slip Rings (AC Generator):** In an AC generator, the ends of the rotating coil are connected to continuous slip rings. As the coil rotates, the direction of the induced current (determined by Lenz’s Law/Faraday’s Law) reverses every half-rotation. Consequently, the galvanometer needle swings back and forth across the zero mark, reflecting the alternating nature of the current.
+2.  **The Role of the Split-Ring Commutator (DC Generator):** A split-ring commutator consists of two half-cylinders separated by an insulator. It acts as a mechanical switch. Every half-turn, the commutator segments swap the connection of the coil ends to the external circuit. 
+3.  **Result:** This swapping action reverses the connection to the galvanometer at the exact moment the induced current in the coil reverses direction. Because the connection to the external circuit is reversed simultaneously with the current in the coil, the current flowing *through the galvanometer* remains in the same direction. 
+
+**Summary for your exam:** The output changes from a sinusoidal alternating current to a pulsating direct current, causing the galvanometer to deflect only on one side of the scale.
+
+###QUESTION_TYPE
+Short answer

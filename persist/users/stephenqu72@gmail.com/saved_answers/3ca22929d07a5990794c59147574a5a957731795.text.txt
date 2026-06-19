@@ -1,0 +1,27 @@
+To determine the induced electromotive force (emf) in the rotating conductor $PQ$, we look at the physics of motional emf.
+
+### Answer
+The correct graph is **D**.
+
+### Explanation
+1.  **Understanding Motional EMF:** A conductor moving through a magnetic field experiences an induced emf if it cuts across magnetic field lines. The formula for the magnitude of induced emf in a straight conductor moving through a uniform magnetic field is:
+    $$\varepsilon = Bvl \sin(\theta)$$
+    where $B$ is the magnetic field strength, $v$ is the velocity, $l$ is the length of the conductor, and $\theta$ is the angle between the velocity vector and the magnetic field lines.
+
+2.  **Analyzing the Geometry:** 
+    *   The conductor $PQ$ is rotating in a plane perpendicular to the magnetic field lines (which are directed into the page).
+    *   At any point along the conductor, the velocity vector $v$ of an element of the conductor is always perpendicular to the length of the conductor $l$. 
+    *   Crucially, at every point in the circular path, the conductor is "sweeping out" an area in the magnetic field. Because the magnetic field is uniform and the conductor is rotating at a **constant rate** (constant angular velocity $\omega$), the rate at which the conductor cuts magnetic field lines remains constant.
+
+3.  **Mathematical derivation:** 
+    For a rod of length $L$ rotating about one end with angular velocity $\omega$ in a uniform magnetic field $B$:
+    *   An element $dr$ at distance $r$ from $P$ has a linear velocity $v = \omega r$.
+    *   The motional emf induced in this small segment is $d\varepsilon = Bv dr = B(\omega r) dr$.
+    *   To find the total emf between $P$ and $Q$, we integrate from $0$ to $L$:
+        $$\varepsilon = \int_0^L B\omega r dr = \frac{1}{2} B\omega L^2$$
+    *   Since $B$, $\omega$, and $L$ are all constants, the induced emf $\varepsilon$ is a **constant value** over time.
+
+4.  **Conclusion:** Because the emf does not change as the conductor rotates, the graph must show a horizontal line at a non-zero value. Graph D represents a constant, non-zero emf.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### (a) Explain how such a mercury spectrum is produced. (4 marks)
+An emission spectrum is produced when electrons in mercury atoms are excited to higher energy levels through collisions (e.g., with high-speed electrons in a discharge tube). These electrons are unstable in higher energy states and quickly transition back to lower, more stable energy levels. As an electron transitions from a higher energy level ($E_{upper}$) to a lower energy level ($E_{lower}$), a photon is emitted with energy corresponding to the difference between these levels: $E = hf = E_{upper} - E_{lower}$. Because these energy levels are quantized, only specific, discrete wavelengths (or frequencies) of light are emitted, resulting in the characteristic line spectrum shown.
+
+#### (b) Determine which line of the spectrum has photons with the least energy and calculate the energy of these photons in eV. (3 marks)
+**Step 1: Identify the wavelength.** 
+The energy of a photon is inversely proportional to its wavelength ($E = \frac{hc}{\lambda}$). Therefore, the least energy corresponds to the longest wavelength. From the diagram, the longest wavelength is $623.4\text{ nm}$.
+
+**Step 2: Calculate the energy.**
+Using $E = \frac{hc}{\lambda}$:
+- $h = 6.626 \times 10^{-34}\text{ J s}$
+- $c = 3.00 \times 10^8\text{ m/s}$
+- $\lambda = 623.4 \times 10^{-9}\text{ m}$
+
+$$E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{623.4 \times 10^{-9}} \approx 3.187 \times 10^{-19}\text{ J}$$
+
+**Step 3: Convert to eV.**
+Divide by $1.602 \times 10^{-19}\text{ J/eV}$:
+$$E = \frac{3.187 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 1.99\text{ eV}$$
+
+#### (c) Evaluate the student's hypothesis. (2 marks)
+The hypothesis is **incorrect**. The spectral lines of an element are determined by the unique, fixed energy levels of its atoms. These energy levels are fundamental properties of the atom’s structure. Increasing the voltage might increase the intensity of the light (by exciting more atoms simultaneously), but it cannot change the energy difference between the specific electronic orbitals. Therefore, the wavelengths (and thus frequencies) of the spectral lines remain constant regardless of the power input.
+
+***
+
+###QUESTION_TYPE
+Calculation question

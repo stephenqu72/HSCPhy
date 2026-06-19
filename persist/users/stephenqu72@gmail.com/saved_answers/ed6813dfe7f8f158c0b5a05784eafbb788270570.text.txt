@@ -1,0 +1,40 @@
+To solve this problem, we use the principles of electromagnetic induction and ideal transformers. An ideal transformer assumes no energy loss, meaning input power equals output power ($P_p = P_s$).
+
+### Part a: Calculate the peak voltage in the secondary coil
+The provided voltage of $12\text{ V}_{\text{RMS}}$ is the root-mean-square (RMS) voltage. For a sinusoidal wave, the relationship between peak voltage ($V_{\text{peak}}$) and RMS voltage ($V_{\text{RMS}}$) is:
+$$V_{\text{peak}} = V_{\text{RMS}} \times \sqrt{2}$$
+
+**Calculation:**
+$$V_{\text{peak}} = 12 \times \sqrt{2} \approx 16.97\text{ V}$$
+Rounding to an appropriate number of significant figures (usually 2 or 3 based on the input), we get **$17.0\text{ V}$**.
+
+---
+
+### Part b: Determine the ratio of the number of turns $\frac{N_p}{N_s}$
+For an ideal transformer, the turns ratio is equal to the ratio of the voltages:
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s}$$
+
+**Calculation:**
+Given $V_p = 240\text{ V}$ and $V_s = 12\text{ V}$:
+$$\frac{N_p}{N_s} = \frac{240}{12} = 20$$
+The ratio is **$20:1$** (or simply **$20$**).
+
+---
+
+### Part c: Calculate the RMS current in the primary coil
+Since the transformer is ideal, the power input to the primary coil equals the power delivered to the secondary coil.
+$$P_p = P_s = 0.90\text{ W}$$
+Power is calculated using the formula $P = V_{\text{RMS}} \times I_{\text{RMS}}$. Rearranging for the primary current ($I_p$):
+$$I_p = \frac{P_p}{V_p}$$
+
+**Calculation:**
+$$I_p = \frac{0.90\text{ W}}{240\text{ V}} = 0.00375\text{ A}$$
+This can also be expressed as **$3.75\text{ mA}$**.
+
+### Summary of Answers:
+*   **a:** $17.0\text{ V}$
+*   **b:** $20$
+*   **c:** $0.00375\text{ A}$ (or $3.75\text{ mA}$)
+
+###QUESTION_TYPE
+Calculation question

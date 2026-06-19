@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+To solve this, we use the double-slit interference formula for bright fringes:
+$$\Delta x = \frac{m \lambda L}{d}$$
+Where:
+- $\Delta x = 1.50 \text{ cm} = 0.0150 \text{ m}$ (distance from central maximum)
+- $m = 3$ (the third bright line)
+- $L = 1.50 \text{ m}$ (distance to screen)
+- $d = 200 \text{ } \mu\text{m} = 200 \times 10^{-6} \text{ m} = 2.0 \times 10^{-4} \text{ m}$
+- $\lambda = \text{wavelength}$
+
+**Calculation:**
+Rearranging for $\lambda$:
+$$\lambda = \frac{\Delta x \cdot d}{m \cdot L}$$
+$$\lambda = \frac{0.0150 \times (2.0 \times 10^{-4})}{3 \times 1.50}$$
+$$\lambda = \frac{3.0 \times 10^{-6}}{4.5}$$
+$$\lambda \approx 6.67 \times 10^{-7} \text{ m} = 667 \text{ nm}$$
+
+---
+
+#### Part (b)
+**Coherent Monochromatic Light (e.g., Laser):** Produces a sharp, clear interference pattern consisting of regularly spaced bright and dark fringes because the phase difference between the two sources remains constant.
+
+**Incandescent Source (White Light):** Produces a much less defined pattern. Because white light consists of a spectrum of wavelengths, each wavelength produces its own interference pattern with different fringe spacings (red light has wider spacing than blue). These overlapping patterns result in a white central maximum, with fringes that become blurred and eventually overlap into a continuous spectrum as you move further from the center.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+#### Part a)
+To find the battery voltage that produces the same average brightness as the AC alternator, we must calculate the **Root Mean Square (RMS) voltage** of the AC signal. The average brightness of a light globe is determined by the power it dissipates, which relates to the RMS voltage, not the peak voltage.
+
+1.  **Identify the peak voltage ($V_p$):** From Figure 5, the peak voltage is $4\text{ V}$.
+2.  **Calculate the RMS voltage ($V_{rms}$):** The formula for the RMS voltage of a sinusoidal AC waveform is:
+    $$V_{rms} = \frac{V_p}{\sqrt{2}}$$
+3.  **Substitute the values:**
+    $$V_{rms} = \frac{4}{\sqrt{2}} \approx 2.828\text{ V}$$
+
+Rounding to a reasonable number of significant figures, the battery should have a voltage of **$2.83\text{ V}$**.
+
+#### Part b)
+When the rate of rotation of the loop is doubled, two physical changes occur based on Faraday's Law of Induction ($ \mathcal{E} = -N\frac{d\Phi}{dt} $):
+1.  **Frequency ($f$):** Doubling the rotation speed doubles the frequency. This means the period ($T = 1/f$) is halved. You must draw two full cycles in the time previously taken by one cycle (or four cycles in the space of the original two).
+2.  **Peak Voltage ($V_p$):** The rate of change of magnetic flux ($\frac{d\Phi}{dt}$) also doubles. Therefore, the peak voltage doubles from $4\text{ V}$ to $8\text{ V}$.
+
+**Sketch requirements for Figure 6:**
+*   The wave must peak at $+8\text{ V}$ and trough at $-8\text{ V}$.
+*   The frequency must be doubled (i.e., complete two cycles within the time interval where the dashed line completes only one cycle).
+
+---
+
+###QUESTION_TYPE
+Calculation question

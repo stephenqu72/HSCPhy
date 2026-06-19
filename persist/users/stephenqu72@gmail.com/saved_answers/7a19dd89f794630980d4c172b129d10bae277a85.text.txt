@@ -1,0 +1,30 @@
+### Teacher's Explanation
+
+This question tests your understanding of **Faraday’s Law of Induction** and **Lenz’s Law**, which are core components of the HSC Physics curriculum.
+
+#### Part (a)
+The key concept here is **Eddy Currents**. As the magnet rotates, the magnetic flux passing through the stationary metal disc is constantly changing.
+1. According to Faraday’s Law, this changing magnetic flux induces an electromotive force (emf) in the disc.
+2. Because the disc is a conductor, this emf drives circular currents known as **eddy currents**.
+3. According to Lenz’s Law, these eddy currents create their own magnetic field that opposes the change that created them (the rotation of the magnet). This produces a torque on the disc, causing it to **rotate in the same direction as the magnet** to minimize the relative motion.
+
+#### Part (b)
+To sketch this graph, we must consider the formula for induced emf: $\varepsilon = -N \frac{d\Phi}{dt}$.
+1. **Frequency:** As the drill speeds up, the rate of change of magnetic flux ($d\Phi/dt$) increases. This means the frequency of the AC sine wave on your graph must increase over time.
+2. **Amplitude:** The magnitude of the induced emf is proportional to the rate of change of flux. Since the magnet is rotating faster, the induced emf (the peak-to-peak amplitude) will also increase linearly as the drill accelerates.
+3. **The Graph:** You should sketch a sine wave that starts at zero, where the peaks get **taller** (higher amplitude) and the waves get **closer together** (higher frequency) as time progresses, until it reaches a constant amplitude and frequency at "full speed."
+
+---
+
+### Answer
+
+**(a)** As the magnet rotates, it creates a changing magnetic flux through the metal disc. This induces eddy currents in the disc in accordance with Faraday's Law. By Lenz's Law, these eddy currents create a magnetic field that opposes the motion of the magnet, exerting a torque that causes the disc to rotate in the same direction as the magnet.
+
+**(b)** The graph should show an AC signal (a sine wave) starting from the origin. 
+- The **amplitude** of the peaks should gradually increase from zero to a maximum value as the drill reaches full speed.
+- The **frequency** (distance between peaks) should gradually increase (peaks get closer together) as the angular velocity of the magnet increases. 
+
+*(Visually: Imagine a wave that is "stretched" at the start and becomes compressed and taller toward the right side of the graph.)*
+
+###QUESTION_TYPE
+Short answer

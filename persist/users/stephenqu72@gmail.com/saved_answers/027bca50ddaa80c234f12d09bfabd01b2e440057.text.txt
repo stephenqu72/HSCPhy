@@ -1,0 +1,15 @@
+### Answer
+When the coil is connected to a light bulb, the speed of rotation will **decrease**.
+
+### Explanation
+To solve this, you must apply the principles of electromagnetic induction and the Law of Conservation of Energy:
+
+1.  **Induction and Current:** As the coil rotates within the magnetic field, an induced electromotive force (EMF) is generated according to Faraday’s Law. When the circuit is completed by a light bulb, this EMF drives a current $I$ through the circuit.
+2.  **Lenz’s Law and Back Torque:** According to Lenz's Law, the induced current creates its own magnetic field that opposes the original change in magnetic flux. Specifically, when a current flows through the coil in a magnetic field, a magnetic torque (often called "back torque" or "braking torque") is exerted on the coil. This torque acts in the opposite direction to the rotation of the coil.
+3.  **Energy Balance:** The external torque applied is initially balancing the resistive forces (like friction). Once the light bulb is connected, the generator must perform additional work to supply the electrical energy dissipated by the bulb (as light and heat).
+4.  **Result:** Since the applied external torque remains constant but a new opposing magnetic torque is now present, there is a net torque opposing the rotation. According to Newton’s Second Law for rotation, this net torque causes the coil to decelerate until it reaches a new, lower steady-state speed where the external torque once again balances the sum of the frictional and magnetic braking torques.
+
+In short: Power is extracted from the system to light the bulb; since the input torque is constant, the mechanical output (speed) must drop to satisfy the conservation of energy.
+
+###QUESTION_TYPE
+Short answer

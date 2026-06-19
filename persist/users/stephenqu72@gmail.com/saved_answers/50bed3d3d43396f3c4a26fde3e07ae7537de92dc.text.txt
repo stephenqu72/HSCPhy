@@ -1,0 +1,25 @@
+This is a classic HSC Physics problem involving electromagnetism and the forces between parallel current-carrying conductors.
+
+### (a) Directions of currents
+**Answer:** The currents are in **opposite directions**.
+**Justification:** When current flows through two parallel wires, the magnitude of the force per unit length is given by $F/L = \frac{\mu_0 I_1 I_2}{2\pi r}$. The table shows that as the current in the lower rod increases, the balance reading decreases (the rod becomes "lighter"). This indicates an **upward force of repulsion** is acting on the rod on the balance. According to the right-hand rule, parallel conductors with currents in opposite directions repel each other.
+
+### (b) Plotting and Line of Best Fit
+To solve this, plot the points $(2.8, 0.5485), (8.0, 0.5480), (12.2, 0.5474), (16.8, 0.5470), (20.0, 0.5465)$.
+*   **Method:** Use a ruler to draw a straight line that averages the distribution of these points. The line should have a negative gradient.
+
+### (c) Mass of the copper rod
+**Answer:** Approximately $0.5489\text{ kg}$ (or $0.549\text{ kg}$).
+**Explanation:** The balance reading represents the rod's mass minus the magnetic repulsion force. As the current in the lower rod approaches zero, the magnetic force approaches zero. By extrapolating the line of best fit back to the y-intercept ($I = 0\text{ A}$), we find the static mass of the rod on the balance.
+
+### (d) Distance between the rods
+**Explanation:** 
+1. The force of repulsion is equal to the change in the weight reading: $F = \Delta m \cdot g$.
+2. Choose two points from your line of best fit to find the slope ($m = \Delta F / \Delta I$).
+3. The formula for force is $F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$. Rearrange to solve for $r$:
+   $$r = \frac{\mu_0 I_1 L}{2\pi} \cdot \left( \frac{\Delta I}{\Delta F} \right)$$
+4. Note that the change in reading $\Delta m$ corresponds to the change in magnetic force. If $\Delta m$ is in kg, use $g \approx 9.8\text{ m/s}^2$. Plug in $I_1 = 50\text{ A}$, $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$, and the measured length $L = 2.6\text{ m}$.
+
+---
+###QUESTION_TYPE
+Data analysis questions

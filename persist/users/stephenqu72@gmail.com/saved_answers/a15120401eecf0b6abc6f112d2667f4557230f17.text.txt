@@ -1,0 +1,20 @@
+### Answer
+The primary reason AC generators are more efficient for widespread distribution is the ability to easily step up and step down voltage using transformers. 
+
+In an electrical distribution system, power is defined by the formula $P = VI$. To transmit power over long distances, energy loss due to heating in the wires (Ohmic heating) is determined by $P_{loss} = I^2R$. By using a step-up transformer, the voltage ($V$) is increased significantly, which inversely decreases the current ($I$) required to transmit the same amount of power. Because power loss is proportional to the square of the current ($I^2$), reducing the current results in a massive reduction in energy lost as heat during transmission. 
+
+AC is required for transformers to function because they rely on electromagnetic induction, which requires a changing magnetic field produced by a changing current. Once the electricity reaches its destination, step-down transformers are used to safely reduce the voltage to levels suitable for residential and industrial use. DC systems, which were used by Edison, could not be easily stepped up or down, necessitating power stations to be located close to consumers, leading to significant transmission losses and inefficiency.
+
+### How to solve it
+To answer this "Explain" question effectively in an HSC context, follow this structure:
+
+1.  **Identify the Key Mechanism:** Explicitly mention **transformers**. This is the core physics concept required for the mark.
+2.  **Explain the Physics Principle:** State that transformers rely on electromagnetic induction, which requires changing current (AC). 
+3.  **Use Mathematical Relationships:** 
+    *   State the power transmission formula: $P = VI$.
+    *   State the power loss formula: $P_{loss} = I^2R$.
+4.  **Connect the Concepts:** Explain that by increasing $V$, $I$ decreases. Because power loss depends on $I^2$, even a small decrease in current leads to a dramatic decrease in heat loss.
+5.  **Contextualise:** Conclude by highlighting that DC systems lacked this ability, forcing power plants to be located near the load and making large-scale distribution economically unfeasible.
+
+### QUESTION_TYPE
+Short answer

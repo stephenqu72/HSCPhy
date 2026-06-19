@@ -1,0 +1,32 @@
+To solve this problem, we use the transformer ratio formula, which relates the number of turns in the coils to the voltages across them.
+
+### Answer
+The correct answer is **C. 80**.
+
+### Explanation
+For an ideal transformer, the ratio of the voltages across the primary and secondary coils is equal to the ratio of the number of turns in those coils. This is expressed by the formula:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Where:
+*   $V_p$ is the primary (input) voltage = $100\text{ V}$
+*   $V_s$ is the secondary (output) voltage = $400\text{ V}$
+*   $N_p$ is the number of turns on the primary coil = $20$
+*   $N_s$ is the number of turns on the secondary coil = $?$
+
+**Step-by-step calculation:**
+
+1. Substitute the known values into the equation:
+   $$\frac{100}{400} = \frac{20}{N_s}$$
+
+2. Simplify the fraction on the left:
+   $$\frac{1}{4} = \frac{20}{N_s}$$
+
+3. Rearrange the equation to solve for $N_s$:
+   $$N_s = 20 \times 4$$
+   $$N_s = 80$$
+
+There are 80 turns on the secondary coil.
+
+###QUESTION_TYPE
+Multiple choice

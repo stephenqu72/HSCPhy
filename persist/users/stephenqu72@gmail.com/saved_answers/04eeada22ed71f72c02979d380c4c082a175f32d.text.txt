@@ -1,0 +1,33 @@
+### Part (a)
+**Comparison of Student Propositions:**
+
+*   **Student A (Lasers):**
+    *   **Advantages:** Lasers provide monochromatic (single wavelength) light, resulting in very distinct and sharp interference fringes, which reduces uncertainty in measurement. They are also coherent, making patterns much brighter and easier to observe.
+    *   **Disadvantages:** It is time-consuming to set up and align four separate lasers individually.
+*   **Student B (Hydrogen Lamp):**
+    *   **Advantages:** It is more efficient as one source produces all four wavelengths simultaneously, saving setup time.
+    *   **Disadvantages:** Hydrogen light is not naturally monochromatic; it requires color filters to isolate specific wavelengths. Furthermore, emission lamps are incoherent, leading to significantly dimmer fringes, which are much harder to measure accurately.
+
+---
+
+### Part (b)
+**Graphing and Calculation:**
+
+To plot the graph of $\lambda L$ (y-axis) vs $x$ (x-axis), we rearrange the formula $d = \frac{\lambda L}{x}$ to $\lambda L = d \cdot x$. This takes the form $y = mx$, where $m$ is the gradient (representing $d$).
+
+1.  **Plotting:** Plot the points $(4.2, 1.23 \times 10^{-6})$, $(4.3, 1.30 \times 10^{-6})$, $(4.9, 1.46 \times 10^{-6})$, and $(6.5, 1.97 \times 10^{-6})$.
+2.  **Line of Best Fit:** Draw a straight line of best fit that passes through (or as close as possible to) the points. Ensure the line passes through the origin $(0,0)$ because the formula $y=mx$ has no intercept.
+3.  **Calculation:** Calculate the gradient $m = \frac{\Delta y}{\Delta x}$. 
+    Using the start and end points of the best-fit line (e.g., at $x = 6.5$, $y = 1.97 \times 10^{-6}$):
+    $$m = \frac{1.97 \times 10^{-6} \text{ m}^2}{6.5 \text{ mm}} = \frac{1.97 \times 10^{-6} \text{ m}^2}{6.5 \times 10^{-3} \text{ m}} \approx 3.03 \times 10^{-4} \text{ m}$$
+    Since $d = m$, the slit separation $d \approx 0.303 \text{ mm}$.
+
+---
+
+### Part (c)
+**Why the graphical method is preferred:**
+
+The graphical method is preferred because it reduces the impact of random errors in individual measurements. By plotting a line of best fit and calculating the gradient, the students essentially determine an average value for the slit separation across all data points, rather than relying on one potentially anomalous measurement. It also allows for the identification of outliers.
+
+###QUESTION_TYPE
+Data analysis questions

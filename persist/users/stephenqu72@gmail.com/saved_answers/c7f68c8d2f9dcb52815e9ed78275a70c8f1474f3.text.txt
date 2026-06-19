@@ -1,0 +1,25 @@
+### Answer
+
+**(a) Role of the commutator:**
+The commutator is essential for the continuous operation of a DC motor. In the position shown, current flows through the coil, creating a magnetic force (via the motor effect) that causes the coil to rotate. As the coil passes through the vertical position, the commutator reverses the direction of the current through the coil. This reversal ensures that the torque applied to the coil remains in the same rotational direction, preventing the coil from oscillating back and forth and instead maintaining continuous rotation.
+
+**(b) Calculation of torque change:**
+The formula for torque on a current-carrying coil in a magnetic field is:
+$$\tau = nIAB\cos(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field lines.
+
+1.  **Initial position ($0^\circ$):** The plane of the coil is parallel to the field, so the normal is at $90^\circ$ to the field. However, in standard physics problems where the coil is "flat" in the field as shown, the torque is at its maximum. Using the standard formula where $\theta$ is the angle between the plane of the coil and the field, $\tau = nIAB\sin(\theta)$.
+    At start ($\theta = 0^\circ$ relative to field lines): $\tau_{initial} = 1 \times 10.0\,\text{A} \times (0.02\,\text{m} \times 0.03\,\text{m}) \times 2.0\,\text{T} = 0.0012\,\text{N}\cdot\text{m}$.
+2.  **After $90^\circ$ turn:** The coil is now perpendicular to the magnetic field. In this orientation, the force on sides $AB$ and $EF$ acts through the axis of rotation, resulting in zero torque. $\tau_{final} = 0\,\text{N}\cdot\text{m}$.
+3.  **Change in torque:** 
+    $$\Delta\tau = \tau_{final} - \tau_{initial} = 0 - 0.0012 = -0.0012\,\text{N}\cdot\text{m}$$
+    The magnitude of the change is $0.0012\,\text{N}\cdot\text{m}$.
+
+---
+
+### How to solve this
+1.  **Part (a):** This is a conceptual knowledge question. Remember that without the commutator, the current direction would remain constant, and the force direction would flip every $180^\circ$, causing the motor to stall or oscillate. Keywords to include in your HSC response: "reverse current," "maintain torque direction," and "continuous rotation."
+2.  **Part (b):** First, identify the given variables: $I = 10.0\,\text{A}$, $B = 2.0\,\text{T}$, Area $A = 0.02\,\text{m} \times 0.03\,\text{m} = 0.0006\,\text{m}^2$. Use the motor torque formula $\tau = IAB\sin(\theta)$, where $\theta$ is the angle between the plane of the coil and the magnetic field. Initially, the coil is parallel to the field ($\theta = 90^\circ$ relative to normal, or $0^\circ$ relative to field lines, leading to max torque). After $90^\circ$, the coil is perpendicular to the field, meaning $\sin(90^\circ)$ or $\sin(0^\circ)$ results in zero torque. Subtract the two values to find the change.
+
+###QUESTION_TYPE
+Calculation question

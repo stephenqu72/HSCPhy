@@ -1,0 +1,18 @@
+To determine which statements are not true, we must analyze the physics of a DC motor.
+
+### Analysis of the Statements:
+
+1.  **"The force acting on the coil is constant as the coil rotates."**
+    The force on the current-carrying wires of the coil is given by $F = BIL \sin(\theta)$, where $\theta$ is the angle between the wire and the magnetic field. As the coil rotates, the orientation of the wires relative to the magnetic field changes continuously, meaning the magnetic force on the individual sides of the coil varies. **This statement is NOT true.**
+
+2.  **"The torque acting on the coil is constant as the coil rotates."**
+    The torque is defined by $\tau = nBIA \cos(\alpha)$, where $\alpha$ is the angle between the plane of the coil and the magnetic field. Because the coil is rotating, this angle changes constantly. While modern DC motors use curved pole pieces to keep the magnetic field radial (making torque *more* constant), in standard theoretical HSC physics models of a simple DC motor, the torque fluctuates between a maximum value and zero as the coil rotates. **This statement is NOT true.**
+
+3.  **"The magnetic flux through the coil is constant as the coil rotates."**
+    Magnetic flux is defined as $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field. As the coil rotates, the amount of magnetic field lines passing through the area of the coil changes constantly. It is zero when the coil is parallel to the field and at a maximum when the coil is perpendicular. **This statement is NOT true.**
+
+### Conclusion:
+Since all three statements describe quantities that change as the coil rotates in a standard DC motor model, all three statements are false. Therefore, the correct option is **(D)**.
+
+### QUESTION_TYPE
+Multiple choice

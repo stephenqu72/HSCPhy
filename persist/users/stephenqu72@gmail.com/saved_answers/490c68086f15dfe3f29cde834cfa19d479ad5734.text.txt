@@ -1,0 +1,22 @@
+To determine the correct answer, we must apply Wien’s Displacement Law and the properties of blackbody radiation.
+
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this, we need to analyze the relationship between temperature and the spectral output of a blackbody:
+
+1.  **Wien's Displacement Law:** This law states that the peak wavelength ($\lambda_{max}$) of a blackbody radiator is inversely proportional to its temperature ($T$):
+    $$\lambda_{max} \propto \frac{1}{T}$$
+    Looking at the graph, Source $X$ has its peak intensity at a shorter wavelength than Source $Y$. Since a shorter wavelength corresponds to a higher frequency and higher temperature, **Source $X$ is the "warmer" (hotter) source**, and **Source $Y$ is the "cooler" source**.
+
+2.  **Evaluating the Options:**
+    *   **A is incorrect:** Source $Y$ is the cooler one, but its intensity in the low wavelength region is actually *lower* than Source $X$, not greater.
+    *   **B is incorrect:** Frequency ($f$) is related to wavelength by $c = f\lambda$. High wavelength corresponds to low frequency. While Source $Y$ is cooler, the reasoning provided in the option is misleading compared to the standard interpretation of spectral curves.
+    *   **C is incorrect:** While Source $X$ is indeed warmer, the term "blue region" is a specific descriptor for visible light; while $X$ shifts toward the blue (shorter wavelengths), the defining characteristic of a "warmer" source in this context is the higher intensity across higher frequencies/shorter wavelengths.
+    *   **D is correct:** "High frequency" is equivalent to "low wavelength." Source $X$ is warmer (as shown by its peak shifting toward the left/lower wavelength). Because it is warmer, it emits a higher intensity of radiation across all wavelengths, including the "high frequency" (low wavelength) region, compared to the cooler Source $Y$.
+
+In summary, since Source $X$ peaks at a shorter wavelength (higher frequency) than Source $Y$, it must be at a higher temperature. Therefore, Source $X$ exhibits higher intensity in the high-frequency/low-wavelength region.
+
+###QUESTION_TYPE
+Multiple choice

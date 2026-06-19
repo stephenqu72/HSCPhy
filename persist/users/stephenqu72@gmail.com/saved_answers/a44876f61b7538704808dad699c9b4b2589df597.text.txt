@@ -1,0 +1,27 @@
+To determine the direction of the induced current in this circuit, we use the principles of electromagnetic induction.
+
+### Answer
+The correct answer is **b) Anti-clockwise**.
+
+### Explanation
+To solve this problem, you can use two main approaches: the **Right-Hand Rule (for motional EMF)** or **Lenz’s Law**.
+
+**1. Using the Right-Hand Rule for Motional EMF:**
+*   The conductor is moving to the left ($v$ is directed left).
+*   The magnetic field $B$ is directed out of the page.
+*   According to the Right-Hand Rule (or the Lorentz force law $F = q(v \times B)$):
+    *   Point your fingers in the direction of the velocity ($v$) to the left.
+    *   Curl your fingers toward the magnetic field direction (out of the page).
+    *   Your thumb will point **downwards**. This is the direction of the force on positive charge carriers in the conductor.
+*   Since the current flows downwards through the conductor, it must travel around the circuit in an **anti-clockwise** direction to complete the loop.
+
+**2. Using Lenz’s Law:**
+*   As the conductor moves to the left, the area of the loop trapped within the magnetic field is **decreasing**.
+*   Consequently, the magnetic flux directed *out* of the page through the loop is decreasing.
+*   Lenz’s Law states that the system will try to oppose this change. Therefore, it will attempt to create more magnetic flux *out* of the page.
+*   Using the Right-Hand Grip Rule, for a current to create an additional magnetic field *out* of the page, the current must flow in an **anti-clockwise** direction.
+
+Both methods confirm that the induced current flows in an anti-clockwise direction.
+
+###QUESTION_TYPE
+Multiple choice

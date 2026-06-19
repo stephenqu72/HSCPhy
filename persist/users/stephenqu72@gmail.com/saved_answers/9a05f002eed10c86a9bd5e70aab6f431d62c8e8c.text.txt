@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+#### Part (a)
+To find the total number of orders, we use the diffraction grating formula:
+$$d \sin(\theta) = n \lambda$$
+Where:
+- $d$ is the slit separation (the reciprocal of the lines per metre).
+- $\theta$ is the angle of diffraction.
+- $n$ is the order number.
+- $\lambda$ is the wavelength.
+
+**1. Calculate $d$:**
+$$d = \frac{1}{6.0 \times 10^5 \text{ lines/m}} \approx 1.667 \times 10^{-6} \text{ m}$$
+
+**2. Determine the maximum order $n$:**
+The maximum possible value for $\sin(\theta)$ is $1$ (which occurs at $90^\circ$).
+$$n = \frac{d \sin(\theta)}{\lambda} < \frac{d(1)}{\lambda}$$
+$$n < \frac{1.667 \times 10^{-6}}{590 \times 10^{-9}}$$
+$$n < 2.825$$
+Since $n$ must be an integer, the maximum observable order on one side is $n = 2$.
+
+**3. Calculate total orders:**
+The observable orders are $n = 0$, $n = \pm 1$, and $n = \pm 2$.
+Total orders = $2 (\text{left}) + 2 (\text{right}) + 1 (\text{zero order}) = 5$.
+
+**Answer:** There are **5** observable orders.
+
+---
+
+#### Part (b)
+We look at the relationship $d \sin(\theta) = n \lambda$. Rearranging for $\theta$: $\sin(\theta) = \frac{n \lambda}{d}$. As $n$ increases, $\sin(\theta)$ increases, meaning the angles become larger.
+
+1. **Increased angular separation (dispersion):** The separation between the two wavelengths ($590\text{ nm}$ and $589\text{ nm}$) will be greater in the second-order spectrum compared to the first-order spectrum because the angular position is directly proportional to $n$.
+2. **Increased diffraction angle:** Both wavelengths will be diffracted at larger angles from the central zero-order beam in the second-order spectrum compared to the first-order spectrum.
+
+---
+
+###QUESTION_TYPE
+Calculation question

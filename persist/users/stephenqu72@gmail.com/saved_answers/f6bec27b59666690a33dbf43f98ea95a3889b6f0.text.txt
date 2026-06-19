@@ -1,0 +1,29 @@
+As an HSC Physics teacher, here is the step-by-step breakdown to solving this problem.
+
+### Solutions and Explanations
+
+**(a) Direction of current:**
+Using the **Right-Hand Palm Rule** for motor force, if the force is acting upwards (to pull the spring balance), and the magnetic field points to the right, the current must flow **into the page** on the side attached to the spring balance.
+
+**(b) Graphing:**
+*   Plot the points $(0,0), (0.5, 1.8), (1.0, 3.3), (1.5, 5.3), (2.0, 6.3), (2.5, 8.5)$.
+*   Draw a straight line of best fit that passes as close as possible to all points (it should pass through the origin).
+
+**(c) Torque determination:**
+Torque ($\tau$) is defined as force multiplied by the perpendicular distance from the pivot ($r$). 
+$$\tau = F \times r$$
+The spring balance provides the force $F$, and the distance from the pivot to the side where the balance is attached is $3 \text{ cm}$ (or $0.03 \text{ m}$).
+
+**(d) Strength of magnetic field ($B$):**
+1.  The torque produced by a motor is $\tau = n B I A \sin\theta$. Here, $\theta = 90^\circ$ (maximum torque), so $\tau = n B I A$.
+2.  Since $\tau = F \times r$, we equate: $F \cdot r = n B I A \implies F = (\frac{n B A}{r}) I$.
+3.  The slope of the line of best fit is $\frac{\Delta F}{\Delta I} = \frac{n B A}{r}$.
+4.  Calculate the slope: roughly $\frac{8.5}{2.5} = 3.4 \text{ N/A}$.
+5.  $A = 0.03 \text{ m} \times 0.05 \text{ m} = 0.0015 \text{ m}^2$, $n = 20$, $r = 0.03 \text{ m}$.
+6.  $3.4 = \frac{20 \times B \times 0.0015}{0.03} \implies 3.4 = B \times 1 \implies B \approx 3.4 \text{ T}$.
+
+**(e) Why the motor gets hot:**
+When the motor is turning, it generates **back EMF** ($\varepsilon$), which opposes the supply voltage and limits the current draw ($I = \frac{V - \varepsilon}{R}$). When the motor is stationary (stalled), the back EMF is zero. Consequently, the current flowing through the coil is significantly higher, resulting in increased power dissipation as heat ($P = I^2 R$) according to Joule's Law.
+
+### QUESTION_TYPE
+Data analysis questions

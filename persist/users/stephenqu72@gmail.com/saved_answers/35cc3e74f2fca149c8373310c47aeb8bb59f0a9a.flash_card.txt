@@ -1,0 +1,8 @@
+### Front
+What defines an **inertial frame of reference**?
+
+### Back
+- Key idea: A frame of reference that is **not accelerating** ($a = 0$), where Newton's First Law holds true.
+- Formula / law / constant / figure: Newton's First Law.
+- When to use it: To identify frames where $F_{net} = ma$ can be applied without the need for fictitious (pseudo) forces.
+- Common trap: Thinking a frame is inertial just because velocity is zero; you must ensure **acceleration** is also zero (e.g., a ball at maximum height is *not* an inertial frame because gravity is still accelerating it).

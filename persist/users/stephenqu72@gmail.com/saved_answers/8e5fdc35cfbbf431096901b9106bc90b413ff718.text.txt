@@ -1,0 +1,24 @@
+To solve this problem, we must apply the physics of single-slit diffraction.
+
+### Explanation
+
+1.  **Understanding the Physics:** The diffraction pattern produced by a single slit of width $a$ is governed by the relationship for the angular width of the central maximum. The position of the first minimum (the edge of the central maximum) is given by the equation:
+    $$a \sin \theta = \lambda$$
+    For small angles, $\sin \theta \approx \theta \approx \frac{y}{D}$, where $y$ is the distance from the center and $D$ is the distance to the screen. Thus, the width of the central maximum $y$ is:
+    $$y \propto \frac{\lambda D}{a}$$
+    This shows that the width of the central maximum is **inversely proportional** to the slit width ($a$). Therefore, if the slit width increases, the central maximum becomes **narrower**.
+
+2.  **Conservation of Energy:** The total power (energy per unit time) passing through the slit remains constant because the intensity of the light source is unchanged. When the slit width increases, the same amount of light energy is concentrated into a smaller area on the screen. To conserve energy, the peak intensity of the central maximum must **increase**.
+
+3.  **Analyzing the Options:**
+    *   We are looking for a graph where the central maximum is **narrower** (compressed horizontally) and **taller** (increased peak intensity) compared to the original dashed curve.
+    *   **Graph A:** Narrower, but the peak height is not significantly increased (or appears similar), which violates the conservation of energy principle.
+    *   **Graph B:** Wider and lower peak; this happens if the slit width is *decreased*.
+    *   **Graph C:** Wider and lower peak; same as B.
+    *   **Graph D:** The central maximum is significantly **narrower** and **taller** than the original dashed curve. This perfectly matches the physical requirements derived above.
+
+### Answer
+The correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

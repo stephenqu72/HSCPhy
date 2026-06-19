@@ -1,0 +1,25 @@
+### Answer and Explanation
+
+#### (a) Explaining the motion
+When the copper sheet enters the magnetic field, there is a change in the magnetic flux through the metal. According to **Faraday's Law of Induction**, this changing magnetic flux induces an electromotive force (EMF) in the conductor. Because copper is a conductor, this EMF causes circulating currents to flow within the sheet, known as **eddy currents**.
+
+According to **Lenz's Law**, these eddy currents will create their own magnetic field that opposes the change in the original magnetic flux that produced them. This manifests as a magnetic force that acts to oppose the motion of the copper sheet. Consequently, the sheet will experience significant **magnetic damping**, causing it to swing more slowly than it would in a vacuum and eventually come to rest much sooner than if no magnetic field were present. The kinetic energy of the sheet is converted into thermal energy (heat) within the copper due to its electrical resistance.
+
+#### (b) Drawing the currents
+To determine the direction of the eddy currents, we use the right-hand rule and Lenz's Law:
+1. As the plate moves into the field (to the left), the area of the plate *inside* the field is changing.
+2. Specifically, the flux into the page through the plate is decreasing as it moves out (or increasing as it enters).
+3. Based on the direction of motion (leftwards) and the magnetic field (into the page), the induced current will circulate in a **clockwise** direction within the portion of the plate inside the field to create a magnetic field that opposes the change.
+
+*Teacher's Tip for the diagram:* Draw circular or looped arrows inside the portion of the copper plate that is overlapping with the magnetic field (the shaded area), rotating in a **clockwise** direction.
+
+---
+
+### How to solve this type of question
+1. **Identify the Phenomenon:** Recognize this as a classic HSC physics problem involving **Electromagnetic Induction** and **Lenz's Law**.
+2. **Key Concepts:** Always link your explanation to Faraday's Law (change in flux induces EMF) and Lenz's Law (the effect opposes the cause).
+3. **Energy Transformation:** Mention the conversion of kinetic energy into thermal energy (Joule heating).
+4. **Drawing Strategy:** For part (b), always use the Right-Hand Grip Rule to check your current direction. If the plate is moving into a region of higher flux, the current will oppose the entry; if moving out, it will try to maintain the flux.
+
+###QUESTION_TYPE
+Short answer

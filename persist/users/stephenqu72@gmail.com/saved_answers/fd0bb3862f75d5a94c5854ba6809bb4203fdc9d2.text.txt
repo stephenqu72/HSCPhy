@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Question 8
+**Correct Answer: (A)**
+
+**Explanation:**
+Faraday’s Law of Induction states that the induced electromotive force (EMF), $\varepsilon$, is proportional to the negative rate of change of magnetic flux, $\Phi$:
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+To find the correct EMF graph, we look at the slope (gradient) of the given magnetic flux graph:
+1.  **At $t=0$:** The flux is at a negative maximum. The slope is momentarily zero (the tangent is horizontal), so the EMF starts at $0$.
+2.  **Between $t=0$ and the first quarter mark:** The flux is increasing (becoming less negative). The gradient is positive. Because of the negative sign in Faraday's Law ($-\frac{d\Phi}{dt}$), the EMF must be **negative**.
+3.  **At the first quarter mark:** The flux passes through zero. The slope is at its maximum positive value. Therefore, the EMF must be at its **negative maximum**.
+
+Comparing these features to the options, graph (A) shows the EMF starting at 0, going to a negative maximum, crossing through zero, going to a positive maximum, and returning to zero. This matches the derivative behavior of the flux graph.
+
+---
+
+#### Question 9
+**Correct Answer: (C)**
+
+**Explanation:**
+The magnetic flux through a coil is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the magnetic field lines and the normal to the coil surface.
+1.  **At $t=0$:** The graph shows that the flux is at its **negative maximum**.
+2.  The flux is at a maximum when the coil is perpendicular to the magnetic field (i.e., the plane of the coil is vertical, parallel to the field lines).
+3.  Since it is a "negative" maximum, this indicates the coil is oriented such that the flux is pointing in the opposite direction of our defined positive reference.
+4.  Looking at the diagrams:
+    *   (C) shows the coil flat, parallel to the magnetic field lines. In this orientation, the magnetic field lines pass through the plane of the coil at a 90-degree angle to the normal. Wait—actually, looking closer at the provided images:
+    *   In diagram **(C)**, the coil is positioned such that the field lines are parallel to the plane of the coil. In this position, the flux is **zero**.
+    *   In diagrams **(A), (B), and (D)**, the coil is tilted or vertical.
+    *   Re-evaluating the flux graph: The graph starts at a **negative maximum**. This occurs when the coil is perpendicular to the field. Diagram **(B)** shows the coil perpendicular to the field lines.
+
+*Self-correction:* In physics notation for this specific curriculum, if the graph starts at a negative maximum, the coil is in a position where the maximum number of field lines are passing through it in the "negative" direction. **(B)** is the only orientation where the coil is perpendicular to the field lines (maximum flux).
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+### Teacher's Solution and Explanation
+
+#### Part (a): Calculate the output current
+To solve this, we assume an **ideal transformer**, where input power equals output power ($P_{in} = P_{out}$).
+
+1.  **Identify the given variables:**
+    *   Input Voltage ($V_p$) = $240\text{ V}$
+    *   Input Current ($I_p$) = $15\text{ A}$
+2.  **Use the power formula:**
+    Since power $P = V \times I$, for an ideal transformer:
+    $$V_p \times I_p = V_s \times I_s$$
+    *Note: Looking at the diagram, there are 3 turns on the input (primary) coil and 9 turns on the output (secondary) coil. This is a step-up transformer with a ratio of $3:1$.*
+3.  **Find Output Voltage ($V_s$):**
+    $$\frac{V_s}{V_p} = \frac{N_s}{N_p} \implies V_s = 240 \times \left(\frac{9}{3}\right) = 720\text{ V}$$
+4.  **Calculate Output Current ($I_s$):**
+    $$240 \times 15 = 720 \times I_s$$
+    $$3600 = 720 \times I_s$$
+    $$I_s = \frac{3600}{720} = 5\text{ A}$$
+
+**Answer:** The output current is **$5\text{ A}$**.
+
+---
+
+#### Part (b): Explain two strategies to improve transformer efficiency
+To maximize efficiency, we must minimize energy loss (usually lost as heat due to resistance and eddy currents).
+
+1.  **Laminated Cores:** The iron core is made of thin sheets (laminations) insulated from each other by a thin layer of lacquer. This increases the electrical resistance in the core, which significantly reduces the magnitude of **eddy currents** circulating within the core, thereby reducing resistive heating ($I^2R$ losses).
+2.  **Soft Iron Cores:** Using "soft" magnetic materials (that are easily magnetized and demagnetized) reduces **hysteresis losses**. Hysteresis loss occurs because energy is consumed when the magnetic domains flip back and forth to follow the alternating current; using a material with low magnetic retentivity minimizes this energy waste.
+*(Alternative acceptable point: Using thick copper wires for windings to reduce resistance ($R$) and thus decrease $I^2R$ heating in the coils.)*
+
+###QUESTION_TYPE
+Calculation question

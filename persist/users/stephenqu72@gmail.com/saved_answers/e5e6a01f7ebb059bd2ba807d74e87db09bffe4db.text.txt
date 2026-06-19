@@ -1,0 +1,20 @@
+To determine the correct graph, we must apply **Faraday’s Law** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Approaching the ring:** As the North pole of the magnet moves toward the ring, the downward magnetic flux through the ring increases. According to **Lenz’s Law**, the induced current will create a magnetic field that opposes this change. To oppose the incoming North pole, the ring must create an upward magnetic field (acting like a North pole on top). Using the right-hand grip rule, this results in a **counter-clockwise** current (we can define this direction as positive). As the magnet gets closer, the rate of change of flux increases, then decreases as the magnet reaches the center, resulting in a peak.
+
+2.  **Leaving the ring:** As the North pole moves away from the ring, the downward magnetic flux decreases. Lenz’s Law states that the induced current must oppose this loss of flux. The ring will now act like a South pole on top to attract the receding North pole. This requires a **clockwise** current (the opposite direction, which we define as negative).
+
+3.  **Key Observations:**
+    *   The induced current $I$ must change sign as the magnet passes through the center of the ring. This eliminates graphs (A) and (B).
+    *   Graph (D) is incorrect because the current is not constant; it depends on the *rate of change* of magnetic flux, which varies as the magnet moves.
+    *   Graph (C) shows an initial positive pulse (approaching) followed by a negative pulse (receding), which correctly represents the change in direction of the induced current. Furthermore, the second pulse is typically larger in magnitude than the first because the magnet is accelerating due to gravity (though the prompt states "constant speed," the change in flux density is sharper as it exits), but regardless of speed, the reversal of direction is the defining feature.
+
+**Conclusion:** Graph (C) is the only representation that shows the induced current reversing direction as the magnet passes through the center of the ring.
+
+### Answer
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

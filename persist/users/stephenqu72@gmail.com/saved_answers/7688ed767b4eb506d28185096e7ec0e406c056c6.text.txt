@@ -1,0 +1,33 @@
+To determine the minimum refractive index of the liquid that allows light to cross the interface, we need to consider the condition for **Total Internal Reflection (TIR)**.
+
+### Explanation
+When light travels from a medium with a higher refractive index ($n_1$) to a medium with a lower refractive index ($n_2$), it can undergo total internal reflection if the angle of incidence exceeds the critical angle. 
+
+The question asks for the condition where light will "just cross" the interface. This occurs exactly at the **critical angle** ($\theta_c$). At this point, the angle of refraction ($\theta_r$) into the liquid is $90^\circ$. 
+
+Using **Snell's Law**:
+$$n_1 \sin(\theta_1) = n_2 \sin(\theta_2)$$
+
+Where:
+- $n_1 = 1.75$ (refractive index of glass)
+- $\theta_1 = 62.0^\circ$ (angle of incidence)
+- $n_2 = ?$ (refractive index of liquid)
+- $\theta_2 = 90^\circ$ (angle of refraction for the light to just escape the interface)
+
+Substitute the known values into the equation:
+$$1.75 \times \sin(62.0^\circ) = n_2 \times \sin(90^\circ)$$
+
+Since $\sin(90^\circ) = 1$:
+$$n_2 = 1.75 \times \sin(62.0^\circ)$$
+
+Using a calculator:
+$$\sin(62.0^\circ) \approx 0.8829$$
+$$n_2 = 1.75 \times 0.8829 \approx 1.545$$
+
+Rounding this to two decimal places, we get $1.55$. Therefore, the value closest to our result is **B**.
+
+### Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

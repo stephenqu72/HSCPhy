@@ -1,0 +1,26 @@
+To solve this problem, we must apply our knowledge of **electromagnetic induction** and the **motor effect**.
+
+### Step-by-Step Explanation:
+
+1.  **Induction in Meter $X$:**
+    A galvanometer is essentially a coil of wire in a magnetic field. When you rotate meter $X$ in the Earth's magnetic field, the magnetic flux through the coil changes. According to Faraday's Law, this change in flux induces an electromotive force (EMF) and a current in the coil of $X$. 
+    
+2.  **The Circuit:**
+    The induced current flows out of meter $X$ and enters meter $Y$. By tracing the wiring:
+    *   The induced current leaves $X$ through the positive terminal and enters $Y$ through its positive terminal. 
+    *   This current flows through the coil of galvanometer $Y$.
+
+3.  **The Motor Effect in Meter $Y$:**
+    Once the current from $X$ flows through the coil of $Y$, meter $Y$ acts as a motor. The interaction between the current-carrying coil and the permanent magnets inside galvanometer $Y$ produces a magnetic force (Lorentz force) on the coil, causing its pointer to deflect.
+
+4.  **Direction of Deflection:**
+    *   Because the coil in $Y$ is identical to the coil in $X$ and connected in a way that respects the original polarity (positive to positive), the current flows in a direction that forces the pointer in $Y$ to deflect in the **same direction** relative to its own scale as the induced current pushed the pointer in $X$.
+    *   If you rotate $X$ anticlockwise, the change in flux creates a current that deflects its own needle to the left. Since the current flows into the positive terminal of $Y$, it causes the needle of $Y$ to deflect to the left as well.
+
+5.  **Evaluating the Options:**
+    *   Option C correctly states that the pointer moves to the left and identifies that $Y$ behaves as a motor. The current flows from the positive terminal of $X$ into the positive terminal of $Y$, meaning within the loop circuit, it moves from right to left (relative to the connection between the terminals).
+
+**Answer:** The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+### Answer
+
+**a) Name and label the component:**
+The component is the **split-ring commutator** (the two semi-cylindrical metal contacts).
+
+**Outline of function:**
+As the coil rotates through the vertical position, the split-ring commutator reverses the direction of the current flowing through the coil. By reversing the current direction every half-turn, the commutator ensures that the magnetic force exerted on each side of the coil consistently acts in the same rotational direction (as per the Right-Hand Motor Rule), preventing the torque from reversing and thus maintaining continuous rotation.
+
+**b) Direction of rotation:**
+The coil will rotate **clockwise** (when viewed from the end near the commutator).
+
+***
+
+### Explanation of how to solve
+
+**Part (a):**
+1.  **Identification:** In a DC motor, the split-ring commutator is the critical device that differentiates it from an AC motor. You must correctly identify it by name.
+2.  **Mechanism:** To earn full marks, you need to explain the "why." Use the following logical chain: 
+    *   Current flows in one direction, creating a force (via $F = BIL \sin(\theta)$) that pushes one side up and the other down.
+    *   Without the commutator, as soon as the coil passes the vertical, the force would push back the other way, causing the motor to oscillate rather than spin. 
+    *   The commutator "flips" the connection to the brushes, which flips the current direction, keeping the torque in the same direction.
+
+**Part (b):**
+1.  **Right-Hand Motor Rule:** Point your fingers in the direction of the magnetic field ($B$ field points from North to South).
+2.  **Current Direction:** Identify the positive terminal (the right-hand side in the diagram connects to the brush touching the right segment). Looking at the diagram, the current flows into the right side of the coil (the side closest to the South pole) and out of the left side (the side closest to the North pole).
+3.  **Force Application:** 
+    *   On the side near the South pole: current is flowing "in," and the field is left-to-right. Using the Right-Hand Motor Rule, the force is **downwards**.
+    *   On the side near the North pole: current is flowing "out," and the field is left-to-right. The force is **upwards**.
+4.  **Rotation:** A downward force on the right and an upward force on the left results in a **clockwise** rotation.
+
+###QUESTION_TYPE
+Short answer

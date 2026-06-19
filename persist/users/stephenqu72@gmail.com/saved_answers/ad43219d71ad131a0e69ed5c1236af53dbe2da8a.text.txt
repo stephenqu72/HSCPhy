@@ -1,0 +1,30 @@
+To solve this problem, we will use the principles of electromagnetism, power circuits, and motor mechanics.
+
+### (a) Transformer turns ratio
+The transformer equation is $\frac{N_p}{N_s} = \frac{V_p}{V_s}$. 
+Here, the primary supply is $V_p = 240\text{ V}$ and the required secondary output (for the motor) is $V_s = 380\text{ V}$.
+$$\frac{N_p}{N_s} = \frac{240}{380} = \frac{24}{38} = \frac{12}{19} \approx 0.63$$
+The ratio of primary to secondary turns is **$12:19$** (or $0.63:1$).
+
+---
+
+### (b) Residential power supply feasibility
+We need to determine the current ($I$) drawn from the residential supply ($240\text{ V}$). Assuming an ideal transformer where input power equals output power ($P = V \times I$):
+$$I = \frac{P}{V} = \frac{14\,500\text{ W}}{240\text{ V}} \approx 60.4\text{ A}$$
+Since $60.4\text{ A} > 20\text{ A}$, it would **not be appropriate** to use this ride on a residential power supply. The current required significantly exceeds the safety rating of residential cables, posing a severe fire hazard.
+
+---
+
+### (c) Cost of electricity
+Power ($P$) = $14.5\text{ kW}$. Time ($t$) = $5\text{ minutes} = \frac{5}{60}\text{ hours} \approx 0.0833\text{ hours}$.
+Energy used ($E$) = $P \times t = 14.5\text{ kW} \times \frac{5}{60}\text{ h} \approx 1.208\text{ kWh}$.
+Cost = $E \times \text{rate} = 1.208\text{ kWh} \times \$0.402/\text{kWh} \approx \$0.486$.
+Rounding to a standard currency format, the cost is approximately **$\$0.49$**.
+
+---
+
+### (d) Need for a variable resistor
+In a DC motor, the current drawn is governed by $I = \frac{V - \varepsilon}{R}$, where $\varepsilon$ is the back electromotive force (back EMF). When the motor is starting from rest, the back EMF is zero. Without a variable resistor (or a starter), the motor would draw an extremely high "inrush current" because the resistance of the armature coils is very low. This could damage the motor or blow fuses. A variable resistor is used to limit the current during the start-up phase and can be used to control the speed of the motor once it is running.
+
+###QUESTION_TYPE
+Calculation question

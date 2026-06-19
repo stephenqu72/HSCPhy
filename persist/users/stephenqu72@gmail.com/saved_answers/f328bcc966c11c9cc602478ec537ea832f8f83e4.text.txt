@@ -1,0 +1,21 @@
+To determine the correct graph, we must analyze the components of the generator shown in the diagram.
+
+### Explanation
+
+1.  **Analyze the components:** The generator consists of a coil rotating in a magnetic field. Crucially, the connection to the external circuit (points $X$ and $Y$) is made through a **split-ring commutator**.
+2.  **Understand the effect of the commutator:** 
+    *   A generator with **slip rings** produces alternating current (AC), which would be represented by a sine wave that crosses the horizontal axis (Option B or D).
+    *   A generator with a **split-ring commutator** reverses the connections to the external circuit every half-rotation. This action ensures that the current flowing through the external circuit (the galvanometer) always flows in the same direction. This produces **pulsating direct current (DC)**.
+3.  **Evaluate the starting position:**
+    *   In the position shown, the plane of the coil is parallel to the magnetic field lines. This is the position of maximum magnetic flux change ($d\Phi/dt$ is at a maximum). Therefore, the induced EMF and current should be at a **maximum value**, not zero.
+    *   As the coil rotates from $0^\circ$ to $90^\circ$, the flux change decreases, and the current drops to zero. As it continues to $180^\circ$, the current would normally reverse direction, but the split-ring commutator flips the connections, causing the current to flow in the same direction as the first half-cycle.
+4.  **Conclusion:** The graph must represent a rectified output (pulsating DC) that starts at a maximum value at $0^\circ$. Looking at the options:
+    *   Option C shows a rectified current starting at a maximum.
+    *   Option A shows a rectified current starting at zero (which would occur if the coil started perpendicular to the field).
+
+Since the coil starts in the position shown (parallel to the field), the induced EMF is at its peak. Therefore, the graph must begin at a maximum value.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

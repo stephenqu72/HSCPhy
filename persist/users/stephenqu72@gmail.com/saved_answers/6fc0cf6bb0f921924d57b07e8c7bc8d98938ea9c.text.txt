@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To achieve continuous rotation of a conducting coil in a uniform magnetic field (a DC motor), the direction of the current through the coil must be reversed every half-turn. This reversal ensures that the torque exerted on the coil always acts in the same rotational direction, preventing the coil from oscillating back and forth and instead allowing it to spin continuously.
+
+Here is how to analyze the components:
+
+1.  **The Commutator:** The images show two types of connections. 
+    *   **A and B** show "slip rings" (complete circular rings). Slip rings maintain a constant connection between the coil and the power source.
+    *   **C and D** show a "split-ring commutator" (the ring is divided into two segments with a gap). This device is essential for a DC motor because it mechanically reverses the direction of current flow through the coil every $180^\circ$ (half-turn).
+
+2.  **The Power Source:**
+    *   **AC (Alternating Current):** In an AC supply, the current direction switches automatically at a set frequency. If you use AC with a split-ring commutator (Option C), the combination of the changing current and the physical switching creates chaotic torque.
+    *   **DC (Direct Current):** In a DC supply, current flows in one direction. To maintain a constant torque direction, the current must be physically reversed relative to the coil as it rotates. This is exactly what the **split-ring commutator** in **Option D** achieves.
+
+**Conclusion:** Setup **D** provides the necessary components for a DC motor: a DC power source paired with a split-ring commutator to ensure the current reverses through the coil at the right moment, resulting in continuous rotation.
+
+###QUESTION_TYPE
+Multiple choice

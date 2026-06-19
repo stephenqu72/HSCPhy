@@ -1,0 +1,8 @@
+### Front
+How can **dimensional analysis** be used to verify a physical equation like Stokes' Law for terminal velocity ($v_t$)?
+
+### Back
+- Key idea: Ensure the SI units on the Left-Hand Side (LHS) are identical to those on the Right-Hand Side (RHS).
+- Formula / law / constant / figure: $v_t = \frac{2r^2g(\rho - \rho')}{9\eta}$ (Stokes' Law)
+- When to use it: To check the consistency of a derived equation or to determine how variables relate.
+- Common trap: Including dimensionless numerical constants (e.g., $2/9$) in the unit calculation; they should be ignored.

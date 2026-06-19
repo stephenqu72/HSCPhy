@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part a
+To draw the normal line at the point of incidence: The light ray enters the face of the prism at a $90^\circ$ angle (it is normal to the surface). The ray then travels until it hits the hypotenuse of the prism. At this interface, the normal line is a line drawn **perpendicular** to the hypotenuse at the point where the ray strikes it. Since the prism is a $45^\circ-45^\circ-90^\circ$ triangle, the angle of incidence inside the glass is $45^\circ$.
+
+#### Part b
+To find the minimum refractive index $n_{\text{prism}}$, we use the condition for total internal reflection (TIR).
+
+1.  **Identify the critical angle $\theta_c$:**
+    For the light to undergo total internal reflection at the hypotenuse, the angle of incidence $\theta_i$ must be greater than or equal to the critical angle $\theta_c$. In this geometry, the light hits the hypotenuse at an angle of $45^\circ$ relative to the normal. Therefore, we require $\theta_c \leq 45^\circ$.
+
+2.  **Use Snell’s Law for the critical angle:**
+    The formula for the critical angle is:
+    $$\sin(\theta_c) = \frac{n_2}{n_1}$$
+    where $n_2 = n_{\text{air}} = 1.00$ and $n_1 = n_{\text{prism}}$.
+    We set $\theta_c = 45^\circ$:
+    $$\sin(45^\circ) = \frac{1.00}{n_{\text{prism}}}$$
+
+3.  **Solve for $n_{\text{prism}}$:**
+    Since $\sin(45^\circ) = \frac{1}{\sqrt{2}} \approx 0.707$:
+    $$\frac{1}{\sqrt{2}} = \frac{1}{n_{\text{prism}}}$$
+    $$n_{\text{prism}} = \sqrt{2} \approx 1.414$$
+
+For TIR to occur, the index of the prism must be at least $1.41$.
+
+$n_{\text{prism}} = 1.41$
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,20 @@
+### Answer
+
+**(a) Compare the forces acting on sides $AB$ and $CD$ in the position shown.**
+
+The forces acting on sides $AB$ and $CD$ are equal in magnitude but opposite in direction. According to the motor effect, the magnitude of the force on each side is given by $F = BIl \sin(\theta)$. Since both sides have the same length ($l$), carry the same current ($I$), and are situated in the same external magnetic field ($B$), the force magnitudes are identical. By applying the right-hand rule, the current flows in opposite directions in sides $AB$ and $CD$ relative to the magnetic field, creating a couple that results in the rotation of the motor.
+
+**(b) Outline one way the torque produced by the motor could be doubled. Support your answer with a relevant equation.**
+
+To double the torque, one could double the current flowing through the coil. The equation for torque ($\tau$) on a DC motor is:
+$$\tau = nBIA \cos(\theta)$$
+By doubling the current ($I$), the torque ($\tau$) becomes $2\tau$, effectively doubling the motor's output. Alternatively, one could double the number of turns ($n$) in the coil, as $\tau$ is directly proportional to $n$.
+
+---
+
+### How to solve this
+1.  **For part (a):** Identify the key physics principle—the motor effect. Recognize that in a DC motor, the loop carries current in a loop ($A \rightarrow B \rightarrow C \rightarrow D$). Because the sides $AB$ and $CD$ are on opposite sides of the axis of rotation, the current in these segments flows in opposite directions relative to the magnetic field lines. This is the definition of a "force couple," which is required to create rotation.
+2.  **For part (b):** Recall the formula for torque in a motor: $\tau = nBIA \cos(\theta)$. To "double" the result, look for any variable that has a linear relationship with $\tau$. Since $\tau \propto I$ (current), $\tau \propto n$ (number of turns), or $\tau \propto A$ (area), choosing to double $I$ or $n$ is a mathematically valid and physically practical way to double the torque.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,31 @@
+To determine the correct graph, we must look at the formula for magnetic flux $\Phi$:
+
+$$\Phi = BA \cos(\theta)$$
+
+Where:
+- $B$ is the magnetic field strength.
+- $A$ is the area of the coil.
+- $\theta$ is the angle between the **normal** to the coil (the vector perpendicular to the surface) and the magnetic field lines.
+
+### Step-by-Step Analysis:
+
+1. **Initial Orientation:** The problem states the plane of the coil is **parallel** to the magnetic field. If the plane of the coil is parallel to the field, the normal vector to the coil is at an angle of $90^\circ$ to the field. 
+   - At $t=0$, $\theta = 90^\circ$.
+   - $\cos(90^\circ) = 0$, so the initial flux $\Phi = 0$.
+
+2. **Rotation:** As the coil rotates, the angle $\theta$ changes.
+   - When the coil rotates $90^\circ$ from its starting position, the plane becomes perpendicular to the field. Now, the normal vector is aligned with the field ($\theta = 0^\circ$).
+   - $\cos(0^\circ) = 1$, so the flux reaches a **maximum positive value**.
+   - After another $90^\circ$ rotation, the plane is parallel to the field again ($\theta = 270^\circ$ or $-90^\circ$), so the flux returns to $0$.
+   - After another $90^\circ$ rotation, the plane is perpendicular again, but the normal vector is now pointing in the opposite direction relative to the field ($\theta = 180^\circ$). 
+   - $\cos(180^\circ) = -1$, so the flux reaches a **maximum negative value**.
+
+3. **Conclusion:** The flux follows a sine wave pattern: it starts at $0$, rises to a positive maximum, returns to $0$, drops to a negative maximum, and returns to $0$ over $360^\circ$.
+
+Looking at the options:
+- Graph **A** correctly shows a sinusoidal variation starting at $0$, going to a positive maximum, back to $0$, then to a negative maximum, and back to $0$.
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

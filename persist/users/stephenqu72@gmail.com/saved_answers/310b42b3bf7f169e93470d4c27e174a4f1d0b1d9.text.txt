@@ -1,0 +1,37 @@
+To solve this problem, we must apply the principle of transformer efficiency, which relates input power to output power.
+
+### Answer
+The output current of the transformer is **$145.16\text{ A}$** (or approximately **$145\text{ A}$**).
+
+---
+
+### Step-by-Step Explanation
+
+**1. Identify the given variables:**
+*   Input Voltage ($V_p$) = $20,000\text{ V}$
+*   Input Current ($I_p$) = $100\text{ A}$
+*   Output Voltage ($V_s$) = $12,400\text{ V}$
+*   Efficiency ($\eta$) = $90\%$ or $0.90$
+
+**2. Calculate the Input Power ($P_{in}$):**
+Power is defined as the product of voltage and current ($P = VI$).
+$$P_{in} = V_p \times I_p$$
+$$P_{in} = 20,000\text{ V} \times 100\text{ A} = 2,000,000\text{ W}$$
+
+**3. Calculate the Output Power ($P_{out}$):**
+Efficiency is the ratio of output power to input power: $\eta = \frac{P_{out}}{P_{in}}$.
+Rearranging for $P_{out}$:
+$$P_{out} = \eta \times P_{in}$$
+$$P_{out} = 0.90 \times 2,000,000\text{ W} = 1,800,000\text{ W}$$
+
+**4. Determine the Output Current ($I_s$):**
+Using the power formula for the output side:
+$$P_{out} = V_s \times I_s$$
+$$1,800,000\text{ W} = 12,400\text{ V} \times I_s$$
+$$I_s = \frac{1,800,000}{12,400}$$
+$$I_s \approx 145.16129\dots\text{ A}$$
+
+Rounding to two decimal places, we get **$145.16\text{ A}$**.
+
+###QUESTION_TYPE
+Calculation question

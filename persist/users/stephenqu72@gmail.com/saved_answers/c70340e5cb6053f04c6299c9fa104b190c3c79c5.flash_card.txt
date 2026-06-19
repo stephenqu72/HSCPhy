@@ -1,0 +1,8 @@
+### Front
+How can you determine if an interaction (such as a collision or explosion) is elastic or inelastic using kinetic energy?
+
+### Back
+- Key idea: An interaction is **elastic** if total kinetic energy ($E_k$) is conserved, and **inelastic** if $E_k$ changes.
+- Formula / law / constant / figure: $\sum E_{k,i} = \sum E_{k,f}$ (for elastic); $\sum p_i = \sum p_f$ (always applies to the system).
+- When to use it: To classify the nature of a collision or to identify if internal potential energy was converted into kinetic energy.
+- Common trap: Assuming "inelastic" only means $E_k$ decreases. In explosions, $E_k$ **increases** ($E_{k,f} > E_{k,i}$), but it is still classified as inelastic because $E_k$ is not conserved.

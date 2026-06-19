@@ -1,0 +1,21 @@
+### Answer and Explanation
+
+**a. How far apart are the two nails?**
+*   **Answer:** $0.02\text{ m}$ (or $2.0\text{ cm}$)
+*   **Explanation:** The question states the sources are out of phase by half a period ($T/2$). For two point sources separated by distance $d$, if they are in phase, the path difference at the center is $0$ (a maximum). Because they are $180^\circ$ ($\pi$ radians) out of phase, the center point experiences destructive interference. In this configuration, the nodal lines represent the path difference $d = (n + 1/2)\lambda$. Given only one nodal line is shown between the sources, the separation distance $d$ equals $\lambda$. Since $\lambda = 2.0\text{ cm} = 0.02\text{ m}$, $d = 0.02\text{ m}$.
+
+**b. Explain the formation of nodal lines in the pattern.**
+*   **Answer:** Nodal lines are formed through destructive interference.
+*   **Explanation:** This occurs when waves from the two sources $S_1$ and $S_2$ arrive at a point with a path difference of $(n + 1/2)\lambda$ (where $n$ is an integer). At these points, the crest of one wave coincides with the trough of the other wave, causing the displacement of the water surface to be zero at all times.
+
+**c. Calculate the difference in distances $QS_1$ and $QS_2$.**
+*   **Answer:** $0.01\text{ m}$
+*   **Explanation:** Point $Q$ lies on the first nodal line radiating from the center. For out-of-phase sources, the condition for a node is $|PS_1 - PS_2| = n\lambda$. The first nodal line corresponds to a path difference of $0\lambda = 0$ (the center line). The next nodal line (where $Q$ is located) corresponds to a path difference of $0.5\lambda$ because the sources themselves are already $\lambda/2$ out of phase.
+    $$|QS_1 - QS_2| = 0.5 \times 2.0\text{ cm} = 1.0\text{ cm} = 0.01\text{ m}$$
+
+**d. A cork floats at location P just before the generation of circular waves. Describe the motion of the cork as time progresses.**
+*   **Answer:** The cork remains stationary (or experiences no net displacement).
+*   **Explanation:** Location $P$ is situated on a nodal line. As established in part (b), nodal lines are regions of destructive interference where the waves from the two sources cancel each other out continuously. Since there is no oscillation in the water surface at a nodal point, the cork will not move vertically; it will remain at its equilibrium position.
+
+###QUESTION_TYPE
+Calculation question

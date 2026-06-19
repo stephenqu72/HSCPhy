@@ -1,0 +1,19 @@
+### Answer
+
+When an alternating current (AC) flows through the first solenoid, it creates a constantly changing magnetic field. Because the second solenoid is in the vicinity, it is penetrated by this varying magnetic flux. According to Faraday’s Law, a changing magnetic flux induces an electromotive force (EMF) in the second solenoid.
+
+Lenz’s Law states that the direction of the induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it. As the magnetic flux from the first solenoid increases, the second solenoid induces a current that creates an opposing magnetic field. Conversely, as the flux from the first solenoid decreases, the second solenoid induces a current in the opposite direction to try and maintain the original flux. This constant change and opposition results in an alternating induced EMF in the second solenoid.
+
+### How to solve this question
+
+To secure full marks on a 4-mark HSC physics question like this, follow this structure:
+
+1.  **Identify the cause:** Explain that AC current creates a *changing* magnetic field. This is the fundamental requirement for electromagnetic induction.
+2.  **Link to Faraday's Law:** State that a change in magnetic flux ($\Delta \Phi$) through the coils of the second solenoid induces an EMF ($\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$).
+3.  **Explain Lenz's Law:** Explicitly address the requirement to discuss Lenz's Law. You must emphasize that the induced EMF creates an opposing effect to the change in flux, which is the physical basis for the negative sign in Faraday's equation.
+4.  **Connect to AC:** Conclude by linking the cycle of the AC current to the continuous generation of an alternating EMF.
+
+**Teacher's Tip:** In your response, use the phrase "changing magnetic flux" rather than just "moving magnetic field." HSC markers look for precise scientific terminology.
+
+### QUESTION_TYPE
+Short answer

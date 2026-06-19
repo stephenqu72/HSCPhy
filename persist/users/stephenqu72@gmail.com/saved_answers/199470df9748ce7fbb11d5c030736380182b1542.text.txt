@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+To explain the differences in drop times, we must apply **Lenz’s Law** and the principles of **electromagnetic induction (eddy currents)**.
+
+#### Explanation
+1.  **The Mechanism:** As the rare earth magnet falls through the conductive metal tubes (Aluminium and Copper), the changing magnetic flux through the walls of the tube induces an EMF. By Faraday's Law, this induces **eddy currents** in the conductive material. According to Lenz's Law, these currents flow in a direction that creates a magnetic field to oppose the motion of the falling magnet, exerting an upward magnetic force (magnetic braking).
+2.  **Tube 4 (Plastic):** Plastic is an electrical insulator. No significant eddy currents can be induced, so there is no magnetic braking. The magnet falls almost at free-fall acceleration (due to gravity), resulting in the shortest time ($3.2\text{ s}$).
+3.  **Tubes 1 & 2 (Aluminium vs. Copper):** Both are conductive, resulting in magnetic braking. Copper has a higher electrical conductivity than aluminium. Consequently, for the same rate of change of flux, larger eddy currents are induced in the copper, leading to a stronger opposing force and a longer drop time ($11.4\text{ s}$ vs $7.2\text{ s}$).
+4.  **Tube 3 (Copper with slot):** The slot interrupts the path of the circulating eddy currents. This increases the effective resistance of the material to the induced currents, which reduces the magnitude of the eddy currents. Weaker eddy currents generate a weaker opposing magnetic field, leading to a shorter drop time ($9.6\text{ s}$) compared to the solid copper tube.
+
+#### Summary for HSC Marking:
+*   **Identify Physics:** Mention Faraday's Law (changing flux induces EMF) and Lenz's Law (induced currents create an opposing force/magnetic braking).
+*   **Explain Plastic:** Note that it is non-conductive, meaning no eddy currents are produced.
+*   **Compare Metals:** Explain that higher conductivity (Copper > Aluminium) allows for larger eddy currents and stronger braking.
+*   **Explain the Slot:** Explain that the slot restricts the path of eddy currents, reducing the braking effect.
+
+###QUESTION_TYPE
+Data analysis questions

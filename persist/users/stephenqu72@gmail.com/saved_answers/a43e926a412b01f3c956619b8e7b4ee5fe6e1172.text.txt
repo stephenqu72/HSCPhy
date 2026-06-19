@@ -1,0 +1,24 @@
+To determine which factor increases the torque on the coil of a simple DC motor, we must refer to the mathematical formula for torque ($\tau$) experienced by a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \sin(\theta)$$
+
+Where:
+*   $n$ = number of turns in the coil
+*   $I$ = current flowing through the coil
+*   $A$ = area of the coil
+*   $B$ = magnetic field strength
+*   $\theta$ = angle between the normal to the coil and the magnetic field
+
+### Analysis of Options:
+*   **(A) Reversing the direction of current:** This simply reverses the direction of the torque (causing the motor to spin in the opposite direction), but it does not change the magnitude of the torque.
+*   **(B) Decreasing the area of the coil:** Since $\tau \propto A$, decreasing the area will decrease the torque.
+*   **(C) Decreasing the resistance of the coil:** According to Ohm's Law, $I = V/R$. If the resistance ($R$) of the coil is decreased while the voltage ($V$) remains constant, the current ($I$) will increase. Since $\tau \propto I$, an increase in current results in an increase in torque. This is the correct answer.
+*   **(D) Decreasing the strength of the magnetic field:** Since $\tau \propto B$, decreasing the magnetic field strength will decrease the torque.
+
+**Correct Answer: (C)**
+
+### Explanation for Students:
+When approaching HSC Physics questions regarding DC motors, always link the physical components to the torque formula. Whenever you see "increase the torque," look for variables that are directly proportional to torque in the equation $\tau = nIAB \sin(\theta)$. In this case, option (C) is a two-step logical progression: by lowering resistance, you draw more current from the source, and a higher current directly results in a stronger motor torque.
+
+###QUESTION_TYPE
+Multiple choice

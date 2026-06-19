@@ -1,0 +1,26 @@
+To determine the correct graph, we must apply **Faraday's Law of Induction** and **Lenz's Law**.
+
+### Explanation
+
+1.  **Faraday's Law:** The induced electromotive force (EMF) in a circuit is equal to the negative rate of change of magnetic flux through the coil: $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$.
+2.  **Lenz's Law:** The direction of the induced current is such that it opposes the change in magnetic flux that produced it.
+
+**Phase 1: Approaching the coil**
+As the North pole of the magnet falls toward the coil, the magnetic flux through the coil increases. According to Lenz's Law, the coil induces a current to create an upward-pointing magnetic field to oppose the incoming North pole. This produces a negative voltage pulse (assuming the convention where "pushing" flux through produces a negative initial polarity based on the coil winding).
+
+**Phase 2: Falling through the coil**
+As the magnet moves through the center, the rate of change of flux is briefly zero (or reaches an extremum), so the induced EMF crosses zero.
+
+**Phase 3: Exiting the coil**
+As the magnet falls out, the magnetic flux through the coil decreases. The coil now induces a current to create a downward-pointing magnetic field to "attract" the departing North pole (resisting the decrease in flux). This creates a voltage pulse of opposite polarity to the first, resulting in a positive peak.
+
+**The "Asymmetry" Factor:**
+As the magnet falls, it accelerates due to gravity. The speed at the exit is greater than the speed at the entry. Since $\varepsilon \propto \frac{\Delta \Phi}{\Delta t}$, a higher speed results in a greater rate of change of flux, leading to a **larger peak magnitude** for the second pulse compared to the first pulse.
+
+*   **Graph (B)** matches this logic: a negative pulse followed by a larger, sharper positive pulse due to the magnet accelerating as it exits the coil.
+
+### Correct Answer
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

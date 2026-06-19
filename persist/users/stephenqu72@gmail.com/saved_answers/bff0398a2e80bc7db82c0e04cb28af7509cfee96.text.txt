@@ -1,0 +1,17 @@
+The correct answer is **(B) DC Motor**.
+
+### Explanation
+
+To identify this device, we look for three key features shown in the diagram:
+
+1.  **The Power Source:** The circuit includes a battery (represented by the parallel lines at the bottom). A battery provides a direct current (DC) power supply. This tells us the device is an **input** device (a motor) that converts electrical energy into mechanical energy, rather than a generator which outputs electrical energy.
+2.  **The Commutator:** The diagram explicitly labels the "split-ring commutator." The function of the split-ring is to reverse the direction of the current in the coil every half-turn. This ensures that the torque produced by the magnetic force remains in the same rotational direction, allowing the motor to continue spinning.
+3.  **The Interaction:** The coil is placed in an external magnetic field ($B$) provided by permanent magnets (N and S). When current ($I$) flows through the coil, the motor effect occurs, creating a force $F = IlB \sin(\theta)$ on the wires, which produces a torque that causes the coil to rotate.
+
+**Why it is not the other options:**
+*   **AC Motor:** These typically use slip rings (continuous rings) rather than a split-ring commutator to maintain the alternating current flow.
+*   **AC Generator:** These also use slip rings and do not have an external battery source.
+*   **DC Generator:** While these use a split-ring commutator, they do not have a battery. Instead, they require an external mechanical force to turn the coil, which then produces an output current that can be measured or used in an external circuit.
+
+###QUESTION_TYPE
+Multiple choice

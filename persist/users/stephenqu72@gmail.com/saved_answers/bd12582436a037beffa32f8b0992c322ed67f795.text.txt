@@ -1,0 +1,27 @@
+To solve this problem, we use the transformer turns ratio formula, which relates the voltage and the number of turns in the primary and secondary coils:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+### Given data:
+*   Primary voltage ($V_p$) = $240\text{ V}$
+*   Secondary voltage ($V_s$) = $12\text{ V}$
+*   Primary turns ($N_p$) = $300$
+*   Input current = $10\text{ A}$ (Note: This is "distractor" information. It is not needed to find the number of turns, as the turns ratio depends only on the voltage ratio.)
+
+### Step-by-step solution:
+1.  **Rearrange the formula** to solve for the secondary turns ($N_s$):
+    $$N_s = N_p \times \frac{V_s}{V_p}$$
+
+2.  **Substitute the known values** into the equation:
+    $$N_s = 300 \times \frac{12}{240}$$
+
+3.  **Simplify the calculation**:
+    $$\frac{12}{240} = \frac{1}{20}$$
+    $$N_s = 300 \times \frac{1}{20}$$
+    $$N_s = 15$$
+
+**Conclusion:**
+There are 15 turns in the secondary coil. The correct option is **(a)**.
+
+###QUESTION_TYPE
+Multiple choice

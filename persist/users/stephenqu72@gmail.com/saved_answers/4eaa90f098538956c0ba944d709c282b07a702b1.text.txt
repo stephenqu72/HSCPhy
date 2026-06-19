@@ -1,0 +1,37 @@
+This problem tests your understanding of Young’s Double Slit Experiment, a fundamental topic in the HSC Physics syllabus regarding the wave nature of light.
+
+### (a) Explain why the intensity of light at $\theta = 0$ will be a maximum.
+
+**Answer:** At $\theta = 0$, the path difference between the two light rays arriving at the screen from each slit is exactly zero. Because the rays are in phase and have a path difference of zero, they undergo **constructive interference**, resulting in a maximum amplitude and thus a maximum intensity (the central bright fringe).
+
+### (b) Show that for the first order maximum $\theta = 6.02 \times 10^{-3} \text{ rad}$.
+
+**Method:** Use the condition for constructive interference for double slits:
+$$d \sin \theta = n \lambda$$
+Where:
+- $d = 1.13 \times 10^{-4} \text{ m}$ (slit separation)
+- $n = 1$ (first order maximum)
+- $\lambda = 6.80 \times 10^{-7} \text{ m}$ (wavelength)
+
+**Calculation:**
+$$\sin \theta = \frac{n \lambda}{d} = \frac{1 \times 6.80 \times 10^{-7}}{1.13 \times 10^{-4}} \approx 6.0177 \times 10^{-3}$$
+For very small angles, $\sin \theta \approx \theta$ (in radians).
+$$\theta \approx 6.02 \times 10^{-3} \text{ rad}$$
+
+### (c) Draw a graph to show how the intensity of light observed on the screen varies with angle $\theta$.
+
+**Method:**
+1.  **Symmetry:** The pattern must be symmetric about the $\theta = 0$ axis.
+2.  **Central Peak:** Place the highest intensity peak at $\theta = 0$.
+3.  **Spacing:** Since $\theta \approx 6.02 \times 10^{-3} \text{ rad}$ for the first order ($n=1$), the next maxima ($n=2, 3...$) should appear at roughly $12.04$ and $18.06$. You should draw clear, repeating peaks of equal height and width, with zeros (minima) in between them.
+4.  **Drawing Guide:** Sketch a series of sharp, oscillating peaks. The intensity should drop to zero exactly halfway between the bright fringes.
+
+***
+
+### How to approach these questions:
+- **Part (a):** Always link "intensity" to "constructive interference." Mentioning "path difference = 0" is the specific physical key to unlocking full marks.
+- **Part (b):** Always check if you need to use the small-angle approximation. In HSC physics, $\sin \theta \approx \theta$ is standard for double-slit problems.
+- **Part (c):** Ensure your minima touch the horizontal axis to represent perfect destructive interference (dark fringes).
+
+###QUESTION_TYPE
+Calculation question

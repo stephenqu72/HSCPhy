@@ -1,0 +1,21 @@
+### Answer
+When more appliances are turned on during the evening peak, the houses are connected in parallel, which decreases the total resistance of the load circuit. 
+
+1.  **Current:** According to Ohm’s Law ($V = IR$), as the total resistance of the houses decreases, the total current ($I$) drawn from the transmission lines increases.
+2.  **Energy Loss:** The transmission lines have a constant resistance ($R_{line}$). The power lost as heat in these lines is given by $P_{loss} = I^2 R_{line}$. Because the current increases, the power loss increases significantly (as a square of the current). Consequently, more energy is dissipated as heat in the transmission lines, reducing the efficiency of the energy distribution system.
+3.  **Voltage:** Due to the increased current flowing through the transmission lines, there is a larger voltage drop ($V_{drop} = I R_{line}$) across the lines themselves. This results in a decrease in the terminal voltage delivered to the houses, which may lead to the "dimming" of lights or underperformance of appliances. 
+4.  **Transformers:** To maintain a consistent output voltage despite the increased load, the system may require active regulation or the power station must increase output to compensate for the higher transmission losses.
+
+***
+
+### How to solve this
+To achieve full marks (6 marks) for this HSC-style physics question, you must demonstrate a clear understanding of the relationships between electrical variables in a power distribution network. Use this structure:
+
+*   **Step 1: Identify the effect on the Load:** State that appliances are in parallel, so turning more on decreases total resistance. 
+*   **Step 2: Connect to Current:** Explain that $I = V/R_{total}$, so an increase in appliances increases the total current drawn through the transmission lines.
+*   **Step 3: Connect to Energy Loss:** Explicitly state the formula $P_{loss} = I^2 R$. Emphasize that because the loss is proportional to the **square** of the current, small increases in demand result in disproportionately large increases in energy wasted as heat.
+*   **Step 4: Connect to Voltage:** Explain the "voltage drop" across the transmission lines ($V = IR$). As $I$ increases, the voltage lost along the lines increases, meaning less voltage reaches the end-user (the houses).
+*   **Step 5: Coherent Physics:** Ensure you link the terms "voltage," "current," and "energy" as requested by the prompt.
+
+###QUESTION_TYPE
+Short answer

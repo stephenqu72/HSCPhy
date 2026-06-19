@@ -1,0 +1,27 @@
+To solve this problem, we must analyze the physics behind Faraday's homopolar motor and understand the relationship between the period of rotation and the forces involved.
+
+### 1. Analysis of the Physics
+The motor operates based on the Lorentz force, given by the formula:
+$$F = IlB \sin(\theta)$$
+where $F$ is the magnetic force, $I$ is the current, $l$ is the length of the conductor (in this case, effectively the radial distance from the magnet to the edge of the dish), $B$ is the magnetic field strength, and $\theta$ is the angle between the current and the magnetic field.
+
+*   **Period ($T$):** The period is the time taken for one full rotation ($T = \frac{2\pi}{\omega}$, where $\omega$ is angular velocity).
+*   **Decreasing the period:** To decrease the period, we must **increase the angular velocity** ($\omega$). This requires an **increase in the magnetic force** ($F$) acting on the rod.
+
+### 2. Evaluating the Options
+We are looking for a change that results in a stronger force or faster rotation. Let's analyze the variables:
+
+*   **(A) Using an AC power source:** An AC source would constantly change direction, causing the rod to oscillate or remain stationary on average. This does not decrease the period of continuous rotation.
+*   **(B) Increasing the distance XY:** Increasing the length $l$ of the rod increases the torque ($\tau = rF$). Since the current passes through a longer segment of the rod in the magnetic field, the force acting on it increases. Increased torque leads to higher angular velocity, which decreases the period.
+*   **(C) Decreasing the distance XY:** This would decrease the effective length $l$ of the conductor within the magnetic field, resulting in less force, lower torque, and a slower rotation (increased period).
+*   **(D) Reversing the polarity of the magnet:** This would change the direction of the force (making the rod rotate counter-clockwise), but it would not change the *magnitude* of the force or the speed of rotation.
+
+Therefore, increasing the length of the rod (distance XY) increases the torque, which increases the speed of rotation and decreases the period.
+
+**Correct Option: (B)**
+
+### Explanation Summary
+To decrease the period, the rod must rotate faster. Faster rotation is achieved by increasing the torque acting on the rod. Since the torque is proportional to the radial length of the rod interacting with the magnetic field ($l$), increasing the distance $XY$ increases the force $F = IlB$ and the resulting torque, thereby reducing the time taken for one rotation.
+
+###QUESTION_TYPE
+Multiple choice

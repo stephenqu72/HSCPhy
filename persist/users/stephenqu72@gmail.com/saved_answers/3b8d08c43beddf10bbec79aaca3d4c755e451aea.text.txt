@@ -1,0 +1,29 @@
+To solve this problem, we use the diffraction grating formula:
+
+$$d \sin(\theta) = n\lambda$$
+
+Where:
+*   $d$ is the grating spacing (constant for both lights).
+*   $\theta$ is the angle of diffraction.
+*   $n$ is the order of the maximum.
+*   $\lambda$ is the wavelength.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the condition:** The problem states that the two lights coincide, meaning they are diffracted at the exact same angle $\theta$. Therefore, the product $d \sin(\theta)$ must be the same for both.
+2.  **Set up the equation:** 
+    For the orange light ($n_1 = 4$, $\lambda_1 = 600\text{ nm}$):
+    $$d \sin(\theta) = n_1 \lambda_1 = 4 \times 600$$
+    For the blue light ($n_2 = 5$, $\lambda_2 = ?$):
+    $$d \sin(\theta) = n_2 \lambda_2 = 5 \times \lambda_2$$
+3.  **Solve for $\lambda_2$:**
+    Since the diffraction angles are the same, we equate the two expressions:
+    $$4 \times 600 = 5 \times \lambda_2$$
+    $$2400 = 5 \times \lambda_2$$
+    $$\lambda_2 = \frac{2400}{5}$$
+    $$\lambda_2 = 480\text{ nm}$$
+
+Comparing this result to the given options, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

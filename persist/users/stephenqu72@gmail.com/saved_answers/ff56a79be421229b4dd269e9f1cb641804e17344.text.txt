@@ -1,0 +1,41 @@
+### Answer and Explanation
+
+#### Part a) Calculation
+To calculate the average induced EMF, we use Faraday’s Law of Induction, which states that the induced EMF is equal to the negative rate of change of magnetic flux linkage:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+Where:
+- $N = 10$ (number of turns)
+- $B = 2.0 \times 10^{-2} \text{ T}$
+- $A = 1.6 \times 10^{-3} \text{ m}^2$
+- $\Delta t = 0.50 \text{ s}$
+
+1. **Calculate the change in flux ($\Delta\Phi$):**
+   At position X (outside), the flux is $\Phi_i = 0$.
+   At position Y (inside), the flux is $\Phi_f = B \times A = (2.0 \times 10^{-2}) \times (1.6 \times 10^{-3}) = 3.2 \times 10^{-5} \text{ Wb}$.
+   $\Delta\Phi = 3.2 \times 10^{-5} - 0 = 3.2 \times 10^{-5} \text{ Wb}$.
+
+2. **Calculate the EMF:**
+   $$\varepsilon = 10 \times \frac{3.2 \times 10^{-5}}{0.50}$$
+   $$\varepsilon = 6.4 \times 10^{-4} \text{ V}$$
+   *(Note: The magnitude is usually requested for average EMF calculations in this context.)*
+
+---
+
+#### Part b) Sketching the EMF
+To determine the shape of the graph, we apply Faraday's Law ($\varepsilon = -N \frac{d\Phi}{dt}$):
+
+1. **Loop outside:** $\Phi = 0$, so $\varepsilon = 0$.
+2. **Loop entering:** The flux increases linearly as the area enters the field. Since the rate of change is constant, the EMF will be a **constant non-zero value** (typically negative by Lenz’s Law).
+3. **Loop inside:** The flux is constant ($B \times A$), so $\frac{d\Phi}{dt} = 0$. The EMF is $0$.
+4. **Loop leaving:** The flux decreases at the same rate as it increased. This produces a **constant non-zero EMF** of the opposite sign to the "entering" phase.
+5. **Loop outside:** Back to $0$.
+
+**Sketch description:**
+- From start to "entering": line at $0$.
+- During "entering": a horizontal line at a constant value (e.g., below the axis).
+- During "inside": a horizontal line at $0$.
+- During "leaving": a horizontal line at a constant value of the opposite sign (e.g., above the axis).
+- During "outside": back to $0$.
+
+###QUESTION_TYPE
+Calculation question

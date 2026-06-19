@@ -1,0 +1,22 @@
+### Answer
+A transformer operates based on the principle of **electromagnetic induction**:
+
+1.  **Operation:** An alternating current (AC) in the primary coil creates a constantly changing magnetic field. This changing magnetic field induces a changing magnetic flux in the core. This flux passes through the secondary coil, and according to Faraday's Law, induces an alternating electromotive force (EMF) or voltage in the secondary coil.
+2.  **Role of the Iron Core:** The iron core acts as a **ferromagnetic material** with high magnetic permeability. It guides and confines the magnetic flux produced by the primary coil, ensuring that nearly all of it passes through the secondary coil. Without the core, much of the magnetic flux would be lost to the surrounding air (magnetic leakage), significantly reducing the efficiency of the power transfer.
+
+---
+
+### How to solve this question
+To secure all 4 marks in an HSC Physics exam, you must address both parts of the prompt clearly:
+
+*   **Part 1: The mechanism (2 marks):** Focus on the cause-and-effect chain. You must mention:
+    *   AC in the primary coil creates a changing magnetic field.
+    *   This leads to a changing magnetic flux, which induces an EMF in the secondary coil (Faraday's Law).
+*   **Part 2: The role of the core (2 marks):** Focus on efficiency.
+    *   Use the term **"flux linkage"**. The core ensures maximum magnetic flux linkage between the primary and secondary coils.
+    *   Explain that it minimizes "flux leakage" (loss of magnetic field lines to the air), which is essential for maintaining a high voltage output and reducing energy losses.
+
+**Teacher's Tip:** In your HSC responses, always use the keyword "changing" magnetic field or flux. If you say a "constant" magnetic field, the transformer will not work because the induced EMF depends on the *rate of change* of flux ($\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$).
+
+###QUESTION_TYPE
+Short answer

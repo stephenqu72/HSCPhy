@@ -1,0 +1,29 @@
+To solve this problem, we need to calculate the magnetic flux ($\Phi$) passing through the wire loop.
+
+### 1. Identify the relevant formula
+The magnetic flux is defined as:
+$$\Phi = B A \cos(\theta)$$
+where:
+*   $B$ is the magnetic field strength ($0.50\text{ T}$)
+*   $A$ is the area of the loop ($4.0 \times 10^{-4}\text{ m}^2$)
+*   $\theta$ is the angle between the **normal to the coil** (the vector perpendicular to the surface) and the **magnetic field lines**.
+
+### 2. Determine the correct angle
+The problem states that the plane of the coil is at an angle of $55^{\circ}$ to the magnetic field. However, the formula for magnetic flux requires the angle $\theta$ to be between the *normal* of the plane and the magnetic field.
+
+Since the normal is perpendicular to the plane of the coil ($90^{\circ}$), we calculate $\theta$ as:
+$$\theta = 90^{\circ} - 55^{\circ} = 35^{\circ}$$
+
+### 3. Calculate the flux
+Substitute the values into the formula:
+$$\Phi = 0.50 \times (4.0 \times 10^{-4}) \times \cos(35^{\circ})$$
+$$\Phi = 2.0 \times 10^{-4} \times 0.81915...$$
+$$\Phi \approx 1.638 \times 10^{-4}\text{ Wb}$$
+
+Rounding to the appropriate number of significant figures (consistent with the provided options), we get:
+$$\Phi \approx 1.64 \times 10^{-4}\text{ Wb}$$
+
+Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

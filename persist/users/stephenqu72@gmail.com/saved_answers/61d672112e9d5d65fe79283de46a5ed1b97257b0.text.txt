@@ -1,0 +1,23 @@
+To solve this problem, we must apply the principles of electromagnetism governing the force on a current-carrying conductor and the resulting torque on a motor rotor.
+
+### Step-by-Step Explanation
+
+**1. Analyzing the Force ($F$) on wire $AB$:**
+*   The force on a current-carrying wire in a magnetic field is given by $F = BIl \sin(\theta)$, where $\theta$ is the angle between the wire and the magnetic field.
+*   In a DC motor, as the coil rotates, the orientation of wire $AB$ relative to the magnetic field changes. When the coil is parallel to the magnetic field, the force is at a maximum. When the coil is perpendicular to the magnetic field, the force is zero.
+*   However, the graph provided uses a "square-like" shape (Option C). In a basic DC motor model used in HSC physics, we often approximate the force as constant magnitude while the wire is under the pole face, and zero when it moves through the vertical position. Because the commutator reverses the current every half-turn, the direction of the force on wire $AB$ reverses. Thus, $F$ switches between a positive maximum and a negative maximum, which corresponds to the square-wave pattern shown in graph C.
+
+**2. Analyzing the Torque ($\tau$) on the rotor:**
+*   Torque is defined as $\tau = NIAB \cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field.
+*   The torque is maximum when the coil is parallel to the field ($0^\circ$) and zero when the coil is perpendicular to the field ($90^\circ$).
+*   Unlike the force on a single wire, the total torque on the loop does not reverse direction when the coil passes the vertical position because the split-ring commutator reverses the current direction at that exact moment.
+*   Consequently, the torque remains positive for the entire rotation, oscillating between a maximum value and zero. This produces the "hump" pattern seen in graph C.
+
+**Conclusion:**
+Graph C accurately depicts the force on wire $AB$ (which reverses direction due to the commutator) and the torque on the rotor (which stays in the same direction due to the commutator, oscillating between 0 and a maximum).
+
+### Answer
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

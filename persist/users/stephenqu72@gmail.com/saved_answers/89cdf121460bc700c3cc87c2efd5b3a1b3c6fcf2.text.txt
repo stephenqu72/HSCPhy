@@ -1,0 +1,22 @@
+To solve this problem, we need to understand the physics of electromagnetic braking in DC motors.
+
+### Answer
+The correct option is **B**.
+
+### Explanation
+1.  **Understanding the Goal:** To implement electromagnetic braking, we need to create a closed loop that includes the motor when the power supply (battery) is disconnected. As the motor continues to spin due to inertia, it acts as a generator. If its terminals are connected to a low-resistance path (a closed circuit), an induced current will flow through the motor coils. According to **Lenz's Law**, this current creates a magnetic field that opposes the motion that caused it, resulting in a braking torque that quickly slows the motor.
+
+2.  **Analyzing the "On" Position:** In the "on" position, the battery must be connected to the motor to drive it. Looking at the options, all four options show the battery connected to the motor when the switch is in the "on" position.
+
+3.  **Analyzing the "Off" Position:**
+    *   When the switch is flipped to the "off" position, we want to isolate the battery and simultaneously short-circuit the motor (or connect it to a resistor).
+    *   **Option B:** When the switch moves to the "off" position, it disconnects the battery from the circuit and simultaneously creates a direct closed loop between the two terminals of the motor. This closed circuit allows the current induced by the spinning armature (the back EMF acting as a generator) to circulate through the motor's own windings. This creates the electromagnetic torque required to brake the motor.
+    *   **Options A, C, and D:** These circuits either leave the motor terminals disconnected (open circuit, no braking current possible) or fail to isolate the battery correctly, which does not achieve the necessary conditions for effective electromagnetic braking.
+
+### How to approach similar HSC Physics problems:
+*   **Identify the physics principle:** In this case, it is the motor-generator effect and Lenz's Law.
+*   **Trace the circuit:** Physically trace the path of the current for both switch positions ("on" and "off").
+*   **Check for the "short":** For electromagnetic braking, look for the diagram that provides a complete, closed conducting path for the motor when the battery is removed.
+
+###QUESTION_TYPE
+Multiple choice

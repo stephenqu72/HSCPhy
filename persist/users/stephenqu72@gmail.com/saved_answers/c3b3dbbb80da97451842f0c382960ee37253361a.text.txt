@@ -1,0 +1,17 @@
+### Answer
+Initially, as the DC motor is connected to a power supply, the current is high because the armature is stationary (no back EMF is produced). As the motor begins to rotate, it generates a back electromotive force (back EMF), denoted as $\varepsilon$. According to Lenz’s Law, this back EMF opposes the supply voltage $V$. 
+
+The armature current $I$ is determined by the equation:
+$$I = \frac{V - \varepsilon}{R}$$
+where $R$ is the resistance of the armature. As the speed of the motor increases, the back EMF increases. This causes the numerator $(V - \varepsilon)$ to decrease, leading to a corresponding decrease in the armature current until it reaches a low, steady value when the motor reaches its terminal speed.
+
+### How to solve this
+To achieve full marks (3 marks) on this HSC-style question, you must demonstrate a logical link between the motor's physics and the visual data:
+
+1.  **Identify the relationship:** State that there is an inverse relationship between the speed of the motor and the magnitude of the current.
+2.  **Apply Physics Principles:** Explicitly mention the **back EMF** ($\varepsilon$). Explain that it is proportional to the rotational speed of the motor.
+3.  **Use the governing formula:** Use the relationship $I = \frac{V - \varepsilon}{R}$ to justify *why* the current drops. Specifically, explain that as speed increases, $\varepsilon$ increases, which reduces the effective voltage driving the current.
+4.  **Reference the graph:** Note that at $t=0$, the speed is zero, meaning $\varepsilon = 0$, leading to maximum current (inrush current). As the speed curve plateaus, the current curve levels off as the motor reaches a stable operating state.
+
+###QUESTION_TYPE
+Data analysis questions

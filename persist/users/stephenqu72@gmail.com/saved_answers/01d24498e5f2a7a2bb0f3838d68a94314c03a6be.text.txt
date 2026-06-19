@@ -1,0 +1,33 @@
+### Answer
+
+**Prediction by Maxwell’s Equations:**
+James Clerk Maxwell unified the laws of electricity and magnetism into a single set of four equations. The critical theoretical breakthrough was his addition of the "displacement current" term to Ampère’s Law. This modification established a symmetry in nature:
+1.  **Faraday’s Law** dictates that a changing magnetic field induces an electric field.
+2.  **Ampère-Maxwell Law** dictates that a changing electric field (displacement current) induces a magnetic field.
+
+Maxwell mathematically demonstrated that these two processes could sustain each other in a self-propagating cycle. By combining his equations, he derived the wave equation, showing that oscillating electric and magnetic fields travel through space as an electromagnetic wave. Crucially, he calculated the speed of these waves using the constants of permittivity ($\epsilon_0$) and permeability ($\mu_0$):
+$$v = \frac{1}{\sqrt{\mu_0\epsilon_0}}$$
+The calculated value was approximately $3 \times 10^8$ m/s, which matched the known speed of light, leading Maxwell to correctly conclude that light itself is an electromagnetic wave.
+
+**Experimental Verification:**
+The existence of these waves was experimentally verified by Heinrich Hertz in 1887. Hertz used an induction coil to create a high-voltage spark between two metal spheres (the transmitter). He observed that this oscillating current produced sparks in a separate loop of wire (the receiver) placed at a distance. By showing that these "invisible sparks" could be reflected, refracted, and polarized, he confirmed they exhibited the same wave properties as light, proving the existence of electromagnetic waves and validating Maxwell’s theory.
+
+---
+
+### How to solve this question
+To secure all 6 marks in a Physics HSC exam, you must structure your response into two distinct parts as requested by the prompt:
+
+1.  **The Theoretical Component (3 marks):**
+    *   Mention the **displacement current** as the key modification Maxwell made.
+    *   Explain the **self-propagating nature** (changing electric field creates magnetic, changing magnetic creates electric).
+    *   State the significance of the **velocity calculation** ($v = 1/\sqrt{\mu_0\epsilon_0}$) and its relation to the speed of light.
+
+2.  **The Experimental Component (3 marks):**
+    *   Identify **Heinrich Hertz** as the scientist responsible.
+    *   Describe his **apparatus** (spark gap transmitter and receiver).
+    *   List the **wave properties observed** (reflection, refraction, interference, or polarization) to demonstrate that these waves behaved exactly as Maxwell predicted.
+
+*Teacher's Tip:* Use clear, concise terminology. Ensure you link the theoretical prediction directly to the speed of light, as this is the "bridge" between the math and the physics that examiners look for.
+
+###QUESTION_TYPE
+Short answer

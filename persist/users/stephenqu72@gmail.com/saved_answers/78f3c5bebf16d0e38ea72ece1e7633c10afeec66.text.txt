@@ -1,0 +1,25 @@
+To solve this problem, we must understand the physics behind Young's double-slit experiment. The distance between adjacent bright or dark bands (the fringe width) is denoted by $\Delta x$.
+
+### The Physics Formula
+The fringe width $\Delta x$ in a double-slit experiment is given by the formula:
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+- $\lambda$ (lambda) is the **wavelength** of the light used.
+- $L$ is the **distance** between the slits and the screen.
+- $d$ is the **separation** between the two slits.
+
+### How to solve the problem
+We are looking for the action that will **increase** $\Delta x$. Looking at the relationship defined by the formula $\Delta x \propto \frac{1}{d}$, we can analyze the options:
+
+*   **A. Decrease the distance ($L$):** Since $\Delta x$ is directly proportional to $L$, decreasing $L$ will decrease $\Delta x$. This is incorrect.
+*   **B. Decrease the wavelength ($\lambda$):** Since $\Delta x$ is directly proportional to $\lambda$, decreasing $\lambda$ will decrease $\Delta x$. This is incorrect.
+*   **C. Decrease the slit separation ($d$):** Since $\Delta x$ is inversely proportional to $d$, decreasing the denominator ($d$) will mathematically **increase** the value of $\Delta x$. **This is the correct action.**
+*   **D. Decrease the slit width:** The slit width affects the intensity distribution (diffraction envelope) but does not change the fringe separation $\Delta x$ in the standard Young's double-slit model. This is incorrect.
+
+Therefore, decreasing the slit separation $d$ causes the interference pattern to spread out, resulting in a larger distance between the dark bands.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

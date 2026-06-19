@@ -1,0 +1,22 @@
+To solve this problem, we must understand the relationship between the motor speed and the torque produced by a DC motor powered by a constant external EMF ($V$).
+
+### Physics Principles
+1.  **Back EMF:** As a DC motor spins, the coil induces a back EMF ($\varepsilon$) that opposes the supply voltage. The back EMF is directly proportional to the angular velocity ($\omega$) of the motor: $\varepsilon = k\omega$.
+2.  **Armature Current:** The net voltage across the armature resistance ($R$) is $V - \varepsilon$. By Ohm’s Law, the current ($I$) is:
+    $$I = \frac{V - \varepsilon}{R} = \frac{V - k\omega}{R}$$
+3.  **Torque:** The torque ($\tau$) produced by the motor is proportional to the current flowing through the coil: $\tau = kI$. 
+4.  **Combining the Equations:**
+    $$\tau = k \left( \frac{V - k\omega}{R} \right)$$
+    $$\tau = \frac{kV}{R} - \frac{k^2}{R}\omega$$
+
+### Analysis
+The equation $\tau = \frac{kV}{R} - \frac{k^2}{R}\omega$ shows that the relationship between torque ($\tau$) and angular velocity ($\omega$) is **linear** with a negative gradient.
+*   At **stationary** ($\omega = 0$), the torque is at its maximum value: $\tau_{max} = \frac{kV}{R}$.
+*   At **maximum operating speed**, the motor reaches a point where the back EMF almost equals the supply voltage, causing the current (and thus the torque) to drop toward zero.
+
+Graph **A** is the only one that represents a linear decrease in torque as the motor speed increases, reflecting the relationship derived from the back EMF effect in a DC motor.
+
+**Answer:** The correct graph is **A**.
+
+###QUESTION_TYPE
+Multiple choice

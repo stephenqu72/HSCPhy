@@ -1,0 +1,37 @@
+To calculate the output voltage $V_{out}$, we need to use Faraday's Law of Induction applied to the primary coil to find the input voltage $V_{in}$, and then use the transformer turns ratio to find $V_{out}$.
+
+### 1. Calculate the Peak Primary Voltage ($V_{p}$)
+Faraday's Law states that the induced electromotive force (EMF) is equal to the rate of change of magnetic flux linkage:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+For an AC source, the flux varies sinusoidally: $\Phi(t) = \Phi_{max} \sin(\omega t)$, where $\omega = 2\pi f$.
+The EMF (voltage) is the derivative:
+$$V(t) = -N \frac{d\Phi}{dt} = -N \Phi_{max} \omega \cos(\omega t)$$
+The peak voltage $V_{p}$ is therefore:
+$$V_{p} = N \cdot \Phi_{max} \cdot 2\pi f$$
+
+Given:
+- $N = 100$ turns
+- $\Phi_{max} = 0.5$ Wb
+- $f = 50$ Hz
+
+$$V_{p} = 100 \times 0.5 \times 2 \times \pi \times 50$$
+$$V_{p} = 15,707.96 \text{ V}$$
+
+### 2. Calculate $V_{out}$
+For an ideal transformer, the ratio of voltages is equal to the ratio of turns:
+$$\frac{V_{out}}{V_{in}} = \frac{N_{out}}{N_{in}}$$
+Since $V_{in}$ is at its peak, $V_{out}$ will also be at its peak.
+$$V_{out} = V_{in} \times \frac{N_{out}}{N_{in}}$$
+$$V_{out} = 15,707.96 \times \frac{200}{100}$$
+$$V_{out} = 15,707.96 \times 2 = 31,415.93 \text{ V}$$
+
+**Final Answer:**
+Assuming the input voltage refers to the peak value calculated from the flux change, the peak output voltage is approximately **31,416 V**.
+
+### Summary of Steps
+1. **Identify the relationship between flux and voltage:** Use the peak EMF formula derived from Faraday’s law: $V_{peak} = N \omega \Phi_{max}$.
+2. **Calculate Primary Voltage:** Substitute the values for the primary coil ($N=100$) into the formula.
+3. **Apply Transformer Equation:** Use the turns ratio $\frac{N_s}{N_p} = \frac{200}{100} = 2$ to scale the primary voltage to the secondary voltage.
+
+###QUESTION_TYPE
+Calculation question

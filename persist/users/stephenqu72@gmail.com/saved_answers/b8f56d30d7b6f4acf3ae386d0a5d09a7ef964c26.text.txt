@@ -1,0 +1,28 @@
+To solve this problem, we first identify the given parameters:
+- Number of turns $N = 50$
+- Height $h = 0.10 \text{ m}$
+- Width $w = 0.06 \text{ m}$
+- Area $A = h \times w = 0.006 \text{ m}^2$
+- Magnetic field $B = 4.0 \times 10^{-5} \text{ T}$
+
+### Part a: Calculate the magnetic flux through the coil
+The magnetic flux $\Phi$ through a single turn is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the magnetic field and the normal to the coil. In the diagram, the coil is parallel to the field lines, meaning the normal is at $90^\circ$ to the field.
+$$\Phi = BA \cos(90^\circ) = 0 \text{ Wb}$$
+
+### Part b: Determine the torque on the coil
+Torque $\tau$ is given by $\tau = NIAB \sin(\phi)$, where $\phi$ is the angle between the normal to the coil and the magnetic field. In the diagram, the normal is perpendicular to the field ($\phi = 90^\circ$), so $\sin(90^\circ) = 1$.
+Given $I = 0.50 \text{ A}$:
+$$\tau = 50 \times 0.50 \times 0.006 \times 4.0 \times 10^{-5} = 6.0 \times 10^{-6} \text{ Nm}$$
+
+### Part c: Calculate the induced potential at terminal $P$
+1. **Determine the angular position:** $\omega = 2\pi f = 2\pi(5) = 10\pi \text{ rad/s}$.
+   At $t = 0.050 \text{ s}$, the angle rotated is $\theta = \omega t = 10\pi \times 0.050 = 0.5\pi \text{ radians}$ ($90^\circ$).
+2. **Induced EMF:** The flux linkage is $\lambda = NBA \cos(\omega t)$. The induced EMF $\varepsilon = -\frac{d\lambda}{dt} = NBA\omega \sin(\omega t)$.
+   Substituting the values:
+   $$\varepsilon = 50 \times (4.0 \times 10^{-5}) \times 0.006 \times 10\pi \times \sin(0.5\pi)$$
+   $$\varepsilon = 1.2 \times 10^{-5} \times 10\pi \times 1 = 1.2\pi \times 10^{-4} \approx 3.77 \times 10^{-4} \text{ V}$$
+3. **Polarity:** At $t=0$, the flux is zero and increasing. Using Lenz's Law/Right-hand rule, as the coil rotates $90^\circ$, it cuts through the field lines. Based on the rotation and flux change, $P$ becomes positive relative to $Q$.
+   Result: $+3.77 \times 10^{-4} \text{ V}$.
+
+###QUESTION_TYPE
+Calculation question

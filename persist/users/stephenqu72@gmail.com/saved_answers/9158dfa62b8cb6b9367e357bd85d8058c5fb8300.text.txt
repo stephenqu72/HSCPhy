@@ -1,0 +1,33 @@
+To determine the correct output voltage graph, we use the transformer equation:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+### Step 1: Identify the given values
+*   Primary turns ($N_p$) = $400$
+*   Secondary turns ($N_s$) = $100$
+*   Peak primary voltage ($V_{p,peak}$) from the input graph = $1.0\text{ V}$
+
+### Step 2: Calculate the transformation ratio
+The ratio of secondary voltage to primary voltage is:
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p} = \frac{100}{400} = \frac{1}{4} = 0.25$$
+
+This means the output voltage will be exactly one-quarter of the input voltage.
+
+### Step 3: Determine the peak output voltage
+$$V_{s,peak} = 0.25 \times V_{p,peak} = 0.25 \times 1.0\text{ V} = 0.25\text{ V}$$
+
+### Step 4: Analyze the features of the output graph
+1.  **Amplitude:** The graph must show a peak voltage of $0.25\text{ V}$.
+2.  **Frequency:** Transformers do not change the frequency of the AC signal, so the periodicity must match the input graph (the input has 4 cycles in 4 units of time, so the output must also have 4 cycles in 4 units).
+3.  **Phase:** Transformers do not introduce a phase shift unless specifically configured to do so; therefore, the wave should start at zero and go positive, matching the input.
+
+**Evaluating the options:**
+*   **Graph A:** Has a peak amplitude of $0.25\text{ V}$ and starts at $0$ going positive. This matches our calculations.
+*   **Graph B:** Has a phase shift (starts at negative peak).
+*   **Graph C:** Maintains the same amplitude ($1.0\text{ V}$) as the input.
+*   **Graph D:** Indicates a step-up transformer (amplitude is $4.0\text{ V}$).
+
+The correct graph is **A**.
+
+###QUESTION_TYPE
+Multiple choice

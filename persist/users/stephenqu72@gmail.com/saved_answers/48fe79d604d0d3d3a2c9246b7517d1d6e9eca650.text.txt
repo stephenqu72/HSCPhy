@@ -1,0 +1,32 @@
+To answer this question effectively for an HSC Physics exam, you need to link the physical phenomenon of electromagnetic induction (Faraday's Law) to a practical experimental setup.
+
+### Answer
+
+**1. Equipment:**
+*   A solenoid (coil of wire).
+*   A strong bar magnet.
+*   A data logger or a cathode-ray oscilloscope (CRO) to measure and record the induced voltage (EMF).
+*   Connecting wires.
+
+**2. Procedure:**
+1.  Connect the solenoid to the data logger/CRO to monitor the induced voltage over time.
+2.  Hold the bar magnet some distance away from the solenoid.
+3.  Move the magnet toward the solenoid at a steady velocity until it passes completely through the centre of the coil.
+4.  Once the magnet has exited the coil, allow it to continue moving away from the coil.
+
+**3. Justification:**
+*   **Faraday’s Law:** States that the induced EMF is proportional to the rate of change of magnetic flux ($$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$). 
+*   **First Peak (Positive):** As the magnet approaches, the magnetic flux through the coil increases. According to Lenz's Law, the induced current creates a magnetic field to oppose the motion, resulting in a positive voltage pulse.
+*   **Zero Crossing:** When the magnet is exactly in the centre of the coil, the magnetic flux is at a maximum; therefore, the rate of change of flux is zero, resulting in zero induced voltage.
+*   **Second Peak (Negative):** As the magnet moves away, the magnetic flux decreases. The induced EMF reverses direction to oppose the change, resulting in a negative voltage pulse of equal or greater magnitude (depending on the exit speed).
+
+---
+
+### How to solve this type of question:
+*   **Identify the physics:** Recognize the graph as the classic signature of a magnet moving through a coil.
+*   **Structure your response:** The prompt asks for three distinct things: *equipment*, *procedure*, and *justification*. Use headings or clear bullet points to ensure you address all 5 marks.
+*   **Use terminology:** HSC markers look for specific keywords: "rate of change of magnetic flux," "induced EMF," "Lenz’s Law," and "solenoid."
+*   **Justification linkage:** Always link the physical shape of the graph to the theory. For example, explain why the voltage is zero in the middle (flux is stationary) and why the polarities flip (Lenz's Law/change in direction of flux change).
+
+###QUESTION_TYPE
+Experimental questions

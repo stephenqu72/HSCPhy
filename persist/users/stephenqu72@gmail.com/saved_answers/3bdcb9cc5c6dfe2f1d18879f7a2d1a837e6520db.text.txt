@@ -1,0 +1,25 @@
+To determine the correct graph for the induced electromotive force (EMF), we must apply Faraday’s Law of Induction.
+
+### The Physics Principles
+Faraday's Law states that the induced EMF ($\varepsilon$) in a circuit is proportional to the negative rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = - \frac{d\Phi}{dt}$$
+
+In terms of calculus, the induced EMF is the **negative gradient** (negative slope) of the magnetic flux-time graph.
+
+### Step-by-Step Analysis
+1.  **Analyze the Slope of the Flux Graph:**
+    *   **At $t=0$:** The flux is at a negative minimum. The slope of the curve is zero (a horizontal tangent). Therefore, the EMF should be $0$.
+    *   **Between $t=0$ and the first dashed line:** The flux is increasing (becoming less negative). The slope is positive. Since EMF is the *negative* slope, the EMF must start at $0$ and move into the **negative** region.
+    *   **At the first dashed line:** The flux passes through $0$ with its steepest positive slope. The negative of a steep positive slope is a steep negative value for EMF.
+    *   **At the middle peak:** The flux is at a positive maximum. The slope is zero, so the EMF must be $0$.
+    *   **Between the peak and the next dashed line:** The flux is decreasing (becoming less positive). The slope is negative. The negative of a negative slope is a **positive** value for EMF.
+
+2.  **Evaluating the Options:**
+    *   We are looking for a graph that starts at $0$ (at $t=0$), goes negative, reaches a minimum, returns to $0$ at the peak of the flux, and then goes positive.
+    *   **Graph (A)** fits this description perfectly: it starts at $0$, dips into the negative region, returns to $0$ exactly at the halfway mark of the revolution, and moves into the positive region.
+
+**Conclusion:**
+Graph (A) correctly represents the derivative relationship where $\varepsilon = - \frac{d\Phi}{dt}$.
+
+###QUESTION_TYPE
+Multiple choice

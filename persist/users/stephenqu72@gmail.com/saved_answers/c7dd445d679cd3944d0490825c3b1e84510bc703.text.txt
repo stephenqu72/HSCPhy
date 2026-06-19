@@ -1,0 +1,17 @@
+To solve this question, we must apply the principles of **chromatic aberration** in lenses, which is caused by the dispersion of light.
+
+### Explanation
+
+1.  **Refractive Index and Wavelength:** The refractive index ($n$) of a glass lens is wavelength-dependent. According to Cauchy's equation, shorter wavelengths (violet light) experience a higher refractive index than longer wavelengths (red light).
+2.  **Degree of Refraction:** Because $n_{violet} > n_{red}$, the lens bends violet light more strongly than red light. Consequently, violet light has a shorter focal length and converges closer to the lens, while red light has a longer focal length and converges further away.
+3.  **Analyzing the Diagram:**
+    *   Look at the top set of rays (K, L, M): The ray that bends the "steepest" towards the principal axis is the one that converges first. As we move from the lens to the focal point, the violet light is the innermost ray, followed by green, and then red (which bends the least). Therefore, K is **Violet (V)**, L is **Green (G)**, and M is **Red (R)**.
+    *   Look at the bottom set of rays (N, O, P): Due to the symmetry of the lens, the same logic applies. The ray that crosses the axis closest to the lens is the most refracted (violet), and the ray that crosses furthest is the least refracted (red). Thus, N is **Violet (V)**, O is **Green (G)**, and P is **Red (R)**.
+
+Matching this pattern (K=V, L=G, M=R, N=V, O=G, P=R) to the given options, we find it corresponds exactly to **Option C**.
+
+### Answer
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

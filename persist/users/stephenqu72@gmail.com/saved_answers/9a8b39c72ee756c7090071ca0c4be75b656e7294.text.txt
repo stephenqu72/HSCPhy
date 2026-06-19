@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(D) Energy**.
+
+### Explanation
+To understand why Lenz's Law is a consequence of the conservation of energy, consider what would happen if the law did not exist.
+
+1.  **Lenz's Law defined:** Lenz’s Law states that the direction of an induced current is such that it opposes the change in magnetic flux that produced it. Mathematically, this is represented by the negative sign in Faraday's Law:
+    $$\varepsilon = - \frac{d\Phi_B}{dt}$$
+
+2.  **The "What if" scenario:** Imagine we move a magnet toward a coil. If the induced current were to *assist* the change in magnetic flux rather than *oppose* it, the magnetic force would pull the magnet toward the coil even faster. 
+
+3.  **The violation of energy:** In this hypothetical scenario, the magnet would accelerate without any external work being done, and the resulting current would increase, generating even more force. This would create a "runaway" system that generates infinite kinetic and electrical energy from nothing.
+
+4.  **Conclusion:** Because the universe does not allow for the creation of energy from nothing, the induced current must create a magnetic field that opposes the motion of the magnet. This requires an external force to do work to move the magnet, effectively converting mechanical work into electrical energy. Therefore, Lenz's Law is essentially the application of the **Law of Conservation of Energy** to electromagnetic induction.
+
+###QUESTION_TYPE
+Multiple choice

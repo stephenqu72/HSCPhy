@@ -1,0 +1,8 @@
+### Front
+If two objects fall at a **constant speed** through a fluid where $F_{drag} \propto m$, how do their net forces and resistive forces compare?
+
+### Back
+- Key idea: Constant velocity implies zero acceleration ($a=0$), meaning $F_{net}$ is identical (zero) for both, even if the magnitude of drag changes.
+- Formula / law / constant / figure: Newton's 1st Law ($F_{net}=0$) and proportionality ($F_{drag} = km$).
+- When to use it: Analyzing terminal velocity or steady-state motion in fluids.
+- Common trap: Assuming that a larger mass results in a larger net force (the net force remains zero as long as speed is constant).

@@ -1,0 +1,23 @@
+This problem explores the **Faraday Disc Generator** (also known as a Faraday homopolar generator). To solve these questions, we apply the principles of electromagnetic induction, specifically the Lorentz force on free electrons in a conductor moving through a magnetic field.
+
+### Part a) Eddy Currents
+**Answer:** The eddy currents flow radially outward from the axle (the center) towards the rim of the disc within the region of the magnetic field.
+**Explanation:** 
+1. **Mechanism:** As the metal disc rotates through the uniform magnetic field, the free electrons in the metal experience a magnetic force ($F = qvB$). 
+2. **Direction:** Using the Right-Hand Rule (remembering that electrons have a negative charge, so they move opposite to the direction indicated by the fingers), as the disc spins counter-clockwise through the field (which points out of the page), electrons are pushed towards the center (axle). This creates an excess of positive charge at the rim and negative charge at the axle. 
+3. **Formation:** These radial paths of charge displacement are "eddy" currents caused by the changing flux linkages or, more specifically, the Lorentz force acting on the charge carriers moving through a stationary magnetic field.
+
+---
+
+### Part b) Direction of current in the external circuit
+**Answer:** The current flows from **Y to X**.
+
+**Explanation:**
+1. **Lorentz Force:** Inside the disc, the free electrons are pushed toward the center (axle) due to the magnetic force acting on the charges moving through the magnetic field $B$. 
+2. **Polarity:** Because electrons accumulate at the axle, Brush X (connected to the axle) becomes the **negative terminal**. Consequently, the rim of the disc (where there is a relative deficiency of electrons) becomes the **positive terminal** connected to Brush Y.
+3. **External Flow:** In any circuit, conventional current flows from the positive terminal to the negative terminal. Therefore, the current travels from the positive rim (Brush Y) through the external globe to the negative axle (Brush X). Thus, the current flows from **Y to X**.
+
+---
+
+###QUESTION_TYPE
+Short answer

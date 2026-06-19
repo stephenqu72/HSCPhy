@@ -1,0 +1,26 @@
+To determine the correct graph for the induced electromotive force (EMF), we must apply **Faraday’s Law of Induction**, which states that the induced EMF ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi$):
+
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+Since magnetic flux $\Phi = BA \cos(\theta)$, and given the area ($A$) of the coil is constant and the plane is perpendicular to the field ($\theta = 0^\circ$, so $\cos(0) = 1$), the change in flux is due solely to the change in magnetic field strength ($B$):
+
+$$\varepsilon = -NA \frac{\Delta B}{\Delta t}$$
+
+### Step-by-Step Analysis:
+
+1.  **Interval $0 < t < 2$:** The magnetic field $B$ is constant. Therefore, the rate of change $\frac{\Delta B}{\Delta t} = 0$, meaning the induced **EMF is $0$**.
+2.  **Interval $2 < t < 4$:** The magnetic field $B$ is decreasing at a constant rate (the slope of the $B$ vs $t$ graph is negative). Since the slope is negative, $-\frac{\Delta B}{\Delta t}$ is positive. Therefore, the **EMF is a constant positive value**.
+3.  **Interval $4 < t < 6$:** The magnetic field $B$ is increasing at a constant rate (the slope is positive). Since the slope is positive, $-\frac{\Delta B}{\Delta t}$ is negative. Therefore, the **EMF is a constant negative value**. Note that the slope in this interval is less steep than the previous interval, meaning the magnitude of the negative EMF should be smaller than the magnitude of the previous positive EMF.
+4.  **Interval $6 < t < 8$:** The magnetic field $B$ is constant. Therefore, the **EMF is $0$**.
+
+### Conclusion:
+Looking at the options, we need a graph that shows:
+*   $0$ EMF from $0$ to $2$ seconds.
+*   A positive constant EMF from $2$ to $4$ seconds.
+*   A smaller (in magnitude) negative constant EMF from $4$ to $6$ seconds.
+*   $0$ EMF from $6$ to $8$ seconds.
+
+Graph **(D)** matches this description perfectly.
+
+###QUESTION_TYPE
+Multiple choice

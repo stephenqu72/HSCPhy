@@ -1,0 +1,30 @@
+To find the wavelength of the light, we use the diffraction grating formula:
+
+$$d \sin(\theta) = n\lambda$$
+
+### 1. Identify the given variables:
+*   **Order ($n$):** The problem states this is a second-order maximum, so $n = 2$.
+*   **Angle ($\theta$):** $45^\circ$.
+*   **Grating spacing ($d$):** The grating has 5000 lines per centimeter. First, convert this to lines per meter:
+    $$5000 \text{ lines/cm} = 500,000 \text{ lines/m} = 5 \times 10^5 \text{ lines/m}$$
+    The spacing $d$ is the inverse of the number of lines per unit length:
+    $$d = \frac{1}{5 \times 10^5 \text{ m}^{-1}} = 2 \times 10^{-6} \text{ m}$$
+
+### 2. Rearrange the formula to solve for wavelength ($\lambda$):
+$$\lambda = \frac{d \sin(\theta)}{n}$$
+
+### 3. Substitute the values:
+$$\lambda = \frac{(2 \times 10^{-6} \text{ m}) \times \sin(45^\circ)}{2}$$
+
+Since $\sin(45^\circ) \approx 0.7071$:
+$$\lambda = \frac{(2 \times 10^{-6}) \times 0.7071}{2}$$
+$$\lambda = 1 \times 10^{-6} \times 0.7071 \text{ m}$$
+$$\lambda = 0.7071 \times 10^{-6} \text{ m}$$
+
+### 4. Convert to nanometers ($1 \text{ nm} = 10^{-9} \text{ m}$):
+$$\lambda = 707.1 \times 10^{-9} \text{ m} = 707.1 \text{ nm}$$
+
+Comparing this to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

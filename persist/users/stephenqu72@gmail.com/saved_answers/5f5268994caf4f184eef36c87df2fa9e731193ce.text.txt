@@ -1,0 +1,40 @@
+### Answer
+The correct answer is **B**.
+
+---
+
+### Explanation
+
+To solve this problem, we need to understand how the frequency ($f$) of rotation affects the induced electromotive force (EMF) in an AC generator. The induced voltage $\varepsilon$ in a rotating coil is given by the formula derived from Faraday’s Law:
+
+$$\varepsilon = NBA\omega \sin(\omega t)$$
+
+Where:
+- $N$ is the number of turns.
+- $B$ is the magnetic field strength.
+- $A$ is the area of the coil.
+- $\omega$ is the angular velocity, where $\omega = 2\pi f$.
+
+**1. Effect on Amplitude (Peak Voltage):**
+The peak voltage ($\varepsilon_{max}$) is equal to $NBA\omega$. Since $\omega = 2\pi f$, we can write:
+$$\varepsilon_{max} = NBA(2\pi f)$$
+This shows that the peak voltage is directly proportional to the frequency of rotation. 
+- Original frequency ($f_1$) = $50\text{ rev/s}$
+- New frequency ($f_2$) = $25\text{ rev/s}$
+Since the frequency is halved ($f_2 = 0.5f_1$), the new peak voltage will also be halved. In the original graph, the peak voltage is $1$. In the new graph, the peak voltage must be $0.5$.
+
+**2. Effect on Period (Horizontal scaling):**
+The period ($T$) of the wave is the inverse of the frequency ($T = 1/f$).
+- Original frequency ($f_1$) = $50\text{ Hz}$
+- New frequency ($f_2$) = $25\text{ Hz}$
+Since the frequency is halved, the period must double ($T_2 = 2T_1$). This means the wave will oscillate half as fast, stretching the graph horizontally to be twice as wide for each cycle.
+
+**Conclusion:**
+By comparing the options, we look for a graph where:
+- The peak amplitude is $0.5$ (half of the original $1$).
+- The wavelength (period) is doubled (one full cycle takes twice as long).
+
+Graph **B** shows an amplitude of $0.5$ and a wave that is stretched out to half the frequency, matching our calculated requirements.
+
+###QUESTION_TYPE
+Multiple choice

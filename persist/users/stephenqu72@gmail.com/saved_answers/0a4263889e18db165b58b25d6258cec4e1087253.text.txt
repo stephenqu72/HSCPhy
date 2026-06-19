@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **A. The disc would slow to a stop within a few seconds.**
+
+### Explanation
+This phenomenon is a classic application of **Lenz's Law** and the creation of **eddy currents**. Here is the step-by-step physical breakdown:
+
+1.  **Induction of Eddy Currents:** As the conductive copper disc rotates through the region of the permanent magnet, the magnetic flux through specific portions of the disc changes. According to **Faraday's Law of Induction**, this changing magnetic flux induces an electromotive force (EMF) within the disc.
+2.  **Formation of Eddy Currents:** Because the copper disc is a conductor, this induced EMF causes localized loops of current to flow within the material, known as **eddy currents**.
+3.  **Lenz's Law:** Lenz's Law states that the direction of the induced current is such that it creates a magnetic field which opposes the change in magnetic flux that produced it. Effectively, these eddy currents create magnetic poles that interact with the permanent magnet.
+4.  **Magnetic Braking:** The interaction between the magnetic field of the eddy currents and the permanent magnet results in a **Lorentz force** that acts in the opposite direction to the rotation of the disc. This is effectively a "magnetic brake."
+5.  **Conclusion:** Unlike friction, which might take a long time to dissipate kinetic energy in a well-lubricated bearing, this magnetic braking force is significant when the disc is spinning at a high rate. The kinetic energy of the disc is rapidly converted into thermal energy (heat) within the disc due to the resistance of the copper, causing the disc to decelerate rapidly and come to a stop within a few seconds.
+
+---
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the distance of the $n^{th}$ order bright fringe (maxima) from the central maximum in Young's double-slit experiment?
+
+### Back
+- **Key idea:** Calculating the position of constructive interference fringes using the small-angle approximation.
+- **Formula / law / constant / figure:** $x_n = \frac{n \lambda L}{d}$
+- **When to use it:** When you need to find the distance ($x_n$) from the central maximum to a specific order ($n$), given wavelength ($\lambda$), slit separation ($d$), and screen distance ($L$).
+- **Common trap:** Forgetting to convert all units to metres (m) before calculation (e.g., converting $\text{nm}$ to $10^{-9}\text{ m}$ and $\text{mm}$ to $10^{-3}\text{ m}$).

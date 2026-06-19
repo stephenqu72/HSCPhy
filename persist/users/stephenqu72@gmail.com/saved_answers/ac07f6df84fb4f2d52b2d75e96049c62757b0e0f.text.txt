@@ -1,0 +1,32 @@
+### Answer
+
+**a. Direction in side $KL$:** The current flows from **$L$ to $K$**.
+**Justification:** In Position 1, side $KL$ is moving upwards (as indicated by the clockwise rotation arrow). According to the motor effect, a force acts on the current-carrying wire. Using the right-hand grip rule/motor rule, with the magnetic field pointing to the right and the force acting upwards, the current must flow from $L$ to $K$ to produce an upward magnetic force (using the right-hand palm rule: fingers point to the magnetic field, thumb points to the current, palm faces the direction of force).
+
+**b. Direction in side $KL$:** The current flows from **$K$ to $L$**.
+**Justification:** The function of the split-ring commutator is to reverse the direction of the current in the coil every half-turn (when the coil passes through the vertical position) to ensure the coil continues rotating in the same direction. Since Position 3 is the reverse of Position 1, the current must flow in the opposite direction.
+
+**c. Calculation:**
+Given:
+$F = 0.15\text{ N}$
+$L = 0.10\text{ m}$
+$B = 0.5\text{ T}$
+$\theta = 90^\circ$ (the side is perpendicular to the field)
+
+The formula for magnetic force is:
+$$F = BIL \sin(\theta)$$
+Rearranging for $I$:
+$$I = \frac{F}{BL \sin(90^\circ)}$$
+$$I = \frac{0.15}{0.5 \times 0.10 \times 1}$$
+$$I = \frac{0.15}{0.05} = 3.0\text{ A}$$
+The magnitude of the current is **$3.0\text{ A}$**.
+
+---
+
+### How to solve this
+1.  **For part (a):** Visualize the motor effect. The "motor rule" (or right-hand palm rule) relates force ($F$), magnetic field ($B$), and current ($I$). Since we know the coil rotates clockwise, the side $KL$ must be experiencing an upward force. Align your fingers to the right ($B$) and your palm upward ($F$); your thumb will naturally point from $L$ toward $K$.
+2.  **For part (b):** Remember the core purpose of a DC motor's commutator. It reverses the current direction every $180^\circ$ of rotation to prevent the motor from "locking" and to maintain continuous torque. Therefore, the current direction in a specific segment must be opposite to what it was at the start ($180^\circ$ earlier).
+3.  **For part (c):** Identify the known variables and the relevant formula $F = BIL \sin(\theta)$. Note that when the coil is parallel to the field, the side $KL$ is moving perpendicular to the field lines, meaning $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. Simply substitute and solve for $I$.
+
+###QUESTION_TYPE
+Calculation question

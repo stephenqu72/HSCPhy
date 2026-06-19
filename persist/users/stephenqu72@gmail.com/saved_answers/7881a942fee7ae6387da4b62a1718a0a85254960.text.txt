@@ -1,0 +1,31 @@
+To solve this problem, we use **Faraday’s Law of Induction**, which states that the induced electromotive force ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi$):
+
+$$\varepsilon = - \frac{\Delta \Phi}{\Delta t}$$
+
+This means that the induced emf is proportional to the **negative gradient (slope)** of the magnetic flux-time graph.
+
+### Step-by-Step Analysis:
+
+1.  **Interval 1 (Increasing Flux, Concave Up):**
+    *   The slope of the $\Phi-t$ graph is positive and increasing.
+    *   Since $\varepsilon = -\text{gradient}$, the emf must be negative and its magnitude must be increasing.
+    *   This eliminates options A and B.
+
+2.  **Interval 2 (Constant Flux):**
+    *   The slope of the $\Phi-t$ graph is zero.
+    *   Therefore, the induced emf $\varepsilon$ must be $0$. Both C and D show this.
+
+3.  **Interval 3 (Decreasing Flux, Linear):**
+    *   The slope of the $\Phi-t$ graph is negative and constant.
+    *   Since $\varepsilon = -(\text{negative value})$, the induced emf must be **positive** and constant.
+    *   Looking at the options, graph C shows a positive constant value for the final interval, whereas D shows a positive constant value as well, but we must check the shape of the first curve.
+
+4.  **Refining the Curve:**
+    *   In the first section of the provided graph, the curve is "concave up" (the gradient starts at 0 and gets steeper).
+    *   The negative of this gradient results in an emf graph that starts at 0 and becomes increasingly negative.
+    *   Graph C shows this characteristic correctly, transitioning from 0 to a negative peak, returning to 0, and then jumping to a positive constant value.
+
+**Conclusion:** The correct graph is **C**.
+
+###QUESTION_TYPE
+Multiple choice

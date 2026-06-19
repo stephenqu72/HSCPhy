@@ -1,0 +1,33 @@
+To solve this problem, we apply the principles of electromagnetism related to DC motors.
+
+### Part (a) Calculate the magnitude of the maximum torque
+The torque $\tau$ on a current-carrying loop in a magnetic field is given by the formula:
+$$\tau = nI AB \sin(\theta)$$
+Where:
+- $n = 1$ (since it is a single loop)
+- $I = 14\text{ A}$
+- $A = \text{length} \times \text{width} = 0.10\text{ m} \times 0.07\text{ m} = 0.007\text{ m}^2$
+- $B = 0.40\text{ T}$
+- $\theta$ is the angle between the plane of the loop and the magnetic field (or the angle between the normal to the loop and the field lines). Maximum torque occurs when the plane of the loop is parallel to the magnetic field, so $\sin(90^\circ) = 1$.
+
+**Calculation:**
+$$\tau_{\text{max}} = 1 \times 14 \times 0.007 \times 0.40 \times 1$$
+$$\tau_{\text{max}} = 0.0392\text{ Nm}$$
+
+**Answer:** The magnitude of the maximum torque is $0.0392\text{ Nm}$.
+
+---
+
+### Part (b) Describe how the torque changes
+In the position shown (where the loop is horizontal), the torque is at its maximum because the force exerted on the sides of the loop acts with the maximum possible lever arm. 
+
+As the loop rotates:
+1. The angle $\theta$ between the normal to the coil and the magnetic field lines increases. 
+2. The torque decreases according to the $\sin(\theta)$ component of the formula.
+3. When the loop reaches the vertical position ($90^\circ$ rotation), the plane of the coil is perpendicular to the magnetic field. At this point, the magnetic forces on the sides of the loop act through the axis of rotation, resulting in a **torque of zero**.
+4. As it continues to rotate towards the half-turn mark, the torque increases again until it reaches a maximum in the opposite direction (depending on the commutator's function).
+
+---
+
+###QUESTION_TYPE
+Calculation question

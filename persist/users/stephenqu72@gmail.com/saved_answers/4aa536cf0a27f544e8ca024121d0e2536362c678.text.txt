@@ -1,0 +1,27 @@
+To answer this question, we must look at the fundamental formula for the torque ($\tau$) experienced by a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \sin(\theta)$$
+
+Where:
+- $n$ is the number of turns
+- $I$ is the current
+- $A$ is the area of the coil
+- $B$ is the magnetic field strength
+- $\theta$ is the angle between the magnetic field and the normal to the plane of the coil.
+
+### Explanation:
+1.  **The Formula:** From the equation, we can see that torque is proportional to current ($I$) only if the term $\sin(\theta)$ remains constant at its maximum value. 
+2.  **The Angle Problem:** In a standard uniform magnetic field (e.g., between two flat magnets), as the coil rotates, the angle $\theta$ changes continuously. This causes the torque to vary as the coil rotates, meaning the torque is not consistently proportional to the current throughout the full rotation.
+3.  **The Solution:** By using **curved (concave) pole pieces**, we create a **radial magnetic field**. In a radial magnetic field, the magnetic field lines are always parallel to the plane of the coil regardless of its orientation. This means the angle between the magnetic field and the normal to the coil is always $90^\circ$. 
+4.  **Result:** Since $\sin(90^\circ) = 1$, the torque becomes:
+    $$\tau = nIAB$$
+    Because $n$, $A$, and $B$ are constants, the torque $\tau$ becomes directly proportional to the current $I$ ($ \tau \propto I$) at every position during the coil's rotation.
+
+- (A) The split-ring commutator is responsible for reversing the current direction to ensure continuous rotation, not for the proportionality of the torque.
+- (B) A load does not affect the geometric proportionality of the torque.
+- (D) While the area is constant, it does not ensure the proportionality relative to the changing orientation of the coil.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

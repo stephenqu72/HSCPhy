@@ -1,0 +1,16 @@
+### Answer
+*   **Observer A:** Sees light that appears **reddish** or yellowish-red.
+*   **Observer B:** Sees light that appears **bluish**.
+
+### Explanation
+To solve this problem, we apply the principles of **Rayleigh scattering** and **Mie scattering**.
+
+1.  **Understand the Physics:** The size of the smoke particles ($0.1 \times 10^{-6}\text{ m}$ to $1.0 \times 10^{-6}\text{ m}$) is comparable to the wavelength of visible light ($0.4 \times 10^{-6}\text{ m}$ to $0.7 \times 10^{-6}\text{ m}$). This causes light to scatter as it passes through the medium.
+2.  **Scattering Mechanics:** Shorter wavelengths (blue/violet light) are scattered much more efficiently by small particles than longer wavelengths (red/orange light).
+3.  **Observer B (Side-on):** Observer B receives the light that has been scattered out of the primary beam. Since blue light is scattered more effectively by these particles, the light reaching Observer B appears **bluish**.
+4.  **Observer A (Directly behind):** Observer A receives the light that has passed *through* the smoke. Because the blue wavelengths have been scattered away from the line of sight by the smoke particles, the remaining transmitted light is depleted of blue and is dominated by the longer wavelengths, making the light appear **reddish** or orange.
+
+This is the same phenomenon that explains why the sky is blue (scattered light) and why the sunset appears red (transmitted light travelling through a thicker atmosphere).
+
+###QUESTION_TYPE
+Data analysis questions

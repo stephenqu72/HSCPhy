@@ -1,0 +1,37 @@
+### Part (a)
+**Answer:**
+A single laser source is used to ensure the light waves originating from the two slits are **coherent**. For a stable interference pattern to form, the light sources must maintain a constant phase relationship over time. 
+
+**Explanation:**
+1.  **Coherence:** Interference requires coherent sources, meaning they must have the same frequency and a constant phase difference. By using a single laser source to illuminate both slits simultaneously, any fluctuations in the laser's phase affect both paths equally, keeping the phase difference constant.
+2.  **Monochromaticity:** Lasers produce monochromatic light (a single wavelength/colour). This is crucial because if multiple wavelengths were present, multiple interference patterns would overlap, resulting in a blurred or white-light spectrum instead of distinct fringes.
+3.  **Why not two sources?** If you used two independent light sources, it would be physically impossible to maintain a constant phase relationship between them, causing the interference fringes to shift randomly and rapidly, making the pattern impossible to observe.
+
+---
+
+### Part (b)
+**Answer:**
+To calculate the wavelength, we use the formula for Young’s double-slit interference:
+$$\Delta x = \frac{\lambda L}{d}$$
+
+**Given data:**
+*   Distance to screen ($L$) = $6\text{ m}$
+*   Slit separation ($d$) = $200\text{ }\mu\text{m} = 200 \times 10^{-6}\text{ m} = 2 \times 10^{-4}\text{ m}$
+*   Distance to first maxima ($\Delta x$) = $6.25\text{ mm} = 6.25 \times 10^{-3}\text{ m}$
+
+**Rearranging the formula for wavelength ($\lambda$):**
+$$\lambda = \frac{\Delta x \cdot d}{L}$$
+
+**Calculation:**
+$$\lambda = \frac{(6.25 \times 10^{-3}\text{ m}) \cdot (2 \times 10^{-4}\text{ m})}{6\text{ m}}$$
+$$\lambda = \frac{12.5 \times 10^{-7}}{6}\text{ m}$$
+$$\lambda \approx 2.0833 \times 10^{-7}\text{ m}$$
+
+**Convert to nanometres ($1\text{ nm} = 10^{-9}\text{ m}$):**
+$$\lambda = 2.0833 \times 10^{-7} \times 10^9\text{ nm}$$
+$$\lambda \approx 208.33\text{ nm}$$
+
+*(Note: While 208 nm is mathematically correct based on the provided numbers, in a real-world physics context, this would be in the ultraviolet range, not visible light.)*
+
+###QUESTION_TYPE
+Calculation question

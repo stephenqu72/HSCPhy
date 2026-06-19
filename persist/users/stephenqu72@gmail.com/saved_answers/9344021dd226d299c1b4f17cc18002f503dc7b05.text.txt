@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+#### Part a) (4 marks)
+**Answer:**
+An AC generator produces current through the principle of electromagnetic induction. As the **coil** is rotated within the uniform magnetic field provided by the **N and S magnets**, the magnetic flux through the coil changes over time. According to Faraday’s Law, this change induces an electromotive force (EMF) in the coil. Because the coil rotates, the side moving through the magnetic field reverses its direction relative to the field every half-turn. This causes the induced current to reverse direction every half-turn, creating an alternating current. The **slip rings** maintain a constant electrical connection between the rotating coil and the external circuit, while the **carbon brushes** ensure the current is transferred to the external circuit (the light bulb) without tangling the wires, allowing the alternating flow of electrons to be maintained.
+
+**How to solve it:**
+To achieve full marks, you must link the physical movement to the induction physics:
+1.  **Induction:** Mention Faraday’s Law/changing magnetic flux.
+2.  **Rotation:** Explain that the movement of the coil through the magnetic field is what causes the flux to change.
+3.  **Alternation:** Explicitly state that because the coil sides switch their motion relative to the poles every half-cycle, the current direction reverses.
+4.  **Components:** Reference the **slip rings** (crucial for AC as they keep the connection constant, unlike a split-ring commutator) and the **brushes** for external transfer.
+
+---
+
+#### Part b) (3 marks)
+**Answer:**
+1.  **Operating Principle:** A DC motor relies on direct current fed into the armature (coil) via a split-ring commutator to ensure the torque remains unidirectional. In contrast, an AC induction motor operates on the principle of electromagnetic induction: an AC supply creates a rotating magnetic field in the stator, which induces eddy currents in the rotor (squirrel cage), creating a force that causes the rotor to "chase" the field.
+2.  **Commutation:** A DC motor requires a physical connection (brushes and commutator) to the moving rotor to reverse the current. An AC induction motor requires no physical contact between the stator and the rotor (brushless).
+3.  **Speed Control:** DC motor speed is typically controlled by varying input voltage, whereas the speed of an AC induction motor is primarily dependent on the frequency of the AC supply and the number of poles in the stator.
+
+**How to solve it:**
+Focus on three distinct points of comparison. For a 3-mark question, clear comparative statements (contrasting the input, the mechanical design, and the method of rotation) are essential.
+
+###QUESTION_TYPE
+Short answer

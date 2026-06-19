@@ -1,0 +1,25 @@
+### Answer
+
+**a. Sketching the Magnetic Field**
+To sketch the magnetic field lines around wires $P$ and $Q$:
+*   **Wire P (Current into the page):** Using the Right-Hand Grip Rule, point your thumb into the page. Your fingers will curl in a **clockwise** direction. Draw concentric circles around wire P with arrows indicating clockwise rotation.
+*   **Wire Q (Current out of the page):** Point your thumb out of the page. Your fingers will curl in a **counter-clockwise** direction. Draw concentric circles around wire Q with arrows indicating counter-clockwise rotation.
+*   *Note:* The lines should be closer together near the wires (stronger field) and show consistent directions as determined by the Grip Rule.
+
+**b. Interaction between the wires**
+The two wires will **repel** each other.
+*   **Reasoning:** According to the Right-Hand Grip Rule, the magnetic field produced by wire P at the location of wire Q points "down" (towards the bottom of the page). Using the Right-Hand Motor Rule (or Fleming’s Left-Hand Rule) on wire Q: if current $I$ is out of the page and the external magnetic field $B$ is downward, the force $F = IlB$ acting on wire Q points to the right (away from P). By Newton’s Third Law, wire P experiences an equal and opposite force to the left. Since the currents are in opposite directions, the resulting Lorentz force is repulsive.
+
+***
+
+### How to solve this type of problem
+1.  **Understand the Right-Hand Grip Rule:** This is your primary tool for direction. If you align your thumb with the current (where $X$ is "in" and $\bullet$ is "out"), your fingers naturally curl in the direction of the magnetic field lines ($B$-field).
+2.  **Field Mapping:** When sketching multiple fields, ensure the lines do not cross. Where field lines from the two wires interact, consider how their vectors add. Because the wires carry currents in opposite directions, the field lines between them point in the same general direction, creating high magnetic pressure, which physically results in repulsion.
+3.  **Applying the Motor Effect Rule:** To determine force, use the Right-Hand Rule (palm rule):
+    *   Point your fingers in the direction of the current.
+    *   Point your palm/fingers in the direction of the external magnetic field ($B$).
+    *   Your extended thumb points in the direction of the force ($F$).
+    *   *Key takeaway:* Parallel wires with currents in the *same* direction attract; parallel wires with currents in *opposite* directions repel.
+
+### QUESTION_TYPE
+Short answer

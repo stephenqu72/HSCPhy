@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The most important component of an AC generator is the **stator/rotor system (the combination of the magnetic field and the rotating coil)** or specifically the **rotating coil (armature)**. Its function is to rotate within a constant magnetic field, causing a continuous change in magnetic flux ($\Phi$) through the coil. According to Faraday’s Law of Induction, this change in flux induces an electromotive force (emf) in the coil.
+
+**Explanation:** To secure the full 2 marks, you must link the physical movement to the electromagnetic principle. Mentioning **Faraday’s Law** ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$) is essential. Explain that as the coil rotates, the angle between the area vector of the coil and the magnetic field lines changes, which changes the flux and generates the voltage.
+
+---
+
+#### Part (b)
+**Answer:** The graph should be a **sine wave**. 
+*   It starts at $(0,0)$.
+*   At $90^\circ$, it reaches a maximum positive peak ($+V_{max}$).
+*   At $180^\circ$, it returns to $0$.
+*   At $270^\circ$, it reaches a maximum negative peak ($-V_{max}$).
+*   At $360^\circ$, it returns to $0$.
+*   Because the question asks for **TWO** revolutions, you must continue this pattern for a second cycle, ending at $720^\circ$.
+
+**Explanation:** 
+1.  **Identify the function:** The induced emf in an AC generator is given by the formula $\varepsilon = \varepsilon_{max} \sin(\omega t)$.
+2.  **Plotting:** Use the table provided in the prompt to plot your points. Since it starts at $0^\circ$ with $0$ emf, it is a classic sine function.
+3.  **Accuracy:** Ensure the amplitude is consistent for both revolutions. The negative peak at $270^\circ$ is crucial—it represents the current flowing in the opposite direction, which is the definition of Alternating Current.
+4.  **Scaling:** Since you need to graph two full revolutions, divide your horizontal axis clearly into segments of $90^\circ$ to ensure the wave is symmetrical and accurate.
+
+---
+
+###QUESTION_TYPE
+Short answer

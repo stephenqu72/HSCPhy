@@ -1,0 +1,33 @@
+To find the magnitude of the electromotive force (emf) produced in the coil, we use **Faraday's Law of Induction**.
+
+### 1. The Physics Principle
+Faraday's Law states that the induced emf ($\varepsilon$) in a coil with $N$ turns is equal to the negative rate of change of magnetic flux ($\Phi$) over time ($t$):
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+Since the question asks for the **magnitude**, we can ignore the negative sign:
+$$|\varepsilon| = N \times \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+
+### 2. Extracting Data from the Graph
+*   **Number of turns ($N$):** $1000$
+*   **Gradient ($\frac{\Delta \Phi}{\Delta t}$):** We calculate the slope of the linear graph.
+    *   At $t = 0 \text{ ms}$, $\Phi = 1 \times 10^{-4} \text{ Wb}$.
+    *   At $t = 5 \text{ ms}$, $\Phi = 3 \times 10^{-4} \text{ Wb}$.
+    *   Change in flux ($\Delta \Phi$) = $(3 - 1) \times 10^{-4} \text{ Wb} = 2 \times 10^{-4} \text{ Wb}$.
+    *   Change in time ($\Delta t$) = $5 \text{ ms} = 5 \times 10^{-3} \text{ s}$.
+
+### 3. Calculation
+Calculate the rate of change of flux:
+$$\frac{\Delta \Phi}{\Delta t} = \frac{2 \times 10^{-4} \text{ Wb}}{5 \times 10^{-3} \text{ s}} = 0.4 \times 10^{-1} \text{ Wb/s} = 0.04 \text{ Wb/s}$$
+
+Now, multiply by the number of turns ($N = 1000$):
+$$|\varepsilon| = 1000 \times 0.04 \text{ V} = 40 \text{ V}$$
+
+Comparing this result to the given options:
+(A) 0.04 V
+(B) 0.06 V
+(C) 40 V
+(D) 60 V
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

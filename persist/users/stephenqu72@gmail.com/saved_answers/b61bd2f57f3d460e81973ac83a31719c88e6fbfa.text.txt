@@ -1,0 +1,25 @@
+To solve this question, we must understand the mechanics of a DC motor and how torque and force vary as the coil rotates through the magnetic field.
+
+### Part (a): Torque vs. Time
+The torque on a DC motor coil is given by $\tau = nIAB \sin(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field. As the motor spins at a constant rate, $\theta = \omega t$.
+1.  **Period ($T$):** The motor spins at $f = 120$ revolutions per second. Therefore, $T = \frac{1}{120}$ seconds.
+2.  **Function:** The torque follows the absolute value of a sine wave (or a rectified sine wave), because the commutator reverses the current to ensure the torque remains in the same rotational direction. The graph should start at $0$ (at $t=0$), reach a maximum of $125\ Nm$ at $T/4$, return to $0$ at $T/2$, reach $125\ Nm$ at $3T/4$, and return to $0$ at $T$.
+
+**Drawing:** Draw a series of "humps" (like a rectified sine wave) where the peak value is $125$ and the period is $\frac{1}{120}\ s$.
+
+### Part (b): Force vs. Time
+The force on one side of a coil is given by $F = IlB \sin(\theta)$, where $\theta$ is the angle between the conductor and the magnetic field.
+1.  **Relationship:** Unlike torque, the force on a specific side of the coil changes direction as the motor rotates, because the commutator reverses the current.
+2.  **Shape:** The graph is a standard sine wave: $F(t) = F_{max} \sin(2\pi ft)$.
+3.  **Calculation:** We need the maximum force. Since $\tau_{max} = 2 \times (F_{side} \times r)$, where $r$ is the distance from the axis, we relate it to the coil dimensions. For a square coil of area $A = 10\ cm^2 = 0.001\ m^2$, side length $s = \sqrt{0.001} \approx 0.0316\ m$. 
+    $\tau = nIAB \sin\theta$. Max torque $\tau = 125 = 10 \cdot I \cdot (0.001) \cdot (0.0125)$. 
+    *Note:* In an HSC exam context, if parameters seem physically inconsistent (e.g., this torque value is extremely high for this field/area), focus on the **graphical representation**: draw a smooth sine wave oscillating between positive and negative maximums.
+
+**Drawing:** Draw a sine wave with a period of $\frac{1}{120}\ s$. The peak value will be $F_{max} = \frac{\tau_{max}}{n \cdot s} = \frac{125}{10 \cdot 0.0316} \approx 395\ N$. The graph must cross the x-axis at $t=0, \frac{T}{2}, T, ...$ representing the reversal of force direction.
+
+### Summary for Graphs:
+*   **(a)** Positive rectified sine wave: Peaks at $125$, period $1/120$.
+*   **(b)** Standard sine wave: Oscillates between $+F_{max}$ and $-F_{max}$, period $1/120$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,8 @@
+### Front
+How can you calculate the final velocity of an object in vertical motion if air resistance is negligible?
+
+### Back
+- Key idea: Principle of Conservation of Mechanical Energy (Total energy remains constant).
+- Formula / law / constant / figure: $\frac{1}{2}mv_i^2 + mgh_i = \frac{1}{2}mv_f^2 + mgh_f$
+- When to use it: To find velocity or height changes when non-conservative forces (like friction/drag) are absent.
+- Common trap: Forgetting to assign a negative value to $h$ when the object falls below the initial reference point ($h=0$).

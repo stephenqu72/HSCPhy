@@ -1,0 +1,19 @@
+To answer this question effectively, you need to describe the process of electromagnetic induction step-by-step. Since this is a 6-mark question, you must demonstrate a clear cause-and-effect sequence involving the two coils.
+
+### Answer
+The operation of a wireless charger relies on the principle of electromagnetic induction between the two coils. The process occurs in the following stages:
+
+1.  **Primary Coil (Charger):** An alternating current (AC) is supplied to the coil in the wireless charger. As the current oscillates, it creates a constantly changing magnetic field around the primary coil.
+2.  **Magnetic Coupling:** Because the phone is placed in close proximity to the charger, the changing magnetic field produced by the charger's coil passes through the area of the secondary coil located inside the mobile phone.
+3.  **Secondary Coil (Phone):** According to Faraday's Law of Induction, a changing magnetic flux through a coil induces an electromotive force (EMF) across that coil. Therefore, the alternating magnetic field induces an alternating current in the phone’s secondary coil.
+4.  **Conversion:** The induced AC in the phone's circuit is then rectified and converted into a steady direct current (DC) by the phone's internal circuitry, which is then used to charge the battery.
+
+### How to solve it
+To score full marks on an HSC physics explanation question:
+*   **Use Key Terminology:** Ensure you mention "electromagnetic induction," "alternating current," "changing magnetic flux," and "Faraday's Law."
+*   **Follow the Energy Path:** Structure your answer logically, moving from the energy source (charger) to the energy transfer (magnetic field) and finally the energy reception (phone battery).
+*   **Identify the link:** Explicitly state that the charging relies on the magnetic field linking the two coils, which acts effectively like a transformer with an air gap.
+*   **Be precise:** Note that DC cannot induce a current in the second coil because it would produce a static magnetic field; hence, the *alternating* nature of the current is essential.
+
+###QUESTION_TYPE
+Short answer

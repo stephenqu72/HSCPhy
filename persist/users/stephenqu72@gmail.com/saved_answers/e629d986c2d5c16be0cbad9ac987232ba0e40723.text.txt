@@ -1,0 +1,44 @@
+As a top HSC Physics teacher, I will break down this problem systematically to ensure you understand both the theoretical derivation and the practical application.
+
+### (a) Show that $\epsilon_{\max} = 2\pi f NBA$
+
+To derive this, we start with Faraday’s Law of Induction:
+$$\epsilon = -N \frac{d\Phi_b}{dt}$$
+where the magnetic flux is $\Phi_b = BA \cos(\theta)$. Since the coil rotates at a constant angular velocity $\omega$, we substitute $\theta = \omega t$:
+$$\Phi_b = BA \cos(\omega t)$$
+Differentiating this with respect to time $t$:
+$$\epsilon = -N \frac{d}{dt}(BA \cos(\omega t)) = -NBA (-\omega \sin(\omega t)) = NBA\omega \sin(\omega t)$$
+The maximum emf ($\epsilon_{\max}$) occurs when $\sin(\omega t) = 1$:
+$$\epsilon_{\max} = NBA\omega$$
+Since angular velocity is related to frequency $f$ by $\omega = 2\pi f$, we substitute this into the expression:
+$$\epsilon_{\max} = NBA(2\pi f) = 2\pi f NBA$$
+
+---
+
+### (b) Calculate the maximum emf
+
+**1. Identify the variables:**
+*   $N = 150$ turns
+*   $B = 1.85 \times 10^2 \text{ mT} = 0.185 \text{ T}$
+*   Side length $s = 6.00 \text{ cm} = 0.06 \text{ m}$
+*   Area $A = s^2 = (0.06)^2 = 0.0036 \text{ m}^2$
+*   Frequency $f$: The speed is $240 \text{ rpm}$ (rotations per minute).
+    *   $f = \frac{240}{60} = 4 \text{ Hz}$
+
+**2. Calculation:**
+$$\epsilon_{\max} = 2 \times \pi \times 4 \times 150 \times 0.185 \times 0.0036$$
+$$\epsilon_{\max} \approx 2.506 \text{ V}$$
+
+---
+
+### (c) Sketch the output for doubled speed
+
+When the speed of rotation is doubled, two things happen according to $\epsilon = NBA\omega \sin(\omega t)$:
+1.  **Amplitude doubles:** The peak voltage ($V_{\max}$) goes from $2.0 \text{ V}$ to $4.0 \text{ V}$.
+2.  **Frequency doubles:** The period ($T$) is halved. The original graph shows one full cycle every $0.20 \text{ s}$ ($T = 0.20 \text{ s}$). The new period will be $0.10 \text{ s}$.
+
+**Drawing instructions:** 
+You should sketch a sine wave that reaches a peak of $+4.0 \text{ V}$ and $-4.0 \text{ V}$. In the $0.50 \text{ s}$ window provided, you must draw **5 full cycles** (since the new period is $0.10 \text{ s}$), whereas the original graph shows 2.5 cycles.
+
+###QUESTION_TYPE
+Calculation question

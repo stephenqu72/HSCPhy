@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of electromagnetic induction, specifically Faraday's Law and the definition of magnetic flux.
+
+### 1. Calculate the cross-sectional area of the coil
+Magnetic flux $\Phi$ is defined by the formula:
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+Given that the coil is perpendicular to the field, the angle between the normal to the coil and the field is $0^\circ$ (meaning $\cos(0) = 1$). We rearrange to solve for area $A$:
+$$A = \frac{\Phi}{B}$$
+Given:
+- $\Phi = 8 \times 10^{-4} \text{ Wb}$
+- $B = 2 \times 10^{-1} \text{ T}$
+
+$$A = \frac{8 \times 10^{-4}}{2 \times 10^{-1}} = 4 \times 10^{-3} \text{ m}^2$$
+
+### 2. Calculate the induced EMF
+Faraday's Law states that the average induced EMF ($\varepsilon$) is equal to the negative rate of change of magnetic flux linkage:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+Where:
+- $N = 50$ (number of turns)
+- Initial flux $\Phi_i = 8 \times 10^{-4} \text{ Wb}$
+- When the coil rotates by $180^\circ$, the flux becomes $\Phi_f = -8 \times 10^{-4} \text{ Wb}$
+- $\Delta t = 0.2 \text{ s}$
+
+The change in flux is:
+$$\Delta\Phi = \Phi_f - \Phi_i = -8 \times 10^{-4} - 8 \times 10^{-4} = -16 \times 10^{-4} \text{ Wb}$$
+
+Now, calculate the EMF:
+$$\varepsilon = -50 \times \left( \frac{-16 \times 10^{-4} \text{ Wb}}{0.2 \text{ s}} \right)$$
+$$\varepsilon = 50 \times 8 \times 10^{-3} = 0.4 \text{ V}$$
+
+**Final Answer:**
+- The cross-sectional area of the coil is $4 \times 10^{-3} \text{ m}^2$.
+- The induced EMF is $0.4 \text{ V}$.
+
+###QUESTION_TYPE
+Calculation question

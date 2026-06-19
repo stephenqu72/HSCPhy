@@ -1,0 +1,36 @@
+To solve this problem, we use the conditions for constructive interference in Young's double-slit experiment.
+
+### (a) Determine the wavelength of the light
+
+**1. Identify the formula:**
+For constructive interference, the path difference between light from two slits separated by distance $d$ is given by:
+$$d \sin(\theta) = m\lambda$$
+where $d$ is the slit separation, $\theta$ is the angle of the maximum, $m$ is the order of the maximum, and $\lambda$ is the wavelength.
+
+**2. Extract data from the graph:**
+*   Slit separation $d = 2.0 \times 10^{-4} \text{ m}$.
+*   From the graph, the first-order maximum ($m=1$) occurs at $\theta = 0.2^\circ$.
+
+**3. Perform the calculation:**
+Rearrange the formula to solve for $\lambda$:
+$$\lambda = \frac{d \sin(\theta)}{m}$$
+Substitute the known values:
+$$\lambda = \frac{(2.0 \times 10^{-4} \text{ m}) \times \sin(0.2^\circ)}{1}$$
+$$\lambda \approx (2.0 \times 10^{-4}) \times 0.00349$$
+$$\lambda \approx 6.98 \times 10^{-7} \text{ m} \approx 698 \text{ nm}$$
+
+---
+
+### (b) Effect of moving the slits further apart
+
+**1. Physics principle:**
+The angular spacing between adjacent maxima is given by $\Delta\theta \approx \frac{\lambda}{d}$ (for small angles). If the slits are moved further apart, $d$ increases.
+
+**2. Conclusion:**
+As $d$ increases, the value of $\Delta\theta$ decreases. This means the interference pattern will be "compressed" or more tightly packed. The maxima will appear closer together horizontally on the graph.
+
+**3. Drawing instruction:**
+To represent this, draw a new curve that has more peaks within the same horizontal space. The central maximum at $\theta = 0$ remains in the same position, but subsequent maxima (at $0.1^\circ, 0.2^\circ$, etc.) should be drawn at smaller angular values (e.g., the first maximum would appear at a value less than $0.2^\circ$).
+
+###QUESTION_TYPE
+Calculation question

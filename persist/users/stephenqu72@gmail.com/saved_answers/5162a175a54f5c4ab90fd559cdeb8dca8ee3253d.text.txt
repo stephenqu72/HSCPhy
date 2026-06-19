@@ -1,0 +1,23 @@
+As your HSC Physics teacher, I will guide you through this typical motor-start analysis question.
+
+### Part (a): Graphing the Data
+
+To construct an accurate scientific graph, you must follow these steps:
+1.  **Axes:** Place **Time ($10^{-3}s$)** on the x-axis (horizontal) and **Current ($A$)** on the y-axis (vertical).
+2.  **Scale:** Ensure your axes cover the full range of data. The x-axis should go from $0$ to at least $14$. The y-axis should go from $0$ to at least $30$.
+3.  **Labels:** Clearly label the axes, including units: "Time ($10^{-3}s$)" and "Current ($A$)".
+4.  **Plotting:** Mark the points accurately: $(0, 26), (2, 18), (4, 12), (6, 10), (8, 10), (10, 10), (12, 10), (14, 10)$.
+5.  **Line of Best Fit:** Since this represents a physical process, draw a smooth curve (or straight lines connecting points) showing a rapid initial decrease that levels off to a constant value.
+
+### Part (b): Explaining the Trend
+
+To secure full marks, you must link the physics of a DC motor to the observed data:
+
+*   **Initial High Current ($t=0$):** When the motor is first turned on, the rotor is stationary. There is no **back EMF** ($\varepsilon$) generated because the motor coil is not yet rotating in the magnetic field. According to Ohm’s Law, $I = \frac{V - \varepsilon}{R}$, so when $\varepsilon = 0$, the current is at its maximum ($I = \frac{V}{R}$).
+*   **The Decrease:** As the motor begins to spin, it generates a back EMF that opposes the supply voltage. As the rotational speed increases, the back EMF increases, causing the net potential difference across the armature to decrease, which in turn reduces the current drawn.
+*   **The Plateau:** Eventually, the motor reaches a steady operating speed where the back EMF is constant. The current stabilizes at a lower, steady state because the back EMF is now effectively limiting the current to what is required to maintain the torque needed for the load.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

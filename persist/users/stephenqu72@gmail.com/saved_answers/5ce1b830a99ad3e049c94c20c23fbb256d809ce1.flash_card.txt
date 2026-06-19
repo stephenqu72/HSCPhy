@@ -1,0 +1,8 @@
+### Front
+How can Newton’s Second Law be used to determine the magnitude of a braking force from velocity-time data?
+
+### Back
+- Key idea: Calculate acceleration (deceleration) using the change in velocity over the specific braking duration, then multiply by mass.
+- Formula / law / constant / figure: $F = ma$ (where $a = \frac{v - u}{\Delta t}$)
+- When to use it: When you need to find force or mass involving a change in motion over a known time interval.
+- Common trap: Using the total elapsed time instead of the specific duration of braking ($\Delta t$); also, forgetting that while acceleration is negative during braking, the magnitude of force ($|F|$) is expressed as a positive value.

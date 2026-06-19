@@ -1,0 +1,25 @@
+To determine the correct answer, we must understand the physics of X-ray diffraction, a core component of the HSC Physics curriculum under the "From the Universe to the Atom" (or related modern physics) module.
+
+### Answer
+The correct answer is **(B) The spacing between the atoms of the crystalline solid.**
+
+### Explanation
+X-ray diffraction is a phenomenon that occurs when X-rays interact with a crystalline solid. To solve this, consider the following physical principles:
+
+1.  **The Diffraction Condition:** For significant diffraction to occur, the wavelength of the incident wave ($\lambda$) must be of a similar order of magnitude to the spacing between the scattering centers (the atoms or planes of atoms in the crystal lattice).
+2.  **Bragg's Law:** The diffraction pattern is governed by Bragg's Law, given by the formula:
+    $$n\lambda = 2d \sin\theta$$
+    Where:
+    *   $d$ is the **spacing between the planes of atoms** in the crystal lattice.
+    *   $\theta$ is the angle of incidence/diffraction.
+    *   $n$ is an integer (order of reflection).
+3.  **Analysis of Options:**
+    *   **(A)** The photographic plate is simply the **detector** used to record the interference pattern; it does not cause the diffraction itself.
+    *   **(B)** This is the fundamental cause. The regular arrangement of atoms creates a diffraction grating effect where the separation distance $d$ between atoms determines the constructive interference angles, thus creating the pattern.
+    *   **(C)** While the arrangement is important, it is the specific *interatomic spacing* ($d$) that allows the math of Bragg’s law to result in the constructive interference observed. Option (B) is the most direct physical cause related to the wave interference.
+    *   **(D)** The X-ray beam is the probe used, but it is the structure of the target (the crystal) that dictates how the waves interfere.
+
+Therefore, the geometric spacing between the atoms acts as the "diffraction grating" for the X-rays.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Explanation
+
+1.  **Physics Principles:**
+    *   **Faraday’s Law:** An electromotive force (EMF) is induced in a circuit whenever the magnetic flux ($\Phi = BA \cos \theta$) through the circuit changes.
+    *   **Lenz’s Law:** The direction of the induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+    *   **Magnetic Flux:** The magnetic field $B$ is constant and points into the page. The area $A$ of the coil is changing as it is distorted.
+
+2.  **Horizontal Distortion (Pulling the sides):**
+    *   As the coil is pulled horizontally, its cross-sectional area $A$ **decreases**.
+    *   This leads to a decrease in the magnetic flux ($\Phi$) directed into the page.
+    *   According to **Lenz’s Law**, the induced current must create a magnetic field pointing **into the page** to counteract the loss of inward flux.
+    *   Using the **Right-Hand Grip Rule** (thumb points into the page), the current must flow in a **clockwise** direction. The galvanometer will show a deflection.
+
+3.  **Returning to Circular Shape:**
+    *   As the coil returns to its original circular shape, the area $A$ **increases**.
+    *   This increases the inward magnetic flux. The induced current will create a magnetic field pointing **out of the page** to oppose this increase.
+    *   This results in a **counter-clockwise** current flow, causing the galvanometer to deflect in the opposite direction.
+
+4.  **Vertical Distortion (Pulling the top/bottom):**
+    *   Pulling the coil vertically again decreases the area $A$.
+    *   Similar to the first step, the decreasing inward flux induces a **clockwise** current to maintain the inward flux.
+
+### Summary of Observations
+*   When the area of the coil decreases (horizontal or vertical pulling), there is an induced current in the **clockwise** direction.
+*   When the area of the coil increases (returning to circular), there is an induced current in the **counter-clockwise** direction.
+*   The galvanometer needle will oscillate or deflect in opposite directions corresponding to these changes in shape. No current flows when the shape of the coil is constant (i.e., not moving).
+
+###QUESTION_TYPE
+Short answer

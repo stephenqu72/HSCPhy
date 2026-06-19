@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To understand why **D** is the best choice, we must look at the experimental formula used to calculate the wavelength ($\lambda$) of light using a diffraction grating:
+$$d \sin(\theta) = n\lambda$$
+Where $d$ is the grating spacing, $\theta$ is the angle of diffraction, and $n$ is the order of the fringe. From the geometry of the setup provided in the diagram, $\tan(\theta) = \frac{x}{L}$, where $x$ is the distance measured by the students and $L$ is the distance from the grating to the pin ($1\text{ m}$).
+
+The accuracy of an experimental measurement is often limited by the **relative uncertainty** of the readings. 
+- When measuring the first order ($n=1$), the distance $x$ is small. A small absolute error in positioning the pin $P$ results in a high percentage error.
+- By moving to the second order ($n=2$), the fringe appears at a larger angle, which means the distance $x$ will be significantly larger. Because the absolute uncertainty in your measurement (the ruler's smallest division) remains the same, having a larger measured value for $x$ reduces the percentage (relative) uncertainty of your measurement, thereby improving the overall accuracy.
+
+**Why the other options are incorrect:**
+- **A:** Increasing the voltage changes the intensity of the light, which makes the fringe brighter and easier to see, but it does not inherently reduce the measurement error or increase the precision of the calculation.
+- **B:** Repeating the experiment helps to identify and calculate random errors (by taking an average), but it does not address the fundamental systematic limitation of the precision of the primary measurement like option D does.
+- **C:** Replacing the $1\text{ m}$ rulers with $30\text{ cm}$ rulers would likely decrease accuracy, as it would limit the distance $L$ or the range of $x$ that can be measured.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+Hello! As an HSC Physics teacher, I will walk you through how to tackle this question. This question tests your understanding of **electromotive force (back EMF)** in motors.
+
+### (a) Graphing the data
+To graph this, plot the *Coil speed (rpm)* on the horizontal axis and the *Voltage across coil (V)* on the vertical axis.
+*   Place points at $(0, 12.0)$, $(1000, 11.3)$, $(2000, 10.1)$, $(3000, 9.8)$, $(4000, 9.3)$, $(5000, 8.7)$, and $(6000, 7.6)$.
+*   Draw a line of best fit. Note that it is not a perfectly straight line, but shows a general downward trend.
+
+---
+
+### (b) Explanation and Prediction
+**Physics Principles:**
+When a motor rotates, the coil moves through a magnetic field. According to Faraday’s Law and Lenz’s Law, this induces a **back electromotive force (back EMF)**. The net voltage ($V_{net}$) across the coil is the difference between the supply voltage ($V_{supply}$) and the back EMF ($\varepsilon_{back}$):
+$$V_{net} = V_{supply} - \varepsilon_{back}$$
+As the speed of the motor increases, the rate of change of magnetic flux through the coil increases, causing the back EMF to increase. Consequently, $V_{net}$ decreases as the motor speeds up.
+
+**Prediction:**
+The maximum operating speed occurs when the back EMF equals the supply voltage ($V_{supply} = 12.0\text{ V}$). At this point, the net voltage across the coil would be **$0\text{ V}$**, because no current would flow to provide further torque to accelerate the motor.
+
+---
+
+### (c) Evaluating the student's conclusion
+**Evaluation:**
+The student's conclusion is **incorrect**.
+
+**Reasoning:**
+*   **Mathematical evidence:** For a relationship to be "directly proportional," the graph must be a straight line passing through the origin ($y = mx$). 
+*   **Observation:** The data points do not form a straight line; the rate of change in voltage is not constant as speed increases. Furthermore, at a speed of $0\text{ rpm}$, the voltage is $12\text{ V}$, not $0\text{ V}$. Therefore, the relationship is non-linear and does not satisfy the conditions for direct proportionality.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

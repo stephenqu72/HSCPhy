@@ -1,0 +1,37 @@
+To solve this problem, we use the transformer turn ratio formula and the efficiency formula.
+
+### Given Data:
+- Efficiency ($\eta$) = $80\% = 0.8$
+- Primary turns ($N_p$) = $7000$
+- Secondary turns ($N_s$) = $175$
+- Primary voltage ($V_p$) = $240\text{ V}$
+- Secondary current ($I_s$) = $8.0\text{ A}$
+
+---
+
+### Step 1: Calculate Secondary Voltage ($V_s$)
+The transformer equation relates voltage and turns ratio:
+$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+
+Rearranging for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+$$V_s = 240 \times \frac{175}{7000}$$
+$$V_s = 240 \times 0.025 = 6.0\text{ V}$$
+
+### Step 2: Calculate Primary Current ($I_p$)
+Efficiency ($\eta$) is defined as the ratio of output power ($P_s$) to input power ($P_p$):
+$$\eta = \frac{P_s}{P_p} = \frac{V_s I_s}{V_p I_p}$$
+
+Rearranging to solve for $I_p$:
+$$I_p = \frac{V_s I_s}{\eta V_p}$$
+$$I_p = \frac{6.0 \times 8.0}{0.8 \times 240}$$
+$$I_p = \frac{48}{192} = 0.25\text{ A}$$
+
+Converting to milliamperes ($mA$):
+$$0.25\text{ A} \times 1000 = 250\text{ mA}$$
+
+### Conclusion:
+The primary current is $250\text{ mA}$ and the secondary voltage is $6.0\text{ V}$. Comparing this to the given options, the correct choice is **A**.
+
+###QUESTION_TYPE
+Multiple choice

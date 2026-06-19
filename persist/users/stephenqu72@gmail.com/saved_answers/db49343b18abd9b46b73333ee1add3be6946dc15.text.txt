@@ -1,0 +1,20 @@
+To answer this question, we need to apply the physics of DC motors, specifically the relationship between back electromotive force (back EMF), mechanical load, and current.
+
+### Answer
+i. **Slower speed:** As the bicycle moves up a hill, the gravitational potential energy increases, resulting in an increased mechanical load (opposing force) on the motor. This load causes the motor to rotate at a lower angular velocity (slower speed).
+
+ii. **Increased current:** A rotating DC motor acts as a generator, producing a back EMF ($\varepsilon_{back}$) that opposes the supply voltage ($V$). The back EMF is proportional to the speed of rotation ($\varepsilon_{back} \propto \omega$). When the motor slows down due to the hill, the back EMF decreases. According to Ohm's law for a motor circuit, $I = \frac{V - \varepsilon_{back}}{R}$, where $R$ is the internal resistance. As $\varepsilon_{back}$ decreases, the numerator ($V - \varepsilon_{back}$) increases, resulting in a higher current ($I$) drawn from the battery.
+
+---
+
+### How to solve it
+To gain full marks (5 marks) in an HSC context, you must clearly link the physics concepts of **back EMF** and **motor mechanics**:
+
+1.  **Identify the mechanical change:** Start by noting that moving up a hill increases the opposing torque/load on the motor. This naturally forces the motor to slow down.
+2.  **Explain the Back EMF mechanism:** You must explicitly state that the rotating motor acts as a generator. Its rotation induces a back EMF that opposes the battery's supply voltage.
+3.  **Relate speed to Back EMF:** State the relationship $\varepsilon_{back} = k\omega$ (where $k$ is a constant and $\omega$ is angular velocity). Explain that a slower rotation leads to a smaller back EMF.
+4.  **Connect to Circuit Theory:** Use the formula $I = \frac{V - \varepsilon_{back}}{R}$. Since $V$ (battery voltage) and $R$ (internal motor resistance) are constant, the decrease in $\varepsilon_{back}$ directly leads to an increase in current $I$.
+5.  **Synthesize:** Ensure your explanation flows logically from the external physical environment (the hill) to the electrical response (current increase).
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,25 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down these essential concepts regarding DC motors.
+
+### Part (a): Function of Part X
+**Answer:**
+Part $X$ is a **split-ring commutator**. Its primary function is to reverse the direction of the current in the coil every half-turn as the motor rotates. By reversing the current, it ensures that the torque produced by the magnetic force on the coil remains in the same rotational direction, allowing the motor to rotate continuously in one direction.
+
+**How to solve it:**
+1. **Identify the component:** Recognize the split metal ring connected to the coil ends. This is the hallmark of a DC motor.
+2. **Recall the purpose:** Remember that without this device, the coil would experience a "torque reversal" every 180 degrees, causing it to oscillate back and forth rather than spinning.
+3. **Structure the answer:** State what it is, then explain the "why" (reversing current) and the "result" (continuous rotation).
+
+---
+
+### Part (b): Why torque decreases as speed increases
+**Answer:**
+As the motor rotates faster, the coil cuts through the magnetic field lines more rapidly, which induces a **back electromotive force (back EMF)** in the coil. According to Lenz's Law, this back EMF opposes the supply voltage, reducing the net voltage across the coil ($V_{net} = V_{supply} - \varepsilon_{back}$). This leads to a decrease in the current ($I$) flowing through the coil ($I = \frac{V_{net}}{R}$). Since the magnetic torque ($\tau$) is directly proportional to the current ($\tau = nIAB\cos\theta$), a reduction in current results in a decrease in the motor's torque.
+
+**How to solve it:**
+1. **Identify the mechanism:** Speed relates to the rate of change of magnetic flux, which induces a voltage (Faraday's Law).
+2. **Connect to physics principles:** Use Lenz's Law to explain that this induced voltage acts as "back EMF."
+3. **Link to circuits:** Explain that back EMF reduces the effective voltage driving current through the motor.
+4. **Relate back to the question:** Use the torque formula ($\tau = nIAB\cos\theta$) to clearly show that less current ($I$) means less torque ($\tau$).
+
+###QUESTION_TYPE
+Short answer

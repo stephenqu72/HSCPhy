@@ -1,0 +1,24 @@
+### Answer
+
+**(a) Explain the principle by which these magnets make it harder to pedal.**
+As the aluminium flywheel rotates through the magnetic field, the magnetic flux through regions of the flywheel changes. According to Faraday’s Law of Induction, this change in magnetic flux induces electromotive forces (EMFs) in the aluminium, creating circular **eddy currents**. By Lenz’s Law, these eddy currents flow in a direction that creates a magnetic field to oppose the change that produced them (the rotation of the flywheel). This interaction between the eddy currents and the external magnetic field exerts a magnetic force that opposes the motion of the flywheel, resulting in a braking torque that makes it harder to pedal.
+
+**(b) The bike rider wants to increase the opposing torque on the flywheel. Justify an adjustment that could be made to the magnets to achieve this.**
+The rider should decrease the distance between the magnets and the flywheel (moving them closer). 
+**Justification:** Moving the magnets closer increases the strength of the magnetic field ($B$) passing through the aluminium. Since the magnitude of the induced EMF and the resulting eddy currents is directly proportional to the rate of change of magnetic flux ($\Phi = BA$), a stronger magnetic field induces larger eddy currents. A larger magnitude of current flowing through the magnetic field results in a stronger opposing Lorentz force, thereby increasing the braking torque applied to the flywheel.
+
+***
+
+### How to solve this
+1.  **Identify the Physics concept:** This is a classic application of **electromagnetic induction** and **Lenz's Law**. Specifically, it involves the production of eddy currents in a conductor moving through a non-uniform magnetic field.
+2.  **Part (a) Strategy:** Focus on the sequence of events:
+    *   Motion causes a change in flux.
+    *   Change in flux induces eddy currents (Faraday's Law).
+    *   The direction of the currents/forces opposes the motion (Lenz's Law).
+3.  **Part (b) Strategy:** Relate the variables. You need to increase the "opposing torque." Think about what dictates the magnitude of the magnetic force:
+    *   The force is proportional to the induced current, which is proportional to the magnetic field strength.
+    *   Magnetic field strength increases significantly as you get closer to the poles of a permanent magnet.
+    *   Therefore, decreasing the gap is the most direct physical adjustment to increase the braking effect.
+
+###QUESTION_TYPE
+Short answer

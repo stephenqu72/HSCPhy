@@ -1,0 +1,20 @@
+To determine the correct answer, let’s analyze the role of transformers in the electrical grid based on the principle of power transmission.
+
+### Explanation
+
+Electrical energy is transmitted from power stations to consumers over long distances. The power lost as heat in the transmission lines due to resistance $R$ is given by the formula:
+$$P_{loss} = I^2 R$$
+where $I$ is the current flowing through the lines.
+
+To minimize energy loss ($P_{loss}$), it is crucial to keep the current ($I$) as low as possible. Since power transmitted is defined by $P = VI$ (where $V$ is voltage), for a constant power output, increasing the voltage $V$ allows us to decrease the current $I$ significantly.
+
+1.  **Step-up transformers** are used at power stations to increase the voltage and decrease the current, which minimizes energy lost as heat during transmission. This makes (A) and (B) correct statements.
+2.  **Step-down transformers** are used near residential areas to reduce the extremely high transmission voltage to a safe, usable level for households. This makes (D) a correct statement.
+3.  **Option (C)** suggests that transformers reduce energy losses by *increasing* current. As shown by $P_{loss} = I^2 R$, increasing the current would exponentially *increase* the energy loss in the lines, which is the opposite of the intended function.
+
+Therefore, statement (C) is false.
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

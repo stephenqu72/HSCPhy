@@ -1,0 +1,18 @@
+### Answer
+The correct statement is **(B)**: The disc follows the magnet's rotation but at a lower speed than the magnet.
+
+---
+
+### Explanation
+
+This question tests your understanding of **Eddy Currents** and **Lenz's Law**, which are foundational concepts in HSC Physics regarding electromagnetic induction.
+
+1.  **Induction of Eddy Currents:** As the magnet rotates, the magnetic flux through the copper disc changes continuously. According to **Faraday's Law**, this changing magnetic flux induces an electromotive force (EMF) in the conducting copper disc, resulting in the flow of circular currents known as **eddy currents**.
+2.  **Lenz's Law:** Lenz's Law states that the direction of the induced current is such that it creates a magnetic field that opposes the change in flux that produced it. 
+3.  **The Force:** The interaction between the magnet's magnetic field and the magnetic field produced by the eddy currents in the disc creates a torque. To minimize the "change" (which is the relative motion between the magnet and the disc), the disc experiences a force that drags it in the **same direction** as the magnet’s motion.
+4.  **Relative Motion and "Slip":** If the disc were to spin at the exact same speed as the magnet, there would be no *relative* motion between the two. If there is no relative motion, the magnetic flux through the disc remains constant, no eddy currents are induced, and therefore, the force (torque) would drop to zero. Consequently, friction would slow the disc down. Thus, the disc must always move at a slightly slower speed than the magnet (a phenomenon known as "slip") to ensure there is always a relative motion to maintain the induced currents and the resulting torque.
+
+Therefore, the disc follows the rotation of the magnet to oppose the relative motion, but it must rotate at a lower speed than the magnet.
+
+###QUESTION_TYPE
+Multiple choice

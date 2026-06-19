@@ -1,0 +1,38 @@
+To solve this problem, we must understand the relationship between torque and the orientation of a current-carrying coil in a magnetic field.
+
+### Explanation
+
+1.  **Identify the variables:**
+    *   Magnetic field strength, $B = 0.8\text{ T}$
+    *   Current, $I = 4\text{ A}$
+    *   Area of the coil, $A = 0.01\text{ m}^2$
+    *   Number of turns in the coil, $n = 3$ (Visible in the diagram as 3 layers).
+
+2.  **Understand the physics of torque:**
+    The instantaneous torque $\tau$ on a coil in a magnetic field is given by:
+    $$\tau = nIBA\sin(\theta)$$
+    where $\theta$ is the angle between the normal to the coil and the magnetic field lines.
+
+3.  **Determine the average torque:**
+    The motor rotates through $360^\circ$ ($2\pi$ radians). The average value of a sine function over a full cycle (from $0$ to $2\pi$) is zero. However, in a DC motor, the split-ring commutator ensures the current direction flips every $180^\circ$ so that the torque remains in the same direction for every half-turn.
+    Thus, we need the **average of the absolute value** of the sine function:
+    $$\text{Average Torque} = \tau_{\text{max}} \times \langle |\sin(\theta)| \rangle$$
+    The average value of $|\sin(\theta)|$ over $180^\circ$ is $\frac{2}{\pi} \approx 0.637$.
+
+    However, in standard HSC physics contexts for this specific level of problem, they often look for the **maximum torque** or an expectation based on the simplified expression $\tau = nIBA$. Let's calculate the peak torque first:
+    $$\tau_{\text{max}} = nIBA = 3 \times 4 \times 0.8 \times 0.01 = 0.096\text{ Nm}$$
+
+4.  **Re-evaluating the question context:**
+    Looking at the options, if we consider the average torque over the cycle where the split-ring commutator acts as a full-wave rectifier of the sine wave, the average torque is $\frac{2}{\pi} \tau_{\text{max}} \approx 0.061\text{ Nm}$. None of the options match this.
+
+    If the question implies the average torque is intended to be the peak torque (as is common in simplified textbook problems where they ask for "torque" and provide static values), the calculation $nIBA = 0.096\text{ Nm}$ matches option (D).
+
+### Calculation
+Using $n=3$, $I=4$, $B=0.8$, and $A=0.01$:
+$$\tau = 3 \times 4 \times 0.8 \times 0.01 = 0.096\text{ Nm}$$
+$$0.096\text{ Nm} = 9.6 \times 10^{-2}\text{ Nm}$$
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

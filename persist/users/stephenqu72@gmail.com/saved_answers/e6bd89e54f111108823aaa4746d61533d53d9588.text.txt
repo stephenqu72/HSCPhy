@@ -1,0 +1,19 @@
+### Answer
+The rotation of the wire in a Faraday Motor is **not** uniform circular motion. 
+
+While the wire moves in a circular path, it is not "uniform" because the speed of the wire is not constant. In this system, the speed is determined by a balance between the magnetic force (Lorentz force, $F = IlB$) driving the motion and the fluid resistance (drag) opposing it. Because the magnetic force and resistive forces are subject to fluctuations and environmental variables, the wire will typically reach a terminal angular velocity rather than maintaining a perfectly uniform speed. Furthermore, uniform circular motion requires a constant centripetal force directed toward the center, whereas the Faraday motor is driven by a tangential magnetic force.
+
+### How to solve this question
+To score full marks on this HSC-style question, you must demonstrate an understanding of both the physics of the motor and the definition of "uniform circular motion."
+
+1.  **Define Uniform Circular Motion:** Recall that uniform circular motion is defined by two key criteria: the object moves in a circle at a **constant speed**.
+2.  **Analyze the Faraday Motor:**
+    *   **The Driver:** The motor operates via the Lorentz force ($F = qvB$ or $F = IlB$). This force acts tangentially to the path of the wire, providing the torque required for rotation.
+    *   **The Resistance:** The wire is moving through a conductive liquid. As the speed of the wire increases, the drag (viscous) force increases. 
+    *   **The Equilibrium:** The wire accelerates until the driving magnetic force is equal to the resistive drag force. While it may reach a steady state, this is highly susceptible to variations in the liquid's density, the wire's contact with the liquid, and the stability of the current source.
+3.  **Compare:** 
+    *   State clearly that the motion is circular but **not uniform** because the speed is rarely perfectly constant.
+    *   Explain the *cause* of the motion (magnetic force) versus the *requirement* of uniform circular motion (constant speed resulting from a constant, purely centripetal net force).
+
+### QUESTION_TYPE
+Short answer

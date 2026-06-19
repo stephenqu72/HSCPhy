@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(D) Transformers**.
+
+### Explanation
+To solve this question, we need to distinguish between the **motor effect** and the **generator effect (electromagnetic induction)**.
+
+1.  **The Motor Effect:** This occurs when a current-carrying conductor is placed in an external magnetic field, experiencing a force ($F = BIL \sin \theta$).
+    *   **(A) Back emf in motors:** While "back emf" itself is a consequence of electromagnetic induction (generator effect), it is a phenomenon that occurs *within* the operation of a motor. However, in the context of HSC Physics, this is a "trickier" option. Let's look at the others to be sure.
+    *   **(B) Magnetic braking systems:** These rely on eddy currents induced by changing magnetic flux (Lenz's Law). These eddy currents then experience a force due to the motor effect (the interaction between the induced current and the magnetic field), which opposes the motion. Therefore, it is a direct application of the motor effect.
+    *   **(C) Torque on a coil in a motor:** This is the primary definition of the motor effect—a current-carrying coil in a magnetic field experiences forces that produce a torque.
+
+2.  **Transformers:**
+    *   **(D) Transformers** operate purely on the principle of **electromagnetic induction (Faraday's and Lenz's Laws)**. A changing current in the primary coil creates a changing magnetic flux, which induces a voltage in the secondary coil. There is no physical movement of conductors through a magnetic field to create a force (the motor effect) involved in the standard operation of a transformer.
+
+**Conclusion:** Since transformers rely entirely on electromagnetic induction rather than the force exerted on a current-carrying conductor in a magnetic field, they are the clear choice for what is **NOT** an application of the motor effect.
+
+###QUESTION_TYPE
+Multiple choice

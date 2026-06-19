@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### Part a) Determining the number of turns on the secondary coil ($N_s$)
+
+**1. Recall the Transformer Equation:**
+The relationship between primary/secondary voltage and the number of turns is given by:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+where $V_p$ is primary voltage, $V_s$ is secondary voltage, $N_p$ is primary turns (500), and $N_s$ is secondary turns.
+
+**2. Find the gradient of the graph:**
+Rearranging the formula to match the linear form $y = mx$:
+$$V_p = \left(\frac{N_p}{N_s}\right) V_s$$
+The gradient (slope) of the graph is $\frac{N_p}{N_s}$. Let’s pick two points on the line of best fit to calculate the slope:
+Point 1: $(1, 6)$ and Point 2: $(3.5, 22)$ 
+*Note: Looking at the graph, the line passes through $(0.5, 3)$ and $(3.5, 21)$ approximately.*
+Using the points $(0.5, 3)$ and $(3.5, 21)$:
+$$\text{Slope} = \frac{\Delta V_p}{\Delta V_s} = \frac{21 - 3}{3.5 - 0.5} = \frac{18}{3} = 6$$
+
+**3. Solve for $N_s$:**
+$$\frac{N_p}{N_s} = 6 \implies N_s = \frac{N_p}{6} = \frac{500}{6} \approx 83.3$$
+Rounding to the nearest whole number (as turns must be integers), the number of turns on the secondary coil is **83 turns**.
+
+---
+
+#### Part b) Reliability and Validity
+
+*   **Reliability:** This refers to the consistency of the results. The experiment is likely reliable because the data points align very closely to the line of best fit, indicating little scatter. To improve reliability, the students should repeat the trials for each voltage setting and calculate an average.
+*   **Validity:** This refers to whether the experiment measures what it intends to measure. The experiment is valid because it isolates the variables ($V_p$ and $V_s$) while keeping the primary coil constant, following the transformer principle. However, if the transformer was not ideal (e.g., flux leakage or resistive heating), the results might be slightly skewed, affecting validity.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,21 @@
+To determine which cases will result in an induced current, we must apply **Faraday’s Law of Induction**, which states that an induced electromotive force (EMF) is generated when there is a change in the **magnetic flux** ($\Phi_B$) through a conducting loop. The magnetic flux is defined by:
+
+$$\Phi_B = \int \vec{B} \cdot d\vec{A}$$
+
+For a long straight wire carrying current $I$, the magnetic field $B$ is non-uniform and depends on the distance $r$ from the wire: $B \propto \frac{1}{r}$.
+
+### Analysis:
+
+*   **Case (I):** The loop moves directly away from the wire (to the right). As the loop moves, it moves into regions of weaker magnetic field. The total magnetic flux passing through the loop changes. Therefore, **an induced current is produced**.
+
+*   **Case (II):** The loop moves at an angle away from the wire. It is moving to regions where the magnetic field is weaker (due to the horizontal component of velocity) and changing its position relative to the field lines. Since the magnetic flux through the loop is changing, **an induced current is produced**.
+
+*   **Case (III):** The loop moves parallel to the wire. Throughout this motion, every point within the loop maintains a constant distance $r$ from the straight wire. Consequently, the magnetic field strength at any specific point within the loop remains constant, and the total magnetic flux through the loop remains constant ($\Delta \Phi_B = 0$). Therefore, **no induced current is produced**.
+
+### Conclusion:
+Cases (I) and (II) involve a change in magnetic flux, while Case (III) does not. The correct answer is **A**.
+
+---
+
+###QUESTION_TYPE
+Multiple choice

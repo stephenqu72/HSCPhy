@@ -1,0 +1,41 @@
+To solve this problem, we apply **Snell's Law** of refraction and the principles of **Total Internal Reflection (TIR)**.
+
+### Part a: Determine the angle of incidence, $\theta$
+
+**1. Identify the internal angle:**
+The light ray enters the core and makes an angle of $32^\circ$ with the horizontal axis (the center line). The angle of refraction ($r$) inside the core relative to the normal (the vertical line at the air-core interface) is:
+$$r = 90^\circ - 32^\circ = 58^\circ$$
+
+**2. Apply Snell's Law:**
+Snell’s Law states: $n_1 \sin(\theta) = n_2 \sin(r)$
+Where:
+- $n_{\text{air}} = 1.00$
+- $n_{\text{core}} = 1.46$
+- $r = 58^\circ$
+
+$$1.00 \times \sin(\theta) = 1.46 \times \sin(58^\circ)$$
+$$\sin(\theta) = 1.46 \times 0.8480 = 1.238$$
+
+**Teacher's Note:** Since $\sin(\theta)$ cannot be greater than 1, this indicates that light at this specific angle cannot enter the fiber in the way described (the ray is effectively hitting the boundary at an angle that exceeds the critical angle for refraction). However, assuming the diagram implies the ray enters the core, we check the logic: $1.238$ is mathematically impossible. In an exam context, re-check your subtraction: $90 - 32 = 58$. If the angle was measured from the vertical, $\sin(\theta) = 1.46 \sin(32^\circ) \approx 0.773$, yielding $\theta \approx 50.6^\circ$. Given the diagram shows the angle from the vertical normal, the calculation is:
+$$\sin(\theta) = 1.46 \times \sin(32^\circ) \approx 0.773$$
+$$\theta = \arcsin(0.773) \approx 50.6^\circ$$
+
+---
+
+### Part b: Will any light be transmitted into the cladding?
+
+To determine if light is transmitted into the cladding, we must find the **critical angle** ($\theta_c$) for the core-cladding boundary.
+
+**1. Calculate the critical angle:**
+$$\sin(\theta_c) = \frac{n_{\text{cladding}}}{n_{\text{core}}} = \frac{1.42}{1.46} \approx 0.9726$$
+$$\theta_c = \arcsin(0.9726) \approx 76.6^\circ$$
+
+**2. Compare with the angle of incidence at the core-cladding boundary:**
+The ray hits the core-cladding boundary at an angle of $32^\circ$ to the horizontal. Since the normal is vertical, the angle of incidence at the core-cladding interface is:
+$$i = 90^\circ - 32^\circ = 58^\circ$$
+
+**3. Conclusion:**
+Since the angle of incidence ($58^\circ$) is **less than** the critical angle ($76.6^\circ$), the light will **not** undergo total internal reflection. Therefore, some of the light **will be transmitted** (refracted) into the cladding.
+
+###QUESTION_TYPE
+Calculation question

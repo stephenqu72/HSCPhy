@@ -1,0 +1,28 @@
+To solve this problem, we apply **Faraday’s Law of Induction**, which states that the induced electromotive force (EMF) is equal to the negative rate of change of magnetic flux:
+$$\varepsilon = - \frac{\Delta \Phi}{\Delta t}$$
+Since we are looking for the magnitude, we use $|\varepsilon| = \frac{|\Delta \Phi|}{\Delta t}$, where $\Phi = B \cdot A \cdot \cos(\theta)$. In this case, the magnetic field $B = 2.75\text{ T}$ is constant and perpendicular to the plane of the coil ($\theta = 0^\circ$, so $\cos(0) = 1$).
+
+### (a) Calculate the magnitude of the average induced EMF.
+
+**1. Determine the Perimeter and Length:**
+The total length of the wire $L = 44.0\text{ cm} = 0.44\text{ m}$.
+
+**2. Calculate the Areas:**
+*   **Square (Initial):** Each side $s = \frac{L}{4} = \frac{0.44}{4} = 0.11\text{ m}$.
+    $A_{\text{square}} = s^2 = (0.11)^2 = 0.0121\text{ m}^2$.
+*   **Circle (Final):** Circumference $C = 2\pi r = 0.44\text{ m}$, so $r = \frac{0.44}{2\pi} \approx 0.07003\text{ m}$.
+    $A_{\text{circle}} = \pi r^2 = \pi \left(\frac{0.44}{2\pi}\right)^2 = \frac{0.44^2}{4\pi} \approx 0.01540\text{ m}^2$.
+
+**3. Calculate Change in Flux ($\Delta \Phi$):**
+$$\Delta \Phi = B \cdot |A_{\text{circle}} - A_{\text{square}}|$$
+$$\Delta \Phi = 2.75 \times (0.01540 - 0.0121) = 2.75 \times 0.0033 = 0.009075\text{ Wb}$$
+
+**4. Calculate Induced EMF ($\varepsilon$):**
+Given $\Delta t = 1.25\text{ ms} = 1.25 \times 10^{-3}\text{ s}$:
+$$|\varepsilon| = \frac{0.009075}{0.00125} = 7.26\text{ V}$$
+
+### (b) Identify the direction of the current.
+As the coil changes from a square to a circle, the area increases, meaning the magnetic flux into the page increases. According to **Lenz's Law**, the induced current will create a magnetic field to oppose this increase. To oppose the inward (into the page) magnetic flux, the induced magnetic field must point outward (out of the page). By the **Right-Hand Grip Rule**, an induced field pointing out of the page requires the current to flow in a **counter-clockwise** direction.
+
+###QUESTION_TYPE
+Calculation question

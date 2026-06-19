@@ -1,0 +1,23 @@
+To determine the correct answer, we must use the fundamental physics definitions related to light propagation through media.
+
+### Answer
+The correct option is **D**.
+
+### Explanation
+1.  **Refractive Index and Speed:** The absolute refractive index $n$ of a medium is defined as the ratio of the speed of light in a vacuum ($c$) to the speed of light in the medium ($v$):
+    $$n = \frac{c}{v}$$
+    Rearranging this gives $v = \frac{c}{n}$. This shows that the speed is *inversely* proportional to the refractive index, which rules out options A and B.
+
+2.  **The Wave Equation:** The speed of a wave is related to its frequency ($f$) and wavelength ($\lambda$) by the equation:
+    $$v = f \times \lambda$$
+
+3.  **Frequency Consistency:** When a light wave travels from one medium to another, its **frequency remains constant** because it is determined by the source of the light.
+
+4.  **Proportionality:** Since $v = f \lambda$ and $f$ is a constant value for the "particular frequency" mentioned in the question, we can see that:
+    $$v \propto \lambda$$
+    Therefore, the speed of light $v$ is directly proportional to the wavelength of the light $\lambda$ within that substance. 
+
+5.  **Regarding Option C:** The angle of refraction depends on the angle of incidence (Snell's Law: $n_1 \sin \theta_1 = n_2 \sin \theta_2$) and the ratio of the refractive indices. It does not determine the speed of light; rather, the speed of light (refractive index) helps determine the angle of refraction.
+
+### QUESTION_TYPE
+Multiple choice

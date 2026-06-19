@@ -1,0 +1,30 @@
+To find the current flowing through the load resistor, we follow a two-step process: determining the output voltage of the transformer and then calculating the current using Ohm's Law.
+
+### Step 1: Calculate the secondary voltage ($V_s$)
+An ideal transformer follows the transformer ratio formula:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+Where:
+*   $V_p = 60\text{ V}$ (primary voltage)
+*   $N_p = 1000\text{ turns}$ (primary turns)
+*   $N_s = 2600\text{ turns}$ (secondary turns)
+
+Rearranging for $V_s$:
+$$V_s = V_p \times \frac{N_s}{N_p}$$
+$$V_s = 60 \times \frac{2600}{1000}$$
+$$V_s = 60 \times 2.6 = 156\text{ V}$$
+
+### Step 2: Calculate the current through the load ($I_s$)
+Using Ohm’s Law ($V = IR$), where $R = 800\text{ }\Omega$:
+$$I_s = \frac{V_s}{R}$$
+$$I_s = \frac{156}{800}$$
+$$I_s = 0.195\text{ A}$$
+
+Comparing this result to the given options, the correct choice is **C**.
+
+### Summary of logic
+1. Use the turns ratio to determine the secondary voltage. Since the secondary side has more turns than the primary, it is a step-up transformer, resulting in a higher voltage.
+2. Apply Ohm's Law to the secondary circuit to find the current flowing through the load resistance.
+
+###QUESTION_TYPE
+Multiple choice

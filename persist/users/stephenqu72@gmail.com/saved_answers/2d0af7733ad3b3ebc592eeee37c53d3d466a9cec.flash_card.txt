@@ -1,0 +1,8 @@
+### Front
+What principle is used to determine an unknown initial velocity during a collision between two particles?
+
+### Back
+- Key idea: Total momentum remains constant in a closed system.
+- Formula / law / constant / figure: $\sum p_{\text{initial}} = \sum p_{\text{final}}$ (or $m_1v_{1,i} + m_2v_{2,i} = m_1v_{1,f} + m_2v_{2,f}$)
+- When to use it: Collision or explosion problems where no external net force acts on the system.
+- Common trap: Ignoring direction; velocities are vectors and must be assigned positive or negative signs relative to a chosen direction.

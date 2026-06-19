@@ -1,0 +1,24 @@
+To answer this question, we must understand the principle of electromagnetic induction.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+The deflection in the galvanometer is caused by an induced electromotive force (EMF) in the secondary coil, governed by **Faraday’s Law of Induction**:
+$$\mathcal{E} = -N_s \frac{\Delta \Phi}{\Delta t}$$
+Where:
+- $\mathcal{E}$ is the induced EMF.
+- $N_s$ is the number of turns in the secondary coil.
+- $\frac{\Delta \Phi}{\Delta t}$ is the rate of change of magnetic flux through the coils.
+
+When the switch is closed, a current begins to flow in the primary coil, creating a magnetic field that changes rapidly as the current grows from zero. This changing magnetic flux is carried by the iron core to the secondary coil.
+
+To increase the size of the deflection (the induced current), we need to increase the induced EMF. We can do this by increasing the rate of change of magnetic flux ($\frac{\Delta \Phi}{\Delta t}$). The rate of change of flux is directly proportional to the current in the primary coil and the number of primary turns ($N_p$), as $\Phi \propto N_p I_p$. If we **decrease the number of primary coils ($N_p$)**, the self-inductance of the primary circuit decreases. This allows the current to rise to its final value faster upon closing the switch, thereby increasing $\frac{\Delta \Phi}{\Delta t}$ and resulting in a larger induced EMF in the secondary coil.
+
+**Why other options are incorrect:**
+- **(B)** Decreasing $N_s$ directly reduces the induced EMF according to Faraday's law ($ \mathcal{E} \propto N_s $).
+- **(C)** Replacing the iron core with a copper core would drastically reduce the magnetic permeability of the core, significantly weakening the magnetic flux linkage and reducing the induced EMF.
+- **(D)** Placing a resistor in series increases the total resistance of the secondary circuit, which, according to Ohm’s Law ($I = \frac{V}{R}$), would decrease the current flowing through the galvanometer.
+
+###QUESTION_TYPE
+Multiple choice

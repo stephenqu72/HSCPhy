@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Part (a)
+To solve this, we use the properties of an ideal (100% efficient) transformer.
+
+1.  **Calculate Secondary Voltage ($V_s$):**
+    For a 100% efficient transformer, power input equals power output: $P_p = P_s$.
+    Since $P = VI$, we have:
+    $$V_p I_p = V_s I_s$$
+    Given $V_p = 120\text{ V}$, $I_p = 3.0\text{ mA}$, and $I_s = 30\text{ mA}$:
+    $$120 \times 3.0 = V_s \times 30$$
+    $$360 = 30 V_s$$
+    $$V_s = \frac{360}{30} = 12\text{ V}$$
+
+2.  **Calculate Number of Turns in Primary Coil ($N_p$):**
+    The transformer ratio formula is:
+    $$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+    Given $V_p = 120\text{ V}$, $V_s = 12\text{ V}$, and $N_s = 5$:
+    $$\frac{120}{12} = \frac{N_p}{5}$$
+    $$10 = \frac{N_p}{5}$$
+    $$N_p = 50 \text{ turns}$$
+
+**Summary:** Secondary voltage is $12\text{ V}$ and the primary coil has $50$ turns.
+
+***
+
+#### Part (b)
+Faraday's observations are explained by **electromagnetic induction**:
+
+1.  **Steady State:** When the switch is closed or open and left in that state, the current in Coil A is either constant or zero. Consequently, the magnetic flux through the iron ring is constant. According to Faraday’s Law, an induced EMF is only produced by a *changing* magnetic flux ($\mathcal{E} = -N\frac{\Delta \Phi}{\Delta t}$). Since there is no change, no current flows in Coil B, and the compass needle remains undeflected.
+2.  **Momentary Deflection:** When the switch is *initially* closed or opened, the current in Coil A changes rapidly from zero to maximum (or vice versa). This causes a rapid change in the magnetic flux through the iron ring. This changing flux passes through Coil B, inducing an EMF that drives a momentary current through wire $CD$. The magnetic field created by this current deflects the compass needle.
+
+***
+
+###QUESTION_TYPE
+Calculation question

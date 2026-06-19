@@ -1,0 +1,32 @@
+As an HSC physics teacher, here is how you should approach this interference problem.
+
+### Part a) Explanation
+**Answer:** At the location "Shaken," the distance from $E1$ and $E2$ is equal. Therefore, the path difference ($\Delta x$) is $0$. When the path difference is an integer multiple of the wavelength ($n\lambda$, where $n=0, 1, 2...$), **constructive interference** occurs. The crests from $E1$ meet the crests from $E2$, and the troughs meet the troughs, resulting in a wave with a greater amplitude (magnitude of shaking).
+
+### Part b) Calculation
+**Strategy:** The town "Stirred" experiences minimal shaking, which indicates **destructive interference**. The condition for destructive interference is that the path difference must be an odd multiple of half a wavelength:
+$$\Delta x = (n + 0.5)\lambda$$
+1. Calculate the path difference: $\Delta x = 3.83\text{ km} - 3.05\text{ km} = 0.78\text{ km}$.
+2. Looking at Figure 13, "Stirred" sits on the first dark fringe (node) outside the centreline, so we use $n=0$:
+   $$0.78 = 0.5\lambda$$
+   $$\lambda = \frac{0.78}{0.5} = 1.56\text{ km}$$
+
+**Answer:** $1.56\text{ km}$
+
+### Part c) Calculation
+**Strategy:** Use the wave equation $v = f \lambda$.
+1. Given $f = 11\text{ Hz}$ and $\lambda = 1.56\text{ km}$.
+2. Calculate: $v = 11 \times 1.56 = 17.16\text{ km s}^{-1}$.
+
+**Answer:** $17.16\text{ km s}^{-1}$
+
+***
+
+### How to solve these types of problems:
+*   **For Interference:** Always identify if the point is a "node" (destructive) or "antinode" (constructive). Remember:
+    *   Constructive: $\Delta x = n\lambda$
+    *   Destructive: $\Delta x = (n + 0.5)\lambda$
+*   **For Calculations:** Ensure your units are consistent. Here, distance was in km and frequency in Hz, so the velocity naturally results in $\text{km s}^{-1}$. Always show the formula before substituting values to ensure you gain full marks for method.
+
+###QUESTION_TYPE
+Calculation question

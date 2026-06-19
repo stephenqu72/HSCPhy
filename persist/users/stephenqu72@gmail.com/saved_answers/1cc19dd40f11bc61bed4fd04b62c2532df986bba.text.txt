@@ -1,0 +1,35 @@
+### Answer
+The rotational speed of a DC motor is primarily determined by the balance between the applied terminal voltage, the internal resistance of the armature, and the magnetic flux.
+
+The fundamental mathematical model for a DC motor is given by the voltage equation:
+$$V = E_b + I_a R_a$$
+Where:
+- $V$ is the supply voltage
+- $E_b$ is the back electromotive force (back EMF)
+- $I_a$ is the armature current
+- $R_a$ is the armature resistance
+
+The back EMF $E_b$ is directly proportional to the rotational speed ($\omega$) and the magnetic flux ($\phi$) produced by the field:
+$$E_b = k\phi\omega$$
+Substituting this into the voltage equation gives:
+$$V = k\phi\omega + I_a R_a$$
+Rearranging to solve for the angular velocity ($\omega$):
+$$\omega = \frac{V - I_a R_a}{k\phi}$$
+
+**Factors affecting speed:**
+1. **Supply Voltage ($V$):** Increasing the supply voltage increases the motor speed, as $\omega$ is directly proportional to $V$.
+2. **Armature Resistance ($R_a$):** An increase in load leads to a higher current ($I_a$), increasing the "voltage drop" $I_a R_a$ across the internal resistance. This reduces the effective EMF, thereby decreasing the rotational speed.
+3. **Magnetic Flux ($\phi$):** The speed is inversely proportional to the magnetic flux. Reducing the flux (field weakening) will increase the motor speed, whereas increasing the flux will decrease the speed.
+
+---
+
+### How to solve this
+To achieve full marks (5 marks) for this HSC-style physics question, you must follow these steps:
+
+1.  **Start with the Core Physics:** Always identify the relationship between input voltage, back EMF, and rotational speed. The "Back EMF" concept is essential for any explanation of DC motor dynamics.
+2.  **Provide the Mathematical Model:** As requested, use the algebraic formulas. State the variables clearly so the examiner knows you understand the physics behind the symbols.
+3.  **Explain the Variables:** After deriving the final formula for $\omega$, explain how each variable physically translates to the motor's operation.
+4.  **Connect to the Context:** Mention the "load." In the case of an elevator, as the load increases, $I_a$ increases to maintain torque, which results in a speed drop due to the $I_a R_a$ term. This shows the marker that you can apply theory to the specific scenario provided.
+
+###QUESTION_TYPE
+Short answer

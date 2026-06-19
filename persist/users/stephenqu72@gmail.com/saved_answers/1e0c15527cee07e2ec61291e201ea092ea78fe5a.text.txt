@@ -1,0 +1,37 @@
+To solve this problem, we use **Faraday's Law of Induction**, which describes the relationship between the induced electromotive force (EMF) and the rate of change of magnetic flux in a coil with multiple turns.
+
+### The Physics Principle
+The average induced EMF ($\varepsilon$) in a coil with $N$ turns is given by the formula:
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+
+Where:
+- $\varepsilon$ is the magnitude of the induced EMF ($1.2\text{ V}$)
+- $N$ is the number of turns ($6$)
+- $\Delta\Phi$ is the change in magnetic flux ($0.05\text{ Wb}$)
+- $\Delta t$ is the time interval we need to find
+
+### Calculation
+We want to find $\Delta t$, so we rearrange the formula (ignoring the negative sign as we are looking for the magnitude of the time interval):
+$$\Delta t = \frac{N \Delta\Phi}{\varepsilon}$$
+
+Now, substitute the given values into the equation:
+$$\Delta t = \frac{6 \times 0.05\text{ Wb}}{1.2\text{ V}}$$
+$$\Delta t = \frac{0.3}{1.2}\text{ s}$$
+$$\Delta t = 0.25\text{ s}$$
+
+Comparing this result to the given options:
+A. $0.04\text{ s}$
+B. $0.01\text{ s}$
+**C. $0.25\text{ s}$**
+D. $0.50\text{ s}$
+
+The correct option is **C**.
+
+### Step-by-Step Summary
+1.  **Identify the variables:** $N = 6$, $\Delta\Phi = 0.05\text{ Wb}$, and $\varepsilon = 1.2\text{ V}$.
+2.  **Select the formula:** Use Faraday’s Law, $\varepsilon = N \frac{\Delta\Phi}{\Delta t}$.
+3.  **Rearrange:** Isolate $\Delta t$ to get $\Delta t = \frac{N \Delta\Phi}{\varepsilon}$.
+4.  **Compute:** Calculate the product $6 \times 0.05 = 0.3$, then divide by $1.2$ to arrive at $0.25\text{ s}$.
+
+###QUESTION_TYPE
+Multiple choice

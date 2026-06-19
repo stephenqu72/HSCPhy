@@ -1,0 +1,33 @@
+To solve this problem, we must first address a critical observation: the question asks to "Calculate the power of the laser," but the provided data (grating spacing, distance to wall, and antinode spacing) only allows for the calculation of the **wavelength** of the laser. Power cannot be determined from diffraction patterns without additional information like photon flux or intensity measurements. We will calculate the wavelength to identify the colour.
+
+### 1. Identify Variables
+*   Grating spacing ($d$): $30 \text{ \mu m} = 30 \times 10^{-6} \text{ m}$
+*   Distance to wall ($D$): $10 \text{ m}$
+*   Spacing between antinodes ($\Delta x$): $17.45 \text{ cm} = 0.1745 \text{ m}$
+
+### 2. Determine Wavelength ($\lambda$)
+For a diffraction grating, the formula is $d \sin(\theta) = n\lambda$.
+For small angles, $\sin(\theta) \approx \tan(\theta) = \frac{\Delta x}{D}$.
+Assuming the first-order maximum ($n=1$):
+$$\lambda = \frac{d \cdot \Delta x}{D}$$
+$$\lambda = \frac{(30 \times 10^{-6} \text{ m}) \times (0.1745 \text{ m})}{10 \text{ m}}$$
+$$\lambda = 5.235 \times 10^{-7} \text{ m}$$
+$$\lambda = 523.5 \text{ nm}$$
+
+### 3. Identify Colour
+Comparing $523.5 \text{ nm}$ to the table:
+*   Green: $520 - 559 \text{ nm}$
+*   **Result:** The laser is **Green**.
+
+### 4. Regarding "Power"
+As noted, there is insufficient information to calculate the power (measured in Watts) of the laser. In an HSC examination context, if you encounter this, you should state that the provided data allows for the determination of wavelength and colour, but not power.
+
+***
+
+### How to solve this type of problem:
+1.  **Convert all units to SI units:** Always ensure distances are in meters and spacings are in meters to avoid errors with scientific notation.
+2.  **Small angle approximation:** In many HSC problems, $\theta$ is small enough that $\sin(\theta) \approx \tan(\theta) \approx \theta$ (in radians). This simplifies the diffraction equation to $\lambda = \frac{d \cdot \Delta x}{D}$.
+3.  **Check for missing data:** If asked for a quantity that cannot be derived from the given physics principles (like Power in this instance), clearly state the limitation of the data provided.
+
+### QUESTION_TYPE
+Calculation question

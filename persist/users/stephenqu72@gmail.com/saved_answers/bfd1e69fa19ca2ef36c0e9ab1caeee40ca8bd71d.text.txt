@@ -1,0 +1,18 @@
+To answer this question correctly, we need to understand the physics behind power transmission and the role of transformers.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+In power stations, step-up transformers are used to increase the voltage before transmitting electricity across long distances. This is done for the following reasons:
+
+1.  **Energy Efficiency:** Power loss in transmission lines occurs due to the resistance of the cables. This loss is described by the formula $P_{loss} = I^2R$, where $I$ is the current and $R$ is the resistance of the wires.
+2.  **Maintaining Power:** Since power generated is $P = VI$, if we increase the voltage ($V$) by a large factor using a step-up transformer, the current ($I$) must decrease proportionally to transmit the same amount of total power.
+3.  **Minimizing Loss:** Because the power loss depends on the square of the current ($I^2$), reducing the current significantly leads to a drastic reduction in energy wasted as heat in the transmission lines.
+
+**Why the other options are incorrect:**
+*   **(A)** Increasing the current would increase the energy lost as heat ($I^2R$), making transmission highly inefficient.
+*   **(C) and (D)** Transformers operate based on electromagnetic induction, which requires a changing magnetic field. Therefore, they only work with alternating current (AC). They cannot change AC to DC or vice versa (that process requires rectifiers or inverters, not transformers).
+
+###QUESTION_TYPE
+Multiple choice

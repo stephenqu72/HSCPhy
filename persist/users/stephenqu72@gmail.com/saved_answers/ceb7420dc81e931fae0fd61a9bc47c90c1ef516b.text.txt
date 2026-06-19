@@ -1,0 +1,38 @@
+To solve this problem, we use Snell's Law and the relationship between the refractive index of a medium and the speed of light in that medium.
+
+### Step-by-Step Explanation:
+
+**1. Identify the given information:**
+*   Angle of incidence ($i$) = $55^\circ$
+*   Speed of light in vacuum ($c$) = $3.00 \times 10^8 \text{ ms}^{-1}$
+*   Speed of blue light in glass ($v_b$) = $2.71 \times 10^8 \text{ ms}^{-1}$
+*   Speed of red light in glass ($v_r$) = $2.78 \times 10^8 \text{ ms}^{-1}$
+
+**2. Relate refractive index to speed:**
+The refractive index ($n$) of a medium is given by $n = \frac{c}{v}$. 
+According to Snell's Law: $n_1 \sin(i) = n_2 \sin(r)$.
+Since the light is entering from air (assume $n_1 \approx 1$), the equation simplifies to:
+$$\sin(r) = \frac{\sin(i)}{n} = \frac{\sin(i)}{c/v} = \frac{v \sin(i)}{c}$$
+
+**3. Calculate the angle of refraction for each ray:**
+
+*   **For the Blue Ray:**
+    $$\sin(r_b) = \frac{2.71 \times 10^8 \times \sin(55^\circ)}{3.00 \times 10^8}$$
+    $$\sin(r_b) = 0.9033 \times 0.81915 \approx 0.7400$$
+    $$r_b = \arcsin(0.7400) \approx 47.73^\circ$$
+
+*   **For the Red Ray:**
+    $$\sin(r_r) = \frac{2.78 \times 10^8 \times \sin(55^\circ)}{3.00 \times 10^8}$$
+    $$\sin(r_r) = 0.9267 \times 0.81915 \approx 0.7591$$
+    $$r_r = \arcsin(0.7591) \approx 49.39^\circ$$
+
+**4. Calculate the angular separation:**
+The angular separation ($\Delta r$) is the difference between the two angles:
+$$\Delta r = r_r - r_b$$
+$$\Delta r = 49.39^\circ - 47.73^\circ = 1.66^\circ$$
+
+**Answer:**
+The angular separation between the red and blue rays is approximately **$1.66^\circ$**.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,43 @@
+As an HSC Physics teacher, here is the breakdown and solution for this transformer problem.
+
+---
+
+### Part (a)
+**Answer:** A transformer relies on the principle of electromagnetic induction. An alternating current (AC) in the primary coil creates a constantly changing magnetic field. This changing magnetic field is carried by the soft iron core to the secondary coil. According to Faraday’s Law, $EMF = -N \frac{\Delta \Phi}{\Delta t}$, a changing magnetic flux ($\Delta \Phi$) is required to induce an electromotive force (EMF) in the secondary coil. If a steady direct current (DC) were used, the magnetic field would be constant, $\frac{\Delta \Phi}{\Delta t}$ would be zero, and no voltage would be induced in the secondary coil.
+
+**Teacher's Tip:** To score full marks, always explicitly mention "changing magnetic flux" and reference the link between time-varying current and Faraday's Law.
+
+---
+
+### Part (b)
+**Calculation:**
+We use the ideal transformer ratio:
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+*   $V_p = 23\,000\text{ V}$
+*   $V_s = 660\text{ kV} = 660\,000\text{ V}$
+*   $N_p = 2000$
+
+Rearranging for $N_s$:
+$$N_s = N_p \times \frac{V_s}{V_p}$$
+$$N_s = 2000 \times \frac{660\,000}{23\,000} \approx 57\,391.3$$
+Since the number of turns must be a whole number, we round to **57 391 turns**.
+
+---
+
+### Part (c)
+**Calculation:**
+Assuming an ideal transformer (input power = output power), we use $P_p = P_s = V_p I_p$.
+1.  **Calculate Power:**
+    $$P = 23\,000\text{ V} \times 100\text{ A} = 2\,300\,000\text{ W} = 2.3\text{ MW}$$
+2.  **Calculate Secondary Current ($I_s$):**
+    Using $P_s = V_s I_s$:
+    $$I_s = \frac{P_s}{V_s} = \frac{2\,300\,000\text{ W}}{660\,000\text{ V}} \approx 3.4848\text{ A}$$
+3.  **Calculate Power Loss ($P_{loss}$):**
+    Using $P = I^2 R$:
+    $$P_{loss} = (3.4848)^2 \times 2000 \approx 12.144 \times 2000 \approx 24\,289\text{ W}$$
+    The power loss is approximately **24.3 kW**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

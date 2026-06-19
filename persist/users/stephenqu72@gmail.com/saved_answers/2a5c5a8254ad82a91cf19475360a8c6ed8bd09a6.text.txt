@@ -1,0 +1,27 @@
+To determine which situation produces the greatest average induced EMF, we use Faraday's Law of Induction:
+$$\varepsilon = -N \frac{\Delta \Phi_m}{\Delta t}$$
+where $\Phi_m = BA \cos \theta$. We are looking for the largest magnitude of $\frac{\Delta \Phi_m}{\Delta t}$. Let the initial magnetic field be $B$, the area be $A$, and the initial flux be $\Phi_i = BA$.
+
+**Analysis of each situation:**
+
+*   **(S) Rotation by $90^\circ$:** The flux changes from $\Phi_i = BA$ to $\Phi_f = 0$ in $\Delta t = 2.0$ s.
+    $$\Delta \Phi = |0 - BA| = BA \implies \frac{\Delta \Phi}{\Delta t} = \frac{BA}{2.0} = 0.5 BA$$
+*   **(T) Magnetic field to zero:** The flux changes from $BA$ to $0$ in $\Delta t = 4.0$ s.
+    $$\Delta \Phi = |0 - BA| = BA \implies \frac{\Delta \Phi}{\Delta t} = \frac{BA}{4.0} = 0.25 BA$$
+*   **(U) Radius doubles ($r \rightarrow 2r$):** The area $A = \pi r^2$ becomes $A' = \pi (2r)^2 = 4A$. The flux changes from $BA$ to $4BA$ in $\Delta t = 2.0$ s.
+    $$\Delta \Phi = |4BA - BA| = 3BA \implies \frac{\Delta \Phi}{\Delta t} = \frac{3BA}{2.0} = 1.5 BA$$
+*   **(V) Field reversed:** The flux changes from $\Phi_i = BA$ to $\Phi_f = -BA$ in $\Delta t = 2.0$ s.
+    $$\Delta \Phi = |-BA - BA| = 2BA \implies \frac{\Delta \Phi}{\Delta t} = \frac{2BA}{2.0} = 1.0 BA$$
+
+Comparing the results:
+- (S): $0.5 BA$
+- (T): $0.25 BA$
+- (U): $1.5 BA$
+- (V): $1.0 BA$
+
+Situation (U) results in the largest change in flux over the given time interval, producing the greatest average induced EMF.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we need to calculate the torque $\tau$ exerted on a current-carrying coil in a magnetic field.
+
+### Explanation and Solution
+
+The formula for the torque on a coil in a magnetic field is:
+$$\tau = nIAB \sin(\theta)$$
+
+Where:
+*   $n = 8$ (number of turns)
+*   $I = 2.75\text{ A}$ (current)
+*   $A = 0.23\text{ m} \times 0.23\text{ m} = 0.0529\text{ m}^2$ (area of the coil)
+*   $B = 1.50\text{ T}$ (magnetic field strength)
+*   $\theta$ is the angle between the **normal to the coil** and the magnetic field lines.
+
+**Step 1: Determine the correct angle $\theta$.**
+The diagram shows that the plane of the coil makes a $30^\circ$ angle with the magnetic field lines ($B$). The torque formula uses the angle between the **normal (perpendicular) to the coil** and the magnetic field.
+Since the normal makes a $90^\circ$ angle with the plane of the coil, the angle $\theta$ between the normal and the magnetic field is:
+$$\theta = 90^\circ - 30^\circ = 60^\circ$$
+
+**Step 2: Plug the values into the torque equation.**
+$$\tau = 8 \times 2.75 \times 0.0529 \times 1.50 \times \sin(60^\circ)$$
+$$\tau = 1.7457 \times \sin(60^\circ)$$
+$$\tau = 1.7457 \times 0.866$$
+$$\tau \approx 1.51\text{ Nm}$$
+
+Rounding to two significant figures (consistent with the provided options), we get **1.5 Nm**.
+
+Comparing this result with the given options, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Calculation question

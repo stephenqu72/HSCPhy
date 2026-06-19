@@ -1,0 +1,22 @@
+To solve this problem, we must understand the physics of Young's double-slit experiment and the formula for fringe separation (the distance between adjacent bright or dark bands).
+
+### Answer
+The correct option is **(D)**.
+
+### Explanation
+The spacing between the bands in a double-slit interference pattern, denoted by $\Delta x$, is given by the formula:
+$$\Delta x = \frac{\lambda L}{d}$$
+Where:
+*   $\lambda$ is the **wavelength** of the light used.
+*   $L$ is the **distance** between the double slits and the screen.
+*   $d$ is the **separation** between the two slits.
+
+To **increase** the spacing $\Delta x$, we must either increase $\lambda$, increase $L$, or decrease $d$. Let's evaluate the options:
+
+*   **(A) Increasing the separation of the laser and the double slit:** This distance does not appear in the formula. It has no effect on the interference pattern on the screen.
+*   **(B) Decreasing the distance between the double slits and the screen ($L$):** According to the formula, $\Delta x$ is directly proportional to $L$. Decreasing $L$ will decrease the fringe spacing.
+*   **(C) Changing from a green laser to a blue laser:** Blue light has a shorter wavelength than green light. Decreasing $\lambda$ results in a decrease in fringe spacing.
+*   **(D) Changing from a green laser to a red laser:** Red light has a **longer** wavelength than green light. Since $\Delta x$ is directly proportional to $\lambda$, increasing the wavelength will increase the fringe spacing. This is the correct action.
+
+###QUESTION_TYPE
+Multiple choice

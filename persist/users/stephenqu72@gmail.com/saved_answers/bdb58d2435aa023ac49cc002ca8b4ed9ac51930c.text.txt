@@ -1,0 +1,18 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+This question tests your understanding of **electromagnetic induction** and **Lenz's Law**, specifically in the context of **eddy currents**. Here is the step-by-step physical breakdown:
+
+1.  **Faraday's Law:** As the copper disc rotates through the region between the poles of the horseshoe magnet, segments of the disc experience a change in magnetic flux ($\Delta \Phi$). Because the disc is a conductor, this change in flux induces an electromotive force (EMF), leading to the circulation of induced currents within the disc known as **eddy currents**.
+2.  **Lenz's Law:** Lenz's Law states that the direction of the induced current will be such that it creates a magnetic field that opposes the change in flux that produced it. 
+3.  **Interaction (The Drag Force):** The induced eddy currents create their own magnetic fields. These fields interact with the external magnetic field of the horseshoe magnet. According to Lenz's Law, this interaction results in a force that opposes the motion of the disc. This is effectively a magnetic "drag" or "braking" force.
+4.  **Why the other options are incorrect:**
+    *   (A) Copper is non-ferromagnetic, so it is not significantly attracted to the magnet.
+    *   (B) While the disc has an induced magnetic field, the primary mechanism of braking is the interaction of forces (Lorentz forces) acting on the moving charges, not just "becoming a magnet."
+    *   (C) While currents are induced, they are not strictly "AC" in the sense of a circuit; they are circular loops of eddy currents, and the phrasing of this option is less precise than (D).
+
+Therefore, option **(D)** provides the most accurate and scientific explanation for the observed electromagnetic braking effect.
+
+###QUESTION_TYPE
+Multiple choice

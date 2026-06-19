@@ -1,0 +1,39 @@
+### Teacher's Solution and Explanation
+
+#### Part (a): Calculation
+**Answer:**
+Assuming an ideal transformer (where input power equals output power):
+$$P_{in} = P_{out}$$
+$$V_{in}I_{in} = V_{out}I_{out}$$
+$$240 \times I_{in} = 6 \times 1$$
+$$I_{in} = \frac{6}{240} = 0.025 \text{ A}$$
+
+**Explanation:**
+In HSC Physics, unless stated otherwise for these types of transformer problems, we assume an **ideal transformer** where there are no energy losses. Since power is defined as $P = VI$, the power input must equal the power output. By rearranging the formula to solve for the input current ($I_{in} = \frac{V_{out}I_{out}}{V_{in}}$), we substitute the given values to find the result.
+
+---
+
+#### Part (b): Modelling the Transformer
+**Answer Description:**
+To model this transformer, draw:
+1.  **A soft iron core:** Usually represented as a rectangle or a "closed-loop" core.
+2.  **Primary coil:** A coil on the left connected to the $240 \text{ V}$ AC supply, with a high number of turns ($N_p$).
+3.  **Secondary coil:** A coil on the right connected to the phone, with a low number of turns ($N_s$) because it is a step-down transformer ($V_{out} < V_{in}$).
+
+**Explanation:**
+A diagram of a transformer should clearly show the primary coil (input side) and secondary coil (output side) wound around a common laminated soft iron core. Ensure the diagram labels the input voltage as AC and the coils clearly show a higher number of turns on the primary side compared to the secondary side to indicate a step-down transformer.
+
+---
+
+#### Part (c): Maximising Efficiency
+**Answer:**
+Transformers are designed to minimise energy losses through several key features:
+1.  **Laminated Core:** The iron core is made of thin, insulated sheets (laminations) to break up eddy currents, which reduces heat loss (Joule heating).
+2.  **Soft Iron Core:** This material is used because it is easily magnetised and demagnetised, which minimises energy lost as heat due to magnetic hysteresis.
+3.  **Low Resistance Windings:** Using thick copper wire for the coils reduces their electrical resistance, thereby minimising power loss due to the heating effect of the current ($P = I^2R$).
+
+**Explanation:**
+This is a standard HSC Physics syllabus requirement. You must be able to link the design feature (e.g., laminations) to the specific type of energy loss it prevents (e.g., eddy currents). Using "Laminated core," "Soft iron," and "Low resistance copper" are the key technical terms required to secure both marks.
+
+###QUESTION_TYPE
+Calculation question

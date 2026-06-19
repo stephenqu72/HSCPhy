@@ -1,0 +1,27 @@
+To solve this problem, we first list our known variables, ensuring all units are converted to meters:
+*   Slit width ($a$) = $100\ \mu\text{m} = 1.0 \times 10^{-4}\ \text{m}$
+*   Slit separation ($d$) = $600\ \mu\text{m} = 6.0 \times 10^{-4}\ \text{m}$
+*   Wavelength ($\lambda$) = $380\ \text{nm} = 3.8 \times 10^{-7}\ \text{m}$
+*   Distance to screen ($L$) = $2.4\ \text{m}$
+
+### (a) Spacing between Fraunhofer diffraction minima
+The position of the diffraction minima is given by $a \sin \theta = m\lambda$. For small angles, $\sin \theta \approx \tan \theta = \frac{y}{L}$, so $y_m = \frac{m \lambda L}{a}$. The spacing between consecutive minima is:
+$$\Delta y_{\text{diff}} = \frac{\lambda L}{a} = \frac{(3.8 \times 10^{-7}\ \text{m})(2.4\ \text{m})}{1.0 \times 10^{-4}\ \text{m}} = 0.00912\ \text{m} = 9.12\ \text{mm}$$
+
+### (b) Number of interference maxima within the central diffraction envelope
+The central diffraction maximum extends from the first minimum on the left to the first minimum on the right (total width $= 2 \times \frac{\lambda L}{a}$). We need to find how many interference maxima fall within the range $|y| < \frac{\lambda L}{a}$.
+The position of interference maxima is $y_n = \frac{n \lambda L}{d}$.
+Set the boundary condition: $\frac{n \lambda L}{d} < \frac{\lambda L}{a}$
+Simplifying gives $n < \frac{d}{a} = \frac{600}{100} = 6$.
+The possible values for $n$ are $0, \pm 1, \pm 2, \pm 3, \pm 4, \pm 5$. 
+At $n = 6$, the interference maximum coincides with the first diffraction minimum (where intensity is zero). Since the question asks for maxima *within* the central envelope, we count the central peak ($n=0$) plus 5 on each side ($2 \times 5 = 10$).
+Total maxima = $1 + 10 = 11$.
+
+### (c) Changes observed if the laser is replaced with a red laser
+If the blue laser (shorter wavelength) is replaced by a red laser (longer wavelength):
+1.  **Increased spacing:** Both the interference fringe width ($\Delta y_{\text{int}} = \frac{\lambda L}{d}$) and the diffraction pattern width ($\Delta y_{\text{diff}} = \frac{\lambda L}{a}$) are directly proportional to $\lambda$. Therefore, the entire pattern will stretch, and both interference fringes and diffraction minima will appear further apart.
+2.  **Fewer fringes:** Since the ratio $\frac{\lambda}{d}$ and $\frac{\lambda}{a}$ increases, but the number of interference fringes within the diffraction envelope depends on the ratio $\frac{d}{a}$, which remains constant, the number of visible maxima remains similar, but they will be more spread out.
+3.  **Color:** The fringes will change from blue to red.
+
+###QUESTION_TYPE
+Calculation question

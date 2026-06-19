@@ -1,0 +1,27 @@
+To determine the direction of the induced current, we apply **Lenz’s Law**, which states that the direction of the induced current is such that it opposes the change in magnetic flux ($\Phi$) that produced it.
+
+### Analysis:
+
+**Position 1: Entering the field**
+*   **Change in flux:** As the coil moves into the region of the magnetic field (directed out of the page), the amount of magnetic flux passing through the loop increases in the "out" direction.
+*   **Opposition:** To oppose this increase, the coil must induce a magnetic field directed **into** the page.
+*   **Direction:** According to the Right-Hand Grip Rule, to create a magnetic field pointing into the page, the induced conventional current must flow in a **clockwise** direction.
+
+**Position 2: Leaving the field**
+*   **Change in flux:** As the coil moves out of the region of the magnetic field, the amount of magnetic flux passing through the loop in the "out" direction decreases.
+*   **Opposition:** To oppose this decrease, the coil must induce a magnetic field directed **out** of the page to reinforce the missing flux.
+*   **Direction:** According to the Right-Hand Grip Rule, to create a magnetic field pointing out of the page, the induced conventional current must flow in an **anticlockwise** direction.
+
+Comparing these results to the options provided:
+*   Position 1: Clockwise
+*   Position 2: Anticlockwise
+
+This corresponds to **Option C**.
+
+### Explanation Summary:
+1.  Use Lenz’s Law: The system will generate an induced current to oppose the change in magnetic flux.
+2.  At **Position 1**, flux is increasing, so the coil generates a field "into the page" to counteract it $\rightarrow$ Clockwise current.
+3.  At **Position 2**, flux is decreasing, so the coil generates a field "out of the page" to support it $\rightarrow$ Anticlockwise current.
+
+###QUESTION_TYPE
+Multiple choice

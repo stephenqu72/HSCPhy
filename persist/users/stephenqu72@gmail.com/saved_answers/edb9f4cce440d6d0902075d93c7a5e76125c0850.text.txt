@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### Part (a)
+**Account for the force on ring $X$ from $0$ to $0.05$ seconds:**
+
+*   **From $0$ to $0.03$ s:** The magnetic field $B$ is increasing. According to Faraday's Law, a changing magnetic flux induces an emf, and because ring $X$ is a complete circuit, an induced current flows. According to Lenz's Law, this current flows in a direction to oppose the change in flux (creating a magnetic field that opposes the solenoid's field). As the solenoid acts as a magnet (e.g., North pole facing the ring), the ring develops a corresponding pole facing the solenoid, resulting in a **repulsive force**.
+*   **From $0.03$ to $0.05$ s:** The magnetic field $B$ is constant. Since the flux $\Phi$ is no longer changing ($\frac{d\Phi}{dt} = 0$), there is no induced emf and no induced current. Consequently, **no force** acts on the ring.
+
+#### Part (b)(i)
+**Explain the behaviour of ring $Y$:**
+
+Ring $Y$ has a gap cut into it, which breaks the circuit. Although a changing magnetic field induces an emf across the gap due to Faraday's Law, **no induced current can flow** because the circuit is open. Without an induced current, there is no magnetic field produced by the ring to interact with the solenoid's field. Therefore, **no force** acts on ring $Y$ at any time.
+
+#### Part (b)(ii)
+**Calculate the maximum induced emf in ring $Y$:**
+
+The induced emf $\varepsilon$ is given by Faraday's Law: 
+$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+Assuming a single ring ($N=1$), and noting that $\Phi = BA$:
+$$\varepsilon = A \frac{\Delta B}{\Delta t}$$
+From the graph, the maximum rate of change occurs between $0$ and $0.03$ s:
+$$\frac{\Delta B}{\Delta t} = \frac{6 \times 10^{-3} \text{ T} - 0}{0.03 \text{ s} - 0} = 0.2 \text{ T/s}$$
+Given the area $A = 4 \times 10^{-4} \text{ m}^2$:
+$$\varepsilon = (4 \times 10^{-4} \text{ m}^2) \times (0.2 \text{ T/s}) = 8 \times 10^{-5} \text{ V}$$
+The maximum induced emf is $8 \times 10^{-5} \text{ V}$ (or $0.08 \text{ mV}$).
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

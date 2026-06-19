@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To understand why the coil does not turn, we must look at the **torque** acting on the coil. The torque ($\tau$) produced by a current-carrying coil in a magnetic field is given by the formula:
+$$\tau = nIAB \sin(\theta)$$
+where:
+- $n$ is the number of turns
+- $I$ is the current
+- $A$ is the area of the coil
+- $B$ is the magnetic field strength
+- $\theta$ is the angle between the normal to the plane of the coil and the magnetic field lines.
+
+**Why it is not turning:**
+In the diagram provided, the plane of the coil is perpendicular to the magnetic field lines. This means the **normal** to the coil (a line drawn at $90^\circ$ to the surface of the coil) is parallel to the magnetic field lines. In this configuration, $\theta = 0^\circ$ or $180^\circ$. Since $\sin(0^\circ) = 0$, the torque acting on the coil is zero. At this position, known as the "dead point" or "neutral position," the forces acting on the sides of the coil are either directed exactly towards or away from the axis of rotation, providing no turning moment.
+
+**Why (D) is the correct choice:**
+- **(A), (B), and (C):** Increasing the magnetic field, reversing the current, or increasing the current will not generate any torque if $\sin(\theta) = 0$. Changing these variables will only increase or reverse the zero-torque value.
+- **(D):** By changing the starting position of the coil (rotating it slightly so that the plane of the coil is no longer perpendicular to the magnetic field), $\theta$ will no longer be $0^\circ$. Once $\theta \neq 0^\circ$, the motor effect produces a non-zero torque ($\tau \neq 0$), causing the coil to start turning.
+
+### QUESTION_TYPE
+Multiple choice

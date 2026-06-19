@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Calculation:**
+Magnetic flux linkage is given by $\Phi = B \cdot A$, where $A$ is the area of the frame inside the magnetic field. As the frame moves at a constant velocity $v = 0.500\text{ m s}^{-1}$, the width of the frame inside the field increases linearly with time until the frame is fully immersed.
+
+1. At $t = 6.0\text{ s}$, the frame is fully inside the magnetic field (the graph plateaus).
+2. The distance traveled by the leading edge into the field in $6.0\text{ s}$ is $d = v \times t = 0.500\text{ m s}^{-1} \times 6.0\text{ s} = 3.0\text{ m}$.
+3. Looking at the diagram, the section of the frame with height $4.00\text{ m}$ is $2.00\text{ m}$ long. Since it takes $6\text{ s}$ to fully enter, the total length of the frame entering the field is $3.0\text{ m}$. This confirms that the $2.00\text{ m}$ section and $1.00\text{ m}$ of the leading transition section have entered.
+4. The plateau value of the flux linkage is $\Phi = 25\text{ Wb}$.
+5. We know $\Phi = B \times \text{Area}$. The area of the frame inside the field at $t = 6.0\text{ s}$ is $A = 4.00\text{ m} \times 2.00\text{ m} + L \times 1.00\text{ m} = 8 + L$.
+6. To find $B$, look at the slope of the graph: $\frac{\Delta \Phi}{\Delta t} = B \times L_{\text{vertical}} \times v$.
+7. From $t = 0$ to $t = 4\text{ s}$, $\Delta \Phi = 20\text{ Wb}$. The slope is $\frac{20}{4} = 5\text{ Wb/s}$.
+8. Using the section of height $4.00\text{ m}$: $5 = B \times 4.00 \times 0.500 \implies B = 2.5\text{ T}$.
+9. Now use the plateau: $25 = 2.5 \times (8 + L) \implies 10 = 8 + L \implies L = 2.0\text{ m}$.
+
+**Result:** $L = 2.0\text{ m}$.
+
+#### Part (b)
+The frame is $3.0\text{ m}$ long (from the $2.0\text{ m}$ section plus the $1.0\text{ m}$ section).
+1. At $t = 6.0\text{ s}$, the frame is fully inside.
+2. It stays fully inside until the back edge reaches the field boundary. The frame needs to travel an additional $6.0\text{ m}$ (width of the field) to start exiting.
+3. The back edge reaches the field entry at $t = 6.0\text{ s} + \frac{3.0\text{ m}}{0.5\text{ m/s}} = 12.0\text{ s}$. This matches the end of the provided graph.
+4. From $t = 12.0\text{ s}$ to $t = 18.0\text{ s}$ ($6\text{ m} / 0.5\text{ m/s} = 12\text{ s}$), the frame remains at $\Phi = 25\text{ Wb}$.
+5. From $t = 18.0\text{ s}$ to $t = 24.0\text{ s}$, the flux decreases linearly back to $0\text{ Wb}$ as the frame exits the field.
+
+#### Part (c)
+**Explanation:**
+When the frame enters or leaves the magnetic field, there is a **change in magnetic flux linkage** ($\Delta \Phi / \Delta t \neq 0$). According to **Faraday’s Law**, this induces an electromotive force (EMF). This EMF drives a current through the circuit (and the light bulb) due to **Lenz’s Law**, which creates an opposing magnetic field. The interaction between this induced current and the external magnetic field produces a magnetic force (Lorentz force) that opposes the motion of the frame. To maintain a constant velocity, an external force must be applied to counteract this magnetic braking force. When the frame is fully inside the field, the flux is constant, so no current is induced and no magnetic force acts on the frame.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,43 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this classic wave interference problem. Let’s break it down into the two required parts.
+
+### Part (a) Explanation
+To earn the 2 marks here, you must reference **path difference** and **constructive interference**.
+
+**Answer:**
+A bright fringe is formed at point P because the light waves originating from slits $S_1$ and $S_2$ undergo **constructive interference**. This occurs because the path difference between the two rays reaching point P is an integer multiple of the wavelength ($n\lambda$), where $n = 0, 1, 2, ...$. Consequently, the waves arrive in phase, crest-to-crest and trough-to-trough, resulting in a resultant wave with increased amplitude (intensity).
+
+---
+
+### Part (b) Calculation
+To calculate the wavelength, we use the Young’s double-slit formula for bright fringes:
+$$\Delta x = \frac{n\lambda L}{d}$$
+Where:
+*   $\Delta x$ = distance from the central fringe ($1.26 \times 10^{-2}\text{ m}$)
+*   $d$ = slit separation ($4.0 \times 10^{-4}\text{ m}$)
+*   $L$ = distance to screen ($2.00\text{ m}$)
+*   $n$ = fringe order
+
+**Step 1: Determine the fringe order ($n$)**
+Looking at Figure 11b, point C is the central fringe ($n=0$). Counting the bright fringes starting from C:
+- C is $n=0$
+- The next bright fringe is $n=1$
+- The next is $n=2$
+- The next is $n=3$
+- The next is $n=4$
+- The next is $n=5$
+- P is the $6^{\text{th}}$ bright fringe from the center, so **$n=6$**.
+
+**Step 2: Calculate $\lambda$**
+Rearrange the formula: $\lambda = \frac{d \cdot \Delta x}{n \cdot L}$
+
+$$\lambda = \frac{(4.0 \times 10^{-4}\text{ m}) \times (1.26 \times 10^{-2}\text{ m})}{6 \times 2.00\text{ m}}$$
+$$\lambda = \frac{5.04 \times 10^{-6}}{12}$$
+$$\lambda = 4.2 \times 10^{-7}\text{ m}$$
+
+Converting to nanometers (often requested in HSC exams):
+**$\lambda = 420\text{ nm}$**
+
+---
+
+###QUESTION_TYPE
+Calculation question

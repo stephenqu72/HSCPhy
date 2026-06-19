@@ -1,0 +1,41 @@
+To determine the wavelength of monochromatic light using a laser, the most standard and effective method in the HSC Physics syllabus is to use a **double-slit interference pattern** (Young’s Double Slit Experiment) or a **diffraction grating**.
+
+### Experimental Design
+
+**1. Aim:** To determine the wavelength ($\lambda$) of monochromatic laser light.
+
+**2. Apparatus:** Laser, diffraction grating (with known slit spacing $d$), screen, meter ruler, and a clamp stand.
+
+**3. Diagram:**
+```text
+Laser  ----->  [Grating]  ----->  (Interference Pattern on Screen)
+                                     |  x  |
+                                     |<--->|
+                                     |  D  |
+```
+*   $d$ = distance between slits/grating lines.
+*   $x$ = distance between adjacent bright fringes (maxima).
+*   $D$ = distance from the grating to the screen.
+
+**4. Procedure:**
+1. Place the laser and diffraction grating on a bench. Ensure the laser beam is incident perpendicular to the grating.
+2. Place the screen at a distance $D$ (e.g., $2.0 \text{ m}$) from the grating.
+3. Measure the distance $x$ between multiple adjacent bright fringes on the screen to calculate an average value for $x$, reducing random error.
+4. Use the formula for constructive interference (for small angles): $\lambda = \frac{dx}{D}$.
+
+### Validity and Error Accounting
+*   **Validity:** The experiment is valid if the laser is truly monochromatic and the screen is placed far enough from the grating ($D \gg x$) so that the small-angle approximation $\sin\theta \approx \tan\theta \approx \frac{x}{D}$ holds.
+*   **Systematic Error:** A major error is the inaccurate measurement of $D$ or $d$. Use a digital caliper to check the grating spacing and use a long laser-based distance measurer or meter ruler for $D$.
+*   **Random Error:** Parallax error when measuring $x$ on the screen. **Mitigation:** Use a vernier caliper to measure the total distance across $n$ fringes and divide by $n$, or use a darkened room to clearly define the center of the fringes.
+
+---
+
+### How to solve this (Teacher's Tip)
+When an HSC question asks you to "Outline an investigation," you must follow the scientific method structure:
+1. **Identify the Physics principle:** Interference of light waves.
+2. **State the formula:** $\lambda = \frac{dx}{D}$.
+3. **Structure the steps:** Always include a setup, a measurement, and an analysis.
+4. **Address validity:** A common mistake is forgetting to mention *why* the experiment is valid (e.g., the small-angle approximation or minimizing parallax). 
+
+###QUESTION_TYPE
+Experimental questions

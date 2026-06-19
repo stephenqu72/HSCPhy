@@ -1,0 +1,22 @@
+To solve this problem, we must understand the physics of Young’s double-slit interference pattern. The distance between adjacent bright fringes (maxima) on the screen is known as the fringe separation, denoted by $\Delta y$.
+
+The formula for the distance between fringes in a double-slit experiment is:
+$$\Delta y = \frac{\lambda L}{d}$$
+
+Where:
+*   $\lambda$ is the wavelength of the light used.
+*   $L$ is the distance from the slits to the screen.
+*   $d$ is the separation between the two slits.
+
+To **increase** the distance between maxima ($\Delta y$), we need to either increase the wavelength ($\lambda$), increase the screen distance ($L$), or decrease the slit separation ($d$).
+
+### Evaluating the Options:
+*   **A. Decreasing the distance between slits ($d$):** Looking at the formula $\Delta y = \frac{\lambda L}{d}$, since $d$ is in the denominator, decreasing $d$ will result in an increase in $\Delta y$. **This is correct.**
+*   **B. Changing the colour to blue:** Blue light has a shorter wavelength than the current red laser (630 nm). Decreasing $\lambda$ results in a decrease in $\Delta y$.
+*   **C. Moving the screen closer:** Decreasing $L$ results in a decrease in $\Delta y$.
+*   **D. Replacing with a diffraction grating:** A grating with 25 lines/mm has a slit spacing ($d$) of $\frac{1}{25} \text{ mm} = 0.04 \text{ mm}$ (or $40 \text{ } \mu\text{m}$). Since the original setup also used $40 \text{ } \mu\text{m}$ (assuming the symbol in the image is $\mu\text{m}$), and a grating creates a much more complex interference pattern, this would not result in the standard increase defined by the simple double-slit relation. Regardless, Option A is the direct, intended variable manipulation based on the standard formula.
+
+**Conclusion:** The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To find the secondary voltage of the transformer, we need to focus on the definition of power efficiency in a transformer system.
+
+### Step-by-Step Solution:
+
+1.  **Understand the Efficiency Formula:**
+    The efficiency ($\eta$) of a transformer is defined as the ratio of the output power ($P_s$) to the input power ($P_p$):
+    $$\eta = \frac{P_s}{P_p}$$
+
+2.  **Calculate the Output Power ($P_s$):**
+    We are given the efficiency $\eta = 85\% = 0.85$ and the input power $P_p = 100\text{ W}$.
+    $$P_s = \eta \times P_p$$
+    $$P_s = 0.85 \times 100\text{ W} = 85\text{ W}$$
+
+3.  **Relate Power, Voltage, and Current:**
+    The output power (secondary power) is related to the secondary voltage ($V_s$) and secondary current ($I_s$) by the formula:
+    $$P_s = V_s \times I_s$$
+
+4.  **Solve for Secondary Voltage ($V_s$):**
+    We know $P_s = 85\text{ W}$ and $I_s = 10\text{ A}$. Rearranging the formula to solve for $V_s$:
+    $$V_s = \frac{P_s}{I_s}$$
+    $$V_s = \frac{85\text{ W}}{10\text{ A}} = 8.5\text{ V}$$
+
+*Note: The number of turns in the primary and secondary coils is extra information provided in the question, but it is not required for this specific calculation because we are given the input power and efficiency directly.*
+
+**Answer:** The secondary voltage is $8.5\text{ V}$, which corresponds to option **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

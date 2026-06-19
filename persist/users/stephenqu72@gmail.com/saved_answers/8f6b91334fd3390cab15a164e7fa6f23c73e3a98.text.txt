@@ -1,0 +1,21 @@
+To solve this question, we must apply **Lenz’s Law** and **Faraday’s Law of Induction**. Eddy currents are loops of electrical current induced within conductors by a changing magnetic field or motion through a magnetic field. They always flow in a direction that opposes the change that created them.
+
+### (a) i) Metal sheet moving through a magnetic field
+As the metal sheet enters/exits the magnetic field, the magnetic flux through parts of the sheet changes. 
+*   **How to draw it:** Draw two circular or semi-circular loops of current. If the sheet is entering a region with a magnetic field pointing into the page, the induced current will create a magnetic field pointing out of the page (to oppose the increase in flux), resulting in a **counter-clockwise** eddy current on the leading edge and a **clockwise** eddy current on the trailing edge.
+
+### (a) ii) Magnetic field applied to a spinning disk
+When a portion of a rotating conductive disk passes through a localized magnetic field, the change in flux induces eddy currents.
+*   **How to draw it:** Draw a vortex-like pattern centered on the area where the magnetic field is applied. The currents will circulate such that they create a magnetic force opposing the rotation of the disk (Lenz's Law).
+
+### (b) Application of eddy currents (e.g., Electromagnetic Braking)
+**Physics Principles:**
+1.  **Faraday's Law:** A changing magnetic flux $\Delta\Phi$ through a conductor induces an electromotive force (EMF), $\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$.
+2.  **Lenz’s Law:** The induced current creates its own magnetic field that opposes the original change in flux.
+3.  **Interaction:** The induced eddy currents interact with the external magnetic field to produce a **Lorentz force** ($F = ILB$) that acts in the direction opposite to the motion.
+4.  **Energy Conversion:** The kinetic energy of the moving object is converted into thermal energy ($P = I^2R$) due to the resistance of the conductor, effectively braking the system without physical contact.
+
+**Example:** In an eddy current brake on a train, magnets are placed near the rails. As the train moves, eddy currents are induced in the rails. The resulting force opposes the train's motion, slowing it down smoothly and without mechanical wear.
+
+###QUESTION_TYPE
+Short answer

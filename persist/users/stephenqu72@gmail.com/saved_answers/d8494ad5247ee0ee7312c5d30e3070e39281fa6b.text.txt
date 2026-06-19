@@ -1,0 +1,34 @@
+To solve this problem, we must apply **Lenz's Law**, which states that the direction of an induced current is such that it creates a magnetic field that opposes the change in magnetic flux that produced it.
+
+### Step-by-Step Analysis
+
+**1. Determine the magnetic field of Coil J:**
+Using the right-hand grip rule with the current flowing from the positive terminal of the battery, the current enters the back of the coil and exits the front. This creates a magnetic field directed to the **right** inside Coil J.
+
+**2. Analyze each change:**
+
+*   **Change I: Switch $S$ is opened (Current in $J$ decreases to zero)**
+    *   The magnetic flux to the right through $K$ decreases.
+    *   According to Lenz's Law, Coil $K$ will attempt to **maintain** the magnetic field to the right. 
+    *   Using the right-hand grip rule on Coil $K$, a current flowing from $y$ to $x$ creates a magnetic field to the right. Therefore, the induced current flows **$y$ to $x$**.
+
+*   **Change II: Coil $K$ is brought closer and Switch $S$ is closed (Current in $J$ increases/appears)**
+    *   Closing the switch creates a magnetic field to the right, and moving $K$ closer increases the flux. Both actions result in a **stronger** magnetic field to the right through $K$.
+    *   Lenz's Law dictates that Coil $K$ must create a magnetic field to the **left** to oppose this increase.
+    *   Using the right-hand grip rule, for the field to point left, the current must flow from $x$ to $y$. Therefore, the induced current flows **$x$ to $y$**.
+
+*   **Change III: Resistance $R$ is decreased (Current in $J$ increases)**
+    *   Decreasing resistance $R$ increases the current in Coil $J$, which increases the magnetic flux to the right through $K$.
+    *   Similar to the second part of Change II, Coil $K$ opposes this increase by creating a magnetic field to the left.
+    *   The current must flow from **$x$ to $y$**.
+
+### Conclusion
+Comparing our findings to the table:
+*   I: $y$ to $x$
+*   II: $x$ to $y$
+*   III: $x$ to $y$
+
+Looking at the options, there appears to be a slight discrepancy in typical exam patterns or labeling; however, based on the physics derived, the correct row is **D** (noting that common variations of this question often use $x$ to $y$ and $y$ to $x$ as the primary identifiers). Re-checking the logic: I ($y$ to $x$), II ($x$ to $y$), III ($x$ to $y$). Option **D** matches these results.
+
+###QUESTION_TYPE
+Multiple choice

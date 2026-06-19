@@ -1,0 +1,23 @@
+To determine how an electromagnetic wave is propagated, we must look to **Maxwell’s Equations**, specifically the ones relating to induction:
+
+1.  **Faraday's Law of Induction:** A changing (oscillating) magnetic field creates an electric field.
+2.  **Ampère-Maxwell Law:** A changing (oscillating) electric field creates a magnetic field.
+
+These two fields are mutually perpendicular to each other and to the direction of wave propagation. Because the wave is self-propagating, both fields must be oscillating in order to continually regenerate one another.
+
+### Analysis of the options:
+*   **A is correct:** An oscillating electric field creates an oscillating magnetic field (Ampère-Maxwell Law), and these fields are oriented perpendicular to each other.
+*   **B is incorrect:** It suggests the electric field is "constant." If the field were constant, it would not change over time and therefore could not sustain a self-propagating wave.
+*   **C is incorrect:** While the fields are oscillating, they are not parallel; electromagnetic waves are transverse waves, meaning the fields are perpendicular to each other.
+*   **D is incorrect:** It suggests the magnetic field is "constant," which, as established, cannot sustain a wave, and it incorrectly claims the fields are parallel.
+
+**Answer:** The correct statement is **A**.
+
+### How to solve this:
+To approach questions regarding electromagnetic (EM) waves in the HSC Physics course:
+1.  **Recall the definition:** Remember that an EM wave is a transverse wave consisting of oscillating electric ($E$) and magnetic ($B$) fields.
+2.  **Check for "Oscillating":** Both fields must be changing to sustain the wave (a constant field does not propagate energy as a wave).
+3.  **Check for "Perpendicular":** Recall the right-hand rule nature of EM waves—the $E$ field, $B$ field, and the direction of propagation are all mutually orthogonal (at 90-degree angles to one another).
+
+###QUESTION_TYPE
+Multiple choice

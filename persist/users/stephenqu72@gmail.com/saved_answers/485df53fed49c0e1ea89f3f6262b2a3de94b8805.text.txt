@@ -1,0 +1,22 @@
+### Answer
+The correct statement is **(B) Current flow in the coil decreases.**
+
+---
+
+### Explanation
+To solve this, we apply Ohm's Law to the circuit of a DC motor. 
+
+A DC motor consists of a supply voltage ($V$), the internal resistance of the coil ($R$), and the back electromotive force (back EMF, denoted as $\varepsilon$), which is generated as the motor spins. Because the back EMF opposes the supply voltage, the net voltage across the coil is the difference between the supply voltage and the back EMF ($V - \varepsilon$).
+
+The formula for the current ($I$) flowing through the motor is given by:
+
+$$I = \frac{V - \varepsilon}{R}$$
+
+From this formula, we can see that:
+1.  **Inverse relationship:** As the back EMF ($\varepsilon$) increases, the numerator ($V - \varepsilon$) becomes smaller.
+2.  **Result:** A smaller numerator results in a smaller value for the current ($I$).
+
+Essentially, the back EMF acts as a "regulating" force. When a motor speeds up, the back EMF increases, which automatically reduces the current drawn by the motor. This prevents the motor from drawing excessive current once it has reached its operating speed.
+
+###QUESTION_TYPE
+Multiple choice

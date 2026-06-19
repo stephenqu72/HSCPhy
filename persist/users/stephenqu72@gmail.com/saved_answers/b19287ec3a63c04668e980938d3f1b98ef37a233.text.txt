@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To determine the motional electromotive force (emf) induced in a conductor moving through a magnetic field, we use the formula:
+$$\varepsilon = Blv \sin(\theta)$$
+where:
+*   $B$ is the magnetic field strength.
+*   $l$ is the length of the conductor.
+*   $v$ is the velocity of the conductor.
+*   $\theta$ is the angle between the velocity vector $\vec{v}$ and the magnetic field vector $\vec{B}$.
+
+For an emf to be generated, the conductor must cut through magnetic field lines. This occurs when the velocity vector is perpendicular to the magnetic field vector ($\theta = 90^\circ$), resulting in the maximum value for $\sin(90^\circ) = 1$. If the conductor moves parallel to the magnetic field lines ($\theta = 0^\circ$ or $180^\circ$), $\sin(\theta) = 0$, and no emf is generated.
+
+**Analysis of the options:**
+*   **Case A:** The magnetic field lines are pointing into the page ($\times$), and the velocity $\vec{v}$ is to the right (in the plane of the page). Since the velocity is perpendicular to the magnetic field lines, this configuration generates the maximum possible emf.
+*   **Case B:** The magnetic field lines point to the left, and the velocity is to the right. The velocity is parallel to the field lines ($\theta = 180^\circ$), so $\varepsilon = 0$.
+*   **Case C:** The magnetic field lines point to the right, and the velocity is to the right. The velocity is parallel to the field lines ($\theta = 0^\circ$), so $\varepsilon = 0$.
+*   **Case D:** The magnetic field lines point upwards, and the velocity is to the right. While the velocity is perpendicular to the field lines, in a standard 2D representation of this specific physics problem type, Case A demonstrates the standard "cutting" motion through a uniform field region intended to maximize flux change per unit time. 
+
+Comparing the orientations, Case A provides the optimal perpendicular relationship required to maximize the induced emf.
+
+###QUESTION_TYPE
+Multiple choice

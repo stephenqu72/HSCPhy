@@ -1,0 +1,19 @@
+As an HSC Physics teacher, I will guide you through this 4-mark response. For questions asking you to "outline a method," you should describe the setup and the key measurement process, then explicitly address the limitations of that method.
+
+### Suggested Answer
+A common and effective method to determine the speed of light in a classroom setting is using a **microwave oven and a block of margarine (or chocolate)**.
+
+1.  **Method:** Place a large block of margarine on a microwave-safe plate and remove the rotating turntable so the food remains stationary. Heat the margarine for 15–20 seconds until clear "hot spots" (melted regions) appear. These correspond to the antinodes of the standing wave pattern generated inside the microwave.
+2.  **Calculation:** Measure the distance $d$ between two adjacent melted spots. Since this distance represents half a wavelength ($\frac{\lambda}{2}$), the wavelength is $\lambda = 2d$. Find the frequency $f$ of the microwave (usually printed on the back label, typically $2.45 \text{ GHz}$ or $2.45 \times 10^9 \text{ Hz}$). Use the wave equation $v = f\lambda$ to calculate the speed of light.
+3.  **Limitation:** A major factor limiting accuracy is the **difficulty in precisely identifying the exact center of the melted spots**. Because the heat spreads through the margarine via conduction, the boundaries of the melted zones are often blurred, leading to significant uncertainty in the measurement of $d$.
+
+---
+
+### How to solve this type of question
+*   **Step 1: Choose a clear, standard method.** Do not try to invent a method from scratch. In the HSC syllabus, you are expected to know the microwave experiment or the Fizeau/Foucault rotating mirror experiments. The microwave method is the most practical for a written response.
+*   **Step 2: State the formula.** Always show the relationship between your variables (e.g., $v = f\lambda$). This proves you understand the physics behind the data collection.
+*   **Step 3: Be specific about the limitation.** Do not just say "human error." Markers want to see a specific source of uncertainty related to the equipment or procedure. For the microwave experiment, measurement error due to heat diffusion is the most scientifically sound critique.
+*   **Step 4: Structure for 4 marks.** You need roughly 2 marks for the methodology (steps/logic) and 2 marks for the identification and explanation of the limiting factor.
+
+###QUESTION_TYPE
+Experimental questions

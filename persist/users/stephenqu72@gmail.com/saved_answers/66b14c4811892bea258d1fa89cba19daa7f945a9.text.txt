@@ -1,0 +1,25 @@
+To answer this 7-mark HSC Physics question, you must demonstrate a sophisticated understanding of the relationship between electrical energy, mechanical work, and the role of **Back EMF** (Electromotive Force).
+
+### Answer
+Energy conservation in a DC motor is governed by the principle that electrical energy supplied is converted into mechanical work, with losses accounted for by internal resistance and friction. 
+
+1. **Input Energy:** Electrical energy is supplied to the motor by a DC power source (voltage $V$). The power input is given by $P_{in} = VI$.
+2. **Mechanical Output:** As the motor spins, it performs mechanical work. According to Faraday's Law, the rotation of the armature within the magnetic field induces a Back EMF ($\epsilon$) that opposes the supply voltage.
+3. **The Role of Back EMF:** The net voltage across the motor's internal resistance ($R$) is $(V - \epsilon)$. By Ohm’s Law, the current is $I = \frac{V - \epsilon}{R}$. Rearranging this gives $V = \epsilon + IR$. Multiplying by current $I$, we get the power balance equation:
+   $$VI = \epsilon I + I^2 R$$
+4. **Energy Transformation:**
+   *   $VI$ is the total electrical power input.
+   *   $\epsilon I$ represents the useful mechanical power output (minus internal mechanical losses like friction and air resistance).
+   *   $I^2 R$ represents the power dissipated as heat due to the internal resistance of the coils (Joule heating).
+5. **Conservation Principle:** Energy is never "lost" but transformed. If the motor is stalled (load is too heavy), $\epsilon = 0$, $I$ becomes very large, and all energy is dissipated as heat, risking motor burnout. As the motor reaches high speed, $\epsilon$ increases, $I$ decreases, and a greater proportion of input energy is converted into kinetic energy, maintaining the balance dictated by the Law of Conservation of Energy.
+
+---
+
+### How to solve this
+1. **Focus on the "Energy Balance Equation":** Always start by stating that energy is conserved by converting input electrical energy into mechanical output energy and thermal energy (heat).
+2. **Explicitly mention Back EMF:** This is the "physics" heart of the question. You must explain that the Back EMF opposes the input voltage, acting as a regulator for the current based on the motor's load.
+3. **Show the Algebra:** Use the equation $VI = \epsilon I + I^2 R$. In an HSC context, explaining what each term in this equation represents is the standard way to secure all 7 marks. 
+4. **Relate to Load:** Discuss the extremes: what happens when the motor is just starting vs. when it is at full speed. This shows deep conceptual understanding.
+
+###QUESTION_TYPE
+Essay

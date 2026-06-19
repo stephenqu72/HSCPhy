@@ -1,0 +1,29 @@
+To solve this problem, we use the ideal transformer equation, which relates the voltages and the number of turns (windings) in the primary and secondary coils:
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+
+### Given data:
+*   Primary voltage ($V_p$) = $415\text{ V}$
+*   Secondary voltage ($V_s$) = $12\text{ V}$
+*   Primary windings ($N_p$) = $1000$
+
+### Step-by-Step Calculation:
+1.  **Rearrange the formula** to solve for the number of secondary windings ($N_s$):
+    $$N_s = N_p \times \frac{V_s}{V_p}$$
+
+2.  **Substitute the known values** into the equation:
+    $$N_s = 1000 \times \frac{12}{415}$$
+
+3.  **Perform the calculation**:
+    $$N_s = 1000 \times 0.028915...$$
+    $$N_s \approx 28.915$$
+
+Rounding to the nearest whole number, we get $29$.
+
+Comparing this result to the given options, **(B) 29** is the correct answer.
+
+### Explanation:
+Transformers work on the principle of electromagnetic induction. The ratio of the voltage is directly proportional to the ratio of the number of turns. Since the voltage drops significantly (from $415\text{ V}$ down to $12\text{ V}$), the number of turns in the secondary coil must also be significantly lower than in the primary coil. Calculating the ratio shows that we need approximately $29$ turns to achieve the desired output voltage.
+
+###QUESTION_TYPE
+Multiple choice

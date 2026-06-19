@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+#### Part (a)
+To determine the polarity of terminals $A$ and $B$, use the **Right-Hand Grip Rule** or **Fleming’s Left-Hand Rule**. Looking at the diagram, the magnetic field lines point from $N$ to $S$. For the motor to rotate in the direction indicated by the circular arrow (clockwise when viewed from the back), side $XY$ must experience an upward force. According to the left-hand rule, with the force upward and the field toward the left, the current must flow from $X$ to $Y$. This means current flows from the brush near $X$ into the coil, making **Terminal $B$ positive ($+$)** and **Terminal $A$ negative ($-$)**.
+
+#### Part (b)
+The component is the **split-ring commutator**.
+**Explanation:** As the coil rotates past the vertical position (where torque would normally reverse), the split-ring commutator reverses the direction of the current in the coil. Because the current direction swaps every half-turn, the force on each side of the coil also reverses. This ensures that the torque remains in the same direction, allowing the motor to continue rotating in the same sense rather than oscillating back and forth.
+
+#### Part (c)
+The formula for torque is $\tau = nIAB\cos(\theta)$ or $\tau = nIAB\sin(\phi)$, where $\phi$ is the angle between the plane of the coil and the magnetic field. Here, the field is horizontal, and $\theta$ is the angle between the normal to the coil and the magnetic field.
+Given: $I = 12\text{ A}$, $B = 0.65\text{ T}$, $A = 0.04\text{ m} \times 0.08\text{ m} = 0.0032\text{ m}^2$. Assuming $n=1$.
+
+*   **Position I (Horizontal):** The angle between the normal and the field is $0^\circ$. $\tau = 12 \times 0.65 \times 0.0032 \times \cos(0^\circ) = \mathbf{0.02496\text{ Nm}}$.
+*   **Position II ($60^\circ$ from horizontal):** The normal makes an angle of $60^\circ$ with the horizontal field lines. $\tau = 0.02496 \times \cos(60^\circ) = \mathbf{0.01248\text{ Nm}}$.
+*   **Position III (Vertical):** The normal is at $90^\circ$ to the field. $\tau = 0.02496 \times \cos(90^\circ) = \mathbf{0\text{ Nm}}$.
+
+**Direction of rotation:** Throughout all positions, the rotation remains **clockwise** (due to the commutator's action).
+
+***
+
+###QUESTION_TYPE
+Calculation question

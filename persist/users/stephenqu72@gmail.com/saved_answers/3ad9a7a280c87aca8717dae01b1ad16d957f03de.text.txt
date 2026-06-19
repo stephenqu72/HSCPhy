@@ -1,0 +1,30 @@
+To solve this problem, we need to apply the principles of wave interference in Young's double-slit experiment.
+
+### Explanation
+
+1.  **Understand the Physical Setup:** When monochromatic light passes through two slits, the light waves interfere with each other. Constructive interference creates "bright fringes," while destructive interference creates "dark fringes."
+2.  **Identify the Interference Condition:**
+    *   **Constructive Interference (Bright Fringes):** Occurs when the path difference ($\Delta L$) between the two waves is an integer multiple of the wavelength ($\lambda$).
+        $$\Delta L = n\lambda \quad \text{where } n = 0, 1, 2, \dots$$
+    *   **Destructive Interference (Dark Fringes):** Occurs when the path difference is an odd-integer multiple of half the wavelength.
+        $$\Delta L = \left(n + \frac{1}{2}\right)\lambda \quad \text{where } n = 0, 1, 2, \dots$$
+3.  **Analyze the Image:** The point on the screen is clearly located within a bright fringe. Therefore, we are looking for a condition of constructive interference. 
+4.  **Evaluate the Options:**
+    *   (A) $\frac{\lambda}{2}$: This corresponds to the first dark fringe ($n=0$).
+    *   (B) $\lambda$: This corresponds to the first bright fringe ($n=1$).
+    *   (C) $\frac{3\lambda}{2}$: This corresponds to the second dark fringe ($n=1$).
+    *   (D) $2\lambda$: This corresponds to the second bright fringe ($n=2$).
+
+By counting the fringes starting from the center (central maximum, $n=0$):
+*   The center is at $\Delta L = 0$.
+*   The first dark fringe is $\frac{\lambda}{2}$.
+*   The first bright fringe is $\lambda$.
+*   The second dark fringe is $\frac{3\lambda}{2}$.
+*   The second bright fringe is $2\lambda$.
+
+Looking at the diagram provided, the spot indicated is the **second bright fringe** (the first bright fringe is the central one, followed by a dark fringe, then the second bright fringe). Therefore, the path difference is $2\lambda$.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

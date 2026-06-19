@@ -1,0 +1,31 @@
+To determine the efficiency and the type of transformer, we need to perform two distinct steps: identifying the transformer type based on the number of turns, and calculating the efficiency based on power input and output.
+
+### 1. Determining the Type of Transformer
+The type of transformer (step-up or step-down) is determined by comparing the number of turns in the primary coil ($N_1$) to the secondary coil ($N_2$).
+*   $N_1 = 1000$
+*   $N_2 = 200$
+
+Since $N_2 < N_1$ (the secondary coil has fewer turns than the primary), the voltage will be stepped down. Therefore, it is a **step-down** transformer.
+
+### 2. Calculating the Efficiency
+Efficiency ($\eta$) is defined as the ratio of power output to power input, expressed as a percentage:
+$$\eta = \frac{P_{out}}{P_{in}} \times 100\%$$
+
+**Step A: Calculate Input Power ($P_{in}$)**
+$$P_{in} = V_1 \times I_1 = 240\,\text{V} \times 10.0\,\text{A} = 2400\,\text{W}$$
+
+**Step B: Calculate Output Voltage ($V_2$)**
+Using the transformer turn ratio formula:
+$$\frac{V_2}{V_1} = \frac{N_2}{N_1}$$
+$$V_2 = V_1 \times \left(\frac{N_2}{N_1}\right) = 240\,\text{V} \times \left(\frac{200}{1000}\right) = 240 \times 0.2 = 48\,\text{V}$$
+
+**Step C: Calculate Output Power ($P_{out}$)**
+$$P_{out} = V_2 \times I_2 = 48\,\text{V} \times 44.0\,\text{A} = 2112\,\text{W}$$
+
+**Step D: Calculate Efficiency ($\eta$)**
+$$\eta = \left(\frac{2112\,\text{W}}{2400\,\text{W}}\right) \times 100\% = 0.88 \times 100\% = 88\%$$
+
+Comparing our results (88% efficiency, step-down) with the given options, we find it matches option **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

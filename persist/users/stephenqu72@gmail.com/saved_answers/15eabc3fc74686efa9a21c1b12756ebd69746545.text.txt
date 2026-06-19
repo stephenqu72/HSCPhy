@@ -1,0 +1,34 @@
+To find the current drawn from the mains (the primary circuit), we can use the principle of conservation of energy. In an **ideal transformer**, the power input in the primary circuit is equal to the power output in the secondary circuit.
+
+### Step 1: Calculate the power consumed by the secondary circuit
+Each lamp is rated at $12.0\text{ W}$. Since there are 5 identical lamps, the total power ($P_{total}$) consumed in the secondary circuit is:
+$$P_{secondary} = 5 \times 12.0\text{ W} = 60.0\text{ W}$$
+
+*(Note: Even though the lamps are arranged in a specific circuit configuration, the total power drawn by the load remains the sum of the power dissipated by each individual lamp.)*
+
+### Step 2: Relate primary power to secondary power
+Because the transformer is ideal, the power input from the primary mains equals the power output:
+$$P_{primary} = P_{secondary} = 60.0\text{ W}$$
+
+### Step 3: Calculate the primary current
+The primary power is given by the product of the primary voltage ($V_p$) and the primary current ($I_p$):
+$$P_{primary} = V_p \times I_p$$
+$$60.0\text{ W} = 240.0\text{ V} \times I_p$$
+
+Rearranging to solve for $I_p$:
+$$I_p = \frac{60.0\text{ W}}{240.0\text{ V}}$$
+$$I_p = 0.25\text{ A}$$
+
+### Reviewing the options
+Looking at the provided choices:
+(A) 0.20 A
+(B) 0.40 A
+(C) 2.00 A
+(D) 4.00 A
+
+There appears to be a slight discrepancy between the standard calculation ($0.25\text{ A}$) and the provided options. However, let's re-examine the circuit. The lamps are rated at $6\text{ V}$, but the secondary voltage is $12\text{ V}$. For the lamps to operate at "normal brightness" (rated $6\text{ V}$), they must be in series pairs. If there are 5 lamps, this suggests an error in the problem's circuit diagram or values. Assuming the total power of $60\text{ W}$ is correct based on the lamp ratings, the answer should be $0.25\text{ A}$. 
+
+Given the standard nature of these HSC questions, if $0.25\text{ A}$ is not available, check if the power consumption was intended to be different. If we assume the question implies $I_p = 0.20\text{ A}$, the secondary power would be $48\text{ W}$ (4 lamps). If it were $0.40\text{ A}$, the power would be $96\text{ W}$ (8 lamps). Given the options, **(A)** is the closest mathematical approximation often found in textbook errors, but strictly speaking, the physics results in $0.25\text{ A}$.
+
+###QUESTION_TYPE
+Multiple choice

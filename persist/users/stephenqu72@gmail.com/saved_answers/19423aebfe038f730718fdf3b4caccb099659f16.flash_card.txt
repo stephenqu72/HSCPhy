@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship between the horizontal acceleration ($a$) and the tilt angle ($\theta$) in an accelerometer setup?
+
+### Back
+- Key idea: Resolving tension into a vertical component (balancing weight) and a horizontal component (providing acceleration).
+- Formula / law / constant / figure: $a = g \tan \theta$
+- When to use it: To calculate linear acceleration from a measured angular displacement in an accelerometer.
+- Common trap: Incorrectly resolving vectors (e.g., using $\sin \theta$ instead of $\tan \theta$) or assuming the angle is $0^\circ$ when there is constant velocity.

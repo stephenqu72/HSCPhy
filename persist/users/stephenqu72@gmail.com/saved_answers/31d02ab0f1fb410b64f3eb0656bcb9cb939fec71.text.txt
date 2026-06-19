@@ -1,0 +1,28 @@
+To solve these problems, we use the fundamental wave equation and the principles of geometric optics.
+
+### Part a: Frequency of the laser light
+The frequency $f$ of a wave is related to its speed $v$ and wavelength $\lambda$ by the formula $v = f\lambda$. In air (which we approximate as a vacuum), $v = c \approx 3.00 \times 10^8 \text{ m/s}$. The wavelength $\lambda = 565 \text{ nm} = 565 \times 10^{-9} \text{ m}$.
+
+$$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8}{565 \times 10^{-9}} \approx 5.31 \times 10^{14} \text{ Hz}$$
+
+### Part b: Critical angle
+The critical angle $\theta_c$ occurs at the boundary between a denser medium (core, $n_1 = 1.67$) and a less dense medium (cladding, $n_2 = 1.45$). We use Snell's Law where the angle of refraction is $90^\circ$:
+
+$$\sin(\theta_c) = \frac{n_2}{n_1} = \frac{1.45}{1.67} \approx 0.86826$$
+$$\theta_c = \arcsin(0.86826) \approx 60.3^\circ$$
+
+### Part c: Speed of light in the core
+The speed of light in a medium $v$ is given by $v = \frac{c}{n}$, where $n$ is the refractive index of the medium. For the core, $n_{\text{core}} = 1.67$.
+
+$$v = \frac{3.00 \times 10^8 \text{ m/s}}{1.67} \approx 1.7964 \times 10^8 \text{ m/s}$$
+Rounding to three significant figures, we get $1.80 \times 10^8 \text{ m/s}$.
+
+***
+
+### Summary of Answers:
+*   **a.** $5.31 \times 10^{14} \text{ Hz}$
+*   **b.** $60.3^\circ$
+*   **c.** $1.80 \times 10^8 \text{ m/s}$
+
+###QUESTION_TYPE
+Calculation question

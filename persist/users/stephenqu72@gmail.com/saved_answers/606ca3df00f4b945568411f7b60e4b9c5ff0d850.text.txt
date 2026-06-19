@@ -1,0 +1,26 @@
+To solve this HSC physics problem, we must apply **Faraday's Law of Induction** and **Lenz's Law**.
+
+### Answer and Explanation
+
+**Experiment 1 (Switch Open):**
+*   **Observation:** The ammeter will show no current ($I = 0$).
+*   **Explanation:** As the trolley moves towards the magnet, the magnetic flux through the solenoid increases. According to Faraday’s Law, an electromotive force (EMF) is induced across the ends of the solenoid because there is a change in magnetic flux ($\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}$). However, because the switch is open, the circuit is incomplete. Without a closed path for charge carriers to flow, no current can be induced.
+
+**Experiment 2 (Switch Closed):**
+*   **Observation:** The ammeter will show a non-zero current, and the trolley will experience a deceleration (it will slow down).
+*   **Explanation:** 
+    1.  **Faraday's Law:** Similar to Experiment 1, the change in magnetic flux through the solenoid induces an EMF. Since the circuit is now closed, this EMF drives an induced current through the wire.
+    2.  **Lenz's Law:** This law states that the direction of the induced current creates a magnetic field that opposes the change in flux that produced it. As the North pole of the magnet approaches, the coil will induce a North pole on the side facing the magnet to create a repulsive force.
+    3.  **Conservation of Energy:** The current flowing through the resistance of the wire dissipates energy as heat (Joule heating). This energy must come from the kinetic energy of the trolley. Therefore, the magnetic interaction (repulsion) exerts a force on the trolley that opposes its motion, causing the trolley to decelerate.
+
+---
+
+### Summary for Full Marks:
+*   Identify that Experiment 1 produces no current due to an open circuit.
+*   Identify that Experiment 2 produces an induced current due to a changing magnetic flux ($\Delta \Phi$).
+*   Reference **Faraday's Law** to explain the induction of EMF.
+*   Reference **Lenz's Law** to explain the direction of the current and the resulting repulsive force.
+*   Conclude that the trolley slows down in Experiment 2 due to the conversion of kinetic energy into electrical energy (and subsequently heat), adhering to the Law of Conservation of Energy.
+
+###QUESTION_TYPE
+Short answer

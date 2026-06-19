@@ -1,0 +1,32 @@
+This question tests your understanding of **Faraday’s Law of Induction** and **Lenz’s Law**. Here is the breakdown of the answers.
+
+### (a) What do the points $A$ and $B$ represent?
+Points $A$ and $B$ represent the **peak induced electromotive force (EMF)** as the bar magnet enters and leaves the solenoid, respectively.
+*   **Point $A$:** The magnet is entering the solenoid. The rate of change of magnetic flux is at a local maximum, creating a peak voltage of one polarity.
+*   **Point $B$:** The magnet is exiting the solenoid. The rate of change of magnetic flux is higher here because the magnet has accelerated due to gravity, creating a peak voltage of the opposite polarity.
+
+### (b) Explain why the magnitude of the potential at $B$ is greater than the potential at $A$.
+According to Faraday’s Law, the induced EMF is given by:
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+1.  **Acceleration due to Gravity:** As the magnet falls, it accelerates. Therefore, its velocity is higher when it exits the solenoid (at point $B$) than when it enters (at point $A$).
+2.  **Rate of Change of Flux:** Because the velocity is higher at $B$, the magnetic flux through the solenoid changes more rapidly ($\Delta t$ is smaller). 
+3.  **Magnitude:** Since the rate of change of flux is greater at $B$, the magnitude of the induced EMF ($|\varepsilon|$) is greater at $B$ than at $A$.
+
+### (c) Graph the expected results for the larger solenoid.
+For a larger solenoid (more turns, $N$), the induced EMF will be significantly higher because $\varepsilon$ is directly proportional to the number of turns ($N$). 
+
+**How to draw it:**
+*   **Shape:** Keep the same "up-then-down" wave pattern as the original graph.
+*   **Amplitude:** Ensure the peak at $A'$ is higher than the original $A$ (e.g., mark at $\approx 0.8\text{ V}$) and the trough at $B'$ is deeper than the original $B$ (e.g., mark at $\approx -1.0\text{ V}$ or lower).
+*   **Width:** The peaks will likely be slightly wider or shifted if the physical length of the coil is longer, but the key criteria for full marks is showing that the **magnitudes of the peaks are greater** than the original graph.
+
+***
+
+### How to solve Physics induction problems:
+1.  **Identify the variables:** Remember Faraday's Law ($\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$).
+2.  **Analyze motion:** If a magnet is falling, assume it is accelerating. The faster the motion, the shorter the time ($\Delta t$), the higher the voltage.
+3.  **Analyze geometry:** If the number of turns ($N$) increases, the induced EMF increases proportionally.
+4.  **Lenz's Law:** Always remember that the polarity reverses when the magnet passes the center of the coil because the magnetic flux changes from increasing to decreasing.
+
+###QUESTION_TYPE
+Data analysis questions

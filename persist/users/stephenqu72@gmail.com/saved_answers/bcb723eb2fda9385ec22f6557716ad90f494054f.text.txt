@@ -1,0 +1,27 @@
+The correct answer is **(B)**.
+
+### Explanation
+
+To solve this problem, we use the formula for the torque ($\tau$) on a current-carrying coil in a magnetic field:
+$$\tau = nIAB \cos(\theta)$$
+where:
+*   $n$ is the number of turns in the coil.
+*   $I$ is the current.
+*   $A$ is the area of the coil.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the **normal to the plane of the coil** and the magnetic field lines.
+
+**1. Analyze the factors:**
+*   **Number of turns ($n$):** Comparing the options, diagram (B) shows a coil with multiple turns (a stack of wires), whereas (A), (C), and (D) show a single-turn coil. Since $\tau \propto n$, increasing the number of turns directly increases the torque.
+*   **Orientation ($\theta$):** Torque is at its maximum when the plane of the coil is parallel to the magnetic field (which means the normal to the coil is at $90^\circ$ to the field, but the $\cos(\theta)$ term usually refers to the angle with the normal, making the sine of the angle with the plane 1). In (A), (B), and (D), the coil is oriented such that the magnetic field lines are parallel to the plane of the coil, which is the position of maximum torque. In (C), the magnetic field is perpendicular to the plane of the coil (normal is parallel to the field), resulting in zero torque.
+
+**2. Comparison:**
+*   (A) is a single loop in the optimal orientation.
+*   (B) is a multi-turn coil in the same optimal orientation. Because $n > 1$ in (B), the torque will be significantly higher than in (A) or (D).
+*   (C) has zero torque.
+*   (D) is similar to (A), but even if we assume the coil area is identical, it does not have the multiplier effect of the extra turns seen in (B).
+
+Therefore, scenario (B) produces the greatest torque because it maximizes the number of turns while maintaining the optimal orientation relative to the magnetic field.
+
+### QUESTION_TYPE
+Multiple choice

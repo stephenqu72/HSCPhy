@@ -1,0 +1,36 @@
+### Part (a)
+**(i) & (ii):** To ensure continuous rotation, the battery must be connected to the two halves of the split-ring commutator (C). If you connect the positive terminal of the battery to the segment currently closest to the North pole, the current will flow in a way that produces an upward force on the left side of the coil and a downward force on the right (using the Right-Hand Palm Rule).
+
+**(iii):** As the coil reaches the vertical position, the split-ring segments swap contact with the brushes. This reverses the direction of current in the coil. Because the current reverses, the forces on the sides of the coil also reverse direction, maintaining the torque in the same rotational sense. This ensures the motor does not oscillate but continues to rotate in one direction.
+
+---
+
+### Part (b)
+
+**(i) Start-up current and back E.M.F.**
+*   **Start-up current:** At start-up, the motor is stationary, so there is no back E.M.F. ($E_{back} = 0$).
+    $$I_{start} = \frac{V}{R} = \frac{6.0\text{ V}}{5.0\ \Omega} = 1.2\text{ A}$$
+*   **Back E.M.F.:** When running at $0.3\text{ A}$, the voltage drop across the resistance is $V_{R} = I \times R = 0.3 \times 5.0 = 1.5\text{ V}$.
+    The back E.M.F. is the supply voltage minus the internal voltage drop:
+    $$E_{back} = V_{supply} - I_{run}R = 6.0\text{ V} - 1.5\text{ V} = 4.5\text{ V}$$
+
+**(ii) Power delivered to the weight**
+*   First, calculate the work done: $W = mgh = 0.150\text{ kg} \times 9.8\text{ m/s}^2 \times 0.84\text{ m} = 1.2348\text{ J}$.
+*   Power is work per unit time:
+    $$P_{out} = \frac{W}{t} = \frac{1.2348\text{ J}}{3.4\text{ s}} \approx 0.363\text{ W}$$
+
+**(iii) Efficiency of the motor**
+*   Efficiency ($\eta$) is the ratio of useful output power to total input power.
+*   Input power: $P_{in} = V \times I = 6.0\text{ V} \times 0.3\text{ A} = 1.8\text{ W}$.
+    $$\eta = \left( \frac{P_{out}}{P_{in}} \right) \times 100\% = \left( \frac{0.363}{1.8} \right) \times 100\% \approx 20.2\%$$
+
+---
+
+### Strategy for Solving
+1.  **Conceptual Physics:** For motor parts, always use the Right-Hand Palm Rule to determine force direction and understand the commutator as a current-reversing switch.
+2.  **Circuit Analysis:** Use Ohm's Law $V=IR$ for resistance. Remember that in a running motor, $V_{supply} = E_{back} + IR$. 
+3.  **Work and Energy:** Use $W = mgh$ for gravitational potential energy. Always convert mass to kg ($150\text{ g} = 0.15\text{ kg}$) before calculating energy.
+4.  **Efficiency:** Always define it as $\frac{\text{Useful Power Out}}{\text{Total Power In}} \times 100\%$.
+
+###QUESTION_TYPE
+Calculation question

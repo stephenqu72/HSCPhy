@@ -1,0 +1,26 @@
+To solve this problem, we rely on the properties of an ideal transformer.
+
+### Explanation
+
+1.  **Understand the relationship between current and turns:**
+    For an ideal transformer, the power input equals the power output ($P_p = P_s$), which implies $V_p I_p = V_s I_s$. Since the voltage ratio is proportional to the turns ratio ($\frac{V_p}{V_s} = \frac{N_p}{N_s}$), we derive the inverse relationship between current and turns:
+    $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$
+
+2.  **Apply the given information:**
+    The problem states that the current in the secondary coil is four times the current in the primary coil:
+    $$I_s = 4 I_p \implies \frac{I_s}{I_p} = 4$$
+    Therefore, the ratio of turns in the primary coil to the secondary coil is:
+    $$\frac{N_p}{N_s} = 4 \implies N_p : N_s = 4 : 1$$
+
+3.  **Identify the type of transformer:**
+    In a step-up transformer, voltage is increased and current is decreased ($V_s > V_p$ and $I_s < I_p$).
+    In a step-down transformer, voltage is decreased and current is increased ($V_s < V_p$ and $I_s > I_p$).
+    Since the current in the secondary coil is greater than the primary ($I_s > I_p$), this is a **step-down** transformer.
+
+4.  **Conclusion:**
+    The transformer is a **step-down** transformer with a turns ratio $N_p : N_s$ of **$4:1$**. This matches row **C**.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

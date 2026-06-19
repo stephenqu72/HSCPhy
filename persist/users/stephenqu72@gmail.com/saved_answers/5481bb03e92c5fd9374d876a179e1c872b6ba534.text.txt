@@ -1,0 +1,31 @@
+Hello! As an HSC Physics teacher, I am happy to help you work through this transformer problem. These questions test your understanding of the ideal transformer model and the practical limitations of energy efficiency.
+
+### Part (a)
+**Answer:**
+1. First, calculate the secondary voltage ($V_s$) using the transformer turns ratio formula:
+   $$\frac{V_p}{V_s} = \frac{N_p}{N_s}$$
+   $$\frac{240}{V_s} = \frac{500}{25}$$
+   $$\frac{240}{V_s} = 20$$
+   $$V_s = \frac{240}{20} = 12 \text{ V}$$
+
+2. Assuming an ideal transformer where power input equals power output ($P_p = P_s$), we use $V_p I_p = V_s I_s$:
+   $$240 \times I_p = 12 \times 1.5$$
+   $$240 \times I_p = 18$$
+   $$I_p = \frac{18}{240} = 0.075 \text{ A}$$
+
+**Explanation:**
+In HSC Physics, unless specified otherwise, we assume transformers are ideal. The primary principle is the **Conservation of Energy**, meaning input power equals output power. By calculating the voltage ratio first, we determine the secondary voltage, which then allows us to solve for the primary current using the power relationship.
+
+---
+
+### Part (b)
+**Answer:**
+One way to improve efficiency is to use a **laminated iron core**. 
+
+**Explanation:**
+As the magnetic flux changes within the iron core, induced currents known as "eddy currents" circulate within the core itself. These eddy currents generate heat due to the resistance of the iron, leading to energy loss. By using a laminated core (a stack of thin, insulated sheets of iron), the path for these eddy currents is physically broken or restricted. This significantly reduces the magnitude of the eddy currents, thereby minimising energy loss as heat and increasing the overall efficiency of the transformer.
+
+*(Alternative acceptable answers include using low-resistance copper wires to reduce "Joule heating" or $I^2R$ losses, or using a "soft" iron core to reduce energy lost during magnetic hysteresis.)*
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+**Answer:**
+As Magnet A oscillates, it creates a changing magnetic flux through Wire coil A. According to Faraday’s Law of Induction, this change in flux induces an electromotive force (EMF) and, consequently, an alternating current in the circuit connecting Coil A and Coil B. This alternating current flows through Wire coil B, creating a time-varying magnetic field inside Coil B. According to Lenz’s Law, this varying magnetic field will exert a fluctuating force on Magnet B, causing it to undergo forced oscillations.
+
+**Explanation (HSC Strategy):**
+To secure full marks (5 marks) in an HSC-style physics response, you must link the concepts of electromagnetic induction to the subsequent mechanical effects:
+
+1.  **Faraday's Law:** Start by explaining that as Magnet A moves into and out of Coil A, the magnetic flux $\Phi$ through the coil changes with time. This induces an EMF according to $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$.
+2.  **Circuit Completion:** Since the two coils are connected in a closed circuit, this induced EMF drives an alternating current ($AC$) through both coils.
+3.  **Electromagnetism in Coil B:** The alternating current in Coil B creates a magnetic field $B$ that changes direction and magnitude in time. The coil effectively acts as an electromagnet whose polarity alternates.
+4.  **Interaction with Magnet B:** Magnet B sits within this changing magnetic field. The interaction between the magnetic field of the coil and the magnetic field of the permanent magnet creates a varying magnetic force on Magnet B.
+5.  **Forced Oscillation:** Because the current is alternating, the force exerted on Magnet B will oscillate. Consequently, Magnet B will be pushed and pulled by the changing magnetic field, resulting in a forced oscillation at the same frequency as Magnet A.
+
+---
+
+###QUESTION_TYPE
+Short answer

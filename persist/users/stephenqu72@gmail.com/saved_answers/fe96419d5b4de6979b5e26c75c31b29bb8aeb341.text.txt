@@ -1,0 +1,31 @@
+To solve this problem, we use the principles of light diffraction through a grating. Here is the step-by-step breakdown:
+
+### 1. Identify the given variables
+*   Wavelength ($\lambda$) = $400\text{ nm} = 400 \times 10^{-9}\text{ m} = 4 \times 10^{-7}\text{ m}$
+*   Grating density ($N$) = $500\text{ lines/mm} = 500,000\text{ lines/m} = 5 \times 10^5\text{ m}^{-1}$
+*   Distance to screen ($D$) = $2.0\text{ m}$
+*   Order of maximum ($n$) = $1$
+
+### 2. Determine the grating spacing ($d$)
+The grating spacing $d$ is the reciprocal of the number of lines per unit length:
+$$d = \frac{1}{N} = \frac{1}{5 \times 10^5\text{ m}^{-1}} = 2 \times 10^{-6}\text{ m}$$
+
+### 3. Calculate the angle ($\theta$) of the first maximum
+Using the diffraction grating equation:
+$$d \sin(\theta) = n\lambda$$
+$$\sin(\theta) = \frac{n\lambda}{d} = \frac{1 \times 4 \times 10^{-7}\text{ m}}{2 \times 10^{-6}\text{ m}} = 0.2$$
+$$\theta = \arcsin(0.2) \approx 11.537^\circ$$
+
+### 4. Find the distance on the screen ($y$)
+For a screen placed at distance $D$, the distance $y$ from the central maximum is given by:
+$$y = D \tan(\theta)$$
+Since $\sin(\theta) = 0.2$, we can find $\tan(\theta)$ using the identity $\tan(\theta) = \frac{\sin(\theta)}{\sqrt{1 - \sin^2(\theta)}}$:
+$$\tan(\theta) = \frac{0.2}{\sqrt{1 - 0.2^2}} = \frac{0.2}{\sqrt{0.96}} \approx \frac{0.2}{0.9798} \approx 0.2041$$
+$$y = 2.0\text{ m} \times 0.2041 \approx 0.408\text{ m}$$
+
+Rounding to two significant figures, we get $0.41\text{ m}$.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

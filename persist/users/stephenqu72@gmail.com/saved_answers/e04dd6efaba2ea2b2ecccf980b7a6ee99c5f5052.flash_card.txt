@@ -1,0 +1,8 @@
+### Front
+How must momentum be calculated when an object's velocity is a significant fraction of the speed of light ($c$)?
+
+### Back
+- Key idea: Relativistic momentum accounts for the increase in momentum as velocity approaches $c$ using the Lorentz factor ($\gamma$).
+- Formula / law / constant / figure: $p = \gamma m_0 v$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- When to use it: When $v$ is a significant fraction of $c$ (typically $v > 0.1c$).
+- Common trap: Using the classical formula $p = mv$, which fails to account for relativistic effects at high speeds.

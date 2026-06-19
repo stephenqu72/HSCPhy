@@ -1,0 +1,19 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To understand how an AC induction motor works, we must look at the relationship between the rotating magnetic field (RMF) produced by the stator and the motion of the rotor.
+
+1.  **Principles of Operation:** An AC induction motor operates on the principle of electromagnetic induction. The stator coils are supplied with AC current, which creates a magnetic field that rotates at a constant speed, known as the **synchronous speed** ($v_s$).
+2.  **Inducing Current:** As this magnetic field rotates, it cuts across the conductive bars of the rotor (often a squirrel-cage design). According to Faraday’s Law and Lenz’s Law, this relative motion induces an EMF and subsequently a large current in the rotor.
+3.  **Torque Production:** The interaction between the induced current in the rotor and the stator’s magnetic field produces a force (Lorentz force) that causes the rotor to spin in the same direction as the magnetic field.
+4.  **The Concept of "Slip":** For induction to occur, there must be relative motion between the magnetic field and the rotor. If the rotor were to reach the same speed as the magnetic field, the magnetic field would no longer be "cutting" the rotor bars, the induced current would drop to zero, and the torque would vanish. Consequently, the rotor must always rotate at a speed slightly slower than the synchronous speed of the magnetic field. This difference is known as "slip."
+
+**Evaluating the options:**
+*   **(A) is incorrect:** Large currents are induced in the rotor bars to create the necessary torque.
+*   **(B) is incorrect:** Induction motors typically use a "squirrel-cage" rotor, which is short-circuited by end rings. They do not require slip rings (which are used in synchronous or wound-rotor motors).
+*   **(C) is correct:** As explained above, the rotor must turn slower than the magnetic field to maintain the relative motion required to induce current.
+*   **(D) is incorrect:** If the rotor turned faster than the magnetic field, the motor would act as an induction generator, not a motor.
+
+###QUESTION_TYPE
+Multiple choice

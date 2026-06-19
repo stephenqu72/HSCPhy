@@ -1,0 +1,26 @@
+To solve this problem, we must understand the physics behind Fizeau’s experiment to measure the speed of light.
+
+### Explanation
+In Fizeau's experiment, a beam of light travels to a distant mirror and returns to the observer. Between the light source and the mirror, a rotating toothed wheel is placed. 
+
+1. **Condition for Blocking:** Light is blocked when the beam, upon its return, strikes a "tooth" of the wheel instead of passing through an opening. This occurs when the wheel has rotated by an odd multiple of the angle corresponding to the width of one tooth (or, more generally, an odd multiple of the time taken for a tooth to replace a gap).
+2. **Mathematical Relationship:** The time $t$ taken for light to travel to the mirror and back is fixed. For the light to be blocked, the wheel must rotate such that a tooth moves into the position previously occupied by a gap. The first time this happens is at a speed $\omega$. The subsequent speeds that will block the light occur at odd integer multiples of $\omega$.
+   - The condition for the $n$-th blocking event (where $n = 1, 3, 5, \dots$) is:
+     $$\omega_n = n \cdot \omega_{lowest}$$
+3. **Application:** We are given the lowest rotational speed $\omega_{lowest} = 200 \text{ rad/s}$.
+   - For $n=1$: $\omega = 200 \text{ rad/s}$ (The first blocking speed).
+   - For $n=3$: $\omega = 3 \times 200 = 600 \text{ rad/s}$ (The next speed that guarantees the light will be blocked).
+
+Looking at the options provided:
+(A) $300 \text{ rad/s}$
+(B) $400 \text{ rad/s}$ (This is an even multiple; $n=2$ would actually mean the light passes through a gap, resulting in a bright signal, not a blocked one).
+(C) $500 \text{ rad/s}$
+(D) $600 \text{ rad/s}$
+
+The correct answer is **(D)**.
+
+### Answer
+The correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

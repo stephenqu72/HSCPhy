@@ -1,0 +1,40 @@
+To solve this problem, we apply the principles of wave interference as demonstrated in Young’s Double Slit Experiment.
+
+### (a) Explanation of the formation of the bright band at point $P$
+
+When light from the laser hits the two slits $S_1$ and $S_2$, the slits act as coherent point sources of light that diffract and overlap on the screen. Point $P$ is a bright band because the light waves originating from $S_1$ and $S_2$ arrive at $P$ **in phase**. 
+
+This occurs because the path difference between the waves traveling from $S_1$ to $P$ and $S_2$ to $P$ is an integer multiple of the wavelength ($\lambda$). Mathematically, for constructive interference to occur:
+$$\Delta x = d \sin \theta = n\lambda$$
+where $n = 0, 1, 2, \dots$. At point $P$, the crests of one wave meet the crests of the other (and troughs meet troughs), leading to constructive interference, which results in a region of high intensity (a bright band).
+
+---
+
+### (b) Calculation of the wavelength of the laser light
+
+**Given:**
+- Slit separation, $d = 4.00 \times 10^{-4} \text{ m}$
+- Distance to screen, $L = 2.00 \text{ m}$
+- Position of fringe, $y = 9.45 \times 10^{-3} \text{ m}$
+- Assuming $P$ is the 3rd bright fringe ($n=3$), as is typical for this standard calculation (If the order $n$ is not stated, we assume the geometry implies $n=3$ based on standard curriculum problem sets):
+
+**Formula:**
+For small angles, the path difference can be approximated as $\Delta x = \frac{yd}{L}$.
+Setting this equal to $n\lambda$:
+$$\lambda = \frac{yd}{nL}$$
+
+**Calculation:**
+$$\lambda = \frac{(9.45 \times 10^{-3} \text{ m})(4.00 \times 10^{-4} \text{ m})}{3 \times 2.00 \text{ m}}$$
+$$\lambda = \frac{3.78 \times 10^{-6}}{6}$$
+$$\lambda = 6.30 \times 10^{-7} \text{ m}$$
+Converting to nanometers: $\lambda = 630 \text{ nm}$.
+
+---
+
+### HOW TO SOLVE THIS:
+1. **Identify the Concept:** Recognize this as a Young's Double Slit interference pattern.
+2. **Qualitative Part:** Always mention "coherent sources," "path difference," and "constructive interference." These are the keywords examiners look for.
+3. **Quantitative Part:** Ensure all units are in SI units (meters). Use the small-angle approximation formula $\lambda = \frac{yd}{nL}$ which is valid since the screen distance is much larger than the fringe separation.
+
+###QUESTION_TYPE
+Calculation question

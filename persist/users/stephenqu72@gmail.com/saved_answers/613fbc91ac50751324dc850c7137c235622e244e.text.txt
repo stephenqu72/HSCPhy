@@ -1,0 +1,33 @@
+To find the magnitude of the electromotive force (EMF) induced in the loop, we use **Faraday's Law of Induction**, which states that the induced EMF ($\varepsilon$) is equal to the negative rate of change of magnetic flux ($\Phi_B$):
+
+$$\varepsilon = \left| \frac{\Delta \Phi_B}{\Delta t} \right|$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Initial magnetic field, $B_1 = 3.00 \text{ mT} = 3.00 \times 10^{-3} \text{ T}$
+*   Final magnetic field, $B_2 = 0.50 \text{ mT} = 0.50 \times 10^{-3} \text{ T}$
+*   Radius of the loop, $r = 4 \text{ cm} = 0.04 \text{ m}$
+*   Time interval, $\Delta t = 0.300 \text{ s}$
+
+**2. Calculate the area ($A$) of the loop:**
+The area of a circle is given by $A = \pi r^2$:
+$$A = \pi \times (0.04 \text{ m})^2 = \pi \times 0.0016 \text{ m}^2 \approx 5.0265 \times 10^{-3} \text{ m}^2$$
+
+**3. Calculate the change in magnetic flux ($\Delta \Phi_B$):**
+Magnetic flux is defined as $\Phi_B = B \times A$. The change in flux is:
+$$\Delta \Phi_B = A \times (B_2 - B_1)$$
+$$\Delta \Phi_B = (5.0265 \times 10^{-3} \text{ m}^2) \times (0.50 \times 10^{-3} \text{ T} - 3.00 \times 10^{-3} \text{ T})$$
+$$\Delta \Phi_B = (5.0265 \times 10^{-3} \text{ m}^2) \times (-2.50 \times 10^{-3} \text{ T})$$
+$$\Delta \Phi_B \approx -1.2566 \times 10^{-5} \text{ Wb}$$
+
+**4. Calculate the magnitude of the EMF:**
+$$\varepsilon = \left| \frac{\Delta \Phi_B}{\Delta t} \right| = \frac{1.2566 \times 10^{-5} \text{ Wb}}{0.300 \text{ s}}$$
+$$\varepsilon \approx 4.1887 \times 10^{-5} \text{ V}$$
+
+Rounding to three significant figures, we get $4.19 \times 10^{-5} \text{ V}$.
+
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

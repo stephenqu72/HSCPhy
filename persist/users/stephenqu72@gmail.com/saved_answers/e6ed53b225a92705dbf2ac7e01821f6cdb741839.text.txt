@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To solve this question, we must understand the function of transformers in the electrical grid transmission process:
+
+1.  **Transformer at Location X (Step-up Transformer):**
+    *   The power station generates electricity at a relatively low voltage. To transmit this electricity over long distances via cables, we must minimize energy loss due to heating ($P_{loss} = I^2R$).
+    *   Since $P = VI$, for a fixed amount of power, increasing the voltage ($V$) significantly decreases the current ($I$). Because power loss is proportional to the square of the current, raising the voltage at the source (using a **step-up transformer** at X) reduces the current, thereby minimizing power loss across the transmission lines.
+
+2.  **Transformer at Location Z (Step-down Transformer):**
+    *   The transmission lines carry electricity at extremely high voltages, which is dangerous and incompatible with domestic electrical appliances.
+    *   The transformer at Z (typically the pole-top transformer near the home) must **step-down** the voltage to a safe, usable level (e.g., $240V$ in Australia) to suit the requirements of standard household appliances.
+
+**Analysis of Options:**
+*   **(A)** Incorrect: X must be a step-up transformer, not a step-down.
+*   **(B) Correct:** X is a step-up transformer to minimize power loss. Z is a step-down transformer to suit appliance requirements.
+*   **(C)** Incorrect: X is not a step-down transformer.
+*   **(D)** Incorrect: While safety is important, the primary function of Z is to lower voltage for appliance operation, and the description of X is inaccurate regarding "cost of production."
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To calculate the magnetic flux, we use the formula for magnetic flux ($\Phi$):
+
+$$\Phi = B \cdot A \cdot \cos(\theta)$$
+
+### Step-by-step Solution:
+
+1.  **Identify the given values:**
+    *   Magnetic field strength ($B$) = $2\text{ T}$
+    *   Radius ($r$) = $8\text{ cm} = 0.08\text{ m}$
+    *   The magnetic field lines are perpendicular to the plane of the loop (indicated by the dots representing vectors coming out of the page), so the angle $\theta$ between the magnetic field vector and the area normal vector is $0^\circ$. Since $\cos(0^\circ) = 1$, the formula simplifies to $\Phi = B \cdot A$.
+
+2.  **Calculate the area ($A$) of the circle:**
+    *   The area of a circle is given by $A = \pi r^2$.
+    *   $A = \pi \cdot (0.08\text{ m})^2$
+    *   $A = \pi \cdot 0.0064\text{ m}^2 \approx 0.0201\text{ m}^2$
+
+3.  **Calculate the magnetic flux ($\Phi$):**
+    *   $\Phi = B \cdot A$
+    *   $\Phi = 2\text{ T} \cdot 0.0201\text{ m}^2$
+    *   $\Phi \approx 0.0402\text{ Wb}$
+
+Comparing our result to the given options, **Option B (0.04 Wb)** is the correct answer.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

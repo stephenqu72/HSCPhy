@@ -1,0 +1,45 @@
+Hello! As an HSC Physics teacher, I will guide you through this classic motor question. Pay close attention to unit conversions and the application of the motor effect.
+
+---
+
+### Part a) Calculation
+**Formula:** The torque $\tau$ on a coil in a magnetic field is given by $\tau = nBIA\cos(\theta)$, where $\theta$ is the angle between the normal to the coil and the magnetic field. At the position shown (maximum torque), the plane of the coil is parallel to the field, so the normal is at $0^\circ$ ($\cos(0) = 1$).
+
+**Given:**
+- Number of turns $n = 5$
+- Magnetic field $B = 2 \times 10^{-3} \text{ T}$
+- Current $I = 25 \text{ A}$
+- Side length $s = 0.04 \text{ m}$
+- Area $A = s^2 = (0.04)^2 = 0.0016 \text{ m}^2$
+
+**Calculation:**
+$$\tau = 5 \times (2 \times 10^{-3}) \times 25 \times 0.0016$$
+$$\tau = 4 \times 10^{-4} \text{ Nm}$$
+
+**Direction:** Using the right-hand grip rule/motor effect, current flows out of the page on side $B$ and into the page on side $A$. By Fleming's Left-Hand Rule, side $B$ experiences an upward force and side $A$ experiences a downward force. Therefore, the coil will rotate **clockwise** when viewed from the side shown.
+
+---
+
+### Part b) Purpose and Function
+**Purpose:** The purpose of a DC motor is to convert electrical energy into mechanical kinetic energy (rotational motion).
+
+**Function:** When a current-carrying conductor is placed within an external magnetic field, it experiences a magnetic force (the motor effect). Because the current flows in opposite directions on opposite sides of the coil (e.g., side A and side B), the forces acting on the coil sides are in opposite directions. This creates a torque, which causes the coil to rotate about its central axis.
+
+---
+
+### Part c) Comparison
+| Feature | Split-Ring Commutator | Slip Ring |
+| :--- | :--- | :--- |
+| **Output Type** | DC motor/generator | AC generator |
+| **Mechanism** | Split into two segments with an insulating gap. | Two continuous rings. |
+| **Function** | Reverses current direction every half-turn to maintain constant torque direction. | Maintains continuous connection to the circuit without reversing current. |
+
+---
+
+### Part d) Variable Resistor
+The teacher suggested using a variable resistor to **limit the starting current**. When the motor is stationary, there is no back EMF ($V_{back} = 0$). According to Ohm's Law ($I = \frac{V_{supply} - V_{back}}{R}$), the current is at its maximum during start-up. A very high current can damage the delicate internal windings of the motor due to excessive heat (Joule heating). The variable resistor provides additional resistance at start-up, reducing the current until the motor gains speed and generates enough back EMF to regulate the current itself.
+
+---
+
+###QUESTION_TYPE
+Calculation question

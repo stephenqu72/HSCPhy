@@ -1,0 +1,32 @@
+To solve this problem, we need to apply the principles of quantum physics regarding the nature of light.
+
+### Analysis of the Statements:
+
+*   **Statement I: The energy of a light wave increases with increasing amplitude.**
+    In the context of the **photon model** of light (which is the standard model for discussing the energy of individual light quanta), the energy of a single photon is defined by $E = hf$. It is independent of the amplitude (which relates to the intensity or number of photons). However, in classical wave theory, energy is proportional to the square of the amplitude. Because the question asks about the "energy of a light wave" and typically refers to the energy carried by an electromagnetic wave in standard HSC Physics contexts, it is important to note that while photon energy depends on frequency, the *total energy flux* (intensity) of a light beam does depend on amplitude. Statement I is considered correct in the context of wave mechanics.
+
+*   **Statement II: The energy of a light wave increases with increasing frequency.**
+    This is correct according to the Planck-Einstein relation:
+    $$E = hf$$
+    where $E$ is the energy, $h$ is Planck's constant, and $f$ is the frequency. As $f$ increases, $E$ increases.
+
+*   **Statement III: The energy of a light wave increases with decreasing wavelength.**
+    This is also correct. Since the speed of light is $c = f \lambda$, we can substitute $f = \frac{c}{\lambda}$ into the energy equation:
+    $$E = \frac{hc}{\lambda}$$
+    As the wavelength $\lambda$ decreases, the denominator decreases, meaning the energy $E$ must increase. This is mathematically equivalent to statement II.
+
+### Conclusion:
+Since statements I, II, and III are all valid descriptions of energy in the context of electromagnetic radiation, the correct answer is **D**.
+
+---
+
+### How to solve it:
+1.  **Identify the underlying physics:** Remember that light acts both as a wave (where intensity relates to amplitude) and as a particle/photon (where individual energy relates to frequency/wavelength).
+2.  **Evaluate individual claims:**
+    *   Check classical wave theory: Intensity $\propto$ Amplitude$^2$. Thus, "energy" (intensity) increases with amplitude. (Statement I is True).
+    *   Check quantum theory: $E = hf$. Thus, energy increases with frequency. (Statement II is True).
+    *   Check the inverse relationship: $f = \frac{c}{\lambda}$. If $f$ is proportional to $E$, then $\frac{1}{\lambda}$ is proportional to $E$. Therefore, decreasing $\lambda$ increases $E$. (Statement III is True).
+3.  **Select the matching option:** Since all three are correct, choose option D.
+
+###QUESTION_TYPE
+Multiple choice

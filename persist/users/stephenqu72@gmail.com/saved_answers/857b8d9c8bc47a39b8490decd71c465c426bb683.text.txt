@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To understand this question, we must apply **Faraday's Law of Induction**, which states that the induced electromotive force (emf) is proportional to the rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+
+1.  **Analyze the flux:** The magnetic flux through the ring is given by $\Phi = BA\cos(\theta)$, where $\theta$ is the angle between the area vector (perpendicular to the plane of the ring) and the magnetic field lines.
+2.  **Analyze the derivative:** The emf is the derivative of the flux with respect to time. Mathematically, since $\theta = \omega t$, the flux varies as a cosine function, and its derivative (the emf) varies as a sine function:
+    $$\varepsilon \propto \sin(\theta)$$
+3.  **Evaluate the positions:**
+    *   At $\theta = 0^\circ, 180^\circ,$ and $360^\circ$, the plane of the ring is parallel to the magnetic field. In these positions, the rate of change of magnetic flux linkage is at its **minimum** (the flux is changing from positive to negative or vice versa as it passes through the neutral plane). Specifically, at these points, the change in flux per unit time ($\Delta \Phi / \Delta t$) is zero, resulting in an emf of $0V$.
+    *   At $\theta = 90^\circ$ and $270^\circ$, the ring is cutting the magnetic field lines at the maximum rate, resulting in peak (maximum) emf.
+
+**Why the others are incorrect:**
+*   **A:** The angular velocity is constant for a spinning ring; "fastest" does not apply.
+*   **B:** While the emf is indeed maximum at $90^\circ$, it is because the **rate of change** of magnetic flux is highest, not because the total flux itself is highest. At $90^\circ$, the flux is actually zero.
+*   **C:** The emf is clearly changing over time (it is an AC waveform), and the magnetic flux is constantly changing as the coil rotates.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we use the formula for the magnetic force on a current-carrying conductor: $F = nILB\sin(\theta)$, where $n$ is the number of turns, $I$ is current, $L$ is length, $B$ is magnetic field strength, and $\theta$ is the angle between the current and the magnetic field.
+
+### Part (a)
+Side $AB$ has a length of $0.12\text{ m}$. The current flows horizontally to the right, and the magnetic field is directed vertically upwards. Therefore, the angle between them is $90^\circ$ ($\sin(90^\circ) = 1$).
+
+**Calculation:**
+$$F = nILB = 150 \times 1.5\text{ A} \times 0.12\text{ m} \times 0.06\text{ T} = 1.62\text{ N}$$
+
+**Direction:** Using the Right-Hand Rule (fingers point up, thumb points right, palm faces out), the force is directed **out of the page**.
+
+### Part (b)
+Side $BC$ has a length of $0.08\text{ m}$. The current flows downwards, and the magnetic field points upwards. These two vectors are anti-parallel (the angle between them is $180^\circ$).
+
+**Calculation:**
+Since $\sin(180^\circ) = 0$:
+$$F = nILB \sin(180^\circ) = 0\text{ N}$$
+**Direction:** There is **no force** exerted on side $BC$.
+
+### Part (c)
+Since the force on $AB$ is directed out of the page and the force on $DC$ (by symmetry/Left-hand rule) will be directed into the page, the coil will experience a torque. Looking from above, the coil will rotate **clockwise**.
+
+***
+
+### Summary of Answers:
+(a) Magnitude: $1.62\text{ N}$; Direction: Out of the page.
+(b) Magnitude: $0\text{ N}$; Direction: N/A.
+(c) The coil rotates clockwise (viewed from above).
+
+###QUESTION_TYPE
+Calculation question

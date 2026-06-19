@@ -1,0 +1,19 @@
+To answer this question, we must look at the historical context of Heinrich Hertz’s experimental verification of Maxwell’s theory of electromagnetism.
+
+### Answer
+The correct answer is **A. Interference**.
+
+### Explanation
+In the late 1880s, Heinrich Hertz sought to prove that electromagnetic waves (radio waves) existed and traveled at the speed of light, as predicted by James Clerk Maxwell.
+
+1.  **The Experimental Setup:** Hertz generated radio waves using a spark-gap transmitter. To measure the properties of these waves, he needed to detect them and determine their wavelength ($\lambda$).
+2.  **The Role of Interference:** Hertz set up a reflecting metal plate to reflect the radio waves back toward the source. The incident wave and the reflected wave superimposed upon one another, creating a **standing wave pattern**.
+3.  **Measuring Velocity:** By moving a small detector (a loop with a tiny gap) along the path of the waves, Hertz identified the "nodes" and "antinodes" (areas of destructive and constructive **interference**).
+4.  **The Calculation:** The distance between two successive nodes is half a wavelength ($\frac{\lambda}{2}$). Once Hertz knew the frequency ($f$) of his oscillator and had measured the wavelength ($\lambda$) using this interference pattern, he used the universal wave equation:
+    $$v = f\lambda$$
+    By calculating $v$, he found it to be approximately equal to the speed of light ($c$), thereby confirming Maxwell's prediction.
+
+While Hertz did observe reflection, refraction, and polarization during his experiments, it was specifically the creation of a standing wave via **interference** that allowed him to accurately measure the wavelength and subsequently calculate the velocity of the electromagnetic waves.
+
+###QUESTION_TYPE
+Multiple choice

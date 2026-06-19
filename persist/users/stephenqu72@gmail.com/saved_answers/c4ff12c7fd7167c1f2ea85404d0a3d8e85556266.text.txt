@@ -1,0 +1,27 @@
+To determine which action increases the distance $\Delta x$ between adjacent dark bands (also known as fringe separation), we must look at the mathematical formula for Young's double-slit experiment:
+
+$$\Delta x = \frac{\lambda L}{d}$$
+
+Where:
+*   $\Delta x$ = fringe separation (distance between adjacent dark/bright bands)
+*   $\lambda$ = wavelength of the light used
+*   $L$ = distance from the slits to the screen
+*   $d$ = distance between the centers of the two slits
+
+### Analysis:
+We are looking for an action that increases $\Delta x$. Based on the formula:
+*   **A. Decrease $L$:** Since $\Delta x \propto L$, decreasing $L$ will decrease $\Delta x$. (Incorrect)
+*   **B. Decrease $\lambda$:** Since $\Delta x \propto \lambda$, decreasing $\lambda$ will decrease $\Delta x$. (Incorrect)
+*   **C. Decrease $d$:** Since $\Delta x \propto \frac{1}{d}$, decreasing the denominator ($d$) will mathematically result in an **increase** in $\Delta x$. (Correct)
+*   **D. Decrease the slit width:** The slit width does not appear in the fringe spacing formula for the double-slit interference pattern; it primarily affects the intensity envelope of the pattern, not the separation of the fringes themselves. (Incorrect)
+
+**Answer:** The correct option is **C**.
+
+### How to solve:
+1.  **Identify the governing equation:** Recall or derive the relationship for fringe spacing in a double-slit experiment: $\Delta x = \frac{\lambda L}{d}$.
+2.  **Identify the variables:** Assign the physical parameters given in the question to the symbols in the equation.
+3.  **Analyze the relationship:** Treat the question as a proportionality problem. To increase the value of the subject ($\Delta x$), you must either increase the numerator values ($\lambda$ or $L$) or decrease the denominator value ($d$).
+4.  **Evaluate the options:** Check each provided option against the proportionalities identified in step 3 to find the one that results in an increase.
+
+###QUESTION_TYPE
+Multiple choice

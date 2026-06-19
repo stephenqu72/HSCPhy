@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### (a) Determine the surface temperature of the star.
+
+**Solution:**
+We use Wien’s Displacement Law: $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$.
+1. From the graph, the peak intensity ($\lambda_{max}$) occurs approximately at $500 \text{ nm} = 5 \times 10^{-7} \text{ m}$.
+2. Rearranging for $T$: 
+$$T = \frac{2.898 \times 10^{-3}}{5 \times 10^{-7}} = 5796 \text{ K} \approx 5800 \text{ K}$$
+
+**Teacher's Tip:** Always ensure your units for wavelength are converted from nanometers (nm) to meters (m) before applying the constant.
+
+---
+
+#### (b) Calculate the frequency of light absorbed to produce absorption line $W$.
+
+**Solution:**
+We are given the Rydberg formula: $\frac{1}{\lambda} = R \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$, where $R \approx 1.097 \times 10^7 \text{ m}^{-1}$, $n_f = 2$, and $n_i = 6$.
+1. Calculate the wavelength:
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{2^2} - \frac{1}{6^2} \right) = 1.097 \times 10^7 \left( 0.25 - 0.02778 \right) = 2.4378 \times 10^6 \text{ m}^{-1}$$
+$$\lambda = \frac{1}{2.4378 \times 10^6} \approx 4.102 \times 10^{-7} \text{ m} = 410.2 \text{ nm}$$
+2. Calculate frequency using $f = \frac{c}{\lambda}$:
+$$f = \frac{3 \times 10^8}{4.102 \times 10^{-7}} \approx 7.31 \times 10^{14} \text{ Hz}$$
+
+---
+
+#### (c) Explain the physical processes that produce an absorption spectrum.
+
+**Solution:**
+1. A star produces a continuous spectrum of light as a hot, dense blackbody (the core/surface).
+2. As this light passes through the cooler, lower-density gas in the star's outer atmosphere, specific atoms absorb photons.
+3. Absorption occurs when a photon's energy exactly matches the difference between two quantized energy levels of an atom (e.g., $E = hf = E_2 - E_1$).
+4. The atom transitions from a lower energy state to a higher energy state. Since these specific wavelengths are removed from the continuous spectrum, they appear as dark lines.
+
+---
+
+###QUESTION_TYPE
+Calculation question

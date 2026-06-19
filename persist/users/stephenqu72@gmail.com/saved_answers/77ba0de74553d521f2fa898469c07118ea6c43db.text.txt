@@ -1,0 +1,37 @@
+To solve this problem, we use the principles of electromagnetic induction. Here are the given values:
+*   Number of turns ($N$) = $200$
+*   Area of the coil ($A$) = $0.060\text{ m}^2$
+*   Magnetic flux in vertical position ($\Phi_i$) = $1.2 \times 10^{-3}\text{ Wb}$
+*   Frequency ($f$) = $2.5\text{ Hz}$
+
+---
+
+### Part a: Calculate the strength of the magnetic field ($B$)
+
+The magnetic flux is given by the formula $\Phi = BA \cos(\theta)$. In the vertical position shown, the magnetic field lines are perpendicular to the coil surface, meaning the angle between the field and the normal to the coil is $0^\circ$. Thus, $\cos(0^\circ) = 1$.
+
+$$B = \frac{\Phi}{A} = \frac{1.2 \times 10^{-3}\text{ Wb}}{0.060\text{ m}^2} = 0.020\text{ T}$$
+
+**The magnetic field strength is $0.020\text{ T}$.**
+
+---
+
+### Part b: Calculate the average induced EMF
+
+Faraday's Law of Induction states that the average induced EMF ($\varepsilon_{avg}$) is equal to the negative rate of change of magnetic flux linkage:
+
+$$\varepsilon_{avg} = -N \frac{\Delta\Phi}{\Delta t}$$
+
+1.  **Initial flux ($\Phi_i$):** $1.2 \times 10^{-3}\text{ Wb}$ (at vertical position).
+2.  **Final flux ($\Phi_f$):** After a quarter turn, the coil is parallel to the magnetic field. The angle between the field and the normal is $90^\circ$, so $\Phi_f = BA \cos(90^\circ) = 0\text{ Wb}$.
+3.  **Time ($\Delta t$):** One full rotation takes $T = \frac{1}{f} = \frac{1}{2.5} = 0.4\text{ s}$. A quarter turn takes $\Delta t = \frac{0.4}{4} = 0.1\text{ s}$.
+4.  **Calculation:**
+$$\varepsilon_{avg} = -N \frac{\Phi_f - \Phi_i}{\Delta t} = -200 \times \frac{0 - 1.2 \times 10^{-3}}{0.1}$$
+$$\varepsilon_{avg} = -200 \times (-0.012) = 2.4\text{ V}$$
+
+**The average induced EMF is $2.4\text{ V}$.**
+
+---
+
+###QUESTION_TYPE
+Calculation question

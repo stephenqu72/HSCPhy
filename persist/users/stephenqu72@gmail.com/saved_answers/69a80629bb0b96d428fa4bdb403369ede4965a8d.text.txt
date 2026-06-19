@@ -1,0 +1,20 @@
+To determine the composition of the unknown mixture, we perform a pattern-matching analysis by comparing the spectral lines of the unknown mixture against the provided reference spectra.
+
+### Explanation:
+Emission spectroscopy is based on the principle that every element has a unique "fingerprint" of spectral lines, corresponding to the specific energy transitions of its electrons. When analyzing a mixture, the resulting spectrum is the superposition of the individual emission spectra of all elements present. 
+
+To solve this:
+1.  **Look for characteristic lines:** Examine the "Unknown mixture" spectrum and identify its lines.
+2.  **Compare with references:**
+    *   Compare the lines of the unknown with **Magnesium (Mg)**: Note the distinct cluster of lines and the specific spacing. The unknown mixture does not contain the specific set of lines seen in Mg.
+    *   Compare the lines of the unknown with **Aluminium (Al)**: The unknown mixture does not align with the broad gaps or specific lines of Al.
+    *   Compare the lines of the unknown with **Copper (Cu)**: Notice the high density of lines in the $400\text{--}450\text{ nm}$ region and the triplet of lines near $500\text{--}550\text{ nm}$. These match perfectly with the unknown mixture.
+    *   Compare the lines of the unknown with **Lithium (Li)**: The lines on the far left and the distinct lines toward $600\text{ nm}$ and $700\text{ nm}$ in the unknown mixture align perfectly with the pattern seen in the Li spectrum.
+3.  **Synthesis:** By overlaying the lines of **Copper (Cu)** and **Lithium (Li)**, we can account for every single line present in the "Unknown mixture" spectrum. Specifically, the lines in the blue region match Cu, and the lines in the red/orange region match Li.
+
+Therefore, the unknown mixture contains **Lithium and copper**.
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

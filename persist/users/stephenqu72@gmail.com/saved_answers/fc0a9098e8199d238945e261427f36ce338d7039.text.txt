@@ -1,0 +1,22 @@
+### Answer
+
+**a. State the condition that the fine steel mesh must satisfy for a diffraction pattern to form.**
+
+The openings (apertures) or the spacing between the wires in the mesh must be comparable in size to the wavelength ($\lambda$) of the incident light.
+
+**b. Explain why the condition stated in part a. does not apply to the open window.**
+
+The width of an open window ($w$) is typically on the order of centimeters or meters, which is vastly larger than the wavelength of visible light ($589 \text{ nm} = 5.89 \times 10^{-7} \text{ m}$). Diffraction is only significant when the obstacle size is roughly equal to or smaller than the wavelength ($w \approx \lambda$). Because the window is much larger than the wavelength, the light passes through without noticeable diffraction (it follows geometric optics), and no observable diffraction pattern is produced.
+
+---
+
+### How to solve this
+To solve this HSC-level physics problem, you need to apply the principles of wave optics:
+
+1.  **Understand Diffraction:** Diffraction is the bending of waves around an obstacle or through an aperture. The degree of diffraction depends heavily on the ratio of the wavelength ($\lambda$) to the size of the aperture/slit ($w$). 
+2.  **Recall the Condition:** For a diffraction pattern to be observable, the size of the slit or spacing must be comparable to the wavelength of the light. If the opening is much larger than the wavelength, the light behaves according to ray optics (straight-line propagation), and diffraction effects are negligible.
+3.  **Application to the Mesh:** A fine steel mesh acts like a diffraction grating. Because the gaps in the mesh are very small (often close to the scale of micrometers, similar to the wavelength of visible light), they satisfy the condition for diffraction to occur.
+4.  **Application to the Window:** An open window is macroscopically large ($w \gg \lambda$). When the ratio $\lambda/w$ is extremely small (approaching zero), the light essentially travels in straight lines (rectilinear propagation), resulting in no observable diffraction pattern.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,35 @@
+To excel in this HSC Physics question, you need to apply the wave theory of light. Below are the model answers and the conceptual breakdown.
+
+### a) Diffraction and its Importance
+**Answer:**
+Diffraction is the bending or spreading of waves as they pass through an aperture or around an obstacle. It is essential because it allows the light from both slits $S_1$ and $S_2$ to spread out and overlap on the screen. Without diffraction, the light would travel in straight lines, and the waves from the two separate slits would not meet to create an interference pattern.
+
+**How to solve:** Define the physical process (bending/spreading at an opening) and explicitly link it to the necessity of spatial overlap for interference to occur.
+
+### b) Bright Fringe at Point M
+**Answer:**
+At the center of the interference pattern (point M), the path length difference between the light rays originating from $S_1$ and $S_2$ is exactly zero. Because the rays travel an equal distance to point M, they arrive in phase (peak meets peak). This results in constructive interference, producing a bright fringe (the central maximum).
+
+**How to solve:** Focus on the "path difference" concept. Remember that $n=0$ corresponds to the central maximum where the phase difference is $0^\circ$.
+
+### c) Calculate the Angle at Point P
+**Given:**
+*   Wavelength ($\lambda$) = $532\text{ nm} = 532 \times 10^{-9}\text{ m}$
+*   Slit separation ($d$) = $0.2\text{ mm} = 0.2 \times 10^{-3}\text{ m} = 2 \times 10^{-4}\text{ m}$
+*   Order of the fringe ($n$) = $2$ (since it is the *second* bright band)
+
+**Formula:**
+For constructive interference, the path difference $d \sin(\theta) = n\lambda$.
+
+**Calculation:**
+Rearrange to solve for $\sin(\theta)$:
+$$\sin(\theta) = \frac{n\lambda}{d}$$
+$$\sin(\theta) = \frac{2 \times (532 \times 10^{-9}\text{ m})}{2 \times 10^{-4}\text{ m}}$$
+$$\sin(\theta) = 5.32 \times 10^{-3}$$
+$$\theta = \arcsin(0.00532)$$
+$$\theta \approx 0.305^\circ$$
+
+**How to solve:** Identify the double-slit interference formula for constructive interference. Always ensure units are converted to SI (metres).
+
+###QUESTION_TYPE
+Calculation question

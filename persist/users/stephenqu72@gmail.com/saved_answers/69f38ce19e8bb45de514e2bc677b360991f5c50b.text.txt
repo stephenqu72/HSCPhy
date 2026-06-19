@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### (a) (i) Faraday’s Law of Electromagnetic Induction
+**Answer:** Faraday’s law states that the magnitude of the induced electromotive force (emf) in a circuit is directly proportional to the rate of change of magnetic flux linkage through the circuit. Mathematically: $\varepsilon = -N \frac{d\Phi}{dt}$.
+
+#### (a) (ii) Explanation
+**Answer:** A current-carrying wire produces a magnetic field. When the current changes, the magnetic field strength changes, which causes the magnetic flux through the coil to change. According to Faraday's law, this change in flux induces an emf in the coil.
+
+#### (b) (i) & (ii) Sketch Graphs
+*   **Magnetic Flux:** Since the magnetic field $B$ is proportional to current $I$ ($B \propto I$), the magnetic flux $\Phi$ follows the same sinusoidal shape as the current.
+*   **e.m.f.:** Since $\varepsilon = -N \frac{d\Phi}{dt}$, the emf is proportional to the negative gradient of the flux graph. When the current (and flux) is at a maximum/minimum, the gradient is zero (emf = 0). When the current is zero, the gradient is at its maximum/minimum (emf at peak/trough). Therefore, the emf graph is a negative cosine wave if the current is a sine wave.
+
+#### (b) (iii) Effect of moving the coil further away
+**Answer:** The maximum emf will **decrease**.
+**Explanation:** The magnetic field strength $B$ produced by a long straight wire decreases with distance from the wire ($B \propto \frac{1}{r}$). Moving the coil further away reduces the magnetic flux passing through it. Since the induced emf depends on the rate of change of flux, a smaller magnitude of flux (and slower rate of change) results in a smaller induced emf.
+
+#### (c) Measuring large AC currents
+*   **Advantage:** It provides electrical isolation (galvanic isolation) between the measurement device and the high-voltage cable, improving safety for the operator and the measuring equipment.
+*   **Disadvantage:** The magnitude of the induced emf depends on the position and orientation of the coil relative to the wire. If the coil is not perfectly aligned or its position shifts, the measurement will be inaccurate.
+
+---
+
+### How to solve this type of question:
+1.  **Conceptual Mapping:** Always relate the current $I$ to the magnetic field $B$ using the right-hand grip rule and the formula $B \propto \frac{I}{r}$.
+2.  **Calculus logic:** When sketching graphs of induction, remember the relationship between a function and its derivative. If the flux is a sine wave, its derivative (the emf) will be a cosine wave. The negative sign in Faraday's Law (Lenz's Law) dictates the phase shift.
+3.  **Proportionality:** For part (b)(iii), identify the variable being changed (distance $r$) and how it affects the governing equation ($B \propto \frac{1}{r} \rightarrow \Phi \propto \frac{1}{r} \rightarrow \varepsilon \propto \frac{1}{r}$).
+
+###QUESTION_TYPE
+Data analysis questions

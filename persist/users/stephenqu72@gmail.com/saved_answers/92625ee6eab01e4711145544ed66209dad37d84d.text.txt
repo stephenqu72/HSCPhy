@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **C. Back emf**.
+
+### Explanation
+To understand this, we must look at the principles of a DC motor:
+
+1.  **Back emf ($\varepsilon$):** When the armature of a DC motor rotates within a magnetic field, the conductors cut the magnetic flux. According to Faraday’s Law and Lenz’s Law, this induces an electromotive force (emf) that opposes the supply voltage. The magnitude of this back emf is directly proportional to the angular velocity ($\omega$) of the motor, given by the relationship:
+    $$\varepsilon \propto \omega$$
+    As the motor's speed increases, the rate at which the magnetic flux is cut increases, causing the **back emf to increase**.
+
+2.  **Why the others are incorrect:**
+    *   **A. Torque:** In a standard DC motor, as speed increases, the net torque actually decreases as the back emf rises and limits the current available to provide torque.
+    *   **B. Current:** The net current in the armature is determined by the formula $I = \frac{V - \varepsilon}{R}$. As the motor speeds up, $\varepsilon$ increases. Since the supply voltage ($V$) remains constant, the term $(V - \varepsilon)$ decreases, meaning the armature **current decreases**.
+    *   **D. Resistance:** The resistance of the motor coils is an inherent physical property of the wire and does not change as a result of the motor's speed.
+
+### QUESTION_TYPE
+Multiple choice

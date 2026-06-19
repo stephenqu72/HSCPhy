@@ -1,0 +1,36 @@
+To solve this problem, we apply the principles of electromagnetic induction, specifically Faraday's Law and Lenz's Law.
+
+### (a) Calculation of induced EMF
+
+**1. Identify the given variables:**
+*   Magnetic field strength, $B = 0.80\text{ T}$
+*   Side length of the square loop, $s = 37\text{ cm} = 0.37\text{ m}$
+*   Time taken to enter the field, $\Delta t = 0.04\text{ s}$
+*   The area of the loop $A = s^2 = (0.37\text{ m})^2 = 0.1369\text{ m}^2$
+
+**2. Formula:**
+Faraday's Law states that the magnitude of the induced EMF ($\varepsilon$) is the rate of change of magnetic flux ($\Phi$):
+$$\varepsilon = \left| \frac{\Delta \Phi}{\Delta t} \right|$$
+Since flux is $\Phi = B \cdot A$ and only the area inside the field is changing as the loop enters:
+$$\varepsilon = \frac{B \cdot \Delta A}{\Delta t}$$
+
+**3. Calculation:**
+As the loop enters the field, the change in area ($\Delta A$) is the total area of the square, $0.1369\text{ m}^2$.
+$$\varepsilon = \frac{0.80\text{ T} \times 0.1369\text{ m}^2}{0.04\text{ s}}$$
+$$\varepsilon = \frac{0.10952}{0.04}$$
+$$\varepsilon = 2.738\text{ V}$$
+Rounding to appropriate significant figures (two, based on given values), we get **$2.7\text{ V}$**.
+
+---
+
+### (b) Direction of induced current
+
+To determine the direction, we use **Lenz's Law**, which states that the induced current will create a magnetic field to oppose the change in flux.
+1.  As the loop enters the magnetic field, the magnetic flux into the page is **increasing**.
+2.  The loop will attempt to oppose this increase by creating its own magnetic field pointing **out of the page**.
+3.  Using the **right-hand grip rule**, point your thumb out of the page; your fingers curl in a **counter-clockwise** direction.
+
+**Answer:** The current flows in a **counter-clockwise** direction.
+
+###QUESTION_TYPE
+Calculation question

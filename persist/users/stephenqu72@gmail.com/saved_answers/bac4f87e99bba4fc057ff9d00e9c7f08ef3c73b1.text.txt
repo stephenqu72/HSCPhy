@@ -1,0 +1,23 @@
+To solve this problem, we must apply the principles of electromagnetism, specifically Faraday's Law of Induction, Lenz's Law, and the concept of magnetic permeability.
+
+### Step-by-Step Explanation:
+
+**1. The Light in Solenoid M:**
+Solenoid M is connected to a battery. As the soft iron bar (a ferromagnetic material) enters the solenoid, it increases the **magnetic permeability** ($\mu$) of the core. The inductance ($L$) of a solenoid is proportional to the permeability of its core ($L \propto \mu$).
+When the soft iron bar enters, the inductance of the coil increases. This increase in inductance leads to a higher **inductive reactance** ($X_L = 2\pi fL$) if AC were used, but in a DC circuit with a battery, the change in flux creates a **back EMF** ($\varepsilon = -L \frac{dI}{dt}$) that opposes the change in current. However, a more direct interpretation in HSC physics for this context is the change in the magnetic field strength. The presence of the iron core increases the magnetic flux linkage. If the circuit were purely resistive, the brightness would remain constant; however, in the presence of an inductor, the entry of the iron core increases the impedance/inductance, effectively opposing the current flow initially, causing the light to become **dimmer** as the magnetic flux linkage changes rapidly to magnetize the iron.
+
+**2. The Current in Solenoid N (Lenz's Law):**
+*   As the soft iron bar enters the region of solenoid M, it becomes a magnet due to the field created by M.
+*   As this induced magnetic field moves toward solenoid N, the magnetic flux through coil N changes.
+*   According to **Lenz's Law**, the induced current in N will create a magnetic field that opposes the change in magnetic flux.
+*   If we determine the polarity of the induced magnetic field created by the moving bar, we use the right-hand grip rule. As the bar enters, the flux increases. To oppose this, the induced current in N must create a field that repels the incoming magnetic pole.
+*   By tracing the winding of coil N and applying the right-hand grip rule to counteract the incoming flux, the conventional current will be induced to flow from **left to right** through the resistor $R$.
+
+**Conclusion:**
+The light becomes dimmer due to the back EMF/increased induction, and the current flows from left to right. This matches option **(B)**.
+
+### Answer:
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice
