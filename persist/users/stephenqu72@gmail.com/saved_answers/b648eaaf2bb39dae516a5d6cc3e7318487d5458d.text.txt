@@ -1,0 +1,29 @@
+### Answer
+
+**(a)** Albert will observe the **exit lamp** switch on before the **entrance lamp**. 
+
+According to the principle of the **relativity of simultaneity**, events that are simultaneous in one inertial frame are not necessarily simultaneous in another frame moving relative to the first. As the train moves toward the exit lamp, the light from the exit lamp has a shorter distance to travel to reach Albert, while the light from the entrance lamp has a longer distance to travel to reach him (because he is moving away from the location where the light was emitted). Since the speed of light $c$ is constant for all observers, Albert sees the flash from the exit lamp first.
+
+**(b)** To find the speed of the train as a percentage of $c$:
+1. We identify the proper time interval $\Delta t_0$. Mileva is in the frame where the tunnel is stationary. The time measured by an observer in a frame where the two events (entering and exiting the tunnel) occur at different locations is the dilated time $\Delta t$. Therefore, $\Delta t = 4.39\text{ s}$ and the proper time $\Delta t_0$ is the interval measured by Albert, $\Delta t_0 = 2.00\text{ s}$.
+2. Use the time dilation formula: 
+   $$\Delta t = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+3. Rearrange to solve for $v$:
+   $$\frac{\Delta t_0}{\Delta t} = \sqrt{1 - \frac{v^2}{c^2}}$$
+   $$\left(\frac{2.00}{4.39}\right)^2 = 1 - \frac{v^2}{c^2}$$
+   $$0.2075 \approx 1 - \frac{v^2}{c^2}$$
+   $$\frac{v^2}{c^2} = 1 - 0.2075 = 0.7925$$
+   $$\frac{v}{c} = \sqrt{0.7925} \approx 0.890$$
+4. The speed of the train is approximately **89.0% of the speed of light**.
+
+***
+
+### Explanation of how to solve it
+
+*   **Part (a):** This is a conceptual question testing your understanding of Special Relativity. The key concept is the **Relativity of Simultaneity**. Always remember: observers moving toward a light source perceive it earlier than an observer at rest relative to the source. You must explicitly mention the constant speed of light and how the distance the light travels relative to the moving observer changes the timing.
+*   **Part (b):** This is a standard **Time Dilation** calculation. 
+    *   First, identify which observer measures the **proper time** ($\Delta t_0$). Proper time is measured by an observer who sees the two events (entry and exit) happen at the same location, or in this context, it is the shorter of the two measured intervals because the moving observer's clock is running slower. 
+    *   Once you plug in the values, isolate the Lorentz factor $\gamma$ or simply rearrange the algebraic expression as shown above. Ensure you finish by converting the ratio $v/c$ into a percentage by multiplying by 100.
+
+###QUESTION_TYPE
+Calculation question

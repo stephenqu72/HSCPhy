@@ -1,0 +1,38 @@
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of polarised light changes when it passes through a polariser:
+
+$$I = I_0 \cos^2(\theta)$$
+
+Where:
+- $I$ is the transmitted intensity.
+- $I_0$ is the initial intensity.
+- $\theta$ is the angle between the light's polarisation direction and the filter's transmission axis.
+
+### Part (a) Assessment
+To assess if the data supports the hypothesis (that the relationship follows Malus's Law), we check if plotting $I$ against $\cos^2(\theta)$ yields a linear relationship passing through the origin.
+
+1.  **Calculate $\cos^2(\theta)$** for each angle:
+    *   $\theta = 15^\circ \rightarrow \cos^2(15^\circ) \approx 0.933$
+    *   $\theta = 30^\circ \rightarrow \cos^2(30^\circ) = 0.750$
+    *   $\theta = 45^\circ \rightarrow \cos^2(45^\circ) = 0.500$
+    *   $\theta = 60^\circ \rightarrow \cos^2(60^\circ) = 0.250$
+    *   $\theta = 75^\circ \rightarrow \cos^2(75^\circ) \approx 0.067$
+
+2.  **Assessment:** The graph provided in the question shows the line of best fit $y = 12x - 6 \times 10^{-15}$. Since $6 \times 10^{-15}$ is effectively zero, the graph shows a strong linear relationship passing through the origin. This confirms that $I \propto \cos^2(\theta)$, thereby supporting Malus's Law.
+
+### Part (b) Estimation of $I_0$
+According to Malus's Law, when $\theta = 0^\circ$, $\cos^2(0^\circ) = 1$, which means $I = I_0 \times 1 = I_0$.
+
+In our linear model $y = mx + c$ (where $y = I$ and $x = \cos^2(\theta)$):
+- The slope $m$ represents $I_0$.
+- Looking at the provided equation on the graph, $y = 12x$, the slope $m$ is $12$.
+
+Therefore, the original intensity of the light source is:
+$$I_0 \approx 12 \text{ kW m}^{-2}$$
+
+### Summary of Steps
+1.  **Transform the data:** Realise that to test for Malus's Law, you must plot intensity against the square of the cosine of the angle.
+2.  **Linearise:** Once the graph is plotted, the linearity confirms the mathematical model.
+3.  **Interpret the slope:** Recognize that when $\cos^2(\theta) = 1$ (the x-intercept of 1), the y-value equals the initial intensity $I_0$. Using the equation $y = 12x$, when $x = 1$, $y = 12$.
+
+###QUESTION_TYPE
+Data analysis questions

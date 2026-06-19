@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Question 15
+**Answer: B**
+
+**Explanation:**
+The photoelectric effect involves the emission of electrons from a metal surface when light of sufficient frequency strikes it. These electrons are emitted with a range of kinetic energies, with a maximum value $E_{k(\text{max})}$. 
+
+When a negative potential (the stopping voltage, $V_{\text{stop}}$) is applied to the collector electrode relative to the metal plate, it creates an electric field that opposes the motion of the electrons. The work done by this electric field on an electron is given by $W = qV_{\text{stop}}$. To stop the most energetic electrons, the electric potential energy must equal their maximum kinetic energy:
+$$qV_{\text{stop}} = E_{k(\text{max})}$$
+When this condition is met, even the fastest electrons cannot reach the collector, reducing the photocurrent to zero. Statement B correctly identifies that the DC voltage is increased (in magnitude) until the work done matches the kinetic energy required to stop the electrons.
+
+#### Question 16
+**Answer: B**
+
+**Explanation:**
+The work function ($\Phi$) of a metal is the minimum energy required to remove an electron from its surface. It is related to the threshold frequency ($f_0$) by the equation:
+$$\Phi = h f_0$$
+Where $h$ is Planck's constant. Rearranging this formula to solve for $h$:
+$$h = \frac{\Phi}{f_0}$$
+Given:
+- $\Phi = 3.4 \times 10^{-19} \text{ J}$
+- $f_0 = 6.5 \times 10^{14} \text{ Hz}$
+
+Substituting the values:
+$$h = \frac{3.4 \times 10^{-19}}{6.5 \times 10^{14}}$$
+$$h \approx 0.523 \times 10^{-33} \text{ J s}$$
+$$h \approx 5.23 \times 10^{-34} \text{ J s}$$
+
+Rounding to two significant figures, we get $5.2 \times 10^{-34} \text{ J s}$, which corresponds to option B.
+
+###QUESTION_TYPE
+Multiple choice

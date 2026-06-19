@@ -1,0 +1,33 @@
+As an HSC Physics teacher, here is how you should approach this question to secure full marks.
+
+### Part (a)
+**Answer:** A gas discharge tube produces a **line emission spectrum**, consisting of discrete, sharp wavelengths of light corresponding to specific electron transitions between energy levels. In contrast, an incandescent lamp produces a **continuous spectrum**, where all wavelengths within the visible range are present because it relies on thermal agitation of atoms in a solid filament.
+
+**How to solve:** Identify the source. Gas discharge = quantized energy levels (discrete lines). Incandescent = thermal radiation from a solid (continuous spectrum).
+
+---
+
+### Part (b)
+**Answer:**
+*   **Model $X$ (Classical/Rayleigh-Jeans Law):** Assumes that the oscillators in the black body can have any energy, behaving like a continuous classical wave. This leads to the "Ultraviolet Catastrophe," where intensity approaches infinity as wavelength approaches zero.
+*   **Model $Y$ (Quantum/Planck’s Law):** Assumes that energy is quantized, where energy can only be emitted in discrete packets called quanta ($E = hf$). This avoids the ultraviolet catastrophe by restricting high-frequency emission at shorter wavelengths.
+
+**How to solve:** Connect the shape to the history of physics. Model $X$ is the failed classical prediction (Rayleigh-Jeans). Model $Y$ is the correct quantum model (Planck).
+
+---
+
+### Part (c)
+**Answer:**
+*   **Sketch:** The new curve for $4000\text{ K}$ must have a **lower peak intensity** and the **peak wavelength must shift to the right** (longer wavelength) compared to the $5000\text{ K}$ curve. It should also be broader at the base.
+*   **Explanation:**
+    1.  **Wien’s Displacement Law:** As temperature decreases, the peak wavelength $\lambda_{max}$ increases ($\lambda_{max} \propto 1/T$), shifting the peak towards the red/infrared end of the spectrum.
+    2.  **Stefan-Boltzmann Law:** The total energy emitted (the area under the curve) is proportional to $T^4$. Therefore, a cooler object at $4000\text{ K}$ has significantly lower total intensity at all wavelengths than a $5000\text{ K}$ object.
+
+**How to solve:** Recall the two fundamental rules of black body radiation:
+1.  Peak wavelength shifts right as $T$ drops.
+2.  Total area (intensity) drops significantly as $T$ drops.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

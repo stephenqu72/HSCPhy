@@ -1,0 +1,24 @@
+To demonstrate that the graph is consistent with Wien's Law, we need to show that the product of the peak wavelength ($\lambda_{max}$) and the absolute temperature ($T$) is approximately equal to Wien's displacement constant, $b$, where $b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+
+### Step-by-Step Solution:
+
+**1. Recall Wien's Displacement Law formula:**
+$$\lambda_{max} T = b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$$
+Since the graph uses micrometers ($\mu\text{m}$), we convert the constant: $b \approx 2898 \mu\text{m}\cdot\text{K}$.
+
+**2. Extract data points from the graph:**
+Let's select two points from the curve:
+*   **Point 1:** At $T = 400 \text{ K}$, the wavelength $\lambda \approx 7.2 \mu\text{m}$.
+*   **Point 2:** At $T = 800 \text{ K}$, the wavelength $\lambda \approx 3.6 \mu\text{m}$.
+
+**3. Perform the calculations:**
+*   For Point 1: 
+    $$\lambda T = 7.2 \mu\text{m} \times 400 \text{ K} = 2880 \mu\text{m}\cdot\text{K}$$
+*   For Point 2: 
+    $$\lambda T = 3.6 \mu\text{m} \times 800 \text{ K} = 2880 \mu\text{m}\cdot\text{K}$$
+
+**4. Conclusion:**
+Both calculated values ($2880 \mu\text{m}\cdot\text{K}$) are extremely close to the theoretical value of Wien's constant ($2898 \mu\text{m}\cdot\text{K}$). The slight discrepancy is due to the inherent uncertainty in reading the values from the graph. Since the product $\lambda T$ remains constant across different temperatures, the graph is consistent with Wien's Law.
+
+###QUESTION_TYPE
+Calculation question

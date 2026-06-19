@@ -1,0 +1,30 @@
+The correct answer is **A**.
+
+### Explanation:
+
+To solve this problem, we must apply **Wien's Displacement Law**. This fundamental principle of thermal physics states that the wavelength at which the emission of a black body reaches its maximum intensity ($\lambda_{max}$) is inversely proportional to the absolute temperature ($T$) of the black body.
+
+The mathematical relationship is given by:
+$$\lambda_{max} T = b$$
+Or, rewritten to solve for $\lambda$:
+$$\lambda = \frac{b}{T}$$
+
+Where:
+- $\lambda$ is the wavelength of peak intensity.
+- $T$ is the absolute temperature (in Kelvin).
+- $b$ is Wien's displacement constant ($\approx 2.898 \times 10^{-3} \text{ m K}$).
+
+**Analyzing the graph:**
+- Because $\lambda$ is inversely proportional to $T$ (i.e., $\lambda \propto \frac{1}{T}$), as the temperature $T$ increases, the peak wavelength $\lambda$ must decrease.
+- A graph showing an inverse relationship between two variables where one is a constant divided by the other results in a **rectangular hyperbola** that never touches either axis (as $T \to \infty$, $\lambda \to 0$, and as $T \to 0$, $\lambda \to \infty$).
+
+Comparing this to the options:
+- **Graph A** represents an inverse relationship ($\lambda \propto \frac{1}{T}$), which correctly depicts the curve of a rectangular hyperbola.
+- **Graph B** represents a direct power relationship (like a parabola).
+- **Graph C** represents a linear inverse relationship, which is incorrect because the relationship is not linear.
+- **Graph D** represents a direct linear relationship ($\lambda \propto T$), which is incorrect.
+
+Therefore, Graph A is the only correct representation.
+
+###QUESTION_TYPE
+Multiple choice

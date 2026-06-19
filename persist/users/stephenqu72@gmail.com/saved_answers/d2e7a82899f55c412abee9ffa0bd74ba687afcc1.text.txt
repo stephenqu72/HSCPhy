@@ -1,0 +1,22 @@
+To determine the correct graph, we apply **Malus’s Law**, which describes the change in intensity of polarized light when it passes through a second polarizing filter (the analyzer).
+
+### Explanation
+1.  **Understand the setup**: Unpolarized light passes through Filter 1, becoming polarized. The light then hits Filter 2. The intensity of light $I$ reaching the meter after passing through Filter 2 is given by the equation:
+    $$I = I_0 \cos^2(\theta)$$
+    where:
+    *   $I_0$ is the intensity of the light after passing through the first filter.
+    *   $\theta$ is the angle between the transmission axes of the two filters.
+
+2.  **Analyze the rotation**:
+    *   At **0 degrees**, the filters are aligned (parallel), meaning $\theta = 0^\circ$. Since $\cos(0) = 1$, the intensity $I = I_0 \cos^2(0) = I_0$ (maximum intensity).
+    *   At **90 degrees**, the filters are crossed (perpendicular), meaning $\theta = 90^\circ$. Since $\cos(90^\circ) = 0$, the intensity $I = I_0 \cos^2(90^\circ) = 0$ (minimum intensity).
+    *   At **180 degrees**, the filters are aligned again, meaning $\theta = 180^\circ$. Since $\cos(180^\circ) = -1$, the intensity $I = I_0 (-1)^2 = I_0$ (maximum intensity).
+
+3.  **Evaluate the options**:
+    *   The graph must start at a maximum at $0^\circ$, drop to zero at $90^\circ$, and return to a maximum at $180^\circ$.
+    *   Graph A shows a curve that starts high at 0, touches the axis at 90, and rises back to the original level at 180. This matches the behavior of the $\cos^2(\theta)$ function.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

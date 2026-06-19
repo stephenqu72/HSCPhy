@@ -1,0 +1,20 @@
+To solve this problem, we must apply the principles of Einstein’s Special Relativity, specifically the **second postulate**: *The speed of light in a vacuum is constant for all inertial observers, regardless of the motion of the source or the observer.*
+
+### Analysis of the options:
+
+*   **A is incorrect:** According to the second postulate, both $X$ and $Y$ measure the speed of light as $c$. The velocity of the train does not add to or subtract from the speed of the light pulse.
+*   **B is correct:** 
+    *   In $X$'s frame (the train), the distance to the sensor is the "proper length" $L_0$. 
+    *   In $Y$'s frame (the ground), the sensor is moving away from the pulse as it travels. Therefore, the pulse must cover the initial distance plus the additional distance the sensor moved while the light was in transit. Consequently, $Y$ observes the pulse covering a longer distance than $X$ does. Conversely, $X$ sees the pulse travel a **shorter distance** than $Y$ does.
+*   **C is incorrect:** Because $Y$ observes the light traveling a longer distance, and they both must agree that the speed of the light is $c$, $Y$ must conclude that the light took a **longer time** to reach the sensor ($t = d/v$). $X$ observes a shorter time.
+*   **D is incorrect:** Due to the relative motion between the frames and the constant speed of light, both time and distance are relative quantities (time dilation and length contraction), not invariant ones.
+
+### How to solve:
+1.  **Identify the Postulate:** Always remember $v_{light} = c$ for all observers. This immediately eliminates A.
+2.  **Compare Frames:** Visualize the paths. In the train frame ($X$), the sensor is stationary. In the ground frame ($Y$), the sensor is moving at $0.95c$ in the direction of the pulse.
+3.  **Relate Distance and Time:** Since the light is moving toward a retreating target in $Y$'s frame, $Y$ sees the light "chase" the sensor, resulting in a longer path and a longer time interval. $X$ sees the "proper" distance. Thus, $X$ sees a shorter distance and a shorter time interval compared to $Y$.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

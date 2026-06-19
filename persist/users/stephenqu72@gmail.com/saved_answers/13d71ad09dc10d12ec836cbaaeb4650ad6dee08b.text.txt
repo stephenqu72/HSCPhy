@@ -1,0 +1,27 @@
+To solve this problem, we must apply the principles of special relativity, specifically **time dilation**.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the Proper Time ($\Delta t_0$):**
+    The "proper time" is the time interval measured in the frame where the clock is at rest (the spacecraft's frame). In this frame, the light must travel from mirror A to B and back to A. The distance between the mirrors is $L = 5.00 \text{ m}$.
+    The total distance traveled by the light in one period is $2L = 10.00 \text{ m}$.
+    Since the speed of light is $c \approx 3.00 \times 10^8 \text{ m/s}$, the proper time is:
+    $$\Delta t_0 = \frac{2L}{c} = \frac{10.00 \text{ m}}{3.00 \times 10^8 \text{ m/s}} \approx 3.33 \times 10^{-8} \text{ s} = 33.3 \text{ ns}$$
+
+2.  **Calculate the Lorentz Factor ($\gamma$):**
+    The time measured by an observer in the galaxy (where the spacecraft is moving at $v = 0.60c$) is dilated by the Lorentz factor:
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Substituting $v = 0.60c$:
+    $$\gamma = \frac{1}{\sqrt{1 - (0.60)^2}} = \frac{1}{\sqrt{1 - 0.36}} = \frac{1}{\sqrt{0.64}} = \frac{1}{0.8} = 1.25$$
+
+3.  **Calculate the Dilated Time ($\Delta t$):**
+    The time observed in the galaxy frame is given by:
+    $$\Delta t = \gamma \Delta t_0$$
+    $$\Delta t = 1.25 \times 33.3 \text{ ns} = 41.625 \text{ ns}$$
+
+Rounding to the nearest value provided in the options, we get approximately $42 \text{ ns}$.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

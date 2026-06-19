@@ -1,0 +1,29 @@
+To determine the color of the star CX-234, we must find the peak wavelength of its black-body radiation spectrum using Wien's Displacement Law.
+
+### Step-by-Step Solution:
+
+1.  **Identify the relevant formula:**
+    Wien's Displacement Law states:
+    $$\lambda_{max} = \frac{b}{T}$$
+    Where:
+    - $\lambda_{max}$ is the peak wavelength in meters ($m$).
+    - $b$ is Wien's displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$.
+    - $T$ is the absolute temperature in Kelvin ($K$).
+
+2.  **Perform the calculation:**
+    Given the temperature $T = 6400 \text{ K}$:
+    $$\lambda_{max} = \frac{2.898 \times 10^{-3} \text{ m K}}{6400 \text{ K}}$$
+    $$\lambda_{max} \approx 4.528 \times 10^{-7} \text{ m}$$
+
+3.  **Convert to nanometers (nm):**
+    Since $1 \text{ nm} = 1 \times 10^{-9} \text{ m}$:
+    $$\lambda_{max} \approx 452.8 \times 10^{-9} \text{ m} = 452.8 \text{ nm}$$
+
+4.  **Interpret the result using the diagram:**
+    Looking at the provided spectrum diagram, the wavelength $452.8 \text{ nm}$ falls within the **blue** section of the visible light spectrum (which spans roughly $445 \text{ nm}$ to $475 \text{ nm}$ for the blue region).
+
+**Conclusion:**
+The peak emission for star CX-234 is in the blue region of the spectrum. Therefore, the correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

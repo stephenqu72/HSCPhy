@@ -1,0 +1,29 @@
+To determine the velocity of the photoelectrons emitted from the sodium plate, we follow these steps:
+
+### 1. Calculate the energy of the incident photons
+First, we use the data from the Thorium plate. The stopping voltage $V_s$ relates to the maximum kinetic energy $E_{k,max}$ of the electrons by $E_{k,max} = e V_s$.
+Given: $V_s = 3.56\text{ V}$, so $E_{k,max} = 3.56\text{ eV}$.
+Converting to Joules ($1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$):
+$$E_{k,max} = 3.56 \times 1.602 \times 10^{-19} = 5.703 \times 10^{-19}\text{ J}$$
+
+Using Einstein's photoelectric equation: $E_{photon} = \Phi_{Thorium} + E_{k,max}$
+$$\Phi_{Thorium} = 3.669 \times 10^{-19}\text{ J}$$
+$$E_{photon} = 3.669 \times 10^{-19} + 5.703 \times 10^{-19} = 9.372 \times 10^{-19}\text{ J}$$
+
+### 2. Determine the kinetic energy of photoelectrons from Sodium
+Now, we apply this same photon energy to the sodium plate. First, calculate the work function of sodium ($\Phi_{Sodium}$) using the threshold frequency $f_0 = 6.65 \times 10^{14}\text{ Hz}$ and Planck's constant ($h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$):
+$$\Phi_{Sodium} = h f_0 = (6.626 \times 10^{-34}) \times (6.65 \times 10^{14}) = 4.406 \times 10^{-19}\text{ J}$$
+
+The maximum kinetic energy of electrons from the sodium plate is:
+$$E_{k,sodium} = E_{photon} - \Phi_{Sodium}$$
+$$E_{k,sodium} = 9.372 \times 10^{-19} - 4.406 \times 10^{-19} = 4.966 \times 10^{-19}\text{ J}$$
+
+### 3. Calculate the velocity
+Using the kinetic energy formula $E_k = \frac{1}{2} m v^2$ (where $m_e = 9.109 \times 10^{-31}\text{ kg}$):
+$$v = \sqrt{\frac{2 E_k}{m_e}} = \sqrt{\frac{2 \times 4.966 \times 10^{-19}}{9.109 \times 10^{-31}}}$$
+$$v = \sqrt{1.090 \times 10^{12}} \approx 1.044 \times 10^6\text{ m/s}$$
+
+**Final Answer:** The velocity of the photoelectrons emitted from the sodium plate is approximately $1.04 \times 10^6\text{ m/s}$.
+
+###QUESTION_TYPE
+Calculation question

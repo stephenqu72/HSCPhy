@@ -1,0 +1,35 @@
+To solve this problem, we need to apply the concept of **Length Contraction** from Einstein's Theory of Special Relativity.
+
+### Explanation
+
+When an object moves at relativistic speeds relative to an observer, its measured length in the direction of motion is shorter than its proper length (the length measured in the object's rest frame). 
+
+The formula for length contraction is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+Where:
+*   $L$ is the length measured by the stationary observer.
+*   $L_0$ is the proper length (the length of the spaceship when stationary), which is $42\text{ m}$.
+*   $v$ is the velocity of the spaceship, which is $2.75 \times 10^8\text{ ms}^{-1}$.
+*   $c$ is the speed of light, approximately $3.00 \times 10^8\text{ ms}^{-1}$.
+
+### Step-by-Step Calculation
+
+1. **Calculate the ratio $\frac{v}{c}$:**
+   $$\frac{v}{c} = \frac{2.75 \times 10^8}{3.00 \times 10^8} \approx 0.91667$$
+
+2. **Calculate the square of the ratio:**
+   $$\left(\frac{v}{c}\right)^2 \approx (0.91667)^2 \approx 0.84028$$
+
+3. **Calculate the Lorentz factor component (the square root term):**
+   $$\sqrt{1 - 0.84028} = \sqrt{0.15972} \approx 0.39965$$
+
+4. **Calculate the contracted length ($L$):**
+   $$L = 42 \times 0.39965 \approx 16.785\text{ m}$$
+
+Rounding to two decimal places, we get $16.79\text{ m}$.
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

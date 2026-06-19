@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **time dilation** and **length contraction**.
+
+### Explanation
+
+1.  **Identify the Frames of Reference:**
+    *   **Earth Frame ($S$):** The distance $L$ between the rocket and Earth is measured by observers on Earth. They measure the time $t = 850\text{ }\mu\text{s}$ for the rocket to cover this distance at $v = 0.75c$.
+    *   **Rocket Frame ($S'$):** From the pilot's perspective, the Earth is moving toward them at $0.75c$. The distance between the rocket and Earth is length-contracted to $L'$. The pilot measures the proper time $t'$ to reach the surface.
+
+2.  **Step-by-step Calculation:**
+    *   First, calculate the Lorentz factor, $\gamma$:
+        $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.75^2}} = \frac{1}{\sqrt{1 - 0.5625}} = \frac{1}{\sqrt{0.4375}} \approx 1.51186$$
+
+    *   The observers on Earth measure the distance $L$ as:
+        $$L = v \times t = 0.75c \times 850\text{ }\mu\text{s}$$
+
+    *   The pilot in the rocket sees the distance $L$ as length-contracted to $L'$:
+        $$L' = \frac{L}{\gamma}$$
+
+    *   The time $t'$ the pilot calculates to cover this distance is:
+        $$t' = \frac{L'}{v} = \frac{L / \gamma}{v} = \frac{L}{v \gamma}$$
+    *   Since $L/v$ is the time measured by Earth observers ($t = 850\text{ }\mu\text{s}$), we get:
+        $$t' = \frac{t}{\gamma} = \frac{850}{1.51186} \approx 562.22\text{ }\mu\text{s}$$
+
+3.  **Conclusion:**
+    The pilot perceives the distance to be shorter (length contraction), and thus calculates a shorter time to reach the Earth compared to the observers on Earth. 
+
+Comparing this result to the given options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,21 @@
+To solve this problem, we apply the principles of **Special Relativity**, specifically **length contraction**.
+
+### Explanation
+
+1.  **Identify the Proper Length ($L_0$):** The proper length is the length of an object measured by an observer at rest relative to that object. Since the observer is *inside* the spaceship, the measurement of $200\text{ m}$ is the proper length ($L_0 = 200\text{ m}$).
+2.  **Identify the Variables:**
+    *   Velocity ($v$) = $0.8c$
+    *   Lorentz factor ($\gamma$) is calculated using the formula $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+3.  **Calculate the Lorentz factor:**
+    $$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} \approx 1.667$$
+4.  **Apply the Length Contraction Formula:** The observer on Earth measures a contracted length ($L$) given by:
+    $$L = \frac{L_0}{\gamma} = L_0 \times \sqrt{1 - \frac{v^2}{c^2}}$$
+    $$L = 200 \times 0.6$$
+    $$L = 120\text{ m}$$
+
+As the spaceship moves at $0.8c$ relative to the Earth, an observer on Earth will measure the length to be $120\text{ m}$.
+
+**Correct Answer:** **C**
+
+###QUESTION_TYPE
+Multiple choice

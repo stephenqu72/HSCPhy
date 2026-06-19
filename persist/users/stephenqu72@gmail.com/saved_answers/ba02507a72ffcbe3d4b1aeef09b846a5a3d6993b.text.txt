@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+**Correct Answer: D**
+
+#### Explanation
+To solve this, we must understand the theoretical framework of the Michelson-Morley experiment within the context of 19th-century physics:
+
+1.  **The "Aether" Hypothesis:** At the time, scientists believed that light waves required a medium to propagate through, called the "luminiferous aether." They expected that as the Earth moved through space, it would move through this "aether wind."
+2.  **The Experimental Logic:** Michelson and Morley designed an interferometer to detect this aether wind. 
+    *   The apparatus is moving in the direction indicated (perpendicular to arm $L_2$).
+    *   For the arm parallel to the motion ($L_2$), the light would experience a "headwind" and "tailwind," resulting in a travel time influenced by the addition of velocities (Galilean relativity).
+    *   For the arm perpendicular to the motion ($L_1$), the light would experience a different travel time as it "travels across" the current.
+3.  **The Expected Outcome:** Classically, the calculation for the time taken to travel the arms yields:
+    *   $t_{\text{parallel}} \approx \frac{2L}{c(1 - v^2/c^2)}$
+    *   $t_{\text{perpendicular}} \approx \frac{2L}{c\sqrt{1 - v^2/c^2}}$
+    Because of the motion of the Earth (the "aether wind"), these times were expected to be different, resulting in a measurable phase shift in the interference pattern. Specifically, the longitudinal path ($L_2$) would take longer than the transverse path ($L_1$).
+4.  **Evaluating the Options:**
+    *   **A:** Relativistic contraction (Length Contraction) is the *result* of the experiment's null finding, not the *initial intention*.
+    *   **B:** The hypothesis that the ether is carried with the Earth (aether drag) would have meant no change in time, but this was a competing hypothesis, not the primary test Michelson was performing.
+    *   **C:** This is not the scientific rationale for the experiment; the experiment was specifically designed to detect a difference *despite* the motion being slow.
+    *   **D:** This correctly identifies that Michelson was looking for the effect of Earth’s motion relative to the aether, which he predicted would cause a time difference between the two arms.
+
+###QUESTION_TYPE
+Multiple choice

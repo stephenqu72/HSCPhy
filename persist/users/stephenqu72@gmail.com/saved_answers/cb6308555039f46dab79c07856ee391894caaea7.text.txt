@@ -1,0 +1,18 @@
+### Answer
+The statement is true because of the principles of Special Relativity, specifically regarding the relationship between mass, energy, and velocity. 
+
+As a particle with mass ($m > 0$) is accelerated toward the speed of light ($c$), its relativistic momentum and total energy increase. According to the formula for relativistic mass/energy:
+
+$$E = \gamma mc^2 = \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+As the velocity ($v$) approaches the speed of light ($c$), the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero. This causes the total energy required to further accelerate the particle to approach infinity. Since a particle accelerator can only provide a finite amount of energy to the particle, it is physically impossible to reach or exceed $c$. Therefore, the particle's velocity will always remain strictly less than $c$.
+
+### How to solve this question
+To secure full marks (3 marks) for this HSC-style response, you must follow these steps:
+
+1.  **Reference the Physical Principle:** Identify that this is a consequence of Einstein’s theory of Special Relativity. Explicitly state that the speed of light is the universal speed limit for all matter.
+2.  **Use the Mathematical Relationship:** Explain the behavior of the Lorentz factor ($\gamma$) as $v$ approaches $c$. Showing the relationship between energy and velocity is crucial. Mention that as $v \to c$, the energy required to increase the velocity approaches infinity.
+3.  **Link to the Context:** Conclude by explaining that because particle accelerators (like the LHC) are constrained by finite energy inputs, they can never overcome the "infinite energy" requirement, thus confirming that they can never reach or exceed the speed of light.
+
+### QUESTION_TYPE
+Short answer

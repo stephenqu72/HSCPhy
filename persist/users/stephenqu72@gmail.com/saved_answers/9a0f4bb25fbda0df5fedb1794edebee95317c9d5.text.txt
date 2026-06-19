@@ -1,0 +1,21 @@
+### Solution and Explanation
+
+**Part (a)**
+*   **Answer:** Maxwell’s equations for electromagnetism predicted that the speed of light in a vacuum is constant and independent of the motion of the source or the observer. This directly informed Einstein’s second postulate of special relativity, which states that the speed of light in a vacuum, $c$, is the same for all inertial observers.
+*   **Explanation:** When studying this, focus on the contradiction between Maxwell’s electromagnetic theory (which predicted a fixed speed $c$) and classical Newtonian mechanics (which required Galilean transformations where speeds add). Einstein resolved this by elevating the constancy of $c$ to a fundamental postulate.
+
+**Part (b)**
+*   **Answer:** According to Galilean relativity, the observed speed would be $v_{observed} = c - (-0.8c) = 1.8c$ (or $c + 0.8c$ depending on frame orientation). However, Einstein’s special relativity predicts the speed remains exactly $c$.
+*   **Explanation:** Galilean relativity uses simple vector addition ($v_{rel} = v_1 + v_2$). Einsteinian relativity dictates that the speed of light is an invariant constant for all inertial frames of reference; therefore, despite the relative motion between the rocket and the ground, the ground observer still measures the light pulse traveling at $c$.
+
+**Part (c)**
+*   **Answer:** 
+    We use the length contraction formula: $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$
+    Here, the length measured by the ground observer is the contracted length $L = 35 \text{ m}$. We need to find the proper length $L_0$ (measured by the astronaut).
+    $$L_0 = \frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Given $v = 0.8c$:
+    $$L_0 = \frac{35}{\sqrt{1 - (0.8)^2}} = \frac{35}{\sqrt{1 - 0.64}} = \frac{35}{\sqrt{0.36}} = \frac{35}{0.6} \approx 58.33 \text{ m}$$
+*   **Explanation:** Length contraction occurs in the direction of motion. Since the ground observer sees the rocket moving, they see it contracted. To find the "proper length" ($L_0$), which is the length measured in the object's rest frame (the astronaut's frame), we divide the contracted length by the Lorentz factor $\gamma$.
+
+###QUESTION_TYPE
+Calculation question

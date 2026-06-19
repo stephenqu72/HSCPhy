@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To determine the relationship between relativistic and classical kinetic energy, we compare their respective formulas:
+
+1.  **Classical Kinetic Energy:**
+    The formula used in Newtonian mechanics is:
+    $$E_{k(\text{classical})} = \frac{1}{2}mv^2$$
+
+2.  **Relativistic Kinetic Energy:**
+    According to Einstein's theory of special relativity, the total energy of an object is given by $E = \gamma mc^2$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. The kinetic energy is the total energy minus the rest energy ($E_0 = mc^2$):
+    $$E_{k(\text{relativistic})} = (\gamma - 1)mc^2$$
+
+3.  **Comparing the two:**
+    Using the binomial expansion for $\gamma$ when $v$ is relativistic (approaching $c$):
+    $$\gamma = \left(1 - \frac{v^2}{c^2}\right)^{-1/2} \approx 1 + \frac{1}{2}\frac{v^2}{c^2} + \frac{3}{8}\frac{v^4}{c^4} + \dots$$
+    Substituting this back into the relativistic formula:
+    $$E_{k(\text{relativistic})} \approx \left(1 + \frac{1}{2}\frac{v^2}{c^2} + \frac{3}{8}\frac{v^4}{c^4} - 1\right)mc^2$$
+    $$E_{k(\text{relativistic})} \approx \frac{1}{2}mv^2 + \frac{3}{8}m \frac{v^4}{c^2} + \dots$$
+
+As you can see, the relativistic kinetic energy includes the classical term ($\frac{1}{2}mv^2$) plus additional higher-order positive terms. Therefore, at any non-zero speed, the relativistic kinetic energy is always greater than the classical kinetic energy, especially as $v$ approaches $c$.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **Length Contraction**.
+
+### Answer
+The length of the spacecraft as measured by the astronaut on board (the proper length, $L_0$) is **$100\text{ m}$**.
+
+### Explanation
+1.  **Identify the variables:**
+    *   The observer on the ground measures the contracted length: $L = 80\text{ m}$.
+    *   The speed of the spacecraft is $v = 0.6c$.
+    *   We need to find the proper length, $L_0$ (the length measured by an observer at rest relative to the spacecraft, i.e., the astronaut).
+
+2.  **State the formula for length contraction:**
+    The relationship between proper length and contracted length is given by:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    Rearranging to solve for $L_0$:
+    $$L_0 = \frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+3.  **Perform the calculation:**
+    *   Substitute $v = 0.6c$ into the equation:
+    $$\frac{v^2}{c^2} = \frac{(0.6c)^2}{c^2} = 0.36$$
+    *   Calculate the Lorentz factor component:
+    $$\sqrt{1 - 0.36} = \sqrt{0.64} = 0.8$$
+    *   Solve for $L_0$:
+    $$L_0 = \frac{80}{0.8}$$
+    $$L_0 = 100\text{ m}$$
+
+**Teacher's Tip:** In the HSC Physics exam, always ensure you correctly identify which length is $L$ (the contracted length) and which is $L_0$ (the proper length). The proper length $L_0$ is *always* longer than the contracted length $L$ for an object in motion.
+
+###QUESTION_TYPE
+Calculation question

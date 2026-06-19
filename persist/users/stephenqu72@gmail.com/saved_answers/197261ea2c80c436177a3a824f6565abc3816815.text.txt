@@ -1,0 +1,30 @@
+To solve this problem, we use **Wien’s Displacement Law**, which states that the wavelength at which a black body emits maximum intensity ($\lambda_{max}$) is inversely proportional to its absolute temperature ($T$):
+
+$$\lambda_{max} T = b$$
+
+where $b$ is Wien’s displacement constant ($b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$).
+
+### Step-by-Step Solution:
+
+**1. Identify the relationship:**
+Since the constant $b$ remains the same for both states of the black body, we can set up the following ratio:
+$$\lambda_1 T_1 = \lambda_2 T_2$$
+Rearranging to solve for the new wavelength $\lambda_2$:
+$$\lambda_2 = \frac{\lambda_1 T_1}{T_2}$$
+
+**2. List the known values:**
+*   Initial wavelength $\lambda_1 = 7.00 \times 10^{-7} \text{ m}$
+*   Initial temperature $T_1 = 4140 \text{ K}$
+*   The temperature is increased by $1000 \text{ K}$, so the new temperature $T_2 = 4140 \text{ K} + 1000 \text{ K} = 5140 \text{ K}$
+
+**3. Calculate the new wavelength:**
+$$\lambda_2 = \frac{(7.00 \times 10^{-7} \text{ m}) \times (4140 \text{ K})}{5140 \text{ K}}$$
+$$\lambda_2 \approx \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{5140 \text{ K}}$$
+$$\lambda_2 \approx 5.638 \times 10^{-7} \text{ m}$$
+
+Rounding to three significant figures, we get $5.64 \times 10^{-7} \text{ m}$. Comparing this to the provided options, it matches option **(B)**.
+
+**Answer:** (B) $5.65 \times 10^{-7} \text{ m}$
+
+###QUESTION_TYPE
+Multiple choice

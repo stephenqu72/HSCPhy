@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **D**. For both metals $X$ and $Y$, the number of photoelectrons emitted would increase but the maximum kinetic energy would remain unchanged.
+
+### Explanation
+To solve this problem, we must apply Einstein's Photoelectric Equation:
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $K_{max}$ is the maximum kinetic energy of the emitted photoelectrons.
+*   $h$ is Planck's constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ is the work function of the metal (the minimum energy required to eject an electron).
+
+**1. Analyzing Maximum Kinetic Energy ($K_{max}$):**
+The equation shows that $K_{max}$ depends **only** on the frequency of the incident light ($f$) and the work function of the metal ($\Phi$). The intensity of the light relates to the number of photons striking the surface per second, not the energy of individual photons. Therefore, if we double the intensity while keeping the wavelength (and thus the frequency) constant, the energy of each individual photon remains the same ($E = \frac{hc}{\lambda}$). Consequently, the maximum kinetic energy of the ejected electrons does not change.
+
+**2. Analyzing the number of photoelectrons:**
+In the photoelectric effect, one photon interacts with one electron. Doubling the intensity of the light means doubling the number of incident photons per second. Assuming the light frequency is above the threshold frequency (which it is for metal $X$ at $\lambda = 300\text{ nm}$, where $f = \frac{c}{\lambda} \approx 10 \times 10^{14}\text{ Hz}$), more photons will result in more electrons being ejected from the surface of the metal. 
+
+*   **For Metal $X$:** The frequency corresponding to $300\text{ nm}$ is $10 \times 10^{14}\text{ Hz}$, which is greater than the threshold frequency of $5 \times 10^{14}\text{ Hz}$. Thus, photoelectrons are emitted.
+*   **For Metal $Y$:** The frequency is $10 \times 10^{14}\text{ Hz}$, which is exactly at the threshold frequency for metal $Y$. At this point, emission is on the verge of occurring (or occurs at zero kinetic energy). In both cases, increasing the photon flux (intensity) increases the rate of emission.
+
+Since intensity only affects the quantity of electrons (the photocurrent) and not the energy of the individual electrons, option **D** is the correct statement.
+
+###QUESTION_TYPE
+Multiple choice

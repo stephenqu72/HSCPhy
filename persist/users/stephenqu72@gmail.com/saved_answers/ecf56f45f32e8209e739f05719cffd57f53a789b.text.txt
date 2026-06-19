@@ -1,0 +1,24 @@
+To solve this problem, we apply the principles of Special Relativity, specifically time dilation.
+
+### Part a)
+**Solution:**
+The distance $d$ is $150\,000\,000\text{ km} = 1.5 \times 10^{11}\text{ m}$.
+The speed of the electron $v$ is $0.9c$, where $c \approx 3 \times 10^8\text{ m/s}$.
+The time $t$ measured by an observer on Earth is:
+$$t = \frac{d}{v} = \frac{1.5 \times 10^{11}\text{ m}}{0.9 \times 3 \times 10^8\text{ m/s}}$$
+$$t = \frac{1.5 \times 10^{11}}{2.7 \times 10^8} \approx 555.56\text{ seconds}$$
+
+**Explanation:** From the Earth's perspective, the distance between the Sun and Earth is stationary. Therefore, we simply use the classical formula $t = d/v$ to find the time elapsed for the electron to traverse that distance.
+
+---
+
+### Part b)
+**Solution:**
+We use the time dilation formula: $t_0 = t\sqrt{1 - \frac{v^2}{c^2}}$
+Given $v = 0.9c$, the Lorentz factor term $\sqrt{1 - \frac{(0.9c)^2}{c^2}} = \sqrt{1 - 0.81} = \sqrt{0.19} \approx 0.43589$.
+$$t_0 = 555.56\text{ s} \times 0.43589 \approx 242.16\text{ seconds}$$
+
+**Explanation:** In the electron's reference frame, the distance between the Sun and the Earth is length-contracted, meaning the travel time is shorter than what is measured on Earth. This is the definition of time dilation: the "proper time" ($t_0$) experienced by the moving particle is less than the coordinate time ($t$) measured by the stationary observer.
+
+###QUESTION_TYPE
+Calculation question

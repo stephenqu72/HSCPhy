@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically **time dilation**.
+
+### 1. Identify the given values
+*   Distance ($d$): $10\text{ light-years}$
+*   Speed ($v$): $0.995c$
+*   Stationary time on the planet ($\Delta t_{stay}$): $10\text{ years}$
+
+### 2. Calculate the time elapsed for the twin on Earth
+The twin on Earth experiences the trip in the Earth's frame of reference.
+*   Time for the outward journey: $t_{out} = \frac{d}{v} = \frac{10\text{ ly}}{0.995c} \approx 10.05\text{ years}$
+*   Time for the return journey: $t_{return} = \frac{d}{v} \approx 10.05\text{ years}$
+*   Time spent on the planet: $10\text{ years}$
+*   **Total Earth time ($\Delta t_{Earth}$)**: $10.05 + 10 + 10.05 = 30.1\text{ years}$
+
+### 3. Calculate the time elapsed for the traveling astronaut
+The astronaut experiences time dilation. The Lorentz factor ($\gamma$) is:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.995^2}} \approx \frac{1}{\sqrt{1 - 0.990025}} \approx \frac{1}{0.09987} \approx 10.0125$$
+
+The astronaut's proper time ($\Delta t_{astronaut}$) for the travel legs is:
+$$\Delta t_{travel} = \frac{\Delta t_{Earth\_travel}}{\gamma} = \frac{20.1}{10.0125} \approx 2.007\text{ years}$$
+
+The stay on the planet is in a stationary frame relative to the planet, so the $10\text{ years}$ pass normally for the astronaut while on the planet.
+*   **Total astronaut time**: $2.007 + 10 \approx 12.01\text{ years}$
+
+### 4. Determine the age gap
+*   Difference = $\Delta t_{Earth} - \Delta t_{astronaut} = 30.1 - 12.01 = 18.09\text{ years}$
+*   Rounding to the nearest year, the sister is $18\text{ years}$ older than the astronaut.
+
+The correct answer is **c) She is older by 18 years**.
+
+###QUESTION_TYPE
+Multiple choice

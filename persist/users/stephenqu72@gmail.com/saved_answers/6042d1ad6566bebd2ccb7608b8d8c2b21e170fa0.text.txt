@@ -1,0 +1,37 @@
+To solve this problem, we apply the concept of **length contraction** from Einstein’s theory of Special Relativity.
+
+### Answer
+The correct answer is **B. $\sqrt{\frac{8}{9}}c$**.
+
+---
+
+### Step-by-Step Explanation
+
+1.  **Identify the variables:**
+    *   Let $L_0$ be the rest length of the spaceship.
+    *   Let $L$ be the observed length of the spaceship as it passes the station.
+    *   We are given that $L = \frac{1}{3}L_0$.
+
+2.  **Recall the length contraction formula:**
+    The relationship between the observed length and the rest length is given by:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+3.  **Substitute the given values into the formula:**
+    $$\frac{1}{3}L_0 = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+4.  **Solve for $v$:**
+    *   Divide both sides by $L_0$:
+        $$\frac{1}{3} = \sqrt{1 - \frac{v^2}{c^2}}$$
+    *   Square both sides to remove the square root:
+        $$\frac{1}{9} = 1 - \frac{v^2}{c^2}$$
+    *   Rearrange the equation to isolate the velocity term:
+        $$\frac{v^2}{c^2} = 1 - \frac{1}{9}$$
+        $$\frac{v^2}{c^2} = \frac{8}{9}$$
+    *   Take the square root of both sides:
+        $$\frac{v}{c} = \sqrt{\frac{8}{9}}$$
+        $$v = \sqrt{\frac{8}{9}}c$$
+
+Thus, the speed of the spaceship is $\sqrt{\frac{8}{9}}c$.
+
+###QUESTION_TYPE
+Multiple choice

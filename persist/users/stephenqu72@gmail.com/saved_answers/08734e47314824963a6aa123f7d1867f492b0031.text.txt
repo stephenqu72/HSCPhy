@@ -1,0 +1,31 @@
+To find the temperature of the blackbody, we use **Wien’s Displacement Law**, which relates the wavelength at which the emission of a blackbody is at its peak ($\lambda_{max}$) to its absolute temperature ($T$):
+
+$$\lambda_{max} T = b$$
+
+Where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$.
+
+### Step-by-Step Solution:
+
+1.  **Identify the peak wavelength ($\lambda_{max}$):**
+    Looking at the graph, the peak of the energy density curve occurs at $0.50 \text{ \mu m}$.
+    We must convert this to meters:
+    $$\lambda_{max} = 0.50 \times 10^{-6} \text{ m}$$
+
+2.  **Rearrange Wien’s Law to solve for $T$:**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \text{ m K}}{0.50 \times 10^{-6} \text{ m}}$$
+    $$T \approx 5796 \text{ K}$$
+
+4.  **Compare with the options:**
+    The calculated value is approximately $5800 \text{ K}$.
+    *   (A) is far too low.
+    *   (B) $5800 \text{ K}$ matches our calculation.
+    *   (C) $5800 ^\circ\text{C}$ is equivalent to $6073 \text{ K}$, which is incorrect because the law requires absolute temperature (Kelvin).
+    *   (D) is far too high.
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+### Answer
+In Newtonian physics, the kinetic energy of an object is given by $E_k = \frac{1}{2}mv^2$. This formula implies that an object can be accelerated indefinitely to any speed by adding more energy. However, according to Special Relativity, this is incorrect.
+
+As a spacecraft’s velocity $v$ approaches the speed of light $c$, its relativistic mass (or total energy) increases according to the Lorentz factor $\gamma$:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+The relativistic total energy of an object is given by $E = \gamma mc^2$. As $v \to c$, the denominator of the Lorentz factor approaches zero, causing $\gamma$ to approach infinity. Consequently, the energy required to further increase the velocity of the spacecraft also approaches infinity. Therefore, the work (thrust) performed on the spacecraft results in an increase in the spacecraft's relativistic mass rather than a significant increase in velocity. This explains why the speed of light $c$ acts as a universal speed limit that cannot be reached or exceeded by any massive object.
+
+---
+
+### How to solve it
+To achieve full marks in an HSC physics response like this, you should structure your answer as follows:
+
+1.  **Identify the Classical Discrepancy:** Briefly state the Newtonian view ($E_k = \frac{1}{2}mv^2$) to show you understand why the classical model fails at high speeds (i.e., it suggests speed can increase without limit).
+2.  **Introduce the Relativistic Framework:** Mention that at relativistic speeds, mass is not constant. Introduce the Lorentz factor $\gamma$.
+3.  **Use Mathematical Relationships:** Explicitly state the formula for total relativistic energy $E = \gamma mc^2$.
+4.  **Explain the Limit:** Explain the behavior of the equation as $v \to c$. You must clearly articulate that the energy input is "converted" into an increase in mass-energy rather than linear velocity, making it impossible to reach $c$. Linking the "thrust" to the concept of work done increasing relativistic mass is key to securing all 4 marks.
+
+###QUESTION_TYPE
+Short answer

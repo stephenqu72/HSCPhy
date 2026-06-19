@@ -1,0 +1,29 @@
+To find the energy of a photon given its wavelength, we use the Planck-Einstein relation:
+
+$$E = \frac{hc}{\lambda}$$
+
+### Given values:
+*   Planck’s constant ($h$) $\approx 6.626 \times 10^{-34} \text{ J s}$
+*   Speed of light ($c$) $\approx 3.00 \times 10^8 \text{ m/s}$
+*   Wavelength ($\lambda$) $= 3.5 \times 10^{-2} \text{ m}$
+
+### Step-by-step Calculation:
+1.  **Substitute the values into the formula:**
+    $$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{3.5 \times 10^{-2}}$$
+
+2.  **Calculate the numerator:**
+    $$(6.626 \times 3.00) \times 10^{-34 + 8} = 19.878 \times 10^{-26} \text{ J m}$$
+
+3.  **Divide by the wavelength:**
+    $$E = \frac{19.878 \times 10^{-26}}{3.5 \times 10^{-2}}$$
+    $$E \approx 5.679 \times 10^{-24} \text{ J}$$
+
+Comparing this result to the given options, it matches **Option A**.
+
+***
+
+### Explanation
+To solve problems involving photon energy, always remember the relationship between energy, frequency, and wavelength. Since $v = f\lambda$ and for light $c = f\lambda$, we can substitute $f = \frac{c}{\lambda}$ into $E=hf$ to derive $E = \frac{hc}{\lambda}$. When performing these calculations, ensure your units for speed ($m/s$) and wavelength ($m$) are consistent to arrive at the energy in Joules ($J$).
+
+###QUESTION_TYPE
+Multiple choice

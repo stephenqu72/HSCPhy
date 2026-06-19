@@ -1,0 +1,21 @@
+To solve this problem, we must apply the physical principles governing the transmission of light through polarisers.
+
+### Step-by-Step Explanation:
+
+1.  **Effect on $I_1$ (The first polariser):**
+    When unpolarised light passes through a polariser, the transmitted intensity $I_1$ is given by $I_1 = \frac{1}{2} I_0$, where $I_0$ is the intensity of the incident unpolarised light. Because unpolarised light consists of oscillations in all possible planes perpendicular to the direction of propagation, the amount of light that passes through the first polariser is independent of the orientation (the angle) of its transmission axis. Therefore, rotating the first polariser **does not change** $I_1$.
+
+2.  **Effect on $I_2$ (The second polariser):**
+    The light incident on the second polariser is now linearly polarised. The intensity of light emerging from a second polariser is governed by **Malus's Law**:
+    $$I_2 = I_1 \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axis of the first polariser and the transmission axis of the second polariser. 
+
+    If we rotate the first polariser while the second polariser remains fixed, the angle $\theta$ between their transmission axes changes. Consequently, $\cos^2(\theta)$ changes, which means the intensity $I_2$ will change accordingly.
+
+### Conclusion:
+Rotating the first polariser keeps $I_1$ constant but alters the angle $\theta$ relative to the second polariser, causing $I_2$ to change. Thus, only $I_2$ is affected.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

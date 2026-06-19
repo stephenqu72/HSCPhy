@@ -1,0 +1,30 @@
+To find the work function of the metal, we use the photoelectric equation:
+$$E_k = hf - \Phi$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   The voltage shown is $-1.59\text{ V}$. This is the **stopping voltage** ($V_s$), which is the minimum potential required to stop the most energetic photoelectrons. Therefore, the maximum kinetic energy ($E_{k,max}$) of the electrons is $1.59\text{ eV}$.
+    *   The wavelength ($\lambda$) of the incident light is $210\text{ nm} = 210 \times 10^{-9}\text{ m}$.
+    *   Planck's constant ($h$) is $4.136 \times 10^{-15}\text{ eV}\cdot\text{s}$.
+    *   The speed of light ($c$) is $3.00 \times 10^8\text{ m/s}$.
+
+2.  **Calculate the energy of the incident photons ($E_{photon} = hf = \frac{hc}{\lambda}$):**
+    Using the constant $hc \approx 1240\text{ eV}\cdot\text{nm}$:
+    $$E_{photon} = \frac{1240\text{ eV}\cdot\text{nm}}{210\text{ nm}} \approx 5.9048\text{ eV}$$
+
+3.  **Use the photoelectric equation:**
+    We know that $E_{k,max} = E_{photon} - \Phi$. Rearranging for the work function ($\Phi$):
+    $$\Phi = E_{photon} - E_{k,max}$$
+    $$\Phi = 5.9048\text{ eV} - 1.59\text{ eV}$$
+    $$\Phi = 4.3148\text{ eV}$$
+
+Rounding to two decimal places, we get **$4.32\text{ eV}$**.
+
+Comparing this to the provided options, the correct answer is **B**.
+
+### Explanation:
+The stopping potential provides the value of the maximum kinetic energy in electron-volts. By calculating the total energy of the incoming photons using the wavelength, we can subtract the energy retained by the electrons (the stopping energy) to find the energy used to liberate them from the metal surface, which is the definition of the work function.
+
+###QUESTION_TYPE
+Multiple choice

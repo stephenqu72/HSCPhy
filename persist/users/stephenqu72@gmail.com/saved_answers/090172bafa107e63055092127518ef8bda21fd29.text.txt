@@ -1,0 +1,33 @@
+To solve this problem, we need to apply the two fundamental principles of light polarization:
+
+### 1. Passing through the first filter (Filter A)
+When unpolarised light of intensity $I_0$ passes through a single ideal polarising filter, the intensity of the transmitted light is reduced by exactly half, regardless of the orientation of the filter's axis.
+$$I_A = \frac{1}{2}I_0$$
+
+### 2. Passing through the second filter (Filter B)
+When polarised light passes through a second filter (the analyser), the intensity of the light emerging from the second filter ($I_B$) is given by **Malus's Law**:
+$$I_B = I_A \cos^2(\theta)$$
+where $\theta$ is the angle between the transmission axes of the two polarisers.
+
+### Step-by-Step Calculation:
+1.  **Find the intensity after the first filter:**
+    $$I_A = 0.5 I_0$$
+
+2.  **Apply Malus's Law for the second filter:**
+    We are given $\theta = 24^\circ$.
+    $$I_B = I_A \cos^2(24^\circ)$$
+    $$I_B = (0.5 I_0) \times (\cos(24^\circ))^2$$
+
+3.  **Calculate the value:**
+    $$\cos(24^\circ) \approx 0.9135$$
+    $$\cos^2(24^\circ) \approx (0.9135)^2 \approx 0.8345$$
+    $$I_B = 0.5 \times 0.8345 \times I_0$$
+    $$I_B \approx 0.41725 I_0$$
+
+Rounding to two decimal places, we get approximately $0.42 I_0$.
+
+**Conclusion:**
+The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

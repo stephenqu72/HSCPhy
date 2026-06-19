@@ -1,0 +1,29 @@
+To find the length of the space station as perceived by the astronaut, we must use the concept of **length contraction** from Einstein’s Special Theory of Relativity.
+
+### Answer
+The correct answer is **A. 347 m**.
+
+### Explanation
+1.  **Identify the variables:**
+    *   Proper length of the space station ($L_0$) = $350\text{ m}$ (this is the length measured by an observer at rest relative to the station).
+    *   Relative velocity ($v$) = $0.13c$.
+    *   Lorentz factor ($\gamma$) is calculated using the formula:
+        $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+2.  **Calculate the Lorentz factor:**
+    $$\gamma = \frac{1}{\sqrt{1 - (0.13)^2}} = \frac{1}{\sqrt{1 - 0.0169}} = \frac{1}{\sqrt{0.9831}} \approx \frac{1}{0.991514} \approx 1.00856$$
+
+3.  **Apply the length contraction formula:**
+    The astronaut, moving relative to the space station, will perceive a contracted length ($L$) given by:
+    $$L = \frac{L_0}{\gamma}$$
+    $$L = 350 \times \sqrt{1 - 0.13^2}$$
+    $$L = 350 \times 0.991514...$$
+    $$L \approx 347.03\text{ m}$$
+
+Rounding to the nearest whole number provided in the options, we get $347\text{ m}$.
+
+### Summary of logic
+Length contraction occurs in the direction of motion. Because the astronaut is moving relative to the station, the station appears shorter to the astronaut than its proper length. Therefore, the result must be slightly less than $350\text{ m}$, which immediately points to option A.
+
+###QUESTION_TYPE
+Multiple choice

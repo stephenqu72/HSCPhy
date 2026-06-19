@@ -1,0 +1,23 @@
+To determine the correct graph, we apply **Wien's Displacement Law**, which states:
+
+$$\lambda_{max} T = b$$
+
+where $\lambda_{max}$ is the peak wavelength, $T$ is the absolute temperature, and $b$ is Wien's displacement constant. 
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the relationship:** The equation shows an inverse relationship between peak wavelength and temperature: $\lambda_{max} \propto \frac{1}{T}$.
+2.  **Apply the change:** We are given that the new temperature $T_2 = \frac{1}{2} T_1$. Substituting this into the inverse relationship:
+    $$\lambda_2 = \frac{b}{T_2} = \frac{b}{\frac{1}{2} T_1} = 2 \left( \frac{b}{T_1} \right) = 2 \lambda_1$$
+    This means the new peak wavelength, $\lambda_2$, must shift to a **longer wavelength** (to the right of $\lambda_1$).
+3.  **Stefan-Boltzmann Law:** The total power radiated (the area under the curve) is proportional to $T^4$. Since the temperature decreases, the total intensity (peak height and total area under the curve) must **significantly decrease**.
+4.  **Evaluate the choices:**
+    *   (A) Shows the peak at $\lambda_1$, which is incorrect.
+    *   (B) Shows the peak at $\lambda_1$, which is incorrect.
+    *   (C) Shows the peak to the left of $\lambda_1$ (shorter wavelength), which would imply an increase in temperature. This is incorrect.
+    *   (D) Shows the peak shifted to the **right** of $\lambda_1$ (longer wavelength) and a **lower peak intensity**. This matches the physical requirements dictated by Wien's law and the Stefan-Boltzmann law.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

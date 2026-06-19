@@ -1,0 +1,22 @@
+To answer this question effectively, you must provide a clear comparison that demonstrates your understanding of the technical principles behind the measurements. Since this is a 4-mark question, aim for 2 marks per method, focusing on the mechanism and the evolution of accuracy.
+
+### Sample Answer
+
+**Historical Method: Fizeau’s Method (1849)**
+Fizeau used a rotating cogwheel and a distant mirror. A beam of light was directed through a gap in the cogwheel to a mirror located several kilometers away. The reflected beam would return to the wheel. By varying the rotation speed of the wheel, Fizeau ensured the returning light was blocked by a tooth. Knowing the distance ($d$) to the mirror and the angular velocity of the wheel, he calculated the time taken for the light to travel the round trip. This was a significant improvement over earlier astronomical methods as it was the first non-astronomical measurement of the speed of light on Earth, yielding approximately $3.13 \times 10^8 \text{ m/s}$.
+
+**Contemporary Method: Resonance in a Cavity or Laser Interferometry**
+Contemporary methods utilize the relationship $c = f\lambda$. By using highly stable lasers (such as an iodine-stabilized HeNe laser), scientists can measure the frequency ($f$) and the wavelength ($\lambda$) of light with extreme precision using an optical frequency comb. Because the speed of light is now defined as exactly $299,792,458 \text{ m/s}$, these experiments are used to define the standard meter. This method has an uncertainty of nearly zero, representing a vast improvement in accuracy compared to historical mechanical methods.
+
+---
+
+### How to solve this question
+1.  **Analyze the Command Term:** The word "Discuss" requires you to identify the methods and provide details regarding their mechanics, validity, and limitations.
+2.  **Structure:** Divide your response clearly into two sections—one for a historical method and one for a contemporary method.
+3.  **Content Focus:**
+    *   **Historical:** Focus on the *mechanism*. For Fizeau or Foucault, emphasize the use of mechanical devices (cogwheels or rotating mirrors) to time the flight of light. Mention the challenges (e.g., measuring distance accurately, reaction time).
+    *   **Contemporary:** Focus on *precision*. Mention how we no longer "measure" the speed of light to find a value, but rather use the definition of the meter to maintain consistency. Mention the role of lasers, frequency, and wavelength measurement.
+4.  **Marking Criteria:** You are looking for a balance. Do not spend all your time on the historical method; ensure you provide enough detail for both to satisfy the 4-mark allocation.
+
+###QUESTION_TYPE
+Short answer

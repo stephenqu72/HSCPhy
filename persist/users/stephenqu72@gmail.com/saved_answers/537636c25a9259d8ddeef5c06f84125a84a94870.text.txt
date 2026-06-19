@@ -1,0 +1,24 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **length contraction**.
+
+### Explanation
+
+1.  **Understand Proper Length:** The "proper length" ($L_0$) of an object is the length measured by an observer at rest relative to that object. In this scenario, the pilot is inside the UFO, so the pilot is at rest relative to the UFO. Therefore, the measurements taken by the pilot will be the **proper length** and **proper width**.
+2.  **Understand Length Contraction:** The observer on Earth is moving at a relative velocity of $v = 0.450c$ with respect to the UFO. According to Special Relativity, length contraction only occurs in the **direction of motion**.
+    *   The dimension along the direction of motion (length) will appear shorter to the Earth observer ($L = L_0 \sqrt{1 - v^2/c^2}$).
+    *   Dimensions perpendicular to the direction of motion (width) remain unchanged.
+3.  **Analyze the measurements:**
+    *   The Earth observer measures a contracted length of $15.0 \text{ m}$. We need to find the proper length $L_0$ that the pilot measures.
+    *   The Earth observer measures a width of $3.50 \text{ m}$. Since width is perpendicular to the direction of motion, it does not experience contraction. Thus, the pilot will also measure a width of $3.50 \text{ m}$.
+4.  **Calculate the Proper Length ($L_0$):**
+    Using the length contraction formula $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, where $L = 15.0 \text{ m}$ and $v = 0.450c$:
+    $$15.0 = L_0 \sqrt{1 - (0.450)^2}$$
+    $$15.0 = L_0 \sqrt{1 - 0.2025}$$
+    $$15.0 = L_0 \sqrt{0.7975}$$
+    $$L_0 = \frac{15.0}{0.8930} \approx 16.797 \text{ m} \approx 16.8 \text{ m}$$
+
+The pilot measures the proper length of **16.8 m** and the width remains **3.50 m**.
+
+This corresponds to **Option C**.
+
+### QUESTION_TYPE
+Multiple choice

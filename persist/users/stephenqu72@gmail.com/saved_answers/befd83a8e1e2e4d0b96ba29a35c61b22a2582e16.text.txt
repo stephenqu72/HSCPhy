@@ -1,0 +1,28 @@
+To determine the temperature of the object, we use **Wien’s Displacement Law**, which describes the relationship between the temperature of a blackbody and the wavelength at which it emits its peak intensity.
+
+### Step-by-Step Solution:
+
+1.  **Identify the peak wavelength ($\lambda_{max}$):**
+    Looking at the provided graph, the peak of the curve occurs at a wavelength of approximately $600\text{ nm}$. Therefore, $\lambda_{max} = 600 \times 10^{-9}\text{ m}$.
+
+2.  **Apply Wien’s Displacement Law:**
+    The formula is:
+    $$\lambda_{max} T = b$$
+    where:
+    - $\lambda_{max}$ is the peak wavelength in meters ($m$)
+    - $T$ is the absolute temperature in Kelvin ($K$)
+    - $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3}\text{ m}\cdot K$
+
+3.  **Calculate the Temperature:**
+    Rearranging the formula to solve for $T$:
+    $$T = \frac{b}{\lambda_{max}}$$
+    $$T = \frac{2.898 \times 10^{-3}\text{ m}\cdot K}{600 \times 10^{-9}\text{ m}}$$
+    $$T \approx 4830\text{ K}$$
+
+4.  **Conclusion:**
+    Comparing this result to the given options, $4830\text{ K}$ matches option (A).
+
+**Answer:** (A)
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I am happy to guide you through these photoelectric effect problems. These types of questions are fundamental to the "From the Universe to the Atom" module.
+
+### Part (a)
+**Answer:**
+To calculate the energy of a photon, we use the formula $E = \frac{hc}{\lambda}$.
+Given:
+- $h = 6.626 \times 10^{-34} \text{ J s}$
+- $c = 3.00 \times 10^8 \text{ m/s}$
+- $\lambda = 415 \text{ nm} = 415 \times 10^{-9} \text{ m}$
+
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{415 \times 10^{-9}}$$
+$$E \approx 4.79 \times 10^{-19} \text{ J}$$
+
+**Explanation:**
+Energy is directly proportional to frequency and inversely proportional to wavelength. Always ensure your wavelength is converted from nanometers to meters before plugging it into the equation.
+
+---
+
+### Part (b) (i)
+**Answer:**
+The line remains **exactly the same**.
+
+**Explanation:**
+The graph plots the *maximum kinetic energy* ($KE_{max}$) of the photoelectrons against *frequency*. According to Einstein’s photoelectric equation, $KE_{max} = hf - \Phi$. The maximum kinetic energy is a property of the metal ($\Phi$) and the incoming frequency ($f$). Changing the external voltage of the battery affects whether the electrons reach the collector, but it does not change the initial maximum kinetic energy they possess upon emission from the surface. Therefore, the line is independent of the applied voltage.
+
+---
+
+### Part (b) (ii)
+**Answer:**
+1. Locate $1.2 \text{ eV}$ on the y-axis (the "Maximum KE" axis).
+2. Move horizontally to the right until you intersect the plotted line.
+3. Move vertically down to the x-axis to read the frequency.
+4. The line passes through $(2.5 \times 10^{14}, 0)$ and $(10.0 \times 10^{14}, 3.5)$. The gradient is $\frac{3.5 - 0}{(10 - 2.5) \times 10^{14}} \approx 0.466 \times 10^{-14} \text{ eV/Hz}$.
+5. Using $y = mx + c$, at $y = 1.2$:
+   $1.2 = 0.466 \times 10^{-14}(f - 2.5 \times 10^{14})$
+   $f \approx 5.1 \times 10^{14} \text{ Hz}$ (or reading directly from the graph, it lies between $5.0$ and $5.5$).
+
+**Explanation:**
+This is a reading-from-graph exercise. By identifying the coordinate $y = 1.2$, you determine the specific frequency required to impart that specific amount of kinetic energy to the emitted electrons.
+
+###QUESTION_TYPE
+Calculation question

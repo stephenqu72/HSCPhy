@@ -1,0 +1,28 @@
+This question explores the **Photoelectric Effect**, a fundamental topic in the HSC Physics syllabus that necessitated the transition from classical wave models to quantum particle models of light.
+
+### (a) Describe TWO observations that were made in this experiment which contradicted the Wave Theory of Light.
+
+**Answer:**
+1. **Existence of a Threshold Frequency:** According to wave theory, light of any frequency should eventually eject electrons if the intensity is high enough (as energy is cumulative). Experimentally, no photoelectrons are emitted unless the light frequency exceeds a specific threshold frequency ($f_0$), regardless of intensity.
+2. **Instantaneous Emission:** Wave theory predicted a time lag for electrons to absorb enough energy to escape the metal surface, especially at low intensities. Experimentally, electron emission is observed to be instantaneous once the threshold frequency is met, regardless of intensity.
+3. **Kinetic Energy Dependence:** Wave theory suggested the kinetic energy of electrons should increase with light intensity. Experimentally, the maximum kinetic energy is independent of intensity and depends only on the frequency of the incident light.
+
+---
+
+### (b) Explain how the concepts that relate to the production of a photocurrent resolved the TWO limitations of wave theory.
+
+**Answer:**
+Einstein resolved these limitations by proposing that light behaves as quantized packets of energy called **photons**, where the energy of each photon is given by $E = hf$.
+
+1. **Resolution of Threshold Frequency:** Since one photon interacts with one electron in a $1:1$ ratio, the electron must receive a minimum energy ($W$, the work function) to escape the metal. If $hf < W$, no emission occurs, no matter how many photons (intensity) are present.
+2. **Resolution of Instantaneous Emission and Kinetic Energy:** Because energy transfer is discrete and immediate upon the absorption of a single photon, there is no need to wait for energy to "accumulate" from a wave. Furthermore, the maximum kinetic energy is determined by the conservation of energy equation: $E_k = hf - W$. This shows that kinetic energy is determined solely by the frequency ($f$) of the incoming photons, while intensity only changes the *number* of photons, thus changing the *rate* of electron emission (current), but not the individual energy of those electrons.
+
+---
+
+### How to solve this:
+1. **Identify the topic:** Recognize this as the Photoelectric Effect.
+2. **Contrast the models:** Always keep the Classical Wave Model (continuous energy, intensity-dependent) separate from Einstein’s Quantum Model (quantized energy $hf$, frequency-dependent).
+3. **Structure the answer:** For part (a), choose two of the most distinct experimental contradictions (Threshold Frequency and Intensity independence are the most commonly tested). For part (b), explicitly link the $1:1$ photon-electron interaction to how it mathematically and conceptually invalidates the wave model's requirement for energy accumulation.
+
+###QUESTION_TYPE
+Short answer

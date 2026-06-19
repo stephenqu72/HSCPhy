@@ -1,0 +1,34 @@
+As an HSC Physics teacher, here is the breakdown and step-by-step solution for your question regarding Special Relativity.
+
+---
+
+### Solutions
+
+**(a) Explain why $u = v_B - v_A$ according to classical (Newtonian) mechanics.**
+In classical mechanics, velocity is treated as a relative vector. To find the velocity of object $B$ relative to object $A$, we subtract the velocity of the observer ($A$) from the velocity of the observed object ($B$). This is based on Galilean relativity, which assumes time and space are absolute and independent of the observer's motion.
+
+**(b) Explain why this expression breaks down at relativistic speeds.**
+The classical formula violates the second postulate of special relativity, which states that the speed of light $c$ is constant for all inertial observers. If $v_A$ and $v_B$ are both close to $c$, the classical formula could predict a relative velocity $u > c$, which is physically impossible as no information or mass can travel faster than $c$.
+
+**(c) Explain why this is consistent with the classical (Newtonian) theory.**
+For non-relativistic speeds, $v_A$ and $v_B$ are very small compared to $c$ (i.e., $v_A, v_B \ll c$). Consequently, the term $\frac{v_A v_B}{c^2}$ approaches zero. As the denominator $1 - \frac{v_A v_B}{c^2}$ becomes approximately $1$, the relativistic formula reduces to the classical formula $u \approx v_B - v_A$.
+
+**(d) Find the velocity of a proton as measured by an electron...**
+*   **Step 1: Identify variables.**
+    *   Let the electron be object $A$ (observer): $v_A = -0.80c$ (travels to the left).
+    *   Let the proton be object $B$: $v_B = +0.99c$ (travels to the right).
+*   **Step 2: Apply the formula.**
+    $$u = \frac{v_B - v_A}{1 - \frac{v_A v_B}{c^2}} = \frac{0.99c - (-0.80c)}{1 - \frac{(-0.80c)(0.99c)}{c^2}}$$
+*   **Step 3: Calculate.**
+    $$u = \frac{1.79c}{1 - (-0.792)} = \frac{1.79c}{1.792} \approx 0.9989c$$
+The velocity is $0.999c$ (to 3 decimal places).
+
+---
+
+### How to solve it (Teacher's Tips)
+1.  **For conceptual parts (a, b, c):** Always reference the postulates of Special Relativity. If you mention that "nothing can exceed $c$" or "the speed of light is invariant," you will gain full marks.
+2.  **For part (c):** Use the concept of the "low-speed limit." Whenever asked why a relativistic formula agrees with classical physics, show that as $v \to 0$, the relativistic term vanishes.
+3.  **For part (d):** Be extremely careful with signs. Since the proton and electron are moving *towards* each other, their velocities must have opposite signs. If you define right as positive, the left-moving object must be negative.
+
+###QUESTION_TYPE
+Calculation question

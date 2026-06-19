@@ -1,0 +1,26 @@
+To answer this question, we must apply Einstein’s photoelectric equation:
+
+$$E_k = hf - \Phi$$
+
+Where:
+- $E_k$ is the maximum kinetic energy of the emitted photoelectrons.
+- $h$ is Planck's constant.
+- $f$ is the frequency of the incident light.
+- $\Phi$ (or $W$) is the work function of the metal.
+
+### Explanation:
+1.  **Understand the Graph:** The equation $E_k = hf - \Phi$ is in the form $y = mx + c$, where the slope $m$ is Planck’s constant ($h$) and the x-intercept represents the threshold frequency ($f_0$). Because $h$ is a universal constant, the **slope of the line must remain the same** regardless of the metal used.
+2.  **Analyze the Threshold Frequency:** The threshold frequency $f_0$ is the point where $E_k = 0$, so $hf_0 = \Phi$. The question states that the new photo-emitter has a **lower threshold frequency**. On a graph, a lower threshold frequency means the x-intercept must shift to the **left** (closer to the origin).
+3.  **Evaluate the Options:**
+    *   We are looking for a line with the **same slope** as the original graph but with an **x-intercept shifted to the left**.
+    *   Graph (A) has a different (shallower) slope.
+    *   Graph (B) has a different (steeper) slope.
+    *   Graph (C) shows the x-intercept shifted to the right (higher threshold frequency).
+    *   **Graph (D)** shows the x-intercept shifted to the left (lower threshold frequency) while maintaining the same slope as the original.
+
+Therefore, graph (D) correctly represents the relationship for a photo-emitter with a lower threshold frequency.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

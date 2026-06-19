@@ -1,0 +1,30 @@
+To solve this problem, we must apply the relativistic momentum formula, as the speed of the proton ($0.9999991c$) is a significant fraction of the speed of light ($c$).
+
+### 1. Identify the relevant formulas
+The relativistic momentum $p$ is given by:
+$$p = \gamma mv$$
+Where:
+- $\gamma$ (the Lorentz factor) $= \frac{1}{\sqrt{1 - v^2/c^2}}$
+- $m$ is the rest mass of a proton $\approx 1.6726 \times 10^{-27} \text{ kg}$
+- $v$ is the velocity of the proton $= 0.9999991c$
+- $c$ is the speed of light $\approx 2.9979 \times 10^8 \text{ m/s}$
+
+### 2. Calculate the Lorentz factor ($\gamma$)
+Given $v = 0.9999991c$, let $\beta = \frac{v}{c} = 0.9999991$.
+$$\gamma = \frac{1}{\sqrt{1 - (0.9999991)^2}}$$
+Using the approximation $1 - \beta^2 \approx 2(1 - \beta)$ for $\beta$ very close to 1:
+$$1 - (0.9999991)^2 \approx 1 - (1 - 9 \times 10^{-7})^2 \approx 1 - (1 - 18 \times 10^{-7}) = 1.8 \times 10^{-6}$$
+$$\gamma \approx \frac{1}{\sqrt{1.8 \times 10^{-6}}} \approx \frac{1}{0.0013416} \approx 745.35$$
+
+### 3. Calculate Momentum ($p$)
+$$p = \gamma \times m \times v$$
+$$p \approx 745.35 \times (1.6726 \times 10^{-27} \text{ kg}) \times (0.9999991 \times 2.9979 \times 10^8 \text{ m/s})$$
+$$p \approx 745.35 \times 1.6726 \times 10^{-27} \times 2.9979 \times 10^8$$
+$$p \approx 3.738 \times 10^{-16} \text{ Ns}$$
+
+Rounding to significant figures and matching the options provided, the closest result is **(A)**. Note that option (D) uses the wrong units (kg instead of Ns), and option (C) represents the classical momentum ($mv$) rather than the relativistic one.
+
+**Correct Answer: (A)**
+
+###QUESTION_TYPE
+Multiple choice

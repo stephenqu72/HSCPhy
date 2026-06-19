@@ -1,0 +1,30 @@
+To solve this problem, we must link the photoelectric effect with the helical motion of an electron in combined magnetic ($B$) and electric ($E$) fields.
+
+### 1. Physics Analysis
+*   **Photoelectric Effect:** The energy of the incident photon is $E_{photon} = \Phi + K_{max}$, where $\Phi = 2.95\text{ eV}$.
+*   **Helical Motion:** The velocity $v$ is split into $v_{\parallel} = v \cos(45^\circ)$ (parallel to $B$) and $v_{\perp} = v \sin(45^\circ)$ (perpendicular to $B$).
+    *   The period of one revolution is $T = \frac{2\pi m}{qB}$.
+    *   Along the $B$-field axis, there is an accelerating electric field component $E_{\parallel} = E \cos(45^\circ)$.
+    *   The distance traveled in the $k$-th revolution is $P_k = v_{\parallel, k} T + \frac{1}{2} a T^2$.
+    *   Using $v_{\parallel, k} = v_{\parallel, 0} + (k-1)aT$ and $a = \frac{qE_{\parallel}}{m}$, we find the ratio of distances:
+        $$\frac{P_{100}}{P_1} = \frac{v_{\parallel, 0} + 99.5 a T}{v_{\parallel, 0} + 0.5 a T} = \frac{856}{853}$$
+
+### 2. Calculation
+Given $B = 64\text{ T}$, $E = 10\text{ V/m}$, $\theta = 45^\circ$:
+*   $T = \frac{2\pi m}{eB} = \frac{2\pi (9.11 \times 10^{-31})}{1.602 \times 10^{-19} \times 64} \approx 5.58 \times 10^{-13}\text{ s}$
+*   $a = \frac{e E \cos(45^\circ)}{m} = \frac{1.602 \times 10^{-19} \times 10 \times 0.707}{9.11 \times 10^{-31}} \approx 1.24 \times 10^{12}\text{ m/s}^2$
+*   Let $u = v_{\parallel, 0}$ and $x = aT \approx (1.24 \times 10^{12})(5.58 \times 10^{-13}) \approx 0.692\text{ m/s}$
+*   $\frac{u + 99.5x}{u + 0.5x} = \frac{856}{853} \implies 853u + 84873.8x = 856u + 428x$
+*   $3u = 84445.8x \implies u = 28148.6 \times 0.692 \approx 19479\text{ m/s}$
+
+Since $u = v \cos(45^\circ)$, $v = \frac{19479}{0.707} \approx 27551\text{ m/s}$.
+*   $K_{max} = \frac{1}{2}mv^2 = \frac{1}{2}(9.11 \times 10^{-31})(27551)^2 \approx 3.46 \times 10^{-22}\text{ J} \approx 0.00216\text{ eV}$
+
+*Note: In typical HSC problems, $K_{max} = E_{photon} - \Phi$. Given $\Phi = 2.95\text{ eV}$, $E_{photon} \approx 2.95216\text{ eV}$.*
+*   $\lambda = \frac{hc}{E_{photon}} = \frac{1240\text{ eV}\cdot\text{nm}}{2.95216\text{ eV}} \approx 420\text{ nm}$
+
+### 3. Conclusion
+The wavelength of the incident light is $420\text{ nm}$.
+
+###QUESTION_TYPE
+Calculation question

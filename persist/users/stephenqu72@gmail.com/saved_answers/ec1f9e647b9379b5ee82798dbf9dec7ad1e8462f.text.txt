@@ -1,0 +1,45 @@
+As an HSC Physics teacher, here is how you should approach this structured question on cosmology and spectroscopy.
+
+### (a) What is meant by "red shift" and why does it happen?
+**Answer:** Red shift is the observed increase in the wavelength of light (shifting it toward the red/longer end of the spectrum) emitted by an object moving away from an observer. It occurs due to the Doppler effect, where light waves emitted by a receding source are "stretched" over a greater distance as the source moves away, or in cosmology, due to the expansion of space-time itself stretching the light waves as they travel through the universe.
+
+**Explanation:** You need two distinct points for the two marks: one for the definition (wavelength increases/shift toward red) and one for the mechanism (Doppler effect/expansion of space).
+
+---
+
+### (b) What is the significance of Hubble's work using the observed "red shift"?
+**Answer:** Hubble's work demonstrated that the red shift of galaxies is proportional to their distance from Earth ($v = H_0d$). This provided observational evidence that the universe is expanding uniformly in all directions, which formed the foundation for the Big Bang Theory and the model of an evolving universe.
+
+**Explanation:** Focus on the "big picture" impact. You must mention the **expansion of the universe** and the link between **distance and velocity**.
+
+---
+
+### (c) Data Analysis and Calculation
+**Step 1: Measurement (Observed Wavelengths)**
+By looking at the peaks on the graph:
+*   **H$\alpha$:** The peak is between 8000 and 8100, slightly past the 8100 mark. Value $\approx 8107$ Å.
+*   **O III:** The peak is between 6100 and 6200, approximately at the 6187 Å mark.
+*   **O II:** The peak is between 4600 and 4700, approximately at the 4608 Å mark.
+
+**Step 2: Calculate Red Shift**
+Using the formula: $\text{Redshift} = \frac{\text{observed}}{\text{rest}} - 1$
+
+| Line | Rest ($\lambda_0$) | Observed ($\lambda_{obs}$) | Red shift ($z$) |
+| :--- | :--- | :--- | :--- |
+| H$\alpha$ | 6562.8 | 8107 | $(8107/6562.8) - 1 \approx 0.235$ |
+| O III | 5006.8 | 6187 | $(6187/5006.8) - 1 \approx 0.236$ |
+| O II | 3727.0 | 4608 | $(4608/3727.0) - 1 \approx 0.236$ |
+
+*Note: Measurements may vary slightly based on visual interpretation, but the $z$ values should hover around $0.236$.*
+
+**Step 3: Calculate Velocity**
+Average $z \approx 0.236$.
+$\text{Velocity} = z \times c = 0.236 \times 3.00 \times 10^8 \text{ m/s} \approx 7.08 \times 10^7 \text{ m/s}$.
+
+**Explanation:**
+1.  **Be precise with graph reading:** Use a ruler if possible.
+2.  **Apply the formula:** Show your working for at least one row in the table to gain full marks.
+3.  **Units:** Ensure your final velocity calculation uses the speed of light ($c = 3 \times 10^8 \text{ m/s}$).
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,26 @@
+To solve this problem, we need to apply two fundamental principles of optics regarding polarized light: **Malus's Law** and the effect of an ideal polarizer on **unpolarized light**.
+
+### Step-by-Step Explanation
+
+**1. Passing unpolarized light through the first polarizer:**
+When unpolarized light with intensity $I_1$ passes through an ideal polarizer, the intensity of the light is reduced by exactly half. This is because the polarizer only transmits the component of light vibrating parallel to its axis.
+Let $I'$ be the intensity of the light after passing through the first polarizer:
+$$I' = \frac{1}{2} I_1$$
+
+**2. Passing polarized light through the second polarizer (Malus's Law):**
+Now, the light with intensity $I'$ hits the second polarizer. According to Malus's Law, the intensity of the transmitted light $I_2$ is given by:
+$$I_2 = I' \cos^2(\theta)$$
+where $\theta$ is the angle between the axes of the two polarizers. Given $\theta = 30^\circ$ and $\cos(30^\circ) = \frac{\sqrt{3}}{2}$:
+$$I_2 = I' \left( \frac{\sqrt{3}}{2} \right)^2 = I' \left( \frac{3}{4} \right)$$
+
+**3. Combining the equations to find the ratio $I_2 / I_1$:**
+Substitute the expression for $I'$ from step 1 into the equation from step 2:
+$$I_2 = \left( \frac{1}{2} I_1 \right) \times \left( \frac{3}{4} \right)$$
+$$I_2 = \frac{3}{8} I_1$$
+To find the ratio $\frac{I_2}{I_1}$:
+$$\frac{I_2}{I_1} = \frac{3}{8}$$
+
+Comparing this result to the given options, the correct choice is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

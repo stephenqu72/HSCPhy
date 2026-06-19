@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this question, we must understand the limitations of the classical wave theory of light and how Einstein’s photon model resolved them:
+
+1.  **Classical vs. Einsteinian Model:** Classical physics suggested that light intensity should determine the energy of emitted electrons. However, experiments showed that the frequency of light, not the intensity, was the determining factor for emission.
+2.  **Analysis of Option A:** Einstein proposed that light consists of discrete packets of energy called photons, where the energy of a photon is given by $E = hf$. Since $f = c/\lambda$, a lower wavelength corresponds to a higher frequency and thus higher energy. There is a specific "threshold frequency" ($f_0$) or "threshold wavelength" ($\lambda_0$) required to overcome the work function ($\Phi$) of the metal. If the light's wavelength is above this threshold (meaning the frequency is too low), no photoelectrons are ejected, regardless of the intensity. This is exactly what Option A describes.
+3.  **Why the other options are incorrect:**
+    *   **B:** According to Einstein's equation ($E_k = hf - \Phi$), the maximum kinetic energy depends on the frequency ($f$) of the incident light, not the intensity. Increasing intensity only increases the *number* of photoelectrons emitted per second, not their individual kinetic energy.
+    *   **C:** The work function ($\Phi$) is a property unique to each specific metal. Therefore, the maximum kinetic energy of ejected electrons is highly dependent on the type of metal used.
+    *   **D:** Photoelectric emission is near-instantaneous (it does not require "exposure time" to accumulate energy), contradicting the wave theory prediction that a lower intensity would eventually eject an electron if given enough time.
+
+By understanding that $E = hf$ explains the threshold behavior of the photoelectric effect, we identify **A** as the only observation consistent with the quantum model.
+
+###QUESTION_TYPE
+Multiple choice

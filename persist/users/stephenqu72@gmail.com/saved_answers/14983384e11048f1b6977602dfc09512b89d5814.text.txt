@@ -1,0 +1,25 @@
+As an HSC Physics teacher, here is how you should approach this 7-mark question.
+
+### Answer
+
+**(a) How the photoelectric effect provides evidence for the particle nature of light:**
+The wave model of light predicts that energy is spread continuously across a wavefront and that intensity relates to the amplitude of the wave. If light were purely a wave, electrons should eventually absorb enough energy to be ejected regardless of frequency, given enough time. However, experimental results show that:
+1. Electrons are only ejected if the light frequency exceeds a specific threshold frequency ($f_0$).
+2. There is no time delay for emission, even at low intensities.
+These results imply that light interacts as discrete packets of energy called "photons," where the energy of a single photon ($E = hf$) must be sufficient to overcome the metal's work function ($\Phi$). This one-to-one interaction between a photon and an electron is a hallmark of particle behavior.
+
+**(b) Effect of frequency and intensity (Classical vs. Quantum):**
+*   **Classical Wave Theory:** Predicts that increasing intensity (amplitude) increases the energy delivered to electrons, thereby increasing the kinetic energy of ejected electrons. It suggests that any frequency of light should cause emission if the intensity is high enough, and that increasing intensity should increase the photocurrent (current).
+*   **Quantum Theory:** 
+    *   **Frequency:** Increasing the frequency of incident light (above $f_0$) increases the maximum kinetic energy of the emitted photoelectrons because $E_k = hf - \Phi$. It does not affect the number of electrons emitted per second (current) if the number of photons remains constant.
+    *   **Intensity:** Increasing the intensity (at a constant frequency above $f_0$) increases the number of photons incident per second, which proportionally increases the number of photoelectrons emitted per second, thereby increasing the photocurrent.
+
+---
+
+### How to solve this
+1.  **Understand the "Why":** For part (a), you must explicitly contrast the predictions of the wave model (continuous energy) with the quantum model (quantized energy packets). Always mention the "threshold frequency" and "one-to-one interaction" as these are the "buzzwords" HSC markers look for.
+2.  **Structuring Part (b):** This requires a comparative approach. Use a clear structure (e.g., a table or two distinct paragraphs) to contrast what the *Classical* theory erroneously predicted versus what the *Quantum* theory correctly explains.
+3.  **Use Equations:** For part (b), reference the Einstein photoelectric equation $E_k = hf - \Phi$. Showing the relationship between $f$ and $E_k$ proves you understand that frequency determines energy, while intensity determines the rate of photon strikes (and thus current).
+
+###QUESTION_TYPE
+Short answer

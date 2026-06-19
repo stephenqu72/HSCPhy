@@ -1,0 +1,19 @@
+As an HSC Physics teacher, here is the breakdown of the question regarding blackbody radiation.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To determine which statement is false, let's analyze each option based on the physics of a blackbody:
+
+*   **(A) They absorb all electromagnetic radiation striking them:** This is the **definition** of a perfect blackbody. It reflects and transmits nothing, absorbing all incident radiation. This statement is **true**.
+*   **(B) They only exist in theory:** In reality, no object is a *perfect* blackbody. While some objects (like stars or specialized laboratory cavities) approximate blackbody behavior very closely, a perfect blackbody is a theoretical idealization. This statement is **true**.
+*   **(C) As the temperature of a blackbody increases the wavelength corresponding to peak intensity of the graph increases:** This contradicts **Wien’s Displacement Law**, which states:
+    $$\lambda_{max} = \frac{b}{T}$$
+    where $\lambda_{max}$ is the peak wavelength, $T$ is the absolute temperature, and $b$ is Wien's displacement constant. Because $T$ is in the denominator, as the temperature $T$ increases, the peak wavelength $\lambda_{max}$ must **decrease** (shifting toward the blue/ultraviolet end of the spectrum). Therefore, this statement is **false**.
+*   **(D) They remit radiation over a range of frequencies:** Blackbody radiation curves (Planck's Law) show that a blackbody at a given temperature emits a continuous spectrum covering a broad range of frequencies/wavelengths, not just a single one. This statement is **true**.
+
+Since the question asks for the false statement, **(C)** is the correct choice.
+
+### QUESTION_TYPE
+Multiple choice

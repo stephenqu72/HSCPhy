@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I am happy to help you tackle this classic question on the photoelectric effect. This topic is a core component of the "From the Universe to the Atom" module and is a frequent flyer in HSC exams.
+
+### Answer
+
+**(a) Features that could not be explained by classical wave theory:**
+
+1.  **Existence of a threshold frequency:** Classical wave theory suggests that any frequency of light should cause photoemission if it is bright enough (the energy is spread over the whole wavefront). Experimentally, emission only occurs if the light frequency exceeds a specific threshold frequency ($f_0$), regardless of intensity.
+2.  **Instantaneous emission:** Classical physics predicts that if light intensity is low, it would take time for the electron to "absorb" enough energy to escape the metal. In reality, photoemission occurs instantaneously (within $10^{-9}$ seconds) upon exposure, provided the frequency is high enough.
+3.  **Independence of kinetic energy on intensity:** Classical theory predicts that increasing the intensity (amplitude) of light would increase the kinetic energy of the emitted electrons. Experimentally, increasing intensity only increases the number of emitted electrons, while the kinetic energy depends solely on the frequency of the light.
+
+**(b) Einstein’s explanation:**
+
+Einstein proposed that light is quantized into discrete packets of energy called **photons**, where the energy of each photon is given by $E = hf$. 
+
+He explained the photoelectric effect as a one-to-one interaction: a single photon strikes a single electron. If the photon's energy is greater than the **work function** ($\Phi$) of the metal (the minimum energy required to liberate an electron), the electron is ejected. Any remaining energy becomes the kinetic energy ($E_k$) of the electron.
+
+This is expressed by the photoelectric equation:
+$$hf = \Phi + E_{k,max}$$
+Or, written as:
+$$hf = \Phi + \frac{1}{2}mv_{max}^2$$
+
+---
+
+### How to solve this question
+
+1.  **For part (a):** Memorize the "three failures" of classical physics regarding this phenomenon. When writing your response, contrast the classical prediction (that intensity/amplitude equals energy) with the experimental observation (that frequency determines the outcome). 
+    *   *Tip:* Use the "punching bag" analogy. If you punch a wall slowly (low frequency), it doesn't matter how many people do it (intensity); you won't break the wall. You need one person with a high-speed strike (high frequency) to break through.
+
+2.  **For part (b):** Always explicitly state that light acts as a **particle (photon)**. This is the crucial shift from classical to quantum theory.
+    *   *Mathematical requirement:* You must include the equation. Define all variables clearly:
+        *   $h$ = Planck's constant
+        *   $f$ = Frequency of incident light
+        *   $\Phi$ = Work function of the metal
+        *   $E_{k,max}$ = Maximum kinetic energy of the emitted photoelectron.
+
+###QUESTION_TYPE
+Short answer

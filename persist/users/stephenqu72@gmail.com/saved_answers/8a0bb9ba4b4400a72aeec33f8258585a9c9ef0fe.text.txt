@@ -1,0 +1,29 @@
+To find the rest length of Spaceship B, we must apply the principles of special relativity, specifically the phenomenon of **length contraction**.
+
+### The Physics Principles
+Length contraction states that an object measured by an observer moving at a relativistic speed $v$ relative to the object will appear shorter than its proper length (rest length) in the direction of motion. The formula is:
+
+$$L = \frac{L_0}{\gamma}$$
+
+Where:
+*   $L$ is the relativistic (contracted) length = $150\text{ m}$
+*   $L_0$ is the rest (proper) length (what we are trying to find)
+*   $\gamma$ is the Lorentz factor = $3.00$
+
+### Step-by-Step Calculation
+1. **Rearrange the formula** to solve for the rest length $L_0$:
+   $$L_0 = L \times \gamma$$
+
+2. **Substitute the known values**:
+   $$L_0 = 150\text{ m} \times 3.00$$
+
+3. **Calculate the result**:
+   $$L_0 = 450\text{ m}$$
+
+Comparing this result to the given options, $450\text{ m}$ corresponds to option **C**.
+
+### Teacher's Tip
+A common mistake in relativity problems is confusing whether to multiply or divide by $\gamma$. Always remember that the **proper length ($L_0$) is the longest length** an object can have. Since the observer in Spaceship A sees a "contracted" (shorter) length, the rest length must be larger than the $150\text{ m}$ observed. Multiplying by a factor greater than 1 ensures you obtain a larger value.
+
+###QUESTION_TYPE
+Multiple choice

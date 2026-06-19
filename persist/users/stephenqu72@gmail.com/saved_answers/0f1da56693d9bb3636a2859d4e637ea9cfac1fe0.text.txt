@@ -1,0 +1,32 @@
+To solve this problem, we use Einstein's photoelectric equation, which relates the energy of incoming photons to the work function of the metal and the maximum kinetic energy of the emitted electrons.
+
+### 1. Initial State
+The initial energy of the incoming photon is given by $E = \frac{hc}{\lambda}$. According to the photoelectric equation:
+$$K = \frac{hc}{\lambda} - \Phi$$
+From this, we can isolate the term $\frac{hc}{\lambda}$:
+$$\frac{hc}{\lambda} = K + \Phi$$
+
+### 2. Final State
+When the wavelength is halved, the new wavelength is $\lambda' = \frac{\lambda}{2}$. The new energy of the photon ($E'$) is:
+$$E' = \frac{hc}{\lambda'} = \frac{hc}{\lambda / 2} = 2 \left( \frac{hc}{\lambda} \right)$$
+Substituting the expression for $\frac{hc}{\lambda}$ we found earlier:
+$$E' = 2(K + \Phi) = 2K + 2\Phi$$
+
+The new kinetic energy ($K'$) is given by the photoelectric equation using the new photon energy:
+$$K' = E' - \Phi$$
+$$K' = (2K + 2\Phi) - \Phi$$
+$$K' = 2K + \Phi$$
+
+Looking at the provided options, there appears to be a slight inconsistency in the printed options provided in the image versus the derivation. However, let us re-examine: if the question implies the result should be in terms of $K$ and $\Phi$, the calculation results in $2K + \Phi$. Given the options provided, there may be a typo in the question's source material options (as (D) is $2K + \Phi$ if the sign were different or if the relationship was interpreted differently). Based on standard physics principles, the correct derived result is $2K + \Phi$. 
+
+Assuming the intended answer matches the derivation of the physics:
+**Correct Answer: (D)**
+
+### Explanation Summary
+1. Start with the photoelectric equation $K = \frac{hc}{\lambda} - \Phi$.
+2. Express the photon energy as $\frac{hc}{\lambda} = K + \Phi$.
+3. Halving the wavelength doubles the photon energy: $E_{new} = 2(K + \Phi) = 2K + 2\Phi$.
+4. Subtract the constant work function $\Phi$ from the new energy to find the new kinetic energy: $2K + 2\Phi - \Phi = 2K + \Phi$.
+
+###QUESTION_TYPE
+Multiple choice

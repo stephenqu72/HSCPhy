@@ -1,0 +1,30 @@
+To solve this problem, we must account for the effects of special relativity because the proton is traveling at a significant fraction of the speed of light ($v = 2.6 \times 10^8 \text{ m s}^{-1}$).
+
+### 1. Identify the formula
+The relativistic momentum $p$ is given by the formula:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Where:
+*   $m$ is the rest mass of the proton ($1.67 \times 10^{-27} \text{ kg}$)
+*   $v$ is the velocity of the proton ($2.6 \times 10^8 \text{ m s}^{-1}$)
+*   $c$ is the speed of light ($3.0 \times 10^8 \text{ m s}^{-1}$)
+*   $\gamma$ is the Lorentz factor
+
+### 2. Step-by-Step Calculation
+
+**Step 1: Calculate $\frac{v^2}{c^2}$**
+$$\frac{v}{c} = \frac{2.6 \times 10^8}{3.0 \times 10^8} \approx 0.8667$$
+$$\frac{v^2}{c^2} = (0.8667)^2 \approx 0.7511$$
+
+**Step 2: Calculate the Lorentz factor $\gamma$**
+$$\gamma = \frac{1}{\sqrt{1 - 0.7511}} = \frac{1}{\sqrt{0.2489}} \approx \frac{1}{0.4989} \approx 2.004$$
+
+**Step 3: Calculate the momentum $p$**
+$$p = \gamma \times m \times v$$
+$$p = 2.004 \times (1.67 \times 10^{-27} \text{ kg}) \times (2.6 \times 10^8 \text{ m s}^{-1})$$
+$$p \approx 8.7 \times 10^{-19} \text{ kg m s}^{-1}$$
+
+### Conclusion
+Comparing our result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

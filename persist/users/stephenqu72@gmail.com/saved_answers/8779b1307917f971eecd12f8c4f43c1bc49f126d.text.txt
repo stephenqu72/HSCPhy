@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+Einstein postulated that the speed of light ($c$) is constant for all inertial observers. For the observer on the train, light travels a vertical path of length $2L$. For the observer outside, the train moves while the light is in transit, resulting in a longer, diagonal path. Since the speed of light must be the same for both observers despite the difference in path length ($d_{outside} > d_{inside}$), the time taken for the light to complete the journey must be longer for the outside observer. This stretching of time intervals is defined as time dilation.
+
+**Explanation:**
+This is a classic Special Relativity problem. You must link the two postulates:
+1. The constancy of $c$ (the same for both observers).
+2. The relativity of simultaneity and motion (different reference frames see different paths).
+The key takeaway is that if speed = distance / time, and $c$ cannot change, then an increase in the measured distance must correspond to an increase in the measured time interval.
+
+---
+
+#### Part (b)
+**Answer:**
+To calculate the time measured by the outside observer ($t$), we use the time dilation formula:
+$$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+Given:
+- Proper time ($t_0$) = $15\text{ ns}$
+- Velocity ($v$) = $0.96c$
+
+Calculation:
+1. Substitute the values into the Lorentz factor ($\gamma$):
+$$\gamma = \frac{1}{\sqrt{1 - (0.96)^2}} = \frac{1}{\sqrt{1 - 0.9216}} = \frac{1}{\sqrt{0.0784}} = \frac{1}{0.28} \approx 3.5714$$
+
+2. Calculate the dilated time ($t$):
+$$t = 15\text{ ns} \times 3.5714 \approx 53.57\text{ ns}$$
+
+Rounding to appropriate significant figures, the return journey takes approximately **$54\text{ ns}$**.
+
+**Explanation:**
+- Identify the "proper time" ($t_0$): This is the time measured by an observer for whom the two events (light leaving $X$ and returning to $X$) occur at the same location. This is the observer on the train.
+- Apply the time dilation formula correctly.
+- Always check that your final time is larger than the proper time, as time "dilates" (stretches).
+
+###QUESTION_TYPE
+Calculation question

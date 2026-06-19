@@ -1,0 +1,32 @@
+To calculate the relativistic momentum of an electron, we must account for the effects of special relativity since the electron is traveling at a significant fraction of the speed of light ($v = 0.8c$).
+
+### 1. Identify the relevant formula
+The relativistic momentum $p$ is given by:
+$$p = \gamma mv$$
+Where:
+- $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ (The Lorentz factor)
+- $m$ is the rest mass of an electron ($m \approx 9.11 \times 10^{-31} \text{ kg}$)
+- $v$ is the velocity ($0.8c$)
+
+### 2. Calculate the Lorentz factor ($\gamma$)
+Given $v = 0.8c$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} = 1.666...$$
+
+### 3. Calculate the momentum ($p$)
+Now, substitute the values into the momentum formula:
+$$p = 1.666... \times (9.11 \times 10^{-31} \text{ kg}) \times (0.8 \times 3.00 \times 10^8 \text{ m/s})$$
+
+First, calculate $v$:
+$$v = 0.8 \times 3.00 \times 10^8 = 2.4 \times 10^8 \text{ m/s}$$
+
+Now calculate $p$:
+$$p = 1.666... \times 9.11 \times 10^{-31} \times 2.4 \times 10^8$$
+$$p \approx 3.644 \times 10^{-22} \text{ kg m s}^{-1}$$
+
+Comparing this result to the given options, it matches **(B)**.
+
+### Answer
+The correct option is **(B)**.
+
+### QUESTION_TYPE
+Multiple choice

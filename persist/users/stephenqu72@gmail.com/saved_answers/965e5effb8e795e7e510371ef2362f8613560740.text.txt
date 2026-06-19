@@ -1,0 +1,32 @@
+As a Physics teacher, I will guide you through this classic HSC Special Relativity question.
+
+### Answer
+The correct answer is **C**. The GPS receiver measures the satellite clock running more slowly than itself.
+
+---
+
+### Explanation
+To solve this, we apply the principles of **Special Relativity**, specifically the concept of **time dilation**.
+
+1.  **Understand Time Dilation:** Special Relativity dictates that a clock moving relative to an observer will appear to run more slowly than a clock that is stationary relative to that observer. The relationship is given by:
+    $$\Delta t = \gamma \Delta t_0$$
+    Where:
+    *   $\Delta t$ is the dilated time measured by the stationary observer.
+    *   $\Delta t_0$ is the proper time (the time interval in the rest frame of the moving clock).
+    *   $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ (the Lorentz factor, which is always $\ge 1$).
+
+2.  **Apply to the Scenario:**
+    *   The satellite is in orbit, meaning it has a high orbital velocity ($v$) relative to the GPS receiver on Earth.
+    *   Because the satellite is in motion relative to the Earth-based observer, its clock is subject to time dilation.
+    *   According to the Earth-based observer, the moving satellite clock runs **slower** than their own stationary clock.
+
+3.  **Evaluate the Statements:**
+    *   A is incorrect because orbital radius is related to General Relativity (spatial curvature), not Special Relativity time dilation.
+    *   B is incorrect because the relative motion causes time to slow down for the moving object, not speed up.
+    *   **C is correct** because it accurately describes the effect of time dilation: a moving clock is measured by a stationary observer to tick at a slower rate.
+    *   D is incorrect because if they ran at the same rate, there would be no time difference due to relativity.
+
+*Note: In reality, GPS satellites are also affected by General Relativity (gravity), which makes them run faster because they are further from Earth's center. However, the question specifically asks us to assume the difference is due to **Special Relativity**, which focuses purely on the effects of relative velocity.*
+
+###QUESTION_TYPE
+Multiple choice

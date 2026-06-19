@@ -1,0 +1,22 @@
+To solve this problem, we must apply Wien’s Displacement Law.
+
+### Answer
+The correct graph is **A**.
+
+### Explanation
+Wien’s Displacement Law describes the relationship between the temperature of a black body ($T$) and the wavelength at which it emits the maximum intensity of radiation ($\lambda_{max}$):
+$$\lambda_{max} = \frac{b}{T}$$
+where $b$ is Wien’s displacement constant. This equation shows that $\lambda_{max}$ is inversely proportional to $T$.
+
+However, the question asks for the relationship between temperature ($T$) and the **frequency** ($f$) at which maximum intensity is emitted. We know the relationship between frequency and wavelength for electromagnetic waves is:
+$$c = f \lambda \implies \lambda = \frac{c}{f}$$
+Substituting this into Wien’s Displacement Law:
+$$\frac{c}{f} = \frac{b}{T}$$
+Rearranging to solve for $f$:
+$$f = \left( \frac{c}{b} \right) T$$
+Since $c$ (the speed of light) and $b$ (Wien’s constant) are both constants, the term $\frac{c}{b}$ is also a constant. Therefore, the relationship is:
+$$f \propto T$$
+This represents a direct linear relationship, which corresponds to a straight line passing through the origin. Among the options provided, graph **A** correctly depicts this linear, directly proportional relationship.
+
+###QUESTION_TYPE
+Multiple choice

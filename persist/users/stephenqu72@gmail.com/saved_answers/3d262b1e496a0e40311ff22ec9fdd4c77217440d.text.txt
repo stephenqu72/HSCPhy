@@ -1,0 +1,30 @@
+As an HSC Physics teacher, I will guide you through these problems using Einstein’s photoelectric equation:
+$$E_{k \text{ max}} = hf - \Phi$$
+where $h$ is Planck's constant ($4.14 \times 10^{-15} \text{ eV s}$), $f$ is frequency, and $\Phi$ is the work function.
+
+---
+
+### a) Work function of calcium
+The work function $\Phi$ is the magnitude of the y-intercept of the $E_{k \text{ max}}$ vs $f$ graph. Looking at the graph, the line intersects the y-axis at $-2.8 \text{ eV}$ (or very close to $-2.8$ depending on grid precision).
+**Answer:** The work function $\Phi \approx 2.8 \text{ eV}$.
+
+### b) Maximum wavelength ($\lambda_{max}$)
+The maximum wavelength corresponds to the threshold frequency $f_0$, where $E_{k \text{ max}} = 0$. From the graph, the line crosses the x-axis at $f_0 \approx 6.8 \times 10^{14} \text{ Hz}$.
+Using $c = f\lambda \implies \lambda = \frac{c}{f}$:
+$$\lambda = \frac{3.00 \times 10^8 \text{ m/s}}{6.8 \times 10^{14} \text{ Hz}} \approx 4.41 \times 10^{-7} \text{ m} = 441 \text{ nm}$$
+
+### c) Graph for copper
+The slope of the graph is Planck's constant ($h$), which is independent of the metal. Therefore, the new line must be **parallel** to the existing one. For copper, $\Phi = 4.70 \text{ eV}$. The new line must intersect the y-axis at $-4.70 \text{ eV}$.
+**Instructions:** Draw a straight line starting at $(0, -4.7)$ on the y-axis, parallel to the calcium line. It will intersect the x-axis at $f_0 = \frac{\Phi}{h} \approx \frac{4.7}{4.14 \times 10^{-15}} \approx 11.35 \times 10^{14} \text{ Hz}$.
+
+### d) Photoelectric effect for copper
+1. **Calculate the energy of the incident photon ($E_p$):**
+   $$E_p = \frac{hc}{\lambda} = \frac{1240 \text{ eV nm}}{380 \text{ nm}} \approx 3.26 \text{ eV}$$
+2. **Compare with Work Function:**
+   The work function of copper is $4.70 \text{ eV}$. Since $E_p (3.26 \text{ eV}) < \Phi (4.70 \text{ eV})$, the photons do not have enough energy to overcome the binding energy of the electrons.
+**Answer:** No, photoelectrons will not be ejected because the energy of the incident photons is less than the work function of copper.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+An inertial frame of reference is a frame of reference in which an object remains at rest or moves at a constant velocity unless acted upon by a net external force (consistent with Newton’s First Law). It is a non-accelerating frame.
+**Everyday example:** A person standing on the ground (ignoring the Earth's rotation) is considered to be in an inertial frame of reference.
+
+**How to solve:**
+To secure full marks, you must define the concept by referencing the absence of acceleration or the validity of Newton's laws of motion. Providing a clear, stationary, or constant-velocity example (like the surface of the Earth or a train moving at a constant speed) demonstrates your understanding of the principle.
+
+---
+
+#### Part (b)
+**Answer:**
+Given:
+- Proper length ($L_0$) = $220\text{ m}$
+- Observed length ($L$) = $70\text{ m}$
+- Speed of light ($c$) = $3 \times 10^8\text{ m/s}$
+
+Using the length contraction formula:
+$$L = L_0\sqrt{1 - \frac{v^2}{c^2}}$$
+$$70 = 220\sqrt{1 - \frac{v^2}{c^2}}$$
+$$\frac{70}{220} = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$0.3182^2 = 1 - \frac{v^2}{c^2}$$
+$$0.1012 = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 0.8988$$
+$$\frac{v}{c} = \sqrt{0.8988} \approx 0.948$$
+$$v \approx 0.948c \approx 2.84 \times 10^8\text{ m/s}$$
+
+**How to solve:**
+1. **Identify the variables:** Recognize that the "length of the spaceship" when it is at rest relative to the observer is the proper length ($L_0 = 220\text{ m}$), and the measured length is the contracted length ($L = 70\text{ m}$).
+2. **Select the formula:** Use the length contraction formula from special relativity.
+3. **Rearrange and solve:** Isolate the term $\frac{v}{c}$ (the ratio of the velocity to the speed of light) by dividing $L$ by $L_0$, squaring both sides, and solving for $v$.
+4. **Final check:** Ensure your units are consistent and the velocity is less than $c$.
+
+###QUESTION_TYPE
+Calculation question

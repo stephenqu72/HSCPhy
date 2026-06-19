@@ -1,0 +1,38 @@
+To solve this problem, we apply the principles of Einstein’s Special Relativity regarding relativistic energy.
+
+### Answer
+The correct option is **(B)**.
+
+---
+
+### Explanation
+
+**1. Understand the Relationship:**
+In special relativity, the total energy ($E_{total}$) of an object is the sum of its rest energy ($E_{rest}$) and its kinetic energy ($E_k$).
+$$E_{total} = E_{rest} + E_k$$
+This can be rearranged to find the kinetic energy:
+$$E_k = E_{total} - E_{rest}$$
+
+**2. Relate Mass to Energy:**
+We are given that the relativistic mass ($m_v$) increases by a factor of 22 compared to the rest mass ($m_0$). That is:
+$$m_v = 22 m_0$$
+Using Einstein's mass-energy equivalence ($E = mc^2$):
+*   $E_{total} = m_v c^2 = 22 m_0 c^2$
+*   $E_{rest} = m_0 c^2$
+
+**3. Calculate Kinetic Energy:**
+Substitute these into our kinetic energy equation:
+$$E_k = 22 m_0 c^2 - m_0 c^2 = 21 m_0 c^2$$
+
+**4. Plug in the Constants:**
+The rest mass of an electron ($m_0$) is approximately $9.109 \times 10^{-31} \text{ kg}$, and the speed of light ($c$) is $3.00 \times 10^8 \text{ m/s}$.
+Alternatively, using the rest energy of an electron in Joules:
+$$E_{rest} \approx 8.187 \times 10^{-14} \text{ J}$$
+Now calculate $E_k$:
+$$E_k = 21 \times (8.187 \times 10^{-14} \text{ J})$$
+$$E_k \approx 1.719 \times 10^{-12} \text{ J}$$
+
+Rounding to significant figures, we get $1.72 \times 10^{-12} \text{ J}$, which matches option (B).
+
+###QUESTION_TYPE
+Multiple choice

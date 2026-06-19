@@ -1,0 +1,28 @@
+To solve this photoelectric effect problem, we use the Einstein photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function. This equation is in the form $y = mx + c$, where the slope $m = h$ and the $x$-intercept is the threshold frequency $f_0$.
+
+### Part a) i) Determining Planck's constant ($h$)
+1. **Find the slope ($m$):** Identify two points on the line. 
+   - Point 1: $(f_0, K_{max}) = (4.0 \times 10^{14}\text{ Hz}, 0\text{ eV})$
+   - Point 2: $(7.0 \times 10^{14}\text{ Hz}, 1.5\text{ eV})$
+2. **Calculate the slope:**
+   $$h = \frac{\Delta K_{max}}{\Delta f} = \frac{1.5 - 0}{(7.0 - 4.0) \times 10^{14}} = \frac{1.5}{3.0 \times 10^{14}} = 0.5 \times 10^{-14}\text{ eV}\cdot\text{s}$$
+3. **Convert to SI units (optional but recommended):** Since $1\text{ eV} = 1.6 \times 10^{-19}\text{ J}$:
+   $$h = 0.5 \times 10^{-14} \times 1.6 \times 10^{-19} = 8.0 \times 10^{-34}\text{ J}\cdot\text{s}$$
+   *(Note: The actual value is $6.63 \times 10^{-34}\text{ J}\cdot\text{s}$, but we use the graph's data to calculate the student's result).*
+
+### Part a) ii) Maximum wavelength ($\lambda_{max}$)
+The maximum wavelength corresponds to the threshold frequency ($f_0$):
+1. From the graph, $f_0 = 4.0 \times 10^{14}\text{ Hz}$.
+2. Use the wave equation $c = f\lambda$:
+   $$\lambda = \frac{c}{f_0} = \frac{3.0 \times 10^8\text{ m/s}}{4.0 \times 10^{14}\text{ Hz}} = 7.5 \times 10^{-7}\text{ m} \text{ (or } 750\text{ nm)}$$
+
+### Part b) New Metal ($\frac{1}{2}\Phi$)
+1. The original work function is $\Phi = h f_0 = h \times (4.0 \times 10^{14})$.
+2. The new work function is $\Phi' = \frac{1}{2}\Phi$. Since $\Phi' = h f_0'$, the new threshold frequency is $f_0' = \frac{1}{2} f_0$.
+3. $f_0' = \frac{1}{2} \times 4.0 \times 10^{14} = 2.0 \times 10^{14}\text{ Hz}$.
+4. **Drawing the line:** The slope ($h$) remains constant, so the line is parallel to the original but shifted to start at $2.0 \times 10^{14}\text{ Hz}$ on the $x$-axis. It passes through $(2, 0)$ and $(5, 1.5)$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,31 @@
+To solve this physics problem, we apply the principles of the photoelectric effect and the motion of charged particles in a magnetic field.
+
+### Part (a)
+**Formula:** The photoelectric equation is $E_k = E_{photon} - \Phi$, where $E_{photon} = \frac{hc}{\lambda}$.
+1. Convert wavelength to meters: $\lambda = 300 \times 10^{-9} \text{ m}$.
+2. Calculate photon energy in Joules:
+   $E = \frac{(6.626 \times 10^{-34})(3.0 \times 10^8)}{300 \times 10^{-9}} = 6.626 \times 10^{-19} \text{ J}$.
+3. Convert to eV: $\frac{6.626 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 4.136 \text{ eV}$.
+4. $E_k = 4.136 \text{ eV} - 3.5 \text{ eV} = 0.636 \text{ eV}$.
+5. Convert back to Joules for part (c): $0.636 \times 1.602 \times 10^{-19} \approx 1.02 \times 10^{-19} \text{ J}$.
+
+### Part (b)
+Using the Right-Hand Rule for a negative charge (electron): Fingers point out of the page, thumb points in the direction of velocity (right), palm faces up, so the force on a positive charge is up. Since the electron is negative, the force is **down**. The path is a **semicircle curving downwards** back to the plate.
+
+### Part (c)
+The electron undergoes circular motion where magnetic force equals centripetal force: $qvB = \frac{mv^2}{r}$.
+1. Find velocity: $v = \sqrt{\frac{2E_k}{m}} = \sqrt{\frac{2 \times 1.02 \times 10^{-19}}{9.11 \times 10^{-31}}} \approx 4.73 \times 10^5 \text{ m/s}$.
+2. Radius $r = \frac{mv}{qB}$:
+   $r = \frac{(9.11 \times 10^{-31})(4.73 \times 10^5)}{(1.602 \times 10^{-19})(1.5)} \approx 1.79 \times 10^{-6} \text{ m}$.
+3. The distance $d$ is the diameter of the circular path:
+   $d = 2r \approx 3.58 \times 10^{-6} \text{ m}$.
+
+***
+
+### Summary of Steps
+1. **Photoelectric effect:** Find incident energy, subtract work function to get kinetic energy.
+2. **Magnetic force:** Use $F = qvB$ and circular motion physics ($F_c = mv^2/r$) to find the radius of the path.
+3. **Geometry:** Recognize that the distance $d$ between emission and re-strike is equal to the diameter ($2r$) of the circular path.
+
+###QUESTION_TYPE
+Calculation question

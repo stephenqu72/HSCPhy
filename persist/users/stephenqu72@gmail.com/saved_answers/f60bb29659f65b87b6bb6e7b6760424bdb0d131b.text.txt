@@ -1,0 +1,24 @@
+### Answer
+The correct option is **B. $T_A = T_B$**.
+
+---
+
+### Explanation
+To solve this problem, we apply **Wien’s Displacement Law**, which describes the relationship between the surface temperature ($T$) of a blackbody and the wavelength ($\lambda_{max}$) at which it emits the most intense radiation. The law is stated as:
+
+$$\lambda_{max} = \frac{b}{T}$$
+
+Where:
+*   $\lambda_{max}$ is the peak wavelength.
+*   $T$ is the absolute temperature of the object.
+*   $b$ is Wien’s displacement constant ($2.898 \times 10^{-3} \text{ m K}$).
+
+**Step-by-step analysis:**
+1.  **Analyze the graph:** The x-axis represents the wavelength ($\lambda$). We are told in the problem description that the peak intensity for both objects $A$ and $B$ occurs at the same wavelength. Looking at the vertical dashed line in the diagram, it is clear that both curves reach their maximum intensity at the exact same point on the horizontal axis.
+2.  **Apply the law:** Since $\lambda_{max, A} = \lambda_{max, B}$, and given that $b$ is a constant, we can rearrange the formula to $T = \frac{b}{\lambda_{max}}$. 
+3.  **Conclusion:** Because the peak wavelengths are identical, the temperatures $T_A$ and $T_B$ must also be equal. 
+
+*Note regarding intensity:* While object $A$ has a higher intensity ($I$) than object $B$ at every wavelength, this indicates that object $A$ has a larger surface area or is a "larger" blackbody (following the Stefan-Boltzmann Law, $P = A\sigma T^4$), but it does not change the fact that their peak wavelengths—and thus their surface temperatures—are the same.
+
+###QUESTION_TYPE
+Multiple choice

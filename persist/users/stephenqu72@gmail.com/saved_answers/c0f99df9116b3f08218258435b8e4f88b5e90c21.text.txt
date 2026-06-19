@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **length contraction** and **time dilation**.
+
+### Step-by-Step Explanation
+
+**1. Identify the given values:**
+*   Proper distance ($L_0$) = $5.963 \text{ light years}$ (measured by an observer on Earth).
+*   Velocity ($v$) = $0.15c$ (where $c$ is the speed of light).
+
+**2. Calculate the contracted distance ($L$):**
+From the astronaut's perspective (moving at $0.15c$ relative to Earth and the star), the distance is shortened due to length contraction. The formula is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Substituting $v = 0.15c$:
+$$L = 5.963 \times \sqrt{1 - (0.15)^2}$$
+$$L = 5.963 \times \sqrt{1 - 0.0225}$$
+$$L = 5.963 \times \sqrt{0.9775} \approx 5.963 \times 0.988686 \approx 5.8955 \text{ light years}$$
+
+**3. Calculate the time of travel ($\Delta t$):**
+The astronaut experiences "proper time" as they see the star moving toward them across the contracted distance $L$ at a speed of $0.15c$.
+$$\Delta t = \frac{L}{v}$$
+$$\Delta t = \frac{5.8955 \text{ light years}}{0.15c}$$
+Since $1 \text{ light year} = c \times 1 \text{ year}$, the $c$ values cancel out:
+$$\Delta t = \frac{5.8955}{0.15} \text{ years} \approx 39.303 \text{ years}$$
+
+**Conclusion:**
+Rounding to one decimal place, the time of travel for the astronaut is approximately **39.3 years**.
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,16 @@
+### Answer
+No, Alan will not agree with Betty. Alan will observe that clock $C_1$ receives the signal before clock $C_2$.
+
+### Explanation
+To solve this problem, you must apply Einstein's postulate that the speed of light ($c$) is invariant—it is the same for all observers, regardless of the motion of the source or the observer.
+
+1.  **Betty's Perspective (Frame of Reference of the train):** Since Betty is in the middle of the carriage, the signals travel equal distances at the same speed $c$ to reach both clocks. Therefore, Betty concludes the signals arrive simultaneously, and the clocks register the same time.
+2.  **Alan's Perspective (Stationary frame of reference):** As the signals travel, the train is moving to the right. 
+    *   Clock $C_1$ is moving *towards* the source of the signal (the middle of the train).
+    *   Clock $C_2$ is moving *away* from the source of the signal.
+3.  **The Conclusion:** Because the speed of light is constant, the signal reaching $C_1$ has a shorter distance to travel in Alan's frame of reference compared to the signal reaching $C_2$. Since $d = ct$, and the distance to $C_1$ effectively shortens while the distance to $C_2$ lengthens due to the train's motion, Alan observes the signal striking $C_1$ before it strikes $C_2$. 
+
+Consequently, because simultaneity is relative, Alan and Betty will disagree on the timing of these events.
+
+###QUESTION_TYPE
+Short answer

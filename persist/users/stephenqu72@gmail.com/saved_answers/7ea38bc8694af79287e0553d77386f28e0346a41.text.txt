@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+**Part (a)**
+*   **Answer:** Increasing the intensity does not increase the energy of individual photons. If the energy of a single photon is below the work function ($\phi$) of the metal, no electrons can be emitted regardless of how many photons strike the surface.
+*   **Explanation:** In the quantum model of light, intensity refers to the number of photons, not the energy per photon. Photoelectric emission only occurs if the frequency of incident light is above the threshold frequency, meaning the photon energy ($E = \frac{hc}{\lambda}$) must be greater than the work function ($\phi$). Since no current was detected initially, the photons lacked sufficient energy to overcome the binding energy of the electrons.
+
+**Part (b)**
+*   **Answer:** Potassium ($2.29\ eV$)
+*   **Explanation:** First, calculate the energy of the incident photons using $E = \frac{hc}{\lambda}$.
+    Using $h \approx 4.136 \times 10^{-15}\ eV\cdot s$ and $c \approx 3.00 \times 10^8\ m/s$:
+    $$E = \frac{(4.136 \times 10^{-15})(3.00 \times 10^8)}{325 \times 10^{-9}} \approx 3.82\ eV$$
+    For photoelectric emission to occur, the photon energy must be greater than the work function ($E > \phi$).
+    Comparing $3.82\ eV$ to the table, only Potassium ($2.29\ eV$) satisfies $3.82\ eV > \phi$. (Magnesium, Arsenic, and Cadmium have work functions $> 3.82\ eV$).
+
+**Part (c)**
+*   **Answer:** $4.8\ \mu A$
+*   **Explanation:** Once the threshold frequency is exceeded, the photocurrent is directly proportional to the intensity of the light, provided the frequency remains constant. Doubling the intensity doubles the number of photons hitting the surface per second, which doubles the number of electrons ejected per second.
+    $$2 \times 2.4\ \mu A = 4.8\ \mu A$$
+
+***
+
+###QUESTION_TYPE
+Calculation question

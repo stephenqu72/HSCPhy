@@ -1,0 +1,25 @@
+To solve this problem, we apply two fundamental principles of optics: the rule for unpolarized light passing through a polarizer and **Malus's Law** for polarized light passing through an analyzer.
+
+### (A) Before a third polarising sheet is introduced
+
+When unpolarized light of intensity $I$ passes through the first polarizer, its intensity is reduced by half. Therefore, the intensity of the light after the first polarizer is $I_1 = \frac{1}{2}I$.
+
+Since the polarizer and the analyzer are aligned parallel to each other (both have vertical pass axes), the angle $\theta$ between their transmission axes is $0^\circ$. According to Malus's Law, $I_{transmitted} = I_{incident} \cos^2(\theta)$:
+$$I_{transmitted} = \left(\frac{1}{2}I\right) \cos^2(0^\circ)$$
+Since $\cos(0^\circ) = 1$:
+$$I_{transmitted} = \frac{1}{2}I$$
+
+---
+
+### (B) After a third polarising sheet is introduced
+
+1. **After the first polarizer:** The intensity is $I_1 = \frac{1}{2}I$.
+2. **After the third sheet (at $45^\circ$ to the first):** This sheet acts as an analyzer for the first polarizer. Using Malus's Law with $\theta = 45^\circ$:
+   $$I_2 = I_1 \cos^2(45^\circ) = \left(\frac{1}{2}I\right) \left(\frac{1}{\sqrt{2}}\right)^2 = \left(\frac{1}{2}I\right) \left(\frac{1}{2}\right) = \frac{1}{4}I$$
+3. **After the final analyzer (at $45^\circ$ to the third sheet):** The light incident on the final analyzer has intensity $I_2 = \frac{1}{4}I$ and is polarized at $45^\circ$. Since the final analyzer is aligned with the original polarizer (vertical), it is at an angle of $45^\circ$ relative to the third sheet. Applying Malus's Law again:
+   $$I_{final} = I_2 \cos^2(45^\circ) = \left(\frac{1}{4}I\right) \left(\frac{1}{2}\right) = \frac{1}{8}I$$
+
+**Summary:** The final transmitted intensity is $\frac{1}{8}I$.
+
+###QUESTION_TYPE
+Calculation question

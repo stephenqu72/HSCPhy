@@ -1,0 +1,17 @@
+To solve this problem, we apply the principles of **Special Relativity**, specifically the phenomenon of **length contraction**.
+
+### Explanation
+
+1.  **Length measured by the pilot:** In the pilot's reference frame, the spaceship is stationary. Therefore, the pilot measures the "proper length" ($L_0$) of the ship. The problem states that the spaceship has a length $L$ while on Earth (in its rest frame), so the pilot will measure this same length, $L$.
+
+2.  **Length measured by the observer on the planet:** To the observer on the planet, the spaceship is moving at a relativistic speed ($v = 2.2 \times 10^8 \text{ m s}^{-1}$). According to the theory of Special Relativity, objects moving at significant fractions of the speed of light undergo length contraction in the direction of motion. The observed length ($L_v$) is calculated using the formula:
+    $$L_v = L\sqrt{1 - \frac{v^2}{c^2}}$$
+    Since the term $\sqrt{1 - \frac{v^2}{c^2}}$ (the Lorentz factor inverse) is less than 1 for any velocity $v > 0$, the measured length $L_v$ must be **less than** the proper length $L$.
+
+3.  **Conclusion:** The pilot measures $L$, and the observer on the planet measures a length less than $L$. This corresponds to **Option A**.
+
+### Answer
+**A**
+
+###QUESTION_TYPE
+Multiple choice

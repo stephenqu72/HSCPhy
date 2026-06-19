@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+This question explores the concept of the **Relativity of Simultaneity**, a core postulate of Einstein’s Special Theory of Relativity. 
+
+1.  **Analyze Harold's perspective (The Stationary Frame):** Harold is standing on the platform. He observes the light flashes from Jason (at the northern end) and Kylie (at the southern end) arriving at him simultaneously. Because the carriage is moving north, Jason is moving *away* from the point where the light was emitted, while Kylie is moving *towards* the point where the light was emitted. Since Harold sees them at the same time, the light from Kylie had a shorter distance to travel to reach him than the light from Jason. Therefore, in Harold’s frame, Kylie must have turned her torch on *after* Jason.
+2.  **Analyze the observer inside the carriage (The Moving Frame):** For an observer at the midpoint of the carriage, the train is the "stationary" reference frame. In this frame, Jason and Kylie are equidistant from the midpoint. 
+3.  **Applying the logic:** If we look at the sequence of events from the perspective of the observer inside the carriage:
+    *   The train is moving North. 
+    *   Harold (on the platform) sees the flashes as simultaneous.
+    *   To the observer in the carriage, the light from Kylie (the southern end) has to catch up to the midpoint because the train is moving toward the light source, while the light from Jason (the northern end) is being "rushed into" by the midpoint. 
+    *   Crucially, because the events are not simultaneous in Harold's frame when considering the motion of the train relative to the light propagation, we must consider the Lorentz transformation. Since the carriage is moving North, the "rear" end (Kylie) is effectively moving "into" the light, while the "front" end (Jason) is moving "away." 
+    *   Mathematically, for the flashes to reach the stationary observer (Harold) at the same time, the event that happens at the rear of the moving object (Kylie) must occur *before* the event at the front (Jason) in the frame of the moving object. Wait—let's correct the relative motion: If the train is moving North, Jason is at the front (North) and Kylie is at the back (South). Harold sees the flashes simultaneously. The observer inside the train will see the flash from the back (Kylie) occur *before* the flash from the front (Jason).
+
+Thus, to the observer inside the carriage, **Kylie (the person at the rear) turned on her torch before Jason (the person at the front).**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+### Answer
+The correct answer for question 17 is **D**.
+
+### Explanation
+
+**1. Understand the Physics:**
+For the photoelectric effect to occur, the incident photons must have an energy $E$ greater than or equal to the metal's work function $\Phi$ ($E \ge \Phi$). The energy of a photon is given by $E = \frac{hc}{\lambda}$, where:
+- $h \approx 4.136 \times 10^{-15} \text{ eV s}$
+- $c \approx 3 \times 10^8 \text{ m/s}$
+- $\lambda$ is the wavelength in meters.
+- A useful constant for calculation is $hc \approx 1240 \text{ eV nm}$.
+
+**2. Identify the Target Wavelength:**
+The table shows UV radiation ranges from $100\text{–}400 \text{ nm}$. However, UVC is $100\%$\ absorbed by the atmosphere and UVB is $95\%$\ absorbed. To create a detector for safety regulations on the surface, we are primarily interested in detecting the UV radiation that actually reaches the surface (UVA and the small fraction of UVB). The threshold for UV radiation is $400 \text{ nm}$.
+
+**3. Calculate the Energy:**
+To detect the full range of UV, the metal must be able to emit electrons even for the longest wavelength (lowest energy) UV photons ($400 \text{ nm}$):
+$$E = \frac{1240 \text{ eV nm}}{400 \text{ nm}} = 3.10 \text{ eV}$$
+
+*   If the work function $\Phi$ were higher than $3.10 \text{ eV}$ (like option C or B), the detector would fail to detect long-wavelength UV (near $400 \text{ nm}$).
+*   If the work function $\Phi$ were lower than $3.10 \text{ eV}$ (like option A), the detector might become sensitive to visible light, making it inaccurate for measuring *only* UV light.
+*   Therefore, $3.10 \text{ eV}$ is the ideal work function to calibrate the detector to the edge of the UV spectrum.
+
+###QUESTION_TYPE
+Multiple choice

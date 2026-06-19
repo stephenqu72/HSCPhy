@@ -1,0 +1,35 @@
+### Answer
+
+**a) Calculation of Kinetic Energy**
+
+The maximum kinetic energy ($E_k$) of an emitted electron is given by the photoelectric equation:
+$$E_k = E_{\text{photon}} - \Phi$$
+Where:
+*   $E_{\text{photon}} = 5.0\text{ eV}$ (from Table B, Light source 3)
+*   $\Phi = 4.3\text{ eV}$ (from Table A, Work function of Zinc)
+
+Substituting these values:
+$$E_k = 5.0\text{ eV} - 4.3\text{ eV} = 0.7\text{ eV}$$
+
+**b) Discussion**
+
+To demonstrate the photoelectric effect concepts, we must compare photon energy ($E$) to the work function ($\Phi$):
+
+*   **Threshold Frequency ($\text{f}_0$):** This is the minimum frequency required to eject an electron, where $E = \Phi$. To demonstrate this, one should choose a light source and a metal where the photon energy is just barely equal to or slightly above the work function. For example, using Light Source 2 ($4.4\text{ eV}$) on Zinc ($\Phi = 4.3\text{ eV}$) demonstrates emission, whereas Light Source 1 ($4.0\text{ eV}$) would fail to eject electrons from any of these metals, showing that frequency (and thus energy) is the limiting factor rather than intensity.
+*   **Work Function ($\Phi$):** This is the minimum energy required to remove an electron from a specific metal surface. To demonstrate this, keep the light source constant while varying the metal. For example, using Light Source 2 ($4.4\text{ eV}$):
+    *   Zinc ($\Phi = 4.3\text{ eV}$) will emit electrons because $E > \Phi$.
+    *   Iron ($\Phi = 4.5\text{ eV}$) and Copper ($\Phi = 4.7\text{ eV}$) will not emit electrons because $E < \Phi$.
+    *   This shows that the same light source produces different results based on the material's unique work function.
+
+---
+
+### How to solve it
+
+1.  **Understand the Physics:** The core principle is Einstein's photoelectric equation. The photon energy must exceed the work function ($\Phi$) for the photoelectric effect to occur. If $E_{\text{photon}} < \Phi$, no electrons are emitted. If $E_{\text{photon}} > \Phi$, the "leftover" energy becomes the kinetic energy of the ejected electron.
+2.  **Part (a) Approach:** This is a direct substitution problem. Identify the correct values from the tables provided and perform a simple subtraction. Ensure your final answer includes units (eV).
+3.  **Part (b) Approach:** This is a conceptual application question. You need to link the experimental variables (type of metal and light source) to the definitions of work function and threshold frequency. 
+    *   *For threshold frequency:* Emphasize the "cut-off" point—the energy level at which emission starts.
+    *   *For work function:* Emphasize that it is a property of the material. By holding the light energy constant and showing that some metals emit electrons while others don't, you isolate the work function as the variable.
+
+###QUESTION_TYPE
+Calculation question

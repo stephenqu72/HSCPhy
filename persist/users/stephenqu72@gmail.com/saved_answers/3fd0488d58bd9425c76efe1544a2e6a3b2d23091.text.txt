@@ -1,0 +1,19 @@
+To solve this problem, we must apply the principle of **length contraction** from Einstein’s Special Theory of Relativity.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+1.  **Understand Length Contraction:** According to the theory of Special Relativity, the length of an object is measured to be shorter when it is moving relative to an observer. This effect, known as length contraction, only occurs in the **direction of motion**.
+2.  **Analyze the Direction:** The question states that the astronaut begins to move to the **right** relative to the Earth. From the astronaut's perspective (their frame of reference), the Earth appears to be moving to the **left** at a relativistic speed.
+3.  **Identify the Contraction Axis:** Since the relative motion is horizontal (left/right), the dimension of the Earth that lies along the horizontal axis will be shortened (contracted). The vertical dimension remains unchanged because there is no relative motion in that direction.
+4.  **Evaluate the Options:**
+    *   (A) shows no change in shape.
+    *   (B) shows vertical contraction, which would only happen if the movement were vertical.
+    *   (C) shows horizontal contraction (the Earth looks "squashed" from left to right). This perfectly aligns with our requirement that length contraction occurs only in the direction of motion.
+    *   (D) shows horizontal expansion, which is physically impossible under the conditions of Special Relativity.
+
+Mathematically, the contracted length $L$ is given by $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, where $L_0$ is the proper length, $v$ is the relative velocity, and $c$ is the speed of light. Because the relative velocity is horizontal, $L_0$ is measured horizontally, resulting in a compressed image in that dimension.
+
+###QUESTION_TYPE
+Multiple choice

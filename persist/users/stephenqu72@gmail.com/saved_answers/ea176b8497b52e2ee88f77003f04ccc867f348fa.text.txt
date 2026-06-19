@@ -1,0 +1,28 @@
+To solve this problem, we must apply **Wien’s Displacement Law** to find the peak wavelength of emission and then sketch the characteristic black-body radiation curve.
+
+### 1. Calculation
+Wien’s Displacement Law is given by:
+$$\lambda_{max} = \frac{b}{T}$$
+Where:
+*   $b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$ (Wien's constant)
+*   $T = 2800 \text{ K}$
+
+Substituting the values:
+$$\lambda_{max} = \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{2800 \text{ K}} \approx 1.035 \times 10^{-6} \text{ m} = 1035 \text{ nm}$$
+
+This result tells us the peak of the emission spectrum is in the **near-infrared** region (just outside the visible spectrum of roughly $400\text{--}700 \text{ nm}$).
+
+### 2. Plotting the Curve
+When sketching the graph (Intensity vs. Wavelength):
+*   **Axes:** The $y$-axis should be labeled "Intensity" (or Spectral Radiance) and the $x$-axis should be labeled "Wavelength ($\lambda$)".
+*   **Peak:** Mark the peak of the curve at $\lambda \approx 1035 \text{ nm}$.
+*   **Shape:** The curve should start at the origin $(0,0)$, rise steeply to the peak at $1035 \text{ nm}$, and then tail off slowly towards longer wavelengths (following the characteristic Planck distribution shape).
+*   **Context:** Note that because $1035 \text{ nm}$ is in the infrared, the visible portion of the spectrum (the "tail" on the left side of the peak) is what gives the bulb its warm/yellowish glow.
+
+### Summary for your response:
+1.  **Calculate:** State the formula and show the result $\lambda_{max} \approx 1035 \text{ nm}$.
+2.  **Sketch:** Draw a graph where the peak is clearly positioned in the infrared region (past $700 \text{ nm}$).
+3.  **Label:** Ensure the axes are labelled and the peak value is clearly indicated to demonstrate your understanding of the relationship between temperature and peak wavelength.
+
+###QUESTION_TYPE
+Calculation question

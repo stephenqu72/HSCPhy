@@ -1,0 +1,27 @@
+To solve this problem, we apply the principle of mass-energy equivalence, as stated by Einstein's equation:
+
+$$E = mc^2$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Physics:** When a particle and its antiparticle collide and annihilate while essentially stationary, their entire rest mass energy is converted into the energy of the emitted photons.
+2.  **Identify the total energy:** The problem states that the total energy produced by the annihilation of the two particles (the muon and the antimuon) is $E_{total} = 3.38 \times 10^{-11} \text{ J}$.
+3.  **Relate Energy to Mass:** Since the total energy comes from the combined mass of the muon ($m$) and the antimuon ($m$), we have:
+    $$E_{total} = (m + m)c^2 = 2mc^2$$
+4.  **Rearrange to solve for the mass of a single muon ($m$):**
+    $$m = \frac{E_{total}}{2c^2}$$
+5.  **Substitute the known values:**
+    - $E_{total} = 3.38 \times 10^{-11} \text{ J}$
+    - $c \approx 3.00 \times 10^8 \text{ m/s}$ (speed of light)
+    
+    $$m = \frac{3.38 \times 10^{-11}}{2 \times (3.00 \times 10^8)^2}$$
+    $$m = \frac{3.38 \times 10^{-11}}{2 \times 9.00 \times 10^{16}}$$
+    $$m = \frac{3.38 \times 10^{-11}}{1.80 \times 10^{17}}$$
+    $$m \approx 1.8777 \times 10^{-28} \text{ kg}$$
+
+Comparing our result to the given options, $1.8777 \times 10^{-28} \text{ kg}$ is closest to $1.88 \times 10^{-28} \text{ kg}$.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

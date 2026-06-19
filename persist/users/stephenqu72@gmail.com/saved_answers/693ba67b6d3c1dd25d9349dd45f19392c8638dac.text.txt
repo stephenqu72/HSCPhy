@@ -1,0 +1,27 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically the concept of **time dilation**.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the variables:**
+    *   The distance to the star is $d = 4.3 \text{ light-years}$. Since $c = 1 \text{ light-year/year}$, the distance is $4.3 \text{ light-years}$.
+    *   The time taken as measured by observers on Earth (the stationary frame) is $\Delta t = 5.0 \text{ years}$.
+    *   The speed of the probe $v$ can be found using the distance and the Earth-observed time:
+        $$v = \frac{d}{\Delta t} = \frac{4.3}{5.0} = 0.86c$$
+
+2.  **Apply the Time Dilation formula:**
+    The time interval recorded by the clock on the moving space probe (the proper time, $\Delta t_0$) is related to the time recorded by Earth observers ($\Delta t$) by the Lorentz factor $\gamma$:
+    $$\Delta t = \gamma \Delta t_0$$
+    Where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+
+3.  **Calculate the Lorentz factor ($\gamma$):**
+    $$\gamma = \frac{1}{\sqrt{1 - (0.86)^2}} = \frac{1}{\sqrt{1 - 0.7396}} = \frac{1}{\sqrt{0.2604}} \approx \frac{1}{0.5103} \approx 1.9596$$
+
+4.  **Calculate the proper time ($\Delta t_0$):**
+    $$\Delta t_0 = \frac{\Delta t}{\gamma} = \frac{5.0}{1.9596} \approx 2.55 \text{ years}$$
+
+### Answer:
+The time registered by a clock on the space probe is approximately **$2.55 \text{ years}$**.
+
+---
+###QUESTION_TYPE
+Calculation question

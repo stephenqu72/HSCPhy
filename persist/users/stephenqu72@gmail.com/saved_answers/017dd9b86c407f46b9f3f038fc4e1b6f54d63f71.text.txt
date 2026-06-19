@@ -1,0 +1,26 @@
+To answer this question, we must look at Einstein's photoelectric equation:
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+- $K_{max}$ is the maximum kinetic energy of the emitted photoelectrons.
+- $h$ is Planck's constant.
+- $f$ is the frequency of the incident light.
+- $\Phi$ (phi) is the work function of the metal (the minimum energy required to remove an electron from the surface).
+
+### Analysis of Options:
+
+*   **(A) Changing the cathode material to a metal with a lower work function:** If $\Phi$ decreases, the term $(hf - \Phi)$ increases, resulting in a larger $K_{max}$. **This is correct.**
+*   **(B) Changing yellow light to red light:** Red light has a longer wavelength than yellow light, meaning it has a lower frequency ($f$). A decrease in $f$ decreases the value of $hf$, which leads to a lower $K_{max}$. This is incorrect.
+*   **(C) Increasing the intensity of the incident yellow light:** Intensity affects the *number* of photons hitting the surface per second, which increases the number of emitted photoelectrons (current), but it does not change the energy of individual photons. Therefore, $K_{max}$ remains unchanged. This is incorrect.
+*   **(D) Decreasing the distance between the cathode and the anode:** This may change the time it takes for electrons to travel or affect the collection efficiency, but it does not change the kinetic energy given to the electrons at the point of emission by the incident light. This is incorrect.
+
+### How to solve this:
+When tackling photoelectric effect problems, always refer back to the Einstein photoelectric equation. Identify which variable in the equation you want to change ($K_{max}$) and see how the other variables ($f$ and $\Phi$) affect it. Remember: 
+1. Kinetic energy depends **only** on the frequency of light and the metal used.
+2. The number of photoelectrons depends on the **intensity** of the light.
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

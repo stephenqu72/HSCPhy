@@ -1,0 +1,38 @@
+To solve this problem, we must apply the principles of special relativity, specifically relativistic momentum and length contraction.
+
+### 1. Identify the given variables:
+*   Rest mass of the rocket, $m_0 = 3000\text{ kg}$
+*   Relativistic momentum observed, $p = 2.6 \times 10^{11}\text{ kg m/s}$
+*   Rest length (proper length), $L_0 = 42\text{ m}$
+*   Speed of light, $c \approx 3.0 \times 10^8\text{ m/s}$
+
+### 2. Determine the Lorentz factor ($\gamma$):
+The relativistic momentum is given by $p = \gamma m_0 v$.
+We also know that $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$, which implies $v = c\sqrt{1 - \frac{1}{\gamma^2}}$.
+Substituting this into the momentum equation:
+$$p = \gamma m_0 c \sqrt{1 - \frac{1}{\gamma^2}}$$
+$$p = m_0 c \sqrt{\gamma^2 - 1}$$
+
+Rearranging to solve for $\gamma$:
+$$\frac{p}{m_0 c} = \sqrt{\gamma^2 - 1}$$
+$$\left(\frac{p}{m_0 c}\right)^2 + 1 = \gamma^2$$
+$$\gamma = \sqrt{\left(\frac{2.6 \times 10^{11}}{3000 \times 3.0 \times 10^8}\right)^2 + 1}$$
+$$\gamma = \sqrt{\left(\frac{2.6 \times 10^{11}}{9.0 \times 10^{11}}\right)^2 + 1} \approx \sqrt{(0.2889)^2 + 1} \approx \sqrt{1.08346} \approx 1.0409$$
+
+### 3. Calculate the contracted length ($L$):
+Length contraction occurs in the direction of motion according to the formula:
+$$L = \frac{L_0}{\gamma}$$
+$$L = \frac{42}{1.0409}$$
+$$L \approx 40.35\text{ m}$$
+
+**Final Answer:** The height of the rocket as seen by the stationary observer is approximately **$40.35\text{ m}$**.
+
+***
+
+### Explanation of the process:
+1.  **Relativistic Momentum:** We used the relationship between momentum, mass, and velocity ($p = \gamma m_0 v$) to isolate the Lorentz factor, $\gamma$.
+2.  **Gamma Calculation:** By algebraic manipulation, we found the value of $\gamma$ based on the provided momentum.
+3.  **Length Contraction:** Once $\gamma$ was determined, we used the length contraction formula $L = L_0/\gamma$. Since the rocket is moving parallel to its height axis, the entire height undergoes contraction.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,17 @@
+### Answer
+
+**(a)** According to Newton’s second law of motion, the momentum $p$ of an object is given by the formula $p = mv$, where $m$ is mass and $v$ is velocity. The graph plots $p$ on the y-axis and $v$ on the x-axis. Comparing this to the linear equation $y = mx + c$ (where $c=0$), the gradient is the ratio $\frac{\Delta p}{\Delta v}$. Since $p = mv$, the gradient is $\frac{mv}{v} = m$. Therefore, for the Newtonian model, the slope of the line is equivalent to the constant mass of the object.
+
+**(b)** The differences arise from the fundamental assumptions of each theory regarding the nature of mass and the speed limit of the universe:
+
+*   **Newtonian Mechanics:** Assumes mass is an invariant scalar quantity. As an object's velocity increases, its momentum increases linearly ($p = mv$). This model does not account for a universal speed limit, so it incorrectly predicts that momentum can increase infinitely as velocity increases beyond $c$.
+*   **Special Relativity:** Einstein’s theory introduces the Lorentz factor, $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. Relativistic momentum is defined as $p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$. As the velocity $v$ approaches the speed of light $c$, the denominator approaches zero, causing the momentum $p$ to approach infinity. This explains the vertical asymptote at $v = c$ in the graph, confirming that it is impossible for an object with mass to reach or exceed the speed of light.
+
+---
+
+### How to solve it
+1.  **For part (a):** Identify the physical definition of momentum ($p=mv$). Recognize that the graph is a linear plot of $p$ versus $v$. State that the slope (gradient) of a $p-v$ graph is $\frac{p}{v}$, which simplifies to $m$. This demonstrates a strong grasp of the mathematical representation of physical laws.
+2.  **For part (b):** You must compare the two theories. Focus on the distinction between "constant mass" (Newton) and "relativistic mass/momentum" (Einstein). Use the formula for relativistic momentum to explain the asymptote: show that as $v \to c$, $p \to \infty$. Ensure you explicitly mention the speed of light $c$ as the limiting factor in Special Relativity, which is the key reason the "Einstein" line curves upward toward infinity.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,36 @@
+To solve this problem, we apply the principles of special relativity, specifically **length contraction**.
+
+### Given Data:
+*   Rest length $L_0 = 2\text{ m}$
+*   Angle in the rest frame $\theta' = 30^\circ$
+*   Velocity $v = 0.85c$
+*   Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.85^2}} \approx 1.898$
+
+---
+
+### Part (a): Determine the length of the rod in the S frame
+In the $S'$ frame, the rod components are:
+*   $L'_{x} = L_0 \cos(30^\circ) = 2 \times \frac{\sqrt{3}}{2} = \sqrt{3} \approx 1.732\text{ m}$
+*   $L'_{y} = L_0 \sin(30^\circ) = 2 \times 0.5 = 1.0\text{ m}$
+
+Because the rod moves parallel to the $x$-axis, length contraction only affects the $x$-component:
+*   $L_x = \frac{L'_x}{\gamma} = \frac{\sqrt{3}}{1.898} \approx 0.9126\text{ m}$
+*   $L_y = L'_y = 1.0\text{ m}$ (vertical dimensions remain unchanged)
+
+The total length $L$ in the $S$ frame is:
+$$L = \sqrt{L_x^2 + L_y^2} = \sqrt{0.9126^2 + 1.0^2} \approx \sqrt{0.8328 + 1} \approx \sqrt{1.8328} \approx 1.35\text{ m}$$
+
+---
+
+### Part (b): Determine the angle $\theta$ in the S frame
+The new angle $\theta$ is determined by the ratio of the vertical to horizontal components:
+$$\tan(\theta) = \frac{L_y}{L_x} = \frac{1.0}{0.9126} \approx 1.0958$$
+$$\theta = \arctan(1.0958) \approx 47.6^\circ$$
+
+---
+
+### Part (c): How will the rod appear to the stationary observer?
+To the stationary observer in the $S$ frame, the rod will appear **shorter** than its rest length (1.35 m instead of 2 m) and **rotated** towards the vertical axis (at an angle of approximately $47.6^\circ$ instead of $30^\circ$). The rod has undergone length contraction along its horizontal axis only, resulting in both a change in perceived length and orientation.
+
+###QUESTION_TYPE
+Calculation question

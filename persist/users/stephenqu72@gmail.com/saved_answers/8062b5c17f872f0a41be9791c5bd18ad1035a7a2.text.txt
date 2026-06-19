@@ -1,0 +1,25 @@
+To determine the correct relationship between a photon's energy ($E$) and its wavelength ($\lambda$), we must look at the fundamental physics equation that links them:
+
+$$E = \frac{hc}{\lambda}$$
+
+Where:
+*   $h$ is Planck's constant.
+*   $c$ is the speed of light in a vacuum.
+*   Since both $h$ and $c$ are constants, the product $hc$ is also a constant.
+
+### Explanation:
+1.  **Analyze the relationship:** The equation $E = \frac{hc}{\lambda}$ shows that energy ($E$) is **inversely proportional** to wavelength ($\lambda$). Mathematically, this is in the form $y = \frac{k}{x}$, where $k$ is a constant.
+2.  **Graphical characteristics:** 
+    *   As the wavelength $\lambda$ increases, the energy $E$ must decrease.
+    *   As the wavelength $\lambda$ approaches zero, the energy $E$ approaches infinity (an asymptote on the vertical axis).
+    *   As the wavelength $\lambda$ approaches infinity, the energy $E$ approaches zero (an asymptote on the horizontal axis).
+3.  **Evaluate the options:**
+    *   (A) represents a direct linear relationship ($y = mx$).
+    *   (B) represents an increasing exponential-type curve.
+    *   (C) represents an increasing but saturating curve (like a square root function).
+    *   **(D)** shows a curve that decreases as the x-value increases, characteristic of a rectangular hyperbola (the graph of $y = \frac{1}{x}$), which perfectly matches the inverse relationship between energy and wavelength.
+
+Therefore, the correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

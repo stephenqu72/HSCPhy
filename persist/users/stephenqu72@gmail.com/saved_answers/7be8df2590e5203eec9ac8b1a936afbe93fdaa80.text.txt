@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+#### (a) Compare and contrast, qualitatively, the relationship between light intensity and angle in the graphs. (2 marks)
+
+**Answer:**
+Both sets of data show a negative correlation where light intensity decreases as the angle between the transmission axes increases. Qualitatively, Team A’s data covers a wider range of angles (0° to 45°), capturing the curvature characteristic of Malus’s Law ($I = I_0 \cos^2 \theta$). In contrast, Team B’s data is restricted to a narrow range (40° to 50°) and appears approximately linear, failing to show the characteristic non-linear behavior of the relationship.
+
+**Explanation:**
+To solve this, look at the trend of the data points. Both show a downward slope. However, Malus’s Law is a squared cosine function, which is non-linear. Team A’s points are spaced out, showing the "bend" of the function, while Team B’s points are clustered in a small window, making the relationship look like a straight line.
+
+---
+
+#### (b) Assess the appropriateness of Team A’s data and Team B’s data in achieving the purpose of the experiments. (3 marks)
+
+**Answer:**
+*   **Team A:** This data is **highly appropriate**. By collecting data points across a large angular range ($0^\circ–45^\circ$), they have captured enough of the curve to demonstrate the predicted mathematical relationship of Malus’s Law. This allows for a valid assessment of whether the intensity follows a $\cos^2 \theta$ dependency.
+*   **Team B:** This data is **inappropriate**. Because the experiment was restricted to a very small range of angles ($40^\circ–50^\circ$), the data lacks the breadth required to confirm the functional form of the law. A small segment of a curve can be mistaken for a linear relationship, meaning Team B cannot reliably confirm the validity of Malus's Law from their results.
+
+**Explanation:**
+When assessing experimental design, you must look for **range** and **resolution**. To verify a specific law (like Malus's Law), you need a wide enough range of the independent variable to see the pattern (the shape of the graph) clearly. Team A succeeded by spanning a wide range, whereas Team B's limited range provides insufficient evidence to distinguish the curve from a straight line.
+
+###QUESTION_TYPE
+Data analysis questions

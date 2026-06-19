@@ -1,0 +1,35 @@
+To solve these problems, we use the principles of Einstein's Special Relativity.
+
+**Constants required:**
+Rest mass of an electron ($m_0$) $\approx 9.109 \times 10^{-31} \text{ kg}$
+Speed of light ($c$) $\approx 3.00 \times 10^8 \text{ m/s}$
+
+---
+
+### (a) Calculate its relativistic mass
+The relativistic mass $m_v$ is given by $m_v = \gamma m_0$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+1. Calculate $\gamma$:
+   $$\gamma = \frac{1}{\sqrt{1 - (0.9999)^2}} = \frac{1}{\sqrt{1 - 0.99980001}} \approx \frac{1}{\sqrt{0.00019999}} \approx 70.71$$
+2. Calculate $m_v$:
+   $$m_v = 70.71 \times 9.109 \times 10^{-31} \text{ kg} \approx 6.44 \times 10^{-29} \text{ kg}$$
+
+### (b) Calculate the electron’s relativistic momentum
+Relativistic momentum is $p = \gamma m_0 v$.
+$$p = 70.71 \times (9.109 \times 10^{-31} \text{ kg}) \times (0.9999 \times 3.00 \times 10^8 \text{ m/s})$$
+$$p \approx 1.93 \times 10^{-20} \text{ kg m/s}$$
+
+### (c) Calculate the energy released in this collision
+When a particle and antiparticle annihilate, their total rest mass energy is converted into radiation. Total mass $= 2 \times m_0$.
+$$E = mc^2 = (2 \times 9.109 \times 10^{-31} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+$$E \approx 1.64 \times 10^{-13} \text{ J}$$
+
+### (d) Justify Einstein's mass-energy equivalence for the Sun
+The Sun produces energy through nuclear fusion (converting hydrogen into helium). The mass of the helium nucleus is slightly less than the sum of the masses of the four hydrogen nuclei that formed it. This "mass defect" ($\Delta m$) is converted into energy according to $E = \Delta m c^2$. Because $c^2$ is an extremely large number, even a tiny conversion of mass results in the massive energy output observed as sunlight and heat.
+
+### (e) Evidence for special relativity
+A standard piece of evidence is the **observation of time dilation in muons**. Muons are unstable particles created in the upper atmosphere with a very short half-life. According to classical physics, they should decay before reaching the Earth's surface. However, because they travel at velocities close to $c$, their internal "clocks" slow down relative to an Earth-based observer, allowing them to reach the surface. This confirms that time is relative to the observer's frame of reference.
+
+---
+
+###QUESTION_TYPE
+Calculation question

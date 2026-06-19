@@ -1,0 +1,48 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this classic modern physics problem.
+
+---
+
+### Part (a): How did Einstein explain the photoelectric effect?
+
+**Answer:**
+Einstein proposed that light consists of discrete packets of energy called **photons**, where the energy of each photon is given by $E = hf$. He explained that the photoelectric effect occurs through a one-to-one interaction where a single photon transfers all its energy to a single electron in the metal. If the photon's energy is greater than the metal's **work function** ($\Phi$), the electron is ejected with kinetic energy. This explained why the effect depends on the frequency of light rather than intensity, as a single photon must reach the threshold frequency to overcome the work function.
+
+**How to solve:**
+To gain full marks, ensure you mention:
+1. **The Particle Model:** Light acts as photons, not just a continuous wave.
+2. **Quantization:** $E = hf$.
+3. **The Mechanism:** The one-to-one interaction and the threshold frequency required to overcome the work function ($\Phi$).
+
+---
+
+### Part (b): Determine the wavelength of the light in nanometres.
+
+**Answer:**
+To find the wavelength, we use the conservation of energy equation for the photoelectric effect:
+$$hf = \Phi + E_k$$
+Where $E_k = \frac{1}{2}mv^2$.
+
+**Step 1: Calculate the kinetic energy ($E_k$) in Joules.**
+Mass of electron ($m$) = $9.109 \times 10^{-31} \text{ kg}$
+Velocity ($v$) = $1.042 \times 10^6 \text{ m/s}$
+$$E_k = 0.5 \times (9.109 \times 10^{-31}) \times (1.042 \times 10^6)^2 \approx 4.945 \times 10^{-19} \text{ J}$$
+
+**Step 2: Convert the work function ($\Phi$) to Joules.**
+$1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$
+$$\Phi = 3.82 \text{ eV} \times (1.602 \times 10^{-19} \text{ J/eV}) \approx 6.120 \times 10^{-19} \text{ J}$$
+
+**Step 3: Calculate total photon energy ($E = hf$).**
+$$E = 4.945 \times 10^{-19} + 6.120 \times 10^{-19} = 1.1065 \times 10^{-18} \text{ J}$$
+
+**Step 4: Calculate the wavelength ($\lambda$) using $E = \frac{hc}{\lambda}$.**
+$h = 6.626 \times 10^{-34} \text{ Js}$, $c = 3.0 \times 10^8 \text{ m/s}$
+$$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34}) \times (3.0 \times 10^8)}{1.1065 \times 10^{-18}} \approx 1.796 \times 10^{-7} \text{ m}$$
+$$\lambda \approx 180 \text{ nm}$$
+
+**How to solve:**
+1. Always convert all units to SI (Joules, kg, m/s) before performing calculations.
+2. Remember that the incident energy of the photon must equal the work required to remove the electron plus the kinetic energy of the released electron.
+3. Be careful with your rounding during intermediate steps to maintain precision for the final answer.
+
+###QUESTION_TYPE
+Calculation question

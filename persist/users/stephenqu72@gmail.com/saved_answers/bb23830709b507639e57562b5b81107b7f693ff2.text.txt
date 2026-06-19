@@ -1,0 +1,37 @@
+To find the speed of the object, we use the principles of Special Relativity regarding length contraction.
+
+### Answer
+The speed of the object is approximately $0.141c$ (or $14.1\%$ of the speed of light).
+
+### Explanation
+**1. Identify the relevant physics formula**
+The length contraction formula is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Where:
+*   $L_0$ is the proper length (length measured by someone on the object).
+*   $L$ is the contracted length (measured by an observer on Earth).
+*   $v$ is the velocity of the object.
+*   $c$ is the speed of light.
+
+**2. Translate the problem into an equation**
+The problem states there is a $1\%$ difference in length. This means the observed length $L$ is $99\%$ of the proper length $L_0$:
+$$L = 0.99 L_0$$
+Substituting this into the length contraction formula:
+$$0.99 L_0 = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+**3. Solve for $v$**
+Divide both sides by $L_0$:
+$$0.99 = \sqrt{1 - \frac{v^2}{c^2}}$$
+Square both sides to remove the square root:
+$$0.9801 = 1 - \frac{v^2}{c^2}$$
+Rearrange the equation:
+$$\frac{v^2}{c^2} = 1 - 0.9801$$
+$$\frac{v^2}{c^2} = 0.0199$$
+Take the square root of both sides:
+$$\frac{v}{c} = \sqrt{0.0199} \approx 0.14106$$
+$$v \approx 0.141c$$
+
+Thus, the object is travelling at approximately $14.1\%$ of the speed of light.
+
+###QUESTION_TYPE
+Calculation question

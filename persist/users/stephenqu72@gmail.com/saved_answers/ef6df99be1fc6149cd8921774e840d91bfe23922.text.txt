@@ -1,0 +1,35 @@
+### Part a
+**Answer:** According to the classical wave model of light:
+- **Intensity:** Increasing the intensity should increase the kinetic energy of the emitted electrons, as the wave energy is spread over the surface and absorbed by electrons over time.
+- **Frequency:** The frequency (or wavelength) should have no effect on the kinetic energy of the emitted electrons.
+- **Number of emitted electrons:** The number of emitted electrons is predicted to increase as intensity increases, but the wave model cannot explain why a minimum frequency (threshold frequency) is required for emission.
+
+### Part b
+**Answer:**
+1. **Photon energy of d:** Using $E = \frac{hc}{\lambda}$ where $h = 4.136 \times 10^{-15} \text{ eV s}$, $c = 3 \times 10^8 \text{ m/s}$, and $\lambda = 410 \times 10^{-9} \text{ m}$:
+   $$E = \frac{4.136 \times 10^{-15} \times 3 \times 10^8}{410 \times 10^{-9}} \approx 3.027 \text{ eV}$$
+2. **Maximum speed:** $E_k = eV_s$, where $V_s = 1.755 \text{ V}$, so $E_k = 1.755 \text{ eV}$.
+   Convert to Joules: $1.755 \times 1.602 \times 10^{-19} \approx 2.812 \times 10^{-19} \text{ J}$.
+   Using $E_k = \frac{1}{2}mv^2$ (with $m = 9.11 \times 10^{-31} \text{ kg}$):
+   $$v = \sqrt{\frac{2 \times 2.812 \times 10^{-19}}{9.11 \times 10^{-31}}} \approx 7.85 \times 10^5 \text{ m s}^{-1}$$
+
+### Part c
+**Answer:** The results are consistent if the work function $\Phi$ is constant for all light sources. $\Phi = E_{photon} - E_{k(max)}$.
+- For light **a**: $\Phi = \frac{1240}{700} - 0.500 = 1.771 - 0.500 = 1.271 \text{ eV}$.
+- For light **d**: $\Phi = \frac{1240}{410} - 1.755 = 3.024 - 1.755 = 1.269 \text{ eV}$.
+Since the calculated work functions are nearly identical, the results are consistent.
+
+### Part d
+**Answer:** Emission occurs when $E_{photon} = \Phi$. We use the average $\Phi \approx 1.27 \text{ eV}$.
+$$\lambda_{threshold} = \frac{hc}{\Phi} = \frac{1240 \text{ eV nm}}{1.27 \text{ eV}} \approx 976 \text{ nm}$$
+The threshold wavelength is approximately $9.76 \times 10^{-7} \text{ m}$.
+
+---
+### Explanation of how to solve
+1. **Understand Models:** Recognize the discrepancy between the Classical Wave Model (predicting dependence on intensity) and the Quantum Model (predicting dependence on frequency).
+2. **Use Photoelectric Equations:** Use $E_{photon} = \frac{hc}{\lambda}$ and the Einstein photoelectric equation $E_k = hf - \Phi$ (or $hf = \Phi + eV_s$).
+3. **Consistency:** Calculate the work function ($\Phi$) for at least two different data points. If $\Phi$ is the same, the data set is internally consistent with the photoelectric theory.
+4. **Threshold:** The longest wavelength that triggers emission corresponds to the energy of the work function ($\lambda = \frac{hc}{\Phi}$).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,26 @@
+To solve this problem, we use the principles of Special Relativity. First, we identify the distance $d$ to Alpha Centauri. Since light takes $4.3$ years to travel this distance at the speed of light $c$, the distance is $4.3$ light-years.
+
+### (a) Speed of the space probe
+An observer on Earth measures the distance as $d = 4.3$ light-years and the time taken as $t = 5.0$ years. The speed $v$ is calculated using the classical formula:
+$$v = \frac{d}{t} = \frac{4.3 \text{ light-years}}{5.0 \text{ years}} = 0.86c$$
+The space probe needs to travel at **$0.86c$**.
+
+---
+
+### (b) Time taken measured by a clock inside the space probe
+The time measured by a clock inside the moving probe is the proper time $t_0$. According to the time dilation formula:
+$$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Rearranging for $t_0$:
+$$t_0 = t \times \sqrt{1 - \frac{v^2}{c^2}}$$
+Substitute $t = 5.0$ years and $v = 0.86c$:
+$$t_0 = 5.0 \times \sqrt{1 - (0.86)^2}$$
+$$t_0 = 5.0 \times \sqrt{1 - 0.7396}$$
+$$t_0 = 5.0 \times \sqrt{0.2604}$$
+$$t_0 \approx 5.0 \times 0.5103$$
+$$t_0 \approx 2.55 \text{ years}$$
+The time taken for the journey measured by a clock inside the space probe is approximately **$2.55$ years**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

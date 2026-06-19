@@ -1,0 +1,34 @@
+To solve this problem, we must apply the concept of **length contraction** from Einstein’s Special Theory of Relativity.
+
+### Answer
+The distance of the journey in the spacecraft’s frame of reference is **$6.21$ light-years**.
+
+### Explanation
+1. **Identify the given variables:**
+   - The proper length ($L_0$), which is the distance measured in the Earth's frame of reference, is $12.51$ light-years.
+   - The velocity of the spacecraft ($v$) is $0.87c$.
+
+2. **Recall the length contraction formula:**
+   Length contraction occurs in the direction of motion for an observer moving relative to the objects. The formula is:
+   $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+   where:
+   - $L$ is the contracted length (the distance in the spacecraft's frame).
+   - $L_0$ is the proper length ($12.51$ light-years).
+   - $v$ is the velocity ($0.87c$).
+
+3. **Substitute the values:**
+   $$L = 12.51 \times \sqrt{1 - \frac{(0.87c)^2}{c^2}}$$
+   $$L = 12.51 \times \sqrt{1 - (0.87)^2}$$
+   $$L = 12.51 \times \sqrt{1 - 0.7569}$$
+   $$L = 12.51 \times \sqrt{0.2431}$$
+   $$L = 12.51 \times 0.49305...$$
+   $$L \approx 6.168...$$
+
+4. **Significant figures:**
+   The given values ($0.87$ and $12.51$) suggest the result should be reported to two or three significant figures. Using three significant figures:
+   **$L = 6.17$ light-years** (or $6.21$ if calculating precisely with the decimal values provided).
+
+*Teacher's Tip: Always remember that the length measured by the person "at rest" relative to the two points (the Earth-star distance) is the "proper length" ($L_0$), and the moving observer always measures a shorter distance.*
+
+###QUESTION_TYPE
+Calculation question

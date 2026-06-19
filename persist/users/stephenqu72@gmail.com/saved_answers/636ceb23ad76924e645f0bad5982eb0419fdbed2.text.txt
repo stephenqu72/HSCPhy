@@ -1,0 +1,29 @@
+To solve this problem, we use the principles of quantum mechanics relating to photon momentum and Newton's second law in terms of momentum change.
+
+### Part a: Showing the photon momentum
+The momentum $p$ of a photon is related to its frequency $f$ by the formula:
+$$p = \frac{E}{c} = \frac{hf}{c}$$
+Where:
+*   $h = 6.626 \times 10^{-34} \text{ J s}$ (Planck's constant)
+*   $f = 7.0 \times 10^{15} \text{ Hz}$
+*   $c = 3.0 \times 10^8 \text{ m/s}$ (speed of light)
+
+Substituting the values:
+$$p = \frac{(6.626 \times 10^{-34}) \times (7.0 \times 10^{15})}{3.0 \times 10^8}$$
+$$p \approx 1.546 \times 10^{-26} \approx 1.55 \times 10^{-26} \text{ kg m s}^{-1}$$
+
+### Part b: Calculating the force
+Force is defined as the rate of change of momentum: $F = \frac{\Delta p}{\Delta t}$.
+
+1.  **Change in momentum per photon:** Since the photons strike the sail and reflect elastically at $90^\circ$ (normal incidence), the momentum changes from $p$ to $-p$. The change in momentum for one photon is $\Delta p = p_{final} - p_{initial} = (-p) - (p) = -2p$. The magnitude of the momentum transferred to the sail is $2p$.
+    $$\Delta p_{photon} = 2 \times (1.55 \times 10^{-26} \text{ kg m s}^{-1}) = 3.10 \times 10^{-26} \text{ kg m s}^{-1}$$
+
+2.  **Total force:** Given that $n = 2.0 \times 10^{18}$ photons strike per second:
+    $$F = n \times \Delta p_{photon}$$
+    $$F = (2.0 \times 10^{18} \text{ s}^{-1}) \times (3.10 \times 10^{-26} \text{ kg m s}^{-1})$$
+    $$F = 6.2 \times 10^{-8} \text{ N}$$
+
+**Answer:** The force exerted on the space sail is $6.2 \times 10^{-8} \text{ N}$.
+
+###QUESTION_TYPE
+Calculation question

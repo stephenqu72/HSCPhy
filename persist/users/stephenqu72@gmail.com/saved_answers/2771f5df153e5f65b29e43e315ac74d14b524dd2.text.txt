@@ -1,0 +1,21 @@
+### Answer
+
+**(a)** According to particle theory, light consists of discrete packets of energy called photons. The energy of an individual photon is given by $E = hf$, where $h$ is Planck’s constant and $f$ is the frequency. When a single photon interacts with an electron in the metal, it transfers its entire energy to that electron in a one-to-one interaction. The work function ($\phi$) represents the minimum energy required to eject an electron from the metal surface. The maximum kinetic energy ($K_{max}$) of the emitted electron is the difference between the incident photon energy and the work function: $K_{max} = hf - \phi$. Since $\phi$ is constant for a specific metal, an increase in the frequency $f$ of the incoming light results in a higher photon energy, which consequently increases the maximum kinetic energy of the ejected electrons.
+
+**(b)** The photoelectric equation can be expressed in the form $y = mx + c$:
+$$K_{max} = hf - \phi$$
+In this equation, $K_{max}$ corresponds to the y-axis, $f$ corresponds to the x-axis, and $\phi$ is the y-intercept. The slope of the line is defined by the constant $h$ (Planck’s constant). Since $h$ is a universal constant and does not depend on the type of metal used, the slope for both lines remains identical. Because both lines share the same slope, they must be parallel.
+
+***
+
+### Explanation of how to solve
+
+To solve this problem, you must apply Einstein's photoelectric effect model:
+
+1.  **Understand the particle model:** In HSC Physics, it is crucial to state that light acts as photons with energy $E=hf$. The key "particle theory" point is the 1:1 interaction between a single photon and a single electron.
+2.  **Relate the formula to the graph:** Recognizing the equation $K_{max} = hf - \phi$ is essential. 
+    *   For part (a), explain that since $h$ and $\phi$ are constants for a given metal, $K_{max}$ is directly dependent on $f$. As $f$ increases, $hf$ increases, leading to a larger $K_{max}$.
+    *   For part (b), apply the concept of linear functions. The lines follow $y = mx + b$. Here, $m$ (the gradient) is Planck's constant ($h$). Because $h$ is the same for all metals, the gradients are equal, proving the lines are parallel.
+
+###QUESTION_TYPE
+Short answer

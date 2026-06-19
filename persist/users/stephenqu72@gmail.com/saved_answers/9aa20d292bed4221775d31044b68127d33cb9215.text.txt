@@ -1,0 +1,31 @@
+To determine the correct answer, we must apply the principles of **Special Relativity**, specifically **time dilation**.
+
+### The Physics Principles
+According to special relativity, time dilation occurs due to relative velocity. The formula for time dilation is:
+$$\Delta t = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Where:
+- $\Delta t$ is the dilated time interval.
+- $\Delta t_0$ is the proper time (the time measured by a clock in its own inertial frame).
+- $v$ is the relative velocity.
+
+The rule is that a clock moving at a higher speed relative to an observer will appear to tick **slower** than the observer's clock. Therefore, the clock that moves the fastest relative to the observer at $X$ will tick the slowest.
+
+### Analyzing the Clocks
+1. **Clock $X$**: This is the reference frame of the observer. Its velocity relative to itself is $v = 0$.
+2. **Clock $Z$**: This is in a geostationary orbit. It has a high orbital radius, which requires a specific, relatively slower orbital velocity to maintain its position relative to the Earth's surface compared to lower orbits.
+3. **Clock $Y$**: This is in a 12-hour orbit. To maintain a smaller orbital radius (as shown in the diagram), the satellite must travel at a higher orbital velocity ($v$) compared to $Z$ to counteract the stronger gravitational pull and maintain the circular path.
+
+### Comparing Velocities
+Using the relationship $v = \sqrt{\frac{GM}{r}}$, a smaller radius $r$ results in a higher velocity $v$. Since the orbit of $Y$ is closer to Earth than the geostationary orbit of $Z$, $v_Y > v_Z$. 
+
+Relative to the observer at $X$:
+- $v_X = 0$
+- $v_Y$ is high.
+- $v_Z$ is moderate (faster than $X$, but slower than $Y$).
+
+Because $Y$ has the highest velocity relative to $X$, it experiences the greatest time dilation. Therefore, **clock $Y$ ticks the slowest**. Since $X$ is the stationary frame relative to the observer, it ticks the fastest.
+
+Thus, the order of ticking rates from fastest to slowest is $X > Z > Y$. This confirms that $Y$ is the slowest, making statement B the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+As an HSC teacher, here is the breakdown of your physics problem regarding polarization.
+
+### Answer and Explanation
+
+**(a) State the model of light supported by the property of polarisation.**
+*   **Answer:** The **transverse wave model** of light.
+*   **Explanation:** Polarization only occurs in transverse waves because it requires the oscillation of the wave to occur in a specific plane perpendicular to the direction of travel. Longitudinal waves (like sound) cannot be polarized.
+
+**(b) Explain why, as one of the polaroids is rotated through 90°, that the intensity of light coming through the overlapping sections is reduced.**
+*   **Explanation:** When light passes through $P_2$, it becomes plane-polarized. $P_1$ acts as an analyzer. According to **Malus's Law**, the intensity of the transmitted light $I$ is given by $I = I_0 \cos^2(\theta)$, where $\theta$ is the angle between the transmission axis of the analyzer and the plane of polarization of the incident light. As the angle $\theta$ increases from $0^\circ$ toward $90^\circ$, the value of $\cos^2(\theta)$ decreases, resulting in lower light intensity until it reaches $0$ at $90^\circ$ (crossed polarizers).
+
+**(c) Calculate the angle between the plane-polarised light and the orientation of $P_1$, such that the intensity is reduced by 85%.**
+*   **Calculation:**
+    If the intensity is reduced by $85\%$, the remaining intensity is $15\%$ of the original intensity ($I = 0.15 I_0$).
+    Using Malus's Law:
+    $$I = I_0 \cos^2(\theta)$$
+    $$0.15 I_0 = I_0 \cos^2(\theta)$$
+    $$\cos^2(\theta) = 0.15$$
+    $$\cos(\theta) = \sqrt{0.15} \approx 0.3873$$
+    $$\theta = \cos^{-1}(0.3873) \approx 67.2^\circ$$
+*   **Explanation:** To find the angle, set the final intensity as $15\%$ of the incident intensity. Solve for $\theta$ using the inverse cosine function. The angle between the transmission axes must be approximately $67.2^\circ$.
+
+---
+
+###QUESTION_TYPE
+Calculation question

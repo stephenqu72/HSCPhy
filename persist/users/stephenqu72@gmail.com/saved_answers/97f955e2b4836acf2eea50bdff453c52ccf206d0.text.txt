@@ -1,0 +1,34 @@
+To solve this problem, we need to substitute the given definitions into the expression for total relativistic energy.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given definitions:**
+    *   Relativistic kinetic energy: $K = (\gamma - 1)mc^2$
+    *   Lorentz factor: $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+    *   Total relativistic energy: $E_{\text{total}} = E_{\text{rest}} + K$
+
+2.  **Recall the definition of rest energy ($E_{\text{rest}}$):**
+    From Einstein’s mass-energy equivalence, the energy of an object at rest is:
+    $$E_{\text{rest}} = mc^2$$
+
+3.  **Substitute into the total energy equation:**
+    $$E_{\text{total}} = mc^2 + (\gamma - 1)mc^2$$
+
+4.  **Simplify the expression:**
+    Distribute the $mc^2$:
+    $$E_{\text{total}} = mc^2 + \gamma mc^2 - mc^2$$
+    The $mc^2$ terms cancel out, leaving:
+    $$E_{\text{total}} = \gamma mc^2$$
+
+5.  **Substitute the definition of $\gamma$ back into the expression:**
+    Substitute $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$:
+    $$E_{\text{total}} = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \times mc^2$$
+    $$E_{\text{total}} = \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+Comparing this result to the given options, it matches **Option B**.
+
+### Answer:
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

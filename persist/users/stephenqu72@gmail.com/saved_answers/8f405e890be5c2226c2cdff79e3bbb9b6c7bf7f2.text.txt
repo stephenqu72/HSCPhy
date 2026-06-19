@@ -1,0 +1,21 @@
+### Answer
+
+In Newtonian physics, momentum is defined as $p = mv$. According to this relationship, momentum is a linear function of velocity. If a constant force (thrust) is applied to an object, the acceleration should remain constant, and the object's speed should increase indefinitely.
+
+However, Einstein’s theory of Special Relativity states that as an object approaches the speed of light ($c$), its relativistic momentum becomes:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+where $\gamma$ is the Lorentz factor. 
+
+As the velocity $v$ approaches $c$, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero. This causes the value of $\gamma$ (and consequently the momentum $p$) to approach infinity. Therefore, as the spacecraft approaches $c$, an increasingly large amount of energy (momentum) is required to produce even a tiny increment in speed. This explains the asymptotic curve shown in the graph, where speed is limited by $c$ regardless of the increase in momentum provided by the thrusters.
+
+### Explanation and Strategy
+
+To solve this HSC-style physics question, you should follow this structured approach:
+
+1.  **Identify the Classical Framework:** Start by stating the Newtonian definition of momentum ($p = mv$) and note that it implies a linear relationship. Mention that classical mechanics predicts that applying force will always result in a proportional increase in speed, with no upper limit.
+2.  **Introduce the Relativistic Framework:** Contrast this with the relativistic formula for momentum. You must include the Lorentz factor, $\gamma$.
+3.  **Explain the Mathematical behavior:** Specifically discuss what happens to the equation as $v \to c$. Explain that the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ becomes extremely small, forcing $p$ to increase exponentially.
+4.  **Connect to the Graph:** Use the visual evidence in the graph to support your argument. The vertical asymptote at $v = c$ represents the physical impossibility of any object with mass reaching the speed of light, as it would require an infinite amount of momentum/energy.
+
+### QUESTION_TYPE
+Short answer

@@ -1,0 +1,27 @@
+To solve this problem, we apply fundamental principles of astrophysics regarding blackbody radiation and atomic absorption spectra.
+
+### Part (a) Solution
+To find the temperature, we use Wien’s Displacement Law, which states that the wavelength of peak emission ($\lambda_{max}$) is inversely proportional to the temperature ($T$):
+
+$$\lambda_{max} \cdot T = 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$$
+
+1. **Identify $\lambda_{max}$ from the graph:** Looking at the peak of the curve, the intensity is highest at approximately $500\text{ nm}$ ($5.0 \times 10^{-7}\text{ m}$).
+2. **Calculate $T$:**
+   $$T = \frac{2.898 \times 10^{-3}}{\lambda_{max}} = \frac{2.898 \times 10^{-3}}{5.0 \times 10^{-7}}$$
+   $$T \approx 5796\text{ K}$$
+3. **Conclusion:** This value is approximately $5800\text{ K}$, consistent with the question.
+
+### Part (b) Solution
+The dark lines in the Sun's spectrum are known as **Fraunhofer lines** (absorption lines). They are caused by the following mechanism:
+
+1. **Continuous Spectrum:** The core of the Sun produces a continuous blackbody spectrum due to its high density and temperature.
+2. **Atmospheric Absorption:** As this light passes through the cooler, lower-density outer layers of the Sun's atmosphere (the photosphere and chromosphere), specific atoms and ions absorb photons.
+3. **Quantized Energy:** Electrons in these atoms absorb photons that match the exact energy difference ($\Delta E = hf$) between their energy levels. 
+4. **Re-emission:** While the atoms do re-emit these photons, they do so in random directions, meaning the intensity of light at those specific wavelengths is significantly reduced when viewed from Earth, resulting in dark absorption lines.
+
+### Strategy for solving:
+* **For part (a):** Always look for the peak on the X-axis of a spectral intensity graph. Once you have the wavelength, Wien's Law is the standard tool for calculating stellar temperature. Ensure your units are converted to meters (m) to match the units of the Wien's constant.
+* **For part (b):** Think of this as the "inverse" of an emission spectrum. Focus your answer on the interaction between the hot core (source) and the cooler gas layers (filter). Mention the excitation of electrons to higher energy levels to show clear understanding of the atomic physics involved.
+
+###QUESTION_TYPE
+Calculation question

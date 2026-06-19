@@ -1,0 +1,23 @@
+To solve this problem, we must apply the principles of the **photoelectric effect**.
+
+### Analysis of the Physics
+The question asks about the changes to the photoelectric current when the wavelength of incident light is decreased and the intensity is increased.
+
+1.  **Effect of Intensity on Current:**
+    In the photoelectric effect, the **intensity** of the incident light is directly proportional to the number of photons striking the metal surface per second. Since each photon (with energy above the work function) releases one photoelectron, increasing the intensity increases the rate of photoelectron emission. Therefore, the **photoelectric current increases**.
+
+2.  **Effect of Wavelength on Voltage (Stopping Potential):**
+    The maximum kinetic energy ($K_{max}$) of the emitted photoelectrons is given by the Einstein photoelectric equation:
+    $$K_{max} = hf - \Phi = \frac{hc}{\lambda} - \Phi$$
+    where $h$ is Planck's constant, $c$ is the speed of light, $\lambda$ is the wavelength, and $\Phi$ is the work function of the metal.
+    When the wavelength $\lambda$ is **decreased**, the energy of each individual photon ($hf = \frac{hc}{\lambda}$) **increases**. Consequently, the maximum kinetic energy of the emitted electrons increases.
+    The stopping potential ($V_s$) is the retarding voltage required to stop the most energetic electrons, defined by $K_{max} = eV_s$. Since $K_{max}$ has increased, the **stopping voltage (or stopping potential) must increase**.
+
+### Conclusion
+*   Increasing the intensity increases the number of emitted electrons, so the **current increases**.
+*   Decreasing the wavelength increases the energy of individual photons, which increases the maximum kinetic energy of the electrons, meaning the **voltage (stopping potential) increases**.
+
+Matching this to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To determine the temperature of the blackbody radiator, we use **Wien’s Displacement Law**, which states:
+
+$$\lambda_{max} T = b$$
+
+Where:
+*   $\lambda_{max}$ is the wavelength at which the emission of radiation is at its peak.
+*   $T$ is the absolute temperature of the blackbody in Kelvin (K).
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$.
+
+### Step-by-Step Solution:
+
+1.  **Identify the peak wavelength ($\lambda_{max}$):**
+    Looking at the graph, the curve reaches its maximum luminosity at a wavelength between $400 \text{ nm}$ and $600 \text{ nm}$. The peak is exactly halfway between the $400 \text{ nm}$ and $600 \text{ nm}$ grid lines (at the $500 \text{ nm}$ mark).
+    Therefore, $\lambda_{max} = 500 \text{ nm} = 500 \times 10^{-9} \text{ m}$.
+
+2.  **Rearrange Wien’s Law for temperature ($T$):**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \text{ m K}}{500 \times 10^{-9} \text{ m}}$$
+    $$T = \frac{2.898}{500} \times 10^6 \text{ K}$$
+    $$T \approx 0.005796 \times 10^6 \text{ K}$$
+    $$T \approx 5796 \text{ K}$$
+
+4.  **Evaluate the options:**
+    The calculated temperature of $\approx 5796 \text{ K}$ is closest to $5600 \text{ K}$ (Option C). In physics problems of this type, small variations in reading the graph or the value used for Wien's constant are common, making $5600 \text{ K}$ the correct choice.
+
+**Correct Answer:** **C. 5600 K.**
+
+###QUESTION_TYPE
+Multiple choice

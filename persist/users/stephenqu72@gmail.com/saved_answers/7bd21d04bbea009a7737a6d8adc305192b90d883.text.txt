@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **A. Planck’s Law**.
+
+### Explanation
+To solve this, we need to understand the definitions of the laws related to blackbody radiation:
+
+1.  **Planck’s Law (The correct answer):** This describes the spectral density of electromagnetic radiation emitted by a black body in thermal equilibrium at a given temperature $T$, when there is no net flow of matter or energy between the body and its environment. It is expressed as:
+    $$B_{\lambda}(\lambda, T) = \frac{2hc^2}{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda k_B T}} - 1}$$
+    This formula correctly accounts for the energy distribution across all wavelengths, successfully solving the "ultraviolet catastrophe" that plagued classical physics.
+
+2.  **Wien’s Displacement Law:** This relates the *wavelength* at which the emission of a black body peaks to its temperature ($ \lambda_{max} T = \text{constant} $). It does not describe the entire spectral radiance curve.
+
+3.  **Stefan-Boltzmann Law:** This describes the *total power radiated* per unit surface area of a black body across all wavelengths ($ P = \sigma T^4 $). It does not provide the distribution of energy as a function of specific wavelengths.
+
+4.  **Rayleigh-Jeans Law:** This is a classical approximation that attempts to describe spectral radiance. While it works at long wavelengths (the infrared region), it fails significantly at short wavelengths (the ultraviolet region), predicting that intensity approaches infinity as wavelength decreases—a failure known as the "ultraviolet catastrophe."
+
+Therefore, **Planck's Law** is the only one that accurately describes the full spectral radiance of a blackbody across all wavelengths and temperatures.
+
+###QUESTION_TYPE
+Multiple choice

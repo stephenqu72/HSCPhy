@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation:** 
+When a light clock is stationary, the photon travels a distance of $2d$ vertically. However, to an outside observer watching the clock move at relativistic speeds, the photon must travel along a diagonal path to keep up with the mirrors. Because the speed of light ($c$) is constant for all observers, and the diagonal path is longer than the vertical path ($d_{diagonal} > d_{vertical}$), it must take more time for the photon to complete the round trip. Therefore, an outside observer perceives the time interval of the moving clock to be longer, a phenomenon known as time dilation.
+
+---
+
+#### Part (b)
+**Calculation:**
+1. **Identify the variables:**
+   - Velocity $v = 2.87 \times 10^8 \text{ ms}^{-1}$
+   - Speed of light $c \approx 3.00 \times 10^8 \text{ ms}^{-1}$
+   - Time on stationary platform (dilated time) $t = 2.93 \text{ ns}$
+   - We need to find the proper time $t_0$ for the passenger.
+
+2. **Use the time dilation formula:**
+   $$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+   Rearranging for $t_0$:
+   $$t_0 = t \times \sqrt{1 - \frac{v^2}{c^2}}$$
+
+3. **Substitute the values:**
+   $$t_0 = 2.93 \times \sqrt{1 - \left(\frac{2.87 \times 10^8}{3.00 \times 10^8}\right)^2}$$
+   $$t_0 = 2.93 \times \sqrt{1 - (0.9567)^2}$$
+   $$t_0 = 2.93 \times \sqrt{1 - 0.9152}$$
+   $$t_0 = 2.93 \times \sqrt{0.0848} \approx 2.93 \times 0.2912$$
+   $$t_0 \approx 0.853 \text{ ns}$$
+
+**Result:** The time that passes for the passenger is approximately $0.85 \text{ ns}$.
+
+---
+
+#### Part (c)
+**Explanation:** 
+Muons are subatomic particles created in the upper atmosphere with a very short half-life. According to classical physics, they should decay long before reaching the Earth's surface. However, because they travel at speeds very close to $c$, time dilation occurs in their frame of reference. Their internal "clocks" run slower relative to Earth, allowing them to exist for a longer duration from our perspective, which explains why we observe them reaching the ground.
+
+---
+
+###QUESTION_TYPE
+Calculation question

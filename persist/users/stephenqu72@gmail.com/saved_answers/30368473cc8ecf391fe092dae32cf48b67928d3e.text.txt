@@ -1,0 +1,29 @@
+To show that muons can reach the Earth's surface, we must demonstrate that due to time dilation, the "dilated" lifetime of the moving muon allows it to travel a distance greater than or equal to $9\text{ km}$.
+
+### Step-by-Step Explanation
+
+**1. Identify the given values:**
+*   Velocity ($v$) = $0.998c$
+*   Proper lifetime ($t_0$) = $2.2 \times 10^{-6}\text{ s}$
+*   Distance to travel ($d$) = $9 \times 10^3\text{ m}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+The Lorentz factor is given by $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+Substituting $v = 0.998c$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.998)^2}} \approx \frac{1}{\sqrt{1 - 0.996004}} = \frac{1}{\sqrt{0.003996}} \approx 15.82$$
+
+**3. Calculate the dilated lifetime ($t_v$):**
+From the perspective of an observer on Earth, the muon's lifetime is dilated:
+$$t_v = \gamma t_0$$
+$$t_v = 15.82 \times 2.2 \times 10^{-6}\text{ s} \approx 3.48 \times 10^{-5}\text{ s}$$
+
+**4. Calculate the distance the muon travels ($d_{travel}$):**
+Using $d = vt$:
+$$d_{travel} = (0.998 \times 3 \times 10^8\text{ m/s}) \times (3.48 \times 10^{-5}\text{ s})$$
+$$d_{travel} \approx 10,420\text{ m} \approx 10.4\text{ km}$$
+
+**Conclusion:**
+Since the distance the muon can travel in its dilated lifetime ($10.4\text{ km}$) is greater than the altitude of $9\text{ km}$, the muons are able to reach the surface of the Earth.
+
+###QUESTION_TYPE
+Calculation question

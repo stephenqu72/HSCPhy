@@ -1,0 +1,17 @@
+### Answer
+Muons are unstable subatomic particles with a very short half-life, meaning they should decay long before they can travel from the upper atmosphere to the Earth's surface, even when travelling at speeds close to the speed of light ($c$). However, a large number of muons are detected at the surface. According to special relativity, because the muons are travelling at relativistic speeds, they experience **time dilation**. From our frame of reference on Earth, the muon's internal "clock" runs slower, extending its measured lifespan. Consequently, the muons survive long enough to reach the surface, providing experimental evidence that time is relative and dilates at high velocities.
+
+---
+
+### How to solve this
+To achieve full marks (3 marks) for this HSC-style response, you must link the physical phenomenon (muon decay) to the principles of special relativity. Use this structure:
+
+1.  **Identify the problem:** State that based on classical physics, muons have such a short lifespan ($t$) and travel at a speed ($v$) such that their distance ($d = v \times t$) should be insufficient to reach the ground before decaying.
+2.  **Apply Special Relativity (Time Dilation):** Explain that because the muons move at speeds close to $c$, their proper time ($\Delta t_0$) is dilated relative to an observer on Earth ($\Delta t_v$). The formula is:
+    $$\Delta t_v = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+3.  **Conclude:** Explain that this dilation allows the muons to exist for a "longer" time in our frame of reference, enabling them to travel the necessary distance to be detected at the surface, thereby confirming the predictions of Einstein's theory.
+
+---
+
+###QUESTION_TYPE
+Short answer

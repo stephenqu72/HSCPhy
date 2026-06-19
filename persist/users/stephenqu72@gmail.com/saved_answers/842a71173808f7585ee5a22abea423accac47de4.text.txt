@@ -1,0 +1,26 @@
+### Teacher's Guide to Answering the Question
+
+To excel in this HSC-style physics question, you must demonstrate a deep understanding of experimental design principles: **validity** (does it test what it claims?), **accuracy** (proximity to true value), and **reliability** (consistency of results).
+
+#### Part (a): Evaluation (4 marks)
+
+*   **Validity:** The investigation is generally valid because the procedure correctly isolates the independent variable ($\theta$) and measures the dependent variable ($I/I_0$) to verify Malus' Law ($I = I_0 \cos^2\theta$). However, it could be improved by using a more controlled light source (like a laser or dedicated LED) rather than a laptop screen, which may have non-uniform polarization.
+*   **Accuracy:** The data is reasonably accurate, as evidenced by the low "Difference (%)" column. The errors are small (0% to 5%). Accuracy is limited by the smartphone's light sensor sensitivity and potential ambient light interference.
+*   **Reliability:** We cannot fully assess reliability as the student did not mention repeating trials. To improve reliability, the student should perform multiple trials at each angle and calculate an average, or use a stand to ensure the distance remains perfectly constant.
+
+#### Part (b): Graph Assessment (2 marks)
+
+*   **The Problem:** Malus' Law states that $I = I_0 \cos^2\theta$. If the student plots $I$ against $\cos^2\theta$, the relationship should be a **straight line** passing through the origin ($y = mx$).
+*   **The Assessment:** The student’s graph shows a curve (an exponential-like shape). This indicates either an error in data entry, a failure to correctly calculate $\cos^2\theta$, or a fundamental misunderstanding of linear regression. A graph of intensity against $\cos^2\theta$ should result in a linear gradient of $I_0$. The student failed to linearize the data effectively or made a significant plotting error.
+
+---
+
+### How to approach these in the HSC:
+1.  **For Validity:** Always link the method back to the underlying physics principle (Malus' Law).
+2.  **For Reliability:** Always look for the mention of "repeated trials" or "averages." If absent, it's a major point for improvement.
+3.  **For Graphing:** Know your relationships. Linear relationships make physics data easy to analyze. If the theory is $I \propto \cos^2\theta$, the graph **must** be a straight line.
+
+---
+
+###QUESTION_TYPE
+Experimental questions

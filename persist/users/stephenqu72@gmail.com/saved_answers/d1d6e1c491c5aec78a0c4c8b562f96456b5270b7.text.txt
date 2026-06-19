@@ -1,0 +1,27 @@
+To solve this problem, we must apply the two fundamental laws governing the intensity of polarized light: Malus's Law and the rule for unpolarized light passing through a first polarizer.
+
+### Step-by-Step Explanation:
+
+**1. Passing through the first polarizer:**
+When unpolarized light with an initial intensity $I_0$ passes through a single polarizer, exactly half of the light intensity is transmitted regardless of the polarizer's orientation.
+$$I_1 = \frac{I_0}{2}$$
+Given $I_0 = 50.0$ lumens:
+$$I_1 = \frac{50.0}{2} = 25.0 \text{ lumens}$$
+
+**2. Passing through the analyser:**
+When the now-polarized light (with intensity $I_1$) passes through a second polarizer (the analyser) set at an angle $\theta$ relative to the first, we use **Malus's Law**:
+$$I_2 = I_1 \cos^2(\theta)$$
+Given $\theta = 30^\circ$ and $I_1 = 25.0$ lumens:
+$$I_2 = 25.0 \times \cos^2(30^\circ)$$
+Since $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, then $\cos^2(30^\circ) = \frac{3}{4} = 0.75$.
+
+**3. Final Calculation:**
+$$I_2 = 25.0 \times 0.75 = 18.75 \text{ lumens}$$
+
+Rounding to match the significant figures provided in the options, we get $18.8$ lumens. Therefore, the correct option is **(A)**.
+
+###ANSWER
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

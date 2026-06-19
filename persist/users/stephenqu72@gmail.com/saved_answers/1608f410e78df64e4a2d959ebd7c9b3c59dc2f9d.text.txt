@@ -1,0 +1,18 @@
+To determine the correct answer, let's look at the physics principles involved in the photoelectric effect.
+
+### Answer
+The correct answer is **B) is not behaving as a wave.**
+
+### Explanation
+This question tests your understanding of the historical transition from the classical wave theory of light to the quantum model (Einstein’s photon model).
+
+1.  **Classical Wave Theory Perspective:** According to classical physics, light is a continuous wave. If this were true, increasing the **intensity** (amplitude) of the light should increase the energy delivered to the metal surface. Given enough time or intensity, the electrons should eventually gain enough cumulative energy to overcome the "work function" ($\Phi$) of the metal and be ejected.
+2.  **The Observation:** The fact that increasing the intensity does *not* result in electron emission tells us that the intensity (which relates to the number of photons) is irrelevant if the individual energy of each photon is insufficient.
+3.  **Quantum Model:** Einstein proposed that light consists of discrete "packets" or quanta called photons, where the energy of a single photon is given by:
+    $$E = hf = \frac{hc}{\lambda}$$
+    If the incident wavelength $\lambda_0$ results in photons with energy $E < \Phi$, no amount of increasing the intensity will eject an electron, because the interaction is a "one-to-one" process between a single photon and a single electron. Since the wave model predicts that intensity *should* matter and the observation proves it *does not*, the experiment demonstrates that light is **not** acting as a classical wave in this scenario.
+
+Therefore, this result provides evidence for the particle-like nature of light, contradicting the classical wave model's predictions.
+
+###QUESTION_TYPE
+Multiple choice

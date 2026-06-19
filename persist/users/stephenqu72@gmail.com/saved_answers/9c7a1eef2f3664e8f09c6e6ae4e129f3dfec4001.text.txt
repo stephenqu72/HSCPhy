@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To solve this problem, we must identify the mathematical relationship between the energy of a photon ($E$) and its wavelength ($\lambda$).
+
+1.  **Recall the relevant physics formula:**
+    The energy of a photon is related to its frequency ($f$) by the Planck-Einstein relation:
+    $$E = hf$$
+    where $h$ is Planck's constant.
+
+2.  **Incorporate wavelength:**
+    Since the speed of light ($c$) is equal to the product of frequency and wavelength ($c = f\lambda$), we can express frequency as $f = \frac{c}{\lambda}$. Substituting this into the energy equation gives:
+    $$E = \frac{hc}{\lambda}$$
+
+3.  **Analyze the relationship:**
+    In this equation, $h$ and $c$ are constants. Therefore, the energy $E$ is inversely proportional to the wavelength $\lambda$ (i.e., $E \propto \frac{1}{\lambda}$).
+
+4.  **Interpret the graph:**
+    *   An inverse relationship (where $y = \frac{k}{x}$) produces a **hyperbolic curve** that decreases as $x$ increases. 
+    *   Graph (A) shows a bell curve, which is incorrect.
+    *   Graph (B) shows a linear relationship with a positive intercept, which is incorrect.
+    *   **Graph (C) shows a curve that starts high on the y-axis and approaches zero as x increases, which represents an inverse relationship.**
+    *   Graph (D) shows a direct linear relationship ($y = mx$), which would represent energy vs. frequency, not energy vs. wavelength.
+
+Thus, graph (C) correctly represents the inverse relationship between the energy and the wavelength of a photon.
+
+###QUESTION_TYPE
+Multiple choice

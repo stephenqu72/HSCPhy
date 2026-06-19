@@ -1,0 +1,28 @@
+To determine the surface temperature of the star, we use Wien’s Displacement Law, which relates the peak wavelength of emission ($\lambda_{max}$) to the absolute temperature ($T$) of a black body.
+
+### 1. Identify the Peak Frequency
+The star appears predominantly red. According to the provided chart, red light falls in the frequency range of approximately $460\text{ THz}$. Let's use $f = 460 \times 10^{12}\text{ Hz}$.
+
+### 2. Calculate the Peak Wavelength
+The relationship between the speed of light ($c$), frequency ($f$), and wavelength ($\lambda$) is:
+$$c = f \lambda \implies \lambda = \frac{c}{f}$$
+Using $c \approx 3 \times 10^8\text{ m/s}$:
+$$\lambda = \frac{3 \times 10^8}{460 \times 10^{12}} \approx 6.52 \times 10^{-7}\text{ m} = 652\text{ nm}$$
+
+### 3. Calculate the Temperature
+Wien’s Displacement Law is expressed as:
+$$\lambda_{max} T = b$$
+where $b$ (Wien's constant) $\approx 2.898 \times 10^{-3}\text{ m}\cdot\text{K}$.
+Rearranging for $T$:
+$$T = \frac{b}{\lambda_{max}} = \frac{2.898 \times 10^{-3}}{6.52 \times 10^{-7}}$$
+$$T \approx 4444.7\text{ K}$$
+
+Comparing this result to the provided options, **Option B (4443 K)** is the correct choice.
+
+### Step-by-Step Summary:
+1. **Locate the frequency:** From the spectrum chart, the red region is centered around $460\text{ THz}$.
+2. **Convert to wavelength:** Use the wave equation $\lambda = c/f$ to find the peak wavelength in meters.
+3. **Apply Wien's Law:** Divide Wien's constant ($2.898 \times 10^{-3}$) by the calculated wavelength to find the temperature in Kelvin.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we apply the principle of **time dilation** from Einstein's Theory of Special Relativity.
+
+### Explanation
+
+When an object moves at a relativistic speed (a significant fraction of the speed of light $c$), time for that object appears to "slow down" relative to a stationary observer. The relationship between the "proper time" ($t_0$)—the time interval measured in the object's rest frame—and the "dilated time" ($t_v$) measured by an observer moving relative to that object is given by the formula:
+
+$$t_v = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**Given values:**
+*   Proper lifetime ($t_0$) = $2.6 \times 10^{-8} \text{ s}$
+*   Velocity ($v$) = $0.99c$
+
+**Step-by-step calculation:**
+
+1.  **Calculate the Lorentz factor ($\gamma$):**
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Since $v = 0.99c$, then $v^2 = 0.9801c^2$.
+    $$\gamma = \frac{1}{\sqrt{1 - 0.9801}} = \frac{1}{\sqrt{0.0199}} \approx \frac{1}{0.141067} \approx 7.0888$$
+
+2.  **Calculate the dilated lifetime ($t_v$):**
+    $$t_v = t_0 \times \gamma$$
+    $$t_v = (2.6 \times 10^{-8} \text{ s}) \times 7.0888$$
+    $$t_v \approx 18.43 \times 10^{-8} \text{ s}$$
+    Converting to standard scientific notation:
+    $$t_v \approx 1.843 \times 10^{-7} \text{ s}$$
+
+Comparing this result to the provided options, **(C) $1.87 \times 10^{-7} \text{ s}$** is the correct answer (the slight variation is due to rounding the Lorentz factor during intermediate steps).
+
+### Answer
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

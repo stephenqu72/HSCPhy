@@ -1,0 +1,31 @@
+To determine the most suitable material for the sensor, we need to compare the energy of the photons emitted by a human body with the activation energy (band gap) of the semiconductor materials provided.
+
+### 1. Analysis of the Radiation
+From the provided "Typical Human Blackbody Radiation Curve," the peak intensity occurs at a wavelength of approximately $\lambda = 10 \text{ } \mu\text{m}$ ($10 \times 10^{-6} \text{ m}$).
+
+We calculate the energy $E$ of these photons using the formula:
+$$E = \frac{hc}{\lambda}$$
+
+Where:
+- $h \approx 4.136 \times 10^{-15} \text{ eV s}$ (Planck’s constant)
+- $c \approx 3 \times 10^8 \text{ m/s}$ (Speed of light)
+- $\lambda = 10 \times 10^{-6} \text{ m}$
+
+$$E = \frac{(4.136 \times 10^{-15}) \times (3 \times 10^8)}{10 \times 10^{-6}}$$
+$$E \approx 0.124 \text{ eV}$$
+
+### 2. Matching with Materials
+For a material to act as a detector for this radiation, its activation energy must be **less than or equal to** the energy of the incident photons. If the activation energy is higher than the photon energy, the sensor will not be able to excite electrons across the band gap and will fail to detect the radiation.
+
+Comparing $0.124 \text{ eV}$ to the table:
+*   **Si ($1.3 \text{ eV}$):** Too high.
+*   **GaN ($3.4 \text{ eV}$):** Too high.
+*   **InSb ($0.15 \text{ eV}$):** Slightly higher than the peak photon energy ($0.124 \text{ eV}$). While it might detect some photons on the high-energy tail of the curve, it is not the most efficient choice.
+*   **HgCdTe ($0.03 \text{ eV}$):** This is significantly lower than $0.124 \text{ eV}$. Because it requires very little energy to excite an electron, it will be sensitive to the radiation emitted by the human body.
+
+Therefore, **HgCdTe** is the most suitable material as it can effectively detect photons in the infrared range emitted by human bodies.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

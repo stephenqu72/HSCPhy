@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+To graphically represent this, you should draw two curves on a set of axes where the x-axis is **wavelength ($\lambda$)** and the y-axis is **Intensity ($I$)**.
+*   Draw one curve for a lower temperature ($T_1$) and a second curve for a higher temperature ($T_2$, where $T_2 > T_1$).
+*   The curve for $T_2$ must have a **higher peak intensity** than $T_1$.
+*   The peak of the $T_2$ curve must be shifted to the **left (shorter wavelength)** compared to the peak of $T_1$.
+*   The area under the $T_2$ curve must be significantly larger than that under the $T_1$ curve (representing higher total power output).
+
+**How to solve:**
+This question tests your understanding of **Wien’s Displacement Law** and the **Stefan-Boltzmann Law**. Remember these two key relationships:
+1.  As temperature increases, the peak wavelength decreases ($\lambda_{max} \propto 1/T$).
+2.  As temperature increases, the total intensity (area under the curve) increases significantly ($I \propto T^4$).
+
+#### Part (b)
+**Answer:**
+The classical model (Rayleigh-Jeans law) assumed that energy was emitted in a **continuous** spectrum and that all oscillators could vibrate at any frequency with equal probability. This led to the "Ultraviolet Catastrophe," where the model predicted infinite intensity at very short wavelengths (high frequencies).
+
+Planck’s quantised model differed by proposing that energy is emitted or absorbed in discrete "packets" or **quanta**. He introduced the relationship $E = nhf$, where $n$ is an integer, $h$ is Planck's constant, and $f$ is frequency. By quantising the energy, Planck showed that the probability of emitting high-frequency radiation is extremely low, because the energy required to create a single high-frequency quantum is very large. This successfully resolved the discrepancy at high frequencies by effectively "cutting off" the spectrum.
+
+**How to solve:**
+To get full marks, ensure you mention:
+1.  The failure of the classical model (the "Ultraviolet Catastrophe" or infinite intensity at high frequencies).
+2.  The fundamental shift to **quantisation** (discrete energy levels).
+3.  The relationship $E = hf$ as the mechanism that restricts high-frequency emission.
+
+###QUESTION_TYPE
+Short answer

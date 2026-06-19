@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically time dilation and relativistic energy.
+
+### Step-by-Step Explanation
+
+**1. Identify the Lorentz Factor ($\gamma$)**
+The problem states that the clocks on the spaceship run eight times slower than the clocks on Earth. This refers to time dilation, where the observed time interval $t$ is related to the proper time interval $t_0$ by the Lorentz factor $\gamma$:
+$$t = \gamma t_0$$
+Since the spaceship's clocks run 8 times slower, $\gamma = 8$.
+
+**2. Relate $\gamma$ to the Velocity ($v$)**
+The Lorentz factor is defined as:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Given $\gamma = 8$, we can find the value of $\frac{v^2}{c^2}$:
+$$8 = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \implies \frac{1}{64} = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 1 - \frac{1}{64} = \frac{63}{64}$$
+
+**3. Calculate Kinetic Energy ($E_k$)**
+The relativistic kinetic energy is given by the difference between the total energy and the rest energy:
+$$E_k = E_{total} - E_{rest} = \gamma mc^2 - mc^2 = (\gamma - 1)mc^2$$
+We are given:
+- $m = 10,000\text{ kg}$
+- $\gamma = 8$
+- $c \approx 3.00 \times 10^8\text{ m/s}$
+
+Substitute the values:
+$$E_k = (8 - 1) \times 10,000 \times (3.00 \times 10^8)^2$$
+$$E_k = 7 \times 10,000 \times (9.00 \times 10^{16})$$
+$$E_k = 7 \times 10^4 \times 9.00 \times 10^{16}$$
+$$E_k = 6.3 \times 10^{21}\text{ Joules}$$
+
+**Answer:**
+The kinetic energy of the spaceship is $6.3 \times 10^{21}\text{ J}$.
+
+###QUESTION_TYPE
+Calculation question

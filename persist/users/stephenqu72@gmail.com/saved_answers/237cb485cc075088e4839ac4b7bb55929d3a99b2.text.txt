@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+To solve this problem, we apply **Malus’s Law**, which states that the intensity of light passing through a polariser is $I = I_{max} \cos^2(\theta)$, where $\theta$ is the angle between the light's current polarisation plane and the axis of the polariser. For unpolarised light entering a polariser, the intensity is simply halved: $I = \frac{1}{2} I_0$.
+
+#### (a) Intensity passing through Polariser 1
+When unpolarised light with intensity $I_0 = 50\text{ W m}^{-2}$ hits the first polariser, the emerging intensity is:
+$$I_1 = \frac{1}{2} I_0 = \frac{50}{2} = 25\text{ W m}^{-2}$$
+
+#### (b) Intensity passing through Polariser 3
+First, find the intensity after Polariser 2 ($I_2$). The angle between Polariser 1 (vertical) and Polariser 2 ($30^\circ$ to vertical) is $\theta_1 = 30^\circ$:
+$$I_2 = I_1 \cos^2(30^\circ) = 25 \times (\frac{\sqrt{3}}{2})^2 = 25 \times 0.75 = 18.75\text{ W m}^{-2}$$
+
+Next, find the intensity after Polariser 3 ($I_3$). The angle between Polariser 2 ($30^\circ$ to vertical) and Polariser 3 (horizontal, $90^\circ$ to vertical) is $\theta_2 = 90^\circ - 30^\circ = 60^\circ$:
+$$I_3 = I_2 \cos^2(60^\circ) = 18.75 \times (0.5)^2 = 18.75 \times 0.25 = 4.6875\text{ W m}^{-2}$$
+Rounding to significant figures (based on input), $I_3 \approx 4.69\text{ W m}^{-2}$.
+
+#### (c) Polariser 2 removed
+If Polariser 2 is removed, light emerges from Polariser 1 (vertical) and hits Polariser 3 (horizontal). The angle between these two is $90^\circ$. According to Malus’s Law:
+$$I_{final} = I_1 \cos^2(90^\circ)$$
+Since $\cos(90^\circ) = 0$, the final intensity is $0\text{ W m}^{-2}$.
+
+###QUESTION_TYPE
+Calculation question

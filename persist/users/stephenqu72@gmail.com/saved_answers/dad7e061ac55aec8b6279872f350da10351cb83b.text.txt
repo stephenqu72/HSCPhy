@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+To explain why a spacecraft's speed does not increase proportionally to the energy added as it approaches the speed of light ($c$), we must contrast Newtonian mechanics with Einstein's Special Relativity.
+
+#### 1. The Newtonian Perspective (The Discrepancy)
+In classical Newtonian mechanics, kinetic energy is defined as:
+$$E_k = \frac{1}{2}mv^2$$
+According to this model, if you apply a constant force ($F=ma$), the object should experience a constant acceleration, meaning its velocity $v$ should increase indefinitely as more energy is added. Newtonian physics suggests there is no upper limit to an object's speed.
+
+#### 2. The Special Relativity Perspective
+In Special Relativity, mass is not an invariant scalar in the Newtonian sense; instead, the **relativistic momentum** and **total energy** of an object depend on its velocity. The total energy $E$ of an object is given by:
+$$E = \gamma mc^2$$
+where $\gamma$ (the Lorentz factor) is defined as:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+#### 3. Why the speed does not increase
+As the velocity $v$ approaches $c$, the term $\frac{v^2}{c^2}$ approaches 1. Consequently, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero, causing $\gamma$ to approach infinity.
+
+Because the total energy $E = \gamma mc^2$, as $v \to c$, $\gamma \to \infty$. This means that to continue increasing the velocity even slightly, an infinite amount of energy would be required. The energy provided by the propulsion system is not lost; rather, it is consumed by the **relativistic increase in the object's total energy (often colloquially referred to as relativistic mass)**. 
+
+As $v$ approaches $c$, the "inertia" of the object effectively becomes infinite, making it impossible for the spacecraft to reach or exceed the speed of light. Thus, the extra kinetic energy manifests as an increase in the relativistic energy of the spacecraft rather than a significant increase in its velocity.
+
+### Marking Rubric Guide
+*   **1 mark:** Recognition of Newtonian kinetic energy formula ($E_k = \frac{1}{2}mv^2$) or the assumption of constant mass/acceleration.
+*   **1 mark:** Introduction of the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+*   **1 mark:** Linking total energy to mass/Lorentz factor ($E = \gamma mc^2$).
+*   **1 mark:** Explaining that as $v \to c$, $\gamma \to \infty$, meaning energy goes into the "mass-energy" of the object rather than increasing speed.
+
+###QUESTION_TYPE
+Short answer

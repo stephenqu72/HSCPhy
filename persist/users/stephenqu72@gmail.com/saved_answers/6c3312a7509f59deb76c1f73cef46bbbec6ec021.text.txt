@@ -1,0 +1,25 @@
+To find the intensity of light leaving the analyser, we follow two steps based on the principles of light polarization.
+
+### Step-by-Step Explanation:
+
+1.  **Light passing through the Polariser:**
+    Unpolarized light with intensity $I_0 = 513 \text{ lux}$ passes through an ideal polariser. According to Malus's Law for unpolarized light, the intensity is reduced by half:
+    $$I_1 = \frac{1}{2} I_0 = \frac{513}{2} = 256.5 \text{ lux}$$
+    This light is now linearly polarised in the vertical direction.
+
+2.  **Light passing through the Analyser:**
+    The polarised light now passes through an analyser at an angle $\theta = 17.0^\circ$ relative to the polariser. According to Malus's Law, the transmitted intensity $I_2$ is given by:
+    $$I_2 = I_1 \cos^2(\theta)$$
+    Substituting our values:
+    $$I_2 = 256.5 \times \cos^2(17.0^\circ)$$
+    Using a calculator:
+    $$\cos(17.0^\circ) \approx 0.9563$$
+    $$\cos^2(17.0^\circ) \approx 0.9145$$
+    $$I_2 = 256.5 \times 0.9145 \approx 234.57 \text{ lux}$$
+
+Rounding to the nearest whole number gives **235 lux**.
+
+Comparing this result to the given options, the correct choice is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

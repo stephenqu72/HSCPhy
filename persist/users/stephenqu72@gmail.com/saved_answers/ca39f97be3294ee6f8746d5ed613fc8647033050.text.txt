@@ -1,0 +1,37 @@
+To solve this problem, we use the principles of Special Relativity, specifically the concept of **time dilation**.
+
+### Explanation
+
+1.  **Identify the variables:**
+    *   The time measured by an observer on Earth (stationary frame) is the dilated time, $t = 5 \text{ years}$.
+    *   The time measured by a clock on the spacecraft (moving frame) is the proper time, $t_0 = 2.55 \text{ years}$.
+    *   The relationship between these is given by the time dilation formula:
+        $$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+2.  **Rearrange the formula to solve for velocity ($v$):**
+    Divide by $t_0$:
+    $$\frac{t}{t_0} = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Square both sides:
+    $$\left(\frac{t}{t_0}\right)^2 = \frac{1}{1 - \frac{v^2}{c^2}}$$
+    Invert both sides:
+    $$1 - \frac{v^2}{c^2} = \left(\frac{t_0}{t}\right)^2$$
+    Isolate the velocity term:
+    $$\frac{v^2}{c^2} = 1 - \left(\frac{t_0}{t}\right)^2$$
+    $$v = c \sqrt{1 - \left(\frac{t_0}{t}\right)^2}$$
+
+3.  **Perform the calculation:**
+    *   Substitute the values $t_0 = 2.55$ and $t = 5$:
+    $$\frac{t_0}{t} = \frac{2.55}{5} = 0.51$$
+    *   Square this result:
+    $$0.51^2 = 0.2601$$
+    *   Subtract from 1:
+    $$1 - 0.2601 = 0.7399$$
+    *   Take the square root:
+    $$v = c \sqrt{0.7399} \approx 0.86017 c$$
+
+Rounding to two decimal places, we get $v = 0.86 c$.
+
+Comparing this result to the given options, the correct choice is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

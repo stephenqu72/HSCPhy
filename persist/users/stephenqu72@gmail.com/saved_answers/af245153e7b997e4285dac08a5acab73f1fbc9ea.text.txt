@@ -1,0 +1,30 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the absolute temperature of a blackbody to the wavelength at which it emits the most radiation.
+
+### Step-by-Step Solution:
+
+1.  **Identify the formula:** Wien's Displacement Law is given by:
+    $$\lambda_{max} = \frac{b}{T}$$
+    Where:
+    *   $\lambda_{max}$ is the peak wavelength in meters ($m$).
+    *   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+    *   $T$ is the absolute temperature in Kelvin ($K$).
+
+2.  **Convert temperature to Kelvin:**
+    The given temperature is $37^\circ\text{C}$. To convert to Kelvin, add $273.15$:
+    $$T = 37 + 273.15 = 310.15 \text{ K}$$
+
+3.  **Perform the calculation:**
+    Substitute the values into the formula:
+    $$\lambda_{max} = \frac{2.898 \times 10^{-3}}{310.15}$$
+    $$\lambda_{max} \approx 9.344 \times 10^{-6} \text{ m}$$
+
+4.  **Final Answer:**
+    To express this in more common units, we can convert to micrometers ($\mu m$):
+    $$9.344 \times 10^{-6} \text{ m} = 9.34 \text{ }\mu m$$
+
+**Answer:** The peak wavelength of emitted radiation from the person is approximately $9.34 \times 10^{-6} \text{ m}$ (or $9.34 \text{ }\mu m$).
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### (a) Inconsistency with classical wave theory
+Classical wave theory predicted that energy depends on intensity, not frequency. It failed because:
+1. **Threshold Frequency:** Classical theory predicted that any frequency of light would eventually eject electrons if the intensity was high enough. Instead, we observe a threshold frequency below which no emission occurs.
+2. **Instantaneous Emission:** Classical theory predicted a time lag for energy accumulation. We observe emission to be instantaneous.
+3. **Kinetic Energy:** Classical theory predicted $K_{max}$ would increase with intensity. Instead, $K_{max}$ is independent of intensity and depends solely on frequency.
+
+#### (b) Graph Analysis
+(i) Looking at the graph, the line for **zinc** crosses the x-axis at $1.0 \times 10^{15} \text{ Hz}$. Thus, the threshold frequency is $1.0 \times 10^{15} \text{ Hz}$.
+(ii) The gradient of the lines represents Planck’s constant ($h$). Since $h$ is a universal constant, the gradient is identical for all metals.
+
+#### (c) Calculations
+Given: $f_0 = 5.66 \times 10^{14} \text{ Hz}$, $f = 6.33 \times 10^{14} \text{ Hz}$, $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$, $m_e = 9.11 \times 10^{-31} \text{ kg}$.
+
+**(i) Energy of incident photons:**
+$$E = hf = (6.626 \times 10^{-34}) \times (6.33 \times 10^{14}) \approx 4.19 \times 10^{-19} \text{ J}$$
+
+**(ii) Work function ($\Phi$):**
+$$\Phi = hf_0 = (6.626 \times 10^{-34}) \times (5.66 \times 10^{14}) \approx 3.75 \times 10^{-19} \text{ J}$$
+
+**(iii) Speed of most energetic photoelectrons:**
+Using Einstein’s photoelectric equation: $K_{max} = E - \Phi$
+$$K_{max} = 4.19 \times 10^{-19} - 3.75 \times 10^{-19} = 4.4 \times 10^{-20} \text{ J}$$
+Since $K_{max} = \frac{1}{2}mv^2$:
+$$v = \sqrt{\frac{2K_{max}}{m}} = \sqrt{\frac{2 \times 4.4 \times 10^{-20}}{9.11 \times 10^{-31}}} \approx 3.1 \times 10^5 \text{ m/s}$$
+
+---
+
+### How to solve it
+1. **Conceptual Understanding:** Memorize the three key failures of classical wave theory regarding the photoelectric effect.
+2. **Graph interpretation:** Identify the x-intercept as the threshold frequency $f_0$. Recognize that the slope of $E_k$ vs $f$ is always Planck's constant ($h$).
+3. **Calculations:** Use the formula $E = hf$ to find photon energy and work function. Apply the conservation of energy principle ($E_{photon} = \Phi + K_{max}$) to find the kinetic energy, then solve for velocity using the kinetic energy formula.
+
+###QUESTION_TYPE
+Calculation question

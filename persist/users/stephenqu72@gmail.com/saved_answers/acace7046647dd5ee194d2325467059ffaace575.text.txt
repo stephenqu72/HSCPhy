@@ -1,0 +1,12 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To determine when we must use the equations of special relativity, we must look at the speed of the objects involved. Special relativity becomes significant when objects move at "relativistic speeds," which are speeds that are a significant fraction of the speed of light ($c$, where $c \approx 3 \times 10^8 \text{ m/s}$).
+
+1.  **Rocket Launches:** Rockets move at speeds of approximately $10^4 \text{ m/s}$ (escape velocity). When compared to the speed of light ($3 \times 10^8 \text{ m/s}$), this is roughly $0.003\%$ of $c$. At these non-relativistic speeds, the Lorentz factor ($\gamma$) is effectively $1$, meaning Newtonian physics provides an extremely accurate approximation.
+2.  **Slingshot Manoeuvres:** These are gravitational assists used to change the velocity and direction of spacecraft. While these manoeuvres increase the speed of the craft, they still operate at speeds far below relativistic thresholds.
+3.  **Conclusion:** Because neither event involves objects moving at speeds where the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ differs significantly from $1$, the effects of time dilation and length contraction are negligible. Therefore, calculations for distance and time for both rocket launches and slingshot manoeuvres are handled using classical (Newtonian) mechanics rather than special relativity.
+
+###QUESTION_TYPE
+Multiple choice

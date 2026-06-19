@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+All objects at a temperature above absolute zero emit electromagnetic radiation, known as black-body radiation. As the temperature of the tungsten increases, two key changes occur according to Wien’s Displacement Law and the Stefan-Boltzmann Law:
+1. **Wien’s Law:** The peak wavelength of the emitted radiation shifts towards shorter wavelengths (higher frequencies) as temperature increases. Initially, the peak is in the infrared; as it heats to $700^\circ\text{C}$, the peak moves towards the red end of the visible spectrum. At $2700^\circ\text{C}$, the peak shifts towards the blue/violet end, causing the object to appear white (a mix of all visible colours).
+2. **Stefan-Boltzmann Law:** The total power emitted (intensity) increases significantly with temperature ($P \propto T^4$). This explains why the object becomes "bright" as it gets hotter.
+
+**How to solve:**
+To secure full marks, you must link the observations to the physics principles of black-body radiation. You need to explicitly mention that higher temperatures result in a shorter peak wavelength (Wien's Law) and a higher total power output (Stefan-Boltzmann Law).
+
+---
+
+#### Part (b)
+**Answer:**
+You should draw two curves on the same set of axes:
+*   **The $3400^\circ\text{C}$ curve:** This curve must be **higher** than the $2700^\circ\text{C}$ curve at all points and have its **peak shifted further to the left** (shorter wavelength).
+*   **The $2700^\circ\text{C}$ curve:** This curve will be lower than the $3400^\circ\text{C}$ curve and have its peak at a longer wavelength.
+
+**Key features for the sketch:**
+1. Both curves should have the classic "black-body" shape: starting from the origin $(0,0)$, rising to a single peak, and trailing off gradually towards longer wavelengths.
+2. Label both curves clearly (e.g., "$T = 2700^\circ\text{C}$" and "$T = 3400^\circ\text{C}$").
+3. Ensure the peak of the $3400^\circ\text{C}$ curve is to the left of the $2700^\circ\text{C}$ peak, and the total area under the $3400^\circ\text{C}$ curve is significantly larger (representing higher total intensity/power).
+
+**How to solve:**
+This is a standard black-body radiation curve question. Remember that as temperature increases, the area under the curve increases (intensity rises) and the peak wavelength $\lambda_{\text{max}}$ decreases according to $\lambda_{\text{max}}T = \text{constant}$.
+
+###QUESTION_TYPE
+Data analysis questions

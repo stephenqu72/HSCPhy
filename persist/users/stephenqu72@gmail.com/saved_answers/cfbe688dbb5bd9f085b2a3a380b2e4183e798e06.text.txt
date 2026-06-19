@@ -1,0 +1,27 @@
+To determine the correct conclusion, we apply **Wien’s Displacement Law**, which states that the peak wavelength ($\lambda_{max}$) of blackbody radiation is inversely proportional to the absolute temperature ($T$) of the object:
+
+$$\lambda_{max} T = b$$
+
+Where $b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$ (or $2.898 \times 10^6 \text{ nm}\cdot\text{K}$).
+
+### Step-by-step Analysis:
+
+1.  **Identify peak wavelengths from the graph:**
+    *   **Star W:** The peak is at approximately $200 \text{ nm}$.
+    *   **Star Z:** The peak is at approximately $600 \text{ nm}$.
+
+2.  **Calculate temperatures using Wien’s Law ($T = \frac{2.898 \times 10^6}{\lambda_{max}}$):**
+    *   **For Star W:** $T_W = \frac{2.898 \times 10^6}{200} \approx 14,490 \text{ K} \approx 15,000 \text{ K}$.
+    *   **For Star Z:** $T_Z = \frac{2.898 \times 10^6}{600} \approx 4,830 \text{ K} \approx 5,000 \text{ K}$.
+
+3.  **Evaluate the Options:**
+    *   **A:** Incorrect. We cannot determine distance from the shape of an intensity spectrum; only flux (apparent brightness) and luminosity are involved in distance calculations.
+    *   **B:** Incorrect. Star Y’s peak wavelength is further to the right (larger) than Star X's. A larger $\lambda_{max}$ implies a lower temperature. Therefore, Star X is hotter than Star Y.
+    *   **C:** Incorrect. While Star X is hotter than Star Y, the calculated values for Star X and Star Y do not align with the provided estimates based on the peak shifts.
+    *   **D:** **Correct.** Our calculations for Star W ($\approx 15,000 \text{ K}$) and Star Z ($\approx 5,000 \text{ K}$) align perfectly with the values provided in this option.
+
+### Conclusion:
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

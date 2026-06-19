@@ -1,0 +1,32 @@
+To solve this problem, we apply the concept of **time dilation** from Einstein's theory of Special Relativity.
+
+### Answer
+The time interval in the quasar's frame of reference is approximately **14.18 hours**.
+
+---
+
+### Step-by-Step Explanation
+
+**1. Identify the given variables:**
+*   Observed time interval on Earth ($\Delta t$): $20\text{ hours}$
+*   Lorentz factor ($\gamma$): $1.41$
+*   We need to find the proper time interval ($\Delta t_0$), which is the time measured in the frame of reference where the event is stationary (the quasar's frame).
+
+**2. Recall the Time Dilation Formula:**
+The relationship between the observed time ($\Delta t$) and the proper time ($\Delta t_0$) is:
+$$\Delta t = \gamma \Delta t_0$$
+
+**3. Rearrange the formula to solve for $\Delta t_0$:**
+$$\Delta t_0 = \frac{\Delta t}{\gamma}$$
+
+**4. Perform the calculation:**
+$$\Delta t_0 = \frac{20}{1.41}$$
+$$\Delta t_0 \approx 14.18439...$$
+
+Rounding to two decimal places, we get:
+$$\Delta t_0 \approx 14.18\text{ hours}$$
+
+**Teacher's Tip:** Always ensure you identify which time is the "proper time" ($\Delta t_0$) and which is the "dilated time" ($\Delta t$). The proper time is always the shorter interval when observed from a frame moving relative to the clock. Since the Earth observes the quasar moving at a relativistic speed, the 20 hours observed on Earth is the dilated time, meaning the actual time elapsed in the quasar's frame must be smaller.
+
+###QUESTION_TYPE
+Calculation question

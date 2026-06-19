@@ -1,0 +1,31 @@
+To find the peak wavelength of emitted radiation from a person, we use **Wien’s Displacement Law**. 
+
+### Answer
+The peak wavelength is approximately **$9.35 \times 10^{-6} \text{ m}$** (or $9.35 \text{ } \mu\text{m}$).
+
+### Explanation
+To solve this, follow these steps:
+
+**1. Convert temperature to Kelvin:**
+Physics laws involving blackbody radiation, such as Wien’s Displacement Law, require temperature to be in absolute units (Kelvin).
+$$T = 37^\circ\text{C} + 273.15 = 310.15 \text{ K}$$
+
+**2. Apply Wien’s Displacement Law:**
+The formula is given by:
+$$\lambda_{\text{max}} = \frac{b}{T}$$
+Where:
+- $\lambda_{\text{max}}$ is the peak wavelength in meters (m).
+- $b$ is Wien's displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+- $T$ is the absolute temperature in Kelvin (K).
+
+**3. Calculate:**
+$$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{310.15 \text{ K}}$$
+$$\lambda_{\text{max}} \approx 9.3438... \times 10^{-6} \text{ m}$$
+
+Rounding to appropriate significant figures based on the input, we get:
+$$\lambda_{\text{max}} \approx 9.35 \times 10^{-6} \text{ m}$$
+
+This result places the radiation in the **far-infrared** region of the electromagnetic spectrum, which is why specialized infrared (thermal) cameras are required to "see" a person at night.
+
+###QUESTION_TYPE
+Calculation question

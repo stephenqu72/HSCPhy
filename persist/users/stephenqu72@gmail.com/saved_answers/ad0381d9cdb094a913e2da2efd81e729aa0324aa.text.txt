@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Aspect:** The existence of a threshold frequency below which no photoelectrons are emitted, regardless of light intensity.
+**Explanation:** The photon model states that light consists of discrete energy packets called photons, where energy $E = hf$. A single photon must provide enough energy to overcome the work function ($\Phi$) of the metal to eject an electron. If the frequency $f$ is below the threshold frequency ($f_0$), the photon energy $hf$ is less than $\Phi$, meaning no single photon can eject an electron.
+
+#### Part (b)
+The relationship is given by the Einstein photoelectric equation: $E_{max} = hf - \Phi$. This is in the form $y = mx + c$, where the gradient is $h$ and the y-intercept is $-\Phi$.
+
+**(i) Threshold Frequency:**
+The threshold frequency is the x-intercept of the graph where $E_{max} = 0$. By extending the line from the graph, it crosses the x-axis at $f = 6 \times 10^{14} \text{ Hz}$.
+**Answer:** $6.0 \times 10^{14} \text{ Hz}$
+
+**(ii) Planck Constant ($h$):**
+The gradient of the line is $h = \frac{\Delta E_{max}}{\Delta f}$.
+Using points $(6 \times 10^{14}, 0)$ and $(14 \times 10^{14}, 4 \text{ eV})$:
+$$h = \frac{4 \text{ eV} - 0 \text{ eV}}{(14 - 6) \times 10^{14} \text{ Hz}} = \frac{4 \times 1.6 \times 10^{-19} \text{ J}}{8 \times 10^{14} \text{ Hz}} = 8 \times 10^{-34} \text{ J s}$$
+*(Note: Using electron-volts directly, $h = \frac{4 \text{ eV}}{8 \times 10^{14} \text{ Hz}} = 5 \times 10^{-15} \text{ eV s}$)*.
+
+**(iii) Work Function ($\Phi$):**
+Using $E_{max} = hf - \Phi$, at the threshold $0 = hf_0 - \Phi$, so $\Phi = hf_0$.
+Using $f_0 = 6 \times 10^{14} \text{ Hz}$ and $h \approx 4.14 \times 10^{-15} \text{ eV s}$ (the standard value):
+$$\Phi = (4.14 \times 10^{-15} \text{ eV s}) \times (6 \times 10^{14} \text{ Hz}) \approx 2.48 \text{ eV}$$
+*(Or simply observing the intercept if the line were extrapolated to the y-axis, but $hf_0$ is more precise).*
+
+#### Part (c)
+To draw the line for a surface with $f_0 = 8 \times 10^{14} \text{ Hz}$:
+1. Start the line on the x-axis at $8 \times 10^{14} \text{ Hz}$.
+2. Ensure the gradient remains the same as the previous line ($h$ is constant). The line should be parallel to the existing line.
+
+### QUESTION_TYPE
+Data analysis questions

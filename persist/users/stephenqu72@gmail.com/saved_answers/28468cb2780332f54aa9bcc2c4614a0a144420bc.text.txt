@@ -1,0 +1,39 @@
+To solve these problems, we use Einstein's Special Theory of Relativity, specifically the phenomenon of **length contraction**.
+
+### Part a) Calculation
+**Given:**
+*   Proper length ($L_0$) = $10\text{ m}$ (the length measured by an observer moving with the train).
+*   Velocity ($v$) = $0.8c$.
+
+**Formula:**
+The length contraction formula is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+**Step-by-step calculation:**
+1. Substitute the known values:
+   $$L = 10 \sqrt{1 - \frac{(0.8c)^2}{c^2}}$$
+2. Simplify the term inside the square root:
+   $$L = 10 \sqrt{1 - 0.64}$$
+   $$L = 10 \sqrt{0.36}$$
+3. Calculate the result:
+   $$L = 10 \times 0.6 = 6\text{ m}$$
+
+**Answer:** The length of the train carriage in the station's frame of reference is $6\text{ m}$.
+
+***
+
+### Part b) Experimental Evidence
+To answer this, focus on the **muon decay experiment**. 
+
+**The Concept:**
+Muons are subatomic particles created in the upper atmosphere. They have a very short half-life, so classically, they should decay long before reaching the Earth's surface. However, they are detected in large numbers at ground level.
+
+**Diagram Description:**
+1.  **Reference frame of the Earth:** Draw an atmosphere layer with a height $H$. An observer on Earth sees the muon moving at near $c$. Because of time dilation, the muon's "clock" slows down, allowing it to cover the distance $H$ before decaying.
+2.  **Reference frame of the Muon:** Draw the muon as stationary. From the muon's perspective, the Earth (and the atmosphere) is rushing towards it at near $c$. Due to **length contraction**, the atmosphere is squashed to a much smaller height $H' < H$. Because the distance is shorter, the muon can travel through the atmosphere and reach the surface before it decays.
+
+**Explanation:**
+This experimental evidence supports Einstein because both perspectives (time dilation in the Earth frame and length contraction in the muon frame) perfectly reconcile the observation that muons reach the ground. If length contraction did not exist, the muon would not have enough time to cover the distance in its own frame of reference.
+
+###QUESTION_TYPE
+Calculation question

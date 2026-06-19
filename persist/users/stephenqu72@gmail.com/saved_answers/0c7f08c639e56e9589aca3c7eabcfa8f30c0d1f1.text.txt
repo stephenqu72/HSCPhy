@@ -1,0 +1,26 @@
+To solve this problem, we must apply Einstein’s photoelectric equation, which describes the relationship between the energy of an incident photon, the work function of a metal, and the maximum kinetic energy of the emitted photoelectrons:
+
+$$E_k = hf - \Phi$$
+
+Rearranging this to the form of a linear equation $y = mx + c$:
+- $y$ is the kinetic energy ($E_k$)
+- $x$ is the frequency ($f$)
+- $m$ is Planck's constant ($h$)
+- $c$ is the negative work function ($-\Phi$)
+
+### Analysis of the Graph:
+1.  **$Z$ (Threshold frequency $f_0$):** This is the x-intercept where the line crosses the frequency axis. Below this frequency, no photoelectrons are emitted because the photon energy is insufficient to overcome the work function.
+2.  **$Y$ (Work function $\Phi$):** This is the absolute value of the y-intercept. In the equation $E_k = hf - \Phi$, the y-intercept is $-\Phi$. Therefore, the magnitude of this segment represents the energy required to remove an electron from the metal surface.
+3.  **$W$ (Energy of incident photon $hf$):** At any given point on the line, the total energy of the incident photon is the sum of the work function and the kinetic energy. The graph shows $W$ as the total vertical distance from the x-axis to the line, which represents the total photon energy $E = hf$.
+4.  **$X$ (Kinetic energy $E_k$):** This is the energy remaining after the work function has been "paid." It is the vertical distance from the horizontal axis (where the photon energy equals the work function) up to the line.
+
+Comparing these definitions with the provided options:
+- $W$ = Energy of incident photon
+- $X$ = Kinetic energy of emitted photoelectron
+- $Y$ = Work function of emitter
+- $Z$ = Threshold frequency
+
+This corresponds to **Choice D**.
+
+###QUESTION_TYPE
+Multiple choice

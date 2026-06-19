@@ -1,0 +1,22 @@
+### Answer and Explanation
+
+To answer this question, we must compare the experimental evidence provided in the graphs against the predictions of the classical **wave model of light**.
+
+#### Analysis of the Graphs:
+1.  **Top Graph (Constant Intensity, Varying Frequency):** The graph shows that as the frequency of light increases (from frequency 1 to 3), the **stopping potential** (the reverse potential required to reduce the photocurrent to zero) increases.
+2.  **Bottom Graph (Constant Frequency, Varying Intensity):** This graph shows that as intensity increases, the maximum photocurrent increases, but the **stopping potential remains identical** for all three intensities.
+
+#### Why this is inconsistent with the Wave Model:
+According to the classical wave model, light is a continuous wave where the energy transferred to an electron depends solely on the **amplitude (intensity)** of the wave, not its frequency. The classical model fails in the following ways:
+
+*   **Prediction vs. Reality (Intensity):** The wave model predicts that higher intensity light delivers more energy to electrons per second. Therefore, it incorrectly predicts that increasing intensity should increase the kinetic energy (and thus the stopping potential) of the emitted photoelectrons. The bottom graph proves the stopping potential is independent of intensity, contradicting this prediction.
+*   **Prediction vs. Reality (Frequency):** The wave model predicts that any frequency of light should eventually eject electrons, provided the intensity is high enough, as the electron would eventually accumulate enough energy. It also predicts that energy should be independent of frequency. The top graph shows that increasing frequency increases the kinetic energy ($E_k = qV_{stop}$), proving that the energy of emitted electrons depends on frequency, not intensity.
+
+#### How to structure your 6-mark answer:
+*   **Identify the key relationship:** State that the maximum kinetic energy of photoelectrons is proportional to the stopping potential ($E_k = eV_{stop}$).
+*   **Address Intensity:** Use the bottom graph to state that increasing intensity increases the number of photoelectrons (current) but has no effect on their maximum kinetic energy (stopping potential), which contradicts the wave model's claim that higher intensity implies more energy per electron.
+*   **Address Frequency:** Use the top graph to state that increasing frequency increases the stopping potential. This contradicts the wave model's claim that energy is solely a function of intensity.
+*   **Conclusion:** Conclude that these findings support the **particle model (photon model)**, where individual photons carry energy $E = hf$, independent of intensity.
+
+###QUESTION_TYPE
+Data analysis questions

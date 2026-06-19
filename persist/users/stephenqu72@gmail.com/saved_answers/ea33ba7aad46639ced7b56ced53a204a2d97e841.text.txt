@@ -1,0 +1,29 @@
+As an HSC Physics teacher, here is the breakdown of how to solve these problems.
+
+### Part (a)
+
+**How to solve:**
+1.  **Labeling:** The photoelectric equation is $E_k = hf - \Phi$.
+    *   **Threshold Frequency ($f_0$):** This is the x-intercept of the graph where the kinetic energy of the photoelectrons is zero ($E_k = 0$). Label the point where the line crosses the frequency axis as $f_0$.
+    *   **Work Function ($\Phi$):** This is the magnitude of the y-intercept. When $f = 0$, $E_k = -\Phi$. Label the absolute value of the intercept on the negative y-axis as the work function $\Phi$.
+2.  **Planck’s Constant:** Rearrange the Einstein photoelectric equation $E_k = hf - \Phi$ into the form $y = mx + c$. Here, $y = E_k$, $x = f$, and $c = -\Phi$. The gradient ($m$) of the line is equal to Planck’s constant ($h$). By calculating the slope of the experimental line ($\frac{\Delta E_k}{\Delta f}$), you determine $h$.
+
+### Part (b)
+
+**How to solve:**
+We use the conservation of energy principle: $E_k = hf - \Phi$.
+1.  **Convert constants:** Use $h = 4.136 \times 10^{-15} \text{ eV s}$ (since the work function is in $\text{eV}$) or convert everything to Joules. Let's use $\text{eV}$.
+2.  **Calculate $E_k$:** 
+    $E_k = (4.136 \times 10^{-15} \text{ eV s} \times 2 \times 10^{15} \text{ Hz}) - 4.3 \text{ eV}$
+    $E_k = 8.272 \text{ eV} - 4.3 \text{ eV} = 3.972 \text{ eV}$
+3.  **Convert $E_k$ to Joules:** 
+    $E_k = 3.972 \times 1.602 \times 10^{-19} \text{ J} \approx 6.363 \times 10^{-19} \text{ J}$
+4.  **Find velocity ($v$):**
+    $E_k = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2E_k}{m}}$
+    Using $m_e = 9.11 \times 10^{-31} \text{ kg}$:
+    $v = \sqrt{\frac{2 \times 6.363 \times 10^{-19}}{9.11 \times 10^{-31}}} \approx \sqrt{1.397 \times 10^{12}} \approx 1.18 \times 10^6 \text{ m/s}$
+
+**Answer:** The velocity of the electron is approximately $1.18 \times 10^6 \text{ m/s}$.
+
+###QUESTION_TYPE
+Calculation question

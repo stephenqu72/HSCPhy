@@ -1,0 +1,39 @@
+To solve these problems, we use fundamental principles of mechanics, relativity, and electromagnetism.
+
+### a. Gravitational Potential Energy
+**Answer:** $2.76 \times 10^{-22}\text{ J}$
+
+**Explanation:** The formula for gravitational potential energy near Earth's surface is $U = mgh$.
+- Mass $m = 1.88 \times 10^{-28}\text{ kg}$
+- Gravity $g \approx 9.8\text{ ms}^{-2}$
+- Height $h = 15\text{ km} = 15,000\text{ m}$
+$$U = (1.88 \times 10^{-28}) \times 9.8 \times 15,000 = 2.7636 \times 10^{-22}\text{ J}$$
+
+### b. Work Done by Gravity
+**Answer:** $9.21 \times 10^{-23}\text{ J}$
+
+**Explanation:** Work done by gravity is equal to the change in potential energy, or $W = mg\Delta h$.
+- $\Delta h = 15,000\text{ m} - 10,000\text{ m} = 5,000\text{ m}$
+$$W = (1.88 \times 10^{-28}) \times 9.8 \times 5,000 = 9.212 \times 10^{-23}\text{ J}$$
+
+### c. Detection of Muons
+**Answer:** Due to **time dilation**, the muon's lifetime is dilated in the Earth's frame of reference.
+**Explanation:** From the muon's perspective, the distance between the atmosphere and Earth is **length-contracted**. Because the muon travels at a velocity close to the speed of light, the distance it must travel to reach the surface is significantly reduced, allowing it to reach the surface before it decays, despite its short mean life.
+
+### d. Path of the Muon
+**Answer:** The muon will be deflected downwards.
+
+**Explanation:**
+1. **Magnetic Force ($F_B$):** Using the Right-Hand Rule for a negative charge, $F_B = qvB$.
+   - $q = 1.602 \times 10^{-19}\text{ C}$, $v = 4.0 \times 10^5\text{ ms}^{-1}$, $B = 0.375 \times 10^{-3}\text{ T}$
+   - $F_B = (1.602 \times 10^{-19}) \times (4.0 \times 10^5) \times (0.375 \times 10^{-3}) = 2.403 \times 10^{-17}\text{ N}$
+   - Direction: The velocity is right, $B$ is into the page. The force on a positive charge would be up; since the muon is negative, $F_B$ is directed **downward**.
+2. **Electric Force ($F_E$):** $F_E = qE = q(V/d)$.
+   - $V = 45\text{ V}$, $d = 0.3\text{ m}$
+   - $E = 45 / 0.3 = 150\text{ V/m}$
+   - $F_E = (1.602 \times 10^{-19}) \times 150 = 2.403 \times 10^{-17}\text{ N}$
+   - Direction: The electric field points from the top plate to the bottom plate. A negative charge experiences force *opposite* to the field, so $F_E$ is directed **upward**.
+3. **Conclusion:** Since $F_B = F_E$ and they act in opposite directions, the forces cancel out. The muon travels in a **straight line** (or net force is zero).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,19 @@
+To answer this question, we must look at Einstein’s photoelectric equation, which is fundamental to the study of quantum physics in the HSC Physics syllabus:
+
+$$E_k(\text{max}) = hf - \Phi$$
+
+Where:
+*   $E_k(\text{max})$ is the maximum kinetic energy of the emitted photoelectrons.
+*   $h$ is Planck's constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ (phi) is the work function of the metal (the energy required to remove an electron from the surface).
+
+### Explanation:
+1.  **Frequency and Kinetic Energy:** The maximum kinetic energy of an individual photoelectron depends **only** on the frequency of the incident light ($f$) and the work function of the metal ($\Phi$). If the frequency of the light remains unchanged, the maximum kinetic energy of the individual electrons remains constant.
+2.  **Intensity and Photon Flux:** Increasing the "intensity" of the light means increasing the number of photons striking the metal surface per unit of time. Since each individual photon carries the same amount of energy ($E = hf$), each individual photon will still transfer the same amount of energy to an electron.
+3.  **Result:** Because there are more photons hitting the metal surface, more electrons will be ejected (increasing the photocurrent), but because the energy of each individual incident photon has not changed, the maximum kinetic energy of the emitted electrons remains exactly the same.
+
+Therefore, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

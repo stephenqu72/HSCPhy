@@ -1,0 +1,34 @@
+This question explores the principles of Special Relativity, specifically **time dilation**.
+
+### Part a) Calculate the lifetime of the muons as measured by a stationary observer on the ground.
+
+**Explanation:**
+When an object moves at a velocity $v$ relative to an observer, time in the object's frame of reference appears to pass more slowly to the stationary observer. This is known as time dilation. We use the Lorentz factor $\gamma$ to determine the dilated time $t_v$:
+
+$$t_v = \gamma t_0$$
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**Step-by-step calculation:**
+1. Identify the given values:
+   - Proper time (in the muon's frame): $t_0 = 2.2 \times 10^{-6} \text{ s}$
+   - Velocity: $v = 0.995c$
+2. Calculate the Lorentz factor $\gamma$:
+   $$\gamma = \frac{1}{\sqrt{1 - (0.995)^2}} = \frac{1}{\sqrt{1 - 0.990025}} = \frac{1}{\sqrt{0.009975}} \approx 10.0125$$
+3. Calculate the dilated time:
+   $$t_v = 10.0125 \times 2.2 \times 10^{-6} \text{ s} \approx 2.2 \times 10^{-5} \text{ s}$$
+
+**Answer:** The lifetime as measured by a stationary observer is approximately $2.2 \times 10^{-5} \text{ s}$ (or $22 \mu\text{s}$).
+
+---
+
+### Part b) Explain why many more muons reach the ground than would be predicted by classical physics.
+
+**Explanation:**
+According to classical (Newtonian) physics, the muons would only live for $2.2 \mu\text{s}$. In that time, traveling at $0.995c$, they could only cover a distance of roughly:
+$$d = vt = (0.995 \times 3 \times 10^8 \text{ m/s}) \times (2.2 \times 10^{-6} \text{ s}) \approx 657 \text{ m}$$
+Since the mountain is $2627 \text{ m}$ high, classical physics predicts that almost all muons should decay before reaching the ground.
+
+However, because the muons are moving at relativistic speeds, **time dilation** occurs. As calculated in part (a), their lifetime is extended by a factor of about 10. In the frame of the observer on the ground, the "moving" muon clock runs slowly, allowing the muon to survive long enough to travel the full distance to the ground. From the muon's perspective, this is explained by **length contraction**, where the distance of $2627 \text{ m}$ is contracted to a much shorter distance, allowing the muon to reach the ground within its $2.2 \mu\text{s}$ lifespan.
+
+###QUESTION_TYPE
+Calculation question

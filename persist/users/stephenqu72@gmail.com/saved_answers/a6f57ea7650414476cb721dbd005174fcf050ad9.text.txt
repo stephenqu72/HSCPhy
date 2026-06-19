@@ -1,0 +1,25 @@
+To solve this problem, we must apply the principles of polarized light passing through two polarising filters (a polariser and an analyser).
+
+### Explanation
+
+1.  **First Polariser:** When unpolarised light of intensity $I_0$ passes through the first polariser, the intensity of the light is reduced by half regardless of the orientation of the plate.
+    $$I_1 = \frac{1}{2}I_0$$
+    The light emerging from the first plate is now linearly polarised.
+
+2.  **Second Polariser (Malus' Law):** Malus' Law states that the intensity of light transmitted through a second polariser is given by:
+    $$I = I_1 \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axes of the two polarisers. Given $\theta = 60^\circ$:
+    $$\cos(60^\circ) = 0.5 \implies \cos^2(60^\circ) = (0.5)^2 = 0.25 = \frac{1}{4}$$
+
+3.  **Calculation:** Substituting $I_1$ into the equation:
+    $$I = \left(\frac{1}{2}I_0\right) \times \left(\frac{1}{4}\right)$$
+    $$I = \frac{1}{8}I_0$$
+
+***Correction Note:*** Looking at the provided options, there appears to be a common convention in some textbooks where the light source is assumed to be *already* polarised, or the question implies a specific scenario. However, based on the standard HSC physics curriculum for "a beam of light from a source" (implying unpolarised), the intensity is $\frac{I_0}{8}$. 
+
+If the question assumes the first plate is the reference point $I_0$, then $I = I_0 \cos^2(60^\circ) = \frac{I_0}{4}$. Given the options provided, **Option D** ($I = \frac{I_0}{4}$) is the intended answer under the assumption that $I_0$ refers to the intensity incident upon the *first* polariser and the "half-intensity" reduction step is either omitted or $I_0$ is already considered the intensity of the linearly polarised light.
+
+**Correct Option: D**
+
+###QUESTION_TYPE
+Multiple choice

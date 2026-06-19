@@ -1,0 +1,25 @@
+To solve this question, we must understand the classical wave theory of light versus the experimental observations of the photoelectric effect. 
+
+Classical wave theory predicted that the energy of emitted electrons should depend on the **intensity** (amplitude) of the light wave and that if you waited long enough, even low-frequency light should eventually eject electrons. 
+
+Experimental observations contradicted this:
+1. **The Threshold Frequency:** Wave theory failed to explain why light below a certain "threshold frequency" could never eject electrons, regardless of how intense it was (Option C).
+2. **Instantaneous Emission:** Electrons were emitted immediately, whereas wave theory suggested energy would need time to "build up" if the intensity was low.
+3. **Energy Dependence:** The kinetic energy of the electrons depended only on the **frequency** of the light, not the intensity (Option D).
+
+### Analysis of options:
+*   **(A)** describes thermionic emission, not the photoelectric effect.
+*   **(B)** is actually consistent with both wave theory and particle theory (more light hitting the surface means more photons/energy to eject more electrons).
+*   **(C)** and **(D)** are both key pieces of evidence that contradict wave theory. However, the question specifically asks for evidence *from the photoelectric effect*. While (C) is a crucial finding, **(D)** provides the comprehensive evidence that allowed Einstein to derive the photoelectric equation: 
+    $$E_k = hf - \Phi$$
+    This equation proves that energy depends on frequency ($f$) and is independent of intensity, which was the definitive "death knell" for the classical wave model of light regarding this phenomenon. In many HSC physics contexts, both (C) and (D) represent the failures of wave theory, but (D) is the most complete description of the specific *experimental evidence* (the linear relationship) that directly disproved the wave model's energy prediction.
+
+**Correct Answer: (D)** (Note: In some mark schemes, (C) is also accepted as a primary failure, but (D) describes the fundamental breakdown of the wave model's relationship between intensity and kinetic energy.)
+
+### How to solve:
+1.  **Recall the wave model prediction:** Classical physics predicted that higher intensity light would increase the kinetic energy of emitted electrons.
+2.  **Compare with experimental evidence:** Experiments showed that kinetic energy is strictly a function of frequency ($E_k \propto f$), rendering the wave model's intensity-based prediction incorrect.
+3.  **Select the best fit:** Option (D) explicitly states the relationship that contradicts the wave model's prediction that energy should be tied to intensity.
+
+###QUESTION_TYPE
+Multiple choice

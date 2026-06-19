@@ -1,0 +1,22 @@
+### Answer and Explanation
+
+**Part a. Assess the accuracy of this investigation.**
+
+To assess the accuracy, we compare the experimental results with the theoretical prediction of Malus's Law, which states that $I = I_0 \cos^2\theta$, where $I_0$ is the intensity (and thus current) after passing through the first polariser.
+
+1.  **Theoretical Check:** When the laser passes through an ideal polariser, the intensity is halved. If the initial intensity corresponds to $0.50\text{ mA}$, the intensity after the polariser ($I_0$) should be $0.25\text{ mA}$.
+2.  **Graph Analysis:** Looking at the graph, when $\cos^2\theta = 1$ (the maximum intensity for a given setting), the current is $0.25\text{ mA}$. This aligns perfectly with the expected intensity after the first polariser.
+3.  **Assessment:** The investigation is highly accurate. The data points lie perfectly on a straight line that passes through the origin ($I \propto \cos^2\theta$), confirming the linear relationship predicted by Malus's Law. Furthermore, the maximum value of $0.25\text{ mA}$ is exactly half of the initial raw laser intensity of $0.50\text{ mA}$, which is the expected result for unpolarised light passing through a single ideal polariser.
+
+**Part b. Explain why there was no current.**
+
+The issue here relates to the spectral sensitivity of the photodetector. Photodetectors (such as photodiodes) have a specific "spectral response" range. They are designed to convert photons into electrons only if the incident photon energy ($E = \frac{hc}{\lambda}$) exceeds the bandgap energy of the semiconductor material in the detector.
+
+1.  **Energy difference:** A red laser has a longer wavelength ($\approx 650\text{ nm}$) than a blue laser ($\approx 450\text{ nm}$). Consequently, individual photons from a red laser have significantly less energy than those from a blue laser.
+2.  **Threshold:** The photodetector used in the first part was likely optimised for blue light. The semiconductor material in the detector has a bandgap energy that is higher than the energy provided by the red laser photons. 
+3.  **Conclusion:** Because the red laser photons do not possess enough energy to excite electrons across the bandgap of the detector, no electron-hole pairs are created, and no photocurrent is generated.
+
+***
+
+### QUESTION_TYPE
+Data analysis questions

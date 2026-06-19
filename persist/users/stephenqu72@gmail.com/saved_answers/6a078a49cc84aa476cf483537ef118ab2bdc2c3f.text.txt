@@ -1,0 +1,31 @@
+To calculate the work function ($\Phi$) for a metal given its threshold frequency ($f_0$), we use the photoelectric equation:
+$$\Phi = hf_0$$
+where $h$ is Planck's constant.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Threshold frequency $f_0 = 1.0 \times 10^9 \text{ MHz}$.
+*   Convert MHz to Hz: $1 \text{ MHz} = 10^6 \text{ Hz}$.
+*   Therefore, $f_0 = 1.0 \times 10^9 \times 10^6 \text{ Hz} = 1.0 \times 10^{15} \text{ Hz}$.
+*   Planck's constant $h \approx 4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$.
+
+**2. Perform the calculation:**
+Using the value of $h$ in units of electronvolts-seconds ($\text{eV}\cdot\text{s}$), we get:
+$$\Phi = (4.136 \times 10^{-15} \text{ eV}\cdot\text{s}) \times (1.0 \times 10^{15} \text{ Hz})$$
+$$\Phi = 4.136 \text{ eV}$$
+
+**3. Analyze the result:**
+Rounding the result to two significant figures gives approximately $4.1 \text{ eV}$.
+Looking at the options provided:
+*   (A) $4.1 \text{ eV}$
+*   (B) $4.1 \text{ MeV}$
+*   (C) $3.9 \text{ eV}$
+*   (D) $3.9 \text{ MeV}$
+
+The unit is $\text{eV}$ (electronvolts), which is the standard unit for work function, not $\text{MeV}$ (mega-electronvolts), which would be far too large for a typical metal.
+
+**Answer:** (A)
+
+###QUESTION_TYPE
+Multiple choice

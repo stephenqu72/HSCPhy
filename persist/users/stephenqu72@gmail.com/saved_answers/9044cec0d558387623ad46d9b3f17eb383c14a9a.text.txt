@@ -1,0 +1,29 @@
+To solve for the momentum of an electron moving at relativistic speeds, we must use the relativistic momentum formula rather than the classical $p = mv$.
+
+### 1. Identify the given values
+*   Mass of an electron ($m$): $9.11 \times 10^{-31} \text{ kg}$
+*   Velocity ($v$): $0.98c$, where $c = 3.00 \times 10^8 \text{ m/s}$
+*   Velocity in standard units: $v = 0.98 \times 3.00 \times 10^8 = 2.94 \times 10^8 \text{ m/s}$
+
+### 2. The Formula
+The relativistic momentum is given by:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### 3. Step-by-Step Calculation
+First, calculate the Lorentz factor ($\gamma$):
+$$\gamma = \frac{1}{\sqrt{1 - (0.98)^2}}$$
+$$\gamma = \frac{1}{\sqrt{1 - 0.9604}} = \frac{1}{\sqrt{0.0396}}$$
+$$\gamma \approx \frac{1}{0.198997} \approx 5.025$$
+
+Now, calculate the momentum ($p$):
+$$p = \gamma \times m \times v$$
+$$p = 5.025 \times (9.11 \times 10^{-31} \text{ kg}) \times (2.94 \times 10^8 \text{ m/s})$$
+$$p \approx 5.025 \times 2.678 \times 10^{-22}$$
+$$p \approx 1.34 \times 10^{-21} \text{ kg m s}^{-1}$$
+
+Comparing this result to the given options, it aligns with option (C).
+
+**Answer:** (C) $1.3 \times 10^{-21} \text{ kg m s}^{-1}$
+
+###QUESTION_TYPE
+Multiple choice

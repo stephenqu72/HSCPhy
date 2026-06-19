@@ -1,0 +1,24 @@
+To solve this problem, we use Einstein's photoelectric equation:
+$$E_k = hf - \phi$$
+Where $E_k$ is the maximum kinetic energy, $f$ is the frequency, $h$ is Planck's constant, and $\phi$ is the work function. This equation is in the form $y = mx + c$.
+
+### Part (a)
+1.  **Plotting:** Plot frequency ($f \times 10^{14}\text{ Hz}$) on the x-axis and $E_k$ ($\text{eV}$) on the y-axis.
+2.  **Line of Best Fit:** Draw a straight line through your data points.
+3.  **Work Function ($\phi$):** The x-intercept represents the threshold frequency ($f_0$), where $E_k = 0$. From the graph, the line intersects the x-axis at approximately $5.56 \times 10^{14}\text{ Hz}$. 
+    *   $\phi = hf_0$. Using $h \approx 4.14 \times 10^{-15}\text{ eV s}$, $\phi \approx 2.30\text{ eV}$. (Alternatively, extrapolate the line to the y-intercept; the intercept is $-\phi \approx -2.3\text{ eV}$).
+4.  **Planck's Constant ($h$):** Calculate the gradient ($m$) of your line:
+    $$m = \frac{\Delta E_k}{\Delta f} = \frac{1.31 - 0.01}{(8.8 - 5.6) \times 10^{14}} \approx 4.06 \times 10^{-15}\text{ eV s}$$
+
+### Part (b)
+To determine if the photoelectric effect occurs, we check if the frequency of $420\text{ nm}$ light is greater than the threshold frequency $f_0$.
+1.  **Calculate frequency ($f$):**
+    $$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8\text{ m/s}}{420 \times 10^{-9}\text{ m}} \approx 7.14 \times 10^{14}\text{ Hz}$$
+2.  **Compare:** 
+    Since $7.14 \times 10^{14}\text{ Hz} > 5.56 \times 10^{14}\text{ Hz}$ (or since photon energy $E = hf \approx 2.95\text{ eV} > \phi \approx 2.30\text{ eV}$), the energy of the incident photons is sufficient to overcome the work function.
+3.  **Conclusion:** Yes, the photoelectric effect will occur.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

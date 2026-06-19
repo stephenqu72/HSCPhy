@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically **Einstein's Velocity Addition Formula** and **Length Contraction**.
+
+### Step 1: Find the relative velocity of C with respect to A
+Let $v_{BA} = 0.5c$ (velocity of B relative to A) and $v_{CB} = 0.5c$ (velocity of C relative to B). We need to find $v_{CA}$, the velocity of C relative to A. According to the relativistic velocity addition formula:
+
+$$v_{CA} = \frac{v_{CB} + v_{BA}}{1 + \frac{v_{CB} \cdot v_{BA}}{c^2}}$$
+
+Plugging in the values:
+
+$$v_{CA} = \frac{0.5c + 0.5c}{1 + (0.5)(0.5)} = \frac{1.0c}{1.25} = 0.8c$$
+
+So, observers on spaceship A measure spaceship C moving at $0.8c$.
+
+### Step 2: Calculate the length contraction
+Length contraction is given by the formula $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, where $L_0 = 100\text{ m}$ is the proper length (the length at rest) and $v = 0.8c$.
+
+$$L = 100 \sqrt{1 - (0.8)^2}$$
+$$L = 100 \sqrt{1 - 0.64}$$
+$$L = 100 \sqrt{0.36}$$
+$$L = 100 \times 0.6$$
+$$L = 60\text{ m}$$
+
+### Step 3: Evaluate the options
+The measured length of spaceship C as seen by an observer on spaceship A is $60\text{ m}$. Comparing this to the provided options:
+(A) greater than $100\text{ m}$
+(B) $100\text{ m}$
+(C) $87\text{ m}$
+(D) less than $87\text{ m}$
+
+Since $60\text{ m} < 87\text{ m}$, the correct choice is **(D)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

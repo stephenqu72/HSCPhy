@@ -1,0 +1,18 @@
+To analyse these results and explain how they support the quantum nature of light, we must refer to Einstein’s photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy of the emitted electrons, $h$ is Planck’s constant, $f$ is the frequency of incident light, and $\Phi$ (or $hf_0$) is the work function of the metal.
+
+### Analysis of the Results
+
+1.  **Graph A (Kinetic Energy vs. Frequency):** This graph shows that electron kinetic energy is directly proportional to frequency only after a threshold frequency ($f_0$) is reached. Below $f_0$, no emission occurs regardless of intensity. This proves that light energy is delivered in discrete "packets" or quanta ($E = hf$). If light were a wave, intensity would provide enough energy over time to eject electrons, which is not observed.
+2.  **Graph B (Kinetic Energy vs. Intensity):** The kinetic energy remains constant as intensity increases. This indicates that the energy of individual photoelectrons is determined solely by the frequency of the photons, not the number of photons hitting the surface.
+3.  **Graph C (Current vs. Frequency):** Once $f > f_0$, the current is independent of frequency. This shows that frequency only dictates the energy of individual electrons, not the rate of their emission.
+4.  **Graph D (Current vs. Intensity):** The current is directly proportional to light intensity. Increasing intensity increases the number of photons striking the cathode per second, which ejects a proportionally larger number of electrons per second, thereby increasing the photoelectric current.
+
+### Conclusion: Support for the Quantum Nature of Light
+These results refute the classical wave theory of light, which would predict that kinetic energy should depend on intensity. Instead, the experimental evidence supports the quantum model:
+*   **Discrete Energy:** Light acts as a stream of photons ($hf$), explaining why a threshold frequency is required to overcome the work function ($\Phi$).
+*   **One-to-One Interaction:** A single photon interacts with a single electron. Thus, intensity (number of photons) affects the number of electrons (current), while frequency (energy per photon) affects the energy of those electrons.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,32 @@
+To find the peak wavelength of a star's radiation, we use **Wien's Displacement Law**. This law states that the peak wavelength ($\lambda_{max}$) of blackbody radiation is inversely proportional to its absolute temperature ($T$):
+
+$$\lambda_{max} = \frac{b}{T}$$
+
+Where:
+*   $b$ is Wien's displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+*   $T$ is the surface temperature of the star in Kelvin.
+
+### Step-by-Step Calculation:
+
+1.  **Identify the given values:**
+    *   $T = 3500 \text{ K}$
+    *   $b = 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$
+
+2.  **Apply the formula:**
+    $$\lambda_{max} = \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{3500 \text{ K}}$$
+
+3.  **Perform the division:**
+    $$\lambda_{max} \approx 8.28 \times 10^{-7} \text{ meters}$$
+
+4.  **Convert meters to nanometers (nm):**
+    Since $1 \text{ m} = 10^9 \text{ nm}$:
+    $$\lambda_{max} = 8.28 \times 10^{-7} \times 10^9 \text{ nm}$$
+    $$\lambda_{max} = 828 \text{ nm}$$
+
+Comparing our result to the given options, the correct answer is **D**.
+
+### Explanation for Students:
+In the HSC Physics syllabus, Wien's Law is a fundamental concept used to determine the temperature of stars based on their color or spectral peak. Always ensure your units are consistent—if you use $b$ in meters, your final answer will be in meters, and you must convert to nanometers (by multiplying by $10^9$) to match the format of the options.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+### Answer
+
+**(a)** The intensity of the light varies according to Malus's Law, given by $I = I_{max} \cos^2(\theta)$. As the polarising filter rotates, the angle $\theta$ between the transmission axis of the filter and the plane of polarisation of the incident light changes continuously over time. When the transmission axis is aligned with the plane of polarisation ($\theta = 0^\circ, 180^\circ, \dots$), the intensity is at its maximum ($100 \text{ Lumen}$). When the transmission axis is perpendicular to the plane of polarisation ($\theta = 90^\circ, 270^\circ, \dots$), the intensity drops to zero (extinction). The periodic nature of the graph reflects the filter rotating through these relative orientations.
+
+**(b)** If the light source is replaced with unpolarised light of equal intensity, the intensity of light passing through the rotating filter will remain constant at $50 \text{ Lumen}$ regardless of the filter's rotation. On the graph, you would draw a horizontal straight line at the $y = 50$ level across the entire duration.
+
+---
+
+### How to solve this
+
+1.  **Analyze the Physics (Part a):**
+    *   Recall **Malus's Law**: $I = I_{max} \cos^2(\theta)$.
+    *   Identify that the incident light is "plane-polarised."
+    *   Connect the graph's minima (intensity = 0) to the condition where the filter is at a $90^\circ$ angle to the light's plane of polarisation.
+    *   Connect the graph's maxima to the condition where the filter is parallel ($0^\circ$) to the light's plane of polarisation.
+    *   Explain that the rotation causes $\theta$ to change at a constant rate, resulting in the sinusoidal-like variation of $\cos^2(\theta)$.
+
+2.  **Analyze the Physics (Part b):**
+    *   Recall how unpolarised light interacts with a polarising filter.
+    *   When unpolarised light (which contains oscillations in all directions) passes through an ideal polariser, the intensity is halved: $I = \frac{1}{2}I_0$.
+    *   Since unpolarised light has no specific plane of polarisation, rotating the filter does not change the amount of light that passes through. Therefore, the intensity remains a constant value equal to half of the original source's intensity.
+    *   Because the original peak intensity was $100 \text{ Lumen}$, the constant intensity for unpolarised light will be $100 \times 0.5 = 50 \text{ Lumen}$.
+
+###QUESTION_TYPE
+Data analysis questions

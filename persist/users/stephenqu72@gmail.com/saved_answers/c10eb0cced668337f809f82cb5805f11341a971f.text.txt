@@ -1,0 +1,21 @@
+To solve this problem, we must apply the principles of the photoelectric effect.
+
+### Answer
+The correct graph is **A**.
+
+### Explanation
+To determine the correct relationship, we look at the two key conditions provided in the question:
+
+1.  **Threshold Frequency ($f_0$):** According to the photoelectric effect, electrons are only emitted from a metallic surface if the frequency of incident light ($f$) is greater than or equal to the threshold frequency ($f_0$). If $f < f_0$, the photon energy ($E = hf$) is insufficient to overcome the work function of the metal, and no current $I$ is produced. Thus, for $f < f_0$, the current $I = 0$. This eliminates options C and D.
+2.  **Constant Number of Photons:** The photoelectric current $I$ is directly proportional to the number of photoelectrons emitted per second. Since each individual photon (with $f \ge f_0$) ejects exactly one electron, the photoelectric current is directly proportional to the number of incident photons per second. Because the problem states that the "number of photons incident per second is constant," the number of emitted electrons per second will also be constant for all frequencies $f \ge f_0$.
+
+**Analysis of the graphs:**
+*   **Graph A** shows that for $f < f_0$, the current is $0$, and for $f \ge f_0$, the current remains constant at a specific value. This perfectly matches the physical requirements.
+*   **Graph B** incorrectly suggests that the current increases as the frequency increases. While increasing frequency increases the *kinetic energy* of the emitted electrons, it does not increase the *number* of electrons (and thus the current) if the photon arrival rate is constant.
+*   **Graph C** suggests emission occurs only below the threshold, which is the opposite of the physics of the photoelectric effect.
+*   **Graph D** suggests current is generated at all frequencies, ignoring the threshold frequency entirely.
+
+Therefore, Graph A is the only physically correct representation.
+
+###QUESTION_TYPE
+Multiple choice

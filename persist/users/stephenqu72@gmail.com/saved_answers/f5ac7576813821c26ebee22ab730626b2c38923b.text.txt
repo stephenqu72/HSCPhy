@@ -1,0 +1,20 @@
+To solve this problem, we apply the concept of **length contraction** from Einstein’s Special Theory of Relativity.
+
+### Answer
+The correct option is **B. $X$**.
+
+### Explanation
+1.  **The Physics Principle:** According to the theory of special relativity, an object moving at a relativistic speed ($v$) relative to an observer will appear shorter in the direction of motion compared to its proper length ($L_0$), which is the length measured in its own rest frame.
+2.  **The Formula:** The relationship between the contracted length ($L$) and the proper length ($L_0$) is given by the formula:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    where $c$ is the speed of light.
+3.  **Analyzing the Graph:**
+    *   When $v = 0$, $L = L_0 \sqrt{1 - 0} = L_0$. All curves on the graph correctly start at $L_0$.
+    *   As $v$ increases, the term $\sqrt{1 - v^2/c^2}$ becomes smaller, meaning $L$ must decrease as $v$ increases. This eliminates curve $W$, which shows length increasing.
+    *   To determine which curve ($X$, $Y$, or $Z$) is correct, look at the rate of change. The term $\sqrt{1 - v^2/c^2}$ has a relatively flat slope near $v=0$ (the derivative is $0$ at $v=0$) and curves more steeply downwards as $v$ approaches $c$. 
+    *   Mathematically, as $v$ approaches $c$, the length $L$ approaches $0$. Curve $X$ represents a non-linear decay that is consistent with the Lorentz factor behavior, characteristic of the square root function in the length contraction formula. Curves $Y$ and $Z$ represent steeper, more linear-like decreases that do not match the specific curvature of the relativistic length contraction equation. 
+
+Therefore, curve **$X$** accurately depicts the relationship described by the length contraction formula.
+
+###QUESTION_TYPE
+Multiple choice

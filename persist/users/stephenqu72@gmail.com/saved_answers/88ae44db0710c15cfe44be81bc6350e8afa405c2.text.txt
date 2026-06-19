@@ -1,0 +1,26 @@
+To solve this problem, we use Einstein's photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency of incident radiation, and $\Phi$ is the work function of the metal. 
+
+The work function $\Phi$ is defined as $hf_0$, where $f_0$ is the threshold frequency. The problem states the threshold frequency is $f$, so $\Phi = hf$.
+
+**Step 1: Express the velocity $v$ in terms of frequency $2f$.**
+Using the equation $K_{max} = \frac{1}{2}mv^2$:
+$$\frac{1}{2}mv^2 = h(2f) - hf$$
+$$\frac{1}{2}mv^2 = hf \quad \text{--- (Equation 1)}$$
+
+**Step 2: Express the velocity $v'$ in terms of frequency $4f$.**
+Let $v'$ be the new maximum velocity when the incident frequency is $4f$:
+$$\frac{1}{2}m(v')^2 = h(4f) - hf$$
+$$\frac{1}{2}m(v')^2 = 3hf \quad \text{--- (Equation 2)}$$
+
+**Step 3: Solve for $v'$.**
+We can substitute the value of $hf$ from Equation 1 into Equation 2:
+$$\frac{1}{2}m(v')^2 = 3 \left( \frac{1}{2}mv^2 \right)$$
+$$(v')^2 = 3v^2$$
+$$v' = \sqrt{3}v$$
+
+Comparing this result to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

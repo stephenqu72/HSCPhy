@@ -1,0 +1,35 @@
+To find the work function of the cathode, we use Einstein’s photoelectric equation:
+$$E_k(\text{max}) = hf - \Phi$$
+
+### Step-by-Step Solution:
+
+**1. Identify given values:**
+*   Frequency of light, $f = 6.6 \times 10^{14} \text{ Hz}$
+*   Stopping voltage, $V_s = 1.60 \text{ V}$
+*   Planck’s constant, $h = 4.136 \times 10^{-15} \text{ eV s}$ (using this constant directly allows us to work in eV)
+
+**2. Calculate the maximum kinetic energy:**
+The maximum kinetic energy in electron-volts is numerically equal to the stopping voltage in volts:
+$$E_k(\text{max}) = e \times V_s = 1.60 \text{ eV}$$
+
+**3. Calculate the energy of the incident photons ($E = hf$):**
+$$E = (4.136 \times 10^{-15} \text{ eV s}) \times (6.6 \times 10^{14} \text{ Hz})$$
+$$E \approx 2.73 \text{ eV}$$
+
+**4. Rearrange the photoelectric equation to solve for the work function ($\Phi$):**
+$$\Phi = hf - E_k(\text{max})$$
+$$\Phi = 2.73 \text{ eV} - 1.60 \text{ eV}$$
+$$\Phi = 1.13 \text{ eV}$$
+
+**Final Answer:**
+The work function of the cathode metal is **$1.13 \text{ eV}$**.
+
+***
+
+### Explanation:
+*   **Concepts:** The photoelectric effect describes how light hitting a surface can eject electrons. The energy of the incoming photon ($hf$) is used to overcome the binding energy of the metal (the work function, $\Phi$) and provide kinetic energy to the ejected electron ($E_k$).
+*   **Stopping Voltage:** The stopping voltage ($V_s$) is the precise amount of negative potential required to stop even the most energetic electrons. Therefore, $E_k(\text{max})$ is exactly equal to $eV_s$.
+*   **Constants:** Using $h$ in units of $\text{eV s}$ is a strategic shortcut in HSC Physics to avoid converting between Joules and electron-volts, which minimizes calculation errors.
+
+###QUESTION_TYPE
+Calculation question

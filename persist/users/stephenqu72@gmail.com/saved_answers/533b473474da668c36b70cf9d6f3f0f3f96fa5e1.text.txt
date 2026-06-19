@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of Special Relativity regarding **length contraction**.
+
+### 1. Identify the Physics Principles
+The formula for length contraction is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Where:
+*   $L_0$ is the proper length (the length of the object in its own rest frame).
+*   $L$ is the contracted length measured by an observer moving at velocity $v$.
+
+### 2. Find the Proper Length ($L_0$)
+First, we use the data provided for the first observation: $L = 13.2\text{ m}$ at $v = 0.75c$.
+$$13.2 = L_0 \sqrt{1 - (0.75)^2}$$
+$$13.2 = L_0 \sqrt{1 - 0.5625}$$
+$$13.2 = L_0 \sqrt{0.4375}$$
+$$L_0 = \frac{13.2}{0.6614} \approx 19.957\text{ m}$$
+
+### 3. Calculate the New Velocity
+Now we need to find the velocity $v$ when the measured length $L = 10.5\text{ m}$. Using the same $L_0$:
+$$10.5 = 19.957 \sqrt{1 - \frac{v^2}{c^2}}$$
+$$\frac{10.5}{19.957} = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$0.5261 = \sqrt{1 - \frac{v^2}{c^2}}$$
+Square both sides:
+$$0.2768 = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 1 - 0.2768 = 0.7232$$
+$$v = \sqrt{0.7232}c \approx 0.8504c$$
+
+Comparing this to the given options, the correct answer is **D**.
+
+### Explanation Summary
+1.  **Find Proper Length:** Use the contraction formula with the first set of values to determine the actual (rest) length of the ship.
+2.  **Rearrange:** Plug the rest length and the new measured length into the contraction formula to solve for the unknown velocity $v$.
+3.  **Calculate:** Square the ratio, rearrange to isolate $v^2/c^2$, and take the square root to find the result.
+
+###QUESTION_TYPE
+Multiple choice

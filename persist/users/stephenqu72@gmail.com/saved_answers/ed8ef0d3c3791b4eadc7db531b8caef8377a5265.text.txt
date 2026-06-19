@@ -1,0 +1,23 @@
+To answer this question, we must apply Einstein’s photoelectric equation:
+$$E_k(\text{max}) = hf - \Phi$$
+where $hf$ is the energy of the incident photon, $\Phi$ is the work function of the metal, and $E_k(\text{max})$ is the maximum kinetic energy of the emitted photoelectrons.
+
+### Calculations
+First, we calculate the energy of the incident photon ($E_p$):
+Given: $\lambda = 4.20 \times 10^{-7}\text{ m}$, $h = 6.626 \times 10^{-34}\text{ J s}$, and $c = 3.00 \times 10^8\text{ m/s}$.
+$$E_p = \frac{hc}{\lambda} = \frac{6.626 \times 10^{-34} \times 3.00 \times 10^8}{4.20 \times 10^{-7}} \approx 4.733 \times 10^{-19}\text{ J}$$
+
+Convert this energy to electron-volts (eV) using $1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$:
+$$E_p(\text{eV}) = \frac{4.733 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 2.95\text{ eV}$$
+
+Now, apply Einstein’s equation to find the theoretical $E_k(\text{max})$:
+$$E_k(\text{max}) = 2.95\text{ eV} - 2.20\text{ eV} = 0.75\text{ eV}$$
+This matches the measured value in observation 3.
+
+### Explanation of Observations
+1. **Electrons are emitted:** Emission occurs because the photon energy ($2.95\text{ eV}$) exceeds the work function of the rubidium ($2.20\text{ eV}$). Einstein proposed that light consists of discrete "quanta" (photons). A single photon interacts with a single electron; if the energy is sufficient to overcome the work function, emission occurs.
+2. **Intensity increase leads to more electrons:** Einstein explained that light intensity is proportional to the *number* of photons hitting the surface per unit time. Increasing intensity means more photons strike the surface, causing more photoelectrons to be ejected (provided $f > f_0$).
+3. **$E_k$ is independent of intensity:** Because energy transfer is a 1-to-1 process (one photon to one electron), the kinetic energy depends only on the frequency of the individual light quanta, not the number of photons (intensity). Increasing the intensity increases the current, but the maximum energy per electron remains constant.
+
+###QUESTION_TYPE
+Calculation question

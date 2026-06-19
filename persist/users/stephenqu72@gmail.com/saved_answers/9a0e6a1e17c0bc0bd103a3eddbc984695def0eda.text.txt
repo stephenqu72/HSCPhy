@@ -1,0 +1,53 @@
+Hello! As an HSC Physics teacher, I will guide you through these special relativity problems. Let's break them down systematically.
+
+### Part (a)
+**Answer:**
+*   **Postulate 1:** The laws of physics are the same in all inertial (non-accelerating) frames of reference.
+*   **Postulate 2:** The speed of light in a vacuum ($c$) is the same for all observers, regardless of the motion of the source or the observer.
+
+---
+
+### Part (b)(i)
+**Solution:**
+We use the time dilation formula: $t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$
+*   Proper time ($t_0$) = $6.0 \text{ years}$ (measured by the spacecraft observers).
+*   Velocity ($v$) = $0.80c$.
+
+$$t = \frac{6.0}{\sqrt{1 - (0.80)^2}} = \frac{6.0}{\sqrt{1 - 0.64}} = \frac{6.0}{\sqrt{0.36}} = \frac{6.0}{0.6} = 10 \text{ years}$$
+
+**Explanation:** The spacecraft observer measures the "proper time" because the start and end events occur at the same location in their reference frame. The Earth observer sees a dilated time interval.
+
+---
+
+### Part (b)(ii)
+**Answer:** Neither measurement is more "correct." According to the first postulate, all inertial frames of reference are equally valid. Time is relative, not absolute, so both observers are measuring time correctly within their own frame of reference.
+
+---
+
+### Part (b)(iii)
+**Solution:**
+Using the Earth observer's perspective, we use the distance formula: $d = vt$
+*   $v = 0.80c$
+*   $t = 10 \text{ years}$
+
+$$d = 0.80c \times 10 \text{ years} = 8.0 \text{ light-years}$$
+
+**Explanation:** In the Earth's frame, the spacecraft has traveled for $10 \text{ years}$ at $0.80c$. Therefore, it must be $8.0 \text{ light-years}$ away.
+
+---
+
+### Part (b)(iv)
+**Solution:**
+The message is a radio signal (electromagnetic wave) traveling at speed $c$.
+*   Distance from Earth according to the spacecraft = $L_0$ (proper length).
+*   $L_0 = L \sqrt{1 - \frac{v^2}{c^2}} = 8.0 \times \sqrt{1 - 0.80^2} = 8.0 \times 0.6 = 4.8 \text{ light-years}$.
+
+Time taken for the signal to reach Earth according to spacecraft observers:
+$$t = \frac{d}{v} = \frac{4.8 \text{ light-years}}{1c} = 4.8 \text{ years}$$
+
+**Explanation:** To the spacecraft observers, the distance to Earth has undergone length contraction to $4.8 \text{ light-years}$. Since the signal travels at $c$, it takes $4.8 \text{ years}$ to cover that distance.
+
+---
+
+###QUESTION_TYPE
+Calculation question

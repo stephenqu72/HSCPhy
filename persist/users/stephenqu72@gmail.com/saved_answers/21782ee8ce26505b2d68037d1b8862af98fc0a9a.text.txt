@@ -1,0 +1,19 @@
+To solve this question, we must apply Einstein’s photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency of incident light, and $\Phi$ is the work function.
+
+### (a) Labeling the Work Function and Explanation
+*   **Labeling:** On the provided graph, the work function $\Phi$ corresponds to the **y-intercept** of the straight line if it were extrapolated backwards (to the region below the horizontal axis). The value of the intercept is $-\Phi$.
+*   **Definition:** The work function is the minimum amount of energy required to remove an electron from the surface of a metal. If an incident photon has energy less than $\Phi$, no photoemission occurs regardless of the intensity of the light.
+
+### (b) Significance of $f_0$
+The frequency $f_0$ is known as the **threshold frequency**. Its significance is as follows:
+1.  **Refutation of Wave Theory:** Classical wave theory predicted that light of any frequency could eventually eject an electron if the intensity was high enough (as energy is proportional to intensity). The existence of a threshold frequency $f_0$ proves this wrong.
+2.  **Evidence for Particle Model:** Einstein proposed that light consists of discrete packets of energy called photons, where energy is proportional to frequency ($E = hf$). The threshold frequency represents the specific frequency where the energy of a single photon equals the work function ($\Phi = hf_0$).
+3.  **One-to-One Interaction:** The fact that emission only occurs when $f \ge f_0$ confirms the "all-or-nothing" nature of the interaction between a single photon and a single electron, supporting the quantum (particle) model of light.
+4.  **Mathematical proof:** Since $E_k = hf - hf_0$, we can see that for $f < f_0$, the kinetic energy would theoretically be negative, which is physically impossible, confirming that no emission occurs below this frequency.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,26 @@
+To answer this question effectively for 7 marks, you need to provide a clear, logical experimental procedure that demonstrates an understanding of Malus' Law, which states:
+$$I = I_0 \cos^2(\theta)$$
+where $I$ is the transmitted intensity, $I_0$ is the incident intensity, and $\theta$ is the angle between the transmission axes of the two polarisers.
+
+### Experimental Method
+
+1.  **Equipment:** Use a light source (laser or LED), two polarising filters (a polariser and an analyser), a light sensor (connected to a data logger), and a rotating mount with a degree scale.
+2.  **Setup:** Place the light source, the first polariser (fixed), the second polariser (analyser on a rotating mount), and the light sensor in a straight line on an optical bench.
+3.  **Calibration:** Align the polarisers so that they are parallel ($\theta = 0^\circ$). Ensure the light sensor is calibrated to read intensity in arbitrary units or Watts per square meter.
+4.  **Procedure:** 
+    *   Rotate the analyser through $180^\circ$ in steps (e.g., every $10^\circ$).
+    *   At each increment, record the intensity $I$ displayed by the light sensor.
+5.  **Data Analysis:** 
+    *   Calculate $\cos^2(\theta)$ for each angle $\theta$.
+    *   Plot a graph of $I$ (y-axis) versus $\cos^2(\theta)$ (x-axis).
+6.  **Verification:** If Malus' Law holds, the graph should result in a straight line passing through the origin. The gradient of this line represents $I_0$.
+7.  **Reliability:** Repeat the measurements three times to calculate an average for each angle and reduce random error. Ensure the ambient light is minimized by performing the experiment in a darkened room or using a light shield.
+
+### How to solve this type of question
+*   **Structure:** Always use subheadings (Method, Data Analysis, Reliability) to make your answer easy for markers to follow.
+*   **The Theory Link:** You must explicitly state the equation you are verifying ($I = I_0 \cos^2(\theta)$) early in your answer.
+*   **Precision:** In an experiment question worth 7 marks, you must mention controlling variables (like background light) and improving accuracy (repeating trials). 
+*   **Graphical Analysis:** Explaining how to graph the data to verify the relationship is essential for full marks, as it demonstrates *how* the law is mathematically confirmed.
+
+###QUESTION_TYPE
+Experimental questions

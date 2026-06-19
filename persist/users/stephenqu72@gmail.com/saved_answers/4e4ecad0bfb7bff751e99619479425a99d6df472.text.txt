@@ -1,0 +1,32 @@
+To solve this problem, we use Einstein's photoelectric equation, which relates the energy of an incident photon to the work function of the metal and the maximum kinetic energy of the emitted electron.
+
+### 1. Identify the relevant physics principles
+The equation is given by:
+$$E_k(\text{max}) = E_{\text{photon}} - \Phi$$
+Where:
+- $E_k(\text{max})$ is the maximum kinetic energy of the emitted electron.
+- $E_{\text{photon}} = hf$ is the energy of the incident photon.
+- $\Phi$ is the work function of the metal.
+
+### 2. List the given values
+- Frequency ($f$) = $7 \times 10^{14} \text{ Hz}$
+- Work function ($\Phi$) = $2.3 \text{ eV}$
+- Planck's constant ($h$) = $6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+
+### 3. Step-by-step Calculation
+**Step A: Calculate the energy of the photon in Joules.**
+$$E_{\text{photon}} = (6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (7 \times 10^{14} \text{ Hz}) = 4.6382 \times 10^{-19} \text{ J}$$
+
+**Step B: Convert the photon energy from Joules to electron-volts (eV).**
+To convert to eV, divide by the charge of an electron ($1.602 \times 10^{-19} \text{ C}$):
+$$E_{\text{photon (eV)}} = \frac{4.6382 \times 10^{-19} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} \approx 2.895 \text{ eV}$$
+
+**Step C: Calculate the maximum kinetic energy.**
+$$E_k(\text{max}) = 2.895 \text{ eV} - 2.3 \text{ eV} = 0.595 \text{ eV}$$
+
+Rounding to two decimal places, we get **$0.60 \text{ eV}$**.
+
+Comparing this result to the given options, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

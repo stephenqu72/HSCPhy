@@ -1,0 +1,29 @@
+To determine the proper length of Spaceship B, we use the principles of Special Relativity regarding **length contraction**.
+
+### 1. Identify the given variables:
+*   **Observed length ($L$):** The length measured by Joanna (the observer in another frame) is $L = 150\text{ m}$.
+*   **Lorentz factor ($\gamma$):** Given as $\gamma = 3.00$.
+*   **Proper length ($L_0$):** This is the length of the object measured in its own rest frame (the frame of Spaceship B), which we need to calculate.
+
+### 2. Apply the relevant formula:
+The relationship between proper length and contracted (observed) length is:
+$$L = \frac{L_0}{\gamma}$$
+
+To find the proper length ($L_0$), we rearrange the formula:
+$$L_0 = L \times \gamma$$
+
+### 3. Calculation:
+Substitute the known values into the rearranged equation:
+$$L_0 = 150\text{ m} \times 3.00$$
+$$L_0 = 450\text{ m}$$
+
+### Conclusion:
+The proper length of Spaceship B is $450\text{ m}$. Therefore, the correct option is **C**.
+
+***
+
+### Explanation of the physics:
+In special relativity, moving objects undergo length contraction in the direction of motion. Because Spaceship B is moving at a relativistic speed relative to Joanna, she measures a length $L$ that is shorter than the proper length $L_0$. Since the proper length is the maximum length an object can have (the length measured when the observer is at rest relative to the object), the answer must be larger than $150\text{ m}$. Multiplying by the Lorentz factor correctly scales the measured length back to the proper length.
+
+###QUESTION_TYPE
+Multiple choice

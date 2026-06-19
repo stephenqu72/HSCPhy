@@ -1,0 +1,28 @@
+To solve this problem, we must apply Einstein’s photoelectric equation:
+
+$$E_{k \text{ max}} = hf - \Phi$$
+
+Where:
+- $E_{k \text{ max}}$ is the maximum kinetic energy of the emitted photoelectrons.
+- $h$ is Planck’s constant.
+- $f$ is the frequency of the incident light.
+- $\Phi$ is the **work function** of the metal (the minimum energy required to remove an electron).
+
+### How to solve:
+1. **Identify the x-intercept:** On a graph of $E_{k \text{ max}}$ vs $f$, the x-intercept occurs when $E_{k \text{ max}} = 0$. At this point, the frequency is the threshold frequency ($f_0$). Setting the equation to zero gives:
+   $$0 = hf_0 - \Phi \implies \Phi = hf_0$$
+2. **Interpret the relationship:** Since $h$ is a constant, the work function $\Phi$ is directly proportional to the threshold frequency $f_0$. Therefore, **the metal with the higher threshold frequency has the higher work function.**
+3. **Analyze the graph:** Look at the x-intercepts for each metal:
+   - **Nickel:** $f_0 \approx 5.1 \times 10^{14} \text{ Hz}$
+   - **Potassium:** $f_0 \approx 5.5 \times 10^{14} \text{ Hz}$
+   - **Sodium:** $f_0 \approx 5.8 \times 10^{14} \text{ Hz}$
+   - **Lithium:** $f_0 \approx 6.2 \times 10^{14} \text{ Hz}$
+4. **Rank the values:** Ranking from highest $f_0$ (and thus highest work function) to lowest $f_0$:
+   - Lithium ($6.2$) > Sodium ($5.8$) > Potassium ($5.5$) > Nickel ($5.1$).
+
+Comparing this to the given options, the correct ranking is Lithium, Sodium, Potassium, Nickel.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

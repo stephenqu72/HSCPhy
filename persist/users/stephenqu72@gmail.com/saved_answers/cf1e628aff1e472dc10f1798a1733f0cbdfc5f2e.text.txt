@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **D. The temperature of its surface**.
+
+### Explanation
+To solve this problem, you need to apply **Wien's Displacement Law**. 
+
+Wien's Displacement Law states that the wavelength at which the emission of radiation from a black body is at its peak ($\lambda_{max}$) is inversely proportional to the absolute temperature ($T$) of the body. The relationship is given by the formula:
+
+$$\lambda_{max} = \frac{b}{T}$$
+
+Where:
+- $\lambda_{max}$ is the peak wavelength.
+- $T$ is the absolute temperature (measured in Kelvin).
+- $b$ is Wien's displacement constant (approximately $2.898 \times 10^{-3} \text{ m K}$).
+
+**Why the other options are incorrect:**
+- **A (Density):** Density does not determine the spectral distribution of thermal radiation.
+- **B (Area):** The surface area affects the *total intensity* or *power* of the radiation emitted (according to the Stefan-Boltzmann Law, $P = \sigma A T^4$), but it does not shift the peak wavelength.
+- **C (Nature of the surface):** While the emissivity of a surface affects how much radiation is emitted compared to an ideal black body, the peak wavelength is fundamentally defined by the temperature of the body.
+
+Therefore, because the peak wavelength is determined solely by the temperature $T$, option D is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

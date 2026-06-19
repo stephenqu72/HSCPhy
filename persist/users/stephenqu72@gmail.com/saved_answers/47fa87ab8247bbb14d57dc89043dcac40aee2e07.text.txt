@@ -1,0 +1,26 @@
+To solve this problem, we apply **Malus’s Law**, which describes how the intensity of plane-polarized light changes when it passes through a polarising filter (an analyser).
+
+### Explanation
+
+1.  **The Physics Principle:** According to Malus’s Law, the transmitted intensity $I$ of light passing through an analyser is given by:
+    $$I = I_0 \cos^2(\theta)$$
+    where:
+    *   $I_0$ is the initial intensity of the polarized light incident on the filter.
+    *   $\theta$ is the angle between the transmission axis of the polarising filter and the plane of polarization of the incident light.
+
+2.  **Analyzing the function:**
+    *   When $\theta = 0^\circ$ (the transmission axes are aligned), $\cos(0) = 1$, so $I = I_0 \cos^2(0) = I_0$.
+    *   When $\theta = 90^\circ$ (the transmission axes are perpendicular/crossed), $\cos(90^\circ) = 0$, so $I = I_0 \cos^2(90^\circ) = 0$.
+
+3.  **Evaluating the Graphs:**
+    *   We are looking for a function that starts at $I_0$ when $\theta = 0^\circ$ and decreases to $0$ as $\theta$ approaches $90^\circ$ following a $\cos^2(\theta)$ curve.
+    *   Graph (A) starts at 0, which is incorrect.
+    *   Graph (B) starts at 0, which is incorrect.
+    *   Graph (C) shows a linear decrease, which is incorrect because the relationship is proportional to the square of the cosine, not a linear function.
+    *   **Graph (D)** starts at $I_0$ when $\theta = 0^\circ$ and curves downwards to reach $0$ at $\theta = 90^\circ$. This matches the behavior of the function $I = I_0 \cos^2(\theta)$.
+
+### Answer
+The correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

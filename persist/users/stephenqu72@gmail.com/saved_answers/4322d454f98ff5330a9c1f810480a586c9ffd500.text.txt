@@ -1,0 +1,35 @@
+To solve this problem, we use the relationship between the stopping voltage ($V_s$) and the maximum kinetic energy ($K_{max}$) of the photoelectrons.
+
+### Explanation
+
+In the photoelectric effect, the stopping voltage is the potential required to stop the most energetic photoelectrons. The work done by this potential is equal to the maximum kinetic energy of the electrons:
+$$K_{max} = eV_s$$
+
+Where:
+- $e$ is the elementary charge $\approx 1.602 \times 10^{-19} \text{ C}$
+- $V_s$ is the stopping voltage $= 1.25 \text{ V}$
+
+The kinetic energy is also defined as:
+$$K_{max} = \frac{1}{2}mv^2$$
+
+Where:
+- $m$ is the mass of an electron $\approx 9.109 \times 10^{-31} \text{ kg}$
+- $v$ is the maximum velocity
+
+Equating the two expressions:
+$$\frac{1}{2}mv^2 = eV_s$$
+$$v = \sqrt{\frac{2eV_s}{m}}$$
+
+Substitute the known values:
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19} \text{ C}) \times 1.25 \text{ V}}{9.109 \times 10^{-31} \text{ kg}}}$$
+$$v = \sqrt{\frac{4.005 \times 10^{-19}}{9.109 \times 10^{-31}}}$$
+$$v = \sqrt{4.3967 \times 10^{11}}$$
+$$v \approx 6.63 \times 10^5 \text{ m/s}$$
+
+Comparing this result to the given options, **(C)** is the correct answer.
+
+### Final Answer
+The maximum velocity of the emitted photoelectrons is approximately $6.63 \times 10^5 \text{ m/s}$, which corresponds to option **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

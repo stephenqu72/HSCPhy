@@ -1,0 +1,24 @@
+To determine the relationship between photon energy $E$ and wavelength $\lambda$, we use the fundamental equation for the energy of a photon:
+
+$$E = \frac{hc}{\lambda}$$
+
+Where:
+- $E$ is the energy of the photon
+- $h$ is Planck's constant
+- $c$ is the speed of light in a vacuum
+- $\lambda$ is the wavelength
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the variables:** Since $h$ and $c$ are constants, the equation shows that $E$ is inversely proportional to $\lambda$ (i.e., $E \propto \frac{1}{\lambda}$).
+2.  **Understand the graphical representation:** An inverse relationship follows the form $y = \frac{k}{x}$. On a graph, this produces a hyperbola that approaches the axes but never touches them (as $\lambda \to 0$, $E \to \infty$; and as $\lambda \to \infty$, $E \to 0$).
+3.  **Evaluate the options:**
+    *   **A:** Shows a linear relationship, which is incorrect.
+    *   **B:** Shows an exponential-like increase, which is incorrect.
+    *   **C:** Shows a linear decrease, which is incorrect.
+    *   **D:** Shows a curve that decreases as the x-axis value increases, representing the inverse proportionality described by the formula.
+
+Therefore, the correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

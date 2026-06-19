@@ -1,0 +1,31 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this problem, we use **Malus’s Law**, which states that the intensity of transmitted light $I$ through a polariser is given by:
+$$I = I_0 \cos^2(\theta)$$
+where $I_0$ is the initial intensity and $\theta$ is the angle between the light's initial axis of polarisation and the axis of the polarising filter.
+
+1.  **Identify the current angle:**
+    *   The axis of the polarising filter is aligned along the $y$-axis ($90^\circ$ from the $x$-axis).
+    *   The incoming light is polarised at an angle of $30^\circ$ from the $x$-axis.
+    *   The current angle $\theta$ between the light and the filter is $90^\circ - 30^\circ = 60^\circ$.
+    *   The current intensity is proportional to $\cos^2(60^\circ) = 0.25$.
+
+2.  **Evaluate the options to find the angle closest to $0^\circ$ (where $\cos^2(0^\circ) = 1$ gives maximum intensity):**
+
+    *   **A. Rotate clockwise $10^\circ$:** The light is at $30^\circ$ (relative to $x$). Rotating clockwise moves it to $30^\circ - 10^\circ = 20^\circ$. The new angle with the filter ($90^\circ$) is $90^\circ - 20^\circ = 70^\circ$.
+    *   **B. Rotate clockwise $150^\circ$:** Moving from $30^\circ$ clockwise by $150^\circ$ results in $30^\circ - 150^\circ = -120^\circ$ (or $240^\circ$). The angle with the filter ($90^\circ$) is $|90^\circ - (-120^\circ)| = 210^\circ$. The effective angle $\theta$ is $30^\circ$ (since $\cos^2(210^\circ) = \cos^2(30^\circ)$).
+    *   **C. Rotate anti-clockwise $70^\circ$:** Moving from $30^\circ$ anti-clockwise by $70^\circ$ results in $30^\circ + 70^\circ = 100^\circ$. The angle with the filter ($90^\circ$) is $|100^\circ - 90^\circ| = 10^\circ$.
+    *   **D. Rotate anti-clockwise $110^\circ$:** Moving from $30^\circ$ anti-clockwise by $110^\circ$ results in $30^\circ + 110^\circ = 140^\circ$. The angle with the filter ($90^\circ$) is $|140^\circ - 90^\circ| = 50^\circ$.
+
+3.  **Comparison:**
+    *   Angle $\theta$ for A: $70^\circ$ ($\cos^2(70^\circ) \approx 0.117$)
+    *   Angle $\theta$ for B: $30^\circ$ ($\cos^2(30^\circ) = 0.75$)
+    *   Angle $\theta$ for C: $10^\circ$ ($\cos^2(10^\circ) \approx 0.970$)
+    *   Angle $\theta$ for D: $50^\circ$ ($\cos^2(50^\circ) \approx 0.413$)
+
+Since $10^\circ$ is the closest to $0^\circ$, option **C** provides the greatest intensity.
+
+###QUESTION_TYPE
+Multiple choice

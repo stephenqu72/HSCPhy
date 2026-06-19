@@ -1,0 +1,28 @@
+### Teacher's Solution and Explanation
+
+#### Part (a)
+**Answer:**
+According to Einstein's theory of special relativity, time dilation occurs for the moving observer relative to the stationary observer. 
+1. The student on Earth would observe the student in the rocket moving through time more slowly (time dilation). Therefore, the clock in the rocket appears to tick slower than the clock on Earth.
+2. Because motion is relative, the student in the rocket would observe the student on Earth moving at a velocity close to $c$ in the opposite direction. Consequently, the rocket student would also observe the student on Earth’s clock ticking more slowly.
+3. Both students would perceive the other’s biological processes and movements to be occurring in "slow motion."
+
+**How to solve it:**
+To solve this, apply the principle of **Time Dilation**. Remember that there is no absolute frame of reference in special relativity. The key concept is that time is not absolute; it depends on the relative motion between the observer and the observed object. Always frame your answer by stating that each observer considers themselves to be stationary and the other to be moving at a relativistic velocity.
+
+---
+
+#### Part (b)
+**Answer:**
+The difference arises because Newtonian mechanics fails as velocity approaches the speed of light ($c$), whereas relativistic mechanics accounts for the increase in the Lorentz factor, $\gamma$.
+1. Newtonian momentum is defined as $p = mv$. As velocity increases, momentum increases linearly.
+2. Relativistic momentum is defined as $p = \gamma mv$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+3. As $v$ approaches $c$, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero, causing $\gamma$ (and thus momentum) to approach infinity. This explains why the relativistic momentum curve deviates upward and becomes asymptotic to the vertical axis as $v \to c$.
+
+**How to solve it:**
+When you see a graph comparing classical and relativistic physics, look for the "departure point." The curves align at low velocities (Newtonian limit) but diverge as $v$ becomes a significant fraction of $c$. Your explanation must explicitly mention the **Lorentz factor** ($\gamma$) and how it causes the effective mass or momentum to increase towards infinity as the object approaches the universal speed limit, $c$.
+
+---
+
+### QUESTION_TYPE
+Short answer

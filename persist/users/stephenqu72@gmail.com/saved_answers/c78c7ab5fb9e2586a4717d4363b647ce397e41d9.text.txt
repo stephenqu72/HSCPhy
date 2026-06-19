@@ -1,0 +1,29 @@
+To calculate the work function ($\Phi$) of copper, we use the relationship between the threshold frequency ($f_0$) and the energy required to eject an electron from the metal surface, defined by Einstein's photoelectric equation:
+
+$$\Phi = h f_0$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values and constants:**
+*   Threshold frequency ($f_0$): $1.0 \times 10^9 \text{ MHz}$
+*   First, convert MHz to Hz: $1 \text{ MHz} = 10^6 \text{ Hz}$.
+*   Therefore, $f_0 = 1.0 \times 10^9 \times 10^6 = 1.0 \times 10^{15} \text{ Hz}$.
+*   Planck's constant ($h$): $6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+
+**2. Calculate the work function in Joules:**
+$$\Phi = (6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (1.0 \times 10^{15} \text{ Hz})$$
+$$\Phi = 6.626 \times 10^{-19} \text{ J}$$
+
+**3. Convert Joules to electron-volts (eV):**
+To convert from Joules to eV, divide by the elementary charge ($1.602 \times 10^{-19} \text{ C}$):
+$$\Phi (\text{eV}) = \frac{6.626 \times 10^{-19} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}}$$
+$$\Phi \approx 4.136 \text{ eV}$$
+
+Rounding to two significant figures, we get **4.1 eV**.
+
+**Conclusion:**
+Comparing our result to the options provided, the correct answer is **(A)**. 
+*(Note: MeV represents Mega-electron volts, which is $10^6$ eV, so options B and D are physically incorrect for this energy scale).*
+
+###QUESTION_TYPE
+Multiple choice

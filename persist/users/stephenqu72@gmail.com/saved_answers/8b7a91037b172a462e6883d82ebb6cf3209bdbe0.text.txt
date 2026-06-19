@@ -1,0 +1,29 @@
+### Answer
+
+**a. Explanation:**
+According to Einstein’s theory of special relativity, length contraction occurs only in the direction of motion relative to an observer. Because the spaceship is moving at a relativistic speed ($0.7c$) relative to the technician, the length of the ship is contracted in the direction of its travel. However, because there is no relative motion in the perpendicular direction (the width), the transverse dimensions of the ship remain unaffected and are measured to be the same as their proper length.
+
+**b. Calculation:**
+Given:
+- Observed length $L = 135\text{ m}$
+- Velocity $v = 0.7c$
+- Proper length $L_0 = ?$
+
+First, calculate the Lorentz factor, $\gamma$:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - (0.7)^2}} = \frac{1}{\sqrt{1 - 0.49}} = \frac{1}{\sqrt{0.51}} \approx 1.40028$$
+
+Using the length contraction formula $L = \frac{L_0}{\gamma}$:
+$$135 = \frac{L_0}{1.40028}$$
+$$L_0 = 135 \times 1.40028 \approx 189.04\text{ m}$$
+
+The length of the spaceship when stationary on Earth was approximately **189.04 m**.
+
+***
+
+### How to solve this
+1.  **Conceptual Understanding:** To answer part (a), recall that length contraction is a spatial phenomenon that only manifests along the axis of relative velocity. Always explicitly state that there is "no relative motion" in the transverse direction to justify why the width remains unchanged.
+2.  **Identify the Formula:** For part (b), recognize that $135\text{ m}$ is the "observed" or contracted length ($L$), and you are solving for the "proper" length ($L_0$), which is the length measured in the rest frame of the object.
+3.  **Calculation:** Always calculate the Lorentz factor ($\gamma$) carefully. Ensure you divide the proper length by $\gamma$ to get the contracted length, which means multiplying the observed length by $\gamma$ to find the proper length. Keep several decimal places during intermediate steps to ensure accuracy in your final answer.
+
+###QUESTION_TYPE
+Calculation question

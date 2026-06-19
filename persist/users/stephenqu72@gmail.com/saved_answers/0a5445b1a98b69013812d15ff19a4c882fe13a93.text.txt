@@ -1,0 +1,32 @@
+### Answer: The Relativity of Simultaneity
+
+The **Relativity of Simultaneity** is a fundamental consequence of Einstein’s Special Relativity. It states that two events that are simultaneous in one inertial frame of reference are not necessarily simultaneous in another frame of reference moving at a constant velocity relative to the first. This occurs because the speed of light ($c$) is invariant for all observers, regardless of their motion.
+
+#### Thought Experiment: The Moving Train
+Consider a train moving at a relativistic velocity $v$ past an observer standing on a platform. Two lightning bolts strike the front and back of the train simultaneously according to the platform observer (who is exactly halfway between the strike points).
+
+*   **Platform Frame:** Since the platform observer is equidistant from the strikes and light travels at $c$, the light from both strikes reaches them at the same time. They conclude the events were simultaneous.
+*   **Train Frame:** The observer on the train is moving toward the light from the front strike and away from the light from the back strike. Because the speed of light $c$ is constant, the light from the front strike reaches the train observer *before* the light from the back strike. Therefore, to the observer on the train, the front strike happened first.
+
+#### Diagram
+```text
+          Platform Observer (Stationary)
+                 |
+        [<-- Back]      [Front -->]
+    -------------------------------------
+              Direction of train (v)
+```
+*For the train observer, the light from the front strike covers less distance to reach the center, while light from the back strike must 'chase' the moving center point.*
+
+***
+
+### How to solve this question (HSC Teacher’s Tips)
+
+1.  **Define the Core Principle:** Start by linking the concept to Einstein’s second postulate: the constancy of the speed of light. Without the constancy of $c$, the paradox doesn't exist.
+2.  **Explicitly compare frames:** You must contrast the "stationary" observer (the platform) with the "moving" observer (the train). Use the term "inertial frame of reference."
+3.  **Use the "Time = Distance / Speed" logic:** Explicitly explain *why* the events are perceived differently. Mention that the moving observer is catching up to the light wave from the front and moving away from the light wave from the back.
+4.  **Include the Diagram:** In an HSC exam, a clearly labeled diagram is essential for the full 5 marks. Ensure you label the direction of the train's velocity ($v$).
+5.  **Use "Simultaneity":** Ensure your conclusion explicitly states that "simultaneity is relative, not absolute."
+
+###QUESTION_TYPE
+Short answer

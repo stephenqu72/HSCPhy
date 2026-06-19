@@ -1,0 +1,26 @@
+As an HSC Physics teacher, here is the breakdown of how to approach these questions based on the physics syllabus.
+
+### Answers and Explanations
+
+**(a) Explain the term *black-body radiation*.**
+*   **Answer:** Black-body radiation is the electromagnetic radiation emitted by an idealized physical body that absorbs all incident electromagnetic radiation, regardless of frequency or angle of incidence. The spectrum of this radiation depends only on the body's temperature.
+*   **Explanation:** When answering "explain" questions, you need to state the definition clearly. Ensure you mention that it is an idealised object and its emission is purely a function of temperature.
+
+**(b) Label the x-axis of the graph.**
+*   **Answer:** Wavelength ($\lambda$)
+*   **Explanation:** In physics, the standard representation of a black-body curve plots intensity on the y-axis against wavelength ($\lambda$) on the x-axis. Frequency ($f$) is sometimes used, but wavelength is standard for star spectra.
+
+**(c) On the graph, sketch the black-body radiation spectrum of a star that has a lower surface temperature and lower apparent brightness than this star.**
+*   **Answer:** The new curve should have its peak shifted to the right (longer wavelength) due to the lower temperature (Wien's Displacement Law) and the overall height of the curve must be lower than the original peak because of the lower brightness (intensity).
+*   **Explanation:**
+    *   **Temperature effect:** According to Wien’s Law ($\lambda_{max} T = \text{constant}$), a lower temperature results in a larger peak wavelength ($\lambda_{max}$). Thus, the peak shifts right.
+    *   **Brightness/Intensity effect:** A lower brightness (or luminosity) implies that the total power radiated is lower; therefore, the curve must remain below the original curve at all points.
+
+**(d) Deduce that the surface temperature of Betelgeuse is about 3000 K.**
+*   **Answer:** Use Wien’s Displacement Law: $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$.
+    Given $\lambda_{max} = 0.97 \text{ } \mu\text{m} = 0.97 \times 10^{-6} \text{ m}$.
+    $$T = \frac{2.898 \times 10^{-3} \text{ m K}}{0.97 \times 10^{-6} \text{ m}} \approx 2987.6 \text{ K} \approx 3000 \text{ K}$$
+*   **Explanation:** To solve "deduce" questions, always start with the relevant formula. Convert all units to SI (micrometers to meters) before calculating. The result clearly rounds to 3000 K.
+
+###QUESTION_TYPE
+Calculation question

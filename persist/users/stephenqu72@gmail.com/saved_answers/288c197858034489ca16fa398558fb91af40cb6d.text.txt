@@ -1,0 +1,25 @@
+To solve this problem, let's break down the physics of light polarization step-by-step.
+
+### 1. Analysis of the Filters
+*   **Initial Step:** Unpolarised light of intensity $I_0$ passes through a vertically polarised filter. According to Malus’s Law (or the property of the first polariser), the light emerging has intensity $I_{in} = \frac{1}{2} I_0$ and is now vertically polarised.
+*   **The Rotating Filter:** The diagram shows a circular filter rotating around point $P$. This filter is divided into two parts: one side is vertically polarised and the other is horizontally polarised. 
+    *   Let $\theta$ be the angle of the polariser relative to the vertical.
+    *   For the **vertically polarised side**, the transmission axis is vertical. Since the incoming light is already vertically polarised, the intensity $I$ follows Malus's Law: $I = I_{in} \cos^2(0^\circ) = I_{in}$.
+    *   For the **horizontally polarised side**, the transmission axis is horizontal. Since the incoming light is vertical, the angle between the light and the filter is $90^\circ$. The intensity $I = I_{in} \cos^2(90^\circ) = 0$.
+
+### 2. Evaluating the Intensities
+*   $I_x$ refers to the light immediately after passing through the rotating filter (before hitting the glasses). As the filter rotates, the light passing through will fluctuate between $\frac{1}{2}I_0$ (when the vertical section is in the path) and $0$ (when the horizontal section is in the path).
+*   The glasses have a left lens ($I_y$) and a right lens ($I_z$). Let's assume the left lens is vertical and the right is horizontal.
+    *   If the incoming light is vertically polarised, it passes through the vertical lens ($I_y$) and is blocked by the horizontal lens ($I_z$).
+    *   Because the filter is rotating, at different stages of the $360^\circ$ rotation, the light incident on the glasses will either be vertical (when the vertical part of the filter is aligned) or non-existent (when the horizontal part is aligned).
+
+### 3. Testing the Options
+*   **A:** $I_y$ represents the intensity through one lens. $I_x$ represents the total light intensity after the rotating filter. Since the light must pass through the rotating filter *before* reaching the glasses, $I_y$ will be a fraction of $I_x$. They are not equal. 
+*   **B:** $I_z$ is the intensity through the other lens. If $I_y$ is the vertical lens and $I_z$ is the horizontal lens, $I_y$ will be high when $I_z$ is zero (and vice versa if the incoming light were rotated). However, in this specific setup, $I_z$ is always $0$ because the light incident on the glasses is restricted to being vertical by the first filter, and the lens $I_z$ is horizontal. Therefore, $I_y$ (which varies between $0$ and $\frac{1}{2}I_0$) is **never equal** to $I_z$ (which is always $0$).
+
+Thus, the correct comparison is that $I_y$ never equals $I_z$.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

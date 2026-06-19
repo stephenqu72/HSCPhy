@@ -1,0 +1,27 @@
+To determine the initial intensity $I_0$, we must apply **Malus’s Law** step-by-step through the three polarising filters. Malus's Law states that the transmitted intensity $I$ is given by $I = I_{incident} \cos^2(\theta)$, where $\theta$ is the angle between the light's polarisation plane and the filter's transmission axis.
+
+### Step-by-Step Solution:
+
+1.  **First Filter:** Assuming the incident light $I_0$ is unpolarised, the light passing through the first vertical polariser has an intensity of:
+    $$I_1 = \frac{1}{2}I_0$$
+
+2.  **Second Filter:** The transmission axis of the second filter is at an angle $\theta_1 = 30^\circ$ relative to the vertical axis of the first filter.
+    $$I_2 = I_1 \cos^2(30^\circ) = \left(\frac{1}{2}I_0\right) \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{1}{2}I_0 \times \frac{3}{4} = \frac{3}{8}I_0$$
+
+3.  **Third Filter:** The first filter is vertical ($0^\circ$) and the last filter is horizontal ($90^\circ$). The second filter is at $30^\circ$ to the vertical. Therefore, the angle $\theta_2$ between the second and third filter is $90^\circ - 30^\circ = 60^\circ$.
+    $$I_3 = I_2 \cos^2(60^\circ) = \left(\frac{3}{8}I_0\right) \left(\frac{1}{2}\right)^2 = \frac{3}{8}I_0 \times \frac{1}{4} = \frac{3}{32}I_0$$
+
+4.  **Solve for $I_0$:** We are given that $I_3 = 80$ units.
+    $$80 = \frac{3}{32}I_0$$
+    $$I_0 = \frac{80 \times 32}{3} = \frac{2560}{3} \approx 853.33 \text{ units}$$
+
+**Final Answer:**
+The intensity $I_0$ is approximately **853.33 units**.
+
+### How to solve this:
+*   **Identify the state of light:** Always remember that unpolarised light passing through the first polariser is reduced by half.
+*   **Define the angles:** Carefully determine the angle between the transmission axes of each consecutive pair of polarisers. 
+*   **Apply Malus's Law:** Chain the equations together ($I_3 = I_0 \times \frac{1}{2} \times \cos^2\theta_1 \times \cos^2\theta_2$) to create a single algebraic expression, then solve for the unknown.
+
+###QUESTION_TYPE
+Calculation question

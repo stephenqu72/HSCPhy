@@ -1,0 +1,30 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the absolute temperature of a black body to the wavelength at which it emits the most radiation ($\lambda_{max}$).
+
+### Step-by-Step Solution
+
+**1. Convert temperature to Kelvin:**
+Wien's Law requires the temperature to be in Kelvin.
+$$T = 35.6^\circ\text{C} + 273.15 = 308.75\text{ K}$$
+
+**2. State Wien’s Displacement Law:**
+The relationship is given by the formula:
+$$\lambda_{max} T = b$$
+where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3}\text{ m}\cdot\text{K}$.
+
+**3. Calculate the wavelength ($\lambda_{max}$):**
+$$\lambda_{max} = \frac{2.898 \times 10^{-3}\text{ m}\cdot\text{K}}{308.75\text{ K}}$$
+$$\lambda_{max} \approx 9.386 \times 10^{-6}\text{ m}$$
+
+**4. Convert the result to nanometers (nm):**
+Since $1\text{ m} = 10^9\text{ nm}$:
+$$\lambda_{max} \approx 9.386 \times 10^{-6} \times 10^9\text{ nm}$$
+$$\lambda_{max} \approx 9386\text{ nm}$$
+
+**5. Compare with options:**
+Rounding our result to two decimal places gives $9.39 \times 10^3\text{ nm}$. Option **B ($9.40 \times 10^3\text{ nm}$)** is the closest value.
+
+### Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

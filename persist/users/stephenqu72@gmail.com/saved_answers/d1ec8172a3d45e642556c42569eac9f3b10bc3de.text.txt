@@ -1,0 +1,31 @@
+To solve this problem, we must apply Einstein’s photoelectric equation:
+$$E_k = hf - \Phi$$
+
+Where:
+*   $E_k$ is the maximum kinetic energy of the photoelectrons.
+*   $h$ is Planck's constant (the slope of the line).
+*   $f$ is the incident frequency.
+*   $\Phi$ is the work function of the metal.
+
+The graph of $E_k$ versus $f$ is a straight line where the $x$-intercept represents the **threshold frequency** ($f_0$, where $\Phi = hf_0$) and the $y$-intercept represents the negative of the **work function** ($-\Phi$).
+
+### Analysis:
+1.  **Threshold Frequency ($f_0$):** This is the value on the frequency axis where $E_k = 0$. Comparing the graphs:
+    *   Graph II has the lowest $f_0$ (at the origin).
+    *   Graph I has a higher $f_0$.
+    *   Graph IV has an even higher $f_0$.
+    *   Graph III has the highest $f_0$.
+    *   Ordering by threshold frequency: $f_0(\text{II}) < f_0(\text{I}) < f_0(\text{IV}) < f_0(\text{III})$.
+
+2.  **Work Function ($\Phi$):** Since $\Phi = hf_0$, the metal with the higher threshold frequency has the higher work function. Therefore, $\Phi(\text{III}) > \Phi(\text{IV}) > \Phi(\text{I}) > \Phi(\text{II})$.
+
+### Evaluating the Options:
+*   **(A) Metal IV has a greater threshold frequency than metal III:** Incorrect. Based on the intercepts, metal III has a larger $x$-intercept than metal IV.
+*   **(B) For the same frequency, the photoelectrons emitted by II will have less kinetic energy than the photoelectrons emitted by I:** Incorrect. Looking at the $y$-intercepts (which are $-\Phi$), metal II has a higher intercept (closer to zero) than metal I. At any frequency $f$ greater than $f_0(I)$, the line for II sits above the line for I, meaning II has higher kinetic energy.
+*   **(C) Metal III has a greater work function than metal I:** **Correct.** The work function is represented by the magnitude of the $y$-intercept (or by $hf_0$). Metal III has a larger $x$-intercept and a more negative $y$-intercept than metal I, confirming it has a larger work function.
+*   **(D) The threshold frequency of III would not cause photoemission for metal II:** Incorrect. The threshold frequency of III is higher than the threshold frequency of II. Since frequency must be *greater than* the threshold to cause emission, and $f_0(\text{III}) > f_0(\text{II})$, the frequency $f_0(\text{III})$ is definitely enough to cause emission from metal II.
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

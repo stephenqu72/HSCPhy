@@ -1,0 +1,33 @@
+To solve these problems, we use the principles of Special Relativity, specifically the formula for relativistic momentum:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+where $p$ is momentum, $m$ is rest mass, $v$ is velocity, and $c$ is the speed of light.
+
+### (a) Determine the velocity
+1. Locate the value $3.3 \times 10^{-18} \text{ kg m s}^{-1}$ on the y-axis (Measured Momentum). Each major grid line represents $1.0$, and there are 5 subdivisions, so each small square represents $0.2$. The value $3.3$ is at 1.5 small squares above the $3.0$ line.
+2. Follow horizontally from $3.3$ on the y-axis to the curve.
+3. Drop vertically from the intersection point to the x-axis ($v/c$).
+4. The intersection point corresponds to $0.65$ on the x-axis.
+
+**Answer:** The velocity is $0.65c$.
+
+---
+
+### (b) Calculate the rest mass
+To find the rest mass ($m$), we rearrange the relativistic momentum formula:
+$$m = \frac{p \sqrt{1 - \frac{v^2}{c^2}}}{v}$$
+Pick a data point from the graph to substitute. Let's use $v/c = 0.6$ (where $v = 0.6c$) and the corresponding $p$ from the graph, which is $2.8 \times 10^{-18} \text{ kg m s}^{-1}$.
+
+1. Substitute values:
+$$m = \frac{2.8 \times 10^{-18} \cdot \sqrt{1 - (0.6)^2}}{0.6c}$$
+2. Calculate the Lorentz factor term:
+$$\sqrt{1 - 0.36} = \sqrt{0.64} = 0.8$$
+3. Perform the calculation:
+$$m = \frac{2.8 \times 10^{-18} \cdot 0.8}{0.6 \cdot (3.0 \times 10^8)}$$
+$$m = \frac{2.24 \times 10^{-18}}{1.8 \times 10^8} \approx 1.24 \times 10^{-26} \text{ kg}$$
+
+*(Note: Small variations in reading the graph may lead to slightly different answers, typically accepted in the range of $1.2 \times 10^{-26} \text{ kg}$ to $1.25 \times 10^{-26} \text{ kg}$.)*
+
+**Answer:** The rest mass is approximately $1.24 \times 10^{-26} \text{ kg}$.
+
+###QUESTION_TYPE
+Calculation question

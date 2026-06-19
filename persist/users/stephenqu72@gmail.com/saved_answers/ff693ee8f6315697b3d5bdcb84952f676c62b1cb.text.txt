@@ -1,0 +1,28 @@
+To determine the colour of a star acting as an ideal black body, we use **Wien’s Displacement Law**, which relates the peak wavelength ($\lambda_{peak}$) of the emitted radiation to the absolute temperature ($T$) of the object:
+
+$$\lambda_{peak} = \frac{b}{T}$$
+
+Where:
+- $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$.
+- $T = 6400 \, \text{K}$ (given in the question).
+
+### Step-by-Step Calculation:
+
+1. **Calculate the peak wavelength:**
+   $$\lambda_{peak} = \frac{2.898 \times 10^{-3} \, \text{m}\cdot\text{K}}{6400 \, \text{K}}$$
+   $$\lambda_{peak} \approx 4.528 \times 10^{-7} \, \text{m}$$
+
+2. **Convert the wavelength to nanometres (nm):**
+   Since $1 \, \text{nm} = 1 \times 10^{-9} \, \text{m}$, we multiply by $10^9$:
+   $$\lambda_{peak} \approx 452.8 \, \text{nm}$$
+
+3. **Compare with the provided spectrum:**
+   Looking at the provided diagram, a wavelength of approximately $453 \, \text{nm}$ falls squarely in the **blue** region of the visible spectrum (which spans roughly $445 \, \text{nm}$ to $475 \, \text{nm}$).
+
+**Conclusion:**
+The peak wavelength corresponds to the colour blue. Therefore, the star CX-234 will appear blue to the human eye.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principle of conservation of mass-energy during electron-positron annihilation.
+
+### Explanation
+
+1.  **Conservation of Energy:** When an electron and a positron annihilate, their combined rest mass energy is converted into electromagnetic energy (two photons). Since they have negligible kinetic energy, the total energy $E$ available for the photons is:
+    $$E = 2 \times m_e c^2$$
+    Where $m_e$ is the mass of an electron ($\approx 9.109 \times 10^{-31} \text{ kg}$) and $c$ is the speed of light ($\approx 3.00 \times 10^8 \text{ m/s}$).
+
+2.  **Producing Two Photons:** To conserve momentum, two photons are produced, each moving in opposite directions with equal energy. The energy of one photon ($E_p$) is:
+    $$E_p = \frac{E}{2} = m_e c^2$$
+
+3.  **Relating Energy to Wavelength:** Using the Planck-Einstein relation $E_p = \frac{hc}{\lambda}$, we solve for wavelength $\lambda$:
+    $$\lambda = \frac{hc}{E_p} = \frac{hc}{m_e c^2} = \frac{h}{m_e c}$$
+
+4.  **Calculation:**
+    *   Planck's constant $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+    *   Electron mass $m_e = 9.109 \times 10^{-31} \text{ kg}$
+    *   Speed of light $c = 2.998 \times 10^8 \text{ m/s}$
+
+    $$\lambda = \frac{6.626 \times 10^{-34}}{(9.109 \times 10^{-31}) \times (2.998 \times 10^8)}$$
+    $$\lambda \approx 2.426 \times 10^{-12} \text{ m}$$
+
+Comparing this result to the given options, it matches option (A).
+
+**Answer:** (A) $2.425 \times 10^{-12} \text{ m}$
+
+###QUESTION_TYPE
+Multiple choice

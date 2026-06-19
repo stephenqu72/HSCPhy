@@ -1,0 +1,35 @@
+### Answer
+The correct answer is **(D) 16.7 years**.
+
+---
+
+### Explanation
+To solve this problem, we apply the principles of **Special Relativity**, specifically **time dilation**.
+
+1.  **Identify the variables:**
+    *   The velocity of the spaceship is $v = 0.80c$.
+    *   The "proper time" ($t_0$) is the time measured by the astronaut on the spaceship, because the beginning and end of the journey occur at the same location in the spaceship's reference frame. Here, $t_0 = 10$ years.
+    *   We need to find the "dilated time" ($t$), which is the time elapsed on the Earth clock as observed from the spaceship.
+
+2.  **Use the time dilation formula:**
+    The formula for time dilation is:
+    $$t = \gamma t_0$$
+    where $\gamma$ (the Lorentz factor) is defined as:
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+3.  **Calculate the Lorentz factor ($\gamma$):**
+    Given $v = 0.80c$:
+    $$\gamma = \frac{1}{\sqrt{1 - (0.80)^2}}$$
+    $$\gamma = \frac{1}{\sqrt{1 - 0.64}}$$
+    $$\gamma = \frac{1}{\sqrt{0.36}}$$
+    $$\gamma = \frac{1}{0.6} \approx 1.666...$$
+
+4.  **Calculate the dilated time ($t$):**
+    $$t = \gamma \times t_0$$
+    $$t = \frac{1}{0.6} \times 10 \text{ years}$$
+    $$t = \frac{10}{0.6} = 16.666... \text{ years}$$
+
+Rounding to one decimal place, we get **16.7 years**.
+
+###QUESTION_TYPE
+Multiple choice

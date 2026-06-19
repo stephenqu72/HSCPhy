@@ -1,0 +1,21 @@
+Hello! As your HSC Physics teacher, I am happy to help you work through this concept. This is a classic problem regarding Einstein’s Theory of Special Relativity.
+
+### Answer
+The correct answer is **b) The clock moves slower than clocks on Earth.**
+
+### Explanation
+To solve this, you need to apply the principle of **Time Dilation**. 
+
+1.  **Understand the Principle:** According to Einstein's Theory of Special Relativity, time is not absolute. When an object is moving at a significant fraction of the speed of light ($c$) relative to a stationary observer, time for that moving object is measured to pass more slowly compared to the time experienced by the stationary observer. This phenomenon is called time dilation.
+2.  **Analyze the Motion:** In this scenario, the spaceship is moving at $0.9c$ relative to the observer on Earth. Because the ship is in a different inertial frame of reference moving at relativistic speeds, the stationary observer on Earth perceives the processes on the ship (like the ticking of a clock) to be occurring at a slower rate.
+3.  **Use the Formula (Optional for conceptual understanding):** The relationship between the dilated time ($\Delta t$) observed by the stationary observer and the proper time ($\Delta t_0$) measured by an observer on the ship is given by the formula:
+    $$\Delta t = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Where:
+    *   $\Delta t$ is the time interval measured by the Earth observer.
+    *   $\Delta t_0$ is the time interval on the ship.
+    *   $v$ is the velocity of the ship ($0.9c$).
+
+    Since $v = 0.9c$, the denominator $\sqrt{1 - 0.9^2}$ is less than $1$. Therefore, $\Delta t > \Delta t_0$. This means the Earth observer sees more time pass for the ship's "one tick" than they would for their own clocks, which translates to the clock appearing to run slower (it takes longer to tick).
+
+###QUESTION_TYPE
+Multiple choice

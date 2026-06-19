@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+To find the peak wavelength of the light emitted by an object at a specific temperature, we use **Wien’s Displacement Law**:
+
+$$\lambda_{\text{max}} = \frac{b}{T}$$
+
+Where:
+*   $\lambda_{\text{max}}$ is the peak wavelength in meters ($m$).
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$.
+*   $T$ is the absolute temperature in Kelvin ($3200 \text{ K}$).
+
+**Calculation:**
+$$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3} \text{ m K}}{3200 \text{ K}}$$
+$$\lambda_{\text{max}} = 9.05625 \times 10^{-7} \text{ m}$$
+
+Rounding to significant figures provided in the question, the peak wavelength is approximately **$9.06 \times 10^{-7} \text{ m}$** (or $906 \text{ nm}$).
+
+---
+
+#### Part (b)
+To outline two limitations of applying special relativity to this scenario, consider the fundamental postulates and scope of the theory:
+
+1.  **Non-inertial Reference Frames:** Special relativity is strictly applicable only to **inertial reference frames** (frames moving at constant velocity). The capsule is undergoing rapid deceleration as it enters the atmosphere; therefore, it is in a non-inertial (accelerating) frame, which requires General Relativity for a full treatment of gravitation and acceleration.
+2.  **Magnitude of Velocity:** While $12\,900 \text{ m s}^{-1}$ is very fast for a human-made object, it is approximately $0.004\%$ of the speed of light ($c$). At this velocity, the Lorentz factor ($\gamma$) is negligible ($\gamma \approx 1.0000000008$). Relativistic effects like time dilation or length contraction are mathematically insignificant compared to the classical Newtonian effects (like air resistance and heat generation) occurring during re-entry.
+
+###QUESTION_TYPE
+Calculation question

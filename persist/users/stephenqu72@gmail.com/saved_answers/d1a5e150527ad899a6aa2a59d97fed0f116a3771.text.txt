@@ -1,0 +1,37 @@
+To solve this problem, we must apply the two fundamental principles governing the transmission of light through polarizers:
+
+### 1. Step-by-Step Explanation
+
+**Step 1: Determine the intensity after the first polarizer**
+When unpolarized light with intensity $I_0$ passes through an ideal polarizer, the intensity of the transmitted light ($I_1$) is exactly half of the incident intensity, regardless of the orientation of the polarizer.
+$$I_1 = \frac{1}{2} I_0$$
+Given $I_0 = 20\text{ W m}^{-2}$:
+$$I_1 = \frac{1}{2} \times 20 = 10\text{ W m}^{-2}$$
+
+**Step 2: Apply Malus's Law for the second polarizer**
+When polarized light of intensity $I_1$ passes through a second polarizer (the analyzer) with a transmission axis at an angle $\theta$ relative to the first, the transmitted intensity $I_2$ is governed by Malus's Law:
+$$I_2 = I_1 \cos^2(\theta)$$
+We are given the final transmitted intensity $I_2 = 4\text{ W m}^{-2}$. Substituting our values:
+$$4 = 10 \cos^2(\theta)$$
+
+**Step 3: Solve for $\theta$**
+Rearrange the equation to solve for $\theta$:
+$$\cos^2(\theta) = \frac{4}{10} = 0.4$$
+$$\cos(\theta) = \sqrt{0.4}$$
+$$\theta = \arccos(\sqrt{0.4})$$
+$$\theta \approx \arccos(0.63245)$$
+$$\theta \approx 50.77^\circ$$
+
+Rounding to the nearest degree, we get $51^\circ$.
+
+### 2. Conclusion
+Comparing our result to the given options:
+(A) $51^\circ$
+(B) $63^\circ$
+(C) $66^\circ$
+(D) $78^\circ$
+
+The correct answer is **(A)**.
+
+### QUESTION_TYPE
+Multiple choice

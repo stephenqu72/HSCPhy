@@ -1,0 +1,21 @@
+To solve this problem, we rely on the physics of light polarization and Malus's Law.
+
+### (a) Sketching the Intensity Graph
+When unpolarized light passes through the first polarizer, its intensity is reduced by half ($I_1 = \frac{1}{2}I_0$). This polarized light then passes through the second polarizer at an angle $\theta$. According to **Malus's Law**, the intensity of the light emerging from the second polarizer is:
+$$I = I_{max} \cos^2(\theta)$$
+- At $\theta = 0^\circ$, $\cos(0) = 1$, so $I$ is at its maximum.
+- At $\theta = 90^\circ$, $\cos(90) = 0$, so $I = 0$.
+- At $\theta = 180^\circ$, $\cos(180) = -1$, but $(-1)^2 = 1$, so $I$ returns to its maximum.
+
+**Sketch description:** Draw a smooth curve starting at a maximum value on the vertical axis at $\theta = 0$, decreasing to $0$ at $\theta = 90^\circ$, and rising back to the same maximum at $\theta = 180^\circ$. The shape should be a classic $\cos^2$ waveform.
+
+### (b) How polarisation supports a model of light
+Polarization provides evidence that light is a **transverse wave**. 
+1. **Directionality:** Polarization involves the orientation of oscillations perpendicular to the direction of wave propagation. 
+2. **Exclusion of Longitudinal waves:** Longitudinal waves (like sound) vibrate parallel to the direction of travel and cannot be polarized because they lack the required asymmetry in the transverse plane. 
+3. **Conclusion:** Since light can be polarized, it must possess a transverse component, thereby confirming the transverse wave model of light.
+
+***
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,33 @@
+To solve this problem, we must account for the relativistic effects on momentum since the electron is travelling at a significant fraction of the speed of light ($v = 0.8c$).
+
+### Step-by-Step Explanation
+
+**1. Identify the relevant formula**
+In special relativity, the momentum $p$ of an object is given by:
+$$p = \gamma mv$$
+Where:
+- $\gamma$ (Lorentz factor) $= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- $m$ is the rest mass of the electron ($m_e \approx 9.109 \times 10^{-31} \text{ kg}$)
+- $v$ is the velocity of the electron ($0.8c$)
+
+**2. Calculate the Lorentz factor ($\gamma$)**
+Given $v = 0.8c$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}}$$
+$$\gamma = \frac{1}{\sqrt{1 - 0.64}}$$
+$$\gamma = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} = 1.666...$$
+
+**3. Calculate the relativistic momentum ($p$)**
+Substitute the values into the momentum formula:
+$$p = \gamma m_e v$$
+$$p = 1.666... \times (9.109 \times 10^{-31} \text{ kg}) \times (0.8 \times 2.998 \times 10^8 \text{ m/s})$$
+
+Using $c \approx 3.00 \times 10^8 \text{ m/s}$:
+$$p = 1.666... \times (9.109 \times 10^{-31}) \times (2.4 \times 10^8)$$
+$$p \approx 3.6436 \times 10^{-22} \text{ kg m s}^{-1}$$
+
+Rounding this to three significant figures gives $3.64 \times 10^{-22} \text{ kg m s}^{-1}$.
+
+Comparing this to the given options, **(B)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

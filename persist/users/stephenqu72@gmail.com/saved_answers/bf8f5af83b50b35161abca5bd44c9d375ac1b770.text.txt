@@ -1,0 +1,29 @@
+To determine the correct answer, we must analyze the two variables—photoelectric current and maximum kinetic energy—based on the principles of the photoelectric effect.
+
+### Analysis
+
+1.  **Maximum Kinetic Energy ($E_k$):**
+    According to Einstein’s photoelectric equation:
+    $$E_k = hf - \Phi$$
+    Where:
+    *   $h$ is Planck's constant
+    *   $f$ is the frequency of the incident light
+    *   $\Phi$ is the work function of the metal (constant for a specific metal)
+
+    If the frequency ($f$) of the incident light increases, the energy per photon ($hf$) increases. Since $\Phi$ remains constant, the maximum kinetic energy ($E_k$) of the ejected photoelectrons must **increase**.
+
+2.  **Photoelectric Current ($I$):**
+    The photoelectric current is directly proportional to the number of photoelectrons emitted per second. This, in turn, depends on the number of photons striking the metal surface per second (provided the frequency is above the threshold frequency). 
+    *   **Intensity** is defined as the energy delivered per unit area per unit time ($I = \frac{\text{Power}}{\text{Area}}$).
+    *   Since the intensity remains constant and the frequency has *increased*, the energy per photon has increased. Therefore, the total number of photons incident per second must **decrease** to keep the total intensity constant.
+    *   Since fewer photons are hitting the surface per second, fewer photoelectrons are emitted, and the photoelectric current **decreases**.
+
+### Conclusion
+When frequency increases while intensity remains constant:
+*   The photoelectric current **decreases** (because fewer photons hit the surface per second).
+*   The maximum kinetic energy **increases** (because each photon carries more energy).
+
+Comparing this to the options, **Option C** is correct.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+As an HSC Physics teacher, here is how you should structure your response to secure full marks.
+
+### Part a) Planck’s Two Fundamental Postulates
+
+To receive full marks here, you must demonstrate knowledge of the transition from classical to quantum physics.
+
+1.  **Energy Quantization:** Atoms in a blackbody can only emit or absorb electromagnetic energy in discrete packets (quanta) called photons. The energy of these quanta is given by the equation $E = hf$, where $h$ is Planck’s constant and $f$ is the frequency of the radiation.
+2.  **Discrete Energy States:** An oscillator (or atom) can only exist in discrete energy levels given by $E = nhf$ (where $n$ is an integer). Radiation is only emitted or absorbed when an oscillator makes a transition between these discrete energy states.
+
+---
+
+### Part b) Explaining the Experimental Data
+
+Classical physics (the Rayleigh-Jeans Law) predicted that as wavelength decreases (frequency increases), the intensity should approach infinity—a failure known as the "Ultraviolet Catastrophe."
+
+Planck’s hypothesis solved this because:
+*   **The Probability Factor:** According to Boltzmann’s distribution, the probability of having a high-energy quantum ($E=hf$) is proportional to $e^{-hf/kT}$.
+*   **High-Frequency Cut-off:** As the frequency ($f$) increases, the energy required for a photon becomes very large. The probability of an oscillator having enough energy to emit such a high-energy photon becomes extremely small.
+*   **Curve Shape:** This effectively suppresses the emission of high-frequency (short wavelength) radiation, causing the intensity curve to drop to zero as it approaches the ultraviolet end of the spectrum, which perfectly matches the experimental curves shown in your provided graph.
+
+---
+
+### Teacher's Tip for Success
+When answering this in an HSC exam, always explicitly mention the **"Ultraviolet Catastrophe"** and link it to the failure of the classical model. Mentioning that the energy levels are not continuous (as classical physics assumed) but are restricted to $E=nhf$ is key to justifying why the intensity curves turn back down at short wavelengths.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,46 @@
+### Answer
+
+To determine the velocity of the Phantom, we must apply the Principle of Conservation of Relativistic Momentum.
+
+**1. Given Data:**
+*   $M = 3.8 \times 10^6 \text{ kg}$
+*   $m = 5.0 \times 10^4 \text{ kg}$
+*   Initial state: $V_i = 0.8c$
+*   Final Ghost velocity: $v_1 = 0.79c$ at $\theta = 1^\circ$
+*   Lorentz factor $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$
+
+**2. Relativistic Momentum:**
+$p = \gamma m v$. Since the velocities are relativistic ($> 0.1c$), we calculate the relativistic mass $M_{rel} = \gamma M_0$.
+*   $\gamma_i = \frac{1}{\sqrt{1 - 0.8^2}} = 1.6667$
+*   $\gamma_1 = \frac{1}{\sqrt{1 - 0.79^2}} = 1.6277$
+
+**3. Momentum Conservation:**
+Total initial momentum: $P_{ix} = (\gamma_i M + \gamma_i m) \times 0.8c$, $P_{iy} = 0$.
+Total final momentum:
+*   $P_{fx} = (\gamma_1 M) \times 0.79c \cos(1^\circ) + (\gamma_2 m) \times v_{2x}$
+*   $P_{fy} = (\gamma_1 M) \times 0.79c \sin(1^\circ) + (\gamma_2 m) \times v_{2y} = 0$
+
+Solving for $v_{2y}$:
+$v_{2y} = -\frac{\gamma_1 M \times 0.79c \sin(1^\circ)}{\gamma_2 m}$
+
+Solving for $v_{2x}$:
+$v_{2x} = \frac{(\gamma_i M + \gamma_i m)0.8c - (\gamma_1 M)0.79c \cos(1^\circ)}{\gamma_2 m}$
+
+Given the high mass ratio and small angle, we approximate $\gamma_2 \approx \gamma_i$ for an initial iteration. Calculating the components:
+*   $P_{ix} = 1.6667(3.8 \times 10^6 + 5.0 \times 10^4) \times 0.8c = 5.143 \times 10^6 c$
+*   $P_{fx\_Ghost} = 1.6277(3.8 \times 10^6) \times 0.79 \cos(1^\circ)c = 4.882 \times 10^6 c$
+*   $P_{fx\_Phantom} = (5.143 - 4.882) \times 10^6 c = 0.261 \times 10^6 c$
+*   $P_{fy\_Phantom} = -(1.6277 \times 3.8 \times 10^6 \times 0.79 \sin(1^\circ))c = -0.0852 \times 10^6 c$
+
+Final velocity magnitude:
+$v_2 = \frac{\sqrt{P_{fx}^2 + P_{fy}^2}}{\gamma_2 m} \approx 0.711c$
+
+### Explanation
+To solve this, you must treat the system as a relativistic collision. Newtonian conservation ($p = mv$) is insufficient because the speeds are a significant fraction of $c$. 
+1.  **Calculate Lorentz factors** for the initial and final states of the "Ghost" to find its relativistic momentum.
+2.  **Define a coordinate system**: Align the initial velocity with the x-axis. 
+3.  **Use vector components**: The total momentum before equals the total momentum after. Since momentum is a vector, you must equate the x-components and y-components separately.
+4.  **Isolate the Phantom's variables**: The Phantom's final momentum components are the difference between the initial total and the Ghost's final components. Use these to find the magnitude and direction of the Phantom's velocity.
+
+###QUESTION_TYPE
+Calculation question

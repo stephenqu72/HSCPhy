@@ -1,0 +1,30 @@
+To answer this question effectively for the HSC Physics exam, you need to connect the concepts of electric potential energy and kinetic energy within the context of the photoelectric effect.
+
+### Answer
+In a photoelectric effect apparatus, light incident on a metal cathode causes the emission of photoelectrons. These electrons possess a range of kinetic energies, up to a maximum value, $K_{max}$. 
+
+By applying a reverse potential (a negative voltage) to the anode relative to the cathode, we create an electric field that exerts a retarding force on the emitted electrons. As the magnitude of this retarding voltage is increased, even the most energetic electrons are eventually slowed down and stopped before they can reach the anode. 
+
+The specific voltage at which the photocurrent drops to zero is defined as the **stopping voltage**, $V_s$. At this point, the work done by the electric field on the most energetic electron is exactly equal to its initial maximum kinetic energy:
+
+$$K_{max} = qV_s$$
+
+Where:
+*   $K_{max}$ is the maximum kinetic energy (in Joules).
+*   $q$ is the elementary charge of an electron ($1.602 \times 10^{-19}$ C).
+*   $V_s$ is the stopping voltage (in Volts).
+
+By measuring the value of $V_s$ on a voltmeter, we can directly determine the maximum kinetic energy of the photoelectrons using the relationship above.
+
+### How to solve it (HSC Teacher Tips)
+1.  **Define the setup:** Mention that the stopping voltage acts as an "energy barrier." It converts kinetic energy into electrical potential energy.
+2.  **Use the correct terminology:** Ensure you refer to the "maximum kinetic energy," not just "kinetic energy," because the photoelectric effect results in electrons with a spectrum of energies. The stopping voltage specifically stops the *fastest* ones.
+3.  **Include the equation:** Always include the relationship $K_{max} = qV_s$. Examiners look for this explicit link.
+4.  **Structure for 4 marks:** 
+    *   1 mark: Describing the setup (reverse voltage/retarding field).
+    *   1 mark: Describing the outcome (current drops to zero/fastest electrons stopped).
+    *   1 mark: Stating the energy conservation principle ($E_{lost} = E_{gained}$).
+    *   1 mark: Providing the correct equation and variables.
+
+###QUESTION_TYPE
+Short answer

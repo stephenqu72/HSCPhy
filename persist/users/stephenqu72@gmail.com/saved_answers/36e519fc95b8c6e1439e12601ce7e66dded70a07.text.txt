@@ -1,0 +1,31 @@
+To determine the temperature of the black body, we use **Wien’s Displacement Law**, which states:
+
+$$\lambda_{\text{max}} T = b$$
+
+Where:
+*   $\lambda_{\text{max}}$ is the wavelength at which the intensity is at its peak.
+*   $T$ is the absolute temperature of the black body in Kelvin.
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+
+### Step-by-Step Solution:
+
+1.  **Identify $\lambda_{\text{max}}$ from the graph:**
+    Looking at the graph, the peak of the intensity curve occurs on the x-axis (wavelength) between $400 \text{ nm}$ and $600 \text{ nm}$. The peak aligns closely with $500 \text{ nm}$.
+    Convert this to meters: 
+    $$\lambda_{\text{max}} = 500 \times 10^{-9} \text{ m} = 5 \times 10^{-7} \text{ m}$$
+
+2.  **Rearrange the formula to solve for $T$:**
+    $$T = \frac{b}{\lambda_{\text{max}}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{5 \times 10^{-7} \text{ m}}$$
+    $$T \approx 0.5796 \times 10^4 \text{ K}$$
+    $$T \approx 5.796 \times 10^3 \text{ K}$$
+
+4.  **Compare with the given options:**
+    The calculated value is approximately $5.8 \times 10^3 \text{ K}$, which corresponds most closely to option (B).
+
+**Answer:** (B)
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we must apply the principles of **Length Contraction** from Einstein's Theory of Special Relativity.
+
+### Step-by-Step Solution:
+
+1.  **Identify the given information:**
+    *   The proper length ($L_0$) is the distance between the observers as measured on Earth (where the observers are at rest): $L_0 = 56.5\text{ m}$.
+    *   The velocity of the spaceship relative to Earth is $v = 0.8c$.
+
+2.  **Recall the Lorentz factor formula:**
+    The Lorentz factor $\gamma$ is given by:
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Substituting $v = 0.8c$:
+    $$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} \approx 1.667$$
+
+3.  **Apply the length contraction formula:**
+    Length contraction states that the length measured by an observer moving relative to the object is:
+    $$L = \frac{L_0}{\gamma}$$
+    Alternatively, using the explicit formula: $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$
+
+4.  **Perform the calculation:**
+    $$L = 56.5 \times \sqrt{1 - 0.64}$$
+    $$L = 56.5 \times \sqrt{0.36}$$
+    $$L = 56.5 \times 0.6$$
+    $$L = 33.9\text{ m}$$
+
+**Conclusion:** The spaceship crew measures the distance to be $33.9\text{ m}$.
+
+Comparing this to the options provided, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

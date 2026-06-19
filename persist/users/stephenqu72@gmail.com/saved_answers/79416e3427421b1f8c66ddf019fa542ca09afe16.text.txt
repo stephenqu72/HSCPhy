@@ -1,0 +1,20 @@
+### Answer and Explanation
+
+**Part a)**
+When you increase the intensity of the incident light (while keeping the frequency constant), you increase the number of photons striking the metal surface per second. Since each photon releases one photoelectron (assuming the frequency is above the threshold frequency), the total number of photoelectrons emitted per second increases. 
+
+*   **The Saturation Current:** This is directly proportional to the intensity. If you triple the intensity, you must triple the saturation current (the flat part of the graph). You should draw a new horizontal line that is three times higher than the original saturation current line.
+*   **The Stopping Voltage (Point A):** Because the frequency of the light remains unchanged, the kinetic energy of the individual emitted photoelectrons remains the same. Therefore, the voltage required to stop them (the stopping voltage at point A) remains unchanged. 
+*   **Sketch:** Draw a new curve starting at the same point A on the voltage axis, which rises to a saturation current level three times the height of the original curve.
+
+**Part b)**
+The point labelled A is called the **stopping voltage** (or stopping potential).
+
+**Part c)**
+The photocurrent falls to zero at point A because the potential difference across the cell is reversed and adjusted to a value that provides just enough electrical work to repel even the most energetic photoelectrons (those with maximum kinetic energy, $E_{k,max}$) back to the emitter plate. Specifically, at this voltage $V_s$, the work done by the electric field $W = qV_s$ equals the maximum kinetic energy of the electrons, preventing them from reaching the collector electrode:
+$$eV_s = E_{k,max}$$
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

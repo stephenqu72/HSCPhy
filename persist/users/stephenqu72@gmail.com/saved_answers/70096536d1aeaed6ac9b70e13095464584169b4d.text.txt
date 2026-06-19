@@ -1,0 +1,20 @@
+### Answer and Explanation
+
+To solve this question, we must apply Einstein’s photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy, $h$ is Planck’s constant, $f$ is the frequency of incident light, and $\Phi$ is the work function of the metal. This equation is in the form of a linear equation $y = mx + c$, where the gradient $m$ is $h$ and the $y$-intercept $c$ is $-\Phi$.
+
+#### (a) Explain the relationship of maximum kinetic energy and frequency as shown on the graph. (3 marks)
+The relationship is **linear and directly proportional** once the threshold frequency is reached. 
+*   **Threshold Frequency:** For any given metal, there is a minimum frequency ($f_0$) below which no photoelectrons are emitted ($K_{max} = 0$). This corresponds to the $x$-intercept of each line.
+*   **Linear Increase:** Once the frequency exceeds the threshold frequency, the maximum kinetic energy of the emitted photoelectrons increases linearly as the frequency of incident light increases.
+*   **Physical Significance:** This demonstrates that energy is delivered to electrons in discrete packets (quanta) called photons, where $E = hf$.
+
+#### (b) Explain why the line for each of the metals shown on the graph has the same gradient. (2 marks)
+*   **Constant Gradient:** The gradient of these graphs represents Planck’s constant ($h$).
+*   **Universality:** Because $h$ is a universal fundamental constant of nature, it does not depend on the material properties of the metal. Since the relationship $K_{max} = hf - \Phi$ dictates that the slope must be equal to $h$, every metal must exhibit the same gradient regardless of its specific work function ($\Phi$).
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

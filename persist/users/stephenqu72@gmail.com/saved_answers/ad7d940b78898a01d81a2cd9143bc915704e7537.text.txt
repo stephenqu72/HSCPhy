@@ -1,0 +1,36 @@
+To solve this problem, we apply the concept of **length contraction** from Einstein’s theory of Special Relativity.
+
+### Answer
+The correct answer is **(B) $0.90 c$**.
+
+### Explanation
+
+1.  **Identify the variables:**
+    *   The proper length ($L_0$), which is the length of the ruler measured by an observer at rest relative to it, is $L_0 = 30\text{ cm}$.
+    *   The observed length ($L$), measured by the person moving relative to the ruler, is $L = 13\text{ cm}$.
+    *   We need to find the relative velocity ($v$) as a fraction of the speed of light ($c$).
+
+2.  **Use the length contraction formula:**
+    The formula for length contraction is:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+3.  **Rearrange the formula to solve for $v$:**
+    Divide both sides by $L_0$:
+    $$\frac{L}{L_0} = \sqrt{1 - \frac{v^2}{c^2}}$$
+    Square both sides:
+    $$\left(\frac{L}{L_0}\right)^2 = 1 - \frac{v^2}{c^2}$$
+    Rearrange to solve for $\frac{v^2}{c^2}$:
+    $$\frac{v^2}{c^2} = 1 - \left(\frac{L}{L_0}\right)^2$$
+    $$v = c \sqrt{1 - \left(\frac{L}{L_0}\right)^2}$$
+
+4.  **Substitute the values:**
+    $$v = c \sqrt{1 - \left(\frac{13}{30}\right)^2}$$
+    $$v = c \sqrt{1 - \frac{169}{900}}$$
+    $$v = c \sqrt{\frac{900 - 169}{900}} = c \sqrt{\frac{731}{900}}$$
+    $$v \approx c \sqrt{0.8122}$$
+    $$v \approx 0.901 c$$
+
+Comparing this result to the given options, $0.90 c$ is the closest value.
+
+###QUESTION_TYPE
+Multiple choice

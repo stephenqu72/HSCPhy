@@ -1,0 +1,27 @@
+To solve this problem, we must apply the laws governing the intensity of light as it passes through polarizers.
+
+### Step-by-Step Explanation:
+
+1.  **First stage (Polarizer):** When unpolarized light with an initial intensity $I_0$ passes through an ideal polarizer, the intensity of the transmitted light ($I_1$) is exactly half of the initial intensity. This is because the polarizer blocks all components of the light wave except those aligned with its transmission axis.
+    $$I_1 = \frac{1}{2} I_0$$
+    Given $I_0 = 76\text{ cd}$:
+    $$I_1 = \frac{76}{2} = 38\text{ cd}$$
+
+2.  **Second stage (Analyser):** When the now-polarized light passes through a second polarizer (the analyser) at an angle $\theta$ relative to the first, we use **Malus's Law**. Malus's Law states that the final intensity ($I_2$) is:
+    $$I_2 = I_1 \cos^2(\theta)$$
+
+3.  **Calculation:**
+    We have $I_1 = 38\text{ cd}$ and $\theta = 40^\circ$.
+    $$I_2 = 38 \times \cos^2(40^\circ)$$
+    Using a calculator:
+    $$\cos(40^\circ) \approx 0.76604$$
+    $$\cos^2(40^\circ) \approx 0.5868$$
+    $$I_2 = 38 \times 0.5868 \approx 22.30\text{ cd}$$
+
+Comparing this result to the given options, the correct answer is **(C)**.
+
+### Answer:
+The intensity of the light after the analyser is **22.30 cd**.
+
+###QUESTION_TYPE
+Multiple choice

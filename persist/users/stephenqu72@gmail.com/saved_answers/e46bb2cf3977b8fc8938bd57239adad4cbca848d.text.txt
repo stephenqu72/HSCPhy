@@ -1,0 +1,27 @@
+To answer this question, we must demonstrate how the two experiments provide evidence for the wave and particle (photon) models of light, respectively.
+
+### Answer and Explanation
+
+**Experiment A: The Wave Model of Light**
+Experiment A demonstrates the **wave nature of light** through interference. When light passes through two narrow slits, it creates an interference pattern on the screen, a phenomenon that can only be explained if light behaves as a wave undergoing diffraction and superposition.
+
+*Quantitative Analysis:*
+The fringe separation $\Delta x$ for a double-slit experiment is given by $\Delta x = \frac{\lambda L}{d}$.
+Given: $\lambda = 400 \text{ nm} = 4.0 \times 10^{-7} \text{ m}$, $L = 3.0 \text{ m}$, and $d = 5.0 \times 10^{-5} \text{ m}$.
+$$\Delta x = \frac{(4.0 \times 10^{-7} \text{ m})(3.0 \text{ m})}{5.0 \times 10^{-5} \text{ m}} = 0.024 \text{ m} = 2.4 \text{ cm}$$
+The existence of a predictable interference pattern with this spacing confirms the wave model of light.
+
+**Experiment B: The Particle (Photon) Model of Light**
+Experiment B demonstrates the **particle nature of light** via the photoelectric effect. The wave theory fails here because it cannot explain why the intensity of light does not cause emission if the frequency is too low; instead, emission depends on the individual photon energy $E = hf = \frac{hc}{\lambda}$.
+
+*Quantitative Analysis:*
+First, calculate the energy of an incoming photon:
+$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \text{ J}\cdot\text{s})(3.0 \times 10^8 \text{ m/s})}{4.0 \times 10^{-7} \text{ m}} \approx 4.97 \times 10^{-19} \text{ J}$$
+Now compare this to the work functions ($\Phi$):
+1. **Nickel:** $\Phi = 8.25 \times 10^{-19} \text{ J}$. Since $E < \Phi$ ($4.97 \times 10^{-19} < 8.25 \times 10^{-19}$), individual photons do not have enough energy to overcome the binding energy of the metal, so no photoelectrons are observed.
+2. **Calcium:** $\Phi = 4.60 \times 10^{-19} \text{ J}$. Since $E > \Phi$ ($4.97 \times 10^{-19} > 4.60 \times 10^{-19}$), each photon has sufficient energy to eject an electron, so photoelectrons are observed.
+
+This confirms light acts as discrete packets (photons) rather than a continuous wave.
+
+### QUESTION_TYPE
+Essay

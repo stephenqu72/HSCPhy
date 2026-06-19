@@ -1,0 +1,31 @@
+To solve this problem, we apply Malus's Law and the rule for unpolarised light passing through a polariser.
+
+### Step-by-Step Solution:
+
+**1. Passing through the first filter:**
+When unpolarised light of intensity $I_0$ passes through an ideal polariser, the intensity of the transmitted light $I_1$ is exactly half of the initial intensity:
+$$I_1 = \frac{I_0}{2} = \frac{128\text{ W m}^{-2}}{2} = 64\text{ W m}^{-2}$$
+
+**2. Passing through the second filter:**
+The light leaving the first filter is now linearly polarised at $0^\circ$. It then passes through the second filter, which is oriented at an angle $\theta$. According to Malus's Law ($I = I_{max} \cos^2\theta$):
+$$I_2 = I_1 \cos^2\theta = 64 \cos^2\theta$$
+
+**3. Passing through the third filter:**
+The light leaving the second filter is polarised at angle $\theta$. The third filter is at $0^\circ$. The relative angle between the light incident on the third filter and its axis is $(0 - \theta) = -\theta$. Applying Malus's Law again:
+$$I_3 = I_2 \cos^2\theta = (64 \cos^2\theta) \cos^2\theta = 64 \cos^4\theta$$
+
+**4. Solve for $\theta$:**
+We are given that the final intensity $I_3 = 16\text{ W m}^{-2}$.
+$$16 = 64 \cos^4\theta$$
+$$\frac{16}{64} = \cos^4\theta$$
+$$\frac{1}{4} = \cos^4\theta$$
+Taking the square root of both sides:
+$$\sqrt{\frac{1}{4}} = \cos^2\theta \implies \frac{1}{2} = \cos^2\theta$$
+Taking the square root again:
+$$\cos\theta = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}}$$
+$$\theta = \arccos\left(\frac{1}{\sqrt{2}}\right) = 45^\circ$$
+
+**Answer:** The angle $\theta$ is $45^\circ$.
+
+###QUESTION_TYPE
+Calculation question

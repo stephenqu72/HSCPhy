@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+To solve this problem, we use Einstein’s photoelectric equation and the relationship between work, force, and electric fields.
+
+#### (a) Show that the maximum kinetic energy is $3.2 \times 10^{-20}\text{ J}$
+
+1.  **Calculate the energy of the incident photon ($E_p$):**
+    Use the formula $E_p = hf$, where $h = 6.626 \times 10^{-34}\text{ J s}$ and $f = 7.5 \times 10^{14}\text{ Hz}$.
+    $$E_p = (6.626 \times 10^{-34}) \times (7.5 \times 10^{14}) \approx 4.97 \times 10^{-19}\text{ J}$$
+
+2.  **Convert the work function ($\Phi$) to Joules:**
+    Given $\Phi = 2.9\text{ eV}$, multiply by $1.602 \times 10^{-19}\text{ J/eV}$.
+    $$\Phi = 2.9 \times 1.602 \times 10^{-19} \approx 4.646 \times 10^{-19}\text{ J}$$
+
+3.  **Apply the photoelectric equation ($K_{\text{max}} = E_p - \Phi$):**
+    $$K_{\text{max}} = 4.97 \times 10^{-19}\text{ J} - 4.646 \times 10^{-19}\text{ J} = 0.324 \times 10^{-19}\text{ J}$$
+    $$K_{\text{max}} \approx 3.2 \times 10^{-20}\text{ J}$$
+    This matches the required value.
+
+#### (b) Calculate the maximum distance $d$
+
+The electric field $E = 5.2\text{ NC}^{-1}$ exerts a force $F = qE$ on the electron that acts in the opposite direction to its motion (since the field lines point away from the metal, the negative electron is pulled back). The electron stops when its initial kinetic energy is completely converted into electric potential energy ($W = F \times d = qEd$).
+
+1.  **Set kinetic energy equal to work done against the field:**
+    $$K_{\text{max}} = qEd$$
+    Where $q = 1.602 \times 10^{-19}\text{ C}$ (the charge of an electron).
+
+2.  **Rearrange for $d$:**
+    $$d = \frac{K_{\text{max}}}{qE}$$
+    $$d = \frac{3.2 \times 10^{-20}\text{ J}}{(1.602 \times 10^{-19}\text{ C}) \times (5.2\text{ NC}^{-1})}$$
+    $$d = \frac{3.2 \times 10^{-20}}{8.33 \times 10^{-19}}$$
+    $$d \approx 0.0384\text{ m} \text{ (or } 3.84\text{ cm)}$$
+
+###QUESTION_TYPE
+Calculation question

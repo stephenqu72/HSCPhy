@@ -1,0 +1,19 @@
+To solve this problem, we must apply our knowledge of **Blackbody Radiation** and **Planck's Hypothesis**.
+
+### Answer
+The correct graph is **D**.
+
+### Explanation
+Planck’s hypothesis describes the spectral distribution of energy radiated by a blackbody. There are two critical physical laws derived from this that allow us to identify the correct graph:
+
+1.  **Stefan-Boltzmann Law:** The total power radiated (the area under the curve) is proportional to the fourth power of the absolute temperature ($P \propto T^4$). As temperature increases, the intensity of radiation at every wavelength increases. Therefore, the curve for $1650\text{ K}$ must be higher than the curve for $1450\text{ K}$, which in turn must be higher than $1250\text{ K}$.
+2.  **Wien’s Displacement Law:** The wavelength at which the peak intensity occurs is inversely proportional to temperature ($\lambda_{max} \propto 1/T$). As temperature increases, the peak shifts toward **shorter wavelengths** (which corresponds to **higher frequencies**).
+
+**Evaluating the graphs:**
+*   **Graphs A and B:** These plot Intensity vs. Wavelength. According to Wien’s law, as temperature increases ($1250\text{ K} \rightarrow 1650\text{ K}$), the peak should move to the **left** (shorter wavelength). In Graph A, the labels are incorrect (higher $T$ is lower). In Graph B, the peak does not shift correctly relative to the temperatures provided in standard blackbody diagrams.
+*   **Graphs C and D:** These plot Intensity vs. Frequency. Since Frequency $f = c/\lambda$, as wavelength decreases, frequency increases. Therefore, as temperature increases, the peak intensity should shift toward the **right** (higher frequency).
+    *   In **Graph C**, the $1650\text{ K}$ curve is the lowest, which violates the Stefan-Boltzmann Law.
+    *   In **Graph D**, the $1650\text{ K}$ curve is the highest (greatest intensity) and its peak is shifted furthest to the right (highest frequency). This is perfectly consistent with Planck’s hypothesis.
+
+### QUESTION_TYPE
+Multiple choice

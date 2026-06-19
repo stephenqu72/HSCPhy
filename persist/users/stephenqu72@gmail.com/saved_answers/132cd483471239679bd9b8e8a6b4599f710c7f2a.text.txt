@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+Incandescent light globes are inefficient because the majority of the energy they emit is in the infrared (IR) spectrum, which is invisible to the human eye. Looking at the provided graph, the peak intensity occurs at a wavelength longer than the red end of the visible spectrum. Since the area under the curve represents total energy emitted, and the vast majority of that area lies to the right of the visible region (in the infrared), most of the electrical energy supplied to the bulb is converted into heat rather than useful visible light.
+
+**Explanation:**
+To solve this, you must identify that efficiency is defined as the ratio of useful energy output (visible light) to total energy input. By observing the graph, you can see that the "visible" region is a narrow strip between blue and red. The curve remains high for a long distance into the longer wavelengths (infrared). Therefore, only a small fraction of the total area under the curve falls within the visible region.
+
+---
+
+#### Part (b)
+**Answer:**
+Classical wave theory (the Rayleigh-Jeans Law) predicted that as wavelength decreases (frequency increases), the intensity of emitted radiation should approach infinity—an error known as the "Ultraviolet Catastrophe." Experimental curves like the one shown, which peak and then drop off at shorter wavelengths, contradict this wave model. 
+
+Max Planck resolved this by proposing that energy is emitted in discrete "packets" or quanta. The energy of these quanta is proportional to the frequency, given by the equation:
+$$E = hf$$
+Where:
+- $E$ is the energy of the photon
+- $h$ is Planck's constant
+- $f$ is the frequency of the light
+
+Because higher-frequency (lower-wavelength) photons require more energy to be produced, the probability of them being emitted by a thermal source at a specific temperature decreases, causing the intensity to drop off at the UV end of the spectrum. This quantization of energy supports the particle model of light.
+
+**Explanation:**
+In HSC Physics, this question tests your understanding of Blackbody Radiation. You need to link the graph's shape to the failure of classical mechanics and explain how the introduction of the photon (particle) concept, governed by the Planck equation $E=hf$, provides the theoretical framework that matches the experimental data.
+
+###QUESTION_TYPE
+Data analysis questions

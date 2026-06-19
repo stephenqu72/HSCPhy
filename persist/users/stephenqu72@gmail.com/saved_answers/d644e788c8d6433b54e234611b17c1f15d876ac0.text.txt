@@ -1,0 +1,26 @@
+To solve this problem, we must apply Einstein’s photoelectric equation:
+
+$$KE_{max} = \frac{hc}{\lambda} - \Phi$$
+
+Where:
+- $KE_{max}$ is the maximum kinetic energy of the emitted electrons.
+- $h$ is Planck's constant.
+- $c$ is the speed of light.
+- $\lambda$ is the wavelength of the incident light.
+- $\Phi$ is the work function of the metal (the minimum energy required to remove an electron).
+
+### Analysis
+1.  **Understanding the graph:** The x-axis represents the wavelength ($\lambda$). The point where each curve hits the x-axis ($KE = 0$) represents the threshold wavelength ($\lambda_0$) for that metal. At this point, the photon energy exactly equals the work function ($\frac{hc}{\lambda_0} = \Phi$).
+2.  **Comparing X and Y:** Looking at the graph, the curve for metal $X$ intersects the x-axis at a smaller wavelength than the curve for metal $Y$. 
+    *   Since $\Phi = \frac{hc}{\lambda_0}$, a smaller threshold wavelength means a **larger work function**. Therefore, $\Phi_X > \Phi_Y$.
+3.  **Evaluating the options:**
+    *   **A:** Incorrect. For a fixed wavelength, the curve for $Y$ is higher than $X$, meaning $Y$ provides more kinetic energy.
+    *   **B:** **Correct.** Since metal $Y$ has a larger threshold wavelength ($\lambda_{0Y} > \lambda_{0X}$), it must have a smaller work function ($\Phi = \frac{hc}{\lambda_0}$).
+    *   **C:** Incorrect. Since $\lambda_{0X} < \lambda_{0Y}$ and $f_0 = \frac{c}{\lambda_0}$, metal $X$ has a higher threshold frequency.
+    *   **D:** Incorrect. A lower work function (metal $Y$) implies that the electrons are held less tightly by the surface compared to $X$.
+
+### Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

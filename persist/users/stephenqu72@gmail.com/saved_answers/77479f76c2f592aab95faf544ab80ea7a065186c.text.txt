@@ -1,0 +1,35 @@
+To solve this photoelectric effect problem, we use the Einstein photoelectric equation:
+$$E_k = hf - \Phi$$
+Since the stopping voltage $V_s$ is defined by $qV_s = E_{k,max}$, we can rewrite this as:
+$$V_s = \frac{h}{e}f - \frac{\Phi}{e}$$
+This is in the form $y = mx + c$, where the slope is $\frac{h}{e}$ and the $y$-intercept is $-\frac{\Phi}{e}$.
+
+### a) Plotting the results
+To plot the graph, place **Frequency ($10^{14}$ Hz)** on the horizontal axis and **Stopping Voltage (V)** on the vertical axis.
+1.  **Scales:** Use $6$ to $11$ ($10^{14}$ Hz) for the x-axis and $0$ to $2.5$ (V) for the y-axis.
+2.  **Points:** Plot $(6.3, 0.5)$, $(7.5, 1.0)$, $(8.7, 1.5)$, and $(10.5, 2.25)$.
+3.  **Line of best fit:** Draw a straight line through these points.
+
+### b) Determining the work function ($\Phi$)
+Find the slope ($m$) using two points: $(7.5, 1.0)$ and $(10.5, 2.25)$.
+$$m = \frac{2.25 - 1.0}{(10.5 - 7.5) \times 10^{14}} = \frac{1.25}{3.0 \times 10^{14}} \approx 4.17 \times 10^{-15} \text{ V}\cdot\text{s}$$
+Using $V_s = \frac{h}{e}f - \frac{\Phi}{e}$, at $f = 7.5 \times 10^{14}$ Hz, $V_s = 1.0$ V:
+$$1.0 = (4.17 \times 10^{-15})(7.5 \times 10^{14}) - \frac{\Phi}{e}$$
+$$1.0 = 3.1275 - \frac{\Phi}{e} \implies \frac{\Phi}{e} \approx 2.13 \text{ V}$$
+Thus, the work function $\Phi \approx 2.13 \text{ eV}$.
+
+### c) Threshold frequency ($f_0$)
+The threshold frequency occurs when $V_s = 0$. Extend your line of best fit to the x-intercept.
+Setting $V_s = 0$ in $V_s = \frac{h}{e}f - \frac{\Phi}{e}$:
+$$0 = (4.17 \times 10^{-15})f_0 - 2.13 \implies f_0 = \frac{2.13}{4.17 \times 10^{-15}} \approx 5.1 \times 10^{14} \text{ Hz}$$
+
+### d) New metal
+A different metal has a different work function, meaning the x-intercept will shift, but the **slope remains constant** because the slope is $\frac{h}{e}$ (a universal constant). Draw a line parallel to the original line but shifted left or right.
+
+### e) Concept of a quantum
+The wave model fails because it predicts that intensity (not frequency) determines electron energy and that there would be a time lag for emission. The quantum model is necessary because:
+1. It explains that light energy is delivered in discrete packets ($E=hf$). One photon interacts with one electron.
+2. It explains the existence of a threshold frequency (below which no emission occurs, regardless of intensity) as the photon energy must exceed the work function to liberate the electron.
+
+###QUESTION_TYPE
+Data analysis questions

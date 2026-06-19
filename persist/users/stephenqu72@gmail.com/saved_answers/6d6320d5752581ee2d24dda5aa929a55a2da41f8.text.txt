@@ -1,0 +1,34 @@
+To solve this problem, we must apply **Malus’s Law** and understand how polarizing filters interact with light.
+
+### Step-by-Step Explanation
+
+1.  **Initial Intensity:** Unpolarised light of intensity $I_0$ passes through a vertically polarised filter. According to the law of Malus for unpolarised light, the intensity becomes $I_x = \frac{I_0}{2}$. Since this filter is fixed as vertical, the light $I_x$ emerging from this first filter is **vertically polarised**.
+
+2.  **Interaction with Glasses:** The light $I_x$ then hits the glasses.
+    *   The left lens ($I_y$) is **vertically polarised**.
+    *   The right lens ($I_z$) is **horizontally polarised**.
+
+3.  **Applying Malus's Law:** Malus's Law states that the transmitted intensity $I$ is given by $I = I_{max} \cos^2(\theta)$, where $\theta$ is the angle between the transmission axis of the polariser and the plane of polarisation of the incident light.
+
+4.  **Analyzing $I_y$ (Vertical lens):** 
+    *   The incident light is vertically polarised, and the lens is vertical. The angle between them is $0^\circ$.
+    *   At $\theta = 0^\circ$ (rotation start), the intensity is at its maximum ($I_{max} = \frac{I_0}{2}$).
+    *   As the filter rotates, the incident light remains vertically polarised (because the first filter is stationary), but the relative alignment between the fixed incident light and the glasses remains constant at $0^\circ$ because the whole apparatus is viewed in the context of the incident light. Wait—re-reading the diagram: the *filter* rotates. 
+    *   Actually, as the *first* filter rotates $180^\circ$, it remains vertically polarised (rotating a vertical filter $180^\circ$ leaves it vertical). Thus, the light striking the glasses remains vertically polarised throughout the motion. 
+    *   $I_y$ (vertical) always aligns with the incident vertical light: $I_y = \frac{I_0}{2} \cos^2(0^\circ) = \text{constant maximum}$. 
+    *   *Correction based on the options:* If the rotation of the filter changes the polarization direction of the light incident on the glasses, then:
+        *   When $\theta = 0^\circ$ (vertical), $I_y$ is max, $I_z$ is $0$.
+        *   When $\theta = 90^\circ$ (horizontal), $I_y$ is $0$, $I_z$ is max.
+        *   When $\theta = 180^\circ$ (vertical), $I_y$ is max, $I_z$ is $0$.
+
+5.  **Conclusion:** 
+    *   $I_y$ starts at max, goes to 0 at $90^\circ$, and returns to max at $180^\circ$.
+    *   $I_z$ starts at 0, goes to max at $90^\circ$, and returns to 0 at $180^\circ$.
+
+Comparing this to the given options, **Option A** correctly shows $I_y$ peaking at the start/end and $I_z$ peaking in the middle.
+
+### Answer
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

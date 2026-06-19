@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **C. Planck and blackbody radiation**.
+
+### Explanation
+To solve this question, we must recognize the characteristics of the graph provided:
+
+1.  **Axes Analysis**: The graph plots Energy (or intensity of radiation) on the y-axis against Wavelength ($\lambda$) on the x-axis for different temperatures ($T$). This is the classic signature of **blackbody radiation** spectra.
+2.  **Key Features**:
+    *   **Wien's Displacement Law**: Notice that as the temperature increases (from $1000K$ to $2000K$), the peak of the curve ($\lambda_m$) shifts to the left, towards shorter wavelengths. This inverse relationship ($\lambda_m \propto 1/T$) is a hallmark of blackbody radiation.
+    *   **Stefan-Boltzmann Law**: Notice that as the temperature increases, the total area under the curve (which represents total energy emitted) increases significantly. This demonstrates that hotter objects emit more total energy.
+3.  **Historical Context**: Classical physics (the Rayleigh-Jeans law) failed to explain these curves, particularly at short wavelengths (leading to the "Ultraviolet Catastrophe"). Max Planck resolved this by introducing the concept of quantization, proposing that energy is radiated in discrete "quanta" ($E = hf$). This theory correctly predicted the shape of these blackbody radiation curves.
+
+**Why the others are incorrect:**
+*   **A (Malus's Law)**: Relates to the intensity of polarized light passing through a polarizer ($I = I_0 \cos^2\theta$). It does not involve temperature-dependent wavelength curves.
+*   **B (Schrodinger/Orbitals)**: Deals with quantum mechanics, wave functions, and the probability density of electrons, not thermal radiation spectra.
+*   **D (Photoelectric Effect)**: While it involves light and energy, it relates to the ejection of electrons from a metal surface when struck by photons of a specific frequency/energy, not the continuous spectral distribution of thermal radiation.
+
+###QUESTION_TYPE
+Multiple choice

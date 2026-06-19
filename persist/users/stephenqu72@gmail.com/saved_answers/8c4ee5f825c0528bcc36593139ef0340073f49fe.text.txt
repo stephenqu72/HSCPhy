@@ -1,0 +1,30 @@
+To determine the correct answer, we must apply **Wien's Displacement Law**, which describes the relationship between the temperature of a black body and the wavelength at which it emits the most radiation.
+
+### The Physics Principle
+Wien's Displacement Law is expressed as:
+$$\lambda_{max} \cdot T = b$$
+Where:
+*   $\lambda_{max}$ is the peak wavelength.
+*   $T$ is the absolute temperature (in Kelvin).
+*   $b$ is Wien's displacement constant (a constant value).
+
+This formula indicates that the peak wavelength is **inversely proportional** to the absolute temperature:
+$$\lambda_{max} \propto \frac{1}{T}$$
+
+### Step-by-Step Solution
+1.  **Identify the initial state:** At temperature $T_1$, the peak wavelength is $\lambda_1$.
+    $$\lambda_1 \cdot T_1 = b$$
+2.  **Identify the final state:** The temperature is changed to $T_2 = 2T_1$. Let the new peak wavelength be $\lambda_2$.
+    $$\lambda_2 \cdot T_2 = b$$
+3.  **Substitute the change in temperature:** Substitute $2T_1$ for $T_2$ into the second equation:
+    $$\lambda_2 \cdot (2T_1) = b$$
+4.  **Solve for $\lambda_2$:** Since both expressions equal $b$, we can set them equal to each other:
+    $$\lambda_2 \cdot 2T_1 = \lambda_1 \cdot T_1$$
+    Divide both sides by $2T_1$:
+    $$\lambda_2 = \frac{\lambda_1 \cdot T_1}{2T_1}$$
+    $$\lambda_2 = \frac{\lambda_1}{2}$$
+
+**Conclusion:** When the temperature doubles, the peak wavelength is halved. Therefore, the correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

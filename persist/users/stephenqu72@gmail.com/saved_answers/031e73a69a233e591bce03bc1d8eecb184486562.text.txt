@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### Part (a)
+To show that muons can reach the Earth's surface, we must demonstrate that the distance they travel during their dilated lifetime is greater than the altitude of $9\text{ km}$.
+
+**Step 1: Calculate the Lorentz factor ($\gamma$)**
+The velocity $v = 0.998c$. The Lorentz factor is given by:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.998^2}} \approx \frac{1}{\sqrt{1 - 0.996004}} \approx \frac{1}{\sqrt{0.003996}} \approx 15.82$$
+
+**Step 2: Calculate the dilated lifetime ($\Delta t_v$)**
+The proper lifetime ($\Delta t_0$) is $2.2\ \mu\text{s} = 2.2 \times 10^{-6}\text{ s}$. As observed from Earth, the muon's lifetime is dilated:
+$$\Delta t_v = \gamma \Delta t_0 = 15.82 \times 2.2 \times 10^{-6}\text{ s} \approx 3.48 \times 10^{-5}\text{ s}$$
+
+**Step 3: Calculate the distance traveled ($d$)**
+Using $d = v \times \Delta t_v$:
+$$d = (0.998 \times 3 \times 10^8\text{ m/s}) \times (3.48 \times 10^{-5}\text{ s})$$
+$$d \approx 2.994 \times 10^8 \times 3.48 \times 10^{-5} \approx 10419\text{ m} \approx 10.4\text{ km}$$
+Since $10.4\text{ km} > 9\text{ km}$, the muons have enough time to reach the Earth's surface.
+
+---
+
+#### Part (b)
+A classic thought experiment Einstein used is the **"Light Clock"** (or the train/platform thought experiment).
+
+*   **The Experiment:** Imagine a light clock consisting of two mirrors with a pulse of light bouncing between them.
+*   **The Stationary Observer:** For an observer at rest with the clock, the light travels a straight vertical path.
+*   **The Moving Observer:** For an observer watching the clock move at a high velocity, the light must follow a diagonal path because the mirrors have moved during the transit time of the light.
+*   **The Conclusion:** Since the speed of light ($c$) is invariant for all observers, and the diagonal path is longer than the vertical path, the time taken for the light to bounce must be longer for the moving observer. This proves that **time is relative** and passes more slowly for an object in motion compared to a stationary observer (time dilation).
+
+###QUESTION_TYPE
+Calculation question

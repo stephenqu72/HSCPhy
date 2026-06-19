@@ -1,0 +1,36 @@
+To solve this problem, we apply Einstein’s photoelectric equation, which relates the energy of incoming photons to the work function of the metal and the maximum kinetic energy of the emitted photoelectrons.
+
+### Part (a) Calculation
+
+**1. Identify the given variables:**
+*   Frequency of light ($f$) = $6.25 \times 10^{14}\text{ Hz}$
+*   Threshold frequency ($f_0$) = $5.50 \times 10^{14}\text{ Hz}$
+*   Planck’s constant ($h$) $\approx 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$
+*   Elementary charge ($e$) $\approx 1.602 \times 10^{-19}\text{ C}$
+
+**2. State the relevant formulas:**
+The photoelectric equation is:
+$$E_k(\text{max}) = hf - \Phi$$
+Since the work function $\Phi = hf_0$, we can write:
+$$E_k(\text{max}) = h(f - f_0)$$
+The stopping potential $V_0$ is defined by the work done to stop the fastest electrons:
+$$E_k(\text{max}) = eV_0 \implies V_0 = \frac{hf - hf_0}{e} = \frac{h(f - f_0)}{e}$$
+
+**3. Perform the calculation:**
+$$V_0 = \frac{(6.626 \times 10^{-34}\text{ J}\cdot\text{s}) \times (6.25 \times 10^{14}\text{ Hz} - 5.50 \times 10^{14}\text{ Hz})}{1.602 \times 10^{-19}\text{ C}}$$
+$$V_0 = \frac{6.626 \times 10^{-34} \times 0.75 \times 10^{14}}{1.602 \times 10^{-19}}$$
+$$V_0 = \frac{4.9695 \times 10^{-20}}{1.602 \times 10^{-19}} \approx 0.31\text{ V}$$
+
+**Answer:** The stopping potential is approximately **$0.31\text{ V}$**.
+
+---
+
+### Part (b) Sketching the Curve
+To sketch the new curve for ultraviolet (UV) light with lower intensity:
+1.  **Stopping Potential:** UV light has a higher frequency than blue light. Therefore, the electrons will have higher kinetic energy, requiring a more negative voltage to stop them. The x-intercept ($V_0$) must be shifted further to the **left**.
+2.  **Saturation Current:** Intensity corresponds to the number of photons hitting the cathode per second. Since the new intensity is lower, the saturation current (the horizontal part of the graph) must be **lower** (closer to the x-axis) than the original curve.
+
+---
+
+###QUESTION_TYPE
+Calculation question

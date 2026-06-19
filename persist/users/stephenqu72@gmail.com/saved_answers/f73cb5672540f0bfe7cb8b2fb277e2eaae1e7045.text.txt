@@ -1,0 +1,24 @@
+To determine which metal will eject photoelectrons with the greatest kinetic energy, we must apply Einstein’s photoelectric equation:
+
+$$KE_{max} = hf - \Phi$$
+
+Where:
+*   $KE_{max}$ is the maximum kinetic energy of the ejected electrons.
+*   $hf$ is the energy of the incident photon (given as $5.18 \text{ eV}$).
+*   $\Phi$ (phi) is the work function of the metal, which represents the minimum energy required to eject an electron from the metal's surface.
+
+### Explanation:
+1.  **Analyze the Equation:** For a constant incident photon energy ($5.18 \text{ eV}$), the kinetic energy ($KE_{max}$) depends solely on the work function ($\Phi$). Specifically, the smaller the work function, the larger the resulting kinetic energy.
+2.  **Understand the Graph:** The x-intercept of a $KE$ vs. Frequency graph represents the **threshold frequency** ($f_0$). At this point, $KE = 0$, so $hf_0 = \Phi$. Therefore, the metal with the lowest threshold frequency has the lowest work function.
+3.  **Compare the Metals:** 
+    *   Looking at the x-axis, the threshold frequency ($f_0$) increases as you move from left to right.
+    *   Silver (solid line) is the furthest to the left, meaning it has the **lowest threshold frequency**.
+    *   Since Silver has the lowest threshold frequency, it has the lowest work function ($\Phi$).
+4.  **Conclusion:** Because $KE_{max} = 5.18 \text{ eV} - \Phi$, subtracting the smallest $\Phi$ (Silver) will yield the largest $KE_{max}$.
+
+Therefore, the metal that will eject photoelectrons with the greatest kinetic energy is **Silver**.
+
+**Correct Answer: C. Silver**
+
+###QUESTION_TYPE
+Multiple choice

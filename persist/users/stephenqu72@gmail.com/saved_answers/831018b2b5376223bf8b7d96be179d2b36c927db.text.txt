@@ -1,0 +1,25 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+The distance to the star as measured by an observer on Earth is $12 \text{ light-years}$.
+
+**Explanation:**
+For an observer on Earth, the spaceship is travelling at a constant velocity $v$ for a time duration $t = 15 \text{ years}$. The distance $d$ to the star in the Earth's frame of reference is given by the formula:
+$$d = v \times t$$
+First, we must determine the velocity $v$ using the concept of time dilation. The time interval measured on Earth ($t = 15 \text{ years}$) is the dilated time, while the time measured by the astronaut ($t_0 = 9.4 \text{ years}$) is the proper time. The relationship is:
+$$t = \gamma t_0$$
+where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. Substituting the values:
+$$15 = \frac{9.4}{\sqrt{1 - \frac{v^2}{c^2}}} \implies \sqrt{1 - \frac{v^2}{c^2}} = \frac{9.4}{15} \approx 0.6267$$
+Squaring both sides:
+$$1 - \frac{v^2}{c^2} = 0.3927 \implies \frac{v^2}{c^2} = 0.6073 \implies v \approx 0.779c$$
+Now, substitute $v$ and $t$ into the distance formula:
+$$d = (0.779c) \times (15 \text{ years}) \approx 11.68 \text{ light-years}$$
+*(Note: If using exact fractions for $\frac{9.4}{15}$, $v = \sqrt{1 - (\frac{9.4}{15})^2}c \approx 0.7793c$. Using $d = vt$, $d = 0.7793 \times 15 = 11.6895 \approx 11.7 \text{ or } 12 \text{ light-years}$ depending on rounding conventions).*
+
+#### Part (b)
+**Answer:**
+Special relativity states that the speed of light in a vacuum, $c$, is the universal speed limit for all matter and information. As an object with mass is accelerated toward the speed of light, its relativistic momentum increases toward infinity. Consequently, an infinite amount of energy would be required to accelerate a massive object to exactly $c$. Therefore, the spaceship can never reach or exceed the speed of light.
+
+### QUESTION_TYPE
+Calculation question

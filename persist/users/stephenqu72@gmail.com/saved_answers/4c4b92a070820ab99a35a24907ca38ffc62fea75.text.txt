@@ -1,0 +1,31 @@
+To find the Lorentz factor ($\gamma$), we use the formula derived from Special Relativity:
+
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### Step-by-Step Calculation:
+
+1.  **Identify the variables:**
+    *   Velocity of the particle, $v = 2.99 \times 10^8 \text{ m s}^{-1}$
+    *   Speed of light, $c = 3.00 \times 10^8 \text{ m s}^{-1}$
+
+2.  **Calculate the ratio $\frac{v}{c}$:**
+    $$\frac{v}{c} = \frac{2.99 \times 10^8}{3.00 \times 10^8} = \frac{2.99}{3.00} = 0.99666...$$
+
+3.  **Square the ratio:**
+    $$\left(\frac{v}{c}\right)^2 = (0.99666...)^2 \approx 0.993344$$
+
+4.  **Calculate $1 - \frac{v^2}{c^2}$:**
+    $$1 - 0.993344 = 0.006656$$
+
+5.  **Calculate $\gamma$:**
+    $$\gamma = \frac{1}{\sqrt{0.006656}} \approx \frac{1}{0.08158} \approx 12.257$$
+
+Comparing this result to the provided options, $12.3$ is the closest value.
+
+**Correct Answer: C**
+
+### Explanation:
+The Lorentz factor $\gamma$ describes how much time, length, and relativistic mass change for an object moving at a significant fraction of the speed of light. As an object approaches the speed of light ($v \to c$), the value inside the square root approaches zero, causing $\gamma$ to increase rapidly toward infinity. In this case, because the particle is moving at $99.67\%$ of the speed of light, we expect a relatively large Lorentz factor, confirming that $12.3$ is the correct magnitude.
+
+###QUESTION_TYPE
+Multiple choice

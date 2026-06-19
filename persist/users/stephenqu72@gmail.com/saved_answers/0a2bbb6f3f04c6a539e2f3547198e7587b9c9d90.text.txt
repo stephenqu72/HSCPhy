@@ -1,0 +1,25 @@
+To verify Malus’s Law, which states that the intensity of polarized light transmitted through a second polarizer (analyzer) is given by $I = I_0 \cos^2(\theta)$, follow the procedure below.
+
+### Procedure
+1. **Setup:** Place a laser (or light source) on a bench. Position a fixed polarizer (the polarizer) in front of the source to ensure the light is linearly polarized.
+2. **Mounting:** Position a second polarizer (the analyzer) on a rotating mount equipped with an angular scale behind the first polarizer.
+3. **Detection:** Place a light sensor or photodiode directly behind the analyzer to measure the transmitted light intensity.
+4. **Data Collection:** Ensure the analyzer scale is set to $0^\circ$ (where intensity is maximized). Record the intensity $I$ as you rotate the analyzer in increments of $10^\circ$ through a full $180^\circ$.
+5. **Analysis:** Plot a graph of $I$ (y-axis) against $\cos^2(\theta)$ (x-axis). If Malus’s Law holds, you should obtain a straight line passing through the origin with a gradient equal to the initial intensity $I_0$.
+
+### Diagram
+```text
+[Light Source] --> [Polarizer] --> [Analyzer (rotatable)] --> [Light Sensor]
+                                     |
+                                  (Angle θ)
+```
+
+### Explanation for Success
+To secure the full 5 marks, keep these tips in mind:
+*   **Variable Identification:** You must clearly identify the independent variable (the angle $\theta$ of the analyzer) and the dependent variable (the light intensity $I$).
+*   **Safety/Accuracy:** Mention ensuring the light source is stable and that background light is minimized (e.g., performing the experiment in a darkened room) to ensure the sensor readings are accurate.
+*   **Mathematical Verification:** HSC markers look for how you intend to prove the law. Simply collecting data is not enough; you must describe the relationship to be tested—specifically that plotting $I$ vs $\cos^2(\theta)$ results in a linear relationship.
+*   **Diagram:** A simple, labelled diagram is essential for high marks in experimental design questions.
+
+###QUESTION_TYPE
+Experimental questions

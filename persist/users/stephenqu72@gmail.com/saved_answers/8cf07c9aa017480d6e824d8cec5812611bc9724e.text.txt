@@ -1,0 +1,26 @@
+### Answer
+The correct graph is **B**.
+
+---
+
+### Explanation
+To determine the relationship between the maximum kinetic energy of emitted electrons ($E_{k \text{ max}}$) and the wavelength of the incident photons ($\lambda$), we use the photoelectric equation provided:
+
+$$E_{k \text{ max}} = E - W$$
+
+We know that the energy of a photon $E$ is related to its wavelength $\lambda$ by the equation:
+$$E = \frac{hc}{\lambda}$$
+where $h$ is Planck’s constant and $c$ is the speed of light.
+
+Substituting this into the initial equation, we get:
+$$E_{k \text{ max}} = \frac{hc}{\lambda} - W$$
+
+**Analysis:**
+1. **Inverse proportionality:** Since $E_{k \text{ max}}$ is proportional to $1/\lambda$, as the wavelength $\lambda$ increases, the energy of the photon decreases, which leads to a decrease in the maximum kinetic energy of the electrons. This rules out graph C.
+2. **Threshold Wavelength:** Photoelectric emission only occurs when the photon energy $E \geq W$. This means there is a maximum wavelength (the threshold wavelength, $\lambda_0$) beyond which no electrons are emitted. When $\lambda = \lambda_0$, $E_{k \text{ max}} = 0$.
+3. **Shape of the curve:** The equation $E_{k \text{ max}} = \frac{hc}{\lambda} - W$ is in the form of a hyperbola shifted downwards by the constant $W$. As $\lambda$ approaches zero, $E_{k \text{ max}}$ approaches infinity. As $\lambda$ increases towards the threshold wavelength, the kinetic energy decreases following a reciprocal curve.
+
+Graph **B** correctly represents this inverse relationship, showing $E_{k \text{ max}}$ decreasing asymptotically toward the x-axis as $\lambda$ increases.
+
+###QUESTION_TYPE
+Multiple choice

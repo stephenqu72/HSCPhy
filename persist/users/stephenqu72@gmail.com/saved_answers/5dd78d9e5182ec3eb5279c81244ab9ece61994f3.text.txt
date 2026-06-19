@@ -1,0 +1,28 @@
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of polarized light changes when it passes through a polarizing filter (like sunglasses).
+
+### Explanation
+
+1.  **Understand the Physics:** Malus's Law states that when a beam of plane-polarized light of intensity $I_{in}$ is incident on a polarizer, the intensity of the light transmitted ($I_{out}$) is given by:
+    $$I_{out} = I_{in} \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axis of the polarizer and the polarization direction of the incident light.
+
+2.  **Analyze the Scenario:**
+    *   The light entering the window already has an intensity $I_o$ and is polarized by the window.
+    *   Tomas's sunglasses act as a second polarizer.
+    *   The problem states the sunglasses are at an angle $\theta = 45^\circ$ relative to the window's polarization axis.
+
+3.  **Perform the Calculation:**
+    Substitute the known values into the equation:
+    $$I = I_o \cos^2(45^\circ)$$
+    We know that $\cos(45^\circ) = \frac{1}{\sqrt{2}}$, so:
+    $$\cos^2(45^\circ) = \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} = 0.5$$
+    Therefore:
+    $$I = 0.5 I_o$$
+
+Comparing this to the given options, the correct answer is **C**.
+
+### Answer
+**C. $0.50 I_o$**
+
+###QUESTION_TYPE
+Multiple choice

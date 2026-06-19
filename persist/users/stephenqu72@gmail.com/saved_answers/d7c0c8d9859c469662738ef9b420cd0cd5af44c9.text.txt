@@ -1,0 +1,36 @@
+To solve this problem, we must apply the concept of **Length Contraction** from Einstein's Theory of Special Relativity.
+
+### The Physics Principles
+1.  **Proper Length ($L_0$):** This is the length of an object measured by an observer at rest relative to the object. In this scenario, this is the length measured by the person on board the spaceship.
+2.  **Contracted Length ($L$):** This is the length measured by an observer who is moving relative to the object. Here, the observer on the stationary space platform sees the spaceship moving at velocity $v$, so they measure the contracted length.
+3.  **The Formula:** 
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    where $v$ is the velocity of the spaceship and $c$ is the speed of light ($c \approx 3.0 \times 10^8 \text{ m s}^{-1}$).
+
+### Step-by-Step Calculation
+
+**1. Identify the given values:**
+*   Contracted length measured by the observer on the platform: $L = 150 \text{ m}$
+*   Velocity of the spaceship: $v = 5.0 \times 10^7 \text{ m s}^{-1}$
+*   Speed of light: $c = 3.0 \times 10^8 \text{ m s}^{-1}$
+
+**2. Rearrange the formula to find the proper length ($L_0$):**
+$$L_0 = \frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**3. Calculate the ratio $\frac{v}{c}$:**
+$$\frac{v}{c} = \frac{5.0 \times 10^7}{3.0 \times 10^8} = \frac{1}{6} \approx 0.1667$$
+
+**4. Calculate the Lorentz factor term:**
+$$\left(\frac{v}{c}\right)^2 = \left(\frac{1}{6}\right)^2 = \frac{1}{36} \approx 0.02778$$
+$$\sqrt{1 - 0.02778} = \sqrt{0.97222} \approx 0.986$$
+
+**5. Solve for $L_0$:**
+$$L_0 = \frac{150}{0.986} \approx 152.13 \text{ m}$$
+
+Rounding to the nearest whole number, we get $152 \text{ m}$.
+
+### Conclusion
+The length of the spaceship as measured by someone on board is the proper length, which must be greater than the contracted length measured by the outside observer. Comparing our result to the options provided, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

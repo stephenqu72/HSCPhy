@@ -1,0 +1,33 @@
+To solve this problem, we apply the principles of Special Relativity, specifically **time dilation**.
+
+### a) Calculate the lifetime of the muons as measured by a stationary observer on the ground.
+
+The proper time ($\Delta t_0$) is the time measured in the frame of reference of the muon, which is $2.2 \times 10^{-6} \text{ s}$. The observer on the ground measures a dilated time ($\Delta t$).
+
+**1. Identify the variables:**
+- Proper time, $\Delta t_0 = 2.2 \times 10^{-6} \text{ s}$
+- Velocity, $v = 0.995c$
+- Speed of light, $c \approx 3 \times 10^8 \text{ m/s}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - (0.995)^2}} = \frac{1}{\sqrt{1 - 0.990025}} = \frac{1}{\sqrt{0.009975}} \approx 10.0125$$
+
+**3. Calculate dilated time ($\Delta t$):**
+$$\Delta t = \gamma \Delta t_0 = 10.0125 \times 2.2 \times 10^{-6} \text{ s} \approx 2.20 \times 10^{-5} \text{ s}$$
+
+**Answer:** The lifetime as measured by a stationary observer is approximately $2.20 \times 10^{-5} \text{ s}$ (or $22.0 \text{ \mu s}$).
+
+---
+
+### b) Explain why many more muons reached the ground than would be predicted by classical physics.
+
+According to **classical physics** (Galilean relativity), the distance a muon can travel before decaying is $d = v \times t = 0.995c \times 2.2 \times 10^{-6} \approx 656 \text{ m}$. Since the mountain is $2627 \text{ m}$ high, classical physics predicts the muons would decay long before reaching the ground.
+
+However, according to **Special Relativity**:
+1. **Time Dilation:** Due to the muon's high speed relative to the observer, the muon's internal "clock" runs slower. Consequently, the muon exists for a longer period in the ground observer's frame ($22.0 \text{ \mu s}$ instead of $2.2 \text{ \mu s}$), allowing it to travel a much greater distance ($\approx 6560 \text{ m}$) before decaying.
+2. **Length Contraction:** Alternatively, from the muon's perspective, the mountain is length-contracted to a much smaller height, allowing the muon to traverse the distance within its short proper lifetime of $2.2 \text{ \mu s}$.
+
+Because of these relativistic effects, a significant proportion of the muons survive the journey to the ground.
+
+###QUESTION_TYPE
+Calculation question

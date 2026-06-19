@@ -1,0 +1,30 @@
+To solve this problem, we need to relate the measured photocurrent to the number of electrons (and therefore photons) emitted per second.
+
+### Step-by-Step Explanation:
+
+**1. Understand the Relationship:**
+The photocurrent ($I$) is the rate of flow of charge. The formula relating current to charge is:
+$$I = \frac{Q}{t}$$
+Since we are looking at a duration of $t = 1 \text{ second}$, the total charge $Q$ is equal to the current $I$ in Coulombs.
+$$Q = I \times t = (0.80 \times 10^{-6} \text{ A}) \times (1 \text{ s}) = 8.0 \times 10^{-7} \text{ C}$$
+
+**2. Relate Charge to the Number of Electrons:**
+The total charge $Q$ is made up of $n$ individual photoelectrons, each with an elementary charge $e \approx 1.6 \times 10^{-19} \text{ C}$.
+$$Q = n \times e$$
+$$n = \frac{Q}{e} = \frac{8.0 \times 10^{-7} \text{ C}}{1.6 \times 10^{-19} \text{ C}}$$
+$$n = 5.0 \times 10^{12}$$
+
+**3. Relate Electrons to Photons:**
+In the photoelectric effect, a single incident photon that results in the emission of an electron transfers its energy to that electron. Therefore, the number of photoelectrons emitted per second is equal to the number of photons absorbed per second (assuming a quantum efficiency of 1, which is the standard assumption for this type of problem unless stated otherwise).
+
+**Conclusion:**
+The number of photons is $5.0 \times 10^{12}$. Comparing this to the given options:
+A. $1.0 \times 10^6$
+B. $2.0 \times 10^9$
+C. $5.0 \times 10^{12}$
+D. $8.0 \times 10^{15}$
+
+The correct option is **C**.
+
+###QUESTION_TYPE
+Calculation question

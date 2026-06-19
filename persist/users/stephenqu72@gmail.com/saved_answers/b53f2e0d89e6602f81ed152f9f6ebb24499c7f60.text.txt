@@ -1,0 +1,44 @@
+To determine the proper length of Spaceship $Y$, we use the principle of **length contraction** from Einstein's Special Theory of Relativity.
+
+### Answer
+The correct option is **C. 450 m**.
+
+### Explanation
+
+**1. Understand the concepts:**
+*   **Proper length ($L_0$):** This is the length of an object measured in its own rest frame (the frame where the object is stationary).
+*   **Contracted length ($L$):** This is the length measured by an observer who is moving relative to the object.
+*   **The formula:** The relationship between these two is given by:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    Alternatively, this can be written using the Lorentz factor $\gamma$ as $L = \frac{L_0}{\gamma}$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+
+**2. Identify the given values:**
+*   The contracted length ($L$) = $150\text{ m}$.
+*   The velocity ($v$) = $0.95c$.
+
+**3. Set up the calculation:**
+We need to solve for $L_0$:
+$$L_0 = \frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+Substitute the values:
+$$L_0 = \frac{150}{\sqrt{1 - (0.95)^2}}$$
+$$L_0 = \frac{150}{\sqrt{1 - 0.9025}}$$
+$$L_0 = \frac{150}{\sqrt{0.0975}}$$
+
+Calculate the square root:
+$$\sqrt{0.0975} \approx 0.31225$$
+
+Now, solve for $L_0$:
+$$L_0 \approx \frac{150}{0.31225} \approx 480.38\text{ m}$$
+
+**4. Select the best fit:**
+Comparing our result of approximately $480\text{ m}$ to the options provided:
+A. 50 m
+B. 150 m
+C. 450 m
+D. 900 m
+
+Option **C (450 m)** is the closest value to our calculated result.
+
+###QUESTION_TYPE
+Multiple choice

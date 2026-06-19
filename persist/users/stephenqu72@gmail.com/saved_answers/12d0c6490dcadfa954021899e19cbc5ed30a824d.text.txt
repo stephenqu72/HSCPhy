@@ -1,0 +1,30 @@
+### Answer
+
+Einstein’s model of light as discrete quanta (photons) was necessary to resolve the failure of the classical wave theory of light to explain the **photoelectric effect**.
+
+**Why the classical model was insufficient:**
+According to classical electromagnetic theory, light was considered a continuous wave. It predicted that the energy of the emitted electrons should depend on the *intensity* (amplitude) of the light, regardless of its frequency. It also predicted that if light of any frequency were shone on a metal surface for long enough, it would eventually provide enough energy for an electron to be ejected. However, experimental observations showed:
+1.  **Threshold Frequency:** No electrons are ejected below a specific minimum frequency ($f_0$), regardless of the light's intensity.
+2.  **Instantaneous Emission:** Emission occurs instantly if the frequency is high enough, with no time lag for energy accumulation.
+3.  **Kinetic Energy dependence:** The maximum kinetic energy of emitted electrons depends only on the frequency of the incident light, not its intensity.
+
+**How Einstein’s model accounted for observations:**
+Einstein proposed that light consists of packets of energy called photons, where the energy of each photon is given by $E = hf$ (where $h$ is Planck's constant and $f$ is frequency).
+*   **Threshold frequency:** A single photon must have enough energy to overcome the work function ($\Phi$) of the metal (the energy required to release an electron). If $hf < \Phi$, no emission occurs, regardless of how many photons (intensity) are present.
+*   **Instantaneous emission:** Energy is transferred in a discrete "one-to-one" interaction between a single photon and a single electron, meaning no time is needed to "accumulate" energy.
+*   **Kinetic energy:** By the law of conservation of energy, the incident photon energy is split between the work function and the kinetic energy ($K_{max}$) of the electron:
+    $$hf = \Phi + K_{max}$$
+    Increasing the frequency increases the energy of the individual photons, thereby increasing the kinetic energy of the ejected electrons.
+
+---
+
+### How to solve this question
+1.  **Identify the context:** This is a classic Physics HSC question regarding the transition from classical to quantum physics.
+2.  **Structure your argument:**
+    *   **Part 1 (The Problem):** Define why the classical model failed. Highlight the discrepancy between wave theory predictions (intensity = energy) and experimental evidence (frequency = energy).
+    *   **Part 2 (The Solution):** State Einstein's postulate: Light behaves as quantized particles (photons).
+    *   **Part 3 (The Evidence):** Use the equation $E = hf$ and $hf = \Phi + K_{max}$ to logically explain the three experimental observations (threshold frequency, instantaneous emission, and the role of frequency in kinetic energy).
+3.  **Check for marks:** Since this is a 6-mark question, ensure you provide both the *necessity* for the new model and a detailed *description* of how it explains the phenomenon. Use technical terms like "work function" and "threshold frequency."
+
+###QUESTION_TYPE
+Short answer

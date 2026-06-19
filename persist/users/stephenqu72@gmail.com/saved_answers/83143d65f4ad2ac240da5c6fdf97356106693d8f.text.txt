@@ -1,0 +1,28 @@
+To solve this problem, we use the photoelectric effect equation: $E_k = E_{photon} - \Phi$, where $E_k$ is the maximum kinetic energy, $E_{photon}$ is the energy of the incident photon, and $\Phi$ is the work function of the metal.
+
+### Part (a): Determine the maximum kinetic energy
+
+1. **Calculate the energy of the incident photon ($E_{photon}$):**
+   The formula is $E = \frac{hc}{\lambda}$.
+   Given: $h = 6.626 \times 10^{-34}\ \text{J}\cdot\text{s}$, $c = 3.0 \times 10^8\ \text{m/s}$, and $\lambda = 10 \times 10^{-9}\ \text{m}$.
+   $$E = \frac{(6.626 \times 10^{-34}) \times (3.0 \times 10^8)}{10 \times 10^{-9}} = 1.9878 \times 10^{-17}\ \text{J}$$
+   Convert this to electron-volts (eV) by dividing by $1.602 \times 10^{-19}\ \text{J/eV}$:
+   $$E_{eV} = \frac{1.9878 \times 10^{-17}}{1.602 \times 10^{-19}} \approx 124.08\ \text{eV}$$
+
+2. **Calculate Maximum Kinetic Energy ($E_k$):**
+   Using $E_k = E_{photon} - \Phi$:
+   $$E_k = 124.08\ \text{eV} - 4.7\ \text{eV} = 119.38\ \text{eV}$$
+   Rounding to appropriate significant figures based on the input (e.g., 2 sig figs), we get $\approx 1.2 \times 10^2\ \text{eV}$.
+
+### Part (b): Calculate the threshold frequency
+
+The threshold frequency ($f_0$) is defined by the work function $\Phi = hf_0$.
+Given $\Phi = 4.7\ \text{eV}$, convert it to Joules:
+$$\Phi = 4.7 \times 1.602 \times 10^{-19}\ \text{J} = 7.5294 \times 10^{-19}\ \text{J}$$
+Now solve for $f_0$:
+$$f_0 = \frac{\Phi}{h} = \frac{7.5294 \times 10^{-19}\ \text{J}}{6.626 \times 10^{-34}\ \text{J}\cdot\text{s}} \approx 1.14 \times 10^{15}\ \text{Hz}$$
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,27 @@
+To solve this problem, we use the photoelectric equation:
+$$E_{k \text{ max}} = hf - \phi$$
+This is in the form $y = mx + c$, where the slope is $h$, the x-intercept is the threshold frequency ($f_0$), and the y-intercept is the work function ($-\phi$).
+
+### Part a)
+**i. Planck's constant ($h$):**
+The slope is $\frac{\Delta E_k}{\Delta f}$. Using the points $(4 \times 10^{14}, 0)$ and $(7 \times 10^{14}, 2.0)$:
+$$h = \frac{2.0\text{ eV} - 0\text{ eV}}{(7 - 4) \times 10^{14}\text{ Hz}} = \frac{2.0\text{ eV}}{3 \times 10^{14}\text{ Hz}} \approx 6.67 \times 10^{-15}\text{ eV s}$$
+*(Note: To convert to $J s$, multiply by $1.6 \times 10^{-19} J/eV \approx 1.07 \times 10^{-33} J s$. Usually, in this context, $6.6 \times 10^{-15}\text{ eV s}$ is acceptable.)*
+
+**ii. Maximum wavelength ($\lambda_{\text{max}}$):**
+This occurs at the threshold frequency $f_0 = 4 \times 10^{14}\text{ Hz}$.
+$$\lambda = \frac{c}{f} = \frac{3 \times 10^8\text{ m/s}}{4 \times 10^{14}\text{ Hz}} = 7.5 \times 10^{-7}\text{ m} = 750\text{ nm}$$
+
+**iii. Work function ($\phi$):**
+From the graph, the y-intercept is at $E_k = -1.6\text{ eV}$ (or calculate $\phi = hf_0 = 6.67 \times 10^{-15} \times 4 \times 10^{14} \approx 2.67\text{ eV}$). Using the visual intercept is safer: $\phi = 1.6\text{ eV}$.
+
+---
+
+### Part b)
+If the new work function is $\phi' = \frac{1}{2}\phi$, the new threshold frequency $f_0'$ must be half of the original ($f_0' = 2 \times 10^{14}\text{ Hz}$).
+Since $h$ (the slope) is a fundamental constant, the line must be parallel to the original.
+1.  **New x-intercept:** Plot a point at $f = 2 \times 10^{14}\text{ Hz}$ on the x-axis.
+2.  **Draw the line:** Draw a line starting from $(2, 0)$ with the same slope as the original line. It will pass through $(4, 1.0)$ and $(6, 2.0)$.
+
+###QUESTION_TYPE
+Calculation question

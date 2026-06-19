@@ -1,0 +1,31 @@
+To solve this problem, we apply the principle of **time dilation** from Einstein's Special Theory of Relativity.
+
+### Explanation
+
+1.  **Identify the variables:**
+    *   The proper time ($t_0$) is the time measured by an observer in the reference frame of the spaceship, where the two events (start and end of the interval) occur at the same place. Here, $t_0 = 2.5 \text{ hours}$.
+    *   The dilated time ($t$) is the time measured by the Earth observer, who sees the ship moving relative to them. Here, $t = 4 \text{ hours}$.
+
+2.  **Use the time dilation formula:**
+    $$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Where $v$ is the velocity of the spaceship and $c$ is the speed of light.
+
+3.  **Rearrange the formula to solve for $v$:**
+    $$\sqrt{1 - \frac{v^2}{c^2}} = \frac{t_0}{t}$$
+    $$1 - \frac{v^2}{c^2} = \left(\frac{t_0}{t}\right)^2$$
+    $$\frac{v^2}{c^2} = 1 - \left(\frac{t_0}{t}\right)^2$$
+    $$v = c \sqrt{1 - \left(\frac{t_0}{t}\right)^2}$$
+
+4.  **Substitute the values:**
+    $$v = c \sqrt{1 - \left(\frac{2.5}{4}\right)^2}$$
+    $$v = c \sqrt{1 - (0.625)^2}$$
+    $$v = c \sqrt{1 - 0.390625}$$
+    $$v = c \sqrt{0.609375}$$
+    $$v \approx 0.7806 c$$
+
+Rounding to two decimal places, we get $0.78 c$.
+
+**Correct Option:** **(C)**
+
+###QUESTION_TYPE
+Multiple choice

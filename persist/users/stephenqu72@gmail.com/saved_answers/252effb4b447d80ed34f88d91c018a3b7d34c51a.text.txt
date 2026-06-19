@@ -1,0 +1,21 @@
+To determine the correct answer, we must use Einstein’s photoelectric equation, which describes the relationship between the energy of incident photons and the kinetic energy of emitted electrons:
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $K_{max}$ is the maximum kinetic energy of the emitted electrons.
+*   $h$ is Planck's constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ (phi) is the work function of the metal (the minimum energy required to remove an electron from the surface).
+
+### Analysis:
+To increase the kinetic energy ($K_{max}$) of the emitted electrons, we look at the variables in the equation:
+1.  **Frequency ($f$):** Since $f$ is multiplied by $h$, **increasing** the frequency of the incident light increases the energy of each incoming photon, thereby increasing the kinetic energy of the emitted electrons.
+2.  **Work function ($\Phi$):** Since $\Phi$ is subtracted in the equation, **decreasing** the work function means less energy is required to eject the electron, leaving more energy to be expressed as kinetic energy.
+3.  **Intensity:** Intensity refers to the number of photons striking the surface per second. Increasing intensity increases the *number* of electrons emitted (photocurrent), but it does **not** change the energy of individual photons. Therefore, intensity has no effect on $K_{max}$.
+
+### Conclusion:
+We need to **increase** the frequency and **decrease** the work function. The intensity change does not affect the kinetic energy, so it can be either increased or decreased (or kept the same) without affecting the outcome. Looking at the options provided, **Option B** is the correct choice because it pairs an increase in frequency with a decrease in work function.
+
+###QUESTION_TYPE
+Multiple choice

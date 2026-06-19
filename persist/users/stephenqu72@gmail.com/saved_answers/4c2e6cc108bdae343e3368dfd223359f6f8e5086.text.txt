@@ -1,0 +1,30 @@
+To solve this problem, we rely on Einstein’s photoelectric equation, which is given by:
+
+$$E_k = hf - \Phi$$
+
+Where:
+*   $E_k$ is the maximum kinetic energy of the emitted photoelectrons.
+*   $h$ is Planck’s constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ is the work function of the metal.
+
+---
+
+### Answers and Explanations
+
+**(a) Why are the slopes of the lines identical?**
+
+The slope of a graph plotting $E_k$ vs $f$ is given by the derivative $\frac{dE_k}{df}$. From the equation $E_k = hf - \Phi$, it is clear that the slope is equal to Planck's constant ($h$). Since Planck's constant is a universal physical constant, the slope is the same for all metals regardless of their specific work functions.
+
+**(b) What does the point $f_{01}$ represent?**
+
+The point $f_{01}$ represents the **threshold frequency** for metal 1. This is the minimum frequency of incident radiation required to eject an electron from the surface of that specific metal. At this frequency, the incident photon energy is exactly equal to the work function, meaning the kinetic energy of the emitted electron is zero ($E_k = 0$).
+
+**(c) How did Einstein explain that, below a certain frequency, emission of photoelectrons did not occur, no matter how intense the light?**
+
+Einstein proposed that light consists of discrete "quanta" or particles called photons. Each individual photon carries an energy proportional to its frequency, defined by $E = hf$. 
+
+Emission occurs only if an individual photon has enough energy to overcome the binding energy (work function) of the metal. If the frequency is below the threshold frequency, a single photon does not have sufficient energy to liberate an electron, regardless of the light's intensity. Increasing intensity only increases the *number* of photons hitting the surface, but it does not change the energy of each *individual* photon. Since the interaction is a "one-photon to one-electron" process, if the individual photon lacks the energy, no amount of intensity will trigger emission.
+
+###QUESTION_TYPE
+Data analysis questions

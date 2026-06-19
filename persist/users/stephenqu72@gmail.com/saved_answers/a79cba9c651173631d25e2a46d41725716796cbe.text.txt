@@ -1,0 +1,38 @@
+To solve this problem, we use the principles of the photoelectric effect.
+
+### (a) Determine the maximum energy of the incident photons
+
+**Calculation:**
+The energy ($E$) of a photon is given by the formula:
+$$E = \frac{hc}{\lambda}$$
+
+Where:
+- $h$ (Planck's constant) $\approx 6.626 \times 10^{-34}\text{ J s}$
+- $c$ (speed of light) $\approx 3.00 \times 10^{8}\text{ m/s}$
+- $\lambda$ (wavelength) $= 510.6\text{ nm} = 510.6 \times 10^{-9}\text{ m}$
+
+Substituting the values:
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^{8})}{510.6 \times 10^{-9}}$$
+$$E \approx 3.89 \times 10^{-19}\text{ J}$$
+
+**Explanation:**
+To find the energy of a photon, you must use the relationship between energy, Planck's constant, and the wavelength of light. Always ensure your wavelength is converted from nanometers ($10^{-9}\text{ m}$) to meters before calculating to maintain SI unit consistency.
+
+---
+
+### (b) Calculate the work function of the silicon in joules
+
+**Calculation:**
+According to Einstein's photoelectric equation:
+$$E_{\text{photon}} = \Phi + E_k(\text{max})$$
+
+Where $\Phi$ is the work function and $E_k(\text{max})$ is the maximum kinetic energy given as $5.36 \times 10^{-20}\text{ J}$. Rearranging for $\Phi$:
+$$\Phi = E_{\text{photon}} - E_k(\text{max})$$
+$$\Phi = (3.89 \times 10^{-19}\text{ J}) - (0.536 \times 10^{-19}\text{ J})$$
+$$\Phi \approx 3.35 \times 10^{-19}\text{ J}$$
+
+**Explanation:**
+The work function is the minimum energy required to remove an electron from the surface of a metal. The incident photon's energy is split into two parts: the energy required to "break" the electron free (the work function) and the remaining energy which becomes the electron's kinetic energy. By subtracting the kinetic energy from the total photon energy calculated in part (a), we find the work function.
+
+###QUESTION_TYPE
+Calculation question

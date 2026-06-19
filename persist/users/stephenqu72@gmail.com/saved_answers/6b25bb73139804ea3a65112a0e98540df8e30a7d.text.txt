@@ -1,0 +1,33 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through these relativistic momentum problems. 
+
+### Part (a): Calculation
+To calculate the relativistic momentum ($p$) of an electron, we use the formula:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**1. Identify constants:**
+* Mass of electron ($m$) $\approx 9.11 \times 10^{-31} \text{ kg}$
+* Velocity ($v$) $= 0.4c$
+* Speed of light ($c$) $\approx 3.00 \times 10^8 \text{ m/s}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+$$\gamma = \frac{1}{\sqrt{1 - (0.4)^2}} = \frac{1}{\sqrt{1 - 0.16}} = \frac{1}{\sqrt{0.84}} \approx 1.091$$
+
+**3. Calculate momentum:**
+$$p = 1.091 \times (9.11 \times 10^{-31} \text{ kg}) \times (0.4 \times 3.00 \times 10^8 \text{ m/s})$$
+$$p \approx 1.091 \times 9.11 \times 10^{-31} \times 1.2 \times 10^8$$
+$$p \approx 1.19 \times 10^{-22} \text{ kg m/s}$$
+
+---
+
+### Part (b): Explanation
+In classical mechanics, momentum ($p=mv$) is a linear function of velocity, meaning doubling the velocity would exactly double the momentum. However, in special relativity, momentum is defined by $p = \gamma mv$. 
+
+As the velocity $v$ approaches the speed of light $c$, the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ increases exponentially rather than linearly. 
+
+*   At $0.4c$, $\gamma \approx 1.09$.
+*   At $0.8c$, $\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{0.36}} \approx 1.67$.
+
+Because the Lorentz factor increases significantly as $v$ increases, the momentum $p$ increases at a rate greater than the increase in velocity. Therefore, when the velocity doubles from $0.4c$ to $0.8c$, the combined effect of the doubling velocity and the increasing $\gamma$ factor results in a total momentum that is more than double the initial value.
+
+###QUESTION_TYPE
+Calculation question

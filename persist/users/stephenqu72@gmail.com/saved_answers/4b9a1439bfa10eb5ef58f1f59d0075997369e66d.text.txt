@@ -1,0 +1,24 @@
+As an HSC Physics teacher, I will guide you through answering this question using the Fizeau-Foucault method, which is a classic choice for the Physics syllabus.
+
+### ANSWER
+
+**(a) Describe a valid historical method to measure the speed of light.**
+
+Hippolyte Fizeau (1849) used a rotating toothed wheel to measure the speed of light. Light from a source was directed through a gap between two teeth of a wheel spinning at high speed. The light traveled to a distant mirror (located $8.6\text{ km}$ away), reflected off it, and returned to the wheel. 
+If the wheel rotated at the correct speed, the returning light pulse would strike a tooth and be blocked. By measuring the rotational frequency of the wheel ($f$) and the total distance traveled by the light ($2d$), Fizeau could calculate the speed of light ($c$) using the formula:
+$$c = \frac{2d \cdot f \cdot N}{0.5}$$
+(Where $N$ is the number of teeth). When the light was first eclipsed, the time taken for the light to travel to the mirror and back matched the time taken for the wheel to rotate by half a tooth width.
+
+**(b) Outline how the described method had a limitation in the precision of its measurement.**
+
+The primary limitation was the difficulty in accurately determining the exact rotational speed at which the light was fully eclipsed. Because the light intensity faded gradually as the edge of the tooth moved into the beam, it was difficult for the human eye to judge the precise point of maximum eclipse (total darkness). This introduces significant subjective error, limiting the precision of the time measurement and consequently the calculated value of $c$.
+
+***
+
+### HOW TO SOLVE THIS
+1. **Identify the Syllabus Content:** This falls under the "Electromagnetism" module of the HSC Physics syllabus, which covers historical attempts to measure the speed of light (e.g., Roemer, Fizeau, Foucault).
+2. **Structure Part (a):** For 4 marks, you need to provide a logical, step-by-step procedure. Start with the experimental setup (light source, rotating wheel, distant mirror), describe the physical process (light travels, reflects, returns), and link it to the mathematical relationship (time vs. distance).
+3. **Structure Part (b):** For 2 marks, identify a clear source of uncertainty. In historical physics experiments, the most common limitations involve human reaction time, limitations of mechanical apparatus, or the difficulty of observing "faint" signals. Focus on why the experimenter couldn't be "certain" about their reading.
+
+###QUESTION_TYPE
+Short answer

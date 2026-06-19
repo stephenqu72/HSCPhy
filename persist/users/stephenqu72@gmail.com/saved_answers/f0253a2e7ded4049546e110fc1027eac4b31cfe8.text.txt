@@ -1,0 +1,27 @@
+To solve this problem, we apply the principle of **Length Contraction** from Einstein’s Special Theory of Relativity. The length of an object measured by an observer moving at a velocity $v$ relative to the object is given by the formula:
+
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+where $L_0$ is the proper length (length at rest) and $v$ is the relative velocity. Since all three ships are identical, they have the same proper length ($L_0$). Therefore, the observed length depends solely on the relative velocity: **the greater the relative velocity, the greater the length contraction (the shorter the measured length).**
+
+### Step-by-Step Analysis:
+
+**1. Observations by the astronaut on ship B (moving at $0.75c$):**
+*   **Ship A:** Ship A is stationary relative to the Earth. Relative to ship B, ship A is moving at $0.75c$. Thus, the measured length of A is $L_A = L_0 \sqrt{1 - 0.75^2}$.
+*   **Ship C:** Ship C is moving at $0.94c$ relative to the Earth. We must find the relative velocity between B ($0.75c$) and C ($0.94c$). Using the relativistic velocity addition formula, $v_{rel} = \frac{v_1 - v_2}{1 - \frac{v_1 v_2}{c^2}}$, the relative velocity between B and C is approximately $0.67c$.
+*   Since $0.75c > 0.67c$, the velocity of A relative to B is greater than the velocity of C relative to B. Consequently, ship A will appear more contracted than ship C. Therefore, **length of ship A < length of ship C**.
+
+**2. Observations by the astronaut on ship C (moving at $0.94c$):**
+*   **Ship A:** Relative to ship C, ship A is moving at $0.94c$. Its measured length will be significantly contracted.
+*   **Ship B:** Relative to ship C, ship B is moving at a relative velocity of approximately $0.67c$ (calculated above).
+*   Since $0.94c > 0.67c$, the velocity of A relative to C is greater than the velocity of B relative to C. Consequently, ship A will appear more contracted than ship B. Therefore, **length of ship A < length of ship B**.
+
+### Conclusion:
+Both astronauts observe ship A to be more contracted than the other passing ship because ship A has the highest relative velocity with respect to both B and C. This matches the condition:
+- Astronaut on ship B: $L_A < L_C$
+- Astronaut on ship C: $L_A < L_B$
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To find the temperature of the blackbody, we use **Wien’s Displacement Law**, which relates the peak wavelength ($\lambda_{max}$) of the radiation emitted by a blackbody to its absolute temperature ($T$).
+
+### Formula
+The relationship is defined as:
+$$\lambda_{max} T = b$$
+Where:
+*   $\lambda_{max}$ is the peak wavelength in meters ($m$).
+*   $T$ is the temperature in Kelvin ($K$).
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$.
+
+### Step-by-Step Calculation
+
+1.  **Convert the wavelength to meters:**
+    The given wavelength is $345 \, \text{nm}$. Since $1 \, \text{nm} = 10^{-9} \, \text{m}$:
+    $$\lambda_{max} = 345 \times 10^{-9} \, \text{m} = 3.45 \times 10^{-7} \, \text{m}$$
+
+2.  **Rearrange the formula to solve for $T$:**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \, \text{m}\cdot\text{K}}{3.45 \times 10^{-7} \, \text{m}}$$
+
+4.  **Perform the calculation:**
+    $$T \approx 0.840 \times 10^{4} \, \text{K}$$
+    To match the scientific notation format provided in the options:
+    $$T = 8.40 \times 10^{3} \, \text{K}$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+The most common and definitive experiment providing evidence for time dilation is the **Hafele-Keating experiment (1971)** or the observation of **muon decay in the atmosphere**.
+
+**Description (Muon Decay):**
+1. **Context:** Muons are unstable subatomic particles created in the upper atmosphere by cosmic rays. They have a very short mean lifetime ($\approx 2.2 \times 10^{-6}$ s).
+2. **The Problem:** Even travelling at speeds close to the speed of light ($c$), Newtonian physics predicts that they should decay before reaching the Earth's surface.
+3. **The Observation:** Detectors at sea level observe a significantly higher number of muons than expected.
+4. **The Conclusion:** Because muons travel at relativistic speeds, their internal clocks "slow down" relative to an observer on Earth (time dilation). This allows them to survive long enough to reach the surface, providing direct evidence that time is relative and dilation occurs.
+
+#### Part (b)
+**Calculation:**
+1. **Identify the variables:** 
+   - Speed of the spaceship $v = 200,000 \text{ km/s} = 2 \times 10^8 \text{ m/s}$
+   - Speed of light $c \approx 3 \times 10^8 \text{ m/s}$
+   - Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+2. **Calculate $\frac{v}{c}$:** $\frac{2 \times 10^8}{3 \times 10^8} = \frac{2}{3} \approx 0.667$
+3. **Calculate $\gamma$:**
+   $$\gamma = \frac{1}{\sqrt{1 - (2/3)^2}} = \frac{1}{\sqrt{1 - 4/9}} = \frac{1}{\sqrt{5/9}} = \frac{3}{\sqrt{5}} \approx 1.34$$
+4. **Determine the shape:** Length contraction occurs only in the direction of motion. The dimension parallel to motion will be contracted by the factor $1/\gamma$:
+   $$L = \frac{L_0}{\gamma} = \frac{L_0}{1.34} \approx 0.745 L_0$$
+**Conclusion:** The spaceship, initially spherical, will appear to an Earth observer as an **oblate spheroid (or a flattened sphere)**, compressed in the direction of its motion while remaining its original diameter in the perpendicular directions.
+
+***
+
+### How to solve it:
+*   **For (a):** Ensure you mention the specific phenomenon (time dilation) and connect the theoretical prediction (decay rate) with the empirical observation (detection at sea level).
+*   **For (b):** Always remember that length contraction is *directional*. Use the Lorentz transformation formula $L = L_0 \sqrt{1 - v^2/c^2}$. State clearly that the dimension perpendicular to the velocity remains unchanged.
+
+###QUESTION_TYPE
+Calculation question

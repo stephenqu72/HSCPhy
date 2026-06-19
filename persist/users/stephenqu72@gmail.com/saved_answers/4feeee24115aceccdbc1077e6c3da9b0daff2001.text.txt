@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+To solve this problem, we use the photoelectric effect equation: $E_k = hf - \Phi$ and the kinematics of charged particles in an electric field.
+
+**Constants:**
+- Work function $\Phi = 2.36\text{ eV} = 2.36 \times 1.602 \times 10^{-19}\text{ J} = 3.78 \times 10^{-19}\text{ J}$
+- Mass of electron $m_e = 9.11 \times 10^{-31}\text{ kg}$
+- Planck’s constant $h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$
+- Visible light range: $\lambda \approx 380\text{ nm}$ to $750\text{ nm}$ ($f \approx 4.0 \times 10^{14}\text{ Hz}$ to $7.9 \times 10^{14}\text{ Hz}$)
+
+---
+
+#### Part (a)
+The total kinetic energy of an electron striking the anode is the sum of its initial kinetic energy from the photoelectric effect and the energy gained from the potential difference $V = 5\text{ V}$.
+$$E_{total} = (hf - \Phi) + eV_{accel}$$
+The range depends on the photon frequency $f$.
+1. **Minimum energy:** The threshold frequency is $f_0 = \frac{\Phi}{h} = \frac{3.78 \times 10^{-19}}{6.626 \times 10^{-34}} \approx 5.7 \times 10^{14}\text{ Hz}$. At this frequency, $E_k = 0$, so $E_{total} = 5\text{ eV}$.
+   $$v_{min} = \sqrt{\frac{2(5 \times 1.6 \times 10^{-19})}{9.11 \times 10^{-31}}} \approx 1.33 \times 10^6\text{ m/s}$$
+2. **Maximum energy:** The highest visible frequency is $\approx 7.9 \times 10^{14}\text{ Hz}$.
+   $hf_{max} = (6.626 \times 10^{-34})(7.9 \times 10^{14}) \approx 5.23 \times 10^{-19}\text{ J} \approx 3.27\text{ eV}$.
+   $E_{total} = (3.27 - 2.36) + 5 = 5.91\text{ eV} \approx 9.47 \times 10^{-19}\text{ J}$.
+   $$v_{max} = \sqrt{\frac{2(9.47 \times 10^{-19})}{9.11 \times 10^{-31}}} \approx 1.44 \times 10^6\text{ m/s}$$
+
+**Range:** Approximately $1.33 \times 10^6\text{ m/s}$ to $1.44 \times 10^6\text{ m/s}$.
+
+---
+
+#### Part (b)
+We need the wavelength $\lambda$ that causes an electron to travel $d = 0.15\text{ m}$ in $t = 200\times 10^{-9}\text{ s}$ under a potential $V = 5\text{ V}$.
+The acceleration $a = \frac{F}{m} = \frac{eV}{md} = \frac{(1.6 \times 10^{-19})(5)}{(9.11 \times 10^{-31})(0.15)} \approx 5.85 \times 10^{12}\text{ m/s}^2$.
+Using $d = v_i t + \frac{1}{2}at^2$:
+$$0.15 = v_i(2 \times 10^{-7}) + 0.5(5.85 \times 10^{12})(2 \times 10^{-7})^2$$
+$$0.15 = v_i(2 \times 10^{-7}) + 0.117 \implies v_i = \frac{0.033}{2 \times 10^{-7}} = 1.65 \times 10^5\text{ m/s}$$
+Now find the photon energy: $hf = \Phi + \frac{1}{2}mv_i^2$
+$$hf = 3.78 \times 10^{-19} + 0.5(9.11 \times 10^{-31})(1.65 \times 10^5)^2 \approx 3.90 \times 10^{-19}\text{ J}$$
+$$\lambda = \frac{hc}{E} = \frac{(6.63 \times 10^{-34})(3 \times 10^8)}{3.90 \times 10^{-19}} \approx 5.1 \times 10^{-7}\text{ m} = 510\text{ nm}$$
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,32 @@
+As an HSC Physics teacher, here is the breakdown of how to approach this photoelectric effect question.
+
+### Answers and Explanations
+
+**a. Identify what point P represents:**
+*   **Answer:** Point P represents the **stopping voltage** (or stopping potential), $V_s$.
+*   **Explanation:** This is the negative voltage required to stop even the most energetic photoelectrons from reaching the collector plate. At this point, the current becomes zero.
+
+**b. Sketch for increased intensity:**
+*   **Explanation:** Increasing intensity means more photons hit the metal surface per second, resulting in a greater number of emitted electrons. This leads to a higher **saturation current**. However, the energy of individual photons remains unchanged, so the stopping voltage $P$ remains the same.
+*   **Sketch:** Draw a new curve that starts at the same point $P$ but levels off at a higher plateau (higher $I$ value) than the dashed line.
+
+**c. Sketch for violet filter (increased frequency):**
+*   **Explanation:** Violet light has a higher frequency than green light. According to Einstein’s photoelectric equation, $E_k = hf - \Phi$, a higher frequency leads to higher maximum kinetic energy. Consequently, a more negative voltage is required to stop the electrons. The saturation current depends on intensity; since the intensity is maintained, the plateau remains at the same height.
+*   **Sketch:** Draw a new curve that starts at a point to the *left* of $P$ (more negative) and levels off at the same plateau height as the dashed line.
+
+**d. Determine the work function:**
+*   **Answer:** $3.4\text{ eV}$.
+*   **Explanation:** The work function $\Phi$ is the magnitude of the y-intercept of the $E_k$ vs $f$ graph, where the x-axis ($f$) is zero. From the graph, the y-intercept is $-3.4\text{ eV}$. Thus, $\Phi = 3.4\text{ eV}$.
+
+**e. Calculate Planck’s constant:**
+*   **Explanation:** The slope of the $E_k$ vs $f$ graph is equal to Planck's constant $h$. 
+    *   Slope $m = \frac{\Delta y}{\Delta x} = \frac{0 - (-3.4)}{8.1 \times 10^{14} - 0} = \frac{3.4}{8.1 \times 10^{14}} = 4.1975 \times 10^{-15}\text{ eV s}$.
+    *   To convert $\text{eV s}$ to $\text{J s}$, multiply by $1.6 \times 10^{-19}\text{ J/eV}$:
+    *   $h = 4.1975 \times 10^{-15} \times 1.6 \times 10^{-19} \approx 6.72 \times 10^{-34}\text{ J s}$. 
+    *(Note: The exact value will depend on the reading of the x-intercept if used instead, but the slope method is standard).*
+
+**f. Limitation of the wave model:**
+*   **Answer:** The wave model predicts that any frequency of light should eventually eject electrons if the intensity is high enough (due to energy accumulation over time), but experiments show that emission only occurs if the frequency is above a threshold frequency $f_0$. Alternatively, the wave model cannot explain why the kinetic energy of emitted electrons depends on frequency rather than intensity.
+
+###QUESTION_TYPE
+Data analysis questions

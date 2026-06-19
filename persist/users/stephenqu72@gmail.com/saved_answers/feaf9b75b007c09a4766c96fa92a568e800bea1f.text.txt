@@ -1,0 +1,37 @@
+To solve this problem, we use Einstein’s photoelectric equation, which relates the energy of the incident photon to the work function of the metal and the maximum kinetic energy of the emitted photoelectron:
+
+$$E_k = hf - \Phi$$
+
+where:
+- $E_k$ is the maximum kinetic energy.
+- $h$ is Planck’s constant.
+- $f$ is the frequency of the incident radiation.
+- $\Phi$ is the work function of the metal.
+
+The work function $\Phi$ is defined by the threshold frequency $f_0$. In this problem, the threshold frequency is given as $f$. Therefore, the work function is:
+$$\Phi = hf$$
+
+**Step 1: Express the first scenario**
+For a frequency of $3f$, the kinetic energy $K$ is:
+$$K = h(3f) - \Phi$$
+$$K = 3hf - hf$$
+$$K = 2hf$$
+From this, we can express $hf$ in terms of $K$:
+$$hf = \frac{K}{2}$$
+
+**Step 2: Express the second scenario**
+For a frequency of $5f$, let the new kinetic energy be $K'$.
+$$K' = h(5f) - \Phi$$
+Substitute $\Phi = hf$:
+$$K' = 5hf - hf$$
+$$K' = 4hf$$
+
+**Step 3: Solve for $K'$ in terms of $K$**
+Substitute the expression $hf = \frac{K}{2}$ into the equation for $K'$:
+$$K' = 4 \times \left( \frac{K}{2} \right)$$
+$$K' = 2K$$
+
+Comparing this result to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

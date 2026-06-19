@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+This question tests your understanding of **Time Dilation**, a core concept in Einstein’s Special Theory of Relativity.
+
+1.  **Understand the Principle:** Time dilation states that time is not absolute; it passes at different rates for observers moving at different relative velocities. Specifically, for an observer in a stationary frame (the observer on Earth), a clock that is moving relative to them (the clock on the spaceship) will appear to tick more slowly.
+2.  **Apply the Formula:** The relationship is given by the time dilation formula:
+    $$t = \gamma t_0 = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Where:
+    *   $t$ is the dilated time interval measured by the stationary observer (on Earth).
+    *   $t_0$ is the proper time interval measured by an observer in the moving frame (on the spaceship).
+    *   Since $v$ is a significant fraction of $c$, the Lorentz factor $\gamma$ is greater than $1$. This results in $t$ being larger than $t_0$, meaning the time interval on the moving clock is stretched out, and the clock appears to run **slower**.
+3.  **Evaluate the Options:**
+    *   **(A)** describes the correct observation: the stationary observer sees the moving clock ticking slower.
+    *   **(B)** is incorrect because moving clocks do not run faster.
+    *   **(C) and (D)** are incorrect because the observer on Earth considers themselves to be in their own inertial frame of reference; they do not observe their own clock slowing down or speeding up relative to their own stationary position.
+
+###QUESTION_TYPE
+Multiple choice

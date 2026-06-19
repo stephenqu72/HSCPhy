@@ -1,0 +1,21 @@
+To determine how Sam observes the dimensions of the container, we must apply the principles of **Special Relativity**, specifically the phenomenon of **Length Contraction**.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+1.  **The Principle of Length Contraction:** According to special relativity, when an object moves at a relativistic speed relative to an observer, its length is measured to be shorter in the direction of motion compared to its "proper length" (the length measured in the object's own rest frame). The formula for length contraction is:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    where $L$ is the observed length, $L_0$ is the proper length, and $v$ is the velocity.
+
+2.  **Directional Dependence:** A crucial aspect of length contraction is that it **only occurs in the direction parallel to the relative motion**. Dimensions that are perpendicular to the direction of motion do not undergo contraction.
+
+3.  **Applying to the Container:**
+    *   **Length ($L$):** The length $L_0$ is parallel to the direction of the rocket ship's motion ($V_R = 0.2c$). Therefore, Sam will observe a contracted length $L$, where $L < L_0$.
+    *   **Width ($W$):** The width $W_0$ is perpendicular to the direction of motion. Perpendicular dimensions remain unchanged by relativistic motion, so $W = W_0$.
+    *   **Height ($H$):** Similarly, the height $H_0$ is perpendicular to the direction of motion, so $H = H_0$.
+
+Combining these observations, we get $L < L_0$, $W = W_0$, and $H = H_0$, which corresponds to option **(A)**.
+
+### QUESTION_TYPE
+Multiple choice

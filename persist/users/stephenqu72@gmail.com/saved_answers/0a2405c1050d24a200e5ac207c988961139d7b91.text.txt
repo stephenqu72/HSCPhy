@@ -1,0 +1,17 @@
+To solve this question, we must apply the definition of **proper length** from the theory of Special Relativity.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+In Special Relativity, "proper length" (denoted as $L_0$) is defined as the length of an object measured by an observer who is **at rest relative to the object**. 
+
+Here is why the other options are incorrect:
+*   **A** is a distractor; a "standard measuring stick" doesn't define proper length unless the stick is also at rest with respect to the object being measured.
+*   **C** describes how to measure the length of a moving object in any frame (by identifying the positions of both ends simultaneously in that frame), but it does not specify the requirement that the observer must be stationary relative to the object.
+*   **D** is incorrect because any observer in an inertial frame will measure a length, but that length will only be the *proper length* if that specific inertial frame happens to be the one in which the object is at rest. If the object is moving relative to the observer, the measured length will be contracted (length contraction: $L = L_0 \sqrt{1 - v^2/c^2}$).
+
+Therefore, the defining characteristic of proper length is the state of rest between the observer and the object.
+
+###QUESTION_TYPE
+Multiple choice

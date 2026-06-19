@@ -1,0 +1,25 @@
+To solve this photoelectric effect problem, we use Einstein's photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function. This is in the form of a linear equation $y = mx + c$, where the gradient $m = h$ and the $y$-intercept $c = -\Phi$.
+
+### (a) Graphing
+To plot the graph, place frequency $(f)$ on the x-axis and kinetic energy $(E_k)$ on the y-axis. Plot the six data points provided. Draw a line of best fit through these points. Note that the line will intercept the y-axis at a negative value.
+
+### (b) Work Function
+The work function $\Phi$ is the absolute value of the y-intercept of your line of best fit. 
+1. Extrapolate your line of best fit backwards until it hits the y-axis (where $x = 0$). 
+2. Based on the data, the intercept occurs at approximately $y = -3.2 \times 10^{-19} \text{ J}$.
+3. Therefore, $\Phi = 3.2 \times 10^{-19} \text{ J}$.
+4. To convert to eV, divide by the charge of an electron ($1.602 \times 10^{-19} \text{ C}$):
+   $$\Phi = \frac{3.2 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 2.0 \text{ eV}$$
+
+### (c) Planck's Constant
+The gradient of the graph represents Planck's constant $h$.
+1. Choose two points $(x_1, y_1)$ and $(x_2, y_2)$ that lie on your line of best fit.
+2. Use the formula: $m = \frac{y_2 - y_1}{x_2 - x_1}$.
+3. Using the data points $(0.50 \times 10^{15}, 0.66 \times 10^{-19})$ and $(1.49 \times 10^{15}, 7.30 \times 10^{-19})$:
+   $$h \approx \frac{(7.30 - 0.66) \times 10^{-19}}{(1.49 - 0.50) \times 10^{15}} = \frac{6.64 \times 10^{-19}}{0.99 \times 10^{15}} \approx 6.7 \times 10^{-34} \text{ J}\cdot\text{s}$$
+*(Note: Experimental results typically vary slightly from the theoretical value of $6.626 \times 10^{-34} \text{ J}\cdot\text{s}$ due to measurement inaccuracies).*
+
+###QUESTION_TYPE
+Data analysis questions

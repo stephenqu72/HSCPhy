@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically the concept of **length contraction**.
+
+### Explanation
+
+1.  **Understand the Reference Frames:**
+    *   **Earth's Frame:** The distance $L_0$ between the rocket and Earth is the "proper length" because both points (the starting position of the rocket and the Earth's surface) are stationary relative to the Earth observers. The time measured by Earth observers is $t = 850\ \mu\text{s}$.
+    *   **Rocket's Frame:** To the pilot, the Earth is moving towards the rocket at $0.75c$. In this frame, the distance $L$ between the rocket and Earth is contracted.
+
+2.  **Calculate the Lorentz Factor ($\gamma$):**
+    The Lorentz factor is defined as:
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Given $v = 0.75c$:
+    $$\gamma = \frac{1}{\sqrt{1 - 0.75^2}} = \frac{1}{\sqrt{1 - 0.5625}} = \frac{1}{\sqrt{0.4375}} \approx 1.51186$$
+
+3.  **Determine the Proper Length ($L_0$):**
+    From the Earth's perspective, the distance covered is $L_0 = v \times t$:
+    $$L_0 = 0.75c \times 850\ \mu\text{s} = 637.5c \cdot \mu\text{s}$$
+
+4.  **Calculate the Contracted Length ($L$):**
+    In the rocket's frame, the distance is contracted:
+    $$L = \frac{L_0}{\gamma} = \frac{637.5c \cdot \mu\text{s}}{1.51186} \approx 421.67c \cdot \mu\text{s}$$
+
+5.  **Calculate the Time in the Rocket's Frame ($t'$):**
+    The pilot calculates the time by dividing the contracted distance by the velocity:
+    $$t' = \frac{L}{v} = \frac{421.67c \cdot \mu\text{s}}{0.75c} \approx 562.2\ \mu\text{s}$$
+
+Alternatively, you can use the time dilation formula $t = \gamma t'$ where $t'$ is the proper time for the pilot:
+$$t' = \frac{t}{\gamma} = \frac{850\ \mu\text{s}}{1.51186} \approx 562.2\ \mu\text{s}$$
+
+Rounding to the nearest whole number gives **$562\ \mu\text{s}$**.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

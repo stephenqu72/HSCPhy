@@ -1,0 +1,33 @@
+To solve this problem, we must apply the laws of light polarisation in sequence.
+
+### Step-by-Step Explanation:
+
+**1. Passing through the first polariser:**
+When unpolarised light of intensity $I_A$ passes through the first polariser, its intensity is reduced by half. Let $I_1$ be the intensity of the light after the first polariser:
+$$I_1 = \frac{1}{2} I_A$$
+
+**2. Passing through the second polariser:**
+According to **Malus's Law**, when polarised light of intensity $I_1$ passes through a second polariser with an angle $\theta$ between their transmission axes, the final intensity $I_B$ is given by:
+$$I_B = I_1 \cos^2(\theta)$$
+
+**3. Combining the equations:**
+Substitute the expression for $I_1$ into the equation for $I_B$:
+$$I_B = \left( \frac{1}{2} I_A \right) \cos^2(\theta)$$
+
+We are given the ratio $\frac{I_B}{I_A} = 0.375$. Dividing both sides of our equation by $I_A$:
+$$\frac{I_B}{I_A} = \frac{1}{2} \cos^2(\theta)$$
+$$0.375 = 0.5 \cos^2(\theta)$$
+
+**4. Solving for $\theta$:**
+Divide both sides by $0.5$:
+$$\cos^2(\theta) = \frac{0.375}{0.5} = 0.75$$
+Take the square root of both sides:
+$$\cos(\theta) = \sqrt{0.75} \approx 0.866$$
+Now, find the angle using the inverse cosine ($\arccos$):
+$$\theta = \arccos(0.866) \approx 30^\circ$$
+
+**Conclusion:**
+The angle between the transmission axes is $30^\circ$. Therefore, the correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

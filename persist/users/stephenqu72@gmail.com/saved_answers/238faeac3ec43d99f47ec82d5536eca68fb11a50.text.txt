@@ -1,0 +1,21 @@
+To solve this problem, we must apply the principles of the **Photoelectric Effect**, specifically Einstein’s photoelectric equation:
+
+$$E_k = hf - \Phi$$
+
+Where:
+- $E_k$ is the maximum kinetic energy of the ejected photoelectrons.
+- $h$ is Planck’s constant.
+- $f$ is the frequency of the incident light.
+- $\Phi$ is the work function of the metal.
+
+### Explanation:
+
+1.  **Photoelectrons ejected (Rate of emission):** Intensity of light refers to the number of photons striking the metal surface per unit area per unit time. When you double the intensity, you are doubling the number of incident photons. Since each photon interacts with one electron on a one-to-one basis, doubling the number of incident photons leads to an **increase** in the number of photoelectrons ejected from the surface.
+2.  **Kinetic Energy of photoelectrons:** The kinetic energy of an ejected electron depends solely on the energy of the individual incident photon ($hf$) and the work function of the metal ($\Phi$). Because the light is monochromatic, the frequency $f$ remains constant when the intensity is changed. Therefore, the energy of each individual photon remains unchanged. Since the energy of the incident photons and the work function of the metal are constant, the maximum kinetic energy of the emitted photoelectrons will show **no change**.
+
+Comparing these findings to the table, we see that the number of photoelectrons increases and the kinetic energy remains unchanged. This corresponds to option (D).
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

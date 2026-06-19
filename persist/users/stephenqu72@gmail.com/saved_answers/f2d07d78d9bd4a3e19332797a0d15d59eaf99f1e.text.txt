@@ -1,0 +1,43 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through these special relativity problems. This topic is a core component of the HSC Physics syllabus, focusing on Einstein’s postulates and length contraction.
+
+---
+
+### Part (a) Answer and Explanation
+
+**Answer:** 
+According to Einstein's second postulate of special relativity, the speed of light in a vacuum is constant for all inertial observers, regardless of the motion of the source or the observer. Therefore, both the passenger on the train and the observer on the platform will measure the velocity of the light beam to be exactly $c$ (approximately $3.00 \times 10^8 \text{ m/s}$).
+
+**Explanation:**
+To gain full marks for this 3-mark question, you must demonstrate understanding of the core postulate:
+1.  **State the postulate:** Explicitly mention Einstein's second postulate, which states that light in a vacuum travels at a constant speed $c$ in all inertial frames of reference.
+2.  **Compare:** Note that neither the passenger's motion nor the observer's motion changes this result.
+3.  **Conclusion:** Confirm that both observers measure the same velocity, $c$.
+
+---
+
+### Part (b) Answer and Explanation
+
+**Answer:**
+We use the length contraction formula:
+$$L_v = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Given:
+- Proper length $L_0 = 30 \text{ m}$
+- Velocity $v = 0.88c$
+
+Calculation:
+$$L_v = 30 \sqrt{1 - (0.88)^2}$$
+$$L_v = 30 \sqrt{1 - 0.7744}$$
+$$L_v = 30 \sqrt{0.2256}$$
+$$L_v \approx 30 \times 0.47497$$
+$$L_v \approx 14.25 \text{ m}$$
+
+**Explanation:**
+1.  **Identify the variables:** The length measured by the passenger is the "proper length" ($L_0$) because the passenger is at rest relative to the carriage. The length measured by the observer on the platform is the "contracted length" ($L_v$).
+2.  **Select the formula:** Use the length contraction equation provided in the HSC Physics reference sheet.
+3.  **Substitute and Solve:** Plug in the values. Ensure you square $0.88$ correctly ($0.7744$) before subtracting it from $1$.
+4.  **Significant Figures:** Since $88\%$ and $30 \text{ m}$ are provided, providing the answer to two or three significant figures (e.g., $14.3 \text{ m}$) is appropriate.
+
+---
+
+###QUESTION_TYPE
+Calculation question

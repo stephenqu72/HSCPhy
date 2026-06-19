@@ -1,0 +1,31 @@
+To find the surface temperature of Rigel based on its peak wavelength, we use **Wien’s Displacement Law**.
+
+### The Formula
+Wien’s Displacement Law states that the peak wavelength ($\lambda_{max}$) of black-body radiation is inversely proportional to the temperature ($T$):
+$$\lambda_{max} T = b$$
+Where:
+*   $\lambda_{max}$ is the peak wavelength in meters ($m$).
+*   $T$ is the temperature in Kelvin ($K$).
+*   $b$ is Wien's displacement constant, approximately $2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$.
+
+### Step-by-Step Solution
+
+1.  **Convert the wavelength to standard units:**
+    The given wavelength is $550 \, \text{nm}$. Since $1 \, \text{nm} = 10^{-9} \, \text{m}$:
+    $$\lambda_{max} = 550 \times 10^{-9} \, \text{m} = 5.5 \times 10^{-7} \, \text{m}$$
+
+2.  **Rearrange the formula to solve for $T$:**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \, \text{m}\cdot\text{K}}{5.5 \times 10^{-7} \, \text{m}}$$
+    $$T \approx 5269.09 \, \text{K}$$
+
+Rounding to the nearest whole number provided in the options, we get $5269 \, \text{K}$.
+
+Comparing this to the given options, **(C)** is the correct answer.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

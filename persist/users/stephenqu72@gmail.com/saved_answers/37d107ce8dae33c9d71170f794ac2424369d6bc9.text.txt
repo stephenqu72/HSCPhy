@@ -1,0 +1,29 @@
+### Answer
+The correct statement is **B**.
+
+---
+
+### Explanation
+
+To solve this problem, we must apply the postulates of Einstein’s **Special Theory of Relativity**.
+
+1.  **The Second Postulate:** The speed of light in a vacuum ($c$) is constant for all inertial observers, regardless of their motion or the motion of the light source. Therefore, both $X$ and $Y$ will measure the speed of the light pulse to be exactly $c$. This immediately disqualifies option **A**.
+
+2.  **Frame of Reference of $X$:** Observer $X$ is inside the train. In $X$'s frame, the sensor is stationary at a distance $L$ from the light source. The time taken for the light to reach the sensor is simply:
+    $$t_X = \frac{L}{c}$$
+
+3.  **Frame of Reference of $Y$:** Observer $Y$ is on the ground watching the train move at $v = 0.95c$. During the time it takes for the light pulse to travel from the source to the sensor, the train moves forward. Consequently, for $Y$ to see the light hit the sensor, the light must travel the original length $L$ plus the extra distance the sensor has moved in that time. Let $t_Y$ be the time $Y$ measures for the light to hit the sensor. The distance the light travels from $Y$'s perspective is:
+    $$d_Y = L + v \cdot t_Y$$
+    Since the speed of light is $c$, $d_Y = c \cdot t_Y$. Substituting this:
+    $$c \cdot t_Y = L + v \cdot t_Y \implies t_Y = \frac{L}{c - v}$$
+    Since $c - v < c$, the denominator is smaller, meaning $t_Y > t_X$. 
+
+4.  **Comparing Distances:**
+    *   $X$ sees the pulse travel distance $L$.
+    *   $Y$ sees the pulse travel distance $d_Y = c \cdot t_Y$. Since $t_Y$ is longer than $t_X$, it follows that $d_Y > L$.
+    *   Therefore, $X$ sees the light travel a **shorter** distance to the sensor than $Y$ does.
+
+Option **C** is incorrect because $Y$ measures a longer time (time dilation and the added distance effect), and **D** is incorrect because distance and time are relative to the observer's frame.
+
+###QUESTION_TYPE
+Multiple choice

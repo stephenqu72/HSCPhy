@@ -1,0 +1,29 @@
+To determine the correct graph, we must analyze the definition and behavior of the Lorentz factor, $\gamma$.
+
+### Answer
+The correct option is **D**.
+
+### Explanation
+The Lorentz factor $\gamma$ is defined by the formula:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+where $v$ is the speed of the object and $c$ is the speed of light.
+
+To identify the correct graph, we look at the mathematical properties of this function:
+
+1.  **At $v = 0$:**
+    Substituting $v = 0$ into the formula, we get $\gamma = \frac{1}{\sqrt{1 - 0}} = 1$. Therefore, the graph must start at a value of $1$ on the vertical axis, not at $0$. This immediately eliminates options A and C.
+
+2.  **As $v \to c$:**
+    As the speed $v$ approaches the speed of light $c$, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches $\sqrt{1 - 1} = 0$. Since we are dividing by a value that approaches zero, $\gamma$ approaches infinity. This indicates an asymptotic behavior as $v$ approaches $c$.
+
+3.  **Charge consideration:**
+    The question mentions a "negatively charged mass." In Special Relativity, the Lorentz factor $\gamma$ depends only on the speed ($v$) of the object relative to an observer, not on its charge or mass. Therefore, the charge of the particle is irrelevant to the shape of the graph.
+
+**Comparing the options:**
+*   **A:** Incorrect because it starts at $0$.
+*   **B:** Incorrect because it is a linear function, whereas $\gamma$ is non-linear.
+*   **C:** Incorrect because it starts at a negative value; $\gamma$ must be at least $1$.
+*   **D:** Correct because it starts at $\gamma = 1$ (when $v=0$) and shows the characteristic asymptotic curve as $v$ approaches $c$.
+
+###QUESTION_TYPE
+Multiple choice

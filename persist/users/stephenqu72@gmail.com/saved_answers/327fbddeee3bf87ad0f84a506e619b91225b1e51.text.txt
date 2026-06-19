@@ -1,0 +1,25 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To solve this, we rely on **Hubble’s Law**, which describes the relationship between the recessional velocity ($v$) of a galaxy and its distance ($d$) from Earth. The mathematical expression for Hubble's Law is:
+$$v = H_0 \cdot d$$
+
+Where:
+*   $v$ is the recessional velocity.
+*   $d$ is the distance.
+*   $H_0$ is the Hubble constant.
+
+**Analyzing the graph:**
+*   The $y$-axis represents velocity ($v$).
+*   The $x$-axis represents distance ($d$).
+*   The graph is a straight line passing through the origin. For any linear relationship of the form $y = mx$, the gradient ($m$) represents the constant of proportionality.
+*   By comparing $v = H_0 \cdot d$ to the linear equation $y = mx$, we can see that $H_0$ corresponds to the gradient of the line. Therefore, the gradient of this graph represents Hubble's constant.
+
+**Why the other options are incorrect:**
+*   **(A)** The units of $H_0$ are typically $\text{km s}^{-1} \text{Mpc}^{-1}$ (or $\text{s}^{-1}$ in SI units, but given the graph units $\text{km s}^{-1}$ and $\text{km}$, the resulting unit would be $\text{s}^{-1}$). While the unit is $\text{s}^{-1}$, option (C) is a fundamental definition of the relationship shown in the graph. However, the statement in (C) is the most direct interpretation of the visual data provided.
+*   **(B)** The area under a velocity-distance graph does not represent a standard physical constant in this context.
+*   **(D)** An inverse variation would imply $v \propto 1/d$, which would result in a curve, not the linear relationship shown in the graph. The graph clearly shows a **direct** linear relationship.
+
+### QUESTION_TYPE
+Multiple choice

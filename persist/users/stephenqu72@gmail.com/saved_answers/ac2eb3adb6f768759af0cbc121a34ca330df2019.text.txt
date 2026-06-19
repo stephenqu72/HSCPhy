@@ -1,0 +1,28 @@
+To determine which blackbody curve represents a temperature of $1500\text{ K}$, we use **Wien’s Displacement Law**. This law states that the wavelength at which the emission of a blackbody is at its maximum intensity ($\lambda_{max}$) is inversely proportional to its absolute temperature ($T$):
+
+$$\lambda_{max} T = b$$
+
+Where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3}\text{ m}\cdot\text{K}$.
+
+### Step-by-Step Calculation:
+
+1.  **Identify the given values:**
+    $T = 1500\text{ K}$
+
+2.  **Apply Wien’s Displacement Law:**
+    $$\lambda_{max} = \frac{b}{T} = \frac{2.898 \times 10^{-3}\text{ m}\cdot\text{K}}{1500\text{ K}}$$
+    $$\lambda_{max} \approx 1.932 \times 10^{-6}\text{ m}$$
+
+3.  **Analyze the graph:**
+    We need to identify which curve has its peak (maximum intensity) at approximately $1.9 \times 10^{-6}\text{ m}$ to $2.0 \times 10^{-6}\text{ m}$ on the x-axis:
+    *   **Blackbody W:** Peaks at $\approx 1.6 \times 10^{-6}\text{ m}$.
+    *   **Blackbody X:** Peaks at $\approx 1.7 \times 10^{-6}\text{ m}$.
+    *   **Blackbody Y:** Peaks at $\approx 1.9\text{--}2.0 \times 10^{-6}\text{ m}$.
+    *   **Blackbody Z:** Peaks at $\approx 2.2 \times 10^{-6}\text{ m}$.
+
+By comparing our calculated value ($\lambda_{max} \approx 1.93 \times 10^{-6}\text{ m}$) with the peaks shown on the graph, **Blackbody Y** is the correct choice, as its peak aligns most accurately with the theoretical prediction.
+
+**Answer:** C. Blackbody Y
+
+###QUESTION_TYPE
+Multiple choice

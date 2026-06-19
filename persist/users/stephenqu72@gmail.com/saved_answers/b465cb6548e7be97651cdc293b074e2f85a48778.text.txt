@@ -1,0 +1,24 @@
+To solve this problem, we apply **Malus's Law**, which states that the intensity of polarized light transmitted through an analyser is given by:
+$$I = I_0 \cos^2(\theta)$$
+where $I_0$ is the intensity of the incident light and $\theta$ is the angle between the transmission axes of the polarizer and the analyser.
+
+### Explanation and Solution
+
+1.  **Passing through Polarizer A:** 
+    Unpolarized light from the source passes through Polarizer A. The intensity of the light is reduced to half its original value ($I_1 = 0.5 I_0$) and becomes linearly polarized in the vertical plane (parallel to the Y-plane).
+
+2.  **Passing through Analyser 1:** 
+    The light now strikes Analyser 1, which is rotated by $\theta_1 = 20^{\circ}$ relative to Polarizer A. According to Malus's Law, the intensity $I_2$ becomes:
+    $$I_2 = I_1 \cos^2(20^{\circ}) = 0.5 I_0 \cos^2(20^{\circ}) \approx 0.44 I_0$$
+    The light is now polarized at an angle of $20^{\circ}$ to the vertical.
+
+3.  **Passing through Analyser 2:** 
+    The light strikes Analyser 2, which is at $35^{\circ}$ relative to the vertical. The angle between the light exiting Analyser 1 ($20^{\circ}$) and the axis of Analyser 2 ($35^{\circ}$) is $\Delta\theta = 35^{\circ} - 20^{\circ} = 15^{\circ}$. The final intensity $I_3$ is:
+    $$I_3 = I_2 \cos^2(15^{\circ})$$
+    Substituting $I_2$:
+    $$I_3 = 0.5 I_0 \cos^2(20^{\circ}) \cos^2(15^{\circ}) \approx 0.44 I_0 \times 0.933 \approx 0.41 I_0$$
+
+**Summary:** The light becomes linearly polarized by the first filter, then undergoes successive intensity reductions determined by the square of the cosine of the relative angles between each subsequent filter. The final light is polarized at an angle of $35^{\circ}$ to the vertical with an intensity approximately $41\%$ of the initial unpolarized source.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,24 @@
+To answer this question, we must apply **Malus's Law**, which describes the intensity of light transmitted through two polarising filters.
+
+### Explanation
+When unpolarised light passes through the first polariser, it becomes linearly polarised. When this light subsequently passes through a second polariser (often called an analyser), the intensity $I$ of the transmitted light is given by:
+$$I = I_0 \cos^2(\theta)$$
+where:
+*   $I_0$ is the intensity of light entering the second polariser.
+*   $\theta$ is the angle between the transmission axes of the two polarisers.
+
+The graph of $I = I_0 \cos^2(\theta)$ follows a squared cosine wave pattern. 
+1.  **When $\theta = 0^\circ$**: The polarisers are parallel, so $\cos^2(0^\circ) = 1$. The intensity $I$ is at its **maximum**.
+2.  **When $\theta = 90^\circ$**: The polarisers are perpendicular (crossed), so $\cos^2(90^\circ) = 0$. The intensity $I$ is at its **minimum (zero)**.
+3.  **When $\theta = 180^\circ$**: The polarisers are parallel again, so $\cos^2(180^\circ) = (-1)^2 = 1$. The intensity $I$ returns to its **maximum**.
+
+Looking at the options provided:
+*   **(A)** shows a linear relationship, which is incorrect.
+*   **(B)** shows a curve that starts at a maximum and drops to zero at $180^\circ$. This would represent a $90^\circ$ rotation, not a $180^\circ$ rotation.
+*   **(C)** shows the intensity rising and falling, which implies the polarisers were crossed at the start ($0^\circ$), but the question states we are rotating through $180^\circ$. 
+*   **(D)** correctly shows the pattern where the intensity starts at a maximum (parallel), drops to zero as it reaches $90^\circ$ (perpendicular), and returns to a maximum as it rotates to $180^\circ$ (parallel). Note: While the graph in (D) appears to be a section of the $\cos^2$ curve, it accurately represents the physical progression of intensity from parallel to perpendicular and back to parallel over the $180^\circ$ rotation.
+
+Therefore, the correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

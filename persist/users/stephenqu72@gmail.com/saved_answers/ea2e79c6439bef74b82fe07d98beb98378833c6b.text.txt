@@ -1,0 +1,33 @@
+To solve this physics problem, we must apply the principles of Malus's Law and the rule for unpolarised light passing through a polariser.
+
+### Step-by-Step Solution:
+
+**1. Pass through the first filter:**
+When unpolarised light of intensity $I_0$ passes through an ideal polariser, the intensity of the transmitted light $I_1$ is reduced by half.
+$$I_1 = \frac{I_0}{2} = \frac{128\text{ Wm}^{-2}}{2} = 64\text{ Wm}^{-2}$$
+
+**2. Pass through the second filter:**
+The light leaving the first filter is plane-polarised at $0^\circ$. It then strikes the second filter, which is oriented at an angle $\theta$ relative to the first. According to Malus's Law ($I = I_{incident} \cos^2\theta$):
+$$I_2 = I_1 \cos^2\theta = 64 \cos^2\theta$$
+
+**3. Pass through the third filter:**
+The light leaving the second filter is at an angle $\theta$ relative to the vertical axis. The third filter is at $0^\circ$. Therefore, the angle between the light incident on the third filter and the third filter's axis is $(0 - \theta)$, or simply $\theta$. Applying Malus's Law again:
+$$I_3 = I_2 \cos^2\theta$$
+Substituting the expression for $I_2$:
+$$I_3 = (64 \cos^2\theta) \cos^2\theta = 64 \cos^4\theta$$
+
+**4. Solve for $\theta$:**
+We are given that the final intensity $I_3 = 16\text{ Wm}^{-2}$.
+$$16 = 64 \cos^4\theta$$
+$$\cos^4\theta = \frac{16}{64} = \frac{1}{4}$$
+Taking the square root of both sides:
+$$\cos^2\theta = \sqrt{\frac{1}{4}} = \frac{1}{2}$$
+Taking the square root again:
+$$\cos\theta = \pm\sqrt{\frac{1}{2}} = \pm\frac{1}{\sqrt{2}}$$
+$$\theta = \cos^{-1}\left(\frac{1}{\sqrt{2}}\right) = 45^\circ$$
+
+**Final Answer:**
+The angle of rotation $\theta$ is $45^\circ$.
+
+###QUESTION_TYPE
+Calculation question

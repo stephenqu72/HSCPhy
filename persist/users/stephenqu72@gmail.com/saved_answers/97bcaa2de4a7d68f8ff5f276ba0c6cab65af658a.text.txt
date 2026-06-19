@@ -1,0 +1,26 @@
+To determine the surface temperature of the star, we use **Wien’s Displacement Law**, which relates the peak wavelength ($\lambda_{max}$) of a black body's radiation to its temperature ($T$):
+
+$$\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the frequency:** The star is described as 'yellow-orange'. Looking at the provided chart, yellow corresponds to $525 \text{ THz}$ and orange to $510 \text{ THz}$. A 'yellow-orange' star would have a peak frequency approximately in the middle, or we can use the range between these values. Let's take the midpoint frequency:
+    $$f \approx 517.5 \text{ THz} = 5.175 \times 10^{14} \text{ Hz}$$
+
+2.  **Calculate the peak wavelength:** Use the wave equation $c = f\lambda$, where $c = 3.00 \times 10^8 \text{ m/s}$:
+    $$\lambda_{max} = \frac{c}{f} = \frac{3.00 \times 10^8}{5.175 \times 10^{14}} \approx 5.797 \times 10^{-7} \text{ m}$$
+
+3.  **Calculate the temperature:** Rearrange Wien’s Law:
+    $$T = \frac{2.898 \times 10^{-3}}{\lambda_{max}} = \frac{2.898 \times 10^{-3}}{5.797 \times 10^{-7}} \approx 4999 \text{ K}$$
+
+4.  **Compare with options:** Our calculation gives approximately $5000 \text{ K}$.
+
+    *   If we used the yellow value ($525 \text{ THz}$): $T \approx \frac{2.898 \times 10^{-3}}{(3 \times 10^8 / 5.25 \times 10^{14})} \approx 5071 \text{ K}$
+    *   If we used the orange value ($510 \text{ THz}$): $T \approx \frac{2.898 \times 10^{-3}}{(3 \times 10^8 / 5.1 \times 10^{14})} \approx 4926 \text{ K}$
+
+All these values cluster very closely around option B.
+
+**Correct Answer: B. 5000 K**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+To solve this problem, we must understand **Wien’s Displacement Law**, which describes the relationship between the temperature of a black body and the peak wavelength ($\lambda_{max}$) of the electromagnetic radiation it emits.
+
+### Explanation
+Wien’s law is mathematically expressed as:
+$$\lambda_{max} = \frac{b}{T}$$
+Where:
+- $\lambda_{max}$ is the peak wavelength of emission.
+- $T$ is the absolute temperature (in Kelvin).
+- $b$ is Wien’s displacement constant ($2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$).
+
+From this formula, we can see that the peak wavelength is **inversely proportional** to the absolute temperature. This means:
+1. As the temperature ($T$) **increases**, the peak wavelength ($\lambda_{max}$) **decreases** (the light shifts toward the blue/ultraviolet end of the spectrum).
+2. As the temperature ($T$) **decreases**, the peak wavelength ($\lambda_{max}$) **increases** (the light shifts toward the red/infrared end of the spectrum).
+
+**Evaluating the options:**
+*   **A:** Incorrect. Temperature is proportional to frequency ($f$), not inversely proportional, but Wien's law specifically relates temperature to wavelength.
+*   **B:** Incorrect. Decreasing temperature leads to an *increase* in wavelength (inverse relationship).
+*   **C:** Incorrect. While true that a black body absorbs all radiation, this is the *definition* of a black body, not Wien's law itself.
+*   **D:** Incorrect. Hotter objects emit light at *shorter* wavelengths, not longer.
+
+*Wait!* Looking closely at the provided options, none of them perfectly state the inverse relationship ($T \propto 1/\lambda$). However, in many HSC contexts, questions of this type often have a "trick" or require the best available description. Let's re-examine: If there is no correct option provided in the image, one must identify the principle. 
+
+Given the standard options provided in typical physics curricula:
+If the question is from a source where options were intended to be: "The peak wavelength is inversely proportional to temperature," and none are present, there may be a typo in the source material. However, based on the physics, **none of the statements provided are scientifically accurate descriptions of Wien's law**. 
+
+If forced to choose based on the logic of the law (that temperature affects the wavelength), please double-check the source for a potential typo. If this were an exam, you would point out the inverse relationship.
+
+###QUESTION_TYPE
+Multiple choice

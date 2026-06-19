@@ -1,0 +1,44 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this Special Relativity problem. These types of questions test your understanding of how space and time are measured differently depending on the observer's frame of reference.
+
+### Part (a): Determine the distance to P
+To find the distance as measured by observers on Earth, we use the standard velocity formula $v = d/t$ in the Earth's frame.
+
+**Given:**
+*   $v = 0.8c = 0.8 \times 3.0 \times 10^8 \text{ m/s} = 2.4 \times 10^8 \text{ m/s}$
+*   $t = 15 \text{ years}$
+
+First, convert years to seconds:
+$$15 \text{ years} \times 365.25 \text{ days/year} \times 24 \text{ h/day} \times 3600 \text{ s/h} \approx 4.73 \times 10^8 \text{ s}$$
+
+Now calculate $d$:
+$$d = v \times t = (2.4 \times 10^8 \text{ m/s}) \times (4.73 \times 10^8 \text{ s}) \approx 1.136 \times 10^{17} \text{ m}$$
+
+---
+
+### Part (b): Show the astronaut ages 9 years
+We use the time dilation formula: $t_v = \gamma t_0$, where $t_v$ is the dilated time (Earth) and $t_0$ is the proper time (astronaut).
+
+**1. Calculate Lorentz factor ($\gamma$):**
+$$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}} = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} = 1.667$$
+
+**2. Solve for proper time ($t_0$):**
+$$t_0 = \frac{t_v}{\gamma} = \frac{15}{1.667} = 15 \times 0.6 = 9 \text{ years}$$
+The astronaut ages exactly 9 years.
+
+---
+
+### Part (c): Explain why the astronaut ages 9 years
+The astronaut considers themselves to be at rest. From their frame of reference, the planet P is rushing towards them at $0.8c$. Because of **length contraction**, the distance to the planet is contracted.
+
+**1. Calculate contracted distance ($L$):**
+$$L = L_0 \sqrt{1 - v^2/c^2} = L_0 \times (0.6)$$
+Where $L_0$ is the distance measured from Earth ($12 \text{ light-years}$). 
+$$L = 12 \times 0.6 = 7.2 \text{ light-years}$$
+
+**2. Calculate time from the astronaut's perspective:**
+$$t = \frac{L}{v} = \frac{7.2 \text{ light-years}}{0.8c} = 9 \text{ years}$$
+
+**Conclusion:** The astronaut ages 9 years because they perceive the distance to the planet as being shorter (length contraction). Both frames agree on the outcome, even if the "reason" (time dilation vs. length contraction) differs.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,25 @@
+To find the energy of a photon, we use the relationship between energy and frequency established by Planck's law:
+
+$$E = hf$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Frequency ($f$) = $102.8\text{ MHz} = 102.8 \times 10^6\text{ Hz} = 1.028 \times 10^8\text{ Hz}$
+    *   Planck's constant ($h$) is a standard physical constant: $6.626 \times 10^{-34}\text{ J}\cdot\text{s}$
+
+2.  **Substitute the values into the formula:**
+    $$E = (6.626 \times 10^{-34}\text{ J}\cdot\text{s}) \times (1.028 \times 10^8\text{ Hz})$$
+
+3.  **Calculate the result:**
+    $$E \approx 6.811528 \times 10^{-26}\text{ J}$$
+
+Rounding this to four significant figures gives $6.812 \times 10^{-26}\text{ J}$.
+
+Comparing this to the provided options, it matches option **(B)**.
+
+### Explanation:
+This problem tests your ability to apply the photon energy formula. When performing these calculations, the most common error is failing to convert the frequency from Megahertz (MHz) into standard Hertz (Hz). By multiplying $102.8$ by $10^6$, you correctly align the units with Planck’s constant, allowing the time units ($1/\text{s} \times \text{s}$) to cancel out and leave you with the correct unit for energy, Joules ($\text{J}$).
+
+###QUESTION_TYPE
+Multiple choice

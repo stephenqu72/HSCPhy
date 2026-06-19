@@ -1,0 +1,29 @@
+To solve this problem, we rely on Einstein’s photoelectric equation:
+$$E_k = hf - \Phi$$
+Since the maximum kinetic energy is given by $E_k = eV_s$ (where $V_s$ is the stopping voltage), the equation becomes:
+$$eV_s = hf - \Phi \implies V_s = \left(\frac{h}{e}\right)f - \frac{\Phi}{e}$$
+This represents a straight line with a slope of $h/e$.
+
+### Part (a)
+1. **Find the slope ($h/e$):** Pick two points on the graph. The $x$-intercept is $f_0 = 5.8 \times 10^{14}\text{ Hz}$. At $f = 8.0 \times 10^{14}\text{ Hz}$, $V_s = 0.90\text{ V}$.
+   $$\text{Slope} = \frac{\Delta V_s}{\Delta f} = \frac{0.90 - 0}{8.0 \times 10^{14} - 5.8 \times 10^{14}} = \frac{0.90}{2.2 \times 10^{14}} \approx 4.09 \times 10^{-15}\text{ V}\cdot\text{s}$$
+2. **Calculate $V_s$ for $f = 1.20 \times 10^{15}\text{ Hz}$:**
+   Using the line equation $V_s = \text{slope} \times (f - f_0)$:
+   $$V_s = (4.09 \times 10^{-15}) \times (12.0 \times 10^{14} - 5.8 \times 10^{14})$$
+   $$V_s = (4.09 \times 10^{-15}) \times (6.2 \times 10^{14}) \approx 2.54\text{ V}$$
+
+### Part (b)
+1. **Find the new threshold frequency ($f_0$):**
+   Given $\Phi = 1.95\text{ eV}$. Since $E = hf$ and $h \approx 4.14 \times 10^{-15}\text{ eV}\cdot\text{s}$:
+   $$f_0 = \frac{\Phi}{h} = \frac{1.95\text{ eV}}{4.14 \times 10^{-15}\text{ eV}\cdot\text{s}} \approx 4.71 \times 10^{14}\text{ Hz}$$
+2. **Sketching the graph:**
+   *   The slope $h/e$ remains the same for any metal because $h$ and $e$ are universal constants.
+   *   Plot a new line starting at the $x$-axis at $f = 4.71 \times 10^{14}\text{ Hz}$.
+   *   The line should be parallel to the original line, shifted to the left (since $4.71 < 5.8$).
+
+### Summary for Sketching:
+*   **$x$-intercept:** $4.71 \times 10^{14}\text{ Hz}$
+*   **Slope:** Same as the original line ($4.09 \times 10^{-15}\text{ V}\cdot\text{s}$).
+
+###QUESTION_TYPE
+Calculation question

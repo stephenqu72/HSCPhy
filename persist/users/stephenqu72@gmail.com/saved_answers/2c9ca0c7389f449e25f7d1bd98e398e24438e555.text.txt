@@ -1,0 +1,36 @@
+Hello! As an HSC physics teacher, I’m happy to help you break this problem down. This is a classic application of **Malus's Law**.
+
+### The Solution
+
+Let $\alpha$ be the angle between the polarization axis of the first polarizer and the x-axis. 
+The light emerging from the first polarizer is polarized at an angle $\alpha$ to the x-axis.
+
+When this light hits the analyzer:
+1. **Case 1 (Analyzer in x-direction):** The angle between the light and the analyzer axis is $\theta_x = \alpha$.
+   The intensity is $I_x = I_0 \cos^2(\alpha)$.
+2. **Case 2 (Analyzer in y-direction):** The angle between the light and the analyzer axis is $\theta_y = 90^\circ - \alpha$.
+   The intensity is $I_y = I_0 \cos^2(90^\circ - \alpha) = I_0 \sin^2(\alpha)$.
+
+The problem states that the intensity is 3 times smaller in the y-direction, meaning $I_x = 3 I_y$:
+$$I_0 \cos^2(\alpha) = 3 (I_0 \sin^2(\alpha))$$
+$$\cos^2(\alpha) = 3 \sin^2(\alpha)$$
+$$\frac{\cos^2(\alpha)}{\sin^2(\alpha)} = 3$$
+$$\cot^2(\alpha) = 3$$
+$$\cot(\alpha) = \sqrt{3}$$
+
+Since $\tan(30^\circ) = \frac{1}{\sqrt{3}}$, we know that $\cot(30^\circ) = \sqrt{3}$.
+Therefore, $\alpha = 30^\circ$.
+
+The correct answer is **(A) $30^\circ$**.
+
+***
+
+### How to solve it
+1. **Identify the goal:** We need to find the orientation of the first polarizer relative to the x-axis.
+2. **Recall Malus's Law:** The intensity of light transmitted through a polarizer is proportional to the square of the cosine of the angle between the incoming light's polarization direction and the polarizer's axis ($I = I_0 \cos^2 \theta$).
+3. **Set up the variables:** Define the first polarizer's angle as $\alpha$. The analyzer is fixed at either $0^\circ$ (x-axis) or $90^\circ$ (y-axis).
+4. **Use the given ratios:** Substitute the angles into Malus's law for both scenarios ($I_x$ and $I_y$). Use the trigonometric identity $\cos(90 - \alpha) = \sin(\alpha)$ to simplify the second scenario.
+5. **Algebraic substitution:** Set up the equation based on the "3 times smaller" statement and solve for $\alpha$ using basic trigonometry.
+
+###QUESTION_TYPE
+Multiple choice

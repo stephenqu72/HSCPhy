@@ -1,0 +1,39 @@
+This question tests your understanding of Einstein’s Theory of Special Relativity, specifically the phenomenon of **length contraction**.
+
+---
+
+### Part (a) Answer and Explanation
+
+**Answer:**
+Anna measures the length of the ruler to be $0.66\text{ m}$ (or $0.661\text{ m}$ to three significant figures).
+
+**Explanation:**
+1. **Identify the variables:** 
+   - Proper length ($L_0$) = $1.00\text{ m}$ (this is the length measured by Matthew, who is in the same inertial frame as the ruler).
+   - Velocity ($v$) = $0.75c$.
+   - Lorentz factor ($\gamma$) = $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+
+2. **Calculate the Lorentz factor:**
+   $$\gamma = \frac{1}{\sqrt{1 - (0.75)^2}} = \frac{1}{\sqrt{1 - 0.5625}} = \frac{1}{\sqrt{0.4375}} \approx 1.51186$$
+
+3. **Apply the Length Contraction formula:**
+   $$L = \frac{L_0}{\gamma} = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+   $$L = 1.00 \times \sqrt{0.4375} \approx 0.6614\text{ m}$$
+
+---
+
+### Part (b) Answer and Explanation
+
+**Answer:**
+They explain their results using the principles of Special Relativity, specifically that there is no "absolute" frame of reference. Both observers are correct within their own inertial frames of reference.
+
+**Explanation:**
+To earn full marks, your answer must include these three points:
+1. **Reference Frames:** Explain that the measurement of length is relative to the observer's motion. Because Matthew is stationary relative to the ruler, he measures the "proper length." Because Anna is in a different inertial frame moving at relativistic speeds relative to the ruler, she measures a "contracted length."
+2. **Postulates of Relativity:** Mention that the laws of physics are the same in all inertial frames, and the speed of light is constant for all observers.
+3. **No Contradiction:** Emphasize that there is no absolute spatial measurement. The discrepancy is not a "mistake" or a physical change in the ruler itself, but a fundamental property of space-time where physical dimensions are observed differently depending on the relative velocity of the observers.
+
+---
+
+###QUESTION_TYPE
+Calculation question

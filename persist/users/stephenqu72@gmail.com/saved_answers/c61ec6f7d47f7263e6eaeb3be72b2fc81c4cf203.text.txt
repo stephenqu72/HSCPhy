@@ -1,0 +1,38 @@
+Hello! As your HSC Physics teacher, I am happy to guide you through these photoelectric effect problems. This topic is a core part of the "From the Universe to the Atom" module.
+
+### Part (a)
+**Answer:**
+To calculate the energy $E$ of a photon, we use the formula $E = \frac{hc}{\lambda}$.
+- Planck's constant $h = 6.626 \times 10^{-34} \text{ J s}$
+- Speed of light $c = 3.00 \times 10^8 \text{ m/s}$
+- Wavelength $\lambda = 415 \text{ nm} = 415 \times 10^{-9} \text{ m}$
+
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{415 \times 10^{-9}} \approx 4.79 \times 10^{-19} \text{ J}$$
+
+**Explanation:** Always ensure your units match. Since $\lambda$ is in nanometers, you must convert it to meters ($10^{-9}$) before substituting it into the equation.
+
+---
+
+### Part (b)(i)
+**Answer:**
+The line remains **exactly the same**.
+
+**Explanation:** The maximum kinetic energy ($KE_{max}$) of photoelectrons depends *only* on the frequency of the incident light and the work function of the metal ($KE_{max} = hf - \Phi$). Changing the external voltage does not change the energy of the electrons at the point of emission. The graph plots $KE_{max}$ vs frequency, which is an intrinsic property of the photoelectric surface and the incident light, independent of any bias voltage applied across the vacuum tube.
+
+---
+
+### Part (b)(ii)
+**Answer:**
+Looking at the graph, identify $1.2 \text{ eV}$ on the y-axis. Move horizontally across to the line, then drop down to the x-axis to find the corresponding frequency.
+- The y-axis scale: Each small grid square is $0.2 \text{ eV}$ ($1 \text{ unit} \div 5 \text{ squares}$).
+- $1.2 \text{ eV}$ corresponds to the 6th small square up.
+- Moving to the line, it aligns with the vertical grid line representing $4.0 \times 10^{14} \text{ Hz}$.
+
+**Result:** $4.0 \times 10^{14} \text{ Hz}$.
+
+**Explanation:** In photoelectric effect graphs, the x-intercept represents the threshold frequency ($f_0$) and the slope represents Planck's constant. By reading the graph directly, we avoid complex calculations and extract the data point directly from the provided empirical evidence.
+
+***
+
+###QUESTION_TYPE
+Calculation question

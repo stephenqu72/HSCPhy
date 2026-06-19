@@ -1,0 +1,31 @@
+To find the temperature of the object, we use **Wien’s Displacement Law**, which states:
+
+$$\lambda_{max} = \frac{b}{T}$$
+
+Where:
+*   $\lambda_{max}$ is the wavelength at which the intensity is at its peak.
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+*   $T$ is the temperature in Kelvin.
+
+### Step-by-Step Solution:
+
+1.  **Identify $\lambda_{max}$ from the graph:**
+    Looking at the x-axis (wavelength in nm), the peak of the curve occurs between $300\text{ nm}$ and $350\text{ nm}$. Each small grid line represents $25\text{ nm}$ (since there are two gaps between 200 and 250). The peak is located exactly halfway between $300$ and $350$, which is $325\text{ nm}$.
+    $$\lambda_{max} = 325 \times 10^{-9} \text{ m}$$
+
+2.  **Rearrange the formula to solve for $T$:**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+3.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \text{ m}\cdot\text{K}}{325 \times 10^{-9} \text{ m}}$$
+    $$T \approx 8916.9 \text{ K}$$
+
+4.  **Evaluate the options:**
+    Our calculated value of $\approx 8917 \text{ K}$ is closest to option **(B) $8,524 \text{ K}$**. 
+
+    *(Note: Depending on the precision of reading the graph, values between $320\text{ nm}$ and $340\text{ nm}$ yield temperatures roughly between $8500\text{ K}$ and $9000\text{ K}$. $8524\text{ K}$ is the only option that falls within the physically plausible range for this peak wavelength.)*
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we apply Einstein’s photoelectric equation, which relates the energy of incoming photons to the work function of the metal and the maximum kinetic energy of the ejected electrons.
+
+### Part (a) Solution
+
+**1. Identify the given values:**
+*   Work function ($\Phi$) = $4.31\text{ eV}$
+*   Stopping voltage ($V_s$) = $2.20\text{ V}$
+*   The maximum kinetic energy ($K_{max}$) is given by $K_{max} = e \cdot V_s$. Therefore, $K_{max} = 2.20\text{ eV}$.
+
+**2. State the formula:**
+Einstein’s photoelectric equation is:
+$$hf = \Phi + K_{max}$$
+Where:
+*   $h$ is Planck's constant ($4.136 \times 10^{-15}\text{ eV}\cdot\text{s}$)
+*   $f$ is the frequency of incident light
+*   $\Phi$ is the work function
+*   $K_{max}$ is the maximum kinetic energy
+
+**3. Substitute the values:**
+$$hf = 4.31\text{ eV} + 2.20\text{ eV} = 6.51\text{ eV}$$
+$$f = \frac{6.51\text{ eV}}{4.136 \times 10^{-15}\text{ eV}\cdot\text{s}}$$
+$$f \approx 1.57 \times 10^{15}\text{ Hz}$$
+
+---
+
+### Part (b) Explanation
+Different metals have different work function values because the **binding energy** of the electrons varies depending on the atomic structure of the metal. The work function is defined as the minimum energy required to remove an electron from the surface of a metal. This value depends on:
+1.  **Atomic structure:** The number of protons and the arrangement of electron shells influence how strongly the nucleus attracts the outer (valence) electrons.
+2.  **Lattice structure:** The specific arrangement of atoms in the metallic crystal lattice affects the potential energy barrier at the surface.
+3.  **Electron shielding:** Inner-shell electrons screen the valence electrons from the full positive charge of the nucleus differently in each element.
+
+###QUESTION_TYPE
+Calculation question

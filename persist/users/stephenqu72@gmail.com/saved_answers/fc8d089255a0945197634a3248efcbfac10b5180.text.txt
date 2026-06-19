@@ -1,0 +1,26 @@
+To solve this problem, we apply two fundamental laws of black-body radiation: **Wien’s Displacement Law** and the **Stefan-Boltzmann Law**.
+
+### Explanation
+
+1.  **Wien’s Displacement Law:** This law states that the wavelength at which the peak intensity occurs ($\lambda_{max}$) is inversely proportional to the absolute temperature ($T$):
+    $$\lambda_{max} \propto \frac{1}{T}$$
+    Since the temperature is decreasing from $600\text{ K}$ to $450\text{ K}$, the peak wavelength must shift to a **longer wavelength** (further to the right on the graph).
+
+2.  **Stefan-Boltzmann Law:** This law states that the total power radiated per unit surface area (the area under the curve) is proportional to the fourth power of the absolute temperature ($T$):
+    $$I_{total} \propto T^4$$
+    Because the temperature decreases, the total intensity and the peak intensity of the curve must **decrease significantly**.
+
+### Analyzing the Options
+*   We are looking for a curve where the peak is shifted to the **right** (longer wavelength) and the peak height is **lower** than the original dashed line.
+*   **Option A:** Shows a lower peak shifted to the right. This aligns with the physical principles.
+*   **Option B:** Shows a higher peak shifted to the left (indicates a higher temperature, incorrect).
+*   **Option C:** Shows a higher peak shifted to the left (indicates a higher temperature, incorrect).
+*   **Option D:** Shows a lower peak, but the peak is shifted to the left (incorrect).
+
+Therefore, **Option A** is the correct representation of the radiation curve at a lower temperature.
+
+### Answer
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

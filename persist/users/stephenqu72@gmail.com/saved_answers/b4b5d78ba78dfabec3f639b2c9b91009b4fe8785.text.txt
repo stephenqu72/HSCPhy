@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a)
+**1. Calculate the energy of the violet light photon:**
+Use the formula $E = \frac{hc}{\lambda}$, where:
+- $h = 6.626 \times 10^{-34} \text{ J s}$
+- $c = 3.00 \times 10^8 \text{ m/s}$
+- $\lambda = 400 \times 10^{-9} \text{ m}$
+
+$$E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{400 \times 10^{-9}} \approx 4.97 \times 10^{-19} \text{ J}$$
+
+Convert Joules to eV (using $1 \text{ eV} = 1.60 \times 10^{-19} \text{ J}$):
+$$E_{\text{eV}} = \frac{4.97 \times 10^{-19}}{1.60 \times 10^{-19}} \approx 3.10 \text{ eV}$$
+
+**2. Calculate the kinetic energy ($K_{\text{max}}$) of the ejected electron:**
+Using Einstein’s photoelectric equation $K_{\text{max}} = E_{\text{photon}} - \Phi$:
+$$K_{\text{max}} = 3.10 \text{ eV} - 2.00 \text{ eV} = 1.10 \text{ eV}$$
+
+**3. Calculate the velocity ($v$):**
+Convert $K_{\text{max}}$ to Joules: $1.10 \times 1.60 \times 10^{-19} = 1.76 \times 10^{-19} \text{ J}$.
+Use $K = \frac{1}{2}mv^2$ (mass of electron $m = 9.11 \times 10^{-31} \text{ kg}$):
+$$1.76 \times 10^{-19} = 0.5 \times 9.11 \times 10^{-31} \times v^2$$
+$$v^2 = \frac{3.52 \times 10^{-19}}{9.11 \times 10^{-31}} \approx 3.86 \times 10^{11}$$
+$$v \approx 6.2 \times 10^5 \text{ m/s}$$
+
+**Predicted Diagram description:**
+Draw a ray of light hitting the metal surface, label it "Violet Light 3.10 eV". Draw an electron emerging from the surface labeled: "Electron released with a velocity of $6.2 \times 10^5 \text{ m/s}$".
+
+---
+
+#### Part (b)
+This experiment supports the particle model (quanta) of light over the wave model:
+1. **Threshold Frequency:** According to wave theory, any frequency of light should eventually eject electrons if given time. However, the experiment shows that below the work function ($\Phi = 2 \text{ eV}$), no electrons are released regardless of intensity, proving light arrives in discrete packets (quanta/photons).
+2. **Energy Dependence:** The kinetic energy of the ejected electrons depends on the frequency (energy) of the incident light, not the intensity. This confirms that one photon interacts with one electron, transferring its energy instantaneously according to $E = hf$.
+3. **Instantaneous Emission:** The immediate ejection of electrons, even at very low intensities, supports the photon model, as wave theory would predict a time delay for energy to accumulate.
+
+###QUESTION_TYPE
+Calculation question

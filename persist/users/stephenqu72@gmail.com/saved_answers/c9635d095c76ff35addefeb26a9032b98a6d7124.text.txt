@@ -1,0 +1,38 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **time dilation**.
+
+### 1. Identify the given information
+*   Time elapsed on Earth (stationary frame): $t = 17.6 \text{ years}$
+*   Time elapsed for the astronaut (moving frame): $t_0 = 9.2 \text{ years}$
+
+### 2. Explain the physics
+An observer on Earth sees the clock on the spaceship moving slower than their own clock. This is time dilation. The relationship is given by:
+$$t = \gamma t_0$$
+Where $\gamma$ is the Lorentz factor: $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+
+However, to find the distance as measured by an observer on Earth ($d$), we use the speed of the ship as seen from Earth: $d = v \times t$. Since $v = \frac{d_0}{t_0}$ (where $d_0$ is the length contracted distance), we can simply determine the velocity first.
+
+### 3. Step-by-Step Calculation
+
+**Step A: Find the velocity ($v$) of the spaceship**
+Using the time dilation formula:
+$$\frac{t_0}{t} = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$\frac{9.2}{17.6} = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$0.5227 = \sqrt{1 - \frac{v^2}{c^2}}$$
+Squaring both sides:
+$$0.2732 = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 1 - 0.2732 = 0.7268$$
+$$\frac{v}{c} = \sqrt{0.7268} \approx 0.8525$$
+So, $v \approx 0.8525c$.
+
+**Step B: Calculate the distance from Earth's perspective**
+From the perspective of the observer on Earth, the ship travels at velocity $v$ for time $t = 17.6 \text{ years}$.
+$$d = v \times t$$
+$$d = (0.8525c) \times (17.6 \text{ years})$$
+Since $c = 1 \text{ light-year/year}$, we can simplify:
+$$d = 0.8525 \times 17.6$$
+$$d \approx 15.0 \text{ light-years}$$
+
+**Final Answer:** The distance to the star, as measured by an observer on Earth, is approximately **15.0 light-years**.
+
+###QUESTION_TYPE
+Calculation question

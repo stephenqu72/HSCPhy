@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principle of **length contraction**. Length contraction only occurs in the dimension parallel to the direction of motion.
+
+### Step-by-Step Solution:
+
+**1. Identify the components of the measured length ($L$):**
+The observer measures the length as $L = 12.00\text{ m}$ at an angle of $\theta = 30.0^\circ$ to the direction of motion. We resolve this into parallel ($L_{\parallel}$) and perpendicular ($L_{\perp}$) components relative to the motion:
+*   Parallel component: $L_{\parallel} = L \cos(30.0^\circ) = 12.00 \cos(30.0^\circ) \approx 10.392\text{ m}$
+*   Perpendicular component: $L_{\perp} = L \sin(30.0^\circ) = 12.00 \sin(30.0^\circ) = 6.000\text{ m}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+Given $v = 0.995c$:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.995^2}} = \frac{1}{\sqrt{1 - 0.990025}} = \frac{1}{\sqrt{0.009975}} \approx 10.0125$$
+
+**3. Determine the components of the proper length ($L_0$):**
+Length contraction only affects the parallel dimension ($L_{\parallel} = \frac{L_{0\parallel}}{\gamma}$), while the perpendicular dimension remains unchanged ($L_{0\perp} = L_{\perp}$):
+*   $L_{0\parallel} = L_{\parallel} \times \gamma = 10.392 \times 10.0125 \approx 104.05\text{ m}$
+*   $L_{0\perp} = 6.000\text{ m}$
+
+**4. Calculate the total proper length ($L_0$):**
+The proper length is the magnitude of the vector formed by these components:
+$$L_0 = \sqrt{(L_{0\parallel})^2 + (L_{0\perp})^2}$$
+$$L_0 = \sqrt{(104.05)^2 + (6.000)^2} = \sqrt{10826.4 + 36} = \sqrt{10862.4} \approx 104.22\text{ m}$$
+
+**Final Answer:**
+The proper length of the rod is approximately **$104\text{ m}$** (to three significant figures).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,20 @@
+### Answer
+As an object with mass $m$ is accelerated toward the speed of light $c$, its relativistic momentum and energy increase. According to the principle of relativistic mass-energy equivalence, as the object's velocity $v$ approaches $c$, the energy input required to further increase its velocity approaches infinity. Specifically, the relativistic mass $m_v$ is given by:
+
+$$m_v = \frac{m_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+As $v \to c$, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero, causing the relativistic mass (or the energy required to accelerate the object) to approach infinity. Therefore, it is impossible for an object with non-zero rest mass to reach or exceed the speed of light, as it would require an infinite amount of work/energy.
+
+---
+
+### How to solve this
+To secure full marks (3 marks) for this HSC-style question, you must demonstrate an understanding of the relationship between velocity, energy, and relativity:
+
+1.  **Reference the Lorentz factor or Relativistic Mass formula:** You must explain that the "effective inertia" or relativistic mass of an object increases as it gains speed. Mentioning that the factor $\gamma$ (Lorentz factor) approaches infinity as $v$ approaches $c$ is a high-scoring point.
+2.  **Explain the energy requirement:** Link the increasing mass/momentum to the work-energy theorem. Explain that because mass/energy approaches infinity as $v \to c$, an infinite amount of work would be needed to accelerate the object to $c$.
+3.  **Conclude clearly:** Explicitly state that because an infinite amount of energy is physically unavailable, the object can never reach the speed of light.
+
+**Teacher's Tip:** In your HSC physics exams, always mention that $c$ is the universal speed limit for anything with mass. Avoid saying "mass becomes infinite" in a way that suggests the *rest mass* changes; instead, describe it as an increase in the energy required to provide further acceleration or an increase in the relativistic mass.
+
+###QUESTION_TYPE
+Short answer

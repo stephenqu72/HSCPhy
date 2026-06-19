@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically time dilation and length contraction.
+
+### 1. Identify the given values
+- Velocity ($v$) = $0.99c$
+- Distance ($L_0$) = $60.8 \text{ light years}$
+- Lorentz factor ($\gamma$) = $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.99^2}} \approx 7.0888$
+
+### 2. Calculate the time elapsed for Alex (Earth observer)
+Alex observes the journey as a round trip.
+- Total distance = $2 \times 60.8 = 121.6 \text{ light years}$.
+- Time elapsed for Alex ($t_{Alex}$) = $\frac{\text{Distance}}{\text{velocity}} = \frac{121.6 \text{ ly}}{0.99c} \approx 122.83 \text{ years}$.
+
+### 3. Calculate the time elapsed for Drew (Spacecraft traveler)
+Due to time dilation, Drew’s clock ticks slower by the factor $\gamma$.
+- Time elapsed for Drew ($t_{Drew}$) = $\frac{t_{Alex}}{\gamma} = \frac{122.83}{7.0888} \approx 17.33 \text{ years}$.
+*(Alternatively, calculate using length contraction: Drew sees the distance contracted by $\frac{1}{\gamma}$, resulting in a shorter journey time).*
+
+### 4. Comparison and Resolution of the Twin Paradox
+- **Comparison:** When Drew returns, Alex has aged approximately $122.83$ years, while Drew has aged only $17.33$ years. Drew is significantly younger than Alex.
+- **Resolution:** The "paradox" asks why the situation isn't symmetric (i.e., why can't Drew claim Alex is the one who moved?). The resolution lies in the fact that **the frames of reference are not equivalent.** Alex remains in an inertial reference frame throughout the experiment. However, Drew must undergo acceleration and deceleration to leave Earth, turn around at Aldebaran, and return to Earth. Because Drew changes inertial frames (he is in a non-inertial frame during the turnaround), the symmetry is broken. Therefore, the twin who undergoes the acceleration is the one who experiences less proper time.
+
+***
+
+### Explanation of Strategy
+1. **Define the frames:** Recognize that Earth is the "stationary" frame for the calculation of total time, while the spacecraft is the "moving" frame.
+2. **Apply Dilation:** Use the time dilation formula $t = \gamma t_0$ to relate the time experienced by both twins.
+3. **Address the Physics:** In HSC physics, correctly identifying the necessity of an inertial reference frame is key to distinguishing why the paradox is resolved by acknowledging acceleration.
+
+###QUESTION_TYPE
+Calculation question

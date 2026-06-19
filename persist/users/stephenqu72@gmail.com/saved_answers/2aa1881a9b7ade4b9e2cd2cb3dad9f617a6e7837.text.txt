@@ -1,0 +1,21 @@
+### Answer
+The correct graph is **A**.
+
+### Explanation
+To solve this problem, we must apply **Hubble’s Law**, which describes the relationship between the distance of a galaxy ($d$) and its recessional velocity ($v$). 
+
+Hubble’s Law is expressed as:
+$$v = H_0 \cdot d$$
+where $H_0$ is the Hubble constant.
+
+1.  **Identify the mathematical relationship:** The equation $v = H_0 \cdot d$ is in the form of a linear equation ($y = mx$), where $v$ is the vertical axis, $d$ is the horizontal axis, and $H_0$ is the slope. Therefore, the graph of recessional velocity versus distance must be a **straight line passing through the origin**.
+2.  **Evaluate the axes:** We must check the units used on the axes to ensure physical consistency. 
+    *   Graph A uses units of $\times 10^6 \text{ pc}$ (megaparsecs) for distance. This is the standard unit used in Hubble's Law.
+    *   Graph B uses light years. While velocity and distance are proportional regardless of the distance unit, physicists conventionally define the Hubble constant relative to megaparsecs (Mpc).
+3.  **Analyze the slopes:** Looking at Graph A, at a distance of $1 \times 10^6 \text{ pc}$ (1 Mpc), the velocity is $500 \text{ km s}^{-1}$. At $2 \times 10^6 \text{ pc}$ (2 Mpc), the velocity is $1000 \text{ km s}^{-1}$. This constant slope confirms the linear relationship $v = H_0 \cdot d$. 
+4.  **Why others are incorrect:** 
+    *   Graphs C and D show non-linear (curved) relationships, which contradict Hubble’s Law. 
+    *   While B shows a linear relationship, it is less standard than A in the context of academic physics curricula, which prioritize the use of parsecs for extragalactic distance measurements. Graph A clearly demonstrates the linear relationship $v \propto d$ using the standard astronomical unit (Mpc).
+
+### QUESTION_TYPE
+Multiple choice

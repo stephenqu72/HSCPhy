@@ -1,0 +1,40 @@
+Hello! As an HSC Physics teacher, I am happy to guide you through these Special Relativity and Measurement questions.
+
+---
+
+### Part (a) Solution
+
+This question tests your understanding of **length contraction**.
+
+**1. Identify the given values:**
+*   Proper length ($L_0$): The length measured in the frame where the accelerator is at rest, which is $86\text{ m}$.
+*   Velocity ($v$): $0.6c$.
+*   Lorentz factor ($\gamma$): Since we are calculating the length as observed by the proton (moving relative to the accelerator), we use the length contraction formula $L = \frac{L_0}{\gamma}$.
+
+**2. Calculate $\gamma$:**
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - (0.6)^2}} = \frac{1}{\sqrt{1 - 0.36}} = \frac{1}{\sqrt{0.64}} = \frac{1}{0.8} = 1.25$$
+
+**3. Apply the length contraction formula:**
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+$$L = 86 \times 0.8$$
+$$L = 68.8\text{ m}$$
+
+**Answer:** The length of the linear accelerator in the proton's inertial frame of reference is $68.8\text{ m}$.
+
+---
+
+### Part (b) Solution
+
+This question addresses the fundamental nature of the SI system.
+
+**Explanation:**
+The measurement of distance is related to the speed of light ($c$) in a vacuum because, according to Einstein’s theory of special relativity, **the speed of light in a vacuum is a universal constant for all inertial observers.**
+
+*   **Consistency:** Unlike physical objects or time intervals that can change due to temperature, pressure, or relative motion, the speed of light is invariant.
+*   **Precision:** By defining the metre based on the speed of light, the definition becomes universally reproducible in any laboratory, anywhere in the universe, without relying on artifacts (like a physical metal bar) that might decay or change over time.
+*   **Linking units:** It effectively links the definition of length to the definition of time (the second), creating a self-consistent system of units based on natural constants.
+
+---
+
+###QUESTION_TYPE
+Calculation question

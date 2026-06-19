@@ -1,0 +1,26 @@
+To determine the correct graph, we must look at the mathematical definition of the Lorentz factor, $\gamma$, which is given by the formula:
+
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+where $v$ is the speed of the object and $c$ is the speed of light.
+
+### Analysis of the function:
+1.  **At rest ($v = 0$):**
+    Substitute $v = 0$ into the equation:
+    $$\gamma = \frac{1}{\sqrt{1 - 0}} = 1$$
+    This tells us that the graph must have a $y$-intercept of $1$. It does not start at $0$.
+
+2.  **As speed approaches the speed of light ($v \to c$):**
+    As $v$ approaches $c$, the term $\frac{v^2}{c^2}$ approaches $1$. Consequently, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches $0$.
+    Dividing by an increasingly small number causes $\gamma$ to approach infinity ($\infty$). This implies the graph must have a vertical asymptote at $v = c$.
+
+### Evaluating the Options:
+*   **A:** Shows $\gamma = 0$ at $v = 0$, which is incorrect.
+*   **B:** Shows a linear relationship, which is incorrect.
+*   **C:** Shows $\gamma$ starting at a negative value, which is incorrect.
+*   **D:** Shows $\gamma = 1$ at $v = 0$ and curves upward toward infinity as $v$ approaches $c$. This perfectly matches the physical behavior of the Lorentz factor.
+
+**Answer:** The correct diagram is **D**.
+
+###QUESTION_TYPE
+Multiple choice

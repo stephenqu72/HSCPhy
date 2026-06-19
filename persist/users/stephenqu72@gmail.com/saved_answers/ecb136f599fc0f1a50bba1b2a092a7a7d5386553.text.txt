@@ -1,0 +1,32 @@
+To find the energy of a photon given its wavelength, we use the following relationship:
+
+### 1. The Physics Formula
+The energy $E$ of a photon is given by:
+$$E = \frac{hc}{\lambda}$$
+
+Where:
+*   $h$ is Planck's constant: $6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+*   $c$ is the speed of light: $3.00 \times 10^8 \text{ m/s}$
+*   $\lambda$ is the wavelength: $535 \text{ nm} = 535 \times 10^{-9} \text{ m}$
+
+### 2. The Shortcut for HSC Physics
+In HSC Physics, it is highly efficient to use the constant $hc = 1240 \text{ eV}\cdot\text{nm}$. This allows you to calculate the energy directly in electron volts (eV) without converting to Joules first:
+$$E (\text{in eV}) = \frac{1240}{\lambda (\text{in nm})}$$
+
+### 3. Calculation
+Substitute the given wavelength ($\lambda = 535 \text{ nm}$) into the shortcut formula:
+$$E = \frac{1240}{535}$$
+$$E \approx 2.3177 \text{ eV}$$
+
+Rounding to three significant figures, we get **$2.32 \text{ eV}$**.
+
+Comparing this to the options provided:
+*   A. $1.79 \text{ eV}$
+*   B. $2.00 \text{ eV}$
+*   C. $2.11 \text{ eV}$
+*   D. $2.32 \text{ eV}$
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

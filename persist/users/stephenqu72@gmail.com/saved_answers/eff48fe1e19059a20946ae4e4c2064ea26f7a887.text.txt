@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **A) To determine a value for the speed of light.**
+
+### Explanation
+The diagram depicts **Fizeau's experiment**, conducted by Hippolyte Fizeau in 1849 (often associated with the period around 1848). This was the first successful laboratory-based method to measure the speed of light ($c$).
+
+**How it works:**
+1.  **Light path:** A beam of light is directed through a gap in a rotating toothed wheel (cog), travels to a distant mirror, and reflects back.
+2.  **The mechanism:** If the cog is stationary, the light passes through a gap, reflects off the distant mirror, and returns through the same gap to the observer.
+3.  **The measurement:** As the cog is rotated faster, it reaches a speed where the returning pulse of light hits a "tooth" rather than a gap, blocking the view. 
+4.  **The calculation:** By knowing the distance ($d$) to the mirror, the number of teeth on the cog, and the precise rotational speed ($f$) required to block the light, Fizeau could calculate the time ($t$) it took for the light to travel to the mirror and back. 
+5.  **The formula:** Using the fundamental relationship $v = \frac{d}{t}$, where $d$ is the total round-trip distance ($2 \times \text{distance to mirror}$), Fizeau was able to calculate the speed of light:
+    $$c = \frac{2d}{t}$$
+
+This experiment was a landmark in physics as it moved the measurement of the speed of light from astronomical observation to terrestrial experimentation.
+
+###QUESTION_TYPE
+Multiple choice

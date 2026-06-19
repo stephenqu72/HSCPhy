@@ -1,0 +1,34 @@
+Hello! As an HSC Physics teacher, I’m happy to help you work through these questions. Let's break them down step-by-step.
+
+### Part A: Relative Velocity
+**Answer:** The magnitude of the relative velocity is approximately $7.81\text{ ms}^{-1}$, directed $39.8^\circ$ South of East.
+
+**Explanation:**
+To find the relative velocity of the prefect ($P$) with respect to the friend ($F$), we use the vector subtraction formula:
+$$\vec{v}_{P/F} = \vec{v}_P - \vec{v}_F$$
+1. Let East be the positive $x$-direction and North be the positive $y$-direction.
+2. $\vec{v}_P = 5\hat{i}\text{ ms}^{-1}$ and $\vec{v}_F = 6\hat{j}\text{ ms}^{-1}$.
+3. $\vec{v}_{P/F} = 5\hat{i} - 6\hat{j}$.
+4. **Magnitude:** $|\vec{v}_{P/F}| = \sqrt{5^2 + (-6)^2} = \sqrt{25 + 36} = \sqrt{61} \approx 7.81\text{ ms}^{-1}$.
+5. **Direction:** $\theta = \tan^{-1}\left(\frac{6}{5}\right) \approx 50.2^\circ$ North of West relative to the friend, but specifically, it is a vector $5$ units East and $6$ units South relative to the friend's frame.
+
+---
+
+### Part B: Speed of Light
+**Answer:** $c$ (the speed of light in a vacuum).
+
+**Explanation:**
+According to Einstein's Second Postulate of Special Relativity, the speed of light in a vacuum is constant for all inertial observers, regardless of the motion of the source or the observer. Therefore, no matter how fast the friend is traveling, the prefect will measure the light from the headlights as traveling at exactly $c$.
+
+---
+
+### Part C: Maxwell's Contribution
+**Answer:** Maxwell unified electricity and magnetism into the theory of electromagnetism, which predicted that electromagnetic waves travel at a constant speed, $c = \frac{1}{\sqrt{\mu_0\epsilon_0}}$.
+
+**Explanation:**
+James Clerk Maxwell's equations showed that light is an electromagnetic wave. His equations predicted that the speed of these waves is a constant value determined by the permittivity and permeability of free space. This theoretical prediction provided the foundation for Einstein’s later realization that the speed of light must be invariant in all inertial reference frames.
+
+***
+
+###QUESTION_TYPE
+Calculation question

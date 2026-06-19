@@ -1,0 +1,21 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** To determine the metal, you must extrapolate the line of best fit through the data points until it intercepts the horizontal axis (the frequency axis). This intercept represents the **threshold frequency** ($f_0$) of the metal. Once identified, you can calculate the work function using the formula $W = hf_0$, where $h$ is Planck's constant. By comparing this calculated value to the table of known work functions, you can identify the metal used.
+
+**Explanation:** In the photoelectric effect, the relationship between kinetic energy ($E_k$) and frequency ($f$) is defined by Einstein's equation: $E_k = hf - W$. When $E_k = 0$, the frequency corresponds to the threshold frequency ($f_0$), which is unique to the material's work function ($W = hf_0$). Graphically, this is the $x$-intercept.
+
+#### Part (b)
+**Answer:** The photoelectric current is generally **independent** of the frequency of the incident light, provided the frequency is above the threshold frequency. 
+- The **magnitude** of the photoelectric current is determined by the **intensity** (or brightness) of the incident light, which relates to the number of photons striking the surface per second.
+- Changing the frequency of light only changes the kinetic energy of the individual ejected photoelectrons; it does not change the number of electrons ejected per second.
+- Note: If the frequency is below the threshold frequency, the photoelectric current will be zero, regardless of the intensity.
+
+**Explanation:** This is a classic HSC physics concept. Students often confuse "energy of electrons" (linked to frequency) with "number of electrons" (linked to intensity). Remember:
+1. Intensity $\rightarrow$ Number of photons $\rightarrow$ Number of electrons $\rightarrow$ **Current**.
+2. Frequency $\rightarrow$ Energy per photon $\rightarrow$ Energy per electron $\rightarrow$ **Kinetic Energy/Stopping Potential**.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,22 @@
+To solve this problem, we must apply Malus's Law and the relationship between light intensity and the photoelectric effect.
+
+### 1. Physics Principles
+*   **Malus's Law:** The intensity of polarized light $I$ passing through a polariser at an angle $\theta$ is given by $I = I_{max} \cos^2(\theta)$.
+*   **Photoelectric Effect:** The photocurrent ($I_{ph}$) is directly proportional to the intensity of the incident light, provided the frequency of the light is above the threshold frequency of the metal. Thus, $I_{ph} \propto I$.
+*   **Graph Analysis:** The original graph shows intensity decreasing from a maximum at $0^\circ$ to near zero at $90^\circ$. This follows the $\cos^2(\theta)$ curve.
+
+### 2. Analysis of the Range $90^\circ$ to $180^\circ$
+*   At $90^\circ$, the intensity is approximately $0$ (minimum).
+*   As the polariser rotates from $90^\circ$ towards $180^\circ$, the angle relative to the axis of maximum transmission decreases from $90^\circ$ (effectively moving back towards alignment). 
+*   Mathematically, if we define the transmission axis relative to the input light, the intensity follows the squared cosine function. Between $90^\circ$ and $180^\circ$, the intensity will increase from $0$ at $90^\circ$ back to its maximum value at $180^\circ$.
+*   Since photocurrent is directly proportional to light intensity, the graph of photocurrent versus angle must mimic the shape of the intensity curve (the increasing portion of a $\cos^2$ function).
+
+### 3. Evaluating the Options
+*   **A and B:** Show linear relationships, which do not accurately represent the $\cos^2$ nature of polarisers.
+*   **D:** Shows constant current, which is incorrect.
+*   **C:** Shows the photocurrent increasing from $0$ at $90^\circ$ to a maximum at $180^\circ$. While the curve in the prompt is a smooth $\cos^2$ curve, among the choices provided, **Graph C** is the only one that correctly depicts the trend of increasing intensity as the polariser rotates from the extinction angle ($90^\circ$) back toward the alignment angle ($180^\circ$).
+
+**Correct Answer:** C
+
+###QUESTION_TYPE
+Multiple choice

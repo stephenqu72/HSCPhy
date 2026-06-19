@@ -1,0 +1,36 @@
+To solve this problem, we use the photoelectric equation, which relates the energy of incoming photons to the work function of the metal and the maximum kinetic energy of the emitted electrons.
+
+### Given Data:
+*   Frequency of light, $f = 6.6 \times 10^{14} \text{ Hz}$
+*   Stopping voltage, $V_s = 1.60 \text{ V}$
+*   Planck's constant, $h \approx 4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$ (using the value in eV makes the calculation more direct).
+
+### Step-by-Step Solution:
+
+1.  **Understand the Physics:**
+    The photoelectric equation is given by:
+    $$E_k = hf - \Phi$$
+    Where:
+    *   $E_k$ is the maximum kinetic energy of the photoelectrons.
+    *   $hf$ is the energy of the incident photon.
+    *   $\Phi$ is the work function of the metal.
+
+2.  **Relate Stopping Voltage to Kinetic Energy:**
+    The stopping voltage represents the potential required to stop the most energetic electrons. Therefore, the maximum kinetic energy in electron-volts (eV) is numerically equal to the stopping voltage in volts:
+    $$E_k = 1.60 \text{ eV}$$
+
+3.  **Calculate Incident Photon Energy:**
+    Using $h = 4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$:
+    $$hf = (4.136 \times 10^{-15} \text{ eV}\cdot\text{s}) \times (6.6 \times 10^{14} \text{ Hz})$$
+    $$hf \approx 2.73 \text{ eV}$$
+
+4.  **Solve for Work Function ($\Phi$):**
+    Rearranging the photoelectric equation to solve for $\Phi$:
+    $$\Phi = hf - E_k$$
+    $$\Phi = 2.73 \text{ eV} - 1.60 \text{ eV}$$
+    $$\Phi = 1.13 \text{ eV}$$
+
+**Answer:** The work function of the cathode metal is $1.13 \text{ eV}$.
+
+###QUESTION_TYPE
+Calculation question

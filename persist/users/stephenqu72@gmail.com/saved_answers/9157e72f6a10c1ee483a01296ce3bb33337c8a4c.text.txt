@@ -1,0 +1,28 @@
+To determine the correct answer, we must examine the physics principle known as **Malus' Law**.
+
+### Explanation
+
+Malus' Law describes the change in intensity of a beam of plane-polarized light after passing through an analyzer (a second polarizer). The law is defined by the following equation:
+
+$$I = I_0 \cos^2 \theta$$
+
+Where:
+*   $I$ is the transmitted light intensity.
+*   $I_0$ is the intensity of the polarized light entering the analyzer.
+*   $\theta$ is the angle between the transmission axes of the polarizer and the analyzer.
+
+**Analyzing the options:**
+*   Malus' Law specifically applies to light that is **already polarized** before it enters the analyzer. Therefore, options (C) and (D), which refer to "non-polarized" light, are incorrect.
+*   The relationship $I = I_0 \cos^2 \theta$ shows that the intensity $I$ is **directly proportional** to the $\cos^2 \theta$ (given $I_0$ is constant). This makes option (A) correct and option (B) incorrect.
+
+**Correct Answer:**
+**(A) The intensity of polarised light entering an analyser is directly proportional to the cosine squared of the angle between the polariser and the analyser.**
+
+### How to solve it
+1.  **Recall the formula:** Immediately identify the equation for Malus' Law: $I = I_0 \cos^2 \theta$.
+2.  **Define the variables:** Note that $I_0$ represents the intensity of the light *entering* the analyzer, which must be polarized for the law to hold.
+3.  **Interpret the relationship:** Look at the structure of the equation. Since $I$ is equal to a constant ($I_0$) multiplied by a term ($\cos^2 \theta$), it indicates a direct proportionality.
+4.  **Eliminate distractors:** Cross out any options mentioning "non-polarized" light, as these do not follow Malus' Law, and cross out "inversely proportional" as the math clearly demonstrates direct proportionality.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+### Answer
+
+**(a)**
+To calculate the temperature, we use Wien’s Displacement Law:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$$
+
+1. From the graph, the peak intensity occurs at $\lambda_{max} = 1.0 \text{ } \mu\text{m} = 1.0 \times 10^{-6} \text{ m}$.
+2. Substitute the values into the formula:
+$$T = \frac{2.898 \times 10^{-3} \text{ m K}}{1.0 \times 10^{-6} \text{ m}}$$
+$$T = 2898 \text{ K}$$
+
+**(b)**
+The classical wave theory of light predicted the "ultraviolet catastrophe," which suggested that intensity should increase infinitely as wavelength decreases (the Rayleigh-Jeans law). This contradicted experimental observations, which showed the intensity drops toward zero at short wavelengths. Max Planck resolved this by proposing that electromagnetic energy is emitted in discrete "quanta" ($E = hf$). This quantized approach successfully modeled the curve, forming the foundation for the particle model of light (photons).
+
+---
+
+### How to solve this
+
+**For part (a):**
+*   **Identify the key relationship:** In HSC Physics, the relationship between the peak wavelength of a black-body curve and its temperature is governed by Wien’s Displacement Law.
+*   **Extract data:** Look at the x-axis of the graph. The peak of the curve aligns exactly with the $1.0$ marker. Ensure you convert the units from micrometers ($\mu\text{m}$) to meters (m) by multiplying by $10^{-6}$.
+*   **Calculate:** Use the constant $b = 2.898 \times 10^{-3} \text{ m K}$ and perform the division to find the temperature in Kelvin.
+
+**For part (b):**
+*   **Identify the problem:** Mention the failure of classical physics (the Rayleigh-Jeans Law) to explain the shape of the curve at short wavelengths (the "ultraviolet catastrophe").
+*   **Identify the solution:** Explain that Planck proposed that energy is quantized.
+*   **Connect to the particle model:** State that this quantization led to the understanding that light acts as discrete packets of energy (photons), moving away from the purely continuous wave model of light.
+
+###QUESTION_TYPE
+Data analysis questions

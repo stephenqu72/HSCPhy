@@ -1,0 +1,21 @@
+To answer this question correctly, you must represent the characteristics of black body radiation defined by **Wien’s Displacement Law** and the **Stefan-Boltzmann Law**.
+
+### The Answer
+When sketching these curves, the $y$-axis represents **Intensity** (or Spectral Radiance) and the $x$-axis represents **Wavelength** ($\lambda$).
+
+1.  **For the 6000K curve:** This curve will have a significantly higher peak intensity and a peak wavelength shifted toward the left (shorter wavelength/blue end of the spectrum) compared to the 3000K curve.
+2.  **For the 3000K curve:** This curve will be shorter and flatter, with its peak shifted toward the right (longer wavelength/red end of the spectrum).
+3.  **Key features:** Both curves must start at the origin $(0,0)$, rise to a peak, and then taper off asymptotically toward the $x$-axis as $\lambda$ increases. The area under the 6000K curve must be significantly larger than that under the 3000K curve.
+
+### How to solve it
+To earn full marks, ensure your sketch demonstrates these three physical principles:
+
+*   **Peak Shift (Wien’s Law):** The peak wavelength $\lambda_{max}$ is inversely proportional to temperature ($T$). Since $6000K = 2 \times 3000K$, the peak wavelength for the 6000K object must appear at exactly half the wavelength of the peak for the 3000K object. Mathematically: 
+    $$\lambda_{max} \propto \frac{1}{T}$$
+*   **Total Power (Stefan-Boltzmann Law):** The total power radiated per unit area is proportional to $T^4$. Because the temperature is doubled, the peak height and total area under the 6000K curve should be significantly higher (theoretically $2^4 = 16$ times the total power/area) than the 3000K curve.
+*   **Non-intersection:** The curve for the higher temperature (6000K) should remain above the curve for the lower temperature (3000K) at all wavelengths to satisfy the thermodynamic laws of black body radiation.
+
+**Sketching Tip:** Always label your axes as "Intensity" ($y$) and "Wavelength" ($x$) and clearly label which curve corresponds to which temperature to ensure you receive the full 3 marks.
+
+###QUESTION_TYPE
+Other questions

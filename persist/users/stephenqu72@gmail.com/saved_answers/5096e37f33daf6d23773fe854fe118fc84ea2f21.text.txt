@@ -1,0 +1,25 @@
+To answer this question, we apply Einstein’s photoelectric equation and our understanding of photon behavior.
+
+### Analysis of the two changes:
+
+1.  **Intensity is increased:** In the photoelectric effect, the **intensity** of the incident light is directly proportional to the number of photons hitting the surface per unit time. Assuming the frequency is above the threshold, increasing the intensity increases the number of photoelectrons emitted per second, which leads to an **increase in the photoelectric current**.
+
+2.  **Wavelength is decreased:** The relationship between frequency ($f$) and wavelength ($\lambda$) is given by $c = f\lambda$, meaning frequency and wavelength are inversely proportional. If the wavelength decreases, the frequency of the incident photons increases.
+    According to Einstein’s photoelectric equation:
+    $$E_k = hf - \Phi$$
+    Where $E_k$ is the maximum kinetic energy of the photoelectrons, $h$ is Planck's constant, and $\Phi$ is the work function of the metal. Since stopping voltage ($V_o$) is defined by $e V_o = E_k$, we have:
+    $$V_o = \frac{hf}{e} - \frac{\Phi}{e}$$
+    When the frequency increases (due to a decrease in wavelength), the kinetic energy of the emitted electrons increases, which requires a **higher stopping voltage** to stop them.
+
+### Conclusion:
+- The current increases (due to increased intensity).
+- The stopping voltage increases (due to decreased wavelength/increased frequency).
+
+Comparing this to the given options, **(B)** is the correct choice.
+
+### How to solve:
+- **Step 1:** Recognize that photocurrent is dependent on the *number* of photons (intensity). If intensity increases, more electrons are ejected, increasing current.
+- **Step 2:** Recognize that stopping voltage is dependent on the *energy* of individual photons (frequency). If wavelength decreases, frequency increases, giving electrons more kinetic energy, requiring a higher stopping potential.
+
+###QUESTION_TYPE
+Multiple choice

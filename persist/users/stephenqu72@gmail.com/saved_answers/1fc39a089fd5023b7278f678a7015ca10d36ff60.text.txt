@@ -1,0 +1,26 @@
+To determine which star has the greatest surface area, we must use the **Stefan-Boltzmann Law** as applied to stellar luminosity.
+
+### The Physics Principles
+The luminosity $L$ of a star is related to its surface area $A$ and its surface temperature $T$ by the formula:
+$$L = A \sigma T^4$$
+where $\sigma$ is the Stefan-Boltzmann constant. Since $A = 4\pi r^2$ for a sphere, we can rearrange this to solve for the radius (which represents the surface area):
+$$r^2 \propto \frac{L}{T^4} \implies r \propto \sqrt{\frac{L}{T^4}}$$
+
+On an HR diagram, lines of constant radius run diagonally from the top left to the bottom right. As you move from the bottom-right of the diagram toward the top-right, the radius (and thus the surface area) increases significantly. 
+
+### Step-by-Step Analysis
+1.  **Understand the Axes:** The y-axis represents Luminosity ($L$) and the x-axis represents Temperature ($T$). Note that the x-axis is inverted (temperature increases to the left).
+2.  **Evaluate the Stars:**
+    *   **Star C** is on the Main Sequence. Main sequence stars have relatively small radii compared to giants/supergiants.
+    *   **Star D** is below the Main Sequence (a white dwarf). These have very high temperatures but very low luminosities, meaning they have a tiny surface area.
+    *   **Star A** is a massive, hot, luminous star.
+    *   **Star B** is a highly luminous star located well above the main sequence in the "giant/supergiant" region.
+3.  **Comparing A and B:** While Star A has a higher temperature, Star B has a very high luminosity at a relatively low temperature. Since $L \propto r^2 T^4$, a star with lower temperature but high luminosity must have a massive radius to compensate for the $T^4$ factor. Specifically, Star B is a Red Giant/Supergiant. In the HR diagram, the lines of constant radius show that stars in the upper-right quadrant have the largest radii. Comparing their positions, Star B is in the region characterized by the largest stellar radii.
+
+### Conclusion
+Star B represents a giant or supergiant star. Because it is highly luminous despite having a low surface temperature, it must have an extremely large surface area to emit that amount of energy.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

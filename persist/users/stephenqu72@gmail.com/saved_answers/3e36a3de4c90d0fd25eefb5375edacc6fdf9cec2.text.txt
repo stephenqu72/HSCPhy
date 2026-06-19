@@ -1,0 +1,31 @@
+To solve this problem, we apply **Malus's Law**, which states that the intensity of polarized light transmitted through a polarizer is given by:
+
+$$I = I_0 \cos^2(\theta)$$
+
+where:
+*   $I_0$ is the initial intensity of the polarized light.
+*   $I$ is the transmitted intensity.
+*   $\theta$ is the angle between the plane of polarization of the incident light and the transmission axis of the polarizer.
+
+### Step-by-Step Solution:
+
+1.  **Determine the angle $\theta$**:
+    The reflected light is horizontally polarized. The windshield (the polarizer) is polarized at $30^\circ$ to the vertical. This means the angle between the horizontal polarization of the light and the transmission axis of the windshield is:
+    $$\theta = 90^\circ - 30^\circ = 60^\circ$$
+
+2.  **Calculate the transmitted intensity ($I$)**:
+    Using Malus's Law:
+    $$I = I_0 \cos^2(60^\circ)$$
+    Since $\cos(60^\circ) = 0.5$, we have:
+    $$I = I_0 (0.5)^2 = 0.25 I_0$$
+    This means the intensity seen by the driver is $25\%$ of the original reflected light.
+
+3.  **Calculate the percentage reduction**:
+    The reduction in intensity is the difference between the initial intensity and the transmitted intensity:
+    $$\text{Reduction} = I_0 - I = I_0 - 0.25 I_0 = 0.75 I_0$$
+    Converted to a percentage, this is a **75% reduction**.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

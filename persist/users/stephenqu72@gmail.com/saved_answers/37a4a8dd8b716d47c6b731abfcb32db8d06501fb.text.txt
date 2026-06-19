@@ -1,0 +1,20 @@
+To solve this problem, we use **Malus’s Law**, which states that the intensity of light passing through a polariser is given by:
+$$I = I_0 \cos^2(\theta)$$
+where $I_0$ is the intensity incident on the polariser and $\theta$ is the angle between the light's polarization direction and the axis of the polariser.
+
+### Step-by-Step Explanation:
+
+1.  **Initial State:** Let the intensity of the light after passing through $P_1$ be $I_{in}$. Since all polarisers were initially aligned, the initial intensity recorded is $I = I_{in}$.
+2.  **After $P_1$:** The light passing through $P_1$ is vertically polarized with intensity $I_{in}$.
+3.  **After $P_2$:** $P_2$ is rotated by $30^\circ$ relative to $P_1$. The intensity $I_2$ after $P_2$ is:
+    $$I_2 = I_{in} \cos^2(30^\circ) = I_{in} \times \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4}I_{in} = 0.75 I_{in}$$
+4.  **After $P_3$:** The light incident on $P_3$ has a polarization angle of $30^\circ$ from the vertical. $P_3$ is rotated $90^\circ$ from the vertical. The angle between the incoming light (at $30^\circ$) and the axis of $P_3$ (at $90^\circ$) is $\theta = 90^\circ - 30^\circ = 60^\circ$.
+    The intensity $I_3$ after $P_3$ is:
+    $$I_3 = I_2 \cos^2(60^\circ) = (0.75 I_{in}) \times \left(\cos(60^\circ)\right)^2$$
+    $$I_3 = 0.75 I_{in} \times \left(0.5\right)^2 = 0.75 I_{in} \times 0.25 = 0.1875 I_{in}$$
+5.  **Conclusion:** Since $I = I_{in}$, the final intensity is approximately $0.1875 I$, which rounds to $0.19 I$.
+
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

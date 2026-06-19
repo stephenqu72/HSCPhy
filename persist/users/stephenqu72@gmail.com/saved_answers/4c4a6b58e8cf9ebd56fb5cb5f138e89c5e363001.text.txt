@@ -1,0 +1,26 @@
+To answer this question, we must apply Einstein’s photoelectric equation:
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $K_{max}$ is the maximum kinetic energy of the ejected electron.
+*   $h$ is Planck’s constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ is the work function of the metal (the minimum energy required to remove an electron from the surface).
+
+Since frequency ($f$) and wavelength ($\lambda$) are related by $c = f\lambda$ (where $c$ is the speed of light), we can rewrite the equation as:
+
+$$K_{max} = \frac{hc}{\lambda} - \Phi$$
+
+### Evaluation of Options:
+*   **A. Using a positively ionised metal emitter:** This changes the electrostatic potential, but does not alter the fundamental quantum interaction defined by the photoelectric effect equation.
+*   **B. Using a photoemitter with a larger work function ($\Phi$):** Based on the equation $K_{max} = hf - \Phi$, increasing $\Phi$ would actually **decrease** the maximum kinetic energy of the electrons.
+*   **C. Increasing the intensity of the incident light:** Intensity affects the *number* of photons, and thus the *rate* of electron emission (photoelectric current), but it does not change the energy of individual photons. Therefore, it has no effect on the maximum kinetic energy of an individual electron.
+*   **D. Decreasing the wavelength of the incident light:** Decreasing the wavelength ($\lambda$) increases the frequency ($f$) and the energy ($hf$) of the individual incident photons. Since $K_{max} = hf - \Phi$, an increase in the energy of the incident photons directly results in an increase in the maximum kinetic energy of the ejected electrons.
+
+**Conclusion:** Decreasing the wavelength is the only factor listed that increases the energy of the incident photons, thereby increasing the maximum kinetic energy of the ejected electrons.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

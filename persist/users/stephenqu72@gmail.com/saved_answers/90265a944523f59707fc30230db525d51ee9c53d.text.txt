@@ -1,0 +1,23 @@
+To determine the correct statement, we must apply Einstein’s photoelectric equation, which relates the stopping voltage ($V_s$) to the frequency of incident light ($f$):
+
+$$E_k = hf - \Phi$$
+$$eV_s = hf - \Phi$$
+$$V_s = \frac{h}{e}f - \frac{\Phi}{e}$$
+
+This equation takes the linear form $y = mx + c$, where:
+- The slope ($m$) is $\frac{h}{e}$.
+- The y-intercept ($c$) is $-\frac{\Phi}{e}$, where $\Phi$ is the work function.
+
+### Analysis of the Statements:
+*   **(A) Incorrect.** The y-intercept represents the negative of the work function divided by the elementary charge. It indicates that the energy required to remove an electron from the metal (the work function) is $3.74\text{ eV}$. It is not a voltage applied to "release" electrons; rather, it is the energy barrier the metal presents to electrons.
+*   **(B) Correct.** The x-intercept of this graph represents the **threshold frequency** ($f_0$). At the threshold frequency, the stopping voltage is zero, meaning $hf_0 = \Phi$. Based on the provided graph, the x-intercept is indeed located in the region of approximately $9.0 \times 10^{14}\text{ Hz}$ (typical for zinc). 
+*   **(C) Incorrect.** According to the photoelectric effect, the **intensity** of the light determines the number of photoelectrons emitted, not the frequency. Increasing the frequency increases the *kinetic energy* of the emitted electrons, not the quantity.
+*   **(D) Incorrect.** The threshold frequency depends on the work function of the specific metal ($\Phi = hf_0$). Since different metals have different work functions, changing from zinc to copper will change the threshold frequency.
+
+### Explanation:
+The graph plots stopping voltage against frequency. The y-intercept is $-\frac{\Phi}{e}$, and the x-intercept is the threshold frequency ($f_0$). Statement (B) correctly identifies the physical significance of the x-intercept in this experimental plot.
+
+The correct statement is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

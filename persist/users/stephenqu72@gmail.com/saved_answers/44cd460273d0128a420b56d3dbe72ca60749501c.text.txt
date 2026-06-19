@@ -1,0 +1,22 @@
+### Answer and Explanation
+
+#### (a) Discuss how these results are evidence for the belief that this universe is expanding.
+The graph shows a positive linear correlation between the recessional velocity of galaxies and their distance from the observer. According to Hubble’s Law, $v = H_0D$, galaxies further away are receding at greater velocities. This implies that space itself is expanding; as space expands, the distance between galaxies increases, and those that are further away experience a greater cumulative expansion between them and the observer, resulting in a higher observed recessional velocity.
+
+#### (b) Calculate the equivalent of the Hubble constant for this universe.
+To find the Hubble constant ($H_0$), we use the formula $v = H_0D$, which can be rearranged to $H_0 = \frac{v}{D}$. We need to find the gradient of the line of best fit.
+
+1.  **Identify two points on the line of best fit:** Looking at the scatter plot, a reasonable line of best fit passes through approximately $(20, 30)$ and $(80, 90)$.
+    *   $v_1 = 30\text{ km s}^{-1} = 3 \times 10^4\text{ m s}^{-1}$, $D_1 = 20 \times 10^{12}\text{ m}$
+    *   $v_2 = 90\text{ km s}^{-1} = 9 \times 10^4\text{ m s}^{-1}$, $D_2 = 80 \times 10^{12}\text{ m}$
+2.  **Calculate the slope ($H_0$):**
+    $$H_0 = \frac{\Delta v}{\Delta D} = \frac{(90 - 30) \times 10^3\text{ m s}^{-1}}{(80 - 20) \times 10^{12}\text{ m}}$$
+    $$H_0 = \frac{60 \times 10^3}{60 \times 10^{12}} = 1 \times 10^{-9}\text{ s}^{-1}$$
+
+*Note: Depending on the exact line of best fit drawn, values ranging between $0.9 \times 10^{-9}$ and $1.1 \times 10^{-9}$ are typically accepted in an HSC context.*
+
+#### (c) Outline how Hubble was able to measure the recessional velocity of distant galaxies.
+Hubble measured recessional velocity by observing the **redshift** of the light emitted by distant galaxies. When a galaxy moves away from an observer, the light waves it emits are stretched toward longer (redder) wavelengths due to the Doppler effect. By comparing the observed spectral lines (such as Hydrogen absorption lines) of the distant galaxy to the known laboratory wavelengths of those same elements, Hubble calculated the change in wavelength ($\Delta \lambda$). The recessional velocity is then determined using the relationship $z = \frac{\Delta \lambda}{\lambda} \approx \frac{v}{c}$.
+
+###QUESTION_TYPE
+Data analysis questions

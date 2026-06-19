@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+This problem is a classic application of the **Relativity of Simultaneity**, a fundamental concept in Einstein's Special Relativity.
+
+1.  **Length Contraction from the Passenger's Perspective:**
+    To the passenger on the train, the train is at rest and it is the tunnel that is moving at a high speed. According to the principle of length contraction, a moving object's length is contracted in the direction of motion. Therefore, from the passenger's perspective, the already shorter tunnel is length-contracted even further. Since the train was already longer than the tunnel at rest, it is definitely longer than the contracted tunnel moving past it. Thus, the passenger observes that the train **does not fit** inside the tunnel.
+
+2.  **Relativity of Simultaneity:**
+    The two cameras at $X$ and $Y$ are stationary relative to the tunnel and are synchronized in the tunnel's reference frame. However, due to the relativity of simultaneity, events that are simultaneous in one inertial frame (the ground/tunnel frame) are not necessarily simultaneous in another inertial frame moving relative to the first (the train frame). 
+    
+    The formula for the time difference between two events in different frames is given by the Lorentz transformation: 
+    $$\Delta t' = \gamma \left( \Delta t - \frac{v \Delta x}{c^2} \right)$$
+    In the ground frame, the cameras fire at the same time ($\Delta t = 0$). For the passenger on the train, the camera at the front ($Y$) is encountered "first" in terms of spatial orientation. Calculations show that in the train's frame, the camera at the rear ($Y$, in the direction of motion) fires **before** the camera at the front ($X$). Therefore, the passenger concludes that the photos were not taken at the same time; specifically, photo 2 (the rear of the train/exit of the tunnel) was taken before photo 1 (the front of the train/entry of the tunnel).
+
+3.  **Conclusion:**
+    The passenger observes the tunnel to be shorter (the train does not fit) and deduces that because of the relativity of simultaneity, the camera at the rear of the train must have triggered before the camera at the front.
+
+### QUESTION_TYPE
+Multiple choice

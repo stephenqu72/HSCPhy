@@ -1,0 +1,24 @@
+### ANSWER
+
+**(a)** Sam is basing his argument on **Classical Wave Theory**. He assumes that light acts as a continuous wave where energy is proportional to intensity (brightness). He believes that if the light is bright enough, or if the metal is exposed for a long enough time, the electrons will eventually absorb enough total energy to overcome the work function of the metal and be ejected.
+
+**(b)** The relationship is given by the photoelectric equation: $E_k = hf - \Phi$. Since $E_k = eV_s$, we have $V_s = \frac{h}{e}f - \frac{\Phi}{e}$. The gradient of the graph is $\frac{h}{e}$.
+Using two points on the line of best fit: $(8 \times 10^{14}, 0.6 \text{ V})$ and $(12 \times 10^{14}, 2.8 \text{ V})$.
+Gradient $= \frac{2.8 - 0.6}{(12 - 8) \times 10^{14}} = \frac{2.2}{4 \times 10^{14}} = 5.5 \times 10^{-15} \text{ Vs}$.
+Since the gradient is $\frac{h}{e}$, and $e$ is expressed in units of charge ($1.6 \times 10^{-19} \text{ C}$), but we want $h$ in $\text{eVs}$, we note that the slope $m$ already has units of $\text{Vs}$ per frequency. Thus, $h \approx 4.14 \times 10^{-15} \text{ eVs}$. (Note: Using the graph provided, the slope is approximately $5.5 \times 10^{-15} \text{ eVs}$).
+
+**(c)** The work function $\Phi$ is the absolute value of the $y$-intercept when $V_s = 0$. 
+Using the line equation $V_s = mf + c$:
+$0.6 = (5.5 \times 10^{-15})(8 \times 10^{14}) + c \rightarrow 0.6 = 4.4 + c \rightarrow c = -3.8 \text{ V}$.
+The work function $\Phi = |e \times c| = 3.8 \text{ eV}$.
+
+***
+
+### EXPLANATION
+
+*   **(a)** This part tests your understanding of the paradigm shift between classical wave theory and the quantum particle model. Remember: Classical theory predicted that energy was dependent on intensity, but Einstein proved energy depends on frequency ($E=hf$).
+*   **(b)** To find Planck’s constant, you must calculate the **gradient** of the $V_s$ vs $f$ graph. Pick two points that lie on your line of best fit that are far apart to minimize error. Since the equation $V_s = \frac{h}{e}f - \frac{\Phi}{e}$ matches $y = mx + b$, the slope $m$ is equal to $\frac{h}{e}$. Because the $y$-axis is in Volts and the $x$-axis is in frequency, the slope is $h$ in units of $\text{eVs}$ if we measure the vertical intercept in $\text{eV}$.
+*   **(c)** The threshold frequency $f_0$ is the $x$-intercept (where $V_s=0$). The work function $\Phi$ is the energy required to remove an electron, calculated as $\Phi = hf_0$. Alternatively, finding the $y$-intercept ($c = -\frac{\Phi}{e}$) allows you to solve for $\Phi = -c \times e$. 
+
+###QUESTION_TYPE
+Calculation question

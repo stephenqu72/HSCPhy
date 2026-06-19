@@ -1,0 +1,25 @@
+To solve this question, we must apply Einstein’s photoelectric equation, which relates the maximum kinetic energy of emitted photoelectrons ($E_k$) to the frequency of incident light ($f$):
+
+$$E_k = hf - \Phi$$
+
+Where:
+- $h$ is Planck's constant.
+- $\Phi$ is the work function of the metal.
+- Since the stopping voltage ($V_s$) is related to kinetic energy by $E_k = qV_s$ (or $E = eV_s$ where $e$ is the elementary charge), the graph plots energy $E$ against frequency $f$.
+
+---
+
+### Part (a): Significance of the x-intercept
+The x-intercept represents the **threshold frequency** ($f_0$) for each specific metal. 
+- At this frequency, the energy of the incident photons is exactly equal to the work function of the metal ($\Phi = hf_0$).
+- At any frequency below this point, the photons do not have enough energy to overcome the binding energy of the electrons, and therefore, no photoelectric emission occurs.
+
+### Part (b): Why the lines are parallel
+The lines are parallel because they share the same **gradient (slope)**.
+- Looking at the equation $E = hf - \Phi$, the graph is in the form $y = mx + c$, where the gradient $m$ is equal to Planck's constant, $h$.
+- Since $h$ is a universal physical constant, it does not change regardless of the type of metal used. Therefore, the rate at which the maximum kinetic energy increases with the frequency of incident light is identical for all metals.
+
+---
+
+###QUESTION_TYPE
+Short answer

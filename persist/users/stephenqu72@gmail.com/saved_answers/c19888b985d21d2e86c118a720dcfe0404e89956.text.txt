@@ -1,0 +1,17 @@
+### Answer
+The correct statement is **(C)**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the principles of Special Relativity, specifically the concepts of **proper frames of reference**, **relativistic momentum**, and **time dilation/length contraction**.
+
+1.  **The Pilot's Perspective:** According to the Principle of Relativity, the laws of physics are the same in all inertial frames of reference. In the pilot's own frame of reference (the ship), the pilot is at rest. Therefore, the pilot measures the ship’s length as its proper length and its mass as its rest mass ($m_0$). The pilot cannot measure their own "relativistic mass" increasing, nor can they experience length contraction of their own vessel.
+2.  **Evaluating Option (A) and (B):** Option (A) is incorrect because the pilot is in the same inertial frame as the sensor; the sensor measures the ship's proper mass. Option (B) is incorrect because while the pilot experiences no change in their *own* ship's length or mass, they cannot observe the velocity increasing "without limit" because, as the ship approaches $c$, time dilation within the ship makes the acceleration appear slower from the external frame, and $c$ remains an universal speed limit.
+3.  **Evaluating Option (C):** From the stationary observer’s frame, the ship is moving at a relativistic velocity. As the engine applies thrust, the observer measures the velocity $v$ of the ship to continue increasing (approaching $c$). Relativistic momentum is defined as:
+    $$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    As $v \to c$, the Lorentz factor $\gamma \to \infty$. Consequently, the momentum $p$ measured by the stationary observer approaches infinity, even though the velocity $v$ can never exceed $c$. This accurately describes the observer's measurements.
+4.  **Evaluating Option (D):** While length contraction is correct from the observer's perspective, relativistic mass (or energy-momentum) increases as speed increases, it does not approach zero. Therefore, (D) is incorrect.
+
+### QUESTION_TYPE
+Multiple choice

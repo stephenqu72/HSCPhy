@@ -1,0 +1,27 @@
+### Answer and Explanation
+
+To solve this problem, we use the Einstein photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function.
+
+#### (a) Calculate the wavelength of light required to begin photoemission.
+1.  **Identify the threshold frequency ($f_0$):** Photoemission begins when $E_k = 0$. Looking at the graph, the x-intercept is at $4.4 \times 10^{14} \text{ Hz}$. (Each grid square on the x-axis represents $0.2 \times 10^{14} \text{ Hz}$).
+2.  **Use the wave equation:** $c = f\lambda$, where $c = 3.0 \times 10^8 \text{ m/s}$.
+3.  **Calculation:**
+    $$\lambda = \frac{c}{f_0} = \frac{3.0 \times 10^8}{4.4 \times 10^{14}} \approx 6.82 \times 10^{-7} \text{ m} \text{ (or } 682 \text{ nm)}$$
+
+#### (b) Calculate the threshold frequency for the aluminium surface.
+1.  **Use the work function equation:** $\Phi = hf_0$, so $f_0 = \frac{\Phi}{h}$.
+2.  **Convert units:** $\Phi = 4.2 \text{ eV}$. Since $1 \text{ eV} = 1.6 \times 10^{-19} \text{ J}$, $\Phi = 4.2 \times 1.6 \times 10^{-19} = 6.72 \times 10^{-19} \text{ J}$.
+3.  **Calculation:**
+    $$f_0 = \frac{6.72 \times 10^{-19} \text{ J}}{6.626 \times 10^{-34} \text{ J s}} \approx 1.01 \times 10^{15} \text{ Hz}$$
+
+#### (c) Draw a line for the aluminium surface.
+1.  **Understand the plot:** The slope of the line is Planck's constant ($h$). Since all metals have the same slope, the line for aluminium will be **parallel** to the existing line.
+2.  **Determine the x-intercept:** The threshold frequency for aluminium is $1.01 \times 10^{15} \text{ Hz}$. Mark this point on the x-axis (slightly to the right of the $10.0 \times 10^{14} \text{ Hz}$ mark).
+3.  **Drawing:** Draw a straight line starting from the x-intercept at $1.01 \times 10^{15} \text{ Hz}$ moving upwards to the right, maintaining the exact same gradient as the original line.
+
+---
+
+###QUESTION_TYPE
+Calculation question

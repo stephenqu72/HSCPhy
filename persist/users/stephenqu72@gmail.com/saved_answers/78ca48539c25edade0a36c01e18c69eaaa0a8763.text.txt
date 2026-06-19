@@ -1,0 +1,35 @@
+To solve this problem, we must apply **Malus's Law**, which describes how the intensity of polarized light changes when it passes through an analyser.
+
+### Explanatory Analysis
+
+1.  **Understand the initial step:** When unpolarized light passes through the first polarizer, its intensity is halved. Given an initial unpolarized intensity of $650 \text{ lux}$, the intensity of the light emerging from the first polarizer ($I_0$) is:
+    $$I_0 = \frac{650}{2} = 325 \text{ lux}$$
+
+2.  **Apply Malus's Law:** The intensity of the light transmitted through the second filter (the analyser) is given by the formula:
+    $$I = I_0 \cos^2(\theta)$$
+    where $I_0 = 325 \text{ lux}$ and $\theta$ is the angle between the polarization axes.
+
+### Part (a) Calculations
+Using the formula $I = 325 \cos^2(\theta)$, we calculate the theoretical values:
+
+| Relative angle ($\theta$) | Theoretical Intensity ($325 \cos^2\theta$) |
+| :--- | :--- |
+| $0^\circ$ | $325 \times \cos^2(0) = 325$ |
+| $20^\circ$ | $325 \times \cos^2(20) \approx 287$ |
+| $40^\circ$ | $325 \times \cos^2(40) \approx 191$ |
+| $60^\circ$ | $325 \times \cos^2(60) \approx 81$ |
+| $80^\circ$ | $325 \times \cos^2(80) \approx 9$ |
+| $90^\circ$ | $325 \times \cos^2(90) = 0$ |
+
+### Part (b) Graphing instructions
+*   **Axes:** Plot "Intensity (lux)" on the y-axis and "Relative angle (degrees)" on the x-axis ($0^\circ$ to $90^\circ$).
+*   **Data sets:** Plot the experimental data provided in the table and the calculated theoretical data. Use two different colors or symbols (e.g., solid line for theoretical, dots for experimental).
+*   **Trend:** You should observe that the experimental data roughly follows the cosine-squared curve but does not align perfectly.
+
+### Part (c) Accuracy Assessment
+The data is **inaccurate**.
+*   **Evidence:** At $0^\circ$, the theoretical value is $325$, but the students measured $314$. At $90^\circ$, the theoretical value is $0$, but they measured $15$. 
+*   **Reasoning:** The experiment likely suffers from systematic error. The "noise" at $90^\circ$ ($15 \text{ lux}$ instead of $0$) suggests imperfect polarizers or ambient light entering the sensor. The deviation at $0^\circ$ may be due to the initial intensity not being exactly $650 \text{ lux}$ or the polarizers not being perfectly aligned at the zero-degree mark.
+
+###QUESTION_TYPE
+Calculation question

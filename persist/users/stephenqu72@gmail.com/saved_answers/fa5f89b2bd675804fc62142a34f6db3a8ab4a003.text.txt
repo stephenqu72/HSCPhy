@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principles of special relativity, specifically **time dilation**.
+
+### 1. Identify the Physics Principles
+*   **Time Dilation:** The proper time interval ($\Delta t_0$) measured by the traveler is related to the coordinate time interval ($\Delta t$) measured by an observer on Earth by the Lorentz factor $\gamma$:
+    $$\Delta t = \gamma \Delta t_0 = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+*   **Lola's Journey:** Lola travels at $v_L = 0.55c$ over a distance $d = 13.17$ light-years.
+*   **Charlie's Journey:** Charlie travels at $v_C = 0.70c$ over the same distance.
+*   **Condition:** They meet at the destination when they are the *same age*. Since they are different ages initially, their "proper time" spent traveling must account for their age difference.
+
+### 2. Step-by-Step Calculation
+
+**Step A: Calculate the proper time (time experienced) for Lola ($t'_L$):**
+Lola's travel time measured from Earth is $t_L = \frac{d}{v_L} = \frac{13.17}{0.55} \approx 23.945$ years.
+Using the Lorentz factor $\gamma_L = \frac{1}{\sqrt{1 - 0.55^2}} \approx 1.196$:
+$$t'_L = \frac{t_L}{\gamma_L} = 23.945 \times \sqrt{1 - 0.55^2} \approx 20.02 \text{ years}$$
+Lola's final age = $5 + 20.02 = 25.02$ years.
+
+**Step B: Calculate the proper time (time experienced) for Charlie ($t'_C$):**
+Charlie's travel time measured from Earth is $t_C = \frac{d}{v_C} = \frac{13.17}{0.70} \approx 18.814$ years.
+Using the Lorentz factor $\gamma_C = \frac{1}{\sqrt{1 - 0.70^2}} \approx 1.400$:
+$$t'_C = \frac{t_C}{\gamma_C} = 18.814 \times \sqrt{1 - 0.70^2} \approx 13.44 \text{ years}$$
+Charlie's final age = $7 + t'_{travel, Charlie} = 25.02$ years.
+Thus, $t'_{travel, Charlie} = 25.02 - 7 = 18.02$ years.
+
+**Step C: Relate the events on Earth:**
+Let $T$ be the time difference between their departures from Earth.
+Lola arrives at the galaxy at time $t_L$ after her departure.
+Charlie arrives at the galaxy at time $T + t_C$ after Lola's departure.
+Since they meet at the same time and place: $T + t_C = t_L$.
+$$T = t_L - t_C = 23.945 - 18.814 = 5.131 \text{ years}$$
+
+**Answer:** Charlie left Earth approximately **5.13 years** after Lola.
+
+###QUESTION_TYPE
+Calculation question

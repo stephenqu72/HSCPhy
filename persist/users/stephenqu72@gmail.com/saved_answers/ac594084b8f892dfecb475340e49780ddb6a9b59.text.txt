@@ -1,0 +1,45 @@
+Hello! As your HSC Physics teacher, I am happy to guide you through this classic photoelectric effect problem. This topic is a cornerstone of Module 7: Nature of Light.
+
+### (a) Define the photoelectric effect.
+The photoelectric effect is the emission of electrons (photoelectrons) from a metal surface when electromagnetic radiation (light) of a sufficiently high frequency is incident upon it.
+
+### (b) Show that the maximum velocity of the photoelectrons is $7 \times 10^5 \text{ m/s}$.
+To solve this, we use the relationship between stopping voltage and maximum kinetic energy:
+$$E_k(\text{max}) = qV_s$$
+Where:
+- $q$ = charge of an electron = $1.602 \times 10^{-19} \text{ C}$
+- $V_s$ = stopping voltage = $1.40 \text{ V}$
+- Mass of an electron ($m_e$) = $9.109 \times 10^{-31} \text{ kg}$
+
+1. Calculate maximum kinetic energy in Joules:
+$$E_k = 1.602 \times 10^{-19} \times 1.40 = 2.2428 \times 10^{-19} \text{ J}$$
+
+2. Use the kinetic energy formula $E_k = \frac{1}{2}mv^2$ to solve for $v$:
+$$v = \sqrt{\frac{2E_k}{m_e}}$$
+$$v = \sqrt{\frac{2 \times 2.2428 \times 10^{-19}}{9.109 \times 10^{-31}}} \approx \sqrt{4.9248 \times 10^{11}} \approx 7.017 \times 10^5 \text{ m/s}$$
+Rounding to one significant figure (as per the prompt's provided value), $v = 7 \times 10^5 \text{ m/s}$.
+
+### (c) Calculate the wavelength of the radiation.
+We use Einstein's photoelectric equation:
+$$E_{\text{photon}} = \Phi + E_k(\text{max})$$
+Where work function $\Phi = 2.3 \text{ eV}$.
+
+1. Convert $\Phi$ to Joules:
+$$\Phi = 2.3 \times 1.602 \times 10^{-19} = 3.6846 \times 10^{-19} \text{ J}$$
+
+2. Total energy of the photon ($E_{\text{photon}}$):
+$$E_{\text{photon}} = 3.6846 \times 10^{-19} + 2.2428 \times 10^{-19} = 5.9274 \times 10^{-19} \text{ J}$$
+
+3. Relate energy to wavelength using $E = \frac{hc}{\lambda}$:
+$$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{5.9274 \times 10^{-19}}$$
+$$\lambda \approx 3.35 \times 10^{-7} \text{ m}$$
+
+---
+
+### How to solve these problems:
+1. **Always define units:** Ensure you convert electron-volts ($\text{eV}$) to Joules ($\text{J}$) immediately, as standard physical constants are in SI units.
+2. **Stopping voltage:** Remember that the stopping voltage represents the potential required to stop the *most* energetic electron. Thus, $eV_s$ is always exactly equal to $E_k(\text{max})$.
+3. **Constants:** Keep your calculator memory handy for $h$, $c$, $m_e$, and $e$ to ensure accuracy in multi-step calculations.
+
+###QUESTION_TYPE
+Calculation question

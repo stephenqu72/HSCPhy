@@ -1,0 +1,21 @@
+### Answer
+
+The phenomenon observed is due to the principles of **polarization**.
+
+1.  **Nature of the lenses:** The glasses are likely 3D glasses (or circular/linear polarizers). The left-hand lens is aligned with the polarization axis of the incident light, while the right-hand lens acts as an analyzer relative to a polarizing light source or a reflective surface.
+2.  **Left-hand lens:** The left lens remains unchanged because it is fixed relative to the orientation of the incident light source (or it is not a polarizing filter relative to the source). As the arm pivots, the orientation of the left lens relative to the light path does not change significantly enough to alter the transmission of light, or it is a neutral density filter.
+3.  **Right-hand lens:** As the angle of the glasses increases, the transmission axis of the right-hand lens (the analyzer) rotates relative to the plane of polarization of the incident light. According to **Malus's Law**, the intensity of the transmitted light $I$ is given by:
+    $$I = I_0 \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axis of the polarizer and the plane of polarization of the incident light. As the angle $\theta$ increases, $\cos^2(\theta)$ decreases, leading to a reduction in the intensity of light passing through the right-hand lens.
+
+### Explanation and Strategy
+
+To solve this HSC Physics problem, follow these steps:
+
+*   **Identify the physics concept:** The key indicator here is the change in light intensity based on orientation. This is a classic hallmark of **polarization**.
+*   **Apply Malus's Law:** Always recall the mathematical relationship for intensity and angle in polarizers. You must mention $I = I_0 \cos^2(\theta)$.
+*   **Structure the comparison:** The question asks you to "account for" the difference between the two lenses. You must contrast the fixed state of the left lens with the variable state of the right lens.
+*   **Use technical terminology:** Ensure you use terms like "transmission axis," "analyzer," "polarizer," and "intensity" to secure full marks for the scientific explanation.
+
+###QUESTION_TYPE
+Short answer

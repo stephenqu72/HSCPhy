@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **A. Single slit**.
+
+### Explanation
+To solve this, we need to analyze the intensity distribution of the diffraction pattern shown in the image:
+
+1.  **Analyze the Pattern:** The image displays a bright central maximum that is significantly wider and more intense than any secondary peaks. The intensity of light gradually decreases as we move away from the center. This specific profile—a wide, bright central fringe flanked by much dimmer, tapering fringes—is the classic signature of **single-slit diffraction**.
+2.  **Compare with Alternatives:**
+    *   **Double slit (B):** This would produce a series of equally spaced, narrow interference fringes (Young’s double-slit pattern) modulated by a single-slit envelope. The image provided lacks these distinct, equally spaced individual fringes.
+    *   **Polarizing lens (C):** Polarizing lenses affect the intensity or orientation of light but do not inherently create a diffraction pattern; they are not used to produce these types of fringe profiles.
+    *   **Diffraction grating (D):** A diffraction grating creates very sharp, intense, and narrow interference maxima (lines). The pattern would appear as distinct, fine points or lines of light rather than the broad, diffuse central peak shown here.
+
+3.  **Physical Principle:** In single-slit diffraction, the intensity distribution $I$ at an angle $\theta$ is given by the formula:
+    $$I(\theta) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2$$
+    where $\beta = \frac{\pi a \sin \theta}{\lambda}$ ($a$ is the slit width and $\lambda$ is the wavelength). The central peak occurs at $\theta = 0$, where the intensity is at its maximum ($I_0$), and the first minima occur at $\sin \theta = \pm \frac{\lambda}{a}$. This mathematical relationship results in the broad, fading intensity pattern visible in the image.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+### Answer
+Increasing the frequency of incident light above the threshold frequency will have **no effect on the magnitude of the photocurrent**, assuming the intensity remains constant.
+
+### Explanation
+To secure full marks for this 4-mark HSC physics question, your answer must demonstrate an understanding of the particle model of light and how energy is quantized:
+
+1.  **Nature of the Interaction:** In the photoelectric effect, light interacts with electrons on a one-to-one basis (one photon releases one electron).
+2.  **Intensity and Photon Flux:** The intensity of the light is proportional to the number of photons striking the metal surface per unit of time. If the intensity is kept constant while the frequency increases, the energy of each individual photon ($E = hf$) increases, but the total number of photons incident on the surface per second remains constant.
+3.  **The Relationship to Current:** Since each photon can only liberate a maximum of one electron, and the number of photons hitting the surface per second has not changed, the rate at which photoelectrons are emitted (and thus the photocurrent) remains unchanged.
+4.  **Distinction of Energy vs. Number:** You must clarify that while frequency affects the **kinetic energy** of the emitted electrons ($K_{max} = hf - \phi$), it does not affect the **number** of electrons emitted. Therefore, increasing the frequency results in faster electrons, but not more of them.
+
+**Summary for the marker:**
+*   Identify that photocurrent depends on the number of photons per second (intensity).
+*   State that increasing frequency increases the energy per photon, not the number of photons.
+*   Conclude that the rate of emission remains constant.
+*   Distinguish clearly between the kinetic energy (which increases) and the photocurrent (which remains constant).
+
+###QUESTION_TYPE
+Short answer

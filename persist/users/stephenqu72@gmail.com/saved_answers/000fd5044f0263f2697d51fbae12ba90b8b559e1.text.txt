@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation:**
+1.  **Wave Model Prediction:** The wave model of light treats light as a continuous electromagnetic wave. In this model, the intensity of light is proportional to the square of the amplitude of the electric field. A higher intensity corresponds to a larger electric field amplitude, which would deliver more energy to the electrons in the metal surface over a given time. Consequently, the classical prediction was that increasing light intensity would increase the energy transferred to electrons, thereby increasing their maximum kinetic energy.
+2.  **Einstein’s Explanation:** Einstein proposed that light consists of discrete "quanta" or photons, where the energy of each photon is given by $E = hf$. A single photon interacts with a single electron. If the frequency $f$ is constant, the energy of each individual photon remains constant regardless of intensity (which merely increases the number of photons). Since the electron receives energy from a single photon, the maximum kinetic energy is determined only by the frequency of the light and the metal's work function: $K_{max} = hf - \Phi$. Thus, increasing intensity only increases the number of photoelectrons emitted, not their individual kinetic energy.
+
+#### Part (b)
+**Calculation:**
+1.  **Given values:**
+    *   Work function $\Phi = 4.32 \text{ eV} = 4.32 \times 1.602 \times 10^{-19} \text{ J} \approx 6.921 \times 10^{-19} \text{ J}$
+    *   Wavelength $\lambda = 200 \text{ nm} = 200 \times 10^{-9} \text{ m}$
+    *   Planck's constant $h = 6.626 \times 10^{-34} \text{ J s}$
+    *   Speed of light $c = 3.00 \times 10^8 \text{ m/s}$
+    *   Mass of electron $m_e = 9.11 \times 10^{-31} \text{ kg}$
+
+2.  **Calculate photon energy:**
+    $$E_{photon} = \frac{hc}{\lambda} = \frac{6.626 \times 10^{-34} \times 3.00 \times 10^8}{200 \times 10^{-9}} \approx 9.939 \times 10^{-19} \text{ J}$$
+
+3.  **Calculate maximum kinetic energy ($K_{max}$):**
+    $$K_{max} = E_{photon} - \Phi = 9.939 \times 10^{-19} - 6.921 \times 10^{-19} = 3.018 \times 10^{-19} \text{ J}$$
+
+4.  **Calculate velocity ($v$):**
+    $$K_{max} = \frac{1}{2}m_ev^2 \implies v = \sqrt{\frac{2K_{max}}{m_e}}$$
+    $$v = \sqrt{\frac{2 \times 3.018 \times 10^{-19}}{9.11 \times 10^{-31}}} \approx 8.136 \times 10^5 \text{ m/s}$$
+
+5.  **Calculate as percentage of speed of light ($c$):**
+    $$\% = \left( \frac{8.136 \times 10^5}{3.00 \times 10^8} \right) \times 100 \approx 0.271\%$$
+
+###QUESTION_TYPE
+Short answer

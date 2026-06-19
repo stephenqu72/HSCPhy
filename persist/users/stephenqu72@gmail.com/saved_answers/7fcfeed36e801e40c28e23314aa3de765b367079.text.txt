@@ -1,0 +1,30 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of polarized light changes after passing through a second polarizing filter (analyzer).
+
+1.  **Analyze the initial state:**
+    Unpolarized light with intensity $I_0$ passes through the first polarizer. The light exiting the first polarizer is linearly polarized and has an intensity of $I_1 = 0.5 I_0$.
+
+2.  **Apply Malus's Law:**
+    When this polarized light of intensity $I_1$ passes through a second polarizer with its axis at an angle $\theta$ relative to the first, the transmitted intensity $I_2$ is given by:
+    $$I_2 = I_1 \cos^2(\theta)$$
+
+3.  **Substitute the given values:**
+    We want the final intensity $I_2$ to be $30\%$ of $I_0$, which is $0.3 I_0$. Substituting the values we have:
+    $$0.3 I_0 = (0.5 I_0) \cos^2(\theta)$$
+
+4.  **Solve for $\theta$:**
+    Divide both sides by $0.5 I_0$:
+    $$\frac{0.3 I_0}{0.5 I_0} = \cos^2(\theta)$$
+    $$\frac{3}{5} = \cos^2(\theta)$$
+    Taking the square root of both sides:
+    $$\cos(\theta) = \sqrt{\frac{3}{5}}$$
+    Therefore:
+    $$\theta = \cos^{-1} \left( \sqrt{\frac{3}{5}} \right)$$
+
+This matches option **A**.
+
+###QUESTION_TYPE
+Multiple choice

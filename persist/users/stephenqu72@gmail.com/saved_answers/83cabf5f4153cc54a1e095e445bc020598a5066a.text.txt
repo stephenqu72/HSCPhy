@@ -1,0 +1,23 @@
+To answer this question, we apply the principles of **Special Relativity**, specifically time dilation and length contraction.
+
+### Explanation
+
+1.  **Muon’s Reference Frame:**
+    In its own frame of reference, the muon is at rest. Therefore, it experiences its "proper time" ($\Delta t_0 = 2.2\ \mu s$). In this frame, the distance it travels is calculated using classical physics as provided in the question: $x = vt \approx (3.0 \times 10^8\ \text{m/s}) \times (2.2 \times 10^{-6}\ \text{s}) = 660\ \text{m}$. Thus, in the muon's frame, the distance is $660\ \text{m}$ and the lifetime is $2.2\ \mu s$.
+
+2.  **Earth’s Reference Frame:**
+    An observer on Earth sees the muon moving at $v = 0.9999c$. 
+    *   **Time Dilation:** Because the muon is moving relative to Earth, the Earth observer measures a "dilated time" ($\Delta t_v$). According to the formula $\Delta t_v = \gamma \Delta t_0$, where $\gamma > 1$, the measured lifetime is greater than the proper lifetime: $\Delta t_v > 2.2\ \mu s$.
+    *   **Length Contraction:** While we often discuss length contraction of the *distance* (the atmosphere contracts from the muon's perspective), we can also calculate the distance relative to the Earth frame simply by using the dilated time: $x_{Earth} = v \times \Delta t_v$. Since the time measured on Earth is dilated ($> 2.2\ \mu s$), the distance the muon covers relative to the Earth's surface must be greater than the classical prediction: $x_{Earth} > 660\ \text{m}$.
+
+Comparing this to the options provided:
+*   Muon frame: $660\ \text{m}$ and $2.2\ \mu s$.
+*   Earth frame: $> 660\ \text{m}$ and $> 2.2\ \mu s$.
+
+This matches **Option (A)**.
+
+### Answer
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

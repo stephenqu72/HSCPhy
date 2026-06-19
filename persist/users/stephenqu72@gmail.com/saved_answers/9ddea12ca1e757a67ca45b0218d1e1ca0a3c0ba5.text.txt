@@ -1,0 +1,32 @@
+This is a classic HSC Physics problem testing your understanding of the photoelectric effect. Here are the solutions and the methodology for each part.
+
+### (a) Diagram of the setup
+To create a stopping potential, the potential of the collector electrode (the one receiving the electrons) must be negative relative to the potassium surface (the emitter/cathode).
+*   **Drawing guide:** Draw a vacuum tube containing two plates. Label the left plate "Potassium surface" (Emitter) and the right plate "Electrode" (Collector).
+*   **Circuit:** Connect the potassium surface to the positive terminal of a DC power supply and the collector electrode to the negative terminal. Place an ammeter in the loop.
+
+### (b) Explanation of decreased kinetic energy
+When the potential is reversed (making the collector negative), an electric field is created that opposes the motion of the electrons.
+*   **Mechanism:** Since electrons are negatively charged, they experience a repulsive force from the negative collector. As they travel from the potassium surface to the collector, they must do work against this electric field. 
+*   **Energy conversion:** This work reduces their kinetic energy ($E_k$). If the retarding voltage equals the "stopping potential," even the fastest electrons are turned back, reducing the kinetic energy to zero at the collector plate.
+
+### (c) Explanation of constant current
+A constant current indicates that the circuit has reached the **saturation current**.
+*   **Explanation:** This occurs because the positive potential of the collector is already high enough to collect *all* the photoelectrons being emitted by the potassium surface. Increasing the voltage further cannot increase the current because there are no additional electrons available to be collected; the rate of emission is determined solely by the intensity of the incident light, not the voltage.
+
+### (d) Calculation of threshold frequency
+The work function ($\Phi$) is the minimum energy required to eject an electron.
+Given: $\Phi = 2.24 \text{ eV}$
+Convert to Joules: $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$
+$$\Phi = 2.24 \times 1.602 \times 10^{-19} = 3.588 \times 10^{-19} \text{ J}$$
+Using the relation $\Phi = h f_0$ (where $h = 6.626 \times 10^{-34} \text{ J s}$):
+$$f_0 = \frac{\Phi}{h} = \frac{3.588 \times 10^{-19} \text{ J}}{6.626 \times 10^{-34} \text{ J s}}$$
+$$f_0 \approx 5.415 \times 10^{14} \text{ Hz}$$
+
+**Methodology:**
+1.  **Recall the definition:** The threshold frequency $f_0$ is the frequency at which the photon energy equals the work function.
+2.  **Unit Conversion:** Always ensure the work function is in Joules when using Planck's constant in SI units ($J \cdot s$).
+3.  **Calculation:** Divide the energy by Planck's constant to isolate the frequency.
+
+###QUESTION_TYPE
+Calculation question

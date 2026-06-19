@@ -1,0 +1,35 @@
+To solve this problem, we apply **Malus's Law**, which describes the change in intensity of polarized light when it passes through an analyzer.
+
+### Explanation and Calculation
+
+1.  **Understand the Physics:**
+    *   The light incident on the first polarizer is unpolarized with intensity $I_0$.
+    *   After passing through the first polarizer (the polariser), the intensity of the light becomes $I_1 = \frac{1}{2}I_0$.
+    *   Malus's Law states that when this polarized light passes through a second filter (the analyzer) with its axis at an angle $\theta$ to the polarization direction of the incoming light, the transmitted intensity $I$ is given by:
+        $$I = I_1 \cos^2(\theta)$$
+    *   Substituting $I_1 = \frac{1}{2}I_0$, we get:
+        $$I = \frac{1}{2}I_0 \cos^2(\theta)$$
+
+2.  **Set up the Equation:**
+    The question asks for the angle $\theta$ such that the final intensity $I$ is $30\%$ of the original incident intensity $I_0$.
+    $$I = 0.30 I_0$$
+
+    Equating the two expressions for $I$:
+    $$0.30 I_0 = \frac{1}{2} I_0 \cos^2(\theta)$$
+
+3.  **Solve for $\theta$:**
+    *   Divide both sides by $I_0$:
+        $$0.30 = 0.5 \cos^2(\theta)$$
+    *   Divide by $0.5$:
+        $$0.6 = \cos^2(\theta)$$
+    *   Take the square root of both sides:
+        $$\cos(\theta) = \sqrt{0.6} \approx 0.7746$$
+    *   Find the inverse cosine ($\arccos$):
+        $$\theta = \arccos(0.7746) \approx 39.23^\circ$$
+
+Comparing this result to the given options, the closest value is $39^\circ$.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

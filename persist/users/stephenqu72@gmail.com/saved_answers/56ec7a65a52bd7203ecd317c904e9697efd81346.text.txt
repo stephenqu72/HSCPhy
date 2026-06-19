@@ -1,0 +1,24 @@
+To determine the correct answer, we must apply two fundamental principles of blackbody radiation: **Wien's Displacement Law** and the **Stefan-Boltzmann Law**.
+
+### 1. Identifying the Hotter Object
+Wien's Displacement Law states that the wavelength at which the peak emission occurs ($\lambda_{max}$) is inversely proportional to the temperature ($T$) of the object:
+$$\lambda_{max} \propto \frac{1}{T}$$
+Looking at the graph, curve **A** has a peak at approximately $600\text{ nm}$, while curve **B** has a peak at approximately $700\text{ nm}$. Since curve **A** has a shorter peak wavelength ($\lambda_{max, A} < \lambda_{max, B}$), it must correspond to the higher temperature. Therefore, **A is the hotter object**.
+
+### 2. Identifying the Object with Greater Total Energy Output
+The total energy output (total power radiated) of a blackbody is represented by the area under its radiation curve. According to the Stefan-Boltzmann Law, the total power radiated is proportional to the fourth power of the temperature ($P \propto T^4$). 
+Visually, curve **A** lies entirely above curve **B** across the entire wavelength spectrum. Because curve **A** has a significantly larger area under its curve than curve **B**, object **A** has a greater total energy output.
+
+### Conclusion
+*   **Hotter Object:** A
+*   **Greater Energy Output:** A
+
+Comparing this to the options provided, the correct choice is **(A)**.
+
+### How to solve it:
+1.  **Locate the peaks:** Identify the peak wavelength for both curves on the x-axis. A peak shifted to the left (shorter wavelength) indicates a higher temperature.
+2.  **Compare areas:** Observe the vertical height and spread of the curves. The curve with a larger area under the graph represents the object with higher total intensity or energy output.
+3.  **Apply Principles:** Use Wien's Law to relate peak wavelength to temperature and Stefan-Boltzmann's Law to link the area under the curve to total power.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+To determine the maximum kinetic energy ($K_{max}$) of emitted photoelectrons, we use a photoelectric cell setup where the polarity of the voltage can be reversed.
+
+### Answer
+The correct answer is **C**.
+
+### Explanation
+1.  **The Physics of Stopping Potential:** In a photoelectric experiment, we apply a retarding (reverse) voltage to the collector plate relative to the cathode (the metal surface). This creates an electric field that opposes the motion of the emitted electrons.
+2.  **Defining $V_s$:** As the reverse voltage is increased, fewer and fewer photoelectrons have enough kinetic energy to reach the collector. The voltage at which the current through the circuit drops to zero (the minimum value) is known as the **stopping potential** ($V_s$).
+3.  **The Relationship:** At the stopping potential, even the most energetic electrons (those with $K_{max}$) are stopped by the electric field before they reach the collector. The relationship between the stopping potential and maximum kinetic energy is:
+    $$K_{max} = eV_s$$
+    where $e$ is the elementary charge ($1.602 \times 10^{-19}\text{ C}$).
+4.  **Evaluating Options:**
+    *   **A:** Brightness (intensity) affects the *number* of electrons (current), not their individual maximum kinetic energy.
+    *   **B:** Wavelength determines the energy of individual photons ($E = \frac{hc}{\lambda}$), which influences $K_{max}$, but the wavelength itself is not a *measurement* of $K_{max}$ using the circuit.
+    *   **C:** The reading on the voltmeter at the point where the current is zero (the minimum value) is exactly the stopping potential, which allows us to calculate $K_{max}$.
+    *   **D:** The current at maximum voltage does not directly provide $K_{max}$; it relates to the saturation current.
+
+###QUESTION_TYPE
+Multiple choice

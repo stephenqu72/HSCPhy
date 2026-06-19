@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this question, we must understand the fundamental definition of the **work function ($\Phi$)** in the context of the photoelectric effect.
+
+1.  **Definition:** The work function is defined as the minimum amount of energy required to remove an electron from the surface of a metal. Since photons deliver energy to the metal surface in discrete packets (quanta), the work function represents the minimum energy a single incident photon must possess to liberate an electron from that metal surface.
+2.  **Evaluating the options:**
+    *   **Option A:** This refers to the **threshold frequency ($f_0$)**. While related to the work function by the equation $\Phi = hf_0$, it is not the definition of the work function itself.
+    *   **Option B:** This refers to the **threshold wavelength ($\lambda_0$)**, which is the maximum wavelength (since lower wavelength means higher energy) required for emission.
+    *   **Option C:** This is the correct definition. The photoelectric effect occurs when an incident photon has enough energy to overcome the binding energy holding the electron to the metal. This minimum energy required is precisely the work function.
+    *   **Option D:** This is a distractor. While electrons do need to reach the surface, the work function specifically refers to the energy required to remove the electron from the surface into the vacuum, not the internal movement of the electron.
+
+In the photoelectric equation:
+$$E_k = hf - \Phi$$
+Where $E_k$ is the maximum kinetic energy, $hf$ is the energy of the incident photon, and $\Phi$ is the work function. If $hf < \Phi$, no photoelectric emission occurs. Thus, $\Phi$ is the minimum energy a photon must have to cause emission.
+
+###QUESTION_TYPE
+Multiple choice

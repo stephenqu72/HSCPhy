@@ -1,0 +1,33 @@
+To solve this problem, we must analyze the physics of relativistic motion and the constraints of human survival.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To understand why (B) is the correct answer, let's break down the kinematics involved in the acceleration phase:
+
+1.  **Calculate the acceleration time:**
+    The spacecraft accelerates from $u = 0$ to $v = 0.5c$ over a distance of $d = 10 \text{ light years}$.
+    Using the kinematic equation $v^2 = u^2 + 2ad$:
+    $$(0.5c)^2 = 0 + 2 \cdot a \cdot (10 \text{ ly})$$
+    $$0.25c^2 = 20a \cdot \text{ly}$$
+    Since $1 \text{ light year} = c \times 1 \text{ year}$, we can substitute units:
+    $$0.25c^2 = 20 \cdot a \cdot c \cdot \text{year}$$
+    $$a = \frac{0.25c}{20 \text{ years}} = 0.0125 \frac{c}{\text{year}}$$
+
+2.  **Convert to g-force:**
+    We know that $1g \approx 9.8 \text{ m/s}^2$ and $c \approx 3 \times 10^8 \text{ m/s}$. 
+    Converting $c$ to years: $1 \text{ year} \approx 3.15 \times 10^7 \text{ seconds}$.
+    $1g \approx 1.03 \text{ light-years/year}^2$.
+    
+    While $0.0125$ seems small, in relativistic kinematics, reaching a significant fraction of $c$ over a distance of 10 light-years requires a constant thrust. If the acceleration is uniform over that distance, the G-force experienced is physically demanding. More importantly, in the context of HSC Physics, this question tests the understanding that **high-speed maneuvers over interstellar distances involve accelerations that are either sustained for too long or require magnitudes of force that human physiology cannot withstand.**
+
+3.  **Evaluating the distractors:**
+    *   **(A)** Length contraction is a phenomenon of reference frames; it does not exert physical stress ("crushing") on objects within their own frame.
+    *   **(C)** With time dilation, the astronauts would actually experience *less* time passing than observers on Earth. They would not die of old age if traveling at $0.5c$.
+    *   **(D)** This is factually incorrect; fuel is absolutely required to decelerate in space (there is no air resistance/friction to slow the ship down).
+
+Therefore, the mechanical stress (G-force) during the rapid transition to relativistic speeds remains the most significant biological hurdle for the crew.
+
+### QUESTION_TYPE
+Multiple choice

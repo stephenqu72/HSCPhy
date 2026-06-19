@@ -1,0 +1,26 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically the concept of **length contraction**.
+
+### Reasoning and Explanation
+
+1.  **Understanding Length Contraction:** The formula for relativistic length contraction is $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$. This tells us that an object's length in the direction of motion is contracted relative to a stationary observer by a factor that depends on the magnitude of its velocity $v$ relative to the observer. 
+    *   If $v=0$, there is no contraction.
+    *   As $v \to c$, the contraction becomes more significant.
+
+2.  **Determining Instantaneous Velocity ($v$) for points $P, Q, R$:**
+    *   **Point $Q$ (Center):** The wheel is moving forward at $v = 0.4c$. Therefore, relative to the observer at $X$, the velocity of $Q$ is $0.4c$.
+    *   **Point $P$ (Bottom):** Because there is no slippage on the road, the point of the tyre in contact with the ground is instantaneously at rest. Thus, the velocity of $P$ relative to the observer at $X$ is $0$.
+    *   **Point $R$ (Top):** For a rolling wheel, the velocity of the top point relative to the center is $v_{top/center} = v_{car} = 0.4c$. By Galilean transformation (which is sufficient for this qualitative comparison of speeds), the velocity of the top point relative to the ground is $v_{top} = v_{car} + v_{center} = 0.4c + 0.4c = 0.8c$. 
+
+3.  **Comparing Contraction:**
+    *   At **$P$**: Since $v = 0$, there is **zero** length contraction.
+    *   At **$Q$**: The velocity is $0.4c$, so there is a moderate amount of contraction.
+    *   At **$R$**: The velocity is $0.8c$. Since $0.8c > 0.4c$, the contraction at $R$ is greater than the contraction at $Q$.
+
+4.  **Conclusion:**
+    *   Contraction is zero at $P$ (velocity is zero).
+    *   Contraction is greatest at $R$ (velocity is highest).
+
+Comparing this to the given options, **B** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

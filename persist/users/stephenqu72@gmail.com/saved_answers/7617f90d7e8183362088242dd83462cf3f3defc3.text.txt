@@ -1,0 +1,29 @@
+To solve this problem, we must look at the photoelectric effect equation, which relates the maximum kinetic energy ($K_{max}$) of emitted photoelectrons to the frequency ($f$) of the incident light:
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $h$ is Planck's constant.
+*   $\Phi$ is the work function of the metal (the energy required to remove an electron from the surface).
+
+Comparing this to the equation of a straight line ($y = mx + c$):
+*   $y = K_{max}$
+*   $x = f$
+*   **Slope ($m$)** = $h$ (Planck's constant).
+*   **$y$-intercept ($c$)** = $-\Phi$ (the negative of the work function).
+*   **$x$-intercept** occurs when $K_{max} = 0$, meaning $0 = hf_0 - \Phi$, so $f_0 = \frac{\Phi}{h}$ (the threshold frequency).
+
+### Analysis:
+1.  **Slope:** The slope of the graph is Planck's constant ($h$). Since $h$ is a universal physical constant, it remains the same regardless of the metal used. Therefore, the slope does **not** change.
+2.  **$x$-intercept:** The $x$-intercept is the threshold frequency ($f_0 = \frac{\Phi}{h}$). Since different metals have different work functions ($\Phi$), the threshold frequency will change if a different metal is used.
+3.  **$y$-intercept:** The $y$-intercept is $-\Phi$. Since different metals have different work functions ($\Phi$), the $y$-intercept will change if a different metal is used.
+
+Comparing our findings to the options:
+*   Slope changes: No
+*   $x$-intercept changes: Yes
+*   $y$-intercept changes: Yes
+
+This corresponds to option **D**.
+
+###QUESTION_TYPE
+Multiple choice

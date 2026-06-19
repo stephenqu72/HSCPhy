@@ -1,0 +1,39 @@
+To solve this problem, we use **Malus's Law**, which states that the intensity of transmitted light $I$ through a polariser is given by:
+
+$$I = I_0 \cos^2(\theta)$$
+
+where:
+*   $I_0$ is the initial intensity of the polarised light.
+*   $\theta$ is the angle between the plane of polarisation of the incident light and the axis of the polarising filter.
+
+### 1. Identify the current setup
+*   The incident light is at $30^\circ$ to the $x$-axis.
+*   The filter axis is along the $y$-axis (which is at $90^\circ$ to the $x$-axis).
+*   The current angle $\theta$ between the light and the filter is $90^\circ - 30^\circ = 60^\circ$.
+
+The goal is to reach $\theta = 0^\circ$ (or $180^\circ$), as $\cos^2(0^\circ) = 1$ gives the maximum possible transmission.
+
+### 2. Evaluate the options
+We want to see which adjustment brings the angle $\theta$ closer to $0^\circ$.
+
+*   **(A) Rotating the light source anti-clockwise $80^\circ$:**
+    The light is at $30^\circ$. Moving it $80^\circ$ anti-clockwise brings it to $110^\circ$. Since the filter is at $90^\circ$, the new angle is $|110^\circ - 90^\circ| = 20^\circ$. 
+    $\cos^2(20^\circ) \approx 0.88$.
+
+*   **(B) Rotating the light source clockwise $10^\circ$:**
+    The light is at $30^\circ$. Moving it $10^\circ$ clockwise brings it to $20^\circ$. The filter is at $90^\circ$. The new angle is $|90^\circ - 20^\circ| = 70^\circ$.
+    $\cos^2(70^\circ) \approx 0.12$.
+
+*   **(C) Rotating the filter clockwise $150^\circ$:**
+    The filter is at $90^\circ$. Moving it $150^\circ$ clockwise ($90 - 150 = -60^\circ$ or $300^\circ$). The light is at $30^\circ$. The new angle is $|30^\circ - (-60^\circ)| = 90^\circ$.
+    $\cos^2(90^\circ) = 0$.
+
+*   **(D) Rotating the filter anti-clockwise $220^\circ$:**
+    The filter is at $90^\circ$. Moving it $220^\circ$ anti-clockwise ($90 + 220 = 310^\circ$, which is equivalent to $-50^\circ$). The light is at $30^\circ$. The new angle is $|30^\circ - (-50^\circ)| = 80^\circ$.
+    $\cos^2(80^\circ) \approx 0.03$.
+
+**Conclusion:** 
+Option (A) results in an angle of $20^\circ$, which is the closest to $0^\circ$ among all options. Therefore, it results in the greatest light intensity.
+
+###QUESTION_TYPE
+Multiple choice

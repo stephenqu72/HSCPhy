@@ -1,0 +1,34 @@
+To solve this problem, we use Einstein's photoelectric equation, which relates the energy of incoming photons to the work function of the metal and the maximum kinetic energy of the ejected photoelectrons.
+
+### The Physics Principles
+1.  **Energy of a photon**: $E = \frac{hc}{\lambda}$
+2.  **Photoelectric Equation**: $E_k = E - \Phi$, where $E_k$ is the maximum kinetic energy, $E$ is the photon energy, and $\Phi$ is the work function.
+3.  **Stopping Voltage**: The stopping voltage $V_s$ is defined by $E_k = eV_s$, where $e$ is the elementary charge ($1.602 \times 10^{-19}\text{ C}$).
+
+### Step-by-Step Solution
+
+**Step 1: Calculate the energy of the incident photon ($E$)**
+Given:
+- $\lambda = 4.50 \times 10^{-7}\text{ m}$
+- $h = 6.626 \times 10^{-34}\text{ J s}$
+- $c = 3.00 \times 10^8\text{ m/s}$
+
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{4.50 \times 10^{-7}}$$
+$$E = 4.417 \times 10^{-19}\text{ J}$$
+
+**Step 2: Calculate the maximum kinetic energy ($E_k$)**
+Given stopping voltage $V_s = 1.14\text{ V}$:
+$$E_k = eV_s = 1.602 \times 10^{-19}\text{ C} \times 1.14\text{ V}$$
+$$E_k = 1.826 \times 10^{-19}\text{ J}$$
+
+**Step 3: Calculate the work function ($\Phi$)**
+Rearranging the photoelectric equation $\Phi = E - E_k$:
+$$\Phi = 4.417 \times 10^{-19}\text{ J} - 1.826 \times 10^{-19}\text{ J}$$
+$$\Phi = 2.591 \times 10^{-19}\text{ J}$$
+
+Rounding to two significant figures (consistent with the provided data), we get $2.6 \times 10^{-19}\text{ J}$.
+
+Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

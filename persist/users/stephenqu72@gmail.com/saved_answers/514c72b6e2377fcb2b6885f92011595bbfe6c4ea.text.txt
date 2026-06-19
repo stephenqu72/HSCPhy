@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+This question tests your understanding of **Length Contraction**, a fundamental consequence of Einstein’s Theory of Special Relativity.
+
+#### Part (a)
+**Calculation:**
+1.  Identify the proper length ($L_0$): Since the observer is on the ground (stationary relative to the field), $L_0 = 145\text{ m}$.
+2.  Determine the Lorentz factor ($\gamma$):
+    Given $v = 0.835c$,
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - (0.835)^2}} \approx \frac{1}{\sqrt{1 - 0.697225}} \approx \frac{1}{\sqrt{0.302775}} \approx 1.817$$
+3.  Calculate the contracted length ($L$):
+    $$L = \frac{L_0}{\gamma} = 145 \times \sqrt{1 - (0.835)^2} \approx 145 \times 0.55025 \approx 79.79\text{ m}$$
+
+**Answer:** The length measured by an observer on the spacecraft is approximately **$79.8\text{ m}$**.
+
+---
+
+#### Part (b)
+**Justification:**
+According to the principle of length contraction, objects only undergo contraction in the **direction of motion**. 
+
+1.  When the spacecraft moves from X to Y, the motion is perpendicular to the P-Q direction.
+2.  There is no relative motion between the observer on the spacecraft and the ground in the P-Q dimension.
+3.  Therefore, the observer on the spacecraft will measure the length of the field in the P-Q direction to be equal to the **proper length ($145\text{ m}$)**, as no length contraction occurs in the dimension perpendicular to the velocity vector.
+
+---
+
+###QUESTION_TYPE
+Calculation question

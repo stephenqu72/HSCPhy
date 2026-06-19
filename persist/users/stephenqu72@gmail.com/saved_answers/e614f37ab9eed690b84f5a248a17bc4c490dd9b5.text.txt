@@ -1,0 +1,28 @@
+To solve this problem, we apply **Wien’s Displacement Law**, which states that the wavelength of the peak intensity ($\lambda_{max}$) of a blackbody is inversely proportional to its absolute temperature ($T$):
+
+$$\lambda_{max} T = b$$
+Where Wien's constant $b \approx 2.898 \times 10^{-3} \text{ m K}$.
+
+### Part (a)
+**Answer:** Approximately $7200 \text{ K}$ to $7300 \text{ K}$.
+
+**Explanation:**
+1. Locate $0.4 \text{ }\mu\text{m}$ on the vertical axis (y-axis).
+2. Move horizontally to the right until you intersect the curve.
+3. Move vertically down to the horizontal axis (x-axis) to read the temperature. Each major grid square on the x-axis represents $5000 \text{ K}$, and there are 10 subdivisions, meaning each small square represents $500 \text{ K}$. The intersection occurs slightly past the $7000 \text{ K}$ mark.
+
+### Part (b)
+**Explanation:**
+To verify Wien's Law, we select two data points from the graph to calculate the constant $b$ and check for consistency. Note that $\lambda_{max}$ must be converted from micrometers ($\mu\text{m}$) to meters ($\text{m}$) by multiplying by $10^{-6}$.
+
+**Calculation:**
+*   **Point 1:** Let $T_1 = 5000 \text{ K}$. From the graph, $\lambda_1 \approx 0.58 \text{ }\mu\text{m} = 0.58 \times 10^{-6} \text{ m}$.
+    $$b_1 = \lambda_1 T_1 = (0.58 \times 10^{-6}) \times 5000 = 2.90 \times 10^{-3} \text{ m K}$$
+*   **Point 2:** Let $T_2 = 10000 \text{ K}$. From the graph, $\lambda_2 \approx 0.29 \text{ }\mu\text{m} = 0.29 \times 10^{-6} \text{ m}$.
+    $$b_2 = \lambda_2 T_2 = (0.29 \times 10^{-6}) \times 10000 = 2.90 \times 10^{-3} \text{ m K}$$
+
+**Conclusion:**
+Since the calculated values for $b$ ($2.90 \times 10^{-3} \text{ m K}$) closely match the accepted value for Wien's constant ($2.898 \times 10^{-3} \text{ m K}$), the data from the graph successfully reflects Wien's Law.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,22 @@
+To solve this problem, we need to apply two fundamental principles of optics regarding polarized light: the effect of a single polarizer on unpolarized light and Malus’s Law for a second polarizer.
+
+### Step 1: Passing unpolarized light through the first polarizer
+When unpolarized light with intensity $I_0$ passes through an ideal polarizer, exactly half of the intensity is transmitted. Therefore, the intensity of the light after the first polarizer ($I_1$) is:
+$$I_1 = \frac{I_0}{2}$$
+
+### Step 2: Passing polarized light through the second polarizer
+The light incident on the second polarizer is now linearly polarized with intensity $I_1 = \frac{I_0}{2}$. According to **Malus’s Law**, the intensity of light transmitted through a second polarizer, $I_2$, is given by:
+$$I_2 = I_1 \cos^2(\theta)$$
+where $\theta$ is the angle between the transmission axes of the two polarizers.
+
+Given that $\theta = 60^\circ$ and $\cos(60^\circ) = \frac{1}{2}$, we substitute these values into the equation:
+$$I_2 = \left( \frac{I_0}{2} \right) \times (\cos(60^\circ))^2$$
+$$I_2 = \left( \frac{I_0}{2} \right) \times \left( \frac{1}{2} \right)^2$$
+$$I_2 = \left( \frac{I_0}{2} \right) \times \left( \frac{1}{4} \right)$$
+$$I_2 = \frac{I_0}{8}$$
+
+### Conclusion
+Comparing this result to the given options, the correct choice is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

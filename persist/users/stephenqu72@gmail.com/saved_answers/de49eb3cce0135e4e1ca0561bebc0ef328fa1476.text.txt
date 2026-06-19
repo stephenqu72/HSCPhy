@@ -1,0 +1,32 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the peak wavelength ($\lambda_{max}$) of electromagnetic radiation emitted by a black body to its absolute temperature ($T$).
+
+### The Formula
+Wien's Displacement Law is expressed as:
+$$\lambda_{max} T = b$$
+Where:
+*   $\lambda_{max} = 450 \text{ nm} = 450 \times 10^{-9} \text{ m}$
+*   $T$ is the temperature in Kelvin (K)
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$
+
+### Step-by-Step Calculation
+
+1.  **Rearrange the formula to solve for $T$:**
+    $$T = \frac{b}{\lambda_{max}}$$
+
+2.  **Substitute the values:**
+    $$T = \frac{2.898 \times 10^{-3} \text{ m K}}{450 \times 10^{-9} \text{ m}}$$
+
+3.  **Perform the division:**
+    $$T = 6440 \text{ K}$$
+
+**Answer:** The surface temperature of the star is $6440 \text{ K}$.
+
+***
+
+### Teacher's Tip for the HSC Exam:
+*   **Unit Conversion:** Always ensure your wavelength is converted from nanometers (nm) to meters (m) before performing the calculation. Forgetting the $10^{-9}$ factor is a common error that will lead to an incorrect order of magnitude.
+*   **Significant Figures:** Since the input ($450$) has two or three significant figures, providing your answer to three significant figures is appropriate.
+*   **Constants:** Ensure you use the value of Wien's constant provided in your specific Physics Data Sheet, as minor variations (e.g., $2.90 \times 10^{-3}$) may exist depending on the board's standard.
+
+###QUESTION_TYPE
+Calculation question

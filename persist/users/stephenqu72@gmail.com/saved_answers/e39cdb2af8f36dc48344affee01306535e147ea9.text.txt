@@ -1,0 +1,35 @@
+To find the work function of the cathode, we use Einstein's photoelectric equation:
+
+$$E = \Phi + K_{max}$$
+
+Where:
+*   $E$ is the energy of the incident photon.
+*   $\Phi$ is the work function of the metal.
+*   $K_{max}$ is the maximum kinetic energy of the emitted photoelectrons.
+
+### Step 1: Calculate the energy of the incident photon ($E$)
+The energy of a photon is given by $E = \frac{hc}{\lambda}$. In physics problems involving electron-volts (eV), it is often easier to use the constant $hc \approx 1240 \text{ eV}\cdot\text{nm}$.
+
+Given $\lambda = 200 \text{ nm}$:
+$$E = \frac{1240 \text{ eV}\cdot\text{nm}}{200 \text{ nm}} = 6.2 \text{ eV}$$
+
+### Step 2: Determine the maximum kinetic energy ($K_{max}$)
+The stopping voltage ($V_s$) is the potential required to stop the most energetic electrons. Therefore, the maximum kinetic energy is equal to the stopping voltage in electron-volts:
+$$K_{max} = eV_s = 4.2 \text{ eV}$$
+
+### Step 3: Calculate the work function ($\Phi$)
+Rearranging the photoelectric equation to solve for $\Phi$:
+$$\Phi = E - K_{max}$$
+$$\Phi = 6.2 \text{ eV} - 4.2 \text{ eV}$$
+$$\Phi = 2.0 \text{ eV}$$
+
+Comparing this result to the given options:
+A. 1.2
+B. 2.0
+C. 3.0
+D. 3.2
+
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

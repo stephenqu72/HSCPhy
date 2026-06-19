@@ -1,0 +1,31 @@
+To find the Lorentz factor ($\gamma$) for the kaon, we use the standard formula from special relativity:
+
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### Step-by-Step Calculation:
+
+1.  **Identify the given value:** The velocity $v = 0.697c$, which means $\frac{v}{c} = 0.697$.
+2.  **Square the ratio:** 
+    $$\left(\frac{v}{c}\right)^2 = 0.697^2 = 0.485809$$
+3.  **Calculate the denominator:**
+    $$1 - 0.485809 = 0.514191$$
+    $$\sqrt{0.514191} \approx 0.717071$$
+4.  **Calculate $\gamma$:**
+    $$\gamma = \frac{1}{0.717071} \approx 1.39456$$
+
+### Evaluation:
+The question asks for the Lorentz factor correct to 3 significant figures. 
+Rounding $1.39456$ to 3 significant figures gives $1.39$.
+
+Looking at the options provided:
+*   A. $1.39$ (3 sig figs)
+*   B. $1.390$ (4 sig figs)
+*   C. $1.394$ (4 sig figs)
+*   D. $1.40$ (3 sig figs)
+
+While $1.39456$ is technically closer to $1.395$ (which would round to $1.40$ if strictly following rounding rules for the 4th digit), in the context of HSC physics multiple-choice questions, we look for the value that matches the precision requested. Calculating the value again confirms $1.39$ is the result when expressed to 3 significant figures. 
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

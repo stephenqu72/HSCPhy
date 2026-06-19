@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Solution:**
+We use Einstein's photoelectric equation:
+$$E_k = hf - \phi$$
+Since the work function is defined by the threshold frequency $\phi = hf_0$, we substitute this:
+$$E_k = hf - hf_0 = h(f - f_0)$$
+The kinetic energy is also defined by $E_k = \frac{1}{2}mv^2$. Equating these:
+$$\frac{1}{2}mv^2 = h(f - f_0)$$
+$$v^2 = \frac{2h}{m}(f - f_0)$$
+$$v = \sqrt{\frac{2h}{m}} \sqrt{f - f_0}$$
+Now, we calculate the constant factor using the standard values for Planck's constant ($h \approx 6.626 \times 10^{-34} \text{ J s}$) and the mass of an electron ($m \approx 9.109 \times 10^{-31} \text{ kg}$):
+$$\sqrt{\frac{2 \times 6.626 \times 10^{-34}}{9.109 \times 10^{-31}}} \approx \sqrt{1.455 \times 10^{-3}} \approx 0.0381$$
+Thus, $v \approx 0.038 \sqrt{f - f_0}$.
+
+#### Part (b)
+**Solution:**
+*   **Maximum speed:** Unchanged. The maximum kinetic energy (and thus speed) of photoelectrons depends only on the frequency of the incident light, not the intensity.
+*   **Number of electrons:** The number of photoelectrons emitted per second will **double**. Increasing the intensity increases the number of photons hitting the surface per second, and since one photon ejects one electron, the emission rate is directly proportional to intensity.
+
+#### Part (c)
+**Solution:**
+*   **Stopping Voltage:** Since the frequency is higher, the kinetic energy of the electrons is higher. Therefore, a larger negative potential is required to stop them. The curve must cross the x-axis further to the left (more negative $V$).
+*   **Saturation Current:** Assuming the light intensity (number of photons per second) remains the same as the original source, the saturation current (the flat top of the curve) remains at the **same height** as the original graph.
+
+**Sketch instructions:** Start the curve further to the left on the negative x-axis, rise with a similar gradient, and level off at the exact same horizontal height as the original curve.
+
+***
+
+### QUESTION_TYPE
+Calculation question

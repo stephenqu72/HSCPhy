@@ -1,0 +1,26 @@
+To answer this question, we must apply the principles of **Special Relativity**, specifically length contraction and time dilation.
+
+### Answer
+The correct option is **B. The cook**.
+
+---
+
+### Explanation
+To understand this, let's look at the problem from the perspective of each observer:
+
+1.  **The Cook on "Beta" (Stationary Frame):**
+    *   The cook sees starship "Alpha" moving at $0.9c$.
+    *   Due to length contraction, the cook perceives the length of starship "Alpha" to be contracted (shortened). Specifically, the length observed by the cook ($L$) is $L = L_0 / \gamma$, where $L_0$ is the proper length and $\gamma$ is the Lorentz factor ($\gamma > 1$).
+    *   The cook measures the time ($t_{cook}$) it takes for the contracted ship to pass their window: $t_{cook} = \frac{L}{v} = \frac{L_0}{v \cdot \gamma}$.
+
+2.  **The Cabin Boy on "Alpha" (Moving Frame):**
+    *   The cabin boy sees starship "Beta" moving past them at $0.9c$.
+    *   The cabin boy perceives their own ship, "Alpha," to have its proper length ($L_0$). However, they perceive the stationary ship "Beta" to be length-contracted as they pass it.
+    *   Crucially, for the cabin boy, the "event" of the ship passing the window starts and ends at the **same location** (the window). This means the cabin boy is measuring the **proper time** ($\Delta t_0$) for the event to occur relative to their frame.
+    *   The time measured by the cook is related to the time measured by the cabin boy by the time dilation formula: $t_{cook} = \gamma \Delta t_0$. 
+
+**Simplified Logic:**
+The cook sees a length-contracted ship passing a stationary window. The cabin boy, however, effectively sees the "Beta" ship rushing past them. Because of the symmetry of relativity, the "length" of the stationary object (Beta) in the cabin boy's frame is contracted, making the passage seem faster than the time it takes for the "Alpha" ship to pass the stationary cook. Mathematically, the time measured by the cook is dilated compared to the proper time measured by the cabin boy, resulting in a longer duration measured by the cook.
+
+###QUESTION_TYPE
+Multiple choice

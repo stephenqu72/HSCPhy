@@ -1,0 +1,15 @@
+### Answer
+There are relatively fewer Main Sequence stars in spectral classes B and A because these are high-mass, high-luminosity stars that consume their nuclear fuel at an extremely rapid rate. Consequently, their lifespan on the Main Sequence is very short compared to lower-mass stars (such as G, K, or M class stars). Since they die quickly, there is less time for these stars to accumulate in the population, making them statistically rarer in the current stellar population of our galaxy.
+
+### Explanation
+To solve this question, you need to connect the concepts of stellar evolution, mass, and luminosity:
+
+1.  **Mass-Luminosity Relationship:** Recall that Main Sequence stars follow the relationship $L \propto M^a$, where $a$ is typically between 3 and 4. This means that even a small increase in mass results in a massive increase in luminosity.
+2.  **Fuel Consumption:** Luminosity is a measure of how fast a star is burning its hydrogen fuel. Because B and A-type stars are much more massive than the Sun, they burn their hydrogen fuel at an exponentially faster rate to maintain hydrostatic equilibrium against their own gravity.
+3.  **Lifespan:** The lifespan of a star ($\tau$) is proportional to its fuel reservoir (mass, $M$) divided by the rate at which it consumes fuel (luminosity, $L$). Since $L \propto M^3$ to $M^4$, the lifespan formula is roughly:
+    $$\tau \propto \frac{M}{M^3} \approx \frac{1}{M^2}$$
+    This means that if you double the mass of a star, its lifespan on the Main Sequence is reduced to roughly one-quarter of its original length.
+4.  **Statistical Population:** Because B and A-type stars "burn out" and leave the Main Sequence after only millions of years (compared to the billions of years for M-type stars), we see fewer of them at any given moment in the life of our galaxy.
+
+### QUESTION_TYPE
+Short answer

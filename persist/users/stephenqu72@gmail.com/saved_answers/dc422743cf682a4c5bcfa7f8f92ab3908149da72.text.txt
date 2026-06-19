@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of Einstein's Special Relativity, specifically **time dilation**.
+
+### (a) Calculation
+
+**1. Identify the given values:**
+*   Proper time (lifetime at rest), $t_0 = 2.2 \times 10^{-6} \text{ s}$
+*   Velocity, $v = 0.99c$
+*   Speed of light, $c \approx 3.0 \times 10^8 \text{ m/s}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.99^2}} \approx \frac{1}{\sqrt{1 - 0.9801}} \approx \frac{1}{0.1407} \approx 7.0888$$
+
+**3. Calculate the dilated lifetime ($t$) as measured by an observer on Earth:**
+$$t = \gamma t_0 \approx 7.0888 \times 2.2 \times 10^{-6} \text{ s} \approx 1.5595 \times 10^{-5} \text{ s}$$
+
+**4. Calculate the distance ($d$) travelled on Earth:**
+$$d = v \times t = (0.99 \times 3.0 \times 10^8 \text{ m/s}) \times 1.5595 \times 10^{-5} \text{ s} \approx 4631.7 \text{ m}$$
+
+**Answer:** A muon can travel approximately **4632 meters** according to an observer on Earth.
+
+***
+
+### (b) Explanation
+
+According to classical physics, the muon decays after its "proper" lifetime of $2.2 \text{ }\mu\text{s}$, limiting its travel distance to roughly $653 \text{ m}$. However, because the muon is travelling at a relativistic speed ($0.99c$), an observer on Earth perceives the muon's internal clock to be ticking slower (time dilation). Consequently, the muon exists for a longer period in the Earth's reference frame. This extended lifetime allows the muon to cover a much greater distance, enabling many of them to reach the Earth's surface before decaying. (Alternatively, one could explain this via length contraction, where the distance the muon must travel is contracted from the muon's perspective).
+
+***
+
+###QUESTION_TYPE
+Calculation question

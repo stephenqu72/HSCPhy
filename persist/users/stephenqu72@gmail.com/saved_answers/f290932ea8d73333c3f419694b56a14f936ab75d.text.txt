@@ -1,0 +1,23 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+This question assesses your understanding of **Einstein's Special Theory of Relativity**, specifically the consequences of the second postulate: that the speed of light in a vacuum ($c$) is invariant for all inertial observers.
+
+Here is why the options are evaluated as follows:
+
+*   **(A) Incorrect:** Special Relativity asserts that there is no "preferred" or "real" frame of reference. All inertial frames are equally valid for describing the laws of physics.
+*   **(B) Incorrect:** While it is true that we see distant galaxies in the past, this is simply a consequence of the finite speed of light ($t = d/c$). It is not a consequence of the *constancy* of the speed of light, which deals with how time and space intervals change for moving observers.
+*   **(C) Incorrect:** According to the theory of **length contraction**, when an object moves at relativistic speeds relative to an observer, that observer measures the length of the object to be *shorter* (contracted) in the direction of motion, not longer. The formula is $L = L_0 \sqrt{1 - v^2/c^2}$.
+*   **(D) Correct:** This is a consequence of **time dilation**. According to special relativity, time is measured differently depending on the relative motion between observers. A "moving" clock (relative to the observer) is measured to run slower than a clock that is at rest relative to the observer. Conversely, from the perspective of the observer, their own "stationary" clock will tick faster than the moving clock. This is expressed by the time dilation formula $t = \gamma t_0$, where $t > t_0$ for the moving frame, confirming the observer's own clock records less elapsed time for the moving interval.
+
+### How to solve it:
+1.  **Identify the core topic:** The question relates to the postulates of Special Relativity and their direct consequences (time dilation and length contraction).
+2.  **Evaluate each statement against the theory:**
+    *   Recall that Relativity rejects "absolute" frames (rules out A).
+    *   Distinguish between basic light travel time and relativistic effects (rules out B).
+    *   Recall the direction of length change: moving objects appear shorter (rules out C).
+    *   Recall that moving clocks appear to run slow, meaning your own stationary clock runs "faster" by comparison (confirms D).
+
+###QUESTION_TYPE
+Multiple choice

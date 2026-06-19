@@ -1,0 +1,37 @@
+To find the relativistic momentum of a proton, we use the formula for relativistic momentum:
+
+$$p = \gamma mv$$
+
+where:
+*   $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ (the Lorentz factor)
+*   $m$ is the rest mass of the proton ($m \approx 1.67 \times 10^{-27} \text{ kg}$)
+*   $v$ is the velocity of the proton ($v = 0.5c$)
+*   $c$ is the speed of light ($c \approx 3.00 \times 10^8 \text{ m/s}$)
+
+### Step 1: Calculate the Lorentz factor ($\gamma$)
+Given $v = 0.5c$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.5)^2}} = \frac{1}{\sqrt{1 - 0.25}} = \frac{1}{\sqrt{0.75}} \approx 1.1547$$
+
+### Step 2: Calculate the momentum ($p$)
+Now substitute the values into the momentum equation:
+$$p = 1.1547 \times (1.67 \times 10^{-27} \text{ kg}) \times (0.5 \times 3.00 \times 10^8 \text{ m/s})$$
+
+First, calculate the velocity:
+$$v = 0.5 \times 3.00 \times 10^8 = 1.5 \times 10^8 \text{ m/s}$$
+
+Now calculate $p$:
+$$p = 1.1547 \times 1.67 \times 10^{-27} \times 1.5 \times 10^8$$
+$$p \approx 2.89 \times 10^{-19} \text{ kg m s}^{-1}$$
+
+Rounding to two significant figures, we get $2.9 \times 10^{-19} \text{ kg m s}^{-1}$.
+
+Comparing this to the given options:
+(A) $9.7 \times 10^{-28} \text{ kg m s}^{-1}$
+(B) $1.9 \times 10^{-27} \text{ kg m s}^{-1}$
+(C) $2.9 \times 10^{-19} \text{ kg m s}^{-1}$
+(D) $3.5 \times 10^{-19} \text{ kg m s}^{-1}$
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

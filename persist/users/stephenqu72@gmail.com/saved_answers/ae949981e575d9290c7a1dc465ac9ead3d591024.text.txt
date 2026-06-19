@@ -1,0 +1,31 @@
+To solve this problem, we apply the principles of Special Relativity, specifically **Time Dilation**.
+
+### (a) Find the speed of the particle
+The proper time ($\Delta t_0$) is $6.5\ \mu s$. The dilated time ($\Delta t$) is the proper time plus $0.40\ \mu s$:
+$$\Delta t = 6.5 + 0.40 = 6.9\ \mu s$$
+Using the time dilation formula $\Delta t = \gamma \Delta t_0$, we solve for the Lorentz factor $\gamma$:
+$$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{6.9}{6.5} \approx 1.0615$$
+Since $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$, then $1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2}$:
+$$\frac{v^2}{c^2} = 1 - \frac{1}{(1.0615)^2} = 1 - 0.8876 \approx 0.1124$$
+$$v = \sqrt{0.1124}c \approx 0.335c$$
+The particle is travelling at **$0.335c$**.
+
+### (b) Lifetime if the laboratory is moved
+If the scientist moves with the Zugon (the laboratory is propelled), they are in the same inertial reference frame as the particle. Therefore, the scientist measures the **proper time**.
+The lifetime recorded would be **$6.5\ \mu s$**.
+
+### (c) Find the momentum of the Zugon
+Momentum in special relativity is given by $p = \gamma mv$. We are given $m = 190\ \text{MeV}/c^2$ and we found $\gamma \approx 1.0615$ and $v \approx 0.335c$.
+$$p = \gamma \cdot m \cdot v$$
+$$p = 1.0615 \cdot \left(190\ \text{MeV}/c^2\right) \cdot (0.335c)$$
+$$p \approx 67.55\ \text{MeV}/c$$
+
+---
+
+### Teacher's Explanation
+1.  **Time Dilation:** Always identify $\Delta t_0$ as the time measured in the frame where the particle is stationary (proper time). The "dilated" time is always longer.
+2.  **Frames of Reference:** In part (b), remember that relativity is about *relative* motion. If you move *with* the clock, you are measuring the proper time, regardless of how fast your lab is going relative to the Earth.
+3.  **Units:** For part (c), keeping the mass in $\text{MeV}/c^2$ makes the calculation simple, as the units for momentum will naturally result in $\text{MeV}/c$.
+
+###QUESTION_TYPE
+Calculation question

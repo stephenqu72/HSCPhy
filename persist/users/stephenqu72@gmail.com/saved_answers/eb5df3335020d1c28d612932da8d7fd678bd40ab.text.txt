@@ -1,0 +1,30 @@
+To solve this problem, we apply the principle of **time dilation** from Einstein's Theory of Special Relativity.
+
+### Answer
+The correct option is **(A) $6.3 \times 10^{-7}\text{ s}$**.
+
+### Explanation
+When an object is moving at a significant fraction of the speed of light ($c$), time passes more slowly for that object compared to a stationary observer. This is known as time dilation.
+
+1.  **Identify the variables:**
+    *   The "proper time" ($t_0$) is the time interval measured in the reference frame where the particle is stationary. This is what we need to find.
+    *   The "dilated time" ($t_v$) is the lifetime observed by the scientist while the particle is moving: $t_v = 1.0 \times 10^{-5}\text{ s}$.
+    *   The velocity of the particle is $v = 0.998c$.
+
+2.  **State the time dilation formula:**
+    $$t_v = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    Rearranging to solve for the proper time ($t_0$):
+    $$t_0 = t_v \times \sqrt{1 - \frac{v^2}{c^2}}$$
+
+3.  **Perform the calculation:**
+    First, calculate the Lorentz factor term $\sqrt{1 - \frac{v^2}{c^2}}$:
+    $$\sqrt{1 - (0.998)^2} = \sqrt{1 - 0.996004} = \sqrt{0.003996} \approx 0.063214$$
+
+    Now, multiply this by the observed (dilated) lifetime:
+    $$t_0 = (1.0 \times 10^{-5}\text{ s}) \times 0.063214$$
+    $$t_0 \approx 6.32 \times 10^{-7}\text{ s}$$
+
+Comparing this to the given options, **(A)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

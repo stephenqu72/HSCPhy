@@ -1,0 +1,28 @@
+To verify Malus’s Law ($I = I_0 \cos^2\theta$), you must demonstrate the relationship between the intensity of transmitted light and the angle of the transmission axis of an analyzer relative to a polarizer.
+
+### Procedure
+
+1.  **Setup:** Place a laser source at one end of an optical bench. Position a linear polarizer in front of the laser to ensure the light is plane-polarized.
+2.  **Placement:** Place a second polarizer (the analyzer) on the bench after the first one, mounted on a rotatable stage with an angular scale.
+3.  **Detection:** Place a light sensor or a photodiode at the end of the bench to measure the intensity ($I$) of the light transmitted through both filters. Connect this to a data logger.
+4.  **Zeroing:** Rotate the analyzer until the intensity is at a maximum; record this as the reference angle ($\theta = 0^\circ$).
+5.  **Data Collection:** Rotate the analyzer in increments (e.g., $10^\circ$) from $0^\circ$ to $90^\circ$. Record the intensity at each angle.
+6.  **Analysis:** Plot a graph of $I$ versus $\cos^2\theta$. A linear relationship passing through the origin confirms Malus's Law.
+
+### Diagram
+```text
+[Laser Source] --> [Polarizer] --> [Analyzer (rotatable)] --> [Light Sensor]
+                                        ^
+                                     (Angle θ)
+```
+
+### Explanation on how to solve
+To score full marks on an HSC "Outline a procedure" question:
+*   **Identify the independent and dependent variables:** Here, the angle $\theta$ is independent and intensity $I$ is dependent.
+*   **Detail the equipment:** Mention specific items like the optical bench, laser, rotatable polarizer, and light sensor.
+*   **Include control measures:** Explain how you zero the apparatus to ensure accurate measurement of the relative angle.
+*   **Describe data analysis:** Always link the procedure to the mathematical verification. Stating that you will plot $I$ against $\cos^2\theta$ demonstrates you understand how the law is verified graphically (the gradient should be $I_0$).
+*   **Diagram:** A simple, labelled line diagram is essential for physics experimental questions to show the physical arrangement of components.
+
+###QUESTION_TYPE
+Experimental questions

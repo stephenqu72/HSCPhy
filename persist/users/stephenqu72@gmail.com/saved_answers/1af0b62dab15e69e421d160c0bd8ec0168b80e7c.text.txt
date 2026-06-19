@@ -1,0 +1,22 @@
+To solve this problem, we apply Einstein’s photoelectric equation, which relates the maximum kinetic energy of the emitted photoelectrons ($E_{k \text{ max}}$) to the frequency of incident light ($f$):
+
+$$E_{k \text{ max}} = hf - \Phi$$
+
+Where:
+- $h$ is Planck's constant (the slope of the graph).
+- $\Phi$ is the work function of the metal (the absolute value of the $y$-intercept).
+- The $x$-intercept represents the threshold frequency ($f_0$), where $f_0 = \frac{\Phi}{h}$.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Slope:** The slope of the line is defined by Planck's constant ($h$). Since the experiment uses the same type of light (photons) and the same physical constants, the slope remains unchanged regardless of the metal used. Therefore, the dashed line must be **parallel** to the solid line.
+2.  **Analyze the Work Function:** A larger work function ($\Phi$) means more energy is required to eject an electron. Looking at the equation, if $\Phi$ increases, the $y$-intercept ($-\Phi$) becomes more negative. 
+3.  **Analyze the Threshold Frequency:** Since $f_0 = \frac{\Phi}{h}$, increasing $\Phi$ results in a larger threshold frequency. This means the $x$-intercept of the graph shifts to the **right** (a higher frequency is required to start the photoelectric effect).
+
+Comparing the options:
+- Option (C) shows the dashed line shifted to the right of the original line, maintaining the same gradient. This perfectly matches our theoretical derivation.
+
+**Correct Option: (C)**
+
+### QUESTION_TYPE
+Multiple choice

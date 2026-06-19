@@ -1,0 +1,32 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the peak wavelength ($\lambda_{max}$) of the thermal radiation emitted by an object to its absolute temperature ($T$).
+
+### 1. Identify the given information
+From the provided intensity graph, we observe the peak of the curve occurs at a wavelength of:
+$$\lambda_{max} = 2.1\ \mu\text{m} = 2.1 \times 10^{-6}\ \text{m}$$
+
+### 2. The Formula
+Wien’s Displacement Law is given by:
+$$\lambda_{max} T = b$$
+where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3}\ \text{m}\cdot\text{K}$.
+
+### 3. Calculation
+Rearrange the formula to solve for temperature ($T$):
+$$T = \frac{b}{\lambda_{max}}$$
+
+Substitute the known values:
+$$T = \frac{2.898 \times 10^{-3}\ \text{m}\cdot\text{K}}{2.1 \times 10^{-6}\ \text{m}}$$
+$$T \approx 1380\ \text{K}$$
+
+Comparing this result to the given options:
+A. $1380\ \text{K}$
+B. $1449\ \text{K}$
+C. $13800\ \text{K}$
+D. $14490\ \text{K}$
+
+The calculated value corresponds to option **A**.
+
+### Explanation Summary
+To solve problems involving blackbody radiation curves, always identify the peak wavelength on the x-axis first. Ensure your units are converted to standard SI units (meters for wavelength). Using Wien's Displacement Law allows us to determine the surface temperature of stars based on the wavelength at which they emit the most radiation.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+To solve this problem, we apply **Malus’s Law**, which describes how the intensity of polarized light changes when it passes through a second polarizer (the analyzer).
+
+### Explanation
+
+1.  **The Physics Principle:** When unpolarized light passes through the first polarizer, its intensity is reduced by half. The light exiting the first polarizer is now linearly polarized. When this polarized light strikes the second polarizer (analyzer) at an angle $\theta$ relative to the transmission axis of the first, the transmitted intensity $I$ is given by Malus’s Law:
+    $$I = I_0 \cos^2(\theta)$$
+    where $I_0$ is the intensity of the light incident on the second polarizer and $\theta$ is the angle between the transmission axes of the two polarizers.
+
+2.  **Analyzing the Graphs:**
+    *   At $\theta = 0^\circ$, $\cos(0) = 1$, so $I = I_0 \cos^2(0) = I_0$ (Maximum intensity).
+    *   At $\theta = 90^\circ$, $\cos(90) = 0$, so $I = I_0 \cos^2(90) = 0$ (Minimum intensity/extinction).
+    *   At $\theta = 180^\circ$, $\cos(180) = -1$, so $I = I_0 \cos^2(180) = I_0$ (Maximum intensity).
+
+3.  **Selecting the Correct Graph:**
+    *   The graph must start at a maximum value at $0^\circ$.
+    *   It must drop to zero at $90^\circ$.
+    *   It must return to the maximum value at $180^\circ$.
+    *   The relationship is a $\cos^2(\theta)$ function, which results in a smooth, curved "hump" shape rather than a linear V-shape.
+
+Looking at the options, **Graph (D)** is the only one that matches this pattern: it starts at a maximum at $0^\circ$, reaches a minimum at $90^\circ$, and shows the correct curvature for a squared trigonometric function over the specified interval. (Note: Graph B would be correct if it were a $90^\circ$ rotation, but over $180^\circ$, the function must return to a maximum).
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

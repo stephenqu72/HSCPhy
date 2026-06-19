@@ -1,0 +1,31 @@
+To solve this photoelectric effect problem, we use the wave equation $c = f\lambda$ and Einstein’s photoelectric equation:
+$$eV_s = hf - \Phi$$
+where $V_s$ is the stopping potential, $f$ is frequency, $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$), and $\Phi$ is the work function.
+
+### (a) Completing the table
+We use $f = \frac{c}{\lambda}$, where $c = 3.0 \times 10^8 \text{ m/s}$.
+1. For $\lambda = 6.0 \times 10^{-7} \text{ m}$: $f = \frac{3.0 \times 10^8}{6.0 \times 10^{-7}} = 0.5 \times 10^{15} = 5.0 \times 10^{14} \text{ Hz}$
+2. For $\lambda = 4.0 \times 10^{-7} \text{ m}$: $f = \frac{3.0 \times 10^8}{4.0 \times 10^{-7}} = 0.75 \times 10^{15} = 7.5 \times 10^{14} \text{ Hz}$
+3. For $\lambda = 3.0 \times 10^{-7} \text{ m}$: $f = \frac{3.0 \times 10^8}{3.0 \times 10^{-7}} = 1.0 \times 10^{15} = 10.0 \times 10^{14} \text{ Hz}$
+
+| Stopping Potential (V) | Wavelength ($\times 10^{-7}$ m) | Frequency ($\times 10^{14}$ Hz) |
+| :--- | :--- | :--- |
+| 1.0 | 6.0 | **5.0** |
+| 2.0 | 4.0 | **7.5** |
+| 3.0 | 3.0 | **10.0** |
+
+### (b) Plotting the Graph
+Plot the points $(5, 1)$, $(7.5, 2)$, and $(10, 3)$. The resulting plot is a straight line. The line of best fit passes through these points. Extrapolating the line back to the x-axis (where $V_s = 0$) gives the threshold frequency, $f_0 \approx 2.5 \times 10^{14} \text{ Hz}$.
+
+### (c) Determining the Work Function
+The work function is defined as $\Phi = hf_0$.
+Using the threshold frequency from the intercept:
+$$\Phi = (6.63 \times 10^{-34} \text{ J}\cdot\text{s}) \times (2.5 \times 10^{14} \text{ Hz})$$
+$$\Phi \approx 1.66 \times 10^{-19} \text{ J}$$
+To convert to electron-volts ($1 \text{ eV} = 1.6 \times 10^{-19} \text{ J}$):
+$$\Phi \approx \frac{1.66 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 1.04 \text{ eV}$$
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

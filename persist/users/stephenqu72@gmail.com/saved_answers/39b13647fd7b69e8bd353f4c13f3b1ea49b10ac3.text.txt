@@ -1,0 +1,27 @@
+To answer these questions, we use Wien’s Displacement Law, which is given by:
+$$\lambda_{peak} T = b$$
+Where $\lambda_{peak}$ is the peak wavelength, $T$ is the absolute temperature (in Kelvin), and $b$ is Wien’s displacement constant (approximately $2.898 \times 10^{-3}\text{ m K}$).
+
+### Question 18
+**Analysis:**
+The students measured the temperature of the *glass* ($1900\text{ K}$), not the *filament*. The filament must be significantly hotter than the glass to emit visible light. Therefore, the actual temperature of the filament $T_{actual} > 1900\text{ K}$.
+Given $\lambda_{peak} = 2 \times 10^{-3}\text{ mm} = 2 \times 10^{-6}\text{ m}$, we calculate the observed product:
+$$\lambda_{peak} \times T_{measured} = (2 \times 10^{-6}\text{ m}) \times (1900\text{ K}) = 3.8 \times 10^{-3}\text{ m K}$$
+Since the true temperature $T_{actual}$ is higher than the measured $1900\text{ K}$, the real value of $b$ must be greater than the calculated product:
+$$b = \lambda_{peak} \times T_{actual} > 3.8 \times 10^{-3}\text{ m K}$$
+**Correct Answer: D**
+
+---
+
+### Question 19
+**Analysis:**
+The bulb is moving away from the sensor. Due to the **Doppler Effect** for light (redshift), the wavelength detected by the sensor ($\lambda_{observed}$) is longer than the wavelength actually emitted by the filament ($\lambda_{emitted}$).
+$\lambda_{observed} > \lambda_{emitted} \implies \lambda_{emitted} < \lambda_{observed}$.
+Using the measured values:
+$$\lambda_{observed} \times T = (2 \times 10^{-6}\text{ m}) \times (3200\text{ K}) = 6.4 \times 10^{-3}\text{ m K}$$
+Since the true wavelength emitted by the filament ($\lambda_{emitted}$) is smaller than the observed wavelength, the real value of $b$ must be smaller than the product of the observed wavelength and the measured temperature:
+$$b = \lambda_{emitted} \times T < 6.4 \times 10^{-3}\text{ m K}$$
+**Correct Answer: B**
+
+### QUESTION_TYPE
+Multiple choice

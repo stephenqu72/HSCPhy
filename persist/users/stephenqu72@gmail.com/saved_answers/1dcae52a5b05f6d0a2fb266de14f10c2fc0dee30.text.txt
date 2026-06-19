@@ -1,0 +1,32 @@
+To solve this problem, we need to apply Einstein’s photoelectric equation and account for the work done on the electron by the external circuit.
+
+### Step 1: Find the maximum kinetic energy at the cathode
+When a photon hits the cathode, the energy of the electron released is given by the photoelectric equation:
+$$K_{max(cathode)} = E_{photon} - \Phi$$
+Where:
+- $E_{photon} = 6\text{ eV}$
+- $\Phi$ (work function) $= 3\text{ eV}$
+
+Substituting these values:
+$$K_{max(cathode)} = 6\text{ eV} - 3\text{ eV} = 3\text{ eV}$$
+
+### Step 2: Account for the external battery
+The photoelectric cell is connected to a battery with an EMF of $2\text{ V}$. Looking at the circuit diagram, the battery is connected such that the anode is positive relative to the cathode (the long line of the battery symbol is connected towards the anode side). This creates an accelerating electric field that does work on the electron as it travels from the cathode to the anode.
+
+The energy gained by an electron moving through a potential difference of $V$ is given by $W = qV$. Since $q = e$ and $V = 2\text{ V}$, the electron gains $2\text{ eV}$ of kinetic energy.
+
+### Step 3: Calculate the total maximum kinetic energy at the anode
+The final kinetic energy ($K_{final}$) at the anode is the sum of the initial kinetic energy and the energy gained from the electric field:
+$$K_{final} = K_{max(cathode)} + e \cdot V_{battery}$$
+$$K_{final} = 3\text{ eV} + 2\text{ eV} = 5\text{ eV}$$
+
+Comparing this to the given options:
+(A) $1\text{ eV}$
+(B) $3\text{ eV}$
+(C) $5\text{ eV}$
+(D) $8\text{ eV}$
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

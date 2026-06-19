@@ -1,0 +1,25 @@
+### Answer
+The statement is **valid**. Unpolarised light consists of electromagnetic waves vibrating in all possible directions perpendicular to the direction of propagation. Any arbitrary, complex orientation of these vibrations can be mathematically decomposed into two orthogonal components (which we can label as $x$ and $y$ polarisations).
+
+**Experimental Support:**
+This can be demonstrated using two polarising filters (polaroids). 
+1. **Procedure:** Place an unpolarised light source (such as an incandescent bulb) in front of a polarising filter. Observe that rotating the filter does not change the intensity of the light transmitted through it, confirming that the initial light contains a uniform mix of all polarisations.
+2. **Analysis:** When a second polarising filter (analyser) is placed behind the first, the light passing through the first filter becomes linearly polarised. If the axis of the second filter is at an angle $\theta$ relative to the first, the intensity $I$ of the transmitted light follows Malus’s Law: $I = I_0 \cos^2(\theta)$.
+3. **Conclusion:** If the original light were not a mixture of orthogonal components, we would not observe the consistent reduction in intensity dictated by the projection of light vectors onto the transmission axis of the polariser. By decomposing the unpolarised light into orthogonal $x$ and $y$ components, Malus’s Law successfully explains why we observe a smooth intensity gradient from maximum to zero as we rotate the analyser.
+
+---
+
+### How to solve this
+1. **Deconstruct the prompt:** The question asks you to "assess" (judge the value/truth of) a statement. You must clearly state that it is valid and then justify *why* using physics principles.
+2. **Use the theoretical framework:** Explain that transverse electromagnetic waves have electric field vectors. Because light is unpolarised, these vectors are randomly oriented. Vector resolution allows us to treat any random vector as the sum of two orthogonal components ($x$ and $y$).
+3. **Connect to experiment:** In HSC Physics, the standard experiment for light polarisation involves using polaroid filters. You must describe the experiment clearly: 
+   - State the equipment (light source, two polarisers).
+   - Describe the observation (rotating one polariser changes intensity, which proves the light has been restricted to a specific plane).
+   - Link this to Malus's Law ($I = I_0 \cos^2(\theta)$), which mathematically confirms the behaviour of vector components.
+4. **Structure for 5 marks:** 
+   - 1 mark for asserting the validity.
+   - 2 marks for the theoretical explanation of vector components.
+   - 2 marks for the description and explanation of the polariser experiment.
+
+###QUESTION_TYPE
+Experimental questions

@@ -1,0 +1,21 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically the concepts of **length contraction** and **time dilation**.
+
+### Answer
+The correct answer is **B. The cook**.
+
+### Explanation
+1.  **Define the Proper Length ($L_0$):** Both ships are identical, meaning they have the same proper length $L_0$ when measured in their own rest frame.
+2.  **The Cook's Perspective:** The cook is on "Beta" (at rest). To the cook, "Alpha" is a moving object. Because "Alpha" is moving at $0.9c$, the cook observes length contraction of "Alpha". The length of "Alpha" as measured by the cook is $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, which is shorter than $L_0$. The time $t_{cook}$ taken for "Alpha" to pass is calculated as $t_{cook} = \frac{L}{v} = \frac{L_0 \sqrt{1 - v^2/c^2}}{v}$.
+3.  **The Cabin Boy's Perspective:** The cabin boy is on "Alpha" (at rest relative to his ship). To the cabin boy, "Beta" is the moving object approaching at $0.9c$. The cabin boy observes length contraction of "Beta". The length of "Beta" as measured by the cabin boy is $L = L_0 \sqrt{1 - v^2/c^2}$. However, the cabin boy is measuring the time it takes for the *entire* length of the "Beta" ship to pass his window. Since "Beta" is contracted from the perspective of the cabin boy, he perceives the ship as being physically shorter than its proper length.
+4.  **Wait, consider the observer's frame:** In relativistic kinematics, when two observers compare the time taken for a length to pass a point, they are essentially comparing the time it takes for the length of the *other* object to pass a stationary reference point (the window). 
+    *   The cook sees "Alpha" as contracted: $L_{Alpha} < L_0$.
+    *   The cabin boy sees "Beta" as contracted: $L_{Beta} < L_0$.
+    
+    Actually, let's look at the frame of the window.
+    *   **The Cook** measures the time for the *proper length* $L_0$ of Alpha to pass his window at speed $v$. $t_{cook} = \frac{L_0}{v}$.
+    *   **The Cabin Boy** measures the time for the *contracted length* of Beta to pass his window at speed $v$. $t_{boy} = \frac{L_{contracted}}{v} = \frac{L_0 \sqrt{1-v^2/c^2}}{v}$.
+
+Since the Lorentz factor $\gamma = \frac{1}{\sqrt{1-v^2/c^2}} > 1$, it follows that $\sqrt{1-v^2/c^2} < 1$. Therefore, the cook, who measures the uncontracted (proper) length of the passing ship, will measure a longer time than the cabin boy, who measures a contracted length passing his window.
+
+###QUESTION_TYPE
+Multiple choice

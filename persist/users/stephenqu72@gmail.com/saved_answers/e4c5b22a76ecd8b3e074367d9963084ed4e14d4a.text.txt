@@ -1,0 +1,34 @@
+### Answer
+
+**(a) Describe what Einstein meant by an "inertial" frame of reference.**
+An inertial frame of reference is a coordinate system that is either stationary or moving at a constant velocity (constant speed in a straight line). In such a frame, Newton’s First Law of Motion holds true: an object will remain at rest or continue to move at a constant velocity unless acted upon by a net external force. Essentially, an inertial frame is one that is not accelerating.
+
+**(b) Using an example, describe how observations of the same event made from two different inertial frames of reference can be different. A diagram should be used to illustrate your answer.**
+
+*Example: The path of a projectile.*
+Imagine a person standing on the ground (Frame A) and a person standing on a train moving at a constant velocity (Frame B). If a passenger on the train drops a ball:
+*   **Observer on the train (Frame B):** Sees the ball fall in a perfectly straight vertical line because both the passenger and the ball share the same horizontal velocity.
+*   **Observer on the ground (Frame A):** Sees the ball follow a parabolic trajectory because the ball retains its horizontal velocity while simultaneously accelerating downward due to gravity.
+
+**Diagram:**
+```
+Frame B (Train):        Frame A (Ground):
+    |  (Ball drops)         / \
+    |  (straight)          /   \  (Parabolic path)
+    |                     /     \
+    v                    v       v
+```
+The observations differ because velocity is relative; the displacement of the ball relative to the train is different from its displacement relative to the ground.
+
+---
+
+### How to solve it
+
+1.  **Part (a) Strategy:** This is a conceptual knowledge recall question. To secure both marks, you must define the frame by its motion (constant velocity/no acceleration) and link it to the fundamental physical laws (Newton’s First Law). Avoid using the term "stationary," as it is only a special case of an inertial frame.
+2.  **Part (b) Strategy:** This requires applying the principle of relativity. 
+    *   **Select a clear example:** Kinematics (moving objects) is the most intuitive. A train or a moving carriage is the standard HSC textbook example.
+    *   **Contrast the frames:** Explicitly state what each observer sees (e.g., "stationary observer sees a curve," "moving observer sees a straight line"). 
+    *   **The Diagram:** Your diagram must clearly show two distinct points of view. Ensure you represent the motion of the frames (e.g., an arrow indicating the train's velocity $v$) to make it clear why the relative paths differ.
+
+###QUESTION_TYPE
+Short answer

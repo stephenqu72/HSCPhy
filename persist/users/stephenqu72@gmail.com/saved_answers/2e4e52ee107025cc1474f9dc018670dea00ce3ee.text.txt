@@ -1,0 +1,31 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the absolute temperature $T$ of a black body to the wavelength $\lambda_{\text{max}}$ at which it emits the most radiation.
+
+### The Formula
+Wien's Displacement Law is given by:
+$$\lambda_{\text{max}} T = b$$
+Where:
+- $\lambda_{\text{max}}$ is the peak wavelength in meters (m).
+- $T$ is the temperature in Kelvin (K).
+- $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+
+### Step-by-Step Calculation
+1. **Identify the given values:**
+   $$\lambda_{\text{max}} = 5.8 \times 10^{-7} \text{ m}$$
+   $$b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$$
+
+2. **Rearrange the formula to solve for $T$:**
+   $$T = \frac{b}{\lambda_{\text{max}}}$$
+
+3. **Substitute the values:**
+   $$T = \frac{2.898 \times 10^{-3}}{5.8 \times 10^{-7}}$$
+
+4. **Perform the division:**
+   $$T \approx 0.49965 \times 10^4 \text{ K}$$
+   $$T \approx 4996.5 \text{ K}$$
+
+Rounding this to the nearest provided option gives us $5000 \text{ K}$.
+
+**Conclusion:** The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

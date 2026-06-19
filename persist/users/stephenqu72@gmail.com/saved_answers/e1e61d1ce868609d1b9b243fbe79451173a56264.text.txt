@@ -1,0 +1,44 @@
+### Solution and Explanation
+
+#### (a) Identify stars undergoing proton-proton chain nucleosynthesis
+**Answer:** The stars on the **Main Sequence** (the diagonal line of points running from top-left to bottom-right). Specifically, these are stars like **T** and **U**.
+
+**Explanation:** The proton-proton chain is the primary fusion process for stars on the Main Sequence that have masses similar to or less than our Sun. Stars like R (supergiant) or B (giant) have core temperatures high enough for other processes (like the CNO cycle or helium burning).
+
+---
+
+#### (b) Calculate energy released
+**Step 1: Calculate the mass defect ($\Delta m$) for both reactions.**
+First reaction: $^1\text{H} + ^1\text{H} \rightarrow ^2\text{H} + e^+ + \nu$
+Initial mass: $2 \times 1.00784 = 2.01568 \text{ amu}$
+Final mass: $2.014 + 0.000548756 = 2.014548756 \text{ amu}$
+$\Delta m_1 = 2.01568 - 2.014548756 = 0.001131244 \text{ amu}$
+
+Second reaction: $^2\text{H} + ^1\text{H} \rightarrow ^3\text{He} + \gamma$
+Initial mass: $2.014 + 1.00784 = 3.02184 \text{ amu}$
+Final mass: $3.016029 \text{ amu}$
+$\Delta m_2 = 3.02184 - 3.016029 = 0.005811 \text{ amu}$
+
+**Step 2: Total mass defect and energy conversion.**
+Total $\Delta m = 0.001131244 + 0.005811 = 0.006942244 \text{ amu}$
+Using the conversion $1 \text{ amu} = 931.5 \text{ MeV}$:
+Energy $= 0.006942244 \times 931.5 \approx 6.467 \text{ MeV}$
+
+---
+
+#### (c) i. Identify stars B and S
+**Answer:**
+**B:** Red Supergiant
+**S:** White Dwarf
+
+---
+
+#### (c) ii. Compare and contrast B and S
+**Comparison:**
+*   **Luminosity:** Star B has a very high absolute magnitude (very luminous), whereas Star S has a low absolute magnitude (low luminosity).
+*   **Temperature:** Star B is a red star (cooler surface temperature, located on the right side of the H-R diagram). Star S is a white dwarf (hot surface temperature, located on the bottom-left of the H-R diagram).
+*   **Size:** Star B is physically massive (a supergiant), while Star S is extremely small (roughly Earth-sized).
+*   **Evolutionary Stage:** Star B is an evolved star that has left the Main Sequence to burn heavier elements; Star S is the final evolutionary stage of a low-to-medium mass star, no longer undergoing fusion.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,27 @@
+To solve this problem, we apply the principles of special relativity, specifically time dilation. The observed lifetime of a moving particle ($T$) is related to its proper lifetime (rest frame lifetime, $T_0$) by the Lorentz factor $\gamma$:
+
+$$T = \gamma T_0 = \frac{T_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### (a) Determine the missing value
+The missing value is the Lorentz factor $\gamma$ for $v = 2.50 \times 10^8 \text{ m s}^{-1}$. Using $c \approx 3.00 \times 10^8 \text{ m s}^{-1}$:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{(2.50)^2}{(3.00)^2}}} = \frac{1}{\sqrt{1 - 0.6944}} = \frac{1}{\sqrt{0.3056}} \approx 1.81$$
+**Answer: 1.81**
+
+### (b) Plot a graph
+To plot the graph, place the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$ on the horizontal axis ($x$-axis) and the laboratory lifetime $T$ on the vertical axis ($y$-axis). Use the provided data points:
+$(1.06, 3.08)$, $(1.15, 3.35)$, $(1.34, 3.89)$, $(1.81, 5.25)$, $(2.50, 7.26)$.
+*Note: Plot these points and draw a line of best fit. The line should pass through or very close to the origin $(0, 0)$.*
+
+### (c) Determine the rest frame lifetime ($T_0$)
+From the formula $T = T_0 \gamma$, we can see that $T$ vs $\gamma$ is a linear relationship ($y = mx + c$) where the gradient $m = T_0$ and the intercept is $0$.
+
+1. Calculate the gradient of your line of best fit: $m = \frac{\Delta T}{\Delta \gamma}$.
+2. Using the data points (e.g., $(2.50, 7.26)$ and $(1.06, 3.08)$):
+$$m = \frac{7.26 - 3.08}{2.50 - 1.06} = \frac{4.18}{1.44} \approx 2.90$$
+3. Since $T = T_0 \gamma$, the value of the gradient represents the proper lifetime $T_0$.
+**Answer: The rest frame lifetime $T_0 \approx 2.90 \times 10^{-13} \text{ s}$.**
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

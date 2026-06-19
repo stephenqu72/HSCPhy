@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we apply the principles of black-body radiation, specifically **Stefan-Boltzmann Law** and **Wien’s Displacement Law**.
+
+1.  **Stefan-Boltzmann Law:** The total power radiated per unit surface area of a black body is proportional to the fourth power of its thermodynamic temperature ($T$):
+    $$P \propto T^4$$
+    Since the temperature of the black body is decreasing (from $4500\text{ K}$ to $4000\text{ K}$), the total energy emitted decreases. Consequently, the intensity of radiation at every wavelength will be lower for the cooler body. This confirms that statement **A** is correct.
+
+2.  **Wien’s Displacement Law:** The wavelength at which the emission of radiation is at its peak ($\lambda_{max}$) is inversely proportional to the absolute temperature:
+    $$\lambda_{max} \propto \frac{1}{T}$$
+    When the temperature decreases from $4500\text{ K}$ to $4000\text{ K}$, the peak wavelength ($\lambda_{max}$) must **increase** (move to the right on the graph). 
+    *   Statement **C** is incorrect because a longer wavelength corresponds to a *lower* frequency ($f = c / \lambda$).
+    *   Statement **D** is incorrect because the peak shifts to a *longer* wavelength as temperature decreases.
+
+3.  **Evaluating the distractors:**
+    *   **B** is incorrect because the intensity decreases as temperature decreases.
+    *   **C** is incorrect because frequency is inversely proportional to wavelength; a longer peak wavelength implies a lower peak frequency.
+    *   **D** is incorrect because the peak wavelength increases as the temperature decreases.
+
+Therefore, statement **A** is the only physically accurate description of the changes occurring when the temperature of a black body is reduced.
+
+### QUESTION_TYPE
+Multiple choice

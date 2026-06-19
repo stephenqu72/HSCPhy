@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we apply **Malus’s Law**, which describes how the intensity of polarized light changes when it passes through a second polarizing filter (the analyzer).
+
+1.  **The Physics:** When unpolarized light passes through the first polarizer, it becomes linearly polarized with an intensity $I_0 = 0.5 \times I_{initial}$. When this polarized light hits the second polarizer (the second pair of sunglasses), the intensity of the light that emerges is given by:
+    $$I = I_0 \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axes of the two polarizers.
+
+2.  **Evaluating the Angle:**
+    *   When the sunglasses are aligned (parallel), $\theta = 0^\circ$. Since $\cos(0) = 1$, the light intensity is at its maximum ($I = I_0$). The overlapping area appears dark because light is passing through both filters, but it is not blocked.
+    *   When the sunglasses are rotated by $90^\circ$ relative to each other (perpendicular), $\theta = 90^\circ$. Since $\cos(90^\circ) = 0$, the intensity of light emerging from the second filter becomes zero ($I = 0$).
+
+3.  **Analyzing the Options:**
+    *   In option **A**, one pair of sunglasses is rotated by $90^\circ$ relative to the other. At this perpendicular orientation, the transmission axes are crossed, meaning light cannot pass through the overlapping region. Therefore, the area where the two lenses overlap becomes completely opaque (black/dark).
+    *   Options B, C, and D show angles that are not $90^\circ$. While they would show some darkening, they would not demonstrate the complete extinction of light as clearly as the perpendicular orientation shown in A.
+
+In summary, the overlap of two polarizers oriented at $90^\circ$ to each other results in the "crossed polarizers" effect, where light is blocked, causing the overlapping region to appear black.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+### Answer
+
+**a) Calculate the threshold frequency for iron.**
+
+To find the threshold frequency ($f_0$), we use the work function equation $\Phi = h f_0$.
+Given $\Phi = 4.5 \text{ eV}$, we must first convert this to Joules using $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$.
+$$\Phi = 4.5 \times 1.602 \times 10^{-19} = 7.209 \times 10^{-19} \text{ J}$$
+Using Planck’s constant $h = 6.626 \times 10^{-34} \text{ J s}$:
+$$f_0 = \frac{\Phi}{h} = \frac{7.209 \times 10^{-19}}{6.626 \times 10^{-34}} \approx 1.09 \times 10^{15} \text{ Hz}$$
+
+**b) Determine the initial velocity ($u$).**
+
+1.  **Plotting:** Plot the points $(3, 1.3)$, $(6, 0.97)$, $(9, 0.66)$, $(12, 0.36)$, and $(15, 0.05)$ on the provided axes.
+2.  **Line of Best Fit:** Drawing a straight line through these points, the intercept on the $v^2$ axis (where displacement $s=0$) represents $u^2$.
+3.  **Calculation:** Extending the line to the y-axis, the intercept is approximately $1.63 \times 10^{12} \text{ m}^2\text{s}^{-2}$.
+4.  **Initial velocity:**
+    $$u = \sqrt{1.63 \times 10^{12}} \approx 1.28 \times 10^6 \text{ m/s}$$
+
+***
+
+### Explanation
+
+**Part (a):**
+This is a standard photoelectric effect calculation. The threshold frequency is the minimum frequency required to overcome the work function $\Phi$ of the metal. Always remember to convert units from electron-volts (eV) to Joules (J) before using SI units for constants.
+
+**Part (b):**
+This question requires you to relate kinematics to physics data. We use the equation of motion $v^2 = u^2 + 2as$.
+By plotting $v^2$ on the y-axis and displacement ($s$) on the x-axis:
+*   The equation takes the linear form $y = mx + c$, where $y = v^2$, $x = s$, the gradient $m = 2a$, and the y-intercept $c = u^2$.
+*   By drawing a line of best fit and reading the y-intercept, you identify $u^2$.
+*   Take the square root of that intercept to solve for the initial velocity ($u$). Ensure your units ($10^{12}$ and $10^{-3}$) are handled correctly.
+
+###QUESTION_TYPE
+Calculation question

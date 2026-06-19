@@ -1,0 +1,33 @@
+To solve this problem, we must apply the physics of light polarisation through two consecutive filters.
+
+### Answer
+The correct answer is **B. $45^\circ$**.
+
+### Step-by-Step Explanation
+
+**1. Passing through the first filter:**
+When unpolarised light with initial intensity $I_0$ passes through an ideal polarising filter, the intensity of the light is reduced by half regardless of the filter's orientation.
+$$I_1 = \frac{1}{2} I_0$$
+The light emerging from the first filter is now plane-polarised.
+
+**2. Passing through the second filter (Malus's Law):**
+According to Malus's Law, when plane-polarised light with intensity $I_1$ hits a second polariser at an angle $\theta$ relative to its axis, the transmitted intensity $I_2$ is given by:
+$$I_2 = I_1 \cos^2(\theta)$$
+
+**3. Setting up the equation:**
+We are given that the final intensity $I_2$ is $\frac{I_0}{4}$. Substituting our expression for $I_1$ into the equation:
+$$\frac{I_0}{4} = \left(\frac{I_0}{2}\right) \cos^2(\theta)$$
+
+**4. Solving for $\theta$:**
+Divide both sides by $\frac{I_0}{2}$:
+$$\frac{1}{4} \div \frac{1}{2} = \cos^2(\theta)$$
+$$\frac{1}{2} = \cos^2(\theta)$$
+
+Take the square root of both sides:
+$$\cos(\theta) = \frac{1}{\sqrt{2}}$$
+$$\theta = \arccos\left(\frac{1}{\sqrt{2}}\right) = 45^\circ$$
+
+Therefore, the angle between the axes of the two polarising filters must be $45^\circ$.
+
+###QUESTION_TYPE
+Multiple choice

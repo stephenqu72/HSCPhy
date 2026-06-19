@@ -1,0 +1,29 @@
+To solve this problem, we use the relationship between the work function ($\Phi$) and the threshold frequency ($f_0$):
+
+$$\Phi = h f_0$$
+
+Where:
+*   $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J s}$)
+*   $f_0$ is the threshold frequency ($1 \times 10^9 \text{ MHz}$)
+
+### Step 1: Convert units to standard SI units
+The threshold frequency is given in MHz. We must convert this to Hertz (Hz):
+$$f_0 = 1 \times 10^9 \text{ MHz} = 1 \times 10^9 \times 10^6 \text{ Hz} = 1 \times 10^{15} \text{ Hz}$$
+
+### Step 2: Calculate the energy in Joules
+$$\Phi = (6.626 \times 10^{-34} \text{ J s}) \times (1 \times 10^{15} \text{ Hz})$$
+$$\Phi = 6.626 \times 10^{-19} \text{ J}$$
+
+### Step 3: Convert Joules to electron-volts (eV)
+Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$, we divide the result by $1.602 \times 10^{-19}$:
+$$\Phi = \frac{6.626 \times 10^{-19} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}}$$
+$$\Phi \approx 4.136 \text{ eV}$$
+
+Comparing this result to the provided options, the value is approximately $4.1 \text{ eV}$.
+
+**Note on Copper:** In standard physics contexts, the actual work function for copper is approximately $4.7 \text{ eV}$. However, based strictly on the mathematical values provided in this specific question, the calculation leads to $4.1 \text{ eV}$.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

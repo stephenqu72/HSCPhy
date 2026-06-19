@@ -1,0 +1,24 @@
+### Answer
+To produce the colour in Figure 2, the liquid crystal cell must rotate the plane of polarisation by **$90^\circ$**.
+
+### Explanation
+To solve this problem, we must apply the principles of physics regarding polarised light and the operation of an LCD screen as described in the prompt:
+
+1.  **Interpret the RGB Value:** 
+    *   Figure 2 shows a dark reddish-brown colour. By locating this colour on the provided RGB grid (Figure 1), we look for the intersection of the Red and Green axes. The colour in Figure 2 aligns with the **Red intensity of 195** and the **Green intensity of 75** (given $Blue = 90$).
+    *   For the Red sub-pixel to produce an intensity of 195, we must consider how LCDs regulate intensity. An LCD functions by rotating the plane of polarised light. 
+
+2.  **Understand the Polarisation Mechanism:**
+    *   The prompt states: "The liquid crystal cells will individually rotate the plane of polarisation... This light then passes through a final polarising filter that is perpendicular to the original polarising filter."
+    *   According to **Malus's Law**, the intensity of light $I$ emerging from a second polariser (analyser) is given by:
+        $$I = I_0 \cos^2(\theta)$$
+        where $I_0$ is the incident intensity and $\theta$ is the angle between the light's plane of polarisation and the axis of the second polariser.
+    *   The initial polariser and the final polariser are **perpendicular** ($90^\circ$ apart). If the liquid crystals did not rotate the light, the light would be blocked completely ($I=0$).
+    *   To get the **maximum possible transmission** (intensity = 255), the liquid crystals must rotate the light by exactly $90^\circ$ so that it aligns with the final polarising filter.
+
+3.  **Conclusion:** 
+    *   In an LCD system, the variable intensity is controlled by the *degree* of rotation. An intensity of 255 corresponds to a $90^\circ$ rotation, while an intensity of 0 corresponds to $0^\circ$ rotation. 
+    *   Since the red sub-pixel is active and contributing significantly to the colour (intensity 195), the liquid crystal is functioning to allow light through. In standard HSC Physics contexts regarding LCDs, the cell rotates the light by $90^\circ$ to achieve the "on" state or varying degrees of transmission. Specifically, to allow the light to pass through the final filter (which is at $90^\circ$ to the first), the light must be rotated by $90^\circ$ relative to the first filter.
+
+###QUESTION_TYPE
+Data analysis questions

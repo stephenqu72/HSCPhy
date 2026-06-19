@@ -1,0 +1,19 @@
+To solve this problem, we must apply the two fundamental postulates of Einstein's Special Theory of Relativity:
+
+1.  **The Principle of Invariance of the Speed of Light:** The speed of light in a vacuum ($c$) is the same for all inertial observers, regardless of the motion of the source or the observer. Therefore, both the man on the train and the woman on the track will measure the speed of the light pulse to be exactly $c$. This immediately eliminates options (B) and (C).
+2.  **Length Contraction:** Objects moving relative to an observer at relativistic speeds undergo length contraction in the direction of motion. The length $L$ observed by someone in a different inertial frame is given by:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    where $L_0$ is the proper length (the length measured by an observer at rest relative to the object).
+
+**Analysis of the Options:**
+*   **The Man:** Is at rest relative to the metre ruler. He measures the "proper length," which is exactly $1\text{ m}$.
+*   **The Woman:** Is moving relative to the metre ruler at velocity $v$. Due to length contraction, she will measure the length of the ruler to be less than $1\text{ m}$.
+*   **Comparison:** Since the man measures $1\text{ m}$ and the woman measures a value less than $1\text{ m}$, they do not agree on the length of the ruler. However, they both agree that the speed of light is $c$.
+
+This corresponds exactly to statement (D).
+
+**Correct Answer:**
+**(D) Both observers measure the speed of light be $c$, but do not agree on the length of the ruler.**
+
+###QUESTION_TYPE
+Multiple choice

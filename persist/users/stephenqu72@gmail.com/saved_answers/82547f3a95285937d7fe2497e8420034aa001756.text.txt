@@ -1,0 +1,22 @@
+To answer this question effectively, you must address the failure of the classical wave model and explain how the quantum model (photons) resolves the observation.
+
+### Answer
+The experimental results demonstrate that the emission of photoelectrons is dependent on the **frequency** of the incident light, not its **intensity**. 
+
+1.  **Classical Wave Theory Failure:** According to classical wave theory, light is a continuous wave. It predicts that if the intensity (amplitude) of the light is increased, the energy delivered to the metal surface would increase regardless of frequency. Eventually, enough energy should be absorbed by electrons to overcome the work function ($\Phi$) of the metal. Julie’s hypothesis is based on this classical misunderstanding.
+2.  **Observation:** The experiment shows that even with high-intensity light, if the frequency is below the threshold frequency ($f_0$), no emission occurs. This confirms that the energy of individual photons is insufficient to overcome the work function.
+3.  **Quantum Nature of Light:** The observation provides evidence that light behaves as discrete "packets" of energy called photons. The energy of a photon is given by $E = hf$. 
+4.  **Evidence:** 
+    *   One-to-one interaction: A single electron absorbs exactly one photon. If $hf < \Phi$, the electron does not gain enough energy to escape, no matter how many photons (intensity) hit the surface per second.
+    *   Threshold frequency: Emission only occurs when $f > f_0$, where $hf_0 = \Phi$.
+    *   Intensity impact: Increasing intensity only increases the *number* of photons per second (the rate of emission), but cannot force emission if the individual photon energy is too low.
+
+### How to solve this
+To secure full marks (7 marks) for this HSC-style response, structure your argument as follows:
+*   **Identify the misconception:** Explicitly state that Julie is applying the Classical Wave Model, which incorrectly relates energy delivery to light intensity.
+*   **Define the Threshold Frequency:** Explain that every metal has a specific work function ($\Phi$) and a corresponding threshold frequency ($f_0$).
+*   **Use the Einstein Photoelectric Equation:** Reference $E_k = hf - \Phi$. Explain that if $hf < \Phi$, the kinetic energy ($E_k$) would mathematically be negative, which is physically impossible, hence no emission.
+*   **Connect to Particle Theory:** Conclude that the failure of intensity to cause emission proves light behaves as discrete quanta (photons) where energy is tied to frequency, not amplitude.
+
+###QUESTION_TYPE
+Essay

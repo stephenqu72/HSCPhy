@@ -1,0 +1,39 @@
+This question tests your understanding of the **Compton Effect**, which demonstrates that photons possess momentum and collide with electrons like particles.
+
+---
+
+### Part (a)
+**Answer:**
+The energy of a photon is given by $E = \frac{hc}{\lambda}$.
+Using $h = 6.626 \times 10^{-34} \text{ J s}$, $c = 3.00 \times 10^8 \text{ m/s}$, and $\lambda_i = 6.924 \times 10^{-12} \text{ m}$:
+$$E_i = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{6.924 \times 10^{-12}} = 2.8716 \times 10^{-14} \text{ J}$$
+To convert to eV, divide by $1.602 \times 10^{-19} \text{ J/eV}$:
+$$E_{eV} = \frac{2.8716 \times 10^{-14}}{1.602 \times 10^{-19}} \approx 179,250 \text{ eV} \text{ (or } 179.3 \text{ keV)}$$
+
+---
+
+### Part (b)
+**Explanation:**
+This is an elastic collision between a photon and a stationary electron. According to the **Law of Conservation of Energy**, the total energy of the system must remain constant. Since the photon transfers some of its energy to the electron (giving it kinetic energy), the energy of the scattered photon must be lower than the incident photon. Because the energy of a photon is inversely proportional to its wavelength ($E = \frac{hc}{\lambda}$), a decrease in energy corresponds to an increase in wavelength.
+
+---
+
+### Part (c)
+**Calculation:**
+1. **Find energy of scattered photon ($E_f$):**
+   $$E_f = \frac{hc}{\lambda_f} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{9.351 \times 10^{-12}} \approx 2.1260 \times 10^{-14} \text{ J}$$
+2. **Find kinetic energy of electron ($K_e$):**
+   By energy conservation, $K_e = E_i - E_f$:
+   $$K_e = 2.8716 \times 10^{-14} - 2.1260 \times 10^{-14} = 7.456 \times 10^{-15} \text{ J}$$
+3. **Calculate speed ($v$):**
+   Since this is a high-energy collision, we check if relativistic effects are needed ($K_e$ is significant compared to rest mass energy $E_0 \approx 8.187 \times 10^{-14} \text{ J}$).
+   Using $K_e = (\gamma - 1)mc^2$:
+   $$\gamma = \frac{K_e}{mc^2} + 1 = \frac{7.456 \times 10^{-15}}{8.187 \times 10^{-14}} + 1 \approx 1.0911$$
+   Since $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$, then $1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2}$:
+   $$\frac{v}{c} = \sqrt{1 - \frac{1}{1.0911^2}} \approx \sqrt{1 - 0.8402} \approx 0.400$$
+   $$v \approx 0.400 \times 3.00 \times 10^8 \approx 1.20 \times 10^8 \text{ m/s}$$
+
+---
+
+###QUESTION_TYPE
+Calculation question

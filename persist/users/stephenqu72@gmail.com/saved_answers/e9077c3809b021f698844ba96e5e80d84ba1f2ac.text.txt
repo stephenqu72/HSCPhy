@@ -1,0 +1,34 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this problem, we need to calculate the time it takes for the pi meson to travel the distance between the two detectors as observed in the laboratory frame.
+
+1.  **Identify the variables:**
+    *   The distance between the detectors in the observer's frame (the laboratory frame) is $L = 34 \text{ m}$.
+    *   The speed of the pi mesons is $v = 0.95c$, where $c$ is the speed of light ($c \approx 3.0 \times 10^8 \text{ m/s}$).
+
+2.  **Use the classical relationship for time:**
+    In the laboratory frame, the distance and the speed are measured directly. We do not need to apply time dilation here because the observer is measuring the time interval between two events (passing detector 1 and passing detector 2) that occur at fixed points within their own reference frame.
+    The formula is:
+    $$t = \frac{d}{v}$$
+
+3.  **Perform the calculation:**
+    First, calculate the speed in m/s:
+    $$v = 0.95 \times (3.0 \times 10^8 \text{ m/s}) = 2.85 \times 10^8 \text{ m/s}$$
+    
+    Now, calculate the time:
+    $$t = \frac{34 \text{ m}}{2.85 \times 10^8 \text{ m/s}}$$
+    $$t \approx 1.1929 \times 10^{-7} \text{ s}$$
+
+    *Wait, let's re-examine the options.* 
+    Looking at the options, $1.19 \times 10^{-7} \text{ s}$ is approximately $1.2 \times 10^{-7} \text{ s}$, which is option **(B)**.
+    
+    *Correction:* Let's re-read the question. It asks for the time difference measured *in the observer's reference frame*. In the observer's frame, the distance is $34 \text{ m}$ and the velocity is $0.95c$.
+    $$t = \frac{34}{0.95 \times 3 \times 10^8} = 1.1929 \times 10^{-7} \text{ s}$$
+    Rounding to two significant figures, we get $1.2 \times 10^{-7} \text{ s}$.
+
+    Therefore, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

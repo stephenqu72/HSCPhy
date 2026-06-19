@@ -1,0 +1,25 @@
+To find the power of the light source, we need to calculate the total energy emitted per second. Power ($P$) is defined as energy ($E_{total}$) divided by time ($t$). Since the source emits $n = 2.8 \times 10^{16}$ photons per second ($t = 1$ s), the power is simply the energy of one photon multiplied by the number of photons per second.
+
+### 1. Identify the given values:
+*   Wavelength ($\lambda$) = $550\text{ nm} = 550 \times 10^{-9}\text{ m}$
+*   Number of photons ($n$) = $2.8 \times 10^{16}$
+*   Planck’s constant ($h$) $\approx 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$
+*   Speed of light ($c$) $\approx 3.00 \times 10^8\text{ m/s}$
+
+### 2. Calculate the energy of a single photon ($E_{photon}$):
+Using the formula $E = \frac{hc}{\lambda}$:
+$$E_{photon} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{550 \times 10^{-9}}$$
+$$E_{photon} \approx 3.614 \times 10^{-19}\text{ J}$$
+
+### 3. Calculate the total power ($P$):
+Since Power is the total energy per second, multiply the energy of one photon by the number of photons emitted per second ($n$):
+$$P = n \times E_{photon}$$
+$$P = (2.8 \times 10^{16}) \times (3.614 \times 10^{-19})$$
+$$P \approx 1.012 \times 10^{-2}\text{ W}$$
+
+Comparing this to the given options, the value closest to our result is **$1.0 \times 10^{-2}\text{ W}$**.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

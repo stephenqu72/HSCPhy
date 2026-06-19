@@ -1,0 +1,33 @@
+To solve this problem, we use Einstein's photoelectric equation:
+
+$$hf = \Phi + E_k$$
+
+Where:
+- $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$)
+- $f$ is the frequency of the incident light ($6.6 \times 10^{14} \text{ Hz}$)
+- $\Phi$ is the work function of the metal
+- $E_k$ is the maximum kinetic energy of the emitted photoelectrons, which is equal to $qV_s$ (where $q$ is the elementary charge $1.602 \times 10^{-19} \text{ C}$ and $V_s$ is the stopping voltage $1.60 \text{ V}$)
+
+### Step-by-Step Calculation
+
+**1. Calculate the energy of the incident photon ($hf$):**
+$$E_{photon} = (6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (6.6 \times 10^{14} \text{ Hz})$$
+$$E_{photon} \approx 4.373 \times 10^{-19} \text{ J}$$
+
+**2. Convert photon energy to electron-volts (eV):**
+Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$:
+$$E_{photon} (\text{eV}) = \frac{4.373 \times 10^{-19} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} \approx 2.73 \text{ eV}$$
+
+**3. Identify the maximum kinetic energy ($E_k$):**
+Because the stopping voltage is $1.60 \text{ V}$, the maximum kinetic energy of the electrons is $1.60 \text{ eV}$.
+
+**4. Calculate the work function ($\Phi$):**
+Rearranging the photoelectric equation:
+$$\Phi = E_{photon} - E_k$$
+$$\Phi = 2.73 \text{ eV} - 1.60 \text{ eV}$$
+$$\Phi = 1.13 \text{ eV}$$
+
+**Answer:** The work function of the cathode metal is **$1.13 \text{ eV}$**.
+
+###QUESTION_TYPE
+Calculation question

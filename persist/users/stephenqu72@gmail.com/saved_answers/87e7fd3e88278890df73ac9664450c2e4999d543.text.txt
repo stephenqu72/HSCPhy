@@ -1,0 +1,28 @@
+To solve this problem, we apply the principles of special relativity, specifically **time dilation**.
+
+### 1. Understanding the physics
+The heartbeats of the space traveller are measured in their own **proper time** ($\Delta t_0$), which is $72$ years. From the perspective of an observer on Earth (the stationary frame), the traveller is moving at a velocity $v = 0.600c$. Due to time dilation, the time experienced by the traveller appears to pass more slowly to the stationary observer.
+
+The relationship between the time measured in the stationary frame ($\Delta t$) and the proper time ($\Delta t_0$) is given by:
+$$\Delta t = \gamma \Delta t_0$$
+where $\gamma$ is the Lorentz factor:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### 2. Calculation
+**Step 1: Calculate the Lorentz factor ($\gamma$)**
+Given $v = 0.600c$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.600)^2}} = \frac{1}{\sqrt{1 - 0.36}} = \frac{1}{\sqrt{0.64}} = \frac{1}{0.8} = 1.25$$
+
+**Step 2: Determine the total heartbeats**
+The heart rate (beats per year) is constant for the traveller in their own frame. Even though the stationary observer perceives the traveller's life to last longer ($72 \times 1.25 = 90$ years), the traveller *only experiences* $72$ years of biological time. 
+
+Because the heartbeats are a biological process occurring within the traveller's own reference frame, the total number of heartbeats depends strictly on the **proper time** experienced by the traveller. Since the traveller is born and dies on the spaceship, they experience their full lifespan of 72 years. 
+
+**Wait!** Let's re-read the context of physics examination questions like this. Often, these questions test if the student realizes that the heartbeats are a count of events in the traveller's proper frame. If the traveller's biological "clock" (their heart) ticks $2.81 \times 10^9$ times over $72$ years of *proper time*, then regardless of how fast they are moving, they will still experience exactly $72$ years of life, and thus their heart will beat the same total number of times: $2.81 \times 10^9$.
+
+However, if the question implies the space traveller is viewed from Earth over an "average lifetime of 72 years" *as measured by Earth*, we would adjust for time dilation. But the phrasing "average lifetime of 72 years" refers to the traveller's internal biological clock. Therefore, the answer is $2.81 \times 10^9$.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

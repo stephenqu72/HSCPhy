@@ -1,0 +1,21 @@
+To solve this problem, we must apply Einstein’s photoelectric equation:
+
+$$K_{\text{max}} = hf - \Phi$$
+
+Where:
+*   $K_{\text{max}}$ is the maximum kinetic energy of the emitted photoelectrons.
+*   $h$ is Planck’s constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ is the work function of the metal (the minimum energy required to remove an electron from the surface).
+
+### Analysis of the options:
+
+*   **(A) Decreasing the distance between the cathode and the anode:** This change affects the geometry of the vacuum tube but has no impact on the energy of the individual photons or the work function of the metal. Therefore, $K_{\text{max}}$ remains unchanged.
+*   **(B) Changing yellow light to red light:** Red light has a longer wavelength than yellow light, which means it has a lower frequency ($f$). According to the equation $K_{\text{max}} = hf - \Phi$, decreasing $f$ will **decrease** the maximum kinetic energy.
+*   **(C) Increasing the intensity of the incident yellow light:** Increasing intensity simply increases the number of photons striking the surface per second. This increases the *number* of photoelectrons emitted (the photoelectric current), but it does not change the energy of individual photons. Thus, $K_{\text{max}}$ remains unchanged.
+*   **(D) Changing the cathode material to a metal with a lower work function:** If the work function $\Phi$ is decreased, then subtracting a smaller value from $hf$ will result in a larger value for $K_{\text{max}}$. Therefore, $K_{\text{max}}$ increases.
+
+**Conclusion:** The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

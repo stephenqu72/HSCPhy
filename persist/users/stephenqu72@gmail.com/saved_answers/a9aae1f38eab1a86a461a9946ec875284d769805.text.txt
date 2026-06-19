@@ -1,0 +1,32 @@
+To solve this problem, we apply the principles of Special Relativity, specifically focusing on the relationship between distance, velocity, and time dilation.
+
+### Part (a)
+**Explanation:** 
+From the perspective of an observer on Earth, the distance $d$ is $20\text{ light years}$ and the velocity $v$ is $0.38c$. The time taken as measured by the Earth observer ($t$) is calculated using the basic formula for velocity: $v = \frac{d}{t}$, rearranged to $t = \frac{d}{v}$.
+
+**Calculation:**
+$$t = \frac{20\text{ light years}}{0.38c}$$
+Since $c = 1\text{ light year/year}$, the $c$ units cancel out:
+$$t = \frac{20}{0.38} \approx 52.63\text{ years}$$
+
+---
+
+### Part (b)
+**Explanation:** 
+The atomic clock on the probe measures "proper time" ($t_0$), which is the time elapsed in the frame of reference of the moving object. Due to time dilation, the duration measured on the moving probe is shorter than the duration measured by the stationary Earth observer. We use the time dilation formula:
+$$t = \gamma t_0$$
+where $\gamma$ (the Lorentz factor) is given by:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**Calculation:**
+1. First, calculate $\gamma$:
+$$\gamma = \frac{1}{\sqrt{1 - 0.38^2}} = \frac{1}{\sqrt{1 - 0.1444}} = \frac{1}{\sqrt{0.8556}} \approx \frac{1}{0.925} \approx 1.081$$
+
+2. Now, solve for proper time $t_0$:
+$$t_0 = \frac{t}{\gamma}$$
+$$t_0 = \frac{52.63}{1.081} \approx 48.69\text{ years}$$
+
+(Alternatively, you can use length contraction: the probe perceives the distance as $d_0 = \frac{d}{\gamma} = 20 \times 0.925 = 18.5\text{ light years}$. Then $t_0 = \frac{d_0}{v} = \frac{18.5}{0.38} \approx 48.68\text{ years}$).
+
+###QUESTION_TYPE
+Calculation question

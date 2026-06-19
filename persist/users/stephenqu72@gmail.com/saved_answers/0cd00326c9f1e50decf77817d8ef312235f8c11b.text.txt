@@ -1,0 +1,36 @@
+### Answer
+The correct answer is **(D) $v = 0.97c$**.
+
+---
+
+### Explanation
+This question tests your understanding of **time dilation** in special relativity. 
+
+1. **Understand Time Dilation:**
+   When an object is moving at relativistic speeds, time passes more slowly for that object relative to a stationary observer. This is described by the time dilation formula:
+   $$t = \gamma t_0$$
+   where:
+   - $t$ is the dilated time (observed by the stationary observer).
+   - $t_0$ is the proper time (time measured in the moving frame).
+   - $\gamma$ (Lorentz factor) is defined as $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$.
+
+2. **Set up the variables:**
+   The problem states the second-hand is "four times slower." This means for every 1 second of proper time ($t_0$) that passes on the spacecraft, 4 seconds pass for the stationary observer ($t$). Therefore:
+   $$\frac{t}{t_0} = \gamma = 4$$
+
+3. **Solve for $v$:**
+   Substitute $\gamma = 4$ into the Lorentz factor equation:
+   $$4 = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+   Square both sides:
+   $$16 = \frac{1}{1 - \frac{v^2}{c^2}}$$
+   Rearrange the equation:
+   $$1 - \frac{v^2}{c^2} = \frac{1}{16}$$
+   $$\frac{v^2}{c^2} = 1 - 0.0625 = 0.9375$$
+   Take the square root:
+   $$\frac{v}{c} = \sqrt{0.9375} \approx 0.968$$
+   $$v \approx 0.97c$$
+
+Rounding to two decimal places, we get $0.97c$, which matches option (D).
+
+###QUESTION_TYPE
+Multiple choice

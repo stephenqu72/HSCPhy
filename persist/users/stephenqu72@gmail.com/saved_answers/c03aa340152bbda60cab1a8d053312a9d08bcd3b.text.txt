@@ -1,0 +1,28 @@
+To determine the correct answer, we must apply the principles of Special Relativity, specifically **time dilation**.
+
+### Explanation
+
+1.  **Identify the Frames of Reference:**
+    *   **Observer X** is in the frame of reference of the spacecraft. In this frame, the light bulb and the sensor are at rest relative to each other. The time measured by X is the **proper time** ($\Delta t_0$), because the start and end points of the event (the light leaving the bulb and hitting the sensor) occur at the same spatial location in X's frame.
+    *   **Observers Y and Z** are in the same frame of reference (as stated in the prompt, Y is at rest relative to Z). From their perspective, the spacecraft is moving at $0.8c$. Therefore, they see the light pulse travelling a longer path (the distance between the bulb and sensor plus the distance the spacecraft has moved during the light's flight).
+
+2.  **Apply Time Dilation:**
+    *   According to the theory of special relativity, time is dilated for moving observers relative to the proper time. The formula for time dilation is:
+        $$\Delta t = \gamma \Delta t_0$$
+        where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+    *   Since the spacecraft is moving relative to both Y and Z, both Y and Z will observe a dilated (longer) time for the light pulse to travel from the bulb to the sensor compared to the proper time measured by X.
+    *   Mathematically, because $\gamma > 1$ for any velocity $v > 0$, it follows that $\Delta t > \Delta t_0$.
+
+3.  **Conclusion:**
+    *   Since Y and Z are in the same inertial frame, they will measure the exact same time interval for the event.
+    *   Both Y and Z will measure a time that is **more than** the time measured by X.
+
+Looking at the options provided:
+*   A, B, and D suggest that Y and Z measure different times or times less than X.
+*   **Option C** states that the time measured by Z is more than X, and the time measured by Y is more than X. This is correct.
+
+### Answer
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To solve this problem, we must apply Einstein’s photoelectric equation:
+
+$$E_k = hf - \Phi$$
+
+Where:
+*   $E_k$ is the maximum kinetic energy of the emitted photoelectron.
+*   $h$ is Planck’s constant.
+*   $f$ is the frequency of the incident photon.
+*   $\Phi$ (often represented by the work function) is the energy required to remove an electron from the metal surface.
+
+### Analysis of the Graph:
+1.  **The Equation:** Rearranging the equation as $hf = E_k + \Phi$, we see the total energy of the incident photon ($hf$) is the sum of the kinetic energy of the photoelectron ($E_k$) and the work function ($\Phi$).
+2.  **$W$ (Total energy):** In the diagram, $W$ represents the total distance from the top horizontal line to the bottom, which corresponds to the total energy of the incident photon ($E = hf$).
+3.  **$X$ (Work function):** The region from the x-axis (where $E_k=0$) up to the line of the incident energy represents the energy "lost" or required to liberate the electron, which is the work function ($\Phi$).
+4.  **$Y$ (Kinetic Energy):** The region below the x-axis represents the kinetic energy of the emitted photoelectron ($E_k$).
+5.  **$Z$ (Threshold Frequency):** The x-intercept of the graph occurs where the kinetic energy is zero ($E_k = 0$). Setting the photoelectric equation to zero gives $hf = \Phi$, or $f = \frac{\Phi}{h}$. This frequency is defined as the threshold frequency ($f_0$).
+
+### Evaluating the Choices:
+*   **$W$:** Energy of incident photon
+*   **$X$:** Work function of emitter
+*   **$Y$:** Kinetic energy of emitted photoelectron
+*   **$Z$:** Threshold frequency
+
+This matches option **A**.
+
+###QUESTION_TYPE
+Multiple choice

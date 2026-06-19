@@ -1,0 +1,30 @@
+To solve this problem, we apply the principles of Special Relativity, specifically **time dilation** and **length contraction**.
+
+First, calculate the Lorentz factor, $\gamma$, which is constant for this relative velocity $v = 0.995c$:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.995^2}} \approx \frac{1}{\sqrt{1 - 0.990025}} \approx \frac{1}{0.09987} \approx 10.0125$$
+
+---
+
+### (a) Calculate the half-life as measured by a stationary observer
+Due to time dilation, a moving clock runs slow. The observed half-life $t$ is dilated relative to the proper half-life $t_0 = 2.2\ \mu\text{s}$:
+$$t = \gamma t_0$$
+$$t = 10.0125 \times 2.2\ \mu\text{s} \approx 22.03\ \mu\text{s}$$
+
+---
+
+### (b) Find the height of the mountain as measured by the muons
+Due to length contraction, the distance measured by an observer moving relative to the object is shorter than the proper length $L_0 = 2627\ \text{m}$:
+$$L = \frac{L_0}{\gamma}$$
+$$L = \frac{2627\ \text{m}}{10.0125} \approx 262.37\ \text{m}$$
+
+---
+
+### (c) Explain why more muons reach the ground
+In classical physics (ignoring relativity), we would expect the muons to decay rapidly because they only have a lifetime of $2.2\ \mu\text{s}$. However, Special Relativity provides two equivalent perspectives:
+1. **Time Dilation (Earth frame):** Because the muons are traveling at high speeds, their internal "clocks" appear to run significantly slower to a stationary observer on Earth. This means they survive for a much longer time (approx $22\ \mu\text{s}$), allowing them to travel the full distance to the ground before decaying.
+2. **Length Contraction (Muon frame):** In the reference frame of the muons, the atmosphere and the mountain are moving towards them at $0.995c$. Due to length contraction, the mountain appears significantly shorter (only $\approx 262\ \text{m}$ high). Consequently, the muons reach the ground within their own short proper lifetime.
+
+Both perspectives confirm that more muons reach the ground than classical mechanics would predict.
+
+###QUESTION_TYPE
+Calculation question

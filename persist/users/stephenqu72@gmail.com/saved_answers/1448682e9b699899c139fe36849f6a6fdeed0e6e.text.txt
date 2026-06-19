@@ -1,0 +1,27 @@
+To show that the graph is consistent with Wien’s Law, we need to verify that the product of the peak wavelength ($\lambda_{max}$) and the absolute temperature ($T$) is approximately equal to Wien's displacement constant, $b \approx 2.898 \times 10^{-3} \text{ m}\cdot\text{K}$.
+
+### Step-by-Step Solution:
+
+**1. Identify the formula:**
+Wien's displacement law is given by:
+$$\lambda_{max} T = b$$
+Where $b$ is approximately $2.90 \times 10^{-3} \text{ m}\cdot\text{K}$. Note that on the graph, the wavelength is in micrometers ($\mu\text{m}$), so we must convert $1 \mu\text{m} = 10^{-6} \text{ m}$.
+
+**2. Select data points from the graph:**
+Let's choose two clear points from the graph to check the consistency:
+*   **Point 1:** At $T = 400 \text{ K}$, the graph shows $\lambda_{max} \approx 7.25 \mu\text{m}$.
+    Converting to meters: $\lambda_{max} = 7.25 \times 10^{-6} \text{ m}$.
+*   **Point 2:** At $T = 800 \text{ K}$, the graph shows $\lambda_{max} \approx 3.6 \mu\text{m}$.
+    Converting to meters: $\lambda_{max} = 3.6 \times 10^{-6} \text{ m}$.
+
+**3. Calculate the product ($\lambda_{max} T$) for each point:**
+*   For Point 1: 
+    $$\lambda_{max} T = (7.25 \times 10^{-6} \text{ m}) \times (400 \text{ K}) = 2.90 \times 10^{-3} \text{ m}\cdot\text{K}$$
+*   For Point 2: 
+    $$\lambda_{max} T = (3.6 \times 10^{-6} \text{ m}) \times (800 \text{ K}) = 2.88 \times 10^{-3} \text{ m}\cdot\text{K}$$
+
+**4. Conclusion:**
+Since both calculations yield a value extremely close to Wien's constant ($2.898 \times 10^{-3} \text{ m}\cdot\text{K}$), we have demonstrated that the graph is consistent with Wien's displacement law. The slight variance is due to the precision of reading values from the graph.
+
+###QUESTION_TYPE
+Calculation question

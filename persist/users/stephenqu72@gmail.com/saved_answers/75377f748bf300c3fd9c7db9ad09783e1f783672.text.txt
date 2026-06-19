@@ -1,0 +1,34 @@
+### Teacher's Solution
+
+#### Part (a)
+**Answer:** The maximum kinetic energy ($K_{max}$) is $2.70\text{ eV}$.
+
+**Explanation:** In the photoelectric effect, the stopping voltage ($V_s$) is defined as the potential difference required to stop the most energetic photoelectrons from reaching the anode. The relationship is defined by:
+$$K_{max} = eV_s$$
+Since the stopping voltage is $2.70\text{ V}$, the work done by the electric field to stop the electrons is $2.70\text{ eV}$. Therefore, the maximum kinetic energy is exactly $2.70\text{ eV}$.
+
+---
+
+#### Part (b)
+**Answer:** $1.77 \times 10^{-7}\text{ m}$ (or $177\text{ nm}$)
+
+**Explanation:** To solve this, we use Einstein's photoelectric equation:
+$$E = \Phi + K_{max}$$
+Where $E$ is the energy of the incident photon, $\Phi$ is the work function ($4.70\text{ eV}$), and $K_{max}$ is the maximum kinetic energy ($2.70\text{ eV}$).
+
+1. **Calculate the energy of the photon:**
+   $$E = 4.70\text{ eV} + 2.70\text{ eV} = 7.40\text{ eV}$$
+
+2. **Convert the energy to Joules:**
+   $$E = 7.40 \times 1.602 \times 10^{-19}\text{ J} = 1.185 \times 10^{-18}\text{ J}$$
+
+3. **Use the wave equation $E = \frac{hc}{\lambda}$ to find the wavelength ($\lambda$):**
+   $$\lambda = \frac{hc}{E}$$
+   Where $h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$ and $c = 3.00 \times 10^8\text{ m/s}$.
+   $$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.185 \times 10^{-18}}$$
+   $$\lambda \approx 1.677 \times 10^{-7}\text{ m}$$
+
+*(Note: Depending on the precision of constants used, the answer rounds to approximately $1.68 \times 10^{-7}\text{ m}$ or $168\text{ nm}$.)*
+
+###QUESTION_TYPE
+Calculation question

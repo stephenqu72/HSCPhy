@@ -1,0 +1,33 @@
+### Answer
+
+**(a)** The time taken in the reference frame of an observer on Earth is:
+$$t = \frac{d}{v} = \frac{10\text{ light years}}{0.8c} = 12.5\text{ years}$$
+
+**(b)** The time taken in the reference frame of the astronaut is determined by length contraction or time dilation:
+Using length contraction, the distance measured by the astronaut ($L$) is:
+$$L = L_0\sqrt{1 - \frac{v^2}{c^2}} = 10 \times \sqrt{1 - 0.8^2} = 10 \times 0.6 = 6\text{ light years}$$
+The time taken for the astronaut ($t'$) is:
+$$t' = \frac{L}{v} = \frac{6\text{ light years}}{0.8c} = 7.5\text{ years}$$
+
+***
+
+### Explanation
+
+To solve this problem, we apply the principles of Special Relativity.
+
+**Part (a):**
+The observer on Earth sees the star at a "proper distance" ($L_0 = 10\text{ ly}$) and the astronaut traveling at $v = 0.8c$. Since Earth is the stationary frame relative to the star, we use classical kinematics:
+$$t = \frac{d}{v}$$
+Dividing $10\text{ ly}$ by $0.8c$ gives $12.5\text{ years}$. Note that light years divided by speed of light ($c$) conveniently cancels $c$, leaving units of years.
+
+**Part (b):**
+The astronaut is in a moving reference frame. According to the astronaut, the star is moving toward them at $0.8c$. Because of **length contraction**, the distance between Earth and the star is shorter for the astronaut.
+1. We calculate the Lorentz factor $\gamma$ or simply use the contraction formula: $L = L_0\sqrt{1 - \beta^2}$, where $\beta = v/c$.
+2. Substituting $0.8$ for $\beta$: $L = 10 \times \sqrt{1 - 0.64} = 10 \times \sqrt{0.36} = 10 \times 0.6 = 6\text{ light years}$.
+3. The astronaut experiences this distance at a speed of $0.8c$, so $t' = 6 / 0.8 = 7.5\text{ years}$.
+
+Alternatively, you could use time dilation: $t' = \frac{t}{\gamma}$.
+Since $\gamma = \frac{1}{\sqrt{1 - 0.8^2}} = \frac{1}{0.6} \approx 1.667$, then $t' = 12.5 / 1.667 = 7.5\text{ years}$. Both methods yield the same result.
+
+###QUESTION_TYPE
+Calculation question

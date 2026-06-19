@@ -1,0 +1,31 @@
+To find the length of spaceship $C$ as measured by an observer on spaceship $A$, we must first determine the relative velocity between $A$ and $C$ using the **Einstein Velocity Addition Formula**, and then apply the **Length Contraction Formula**.
+
+### 1. Calculate the relative velocity ($u$)
+Let:
+- $v = 0.5c$ (velocity of $B$ relative to $A$)
+- $u' = 0.5c$ (velocity of $C$ relative to $B$)
+
+The velocity of $C$ relative to $A$ ($u$) is given by:
+$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$
+$$u = \frac{0.5c + 0.5c}{1 + (0.5 \times 0.5)} = \frac{1.0c}{1.25} = 0.8c$$
+
+### 2. Calculate the contracted length ($L$)
+The proper length $L_0$ is $100\text{ m}$. The length measured by observer $A$ is:
+$$L = L_0\sqrt{1 - \frac{u^2}{c^2}}$$
+Substitute $u = 0.8c$:
+$$L = 100 \sqrt{1 - (0.8)^2}$$
+$$L = 100 \sqrt{1 - 0.64}$$
+$$L = 100 \sqrt{0.36}$$
+$$L = 100 \times 0.6 = 60\text{ m}$$
+
+### 3. Conclusion
+The length measured by an observer on spaceship $A$ is $60\text{ m}$. Comparing this to the given options:
+(A) Greater than $100\text{ m}$
+(B) $100\text{ m}$
+(C) $87\text{ m}$
+(D) Less than $87\text{ m}$
+
+Since $60\text{ m}$ is less than $87\text{ m}$, the correct choice is **(D)**.
+
+### QUESTION_TYPE
+Multiple choice

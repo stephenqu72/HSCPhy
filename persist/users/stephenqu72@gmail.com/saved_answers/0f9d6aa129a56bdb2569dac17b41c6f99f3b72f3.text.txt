@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+#### a. i. Who is correct?
+**Kym**
+
+#### a. ii. Explanation
+Sai is operating under the assumptions of **Classical Wave Theory**. She would argue that light acts as a continuous wave where energy is proportional to intensity (brightness). She believes that if light is left to shine on the metal for a longer duration, the electrons would eventually absorb enough total energy to overcome the metal's work function and be ejected, regardless of the frequency.
+
+#### b. Calculation of Planck's constant
+To find Planck's constant, we use the photoelectric equation: 
+$$E_k = hf - \Phi$$
+Since the stopping voltage is $V_s$, the maximum kinetic energy is $E_k = qV_s$. Thus:
+$$V_s = \frac{h}{e}f - \frac{\Phi}{e}$$
+This is in the form $y = mx + c$, where the gradient $m = \frac{h}{e}$.
+
+1. **Find the gradient ($m$):**
+Using two points on the line: $(8 \times 10^{14}\text{ Hz}, 0.6\text{ V})$ and $(12 \times 10^{14}\text{ Hz}, 2.8\text{ V})$.
+$$m = \frac{\Delta V_s}{\Delta f} = \frac{2.8 - 0.6}{(12 - 8) \times 10^{14}} = \frac{2.2}{4 \times 10^{14}} = 5.5 \times 10^{-15}\text{ V s}$$
+2. **Calculate $h$:**
+Since $m = \frac{h}{e}$, then $h = m \times e$. Using the value of $e$ in electron-volts ($e = 1\text{ e}$), we get $h = 5.5 \times 10^{-15}\text{ eV s}$.
+
+**Value:** $5.5 \times 10^{-15}\text{ eV s}$
+
+#### c. Determine the work function
+The work function ($\Phi$) is the energy required to remove an electron from the metal surface, corresponding to the x-intercept (threshold frequency, $f_0$) of the graph.
+
+1. **Find the threshold frequency ($f_0$):**
+The equation is $V_s = 5.5 \times 10^{-15}f - \text{intercept}$.
+At $f = 8 \times 10^{14}$, $V_s = 0.6$:
+$$0.6 = (5.5 \times 10^{-15})(8 \times 10^{14}) - \text{intercept}$$
+$$0.6 = 4.4 - \text{intercept} \implies \text{intercept} = 3.8\text{ V}$$
+The threshold frequency $f_0$ occurs when $V_s = 0$:
+$$0 = 5.5 \times 10^{-15}f_0 - 3.8 \implies f_0 = \frac{3.8}{5.5 \times 10^{-15}} \approx 6.91 \times 10^{14}\text{ Hz}$$
+2. **Calculate $\Phi$:**
+$$\Phi = hf_0 = (5.5 \times 10^{-15}\text{ eV s}) \times (6.91 \times 10^{14}\text{ Hz}) \approx 3.8\text{ eV}$$
+Reasoning: The work function is the energy at the threshold frequency where $E_k = 0$, which corresponds to the magnitude of the y-intercept of the $V_s$ vs $f$ graph multiplied by $e$.
+
+###QUESTION_TYPE
+Data analysis questions

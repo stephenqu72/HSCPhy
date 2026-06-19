@@ -1,0 +1,27 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **time dilation**.
+
+### Answer
+1. **Calculate the time required to reach the Earth's surface in the Earth's frame:**
+   $$t = \frac{d}{v} = \frac{9000 \text{ m}}{0.998 \times 3 \times 10^8 \text{ m/s}} \approx 30.06 \text{ \mu s}$$
+
+2. **Calculate the time dilation factor ($\gamma$):**
+   $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.998^2}} \approx 15.82$$
+
+3. **Calculate the dilated lifetime of the muon:**
+   $$t_{\text{dilated}} = \gamma \times t_0 = 15.82 \times 2.2 \text{ \mu s} \approx 34.8 \text{ \mu s}$$
+
+4. **Conclusion:**
+   Since the dilated lifetime ($34.8 \text{ \mu s}$) is greater than the time required to travel the distance ($30.06 \text{ \mu s}$), the muons are able to reach the surface of the Earth before decaying.
+
+---
+
+### How to solve this
+When approaching time dilation problems in the HSC Physics course, follow these steps:
+
+*   **Step 1: Identify the "proper time" ($t_0$).** This is the time measured in the frame where the event occurs at the same spatial location—in this case, the muon's own internal clock, which is $2.2 \text{ \mu s}$.
+*   **Step 2: Determine the Lorentz factor ($\gamma$).** Using the velocity $v = 0.998c$, calculate how much time will appear to slow down for the observer on Earth. The formula is $\gamma = \frac{1}{\sqrt{1 - \beta^2}}$, where $\beta = \frac{v}{c}$.
+*   **Step 3: Calculate the dilated time ($t$).** Use the formula $t = \gamma t_0$. This tells you how long the muon's life lasts from the perspective of an observer on Earth.
+*   **Step 4: Compare the values.** Compare the time the muon *actually has* (dilated lifetime) with the time *required* to travel the distance $d$ at velocity $v$. If the available time exceeds the required travel time, the particles reach the surface.
+
+###QUESTION_TYPE
+Calculation question

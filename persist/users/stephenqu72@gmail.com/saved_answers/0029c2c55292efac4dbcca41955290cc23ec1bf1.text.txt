@@ -1,0 +1,21 @@
+### Answer
+
+**(a)** The x-intercept represents the **threshold frequency** ($f_0$) for each respective metal. This is the minimum frequency of incident light required to eject photoelectrons from the surface of that metal. Below this frequency, the energy of the incident photons is insufficient to overcome the work function ($\Phi$) of the metal, and no photoelectric effect occurs.
+
+**(b)** The lines are parallel because the slope of the graph for each metal is equal to **Planck's constant ($h$)**. According to Einstein’s photoelectric equation, $E_k = hf - \Phi$. When plotted as maximum kinetic energy (or stopping voltage multiplied by electron charge) against frequency, the gradient of the line is defined by $h$, which is a universal constant and independent of the metal's properties.
+
+---
+
+### Explanation
+To solve this, you must recall the Einstein photoelectric equation:
+$$E_k = hf - \Phi$$
+Where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function.
+
+1.  **For part (a):** Recognize that the x-intercept occurs when $E_k = 0$. Setting the equation to zero:
+    $$0 = hf_0 - \Phi \implies f_0 = \frac{\Phi}{h}$$
+    This frequency $f_0$ is the specific threshold for that metal. Each metal has a unique work function, which is why they intercept the x-axis at different points.
+
+2.  **For part (b):** Look at the equation in the form of $y = mx + c$. Here, $y = E_k$, $x = f$, and $c = -\Phi$. The gradient ($m$) is therefore $h$. Since Planck's constant $h$ does not change regardless of the material used, the slopes of the lines for different metals must be identical, making them parallel.
+
+###QUESTION_TYPE
+Data analysis questions

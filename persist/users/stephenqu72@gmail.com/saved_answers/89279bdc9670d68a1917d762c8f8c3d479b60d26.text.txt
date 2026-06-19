@@ -1,0 +1,16 @@
+To answer this question, we must apply our knowledge of **Wien’s Displacement Law** and the **Stefan-Boltzmann Law** regarding blackbody radiation.
+
+### Answer
+The correct answer is **B. Lower intensity and peak shifts to left.**
+
+### Explanation
+1.  **Intensity and the Stefan-Boltzmann Law:** The Stefan-Boltzmann Law states that the total energy radiated by a blackbody is proportional to the fourth power of its absolute temperature ($I \propto T^4$). Therefore, if the temperature of the blackbody is decreased, the total area under the curve decreases, meaning the overall **intensity** of the emitted radiation drops.
+
+2.  **Peak Frequency and Wien’s Displacement Law:** Wien’s Displacement Law relates the peak wavelength ($\lambda_{max}$) to temperature: $\lambda_{max} T = \text{constant}$. Since frequency ($f$) is inversely proportional to wavelength ($f = c / \lambda$), we can express this in terms of frequency as $f_{max} \propto T$. 
+    *   If the temperature $T$ decreases, the peak frequency $f_{max}$ must also decrease.
+    *   On the graph provided, the horizontal axis represents **Frequency**. A decrease in the peak frequency means the peak of the curve moves toward the origin (the **left** side of the graph).
+
+Combining these two effects, a lower temperature results in a curve that is both lower in height (lower intensity) and shifted towards lower frequencies (shifted to the left).
+
+###QUESTION_TYPE
+Multiple choice

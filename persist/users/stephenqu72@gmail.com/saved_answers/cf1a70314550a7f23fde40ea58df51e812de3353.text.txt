@@ -1,0 +1,24 @@
+To find the energy of a photon, we use the Planck-Einstein relation:
+$$E = hf$$
+
+Where:
+- $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$)
+- $f$ is the frequency ($103.2 \text{ MHz} = 103.2 \times 10^6 \text{ Hz}$)
+
+### Step 1: Calculate energy in Joules
+$$E = (6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (103.2 \times 10^6 \text{ Hz})$$
+$$E \approx 6.838 \times 10^{-26} \text{ J}$$
+
+### Step 2: Convert Joules to electronvolts (eV)
+To convert from Joules to eV, we divide by the charge of an electron ($1.602 \times 10^{-19} \text{ C}$):
+$$E_{\text{(eV)}} = \frac{6.838 \times 10^{-26} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}}$$
+$$E_{\text{(eV)}} \approx 4.268 \times 10^{-7} \text{ eV}$$
+
+Comparing this result to the given options, we can see that **Option D** is the correct answer.
+
+***
+
+**Teacher's Tip:** Always watch your unit prefixes! The "M" in MHz stands for mega ($10^6$). Forgetting to convert the frequency into base SI units (Hz) or failing to convert the final energy from Joules into eV are the most common mistakes students make on this type of HSC question.
+
+###QUESTION_TYPE
+Multiple choice

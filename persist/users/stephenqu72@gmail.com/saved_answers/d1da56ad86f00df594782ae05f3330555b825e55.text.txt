@@ -1,0 +1,24 @@
+To determine the correct answer, we must refer to Einstein’s photoelectric equation:
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+- $K_{max}$ is the maximum kinetic energy of the emitted photoelectrons.
+- $h$ is Planck’s constant.
+- $f$ is the frequency of the incident light.
+- $\Phi$ is the work function of the metal (the minimum energy required to remove an electron).
+
+### Analysis of Options:
+
+*   **(A) Changing the cathode material to a metal with a lower work function:** If $\Phi$ decreases, then for a fixed frequency $f$, $K_{max}$ must increase. This is correct.
+*   **(B) Changing yellow light to red light:** Red light has a longer wavelength than yellow light, meaning it has a lower frequency ($f$). A lower frequency decreases the energy of the incident photons ($hf$), which decreases $K_{max}$.
+*   **(C) Increasing the intensity of the incident yellow light:** Increasing the intensity increases the *number* of photons hitting the surface, which increases the *number* of photoelectrons emitted (photoelectric current). However, it does not change the energy of individual photons, so $K_{max}$ remains unchanged.
+*   **(D) Decreasing the distance between the cathode and the anode:** This may affect the current or the time of flight, but it has no effect on the energy of the electrons emitted from the surface of the metal.
+
+### Conclusion:
+The only way to increase the maximum kinetic energy of the electrons—without changing the frequency of the light—is to decrease the energy required to extract them from the metal surface (the work function).
+
+**The correct answer is (A).**
+
+###QUESTION_TYPE
+Multiple choice

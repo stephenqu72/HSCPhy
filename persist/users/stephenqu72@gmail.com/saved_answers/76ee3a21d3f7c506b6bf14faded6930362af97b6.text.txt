@@ -1,0 +1,25 @@
+To solve this problem, we must look at the mathematical relationship between the energy of a photon and its wavelength.
+
+### Explanation
+1. **Identify the relevant formula:** The energy $E$ of a photon is related to its frequency $f$ by Planck's equation:
+   $$E = hf$$
+   where $h$ is Planck's constant.
+
+2. **Relate frequency to wavelength:** We know the wave equation is $c = f\lambda$, where $c$ is the speed of light and $\lambda$ is the wavelength. Rearranging for frequency gives:
+   $$f = \frac{c}{\lambda}$$
+
+3. **Combine the equations:** Substitute the expression for $f$ into the energy equation:
+   $$E = h \cdot \frac{c}{\lambda} = \frac{hc}{\lambda}$$
+
+4. **Analyze the relationship:** Since $h$ and $c$ are constants, the relationship is $E \propto \frac{1}{\lambda}$. This is an **inverse relationship**. As the wavelength ($\lambda$) increases, the energy ($E$) must decrease. Conversely, as $\lambda$ approaches zero, $E$ approaches infinity.
+
+5. **Evaluate the graphs:**
+   - (A) represents a bell curve (incorrect).
+   - (B) represents a linear relationship with an x-intercept (incorrect).
+   - (C) represents a rectangular hyperbola (inverse relationship), where as $x$ increases, $y$ decreases. This matches our derivation.
+   - (D) represents a direct linear relationship (incorrect).
+
+**Conclusion:** The correct graph is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

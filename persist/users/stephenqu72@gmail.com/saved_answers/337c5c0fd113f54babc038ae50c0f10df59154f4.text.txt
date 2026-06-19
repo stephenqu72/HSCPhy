@@ -1,0 +1,38 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through this problem on the polarisation of light.
+
+### Analysis of the Physics
+The intensity of light transmitted through two polarising filters is governed by **Malus's Law**:
+$$I = I_0 \cos^2(\theta)$$
+where:
+- $I_0$ is the intensity of the light after passing through the first polariser (which acts as the incident light for the second).
+- $\theta$ is the angle between the transmission axes of the two polarisers.
+
+### Part (a): Sketching the Graph
+Initially, both filters are vertical, so $\theta = 0^\circ$. At this orientation, the intensity is $I_0 = 20\text{ Wm}^{-2}$. As we rotate $P_2$ through $360^\circ$:
+- At $0^\circ$, $180^\circ$, and $360^\circ$, the axes are parallel, so intensity is at a maximum ($20\text{ Wm}^{-2}$).
+- At $90^\circ$ and $270^\circ$, the axes are perpendicular (crossed), so intensity is $0\text{ Wm}^{-2}$.
+- The graph should follow a smooth $\cos^2(\theta)$ curve (a series of "humps" touching the x-axis at 90 and 270 degrees).
+
+### Part (b): Calculation
+We are given $I_0 = 20\text{ Wm}^{-2}$ (the intensity after $P_1$) and $\theta = 55^\circ$.
+
+Using Malus's Law:
+$$I = 20 \times \cos^2(55^\circ)$$
+
+1. Calculate $\cos(55^\circ) \approx 0.573576$
+2. Square the value: $(0.573576)^2 \approx 0.32899$
+3. Multiply by $20$: $20 \times 0.32899 \approx 6.5798$
+
+Rounding to a reasonable number of significant figures (consistent with the provided data):
+$$I \approx 6.58\text{ Wm}^{-2}$$
+
+***
+
+**Summary of steps to solve:**
+1. **Identify the formula:** Recognize that the rotation of the second polariser requires Malus's Law.
+2. **Determine $I_0$:** Understand that the light entering $P_2$ is already polarised by $P_1$ with an intensity of $20\text{ Wm}^{-2}$.
+3. **Apply the angle:** Ensure your calculator is in **Degree mode** when calculating the cosine of the angle.
+4. **Graph interpretation:** Ensure the graph shows periodic maxima at $0^\circ/180^\circ/360^\circ$ and zeros at $90^\circ/270^\circ$.
+
+###QUESTION_TYPE
+Calculation question

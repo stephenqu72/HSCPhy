@@ -1,0 +1,32 @@
+To solve this problem, we need to understand the physics of how light intensity changes when passing through a polarising filter.
+
+### Step-by-Step Solution
+
+1.  **Initial Interaction with the Polariser:**
+    When unpolarised light passes through a polarising filter, the filter allows only the component of the light parallel to its transmission axis to pass through. For unpolarised light, this reduces the intensity by exactly half, regardless of the orientation of the filter's axis.
+    
+    The initial intensity $I_0 = 10\text{ L}$.
+    The intensity after passing through the first filter is:
+    $$I_1 = \frac{1}{2} I_0 = \frac{1}{2} \times 10\text{ L} = 5.0\text{ L}$$
+
+2.  **Evaluating the Angle:**
+    You might be tempted to use Malus's Law ($I = I_0 \cos^2\theta$) here. However, Malus's Law applies to **polarised light** passing through a second filter. In this scenario, the light entering the filter is **unpolarised**. 
+
+    Because the light source is unpolarised, the orientation angle (the $60^\circ$ indicated in the diagram) is a distractor. The intensity of unpolarised light passing through any ideal polarising filter will always be exactly half of the initial intensity, as the filter averages out the random orientations of the incoming light waves.
+
+3.  **Conclusion:**
+    The resulting intensity is $5.0\text{ L}$.
+
+Comparing this to the options provided:
+(A) 2.5 L
+(B) 5.0 L
+(C) 7.5 L
+(D) 8.0 L
+
+The correct option is **(B)**.
+
+### HSC Teacher's Tip
+Always check the state of the light **before** it hits the filter. If it is **unpolarised**, the intensity is always halved. If the light was already **polarised**, then you would use $I = I_0 \cos^2\theta$, where $\theta$ is the angle between the light's current polarisation and the filter's transmission axis. Don't let the extra information (the $60^\circ$ angle) trick you!
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,15 @@
+To determine the correct answer, let's look at the physics of Malus's Law and polarising filters.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+1.  **The Physics of Polarisation:** When you place two polarising filters at $90^\circ$ to each other (crossed polarisers), the intensity of the transmitted light $I$ is given by Malus's Law: $I = I_0 \cos^2(\theta)$.
+2.  **Ideal Scenario:** In an ideal, theoretical scenario, if you use perfectly crossed polarisers ($\theta = 90^\circ$), $\cos(90^\circ) = 0$, meaning the intensity $I$ should be zero. No light should pass through.
+3.  **Real-world Application:** In reality, commercial polarising lenses are not perfect. However, even with high-quality lenses, the observation that "a small amount of light" still passes through when the sunglasses are perfectly crossed is primarily attributed to the nature of the light source. 
+4.  **Why (B) is the answer:** Most common light sources (like a desk lamp or overhead bulb) are **unpolarised**. Unpolarised light contains waves vibrating in all possible directions perpendicular to the direction of travel. When this light enters the first polariser, it is filtered into a single plane. However, due to imperfections in the manufacturing of the polarising material (not "too wide" as in option D, but rather the efficiency of the molecular alignment), some components of light may not be perfectly blocked. More importantly, in the context of HSC physics questions, the observation that light passes through implies the incident light is unpolarised, providing a continuous supply of light vectors that the lenses are attempting to filter. If the light source were already polarised (Option A) and aligned with the first lens, the result would be the same, but the characteristic behavior of light being observed through crossed polarisers is fundamentally tested using an unpolarised source.
+
+Therefore, because the light source is unpolarised, it provides the full spectrum of orientations that test the efficacy of the polarising filters, and the "small amount" observed is the standard result of imperfect extinction in real-world materials.
+
+### QUESTION_TYPE
+Multiple choice

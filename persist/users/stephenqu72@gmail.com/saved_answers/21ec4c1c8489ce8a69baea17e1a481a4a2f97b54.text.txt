@@ -1,0 +1,26 @@
+To solve this problem, we must apply the two fundamental principles governing the polarization of light: Malus’s Law and the effect of an ideal polarizer on unpolarized light.
+
+### Step-by-Step Solution:
+
+1.  **Passing through the first filter:**
+    When unpolarized light with intensity $I$ passes through the first polarizing filter, the transmitted intensity $I_1$ is reduced by half, regardless of the orientation of the filter.
+    $$I_1 = \frac{1}{2}I$$
+
+2.  **Passing through the second filter:**
+    Now, the light is linearly polarized with intensity $I_1 = 0.5I$. This light then passes through the second filter, which is at an angle of $\theta = 30^\circ$ to the first. According to **Malus's Law**, the transmitted intensity $I_2$ is given by:
+    $$I_2 = I_1 \cos^2(\theta)$$
+
+3.  **Calculation:**
+    Substitute the known values into the equation:
+    $$I_2 = (0.5I) \cdot \cos^2(30^\circ)$$
+    Since $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, then:
+    $$\cos^2(30^\circ) = \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4} = 0.75$$
+    Now, multiply this by the intensity after the first filter:
+    $$I_2 = 0.5I \times 0.75$$
+    $$I_2 = 0.375I$$
+
+### Conclusion:
+The intensity of the light passing through the second filter is $0.375I$. Therefore, the correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

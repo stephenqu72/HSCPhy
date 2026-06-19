@@ -1,0 +1,27 @@
+To determine which configuration yields the greatest light intensity, we apply **Malus’s Law**, which describes how the intensity of polarized light changes when it passes through a second polariser (the analyser).
+
+### The Physics Principles
+1. **Malus's Law**: The intensity of the light transmitted through the second polariser, $I$, is given by:
+   $$I = I_0 \cos^2(\theta)$$
+   where $I_0$ is the intensity of the light after the first polariser and $\theta$ is the angle between the transmission axes of the two polarisers.
+2. **Luminosity**: The initial intensity $I_0$ is directly proportional to the "Luminosity of light source". Let $L$ be the luminosity. Then the measured intensity $I$ is proportional to $L \cdot \cos^2(\theta)$.
+
+### Step-by-Step Evaluation
+We calculate the relative factor $L \cdot \cos^2(\theta)$ for each option:
+
+*   **A**: $L=5, \theta=20^\circ$
+    Factor: $5 \cdot \cos^2(20^\circ) \approx 5 \cdot (0.9397)^2 \approx 5 \cdot 0.883 \approx \mathbf{4.415}$
+*   **B**: $L=10, \theta=40^\circ$
+    Factor: $10 \cdot \cos^2(40^\circ) \approx 10 \cdot (0.7660)^2 \approx 10 \cdot 0.587 \approx \mathbf{5.87}$
+*   **C**: $L=15, \theta=60^\circ$
+    Factor: $15 \cdot \cos^2(60^\circ) = 15 \cdot (0.5)^2 = 15 \cdot 0.25 = \mathbf{3.75}$
+*   **D**: $L=20, \theta=80^\circ$
+    Factor: $20 \cdot \cos^2(80^\circ) \approx 20 \cdot (0.1736)^2 \approx 20 \cdot 0.030 \approx \mathbf{0.60}$
+
+### Conclusion
+Comparing the results, option **B** provides the highest value. Even though the luminosity increases in options C and D, the $\cos^2(\theta)$ term decreases much faster as $\theta$ approaches $90^\circ$, causing the overall intensity to drop significantly.
+
+**The correct answer is B.**
+
+###QUESTION_TYPE
+Multiple choice

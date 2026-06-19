@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(D) more emitted photoelectrons but of the same maximum kinetic energy.**
+
+### Explanation
+To solve this problem, we apply Einstein’s photoelectric equation, which describes the energy balance of an individual photon interacting with an electron in a metal:
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $K_{max}$ is the maximum kinetic energy of the emitted photoelectrons.
+*   $h$ is Planck’s constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ (work function) is the minimum energy required to remove an electron from the surface of the metal.
+
+**Analysis of the factors:**
+1.  **Maximum Kinetic Energy ($K_{max}$):** The equation shows that $K_{max}$ depends strictly on the **frequency** ($f$) of the incident light and the properties of the metal ($\Phi$). Increasing the **intensity** of the light corresponds to increasing the number of photons arriving per unit time, but it does not change the energy of individual photons ($E = hf$). Therefore, increasing intensity has no effect on the maximum kinetic energy of the individual photoelectrons.
+2.  **Number of Photoelectrons:** Light intensity is directly proportional to the number of photons incident on the metal surface. According to the particle model of light, one photon ejects one electron. If the intensity is increased, more photons hit the metal surface per second, resulting in a higher number of electrons being ejected (assuming the frequency is already above the threshold frequency).
+
+**Conclusion:**
+Increasing the intensity leads to an increase in the photocurrent (more electrons per second) but keeps the energy of each individual electron constant. Thus, option (D) is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

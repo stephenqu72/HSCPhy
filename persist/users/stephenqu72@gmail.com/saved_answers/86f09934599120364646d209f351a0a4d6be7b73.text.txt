@@ -1,0 +1,30 @@
+To solve this problem, we must apply the two fundamental rules of light polarization: the **Intensity Reduction Rule** for unpolarised light and **Malus’s Law** for polarised light.
+
+### Step-by-Step Solution
+
+**1. Transmission through the Polariser:**
+When unpolarised light of intensity $I_0$ passes through a perfect linear polariser, exactly half of the light intensity is transmitted regardless of the orientation of the polariser axis.
+$$I_1 = \frac{1}{2} I_0$$
+So, the intensity of light emerging from the polariser is $0.5 I_0$.
+
+**2. Transmission through the Analyser:**
+To find the final intensity $I_2$ emerging from the analyser, we use **Malus’s Law**:
+$$I_2 = I_1 \cos^2(\theta)$$
+Where $\theta$ is the angle between the transmission axis of the polariser and the transmission axis of the analyser.
+
+*   The polariser axis is at $90^\circ$ to the $x$-axis.
+*   The analyser axis is at $60^\circ$ to the $x$-axis.
+*   The angle between these two axes is $\theta = 90^\circ - 60^\circ = 30^\circ$.
+
+**3. Calculation:**
+Substitute the values into the formula:
+$$I_2 = (0.5 I_0) \times \cos^2(30^\circ)$$
+Since $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, then $\cos^2(30^\circ) = \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4} = 0.75$.
+
+$$I_2 = 0.5 I_0 \times 0.75$$
+$$I_2 = 0.375 I_0$$
+
+Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Calculation question

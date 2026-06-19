@@ -1,0 +1,23 @@
+To answer this question effectively, you must link the physical phenomenon of muon decay to the theoretical framework of special relativity. 
+
+### Answer
+The detection of muons at the Earth's surface provides experimental verification of time dilation, which is a direct consequence of Einstein’s two postulates.
+
+1.  **The Problem:** Muons are created in the upper atmosphere. With a half-life of $t_0 = 2.2 \times 10^{-6} \text{ s}$ and a speed of $0.99c$, Newtonian physics predicts they should travel a distance of $d = v \times t \approx 650 \text{ m}$ before decaying. Since they are created much higher than this (typically $> 10 \text{ km}$), classical physics predicts almost zero muons should reach the surface.
+2.  **The Evidence (Time Dilation):** From the Earth's frame of reference, the muon's "internal clock" is running slower due to its high velocity. The dilated half-life $t_v$ is calculated as:
+    $$t_v = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+    For $v = 0.99c$, the Lorentz factor $\gamma \approx 7.09$. Thus, the half-life appears to be $\approx 1.56 \times 10^{-5} \text{ s}$. In this extended time, the muon can travel $d \approx 4.6 \text{ km}$, allowing a significant number to reach the surface.
+3.  **Link to Postulates:**
+    *   **Inertial frames are equivalent:** The observation is consistent regardless of whether we view the situation from the Earth's frame (time dilation) or the muon's frame (length contraction). In the muon’s frame, the atmosphere is length-contracted to a small distance, allowing the muon to reach the ground before its short lifespan expires.
+    *   **Speed of light is constant:** The equations for time dilation and length contraction are derived strictly from the requirement that the speed of light remains constant in all frames. The fact that these equations accurately predict the number of muons detected at the surface confirms that the postulates hold true in reality.
+
+### How to solve this
+1.  **Identify the Core Concepts:** Recognize that "muons at Earth's surface" is the classic HSC Physics proof for Special Relativity. You must mention **time dilation**.
+2.  **Structure your argument:**
+    *   Briefly state the discrepancy: Without relativity, muons shouldn't survive the trip.
+    *   Perform (or describe) the calculation: Show that using the Lorentz factor accounts for the extra distance traveled.
+    *   Connect back to the postulates: Explicitly state that because the prediction matches the observation, the underlying postulates (constancy of $c$ and equivalence of frames) must be valid.
+3.  **Use the Language of Physics:** Use terms like "proper time" ($t_0$), "Lorentz factor" ($\gamma$), and "reference frames."
+
+###QUESTION_TYPE
+Short answer

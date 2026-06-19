@@ -1,0 +1,19 @@
+To solve this problem, we apply Einstein’s photoelectric equation:
+$$K_{\text{max}} = hf - \Phi$$
+where $h$ is Planck's constant, $f$ is the frequency of incident light ($f = c/\lambda$), and $\Phi$ is the work function of the metal ($2.3\text{ eV}$).
+
+### Experiment 1: Varying Intensity
+*   **Result:** As intensity increases, the **photocurrent increases**, but the **maximum kinetic energy ($K_{\text{max}}$) remains constant**.
+*   **Explanation:** Einstein’s model treats light as individual photons (quanta). Increasing intensity increases the number of photons striking the surface per second. Since each photon has the same energy (determined by the wavelength), each interaction ejects one electron with the same energy as before. More photons lead to more ejected electrons, hence a higher photocurrent.
+
+### Experiment 2: Increasing Wavelength
+*   **Result:** As wavelength increases, the **photocurrent will eventually drop to zero**, and the **maximum kinetic energy decreases** until emission stops.
+*   **Explanation:** The energy of a photon is inversely proportional to its wavelength ($E = hc/\lambda$). As $\lambda$ increases from $420\text{ nm}$, the energy of the incident photons decreases. According to the equation $K_{\text{max}} = hc/\lambda - \Phi$, the $K_{\text{max}}$ of the ejected electrons must decrease. 
+*   Emission stops when the photon energy drops below the work function ($E < 2.3\text{ eV}$). This occurs at the threshold wavelength:
+    $$\lambda_{\text{threshold}} = \frac{hc}{\Phi} = \frac{1240\text{ eV nm}}{2.3\text{ eV}} \approx 539\text{ nm}$$
+    Once the wavelength exceeds $539\text{ nm}$, the energy of the incident photons is insufficient to overcome the work function, so no electrons are ejected, and the photocurrent becomes zero.
+
+---
+
+###QUESTION_TYPE
+Short answer

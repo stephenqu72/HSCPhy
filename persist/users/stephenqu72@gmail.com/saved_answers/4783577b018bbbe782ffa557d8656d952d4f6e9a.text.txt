@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+This question highlights a common misconception when applying classical Doppler effect formulas to relativistic scenarios. 
+
+1.  **The Flaw in the Question's Logic:** The formulas provided in the question ($f' = (\frac{c+v}{c})f$ and $f' = (\frac{c}{c-v})f$) are the **classical** Doppler effect formulas for sound, which depend on whether the source or the observer is moving relative to the medium. Light, however, does not require a medium.
+2.  **Special Relativity:** According to Einstein's Postulates of Special Relativity, the laws of physics (including the nature of light) are the same in all inertial reference frames. There is no "preferred" frame of reference. 
+3.  **The Relativistic Doppler Effect:** In special relativity, the Doppler shift for light depends only on the **relative velocity** between the source and the observer. Because $X$ and $Y$ are both inertial frames moving towards each other, the observed frequency shift is identical for both of them when calculated using the correct relativistic formula:
+    $$f_{obs} = f_{source} \sqrt{\frac{1 + \beta}{1 - \beta}}$$
+    where $\beta = v/c$.
+4.  **Resolving the "Paradox":** The formulas presented in the prompt are incorrect for light. However, the conceptual resolution to any such "paradox" in relativity is that no observer has a privileged status. Both observers are in valid inertial frames; therefore, any valid physical observation they make must be consistent with the principle of relativity. Statement C correctly identifies that all inertial frames are equally valid, which is the foundational pillar of Einstein's theory.
+
+###QUESTION_TYPE
+Multiple choice

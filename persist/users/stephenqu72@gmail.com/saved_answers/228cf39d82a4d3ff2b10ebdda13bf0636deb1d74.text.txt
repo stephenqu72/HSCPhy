@@ -1,0 +1,34 @@
+To solve these problems, we use the principles of Special Relativity. First, we identify the rest mass of an electron, $m_0 \approx 9.109 \times 10^{-31} \text{ kg}$. The velocity is given as $v = 0.99c$.
+
+### Part a: Finding the relativistic mass
+The relativistic mass $m_v$ is calculated using the Lorentz factor $\gamma$:
+$$m_v = \gamma m_0 = \frac{m_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+1. Calculate the Lorentz factor $\gamma$:
+   $$\gamma = \frac{1}{\sqrt{1 - 0.99^2}} = \frac{1}{\sqrt{1 - 0.9801}} = \frac{1}{\sqrt{0.0199}} \approx 7.0888$$
+
+2. Calculate relativistic mass:
+   $$m_v = 7.0888 \times 9.109 \times 10^{-31} \text{ kg} \approx 6.457 \times 10^{-30} \text{ kg}$$
+
+**Answer a:** $6.46 \times 10^{-30} \text{ kg}$ (to 3 significant figures).
+
+---
+
+### Part b: Finding the sum of rest energy and kinetic energy
+The sum of rest energy ($E_0$) and kinetic energy ($K$) is equal to the total energy ($E$) of the particle. Einstein’s mass-energy equivalence principle states:
+$$E = E_0 + K = m_v c^2$$
+
+1. Use the relativistic mass found in part (a) and the speed of light ($c \approx 3.00 \times 10^8 \text{ m/s}$):
+   $$E = (6.457 \times 10^{-30} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+   $$E \approx 6.457 \times 10^{-30} \times 9 \times 10^{16}$$
+   $$E \approx 5.81 \times 10^{-13} \text{ J}$$
+
+Alternatively, calculate using $\gamma E_0$ where $E_0 \approx 8.187 \times 10^{-14} \text{ J}$:
+$$E = 7.0888 \times 8.187 \times 10^{-14} \text{ J} \approx 5.81 \times 10^{-13} \text{ J}$$
+
+**Answer b:** $5.81 \times 10^{-13} \text{ J}$ (to 3 significant figures).
+
+---
+
+###QUESTION_TYPE
+Calculation question

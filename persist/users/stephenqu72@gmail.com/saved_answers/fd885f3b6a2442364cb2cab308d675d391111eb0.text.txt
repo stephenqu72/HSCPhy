@@ -1,0 +1,38 @@
+To solve this problem, we apply the principles of Special Relativity, specifically time dilation and length contraction.
+
+**Given:**
+- Distance ($L_0$) = $25.3 \text{ light-years}$ (Proper distance, measured by Pat on Earth)
+- Speed ($v$) = $0.990c$
+- Initial age of Pat = $35 \text{ years}$
+
+---
+
+### (a) How long does the trip take from the point of view of Pat?
+From Pat's reference frame, the distance is fixed. We use the classical formula $t = \frac{d}{v}$.
+$$t = \frac{25.3 \text{ ly}}{0.990c} = \frac{25.3}{0.990} \text{ years} \approx 25.56 \text{ years}$$
+**Answer:** The trip takes $25.56 \text{ years}$ from Pat's perspective.
+
+### (b) Determine Pat's age when Chris arrives at Vega.
+Pat was $35$ years old when Chris left. We simply add the duration of the trip as measured by Pat:
+$$\text{Age} = 35 + 25.56 = 60.56 \text{ years}$$
+**Answer:** Pat is $60.56 \text{ years}$ old.
+
+### (c) What distance did Chris travel from his point of view and how old is he at the end of his journey?
+From Chris's perspective, the distance to Vega is contracted. We use the length contraction formula $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$:
+$$\gamma = \frac{1}{\sqrt{1 - 0.990^2}} \approx 7.0888$$
+$$L = \frac{L_0}{\gamma} = 25.3 \times \sqrt{1 - 0.990^2} \approx 25.3 \times 0.14107 \approx 3.569 \text{ light-years}$$
+
+For Chris's age, we use the proper time ($\Delta t_0$) formula: $\Delta t_0 = \frac{\Delta t}{\gamma}$:
+$$\Delta t_0 = \frac{25.56}{7.0888} \approx 3.61 \text{ years}$$
+Chris was $35$ when he left, so he is $35 + 3.61 = 38.61$ years old.
+
+**Answer:** Chris travels $3.57 \text{ light-years}$ (contracted distance) and he is $38.61 \text{ years}$ old.
+
+---
+
+### Explanation of Concepts
+1. **Time Dilation:** Observers in motion relative to a clock will see that clock run slower. Pat sees Chris's clock tick slowly.
+2. **Length Contraction:** Objects or distances moving relative to an observer are measured to be shorter in the direction of motion. Chris sees the distance to Vega contract because he is moving relative to the Earth-Vega frame.
+
+###QUESTION_TYPE
+Calculation question

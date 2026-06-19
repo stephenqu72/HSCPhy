@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Analysis:**
+
+1.  **Star C-187:**
+    *   **Temperature:** We use Wien’s Law: $E = hf = \frac{hc}{\lambda} = k_B T$. Given $E_{peak} = 1.58 \text{ eV}$. Since $1 \text{ eV} \approx 11,600 \text{ K}$ (using $T = \frac{E}{k_B}$ where $k_B \approx 8.617 \times 10^{-5} \text{ eV/K}$), $T \approx \frac{1.58}{8.617 \times 10^{-5}} \approx 18,300 \text{ K}$.
+    *   **Classification:** With $L = 0.0142 L_{sun}$ and a high temperature, this star sits in the **White Dwarf** region of the HR diagram.
+    *   **Energy Production:** It is not undergoing nuclear fusion. It is a stellar remnant cooling down, radiating away residual thermal energy. Its high density ($4.18 \rho_{sun}$) confirms it is a compact, degenerate object.
+
+2.  **Star C-2xq:**
+    *   **Temperature:** $E_{peak} = 6.85 \text{ eV}$. $T \approx \frac{6.85}{8.617 \times 10^{-5}} \approx 79,500 \text{ K}$.
+    *   **Classification:** With $L = 800 L_{sun}$ and extremely high temperature, this star is in the **Main Sequence** (upper-left region) or potentially a hot sub-giant.
+    *   **Energy Production:** It is currently undergoing hydrogen fusion via the CNO cycle (typical for high-mass, high-temperature stars). It has a long road ahead on the main sequence compared to C-187, which has already exhausted its fuel.
+
+---
+
+#### Part (b)
+**Calculation:**
+To find the orbital period, we use Kepler's Third Law: $\frac{T^2}{r^3} = k$. For a planet orbiting a star, this is $\frac{T^2}{r^3} = \frac{1}{M_{star}}$.
+*Note:* The mass of C-187 is not explicitly given, but in standard HSC Physics questions of this type, if mass isn't provided, we often assume the mass of the host star is approximately solar mass ($1 M_{sun}$) for simplicity, or we check if the orbit is defined relative to the Earth-Sun system. 
+Using $T^2 \propto r^3$:
+$$T_{planet}^2 = r^3$$
+$$T = \sqrt{(0.125)^3} = \sqrt{0.001953125} \approx 0.04419 \text{ years}$$
+To convert to Earth days:
+$$0.04419 \times 365.25 \approx 16.14 \text{ days}$$
+Rounding to the nearest day, the year is **16 days**.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

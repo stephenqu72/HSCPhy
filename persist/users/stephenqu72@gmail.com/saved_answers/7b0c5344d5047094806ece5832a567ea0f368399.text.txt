@@ -1,0 +1,31 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through this Special Relativity problem. These are classic questions that test your ability to handle both the mathematical formalism and the conceptual implications of Einstein's theory.
+
+### Part (a): Calculation
+
+To find the relativistic momentum $p$, we use the formula:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**1. Identify the constants and given values:**
+*   Mass of a proton ($m$) $\approx 1.67 \times 10^{-27} \text{ kg}$
+*   Speed of the proton ($v$) $= 2.0 \times 10^8 \text{ m s}^{-1}$
+*   Speed of light ($c$) $\approx 3.0 \times 10^8 \text{ m s}^{-1}$
+
+**2. Calculate the Lorentz factor ($\gamma$):**
+$$\gamma = \frac{1}{\sqrt{1 - (\frac{2.0 \times 10^8}{3.0 \times 10^8})^2}} = \frac{1}{\sqrt{1 - (\frac{2}{3})^2}} = \frac{1}{\sqrt{1 - \frac{4}{9}}} = \frac{1}{\sqrt{\frac{5}{9}}} = \frac{3}{\sqrt{5}} \approx 1.3416$$
+
+**3. Calculate the relativistic momentum ($p$):**
+$$p = 1.3416 \times (1.67 \times 10^{-27} \text{ kg}) \times (2.0 \times 10^8 \text{ m s}^{-1})$$
+$$p \approx 4.48 \times 10^{-19} \text{ kg m s}^{-1}$$
+
+---
+
+### Part (b): Explanation
+
+The Special Theory of Relativity imposes an upper limit on the speed of matter due to the behavior of the Lorentz factor $\gamma$. 
+
+As an object's speed $v$ approaches $c$, the term $\frac{v^2}{c^2}$ approaches 1. Consequently, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches 0. This causes $\gamma$ (and therefore the relativistic momentum) to approach **infinity**. To accelerate an object with mass to the speed of light, an infinite amount of energy would be required. Since an infinite amount of energy is physically impossible to provide, no object with non-zero rest mass can ever reach or exceed the speed of light $c$.
+
+---
+
+### QUESTION_TYPE
+Calculation question

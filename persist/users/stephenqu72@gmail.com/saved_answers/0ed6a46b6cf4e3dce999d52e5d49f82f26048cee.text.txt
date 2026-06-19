@@ -1,0 +1,24 @@
+To solve this problem, we must apply the physics of light polarization in two sequential stages.
+
+### Explanation
+
+**Step 1: Intensity after the first polariser**
+When unpolarised light with intensity $I_0$ passes through the first ideal polariser, the intensity of the transmitted light ($I_1$) is exactly half of the initial intensity. This is because a polariser only allows the components of light parallel to its transmission axis to pass through.
+$$I_1 = \frac{1}{2} I_0$$
+
+**Step 2: Intensity after the second polariser (Malus's Law)**
+When this linearly polarised light ($I_1$) hits the second polariser, we use **Malus's Law**, which states that the transmitted intensity $I_2$ is given by:
+$$I_2 = I_1 \cos^2(\theta)$$
+where $\theta$ is the angle between the transmission axes of the two polarisers. Given that $\theta = 60^\circ$ and $\cos(60^\circ) = \frac{1}{2}$:
+$$I_2 = \left( \frac{1}{2} I_0 \right) \cos^2(60^\circ)$$
+$$I_2 = \left( \frac{1}{2} I_0 \right) \left( \frac{1}{2} \right)^2$$
+$$I_2 = \left( \frac{1}{2} I_0 \right) \left( \frac{1}{4} \right)$$
+$$I_2 = \frac{1}{8} I_0$$
+
+Comparing this result to the given options, the correct answer is **D**.
+
+### Answer
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

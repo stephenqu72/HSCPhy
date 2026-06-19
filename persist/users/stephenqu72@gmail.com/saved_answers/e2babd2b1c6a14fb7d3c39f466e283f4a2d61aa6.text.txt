@@ -1,0 +1,27 @@
+To solve this problem, we apply the principles of polarization and Malus's Law.
+
+### Part (a)
+1.  **First Polarizer:** When unpolarised light of intensity $I$ passes through the first polarising sheet, the intensity is halved.
+    $$I_1 = \frac{1}{2}I = 0.5I$$
+2.  **Second Polarizer:** Malus's Law states that the intensity of light $I_2$ transmitted through a second polarizer (analyzer) is $I_2 = I_1 \cos^2\theta$, where $\theta$ is the angle between the transmission axes of the two polarizers.
+3.  We are given $I_2 = 0.2I$. Substituting $I_1 = 0.5I$:
+    $$0.2I = 0.5I \cos^2\theta$$
+    $$\cos^2\theta = \frac{0.2}{0.5} = 0.4$$
+    $$\cos\theta = \sqrt{0.4} \approx 0.6325$$
+    $$\theta = \arccos(0.6325) \approx 50.77^\circ$$
+The second sheet was rotated approximately **$50.8^\circ$** away from the position of maximum transmittance.
+
+### Part (b)
+To minimize light transmittance through a sequence of polarizers, we look for the "crossed" condition. If the light arriving at the third sheet has a specific polarization axis determined by the second sheet, we must set the third sheet so its transmission axis is perpendicular to that of the second sheet to block all light.
+*   "Minimising light transmittance" occurs when the transmission axes of two consecutive polarizers are perpendicular to each other.
+*   Therefore, the third sheet must be placed at an angle of **$90^\circ$** relative to the second sheet.
+
+---
+
+### How to solve this type of problem:
+*   **Identify the initial state:** Always remember that unpolarised light passing through a single polarizer always results in exactly $50\%$ of the original intensity.
+*   **Apply Malus's Law:** For any subsequent polarizers, use the formula $I_{transmitted} = I_{incident} \cos^2\theta$.
+*   **Conceptualize Extinction:** Remember that two polarizers are "crossed" when their transmission axes are at $90^\circ$ to each other, resulting in zero light transmission (ignoring real-world absorption).
+
+###QUESTION_TYPE
+Calculation question

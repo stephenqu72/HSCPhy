@@ -1,0 +1,29 @@
+To solve this problem, we must understand Einstein’s photoelectric equation, which relates the maximum kinetic energy ($K_{max}$) of photoelectrons to the frequency of incident light ($f$):
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $h$ is Planck's constant.
+*   $f$ is the frequency of incident light.
+*   $\Phi$ is the **work function** of the metal (the minimum energy required to eject an electron).
+
+### Analysis of the Graph
+The equation $K_{max} = hf - \Phi$ is in the form of a linear equation, $y = mx + c$, where:
+*   The slope ($m$) is $h$.
+*   The $y$-intercept ($c$) is $-\Phi$.
+
+This means the work function $\Phi$ is equal to the negative of the $y$-intercept. Looking at the graph, the $y$-intercept represents the energy at a frequency of zero. The metal whose line intercepts the $y$-axis at the lowest point (the most negative value) has the **largest magnitude** for its work function, because $\Phi = -(\text{y-intercept})$.
+
+1.  **Potassium (red line):** Intercept is closest to zero (approximately $-2.3 \, \text{eV}$), so it has the **smallest** work function.
+2.  **Magnesium (green line):** Intercept is lower (approximately $-3.7 \, \text{eV}$).
+3.  **Zinc (blue line):** Intercept is even lower (approximately $-4.3 \, \text{eV}$).
+4.  **Platinum (black line):** Intercept is the lowest (approximately $-6.4 \, \text{eV}$), so it has the **largest** work function.
+
+### Conclusion
+To arrange the metals in **increasing** order of work function (from smallest $\Phi$ to largest $\Phi$), we look at the $y$-intercepts from the least negative to the most negative:
+*   Potassium ($<$) Magnesium ($<$) Zinc ($<$) Platinum.
+
+Comparing this result to the given options, the correct choice is **A**.
+
+###QUESTION_TYPE
+Multiple choice

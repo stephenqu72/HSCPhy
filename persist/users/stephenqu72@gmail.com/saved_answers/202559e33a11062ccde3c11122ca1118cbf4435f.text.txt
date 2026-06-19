@@ -1,0 +1,21 @@
+To determine the correct graph, we must look at the Einstein photoelectric equation, which relates the maximum kinetic energy ($E_k$) of the ejected electrons to the frequency of incident light ($f$):
+
+$$E_k = hf - \Phi$$
+
+Where:
+*   $h$ is Planck's constant (the slope of the line).
+*   $f$ is the frequency of the light.
+*   $\Phi$ is the work function of the metal.
+
+### Explanation:
+1.  **The Slope:** Since the slope of the graph is Planck's constant ($h$), and $h$ is a universal constant, the slope of the line for Metal Y must be **identical** to the slope of the line for Metal X. This eliminates options (C) and (D), where the gradients differ.
+2.  **The X-intercept:** The x-intercept occurs when $E_k = 0$, which defines the threshold frequency ($f_0$). Setting the equation to zero gives $hf_0 = \Phi$, or $f_0 = \Phi / h$.
+3.  **Comparing Metals:** The problem states that Metal Y has a **lower work function** ($\Phi_Y < \Phi_X$). Because the work function is directly proportional to the threshold frequency, Metal Y will have a lower threshold frequency than Metal X.
+4.  **Conclusion:** On a graph of $E$ vs. $f$, a lower threshold frequency means the line for Metal Y must be shifted to the **left** of Metal X.
+
+Graph (A) shows Metal Y shifted to the left of Metal X with the same gradient, which correctly represents a metal with a lower work function.
+
+**Correct Answer: (A)**
+
+###QUESTION_TYPE
+Multiple choice

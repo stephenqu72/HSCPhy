@@ -1,0 +1,32 @@
+To identify the unknown metal, we must use the photoelectric effect equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function.
+
+### Step-by-Step Solution:
+
+**1. Calculate the frequency ($f$) of the incident radiation:**
+Using $c = f\lambda$, where $c = 3.00 \times 10^8 \text{ m/s}$ and $\lambda = 167 \text{ nm} = 167 \times 10^{-9} \text{ m}$:
+$$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8}{167 \times 10^{-9}} \approx 1.796 \times 10^{15} \text{ Hz}$$
+
+**2. Convert the kinetic energy ($E_k$) from Joules to electron-volts (eV):**
+Given $E_k = 4.0 \times 10^{-19} \text{ J}$ and knowing $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$:
+$$E_k (\text{eV}) = \frac{4.0 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 2.5 \text{ eV}$$
+
+**3. Use the photoelectric equation to find the work function ($\Phi$):**
+Rearranging the formula: $\Phi = hf - E_k$.
+First, calculate photon energy $E_{photon} = hf$. In the graph, the slopes are $h$. We can calculate $h$ (in eV$\cdot$s) using a point from the Ca line (e.g., at $x = 1.4 \times 10^{15}, y = 3 \text{ eV}$ and x-intercept $f_0 = 0.7 \times 10^{15}$):
+$$h = \frac{\Delta E_k}{\Delta f} = \frac{3 - 0}{1.4 \times 10^{15} - 0.7 \times 10^{15}} \approx 4.28 \times 10^{-15} \text{ eV}\cdot\text{s}$$
+Now calculate $hf$:
+$$hf = (4.28 \times 10^{-15} \text{ eV}\cdot\text{s}) \times (1.796 \times 10^{15} \text{ Hz}) \approx 7.69 \text{ eV}$$
+Now find $\Phi$:
+$$\Phi = 7.69 \text{ eV} - 2.5 \text{ eV} = 5.19 \text{ eV}$$
+
+**4. Compare with the graph:**
+The work function is the x-intercept of the graph ($f_0$ where $E_k = 0$). Since $\Phi = hf_0$, then $f_0 = \Phi / h$:
+$$f_0 \approx \frac{5.19 \text{ eV}}{4.28 \times 10^{-15} \text{ eV}\cdot\text{s}} \approx 1.21 \times 10^{15} \text{ Hz}$$
+Looking at the graph, the line with an x-intercept at approximately $1.2 \times 10^{15} \text{ Hz}$ is the line labeled **Fe**.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+To solve this problem, we apply Einstein’s photoelectric equation, which states that the energy of an incoming photon is equal to the sum of the work function of the metal and the maximum kinetic energy of the emitted photoelectrons:
+
+$$E_{photon} = \Phi + K_{max}$$
+
+Where:
+*   $\Phi = 5.1 \text{ eV}$ (Work function)
+*   $K_{max} = 5 \times 10^{-19} \text{ J}$ (Max kinetic energy)
+*   $E_{photon} = hf$ ($h$ is Planck's constant $\approx 6.626 \times 10^{-34} \text{ J s}$)
+
+### Step 1: Convert units to Joules
+The work function is given in electron volts (eV), but the kinetic energy is in Joules (J). We must convert the work function to Joules using the conversion factor $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$.
+
+$$\Phi = 5.1 \times 1.602 \times 10^{-19} \text{ J} \approx 8.17 \times 10^{-19} \text{ J}$$
+
+### Step 2: Calculate total photon energy
+$$E_{total} = (8.17 \times 10^{-19} \text{ J}) + (5 \times 10^{-19} \text{ J}) = 13.17 \times 10^{-19} \text{ J}$$
+
+### Step 3: Solve for frequency ($f$)
+Using $E = hf$, we rearrange to $f = \frac{E}{h}$:
+
+$$f = \frac{13.17 \times 10^{-19} \text{ J}}{6.626 \times 10^{-34} \text{ J s}}$$
+$$f \approx 1.987 \times 10^{15} \text{ Hz}$$
+
+Rounding this result, we get $2.0 \times 10^{15} \text{ Hz}$.
+
+Comparing this to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

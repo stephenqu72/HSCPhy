@@ -1,0 +1,17 @@
+To determine the correct graph, we must apply the principles of black-body radiation as explained by Max Planck.
+
+### Analysis
+Planck’s hypothesis successfully resolved the "Ultraviolet Catastrophe" by proposing that energy is radiated in discrete "quanta," where $E = nhf$. This leads to two critical behaviors for black-body radiation curves plotted with **Intensity vs. Wavelength**:
+
+1.  **Total Intensity:** According to the Stefan-Boltzmann Law, the total power radiated (the area under the curve) is proportional to the fourth power of temperature ($P \propto T^4$). Therefore, as the temperature increases, the entire curve must shift **upward** because the object radiates more energy at every wavelength.
+2.  **Peak Wavelength:** According to Wien’s Displacement Law, $\lambda_{max} T = \text{constant}$. This means that as the temperature $T$ increases, the peak wavelength $\lambda_{max}$ must shift toward the **left** (shorter wavelengths).
+
+### Evaluating the Options
+*   **Graphs C and D** plot Intensity vs. **Frequency**. While Planck's work relates to frequency, standard black-body radiation curves are traditionally plotted against **Wavelength** to show the peak shift. However, if we examine the trend, higher temperatures should have higher peak intensities.
+*   **Graph A:** Shows lower intensity for higher temperatures ($1650\text{ K}$ is the lowest peak). This is incorrect.
+*   **Graph B:** Shows that as temperature increases ($1250\text{ K} \rightarrow 1450\text{ K} \rightarrow 1650\text{ K}$), the peak intensity increases and the peak wavelength shifts to the left. This perfectly matches the physical laws derived from Planck's hypothesis.
+
+**Conclusion:** Graph B is the only one where an increase in temperature leads to both an increase in total radiated intensity and a shift of the peak wavelength toward the shorter wavelength (left) region of the graph.
+
+###QUESTION_TYPE
+Multiple choice

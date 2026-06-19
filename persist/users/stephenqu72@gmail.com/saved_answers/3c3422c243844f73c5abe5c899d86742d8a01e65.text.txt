@@ -1,0 +1,38 @@
+As an HSC Physics teacher, I will guide you through these Special Relativity questions.
+
+### (a) Outline Einstein's thought experiment on time dilation
+**Answer:** The thought experiment is the **Light Clock**. Imagine a clock consisting of two parallel mirrors with a light pulse bouncing between them.
+*   **Stationary observer:** Sees the light pulse travel vertically up and down.
+*   **Moving observer:** Sees the light pulse travel in a diagonal, longer path (a zigzag) because the mirrors are moving.
+*   **Conclusion:** Since the speed of light $c$ is constant for all observers, the light must take longer to complete the "tick" for the moving observer. Thus, time must slow down in the moving frame (time dilation).
+
+**Diagram description:** Draw two parallel horizontal lines (mirrors). Show a light beam moving vertically for the stationary case. Then draw the same mirrors moving to the right, with the light beam following a path shaped like a $\Lambda$ (lambda) triangle.
+
+### (b) Two pieces of experimental evidence
+1.  **Muon decay:** Muons are unstable particles created in the upper atmosphere. Despite their short half-life, they are detected at the Earth's surface in large numbers. This is because, at high speeds, their internal "clocks" slow down, allowing them to reach the surface before decaying.
+2.  **Hafele-Keating experiment:** Atomic clocks were placed on commercial airliners and flown around the world in opposite directions. When compared to stationary clocks on the ground, the elapsed times differed precisely as predicted by Einstein's equations.
+
+### (c) Length contraction calculation
+**Formula:** $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$
+*   $L_0 = 300\text{ m}$
+*   $v = 0.8c$
+*   $L = 300 \sqrt{1 - (0.8)^2} = 300 \sqrt{1 - 0.64} = 300 \sqrt{0.36}$
+*   $L = 300 \times 0.6 = 180\text{ m}$
+**Answer:** The length of the train is $180\text{ m}$.
+
+### (d) Mass-energy equivalence calculation
+**Explanation:** To calculate energy, use $E = mc^2$. When an electron and a positron annihilate, their total mass is converted into energy.
+*   Mass of an electron ($m_e$) $\approx 9.109 \times 10^{-31}\text{ kg}$
+*   Total mass ($m$) = $2 \times m_e \approx 1.822 \times 10^{-30}\text{ kg}$
+*   $E = (1.822 \times 10^{-30}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2$
+*   $E \approx 1.64 \times 10^{-13}\text{ J}$
+**Answer:** The energy created is approximately $1.64 \times 10^{-13}\text{ Joules}$.
+
+---
+
+### How to solve these:
+1.  **Theory/Explanation (a & b):** Focus on the core postulate—the constancy of the speed of light. Always relate your answer back to how this forces time or space to change.
+2.  **Calculations (c & d):** Always write down your knowns, state the formula clearly, show the substitution, and include appropriate units (meters for length, Joules for energy).
+
+###QUESTION_TYPE
+Calculation question

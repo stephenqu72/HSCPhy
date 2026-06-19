@@ -1,0 +1,30 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this optics question. Polarization is a classic topic that tests your understanding of Malus's Law and the physical properties of transverse waves.
+
+### Part (a) Answer
+Aircraft pilots often avoid polarized sunglasses because the instrument displays in the cockpit are frequently designed with their own polarized filters. If the polarization axis of the sunglasses is perpendicular to the polarization axis of the light emitted by the displays, the light will be blocked (extinguished). This makes the displays appear dark or completely invisible to the pilot, which is a significant safety hazard.
+
+**Explanation:**
+To solve this, you need to apply the principle of **Malus's Law**. When light passes through two polarizers, the intensity of the light is dependent on the angle $\theta$ between their transmission axes. If the pilot's glasses and the display are "crossed" (an angle of $90^\circ$), the intensity transmitted is $I = I_0 \cos^2(90^\circ) = 0$.
+
+---
+
+### Part (b) Answer
+To calculate the required orientation, we use Malus's Law. 
+Assuming the first layer of glass acts as a standard polarizer for unpolarized light, it reduces the intensity by half: $I_1 = 0.5 I_0$.
+We want the final intensity $I_2$ to be $0.3 I_0$. 
+
+Using the formula $I_2 = I_1 \cos^2(\theta)$:
+$$0.3 I_0 = 0.5 I_0 \cos^2(\theta)$$
+$$0.6 = \cos^2(\theta)$$
+$$\cos(\theta) = \sqrt{0.6} \approx 0.7746$$
+$$\theta = \arccos(0.7746) \approx 39.2^\circ$$
+
+**Explanation:**
+1.  **Step 1:** Recognize that the first polarizer takes unpolarized light and reduces its intensity by 50%.
+2.  **Step 2:** Set up the equation using Malus's Law, where $\theta$ is the angle between the transmission axes of the two layers. 
+3.  **Step 3:** Solve for $\theta$. The two layers should be oriented at an angle of approximately **$39.2^\circ$** to each other to allow 30% of the original light to pass through.
+
+---
+
+###QUESTION_TYPE
+Calculation question

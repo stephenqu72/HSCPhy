@@ -1,0 +1,35 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down these Special Relativity questions.
+
+### Part (a) Solution
+
+**Step-by-step Explanation:**
+
+1.  **Identify the variables:** 
+    *   The pilot is in the same reference frame as the spaceship, so the time interval measured by the pilot is the proper time, $t_0 = 2.00\text{ s}$.
+    *   The observer at the spaceport measures the dilated time interval, $t = 4.39\text{ s}$.
+2.  **Use the Time Dilation formula:**
+    $$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+3.  **Rearrange to solve for $v$:**
+    $$\frac{t_0}{t} = \sqrt{1 - \frac{v^2}{c^2}}$$
+    $$\left(\frac{t_0}{t}\right)^2 = 1 - \frac{v^2}{c^2}$$
+    $$\frac{v^2}{c^2} = 1 - \left(\frac{t_0}{t}\right)^2$$
+    $$v = c \sqrt{1 - \left(\frac{t_0}{t}\right)^2}$$
+4.  **Substitute the values:**
+    $$v = c \sqrt{1 - \left(\frac{2.00}{4.39}\right)^2}$$
+    $$v \approx c \sqrt{1 - 0.2075}$$
+    $$v \approx c \sqrt{0.7925} \approx 0.890c$$
+5.  **Final Answer:** The speed of the ship is **$89.0\%$** of the speed of light.
+
+---
+
+### Part (b) Solution
+
+**Explanation:**
+To outline an experimental validation of time dilation, you should mention the **Hafele-Keating experiment** or **muon decay experiments**.
+
+*   **Example Answer:** A classic validation is the experiment involving **muons**. Muons are unstable subatomic particles created in the upper atmosphere. Due to their high speed (close to the speed of light), their lifespan is dilated according to an observer on Earth, allowing them to reach the surface before decaying. Without time dilation, they would decay long before reaching the ground. Alternatively, the **Hafele-Keating experiment** involved placing highly accurate atomic clocks on commercial airplanes that flew around the world. Upon returning, the clocks on the moving planes showed a measurable time difference compared to stationary clocks on the ground, consistent with the predictions of special (and general) relativity.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,27 @@
+To solve this question, we must apply **Wien’s Displacement Law**, which describes the relationship between the surface temperature ($T$) of a black body and the wavelength at which it emits the maximum intensity of radiation ($\lambda_{max}$).
+
+### Explanation
+Wien’s Displacement Law is mathematically expressed as:
+$$\lambda_{max} T = b$$
+Where:
+*   $\lambda_{max}$ is the peak wavelength.
+*   $T$ is the absolute temperature (in Kelvin).
+*   $b$ is Wien’s displacement constant ($2.898 \times 10^{-3} \text{ m}\cdot\text{K}$).
+
+If we rearrange this equation to solve for $\lambda$ in terms of $T$, we get:
+$$\lambda = \frac{b}{T}$$
+
+This equation shows an **inverse relationship** between the two variables. In graphical terms, this represents a **rectangular hyperbola**. As the temperature $T$ increases, the wavelength $\lambda$ must decrease proportionally. 
+
+*   **Graph A** shows this inverse relationship (a curve where $\lambda$ approaches zero as $T$ becomes very large, and $\lambda$ approaches infinity as $T$ approaches zero).
+*   **Graph B** suggests a direct power relationship (increasing).
+*   **Graph C** shows a linear inverse relationship, which is incorrect as the relationship is $1/T$, not a simple linear subtraction.
+*   **Graph D** shows a direct linear relationship, which is incorrect.
+
+Therefore, Graph **A** is the correct representation of Wien's Displacement Law.
+
+### Answer
+The correct graph is **A**.
+
+###QUESTION_TYPE
+Multiple choice

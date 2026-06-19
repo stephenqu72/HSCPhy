@@ -1,0 +1,32 @@
+To solve this problem, we apply the principles of **Special Relativity**, specifically the phenomenon of **time dilation**.
+
+### 1. Identify the given values
+*   The velocity of the particle is $v = 0.9999c$.
+*   The lifetime observed by the scientist (in the laboratory frame) is the dilated time, $\Delta t = 1.0 \times 10^{-6}\text{ s}$.
+*   We need to find the proper time, $\Delta t_0$, which is the lifetime of the particle in its own rest frame (if it were stationary).
+
+### 2. The Time Dilation Formula
+The relationship between dilated time and proper time is given by:
+$$\Delta t = \gamma \Delta t_0$$
+Where $\gamma$ (the Lorentz factor) is defined as:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+### 3. Step-by-Step Calculation
+First, calculate the Lorentz factor $\gamma$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.9999)^2}}$$
+$$1 - (0.9999)^2 = 1 - 0.99980001 = 0.00019999$$
+$$\sqrt{0.00019999} \approx 0.01414178$$
+$$\gamma = \frac{1}{0.01414178} \approx 70.71$$
+
+Now, rearrange the time dilation formula to solve for the proper time $\Delta t_0$:
+$$\Delta t_0 = \frac{\Delta t}{\gamma}$$
+$$\Delta t_0 = \frac{1.0 \times 10^{-6}}{70.71}$$
+$$\Delta t_0 \approx 1.414 \times 10^{-8}\text{ s}$$
+
+Comparing this result to the given options, it aligns with option **B**.
+
+### Final Answer:
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+To answer this question, we must look at the fundamental principles of Newtonian (Galilean) mechanics and Einstein's Special Relativity.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To solve this, we evaluate each option based on the postulates of both theories:
+
+*   **A: Velocities of objects can be infinite.** In Special Relativity, the speed of light $c$ is the universal speed limit for matter and information. Therefore, this is false for Special Relativity.
+*   **B: The mechanical laws of physics are the same for all inertial observers.** This is the **Principle of Relativity**. Galilean relativity states that mechanical laws are invariant in all inertial frames. Einstein extended this in his First Postulate of Special Relativity, stating that the laws of physics (both mechanical and electromagnetic) are the same in all inertial frames. Thus, this statement holds true for both.
+*   **C: The mechanical laws of physics change depending on how fast the object is travelling.** This contradicts the Principle of Relativity, which is a core tenet of both frameworks. The laws of physics are invariant for inertial observers.
+*   **D: The relative velocity between two objects is equal to the difference between their two velocities.** This describes Galilean velocity addition ($v_{rel} = v_1 - v_2$). In Special Relativity, we must use the velocity addition formula:
+    $$v = \frac{v_1 + v_2}{1 + \frac{v_1 v_2}{c^2}}$$
+    Because Special Relativity introduces length contraction and time dilation, the simple Galilean subtraction is incorrect at relativistic speeds.
+
+Since the principle of invariance of physical laws is the foundation of both, **B** is the only correct choice.
+
+###QUESTION_TYPE
+Multiple choice

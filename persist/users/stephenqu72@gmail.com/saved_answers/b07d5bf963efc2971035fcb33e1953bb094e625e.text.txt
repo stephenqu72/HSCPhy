@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we must use Einstein’s photoelectric equation, which relates the maximum kinetic energy ($E_{k\text{max}}$) of photoelectrons to the frequency ($f$) of incident light:
+
+$$E_{k\text{max}} = hf - \Phi$$
+
+Where:
+- $h$ is Planck's constant.
+- $f$ is the frequency of incident light.
+- $\Phi$ is the work function of the metal (the minimum energy required to remove an electron).
+
+This equation is in the form of a linear equation $y = mx + c$, where:
+- The slope ($m$) is equal to Planck's constant ($h$).
+- The y-intercept ($c$) is equal to negative work function ($-\Phi$).
+- The x-intercept occurs when $E_{k\text{max}} = 0$, which is $f_0 = \frac{\Phi}{h}$ (where $f_0$ is the threshold frequency).
+
+**Analysis of the changes:**
+1. **Slope:** Since the experiment uses the same fundamental physics (Planck's constant remains unchanged), the slope of the line must remain the same. This rules out options C and D, where the slopes change.
+2. **Work Function ($\Phi$):** The problem states the new metal has a **larger** work function. 
+3. **Threshold Frequency ($f_0$):** Since $f_0 = \frac{\Phi}{h}$, an increase in $\Phi$ results in a higher threshold frequency. This means the x-intercept of the graph must shift to the right.
+
+Looking at the options, **A** shows a dashed line that is parallel to the original solid line (same slope) but shifted to the right (larger x-intercept/higher threshold frequency). This perfectly represents a metal with a larger work function.
+
+###QUESTION_TYPE
+Multiple choice

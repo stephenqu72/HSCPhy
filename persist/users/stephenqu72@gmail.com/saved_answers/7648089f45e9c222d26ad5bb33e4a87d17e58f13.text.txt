@@ -1,0 +1,37 @@
+To solve this problem, we use Einstein's photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency of light, and $\Phi$ is the work function. Note that stopping voltage $V_s$ relates to $E_k$ as $E_k = e V_s$ (the magnitude of the stopping voltage in Volts equals the kinetic energy in eV).
+
+### (a) Graphing
+First, convert the stopping voltage values to absolute values representing Kinetic Energy ($E_k$ in eV):
+- $(6.67, 0.33)$
+- $(7.50, 0.72)$
+- $(8.57, 1.18)$
+- $(10.0, 1.79)$
+- $(12.0, 2.62)$
+
+Plot these points on the provided grid. Draw a "line of best fit" through these points. You will notice the line intercepts the x-axis at the threshold frequency and has a positive slope.
+
+### (b) Threshold Frequency
+The threshold frequency ($f_0$) is the x-intercept of your graph (where $E_k = 0$).
+By extending the line of best fit, it intersects the x-axis at approximately:
+$$f_0 \approx 5.5 \times 10^{14} \text{ Hz}$$
+*(Note: Small variations in your plotted line may yield slightly different values, e.g., $5.4 - 5.6$.)*
+
+### (c) Calculating Planck's Constant
+Planck's constant $h$ is the gradient of the graph: $h = \frac{\Delta E_k}{\Delta f}$.
+Using two points on your line (e.g., $(6.67 \times 10^{14}, 0.33)$ and $(12.0 \times 10^{14}, 2.62)$):
+$$\text{Gradient} = \frac{(2.62 - 0.33) \text{ eV}}{(12.0 - 6.67) \times 10^{14} \text{ Hz}} = \frac{2.29 \text{ eV}}{5.33 \times 10^{14} \text{ Hz}} \approx 4.3 \times 10^{-15} \text{ eV}\cdot\text{s}$$
+To convert to standard SI units (J·s), multiply by $1.602 \times 10^{-19} \text{ J/eV}$:
+$$h \approx (4.3 \times 10^{-15}) \times (1.602 \times 10^{-19}) \approx 6.89 \times 10^{-34} \text{ J}\cdot\text{s}$$
+*(Expected value is $\approx 6.63 \times 10^{-34} \text{ J}\cdot\text{s}$. Results within the range of $6.5 - 7.0 \times 10^{-34}$ are typically accepted in HSC marking depending on the line of best fit drawn).*
+
+### (d) Conservation of Energy
+The photoelectric effect follows the law of conservation of energy: $hf = \Phi + E_k$.
+- The incident photon provides a discrete amount of energy ($hf$).
+- A portion of this energy is used to overcome the metal's work function ($\Phi$), which is the minimum energy required to eject an electron.
+- Any remaining energy is converted into the maximum kinetic energy ($E_k$) of the photoelectron.
+- Since $\Phi$ is constant for a specific metal, the equation $E_k = hf - \Phi$ takes the form of a linear equation $y = mx + c$, explaining the straight-line graph.
+
+###QUESTION_TYPE
+Data analysis questions

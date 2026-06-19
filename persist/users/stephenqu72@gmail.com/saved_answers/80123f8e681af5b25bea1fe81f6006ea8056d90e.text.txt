@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+This question tests your understanding of the **Photoelectric Effect** and the Einstein photoelectric equation: $E_k = hf - \Phi$.
+
+---
+
+#### (a) Define work function and deduce its value from the graph. (2 marks)
+
+**Definition:** The work function ($\Phi$) is the minimum amount of energy required to remove an electron from the surface of a metal.
+
+**Deduction:** From the graph, the $y$-intercept represents $-\Phi$. The graph crosses the $y$-axis at $-5 \times 10^{-19} \text{ J}$.
+Therefore, $-\Phi = -5 \times 10^{-19} \text{ J}$, which means:
+$$\Phi = 5.0 \times 10^{-19} \text{ J}$$
+
+---
+
+#### (b) What is the kinetic energy of the fastest-moving electrons? (3 marks)
+
+To find the kinetic energy ($E_k$), use the equation $E_k = hf - \Phi$.
+
+1.  **Calculate the frequency ($f$):** Given $\lambda = 180 \text{ nm} = 180 \times 10^{-9} \text{ m}$. Using $c = f\lambda$ (where $c = 3.00 \times 10^8 \text{ m/s}$):
+    $$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8}{180 \times 10^{-9}} \approx 1.67 \times 10^{15} \text{ Hz}$$
+2.  **Calculate $E_k$:** Using Planck's constant $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$:
+    $$E_k = (6.626 \times 10^{-34} \times 1.67 \times 10^{15}) - 5.0 \times 10^{-19}$$
+    $$E_k \approx (1.107 \times 10^{-18}) - (0.50 \times 10^{-18}) = 6.07 \times 10^{-19} \text{ J}$$
+
+---
+
+#### (c) Demonstrate the cut-off frequency of the nickel plate mathematically AND through interpretation of the graph. (3 marks)
+
+**Interpretation of the graph:** The cut-off frequency ($f_0$) is the $x$-intercept of the graph, where the kinetic energy is zero. Looking at the graph, the line crosses the horizontal axis exactly at $1.2 \times 10^{15} \text{ Hz}$.
+
+**Mathematical demonstration:** The cut-off frequency occurs when the photon energy equals the work function ($hf_0 = \Phi$).
+$$f_0 = \frac{\Phi}{h} = \frac{5.0 \times 10^{-19} \text{ J}}{6.626 \times 10^{-34} \text{ J}\cdot\text{s}} \approx 7.55 \times 10^{14} \text{ Hz}$$
+*Note: Looking at the provided graph, the x-intercept is clearly at $1.2 \times 10^{15} \text{ Hz}$. This indicates a slight inconsistency between the printed graph and the calculation based on the $y$-intercept value given by the graph's visual starting point. In an exam, always prioritize the data presented on the axes provided.*
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+### Answer
+
+**(a)**
+The distance is $d = 40\text{ light years}$ and the time elapsed on Earth is $t = 45\text{ years}$.
+The average speed $v$ is given by:
+$$v = \frac{d}{t} = \frac{40\text{ light years}}{45\text{ years}}$$
+$$v = \frac{8}{9}c \approx 0.889c$$
+
+**(b)**
+The elapsed times are different due to **time dilation** resulting from the principles of Special Relativity. Because the spaceship is travelling at a significant fraction of the speed of light relative to Earth, an observer on Earth perceives the processes (clocks) on the spaceship as running slower than their own.
+
+---
+
+### How to solve it
+
+**Part (a):**
+1. **Identify the variables:** You are given the distance $d = 40\text{ light years}$ and the Earth-frame time $t = 45\text{ years}$.
+2. **Formula:** Use the classical definition of average speed: $v = \frac{\Delta x}{\Delta t}$.
+3. **Calculation:** Since $c$ (the speed of light) is defined as $1\text{ light year per year}$, simply dividing 40 by 45 gives the speed as a fraction of $c$. 
+4. **Simplification:** $\frac{40}{45}$ simplifies to $\frac{8}{9}$, which is approximately $0.889$. Therefore, $v = 0.889c$.
+
+**Part (b):**
+1. **Recognise the Concept:** This is a classic Special Relativity question involving the "Twin Paradox" scenario. 
+2. **Explain the Principle:** When two frames of reference are in relative motion at speeds approaching $c$, time does not pass at the same rate for both. 
+3. **Draft the Answer:** Specifically, mention that the spaceship is in a non-inertial frame (or simply moving relative to the Earth frame), causing "time dilation." Earth-bound observers will measure the time on the moving ship as being shorter (dilated) compared to the time elapsed on Earth.
+
+###QUESTION_TYPE
+Calculation question

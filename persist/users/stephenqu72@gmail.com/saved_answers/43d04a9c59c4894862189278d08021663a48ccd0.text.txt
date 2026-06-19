@@ -1,0 +1,33 @@
+### Answer
+
+**(a) Describe what Einstein meant by an "inertial" frame of reference.**
+An inertial frame of reference is a frame in which Newton’s First Law of Motion holds true. That is, an object remains at rest or continues to move at a constant velocity unless acted upon by a net external force. In such a frame, there is no acceleration, and the laws of physics are observed to operate consistently without the influence of "fictitious" forces (like those felt when an object is in a rotating or accelerating frame).
+
+**(b) Using an example, describe how observations of the same event made from two different inertial frames of reference can be different.**
+Consider a passenger standing in the aisle of a train moving at a constant velocity $v$ relative to the ground. 
+*   **The Event:** The passenger drops a ball.
+*   **Observer 1 (Inside the train):** Sees the ball fall in a straight vertical line to the floor.
+*   **Observer 2 (Stationary on the platform outside):** Sees the ball follow a parabolic path, because while the ball falls, it also maintains the horizontal velocity $v$ of the train.
+
+**Diagram:**
+```text
+      Observer 2 (Platform)       Observer 1 (Inside)
+           |                           |
+        [  *  ] <--- Ball trajectory   |  (Ball drops
+         \    \    is parabolic        |   straight down)
+          \    \                       |       |
+           \    \                      |       |
+            \    \                     |       V
+    -----------------------        -----------------------
+    (Train moving at v)            (Train moving at v)
+```
+
+---
+
+### How to solve this
+1.  **Understand the Definition:** For part (a), you must relate the concept back to Newton’s First Law. A common trap is simply saying "it isn't moving"; clarify that it is either at rest *or* moving at a **constant velocity**. Mentioning the absence of acceleration is key for full marks.
+2.  **Relativity Basics:** For part (b), select a classic example (like a ball dropped on a train or a light pulse). The goal is to highlight that **position and velocity are relative**.
+3.  **Diagramming:** In HSC Physics, a diagram is essential for "describe" questions involving relativity. Ensure your diagram clearly shows the two frames (one moving, one stationary) and how the path of the object differs for each observer. Use labels to clearly identify the observers and the event.
+
+###QUESTION_TYPE
+Short answer

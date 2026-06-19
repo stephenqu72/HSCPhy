@@ -1,0 +1,28 @@
+To determine the correct answer, we must apply **Wien's Displacement Law**, a fundamental principle in thermal physics.
+
+### Explanation
+
+Wien's Displacement Law states that the wavelength at which the radiation intensity of a black body peaks ($\lambda_{peak}$) is inversely proportional to its absolute temperature ($T$):
+
+$$\lambda_{peak} = \frac{b}{T}$$
+
+where $b$ is Wien's displacement constant.
+
+1. **Initial state:** At temperature $T_1$, the peak wavelength is $l_1$.
+   $$l_1 = \frac{b}{T_1}$$
+
+2. **Final state:** The temperature is increased to $T_2 = 2T_1$. Let the new peak wavelength be $l_2$.
+   $$l_2 = \frac{b}{T_2}$$
+
+3. **Substitution:** Substitute $T_2 = 2T_1$ into the equation for $l_2$:
+   $$l_2 = \frac{b}{2T_1}$$
+
+4. **Comparison:** Since we know that $l_1 = \frac{b}{T_1}$, we can substitute $l_1$ into our expression for $l_2$:
+   $$l_2 = \frac{l_1}{2}$$
+
+This shows that when the temperature of a body is doubled, the peak wavelength of the radiation it emits is halved. This aligns with the physical observation that hotter objects glow with shorter, "bluer" wavelengths.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

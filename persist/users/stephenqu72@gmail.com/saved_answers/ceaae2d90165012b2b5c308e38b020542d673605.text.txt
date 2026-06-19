@@ -1,0 +1,25 @@
+To solve this Physics problem, we apply the photoelectric effect equation, which relates the maximum kinetic energy ($E_k$) of emitted electrons to the frequency ($f$) of incident light:
+$$E_k = hf - \Phi$$
+where $h$ is Planck’s constant and $\Phi$ is the work function of the metal.
+
+### Part (a): Plotting and Extrapolation
+1. **Plot the points:** Place the frequency ($x$-axis, $\times 10^{14} \text{ Hz}$) and Max Kinetic Energy ($y$-axis, $\times 10^{-19} \text{ J}$).
+2. **Trendline:** You will observe that for frequencies up to $4.00 \times 10^{14} \text{ Hz}$, $E_k$ is zero. From $6.00 \times 10^{14} \text{ Hz}$ onwards, the data follows a linear trend. Draw a straight line through these points and **extrapolate** it backwards until it intersects the negative $y$-axis and crosses the $x$-axis.
+
+### Part (b): Equation and Analysis
+To find the equation $y = mx + c$:
+1. **Gradient ($m$):** Use two points from the linear section, e.g., $(6.0, 0.31)$ and $(16.0, 6.93)$ (scaled by their respective powers).
+   $$m = \frac{(6.93 - 0.31) \times 10^{-19}}{(16.0 - 6.0) \times 10^{14}} = \frac{6.62 \times 10^{-19}}{10.0 \times 10^{14}} = 6.62 \times 10^{-34} \text{ J}\cdot\text{s}$$
+   This gradient represents **Planck’s constant ($h$)**.
+2. **$y$-intercept ($c$):** Using $y = mx + c$ with point $(10.0, 2.96)$:
+   $$2.96 \times 10^{-19} = (6.62 \times 10^{-34})(10.0 \times 10^{14}) + c$$
+   $$c \approx -3.66 \times 10^{-19} \text{ J}$$
+   The intercept represents the **negative work function ($-\Phi$)**.
+3. **Equation:** $E_k = (6.62 \times 10^{-34})f - 3.66 \times 10^{-19}$.
+4. **Features:** 
+   - The $x$-intercept represents the **threshold frequency ($f_0$)**, below which no emission occurs.
+   - The negative $y$-intercept represents the energy required to remove an electron from the surface (work function).
+   - The linearity confirms the particle nature of light (Einstein’s model).
+
+###QUESTION_TYPE
+Data analysis questions

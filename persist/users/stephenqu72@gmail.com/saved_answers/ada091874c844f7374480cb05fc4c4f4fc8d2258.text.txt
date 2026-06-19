@@ -1,0 +1,26 @@
+To answer this 9-mark HSC question effectively, you must address three distinct components: the physics of nuclear fusion, the calculation of the Sun’s total power output, and the calculation of its surface temperature using Wien’s Displacement Law or Stefan-Boltzmann Law.
+
+### 1. Energy Production
+The Sun produces energy primarily through the **proton-proton chain** (a form of nuclear fusion) in its core. Under extreme temperature and pressure, four hydrogen nuclei (protons) fuse to form one helium-4 nucleus. Because the mass of the resulting helium nucleus is slightly less than the sum of the masses of the four protons, this "mass defect" is converted into energy according to Einstein's mass-energy equivalence formula, $E = \Delta mc^2$. This energy migrates outward as radiation and convection to the surface.
+
+### 2. Quantitative Analysis: Power Output ($L$)
+The intensity ($I$) of solar radiation at Earth's distance ($r$) is the power per unit area. Since the Sun radiates energy spherically, the total power ($L$) is the intensity multiplied by the surface area of a sphere with radius $r$:
+$$L = I \times 4\pi r^2$$
+Given $I = 1360 \text{ W m}^{-2}$ and $r = 1.5 \times 10^{11} \text{ m}$:
+$$L = 1360 \times 4 \times \pi \times (1.5 \times 10^{11})^2$$
+$$L \approx 3.84 \times 10^{26} \text{ W}$$
+
+### 3. Quantitative Analysis: Surface Temperature ($T$)
+We can estimate the surface temperature using the peak wavelength ($\lambda_{max}$) from the provided graph and **Wien’s Displacement Law**:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$$
+Looking at the "Radiation curve for the sun," the peak intensity occurs at approximately $500 \text{ nm}$ ($5.0 \times 10^{-7} \text{ m}$):
+$$T = \frac{2.898 \times 10^{-3}}{5.0 \times 10^{-7}} \approx 5800 \text{ K}$$
+
+### Summary Checklist for Full Marks:
+*   **Physics:** Mention nuclear fusion (hydrogen to helium) and mass defect.
+*   **Power:** Show the calculation using the Inverse Square Law geometry.
+*   **Temperature:** Use the graph to identify $\lambda_{max}$ and apply Wien’s Law.
+
+---
+###QUESTION_TYPE
+Calculation question

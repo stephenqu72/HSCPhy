@@ -1,0 +1,21 @@
+To correctly identify the statement for Malus' Law, we must recall the governing equation:
+
+$$I = I_0 \cos^2(\theta)$$
+
+Where:
+*   $I$ is the intensity of the light transmitted through the analyser.
+*   $I_0$ is the intensity of the **polarised light** entering the analyser.
+*   $\theta$ is the angle between the transmission axes of the polariser and the analyser.
+
+### Explanation
+1.  **Understand the Physical Context:** Malus' Law describes the change in intensity of light that has *already been polarised* when it passes through a second polarising filter (the analyser). It does not apply to non-polarised light.
+2.  **Analyze the Variables:** The formula $I = I_0 \cos^2(\theta)$ shows a direct mathematical relationship where the transmitted intensity $I$ is directly proportional to $\cos^2(\theta)$.
+3.  **Evaluate the Options:**
+    *   (a) states the intensity of **polarised light** is directly proportional to the cosine squared of the angle. This matches the definition and the formula.
+    *   (b) suggests an inverse relationship, which is mathematically incorrect for this law.
+    *   (c) and (d) incorrectly suggest the law applies to non-polarised light. When non-polarised light passes through a polariser, it is reduced by half regardless of the angle, meaning it does not follow the $\cos^2(\theta)$ relationship.
+
+Therefore, the correct statement is **(a)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,38 @@
+To determine the correct graph, we apply **Malus's Law**, which states that the intensity of polarized light transmitted through a polarizer is given by $I = I_{max} \cos^2(\theta)$, where $\theta$ is the angle between the light's polarization direction and the polarizer's axis.
+
+### Step-by-Step Explanation:
+
+1.  **System Setup:**
+    *   The first polarizer (Polarizer 1) produces light with intensity $I_0$ at $\theta = 0^\circ$.
+    *   The middle polarizer (Polarizer 2) rotates with angular velocity $\omega$. Its angle at time $t$ is $\theta(t) = \omega t$.
+    *   The third polarizer (Polarizer 3) is fixed at $\theta = 90^\circ$ relative to the first.
+
+2.  **Passing through Polarizer 2:**
+    *   The light enters Polarizer 2 with intensity $I_0$ and polarization angle $0^\circ$.
+    *   The intensity after Polarizer 2 is $I_2 = I_0 \cos^2(\omega t)$.
+    *   The polarization direction of this light is now at an angle $\omega t$ relative to the original axis.
+
+3.  **Passing through Polarizer 3:**
+    *   The angle between the light (now at $\omega t$) and the axis of Polarizer 3 (at $90^\circ$) is $\Delta\theta = 90^\circ - \omega t$.
+    *   Applying Malus's Law again:
+        $$I_{final} = I_2 \cos^2(90^\circ - \omega t)$$
+    *   Using the trigonometric identity $\cos(90^\circ - \theta) = \sin(\theta)$, we get:
+        $$I_{final} = (I_0 \cos^2(\omega t)) \sin^2(\omega t)$$
+
+4.  **Simplification:**
+    *   Using the double-angle identity $\sin(2\theta) = 2 \sin\theta \cos\theta$, we know that $\sin\theta \cos\theta = \frac{1}{2} \sin(2\theta)$.
+    *   Therefore, $(\sin\theta \cos\theta)^2 = \frac{1}{4} \sin^2(2\theta)$.
+    *   The intensity equation becomes:
+        $$I_{final} = \frac{I_0}{4} \sin^2(2\omega t)$$
+
+5.  **Analyzing the Graph:**
+    *   At $t = 0$: $I = \frac{I_0}{4} \sin^2(0) = 0$.
+    *   The function is a squared sine wave, meaning it is always non-negative and reaches a maximum of $\frac{I_0}{4}$.
+    *   The frequency is $2\omega$. The period of $\sin^2(2\omega t)$ is found by $2\omega t = \pi \Rightarrow t = \frac{\pi}{2\omega}$.
+    *   Comparing this to the options, **Graph (A)** shows the intensity starting at $0$ at $t=0$, peaking at $\frac{I_0}{4}$, and having the correct period.
+
+### Answer:
+The correct graph is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

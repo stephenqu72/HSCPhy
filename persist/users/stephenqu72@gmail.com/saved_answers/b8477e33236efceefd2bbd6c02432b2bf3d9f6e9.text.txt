@@ -1,0 +1,35 @@
+To answer this question effectively for the HSC, we need to apply the physics of black-body radiation and stellar spectroscopy.
+
+### Part (a): Account for the similarities and differences of the two curves.
+
+**Similarities:**
+Both curves represent the continuous spectrum of electromagnetic radiation emitted by a hot, opaque body (a black-body). Both show a characteristic "hump" shape where intensity increases to a peak wavelength ($λ_{max}$) and then decreases. This follows Wien’s Law, which dictates that all objects above absolute zero emit thermal radiation.
+
+**Differences:**
+1.  **Presence of Absorption Lines:** Curve B (the star) displays distinct vertical dips, which are **Fraunhofer absorption lines**. These occur when the cooler outer atmosphere of the star absorbs specific wavelengths of light emitted by the hotter core, identifying the chemical composition of the star’s atmosphere. Curve A is a smooth, continuous curve, typical of an incandescent solid, lacking these discrete transitions.
+2.  **Peak Wavelength ($λ_{max}$):** The peak wavelength for Curve A is approximately $700\text{ nm}$, whereas the peak wavelength for Curve B is roughly $400\text{--}450\text{ nm}$. This indicates that the star is significantly hotter than the body in Curve A, consistent with Wien's Displacement Law.
+
+---
+
+### Part (b): Calculate the surface temperature of the star.
+
+To calculate the temperature, we use **Wien’s Displacement Law**:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$$
+
+**Step 1: Identify $\lambda_{max}$ from Curve B.**
+Looking at the peak of the shaded region in Curve B, the intensity peaks between $400\text{ nm}$ and $500\text{ nm}$. A reasonable estimate for the peak is approximately $450\text{ nm} = 4.5 \times 10^{-7}\text{ m}$.
+
+**Step 2: Substitute into the formula.**
+$$T = \frac{2.898 \times 10^{-3} \text{ m K}}{4.5 \times 10^{-7} \text{ m}}$$
+$$T \approx 6440 \text{ K}$$
+
+*(Note: Depending on the precise visual reading of the peak, a range of $6000\text{ K}$ to $7000\text{ K}$ is generally accepted in marking criteria for this visual estimation.)*
+
+---
+
+### How to solve this type of question:
+1.  **For conceptual questions (Part a):** Always link the shape of the graph to black-body theory. When you see "dips" in a stellar spectrum, immediately mention "absorption lines" and their significance in determining elemental composition.
+2.  **For calculations (Part b):** Always convert nanometers ($10^{-9}$) to meters ($10^0$) before substituting into physical constants to ensure units are consistent ($m \cdot K$). Use the provided constant for Wien's displacement law ($2.898 \times 10^{-3}$) as it is standard in the HSC Physics data sheet.
+
+###QUESTION_TYPE
+Data analysis questions

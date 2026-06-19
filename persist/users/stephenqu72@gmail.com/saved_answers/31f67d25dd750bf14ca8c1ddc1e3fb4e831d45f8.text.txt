@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** As a particle with mass approaches the speed of light ($v \to c$), the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ approaches infinity. Consequently, the relativistic momentum, given by $p = \gamma mv$, also approaches infinity. Since an infinite amount of work (and thus energy) is required to accelerate a particle to infinite momentum, it is impossible for a massive particle to reach the speed of light.
+
+**Teacher's Tip:** To score full marks here, you must link the increase in the Lorentz factor to the resulting increase in momentum/energy. Mentioning that the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches zero is a mathematically rigorous way to justify why the value "blows up" to infinity.
+
+---
+
+#### Part (b)
+**Calculation:**
+1.  **Identify the variables:**
+    *   Velocity $v = 0.99999991c$
+    *   Mass of a proton $m \approx 1.673 \times 10^{-27} \text{ kg}$
+    *   Speed of light $c \approx 3.00 \times 10^8 \text{ m/s}$
+
+2.  **Calculate the Lorentz factor ($\gamma$):**
+    $$\gamma = \frac{1}{\sqrt{1 - (0.99999991)^2}} \approx \frac{1}{\sqrt{1 - 0.99999982}} \approx \frac{1}{\sqrt{0.00000018}} \approx 2357$$
+
+3.  **Calculate relativistic momentum ($p$):**
+    $$p = \gamma mv$$
+    $$p \approx 2357 \times (1.673 \times 10^{-27} \text{ kg}) \times (0.99999991 \times 3.00 \times 10^8 \text{ m/s})$$
+    $$p \approx 1.18 \times 10^{-15} \text{ kg m/s}$$
+
+**Teacher's Tip:** When calculating with very high percentages of $c$, rounding errors are significant. Always keep the full precision of the Lorentz factor in your calculator until the final step. Note that for HSC physics, your answer may vary slightly based on the precision of the proton mass provided in your formula sheet.
+
+###QUESTION_TYPE
+Calculation question

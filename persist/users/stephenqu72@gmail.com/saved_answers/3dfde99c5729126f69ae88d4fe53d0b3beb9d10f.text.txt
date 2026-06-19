@@ -1,0 +1,17 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this concept. This is a classic question regarding the transmission of light through a polarising filter.
+
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this problem, you need to understand two key principles of optics:
+
+1.  **Unpolarised Light:** The light incident on the polariser is unpolarised, meaning its electric field vectors are vibrating in all possible directions perpendicular to the direction of propagation.
+2.  **The First Polariser Law:** When unpolarised light of intensity $I_0$ passes through a single ideal polariser, exactly half of the intensity is transmitted, regardless of the orientation of the polariser's axis. This is because the polariser only allows the component of the light parallel to its axis to pass through. Mathematically, the transmitted intensity $I$ is given by:
+    $$I = \frac{1}{2} I_0$$
+3.  **Rotation:** Since the incident light is unpolarised, it doesn't matter if the polariser is vertical ($0^\circ$), horizontal ($90^\circ$), or anywhere in between. As you rotate the polariser, you are always selecting a component of the same symmetric distribution of light. Therefore, the intensity remains constant at $\frac{1}{2} I_0$ throughout the entire rotation from $0^\circ$ to $180^\circ$.
+
+**Common Mistake:** Students often confuse this with **Malus’s Law** ($I = I_{max} \cos^2 \theta$). However, Malus’s Law only applies to light that is **already polarised** when it hits a second polariser (an analyser). Because our light starts as unpolarised, the intensity is simply halved upon the first interaction.
+
+###QUESTION_TYPE
+Multiple choice

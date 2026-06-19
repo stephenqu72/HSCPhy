@@ -1,0 +1,33 @@
+To solve this problem, we must apply the principles of **Special Relativity**, specifically **length contraction**.
+
+### Step-by-Step Explanation
+
+**1. Identify the given information:**
+*   Proper length ($L_0$): The distance between Earth and Sirius as measured by an observer on Earth is $8.6 \text{ light years}$.
+*   Velocity ($v$): The spaceship is traveling at $0.70c$ (where $c$ is the speed of light).
+
+**2. Understand the perspective of the observer inside the spaceship:**
+For the observer inside the spaceship, Earth and Sirius are moving toward them at $0.70c$. Because of length contraction, the distance between Earth and Sirius ($L$) will appear shorter to them than it does to an observer on Earth.
+
+**3. Calculate the length contracted distance ($L$):**
+The formula for length contraction is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Substituting our values:
+$$L = 8.6 \times \sqrt{1 - (0.70)^2}$$
+$$L = 8.6 \times \sqrt{1 - 0.49}$$
+$$L = 8.6 \times \sqrt{0.51}$$
+$$L \approx 8.6 \times 0.71414 \approx 6.1416 \text{ light years}$$
+
+**4. Calculate the time taken ($t$):**
+The observer inside the spaceship measures the distance to be $L = 6.1416 \text{ light years}$. Since they are traveling at a velocity of $v = 0.70c$, the time taken is:
+$$t = \frac{d}{v} = \frac{6.1416 \text{ ly}}{0.70c}$$
+Since $1 \text{ light year}$ is the distance light travels in $1 \text{ year}$, the units work out such that:
+$$t = \frac{6.1416}{0.70} \approx 8.7737 \text{ years}$$
+
+**Conclusion:**
+Rounding to two decimal places, the time taken is approximately **$8.77 \text{ years}$**.
+
+Comparing this result to the given options, the correct choice is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

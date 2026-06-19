@@ -1,0 +1,27 @@
+To determine the ratio of the emergent light intensity $I_2$ to the incident light intensity $I_1$, we must consider the two stages of polarization:
+
+### 1. First Polariser
+When unpolarised light of intensity $I_1$ passes through an ideal polariser, the intensity of the light is reduced by half. Let $I'$ be the intensity after the first polariser:
+$$I' = \frac{1}{2} I_1$$
+
+### 2. Second Polariser
+When polarised light passes through a second polariser (an analyser), the intensity follows **Malus's Law**, which states $I = I_{incident} \cos^2(\theta)$, where $\theta$ is the angle between the transmission axes. Here, $\theta = 30^\circ$.
+$$I_2 = I' \cos^2(30^\circ)$$
+
+Substitute $I'$ from step 1 into this equation:
+$$I_2 = \left( \frac{1}{2} I_1 \right) \cos^2(30^\circ)$$
+
+Given that $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, we calculate $\cos^2(30^\circ)$:
+$$\cos^2(30^\circ) = \left( \frac{\sqrt{3}}{2} \right)^2 = \frac{3}{4}$$
+
+Now, substitute this back into the expression for $I_2$:
+$$I_2 = \frac{1}{2} I_1 \times \frac{3}{4}$$
+$$I_2 = \frac{3}{8} I_1$$
+
+Finally, we find the ratio $\frac{I_2}{I_1}$:
+$$\frac{I_2}{I_1} = \frac{3}{8}$$
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

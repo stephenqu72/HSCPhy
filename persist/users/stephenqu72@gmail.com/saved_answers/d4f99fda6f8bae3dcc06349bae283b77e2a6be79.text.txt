@@ -1,0 +1,38 @@
+As an HSC Physics teacher, I will structure this 8-mark response to cover the definition, the failure of the classical wave model, and the success of Einstein’s particle (photon) model.
+
+### Answer
+
+**The Photoelectric Effect:**
+The photoelectric effect is the emission of electrons (photoelectrons) from the surface of a material (usually a metal) when electromagnetic radiation of sufficiently high frequency is incident upon it.
+
+**Failures of the Classical Wave Model:**
+In the late 19th century, light was viewed purely as a continuous wave. Classical physics predicted that:
+1. **Intensity dependency:** Increasing the intensity (brightness) of light should increase the energy transferred to electrons, eventually causing emission regardless of frequency.
+2. **Time delay:** At low intensities, there should be a time lag while the electron absorbs enough energy to escape the surface.
+However, experimental evidence showed that:
+* Emission only occurs if the frequency is above a specific "threshold frequency" ($f_0$), regardless of intensity.
+* Emission is instantaneous, even at very low intensities.
+* The maximum kinetic energy of emitted electrons depends on frequency, not intensity.
+
+**Einstein’s New Model:**
+Einstein proposed that light consists of discrete packets of energy called "quanta" or **photons**, where the energy of each photon is given by $E = hf$.
+* **Threshold frequency:** A single photon must have enough energy to overcome the metal's work function ($\Phi$). If $hf < \Phi$, no emission occurs, no matter how many photons are present.
+* **Instantaneous emission:** Energy is transferred in a single one-to-one interaction between a photon and an electron, eliminating the need for a "build-up" time.
+* **Kinetic Energy:** Einstein's photoelectric equation, $E_k = hf - \Phi$, shows that any excess energy from the photon becomes the kinetic energy of the photoelectron, explaining why $E_k$ depends on frequency.
+
+---
+
+### How to solve this question
+To secure full marks (8/8) in an HSC examination, follow this strategy:
+
+1.  **Define clearly (2 marks):** Start with a precise definition of the photoelectric effect. Don't just say "light hits metal"; mention the release of electrons and the requirement for specific frequency/energy.
+2.  **Identify the "Conflict" (3 marks):** Contrast the classical wave predictions with the experimental observations. You must explain *why* the wave model failed. Specifically, mention that intensity was expected to govern energy transfer, but experimental data proved it was frequency.
+3.  **Explain the Solution (3 marks):** Detail Einstein’s quantum hypothesis. You must mention:
+    * The quantization of light ($E = hf$).
+    * The "one-to-one" interaction between a photon and an electron.
+    * The work function ($\Phi$) as the minimum energy required to eject an electron.
+
+**Teacher's Tip:** Use the equation $hf = \Phi + E_k$ to anchor your explanation. Examiners love to see that you understand the conservation of energy principle within this quantum framework.
+
+###QUESTION_TYPE
+Essay

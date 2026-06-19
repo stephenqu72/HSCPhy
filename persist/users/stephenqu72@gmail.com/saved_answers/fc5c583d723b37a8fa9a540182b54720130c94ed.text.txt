@@ -1,0 +1,21 @@
+To answer this question effectively for an HSC Physics exam, you need to demonstrate an understanding of both Classical Physics (the failure) and Quantum Physics (the resolution).
+
+### Answer
+1.  **The Basis of the Ultraviolet Catastrophe:** Classical physics, based on the Rayleigh-Jeans law, modeled the electromagnetic radiation inside a blackbody as a series of standing waves (oscillators). According to the equipartition theorem, each mode of oscillation should have an average energy of $kT$. As the wavelength ($\lambda$) decreases (moving toward the ultraviolet end of the spectrum), the number of allowed modes increases to infinity. Consequently, classical theory predicted that the intensity of emitted radiation would approach infinity as $\lambda \to 0$. This was physically impossible, as it implied an infinite total energy output, and became known as the "ultraviolet catastrophe."
+
+2.  **Planck’s Reinterpretation:** Max Planck resolved this discrepancy by abandoning the classical assumption that energy could be emitted or absorbed in continuous amounts. He introduced the hypothesis of **quantization**, proposing that the oscillators could only exchange energy in discrete "packets" or "quanta," given by the relation:
+    $$E = nhf$$
+    where $h$ is Planck’s constant, $f$ is the frequency, and $n$ is an integer. 
+
+3.  **Result:** At high frequencies (short wavelengths), the energy required to excite these quanta ($E = hf$) is much larger than the average thermal energy available ($kT$). This effectively suppresses the high-frequency modes that caused the catastrophe in the classical model, causing the intensity curve to drop to zero as $\lambda \to 0$, matching the experimental results.
+
+---
+
+### How to solve this type of question
+*   **Structure:** Always split your response into two distinct parts: the "Problem" (Classical view) and the "Solution" (Quantum view).
+*   **Key Terminology:** Use specific scientific terminology such as "equipartition theorem," "standing waves," "quantization," and "discrete energy packets."
+*   **Linking to the Graph:** Note that the theoretical curve goes to infinity (y-axis intensity rises sharply at low wavelengths), whereas the experimental curve turns over. Explicitly state that Planck’s work provided the mathematical mechanism to pull that theoretical curve back down to match the experimental reality.
+*   **Marking:** For a 5-mark question, aim for at least 5 distinct, high-quality points (e.g., 2 points for the classical failure/theory, 1 point for the quantization hypothesis, and 2 points for how quantization explains the suppression of high-frequency radiation).
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+This problem applies the principles of Special Relativity, specifically time dilation, to radioactive decay.
+
+#### (a) Calculate the decay constant ($\lambda$) of Lithium-8 at rest.
+The decay of a radioisotope follows the law: $N(t) = N_0 e^{-\lambda t}$.
+In terms of percentage: $\frac{N(t)}{N_0} = e^{-\lambda t}$, or $\ln(\frac{N(t)}{N_0}) = -\lambda t$.
+
+1. Identify a point on the "Detector 1" curve (stationary sample): At $t = 1.0\text{ s}$, the percentage remaining is approximately $45\% = 0.45$.
+2. Substitute into the equation: $\ln(0.45) = -\lambda \times 1.0$.
+3. $\lambda = -\ln(0.45) \approx 0.7985\text{ s}^{-1}$.
+Rounding to appropriate significant figures, **$\lambda \approx 0.80\text{ s}^{-1}$**.
+
+#### (b) Explain the results of Detector 3.
+Detector 3 measures the decay of the moving sample from the spaceship's frame. Because the sample is stationary relative to the spaceship, it will experience "proper time." Therefore, the results for Detector 3 will be identical to Detector 1 (the stationary sample on Earth). It will not show the "slower" decay curve seen by Detector 2 because, in its own frame of reference, there is no time dilation.
+
+#### (c) Calculate the velocity of the spaceship.
+Time dilation is given by $t = \gamma t_0$, where $t_0$ is the proper time (Detector 1/Detector 3) and $t$ is the dilated time (Detector 2). 
+1. Pick a specific percentage remaining, e.g., $50\%$.
+2. From the graph, $50\%$ remains at $t_0 \approx 0.87\text{ s}$ (Detector 1) and $t \approx 1.25\text{ s}$ (Detector 2).
+3. The Lorentz factor $\gamma = \frac{t}{t_0} = \frac{1.25}{0.87} \approx 1.437$.
+4. Use $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$:
+   $1.437 = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \implies 1 - \frac{v^2}{c^2} = (\frac{1}{1.437})^2 \approx 0.484$.
+   $\frac{v^2}{c^2} = 1 - 0.484 = 0.516 \implies \frac{v}{c} = \sqrt{0.516} \approx 0.718$.
+   **$v \approx 0.72c$** (or $2.16 \times 10^8\text{ m/s}$).
+
+#### (d) Explain how this validates Special Relativity.
+This experiment demonstrates **time dilation**. Einstein’s theory predicts that time passes more slowly for objects moving at relativistic speeds relative to an observer. By showing that the moving Lithium-8 takes longer to decay from the perspective of an Earth observer (Detector 2) compared to the stationary observer (Detector 1), the experiment provides empirical evidence that time is not absolute but relative to the observer's frame of reference, confirming the predictions of the Special Theory of Relativity.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To understand this problem, we must use Einstein’s photoelectric equation, which relates the maximum kinetic energy ($K_{max}$) of emitted photoelectrons to the frequency of incident radiation ($f$):
+
+$$K_{max} = hf - \Phi$$
+
+Where:
+*   $h$ is Planck's constant.
+*   $\Phi$ is the work function of the metal (the minimum energy required to remove an electron).
+
+This equation is in the form of a linear graph $y = mx + c$:
+*   The **slope ($m$)** is Planck's constant ($h$), which remains the same for both lines $X$ and $Y$ because the gradient is identical.
+*   The **$x$-intercept** represents the threshold frequency ($f_0$), where $hf_0 = \Phi$.
+*   The **$y$-intercept** is $-\Phi$.
+
+**Analysis:**
+1.  **Line $Y$ has a higher $x$-intercept (threshold frequency):** Since $f_0 = \Phi / h$ and $h$ is constant, a higher threshold frequency directly implies a larger work function ($\Phi$).
+2.  **Evaluating the Options:**
+    *   **A:** Increasing the frequency of radiation would move the data point along the existing line $X$, not create a new line $Y$.
+    *   **B:** A metal with a **greater work function** requires more energy just to eject an electron. This shifts the threshold frequency to the right (higher frequency) and shifts the line downward, matching the behavior of line $Y$.
+    *   **C:** Changing the intensity of the radiation does not change the maximum kinetic energy of individual electrons, so it would not shift the line at all.
+    *   **D:** Decreasing the maximum energy is a consequence of the change, not the cause or the "change to the experiment" (the physical setup) that produces the result.
+
+Therefore, changing the target metal to one with a higher work function is the correct physical modification.
+
+### QUESTION_TYPE
+Multiple choice

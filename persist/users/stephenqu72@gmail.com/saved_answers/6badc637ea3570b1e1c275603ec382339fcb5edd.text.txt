@@ -1,0 +1,22 @@
+To solve this problem, we apply the principles of **Special Relativity**, specifically the concept of **length contraction**.
+
+### Explanation
+
+1.  **Understand Length Contraction:** According to Einstein's theory of Special Relativity, an object in motion relative to an observer will appear to be shortened (contracted) only in the direction of its motion. The formula for length contraction is:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    where $L_0$ is the proper length (measured by an observer at rest relative to the object) and $L$ is the observed length by an observer moving at speed $v$ relative to the object.
+
+2.  **Analyze the dimensions:**
+    *   **Length ($L_0$):** This dimension is parallel to the direction of motion of the rocket ship. Therefore, Sam will observe this length to be contracted, meaning $L < L_0$.
+    *   **Width ($W_0$):** This dimension is perpendicular to the direction of motion. According to the theory of Special Relativity, dimensions perpendicular to the direction of motion do not undergo length contraction. Therefore, Sam will observe $W = W_0$.
+    *   **Height ($H_0$):** This dimension is also perpendicular to the direction of motion. Like the width, it will not undergo length contraction. Therefore, Sam will observe $H = H_0$.
+
+3.  **Conclusion:** Comparing these findings with the given options, Sam observes the length to be shortened ($L < L_0$) while the width and height remain unchanged ($W = W_0$ and $H = H_0$).
+
+This corresponds to option **(D)**.
+
+### Answer
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

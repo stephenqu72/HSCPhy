@@ -1,0 +1,20 @@
+The correct answer is **(B)**.
+
+### Explanation
+
+To understand why graph (B) is the correct representation of current versus voltage for a photoelectric cell, we need to consider the physics of the photoelectric effect:
+
+1.  **Photoemission:** When light of a sufficient frequency strikes the cathode, electrons are ejected (photoelectrons). These electrons have a range of kinetic energies.
+2.  **Initial Current:** Even at $V = 0$, some photoelectrons have enough kinetic energy to reach the anode, creating a small "dark" or initial current. This is why the graph should not start at the origin $(0,0)$.
+3.  **Increasing Voltage:** As you increase the positive voltage $V_1$ applied to the anode, it creates an electric field that helps accelerate the photoelectrons toward the anode. More electrons that previously wouldn't have reached the anode are now collected, causing the current to increase.
+4.  **Saturation:** Eventually, the voltage becomes high enough that *all* photoelectrons ejected from the cathode per unit time are collected by the anode. At this point, increasing the voltage further will not increase the current because the rate of emission is limited by the intensity of the light, not the voltage. This creates a "saturation current," represented by the flattening out of the curve.
+
+**Why the others are incorrect:**
+*   **(A)** represents an Ohmic conductor following Ohm’s Law ($V = IR$), which does not apply to a vacuum phototube.
+*   **(C)** shows the current starting at zero, which ignores the initial kinetic energy of the emitted electrons.
+*   **(D)** suggests the current decreases as voltage increases, which contradicts the nature of an accelerating electric field.
+
+Therefore, graph **(B)** is the only one that shows the characteristic non-linear increase leading to a saturation plateau.
+
+###QUESTION_TYPE
+Multiple choice

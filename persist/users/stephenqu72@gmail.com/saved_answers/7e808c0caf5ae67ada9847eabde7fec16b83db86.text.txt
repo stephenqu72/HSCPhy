@@ -1,0 +1,22 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+This question tests your understanding of **time dilation** and **length contraction** within the context of special relativity. Muons are unstable particles created in the upper atmosphere that travel toward Earth at relativistic speeds (close to the speed of light $c$).
+
+1.  **From an observer's perspective on Earth:** The muons are moving at high velocity, so their internal "clocks" appear to slow down due to time dilation. Their lifetime is extended according to the equation:
+    $$\Delta t = \gamma \Delta t_0$$
+    Where $\gamma$ is the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. Because $\gamma > 1$, the observed lifetime $\Delta t$ is greater than the proper lifetime $\Delta t_0$, allowing more muons to reach the surface than classical physics would predict.
+
+2.  **From the muon's perspective (the "rest frame" of the muon):** The muon does not perceive time dilation; it perceives its own life as normal. However, because the Earth is rushing toward the muon at relativistic speeds, the muon experiences **length contraction** of the distance between the upper atmosphere and the Earth's surface. The distance $L$ appears shorter to the muon than the distance $L_0$ observed from Earth, following the equation:
+    $$L = \frac{L_0}{\gamma}$$
+    Because the distance is "shorter," the muon can cover the journey before it decays.
+
+**Evaluating the options:**
+*   **(A)** is incorrect because the *intrinsic* half-life of the muon does not change; time dilation is an observation based on relative motion, not a change in the particle's internal decay constant.
+*   **(B)** is incorrect because, as established, the half-life effectively *appears longer* to the Earth observer, not shorter.
+*   **(C)** is incorrect because length contraction makes the distance appear *shorter*, not longer.
+*   **(D)** is **correct**. It accurately describes the phenomenon of length contraction from the muon's frame of reference: the muon "sees" the distance to the Earth as being much shorter than we do on the ground, allowing it to complete the journey within its lifespan.
+
+###QUESTION_TYPE
+Multiple choice

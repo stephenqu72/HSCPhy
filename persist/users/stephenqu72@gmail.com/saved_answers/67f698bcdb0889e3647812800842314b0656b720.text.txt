@@ -1,0 +1,21 @@
+To determine the correct answer, we must apply the principles of the **Photoelectric Effect**.
+
+### Answer
+The correct answer is **(C) Ultraviolet light**.
+
+### Explanation
+The photoelectric effect occurs when photons incident on a metal surface have enough energy to overcome the **work function** ($\Phi$) of that metal. The energy of a photon is given by the equation:
+$$E = hf$$
+where $h$ is Planck's constant and $f$ is the frequency of the light.
+
+1.  **Threshold Frequency:** Every metal has a specific threshold frequency ($f_0$). If the incident light frequency $f$ is less than $f_0$, no photocurrent is produced, regardless of the intensity of the light.
+2.  **Energy and Frequency:** Since $E = hf$, light with a higher frequency carries more energy per photon. The electromagnetic spectrum, in order of increasing frequency (and increasing photon energy), is:
+    *   Radio waves < Microwaves < Infrared < Visible (Red to Violet) < **Ultraviolet** < X-rays < Gamma rays.
+3.  **Applying the logic:** Blue light is at the higher-frequency end of the visible spectrum. If blue light successfully causes the emission of electrons, it means the energy of blue light photons is greater than or equal to the work function of the metal ($hf_{blue} \ge \Phi$). 
+4.  **Comparing the options:**
+    *   **Red light** has a lower frequency than blue light. If blue light is barely enough to cause emission, red light will likely fall below the threshold.
+    *   **Microwaves** and **Radio waves** have significantly lower frequencies and lower photon energies than visible light. They lack the energy required to overcome the work function.
+    *   **Ultraviolet light** has a higher frequency than blue light. Therefore, its photons carry more energy ($E_{UV} > E_{blue} \ge \Phi$). Since the energy is higher, it will definitely exceed the work function, ensuring the emission of photoelectrons.
+
+### QUESTION_TYPE
+Multiple choice

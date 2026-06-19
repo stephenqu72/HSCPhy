@@ -1,0 +1,28 @@
+As a top HSC Physics teacher, here is how you approach this question. This question tests your understanding of the **Photoelectric Effect**, specifically the relationship between photon energy, the work function, and light intensity.
+
+---
+
+### Answers and Explanations
+
+**a) On the grid provided, draw the straight line of best fit...**
+*   **Instruction:** Focus on the linear section of the curve (approximately from $1.20 \text{ eV}$ to $1.90 \text{ eV}$). Ignore the points at $2.20$ and $2.50 \text{ eV}$ as they show saturation effects.
+*   **Action:** Draw a straight line through the points at $(1.20, 0.5)$, $(1.70, 2.8)$, $(1.75, 4.0)$, and $(1.90, 8.0)$.
+
+**b) Estimate the minimum energy (work function) for photoelectric emission.**
+*   **Explanation:** The work function ($\Phi$) is defined as the minimum energy required to eject an electron. This is the x-intercept of your line of best fit.
+*   **Calculation:** Based on the linear extrapolation of the trend, the line should cross the x-axis (where photo-current $= 0$) at approximately **$1.10 \text{ eV}$** to **$1.15 \text{ eV}$**.
+
+**c) The experiment is repeated, but the intensities are doubled. Predict the results...**
+*   **Prediction:** Draw a second line on the graph that starts at the same x-intercept (approx. $1.15 \text{ eV}$) but is **steeper** than the first line. Because current is directly proportional to intensity (when frequency is constant and saturation hasn't been reached), the current values at any given energy above the threshold should double.
+*   **Example point:** The original curve passes through roughly $(1.70, 2.8)$. Your new line should pass through approximately $(1.70, 5.6)$.
+
+**d) Justify the line you have drawn in part (c).**
+*   **Justification:** According to the photoelectric effect theory, the number of photoelectrons emitted per second is directly proportional to the intensity of the incident light (provided the frequency is above the threshold frequency $f_0$).
+*   **Key Points:** 
+    1.  Doubling the intensity doubles the number of incident photons, thereby doubling the number of emitted photoelectrons per unit time (the photocurrent).
+    2.  The **threshold frequency (or energy)** remains unchanged because the work function is a property of the metal surface itself, not the intensity of the incident light. Therefore, the x-intercept remains constant.
+
+---
+
+### QUESTION_TYPE
+Data analysis questions

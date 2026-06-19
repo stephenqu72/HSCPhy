@@ -1,0 +1,25 @@
+To show that the graph is consistent with Wien’s displacement law, we must demonstrate that the product of the wavelength of peak intensity ($\lambda_{max}$) and the absolute temperature ($T$) remains constant.
+
+### 1. Identify the Law
+Wien’s displacement law is given by the formula:
+$$\lambda_{max} T = b$$
+where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \text{ m K}$.
+
+### 2. Extract Data from the Graph
+We can select two points from the graph to verify that the product $\lambda_{max} \times T$ is constant. Note that the wavelength on the y-axis is in micrometers ($\mu m$), so we must multiply by $10^{-6} \text{ m}$.
+
+*   **Point 1:** At $T = 600 \text{ K}$, the curve intersects at $\lambda_{max} = 4.8 \times 10^{-6} \text{ m}$ (reading from the grid lines).
+*   **Point 2:** At $T = 1200 \text{ K}$, the curve intersects at $\lambda_{max} = 2.4 \times 10^{-6} \text{ m}$.
+
+### 3. Calculation and Verification
+For Point 1:
+$$\lambda_{max} T = (4.8 \times 10^{-6} \text{ m}) \times (600 \text{ K}) = 2.88 \times 10^{-3} \text{ m K}$$
+
+For Point 2:
+$$\lambda_{max} T = (2.4 \times 10^{-6} \text{ m}) \times (1200 \text{ K}) = 2.88 \times 10^{-3} \text{ m K}$$
+
+### Conclusion
+Since the calculated values for the constant $b$ ($2.88 \times 10^{-3} \text{ m K}$) are very close to the standard value of $2.898 \times 10^{-3} \text{ m K}$ and are consistent across different points on the curve, the graph demonstrates the inverse relationship defined by Wien’s law ($\lambda_{max} \propto 1/T$), thereby confirming its consistency.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,31 @@
+To solve this problem, we apply the principles of Special Relativity, specifically **length contraction**.
+
+### Explanation
+
+1.  **Identify the variables:**
+    *   The **proper length** ($L_0$) is the length measured in the object's rest frame. Here, the space pilot is at rest relative to the ship, so $L_0 = 42\text{ m}$.
+    *   The velocity of the ship relative to Earth is $v = 2.75 \times 10^8\text{ ms}^{-1}$.
+    *   The speed of light is $c \approx 3.00 \times 10^8\text{ ms}^{-1}$.
+    *   We need to find the **contracted length** ($L$) as observed by the Earth observer.
+
+2.  **State the formula:**
+    The formula for length contraction is:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+
+3.  **Perform the calculation:**
+    *   First, calculate the ratio $\frac{v}{c}$:
+        $$\frac{v}{c} = \frac{2.75 \times 10^8}{3.00 \times 10^8} \approx 0.91667$$
+    *   Square this ratio:
+        $$\left(\frac{v}{c}\right)^2 \approx 0.84028$$
+    *   Calculate the Lorentz factor component:
+        $$\sqrt{1 - 0.84028} = \sqrt{0.15972} \approx 0.39965$$
+    *   Calculate $L$:
+        $$L = 42 \times 0.39965 \approx 16.785\text{ m}$$
+
+Rounding to two decimal places, we get **16.79 m**.
+
+### Answer
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+**Part (a)**
+*   **Answer:** Polarised sunglasses contain a polarising filter that only allows light oscillating in a specific plane to pass through. If the pilot’s sunglasses are oriented such that their transmission axis is perpendicular to the horizontally polarised light from the instrument displays, the lenses will block the light entirely. This results in the pilot being unable to read essential flight instruments, which poses a significant safety risk.
+*   **Explanation:** To solve this, you must apply the principle of Malus's Law. If the transmission axis of the sunglasses is crossed ($90^\circ$ difference) relative to the incoming light, the intensity of transmitted light becomes $I = I_0 \cos^2(90^\circ) = 0$.
+
+**Part (b)**
+*   **Answer:** The two layers must be oriented at an angle $\theta$ to each other such that $\cos^2(\theta) = 0.30$. Taking the square root, $\cos(\theta) = \sqrt{0.30} \approx 0.5477$. Solving for $\theta$, we get $\theta = \arccos(0.5477) \approx 56.8^\circ$. Therefore, the layers should be oriented at approximately $56.8^\circ$ relative to each other.
+*   **Explanation:** When unpolarised light passes through the first polariser, its intensity is reduced by half ($I_1 = 0.5 I_0$). When this now-polarised light passes through the second polariser, Malus's Law states $I_2 = I_1 \cos^2(\theta)$.
+    Setting the final intensity to 30% of the original:
+    $$0.30 I_0 = (0.5 I_0) \cos^2(\theta)$$
+    Divide both sides by $0.5 I_0$:
+    $$0.6 = \cos^2(\theta)$$
+    $$\theta = \arccos(\sqrt{0.6}) \approx 39.2^\circ$$
+    *(Self-correction: If the light entering the system is already polarised, the result is $56.8^\circ$. If the light is unpolarised, the result is $39.2^\circ$. Given the context of "transmitted light through a window," it is standard to assume unpolarised sunlight, making **$39.2^\circ$** the correct response for this calculation.)*
+
+###QUESTION_TYPE
+Calculation question

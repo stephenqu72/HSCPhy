@@ -1,0 +1,33 @@
+To solve this problem, we rely on the photoelectric equation: 
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency of the incident light, and $\Phi$ is the work function. The threshold frequency $f_0$ occurs when $E_k = 0$, meaning $hf_0 = \Phi$, or $f_0 = \frac{\Phi}{h}$.
+
+### (a) Graphical Determination
+To determine the threshold frequency graphically, we represent the photoelectric equation as a linear function $E_k = hf - \Phi$. 
+1. **The Graph:** Plot $E_k$ (in eV) on the y-axis and $f$ (in THz) on the x-axis. 
+2. **The Lines:** Both metals will have lines with the same slope (equal to $h = 4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$). 
+   - For Silver: The x-intercept is $1143.62 \text{ THz}$. 
+   - For Unknown: Calculate the intercept: 
+     $$f_0 = \frac{\Phi}{h} = \frac{2.28 \text{ eV}}{4.136 \times 10^{-15} \text{ eV}\cdot\text{s}} \approx 0.551 \times 10^{15} \text{ Hz} = 551.26 \text{ THz}$$
+3. **Representation:** Draw two parallel lines where the "Unknown" line is shifted to the left (crossing the x-axis at $551.26 \text{ THz}$) and the "Silver" line crosses at $1143.62 \text{ THz}$.
+
+**Threshold frequency of unknown metal:** $551.26 \text{ THz}$
+
+---
+
+### (b) Justification
+To determine which metal generates electrons with higher kinetic energy, we compare their work functions given the same incident light ($500 \text{ nm}$).
+
+1. **Energy of incident photon ($E_{photon}$):**
+   $$E = \frac{hc}{\lambda} = \frac{(4.136 \times 10^{-15} \text{ eV}\cdot\text{s})(3 \times 10^8 \text{ m/s})}{500 \times 10^{-9} \text{ m}} = 2.48 \text{ eV}$$
+2. **Comparison:** 
+   - The kinetic energy is $E_k = E_{photon} - \Phi$.
+   - Since both metals are exposed to the same light ($2.48 \text{ eV}$), the metal with the **lower work function** will result in a **higher maximum kinetic energy**.
+   - $\Phi_{Unknown} = 2.28 \text{ eV}$
+   - $\Phi_{Silver} = 4.73 \text{ eV}$
+   - Since $2.28 \text{ eV} < 4.73 \text{ eV}$, the unknown metal will have a higher $E_k$. In fact, silver will not emit electrons at all because $2.48 \text{ eV} < 4.73 \text{ eV}$.
+
+**Conclusion:** Yes, the unknown metal will generate electrons with higher kinetic energy. Silver will produce no photoelectrons at $500 \text{ nm}$ because the incident photon energy is less than its work function.
+
+###QUESTION_TYPE
+Data analysis questions

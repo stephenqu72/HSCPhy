@@ -1,0 +1,22 @@
+To solve this problem, we must apply Einstein’s Photoelectric Equation:
+
+$$E_k = hf - \Phi$$
+
+Where:
+*   $E_k$ is the maximum kinetic energy.
+*   $h$ is Planck's constant.
+*   $f$ is the frequency of the incident light.
+*   $\Phi$ is the work function of the metal (the minimum energy required to eject an electron).
+
+### Analysis of the Options:
+
+*   **A is incorrect:** The kinetic energy of ejected electrons depends on the *frequency* of the light, not the number (intensity) of photons. The number of photons affects the *number* of electrons ejected (photoelectric current), not their kinetic energy.
+*   **B is incorrect:** The graph shows the *threshold frequency* ($f_0$). Zinc has a higher threshold frequency than potassium ($1.1 \times 10^{15} \text{ Hz}$ vs $0.5 \times 10^{15} \text{ Hz}$). This means a photon hitting zinc must have higher *energy* ($E = hf$) to eject an electron, but it does not imply that "more photons" are required.
+*   **C is correct:** The threshold frequency represents the minimum frequency required to eject an electron. The threshold frequency for zinc is higher ($1.1 \times 10^{15} \text{ Hz}$) than for potassium ($0.5 \times 10^{15} \text{ Hz}$). Therefore, any photon with a frequency high enough to overcome the work function of zinc ($f \geq 1.1 \times 10^{15} \text{ Hz}$) will automatically be high enough to overcome the lower work function of potassium ($f > 0.5 \times 10^{15} \text{ Hz}$).
+*   **D is incorrect:** The graph provides no information about the quantity of electrons ejected (the photoelectric current), only the maximum kinetic energy of individual electrons.
+
+### Conclusion:
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

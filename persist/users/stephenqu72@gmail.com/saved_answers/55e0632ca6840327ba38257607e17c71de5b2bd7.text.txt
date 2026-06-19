@@ -1,0 +1,28 @@
+### Answer
+The correct answer is **(C) 6.85 billion years**.
+
+### Explanation
+To solve this problem, we must understand the inverse relationship between the Hubble constant ($H_0$) and the age of the universe ($t$).
+
+1.  **The Relationship:** The age of the universe is inversely proportional to the Hubble constant, expressed by the relationship:
+    $$t \propto \frac{1}{H_0}$$
+    This means if the value of the Hubble constant increases, the estimated age of the universe decreases proportionally.
+
+2.  **Analyze the Change:**
+    *   Initial Hubble constant ($H_1$) = $82 \text{ km/s/Mpc}$
+    *   Initial Age ($t_1$) = $13.7 \text{ billion years}$ (Note: The prompt text says 13.8, but option A refers to 13.7; we will use the proportional change).
+    *   New Hubble constant ($H_2$) = $164 \text{ km/s/Mpc}$
+
+3.  **Calculate the Ratio:**
+    The new Hubble constant is exactly double the original:
+    $$\frac{H_2}{H_1} = \frac{164}{82} = 2$$
+
+4.  **Apply the Inverse Relationship:**
+    Since $t$ is inversely proportional to $H_0$, doubling the Hubble constant will halve the age of the universe:
+    $$t_2 = \frac{t_1}{2}$$
+    $$t_2 = \frac{13.7 \text{ billion years}}{2} = 6.85 \text{ billion years}$$
+
+By doubling the expansion rate ($H_0$), the universe reaches its current size in half the time, leading to an age of $6.85 \text{ billion years}$.
+
+###QUESTION_TYPE
+Multiple choice

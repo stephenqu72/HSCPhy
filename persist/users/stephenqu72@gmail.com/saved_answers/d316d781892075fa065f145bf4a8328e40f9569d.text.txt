@@ -1,0 +1,23 @@
+To solve this problem, we apply **Malus's Law**, which describes the intensity of polarized light after passing through a second polarizer (analyzer).
+
+### Step 1: Apply Malus's Law
+Malus's Law states that the transmitted intensity $I_B$ is related to the incident intensity $I_0$ and the angle $\theta$ between the transmission axes of the two polarizers by the formula:
+$$I_B = I_0 \cos^2(\theta)$$
+
+Given that $\theta = 30^\circ$, we can find the ratio $\frac{I_B}{I_0}$:
+$$\frac{I_B}{I_0} = \cos^2(30^\circ)$$
+
+Since $\cos(30^\circ) = \frac{\sqrt{3}}{2} \approx 0.866$, we calculate:
+$$\frac{I_B}{I_0} = \left( \frac{\sqrt{3}}{2} \right)^2 = \frac{3}{4} = 0.750$$
+
+### Step 2: Identify the Model of Light
+Polarization is a phenomenon that occurs only with transverse waves. Since light demonstrates properties like interference, diffraction, and polarization, this evidence supports the **wave model of light**. The particle model (Newton's corpuscular theory) cannot explain how light waves can be blocked or passed through filters based on their orientation (polarization).
+
+### Conclusion
+- The value of $\frac{I_B}{I_0}$ is $0.750$.
+- The phenomenon demonstrates the wave model of light.
+
+Comparing this to the provided options, row **A** is correct.
+
+###QUESTION_TYPE
+Multiple choice

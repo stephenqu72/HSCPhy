@@ -1,0 +1,31 @@
+To solve this problem, we must account for two physical phenomena: the **Inverse Square Law** (for the spread of light over distance) and **Malus's Law** (specifically the reduction of unpolarised light by a single ideal polarising filter).
+
+### Step 1: Apply the Inverse Square Law
+The intensity of a point source of light decreases as the square of the distance from the source. The relationship is given by:
+$$I_1 d_1^2 = I_2 d_2^2$$
+
+Where:
+*   $I_1 = 120\text{ lumens}$
+*   $d_1 = 0.5\text{ m}$
+*   $d_2 = 3.0\text{ m}$
+*   $I_2$ is the intensity at $3.0\text{ m}$ before hitting the filter.
+
+Rearranging for $I_2$:
+$$I_2 = I_1 \times \left(\frac{d_1}{d_2}\right)^2$$
+$$I_2 = 120 \times \left(\frac{0.5}{3.0}\right)^2$$
+$$I_2 = 120 \times \left(\frac{1}{6}\right)^2$$
+$$I_2 = 120 \times \frac{1}{36} \approx 3.333\text{ lumens}$$
+
+### Step 2: Apply the Polarising Filter effect
+When unpolarised light passes through an ideal polarising filter, the intensity of the transmitted light is exactly half of the incident intensity:
+$$I_{transmitted} = \frac{1}{2} I_2$$
+
+Substituting our value from Step 1:
+$$I_{transmitted} = \frac{3.333}{2} \approx 1.666\text{ lumens}$$
+
+Rounding to two significant figures (consistent with the inputs), we get approximately **$1.7\text{ lumens}$**.
+
+Comparing this result to the given options, **(C)** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

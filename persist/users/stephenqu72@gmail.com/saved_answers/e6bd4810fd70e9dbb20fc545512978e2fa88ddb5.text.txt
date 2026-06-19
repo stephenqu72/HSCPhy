@@ -1,0 +1,38 @@
+To answer this question, we must apply the principles of Einstein's Special Relativity, specifically the concept of **time dilation**.
+
+### Explanation
+
+According to Einstein’s theory of Special Relativity, time is not absolute; it is relative to the observer's frame of reference. When an object moves at a relativistic speed (a significant fraction of the speed of light $c$) relative to an observer, time is observed to pass more slowly for that object compared to an observer in a stationary frame.
+
+The phenomenon where a moving clock (or particle) is observed to tick more slowly is called **time dilation**. The muon decay experiment provides direct empirical evidence for this theory because, without time dilation, the muons would decay almost immediately and never reach the Earth's surface from the upper atmosphere. The observation that their lifetime increases from $2.2\ \mu\text{s}$ to $8.8\ \mu\text{s}$ confirms that time is being "stretched" due to their high velocity.
+
+### Calculation
+
+To calculate the speed, we use the time dilation formula:
+$$t_v = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+Where:
+- $t_v = 8.8\ \mu\text{s}$ (the dilated time measured by the observer)
+- $t_0 = 2.2\ \mu\text{s}$ (the proper time at rest)
+- $v$ = velocity of the muon
+- $c$ = speed of light
+
+**Step 1: Set up the equation**
+$$8.8 = \frac{2.2}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**Step 2: Isolate the Lorentz factor term**
+$$\sqrt{1 - \frac{v^2}{c^2}} = \frac{2.2}{8.8} = 0.25$$
+
+**Step 3: Square both sides**
+$$1 - \frac{v^2}{c^2} = (0.25)^2 = 0.0625$$
+
+**Step 4: Solve for $\frac{v^2}{c^2}$**
+$$\frac{v^2}{c^2} = 1 - 0.0625 = 0.9375$$
+
+**Step 5: Solve for $v$**
+$$\frac{v}{c} = \sqrt{0.9375} \approx 0.968$$
+
+Thus, the speed of the muons is approximately **$0.968c$** (or $96.8\%$ of the speed of light).
+
+###QUESTION_TYPE
+Calculation question

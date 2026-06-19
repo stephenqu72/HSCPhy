@@ -1,0 +1,27 @@
+To determine how one spacecraft perceives the speed of another in special relativity, we must use the **relativistic velocity addition formula**.
+
+### Answer
+The correct option is **(C) Greater than $0.6c$, but less than $c$**.
+
+### Explanation
+In classical (Galilean) mechanics, you would simply add the speeds: $0.6c + 0.6c = 1.2c$. However, according to Einstein's theory of special relativity, the speed of light $c$ is the universal speed limit. Therefore, the result must be less than $c$.
+
+To find the actual relative velocity $v_{rel}$, we use the formula:
+$$v_{rel} = \frac{v_1 + v_2}{1 + \frac{v_1 v_2}{c^2}}$$
+
+In this problem, both spacecraft are moving at $0.6c$ relative to a stationary observer (frame $S$). We want to find the speed of one spacecraft as measured by the other (frame $S'$). Let $v_1 = 0.6c$ and $v_2 = 0.6c$:
+
+$$v_{rel} = \frac{0.6c + 0.6c}{1 + \frac{(0.6c)(0.6c)}{c^2}}$$
+$$v_{rel} = \frac{1.2c}{1 + 0.36}$$
+$$v_{rel} = \frac{1.2c}{1.36}$$
+$$v_{rel} \approx 0.88c$$
+
+Since $0.88c$ is greater than $0.6c$ but strictly less than $c$, option (C) is the correct choice.
+
+### How to solve such problems:
+1.  **Identify the frame of reference:** Always determine if you are adding velocities in a classical way or if you need to account for time dilation and length contraction effects.
+2.  **Use the correct formula:** Always use the relativistic velocity addition formula $v = \frac{u+v}{1 + \frac{uv}{c^2}}$ for high-speed scenarios.
+3.  **Check the limits:** Remember that for any object with mass, the resulting velocity must always be less than $c$. If your answer is $\geq c$, you have likely made an error in your calculation or formula usage.
+
+###QUESTION_TYPE
+Multiple choice

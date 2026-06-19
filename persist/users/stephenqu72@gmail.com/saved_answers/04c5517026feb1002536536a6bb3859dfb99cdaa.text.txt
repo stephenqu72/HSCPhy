@@ -1,0 +1,23 @@
+To account for the observation that emitted photoelectrons have different velocities, we must apply Einstein’s photoelectric equation:
+
+$$E_k = hf - \Phi$$
+
+Where:
+- $E_k$ is the kinetic energy of the electron.
+- $hf$ is the energy of the incident photon.
+- $\Phi$ (the work function) is the minimum energy required to remove an electron from the surface of the metal.
+
+### Answer
+While all incident photons have the same energy ($hf$), they interact with electrons at different depths within the metal surface. 
+1. Electrons at the surface require only the minimum work function ($\Phi$) to be emitted, leaving them with the maximum possible kinetic energy ($E_{k,max}$).
+2. Electrons located deeper within the metal require more energy than $\Phi$ to reach the surface due to collisions with atoms and other electrons as they travel outward. 
+3. Consequently, these deeper electrons emerge with less kinetic energy, and therefore lower velocities, than those emitted from the surface.
+
+### How to solve this
+To gain full marks (3 marks) in an HSC Physics context, follow this structure:
+*   **Identify the energy equation:** Start by stating the relationship $E_k = hf - \Phi$. Explain that $hf$ is constant for all photons.
+*   **Explain the Work Function:** Clarify that $\Phi$ is the *minimum* energy needed. It represents the energy required for surface electrons to escape.
+*   **Explain the internal energy loss:** Explicitly mention that electrons *beneath* the surface lose additional energy due to internal resistance or collisions within the metal lattice before they can escape. This ensures the examiner knows you understand the difference between surface and interior emissions.
+
+###QUESTION_TYPE
+Short answer

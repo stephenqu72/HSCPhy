@@ -1,0 +1,22 @@
+To solve this problem, we must apply **Wien’s Displacement Law**, which describes the relationship between the surface temperature of a black body and the wavelength at which it emits its peak intensity.
+
+### The Physics Principles
+1.  **Wien’s Displacement Law:** This law states that the wavelength of peak intensity ($\lambda_{max}$) is inversely proportional to the absolute temperature ($T$) of the object:
+    $$\lambda_{max} \propto \frac{1}{T}$$
+    This means that a **higher temperature** results in a **shorter peak wavelength** (the peak shifts toward the left/blue end of the spectrum). Conversely, a **lower temperature** results in a **longer peak wavelength** (the peak shifts toward the right/red end of the spectrum).
+
+2.  **The Question Conditions:** 
+    *   Temperature of Star A < Temperature of Star B ($T_A < T_B$).
+    *   Therefore, based on Wien's Law, the peak wavelength of Star A must be to the right of the peak wavelength of Star B ($\lambda_{max, A} > \lambda_{max, B}$).
+
+### Analysis of the Graphs
+*   We are looking for a graph where the peak of the curve for Star A is at a larger wavelength (further to the right) than the peak of the curve for Star B.
+*   Let's examine the options:
+    *   (A) and (B): Show Star A as having a shorter wavelength than Star B (incorrect).
+    *   (C) and (D): Show Star A as having a longer wavelength than Star B.
+*   Now consider the total intensity (Stefan-Boltzmann Law): A hotter star (Star B) emits more energy at every wavelength, so the curve for Star B should generally lie "above" or represent a higher intensity than the cooler star (Star A). In graph (D), Star B is higher and shifted left, and Star A is lower and shifted right.
+
+**Conclusion:** The correct graph is **(D)**. Star B is hotter, so it has a higher intensity peak (higher curve) shifted to the left (shorter wavelength). Star A is cooler, so it has a lower intensity peak (lower curve) shifted to the right (longer wavelength).
+
+###QUESTION_TYPE
+Multiple choice

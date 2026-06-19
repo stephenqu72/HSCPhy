@@ -1,0 +1,29 @@
+### Part (a): Predicted Result for Violet Light
+
+To predict the result, we first calculate the energy of a $400\text{ nm}$ photon using the formula $E = \frac{hc}{\lambda}$.
+Given $h = 6.626 \times 10^{-34}\text{ J s}$, $c = 3 \times 10^8\text{ m/s}$, and $1\text{ eV} = 1.6 \times 10^{-19}\text{ J}$:
+
+$$E = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{400 \times 10^{-9}} \approx 4.97 \times 10^{-19}\text{ J}$$
+Converting to eV:
+$$E = \frac{4.97 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 3.11\text{ eV}$$
+
+Since $3.11\text{ eV} > 2.0\text{ eV}$ (work function $\Phi$), an electron will be ejected. The kinetic energy ($K_{max}$) is:
+$$K_{max} = E_{photon} - \Phi = 3.11\text{ eV} - 2.0\text{ eV} = 1.11\text{ eV}$$
+Convert $K_{max}$ to Joules to find velocity ($v$):
+$$K_{max} = 1.11 \times 1.6 \times 10^{-19} = 1.776 \times 10^{-19}\text{ J}$$
+$$v = \sqrt{\frac{2K_{max}}{m_e}} = \sqrt{\frac{2 \times 1.776 \times 10^{-19}}{9.11 \times 10^{-31}}} \approx 6.24 \times 10^5\text{ m/s}$$
+
+**Diagram Description:** Draw a ray labeled "VIOLET LIGHT 3.11 eV" hitting the potassium surface. Show an electron being ejected with the label: "Electron released with a velocity of $6.24 \times 10^5\text{ m/s}$ and energy of $1.11\text{ eV}$."
+
+---
+
+### Part (b): Explanation of Quanta and Photoelectric Principles
+
+This experiment provides crucial evidence for Einstein's particle model of light (quanta) over the classical wave model:
+
+1.  **Threshold Frequency:** In the wave model, energy is proportional to intensity. However, the experiment shows that if the light frequency is below a threshold (like the red light), no electrons are ejected regardless of intensity. This proves light must exist as discrete "packets" (quanta/photons) where energy is tied to frequency ($E = hf$).
+2.  **Instantaneous Emission:** Electrons are ejected immediately upon illumination, provided the threshold is met. The wave model would suggest a time lag for energy to build up, but the quantum model correctly identifies that a single photon provides the necessary energy in a single interaction.
+3.  **Intensity vs. Energy:** The experiment demonstrates that the energy of the *emitted electrons* depends solely on the frequency of the incoming light, not the intensity, confirming the photon-electron interaction is a one-to-one event.
+
+###QUESTION_TYPE
+Calculation question

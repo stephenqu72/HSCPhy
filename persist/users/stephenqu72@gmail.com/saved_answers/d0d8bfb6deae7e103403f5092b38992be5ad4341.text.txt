@@ -1,0 +1,35 @@
+### Answer
+
+**a. Calculate the speed of the proton**
+The Lorentz factor is defined as:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Given $\gamma = 2.00$:
+$$2.00 = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+$$0.50 = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$0.25 = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 0.75$$
+$$\frac{v}{c} = \sqrt{0.75} \approx 0.866025$$
+To three significant figures, **$v = 0.866c$**.
+
+**b. Calculate the length of the beamline in the reference frame of the proton**
+Using the length contraction formula $L = \frac{L_0}{\gamma}$, where $L_0 = 4.80\text{ km}$:
+$$L = \frac{4.80\text{ km}}{2.00} = 2.40\text{ km}$$
+The length is **$2.40\text{ km}$**.
+
+**c. Calculate the kinetic energy of the proton in joules**
+Kinetic energy is defined by $E_k = (\gamma - 1)mc^2$.
+Using $m = 1.67 \times 10^{-27}\text{ kg}$ and $c \approx 3.00 \times 10^8\text{ m/s}$:
+$$E_k = (2.00 - 1) \times (1.67 \times 10^{-27}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2$$
+$$E_k = 1 \times (1.67 \times 10^{-27}) \times (9.00 \times 10^{16})$$
+$$E_k = 1.503 \times 10^{-10}\text{ J}$$
+Rounding to match the significant figures provided in the prompt, $E_k = \mathbf{1.50 \times 10^{-10}\text{ J}}$.
+
+---
+
+### How to solve it
+1.  **Lorentz Factor ($\gamma$):** Always start with the standard definition of $\gamma$. Rearranging for $v$ requires squaring both sides of the equation after isolating the root. Remember that expressing speed "in terms of $c$" means finding the coefficient $k$ where $v = kc$.
+2.  **Length Contraction:** This is a direct application of the length contraction formula. Recognize that the "proper length" ($L_0$) is the length measured in the stationary frame (the beamline), and the contracted length ($L$) is what an observer moving with the proton would measure.
+3.  **Relativistic Kinetic Energy:** Do not use the Newtonian formula $E_k = \frac{1}{2}mv^2$. You must use the relativistic form $E_k = (\gamma - 1)mc^2$. Ensure your mass is in kg and speed of light is in m/s to obtain the result in Joules.
+
+###QUESTION_TYPE
+Calculation question

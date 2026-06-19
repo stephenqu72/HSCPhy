@@ -1,0 +1,36 @@
+To answer these questions, we apply the principles of Special Relativity, which supersede classical mechanics as objects approach the speed of light.
+
+### (a) Explain why this graph is not a straight line as classical theory would predict.
+
+**Answer:**
+Classical mechanics defines momentum as $p = mv$. Since mass $m$ is considered a constant, this equation represents a linear relationship. However, as an object's speed $v$ approaches the speed of light $c$, the effects of Special Relativity become significant. According to the relativistic momentum formula $p = \gamma mv$ (where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$), the momentum increases towards infinity as $v \to c$. The "curving" upwards of the graph represents the increasing relativistic mass (or the Lorentz factor $\gamma$ increasing), which prevents any object with mass from reaching or exceeding the speed of light.
+
+**How to solve:**
+1. Identify the classical model: $p=mv$ is a linear function ($y=mx$).
+2. Identify the relativistic constraint: The Lorentz factor $\gamma$ grows rapidly as $v$ approaches $c$.
+3. Link the two: Mention that the mass effectively increases (or the velocity transformation requires the $\gamma$ factor), causing the momentum to tend toward infinity at $c$.
+
+---
+
+### (b) Calculate relativistic momentum of a proton moving at $0.8 c$.
+
+**Answer:**
+To calculate the relativistic momentum, we use the formula:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Given $v = 0.8c$:
+1. Calculate the Lorentz factor $\gamma$:
+$$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} \approx 1.667$$
+2. Substitute into the momentum formula:
+$$p = 1.667 \times m \times 0.8c$$
+$$p = 1.333 mc$$
+
+The relativistic momentum of the proton is approximately $1.33 mc$ (where $m$ is the rest mass of the proton).
+
+**How to solve:**
+1. Recognize that you must use the relativistic momentum formula $p = \gamma mv$.
+2. Substitute the given velocity $v = 0.8c$ into the expression for the Lorentz factor $\gamma$.
+3. Simplify the calculation.
+4. Express the final answer in terms of the rest mass $m$ and the speed of light $c$.
+
+###QUESTION_TYPE
+Calculation question

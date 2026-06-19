@@ -1,0 +1,23 @@
+To answer an 8-mark "Outline" question in the HSC Physics curriculum, you must balance detailed technical knowledge with conceptual application.
+
+### Model Answer
+
+**Early Method: Fizeau’s Toothed Wheel Experiment (1849)**
+Hippolyte Fizeau measured the speed of light by directing a light beam at a mirror $8\text{ km}$ away. The light passed through the teeth of a rapidly rotating gear. By adjusting the rotation speed, he found a frequency where the returning light was blocked by the next tooth. Knowing the distance ($d$) and the rotation speed (allowing calculation of the time $t$ for the light to travel $2d$), he used $v = \frac{2d}{t}$ to determine $c$.
+
+**Recent Method: Laser Interferometry (Modern standard)**
+Modern measurements define the speed of light as a constant: $c = 299,792,458\text{ m/s}$. This is achieved using highly precise lasers in a vacuum. By measuring the frequency ($f$) of the laser light using a cesium atomic clock and the wavelength ($\lambda$) using interferometry, $c$ is calculated with extreme precision using the formula $c = f\lambda$.
+
+**Importance to the Measurement of Distance**
+The speed of light is the fundamental conversion factor between time and distance. Because $c$ is constant, we define the "metre" as the distance light travels in a vacuum in $\frac{1}{299,792,458}$ of a second. In astrophysics, this allows for the definition of the light-year, enabling us to calculate vast cosmic distances by measuring how long light takes to reach Earth from distant stars. Without an exact $c$, modern GPS and satellite ranging would be impossible, as they rely on timing signals traveling at $c$ to calculate precise locations.
+
+---
+
+### How to solve this question
+1.  **Deconstruct the marks:** With 8 marks available, allocate approximately 2.5 marks for each of the three sections (Early Method, Recent Method, and Importance).
+2.  **Early Method:** Focus on the *mechanism*. Mention the experimental setup (Fizeau's gear or Foucault's rotating mirror) and the fundamental principle ($v = \frac{d}{t}$).
+3.  **Recent Method:** Contrast this with modern techniques. Emphasize that we no longer "measure" $c$ as a variable; we use it as a defined constant. Mention the relationship $c = f\lambda$ and the role of atomic clocks.
+4.  **Application/Importance:** Connect theory to practice. The key insight is that because $c$ is the universal speed limit and is constant, we use it as a "ruler." If you know the speed of a signal and the time it takes to travel, you automatically know the distance. Mention the SI definition of the metre for high-level marks.
+
+### QUESTION_TYPE
+Essay

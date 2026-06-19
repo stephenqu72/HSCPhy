@@ -1,0 +1,33 @@
+To answer this 6-mark HSC Physics question, you need to combine a clear definition, an explanation of the physical mechanism, and the mathematical relationship derived from the photoelectric effect.
+
+### Model Answer
+
+**Definition of Stopping Voltage**
+Stopping voltage ($V_s$) is defined as the minimum negative (retarding) potential applied to the collecting electrode relative to the emitting cathode that is sufficient to reduce the photocurrent to zero.
+
+**Importance in Understanding Photoemission**
+Stopping voltage is crucial because it allows physicists to measure the maximum kinetic energy ($K_{max}$) of the emitted photoelectrons. Even the fastest electrons, which are ejected from the surface with the greatest velocity, cannot overcome the potential barrier created by $V_s$. By measuring this voltage, we can determine the energy of electrons emitted from the surface regardless of the number of photons (intensity of light). This provided experimental evidence that contradicts classical wave theory, which suggested energy should depend on intensity. Instead, it confirmed Einstein’s photon model, where energy depends on frequency.
+
+**Relevant Equations**
+The relationship between stopping voltage and maximum kinetic energy is:
+$$K_{max} = e V_s$$
+Where $e$ is the elementary charge ($1.602 \times 10^{-19} \text{ C}$).
+
+Combining this with Einstein’s photoelectric equation:
+$$hf = \Phi + K_{max}$$
+Substituting $e V_s$ for $K_{max}$, we get:
+$$hf = \Phi + e V_s$$
+Rearranging to show the dependency on frequency:
+$$V_s = \frac{h}{e}f - \frac{\Phi}{e}$$
+Where $h$ is Planck’s constant, $f$ is the frequency of incident radiation, and $\Phi$ is the work function of the metal. This linear relationship demonstrates that $V_s$ is dependent on the frequency of light, confirming that energy is transferred in discrete quanta (photons).
+
+***
+
+### How to Solve This Question
+1.  **Define clearly:** Always start with the standard scientific definition. Ensure you mention that the potential is "retarding" (or negative).
+2.  **Explain the "Why":** Focus on the fact that $V_s$ isolates the *most energetic* electrons. This is the key link between the concept and the theory.
+3.  **Use the Equations:** The question explicitly asks for equations. You must include Einstein’s photoelectric equation and the definition of electrical potential energy ($qV$). Linking them shows you understand how the model connects to experimental data.
+4.  **Connect to Theory:** Briefly mention how this supports the particle theory of light (the photon model) over the wave theory to ensure you pick up the higher-order thinking marks.
+
+###QUESTION_TYPE
+Short answer

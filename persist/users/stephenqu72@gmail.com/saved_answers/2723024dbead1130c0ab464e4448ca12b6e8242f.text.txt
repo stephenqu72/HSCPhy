@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **(D) The light is entirely blocked.**
+
+---
+
+### Explanation
+To solve this problem, we apply the two fundamental principles of light polarization:
+
+1.  **First Filter (The Polariser):** When unpolarised light with intensity $I_0$ passes through a polarising filter, the filter allows only the components of the light waves that align with its transmission axis to pass through. For unpolarised light, this results in light that is polarised in the direction of the filter's axis with an intensity of $I_1 = \frac{1}{2}I_0$. In this question, the first filter is horizontal, so the light emerging from it is horizontally polarised with intensity $0.5I_0$.
+
+2.  **Second Filter (The Analyser):** According to **Malus's Law**, the intensity of light $I_2$ emerging from a second polariser is given by:
+    $$I_2 = I_1 \cos^2(\theta)$$
+    where $\theta$ is the angle between the transmission axis of the first filter and the second filter.
+
+3.  **Application:** 
+    *   The first filter has a horizontal transmission axis ($0^\circ$).
+    *   The second filter has a vertical transmission axis ($90^\circ$).
+    *   The angle between these two axes is $\theta = 90^\circ$.
+    *   Substituting this into Malus's Law:
+        $$I_2 = I_1 \cos^2(90^\circ)$$
+        Since $\cos(90^\circ) = 0$:
+        $$I_2 = I_1 \times 0^2 = 0$$
+
+Because the transmission axes are crossed at $90^\circ$, no light can pass through the second filter. Therefore, the light is entirely blocked.
+
+###QUESTION_TYPE
+Multiple choice

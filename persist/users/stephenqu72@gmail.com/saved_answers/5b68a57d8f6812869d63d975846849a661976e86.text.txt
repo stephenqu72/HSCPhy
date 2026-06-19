@@ -1,0 +1,30 @@
+To find the proper length of Spaceship B, we must use the concept of **length contraction** from Einstein's Theory of Special Relativity.
+
+### Answer
+The correct answer is **C. 450 m**.
+
+### Explanation
+1.  **Identify the variables:**
+    *   The relative speed of the spaceship, $v = 0.943c$.
+    *   The measured (contracted) length, $L = 150\text{ m}$.
+    *   We need to find the proper length, $L_0$.
+
+2.  **Use the length contraction formula:**
+    The relationship between the proper length $L_0$ and the contracted length $L$ is given by:
+    $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+    Rearranging this to solve for the proper length $L_0$:
+    $$L_0 = \frac{L}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+3.  **Calculate the Lorentz factor ($\gamma$):**
+    First, find the term $\frac{v}{c} = 0.943$.
+    $$\frac{v^2}{c^2} = (0.943)^2 \approx 0.8892$$
+    Now, calculate the denominator:
+    $$\sqrt{1 - 0.8892} = \sqrt{0.1108} \approx 0.3329$$
+
+4.  **Calculate the proper length ($L_0$):**
+    $$L_0 = \frac{150}{0.3329} \approx 450.58\text{ m}$$
+
+Rounding this to the closest value provided in the options, we get $450\text{ m}$. Physically, this makes sense because the proper length must always be greater than the length measured by an observer moving relative to the object.
+
+###QUESTION_TYPE
+Calculation question

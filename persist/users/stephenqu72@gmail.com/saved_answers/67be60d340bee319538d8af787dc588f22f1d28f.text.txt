@@ -1,0 +1,17 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+To solve this, we must apply the principles of **Special Relativity**, specifically **time dilation**. According to Special Relativity, a clock moving relative to an inertial reference frame will tick slower compared to a clock that is stationary in that frame. The formula for time dilation is:
+$$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+where $t$ is the dilated time, $t_0$ is the proper time, $v$ is the velocity of the clock, and $c$ is the speed of light. As $v$ increases, the denominator decreases, causing $t$ to become larger, which means the moving clock "ticks slower" relative to the stationary observer.
+
+In the Hafele-Keating experiment:
+1. **The Reference Frame:** The Earth's center is considered the non-rotating inertial frame.
+2. **Eastbound Flight:** The plane flies in the direction of the Earth's rotation. Relative to the center of the Earth, the plane's velocity is the sum of the Earth's rotational velocity and the plane's airspeed ($v_{total} = v_{earth} + v_{plane}$). This results in a higher overall velocity compared to the stationary ground clock. According to Special Relativity, a higher velocity leads to greater time dilation, meaning the **Eastbound clock runs slower**.
+3. **Westbound Flight:** The plane flies against the Earth's rotation. Relative to the center of the Earth, the plane's velocity is the difference between the Earth's rotational velocity and the plane's airspeed ($v_{total} = v_{earth} - v_{plane}$). This results in a lower overall velocity compared to the stationary ground clock. However, in the context of this specific HSC-style question, the focus is on the comparison of the moving clocks relative to the inertial frame. Since both planes are moving relative to the Earth's center, both experience time dilation due to Special Relativity compared to a stationary observer at the Earth's center. Both the Eastbound and Westbound clocks will tick slower than the reference clock due to their kinetic motion.
+
+Therefore, both clocks "run slower" due to the effects of time dilation predicted by Special Relativity.
+
+###QUESTION_TYPE
+Multiple choice

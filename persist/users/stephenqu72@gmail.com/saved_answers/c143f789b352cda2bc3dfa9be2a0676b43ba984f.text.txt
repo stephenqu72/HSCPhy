@@ -1,0 +1,31 @@
+To determine the initial intensity $I_0$, we must apply Malus’s Law sequentially through the three polarising sheets. Malus's Law states that the transmitted intensity $I$ is given by $I = I_{incident} \cos^2(\phi)$, where $\phi$ is the angle between the light's polarisation plane and the transmission axis of the filter.
+
+### Step-by-Step Solution:
+
+**1. Passing through the first sheet:**
+Assuming the incident light $I_0$ is unpolarised, the first vertical polariser reduces the intensity by half:
+$$I_1 = \frac{1}{2}I_0$$
+
+**2. Passing through the second sheet:**
+The light is now vertically polarised. The angle between the vertical axis and the second sheet is $\theta = 30^\circ$.
+$$I_2 = I_1 \cos^2(30^\circ) = \left(\frac{1}{2}I_0\right) \cos^2(30^\circ)$$
+Since $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, then $\cos^2(30^\circ) = \frac{3}{4}$.
+$$I_2 = \frac{1}{2}I_0 \times \frac{3}{4} = \frac{3}{8}I_0$$
+
+**3. Passing through the third sheet:**
+The third sheet is horizontal. The angle between the second sheet (at $30^\circ$ from vertical) and the third sheet (at $90^\circ$ from vertical) is $\phi = 90^\circ - 30^\circ = 60^\circ$.
+$$I_3 = I_2 \cos^2(60^\circ) = \left(\frac{3}{8}I_0\right) \cos^2(60^\circ)$$
+Since $\cos(60^\circ) = \frac{1}{2}$, then $\cos^2(60^\circ) = \frac{1}{4}$.
+$$I_3 = \frac{3}{8}I_0 \times \frac{1}{4} = \frac{3}{32}I_0$$
+
+**4. Solving for $I_0$:**
+We are given $I_3 = 80$:
+$$\frac{3}{32}I_0 = 80$$
+$$I_0 = 80 \times \frac{32}{3}$$
+$$I_0 = \frac{2560}{3} \approx 853.33 \text{ units}$$
+
+### Summary of Result:
+The intensity of the incident light $I_0$ is **$853.33$ units** (or $\frac{2560}{3}$ units).
+
+###QUESTION_TYPE
+Calculation question

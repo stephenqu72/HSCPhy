@@ -1,0 +1,23 @@
+### Answer
+
+**(a) Explanation of the Hafele-Keating Experiment**
+The Hafele-Keating experiment provided empirical evidence for both special and general relativity. According to **special relativity**, time dilation occurs because of the velocity of the clocks relative to an inertial frame. The eastward-moving clock traveled with the Earth's rotation (higher velocity relative to the center of the Earth), while the westward-moving clock traveled against it (lower velocity). Special relativity predicts that the faster-moving clock (eastward) should tick slower than the reference clock on the ground, while the slower-moving clock (westward) should tick faster. When combined with **general relativity** (which accounts for the effect of gravity at different altitudes), the predicted net time differences matched the observed results, confirming that time is not absolute but dependent on the observer's motion and gravitational potential.
+
+**(b) Classical Physics and Momentum**
+Classical physics assumes mass is constant ($m = m_0$). However, as an object's speed approaches the speed of light ($c$), relativistic effects become significant. To check if an electron is relativistic, we compare its momentum ($p = 8.7 \times 10^{-22}\text{ kg m s}^{-1}$) to its rest mass energy scale or calculate its velocity.
+
+1. Rest mass of an electron: $m_e = 9.11 \times 10^{-31}\text{ kg}$
+2. Classical momentum: $p = m_e v$
+3. Calculating velocity:
+$$v = \frac{p}{m_e} = \frac{8.7 \times 10^{-22}}{9.11 \times 10^{-31}} \approx 9.55 \times 10^8\text{ m s}^{-1}$$
+
+Since this calculated velocity $v$ is greater than the speed of light ($c \approx 3.0 \times 10^8\text{ m s}^{-1}$), the classical assumption that $p = mv$ is invalid. The momentum is relativistic, meaning the mass must be treated as a relativistic mass $m = \gamma m_0$. Classical mechanics fails because it does not account for the Lorentz factor $\gamma$.
+
+---
+
+### How to solve this
+1. **For part (a):** Understand that this is a classic HSC physics evaluation question. You must reference both **velocity (Special Relativity)** and **gravitational potential (General Relativity)**. Use the key concept that the clock moving at a higher speed relative to the Earth's center experiences greater time dilation.
+2. **For part (b):** This is a "proof by contradiction." Calculate the velocity using $p=mv$. If the result is close to or exceeds $c$, classical physics is insufficient. Always state the speed of light $c$ to show the examiner you know the relativistic limit.
+
+### QUESTION_TYPE
+Calculation question

@@ -1,0 +1,29 @@
+To determine the correct graph, we must analyze the mathematical relationship defined by the Lorentz factor, $\gamma$.
+
+### Answer
+The correct diagram is **D**.
+
+### Explanation
+The Lorentz factor $\gamma$ is defined by the formula:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+where $v$ is the speed of the object and $c$ is the speed of light. To identify the correct graph, we look at the behavior of the function at two key points:
+
+1.  **When speed $v = 0$:**
+    Substituting $v = 0$ into the equation:
+    $$\gamma = \frac{1}{\sqrt{1 - 0}} = 1$$
+    This tells us that the graph must start at a $y$-intercept of $1$ on the $\gamma$ axis, not at the origin $(0,0)$.
+
+2.  **When speed $v \to c$:**
+    As the speed $v$ approaches the speed of light $c$, the term $\frac{v^2}{c^2}$ approaches $1$. Consequently, the denominator $\sqrt{1 - \frac{v^2}{c^2}}$ approaches $0$. Since we are dividing by a value approaching zero, $\gamma$ approaches infinity:
+    $$\lim_{v \to c} \gamma = \infty$$
+    This indicates that the graph must have a vertical asymptote at $v = c$.
+
+**Evaluating the options:**
+*   **A:** Incorrect, because it starts at $0$ instead of $1$.
+*   **B:** Incorrect, because it is a linear graph and does not show the asymptotic behavior as $v \to c$.
+*   **C:** Incorrect, because it starts at a negative value.
+*   **D:** Correct, as it starts at $\gamma = 1$ when $v = 0$ and curves upward toward a vertical asymptote as $v$ approaches $c$.
+
+###QUESTION_TYPE
+Multiple choice

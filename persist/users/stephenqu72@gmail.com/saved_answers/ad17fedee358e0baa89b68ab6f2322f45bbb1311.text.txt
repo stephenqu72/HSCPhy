@@ -1,0 +1,24 @@
+To solve this photoelectric effect problem, we use Einstein’s photoelectric equation:
+$$E_k = hf - \Phi$$
+where $E_k$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency, and $\Phi$ is the work function. This takes the form of a linear equation $y = mx + c$, where the slope $m = h$ and the $y$-intercept $c = -\Phi$.
+
+### (a) Graph the data
+Plot the **Frequency ($10^{15}$ Hz)** on the $x$-axis and **Kinetic Energy ($10^{-19}$ J)** on the $y$-axis.
+1. Plot the points: $(1.49, 7.30), (1.00, 3.97), (0.76, 2.33), (0.59, 1.34), (0.50, 0.66), (0.43, 0.23)$.
+2. Draw a line of best fit through these points. You will notice the line intersects the $x$-axis at approximately $0.35 \times 10^{15}$ Hz and intersects the $y$-axis below zero.
+
+### (b) Determine Planck's constant ($h$)
+The slope of the graph equals Planck’s constant.
+Pick two points on your line of best fit, $(x_1, y_1)$ and $(x_2, y_2)$.
+For example, using the points $(1.40, 6.7)$ and $(0.50, 0.6)$ (reading from a standard best-fit line):
+$$h = \text{slope} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{(6.7 - 0.6) \times 10^{-19} \text{ J}}{(1.40 - 0.50) \times 10^{15} \text{ Hz}}$$
+$$h \approx \frac{6.1 \times 10^{-19}}{0.9 \times 10^{15}} \approx 6.78 \times 10^{-34} \text{ J}\cdot\text{s}$$
+*(Note: Experimental results will vary slightly; any value between $6.4 - 6.9 \times 10^{-34}$ is typically acceptable in this context.)*
+
+### (c) Determine the work function ($\Phi$)
+The work function is the magnitude of the $y$-intercept. Extending the line of best fit back to the $y$-axis, the intercept is approximately $-2.3 \times 10^{-19}$ J. Thus, $\Phi = 2.3 \times 10^{-19}$ J.
+To convert this to electron volts (eV), divide by the elementary charge $e = 1.6 \times 10^{-19}$ C:
+$$\Phi_{\text{(eV)}} = \frac{2.3 \times 10^{-19} \text{ J}}{1.6 \times 10^{-19} \text{ J/eV}} \approx 1.44 \text{ eV}$$
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,29 @@
+To determine the correct graph, we must apply **Malus' Law**, which describes how the intensity of polarized light changes as it passes through a second polarizer (the analyser).
+
+### Explanation
+Malus' Law is given by the formula:
+$$I = I_0 \cos^2(\theta)$$
+
+Where:
+*   $I$ is the transmitted light intensity.
+*   $I_0$ is the maximum intensity (which occurs when the axes of the two polarizers are parallel, i.e., $\theta = 0^\circ$).
+*   $\theta$ is the angle between the transmission axes of the two polarizers.
+
+**Analyzing the properties of the function:**
+1.  **Maximum Intensity:** When $\theta = 0^\circ$ or $180^\circ$, $\cos^2(\theta) = 1$, so $I = I_0$. The graph should show a maximum value at these points.
+2.  **Minimum Intensity:** When $\theta = 90^\circ$ or $270^\circ$, $\cos^2(\theta) = 0$, so $I = 0$. The graph should touch the horizontal axis at these points (complete extinction).
+3.  **Shape:** The function $\cos^2(\theta)$ results in a periodic wave that repeats every $180^\circ$ and never drops below zero.
+
+**Evaluating the Options:**
+*   **Graph A:** Shows a maximum at $0^\circ$ and $180^\circ$, and zero intensity at $90^\circ$ and $270^\circ$. This matches the theoretical behavior of Malus' Law perfectly.
+*   **Graph B:** Shows minimum intensity at $180^\circ$, which is incorrect (it should be a maximum).
+*   **Graph C:** Shows an increasing curve that does not follow the periodic nature of the $\cos^2$ function.
+*   **Graph D:** Does not reach zero at $90^\circ$ and $270^\circ$, which contradicts the physics of ideal polarizers.
+
+Therefore, **Graph A** is the correct representation.
+
+### Answer
+The correct graph is **A**.
+
+###QUESTION_TYPE
+Multiple choice

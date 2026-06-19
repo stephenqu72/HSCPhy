@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** An inertial frame of reference is a frame of reference that is not accelerating; it is either at rest or moving at a constant velocity. In such a frame, Newton’s First Law of Motion holds true—an object remains at rest or in uniform motion unless acted upon by a net external force. 
+**Everyday example:** A person standing on the ground watching a train pass by at a constant speed (ignoring the Earth's rotation) is considered to be in an inertial frame of reference.
+
+**Explanation:** To secure the 2 marks, you must define the condition (zero acceleration/constant velocity) and provide a valid real-world example. It is crucial to emphasize the "constant velocity" aspect, as non-inertial frames are those that are accelerating (e.g., a car turning a corner or speeding up).
+
+---
+
+#### Part (b)
+**Answer:**
+We use the length contraction formula:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Where:
+- Proper length $L_0 = 220\text{ m}$
+- Contracted length $L = 70\text{ m}$
+- $c$ is the speed of light.
+
+Rearranging for $v$:
+$$\frac{L}{L_0} = \sqrt{1 - \frac{v^2}{c^2}}$$
+$$\left(\frac{70}{220}\right)^2 = 1 - \frac{v^2}{c^2}$$
+$$\frac{v^2}{c^2} = 1 - \left(\frac{7}{22}\right)^2$$
+$$\frac{v^2}{c^2} = 1 - 0.1012$$
+$$\frac{v^2}{c^2} = 0.8988$$
+$$\frac{v}{c} = \sqrt{0.8988} \approx 0.948$$
+$$v \approx 0.948c$$
+
+The spaceship must be travelling at approximately $0.948c$ (or $94.8\%$ of the speed of light).
+
+**Explanation:** This is a classic Special Relativity problem. 
+1. Identify the **proper length** ($L_0$), which is the length measured in the object's rest frame ($220\text{ m}$).
+2. Identify the **contracted length** ($L$), which is the length measured by an observer moving relative to the object ($70\text{ m}$).
+3. Substitute these values into the length contraction formula and solve algebraically for $v$. Ensure your final answer is expressed as a fraction or percentage of $c$.
+
+###QUESTION_TYPE
+Calculation question

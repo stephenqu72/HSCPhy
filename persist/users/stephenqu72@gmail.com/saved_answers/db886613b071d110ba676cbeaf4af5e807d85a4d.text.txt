@@ -1,0 +1,19 @@
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we must identify the relativistic principles that allow a journey to a distant star to occur within an astronaut's biological lifespan.
+
+1.  **Time Dilation:** From an Earth observer's perspective, the clock on a high-speed spacecraft runs slowly ($t = \gamma t_0$). This explains why the astronaut ages less than the people remaining on Earth.
+2.  **Length Contraction:** From the astronaut’s perspective (the spacecraft's frame of reference), the distance $L$ between Earth and the destination star is "contracted" (shortened) compared to the rest frame distance $L_0$. The relationship is given by:
+    $$L = \frac{L_0}{\gamma}$$
+    where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. Because the astronaut perceives a significantly shorter distance, they can cover that distance within their own lifetime despite traveling at a speed less than the speed of light.
+
+**Why the other options are incorrect:**
+*   **B is incorrect:** While time dilation does occur, the physical "rate of fuel consumption" (in terms of mass flow rate) is defined within the spacecraft's own frame of reference, where time behaves normally. Fuel usage depends on the physics of the engine, not on the time observed from Earth.
+*   **C is incorrect:** Relativistic effects *increase* the relativistic mass (or momentum/energy) of an object as it approaches the speed of light; they do not decrease it.
+*   **D is incorrect:** Increasing the mass of fuel would make the craft heavier and harder to accelerate, which is the primary barrier to space travel, not an advantage.
+
+Option **A** is the most precise explanation of why the journey is physically possible within the astronaut's internal frame of reference: the "space" they must traverse literally shrinks.
+
+### QUESTION_TYPE
+Multiple choice

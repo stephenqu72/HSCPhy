@@ -1,0 +1,21 @@
+To answer this HSC-style physics question, you must demonstrate a clear understanding of Einstein’s theory of Special Relativity, specifically the phenomenon of **time dilation**.
+
+### Answer (using the example of cosmic-origin muons)
+
+Observations of cosmic-origin muons at the Earth's surface provide empirical validation for Einstein’s prediction of time dilation. Muons are unstable subatomic particles created in the upper atmosphere with a very short mean lifetime of approximately $2.2 \times 10^{-6}$ seconds. Even traveling at speeds approaching the speed of light ($c$), classical physics predicts that these muons should decay long before they can travel the distance to the Earth's surface. 
+
+However, detectors on the ground observe a significant flux of muons. According to Special Relativity, because the muons are traveling at relativistic speeds relative to the Earth, their internal "clocks" (their decay rate) appear to run slower from the perspective of an Earth-based observer. This is described by the time dilation formula:
+$$t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Where $t_0$ is the proper time (the muon's lifetime in its own frame) and $t$ is the dilated time observed from Earth. Because $v \approx c$, the denominator is very small, making $t$ significantly larger than $t_0$. This extended lifespan allows the muons to reach the Earth’s surface before decaying, confirming that time is relative and dilation occurs as predicted by Einstein.
+
+***
+
+### How to solve this type of question
+1.  **Select the evidence you know best:** Both options are classic proofs of Special Relativity. Choose the one where you can comfortably explain the physics concepts.
+2.  **State the Prediction:** Explicitly mention that Einstein predicted "time dilation" for objects moving at relativistic speeds.
+3.  **The "Before/Without" scenario:** Briefly explain why the results would be impossible under classical Newtonian physics (e.g., muons should decay before reaching the surface).
+4.  **The "After/With" scenario:** Explain how the relativistic effect changes the outcome (e.g., the muon's lifetime is dilated, allowing it to cover more distance).
+5.  **Use the Formula:** For a 4-mark question, including the time dilation formula adds rigor and shows the examiner you understand the mathematical basis of the theory.
+
+###QUESTION_TYPE
+Short answer

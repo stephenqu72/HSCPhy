@@ -1,0 +1,32 @@
+To find the work function of copper, we use the photoelectric effect equation derived from the conservation of energy:
+
+$$E_k = hf - \Phi$$
+
+Where:
+- $E_k$ is the maximum kinetic energy of the emitted photoelectrons.
+- $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$ or $4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$).
+- $f$ is the frequency of the incident light.
+- $\Phi$ is the work function of the metal.
+
+### Step-by-Step Solution:
+
+1. **Understand the stopping potential:**
+   When the photocurrent stops, the voltage across the tube is the "stopping potential" ($V_s$). This voltage provides enough energy to stop even the most energetic electrons. Therefore, the maximum kinetic energy is equal to the energy gained by an electron crossing that potential:
+   $$E_k = e \times V_s$$
+   Given $V_s = 1.1 \text{ V}$, the maximum kinetic energy is $1.1 \text{ eV}$.
+
+2. **Calculate the energy of the incident photons ($hf$):**
+   Using Planck's constant in electron-volts ($4.136 \times 10^{-15} \text{ eV}\cdot\text{s}$):
+   $$E = hf$$
+   $$E = (4.136 \times 10^{-15} \text{ eV}\cdot\text{s}) \times (1.5 \times 10^{15} \text{ Hz})$$
+   $$E \approx 6.2 \text{ eV}$$
+
+3. **Calculate the work function ($\Phi$):**
+   Rearranging the photoelectric equation $\Phi = hf - E_k$:
+   $$\Phi = 6.2 \text{ eV} - 1.1 \text{ eV}$$
+   $$\Phi = 5.1 \text{ eV}$$
+
+Comparing this result to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

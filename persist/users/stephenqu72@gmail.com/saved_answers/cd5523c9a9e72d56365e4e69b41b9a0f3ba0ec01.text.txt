@@ -1,0 +1,37 @@
+### Solution and Explanation
+
+#### (a) Calculate the initial velocity
+To calculate the initial velocity, we equate the maximum kinetic energy of the ejected electrons ($E_k$) to the energy required to stop them, which is the stopping voltage ($V_s$) multiplied by the charge of an electron ($e$).
+
+$$E_k = qV_s \implies \frac{1}{2}mv^2 = eV_s$$
+
+Given:
+- $V_s = 4.9\text{ V}$
+- $e = 1.602 \times 10^{-19}\text{ C}$
+- $m = 9.109 \times 10^{-31}\text{ kg}$
+
+$$v = \sqrt{\frac{2eV_s}{m}} = \sqrt{\frac{2 \times 1.602 \times 10^{-19} \times 4.9}{9.109 \times 10^{-31}}}$$
+$$v \approx 1.31 \times 10^6\text{ m/s}$$
+
+#### (b) Hypothesis
+A suitable hypothesis would be: "If the work function of the cathode metal increases, then the stopping voltage required to cease the photoelectric current will decrease for a fixed frequency of incident radiation."
+
+#### (c) Plotting the data
+*(Note: As the image provided does not contain the data table, you should plot Frequency ($f$) on the x-axis and Stopping Voltage ($V_s$) on the y-axis. The resulting graph will be a straight line.)*
+
+#### (d) Calculate the work function
+The Einstein photoelectric equation is $hf = \Phi + E_k$, which can be rearranged to $V_s = \frac{h}{e}f - \frac{\Phi}{e}$.
+1. Find the x-intercept of your graph ($f_0$, the threshold frequency).
+2. The work function $\Phi$ is calculated as:
+$$\Phi = hf_0$$
+Where $h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$.
+
+#### (e) Explain the quantum model
+The quantum model (Einstein’s photon theory) accounts for the results as follows:
+1. **Quantization:** Light exists as discrete packets of energy called photons, where $E = hf$.
+2. **One-to-one interaction:** Each photon interacts with a single electron. If the photon's energy is less than the work function ($\Phi$), no electrons are emitted regardless of intensity.
+3. **Threshold Frequency:** There is a minimum frequency ($f_0$) required to overcome the binding energy (work function) of the metal.
+4. **Conservation of Energy:** Any energy from the photon in excess of the work function is converted into the kinetic energy of the ejected electron. Increasing the frequency of light increases the kinetic energy (and thus stopping voltage), while increasing intensity only increases the *number* of photoelectrons emitted per second.
+
+###QUESTION_TYPE
+Calculation question

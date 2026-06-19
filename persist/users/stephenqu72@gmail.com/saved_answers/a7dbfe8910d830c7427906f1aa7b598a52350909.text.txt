@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(D) Photocurrent magnitude.**
+
+---
+
+### Explanation
+To understand this question, we must apply Einstein’s photoelectric equation and the particle model of light:
+
+1.  **Understanding Intensity:** In the context of the photoelectric effect, increasing the **intensity** of light (while keeping the frequency constant) means increasing the number of photons hitting the metal surface per unit of time. It does **not** change the energy of individual photons.
+
+2.  **Evaluating the Options:**
+    *   **(A) Photon Energy:** The energy of a single photon is given by $E = hf$ (where $h$ is Planck's constant and $f$ is frequency). Since intensity does not change the frequency of the light, the energy per photon remains constant.
+    *   **(B) Photon Wavelength:** Since $E = \frac{hc}{\lambda}$, the wavelength is determined solely by the frequency (color) of the light. Intensity does not change this.
+    *   **(C) Electron Kinetic Energy:** The maximum kinetic energy ($K_{max}$) of emitted electrons is given by $K_{max} = hf - \Phi$ (where $\Phi$ is the work function of the metal). Because $K_{max}$ depends only on the frequency of the incident light and the properties of the metal, changing the intensity has no effect on the kinetic energy of individual electrons.
+    *   **(D) Photocurrent Magnitude:** Since increasing intensity increases the number of photons striking the metal per second, and each photon (provided its frequency is above the threshold frequency) has a probability of ejecting one electron, the total number of photoelectrons emitted per second increases. Consequently, the **photocurrent magnitude** (the rate of flow of charge) increases.
+
+### QUESTION_TYPE
+Multiple choice

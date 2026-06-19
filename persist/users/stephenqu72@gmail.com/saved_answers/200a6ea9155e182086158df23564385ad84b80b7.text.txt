@@ -1,0 +1,35 @@
+To solve this question, we must apply Wien's Displacement Law, which states that $\lambda_{max} T = b$, where $b$ is Wien's displacement constant. Rearranging this gives $\lambda_{max} = b \left( \frac{1}{T} \right)$. This shows that a plot of $\lambda_{max}$ against $\frac{1}{T}$ will yield a straight line with a gradient equal to $b$.
+
+### Part (a): Plotting the Data
+First, extract the peak wavelengths ($\lambda_{max}$) for each temperature ($T$) from the provided graph. 
+*   $T = 7000\text{ K} \rightarrow \lambda_{max} \approx 410\text{ nm}$
+*   $T = 6500\text{ K} \rightarrow \lambda_{max} \approx 440\text{ nm}$
+*   $T = 6000\text{ K} \rightarrow \lambda_{max} \approx 480\text{ nm}$
+*   $T = 5500\text{ K} \rightarrow \lambda_{max} \approx 520\text{ nm}$
+*   $T = 5000\text{ K} \rightarrow \lambda_{max} \approx 580\text{ nm}$
+
+Now calculate $\frac{1}{T}$ for each (in units of $10^{-4}\text{ K}^{-1}$):
+*   $7000\text{ K}: 1/7000 \approx 1.43$
+*   $6500\text{ K}: 1/6500 \approx 1.54$
+*   $6000\text{ K}: 1/6000 \approx 1.67$
+*   $5500\text{ K}: 1/5500 \approx 1.82$
+*   $5000\text{ K}: 1/5000 = 2.00$
+
+Plot these points on the provided grid, label the y-axis "Wavelength $\lambda_{max}$ (nm)", and draw a line-of-best-fit passing through the origin (as $\lambda_{max} \propto 1/T$).
+
+### Part (b): Determining Wien's Constant ($b$)
+Pick two points on your line-of-best-fit, $(x_1, y_1)$ and $(x_2, y_2)$, to calculate the gradient:
+$$b = \text{gradient} = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}$$
+Ensure you account for the scale factor $10^{-4}$ on the x-axis.
+Example calculation: Using $(2.0, 580)$ and $(1.4, 405)$:
+$$b = \frac{580 - 405}{(2.0 - 1.4) \times 10^{-4}} = \frac{175}{0.6 \times 10^{-4}} \approx 2.92 \times 10^6\text{ nm}\cdot\text{K}$$
+Converting to standard SI units: $2.92 \times 10^{-3}\text{ m}\cdot\text{K}$.
+
+### Part (c): Assessment
+The accepted value for Wien's constant is approximately $2.898 \times 10^{-3}\text{ m}\cdot\text{K}$.
+To assess accuracy, calculate the percentage error:
+$$\text{Percentage error} = \left| \frac{\text{Experimental} - \text{Theoretical}}{\text{Theoretical}} \right| \times 100\%$$
+If your result is close to $2.90 \times 10^{-3}\text{ m}\cdot\text{K}$, the method is accurate. Minor discrepancies arise from the resolution of reading peak wavelengths from the provided graph, which is an inherent limitation of manual graphical analysis.
+
+###QUESTION_TYPE
+Data analysis questions

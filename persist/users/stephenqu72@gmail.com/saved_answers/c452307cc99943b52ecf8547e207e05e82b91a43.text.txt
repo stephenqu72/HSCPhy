@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a)
+To find the length of the missile as measured by an observer on Earth, we use the **length contraction** formula:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Where:
+- $L_0 = 1.8\text{ m}$ (proper length of the missile)
+- $v = 2.4 \times 10^8\text{ m/s}$ (observed speed of the missile)
+- $c \approx 3.0 \times 10^8\text{ m/s}$
+
+**Calculation:**
+First, find the ratio $\frac{v}{c}$:
+$$\frac{v}{c} = \frac{2.4 \times 10^8}{3.0 \times 10^8} = 0.8$$
+Now substitute into the formula:
+$$L = 1.8 \sqrt{1 - (0.8)^2}$$
+$$L = 1.8 \sqrt{1 - 0.64}$$
+$$L = 1.8 \sqrt{0.36}$$
+$$L = 1.8 \times 0.6 = 1.08\text{ m}$$
+
+**Answer:** The observed length of the missile is **$1.08\text{ m}$**.
+
+---
+
+#### Part (b)
+**Evaluation of the claim:**
+The physics student's claim is **incorrect**. This claim relies on Galilean relativity, which states that velocities add linearly. However, at relativistic speeds, we must apply Einstein’s **Second Postulate of Special Relativity**.
+
+**Key Physics Principles:**
+1.  **Constancy of the speed of light:** Einstein's second postulate states that the speed of light in a vacuum ($c$) is the same for all inertial observers, regardless of the motion of the source or the observer.
+2.  **Relativistic Velocity Addition:** While massive objects like the missile follow the relativistic velocity addition formula:
+    $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$
+    When the object is a photon, $u'$ is $c$. Substituting $u' = c$ into the equation yields:
+    $$u = \frac{v + c}{1 + \frac{vc}{c^2}} = \frac{v + c}{1 + \frac{v}{c}} = \frac{v + c}{\frac{c + v}{c}} = c$$
+    
+Therefore, the observer on Earth will measure the speed of the photons in the laser to be exactly $c$ ($3.0 \times 10^8\text{ m/s}$), not the sum of the spacecraft's speed and the speed of light.
+
+###QUESTION_TYPE
+Calculation question

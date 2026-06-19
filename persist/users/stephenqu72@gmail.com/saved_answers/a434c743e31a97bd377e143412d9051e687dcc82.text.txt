@@ -1,0 +1,42 @@
+This question tests your understanding of Einstein’s Special Relativity, specifically time dilation and length contraction.
+
+### Answers and Explanations
+
+**Part a: Calculate the half-life of the muons as measured by a stationary observer on the ground.**
+
+To a stationary observer, the moving muon's clock appears to run slow. This is **time dilation**. The formula is:
+$$t = \gamma t_0$$
+Where:
+- $t_0 = 2.2 \times 10^{-6} \, \text{s}$ (the proper half-life)
+- $\gamma = 10$
+- $t = 10 \times 2.2 \times 10^{-6} \, \text{s} = 2.2 \times 10^{-5} \, \text{s}$
+
+**Result:** The half-life as measured by the observer on the ground is $2.2 \times 10^{-5} \, \text{s}$.
+
+***
+
+**Part b: Find the height of the mountain as measured by the muons.**
+
+To the muons, the mountain is moving towards them at $0.995c$. This is **length contraction** in the direction of motion. The formula is:
+$$L = \frac{L_0}{\gamma}$$
+Where:
+- $L_0 = 2627 \, \text{m}$ (proper length of the mountain)
+- $\gamma = 10$
+- $L = \frac{2627}{10} = 262.7 \, \text{m}$
+
+**Result:** The height of the mountain as measured by the muons is $262.7 \, \text{m}$.
+
+***
+
+**Part c: Explain why many more muons reached the ground than would be expected according to classical physics.**
+
+According to classical physics (Galilean relativity), the time taken for the muon to travel $2627 \, \text{m}$ at $0.995c$ would be roughly $8.8 \, \mu\text{s}$, which is several half-lives, meaning most should have decayed. 
+
+In Special Relativity, there are two complementary perspectives:
+1. **From the ground observer's perspective:** The moving muon experiences **time dilation**, meaning its internal "clock" runs significantly slower. Consequently, it lives much longer than $2.2 \, \mu\text{s}$ in the Earth's frame, allowing it enough time to reach the ground before decaying.
+2. **From the muon's perspective:** The mountain experiences **length contraction**. Because the mountain is significantly shorter ($262.7 \, \text{m}$ instead of $2627 \, \text{m}$), the muon can traverse the distance in a shorter time—short enough that it reaches the ground before the statistical probability of decay takes its toll.
+
+Both frames agree on the physical outcome: the muon reaches the ground.
+
+###QUESTION_TYPE
+Calculation question

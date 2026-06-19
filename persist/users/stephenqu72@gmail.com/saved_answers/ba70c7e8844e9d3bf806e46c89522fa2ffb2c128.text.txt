@@ -1,0 +1,28 @@
+To solve this problem, we must relate the physics of the photoelectric effect to the linear equation of the graph provided.
+
+### Explanation
+
+1.  **Recall the Einstein photoelectric equation:**
+    The maximum kinetic energy ($E_k$) of an emitted photoelectron is given by:
+    $$E_k = E_{photon} - \Phi$$
+    where $E_{photon}$ is the energy of the incident photon ($E = hf$) and $\Phi$ is the work function of the metal.
+
+2.  **Express the equation in terms of wavelength ($\lambda$):**
+    Since the speed of light $c = f\lambda$, we have $f = \frac{c}{\lambda}$. Substituting this into the energy equation:
+    $$E_k = h\left(\frac{c}{\lambda}\right) - \Phi$$
+    $$E_k = (hc) \left(\frac{1}{\lambda}\right) - \Phi$$
+
+3.  **Compare to the linear equation $y = mx + b$:**
+    The graph plots $E_k$ on the y-axis and $\frac{1}{\lambda}$ on the x-axis.
+    *   $y = E_k$
+    *   $x = \frac{1}{\lambda}$
+    *   $m$ (gradient) $= hc$
+    *   $b$ (y-intercept) $= -\Phi$
+
+Comparing these, we can see that the gradient of the graph is the product of Planck's constant ($h$) and the speed of light ($c$).
+
+### Answer
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

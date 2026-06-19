@@ -1,0 +1,27 @@
+As an HSC physics teacher, I recommend structuring your answers to clearly address the physical principles and mathematical relationships involved.
+
+### Part (a) Compare classical momentum and relativistic momentum.
+
+**Answer:**
+Classical momentum is defined as $p = mv$, where momentum is directly proportional to velocity. This holds true at low speeds (non-relativistic speeds). Relativistic momentum, however, is defined as $p = \gamma mv$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. As the velocity $v$ of an object approaches the speed of light $c$, the Lorentz factor $\gamma$ increases towards infinity, meaning the momentum increases much more rapidly than the classical model predicts.
+
+**Teacher's Explanation:**
+To score full marks, you must show the relationship between the two. 
+1.  **Define both:** State the classical formula and the relativistic formula.
+2.  **Highlight the difference:** Mention the Lorentz factor $\gamma$. 
+3.  **Contextualize:** Explain that classical momentum is an approximation that only works when $v \ll c$, whereas relativistic momentum accounts for the effects of special relativity as $v \to c$.
+
+---
+
+### Part (b) Explain why there is a maximum speed for any mass regardless of the energy applied.
+
+**Answer:**
+As an object with mass is accelerated towards the speed of light, its relativistic momentum increases towards infinity because the Lorentz factor $\gamma$ approaches infinity as $v \to c$. According to the work-energy theorem, to continue increasing the velocity of an object, more work (energy) must be done. As $v$ approaches $c$, the energy required to achieve further acceleration becomes infinite. Therefore, no finite amount of energy can accelerate a massive object to or beyond the speed of light.
+
+**Teacher's Explanation:**
+This question tests your understanding of the "speed limit" of the universe. 
+*   **Key concept:** Link the energy required to the momentum. 
+*   **Logical flow:** Explain that as $v \to c$, $\gamma \to \infty$. Since relativistic kinetic energy is $E_k = (\gamma - 1)mc^2$, as $\gamma$ approaches infinity, the energy required to further increase velocity also approaches infinity. This makes it physically impossible for any object with non-zero rest mass to reach $c$.
+
+###QUESTION_TYPE
+Short answer

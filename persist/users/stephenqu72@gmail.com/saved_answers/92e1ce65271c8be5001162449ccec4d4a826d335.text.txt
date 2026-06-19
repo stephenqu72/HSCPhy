@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To understand this question, we must look at the physics of the photoelectric effect experiment shown in the circuit diagram.
+
+1.  **Understanding the Physics:** When light shines on the cathode of the photocell, electrons are emitted (photoelectrons). Some of these electrons have enough kinetic energy to travel across the vacuum gap to the anode, creating a current measured by the ammeter.
+2.  **The Role of the Variable Source:** The variable power source is connected to create a **retarding potential** (a reverse voltage). By adjusting this voltage, we can push electrons back toward the cathode.
+3.  **Measuring Maximum Kinetic Energy ($E_{k,max}$):** As the negative potential on the anode increases, fewer electrons have enough kinetic energy to reach it. When the potential reaches a specific value called the **stopping potential ($V_s$)**, even the most energetic electrons are stopped before reaching the anode. At this point, the photoelectric current drops to zero (or its minimum value).
+4.  **The Equation:** The maximum kinetic energy is related to the stopping potential by the equation:
+    $$E_{k,max} = eV_s$$
+    where $e$ is the elementary charge. Therefore, to measure $E_{k,max}$, we must identify the voltmeter reading when the current reaches its minimum (zero) value, which tells us the stopping potential $V_s$.
+
+**Why the others are incorrect:**
+*   **A:** Brightness (intensity) affects the *number* of electrons emitted, not their maximum kinetic energy.
+*   **B:** While wavelength determines the energy of individual photons (and thus the $E_{k,max}$ for a given material), it is not the *measurement* of that energy; it is a variable that dictates the result.
+*   **D:** Measuring the ammeter reading at maximum voltage is not a standard method for calculating $E_{k,max}$ and does not provide the stopping potential.
+
+###QUESTION_TYPE
+Multiple choice

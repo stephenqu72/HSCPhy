@@ -1,0 +1,28 @@
+To find the energy of a photon emitted by the radio transmitter, we use the Planck-Einstein relation:
+
+$$E = hf$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given variables:**
+    The frequency ($f$) is given as $102.8 \text{ MHz}$. We must convert this into the SI unit, Hertz ($Hz$):
+    $$f = 102.8 \times 10^6 \text{ Hz} = 1.028 \times 10^8 \text{ Hz}$$
+
+2.  **Identify the constant:**
+    We use Planck’s constant ($h$), which is approximately:
+    $$h \approx 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$$
+
+3.  **Perform the calculation:**
+    Substitute the values into the formula:
+    $$E = (6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (1.028 \times 10^8 \text{ Hz})$$
+    $$E \approx 6.811528 \times 10^{-26} \text{ J}$$
+
+Rounding this to four significant figures gives $6.812 \times 10^{-26} \text{ J}$.
+
+Comparing this result to the given options, it matches option **(B)**.
+
+### Conclusion:
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

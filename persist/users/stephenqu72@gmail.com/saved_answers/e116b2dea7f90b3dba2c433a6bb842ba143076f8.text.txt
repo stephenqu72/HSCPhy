@@ -1,0 +1,38 @@
+To solve this problem, we use **Wien’s Displacement Law**, which relates the surface temperature of a black body to the wavelength at which it emits the maximum intensity of radiation ($\lambda_{max}$).
+
+### The Physics Principle
+Wien’s Displacement Law is expressed as:
+$$\lambda_{max} = \frac{b}{T}$$
+Where:
+*   $\lambda_{max}$ is the peak wavelength in meters ($m$).
+*   $T$ is the absolute temperature in Kelvin ($K$).
+*   $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \, m \cdot K$.
+
+### Step-by-Step Calculation
+1.  **Identify the given variables:**
+    *   $T = 4000 \, K$
+    *   $b \approx 2.898 \times 10^{-3} \, m \cdot K$
+
+2.  **Substitute into the formula:**
+    $$\lambda_{max} = \frac{2.898 \times 10^{-3}}{4000}$$
+
+3.  **Perform the division:**
+    $$\lambda_{max} = \frac{2.898}{4000} \times 10^{-3}$$
+    $$\lambda_{max} = 0.0007245 \times 10^{-3} \, m$$
+    $$\lambda_{max} = 7.245 \times 10^{-7} \, m$$
+
+4.  **Convert to nanometers (nm) to match the options:**
+    Since $1 \, m = 10^9 \, nm$:
+    $$\lambda_{max} = 7.245 \times 10^{-7} \times 10^9 \, nm$$
+    $$\lambda_{max} = 724.5 \, nm \approx 725 \, nm$$
+
+### Conclusion
+Comparing our result of $725 \, nm$ with the given options, option **(d)** is the correct answer.
+
+*   Option (a) is $0.0725 \, \mu m$ (too small).
+*   Option (b) is $7250 \, nm$ (too large).
+*   Option (c) is $725 \times 10^{-7} \, nm = 7.25 \times 10^{-5} \, nm$ (too small).
+*   Option (d) is $725 \, nm$.
+
+###QUESTION_TYPE
+Multiple choice

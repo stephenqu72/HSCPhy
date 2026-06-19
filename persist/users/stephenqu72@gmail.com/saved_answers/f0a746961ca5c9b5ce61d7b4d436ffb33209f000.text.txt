@@ -1,0 +1,20 @@
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of polarized light changes when it passes through a second polarizing filter (analyzer).
+
+### Answer
+The correct option is **(C)**.
+
+### Explanation
+1.  **Understand the initial state:** The light exiting the first filter is vertically polarized. The second polarizer (the analyzer) is currently set to a horizontal axis. 
+    *   Since the angle $\theta$ between the incoming light (vertical) and the transmission axis of the analyzer (horizontal) is $90^\circ$, the intensity of light passing through the second polarizer is given by:
+        $$I = I_0 \cos^2(90^\circ) = 0$$
+    *   Currently, no light is passing through the second polarizer.
+
+2.  **Analyze the change:** The problem states that the second polarizer is "rotated slightly." 
+    *   If the polarizer is rotated from the $90^\circ$ (horizontal) position, the angle $\theta$ between the light's polarization and the analyzer axis will now be slightly less than $90^\circ$ (e.g., $89^\circ$ or $91^\circ$).
+    *   According to Malus's Law, $I = I_0 \cos^2(\theta)$.
+    *   As $\theta$ moves from $90^\circ$ toward $0^\circ$ (or $180^\circ$), the value of $\cos^2(\theta)$ increases from $0$ to a positive value.
+
+3.  **Conclusion:** Since the light intensity was zero at $90^\circ$, any rotation away from the crossed position will allow some light to pass through. Therefore, the amount of light transmitted will increase.
+
+###QUESTION_TYPE
+Multiple choice

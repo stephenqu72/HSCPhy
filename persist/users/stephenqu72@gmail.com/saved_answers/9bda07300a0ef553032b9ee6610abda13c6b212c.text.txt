@@ -1,0 +1,30 @@
+To determine which metals will emit photoelectrons, we must compare the energy of the incident photons to the work function ($\Phi$) of each metal.
+
+### Step-by-Step Explanation:
+
+1.  **Calculate the energy of the incident photons:**
+    The energy of a photon ($E$) is given by the formula $E = hf$, where $h$ is Planck's constant and $f$ is the frequency of the light. Using $h \approx 4.136 \times 10^{-15} \text{ eV s}$:
+    $$E = (4.136 \times 10^{-15} \text{ eV s}) \times (7 \times 10^{14} \text{ Hz})$$
+    $$E \approx 2.895 \text{ eV}$$
+    Rounding this, the incident photon energy is approximately $2.9 \text{ eV}$.
+
+2.  **Analyze the graph:**
+    The x-intercept of each line on the graph represents the **work function** ($\Phi$) of that specific metal. This is the minimum energy required to eject a photoelectron from the surface.
+    *   **K (Potassium):** The x-intercept is slightly above $2 \text{ eV}$ (approx. $2.2 \text{ eV}$).
+    *   **Li (Lithium):** The x-intercept is slightly higher than K (approx. $2.4 \text{ eV}$).
+    *   **Mg (Magnesium):** The x-intercept is at $3.5 \text{ eV}$.
+    *   **Ag (Silver):** The x-intercept is at $4.5 \text{ eV}$.
+
+3.  **Evaluate the condition for photoelectric emission:**
+    Photoelectric emission occurs only if the incident photon energy is greater than or equal to the work function ($E \ge \Phi$).
+    *   For **K**: $2.9 \text{ eV} > 2.2 \text{ eV}$ (Emission occurs)
+    *   For **Li**: $2.9 \text{ eV} > 2.4 \text{ eV}$ (Emission occurs)
+    *   For **Mg**: $2.9 \text{ eV} < 3.5 \text{ eV}$ (No emission)
+    *   For **Ag**: $2.9 \text{ eV} < 4.5 \text{ eV}$ (No emission)
+
+Since the incident energy of $2.9 \text{ eV}$ is only greater than the work functions of K and Li, photoelectrons will only be emitted from these two metals.
+
+**Correct Answer:** **A. K, Li only**
+
+###QUESTION_TYPE
+Multiple choice

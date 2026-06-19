@@ -1,0 +1,25 @@
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of polarized light changes when it passes through a second polarizing filter (an analyzer).
+
+### Step-by-Step Explanation:
+
+1.  **Understand the initial state:** The light entering the hotel window has an intensity of $I_0$. Since the window is polarized, the light that successfully passes through the window is already polarized at the orientation of the window. Let the intensity of this light immediately after passing through the window be $I_{window}$. *Note: In many textbook problems, "light entering the window" refers to the intensity that has already been polarized by the first filter.*
+2.  **Apply Malus's Law:** When this polarized light reaches Tomas's sunglasses (the second polarizer), it encounters an axis at an angle $\theta$ to the window's axis. Malus's Law states:
+    $$I = I_{initial} \cos^2(\theta)$$
+    Where:
+    *   $I$ is the transmitted intensity.
+    *   $I_{initial}$ is the intensity of the light incident on the second polarizer (which is $I_0$ in this context).
+    *   $\theta$ is the angle between the transmission axes of the two polarizers.
+3.  **Perform the calculation:** 
+    *   Given $\theta = 45^\circ$.
+    *   Calculate $\cos(45^\circ)$: Since $\cos(45^\circ) = \frac{1}{\sqrt{2}}$, then $\cos^2(45^\circ) = (\frac{1}{\sqrt{2}})^2 = \frac{1}{2} = 0.5$.
+    *   Substitute into the formula:
+        $$I = I_0 \times 0.5$$
+        $$I = 0.5 I_0$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+### Answer:
+The intensity of the light as seen by Tomas is **$0.50 I_0$**.
+
+###QUESTION_TYPE
+Multiple choice

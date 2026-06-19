@@ -1,0 +1,16 @@
+### Answer
+No, no light will be observed at point P.
+
+### Explanation
+To solve this problem, we apply the principles of Malus's Law and the behavior of light passing through polarising filters:
+
+1.  **First Filter ($F_1$):** When unpolarised light passes through the first polariser, its intensity is reduced by half, and the transmitted light becomes plane-polarised in the direction of the filter's axis. Since $F_1$ is aligned with the $y$-axis, the light emerging from $F_1$ is vertically polarised.
+2.  **Second Filter ($F_2$):** The light now encounters $F_2$, whose polarising axis is aligned with the $x$-axis. According to Malus's Law, the intensity of light transmitted through a polariser is given by:
+    $$I = I_0 \cos^2(\theta)$$
+    where $\theta$ is the angle between the polarisation direction of the incident light and the axis of the second filter.
+3.  **The Result:** The angle between the $y$-axis (polarisation of light from $F_1$) and the $x$-axis (axis of $F_2$) is $90^\circ$. Substituting this into the equation:
+    $$I = I_0 \cos^2(90^\circ) = I_0(0)^2 = 0$$
+Because the two polarising axes are perpendicular (crossed polarisers), no light can pass through the second filter.
+
+### QUESTION_TYPE
+Short answer

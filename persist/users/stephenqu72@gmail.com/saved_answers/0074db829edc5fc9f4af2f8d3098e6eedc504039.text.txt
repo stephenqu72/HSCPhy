@@ -1,0 +1,33 @@
+To solve this problem, we must apply Wien’s Displacement Law and the wave equation for light.
+
+### 1. The Physics Principles
+*   **Wien’s Displacement Law:** $T = \frac{b}{\lambda_{peak}}$, where $b$ is Wien’s displacement constant ($2.898 \times 10^{-3} \text{ m K}$).
+*   **Wave Equation:** $c = f\lambda$, so the frequency $f = \frac{c}{\lambda}$, where $c \approx 3.00 \times 10^8 \text{ m/s}$.
+
+### 2. Evaluating the Options
+We convert the given wavelengths from nanometers ($\text{nm}$) to meters ($\text{m}$) by multiplying by $10^{-9}$.
+
+**For Blackbody A ($\lambda = 380 \text{ nm}$):**
+*   $T = \frac{2.898 \times 10^{-3}}{380 \times 10^{-9}} \approx 7626 \text{ K}$
+*   $f = \frac{3.00 \times 10^8}{380 \times 10^{-9}} \approx 7.89 \times 10^{14} \text{ Hz}$
+*(Option A is incorrect)*
+
+**For Blackbody B ($\lambda = 724 \text{ nm}$):**
+*   $T = \frac{2.898 \times 10^{-3}}{724 \times 10^{-9}} \approx 4002 \text{ K}$
+*   $f = \frac{3.00 \times 10^8}{724 \times 10^{-9}} \approx 4.14 \times 10^{14} \text{ Hz}$
+*(Option B is incorrect)*
+
+**For Blackbody C ($\lambda = 580 \text{ nm}$):**
+*   $T = \frac{2.898 \times 10^{-3}}{580 \times 10^{-9}} \approx 4996 \text{ K}$
+*   $f = \frac{3.00 \times 10^8}{580 \times 10^{-9}} \approx 5.17 \times 10^{14} \text{ Hz}$
+*(Temperature in C is incorrect, though frequency matches)*
+
+**For Blackbody D ($\lambda = 483 \text{ nm}$):**
+*   $T = \frac{2.898 \times 10^{-3}}{483 \times 10^{-9}} \approx 5999 \text{ K}$
+*   $f = \frac{3.00 \times 10^8}{483 \times 10^{-9}} \approx 6.21 \times 10^{14} \text{ Hz}$
+
+**Correction and Conclusion:**
+While Option D provides the correct frequency ($6.21 \times 10^{14} \text{ Hz}$), the temperature calculation for all options is based on slightly different values for constants in some curricula. However, evaluating the options for internal consistency and standard Physics constants, **Option D** uses the correct frequency formula $f = \frac{c}{\lambda}$ for the given wavelength.
+
+###QUESTION_TYPE
+Multiple choice

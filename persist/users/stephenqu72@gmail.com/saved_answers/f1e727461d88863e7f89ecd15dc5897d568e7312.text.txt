@@ -1,0 +1,28 @@
+To solve this problem, we must apply the concept of **proper length** from Einstein’s Special Theory of Relativity.
+
+### The Physics Concept
+**Proper length ($L_0$)** is defined as the length of an object measured in the reference frame in which the object is at rest. 
+*   If an observer is moving relative to an object, they will measure a contracted length ($L$) given by the formula $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$.
+*   If an observer is stationary relative to an object, they measure the proper length ($L_0$).
+
+### Analyzing the Scenario
+1.  **The Train:** Scientist $X$ is inside the train, meaning $X$ is at rest relative to the train. Therefore, $X$ measures the **proper length** of the train.
+2.  **The Platform:** Scientist $Y$ is standing on the platform, meaning $Y$ is at rest relative to the platform. Therefore, $Y$ measures the **proper length** of the platform.
+
+### Evaluating the Options
+*   **A:** Scientist $X$ is at rest relative to the train, so she measures the proper length of the train. **This is correct.**
+*   **B:** Scientist $Y$ is moving relative to the train at $0.8c$. He measures a contracted length, not the proper length.
+*   **C:** While $Y$ measures the proper length of the platform, he does not measure the proper length of the train because he is moving relative to it.
+*   **D:** Scientist $X$ is moving relative to the platform, so she measures a contracted length of the platform, not the proper length.
+
+**Correct Answer: A**
+
+---
+
+### How to solve this type of question:
+1.  **Identify the object in question:** Determine if the object is the train or the platform.
+2.  **Check the relative motion:** Identify the observer's frame of reference. Ask yourself: "Is the observer moving relative to the object?"
+3.  **Apply the definition:** If the observer is in the same inertial frame as the object (relative velocity = 0), they measure proper length. If they are in a different frame (relative velocity $\neq$ 0), they measure a length-contracted value.
+
+###QUESTION_TYPE
+Multiple choice

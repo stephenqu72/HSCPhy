@@ -1,0 +1,33 @@
+To find the magnitude of the muon's momentum, we must use the relativistic formula for momentum:
+$$p = \gamma m v$$
+where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ is the Lorentz factor, $m$ is the rest mass, and $v$ is the velocity.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Mass $m = 106 \text{ MeV}/c^2$
+*   Velocity $v = 0.95c$
+
+**2. Convert mass to SI units (kg):**
+*   $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$
+*   $1 \text{ MeV} = 1.602 \times 10^{-13} \text{ J}$
+*   Using $E = mc^2$, the mass $m = \frac{106 \times 1.602 \times 10^{-13} \text{ J}}{c^2}$.
+*   Since $c = 3.00 \times 10^8 \text{ m/s}$, then $c^2 = 9.00 \times 10^{16} \text{ m}^2/\text{s}^2$.
+*   $m = \frac{1.698 \times 10^{-11}}{9.00 \times 10^{16}} \approx 1.887 \times 10^{-28} \text{ kg}$.
+
+**3. Calculate the Lorentz factor ($\gamma$):**
+*   $\gamma = \frac{1}{\sqrt{1 - 0.95^2}} = \frac{1}{\sqrt{1 - 0.9025}} = \frac{1}{\sqrt{0.0975}} \approx \frac{1}{0.31225} \approx 3.20$
+
+**4. Calculate momentum ($p$):**
+*   $p = \gamma m v$
+*   $p = 3.20 \times (1.887 \times 10^{-28} \text{ kg}) \times (0.95 \times 3.00 \times 10^8 \text{ m/s})$
+*   $p = 3.20 \times 1.887 \times 10^{-28} \times 2.85 \times 10^8$
+*   $p \approx 1.72 \times 10^{-19} \text{ kg m/s}$
+
+Comparing our result to the options provided, the value is closest to **(B)**.
+
+### Conclusion
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

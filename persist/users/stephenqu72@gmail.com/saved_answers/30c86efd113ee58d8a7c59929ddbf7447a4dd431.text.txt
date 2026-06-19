@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of the Bohr model of the atom and the photoelectric effect.
+
+### (a) Analysis of Electron Transitions
+First, determine the excited state. The atom is in the ground state ($n=1$) at $-28.4\text{ eV}$. An incoming photon of $22.5\text{ eV}$ is absorbed:
+Final energy level $= -28.4\text{ eV} + 22.5\text{ eV} = -5.9\text{ eV}$, which corresponds to the **$n=3$ state**.
+
+The electron can transition from $n=3$ to lower energy levels:
+1. $n=3 \rightarrow n=2$
+2. $n=3 \rightarrow n=1$
+3. $n=2 \rightarrow n=1$ (after the $n=3 \rightarrow n=2$ transition)
+
+**Justification:** An atom excited to $n=3$ can cascade down to the ground state. It can drop directly to $n=1$, directly to $n=2$, or from $n=2$ to $n=1$ after reaching $n=2$.
+
+### (b) Calculation of Wavelength
+The transition is $n=2$ to $n=1$:
+$$\Delta E = E_2 - E_1 = -12.6\text{ eV} - (-28.4\text{ eV}) = 15.8\text{ eV}$$
+Convert to Joules: $15.8 \times 1.602 \times 10^{-19}\text{ J} \approx 2.531 \times 10^{-18}\text{ J}$.
+Using $E = \frac{hc}{\lambda}$:
+$$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{2.531 \times 10^{-18}} \approx 7.85 \times 10^{-8}\text{ m} = 78.5\text{ nm}$$
+
+### (c) Calculation of Maximum Velocity
+Using Einstein’s Photoelectric Equation: $K_{max} = E_{\text{photon}} - \Phi$
+$$K_{max} = 15.8\text{ eV} - 2.00\text{ eV} = 13.8\text{ eV}$$
+Convert to Joules: $13.8 \times 1.602 \times 10^{-19} = 2.211 \times 10^{-18}\text{ J}$.
+Using $K = \frac{1}{2}mv^2$:
+$$v = \sqrt{\frac{2K}{m}} = \sqrt{\frac{2(2.211 \times 10^{-18})}{9.11 \times 10^{-31}}}$$
+$$v \approx \sqrt{4.854 \times 10^{12}} \approx 2.20 \times 10^6\text{ m/s}$$
+
+***
+
+###QUESTION_TYPE
+Calculation question

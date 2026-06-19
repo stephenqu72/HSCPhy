@@ -1,0 +1,26 @@
+As an HSC Physics teacher, I will guide you through these questions based on the principles of wave motion and light.
+
+### Solutions and Explanations
+
+**(a) State what is meant by polarised light.**
+*   **Answer:** Polarised light is light in which the vibrations of the electric field are restricted to a single plane.
+*   **Explanation:** In unpolarised light, the electric field vector vibrates in all possible directions perpendicular to the direction of propagation. When light is polarised, these vibrations are filtered so that they only occur along one specific axis.
+
+**(b) (i) Calculate, in terms of $I_0$, the intensity of light transmitted through the analyser when $\theta = 60^{\circ}$.**
+*   **Answer:** $I = 0.25 I_0$ (or $\frac{1}{4} I_0$)
+*   **Explanation:** We use **Malus's Law**, which states that the transmitted intensity $I$ is given by $I = I_0 \cos^2 \theta$.
+    Substituting the given values:
+    $$I = I_0 \cos^2(60^{\circ})$$
+    Since $\cos(60^{\circ}) = 0.5$, then:
+    $$I = I_0 (0.5)^2 = 0.25 I_0$$
+
+**(b) (ii) Sketch a graph to show the variation with angle $\theta$ of the intensity.**
+*   **Answer:** You should draw a curve starting at $I_0$ when $\theta = 0^{\circ}$. The intensity drops to $0$ at $\theta = 90^{\circ}$ and returns to $I_0$ at $\theta = 180^{\circ}$. The shape is a "cosine-squared" curve (a smooth, rounded dip).
+*   **Explanation:** The graph represents the function $I(\theta) = I_0 \cos^2 \theta$. At $0^{\circ}$, the transmission axis is aligned, allowing maximum intensity ($I_0$). At $90^{\circ}$, the axes are crossed (perpendicular), resulting in zero transmission. At $180^{\circ}$, it is aligned again, resulting in $I_0$.
+
+**(c) Outline how polarising sunglasses reduce glare from a reflecting surface.**
+*   **Answer:** Light reflecting off non-metallic surfaces (like water or roads) becomes partially horizontally polarised. Polarising sunglasses contain vertical transmission axes, which block the horizontally polarised light (glare) while allowing vertically polarised light to pass through.
+*   **Explanation:** Reflection from horizontal surfaces at a specific angle (Brewster's angle) causes the reflected light to be predominantly horizontally polarised. By using lenses with a vertical polarising filter, the intense horizontal glare is blocked, significantly reducing the brightness while maintaining general visibility.
+
+###QUESTION_TYPE
+Calculation question

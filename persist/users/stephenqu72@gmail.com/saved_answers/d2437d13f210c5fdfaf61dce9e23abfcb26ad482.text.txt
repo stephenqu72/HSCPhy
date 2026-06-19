@@ -1,0 +1,28 @@
+To determine which adjustment produces the greatest reduction in light intensity, we use **Malus's Law**, which states:
+
+$$I = I_0 \cos^2(\theta)$$
+
+where $I$ is the transmitted intensity, $I_0$ is the incident intensity, and $\theta$ is the angle between the plane of polarization of the incident light and the transmission axis of the filter.
+
+### 1. Analyze the current state
+*   The incident light is polarized at $30^\circ$ to the $x$-axis.
+*   The filter axis is aligned with the $y$-axis (which is $90^\circ$ to the $x$-axis).
+*   The angle $\theta$ between the incident light and the filter axis is $90^\circ - 30^\circ = 60^\circ$.
+*   Currently, $I = I_0 \cos^2(60^\circ) = I_0(0.5)^2 = 0.25 I_0$.
+
+### 2. Evaluate the options
+To achieve the **greatest reduction** in intensity, we want to make the angle $\theta$ as close to $90^\circ$ as possible, because $\cos^2(90^\circ) = 0$.
+
+*   **(A) Rotate light source clockwise $10^\circ$:** The light is now at $30^\circ - 10^\circ = 20^\circ$. The new angle $\theta = 90^\circ - 20^\circ = 70^\circ$.
+    $I = I_0 \cos^2(70^\circ) \approx 0.117 I_0$.
+*   **(B) Rotate light source counter-clockwise $70^\circ$:** The light is now at $30^\circ + 70^\circ = 100^\circ$. The new angle $\theta = |100^\circ - 90^\circ| = 10^\circ$.
+    $I = I_0 \cos^2(10^\circ) \approx 0.970 I_0$.
+*   **(C) Rotate filter clockwise $140^\circ$:** The filter axis moves from $90^\circ$ to $90^\circ - 140^\circ = -50^\circ$ (or $310^\circ$). The new angle $\theta = |30^\circ - (-50^\circ)| = 80^\circ$.
+    $I = I_0 \cos^2(80^\circ) \approx 0.030 I_0$.
+*   **(D) Rotate filter counter-clockwise $110^\circ$:** The filter axis moves from $90^\circ$ to $90^\circ + 110^\circ = 200^\circ$. The new angle $\theta = |200^\circ - 30^\circ| = 170^\circ$. Since $\cos^2(170^\circ) = \cos^2(10^\circ)$, $I \approx 0.970 I_0$.
+
+### Conclusion
+Comparing the resulting intensities, $0.030 I_0$ is the smallest value. Therefore, **(C)** produces the greatest reduction in intensity because it brings the angle $\theta$ closest to $90^\circ$.
+
+###QUESTION_TYPE
+Multiple choice

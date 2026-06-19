@@ -1,0 +1,19 @@
+To answer this question, you must demonstrate an understanding of the nature of light as an electromagnetic wave and how polarizing filters interact with unpolarized light.
+
+### Model Answer
+Light emitted from an incandescent lamp is **unpolarized** (or randomly polarized). This means the electric field vectors of the light waves are oscillating in many random planes perpendicular to the direction of propagation.
+
+A plane polarizing filter consists of long-chain molecules aligned in a specific direction (the transmission axis). When the unpolarized light hits the filter, only the components of the electric field that are parallel to the filter's transmission axis are allowed to pass through. The components of the electric field perpendicular to the axis are absorbed or reflected by the filter's molecules. 
+
+Mathematically, for unpolarized light, the intensity is halved because, on average, the projection of the random electric field vectors onto the transmission axis results in an intensity $I = \frac{1}{2}I_0$. Because the filter blocks all light oscillating in the plane perpendicular to the transmission axis, the total intensity of the transmitted light is necessarily reduced.
+
+### How to solve this type of question
+1.  **Define the nature of the source:** Always start by identifying that an incandescent lamp produces *unpolarized* light. This is a crucial distinction.
+2.  **Explain the nature of the filter:** Mention that the polarizer has a specific "transmission axis."
+3.  **Explain the interaction:** Describe how the filter acts as a "gatekeeper" for the electric field components. Explain that only components parallel to the axis pass through, while others are removed.
+4.  **Conclude with intensity:** Clearly state that because a significant portion of the oscillating electric field is removed (specifically, the components not aligned with the axis), the total energy (intensity) of the wave must decrease.
+
+This is a four-mark question, so your answer needs to flow logically from the source of the light, through the mechanism of the filter, and end with the result (the reduction in intensity).
+
+###QUESTION_TYPE
+Short answer

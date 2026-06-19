@@ -1,0 +1,22 @@
+To solve this problem, we use the photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is frequency, and $\Phi$ is the work function. This equation is in the form of a linear graph $y = mx + c$, where the gradient is $h$ and the $x$-intercept is the threshold frequency ($f_0$).
+
+### a) i) Determining Planck's constant ($h$)
+1.  **Identify coordinates:** The line passes through $(f_0, 0) = (4 \times 10^{14} \text{ Hz}, 0 \text{ eV})$ and a second point, e.g., $(6 \times 10^{14} \text{ Hz}, 1.0 \text{ eV})$.
+2.  **Calculate the gradient:**
+    $$h = \frac{\Delta y}{\Delta x} = \frac{1.0 \text{ eV} - 0 \text{ eV}}{(6 - 4) \times 10^{14} \text{ Hz}} = \frac{1.0 \text{ eV}}{2 \times 10^{14} \text{ Hz}} = 5.0 \times 10^{-15} \text{ eV}\cdot\text{s}$$
+*(Note: To convert to SI units ($J\cdot s$), multiply by $1.6 \times 10^{-19} \text{ J/eV} \approx 8.0 \times 10^{-34} \text{ J}\cdot\text{s}$).*
+
+### a) ii) Maximum wavelength ($\lambda_{max}$)
+The maximum wavelength corresponds to the threshold frequency $f_0 = 4 \times 10^{14} \text{ Hz}$.
+$$\lambda = \frac{c}{f_0} = \frac{3 \times 10^8 \text{ m/s}}{4 \times 10^{14} \text{ Hz}} = 7.5 \times 10^{-7} \text{ m} = 750 \text{ nm}$$
+
+### b) New metal with work function $\frac{1}{2}\Phi$
+1.  The threshold frequency is defined as $f_0 = \frac{\Phi}{h}$.
+2.  If the new work function $\Phi' = \frac{1}{2}\Phi$, the new threshold frequency is $f_0' = \frac{1}{2}f_0$.
+3.  The original threshold is $4 \times 10^{14} \text{ Hz}$, so the new threshold is $2 \times 10^{14} \text{ Hz}$.
+4.  Since the gradient ($h$) remains constant, draw a new line starting at $x = 2$ on the frequency axis, parallel to the original dashed line. The line will pass through points like $(2, 0)$ and $(4, 1.0)$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve this problem, we use Einstein's mass-energy equivalence formula: 
+
+$$E = mc^2$$
+
+where:
+- $E$ is the energy produced in Joules ($J$)
+- $m$ is the mass lost in kilograms ($kg$)
+- $c$ is the speed of light, approximately $3.00 \times 10^8 \, m/s$
+
+### Step-by-Step Solution:
+
+**1. Calculate the total energy ($E$) released:**
+The bomb has a yield of 11 tonnes of TNT, and each tonne produces $4.2 \times 10^9 \, J$.
+$$E = 11 \times 4.2 \times 10^9 \, J = 4.62 \times 10^{10} \, J$$
+
+**2. Rearrange the formula to solve for mass ($m$):**
+$$m = \frac{E}{c^2}$$
+
+**3. Substitute the values:**
+Using $c = 3.00 \times 10^8 \, m/s$:
+$$m = \frac{4.62 \times 10^{10}}{(3.00 \times 10^8)^2}$$
+$$m = \frac{4.62 \times 10^{10}}{9.00 \times 10^{16}}$$
+$$m \approx 5.133 \times 10^{-7} \, kg$$
+
+Comparing this result to the given options, it matches option (B).
+
+**Correct Answer:** **(B)**
+
+###QUESTION_TYPE
+Multiple choice

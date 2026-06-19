@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+**Part a: Explanation of the difference**
+
+*   **Classical Mechanics Prediction:** According to Newtonian (classical) physics, momentum is defined by $p = mv$. Because mass ($m$) is considered constant, the relationship between momentum ($p$) and velocity ($v$) is **linear**. A graph of $p$ versus $v$ would be a straight line passing through the origin with a constant gradient equal to the mass.
+*   **The Provided Graph (Relativistic):** The graph shows a non-linear, asymptotic relationship. As an object's speed approaches the speed of light ($c$), its relativistic momentum increases exponentially toward infinity.
+*   **The Core Difference:** In special relativity, as $v \to c$, the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ approaches infinity. Since relativistic momentum is defined as $p = \gamma mv$, the momentum becomes infinite as the speed approaches $c$. Classical mechanics fails to account for this because it assumes mass is invariant and does not account for the effects of time dilation and length contraction on momentum.
+
+**Part b: Calculation**
+
+To calculate the relativistic momentum of a proton travelling at $0.8c$, we use the formula:
+$$p = \gamma mv = \frac{mv}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+1.  **Calculate the Lorentz factor ($\gamma$) for $v = 0.8c$:**
+    $$\gamma = \frac{1}{\sqrt{1 - (0.8)^2}} = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} = 1.666... \approx 1.67$$
+
+2.  **Calculate Momentum:**
+    $$p = 1.67 \times m_p \times 0.8c$$
+    $$p = 1.336 \times m_p c$$
+
+*Note: In physics problems of this type, unless a specific numerical value for the rest mass of a proton ($m_p \approx 1.67 \times 10^{-27}\text{ kg}$) is required, the answer is often expressed in terms of $m_p c$.*
+
+If substituting the constant:
+$$p = 1.67 \times (1.67 \times 10^{-27}\text{ kg}) \times (0.8 \times 3 \times 10^8\text{ m/s})$$
+$$p \approx 6.69 \times 10^{-19}\text{ kg m/s}$$
+
+### QUESTION_TYPE
+Calculation question

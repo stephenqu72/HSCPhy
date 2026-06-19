@@ -1,0 +1,31 @@
+To solve this problem, we apply the principle of **Length Contraction** from Einstein's Theory of Special Relativity. 
+
+### 1. Identify the given information:
+*   Proper length ($L_0$): The length measured when the object is stationary relative to the observer, which is $42\text{ m}$.
+*   Velocity of the spaceship ($v$): $2.75 \times 10^8\text{ m s}^{-1}$.
+*   Speed of light ($c$): $\approx 3.00 \times 10^8\text{ m s}^{-1}$.
+
+### 2. The Formula:
+The length contraction formula is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+where $L$ is the observed length of the object moving at velocity $v$.
+
+### 3. Step-by-Step Calculation:
+First, calculate the ratio $\frac{v}{c}$:
+$$\frac{v}{c} = \frac{2.75 \times 10^8}{3.00 \times 10^8} \approx 0.91667$$
+
+Now, square this value:
+$$\left(\frac{v}{c}\right)^2 \approx (0.91667)^2 \approx 0.84028$$
+
+Next, substitute this into the Lorentz factor part of the equation:
+$$\sqrt{1 - 0.84028} = \sqrt{0.15972} \approx 0.39965$$
+
+Finally, multiply by the proper length ($L_0$):
+$$L = 42 \times 0.39965 \approx 16.785\text{ m}$$
+
+Rounding to two decimal places, we get **$16.79\text{ m}$**.
+
+Comparing this result to the given options, it matches option **(A)**.
+
+### QUESTION_TYPE
+Multiple choice

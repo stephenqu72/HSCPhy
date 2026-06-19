@@ -1,0 +1,30 @@
+To solve this problem, we apply Hubble’s Law, which states that galaxies are moving away from us at a velocity proportional to their distance from Earth.
+
+### Step-by-Step Explanation
+
+**a. Graph the data:**
+To plot this, set the horizontal axis (x-axis) as **Distance ($Mpc$)** from 0 to 100, and the vertical axis (y-axis) as **Recessional Velocity ($km\,s^{-1}$)** from 0 to 6500. Plot the points given in the table and draw a line of best fit (a straight line passing through the origin).
+
+**b. Determine velocity of Delta:**
+Locate $62\,Mpc$ on your x-axis. Move vertically to your line of best fit, then read the corresponding value on the y-axis.
+Using the average Hubble constant derived in part (d), roughly $63\,km\,s^{-1}Mpc^{-1}$:
+$$v = H_0 \times r = 63 \times 62 \approx 3906\,km\,s^{-1}$$
+
+**c. Hubble’s Law in practical terms:**
+Hubble’s Law implies that the universe is expanding uniformly. In practical terms, this means that the farther away a galaxy is from Earth, the faster it appears to be receding from us. The constant $H_0$ represents the rate of this expansion.
+
+**d. Determine the Hubble constant ($H_0$):**
+The Hubble constant is the gradient of the line of best fit ($m = \frac{\Delta v}{\Delta r}$).
+Using the data point for Zeta ($98\,Mpc, 6200\,km\,s^{-1}$):
+$$H_0 = \frac{6200}{98} \approx 63.3\,km\,s^{-1}Mpc^{-1}$$
+(Note: Depending on your line of best fit, your answer may vary slightly, but it should be approximately $60–65\,km\,s^{-1}Mpc^{-1}$).
+
+***
+
+### Summary of Answers
+*   **b:** By reading from the graph, the velocity is approximately $3900\,km\,s^{-1}$.
+*   **c:** The universe is expanding such that the recessional velocity of a galaxy is directly proportional to its distance from the observer.
+*   **d:** $H_0 \approx 63\,km\,s^{-1}Mpc^{-1}$.
+
+###QUESTION_TYPE
+Data analysis questions

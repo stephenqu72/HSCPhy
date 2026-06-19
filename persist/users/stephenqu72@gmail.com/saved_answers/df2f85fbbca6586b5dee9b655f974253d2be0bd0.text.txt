@@ -1,0 +1,15 @@
+The correct answer is **(A)**.
+
+### Explanation
+To solve this question, you need to understand the relationship between muon decay and Einstein's theory of Special Relativity.
+
+1.  **The Physics:** Muons are unstable subatomic particles created in the upper atmosphere by cosmic rays. They have a very short mean lifetime ($\approx 2.2 \times 10^{-6}$ seconds). Even travelling near the speed of light ($c$), their "proper time" is so short that they should decay long before reaching the Earth's surface.
+2.  **The Observation:** Experimentally, we detect a high flux of muons at sea level, which implies they have survived for a much longer time than their laboratory half-life suggests.
+3.  **The Relativity Connection:**
+    *   **Time Dilation:** From the perspective of an Earth-based observer, the moving muon's "clock" runs slow. The formula for time dilation is $t = \gamma t_0$, where $t_0$ is the proper time (in the muon's frame) and $\gamma$ is the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$. Because the muon moves at relativistic speeds, $\gamma$ is large, significantly extending the time the muon survives in the Earth's frame of reference, allowing it to reach the ground.
+    *   **Length Contraction:** Alternatively, from the muon's perspective, the Earth's atmosphere is "contracted" (shortened) in the direction of motion. The distance the muon must travel is reduced, allowing it to reach the surface within its short proper lifetime.
+
+**Why (A) is the best answer:** While both time dilation and length contraction are consistent with the experimental evidence, the observation of muons reaching the surface is a classic demonstration of **time dilation** (the extension of the particle's lifespan). Options (C) and (D) are not the primary experimental evidence used to validate Special Relativity in the context of cosmic-origin muons.
+
+###QUESTION_TYPE
+Multiple choice

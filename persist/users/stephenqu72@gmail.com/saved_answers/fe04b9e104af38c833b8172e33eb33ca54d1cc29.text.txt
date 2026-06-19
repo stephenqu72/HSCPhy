@@ -1,0 +1,29 @@
+To solve this problem, we must apply the principles of Special Relativity, specifically the formula for relativistic kinetic energy.
+
+### Explanation
+In relativistic mechanics, the total energy ($E_{total}$) of a particle is given by the sum of its rest energy ($E_{rest} = mc^2$) and its kinetic energy ($K$):
+$$E_{total} = \gamma mc^2$$
+where $\gamma$ is the Lorentz factor, defined as:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+The kinetic energy is therefore:
+$$K = E_{total} - E_{rest}$$
+$$K = \gamma mc^2 - mc^2$$
+$$K = (\gamma - 1)mc^2$$
+
+**Step-by-step calculation:**
+1. Given $v = 0.9c$, calculate $\gamma$:
+   $$\gamma = \frac{1}{\sqrt{1 - (0.9)^2}} = \frac{1}{\sqrt{1 - 0.81}} = \frac{1}{\sqrt{0.19}}$$
+   $$\gamma \approx \frac{1}{0.43589} \approx 2.29416$$
+
+2. Substitute $\gamma$ into the kinetic energy formula:
+   $$K = (2.29416 - 1)mc^2$$
+   $$K \approx 1.294mc^2$$
+
+Comparing this result to the given options, it matches option B.
+
+**Answer:**
+The correct value is **B. $1.294mc^2$**.
+
+###QUESTION_TYPE
+Multiple choice

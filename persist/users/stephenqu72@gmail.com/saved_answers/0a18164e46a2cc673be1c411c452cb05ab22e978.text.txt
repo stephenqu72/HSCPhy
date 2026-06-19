@@ -1,0 +1,33 @@
+To determine the correct statement, we must analyze the physics of the photoelectric effect represented by the graph. The relationship between the maximum kinetic energy ($KE_{max}$) of emitted photoelectrons and the frequency ($f$) of incident light is given by Einstein's photoelectric equation:
+
+$$KE_{max} = hf - \Phi$$
+
+Where:
+- $h$ is Planck's constant.
+- $\Phi$ is the work function of the metal.
+- The x-intercept represents the threshold frequency ($f_0$), where $\Phi = hf_0$.
+
+### Analysis of the Options:
+
+*   **A. The work function for zinc is $12 \times 10^{15}$ Hz.**
+    Incorrect. The work function is an **energy** value (measured in eV or Joules), not a frequency. $12 \times 10^{15}$ Hz is the threshold frequency for zinc.
+*   **B. The slope of each of these graphs equals Planck's constant.**
+    Correct (with a caveat regarding units). In the equation $KE_{max} = hf - \Phi$, the graph is in the form $y = mx + c$. The slope $m = h$. However, because the y-axis is in eV and the x-axis is in Hz, the slope actually represents $\frac{h}{e}$ (where $e$ is the elementary charge). In many HSC contexts, this is interpreted as the physical constant $h$, making this the best description of the relationship's gradient.
+*   **C. Potassium creates photocurrent at the frequency $6 \times 10^{15}$ Hz.**
+    Incorrect. For potassium (K), the threshold frequency (x-intercept) is at $6 \times 10^{15}$ Hz. At this frequency, $KE_{max} = 0$, meaning the electrons are barely freed but do not have enough energy to overcome the surface barrier to form a measurable photocurrent.
+*   **D. Potassium ejects electrons at higher energies in comparison to sodium.**
+    Correct. At any given frequency above the threshold for both, the line for Potassium (K) is higher than the line for Sodium (Na) on the y-axis (representing $KE_{max}$).
+
+### Refinement
+While both B and D describe the graph accurately, **D** is a direct observation of the data presented for the kinetic energy of emitted electrons. In high-stakes examinations, if multiple options seem viable, look for the most specific interpretation of the *data provided* vs. the *theoretical model*. Statement D is an indisputable observation of the plot.
+
+**Answer: D**
+
+### How to solve it:
+1.  **Identify the variables:** Note that the y-axis is $KE_{max}$ and the x-axis is frequency ($f$).
+2.  **Understand the intercepts:** The x-intercept is the threshold frequency ($f_0$). Below this frequency, no electrons are ejected.
+3.  **Analyze the slopes:** All lines are parallel, confirming that the slope ($h$) is constant for all metals.
+4.  **Compare the lines:** For any frequency $f > 8 \times 10^{15}$ Hz, the y-value for Potassium is higher than the y-value for Sodium, meaning Potassium's photoelectrons have a higher maximum kinetic energy at that frequency.
+
+###QUESTION_TYPE
+Multiple choice

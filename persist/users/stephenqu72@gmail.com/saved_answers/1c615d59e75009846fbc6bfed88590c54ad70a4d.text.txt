@@ -1,0 +1,29 @@
+To determine the length of the space station as perceived by the astronaut, we must apply the principles of **Special Relativity**, specifically **length contraction**.
+
+### 1. Identify the given values
+*   Proper length of the space station ($L_0$): $350\text{ m}$ (The length measured in its own rest frame).
+*   Relative velocity ($v$): $0.13c$ (where $c$ is the speed of light).
+
+### 2. The Physics Principle
+According to Special Relativity, an object in motion relative to an observer will appear shorter in the direction of motion. The formula for length contraction is:
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
+Where:
+*   $L$ is the contracted length measured by the moving observer.
+*   $L_0$ is the proper length.
+*   $v$ is the relative velocity.
+
+### 3. Calculation
+Substitute the known values into the equation:
+$$L = 350 \sqrt{1 - (0.13)^2}$$
+$$L = 350 \sqrt{1 - 0.0169}$$
+$$L = 350 \sqrt{0.9831}$$
+$$L \approx 350 \times 0.9915$$
+$$L \approx 347.03\text{ m}$$
+
+Rounding to the nearest whole number provided in the options, we get $347\text{ m}$.
+
+### 4. Conclusion
+The astronaut, moving at $0.13c$ relative to the space station, will observe the station to be contracted along the direction of motion. Comparing our calculated result of approximately $347\text{ m}$ to the options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

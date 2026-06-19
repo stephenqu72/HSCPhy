@@ -1,0 +1,26 @@
+To analyze these investigations, we apply Einstein’s photoelectric equation:
+$$E_k = hf - \Phi = \frac{hc}{\lambda} - \Phi$$
+where:
+- $h = 6.626 \times 10^{-34} \text{ J s}$
+- $c = 3.00 \times 10^8 \text{ m/s}$
+- $\Phi = 3.51 \times 10^{-19} \text{ J}$
+
+### Calculations
+1. **For 700.0 nm light:**
+   $$E_{photon} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{700.0 \times 10^{-9}} \approx 2.84 \times 10^{-19} \text{ J}$$
+   Since $2.84 \times 10^{-19} \text{ J} < 3.51 \times 10^{-19} \text{ J}$, the photon energy is less than the work function.
+
+2. **For 400.0 nm light:**
+   $$E_{photon} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{400.0 \times 10^{-9}} \approx 4.97 \times 10^{-19} \text{ J}$$
+   Since $4.97 \times 10^{-19} \text{ J} > 3.51 \times 10^{-19} \text{ J}$, the photon energy is sufficient to overcome the work function.
+
+---
+
+### Analysis
+
+*   **Investigation I (700.0 nm, 40 W):** No photoelectric effect occurs. According to the quantum model, emission depends on the energy of individual photons ($hf$), not the intensity. The photon energy ($2.84 \times 10^{-19} \text{ J}$) is lower than the work function ($\Phi$), so electrons cannot be ejected regardless of the intensity or duration of exposure.
+*   **Investigation II (400.0 nm, 40 W):** Photoelectric emission occurs. Because the photon energy ($4.97 \times 10^{-19} \text{ J}$) exceeds the work function, each photon provides enough energy to eject an electron. The excess energy ($1.46 \times 10^{-19} \text{ J}$) manifests as the maximum kinetic energy of the emitted photoelectrons.
+*   **Investigation III (700.0 nm, 80 W):** No photoelectric effect occurs. Increasing the intensity doubles the number of photons striking the metal per second, but does not increase the energy of individual photons. Since the individual photons still lack the energy required to overcome the work function, no electrons are ejected.
+
+###QUESTION_TYPE
+Calculation question

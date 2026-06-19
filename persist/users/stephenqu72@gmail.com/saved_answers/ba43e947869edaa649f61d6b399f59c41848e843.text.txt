@@ -1,0 +1,33 @@
+To solve this problem, we use **Malus's Law**, which states that the intensity of polarised light passing through a polarising filter is given by:
+
+$$I = I_0 \cos^2(\theta)$$
+
+where $I_0$ is the incident intensity and $\theta$ is the angle between the light's polarisation plane and the axis of the polariser.
+
+### Step-by-Step Solution:
+
+1.  **First Filter ($\theta_1 = 20.0^\circ$):**
+    The incident light is vertically polarised ($0^\circ$). The first filter is at $20.0^\circ$.
+    $$I_1 = I_i \cos^2(20.0^\circ - 0^\circ)$$
+    $$I_1 = 10.0 \times \cos^2(20.0^\circ) \approx 10.0 \times 0.8830 = 8.830 \text{ units}$$
+
+2.  **Second Filter ($\theta_2 = 40.0^\circ$):**
+    The light emerging from the first filter is polarised at $20.0^\circ$. It now hits a filter at $40.0^\circ$. The relative angle is $(40.0^\circ - 20.0^\circ) = 20.0^\circ$.
+    $$I_2 = I_1 \cos^2(20.0^\circ)$$
+    $$I_2 = 8.830 \times \cos^2(20.0^\circ) \approx 8.830 \times 0.8830 = 7.797 \text{ units}$$
+
+3.  **Third Filter ($\theta_3 = 60.0^\circ$):**
+    The light emerging from the second filter is polarised at $40.0^\circ$. It now hits a filter at $60.0^\circ$. The relative angle is $(60.0^\circ - 40.0^\circ) = 20.0^\circ$.
+    $$I_f = I_2 \cos^2(20.0^\circ)$$
+    $$I_f = 7.797 \times \cos^2(20.0^\circ) \approx 7.797 \times 0.8830 = 6.885 \text{ units}$$
+
+**Final Answer:**
+The transmitted intensity $I_f$ is approximately **$6.89 \text{ units}$**.
+
+***
+
+### Explanation:
+Each successive filter acts as an incident source for the next. The key is to recognize that Malus's Law depends on the **relative angle** between the incoming light's polarisation plane and the new filter's axis. Since each filter is offset by $20^\circ$ from the previous one, we simply multiply the intensity by $\cos^2(20^\circ)$ three times.
+
+###QUESTION_TYPE
+Calculation question

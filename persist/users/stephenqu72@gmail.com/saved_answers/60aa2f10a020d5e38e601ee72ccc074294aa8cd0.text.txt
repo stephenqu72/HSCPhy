@@ -1,0 +1,34 @@
+To solve this problem, we apply **Malus's Law**, which describes how the intensity of plane-polarized light changes when it passes through a polarizer.
+
+### Answer
+The correct answer is **(C) $6\text{ W m}^{-2}$**.
+
+### Explanation
+1. **Understand Malus's Law:** The intensity of light transmitted through a polarizer is given by:
+   $$I = I_0 \cos^2(\theta)$$
+   where $I_0$ is the intensity of the light incident on the polarizer and $\theta$ is the angle between the plane of polarization of the incident light and the transmission axis of the polarizer.
+
+2. **Analyze Diagram 1:**
+   We are given the incident intensity $I_{\text{incident}} = 8\text{ W m}^{-2}$ and the transmitted intensity $I_1 = 2\text{ W m}^{-2}$.
+   Using the formula:
+   $$2 = 8 \cos^2(\theta)$$
+   $$\cos^2(\theta) = \frac{2}{8} = 0.25$$
+
+3. **Analyze Diagram 2:**
+   The polarizer is rotated by $90^\circ$. The new angle $\theta'$ relative to the transmission axis becomes $(\theta + 90^\circ)$.
+   The new transmitted intensity $I_2$ is:
+   $$I_2 = I_0 \cos^2(\theta + 90^\circ)$$
+   Using the trigonometric identity $\cos(\theta + 90^\circ) = -\sin(\theta)$:
+   $$I_2 = I_0 (-\sin(\theta))^2 = I_0 \sin^2(\theta)$$
+
+4. **Calculate the result:**
+   We know that $\sin^2(\theta) = 1 - \cos^2(\theta)$.
+   Since we found $\cos^2(\theta) = 0.25$ from Diagram 1:
+   $$\sin^2(\theta) = 1 - 0.25 = 0.75$$
+   Now substitute this into the equation for $I_2$:
+   $$I_2 = 8 \times 0.75 = 6\text{ W m}^{-2}$$
+
+Thus, the new transmitted intensity is $6\text{ W m}^{-2}$.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we apply the principles of **Special Relativity**, specifically **time dilation**.
+
+### Part (a)
+The problem asks for the time measured by Ryan ($t$) for Leah’s clock to sound. 
+1. The proper time ($\Delta t_0$) is the time interval measured in the reference frame where the clock is at rest. For Leah’s clock, this is $\Delta t_0 = 1 \text{ hour}$.
+2. Ryan observes Leah's clock moving at $v = 0.98c$. Due to time dilation, Ryan will observe Leah's clock running slowly. The formula is:
+$$t = \frac{\Delta t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+3. Calculate the Lorentz factor ($\gamma$):
+$$\gamma = \frac{1}{\sqrt{1 - (0.98)^2}} = \frac{1}{\sqrt{1 - 0.9604}} = \frac{1}{\sqrt{0.0396}} \approx 5.025$$
+4. Therefore, the time Ryan measures is:
+$$t = 1 \text{ hour} \times 5.025 \approx 5.03 \text{ hours}$$
+
+**Answer:** Ryan will observe Leah’s clock sounding after approximately $5.03$ hours.
+
+---
+
+### Part (b)
+The question asks for the time elapsed on Leah’s clock *according to her*.
+1. In Special Relativity, the proper time ($\Delta t_0$) is the time interval measured by an observer in the same frame as the event.
+2. Since Leah is stationary relative to Clock B, she is in the same inertial frame as the clock.
+3. Therefore, she measures the "proper time," which is exactly the duration for which the clock was set.
+
+**Answer:** Leah will measure exactly $1$ hour elapsing on her clock before it sounds. This is because she is in the same inertial frame as the clock, so no time dilation occurs relative to her own measurements.
+
+### Summary of concepts for the HSC:
+*   **Time Dilation:** Moving clocks run slower.
+*   **Proper Time ($\Delta t_0$):** Time measured by an observer in the same frame as the process being measured (the shortest possible time interval).
+*   **Relativistic Time ($t$):** Time measured by an observer for whom the process is moving (always greater than or equal to proper time).
+
+###QUESTION_TYPE
+Calculation question

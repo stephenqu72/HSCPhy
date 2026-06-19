@@ -1,0 +1,25 @@
+To solve this problem, we must apply **Malus's Law**, which describes how the intensity of polarized light changes when it passes through a second polarizing filter (the analyser).
+
+### Explanation
+1. **First Filter (Polariser):** When unpolarized light with intensity $I_0$ passes through a polarizing filter, the intensity of the transmitted light is reduced by half:
+   $$I_1 = \frac{I_0}{2}$$
+
+2. **Second Filter (Analyser):** Malus's Law states that when light polarized at an intensity $I_1$ passes through an analyser with its axis at an angle $\theta$ to the incident polarization, the final transmitted intensity $I_2$ is:
+   $$I_2 = I_1 \cos^2(\theta)$$
+
+3. **Substitution:** Substitute the expression for $I_1$ into the equation:
+   $$I_2 = \left( \frac{I_0}{2} \right) \cos^2(\theta)$$
+
+4. **Calculate for 40% intensity:** We want the final intensity $I_2$ to be 40% of the original incident intensity ($0.40 I_0$):
+   $$0.40 I_0 = 0.5 I_0 \cos^2(\theta)$$
+   $$0.40 = 0.5 \cos^2(\theta)$$
+   $$\cos^2(\theta) = \frac{0.40}{0.50} = 0.8$$
+   $$\cos(\theta) = \sqrt{0.8} \approx 0.8944$$
+   $$\theta = \arccos(0.8944) \approx 26.565^\circ$$
+
+Rounding to the nearest provided option, we get **26.5°**.
+
+**Correct Answer:** **(B) 26.5°**
+
+###QUESTION_TYPE
+Multiple choice

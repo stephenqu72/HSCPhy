@@ -1,0 +1,25 @@
+To solve this problem, we apply Einstein’s photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy of the photoelectrons, $h$ is Planck's constant, $f$ is the frequency of incident light, and $\Phi$ is the work function of the metal.
+
+### Analysis of Conditions:
+
+**Condition 1: Intensity is decreased, frequency is constant.**
+*   **$K_{max}$:** Since the frequency $f$ remains constant and the work function $\Phi$ is a property of the metal, $K_{max}$ remains **constant**.
+*   **Number of photoelectrons:** Intensity is proportional to the number of photons hitting the surface per second. Decreasing the intensity means fewer photons strike the surface, so the number of photoelectrons emitted **decreases**.
+
+**Condition 2: Frequency is increased, intensity is constant.**
+*   **$K_{max}$:** As frequency $f$ increases, $hf$ increases. Since $\Phi$ is constant, $K_{max} = hf - \Phi$ must **increase**.
+*   **Number of photoelectrons:** Increasing the frequency of light (provided it is already above the threshold) does not change the number of photons if the intensity remains constant. Therefore, the number of photoelectrons emitted remains **constant**.
+
+### Conclusion:
+- Condition 1: $K_{max}$ constant, number decreases.
+- Condition 2: $K_{max}$ increases, number constant.
+
+Comparing this to the provided options, row **(c)** correctly describes these results.
+
+### Answer:
+The correct option is **(c)**.
+
+###QUESTION_TYPE
+Multiple choice

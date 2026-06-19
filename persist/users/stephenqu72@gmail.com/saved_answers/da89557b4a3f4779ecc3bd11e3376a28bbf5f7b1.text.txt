@@ -1,0 +1,31 @@
+To answer this question effectively for an HSC Physics exam, you need to connect the concepts of electric potential energy and kinetic energy within the context of Einstein's photoelectric effect.
+
+### Answer
+In a photoelectric effect apparatus, the stopping voltage ($V_s$) is the minimum negative potential applied to the anode relative to the cathode that is required to prevent even the most energetic photoelectrons from reaching the anode.
+
+When electrons are emitted from the cathode, they possess a range of kinetic energies, with the most energetic having a maximum kinetic energy ($E_{k,max}$). By applying a stopping voltage, an electric field is created that does work on the electrons, opposing their motion. The work done by this electric field to bring the fastest electrons to a stop is equal to their initial maximum kinetic energy.
+
+The relationship is defined by the equation:
+$$E_{k,max} = qV_s$$
+
+Where:
+- $E_{k,max}$ is the maximum kinetic energy of the emitted electrons (in Joules).
+- $q$ is the elementary charge of an electron ($1.602 \times 10^{-19} \text{ C}$).
+- $V_s$ is the magnitude of the stopping voltage (in Volts).
+
+Thus, by measuring the value of the stopping voltage $V_s$ at which the photoelectric current drops to zero, we can directly calculate $E_{k,max}$ by multiplying the stopping voltage by the elementary charge.
+
+---
+
+### How to solve this
+1. **Identify the goal:** The question asks for a description of how stopping voltage relates to maximum kinetic energy. You must mention the physics principle (work-energy theorem) and provide the relevant equation.
+2. **Define the mechanism:** Explain that stopping voltage acts as a "potential barrier." Even the electrons with the highest velocity ($v_{max}$) are brought to rest by this potential.
+3. **Use the correct equation:** You must explicitly state $E_{k,max} = qV_s$ or $K_{max} = eV_s$. 
+4. **Structure for 4 marks:** 
+   - Mark 1: Definition of stopping voltage (the voltage at which current becomes zero).
+   - Mark 2: Explanation of the work done by the electric field on the electrons.
+   - Mark 3: Correct mathematical expression linking energy and voltage.
+   - Mark 4: Clear conclusion that $V_s$ enables the calculation of $E_{k,max}$.
+
+###QUESTION_TYPE
+Short answer

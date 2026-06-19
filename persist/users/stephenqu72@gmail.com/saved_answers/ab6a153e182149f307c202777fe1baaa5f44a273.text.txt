@@ -1,0 +1,37 @@
+To answer this question, we must analyze the two experiments to demonstrate how they provide evidence for the wave and particle models of light.
+
+### 1. Analysis of Experiment A (Wave Model)
+Experiment A describes Young’s Double Slit experiment. The formation of an interference pattern (bright and dark fringes) is a phenomenon unique to waves, as it requires superposition and diffraction.
+
+**Quantitative Analysis:**
+The fringe separation $\Delta x$ is given by the formula $\Delta x = \frac{\lambda L}{d}$.
+Given:
+- $\lambda = 295 \text{ nm} = 295 \times 10^{-9} \text{ m}$
+- $L = 2.0 \text{ m}$
+- $d = 12 \text{ \mu m} = 12 \times 10^{-6} \text{ m}$
+
+$$\Delta x = \frac{(295 \times 10^{-9} \text{ m}) \times (2.0 \text{ m})}{12 \times 10^{-6} \text{ m}} \approx 0.049 \text{ m} = 4.9 \text{ cm}$$
+
+The existence of these regularly spaced fringes confirms that light behaves as a **wave** because individual particles would not interfere to create a pattern of zero intensity (dark fringes).
+
+### 2. Analysis of Experiment B (Particle Model)
+Experiment B describes the Photoelectric Effect. This experiment provides evidence for the **particle (photon) model** of light, where energy is transferred in discrete packets (quanta).
+
+**Quantitative Analysis:**
+First, calculate the energy of an incoming photon ($E_p$):
+$$E_p = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \text{ J}\cdot\text{s}) \times (3.0 \times 10^8 \text{ m/s})}{295 \times 10^{-9} \text{ m}} \approx 6.74 \times 10^{-19} \text{ J}$$
+Convert to electron-volts (eV) by dividing by $1.6 \times 10^{-19} \text{ J/eV}$:
+$$E_p \approx 4.21 \text{ eV}$$
+
+Now compare this to the work function ($\Phi$) of the metals:
+- **Magnesium ($\Phi = 3.7 \text{ eV}$):** Since $E_p > \Phi$, photoelectrons are emitted ($4.21 \text{ eV} > 3.7 \text{ eV}$), resulting in a current.
+- **Gold ($\Phi = 5.1 \text{ eV}$):** Since $E_p < \Phi$, no photoelectrons are emitted ($4.21 \text{ eV} < 5.1 \text{ eV}$), resulting in zero current.
+
+The wave model would predict that if light were a continuous wave, even low-energy light could eventually knock off an electron given enough time. The fact that emission depends strictly on the energy threshold (frequency) of the photon confirms the **particle model**.
+
+### Summary
+- **Experiment A** supports the **wave model** through the calculation of fringe separation $\Delta x = 4.9 \text{ cm}$, proving wave-like interference.
+- **Experiment B** supports the **particle model** by showing that emission occurs only when photon energy ($4.21 \text{ eV}$) exceeds the metal's work function, proving the quantized nature of light.
+
+###QUESTION_TYPE
+Calculation question

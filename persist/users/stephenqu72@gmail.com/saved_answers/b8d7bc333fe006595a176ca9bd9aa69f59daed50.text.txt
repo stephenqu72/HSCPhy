@@ -1,0 +1,24 @@
+### Teacher's Answer and Explanation
+
+#### Part (a): Accounting for time spent on the Main Sequence
+**Answer:**
+Stars at the top of the Main Sequence (high-mass stars) have significantly shorter lifespans than stars at the bottom (low-mass stars). Although high-mass stars have more hydrogen fuel, they consume it at an exponentially faster rate to generate the radiation pressure required to support their immense gravitational force (the luminosity-mass relationship: $L \propto M^{3.5}$). Conversely, low-mass stars have much lower fuel consumption rates, allowing them to remain on the Main Sequence for billions of years.
+
+**How to solve:**
+1.  **Identify the relationship:** Link mass to luminosity. The top of the Main Sequence represents high-mass, high-luminosity stars. The bottom represents low-mass, low-luminosity stars.
+2.  **Explain the fuel consumption:** Note that while mass equals "fuel," the rate of fusion is the deciding factor. Use the concept of hydrostatic equilibrium: higher mass creates higher core pressure and temperature, leading to a much faster rate of nuclear fusion.
+3.  **Conclude:** The lifespan $t$ is proportional to $M/L$. Since $L$ increases much faster than $M$ as one moves up the sequence, $t$ decreases rapidly for more massive stars.
+
+---
+
+#### Part (b): Comparing energy sources
+**Answer:**
+Main Sequence stars primarily derive their energy from the **fusion of hydrogen into helium** in their cores (via the proton-proton chain or the CNO cycle). In contrast, red giants have exhausted their core hydrogen; their primary energy source comes from **hydrogen shell burning** (fusion occurring in a shell surrounding an inert, helium-rich core) and, in more advanced stages, the **fusion of helium into carbon/oxygen** within the core (the triple-alpha process).
+
+**How to solve:**
+1.  **Define Main Sequence source:** Clearly state core hydrogen fusion.
+2.  **Define Red Giant source:** Explain that the core has contracted and heated up due to the exhaustion of hydrogen, shifting fusion to a shell around the core, and eventually triggering helium fusion within the core.
+3.  **Contrast:** Ensure you distinguish between the location of the fuel (core vs. shell) and the element being fused (hydrogen vs. helium).
+
+###QUESTION_TYPE
+Short answer

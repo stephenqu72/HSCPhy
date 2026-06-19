@@ -1,0 +1,37 @@
+To solve this problem, we use **Malus's Law**, which describes how the intensity of plane-polarized light changes when it passes through a polarizer:
+
+$$I = I_0 \cos^2(\theta)$$
+
+Where:
+*   $I$ is the transmitted intensity.
+*   $I_0$ is the intensity of the light incident on the polarizer.
+*   $\theta$ is the angle between the polarization direction of the incident light and the transmission axis of the polarizer.
+
+### Step-by-Step Solution:
+
+1.  **Analyze Diagram 1:**
+    We know the incident intensity $I_0 = 8 \text{ W m}^{-2}$ and the transmitted intensity $I_1 = 2 \text{ W m}^{-2}$. Plugging these into Malus's Law:
+    $$2 = 8 \cos^2(\theta_1)$$
+    $$\cos^2(\theta_1) = \frac{2}{8} = 0.25$$
+    $$\cos(\theta_1) = 0.5 \implies \theta_1 = 60^\circ$$
+    This tells us the polarizer's transmission axis is at an angle of $60^\circ$ relative to the incident light's polarization plane in Diagram 1.
+
+2.  **Analyze Diagram 2:**
+    The problem states the polarizer is rotated $90^\circ$ from its position in Diagram 1. The new angle $\theta_2$ will be:
+    $$\theta_2 = \theta_1 + 90^\circ = 60^\circ + 90^\circ = 150^\circ$$
+
+3.  **Calculate the new transmitted intensity:**
+    Using Malus's Law again:
+    $$I_2 = I_0 \cos^2(150^\circ)$$
+    Since $\cos(150^\circ) = -\frac{\sqrt{3}}{2}$:
+    $$I_2 = 8 \times \left(-\frac{\sqrt{3}}{2}\right)^2$$
+    $$I_2 = 8 \times \frac{3}{4} = 6 \text{ W m}^{-2}$$
+
+Alternatively, notice that rotating a polarizer by $90^\circ$ changes the angle from $\theta$ to $\theta + 90^\circ$. Because $\cos(90^\circ + \theta) = -\sin(\theta)$, squaring this gives $\sin^2(\theta)$.
+Using the trigonometric identity $\cos^2(\theta) + \sin^2(\theta) = 1$:
+If $I_1 = I_0 \cos^2(\theta) = 2$, then $I_2 = I_0 \sin^2(\theta) = I_0(1 - \cos^2(\theta)) = I_0 - I_1 = 8 - 2 = 6 \text{ W m}^{-2}$.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

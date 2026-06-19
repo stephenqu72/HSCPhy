@@ -1,0 +1,25 @@
+To solve these problems, we use Einstein's photoelectric equation:
+$$K_{max} = hf - \Phi$$
+where $K_{max}$ is the maximum kinetic energy, $h$ is Planck's constant, $f$ is the frequency of incident light, and $\Phi$ is the work function.
+
+### a) Determine the work function of the nickel plate.
+The work function $\Phi$ corresponds to the y-intercept of the graph when the kinetic energy is $- \Phi$ (the energy required to overcome the surface barrier). Looking at the graph, the line intercepts the vertical axis at $-5.0 \text{ eV}$.
+**Answer:** The work function $\Phi$ is **$5.0 \text{ eV}$**.
+
+### b) Determine the kinetic energy of the fastest moving electrons.
+First, we calculate the frequency ($f$) of the ultraviolet light:
+$$f = \frac{c}{\lambda} = \frac{3.00 \times 10^8 \text{ m/s}}{180 \times 10^{-9} \text{ m}} = 1.667 \times 10^{15} \text{ Hz}$$
+Using Einstein's photoelectric equation with $h = 4.136 \times 10^{-15} \text{ eV s}$:
+$$K_{max} = (4.136 \times 10^{-15} \text{ eV s} \times 1.667 \times 10^{15} \text{ Hz}) - 5.0 \text{ eV}$$
+$$K_{max} = 6.89 \text{ eV} - 5.0 \text{ eV} = 1.89 \text{ eV}$$
+**Answer:** The maximum kinetic energy is approximately **$1.89 \text{ eV}$**.
+
+### c) Calculate the threshold frequency of the nickel plate mathematically AND by interpreting the graph.
+**Interpretation of the graph:** The threshold frequency ($f_0$) is the x-intercept where $K_{max} = 0$. Looking at the graph, the line crosses the x-axis exactly at **$1.2 \times 10^{15} \text{ Hz}$**.
+
+**Mathematical calculation:** The threshold frequency occurs when $hf = \Phi$:
+$$f_0 = \frac{\Phi}{h} = \frac{5.0 \text{ eV}}{4.136 \times 10^{-15} \text{ eV s}} \approx 1.209 \times 10^{15} \text{ Hz}$$
+(Minor variations may occur due to the value of Planck's constant used, but $1.2 \times 10^{15} \text{ Hz}$ is the accepted value based on the graph).
+
+### QUESTION_TYPE
+Calculation question

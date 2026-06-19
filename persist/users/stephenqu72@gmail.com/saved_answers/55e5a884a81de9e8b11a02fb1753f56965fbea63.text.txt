@@ -1,0 +1,42 @@
+### Teacher's Explanation
+
+To solve this problem, we need to apply fundamental concepts from quantum mechanics regarding the nature of photons and matter waves.
+
+#### Part (a): Energy of a photon
+The energy of a photon is directly related to its wavelength ($\lambda$) by the equation:
+$$E = \frac{hc}{\lambda}$$
+Where:
+*   $h$ is Planck's constant ($\approx 6.626 \times 10^{-34} \text{ J s}$)
+*   $c$ is the speed of light ($\approx 3.00 \times 10^8 \text{ m/s}$)
+*   $\lambda = 1.0 \times 10^{-10} \text{ m}$
+
+**Calculation:**
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{1.0 \times 10^{-10}}$$
+$$E \approx 1.99 \times 10^{-15} \text{ J}$$
+
+#### Part (b): Kinetic energy of a neutron
+For a particle with mass (like a neutron), we use the de Broglie relationship and the non-relativistic kinetic energy formula.
+1.  **Find momentum ($p$):** From $\lambda = \frac{h}{p}$, we rearrange to get $p = \frac{h}{\lambda}$.
+2.  **Find kinetic energy ($E_k$):** Using $E_k = \frac{p^2}{2m}$, we substitute $p$ to get $E_k = \frac{h^2}{2m\lambda^2}$.
+*   Mass of a neutron ($m_n$) $\approx 1.675 \times 10^{-27} \text{ kg}$
+
+**Calculation:**
+$$E_k = \frac{(6.626 \times 10^{-34})^2}{2 \times (1.675 \times 10^{-27}) \times (1.0 \times 10^{-10})^2}$$
+$$E_k = \frac{4.39 \times 10^{-67}}{3.35 \times 10^{-47}}$$
+$$E_k \approx 1.31 \times 10^{-20} \text{ J}$$
+
+***
+
+### Answer
+
+**(a)**
+Using $E = \frac{hc}{\lambda}$:
+$$E = \frac{(6.626 \times 10^{-34} \text{ J s}) \times (3.00 \times 10^8 \text{ m/s})}{1.0 \times 10^{-10} \text{ m}} = 1.99 \times 10^{-15} \text{ J}$$
+
+**(b)**
+Using $E_k = \frac{h^2}{2m\lambda^2}$:
+$$E_k = \frac{(6.626 \times 10^{-34})^2}{2 \times (1.675 \times 10^{-27}) \times (1.0 \times 10^{-10})^2}$$
+$$E_k = 1.31 \times 10^{-20} \text{ J}$$
+
+###QUESTION_TYPE
+Calculation question

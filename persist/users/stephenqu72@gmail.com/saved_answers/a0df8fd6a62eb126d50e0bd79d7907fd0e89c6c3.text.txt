@@ -1,0 +1,23 @@
+### Answer and Explanation
+
+#### Part (a) Determine the work function of Europium
+**Answer:**
+The work function $\Phi$ is approximately $2.1\text{ eV}$ (accepting values in the range $2.0–2.2\text{ eV}$).
+
+**Explanation:**
+1. **Identify the Physics:** The relationship between the energy of incident photons, the work function of the metal, and the kinetic energy of emitted photoelectrons is given by Einstein's photoelectric equation:
+   $$E_k = \frac{hc}{\lambda} - \Phi$$
+   where $\Phi$ is the work function. When $E_k = 0$, the wavelength is the threshold wavelength $\lambda_0$, such that $\Phi = \frac{hc}{\lambda_0}$.
+2. **Method 1 (Extrapolation):** The graph shows $E_k$ vs $\lambda$. The x-intercept of this curve represents the threshold wavelength where $E_k = 0$. By extrapolating the curve to the x-axis, we find $\lambda_0 \approx 590\text{ nm}$. Using $h = 4.136 \times 10^{-15}\text{ eV}\cdot\text{s}$ and $c = 3.00 \times 10^8\text{ m/s}$:
+   $$\Phi = \frac{hc}{\lambda_0} = \frac{1240\text{ eV}\cdot\text{nm}}{590\text{ nm}} \approx 2.1\text{ eV}$$
+3. **Method 2 (Using a point):** Select a point on the graph, e.g., $\lambda = 250\text{ nm}$, $E_k \approx 2.85\text{ eV}$.
+   $$2.85 = \frac{1240}{250} - \Phi \implies 2.85 = 4.96 - \Phi \implies \Phi \approx 2.11\text{ eV}$$
+
+---
+
+#### Part (b) Why no electrons are emitted above the maximum wavelength
+**Answer:**
+Einstein's photoelectric effect states that light consists of discrete packets of energy called photons, where $E = \frac{hc}{\lambda}$. The work function ($\Phi$) represents the minimum energy required to remove an electron from the surface of the metal. If the incident wavelength is greater than the threshold wavelength ($\lambda > \lambda_0$), the energy of each individual photon ($E = \frac{hc}{\lambda}$) will be less than the work function ($E < \Phi$). Since the emission of a photoelectron is a one-to-one interaction between a single photon and a single electron, the electron does not receive sufficient energy to overcome the binding force of the metal, and therefore, no emission occurs, regardless of the intensity of the light.
+
+###QUESTION_TYPE
+Data analysis questions

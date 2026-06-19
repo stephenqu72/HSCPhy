@@ -1,0 +1,31 @@
+To solve this problem, we need to apply **Wien's Displacement Law**. 
+
+### 1. Understanding the Physics
+Wien's Displacement Law relates the temperature of a black body to the wavelength at which its intensity peaks:
+$$\lambda_{max} T = b$$
+where $b \approx 2.898 \times 10^{-3} \, \text{m K}$.
+
+However, the question provides the peak **frequency** ($f_{max}$), not the wavelength. We use the wave equation $c = f\lambda$ to substitute for $\lambda$:
+$$\lambda_{max} = \frac{c}{f_{max}}$$
+
+Substituting this into Wien's law:
+$$\frac{c}{f_{max}} T = b \implies T = \frac{b \cdot f_{max}}{c}$$
+
+### 2. Calculation
+*   $f_{max} = 5.4 \times 10^{14} \, \text{Hz}$
+*   $c \approx 3.0 \times 10^8 \, \text{m/s}$
+*   $b \approx 2.898 \times 10^{-3} \, \text{m K}$
+
+Plugging in the values:
+$$T = \frac{(2.898 \times 10^{-3} \, \text{m K}) \times (5.4 \times 10^{14} \, \text{s}^{-1})}{3.0 \times 10^8 \, \text{m/s}}$$
+$$T = \frac{1.56492 \times 10^{12}}{3.0 \times 10^8} \approx 5216 \, \text{K}$$
+
+Rounding to two significant figures, we get $5.2 \times 10^3 \, \text{K}$. 
+
+### 3. Conclusion
+The temperature must be in **Kelvin (K)**, which is the standard SI unit for thermodynamic temperature in these formulas. This matches option (C).
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

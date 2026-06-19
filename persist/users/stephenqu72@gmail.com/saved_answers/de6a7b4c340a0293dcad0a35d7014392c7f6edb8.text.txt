@@ -1,0 +1,26 @@
+To solve this problem, we use Einstein's photoelectric equation:
+$$E_k = hf - \Phi$$
+Since the kinetic energy is expressed by the stopping voltage ($E_k = eV_s$), we can write:
+$$eV_s = hf - \Phi \implies V_s = \left(\frac{h}{e}\right)f - \frac{\Phi}{e}$$
+This is in the form of a linear equation $y = mx + c$, where the gradient $m = \frac{h}{e}$.
+
+### Part a. Obtaining Planck's constant ($h$)
+1.  **Calculate the gradient ($m$):**
+    $$m = \frac{\Delta V_s}{\Delta f} = \frac{1.17 - 0.52}{(6.25 - 5.15) \times 10^{14}} = \frac{0.65}{1.10 \times 10^{14}} \approx 5.91 \times 10^{-15} \, \text{V s}$$
+2.  **Determine $h$:**
+    Since $m = \frac{h}{e}$ and the unit required is $\text{eV s}$, the charge $e$ is effectively $1$. Thus, $h \approx 5.91 \times 10^{-15} \, \text{eV s}$.
+
+### Part b. Explaining the absence of emission
+1.  **Find the work function ($\Phi$):**
+    Using $V_s = mf - \frac{\Phi}{e}$ with the first data point:
+    $$1.17 = (5.91 \times 10^{-15} \times 6.25 \times 10^{14}) - \frac{\Phi}{e}$$
+    $$1.17 = 3.69 - \frac{\Phi}{e} \implies \frac{\Phi}{e} = 2.52 \, \text{V}$$
+    So, the work function $\Phi = 2.52 \, \text{eV}$.
+2.  **Calculate the threshold frequency ($f_0$):**
+    Emission occurs only if $hf > \Phi$, or $f > f_0$, where $f_0 = \frac{\Phi}{h}$.
+    $$f_0 = \frac{2.52 \, \text{eV}}{5.91 \times 10^{-15} \, \text{eV s}} \approx 4.26 \times 10^{14} \, \text{Hz}$$
+3.  **Conclusion:**
+    The provided frequency is $3.95 \times 10^{14} \, \text{Hz}$. Since $3.95 \times 10^{14} < 4.26 \times 10^{14}$ ($f < f_0$), the energy of the incident photons is insufficient to overcome the work function of the metal; therefore, no photoelectrons are emitted.
+
+###QUESTION_TYPE
+Calculation question
