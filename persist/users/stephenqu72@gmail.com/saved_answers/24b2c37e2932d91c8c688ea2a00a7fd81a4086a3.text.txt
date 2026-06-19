@@ -1,0 +1,27 @@
+To determine the ratio of the resistance of $R_1$ to the resistance of $R_2$, we use the provided formula:
+$$R = \frac{\rho L}{A}$$
+
+### Step-by-Step Solution:
+
+**1. Identify the variables for each resistor:**
+Since both resistors are made of the same material, the resistivity $\rho$ is the same for both. Let the length and cross-sectional area of $R_2$ be $L$ and $A$, respectively.
+*   For Resistor $R_2$: $R_2 = \frac{\rho L}{A}$
+*   For Resistor $R_1$: The length is twice that of $R_2$ ($L_1 = 2L$), and the area is half that of $R_2$ ($A_1 = \frac{1}{2}A$).
+
+**2. Express the resistance of $R_1$ in terms of $L$ and $A$:**
+$$R_1 = \frac{\rho (2L)}{\frac{1}{2}A}$$
+
+**3. Simplify the expression for $R_1$:**
+Dividing by a fraction is the same as multiplying by its reciprocal:
+$$R_1 = \rho \cdot 2L \cdot \frac{2}{A}$$
+$$R_1 = 4 \left( \frac{\rho L}{A} \right)$$
+$$R_1 = 4 R_2$$
+
+**4. Find the ratio:**
+The question asks for the ratio of the resistance of $R_1$ to $R_2$:
+$$\frac{R_1}{R_2} = \frac{4 R_2}{R_2} = 4$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,37 @@
+To solve this projectile motion problem, we separate the motion into horizontal and vertical components.
+
+### 1. Identify Given Information
+*   Horizontal displacement ($x$): $170\text{ m}$
+*   Vertical displacement ($y$): $20\text{ m}$
+*   Launch angle ($\theta$): $30^\circ$
+*   Acceleration due to gravity ($g$): $9.8\text{ m/s}^2$
+*   Initial speed ($v$): Unknown
+
+### 2. Equations of Motion
+Horizontal: $x = v \cos(\theta) t \implies t = \frac{x}{v \cos(\theta)}$
+Vertical: $y = v \sin(\theta) t - \frac{1}{2} g t^2$
+
+### 3. Substitution and Solving
+Substitute the expression for $t$ into the vertical displacement equation:
+$$y = v \sin(\theta) \left( \frac{x}{v \cos(\theta)} \right) - \frac{1}{2} g \left( \frac{x}{v \cos(\theta)} \right)^2$$
+Simplify using the identity $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$:
+$$y = x \tan(\theta) - \frac{g x^2}{2 v^2 \cos^2(\theta)}$$
+
+Rearrange to solve for $v^2$:
+$$\frac{g x^2}{2 v^2 \cos^2(\theta)} = x \tan(\theta) - y$$
+$$v^2 = \frac{g x^2}{2 \cos^2(\theta) (x \tan(\theta) - y)}$$
+
+### 4. Calculation
+Plug in the values:
+*   $x \tan(30^\circ) = 170 \times \tan(30^\circ) \approx 98.149$
+*   $x \tan(30^\circ) - y = 98.149 - 20 = 78.149$
+*   $\cos(30^\circ) = \frac{\sqrt{3}}{2} \approx 0.866 \implies \cos^2(30^\circ) = 0.75$
+
+$$v^2 = \frac{9.8 \times 170^2}{2 \times 0.75 \times 78.149}$$
+$$v^2 = \frac{283220}{117.2235} \approx 2416.06$$
+$$v = \sqrt{2416.06} \approx 49.15\text{ m/s}$$
+
+**Final Answer:** The arrow must be launched at a speed of approximately **$49.2\text{ m/s}$**.
+
+###QUESTION_TYPE
+Calculation question

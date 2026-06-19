@@ -1,0 +1,37 @@
+### Answer
+
+**(a)**
+To find the normal force $F_N$ at the top of the hill, we consider the net force providing the centripetal acceleration. At the top of a hill, the weight acts downwards and the normal force acts upwards. The net force (centripetal force) is directed towards the center (downwards):
+
+$$\sum F_c = F_g - F_N = \frac{mv^2}{r}$$
+
+Rearranging for $F_N$:
+$$F_N = mg - \frac{mv^2}{r}$$
+
+Given: $m = 200\text{ kg}$, $g = 1.62\text{ m s}^{-2}$, $v = 8.0\text{ m s}^{-1}$, $r = 30\text{ m}$.
+
+$$F_N = (200 \times 1.62) - \frac{200 \times 8.0^2}{30}$$
+$$F_N = 324 - \frac{12800}{30}$$
+$$F_N = 324 - 426.67$$
+$$F_N = -102.67\text{ N}$$
+
+*Note: Since the result is negative, the rover would actually lose contact with the surface (lift off) at this speed because the required centripetal force is greater than the gravitational force available.*
+
+**(b)**
+If the hill were on Earth, the gravitational acceleration $g$ would be significantly higher (approximately $9.8\text{ m s}^{-2}$ compared to $1.62\text{ m s}^{-2}$). 
+
+Using the same formula $F_N = mg - \frac{mv^2}{r}$:
+1. The term $mg$ (the weight of the rover) would be much larger on Earth ($200 \times 9.8 = 1960\text{ N}$ vs $324\text{ N}$).
+2. The term $\frac{mv^2}{r}$ (the centripetal force required to keep the rover on the circular path) remains the same because the mass, speed, and radius are unchanged.
+3. Therefore, $F_N$ would be significantly greater on Earth. The rover would maintain firm contact with the surface because its weight ($1960\text{ N}$) is much greater than the centripetal force required ($426.67\text{ N}$), resulting in a positive, downward-acting normal force.
+
+---
+
+### How to solve it
+1. **Identify the Physics:** This is a circular motion problem involving vertical forces. The net force at the top of a hill is the vector sum of gravity and the normal force.
+2. **Set up the Equation:** Since the object is moving in a circle, the net force must equal the centripetal force: $\sum F = \frac{mv^2}{r}$. At the top of the hill, gravity pulls the object into the circle ($+$) and the normal force pushes out ($-$). Thus: $mg - F_N = \frac{mv^2}{r}$.
+3. **Calculate:** Plug in your values. If $F_N$ becomes negative, it physically implies the object is moving too fast and is no longer constrained by the circular path (it undergoes projectile motion).
+4. **Compare:** For part (b), identify the variables that change. By changing the location from the Moon to Earth, you are changing $g$. Analyze how $g$ affects the magnitude of the normal force in the derived equation.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,37 @@
+To solve this problem, we use the kinematics of uniform circular motion. Let $r_A = 0.20\text{ m}$ and $r_B = 0.30\text{ m}$. We are given that the periods are the same, so $T_A = T_B = T$.
+
+### Part (a): Determine the ratio $\frac{v_B}{v_A}$
+
+The speed $v$ of an object in uniform circular motion is given by the circumference divided by the period:
+$$v = \frac{2\pi r}{T}$$
+
+Since the periods are equal, the speed is directly proportional to the radius ($v \propto r$). Therefore:
+$$\frac{v_B}{v_A} = \frac{\frac{2\pi r_B}{T}}{\frac{2\pi r_A}{T}} = \frac{r_B}{r_A}$$
+
+Substituting the given values:
+$$\frac{v_B}{v_A} = \frac{0.30\text{ m}}{0.20\text{ m}} = 1.5$$
+
+**Answer:** The ratio $\frac{v_B}{v_A} = 1.5$.
+
+---
+
+### Part (b): Determine the ratio $\frac{a_B}{a_A}$
+
+The formula for centripetal acceleration is $a = \frac{v^2}{r}$. Alternatively, using the angular velocity $\omega = \frac{2\pi}{T}$, we have $a = r\omega^2$.
+
+Since the periods $T$ are the same, the angular velocities $\omega$ are also the same ($\omega = \frac{2\pi}{T}$).
+$$\frac{a_B}{a_A} = \frac{r_B \omega^2}{r_A \omega^2} = \frac{r_B}{r_A}$$
+
+Substituting the known ratio:
+$$\frac{a_B}{a_A} = \frac{0.30\text{ m}}{0.20\text{ m}} = 1.5$$
+
+**Answer:** The ratio $\frac{a_B}{a_A} = 1.5$.
+
+### How to solve it:
+1. **Identify the constant:** Recognize that for both spheres, the period $T$ is identical. This implies that the angular velocity $\omega = \frac{2\pi}{T}$ is also identical for both.
+2. **Relate $v$ to $r$:** Use $v = r\omega$. Since $\omega$ is constant, $v$ is linearly dependent on $r$.
+3. **Relate $a$ to $r$:** Use the relation $a = r\omega^2$. Since $\omega^2$ is constant, $a$ is also linearly dependent on $r$.
+4. **Calculate:** Plug the radii $0.30$ and $0.20$ into the ratios to find the result.
+
+###QUESTION_TYPE
+Calculation question

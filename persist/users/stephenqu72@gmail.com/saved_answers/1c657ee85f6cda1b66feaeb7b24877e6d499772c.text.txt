@@ -1,0 +1,31 @@
+To solve this projectile motion problem, we need to focus on the vertical component of the motion.
+
+### Step-by-Step Explanation
+
+**1. Identify the vertical component of the initial velocity ($u_y$):**
+The projectile is launched with an initial velocity $v = 30\text{ ms}^{-1}$ at an angle $\theta = 50^\circ$ to the horizontal. The vertical component is given by:
+$$u_y = v \sin(\theta)$$
+$$u_y = 30 \sin(50^\circ) \approx 30 \times 0.766 = 22.98\text{ ms}^{-1}$$
+
+**2. Identify the physics at the maximum height ($H$):**
+At the highest point of the trajectory, the vertical velocity of the projectile becomes zero:
+$$v_y = 0\text{ ms}^{-1}$$
+The acceleration due to gravity ($g$) is acting downwards, so $a_y = -9.8\text{ ms}^{-2}$.
+
+**3. Choose the appropriate kinematic equation:**
+We use the equation that relates velocity, acceleration, and displacement without needing time:
+$$v_y^2 = u_y^2 + 2a_y\Delta y$$
+Where $\Delta y$ is the maximum height $H$. Substituting the known values:
+$$0 = (22.98)^2 + 2(-9.8)H$$
+$$0 = 528.08 - 19.6H$$
+
+**4. Solve for $H$:**
+$$19.6H = 528.08$$
+$$H = \frac{528.08}{19.6} \approx 26.94\text{ m}$$
+
+Comparing this result to the given options, it matches option **C**.
+
+**Answer:** The height of H above the ground is **26.9 m**.
+
+###QUESTION_TYPE
+Multiple choice

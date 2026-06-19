@@ -1,0 +1,43 @@
+To solve this problem, we use **dimensional analysis**. Dimensional analysis allows us to verify if a physical equation is correct by ensuring that the units on the left-hand side (LHS) match the units on the right-hand side (RHS).
+
+### Step-by-Step Solution
+
+**1. Determine the units for each variable:**
+*   Terminal velocity $v_t$: $m\,s^{-1}$
+*   Radius $r$: $m$
+*   Gravitational field strength $g$: $m\,s^{-2}$
+*   Density ($\rho$ and $\rho'$): $kg\,m^{-3}$
+*   Viscosity $\eta$: $kg\,m^{-1}s^{-1}$ (given)
+
+**2. Analyze the common term $(\rho - \rho')$:**
+The unit of the density difference is simply the unit of density: $kg\,m^{-3}$.
+
+**3. Test the dimensions for option (C): $v_t = \frac{2r^2g}{9\eta}(\rho - \rho')$**
+We ignore the numerical constant ($2/9$) as it is dimensionless. Let's look at the dimensions of the RHS:
+$$\text{RHS units} = \frac{[r^2][g]}{[\eta]} \times [\text{density}]$$
+
+Substitute the units:
+$$\text{RHS} = \frac{(m^2)(m\,s^{-2})}{(kg\,m^{-1}s^{-1})} \times (kg\,m^{-3})$$
+
+Simplify the numerator:
+$$\text{Numerator} = m^3 s^{-2}$$
+
+Combine with the denominator and density:
+$$\text{RHS} = \frac{m^3 s^{-2}}{kg\,m^{-1}s^{-1}} \times kg\,m^{-3}$$
+
+Cancel the $kg$ terms:
+$$\text{RHS} = \frac{m^3 s^{-2}}{m^{-1}s^{-1}} \times m^{-3}$$
+
+Simplify the powers of $m$:
+$$\text{RHS} = (m^3 \cdot m^1 \cdot m^{-3}) \times (s^{-2} \cdot s^1)$$
+$$\text{RHS} = m^1 s^{-1} = m\,s^{-1}$$
+
+Since the RHS units ($m\,s^{-1}$) match the LHS units ($v_t = m\,s^{-1}$), this is the physically correct relationship. This formula is famously known as **Stokes' Law** for the settling velocity of a sphere.
+
+**Conclusion:**
+By checking the units, we can see that only option (C) yields the units of velocity.
+
+Correct Answer: **(C)**
+
+###QUESTION_TYPE
+Multiple choice

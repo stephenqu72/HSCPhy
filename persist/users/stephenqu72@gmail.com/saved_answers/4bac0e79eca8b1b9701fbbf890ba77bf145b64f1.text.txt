@@ -1,0 +1,33 @@
+To solve this problem, we must analyze the relationship between terminal velocity and mass by interpreting the provided linear graph and applying the principles of dynamics.
+
+### Part (a)
+**Answer:** The graph shows a linear relationship between the square of the terminal velocity ($v^2$) and the mass ($m$). The equation for a straight line is $y = mx + c$.
+1. Slope ($k$): Using points $(100, 2.2)$ and $(300, 6.6)$, $k = \frac{6.6 - 2.2}{300 - 100} = \frac{4.4}{200} = 0.022$.
+2. The y-intercept is approximately $0$.
+Thus, $v^2 \propto m$, which implies $v \propto \sqrt{m}$.
+
+**Explanation:** In physics, a straight-line graph through the origin indicates that the variable on the y-axis is directly proportional to the variable on the x-axis. Since $v^2$ is proportional to $m$, taking the square root of both sides shows that the terminal velocity is proportional to the square root of the mass.
+
+---
+
+### Part (b)
+**Answer:** At terminal velocity, acceleration $a = 0$. Therefore, the net force is zero: $F_{net} = F_{weight} - F_{air} = 0$.
+This means $F_{air} = F_{weight} = mg$.
+Since $v^2 \propto m$ from part (a), we can write $m = kv^2$ (where $k$ is a constant).
+Substituting this into the force equation: $F_{air} = (kv^2)g = (kg)v^2$.
+
+**Explanation:** By applying Newton’s Second Law ($\Sigma F = ma$), we recognize that at terminal velocity, weight must equal air resistance. Since the graph demonstrates that mass is proportional to the square of velocity, the drag force must scale with $v^2$ to maintain equilibrium for varying masses.
+
+---
+
+### Part (c)
+**Answer:** The measurement is **not consistent** with the model.
+1. Our model from (a) is $v^2 \approx 0.022 \times m$.
+2. For $m = 500\text{ g}$, the predicted $v^2 = 0.022 \times 500 = 11$.
+3. The predicted terminal velocity would be $v = \sqrt{11} \approx 3.32\text{ m/s}$.
+4. The measured value of $2.90\text{ m/s}$ results in $v^2 = 8.41$, which is significantly lower than the predicted value of $11$.
+
+**Explanation:** To evaluate consistency, calculate the value predicted by the established line of best fit for the given mass. Since the experimental result deviates significantly from the value predicted by the linear model, it is considered inconsistent.
+
+###QUESTION_TYPE
+Data analysis questions

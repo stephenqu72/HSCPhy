@@ -1,0 +1,51 @@
+Here are the solutions to the physics problems provided.
+
+### (a) Calculate the magnitude of gravitational force
+**Formula:** We use Newton's Law of Universal Gravitation:
+$$F = \frac{G M m}{r^2}$$
+Where:
+- $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$
+- $M = 1.99 \times 10^{30} \, \text{kg}$ (Mass of the Sun)
+- $m = 6.1 \times 10^{3} \, \text{kg}$ (Mass of JWST)
+- $r = 1.52 \times 10^{11} \, \text{m}$ (Distance)
+
+**Calculation:**
+$$F = \frac{(6.67 \times 10^{-11}) \times (1.99 \times 10^{30}) \times (6.1 \times 10^{3})}{(1.52 \times 10^{11})^2}$$
+$$F \approx \frac{8.096 \times 10^{23}}{2.3104 \times 10^{22}} \approx 35.04 \, \text{N}$$
+
+---
+
+### (b) What is the minimum photon energy?
+**Concept:** Energy $E$ and wavelength $\lambda$ are inversely proportional ($E = \frac{hc}{\lambda}$). Therefore, the **minimum** energy corresponds to the **maximum** wavelength ($2.8 \times 10^{-5} \, \text{m}$).
+
+**Constants:**
+- $h = 6.626 \times 10^{-34} \, \text{J s}$
+- $c = 3.00 \times 10^8 \, \text{m/s}$
+
+**Calculation:**
+$$E = \frac{hc}{\lambda_{max}} = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{2.8 \times 10^{-5}}$$
+$$E \approx 7.10 \times 10^{-21} \, \text{J}$$
+
+---
+
+### (c) Calculate the temperature of the exoplanet
+**Concept:** We use Wien's Displacement Law:
+$$\lambda_{max} T = b$$
+Where:
+- $b = 2.898 \times 10^{-3} \, \text{m K}$ (Wien's constant)
+- $\lambda_{max} = 1.14 \times 10^{-5} \, \text{m}$
+
+**Calculation:**
+$$T = \frac{b}{\lambda_{max}} = \frac{2.898 \times 10^{-3}}{1.14 \times 10^{-5}}$$
+$$T \approx 254.21 \, \text{K}$$
+
+---
+
+### How to solve these problems (HSC Tips)
+1. **Always list your variables:** Before starting any calculation, extract the given data from the question. This prevents errors in selecting values.
+2. **Check Units:** Ensure your units are in standard SI (meters, kilograms, seconds, Joules, Kelvin). If you see "micrometers" or "kilometers," convert them immediately before plugging them into your calculator.
+3. **Conceptual Link:** For part (b), recognize the inverse relationship between energy and wavelength. Many students fall into the trap of using the wrong wavelength; remember that a longer wavelength means lower energy (think of radio waves vs. gamma rays).
+4. **Significant Figures:** HSC markers look for appropriate rounding. Since the values provided in the prompt (e.g., $6.1 \times 10^3$) mostly use 2 or 3 significant figures, providing your answer to 3 significant figures is a safe and professional practice.
+
+###QUESTION_TYPE
+Calculation question

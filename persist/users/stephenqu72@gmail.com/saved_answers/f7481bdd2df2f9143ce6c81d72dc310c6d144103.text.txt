@@ -1,0 +1,19 @@
+To determine the correct graphs, we need to analyze the motion of the ball in two distinct stages:
+
+### 1. Motion on the Ramp
+*   **Velocity:** As the ball rolls down the curved ramp, it gains speed due to gravity. The ramp is curved (the slope becomes flatter as it nears the table), meaning the component of gravitational acceleration acting along the ramp decreases as the ball moves down. Therefore, the velocity increases, but at a decreasing rate (the gradient of the $v-t$ graph decreases).
+*   **Acceleration:** Since $a = g \sin(\theta)$ (where $\theta$ is the angle of the ramp), as the ramp flattens out, the angle $\theta$ decreases, causing the acceleration $a$ to decrease over time until the ball reaches the edge of the table.
+
+### 2. Motion in the Air (Projectile Motion)
+*   **Velocity:** Once the ball leaves the table, it begins free-fall projectile motion. Its horizontal velocity remains constant, but its vertical velocity increases downwards due to gravity. Consequently, the magnitude of the total velocity increases linearly over time.
+*   **Acceleration:** Once in the air, the only force acting on the ball is gravity. Therefore, the acceleration is constant and equal to $g$ directed downwards.
+
+### Analyzing the Options:
+*   Looking at the **acceleration ($a$) graphs**: We expect a graph that shows decreasing acceleration while on the ramp, followed by a jump to a constant value (gravity, $g$) once in the air.
+*   Graph **(A)** shows exactly this: a smooth curve representing decreasing acceleration on the ramp, followed by a sudden jump to a constant positive value representing the constant gravitational acceleration of the projectile.
+*   Looking at the **velocity ($v$) graphs**: We expect an increasing velocity that reflects the changing acceleration on the ramp, followed by a linear increase in velocity once the ball is in free-fall. Graph (A) shows a curve that becomes steeper, consistent with the ball transitioning to constant gravitational acceleration.
+
+Therefore, the correct pair of graphs is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,36 @@
+To solve this projectile motion problem, we need to consider the horizontal and vertical components of motion separately.
+
+### Given Data:
+*   Total time of flight, $t = 6.1\text{ s}$
+*   Horizontal range, $R = 244\text{ m}$
+*   Acceleration due to gravity, $g \approx 9.8\text{ ms}^{-2}$
+
+### Step 1: Find the horizontal velocity component ($v_x$)
+Since there is no air resistance, the horizontal velocity is constant:
+$$v_x = \frac{R}{t} = \frac{244}{6.1} = 40\text{ ms}^{-1}$$
+
+### Step 2: Find the vertical velocity component ($v_{iy}$)
+Using the vertical displacement formula $y = v_{iy}t - \frac{1}{2}gt^2$. Since the projectile lands on flat ground, the vertical displacement at the time of landing is $0$:
+$$0 = v_{iy}t - \frac{1}{2}gt^2$$
+$$v_{iy} = \frac{gt}{2}$$
+$$v_{iy} = \frac{9.8 \times 6.1}{2} = 4.9 \times 6.1 = 29.89 \approx 30\text{ ms}^{-1}$$
+
+### Step 3: Find the magnitude of the initial velocity ($v$)
+The magnitude of the resultant initial velocity is the vector sum of its components:
+$$v = \sqrt{v_x^2 + v_{iy}^2}$$
+$$v = \sqrt{40^2 + 30^2}$$
+$$v = \sqrt{1600 + 900} = \sqrt{2500} = 50\text{ ms}^{-1}$$
+
+**Conclusion:**
+The magnitude of the initial velocity is $50\text{ ms}^{-1}$.
+
+Comparing this to the given options:
+A. $30\text{ ms}^{-1}$
+B. $40\text{ ms}^{-1}$
+C. $50\text{ ms}^{-1}$
+D. $60\text{ ms}^{-1}$
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

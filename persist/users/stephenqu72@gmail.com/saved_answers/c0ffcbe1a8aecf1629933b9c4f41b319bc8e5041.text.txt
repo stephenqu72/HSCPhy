@@ -1,0 +1,18 @@
+The correct answer is **A**.
+
+### Explanation:
+To solve this problem, we must understand the physics of circular motion for a satellite in orbit:
+
+1.  **Gravity is the only force:** A satellite in a stable circular orbit is in a state of continuous freefall. The only force acting on the satellite is the gravitational force ($F_g$) exerted by the Earth, directed toward the center of the planet.
+2.  **Misconception about "Centripetal Force":** It is a common mistake to label a "centripetal force" as an additional physical force acting on the object. In physics, centripetal force is not a *fundamental* force; rather, it is the *net result* of other physical forces acting toward the center of a circular path. In this case, gravity *is* the centripetal force ($F_g = F_c$). Therefore, you would never draw both $F_g$ and $F_c$ as separate forces on a free-body diagram.
+3.  **No Propulsive Force ($F_p$):** A satellite in a stable orbit does not require an engine or "propulsive force" to maintain its speed. According to Newton's First Law, it will continue in its circular path due to its inertia, with gravity providing the necessary acceleration to change its velocity vector.
+4.  **No Normal Force ($F_N$):** A normal force only exists when there is physical contact with a surface (like the floor or a table). Since the satellite is in space, there is no surface contact, so $F_N = 0$.
+
+**Conclusion:** 
+- Diagram **A** correctly shows only the gravitational force directed toward the Earth.
+- Diagram **B** is incorrect because there is no propulsive force.
+- Diagram **C** is incorrect because there is no normal force, and it fails to identify the source of the centripetal force (gravity).
+- Diagram **D** is incorrect because it treats $F_c$ as a separate force acting alongside $F_g$, and includes a non-existent propulsive force.
+
+###QUESTION_TYPE
+Multiple choice

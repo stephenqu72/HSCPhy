@@ -1,0 +1,31 @@
+To find the location where the spacecraft experiences zero net gravitational force, we must set the gravitational force exerted by the first planet equal to the gravitational force exerted by the second planet.
+
+### Step-by-Step Solution:
+
+1.  **Define the Law of Universal Gravitation:**
+    The gravitational force $F$ exerted on a mass $m$ by a mass $M$ at a distance $r$ is given by:
+    $$F = \frac{G M m}{r^2}$$
+
+2.  **Set up the equilibrium condition:**
+    For the net force to be zero, the force from the small planet (mass $M$) must equal the force from the large planet (mass $4M$). Let $r_1$ be the distance from the small planet and $r_2$ be the distance from the large planet:
+    $$\frac{G M m}{r_1^2} = \frac{G (4M) m}{r_2^2}$$
+
+3.  **Simplify the equation:**
+    Cancel out the common terms ($G, M, \text{ and } m$):
+    $$\frac{1}{r_1^2} = \frac{4}{r_2^2}$$
+
+4.  **Solve for the ratio of distances:**
+    Take the square root of both sides:
+    $$\frac{1}{r_1} = \frac{2}{r_2} \implies r_2 = 2r_1$$
+    This means the spacecraft must be twice as far from the large planet as it is from the small planet.
+
+5.  **Evaluate the options:**
+    *   **A:** $r_1 = 24, r_2 = 6$. Here $r_2 \neq 2r_1$.
+    *   **B:** $r_1 = 6, r_2 = 24$. Here $r_2 \neq 2r_1$.
+    *   **C:** $r_1 = 10, r_2 = 20$. Here $r_2 = 2 \times 10 = 20$. This matches our derived condition.
+    *   **D:** $r_1 = 15, r_2 = 15$. Here $r_2 \neq 2r_1$.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

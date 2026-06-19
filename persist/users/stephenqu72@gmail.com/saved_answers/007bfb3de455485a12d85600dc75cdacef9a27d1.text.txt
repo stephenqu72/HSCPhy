@@ -1,0 +1,37 @@
+To solve this problem, we must apply the principles of conservation of momentum for a perfectly inelastic collision.
+
+### 1. Variables and Initial State
+Let the mass of the first puck be $m_1 = m$ and its initial velocity be $v$.
+The second puck is at rest, so $m_2 = 3m$ and $v_2 = 0$.
+
+The initial kinetic energy ($KE_i$) of the system is:
+$$KE_i = \frac{1}{2}mv^2$$
+
+### 2. Conservation of Momentum
+Since the pucks coalesce (stick together), they move with a common final velocity $V$. The total momentum before the collision equals the total momentum after:
+$$p_i = p_f$$
+$$mv + (3m)(0) = (m + 3m)V$$
+$$mv = 4mV$$
+$$V = \frac{v}{4}$$
+
+### 3. Final Kinetic Energy
+The final kinetic energy ($KE_f$) of the combined mass ($4m$) moving at velocity $V$ is:
+$$KE_f = \frac{1}{2}(4m)V^2$$
+Substitute $V = \frac{v}{4}$:
+$$KE_f = \frac{1}{2}(4m) \left( \frac{v}{4} \right)^2$$
+$$KE_f = 2m \left( \frac{v^2}{16} \right) = \frac{1}{8}mv^2$$
+
+### 4. Calculating the Percentage Lost
+The kinetic energy lost ($\Delta KE$) is:
+$$\Delta KE = KE_i - KE_f$$
+$$\Delta KE = \frac{1}{2}mv^2 - \frac{1}{8}mv^2 = \frac{4}{8}mv^2 - \frac{1}{8}mv^2 = \frac{3}{8}mv^2$$
+
+To find the percentage lost:
+$$\text{Percentage lost} = \left( \frac{\Delta KE}{KE_i} \right) \times 100\%$$
+$$\text{Percentage lost} = \left( \frac{\frac{3}{8}mv^2}{\frac{1}{2}mv^2} \right) \times 100\%$$
+$$\text{Percentage lost} = \left( \frac{3}{8} \times 2 \right) \times 100\% = \frac{3}{4} \times 100\% = 75\%$$
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

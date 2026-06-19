@@ -1,0 +1,25 @@
+To identify the situation with the greatest torque, we use the formula for torque ($\tau$):
+$$\tau = F \cdot d$$
+where $F$ is the force applied perpendicular to the spanner and $d$ is the distance from the pivot (the bolt head). If multiple forces are applied, the total torque is the sum of the individual torques ($\tau_{total} = \sum F \cdot d$).
+
+### Calculation for each situation:
+
+*   **(A)** Two forces of $40\text{ N}$ applied at $20\text{ cm}$ ($0.2\text{ m}$) and $30\text{ cm}$ ($0.3\text{ m}$):
+    $$\tau_A = (40 \times 0.2) + (40 \times 0.3) = 8 + 12 = 20\text{ Nm}$$
+
+*   **(B)** One force of $70\text{ N}$ applied at $30\text{ cm}$ ($0.3\text{ m}$):
+    $$\tau_B = 70 \times 0.3 = 21\text{ Nm}$$
+
+*   **(C)** One force of $120\text{ N}$ applied at $15\text{ cm}$ ($0.15\text{ m}$):
+    $$\tau_C = 120 \times 0.15 = 18\text{ Nm}$$
+
+*   **(D)** Two forces of $50\text{ N}$ applied at $15\text{ cm}$ ($0.15\text{ m}$) and $30\text{ cm}$ ($0.3\text{ m}$):
+    $$\tau_D = (50 \times 0.15) + (50 \times 0.3) = 7.5 + 15 = 22.5\text{ Nm}$$
+
+Comparing the results ($20\text{ Nm}, 21\text{ Nm}, 18\text{ Nm}, 22.5\text{ Nm}$), the greatest torque is produced in situation **(D)**.
+
+### Answer
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

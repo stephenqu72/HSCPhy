@@ -1,0 +1,33 @@
+To solve this problem, we need to apply the principles of Conservation of Energy and Circular Motion.
+
+### 1. Conservation of Energy
+We find the speed of the bucket at the top of the circle ($v_{top}$) using the conservation of energy principle.
+The total mechanical energy at the bottom equals the total energy at the top:
+$$E_{bottom} = E_{top}$$
+$$\frac{1}{2}mv_{bottom}^2 = \frac{1}{2}mv_{top}^2 + mg(2r)$$
+Divide by $m$ and rearrange for $v_{top}^2$:
+$$v_{top}^2 = v_{bottom}^2 - 4gr$$
+Given: $v_{bottom} = 12.1\text{ m/s}$, $r = 1.50\text{ m}$, $g \approx 9.8\text{ m/s}^2$:
+$$v_{top}^2 = (12.1)^2 - 4(9.8)(1.50) = 146.41 - 58.8 = 87.61\text{ m}^2/\text{s}^2$$
+
+### 2. Tension at the Bottom ($T_{bottom}$)
+At the bottom, tension acts upwards and weight acts downwards, providing the centripetal force:
+$$T_{bottom} - mg = \frac{mv_{bottom}^2}{r}$$
+$$T_{bottom} = m(g + \frac{v_{bottom}^2}{r}) = 1.20(9.8 + \frac{146.41}{1.50}) = 1.20(9.8 + 97.607) \approx 128.89\text{ N}$$
+
+### 3. Tension at the Top ($T_{top}$)
+At the top, both tension and weight act downwards:
+$$T_{top} + mg = \frac{mv_{top}^2}{r}$$
+$$T_{top} = m(\frac{v_{top}^2}{r} - g) = 1.20(\frac{87.61}{1.50} - 9.8) = 1.20(58.407 - 9.8) \approx 58.33\text{ N}$$
+
+### 4. Difference in Tension
+The difference in tension is:
+$$\Delta T = T_{bottom} - T_{top} = 128.89 - 58.33 = 70.56\text{ N}$$
+Rounding to the nearest whole number, we get $71\text{ N}$.
+
+**Answer: (B) 71 N**
+
+***
+
+###QUESTION_TYPE
+Calculation question

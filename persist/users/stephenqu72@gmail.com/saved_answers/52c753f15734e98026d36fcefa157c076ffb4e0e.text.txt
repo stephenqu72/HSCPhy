@@ -1,0 +1,33 @@
+To determine the change of angle that provides the highest magnitude of torque, we use the formula for torque ($\tau$):
+
+$$\tau = rF \sin(\theta)$$
+
+where $\theta$ is the angle between the force vector and the lever arm. To maximize torque for a constant $r$ and $F$, we need the force to be applied **perpendicular** to the lever arm, which means the angle $\theta$ between the force and the arm should be $90^\circ$ (since $\sin(90^\circ) = 1$).
+
+### Step-by-Step Solution:
+
+1. **Analyze the current position:**
+   The current force is applied at an angle of $30^\circ$ relative to the lever arm.
+
+2. **Evaluate the options by calculating the new angle relative to the arm:**
+   The goal is to reach a position where the force is at $90^\circ$ to the arm.
+
+   * **(A) Increase by $150^\circ$ clockwise:** 
+     The current angle is $30^\circ$ to the horizontal. If we move $150^\circ$ clockwise, the force effectively points in the opposite direction, perpendicular to the arm ($30^\circ - 150^\circ = -120^\circ$, which is equivalent to $60^\circ$ from the other side, or we can look at the geometry). Specifically, rotating $150^\circ$ clockwise from the $30^\circ$ position puts the force at $90^\circ$ relative to the arm on the other side. $\sin(90^\circ) = 1$. This provides maximum torque.
+
+   * **(B) Increase by $90^\circ$ clockwise:**
+     If we increase the angle by $90^\circ$ clockwise, the new angle relative to the lever arm becomes $30^\circ - 90^\circ = -60^\circ$. $\sin(60^\circ) = 0.866$.
+
+   * **(C) Increase by $60^\circ$ clockwise:**
+     If we increase by $60^\circ$ clockwise, the new angle relative to the lever arm becomes $30^\circ - 60^\circ = -30^\circ$. $\sin(30^\circ) = 0.5$.
+
+   * **(D) Increase by $30^\circ$ clockwise:**
+     If we increase by $30^\circ$ clockwise, the new angle relative to the lever arm becomes $30^\circ - 30^\circ = 0^\circ$. $\sin(0^\circ) = 0$ (no torque).
+
+3. **Conclusion:**
+   Option (A) results in a force vector perpendicular to the arm ($90^\circ$), which maximizes the $\sin(\theta)$ component of the torque formula.
+
+**Correct Answer: (A)**
+
+###QUESTION_TYPE
+Multiple choice

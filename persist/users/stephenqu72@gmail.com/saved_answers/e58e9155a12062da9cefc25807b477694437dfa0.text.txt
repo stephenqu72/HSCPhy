@@ -1,0 +1,33 @@
+To determine the value of mass $M$, we must analyze the forces acting on both masses when the system is in equilibrium.
+
+### 1. Analyze mass $M$
+Mass $M$ is hanging vertically and is stationary. Therefore, the forces acting on it must be balanced. The tension $T$ in the string pulling upwards must equal the gravitational force pulling downwards:
+$$T = Mg$$
+
+### 2. Analyze mass $m$
+Mass $m$ is moving in a horizontal circle of radius $r$ with constant speed $v$. The tension $T$ in the string provides the necessary centripetal force to keep mass $m$ in its circular path:
+$$T = F_c = \frac{mv^2}{r}$$
+
+### 3. Equate and Solve
+Since the string is continuous and friction is negligible, the tension $T$ is the same throughout the string. We can set the two expressions for $T$ equal to each other:
+$$Mg = \frac{mv^2}{r}$$
+
+To solve for $M$, divide both sides by $g$:
+$$M = \frac{mv^2}{gr}$$
+
+Comparing this result to the given options:
+(A) $\frac{mv^2}{r}$ (This is the tension $T$, not mass $M$)
+(B) $mv^2rg$ (Incorrect dimensions)
+(C) $\frac{mgv^2}{r}$ (Incorrect)
+(D) $\frac{mv^2}{gr}$ (Matches our derivation)
+
+**Correct Answer: (D)**
+
+### How to solve this type of problem:
+1. **Identify the force of interest:** Recognize that the string tension provides the connection between the vertical equilibrium of mass $M$ and the circular motion of mass $m$.
+2. **Apply Newton's Second Law to each object:** For static objects, use $\sum F = 0$. For objects in uniform circular motion, use $\sum F = \frac{mv^2}{r}$ toward the center of the circle.
+3. **Link the components:** Use the shared variable (in this case, tension $T$) to equate the equations.
+4. **Algebraic isolation:** Rearrange the final equation to solve for the requested variable.
+
+###QUESTION_TYPE
+Multiple choice

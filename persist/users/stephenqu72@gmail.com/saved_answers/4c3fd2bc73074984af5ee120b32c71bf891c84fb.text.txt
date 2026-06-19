@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of energy conservation (for acceleration) and circular motion in a magnetic field.
+
+### Part (a)
+**Goal:** Show that $v \approx 7.6 \times 10^5 \text{ ms}^{-1}$ for a proton.
+
+The electric potential energy lost by the proton equals its kinetic energy gained:
+$$qV = \frac{1}{2}mv^2$$
+Rearranging for $v$:
+$$v = \sqrt{\frac{2qV}{m}}$$
+Using the constants for a proton: $q = 1.6 \times 10^{-19} \text{ C}$, $m = 1.67 \times 10^{-27} \text{ kg}$, and $V = 3000 \text{ V}$:
+$$v = \sqrt{\frac{2 \times (1.6 \times 10^{-19}) \times 3000}{1.67 \times 10^{-27}}} = \sqrt{5.748 \times 10^{11}} \approx 7.58 \times 10^5 \text{ ms}^{-1}$$
+Rounding to two significant figures, we get $7.6 \times 10^5 \text{ ms}^{-1}$.
+
+### Part (b)
+**Goal:** Determine the radius $r$ of the path.
+
+When the particle enters the magnetic field, the magnetic force acts as the centripetal force:
+$$qvB = \frac{mv^2}{r} \implies r = \frac{mv}{qB}$$
+Substitute the known values:
+$$r = \frac{(1.67 \times 10^{-27}) \times (7.6 \times 10^5)}{(1.6 \times 10^{-19}) \times 0.5} = \frac{1.269 \times 10^{-21}}{8 \times 10^{-20}} \approx 0.0159 \text{ m} \approx 1.6 \text{ cm}$$
+
+### Part (c)
+**Goal:** Find the ratio $r_D / r_P$.
+
+From the equation derived in part (b), $r = \frac{mv}{qB}$.
+Since $v = \sqrt{\frac{2qV}{m}}$, substitute $v$ into the radius equation:
+$$r = \frac{m}{qB} \sqrt{\frac{2qV}{m}} = \frac{1}{B} \sqrt{\frac{2mV}{q}}$$
+Since $B, V, q$ are identical for both the proton and the deuterium ion, $r$ is proportional to $\sqrt{m}$:
+$$r \propto \sqrt{m}$$
+Given that the mass of deuterium ($m_D$) is $2 \times$ the mass of a proton ($m_P$):
+$$\frac{r_D}{r_P} = \sqrt{\frac{m_D}{m_P}} = \sqrt{\frac{2m_P}{m_P}} = \sqrt{2}$$
+The ratio is $\sqrt{2} \approx 1.41$.
+
+###QUESTION_TYPE
+Calculation question

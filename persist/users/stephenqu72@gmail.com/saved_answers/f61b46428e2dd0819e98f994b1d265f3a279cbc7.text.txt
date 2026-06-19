@@ -1,0 +1,30 @@
+To solve this problem, we must relate the physics of a car on a banked track to the linear relationship shown in the graph.
+
+### Physics Explanation
+When a car travels on a banked track and the centripetal force is provided entirely by the horizontal component of the normal force (i.e., no friction is required), the governing equation is derived from:
+$$\sum F_x = N \sin(\theta) = \frac{mv^2}{r}$$
+$$\sum F_y = N \cos(\theta) = mg$$
+
+Dividing the two equations gives:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+Rearranging to isolate $v^2$:
+$$v^2 = (g \tan(\theta)) \cdot r$$
+
+This equation is in the form of $y = mx$, where $y = v^2$ and $x = r$. Therefore, the gradient (slope) of the provided graph is equal to $g \tan(\theta)$.
+
+### Calculation
+1. **Determine the gradient ($m$) of the graph:**
+   Pick two points on the line. Using $(0, 0)$ and $(100, 160)$:
+   $$m = \frac{\Delta y}{\Delta x} = \frac{160 - 0}{100 - 0} = 1.6 \, \text{m/s}^2/\text{m}$$
+
+2. **Calculate the angle ($\theta$):**
+   Set the gradient equal to $g \tan(\theta)$, using $g = 9.8 \, \text{m/s}^2$:
+   $$1.6 = 9.8 \tan(\theta)$$
+   $$\tan(\theta) = \frac{1.6}{9.8} \approx 0.16327$$
+   $$\theta = \arctan(0.16327)$$
+   $$\theta \approx 9.27^\circ$$
+
+**Final Answer:** The banking angle of the turns is approximately **$9.3^\circ$**.
+
+###QUESTION_TYPE
+Calculation question

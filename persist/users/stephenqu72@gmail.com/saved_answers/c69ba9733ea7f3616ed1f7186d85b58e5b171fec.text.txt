@@ -1,0 +1,29 @@
+To solve this physics problem, we must apply Newton's Second Law for circular motion.
+
+### Analysis of Forces
+1.  **Identify the forces:** The trolley is at the bottom of a vertical circular path (a dip). Two main forces act on the trolley:
+    *   **Normal force ($F_N$):** Acting upwards (perpendicular to the track).
+    *   **Gravitational force ($mg$):** Acting downwards.
+2.  **Determine the Net Force:** For an object moving in a circle, the net force must be directed toward the center of the circle. At the bottom of a dip, the center of the circle is **above** the trolley. Therefore, the upward force must be larger than the downward force:
+    $$\sum F = F_N - mg$$
+3.  **Relate to Centripetal Force:** By Newton's Second Law for circular motion, the net force towards the center is the centripetal force ($F_c$):
+    $$F_c = F_N - mg$$
+    Rearranging this, we get:
+    $$F_N = F_c + mg$$
+
+### Evaluating the Options
+*   **(A) Incorrect:** The gravitational force ($mg$) is constant regardless of the path.
+*   **(B) Incorrect:** The centripetal force is the *net* force ($F_N - mg$), not just the normal force.
+*   **(C) Correct:** The "sum of the forces" (treating them as vectors, where the normal force is positive and gravity is negative) equals the centripetal force. Specifically, $F_N + (-mg) = F_c$.
+*   **(D) Incorrect:** While the normal force is indeed larger than on a flat surface (where $F_N = mg$), the explanation referencing "centrifugal force" is incorrect; centripetal force is a real physical requirement, whereas centrifugal force is a pseudo-force used in non-inertial frames of reference.
+
+**Answer:** (C)
+
+### Explanation Strategy
+When you encounter circular motion problems in the HSC, always:
+1.  **Draw a Free Body Diagram:** Label all forces acting on the object.
+2.  **Define the Direction of Acceleration:** Note that for uniform circular motion, acceleration is always directed toward the center.
+3.  **Set up the Equation:** Use the convention that forces pointing toward the center are positive. Thus: $F_{center} - F_{away} = F_c$.
+
+###QUESTION_TYPE
+Multiple choice

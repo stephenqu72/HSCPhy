@@ -1,0 +1,39 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through this problem. This is a classic "circular motion on a banked track" question. Let's break it down.
+
+### (a) Free Body Diagram
+To solve this, visualize the cyclist as a point mass on an incline.
+1. **Gravity ($mg$):** Acts vertically downwards from the centre of mass.
+2. **Normal Force ($N$):** Acts perpendicular to the surface of the banked track, pointing upwards and inwards towards the center of the turn.
+3. **Net Force ($F_{net}$):** Since the cyclist is moving in a horizontal circle, the net force must be directed **horizontally towards the center of the circle**. This net force is the horizontal component of the normal force ($N \sin \theta$).
+
+**Diagram description:** Draw an inclined line. Place a dot on it. Draw an arrow pointing straight down ($mg$) and an arrow perpendicular to the incline ($N$). Draw a horizontal dashed arrow pointing towards the center of the circle and label it "Net Force ($F_{net}$ or $F_c$)".
+
+---
+
+### (b) Calculation
+To find the net force (which is the centripetal force $F_c$), we look at the vertical and horizontal components of the forces:
+1. **Vertical equilibrium:** The vertical component of the normal force must balance gravity:
+   $$N \cos \theta = mg$$
+2. **Horizontal force:** The horizontal component of the normal force provides the centripetal force:
+   $$F_{net} = N \sin \theta$$
+
+From the first equation, $N = \frac{mg}{\cos \theta}$. Substitute this into the second equation:
+$$F_{net} = \left(\frac{mg}{\cos \theta}\right) \sin \theta = mg \tan \theta$$
+
+**Given values:**
+- $m = 70\text{ kg}$
+- $g = 9.8\text{ m/s}^2$
+- $\theta = 25^\circ$
+
+**Calculation:**
+$$F_{net} = 70 \times 9.8 \times \tan(25^\circ)$$
+$$F_{net} = 686 \times 0.4663...$$
+$$F_{net} \approx 319.7\text{ N}$$
+
+Rounding to two significant figures (consistent with the provided data):
+$$F_{net} \approx 320\text{ N}$$
+
+**Summary:** The net force required to keep the cyclist in uniform circular motion at this specific angle is determined by the gravitational force and the banking angle, resulting in approximately $320\text{ N}$ directed horizontally toward the center of the track.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To solve this problem, we must apply the principles of projectile motion, specifically the independence of horizontal and vertical motion:
+
+1.  **Horizontal Motion:** In the absence of air resistance, there is no horizontal force acting on the projectile. Therefore, the horizontal component of velocity remains constant throughout the flight. This means the horizontal component of $v$ is equal to the horizontal component of $u$. This makes options C and D incorrect.
+
+2.  **Vertical Motion:** The projectile is launched upwards with an initial vertical velocity, $u_y$. Throughout the flight, gravity acts downwards, causing a constant negative acceleration ($g$). The vertical velocity component $v_y$ at any time $t$ is given by:
+    $$v_y = u_y - gt$$
+    Since the object is moving upwards from the ground to a height on the wall, it is in the part of its trajectory where it is losing vertical velocity as it climbs toward its peak. 
+
+3.  **Comparing the Components:** At the moment of impact with the wall, the object has risen to a certain height. Because gravity has been acting on the object against its initial upward motion, the vertical velocity has decreased. Consequently, the vertical component of the final velocity $v$ must be smaller than the vertical component of the initial launch velocity $u$. 
+
+Therefore, statement A is the only correct conclusion.
+
+###QUESTION_TYPE
+Multiple choice

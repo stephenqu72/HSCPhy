@@ -1,0 +1,27 @@
+To solve this problem, we need to understand the principle behind Fizeau’s experiment. The light travels from the laser, through a gap in the toothed wheel, to a distant mirror, and back through the same gap (or a different one) to the photosensor. 
+
+### Step-by-Step Solution:
+
+**1. Identify the condition for "no light":**
+For the photosensor to record no light, the wheel must have rotated such that a tooth has moved into the position where the gap previously was during the time the light was traveling to the mirror and back. This means the time taken for the light to travel the round trip is equal to the time taken for the wheel to rotate by the width of one gap.
+
+**2. Calculate the total distance traveled by light ($d$):**
+The mirror is $3.20\text{ km}$ away. Therefore, the total round trip distance is:
+$$d = 2 \times 3.20\text{ km} = 6.40\text{ km} = 6400\text{ m}$$
+
+**3. Calculate the time taken for the light to travel ($t$):**
+We are given that the speed of the teeth (linear speed at the edge of the wheel) is $v_{\text{teeth}} = 200\text{ ms}^{-1}$ and the width of the gap is $s = 6.00\text{ mm} = 0.00600\text{ m}$.
+The time ($t$) taken for a tooth to move the distance of one gap is:
+$$t = \frac{\text{distance of gap}}{\text{speed of teeth}} = \frac{0.00600\text{ m}}{200\text{ ms}^{-1}} = 3.00 \times 10^{-5}\text{ s}$$
+
+**4. Calculate the speed of light ($c$):**
+Using the fundamental formula $\text{speed} = \frac{\text{distance}}{\text{time}}$:
+$$c = \frac{d}{t} = \frac{6400\text{ m}}{3.00 \times 10^{-5}\text{ s}}$$
+$$c = 2.1333... \times 10^8\text{ ms}^{-1}$$
+
+Rounding to three significant figures, we get $2.13 \times 10^8\text{ ms}^{-1}$.
+
+Comparing this to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

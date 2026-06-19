@@ -1,0 +1,29 @@
+To solve this problem, we apply **Kepler’s Third Law of Planetary Motion**, which states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis ($r$) of its orbit. Mathematically, this is expressed as:
+
+$$\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the variables:**
+    *   Let the Earth's period be $T_1 = 365.25$ days.
+    *   Let the Earth's orbital radius be $r_1$.
+    *   The second planet has a radius $r_2 = 0.5 \times r_1$ (since it is "half as far").
+    *   We need to find the new period $T_2$.
+
+2.  **Set up the ratio:**
+    $$\left(\frac{T_2}{T_1}\right)^2 = \left(\frac{r_2}{r_1}\right)^3$$
+
+3.  **Substitute the known values:**
+    $$\left(\frac{T_2}{365.25}\right)^2 = \left(\frac{0.5 \times r_1}{r_1}\right)^3$$
+    $$\left(\frac{T_2}{365.25}\right)^2 = (0.5)^3$$
+    $$\left(\frac{T_2}{365.25}\right)^2 = 0.125$$
+
+4.  **Solve for $T_2$:**
+    $$\frac{T_2}{365.25} = \sqrt{0.125}$$
+    $$\frac{T_2}{365.25} \approx 0.35355$$
+    $$T_2 = 365.25 \times 0.35355 \approx 129.13 \text{ days}$$
+
+Rounding this value, we get approximately $130$ days. Therefore, the correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+This problem relates to orbital mechanics, specifically regarding the L1 Lagrange point.
+
+#### (a) Calculate the radius of the Earth’s orbit, $R$
+
+To find the radius of the Earth's orbit, we use Kepler's Third Law in the form derived from equating gravitational force to centripetal force:
+$$\frac{GM_s}{R^2} = \frac{4\pi^2 R}{T_E^2} \implies R^3 = \frac{GM_s T_E^2}{4\pi^2}$$
+
+**Given constants:**
+- $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$
+- $M_s = 2.0 \times 10^{30} \, \text{kg}$
+- $T_E = 3.16 \times 10^7 \, \text{s}$
+
+**Calculation:**
+$$R^3 = \frac{(6.67 \times 10^{-11}) \times (2.0 \times 10^{30}) \times (3.16 \times 10^7)^2}{4\pi^2}$$
+$$R^3 \approx 3.36 \times 10^{33} \, \text{m}^3$$
+$$R \approx 1.50 \times 10^{11} \, \text{m}$$
+
+---
+
+#### (b) Identify the forces and the equation for distance $d$
+
+**1. Identification of forces:**
+There are two primary gravitational forces acting on the DSCOVR probe:
+- The gravitational force exerted by the **Sun** pulling the probe toward the Sun.
+- The gravitational force exerted by the **Earth** pulling the probe toward the Earth.
+
+**2. Equation for $d$:**
+The probe maintains the same orbital period as the Earth. This means its centripetal acceleration is provided by the net gravitational force of the Sun and the Earth.
+Let $M_E$ be the mass of the Earth (which would be provided in a standard exam paper context if not known). The distance of the probe from the Sun is $(R - d)$.
+
+The net gravitational force providing the centripetal force is:
+$$\frac{G M_s m}{(R - d)^2} - \frac{G M_E m}{d^2} = m \omega^2 (R - d)$$
+
+Since $\omega = \frac{2\pi}{T_E}$, the equation is:
+$$\frac{G M_s}{(R - d)^2} - \frac{G M_E}{d^2} = \left(\frac{2\pi}{T_E}\right)^2 (R - d)$$
+
+###QUESTION_TYPE
+Calculation question

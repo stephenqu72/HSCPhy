@@ -1,0 +1,33 @@
+To solve this projectile motion problem, we must first break down the initial velocity into horizontal ($v_x$) and vertical ($v_y$) components:
+- $v_{0x} = v_0 \cos(40^\circ) = 25 \cos(40^\circ) \approx 19.15\text{ ms}^{-1}$
+- $v_{0y} = v_0 \sin(40^\circ) = 25 \sin(40^\circ) \approx 16.07\text{ ms}^{-1}$
+
+---
+
+### Part (a)
+To find the time taken for the ball to return to the initial height, we set the vertical displacement $\Delta y = 0$. Using the displacement formula:
+$$\Delta y = v_{0y}t + \frac{1}{2}a_y t^2$$
+$$0 = 16.07t - 4.9t^2$$
+Factoring out $t$:
+$$0 = t(16.07 - 4.9t)$$
+Since $t \neq 0$, the time to return to the same height is:
+$$t = \frac{16.07}{4.9} \approx 3.28\text{ s}$$
+
+---
+
+### Part (b)
+First, we find the total time of flight ($T$) until the ball hits the ground ($y = -1.65\text{ m}$):
+$$-1.65 = 16.07T - 4.9T^2 \implies 4.9T^2 - 16.07T - 1.65 = 0$$
+Using the quadratic formula $T = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$T = \frac{16.07 + \sqrt{(-16.07)^2 - 4(4.9)(-1.65)}}{9.8} \approx \frac{16.07 + 17.04}{9.8} \approx 3.38\text{ s}$$
+
+Next, we find the horizontal range ($R$) of the ball:
+$$R = v_{0x} \times T = 19.15 \times 3.38 \approx 64.73\text{ m}$$
+
+Finally, we use the displacement formula for the dog, who starts from rest ($u=0$) and travels $64.73\text{ m}$ in $3.38\text{ s}$:
+$$\Delta x = ut + \frac{1}{2}at^2$$
+$$64.73 = 0 + \frac{1}{2}a(3.38)^2$$
+$$a = \frac{64.73 \times 2}{11.42} \approx 11.33\text{ ms}^{-2}$$
+
+###QUESTION_TYPE
+Calculation question

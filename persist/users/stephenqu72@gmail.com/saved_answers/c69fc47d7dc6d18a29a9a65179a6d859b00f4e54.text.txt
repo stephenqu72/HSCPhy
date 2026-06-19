@@ -1,0 +1,26 @@
+Hello! As an HSC Physics teacher, I'd be happy to guide you through this question. This is a classic conceptual problem concerning orbital mechanics.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To determine the factors that affect the orbital period ($T$) of a planet, we look to **Kepler’s Third Law of Planetary Motion** (derived from Newton’s Law of Universal Gravitation and centripetal force requirements).
+
+1.  **Derivation:** For a planet of mass $m$ in a circular orbit of radius $r$ around a star of mass $M$, the gravitational force provides the centripetal force:
+    $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+2.  Since the speed $v$ is the distance over time ($v = \frac{2\pi r}{T}$), we substitute this into the equation:
+    $$\frac{GM}{r^2} = \frac{(\frac{2\pi r}{T})^2}{r}$$
+    $$\frac{GM}{r^2} = \frac{4\pi^2 r}{T^2}$$
+3.  Solving for $T^2$:
+    $$T^2 = \frac{4\pi^2 r^3}{GM}$$
+    $$T = \sqrt{\frac{4\pi^2 r^3}{GM}}$$
+
+**Analysis of the result:**
+*   **Mass of the star ($M$):** This is in the denominator. A more massive star exerts a stronger gravitational pull, requiring the planet to orbit faster to maintain its position, thus affecting the period.
+*   **Radius of orbit ($r$):** This is in the numerator. A larger orbital radius increases the distance the planet must travel, significantly increasing the orbital period.
+*   **Mass of the planet ($m$):** Notice that $m$ canceled out during the derivation. This means the mass of the planet does **not** determine its orbital period.
+
+Therefore, the only factors from the options provided that determine the period are the **mass of the star** and the **radius of the orbit**.
+
+###QUESTION_TYPE
+Multiple choice

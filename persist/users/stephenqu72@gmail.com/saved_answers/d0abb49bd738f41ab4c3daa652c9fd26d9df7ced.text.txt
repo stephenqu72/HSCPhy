@@ -1,0 +1,25 @@
+### Answer and Explanation
+
+To solve this problem, we must apply Newton's Second Law ($F_{net} = ma_c$) to the object in two different orientations of circular motion.
+
+#### 1. Horizontal Circular Motion (Points M and N)
+In a perfectly horizontal circle, the tension $T$ in the string must provide the centripetal force $F_c = \frac{mv^2}{r}$ directed toward the center. 
+*   **Forces:** At both points $M$ and $N$, the forces acting on the object are the **Tension ($T$)** directed horizontally toward the center of the circle, and the **Weight ($mg$)** directed vertically downwards. 
+*   **Resultant:** Because the motion is horizontal, the tension must have a vertical component to counteract gravity ($T_{vertical} = mg$) and a horizontal component to provide centripetal force ($T_{horizontal} = \frac{mv^2}{r}$). Consequently, the string cannot be perfectly horizontal (it will form a conical pendulum shape).
+
+#### 2. Vertical Circular Motion (Points X and Y)
+In vertical circular motion, gravity acts in the same or opposite direction to the tension at the top and bottom, meaning the tension must vary to keep the speed uniform (or as specified, the speed is the same at all points).
+*   **At the top (X):** Both the **Tension ($T_X$)** and **Weight ($mg$)** act downwards toward the center. Thus, the centripetal force is provided by the sum:
+    $$F_c = T_X + mg \implies T_X = \frac{mv^2}{r} - mg$$
+*   **At the bottom (Y):** The **Tension ($T_Y$)** acts upwards (toward the center) and **Weight ($mg$)** acts downwards (away from the center). Thus:
+    $$F_c = T_Y - mg \implies T_Y = \frac{mv^2}{r} + mg$$
+
+#### Comparison Summary
+*   **Points M/N:** The force required to maintain motion is a combination of weight and tension, with tension constant throughout the horizontal path.
+*   **Point X:** The tension is at its minimum because gravity assists the centripetal force.
+*   **Point Y:** The tension is at its maximum because the string must support the weight of the object *in addition* to providing the required centripetal force.
+
+---
+
+###QUESTION_TYPE
+Short answer

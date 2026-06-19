@@ -1,0 +1,19 @@
+To answer this question effectively for the HSC Physics syllabus, you must describe the causal chain of electromagnetic induction and motor principles.
+
+### Answer
+The operation of an AC induction motor is based on the production of a rotating magnetic field and the subsequent induction of currents in the rotor.
+
+1.  **Rotating Magnetic Field:** An AC supply is connected to the stator windings. Due to the phase difference between the currents in the coils, a magnetic field is produced that rotates within the stator.
+2.  **Electromagnetic Induction:** As the magnetic field rotates, it cuts across the conductive bars of the 'squirrel cage' rotor. According to Faraday’s Law, this changing magnetic flux induces an EMF in the rotor bars.
+3.  **Eddy Currents:** Since the rotor bars are part of a closed circuit (short-circuited by end rings), this induced EMF causes large eddy currents to flow through the rotor bars.
+4.  **Lenz’s Law and Torque:** In accordance with Lenz’s Law, the induced currents create their own magnetic field that opposes the change that produced them. The interaction between the rotating magnetic field of the stator and the magnetic field produced by the induced currents in the rotor exerts a torque on the rotor, causing it to spin in the same direction as the rotating magnetic field.
+5.  **Slip:** The rotor will always spin at a speed slightly less than the speed of the rotating magnetic field (synchronous speed). If the rotor were to reach the speed of the magnetic field, there would be no change in flux, no induced current, and no torque. This difference in speed is known as "slip."
+
+### How to solve this type of question
+*   **Identify the keywords:** When asked to "explain the operation," you must provide a sequential cause-and-effect narrative.
+*   **Focus on the physics principles:** In HSC Physics, ensure you explicitly name the laws involved: **Faraday’s Law** (flux change creates EMF) and **Lenz’s Law** (the direction of the induced effect opposes the cause).
+*   **Structure your response:** Use bullet points or numbered steps to show the progression from the stationary stator to the moving rotor. This keeps your answer logical and easy for an examiner to grade.
+*   **Don't forget "Slip":** Mentioning "slip" is a high-level conceptual detail that distinguishes an excellent answer from a basic one.
+
+###QUESTION_TYPE
+Other questions

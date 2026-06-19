@@ -1,0 +1,25 @@
+To solve this problem, we must apply the principles of electromagnetism regarding the magnetic field produced by current-carrying conductors.
+
+### Answer
+The correct answer is **(B) $0\ T$**.
+
+### Explanation
+1.  **Identify the magnetic field formula**: The magnetic field strength $B$ at a distance $r$ from a long, straight, current-carrying wire is given by Ampere’s Law:
+    $$B = \frac{\mu_0 I}{2\pi r}$$
+    where $\mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the perpendicular distance from the wire.
+
+2.  **Determine the direction using the Right-Hand Grip Rule**: 
+    *   Imagine the two wires are lying on the plane of the page. Let both wires carry current in the same direction (e.g., upwards).
+    *   For the wire on the left, point your right thumb in the direction of the current (up). Your fingers will curl "into" the page on the right side of that wire (the region between the two wires).
+    *   For the wire on the right, point your right thumb in the direction of the current (up). Your fingers will curl "out of" the page on the left side of that wire (the region between the two wires).
+
+3.  **Calculate the net field**: 
+    *   The point in question is exactly equidistant from both wires ($r = 2\ cm = 0.02\ m$). 
+    *   Because the currents are equal ($I_1 = I_2 = 2\ A$) and the distances are equal, the magnitude of the magnetic field from each wire is identical.
+    *   However, the directions are opposite: one creates a field pointing into the page, and the other creates a field pointing out of the page at that specific point.
+    *   Vector addition of these fields: $B_{net} = B_1 - B_2 = 0$.
+
+Since the two magnetic field vectors are equal in magnitude and opposite in direction, they cancel each other out perfectly, resulting in a net magnetic field strength of $0\ T$.
+
+### QUESTION_TYPE
+Multiple choice

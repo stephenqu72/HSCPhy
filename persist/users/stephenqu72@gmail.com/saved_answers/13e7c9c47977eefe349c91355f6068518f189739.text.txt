@@ -1,0 +1,34 @@
+To determine which planet has the lowest escape velocity, we use the formula for escape velocity ($v_e$):
+
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+- $G$ is the gravitational constant.
+- $M$ is the mass of the planet.
+- $r$ is the radius of the planet.
+
+### Analysis
+Since $G$ is a constant, the escape velocity is directly proportional to $\sqrt{M}$ and inversely proportional to $\sqrt{r}$. Specifically, $v_e \propto \sqrt{\frac{M}{r}}$. To find the lowest escape velocity, we need to identify the planet with the **smallest mass** and the **largest radius** (as these factors minimize the ratio $M/r$).
+
+Let’s calculate the ratio $\frac{M}{r}$ for each option:
+
+*   **A (Newton):** $\frac{5 \times 10^{24}}{8000} = 0.625 \times 10^{21}$
+*   **B (Einstein):** $\frac{8 \times 10^{24}}{7800} \approx 1.026 \times 10^{21}$
+*   **C (Bohr):** $\frac{5 \times 10^{24}}{9500} \approx 0.526 \times 10^{21}$
+*   **D (Hawkins):** $\frac{8 \times 10^{24}}{10200} \approx 0.784 \times 10^{21}$
+
+Comparing these values, **Planet Bohr (C)** has the lowest ratio of $\frac{M}{r}$, which results in the lowest escape velocity.
+
+**Answer:** The correct option is **C**.
+
+### How to solve it
+1.  **Recall the physics principle:** Escape velocity depends on the gravity of the planet. A less massive planet exerts less gravitational pull, and a planet with a larger radius spreads that mass over a greater distance, further decreasing the pull at the surface.
+2.  **Evaluate the variables:** Look for the planet with the smallest numerator ($M$) and the largest denominator ($r$). 
+3.  **Perform a quick comparison:** 
+    *   Compare the planets with the smallest mass ($5 \times 10^{24}$): Newton and Bohr.
+    *   Since Bohr has a larger radius ($9500\text{ km} > 8000\text{ km}$), it must have a lower escape velocity than Newton.
+    *   Check if any other planet could be smaller: The planets with $8 \times 10^{24}\text{ kg}$ are much heavier, so their ratios will be higher than the $5 \times 10^{24}\text{ kg}$ group.
+4.  **Conclude:** Planet Bohr has the most favorable conditions for the lowest escape velocity.
+
+###QUESTION_TYPE
+Multiple choice

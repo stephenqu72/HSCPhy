@@ -1,0 +1,27 @@
+To calculate the acceleration due to gravity on the surface of a planet, we use the formula derived from Newton's Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Gravitational constant $G = 6.674 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$
+*   Mass of Mercury $M = 3.285 \times 10^{23} \, \text{kg}$
+*   Radius of Mercury $r = 2440 \, \text{km}$. We must convert this into SI units (meters):
+    $r = 2440 \times 10^3 \, \text{m} = 2.440 \times 10^6 \, \text{m}$
+
+**2. Substitute the values into the formula:**
+$$g = \frac{(6.674 \times 10^{-11}) \times (3.285 \times 10^{23})}{(2.440 \times 10^6)^2}$$
+
+**3. Perform the calculation:**
+*   Numerator: $(6.674 \times 10^{-11}) \times (3.285 \times 10^{23}) \approx 2.1924 \times 10^{13}$
+*   Denominator: $(2.440 \times 10^6)^2 \approx 5.9536 \times 10^{12}$
+*   Result: $g = \frac{2.1924 \times 10^{13}}{5.9536 \times 10^{12}} \approx 3.682 \, \text{m s}^{-2}$
+
+Rounding to two significant figures, we get $3.7 \, \text{m s}^{-2}$.
+
+**Conclusion:**
+Comparing our result to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

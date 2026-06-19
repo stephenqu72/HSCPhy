@@ -1,0 +1,22 @@
+To solve this problem, we must understand the fundamental principles of projectile motion.
+
+### Explanation
+
+1.  **Independence of Motion:** In projectile motion, the vertical and horizontal components of motion are independent. Since both projectiles are fired from the same height and there is no mention of air resistance, the time taken for both projectiles to reach the ground depends only on the vertical displacement and gravity ($h = \frac{1}{2}gt^2$). Because they start from the same height and have an initial vertical velocity of $0\text{ m s}^{-1}$, they will both be in the air for the exact same amount of time ($t$).
+2.  **Horizontal Motion:** Horizontal velocity is constant because there is no horizontal acceleration. The horizontal distance ($\Delta x$) is given by the formula:
+    $$\Delta x = v_x \times t$$
+3.  **Step 1: Find the time of flight.** For the first projectile:
+    $$180 = 45 \times t$$
+    $$t = \frac{180}{45} = 4.0\text{ s}$$
+4.  **Step 2: Find the distance for the second projectile.** Since the time $t$ is the same for the second projectile:
+    $$\Delta x_2 = v_{x2} \times t$$
+    $$\Delta x_2 = 9.0 \times 4.0$$
+    $$\Delta x_2 = 36\text{ m}$$
+
+Comparing this result to the given options, the correct choice is **B**.
+
+### Answer
+The second projectile will travel a horizontal distance of **36 m**.
+
+###QUESTION_TYPE
+Multiple choice

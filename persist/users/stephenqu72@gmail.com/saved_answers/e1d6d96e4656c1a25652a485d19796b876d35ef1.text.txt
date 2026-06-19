@@ -1,0 +1,22 @@
+To solve this problem, we must analyze the forces acting on a car moving on a banked track at a "critical" or "design" speed. The design speed is defined as the speed at which the required centripetal force is provided entirely by the horizontal component of the normal force, meaning no reliance on friction is necessary.
+
+### Analysis of the Physics
+When a car travels on a banked curve, the forces acting on it are:
+1.  **Gravity ($mg$):** Acting vertically downwards.
+2.  **Normal Force ($N$):** Acting perpendicular to the surface of the road.
+
+We decompose the normal force ($N$) into two components:
+*   **Vertical component ($N \cos \theta$):** Balances the weight of the car: $N \cos \theta = mg$.
+*   **Horizontal component ($N \sin \theta$):** Acts towards the centre of the circular path and provides the required **centripetal force** ($F_c$): $N \sin \theta = \frac{mv^2}{r}$.
+
+### Evaluating the Options
+*   **A is incorrect:** The normal force is perpendicular to the road surface. Friction acts parallel to the road, but it is not "provided" by the normal force component in the manner described; rather, friction is a separate force that depends on the normal force.
+*   **B is incorrect:** At speeds lower than the critical speed, the centripetal force provided by the normal force is too high. The car tends to slide **down** the slope, so friction would act **up** the slope to prevent this.
+*   **C is correct:** As derived above, the horizontal component of the normal force, $N \sin \theta$, points toward the centre of the turn and acts as the centripetal force required to keep the car on its circular path.
+*   **D is incorrect:** At speeds greater than the critical speed, the car tends to slide **up** the slope due to the increased requirement for centripetal force, so friction would act **down** the slope to prevent this.
+
+### Conclusion
+The correct statement is **C**.
+
+###QUESTION_TYPE
+Multiple choice

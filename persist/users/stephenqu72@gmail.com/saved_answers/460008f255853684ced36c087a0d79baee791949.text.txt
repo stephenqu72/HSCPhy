@@ -1,0 +1,31 @@
+To determine the correct answer, we must use the formula for centripetal acceleration ($a_c$), which is the acceleration experienced by an object moving in a circular path:
+
+$$a_c = \frac{v^2}{r}$$
+
+Where:
+- $v$ is the speed of the object
+- $r$ is the radius of the circular path
+
+### Step-by-Step Solution:
+
+1. **Identify the initial state:** 
+   The initial acceleration $a_1$ is given by:
+   $$a_1 = \frac{v^2}{r}$$
+
+2. **Identify the changed state:**
+   The problem states that the speed is doubled ($v_{new} = 2v$) and the radius remains the same ($r_{new} = r$). We substitute these values into the formula to find the new acceleration $a_2$:
+   $$a_2 = \frac{(2v)^2}{r}$$
+
+3. **Simplify the expression:**
+   When you square the term in the numerator:
+   $$a_2 = \frac{4v^2}{r}$$
+
+4. **Compare the new acceleration to the initial acceleration:**
+   We can rewrite $a_2$ in terms of $a_1$:
+   $$a_2 = 4 \times \left( \frac{v^2}{r} \right)$$
+   $$a_2 = 4 \times a_1$$
+
+The new acceleration is four times the original acceleration. Therefore, the correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

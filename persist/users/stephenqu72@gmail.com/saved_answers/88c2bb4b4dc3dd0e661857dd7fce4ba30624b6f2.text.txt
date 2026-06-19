@@ -1,0 +1,30 @@
+To determine the correct answer, we need to analyze the physics of gravitational field strength ($g$) inside a planet and the mathematical relationship shown in the graph.
+
+### Analysis of the Physics
+The graph shows a **linear relationship** passing through the origin, which means that the gravitational field strength is directly proportional to the variable on the $x$-axis ($g \propto x$).
+
+Inside a uniform sphere (a planet of constant density $\rho$), the gravitational field strength at a distance $r$ from the centre is given by:
+$$g = \frac{GMr}{R^3}$$
+where:
+*   $G$ is the gravitational constant
+*   $M$ is the mass of the planet
+*   $R$ is the radius of the planet
+*   $r$ is the distance from the centre of the planet ($r \le R$)
+
+Since $G$, $M$, and $R$ are constants for a specific planet, the equation simplifies to $g = kr$ (where $k = \frac{GM}{R^3}$). This is the equation of a straight line passing through the origin. Therefore, the gravitational field strength is directly proportional to the **distance from the centre of the planet** when moving through the interior of the planet.
+
+### Evaluating the Options
+*   **A: distance from the centre of the planet:** Correct. As derived above, $g \propto r$ inside a planet.
+*   **B: inverse square of the distance from the surface:** Incorrect. This relates to the field outside the planet ($g \propto 1/r^2$), which would produce a curve, not a straight line.
+*   **C: square of the distance from the centre:** Incorrect. The relationship is linear with $r$, not $r^2$.
+*   **D: mass of the planet:** While $g$ is proportional to $M$, the question asks for the $x$-axis variable for a specific planet where $M$ is constant.
+
+**Answer:** The correct option is **A**.
+
+### How to solve this
+1.  **Identify the relationship:** Observe that the graph is a straight line through the origin, indicating a directly proportional relationship ($y = mx$).
+2.  **Recall the physics principle:** Recall that gravitational field strength varies differently inside and outside a planet. Inside a planet, $g$ is directly proportional to the radius $r$. Outside a planet, $g$ follows an inverse-square law ($1/r^2$).
+3.  **Match to options:** Match the direct proportionality found in the graph to the variable in the options. Only the "distance from the centre" satisfies the linear $g \propto r$ relationship.
+
+###QUESTION_TYPE
+Multiple choice

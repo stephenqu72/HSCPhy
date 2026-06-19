@@ -1,0 +1,25 @@
+To solve this problem, we use the physics of projectile motion. We assume air resistance is negligible unless stated otherwise.
+
+### (a) Calculate how much further the ball that went for six lands
+The range $R$ of a projectile launched on level ground is given by the formula:
+$$R = \frac{v^2 \sin(2\theta)}{g}$$
+where $v$ is the initial velocity, $\theta$ is the angle of projection, and $g \approx 9.8 \text{ ms}^{-2}$.
+
+1.  **For the four (four runs):** $v_1 = 20 \text{ ms}^{-1}$, $\theta = 30^\circ$
+    $$R_1 = \frac{20^2 \sin(60^\circ)}{9.8} = \frac{400 \times 0.866}{9.8} \approx 35.35 \text{ m}$$
+2.  **For the six:** $v_2 = 35 \text{ ms}^{-1}$, $\theta = 30^\circ$
+    $$R_2 = \frac{35^2 \sin(60^\circ)}{9.8} = \frac{1225 \times 0.866}{9.8} \approx 108.25 \text{ m}$$
+3.  **Difference:** $\Delta R = R_2 - R_1 = 108.25 - 35.35 = 72.90 \text{ m}$
+
+The ball for six travels **$72.9 \text{ m}$** further than the ball for four.
+
+### (b) Effect of moving to Mt. Everest
+The gravitational acceleration $g$ is inversely proportional to the square of the distance from the Earth's center ($g = GM/r^2$). At the summit of Mt. Everest, the distance $r$ from the center of the Earth is greater than at sea level. Therefore, $g$ will be slightly **smaller** at the summit. Since $R \propto 1/g$, a smaller $g$ results in a larger range for both projectiles. Because the range for the "six" is larger, its absolute increase in distance will be greater than that of the "four", thus the difference in range between the two balls will **increase**.
+
+### (c) Method to keep range constant
+The range formula is $R = \frac{v^2 \sin(2\theta)}{g}$. If we keep $v$ constant, we must adjust $\theta$ to maintain the same range. A property of projectile motion is that two angles, $\theta$ and $90^\circ - \theta$, produce the same range.
+*   **Method:** Change the launch angle from $30^\circ$ to $60^\circ$ ($90^\circ - 30^\circ = 60^\circ$).
+*   **Justification:** Since $\sin(2 \times 30^\circ) = \sin(60^\circ) = 0.866$ and $\sin(2 \times 60^\circ) = \sin(120^\circ) = 0.866$, the range $R$ remains identical because the values of $\sin(2\theta)$ are equal.
+
+###QUESTION_TYPE
+Calculation question

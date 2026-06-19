@@ -1,0 +1,24 @@
+To find the angular speed of the Earth, we use the relationship between angular velocity, angle, and time.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the formula:** The angular speed ($\omega$) is defined as the total angle in radians swept out divided by the time taken ($t$):
+    $$\omega = \frac{\Delta\theta}{\Delta t}$$
+
+2.  **Determine the values:**
+    *   One full rotation of the Earth corresponds to an angle of $2\pi$ radians.
+    *   The time taken for one full rotation is 24 hours. To use standard SI units (rad/s), we must convert this time into seconds:
+        $$t = 24 \text{ hours} \times 60 \text{ minutes/hour} \times 60 \text{ seconds/minute}$$
+        $$t = 86,400 \text{ seconds}$$
+
+3.  **Perform the calculation:**
+    $$\omega = \frac{2\pi}{86,400}$$
+    $$\omega \approx \frac{6.283185}{86,400}$$
+    $$\omega \approx 7.2722 \times 10^{-5} \text{ rad s}^{-1}$$
+
+Comparing our calculated value to the options provided, we see that **(C)** is the correct choice.
+
+*Note: While the Earth actually rotates in approximately 23 hours and 56 minutes (a sidereal day), the question explicitly specifies a period of 24 hours (a solar day), so we use the 24-hour value to reach the intended answer.*
+
+###QUESTION_TYPE
+Multiple choice

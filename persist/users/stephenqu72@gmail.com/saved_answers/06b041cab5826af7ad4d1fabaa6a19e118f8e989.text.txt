@@ -1,0 +1,21 @@
+To answer this question, you need to rely on the standard physics principles governing the oscillations of a mass-spring system, which is a classic topic in the HSC Physics syllabus.
+
+### Answer
+The relationship between the mass of the load ($M$) and the period of oscillation ($T$) is that the period is directly proportional to the square root of the mass. Mathematically, this is expressed as:
+$$T \propto \sqrt{M}$$
+Or, using the formula for the period of a simple harmonic oscillator:
+$$T = 2\pi\sqrt{\frac{M}{k}}$$
+where $k$ is the spring constant.
+
+### How to solve it
+1. **Identify the Physics Concept:** Recall the formula for the period of a mass-spring system, which is $T = 2\pi\sqrt{\frac{M}{k}}$. This shows that $T$ depends on $M$ via a square root relationship.
+2. **Analysis Method:** If you were provided with experimental data (a table of $M$ vs $T$ values), you would "analyse the results" by plotting them.
+   - If you plot $T$ against $M$, you would get a curve (parabolic shape).
+   - To "linearise" the data and determine the relationship definitively, you should plot $T^2$ against $M$. 
+   - Since $T^2 = \frac{4\pi^2}{k} \cdot M$, a graph of $T^2$ vs $M$ will yield a straight line passing through the origin. The slope of this line would be $\frac{4\pi^2}{k}$.
+3. **Conclusion:** By observing the trend (or performing the linearisation), you conclude that $T$ increases as $M$ increases, specifically following the square root proportionality.
+
+To gain full marks in an HSC exam, you must mention that $T$ is proportional to $\sqrt{M}$ and ideally show the linearisation process (plotting $T^2$ vs $M$) as the evidence for this relationship.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,32 @@
+To find the magnitude of the braking force acting on Lisa's car, we can use Newton's Second Law of Motion:
+$$F = ma$$
+
+### Step-by-Step Explanation:
+
+**1. Identify the given values:**
+*   Mass ($m$) = $1000\text{ kg}$
+*   The car starts braking at $t = 0.5\text{ s}$ and comes to a complete stop at $t = 3.0\text{ s}$.
+*   Initial velocity ($u$) at $t = 0.5\text{ s}$ is $20\text{ m s}^{-1}$.
+*   Final velocity ($v$) at $t = 3.0\text{ s}$ is $0\text{ m s}^{-1}$.
+
+**2. Calculate the time interval for the braking:**
+The braking duration ($\Delta t$) is the time taken to decelerate:
+$$\Delta t = 3.0\text{ s} - 0.5\text{ s} = 2.5\text{ s}$$
+
+**3. Calculate the acceleration ($a$):**
+Acceleration is the change in velocity over time. Since the car is slowing down, we expect a negative value for acceleration (deceleration):
+$$a = \frac{v - u}{\Delta t} = \frac{0 - 20}{2.5} = -8\text{ m s}^{-2}$$
+
+**4. Calculate the magnitude of the force ($F$):**
+Using Newton's Second Law, we find the magnitude of the force:
+$$|F| = m \cdot |a|$$
+$$|F| = 1000\text{ kg} \times 8\text{ m s}^{-2}$$
+$$|F| = 8000\text{ N}$$
+
+Since $1\text{ kN} = 1000\text{ N}$, we convert this to:
+$$|F| = 8.0\text{ kN}$$
+
+Comparing this result to the given options, **C** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

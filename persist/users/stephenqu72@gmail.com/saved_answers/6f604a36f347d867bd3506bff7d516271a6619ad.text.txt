@@ -1,0 +1,34 @@
+### Answer and Explanation
+
+To solve this problem, we first identify the given values:
+- Radius $r = 0.300\text{ m}$
+- Frequency $f = 525\text{ rev/min} = \frac{525}{60}\text{ rev/s} = 8.75\text{ Hz}$
+- Mass $m = 0.0250\text{ kg}$
+
+---
+
+#### (a) What is the angular speed of the sock, in $\text{rad s}^{-1}$?
+
+The angular speed $\omega$ is calculated using the formula $\omega = 2\pi f$:
+$$\omega = 2 \times \pi \times 8.75 = 17.5\pi \approx 54.98\text{ rad s}^{-1}$$
+
+#### (b) Calculate the magnitude of the centripetal force on the sock.
+
+The centripetal force $F_c$ required to keep the object moving in a circle is given by $F_c = mr\omega^2$:
+$$F_c = 0.0250 \times 0.300 \times (54.9778...)^2$$
+$$F_c = 0.0250 \times 0.300 \times 3022.56 \approx 22.67\text{ N}$$
+
+#### (c) What is the value of the horizontal component of the force of the drum on the sock?
+
+In a horizontal circular motion against a vertical wall, the **normal force** exerted by the wall of the drum provides the centripetal force. Therefore, the horizontal component of the force of the drum on the sock is exactly equal to the centripetal force calculated in part (b).
+$$\text{Horizontal force} = 22.67\text{ N}$$
+
+---
+
+### Strategy for Solving
+1. **Convert Units:** Always ensure your frequency is in revolutions per second (Hz) before calculating angular velocity.
+2. **Identify Relationships:** Recognize that $\omega = 2\pi f$ is the standard conversion for circular motion.
+3. **Apply Newton's Laws:** Remember that the centripetal force is not a "new" force, but rather the *resultant* of all forces acting towards the center of the circle. In this scenario, the drum's wall pushing inward is the source of that centripetal force.
+
+###QUESTION_TYPE
+Calculation question

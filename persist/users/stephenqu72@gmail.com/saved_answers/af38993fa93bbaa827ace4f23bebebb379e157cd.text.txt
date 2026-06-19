@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To understand why a banked track allows for higher speeds, we need to analyze the forces acting on a vehicle as it traverses a curve.
+
+1.  **Uniform Circular Motion:** For any object moving in a circle, there must be a net **centripetal force** directed toward the center of the turn. This force is defined by:
+    $$F_c = \frac{mv^2}{r}$$
+    where $m$ is mass, $v$ is velocity, and $r$ is the radius of the turn.
+
+2.  **Forces on a Flat Track:** On a flat road, the *only* horizontal force available to provide this centripetal force is static friction. If the car tries to go too fast, friction reaches its maximum capacity, and the car skids.
+
+3.  **Forces on a Banked Track:** When the track is banked at an angle $\theta$, the normal force ($N$) exerted by the track on the car is no longer directed straight upward. It is perpendicular to the track surface. We can resolve the normal force into two components:
+    *   A vertical component: $N\cos(\theta)$, which balances the car's weight ($mg$).
+    *   A horizontal component: $N\sin(\theta)$, which points **toward the center of the turn**.
+
+4.  **Conclusion:** This horizontal component of the normal force ($N\sin(\theta)$) acts as an additional source of centripetal force. Because the normal force is now contributing to the centripetal requirement, the car does not have to rely solely on friction to stay on the track. This allows the car to maintain a higher velocity ($v$) for a given radius ($r$) than it could on a flat surface.
+
+**Why the other options are incorrect:**
+*   **(A)** "Centrifugal force" is a fictitious force used in a non-inertial reference frame; in physics, we analyze circular motion using centripetal force.
+*   **(B)** While banking can change the normal force, the primary advantage is the redirection of the normal force vector, not just its magnitude.
+*   **(C)** The radius of the turn is determined by the road geometry, not the banking angle.
+
+###QUESTION_TYPE
+Multiple choice

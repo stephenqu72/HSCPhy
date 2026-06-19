@@ -1,0 +1,19 @@
+The correct answer is **(D) The length of the cavity**.
+
+### Explanation
+To determine the speed of light ($c$), we rely on the fundamental wave equation:
+$$c = f \lambda$$
+where:
+*   $f$ is the frequency of the wave.
+*   $\lambda$ is the wavelength of the wave.
+
+In the experiment conducted by Louis Essen and A. C. Gordon-Smith, they were already provided with the **known frequency** ($f$) of the microwaves. To solve for $c$, they needed to find the wavelength ($\lambda$). 
+
+By setting up a standing wave inside a resonance cavity of a specific dimension, they could determine the wavelength based on the physical geometry of the cavity. A standing wave in a cavity occurs when the waves reflect off the ends, creating nodes and antinodes. The distance between these points (which relates directly to the physical length of the cavity) allows the physicist to calculate the wavelength of the electromagnetic radiation. Therefore, measuring the **length of the cavity** is the essential additional step required to determine the wavelength, which then allows the calculation of the speed of light.
+
+*   (A) is incorrect because the "oscillation rate" is simply another term for the frequency ($f$), which is already known.
+*   (B) is incorrect because the amplitude of the wave does not determine the speed of the wave.
+*   (C) is incorrect because the period ($T$) is the reciprocal of the frequency ($f = 1/T$); since the frequency is already known, the period provides no new information.
+
+###QUESTION_TYPE
+Multiple choice

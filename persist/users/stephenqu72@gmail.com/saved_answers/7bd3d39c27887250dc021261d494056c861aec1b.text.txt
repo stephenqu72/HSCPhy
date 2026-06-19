@@ -1,0 +1,30 @@
+To find the magnitude of the force required, we use the formula for torque ($\tau$):
+
+$$\tau = rF\sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Torque ($\tau$) = $51\text{ Nm}$
+    *   Distance ($r$) = $28\text{ cm}$. We must convert this to SI units (meters) to match the torque units: $r = 0.28\text{ m}$.
+    *   Angle ($\theta$) = $45^\circ$
+
+2.  **Rearrange the formula to solve for Force ($F$):**
+    $$F = \frac{\tau}{r\sin(\theta)}$$
+
+3.  **Substitute the values into the equation:**
+    $$F = \frac{51}{0.28 \times \sin(45^\circ)}$$
+
+4.  **Perform the calculation:**
+    *   $\sin(45^\circ) \approx 0.7071$
+    *   $F = \frac{51}{0.28 \times 0.7071}$
+    *   $F = \frac{51}{0.19798...}$
+    *   $F \approx 257.6\text{ N}$
+
+5.  **Round to the appropriate significant figures:**
+    Rounding $257.6\text{ N}$ to two significant figures gives $2.6 \times 10^2\text{ N}$.
+
+Comparing this result to the given options, **Option A** is correct.
+
+###QUESTION_TYPE
+Multiple choice

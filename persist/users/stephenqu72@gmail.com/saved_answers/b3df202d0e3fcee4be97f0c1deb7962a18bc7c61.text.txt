@@ -1,0 +1,47 @@
+To solve these physics problems, we must apply the principles of circular motion and force resolution on inclined planes.
+
+### Part (a)
+
+**Solution:**
+On a banked track, the net centripetal force ($F_c$) is provided by the horizontal component of the normal force ($N$). The vertical component of the normal force balances gravity.
+1. The vertical equilibrium equation is: $N \cos(\theta) = mg$
+2. The horizontal centripetal force equation is: $N \sin(\theta) = F_c = \frac{mv^2}{r}$
+
+By dividing the second equation by the first:
+$$\tan(\theta) = \frac{F_c}{mg}$$
+$$mg = \frac{F_c}{\tan(15^\circ)}$$
+$$m = \frac{3040}{g \tan(15^\circ)}$$
+Using $g = 9.8 \text{ m/s}^2$:
+$$m = \frac{3040}{9.8 \times 0.2679} \approx 1157.9 \text{ kg}$$
+Rounding to significant figures (based on $26.0$ and $3040$), the mass is approximately **$1160 \text{ kg}$**.
+
+---
+
+### Part (b)
+
+**Solution:**
+First, we find the velocity $v$ from part (a). Since $F_c = \frac{mv^2}{r}$:
+$$3040 = \frac{1158 \times v^2}{26.0}$$
+$$v^2 = \frac{3040 \times 26.0}{1158} \approx 68.25 \implies v \approx 8.26 \text{ m/s}$$
+The new speed is $v_{new} = \frac{1}{2}v = 4.13 \text{ m/s}$.
+
+On an unbanked track, the centripetal force is provided entirely by friction ($f$):
+$$f = \mu N = \mu mg$$
+$$F_{c, new} = \frac{mv_{new}^2}{r}$$
+Equating the two:
+$$\mu mg = \frac{mv_{new}^2}{r}$$
+$$\mu = \frac{v_{new}^2}{rg}$$
+$$\mu = \frac{4.13^2}{26.0 \times 9.8} = \frac{17.06}{254.8} \approx 0.067$$
+
+The minimum coefficient of friction required is approximately **$0.067$**.
+
+---
+
+### How to solve this:
+1. **Identify the forces:** In part (a), recognize that for a banked track, the centripetal force is $F_c = mg \tan(\theta)$. This is a common derivation that simplifies complex normal force problems.
+2. **Standard Constants:** Always remember to use $g = 9.8 \text{ m/s}^2$ unless specified otherwise in the HSC marking guidelines.
+3. **Link the sections:** Part (b) relies on the velocity calculated in part (a). If you are unsure of your part (a) result, show your algebraic working clearly so markers can award "error carried forward" marks.
+4. **Circular Motion Basics:** Always equate the required centripetal force ($mv^2/r$) to the specific force providing it (friction in part b).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,36 @@
+To solve this problem, we need to determine the time $t$ at which both bikes have covered the same displacement $s$ from the start line. We use the kinematic equation:
+$$s = ut + \frac{1}{2}at^2$$
+
+**1. Define the parameters for each bike:**
+
+*   **Blue bike:**
+    *   Initial velocity $u_b = 0 \text{ m s}^{-1}$
+    *   Acceleration $a_b = 2.0 \text{ m s}^{-2}$
+    *   Displacement $s_b = (0)t + \frac{1}{2}(2.0)t^2 = 1.0t^2$
+
+*   **Red bike:**
+    *   Initial velocity $u_r = 5.0 \text{ m s}^{-1}$
+    *   Acceleration $a_r = 1.6 \text{ m s}^{-2}$
+    *   Displacement $s_r = (5.0)t + \frac{1}{2}(1.6)t^2 = 5t + 0.8t^2$
+
+**2. Set the displacements equal to each other to find the time $t$:**
+When they are side by side, $s_b = s_r$:
+$$1.0t^2 = 5t + 0.8t^2$$
+
+Subtract $0.8t^2$ from both sides:
+$$0.2t^2 = 5t$$
+
+Since $t \neq 0$ (as they start at the same time), we can divide by $t$:
+$$0.2t = 5$$
+$$t = \frac{5}{0.2} = 25 \text{ seconds}$$
+
+**3. Calculate the distance from the start line:**
+Substitute $t = 25$ back into the displacement equation for either bike. Using the blue bike:
+$$s = 1.0(25)^2$$
+$$s = 1.0 \times 625$$
+$$s = 625 \text{ m}$$
+
+Comparing this to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

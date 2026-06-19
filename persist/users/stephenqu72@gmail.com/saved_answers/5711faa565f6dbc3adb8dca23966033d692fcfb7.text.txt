@@ -1,0 +1,40 @@
+This is a classic HSC-style physics problem combining work-energy principles with projectile motion. Here is how to approach it.
+
+### Part (a)
+**Solution:**
+We use the Work-Energy Theorem: $W = \Delta K = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$.
+Given: $F = 431\text{ N}$, $s = 0.7\text{ m}$, $m = 4.0\text{ kg}$, $v = 12\text{ m s}^{-1}$, $u = 0\text{ m s}^{-1}$.
+
+1. Calculate the work done by the athlete:
+   $$W = Fs = 431 \times 0.7 = 301.7\text{ J}$$
+2. Calculate the kinetic energy the ball should have:
+   $$K = \frac{1}{2}mv^2 = 0.5 \times 4.0 \times 12^2 = 288\text{ J}$$
+3. Note: The work done by the arm is $301.7\text{ J}$, but the kinetic energy is only $288\text{ J}$. This implies some force is directed vertically to lift the shot against gravity during the extension.
+4. The vertical component of the work done is $W_y = W_{total} - K = 301.7 - 288 = 13.7\text{ J}$.
+5. Since $W_y = F_y s$, the vertical force component is $F_y = 13.7 / 0.7 = 19.57\text{ N}$.
+6. Using the angle definition: $\sin(\theta) = \frac{F_y}{F} = \frac{19.57}{431} \approx 0.0454$.
+7. $\theta = \arcsin(0.0454) \approx 2.6^\circ$.
+
+### Part (b)
+**Solution:**
+Given: $v = 12\text{ m s}^{-1}$, $\theta = 45^\circ$, $h = 2\text{ m}$, $g = 9.8\text{ m s}^{-2}$.
+Components:
+$v_x = 12 \cos(45^\circ) \approx 8.485\text{ m s}^{-1}$
+$v_y = 12 \sin(45^\circ) \approx 8.485\text{ m s}^{-1}$
+
+1. Use the vertical displacement equation to find time $t$:
+   $y = v_y t - \frac{1}{2}gt^2 \Rightarrow -2 = 8.485t - 4.9t^2$
+   $4.9t^2 - 8.485t - 2 = 0$
+2. Solve using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+   $t = \frac{8.485 + \sqrt{(-8.485)^2 - 4(4.9)(-2)}}{9.8} \approx \frac{8.485 + 10.55}{9.8} \approx 1.942\text{ s}$
+3. Calculate range $R$:
+   $R = v_x \times t = 8.485 \times 1.942 \approx 16.48\text{ m}$.
+
+---
+
+### How to solve it
+1. **For (a):** Recognize that work done ($Fs$) exceeds kinetic energy ($\frac{1}{2}mv^2$). The "missing" energy represents the work done against gravity over the vertical displacement of the arm. Solving for the vertical force component allows you to find the angle using trigonometry.
+2. **For (b):** This is a standard projectile motion problem with an initial height. Always resolve velocity into horizontal ($v \cos\theta$) and vertical ($v \sin\theta$) components. Use the vertical displacement equation ($s_y = u_y t + \frac{1}{2}a_y t^2$) set to $-h$ to find the total flight time, then multiply by the constant horizontal velocity to find the range.
+
+###QUESTION_TYPE
+Calculation question

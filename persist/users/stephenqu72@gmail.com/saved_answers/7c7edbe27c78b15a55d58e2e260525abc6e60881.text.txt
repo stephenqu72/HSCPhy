@@ -1,0 +1,47 @@
+To solve these projectile motion problems, we use the kinematic equations. Since the ball and phone are dropped (or projected horizontally), we treat the vertical and horizontal motions as independent of each other.
+
+### Part (a)
+**Calculation:**
+We use the vertical displacement formula:
+$$y = u_y t + \frac{1}{2} a_y t^2$$
+
+Given:
+- Initial vertical velocity $u_y = 0 \, \text{m s}^{-1}$ (the ball is rolled/dropped)
+- Time $t = 3.5 \, \text{s}$
+- Acceleration due to gravity $g = 9.8 \, \text{m s}^{-2}$
+
+Substitute the values:
+$$y = 0(3.5) + \frac{1}{2}(9.8)(3.5)^2$$
+$$y = 4.9 \times 12.25$$
+$$y = 60.025 \, \text{m}$$
+
+Rounding to appropriate significant figures, the distance is **$60 \, \text{m}$**.
+
+---
+
+### Part (b)
+**Calculation:**
+First, we find the time taken for the phone to hit the ground using the vertical motion:
+$$y = u_y t + \frac{1}{2} g t^2$$
+$$200 = 0 + \frac{1}{2}(9.8) t^2$$
+$$200 = 4.9 t^2$$
+$$t^2 = \frac{200}{4.9} \approx 40.816$$
+$$t = \sqrt{40.816} \approx 6.389 \, \text{s}$$
+
+Next, we calculate the horizontal distance ($x$) using the horizontal velocity ($v_x$):
+$$x = v_x \times t$$
+$$x = 50.0 \times 6.389$$
+$$x \approx 319.45 \, \text{m}$$
+
+Rounding to appropriate significant figures (3 sig figs), the horizontal distance is **$319 \, \text{m}$**.
+
+---
+
+### How to solve these types of problems:
+1. **Identify the components:** In projectile motion, separate the problem into horizontal ($x$) and vertical ($y$) components.
+2. **Horizontal motion:** The horizontal velocity $v_x$ remains constant (ignoring air resistance) because there is no acceleration in the horizontal direction. Use $x = v_x t$.
+3. **Vertical motion:** The vertical component is influenced by gravity. Use the standard kinematic equations: $v_y = u_y + at$ and $y = u_y t + \frac{1}{2}at^2$.
+4. **The Link:** Time ($t$) is the common variable that links both horizontal and vertical motion. Often, you will use one dimension to find the time, then use that time to solve for the other dimension.
+
+###QUESTION_TYPE
+Calculation question

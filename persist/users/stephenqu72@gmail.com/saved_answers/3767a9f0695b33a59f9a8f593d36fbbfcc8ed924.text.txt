@@ -1,0 +1,29 @@
+To solve this problem, we must apply the principles of Uniform Circular Motion.
+
+### Answer
+The correct option is **A**.
+
+### Explanation
+For an object moving in a circle, two fundamental rules define the direction of the velocity and acceleration vectors:
+
+1.  **Velocity ($v$):** The velocity vector is always directed **tangent** to the path of the particle at its current position. Since the particle is moving anti-clockwise and is located at the extreme right of the circular path, its instantaneous velocity must point vertically upward. Looking at the provided diagrams, there seems to be a slight ambiguity in the labels versus the standard orientation. Let's re-examine the geometry:
+    *   If particle $P$ is at the right-most point of the circle and moving **anti-clockwise**, the tangent vector points **straight up**. 
+    *   In the provided diagrams, the labels $a$ and $v$ are positioned relative to the point $P$. 
+    *   For a particle at the 3 o'clock position moving anti-clockwise:
+        *   Velocity $v$ must be **upwards** (tangent to the circle).
+        *   Acceleration $a$ (centripetal acceleration) must be directed toward the **center of the circle** (to the left).
+
+    *Wait, let's look at the diagrams again:*
+    *   In diagram **A**, $v$ is shown pointing left and $a$ pointing up. This would correspond to a particle at the top of the circle (12 o'clock position).
+    *   In diagram **C**, $v$ is shown pointing up and $a$ pointing left. This correctly describes a particle at the right-most position (3 o'clock) moving anti-clockwise. 
+
+**Correction based on typical HSC question patterns:**
+Looking closely at the provided image, the labels are placed differently in each option. 
+- The particle $P$ is at the 3 o'clock position.
+- Anti-clockwise motion means at 3 o'clock, the velocity $v$ is **upwards**.
+- Centripetal acceleration $a$ is always **radially inward** toward the center, which is **leftwards**.
+
+Diagram **C** shows $v$ pointing up (tangent) and $a$ pointing left (toward the center). Therefore, **C** is the correct physical representation.
+
+###QUESTION_TYPE
+Multiple choice

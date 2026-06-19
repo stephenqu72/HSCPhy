@@ -1,0 +1,30 @@
+To determine the acceleration due to gravity on the new planet, we use Newton’s Law of Universal Gravitation.
+
+### Answer
+The correct answer is **(D) 0.75 g**.
+
+### Explanation
+1.  **Recall the formula:** The acceleration due to gravity ($g$) on the surface of a planet of mass $M$ and radius $r$ is given by:
+    $$g = \frac{GM}{r^2}$$
+    where $G$ is the universal gravitational constant.
+
+2.  **Define Earth's gravity:** For Earth, let the mass be $M$ and the radius be $r$. Thus:
+    $$g_{\text{earth}} = \frac{GM}{r^2} = g$$
+
+3.  **Define the new planet's parameters:** We are given that the new planet has:
+    *   Mass $M' = 3M$
+    *   Radius $r' = 2r$
+
+4.  **Calculate the new gravity ($g'$):** Substitute these new values into the gravity formula:
+    $$g' = \frac{G(3M)}{(2r)^2}$$
+    $$g' = \frac{3GM}{4r^2}$$
+
+5.  **Relate $g'$ to $g$:** By factoring out the constants, we see:
+    $$g' = \frac{3}{4} \left( \frac{GM}{r^2} \right)$$
+    Since $g = \frac{GM}{r^2}$, we can substitute $g$ back into the equation:
+    $$g' = \frac{3}{4} g = 0.75g$$
+
+Therefore, the acceleration due to gravity on the new planet is $0.75g$.
+
+###QUESTION_TYPE
+Multiple choice

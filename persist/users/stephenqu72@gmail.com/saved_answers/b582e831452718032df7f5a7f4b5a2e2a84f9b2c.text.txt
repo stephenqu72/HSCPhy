@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To solve this problem, we must identify the definition of centripetal acceleration and how it applies to the point $S$ on the rotating tire.
+
+1.  **Identify the Physics Principle**: The magnitude of centripetal acceleration ($a_c$) for an object moving in a circle is given by the formula:
+    $$a_c = \frac{v^2}{r} = r\omega^2$$
+    where:
+    *   $v$ is the linear velocity of the point.
+    *   $r$ is the radius of the circular path.
+    *   $\omega$ is the angular velocity.
+
+2.  **Analyze the Motion**: The problem states that the tire is rotating at a **constant rate**. This means the angular velocity ($\omega$) is constant.
+    *   Point $S$ is at a fixed distance from the center of the tire. Therefore, the radius ($r$) of its circular path is constant.
+    *   Since both $r$ and $\omega$ are constant, the centripetal acceleration $a_c = r\omega^2$ must also remain constant throughout the entire revolution.
+
+3.  **Evaluate the Graphs**:
+    *   Graph (A) shows linear growth, which is incorrect.
+    *   Graph (B) shows a horizontal line, representing a constant value over time. This matches our derivation that $a_c$ is constant.
+    *   Graphs (C) and (D) show changing values, which would only occur if the tire were speeding up or slowing down.
+
+Since the rotation rate is constant, the magnitude of the centripetal acceleration does not change as the tire rotates. Thus, graph (B) is the correct representation.
+
+### QUESTION_TYPE
+Multiple choice

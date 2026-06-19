@@ -1,0 +1,42 @@
+To solve this problem, we need to apply the principle of equilibrium to a charged particle placed between two parallel plates.
+
+### 1. Identify the Physics Principles
+For the particle to be "exactly suspended," the upward electric force ($F_E$) must be equal in magnitude to the downward gravitational force ($F_g$).
+
+- Gravitational force: $F_g = mg$
+- Electric force: $F_E = qE$
+- Electric field between plates: $E = \frac{V}{d}$
+
+Equating the forces:
+$$mg = qE = q\frac{V}{d}$$
+
+### 2. Rearrange for distance ($d$)
+$$d = \frac{qV}{mg}$$
+
+### 3. Substitute the given values
+- $q = 4.0 \times 10^{-8} \, \text{C}$ (We use the magnitude of the charge)
+- $V = 35.0 \, \text{V}$
+- $m = 2.5 \times 10^{-6} \, \text{kg}$
+- $g \approx 9.8 \, \text{m/s}^2$
+
+$$d = \frac{(4.0 \times 10^{-8}) \times 35.0}{(2.5 \times 10^{-6}) \times 9.8}$$
+$$d = \frac{1.4 \times 10^{-6}}{2.45 \times 10^{-5}}$$
+$$d \approx 0.05714 \, \text{m}$$
+
+### 4. Convert to appropriate units
+To match the options provided:
+$0.05714 \, \text{m} \approx 57 \, \text{mm}$
+
+Comparing this to the given options:
+(A) $56 \, \text{cm}$
+(B) $57 \, \text{mm}$
+(C) $17.5 \, \text{m}$
+(D) $1.8 \, \text{m}$
+
+The correct option is **(B)**.
+
+### Explanation Summary
+To solve this, recognize that for equilibrium, the electric force $qV/d$ must balance the weight $mg$. By rearranging the formula to solve for $d$ and plugging in the constants for gravity ($9.8 \, \text{m/s}^2$) and the provided physical quantities, we find the required separation distance is approximately $0.057 \, \text{m}$, which converts to $57 \, \text{mm}$.
+
+###QUESTION_TYPE
+Multiple choice

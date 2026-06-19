@@ -1,0 +1,33 @@
+To solve this problem, we apply the equations of kinematics and Newton's Second Law.
+
+### Part (a) Calculate the acceleration of the drop
+We use the kinematic equation for displacement starting from rest ($u = 0$):
+$$s = ut + \frac{1}{2}at^2$$
+Given: $s = 0.10\text{ m}$, $u = 0$, $t = 1.0\text{ s}$.
+$$0.10 = 0 + \frac{1}{2} \times a \times (1.0)^2$$
+$$0.10 = 0.5a \implies a = 0.20\text{ m s}^{-2}$$
+
+### Part (b) Vector addition diagram
+There are two forces acting on the negatively charged drop:
+1. **Gravity ($F_g$):** Acting downwards ($mg$).
+2. **Electrostatic Force ($F_e$):** Since the top plate is positive and the drop is negative, the electric force acts upwards.
+Because the drop accelerates downwards, $F_g > F_e$.
+
+**Diagram representation:**
+Draw a long downward arrow ($F_g$) and a shorter upward arrow ($F_e$) starting from the same point. The net force ($F_{net}$) is the resultant vector, which is a shorter arrow pointing downwards, where $F_{net} = F_g - F_e$.
+
+### Part (c) Find the charge on the drop
+First, calculate the net force using $F_{net} = ma$:
+$$F_{net} = (8.0 \times 10^{-6}\text{ kg}) \times (0.20\text{ m s}^{-2}) = 1.6 \times 10^{-6}\text{ N}$$
+Next, set up the force balance equation:
+$$F_{net} = F_g - F_e$$
+$$mg - F_{net} = F_e$$
+Using $g \approx 9.8\text{ m s}^{-2}$:
+$$F_e = (8.0 \times 10^{-6} \times 9.8) - 1.6 \times 10^{-6} = 7.84 \times 10^{-5} - 0.16 \times 10^{-5} = 7.68 \times 10^{-5}\text{ N}$$
+Using the formula $F_e = qE$ and $E = \frac{V}{d}$:
+$$7.68 \times 10^{-5} = q \times \left(\frac{10}{0.10}\right)$$
+$$7.68 \times 10^{-5} = q \times 100$$
+$$q = 7.68 \times 10^{-7}\text{ C}$$
+
+###QUESTION_TYPE
+Calculation question

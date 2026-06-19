@@ -1,0 +1,38 @@
+### Teacher's Explanation
+
+To solve this projectile motion problem, we must treat horizontal and vertical motion as independent components.
+
+**Given:**
+*   Initial velocity $v_0 = 40 \text{ ms}^{-1}$
+*   Angle $\theta = 20^\circ$
+*   Vertical displacement $\Delta y = -70 \text{ m}$ (downwards from the launch point)
+*   Horizontal velocity $v_x = v_0 \cos(\theta) = 40 \cos(20^\circ) \approx 37.588 \text{ ms}^{-1}$
+*   Initial vertical velocity $v_{y0} = v_0 \sin(\theta) = 40 \sin(20^\circ) \approx 13.681 \text{ ms}^{-1}$
+
+---
+
+### (a) Slowest Speed
+In projectile motion, horizontal velocity ($v_x$) remains constant (ignoring air resistance). The vertical velocity ($v_y$) is zero at the peak of the trajectory. Therefore, the ball is at its slowest speed at the **highest point (peak)** of its flight.
+At this point, the speed is simply the constant horizontal component:
+$$\text{Speed} = v_x = 40 \cos(20^\circ) \approx 37.6 \text{ ms}^{-1}$$
+
+---
+
+### (b) Greatest Speed
+The ball will be moving fastest when it is at the lowest vertical position, which is at the **point of impact** in the ocean.
+1. **Find vertical velocity at impact ($v_y$):**
+   Using $v_y^2 = v_{y0}^2 + 2a\Delta y$:
+   $$v_y^2 = (13.681)^2 + 2(-9.8)(-70)$$
+   $$v_y^2 = 187.17 + 1372 = 1559.17$$
+   $$v_y = -\sqrt{1559.17} \approx -39.486 \text{ ms}^{-1}$$
+2. **Calculate resultant velocity magnitude:**
+   $$v = \sqrt{v_x^2 + v_y^2} = \sqrt{(37.588)^2 + (-39.486)^2}$$
+   $$v = \sqrt{1412.86 + 1559.14} = \sqrt{2972} \approx 54.5 \text{ ms}^{-1}$$
+3. **Calculate the angle:**
+   $$\phi = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{39.486}{37.588}\right) \approx 46.4^\circ$$
+The velocity is **$54.5 \text{ ms}^{-1}$ at $46.4^\circ$ below the horizontal.**
+
+---
+
+###QUESTION_TYPE
+Calculation question

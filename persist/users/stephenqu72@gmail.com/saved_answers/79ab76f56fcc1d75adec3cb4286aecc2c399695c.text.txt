@@ -1,0 +1,36 @@
+To find the velocity of a car on a banked track with no friction (also known as the "design speed"), we use the physics of circular motion.
+
+### 1. Identify the given information:
+*   Radius of the track ($r$): $4.5\text{ km} = 4500\text{ m}$
+*   Banking angle ($\theta$): $8^\circ$
+*   Acceleration due to gravity ($g$): $9.8\text{ m/s}^2$
+*   Total mass ($m$): $1375\text{ kg} + 75\text{ kg} = 1450\text{ kg}$ (Note: In this specific derivation, the mass cancels out).
+
+### 2. The Physics Principle:
+When there is no friction, the horizontal component of the normal force provides the centripetal force required to keep the car moving in a circle.
+*   Vertical equilibrium: $N\cos\theta = mg$
+*   Horizontal centripetal force: $N\sin\theta = \frac{mv^2}{r}$
+
+By dividing the two equations ($N\sin\theta / N\cos\theta = \frac{mv^2}{r} / mg$), we get the formula for design speed:
+$$\tan\theta = \frac{v^2}{rg}$$
+
+### 3. Calculation:
+Rearrange the formula to solve for velocity ($v$):
+$$v = \sqrt{rg \tan\theta}$$
+
+Substitute the values:
+$$v = \sqrt{4500 \times 9.8 \times \tan(8^\circ)}$$
+$$v = \sqrt{44100 \times 0.14054}$$
+$$v = \sqrt{6197.8}$$
+$$v \approx 78.726\text{ m/s}$$
+
+Comparing this result to the given options, the correct choice is **(C)**.
+
+### 4. Summary of steps:
+1.  Recognize that for a frictionless banked turn, the mass is irrelevant.
+2.  Use the standard formula derived from the balance of forces: $v = \sqrt{rg \tan\theta}$.
+3.  Ensure the radius is converted from kilometers to meters ($4.5\text{ km} = 4500\text{ m}$).
+4.  Perform the calculation and round to the appropriate number of significant figures.
+
+###QUESTION_TYPE
+Multiple choice

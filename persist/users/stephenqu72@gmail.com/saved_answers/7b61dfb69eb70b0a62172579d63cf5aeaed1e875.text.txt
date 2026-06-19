@@ -1,0 +1,29 @@
+To solve this problem, we apply **Kepler’s Third Law of Planetary Motion**, which states that for objects orbiting the same central body, the ratio of the square of the orbital period ($T$) to the cube of the orbital radius ($r$) is constant:
+
+$$\frac{T^2}{r^3} = k$$
+
+This means that for two moons orbiting the same planet (Xenos), we can set up the following ratio:
+
+$$\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$$
+
+### Step-by-step solution:
+
+1.  **Identify the variables:**
+    *   Teros: $r_1 = 12 \times 10^3$, $T_1 = 31 \times 10^4$
+    *   Phiron: $r_2 = 4 \times 10^7$, $T_2 = T$
+
+2.  **Set up the equation using Kepler's Third Law:**
+    $$\frac{(31 \times 10^4)^2}{(12 \times 10^3)^3} = \frac{T^2}{(4 \times 10^7)^3}$$
+
+3.  **Solve for $T^2$:**
+    To isolate $T^2$, multiply both sides by $(4 \times 10^7)^3$:
+    $$T^2 = \frac{(31 \times 10^4)^2 \times (4 \times 10^7)^3}{(12 \times 10^3)^3}$$
+
+4.  **Compare with the given options:**
+    The expression derived in step 3 matches option **D**.
+
+### Explanation:
+The constant $k$ is dependent on the mass of the planet being orbited. Since both moons orbit the planet Xenos, the ratio holds true. By substituting the known values into the proportion, we rearrange the formula to isolate the unknown variable $T^2$. Option D correctly reflects the mathematical rearrangement of the proportion $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we need to relate the acceleration due to gravity ($g$) to the physical properties of a planet, specifically its radius ($r$) and density ($\rho$).
+
+### Step-by-Step Explanation:
+
+1.  **Recall the formula for gravitational acceleration:**
+    The acceleration due to gravity on the surface of a planet is given by:
+    $$g = \frac{GM}{r^2}$$
+    where $G$ is the gravitational constant, $M$ is the mass of the planet, and $r$ is the radius.
+
+2.  **Express mass in terms of density:**
+    Since $Mass = Density \times Volume$ ($\rho V$) and the volume of a sphere is $V = \frac{4}{3}\pi r^3$, we can substitute $M$ in the gravity formula:
+    $$g = \frac{G(\rho \cdot \frac{4}{3}\pi r^3)}{r^2}$$
+    Simplifying this, we get:
+    $$g = \frac{4}{3} G \pi \rho r$$
+
+3.  **Analyze the relationship:**
+    From this formula, we can see that $g \propto \rho \cdot r$. Since both planets have equal diameters, their radii ($r$) are equal. Therefore, $g$ is directly proportional to the density ($\rho$):
+    $$\frac{g_J}{g_G} = \frac{\rho_J}{\rho_G}$$
+
+4.  **Calculate the value for Geyise:**
+    We are given that planet Jialoumma ($J$) has twice the density of Geyise ($G$), meaning $\rho_J = 2\rho_G$. 
+    We know $g_J = 30 \text{ ms}^{-2}$.
+    Substituting these into our proportion:
+    $$\frac{30}{g_G} = \frac{2\rho_G}{\rho_G} = 2$$
+    $$g_G = \frac{30}{2} = 15 \text{ ms}^{-2}$$
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

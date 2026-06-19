@@ -1,0 +1,18 @@
+To answer this question, we must apply the principles of energy conservation to both a uniform and a radial gravitational field.
+
+### Answer
+The maximum height reached by the projectile is **greater in Model A** (uniform field) than in **Model B** (radial field).
+
+**Energy Analysis:**
+*   **Model A (Uniform Field):** Gravitational potential energy is given by $U = mgh$. As the projectile rises, kinetic energy ($K = \frac{1}{2}mv^2$) is converted into potential energy. Because the gravitational field strength $g$ is constant, the energy required to gain height remains constant throughout the flight.
+*   **Model B (Radial Field):** Gravitational potential energy is given by $U = -\frac{GMm}{r}$. Here, the field strength decreases with distance ($g \propto \frac{1}{r^2}$). As the projectile moves further from the Earth, the gravitational force acting on it decreases. However, because the potential energy function becomes "less negative" (closer to zero) as $r$ increases, the projectile experiences a steeper loss of kinetic energy per unit of distance compared to the uniform model, resulting in a lower maximum height.
+
+### How to solve this
+1.  **Understand the Models:** Recognize that "uniform" implies a constant acceleration $g$, whereas "radial" implies that gravity weakens as you move away from the source ($F = \frac{GMm}{r^2}$).
+2.  **Apply Conservation of Energy:** In both cases, the initial kinetic energy $K_i$ is converted into gravitational potential energy $\Delta U$. 
+    *   For Model A: $\frac{1}{2}mv^2 = mgh_{max}$, so $h_{max} = \frac{v^2}{2g}$.
+    *   For Model B: $\frac{1}{2}mv^2 = G M m (\frac{1}{R_E} - \frac{1}{R_E + h_{max}})$.
+3.  **Compare:** In the radial field (Model B), gravity is strongest at the surface and gets weaker as the object rises. However, the potential energy well in a radial field is such that the work done against gravity is more "costly" near the Earth's surface than in the uniform model. Mathematically, the $1/r$ relationship for potential means the projectile reaches its turning point sooner in the radial model than it would if gravity remained at its maximum surface strength for the entire duration of the flight. Thus, $h_{max, \text{radial}} < h_{max, \text{uniform}}$.
+
+###QUESTION_TYPE
+Short answer

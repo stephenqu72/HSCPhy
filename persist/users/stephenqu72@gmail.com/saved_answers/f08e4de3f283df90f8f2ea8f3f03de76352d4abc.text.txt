@@ -1,0 +1,34 @@
+To solve this problem, we use the physics of circular motion to simulate artificial gravity.
+
+### Part (a)
+To simulate gravity on the surface of the Earth, the centripetal acceleration $a_c$ provided by the rotation must equal $g \approx 9.8\ \text{m/s}^2$. The formula for centripetal acceleration is:
+$$a_c = \frac{v^2}{r}$$
+Given:
+- Radius $r = 100\ \text{m}$
+- Acceleration $a_c = 9.8\ \text{m/s}^2$
+
+Rearranging for speed $v$:
+$$v = \sqrt{a_c \cdot r}$$
+$$v = \sqrt{9.8 \cdot 100}$$
+$$v = \sqrt{980}$$
+$$v \approx 31.3\ \text{m/s}$$
+
+**Answer:** The space station must rotate at approximately $31.3\ \text{m/s}$.
+
+---
+
+### Part (b)
+To determine if there is a weight gain or loss, we compare the new centripetal acceleration to $g$. The acceleration can be expressed in terms of angular velocity $\omega$ as $a_c = r\omega^2$.
+- New angular velocity $\omega = 0.3\ \text{rad/s}$
+- $r = 100\ \text{m}$
+
+New acceleration:
+$$a_c = 100 \cdot (0.3)^2$$
+$$a_c = 100 \cdot 0.09 = 9\ \text{m/s}^2$$
+
+Since the required gravity was $9.8\ \text{m/s}^2$, and the new acceleration is only $9\ \text{m/s}^2$, the inhabitants experience less acceleration than standard Earth gravity.
+
+**Answer:** The inhabitants will have an **apparent weight loss**. This is because the new centripetal acceleration ($9\ \text{m/s}^2$) is less than the acceleration due to gravity on Earth ($9.8\ \text{m/s}^2$), resulting in a lower normal force exerted by the floor.
+
+###QUESTION_TYPE
+Calculation question

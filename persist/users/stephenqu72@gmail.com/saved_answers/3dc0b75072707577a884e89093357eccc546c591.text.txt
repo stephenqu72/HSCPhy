@@ -1,0 +1,35 @@
+To determine where the golf ball lands, we must calculate its **horizontal range** ($R$) using the physics of projectile motion.
+
+### Step-by-Step Solution:
+
+**1. Identify the given variables:**
+*   Initial velocity ($u$) = $47.8 \text{ ms}^{-1}$
+*   Angle of projection ($\theta$) = $42.5^{\circ}$
+*   Acceleration due to gravity ($g$) $\approx 9.8 \text{ ms}^{-2}$
+
+**2. State the formula for horizontal range:**
+Since the tee and the hole are at the same elevation, we can use the range formula for projectile motion on level ground:
+$$R = \frac{u^2 \sin(2\theta)}{g}$$
+
+**3. Substitute the values into the formula:**
+*   First, calculate $\sin(2\theta)$:
+    $$2\theta = 2 \times 42.5^{\circ} = 85^{\circ}$$
+    $$\sin(85^{\circ}) \approx 0.9962$$
+*   Now, calculate the range:
+    $$R = \frac{(47.8)^2 \times 0.9962}{9.8}$$
+    $$R = \frac{2284.84 \times 0.9962}{9.8}$$
+    $$R \approx \frac{2276.16}{9.8}$$
+    $$R \approx 232.26 \text{ m}$$
+
+**4. Interpret the results against Figure 1:**
+Looking at the map in Figure 1, the distances provided show:
+*   The "sand" area starts at $230 \text{ m}$ and ends at $240 \text{ m}$ from the tee.
+*   The range of the ball is approximately $232.3 \text{ m}$.
+
+Since $230 < 232.3 < 240$, the golf ball lands within the boundary of the sand trap.
+
+**Conclusion:**
+The golf ball lands in the sand. Therefore, the correct option is **(A)**.
+
+###QUESTION_TYPE
+Calculation question

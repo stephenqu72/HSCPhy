@@ -1,0 +1,33 @@
+To solve for the torque applied to the wrench, we use the formula for torque ($\tau$):
+
+$$\tau = r \cdot F \cdot \sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   **Force ($F$):** $50\text{ N}$
+    *   **Distance ($r$):** The length of the wrench is given as $25\text{ cm}$. We must convert this into SI units (meters) to match the standard unit of torque ($N\cdot m$):
+        $r = 25\text{ cm} = 0.25\text{ m}$
+    *   **Angle ($\theta$):** The angle given between the handle of the wrench and the force vector is $60^\circ$. In the torque formula, $\theta$ represents the angle between the lever arm and the force vector.
+
+2.  **Substitute the values into the formula:**
+    $$\tau = 0.25\text{ m} \cdot 50\text{ N} \cdot \sin(60^\circ)$$
+
+3.  **Perform the calculation:**
+    *   $\sin(60^\circ) \approx 0.866$
+    *   $\tau = 0.25 \cdot 50 \cdot 0.866$
+    *   $\tau = 12.5 \cdot 0.866$
+    *   $\tau \approx 10.825\text{ N}\cdot m$
+
+Rounding to one decimal place, we get **$10.8\text{ N}\cdot m$**.
+
+Looking at the options provided:
+A. $10.8\text{ N}\cdot m$
+B. $6.25\text{ N}\cdot m$
+C. $21.7\text{ N}\cdot m$
+D. $9.24\text{ N}\cdot m$
+
+The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

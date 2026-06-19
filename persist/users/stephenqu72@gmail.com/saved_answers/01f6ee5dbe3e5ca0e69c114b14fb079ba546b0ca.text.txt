@@ -1,0 +1,28 @@
+To find the null point (where the net electric field is zero) between two positive charges, we must find the location where the magnitudes of the electric fields produced by both charges are equal and opposite.
+
+### Calculation
+
+1.  **Identify the formula:** The electric field $E$ created by a point charge is given by:
+    $$E = \frac{kQ}{r^2}$$
+    where $k$ is Coulomb's constant, $Q$ is the charge, and $r$ is the distance from the charge.
+
+2.  **Set up the equation:** Let $x$ be the distance from the charge $q$ to the null point. The distance from the charge $4q$ to the null point will then be $(12 - x)$. For the net field to be zero:
+    $$\frac{kq}{x^2} = \frac{k(4q)}{(12 - x)^2}$$
+
+3.  **Solve for $x$:**
+    *   Cancel $k$ and $q$ from both sides:
+        $$\frac{1}{x^2} = \frac{4}{(12 - x)^2}$$
+    *   Take the square root of both sides:
+        $$\frac{1}{x} = \frac{2}{12 - x}$$
+    *   Cross-multiply:
+        $$12 - x = 2x$$
+        $$12 = 3x$$
+        $$x = 4 \text{ cm}$$
+
+4.  **Conclusion:** The null point is located 4 cm from the charge $q$. Looking at the scale diagram, there are 6 segments between the two charges covering 12 cm, meaning each segment represents 2 cm. A distance of 4 cm corresponds to the second point from the left, which is **Q**.
+
+### Answer
+The correct option is **B. Q**.
+
+###QUESTION_TYPE
+Multiple choice

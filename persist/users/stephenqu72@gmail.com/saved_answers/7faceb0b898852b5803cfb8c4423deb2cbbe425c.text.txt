@@ -1,0 +1,38 @@
+To determine the new centripetal force, we use the formula for the magnitude of the centripetal force:
+
+$$F = \frac{mv^2}{r}$$
+
+where:
+*   $m$ is the mass of the object
+*   $v$ is the speed (velocity)
+*   $r$ is the radius of the circular path
+
+### Step-by-step solution:
+
+1.  **Define the initial state:**
+    The initial force is $F = \frac{mv^2}{r}$.
+
+2.  **Define the changes to the variables:**
+    *   The mass is doubled: $m' = 2m$
+    *   The radius is halved: $r' = \frac{1}{2}r$
+    *   The speed is tripled: $v' = 3v$
+
+3.  **Calculate the new force ($F'$):**
+    Substitute the new values into the formula:
+    $$F' = \frac{m'(v')^2}{r'}$$
+    $$F' = \frac{(2m)(3v)^2}{\frac{1}{2}r}$$
+
+4.  **Simplify the expression:**
+    *   First, square the speed: $(3v)^2 = 9v^2$
+    *   Now substitute back: $F' = \frac{(2m)(9v^2)}{0.5r}$
+    *   Multiply the constants: $2 \times 9 = 18$
+    *   Divide by $0.5$: $\frac{18}{0.5} = 36$
+    *   Therefore: $F' = 36 \times \left( \frac{mv^2}{r} \right)$
+
+5.  **Conclusion:**
+    Since the original force $F = \frac{mv^2}{r}$, the new force is $F' = 36F$.
+
+Comparing this result to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

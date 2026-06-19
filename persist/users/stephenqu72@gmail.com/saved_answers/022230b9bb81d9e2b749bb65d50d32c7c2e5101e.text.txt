@@ -1,0 +1,35 @@
+To solve this problem, we must understand how a medium (the wind) affects the velocity of a wave (sound).
+
+### Step-by-Step Solution
+
+1.  **Define Variables:**
+    *   Let $v_s$ be the speed of sound in still air.
+    *   Let $v_w$ be the speed of the wind.
+    *   Distance $d = 30.0\text{ m}$.
+
+2.  **Analyze the two scenarios:**
+    *   **Case 1 (West to East):** The sound travels with the wind. The effective velocity is $(v_s + v_w)$.
+        $$v_{east} = \frac{d}{t_1} = \frac{30.0}{0.0857} \approx 350.06\text{ m/s}$$
+        So, $v_s + v_w = 350.06$  --- (Eq 1)
+
+    *   **Case 2 (East to West):** The sound travels against the wind. The effective velocity is $(v_s - v_w)$.
+        $$v_{west} = \frac{d}{t_2} = \frac{30.0}{0.0909} \approx 330.03\text{ m/s}$$
+        So, $v_s - v_w = 330.03$  --- (Eq 2)
+
+3.  **Solve for $v_w$:**
+    Subtract Eq 2 from Eq 1:
+    $$(v_s + v_w) - (v_s - v_w) = 350.06 - 330.03$$
+    $$2v_w = 20.03$$
+    $$v_w \approx 10\text{ m/s}$$
+
+4.  **Determine Direction:**
+    Since the sound travelling towards the **East** took less time ($0.0857\text{ s} < 0.0909\text{ s}$), the velocity was higher in the eastward direction. This confirms the wind is blowing **towards the east** at $10\text{ m/s}$.
+
+### Conclusion
+The correct answer is **A**.
+
+### Reasoning
+This experiment highlights that unlike light (as investigated by Michelson-Morley), sound requires a medium. The results show that the medium's motion relative to the observer alters the speed of the wave, proving that sound does not obey the postulate of the constancy of the speed of light.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To determine how to improve the accuracy of this experiment, we must look at how to minimize measurement errors, specifically **random error**.
+
+1.  **Understanding the objective:** The experiment aims to calculate $g$ using the period $T$ of a pendulum, given by the formula:
+    $$T = 2\pi \sqrt{\frac{L}{g}}$$
+    The primary source of random error in this experiment is human reaction time when starting and stopping the stopwatch for a single oscillation.
+
+2.  **Evaluating the options:**
+    *   **A:** While higher precision is generally good, a stopwatch measuring to nanoseconds is overkill. The dominant error here is the **human reaction time**, which is typically around $0.1$ to $0.2$ seconds. A stopwatch with millisecond precision is already more than sufficient to record the period; faster precision does not fix the systematic delay caused by human reaction.
+    *   **B:** Conducting the experiment at different locations will change the value of $g$ itself, introducing a variable that ruins the consistency of your data set. This is not an improvement to the experimental method.
+    *   **C:** By recording the time for **ten oscillations** and then dividing by ten to find the period of a single oscillation, you effectively distribute the human reaction error across ten cycles. This significantly reduces the *relative* percentage error of the measurement. This is a standard HSC Physics technique for improving the reliability and accuracy of timing measurements.
+    *   **D:** According to the provided formula, the mass of the pendulum does not affect the period $T$. Changing the mass will not change the result or improve the accuracy of the measurement.
+
+Therefore, recording multiple oscillations is the most effective way to minimize the impact of human reaction time, thereby improving the accuracy of the experiment.
+
+### QUESTION_TYPE
+Multiple choice

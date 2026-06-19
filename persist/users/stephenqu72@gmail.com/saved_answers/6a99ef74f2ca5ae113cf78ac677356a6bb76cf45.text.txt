@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for the orbital velocity of a satellite.
+
+### 1. Identify the given values
+*   Mass of satellite ($m$) = $1000\text{ kg}$ (Note: the mass of the satellite cancels out in the orbital velocity formula, so this is extra information).
+*   Altitude ($h$) = $500\text{ km} = 500 \times 10^3\text{ m} = 0.5 \times 10^6\text{ m}$.
+*   Radius of Earth ($R_E$) $\approx 6.37 \times 10^6\text{ m}$.
+*   Mass of Earth ($M$) $\approx 5.97 \times 10^{24}\text{ kg}$.
+*   Gravitational constant ($G$) = $6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$.
+
+### 2. Determine the orbital radius ($r$)
+The orbital radius is the distance from the center of the Earth, which is the sum of the Earth's radius and the altitude:
+$$r = R_E + h$$
+$$r = 6.37 \times 10^6\text{ m} + 0.5 \times 10^6\text{ m} = 6.87 \times 10^6\text{ m}$$
+
+### 3. Calculate the orbital velocity ($v$)
+The formula for orbital velocity is derived by equating the gravitational force to the centripetal force:
+$$v = \sqrt{\frac{GM}{r}}$$
+Substituting the values:
+$$v = \sqrt{\frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{6.87 \times 10^6}}$$
+$$v = \sqrt{\frac{3.982 \times 10^{14}}{6.87 \times 10^6}}$$
+$$v = \sqrt{5.796 \times 10^7}$$
+$$v \approx 7613\text{ ms}^{-1}$$
+$$v \approx 7.61 \times 10^3\text{ ms}^{-1}$$
+
+Comparing this result to the given options, **(B)** is the closest value.
+
+### ANSWER
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

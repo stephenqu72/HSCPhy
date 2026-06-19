@@ -1,0 +1,32 @@
+To solve this projectile motion problem, we define the starting position at the penalty spot as $(0, 0, 0)$. The target coordinates at the goal are $x = 11\text{ m}$ (distance from spot to goal line), $z = 3.6\text{ m}$ (horizontal displacement to the left), and $y = 2.4\text{ m}$ (height). The total flight time is $t = 0.5\text{ s}$.
+
+### a) Diagram
+A diagram should show the penalty spot at the origin. Draw a 3D coordinate system:
+- $x$-axis: straight towards the goal ($11\text{ m}$).
+- $z$-axis: horizontal displacement to the left ($3.6\text{ m}$).
+- $y$-axis: vertical height ($2.4\text{ m}$).
+- Draw a vector representing the path from $(0,0,0)$ to the point $(11, 3.6, 2.4)$.
+
+### b) Calculate the range
+The "range" in this 3D context is the total horizontal displacement from the spot to the point where the ball crosses the goal line. This is the hypotenuse of the triangle formed by the $x$ and $z$ components:
+$$R = \sqrt{x^2 + z^2} = \sqrt{11^2 + 3.6^2} = \sqrt{121 + 12.96} = \sqrt{133.96} \approx 11.57\text{ m}$$
+
+### c) Does the ball reach the top corner?
+We use the vertical motion equation: $y = u_y t - \frac{1}{2}gt^2$. 
+Given $u_y = 6.86\text{ m/s}$, $t = 0.5\text{ s}$, and $g = 9.8\text{ m/s}^2$:
+$$y = (6.86 \times 0.5) - (0.5 \times 9.8 \times 0.5^2)$$
+$$y = 3.43 - (4.9 \times 0.25) = 3.43 - 1.225 = 2.205\text{ m}$$
+Since $2.205\text{ m} < 2.4\text{ m}$, the ball hits the goal at a height of $2.205\text{ m}$. **No**, the ball does not reach the top corner; it is $0.195\text{ m}$ too low.
+
+### d) What is the ball's initial velocity?
+We need the initial velocity components. 
+- $v_x = \frac{x}{t} = \frac{11}{0.5} = 22\text{ m/s}$
+- $v_z = \frac{z}{t} = \frac{3.6}{0.5} = 7.2\text{ m/s}$
+- $v_y = 6.86\text{ m/s}$
+
+The magnitude of the initial velocity $v$ is:
+$$v = \sqrt{v_x^2 + v_z^2 + v_y^2} = \sqrt{22^2 + 7.2^2 + 6.86^2}$$
+$$v = \sqrt{484 + 51.84 + 47.0596} = \sqrt{582.8996} \approx 24.14\text{ m/s}$$
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,24 @@
+To solve this problem, we need to apply the definition of electric potential and work done in a uniform electric field.
+
+### Explanation
+
+1.  **Understand the Electric Field:** The two charged plates create a uniform electric field between them. The potential difference $V$ across the full distance $d$ means that the electric potential changes linearly as you move from one plate to the other.
+2.  **Define Potential at $P$:** Since point $P$ is exactly halfway between the plates, its potential relative to the positive plate is $\frac{V}{2}$ and its potential relative to the negative plate is $-\frac{V}{2}$ (or vice-versa, depending on your reference point). 
+3.  **Calculate Work Done:** The work done $W$ in moving a charge $q$ between two points with a potential difference $\Delta V$ is given by:
+    $$W = q \Delta V = q(V_{final} - V_{initial})$$
+4.  **Analyze the Movement:**
+    *   We are moving the charge from point $P$ to the negative plate.
+    *   The charge is $+Q$.
+    *   The electric field exerts a force on the positive charge $+Q$ towards the negative plate. This means the electric field does positive work on the charge to move it towards the negative plate.
+    *   The potential difference between $P$ and the negative plate is $\Delta V = V_{negative} - V_{P}$.
+    *   Since $P$ is halfway, the potential drop from $P$ to the negative plate is half of the total potential difference: $\Delta V = -\frac{V}{2}$.
+    *   However, in physics, work done **by the field** is $W = -q \Delta V$. If we are simply looking for the work done *to move* the charge, we look at the change in potential energy: $\Delta U = Q \Delta V$.
+    *   Moving a positive charge from a higher potential (nearer the positive plate) to a lower potential (the negative plate) results in a decrease in potential energy:
+    $$W = Q \times \left( -\frac{V}{2} \right) = -\frac{QV}{2}$$
+
+This indicates that the field does positive work, but the change in potential energy is $-\frac{QV}{2}$. Given the standard convention in these problems, the work done *by the external agent* to move it (or the potential energy change) is $-\frac{QV}{2}$.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

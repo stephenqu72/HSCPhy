@@ -1,0 +1,23 @@
+To solve this problem, we need to understand the definition of angular velocity and how it relates to rotational frequency.
+
+### Explanation
+
+1.  **Define Angular Velocity ($\omega$):** The angular velocity of an object in circular motion is defined as the rate of change of its angular position. It is directly related to the frequency of rotation ($f$), which is the number of revolutions per unit time. The formula is:
+    $$\omega = 2\pi f$$
+
+2.  **Analyze the Variables:**
+    *   The mass of the object is $250\text{ g}$, but this does not affect angular velocity.
+    *   The length of the string ($r$) is changed from $2.0\text{ m}$ to $3.0\text{ m}$.
+    *   The problem explicitly states that we are **maintaining the same rotational frequency** ($f = 100\text{ rev/min}$).
+
+3.  **Evaluate the Relationship:**
+    Looking at the formula $\omega = 2\pi f$, we can see that the angular velocity $\omega$ depends **only** on the frequency $f$. It is independent of the radius $r$ (the length of the string).
+
+    Since the rotational frequency remains constant, the angular velocity must also remain constant, regardless of how much the string length is increased or decreased.
+
+Therefore, the angular velocity will be the same as the original value.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

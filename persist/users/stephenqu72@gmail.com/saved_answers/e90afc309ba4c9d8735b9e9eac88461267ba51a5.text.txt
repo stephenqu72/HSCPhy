@@ -1,0 +1,33 @@
+To solve this problem, we use the formula for the gravitational acceleration $g$ at the surface of a planet:
+
+$$g = \frac{GM}{r^2}$$
+
+where:
+- $G$ is the universal gravitational constant.
+- $M$ is the mass of the planet.
+- $r$ is the radius of the planet.
+
+### Step-by-Step Explanation:
+
+1. **Define the Earth's conditions:**
+   For Earth, the acceleration is:
+   $$g_{\text{Earth}} = \frac{GM_E}{r_E^2} = g$$
+
+2. **Define Planet X's conditions:**
+   We are told Planet X has twice the mass ($M_X = 2M_E$) and twice the radius ($r_X = 2r_E$).
+
+3. **Substitute these values into the formula:**
+   $$g_X = \frac{G(2M_E)}{(2r_E)^2}$$
+
+4. **Simplify the expression:**
+   $$g_X = \frac{2GM_E}{4r_E^2}$$
+   $$g_X = \frac{1}{2} \left( \frac{GM_E}{r_E^2} \right)$$
+
+5. **Relate back to Earth's gravity:**
+   Since $\frac{GM_E}{r_E^2} = g$, we find:
+   $$g_X = \frac{1}{2} g$$
+
+Comparing this result to the given options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

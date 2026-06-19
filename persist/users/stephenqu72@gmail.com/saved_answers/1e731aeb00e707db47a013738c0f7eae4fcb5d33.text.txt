@@ -1,0 +1,34 @@
+To determine the distance from the start line where the two bikes are side by side, we use the kinematic equation for displacement:
+$$s = ut + \frac{1}{2}at^2$$
+
+### Step 1: Write the displacement equations for both bikes
+Let $s$ be the displacement from the start line and $t$ be the time taken.
+
+*   **For the blue bike:**
+    Initial velocity $u_B = 0\text{ m s}^{-1}$ and acceleration $a_B = 2.0\text{ m s}^{-2}$.
+    $$s_B = 0(t) + \frac{1}{2}(2.0)t^2 = 1.0t^2$$
+
+*   **For the red bike:**
+    Initial velocity $u_R = 5.0\text{ m s}^{-1}$ and acceleration $a_R = 1.6\text{ m s}^{-2}$.
+    $$s_R = 5.0t + \frac{1}{2}(1.6)t^2 = 5.0t + 0.8t^2$$
+
+### Step 2: Set the displacements equal
+When the bikes are side by side, their displacements are equal ($s_B = s_R$):
+$$1.0t^2 = 5.0t + 0.8t^2$$
+
+### Step 3: Solve for $t$
+Subtract $0.8t^2$ from both sides:
+$$0.2t^2 = 5.0t$$
+Since $t$ cannot be $0$ (this is the start position), we can divide both sides by $t$:
+$$0.2t = 5.0$$
+$$t = \frac{5.0}{0.2} = 25\text{ s}$$
+
+### Step 4: Calculate the distance
+Substitute $t = 25\text{ s}$ into the displacement equation for the blue bike:
+$$s = 1.0(25)^2$$
+$$s = 1.0 \times 625 = 625\text{ m}$$
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

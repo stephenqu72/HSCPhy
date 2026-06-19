@@ -1,0 +1,36 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this classic mechanics problem. This question tests your ability to linearize data to verify physical constants and apply projectile motion equations.
+
+### (a) Plotting the data
+To obtain acceleration due to gravity ($g$) from the gradient, we must relate the variables using the kinematic equation: $v^2 = u^2 + 2as$. 
+For an object launched upwards reaching maximum height ($v=0$), $0 = u^2 - 2gh$. 
+Rearranging for height: $h = \frac{1}{2g} \cdot u^2$.
+If we plot $h$ (y-axis) against $u^2$ (x-axis), the gradient $m = \frac{1}{2g}$. Therefore, $g = \frac{1}{2m}$.
+
+**Step:** Convert height to meters ($cm \div 100$) and square the launch speeds:
+*   $u^2 (m^2s^{-2})$: 2.25, 6.25, 9.0, 12.25, 16.0
+*   $h (m)$: 0.11, 0.32, 0.46, 0.63, 0.82
+
+Plot $h$ on the y-axis and $u^2$ on the x-axis. Draw a line of best fit.
+
+### (b) Calculating $g$
+1. Calculate the gradient ($m$) of your line of best fit: $m = \frac{\Delta h}{\Delta u^2}$.
+   Using the first and last points: $m = \frac{0.82 - 0.11}{16.0 - 2.25} = \frac{0.71}{13.75} \approx 0.0516 \, s^2/m$.
+2. Solve for $g$: $g = \frac{1}{2m} = \frac{1}{2 \times 0.0516} \approx 9.69 \, ms^{-2}$.
+*(Note: Your specific value may vary slightly depending on your line of best fit).*
+
+### (c) Required launch speed
+We use the projectile motion formulas for maximum height ($H$) and range ($R$):
+1. $H = \frac{v_y^2}{2g} \implies v_y = \sqrt{2gH}$
+2. $R = \frac{v_x \cdot 2v_y}{g} \implies v_x = \frac{Rg}{2v_y}$
+
+**Calculations:**
+*   $v_y = \sqrt{2 \times 9.8 \times 3.5} = \sqrt{68.6} \approx 8.28 \, ms^{-1}$
+*   $v_x = \frac{5 \times 9.8}{2 \times 8.28} = \frac{49}{16.56} \approx 2.96 \, ms^{-1}$
+*   Total launch speed $v = \sqrt{v_x^2 + v_y^2} = \sqrt{2.96^2 + 8.28^2} = \sqrt{8.76 + 68.56} \approx \sqrt{77.32} \approx 8.79 \, ms^{-1}$
+
+The required launch speed is approximately **$8.79 \, ms^{-1}$**.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

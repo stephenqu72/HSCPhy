@@ -1,0 +1,33 @@
+To solve this problem, we must use the formula for the orbital velocity of a satellite orbiting a central mass $M$.
+
+### Explanation
+
+1.  **Derive the Orbital Velocity Formula:**
+    A satellite in a circular orbit is held in place by gravitational force acting as the centripetal force.
+    $$\frac{mv^2}{R} = \frac{GMm}{R^2}$$
+    By canceling the mass of the satellite ($m$) and one factor of the radius ($R$), we get:
+    $$v^2 = \frac{GM}{R}$$
+    $$v = \sqrt{\frac{GM}{R}}$$
+    Crucially, note that the mass of the satellite ($m$) cancels out. This means the **orbital velocity is independent of the mass of the satellite.**
+
+2.  **Compare Satellite A and Satellite B:**
+    *   Satellite A has an orbital radius of $R_A = 4r$.
+    *   Satellite B has an orbital radius of $R_B = r$.
+    *   Since they orbit the same object, $G$ and $M$ are constant for both.
+
+    The velocity of Satellite A is:
+    $$v_A = \sqrt{\frac{GM}{4r}} = \frac{1}{\sqrt{4}} \sqrt{\frac{GM}{r}} = \frac{1}{2} \sqrt{\frac{GM}{r}}$$
+
+    The velocity of Satellite B is:
+    $$v_B = \sqrt{\frac{GM}{r}}$$
+
+3.  **Find the Ratio:**
+    Comparing the two expressions:
+    $$v_A = \frac{1}{2} v_B$$
+    This can be rearranged to:
+    $$v_B = 2v_A$$
+
+This means the orbital velocity of satellite B is twice that of satellite A. Therefore, the correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

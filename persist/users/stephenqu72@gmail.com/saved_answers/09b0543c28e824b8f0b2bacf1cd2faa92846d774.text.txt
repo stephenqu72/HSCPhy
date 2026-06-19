@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To solve this, we must examine the definitions of the terms provided in the question:
+
+1.  **The Formula:** We are given $g = \frac{GM}{r^2}$. This expression defines the **gravitational field strength** at a distance $r$ from the center of a mass $M$.
+2.  **Evaluating the options:**
+    *   **(A) $g$ is the gravitational field at the surface of the Earth:** This is correct. The term $g$ is defined as the gravitational field strength per unit mass ($g = \frac{F}{m}$).
+    *   **(B) $g$ is the force that a mass $m$ feels at the surface of Earth:** This is **incorrect**. The force that a mass $m$ feels is $F = mg$ (the weight of the object). $g$ represents the field strength, not the force itself, as the force depends on the magnitude of the specific mass $m$.
+    *   **(C) $g$ is the acceleration of a free body at the surface of Earth:** This is correct. According to Newton's Second Law ($F = ma$) and the definition of weight ($F = mg$), a free-falling body experiences an acceleration of $a = \frac{F}{m} = \frac{mg}{m} = g$.
+    *   **(D) $g$ is the force experienced by a mass of $1\text{ kg}$ at the surface of Earth:** This is correct. If you substitute $m = 1\text{ kg}$ into $F = mg$, you get $F = g$. Thus, $g$ is numerically equal to the gravitational force acting on a unit mass.
+
+Since option (B) confuses the field strength ($g$) with the total gravitational force ($mg$), it is the statement that does not correctly describe the term $g$.
+
+###QUESTION_TYPE
+Multiple choice

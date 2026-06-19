@@ -1,0 +1,25 @@
+To answer this question, we need to apply the principle of **moments** (torque) in physics.
+
+### Answer
+The correct option is **A**.
+
+### Explanation
+The effectiveness of a force applied to a lever is determined by its **torque** ($\tau$), which is calculated using the formula:
+$$\tau = F \cdot d \cdot \sin(\theta)$$
+
+Where:
+*   $F$ is the magnitude of the force applied.
+*   $d$ is the distance from the pivot (fulcrum) to the point where the force is applied.
+*   $\theta$ is the angle between the force vector and the lever arm.
+
+To maximize the torque (which makes lifting the load easier), the worker needs to maximize both the distance ($d$) and the efficiency of the force direction ($\theta$):
+
+1.  **Maximize Distance ($d$):** By pushing at the very end of the bar (farthest from the fulcrum), the worker creates a larger lever arm, which increases the rotational effect for the same amount of effort.
+2.  **Maximize Force Efficiency ($\theta$):** The torque is greatest when the force is applied **perpendicularly** to the lever ($\theta = 90^\circ$), as $\sin(90^\circ) = 1$. If the worker pushes at an angle, only a component of their force contributes to the rotation. Pushing perpendicularly ensures that 100% of the applied force is effectively contributing to lifting the load.
+
+**Why the other options are less effective:**
+*   **B:** Pushing "vertically" only matches "perpendicularly" if the bar is perfectly horizontal. If the bar is at an angle, vertical force is not necessarily perpendicular, meaning some effort is wasted.
+*   **C and D:** Moving closer to the box decreases the distance ($d$), which significantly reduces the torque, making the box feel much heavier to lift.
+
+### QUESTION_TYPE
+Multiple choice

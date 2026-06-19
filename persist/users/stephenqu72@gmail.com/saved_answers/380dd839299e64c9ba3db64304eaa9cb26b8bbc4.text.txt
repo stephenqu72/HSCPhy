@@ -1,0 +1,39 @@
+To solve this problem, we apply **Kepler's Third Law of Planetary Motion**, which states that for planets orbiting the same central star:
+$$\frac{r^3}{T^2} = k$$
+where $r$ is the orbital radius and $T$ is the orbital period. This implies:
+$$\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$$
+
+### (a) Calculate the orbital radius of Dalia
+
+1. **Identify knowns:**
+   - $r_{H} = 6.2 \times 10^8 \text{ m}$
+   - $T_{H} = 4.2 \times 10^4 \text{ s}$
+   - $T_{D} = 8.4 \times 10^4 \text{ s}$
+2. **Set up the ratio:**
+   $$\frac{r_D^3}{T_D^2} = \frac{r_H^3}{T_H^2} \implies r_D^3 = r_H^3 \times \left(\frac{T_D}{T_H}\right)^2$$
+3. **Substitute values:**
+   $$r_D^3 = (6.2 \times 10^8)^3 \times \left(\frac{8.4 \times 10^4}{4.2 \times 10^4}\right)^2$$
+   $$r_D^3 = (6.2 \times 10^8)^3 \times (2)^2 = (6.2 \times 10^8)^3 \times 4$$
+4. **Solve for $r_D$:**
+   $$r_D = (6.2 \times 10^8) \times \sqrt[3]{4} \approx 6.2 \times 10^8 \times 1.587$$
+   $$r_D \approx 9.84 \times 10^8 \text{ m}$$
+
+---
+
+### (b) Compare the gravitational field strength experienced by Hellebore and Protist
+
+The gravitational field strength $g$ experienced by a planet at radius $r$ from the sun is given by:
+$$g = \frac{GM}{r^2}$$
+Since $G$ and $M$ (the sun's mass) are constant, $g$ is inversely proportional to $r^2$ ($g \propto \frac{1}{r^2}$).
+
+1. **Observe the radii:**
+   - $r_H = 6.2 \times 10^8 \text{ m}$
+   - $r_P = 1.56 \times 10^9 = 15.6 \times 10^8 \text{ m}$
+2. **Comparison:**
+   Since $r_P > r_H$, the gravitational field strength experienced by Protist is significantly lower than that experienced by Hellebore.
+3. **Quantitative check:**
+   $$\frac{g_H}{g_P} = \frac{r_P^2}{r_H^2} = \left(\frac{15.6 \times 10^8}{6.2 \times 10^8}\right)^2 \approx (2.516)^2 \approx 6.33$$
+   **Conclusion:** The gravitational field strength at Hellebore is approximately $6.33$ times greater than the gravitational field strength at Protist.
+
+###QUESTION_TYPE
+Calculation question

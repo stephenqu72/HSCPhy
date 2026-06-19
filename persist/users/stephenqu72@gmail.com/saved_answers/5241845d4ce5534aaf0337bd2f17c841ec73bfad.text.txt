@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for gravitational field strength ($g$), which is derived from Newton’s Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+### Step-by-Step Calculation:
+
+1.  **Identify the constants and given values:**
+    *   Universal Gravitational Constant ($G$): $6.674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$
+    *   Mass ($M$): $5.972 \times 10^{24} \text{ kg}$
+    *   Radius ($r$): $6371 \text{ km}$. We must convert this into meters to maintain standard SI units:
+        $r = 6371 \times 10^3 \text{ m} = 6.371 \times 10^6 \text{ m}$
+
+2.  **Substitute the values into the formula:**
+    $$g = \frac{(6.674 \times 10^{-11}) \times (5.972 \times 10^{24})}{(6.371 \times 10^6)^2}$$
+
+3.  **Perform the calculation:**
+    *   Numerator: $(6.674 \times 10^{-11}) \times (5.972 \times 10^{24}) \approx 3.9857 \times 10^{14}$
+    *   Denominator: $(6.371 \times 10^6)^2 \approx 4.059 \times 10^{13}$
+    *   $g = \frac{3.9857 \times 10^{14}}{4.059 \times 10^{13}} \approx 9.819 \text{ m/s}^2$
+
+Rounding this to three significant figures, we get $9.81 \text{ m/s}^2$. This is the standard acceleration due to gravity on Earth.
+
+Comparing this result to the given options:
+a) $6.25 \times 10^{10} \text{ m/s}^2$
+b) $6.25 \times 10^7 \text{ m/s}^2$
+c) $9.81 \times 10^6 \text{ m/s}^2$
+d) $9.81 \text{ m/s}^2$
+
+The correct choice is **d**.
+
+###QUESTION_TYPE
+Multiple choice

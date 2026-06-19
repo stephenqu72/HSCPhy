@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of gravitation for a body of constant density, where the gravitational field strength $g$ follows different rules inside and outside the Earth.
+
+### Part a: Finding the value of Y
+The value $Y$ represents the gravitational field strength at the surface of the Earth ($r = R_E$). This is equivalent to the standard acceleration due to gravity, $g \approx 9.8 \text{ m s}^{-2}$ (or $\text{N kg}^{-1}$).
+**Answer: $9.8 \text{ N kg}^{-1}$**
+
+---
+
+### Part b: Why $g = 0$ at the centre
+At the centre of the Earth, the gravitational field strength is zero because of the shell theorem and symmetry. For a sphere of constant density, any point at a distance $r$ from the centre is only affected by the mass contained *within* a sphere of radius $r$. As $r \to 0$, the enclosed mass $M_{enclosed} \to 0$. Furthermore, at the exact centre, the gravitational pull from the mass of the Earth in every direction is equal and opposite, causing all gravitational force vectors to cancel out.
+
+---
+
+### Part c: Increase in potential energy from centre to surface
+For a sphere of constant density, the gravitational field strength inside the Earth ($r < R_E$) is given by $g(r) = \frac{g_{surface} \cdot r}{R_E}$. 
+The potential energy difference is the work done against the gravitational field:
+$$\Delta U = \int_{0}^{R_E} m \cdot g(r) \, dr = \int_{0}^{R_E} m \frac{g_{surface}}{R_E} \cdot r \, dr$$
+$$\Delta U = \frac{m \cdot g_{surface}}{R_E} \left[ \frac{r^2}{2} \right]_{0}^{R_E} = \frac{m \cdot g_{surface} \cdot R_E}{2}$$
+
+Given $m = 75 \text{ kg}$, $g_{surface} = 9.8 \text{ N kg}^{-1}$, and $R_E = 6.37 \times 10^6 \text{ m}$:
+$$\Delta U = \frac{75 \times 9.8 \times 6.37 \times 10^6}{2}$$
+$$\Delta U \approx 2.34 \times 10^9 \text{ J}$$
+
+---
+
+### How to solve it
+1. **Understand the graph:** Recognize that $Y$ is $g$ at the surface. Use $9.8 \text{ N kg}^{-1}$ as the standard approximation.
+2. **Conceptual reasoning:** For the centre of the Earth, focus on the vector cancellation of forces or the fact that mass enclosed approaches zero.
+3. **Calculations:** Use the area under the $g$ vs $r$ graph to find work/potential energy. Since the inside section is a triangle with base $R_E$ and height $Y$, the average field strength is $\frac{Y}{2}$. The work done is $m \times g_{avg} \times \Delta h$.
+
+###QUESTION_TYPE
+Calculation question

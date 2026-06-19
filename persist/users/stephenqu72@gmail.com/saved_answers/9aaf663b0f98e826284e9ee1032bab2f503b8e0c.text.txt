@@ -1,0 +1,19 @@
+### Answer
+The correct statement is **C**.
+
+### Explanation
+To solve this problem, we must apply the principles of **projectile motion**. When an object is projected horizontally from a bench, its motion can be analyzed by separating it into independent horizontal and vertical components.
+
+1.  **Vertical Motion:** The vertical motion is governed by gravity alone. Since all three balls are rolled off the same height ($h$) with an initial vertical velocity ($u_y$) of $0\text{ m/s}$, the time it takes for each ball to reach the floor is determined only by the vertical displacement and the acceleration due to gravity ($g$). Using the kinematic equation:
+    $$y = u_y t + \frac{1}{2}gt^2$$
+    Since $u_y = 0$, this simplifies to:
+    $$h = \frac{1}{2}gt^2 \implies t = \sqrt{\frac{2h}{g}}$$
+    Because $h$ and $g$ are the same for all three balls, the time $t$ to reach the floor is identical for all of them. This confirms **C** is correct.
+
+2.  **Evaluating other options:**
+    *   **A is incorrect:** As shown above, the time of flight is independent of the horizontal velocity.
+    *   **B is incorrect:** The horizontal range is given by $R = v_x t$. Since each ball has a different horizontal speed ($v_x$), they will cover different horizontal distances before hitting the floor.
+    *   **D is incorrect:** All objects in freefall near the Earth's surface experience the same constant acceleration due to gravity ($g \approx 9.8\text{ m/s}^2$), regardless of their horizontal speed.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+To assess whether these planets obey Kepler’s Third Law, we must check if the ratio $\frac{T^2}{r^3}$ is constant for both planets, where $T$ is the orbital period and $r$ is the orbital radius.
+
+### Calculation
+
+**1. For planet Dra:**
+$$T_1 = 15, \quad r_1 = 9$$
+$$\frac{T_1^2}{r_1^3} = \frac{15^2}{9^3} = \frac{225}{729} \approx 0.3086$$
+
+**2. For planet Groo:**
+$$T_2 = 20, \quad r_2 = 12$$
+$$\frac{T_2^2}{r_2^3} = \frac{20^2}{12^3} = \frac{400}{1728} \approx 0.2315$$
+
+### Conclusion
+Because the ratio $\frac{T^2}{r^3}$ for Dra ($\approx 0.309$) is not equal to the ratio for Groo ($\approx 0.232$), the orbits **do not** conform to Kepler’s Third Law. In a system governed by standard gravitational physics, this constant must be identical for all objects orbiting the same central mass.
+
+---
+
+### How to solve this
+1. **Identify the Law:** Kepler’s Third Law states that the square of the orbital period ($T^2$) is directly proportional to the cube of the average orbital radius ($r^3$) for planets orbiting the same central body. This can be expressed as $\frac{T^2}{r^3} = k$ (a constant).
+2. **Apply the Data:** Extract the values for $T$ and $r$ from the table provided for each planet.
+3. **Perform the Comparison:** Calculate the value of $\frac{T^2}{r^3}$ for each planet independently.
+4. **Evaluate:** If the resulting values are equal, the system obeys Kepler’s Third Law. If they differ, the system violates the law as described.
+
+###QUESTION_TYPE
+Calculation question

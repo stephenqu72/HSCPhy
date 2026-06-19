@@ -1,0 +1,38 @@
+To solve this problem, we apply the principles of electromagnetism and mechanics, specifically relating to Millikan’s oil drop experiment.
+
+### Part (a)
+**Answer:**
+Given:
+- Potential difference $V = 960\text{ V}$
+- Distance $d = 8.0\text{ mm} = 8.0 \times 10^{-3}\text{ m}$
+
+The formula for electric field strength between parallel plates is:
+$$E = \frac{V}{d}$$
+$$E = \frac{960}{8.0 \times 10^{-3}}$$
+$$E = 120,000\text{ V/m} = 1.2 \times 10^5\text{ V/m}$$
+
+**Explanation:** The electric field strength is defined as the potential difference per unit distance. Ensure you convert the distance from millimeters to meters (SI units) before calculating.
+
+---
+
+### Part (b)
+**Answer:**
+To show that the charge $q = \frac{\rho g V_{drop}}{E}$ (where $V_{drop}$ is the volume), we consider the oil drop in equilibrium (suspended) between the plates.
+
+1.  **Identify the forces:** For the drop to be suspended, the upward electric force must balance the downward gravitational force.
+    $$F_{electric} = F_{gravity}$$
+2.  **Substitute the expressions for forces:**
+    - Electric force: $F_{electric} = qE$
+    - Gravitational force: $F_{gravity} = mg$
+    - Therefore: $qE = mg$
+3.  **Relate mass to density:** Since density $\rho = \frac{m}{V_{drop}}$, then the mass $m = \rho V_{drop}$.
+4.  **Substitute mass into the equilibrium equation:**
+    $$qE = (\rho V_{drop})g$$
+5.  **Rearrange for charge $q$:**
+    $$q = \frac{\rho g V_{drop}}{E}$$
+*(Note: $V$ in the prompt's requested formula represents the volume of the drop, which I have denoted as $V_{drop}$ to avoid confusion with the potential difference $V$ used in part (a)).*
+
+**Explanation:** This derivation requires identifying the equilibrium state where the net force is zero. By equating the upward electric force to the weight of the drop and substituting the definition of mass using density and volume, we arrive at the required expression.
+
+###QUESTION_TYPE
+Calculation question

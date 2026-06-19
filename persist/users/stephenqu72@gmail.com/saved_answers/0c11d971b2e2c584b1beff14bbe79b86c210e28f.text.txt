@@ -1,0 +1,30 @@
+To solve this problem, we use **Kepler’s Third Law of Planetary Motion**, which states that the square of the orbital period $T$ of a planet is directly proportional to the cube of the semi-major axis (in this case, the orbital radius $r$) of its orbit:
+
+$$T^2 \propto r^3$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship:**
+    For two objects orbiting the same central star, the ratio of their periods and radii can be expressed as:
+    $$\frac{T_X^2}{T_Y^2} = \frac{r_X^3}{r_Y^3}$$
+
+2.  **Substitute the given values:**
+    We are given that the radius of planet X is $r_X = R$ and the radius of planet Y is $r_Y = 9R$.
+    $$\frac{T_X^2}{T_Y^2} = \frac{R^3}{(9R)^3}$$
+
+3.  **Perform the calculation:**
+    $$\frac{T_X^2}{T_Y^2} = \frac{R^3}{729R^3}$$
+    $$\frac{T_X^2}{T_Y^2} = \frac{1}{729}$$
+
+4.  **Find the ratio of the periods:**
+    Take the square root of both sides to solve for the ratio of $T_X : T_Y$:
+    $$\frac{T_X}{T_Y} = \sqrt{\frac{1}{729}}$$
+    $$\frac{T_X}{T_Y} = \frac{1}{27}$$
+
+The ratio of their orbital periods $T_X : T_Y$ is $1 : 27$.
+
+Comparing this result to the given options:
+**The correct answer is C.**
+
+###QUESTION_TYPE
+Multiple choice

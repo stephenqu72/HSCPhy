@@ -1,0 +1,24 @@
+To determine the mass of a central star using the orbital characteristics of an orbiting planet, we apply **Kepler’s Third Law of Planetary Motion** as derived from Newton’s Law of Universal Gravitation.
+
+### The Solution
+The correct answer is **D**.
+
+### Explanation
+Kepler’s Third Law states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis (orbital radius, $r$) of its orbit. Mathematically, for a planet of mass $m$ orbiting a star of mass $M$ (where $M \gg m$), the relationship is given by:
+
+$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+
+Where:
+- $T$ is the orbital period.
+- $r$ is the orbital radius.
+- $G$ is the gravitational constant.
+- $M$ is the mass of the central star.
+
+To solve for the mass of the star ($M$), we rearrange the equation:
+
+$$M = \frac{4\pi^2 r^3}{G T^2}$$
+
+As shown in this formula, to calculate the central star's mass ($M$), one must know the values for the orbital radius ($r$) and the orbital period ($T$). The mass of the planet itself is negligible in this calculation because it is so much smaller than the mass of the star. Therefore, option **D** provides the necessary variables to satisfy the equation.
+
+###QUESTION_TYPE
+Multiple choice

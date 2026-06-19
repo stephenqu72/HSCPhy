@@ -1,0 +1,28 @@
+To determine the correct graph, we must look at the mathematical relationship between gravitational field strength ($g$) and the distance from the centre of a planet ($r$).
+
+### Physics Explanation
+The gravitational field strength $g$ at a distance $r$ from the centre of a spherical mass $M$ is given by Newton’s Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $r$ is the distance from the centre of the planet.
+
+From this formula, we can see that $g$ is inversely proportional to the square of the distance ($g \propto \frac{1}{r^2}$). 
+
+*   As $r$ increases, $g$ must decrease rapidly.
+*   As $r$ approaches zero, $g$ approaches infinity.
+*   As $r$ approaches infinity, $g$ approaches zero (the graph approaches the x-axis as an asymptote).
+
+Looking at the options:
+*   **Graph A** shows an inverse relationship where $g$ decreases as $r$ increases, starting from a high value and flattening out towards zero. This is the characteristic shape of an inverse-square law $y = \frac{1}{x^2}$.
+*   **Graph B** shows $g$ increasing as $r$ increases, which is incorrect.
+*   **Graph C** shows exponential growth, which is incorrect.
+*   **Graph D** shows a linear relationship, which is incorrect as it does not account for the inverse-square dependency.
+
+Therefore, **Graph A** is the correct representation.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,22 @@
+To determine the correct answer, we must apply **Kepler’s Second Law** and the principle of **Conservation of Mechanical Energy**.
+
+### Explanation
+
+1.  **Kepler’s Second Law:** A line segment joining a planet and the Sun (or in this case, a satellite and the Earth) sweeps out equal areas during equal intervals of time. This implies that the satellite must move faster when it is closer to the central body and slower when it is further away.
+2.  **Conservation of Mechanical Energy:** The total mechanical energy $E$ of the satellite is the sum of its kinetic energy ($K = \frac{1}{2}mv^2$) and gravitational potential energy ($U = -\frac{GMm}{r}$).
+    *   As the satellite moves from $P$ to $Q$, the distance $r$ from the Earth decreases.
+    *   Because the potential energy $U$ becomes more negative (decreases) as $r$ decreases, the kinetic energy $K$ must increase to keep the total energy constant. Thus, the orbital speed increases.
+    *   As the satellite moves from $Q$ to $R$, the distance $r$ from the Earth increases.
+    *   As the gravitational potential energy $U$ increases (becomes less negative), the kinetic energy $K$ must decrease to compensate. Thus, the orbital speed decreases.
+
+Point $Q$ is the **perigee** (the point closest to Earth), where the satellite reaches its maximum speed. Points $P$ and $R$ are further away from the Earth, so the speed is lower at these positions.
+
+*   **From $P$ to $Q$:** The satellite is approaching perigee, so speed **increases**.
+*   **From $Q$ to $R$:** The satellite is moving away from perigee toward the apoapsis, so speed **decreases**.
+
+Comparing this to the provided options, row **B** correctly describes these changes.
+
+**Correct Answer: B**
+
+###QUESTION_TYPE
+Multiple choice

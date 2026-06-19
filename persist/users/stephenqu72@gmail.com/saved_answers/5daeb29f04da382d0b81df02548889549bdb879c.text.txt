@@ -1,0 +1,27 @@
+To determine the ratio of the orbital speeds of the two satellites, we look at the physics of circular motion in a gravitational field.
+
+### Answer
+The correct option is **A. $X:Y = 1:1$**.
+
+### Explanation
+To solve this, we use the formula for the orbital speed ($v$) of a satellite orbiting a central body of mass $M$ at a radius $r$ from the centre of that body.
+
+1.  **Derivation of Orbital Speed:**
+    The centripetal force required to keep the satellite in orbit is provided by the gravitational force:
+    $$F_c = F_g$$
+    $$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+    where $m$ is the mass of the satellite, $M$ is the mass of the Earth, $G$ is the gravitational constant, and $r$ is the orbital radius.
+
+2.  **Simplify the Equation:**
+    Notice that the mass of the satellite ($m$) appears on both sides of the equation and therefore cancels out:
+    $$\frac{v^2}{r} = \frac{GM}{r^2}$$
+    $$v^2 = \frac{GM}{r}$$
+    $$v = \sqrt{\frac{GM}{r}}$$
+
+3.  **Conclusion:**
+    The orbital speed depends only on the gravitational constant $G$, the mass of the central body $M$, and the orbital radius $r$. It is **independent of the mass of the satellite ($m$)**.
+
+Since both satellites are in the "same Low Earth Orbit," they share the same orbital radius $r$. Because the speed does not depend on the mass of the satellite, both satellite $X$ and satellite $Y$ must travel at the same speed regardless of their mass. Therefore, the ratio of their speeds is $1:1$.
+
+###QUESTION_TYPE
+Multiple choice

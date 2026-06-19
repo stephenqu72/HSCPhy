@@ -1,0 +1,19 @@
+Hello! As your HSC Physics teacher, I am happy to help you break down this projectile motion problem.
+
+### Answer
+The correct statement is **(A) The velocity of the ball keeps changing.**
+
+---
+
+### Explanation
+To solve this, we must consider the principles of projectile motion in the absence of air resistance:
+
+1.  **Velocity is a vector quantity:** Velocity includes both magnitude (speed) and direction. Because the ball is moving in a curved path, its direction is constantly changing at every point. Furthermore, gravity causes the vertical component of the velocity to decrease on the way up and increase on the way down. Therefore, the velocity is changing throughout the entire flight. This makes **(A) true**.
+2.  **Acceleration is constant:** In projectile motion, the only force acting on the object (ignoring air resistance) is gravity. According to Newton's Second Law ($F = ma$), the acceleration due to gravity ($g \approx 9.8 \text{ m/s}^2$) is constant and directed downwards throughout the flight. This makes **(B) false**.
+3.  **Velocity at the peak:** At the very top of the trajectory, the *vertical* component of velocity is zero. However, the *horizontal* component of velocity ($v_x$) remains constant throughout the entire path. Since $v_{total} = \sqrt{v_x^2 + v_y^2}$, the velocity at the top is equal to the horizontal velocity ($v_x \neq 0$). This makes **(C) false**.
+4.  **Acceleration at the peak:** Even at the peak, gravity is still acting on the ball. If the acceleration were zero, the ball would stop moving or travel in a straight line at a constant speed, which clearly does not happen. The acceleration remains $9.8 \text{ m/s}^2$ downwards. This makes **(D) false**.
+
+By analyzing each statement against the fundamental laws of kinematics, we confirm that (A) is the only physically correct description.
+
+###QUESTION_TYPE
+Multiple choice

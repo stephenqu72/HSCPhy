@@ -1,0 +1,18 @@
+To solve this projectile motion problem, we must analyze the forces acting on the cannonball once it is in flight (ignoring air resistance).
+
+### Analysis:
+
+1.  **Horizontal Component ($v_x$):** Since there are no horizontal forces acting on the cannonball after it is fired, there is no horizontal acceleration ($a_x = 0$). Therefore, the horizontal velocity must remain constant throughout the entire flight. This means the graph for $v_x$ versus $t$ must be a horizontal straight line.
+2.  **Vertical Component ($v_y$):** The only force acting on the cannonball is gravity, which acts downwards. This creates a constant downward acceleration ($a_y = -g$). According to the kinematic equation $v_y = u_y + a_y t$, the velocity changes linearly with time.
+    *   Initially, the cannonball has a positive upward velocity.
+    *   As gravity acts on it, this velocity decreases at a constant rate until it hits zero (at the peak of the trajectory).
+    *   The velocity then becomes increasingly negative as the cannonball falls back down.
+    *   Therefore, the graph for $v_y$ versus $t$ must be a straight line with a constant negative slope.
+
+### Conclusion:
+*   Graph **B** shows a constant horizontal velocity (a horizontal line) and a vertical velocity that starts positive, decreases linearly, crosses zero, and becomes negative. This perfectly matches the physical behavior of a projectile.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

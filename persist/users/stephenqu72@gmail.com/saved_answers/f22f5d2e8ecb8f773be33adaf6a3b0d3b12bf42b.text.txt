@@ -1,0 +1,30 @@
+To solve this problem, we need to calculate the angular velocity ($\omega$) of the rotating mirror assembly used in the experiment to measure the speed of light.
+
+### Step-by-Step Explanation:
+
+**1. Identify the physical constants and variables:**
+*   Distance to the reflecting mirror ($d$): $35\,420\text{ m}$
+*   Total distance traveled by the light ($2d$): $2 \times 35\,420 = 70\,840\text{ m}$
+*   Speed of light ($c$): $299\,796\text{ km/s} = 299\,796\,000\text{ m/s}$
+*   Mirror geometry: It is an 8-sided mirror. For the reflected beam to be in the correct position to be seen by the observer, the mirror must rotate by $1/8$ of a turn in the time it takes for the light to travel to the distant mirror and back.
+
+**2. Calculate the time ($t$):**
+The time taken for light to travel the round trip is given by:
+$$t = \frac{\text{Total Distance}}{c} = \frac{70\,840}{299\,796\,000} \approx 2.36294 \times 10^{-4}\text{ s}$$
+
+**3. Calculate the angular displacement ($\theta$):**
+A full rotation is $2\pi$ radians. The mirror rotates by $1/8$ of a turn:
+$$\theta = \frac{1}{8} \times 2\pi = \frac{\pi}{4} \text{ radians} \approx 0.7854 \text{ rad}$$
+
+**4. Calculate the angular velocity ($\omega$):**
+Angular velocity is defined as the angular displacement divided by the time taken:
+$$\omega = \frac{\theta}{t}$$
+$$\omega = \frac{\pi / 4}{2.36294 \times 10^{-4}} \approx \frac{0.785398}{0.000236294} \approx 3323.8 \text{ rad/s}$$
+
+Comparing our result to the given options, **3324** is the closest value to **(A) 3321** (the slight difference is due to rounding constants in the standard Michelson-style calculation).
+
+### Answer:
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

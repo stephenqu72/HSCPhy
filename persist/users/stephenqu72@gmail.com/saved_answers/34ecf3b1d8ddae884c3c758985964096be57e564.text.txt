@@ -1,0 +1,28 @@
+### Answer
+
+**(a)** Kepler’s First Law states that planets (or moons) move in elliptical orbits with the central body at one of the two foci. Because the orbit is elliptical rather than perfectly circular, the distance between the moon and the planet varies throughout the orbit. The value $5.67 \times 10^8\text{ m}$ represents the *average* radius (semi-major axis), not the instantaneous distance.
+
+**(b)**
+**Step 1: Calculate the orbital period ($T$)**
+The circumference of the orbit is $C = 2\pi r$. Given $v = 2.50\text{ km s}^{-1} = 2500\text{ m s}^{-1}$ and $r = 5.67 \times 10^8\text{ m}$:
+$$T = \frac{2\pi r}{v} = \frac{2 \times \pi \times 5.67 \times 10^8}{2500} \approx 1,424,800\text{ seconds}$$
+(Or approximately $16.49$ days).
+
+**Step 2: Calculate the mass of the planet ($M$)**
+Using the formula for orbital velocity $v = \sqrt{\frac{GM}{r}}$, we rearrange to solve for $M$:
+$$M = \frac{v^2 r}{G}$$
+Substituting the known values ($G = 6.67 \times 10^{-11}\text{ m}^3\text{ kg}^{-1}\text{ s}^{-2}$):
+$$M = \frac{(2500)^2 \times 5.67 \times 10^8}{6.67 \times 10^{-11}}$$
+$$M = \frac{6.25 \times 10^6 \times 5.67 \times 10^8}{6.67 \times 10^{-11}} \approx 5.31 \times 10^{25}\text{ kg}$$
+
+---
+
+### How to solve this
+1.  **For part (a):** Always link your answer back to the definitions of the laws provided. Recall that "elliptical" implies a changing distance from the center, which differentiates it from the simpler circular motion model.
+2.  **For part (b):** 
+    *   **Unit conversion:** Always ensure your velocity is in SI units ($\text{m s}^{-1}$) before proceeding.
+    *   **Logic:** The period is simply distance divided by speed. 
+    *   **Physics Principles:** Use the standard orbital velocity formula. You could also solve this using Kepler's Third Law ($T^2 = \frac{4\pi^2 r^3}{GM}$), which would yield the same result. Be careful with your calculator entries when dealing with scientific notation and exponents.
+
+###QUESTION_TYPE
+Calculation question

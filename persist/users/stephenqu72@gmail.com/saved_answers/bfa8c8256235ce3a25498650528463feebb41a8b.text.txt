@@ -1,0 +1,46 @@
+This is a classic HSC Physics experiment analysis question. Let's break it down step-by-step.
+
+---
+
+### Part a: Variables
+*   **Controlled:** These are variables kept constant to ensure a fair test. Examples: launch speed ($u$), mass of the tennis ball ($56\text{ g}$), or the location of the oval.
+*   **Dependent:** The variable being measured as the outcome. This is the **range ($R$)**.
+*   **Independent:** The variable changed intentionally by the experimenter. This is the **launch angle ($\theta$)**.
+
+---
+
+### Part b: Graphing
+To solve this:
+1.  **Axes:** Place "launch angle ($\theta$)" on the x-axis (range 0–90°) and "range ($R$)" on the y-axis (range 0–45m).
+2.  **Plotting:** Mark the points from Table 1 accurately.
+3.  **Uncertainty:** For any three points (e.g., at $30^\circ$, $40^\circ$, $50^\circ$), draw a vertical line through the point extending $1\text{m}$ above and below the plotted value to represent the $\pm 1\text{m}$ uncertainty.
+4.  **Curve of Best Fit:** Draw a smooth, symmetrical arc (parabolic shape) that passes as close as possible to all points, acknowledging the uncertainty.
+
+---
+
+### Part c: Estimation
+Looking at the data in Table 1, the range values are 40m at both $40^\circ$ and $50^\circ$. A smooth curve would peak between these two.
+*   **Maximum range:** Approximately $40.5\text{ m}$ to $41\text{ m}$.
+*   **Angle for maximum range:** Approximately $45^\circ$.
+
+---
+
+### Part d: Theoretical Comparison
+**i. Calculation:**
+Using the formula $R = \frac{u^2 \sin 2\theta}{g}$:
+*   $u = 25\text{ m/s}$
+*   $\theta = 30^\circ \rightarrow 2\theta = 60^\circ$
+*   $g = 9.8\text{ m/s}^2$
+
+$$R = \frac{25^2 \times \sin(60^\circ)}{9.8}$$
+$$R = \frac{625 \times 0.866}{9.8} \approx 55.23\text{ m}$$
+
+**ii. Evaluation:**
+Compare the theoretical range ($55.2\text{ m}$) to the experimental range at $30^\circ$ ($37\text{ m}$).
+*   **Verdict:** Air resistance **cannot** be ignored.
+*   **Justification:** The experimental range is significantly lower than the theoretical range. Because the experimental value is much smaller than the value calculated without air resistance, it indicates that drag forces are acting on the tennis ball throughout its flight, reducing its horizontal velocity and therefore its range.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

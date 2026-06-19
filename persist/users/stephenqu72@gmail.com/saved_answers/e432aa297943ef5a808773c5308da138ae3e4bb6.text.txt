@@ -1,0 +1,27 @@
+To determine which situation results in the smallest escape velocity, we must look at the mathematical formula for escape velocity ($v_e$):
+
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+- $G$ is the gravitational constant.
+- $M$ is the mass of the planet or object being launched from.
+- $r$ is the distance from the center of the mass to the launch point.
+
+### Analysis of options:
+
+*   **(A) Launching from a 10km high mountain:** Here, $r$ is slightly larger than the radius of Earth ($R_E$). Since $v_e$ is inversely proportional to $\sqrt{r}$, an increase in $r$ decreases the escape velocity, but only by a very small, negligible amount compared to the other options.
+*   **(B) Launching from the bottom of a mine shaft:** Here, $r$ is smaller than $R_E$. A smaller $r$ increases the denominator, leading to a higher escape velocity compared to the surface.
+*   **(C) Launching from a planet with half the radius ($r = 0.5R_E$) and same mass ($M$):**
+    $$v_e = \sqrt{\frac{2GM}{0.5R_E}} = \sqrt{2} \times \sqrt{\frac{2GM}{R_E}}$$
+    This would result in a higher escape velocity than Earth.
+*   **(D) Launching from a planet with twice the radius ($r = 2R_E$) and same mass ($M$):**
+    $$v_e = \sqrt{\frac{2GM}{2R_E}} = \frac{1}{\sqrt{2}} \times \sqrt{\frac{2GM}{R_E}}$$
+    Because the radius in the denominator is doubled, the escape velocity is reduced by a factor of $\sqrt{2} \approx 1.41$.
+
+### Conclusion:
+By comparing the variables, increasing the radius ($r$) while keeping the mass ($M$) constant is the most effective way to decrease the escape velocity. Option (D) provides the largest increase in the radius, thus resulting in the lowest required velocity to escape the gravitational pull.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

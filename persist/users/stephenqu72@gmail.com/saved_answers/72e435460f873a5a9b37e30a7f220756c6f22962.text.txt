@@ -1,0 +1,36 @@
+To solve this problem, we rely on the core principles of projectile motion: horizontal velocity ($v_x$) remains constant, and vertical motion is subject to uniform acceleration ($g = 9.8\text{ m s}^{-2}$).
+
+The total time of flight is $4\text{ s}$ and the total horizontal range is $36\text{ m}$ (as indicated by the final point on the x-axis).
+
+### (a) Horizontal component of velocity
+Since horizontal velocity is constant:
+$$v_x = \frac{\Delta x}{\Delta t} = \frac{36\text{ m}}{4\text{ s}} = 9\text{ m s}^{-1}$$
+The horizontal component remains constant throughout the flight, including immediately before impact.
+**Answer: $9\text{ m s}^{-1}$**
+
+### (b) Vertical component of initial velocity ($u_y$)
+The projectile reaches its maximum height when $v_y = 0$. The problem states this occurs at a horizontal distance of $18\text{ m}$.
+Since $v_x = 9\text{ m s}^{-1}$, the time taken to reach the peak is:
+$$t = \frac{18\text{ m}}{9\text{ m s}^{-1}} = 2\text{ s}$$
+Using the equation of motion $v_y = u_y + a_y t$ at the peak (where $v_y = 0$):
+$$0 = u_y + (-9.8\text{ m s}^{-2})(2\text{ s})$$
+$$u_y = 19.6\text{ m s}^{-1}$$
+**Answer: $19.6\text{ m s}^{-1}$**
+
+### (c) Angle to the horizontal ($\theta$)
+The angle is found using the relationship between the horizontal and vertical velocity components:
+$$\tan(\theta) = \frac{u_y}{v_x}$$
+$$\tan(\theta) = \frac{19.6}{9}$$
+$$\theta = \arctan(2.177...) \approx 65.3^\circ$$
+**Answer: $65.3^\circ$**
+
+---
+
+### How to solve it:
+1. **Identify constants:** Recognize that horizontal velocity $v_x$ is constant because there is no air resistance. Use the total range and total time to find it.
+2. **Use symmetry/kinematics:** Identify that the peak height corresponds to $v_y = 0$. Use the horizontal distance to that peak and the constant $v_x$ to determine the time to reach the peak.
+3. **Apply kinematic equations:** Use $v = u + at$ to find the initial vertical velocity.
+4. **Trigonometry:** Use the inverse tangent function with the determined velocity components to find the launch angle.
+
+###QUESTION_TYPE
+Calculation question

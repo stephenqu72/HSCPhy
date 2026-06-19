@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(D) Both experiments confirm Newton's second law of motion.**
+
+---
+
+### Explanation
+To solve this problem, we must apply the **Principle of Relativity**, a cornerstone of both Classical Mechanics and Special Relativity.
+
+1.  **Understanding the Principle of Relativity:** The principle states that the laws of physics (including Newton’s laws of motion) are identical in all inertial frames of reference. 
+    *   **Carriage A:** Is moving at a constant velocity of $0.75c$. Even though this is a relativistic speed, the carriage is in an inertial frame of reference. Because there is no acceleration, Newton's laws hold true exactly as they do for an observer on Earth.
+    *   **Carriage B:** Is moving at $20\text{ m s}^{-1}$ and slowing down. This is a non-inertial frame because it is accelerating (decelerating). However, Newton's second law, $F_{net} = ma$, is precisely the tool used to analyze and "confirm" the motion of objects within a non-inertial frame—provided we account for the net force applied. 
+
+2.  **Addressing "Windowless":** The fact that the carriages are "windowless" reinforces the idea that there is no absolute reference frame. The students cannot distinguish between "being at rest" and "moving at a constant velocity" (Carriage A) without looking outside. However, they *can* perform local experiments (like measuring the force required to accelerate an object) to confirm that the relationship $F = ma$ remains consistent in their respective environments.
+
+3.  **Conclusion:** Newton's second law is valid in all inertial frames (Carriage A). Furthermore, while Carriage B is accelerating, Newton’s second law describes the relationship between force, mass, and acceleration in that frame as well. Therefore, both students will successfully observe that $F = ma$ holds within their experimental setup.
+
+###QUESTION_TYPE
+Multiple choice

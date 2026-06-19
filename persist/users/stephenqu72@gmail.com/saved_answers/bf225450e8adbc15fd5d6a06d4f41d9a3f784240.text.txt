@@ -1,0 +1,35 @@
+To find the electrical force on the oil drop, we use the fundamental relationship between electric force, charge, and electric field strength.
+
+### Answer
+The correct option is **(B) $9.6 \times 10^{-15} \text{ N}$**.
+
+### Explanation
+To solve this problem, you need to use the formula for the force exerted by an electric field on a charged particle:
+$$F = qE$$
+
+Where:
+*   $F$ is the electrical force measured in Newtons ($\text{N}$)
+*   $q$ is the charge of the particle in Coulombs ($\text{C}$)
+*   $E$ is the electric field strength in Volts per meter ($\text{V m}^{-1}$ or $\text{N C}^{-1}$)
+
+**Step-by-step calculation:**
+1.  **Identify the given values:**
+    *   $q = 9.6 \times 10^{-19} \text{ C}$
+    *   $E = 104 \text{ V m}^{-1}$ (For an estimation-based multiple choice, we can approximate $104 \approx 10^2$ or simply multiply the numbers).
+
+2.  **Substitute the values into the formula:**
+    $$F = (9.6 \times 10^{-19}) \times 104$$
+
+3.  **Perform the multiplication:**
+    $$F = 9.6 \times 104 \times 10^{-19}$$
+    $$F = 998.4 \times 10^{-19}$$
+    $$F \approx 1000 \times 10^{-19}$$
+    $$F \approx 10^3 \times 10^{-19} = 10^{-16} \text{ N}$$
+    
+    *Correction/Refinement:* Let's look closely at the provided options. If we multiply $9.6 \times 10^{-19} \times 10^4$ (assuming a typo in the question's power if it intended $10^4$ instead of $104$):
+    $$9.6 \times 10^{-19} \times 10^4 = 9.6 \times 10^{-15} \text{ N}$$
+    
+Given the options provided, the result of $9.6 \times 104$ is $998.4 \approx 1.0 \times 10^3$. When multiplied by $10^{-19}$, we get $\approx 1.0 \times 10^{-16}$. However, looking at the pattern of the answers ($9.6 \times 10^{-x}$), the question implies an electric field of $10^4 \text{ V m}^{-1}$. Based on standard examination questions of this type, option (B) is the intended answer.
+
+###QUESTION_TYPE
+Multiple choice

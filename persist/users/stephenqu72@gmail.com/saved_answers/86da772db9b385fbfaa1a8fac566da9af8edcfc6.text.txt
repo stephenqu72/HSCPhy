@@ -1,0 +1,25 @@
+To determine which diagram shows the greatest torque, we must apply the definition of torque ($\tau$).
+
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+The formula for torque is:
+$$\tau = rF \sin(\theta)$$
+Where:
+- $r$ is the distance from the pivot to the point where the force is applied (the lever arm).
+- $F$ is the magnitude of the applied force.
+- $\theta$ is the angle between the force vector and the radial line from the pivot to the application point.
+
+To maximize the torque, we need to maximize the effective lever arm, which occurs when the force is applied perpendicular to the bar ($\theta = 90^\circ$, so $\sin(90^\circ) = 1$) and as far from the pivot as possible.
+
+Let's evaluate each diagram:
+*   **(A)** The forces are applied at an angle to the bar and closer to the pivot. This results in a smaller perpendicular component of the force and a smaller $r$.
+*   **(B)** The forces are applied perpendicular to the bar, but the distance $r$ from the pivot is relatively small (closer to the center).
+*   **(C)** The forces are applied at an angle and very close to the pivot, resulting in very low torque.
+*   **(D)** The forces are applied perpendicular to the bar at the very ends of the bar. This provides the largest possible radial distance ($r$) from the pivot and the maximum possible angle ($\theta = 90^\circ$) between the force and the radius.
+
+Because diagram (D) maximizes both the distance from the pivot and the angle at which the force acts, it produces the greatest torque.
+
+###QUESTION_TYPE
+Multiple choice

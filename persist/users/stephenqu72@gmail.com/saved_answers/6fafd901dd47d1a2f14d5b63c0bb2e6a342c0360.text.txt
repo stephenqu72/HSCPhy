@@ -1,0 +1,24 @@
+To determine the acceleration due to gravity ($g$) without a stopwatch, we must use the kinematics of projectile motion to express $g$ solely in terms of measurable distances.
+
+### Method: Horizontal Launch from a Bench
+1. **Setup:** Place the ball launcher at the edge of a laboratory bench of measured height $h$. Ensure the launcher is perfectly horizontal so that the initial vertical velocity $u_y = 0$.
+2. **Measurement:** Launch the ball bearing horizontally with initial velocity $u_x = 7.8\text{ ms}^{-1}$. Use a metre ruler or tape measure to find the horizontal displacement $R$ (range) from the base of the bench to where the ball hits the floor. Measure the vertical height $h$ of the bench from the floor.
+3. **Derivation:** 
+   *   Vertical motion: $h = u_y t + \frac{1}{2}gt^2$. Since $u_y = 0$, this simplifies to $h = \frac{1}{2}gt^2$, so $t = \sqrt{\frac{2h}{g}}$.
+   *   Horizontal motion: $R = u_x t$. Substituting the expression for $t$: $R = u_x \sqrt{\frac{2h}{g}}$.
+   *   Rearranging for $g$: 
+       $$R^2 = u_x^2 \left( \frac{2h}{g} \right) \implies g = \frac{2h u_x^2}{R^2}$$
+4. **Calculation:** Substitute the known $u_x = 7.8\text{ ms}^{-1}$ and the measured values for $h$ and $R$ into the formula to calculate $g$.
+5. **Accuracy:** Repeat the measurement multiple times to calculate an average $R$ to account for random error.
+
+### How to solve this type of question
+*   **Identify the constraints:** The absence of a timing device is the key constraint. This forces you to eliminate time ($t$) from the kinematic equations by equating the time of flight for both vertical and horizontal components.
+*   **Select the model:** A horizontal launch from a known height is the simplest case because the initial vertical velocity is zero, which simplifies the math significantly.
+*   **Structure the response:** As this is a 5-mark question, you must provide:
+    *   A clear experimental procedure.
+    *   Measurements required.
+    *   The relevant physics formula.
+    *   The algebraic derivation to isolate $g$.
+
+###QUESTION_TYPE
+Experimental questions

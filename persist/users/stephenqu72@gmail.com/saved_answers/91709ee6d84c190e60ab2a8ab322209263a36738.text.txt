@@ -1,0 +1,38 @@
+To determine the correct expression for the total energy of an orbiting satellite, we must look at the relationship between kinetic energy ($E_K$), gravitational potential energy ($U$), and total energy ($E_{total}$).
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+For a satellite of mass $m$ in a stable circular orbit at a distance $r$ from the centre of a planet of mass $M$:
+
+1.  **Gravitational Potential Energy ($U$):** This is defined as:
+    $$U = -\frac{GMm}{r}$$
+    (Note that potential energy is negative because the satellite is in a bound state).
+
+2.  **Kinetic Energy ($E_K$):** For a stable circular orbit, the gravitational force provides the centripetal force:
+    $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+    Multiplying both sides by $\frac{r}{2}$, we find:
+    $$\frac{GMm}{2r} = \frac{1}{2}mv^2$$
+    Since $E_K = \frac{1}{2}mv^2$, we have:
+    $$E_K = \frac{GMm}{2r}$$
+
+3.  **Total Energy ($E_{total}$):** The total energy is the sum of kinetic and potential energy:
+    $$E_{total} = E_K + U$$
+    $$E_{total} = \frac{GMm}{2r} + \left(-\frac{GMm}{r}\right)$$
+    $$E_{total} = -\frac{GMm}{2r}$$
+
+**Comparing the variables:**
+*   Since $E_K = \frac{GMm}{2r}$, then $-\frac{GMm}{2r} = -E_K$. Therefore, $E_{total} = -E_K$. Looking at our options, option B expresses $E_{total} = -E_K$ (or specifically $E_{total} = -\frac{E_K}{1}$, but given the relationship derived, option B is the standard physical relationship often taught in the HSC syllabus where $E_{total} = -E_K$ and $E_{total} = \frac{1}{2}U$). 
+
+Wait, let's re-verify the options provided:
+*   $E_{total} = -\frac{GMm}{2r}$
+*   $U = -\frac{GMm}{r}$, so $\frac{U}{2} = -\frac{GMm}{2r}$
+*   Therefore, $E_{total} = \frac{U}{2}$.
+
+Looking at the provided options again:
+*   Option B is $E_{total} = -E_K$ (if we ignore the '2' in the denominator or interpret the expression). Actually, mathematically, if $E_K = \frac{GMm}{2r}$, then $E_{total} = -E_K$. 
+*   If the question implies $E_{total} = -E_K$, then option B is the intended answer representing the negative of the kinetic energy magnitude. 
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,8 @@
+### Front
+For two projectiles with the same horizontal range, how do their initial velocity components compare if one reaches a greater height?
+
+### Back
+- Key idea: Height depends on vertical velocity ($v_y$); time of flight depends on $v_y$; range depends on both $v_x$ and time.
+- Formula / law / constant / figure: $h = \frac{v_y^2}{2g}$ and $R = v_x \times (\frac{2v_y}{g})$.
+- When to use it: Projectile motion problems involving comparisons of trajectories with identical ranges but different peak heights.
+- Common trap: Assuming higher altitude implies a higher initial velocity overall; remember that if range is fixed, a larger $v_y$ (higher flight time) requires a smaller $v_x$ to maintain the same displacement.

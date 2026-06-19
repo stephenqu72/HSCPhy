@@ -1,0 +1,25 @@
+To solve this problem, we must analyze the physics of circular satellite motion under the influence of gravity. Let $r$ be the orbital radius (distance from the center of the Earth). From the diagram, we can see that satellite $A$ is closer to the Earth than satellite $B$, meaning $r_A < r_B$.
+
+### 1. Orbital Velocity ($v$)
+The orbital velocity is derived by equating the gravitational force to the centripetal force:
+$$\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v = \sqrt{\frac{GM}{r}}$$
+Since $v \propto \frac{1}{\sqrt{r}}$, a smaller radius results in a higher velocity. Because $r_A < r_B$, **$A$ has a greater orbital velocity than $B$**.
+
+### 2. Orbital Period ($T$)
+Using Kepler's Third Law, $T^2 \propto r^3$, or $T \propto \sqrt{r^3}$.
+Because $r_A < r_B$, it follows that $T_A < T_B$. Therefore, **$B$ has a greater orbital period than $A$**.
+
+### 3. Centripetal Acceleration ($a_c$)
+The centripetal acceleration for an orbiting body is provided by gravity:
+$$a_c = \frac{GM}{r^2}$$
+Since $a_c \propto \frac{1}{r^2}$, a smaller radius results in a larger acceleration. Because $r_A < r_B$, **$A$ has a greater centripetal acceleration than $B$**.
+
+### Summary of Comparisons:
+*   **Orbital velocity:** $A > B$
+*   **Orbital period:** $B > A$
+*   **Centripetal acceleration:** $A > B$
+
+Comparing these results with the given options, we find that option **(D)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

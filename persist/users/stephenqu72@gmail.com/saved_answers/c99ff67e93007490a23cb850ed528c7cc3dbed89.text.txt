@@ -1,0 +1,31 @@
+To solve this problem, we must analyze the physics of a vehicle on a banked track without friction.
+
+### 1. The Physics Analysis
+When a car moves around a banked curve of radius $r$ at a velocity $v$ without needing friction, the horizontal component of the normal force ($N$) must provide the necessary centripetal force.
+
+*   **Vertical equilibrium:** The vertical component of the normal force balances the weight of the car:
+    $$N \cos \theta = mg \implies N = \frac{mg}{\cos \theta}$$
+*   **Horizontal motion:** The horizontal component of the normal force provides the centripetal force:
+    $$N \sin \theta = \frac{mv^2}{r}$$
+
+By substituting the expression for $N$ into the second equation:
+$$\left( \frac{mg}{\cos \theta} \right) \sin \theta = \frac{mv^2}{r}$$
+$$mg \tan \theta = \frac{mv^2}{r}$$
+$$v^2 = rg \tan \theta$$
+$$v = \sqrt{rg \tan \theta}$$
+
+### 2. Interpreting the Graph
+We are looking for the relationship between $v$ (on the vertical axis) and $\theta$ (on the horizontal axis). Since $r$ and $g$ are constant, we have $v \propto \sqrt{\tan \theta}$.
+
+*   When $\theta = 0^\circ$, $\tan(0) = 0$, so $v = 0$.
+*   As $\theta$ increases toward $90^\circ$, $\tan \theta$ increases at an accelerating rate (the slope of the tangent function gets steeper).
+*   The square root function generally "flattens" a curve, but because the tangent function grows to infinity at $90^\circ$, the resultant graph of $v = \sqrt{rg \tan \theta}$ will show an upward curvature that starts at the origin and becomes increasingly steep.
+
+Looking at the provided options:
+*   Graph A (top left) shows an increasing curve that becomes steeper as $\theta$ increases, which matches the behavior of the square root of the tangent function.
+*   The other graphs represent linear relationships, concave down curves, or S-curves, which do not fit the mathematical derivation.
+
+**Correct Answer:** Graph A (top left).
+
+###QUESTION_TYPE
+Multiple choice

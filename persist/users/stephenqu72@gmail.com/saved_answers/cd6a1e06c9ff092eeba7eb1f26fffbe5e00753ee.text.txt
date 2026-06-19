@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The new speed limit should be approximately $56.6 \text{ km h}^{-1}$ (or $40\sqrt{2} \text{ km h}^{-1}$).
+
+**Explanation:**
+1. The formula for centripetal acceleration ($a_c$) is:
+   $$a_c = \frac{v^2}{r}$$
+2. We are told the centripetal acceleration remains constant, so $a_c$ (original) = $a_c$ (new). This gives us:
+   $$\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$$
+3. We are given $r_2 = 2r_1$ and $v_1 = 40 \text{ km h}^{-1}$. Substituting these into the equation:
+   $$\frac{40^2}{r_1} = \frac{v_2^2}{2r_1}$$
+4. The $r_1$ terms cancel out, leaving:
+   $$v_2^2 = 2 \times 40^2$$
+   $$v_2 = \sqrt{2 \times 1600} = \sqrt{3200}$$
+   $$v_2 \approx 56.57 \text{ km h}^{-1}$$
+
+---
+
+#### Part (b)
+**Answer:** No work is done because the gravitational force acting on the satellite acts perpendicular to the satellite's direction of motion (velocity).
+
+**Explanation:**
+1. In physics, the definition of work done is $W = Fs \cos(\theta)$, where $\theta$ is the angle between the force and the displacement.
+2. For a satellite in a circular orbit, the gravitational force (the centripetal force) is directed towards the center of the Earth, while the displacement (the instantaneous velocity vector) is directed tangentially to the orbit.
+3. Because the force and displacement are always perpendicular to each other ($90^\circ$), $\cos(90^\circ) = 0$. Therefore, the net work done on the satellite by gravity is zero, which is why the satellite’s speed remains constant.
+
+###QUESTION_TYPE
+Calculation question

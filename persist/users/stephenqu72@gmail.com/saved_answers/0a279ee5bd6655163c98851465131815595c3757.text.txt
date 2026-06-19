@@ -1,0 +1,36 @@
+To determine the new orbital velocity, we must use the formula for the orbital velocity of a satellite in a circular orbit:
+
+$$v = \sqrt{\frac{GM}{r}}$$
+
+where:
+*   $G$ is the gravitational constant
+*   $M$ is the mass of the Earth
+*   $r$ is the distance from the centre of the Earth
+
+### Step-by-Step Solution:
+
+1.  **Define the initial state:**
+    The initial velocity $v_1$ at distance $r_1 = r$ is given as $v$:
+    $$v = \sqrt{\frac{GM}{r}}$$
+
+2.  **Define the new state:**
+    The new distance is $r_2 = 2r$. Let the new velocity be $v_2$:
+    $$v_2 = \sqrt{\frac{GM}{2r}}$$
+
+3.  **Compare the two states:**
+    We can rewrite the expression for $v_2$ by pulling out the constant factors:
+    $$v_2 = \sqrt{\frac{1}{2}} \times \sqrt{\frac{GM}{r}}$$
+    Since $\sqrt{\frac{GM}{r}} = v$, we can substitute this back into the equation:
+    $$v_2 = \frac{1}{\sqrt{2}} \times v$$
+
+4.  **Calculate the value:**
+    The value of $\frac{1}{\sqrt{2}}$ is approximately $0.707$. Therefore:
+    $$v_2 \approx 0.707v$$
+
+Rounding to one decimal place as presented in the options, we get $0.7v$.
+
+**Correct Option:**
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

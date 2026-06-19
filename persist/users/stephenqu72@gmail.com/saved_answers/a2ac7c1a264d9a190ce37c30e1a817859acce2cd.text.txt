@@ -1,0 +1,31 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation, which is defined by the formula:
+
+$$F = \frac{G M m}{r^2}$$
+
+### Step 1: Identify the given values
+*   Mass of the Sun ($M$): $2.0 \times 10^{30} \text{ kg}$
+*   Mass of the Earth ($m$): $5.97 \times 10^{24} \text{ kg}$ (Note: While not explicitly provided in the text, this is a standard physical constant required for HSC Physics).
+*   Distance ($r$): $1.5 \times 10^{11} \text{ m}$
+*   Gravitational constant ($G$): $6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+
+### Step 2: Substitute into the equation
+$$F = \frac{(6.67 \times 10^{-11}) \times (2.0 \times 10^{30}) \times (5.97 \times 10^{24})}{(1.5 \times 10^{11})^2}$$
+
+### Step 3: Perform the calculation
+1.  Calculate the numerator:
+    $6.67 \times 2.0 \times 5.97 \approx 79.64$
+    Powers of 10: $-11 + 30 + 24 = 43$
+    Numerator $\approx 79.64 \times 10^{43} = 7.964 \times 10^{44}$
+
+2.  Calculate the denominator:
+    $(1.5 \times 10^{11})^2 = 2.25 \times 10^{22}$
+
+3.  Divide:
+    $F = \frac{7.964 \times 10^{44}}{2.25 \times 10^{22}} \approx 3.54 \times 10^{22} \text{ N}$
+
+Rounding to two significant figures, we get $3.5 \times 10^{22} \text{ N}$, which matches option (A).
+
+**Correct Answer: (A)**
+
+###QUESTION_TYPE
+Multiple choice

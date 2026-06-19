@@ -1,0 +1,36 @@
+To solve this problem, we must resolve the gravitational force acting on the ball into its components relative to the tilted surface of the pool table.
+
+### (a) Calculate the net acceleration on the ball
+When an object is on an inclined plane, the acceleration due to gravity $g$ acting down the slope is given by $a = g \sin(\theta)$.
+Given $g = 9.8 \text{ ms}^{-2}$ and $\theta = 5.0^\circ$:
+$$a = 9.8 \times \sin(5.0^\circ)$$
+$$a \approx 9.8 \times 0.08715 \approx 0.854 \text{ ms}^{-2}$$
+This acceleration acts directly down the slope (parallel to the side $ZY$ and $WX$ in the diagram).
+
+### (b) Calculate the time it takes for the ball to reach the pocket
+This is a projectile motion problem on a 2D plane where the acceleration is constant and directed only along one axis (the "down-slope" direction). Let the "up-slope" direction be the $y$-axis and the "cross-slope" direction be the $x$-axis.
+- Initial velocity components:
+  - $v_{ix} = 1.10 \cos(50.0^\circ) \approx 0.707 \text{ ms}^{-1}$
+  - $v_{iy} = 1.10 \sin(50.0^\circ) \approx 0.843 \text{ ms}^{-1}$
+- Acceleration components:
+  - $a_x = 0$
+  - $a_y = -0.854 \text{ ms}^{-2}$ (assuming the ball is hit "up" the slope initially).
+
+The ball reaches the pocket when its displacement in the $y$-direction is zero ($s_y = 0$). Using $s_y = v_{iy}t + \frac{1}{2}a_y t^2$:
+$$0 = 0.843t - 0.427t^2$$
+$$t = \frac{0.843}{0.427} \approx 1.97 \text{ s}$$
+
+### (c) How far is the corner pocket from the position it was hit?
+The distance $d$ is the displacement in the $x$-direction ($s_x$) because the $y$-displacement is zero at the pocket.
+$$s_x = v_{ix} \times t$$
+$$s_x = 0.707 \text{ ms}^{-1} \times 1.97 \text{ s} \approx 1.39 \text{ m}$$
+
+***
+
+### Summary of Steps:
+1. **Identify the acceleration:** Recognise that gravity on an incline provides an acceleration of $g \sin \theta$ down the slope.
+2. **Resolve Vectors:** Break the initial velocity into components perpendicular and parallel to the direction of acceleration.
+3. **Kinematics:** Use SUVAT equations, noting that the motion in one dimension is constant velocity and the other is constant acceleration.
+
+###QUESTION_TYPE
+Calculation question

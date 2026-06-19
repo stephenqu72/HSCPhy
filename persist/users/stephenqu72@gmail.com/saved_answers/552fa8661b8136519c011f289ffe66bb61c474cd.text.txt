@@ -1,0 +1,27 @@
+To determine the correct answer, we must analyze the physics formula for gravitational field strength $g$ outside a spherical mass $M$ at a distance $r$ from the center:
+
+$$g = \frac{GM}{r^2}$$
+
+### Analysis of the Graph and Options
+The graph shows a **linear relationship** (a straight line passing through the origin) between the gravitational field strength ($g$) and the variable on the $x$-axis. This means we are looking for a relationship of the form $y = mx$, where $y = g$ and $x$ is some function of $r$.
+
+1.  **Look at the options:** The options involve $r$ and $M$. We know the standard inverse-square law is $g = \frac{GM}{r^2}$.
+2.  **Rearrange the formula:** If we want a linear graph, we can treat $g$ as the dependent variable ($y$) and identify what the $x$-axis must be. 
+    *   If we plot $g$ against $\frac{1}{r^2}$, the equation becomes:
+        $$g = (GM) \cdot \left(\frac{1}{r^2}\right)$$
+    *   Comparing this to $y = mx$:
+        *   $y = g$
+        *   $x = \frac{1}{r^2}$ (which is the inverse square of the distance)
+        *   $m$ (the gradient) $= GM$
+
+3.  **Evaluate the options:**
+    *   **Option A:** Suggests $x = r$. If $x = r$, $g$ is proportional to $1/r^2$, which would be a curve, not a straight line.
+    *   **Option B:** Suggests $x = \frac{1}{r^2}$ and Gradient $= GM$. This matches our derivation perfectly.
+    *   **Option C:** Distance from the surface ($h$) relates to $r$ as $r = R + h$. This would not result in a simple linear gradient of $GM$.
+    *   **Option D:** Suggests $x = M$. While $g \propto M$, the gradient would be $\frac{G}{r^2}$, not $\frac{G}{r}$.
+
+### Conclusion
+The correct answer is **B**. By plotting gravitational field strength against the inverse square of the distance, the relationship becomes linear with a gradient equal to the product of the universal gravitational constant and the mass of the planet ($GM$).
+
+###QUESTION_TYPE
+Multiple choice

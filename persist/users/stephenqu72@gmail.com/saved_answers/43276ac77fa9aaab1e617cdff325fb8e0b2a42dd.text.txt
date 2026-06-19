@@ -1,0 +1,38 @@
+To solve this problem, we use the physics of magnetic forces acting on current-carrying conductors.
+
+### Part (a): Calculation of distance $d$
+
+**1. Identify the variables:**
+*   Length of wires $L = 20\text{ cm} = 0.2\text{ m}$
+*   Current in wire 1 $I_1 = 1\text{ A}$
+*   Current in wire 2 $I_2 = 1\text{ A}$
+*   Force $F = 25\text{ mN} = 25 \times 10^{-3}\text{ N}$
+*   Permeability of free space $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+**2. Use the formula for the force between two parallel wires:**
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi d}$$
+
+**3. Rearrange the formula to solve for $d$:**
+$$d = \frac{\mu_0 I_1 I_2 L}{2\pi F}$$
+
+**4. Substitute the values:**
+$$d = \frac{(4\pi \times 10^{-7}) \times 1 \times 1 \times 0.2}{2\pi \times (25 \times 10^{-3})}$$
+$$d = \frac{2 \times 10^{-7} \times 0.2}{25 \times 10^{-3}}$$
+$$d = \frac{0.4 \times 10^{-7}}{25 \times 10^{-3}} = 0.016 \times 10^{-4} = 1.6 \times 10^{-6}\text{ m}$$
+
+*(Note: The resulting distance is very small, consistent with the high force generated relative to the short length of wire.)*
+
+---
+
+### Part (b): Explanation of the force
+When current flows through a wire, it creates a circular magnetic field around itself (determined by the Right-Hand Grip Rule). 
+
+*   **Explanation:** Wire 1 creates a magnetic field $B_1$ in the region where Wire 2 is located. According to the motor effect formula, $F = BIL\sin\theta$, when a current-carrying wire (Wire 2) is placed in an external magnetic field ($B_1$), it experiences a magnetic force. Because the currents are in the same direction, the fields between the wires are in opposite directions, leading to a net attraction.
+*   **Sketching the concept:**
+    *   Draw two parallel vertical lines.
+    *   Use the Right-Hand Grip Rule to show clockwise/counter-clockwise magnetic field circles.
+    *   Show that at the position of the second wire, the field from the first wire is pointing "into the page" (or out).
+    *   Use the Right-Hand Rule (Fleming's Left-Hand Rule) to show the direction of the force is towards the other wire.
+
+###QUESTION_TYPE
+Calculation question

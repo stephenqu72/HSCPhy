@@ -1,0 +1,29 @@
+To solve this problem, we use the relationship between the electric field ($E$), the potential difference (voltage, $V$), and the distance between the electrodes ($d$). 
+
+### Explanation:
+The formula for the electric field between two parallel plates (which serves as a model for the gap in a spark plug) is:
+$$E = \frac{V}{d}$$
+
+**1. Identify the given values:**
+*   Voltage ($V$) = $16000\text{ V}$
+*   Distance ($d$) = $0.4\text{ mm}$
+
+**2. Convert units to SI units:**
+In physics calculations, it is essential to work in standard SI units (meters).
+*   $d = 0.4\text{ mm} = 0.4 \times 10^{-3}\text{ m} = 0.0004\text{ m}$
+
+**3. Substitute the values into the formula:**
+$$E = \frac{16000}{0.0004}$$
+
+To simplify this division, we can write $0.0004$ as $4 \times 10^{-4}$:
+$$E = \frac{16000}{4 \times 10^{-4}}$$
+$$E = 4000 \times 10^4$$
+$$E = 40,000,000\text{ V/m} \text{ (or N/C)}$$
+
+Looking at the options provided, $40,000,000\text{ NC}^{-1}$ corresponds to option (D).
+
+### Answer:
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

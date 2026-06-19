@@ -1,0 +1,39 @@
+To solve this problem, we use the formula for the acceleration due to gravity ($g$) at the surface of a spherical body:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+- $G$ is the gravitational constant.
+- $M$ is the mass of the planet.
+- $r$ is the radius of the planet.
+
+### Step-by-Step Solution:
+
+1.  **Define the variables for Earth and Planet X:**
+    - For Earth: $g_E = \frac{GM_E}{r_E^2}$, where $M_E \approx 5.972 \times 10^{24}\text{ kg}$ and $r_E \approx 6.371 \times 10^6\text{ m}$.
+    - For Planet X: $g_X = \frac{GM_X}{r_X^2}$.
+
+2.  **Apply the given information:**
+    - The radius of Planet X is twice that of Earth: $r_X = 2r_E$.
+    - The gravity of Planet X is half that of Earth: $g_X = 0.5g_E$.
+
+3.  **Set up the ratio:**
+    $$\frac{g_X}{g_E} = \frac{\frac{GM_X}{r_X^2}}{\frac{GM_E}{r_E^2}} = \frac{M_X}{M_E} \times \left(\frac{r_E}{r_X}\right)^2$$
+
+4.  **Substitute the known ratios into the equation:**
+    $$0.5 = \frac{M_X}{M_E} \times \left(\frac{r_E}{2r_E}\right)^2$$
+    $$0.5 = \frac{M_X}{M_E} \times \left(\frac{1}{2}\right)^2$$
+    $$0.5 = \frac{M_X}{M_E} \times \frac{1}{4}$$
+
+5.  **Solve for $M_X$:**
+    $$\frac{M_X}{M_E} = 0.5 \times 4 = 2$$
+    $$M_X = 2 \times M_E$$
+
+6.  **Calculate the value:**
+    Using the standard mass of Earth ($M_E \approx 5.97 \times 10^{24}\text{ kg}$):
+    $$M_X = 2 \times 5.97 \times 10^{24}\text{ kg} = 1.194 \times 10^{25}\text{ kg}$$
+
+Comparing this to the provided options, **(D)** $1.193 \times 10^{25}\text{ kg}$ is the correct answer (minor variations are due to the specific value used for the Earth's mass constant in the source).
+
+###QUESTION_TYPE
+Multiple choice

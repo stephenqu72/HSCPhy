@@ -1,0 +1,36 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation, which is expressed by the formula:
+
+$$F = \frac{G m_1 m_2}{r^2}$$
+
+Where:
+*   $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$
+*   $m_1 = m_2 = 26.5 \, \text{kg}$
+*   $r = d$
+
+---
+
+### (a) Calculation of the gravitational force
+Given $d = 11.0 \, \text{m}$, we substitute the values into the formula:
+
+$$F = \frac{(6.67 \times 10^{-11}) \times (26.5) \times (26.5)}{(11.0)^2}$$
+$$F = \frac{4.683 \times 10^{-8}}{121}$$
+$$F \approx 3.87 \times 10^{-10} \, \text{N}$$
+
+*(Note: Depending on the specific value of $G$ provided in your formula sheet, the final digits may vary slightly. Standard HSC uses $6.67 \times 10^{-11}$.)*
+
+---
+
+### (b) Sketching the graph
+The relationship between force $F$ and distance $r$ is an **inverse-square law** ($F \propto 1/r^2$). 
+
+1.  **At $r = d$**: The force is $F_0 \approx 3.87 \times 10^{-10} \, \text{N}$ (as calculated in part a).
+2.  **At $r = 2d$**: Since $F \propto 1/r^2$, doubling the distance reduces the force to $\frac{1}{2^2} = \frac{1}{4}$ of the original value.
+    $$F_{2d} = \frac{3.87 \times 10^{-10}}{4} \approx 0.97 \times 10^{-10} \, \text{N}$$
+3.  **At $r = 4d$**: Quadrupling the distance reduces the force to $\frac{1}{4^2} = \frac{1}{16}$ of the original value.
+    $$F_{4d} = \frac{3.87 \times 10^{-10}}{16} \approx 0.24 \times 10^{-10} \, \text{N}$$
+
+**To sketch:** 
+Draw a smooth curve starting high on the y-axis, passing through your calculated point at $d$, passing through approximately $1$ unit on the y-axis at $2d$, and approaching the x-axis (asymptotically) at $4d$.
+
+###QUESTION_TYPE
+Calculation question

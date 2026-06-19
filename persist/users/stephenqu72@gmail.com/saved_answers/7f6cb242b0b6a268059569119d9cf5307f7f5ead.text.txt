@@ -1,0 +1,27 @@
+To find the force $F$ required to turn the bolt, we use the formula for torque:
+
+$$\tau = r \cdot F \cdot \sin(\theta)$$
+
+### Explanation:
+1.  **Identify the variables:**
+    *   **Torque ($\tau$):** $200\text{ N m}$
+    *   **Radius ($r$):** The length of the spanner is $25.0\text{ cm}$. We must convert this to SI units (meters): $25.0\text{ cm} = 0.25\text{ m}$.
+    *   **Angle ($\theta$):** The angle between the force vector and the handle of the spanner is $30^\circ$.
+
+2.  **Set up the equation:**
+    Substitute the known values into the torque formula:
+    $$200 = 0.25 \cdot F \cdot \sin(30^\circ)$$
+
+3.  **Calculate:**
+    *   Since $\sin(30^\circ) = 0.5$:
+    $$200 = 0.25 \cdot F \cdot 0.5$$
+    $$200 = 0.125 \cdot F$$
+    
+    *   Solve for $F$:
+    $$F = \frac{200}{0.125}$$
+    $$F = 1600\text{ N}$$
+
+**Answer:** The force required is $1600\text{ N}$.
+
+###QUESTION_TYPE
+Calculation question

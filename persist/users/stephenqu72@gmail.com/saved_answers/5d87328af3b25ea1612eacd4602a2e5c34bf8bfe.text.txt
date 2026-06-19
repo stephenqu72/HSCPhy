@@ -1,0 +1,34 @@
+To solve these problems, we use the principles of conservation of momentum and the nature of collisions in classical mechanics.
+
+### Question 8
+**Answer: C. $4.0\text{ m s}^{-1}$**
+
+**Explanation:**
+This is an inelastic collision where the two objects join together after impact. According to the **Law of Conservation of Momentum**, the total momentum before the collision must equal the total momentum after the collision:
+$$\sum p_{\text{before}} = \sum p_{\text{after}}$$
+$$(m_X \times v_X) + (m_Y \times v_Y) = (m_X + m_Y) \times v_f$$
+
+Given:
+- $m_X = 10\text{ tonnes}$
+- $v_X = 6.0\text{ m s}^{-1}$
+- $m_Y = 5.0\text{ tonnes}$
+- $v_Y = 0\text{ m s}^{-1}$ (stationary)
+
+Substituting the values:
+$$(10 \times 6.0) + (5.0 \times 0) = (10 + 5.0) \times v_f$$
+$$60 = 15 \times v_f$$
+$$v_f = \frac{60}{15} = 4.0\text{ m s}^{-1}$$
+
+---
+
+### Question 9
+**Answer: B. kinetic energy is not conserved but momentum is conserved.**
+
+**Explanation:**
+1.  **Momentum:** In all isolated collisions (where no external forces like friction are considered), linear momentum is always conserved.
+2.  **Kinetic Energy:** In a perfectly inelastic collision—where two objects stick together—kinetic energy is **not** conserved. Much of the initial kinetic energy is converted into other forms, such as internal energy (heat), sound, or deformation energy during the collision process. Therefore, the system loses kinetic energy.
+
+---
+
+###QUESTION_TYPE
+Multiple choice

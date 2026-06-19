@@ -1,0 +1,20 @@
+{
+  "users": {
+    "stephenqu72@gmail.com": {
+      "salt": "1ab4866db21ca3000e63dfa341801860",
+      "hash": "608f2ae7dd0ac02670193c15892dd35984e625d20e20aa75815b6df6fe7d3f78",
+      "created": "2026-06-18T12:50:47.273788Z",
+      "approved": true,
+      "role": "root"
+    },
+    "jeremy": {
+      "salt": "9d5498b40321d2161ca739f5b493048c",
+      "hash": "5ee3ddb54d83b9089056810c09607592b09004daa847907504e1efd1f0cbbedb",
+      "created": "2026-06-19T05:43:15.244565Z",
+      "approved": true,
+      "role": "user",
+      "approved_by": "stephenqu72@gmail.com",
+      "approved_at": "2026-06-19T05:43:26.188390Z"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+To achieve a geostationary orbit, a satellite must satisfy the following conditions:
+
+1.  **Orbital Period:** The orbital period ($T$) must be exactly equal to the Earth's sidereal rotation period, which is approximately $23.93$ hours or $86\,164$ seconds. This ensures the satellite remains fixed above a specific point on the Earth's surface.
+2.  **Direction and Plane:** The satellite must orbit in the equatorial plane, moving from west to east, in the same direction as the Earth's rotation.
+3.  **Circular Orbit:** The orbit must be circular, requiring a specific altitude above the Earth's surface.
+
+### Calculation
+To find the radius of this orbit ($r$), we equate the gravitational force to the centripetal force:
+
+$$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+
+Since $v = \frac{2\pi r}{T}$, substituting this into the equation yields Kepler’s Third Law:
+
+$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$
+
+Rearranging for $r$:
+
+$$r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$$
+
+Using the values $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$, $M = 5.97 \times 10^{24} \text{ kg}$, and $T = 86\,164 \text{ s}$:
+
+$$r = \sqrt[3]{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(86\,164)^2}{4\pi^2}} \approx 4.22 \times 10^7 \text{ m}$$
+
+Subtracting the Earth's radius ($6.37 \times 10^6 \text{ m}$), the satellite must be at an altitude of approximately $35\,800 \text{ km}$ above the equator.
+
+### How to solve it
+1.  **Recall the definition:** A geostationary satellite must appear "stationary" to an observer on Earth, which dictates the orbit period ($T$) and location (equatorial plane).
+2.  **Set up the physics:** Use the principle of circular motion where gravitational force provides the centripetal force.
+3.  **Derive/Use Kepler's Third Law:** Show the mathematical relationship between the orbital radius and the period.
+4.  **Perform the calculation:** Substitute the standard constants for Earth's mass ($M$) and gravitational constant ($G$) to solve for the required orbital radius ($r$).
+
+###QUESTION_TYPE
+Calculation question

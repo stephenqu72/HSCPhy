@@ -1,0 +1,33 @@
+To find the correct answer, we need to calculate the angular velocity ($\omega$) of the minute hand of a clock.
+
+### Step-by-Step Calculation:
+
+1.  **Understand the Definition:** Angular velocity is defined as the change in angle ($\theta$) over the change in time ($t$):
+    $$\omega = \frac{\Delta\theta}{\Delta t}$$
+
+2.  **Determine the Period ($T$):** The minute hand completes one full revolution ($2\pi$ radians or $360^\circ$) in one hour.
+    *   $1 \text{ hour} = 60 \text{ minutes} = 3600 \text{ seconds}$.
+
+3.  **Calculate in Radians per second:**
+    *   Total angle for one revolution = $2\pi$ radians.
+    *   Time for one revolution = $3600 \text{ seconds}$.
+    *   $$\omega = \frac{2\pi}{3600} \text{ rad/s}$$
+    *   $$\omega = \frac{\pi}{1800} \text{ rad/s}$$
+    *   Using $\pi \approx 3.14159$:
+    *   $$\omega \approx 0.0017453 \text{ rad/s}$$
+
+4.  **Convert to Milliradians per second:**
+    *   $1 \text{ radian} = 1000 \text{ milliradians}$.
+    *   $$\omega \approx 0.0017453 \times 1000 \text{ mrad/s}$$
+    *   $$\omega \approx 1.745 \text{ mrad/s}$$
+
+### Evaluating the Options:
+*   **A: $1.745 \text{ milliradians per second}$** matches our calculation exactly.
+*   **B: $0.105 \text{ radians per second}$** is actually the angular velocity of the *second hand* ($\frac{2\pi}{60} \approx 0.1047 \text{ rad/s}$).
+*   **C: $360 \text{ degrees per second}$** is incorrect; the minute hand moves $360^\circ$ in $3600$ seconds, so it moves $0.1^\circ$ per second.
+*   **D: $360 \text{ radians per second}$** is physically impossible for a clock hand.
+
+**Conclusion:** The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

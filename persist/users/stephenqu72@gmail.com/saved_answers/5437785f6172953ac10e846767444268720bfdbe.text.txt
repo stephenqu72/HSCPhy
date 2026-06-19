@@ -1,0 +1,33 @@
+To determine how the acceleration changes, we must look at the formula for the centripetal acceleration ($a_c$) of an object moving in a circular path:
+
+$$a_c = \frac{v^2}{r}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the initial state:** 
+    The initial acceleration is $a_1 = \frac{v^2}{r}$.
+
+2.  **Define the new parameters:**
+    *   The new speed is doubled: $v' = 2v$.
+    *   The new radius is halved: $r' = \frac{r}{2}$.
+
+3.  **Calculate the new acceleration ($a_2$):**
+    Substitute the new parameters into the centripetal acceleration formula:
+    $$a_2 = \frac{(v')^2}{r'}$$
+    $$a_2 = \frac{(2v)^2}{\frac{r}{2}}$$
+
+4.  **Simplify the expression:**
+    *   Square the speed term: $(2v)^2 = 4v^2$.
+    *   Divide by the new radius:
+    $$a_2 = \frac{4v^2}{\frac{r}{2}}$$
+    $$a_2 = 4v^2 \times \frac{2}{r}$$
+    $$a_2 = 8 \left( \frac{v^2}{r} \right)$$
+
+5.  **Compare with the initial acceleration:**
+    Since $a_1 = \frac{v^2}{r}$, we can see that:
+    $$a_2 = 8 \times a_1$$
+
+The new acceleration is 8 times the original acceleration. Therefore, the correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

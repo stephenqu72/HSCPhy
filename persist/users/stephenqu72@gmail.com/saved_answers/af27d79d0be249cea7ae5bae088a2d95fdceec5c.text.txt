@@ -1,0 +1,33 @@
+To find the peak wavelength of electromagnetic radiation emitted by a black body at a given temperature, we use **Wien's Displacement Law**.
+
+### The Formula
+Wien's Displacement Law is given by:
+$$\lambda_{max} = \frac{b}{T}$$
+
+Where:
+*   $\lambda_{max}$ is the peak wavelength in meters ($m$).
+*   $T$ is the absolute temperature in Kelvin ($K$).
+*   $b$ is Wien's displacement constant, which is approximately $2.898 \times 10^{-3} \, m \cdot K$.
+
+### Step-by-Step Solution
+1.  **Identify the given values:**
+    *   $T = 310 \, K$
+    *   $b \approx 2.898 \times 10^{-3} \, m \cdot K$
+
+2.  **Substitute the values into the formula:**
+    $$\lambda_{max} = \frac{2.898 \times 10^{-3}}{310}$$
+
+3.  **Perform the calculation:**
+    $$\lambda_{max} \approx 0.009348 \times 10^{-3} \, m$$
+    Converting this to scientific notation:
+    $$\lambda_{max} \approx 9.3 \times 10^{-6} \, m$$
+
+Comparing our result to the given options, $9.3 \times 10^{-6} \, m$ corresponds to option **A**.
+
+### Conclusion
+The peak wavelength of the infrared radiation emitted by a person at $310 \, K$ is approximately $9.3 \, \mu m$, which is $9.3 \times 10^{-6} \, m$.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation:
+$$F = \frac{G M m}{r^2}$$
+where $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$, $M$ is the mass of the Sun, $m$ is the mass of the planet, and $r$ is the orbital radius.
+
+### 1. Data Preparation
+*   $M = 2.00 \times 10^{30} \, \text{kg}$
+*   $m_{\text{Earth}} = 5.97 \times 10^{24} \, \text{kg}$ (Standard physical constant)
+*   $r_{\text{Earth}} = 1.50 \times 10^{11} \, \text{m}$
+*   $m_{\text{Mercury}} = 3.29 \times 10^{23} \, \text{kg}$
+*   $r_{\text{Mercury}} = 5.79 \times 10^{7} \, \text{km} = 5.79 \times 10^{10} \, \text{m}$
+
+### 2. Calculation
+**For Earth:**
+$$F_{\text{Earth}} = \frac{(6.67 \times 10^{-11}) \times (2.00 \times 10^{30}) \times (5.97 \times 10^{24})}{(1.50 \times 10^{11})^2} \approx 3.54 \times 10^{22} \, \text{N}$$
+
+**For Mercury:**
+$$F_{\text{Mercury}} = \frac{(6.67 \times 10^{-11}) \times (2.00 \times 10^{30}) \times (3.29 \times 10^{23})}{(5.79 \times 10^{10})^2} \approx 1.31 \times 10^{22} \, \text{N}$$
+
+### 3. Comparison
+To compare them, find the ratio:
+$$\frac{F_{\text{Earth}}}{F_{\text{Mercury}}} = \frac{3.54 \times 10^{22}}{1.31 \times 10^{22}} \approx 2.70$$
+
+**Conclusion:** The Sun exerts approximately $2.7$ times more gravitational force on Earth than it does on Mercury.
+
+---
+
+### How to solve this type of question:
+1.  **Identify Constants/Variables:** Ensure all units are in SI units (meters, kilograms, seconds). Note that Mercury's radius was given in km, so you must convert it to meters ($10^7 \text{ km} = 10^{10} \text{ m}$).
+2.  **Retrieve Missing Data:** In HSC physics, if the mass of Earth is not provided, you are expected to recall or infer standard constants if necessary, or check the provided data sheet.
+3.  **Apply Formula:** Substitute the values into the universal gravitation formula carefully, ensuring the radius is squared.
+4.  **Compare:** Express the relationship as a ratio or a factor to clearly "compare" the two values as requested.
+
+###QUESTION_TYPE
+Calculation question

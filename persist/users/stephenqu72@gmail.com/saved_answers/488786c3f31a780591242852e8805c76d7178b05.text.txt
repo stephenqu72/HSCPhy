@@ -1,0 +1,25 @@
+To solve this problem, we use Newton's Law of Universal Gravitation, which is expressed by the formula:
+
+$$F = G \frac{m_1 m_2}{r^2}$$
+
+Where:
+*   $F$ is the gravitational force.
+*   $G$ is the gravitational constant.
+*   $m_1$ and $m_2$ are the masses of the two objects.
+*   $r$ is the distance between the centres of the two objects.
+
+### Step-by-Step Analysis:
+
+We need to evaluate how each change affects the force $F$:
+
+*   **(A) Double the distance ($r \rightarrow 2r$):** The new force becomes $F' = G \frac{m_1 m_2}{(2r)^2} = \frac{1}{4}F$. This results in a **decrease** in force.
+*   **(B) Double the mass of one object ($m_1 \rightarrow 2m_1$):** The new force becomes $F' = G \frac{(2m_1)m_2}{r^2} = 2F$. This results in a **twofold increase**.
+*   **(C) Double the mass of both objects ($m_1 \rightarrow 2m_1, m_2 \rightarrow 2m_2$):** The new force becomes $F' = G \frac{(2m_1)(2m_2)}{r^2} = 4F$. This results in a **fourfold increase**.
+*   **(D) Halve the mass of both objects ($m_1 \rightarrow 0.5m_1, m_2 \rightarrow 0.5m_2$):** The new force becomes $F' = G \frac{(0.5m_1)(0.5m_2)}{r^2} = 0.25F$. This results in a **decrease** in force.
+
+Comparing these, option (C) results in the greatest increase in the gravitational force.
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

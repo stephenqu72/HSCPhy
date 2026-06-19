@@ -1,0 +1,22 @@
+To determine the correct answer, we must recall the physics of **uniform circular motion**.
+
+### Analysis
+Work done is defined by the formula:
+$$W = F \cdot s \cdot \cos(\theta)$$
+where:
+- $F$ is the magnitude of the force (in this case, the centripetal force).
+- $s$ is the displacement.
+- $\theta$ is the angle between the force vector and the displacement vector.
+
+In uniform circular motion, the centripetal force always acts toward the center of the circle, while the instantaneous displacement (the velocity vector) is always tangent to the circle. Because the radius is perpendicular to the tangent at any point, the force and displacement are **perpendicular** ($\theta = 90^\circ$). Since $\cos(90^\circ) = 0$, the work done is exactly $0$.
+
+### Evaluating the Statements
+*   **A is correct:** Since the speed is constant (constant Kinetic Energy) and the height is constant (constant Potential Energy), the total mechanical energy is conserved, confirming no net work is done.
+*   **B is correct:** This is the geometric definition of why work is zero in circular motion; the force is always perpendicular to the direction of motion.
+*   **C is correct:** This identifies the physical conditions (constant speed and height) that imply no change in energy, supporting the fact that no work is done.
+*   **D is INCORRECT:** This statement claims that displacement is in the direction of the force. If this were true, the object would be moving toward the center of the circle (spiraling inward) rather than maintaining a circular path. Furthermore, it claims work is being done, which contradicts the fundamental physics of uniform circular motion.
+
+Therefore, the incorrect statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

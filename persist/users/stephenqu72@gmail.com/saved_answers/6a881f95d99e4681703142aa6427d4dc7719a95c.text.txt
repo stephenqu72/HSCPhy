@@ -1,0 +1,29 @@
+To solve this problem, we first relate the theoretical physics formula to the geometry of a straight-line graph.
+
+### (a) Drawing the line of best fit
+To draw the line of best fit, you should use a ruler to place a straight line such that there is an approximately equal number of data points above and below the line, ensuring it passes as close as possible to all points (accounting for the outlier at $0.9\text{ m}$). By ignoring the point at $(0.9, 2.75)$ which appears to be an experimental error, the line should pass near $(0.5, 1.95)$, $(0.6, 2.4)$, $(0.7, 2.85)$, $(0.8, 3.3)$, and $(1.0, 4.2)$.
+
+### (b) Calculate acceleration due to gravity ($g$)
+
+**1. Algebraic Rearrangement:**
+The given formula is $T = 2\pi \sqrt{\frac{l}{g}}$. 
+Squaring both sides gives:
+$$T^2 = 4\pi^2 \frac{l}{g}$$
+This matches the equation of a straight line $y = mx + c$, where $y = T^2$ and $x = l$.
+Comparing terms, the gradient $m = \frac{4\pi^2}{g}$. 
+Therefore, $g = \frac{4\pi^2}{m}$.
+
+**2. Calculating the Gradient ($m$):**
+Using two points on our line of best fit (e.g., $(0.5, 1.95)$ and $(1.0, 4.2)$):
+$$m = \frac{\Delta y}{\Delta x} = \frac{4.2 - 1.95}{1.0 - 0.5} = \frac{2.25}{0.5} = 4.5 \text{ s}^2/\text{m}$$
+
+**3. Solving for $g$:**
+$$g = \frac{4\pi^2}{4.5}$$
+$$g \approx \frac{39.478}{4.5} \approx 8.77 \text{ m/s}^2$$
+*(Note: Depending on the specific line of best fit drawn by the student, answers typically range between $8.5$ and $9.8 \text{ m/s}^2$.)*
+
+### Explanation
+In physics experiments, we linearize non-linear relationships to determine constants. By plotting $T^2$ against $l$, we create a linear relationship where the slope is defined by gravity. By calculating the rise over run of our best-fit line, we obtain the slope, which we then substitute into the rearranged physics formula to isolate the gravitational constant $g$.
+
+###QUESTION_TYPE
+Data analysis questions

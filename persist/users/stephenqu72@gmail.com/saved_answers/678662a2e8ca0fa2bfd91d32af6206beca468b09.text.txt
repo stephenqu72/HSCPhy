@@ -1,0 +1,25 @@
+To determine the correct trajectory, we must analyze the acceleration of the particle in each field as the mass $m$ increases.
+
+### 1. Gravitational Field (Figure I)
+The force acting on the particle is $F_g = mg$. According to Newton's Second Law:
+$$F_g = ma \implies mg = ma \implies a = g$$
+The acceleration due to gravity $a$ is independent of the mass $m$. Since the initial horizontal velocity $u$ and the vertical acceleration $g$ remain unchanged, the trajectory of the particle remains exactly the same as the original path. Therefore, the particle will still land at point $X$.
+
+### 2. Electric Field (Figure II)
+The force acting on the particle is $F_e = qE$, where $q$ is the charge and $E$ is the electric field strength. Applying Newton's Second Law:
+$$F_e = ma \implies qE = ma \implies a = \frac{qE}{m}$$
+If the mass $m$ is increased, the denominator of the expression for acceleration increases, meaning the acceleration $a$ decreases. 
+
+Since the vertical acceleration is lower, the particle will take longer to drop to the same vertical displacement. Because the horizontal velocity $u$ remains constant, a longer time in the air means the particle travels further horizontally before landing. Thus, the new landing point will be further to the right of point $Y$.
+
+### Conclusion
+*   **Gravitational field:** The trajectory is unchanged (lands at $X$).
+*   **Electric field:** The trajectory is "flatter" (lands to the right of $Y$).
+
+Looking at the options provided, **Option C** shows the gravitational path landing at $X$ and the electric field path landing further out than $Y$.
+
+### Answer
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

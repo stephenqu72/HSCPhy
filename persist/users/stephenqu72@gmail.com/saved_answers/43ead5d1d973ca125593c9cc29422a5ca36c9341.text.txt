@@ -1,0 +1,28 @@
+To determine the ratio of the velocities of two satellites, we use the formula for orbital velocity:
+
+$$v = \sqrt{\frac{GM}{r}}$$
+
+where $G$ is the gravitational constant, $M$ is the mass of the Earth, and $r$ is the orbital radius (distance from the center of the Earth).
+
+### Step-by-Step Solution:
+
+**1. Determine the radii for both satellites:**
+The orbital radius $r$ is the sum of the Earth's radius ($R_E \approx 6371 \text{ km}$) and the altitude ($h$).
+*   For the low Earth orbit (LEO) satellite: $r_1 = 6371 + 300 = 6671 \text{ km}$
+*   For the geostationary (GEO) satellite: $r_2 = 6371 + 35700 = 42071 \text{ km}$
+
+**2. Set up the ratio:**
+We want to find the ratio $v_1 : v_2$:
+$$\frac{v_1}{v_2} = \frac{\sqrt{\frac{GM}{r_1}}}{\sqrt{\frac{GM}{r_2}}} = \sqrt{\frac{r_2}{r_1}}$$
+
+**3. Substitute the values and calculate:**
+$$\frac{v_1}{v_2} = \sqrt{\frac{42071}{6671}}$$
+$$\frac{v_1}{v_2} = \sqrt{6.3065...} \approx 2.511$$
+
+**4. Express as a simplified ratio:**
+Since $2.511 \approx \frac{25}{10} = \frac{5}{2}$, the simplified ratio of the velocity of the LEO satellite to the geostationary satellite is approximately **$2.5:1$** or **$5:2$**.
+
+*(Note: Depending on the precision of the Earth's radius used, values may vary slightly, but $2.5:1$ is the standard expectation for this HSC-level calculation.)*
+
+###QUESTION_TYPE
+Calculation question

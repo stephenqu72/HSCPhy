@@ -1,0 +1,24 @@
+To solve this problem, we must analyze the forces acting on the system at equilibrium.
+
+### Step-by-Step Explanation
+
+1.  **Analyze the Rubber Stopper:** The rubber stopper is moving in a uniform horizontal circle. The centripetal force required to keep it in this circular path is provided by the tension ($T$) in the string. The formula for centripetal force is:
+    $$F_c = \frac{mv^2}{r}$$
+    Therefore, the tension in the string is $T = \frac{mv^2}{r}$.
+
+2.  **Analyze the Hanging Mass:** The hanging mass $M$ is stationary (in equilibrium). This means the upward force (tension $T$ from the string) must exactly balance the downward force (the weight of the mass, $Mg$).
+    $$T = Mg$$
+
+3.  **Equate the two expressions:** Since the tension $T$ is the same throughout the string, we can set the two expressions for $T$ equal to each other:
+    $$Mg = \frac{mv^2}{r}$$
+
+4.  **Solve for M:** To find the expression for the unknown mass $M$, divide both sides by $g$:
+    $$M = \frac{mv^2}{rg}$$
+
+Looking at the given options, this matches option **(C)**.
+
+### Answer
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

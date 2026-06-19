@@ -1,0 +1,32 @@
+To solve these problems, we use the physics of circular orbits and gravitation.
+
+### Question 9
+**Answer:** (B) $\frac{\sqrt{3}}{1}$
+
+**Explanation:**
+For a satellite in a circular orbit, the centripetal force is provided by gravity:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+Solving for orbital speed $v$:
+$$v = \sqrt{\frac{GM}{r}}$$
+This shows that orbital speed is inversely proportional to the square root of the orbital radius: $v \propto \frac{1}{\sqrt{r}}$.
+
+Let $v_A$ be the speed of Satellite A ($r_A = 3R$) and $v_B$ be the speed of Satellite B ($r_B = 9R$). The ratio is:
+$$\frac{v_A}{v_B} = \frac{\sqrt{\frac{GM}{3R}}}{\sqrt{\frac{GM}{9R}}} = \sqrt{\frac{9R}{3R}} = \sqrt{3}$$
+Thus, the ratio is $\frac{\sqrt{3}}{1}$.
+
+---
+
+### Question 10
+**Answer:** (C) Move the satellite to a lower orbit
+
+**Explanation:**
+The gravitational field strength $g$ at a distance $r$ from the center of a planet is given by:
+$$g = \frac{GM}{r^2}$$
+- $G$ is the gravitational constant and $M$ is the mass of the planet. These remain constant.
+- The mass of the satellite ($m$) does not appear in this equation, meaning the field strength is independent of the satellite's mass. Therefore, (A) and (B) are incorrect.
+- As $r$ decreases (moving to a lower orbit), the denominator $r^2$ decreases, which causes the gravitational field strength $g$ to increase. Therefore, (C) is the correct action to increase the field strength.
+
+---
+
+###QUESTION_TYPE
+Multiple choice

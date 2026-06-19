@@ -1,0 +1,29 @@
+To solve this problem, we must identify the correct physical principle. The question asks for the **gravitational force of Ganymede on Jupiter**. According to **Newton's Third Law of Motion**, the force exerted by Ganymede on Jupiter is equal in magnitude and opposite in direction to the force exerted by Jupiter on Ganymede. This is the centripetal force required to keep Ganymede in its orbit.
+
+### Step-by-Step Calculation
+
+**1. Identify the given values:**
+*   Mass of Ganymede ($m$): $1.48 \times 10^{23}\text{ kg}$
+*   Orbital speed of Ganymede ($v$): $10.8\text{ km/s} = 1.08 \times 10^4\text{ m/s}$
+*   Orbital radius of Ganymede ($r$): $1.07 \times 10^3\text{ km} = 1.07 \times 10^6\text{ m}$
+
+*Note: The radius of Ganymede ($2600\text{ km}$) is extraneous information not required for this calculation.*
+
+**2. Select the formula:**
+The gravitational force providing the centripetal force for an orbiting body is given by:
+$$F = \frac{mv^2}{r}$$
+
+**3. Substitute the values:**
+$$F = \frac{(1.48 \times 10^{23}\text{ kg}) \times (1.08 \times 10^4\text{ m/s})^2}{1.07 \times 10^6\text{ m}}$$
+
+**4. Perform the calculation:**
+$$F = \frac{(1.48 \times 10^{23}) \times (1.1664 \times 10^8)}{1.07 \times 10^6}$$
+$$F = \frac{1.726272 \times 10^{31}}{1.07 \times 10^6}$$
+$$F \approx 1.6133 \times 10^{25}\text{ N}$$
+
+Comparing this result to the given options, it matches option (C).
+
+**Answer:** (C) $1.61 \times 10^{25}\text{ N}$
+
+###QUESTION_TYPE
+Multiple choice

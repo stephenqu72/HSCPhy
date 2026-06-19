@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(d)**.
+
+---
+
+### Explanation
+To solve this question, we must look at the physics of a vehicle turning on a curved track.
+
+1.  **The Goal of Banking:** When a vehicle travels along a flat, circular track, the **centripetal force** required to maintain circular motion ($F_c = \frac{mv^2}{r}$) must be provided entirely by the frictional force between the tires and the road. This relies heavily on the condition of the tires and the road surface, which can be unreliable.
+2.  **The Role of the Normal Force:** When a track is banked at an angle $\theta$, the normal force ($N$) exerted by the track on the vehicle is no longer directed vertically upward. It is directed perpendicular to the banked surface.
+3.  **Resolving the Normal Force:** We can resolve this normal force into two components:
+    *   A vertical component $N \cos \theta$ that balances the weight of the vehicle ($mg$).
+    *   A horizontal component $N \sin \theta$ that points towards the center of the circle.
+4.  **Reducing Reliance on Friction:** This horizontal component ($N \sin \theta$) acts as an additional centripetal force. Because the track itself is providing a portion (or all, in the case of ideal banking) of the required centripetal force, the car does not need to rely on static friction to stay on the track. 
+
+Therefore, banking the track is designed to **decrease** (or eliminate the need for) the **frictional force** that would otherwise be required to provide the centripetal force perpendicular to the direction of motion.
+
+*   (a) and (b) are incorrect because the required centripetal force depends only on mass, speed, and radius, not on the banking angle itself.
+*   (c) is incorrect because banking does not change the gravitational force (weight) acting on the object.
+
+### QUESTION_TYPE
+Multiple choice

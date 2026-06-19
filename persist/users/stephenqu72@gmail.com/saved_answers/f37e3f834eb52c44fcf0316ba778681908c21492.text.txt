@@ -1,0 +1,47 @@
+To solve these problems, we must bridge the gap between linear motion and rotational motion.
+
+### Part (a)
+**Given:** 
+- Radius ($r$) = $1\text{ m}$
+- Torque ($\tau$) = $180\text{ N m}$
+- Rotational speed = $2500\text{ rpm}$
+
+**1. Calculate Force ($F$):**
+Torque is defined as $\tau = F \cdot r$. Given $r = 1\text{ m}$, then:
+$$F = \frac{\tau}{r} = \frac{180\text{ N m}}{1\text{ m}} = 180\text{ N}$$
+
+**2. Calculate Velocity ($v$):**
+Velocity $v$ is the tangential speed of the rotation. First, find angular velocity $\omega$ in radians per second:
+$$\omega = 2500 \times \frac{2\pi}{60} \approx 261.80\text{ rad/s}$$
+Since $v = \omega \cdot r$:
+$$v = 261.80\text{ rad/s} \times 1\text{ m} = 261.80\text{ m/s}$$
+
+**3. Calculate Power ($P$):**
+Using the provided formula $P = F \cdot v$:
+$$P = 180\text{ N} \times 261.80\text{ m/s} \approx 47,124\text{ W} \text{ (or } 47.12\text{ kW)}$$
+
+---
+
+### Part (b)
+**Given:**
+- Torque ($\tau$) = $12\text{ N m}$
+- Rotations ($n$) = $15$
+
+**Concept:** 
+Work ($W$) in rotational systems is $W = \tau \cdot \theta$, where $\theta$ is the angle in radians.
+
+**1. Calculate $\theta$:**
+One rotation is $2\pi$ radians. For $15$ rotations:
+$$\theta = 15 \times 2\pi = 30\pi \approx 94.25\text{ radians}$$
+
+**2. Calculate Work:**
+$$W = 12\text{ N m} \times 94.25\text{ rad}$$
+$$W \approx 1,131\text{ J}$$
+
+---
+
+### Teacher's Tip for Success:
+In HSC Physics, always check your units. When dealing with rotational motion, convert "rpm" to "radians per second" immediately, as all standard physics formulas for power ($P = \tau\omega$) and work ($W = \tau\theta$) require radians.
+
+###QUESTION_TYPE
+Calculation question

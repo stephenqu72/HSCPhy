@@ -1,0 +1,36 @@
+Hello! As an HSC physics teacher, I’m happy to help you break down this projectile motion problem.
+
+### Solution and Explanation
+
+#### Part (a)
+To find the components of the initial velocity, we resolve the vector $v = 80 \text{ m/s}$ at $50^\circ$ into its horizontal ($v_x$) and vertical ($v_y$) components using trigonometry:
+
+*   **Horizontal component:** $v_x = v \cos(50^\circ) = 80 \times \cos(50^\circ) \approx 51.42 \text{ m/s}$
+*   **Vertical component:** $v_y = v \sin(50^\circ) = 80 \times \sin(50^\circ) \approx 61.28 \text{ m/s}$
+
+**Vector Diagram:**
+Draw a right-angled triangle where the hypotenuse is the velocity vector ($80 \text{ m/s}$). Label the base as $51.42 \text{ m/s}$ (horizontal) and the vertical side as $61.28 \text{ m/s}$ (vertical). Ensure the angle $50^\circ$ is marked between the hypotenuse and the base.
+
+#### Part (b)
+We use the vertical displacement formula: $y = u_y t + \frac{1}{2} a_y t^2$.
+Using $u_y = 61.28 \text{ m/s}$, $t = 5 \text{ s}$, and $g = -9.8 \text{ m/s}^2$:
+$$h = (61.28 \times 5) + \frac{1}{2} \times (-9.8) \times (5)^2$$
+$$h = 306.4 - 122.5$$
+$$h = 183.9 \text{ m}$$
+The height of the hill is approximately **$183.9 \text{ m}$**.
+
+#### Part (c)
+Since there is no horizontal acceleration (ignoring air resistance), we use: $d = v_x t$.
+$$d = 51.42 \times 5$$
+$$d = 257.1 \text{ m}$$
+The horizontal distance $d$ is approximately **$257.1 \text{ m}$**.
+
+***
+
+### Summary of Physics Principles
+1.  **Independence of motion:** Horizontal and vertical motions are independent. We resolve the initial velocity into components first.
+2.  **Constant Velocity:** In the horizontal direction, velocity remains constant ($v_x = u_x$).
+3.  **Constant Acceleration:** In the vertical direction, the object is subject to gravity ($a = -9.8 \text{ m/s}^2$).
+
+###QUESTION_TYPE
+Calculation question

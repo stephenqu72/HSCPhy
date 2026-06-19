@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **A. up the page.**
+
+### Explanation
+To determine the direction of the magnetic force on a moving charged particle, we use the **Right-Hand Rule** (also known as the Right-Hand Palm Rule).
+
+1.  **Identify the variables:**
+    *   **Velocity ($v$):** The proton is moving to the right. Point your fingers in the direction of the velocity (to the right).
+    *   **Magnetic Field ($B$):** The field is directed into the page (represented by the crosses). Curl your fingers into the page.
+    *   **Charge ($q$):** The particle is a proton, which has a positive charge. Therefore, we use the **right hand**. (If it were an electron, we would use the right hand and then reverse the final direction).
+
+2.  **Apply the Right-Hand Rule:**
+    *   Point your right thumb in the direction of the velocity (to the right).
+    *   Point your fingers in the direction of the magnetic field ($B$), which is into the page.
+    *   Your palm will naturally face **upwards**. The force on a positive charge is in the direction of the palm.
+
+Alternatively, you can use the vector cross-product formula for the magnetic force, $\vec{F} = q(\vec{v} \times \vec{B})$:
+*   Velocity is in the $+x$ direction.
+*   Magnetic field is in the $-z$ direction (into the page).
+*   The cross product of $(\hat{i}) \times (-\hat{k})$ gives $+\hat{j}$, which corresponds to the upward direction on the page.
+
+Since the force acts upwards, the proton will be deflected **up the page**.
+
+###QUESTION_TYPE
+Multiple choice

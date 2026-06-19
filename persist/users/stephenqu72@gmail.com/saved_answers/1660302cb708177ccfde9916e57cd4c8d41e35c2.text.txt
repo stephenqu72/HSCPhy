@@ -1,0 +1,20 @@
+To answer this question, we must look at the standard kinematic formulas for projectile motion. Let the initial velocity be $v$ and the launch angle be $\theta$. The initial vertical velocity is $v_y = v \sin \theta$ and the initial horizontal velocity is $v_x = v \cos \theta$.
+
+### 1. Maximum Height ($h$)
+The maximum height occurs when the vertical velocity becomes zero. Using the formula $v_f^2 = v_i^2 + 2a \Delta y$:
+$$0 = (v \sin \theta)^2 - 2gh$$
+Solving for $h$:
+$$h = \frac{v^2 \sin^2 \theta}{2g}$$
+If $g$ increases, the denominator increases, which means the **maximum height will decrease**.
+
+### 2. Horizontal Range ($R$)
+The range is given by $R = v_x \times t_{total}$. The time of flight $t$ is determined by the vertical motion: $t = \frac{2v \sin \theta}{g}$.
+$$R = (v \cos \theta) \times \left( \frac{2v \sin \theta}{g} \right) = \frac{2v^2 \sin \theta \cos \theta}{g} = \frac{v^2 \sin(2\theta)}{g}$$
+If $g$ increases, the denominator increases, which means the **range will decrease**.
+
+**Conclusion:** Both the maximum height and the range are inversely proportional to $g$. Therefore, an increase in $g$ results in both a decreased range and a decreased maximum height.
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we must apply the inverse-square law for gravitational fields. 
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Relationship:**
+    The magnitude of the gravitational field $g$ at a distance $r$ from the centre of a planet is given by:
+    $$g = \frac{GM}{r^2}$$
+    This means $g$ is inversely proportional to the square of the distance from the centre: $g \propto \frac{1}{r^2}$.
+
+2.  **Analyze the Given Data:**
+    The problem states the field is $5\text{ N kg}^{-1}$ at a distance of $2R$ from the **surface**. 
+    Assuming the radius of Planet $X$ is $R_{planet} = 1R$ (implied by the visual scale where the planet occupies one unit of $R$), a distance of $2R$ from the *surface* corresponds to a distance of $3R$ from the **centre**. 
+    *Correction based on the graph provided:* The graph has a point plotted at $2R$ on the x-axis with a value of $5$. Therefore, the coordinate $(2R, 5)$ represents the distance from the **centre**. Let's use $r = 2R$:
+    $$5 = \frac{k}{(2R)^2} = \frac{k}{4R^2} \implies k = 20R^2$$
+
+3.  **Calculate the values:**
+    Using the derived constant $k = 20$, the formula is $g = \frac{20}{r^2}$ (where $r$ is the coordinate on the x-axis):
+    *   **At $r = 1R$**: $g = \frac{20}{1^2} = 20\text{ N kg}^{-1}$
+    *   **At $r = 4R$**: $g = \frac{20}{4^2} = \frac{20}{16} = 1.25\text{ N kg}^{-1}$
+    *   **At $r = 6R$**: $g = \frac{20}{6^2} = \frac{20}{36} \approx 0.56\text{ N kg}^{-1}$
+
+### Summary Table for Plotting:
+
+| Distance ($r$) | Gravitational Field ($g$) |
+| :--- | :--- |
+| $1R$ | $20\text{ N kg}^{-1}$ |
+| $4R$ | $1.25\text{ N kg}^{-1}$ |
+| $6R$ | $0.56\text{ N kg}^{-1}$ |
+
+**To complete the graph:** Plot these three points and draw a smooth, downward-curving line (an inverse-square hyperbola) passing through the points $(1, 20)$, $(2, 5)$, $(4, 1.25)$, and $(6, 0.56)$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,25 @@
+To determine the correct relationship, we must look at the physics formula for the gravitational field strength ($g$) at the surface of a planet:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $r$ is the radius of the planet.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the variables:** The question asks for the relationship between the mass ($M$) and the gravitational field ($g$) for planets with the **same radius** ($r$).
+2.  **Simplify the expression:** Since $G$ is a constant and $r$ is constant, we can group them into a single constant $k = \frac{G}{r^2}$. The equation becomes:
+    $$g = k \times M$$
+3.  **Analyze the relationship:** This is a **linear relationship** of the form $y = mx$ (where $y$ is $g$ and $x$ is $M$). As the mass of the planet increases, the gravitational field strength increases proportionally at a constant rate.
+4.  **Select the graph:** 
+    *   (A) shows a negative linear relationship (inverse).
+    *   (B) shows an exponential or quadratic increase.
+    *   (C) shows an inverse relationship.
+    *   (D) shows a **direct linear relationship**, which matches our equation $g \propto M$.
+
+**Answer:** The correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

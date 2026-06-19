@@ -1,0 +1,37 @@
+To solve this problem, we must first determine the velocity of the baby at the moment it hits the ground, specifically the component of the velocity directed away from the observer (the person at the top of the cliff). We will then use the Doppler Effect formula.
+
+### Step 1: Analyze the projectile motion
+*   Initial speed ($u$) = $5\text{ m/s}$
+*   Angle ($\theta$) = $45^\circ$
+*   Initial vertical velocity ($u_y$) = $u \sin(45^\circ) = 5 \times \frac{\sqrt{2}}{2} \approx 3.5355\text{ m/s}$
+*   Height ($h$) = $15\text{ m}$
+*   Acceleration ($g$) = $9.8\text{ m/s}^2$ (taking down as positive)
+
+Using the kinematic equation $v_y^2 = u_y^2 + 2gh$:
+$$v_y^2 = (3.5355)^2 + 2(9.8)(15)$$
+$$v_y^2 = 12.5 + 294 = 306.5$$
+$$v_y = \sqrt{306.5} \approx 17.507\text{ m/s}$$
+
+### Step 2: Determine the velocity relative to the observer
+The observer is at the top of the cliff. The Doppler Effect depends on the component of the velocity directed *along the line of sight* between the source and the observer. As the baby falls vertically, the vertical velocity $v_y$ is the velocity component moving directly away from the observer.
+We take $v_s = 17.507\text{ m/s}$ (positive, as it is moving away).
+
+### Step 3: Apply the Doppler Effect formula
+The formula for a moving source and stationary observer is:
+$$f_{obs} = f_s \left( \frac{v}{v + v_s} \right)$$
+Assuming the speed of sound $v \approx 340\text{ m/s}$ and source frequency $f_s = 500\text{ Hz}$:
+$$f_{obs} = 500 \left( \frac{340}{340 + 17.507} \right)$$
+$$f_{obs} = 500 \left( \frac{340}{357.507} \right)$$
+$$f_{obs} \approx 500 \times 0.95103 \approx 475.515\text{ Hz}$$
+
+Rounding to 1 decimal place, the frequency is **475.5 Hz**.
+
+***
+
+### Explanation of steps
+1.  **Kinematics**: We calculate the final vertical velocity of the baby upon impact using projectile motion equations. Since the observer is at the top of the cliff, the vertical component of the velocity is the component of the source moving directly away from the observer.
+2.  **Doppler Effect**: We identify that the source is moving away from a stationary observer. This causes a decrease in the observed frequency, requiring the $(v + v_s)$ denominator in the Doppler shift formula.
+3.  **Calculation**: We substitute the calculated velocity $v_s$ and the standard speed of sound $v$ to find the shifted frequency.
+
+###QUESTION_TYPE
+Calculation question

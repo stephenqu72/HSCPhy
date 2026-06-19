@@ -1,0 +1,32 @@
+### Solutions and Explanations
+
+**Part (a)**
+To feel weightless at point $P$, the normal force $N$ exerted by the track on the cart must be zero. The only force providing the necessary centripetal acceleration is gravity ($mg$).
+Using Newton's Second Law:
+$$\sum F_c = ma_c \implies mg = \frac{mv^2}{r}$$
+$$g = \frac{v^2}{r} \implies v = \sqrt{gr}$$
+Taking $g \approx 9.8\text{ m/s}^2$ and $r = 15\text{ m}$:
+$$v = \sqrt{9.8 \times 15} = \sqrt{147} \approx 12.12\text{ m/s}$$
+
+**Part (b)**
+Weightlessness occurs because the cart is in a state of free-fall. At this speed, the centripetal acceleration required to keep the cart on the circular path is exactly equal to the acceleration due to gravity ($g$). Since both the cart and the occupants are accelerating downwards at $g$, there is no contact force (normal force) between the occupants and the seat, resulting in the sensation of weightlessness.
+
+**Part (c)**
+1. **Find speed at $Q$:** Using conservation of mechanical energy between $P$ and $Q$.
+   At $P$: $E_k = \frac{1}{2}mv_P^2 = \frac{1}{2}m(147)$
+   Change in potential energy: $\Delta U = mgh = m(9.8)(15) = 147m$
+   At $Q$: $E_k = E_{k(P)} + \Delta U = 73.5m + 147m = 220.5m$
+   $$\frac{1}{2}mv_Q^2 = 220.5m \implies v_Q^2 = 441 \implies v_Q = 21\text{ m/s}$$
+
+2. **Forces at $Q$:** The forces acting on the cart are the normal force $N$ (upwards) and weight $mg$ (downwards). The net centripetal force is $N - mg$.
+   $$\sum F_c = \frac{mv^2}{r} \implies N - mg = \frac{mv^2}{r}$$
+   $$N = m \left( g + \frac{v^2}{r} \right) = 500 \left( 9.8 + \frac{441}{15} \right) = 500(9.8 + 29.4) = 500(39.2) = 19,600\text{ N}$$
+
+3. **G-force:** The g-force is defined as the ratio of the normal force to the weight:
+   $$\text{G-force} = \frac{N}{mg} = \frac{19600}{500 \times 9.8} = \frac{19600}{4900} = 4\text{ g}$$
+
+**Diagram description for (c):**
+Draw the cart at point $Q$. An arrow labeled $N$ (or $F_N$) points vertically upwards (longer). An arrow labeled $mg$ (or weight) points vertically downwards (shorter). The resultant force arrow points towards the center of the circle (upwards).
+
+###QUESTION_TYPE
+Calculation question

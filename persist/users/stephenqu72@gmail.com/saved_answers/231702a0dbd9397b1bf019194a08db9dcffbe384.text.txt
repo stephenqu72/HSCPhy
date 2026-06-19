@@ -1,0 +1,31 @@
+To determine the velocity of the aircraft relative to the ground, we must perform vector addition. The ground velocity ($\vec{v}_g$) is the sum of the aircraft's velocity relative to the air ($\vec{v}_a$) and the velocity of the wind ($\vec{v}_w$):
+
+$$\vec{v}_g = \vec{v}_a + \vec{v}_w$$
+
+### 1. Vector Diagram
+Imagine a right-angled triangle where:
+*   The vertical vector pointing down represents $\vec{v}_a = 320 \text{ km h}^{-1}$.
+*   The horizontal vector pointing right represents $\vec{v}_w = 55.0 \text{ km h}^{-1}$.
+*   The resultant vector $\vec{v}_g$ is the hypotenuse connecting the start of the first vector to the tip of the second.
+
+### 2. Magnitude Calculation
+Using the Pythagorean theorem:
+$$|\vec{v}_g| = \sqrt{(320)^2 + (55.0)^2}$$
+$$|\vec{v}_g| = \sqrt{102400 + 3025} = \sqrt{105425}$$
+$$|\vec{v}_g| \approx 324.7 \text{ km h}^{-1}$$
+
+### 3. Direction Calculation
+We find the angle ($\theta$) east of south using trigonometry:
+$$\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}} = \frac{55.0}{320}$$
+$$\theta = \arctan\left(\frac{55.0}{320}\right) \approx 9.76^\circ$$
+
+**Final Answer:** The velocity of the aircraft relative to the ground is $325 \text{ km h}^{-1}$ (to 3 sig figs) at a bearing of $189.8^\circ$ (or $9.8^\circ$ east of south).
+
+### How to solve it:
+1.  **Sketch the Vectors:** Always draw a vector diagram tip-to-tail. Since the aircraft is moving South and the wind is blowing East, the resultant points into the South-East quadrant.
+2.  **Use Pythagorean Theorem:** Because the vectors are perpendicular, the magnitude of the resultant is simply the hypotenuse of the right triangle.
+3.  **Use Trigonometry:** Use $\tan(\theta)$ to find the direction relative to a cardinal axis (North/South).
+4.  **Significant Figures:** Ensure your final answer respects the precision of the given data (in this case, 3 significant figures).
+
+###QUESTION_TYPE
+Calculation question

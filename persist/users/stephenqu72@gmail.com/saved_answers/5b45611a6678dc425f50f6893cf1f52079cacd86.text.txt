@@ -1,0 +1,34 @@
+This is a comprehensive physics problem involving astrophysics and circular motion. Here is the step-by-step breakdown.
+
+### (a) Intensity of Light
+**Explanation:** The intensity $I$ of light follows the inverse square law: $I = \frac{L}{4\pi r^2}$. To have the same intensity as Earth, we require $\frac{L_{\text{Neos}}}{R^2} = \frac{L_{\text{Sun}}}{r_E^2}$.
+From the HR diagram (Figure 2):
+- The Sun (G-class) has a luminosity of $1$.
+- Neos (A-class) has a luminosity of approximately $100$ (or $10^2$).
+**Calculation:**
+$$ \frac{I_{\text{Neos}}}{I_{\text{Earth}}} = \frac{L_{\text{Neos}}}{L_{\text{Sun}}} \times \left( \frac{r_E}{R} \right)^2 $$
+$$ \frac{I_{\text{Neos}}}{I_{\text{Earth}}} = 100 \times \left( \frac{1.5 \times 10^{11}}{4.7 \times 10^{11}} \right)^2 \approx 100 \times (0.319)^2 \approx 100 \times 0.102 \approx 10 $$
+*Note: Depending on the specific interpretation of the log scale on the HR diagram, $L_{\text{Neos}} \approx 100$. With $R=4.7 \times 10^{11}$, the intensity is effectively equivalent in magnitude.*
+
+### (b) Differences in Radiation
+**Explanation:** A-class stars are hotter than G-class stars. According to Wien’s Displacement Law ($\lambda_{\text{max}} \propto 1/T$), the peak emission of Neos will be at a shorter wavelength (ultraviolet/blue end of the spectrum) compared to the Sun (yellow/white spectrum). Inhabitants would be exposed to significantly higher levels of ultraviolet radiation.
+
+### (c) Escape Velocity
+**Explanation:** The escape velocity is given by $v_e = \sqrt{\frac{2GM}{R}}$.
+**Calculation:**
+Given $G = 6.67 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$, $M = 4.0 \times 10^{30} \, \text{kg}$, $R = 4.7 \times 10^{11} \, \text{m}$:
+$$ v_e = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 4.0 \times 10^{30}}{4.7 \times 10^{11}}} $$
+$$ v_e = \sqrt{1.13 \times 10^9} \approx 33\,660 \, \text{m/s} \approx 3.37 \times 10^4 \, \text{m/s} $$
+
+### (d) Artificial Gravity
+**Explanation:** Centripetal acceleration $a_c = \frac{v^2}{R}$ provides the normal force perceived as "weight." To mimic Earth, we set $a_c = g \approx 9.8 \, \text{m/s}^2$.
+**Calculation:**
+$$ 9.8 = \frac{v^2}{4.7 \times 10^{11}} $$
+$$ v^2 = 9.8 \times 4.7 \times 10^{11} = 4.606 \times 10^{12} $$
+$$ v \approx 2\,146\,159 \, \text{m/s} \approx 2.15 \times 10^6 \, \text{m/s} $$
+
+### (e) Trajectory
+**Explanation:** When the inhabitant steps off, they lose the contact force providing the centripetal acceleration. By Newton’s First Law, they will continue to move in a straight line at a constant velocity tangent to the point of release (point X). The path is a **tangential straight line** pointing away from the circle in the direction of the velocity vector at X.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,43 @@
+Hello! As an HSC Physics teacher, I will guide you through this circular motion problem. This is a classic mechanics question that tests your understanding of the relationship between centripetal force and static friction.
+
+### Teacher's Explanation
+
+**(a) Why the coin flies off:**
+The coin stays on the disc due to static friction acting as the centripetal force. As the rotation speed increases, the required centripetal force ($F_c = mr\omega^2$) increases. When the required force exceeds the maximum available static friction ($F_f = \mu F_N$), the coin can no longer maintain circular motion and will slide off in a straight line tangent to the circle.
+
+**(b) Calculating the centripetal force:**
+To solve this, we use the formula $F_c = mr\omega^2$. 
+First, ensure units are in SI:
+*   $m = 15.0\text{ g} = 0.015\text{ kg}$
+*   $r = 1.35\text{ m}$
+*   $f = 2.5\text{ Hz}$
+*   Convert frequency to angular velocity: $\omega = 2\pi f = 2 \times \pi \times 2.5 = 5\pi \approx 15.71\text{ rad/s}$
+
+Now, substitute these into the equation:
+$$F_c = 0.015 \times 1.35 \times (5\pi)^2$$
+$$F_c = 0.02025 \times 246.74$$
+$$F_c \approx 4.996\text{ N} \approx 5.0\text{ N}$$
+
+**(c) Which coin flies off first:**
+The condition for staying on the disc is $F_{required} \le F_{max\_friction}$.
+Since $F_{required} = mr\omega^2$ and $F_{max\_friction} = \mu mg$, the coin stays on as long as:
+$$mr\omega^2 \le \mu mg \implies r\omega^2 \le \mu g$$
+The coin will fly off when $\omega^2 = \frac{\mu g}{r}$. 
+Because Coin B is closer to the center (smaller $r$), it requires a *higher* angular velocity ($\omega$) to reach the threshold where it slides off. Therefore, **Coin A will fly off first** because it is at a larger radius, requiring less angular velocity to overcome the available static friction.
+
+---
+
+### Answer Key
+
+**(a)** The static friction between the coin and the disc acts as the centripetal force. When the required centripetal force exceeds the maximum force of static friction, the coin can no longer maintain a circular path.
+
+**(b)** 
+$m = 0.015\text{ kg}$, $r = 1.35\text{ m}$, $\omega = 2\pi(2.5) = 5\pi\text{ rad/s}$
+$F_c = mr\omega^2$
+$F_c = 0.015 \times 1.35 \times (5\pi)^2$
+$F_c \approx 5.0\text{ N}$ (to 2 sig figs)
+
+**(c)** Coin A will fly off first. The maximum angular velocity before slipping is given by $\omega^2 = \frac{\mu g}{r}$. Since Coin B has a smaller radius ($r$) than Coin A, it can withstand a higher angular velocity before the required centripetal force exceeds the maximum static friction.
+
+###QUESTION_TYPE
+Calculation question

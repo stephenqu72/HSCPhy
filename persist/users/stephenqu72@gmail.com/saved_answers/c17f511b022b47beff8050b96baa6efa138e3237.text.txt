@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### (a) Explain why the centripetal force acting on both Stars 1 and 2 is the same.
+**Answer:** The centripetal force for each star is provided by the gravitational force of attraction between them. According to Newton's Third Law, the gravitational force exerted by Star 1 on Star 2 must be equal in magnitude and opposite in direction to the force exerted by Star 2 on Star 1. Since this gravitational force acts as the centripetal force for both orbiting bodies, the magnitudes must be identical.
+
+#### (b) The distance of separation between the centres of the stars is $2.8 \times 10^8 \text{ km}$. Given that Star 1 is three times heavier than Star 2, calculate $r_1$.
+**Explanation:** In a binary system, the center of mass (barycenter, $X$) follows the relationship $M_1 r_1 = M_2 r_2$. 
+Given $M_1 = 3M_2$, we substitute this into the equation:
+$$(3M_2)r_1 = M_2 r_2 \implies 3r_1 = r_2$$
+We also know the total separation distance $d = r_1 + r_2 = 2.8 \times 10^8 \text{ km}$.
+Substituting $r_2 = 3r_1$:
+$$r_1 + 3r_1 = 2.8 \times 10^8 \text{ km}$$
+$$4r_1 = 2.8 \times 10^8 \text{ km}$$
+$$r_1 = 0.7 \times 10^8 \text{ km} = 7.0 \times 10^7 \text{ km}$$
+
+#### (c) Calculate the mass of Star 2.
+**Explanation:** The centripetal force $F_c$ equals the gravitational force $F_g$. 
+For Star 2: $F_c = M_2 \omega^2 r_2$.
+The gravitational force is: $F_g = \frac{G M_1 M_2}{d^2}$.
+Equating these: $M_2 \omega^2 r_2 = \frac{G (3M_2) M_2}{d^2}$.
+Cancel $M_2$ and solve for $M_2$:
+$$\omega^2 r_2 = \frac{3 G M_2}{d^2} \implies M_2 = \frac{\omega^2 r_2 d^2}{3G}$$
+*Note:* First, find $r_2$: $r_2 = 3r_1 = 3(7.0 \times 10^7 \text{ km}) = 2.1 \times 10^{11} \text{ m}$ (converting to meters: $2.1 \times 10^{11} \text{ m}$). 
+Total distance $d = 2.8 \times 10^{11} \text{ m}$.
+$\omega = 4.98 \times 10^{-8} \text{ rad s}^{-1}$.
+$$M_2 = \frac{(4.98 \times 10^{-8})^2 \times (2.1 \times 10^{11}) \times (2.8 \times 10^{11})^2}{3 \times 6.67 \times 10^{-11}}$$
+$$M_2 \approx \frac{(2.48 \times 10^{-15}) \times (2.1 \times 10^{11}) \times (7.84 \times 10^{22})}{2.001 \times 10^{-10}} \approx 2.04 \times 10^{28} \text{ kg}$$
+
+###QUESTION_TYPE
+Calculation question

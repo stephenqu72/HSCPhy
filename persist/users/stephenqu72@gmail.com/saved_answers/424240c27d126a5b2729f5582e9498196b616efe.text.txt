@@ -1,0 +1,27 @@
+As an HSC physics teacher, I recommend approaching this question by focusing on the fundamental energy transformations and the application of Lorentz force principles within the Cathode Ray Tube (CRT).
+
+### (a) Outline energy changes associated with the electrons passing through the gun, and when they strike the screen.
+
+**Answer:**
+1. **In the electron gun:** Electrical potential energy (from the accelerating voltage) is converted into the kinetic energy of the electrons ($E_k = \frac{1}{2}mv^2$).
+2. **At the screen:** The kinetic energy of the electrons is converted into light energy (luminescence) and thermal energy (heat) when they strike the phosphor coating on the screen.
+
+**How to solve it:**
+*   Identify the two distinct stages of the process. 
+*   In the gun, you have an electric field doing work on the electrons, thus giving them motion. 
+*   At the screen, the sudden deceleration of electrons as they collide with the phosphor atoms causes excitation of those atoms, resulting in the emission of photons (light).
+
+---
+
+### (b) Explain the role of the components labelled $Y$ in forming an image on the screen.
+
+**Answer:**
+The components labelled $Y$ are the **deflection coils** (or plates, depending on the CRT type, though visually represented as coils here). Their role is to generate a magnetic (or electric) field that exerts a Lorentz force on the moving electrons. By rapidly and independently changing the current in these coils, the electron beam can be steered vertically and horizontally. This allows the beam to scan across the screen in a "raster pattern," striking specific phosphor pixels to build up a complete image.
+
+**How to solve it:**
+*   **Identify the component:** Recognize $Y$ as the deflection system.
+*   **Explain the mechanism:** Use the concept of the Lorentz force ($F = qvB \sin \theta$). Because electrons are charged particles moving through a field, they experience a force perpendicular to their velocity.
+*   **Link to function:** Connect this steering capability to the creation of an image. Without deflection, the beam would only hit one stationary point in the center of the screen. Deflection is essential to "paint" the entire picture.
+
+###QUESTION_TYPE
+Short answer

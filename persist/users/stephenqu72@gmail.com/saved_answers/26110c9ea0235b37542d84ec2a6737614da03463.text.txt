@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **(a) The projectile launched at a smaller angle**.
+
+### Explanation
+To understand this, we must look at the physics of vertical motion in projectile motion. 
+
+1.  **Vertical Velocity Component:** When a projectile is launched with an initial velocity $v$ at an angle $\theta$, the initial vertical component of the velocity is given by:
+    $$v_y = v \sin(\theta)$$
+
+2.  **Time to Maximum Height:** At the peak of its trajectory, the vertical velocity of the projectile is zero. Using the kinematic equation $v_f = v_i + at$, where $v_f = 0$, $v_i = v \sin(\theta)$, and $a = -g$ (acceleration due to gravity), we get:
+    $$0 = v \sin(\theta) - gt$$
+    Solving for $t$ (the time to reach maximum height):
+    $$t = \frac{v \sin(\theta)}{g}$$
+
+3.  **Comparing Angles:** Since $v$ and $g$ are constants for both projectiles, the time $t$ to reach maximum height depends directly on $\sin(\theta)$. 
+    *   As $\theta$ increases (from $0^\circ$ to $90^\circ$), $\sin(\theta)$ increases.
+    *   As $\theta$ decreases, $\sin(\theta)$ decreases.
+
+Therefore, the projectile with the **smaller angle** will have a smaller initial vertical velocity component ($v \sin(\theta)$), which means it will reach its maximum height in a shorter amount of time.
+
+###QUESTION_TYPE
+Multiple choice

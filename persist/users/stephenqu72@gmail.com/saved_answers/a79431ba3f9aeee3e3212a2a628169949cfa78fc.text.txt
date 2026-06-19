@@ -1,0 +1,22 @@
+To answer this question, we must look at the physics of orbital mechanics.
+
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To understand why, we look at the physics of an object in a circular orbit around a central body (the Earth).
+
+1.  **Orbital Velocity:** The velocity $v$ required for an object to maintain a stable circular orbit at a radius $r$ from the centre of the Earth is given by the formula:
+    $$v = \sqrt{\frac{GM}{r}}$$
+    Notice that the mass of the satellite ($m$) **does not appear** in this equation. This means that at a specific altitude, every satellite must travel at the exact same orbital speed regardless of its own mass.
+
+2.  **Kinetic Energy:** The kinetic energy ($K$) of a satellite is given by:
+    $$K = \frac{1}{2}mv^2$$
+    Since the velocity $v$ is independent of the satellite's mass ($m$), and both satellites are currently at the same altitude, they are already traveling at the same velocity $v$.
+
+3.  **The Effect of the Cable:** When the satellites are joined by a cable, they effectively act as a single system. However, since the orbital velocity required to maintain a specific altitude is independent of mass, both Pisces (mass $M$) and Libra (mass $2M$) are already moving at the velocity required for that specific orbital radius. Because their velocities are already matched to their altitude, releasing the cable does not change their state of motion. They remain in the same orbit, at the same altitude, with the same velocity and kinetic energy.
+
+Therefore, disconnecting the cable has no effect on the altitude or the kinetic energy of either satellite.
+
+###QUESTION_TYPE
+Multiple choice

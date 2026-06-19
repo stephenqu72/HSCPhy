@@ -1,0 +1,22 @@
+Hello! As an HSC physics teacher, I will break this down to ensure you understand the underlying concepts of electromagnetism.
+
+### Answers and Explanations
+
+**a. What reading is expected to show on the magnetometer? [1 mark]**
+*   **Answer:** A reading of zero.
+*   **Explanation:** A stationary electric charge produces an electric field, but it **does not** produce a magnetic field. Magnetic fields are only produced by moving charges (currents). Since the sphere is stationary on a stand, there is no magnetic field to detect.
+
+**b. Explain what would happen to the reading on the electrometer as the student moves it slowly away from the charged sphere? [2 marks]**
+*   **Answer:** The reading on the electrometer would decrease as the distance from the sphere increases.
+*   **Explanation:** The strength of the electric field ($E$) around a point charge (or a charged sphere) follows the inverse-square law, defined by the formula $E = \frac{kQ}{r^2}$. As the distance ($r$) from the sphere increases, the magnitude of the electric field intensity decreases proportional to $\frac{1}{r^2}$.
+
+**c. The student now moves the magnetometer quickly towards the charged sphere and then brings it to rest close to the sphere. Describe and explain the response of the magnetometer throughout this process. [3 marks]**
+*   **Answer:** While the magnetometer is in motion, it will register a magnetic field. When the magnetometer comes to rest, the reading will return to zero.
+*   **Explanation:**
+    1.  **While moving:** By moving the magnetometer towards the stationary charge, the observer in the magnetometer's frame of reference perceives the charged sphere to be moving relative to them. A moving charge creates a current, and a moving charge produces a magnetic field in its vicinity. Therefore, the magnetometer detects this induced magnetic effect.
+    2.  **At rest:** Once the magnetometer stops, both the sphere and the magnetometer are stationary relative to each other. As established in part (a), a static charge only produces an electric field and not a magnetic field. Consequently, the reading drops to zero.
+
+***
+
+###QUESTION_TYPE
+Short answer

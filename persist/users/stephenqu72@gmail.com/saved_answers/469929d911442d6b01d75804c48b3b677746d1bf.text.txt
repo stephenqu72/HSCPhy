@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this question, we must understand the physical mechanism behind "orbital decay."
+
+1.  **Understanding Orbital Decay:** Orbital decay is the gradual decrease in the distance between an orbiting body and the primary body it orbits. For a satellite, this occurs primarily due to **atmospheric drag**.
+2.  **Atmospheric Density:** Earth's atmosphere is not a sharp cutoff; it thins out gradually with increasing altitude. Satellites in Low Earth Orbit (LEO) occupy an altitude range where there are still residual particles of the Earth's atmosphere (the thermosphere/exosphere).
+3.  **The Mechanism:** As a satellite travels through these residual gas molecules at orbital velocities (approximately $7.8\text{ km/s}$), the particles collide with the satellite. These collisions create a small but constant drag force that opposes the satellite's motion. This drag causes the satellite to lose kinetic energy. As kinetic energy decreases, the satellite drops to a lower orbital altitude (according to the relationship between orbital energy and radius), where the atmosphere is even denser, further increasing the drag. This feedback loop is known as orbital decay.
+4.  **Why other options are incorrect:**
+    *   **A:** While gravity is stronger in LEO, gravity itself is responsible for keeping the satellite in orbit (providing the centripetal force). It does not cause decay; it causes the orbit.
+    *   **B:** While LEO satellites do travel faster than geostationary satellites to maintain their orbit, their high speed is a requirement for the orbit, not the *cause* of the decay.
+    *   **D:** This statement is factually incorrect; LEO satellites travel faster than geostationary satellites because they are closer to the Earth's center of mass.
+
+Therefore, the defining factor that causes the difference in decay rates is the presence of the atmosphere at low altitudes.
+
+###QUESTION_TYPE
+Multiple choice

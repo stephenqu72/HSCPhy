@@ -1,0 +1,47 @@
+### Solution and Explanation
+
+#### Part a: Calculate the tension in the wire
+To find the tension $T$, we resolve the vertical components of the tension force on both sides of the wire, which must balance the gravitational force acting on the clown.
+
+1.  Weight of clown: $W = mg = 75 \times 9.8 = 735\text{ N}$.
+2.  Resolving vertically: $2 \times T \sin(5^\circ) = W$.
+3.  $T = \frac{735}{2 \sin(5^\circ)} \approx \frac{735}{0.1743} \approx 4216.7\text{ N}$.
+
+**Answer:** $\approx 4217\text{ N}$
+
+---
+
+#### Part b: Calculate the elastic potential energy in the net
+The clown falls a total distance of $6.00\text{ m} + 0.75\text{ m} = 6.75\text{ m}$. Assuming energy conservation, the loss in gravitational potential energy equals the gain in elastic potential energy ($E_p$).
+
+1.  $\Delta GPE = mgh = 75 \times 9.8 \times 6.75 = 4961.25\text{ J}$.
+2.  At the maximum depression ($0.75\text{ m}$), the kinetic energy is zero, so $E_p = 4961.25\text{ J}$.
+
+**Answer:** $4961.25\text{ J}$
+
+---
+
+#### Part c: Calculate the force required to depress the net by 1 m
+We use the elastic potential energy formula $E_p = \frac{1}{2}kx^2$ to find the spring constant $k$ first, using the values from part b ($x = 0.75\text{ m}$).
+
+1.  $4961.25 = \frac{1}{2} \times k \times (0.75)^2 \implies k = \frac{4961.25 \times 2}{0.5625} = 17640\text{ N/m}$.
+2.  To depress by $1\text{ m}$: $F = kx = 17640 \times 1 = 17640\text{ N}$.
+
+**Answer:** $17640\text{ N}$
+
+---
+
+#### Part d: Calculate the maximum force exerted by the net on the clown
+The maximum force exerted by the net occurs at the maximum depression ($0.75\text{ m}$).
+
+1.  $F = kx = 17640 \times 0.75 = 13230\text{ N}$.
+
+**Answer:** $13230\text{ N}$
+
+---
+
+#### Part e: Describe the subsequent motion
+If the net is perfectly elastic and we ignore air resistance/internal damping, the clown will undergo **Simple Harmonic Motion (SHM)**, oscillating vertically about the equilibrium position where the tension in the net balances the clown's weight.
+
+###QUESTION_TYPE
+Calculation question

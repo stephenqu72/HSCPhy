@@ -1,0 +1,41 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this projectile motion problem. Remember, the secret to these questions is always to treat the horizontal and vertical components of motion independently.
+
+Here are the step-by-step solutions:
+
+### (a) Calculate the initial vertical component of velocity
+Use the formula for the vertical component: $v_{y0} = v \sin(\theta)$
+$$v_{y0} = 40 \times \sin(30^\circ) = 40 \times 0.5 = 20 \text{ m s}^{-1}$$
+
+### (b) Draw the direction of net force at X
+At the highest point (X), the velocity is purely horizontal, but the **net force** is solely due to gravity. Therefore, draw an arrow pointing **straight down** from point X and label it $F$.
+
+### (c) Find the time taken to reach Y
+Point Y is at the same vertical level as the start. The vertical displacement is $0$.
+Using $v_y = v_{y0} + at$, at point Y, the vertical velocity is $-v_{y0}$ ($-20 \text{ m s}^{-1}$).
+$$-20 = 20 - 9.8t$$
+$$-40 = -9.8t \implies t = \frac{40}{9.8} \approx 4.08 \text{ s}$$
+
+### (d) Graph of vertical velocity vs. time
+The vertical velocity $v_y$ changes linearly because acceleration $g$ is constant.
+1. At $t = 0$, $v_y = +20 \text{ m s}^{-1}$.
+2. At $t = 2.04 \text{ s}$ (peak X), $v_y = 0$.
+3. At $t = 4.08 \text{ s}$ (point Y), $v_y = -20 \text{ m s}^{-1}$.
+4. At $t = 6.0 \text{ s}$, $v_y = 20 - (9.8 \times 6) = 20 - 58.8 = -38.8 \text{ m s}^{-1}$.
+**To draw:** Plot a straight line starting at $(0, 20)$, passing through $(2, 0)$, and ending at $(6, -38.8)$.
+
+### (e) Calculate the height $h$
+Use the displacement formula: $\Delta y = v_{y0}t + \frac{1}{2}at^2$
+The total time of flight is $t = 6.0 \text{ s}$. The displacement $\Delta y$ will be $-h$.
+$$-h = (20 \times 6.0) + \frac{1}{2}(-9.8)(6.0)^2$$
+$$-h = 120 - 176.4 = -56.4$$
+$$h = 56.4 \text{ m}$$
+
+---
+### Explanation of Strategy
+1. **Identify components:** Always split vectors into $x$ and $y$ immediately.
+2. **Kinematic Equations:** Use standard SUVAT equations, keeping in mind that $a_x = 0$ and $a_y = -9.8 \text{ m s}^{-2}$.
+3. **Graphing:** A velocity-time graph for constant acceleration is always a straight line with a slope equal to acceleration ($-9.8$).
+4. **Sign convention:** Be consistent. If "up" is positive, initial velocity is positive, and gravity is negative.
+
+###QUESTION_TYPE
+Calculation question

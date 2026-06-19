@@ -1,0 +1,19 @@
+The correct answer is **(B)**.
+
+### Explanation
+
+To solve this, you need to understand the physics of Earth's rotation and how it aids in space launches.
+
+1.  **Earth's Rotation:** Earth rotates on its axis from West to East. Because Earth is a sphere, the speed at which a point on the surface moves due to this rotation depends on its latitude. 
+2.  **Linear Velocity:** The linear velocity $v$ of a point on the surface is given by $v = \omega r$, where $\omega$ is the angular velocity of Earth and $r$ is the radius of the circle that the point travels in as the Earth rotates.
+    *   At the poles, $r \approx 0$, so the rotational velocity is near zero.
+    *   At the equator, the radius $r$ is at its maximum (the radius of the Earth). Therefore, the linear velocity is at its maximum at the equator (approximately $460\text{ m/s}$).
+3.  **Launch Advantage:** When a spacecraft is launched from the equator in an easterly direction, it inherits the Earth's rotational velocity. This "free" velocity means the rocket requires less additional thrust from its engines to reach the necessary orbital velocity relative to Earth. 
+
+**Why the other options are incorrect:**
+*   **(A)** The primary goal is achieving orbit relative to Earth, not the Sun.
+*   **(C)** While $g$ is slightly lower at the equator due to the equatorial bulge and centrifugal force, this effect is negligible compared to the advantage gained from the high tangential velocity of the Earth's rotation.
+*   **(D)** While atmospheric density is a factor for drag, the primary motivation for equatorial launch sites is the rotational velocity boost, not the density of the air.
+
+###QUESTION_TYPE
+Multiple choice

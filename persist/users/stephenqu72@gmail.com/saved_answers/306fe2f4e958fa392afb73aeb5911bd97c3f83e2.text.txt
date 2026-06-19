@@ -1,0 +1,33 @@
+To solve this problem, we need to relate the linear distance traveled by the tip of the fan blade to its angular velocity.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Radius of the fan ($r$) = $1.5\text{ m}$
+*   Arc length ($s$) = $2.5\text{ m}$
+*   Time interval ($t$) = $0.5\text{ s}$
+
+**2. Calculate the angular displacement ($\theta$):**
+The relationship between arc length, radius, and angular displacement (in radians) is given by $s = r\theta$. Rearranging to solve for $\theta$:
+$$\theta = \frac{s}{r} = \frac{2.5\text{ m}}{1.5\text{ m}} = 1.666... \text{ radians}$$
+
+**3. Convert radians to degrees:**
+Since the options provided are in degrees per second ($^\circ \text{s}^{-1}$), we must convert our displacement from radians to degrees using the conversion factor $1 \text{ radian} = \frac{180^\circ}{\pi}$.
+$$\theta (\text{degrees}) = 1.666... \times \left(\frac{180^\circ}{\pi}\right) \approx 95.49^\circ$$
+
+**4. Calculate the angular velocity ($\omega$):**
+Angular velocity is the rate of change of angular displacement over time:
+$$\omega = \frac{\theta}{t} = \frac{95.49^\circ}{0.5\text{ s}} \approx 190.98^\circ \text{s}^{-1}$$
+
+Rounding this to the nearest whole number gives us approximately $191^\circ \text{s}^{-1}$.
+
+Comparing this to the given options:
+A) $72^\circ \text{s}^{-1}$
+B) $92^\circ \text{s}^{-1}$
+C) $120^\circ \text{s}^{-1}$
+D) $191^\circ \text{s}^{-1}$
+
+The correct choice is **D**.
+
+###QUESTION_TYPE
+Multiple choice

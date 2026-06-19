@@ -1,0 +1,18 @@
+To determine which statement is NOT correct, we must look at the defining characteristics of a geostationary satellite. A geostationary satellite must orbit directly above the Earth's equator with an orbital period equal to the Earth's rotational period ($T \approx 24$ hours).
+
+### Analysis of the options:
+1.  **Radius ($r$):** Since the period $T$ is fixed, the radius $r$ of the orbit is fixed by Kepler’s Third Law ($T^2 \propto r^3$). Thus, all geostationary satellites must orbit at the same distance from the centre of the Earth.
+2.  **Speed ($v$):** Because they all have the same orbital radius $r$, their orbital speed must be the same, given by $v = \frac{2\pi r}{T}$. Therefore, **A is correct**.
+3.  **Period ($T$):** By definition, they must match the Earth's rotation to remain stationary relative to a point on the ground. Therefore, **B is correct**.
+4.  **Acceleration ($a$):** The centripetal acceleration is given by $a = \frac{GM}{r^2}$. Since $r$ is identical for all geostationary satellites, the acceleration must be the same. Therefore, **D is correct**.
+5.  **Kinetic Energy ($K$):** Kinetic energy is given by $K = \frac{1}{2}mv^2$. While the orbital speed $v$ is the same for all such satellites, the **mass ($m$)** of the satellites can vary. Since a satellite with a larger mass will have a higher kinetic energy than one with a smaller mass, statement C is false.
+
+**Conclusion:** The statement that is NOT correct is **C**.
+
+### How to solve:
+- Identify that geostationary satellites are constrained to a single orbital radius to maintain their period.
+- Recognize that physical properties dependent on mass, such as Kinetic Energy ($K = \frac{1}{2}mv^2$) or Potential Energy ($U = -\frac{GMm}{r}$), will differ between satellites of different masses.
+- Confirm that properties dependent only on orbital radius (like period, speed, and centripetal acceleration) are constant for all geostationary satellites.
+
+###QUESTION_TYPE
+Multiple choice

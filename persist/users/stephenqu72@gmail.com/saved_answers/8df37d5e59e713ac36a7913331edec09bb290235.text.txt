@@ -1,0 +1,30 @@
+To solve this problem, we must first understand the physics of standing waves on a stretched string (fixed at both ends).
+
+### Part a: Calculate the wavelength of the $150\text{ Hz}$ frequency.
+For a string of length $L$ fixed at both ends, the resonant frequencies are integer multiples of the fundamental frequency ($f_1$): $f_n = n \times f_1$.
+The difference between consecutive resonant frequencies is the fundamental frequency:
+$$\Delta f = f_{n+1} - f_n = 200\text{ Hz} - 150\text{ Hz} = 50\text{ Hz}$$
+So, $f_1 = 50\text{ Hz}$.
+Since $f_n = n \times f_1$, the $150\text{ Hz}$ frequency corresponds to the 3rd harmonic ($n=3$).
+The wavelength $\lambda$ for the $n$-th harmonic is given by $\lambda_n = \frac{2L}{n}$.
+$$\lambda_3 = \frac{2 \times 0.48\text{ m}}{3} = \frac{0.96\text{ m}}{3} = 0.32\text{ m}$$
+
+### Part b: Determine the wave speed of a $175\text{ Hz}$ transverse wave.
+The wave speed $v$ on a string is constant regardless of frequency, determined by $v = f \times \lambda$.
+Using the data from the $150\text{ Hz}$ wave:
+$$v = f \times \lambda = 150\text{ Hz} \times 0.32\text{ m} = 48\text{ m s}^{-1}$$
+Since the physical properties of the wire remain the same, a $175\text{ Hz}$ wave travels at the same speed: $48\text{ m s}^{-1}$.
+
+### Part c: Estimate the wavelength of the sound wave produced.
+The sound wave travels through air. We use the universal wave equation $v = f \times \lambda$, where $v$ is the speed of sound in air (approximately $340\text{ m s}^{-1}$).
+$$\lambda_{\text{sound}} = \frac{v_{\text{air}}}{f} = \frac{340\text{ m s}^{-1}}{150\text{ Hz}} \approx 2.27\text{ m}$$
+
+***
+
+### Summary of Answers:
+**a.** $0.32\text{ m}$  
+**b.** $48\text{ m s}^{-1}$  
+**c.** $2.27\text{ m}$ (or roughly $2.3\text{ m}$ depending on the accepted speed of sound)
+
+###QUESTION_TYPE
+Calculation question

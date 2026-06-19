@@ -1,0 +1,41 @@
+Hello! As an HSC Physics teacher, I am happy to guide you through this problem. This question tests your understanding of **Circular Motion**, specifically the relationship between speed, radius, period, frequency, and centripetal force.
+
+First, let's list our known variables:
+*   Mass $m = 295\text{ kg}$
+*   Radius $r = 24\text{ m}$
+*   Tangential speed $v = 1.4\text{ km s}^{-1} = 1400\text{ m s}^{-1}$
+
+---
+
+### Part a: Time taken for one revolution (Period $T$)
+The time taken to complete one full revolution is the period $T$. Since speed is distance over time, we use $v = \frac{2\pi r}{T}$.
+Rearranging for $T$:
+$$T = \frac{2\pi r}{v}$$
+$$T = \frac{2 \times \pi \times 24}{1400}$$
+$$T \approx 0.1077\text{ s}$$
+
+### Part b: Frequency in RPM
+Frequency $f$ is the number of revolutions per second, given by $f = \frac{1}{T}$.
+$$f = \frac{1}{0.1077} \approx 9.282\text{ Hz (revolutions per second)}$$
+To convert revolutions per second to RPM (revolutions per minute), we multiply by 60:
+$$\text{RPM} = f \times 60$$
+$$\text{RPM} = 9.282 \times 60 \approx 556.9\text{ RPM}$$
+
+### Part c: Centripetal force
+The formula for centripetal force is $F_c = \frac{mv^2}{r}$.
+Make sure to use standard units (meters and kilograms):
+$$F_c = \frac{295 \times (1400)^2}{24}$$
+$$F_c = \frac{295 \times 1,960,000}{24}$$
+$$F_c = 24,091,666.67\text{ N}$$
+The question asks for the answer in **MN (Meganewtons)**. $1\text{ MN} = 10^6\text{ N}$.
+$$F_c \approx 24.09\text{ MN}$$
+
+---
+
+### Summary of Answers:
+**a.** $0.108\text{ s}$ (or $0.11\text{ s}$ depending on sig figs)
+**b.** $557\text{ RPM}$
+**c.** $24.09\text{ MN}$
+
+###QUESTION_TYPE
+Calculation question

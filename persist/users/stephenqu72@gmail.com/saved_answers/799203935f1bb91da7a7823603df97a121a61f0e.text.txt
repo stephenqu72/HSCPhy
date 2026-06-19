@@ -1,0 +1,19 @@
+To determine which change makes the results more **reliable**, we must look at how we can reduce random error in this specific practical investigation.
+
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+In physics experiments, **reliability** refers to the consistency of your results—specifically, whether repeating the experiment yields the same findings. 
+
+1.  **Analyzing (D):** Timing a single swing with a stopwatch introduces significant **reaction time error**. Because a human's reaction time is roughly $0.1$ to $0.2$ seconds, if the period of the pendulum is, for example, $2.0$ seconds, a $0.2$s error represents a $10\%$ uncertainty. By timing, for example, $10$ oscillations and dividing the total time by $10$, you distribute that single reaction time error over the $10$ swings, reducing the uncertainty in the period of a single swing by a factor of $10$. This significantly improves the reliability of the measurement.
+
+2.  **Evaluating other options:**
+    *   **(A)** Reducing the string length does not inherently make the result more reliable; it merely changes the period. 
+    *   **(B)** Keeping the amplitude small is required for the simple harmonic motion approximation ($T = 2\pi\sqrt{\frac{L}{g}}$) to be valid (it improves **accuracy/validity**), but it does not specifically address the human error associated with timing individual oscillations.
+    *   **(C)** Using a lighter thread reduces the mass of the string, which is a good practice to ensure the assumption of a "massless string" holds (improving **validity**), but it does not address the precision of the timing measurement itself as effectively as option (D).
+
+Therefore, timing multiple swings is the standard method for reducing random error caused by human reaction time, thereby increasing the reliability of the data set.
+
+### QUESTION_TYPE
+Multiple choice

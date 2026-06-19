@@ -1,0 +1,23 @@
+To solve this problem, we need to find the ratio of turns in the primary coil ($N_p$) to the turns in the secondary coil ($N_s$). We use the ideal transformer equation:
+
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s}$$
+
+### Step 1: Identify the known values
+*   Primary voltage ($V_p$) = $240\text{ V}$
+*   Secondary power ($P_s$) = $12\text{ W}$
+*   Secondary current ($I_s$) = $1.2\text{ A}$
+
+### Step 2: Calculate the secondary voltage ($V_s$)
+Using the power formula $P = VI$, we can rearrange it to solve for secondary voltage:
+$$V_s = \frac{P_s}{I_s} = \frac{12\text{ W}}{1.2\text{ A}} = 10\text{ V}$$
+
+### Step 3: Calculate the turns ratio
+Now, substitute the voltages into the transformer ratio formula:
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s} = \frac{240\text{ V}}{10\text{ V}} = \frac{24}{1}$$
+
+The ratio of turns in the primary coil to the secondary coil is $24:1$.
+
+Comparing this result to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

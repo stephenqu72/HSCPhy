@@ -1,0 +1,31 @@
+To solve this problem, we use **Kepler's Third Law of Planetary Motion**, which states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis ($r$) of its orbit. This is expressed as:
+
+$$\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the given information:**
+    *   Let the Earth's orbital period be $T_E = 1$ Earth year.
+    *   Let the Earth's orbital radius be $r_E = 1$ AU.
+    *   The ratio of the radius of Mars' orbit ($r_M$) to Earth's orbit ($r_E$) is $1.5:1$, so $r_M = 1.5 r_E$.
+    *   We need to find the period of Mars ($T_M$).
+
+2.  **Set up the equation:**
+    Using the ratio version of Kepler's Third Law:
+    $$\left(\frac{T_M}{T_E}\right)^2 = \left(\frac{r_M}{r_E}\right)^3$$
+
+3.  **Substitute the values:**
+    $$\left(\frac{T_M}{1}\right)^2 = (1.5)^3$$
+    $$T_M^2 = 1.5 \times 1.5 \times 1.5$$
+    $$T_M^2 = 3.375$$
+
+4.  **Solve for $T_M$:**
+    $$T_M = \sqrt{3.375}$$
+    $$T_M \approx 1.837 \text{ Earth years}$$
+
+Comparing this result to the given options, $1.8$ is the closest match.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

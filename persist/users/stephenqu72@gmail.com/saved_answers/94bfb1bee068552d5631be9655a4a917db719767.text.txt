@@ -1,0 +1,23 @@
+To determine the change in force between the two charges, we use Coulomb's Law, which states that the electrostatic force $F$ between two point charges is given by:
+
+$$F = k \frac{Q_1 Q_2}{d^2}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the initial state:** The original force is $F = k \frac{Q_1 Q_2}{d^2}$.
+2.  **Identify the changes:**
+    *   The new charge $Q_1'$ is half of the original: $Q_1' = \frac{1}{2}Q_1$.
+    *   The new distance $d'$ is half of the original: $d' = \frac{1}{2}d$.
+3.  **Calculate the new force ($F'$):** Substitute the new values into Coulomb's Law:
+    $$F' = k \frac{(\frac{1}{2}Q_1) Q_2}{(\frac{1}{2}d)^2}$$
+4.  **Simplify the expression:**
+    $$F' = k \frac{\frac{1}{2} Q_1 Q_2}{\frac{1}{4} d^2}$$
+    $$F' = \left( \frac{\frac{1}{2}}{\frac{1}{4}} \right) \times \left( k \frac{Q_1 Q_2}{d^2} \right)$$
+    $$F' = 2 \times F = 2F$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+**Explanation:** By halving the charge $Q_1$, the numerator of the Coulomb equation is halved, which tends to halve the force. However, by halving the distance $d$, the denominator becomes one-fourth ($(\frac{1}{2})^2 = \frac{1}{4}$) of its original value. Dividing by a fraction is the same as multiplying by its reciprocal: $\frac{1/2}{1/4} = 2$. Therefore, the net effect is a doubling of the original force.
+
+###QUESTION_TYPE
+Multiple choice

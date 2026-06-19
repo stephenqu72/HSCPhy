@@ -1,0 +1,24 @@
+To solve this problem, we must refer to the fundamental formula for torque ($\tau$):
+
+$$\tau = rF \sin(\theta)$$
+
+Where:
+*   $r$ is the magnitude of the displacement vector from the fulcrum to the point where the force is applied.
+*   $F$ is the magnitude of the applied force.
+*   $\theta$ is the angle between the displacement vector ($r$) and the force vector ($F$).
+
+### How to solve this:
+To increase the torque, we need to increase the value of the product $rF \sin(\theta)$. Based on the mathematical relationship above, we can identify three specific ways to achieve this. You only need to choose two for the marks:
+
+1.  **Increase the force ($F$):** By applying a larger magnitude of force, the torque increases linearly.
+2.  **Increase the displacement ($r$):** By moving the point of application of the force further away from the fulcrum (e.g., using a longer spanner or sliding your hand further down the handle), the lever arm increases, thus increasing torque.
+3.  **Adjust the angle ($\theta$):** Torque is maximized when the force is applied perpendicular to the spanner ($\theta = 90^\circ$ or $\pi/2$ radians). If the current angle $\theta$ is less than $90^\circ$, adjusting the force direction to be closer to $90^\circ$ (which makes $\sin(\theta)$ approach 1) will increase the torque.
+
+### Answer:
+Two changes that would increase the torque applied to the spanner are:
+1.  **Increase the magnitude of the applied force ($F$).**
+2.  **Increase the distance ($r$) from the fulcrum at which the force is applied.**
+*(Alternatively: Adjust the angle of the applied force so that it is closer to $90^\circ$ relative to the spanner handle).*
+
+###QUESTION_TYPE
+Short answer

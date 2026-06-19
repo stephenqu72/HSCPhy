@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+**Part (a)**
+Lucy would know the forces are equal when the **distance meter records a constant distance** from the balls to the center. If gravity and centripetal force are equal, the balls will reach an equilibrium position where they neither drift further outward nor move inward toward the center.
+
+**Part (b)**
+To derive the formula, we set the required centripetal force equal to the gravitational force between the two balls.
+*   Let $m = 100\text{ kg}$ be the mass of each ball.
+*   Let $r$ be the distance of each ball from the pivot. The total distance between the balls is $d = 2r$.
+*   The gravitational force $F_g$ is: $$F_g = \frac{G \cdot m \cdot m}{(2r)^2} = \frac{Gm^2}{4r^2}$$
+*   The centripetal force $F_c$ required to keep a mass $m$ moving at speed $v$ at radius $r$ is: $$F_c = \frac{mv^2}{r}$$
+*   Equating $F_c = F_g$:
+    $$\frac{mv^2}{r} = \frac{Gm^2}{4r^2}$$
+*   Simplifying by canceling $m$ from both sides and multiplying by $r$:
+    $$v^2 = \frac{Gm}{4r}$$
+    $$v = \frac{1}{2} \sqrt{\frac{Gm}{r}}$$
+*(Note: There is a constant factor of $1/2$ discrepancy in the prompt's provided formula, but the derivation follows the physics of equating gravitational and centripetal forces.)*
+
+**Part (c)**
+Lucy will not observe measurable results because the **gravitational force between two 100kg masses is extremely small**.
+Using $G \approx 6.67 \times 10^{-11} \text{ Nm}^2/\text{kg}^2$ and $m = 100\text{ kg}$, at a separation of say 1 meter ($r=0.5\text{m}$):
+$$F_g = \frac{6.67 \times 10^{-11} \cdot 100^2}{1^2} = 6.67 \times 10^{-7} \text{ N}$$
+This force is significantly smaller than common background environmental factors like friction, air resistance, electrostatic forces, or vibrations in the laboratory, making it impossible to isolate the gravitational effect.
+
+***
+
+###QUESTION_TYPE
+Calculation question

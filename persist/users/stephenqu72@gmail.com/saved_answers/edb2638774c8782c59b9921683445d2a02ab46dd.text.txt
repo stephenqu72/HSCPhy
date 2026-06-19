@@ -1,0 +1,22 @@
+To solve this projectile motion problem, we must analyze the physics of an object in free fall (ignoring air resistance).
+
+### Analysis
+
+1.  **Acceleration:** In projectile motion, the only force acting on the object after it is released is gravity. Gravity acts vertically downwards at all points in the trajectory. Therefore, the acceleration is always constant and directed downwards ($g \approx 9.8 \text{ m/s}^2$ downwards). This eliminates options (B) and (D).
+2.  **Velocity at X:** Point X is on the upward slope of the trajectory. The velocity vector is always tangent to the path. Since the ball is moving both horizontally and vertically upward, the velocity vector must point diagonally upward and to the right. This matches the vector shown in option (A).
+3.  **Velocity at Y:** Point Y is the peak of the trajectory. At the peak, the vertical component of the velocity is momentarily $0 \text{ m/s}$. However, the horizontal velocity remains constant throughout the motion (since there is no horizontal acceleration). Therefore, the velocity at the peak is not zero; it is directed perfectly horizontally to the right. This matches option (A).
+
+### Conclusion
+*   **At X:** Velocity is tangent to the path (diagonal), acceleration is downwards.
+*   **At Y:** Velocity is purely horizontal, acceleration is downwards.
+
+The correct option is **(A)**.
+
+### Explanation of the Strategy
+When analyzing projectile motion, always decouple the motion into two independent components:
+*   **Vertical component:** Subject to constant acceleration due to gravity ($g$). The velocity changes linearly over time.
+*   **Horizontal component:** In the absence of air resistance, there is zero acceleration ($a_x = 0$), meaning horizontal velocity remains constant throughout the entire flight.
+*   **At the apex:** Always remember that vertical velocity is zero, but total velocity is **not** zero because horizontal velocity exists.
+
+###QUESTION_TYPE
+Multiple choice

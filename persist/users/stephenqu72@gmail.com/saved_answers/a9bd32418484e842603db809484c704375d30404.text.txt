@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(C) The speed of the projectile changes with time**.
+
+---
+
+### Explanation
+To solve this, let's analyze the standard assumptions made in HSC Physics for ideal projectile motion (ignoring air resistance):
+
+*   **Assumption (A) is incorrect:** At the top of the flight, the vertical component of velocity ($v_y$) is $0$. The speed of the projectile is equal to the horizontal component of velocity ($v_x$), which is its **minimum** value, not its greatest.
+*   **Assumption (B) is incorrect:** We assume that gravity is the only force acting on the object. Since $F = ma$ and $F = mg$, the acceleration is simply $a = g$ ($9.8 \text{ m/s}^2$ downwards). This acceleration is constant throughout the entire flight.
+*   **Assumption (C) is correct:** Speed is the magnitude of the velocity vector: $v = \sqrt{v_x^2 + v_y^2}$. While $v_x$ remains constant, $v_y$ changes continuously due to the constant acceleration of gravity ($g$). As $v_y$ changes, the total speed $v$ changes throughout the flight.
+*   **Assumption (D) is incorrect:** Displacement involves time squared in the vertical direction ($s_y = u_y t + \frac{1}{2}at^2$). Because of the acceleration term ($t^2$), the displacement is not directly proportional (linearly related) to the travel time.
+
+Thus, the velocity vector is constantly changing in both magnitude and direction, meaning the speed changes with time.
+
+###QUESTION_TYPE
+Multiple choice

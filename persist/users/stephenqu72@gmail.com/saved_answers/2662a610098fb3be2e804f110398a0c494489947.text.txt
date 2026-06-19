@@ -1,0 +1,34 @@
+To determine which graph best represents the ball's motion, we must analyze the vertical component of the motion.
+
+### Physics Analysis
+The ball is undergoing projectile motion. In projectile motion, the horizontal velocity remains constant (ignoring air resistance), but the vertical velocity ($v_y$) is affected by a constant downward acceleration due to gravity ($g \approx 9.8 \text{ m/s}^2$).
+
+The equation for vertical velocity as a function of time is:
+$$v_y(t) = u_y - gt$$
+
+Where:
+*   $u_y$ is the initial vertical velocity ($10 \sin(45^\circ) > 0$).
+*   $g$ is the acceleration due to gravity (acting downward, so we treat it as negative).
+
+Because $g$ is constant, the rate of change of velocity ($\frac{dv_y}{dt} = -g$) is constant. This means the velocity-time graph for the vertical motion must be a **straight line with a negative gradient**.
+
+1.  **Initial state:** At $t=0$, the ball is thrown upward, so its vertical velocity is positive (above the x-axis).
+2.  **Peak:** As it rises, gravity slows it down until the velocity becomes zero at the peak of the trajectory.
+3.  **Descent:** As it falls, the vertical velocity becomes negative (below the x-axis) and continues to decrease linearly as it gains downward speed.
+
+### Evaluating the Options
+*   **Graph A:** Represents constant velocity (zero acceleration). Incorrect.
+*   **Graph B:** Represents non-linear acceleration (curved). Incorrect.
+*   **Graph C:** Shows the velocity magnitude (or a different absolute representation), but the sharp turn at the x-axis is physically incorrect for a standard velocity-time graph.
+*   **Graph D:** Shows a straight line with a negative gradient starting in the positive region, crossing the x-axis (where the ball is at its peak), and continuing into the negative region (as the ball accelerates downwards). This perfectly models $v_y(t) = u_y - gt$.
+
+**Correct Answer: D**
+
+### How to solve this
+1.  **Identify the variables:** Note that the question asks for the motion of a projectile.
+2.  **Recall the kinematics:** Projectile motion under gravity is defined by constant acceleration. A velocity-time graph for constant acceleration is always a straight line.
+3.  **Determine the gradient:** Since gravity acts downwards, the acceleration is negative, meaning the slope of the line must be negative.
+4.  **Check initial conditions:** The ball starts moving *upward*, so the initial velocity must be positive. Only Graph D satisfies all these conditions.
+
+###QUESTION_TYPE
+Multiple choice

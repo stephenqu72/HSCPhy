@@ -1,0 +1,38 @@
+To solve this projectile motion problem, we must treat the horizontal and vertical components of motion independently. The key principle is that the horizontal velocity $v_x$ remains constant, while the vertical motion is governed by gravity with an initial vertical velocity of $u_y = 0 \text{ m s}^{-1}$.
+
+### Part a: Horizontal distance
+Since the horizontal velocity is constant, we use the formula $d_x = v_x \times t$.
+Given:
+$v_x = 3.0 \text{ m s}^{-1}$
+$t = 0.40 \text{ s}$
+
+$$d_x = 3.0 \times 0.40 = 1.2 \text{ m}$$
+
+### Part b: Height of the table
+To find the height $h$ (vertical displacement), we use the kinematic equation for vertical motion:
+$d_y = u_y t + \frac{1}{2} a_y t^2$
+Since $u_y = 0$, $a_y = g = 10 \text{ m s}^{-2}$, and $t = 0.40 \text{ s}$:
+
+$$h = 0 \times 0.40 + \frac{1}{2} \times 10 \times (0.40)^2$$
+$$h = 5 \times 0.16 = 0.8 \text{ m}$$
+
+### Part c: Speed at which the ball hits the floor
+The final speed $v$ is the vector sum of the final horizontal velocity $v_{fx}$ and the final vertical velocity $v_{fy}$.
+1. Horizontal: $v_{fx} = v_x = 3.0 \text{ m s}^{-1}$
+2. Vertical: $v_{fy} = u_y + g t$
+$$v_{fy} = 0 + 10 \times 0.40 = 4.0 \text{ m s}^{-1}$$
+
+The magnitude of the resultant velocity is:
+$$v = \sqrt{v_{fx}^2 + v_{fy}^2}$$
+$$v = \sqrt{3.0^2 + 4.0^2} = \sqrt{9 + 16} = \sqrt{25}$$
+$$v = 5.0 \text{ m s}^{-1}$$
+
+***
+
+### Summary of Answers:
+*   **a:** $1.2 \text{ m}$
+*   **b:** $0.8 \text{ m}$
+*   **c:** $5.0 \text{ m s}^{-1}$
+
+###QUESTION_TYPE
+Calculation question

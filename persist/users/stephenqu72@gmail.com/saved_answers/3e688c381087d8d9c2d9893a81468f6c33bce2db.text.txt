@@ -1,0 +1,46 @@
+As an HSC Physics teacher, I will guide you through these projectile motion problems step-by-step.
+
+### Part (a)
+**Goal:** Determine the launch angle $\theta$ for Trajectory 1.
+
+**Method:** 
+We know the maximum height ($h_{max}$) reached by a projectile is given by the formula:
+$$h_{max} = \frac{v_0^2 \sin^2\theta}{2g}$$
+
+Given:
+- $v_0 = 15\text{ ms}^{-1}$
+- $h_{max} = 10.6\text{ m}$
+- $g \approx 9.8\text{ ms}^{-2}$
+
+**Calculation:**
+$$10.6 = \frac{15^2 \sin^2\theta}{2 \times 9.8}$$
+$$10.6 = \frac{225 \sin^2\theta}{19.6}$$
+$$10.6 \times 19.6 = 225 \sin^2\theta$$
+$$207.76 = 225 \sin^2\theta$$
+$$\sin^2\theta = \frac{207.76}{225} \approx 0.9234$$
+$$\sin\theta = \sqrt{0.9234} \approx 0.9609$$
+$$\theta = \sin^{-1}(0.9609) \approx 73.9^\circ$$
+
+**Answer:** The launch angle is approximately **$73.9^\circ$**.
+
+---
+
+### Part (b)
+**Goal:** Determine the speed $v$ of Trajectory 2 at point A ($x=10\text{ m}$, $y=6.0\text{ m}$).
+
+**Method:**
+Speed is the magnitude of the velocity vector: $v = \sqrt{v_x^2 + v_y^2}$.
+1. **Horizontal velocity ($v_x$):** Remains constant throughout the flight.
+   $$v_x = v_0 \cos\theta = 15 \cos(46.8^\circ) \approx 10.27\text{ ms}^{-1}$$
+2. **Vertical velocity ($v_y$):** Use the kinematic equation $v_y^2 = v_{0y}^2 - 2g\Delta y$.
+   $$v_{0y} = v_0 \sin\theta = 15 \sin(46.8^\circ) \approx 10.93\text{ ms}^{-1}$$
+   $$v_y^2 = (10.93)^2 - 2(9.8)(6.0)$$
+   $$v_y^2 = 119.46 - 117.6 = 1.86$$
+   $$v_y = \sqrt{1.86} \approx 1.36\text{ ms}^{-1}$$
+3. **Total speed ($v$):**
+   $$v = \sqrt{(10.27)^2 + (1.36)^2} = \sqrt{105.47 + 1.85} = \sqrt{107.32} \approx 10.36\text{ ms}^{-1}$$
+
+**Answer:** The speed at point A is approximately **$10.4\text{ ms}^{-1}$**.
+
+###QUESTION_TYPE
+Calculation question

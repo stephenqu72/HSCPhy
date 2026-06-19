@@ -1,0 +1,33 @@
+To solve this problem, we need to understand the definition of torque ($\tau$).
+
+### 1. Identify the given torque
+The torque produced by a force $F$ applied at a distance $r$ from a pivot point is given by the formula:
+$$\tau = r F \sin(\phi)$$
+where $\phi$ is the angle between the position vector (the rod) and the force vector.
+
+In the provided diagram, the force $F$ is applied at a distance $L$ from the axis. Looking at the angle $\theta$ provided, the angle between the rod and the force vector is $\theta$. Therefore, the torque in the initial scenario is:
+$$\tau = L F \sin(\theta)$$
+
+### 2. Set up the new scenario
+We want to apply the same force $F$ perpendicular to the rod at some new distance $d$. When a force is applied perpendicularly, the angle between the force and the rod is $90^\circ$. Since $\sin(90^\circ) = 1$, the torque formula simplifies to:
+$$\tau_{new} = d \cdot F \cdot \sin(90^\circ) = dF$$
+
+### 3. Equate the torques
+We are told the torque must be the same:
+$$\tau_{new} = \tau_{original}$$
+$$dF = L F \sin(\theta)$$
+
+Dividing both sides by $F$:
+$$d = L \sin(\theta)$$
+
+Comparing this to the given options, the correct distance is $L \sin(\theta)$.
+
+**Correct Option: (A)**
+
+### Explanation for Students
+In HSC Physics, remember that torque is the "turning effect" of a force. It is mathematically equivalent to the product of the magnitude of the force and the **perpendicular component** of the distance from the pivot (lever arm). 
+- In the first case, the force is at an angle, so only the component of the force perpendicular to the rod ($F \sin\theta$) contributes to the torque.
+- By moving the point of application to a distance of $L \sin\theta$ and pushing perpendicularly, you are effectively creating the same "lever arm" distance relative to the line of action of the force.
+
+###QUESTION_TYPE
+Multiple choice

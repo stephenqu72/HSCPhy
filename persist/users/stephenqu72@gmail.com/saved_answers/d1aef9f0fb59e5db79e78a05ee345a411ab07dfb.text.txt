@@ -1,0 +1,32 @@
+### Answer
+The correct answer is **(A) $mC_w k$**.
+
+### Explanation
+To solve this problem, we connect the definition of power to the thermal energy equation.
+
+1.  **Recall the definition of Power:**
+    Power ($P$) is defined as the rate at which energy is transferred or transformed:
+    $$P = \frac{Q}{t}$$
+    where $Q$ is the thermal energy (heat) added to the water and $t$ is the time elapsed.
+
+2.  **Recall the specific heat capacity formula:**
+    The energy required to change the temperature of a substance is given by:
+    $$Q = mC_w \Delta T$$
+    where $m$ is the mass, $C_w$ is the specific heat capacity, and $\Delta T$ is the change in temperature.
+
+3.  **Relate temperature to time:**
+    The problem states that the temperature increases linearly with time according to $T = kt$. Therefore, the change in temperature $\Delta T$ over a time interval $t$ is simply:
+    $$\Delta T = kt$$
+
+4.  **Substitute and solve for Power:**
+    Substitute the expression for $Q$ and $\Delta T$ into the power equation:
+    $$P = \frac{mC_w \Delta T}{t}$$
+    Substitute $\Delta T = kt$:
+    $$P = \frac{mC_w(kt)}{t}$$
+    The time variable $t$ cancels out:
+    $$P = mC_w k$$
+
+This confirms that the power output of the kettle is represented by the expression $mC_w k$.
+
+###QUESTION_TYPE
+Multiple choice

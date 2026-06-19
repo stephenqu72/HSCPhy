@@ -1,0 +1,36 @@
+To solve this projectile motion problem, we must find the minimum initial velocity $v$ at an optimal angle $\theta$ such that the projectile passes through the point $(x, y) = (10, 12)$.
+
+### (a) Calculate the minimum velocity required
+
+We use the trajectory equation for a projectile:
+$$y = x \tan \theta - \frac{gx^2}{2v^2 \cos^2 \theta}$$
+
+Using the identity $\frac{1}{\cos^2 \theta} = 1 + \tan^2 \theta$:
+$$y = x \tan \theta - \frac{gx^2}{2v^2}(1 + \tan^2 \theta)$$
+
+Rearranging to solve for $v^2$:
+$$\frac{gx^2}{2v^2}(1 + \tan^2 \theta) = x \tan \theta - y$$
+$$v^2 = \frac{gx^2(1 + \tan^2 \theta)}{2(x \tan \theta - y)}$$
+
+To minimize $v^2$, we differentiate with respect to $\tan \theta$ and set to zero, or use the standard result for minimum velocity to reach a point $(x, y)$:
+$$v_{min} = \sqrt{g(y + \sqrt{x^2 + y^2})}$$
+
+Given $x = 10\text{ m}$, $y = 12\text{ m}$, and $g \approx 9.8\text{ m/s}^2$:
+$$v_{min} = \sqrt{9.8(12 + \sqrt{10^2 + 12^2})}$$
+$$v_{min} = \sqrt{9.8(12 + \sqrt{244})}$$
+$$v_{min} = \sqrt{9.8(12 + 15.62)}$$
+$$v_{min} = \sqrt{9.8 \times 27.62} \approx \sqrt{270.68} \approx 16.45\text{ m/s}$$
+
+**Answer:** The minimum velocity required is approximately $16.5\text{ m/s}$.
+
+---
+
+### (b) Why might the ball still not reach the top?
+
+Even if the initial velocity and angle are theoretically correct, the ball may fail to reach the top due to:
+1.  **Air Resistance:** Projectile motion equations typically assume a vacuum. Air resistance acts against the ball's motion, dissipating energy and slowing it down, meaning it will fall short of the target.
+2.  **Angle of Release:** The calculation assumes the "optimum" angle is perfectly executed. If the student kicks the ball at any angle other than the specific optimal angle required for that velocity, the trajectory will not pass through the point $(10, 12)$.
+3.  **Rotation (Magnus Effect):** Footballs often have spin. Depending on the direction of the spin, the Magnus effect can create an additional force that curves the trajectory, causing it to overshoot or undershoot the target.
+
+### QUESTION_TYPE
+Calculation question

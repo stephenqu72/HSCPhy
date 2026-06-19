@@ -1,0 +1,43 @@
+To solve this problem, we apply the principles of conservation of momentum and energy.
+
+### Part a: Determine the final velocity of the spaceship
+
+In deep space, no external forces act on the system, so the total momentum is conserved:
+$$p_{\text{initial}} = p_{\text{final}}$$
+
+**1. Define variables:**
+*   $m_s = 500\text{ kg}$ (mass of spaceship)
+*   $m_m = 50\text{ kg}$ (mass of module)
+*   Initial velocity $u = 0\text{ m s}^{-1}$
+*   Velocity of module $v_m = -50\text{ m s}^{-1}$ (negative because it moves opposite to the spaceship)
+*   Velocity of spaceship $v_s = ?$
+
+**2. Calculation:**
+$$0 = m_s v_s + m_m v_m$$
+$$0 = (500)(v_s) + (50)(-50)$$
+$$0 = 500v_s - 2500$$
+$$500v_s = 2500$$
+$$v_s = 5\text{ m s}^{-1}$$
+
+The final velocity of the spaceship is **$5\text{ m s}^{-1}$**.
+
+---
+
+### Part b: Explain if the interaction is elastic or inelastic
+
+An interaction is **elastic** if kinetic energy ($E_k$) is conserved, and **inelastic** if it is not.
+
+**1. Initial Kinetic Energy ($E_{k,i}$):**
+Since the spaceship is initially stationary, $E_{k,i} = 0\text{ J}$.
+
+**2. Final Kinetic Energy ($E_{k,f}$):**
+$$E_{k,f} = \frac{1}{2}m_s v_s^2 + \frac{1}{2}m_m v_m^2$$
+$$E_{k,f} = \frac{1}{2}(500)(5)^2 + \frac{1}{2}(50)(-50)^2$$
+$$E_{k,f} = (250)(25) + (25)(2500)$$
+$$E_{k,f} = 6250 + 62500 = 68750\text{ J}$$
+
+**3. Comparison:**
+Since $E_{k,f} > E_{k,i}$ ($68750\text{ J} \neq 0\text{ J}$), the kinetic energy of the system has increased. This energy comes from internal potential energy (the explosive charge or mechanical spring that ejected the module). Because kinetic energy is not conserved, the interaction is **inelastic** (specifically, it is an "explosive" inelastic collision).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,33 @@
+To find the acceleration of the car, we follow these steps:
+
+### 1. Identify the given variables
+*   Initial velocity ($u$): $20\text{ km/h}$
+*   Final velocity ($v$): $60\text{ km/h}$
+*   Time interval ($t$): $8\text{ s}$
+
+### 2. Convert units to SI (meters per second)
+The acceleration is requested in $\text{ms}^{-2}$, so we must convert the velocities from $\text{km/h}$ to $\text{m/s}$ by dividing by $3.6$:
+*   $u = \frac{20}{3.6} \approx 5.556\text{ m/s}$
+*   $v = \frac{60}{3.6} \approx 16.667\text{ m/s}$
+
+### 3. Apply the acceleration formula
+The formula for uniform acceleration is:
+$$a = \frac{v - u}{t}$$
+
+Substituting our values:
+$$a = \frac{16.667 - 5.556}{8}$$
+$$a = \frac{11.111}{8}$$
+$$a \approx 1.389\text{ m/s}^2$$
+
+Rounding to one decimal place, we get $1.4\text{ m/s}^2$.
+
+Comparing this result to the given options:
+(A) $1.4\text{ ms}^{-2}$
+(B) $5.0\text{ ms}^{-2}$
+(C) $9.8\text{ ms}^{-2}$
+(D) $144\text{ ms}^{-2}$
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

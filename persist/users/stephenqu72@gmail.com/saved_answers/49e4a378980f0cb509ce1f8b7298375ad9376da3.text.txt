@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+The diagram illustrates Galileo’s principle of the **independence of vertical and horizontal motion**. It shows that the vertical position of both balls is identical at every time interval, indicating that the downward acceleration due to gravity is the same regardless of the horizontal velocity. Furthermore, it demonstrates that the horizontal motion (for the fired ball) continues at a constant velocity, as the horizontal spacing between successive images of the projectile remains uniform.
+
+**Explanation:**
+To score full marks here, you must reference Galileo’s two key concepts:
+1.  **Vertical Motion:** Both balls fall at the same rate, proving that gravity acts independently on objects regardless of their horizontal state of motion.
+2.  **Horizontal Motion:** The projectile covers equal horizontal distances in equal time intervals, proving that in the absence of air resistance, the horizontal velocity is constant.
+
+#### Part (b)
+**Answer:**
+To determine the launch velocity ($v_x$), we use the formula:
+$$v_x = \frac{\Delta x}{\Delta t}$$
+
+1.  **Analyze the diagram:** By counting the intervals between the horizontal positions of the projectile, there are $8$ intervals between the launch point and the final position.
+2.  **Time:** Since each frame is $0.1\text{ s}$, the total time ($t$) is $8 \times 0.1\text{ s} = 0.8\text{ s}$.
+3.  **Distance:** You must measure the distance on the provided diagram. Assuming the height of the platform ($h$) is measured (for example, if the height is $3.14\text{ m}$), you would use the vertical motion formula $h = \frac{1}{2}gt^2$ to find the scale, then measure the horizontal range ($R$).
+4.  **Calculation:** If you measure the horizontal range $R$ from the diagram, calculate $v_x = \frac{R}{t}$. 
+
+*(Note: Since the physical dimensions depend on the printed scale of your paper, measure the distance between the first and last position on your page. If the scale dictates $1\text{ cm} = 0.5\text{ m}$, use that to find the actual $R$ in meters and divide by $0.8\text{ s}$ to find $v_x$ in $\text{m/s}$.)*
+
+**Explanation:**
+This is a standard projectile motion problem. Remember that $v_x$ is constant throughout the flight. The steps are:
+1. Identify the total time of flight using the stroboscopic intervals.
+2. Measure the total horizontal displacement from the image.
+3. Apply the constant velocity formula $v = \frac{d}{t}$.
+
+###QUESTION_TYPE
+Data analysis questions

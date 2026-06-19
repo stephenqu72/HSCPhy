@@ -1,0 +1,15 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To understand why the coil does not turn, we must look at the physics of the **DC motor effect** and torque.
+
+1.  **The Physics of Torque:** The motor effect produces a force $F = IlB \sin\theta$ on the current-carrying wires. For the coil to rotate, this force must create a **torque** about the central axis. Torque is calculated as $\tau = F \times d$, where $d$ is the perpendicular distance from the axis of rotation to the point where the force acts.
+2.  **Current State:** In the diagram, the coil is currently oriented **perpendicular** to the magnetic field lines. At this specific position, the forces acting on the sides of the coil are directed straight outwards (or inwards) relative to the axis of rotation. Because the line of action of these forces passes directly through the axis, the perpendicular distance $d$ is zero. Consequently, the torque is zero.
+3.  **Why other options are incorrect:**
+    *   **A and C:** Increasing the magnetic field ($B$) or the current ($I$) will increase the magnitude of the force ($F$), but as long as the coil is in this "dead" position where the force acts through the center of rotation, the torque remains zero.
+    *   **B:** Reversing the current will simply reverse the direction of the force, but the forces will still act directly through the axis of rotation, resulting in zero torque.
+4.  **The Solution:** For the motor to start, the coil needs to be at an angle to the magnetic field. When the coil is tilted, the forces acting on the sides of the coil gain a lever arm (a perpendicular distance from the axis). This creates a non-zero torque, which allows the coil to rotate. Therefore, the starting position must be changed.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,35 @@
+To solve this problem, we use **Kepler's Third Law of Planetary Motion**, which states that for satellites orbiting the same central body, the square of the orbital period $T$ is proportional to the cube of the orbital radius $r$:
+
+$$\frac{r^3}{T^2} = k$$
+
+Alternatively, for two objects $A$ and $B$, we can write this relationship as a ratio:
+
+$$\frac{r_A^3}{T_A^2} = \frac{r_B^3}{T_B^2}$$
+
+### Step-by-Step Solution:
+
+1.  **Rearrange the ratio:**
+    We want to find $\frac{r_A}{r_B}$. Let's rearrange the formula above to isolate the ratio of the radii:
+    $$\left( \frac{r_A}{r_B} \right)^3 = \left( \frac{T_A}{T_B} \right)^2$$
+
+2.  **Substitute the known values:**
+    We are given that $\frac{T_A}{T_B} = 64$. Plugging this into our equation:
+    $$\left( \frac{r_A}{r_B} \right)^3 = (64)^2$$
+
+3.  **Perform the calculation:**
+    First, calculate $64^2$:
+    $$64^2 = 4096$$
+    So,
+    $$\left( \frac{r_A}{r_B} \right)^3 = 4096$$
+
+4.  **Solve for the ratio:**
+    Take the cube root of both sides to find $\frac{r_A}{r_B}$:
+    $$\frac{r_A}{r_B} = \sqrt[3]{4096}$$
+    Since $16^3 = 16 \times 16 \times 16 = 256 \times 16 = 4096$:
+    $$\frac{r_A}{r_B} = 16$$
+
+**Conclusion:**
+The ratio of the satellites' radii is $16$. Comparing this to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

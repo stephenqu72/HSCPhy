@@ -1,0 +1,37 @@
+To solve for the speed of a car on a banked curve without the assistance of friction, we use the formula derived from the balance of forces in uniform circular motion.
+
+### 1. The Physics Principle
+When a car travels around a banked curve with no friction, the horizontal component of the normal force provides the centripetal force required to keep the car moving in a circle.
+
+The formula is:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+
+Where:
+- $\theta = 15^\circ$ (banking angle)
+- $r = 70\text{ m}$ (radius of the curve)
+- $g = 9.8\text{ m/s}^2$ (acceleration due to gravity)
+- $v$ = velocity (the unknown we need to find)
+
+### 2. Rearranging the Formula
+To solve for $v$, we rearrange the equation:
+$$v^2 = rg \cdot \tan(\theta)$$
+$$v = \sqrt{rg \cdot \tan(\theta)}$$
+
+### 3. Calculation
+Substitute the given values into the equation:
+$$v = \sqrt{70 \times 9.8 \times \tan(15^\circ)}$$
+
+Calculate the values:
+$$\tan(15^\circ) \approx 0.2679$$
+$$v = \sqrt{70 \times 9.8 \times 0.2679}$$
+$$v = \sqrt{686 \times 0.2679}$$
+$$v = \sqrt{183.8194}$$
+$$v \approx 13.56\text{ m/s}$$
+
+Rounding to two significant figures (consistent with the provided data):
+**The speed is approximately $14\text{ m/s}$.**
+
+***
+
+###QUESTION_TYPE
+Calculation question

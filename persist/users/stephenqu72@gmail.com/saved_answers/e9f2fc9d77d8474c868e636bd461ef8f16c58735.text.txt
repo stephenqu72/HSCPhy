@@ -1,0 +1,21 @@
+To solve this problem, we must apply the physics of **impulse** and the **work-energy theorem** to vehicle safety.
+
+### Answer
+The correct answer is **B. Bianca**.
+
+### Explanation
+The goal of crumple zones in a car is to protect passengers by reducing the magnitude of the force experienced during a collision. Let's analyze the physics behind this:
+
+1.  **Work-Energy Theorem:** A car moving at velocity $v$ has a kinetic energy of $E_k = \frac{1}{2}mv^2$. To stop the car, this energy must be converted into other forms (heat, sound, and the work done to deform the metal). The crumple zone is designed to do "work" by deforming, thereby absorbing a significant portion of this **kinetic energy**. By dissipating this energy through structural deformation, less energy is transferred into the passenger compartment.
+
+2.  **Impulse-Momentum Theorem:** The change in momentum ($\Delta p$) is equal to the impulse ($F \times \Delta t$), where $F$ is the force and $\Delta t$ is the time duration of the impact. The equation is:
+    $$F_{avg} \Delta t = m \Delta v$$
+    Because the initial and final velocities are fixed by the crash conditions, the total change in momentum ($\Delta p = m \Delta v$) is constant. By allowing the car to crumple, the **time duration ($\Delta t$)** of the impact is increased. Since $F_{avg} = \frac{\Delta p}{\Delta t}$, increasing the time results in a **reduction of the average force ($F_{avg}$)** exerted on the passengers.
+
+**Why the others are less accurate in this context:**
+*   **Anna (Speed):** Speed is a scalar quantity; "absorbing speed" is not standard terminology in physics.
+*   **Chris (Momentum):** Momentum is conserved in the system (the car and the object it hits). You cannot "absorb" momentum in the sense of making it disappear; it is transferred.
+*   **Danshirou (Forces):** Forces are not "absorbed." A force is an interaction between two objects. While the statement in the prompt uses the word "forces," the *physics* is explained by the conversion of **kinetic energy** into work (deformation energy) and the lengthening of the impact time to reduce peak force. Bianca's identification of kinetic energy represents the fundamental energy transformation occurring during the crash.
+
+### QUESTION_TYPE
+Multiple choice

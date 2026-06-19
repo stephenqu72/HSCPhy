@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+Millikan used an atomizer to spray fine oil droplets into a chamber between two parallel metal plates. The droplets acquired a static charge through friction or by ionizing the air with X-rays. By adjusting the potential difference across the plates, Millikan created an electric field to exert an upward electrostatic force ($F_E = qE$) that countered the downward gravitational force ($F_g = mg$) on the droplet, holding it stationary. By observing the balance of forces, he calculated the charge $q$ on individual drops. He found that all measured charges were integer multiples of a fundamental value ($q = n \cdot e$), providing evidence for the quantization of charge.
+
+**Explanation:**
+To get full marks, you must link the physical method (the atomizer/plates) to the physics principle (force balance) and the conclusion (quantization). Remember: $qE = mg$. By measuring the voltage required to suspend the drop, $q$ can be isolated.
+
+#### Part (b)
+**Answer:**
+Adrian's results should be multiples of $1.59 \times 10^{-19}\text{ C}$.
+- $4.84 / 1.59 \approx 3.04$ (Close to $3e$)
+- $6.37 / 1.59 \approx 4.00$ (Close to $4e$)
+- $1.59 / 1.59 = 1.00$ (Exactly $1e$)
+- $3.93 / 1.59 \approx 2.47$ (Significant error; not an integer)
+- $8.03 / 1.59 \approx 5.05$ (Close to $5e$)
+
+**Assessment:** Oil drop 4 has a substantial error because the charge is not a clear integer multiple of the elementary charge. It suggests a measurement error in the voltage or the mass/velocity calculations.
+
+**Explanation:** Always divide the measured values by the accepted elementary charge to see if they result in near-integers. A non-integer result implies a procedural or systematic error in the experiment.
+
+#### Part (c)
+**Calculation:**
+1. Determine total charge $q$:
+   $$q = n \cdot e = 1000 \times 1.602 \times 10^{-19}\text{ C} = 1.602 \times 10^{-16}\text{ C}$$
+   *(Note: Using the value $1.59 \times 10^{-19}$ provided in the prompt's intro is also acceptable: $q = 1.59 \times 10^{-16}\text{ C}$)*
+2. Set forces equal for equilibrium:
+   $$F_E = F_g \implies qE = mg$$
+3. Rearrange for mass $m$:
+   $$m = \frac{qE}{g}$$
+4. Substitute values ($g = 9.8\text{ m/s}^2$):
+   $$m = \frac{1.59 \times 10^{-16} \times 250}{9.8}$$
+   $$m \approx 4.06 \times 10^{-15}\text{ kg}$$
+
+**Explanation:** This is a classic equilibrium problem. Since the droplet is "suspended," the net force is zero. You must equate the weight force to the electric force. Always ensure your units are in SI (Coulombs, Newtons, kg).
+
+###QUESTION_TYPE
+Calculation question

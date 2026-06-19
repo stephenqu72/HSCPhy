@@ -1,0 +1,28 @@
+As an HSC Physics teacher, I will guide you through the physics of circular motion on a banked track to help you select the correct answer.
+
+### Analysis of the Physics
+When a cyclist (or any object) undergoes circular motion on a banked track, they are constantly changing their direction of motion. According to Newton's First Law, an object in motion requires a net external force to change its direction. This net force directed toward the center of the circular path is called the **centripetal force**.
+
+1.  **Force Breakdown:** Two main forces act on the cyclist:
+    *   **Weight ($mg$):** Acting vertically downwards.
+    *   **Normal Force ($N$):** Acting perpendicular to the surface of the track.
+2.  **Vector Components:** The Normal Force can be resolved into two components:
+    *   A vertical component ($N \cos \theta$) that balances the weight ($mg$).
+    *   A horizontal component ($N \sin \theta$) that points toward the center of the circular path. This horizontal component provides the **centripetal force** required for the turn.
+
+### Evaluation of Options
+*   **(A) Incorrect:** If all forces were balanced, the net force would be zero, meaning the cyclist would travel in a straight line at a constant speed. Circular motion requires a non-zero net force (the centripetal force).
+*   **(B) Correct:** The resultant of the weight and the normal force provides the necessary inward-pointing net force, which is defined as the centripetal force.
+*   **(C) Incorrect:** The centripetal force is the *result* of the net force; it is not a "balancing" force that acts against components of motion.
+*   **(D) Incorrect:** The vertical component of the normal force ($N \cos \theta$) equals the weight. The component of the normal force perpendicular to the slope is simply the total normal force ($N$), which is actually larger than the weight ($N = mg / \cos \theta$).
+
+**Correct Answer:** **(B)**
+
+### How to solve this type of question
+1.  **Identify the Motion:** Recognize that "turning" implies circular motion. Circular motion *always* requires a net force acting toward the center of the circle.
+2.  **Draw a Free Body Diagram:** Always visualize or sketch the forces. You have the downward force of gravity and the reaction force from the track (normal force) acting at an angle.
+3.  **Use Newton’s Second Law:** Remember that $\sum F = ma$. Since the cyclist is accelerating toward the center of the turn (centripetal acceleration), the net force must be non-zero and directed inward.
+4.  **Eliminate:** Rule out "balanced forces" immediately whenever you see circular motion, as this would contradict the necessity of centripetal acceleration.
+
+###QUESTION_TYPE
+Multiple choice

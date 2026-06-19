@@ -1,0 +1,37 @@
+To solve this projectile motion problem, we use the **horizontal range formula**. 
+
+### 1. Identify the given variables:
+*   Horizontal range ($R$) = $15\text{ m}$
+*   Initial speed ($v$) = $20\text{ m/s}$
+*   Acceleration due to gravity ($g$) $\approx 9.8\text{ m/s}^2$
+*   Launch angle = $\theta$
+
+### 2. The Formula:
+Since the target is at the same vertical height as the release point, we use the range equation:
+$$R = \frac{v^2 \sin(2\theta)}{g}$$
+
+### 3. Step-by-step Calculation:
+Rearrange the formula to solve for $\sin(2\theta)$:
+$$\sin(2\theta) = \frac{R \cdot g}{v^2}$$
+
+Substitute the values:
+$$\sin(2\theta) = \frac{15 \times 9.8}{20^2}$$
+$$\sin(2\theta) = \frac{147}{400}$$
+$$\sin(2\theta) = 0.3675$$
+
+Now, find the value of $2\theta$ by taking the inverse sine:
+$$2\theta = \arcsin(0.3675)$$
+$$2\theta \approx 21.56^\circ$$
+
+Finally, solve for $\theta$:
+$$\theta = \frac{21.56^\circ}{2} \approx 10.78^\circ$$
+
+Rounding to the nearest option provided, we get $10.8^\circ$.
+
+**Correct Option: (B)**
+
+### Explanation for Students:
+In projectile motion, when the landing height equals the launch height, the trajectory is perfectly symmetrical. You can either use the range formula derived above or solve the vertical and horizontal components of motion independently by setting the displacement $\Delta y = 0$. By setting $v_y t - \frac{1}{2}gt^2 = 0$ and $v_x t = R$, you can verify that the same result is achieved. Always ensure your calculator is set to **Degree mode** when dealing with these physics problems.
+
+###QUESTION_TYPE
+Multiple choice

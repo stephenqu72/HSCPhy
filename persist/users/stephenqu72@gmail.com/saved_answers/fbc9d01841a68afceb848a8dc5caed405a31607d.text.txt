@@ -1,0 +1,35 @@
+To solve this problem, we use the de Broglie relationship, which connects the wavelength ($\lambda$) of a particle to its momentum ($p = mv$):
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+Where:
+*   $h$ is Planck's constant ($\approx 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$)
+*   $m$ is the mass
+*   $v$ is the velocity. For a photon, the velocity is the speed of light, $c$ ($\approx 3.0 \times 10^8 \text{ m/s}$).
+
+### Step-by-Step Calculation:
+
+1.  **Identify the given variables:**
+    *   $\lambda = 500 \text{ nm} = 500 \times 10^{-9} \text{ m} = 5.0 \times 10^{-7} \text{ m}$
+    *   $c = 3.0 \times 10^8 \text{ m/s}$
+    *   $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+
+2.  **Rearrange the formula to solve for mass ($m$):**
+    $$\lambda = \frac{h}{mc} \implies m = \frac{h}{\lambda c}$$
+
+3.  **Substitute the values into the equation:**
+    $$m = \frac{6.626 \times 10^{-34}}{(5.0 \times 10^{-7}) \times (3.0 \times 10^8)}$$
+
+4.  **Simplify the denominator:**
+    $$(5.0 \times 10^{-7}) \times (3.0 \times 10^8) = 15 \times 10^1 = 150$$
+
+5.  **Calculate the final mass:**
+    $$m = \frac{6.626 \times 10^{-34}}{150} \approx 0.4417 \times 10^{-34} \text{ kg}$$
+    $$m \approx 4.4 \times 10^{-36} \text{ kg}$$
+
+Comparing this result to the given options, it matches **Option A**.
+
+*Note: In reality, photons have a rest mass of zero; however, the question specifically asks to apply the de Broglie relationship as if the photon were a particle with mass.*
+
+###QUESTION_TYPE
+Multiple choice

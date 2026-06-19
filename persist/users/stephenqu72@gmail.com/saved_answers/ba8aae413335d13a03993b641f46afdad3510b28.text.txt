@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To determine the correct graph, we must look at the formula for the total mechanical energy ($E_T$) of a satellite in a stable circular orbit around a central mass ($M$):
+
+1.  **Total Energy Formula:** The total energy is the sum of the gravitational potential energy ($U$) and the kinetic energy ($K$). For a satellite of mass $m$ at orbital radius $r$:
+    $$E_T = U + K = -\frac{GMm}{r} + \frac{1}{2}\frac{GMm}{r} = -\frac{GMm}{2r}$$
+
+2.  **Analyzing the Relationship:**
+    *   The total energy $E_T$ is **negative** for all stable orbits. This indicates that the satellite is in a bound state.
+    *   As the orbital radius $r$ increases, the magnitude of the denominator ($2r$) increases. 
+    *   Since the value is negative (e.g., $-1/2, -1/4, -1/8$), as $r$ increases, the total energy $E_T$ moves closer to zero from below (it becomes "less negative," which is an increase in value).
+
+3.  **Evaluating the Graphs:**
+    *   We are looking for a graph where $E$ is always negative (below the horizontal axis) and approaches zero as $r$ increases.
+    *   Graph **B** shows the energy curve existing entirely in the negative region of the y-axis, starting from a very low negative value at small $r$ and asymptotically approaching zero as $r$ increases. This perfectly matches the relationship $E_T = -\frac{GMm}{2r}$.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+To solve this physics problem, we must understand the fundamental principles of projectile motion in the absence of air resistance.
+
+### Analysis of the Options:
+
+*   **(A) The instantaneous velocity at point $Y$ will be zero:** This is **incorrect**. Point $Y$ is the maximum height, where the vertical component of velocity ($v_y$) is $0$. However, the horizontal component of velocity ($v_x$) remains constant and non-zero throughout the flight. Therefore, the total velocity at point $Y$ equals $v_x$, which is not zero.
+*   **(B) The vertical component of the velocity is a constant:** This is **incorrect**. Due to the constant acceleration due to gravity ($g$) acting downwards, the vertical velocity changes continuously according to the equation $v_y = u_y + a_y t$.
+*   **(C) The instantaneous vertical velocity will be the same at launch as at landing at impact:** This is **incorrect**. While the *magnitude* is the same (assuming a level plane), the *direction* is opposite. At launch, the vertical velocity is upwards (positive), and at landing, it is downwards (negative). Thus, the velocities are not the same.
+*   **(D) The initial horizontal velocity on launch will be the same as the final horizontal velocity:** This is **correct**. In ideal projectile motion, there is no horizontal acceleration ($a_x = 0$) because we ignore air resistance. Therefore, the horizontal component of velocity remains constant throughout the entire trajectory.
+
+### Conclusion:
+The most correct statement is **(D)**.
+
+### How to solve this type of question:
+1.  **Deconstruct the motion:** Always split projectile motion into two independent components: horizontal ($x$) and vertical ($y$).
+2.  **Identify the forces:** Note that gravity acts *only* in the vertical direction. This means $a_y = -g$ and $a_x = 0$.
+3.  **Apply Kinematics:** Since $a_x = 0$, the horizontal velocity $v_x$ is constant. Since $a_y \neq 0$, the vertical velocity $v_y$ changes constantly.
+4.  **Evaluate:** Use these rules to systematically eliminate the incorrect options provided in the question.
+
+###QUESTION_TYPE
+Multiple choice

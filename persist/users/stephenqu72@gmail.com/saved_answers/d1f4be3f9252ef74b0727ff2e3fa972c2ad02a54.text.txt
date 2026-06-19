@@ -1,0 +1,20 @@
+To solve this question, we must look at the fundamental physics principles Robert Millikan utilized to determine the charge of an electron.
+
+### Answer
+The correct answer is **(B) Newton's Second Law**.
+
+### Explanation
+In the Millikan oil drop experiment, Millikan balanced forces acting on microscopic oil droplets suspended in an electric field. To perform his calculations, he set up a state of equilibrium.
+
+1.  **The physics of the experiment:** When the oil drop is held stationary (or moves at a constant terminal velocity), the forces acting on it are balanced.
+2.  **Newton's Second Law:** This law states that the net force on an object is equal to the mass of the object multiplied by its acceleration ($F_{net} = ma$). 
+3.  **Application:** In the experiment, when Millikan adjusted the electric field strength ($E$) to keep a charged oil drop suspended motionless, the acceleration of the drop was zero ($a = 0$). Therefore, the net force $F_{net}$ was zero. This allowed him to equate the upward electric force ($F_e = qE$) to the downward gravitational force ($F_g = mg$):
+    $$qE = mg$$
+4.  By isolating $q$ (the charge on the oil drop), Millikan was able to calculate the magnitude of the charge. Without the application of Newton's laws to establish this force equilibrium, he could not have derived the value of the elementary charge.
+
+*   (A) Newton's Third Law deals with interaction pairs, which is not the primary mechanism for determining individual drop charge.
+*   (C) While charge is conserved in the universe, it is not the principle used to calculate the value of the force balance.
+*   (D) The second law of thermodynamics is unrelated to the static or constant-velocity equilibrium of oil droplets.
+
+###QUESTION_TYPE
+Multiple choice

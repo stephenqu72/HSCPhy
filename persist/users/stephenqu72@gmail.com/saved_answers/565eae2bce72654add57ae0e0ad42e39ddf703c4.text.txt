@@ -1,0 +1,35 @@
+To determine the correct expression for the mass of the ball, we need to analyze the forces acting on the tether ball in uniform circular motion.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the Forces:**
+    *   The gravitational force $F_g = mg$ acts downwards.
+    *   The tension force $F_T$ acts along the string at an angle $\theta$ to the vertical.
+    *   The net force acting on the ball is the centripetal force $F_c$, which is directed horizontally toward the center of the circular path.
+
+2.  **Resolve the Tension into Components:**
+    *   The vertical component of tension must balance the weight of the ball because there is no vertical acceleration:
+        $$F_T \cos \theta = mg$$
+    *   The horizontal component of tension provides the centripetal force:
+        $$F_T \sin \theta = F_c = \frac{mv^2}{r}$$
+
+3.  **Relate the Components:**
+    Dividing the horizontal component by the vertical component allows us to cancel the tension $F_T$:
+    $$\frac{F_T \sin \theta}{F_T \cos \theta} = \frac{\frac{mv^2}{r}}{mg}$$
+    $$\tan \theta = \frac{mv^2}{r \cdot mg}$$
+    $$\tan \theta = \frac{v^2}{rg}$$
+
+4.  **Solve for $m$:**
+    Wait—revisiting the options provided, let's look at the vertical force equilibrium again:
+    From $F_T \cos \theta = mg$, we get:
+    $$m = \frac{F_T \cos \theta}{g}$$
+
+    Comparing this to the provided options, **Option A** is mathematically correct based on the force balance in the vertical plane.
+
+### Conclusion:
+The vertical component of the tension force is $F_T \cos \theta$. Since the ball is not accelerating vertically, this component must be equal to the gravitational force $F_g = mg$. Rearranging for $m$ gives $m = \frac{F_T \cos \theta}{g}$.
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

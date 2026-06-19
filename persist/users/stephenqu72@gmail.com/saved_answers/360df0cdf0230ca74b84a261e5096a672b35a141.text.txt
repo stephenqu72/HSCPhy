@@ -1,0 +1,17 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+To understand the purpose of a commutator in a DC generator, we must look at how electromagnetic induction functions within a rotating coil:
+
+1.  **The Nature of Induction:** As a coil rotates within a magnetic field, the magnetic flux passing through it changes continuously. According to Faraday’s Law and Lenz’s Law, this induces an alternating EMF (electromotive force). Within a single loop of wire, the direction of the induced current reverses every half-rotation as the sides of the coil pass through different magnetic poles.
+2.  **The Role of the Commutator:** A commutator is a split-ring device that rotates with the coil. Every time the coil passes the vertical position (where the induced current would normally reverse direction), the split-ring segments swap contact from one brush to the other.
+3.  **Rectification:** By swapping the connection to the external circuit at the exact moment the current reverses, the commutator ensures that the current flowing out into the external circuit always travels in the same direction. This process effectively converts the internal alternating current (AC) into a unidirectional, or "direct current" (DC), output.
+
+**Why the other options are incorrect:**
+*   **(A)** While a commutator can sometimes be associated with sparking due to the rapid breaking of contact, it is not its *purpose*. In fact, brush sparking is a technical challenge that engineers try to minimize, rather than the intended function of the component.
+*   **(B)** A simple split-ring commutator produces a pulsating DC output. To "smooth" the output, one would need multiple coils and a multi-segment commutator (or capacitors/filters), so this is not the primary purpose of a basic commutator.
+*   **(C)** The output voltage is primarily determined by factors like the number of turns in the coil, the magnetic field strength, and the speed of rotation (as per $\varepsilon = -N \frac{d\Phi}{dt}$), not by the presence of a commutator.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+To solve this physics problem, we need to analyze the components of motion for a projectile at the peak of its trajectory.
+
+### Answer
+The correct answer is **(C) $90^{\circ}$**.
+
+### Explanation
+To understand why the angle is $90^{\circ}$, let’s look at the two vectors involved:
+
+1.  **Acceleration ($a$):** For a projectile moving near Earth's surface, the only acceleration acting on the object throughout its entire flight is gravity ($g$). Gravity always acts vertically downward.
+2.  **Velocity ($v$):** The velocity vector at any point is tangent to the path of the projectile. We can split the velocity into two components:
+    *   Horizontal velocity ($v_x$): This remains constant throughout the flight because there is no air resistance.
+    *   Vertical velocity ($v_y$): This changes due to gravity. At the **highest point** of the trajectory, the vertical component of the velocity is momentarily zero ($v_y = 0$).
+
+Therefore, at the highest point, the projectile's velocity is purely horizontal ($v = v_x$). 
+
+Since the velocity vector is directed horizontally and the acceleration vector (gravity) is directed vertically downward, the angle between the horizontal velocity and the vertical acceleration is exactly $90^{\circ}$.
+
+###QUESTION_TYPE
+Multiple choice

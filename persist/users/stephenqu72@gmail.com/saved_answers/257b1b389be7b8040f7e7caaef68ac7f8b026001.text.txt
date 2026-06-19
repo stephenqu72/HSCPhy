@@ -1,0 +1,37 @@
+### Answer
+
+**Part a.**
+To achieve "zero gravity" (weightlessness), the passenger must be in a state of freefall. At the top of the arc, the centripetal force required to maintain the circular path must be provided entirely by gravity.
+
+The condition for weightlessness is:
+$$F_c = F_g$$
+$$\frac{mv^2}{r} = mg$$
+
+Canceling mass ($m$) from both sides, we get:
+$$\frac{v^2}{r} = g$$
+$$r = \frac{v^2}{g}$$
+
+Using $v = 180\text{ m s}^{-1}$ and $g \approx 9.8\text{ m s}^{-2}$:
+$$r = \frac{(180)^2}{9.8}$$
+$$r = \frac{32400}{9.8}$$
+$$r \approx 3306.12\text{ m}$$
+
+Rounding to significant figures (based on the provided data, 2 or 3 sig figs is appropriate):
+**$r \approx 3.3 \times 10^3\text{ m}$**
+
+**Part b.**
+No, the force of gravity is **not** zero. The passenger is still within Earth’s gravitational field at an altitude of $8000\text{ m}$, so they are still being pulled toward the Earth’s center. 
+
+The "zero gravity experience" refers to **apparent weightlessness**. This occurs because the passenger and the aircraft are both in freefall, accelerating downwards at the same rate ($g$). Since there is no normal force (or reaction force) acting between the passenger and the floor of the plane, the passenger feels weightless.
+
+***
+
+### How to solve it
+
+1.  **Understand the Physics:** Recognize that "zero gravity" in this context is equivalent to the state of uniform circular motion where the centripetal acceleration is provided solely by the acceleration due to gravity.
+2.  **Derive the Equation:** Start with Newton's Second Law for circular motion ($F_c = \frac{mv^2}{r}$) and equate it to the gravitational force ($F_g = mg$). By setting the normal force to zero, you simplify the expression to $g = \frac{v^2}{r}$.
+3.  **Calculate:** Plug in the velocity ($180\text{ m s}^{-1}$) and the gravitational constant ($9.8\text{ m s}^{-2}$) to solve for the radius.
+4.  **Conceptual Explanation:** Remember that gravity is a field force that acts regardless of motion. Distinguish clearly between the *force* of gravity (which remains constant) and the *sensation* of weight (which depends on the normal force).
+
+###QUESTION_TYPE
+Calculation question

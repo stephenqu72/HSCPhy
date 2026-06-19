@@ -1,0 +1,38 @@
+To determine the correct answer, we must analyze the physical requirements for an object to maintain a circular orbit around the Sun with the same period ($T$) as the Earth.
+
+### Analysis
+
+**1. Greatest Centripetal Force:**
+The centripetal force required for an object of mass $m$ to maintain a circular orbit of radius $r$ is given by:
+$$F_c = \frac{mv^2}{r} = m \omega^2 r$$
+Since all three points (L1, L2, L3) share the same angular velocity ($\omega = \frac{2\pi}{T}$) as the Earth, the required centripetal force is directly proportional to the orbital radius $r$. 
+Looking at the diagram, the distance of the Lagrange points from the Sun is:
+*   $r_{L1} < r_{Earth}$
+*   $r_{L2} > r_{Earth}$
+*   $r_{L3} \approx r_{Earth}$ (on the opposite side)
+
+Therefore, $r_{L2} > r_{L3} > r_{L1}$. Since $F_c \propto r$, the point with the **greatest radius (L2)** requires the greatest centripetal force to keep it in a circular orbit with the same period as the Earth.
+
+**2. Greatest Linear Velocity:**
+The linear velocity $v$ of an object in circular motion is given by:
+$$v = \omega r$$
+Again, because all three points share the same angular velocity $\omega$, the linear velocity is directly proportional to the orbital radius $r$.
+As established, $r_{L2}$ is the largest radius among the three points. Therefore, the point at **L2** will have the greatest linear velocity.
+
+### Conclusion
+Comparing these results to the options provided:
+*   Greatest centripetal force: **L2**
+*   Greatest linear velocity: **L2**
+
+This corresponds to **Option B**.
+
+---
+
+### How to solve this type of question:
+1.  **Identify the constraint:** The prompt explicitly states the satellites have the same period ($T$) as the Earth. This means they share the same angular velocity ($\omega$).
+2.  **Relate variables:** Use the formulas for circular motion where $F_c = m\omega^2r$ and $v = \omega r$.
+3.  **Evaluate radii:** Use the provided diagram to visually compare the distances ($r$) from the Sun for each point.
+4.  **Logical deduction:** Once you establish that both $F_c$ and $v$ are directly proportional to $r$ when $\omega$ is constant, simply identify the point with the largest radius from the center (the Sun).
+
+###QUESTION_TYPE
+Multiple choice

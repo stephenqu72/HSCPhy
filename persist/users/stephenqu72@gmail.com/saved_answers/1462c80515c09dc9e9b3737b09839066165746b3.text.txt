@@ -1,0 +1,28 @@
+To determine the torque around the axis $O$, we use the formula for the magnitude of torque:
+$$\tau = rF \sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   $r = 1.2\text{ m}$ (the distance from the axis of rotation $O$ to the point where the force is applied).
+    *   $F = 6.4\text{ N}$ (the magnitude of the applied force).
+    *   $\theta = 40^\circ$ (the angle between the radial vector and the force vector).
+
+2.  **Calculate the magnitude:**
+    Substitute the values into the torque formula:
+    $$\tau = 1.2 \times 6.4 \times \sin(40^\circ)$$
+    $$\tau = 7.68 \times 0.642787...$$
+    $$\tau \approx 4.94\text{ Nm}$$
+
+3.  **Determine the direction:**
+    By observing the diagram and applying the right-hand rule (or simply visualizing the rotation), the force $\vec{F}$ is being applied in a way that would cause the lever arm to rotate in a **clockwise** direction around point $O$. In many physics conventions, clockwise torque is considered negative, while counter-clockwise is positive; however, stating the direction as "clockwise" is the clearest answer.
+
+**Final Answer:**
+*   **Magnitude:** $4.94\text{ Nm}$ (rounded to 3 significant figures).
+*   **Direction:** Clockwise.
+
+### How to solve it:
+When dealing with torque problems involving an angle, you must ensure you are using the component of the force that is perpendicular to the lever arm. The expression $F \sin(\theta)$ extracts the perpendicular component of the force. Once you have the perpendicular force, you simply multiply it by the length of the lever arm ($r$). Always remember to check the geometry: if $\theta$ were given as the angle between the force and the lever arm itself, $\sin(\theta)$ is the correct component. If the angle provided is the complement, you would use $\cos(\theta)$. In this specific diagram, the angle is provided such that $\sin(40^\circ)$ correctly identifies the component perpendicular to $r$.
+
+###QUESTION_TYPE
+Calculation question

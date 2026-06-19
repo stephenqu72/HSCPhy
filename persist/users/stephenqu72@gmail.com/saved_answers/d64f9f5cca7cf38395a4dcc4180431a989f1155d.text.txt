@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Part (a)
+**Calculation:**
+Pressure is defined as $P = \frac{F}{A}$.
+Given:
+- Force $F = 208\ \mu\text{N} = 208 \times 10^{-6}\ \text{N}$
+- Area $A = 5.00\ \text{cm}^2 = 5.00 \times 10^{-4}\ \text{m}^2$
+
+1. **Calculate the central value of Pressure:**
+   $$P = \frac{208 \times 10^{-6}\ \text{N}}{5.00 \times 10^{-4}\ \text{m}^2} = 0.416\ \text{Pa}$$
+
+2. **Calculate the uncertainty using relative errors:**
+   Since uncertainty is added when dividing (using relative uncertainties):
+   $$\frac{\Delta P}{P} = \frac{\Delta F}{F} + \frac{\Delta A}{A}$$
+   $$\frac{\Delta P}{0.416} = \frac{10.4}{208} + \frac{0.05}{5.00}$$
+   $$\frac{\Delta P}{0.416} = 0.05 + 0.01 = 0.06$$
+   $$\Delta P = 0.06 \times 0.416 = 0.02496 \approx 0.025\ \text{Pa}$$
+
+**Result:** The pressure is $(0.416 \pm 0.025)\ \text{Pa}$.
+
+---
+
+#### Part (b)
+**Execution:** A line of best fit should be drawn starting from the origin $(0,0)$ and passing through the center of all error bars.
+**Comment:** The hypothesis is correct. Because the data points (within the range of their error bars) align closely with a straight line passing through the origin, we can conclude that the relationship between pressure and depth is linear, consistent with the formula $P = \rho gh$.
+
+---
+
+#### Part (c)
+**Explanation:**
+*   **Systematic error:** A consistent, repeatable error that occurs in every measurement, usually due to faulty equipment or an incorrect calibration (e.g., a "zero error" where the device doesn't read zero when it should).
+*   **Impact on the line of best fit:** A systematic error in depth would shift the entire line of best fit horizontally (left or right). If the depth gauge was offset, the line would no longer pass through the origin $(0,0)$, but would instead have a non-zero $x$-intercept.
+
+### QUESTION_TYPE
+Data analysis questions

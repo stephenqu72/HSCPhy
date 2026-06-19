@@ -1,0 +1,35 @@
+To find the acceleration due to gravity on the surface of Planet Y, we use the formula for gravitational acceleration at the surface of a spherical body:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+- $G$ is the universal gravitational constant.
+- $M$ is the mass of the planet.
+- $r$ is the radius of the planet.
+
+### Step-by-Step Solution:
+
+1. **Define Earth's gravity:**
+   Let the mass of Earth be $M_E$ and its radius be $R_E$. The acceleration due to gravity on Earth is:
+   $$g = \frac{GM_E}{R_E^2}$$
+
+2. **Define Planet Y's parameters:**
+   We are told Planet Y has twice the mass of Earth ($M_Y = 2M_E$) and half the radius of Earth ($r_Y = \frac{1}{2}R_E$).
+
+3. **Calculate gravity for Planet Y ($g_Y$):**
+   Substitute the new values into the formula:
+   $$g_Y = \frac{G(2M_E)}{(\frac{1}{2}R_E)^2}$$
+
+4. **Simplify the expression:**
+   $$g_Y = \frac{2GM_E}{\frac{1}{4}R_E^2}$$
+   $$g_Y = 2 \times 4 \times \frac{GM_E}{R_E^2}$$
+   $$g_Y = 8 \left( \frac{GM_E}{R_E^2} \right)$$
+
+5. **Substitute $g$ back in:**
+   Since $g = \frac{GM_E}{R_E^2}$, we get:
+   $$g_Y = 8g$$
+
+Comparing this result to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

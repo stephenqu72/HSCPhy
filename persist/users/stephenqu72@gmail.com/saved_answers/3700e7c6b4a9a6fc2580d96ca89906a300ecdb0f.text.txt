@@ -1,0 +1,32 @@
+### Question 2 Solutions
+
+#### a. Explain why geostationary satellites must be vertically above the equator to remain stationary relative to Earth’s surface.
+
+**Answer:**
+A geostationary orbit requires the satellite to undergo circular motion centered on the Earth's axis of rotation. The gravitational force acting on the satellite is directed toward the center of the Earth. This force provides the necessary centripetal force for the orbit. If the orbit were not above the equator, the plane of the satellite's orbit would not pass through the center of the Earth (the center of rotation), meaning the gravitational force would not be aligned with the required centripetal acceleration, causing the orbit to shift over time. Thus, the orbital plane must coincide with the equatorial plane.
+
+#### b. Using $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$, $M_E = 5.98 \times 10^{24} \text{ kg}$ and $R_E = 6.37 \times 10^6 \text{ m}$, show that the altitude of a geostationary satellite must be equal to $3.59 \times 10^7 \text{ m}$.
+
+**Explanation:**
+To solve this, equate the gravitational force to the centripetal force:
+$$\frac{GM_Em}{r^2} = \frac{mv^2}{r} = mr\omega^2 = mr \left(\frac{2\pi}{T}\right)^2$$
+Rearranging for the orbital radius $r$:
+$$r^3 = \frac{GMT^2}{4\pi^2}$$
+1. Plug in values: $G = 6.67 \times 10^{-11}$, $M = 5.98 \times 10^{24}$, $T = 86400$.
+$$r^3 = \frac{(6.67 \times 10^{-11})(5.98 \times 10^{24})(86400)^2}{4\pi^2} \approx 7.53 \times 10^{22} \text{ m}^3$$
+2. Solve for $r$:
+$$r = \sqrt[3]{7.53 \times 10^{22}} \approx 4.226 \times 10^7 \text{ m}$$
+3. Find altitude $h = r - R_E$:
+$$h = 4.226 \times 10^7 - 0.637 \times 10^7 = 3.589 \times 10^7 \text{ m} \approx 3.59 \times 10^7 \text{ m}$$
+
+#### c. Calculate the speed of an orbiting geostationary satellite.
+
+**Explanation:**
+The speed $v$ is given by the distance traveled in one orbit divided by the period $T$:
+$$v = \frac{2\pi r}{T}$$
+Using $r = 4.226 \times 10^7 \text{ m}$ (calculated in part b) and $T = 86400 \text{ s}$:
+$$v = \frac{2 \times \pi \times 4.226 \times 10^7}{86400}$$
+$$v \approx 3072 \text{ m/s} \text{ (or } 3.07 \times 10^3 \text{ m/s)}$$
+
+###QUESTION_TYPE
+Calculation question

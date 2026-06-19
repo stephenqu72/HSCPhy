@@ -1,0 +1,26 @@
+The correct answer is **(A) quarter.**
+
+### Explanation
+
+To solve this problem, we use the formula for gravitational field strength ($g$) at the surface of a spherical body:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+- $G$ is the universal gravitational constant.
+- $M$ is the mass of the Earth.
+- $r$ is the radius of the Earth.
+
+**Step-by-step logic:**
+
+1.  **Identify the relationship:** The formula shows that gravitational field strength is inversely proportional to the square of the radius ($g \propto \frac{1}{r^2}$).
+2.  **Apply the change:** The problem states that the radius $r$ is doubled, meaning the new radius $r'$ is $2r$.
+3.  **Substitute into the proportionality:**
+    $$g' \propto \frac{1}{(2r)^2}$$
+    $$g' \propto \frac{1}{4r^2}$$
+4.  **Compare to the original:** Since $g \propto \frac{1}{r^2}$, the new field strength $g'$ is $\frac{1}{4}$ of the original field strength $g$.
+
+Therefore, if the radius doubles while the mass remains constant, the gravitational field strength becomes a **quarter** of its original value.
+
+###QUESTION_TYPE
+Multiple choice

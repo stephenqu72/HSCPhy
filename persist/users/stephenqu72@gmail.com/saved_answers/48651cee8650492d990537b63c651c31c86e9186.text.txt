@@ -1,0 +1,39 @@
+To solve this problem, we must break the vertical motion of the projectile into two distinct segments. We will assume standard gravity $g = 9.8\text{ ms}^{-2}$.
+
+### Step 1: Initial Parameters
+The initial vertical velocity is:
+$$u_y = u \sin(\theta) = 50 \sin(30^\circ) = 50 \times 0.5 = 25\text{ ms}^{-1}$$
+
+The peak of a standard trajectory occurs when $v_y = 0$. The height to the peak ($H_{peak}$) is:
+$$H_{peak} = \frac{u_y^2}{2g} = \frac{25^2}{2 \times 9.8} \approx 31.89\text{ m}$$
+
+### Step 2: Analyze the two segments
+The problem states the external force starts acting **midway to the peak**. 
+- The height of the midpoint is $h_1 = \frac{H_{peak}}{2} = \frac{31.89}{2} = 15.945\text{ m}$.
+- We need the vertical velocity at this midpoint ($v_{mid}$). Using $v^2 = u^2 + 2as$:
+$$v_{mid}^2 = u_y^2 - 2g(h_1) = 25^2 - 2(9.8)(15.945) = 625 - 312.5 = 312.5$$
+$$v_{mid} = \sqrt{312.5} \approx 17.68\text{ ms}^{-1}$$
+
+### Step 3: Calculate the additional height ($h_2$)
+At the midpoint, an upward force is applied such that the net vertical force is halved. The new net acceleration is $a_{new} = -\frac{g}{2} = -4.9\text{ ms}^{-2}$.
+The projectile continues to rise until its velocity becomes zero. Using $v_f^2 = v_{mid}^2 + 2a_{new}h_2$:
+$$0 = 312.5 + 2(-4.9)h_2$$
+$$9.8h_2 = 312.5$$
+$$h_2 = \frac{312.5}{9.8} \approx 31.89\text{ m}$$
+
+### Step 4: Total Maximum Height
+The total maximum height $H_{max} = h_1 + h_2$:
+$$H_{max} = 15.945 + 31.89 = 47.835\text{ m}$$
+
+Rounding to the nearest whole number, we get **48 m**.
+
+Comparing this to the options:
+A. 46 m
+B. 47 m
+C. 48 m
+D. 49 m
+
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

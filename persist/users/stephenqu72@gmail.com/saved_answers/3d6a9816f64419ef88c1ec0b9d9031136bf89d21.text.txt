@@ -1,0 +1,38 @@
+To solve this projectile motion problem, we must treat horizontal and vertical components of motion independently.
+
+**Given:**
+*   Horizontal velocity $v_x = 8.00\text{ ms}^{-1}$
+*   Time to return to original height (time of flight for the symmetric part) $t_1 = 3.00\text{ s}$
+*   Additional time to reach the ground $t_2 = 0.11\text{ s}$
+*   Total time of flight $T = 3.00 + 0.11 = 3.11\text{ s}$
+*   Acceleration due to gravity $g = 9.8\text{ ms}^{-2}$ (acting downwards)
+
+---
+
+### (a) Calculate the horizontal range
+The range $R$ is the total horizontal distance covered during the total time of flight.
+$$R = v_x \times T = 8.00 \times 3.11 = 24.88\text{ m}$$
+
+### (b) Calculate the vertical component of initial velocity ($v_{iy}$)
+In projectile motion, returning to the original height takes $3.00\text{ s}$. The time to reach the peak is half of this, $t_{peak} = 1.50\text{ s}$. At the peak, the vertical velocity is $0$.
+Using $v_f = v_{iy} + at$:
+$$0 = v_{iy} + (-9.8 \times 1.50)$$
+$$v_{iy} = 14.7\text{ ms}^{-1}$$
+
+### (c) Calculate the initial angle of projection ($\theta$)
+The angle $\theta$ is found using the relationship between the horizontal and vertical components of the initial velocity:
+$$\tan(\theta) = \frac{v_{iy}}{v_x} = \frac{14.7}{8.00} = 1.8375$$
+$$\theta = \tan^{-1}(1.8375) \approx 61.4^\circ$$
+
+### (d) Calculate the height at which Lauren threw the ball ($h$)
+The ball falls below its original release point during the final $0.11\text{ s}$. At the moment it passes the release height (at $t = 3.00\text{ s}$), its vertical velocity is $-v_{iy}$ (due to symmetry).
+So, at $t = 3.00\text{ s}$, $v_{y} = -14.7\text{ ms}^{-1}$.
+Now, look at the final $0.11\text{ s}$ interval:
+$u = -14.7\text{ ms}^{-1}$, $t = 0.11\text{ s}$, $a = -9.8\text{ ms}^{-2}$
+$$\Delta y = ut + \frac{1}{2}at^2$$
+$$\Delta y = (-14.7 \times 0.11) + \frac{1}{2}(-9.8)(0.11)^2$$
+$$\Delta y = -1.617 - 0.05929 = -1.67629\text{ m}$$
+The height $h$ is the magnitude of this displacement: $h \approx 1.68\text{ m}$.
+
+###QUESTION_TYPE
+Calculation question

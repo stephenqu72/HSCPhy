@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this question, we must understand the physical definitions of momentum and kinetic energy, and how they relate to the properties of a stable circular orbit.
+
+1.  **Momentum ($\vec{p}$):** Momentum is a **vector** quantity defined as $\vec{p} = m\vec{v}$, where $m$ is mass and $\vec{v}$ is velocity. While the ISS maintains a constant *speed* in a stable circular orbit, its *velocity* is constantly changing because its direction of motion is changing at every point along the circular path. Since the direction of the velocity vector changes, the momentum vector must also change. Therefore, **momentum is not constant**.
+
+2.  **Kinetic Energy ($K$):** Kinetic energy is a **scalar** quantity defined as $K = \frac{1}{2}mv^2$. In a stable circular orbit, the gravitational force acts as a centripetal force perpendicular to the velocity. Because there is no component of force acting in the direction of motion, there is no work done on the ISS ($W = Fs \cos\theta$). Since no work is being done, the speed ($v$) of the ISS remains constant throughout the orbit. Because mass and speed are constant, the kinetic energy must remain **constant**.
+
+**Conclusion:**
+*   Momentum changes because the direction of velocity changes (vector property).
+*   Kinetic energy remains constant because the speed remains constant (scalar property).
+
+This aligns perfectly with statement **D**.
+
+### QUESTION_TYPE
+Multiple choice

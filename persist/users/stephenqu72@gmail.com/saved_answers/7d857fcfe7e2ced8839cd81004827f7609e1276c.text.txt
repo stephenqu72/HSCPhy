@@ -1,0 +1,37 @@
+To solve for the magnetic permeability constant $\mu_0$, we use the formula for the force per unit length between two long, parallel, current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+Since $I_1 = I_2 = I = 25.5\text{ A}$, the formula becomes:
+$$\frac{F}{L} = \frac{\mu_0 I^2}{2\pi r}$$
+
+### Step 1: Convert all values to SI units
+*   Length of wires $L = 70.0\text{ cm} = 0.700\text{ m}$
+*   Separation $r = 0.50\text{ cm} = 0.0050\text{ m}$
+*   Change in mass $\Delta m = 0.500\text{ g} = 0.000500\text{ kg}$
+*   Force $F = \Delta m \cdot g = 0.000500\text{ kg} \times 9.8\text{ m/s}^2 = 0.0049\text{ N}$ (using $g \approx 9.8\text{ m/s}^2$)
+
+### Step 2: Rearrange the formula to solve for $\mu_0$
+$$\mu_0 = \frac{F \cdot 2\pi r}{L \cdot I^2}$$
+
+### Step 3: Substitute the values
+$$\mu_0 = \frac{0.0049 \times 2 \times \pi \times 0.0050}{0.700 \times (25.5)^2}$$
+$$\mu_0 = \frac{0.000153938}{455.3925} \approx 3.38 \times 10^{-7} \approx 3.4 \times 10^{-7}$$
+
+The correct answer is **(A)**.
+
+***
+
+### Question 6 Explanation
+To find the measurement with the greatest relative error, we compare the precision of the measurements:
+*   **Length ($L$):** $70.0\text{ cm}$. Uncertainty $\approx 0.1\text{ cm}$. Relative error: $0.1/70.0 \approx 0.14\%$.
+*   **Separation ($r$):** $0.50\text{ cm}$. Uncertainty $\approx 0.01\text{ cm}$. Relative error: $0.01/0.50 = 2.0\%$.
+*   **Current ($I$):** $25.5\text{ A}$. Uncertainty $\approx 0.1\text{ A}$. Relative error: $0.1/25.5 \approx 0.39\%$.
+*   **Balance reading ($\Delta m$):** $0.500\text{ g}$. Uncertainty $\approx 0.001\text{ g}$. Relative error: $0.001/0.500 = 0.2\%$.
+
+The separation of the wires ($0.50\text{ cm}$) has the smallest number of significant figures and the smallest absolute value relative to its uncertainty, resulting in the largest percentage (relative) error.
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

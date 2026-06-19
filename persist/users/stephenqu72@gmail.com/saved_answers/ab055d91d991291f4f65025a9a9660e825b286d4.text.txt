@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **A. 0 J**.
+
+---
+
+### Explanation
+To solve this problem, we need to understand the relationship between work, force, and electric potential in a uniform electric field.
+
+1.  **The Electric Field:** Between two large parallel plates, the electric field $E$ is uniform and directed from the positive plate to the negative plate.
+2.  **Work and Potential:** The work $W$ done on a charge $q$ moving in an electric field is given by the formula:
+    $$W = -q \Delta V$$
+    where $\Delta V$ is the change in electric potential.
+3.  **Equipotential Lines:** In a system of parallel plates, the equipotential lines are planes parallel to the plates themselves. This means that moving along a line that is *parallel* to the plates does not result in a change in electric potential ($\Delta V = 0$).
+4.  **Application:** The question states that the proton is moved **parallel to the positive plate**. Because it is moving along an equipotential surface, there is no change in potential energy, and therefore, no work is done by the electric field on the proton.
+
+Mathematically, the force exerted by the electric field on the proton is directed perpendicular to the plates. Since the displacement is parallel to the plates, the angle $\theta$ between the force vector and the displacement vector is $90^{\circ}$. Using the work formula $W = Fd \cos(\theta)$:
+$$W = Fd \cos(90^{\circ}) = Fd(0) = 0 \text{ J}$$
+
+Therefore, the work done is $0 \text{ J}$.
+
+###QUESTION_TYPE
+Multiple choice

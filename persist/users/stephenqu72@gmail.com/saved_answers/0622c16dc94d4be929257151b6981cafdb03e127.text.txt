@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this, we must analyze the physics of horizontal projectile motion.
+
+**1. Time of Flight:**
+For an arrow fired horizontally at speed $v$ over a distance $d$, the time of flight $t$ is determined by the horizontal motion:
+$$t = \frac{d}{v}$$
+Since the speed $v$ is identical for both shots, the time of flight is directly proportional to the distance $d$. Because the distance for the second event ($50.0\text{ m}$) is shorter than the first ($70.0\text{ m}$), the time of flight for the second arrow must be **shorter**.
+
+**2. Vertical Displacement (Drop):**
+Because the arrows are released horizontally, the initial vertical velocity is $u_y = 0$. The vertical displacement $y$ (the distance the arrow falls below the bullseye) is given by the kinematic equation:
+$$y = u_y t + \frac{1}{2}gt^2$$
+Since $u_y = 0$, this simplifies to:
+$$y = \frac{1}{2}gt^2$$
+Substituting $t = \frac{d}{v}$ into the equation gives:
+$$y = \frac{1}{2}g\left(\frac{d}{v}\right)^2$$
+This shows that the vertical drop $y$ is proportional to the square of the distance $d$. 
+
+*   For the **first arrow** ($70\text{ m}$), it travels for a longer time, resulting in a larger value for $y$. Therefore, it hits the target significantly lower than the bullseye.
+*   For the **second arrow** ($50\text{ m}$), it travels for a shorter time, resulting in a smaller value for $y$. Therefore, it hits the target higher (closer to the bullseye) than the first arrow.
+
+Consequently, the first arrow hits the target lower than the second arrow, and the time of flight for the second arrow is shorter. This matches statement **C**.
+
+### QUESTION_TYPE
+Multiple choice

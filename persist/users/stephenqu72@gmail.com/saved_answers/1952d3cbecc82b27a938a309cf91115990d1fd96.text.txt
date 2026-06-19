@@ -1,0 +1,18 @@
+### Answer and Explanation
+
+**Part (a)**
+*   **Answer:** The kinetic energy of the space probe is lower in the higher orbit compared to the lower orbit.
+*   **Explanation:** For a satellite in a stable circular orbit, the gravitational force provides the centripetal force:
+    $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+    This simplifies to $v^2 = \frac{GM}{r}$, meaning $v = \sqrt{\frac{GM}{r}}$. As the orbital radius $r$ increases, the orbital velocity $v$ must decrease. Since kinetic energy is given by $K = \frac{1}{2}mv^2 = \frac{GMm}{2r}$, an increase in $r$ directly results in a decrease in kinetic energy.
+
+**Part (b)**
+*   **Answer:** Energy must be added because the total mechanical energy of the probe increases as it moves to a higher orbit.
+*   **Explanation:** The total mechanical energy ($E_{total}$) of a satellite in a circular orbit is the sum of its kinetic and gravitational potential energy. This is represented by the formula:
+    $$E_{total} = -\frac{GMm}{2r}$$
+    As the probe moves to a higher orbit, $r$ increases. Because the term $\frac{GMm}{2r}$ becomes smaller, the negative total energy becomes "less negative" (i.e., it increases in value toward zero). Since the final total energy is greater than the initial total energy, external work (provided by the rocket engines) is required to supply the difference in energy.
+
+***
+
+###QUESTION_TYPE
+Short answer

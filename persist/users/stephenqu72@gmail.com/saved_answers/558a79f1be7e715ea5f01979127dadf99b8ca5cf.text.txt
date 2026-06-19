@@ -1,0 +1,31 @@
+To solve these problems, we use the formula for torque ($\tau$):
+$$\tau = r F \sin(\theta)$$
+where $r$ is the distance from the pivot (the length of the spanner), $F$ is the applied force, and $\theta$ is the angle between the force and the lever arm.
+
+### (a) What torque did the astronaut apply?
+
+**Explanation:**
+1.  **Identify variables:** The length $r = 46\text{ cm} = 0.46\text{ m}$. The force $F = 92\text{ N}$. Since the force is applied "perpendicular to the radius," $\theta = 90^\circ$.
+2.  **Calculation:**
+    $$\tau = 0.46\text{ m} \times 92\text{ N} \times \sin(90^\circ)$$
+    $$\tau = 0.46 \times 92 \times 1 = 42.32\text{ Nm}$$
+
+**Answer:** The torque applied is $42.32\text{ Nm}$.
+
+---
+
+### (b) If the force was applied at an angle of $50^\circ$ to the spanner length, how much force would the astronaut need to apply in order to produce the same torque as in part (a)?
+
+**Explanation:**
+1.  **Identify variables:** We want the same torque, so $\tau = 42.32\text{ Nm}$. The radius $r = 0.46\text{ m}$. The angle $\theta = 50^\circ$. We need to find the new force $F'$.
+2.  **Rearrange the formula:**
+    $$F' = \frac{\tau}{r \sin(\theta)}$$
+3.  **Calculation:**
+    $$F' = \frac{42.32}{0.46 \times \sin(50^\circ)}$$
+    $$F' = \frac{42.32}{0.46 \times 0.766}$$
+    $$F' = \frac{42.32}{0.3524} \approx 120.09\text{ N}$$
+
+**Answer:** The astronaut would need to apply approximately $120.09\text{ N}$ of force.
+
+###QUESTION_TYPE
+Calculation question

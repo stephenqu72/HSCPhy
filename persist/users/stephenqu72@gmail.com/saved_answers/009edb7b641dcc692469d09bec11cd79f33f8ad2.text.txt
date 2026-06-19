@@ -1,0 +1,25 @@
+To answer this question, we must look at the physics of parallel plate capacitors connected to a constant voltage source.
+
+### The Physics Explanation
+The electric field strength $E$ between two parallel metal plates is defined by the relationship between the potential difference $V$ across the plates and the distance $d$ separating them:
+
+$$E = \frac{V}{d}$$
+
+In this scenario, the plates are connected to a **constant high voltage source**. This means that $V$ is a constant value. As the distance $d$ between the plates is increased, $V$ remains fixed while the denominator ($d$) grows larger. 
+
+Mathematically, this represents an **inverse relationship** ($E \propto \frac{1}{d}$). As $d$ increases, the value of $E$ must decrease according to a reciprocal curve. Looking at the provided options:
+*   (A) shows an inverse relationship (a reciprocal curve), where $E$ decreases as $d$ increases.
+*   (B) suggests $E$ is constant, which would only be true if $V$ were adjusted alongside $d$.
+*   (C) suggests $E$ increases with $d$, which is incorrect.
+*   (D) shows a linear decrease, which does not match the inverse mathematical relationship of the equation.
+
+Therefore, the correct graph is **(A)**.
+
+### How to solve it
+1.  **Identify the variables:** Note that $V$ is constant and we are observing how $E$ changes with respect to $d$.
+2.  **Recall the relevant formula:** Use the uniform electric field equation $E = \frac{V}{d}$.
+3.  **Analyze the mathematical relationship:** Since $E$ is inversely proportional to $d$, as $d$ gets larger, $E$ must get smaller following the curve of a hyperbola (or reciprocal function).
+4.  **Select the graph:** Match the inverse relationship to the curve shown in graph (A).
+
+###QUESTION_TYPE
+Multiple choice

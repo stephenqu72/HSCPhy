@@ -1,0 +1,33 @@
+To find the strength of the magnetic field, we use the formula for the magnetic force experienced by a moving charged particle:
+
+$$F = qvB \sin(\theta)$$
+
+### Given Information:
+*   **Force ($F$):** $3.2 \times 10^{-14}\text{ N}$
+*   **Velocity ($v$):** $2.0 \times 10^6\text{ m s}^{-1}$
+*   **Charge of a proton ($q$):** $1.602 \times 10^{-19}\text{ C}$ (standard physical constant)
+*   **Angle ($\theta$):** $90^\circ$ (since the proton moves "perpendicular" to the magnetic field, $\sin(90^\circ) = 1$)
+
+### Step-by-Step Calculation:
+1.  **Rearrange the formula to solve for $B$:**
+    $$B = \frac{F}{qv \sin(\theta)}$$
+
+2.  **Substitute the known values:**
+    $$B = \frac{3.2 \times 10^{-14}}{(1.602 \times 10^{-19}) \times (2.0 \times 10^6) \times 1}$$
+
+3.  **Simplify the denominator:**
+    $$(1.602 \times 10^{-19}) \times (2.0 \times 10^6) \approx 3.204 \times 10^{-13}$$
+
+4.  **Calculate $B$:**
+    $$B \approx \frac{3.2 \times 10^{-14}}{3.2 \times 10^{-13}} \approx 0.1\text{ T}$$
+
+Comparing our result to the options provided:
+(A) $0.08\text{ T}$
+(B) $0.10\text{ T}$
+(C) $0.24\text{ T}$
+(D) $0.32\text{ T}$
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,35 @@
+### Answer
+The correct answer is **C) V/1.4**.
+
+---
+
+### Explanation
+To solve this problem, we use the formula for the orbital velocity ($v$) of a satellite in a circular orbit around a central body:
+
+$$v = \sqrt{\frac{GM}{r}}$$
+
+Where:
+- $G$ is the gravitational constant
+- $M$ is the mass of the Earth
+- $r$ is the radius of the orbit from the centre of the Earth
+
+**Step 1: Define the velocity of Aries**
+For satellite Aries at distance $R$:
+$$V_{Aries} = V = \sqrt{\frac{GM}{R}}$$
+
+**Step 2: Define the velocity of Gemini**
+For satellite Gemini at distance $2R$:
+$$V_{Gemini} = \sqrt{\frac{GM}{2R}}$$
+
+**Step 3: Relate Gemini's velocity to V**
+We can factor out the constant terms from Gemini's expression:
+$$V_{Gemini} = \sqrt{\frac{1}{2}} \times \sqrt{\frac{GM}{R}}$$
+$$V_{Gemini} = \frac{1}{\sqrt{2}} \times V$$
+
+Since $\sqrt{2} \approx 1.414$, we can approximate this as:
+$$V_{Gemini} \approx \frac{V}{1.4}$$
+
+Thus, Gemini's orbital velocity is $V$ divided by approximately $1.4$.
+
+###QUESTION_TYPE
+Multiple choice

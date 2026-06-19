@@ -1,0 +1,23 @@
+To determine the correct answer, we must apply the **Law of Conservation of Energy**.
+
+### Answer
+The correct answer is **C. $h = H$**.
+
+### Explanation
+1.  **Mechanical Energy Principle:** The total mechanical energy ($E_{total}$) of a system is the sum of its gravitational potential energy ($PE$) and kinetic energy ($KE$).
+    $$E_{total} = PE + KE = mgh + \frac{1}{2}mv^2$$
+2.  **Initial State:** At the starting point at height $h$, the ski jumper is essentially starting from rest (or has negligible initial kinetic energy). Therefore, the initial total energy is primarily potential energy:
+    $$E_{initial} = mgh$$
+3.  **Conservation of Energy:** The problem explicitly states to **neglect energy losses** due to air resistance and friction. This means the mechanical energy of the system is conserved throughout the motion. 
+4.  **Final State:** At the maximum height $H$ reached after leaving the track, the vertical velocity of the jumper momentarily becomes zero. At this peak point, all remaining energy in the system is again gravitational potential energy:
+    $$E_{final} = mgH$$
+5.  **Equating Energy:** Because no energy is lost to the environment (non-conservative forces are ignored):
+    $$E_{initial} = E_{final}$$
+    $$mgh = mgH$$
+    Dividing both sides by $mg$, we find:
+    $$h = H$$
+
+Therefore, in an idealized system without friction or air resistance, the jumper will return to exactly the same height from which they started.
+
+### QUESTION_TYPE
+Multiple choice

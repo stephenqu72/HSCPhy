@@ -1,0 +1,24 @@
+### Answer
+The correct option is **(A)**.
+
+### Explanation
+To understand this projectile motion problem, we must analyze the forces acting on the object in both the vertical and horizontal planes.
+
+**1. Effect on Vertical Motion (Time of Flight):**
+When air resistance is included, an upward drag force acts on the falling object. The net vertical force is $F_{net} = mg - F_{drag}$. Since the net downward force is reduced compared to the vacuum scenario ($F_{net} = mg$), the downward acceleration $a$ is less than $g$ (where $g = 9.8 \text{ ms}^{-2}$). 
+Given that the vertical displacement $s$ is fixed at $500 \text{ m}$, we use the kinematic equation:
+$$s = u_y t + \frac{1}{2} a t^2$$
+Assuming initial vertical velocity $u_y = 0$, then $t = \sqrt{\frac{2s}{a}}$. Because the acceleration $a$ is smaller with air resistance, the time of flight $t$ must be **longer**.
+
+**2. Effect on Horizontal Motion (Displacement):**
+In a vacuum, there are no horizontal forces, so the horizontal velocity remains constant. When air resistance is included, a horizontal drag force acts in the opposite direction to the motion. This causes the horizontal velocity to decrease over time.
+The horizontal displacement is given by $d = v_x \cdot t$. Since both the horizontal velocity $v_x$ is decreasing and the motion is affected by air resistance throughout the flight, the total horizontal distance covered will be **shorter** than it would have been if the object had maintained its initial speed throughout the duration of the flight.
+
+**Summary:**
+*   **Time of flight:** Longer (due to decreased downward acceleration).
+*   **Horizontal displacement:** Shorter (due to horizontal deceleration from drag).
+
+This matches option **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

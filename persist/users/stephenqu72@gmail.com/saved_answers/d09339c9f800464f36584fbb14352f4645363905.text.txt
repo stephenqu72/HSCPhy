@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+To solve this problem, we recognize that both balls move with the same angular velocity $\omega$.
+Given $r_A = 2.0\text{ m}$ and $v_A = 10.0\text{ ms}^{-1}$, we find $\omega$:
+$$\omega = \frac{v_A}{r_A} = \frac{10.0}{2.0} = 5.0\text{ rad s}^{-1}$$
+The radius for ball B is $r_B = 1.0\text{ m}$, so $v_B = \omega r_B = 5.0 \times 1.0 = 5.0\text{ ms}^{-1}$.
+
+#### (a) Calculate Tensions $T_1$ and $T_2$ at Position 1 (Horizontal)
+At the horizontal position, the net centripetal force is provided solely by tension.
+
+**For Ball A:**
+$T_1$ is the only horizontal force acting on A.
+$$T_1 = m_A \frac{v_A^2}{r_A} = 0.2 \times \frac{10.0^2}{2.0} = 0.2 \times 50 = 10.0\text{ N}$$
+
+**For Ball B:**
+Both $T_1$ and $T_2$ act on B. $T_2$ pulls inward, $T_1$ pulls outward.
+$$T_2 - T_1 = m_B \frac{v_B^2}{r_B}$$
+$$T_2 - 10.0 = 0.2 \times \frac{5.0^2}{1.0} = 0.2 \times 25 = 5.0\text{ N}$$
+$$T_2 = 15.0\text{ N}$$
+
+---
+
+#### (b) Calculate $T_1$ at Position 2 (Top of vertical circle)
+We must first find the velocity at the top using the Conservation of Mechanical Energy. Let the reference point for potential energy be the horizontal midline.
+
+**Energy at Position 1:** $E_1 = \frac{1}{2}m v_A^2 + \frac{1}{2}m v_B^2 = \frac{1}{2}(0.2)(10^2) + \frac{1}{2}(0.2)(5^2) = 10 + 2.5 = 12.5\text{ J}$
+**Energy at Position 2:** $E_2 = \frac{1}{2}m v_{A2}^2 + \frac{1}{2}m v_{B2}^2 + m g (r_A) + m g (r_B)$
+Since $v = \omega r$, $v_{A2} = 2v_{B2}$:
+$$12.5 = \frac{1}{2}(0.2)(2v_{B2})^2 + \frac{1}{2}(0.2)(v_{B2})^2 + (0.2)(9.8)(2) + (0.2)(9.8)(1)$$
+$$12.5 = 0.4 v_{B2}^2 + 0.1 v_{B2}^2 + 3.92 + 1.96$$
+$$12.5 = 0.5 v_{B2}^2 + 5.88 \implies 0.5 v_{B2}^2 = 6.62 \implies v_{B2}^2 = 13.24$$
+Thus, $v_{A2}^2 = 4 v_{B2}^2 = 52.96$.
+
+**Force equation at Position 2 for Ball A:**
+The forces acting toward the center are $T_1$ and the component of gravity ($mg$ downward). At the top, gravity points toward the center:
+$$T_1 + mg = \frac{m v_{A2}^2}{r_A}$$
+$$T_1 + (0.2)(9.8) = \frac{0.2 \times 52.96}{2.0}$$
+$$T_1 + 1.96 = 5.296$$
+$$T_1 = 3.336\text{ N}$$
+
+###QUESTION_TYPE
+Calculation question

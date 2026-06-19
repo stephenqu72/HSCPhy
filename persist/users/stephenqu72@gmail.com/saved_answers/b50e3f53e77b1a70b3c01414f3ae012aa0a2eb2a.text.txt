@@ -1,0 +1,31 @@
+### Part (a)
+**Answer:**
+1. **Insulators:** Transmission lines are supported by large ceramic or glass insulators that prevent current from leaking to the transmission towers, ensuring the electricity remains within the cables and protecting the structure from becoming live.
+2. **Earthing/Grounding:** Transmission towers are connected to the earth. This provides a safe path for fault currents to dissipate in the event of a lightning strike or insulation failure, preventing the build-up of dangerous voltages on the equipment.
+
+---
+
+### Part (b)
+**Explanation and Calculation:**
+To solve this, we use the formula for the force per unit length between two parallel wires:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2 \pi d}$$
+
+**1. Determine the force between $Y$ and $Z$:**
+Since there is a force of attraction, currents in $Y$ and $Z$ must be in the same direction (both to the right).
+The force on $Y$ due to $Z$ is:
+$$\left(\frac{F}{L}\right)_{YZ} = \frac{(2 \times 10^{-7}) \times 20 \times 20}{0.30} = 2.667 \times 10^{-4} \, \text{N/m (upwards)}$$
+
+**2. Determine the force required from $X$:**
+For wire $Y$ to have zero net force, the force from $X$ must be equal in magnitude and opposite in direction to the force from $Z$. Since the force from $Z$ is upward (attraction), the force from $X$ must be **downward**. 
+For an attractive force to be directed downwards (away from $X$), the current in $X$ must be in the **opposite direction** to $Y$. Since $Y$ is to the right, $X$ must be to the **left**.
+
+**3. Calculate the magnitude of $I_X$:**
+Set the force from $X$ equal to the force from $Z$:
+$$\frac{(2 \times 10^{-7}) \times I_X \times 20}{0.75} = 2.667 \times 10^{-4}$$
+$$I_X \times (5.333 \times 10^{-6}) = 2.667 \times 10^{-4}$$
+$$I_X = \frac{2.667 \times 10^{-4}}{5.333 \times 10^{-6}} = 50 \, \text{A}$$
+
+**Final Answer:** The current in $X$ is **50 A** flowing to the **left**.
+
+###QUESTION_TYPE
+Calculation question

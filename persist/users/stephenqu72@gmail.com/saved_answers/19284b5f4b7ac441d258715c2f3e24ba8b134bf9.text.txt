@@ -1,0 +1,50 @@
+Hello! As an HSC Physics teacher, I will guide you through this classic circular motion problem.
+
+### Part (a)
+The two forces acting on the ball are:
+1. **Weight ($mg$):** Acting vertically downwards.
+2. **Tension ($T$):** Acting along the string towards the point of attachment on the rod.
+
+---
+
+### Part (b)
+**1. Geometry:** The radius $r = L \sin \theta$, where $L = 0.75\text{ m}$ and $\theta = 25^\circ$.
+$$r = 0.75 \sin(25^\circ) \approx 0.317\text{ m}$$
+
+**2. Force Analysis:**
+*   Vertical components balance: $T \cos \theta = mg$
+*   Horizontal components provide the centripetal force: $T \sin \theta = \frac{mv^2}{r}$
+
+**3. Derivation:** Dividing the two equations:
+$$\tan \theta = \frac{v^2}{rg} \implies v = \sqrt{rg \tan \theta}$$
+
+**4. Calculation:**
+$$v = \sqrt{(0.317)(9.8)(\tan 25^\circ)} \approx \sqrt{1.446} \approx 1.20\text{ m s}^{-1}$$
+
+---
+
+### Part (c)
+In this scenario, we have two tensions $T_1$ (top) and $T_2$ (bottom). Let $\theta = 30^\circ$.
+
+**1. Vertical Equilibrium:**
+The sum of vertical components must equal weight:
+$$T_1 \cos \theta - T_2 \cos \theta = mg$$
+$$(T_1 - T_2) \cos(30^\circ) = (1.8)(9.8)$$
+$$T_1 - T_2 = \frac{17.64}{\cos(30^\circ)} \approx 20.37\text{ N} \quad \text{--- (Eq 1)}$$
+
+**2. Centripetal Force:**
+$r = 0.75 \sin(30^\circ) = 0.375\text{ m}$.
+$$(T_1 + T_2) \sin \theta = \frac{mv^2}{r}$$
+$$(T_1 + T_2) \sin(30^\circ) = \frac{1.8 \times 3.0^2}{0.375} = 43.2$$
+$$T_1 + T_2 = \frac{43.2}{\sin(30^\circ)} = 86.4\text{ N} \quad \text{--- (Eq 2)}$$
+
+**3. Solve Simultaneous Equations:**
+Adding Eq 1 and Eq 2:
+$$2T_1 = 106.77 \implies T_1 \approx 53.39\text{ N}$$
+Substituting into Eq 2:
+$$T_2 = 86.4 - 53.39 \approx 33.01\text{ N}$$
+
+**Answer:** $T_1 \approx 53.4\text{ N}$ and $T_2 \approx 33.0\text{ N}$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,38 @@
+To solve this problem, we must understand the physics of a train moving along a horizontal curve. 
+
+### Reasoning
+The "safe speed" for a train on a curve is limited by the lateral (sideways) force the rails can withstand. This lateral force is provided by the centripetal force required to keep the train on its circular path:
+$$F_c = \frac{mv^2}{r}$$
+
+Since the maximum lateral force ($F_{max}$) that the tracks can withstand is constant for a given track structure, we have the relationship:
+$$F_{max} = \frac{mv_1^2}{r_1} = \frac{mv_2^2}{r_2}$$
+
+Where:
+- $v_1 = 60\text{ km/h}$
+- $r_1 = 200\text{ m}$
+- $v_2 = 120\text{ km/h}$
+- $r_2 = ?$ (the new radius required)
+
+We can cancel the mass $m$ from both sides, leading to the proportionality:
+$$\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$$
+
+### Calculation
+Rearranging to solve for $r_2$:
+$$r_2 = r_1 \left( \frac{v_2}{v_1} \right)^2$$
+
+Substitute the given values:
+$$r_2 = 200 \times \left( \frac{120}{60} \right)^2$$
+$$r_2 = 200 \times (2)^2$$
+$$r_2 = 200 \times 4$$
+$$r_2 = 800\text{ m}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+### Explanation Summary
+1. Identify the physics principle: The centripetal force required to turn a train is proportional to $v^2/r$.
+2. Recognize the constraint: For the rails to remain safe, the required centripetal force must remain constant.
+3. Set up the ratio: Since velocity is doubled ($120/60 = 2$), the acceleration ($v^2/r$) must remain constant. If $v$ increases by a factor of 2, $v^2$ increases by a factor of 4. Therefore, to keep the ratio $v^2/r$ constant, the radius $r$ must also increase by a factor of 4.
+4. Final calculation: $200\text{ m} \times 4 = 800\text{ m}$.
+
+###QUESTION_TYPE
+Multiple choice

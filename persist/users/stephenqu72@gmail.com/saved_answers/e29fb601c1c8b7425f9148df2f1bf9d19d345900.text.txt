@@ -1,0 +1,45 @@
+Hello! As your HSC Physics teacher, I am here to guide you through this investigation. Let’s break down these questions systematically.
+
+---
+
+### **Solutions**
+
+#### **a. Variables**
+*   **Independent:** Mass of the load ($M$)
+*   **Dependent:** Period of oscillation ($T$)
+*   **Controlled:** The specific spring used (elastic constant $k$), the range of motion (amplitude), the environment (to keep air resistance/gravity constant).
+
+#### **b. Minimising Effects**
+*   **(i) Air resistance:** Perform the experiment in a vacuum chamber, or use a load with a very small surface area (aerodynamic shape) and oscillate at low speeds.
+*   **(ii) Mass of the spring:** Use a spring with very low mass relative to the load, or use the theoretical correction formula: $T = 2\pi \sqrt{\frac{M + m/3}{k}}$ where $m$ is the mass of the spring.
+
+#### **c. Corrected Table (Uncertainties)**
+To find the uncertainty in the period $T$: If $T = \frac{t_{20}}{20}$, then the uncertainty $\Delta T = \frac{\Delta t_{20}}{20}$.
+
+| Student | Mass (kg) | Time (s) | Period (s) |
+| :--- | :--- | :--- | :--- |
+| A | 0.100 | $7.7 \pm 0.4$ | $0.385 \pm 0.020$ |
+| A | 0.150 | $10.1 \pm 0.4$ | $0.505 \pm 0.020$ |
+| A | 0.200 | $11.6 \pm 0.4$ | $0.580 \pm 0.020$ |
+| B | 0.250 | $13.0 \pm 0.5$ | $0.650 \pm 0.025$ |
+| B | 0.300 | $14.5 \pm 0.5$ | $0.725 \pm 0.025$ |
+| B | 0.350 | $15.4 \pm 0.5$ | $0.770 \pm 0.025$ |
+
+#### **d. Analysis**
+The theoretical relationship for a spring-mass system is $T = 2\pi \sqrt{\frac{M}{k}}$. This implies $T^2 \propto M$.
+To determine the relationship, you should plot $T^2$ on the y-axis and $M$ on the x-axis. A linear relationship (a straight line through the origin) would verify that $T \propto \sqrt{M}$.
+
+#### **e. Improvement**
+To better ascertain the relationship, the students should:
+1.  **Increase the range of data points:** Use a wider variety of masses to see if the relationship holds over a greater interval.
+2.  **Increase the number of oscillations:** Instead of 20, use 50 or 100 oscillations to reduce the relative uncertainty caused by human reaction time.
+
+---
+
+### **How to solve it**
+1.  **Variables:** Always look for what the experimenter is changing (Independent) and what they are measuring as a result (Dependent).
+2.  **Uncertainties:** When you divide or multiply a measurement by a constant, you must divide/multiply the absolute uncertainty by that same constant. 
+3.  **Relationships:** When dealing with $T = 2\pi \sqrt{\frac{M}{k}}$, remember that identifying a non-linear relationship is easiest by "linearizing" the data (squaring both sides to get $T^2 = \frac{4\pi^2}{k}M$).
+
+###QUESTION_TYPE
+Data analysis questions

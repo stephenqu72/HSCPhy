@@ -1,0 +1,24 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation, which states that the gravitational force ($F$) between two bodies is inversely proportional to the square of the distance ($r$) between their centers:
+
+$$F \propto \frac{1}{r^2}$$
+
+### Step-by-step solution:
+
+1.  **Identify the relationship:** If the distance is increased by a factor of 3, the new distance $r'$ becomes $3r$.
+2.  **Apply the inverse-square law:** The new gravitational force $F'$ is given by:
+    $$F' \propto \frac{1}{(3r)^2} = \frac{1}{9r^2}$$
+3.  **Compare to original force:** Since the original force $F \propto \frac{1}{r^2}$, the new force is:
+    $$F' = \frac{1}{9} F$$
+4.  **Calculate the percentage change:** 
+    *   The force has become $\frac{1}{9}$ of its original value.
+    *   Converting this to a decimal: $\frac{1}{9} \approx 0.111...$
+    *   This means the force is $11.1\%$ of the original.
+    *   The decrease in force is $100\% - 11.1\% = 88.9\%$.
+5.  **Round to the nearest whole number:** $88.9\%$ rounds to $89\%$.
+
+Therefore, the attraction force decreases by approximately $89\%$.
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

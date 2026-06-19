@@ -1,0 +1,35 @@
+To find the magnitude of the torque on the tyre, we use the definition of torque ($\tau$):
+
+$$\tau = F \times r$$
+
+Where:
+*   $F$ is the applied force.
+*   $r$ is the perpendicular distance from the pivot (the axle) to the point where the force is applied (the road), which corresponds to the **radius** of the tyre.
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Force $F = 1.40 \times 10^3\text{ N} = 1400\text{ N}$.
+    *   Diameter $d = 45\text{ cm} = 0.45\text{ m}$.
+
+2.  **Calculate the radius ($r$):**
+    The torque acts at the distance of the radius from the center of the wheel.
+    $$r = \frac{d}{2} = \frac{0.45\text{ m}}{2} = 0.225\text{ m}$$
+
+3.  **Calculate the torque ($\tau$):**
+    $$\tau = 1400\text{ N} \times 0.225\text{ m}$$
+    $$\tau = 315\text{ Nm}$$
+
+Comparing our result to the given options:
+A. $31.0\text{ Nm}$
+B. $315\text{ Nm}$
+C. $630\text{ Nm}$
+D. $6220\text{ Nm}$
+
+The correct answer is **B**.
+
+### Explanation for Students:
+When solving torque problems, always check your units. The force is in Newtons (N), but the diameter is in centimetres (cm). You must convert the diameter to metres (m) before calculating the radius. Additionally, remember that torque is calculated using the *radius*, not the diameter, because the radius represents the lever arm distance from the axis of rotation to the road surface.
+
+###QUESTION_TYPE
+Multiple choice

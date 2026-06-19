@@ -1,0 +1,22 @@
+To solve this problem, we must apply Newton's Second Law for circular motion to the roller coaster cart at the top of the loop.
+
+### Physics Explanation
+
+1.  **Identify the forces:** At the top of the loop, both the Weight force ($W = mg$) and the Normal force ($N$) act in the same direction—downward toward the center of the circular path.
+2.  **Determine the net force:** Since the cart is moving in a circle of radius $r$, there must be a net centripetal force ($F_c$) directed toward the center of the circle. This centripetal force is provided by the sum of the physical forces acting toward the center:
+    $$F_c = F_{net} = N + W$$
+3.  **Relate to circular motion:** The formula for centripetal force is:
+    $$F_c = \frac{mv^2}{r}$$
+4.  **Combine the equations:** Equating the net force to the expression for centripetal force, we get:
+    $$N + W = \frac{mv^2}{r}$$
+
+Comparing this result to the given options, we can see that **(C)** is the correct equation.
+
+### Answer
+The correct option is **(C)**.
+
+### Reasoning
+At the top of the loop, both the Normal force (exerted by the track on the cart) and the Weight force (exerted by gravity) are directed vertically downwards. Because the motion is circular, these two forces combine to provide the necessary centripetal force required to keep the cart moving in that circular path. Therefore, the sum of these forces equals the centripetal force $\frac{mv^2}{r}$.
+
+###QUESTION_TYPE
+Multiple choice

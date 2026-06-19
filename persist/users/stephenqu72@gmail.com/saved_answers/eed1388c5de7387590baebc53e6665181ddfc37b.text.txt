@@ -1,0 +1,27 @@
+To solve this problem, we use the **Principle of Moments**. For a beam to be balanced horizontally, the sum of the clockwise moments about the pivot must equal the sum of the counter-clockwise moments about the pivot.
+
+### 1. Identify the given values:
+*   Mass of Anna ($m_A$) = $40\text{ kg}$
+*   Mass of Bill ($m_B$) = $30\text{ kg}$
+*   Distance of Bill from pivot ($d_B$) = $1.8\text{ m}$
+*   Distance of Anna from pivot ($d_A$, which is $L$) = ?
+
+### 2. Formulate the equation:
+The moment of a force is defined as $\tau = F \cdot d$, where $F$ is the weight ($mg$) and $d$ is the distance from the pivot. For equilibrium:
+$$\tau_A = \tau_B$$
+$$m_A \cdot g \cdot d_A = m_B \cdot g \cdot d_B$$
+
+Since $g$ (acceleration due to gravity) appears on both sides, it cancels out:
+$$m_A \cdot d_A = m_B \cdot d_B$$
+
+### 3. Calculate:
+Substitute the known values into the equation:
+$$40 \cdot d_A = 30 \cdot 1.8$$
+$$40 \cdot d_A = 54$$
+$$d_A = \frac{54}{40}$$
+$$d_A = 1.35\text{ m}$$
+
+The pivot must be placed $1.35\text{ m}$ from Anna to balance the beam. Comparing this result to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

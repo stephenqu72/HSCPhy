@@ -1,0 +1,30 @@
+To solve this problem, we apply the **Law of Conservation of Mechanical Energy**. Since there is no friction, the total mechanical energy (kinetic energy + gravitational potential energy) remains constant between point $A$ and point $B$.
+
+### Step-by-Step Explanation:
+
+1.  **Define the energy at points A and B:**
+    Let $m$ be the mass of the carriage.
+    *   At point $A$ (bottom of the loop), the height $h_A = 0$. The speed is $u$.
+        $$E_A = \frac{1}{2}mu^2 + mg(0) = \frac{1}{2}mu^2$$
+    *   At point $B$ (top of the loop), the height $h_B = 2r$ (the diameter of the circle). The speed is $v$.
+        $$E_B = \frac{1}{2}mv^2 + mg(2r) = \frac{1}{2}mv^2 + 2mgr$$
+
+2.  **Equate energies:**
+    Because energy is conserved ($E_A = E_B$):
+    $$\frac{1}{2}mu^2 = \frac{1}{2}mv^2 + 2mgr$$
+    Dividing by $m$ and multiplying by 2:
+    $$u^2 = v^2 + 4gr$$
+    $$u^2 - v^2 = 4gr$$
+
+3.  **Use the algebraic identity:**
+    The difference of two squares states that $u^2 - v^2 = (u - v)(u + v)$. Substituting this into our equation:
+    $$(u - v)(u + v) = 4gr$$
+
+4.  **Solve for the decrease in speed $(u - v)$:**
+    The term $(u - v)$ represents the change (decrease) in speed between the bottom and the top of the loop:
+    $$u - v = \frac{4gr}{u + v}$$
+
+Comparing this result to the given options, it matches **Option C**.
+
+### QUESTION_TYPE
+Multiple choice

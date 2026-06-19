@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+**Part a: Direction of the combined magnetic field**
+
+*   **Analysis:** 
+    *   The horizontal magnet has its North pole pointing towards point $P$. Magnetic field lines emerge from the North pole, so the field from this magnet at point $P$ points to the **right**.
+    *   The vertical magnet has its South pole pointing towards point $P$. Magnetic field lines enter the South pole, so the field from this magnet at point $P$ points **downward**.
+*   **Result:** The combined magnetic field is the vector sum of these two fields. By placing the tail of the downward vector at the head of the rightward vector, the resultant vector points **down and to the right** (specifically at a $45^{\circ}$ angle to both magnets because their magnitudes are equal).
+*   **Drawing:** You should draw an arrow at point $P$ starting from the dot, pointing diagonally downwards and to the right at a $45^{\circ}$ angle.
+
+**Part b: Magnitude of the combined magnetic field**
+
+*   **Analysis:** We are given two perpendicular vectors, each with a magnitude $B = 10.0\text{ mT}$. To find the resultant magnitude $B_{total}$, we use the Pythagorean theorem:
+    $$B_{total} = \sqrt{B_1^2 + B_2^2}$$
+*   **Calculation:**
+    Since $B_1 = B_2 = 10.0\text{ mT}$:
+    $$B_{total} = \sqrt{(10.0)^2 + (10.0)^2}$$
+    $$B_{total} = \sqrt{100 + 100}$$
+    $$B_{total} = \sqrt{200}$$
+    $$B_{total} \approx 14.14\text{ mT}$$
+*   **Final Answer:** The magnitude of the combined magnetic field is approximately $14.1\text{ mT}$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

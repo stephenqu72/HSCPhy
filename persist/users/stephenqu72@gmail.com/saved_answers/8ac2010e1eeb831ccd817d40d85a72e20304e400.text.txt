@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **C. Launch speed and launch elevation angle**.
+
+---
+
+### Explanation
+To determine which variables affect the maximum height ($h_{max}$) of a projectile, we look at the standard kinematic formula for vertical displacement at the peak of the trajectory. 
+
+At the maximum height, the vertical component of the final velocity is zero ($v_y = 0$). Using the equation:
+$$v_y^2 = u_y^2 + 2a_y \Delta y$$
+
+Substituting $v_y = 0$, $a_y = -g$ (acceleration due to gravity), and $\Delta y = h_{max}$, we get:
+$$0 = (u \sin \theta)^2 - 2g h_{max}$$
+
+Rearranging to solve for $h_{max}$:
+$$h_{max} = \frac{(u \sin \theta)^2}{2g} = \frac{u^2 \sin^2 \theta}{2g}$$
+
+Where:
+- $u$ is the **launch speed** (initial velocity).
+- $\theta$ is the **launch elevation angle**.
+- $g$ is the acceleration due to gravity (a constant).
+
+From the formula, it is clear that the maximum height depends directly on the square of the launch speed ($u$) and the square of the sine of the launch angle ($\theta$). Therefore, both the launch speed and the launch elevation angle are the necessary variables to determine the maximum height.
+
+### QUESTION_TYPE
+Multiple choice

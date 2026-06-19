@@ -1,0 +1,41 @@
+To solve this problem, we must treat the motion in two distinct phases: the accelerated rise of the balloon and the subsequent projectile motion of the book. We will use $g = 9.8\text{ ms}^{-2}$ for gravity.
+
+### Phase 1: Balloon Rise (0 to 5 seconds)
+*   $u = 0$, $a = 2\text{ ms}^{-2}$, $t = 5\text{ s}$.
+*   Height reached: $h_1 = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(2)(5^2) = 25\text{ m}$.
+*   Final height: $H = \text{initial height} + h_1 = 10\text{ m} + 25\text{ m} = 35\text{ m}$.
+*   Velocity at 5s: $v = u + at = 0 + (2)(5) = 10\text{ ms}^{-1}$.
+
+---
+
+### Solutions
+
+**a) Height off the ground:**
+The book is thrown at the end of the 5-second interval. As calculated above:
+$$H = 35\text{ m}$$
+
+**b) Initial velocity from the ground:**
+In the ground frame, the book inherits the velocity of the balloon.
+*   Vertical component: $v_y = 10\text{ ms}^{-1}$ (upward).
+*   Horizontal component: $v_x = 20\text{ ms}^{-1}$.
+Vector magnitude: $v = \sqrt{10^2 + 20^2} = \sqrt{500} \approx 22.36\text{ ms}^{-1}$ at an angle of $\arctan(\frac{10}{20}) \approx 26.57^\circ$ above the horizontal.
+
+**c) Time of flight and range:**
+Use vertical displacement: $s_y = v_{0y}t - \frac{1}{2}gt^2$.
+$$-35 = 10t - 4.9t^2 \implies 4.9t^2 - 10t - 35 = 0$$
+Using the quadratic formula: $t = \frac{10 \pm \sqrt{100 - 4(4.9)(-35)}}{9.8} \approx \frac{10 + 28.14}{9.8} \approx 3.89\text{ s}$.
+Range: $R = v_x \times t = 20 \times 3.89 = 77.8\text{ m}$.
+
+**d) Velocity on impact:**
+*   Horizontal velocity: $v_x = 20\text{ ms}^{-1}$ (constant).
+*   Vertical velocity: $v_{fy} = v_{0y} - gt = 10 - 9.8(3.89) \approx -28.12\text{ ms}^{-1}$.
+Magnitude: $v = \sqrt{20^2 + (-28.12)^2} \approx 34.51\text{ ms}^{-1}$.
+
+**e) Time difference:**
+The balloon continues to rise after the book is thrown. It has an initial velocity of $10\text{ ms}^{-1}$ and is under gravity ($a = -9.8\text{ ms}^{-2}$).
+$$-35 = 10t - 4.9t^2$. This is the same quadratic equation as part (c). The solution is $t \approx 3.89\text{ s}$ for the book to hit the ground.
+*Note: Since the balloon's initial conditions and gravity at release are identical to the book's vertical motion, both hit the ground at the same time.*
+Difference $= 0\text{ s}$.
+
+###QUESTION_TYPE
+Calculation question

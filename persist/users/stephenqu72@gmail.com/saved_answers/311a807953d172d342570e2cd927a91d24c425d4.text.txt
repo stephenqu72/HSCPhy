@@ -1,0 +1,33 @@
+To solve this problem, we apply the principles of Conservation of Energy and Projectile Motion. We assume $g \approx 9.8\text{ m/s}^2$.
+
+### (a) Determine the initial velocity $v_x$
+The ball starts from rest at height $h$. By Conservation of Mechanical Energy:
+$$mgh = \frac{1}{2}mv_x^2$$
+$$v_x = \sqrt{2gh}$$
+Given $h = 60\text{ cm} = 0.6\text{ m}$:
+$$v_x = \sqrt{2 \times 9.8 \times 0.6} = \sqrt{11.76} \approx 3.43\text{ m/s}$$
+
+### (b) Determine the final velocity $v_f$
+The final velocity is the vector sum of the horizontal velocity ($v_x$) and the vertical velocity ($v_y$) just before impact.
+1. **Horizontal velocity:** Remains constant at $v_x \approx 3.43\text{ m/s}$.
+2. **Vertical velocity:** Using $v_y^2 = u_y^2 + 2gH$, where $u_y = 0$:
+$$v_y = \sqrt{2 \times 9.8 \times 1.8} = \sqrt{35.28} \approx 5.94\text{ m/s}$$
+3. **Total velocity:**
+$$v_f = \sqrt{v_x^2 + v_y^2} = \sqrt{3.43^2 + 5.94^2} = \sqrt{11.76 + 35.28} = \sqrt{47.04} \approx 6.86\text{ m/s}$$
+
+### (c) Determine the range $x$
+The range is calculated by $x = v_x \times t$.
+1. **Find time ($t$):** Using $H = \frac{1}{2}gt^2$:
+$$t = \sqrt{\frac{2H}{g}} = \sqrt{\frac{2 \times 1.8}{9.8}} = \sqrt{\frac{3.6}{9.8}} \approx 0.606\text{ s}$$
+2. **Calculate range:**
+$$x = 3.43\text{ m/s} \times 0.606\text{ s} \approx 2.08\text{ m}$$
+
+---
+
+### How to solve it:
+1. **Conceptualize:** Part (a) is an energy problem; gravity converts potential energy into kinetic energy. Parts (b) and (c) are projectile motion problems where the horizontal and vertical components of motion are treated independently.
+2. **Constants:** Always convert units (cm to m) and use the standard gravitational constant ($9.8\text{ m/s}^2$).
+3. **Vector Summation:** In part (b), remember that final velocity is a vector magnitude; you must combine both the constant horizontal and accelerating vertical components using Pythagoras' theorem.
+
+###QUESTION_TYPE
+Calculation question

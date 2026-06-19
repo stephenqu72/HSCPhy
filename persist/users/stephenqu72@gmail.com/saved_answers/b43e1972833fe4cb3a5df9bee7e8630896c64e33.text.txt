@@ -1,0 +1,28 @@
+To answer this question, we must perform a force analysis on the object in a rotating frame and consider how the change in the period of rotation ($T$) affects these forces.
+
+### Analysis
+There are three forces acting on the object:
+1.  **Gravity ($F_g = mg$):** Acting vertically downwards.
+2.  **Normal Force ($N$):** Acting from the floor of the cylinder vertically upwards.
+3.  **Normal Force ($F_{wall}$):** Acting from the wall of the cylinder towards the center of rotation, providing the centripetal force.
+
+**1. Gravity ($mg$):**
+The weight of the object depends only on its mass and gravitational acceleration. Neither of these changes when the rotation period changes. Thus, the gravitational force remains **unchanged**.
+
+**2. Vertical Normal Force ($N$):**
+Since there is no vertical acceleration, the vertical forces must balance: $N = mg$. Because gravity remains constant and the object does not move vertically, $N$ remains **unchanged**.
+
+**3. Centripetal Force (Wall Normal Force $F_{wall}$):**
+The centripetal force required for uniform circular motion is given by:
+$$F_c = \frac{mv^2}{r} = m\left(\frac{2\pi r}{T}\right)^2 \frac{1}{r} = \frac{4\pi^2 mr}{T^2}$$
+If the period $T$ is halved ($T_{new} = \frac{1}{2}T$), the new force $F_{wall}'$ becomes:
+$$F_{wall}' = \frac{4\pi^2 mr}{(\frac{1}{2}T)^2} = \frac{4\pi^2 mr}{\frac{1}{4}T^2} = 4 \times \left(\frac{4\pi^2 mr}{T^2}\right) = 4F_{wall}$$
+The normal force from the wall must increase by a factor of 4 to provide the required centripetal acceleration.
+
+### Summary for your response:
+*   **Gravity:** Remains unchanged as mass and $g$ are constant.
+*   **Vertical Normal Force:** Remains unchanged to maintain vertical equilibrium ($N=mg$).
+*   **Centripetal Force (Wall Normal Force):** Increases by a factor of 4. Since the centripetal force is proportional to $1/T^2$, halving the period results in $1/(1/2)^2 = 4$ times the force.
+
+###QUESTION_TYPE
+Short answer

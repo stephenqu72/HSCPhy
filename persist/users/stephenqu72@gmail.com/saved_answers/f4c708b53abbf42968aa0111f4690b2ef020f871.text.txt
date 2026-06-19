@@ -1,0 +1,31 @@
+### Answer
+
+Galileo Galilei proposed that the motion of a projectile could be understood by separating it into two independent, simultaneous components:
+
+1.  **Horizontal component:** An object in motion maintains a constant velocity ($v_x = \text{constant}$) because no force acts in the horizontal direction (ignoring air resistance).
+2.  **Vertical component:** An object experiences a constant acceleration due to gravity ($g$) acting downwards, causing the object to undergo vertical free-fall motion ($v_y$ changes uniformly).
+
+**Diagram:**
+Imagine a projectile launched horizontally from a height. The motion results in a parabolic trajectory:
+
+```text
+       (Horizontal velocity is constant)
+          --->   --->   --->   --->
+        o      o      o      o      o  <-- Horizontal distance
+        | \    |  \   |   \  |    \
+        |  \   |    \ |     \|      \
+        v   \  v      v        v        v <-- Vertical acceleration (g)
+                                          (Trajectory)
+```
+*(In your exam, draw a standard parabolic arc with arrows showing constant horizontal spacing and increasing vertical spacing as the object falls).*
+
+### How to solve this
+To achieve full marks (4 marks) on this HSC-style response, you must follow these steps:
+
+1.  **Key Concept (The "Outline"):** Explicitly state the principle of **independence of perpendicular motion**. You must mention that horizontal and vertical motions are independent of each other.
+2.  **Define the components:** State that the horizontal motion has zero acceleration (constant velocity) and the vertical motion is subject to constant acceleration due to gravity.
+3.  **Include a Diagram:** The question explicitly asks for a "labelled diagram." Ensure your diagram shows the parabolic path, with arrows representing the constant horizontal velocity components and the increasing vertical velocity components. Label the axes as horizontal displacement ($x$) and vertical displacement ($y$).
+4.  **Connect to the Physics:** Briefly mention that this analysis leads to the **parabolic trajectory** characteristic of projectile motion, as the combination of uniform horizontal motion and constant vertical acceleration creates a parabola.
+
+###QUESTION_TYPE
+Short answer

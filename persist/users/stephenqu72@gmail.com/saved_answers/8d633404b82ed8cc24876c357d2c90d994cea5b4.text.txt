@@ -1,0 +1,32 @@
+To solve this problem, we first need to derive the theoretical relationship between the velocity squared ($v^2$) and the term $r \tan(\theta)$ for a conical pendulum.
+
+### Part (a): Drawing the Graph
+To draw the graph, plot $Velocity^2$ ($v^2$) on the vertical ($y$) axis and $r \tan(\theta)$ on the horizontal ($x$) axis. Using the provided data points, you will observe a linear relationship passing through or near the origin. Ensure you label the axes clearly with units and use a consistent scale.
+
+### Part (b): Determining $g$ and Assessing Accuracy
+**1. Derivation:**
+For a conical pendulum, the forces acting on the ball are gravity ($mg$ downwards) and tension ($T$). The vertical component of tension balances gravity:
+$$T \cos(\theta) = mg$$
+The horizontal component provides the centripetal force:
+$$T \sin(\theta) = \frac{mv^2}{r}$$
+Dividing the two equations:
+$$\frac{T \sin(\theta)}{T \cos(\theta)} = \frac{mv^2/r}{mg}$$
+$$\tan(\theta) = \frac{v^2}{rg}$$
+Rearranging to match the graph axes ($y = v^2$ and $x = r \tan(\theta)$):
+$$v^2 = g(r \tan(\theta))$$
+This is in the form $y = mx$, where the gradient ($m$) is equal to $g$.
+
+**2. Calculating the gradient:**
+Pick two points far apart on your line of best fit, $(x_1, y_1)$ and $(x_2, y_2)$. 
+$$\text{Gradient} = \frac{y_2 - y_1}{x_2 - x_1}$$
+Using the data: $\frac{90.73 - 15.75}{9.23 - 1.59} \approx \frac{74.98}{7.64} \approx 9.81 \, \text{m/s}^2$.
+
+**3. Assessing Accuracy:**
+The standard value for acceleration due to gravity is approximately $9.8 \, \text{m/s}^2$. 
+*   If your calculated gradient is very close to $9.8 \, \text{m/s}^2$, the experiment is highly accurate.
+*   To assess, calculate the percentage error:
+$$\% \text{Error} = \left| \frac{\text{experimental value} - 9.8}{9.8} \right| \times 100\%$$
+Discuss factors like air resistance, difficulty in measuring the radius $r$ while the ball is in motion, or human reaction time in timing the period, which may have contributed to any deviation.
+
+###QUESTION_TYPE
+Data analysis questions

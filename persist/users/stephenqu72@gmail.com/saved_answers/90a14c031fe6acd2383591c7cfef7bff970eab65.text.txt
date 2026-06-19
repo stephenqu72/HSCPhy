@@ -1,0 +1,33 @@
+To answer this question, we must equate the centripetal force required to keep the lead balls in circular motion with the gravitational force acting between them.
+
+### Answer
+To find the speed $v$ at which the centripetal force equals the gravitational force, we set the magnitudes of the two forces equal:
+
+$$F_c = F_g$$
+
+Given the mass of each ball $m = 100\text{ kg}$, let $r$ be the distance from the pivot (centre) to the centre of each ball. The total distance between the balls is $R = 2r$.
+
+The gravitational force between the two balls is:
+$$F_g = \frac{G \cdot m \cdot m}{(2r)^2} = \frac{G \cdot m^2}{4r^2}$$
+
+The centripetal force required for one ball of mass $m$ to move in a circle of radius $r$ at speed $v$ is:
+$$F_c = \frac{mv^2}{r}$$
+
+Equating these:
+$$\frac{mv^2}{r} = \frac{Gm^2}{4r^2}$$
+
+Solving for $v$:
+$$v^2 = \frac{Gmr}{4r^2} = \frac{Gm}{4r}$$
+$$v = \sqrt{\frac{Gm}{4r}}$$
+
+### Explanation
+1.  **Identify the Forces:** The problem asks for the condition where the centripetal force is provided exactly by the gravitational attraction between the two lead balls. 
+2.  **Define Variables:** Let $m = 100\text{ kg}$ be the mass of each ball. Let $r$ be the radius of the rotation (distance from the pivot to the centre of one ball). The separation distance between the two balls is $d = 2r$.
+3.  **Newton’s Law of Universal Gravitation:** Use $F_g = \frac{G M_1 M_2}{d^2}$. Substituting our variables, we get $F_g = \frac{Gm^2}{(2r)^2}$.
+4.  **Centripetal Force:** Use the standard formula $F_c = \frac{mv^2}{r}$.
+5.  **Algebraic Manipulation:** By setting $F_c = F_g$ and cancelling the mass $m$ from both sides, we solve for $v$ in terms of the gravitational constant $G$, mass $m$, and radius $r$. 
+
+*Note: In a practical HSC lab setting, this experiment would be extremely difficult due to the incredibly weak magnitude of the gravitational force between $100\text{ kg}$ masses, which would likely be masked by friction, air resistance, or local gravitational perturbations.*
+
+###QUESTION_TYPE
+Calculation question

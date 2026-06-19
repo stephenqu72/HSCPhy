@@ -1,0 +1,19 @@
+To answer this question, we must understand the physics of "apparent weight" or $g$-force.
+
+### The Physics Explanation
+When an astronaut experiences an "increased downward $g$-force" during a rocket launch, they are experiencing **acceleration** directed upwards. According to Newton's Second Law ($F_{net} = ma$), the normal force ($N$) exerted by the seat on the astronaut is what they perceive as their "weight." 
+
+If an astronaut is accelerating upwards at rate $a$, the equation of motion is:
+$$N - mg = ma \implies N = m(g + a)$$
+Since $N > mg$, the person feels heavier (an increased $g$-force). Therefore, we are looking for a scenario where the person experiences a **net acceleration directed upwards**.
+
+### Evaluating the Options
+*   **A. Roller-coaster speeding up (at the crest):** As the coaster goes over the top, the centripetal acceleration is directed *downwards* toward the center of the arc. This makes the person feel lighter (less than $1g$).
+*   **B. Lift slowing down (moving upwards):** If a lift is moving up but slowing down, the acceleration is directed *downwards*. This makes the person feel lighter.
+*   **C. Parachute at constant velocity:** Constant velocity means zero acceleration ($a = 0$). The person feels exactly $1g$.
+*   **D. Plane pulling out of a dive:** To pull out of a dive, the plane must change its direction from downward to upward. This requires a centripetal acceleration directed **upwards**. Because the acceleration is directed upwards, the normal force (the seat pushing up on the pilot) must be greater than the force of gravity, resulting in the pilot feeling an increased downward $g$-force.
+
+**Conclusion:** The correct answer is **D**.
+
+### QUESTION_TYPE
+Multiple choice

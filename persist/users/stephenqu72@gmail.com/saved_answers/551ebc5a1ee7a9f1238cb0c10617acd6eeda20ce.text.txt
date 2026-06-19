@@ -1,0 +1,38 @@
+To solve this problem, we need to calculate the gravitational acceleration acting on a satellite at a specific altitude, which is equivalent to the centripetal acceleration required to keep the satellite in orbit.
+
+### 1. Identify the given information
+*   Mass of satellite ($m$): $500\text{ kg}$ (Note: The centripetal acceleration of an object in orbit is independent of its own mass).
+*   Altitude ($h$): $800\text{ km} = 800 \times 10^3\text{ m} = 8 \times 10^5\text{ m}$.
+*   Radius of Earth ($R_E$): Approximately $6.37 \times 10^6\text{ m}$ (standard HSC Physics constant).
+*   Mass of Earth ($M$): Approximately $5.97 \times 10^{24}\text{ kg}$ (standard HSC Physics constant).
+*   Gravitational constant ($G$): $6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$.
+
+### 2. Determine the distance from the centre of the Earth
+The total distance ($r$) from the centre of the Earth to the satellite is the sum of the Earth's radius and the altitude:
+$$r = R_E + h = 6.37 \times 10^6\text{ m} + 0.8 \times 10^6\text{ m} = 7.17 \times 10^6\text{ m}$$
+
+### 3. Calculate centripetal acceleration ($a_c$)
+Since the only force providing the centripetal acceleration is gravity, we use Newton’s Law of Universal Gravitation:
+$$F_g = F_c$$
+$$\frac{G M m}{r^2} = m a_c$$
+Dividing both sides by $m$ gives the formula for gravitational field strength (acceleration):
+$$a_c = \frac{G M}{r^2}$$
+
+Now, substitute the values:
+$$a_c = \frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{(7.17 \times 10^6)^2}$$
+$$a_c = \frac{3.982 \times 10^{14}}{5.14 \times 10^{13}}$$
+$$a_c \approx 7.75\text{ m s}^{-2}$$
+
+Rounding to two significant figures, we get $7.8\text{ m s}^{-2}$.
+
+### 4. Conclusion
+Comparing our result to the options provided:
+(A) $3.6\text{ m s}^{-2}$
+(B) $6.8\text{ m s}^{-2}$
+(C) $7.8\text{ m s}^{-2}$
+(D) $9.8\text{ m s}^{-2}$
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

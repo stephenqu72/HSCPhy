@@ -1,0 +1,34 @@
+To solve for the magnitude of the centripetal force, follow these steps:
+
+### 1. Identify the given variables and convert to SI units:
+*   Mass ($m$) = $200\text{ g} = 0.2\text{ kg}$
+*   Radius ($r$) = $1.5\text{ m}$
+*   Number of revolutions = $10$
+*   Time ($t$) = $3\text{ s}$
+
+### 2. Determine the angular velocity ($\omega$):
+First, calculate the period ($T$), which is the time taken for one revolution:
+$$T = \frac{\text{total time}}{\text{number of revolutions}} = \frac{3\text{ s}}{10} = 0.3\text{ s}$$
+
+Now, calculate the angular velocity ($\omega$) using the formula $\omega = \frac{2\pi}{T}$:
+$$\omega = \frac{2\pi}{0.3} \approx 20.944\text{ rad/s}$$
+
+### 3. Calculate the centripetal force ($F_c$):
+The formula for centripetal force in terms of angular velocity is:
+$$F_c = mr\omega^2$$
+
+Substitute the values into the equation:
+$$F_c = (0.2\text{ kg}) \times (1.5\text{ m}) \times \left(\frac{2\pi}{0.3}\right)^2$$
+$$F_c = 0.3 \times (20.944)^2$$
+$$F_c = 0.3 \times 438.65$$
+$$F_c \approx 131.59\text{ N}$$
+
+Rounding to the closest value provided in the options, we get **$131\text{ N}$**.
+
+**Correct Option: B**
+
+### Explanation of the approach:
+In circular motion problems, always ensure your units are in SI (kg, meters, seconds). Since we are given revolutions and time, we can easily find the frequency or the period to derive the angular velocity. Using the formula $F_c = mr\omega^2$ is the most direct method when working with angular speed. If you prefer using linear velocity ($v$), you would calculate $v = \frac{2\pi r}{T}$ first, then use $F_c = \frac{mv^2}{r}$. Both methods will yield the same result.
+
+###QUESTION_TYPE
+Multiple choice

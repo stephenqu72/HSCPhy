@@ -1,0 +1,22 @@
+The correct answer is **D**.
+
+### Explanation
+
+To solve this problem, we must recall the fundamental definition of electric potential difference ($V$). 
+
+Electric potential difference between two points is defined as the work done by an external agent to move a unit positive charge from one point to the other without changing its kinetic energy. Mathematically, this is expressed as:
+
+$$V = \frac{W}{q}$$
+
+Where:
+- $V$ is the electric potential difference (measured in Volts, where $1\text{ V} = 1\text{ J/C}$).
+- $W$ is the work done (measured in Joules).
+- $q$ is the magnitude of the charge (measured in Coulombs).
+
+**Evaluating the options:**
+*   **A and B:** These describe "energy" or "work," but ignore the requirement of "per unit charge." Without normalizing for the size of the charge being moved, these are incomplete descriptions.
+*   **C:** Power is the rate at which work is done ($P = W/t$). This describes how *fast* a charge is moved, not the potential difference between the points.
+*   **D:** This matches the definition exactly: the work done ($W$) per unit charge ($q$). It correctly identifies that potential difference is a measure of the energy required per unit of charge, which is independent of the actual amount of charge moved.
+
+###QUESTION_TYPE
+Multiple choice

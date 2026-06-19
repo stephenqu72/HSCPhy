@@ -1,0 +1,34 @@
+To solve this problem, we must break the rocket's flight into two distinct stages: the powered ascent and the projectile motion phase.
+
+### Step 1: Calculate state at end of motor burn
+During the motor burn (constant acceleration), the rocket travels at an angle of $20.0^{\circ}$. 
+Initial velocity $u = 0$, final velocity $v = 82.0 \text{ m s}^{-1}$, time $t = 2.50 \text{ s}$.
+
+**Position at the end of burn:**
+Assuming constant acceleration, the distance covered is $s = \frac{u+v}{2} \times t = \frac{0 + 82.0}{2} \times 2.50 = 102.5 \text{ m}$.
+- Horizontal displacement: $x_0 = 102.5 \times \cos(20^{\circ}) \approx 96.33 \text{ m}$
+- Vertical displacement: $y_0 = 102.5 \times \sin(20^{\circ}) \approx 35.06 \text{ m}$
+
+**Velocity components at end of burn:**
+- $v_x = 82.0 \times \cos(20^{\circ}) \approx 77.04 \text{ m s}^{-1}$
+- $v_y = 82.0 \times \sin(20^{\circ}) \approx 28.04 \text{ m s}^{-1}$
+
+### Step 2: Projectile motion
+The rocket acts as a projectile from $(x_0, y_0)$ with initial velocity $v_x$ and $v_y$. We need the time $t_f$ it takes to hit the ground ($y = 0$).
+Using $y = y_0 + v_y t_f - \frac{1}{2}g t_f^2$:
+$$0 = 35.06 + 28.04 t_f - 4.9 t_f^2$$
+Using the quadratic formula $t_f = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$t_f = \frac{-28.04 \pm \sqrt{28.04^2 - 4(-4.9)(35.06)}}{2(-4.9)}$$
+$$t_f = \frac{-28.04 \pm \sqrt{786.24 + 687.18}}{-9.8} = \frac{-28.04 \pm 38.39}{-9.8}$$
+We take the positive root: $t_f \approx 6.78 \text{ s}$.
+
+### Step 3: Total Horizontal Range
+The total range $R$ is the horizontal distance covered during the burn plus the distance covered during projectile motion:
+$$R = x_0 + (v_x \times t_f)$$
+$$R = 96.33 + (77.04 \times 6.78)$$
+$$R = 96.33 + 522.33 = 618.66 \text{ m}$$
+
+Rounding to two significant figures (based on $20.0^{\circ}$ and $2.50\text{ s}$), the horizontal range is approximately **$620 \text{ m}$**.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,37 @@
+To solve this problem, we apply the principles of electrostatics and dynamics. Since the ball is stationary, we know it is in a state of equilibrium, meaning the net force acting on it is zero.
+
+### (a) Electric field strength
+The electric field strength $E$ between two parallel plates is determined by the potential difference $V$ and the distance between the plates $d$. The formula is:
+$$E = \frac{V}{d}$$
+
+Given:
+- $V = 430\text{ V}$
+- $d = 1.4 \times 10^{-3}\text{ m}$
+
+Calculation:
+$$E = \frac{430}{1.4 \times 10^{-3}}$$
+$$E \approx 3.07 \times 10^5\text{ V m}^{-1} \text{ (or N C}^{-1})$$
+
+### (b) Mass of the ball
+For the ball to remain stationary, the upward electric force $F_E$ must exactly balance the downward gravitational force $F_g$.
+
+1. **Calculate the electric force:**
+   $F_E = qE$
+   $F_E = (4.0 \times 10^{-6}\text{ C}) \times (3.0714 \times 10^5\text{ V m}^{-1})$
+   $F_E \approx 1.2286\text{ N}$
+
+2. **Equate forces to find mass:**
+   $F_g = mg \implies F_E = mg$
+   $1.2286 = m \times 9.8$
+   $m = \frac{1.2286}{9.8}$
+   $m \approx 0.125\text{ kg}$
+
+---
+
+### How to solve:
+1. **Identify the Physics:** Recognize that the uniform electric field between parallel plates is $E = V/d$.
+2. **Equilibrium Condition:** If an object is stationary, the forces acting on it must sum to zero. Here, the weight force ($mg$) acts downwards, and the electric force ($qE$) acts upwards.
+3. **Calculation:** Compute $E$ first, then use $qE = mg$ to isolate the mass $m$. Ensure your units are consistent (SI units: Coulombs, Volts, Meters, Newtons, Kilograms).
+
+###QUESTION_TYPE
+Calculation question

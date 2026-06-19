@@ -1,0 +1,48 @@
+To solve this problem, we need to find the point between the Earth and the Moon where the gravitational force exerted by the Earth on a spacecraft equals the gravitational force exerted by the Moon.
+
+### Step 1: Identify the formula
+The gravitational force between two objects is given by Newton's Law of Universal Gravitation:
+$$F = \frac{G M m}{r^2}$$
+Where:
+- $G$ is the gravitational constant.
+- $M$ is the mass of the planet/moon.
+- $m$ is the mass of the spacecraft.
+- $r$ is the distance from the center of the mass.
+
+### Step 2: Set up the equation
+Let $d$ be the distance from the center of the Earth to the point where the net force is zero. The distance from the center of the Moon to this point will be $(R - d)$, where $R$ is the distance between the Earth and the Moon ($3.84 \times 10^8 \text{ m}$).
+
+For the forces to be equal:
+$$\frac{G M_E m}{d^2} = \frac{G M_M m}{(R - d)^2}$$
+
+Canceling $G$ and $m$ from both sides:
+$$\frac{M_E}{d^2} = \frac{M_M}{(R - d)^2}$$
+
+### Step 3: Solve for $d$
+Take the square root of both sides to simplify the equation:
+$$\frac{\sqrt{M_E}}{d} = \frac{\sqrt{M_M}}{R - d}$$
+
+Rearranging to solve for $d$:
+$$\sqrt{M_E}(R - d) = \sqrt{M_M}d$$
+$$R\sqrt{M_E} - d\sqrt{M_E} = d\sqrt{M_M}$$
+$$R\sqrt{M_E} = d(\sqrt{M_E} + \sqrt{M_M})$$
+$$d = \frac{R\sqrt{M_E}}{\sqrt{M_E} + \sqrt{M_M}}$$
+
+### Step 4: Plug in the values
+- $R = 3.84 \times 10^8 \text{ m}$
+- $M_E = 5.98 \times 10^{24} \text{ kg}$
+- $M_M = 7.34 \times 10^{22} \text{ kg}$
+
+$$\sqrt{M_E} \approx 2.4454 \times 10^{12}$$
+$$\sqrt{M_M} \approx 2.7092 \times 10^{11}$$
+
+$$d = \frac{(3.84 \times 10^8) \times (2.4454 \times 10^{12})}{(2.4454 \times 10^{12} + 0.27092 \times 10^{12})}$$
+$$d = \frac{9.3903 \times 10^{20}}{2.7163 \times 10^{12}}$$
+$$d \approx 3.4569 \times 10^8 \text{ m}$$
+
+Rounding to three significant figures, we get $3.46 \times 10^8 \text{ m}$.
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

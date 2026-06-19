@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To determine the acceleration due to gravity ($g$) using a simple pendulum, we use the formula for the period of a pendulum, $T$:
+$$T = 2\pi\sqrt{\frac{L}{g}}$$
+
+Rearranging this formula to solve for $g$:
+$$g = \frac{4\pi^2L}{T^2}$$
+
+To justify why this is considered the "most accurate" method in a school laboratory, we must look at how we control for error:
+
+*   **Minimising Error (Option C):** Accuracy in an experiment depends on reducing both systematic and random errors. 
+    *   **Length ($L$):** Can be measured precisely using a meter rule or vernier calipers.
+    *   **Period ($T$):** By measuring the time for a large number of oscillations (e.g., 20 or 50 swings) and then dividing by that number to find the time for one period, the **random error** associated with human reaction time (using a stopwatch) is significantly reduced. This averaging technique makes the measurement of $T$ far more reliable than measuring a single swing.
+
+**Why other options are incorrect:**
+*   **A & B:** Ease of use or simplicity of calculations does not equate to "accuracy." An experiment can be very simple and yet highly inaccurate due to poor methodology.
+*   **D:** Using a stopwatch for only *one* swing is actually a poor experimental practice. It introduces a high level of uncertainty due to human reaction time, which would lead to a very inaccurate result. 
+
+Therefore, the ability to repeat trials and use the method of averaging oscillations to minimise measurement errors is what provides the high degree of accuracy.
+
+###QUESTION_TYPE
+Multiple choice

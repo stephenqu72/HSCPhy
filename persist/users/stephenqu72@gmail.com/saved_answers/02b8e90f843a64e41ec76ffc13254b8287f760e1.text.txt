@@ -1,0 +1,27 @@
+To find the correct equation for gravitational field strength, we must recall the definition of gravitational field strength ($g$) at a distance $r$ from the centre of a planet with mass $M$.
+
+### Answer
+The correct option is **(C)**.
+
+### Explanation
+The gravitational field strength is defined as the force per unit mass exerted by a gravitational field on an object. 
+
+1.  **Start with Newton's Law of Universal Gravitation:**
+    The force $F$ between two masses $M$ (the planet) and $m$ (an object) separated by a distance $r$ is:
+    $$F = \frac{GMm}{r^2}$$
+
+2.  **Define Gravitational Field Strength ($g$):**
+    Gravitational field strength is the force per unit mass ($g = \frac{F}{m}$). Substituting the expression for $F$ into this definition:
+    $$g = \frac{\frac{GMm}{r^2}}{m}$$
+
+3.  **Simplify:**
+    The mass $m$ cancels out, leaving:
+    $$g = \frac{GM}{r^2}$$
+
+**Why the other options are incorrect:**
+*   **(A)** represents gravitational potential energy (if negative) or a variation of force. It includes two masses, which is incorrect for field strength, and the $r$ in the denominator is not squared.
+*   **(B)** represents the formula for the *gravitational force* between two objects, not the field strength of the planet alone.
+*   **(D)** is dimensionally incorrect for gravitational field strength.
+
+### QUESTION_TYPE
+Multiple choice

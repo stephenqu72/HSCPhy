@@ -1,0 +1,35 @@
+To answer this 7-mark HSC Physics question, you need to select two distinct types of orbits (typically Geostationary/Geosynchronous and Low Earth Orbit), compare their periods and altitudes, and justify their applications using the physics of orbital motion.
+
+### Answer
+Two common types of satellites are **Geostationary Earth Orbit (GEO)** satellites and **Low Earth Orbit (LEO)** satellites.
+
+**1. Comparison of Properties:**
+*   **GEO:** These satellites orbit above the equator with a period of $T = 24 \text{ hours}$ ($86,400 \text{ s}$). Because their period matches Earth’s rotation, they remain fixed relative to a point on the surface.
+*   **LEO:** These satellites orbit at much lower altitudes, typically between $200\text{--}2,000 \text{ km}$. They have much shorter orbital periods, often around $90\text{--}120 \text{ minutes}$.
+
+**2. Calculations:**
+We use the formula for orbital period derived from $F_g = F_c$:
+$$\frac{GMm}{r^2} = \frac{4\pi^2 mr}{T^2} \implies T = \sqrt{\frac{4\pi^2 r^3}{GM}}$$
+
+*   **For GEO:** To find the radius $r$, we rearrange to $r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$.
+    Using $G = 6.67 \times 10^{-11} \text{ Nm}^2/\text{kg}^2$, $M = 5.97 \times 10^{24} \text{ kg}$, and $T = 86,400 \text{ s}$:
+    $$r \approx 42,200 \text{ km from the Earth's centre.}$$
+    Since the Earth's radius is $\approx 6,370 \text{ km}$, the altitude is $\approx 35,800 \text{ km}$.
+
+*   **For LEO:** At an altitude of $500 \text{ km}$, $r = 6,870 \text{ km} = 6.87 \times 10^6 \text{ m}$.
+    $$T = \sqrt{\frac{4\pi^2 (6.87 \times 10^6)^3}{(6.67 \times 10^{-11})(5.97 \times 10^{24})}} \approx 5,700 \text{ seconds} \approx 95 \text{ minutes.}$$
+
+**3. Application:**
+*   **GEO:** Used for **communications and weather monitoring** (e.g., NBN Sky Muster or TV broadcasts) because a satellite dish on the ground can be permanently pointed at a fixed spot in the sky without tracking the satellite.
+*   **LEO:** Used for **Earth observation, high-resolution imaging, and global internet constellations (e.g., Starlink)**. The low altitude allows for high-resolution photography and lower signal latency, but because they move across the sky quickly, a network (constellation) of satellites is required for continuous coverage.
+
+---
+
+### How to solve this
+1.  **Select the orbits:** Always choose GEO and LEO as they provide the clearest contrast.
+2.  **Define the criteria:** Use the "Compare" command effectively by creating a clear distinction in altitude, period, and relative velocity.
+3.  **Perform the math:** Show the derivation or the standard formula for $T$ and $r$. Substituting values demonstrates you understand the relationship between distance and time (Kepler’s Third Law).
+4.  **Connect to Application:** Ensure you explain *why* the physical properties dictate the application. For example, why is GEO good for TV? (Fixed position). Why is LEO good for imaging? (Closer to the subject).
+
+###QUESTION_TYPE
+Calculation question

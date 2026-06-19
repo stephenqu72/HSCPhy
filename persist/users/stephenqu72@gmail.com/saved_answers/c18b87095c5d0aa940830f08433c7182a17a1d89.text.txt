@@ -1,0 +1,46 @@
+To solve this problem, we must apply the principles of work-energy, kinematics, and projectile motion. 
+
+### Part (a)
+**Goal:** Determine the angle $\theta$ at which the ball is thrown.
+
+1. **Calculate the Work Done ($W$):** 
+   Work is defined as $W = F \cdot d$. 
+   Given $F = 432\text{ N}$ and $d = 0.70\text{ m}$:
+   $$W = 432 \times 0.70 = 302.4\text{ J}$$
+
+2. **Calculate the Kinetic Energy ($K_k$) provided:**
+   $$K_k = \frac{1}{2}mv^2 = \frac{1}{2} \times 4.0 \times (11.8)^2 = 278.48\text{ J}$$
+
+3. **Account for the Potential Energy ($PE$):**
+   The ball is lifted during the extension. Assuming the arm acts at an angle $\theta$ to the horizontal, the vertical displacement $\Delta y$ is $0.70 \sin(\theta)$.
+   $$W_{total} = \Delta K_k + \Delta PE$$
+   $$302.4 = 278.48 + (m \times g \times \Delta y)$$
+   $$302.4 - 278.48 = 4.0 \times 9.8 \times (0.70 \sin(\theta))$$
+   $$23.92 = 27.44 \sin(\theta)$$
+   $$\sin(\theta) = \frac{23.92}{27.44} \approx 0.8717$$
+   $$\theta = \arcsin(0.8717) \approx 60.66^\circ$$
+
+**Answer:** The ball was thrown at an angle of approximately **$60.7^\circ$**.
+
+---
+
+### Part (b)
+**Goal:** Determine the horizontal range ($R$) of the projectile.
+
+1. **Identify components of velocity:**
+   $v_x = v \cos(45^\circ) = 11.8 \times \cos(45^\circ) \approx 8.344\text{ m/s}$
+   $v_{0y} = v \sin(45^\circ) = 11.8 \times \sin(45^\circ) \approx 8.344\text{ m/s}$
+
+2. **Find time of flight ($t$):**
+   Use $y = y_0 + v_{0y}t - \frac{1}{2}gt^2$ where final $y = 0$ and initial $y_0 = 1.8$:
+   $$0 = 1.8 + 8.344t - 4.9t^2 \Rightarrow 4.9t^2 - 8.344t - 1.8 = 0$$
+   Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+   $$t = \frac{8.344 + \sqrt{(-8.344)^2 - 4(4.9)(-1.8)}}{9.8} \approx \frac{8.344 + 10.26}{9.8} \approx 1.898\text{ s}$$
+
+3. **Calculate Range ($R$):**
+   $$R = v_x \times t = 8.344 \times 1.898 \approx 15.84\text{ m}$$
+
+**Answer:** The range of the throw is approximately **$15.8\text{ m}$**.
+
+###QUESTION_TYPE
+Calculation question

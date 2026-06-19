@@ -1,0 +1,30 @@
+Hello! As an HSC physics teacher, I am happy to help you break down this fundamental concept.
+
+### Answer
+The correct answer is **(A) $\text{m s}^{-2}$**.
+
+### Explanation
+To determine the S.I. unit for gravitational field strength ($g$), we look at its definition: gravitational field strength is the force exerted per unit mass on an object in a gravitational field.
+
+We can express this mathematically as:
+$$g = \frac{F}{m}$$
+
+Where:
+*   $F$ is the gravitational force, measured in Newtons ($\text{N}$).
+*   $m$ is the mass, measured in kilograms ($\text{kg}$).
+
+So, the unit for $g$ is $\text{N/kg}$. However, we can break this down further into fundamental S.I. base units using Newton's Second Law ($F = ma$):
+*   Force ($F$) has the unit $\text{kg m s}^{-2}$.
+*   Therefore, $g = \frac{\text{kg m s}^{-2}}{\text{kg}}$.
+
+By canceling out the $\text{kg}$ from the numerator and the denominator, we are left with:
+$$g = \text{m s}^{-2}$$
+
+This unit is equivalent to an acceleration, which makes sense because gravitational field strength is numerically equal to the acceleration due to gravity.
+
+*   (B) $\text{J}$ (Joule) is the unit of energy.
+*   (C) $\text{N}$ (Newton) is the unit of force.
+*   (D) $\text{kg}$ (kilogram) is the unit of mass.
+
+###QUESTION_TYPE
+Multiple choice

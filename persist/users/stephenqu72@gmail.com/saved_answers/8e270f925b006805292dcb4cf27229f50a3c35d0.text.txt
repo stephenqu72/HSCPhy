@@ -1,0 +1,42 @@
+To answer this 5-mark question, you must demonstrate your understanding of the experimental design process and the underlying physics principles of projectile motion.
+
+### Answer
+
+**Experimental Method:**
+1.  **Setup:** Use a projectile launcher (such as a spring-loaded cannon) mounted on a laboratory bench. Ensure the launcher can be adjusted to specific angles $(\theta)$ and that the launch velocity $(v)$ remains constant for all trials.
+2.  **Procedure:** 
+    *   Set the launcher to an initial angle (e.g., $15^{\circ}$).
+    *   Fire the projectile and measure the horizontal distance (range, $R$) from the point directly below the release to the landing spot using a measuring tape. 
+    *   Repeat the trial at least three times for each angle to determine an average range.
+    *   Increase the angle by increments (e.g., $15^{\circ}, 30^{\circ}, 45^{\circ}, 60^{\circ}, 75^{\circ}$) and repeat the measurement process.
+3.  **Variables:** 
+    *   *Independent variable:* Launch angle ($\theta$). 
+    *   *Dependent variable:* Horizontal range ($R$). 
+    *   *Controlled variables:* Launch velocity ($v$), height of launch (same as landing height), and air resistance (minimized).
+
+**Graph:**
+The relationship is defined by the range formula:
+$$R = \frac{v^2 \sin(2\theta)}{g}$$
+
+The graph of $R$ vs $\theta$ is a sine wave starting at $0^{\circ}$ (Range = 0), peaking at $45^{\circ}$ (maximum range), and returning to 0 at $90^{\circ}$.
+
+```text
+Range (R)
+ ^          _
+ |        /   \
+ |      /       \
+ |     /         \
+ |____/___________\____> Angle (theta)
+ 0   45          90
+```
+
+---
+
+### How to solve this
+1.  **Understand the requirements:** The question asks for an "outline," meaning you need to describe the setup, the procedure, and the variables (validity/reliability) to earn full marks.
+2.  **Link to physics:** Explicitly state the relationship. Since $R \propto \sin(2\theta)$, the range increases as $\theta$ approaches $45^{\circ}$ and decreases as it moves toward $90^{\circ}$.
+3.  **Experimental Rigour:** Mentioning controlled variables (like keeping velocity constant) is crucial in HSC Physics to show you understand how to produce valid data.
+4.  **Visualisation:** Always provide a labeled graph when asked. Label the axes clearly and mark the peak at $45^{\circ}$ to demonstrate conceptual mastery.
+
+###QUESTION_TYPE
+Experimental questions

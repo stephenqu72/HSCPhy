@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+To solve this problem, we first extract the given values:
+- Radius $r = 0.300\text{ m}$
+- Frequency $f = 450\text{ rev/min} = \frac{450}{60}\text{ rev/s} = 7.5\text{ rev/s}$
+- Mass $m = 0.025\text{ kg}$
+
+#### (a) What is the angular speed of the sock in rad/s?
+The angular speed $\omega$ is related to the frequency $f$ by the formula:
+$$\omega = 2\pi f$$
+Substituting the value for $f$:
+$$\omega = 2 \times \pi \times 7.5$$
+$$\omega = 15\pi \approx 47.12\text{ rad/s}$$
+
+#### (b) Calculate the magnitude and direction of the centripetal force on the sock.
+The centripetal force $F_c$ is calculated using the formula:
+$$F_c = mr\omega^2$$
+Substituting our known values:
+$$F_c = 0.025 \times 0.300 \times (15\pi)^2$$
+$$F_c = 0.0075 \times 225\pi^2$$
+$$F_c \approx 0.0075 \times 2220.66 \approx 16.65\text{ N}$$
+
+**Direction:** The direction of the centripetal force is always directed **radially inward** toward the centre of the drum (the axis of rotation).
+
+---
+
+### How to solve this type of problem:
+1. **Unit Conversion:** Always ensure your frequency is in revolutions per second (Hz) before calculating angular speed. Note that $1\text{ rev} = 2\pi\text{ radians}$.
+2. **Standard Formulas:** Memorize the relationships between linear velocity ($v$), angular velocity ($\omega$), and centripetal acceleration/force. Using $\omega$ directly in $F = mr\omega^2$ is often faster than converting to $v$ first.
+3. **Conceptual Understanding:** Remember that "centripetal" literally means "center-seeking." Whenever an object moves in a circle, the net force must point toward the center of that circle.
+
+###QUESTION_TYPE
+Calculation question

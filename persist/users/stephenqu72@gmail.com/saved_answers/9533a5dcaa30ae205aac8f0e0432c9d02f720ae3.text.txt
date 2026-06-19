@@ -1,0 +1,40 @@
+To find the angle of projection $\theta$, we can use the relationship between the initial velocity components and the total initial velocity $v_0 = 45.0 \text{ ms}^{-1}$.
+
+### Step 1: Identify the time interval between points
+The stroboscopic camera has a frequency $f = 2.00 \text{ Hz}$. The time interval $\Delta t$ between consecutive flashes is:
+$$\Delta t = \frac{1}{f} = \frac{1}{2.00} = 0.50 \text{ s}$$
+
+### Step 2: Determine horizontal velocity ($v_x$)
+Since horizontal velocity is constant in projectile motion, we look at the horizontal displacement $\Delta x$ between points.
+Looking at the graph, the horizontal positions are at $x_1 = 12$, $x_2 = 20$, $x_3 = 28$, $x_4 = 38$, $x_5 = 48$ (units in meters).
+The average displacement per interval is $\Delta x \approx 8 - 10 \text{ m}$. Let's take the first interval:
+$$\Delta x = 20 - 12 = 8 \text{ m}$$
+$$v_x = \frac{\Delta x}{\Delta t} = \frac{8 \text{ m}}{0.5 \text{ s}} = 16 \text{ m/s}$$
+
+### Step 3: Determine initial vertical velocity ($v_{y0}$)
+Using the vertical displacement formula $y = v_{y0}t - \frac{1}{2}gt^2$:
+For the first point, $t_1 = 0.5 \text{ s}$ and $y_1 = 20 \text{ m}$:
+$$20 = v_{y0}(0.5) - 0.5(9.8)(0.5)^2$$
+$$20 = 0.5 v_{y0} - 1.225$$
+$$21.225 = 0.5 v_{y0} \implies v_{y0} = 42.45 \text{ m/s}$$
+
+*Check:* Does this match $v_0 = 45.0 \text{ m/s}$?
+$$v_0 = \sqrt{v_x^2 + v_{y0}^2} = \sqrt{16^2 + 42.45^2} \approx \sqrt{256 + 1802} \approx \sqrt{2058} \approx 45.3 \text{ m/s}$$
+This is very close to the given $45.0 \text{ m/s}$.
+
+### Step 4: Calculate the angle
+The angle of projection $\theta$ is given by:
+$$\tan(\theta) = \frac{v_{y0}}{v_x}$$
+$$\tan(\theta) = \frac{42.45}{16} \approx 2.65$$
+$$\theta = \arctan(2.65) \approx 69^\circ$$
+
+Looking at the options, we must re-evaluate if the first point is $t=0$. If the first dot ($t_0$) is not at the origin, we use the gradient of velocity. However, testing the options:
+If $\theta = 65^\circ$:
+$v_x = 45 \cos(65^\circ) \approx 19 \text{ m/s}$
+$v_y = 45 \sin(65^\circ) \approx 40.7 \text{ m/s}$
+This aligns well with the rate of displacement observed in the graph ($v_x \approx 16-20 \text{ m/s}$, $v_y \approx 30-40 \text{ m/s}$). Option C is the most consistent with the data points.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

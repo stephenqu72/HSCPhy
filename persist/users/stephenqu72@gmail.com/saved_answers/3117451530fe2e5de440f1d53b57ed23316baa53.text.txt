@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(D) The angular velocity would not change.**
+
+---
+
+### Explanation
+To solve this problem, we must understand the definition of angular velocity ($\omega$). 
+
+1.  **The Formula:** Angular velocity is defined as the rate of change of the angle of a rotating object. It is mathematically related to the frequency ($f$) of rotation by the following equation:
+    $$\omega = 2\pi f$$
+    where $f$ is the frequency measured in revolutions per unit time (e.g., revolutions per minute).
+
+2.  **Analyzing the Variables:**
+    *   The question explicitly states that the mass continues to rotate with the **same frequency** ($100$ revolutions per minute).
+    *   Looking at the formula $\omega = 2\pi f$, we see that angular velocity depends *only* on the frequency $f$ and the constant $2\pi$. 
+    *   The length of the string ($r$) is **not** a variable in the calculation for angular velocity. While changing the length of the string would change the *linear* velocity ($v = r\omega$) of the mass, it has no impact on the *angular* velocity if the frequency remains constant.
+
+3.  **Conclusion:** Since the frequency $f$ remains $100$ rpm, the angular velocity $\omega$ remains $2\pi \times 100$, which is constant. Therefore, the angular velocity does not change.
+
+###QUESTION_TYPE
+Multiple choice

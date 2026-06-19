@@ -1,0 +1,24 @@
+To determine the correct answer, we must analyze the orbital mechanics of both types of satellites.
+
+### Analysis of the Options
+
+1.  **Orbital Radius ($r$):** Geostationary satellites must orbit at a specific altitude (approx. $35,786$ km above the equator) to match Earth's rotation, resulting in a large orbital radius. Low Earth Orbit (LEO) satellites are much closer to Earth. Therefore, LEO has a **smaller** orbital radius than Geostationary orbit.
+2.  **Orbital Period ($T$):** By Kepler's Third Law, $T^2 \propto r^3$. Since LEO has a smaller radius, it has a **shorter** orbital period (typically ~90 minutes) compared to a Geostationary satellite (24 hours).
+3.  **Orbital Velocity ($v$):** The velocity of a satellite in a circular orbit is given by $v = \sqrt{\frac{GM}{r}}$. Because LEO has a smaller radius ($r$), it must travel at a **higher** orbital velocity to maintain its orbit.
+4.  **Acceleration ($a$):** The centripetal acceleration is $a = \frac{v^2}{r} = \frac{GM}{r^2}$. Because the LEO satellite is closer to Earth (smaller $r$), it experiences a **greater** acceleration than the Geostationary satellite. Conversely, the Geostationary satellite experiences **smaller** acceleration.
+
+### Evaluating the Choices:
+*   **(A)** LEO has a shorter period (Correct), but LEO has a *lower* orbital radius, not the Geostationary orbit. This is incorrect.
+*   **(B)** LEO has a higher orbital velocity (Correct), and a Geostationary orbit has a smaller acceleration (Correct because $r$ is larger). **This is the correct statement.**
+*   **(C)** LEO has a shorter period, not longer. This is incorrect.
+*   **(D)** LEO is not "always" equatorial (it can be polar or inclined), and while a Geostationary orbit has lower velocity, the first part of the statement is false.
+
+**Conclusion:** The correct option is **(B)**.
+
+### How to solve:
+1. Recall that orbital velocity decreases as radius increases ($v \propto \frac{1}{\sqrt{r}}$). Thus, LEO (closer) moves faster than Geostationary (further).
+2. Recall that gravitational acceleration/centripetal acceleration decreases as the square of the distance from the center of the Earth ($a \propto \frac{1}{r^2}$). Thus, the satellite further away (Geostationary) experiences less acceleration.
+3. Compare these physical principles against the provided table to identify the row where both statements are scientifically accurate.
+
+###QUESTION_TYPE
+Multiple choice

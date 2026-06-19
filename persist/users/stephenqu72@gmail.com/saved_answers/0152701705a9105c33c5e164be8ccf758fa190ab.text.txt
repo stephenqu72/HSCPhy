@@ -1,0 +1,32 @@
+As a top HSC Physics teacher, I will guide you through this circular motion problem.
+
+### (a) Force Diagram
+To represent the forces on the car while turning on a flat, horizontal road:
+1. **Weight force ($mg$)**: Acting vertically downwards from the center of mass.
+2. **Normal force ($F_N$)**: Acting vertically upwards, equal to $mg$.
+3. **Friction force ($F_f$)**: Acting horizontally towards the center of the turn. This is the centripetal force required to keep the car on its circular path.
+
+### (b) Calculation of the Coefficient of Friction
+**Step 1: Unit conversion.**
+The speed is given in $km/h$, but we must work in SI units ($m/s$).
+$$v = 55 \times \frac{1000}{3600} \approx 15.28\text{ }m/s$$
+
+**Step 2: Identify the forces.**
+For a car on a flat road, the friction force ($F_f$) provides the centripetal force ($F_c$):
+$$F_f = F_c = \frac{mv^2}{r}$$
+Also, on a flat road, the normal force $F_N = mg$. The friction force is defined as $F_f = \mu F_N$, where $\mu$ is the coefficient of friction.
+
+**Step 3: Solve for $\mu$.**
+$$\mu mg = \frac{mv^2}{r}$$
+The mass $m$ cancels out:
+$$\mu = \frac{v^2}{rg}$$
+Using $r = 25\text{ }m$ and $g \approx 9.8\text{ }m/s^2$:
+$$\mu = \frac{15.28^2}{25 \times 9.8} = \frac{233.48}{245} \approx 0.95$$
+
+### (c) Consequences of not slowing down
+If the car maintains its initial speed (which is $55\text{ }km/h$), the required centripetal force to navigate the corner of radius $25\text{ }m$ increases proportional to the square of the speed. Since the maximum available static friction ($\mu F_N$) is constant, the tires will be unable to provide the necessary centripetal force to maintain circular motion. Consequently, the car will fail to follow the curve and will skid outwards in a straight line tangent to the path, likely leading to a loss of control.
+
+***
+
+###QUESTION_TYPE
+Calculation question

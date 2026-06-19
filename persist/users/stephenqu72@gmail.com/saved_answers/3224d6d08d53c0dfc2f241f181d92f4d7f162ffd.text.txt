@@ -1,0 +1,24 @@
+To determine the correct answer, we must analyze the mechanical energy of the carts in both designs.
+
+### Analysis
+
+1.  **Rollercoaster A:**
+    The cart starts at rest at height $H$. Because the system is frictionless, the total mechanical energy is conserved. At the top of the hill between $x_1$ and $x_2$, the height of the track is $H$. According to the Law of Conservation of Energy:
+    $$PE_{start} + KE_{start} = PE_{top} + KE_{top}$$
+    $$mgH + 0 = mgH + KE_{top}$$
+    This implies $KE_{top} = 0$. The cart reaches the peak of the hill with zero velocity. Therefore, the maximum height reached is **equal to H**.
+
+2.  **Rollercoaster B:**
+    In this design, the cart leaves the track at $x_1$ and undergoes projectile motion. When a projectile is launched from a track, its velocity vector is tangential to the track. At the point where the cart leaves the track, it has kinetic energy. As it travels through the air, it continues to have a horizontal component of velocity ($v_x$). At the peak of its parabolic flight, the cart is not at rest; it still possesses this horizontal velocity.
+    Using energy conservation for the projectile:
+    $$Total\ Energy = mgH = mgh_{peak} + \frac{1}{2}mv_{peak}^2$$
+    Since the cart still has velocity at the peak ($v_{peak} > 0$), the potential energy term must be smaller than the initial potential energy ($mgh_{peak} < mgH$). Therefore, the maximum height reached by the cart in the air is **less than H**.
+
+### Conclusion
+*   Rollercoaster A reaches a maximum height of $H$.
+*   Rollercoaster B reaches a maximum height of less than $H$ because it maintains horizontal kinetic energy at the peak of its trajectory.
+
+Comparing this to the given options, **B** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we use the principles of circular motion and universal gravitation. For a satellite in a circular orbit, the gravitational force provides the centripetal force:
+
+$$\frac{mv^2}{r} = \frac{GMm}{r^2} \implies v = \sqrt{\frac{GM}{r}}$$
+
+Where:
+- $G = 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$
+- $M = 5.97 \times 10^{24} \text{ kg}$ (Mass of Earth)
+- $R_E = 6.37 \times 10^6 \text{ m}$ (Radius of Earth)
+- $r = R_E + \text{altitude}$
+
+### (a) Calculation
+
+1. **Calculate velocity at $800 \text{ km}$ ($r_1 = 7.17 \times 10^6 \text{ m}$):**
+   $$v_1 = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{7.17 \times 10^6}} \approx 7454 \text{ m/s}$$
+
+2. **Calculate velocity at $600 \text{ km}$ ($r_2 = 6.97 \times 10^6 \text{ m}$):**
+   $$v_2 = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.97 \times 10^6}} \approx 7560 \text{ m/s}$$
+
+3. **Increase in velocity:**
+   $$\Delta v = v_2 - v_1 = 7560 - 7454 = 106 \text{ m/s}$$
+   The satellite must increase its velocity by approximately **$106 \text{ m/s}$**.
+
+---
+
+### (b) Explanation
+To change the altitude from a higher to a lower orbit, the satellite must perform a retro-burn to drop into an elliptical transfer orbit, but to *remain* and be stable in the lower $600 \text{ km}$ circular orbit, it must move faster than it did at $800 \text{ km}$.
+
+The explanation relies on the relationship $v = \sqrt{GM/r}$. As the altitude decreases, the orbital radius $r$ decreases. Because the gravitational force is stronger at a smaller distance from the centre of the Earth, the satellite requires a higher orbital velocity to generate enough centripetal force to maintain a stable circular path without falling toward the Earth. Thus, lower orbits correspond to higher orbital speeds.
+
+###QUESTION_TYPE
+Calculation question

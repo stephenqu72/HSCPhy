@@ -1,0 +1,22 @@
+To find the velocity of one object with respect to another, we use the principle of **relative velocity**.
+
+### Answer
+The correct answer is **(B) 20 km/h West**.
+
+### Explanation
+To calculate the relative velocity of Car A with respect to Car B (denoted as $\vec{v}_{A/B}$), we use the vector subtraction formula:
+$$\vec{v}_{A/B} = \vec{v}_A - \vec{v}_B$$
+
+1.  **Define a coordinate system:** Let the direction "East" be the positive (+) direction. Therefore, "West" is the negative (-) direction.
+2.  **Assign values:**
+    *   Velocity of Car A ($\vec{v}_A$) = $+40\text{ km/h}$
+    *   Velocity of Car B ($\vec{v}_B$) = $+60\text{ km/h}$
+3.  **Perform the calculation:**
+    $$\vec{v}_{A/B} = 40\text{ km/h} - 60\text{ km/h}$$
+    $$\vec{v}_{A/B} = -20\text{ km/h}$$
+4.  **Interpret the result:** The negative sign indicates that the direction is opposite to our positive reference (East). Therefore, the velocity is $20\text{ km/h}$ towards the **West**.
+
+**Conceptual Tip:** Think of it this way: if you are sitting in Car B moving at $60\text{ km/h}$ East and you look at Car A, which is only moving at $40\text{ km/h}$ East, Car A appears to be "falling behind" you. Since you are moving faster than Car A, it appears to be moving backward (West) relative to your frame of reference.
+
+### QUESTION_TYPE
+Multiple choice

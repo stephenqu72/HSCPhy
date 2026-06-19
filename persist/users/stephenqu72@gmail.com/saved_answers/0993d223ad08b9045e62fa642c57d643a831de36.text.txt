@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **(C) Bohr**.
+
+### Explanation
+To determine which planet has the lowest escape velocity, we use the formula for escape velocity ($v_e$):
+
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+- $G$ is the gravitational constant (a constant value).
+- $M$ is the mass of the planet.
+- $r$ is the radius of the planet.
+
+From this formula, we can see that:
+1. $v_e$ is **directly proportional** to the square root of the mass ($\sqrt{M}$). A smaller mass leads to a smaller escape velocity.
+2. $v_e$ is **inversely proportional** to the square root of the radius ($\sqrt{r}$). A larger radius leads to a smaller escape velocity.
+
+To find the lowest escape velocity, we are looking for the planet with the **smallest mass** and the **largest radius**.
+
+Let's evaluate the options:
+*   **(A) Newton:** $M = 5 \times 10^{24}$, $r = 8000$
+*   **(B) Einstein:** $M = 8 \times 10^{24}$, $r = 7800$ (Higher mass and smaller radius than A, so $v_e$ is higher).
+*   **(C) Bohr:** $M = 5 \times 10^{24}$, $r = 9500$ (Same mass as A, but a larger radius, so $v_e$ must be lower than A).
+*   **(D) Hawkins:** $M = 8 \times 10^{24}$, $r = 10200$ (Larger mass than C, and since the mass is $1.6 \times$ greater while the radius is only $\approx 1.07 \times$ greater, the $v_e$ will be higher than C).
+
+Comparing the two planets with the smallest mass ($5 \times 10^{24}$ kg), which are Newton and Bohr, Bohr has the larger radius ($9500$ km vs $8000$ km). Since a larger radius reduces the escape velocity, **Bohr** will have the lowest escape velocity of all four planets.
+
+###QUESTION_TYPE
+Multiple choice

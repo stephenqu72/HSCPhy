@@ -1,0 +1,31 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation, which is given by the formula:
+
+$$F = \frac{G m_1 m_2}{r^2}$$
+
+Where $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses, and $r$ is the distance between the centres of the two masses.
+
+### Step 1: Calculate the gravitational force between Stars B and C ($F_{BC}$)
+*   Mass of Star B ($m_B$) = $6M$
+*   Mass of Star C ($m_C$) = $4M$
+*   Distance ($r_{BC}$) = $4d$
+
+$$F_{BC} = \frac{G(6M)(4M)}{(4d)^2} = \frac{24 G M^2}{16 d^2} = 1.5 \frac{G M^2}{d^2}$$
+
+### Step 2: Calculate the gravitational force between Stars A and C ($F_{AC}$)
+*   Mass of Star A ($m_A$) = $3M$
+*   Mass of Star C ($m_C$) = $4M$
+*   Distance ($r_{AC}$) = $6d$
+
+$$F_{AC} = \frac{G(3M)(4M)}{(6d)^2} = \frac{12 G M^2}{36 d^2} = 0.333... \frac{G M^2}{d^2}$$
+
+### Step 3: Determine the ratio
+To find how much greater $F_{BC}$ is compared to $F_{AC}$, we divide the two magnitudes:
+
+$$\text{Ratio} = \frac{F_{BC}}{F_{AC}} = \frac{1.5 \frac{G M^2}{d^2}}{0.333... \frac{G M^2}{d^2}} = \frac{1.5}{0.333...} = 4.5$$
+
+The magnitude of the gravitational force between Stars B and C is **4.50 times** greater than the force between Stars A and C.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

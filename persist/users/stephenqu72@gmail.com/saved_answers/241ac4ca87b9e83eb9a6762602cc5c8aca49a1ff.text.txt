@@ -1,0 +1,28 @@
+To solve this problem, we need to calculate the angular velocity $\omega$ and the centripetal acceleration $a_c$ for a point at the edge of the Blu-ray disk.
+
+### 1. Identify the given information
+*   Diameter $d = 0.12\text{ m}$, so the radius $r = \frac{d}{2} = 0.06\text{ m}$.
+*   Frequency $f = 13.5\text{ rotations per second (Hz)}$.
+
+### 2. Calculate the Angular Velocity ($\omega$)
+The formula for angular velocity in terms of frequency is:
+$$\omega = 2\pi f$$
+Substituting the given frequency:
+$$\omega = 2 \times \pi \times 13.5 \approx 84.82\text{ rad s}^{-1}$$
+Rounding this to the nearest whole number (as per the options provided), we get $\omega \approx 85\text{ rad s}^{-1}$.
+
+### 3. Calculate the Centripetal Acceleration ($a_c$)
+The formula for centripetal acceleration is:
+$$a_c = \omega^2 r$$
+Using our calculated value for $\omega$ (we use the unrounded value $27\pi$ for higher precision):
+$$a_c = (2 \times \pi \times 13.5)^2 \times 0.06$$
+$$a_c = (84.823)^2 \times 0.06$$
+$$a_c \approx 7194.9 \times 0.06$$
+$$a_c \approx 431.69\text{ m s}^{-2}$$
+Rounding this to the nearest whole number, we get $a_c \approx 432\text{ m s}^{-2}$.
+
+### Conclusion
+Comparing our results ($\omega \approx 85$, $a_c \approx 432$) to the given options, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice
