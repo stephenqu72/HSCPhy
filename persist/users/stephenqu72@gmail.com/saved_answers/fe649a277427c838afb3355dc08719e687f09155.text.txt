@@ -1,0 +1,31 @@
+### Answer
+
+**(a) Explanation of differences:**
+When the alpha ($\alpha$) and beta ($\beta$) particles enter the magnetic field, they experience a magnetic force given by $F = qvB\sin(\theta)$. Since they are moving perpendicular to the field, $\theta = 90^\circ$.
+1.  **Direction:** Using the Right-Hand Rule (for positive charges) or Left-Hand Rule (for negative charges):
+    *   The **alpha particle** (positive charge) will be deflected **upwards**.
+    *   The **beta particle** (negative charge) will be deflected **downwards**.
+2.  **Radius of Curvature:** Because the magnetic force acts as a centripetal force ($qvB = \frac{mv^2}{r}$), the radius of the path is $r = \frac{mv}{qB}$. 
+    *   An alpha particle has a much larger mass ($m_\alpha \approx 4 \text{ u}$) and a different charge ($q_\alpha = +2e$) compared to a beta particle ($m_\beta \approx 5.48 \times 10^{-4} \text{ u}$, $q_\beta = -e$). Consequently, the alpha particle will have a significantly larger radius of curvature than the beta particle, resulting in a much wider, gentler arc.
+
+**(b) Calculation:**
+To find the radius for the beta particle, we use $r = \frac{mv}{qB}$.
+*   $m = 9.11 \times 10^{-31} \text{ kg}$
+*   $v = 0.4 \times (3 \times 10^8 \text{ m/s}) = 1.2 \times 10^8 \text{ m/s}$
+*   $q = 1.6 \times 10^{-19} \text{ C}$
+*   $B = 6.7 \times 10^{-4} \text{ T}$
+
+$$r = \frac{(9.11 \times 10^{-31})(1.2 \times 10^8)}{(1.6 \times 10^{-19})(6.7 \times 10^{-4})}$$
+$$r = \frac{1.0932 \times 10^{-22}}{1.072 \times 10^{-22}} \approx 1.02 \text{ meters}$$
+
+---
+
+### How to solve it
+1.  **For part (a):** Focus on the relationship between charge polarity and direction (Right-Hand Rule) and the relationship between mass, momentum, and radius. Always state the relevant physics principles, such as the Lorentz force acting as centripetal force.
+2.  **For part (b):** This is a classic substitution problem. 
+    *   Identify the variables provided ($v, B, q, m$). Note that for HSC physics, you should use the mass of an electron for a beta particle ($9.11 \times 10^{-31} \text{ kg}$).
+    *   Rearrange the centripetal force formula: $F_B = F_c \Rightarrow qvB = \frac{mv^2}{r} \Rightarrow r = \frac{mv}{qB}$.
+    *   Ensure all units are in SI (Convert $c$ to $\text{m/s}$).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+### Answer
+
+**(a) Calculation**
+
+To calculate the kinetic energy ($E_k$) of a satellite, we use the formula derived from equating gravitational force to centripetal force:
+$$E_k = \frac{GMm}{2r}$$
+
+For a geostationary orbit, the radius $r \approx 4.22 \times 10^7 \text{ m}$. Using standard constants ($G = 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$, $M_{\text{Earth}} = 5.97 \times 10^{24} \text{ kg}$, $m = 550 \text{ kg}$):
+
+$$E_k = \frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times 550}{2 \times (4.22 \times 10^7)}$$
+$$E_k \approx 2.59 \times 10^9 \text{ J}$$
+
+**(b) Explanation**
+
+The total energy ($E_{total}$) of an orbiting satellite is the sum of its kinetic and gravitational potential energy, given by $E_{total} = -\frac{GMm}{2r}$. 
+1. **Gravitational Potential Energy:** Because geostationary orbit is much further from the Earth's centre than Low Earth Orbit (LEO), its gravitational potential energy is much higher (less negative). 
+2. **Total Energy Comparison:** Since $E_{total}$ is negative and increases (becomes less negative) as $r$ increases, the total energy of a satellite in a geostationary orbit is greater than that of a satellite in LEO.
+3. **Launch Requirement:** Launching a satellite requires providing the difference between its initial energy on the ground and its final orbital energy. Because the final total energy for geostationary orbit is significantly higher than for LEO, more energy (work) must be input during the launch process.
+
+---
+
+### How to solve
+
+1. **For (a):** Recognize that for a circular orbit, the kinetic energy is exactly half the magnitude of the gravitational potential energy. You must recall or derive the orbital radius for a geostationary satellite ($r \approx 42,200 \text{ km}$ from the Earth's centre). Plug the mass of the Earth, the mass of the satellite, and the radius into the kinetic energy formula.
+2. **For (b):** This is a conceptual physics question. Focus on the energy definitions. Remember that "total energy" is the sum of $E_k + E_p$. When a satellite moves to a higher orbit, its $E_p$ increases significantly, and although its $E_k$ decreases, the net result is an increase in the total energy of the system. Therefore, more energy must be expended by the rocket to reach the higher potential state of a geostationary orbit.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,36 @@
+To solve this problem, we must analyze the physics of circular motion on a banked track where the normal force provides the necessary centripetal force in the absence of friction.
+
+### 1. Identify the Physics Principles
+For a car on a banked track with no friction, the centripetal force $F_c$ is provided by the horizontal component of the normal force $N$.
+- The vertical component balances gravity: $N \cos \theta = mg$
+- The horizontal component provides centripetal force: $N \sin \theta = \frac{mv^2}{r}$
+
+Dividing these equations gives the standard banked track formula:
+$$\tan \theta = \frac{v^2}{rg}$$
+
+### 2. Convert Units
+The speed $v$ is given in km/h. We must convert this to SI units (m/s):
+$$v = 50 \text{ km/h} = \frac{50}{3.6} \approx 13.889 \text{ m/s}$$
+
+### 3. Calculate the Radius of Motion
+The radius $r$ is the total horizontal distance from the centre of the track to the car.
+- The track starts at $30\text{ m}$.
+- The car is at a height $h$ on a $20^{\circ}$ slope. The horizontal distance from the start of the banking to the car is $x = \frac{h}{\tan 20^{\circ}}$.
+- Therefore, $r = 30 + \frac{h}{\tan 20^{\circ}}$.
+
+### 4. Solve for $h$
+Substitute the variables into the banked track formula:
+$$\tan 20^{\circ} = \frac{v^2}{(30 + \frac{h}{\tan 20^{\circ}})g}$$
+
+Rearranging for $r$:
+$$r = \frac{v^2}{g \tan 20^{\circ}} = \frac{13.889^2}{9.8 \times \tan 20^{\circ}} \approx \frac{192.9}{3.567} \approx 54.08 \text{ m}$$
+
+Now find $h$ using the relationship $r = 30 + \frac{h}{\tan 20^{\circ}}$:
+$$54.08 = 30 + \frac{h}{\tan 20^{\circ}}$$
+$$24.08 = \frac{h}{\tan 20^{\circ}}$$
+$$h = 24.08 \times \tan 20^{\circ} \approx 24.08 \times 0.364 \approx 8.76 \text{ m}$$
+
+**Answer:** The car will travel safely at a height of approximately **$8.76\text{ m}$**.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+To solve this problem, we use the standard constants for Earth:
+- Mass of Earth, $M = 5.97 \times 10^{24} \text{ kg}$
+- Radius of Earth, $R_E = 6.37 \times 10^6 \text{ m}$
+- Gravitational constant, $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+
+#### Part (a): Calculate the change in gravitational potential energy
+The formula for gravitational potential energy ($U$) is:
+$$U = -\frac{GMm}{r}$$
+Where $r$ is the distance from the center of the Earth ($r = R_E + \text{altitude}$).
+
+1. **Initial orbital radius ($r_1$):** $6.37 \times 10^6 + 1.8 \times 10^6 = 8.17 \times 10^6 \text{ m}$
+2. **Final orbital radius ($r_2$):** $6.37 \times 10^6 + 1.5 \times 10^6 = 7.87 \times 10^6 \text{ m}$
+3. **Initial potential energy ($U_1$):**
+   $$U_1 = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(2000)}{8.17 \times 10^6} \approx -9.748 \times 10^{10} \text{ J}$$
+4. **Final potential energy ($U_2$):**
+   $$U_2 = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(2000)}{7.87 \times 10^6} \approx -1.012 \times 10^{11} \text{ J}$$
+5. **Change in potential energy ($\Delta U$):**
+   $$\Delta U = U_2 - U_1 = (-1.012 \times 10^{11}) - (-9.748 \times 10^{10}) \approx -3.72 \times 10^9 \text{ J}$$
+The satellite loses approximately $3.72 \times 10^9 \text{ J}$ of gravitational potential energy.
+
+#### Part (b): Explain how the satellite achieves the velocity for its new orbit
+As the satellite spirals inwards, it encounters residual atmospheric particles (drag). This friction causes two main energy shifts:
+1. **Mechanical Energy Loss:** The drag force does negative work on the satellite, reducing its total mechanical energy.
+2. **Increase in Kinetic Energy:** By the Virial Theorem, as a satellite moves to a lower orbit, the magnitude of the potential energy decrease is twice the gain in kinetic energy. Therefore, as the satellite falls into a deeper gravity well (losing potential energy), it actually converts a portion of that potential energy into kinetic energy, resulting in a higher orbital velocity at the lower altitude.
+3. **Stabilization:** The satellite "achieves" the new velocity because the gravitational field strength is higher at the lower altitude, requiring a higher orbital velocity to maintain a stable circular path ($v = \sqrt{GM/r}$). The process of spiraling inwards naturally accelerates the satellite to this required higher speed.
+
+###QUESTION_TYPE
+Calculation question

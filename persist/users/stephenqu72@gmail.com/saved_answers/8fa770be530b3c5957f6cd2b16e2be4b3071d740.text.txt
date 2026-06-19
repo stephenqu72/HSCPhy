@@ -1,0 +1,37 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this "quantum" mechanics problem. Don't let the flavor text (spiders and Antman) distract you—this is a classic Electromagnetism problem involving a velocity selector.
+
+### Part a: Calculate the speed of the alpha particle
+
+**The Physics:**
+For the alpha particle to be at rest in the presence of both an electric and magnetic field, the net force must be zero. This is the principle of a **Velocity Selector**.
+1. The electric force $F_E = qE$ acts in the direction of the electric field (from positive plate to negative plate).
+2. The magnetic force $F_B = qvB \sin(\theta)$ acts perpendicular to both the velocity and the magnetic field. For the forces to balance, the magnetic force must be equal and opposite to the electric force.
+
+Since they must balance ($F_E = F_B$):
+$$qE = qvB$$
+$$v = \frac{E}{B}$$
+
+**Calculation:**
+Given:
+- $E = 50 \, \text{V/m}$
+- $B = 0.25 \, \text{T}$
+
+$$v = \frac{50}{0.25}$$
+$$v = 200 \, \text{m/s}$$
+
+*Note:* The length of the silk ($L$) and the radius of rotation are distractors for part (a), as the speed is determined solely by the balance of the fields.
+
+---
+
+### Part b: Describe the motion if the spider silk is cut
+
+**The Physics:**
+When the silk is cut, the centripetal force (provided by the tension in the string) vanishes. The alpha particle will then be governed solely by the electric and magnetic fields.
+
+**Description:**
+1. **Initial state:** At the moment the string is cut, the particle has a velocity $v = 200 \, \text{m/s}$. 
+2. **Path:** Because the particle is moving in a magnetic field with a velocity component perpendicular to the field lines, it will experience a magnetic force $F = qvB$. This force acts as a centripetal force, causing the particle to undergo **uniform circular motion**.
+3. **Dynamics:** The particle will move in a circular path with radius $r = \frac{mv}{qB}$. Because $E$ and $B$ are constant, once it moves away from the initial equilibrium point, the electric force and magnetic force will no longer be perfectly balanced, causing the particle to deviate from a straight line and curve.
+
+###QUESTION_TYPE
+Calculation question

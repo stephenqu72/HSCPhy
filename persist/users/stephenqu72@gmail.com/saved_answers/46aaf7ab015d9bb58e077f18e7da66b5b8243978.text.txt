@@ -1,0 +1,18 @@
+To solve this problem, we must apply the principle of **Conservation of Mechanical Energy**.
+
+### Explanation
+
+1.  **Understand the System**: The system consists of a mass ($m$) and a spring. Because there is no air resistance and no external non-conservative forces (like friction) doing work on the system, the total mechanical energy is conserved.
+2.  **Define Mechanical Energy**: The total mechanical energy ($E_{total}$) of this system is the sum of the gravitational potential energy ($U_g$), the kinetic energy ($K$), and the elastic potential energy ($U_e$):
+    $$E_{total} = U_g + K + U_e$$
+3.  **Evaluate the Statements**:
+    *   **A. Incorrect**: The "mechanical energy of the mass" alone does not remain constant because energy is transferred between the mass and the spring.
+    *   **B. Incorrect**: Gravitational potential energy ($U_g = mgh$) depends on the height. The mass is at its lowest point when the extension is at its maximum, meaning its gravitational potential energy is at its *minimum* value, not its maximum.
+    *   **C. Incorrect**: Elastic potential energy ($U_e = \frac{1}{2}kx^2$) depends on the extension $x$. At the point of release, the extension is zero, so the elastic potential energy is zero (its minimum).
+    *   **D. Correct**: In a closed system where only conservative forces (gravity and spring force) are acting, the **total mechanical energy of the system** (mass + spring) remains constant throughout the motion.
+
+### Answer
+The correct statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

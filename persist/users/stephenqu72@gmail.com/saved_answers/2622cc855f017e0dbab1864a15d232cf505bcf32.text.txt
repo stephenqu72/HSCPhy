@@ -1,0 +1,35 @@
+To find the magnitude of the magnetic force on the conductor, we use the formula for the magnetic force on a current-carrying wire:
+
+$$F = BIl \sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   $B = 2.0\text{ T}$ (Magnetic field strength)
+    *   $I = 3\text{ A}$ (Current)
+    *   $\theta = 45^\circ$ (The angle between the current and the magnetic field lines, though in this formula, $\theta$ is the angle between the wire and the magnetic field. Since the field is into the page and the wire is in the plane of the page, the angle between the wire and the field lines is $90^\circ$. However, we need the **length $l$ of the wire within the field**).
+
+2.  **Calculate the length ($l$) of the wire inside the field:**
+    The wire cuts across the square region. Looking at the geometry, the vertical side of the square is $0.4\text{ m}$. The wire forms the hypotenuse of a right-angled triangle with the side of the square. 
+    Using trigonometry:
+    $$\sin(45^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{0.4}{l}$$
+    $$l = \frac{0.4}{\sin(45^\circ)} = \frac{0.4}{\frac{\sqrt{2}}{2}} \approx 0.5657\text{ m}$$
+
+3.  **Calculate the Force ($F$):**
+    Now substitute the values into the force formula. Note that the angle between the current direction and the magnetic field lines is $90^\circ$ (the field is into the page, the wire is on the page), so $\sin(90^\circ) = 1$.
+    $$F = B \cdot I \cdot l$$
+    $$F = 2.0 \cdot 3 \cdot 0.5657$$
+    $$F = 6 \cdot 0.5657 \approx 3.394\text{ N}$$
+
+Rounding to two significant figures, we get **$3.4\text{ N}$**.
+
+Comparing this result to the given options:
+(A) $0.68\text{ N}$
+(B) $1.7\text{ N}$
+(C) $2.4\text{ N}$
+**(D) $3.4\text{ N}$**
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we apply the Work-Energy Theorem. The kinetic energy of the electron is dissipated by the work done by the electric field over the distance $d$.
+
+### Part (a)
+To complete the table, calculate $v^2$ for each velocity:
+*   $1000^2 = 1.0 \times 10^6$
+*   $2000^2 = 4.0 \times 10^6$
+*   $3000^2 = 9.0 \times 10^6$
+*   $4000^2 = 16.0 \times 10^6$
+*   $5000^2 = 25.0 \times 10^6$
+
+### Part (b)
+Plot $d$ (in $\mu m$) on the y-axis against $v^2$ (in $10^6 m^2 s^{-2}$) on the x-axis. Using a ruler, draw a straight line of best fit that passes as close as possible to all data points. Note: $1 \mu m = 1 \times 10^{-6} m$.
+
+### Part (c)
+The work done by the electric force $F = qE$ over distance $d$ equals the initial kinetic energy:
+$$W = \Delta KE$$
+$$Fd = \frac{1}{2}mv^2$$
+$$(qE)d = \frac{1}{2}mv^2$$
+Rearranging for the relationship:
+$$d = \left( \frac{m}{2qE} \right) v^2$$
+
+### Part (d)
+From the derivation in part (c), the graph of $d$ vs $v^2$ should be a straight line with slope $k = \frac{m}{2qE}$.
+1. Determine the slope of your line of best fit from the graph: $k = \frac{\Delta d}{\Delta v^2}$. Ensure units are consistent (convert $\mu m$ to $m$).
+2. Use the known values for the electron: $m = 9.11 \times 10^{-31} kg$ and $q = 1.6 \times 10^{-19} C$.
+3. Rearrange the slope formula to solve for $E$:
+$$E = \frac{m}{2qk}$$
+
+*Example calculation:* If your slope $k$ is roughly $1.8 \times 10^{-12} \frac{m}{m^2/s^2}$:
+$$E = \frac{9.11 \times 10^{-31}}{2(1.6 \times 10^{-19})(1.8 \times 10^{-12})} \approx 1581 \, V/m$$
+
+###QUESTION_TYPE
+Data analysis questions

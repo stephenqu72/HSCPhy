@@ -1,0 +1,33 @@
+To solve this problem, we need to calculate the acceleration of an electron in a uniform electric field. 
+
+### Answer
+To show that the acceleration $a = 4 \times 10^{16} \text{ ms}^{-2}$, we use the relationship between electric force and Newton's Second Law.
+
+**1. Identify the given values:**
+*   Voltage ($V$) = $5000 \text{ V}$
+*   Distance ($d$) = $2 \text{ cm} = 0.02 \text{ m}$
+*   Charge of an electron ($q$) = $1.602 \times 10^{-19} \text{ C}$
+*   Mass of an electron ($m$) = $9.109 \times 10^{-31} \text{ kg}$
+
+**2. Calculate the electric field strength ($E$):**
+$$E = \frac{V}{d} = \frac{5000 \text{ V}}{0.02 \text{ m}} = 2.5 \times 10^5 \text{ V/m}$$
+
+**3. Calculate the force ($F$) acting on the electron:**
+$$F = qE = (1.602 \times 10^{-19} \text{ C}) \times (2.5 \times 10^5 \text{ V/m}) = 4.005 \times 10^{-14} \text{ N}$$
+
+**4. Calculate the acceleration ($a$) using $F = ma$:**
+$$a = \frac{F}{m} = \frac{4.005 \times 10^{-14} \text{ N}}{9.109 \times 10^{-31} \text{ kg}} \approx 4.39 \times 10^{16} \text{ ms}^{-2}$$
+
+*Note: Depending on the values provided in your HSC data sheet (e.g., using $e = 1.6 \times 10^{-19}$ and $m = 9.1 \times 10^{-31}$), the result calculates to approximately $4.39 \times 10^{16} \text{ ms}^{-2}$. Since the question asks to "show" the value is $4 \times 10^{16} \text{ ms}^{-2}$, it is likely the question uses approximated constants to yield this specific significant figure.*
+
+---
+
+### How to solve it
+1.  **Understand the Physics:** An electron in a uniform electric field experiences a constant electrostatic force $F = qE$. Because the field is uniform, the force is constant, leading to constant acceleration ($a = F/m$).
+2.  **Relate Voltage to Field:** Since you are given voltage and distance, remember that for a uniform field, $E = V/d$.
+3.  **Combine the equations:** You can combine the expressions into one formula: 
+    $$a = \frac{qV}{md}$$
+4.  **Substitute and Calculate:** Plug in your constants ($q \approx 1.6 \times 10^{-19} \text{ C}$ and $m \approx 9.1 \times 10^{-31} \text{ kg}$) and the values provided in the diagram to reach the target acceleration.
+
+###QUESTION_TYPE
+Calculation question

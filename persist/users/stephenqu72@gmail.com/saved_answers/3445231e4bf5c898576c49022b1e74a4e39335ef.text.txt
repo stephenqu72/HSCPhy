@@ -1,0 +1,30 @@
+To excel in HSC Physics, you must be able to clearly distinguish between the effects of electric and magnetic fields on charged particles. Here is the breakdown of how to approach these questions.
+
+---
+
+### Part (a)
+**Answer:**
+*   **Similarity:** Both particles will experience a force that causes them to deviate from their initial straight-line path (their trajectories will be curved).
+*   **Difference:** The magnetic force ($F = qvB \sin \theta$) acts perpendicular to the velocity at all times, causing the particle to undergo **uniform circular motion**. In contrast, the electric force ($F = qE$) acts in a constant direction regardless of the particle's velocity, causing the particle to follow a **parabolic trajectory** (similar to a projectile).
+
+**Explanation:**
+To solve this, recall the fundamental formulas:
+1.  **Electric Field:** The force is $F = qE$. This force is constant in magnitude and direction. Since it acts perpendicular to the initial velocity, it accelerates the particle in that direction while the velocity component in the original direction remains constant, resulting in a parabola.
+2.  **Magnetic Field:** The force is $F = qvB$. Because the force is always perpendicular to the instantaneous velocity (via the right-hand rule), the magnitude of the velocity (speed) remains constant, but the direction changes continuously, leading to a circle.
+
+---
+
+### Part (b)
+**Answer:**
+A charged particle in a uniform **electric field** follows a **parabolic trajectory**, which is identical in nature to the trajectory of a projectile in a uniform **gravitational field**. In both cases, there is a constant force acting in a fixed direction (the electric force $F=qE$ or gravitational force $F=mg$), while the velocity component perpendicular to that force remains constant.
+
+**Explanation:**
+To earn full marks here, you must identify the "equivalence" of the fields. 
+*   In projectile motion, the object experiences a constant acceleration $g$ downwards.
+*   In an electric field, the particle experiences a constant acceleration $a = \frac{qE}{m}$ in the direction of the field.
+*   Because the mathematical structure of the equations of motion is identical ($s_y = ut + \frac{1}{2}at^2$), both result in parabolic paths. Note: Do *not* choose a magnetic field for this answer, as the circular motion it produces is fundamentally different from the parabolic motion of a projectile.
+
+---
+
+###QUESTION_TYPE
+Short answer

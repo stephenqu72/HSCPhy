@@ -1,0 +1,28 @@
+To determine which statement is **not** correct, let's analyze each option based on Newton’s Law of Universal Gravitation and the principles of orbital mechanics.
+
+### Analysis of Statements
+
+*   **A. The orbital time of the Moon about the Earth is independent of the mass of the Moon.**
+    Using Kepler’s Third Law ($T^2 \propto r^3$), the period of an orbit is determined by the mass of the central body (the Earth) and the orbital radius. The mass of the orbiting body (the Moon) cancels out in the derivation $F_g = F_c$, therefore, this statement is **correct**.
+
+*   **B. The value of G at the surface of the Moon is the same as the surface of the Earth.**
+    In physics, $G$ represents the Universal Gravitational Constant ($6.674 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$). This value is a fundamental constant of the universe and does not change regardless of location. Therefore, this statement is **correct**. (Note: Do not confuse $G$ with $g$, the acceleration due to gravity, which *does* vary).
+
+*   **C. The gravitational force between the Earth and the Moon is proportional to the mass of the Moon.**
+    Newton's Law of Gravitation is given by $F = \frac{G M m}{r^2}$. Since $F$ is directly proportional to the mass of the Moon ($m$), this statement is **correct**.
+
+*   **D. The gravitational force between the Earth and the Moon is proportional to the square of the separation of the Earth and the Moon.**
+    According to the formula $F = \frac{G M m}{r^2}$, the gravitational force is **inversely proportional** to the **square** of the separation ($r^2$), not directly proportional. Therefore, this statement is **incorrect**.
+
+### Conclusion
+The incorrect statement is **D**.
+
+### Explanation for Students
+When dealing with gravity questions, always refer back to the core formula: $F = \frac{G M m}{r^2}$. 
+*   **Proportionality:** Notice that force ($F$) sits on the same side as the numerator terms ($M$ and $m$). This means if you increase the mass, the force increases. 
+*   **Inverse proportionality:** Notice that $r^2$ is in the denominator. This means as the distance ($r$) increases, the force decreases by the square of that distance. 
+
+Always look closely at the wording regarding "proportional" (direct) versus "inversely proportional."
+
+###QUESTION_TYPE
+Multiple choice

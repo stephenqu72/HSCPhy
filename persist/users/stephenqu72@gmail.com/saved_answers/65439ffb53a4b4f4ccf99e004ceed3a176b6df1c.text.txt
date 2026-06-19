@@ -1,0 +1,28 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To solve this projectile motion problem, we must analyze the vertical and horizontal components of the initial velocity separately.
+
+**1. Vertical Component ($v_y$):**
+The maximum height reached by a projectile is determined by its initial vertical velocity. The relevant kinematic equation is $v_f^2 = v_y^2 + 2a\Delta y$. At the peak, $v_f = 0$, so:
+$$0 = v_y^2 - 2g \Delta y_{max} \implies \Delta y_{max} = \frac{v_y^2}{2g}$$
+Since Sam’s ball went higher than Kim’s ball ($\Delta y_{Sam} > \Delta y_{Kim}$), Sam must have a **larger initial vertical velocity** than Kim. Therefore, the vector for Sam's vertical velocity must be longer than Kim's.
+
+**2. Horizontal Component ($v_x$):**
+The horizontal distance (range $R$) is given by $R = v_x \times t_{total}$, where $t_{total}$ is the time of flight. 
+The time of flight is determined by the vertical motion: $t_{total} = \frac{2v_y}{g}$. 
+Substituting this into the range equation:
+$$R = v_x \times \left(\frac{2v_y}{g}\right)$$
+We are told that both balls travelled the same distance ($R = 100\text{m}$). This means the product of the horizontal and vertical velocity components must be the same for both golfers:
+$$v_{x,Sam} \times v_{y,Sam} = v_{x,Kim} \times v_{y,Kim}$$
+Because Sam has a larger vertical component ($v_{y,Sam} > v_{y,Kim}$), he must have a **smaller horizontal component** ($v_{x,Sam} < v_{x,Kim}$) to ensure the range remains identical.
+
+**Conclusion:**
+- Sam: Higher vertical component, lower horizontal component.
+- Kim: Lower vertical component, higher horizontal component.
+
+Looking at the options, **Option B** is the only one where Sam’s vertical arrow is longer than Kim’s, and Sam’s horizontal arrow is shorter than Kim’s.
+
+###QUESTION_TYPE
+Multiple choice

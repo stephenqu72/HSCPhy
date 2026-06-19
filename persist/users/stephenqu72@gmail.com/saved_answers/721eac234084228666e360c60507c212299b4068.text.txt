@@ -1,0 +1,32 @@
+To solve this problem, we need to relate the work done by the electric field to the kinetic energy gained by the particle.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Work-Energy Principle:**
+    When a charged particle $e$ is accelerated through a potential difference $V$ between two plates, the work done on the particle by the electric field is equal to its final kinetic energy $K$. 
+    The formula for work done on a charge is:
+    $$W = K = qV = eV$$
+    From this, we can find the potential difference $V$:
+    $$V = \frac{K}{e}$$
+
+2.  **Relate Potential Difference to Electric Field:**
+    In a uniform electric field $E$ between two parallel plates separated by a distance $d$, the potential difference $V$ is given by:
+    $$V = Ed$$
+
+3.  **Combine the Equations:**
+    Substitute the expression for $V$ from the first step into the second step equation:
+    $$\frac{K}{e} = Ed$$
+
+4.  **Solve for $E$:**
+    To isolate the electric field strength $E$, divide both sides by $d$:
+    $$E = \frac{K}{ed}$$
+
+Comparing this result to the given options, it matches option **C**.
+
+***
+
+### Answer:
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

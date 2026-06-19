@@ -1,0 +1,39 @@
+To find the magnitude of the velocity at $t = 3 \text{ s}$, we must analyze the horizontal and vertical components of the motion independently.
+
+### 1. Analyze the components of velocity
+*   **Horizontal component ($v_x$):** Since there is no air resistance, the horizontal velocity remains constant. Therefore, $v_x = u$.
+*   **Vertical component ($v_y$):** Using the equation $v_y = u_y + gt$, and knowing the initial vertical velocity $u_y = 0$ (launched horizontally):
+    $$v_y = 0 + (9.8 \times 3) = 29.4 \text{ m/s}$$
+
+### 2. Relate components to the angle
+We are given that the resultant velocity vector makes an angle of $60^\circ$ with the horizontal. We can use trigonometry to relate the horizontal and vertical components:
+$$\tan(60^\circ) = \frac{v_y}{v_x}$$
+Substituting our known values:
+$$\tan(60^\circ) = \frac{29.4}{u}$$
+Since $\tan(60^\circ) = \sqrt{3} \approx 1.732$:
+$$u = \frac{29.4}{1.732} \approx 16.97 \text{ m/s}$$
+
+### 3. Find the magnitude of the velocity ($v$)
+The magnitude of the resultant velocity vector is given by the hypotenuse of the velocity triangle:
+$$v = \sqrt{v_x^2 + v_y^2}$$
+From our trigonometric relationship $\cos(60^\circ) = \frac{v_x}{v}$, we know that:
+$$v = \frac{v_x}{\cos(60^\circ)}$$
+Since $\cos(60^\circ) = 0.5$:
+$$v = \frac{u}{0.5} = 2u$$
+
+**Wait, let's re-examine the options.** 
+If we use the vertical component $v_y = 29.4$ and the angle:
+$$\sin(60^\circ) = \frac{v_y}{v}$$
+$$v = \frac{29.4}{\sin(60^\circ)}$$
+$$v = \frac{29.4}{0.866} \approx 33.95 \text{ m/s}$$
+
+Comparing this to the provided options, the value $33.9$ matches option **D**.
+
+### Summary
+The magnitude of the velocity is determined by the vertical component $v_y = gt = 29.4 \text{ m/s}$ and the angle of the trajectory. Using the sine function for the vector triangle:
+$$v = \frac{29.4}{\sin(60^\circ)} \approx 33.95 \text{ m/s}$$
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

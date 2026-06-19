@@ -1,0 +1,28 @@
+To solve this problem, we must understand the physics of a charged particle moving through a uniform magnetic field.
+
+### Explanation
+
+When a charged particle $q$ enters a magnetic field $B$ moving with velocity $v$ perpendicular to the field, it experiences a magnetic force $F_B$ given by:
+$$F_B = qvB$$
+
+Since this force acts perpendicular to the velocity, it provides the centripetal force required to keep the particle in a circular path of radius $r$:
+$$F_c = \frac{mv^2}{r}$$
+
+Equating the magnetic force to the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+
+Solving for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+From this formula, we can see the relationship between radius and velocity:
+$$r \propto v$$
+
+If the velocity is doubled ($v' = 2v$) while $m$, $q$, and $B$ remain constant, the new radius $r'$ becomes:
+$$r' = \frac{m(2v)}{qB} = 2 \left( \frac{mv}{qB} \right) = 2r$$
+
+Therefore, doubling the velocity results in doubling the radius of the circular path.
+
+**Correct Answer: (C) $2r$**
+
+###QUESTION_TYPE
+Multiple choice

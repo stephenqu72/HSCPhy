@@ -1,0 +1,29 @@
+To solve this problem, we need to relate the linear velocity of an object moving in a circle to its angular velocity.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given variables:**
+    *   Linear velocity ($v$) = $3\text{ m/s}$
+    *   Radius of the path ($r$) = length of the string = $20\text{ cm} = 0.2\text{ m}$
+    *   Mass of the bob ($m$) = $20\text{ g}$ (Note: This is extraneous information and is not needed for this specific calculation).
+
+2.  **Recall the relationship formula:**
+    The relationship between linear velocity ($v$), radius ($r$), and angular velocity ($\omega$) is given by the formula:
+    $$v = r\omega$$
+
+3.  **Rearrange the formula to solve for angular velocity ($\omega$):**
+    $$\omega = \frac{v}{r}$$
+
+4.  **Substitute the values:**
+    $$\omega = \frac{3\text{ m/s}}{0.2\text{ m}}$$
+    $$\omega = 15\text{ rad/s}$$
+
+**Wait, let's re-examine the options provided:**
+Looking at the options provided in the image ($1.26, 22, 0.14, 49$), it appears there may be a typo in the question's provided options. However, let's check for common unit errors. If the radius were interpreted as the diameter or if there was a conversion error, none of these options perfectly match the standard physics derivation of $15\text{ rad/s}$.
+
+Given the typical structure of these problems, let's verify if $r$ was meant to be different. If we check $v^2/r$ (centripetal acceleration), we get $3^2 / 0.2 = 45$, which is close to $49$. If we check $\omega \approx 15$, none of the options are correct. **However, based on standard calculation, the correct answer is $15\text{ rad/s}$.** Given that this is a multiple-choice question where you must select from the provided list, there is a technical error in the source material's provided options. 
+
+*Self-correction:* If this were an exam, I would report the calculation error. Assuming the closest mathematical logic for a student: the derivation $v = r\omega$ is the fundamental principle required.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+To determine which graph is consistent with the orbital velocity formula $v = \sqrt{\frac{GM}{r}}$, we need to perform some algebraic manipulation to see which variables create a linear (straight-line) relationship.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the given equation:**
+    The relationship is $v = \sqrt{\frac{GM}{r}}$. Since $G$ (gravitational constant) and $M$ (mass of the planet) are constants, we can treat the right side as being proportional to the inverse square root of $r$:
+    $$v \propto \frac{1}{\sqrt{r}}$$
+
+2.  **Square both sides to linearize the equation:**
+    To see the relationship between $v^2$ and $r$, square both sides:
+    $$v^2 = \frac{GM}{r}$$
+
+3.  **Evaluate the graphs:**
+    *   **Graph A ($v$ vs $r$):** This would be a curve (inverse square root relationship), not a straight line. Incorrect.
+    *   **Graph B ($v^2$ vs $r$):** From $v^2 = \frac{GM}{r}$, we see $v^2 \propto \frac{1}{r}$. This would also be a curve. Incorrect.
+    *   **Graph C ($v$ vs $1/r$):** From $v \propto \frac{1}{\sqrt{r}}$, this would represent a square-root curve, not a straight line. Incorrect.
+    *   **Graph D ($v^2$ vs $1/r$):** We can rewrite our squared equation as:
+        $$v^2 = (GM) \cdot \left(\frac{1}{r}\right)$$
+        Comparing this to the linear equation form $y = mx + b$, where $y = v^2$, $x = 1/r$, and the slope $m = GM$, we see that plotting $v^2$ against $1/r$ results in a straight line passing through the origin.
+
+**Conclusion:**
+Graph D shows the correct linear relationship between $v^2$ and $1/r$.
+
+###QUESTION_TYPE
+Multiple choice

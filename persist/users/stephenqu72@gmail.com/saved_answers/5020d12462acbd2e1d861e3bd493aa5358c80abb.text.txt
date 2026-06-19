@@ -1,0 +1,26 @@
+To determine the direction of the force on the wire, we must apply the principles of electromagnetism in two steps: identifying the magnetic field produced by the coil and using the right-hand motor rule (or the Lorentz force law) to find the force on the wire.
+
+### Step-by-Step Solution:
+
+1.  **Determine the direction of the magnetic field ($B$) produced by the coil:**
+    *   Looking at the coil, the current enters from the left side and flows "up" over the front of the loops.
+    *   Using the **Right-Hand Grip Rule** for a solenoid: curl your fingers in the direction of the current flow around the coils. Your thumb will point towards the magnetic North pole. 
+    *   Based on the provided diagram, the magnetic field lines inside the coil point from left to right (towards the $S$ pole on the right). Therefore, at the location of the wire, the magnetic field produced by the coil points **towards the right** (out from the North pole).
+
+2.  **Determine the direction of the force ($F$) using the Right-Hand Rule:**
+    *   The force on a current-carrying wire in a magnetic field is given by the cross product $F = I(L \times B)$. We use the Right-Hand Rule:
+        *   **Fingers (Current $I$):** Point your fingers **upwards** (in the direction of the current in the wire).
+        *   **Palm (Magnetic Field $B$):** Orient your hand so that your palm faces the direction of the magnetic field produced by the coil, which is to the **right**.
+        *   **Thumb (Force $F$):** Your thumb will naturally point **into the page**.
+
+Alternatively, you can use the motor rule:
+*   $I$ is towards the top of the page.
+*   $B$ is towards the right.
+*   $F = I \times B$ results in a vector pointing **into the page**.
+
+**Conclusion:** The magnetic force exerted on the wire at point X is directed into the page.
+
+**Correct Answer:** (C) into the page
+
+###QUESTION_TYPE
+Multiple choice

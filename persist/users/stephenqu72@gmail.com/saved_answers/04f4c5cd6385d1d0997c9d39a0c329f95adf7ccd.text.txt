@@ -1,0 +1,32 @@
+To solve this problem, we need to calculate the force exerted on the current-carrying rod by the magnetic field and then use Newton's Second Law to determine its acceleration.
+
+### Step-by-Step Explanation
+
+**1. Identify the Magnetic Force ($F_B$):**
+A current-carrying conductor in a magnetic field experiences a force given by the formula:
+$$F_B = BIl\sin(\theta)$$
+Where:
+- $B = 0.24\text{ T}$ (magnetic field strength)
+- $I = 48\text{ A}$ (current)
+- $l = d = 12.0\text{ cm} = 0.12\text{ m}$ (the length of the rod within the field, which corresponds to the distance $d$ between the rails)
+- $\theta = 90^\circ$ (the field is perpendicular to the rod), so $\sin(90^\circ) = 1$.
+
+Calculating the force:
+$$F_B = 0.24 \times 48 \times 0.12$$
+$$F_B = 1.3824\text{ N}$$
+
+**2. Calculate the Acceleration ($a$):**
+According to Newton's Second Law, $F_{net} = ma$. Since the rails are frictionless, the magnetic force is the net force:
+$$a = \frac{F_B}{m}$$
+Where $m = 0.72\text{ kg}$.
+
+$$a = \frac{1.3824}{0.72}$$
+$$a = 1.92\text{ m/s}^2$$
+
+### Final Answer
+The initial acceleration of the rod is **$1.92\text{ m/s}^2$**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

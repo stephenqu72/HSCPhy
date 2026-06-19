@@ -1,0 +1,30 @@
+To solve this physics problem, we need to apply the principles of electromagnetism concerning parallel conductors carrying current.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Magnetic Force Law:** The force per unit length $F/L$ between two long, parallel, straight wires carrying currents $I_1$ and $I_2$ is given by the formula:
+    $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+    where $d$ is the separation distance.
+
+2.  **Determine Directionality:**
+    *   When currents flow in the **same direction**, the force is **attractive**.
+    *   When currents flow in **opposite directions**, the force is **repulsive**.
+
+3.  **Apply to an AC Circuit:**
+    *   In an AC circuit, the two conductors act as the supply line and the return line for the current. Therefore, at any instant $t$, the current $I$ flowing to the globe through one wire is equal in magnitude and opposite in direction to the current flowing back from the globe in the other wire (i.e., $I_1(t) = I(t)$ and $I_2(t) = -I(t)$).
+    *   Because the currents are always in opposite directions, the force between the wires will **always be repulsive**.
+
+4.  **Analyze the Magnitude over Time:**
+    *   Since the current in an AC circuit varies sinusoidally, we can represent it as $I(t) = I_{max} \sin(\omega t)$.
+    *   Substituting this into the force equation:
+        $$F \propto I_1 \times I_2 = I(t) \times (-I(t)) = -I^2(t) = -I_{max}^2 \sin^2(\omega t)$$
+    *   The squared sine function $\sin^2(\omega t)$ results in a graph that is always non-negative, oscillating between $0$ and $1$ with a frequency twice that of the original AC current.
+    *   Because of the negative sign (indicating repulsion), the force will always be in the "Repulsion" region of the graph, oscillating between $0$ and a maximum repulsive value.
+
+5.  **Conclusion:** The graph must represent a force that never crosses into the "Attraction" side and oscillates at double the frequency of the AC supply. This corresponds to **Graph D**.
+
+### ANSWER:
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

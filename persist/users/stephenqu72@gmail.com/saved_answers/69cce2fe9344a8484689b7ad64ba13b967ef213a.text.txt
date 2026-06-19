@@ -1,0 +1,12 @@
+### Answer
+The time taken for the moon to travel from perigee to apogee is equal to the time taken to travel from apogee to perigee because both paths represent exactly one half of the total orbital period ($T/2$). According to Kepler’s Second Law (the law of equal areas), a line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time. In the case of the Earth-Moon system, the line connecting the Earth to the Moon sweeps out exactly half of the ellipse's total area in both instances. Since the total orbital period is constant, the time required to sweep through half the area of the orbit must be exactly half the total orbital period, regardless of the variation in orbital speed along the path.
+
+### Explanation
+To solve this problem, you need to apply **Kepler’s Second Law of Planetary Motion**. 
+
+1.  **Understand the Geometry:** The line segment connecting the perigee and the apogee passes through the center of the ellipse and the focus (where the Earth is). This line effectively cuts the ellipse into two equal halves (two semi-ellipses).
+2.  **Relate Area to Time:** Kepler’s Second Law states that $dA/dt = \text{constant}$. This means that the time taken to sweep out an area is directly proportional to the area itself. 
+3.  **Synthesize:** Since the path from perigee to apogee covers exactly $50\%$ of the total orbital area, and the path from apogee back to perigee also covers the remaining $50\%$ of the total area, the time elapsed for both halves must be identical. Even though the Moon travels faster at perigee and slower at apogee, the specific distances and speeds balance out perfectly such that the time taken to traverse both halves of the orbit is $T/2$.
+
+###QUESTION_TYPE
+Short answer

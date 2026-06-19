@@ -1,0 +1,38 @@
+Hello! As an HSC physics teacher, I’m happy to guide you through this classic projectile motion problem. We will use the Principle of Conservation of Energy to find the velocity and kinematic equations to solve for the projectile’s trajectory.
+
+### Solutions and Explanations
+
+#### (a) Determine the initial velocity ($v_x$) of the ball as it leaves the table
+The ball starts from rest at height $h$. By the time it reaches the table, all its gravitational potential energy has been converted into kinetic energy.
+- Potential Energy at start = $mgh$
+- Kinetic Energy at table = $\frac{1}{2}mv_x^2$
+
+Equating these:
+$$mgh = \frac{1}{2}mv_x^2 \implies v_x = \sqrt{2gh}$$
+Given $h = 0.60\text{ m}$ and $g = 9.8\text{ m/s}^2$:
+$$v_x = \sqrt{2 \times 9.8 \times 0.60} = \sqrt{11.76} \approx 3.43\text{ m/s}$$
+
+#### (b) Determine the velocity of the ball immediately before impacting the ground
+To find the final velocity, we need both the horizontal component ($v_x$) and the vertical component ($v_y$) at the moment of impact.
+- Horizontal velocity remains constant: $v_x = 3.43\text{ m/s}$.
+- Vertical velocity is found using $v_y^2 = u_y^2 + 2gH$. Since $u_y = 0$:
+$$v_y = \sqrt{2gH} = \sqrt{2 \times 9.8 \times 1.2} = \sqrt{23.52} \approx 4.85\text{ m/s}$$
+The magnitude of the final velocity $v$ is:
+$$v = \sqrt{v_x^2 + v_y^2} = \sqrt{3.43^2 + 4.85^2} = \sqrt{11.76 + 23.52} = \sqrt{35.28} \approx 5.94\text{ m/s}$$
+
+#### (c) Determine the range $x$
+The range is the horizontal distance travelled during the time ($t$) it takes for the ball to fall vertically through distance $H$.
+- First, find $t$: $H = \frac{1}{2}gt^2 \implies t = \sqrt{\frac{2H}{g}}$
+$$t = \sqrt{\frac{2 \times 1.2}{9.8}} \approx 0.495\text{ s}$$
+- Now, calculate the range $x$: $x = v_x \times t$
+$$x = 3.43 \times 0.495 \approx 1.70\text{ m}$$
+
+---
+
+### How to solve these types of problems:
+1. **Energy Conservation:** Always use energy conservation ($mgh = \frac{1}{2}mv^2$) when you are given a starting height and need the velocity at the bottom of a slope.
+2. **Independence of Motion:** Remember that in projectile motion, horizontal velocity ($v_x$) stays constant (assuming no air resistance), while vertical velocity is purely a result of gravity.
+3. **Use the vertical dimension for time:** The time the object stays in the air is determined *only* by the vertical height it falls. Calculate $t$ using the vertical displacement formula first, then use that $t$ to solve for horizontal displacement.
+
+###QUESTION_TYPE
+Calculation question

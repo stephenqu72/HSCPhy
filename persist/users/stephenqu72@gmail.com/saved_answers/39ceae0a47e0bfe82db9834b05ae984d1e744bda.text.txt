@@ -1,0 +1,42 @@
+To determine the escape velocity of Voyager 1 from Jupiter, we use the principle of conservation of energy. Escape velocity is defined as the minimum speed needed for an object to break free from the gravitational attraction of a massive body, reaching a point of zero gravitational potential energy at an infinite distance with zero kinetic energy.
+
+### 1. Identifying the Formula
+The gravitational potential energy $U$ of an object of mass $m$ at a distance $r$ from a mass $M$ is given by:
+$$U = -\frac{GMm}{r}$$
+To escape, the object's initial kinetic energy must equal the magnitude of its gravitational potential energy:
+$$\frac{1}{2}mv_e^2 = \frac{GMm}{r}$$
+Solving for escape velocity ($v_e$):
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+### 2. Given Data
+*   Gravitational constant $G = 6.674 \times 10^{-11} \text{ m}^3\text{ kg}^{-1}\text{ s}^{-2}$
+*   Mass of Jupiter $M = 1.898 \times 10^{27} \text{ kg}$
+*   Distance from the centre of Jupiter $r = 3.492 \times 10^8 \text{ m}$
+
+*Note: The distance from the Sun is provided as a distractor. The question specifically asks for the escape velocity from Jupiter, so we only use Jupiter's mass and the distance to its centre.*
+
+### 3. Calculation
+Substitute the values into the formula:
+$$v_e = \sqrt{\frac{2 \times (6.674 \times 10^{-11}) \times (1.898 \times 10^{27})}{3.492 \times 10^8}}$$
+
+First, calculate the numerator:
+$$2 \times 6.674 \times 10^{-11} \times 1.898 \times 10^{27} \approx 2.533 \times 10^{17}$$
+
+Next, divide by $r$:
+$$\frac{2.533 \times 10^{17}}{3.492 \times 10^8} \approx 7.2537 \times 10^8$$
+
+Finally, take the square root:
+$$v_e = \sqrt{7.2537 \times 10^8} \approx 26,933 \text{ m/s}$$
+
+Rounding to four significant figures (consistent with the provided data):
+$$v_e \approx 2.693 \times 10^4 \text{ m/s} \text{ (or } 26.93 \text{ km/s)}$$
+
+### Summary for Examination
+When solving this, ensure you:
+1. State the formula for gravitational potential energy or escape velocity.
+2. Clearly identify that only the mass of Jupiter and the distance to Jupiter are relevant to the "escape velocity from Jupiter."
+3. Show the substitution of constants and data.
+4. Provide the final answer with appropriate SI units.
+
+###QUESTION_TYPE
+Calculation question

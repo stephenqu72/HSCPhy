@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principle of equilibrium for a charged oil drop in an electric field (Millikan's Oil Drop Experiment).
+
+### 1. Identify the Physics Principles
+For the oil drop to be suspended (stationary), the upward electric force ($F_E$) must exactly balance the downward gravitational force ($F_g$):
+$$F_E = F_g \implies qE = mg$$
+
+### 2. Variables and Unit Conversions
+*   **Voltage ($V$):** $4.7 \text{ kV} = 4700 \text{ V}$
+*   **Distance ($d$):** $3.2 \text{ mm} = 3.2 \times 10^{-3} \text{ m}$
+*   **Volume ($V_{ol}$):** $2.1 \times 10^{-16} \text{ m}^3$
+*   **Density ($\rho$):** $8.0 \times 10^2 \text{ kg m}^{-3}$
+*   **Gravity ($g$):** $9.8 \text{ m s}^{-2}$
+*   **Elementary charge ($e$):** $1.602 \times 10^{-19} \text{ C}$
+
+### 3. Step-by-Step Calculation
+**Step A: Calculate the mass ($m$)**
+$$m = \rho \times V_{ol} = (8.0 \times 10^2) \times (2.1 \times 10^{-16}) = 1.68 \times 10^{-13} \text{ kg}$$
+
+**Step B: Calculate the Electric Field strength ($E$)**
+$$E = \frac{V}{d} = \frac{4700}{3.2 \times 10^{-3}} = 1,468,750 \text{ V/m}$$
+
+**Step C: Calculate the charge ($q$)**
+Using $qE = mg$:
+$$q = \frac{mg}{E} = \frac{(1.68 \times 10^{-13})(9.8)}{1,468,750} \approx 1.12 \times 10^{-18} \text{ C}$$
+
+**Step D: Determine the number of electrons ($n$)**
+$$n = \frac{q}{e} = \frac{1.12 \times 10^{-18}}{1.602 \times 10^{-19}} \approx 7$$
+
+### 4. Determine Excess or Missing
+The oil drop is being repelled upward by a positive plate at the bottom. Since the electric force must be directed upward, and the plate below is positive, the oil drop must have a **positive charge**. A positive charge indicates **missing electrons**.
+
+**Conclusion:** There are 7 missing electrons. This corresponds to option (D).
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+**Part (a) Identify TWO features of a geostationary orbit (2 marks)**
+
+*   **Answer:** 
+    1. The orbital period is exactly 24 hours (or matches the Earth's sidereal rotation period).
+    2. The orbit is located directly above the Earth's equator.
+    *Alternative acceptable points: It remains fixed at a constant position relative to a point on the Earth's surface, or it orbits in the same direction as the Earth's rotation (prograde).*
+
+*   **Teacher's Explanation:** To solve this, you need to recall the defining characteristics of a geostationary satellite. Because they must stay "fixed" above a specific point on Earth, they must travel at the same angular velocity as the Earth. This requires an orbital period of $T \approx 24 \text{ hours}$ and an equatorial path.
+
+***
+
+**Part (b) Explain what happens to the speed of a satellite when it moves to a lower orbit (2 marks)**
+
+*   **Answer:**
+    The speed of the satellite increases. This is because, in a stable circular orbit, the centripetal force is provided by gravity:
+    $$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+    Solving for $v$:
+    $$v = \sqrt{\frac{GM}{r}}$$
+    As the orbital radius $r$ decreases, the denominator becomes smaller, resulting in a higher orbital velocity $v$.
+
+*   **Teacher's Explanation:** This is a classic HSC physics problem involving orbital mechanics. You must link the gravitational force (which acts as the centripetal force) to the speed. When a satellite moves to a lower orbit ($r$ decreases), the gravitational potential energy decreases and kinetic energy must increase to maintain the new, stable circular orbit. A common mistake is to think "lower orbit" means "slower"; however, as the formula $v = \sqrt{GM/r}$ demonstrates, the velocity is inversely proportional to the square root of the radius. Therefore, a smaller radius mandates a higher orbital speed.
+
+###QUESTION_TYPE
+Short answer

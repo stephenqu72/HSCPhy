@@ -1,0 +1,30 @@
+To determine which planet has the lowest escape velocity, we use the formula for escape velocity ($v_e$):
+
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+*   $G$ is the gravitational constant (a constant for all).
+*   $M$ is the mass of the planet.
+*   $r$ is the radius of the planet.
+
+### Analysis
+Since $2$ and $G$ are constants, the escape velocity is directly proportional to $\sqrt{\frac{M}{r}}$. To find the **lowest** escape velocity, we need to identify the planet that provides the **smallest ratio of mass to radius** ($\frac{M}{r}$).
+
+Let's calculate the ratio $M/r$ (in units of $10^{24} \text{ kg} / \text{km}$) for each:
+
+*   **A) Newton:** $\frac{5}{8000} = 0.000625$
+*   **B) Einstein:** $\frac{8}{7800} \approx 0.001026$
+*   **C) Bohr:** $\frac{5}{9500} \approx 0.000526$
+*   **D) Hawkins:** $\frac{8}{10200} \approx 0.000784$
+
+### Conclusion
+Comparing the ratios:
+*   Einstein has the highest ratio (largest mass, smallest radius), meaning it has the *highest* escape velocity.
+*   Bohr has the lowest ratio ($0.000526$), meaning it has the *lowest* escape velocity. 
+
+Intuitively, escape velocity decreases as mass decreases and radius increases. Planet Bohr has one of the smallest masses ($5 \times 10^{24}$) and one of the largest radii ($9500 \text{ km}$), making it the easiest planet to escape from.
+
+The correct answer is **C) Bohr**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+To calculate the initial velocity of the projectile, we need to find both the horizontal component ($v_x$) and the initial vertical component ($v_{0y}$).
+
+### 1. Determining the Horizontal Velocity ($v_x$)
+The projectile covers a total horizontal distance (range) of $R = 60\text{ m}$. Looking at the graph, the maximum height is reached at $x = 30\text{ m}$ (the horizontal midpoint).
+Using the equation for vertical displacement: $y = v_{0y}t - \frac{1}{2}gt^2$.
+At maximum height ($y_{max} \approx 17.6\text{ m}$), the vertical velocity $v_y = 0$. Using $v_y = v_{0y} - gt$, the time to reach peak is $t_{peak} = \frac{v_{0y}}{g}$.
+Substituting this into the vertical displacement formula:
+$y_{max} = v_{0y}(\frac{v_{0y}}{g}) - \frac{1}{2}g(\frac{v_{0y}}{g})^2 = \frac{v_{0y}^2}{2g}$
+$17.6 = \frac{v_{0y}^2}{2 \times 9.8} \implies v_{0y}^2 = 17.6 \times 19.6 = 344.96$
+$v_{0y} \approx 18.57\text{ m/s}$
+
+### 2. Determining Time of Flight and $v_x$
+The total time of flight $T$ is $2 \times t_{peak}$:
+$T = 2 \times \frac{v_{0y}}{g} = 2 \times \frac{18.57}{9.8} \approx 3.79\text{ s}$
+Since $R = v_x \times T$:
+$60 = v_x \times 3.79 \implies v_x = \frac{60}{3.79} \approx 15.83\text{ m/s}$
+
+### 3. Calculating Initial Velocity ($v$)
+The initial velocity is the magnitude of the vector sum of components:
+$v = \sqrt{v_x^2 + v_{0y}^2}$
+$v = \sqrt{15.83^2 + 18.57^2} = \sqrt{250.59 + 344.84} = \sqrt{595.43}$
+$v \approx 24.4\text{ m/s}$
+
+*(Note: Depending on the precision of reading the peak height from the graph, values between $24.0$ and $24.5\text{ m/s}$ are acceptable.)*
+
+### Explanation of the steps:
+1. **Identify the peak:** The graph shows the projectile lands at $60\text{ m}$ and peaks at $30\text{ m}$.
+2. **Find vertical component:** We used the kinematic formula for maximum height ($v_y^2 = u_y^2 - 2g\Delta y$) where $v_y = 0$ at the peak to solve for $v_{0y}$.
+3. **Find time:** We calculated the time taken to reach the peak using $v_y = u_y - gt$, then doubled it for the total time of flight.
+4. **Find horizontal component:** Using the range and total time, we found $v_x = \frac{\Delta x}{\Delta t}$.
+5. **Combine:** We used the Pythagorean theorem to find the resultant initial velocity.
+
+###QUESTION_TYPE
+Calculation question

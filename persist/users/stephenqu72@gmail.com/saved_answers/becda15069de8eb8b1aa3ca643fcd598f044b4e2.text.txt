@@ -1,0 +1,32 @@
+To solve this problem, we must analyze the equilibrium state of wire **A**. For wire **A** to hover above wire **B**, the magnetic force of repulsion must exactly balance the gravitational force acting on wire **A**.
+
+### 1. Direction of the Currents
+The magnetic force between two parallel current-carrying wires is attractive if the currents flow in the same direction and repulsive if they flow in opposite directions. Since wire **A** is hovering *above* wire **B** (counteracting gravity), the magnetic force must be **repulsive**. Therefore, the currents must flow in **opposite directions**.
+
+### 2. Calculating the Height
+The formula for the magnetic force per unit length $F/L$ between two parallel wires separated by a distance $r$ is:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+The gravitational force per unit length acting on wire **A** is:
+$$\frac{F_g}{L} = \mu g$$
+where $\mu$ is the mass per unit length. At equilibrium, $F/L = F_g/L$:
+$$\frac{\mu_0 I^2}{2\pi r} = \mu g$$
+Given:
+- $I = 100\text{ A}$
+- $\mu = 20.0\text{ g m}^{-1} = 0.020\text{ kg m}^{-1}$
+- $g = 9.8\text{ m s}^{-2}$
+- $\mu_0 = 4\pi \times 10^{-7}\text{ T m A}^{-1}$
+
+Rearranging for $r$:
+$$r = \frac{\mu_0 I^2}{2\pi \mu g}$$
+$$r = \frac{(4\pi \times 10^{-7}) \times (100)^2}{2\pi \times 0.020 \times 9.8}$$
+$$r = \frac{2 \times 10^{-7} \times 10000}{0.020 \times 9.8}$$
+$$r = \frac{0.002}{0.196} \approx 0.0102\text{ m}$$
+
+Comparing our results:
+- Height = $0.0102\text{ m}$
+- Direction = Opposite directions
+
+This corresponds to option **(C)**.
+
+###QUESTION_TYPE
+Calculation question

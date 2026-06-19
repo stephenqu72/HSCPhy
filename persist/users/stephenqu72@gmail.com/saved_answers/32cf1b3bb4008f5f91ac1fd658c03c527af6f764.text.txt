@@ -1,0 +1,35 @@
+To solve this problem, we apply the **principle of conservation of energy**. Since the electron is released from rest and accelerated by an electric field, the electrical potential energy lost by the electron is converted into its kinetic energy.
+
+### Step-by-Step Solution:
+
+**1. Identify the relevant physics principles:**
+The work done by an electric field on a charge $q$ is given by $W = qV$, where $V$ is the potential difference. This work equals the change in kinetic energy ($KE$) of the electron:
+$$qV = \frac{1}{2}mv^2$$
+
+**2. List the known constants and values:**
+*   Charge of an electron ($q$): $1.602 \times 10^{-19}\text{ C}$
+*   Mass of an electron ($m$): $9.109 \times 10^{-31}\text{ kg}$
+*   Final velocity ($v$): $5.50 \times 10^6\text{ m s}^{-1}$
+
+*(Note: The plate separation of $3.0 \times 10^{-2}\text{ m}$ is provided as extra information and is not required for this specific calculation.)*
+
+**3. Rearrange the formula to solve for $V$:**
+$$V = \frac{mv^2}{2q}$$
+
+**4. Substitute the values into the equation:**
+$$V = \frac{(9.109 \times 10^{-31}\text{ kg}) \times (5.50 \times 10^6\text{ m s}^{-1})^2}{2 \times (1.602 \times 10^{-19}\text{ C})}$$
+
+Calculate the numerator first:
+$$v^2 = (5.50 \times 10^6)^2 = 3.025 \times 10^{13}$$
+$$m \times v^2 = (9.109 \times 10^{-31}) \times (3.025 \times 10^{13}) \approx 2.755 \times 10^{-17}\text{ J}$$
+
+Now divide by $2q$:
+$$V = \frac{2.755 \times 10^{-17}}{3.204 \times 10^{-19}} \approx 85.986\text{ V}$$
+
+Rounding this to three significant figures gives $86.0\text{ V}$, which corresponds to option **(B)**.
+
+###ANSWER
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

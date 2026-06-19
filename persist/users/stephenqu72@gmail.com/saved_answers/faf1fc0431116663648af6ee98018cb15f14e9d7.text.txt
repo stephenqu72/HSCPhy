@@ -1,0 +1,37 @@
+### Solution
+
+#### Part (a)
+To find the final speed of the proton, we use the principle of **conservation of energy**. The electrical potential energy lost by the proton as it moves through the potential difference is converted entirely into kinetic energy.
+
+1.  **Identify the constants:**
+    *   Charge of a proton ($q$) = $1.602 \times 10^{-19} \text{ C}$
+    *   Mass of a proton ($m$) = $1.673 \times 10^{-27} \text{ kg}$
+    *   Potential difference ($V$) = $2.0 \text{ kV} = 2000 \text{ V}$
+
+2.  **Set up the equation:**
+    $$qV = \frac{1}{2}mv^2$$
+
+3.  **Solve for $v$:**
+    $$v = \sqrt{\frac{2qV}{m}}$$
+    $$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19} \text{ C}) \times (2000 \text{ V})}{1.673 \times 10^{-27} \text{ kg}}}$$
+    $$v = \sqrt{3.828 \times 10^{11}}$$
+    $$v \approx 6.19 \times 10^5 \text{ m/s}$$
+
+**Answer:** The speed of the proton as it passes through the gap is approximately $6.2 \times 10^5 \text{ m/s}$.
+
+---
+
+#### Part (b)
+The distance between the plates has no influence on the final speed because the final kinetic energy depends only on the **total potential difference ($V$)** through which the charge moves, not the spatial distribution of the electric field. 
+
+While increasing the distance between the plates reduces the strength of the electric field ($E = V/d$), it proportionally increases the distance over which that force acts ($W = F \times d = qEd$). Since $W = q(V/d) \times d$, the $d$ terms cancel out. Consequently, the work done on the proton—and thus the energy transferred to it—remains constant for a fixed potential difference.
+
+---
+
+### How to solve this type of problem
+1.  **Recognize the Energy Transformation:** Always look for "accelerated from rest" scenarios involving electric fields. These are conservation of energy problems: $E_{p,initial} = E_{k,final}$.
+2.  **Units:** Always convert units to SI base units before calculating. Ensure potential difference is in Volts (V), not kilovolts (kV).
+3.  **Conceptual Understanding:** Remember that while field strength ($E$) is distance-dependent, work done ($W$) is path-independent in a uniform field and depends only on the potential difference ($V$) between the start and end points.
+
+###QUESTION_TYPE
+Calculation question

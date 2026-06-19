@@ -1,0 +1,33 @@
+To solve this problem, we need to understand the physics of standing waves. 
+
+### Answer
+The correct option is **C. $2.94 \times 10^8 \text{ ms}^{-1}$**.
+
+### Explanation
+
+**1. Understand the Physics:**
+In a standing wave pattern, the "hot spots" (where the chocolate melts) correspond to the antinodes of the wave. The distance between two consecutive antinodes is equal to half a wavelength ($\frac{\lambda}{2}$).
+Given the distance between melted areas is $6.00 \text{ cm}$:
+$$\frac{\lambda}{2} = 6.00 \text{ cm} = 0.06 \text{ m}$$
+Therefore, the full wavelength is:
+$$\lambda = 0.12 \text{ m}$$
+
+**2. Identify the Variables:**
+*   Frequency ($f$) = $2450 \text{ MHz} = 2450 \times 10^6 \text{ Hz} = 2.45 \times 10^9 \text{ Hz}$
+*   Wavelength ($\lambda$) = $0.12 \text{ m}$
+
+**3. Apply the Wave Equation:**
+The relationship between speed ($v$), frequency ($f$), and wavelength ($\lambda$) is given by:
+$$v = f \times \lambda$$
+
+Substitute the values:
+$$v = (2.45 \times 10^9 \text{ Hz}) \times (0.12 \text{ m})$$
+$$v = 0.294 \times 10^9 \text{ ms}^{-1}$$
+
+To express this in standard scientific notation:
+$$v = 2.94 \times 10^8 \text{ ms}^{-1}$$
+
+This result is consistent with the speed of electromagnetic waves in a microwave cavity, which is slightly less than the speed of light in a vacuum ($3.00 \times 10^8 \text{ ms}^{-1}$).
+
+###QUESTION_TYPE
+Multiple choice

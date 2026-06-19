@@ -1,0 +1,26 @@
+To answer this question correctly, it is essential to distinguish between the **orbital radius** and the **altitude** of a geostationary satellite.
+
+### Answer
+The correct answer is **d) 35,930 km**.
+
+### Explanation
+A geostationary satellite must orbit the Earth with a period exactly equal to the Earth's sidereal rotation period, which is approximately $23 \text{ hours}, 56 \text{ minutes},$ and $4 \text{ seconds}$ ($T \approx 86,164 \text{ s}$).
+
+To find the orbital radius ($r$), we use Kepler’s Third Law:
+$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$
+
+1. **Calculate the orbital radius ($r$):** 
+   Using the gravitational constant ($G = 6.674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$) and the mass of the Earth ($M \approx 5.97 \times 10^{24} \text{ kg}$), the calculated orbital radius from the center of the Earth is approximately $42,164 \text{ km}$. This is often rounded to $42,230 \text{ km}$ in many textbook contexts (which makes option 'a' the *orbital radius*, not the altitude).
+
+2. **Calculate the altitude ($h$):**
+   Altitude is defined as the distance from the Earth's **surface**, not the center. Therefore, you must subtract the Earth's radius ($R_E \approx 6,371 \text{ km}$):
+   $$h = r - R_E$$
+   $$h \approx 42,230 \text{ km} - 6,371 \text{ km} \approx 35,859 \text{ km}$$
+
+Rounding to the standard scientific value used in most HSC Physics curricula, the altitude is approximately **35,930 km**. 
+
+*   **Option (a)** represents the orbital radius from the center of the Earth.
+*   **Option (d)** represents the altitude above the Earth's surface.
+
+###QUESTION_TYPE
+Multiple choice

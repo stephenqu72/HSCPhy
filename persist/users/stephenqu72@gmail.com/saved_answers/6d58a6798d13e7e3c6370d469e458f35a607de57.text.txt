@@ -1,0 +1,29 @@
+To find the correct answer, we need to extract two pieces of information from the graph and then use the wave equation.
+
+### Step-by-Step Solution:
+
+**1. Determine the Amplitude:**
+The amplitude ($A$) is defined as the maximum displacement from the equilibrium (zero) position. Looking at the y-axis, the graph goes from $0$ to $8 \text{ cm}$. Therefore, the amplitude is:
+$$A = 8 \text{ cm}$$
+
+**2. Determine the Wavelength ($\lambda$):**
+The wavelength is the distance between two consecutive points in phase (e.g., crest to crest or trough to trough).
+*   Looking at the graph, the first crest is at $1.5 \text{ cm}$ and the second crest is at $7.5 \text{ cm}$.
+*   $\lambda = 7.5 \text{ cm} - 1.5 \text{ cm} = 6 \text{ cm}$.
+*   Convert this to SI units (meters) to match the wave speed: $\lambda = 0.06 \text{ m}$.
+
+**3. Calculate the Frequency ($f$):**
+We are given the wave speed $v = 18 \text{ m s}^{-1}$. We use the universal wave equation:
+$$v = f \lambda$$
+Rearranging for $f$:
+$$f = \frac{v}{\lambda}$$
+$$f = \frac{18 \text{ m s}^{-1}}{0.06 \text{ m}}$$
+$$f = 300 \text{ Hz}$$
+
+**Conclusion:**
+Comparing our results ($A = 8 \text{ cm}$, $f = 300 \text{ Hz}$) to the given options, the correct choice is **C**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

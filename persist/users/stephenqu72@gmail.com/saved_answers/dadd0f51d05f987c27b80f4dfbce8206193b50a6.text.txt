@@ -1,0 +1,23 @@
+Hello! As an HSC physics teacher, I am happy to help you break down this concept. Understanding how particle accelerators work is a core component of the "From the Universe to the Atom" module.
+
+### Answer
+The correct answer is **C) Charged particles are accelerated by passing through a series of alternating electric fields.**
+
+---
+
+### Explanation
+
+To solve this, we must consider the roles of electric and magnetic fields in physics:
+
+1.  **Electric Fields ($E$):** According to the formula $F = qE$, an electric field exerts a force on a charged particle that is parallel to the field lines. This force does work on the particle, changing its kinetic energy and, therefore, its **velocity**. In a linear accelerator (linac) or a synchrotron, oscillating electric fields are timed (synchronized) so that the particle always experiences a forward push as it passes through the gaps between accelerating structures.
+2.  **Magnetic Fields ($B$):** The magnetic force on a moving charge is given by the Lorentz force law: $F = qvB\sin\theta$. Crucially, this force is always perpendicular to the particle's velocity. Because the force is perpendicular to the direction of motion, **no work is done on the particle**. Consequently, magnetic fields change the *direction* of the particle (causing it to move in a circle or arc), but they **cannot change its speed**.
+
+**Evaluating the other options:**
+*   **A is incorrect** because a magnetic field perpendicular to the path acts as a centripetal force, which changes the particle's direction, not its velocity.
+*   **B is incorrect** because particle accelerators rely on electromagnetic fields, not photon collisions.
+*   **D is incorrect** because this describes a plasma or thermal process, not the controlled electromagnetic acceleration used in modern accelerators.
+
+By process of elimination and understanding the fundamental difference between the effects of electric and magnetic fields on charged particles, **C** is the only physically accurate statement.
+
+###QUESTION_TYPE
+Multiple choice

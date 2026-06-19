@@ -1,0 +1,40 @@
+To solve these problems, we must use the fundamental principles of gravitation and circular motion.
+
+**Given Data:**
+*   $M_{Sun} = 2.0 \times 10^{30} \text{ kg}$
+*   $M_{Ceres} = 9.4 \times 10^{20} \text{ kg}$
+*   $r_{Ceres} = 415,000,000 \text{ km} = 4.15 \times 10^{11} \text{ m}$
+*   $r_{Earth} = 150,000,000 \text{ km} = 1.50 \times 10^{11} \text{ m}$
+*   $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+
+---
+
+### (a) Calculate the acceleration due to gravity on Ceres.
+*Note: The question does not provide the radius of Ceres. In HSC physics, if the radius of the body is missing, we calculate the gravitational field strength exerted by the Sun on Ceres, or identify that information is insufficient. Assuming the intent is the gravitational acceleration *caused by the Sun* at Ceres' orbit:*
+
+Using $g = \frac{GM}{r^2}$:
+$$g = \frac{(6.67 \times 10^{-11}) \times (2.0 \times 10^{30})}{(4.15 \times 10^{11})^2}$$
+$$g \approx \frac{1.334 \times 10^{20}}{1.722 \times 10^{23}} \approx 7.75 \times 10^{-4} \text{ m/s}^2$$
+
+---
+
+### (b) Calculate the orbital period of Ceres.
+We use Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$T^2 = \frac{4 \times \pi^2 \times (4.15 \times 10^{11})^3}{(6.67 \times 10^{-11}) \times (2.0 \times 10^{30})}$$
+$$T^2 \approx \frac{2.83 \times 10^{36}}{1.334 \times 10^{20}} \approx 2.12 \times 10^{16}$$
+$$T \approx 1.456 \times 10^8 \text{ seconds} \approx 4.62 \text{ years}$$
+
+---
+
+### (c) Compare the orbital velocity of Ceres to that of Earth.
+Orbital velocity is given by $v = \sqrt{\frac{GM}{r}}$.
+Comparing the two:
+$$\frac{v_{Ceres}}{v_{Earth}} = \sqrt{\frac{r_{Earth}}{r_{Ceres}}} = \sqrt{\frac{1.50 \times 10^{11}}{4.15 \times 10^{11}}} \approx \sqrt{0.361} \approx 0.60$$
+
+**Comparison:** Since $r_{Ceres} > r_{Earth}$, the orbital velocity of Ceres is significantly slower than that of Earth. Specifically, Ceres moves at approximately $60\%$ of the orbital speed of Earth.
+
+---
+
+###QUESTION_TYPE
+Calculation question

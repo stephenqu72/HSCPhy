@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principles of electromagnetism as they relate to cathode ray tubes (CRT). When the electron beam travels in a straight line, the electric force ($F_E = qE$) must exactly balance the magnetic force ($F_B = qvB$). Setting these equal gives $qE = qvB$, which simplifies to $v = \frac{E}{B}$.
+
+### (a) Potential Difference
+The electric field strength $E$ between parallel plates is given by $E = \frac{V}{d}$, where $V$ is potential difference and $d$ is separation.
+Given $E = 2.0 \times 10^4\text{ N C}^{-1}$ and $d = 5\text{ cm} = 0.05\text{ m}$:
+$$V = E \times d = (2.0 \times 10^4) \times 0.05 = 1000\text{ V}$$
+
+### (b) Graphing
+To plot the graph, place Magnetic field ($B$) on the x-axis and Electric field ($E$) on the y-axis. 
+*   x-axis scale: $0$ to $3.5 \times 10^{-3}\text{ T}$.
+*   y-axis scale: $0$ to $5.0 \times 10^4\text{ N C}^{-1}$.
+Plot the four points provided in the table. The points should form a linear relationship passing near the origin. Draw a line of best fit through these points.
+
+### (c) Calculating Speed
+Since $v = \frac{E}{B}$, the velocity of the electrons is equal to the **gradient (slope)** of your line of best fit. 
+Taking two points from the line (e.g., $(1.40 \times 10^{-3}, 2.00 \times 10^4)$ and $(3.10 \times 10^{-3}, 4.35 \times 10^4)$):
+$$v = \text{gradient} = \frac{\Delta E}{\Delta B} = \frac{4.35 \times 10^4 - 2.00 \times 10^4}{3.10 \times 10^{-3} - 1.40 \times 10^{-3}} \approx \frac{2.35 \times 10^4}{1.7 \times 10^{-3}} \approx 1.38 \times 10^7\text{ m s}^{-1}$$
+
+### (d) Charge-to-Mass Ratio
+When only the magnetic field acts, the electron moves in a circle. The magnetic force provides the centripetal force: $qvB = \frac{mv^2}{r}$.
+Rearranging for $\frac{q}{m}$:
+$$\frac{q}{m} = \frac{v}{Br}$$
+Using $v \approx 1.38 \times 10^7\text{ m s}^{-1}$, $B = 2.20 \times 10^{-3}\text{ T}$, and $r = 36\text{ mm} = 0.036\text{ m}$:
+$$\frac{q}{m} = \frac{1.38 \times 10^7}{(2.20 \times 10^{-3}) \times 0.036} \approx \frac{1.38 \times 10^7}{7.92 \times 10^{-5}} \approx 1.74 \times 10^{11}\text{ C kg}^{-1}$$
+*(Note: Values may vary slightly depending on your line of best fit; the accepted physical value is approximately $1.76 \times 10^{11}\text{ C kg}^{-1}$.)*
+
+###QUESTION_TYPE
+Data analysis questions

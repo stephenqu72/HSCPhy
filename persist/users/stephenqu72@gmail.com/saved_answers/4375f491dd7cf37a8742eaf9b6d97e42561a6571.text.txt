@@ -1,0 +1,23 @@
+To solve this problem, we need to apply the physics of charged particles moving through magnetic fields using the Right-Hand Rule (or Left-Hand Rule for negative charges).
+
+### 1. Identify Component X
+In a cathode-ray tube, electrons are emitted from the cathode (marked with a negative sign on the left) and are accelerated toward a positive electrode at the other end. This positive electrode is called the **Anode**. Therefore, $X$ is the Anode. This immediately narrows our options to A or C.
+
+### 2. Determine the Magnetic Field Direction
+*   **The Particle:** The cathode ray consists of a beam of electrons, which are **negatively charged**.
+*   **The Motion:** The beam is moving horizontally from left to right.
+*   **The Force:** The blue line shows the beam curving **upwards**. This means the magnetic force ($F_B$) on the electrons is directed towards the top of the page.
+*   **Applying the Rule:** Use the Right-Hand Palm Rule for a positive charge and then reverse the direction, or use the **Left-Hand Rule for negative charges**:
+    *   **Thumb:** Direction of velocity ($v$) is to the right.
+    *   **Fingers:** Direction of the magnetic field ($B$).
+    *   **Palm:** Direction of the magnetic force ($F_B$) is upwards.
+    *   Aligning your left hand: point your thumb to the right, and face your palm towards the top of the page. Your fingers will be pointing **into the page**.
+
+Alternatively, using the cross product formula $F = q(v \times B)$, where $q$ is negative:
+If $v$ is in the $+x$ direction and $F$ is in the $+y$ direction, then $(v \times B)$ must be in the $-y$ direction.
+$i \times B = -j \implies B$ must be in the $-z$ direction (into the page).
+
+**Conclusion:** The magnetic field is pointing **into the page**, and component $X$ is the **Anode**. The correct choice is **A**.
+
+###QUESTION_TYPE
+Multiple choice

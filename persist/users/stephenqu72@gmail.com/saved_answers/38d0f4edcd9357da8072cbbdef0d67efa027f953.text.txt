@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To arrive at this answer, we must break the problem down into two parts: identifying the aim of J.J. Thomson’s experiment and determining the direction of the magnetic field required to maintain the electron beam in a straight path.
+
+**1. Aim of the experiment:**
+J.J. Thomson’s famous experiment with the cathode ray tube was designed to measure the charge-to-mass ratio ($q/m$) of the electron. By applying both an electric field (from plates P and Q) and a magnetic field simultaneously, he was able to balance the forces acting on the cathode rays. This allows the velocity of the particles to be calculated, which then leads to the determination of the $q/m$ ratio. This eliminates options A and B.
+
+**2. Direction of the magnetic field:**
+*   **Electric Force:** The plates P and Q create an electric field. Plate P is positive and plate Q is negative. Since electrons are negatively charged, they experience an electrostatic force directed towards the positive plate (upwards, towards P).
+*   **Magnetic Force:** For the electron beam to hit the centre of the screen (i.e., to travel in a straight line), the magnetic force must exactly cancel out the electric force. Therefore, the magnetic force must be directed **downwards** (towards plate Q).
+*   **Right-Hand Rule:** Using the right-hand palm rule for a negative charge:
+    *   Point your thumb in the direction of the velocity ($v$ is to the right).
+    *   Point your fingers in the direction of the magnetic field ($B$).
+    *   The palm must face the direction of the magnetic force (downwards).
+    *   If you point your thumb right and your palm down, your fingers (representing the field $B$ if it were a positive charge) point into the page. Since the electron is negative, we reverse the direction, meaning the field must point **out of the page**, from **Y to X**.
+
+Alternatively, using the mathematical condition $F_e = F_m$:
+$$qE = qvB$$
+$$E = vB$$
+The electric field vector $\vec{E}$ points from $P(+)$ to $Q(-)$ (downwards). The magnetic force $\vec{F_m} = q(\vec{v} \times \vec{B})$ must point upwards to counteract the electric force pulling the electron to plate P. Using the right-hand rule for the cross product, for an electron moving to the right, a magnetic field pointing from $Y$ to $X$ (out of the page) results in a force vector that balances the electric field.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To solve this problem, we need to calculate the work done against the gravitational field of the spacecraft when moving an astronaut from an initial distance to a final distance.
+
+### 1. Identify the Physics Principles
+The work done ($W$) to move an object of mass $m$ in a gravitational field created by a mass $M$ is equal to the change in gravitational potential energy ($\Delta U$):
+$$W = \Delta U = U_f - U_i = -GMm \left( \frac{1}{r_f} - \frac{1}{r_i} \right)$$
+where:
+*   $G = 6.67 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$ (Gravitational constant)
+*   $M = 10 \text{ tonne} = 10 \times 10^3 \text{ kg} = 10^4 \text{ kg}$
+*   $m = 150 \text{ kg}$
+*   $r_i = 10 \text{ m}$
+*   $r_f = 100 \text{ m}$
+
+### 2. Perform the Calculation
+Substitute the values into the formula:
+$$W = -(6.67 \times 10^{-11}) \times (10^4) \times (150) \times \left( \frac{1}{100} - \frac{1}{10} \right)$$
+$$W = -(6.67 \times 10^{-11}) \times (1.5 \times 10^6) \times (0.01 - 0.1)$$
+$$W = -(1.0 \times 10^{-4}) \times (-0.09)$$
+$$W = 9.0 \times 10^{-6} \, \text{J}$$
+
+### 3. Determine the "Agent" doing the work
+*   Since the astronaut is moving **further away** from the spacecraft (from $10 \, \text{m}$ to $100 \, \text{m}$), they are moving against the direction of the gravitational force (which pulls inward).
+*   The gravitational field does **negative** work as the object moves away. 
+*   Therefore, the **astronaut** must exert force to move away from the craft, performing **positive** work to increase the gravitational potential energy of the system.
+
+Comparing our result of $9.0 \times 10^{-6} \, \text{J}$ with the options provided, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

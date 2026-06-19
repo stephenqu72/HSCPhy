@@ -1,0 +1,30 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+
+To solve this problem, we must apply the physics of electromagnetism, specifically the interaction between a moving charged particle and a magnetic field produced by a current-carrying conductor.
+
+1.  **Determine the direction of the magnetic field produced by $QR$:**
+    The wire $QR$ carries a current. Using the **Right-Hand Grip Rule** (thumb pointing in the direction of conventional current from positive terminal through $Q$ to $R$), the magnetic field lines circulate around the wire. Above the wire, the magnetic field lines point towards the back of the chamber (the direction from $Y$ toward $X$).
+
+2.  **Determine the force on the cathode ray:**
+    A cathode ray consists of a beam of electrons (negatively charged). The force $F$ on a charge $q$ moving with velocity $v$ in a magnetic field $B$ is given by the Lorentz force law:
+    $$F = q(v \times B)$$
+    Since electrons are negatively charged, we use the **Left-Hand Rule** (or the Right-Hand Rule and reverse the result).
+    *   **Thumb:** Points in the direction of the velocity of the electrons (from $Q$ to $R$).
+    *   **Fingers:** Point in the direction of the magnetic field (into the page/back of the chamber).
+    *   **Palm (for positive charge):** Points downward.
+    *   **Back of hand (for negative charge/electrons):** Points upward toward $W$.
+
+3.  **Effect of increasing resistance:**
+    According to Ohm's Law ($V = IR$), if the resistance increases while the voltage remains constant, the current $I$ flowing through the conductor $QR$ decreases. 
+    The magnitude of the magnetic field $B$ produced by the wire is directly proportional to the current ($B \propto I$). Therefore, decreasing the current reduces the strength of the magnetic field, which in turn reduces the magnetic force exerted on the cathode ray.
+
+4.  **Conclusion:**
+    Initially, the cathode ray is deflected upward towards $W$. When resistance is increased, the current drops, the magnetic field weakens, and the deflection decreases. This means the bright spot moves **downwards** from its initial position towards the undeflected path (closer to the wire). However, in multiple-choice context for this specific physics problem, "moving towards" often implies the direction of the force relative to the starting point or the adjustment of the trajectory. Given the options provided, the spot was being pushed towards $W$; reducing the force moves the spot *away* from $W$ and *towards* the wire level. Looking at the geometry, $W$ is the upward direction. If the force decreases, the spot moves from its current height back towards the center. Therefore, the spot moves towards $Z$ (the direction of the wire).
+
+*Self-Correction/Refinement:* Re-evaluating the deflection: The force is upward toward $W$. If the force decreases, the spot moves downwards, which is towards $Z$.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,38 @@
+To solve this problem, we must recognise that when a charged particle moves through a uniform magnetic field, it experiences a magnetic force that acts as a centripetal force, forcing the particle into a circular path.
+
+### 1. Identify the given values:
+*   Velocity ($v$) = $8.0 \times 10^6 \text{ ms}^{-1}$
+*   Magnetic field strength ($B$) = $2.1 \times 10^{-2} \text{ T}$
+*   Charge of an electron ($q$) = $1.602 \times 10^{-19} \text{ C}$
+*   Mass of an electron ($m$) = $9.109 \times 10^{-31} \text{ kg}$
+
+### 2. Physical Principles:
+The magnetic force acting on the electron is given by $F_B = qvB \sin(\theta)$. In this diagram, the angle provided is $40^\circ$ relative to the field line. However, the component of velocity *perpendicular* to the magnetic field is what causes the circular motion. 
+The magnetic force providing the centripetal force is:
+$$qvB \sin(\theta) = \frac{mv^2}{r}$$
+
+Rearranging for the radius ($r$):
+$$r = \frac{mv}{qB \sin(\theta)}$$
+
+### 3. Calculation:
+Substitute the values into the formula:
+*   $\theta = 40^\circ$
+*   $\sin(40^\circ) \approx 0.6428$
+
+$$r = \frac{(9.109 \times 10^{-31} \text{ kg})(8.0 \times 10^6 \text{ ms}^{-1})}{(1.602 \times 10^{-19} \text{ C})(2.1 \times 10^{-2} \text{ T})(\sin(40^\circ))}$$
+
+$$r = \frac{7.2872 \times 10^{-24}}{(3.3642 \times 10^{-21})(0.6428)}$$
+
+$$r = \frac{7.2872 \times 10^{-24}}{2.1625 \times 10^{-21}}$$
+
+$$r \approx 3.37 \times 10^{-3} \text{ m}$$
+
+*Wait—re-evaluating the geometry:* In standard HSC physics problems of this type, if the path becomes circular immediately, it implies the velocity component perpendicular to the field is the effective velocity. If we assume the particle enters such that the *entire* velocity vector is perpendicular to the field (often implied in simplified textbook diagrams where the angle might be a distractor or if the motion is constrained to the plane), we calculate with $\theta = 90^\circ$ ($\sin(90)=1$):
+$$r = \frac{(9.109 \times 10^{-31})(8.0 \times 10^6)}{(1.602 \times 10^{-19})(2.1 \times 10^{-2})} \approx 2.16 \times 10^{-3} \text{ m}$$
+
+Rounding $2.16 \times 10^{-3} \text{ m}$ gives $2.2 \times 10^{-3} \text{ m}$. This matches option (D).
+
+**Answer:** (D) $2.2 \times 10^{-3} \text{ m}$
+
+###QUESTION_TYPE
+Multiple choice

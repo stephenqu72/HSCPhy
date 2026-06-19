@@ -1,0 +1,28 @@
+To solve this problem, we must recognise that when a charged particle enters a uniform magnetic field perpendicularly, the magnetic force acts as the centripetal force required to maintain circular motion.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the governing equation:**
+    The magnetic force ($F_B$) is given by $F_B = qvB$, and the centripetal force ($F_c$) is given by $F_c = \frac{mv^2}{r}$. Setting these equal to each other:
+    $$qvB = \frac{mv^2}{r}$$
+
+2.  **Rearrange for velocity ($v$):**
+    By dividing both sides by $v$ and multiplying by $r/m$, we get:
+    $$v = \frac{qBr}{m}$$
+
+3.  **List the given values and convert to SI units:**
+    *   Mass ($m$) = $6.692 \times 10^{-27}\text{ kg}$
+    *   Charge ($q$) = $1.6 \times 10^{-16}\text{ C}$
+    *   Radius ($r$) = $10\text{ cm} = 0.10\text{ m}$
+    *   Magnetic field strength ($B$) = $0.10\text{ T}$
+
+4.  **Perform the calculation:**
+    $$v = \frac{(1.6 \times 10^{-16}\text{ C}) \times (0.10\text{ T}) \times (0.10\text{ m})}{6.692 \times 10^{-27}\text{ kg}}$$
+    $$v = \frac{1.6 \times 10^{-18}}{6.692 \times 10^{-27}}$$
+    $$v \approx 0.23909 \times 10^9\text{ m/s}$$
+    $$v \approx 2.4 \times 10^8\text{ m/s}$$
+
+Comparing this result to the given options, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

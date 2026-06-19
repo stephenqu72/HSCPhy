@@ -1,0 +1,28 @@
+Hello! As your HSC Physics teacher, I am happy to help you break down this conceptual question regarding gravitational fields and energy.
+
+### Answer
+The correct answer is **(D)**.
+
+---
+
+### Explanation
+To understand escape velocity, we look at the principle of **conservation of mechanical energy**. 
+
+1.  **Definition:** Escape velocity is the minimum speed an object must reach to break free from the gravitational attraction of a massive body (like a planet or a star) and reach "infinity" (where the influence of the gravity becomes zero) with zero remaining kinetic energy.
+2.  **Mechanical Energy ($E$):** Mechanical energy is the sum of kinetic energy ($K$) and gravitational potential energy ($U$).
+    $$E = K + U$$
+    The gravitational potential energy at a distance $r$ from a mass $M$ is given by $U = -\frac{GmM}{r}$.
+3.  **The Escape Condition:** When an object reaches "infinity" (where $r \rightarrow \infty$), the potential energy $U$ becomes $0$. If we want the object to just barely escape, we want its kinetic energy $K$ at infinity to also be $0$.
+4.  **Total Mechanical Energy:** Because energy is conserved, the total mechanical energy at the surface of the planet must equal the total mechanical energy at infinity.
+    $$E_{surface} = E_{\infty}$$
+    $$K + U = 0 + 0$$
+    $$K + U = 0$$
+    Therefore, the velocity required to escape is the specific initial velocity that results in a total mechanical energy of exactly zero.
+
+**Why the others are incorrect:**
+*   **(A)** describes orbital velocity, not escape velocity.
+*   **(B)** is imprecise; while it implies leaving, it ignores the physics requirement of overcoming the gravitational potential well.
+*   **(C)** is a common misconception. Escape velocity has nothing to do with atmospheric drag; it is purely a function of gravitational potential energy. You would still need to reach escape velocity even if Earth had no atmosphere at all.
+
+###QUESTION_TYPE
+Multiple choice

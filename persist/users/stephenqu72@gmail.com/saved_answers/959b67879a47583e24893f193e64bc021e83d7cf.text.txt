@@ -1,0 +1,45 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this typical Module 5: Advanced Mechanics problem. Let's break it down step-by-step.
+
+### Part a) Calculate the orbital radius
+The orbital radius ($r$) is the distance from the center of the Earth to the satellite. It is the sum of the Earth's radius ($R_E$) and the altitude ($h$).
+*   $R_E = 6.37 \times 10^6\text{ m}$
+*   $h = 600\text{ km} = 600 \times 10^3\text{ m} = 0.60 \times 10^6\text{ m}$
+*   $r = R_E + h = 6.37 \times 10^6 + 0.60 \times 10^6 = 6.97 \times 10^6\text{ m}$
+
+**Answer:** $6.97 \times 10^6\text{ m}$
+
+---
+
+### Part b) Calculate the orbital period
+To find the period ($T$), use Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$.
+Alternatively, use circular motion: $\frac{mv^2}{r} = \frac{GMm}{r^2} \implies v = \sqrt{\frac{GM}{r}}$. Since $v = \frac{2\pi r}{T}$, we get $T = 2\pi\sqrt{\frac{r^3}{GM}}$.
+*   $G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+*   $M = 5.97 \times 10^{24}\text{ kg}$ (Standard Earth mass)
+*   $r = 6.97 \times 10^6\text{ m}$
+
+$$T = 2\pi\sqrt{\frac{(6.97 \times 10^6)^3}{(6.67 \times 10^{-11})(5.97 \times 10^{24})}}$$
+$$T = 2\pi\sqrt{\frac{3.385 \times 10^{20}}{3.982 \times 10^{14}}} \approx 2\pi\sqrt{850075} \approx 5792\text{ s}$$
+Converting to minutes: $5792 / 60 \approx 96.5\text{ minutes}$.
+
+**Answer:** $5.79 \times 10^3\text{ s}$ (or $96.5\text{ minutes}$)
+
+---
+
+### Part c) How the satellite maintains a stable orbit
+The satellite is in "freefall." The gravitational force exerted by the Earth on the satellite acts as the **centripetal force** required to keep it moving in a circle. Because the satellite has sufficient tangential velocity, as it "falls" toward Earth due to gravity, the curvature of the Earth falls away beneath it at the same rate, resulting in a stable circular path without needing propulsion.
+
+---
+
+### Part d) Change in gravitational potential energy
+The change in GPE is given by $\Delta U = U_f - U_i = -GMm(\frac{1}{r_f} - \frac{1}{r_i})$.
+Alternatively, since the change in altitude is relatively small, we can use the area under the $g$ vs $h$ graph (as $g = -\frac{dU}{dh}$):
+$\Delta U = m \times (\text{Area under the } g \text{ vs } h \text{ graph})$.
+The graph is a straight line from $g \approx 9.80\text{ m/s}^2$ at $h=0$ to $g \approx 8.20\text{ m/s}^2$ at $h=600\text{ km}$.
+*   Area = $\text{Trapezoid area} = \frac{(9.80 + 8.20)}{2} \times 600,000\text{ m}$
+*   Area = $9.00 \times 600,000 = 5.40 \times 10^6\text{ J/kg}$
+*   $\Delta U = m \times \text{Area} = 288\text{ kg} \times 5.40 \times 10^6\text{ J/kg} \approx 1.56 \times 10^9\text{ J}$
+
+**Answer:** $1.56 \times 10^9\text{ J}$
+
+###QUESTION_TYPE
+Calculation question

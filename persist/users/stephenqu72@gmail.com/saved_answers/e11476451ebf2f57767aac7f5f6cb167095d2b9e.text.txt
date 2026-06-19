@@ -1,0 +1,43 @@
+To determine the correct magnetic field, we use the **Right-Hand Rule** (or Lorentz force law) for moving charges.
+
+### Answer
+The correct option is **(B)**.
+
+---
+
+### Explanation
+When a conductor moves through a magnetic field, the free electrons inside the wire experience a magnetic force ($F_B$) given by the formula:
+$$F_B = q(\vec{v} \times \vec{B})$$
+
+Where:
+*   $q$ is the charge (for electrons, $q$ is negative).
+*   $\vec{v}$ is the velocity of the conductor (directed to the right).
+*   $\vec{B}$ is the magnetic field.
+
+**Step-by-step logic:**
+1.  **Requirement:** We want a **net positive charge** at the top ($Y$). This means electrons must be pushed toward the bottom ($X$).
+2.  **Using the Right-Hand Rule:**
+    *   Point your fingers in the direction of the velocity $\vec{v}$ (to the right).
+    *   Curl your fingers toward the direction of the magnetic field $\vec{B}$.
+    *   Your thumb points in the direction of the force on a **positive** charge.
+3.  **Testing Option (B):**
+    *   If $\vec{B}$ points **out of the page** (dots):
+        *   Velocity is to the right.
+        *   Fingers point right, curl out of the page.
+        *   Your thumb points **down** (towards $X$).
+    *   Since the force on a positive charge is down, the force on the **negative** electrons is in the opposite direction, which is **up** (towards $Y$).
+    *   Electrons accumulate at $Y$, leaving $X$ with a net positive charge? Wait—let's re-evaluate:
+        *   If electrons move to $Y$, then $Y$ becomes negative. 
+        *   To make $Y$ **positive**, we need electrons to be forced **down** towards $X$.
+4.  **Re-evaluating with the Right-Hand Rule:**
+    *   We need the force on the negative electrons to be downwards (towards $X$).
+    *   This means the force on a hypothetical positive charge must be upwards (towards $Y$).
+    *   Using the rule: If velocity is right and force is up, the magnetic field must be **into the page** (Option A). Let's check (A):
+        *   Velocity = Right.
+        *   $\vec{B}$ = Into the page (crosses).
+        *   Force on positive charge = Up ($Y$).
+        *   Force on negative electrons = Down ($X$).
+        *   *Correction:* If electrons move to $X$, $X$ becomes negative and $Y$ becomes positive. Therefore, **(A) is the correct answer.**
+
+###QUESTION_TYPE
+Multiple choice

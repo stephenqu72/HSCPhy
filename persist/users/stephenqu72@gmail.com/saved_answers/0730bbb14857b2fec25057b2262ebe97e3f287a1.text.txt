@@ -1,0 +1,34 @@
+To find the torque produced by the weight of the book, we follow these steps:
+
+### 1. Identify the given values
+*   **Mass of the book ($m$):** $800\text{ g}$. We must convert this to SI units (kilograms) for our calculation:
+    $$m = 800\text{ g} = 0.8\text{ kg}$$
+*   **Total length of the shelf:** $1\text{ m}$
+*   **Position of the book ($r$):** The book is halfway along the length of the shelf:
+    $$r = \frac{1\text{ m}}{2} = 0.5\text{ m}$$
+*   **Acceleration due to gravity ($g$):** Standard gravity is $9.8\text{ m/s}^2$.
+
+### 2. Calculate the Force (Weight)
+The force ($F$) acting on the shelf is the weight of the book:
+$$F = m \times g$$
+$$F = 0.8\text{ kg} \times 9.8\text{ m/s}^2 = 7.84\text{ N}$$
+
+### 3. Calculate the Torque ($\tau$)
+Torque is defined as the product of the force and the perpendicular distance from the pivot (the hinge at the wall):
+$$\tau = F \times r$$
+$$\tau = 7.84\text{ N} \times 0.5\text{ m}$$
+$$\tau = 3.92\text{ Nm}$$
+
+Comparing our result to the options provided:
+A. $3.92$
+B. $7.84$
+C. $3920$
+D. $7840$
+
+The correct option is **A**.
+
+### Explanation Summary
+In physics, torque is the rotational equivalent of force. To solve this, we first ensured all units were in the standard SI system ($kg$, $m$, and $s$). We calculated the weight of the book using $F=mg$, and then multiplied that force by the distance from the pivot point to determine the rotational effect (torque) being applied to the hinge.
+
+###QUESTION_TYPE
+Multiple choice

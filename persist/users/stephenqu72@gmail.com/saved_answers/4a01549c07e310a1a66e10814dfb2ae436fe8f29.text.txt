@@ -1,0 +1,24 @@
+To answer this question effectively, you must demonstrate your understanding of how Robert Millikan used the balance between forces to isolate the charge on an oil drop.
+
+### Answer
+In Millikan's oil drop experiment, the charge of an electron was determined by creating a state of equilibrium for a charged oil drop suspended between two horizontal parallel plates.
+
+1. **Gravity and Drag:** Initially, when the electric field is off, the oil drop falls under gravity ($F_g = mg$). It reaches a terminal velocity where the drag force ($F_d$) balances gravity, allowing the mass ($m$) of the drop to be calculated using Stokes' Law.
+2. **The Electric Field:** When an electric field ($E$) is applied, an upward electric force ($F_e = qE$) acts on the charged drop.
+3. **Equilibrium:** By adjusting the voltage across the plates, Millikan balanced the electric force with the gravitational force such that the drop remained stationary (or moved at a constant velocity). At this point of equilibrium:
+   $$F_e = F_g$$
+   $$qE = mg$$
+4. **Calculating Charge:** Since $E = V/d$ (where $V$ is potential difference and $d$ is plate separation), the equation becomes:
+   $$q = \frac{mgd}{V}$$
+5. **Quantization:** By observing many drops, Millikan found that the values of $q$ were always integer multiples of a fundamental unit of charge ($q = ne$). This provided the definitive proof of the quantization of electric charge.
+
+---
+
+### How to solve this
+*   **Identify the forces:** Always state the two competing forces: the downward weight force ($mg$) and the upward electric force ($qE$).
+*   **Explain the process:** Briefly mention that the experiment involves two stages: measuring the mass (via terminal velocity/Stokes' Law) and then balancing the forces (via the electric field).
+*   **Use the equations:** Explicitly state the relationship $qE = mg$. You must define the variables, particularly identifying that $E$ is the electric field strength ($V/d$).
+*   **Connect to the outcome:** Ensure you explicitly mention that Millikan observed the charge was always an integer multiple ($n$) of a fundamental constant ($e$), which is the key to why this experiment is significant.
+
+### QUESTION_TYPE
+Short answer

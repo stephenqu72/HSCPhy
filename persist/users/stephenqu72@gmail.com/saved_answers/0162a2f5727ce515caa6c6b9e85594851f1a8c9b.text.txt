@@ -1,0 +1,20 @@
+To solve this problem, we must understand Newton's Cannonball thought experiment, which demonstrates the relationship between initial horizontal launch speed and the resulting trajectory around a planet.
+
+### Explanation
+
+1.  **Analyze the Paths:**
+    *   **Ball X** strikes the Earth's surface shortly after being fired. Its horizontal velocity is insufficient to counteract the curvature of the Earth as it falls.
+    *   **Ball Y** follows a trajectory that matches the Earth's curvature. This means the rate at which the ball falls toward the Earth's center is perfectly balanced by the curvature of the planet. This specific speed is known as the **orbital velocity** ($v_{orbit}$).
+    *   **Ball Z** has an even higher initial speed. It travels further than ball Y and eventually escapes the Earth's gravitational pull or enters a higher, wider trajectory.
+
+2.  **Evaluating the Options:**
+    *   **A. Ball X has a launch speed greater than ball Z:** Incorrect. Ball X falls to the ground almost immediately, while Ball Z travels much further; therefore, $v_X < v_Z$.
+    *   **B. Ball X has a launch speed equivalent to the orbital velocity:** Incorrect. Ball X does not orbit the Earth; it crashes into it. Ball Y corresponds to the orbital velocity.
+    *   **C. Ball Y has a launch speed that is less than the escape velocity:** **Correct.** For a projectile to enter a stable circular orbit (like Ball Y), it must reach orbital velocity ($v_{orbit} = \sqrt{\frac{GM}{r}}$). For a projectile to leave the gravitational influence of the planet entirely, it must reach escape velocity ($v_{esc} = \sqrt{\frac{2GM}{r}}$). Since $v_{esc} = \sqrt{2} \cdot v_{orbit}$, it is clear that $v_{orbit} < v_{esc}$. Therefore, Ball Y is moving at orbital velocity, which is less than the escape velocity.
+    *   **D. Ball Y has a launch speed that is greater than the escape velocity:** Incorrect. If it were greater than the escape velocity, it would not follow the closed circular path shown for Y.
+
+### Answer
+The correct statement is **C**.
+
+###QUESTION_TYPE
+Multiple choice

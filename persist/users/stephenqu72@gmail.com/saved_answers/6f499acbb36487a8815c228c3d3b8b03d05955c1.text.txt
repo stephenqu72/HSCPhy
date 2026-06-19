@@ -1,0 +1,46 @@
+To solve this problem, we first identify the given variables:
+*   Mass of object 1 ($m_1$) = $1.60 \times 10^4\text{ kg}$
+*   Velocity of object 1 ($u_1$) = $26.0\text{ m s}^{-1}$
+*   Mass of object 2 ($m_2$) = $1.70 \times 10^4\text{ kg}$
+*   Velocity of object 2 ($u_2$) = $0\text{ m s}^{-1}$ (stationary)
+*   Final velocity of combined objects ($v$) = $12.6\text{ m s}^{-1}$
+
+---
+
+### a) Show that momentum is conserved.
+
+Momentum is conserved if the total momentum before the collision equals the total momentum after the collision.
+
+**1. Momentum before ($p_{\text{initial}}$):**
+$$p_{\text{initial}} = m_1u_1 + m_2u_2$$
+$$p_{\text{initial}} = (1.60 \times 10^4 \times 26.0) + (1.70 \times 10^4 \times 0)$$
+$$p_{\text{initial}} = 4.16 \times 10^5\text{ kg m s}^{-1}$$
+
+**2. Momentum after ($p_{\text{final}}$):**
+Since the objects move together, we treat them as one mass ($m_1 + m_2$):
+$$p_{\text{final}} = (m_1 + m_2)v$$
+$$p_{\text{final}} = (1.60 \times 10^4 + 1.70 \times 10^4) \times 12.6$$
+$$p_{\text{final}} = (3.30 \times 10^4) \times 12.6 = 4.158 \times 10^5\text{ kg m s}^{-1}$$
+
+**Conclusion:** Within significant figures ($4.16 \times 10^5 \approx 4.16 \times 10^5$), the initial momentum equals the final momentum, thus momentum is conserved.
+
+---
+
+### b) Determine if the collision is elastic or inelastic.
+
+A collision is **elastic** if total kinetic energy ($KE$) is conserved, and **inelastic** if it is not.
+
+**1. $KE$ before the collision:**
+$$KE_{\text{initial}} = \frac{1}{2}m_1u_1^2 + \frac{1}{2}m_2u_2^2$$
+$$KE_{\text{initial}} = \frac{1}{2}(1.60 \times 10^4)(26.0)^2 + 0$$
+$$KE_{\text{initial}} = 8000 \times 676 = 5.408 \times 10^6\text{ J}$$
+
+**2. $KE$ after the collision:**
+$$KE_{\text{final}} = \frac{1}{2}(m_1 + m_2)v^2$$
+$$KE_{\text{final}} = \frac{1}{2}(3.30 \times 10^4)(12.6)^2$$
+$$KE_{\text{final}} = 16500 \times 158.76 = 2.61954 \times 10^6\text{ J}$$
+
+**Conclusion:** Since $KE_{\text{final}} < KE_{\text{initial}}$, kinetic energy has been lost (converted into heat/sound). Therefore, the collision is **inelastic**.
+
+###QUESTION_TYPE
+Calculation question

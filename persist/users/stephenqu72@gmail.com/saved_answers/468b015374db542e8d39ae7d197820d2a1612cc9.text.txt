@@ -1,0 +1,34 @@
+Hello! As an HSC teacher, I would approach this Millikan’s Oil Drop experiment problem by focusing on the balance of forces. Here is the step-by-step solution.
+
+### Part a: Forces on the oil drop
+For the droplet to be "suspended" (stationary), the net force must be zero.
+*   **Gravity ($F_g$):** Acting vertically downwards.
+*   **Electric Force ($F_e$):** Acting vertically upwards to counteract gravity.
+
+### Part b: Direction of the electric field
+*   **Direction:** The electric field must be pointing **downwards** (from the top plate to the bottom plate).
+*   **Reason:** The oil droplet is negatively charged. The electric force $F_e = qE$ acts in the direction opposite to the electric field for a negative charge. To balance gravity (downwards), the electric force must act upwards. Therefore, the electric field must point downwards.
+
+### Part c: Calculation of charge
+To find the charge $q$, we use the condition for equilibrium: $F_e = F_g$.
+$$qE = mg$$
+Given the electric field $E = \frac{V}{d}$, where $V = 240\text{ V}$ and $d = 2.51\text{ mm} = 0.00251\text{ m}$:
+$$q \left( \frac{V}{d} \right) = mg$$
+$$q = \frac{mgd}{V}$$
+Substitute the values ($m = 1.56 \times 10^{-15}\text{ kg}$, $g = 9.8\text{ m/s}^2$):
+$$q = \frac{(1.56 \times 10^{-15})(9.8)(0.00251)}{240}$$
+$$q \approx 1.597 \times 10^{-19}\text{ C}$$
+
+### Part d: Law of Conservation of Charge
+The results **do not** directly verify the Law of Conservation of Charge (which states total charge in an isolated system remains constant). Instead, these results support the **quantization of electric charge**.
+*   **Reason:** The charge on each droplet is an integer multiple of the elementary charge ($e \approx 1.6 \times 10^{-19}\text{ C}$). If you divide these values by $1.6 \times 10^{-19}$, you get integers (5, 7, 4, and 3), indicating that charge is transferred in discrete packets rather than continuous amounts.
+
+***
+
+### How to solve this:
+1.  **Understand Equilibrium:** Always equate $mg$ and $qE$ for suspended droplets.
+2.  **Units:** Ensure distance $d$ is converted from millimeters to meters before calculating the electric field.
+3.  **Conceptual Distinctions:** Understand the difference between "Conservation of Charge" (charge is neither created nor destroyed) and "Quantization of Charge" (charge comes in discrete packets). Millikan's experiment specifically proves quantization.
+
+###QUESTION_TYPE
+Calculation question

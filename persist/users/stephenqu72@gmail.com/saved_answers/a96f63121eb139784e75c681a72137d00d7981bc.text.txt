@@ -1,0 +1,39 @@
+To solve this problem, we first establish the given data:
+*   Mass ($m$) = $1300\text{ kg}$
+*   Radius ($r$) = $40\text{ m}$
+*   Velocity ($v$) = $80\text{ km/h} = \frac{80}{3.6} \approx 22.22\text{ m/s}$
+
+---
+
+### (a) Magnitude of the centripetal force
+The formula for centripetal force is $F_c = \frac{mv^2}{r}$.
+Substituting the values:
+$$F_c = \frac{1300 \times (22.22)^2}{40}$$
+$$F_c = \frac{1300 \times 493.83}{40} \approx 16049.5\text{ N}$$
+**Answer:** The centripetal force is approximately **$1.6 \times 10^4\text{ N}$**.
+
+### (b) Magnitude of the centripetal acceleration
+The formula for centripetal acceleration is $a_c = \frac{v^2}{r}$.
+Substituting the values:
+$$a_c = \frac{(22.22)^2}{40}$$
+$$a_c = \frac{493.83}{40} \approx 12.35\text{ m/s}^2$$
+**Answer:** The centripetal acceleration is approximately **$12.35\text{ m/s}^2$**.
+
+### (c) Magnitude of the centripetal force exerted by the road on the banked bend
+On a banked track, the "centripetal force exerted by the road" refers to the **Normal Force ($N$)** provided by the track surface. 
+1.  **Vertical equilibrium:** $N \cos\theta = mg$, where $\theta = 8^\circ$.
+2.  **Calculate $N$:**
+$$N = \frac{mg}{\cos(8^\circ)}$$
+$$N = \frac{1300 \times 9.8}{\cos(8^\circ)} \approx \frac{12740}{0.9903} \approx 12865\text{ N}$$
+
+**Diagram description:**
+Draw a car on an inclined plane of angle $\theta$. The forces are:
+*   **Weight ($mg$):** Acting vertically downwards from the center of the car.
+*   **Normal Force ($N$):** Acting perpendicular to the road surface.
+*   **Components of $N$:** Resolve $N$ into $N \sin\theta$ (horizontal/centripetal component) and $N \cos\theta$ (vertical component balancing weight).
+
+**Answer:** The magnitude of the normal force exerted by the road is approximately **$1.29 \times 10^4\text{ N}$**.
+
+---
+###QUESTION_TYPE
+Calculation question

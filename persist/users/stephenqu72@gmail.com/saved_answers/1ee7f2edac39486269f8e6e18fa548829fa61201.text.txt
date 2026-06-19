@@ -1,0 +1,39 @@
+To solve this problem, we must apply the principles of electromagnetism, specifically the motion of charged particles in perpendicular electric and magnetic fields.
+
+### Solutions
+
+**a. Show that $v_0 = \frac{E}{B}$**
+For an electron to pass through undeflected (to point Y), the net force acting on it must be zero. The electric force ($F_E$) and the magnetic force ($F_B$) must be equal in magnitude and opposite in direction.
+- The electric force is $F_E = qE$.
+- The magnetic force is $F_B = qvB$ (since the velocity is perpendicular to the field).
+Setting these equal:
+$$qE = qv_0B$$
+Dividing both sides by $qB$, we get:
+$$v_0 = \frac{E}{B}$$
+
+**b. Calculate the magnitude of the velocity $v_0$**
+Given:
+- $E = 500\text{ kV m}^{-1} = 500 \times 10^3\text{ V m}^{-1} = 5 \times 10^5\text{ V m}^{-1}$
+- $B = 0.25\text{ T}$
+
+Using the derived formula:
+$$v_0 = \frac{5 \times 10^5\text{ V m}^{-1}}{0.25\text{ T}}$$
+$$v_0 = 2 \times 10^6\text{ m s}^{-1}$$
+
+**c. i. Which point?**
+Point **Z**.
+
+**c. ii. Explain your answer**
+The electric force $F_E = qE$ acts upwards (towards the positive plate) on the electron. The magnetic force $F_B = qvB$ acts downwards (determined by the right-hand rule for a negative charge). 
+When $v > v_0$, the magnetic force $F_B = qvB$ becomes greater than the electric force $F_E$. Since the magnetic force is directed downwards, the net force on the electron is downwards, causing the electron to deflect towards point Z.
+
+---
+
+### How to solve this type of problem:
+1. **Identify the Equilibrium Condition:** Always look for the state of "undeflected motion." This implies that the vector sum of forces is zero.
+2. **Equate Forces:** Set the electric force ($qE$) equal to the magnetic force ($qvB$) to derive the velocity selector formula.
+3. **Unit Conversion:** Pay close attention to prefixes. Always convert values like "kV" to base units (Volts) before calculating.
+4. **Directional Analysis:** Use the Right-Hand Rule (RHR) to determine the direction of the magnetic force. Remember that for an electron (negative charge), the direction of the magnetic force will be the *opposite* of the result given by the standard RHR for a positive charge.
+
+###QUESTION_TYPE
+Calculation question

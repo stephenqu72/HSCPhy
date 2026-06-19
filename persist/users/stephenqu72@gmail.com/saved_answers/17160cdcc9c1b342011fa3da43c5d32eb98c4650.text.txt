@@ -1,0 +1,33 @@
+To ensure the electrons travel in a straight line, the net force acting on them must be zero. This means the magnetic force ($F_B$) must be equal in magnitude and opposite in direction to the electric force ($F_E$) exerted by the charged plates.
+
+### 1. Identify the Forces
+*   **Electric Force ($F_E$):** The top plate is positive and the bottom plate is negative. The electric field points downwards (from positive to negative). Since electrons are negatively charged, they experience an electric force upwards toward the positive plate.
+    $$F_E = qE = q\frac{V}{d}$$
+*   **Magnetic Force ($F_B$):** To counteract the upward electric force, the magnetic force must point downwards.
+    $$F_B = qvB$$
+
+### 2. Set the Forces Equal
+For the electron to travel straight, $F_E = F_B$:
+$$q\frac{V}{d} = qvB$$
+The charge $q$ cancels out, leaving:
+$$B = \frac{V}{vd}$$
+
+### 3. Calculate the Magnitude
+Given:
+- $V = 1000\text{ V}$
+- $v = 2 \times 10^6\text{ m s}^{-1}$
+- $d = 1 \times 10^{-3}\text{ m}$
+
+$$B = \frac{1000}{(2 \times 10^6)(1 \times 10^{-3})} = \frac{1000}{2000} = 0.5\text{ T} = 5 \times 10^{-1}\text{ T}$$
+
+### 4. Determine the Direction
+We use the Right-Hand Rule for the magnetic force on a **negative charge**.
+*   The electron velocity ($v$) is to the right.
+*   The required magnetic force ($F_B$) is downwards.
+*   According to the Right-Hand Rule for a positive charge, if the thumb points in the direction of velocity (right) and the palm faces the force (down), the fingers (field) would point "out of the page".
+*   Because the electron has a **negative charge**, the direction is reversed. Therefore, the magnetic field must be **into the page**.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To solve this problem, we must analyze the forces acting on the ball undergoing uniform circular motion in a horizontal plane (a conical pendulum).
+
+### 1. Identify the Forces
+There are two forces acting on the ball:
+*   **Gravity ($mg$)** acting vertically downwards.
+*   **Tension ($T$)** in the string acting at an angle $\theta$ to the vertical.
+
+### 2. Resolve the Tension Force
+We resolve the tension $T$ into two components:
+*   **Vertical component:** $T \cos(\theta)$, which balances the weight of the ball so it does not move vertically:
+    $$T \cos(\theta) = mg \quad \text{--- (Equation 1)}$$
+*   **Horizontal component:** $T \sin(\theta)$, which provides the necessary centripetal force ($F_c$) to keep the ball in a circular path:
+    $$T \sin(\theta) = \frac{mv^2}{r} \quad \text{--- (Equation 2)}$$
+
+### 3. Derive the Expression for $\theta$
+To eliminate $T$ and find $\theta$, we divide Equation 2 by Equation 1:
+$$\frac{T \sin(\theta)}{T \cos(\theta)} = \frac{\frac{mv^2}{r}}{mg}$$
+
+The $T$ terms cancel out, and the mass $m$ cancels out:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+
+To solve for $\theta$, we take the inverse tangent of both sides:
+$$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right)$$
+
+Comparing this to the given options, it matches **Option A**.
+
+***
+
+### Answer
+The correct option is **A**.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for the magnetic force $F$ on a charged particle moving through a magnetic field:
+
+$$F = qvB\sin(\theta)$$
+
+Since both particles move at right angles to the magnetic field, $\sin(90^{\circ}) = 1$, so the formula simplifies to $F = qvB$.
+
+### Step 1: Define the variables for the alpha particle
+Let $q_{\alpha}$, $v_{\alpha}$, and $B_{\alpha}$ be the charge, velocity, and magnetic flux density for the alpha particle. The force on the alpha particle is:
+$$F = q_{\alpha} v_{\alpha} B_{\alpha}$$
+
+### Step 2: Define the variables for the beta particle
+We know the following relationships:
+*   The charge of an alpha particle is $+2e$. The charge of a beta particle (an electron) is $-e$. In terms of magnitude, $|q_{\beta}| = 0.5 \times |q_{\alpha}|$.
+*   The velocity of the beta particle is $v_{\beta} = 10v_{\alpha}$.
+*   The magnetic field is $B_{\beta} = 0.5B_{\alpha}$.
+
+### Step 3: Calculate the force on the beta particle ($F_{\beta}$)
+Substitute these values into the force formula:
+$$F_{\beta} = |q_{\beta}| \cdot v_{\beta} \cdot B_{\beta}$$
+$$F_{\beta} = (0.5 q_{\alpha}) \cdot (10 v_{\alpha}) \cdot (0.5 B_{\alpha})$$
+
+Now, group the numerical coefficients:
+$$F_{\beta} = (0.5 \times 10 \times 0.5) \cdot (q_{\alpha} v_{\alpha} B_{\alpha})$$
+$$F_{\beta} = 2.5 \cdot (q_{\alpha} v_{\alpha} B_{\alpha})$$
+
+Since $F = q_{\alpha} v_{\alpha} B_{\alpha}$, we have:
+$$F_{\beta} = 2.5 F$$
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

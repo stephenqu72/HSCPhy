@@ -1,0 +1,23 @@
+### Answer
+The correct statement is **D. Electric potential energy decreases to zero.**
+
+---
+
+### Explanation
+
+To understand why this is the case, we must look at the formula for electric potential energy ($U$) between two point charges, $q_1$ and $q_2$, separated by a distance $r$:
+
+$$U = \frac{k q_1 q_2}{r}$$
+
+Where $k$ is Coulomb's constant. 
+
+1.  **Analyze the charges:** In this scenario, both particles are positively charged, so $q_1 > 0$ and $q_2 > 0$. This means the product $q_1 q_2$ is positive. Therefore, the potential energy $U$ is always positive.
+2.  **Analyze the motion:** The question states that the particle is moving *away* from the other particle. This means the separation distance $r$ is increasing ($r \to \infty$).
+3.  **Analyze the relationship:** As the denominator $r$ in our formula increases, the value of the fraction $U = \frac{k q_1 q_2}{r}$ decreases. 
+4.  **The limit:** As $r$ approaches infinity ($r \to \infty$), the electric potential energy approaches zero ($U \to 0$). 
+
+**Conceptual perspective:** 
+Think of the two positive charges as two magnets pushing against each other. Because they repel, the electric force does positive work on the particle as it moves away, converting the stored electric potential energy into kinetic energy. Consequently, the potential energy of the system decreases as they move apart, eventually reaching zero when they are infinitely far away from each other.
+
+###QUESTION_TYPE
+Multiple choice

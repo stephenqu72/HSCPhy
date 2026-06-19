@@ -1,0 +1,31 @@
+To find the gravitational potential energy of the satellite, we use the formula for gravitational potential energy in a central force field:
+
+$$U = -\frac{GMm}{r}$$
+
+### 1. Identify the given values:
+*   Mass of Saturn ($M$): $5.70 \times 10^{26}\text{ kg}$
+*   Mass of satellite ($m$): $400\text{ kg}$
+*   Gravitational constant ($G$): $6.674 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+*   Radius of Saturn ($R$): The diameter is $139,820\text{ km}$, so the radius $R = \frac{139,820}{2} = 69,910\text{ km} = 6.991 \times 10^7\text{ m}$.
+*   Altitude above surface ($h$): $1,600\text{ km} = 1.6 \times 10^6\text{ m}$.
+
+### 2. Calculate the total orbital radius ($r$):
+The distance $r$ must be measured from the center of the planet to the satellite:
+$$r = R + h = 6.991 \times 10^7\text{ m} + 0.016 \times 10^7\text{ m} = 7.151 \times 10^7\text{ m}$$
+
+### 3. Calculate $U$:
+Substitute the values into the formula:
+$$U = -\frac{(6.674 \times 10^{-11}) \times (5.70 \times 10^{26}) \times 400}{7.151 \times 10^7}$$
+
+First, calculate the numerator:
+$$(6.674 \times 10^{-11}) \times (5.70 \times 10^{26}) \times 400 \approx 1.52167 \times 10^{19}$$
+
+Then, divide by the radius:
+$$U = -\frac{1.52167 \times 10^{19}}{7.151 \times 10^7} \approx -2.1279 \times 10^{11}\text{ J}$$
+
+Rounding to three significant figures, we get $-2.13 \times 10^{11}\text{ J}$.
+
+Comparing this to the provided options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,16 @@
+To determine where the projectile has the minimum speed, we must analyze the two components of its velocity throughout its flight:
+
+1.  **Horizontal Velocity ($v_x$):** Assuming there is no air resistance, the horizontal acceleration is zero. Therefore, the horizontal velocity remains constant throughout the entire flight.
+2.  **Vertical Velocity ($v_y$):** This changes due to gravity. As the projectile rises, gravity causes the vertical velocity to decrease until it reaches zero at the peak of the trajectory. As it falls, the vertical velocity becomes negative (directed downwards) and increases in magnitude.
+
+The total speed $v$ of the projectile is given by the Pythagorean theorem:
+$$v = \sqrt{v_x^2 + v_y^2}$$
+
+Since $v_x$ is constant, the total speed $v$ is at its minimum when the magnitude of the vertical velocity, $|v_y|$, is at its minimum. The vertical velocity is zero at the highest point of the trajectory (point **Y**).
+
+At point **Y**, the speed is simply equal to the horizontal velocity component ($v = v_x$). At all other points (W, X, and Z), there is a non-zero vertical component, meaning the total speed will be greater than at Y.
+
+Therefore, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,22 @@
+### Answer
+The correct statement is **D**.
+
+---
+
+### Explanation
+To understand this question, we must look at the **Law of Conservation of Mechanical Energy** in a gravitational field. The total mechanical energy $E_{total}$ of an orbiting body is the sum of its kinetic energy ($K$) and its gravitational potential energy ($U$):
+
+$$E_{total} = K + U = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+
+1.  **Understanding the relationship:** As an orbiting body moves further away from the central mass (increasing distance $r$), its gravitational potential energy ($U = - \frac{GMm}{r}$) becomes less negative, meaning it **increases**. 
+2.  **Conservation of Energy:** Since the total mechanical energy must remain constant (assuming no external work is done), an increase in gravitational potential energy must be balanced by a corresponding decrease in kinetic energy ($K$). 
+3.  **Evaluating the Options:**
+    *   **A** describes the increase in kinetic energy as the body moves closer, but it does not fully explain the *Law of Conservation of Energy* in the context of the conversion between potential and kinetic energy as well as option D does. Note: While Kepler's Second Law specifically relates to the conservation of angular momentum, the prompt asks which statement best describes the Law of Conservation of Energy in an orbit. 
+    *   **B** is incorrect because the energy oscillates; it does not simply increase potential and decrease kinetic energy "throughout" the orbit.
+    *   **C** is incorrect because kinetic energy increases when an object moves closer to the central mass (as potential energy decreases).
+    *   **D** accurately describes the trade-off: as the distance $r$ increases, the body climbs "out" of the gravitational potential well (potential energy increases), and by the law of conservation of energy, its speed/kinetic energy must decrease.
+
+Therefore, statement **D** is the most accurate physical description of the conservation of energy in an elliptical orbit.
+
+###QUESTION_TYPE
+Multiple choice

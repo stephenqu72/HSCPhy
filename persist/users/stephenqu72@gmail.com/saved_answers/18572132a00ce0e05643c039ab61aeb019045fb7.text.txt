@@ -1,0 +1,25 @@
+To determine which part of the conductive bar becomes negatively charged, we must apply the **Right-Hand Rule** for magnetic forces on moving charges.
+
+### Answer
+The correct answer is **(D) The bottom (down the page)**.
+
+### Explanation
+When a conductor moves through a magnetic field, the free electrons inside the conductor experience a magnetic force. We can find the direction of this force using the magnetic force formula:
+$$F = q(\vec{v} \times \vec{B})$$
+
+1.  **Identify the variables:**
+    *   The magnetic field $B$ is pointing **out of the page** (represented by the dots).
+    *   The velocity $v$ of the bar is pointing to the **right**.
+    *   We are tracking the movement of **electrons**, which have a negative charge ($q < 0$).
+
+2.  **Apply the Right-Hand Rule:**
+    *   Point your right-hand fingers in the direction of the velocity ($v$ = right).
+    *   Curl your fingers toward the magnetic field direction ($B$ = out of the page). 
+    *   Your thumb points **up the page**.
+    *   **Crucial step:** Because electrons carry a **negative** charge, the force on them is opposite to the direction indicated by the Right-Hand Rule. Therefore, the force on the electrons is directed **down the page**.
+
+3.  **Conclusion:**
+    As the electrons are pushed to the bottom of the bar, a negative charge accumulates at the bottom, leaving a net positive charge at the top. Thus, the bottom region of the bar becomes negatively charged.
+
+###QUESTION_TYPE
+Multiple choice

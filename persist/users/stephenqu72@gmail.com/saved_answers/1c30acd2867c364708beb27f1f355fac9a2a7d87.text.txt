@@ -1,0 +1,32 @@
+To solve this physics problem, we need to apply the principles of electrical power transmission, specifically focusing on Ohm’s Law and the power loss formula in transmission lines.
+
+### (a) Calculate power loss in the transmission wires
+
+**Step 1: Identify the variables.**
+*   Power demand ($P_{load}$) = $12\,000\text{ W}$
+*   Voltage at the supply ($V$) = $240\text{ V}$
+*   Resistance of the wires ($R$) = $2.0\text{ }\Omega$
+
+**Step 2: Calculate the current ($I$) flowing through the lines.**
+Using the power formula $P = VI$, we rearrange to find $I$:
+$$I = \frac{P}{V} = \frac{12\,000\text{ W}}{240\text{ V}} = 50\text{ A}$$
+
+**Step 3: Calculate the power loss ($P_{loss}$) in the lines.**
+The power lost as heat in the transmission lines is given by the formula $P_{loss} = I^2 R$:
+$$P_{loss} = (50\text{ A})^2 \times 2.0\text{ }\Omega$$
+$$P_{loss} = 2\,500 \times 2.0 = 5\,000\text{ W}$$
+
+**Answer:** The power loss in the transmission wires is **$5\,000\text{ W}$**.
+
+---
+
+### (b) Explain why using a high voltage (11 000 V) reduces power loss
+
+To explain this, we focus on the relationship between voltage, current, and power.
+
+1.  **Inverse Relationship:** For a constant power demand ($P = VI$), if the transmission voltage ($V$) is increased, the current ($I$) flowing through the transmission lines must decrease proportionately. 
+2.  **The $I^2$ Factor:** Power loss in the lines is calculated by $P_{loss} = I^2R$. Because the current is squared in this formula, any reduction in current leads to a **much larger** reduction in power loss.
+3.  **Efficiency:** By stepping up the voltage to $11\,000\text{ V}$, the current is reduced by a factor of approximately 45.8 ($11\,000 / 240 \approx 45.8$). Because $P_{loss}$ is proportional to $I^2$, the power loss will decrease by a factor of roughly $(45.8)^2 \approx 2\,100$. This makes the transmission of electricity much more efficient over the $1.0\text{ km}$ distance.
+
+### QUESTION_TYPE
+Calculation question

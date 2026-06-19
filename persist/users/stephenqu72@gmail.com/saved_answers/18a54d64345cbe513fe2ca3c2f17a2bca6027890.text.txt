@@ -1,0 +1,41 @@
+To solve this problem, we must analyze the physics of a conical pendulum.
+
+### Part a: Forces Acting on the Ball
+There are two forces acting on the ball:
+1.  **Gravitational Force ($mg$):** Acting vertically downwards from the center of the ball.
+2.  **Tension Force ($T$):** Acting along the string, directed towards the point of suspension.
+
+---
+
+### Part b: Calculate the Speed of the Ball
+
+**1. Identify the Geometry:**
+The string length $L = 0.75\text{ m}$ and the angle $\theta = 25^\circ$ with the vertical. The radius $r$ of the horizontal circular path is:
+$$r = L \sin(\theta) = 0.75 \sin(25^\circ) \approx 0.317\text{ m}$$
+
+**2. Analyze the Forces:**
+The vertical components of the forces must be balanced because there is no vertical acceleration:
+$$T \cos(\theta) = mg \implies T = \frac{mg}{\cos(\theta)}$$
+The horizontal component of the tension provides the centripetal force required for circular motion:
+$$T \sin(\theta) = \frac{mv^2}{r}$$
+
+**3. Combine Equations:**
+Substitute the expression for $T$ into the centripetal force equation:
+$$\left( \frac{mg}{\cos(\theta)} \right) \sin(\theta) = \frac{mv^2}{r}$$
+$$mg \tan(\theta) = \frac{mv^2}{r}$$
+Solving for $v$:
+$$v = \sqrt{rg \tan(\theta)}$$
+
+**4. Perform the Calculation:**
+Using $g = 9.8\text{ m/s}^2$:
+$$v = \sqrt{(0.317) \times (9.8) \times \tan(25^\circ)}$$
+$$v = \sqrt{0.317 \times 9.8 \times 0.4663}$$
+$$v = \sqrt{1.4485}$$
+$$v \approx 1.20\text{ m/s}$$
+
+The speed of the ball is approximately **$1.20\text{ m/s}$**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

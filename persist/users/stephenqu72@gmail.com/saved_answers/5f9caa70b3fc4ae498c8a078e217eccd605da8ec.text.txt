@@ -1,0 +1,28 @@
+### Answer
+
+**(a)** Kepler’s first law states that the orbits of planets (or moons) are ellipses with the central body at one of the two foci. Because the orbit is elliptical rather than perfectly circular, the distance between the moon and the planet varies as the moon moves along its orbital path.
+
+**(b)**
+**1. Find the orbital period ($T$):**
+Assuming a nearly circular approximation for the orbit (where $v = \frac{2\pi r}{T}$):
+$$T = \frac{2\pi r}{v}$$
+Given $r = 5.67 \times 10^8 \text{ m}$ and $v = 2.50 \text{ km s}^{-1} = 2500 \text{ m s}^{-1}$:
+$$T = \frac{2 \pi (5.67 \times 10^8)}{2500} \approx 1,424,763 \text{ s}$$
+
+**2. Find the mass of the planet ($M$):**
+Using the formula for orbital speed $v = \sqrt{\frac{GM}{r}}$:
+$$v^2 = \frac{GM}{r} \implies M = \frac{v^2 r}{G}$$
+Where $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$:
+$$M = \frac{(2500)^2 \times (5.67 \times 10^8)}{6.67 \times 10^{-11}}$$
+$$M \approx \frac{6,250,000 \times 5.67 \times 10^8}{6.67 \times 10^{-11}} \approx 5.31 \times 10^{25} \text{ kg}$$
+
+***
+
+### Explanation
+*   **Part (a):** This question tests your conceptual understanding of Kepler's laws. You must recall that the primary characteristic of an elliptical orbit is that the distance between the orbiting body and the focus is not constant.
+*   **Part (b):** This is a standard orbital mechanics calculation. 
+    *   First, we determine the period by relating speed, distance, and time ($v = \frac{d}{t}$). Since the moon travels the circumference of its orbit ($2\pi r$) in one period ($T$), we rearrange to solve for $T$.
+    *   Second, we relate the orbital speed to the central mass using the gravitational force acting as centripetal force ($F_g = F_c$), which simplifies to $v = \sqrt{\frac{GM}{r}}$. Solving for $M$ allows us to find the mass of the primary body. Always ensure your units are consistent (e.g., converting $\text{km/s}$ to $\text{m/s}$).
+
+###QUESTION_TYPE
+Calculation question

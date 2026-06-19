@@ -1,0 +1,36 @@
+To solve this problem, we use the principles of electrostatics and energy conservation.
+
+### Constants required:
+- Charge of a proton ($q$): $1.602 \times 10^{-19} \, \text{C}$
+- Mass of a proton ($m$): $1.673 \times 10^{-27} \, \text{kg}$
+
+---
+
+### (a) Calculate the work done on the proton by the electric field.
+
+**Explanation:** The work done by an electric field on a charged particle is given by $W = qV_{eff}$, where $V_{eff}$ is the potential difference the particle actually moves through. The total potential difference across the plates is $50 \, \text{V}$ over a distance of $12 \, \text{cm}$. The electric field strength is $E = \frac{V}{d} = \frac{50}{0.12} \approx 416.67 \, \text{V/m}$.
+The proton starts $8 \, \text{cm}$ from the bottom plate and moves towards the top negative plate. Wait—looking at the diagram, the proton is moving into the field and is deflected upwards towards the negative plate. It covers a vertical displacement of $\Delta y = 12 \, \text{cm} - 8 \, \text{cm} = 4 \, \text{cm} = 0.04 \, \text{m}$.
+The potential difference moved through is $V_{moved} = E \times \Delta y = \frac{50}{0.12} \times 0.04 = \frac{50}{3} \approx 16.67 \, \text{V}$.
+
+**Calculation:**
+$$W = q \times V_{moved} = (1.602 \times 10^{-19} \, \text{C}) \times (16.67 \, \text{V}) \approx 2.67 \times 10^{-18} \, \text{J}$$
+
+---
+
+### (b) Calculate the final velocity of the proton.
+
+**Explanation:** We use the Work-Energy Theorem: $W = \Delta K = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2$. 
+Rearranging for final velocity: $v_f = \sqrt{\frac{2W}{m} + v_i^2}$.
+
+**Calculation:**
+1. Initial kinetic energy ($K_i$):
+$$K_i = \frac{1}{2} m v_i^2 = 0.5 \times (1.673 \times 10^{-27}) \times (2 \times 10^4)^2 \approx 3.346 \times 10^{-19} \, \text{J}$$
+2. Final kinetic energy ($K_f$):
+$$K_f = K_i + W = 3.346 \times 10^{-19} + 2.67 \times 10^{-18} \approx 3.005 \times 10^{-18} \, \text{J}$$
+3. Final velocity ($v_f$):
+$$v_f = \sqrt{\frac{2 \times K_f}{m}} = \sqrt{\frac{2 \times 3.005 \times 10^{-18}}{1.673 \times 10^{-27}}} \approx \sqrt{3.59 \times 10^9} \approx 5.99 \times 10^4 \, \text{m/s}$$
+
+The final velocity of the proton is approximately $6.0 \times 10^4 \, \text{m/s}$.
+
+###QUESTION_TYPE
+Calculation question

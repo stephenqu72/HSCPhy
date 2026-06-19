@@ -1,0 +1,33 @@
+To solve this problem, we must analyze the forces acting on the electron within the velocity selector.
+
+### 1. Understanding the Physics
+For the electron to travel **undeflected**, the net force must be zero. This means the magnitude of the electric force ($F_E$) must equal the magnitude of the magnetic force ($F_B$):
+$$F_E = F_B$$
+Using the formulas for these forces:
+- Electric force: $F_E = qE = q \left( \frac{V}{d} \right)$
+- Magnetic force: $F_B = qvB$
+
+Equating them:
+$$q \left( \frac{V}{d} \right) = qvB \implies v = \frac{V}{Bd}$$
+
+### 2. Analyzing the Deflection at X
+In the diagram, the electron is deflected **downwards** toward point X. To deflect downwards, the **downward force must be greater than the upward force**. 
+- The electric field points from the positive plate to the negative plate (downward). Since the electron is negative, it experiences an **upward electric force** ($F_E = qE$).
+- Using the right-hand rule for the magnetic force ($F_B = qvB$): With velocity to the right and magnetic field into the page, a positive charge would experience an upward force. However, because the **electron is negative**, it experiences a **downward magnetic force**.
+
+For the electron to hit point X (downward deflection), the downward magnetic force must be greater than the upward electric force:
+$$qvB > q \left( \frac{V}{d} \right)$$
+$$vB > \frac{V}{d}$$
+
+### 3. Evaluating the Options
+We need an adjustment that makes the magnetic force stronger relative to the electric force ($vB > V/d$):
+
+*   **(A) Decrease $V$**: If $V$ decreases, the term $\frac{V}{d}$ decreases. This makes the electric force smaller. The magnetic force remains dominant, pulling the electron downward toward X. **This is correct.**
+*   **(B) Decrease $B$**: This decreases the magnetic force $qvB$, making the electron more likely to be pulled upward or remain undeflected.
+*   **(C) Decrease $v$**: This decreases the magnetic force $qvB$, reducing the downward pull.
+*   **(D) Decrease $d$**: Decreasing $d$ increases the electric field strength ($E = V/d$), which increases the upward electric force, pulling the electron away from X.
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

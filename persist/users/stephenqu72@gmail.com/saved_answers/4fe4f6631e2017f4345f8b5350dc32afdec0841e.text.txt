@@ -1,0 +1,37 @@
+To solve these projectile motion problems, we first define our initial components using $v = 110\text{ m/s}$ and $\theta = 55^\circ$:
+- $v_x = v \cos(55^\circ) = 110 \cos(55^\circ) \approx 63.09\text{ m/s}$
+- $v_{iy} = v \sin(55^\circ) = 110 \sin(55^\circ) \approx 90.11\text{ m/s}$
+
+---
+
+### (a) Initial vertical velocity
+Use the sine component of the initial velocity vector:
+$v_{iy} = 110 \sin(55^\circ) \approx 90.11\text{ m/s}$
+
+### (b) Maximum height above launch height
+At maximum height, the vertical velocity is zero ($v_{fy} = 0$). Using $v_{fy}^2 = v_{iy}^2 + 2a_y \Delta y$:
+$0 = (90.11)^2 + 2(-9.8)\Delta y$
+$\Delta y = \frac{-(90.11)^2}{-19.6} \approx 414.48\text{ m}$
+
+### (c) Time of flight
+The total displacement in the $y$-direction is $\Delta y = -51.5\text{ m}$ (since it falls from $50\text{ m} + 1.5\text{ m}$ to ground). Use $\Delta y = v_{iy}t + \frac{1}{2}a_y t^2$:
+$-51.5 = 90.11t - 4.9t^2$
+$4.9t^2 - 90.11t - 51.5 = 0$
+Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$t = \frac{90.11 \pm \sqrt{(-90.11)^2 - 4(4.9)(-51.5)}}{9.8} \approx \frac{90.11 \pm 95.53}{9.8}$
+Taking the positive result, $t \approx 18.94\text{ s}$
+
+### (d) Range
+Range is horizontal displacement: $R = v_x \times t$
+$R = 63.09 \times 18.94 \approx 1194.92\text{ m}$
+
+### (e) Angle at impact
+Final horizontal velocity $v_{fx} = 63.09\text{ m/s}$.
+Final vertical velocity $v_{fy} = v_{iy} + a_y t = 90.11 + (-9.8)(18.94) \approx -95.50\text{ m/s}$.
+The angle $\phi$ with the horizontal is $\tan^{-1}\left(\frac{|v_{fy}|}{v_{fx}}\right)$:
+$\phi = \tan^{-1}\left(\frac{95.50}{63.09}\right) \approx 56.55^\circ$ below the horizontal.
+
+---
+
+###QUESTION_TYPE
+Calculation question

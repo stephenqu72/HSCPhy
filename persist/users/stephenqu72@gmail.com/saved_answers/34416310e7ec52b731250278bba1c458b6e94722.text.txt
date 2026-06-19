@@ -1,0 +1,31 @@
+To find the magnitude of the magnetic force on the current-carrying wire, we use the formula:
+
+$$F = BIl \sin(\theta)$$
+
+Where:
+*   $F$ is the force in Newtons (N)
+*   $B = 1.2\text{ T}$ is the magnetic field strength
+*   $I = 2.5\text{ A}$ is the current
+*   $l$ is the length of the wire segment within the field
+*   $\theta$ is the angle between the wire and the magnetic field lines
+
+### Step-by-Step Solution:
+
+1.  **Calculate the length ($l$) of the wire:**
+    The wire forms the hypotenuse of a right-angled triangle with a horizontal base of $X = 0.3\text{ m}$ and a vertical height of $Y = 0.4\text{ m}$. Using the Pythagorean theorem:
+    $$l = \sqrt{X^2 + Y^2} = \sqrt{0.3^2 + 0.4^2} = \sqrt{0.09 + 0.16} = \sqrt{0.25} = 0.5\text{ m}$$
+
+2.  **Determine the angle ($\theta$):**
+    The magnetic field lines are horizontal. The angle $\theta$ is the angle between the wire and the horizontal. From our triangle, $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{Y}{l} = \frac{0.4}{0.5} = 0.8$.
+
+3.  **Calculate the force ($F$):**
+    Substitute the values into the force formula:
+    $$F = B \cdot I \cdot l \cdot \sin(\theta)$$
+    Since $l \sin(\theta)$ is exactly the vertical component $Y$ (because the magnetic field is horizontal), this simplifies to $F = B \cdot I \cdot Y$:
+    $$F = 1.2 \cdot 2.5 \cdot 0.4$$
+    $$F = 1.2 \cdot 1.0 = 1.2\text{ N}$$
+
+Comparing this result to the given options, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

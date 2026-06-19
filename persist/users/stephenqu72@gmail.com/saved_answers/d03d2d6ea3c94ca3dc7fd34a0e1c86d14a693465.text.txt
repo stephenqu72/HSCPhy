@@ -1,0 +1,35 @@
+To determine the magnitude of the torque on the coil due to the magnetic field, we must first recognize that the system is in static equilibrium. 
+
+### Step 1: Identify the forces providing torque
+The system consists of a coil pivoted at the center. Two torques are acting on this system, keeping it stationary:
+1. **Clockwise Torque ($\tau_g$):** Provided by the gravitational force acting on the $2.5\text{ kg}$ mass.
+2. **Counter-clockwise Torque ($\tau_B$):** Provided by the magnetic force acting on the coil.
+
+For the coil to be stationary, the sum of torques about the pivot must be zero:
+$$\sum \tau = 0 \implies \tau_B = \tau_g$$
+
+### Step 2: Calculate the gravitational torque ($\tau_g$)
+The mass is $m = 2.5\text{ kg}$. The force of gravity is $F_g = mg = 2.5 \times 9.8 = 24.5\text{ N}$.
+This force acts at the end of the coil. The distance from the pivot to the mass is half the width of the coil, $r = \frac{0.30\text{ m}}{2} = 0.15\text{ m}$.
+The angle between the coil and the vertical is $50^\circ$. Therefore, the perpendicular distance (lever arm) is $d_\perp = r \cos(50^\circ)$.
+
+$$\tau_g = F_g \times r \cos(50^\circ)$$
+$$\tau_g = 24.5 \times 0.15 \times \cos(50^\circ)$$
+$$\tau_g \approx 3.675 \times 0.6428 \approx 2.36\text{ N m}$$
+
+Wait—let's re-examine the geometry. The weight acts at the end of the arm. The horizontal distance from the pivot to the line of action of the weight is $r \sin(50^\circ)$ if the coil is at $50^\circ$ to the horizontal. Looking at the diagram, the coil is at $50^\circ$ to the horizontal, so the horizontal displacement from the pivot is $0.15 \cos(50^\circ)$. Thus, $\tau_g = 24.5 \times 0.15 \cos(50^\circ) \approx 2.36\text{ N m}$.
+
+Checking the options, $2.4\text{ N m}$ is the closest value. 
+
+*Self-Correction/Verification:* If we use $g = 10\text{ m/s}^2$:
+$$\tau_g = (2.5 \times 10) \times 0.15 \times \cos(50^\circ) = 3.75 \times 0.6428 = 2.41\text{ N m}$$
+
+This matches option (A).
+
+### Answer
+The magnitude of the torque on the coil due to the magnetic field is equal to the gravitational torque, which is approximately **$2.4\text{ N m}$**. 
+
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

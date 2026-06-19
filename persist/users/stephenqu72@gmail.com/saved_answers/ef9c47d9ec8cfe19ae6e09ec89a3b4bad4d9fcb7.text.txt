@@ -1,0 +1,26 @@
+To solve this problem, we must apply the principles of circular motion in a magnetic field. When a charged particle enters a perpendicular magnetic field, the magnetic force acts as the centripetal force:
+
+$$F_B = F_c \implies qvB = \frac{mv^2}{r}$$
+
+Rearranging for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+### (a) What must be different about particles A and B? Justify your answer.
+
+**Answer:** The **sign of their charge** must be different.
+
+**Justification:** According to the right-hand rule (or Fleming's Left-Hand Rule for negative charges), the direction of the magnetic force depends on the sign of the charge $q$. Particle $A$ is deflected downwards, while particle $B$ is deflected upwards. Since both particles enter the same $B$-field with the same initial velocity vector, they must have opposite charges (e.g., one is positive and one is negative) to experience forces in opposite directions.
+
+### (b) What might be different about particles A and B? Justify your answer.
+
+**Answer:** Their **momentum ($mv$)** might be different.
+
+**Justification:** Looking at the formula for the radius of the circular path, $r = \frac{mv}{qB}$:
+1. Since the particles follow paths with different radii ($r_A \neq r_B$), at least one of the variables in the numerator ($m$ or $v$) or the denominator ($q$) must be different.
+2. Even if they had the same charge magnitude ($q$), a difference in their mass ($m$) or their initial velocity ($v$) would result in a different momentum ($p = mv$).
+3. A higher momentum results in a larger radius of curvature because the particle is harder to deflect from its straight-line path. Therefore, given the visible difference in curvature, it is highly probable that their masses or velocities (and thus their momenta) differ.
+
+***
+
+###QUESTION_TYPE
+Short answer

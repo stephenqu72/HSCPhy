@@ -1,0 +1,40 @@
+Hello! As your HSC physics teacher, I'm happy to walk you through this fundamental concept in astrophysics and gravitation.
+
+### **The Answer**
+
+The correct answer is **A**.
+
+---
+
+### **The Explanation**
+
+To solve this question, you don't need complex calculations; instead, you need to understand the mathematical relationship that defines gravitational potential energy ($U$).
+
+#### **1. Recall the Formula**
+In physics, the formula for the gravitational potential energy between two masses, $M$ and $m$, separated by a distance $r$, is:
+$$U(r) = -\frac{G M m}{r}$$
+Where $G$ is the universal gravitational constant.
+
+#### **2. Analyze the Mathematical Behavior**
+To pick the correct graph, we must look at how $U$ changes as the distance $r$ changes. We should examine two critical limits:
+
+*   **Limit 1: As distance becomes infinite ($r \to \infty$)**
+    As you move an object further and further away from the source of gravity, the denominator $r$ becomes extremely large, which causes the entire fraction $\frac{G M m}{r}$ to approach zero. Therefore:
+    $$\text{As } r \to \infty, U \to 0$$
+    This tells us that the graph must approach the $r$-axis (the horizontal axis) as we move towards the right.
+
+*   **Limit 2: As distance approaches zero ($r \to 0$)**
+    As the object gets very close to the source of gravity, the denominator $r$ becomes extremely small, which causes the magnitude of the fraction to become extremely large. Because of the negative sign in the formula, the value becomes more and more "large negative."
+    $$\text{As } r \to 0, U \to -\infty$$
+    This tells us that as we move towards the left (smaller $r$), the graph should dive steeply downwards into very large negative values.
+
+#### **3. Evaluating the Options**
+*   **Graph A:** This graph starts from a very low (negative) value and curves upwards, asymptotically approaching zero as $r$ increases. This perfectly matches our mathematical analysis of the function $U(r) = -\frac{G M m}{r}$.
+*   **Graph B:** This shows a linear increase starting from a positive value. This does not represent the inverse relationship with $r$.
+*   **Graph C:** This shows a linear decrease starting from zero. Gravity is an attractive force, and potential energy should approach zero from below, not start at zero and decrease linearly.
+*   **Graph D:** This shows a linear increase starting from zero. Again, this fails to account for the inverse $r$ relationship or the negative nature of gravitational potential energy in a bound system.
+
+**Conclusion:** Only **Graph A** captures both the asymptotic approach to zero at infinity and the steep descent toward negative infinity as we approach the source mass.
+
+###QUESTION_TYPE
+Multiple choice

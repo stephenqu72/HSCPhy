@@ -1,0 +1,33 @@
+To find the acceleration of the proton as it enters the magnetic field, we use the principles of electromagnetism and Newton's Second Law.
+
+### 1. Identify the given values
+*   Charge of a proton ($q$): $1.602 \times 10^{-19}\text{ C}$
+*   Velocity of the proton ($v$): $1200\text{ m s}^{-1}$
+*   Magnetic field strength ($B$): $3.00\text{ T}$
+*   Mass of a proton ($m$): $1.673 \times 10^{-27}\text{ kg}$
+
+### 2. Calculate the Magnetic Force
+The magnitude of the magnetic force ($F_B$) on a moving charge is given by:
+$$F_B = qvB\sin(\theta)$$
+Since the proton enters perpendicular to the field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+$$F_B = (1.602 \times 10^{-19}\text{ C}) \times (1200\text{ m s}^{-1}) \times (3.00\text{ T})$$
+$$F_B = 5.7672 \times 10^{-16}\text{ N}$$
+
+### 3. Calculate the Acceleration
+Using Newton's Second Law, $F = ma$, we rearrange for acceleration ($a$):
+$$a = \frac{F}{m}$$
+$$a = \frac{5.7672 \times 10^{-16}\text{ N}}{1.673 \times 10^{-27}\text{ kg}}$$
+$$a \approx 3.447 \times 10^{11}\text{ m s}^{-2}$$
+Rounding to three significant figures, we get $3.45 \times 10^{11}\text{ m s}^{-2}$.
+
+### 4. Determine Direction
+Using the Right-Hand Rule:
+*   Point your fingers in the direction of velocity (up the page).
+*   Curl your fingers in the direction of the magnetic field (out of the page).
+*   Your thumb points to the **left**.
+Since the force acts to the left, the acceleration is directed to the **left**.
+
+The correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+### Answer and Explanation
+
+#### Part (a)
+**Calculation:**
+For a vehicle on a banked track moving at the design speed, the centripetal force ($F_c$) is provided by the horizontal component of the normal force ($N$). The vertical component of the normal force balances gravity ($mg$).
+The relevant physics relationships are:
+1. $F_c = N \sin\theta$
+2. $mg = N \cos\theta$
+
+Dividing the first equation by the second gives:
+$$\tan\theta = \frac{F_c}{mg}$$
+Rearranging for mass ($m$):
+$$m = \frac{F_c}{g \tan\theta}$$
+
+Given:
+- $F_c = 3040 \text{ N}$
+- $g \approx 9.8 \text{ m/s}^2$
+- $\theta = 15^\circ$
+
+$$m = \frac{3040}{9.8 \times \tan(15^\circ)}$$
+$$m = \frac{3040}{9.8 \times 0.2679} \approx \frac{3040}{2.6258} \approx 1157.7 \text{ kg}$$
+Rounding to significant figures (based on the input $20.0$ and $3040$), the mass is approximately **$1160 \text{ kg}$**.
+
+---
+
+#### Part (b)
+**Explanation:**
+When a car travels at the "design speed," the horizontal component of the normal force provides exactly the required centripetal force for circular motion at that radius.
+
+*   **If the car goes faster:** The required centripetal force ($F_c = \frac{mv^2}{r}$) increases. Since the normal force and the angle of the track remain constant, the horizontal component of the normal force is no longer sufficient to provide the necessary centripetal force. Without friction to provide additional inward force, the car will move outwards up the bank.
+*   **If the car goes slower:** The required centripetal force decreases. The horizontal component of the normal force becomes too large, exceeding the requirements for circular motion at that speed. The car will "slip" downwards towards the inside of the track due to the unbalanced horizontal component of the normal force pulling it toward the center.
+
+###QUESTION_TYPE
+Calculation question

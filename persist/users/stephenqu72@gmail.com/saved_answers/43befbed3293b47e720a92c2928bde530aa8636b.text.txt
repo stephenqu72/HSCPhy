@@ -1,0 +1,28 @@
+To determine the correct graph, we need to analyze the relationship between gravitational potential energy ($U$) and time ($t$) for a projectile.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the governing formula:**
+    The gravitational potential energy of an object is given by:
+    $$U = mgh$$
+    where $m$ is the mass, $g$ is the acceleration due to gravity, and $h$ is the vertical displacement.
+
+2.  **Determine the height over time:**
+    For a projectile launched at an angle, the vertical displacement $h$ as a function of time is given by the kinematic equation:
+    $$h(t) = v_{0y}t - \frac{1}{2}gt^2$$
+    This is a **downward-opening parabola** because of the $-t^2$ term. Since $U$ is directly proportional to $h$ ($U \propto h$), the graph of $U$ vs $t$ must also be a downward-opening parabola.
+
+3.  **Analyze the initial and final conditions:**
+    *   **Start ($t=0$):** At the point of release, the ball is at a certain height (we can define this as $h=0$ for simplicity, so $U=0$).
+    *   **Peak ($t_{peak}$):** The height increases, reaches a maximum, and then decreases. Thus, $U$ must increase, reach a maximum, and then decrease.
+    *   **End ($t_{total}$):** The ball lands at the same height it was thrown, so the potential energy must return to its starting value.
+
+4.  **Evaluate the options:**
+    *   Graphs (C) and (D) show $U$ on the negative y-axis, which is physically unconventional for standard $U = mgh$ calculations.
+    *   Graph (B) shows a "u-shape" (a concave up parabola), which implies the energy decreases then increases, which is the opposite of the projectile's motion.
+    *   **Graph (A)** shows a concave down parabola starting from a specific energy level, rising to a maximum at the apex of the flight, and returning to the initial energy level at the end. This matches the parabolic nature of the height function $h(t)$.
+
+**Conclusion:** Graph (A) is the only one that correctly represents the parabolic trajectory of the ball's potential energy over time.
+
+###QUESTION_TYPE
+Multiple choice

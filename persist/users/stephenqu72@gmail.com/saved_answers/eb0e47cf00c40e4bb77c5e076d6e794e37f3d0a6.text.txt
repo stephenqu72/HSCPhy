@@ -1,0 +1,18 @@
+### Answer
+The correct option is **D**.
+
+### Explanation
+To understand why, we look at the physics of a charged particle moving through a uniform magnetic field:
+
+1.  **Magnetic Force:** When a charged particle moves through a magnetic field, it experiences a magnetic force given by the Lorentz force law formula:
+    $$F = qvB \sin(\theta)$$
+    Where $q$ is the charge, $v$ is the velocity, $B$ is the magnetic field strength, and $\theta$ is the angle between the velocity vector and the magnetic field. Since the problem states the positron enters the field perpendicular to its direction of travel, the force is at its maximum.
+
+2.  **Effect on Speed:** The magnetic force exerted on a moving charged particle is always **perpendicular** to the particle's velocity vector ($v$). Because the force is always perpendicular to the direction of motion, it does no work on the particle ($W = F \cdot d \cos(90^{\circ}) = 0$). By the Work-Energy Theorem, since no work is done, the kinetic energy of the positron remains constant, meaning its **speed remains the same**.
+
+3.  **Effect on Direction:** Because there is a constant force acting perpendicular to the direction of motion, this force acts as a centripetal force. A centripetal force causes the particle to change its direction of travel, resulting in a circular path. Therefore, the **direction changes**.
+
+Combining these two points, the speed remains constant and the direction changes, which corresponds to option **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we use the principles of orbital mechanics. You will need standard physics constants:
+- Mass of Earth ($M$): $5.97 \times 10^{24}\text{ kg}$
+- Radius of Earth ($R_E$): $6.37 \times 10^6\text{ m}$
+- Gravitational constant ($G$): $6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+
+### (a) Orbital Velocity
+The orbital velocity is given by $v = \sqrt{\frac{GM}{r}}$, where $r = R_E + h$.
+$r = 6.37 \times 10^6 + 0.35 \times 10^6 = 6.72 \times 10^6\text{ m}$.
+$$v = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.72 \times 10^6}} \approx 7692\text{ m/s} \text{ (or } 7.69\text{ km/s)}$$
+
+### (b) Use of LEO Satellite
+LEO satellites are commonly used for **Earth observation** (e.g., weather monitoring, spy satellites, or imaging) because they are close to the surface, allowing for higher resolution imagery.
+
+### (c) Work Required
+Work done is the change in Total Mechanical Energy: $W = E_{final} - E_{initial}$.
+Total energy is $E = -\frac{GMm}{2r}$.
+1. **Initial state:** $r_1 = 6.72 \times 10^6\text{ m}$.
+$$E_1 = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 1250}{2 \times 6.72 \times 10^6} \approx -3.705 \times 10^{10}\text{ J}$$
+2. **Final state (MEO):** Use Kepler's Third Law to find $r_2$: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$.
+$T = 12 \text{ hours} = 43200\text{ s}$.
+$$r_2 = \sqrt[3]{\frac{GM T^2}{4\pi^2}} = \sqrt[3]{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times (43200)^2}{4\pi^2}} \approx 2.66 \times 10^7\text{ m}$$
+$$E_2 = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 1250}{2 \times 2.66 \times 10^7} \approx -9.363 \times 10^9\text{ J}$$
+3. **Work Done:**
+$$W = (-9.363 \times 10^9) - (-3.705 \times 10^{10}) \approx 2.77 \times 10^{10}\text{ J}$$
+
+### Explanation
+To solve part (a), recognize that gravitational force provides the centripetal force. For (c), you must calculate the total energy at both orbits using the formula $E = -\frac{GMm}{2r}$. Because the final orbit is higher, you need to find the new radius using the orbital period provided in Kepler's Third Law before calculating the energy difference.
+
+###QUESTION_TYPE
+Calculation question

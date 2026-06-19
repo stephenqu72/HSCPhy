@@ -1,0 +1,28 @@
+To solve this problem, we apply the principles of Conservation of Mechanical Energy and Circular Motion.
+
+### a. Speed at Point B
+Since there is negligible friction, the total mechanical energy is conserved: $E_A = E_B$.
+At $A$, $PE = mgh$ and $KE = 0$. At $B$, $PE = 0$ and $KE = \frac{1}{2}mv^2$.
+$$mgh = \frac{1}{2}mv^2 \implies v = \sqrt{2gh}$$
+Using $g = 9.8 \text{ m/s}^2$ and $h = 15 \text{ m}$:
+$$v = \sqrt{2 \times 9.8 \times 15} = \sqrt{294} \approx 17.15 \text{ m/s}$$
+
+### b. Condition for contact at C
+At the top of the loop (point C), the forces acting on the car are gravity ($mg$) and the normal force ($F_N$) from the track, both acting downwards. These provide the centripetal force:
+$$\Sigma F_c = mg + F_N = \frac{mv^2}{r}$$
+For the car to "just" remain in contact, the normal force $F_N$ must be zero ($F_N \to 0$):
+$$mg = \frac{mv^2}{r} \implies g = \frac{v^2}{r} \implies \frac{v^2}{r} = g$$
+
+### c. Maximum height of the loop (X)
+The height of the loop $X = 2r$. From part (b), $v_C^2 = rg$. 
+By conservation of energy from A to C:
+$$mgh_A = mgh_C + \frac{1}{2}mv_C^2$$
+$$gh_A = g(2r) + \frac{1}{2}(rg) \implies h_A = 2r + 0.5r = 2.5r$$
+$$15 = 2.5r \implies r = 6 \text{ m}$$
+Since $X = 2r$, then $X = 2 \times 6 = 12 \text{ m}$.
+
+### d. Impact of friction
+If friction is taken into account, energy is dissipated as heat. The kinetic energy at point C will be lower than in the ideal case. To maintain the condition $v^2 = rg$ at the top with less energy, the potential energy required at the top must be lower. Therefore, the radius of the loop $r$ must be **decreased** to ensure the car still has enough speed to complete the loop.
+
+###QUESTION_TYPE
+Calculation question

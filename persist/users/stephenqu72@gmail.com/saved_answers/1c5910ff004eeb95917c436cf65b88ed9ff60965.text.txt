@@ -1,0 +1,28 @@
+To solve this problem, we must first determine the banking angle ($\theta$) of the curve using the design speed and then use that angle to calculate the maximum speed with friction.
+
+### Step 1: Find the banking angle ($\theta$)
+For a banked curve designed for a specific speed $v_{design}$ where friction is not required, the angle is given by:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+Convert $80\text{ km h}^{-1}$ to m/s: $v = \frac{80}{3.6} \approx 22.22\text{ m/s}$.
+Using $g = 9.8\text{ m/s}^2$ and $r = 202\text{ m}$:
+$$\tan(\theta) = \frac{(22.22)^2}{202 \times 9.8} \approx \frac{493.8}{1979.6} \approx 0.2494$$
+$$\theta = \tan^{-1}(0.2494) \approx 14.01^\circ$$
+
+### Step 2: Calculate the maximum speed ($v_{max}$) with friction
+When a car is on the verge of sliding up the bank, both the horizontal component of the normal force and the horizontal component of the maximum static friction ($\mu N$) provide the centripetal force. The formula for the maximum speed on a banked curve is:
+$$v_{max} = \sqrt{rg \left( \frac{\tan(\theta) + \mu}{1 - \mu \tan(\theta)} \right)}$$
+Given $\mu = 0.8$ and $\tan(\theta) = 0.2494$:
+$$v_{max} = \sqrt{202 \times 9.8 \left( \frac{0.2494 + 0.8}{1 - (0.8 \times 0.2494)} \right)}$$
+$$v_{max} = \sqrt{1979.6 \left( \frac{1.0494}{1 - 0.1995} \right)}$$
+$$v_{max} = \sqrt{1979.6 \times \frac{1.0494}{0.8005}} \approx \sqrt{1979.6 \times 1.3109}$$
+$$v_{max} \approx \sqrt{2595.05} \approx 50.94\text{ m/s}$$
+
+### Final Answer
+To convert back to $\text{km h}^{-1}$:
+$$50.94 \times 3.6 \approx 183.4\text{ km h}^{-1}$$
+The maximum speed the car can take is approximately **$183.4\text{ km h}^{-1}$**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

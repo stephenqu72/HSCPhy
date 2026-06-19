@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### (a) Motion and Trajectory
+**Description:** The particle will undergo **helical motion** (a spiral path) along the direction of the magnetic field lines.
+**Justification:**
+1.  **Velocity Components:** The initial velocity $u$ can be resolved into two components: $v_{\parallel} = u \cos \alpha$ (parallel to the magnetic field) and $v_{\perp} = u \sin \alpha$ (perpendicular to the magnetic field).
+2.  **Parallel Motion:** Since there is no magnetic force component acting parallel to the field ($F = qvB\sin\theta$, where $\theta=0$ for the parallel component), the particle continues to move forward at a constant velocity $v_{\parallel}$.
+3.  **Perpendicular Motion:** The perpendicular component $v_{\perp}$ experiences a magnetic force $F_B = qv_{\perp}B$ acting at right angles to both the velocity and the field. This force provides the centripetal force necessary for circular motion.
+4.  **Result:** The combination of constant linear motion along the field lines and uniform circular motion perpendicular to the field lines creates a helical trajectory.
+
+#### (b) Calculation of Radius
+The radius $r$ of the circular path is determined by the perpendicular component of velocity, $v_{\perp} = u \sin \alpha$.
+The magnetic force acts as the centripetal force:
+$$qv_{\perp}B = \frac{mv_{\perp}^2}{r} \implies r = \frac{mv_{\perp}}{qB} = \frac{m(u \sin \alpha)}{qB}$$
+Using the mass of an antiproton ($m \approx 1.67 \times 10^{-27}\text{ kg}$) and charge ($q = 1.60 \times 10^{-19}\text{ C}$):
+$$r = \frac{(1.67 \times 10^{-27}) \times (2.0 \times 10^6 \times \sin 40^\circ)}{1.60 \times 10^{-19} \times 0.060}$$
+$$r \approx \frac{2.148 \times 10^{-21}}{9.6 \times 10^{-21}} \approx 0.2238\text{ m} \approx 0.22\text{ m}$$
+
+#### (c) Calculation of Pitch
+The pitch $p$ is the distance traveled parallel to the field in one period $T$.
+$$p = v_{\parallel} \times T$$
+The period of circular motion is $T = \frac{2\pi m}{qB}$.
+$$T = \frac{2 \times \pi \times 1.67 \times 10^{-27}}{1.60 \times 10^{-19} \times 0.060} \approx 1.096 \times 10^{-7}\text{ s}$$
+Parallel velocity $v_{\parallel} = u \cos \alpha = 2.0 \times 10^6 \times \cos 40^\circ \approx 1.532 \times 10^6\text{ m/s}$.
+$$p = (1.532 \times 10^6) \times (1.096 \times 10^{-7}) \approx 0.168\text{ m} \approx 0.17\text{ m}$$
+
+###QUESTION_TYPE
+Calculation question

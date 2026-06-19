@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation:** 
+When water is projected horizontally at a speed $v$, it undergoes projectile motion. The time taken to reach the floor is determined by the vertical height $h$ and the acceleration due to gravity $g$, according to the equation $h = \frac{1}{2}gt^2$. Since $h$ and $g$ are constants, the time of flight $t = \sqrt{\frac{2h}{g}}$ is constant. 
+
+The horizontal distance traveled by a water droplet (the radius $r = \frac{d}{2}$) is given by $r = v \times t$. Since $t$ is constant, the radius is directly proportional to the horizontal velocity ($r \propto v$). Therefore, if the speed of the water increases, the radius increases, and consequently, the diameter $d$ of the spray pattern increases linearly with the speed.
+
+#### Part (b)
+**Calculation:**
+1. **Identify the geometry:** The radius of the spray pattern is $r = \frac{d}{2} = \frac{4.0\text{ m}}{2} = 2.0\text{ m}$. The height is $h = 3.0\text{ m}$.
+2. **Understand the angles:** The spray angle is the total angle of the cone of water. If we consider the right-angled triangle formed by the height ($h$), the radius ($r$), and the hypotenuse (the path of the spray), the angle $\theta$ from the vertical (the central axis) can be found using trigonometry:
+   $$\tan(\theta) = \frac{r}{h} = \frac{2.0}{3.0} = \frac{2}{3}$$
+3. **Calculate the angle:**
+   $$\theta = \arctan\left(\frac{2}{3}\right) \approx 33.69^\circ$$
+4. **Determine the total spray angle:** The total spray angle is the full angle at the vertex of the cone, which is $2\theta$:
+   $$\text{Spray Angle} = 2 \times 33.69^\circ = 67.38^\circ$$
+
+**Final Answer:** The spray angle is approximately $67.4^\circ$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+To determine which quantity is equal to the gradient of the line, we use the physics formula for the magnetic force $F$ acting on a current-carrying wire of length $L$ placed in a uniform magnetic field $B$:
+
+$$F = BIL \sin(\theta)$$
+
+Assuming the wire is placed perpendicular to the magnetic field (which is standard for these types of questions unless otherwise stated), $\sin(90^\circ) = 1$, simplifying the equation to:
+
+$$F = (BL) \times I$$
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Equation:** Compare the formula $F = (BL) \times I$ to the linear equation $y = mx + c$.
+    *   The variable plotted on the $y$-axis is Force ($F$).
+    *   The variable plotted on the $x$-axis is Current ($I$).
+    *   Since the graph passes through the origin, the intercept $c = 0$.
+2.  **Identify the Gradient:** In the linear relationship $F = (BL)I$, the gradient $m$ is the coefficient of $I$. 
+    *   Therefore, $m = B \times L$.
+3.  **Conclusion:** The gradient of the graph represents the product of the magnetic field strength $B$ and the length of the wire $L$.
+
+Looking at the options provided:
+*   A is incorrect because the gradient involves $B$.
+*   B is incorrect because the gradient involves $L$.
+*   **C is correct** because it states the product of magnetic field strength $B$ and length $L$.
+*   D is incorrect as resistance is not involved in the magnetic force equation.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

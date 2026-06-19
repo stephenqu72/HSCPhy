@@ -1,0 +1,25 @@
+To determine the correct statement, we must apply the magnetic force formula for a current-carrying wire:
+$$F = BIL \sin(\theta)$$
+where $B$ is the magnetic field strength, $I$ is the current, $L$ is the length of the conductor, and $\theta$ is the angle between the conductor and the magnetic field lines.
+
+### Analysis of Rod $P$ (Diagram $X$):
+*   The magnetic field $B$ is directed out of the page (perpendicular to the horizontal plane of rotation).
+*   The current $I$ flows along the rod.
+*   Because the rod is rotating in a horizontal plane and the field is vertical, the rod is **always at $90^\circ$** to the magnetic field lines regardless of its position.
+*   Since $\theta = 90^\circ$, $\sin(90^\circ) = 1$. The force magnitude is $F = BIL$.
+*   Since $B, I,$ and $L$ are constant, the **magnitude of the force on $P$ is constant.**
+
+### Analysis of Rod $Q$ (Diagram $Y$):
+*   The magnetic field $B$ is uniform and oriented vertically in the plane.
+*   The rod rotates, meaning its orientation relative to the field lines changes continuously.
+*   Let $\phi$ be the angle between the rod and the magnetic field lines. As the rod rotates, the angle $\phi$ changes over time.
+*   The force magnitude is given by $F = BIL \sin(\phi)$.
+*   Because $\sin(\phi)$ changes as the rod sweeps through the circle, the **magnitude of the force on $Q$ varies continually.**
+
+### Conclusion:
+Comparing our findings, the magnitude of the force on $P$ is constant, and the magnitude of the force on $Q$ varies continually as the rod's angle relative to the field lines changes.
+
+The correct statement is **B**.
+
+###QUESTION_TYPE
+Multiple choice

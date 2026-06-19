@@ -1,0 +1,22 @@
+To answer this question effectively, you must link the mechanical principle of force interaction (Newton’s Third Law) to the electromagnetic force between parallel current-carrying conductors.
+
+### Answer
+The SI definition of the ampere is fundamentally based on the magnetic force of attraction or repulsion between two infinitely long, parallel wires carrying a current. Newton’s Third Law of Motion states that for every action, there is an equal and opposite reaction. 
+
+When two parallel wires carry currents $I_1$ and $I_2$, each wire produces a magnetic field that exerts a force on the other. According to Ampere’s Force Law, the force per unit length $f$ exerted on the wires is given by:
+$$f = \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+where $d$ is the separation distance. Because the force exerted by wire 1 on wire 2 is equal in magnitude and opposite in direction to the force exerted by wire 2 on wire 1, this interaction is a direct application of Newton’s Third Law. The definition of the ampere relies on this mutual, reciprocal interaction to provide a standard measure of electric current that is consistent with the conservation of momentum in physical systems.
+
+---
+
+### How to solve this question
+1.  **Identify the Core Concepts:** You need to explicitly define Newton’s Third Law (action-reaction pairs) and explain the SI definition of the ampere (force between two parallel wires).
+2.  **Make the Connection:** Explain that the magnetic force is a "mutual" force. If wire A pushes wire B, wire B must push wire A with an identical force in the opposite direction.
+3.  **Use Physics Terminology:** Ensure you mention that these forces are equal in magnitude and opposite in direction, satisfying the requirements for a Newton’s Third Law pair.
+4.  **Structure for Marks:** 
+    *   **1 mark:** Define Newton’s Third Law.
+    *   **1 mark:** Explain the force between parallel conductors ($f \propto I_1 I_2$).
+    *   **2 marks:** Explicitly link the two, noting that the magnetic force between the conductors acts as an action-reaction pair, ensuring that the defined unit (the ampere) is physically consistent with mechanical laws.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,19 @@
+Hello! As an HSC physics teacher, I am happy to help you work through this concept.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To produce "artificial gravity" in a space environment, we rely on the principle of **centripetal acceleration**. When an object moves in a circular path, it experiences a centripetal force directed toward the center of rotation. According to Newton’s First Law, an object inside that rotating system will experience an "inertial force" (often called centrifugal force) pushing it away from the center toward the outer wall.
+
+1.  **Why (B) is correct:** By rotating the space station at a constant rate, the outer hull of the station exerts a normal force on the occupants to keep them moving in a circle. This normal force acts effectively like weight, providing the feeling of gravity. The magnitude of this artificial gravity $g$ is given by the formula:
+    $$g = \frac{v^2}{r} = \omega^2 r$$
+    where $v$ is the tangential velocity, $\omega$ is the angular velocity, and $r$ is the radius of rotation.
+
+2.  **Why the others are incorrect:**
+    *   **(A)** Rotating around the Earth at a specific speed describes an orbit, which is a state of free-fall (weightlessness), not artificial gravity.
+    *   **(C)** Having a massive center of mass (half the mass of Earth) would create a massive gravitational field, but this is physically impractical for a space station and does not represent the standard method of *producing* artificial gravity.
+    *   **(D)** Miniature moon-like structures would introduce complex, non-uniform gravitational pulls and would not produce the consistent, predictable force required for a stable living environment.
+
+###QUESTION_TYPE
+Multiple choice

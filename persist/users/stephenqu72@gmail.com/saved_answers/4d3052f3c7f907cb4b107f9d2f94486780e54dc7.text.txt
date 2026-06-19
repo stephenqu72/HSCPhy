@@ -1,0 +1,72 @@
+Hello there! As your HSC teacher, I will guide you through this physics problem step-by-step. This question tests your understanding of gravitational fields, energy conservation, and algebraic derivation—all fundamental topics in Newtonian mechanics.
+
+Below is the full solution followed by an explanation of the logic required to master these types of questions.
+
+***
+
+### **The Solution**
+
+#### **Part (a)**
+Gravitational potential energy ($U$) is defined as the work done by an external agent to move a mass from infinity to a specific point in a gravitational field. By convention, we set the reference point for zero potential energy at an infinite distance from the mass ($r = \text{infinity}$), where the gravitational field strength is zero. Since gravity is an **attractive force**, as an object moves from infinity toward a planet, gravity does positive work on the object, causing its potential energy to decrease from zero to a value less than zero. Therefore, $U$ is negative for all finite distances.
+
+#### **Part (b)**
+To derive the escape velocity ($v_{esc}$), we use the principle of **Conservation of Mechanical Energy**:
+$$E_{\text{initial}} = E_{\text{final}}$$
+
+At the Earth's surface (initial state):
+*   Kinetic energy, $K_i = \frac{1}{2}mv^2$
+*   Gravitational potential energy, $U_i = -\frac{GMm}{R}$
+(where $M$ is the mass of the planet, $m$ is the mass of the projectile, and $R$ is the planet's radius).
+
+At an infinite distance (final state), the problem states the kinetic energy is zero:
+*   Kinetic energy, $K_f = 0$
+*   Gravitational potential energy, $U_f = 0$ (by definition of our reference point)
+
+Applying conservation of energy:
+$$\frac{1}{2}mv_{esc}^2 + \left( -\frac{GMm}{R} \right) = 0 + 0$$
+
+Rearranging to solve for $v_{esc}$:
+$$\frac{1}{2}mv_{esc}^2 = \frac{GMm}{R}$$
+
+The mass of the projectile ($m$) cancels out from both sides:
+$$\frac{1}{2}v_{esc}^2 = \frac{GM}{R}$$
+$$v_{esc}^2 = \frac{2GM}{R}$$
+$$v_{esc} = \sqrt{\frac{2GM}{R}}$$
+
+#### **Part (c)**
+To calculate the escape velocity for Earth, we use:
+*   $G = 6.674 \times 10^{-11} \, \text{m}^3\text{kg}^{-1}\text{s}^{-2}$
+*   $M_{\text{Earth}} \approx 5.97 \times 10^{24} \, \text{kg}$
+*   $R_{\text{Earth}} \approx 6.37 \times 10^6 \, \text{m}$
+
+$$v_{esc} = \sqrt{\frac{2 \cdot (6.674 \times 10^{-11}) \cdot (5.97 \times 10^{24})}{6.37 \times 10^6}}$$
+$$v_{esc} \approx \sqrt{\frac{7.968 \times 10^{14}}{6.37 \times 10^6}}$$
+$$v_{esc} \approx \sqrt{1.25 \times 10^8}$$
+$$v_{esc} \approx 11,180 \, \text{m/s} \text{ (or approximately } 11.2 \, \text{km/s)}$$
+
+***
+
+### **Teacher's Explanation: How to Solve This**
+
+When tackling physics problems in your HSC exams, follow this mental framework:
+
+**1. For "Explain" questions (Part a):**
+Don't just state the fact; explain the *reasoning*. In physics, an explanation usually requires identifying a **reference point** and describing the **work done** or the **direction of force**. 
+*   *Step 1:* Identify the zero-point ($r = \infty$).
+*   *Step 2:* Identify the nature of the force (attractive).
+*   *Step 3:* Describe what happens to energy as distance decreases. This "cause and effect" chain is what earns you all 3 marks.
+
+**2. For "Derive" questions (Part b):**
+A derivation is a logical sequence of mathematical steps.
+*   *Step 1: State your starting principle.* Always write "By the principle of conservation of energy..." This tells the marker you know exactly which law applies.
+*   *Step 2: Define your boundary conditions.* Explicitly state what $K$ and $U$ are at the start (surface) and at the end (infinity).
+*   *Step 3: Algebra.* Substitute your expressions into the conservation equation and manipulate them until you isolate the variable requested ($v_{esc}$). Note how the mass of the object $m$ disappears—this is a key physical insight!
+
+**3. For "Calculate" questions (Part c):**
+This is about precision and unit management.
+*   *Step 1: List your knowns.* Write down $G$, $M$, and $R$ with their standard SI units.
+*   *Step 2: Substitution.* Plug the numbers into your derived formula from Part (b).
+*   *Step 3: Final Answer.* Always provide the answer in a sensible unit (km/s is often more readable than m/s) and include significant figures appropriate to the data provided.
+
+###QUESTION_TYPE
+Short answer

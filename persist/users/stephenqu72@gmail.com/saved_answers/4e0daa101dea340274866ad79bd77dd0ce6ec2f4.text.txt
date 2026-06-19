@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principles of projectile motion under ideal conditions (ignoring air resistance).
+
+### Answer
+The correct statement is **D**.
+
+---
+
+### Explanation
+To determine the correct answer, let's analyze the properties of projectile motion:
+
+1.  **Acceleration:** When air resistance is ignored, the only force acting on the projectile is gravity. Gravity acts exclusively in the vertical direction. Therefore:
+    *   Horizontal acceleration ($a_x$) = $0$
+    *   Vertical acceleration ($a_y$) = $-g$ (approximately $-9.8 \, \text{m/s}^2$ downward)
+    *   Because $g$ is constant, the acceleration is constant throughout the entire flight. This makes statement **D** correct. Statement **A** is incorrect because acceleration does not vary.
+
+2.  **Velocity:**
+    *   Horizontal velocity ($v_x$) remains constant throughout the flight because there is no horizontal force ($a_x = 0$).
+    *   Vertical velocity ($v_y$) changes constantly due to the acceleration of gravity.
+    *   Since $v_y$ changes, the total velocity also changes. Statement **B** is technically true because the vertical component varies; however, in physics multiple-choice questions, we look for the *most* definitive or descriptive statement. Statement **D** is a fundamental definition of projectile motion, whereas "vary" in B is somewhat ambiguous regarding the horizontal component.
+
+3.  **At point $Y$ (the peak):**
+    *   At the maximum height ($Y$), the vertical component of velocity ($v_y$) is $0$.
+    *   However, the horizontal component of velocity ($v_x$) is **not** zero; the object is still moving forward. Therefore, the object does not "stop" (it would only stop if the entire velocity vector were zero). Statement **C** is incorrect.
+
+**Conclusion:** Statement **D** is the most accurate description of the physics involved, as the acceleration due to gravity is a constant vector $g$ directed downwards at all points in the trajectory, including point $Y$.
+
+###QUESTION_TYPE
+Multiple choice

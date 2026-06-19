@@ -1,0 +1,37 @@
+To solve this problem, we must use the formula for the force per unit length ($F/L$) between two parallel current-carrying conductors:
+
+$$ \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r} $$
+
+Where:
+*   $I_1$ and $I_2$ are the currents in the wires.
+*   $r$ is the distance between the wires.
+*   $\mu_0$ is the permeability of free space.
+
+The force is directly proportional to the product of the currents ($I_1 \times I_2$) and inversely proportional to the distance ($r$). We are looking for the option that does **not** result in a net change factor of 4.
+
+### Analysis of Options:
+
+*   **A. Doubling the current in both wires:**
+    If $I_1 \rightarrow 2I_1$ and $I_2 \rightarrow 2I_2$, the new force $F'$ is:
+    $$ F' \propto (2I_1)(2I_2) = 4(I_1 I_2) $$
+    This increases the force by a factor of 4.
+
+*   **B. Doubling the current in one wire and halving the distance:**
+    If $I_1 \rightarrow 2I_1$ and $r \rightarrow 0.5r$:
+    $$ F' \propto \frac{(2I_1)(I_2)}{0.5r} = \frac{2}{0.5} \frac{I_1 I_2}{r} = 4 \left( \frac{I_1 I_2}{r} \right) $$
+    This increases the force by a factor of 4.
+
+*   **C. Decreasing the distance between the wires by a factor of 4:**
+    If $r \rightarrow r/4$:
+    $$ F' \propto \frac{I_1 I_2}{r/4} = 4 \left( \frac{I_1 I_2}{r} \right) $$
+    This increases the force by a factor of 4.
+
+*   **D. Halving the current in both wires and decreasing the distance by a factor of 8:**
+    If $I_1 \rightarrow 0.5I_1$, $I_2 \rightarrow 0.5I_2$, and $r \rightarrow r/8$:
+    $$ F' \propto \frac{(0.5I_1)(0.5I_2)}{r/8} = \frac{0.25}{1/8} \frac{I_1 I_2}{r} = 0.25 \times 8 \left( \frac{I_1 I_2}{r} \right) = 2 \left( \frac{I_1 I_2}{r} \right) $$
+    This increases the force by a factor of 2, not 4.
+
+Since Option D does not result in a factor of 4, it is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

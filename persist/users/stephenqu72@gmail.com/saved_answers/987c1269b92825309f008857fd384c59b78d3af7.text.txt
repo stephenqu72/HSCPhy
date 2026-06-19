@@ -1,0 +1,30 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+### 1. Identify the given values and convert to SI units:
+*   Length of wires ($L$): $20\text{ cm} = 0.2\text{ m}$
+*   Current 1 ($I_1$): $3\text{ A}$
+*   Current 2 ($I_2$): $4\text{ A}$
+*   Separation distance ($r$): $5\text{ cm} = 0.05\text{ m}$
+*   Permeability of free space ($\mu_0$): $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+### 2. Rearrange the formula to solve for Force ($F$):
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+
+### 3. Substitute the values:
+$$F = \frac{(4\pi \times 10^{-7}) \times 3 \times 4 \times 0.2}{2\pi \times 0.05}$$
+
+Simplify the expression:
+*   The $2\pi$ cancels with the $4\pi$ to leave a factor of $2$ in the numerator:
+$$F = \frac{2 \times 10^{-7} \times 12 \times 0.2}{0.05}$$
+$$F = \frac{4.8 \times 10^{-7}}{0.05}$$
+$$F = 9.6 \times 10^{-6}\text{ N}$$
+
+### 4. Determine the direction of the force:
+According to the Right-Hand Grip Rule and the Lorentz force law, currents flowing in the **same direction** generate magnetic fields that result in an **attractive force** between the wires.
+
+**Conclusion:** The correct answer is **a) $9.6 \times 10^{-6}\text{ N}$ Attraction**.
+
+###QUESTION_TYPE
+Multiple choice

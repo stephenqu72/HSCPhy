@@ -1,0 +1,31 @@
+### (a) Determine the design speed of the banked track
+
+**Solution:**
+To find the design speed, we equate the horizontal component of the normal force to the centripetal force required for circular motion.
+1. The vertical component of the normal force balances gravity: $N \cos \theta = mg$
+2. The horizontal component provides the centripetal force: $N \sin \theta = \frac{mv^2}{r}$
+
+Dividing the two equations gives:
+$$\tan \theta = \frac{v^2}{rg}$$
+Rearranging for $v$:
+$$v = \sqrt{rg \tan \theta}$$
+
+Given $r = 26.0\text{ m}$, $\theta = 15^\circ$, and taking $g = 9.8\text{ m/s}^2$:
+$$v = \sqrt{26.0 \times 9.8 \times \tan(15^\circ)}$$
+$$v = \sqrt{254.8 \times 0.2679}$$
+$$v = \sqrt{68.27}$$
+$$v \approx 8.26\text{ m/s}$$
+
+**Explanation:**
+When a car travels at the "design speed" on a banked track, the net external force acting on the car is purely horizontal, pointing towards the centre of the turn. Since there is no friction, the only forces are gravity (acting vertically down) and the normal force (acting perpendicular to the track). The horizontal component of the normal force provides the necessary centripetal force, while its vertical component supports the weight of the car. Using the physics of circular motion on an incline, we derive the formula $v = \sqrt{rg \tan \theta}$.
+
+---
+
+### (b) Explain, in terms of forces, why a car would slide off a banked track if it exceeded the design speed
+
+**Explanation:**
+To maintain a circular path at a higher speed, a larger centripetal force is required ($F_c = \frac{mv^2}{r}$). 
+On a frictionless banked track, the available horizontal component of the normal force is fixed for a given angle $\theta$. If the speed increases beyond the design speed, the horizontal component of the normal force is no longer sufficient to provide the increased centripetal force required to keep the car on that specific radius. Consequently, the car will follow a path with a larger radius, effectively sliding "up" the bank and outwards, as there is no frictional force available to provide the additional centripetal force needed to maintain the tighter original radius.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,33 @@
+To solve this problem, we must equate the torques on both sides of the seesaw when it is in equilibrium (perfectly horizontal).
+
+### 1. Identify the physics principles
+*   **Torque equilibrium:** The seesaw is balanced, so $\tau_{left} = \tau_{right}$. Since the pivot is in the middle, the distances $r$ from the pivot to both ends are equal, meaning the forces must be equal: $F_{electric} = F_{gravity}$.
+*   **Radioactive decay:** The mass on the left decreases over time due to alpha decay.
+*   **Electric force:** $F_E = qE = q \frac{V}{d}$.
+
+### 2. Step-by-step Calculation
+
+**Step A: Find the remaining mass of Polonium-218 after 5 minutes.**
+Initial mass $m_0 = 0.100\text{ kg}$. Half-life $t_{1/2} = 3.10\text{ min}$. Time $t = 5\text{ min}$.
+Using the decay formula:
+$$m(t) = m_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+$$m(5) = 0.100 \times 0.5^{(5/3.10)} \approx 0.100 \times 0.327 = 0.0327\text{ kg}$$
+The force of gravity on the left side is:
+$$F_g = mg = 0.0327 \times 9.8 = 0.32046\text{ N}$$
+
+**Step B: Calculate the charge $q$ required to balance this force.**
+The seesaw is horizontal, meaning the upward electric force balances the downward weight:
+$$F_E = F_g \implies q \left( \frac{V}{d} \right) = 0.32046\text{ N}$$
+Given $V = 1.00\text{ V}$ and $d = 1.00\text{ cm} = 0.01\text{ m}$:
+$$q \left( \frac{1.00}{0.01} \right) = 0.32046$$
+$$q \times 100 = 0.32046 \implies q = 0.0032046\text{ C}$$
+
+**Step C: Determine the number of electrons.**
+The charge of one electron is $e \approx 1.602 \times 10^{-19}\text{ C}$.
+$$N = \frac{q}{e} = \frac{0.0032046}{1.602 \times 10^{-19}} \approx 2.00 \times 10^{16}$$
+
+### Conclusion
+The number of excess electrons on the right end is approximately **$2.00 \times 10^{16}$**.
+
+###QUESTION_TYPE
+Calculation question

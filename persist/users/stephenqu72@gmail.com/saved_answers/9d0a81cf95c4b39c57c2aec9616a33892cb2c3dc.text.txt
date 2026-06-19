@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a) Derivation
+
+To show that $\tan\theta = \frac{v^2}{Rg}$ for a frictionless banked curve:
+
+**1. Diagram Description:**
+Imagine a car on a track banked at an angle $\theta$ to the horizontal.
+*   The **Normal force ($N$)** acts perpendicular to the road surface.
+*   The **Weight force ($mg$)** acts vertically downwards.
+*   The net force providing centripetal acceleration ($F_c = \frac{mv^2}{R}$) acts horizontally towards the centre of the curve.
+
+**2. Resolving Forces:**
+Resolve the Normal force into vertical and horizontal components:
+*   Vertical component: $N\cos\theta = mg$ (equilibrium in the vertical plane).
+*   Horizontal component: $N\sin\theta = \frac{mv^2}{R}$ (provides centripetal force).
+
+**3. Mathematical Derivation:**
+Divide the horizontal component equation by the vertical component equation:
+$$\frac{N\sin\theta}{N\cos\theta} = \frac{\frac{mv^2}{R}}{mg}$$
+
+The Normal force $N$ and mass $m$ cancel out:
+$$\tan\theta = \frac{v^2}{Rg}$$
+This confirms the banking angle is independent of the mass of the vehicle.
+
+---
+
+#### Part (b) Discussion
+
+The relationship $\tan\theta = \frac{v^2}{Rg}$ has several critical implications for civil engineering and road design:
+
+1.  **Speed Dependence:** The formula shows that for a given radius $R$ and banking angle $\theta$, there is only one "ideal" speed at which a vehicle can negotiate the curve without relying on friction.
+2.  **Safety and Friction:** Because real-world speeds vary (not all cars travel at the design speed), roads must still be engineered with a surface coefficient of friction to allow for vehicles traveling faster or slower than the design speed.
+3.  **Variable Geometry:** On highways where high speeds are expected, designers must ensure curves have a large radius $R$ to keep the required banking angle $\theta$ manageable. If $R$ is small, a very steep banking angle would be required to prevent sliding, which is impractical for slower vehicles.
+4.  **Uniformity:** The independence of mass means that all vehicles—from small motorbikes to heavy trucks—experience the same centripetal requirements at a given speed, simplifying the design process as the road does not need to be adjusted for different vehicle weights.
+
+### QUESTION_TYPE
+Other questions

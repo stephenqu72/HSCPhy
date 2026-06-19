@@ -1,0 +1,30 @@
+To determine the force acting on the electron, we use the formula for the magnetic force on a moving charge:
+
+$$F = qvB \sin(\theta)$$
+
+### Step 1: Identify the variables
+*   $q$ (charge of an electron) = $1.6 \times 10^{-19} \text{ C}$
+*   $v$ (velocity) = $80 \text{ m s}^{-1}$
+*   $B$ (magnetic field strength) = $20 \text{ T}$
+*   $\theta$ (angle between velocity vector and magnetic field vector) = $90^\circ$ (since the electron travels "up" into a "rightwards" field)
+*   $\sin(90^\circ) = 1$
+
+### Step 2: Calculate the magnitude
+Substitute the values into the formula:
+$$F = (1.6 \times 10^{-19}) \times 80 \times 20 \times 1$$
+$$F = 1.6 \times 10^{-19} \times 1600$$
+$$F = 2.56 \times 10^{-16} \text{ N}$$
+Rounding to two significant figures, we get $F = 2.6 \times 10^{-16} \text{ N}$.
+
+### Step 3: Determine the direction
+We use the **Right-Hand Rule** (for positive charges):
+1.  Point your fingers in the direction of velocity (up).
+2.  Curl your fingers towards the magnetic field (right).
+3.  Your thumb points **out of the page**.
+
+**Crucial Step:** Because the electron is a **negative charge**, we must reverse the direction determined by the Right-Hand Rule. Therefore, the force on the electron is **into the page**.
+
+Comparing our result ($2.6 \times 10^{-16} \text{ N}$ into the page) with the options provided, the correct choice is **(d)**.
+
+###QUESTION_TYPE
+Multiple choice

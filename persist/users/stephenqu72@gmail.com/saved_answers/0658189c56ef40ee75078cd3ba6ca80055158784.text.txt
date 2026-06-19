@@ -1,0 +1,31 @@
+To solve this problem, we use Kepler's Third Law of planetary motion, which relates the orbital period $T$ and the orbital radius $r$ to the mass $M$ of the central body.
+
+### Given Data:
+*   Radius of orbit, $r = 3.8 \times 10^8 \text{ m}$
+*   Period of orbit, $T = 2.36 \times 10^6 \text{ s}$
+*   Gravitational constant, $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+
+### Step-by-Step Solution:
+
+1.  **State the relevant formula:**
+    For a circular orbit, the gravitational force provides the centripetal force:
+    $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+    Since the velocity $v = \frac{2\pi r}{T}$, we derive Kepler’s Third Law:
+    $$T^2 = \frac{4\pi^2 r^3}{GM}$$
+    Rearranging to solve for the mass of the planet $M$:
+    $$M = \frac{4\pi^2 r^3}{G T^2}$$
+
+2.  **Substitute the values into the equation:**
+    $$M = \frac{4 \times \pi^2 \times (3.8 \times 10^8)^3}{(6.67 \times 10^{-11}) \times (2.36 \times 10^6)^2}$$
+
+3.  **Perform the calculation:**
+    *   $r^3 = (3.8 \times 10^8)^3 \approx 5.487 \times 10^{25} \text{ m}^3$
+    *   $T^2 = (2.36 \times 10^6)^2 \approx 5.570 \times 10^{12} \text{ s}^2$
+    *   $M = \frac{4 \times 9.8696 \times 5.487 \times 10^{25}}{6.67 \times 10^{-11} \times 5.570 \times 10^{12}}$
+    *   $M = \frac{2.165 \times 10^{27}}{3.715 \times 10^2}$
+    *   $M \approx 5.83 \times 10^{24} \text{ kg}$
+
+**Final Answer:** The mass of planet Xu is approximately $5.83 \times 10^{24} \text{ kg}$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+To answer this question, we must apply the principles of circular orbital motion. Let $m_I$ be the mass of satellite I, and $m_{II} = 2m_I$ be the mass of satellite II. Let $r$ be the radius of the orbit and $M$ be the mass of the Earth.
+
+### Answer
+1.  **Force:** The gravitational force acting on satellite II is twice that acting on satellite I. Since $F_g = \frac{GMm}{r^2}$, doubling the mass ($m$) doubles the force.
+2.  **Motion (Velocity and Period):** Both satellites travel at the same orbital velocity ($v = \sqrt{\frac{GM}{r}}$) and have the same orbital period ($T = 2\pi\sqrt{\frac{r^3}{GM}}$). Velocity and period are independent of the mass of the satellite.
+3.  **Energy:** The kinetic energy ($K = \frac{GMm}{2r}$) and potential energy ($U = -\frac{GMm}{r}$) of satellite II are both twice those of satellite I, as both are directly proportional to the satellite's mass.
+
+---
+
+### Explanation of how to solve this
+To achieve full marks in an HSC physics response, you must demonstrate your understanding of the relevant equations for uniform circular motion in a gravitational field:
+
+*   **Step 1: Compare Force.** Use Newton's Law of Universal Gravitation, $F = \frac{GMm}{r^2}$. Since $G, M,$ and $r$ are identical for both, $F \propto m$. Therefore, if $m_{II} = 2m_I$, then $F_{II} = 2F_I$.
+*   **Step 2: Compare Motion.** Use the orbital velocity formula derived from centripetal force ($\frac{mv^2}{r} = \frac{GMm}{r^2}$), which simplifies to $v = \sqrt{\frac{GM}{r}}$. Because $m$ cancels out, the velocity is independent of the satellite's mass. The same logic applies to the period $T$.
+*   **Step 3: Compare Energy.** Use the formulas for total mechanical energy in a circular orbit ($E = -\frac{GMm}{2r}$), kinetic energy ($K = \frac{GMm}{2r}$), and gravitational potential energy ($U = -\frac{GMm}{r}$). In all three cases, the energy is directly proportional to $m$. Since $m_{II} = 2m_I$, all energy values for satellite II are exactly double those of satellite I.
+
+### QUESTION_TYPE
+Short answer

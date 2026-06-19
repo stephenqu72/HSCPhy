@@ -1,0 +1,31 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation, which states that the gravitational force between two masses is given by:
+$$F = \frac{G M_1 M_2}{r^2}$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the forces:** Let the $1.00\text{ kg}$ mass be at the origin $(0,0)$. We have three masses of magnitude $M$ at the other corners:
+    *   $F_1$ from the mass at distance $a$ (horizontal).
+    *   $F_2$ from the mass at distance $a$ (vertical).
+    *   $F_3$ from the mass at distance $a\sqrt{2}$ (diagonal).
+
+2.  **Calculate individual magnitudes:**
+    *   $F_1 = \frac{G M(1)}{a^2}$
+    *   $F_2 = \frac{G M(1)}{a^2}$
+    *   $F_3 = \frac{G M(1)}{(a\sqrt{2})^2} = \frac{G M}{2a^2}$
+
+3.  **Vector Addition:**
+    *   The horizontal components are $F_1$ and the horizontal part of $F_3$. Since $F_3$ acts at a $45^\circ$ angle, its horizontal component is $F_3 \cos(45^\circ) = \frac{GM}{2a^2} \cdot \frac{1}{\sqrt{2}} = \frac{GM}{2\sqrt{2}a^2}$.
+    *   Total horizontal force $F_x = F_1 + F_3 \cos(45^\circ) = \frac{GM}{a^2} (1 + \frac{1}{2\sqrt{2}})$.
+    *   By symmetry, $F_y = F_2 + F_3 \sin(45^\circ) = \frac{GM}{a^2} (1 + \frac{1}{2\sqrt{2}})$.
+
+4.  **Find the resultant force ($F_{net}$):**
+    Since $F_x$ and $F_y$ are equal and perpendicular, $F_{net} = \sqrt{F_x^2 + F_y^2} = F_x \sqrt{2}$.
+    $$F_{net} = \left[ \frac{GM}{a^2} \left( 1 + \frac{1}{2\sqrt{2}} \right) \right] \sqrt{2}$$
+    $$F_{net} = \frac{GM}{a^2} \left( \sqrt{2} + \frac{\sqrt{2}}{2\sqrt{2}} \right) = \frac{GM}{a^2} \left( \sqrt{2} + 0.5 \right)$$
+
+**Final Answer:**
+The net gravitational force on the $1.00\text{ kg}$ mass is:
+$$F = \frac{GM}{a^2} \left( \sqrt{2} + 0.5 \right)$$
+
+###QUESTION_TYPE
+Calculation question

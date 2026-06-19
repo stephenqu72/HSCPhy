@@ -1,0 +1,40 @@
+To solve this physics problem, we first identify the forces acting on the child. The child is in uniform circular motion. The forces acting on the child are the gravitational force ($mg$) acting downwards and the tension ($T$) in the support rod acting at an angle.
+
+**Given:**
+- Diameter ($d$) = $20\text{ m} \implies$ radius ($r$) = $10\text{ m}$
+- Mass ($m$) = $50\text{ kg}$
+- Angle with the vertical ($\theta$) = $25^\circ$
+- Acceleration due to gravity ($g$) $\approx 9.8\text{ m/s}^2$
+
+---
+
+### (a) Calculate the centripetal force ($F_c$)
+In a conical pendulum or rotating swing system, the horizontal component of the tension provides the centripetal force, while the vertical component balances the weight.
+
+1. Vertical equilibrium: $T \cos\theta = mg$
+2. Horizontal force (centripetal): $F_c = T \sin\theta$
+
+By dividing these equations:
+$$\frac{F_c}{mg} = \frac{T \sin\theta}{T \cos\theta} = \tan\theta$$
+$$F_c = mg \tan\theta$$
+$$F_c = 50 \times 9.8 \times \tan(25^\circ)$$
+$$F_c = 490 \times 0.4663 \approx 228.5\text{ N}$$
+
+---
+
+### (b) Calculate the time ($T_{period}$) for one revolution
+We know the centripetal force is also defined by $F_c = \frac{mv^2}{r}$, where $v = \frac{2\pi r}{T_{period}}$.
+Substituting $v$:
+$$F_c = \frac{m(2\pi r / T_{period})^2}{r} = \frac{4\pi^2 mr}{T_{period}^2}$$
+
+Rearranging for the period ($T_{period}$):
+$$T_{period}^2 = \frac{4\pi^2 mr}{F_c}$$
+$$T_{period} = \sqrt{\frac{4\pi^2 \times 50 \times 10}{228.5}}$$
+$$T_{period} = \sqrt{\frac{19739.2}{228.5}} \approx \sqrt{86.38}$$
+$$T_{period} \approx 9.29\text{ seconds}$$
+
+Alternatively, using the conical pendulum formula $T_{period} = 2\pi \sqrt{\frac{r}{g \tan\theta}}$:
+$$T_{period} = 2\pi \sqrt{\frac{10}{9.8 \times \tan(25^\circ)}} = 2\pi \sqrt{\frac{10}{4.57}} \approx 9.29\text{ s}$$
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve these problems, we use standard gravitational constants:
+- Mass of Earth ($M$) $\approx 5.97 \times 10^{24}\text{ kg}$
+- Radius of Earth ($R$) $\approx 6.37 \times 10^6\text{ m}$
+- Gravitational constant ($G$) $\approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+- Orbital altitude ($h$) $= 5.0 \times 10^5\text{ m}$
+- Total orbital radius ($r$) $= R + h = 6.87 \times 10^6\text{ m}$
+
+---
+
+### (a) Calculate the orbital velocity ($v_o$)
+The orbital velocity is derived by equating centripetal force to gravitational force:
+$$v_o = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{6.87 \times 10^6}} \approx 7613\text{ m/s}$$
+
+### (b) Calculate the magnitude of the gravitational potential energy ($U$)
+The formula for gravitational potential energy is $U = -\frac{GMm}{r}$. Since the question asks for the **magnitude**, we drop the negative sign:
+$$|U| = \frac{GMm}{r} = \frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(250)}{6.87 \times 10^6} \approx 1.45 \times 10^{10}\text{ J}$$
+
+### (c) Calculate the escape velocity ($v_e$) from orbit
+The escape velocity is the speed required to reach infinity with zero kinetic energy:
+$$v_e = \sqrt{\frac{2GM}{r}} = \sqrt{2} \times v_o = 7613 \times 1.414 \approx 10766\text{ m/s}$$
+
+### (d) Explain why work must be done
+To move the satellite into a higher orbit, work must be done because:
+1. **Increase in Potential Energy:** A higher orbit means a larger radius ($r$), and since $U = -GMm/r$, the potential energy becomes less negative (i.e., it increases).
+2. **Change in Kinetic Energy:** While the orbital velocity decreases as $r$ increases, the total energy of the orbit ($E = -GMm/2r$) increases (becomes less negative). Therefore, the engines must apply force over a distance to increase the total mechanical energy of the system.
+
+---
+
+###QUESTION_TYPE
+Calculation question

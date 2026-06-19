@@ -1,0 +1,36 @@
+### Part (a): Plotting the Data
+To plot this, set the horizontal axis ($x$-axis) as **Length (m)** and the vertical axis ($y$-axis) as **Force (N)**.
+*   **Scale:** Use 2 squares per 0.1 m on the x-axis and 1 square per 0.5 N (or 2 squares per 1.0 N) on the y-axis.
+*   **Plotting:** Mark the points $(0.1, 1.1)$, $(0.2, 2.1)$, $(0.3, 3.2)$, $(0.4, 3.9)$, and $(0.6, 6.0)$.
+*   **Line of Best Fit:** Draw a straight line starting from the origin $(0,0)$ that passes as close as possible to all points, balancing the points above and below the line.
+
+---
+
+### Part (b): Calculating Magnetic Field Intensity ($B$)
+The force on a current-carrying wire is given by the formula:
+$$F = BIL\sin(\theta)$$
+Since $\theta = 90^\circ$, $\sin(90^\circ) = 1$, so the equation simplifies to $F = B \cdot I \cdot L$.
+Comparing this to the equation of a straight line $y = mx + c$:
+*   $y = F$
+*   $x = L$
+*   $m = \text{gradient} = B \cdot I$
+
+**1. Calculate the gradient ($m$):**
+Using two points on your line of best fit (e.g., $(0, 0)$ and $(0.5, 5.0)$):
+$$m = \frac{\Delta y}{\Delta x} = \frac{5.0 - 0}{0.5 - 0} = 10 \text{ N/m}$$
+
+**2. Solve for $B$:**
+Since $m = B \cdot I$ and $I = 2.5 \text{ A}$:
+$$10 = B \times 2.5$$
+$$B = \frac{10}{2.5} = 4.0 \text{ T}$$
+
+---
+
+### Part (c): Effect of Parallel Alignment
+The force on a current-carrying wire is defined by $F = BIL\sin(\theta)$, where $\theta$ is the angle between the wire and the magnetic field.
+*   As the wire is turned towards being parallel to the magnetic field, the angle $\theta$ decreases towards $0^\circ$.
+*   Since $\sin(0^\circ) = 0$, the force on the wire will decrease continuously.
+*   When the wire is perfectly parallel to the magnetic field, the force will become **zero**.
+
+###QUESTION_TYPE
+Data analysis questions

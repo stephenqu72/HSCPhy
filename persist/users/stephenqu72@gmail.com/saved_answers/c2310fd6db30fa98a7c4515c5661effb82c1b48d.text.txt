@@ -1,0 +1,28 @@
+To calculate the magnetic force on a current-carrying wire, we use the formula:
+
+$$F = IlB \sin(\theta)$$
+
+### 1. Identify the given values
+*   Current ($I$) = $2.4\text{ A}$
+*   Length ($l$) = $2.0\text{ m}$
+*   Magnetic field ($B$) = $3.8\text{ mT} = 3.8 \times 10^{-3}\text{ T}$
+*   Angle ($\theta$): The angle between the current and the magnetic field. The magnetic field is into the page (perpendicular to the surface), and the wire is in the plane of the page. Therefore, the angle between the current and the magnetic field is exactly $90^{\circ}$, regardless of the angle the wire makes with the cardinal directions on the page.
+*   $\sin(90^{\circ}) = 1$
+
+### 2. Calculate the magnitude of the force
+$$F = (2.4\text{ A}) \times (2.0\text{ m}) \times (3.8 \times 10^{-3}\text{ T}) \times \sin(90^{\circ})$$
+$$F = 4.8 \times 3.8 \times 10^{-3}$$
+$$F = 18.24 \times 10^{-3}\text{ N} = 1.824 \times 10^{-2}\text{ N}$$
+Rounding to two significant figures, we get $1.8 \times 10^{-2}\text{ N}$.
+
+### 3. Determine the direction
+Using the Right-Hand Rule:
+*   Point your fingers in the direction of the current (moving from the top-left towards the bottom-right).
+*   Curl your fingers into the page (in the direction of the magnetic field $B$).
+*   Your thumb points in the direction of the force.
+*   The current is moving South-East. The field is into the page. Perpendicular to the current, directed towards the "upper-left" relative to the wire's path, points towards the **North-East** direction.
+
+Comparing this with the given options, **(C)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

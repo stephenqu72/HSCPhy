@@ -1,0 +1,22 @@
+To determine where the planet has the greatest total potential energy, we must look at the physics of orbits governed by gravitational potential energy.
+
+### Answer
+The correct answer is **D. Z**.
+
+### Explanation
+The gravitational potential energy ($U$) of a planet in orbit around a star is given by the formula:
+$$U = -\frac{GMm}{r}$$
+where:
+*   $G$ is the gravitational constant.
+*   $M$ is the mass of the star.
+*   $m$ is the mass of the planet.
+*   $r$ is the distance between the center of the star and the center of the planet.
+
+Because the formula includes a negative sign, the value of potential energy is at its **maximum** (closest to zero) when $r$ is at its **maximum**. Conversely, the potential energy is at its minimum (most negative) when the planet is closest to the star.
+
+1.  **Analyze the diagram:** The planet is in an elliptical orbit. Point $X$ represents the perihelion (the closest point to the star), where $r$ is smallest, making the potential energy the most negative (lowest). Point $Z$ represents the aphelion (the furthest point from the star), where $r$ is largest.
+2.  **Compare the values:** As $r$ increases, the magnitude of the fraction $\frac{GMm}{r}$ decreases. Since the value is negative, a smaller magnitude means the value itself is larger (closer to zero).
+3.  **Conclusion:** Therefore, the gravitational potential energy is greatest when the distance $r$ is at its maximum. Looking at the elliptical path, point $Z$ is the point furthest from the star.
+
+###QUESTION_TYPE
+Multiple choice

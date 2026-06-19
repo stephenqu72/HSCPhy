@@ -1,0 +1,47 @@
+To solve this projectile motion and momentum problem, we use the principles of vector components and the law of conservation of momentum.
+
+### (a) Determine the initial vertical component of the velocity of the fish.
+
+**Solution:**
+The vertical component of the velocity ($v_y$) is found using the sine function:
+$v_y = v \sin(\theta)$
+$v_y = 5.0 \times \sin(10^\circ)$
+$v_y \approx 0.868 \, \text{ms}^{-1}$
+
+**Explanation:**
+Any velocity vector at an angle can be decomposed into horizontal ($v_x = v \cos \theta$) and vertical ($v_y = v \sin \theta$) components. Since the fish is thrown at $10^\circ$ above the horizontal, we use the sine of the angle to find the vertical "rise" component.
+
+---
+
+### (b) Determine the vertical displacement, $y_f$, of the fish.
+
+**Solution:**
+1. Calculate horizontal velocity: $v_x = 5.0 \cos(10^\circ) \approx 4.924 \, \text{ms}^{-1}$.
+2. Find time of flight ($t$): $x = v_x t \implies t = \frac{1.2}{4.924} \approx 0.2437 \, \text{s}$.
+3. Calculate vertical displacement ($y$): $y = v_y t + \frac{1}{2} a_y t^2$
+$y = (0.868)(0.2437) + 0.5(-9.8)(0.2437)^2$
+$y = 0.2115 - 0.2910 = -0.0795 \, \text{m}$
+The vertical displacement is **$0.080 \, \text{m}$ downwards**.
+
+**Explanation:**
+First, find how long the fish is in the air using the horizontal motion (where velocity is constant). Then, use the kinematic equation for vertical displacement, taking acceleration due to gravity ($g = -9.8 \, \text{ms}^{-2}$) into account. The negative sign confirms the fish lands below the point of release.
+
+---
+
+### (c) How fast are the boat and child moving horizontally after the throw?
+
+**Solution:**
+Using the law of conservation of momentum: $p_{\text{initial}} = p_{\text{final}}$
+$0 = m_{\text{fish}}v_{\text{fish},x} + (m_{\text{child}} + m_{\text{boat}})v_{\text{system}}$
+$0 = (5.0)(4.924) + (30.0 + 10.0)v_{\text{system}}$
+$0 = 24.62 + 40v_{\text{system}}$
+$v_{\text{system}} = -0.6155 \, \text{ms}^{-1}$
+The boat and child move at **$0.62 \, \text{ms}^{-1}$ in the opposite direction** to the fish.
+
+**Assumption:** We assume that there is no external horizontal force (such as water resistance or friction) acting on the boat during the short duration of the throw.
+
+**Explanation:**
+Since the system (boat + child + fish) starts at rest, the total initial momentum is zero. After the fish is thrown, the momentum gained by the fish must be balanced by an equal and opposite momentum gained by the boat and child system.
+
+###QUESTION_TYPE
+Calculation question

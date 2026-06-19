@@ -1,0 +1,29 @@
+To find the acceleration due to gravity on the surface of Mercury, we use the formula derived from Newton’s Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Mass of Mercury ($M$) = $3.285 \times 10^{23} \text{ kg}$
+*   Diameter of Mercury = $4.8 \times 10^3 \text{ km} = 4.8 \times 10^6 \text{ m}$
+*   Gravitational constant ($G$) $\approx 6.674 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+
+**2. Convert diameter to radius ($r$):**
+The formula requires the radius, which is half of the diameter:
+$$r = \frac{4.8 \times 10^6 \text{ m}}{2} = 2.4 \times 10^6 \text{ m}$$
+
+**3. Substitute the values into the formula:**
+$$g = \frac{(6.674 \times 10^{-11}) \times (3.285 \times 10^{23})}{(2.4 \times 10^6)^2}$$
+
+**4. Perform the calculation:**
+*   Numerator: $(6.674 \times 10^{-11}) \times (3.285 \times 10^{23}) \approx 2.192 \times 10^{13}$
+*   Denominator: $(2.4 \times 10^6)^2 = 5.76 \times 10^{12}$
+*   Result: $g = \frac{2.192 \times 10^{13}}{5.76 \times 10^{12}} \approx 3.806 \text{ m s}^{-2}$
+
+Rounding to two significant figures (as per the inputs provided), we get $3.8 \text{ m s}^{-2}$.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

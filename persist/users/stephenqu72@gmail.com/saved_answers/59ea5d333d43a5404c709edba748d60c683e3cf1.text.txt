@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+**(a) Explain why the y-intercept is not zero.**
+The y-intercept represents the mass reading on the scale when the current is zero. Since the apparatus (the plastic box/support and the magnets) has its own inherent mass, the scale registers this baseline "tare" mass even when no magnetic force is being applied to the wire.
+
+**(b) Explain why the reading on the scales increases as current increases.**
+According to the motor effect, a current-carrying wire in a magnetic field experiences a force given by $F = BIL \sin(\theta)$. Because the wire is perpendicular to the field ($\theta = 90^\circ$), $F = BIL$. By Newton's Third Law, if the magnetic field exerts a downward force on the wire, the wire exerts an equal and opposite upward force on the magnets. However, based on the setup (where the magnets are on the scales), the magnetic force acts on the magnets. If the current is directed such that the magnetic force on the magnets is directed downwards, the scale reading increases as $F_{\text{net}} = F_{\text{gravity}} + F_{\text{magnetic}}$. 
+*(A diagram would show a current vector $I$ and a magnetic field vector $B$ creating a downward force $F$ on the magnet assembly sitting on the scale.)*
+
+**(c) Factor to convert mass (g) to Force (N).**
+To convert mass $m$ in grams to force in Newtons ($F = mg$), we use $g \approx 9.8 \text{ m/s}^2$ and convert grams to kilograms ($1 \text{ g} = 0.001 \text{ kg}$).
+$$\text{Factor} = 9.8 \times 10^{-3} \text{ or } 0.0098$$
+
+**(d) Determine the magnetic field strength ($B$).**
+We know $F = BIL$, which can be rewritten in terms of mass as $m \cdot g = B \cdot I \cdot L$.
+Rearranging for the slope of the graph ($m/I$):
+$$\text{Slope} = \frac{\Delta m}{\Delta I} = \frac{B \cdot L}{g}$$
+Given:
+- Slope $m = 0.1566 \text{ g/A} = 0.0001566 \text{ kg/A}$
+- $L = 0.8 \text{ cm} = 0.008 \text{ m}$
+- $g = 9.8 \text{ m/s}^2$
+
+$$B = \frac{\text{Slope} \times g}{L} = \frac{0.0001566 \times 9.8}{0.008} \approx 0.1918 \text{ T}$$
+The magnetic field strength is approximately **$0.19 \text{ T}$**.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

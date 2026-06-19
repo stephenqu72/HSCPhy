@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principles of electromagnetism regarding the force between two parallel current-carrying conductors, combined with Newton's laws of motion as observed by the electronic balance.
+
+### Part (a): Calculate the force between the two rods
+When the current is applied, the balance reading changes. The change in the reading indicates the magnetic force exerted on the bottom rod.
+
+1.  **Identify the change in mass ($\Delta m$):**
+    $\Delta m = 25.003\text{ g} - 25.000\text{ g} = 0.003\text{ g} = 3 \times 10^{-6}\text{ kg}$
+2.  **Calculate the force ($F$):**
+    The force measured by the balance is the gravitational force acting on the "extra" mass recorded.
+    $F = \Delta m \times g$
+    Using $g \approx 9.8\text{ m/s}^2$:
+    $F = 3 \times 10^{-6}\text{ kg} \times 9.8\text{ m/s}^2 = 2.94 \times 10^{-5}\text{ N}$
+
+### Part (b): Determine the magnitude of current
+We use the formula for the magnetic force per unit length between two parallel conductors:
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi d}$$
+Since the currents are equal ($I_1 = I_2 = I$), the formula becomes:
+$$F = \frac{\mu_0 I^2 L}{2 \pi d}$$
+
+**Given values:**
+*   $F = 2.94 \times 10^{-5}\text{ N}$
+*   $L = 0.218\text{ m}$
+*   $d = 5.38\text{ cm} = 0.0538\text{ m}$
+*   $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+**Rearranging to solve for $I$:**
+$$I^2 = \frac{F \times 2 \pi d}{\mu_0 \times L}$$
+$$I^2 = \frac{2.94 \times 10^{-5} \times 2 \pi \times 0.0538}{4\pi \times 10^{-7} \times 0.218}$$
+$$I^2 = \frac{2.94 \times 10^{-5} \times 0.0538}{2 \times 10^{-7} \times 0.218} \approx 36.275$$
+$$I = \sqrt{36.275} \approx 6.02\text{ A}$$
+
+The magnitude of the current flowing in each rod is approximately **6.02 A**.
+
+###QUESTION_TYPE
+Calculation question

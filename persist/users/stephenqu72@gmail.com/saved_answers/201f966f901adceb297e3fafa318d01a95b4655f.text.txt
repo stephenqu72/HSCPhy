@@ -1,0 +1,25 @@
+To solve this problem, we must apply Newton's Laws of Motion to an object moving through a fluid.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Net Force:** 
+    The problem states that both objects are falling at a **constant speed**. According to Newton's First Law (or the definition of equilibrium), if an object is moving at a constant velocity, the acceleration $a$ is zero. Since $F_{net} = ma$, if $a = 0$, then the net force acting on both objects must be **zero**. Therefore, the net force for both objects is the same (both are $0$ N).
+
+2.  **Analyze the Resistive (Drag) Force:**
+    The problem explicitly states that the resistive force is **directly proportional to its mass**. This means:
+    $$F_{drag} \propto m$$
+    *   For the first object with mass $m$, the resistive force is $F_1 = km$ (where $k$ is a constant).
+    *   For the second object with mass $2m$, the resistive force is $F_2 = k(2m) = 2km$.
+    Since $F_1 \neq F_2$, the resistive forces are **different**.
+
+3.  **Conclusion:**
+    Comparing the results:
+    *   Net force: **Same** ($0$ N for both).
+    *   Resistive force: **Different** ($F_2 = 2F_1$).
+
+Looking at the options provided, row (B) indicates that the net force is the same and the resistive force is different.
+
+**Correct Answer: (B)**
+
+###QUESTION_TYPE
+Multiple choice

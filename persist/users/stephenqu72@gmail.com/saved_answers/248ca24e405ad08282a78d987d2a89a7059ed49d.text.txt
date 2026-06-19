@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The particle is **positively charged**.
+
+**Explanation:** To determine the charge of a particle moving through a magnetic field, we use the **Right-Hand Rule**.
+1. The magnetic field ($B$) points into the page (indicated by the 'X's).
+2. The particle enters the field and curves toward the right. 
+3. Point your right-hand fingers into the page.
+4. Orient your thumb in the direction of the velocity vector at the point of entry (upward).
+5. Your palm faces the direction of the magnetic force ($F_B$) on a *positive* charge. Since the particle curves to the right, the force is directed to the right, which matches the Right-Hand Rule for a positive charge.
+
+#### Part (b)
+**Answer:**
+We are given:
+- Velocity $v = 2.50 \times 10^4 \text{ m s}^{-1}$
+- Magnetic field $B = 1.95 \times 10^{-6} \text{ T}$
+- Radius $r = 5.0 \text{ cm} = 0.05 \text{ m}$
+
+**Explanation:**
+A charged particle moving perpendicular to a magnetic field experiences a centripetal force provided by the magnetic Lorentz force. We equate the two:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+
+Rearrange to solve for the charge-to-mass ratio ($\frac{q}{m}$):
+$$\frac{q}{m} = \frac{v}{Br}$$
+
+Now, substitute the given values:
+$$\frac{q}{m} = \frac{2.50 \times 10^4}{(1.95 \times 10^{-6}) \times 0.05}$$
+$$\frac{q}{m} = \frac{2.50 \times 10^4}{9.75 \times 10^{-8}}$$
+$$\frac{q}{m} \approx 2.564 \times 10^{11} \text{ C kg}^{-1}$$
+
+Rounding to two significant figures (consistent with the provided data):
+$$\frac{q}{m} = 2.6 \times 10^{11} \text{ C kg}^{-1}$$
+This confirms the required value.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,77 @@
+Hello! As your HSC Physics teacher, I will guide you through this question step-by-step. This is a classic Newtonian mechanics problem that tests your understanding of orbital dynamics, energy conservation, and the relationship between Kepler's empirical laws and Newton's theoretical framework.
+
+---
+
+### **Answers and Explanations**
+
+#### **Part (a)**
+**Question:** Discuss how Kepler's 2nd Law relates to Newton's Law of Universal Gravitation.
+
+**Answer:**
+Kepler's 2nd Law (the Law of Equal Areas) states that a planet sweeps out equal areas in equal intervals of time, meaning its orbital speed varies depending on its distance from the Sun. Newton showed that this law is a direct consequence of his Law of Universal Gravitation. Because gravity is a **central force**—meaning it acts along the line connecting the centers of the two masses—it exerts **no torque** ($\tau = 0$) on the orbiting planet. Since there is no external torque, the **angular momentum** ($L$) of the planet is conserved. The mathematical conservation of angular momentum directly results in the orbital motion described by Kepler's 2nd Law.
+
+**How to solve:**
+To answer "discuss" questions in Physics, you must link a qualitative observation (Kepler) to a quantitative physical principle (Newton). Always mention **Central Force**, **Torque**, and **Conservation of Angular Momentum**.
+
+---
+
+#### **Part (b) i.**
+**Question:** Given that Earth is in orbit about the Sun, which has a mass of $2.0 \times 10^{30}\text{ kg}$ at an average distance of $150\text{ million km}$, what is Earth's gravitational potential energy?
+
+**Answer:**
+To calculate gravitational potential energy ($U$), we use the formula:
+$$U = -\frac{GMm}{r}$$
+Where:
+*   $G \approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$ (Gravitational constant)
+*   $M = 2.0 \times 10^{30}\text{ kg}$ (Mass of the Sun)
+*   $r = 150 \times 10^6\text{ km} = 1.5 \times 10^{11}\text{ m}$ (Distance in meters)
+*   $m = \text{mass of the Earth}$
+
+Since the mass of the Earth ($m$) is not provided in the question, we express the answer in terms of $m$:
+$$U = -\frac{(6.67 \times 10^{-11})(2.0 \times 10^{30})m}{1.5 \times 10^{11}}$$
+$$U = -\frac{13.34 \times 10^{19}}{1.5 \times 10^{11}}m$$
+$$U \approx -(8.89 \times 10^8)m\text{ Joules}$$
+
+*(Note: If you were to use the standard mass of Earth, $5.97 \times 10^{24}\text{ kg}$, the result would be approximately $-5.3 \times 10^{33}\text{ J}$.)*
+
+**How to solve:**
+1.  **Convert units:** Always convert kilometers to meters ($150\text{ million km} = 1.5 \times 10^{11}\text{ m}$).
+2.  **Identify variables:** Identify what is given and what is missing.
+3.  **Apply formula:** Plug the known values into the potential energy formula.
+
+---
+
+#### **Part (b) ii.**
+**Question:** Explain why the value of Earth's potential energy is negative.
+
+**Answer:**
+In gravitational physics, we define the zero point of potential energy at an infinite distance from the source mass ($r = \infty$). Because gravity is an **attractive force**, work must be done *on* the system to move the Earth further away from the Sun. Therefore, as the Earth moves from infinity toward the Sun, it "falls" into a gravity well, losing potential energy. Consequently, at any finite distance $r$, the potential energy must be less than zero, making it negative.
+
+**How to solve:**
+The key is to mention the **reference point (infinity)** and the fact that gravity is an **attractive force**.
+
+---
+
+#### **Part (c)**
+**Question:** What speed would the Earth need to attain so that it could escape the gravitational field of the Sun?
+
+**Answer:**
+To find the escape velocity ($v_e$), we use the principle of conservation of energy. For an object to just barely escape, its total mechanical energy at "infinity" must be zero (where both kinetic and potential energy are zero).
+$$\frac{1}{2}mv^2 - \frac{GMm}{r} = 0$$
+Rearranging for $v$:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+Substituting the values:
+$$v_e = \sqrt{\frac{2(6.67 \times 10^{-11})(2.0 \times 10^{30})}{1.5 \times 10^{11}}}$$
+$$v_e = \sqrt{\frac{26.68 \times 10^{19}}{1.5 \times 10^{11}}}$$
+$$v_e = \sqrt{17.786 \times 10^8}$$
+$$v_e \approx 4.22 \times 10^4\text{ m/s} \quad (\text{or } 42.2\text{ km/s})$$
+
+**How to solve:**
+1.  **Derive/State the formula:** Show that you know escape velocity comes from setting Total Energy = 0.
+2.  **Substitution:** Carefully substitute the values in SI units (meters and kilograms).
+3.  **Calculation:** Use scientific notation to avoid errors with large exponents.
+
+---
+
+###QUESTION_TYPE
+Short answer

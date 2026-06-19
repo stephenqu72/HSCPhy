@@ -1,0 +1,21 @@
+To solve this problem, we need to understand the principles of projectile motion.
+
+### Explanation
+
+When an object is launched as a projectile (ignoring air resistance), its motion can be analyzed by separating it into two independent components:
+1.  **Horizontal motion:** The velocity in the horizontal direction ($v_x$) is constant because there is no horizontal acceleration acting on the projectile (assuming air resistance is negligible).
+2.  **Vertical motion:** The velocity in the vertical direction ($v_y$) changes due to the constant acceleration of gravity ($g \approx 9.8 \text{ m s}^{-2}$ downwards).
+
+The question asks for the **horizontal velocity** of the paintball just before impact.
+
+Since we are neglecting air resistance, the horizontal acceleration is $0 \text{ m s}^{-2}$. Therefore, the initial horizontal velocity remains unchanged throughout the entire flight of the projectile.
+
+Given that the initial horizontal velocity is $80 \text{ m s}^{-1}$, the horizontal velocity just before impact remains:
+$$v_{x(\text{final})} = v_{x(\text{initial})} = 80 \text{ m s}^{-1}$$
+
+The other information provided (height of $10 \text{ m}$ and distance of $25 \text{ m}$) would be required if you were asked to calculate the time of flight, the final vertical velocity, or the final resultant speed, but they are irrelevant for determining the horizontal component of velocity.
+
+Therefore, the correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

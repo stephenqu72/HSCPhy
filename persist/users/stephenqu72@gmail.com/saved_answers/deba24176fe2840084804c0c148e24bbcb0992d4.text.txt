@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **(B) Kinetic energy increases, potential energy decreases.**
+
+### Explanation
+To solve this problem, we must apply the principles of energy conservation and the properties of gravitational potential energy.
+
+1.  **Gravitational Potential Energy ($U$):** 
+    The gravitational potential energy of a satellite at a distance $r$ from the centre of the Earth is given by the formula:
+    $$U = -\frac{GMm}{r}$$
+    As the satellite moves **closer** to Earth, the distance $r$ decreases. Since $U$ is a negative value, as $r$ gets smaller, the magnitude of the fraction $\frac{GMm}{r}$ increases, making the overall value of $U$ **more negative**. In physics, a "more negative" value indicates a **decrease** in gravitational potential energy.
+
+2.  **Kinetic Energy ($K$):** 
+    According to Kepler’s Second Law (the law of equal areas), a satellite must sweep out equal areas in equal times. This implies that the satellite must move faster when it is closer to the Earth (at perigee) and slower when it is further away (at apogee). Mathematically, because the total mechanical energy $E = K + U$ remains constant in an orbit, if $U$ decreases, $K$ must **increase** to compensate. The formula for kinetic energy is $K = \frac{1}{2}mv^2$; as the velocity $v$ increases, the kinetic energy $K$ increases.
+
+**Summary:** 
+As the satellite moves closer to the Earth, it loses gravitational potential energy (it becomes more deeply embedded in the gravitational well) and gains kinetic energy (it speeds up). Therefore, option (B) is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

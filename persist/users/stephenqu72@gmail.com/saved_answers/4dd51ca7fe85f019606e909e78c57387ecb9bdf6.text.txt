@@ -1,0 +1,34 @@
+To answer this question, we must look at the physics governing circular satellite motion.
+
+### Answer
+The correct answer is **(C) The mass of the satellite.**
+
+### Explanation
+To determine which factors affect the orbital velocity ($v$) of a satellite, we equate the gravitational force providing the centripetal force to the satellite:
+
+1. The gravitational force is given by: $F_g = \frac{GMm}{r^2}$
+2. The centripetal force required for circular motion is: $F_c = \frac{mv^2}{r}$
+
+Equating these two:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+
+In this equation:
+- $G$ is the universal gravitational constant.
+- $M$ is the mass of the central planet.
+- $m$ is the mass of the satellite.
+- $r$ is the radius of the orbit (orbital distance from the center of the planet, which is $Planet\ Radius + Altitude$).
+- $v$ is the orbital velocity.
+
+We can see that the mass of the satellite ($m$) appears on both sides of the equation and therefore cancels out:
+$$\frac{v^2}{r} = \frac{GM}{r^2}$$
+$$v^2 = \frac{GM}{r}$$
+$$v = \sqrt{\frac{GM}{r}}$$
+
+From this formula, we can conclude:
+*   **The velocity depends on the mass of the planet ($M$)**, so (A) is incorrect.
+*   **The velocity is determined by the gravitational interaction (gravitational force)**, so (B) is incorrect.
+*   **The velocity depends on the radius ($r$)**, which is directly determined by the **altitude** of the satellite, so (D) is incorrect.
+*   **The mass of the satellite ($m$) does not appear in the final equation**, meaning it has no effect on the required orbital velocity.
+
+###QUESTION_TYPE
+Multiple choice

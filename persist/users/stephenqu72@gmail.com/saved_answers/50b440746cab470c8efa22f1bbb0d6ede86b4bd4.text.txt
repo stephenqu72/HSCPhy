@@ -1,0 +1,31 @@
+To calculate the change in total energy of a satellite orbiting Earth, we use the formula for the total mechanical energy of an object in a circular orbit:
+$$E_{total} = -\frac{GMm}{2r}$$
+
+Where:
+*   $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$ (Gravitational constant)
+*   $M = 5.97 \times 10^{24} \text{ kg}$ (Mass of Earth)
+*   $m = 845 \text{ kg}$ (Mass of satellite)
+*   $r = R_E + h$ (Distance from the center of the Earth)
+*   $R_E = 6.37 \times 10^6 \text{ m}$ (Radius of Earth)
+
+### Step 1: Determine the radii
+*   Initial altitude $h_1 = 2000 \text{ km} = 2.0 \times 10^6 \text{ m}$
+    $$r_1 = 6.37 \times 10^6 + 2.0 \times 10^6 = 8.37 \times 10^6 \text{ m}$$
+*   Final altitude $h_2 = 5000 \text{ km} = 5.0 \times 10^6 \text{ m}$
+    $$r_2 = 6.37 \times 10^6 + 5.0 \times 10^6 = 11.37 \times 10^6 \text{ m}$$
+
+### Step 2: Calculate change in energy
+The change in energy is $\Delta E = E_2 - E_1$:
+$$\Delta E = \left( -\frac{GMm}{2r_2} \right) - \left( -\frac{GMm}{2r_1} \right) = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+
+Substitute the constants:
+$$\Delta E = \frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(845)}{2} \left( \frac{1}{8.37 \times 10^6} - \frac{1}{11.37 \times 10^6} \right)$$
+$$\Delta E \approx (1.68 \times 10^{14}) \times (1.195 \times 10^{-7} - 8.795 \times 10^{-8})$$
+$$\Delta E \approx (1.68 \times 10^{14}) \times (3.155 \times 10^{-8}) \approx 5.30 \times 10^9 \text{ J}$$
+
+Comparing this result to the options, the value is approximately $5.33 \times 10^9 \text{ J}$. Since the satellite is moving to a higher orbit, its total energy increases (becomes less negative), making the change positive.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

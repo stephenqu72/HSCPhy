@@ -1,0 +1,27 @@
+To find the escape velocity of an object from Earth's surface, we use the principle of conservation of energy.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Concept:** Escape velocity is the minimum speed an object needs to break free from a planet's gravitational pull without further propulsion. The mass of the object ($m = 800\text{ kg}$) is irrelevant because it cancels out in the derivation of the formula.
+2.  **The Formula:** The escape velocity $v_e$ is given by:
+    $$v_e = \sqrt{\frac{2GM}{r}}$$
+    Where:
+    *   $G$ (Gravitational constant) $\approx 6.67 \times 10^{-11}\text{ N m}^2/\text{kg}^2$
+    *   $M$ (Mass of Earth) $\approx 5.97 \times 10^{24}\text{ kg}$
+    *   $r$ (Radius of Earth) $\approx 6.37 \times 10^6\text{ m}$
+3.  **Calculation:**
+    $$v_e = \sqrt{\frac{2 \times (6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{6.37 \times 10^6}}$$
+    $$v_e = \sqrt{\frac{7.965 \times 10^{14}}{6.37 \times 10^6}}$$
+    $$v_e = \sqrt{1.25 \times 10^8} \approx 11,180\text{ m/s}$$
+    Converted to scientific notation, this is approximately $1.12 \times 10^4\text{ m/s}$.
+
+### Analysis of the Options:
+Looking at the provided options, there appears to be a typo in the exponent of option D. The standard escape velocity from Earth is approximately $11.2\text{ km/s}$ or $1.12 \times 10^4\text{ m/s}$. 
+*   Options A and B represent extremely small values.
+*   Option C is $79,300\text{ m/s}$ (incorrect).
+*   Option D is $112,000\text{ m/s}$ (which is off by a factor of 10 from the correct $1.12 \times 10^4\text{ m/s}$).
+
+Given that $1.12$ is the correct coefficient for the standard escape velocity of Earth ($11.2\text{ km/s}$), **Option D** is the intended answer despite the likely typographical error in the power of 10.
+
+###QUESTION_TYPE
+Multiple choice

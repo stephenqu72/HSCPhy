@@ -1,0 +1,38 @@
+As a top HSC Physics teacher, I will guide you through this problem step-by-step.
+
+### (a) Derivation of Energy in a Circular Orbit
+
+**Solution:**
+For a satellite of mass $m$ in a circular orbit of radius $r$ around a planet of mass $M$, the gravitational force provides the centripetal force:
+$$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+Multiply both sides by $r$:
+$$\frac{GMm}{r} = mv^2$$
+The kinetic energy $K$ is given by $K = \frac{1}{2}mv^2$. Substituting the expression for $mv^2$:
+$$K = \frac{1}{2} \left( \frac{GMm}{r} \right) = \frac{GMm}{2r}$$
+The gravitational potential energy $U$ is given by:
+$$U = -\frac{GMm}{r}$$
+Comparing the expressions for $U$ and $K$, we see that $K = -\frac{U}{2}$.
+The total energy $E$ is the sum of kinetic and potential energy:
+$$E = K + U = -\frac{U}{2} + U = \frac{U}{2}$$
+*(Note: Since $U$ is negative, $E$ is also negative, representing a bound orbit).*
+
+---
+
+### (b) Work Done by Gravity
+
+**Solution:**
+The work done by a force is given by the integral of the force over the displacement: $W = \int \mathbf{F} \cdot d\mathbf{s}$. 
+
+1. **Circular Orbit:** Gravity acts perpendicular to the direction of motion (velocity vector) at every point in the orbit. Since the angle between the centripetal force and the displacement is $90^\circ$, the work done by gravity is zero.
+2. **Elliptical Orbit:** Gravity is a conservative force. For any object moving in a closed path (an orbit), the change in potential energy over one complete cycle is zero. By the work-energy theorem, since the kinetic energy at the start and end of a complete orbit must be the same, the net work done by the gravitational field over one full orbit is zero.
+
+**Conclusion:** In both cases, the net work done by gravity over the course of one complete orbit is zero.
+
+---
+
+### How to solve this type of problem:
+1. **Part (a):** Memorise the relationship between centripetal force and gravitational force. This is a foundational HSC physics derivation. Always relate $mv^2$ to the potential energy formula to easily find kinetic energy.
+2. **Part (b):** Remember that gravity is a **conservative force**. Whenever you hear "work done over a closed path/orbit" for a conservative force, the answer is almost always zero because the object returns to its original potential energy state.
+
+###QUESTION_TYPE
+Calculation question

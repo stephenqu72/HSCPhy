@@ -1,0 +1,24 @@
+To determine the correct answer, we must distinguish between the scientific definitions of **accuracy** and **precision**:
+
+*   **Accuracy** refers to how close a measured value is to the true or accepted value (represented here by the dotted line).
+*   **Precision** refers to how close a series of measurements are to one another (consistency/grouping).
+
+### Analysis of the Graph:
+1.  **Accuracy:** If we look at the data points as a collective set, their "center of mass" or average position aligns reasonably well with the dotted line (the trend line). Because the data points are scattered around the true relationship rather than being systematically shifted far away from it, we consider the overall result to be **accurate**.
+2.  **Precision:** Precision is measured by the "spread" of the data points. If the data were precise, all the green dots would be tightly clustered together or lie directly on the line. In this graph, there is a significant scatter (random error) around the dotted line. Because the data points are widely dispersed and not tightly grouped, the data has **low precision**.
+
+Therefore, the data is **accurate** (it captures the general trend) but **not precise** (there is high random variation/scatter).
+
+**Correct Answer: B**
+
+### How to solve this type of question:
+*   **Look for the "Center of Mass":** Does the middle of the cluster sit on or near the target/line? If yes, it is accurate.
+*   **Look for the "Clustering":** Are the points tightly packed together? If yes, it is precise.
+*   **Apply the 4 scenarios:**
+    *   **High accuracy, High precision:** Tight cluster on the line.
+    *   **High accuracy, Low precision:** Loose cluster centered on the line.
+    *   **Low accuracy, High precision:** Tight cluster far from the line.
+    *   **Low accuracy, Low precision:** Loose cluster far from the line.
+
+###QUESTION_TYPE
+Multiple choice

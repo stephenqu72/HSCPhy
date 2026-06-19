@@ -1,0 +1,24 @@
+To solve this problem, we can use the principle of **Conservation of Energy**. 
+
+### Explanation
+
+1.  **Work-Energy Principle:** A particle with charge $q$ moving through a uniform electric field $E$ over a distance $d$ experiences a force $F = qE$. The work done by the electric field on the particle is equal to its gain in kinetic energy.
+2.  **For distance $d$:** The work done is $W = F \times d = qEd$. Since the particle starts from rest, its kinetic energy at distance $d$ is:
+    $$qEd = \frac{1}{2}mv_0^2$$
+    From this, we can see that $v_0^2$ is proportional to $d$ ($v_0^2 \propto d$).
+3.  **For distance $2d$:** Let the new velocity be $v'$. The work done by the field over distance $2d$ is:
+    $$W' = qE(2d) = 2qEd$$
+    Equating this to the new kinetic energy:
+    $$2qEd = \frac{1}{2}m(v')^2$$
+4.  **Comparison:** By substituting the expression for $qEd$ from the first step ($\frac{1}{2}mv_0^2$) into the equation for the second step:
+    $$2 \left( \frac{1}{2}mv_0^2 \right) = \frac{1}{2}m(v')^2$$
+    $$mv_0^2 = \frac{1}{2}m(v')^2$$
+    $$2v_0^2 = (v')^2$$
+    Taking the square root of both sides:
+    $$v' = \sqrt{2}v_0$$
+
+### Answer
+The correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

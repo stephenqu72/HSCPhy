@@ -1,0 +1,30 @@
+To find the magnitude of the magnetic field, we use the formula for the magnetic force on a current-carrying conductor:
+
+$$F = BIL\sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   Force $F = 0.034\text{ N}$
+    *   Current $I = 1.7\text{ A}$
+    *   The angle $\theta$ is the angle between the wire and the magnetic field. Since the field is directed into the page and the wire is in the plane of the page, the angle between the wire and the magnetic field vector is $90^\circ$. Therefore, $\sin(90^\circ) = 1$.
+    *   We need the length $L$ of the wire that is *inside* the magnetic field.
+
+2.  **Determine the length $L$:**
+    The wire forms the hypotenuse of a right-angled triangle. We are given the side opposite the $30^\circ$ angle, which is the vertical height of the magnetic field region: $0.2\text{ m}$.
+    Using trigonometry:
+    $$\sin(30^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{0.2}{L}$$
+    $$L = \frac{0.2}{\sin(30^\circ)} = \frac{0.2}{0.5} = 0.4\text{ m}$$
+
+3.  **Calculate the magnetic field $B$:**
+    Rearranging the force formula to solve for $B$:
+    $$B = \frac{F}{IL\sin(\theta)}$$
+    Since $\sin(\theta) = 1$:
+    $$B = \frac{0.034}{1.7 \times 0.4}$$
+    $$B = \frac{0.034}{0.68}$$
+    $$B = 0.05\text{ T}$$
+
+**Answer:** (A) 0.05T
+
+###QUESTION_TYPE
+Multiple choice

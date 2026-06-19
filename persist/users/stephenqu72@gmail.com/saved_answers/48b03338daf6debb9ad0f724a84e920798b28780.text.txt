@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Part (a)
+*   **Time $t_1$**: The loop is entering the magnetic field. The magnetic flux through the loop is increasing. According to Lenz's Law, the induced current creates a magnetic field to oppose this increase. The induced field must point out of the page. Using the Right-Hand Grip Rule, the current is **counter-clockwise**.
+*   **Time $t_2$**: The entire loop is inside the region of constant, uniform magnetic field. As it moves, the total magnetic flux through the loop remains constant ($\Phi_B = B \cdot A = \text{constant}$). Since there is no change in magnetic flux ($\Delta\Phi_B = 0$), there is **no induced current** (Faraday's Law).
+*   **Time $t_3$**: The loop is exiting the magnetic field. The magnetic flux through the loop is decreasing. To oppose this decrease, the induced current creates a magnetic field pointing into the page. Using the Right-Hand Grip Rule, the current is **clockwise**.
+
+#### Part (b)(i)
+The magnetic force on a charge is $F = qvB\sin(\theta)$. Here, $v$ is perpendicular to $B$ ($\theta = 90^\circ$).
+$q_{\text{proton}} = 1.602 \times 10^{-19} \text{ C}$
+$v = 3.0 \times 10^5 \text{ ms}^{-1}$
+$B = 0.030 \text{ T}$
+$F = (1.602 \times 10^{-19}) \times (3.0 \times 10^5) \times (0.030) = 1.4418 \times 10^{-15} \text{ N}$
+**Magnitude $\approx 1.4 \times 10^{-15} \text{ N}$**
+
+#### Part (b)(ii) & (iii)
+*   **Path P1**: Use the Right-Hand Rule. Fingers point right ($v$), palm points into the page ($B$), thumb points **upward**. The proton will curve in a circular path deflected upward.
+*   **Path P2**: The radius of curvature is $r = \frac{mv}{qB}$. Since $v$ is greater for the second proton, the radius $r$ is larger. Therefore, the path P2 will be **flatter (less curved)** than P1.
+
+#### Part (b)(iv)
+For the net force to be zero, the electric force must cancel the magnetic force: $F_E = F_B \Rightarrow qE = qvB \Rightarrow E = vB$.
+$E = (3.0 \times 10^5) \times (0.030) = 9.0 \times 10^3 \text{ Vm}^{-1}$
+Since the magnetic force acts upward, the electric force must act downward to oppose it. For a positive charge (proton), the electric force is in the direction of the electric field. Therefore, the electric field must point **downward**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

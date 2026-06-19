@@ -1,0 +1,41 @@
+This question covers core HSC Physics concepts relating to circular motion, force, and experimental analysis.
+
+### Answers and Explanations
+
+**a. Why did the students take repeated time measurements?**
+To calculate an average, which reduces the impact of random errors and increases the reliability of the data.
+
+**b. What is the cause of this tension?**
+The gravitational force (weight) acting on the hanging metal washers.
+
+**c. Develop an equation between $Mg$ and the quantities listed.**
+In this equilibrium state, the tension in the cord provides the centripetal force for the stopper: $T = F_c = \frac{4\pi^2 m R}{T^2}$. Since the tension is caused by the weight of the washers:
+$$Mg = \frac{4\pi^2 m R}{T^2}$$
+
+**d. Fill in the blank columns in Table 2.**
+*Formulae:* $Mg = M \times 10$; $T = \frac{\text{Average time}}{20}$; $\frac{1}{T^2} = (\frac{1}{T})^2$.
+
+| Line | $M$ (kg) | $Mg$ (N) | Avg Time (s) | $T$ (s) | $1/T^2$ ($s^{-2}$) |
+|---|---|---|---|---|---|
+| 1 | 0.30 | 3.0 | 14.0 | 0.70 | 2.04 |
+| 2 | 0.36 | 3.6 | 12.8 | 0.64 | 2.44 |
+| 3 | 0.42 | 4.2 | 11.8 | 0.59 | 2.87 |
+| 4 | 0.48 | 4.8 | 11.0 | 0.55 | 3.31 |
+| 5 | 0.54 | 5.4 | 10.4 | 0.52 | 3.70 |
+
+**e. Graph**
+Plot $Mg$ on the y-axis vs $1/T^2$ on the x-axis. The relationship is linear, so draw a straight line of best fit starting from near the origin. Ensure uncertainty bars of $\pm 0.1$ are marked horizontally on the $1/T^2$ points.
+
+**f. Calculate the gradient**
+Pick two points on your line of best fit $(x_1, y_1)$ and $(x_2, y_2)$:
+$$\text{Gradient} = \frac{y_2 - y_1}{x_2 - x_1}$$
+Using the data points provided: $\text{Gradient} \approx \frac{5.4 - 3.0}{3.70 - 2.04} \approx \frac{2.4}{1.66} \approx 1.45 \text{ Ns}^2$.
+
+**g. Show that $m \approx 50\text{ g}$**
+From the equation in part (c), $Mg = (4\pi^2 m R) \times (\frac{1}{T^2})$. This matches the linear form $y = kx$, where $k$ (the gradient) $= 4\pi^2 m R$.
+Given $R = 0.75\text{ m}$:
+$$1.45 = 4 \times \pi^2 \times m \times 0.75$$
+$$m = \frac{1.45}{3 \times \pi^2} \approx 0.049\text{ kg} = 49\text{ g} \approx 50\text{ g}$$
+
+###QUESTION_TYPE
+Data analysis questions

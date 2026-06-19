@@ -1,0 +1,33 @@
+Here are the solutions to the questions provided.
+
+### (a) Qualitative Description
+**Answer:** The gravitational force exerted by the Earth on the Moon is **equal in magnitude and opposite in direction** to the gravitational force exerted by the Moon on the Earth. This is a direct application of Newton’s Third Law of Motion.
+
+**Teacher's Explanation:** Students often mistakenly believe the larger body exerts a stronger force. Remember that gravity is a mutual interaction between two masses; therefore, both objects pull on each other with the same amount of force.
+
+---
+
+### (b) Zero Net Force Explanation
+**Answer:** The gravitational force is given by $F_g = \frac{GMm}{r^2}$. A spacecraft experiences a zero net force when the pull of the Earth equals the pull of the Moon: 
+$$\frac{G M_E m}{r_E^2} = \frac{G M_M m}{r_M^2}$$
+Since the mass of the Earth ($M_E$) is significantly greater than the mass of the Moon ($M_M$), the spacecraft must be much closer to the Moon ($r_M < r_E$) for the gravitational force from the smaller body to balance the force from the larger body.
+
+**Teacher's Explanation:** You must cite the inverse-square law formula. Explain that because $F_g$ depends on both $M$ and $r^2$, the point of equilibrium (the Lagrange point $L_1$) must shift toward the less massive body to compensate for its smaller mass.
+
+---
+
+### (c) Calculation of Escape Energy
+**Answer:**
+1. **Identify the Total Energy in Orbit:** The spacecraft has both kinetic energy and gravitational potential energy. The orbital velocity for a circular orbit is $v = \sqrt{\frac{GM_E}{r}}$.
+   - $r = R_E + \text{altitude} = 6.37 \times 10^6\text{ m} + 0.50 \times 10^6\text{ m} = 6.87 \times 10^6\text{ m}$
+   - $M_E \approx 5.97 \times 10^{24}\text{ kg}$
+   - $E_{total} = -\frac{GM_Em}{2r}$
+   - $E_{total} = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(4.50 \times 10^3)}{2(6.87 \times 10^6)} \approx -1.30 \times 10^{11}\text{ J}$
+
+2. **Identify Energy at Escape:** To "just escape," the total energy must be $0\text{ J}$.
+3. **Calculate Required Energy:** $\Delta E = E_{final} - E_{initial} = 0 - (-1.30 \times 10^{11}\text{ J}) = 1.30 \times 10^{11}\text{ J}$.
+
+**Teacher's Explanation:** The "energy required" is the difference between the final energy state (zero at infinity) and the current total orbital energy. Remember that an orbiting satellite already has negative energy; you need to add enough work to bring that total energy up to zero.
+
+###QUESTION_TYPE
+Calculation question

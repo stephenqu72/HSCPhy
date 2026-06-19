@@ -1,0 +1,32 @@
+### Answer
+
+**(a) Initial Force**
+The magnitude of the magnetic force $F$ is calculated using the formula $F = qvB\sin(\theta)$.
+Given:
+- $q = 7.5 \times 10^{-6} \, \text{C}$
+- $v = 6.0 \times 10^3 \, \text{m s}^{-1}$
+- $B = 3.6 \times 10^{-4} \, \text{T}$
+- $\theta = 90^\circ$ (the velocity is perpendicular to the magnetic field)
+
+$$F = (7.5 \times 10^{-6}) \times (6.0 \times 10^3) \times (3.6 \times 10^{-4}) \times \sin(90^\circ)$$
+$$F = 1.62 \times 10^{-5} \, \text{N}$$
+
+Using the Right-Hand Rule: Pointing fingers in the direction of velocity (right) and curling them into the page (magnetic field direction), the thumb points **upward**. 
+**The initial force is $1.62 \times 10^{-5} \, \text{N}$ directed vertically upwards.**
+
+**(b) Subsequent Motion**
+The magnetic force acts as a centripetal force ($F_c = \frac{mv^2}{r}$), causing the particle to undergo **uniform circular motion**.
+We find the radius $r$ using the equality $qvB = \frac{mv^2}{r}$:
+$$r = \frac{mv}{qB}$$
+$$r = \frac{(4.0 \times 10^{-15}) \times (6.0 \times 10^3)}{(7.5 \times 10^{-6}) \times (3.6 \times 10^{-4})}$$
+$$r = \frac{2.4 \times 10^{-11}}{2.7 \times 10^{-9}} \approx 8.89 \times 10^{-3} \, \text{m} = 8.89 \, \text{mm}$$
+The particle will move in a **circular path with a radius of $8.89 \, \text{mm}$** at a constant speed of $6.0 \times 10^3 \, \text{m s}^{-1}$.
+
+---
+
+### How to solve it
+1. **Part (a):** Recognize that a charge moving through a magnetic field experiences a Lorentz force. Use the standard formula $F = qvB$ since the particle enters perpendicular to the field ($\sin 90^\circ = 1$). Ensure all units are in SI (convert $\mu\text{C}$ to $\text{C}$). Apply the Right-Hand Rule to determine the vector direction.
+2. **Part (b):** Connect the concepts of magnetism and circular motion. Since the magnetic force is always perpendicular to the velocity, it does no work, meaning speed remains constant. Equate the magnetic force $qvB$ to the centripetal force $\frac{mv^2}{r}$ to solve for the radius, which mathematically defines the "subsequent motion."
+
+###QUESTION_TYPE
+Calculation question

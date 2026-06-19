@@ -1,0 +1,30 @@
+To solve this problem, we use the formula for torque:
+$$\tau = F \times d = m \times g \times d$$
+Since $g$ (acceleration due to gravity) is constant for all diagrams, we can compare the net torque by calculating the sum of the moments ($m \times d$) for each side of the fulcrum and finding the difference between them. Let $d$ be the unit distance from the fulcrum.
+
+### Analysis of each diagram:
+
+*   **A:**
+    *   Left side: Mass $6$ at distance $1 \Rightarrow 6 \times 1 = 6$ (counter-clockwise)
+    *   Right side: Masses $4$ and $2$ at distance $3 \Rightarrow (4+2) \times 3 = 18$ (clockwise)
+    *   Net torque: $|18 - 6| = 12$ units.
+
+*   **B:**
+    *   Left side: Masses $6$ and $2$ at distance $1 \Rightarrow (6+2) \times 1 = 8$ (counter-clockwise)
+    *   Right side: Mass $4$ at distance $3 \Rightarrow 4 \times 3 = 12$ (clockwise)
+    *   Net torque: $|12 - 8| = 4$ units.
+
+*   **C:**
+    *   Left side: Mass $6$ at distance $1 \Rightarrow 6 \times 1 = 6$ (counter-clockwise)
+    *   Right side: Mass $4$ at distance $1$ and Mass $2$ at distance $2 \Rightarrow (4 \times 1) + (2 \times 2) = 8$ (clockwise)
+    *   Net torque: $|8 - 6| = 2$ units.
+
+*   **D:**
+    *   Left side: Mass $6$ at distance $1 \Rightarrow 6 \times 1 = 6$ (counter-clockwise)
+    *   Right side: Mass $2$ at distance $1$ and Mass $4$ at distance $2 \Rightarrow (2 \times 1) + (4 \times 2) = 10$ (clockwise)
+    *   Net torque: $|10 - 6| = 4$ units.
+
+Comparing the net torques ($12, 4, 2, 4$), diagram **A** has the greatest net torque.
+
+###QUESTION_TYPE
+Multiple choice

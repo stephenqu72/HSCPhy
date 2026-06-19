@@ -1,0 +1,29 @@
+To solve this problem, we use the **Right-Hand Rule** for the motor effect. The force $F$ acting on a current-carrying wire in a magnetic field is given by the vector relationship described by $F = I L \times B$.
+
+### Explanation
+
+1.  **Understand the Principle:** The direction of the force is determined by the relative directions of the current ($I$) and the magnetic field ($B$), which points from North to South. If you reverse only one of these factors (either current or magnetic field), the force direction reverses. If you reverse *both* simultaneously, the force direction remains the same.
+    *   Let the original state be $I$ and $B$. The force direction is $F \propto I \times B$.
+
+2.  **Analyze Arrangement P:**
+    *   The magnet is turned around, so the magnetic field $B$ is reversed (it now points in the opposite direction).
+    *   The current $I$ remains the same.
+    *   Result: The force direction is reversed.
+
+3.  **Analyze Arrangement Q:**
+    *   The magnet orientation remains the same, so $B$ is the same.
+    *   The current direction is reversed ($I$ becomes $-I$).
+    *   Result: The force direction is reversed ($F \propto -I \times B$).
+
+4.  **Analyze Arrangement R:**
+    *   The magnet is turned around, so $B$ is reversed ($-B$).
+    *   The current direction is also reversed ($-I$).
+    *   Result: The force direction remains the same because $(-I) \times (-B) = I \times B$.
+
+### Conclusion
+Arrangement R is the only one where both the magnetic field and the current direction are reversed relative to the original setup, resulting in the force acting in the same original direction.
+
+The correct answer is **(B) R only**.
+
+###QUESTION_TYPE
+Multiple choice

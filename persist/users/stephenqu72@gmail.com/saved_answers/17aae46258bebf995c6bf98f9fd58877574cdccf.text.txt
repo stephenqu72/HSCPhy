@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(A) inwards towards the centre of the circle.**
+
+### Explanation
+To understand this question, we must apply Newton’s Second Law ($F_{net} = ma$) to an object undergoing **Uniform Circular Motion**.
+
+1.  **Understanding the Motion:** Even though the car is travelling at a *constant speed*, its *velocity* is changing because its **direction** is constantly changing. 
+2.  **Acceleration:** Acceleration is defined as the rate of change of velocity. Since the direction of the velocity vector is constantly changing to maintain the circular path, there must be a net acceleration acting on the car. This acceleration is known as centripetal acceleration ($a_c$).
+3.  **Direction of Acceleration:** The centripetal acceleration always points perpendicularly to the instantaneous velocity, directed toward the centre of the circular path.
+4.  **Net Force (Centripetal Force):** According to Newton's Second Law, the net force must act in the same direction as the acceleration. Therefore, the net horizontal force must also be directed toward the centre of the circle to keep the car turning.
+    *   Mathematically: $$F_{net} = m a_c = \frac{m v^2}{r}$$
+    *   Where $m$ is the mass, $v$ is the constant speed, and $r$ is the radius of the circle.
+
+**Why the others are incorrect:**
+*   **(B)** is a common misconception (the "centrifugal force" is a fictitious force felt in a non-inertial frame of reference, not the net physical force acting on the object).
+*   **(C)** would result in an increase in the car's speed (tangential acceleration), not circular motion at constant speed.
+*   **(D)** would result in the car travelling in a straight line at a constant velocity, according to Newton’s First Law.
+
+###QUESTION_TYPE
+Multiple choice

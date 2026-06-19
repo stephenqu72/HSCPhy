@@ -1,0 +1,37 @@
+To solve this problem, we need to calculate the net force acting on the proton using the principles of electromagnetism and then apply Newton's Second Law to find the acceleration.
+
+### Given Data:
+*   Velocity ($v$) = $1.5 \text{ m/s}$
+*   Electric Field ($E$) = $0.001 \text{ V/m}$
+*   Magnetic Field ($B$) = $0.02 \text{ mT} = 0.02 \times 10^{-3} \text{ T} = 2 \times 10^{-5} \text{ T}$
+*   Charge of a proton ($q$) = $1.602 \times 10^{-19} \text{ C}$
+*   Mass of a proton ($m$) = $1.673 \times 10^{-27} \text{ kg}$
+
+### Step-by-Step Solution:
+
+**1. Calculate the Electric Force ($F_E$):**
+The force exerted by an electric field is given by:
+$$F_E = qE$$
+$$F_E = (1.602 \times 10^{-19} \text{ C})(0.001 \text{ V/m}) = 1.602 \times 10^{-22} \text{ N}$$
+
+**2. Calculate the Magnetic Force ($F_B$):**
+The force exerted by a magnetic field on a moving charge (where the velocity is perpendicular to the field) is given by:
+$$F_B = qvB$$
+$$F_B = (1.602 \times 10^{-19} \text{ C})(1.5 \text{ m/s})(2 \times 10^{-5} \text{ T})$$
+$$F_B = 4.806 \times 10^{-24} \text{ N}$$
+
+**3. Calculate the Net Force ($F_{\text{net}}$):**
+Since the problem states the forces are in the same direction, we add them together:
+$$F_{\text{net}} = F_E + F_B$$
+$$F_{\text{net}} = 1.602 \times 10^{-22} + 0.04806 \times 10^{-22} = 1.65006 \times 10^{-22} \text{ N}$$
+
+**4. Calculate the Acceleration ($a$):**
+Using Newton's Second Law ($F = ma \implies a = F/m$):
+$$a = \frac{1.65006 \times 10^{-22} \text{ N}}{1.673 \times 10^{-27} \text{ kg}}$$
+$$a \approx 98628.8 \text{ m/s}^2 \approx 9.86 \times 10^4 \text{ m/s}^2$$
+
+### Final Answer:
+The acceleration of the proton is approximately **$9.86 \times 10^4 \text{ m/s}^2$**.
+
+###QUESTION_TYPE
+Calculation question

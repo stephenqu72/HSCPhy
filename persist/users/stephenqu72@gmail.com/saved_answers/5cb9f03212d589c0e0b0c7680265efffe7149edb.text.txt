@@ -1,0 +1,16 @@
+To determine the correct statement, we must analyze the physics of gravitational potential energy and the work-energy theorem in the context of satellite motion.
+
+### Analysis of the options:
+
+*   **Option A:** The gravitational potential energy ($U$) of a satellite is given by $U = - \frac{GMm}{r}$. When a satellite moves from a higher orbit to a lower orbit, the orbital radius $r$ decreases. Because $U$ is negative, as $r$ becomes smaller, the value becomes more negative (e.g., from $-10$ to $-20$). Therefore, the gravitational potential energy **decreases**, not increases. This makes A incorrect.
+*   **Option B:** The formula for gravitational potential energy depends directly on the mass of the satellite ($m$). Therefore, the change in energy ($\Delta U = U_f - U_i$) is dependent on the mass. This makes B incorrect.
+*   **Option C:** This defines the gravitational potential energy of the satellite at the lower orbit (the work done to bring an object from infinity to a point), not the work done to move it specifically from one orbit to another. This makes C incorrect.
+*   **Option D:** Work done ($W$) is defined as the change in the system's energy. Specifically, the work required to move between two states is the difference in potential energy between those states: $W = \Delta U = U_{final} - U_{initial}$. In this case, it is the difference between the gravitational potential energy of the higher orbit and the lower orbit. This makes D correct.
+
+### Explanation:
+When moving a satellite between orbits, we are concerned with the change in the energy state of the object. The work done on or by the satellite to shift its orbit is equal to the change in its mechanical energy. By definition, the change in potential energy between two points is the difference in potential energy values at those two points.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

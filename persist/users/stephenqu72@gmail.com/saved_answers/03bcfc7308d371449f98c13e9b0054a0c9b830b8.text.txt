@@ -1,0 +1,27 @@
+To find the net force on the middle wire, we use the formula for the force per unit length between two parallel wires:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+
+Given:
+- $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$
+- Length of wires $L = 0.2 \, \text{m}$
+- Middle wire current $I_2 = 3 \, \text{A}$
+
+### 1. Force from the left wire ($I_1 = 2 \, \text{A}$, $r = 0.02 \, \text{m}$)
+Since both currents are flowing in the same direction (into the page, denoted by 'X'), they attract each other.
+$$F_1 = \frac{(4\pi \times 10^{-7})(2)(3)(0.2)}{2\pi(0.02)} = \frac{(2 \times 10^{-7})(6)(0.2)}{0.02} = 1.2 \times 10^{-5} \, \text{N}$$
+Since they attract, the middle wire is pulled **to the left**.
+
+### 2. Force from the right wire ($I_3 = 4 \, \text{A}$, $r = 0.03 \, \text{m}$)
+The middle wire current ($3 \, \text{A}$) and the right wire current ($4 \, \text{A}$) are both flowing into the page, so they also attract each other.
+$$F_3 = \frac{(4\pi \times 10^{-7})(3)(4)(0.2)}{2\pi(0.03)} = \frac{(2 \times 10^{-7})(12)(0.2)}{0.03} = 1.6 \times 10^{-5} \, \text{N}$$
+Since they attract, the middle wire is pulled **to the right**.
+
+### 3. Net Force
+Calculate the resultant force:
+$$F_{\text{net}} = F_3 - F_1 = 1.6 \times 10^{-5} - 1.2 \times 10^{-5} = 0.4 \times 10^{-5} \, \text{N}$$
+Because the force to the right ($1.6 \times 10^{-5}$) is greater than the force to the left ($1.2 \times 10^{-5}$), the net force is **$0.4 \times 10^{-5} \, \text{N}$ to the right**.
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

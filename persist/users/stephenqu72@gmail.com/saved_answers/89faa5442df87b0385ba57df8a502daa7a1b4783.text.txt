@@ -1,0 +1,32 @@
+To solve this problem, we apply the principle of conservation of energy. The electrical potential energy lost by the proton as it moves through the potential difference is converted into kinetic energy.
+
+### Part (a)
+**1. Identify the given values:**
+*   Potential difference ($V$): $2.0\text{ kV} = 2000\text{ V}$
+*   Charge of a proton ($q$): $1.602 \times 10^{-19}\text{ C}$
+*   Mass of a proton ($m$): $1.673 \times 10^{-27}\text{ kg}$
+
+**2. State the energy conservation equation:**
+The work done on the proton is equal to its gain in kinetic energy:
+$$qV = \frac{1}{2}mv^2$$
+
+**3. Rearrange to solve for velocity ($v$):**
+$$v = \sqrt{\frac{2qV}{m}}$$
+
+**4. Substitute the values:**
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19}\text{ C}) \times (2000\text{ V})}{1.673 \times 10^{-27}\text{ kg}}}$$
+$$v = \sqrt{\frac{6.408 \times 10^{-16}}{1.673 \times 10^{-27}}}$$
+$$v \approx \sqrt{3.83 \times 10^{11}}$$
+$$v \approx 6.19 \times 10^5\text{ m/s}$$
+
+The proton's speed as it passes through the gap is approximately $6.2 \times 10^5\text{ m/s}$.
+
+---
+
+### Part (b)
+The distance between the plates ($d$) does not influence the final speed because the final kinetic energy depends only on the potential difference ($V$) and the charge ($q$). 
+
+While changing the distance $d$ does change the strength of the electric field ($E = V/d$) and the force experienced by the proton ($F = qE$), it also changes the distance over which that force acts. A larger distance results in a weaker force acting over a longer displacement, resulting in the same total work done ($W = Fd = (qV/d) \times d = qV$). Consequently, the final velocity remains dependent solely on the total potential energy converted.
+
+###QUESTION_TYPE
+Calculation question

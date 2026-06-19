@@ -1,0 +1,29 @@
+To solve this problem, we look at the physics principle governing the force between two parallel current-carrying wires.
+
+### Answer
+The correct option is **(b) half of the original value.**
+
+### Explanation
+The magnitude of the force per unit length $F/L$ between two long parallel wires carrying currents $I_1$ and $I_2$ separated by a distance $r$ is given by the formula:
+
+$$F/L = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+Where:
+- $\mu_0$ is the permeability of free space (a constant).
+- $I_1$ and $I_2$ are the currents in the two wires.
+- $r$ is the separation distance between the wires.
+
+From this formula, we can see that the force is **inversely proportional** to the distance $r$ between the wires:
+$$F \propto \frac{1}{r}$$
+
+Let the original force be $F_1$ and the original distance be $r_1 = 0.05\text{ m}$.
+Let the new force be $F_2$ and the new distance be $r_2 = 0.1\text{ m}$.
+
+Since $r_2 = 2 \times r_1$ (the distance has doubled), we can calculate the ratio of the forces:
+$$\frac{F_2}{F_1} = \frac{r_1}{r_2}$$
+$$\frac{F_2}{F_1} = \frac{0.05}{0.1} = \frac{1}{2}$$
+
+Therefore, $F_2 = 0.5 \times F_1$. The new force is exactly half of the original value.
+
+###QUESTION_TYPE
+Multiple choice

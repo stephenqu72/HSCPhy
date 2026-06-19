@@ -1,0 +1,36 @@
+To solve this problem, we first define our constants and variables:
+*   Mass of satellite ($m$) = $2550\text{ kg}$
+*   Altitude ($h$) = $35\,800\text{ km} = 35\,800\,000\text{ m}$
+*   Radius of Earth ($R_E$) $\approx 6.37 \times 10^6\text{ m}$
+*   Mass of Earth ($M$) $\approx 5.97 \times 10^{24}\text{ kg}$
+*   Gravitational constant ($G$) $\approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+*   Orbital radius ($r$) = $R_E + h = 6\,370\,000 + 35\,800\,000 = 42\,170\,000\text{ m}$ ($4.217 \times 10^7\text{ m}$)
+
+### (a) Calculate the total mechanical energy
+The total mechanical energy ($E$) of a satellite in a circular orbit is given by:
+$$E = -\frac{GMm}{2r}$$
+Substituting the values:
+$$E = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(2550)}{2(4.217 \times 10^7)}$$
+$$E \approx -1.20 \times 10^{10}\text{ J}$$
+
+### (b) Calculate the speed of the satellite
+The orbital speed ($v$) is given by:
+$$v = \sqrt{\frac{GM}{r}}$$
+Substituting the values:
+$$v = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{4.217 \times 10^7}}$$
+$$v \approx 3073\text{ m/s (or } \approx 3.07\text{ km/s)}$$
+
+### (c) Identify the satellite and its uses
+The altitude of $35\,800\text{ km}$ corresponds to a **Geostationary Satellite**.
+Two uses include:
+1.  **Telecommunications:** Providing continuous coverage for television, radio, and telephone signals across large geographical areas.
+2.  **Weather monitoring:** Providing continuous observation of specific regions on Earth to track weather patterns and climate changes.
+
+---
+### Explanation of Solution
+*   **Part (a):** Use the formula for total orbital energy. Remember that the distance $r$ must be the distance from the *center* of the Earth, so add the Earth's radius to the altitude.
+*   **Part (b):** Use the standard circular orbital velocity formula. Ensure units are in SI (meters and kilograms).
+*   **Part (c):** Recognize the specific altitude as the hallmark of a geostationary orbit, which matches the Earth's rotational period, keeping the satellite fixed over one point on the equator.
+
+###QUESTION_TYPE
+Calculation question

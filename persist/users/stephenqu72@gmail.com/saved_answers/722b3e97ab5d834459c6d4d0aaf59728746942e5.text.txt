@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a) Explain how rotating the space station simulates gravity
+**Answer:**
+Rotating the space station creates a non-inertial frame of reference for the astronaut. Due to the rotation, the floor of the station exerts a centripetal force on the astronaut to keep them moving in a circular path. According to Newton's Third Law, the astronaut exerts an equal and opposite force on the floor. This contact force provides the sensation of weight, which the astronaut perceives as an "artificial gravity" directed towards the outer edge of the rotating ring.
+
+**Explanation:**
+To earn full marks here, you must link the circular motion to the sensation of weight.
+1. Mention that rotation causes a **centripetal acceleration** ($a_c = r\omega^2$).
+2. Explain that the floor of the station pushes against the astronaut to provide this acceleration (Normal force).
+3. Conclude that the astronaut feels this normal force as their "weight," effectively simulating gravity.
+
+---
+
+#### Part (b) Calculate the angular velocity
+**Answer:**
+We use the formula for centripetal acceleration: 
+$$a_c = r\omega^2$$
+
+**1. Identify given variables:**
+*   Acceleration ($a_c$) = $1g \approx 9.8 \, \text{m/s}^2$
+*   Diameter = $550 \, \text{m}$, so the radius ($r$) = $275 \, \text{m}$
+
+**2. Rearrange the formula to solve for angular velocity ($\omega$):**
+$$\omega = \sqrt{\frac{a_c}{r}}$$
+
+**3. Substitute the values:**
+$$\omega = \sqrt{\frac{9.8}{275}}$$
+$$\omega = \sqrt{0.03563...}$$
+$$\omega \approx 0.1888 \, \text{rad/s}$$
+
+Rounding to two significant figures (consistent with the provided data), the angular velocity is **$0.19 \, \text{rad/s}$**.
+
+**Explanation:**
+This is a standard circular motion problem. Always remember to convert diameter to radius first, as physics formulas for rotation almost exclusively use $r$. Ensure your units are consistent (meters and seconds), and verify that you are calculating angular velocity ($\omega$, measured in rad/s) rather than linear velocity ($v$, measured in m/s).
+
+###QUESTION_TYPE
+Calculation question

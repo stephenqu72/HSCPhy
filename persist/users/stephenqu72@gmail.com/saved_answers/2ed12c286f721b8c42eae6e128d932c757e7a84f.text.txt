@@ -1,0 +1,34 @@
+To solve this problem, we need to apply the relationships between angular motion and linear motion for a rotating rigid body.
+
+### Analysis
+
+1.  **Linear Speed ($v$):**
+    For a rigid body rotating with a constant angular speed $\omega$, the linear speed $v$ of a point at a radial distance $r$ from the axis of rotation is given by:
+    $$v = r\omega$$
+    *   For point P, located at distance $r_P = \frac{r}{2}$:
+        $$v_P = \left(\frac{r}{2}\right)\omega = \frac{1}{2}r\omega$$
+    *   For point Q, located at distance $r_Q = r$:
+        $$v_Q = r\omega$$
+    Comparing the two, we clearly see that $v_P = \frac{1}{2}v_Q$, therefore **$v_P < v_Q$**.
+
+2.  **Acceleration ($a$):**
+    In uniform circular motion, the acceleration is the centripetal acceleration, defined by the formula:
+    $$a = r\omega^2$$
+    *   For point P:
+        $$a_P = \left(\frac{r}{2}\right)\omega^2 = \frac{1}{2}r\omega^2$$
+    *   For point Q:
+        $$a_Q = r\omega^2$$
+    Comparing the two, we see that $a_P = \frac{1}{2}a_Q$.
+
+### Conclusion
+Based on the derivations above, we have $v_P < v_Q$ and $a_P = \frac{1}{2}a_Q$. Looking at the provided options, this corresponds to **Option B**.
+
+---
+
+### How to solve it
+*   **Identify the constant:** Recognize that for any two points on a rotating disk, the angular speed $\omega$ is the same.
+*   **Linear Speed Relation:** Recall $v = r\omega$. Since $r_P < r_Q$, it follows logically that $v_P < v_Q$.
+*   **Acceleration Relation:** Recall $a = r\omega^2$. Substitute the specific distances ($r/2$ vs $r$) into the equation to establish the proportional relationship.
+
+###QUESTION_TYPE
+Multiple choice

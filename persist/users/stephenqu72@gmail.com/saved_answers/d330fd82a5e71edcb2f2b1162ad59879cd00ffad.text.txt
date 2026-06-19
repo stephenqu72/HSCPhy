@@ -1,0 +1,35 @@
+To determine the correct path, we must apply two physical principles: the **Right-Hand Rule** for direction and the formula for the **radius of a charged particle in a magnetic field**.
+
+### 1. Determining the Path Direction
+When a positively charged particle (a proton) enters a magnetic field directed into the page (indicated by the 'x's), we use the Right-Hand Rule:
+*   Point your fingers in the direction of the magnetic field ($\vec{B}$, into the page).
+*   Point your thumb in the direction of the velocity ($\vec{v}$, to the right).
+*   The palm of your hand points in the direction of the force ($F_B$) on a **positive** charge.
+*   Applying this: Fingers point into the page, thumb points right, the palm faces **upward**. Therefore, the proton will be deflected toward $P_1$ or $P_3$.
+
+### 2. Calculating the Radius
+When a charged particle moves perpendicularly into a magnetic field, the magnetic force acts as a centripetal force:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius ($r$):
+$$r = \frac{mv}{qB}$$
+
+**Given values:**
+*   Mass of a proton ($m$) $\approx 1.67 \times 10^{-27} \text{ kg}$
+*   Velocity ($v$) = $4.0 \times 10^6 \text{ m/s}$
+*   Charge of a proton ($q$) $\approx 1.60 \times 10^{-19} \text{ C}$
+*   Magnetic field ($B$) = $0.55 \text{ T}$
+
+**Calculation:**
+$$r = \frac{(1.67 \times 10^{-27} \text{ kg}) \times (4.0 \times 10^6 \text{ m/s})}{(1.60 \times 10^{-19} \text{ C}) \times (0.55 \text{ T})}$$
+$$r = \frac{6.68 \times 10^{-21}}{8.8 \times 10^{-20}}$$
+$$r \approx 0.0759 \text{ m}$$
+
+Rounding to match the significant figures provided in the options, this value is approximately **$0.074 \text{ m}$**.
+
+Since the direction is upward and the calculated radius is $0.074 \text{ m}$, the proton will follow path **$P_3$**.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

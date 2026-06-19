@@ -1,0 +1,36 @@
+To solve this problem, we use the formula for the magnetic force experienced by a current-carrying conductor in a uniform magnetic field:
+
+$$F = IlB\sin(\theta)$$
+
+where:
+- $I$ is the current,
+- $l$ is the length of the rod,
+- $B$ is the magnetic field strength,
+- $\theta$ is the angle between the direction of the current and the direction of the magnetic field.
+
+### Step 1: Analyze the initial state
+In the diagram, the rod is perpendicular to the magnetic field lines. This means the angle between the current $I$ and the field $B$ is $90^\circ$.
+$$F = IlB \sin(90^\circ) = IlB(1) = IlB$$
+
+### Step 2: Determine the required condition
+We want the rod to experience a new force, $F'$, where:
+$$F' = \frac{F}{2} = \frac{IlB}{2}$$
+
+Substituting the formula for the new force:
+$$IlB \sin(\theta') = \frac{IlB}{2}$$
+$$\sin(\theta') = \frac{1}{2}$$
+
+### Step 3: Solve for the angle
+The angle $\theta'$ between the current and the magnetic field must satisfy $\sin(\theta') = 0.5$.
+The acute angle that satisfies this is $\theta' = 30^\circ$.
+
+### Step 4: Calculate the rotation required
+Initially, the rod was at $90^\circ$ relative to the magnetic field. To reach a position where the angle is $30^\circ$ relative to the field lines, the rod must be rotated clockwise.
+$$\text{Rotation} = 90^\circ - 30^\circ = 60^\circ$$
+
+Therefore, the rod must be rotated clockwise by $60^\circ$ so that the angle between the rod and the field lines becomes $30^\circ$, resulting in a force of $\frac{F}{2}$.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

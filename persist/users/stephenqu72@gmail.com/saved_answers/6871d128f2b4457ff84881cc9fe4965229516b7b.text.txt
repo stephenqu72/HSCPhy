@@ -1,0 +1,23 @@
+To solve this problem, we look at the formula for the magnetic force per unit length ($F/L$) between two parallel, long, straight current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+Where:
+- $\mu_0$ is the permeability of free space.
+- $I_1$ and $I_2$ are the currents in the two wires.
+- $r$ is the separation distance between the wires.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship:** From the formula, we can see that the force per unit length is inversely proportional to the separation distance $r$. That is, $F \propto \frac{1}{r}$.
+2.  **Apply the change:** The question states that the separation distance is doubled. If we replace $r$ with $2r$ in our relationship:
+    $$F_{new} \propto \frac{1}{2r}$$
+3.  **Compare to original:** Since the original force was $F \propto \frac{1}{r}$, replacing $r$ with $2r$ results in the force being divided by 2:
+    $$F_{new} = \frac{1}{2} \times F = \frac{F}{2}$$
+
+Therefore, when the separation distance is doubled, the force per unit length is halved.
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

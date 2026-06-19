@@ -1,0 +1,41 @@
+To solve this problem, we must apply the principles of electrostatics and kinematics.
+
+### Given Data:
+- Mass $m = 5.0\text{ mg} = 5.0 \times 10^{-6}\text{ kg}$
+- Charge $q = +2.0\text{ }\mu\text{C} = 2.0 \times 10^{-6}\text{ C}$
+- Initial speed $v = 4.00\text{ m/s}$
+- Angle $\theta = 30^\circ$
+- Potential difference $V = 2000\text{ V}$
+- Plate separation $d = 2.0\text{ m}$
+
+---
+
+### (a) Find the acceleration of the charged particle
+1. **Find the Electric Field ($E$):**
+   $$E = \frac{V}{d} = \frac{2000\text{ V}}{2.0\text{ m}} = 1000\text{ V/m}$$
+2. **Find the Electric Force ($F$):**
+   $$F = qE = (2.0 \times 10^{-6}\text{ C})(1000\text{ V/m}) = 2.0 \times 10^{-3}\text{ N}$$
+3. **Find Acceleration ($a$):**
+   Since the particle is positively charged, it is repelled by the top plate (+) and attracted to the bottom plate (-). The force acts downward.
+   $$a = \frac{F}{m} = \frac{2.0 \times 10^{-3}\text{ N}}{5.0 \times 10^{-6}\text{ kg}} = 400\text{ m/s}^2 \text{ (downwards)}$$
+
+---
+
+### (b) How far along will the particle hit the negative plate?
+We treat this as projectile motion where $a_x = 0$ and $a_y = -400\text{ m/s}^2$. 
+The particle starts at the bottom plate and hits the bottom plate. However, the particle is shot *at* the plate (upwards then turns back down). The vertical displacement $\Delta y = 0$ at the impact point.
+
+1. **Initial velocity components:**
+   - $v_x = v \cos(30^\circ) = 4.00 \times \frac{\sqrt{3}}{2} \approx 3.464\text{ m/s}$
+   - $v_y = v \sin(30^\circ) = 4.00 \times 0.5 = 2.00\text{ m/s}$
+2. **Find time of flight ($t$):**
+   Using $\Delta y = v_{iy}t + \frac{1}{2}a_y t^2$:
+   $$0 = 2.00t + \frac{1}{2}(-400)t^2$$
+   $$200t^2 = 2.00t \implies t = \frac{2.00}{200} = 0.01\text{ s}$$
+3. **Find horizontal distance ($\Delta x$):**
+   $$\Delta x = v_x t = (3.464\text{ m/s})(0.01\text{ s}) = 0.03464\text{ m} \approx 0.035\text{ m}$$
+
+The particle will hit the negative plate at **0.035 m** (or 3.5 cm) from its launch position.
+
+###QUESTION_TYPE
+Calculation question

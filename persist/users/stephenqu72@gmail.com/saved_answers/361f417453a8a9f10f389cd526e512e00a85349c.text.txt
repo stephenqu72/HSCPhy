@@ -1,0 +1,28 @@
+To solve this problem, we must understand the physics of orbital mechanics. For a satellite in circular orbit, the centripetal force is provided by the gravitational force:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2} \implies v = \sqrt{\frac{GM}{r}}$$
+where $r = R_E + h$ (Earth's radius + altitude).
+
+### Step-by-Step Solution:
+
+**1. Determine the constants and initial conditions:**
+*   Radius of Earth ($R_E$) $\approx 6.37 \times 10^6 \text{ m}$
+*   Gravitational constant ($G$) $\approx 6.67 \times 10^{-11} \text{ N m}^2\text{kg}^{-2}$
+*   Mass of Earth ($M$) $\approx 5.97 \times 10^{24} \text{ kg}$
+*   Initial radius ($r_1$) = $6.37 \times 10^6 + 650 \times 10^3 = 7.02 \times 10^6 \text{ m}$
+*   Initial velocity ($v_1$) = $7.55 \times 10^3 \text{ m/s}$
+
+**2. Calculate the required velocity for the new orbit ($v_2$):**
+Using the ratio relationship $v \propto \frac{1}{\sqrt{r}}$, we have:
+$$\frac{v_2}{v_1} = \sqrt{\frac{r_1}{r_2}}$$
+New radius ($r_2$) = $6.37 \times 10^6 + 550 \times 10^3 = 6.92 \times 10^6 \text{ m}$
+$$v_2 = v_1 \times \sqrt{\frac{7.02 \times 10^6}{6.92 \times 10^6}} = 7550 \times \sqrt{1.01445} \approx 7604 \text{ m/s}$$
+
+**3. Calculate the change in speed ($\Delta v$):**
+$$\Delta v = v_2 - v_1 = 7604 - 7550 = 54 \text{ m/s}$$
+The satellite must increase its speed by approximately $54 \text{ m/s}$.
+
+### Explanation of Physics:
+According to **Kepler’s Third Law** ($T^2 \propto r^3$), a satellite in a lower orbit has a smaller orbital period. To maintain a circular orbit at a lower altitude, the satellite experiences a stronger gravitational pull. To prevent the satellite from falling toward Earth, it must travel at a higher tangential velocity to balance the increased gravitational force, effectively ensuring the centripetal acceleration remains sufficient for the tighter radius.
+
+###QUESTION_TYPE
+Calculation question

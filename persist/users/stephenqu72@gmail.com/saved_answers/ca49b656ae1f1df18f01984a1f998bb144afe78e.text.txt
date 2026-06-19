@@ -1,0 +1,38 @@
+This question tests your understanding of circular motion in a magnetic field, a core component of the HSC Physics Module 4: Electricity and Magnetism.
+
+### (a) Derivation of the Period $T$
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force acts as the centripetal force.
+
+1. Set the magnetic force equal to the centripetal force:
+   $$qvB = \frac{mv^2}{r}$$
+2. Solve for the radius $r$:
+   $$r = \frac{mv}{qB}$$
+3. The period $T$ is the time taken to complete one full revolution (circumference $= 2\pi r$):
+   $$T = \frac{2\pi r}{v}$$
+4. Substitute the expression for $r$ into the period equation:
+   $$T = \frac{2\pi (\frac{mv}{qB})}{v} = \frac{2\pi m}{qB}$$
+
+---
+
+### (b) Calculation
+Given:
+- Mass of an electron $m = 9.11 \times 10^{-31}\text{ kg}$
+- Charge of an electron $q = 1.60 \times 10^{-19}\text{ C}$
+- Magnetic field $B = 2.0 \times 10^{-4}\text{ T}$
+
+Using the formula derived in (a):
+$$T = \frac{2\pi \times (9.11 \times 10^{-31})}{(1.60 \times 10^{-19}) \times (2.0 \times 10^{-4})}$$
+$$T \approx 1.79 \times 10^{-7}\text{ s}$$
+
+---
+
+### (c) Drawing the Path
+From the formula $T = \frac{2\pi m}{qB}$, we see that the period $T$ is **independent of the velocity** but **inversely proportional to the magnetic field strength $B$**.
+
+If the magnetic field strength $B$ is halved, the new period $T'$ becomes:
+$$T' = \frac{2\pi m}{q(0.5B)} = 2T$$
+
+**To draw the path:** The electron now completes only **half a revolution** in the original time $T$. Since the radius $r = \frac{mv}{qB}$ is inversely proportional to $B$, halving $B$ doubles the radius of the circle. You should draw a semi-circle starting from the point of entry, with a radius twice as large as the original circle, ending at a point "below" the starting position.
+
+###QUESTION_TYPE
+Calculation question

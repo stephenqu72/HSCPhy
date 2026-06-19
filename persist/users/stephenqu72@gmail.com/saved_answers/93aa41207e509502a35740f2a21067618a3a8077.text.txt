@@ -1,0 +1,15 @@
+The correct answer is **c) To direct the charged particle.**
+
+### Explanation
+To understand the operation of a synchrotron, we must distinguish between the roles of electric fields and magnetic fields:
+
+1.  **Acceleration:** Acceleration in a synchrotron is achieved via **electric fields**. Oscillating radio-frequency (RF) cavities create electric fields that push the charged particles, increasing their kinetic energy as they pass through. Therefore, options (a) and (d) are incorrect.
+2.  **Ionisation:** Synchrotrons accelerate particles that are already charged (like electrons or protons). They do not use magnetic fields to ionise neutral particles; ionisation occurs in the source before the particles even enter the accelerator. Therefore, option (b) is incorrect.
+3.  **Directing/Steering:** Magnetic fields are used to maintain the path of the charged particles. Since the particles are moving at high speeds, a magnetic field exerts a Lorentz force on them, described by the equation:
+    $$F = qvB \sin(\theta)$$
+    Because this force is always perpendicular to the direction of motion, it changes the direction of the particle's velocity without doing any work on the particle (meaning it does not change the particle's speed). This is essential for forcing the particles to travel in a circular or "synchrotron" path, keeping them confined within the vacuum chamber.
+
+Thus, the role of the magnetic fields is to steer and focus the charged particles, making **c** the only correct choice.
+
+###QUESTION_TYPE
+Multiple choice

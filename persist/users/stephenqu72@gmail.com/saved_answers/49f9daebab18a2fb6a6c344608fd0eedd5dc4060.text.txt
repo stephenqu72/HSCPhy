@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+#### Part a) Sketching Kinetic and Gravitational Potential Energy
+To sketch these lines, we must recall the relationships for a satellite in a circular orbit:
+1.  **Gravitational Potential Energy ($U$):** $U = -\frac{GMm}{r}$. This is always negative and follows a $1/r$ curve. On this graph, at $r=1$, $E_{total} = -1$. Since $E_{total} = \frac{1}{2}U$, we know $U = 2 \times E_{total}$. Therefore, the potential energy curve should pass through $-2$ at $r=1$ and $-0.5$ at $r=2$.
+2.  **Kinetic Energy ($K$):** $K = \frac{GMm}{2r}$. This is always positive and equals $-E_{total}$. Therefore, the kinetic energy curve is a reflection of the total energy curve across the x-axis ($K = -E_{total}$). It should pass through $+1$ at $r=1$ and $+0.5$ at $r=2$.
+
+**Sketching Guide:**
+*   **Gravitational Energy:** Draw a curve starting from the bottom left, passing through $(1, -2)$, $(2, -1)$, and approaching $0$ from below.
+*   **Kinetic Energy:** Draw a curve starting near the top left, passing through $(1, 1)$, $(2, 0.5)$, and approaching $0$ from above.
+
+#### Part b) Calculation of Change in Gravitational Potential Energy
+The change in gravitational potential energy is given by:
+$$\Delta U = U_f - U_i = -\frac{GMm}{r_f} - \left( -\frac{GMm}{r_i} \right) = GMm \left( \frac{1}{r_i} - \frac{1}{r_f} \right)$$
+
+**Constants needed:**
+*   $G = 6.674 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$
+*   $M_{\text{earth}} = 5.97 \times 10^{24} \, \text{kg}$
+*   $m = 300 \, \text{kg}$
+*   $R_{\text{earth}} \approx 6.37 \times 10^6 \, \text{m}$
+
+**Convert altitudes to orbital radii ($r = R_{\text{earth}} + h$):**
+*   $r_i = 6.37 \times 10^6 + 100 \times 10^3 = 6.47 \times 10^6 \, \text{m}$
+*   $r_f = 6.37 \times 10^6 + 200 \times 10^3 = 6.57 \times 10^6 \, \text{m}$
+
+**Calculation:**
+$$\Delta U = (6.674 \times 10^{-11}) (5.97 \times 10^{24}) (300) \left( \frac{1}{6.47 \times 10^6} - \frac{1}{6.57 \times 10^6} \right)$$
+$$\Delta U \approx (1.195 \times 10^{17}) (1.5456 \times 10^{-7} - 1.5221 \times 10^{-7})$$
+$$\Delta U \approx (1.195 \times 10^{17}) (2.35 \times 10^{-9})$$
+$$\Delta U \approx 2.81 \times 10^8 \, \text{J}$$
+
+The change in gravitational potential energy is approximately $2.81 \times 10^8 \, \text{Joules}$.
+
+###QUESTION_TYPE
+Calculation question

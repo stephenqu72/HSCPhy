@@ -1,0 +1,23 @@
+To solve this physics problem, we must apply the principles of electromagnetism (specifically the force on a current-carrying wire) and rotational equilibrium (moments).
+
+### Part (a) Derivation
+
+1.  **Analyze the Magnetic Force:** The coil has $N$ turns and width $w$ submerged in a magnetic field $B$. The force exerted on a single wire segment of length $w$ carrying current $I$ is $F = BIl$. Since there are two sides of the coil of width $w$ (top and bottom) that might contribute, we must check the geometry. In this setup, only the bottom horizontal segment of width $w$ experiences a vertical magnetic force $F_B$ because the current in the vertical sides flows parallel to the field or creates opposing forces that cancel out.
+    Thus, for $N$ turns:
+    $$F_B = NIBw$$
+2.  **Analyze the Torque/Balance:** The balance is symmetric (equal distance from the fulcrum). When the switch is closed, the magnetic force $F_B$ creates a downward force on the left side (or upward depending on current direction, but the mass $m$ is added to the right to counteract it). For the system to be in rotational equilibrium:
+    $$\tau_{clockwise} = \tau_{anticlockwise}$$
+    $$m \cdot g \cdot d = F_B \cdot d$$
+    Since the distances $d$ are equal, the forces must be equal:
+    $$mg = NIBw$$
+3.  **Solve for $B$:**
+    $$B = \frac{mg}{NIw}$$
+
+### Part (b) Explanation
+
+The result is independent of the length $L$ of the coil because the magnetic force is only exerted on the parts of the wire that are perpendicular to the magnetic field. In this specific configuration, only the bottom horizontal segment of the coil (with width $w$) experiences a force that produces a vertical component contributing to the torque. The vertical sides of length $L$ have currents flowing parallel to the magnetic field lines (or if they were perpendicular, the forces on the two sides would act in opposite directions, cancelling each other out). Therefore, the length $L$ does not appear in the force equation $F = NIBw$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for the force per unit length $f$ between two parallel wires carrying currents $I_1$ and $I_2$ separated by a distance $r$:
+$$f = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+The direction of the force is attractive if currents are in the same direction and repulsive if they are in opposite directions.
+
+### Step-by-Step Solution:
+
+1.  **Analyze forces on Wire Z:**
+    *   **Force from Wire Y ($F_{ZY}$):** Wire Y (current 2 A, leftward) and Wire Z (current $I$, leftward) carry currents in the **same direction**. They attract each other. The force per unit length is:
+        $$F_{ZY} = \frac{\mu_0 (2)(I)}{2\pi d_2} \quad (\text{attractive, upward})$$
+    *   **Force from Wire X ($F_{ZX}$):** Wire X (current 3 A, rightward) and Wire Z (current $I$, leftward) carry currents in **opposite directions**. They repel each other. The distance from X to Z is $(d_1 + d_2)$. The force per unit length is:
+        $$F_{ZX} = \frac{\mu_0 (3)(I)}{2\pi (d_1 + d_2)} \quad (\text{repulsive, downward})$$
+
+2.  **Apply the equilibrium condition:**
+    Since there is no net force on Wire Z, the magnitude of the attractive force must equal the magnitude of the repulsive force:
+    $$F_{ZY} = F_{ZX}$$
+    $$\frac{\mu_0 (2)(I)}{2\pi d_2} = \frac{\mu_0 (3)(I)}{2\pi (d_1 + d_2)}$$
+
+3.  **Solve for the ratio:**
+    Cancel the common terms ($\frac{\mu_0 I}{2\pi}$):
+    $$\frac{2}{d_2} = \frac{3}{d_1 + d_2}$$
+    Cross-multiply:
+    $$2(d_1 + d_2) = 3d_2$$
+    $$2d_1 + 2d_2 = 3d_2$$
+    $$2d_1 = d_2$$
+    $$\frac{d_1}{d_2} = \frac{1}{2}$$
+
+The ratio of $d_1$ to $d_2$ is $1:2$.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

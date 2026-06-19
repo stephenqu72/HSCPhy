@@ -1,0 +1,31 @@
+To solve this problem, we apply the principle of **conservation of energy**. When a stationary electron is accelerated through a potential difference, its electrical potential energy is converted entirely into kinetic energy.
+
+### Step-by-Step Calculation:
+
+1.  **Identify the energy conversion:**
+    The work done on the electron by the electric field is given by $W = qV$.
+    The kinetic energy gained is $K = \frac{1}{2}mv^2$.
+    Equating these, we get:
+    $$qV = \frac{1}{2}mv^2$$
+
+2.  **Rearrange for velocity ($v$):**
+    $$v = \sqrt{\frac{2qV}{m}}$$
+
+3.  **Use standard physical constants:**
+    *   Charge of an electron ($q$): $1.602 \times 10^{-19} \text{ C}$
+    *   Mass of an electron ($m$): $9.109 \times 10^{-31} \text{ kg}$
+    *   Potential difference ($V$): $1000 \text{ V}$
+
+4.  **Substitute the values:**
+    $$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19} \text{ C}) \times 1000 \text{ V}}{9.109 \times 10^{-31} \text{ kg}}}$$
+    $$v = \sqrt{\frac{3.204 \times 10^{-16}}{9.109 \times 10^{-31}}}$$
+    $$v = \sqrt{0.3517 \times 10^{15}}$$
+    $$v = \sqrt{3.517 \times 10^{14}}$$
+    $$v \approx 1.875 \times 10^7 \text{ m s}^{-1}$$
+
+Comparing this result to the given options, $1.875 \times 10^7 \text{ m s}^{-1}$ is closest to **(D) $1.8 \times 10^7 \text{ m s}^{-1}$**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

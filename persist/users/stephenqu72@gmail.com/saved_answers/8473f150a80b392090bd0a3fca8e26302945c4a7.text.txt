@@ -1,0 +1,16 @@
+To solve this problem, we must apply the principles of projectile motion.
+
+### Answer
+The correct answer is **C. $80\text{ m s}^{-1}$**.
+
+### Explanation
+In projectile motion, we treat horizontal and vertical motion as independent of each other (assuming air resistance is negligible):
+
+1.  **Vertical Motion:** The paintball is subject to gravity, which causes it to accelerate downwards ($g \approx 9.8\text{ m s}^{-2}$). This means the vertical component of the velocity will change constantly over time.
+2.  **Horizontal Motion:** There are no horizontal forces acting on the paintball after it leaves the player's gun (ignoring air resistance). According to Newton's First Law of Motion, since there is no net horizontal force, there is no horizontal acceleration.
+3.  **Conclusion:** Because the horizontal acceleration is $0\text{ m s}^{-2}$, the horizontal component of the velocity remains constant throughout the entire flight. 
+
+Since the initial horizontal velocity is given as $80\text{ m s}^{-1}$, the horizontal velocity just before impact remains exactly the same. The height ($10\text{ m}$) and the distance ($25\text{ m}$) are extra information that would be used to calculate the *total* velocity (by finding the final vertical velocity component) or the time of flight, but they do not change the horizontal velocity.
+
+###QUESTION_TYPE
+Multiple choice

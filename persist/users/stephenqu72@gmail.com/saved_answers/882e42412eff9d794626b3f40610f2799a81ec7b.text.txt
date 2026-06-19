@@ -1,0 +1,28 @@
+To solve these physics problems, we must apply the principles of gravitation. Let the mass of Jupiter be $M = 1.90 \times 10^{27}\text{ kg}$ and the mass of the spacecraft be $m = 1500\text{ kg}$.
+
+### Part a
+To calculate the gravitational force $F$, we use the formula $F = mg$, where $g$ is the gravitational field strength.
+From the graph at $r = 2.0 \times 10^8\text{ m}$, the value of $g$ is $3\text{ N kg}^{-1}$.
+$$F = 1500\text{ kg} \times 3\text{ N kg}^{-1} = 4500\text{ N}$$
+*(Alternatively, using Newton's Law of Universal Gravitation $F = \frac{GMm}{r^2}$ yields the same result).*
+
+### Part b
+The change in gravitational potential energy ($\Delta U$) is equal to the work done by the gravitational field, which is the area under the force-distance graph. Since the graph provided is $g$ vs $r$, we must multiply the values by $m$ to get $F$ vs $r$.
+$\Delta U = \text{Area under } F\text{-}r \text{ curve} = m \times (\text{Area under } g\text{-}r \text{ curve})$.
+Using the graph, we estimate the area between $r=1$ and $r=2$ (units of $10^8\text{ m}$):
+- The area is approximately a trapezoid (or by integration/counting squares). Using the trapezoid rule with points $(1, 13)$ and $(2, 3)$:
+$$\text{Area} \approx \frac{13 + 3}{2} \times 1 \times 10^8 = 8 \times 10^8\text{ N m kg}^{-1}$$
+$$\Delta U = m \times \text{Area} = 1500 \times 8 \times 10^8 = 1.2 \times 10^{12}\text{ J}$$
+*(Note: Values may vary slightly depending on the estimation method used for the area).*
+
+### Part c
+To calculate the period $T$ of Europa's orbit, we use Kepler's Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$.
+Given $r = 6.70 \times 10^8\text{ m}$:
+$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$T^2 = \frac{4 \times \pi^2 \times (6.70 \times 10^8)^3}{(6.67 \times 10^{-11}) \times (1.90 \times 10^{27})}$$
+$$T^2 \approx \frac{39.478 \times 3.0076 \times 10^{26}}{1.2673 \times 10^{17}} \approx 9.37 \times 10^{10}$$
+$$T \approx \sqrt{9.37 \times 10^{10}} \approx 306\,100\text{ s}$$
+Converting to hours: $\frac{306100}{3600} \approx 85\text{ hours}$.
+
+###QUESTION_TYPE
+Calculation question

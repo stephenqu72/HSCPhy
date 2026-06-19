@@ -1,0 +1,30 @@
+To solve this problem, we use the principle that the work done on a charged particle by an electric field is equal to the change in its kinetic energy.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship:**
+    The work done $W$ on a charge $q$ accelerated through a potential difference $V$ is given by:
+    $$W = qV$$
+    This work results in a change in the kinetic energy ($\Delta E_k$) of the charge:
+    $$\Delta E_k = qV$$
+
+2.  **Calculate the change in kinetic energy:**
+    The kinetic energy increases from $2.0 \times 10^{-5} \text{ J}$ to $6.0 \times 10^{-5} \text{ J}$.
+    $$\Delta E_k = E_{k,final} - E_{k,initial}$$
+    $$\Delta E_k = (6.0 \times 10^{-5} \text{ J}) - (2.0 \times 10^{-5} \text{ J}) = 4.0 \times 10^{-5} \text{ J}$$
+
+3.  **Rearrange the formula to solve for charge ($q$):**
+    Since $qV = \Delta E_k$, we have:
+    $$q = \frac{\Delta E_k}{V}$$
+
+4.  **Substitute the known values:**
+    Given $V = 500 \text{ V}$ and $\Delta E_k = 4.0 \times 10^{-5} \text{ J}$:
+    $$q = \frac{4.0 \times 10^{-5}}{500}$$
+    $$q = \frac{4.0 \times 10^{-5}}{5.0 \times 10^2}$$
+    $$q = 0.8 \times 10^{-7} \text{ C}$$
+    $$q = 8.0 \times 10^{-8} \text{ C}$$
+
+Comparing this result to the given options, the correct choice is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

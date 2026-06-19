@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+#### Part (a): Explain why the shape of the path is circular.
+
+**Answer:**
+When the cathode ray particles (electrons) enter the uniform magnetic field, they experience a magnetic force given by the Lorentz force law: $F = qvB \sin(\theta)$. Since the velocity of the particles is perpendicular to the magnetic field ($\theta = 90^\circ$), the force is always perpendicular to the direction of motion. This force acts as a centripetal force, continuously changing the direction of the particle's velocity without changing its speed. Because the force is constant in magnitude and always directed towards a central point relative to the motion, the particle follows a circular path.
+
+**Teacher's Tip:** To score full marks here, you must mention two key physics principles: 
+1. The force is always **perpendicular** to the velocity.
+2. This force acts as a **centripetal force**.
+
+---
+
+#### Part (b): Calculate the speed of these cathode ray particles.
+
+**Explanation:**
+To find the speed, we equate the magnetic force to the centripetal force. 
+The magnetic force is $F_B = qvB$.
+The centripetal force is $F_c = \frac{mv^2}{r}$.
+
+Setting them equal:
+$$qvB = \frac{mv^2}{r}$$
+Solving for velocity ($v$):
+$$v = \frac{qBr}{m}$$
+
+We use the known charge-to-mass ratio of an electron, which is $\frac{q}{m} \approx 1.76 \times 10^{11} \text{ C kg}^{-1}$.
+Given values:
+- $B = 5.0 \times 10^{-3} \text{ T}$
+- $r = 70.0 \text{ mm} = 0.070 \text{ m}$
+
+**Calculation:**
+$$v = (1.76 \times 10^{11}) \times (5.0 \times 10^{-3}) \times (0.070)$$
+$$v = 1.76 \times 10^{11} \times 3.5 \times 10^{-4}$$
+$$v = 6.16 \times 10^7 \text{ m s}^{-1}$$
+
+Rounding to two significant figures (consistent with the provided data):
+**$v = 6.2 \times 10^7 \text{ m s}^{-1}$**
+
+###QUESTION_TYPE
+Calculation question

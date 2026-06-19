@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The kinetic energy graph should start at $0$ at a distance of $0\text{ cm}$ and rise linearly to the same value as the potential energy loss at a distance of $5\text{ cm}$.
+
+**Explanation:**
+1.  **Conservation of Energy:** In this system (ignoring gravity), the total mechanical energy is conserved. Since the proton starts from rest, the initial total energy is equal to its initial electric potential energy ($U_i$). At any point during its motion:
+    $$E_{total} = U_i = U_f + K_f$$
+    Rearranging this, the kinetic energy ($K_f$) at any point is:
+    $$K_f = U_i - U_f = -\Delta U$$
+2.  **Graphical Interpretation:** The graph shows a linear decrease in potential energy. Since the potential energy lost is converted directly into kinetic energy, the kinetic energy must increase linearly starting from $0$.
+3.  **Sketching:** At $d=0$, kinetic energy is $0$. At $d=5\text{ cm}$, the kinetic energy will be exactly equal to the amount of potential energy lost, which is the vertical distance from the start point to the $5\text{ cm}$ mark on the provided graph. You should draw a straight line with a positive slope starting at $(0,0)$ and ending at $(5, \text{value equal to lost } U)$.
+
+---
+
+#### Part (b)
+**Answer:** The motion of the electron differs in two primary ways: direction and acceleration magnitude.
+1.  **Direction:** Because the electron is negatively charged, it will be attracted to the positive plate (the top plate) rather than the negative plate (the bottom plate). It will accelerate upwards.
+2.  **Acceleration:** The magnitude of the force ($F = qE$) is the same because the charge magnitude of an electron is identical to that of a proton. However, because $F = ma$, the acceleration is $a = \frac{F}{m}$. Since the mass of an electron ($m_e \approx 9.11 \times 10^{-31}\text{ kg}$) is significantly smaller than the mass of a proton ($m_p \approx 1.67 \times 10^{-27}\text{ kg}$), the electron will experience a much greater acceleration and reach a higher velocity over the same distance.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

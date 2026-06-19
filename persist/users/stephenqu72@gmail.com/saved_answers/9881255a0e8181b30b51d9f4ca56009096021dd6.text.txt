@@ -1,0 +1,16 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To understand how particle accelerators work, we must distinguish between the roles of electric and magnetic fields regarding the motion of charged particles:
+
+1.  **The Role of Electric Fields:** The acceleration of a charged particle (an increase in kinetic energy and velocity) is caused by the work done on the particle by an electric field. The force exerted on a particle with charge $q$ in an electric field $E$ is given by $F = qE$. In linear accelerators and synchrotrons, "radio-frequency" (RF) cavities create **alternating electric fields**. These fields are synchronized to push the particle forward as it passes through the cavity, increasing its velocity.
+2.  **The Role of Magnetic Fields (Why (A) is incorrect):** A magnetic field exerts a force $F = qvB\sin(\theta)$. When a magnetic field is applied perpendicular to the path of a particle, the magnetic force acts as a centripetal force. It changes the **direction** of the velocity vector but does **no work** on the particle, meaning it cannot change the particle's speed (kinetic energy). Therefore, magnetic fields are used to *steer* and *focus* the beam, not to accelerate it.
+3.  **Evaluating other options:**
+    *   **(B) Collisions:** Accelerators do not use photon collisions to increase the velocity of the primary beam of charged particles.
+    *   **(D) Heating:** Heating particles is a method used in some plasma physics contexts, but it is not the mechanism used in particle accelerators (like the LHC) to achieve high-velocity particle beams.
+
+**Summary:** Charged particles gain kinetic energy from electric potential differences. By using a series of alternating electric fields, the particles are continually pushed to higher and higher velocities.
+
+###QUESTION_TYPE
+Multiple choice

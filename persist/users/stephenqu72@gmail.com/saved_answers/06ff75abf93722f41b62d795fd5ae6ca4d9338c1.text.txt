@@ -1,0 +1,37 @@
+To solve this problem, we must apply the formula for the magnetic force between two parallel current-carrying wires and Newton's Second Law of Motion.
+
+### 1. Identify the given values:
+*   Length of wires ($L$) = $2.00\text{ m}$
+*   Current in wire 1 ($I_1$) = $25.0\text{ A}$
+*   Current in wire 2 ($I_2$) = $50.0\text{ A}$
+*   Separation distance ($r$) = $2.00\text{ mm} = 2.00 \times 10^{-3}\text{ m}$
+*   Acceleration ($a$) = $0.200\text{ m s}^{-2}$
+*   Permeability of free space ($\mu_0$) = $4\pi \times 10^{-7}\text{ T m A}^{-1}$
+
+### 2. Calculate the magnetic force ($F$):
+The formula for the force between two parallel wires is:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+
+Substitute the values:
+$$F = \frac{(4\pi \times 10^{-7}) \times 25.0 \times 50.0 \times 2.00}{2\pi \times (2.00 \times 10^{-3})}$$
+
+Simplify the expression:
+$$F = \frac{2 \times 10^{-7} \times 25.0 \times 50.0 \times 2.00}{2.00 \times 10^{-3}}$$
+$$F = \frac{5 \times 10^{-4}}{2 \times 10^{-3}} = 0.25\text{ N}$$
+
+### 3. Calculate the mass ($m$):
+Using Newton’s Second Law ($F = ma$), we can find the mass of one trolley:
+$$m = \frac{F}{a}$$
+$$m = \frac{0.25\text{ N}}{0.200\text{ m s}^{-2}}$$
+$$m = 1.25\text{ kg}$$
+
+Comparing our result to the options provided:
+(A) $0.625\text{ kg}$
+(B) $1.25\text{ kg}$
+(C) $2.50\text{ kg}$
+(D) $5.00\text{ kg}$
+
+**The correct answer is (B).**
+
+###QUESTION_TYPE
+Multiple choice

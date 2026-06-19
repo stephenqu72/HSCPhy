@@ -1,0 +1,32 @@
+To find the gravitational force acting on the satellite, we recognise that for an object in a stable circular orbit, the gravitational force provides the necessary centripetal force.
+
+### 1. Identify the given values:
+*   Mass of satellite ($m$) = $3.50 \times 10^3\text{ kg}$
+*   Orbital radius ($r$) = $9.17 \times 10^6\text{ m}$
+*   Orbital period ($T$) = $1.50\text{ hours} = 1.50 \times 3600\text{ s} = 5400\text{ s}$
+
+### 2. Choose the correct formula:
+The magnitude of the centripetal force ($F_c$) is given by the formula:
+$$F_c = \frac{mv^2}{r}$$
+Since the orbital velocity $v$ can be expressed as $v = \frac{2\pi r}{T}$, we substitute this into the centripetal force formula:
+$$F_g = F_c = m \left( \frac{2\pi r}{T} \right)^2 \frac{1}{r} = \frac{4\pi^2 mr}{T^2}$$
+
+### 3. Calculation:
+Substitute the values into the derived equation:
+$$F_g = \frac{4 \times \pi^2 \times (3.50 \times 10^3\text{ kg}) \times (9.17 \times 10^6\text{ m})}{(5400\text{ s})^2}$$
+
+Calculate the numerator:
+$$4 \times \pi^2 \times 3500 \times 9.17 \times 10^6 \approx 1.267 \times 10^{12}$$
+
+Calculate the denominator:
+$$(5400)^2 = 2.916 \times 10^7$$
+
+Perform the division:
+$$F_g = \frac{1.267 \times 10^{12}}{2.916 \times 10^7} \approx 43449\text{ N}$$
+
+Rounding to three significant figures, we get $4.34 \times 10^4\text{ N}$.
+
+**Answer: (C)**
+
+### QUESTION_TYPE
+Multiple choice

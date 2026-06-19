@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **B. $2.6 \times 10^5 \text{ m s}^{-1}$**.
+
+---
+
+### Explanation
+To understand why the velocity remains constant, we look at the nature of the magnetic force acting on the moving charge.
+
+1.  **The Magnetic Force Law:** When a charged particle moves through a magnetic field, it experiences a magnetic force ($F_B$) given by the formula:
+    $$F_B = qvB \sin(\theta)$$
+    where $q$ is the charge, $v$ is the velocity, $B$ is the magnetic field strength, and $\theta$ is the angle between the velocity vector and the magnetic field vector.
+
+2.  **Direction of the Force:** The magnetic force is always directed perpendicular to both the velocity vector ($\vec{v}$) and the magnetic field vector ($\vec{B}$). According to the right-hand rule (adjusted for the negative charge of the electron), the force acts as a **centripetal force**.
+
+3.  **Work and Kinetic Energy:** Because the magnetic force is always perpendicular to the direction of motion (the velocity vector), it does **zero work** on the electron. The work done ($W$) is defined as:
+    $$W = F \cdot d \cdot \cos(\phi)$$
+    Since the force is perpendicular to the displacement ($d$), the angle $\phi$ is $90^\circ$, and $\cos(90^\circ) = 0$.
+
+4.  **Conclusion:** Since the magnetic field does no work on the electron, there is no change in its kinetic energy. According to the work-energy theorem ($W = \Delta K$), if the work done is zero, the change in kinetic energy is zero. Therefore, the magnitude of the velocity (speed) remains constant throughout the particle's path in the magnetic field.
+
+The electron will follow a curved path (circular motion), but its speed upon exiting the field will be identical to its speed upon entering.
+
+###QUESTION_TYPE
+Multiple choice

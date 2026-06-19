@@ -1,0 +1,32 @@
+To solve this problem, we apply the **Law of Conservation of Mechanical Energy**. Since the coefficient of friction is $0$, there are no non-conservative forces doing work on the system. Therefore, the total mechanical energy at the starting point must equal the total mechanical energy at point $X$.
+
+### 1. Identify the given values
+*   Initial height ($h_i$) = $1.00\text{ m}$
+*   Radius of the loop ($r$) = $30.0\text{ cm} = 0.30\text{ m}$
+*   Height at point $X$ ($h_f$) = diameter of the loop = $2 \times 0.30\text{ m} = 0.60\text{ m}$
+*   Initial velocity ($v_i$) = $0\text{ m/s}$ (released from rest)
+
+### 2. Set up the Energy Conservation Equation
+The total energy at the start (Gravitational Potential Energy) equals the total energy at point $X$ (Gravitational Potential Energy + Kinetic Energy):
+
+$$PE_i = PE_f + KE_f$$
+$$mgh_i = mgh_f + \frac{1}{2}mv_f^2$$
+
+### 3. Simplify and solve for $v_f$
+The mass ($m$) appears in every term, so it cancels out:
+$$gh_i = gh_f + \frac{1}{2}v_f^2$$
+
+Rearrange to solve for $v_f$:
+$$\frac{1}{2}v_f^2 = g(h_i - h_f)$$
+$$v_f = \sqrt{2g(h_i - h_f)}$$
+
+Using $g = 9.8\text{ m/s}^2$:
+$$v_f = \sqrt{2 \times 9.8 \times (1.00 - 0.60)}$$
+$$v_f = \sqrt{19.6 \times 0.40}$$
+$$v_f = \sqrt{7.84}$$
+$$v_f = 2.80\text{ m/s}$$
+
+Comparing this to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

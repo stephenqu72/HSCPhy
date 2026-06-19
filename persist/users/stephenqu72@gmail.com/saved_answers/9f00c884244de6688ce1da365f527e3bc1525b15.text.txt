@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of electromagnetism and kinematics. Note that the particle is positively charged ($+2.0\ \mu\text{C}$), so it will be attracted to the negative plate and repelled by the positive plate.
+
+### (a) Find the acceleration of the charged particle
+1.  **Calculate the Electric Field strength ($E$):** 
+    Using the potential difference ($V$) and separation distance ($d$):
+    $$E = \frac{V}{d} = \frac{2000\ \text{V}}{2.00\ \text{m}} = 1000\ \text{V/m}$$
+2.  **Calculate the Electric Force ($F$):**
+    $$F = qE = (2.0 \times 10^{-6}\ \text{C}) \times 1000\ \text{V/m} = 2.0 \times 10^{-3}\ \text{N}$$
+3.  **Calculate acceleration ($a$):**
+    Convert mass to kg: $m = 5.0\ \text{mg} = 5.0 \times 10^{-6}\ \text{kg}$.
+    $$a = \frac{F}{m} = \frac{2.0 \times 10^{-3}\ \text{N}}{5.0 \times 10^{-6}\ \text{kg}} = 400\ \text{m/s}^2$$
+    Since the particle is positive and moving away from the bottom negative plate toward the top, the electric field force directed toward the bottom plate acts as a downward deceleration. Thus, the acceleration is **$400\ \text{m/s}^2$ downwards**.
+
+---
+
+### (b) How far along will the particle hit the negative plate?
+1.  **Determine vertical motion:**
+    The initial vertical velocity is $u_y = 4.0 \sin(30^\circ) = 2.0\ \text{m/s}$.
+    The acceleration is $a_y = -400\ \text{m/s}^2$. The displacement to hit the plate (starting from the bottom) is $s_y = 0$ (it returns to the level it started at).
+    $$s_y = u_y t + \frac{1}{2} a_y t^2$$
+    $$0 = 2.0 t + \frac{1}{2} (-400) t^2$$
+    $$0 = 2.0 t - 200 t^2$$
+    Ignoring $t=0$, $200t = 2.0 \implies t = 0.01\ \text{s}$
+2.  **Determine horizontal displacement ($x$):**
+    Horizontal velocity is constant: $u_x = 4.0 \cos(30^\circ) \approx 3.464\ \text{m/s}$.
+    $$x = u_x \times t = 3.464\ \text{m/s} \times 0.01\ \text{s} = 0.03464\ \text{m}$$
+    The particle will hit the negative plate **$0.035\ \text{m}$ (or $3.5\ \text{cm}$)** along from the launch position.
+
+###QUESTION_TYPE
+Calculation question

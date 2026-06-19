@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **(A) Zero**.
+
+---
+
+### Explanation
+To determine the work done by the centripetal force, we must look at the fundamental definition of mechanical work.
+
+1.  **Definition of Work**: Work ($W$) is defined as the dot product of the force vector ($\vec{F}$) and the displacement vector ($\vec{d}$):
+    $$W = \vec{F} \cdot \vec{d} = F d \cos(\theta)$$
+    where $\theta$ is the angle between the direction of the force and the direction of the displacement (or instantaneous velocity).
+
+2.  **Direction of Vectors in Uniform Circular Motion**:
+    *   The **centripetal force** ($\vec{F}_c$) always acts toward the center of the circular path.
+    *   The **instantaneous velocity** ($\vec{v}$) of the object is always directed tangentially to the circle.
+    *   Since the tangent to a circle is always perpendicular (at $90^{\circ}$) to the radius at the point of contact, the force and the displacement are always perpendicular to each other.
+
+3.  **Calculation**:
+    Since the angle between the centripetal force and the displacement is $90^{\circ}$:
+    $$W = F d \cos(90^{\circ})$$
+    Knowing that $\cos(90^{\circ}) = 0$, we get:
+    $$W = F d (0) = 0$$
+
+Alternatively, by the **Work-Energy Theorem**, the work done on an object is equal to its change in kinetic energy ($\Delta KE$). Because the object is in uniform circular motion, its **speed** $v$ remains constant. Therefore, its kinetic energy ($KE = \frac{1}{2}mv^2$) does not change. Since $\Delta KE = 0$, the total work done by the centripetal force must be zero.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,25 @@
+To determine whether a charged particle $Q$ experiences a magnetic force $F$ in a magnetic field $B$, we must use the Lorentz force equation for a magnetic field:
+
+$$F = qvB \sin(\theta)$$
+
+Where:
+*   $q$ is the charge of the particle.
+*   $v$ is the velocity of the particle.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the velocity vector $v$ and the magnetic field vector $B$.
+
+For a force to exist, $F$ must be non-zero, which means $v$, $B$, and $\sin(\theta)$ must all be non-zero. Specifically, $\theta$ cannot be $0^\circ$ or $180^\circ$ (the particle cannot be moving parallel or anti-parallel to the field).
+
+### Analysis of each scenario:
+
+*   **(i) $v = 0$:** Because the velocity is zero, $F = q(0)B \sin(\theta) = 0$. The particle experiences no magnetic force.
+*   **(ii) $v$ is perpendicular to $B$ ($\theta = 90^\circ$):** Here, $\sin(90^\circ) = 1$. The force is maximum ($F = qvB$). The particle **does** experience a force.
+*   **(iii) $v$ is parallel to $B$ ($\theta = 0^\circ$):** Here, $\sin(0^\circ) = 0$. The force is zero. The particle experiences no magnetic force.
+*   **(iv) $v$ is into the page, while $B$ is to the right:** The angle between the velocity vector (pointing into the page) and the magnetic field vector (pointing right) is $90^\circ$. Since $\sin(90^\circ) = 1$, the force is non-zero ($F = qvB$). The particle **does** experience a force.
+
+Therefore, the particle experiences a magnetic force in scenarios **(ii) and (iv)**.
+
+Comparing this to the given options, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

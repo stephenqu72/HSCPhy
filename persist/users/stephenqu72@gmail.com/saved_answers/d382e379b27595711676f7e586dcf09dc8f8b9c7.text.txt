@@ -1,0 +1,30 @@
+To calculate the escape velocity of Mars, we use the standard physics formula for escape velocity derived from the conservation of energy:
+
+$$v_e = \sqrt{\frac{2GM}{R}}$$
+
+### Given Values:
+*   $G$ (Gravitational constant) $= 6.674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$
+*   $M$ (Mass of Mars) $= 6.4169 \times 10^{23} \text{ kg}$
+*   $R$ (Radius of Mars) $= 3,389.5 \text{ km} = 3,389,500 \text{ m}$ (or $3.3895 \times 10^6 \text{ m}$)
+*   *Note: The mass of the shuttle is extraneous information and is not required for this calculation.*
+
+### Step-by-Step Calculation:
+
+1.  **Substitute the values into the formula:**
+    $$v_e = \sqrt{\frac{2 \times (6.674 \times 10^{-11}) \times (6.4169 \times 10^{23})}{3.3895 \times 10^6}}$$
+
+2.  **Calculate the numerator:**
+    $$2 \times 6.674 \times 10^{-11} \times 6.4169 \times 10^{23} \approx 8.567 \times 10^{13}$$
+
+3.  **Divide by the radius:**
+    $$\frac{8.567 \times 10^{13}}{3.3895 \times 10^6} \approx 25,275,114$$
+
+4.  **Take the square root:**
+    $$v_e = \sqrt{25,275,114} \approx 5,027 \text{ m/s}$$
+
+Comparing our result to the provided options, $5.027 \times 10^3 \text{ m/s}$ is closest to option D.
+
+**Answer:** D. $5.025 \times 10^3 \text{ m.s}^{-1}$
+
+###QUESTION_TYPE
+Multiple choice

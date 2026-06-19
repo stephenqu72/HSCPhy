@@ -1,0 +1,30 @@
+To solve this projectile motion problem, we must analyze the behavior of the vertical velocity ($v_y$), horizontal displacement ($\Delta x$), vertical acceleration ($a$), horizontal velocity ($v_x$), and vertical displacement ($\Delta y$) over time ($t$).
+
+### Analysis of the Graphs:
+
+1.  **Graph I:** Shows a linear decrease crossing the x-axis. This represents **vertical velocity ($v_y$)**. As a projectile rises, $v_y$ decreases positively, becomes zero at the peak, and increases negatively as it falls.
+2.  **Graph II:** Shows a linear increase starting from the origin. This represents **horizontal displacement ($\Delta x$)**. Since horizontal velocity ($v_x$) is constant, $\Delta x = v_x \cdot t$, which is a linear relationship.
+3.  **Graph III:** Shows a constant non-zero value. This represents **horizontal velocity ($v_x$)**. In projectile motion (ignoring air resistance), the horizontal acceleration is zero, so $v_x$ remains constant throughout the flight.
+4.  **Graph IV:** Shows a parabolic shape starting and ending at zero. This represents **vertical displacement ($\Delta y$)**. Since the projectile lands at the same height it was launched from, the vertical position follows the equation $\Delta y = u_y t - \frac{1}{2} g t^2$, which is a downward-opening parabola.
+
+### Comparing with the options:
+*   I is $v_y$
+*   II is $\Delta x$
+*   III is $v_x$
+*   IV is $\Delta y$
+
+Looking at the options provided:
+*   (A) $v_y$ is listed as $\Delta v_y$ (Incorrect notation for instantaneous velocity)
+*   (B) Correct: I = $v_y$, II = $\Delta x$, III = $v_x$, IV = $\Delta y$
+*   (C) Incorrect
+*   (D) Incorrect
+
+Therefore, the correct answer is **(B)**.
+
+### How to solve:
+To master these types of questions, always break projectile motion into its independent horizontal and vertical components:
+*   **Horizontal:** Constant velocity ($a_x = 0$, $v_x = \text{constant}$), displacement ($\Delta x$) increases linearly with time.
+*   **Vertical:** Constant acceleration ($a_y = -g$), velocity ($v_y$) changes linearly ($v_y = u_y - gt$), and displacement ($\Delta y$) follows a quadratic (parabolic) path.
+
+###QUESTION_TYPE
+Multiple choice

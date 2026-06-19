@@ -1,0 +1,19 @@
+To understand why the water stays in the bucket, we must look at the physics of **circular motion** at the highest point of the vertical path.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+At the top of the circular path, two forces act on the water: gravity ($mg$) acting downwards and the normal force ($N$) from the bottom of the bucket acting downwards. These forces provide the centripetal force ($F_c$) required for the water to move in a circle:
+
+$$F_c = mg + N = \frac{mv^2}{r}$$
+
+1.  **The physics of the "minimum speed":** The water stays in the bucket as long as the bucket exerts a downward normal force on it. As the speed $v$ decreases, the required centripetal force decreases. Eventually, at a critical minimum speed, the normal force $N$ becomes zero. At this point, only gravity provides the necessary centripetal acceleration ($a_c = g$).
+2.  **Why (B) is correct:** If the bucket were to move slower than this critical speed, it would have an acceleration less than $g$, while the water (in freefall) would maintain an acceleration of $g$. Because the water would fall faster than the bucket, it would spill out. By maintaining a speed such that the bucket's centripetal acceleration is at least $g$, the bucket and water "fall" together, keeping the water inside.
+3.  **Why the others are incorrect:**
+    *   **(A)** "Lift" is a fluid dynamics term not applicable here; we are dealing with gravity and centripetal acceleration.
+    *   **(C)** "Centrifugal force" is a fictitious force used in a non-inertial reference frame. In an inertial frame (the standard way to solve HSC physics problems), we describe the motion using real forces and centripetal acceleration.
+    *   **(D)** The water does not have "no weight"; it is still subject to the force of gravity ($mg$) regardless of the motion.
+
+### QUESTION_TYPE
+Multiple choice

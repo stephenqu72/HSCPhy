@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Part (a): Determine the gradient of the graph
+To find the gradient ($m$) of a linear graph passing through the origin $(0,0)$, we use the formula $m = \frac{\Delta y}{\Delta x}$. 
+
+Looking at the graph, we can select the point $(x = 8 \times 10^6 \text{ ms}^{-1}, y = 3 \times 10^{-3} \text{ m})$:
+$$m = \frac{3 \times 10^{-3} - 0}{8 \times 10^6 - 0} = \frac{3}{8} \times 10^{-9}$$
+$$m = 0.375 \times 10^{-9} = 3.75 \times 10^{-10} \text{ s/C}$$
+
+#### Part (b): Calculate the magnetic field strength
+1. **Derive the relationship:** When an electron moves through a magnetic field perpendicular to its velocity, the magnetic force provides the centripetal force:
+   $$qvB = \frac{mv^2}{r}$$
+   Rearranging for radius ($r$):
+   $$r = \left( \frac{m}{qB} \right) v$$
+   Comparing this to the equation of a straight line ($y = mx$), the gradient is:
+   $$\text{gradient} = \frac{m}{qB}$$
+
+2. **Substitute known values:**
+   - Mass of an electron ($m$): $9.11 \times 10^{-31} \text{ kg}$
+   - Charge of an electron ($q$): $1.60 \times 10^{-19} \text{ C}$
+   - Gradient: $3.75 \times 10^{-10} \text{ s/C}$
+
+   Rearranging for $B$:
+   $$B = \frac{m}{q \times \text{gradient}}$$
+   $$B = \frac{9.11 \times 10^{-31}}{(1.60 \times 10^{-19}) \times (3.75 \times 10^{-10})}$$
+   $$B = \frac{9.11 \times 10^{-31}}{6 \times 10^{-29}} \approx 0.01518 \text{ T}$$
+
+Rounding to appropriate significant figures (consistent with the data), we get **$B \approx 1.52 \times 10^{-2} \text{ T}$**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

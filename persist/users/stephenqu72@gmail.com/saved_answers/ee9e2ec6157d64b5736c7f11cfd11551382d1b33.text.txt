@@ -1,0 +1,15 @@
+The correct answer is **D. perpendicular electric and magnetic fields.**
+
+### Explanation
+To solve this question, you need to understand the principles behind J.J. Thomson’s 1897 cathode ray tube experiment.
+
+1.  **The Velocity Selector:** Thomson first applied both an electric field ($E$) and a magnetic field ($B$) perpendicular to each other, such that they were also perpendicular to the path of the electron beam. By adjusting the strengths of these fields, he could find a condition where the electric force ($F_e = qE$) exactly balanced the magnetic force ($F_b = qvB$). When the beam passed through undeflected, he knew the velocity of the electrons:
+    $$qE = qvB \implies v = \frac{E}{B}$$
+2.  **Measuring Deflection:** Once the velocity was determined, he turned off the electric field. The magnetic field then acted as a centripetal force ($F_b = mv^2/r = qvB$), causing the electrons to follow a circular path with radius $r$. 
+3.  **Calculating the Ratio:** By measuring the radius of curvature ($r$) and knowing the velocity ($v$) and magnetic field strength ($B$), he could isolate the charge-to-mass ratio ($\frac{q}{m}$):
+    $$\frac{mv^2}{r} = qvB \implies \frac{q}{m} = \frac{v}{Br}$$
+
+Because his apparatus required the interaction of these two distinct fields oriented at right angles to each other (and to the beam), option **D** is the only correct description of the device's configuration.
+
+### QUESTION_TYPE
+Multiple choice

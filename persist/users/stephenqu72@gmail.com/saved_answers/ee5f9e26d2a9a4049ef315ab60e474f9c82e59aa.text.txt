@@ -1,0 +1,28 @@
+To solve this problem, we use the physics of a charged particle moving through a uniform magnetic field. When a particle enters a magnetic field perpendicularly, it experiences a magnetic force that acts as a centripetal force, causing it to travel in a circular path.
+
+### Part (a)
+**1. Identify the relevant physics formula:**
+The magnetic force $F_B = qvB$ is equal to the centripetal force $F_c = \frac{mv^2}{r}$.
+Equating these:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging to solve for the charge-to-mass ratio ($q/m$):
+$$\frac{q}{m} = \frac{v}{Br}$$
+
+**2. Substitute the given values:**
+- $v = 3 \times 10^5 \text{ m s}^{-1}$
+- $B = 0.8 \text{ T}$
+- $r = 0.15 \text{ m}$
+
+$$\frac{q}{m} = \frac{3 \times 10^5}{0.8 \times 0.15}$$
+$$\frac{q}{m} = \frac{300,000}{0.12} = 2.5 \times 10^6 \text{ C kg}^{-1}$$
+
+**3. Evaluate the conclusion:**
+The known charge-to-mass ratio of an electron is approximately:
+$$\frac{e}{m_e} \approx \frac{1.602 \times 10^{-19} \text{ C}}{9.11 \times 10^{-31} \text{ kg}} \approx 1.76 \times 10^{11} \text{ C kg}^{-1}$$
+Since our calculated value ($2.5 \times 10^6 \text{ C kg}^{-1}$) is significantly lower than the standard value for an electron, the scientists' conclusion is **incorrect**. The particle must have a much larger mass than an electron.
+
+### Part (b)
+The path the particle takes as it leaves the magnetic field is a straight line tangent to the circle at the point of exit. According to the Right-Hand Rule (assuming positive charges), the force is downward, but because the path curves downward, the particle is a negative charge (like an electron). Regardless of charge, once it leaves the region of the magnetic field, there is no longer a force acting on it, so it continues in a **straight line** path tangent to the exit point of the curve.
+
+###QUESTION_TYPE
+Calculation question

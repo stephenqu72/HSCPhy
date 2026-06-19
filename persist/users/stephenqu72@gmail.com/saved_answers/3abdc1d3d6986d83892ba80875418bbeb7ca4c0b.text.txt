@@ -1,0 +1,31 @@
+To solve this problem, we must apply the principles of electromagnetism (the motor effect) and classical mechanics (kinematics and Newton's Second Law).
+
+### Answer
+To show that $v = \sqrt{\frac{2B L I d}{m}}$, we follow these steps:
+
+1.  **Identify the magnetic force:** The motor effect produces a force $F$ on a current-carrying conductor in a magnetic field given by:
+    $$F = BIL$$
+2.  **Apply Newton's Second Law:** Since there is no friction, this magnetic force is the net force causing the bar of mass $m$ to accelerate:
+    $$F = ma \implies ma = BIL$$
+    Rearranging for acceleration $a$:
+    $$a = \frac{BIL}{m}$$
+3.  **Use kinematic equations:** The bar starts from rest ($u = 0$) and travels a distance $d$. We use the kinematic equation relating velocity, acceleration, and distance:
+    $$v^2 = u^2 + 2ad$$
+    Substituting $u = 0$:
+    $$v^2 = 2ad$$
+4.  **Substitute and simplify:** Substitute the expression for $a$ derived in step 2 into the kinematic equation:
+    $$v^2 = 2 \left( \frac{BIL}{m} \right) d$$
+    $$v^2 = \frac{2BILd}{m}$$
+    Taking the square root of both sides gives the required result:
+    $$v = \sqrt{\frac{2BILd}{m}}$$
+
+---
+
+### How to solve this type of question
+*   **Step 1: Link Electromagnetism to Mechanics.** Always start by identifying the physical force acting on the object. In HSC Physics, problems involving a bar on rails almost always involve the motor effect formula ($F=BIL$).
+*   **Step 2: Connect to Dynamics.** Use Newton's Second Law ($F=ma$) to relate the magnetic force to the acceleration of the object.
+*   **Step 3: Choose the correct Kinematic equation.** When you are given or asked for distance ($d$) and final velocity ($v$), the time-independent equation ($v^2 = u^2 + 2ad$) is usually the most efficient path to the solution.
+*   **Step 4: Algebraic Substitution.** Once you have your equations, express the final variable in terms of the given parameters ($B, L, I, d, m$) to match the expression requested in the prompt.
+
+###QUESTION_TYPE
+Calculation question

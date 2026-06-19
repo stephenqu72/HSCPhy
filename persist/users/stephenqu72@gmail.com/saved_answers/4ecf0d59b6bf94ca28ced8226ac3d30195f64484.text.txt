@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **B. Decreasing only the vertical component**.
+
+---
+
+### Explanation
+To understand how the time of flight for a projectile is determined, we must look at the equations of motion for the vertical direction. 
+
+1.  **Vertical Motion:** The time of flight ($t$) of a projectile launched from the ground and returning to the same ground level is determined solely by the initial vertical component of the velocity ($u_y$) and the acceleration due to gravity ($g$). 
+2.  **The Formula:** Using the kinematic equation for displacement in the vertical direction ($s_y = u_y t + \frac{1}{2} a_y t^2$), where displacement $s_y = 0$ at the end of the flight and acceleration $a_y = -g$, we get:
+    $$0 = u_y t - \frac{1}{2} g t^2$$
+    Rearranging for $t$:
+    $$t = \frac{2 u_y}{g}$$
+3.  **Analysis:** The formula $t = \frac{2 u_y}{g}$ shows that the time of flight is directly proportional to the initial vertical velocity component ($u_y$). Therefore, if you decrease the initial vertical component, the time of flight will decrease. 
+4.  **Why others are incorrect:** 
+    *   The horizontal component of velocity ($u_x$) affects how far the object travels (range), but it has no impact on how long the object stays in the air in a vacuum. Therefore, changing the horizontal component (C and D) will not change the time of flight.
+    *   Increasing the vertical component (A) would increase the time of flight.
+
+###QUESTION_TYPE
+Multiple choice

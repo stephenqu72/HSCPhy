@@ -1,0 +1,43 @@
+To solve this problem, we apply the principles of circular motion and dynamics on a banked curve.
+
+### (a) Force Diagram
+To represent the forces on the car, you must draw two labelled arrows:
+1.  **Weight ($mg$):** A vertical arrow pointing straight down from the center of mass of the car.
+2.  **Normal Force ($N$):** An arrow pointing perpendicularly out from the surface of the banked track.
+
+### (b) Calculation
+When there is no sideways friction, the horizontal component of the normal force provides the centripetal force required to keep the car moving in a circle, while the vertical component balances the weight of the car.
+
+**1. Identify the components:**
+*   Horizontal: $N \sin\theta = \frac{mv^2}{r}$
+*   Vertical: $N \cos\theta = mg$
+
+**2. Derive the formula:**
+Dividing the horizontal equation by the vertical equation eliminates $N$ and $m$:
+$$\frac{N \sin\theta}{N \cos\theta} = \frac{mv^2 / r}{mg}$$
+$$\tan\theta = \frac{v^2}{rg}$$
+
+**3. Substitute the given values:**
+*   $r = 90.0\text{ m}$
+*   $\theta = 10^\circ$
+*   $g \approx 9.8\text{ m/s}^2$
+
+Rearranging for $v$:
+$$v = \sqrt{rg \tan\theta}$$
+$$v = \sqrt{90.0 \times 9.8 \times \tan(10^\circ)}$$
+$$v = \sqrt{882 \times 0.1763}$$
+$$v = \sqrt{155.5$$
+$$v \approx 12.47\text{ m/s}$$
+
+**Final Answer:** The necessary speed is approximately $12.5\text{ m/s}$.
+
+---
+
+### How to solve this:
+1.  **Free Body Diagram:** Always remember that for a banked track without friction, the Normal force is *not* vertical; it is always perpendicular to the track surface.
+2.  **Resolving Forces:** Resolve the Normal force into horizontal ($N \sin\theta$) and vertical ($N \cos\theta$) components.
+3.  **Equate to Motion:** Recognize that the net force in the horizontal direction must equal the centripetal force ($F_c = \frac{mv^2}{r}$), and the net force in the vertical direction must be zero since the car is not accelerating vertically.
+4.  **Simplify:** Using the ratio of these equations ($\tan\theta = \frac{v^2}{rg}$) is the standard HSC physics shortcut for banked track problems without friction.
+
+###QUESTION_TYPE
+Calculation question

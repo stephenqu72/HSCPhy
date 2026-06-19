@@ -1,0 +1,30 @@
+To find the centripetal force, we must analyze the forces acting on the bob in the horizontal direction. The mass is moving in a horizontal circle, meaning the net force acting toward the center of that circle is the centripetal force ($F_c$).
+
+### Step-by-Step Solution:
+
+1.  **Identify the Forces:** The forces acting on the mass are:
+    *   Tension ($T$) in the string acting toward point O.
+    *   Normal force ($N$) acting perpendicular to the surface of the cone.
+    *   Weight ($mg$) acting vertically downward.
+
+2.  **Resolve Forces into Horizontal and Vertical components:**
+    *   **Tension ($T$):** The angle $\alpha$ is between the string and the vertical axis. The horizontal component of tension points toward the center of the circular path and is given by $T \sin \alpha$.
+    *   **Normal force ($N$):** The angle $\beta$ is between the surface of the cone and the vertical axis (look closely at the diagram: $\beta$ is the angle the surface makes with the vertical). The normal force is perpendicular to the surface, so it points inward and upward. Its horizontal component points toward the center of the circular path and is given by $N \cos \beta$.
+
+3.  **Determine the Net Horizontal Force:** 
+    Since the bob is moving in a horizontal circle, both the horizontal component of the tension ($T \sin \alpha$) and the horizontal component of the normal force ($N \cos \beta$) act in the same direction—toward the center of the circle.
+    
+    Therefore, the total centripetal force is the sum of these components:
+    $$F_c = T \sin \alpha + N \cos \beta$$
+
+Comparing this to the given options, the correct answer is **(C)**.
+
+### Explanation Summary:
+*   We resolve the forces into horizontal and vertical components.
+*   The centripetal force is the net force pointing toward the center of the circle.
+*   $T \sin \alpha$ acts toward the center.
+*   $N \cos \beta$ acts toward the center.
+*   Summing these gives the total centripetal force.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Part (a) Sketch
+*   **Path:** The electrons travel in a straight line from the cathode, passing through the anode aperture.
+*   **Deflection:** Between the plates, the electrons are attracted toward the top plate (labeled $D$, which is connected to the positive terminal of the $200\text{ V}$ battery). Therefore, the path curves upwards towards the top plate while passing between the plates.
+*   **Exit:** After exiting the plates, the electrons travel in a straight line to strike the upper half of the fluorescent screen.
+
+#### Part (b) Calculation
+To find the final velocity, we must determine the magnitude of the velocity components as the electron exits the plates.
+
+**1. Initial Velocity ($v_x$):**
+The electron is accelerated by the $9000\text{ V}$ potential. Using conservation of energy:
+$$qV_{acc} = \frac{1}{2}mv_x^2$$
+$$v_x = \sqrt{\frac{2qV_{acc}}{m}} = \sqrt{\frac{2 \times 1.602 \times 10^{-19} \times 9000}{9.109 \times 10^{-31}}} \approx 5.63 \times 10^7\text{ m/s}$$
+
+**2. Vertical Acceleration ($a_y$):**
+First, find the electric field $E$. Note: The question says $200\text{ V m}^{-1}$, but implies a $200\text{ V}$ source. Assuming the provided text "$200\text{ V m}^{-1}$" is the intended field strength:
+$$F = qE = ma_y \implies a_y = \frac{qE}{m} = \frac{1.602 \times 10^{-19} \times 200}{9.109 \times 10^{-31}} \approx 3.52 \times 10^{13}\text{ m/s}^2$$
+
+**3. Time in Plates ($t$):**
+$$t = \frac{L}{v_x} = \frac{0.08}{5.63 \times 10^7} \approx 1.42 \times 10^{-9}\text{ s}$$
+
+**4. Vertical Velocity ($v_y$):**
+$$v_y = a_y t = (3.52 \times 10^{13}) \times (1.42 \times 10^{-9}) \approx 5.00 \times 10^4\text{ m/s}$$
+
+**5. Final Velocity ($v_{final}$):**
+Since $v_y \ll v_x$, the horizontal velocity remains effectively unchanged.
+$$v_{final} = \sqrt{v_x^2 + v_y^2} \approx v_x \approx 5.63 \times 10^7\text{ m/s}$$
+
+*(Note: In many HSC contexts, if $v_y$ is negligible compared to $v_x$, the velocity is often accepted as the horizontal component $v_x$.)*
+
+###QUESTION_TYPE
+Calculation question

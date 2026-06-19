@@ -1,0 +1,35 @@
+To determine the new radius of the satellite's orbit, we must first establish the relationship between the kinetic energy ($K$) and the orbital radius ($r$) for a satellite in a circular orbit.
+
+### Step-by-Step Explanation:
+
+1.  **Derive the Kinetic Energy formula:**
+    For a satellite in a circular orbit, the gravitational force provides the centripetal force:
+    $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+    Multiplying both sides by $r/2$, we get:
+    $$\frac{GMm}{2r} = \frac{1}{2}mv^2$$
+    Since kinetic energy $K = \frac{1}{2}mv^2$, it follows that:
+    $$K = \frac{GMm}{2r}$$
+    This shows that kinetic energy is inversely proportional to the radius: $K \propto \frac{1}{r}$.
+
+2.  **Set up the ratios:**
+    Let the initial state be $K_1$ and $r_1 = r$.
+    Let the final state be $K_2$ and $r_2 = r'$.
+    The problem states the kinetic energy is 25% larger, so:
+    $$K_2 = 1.25 K_1 = \frac{5}{4} K_1$$
+
+3.  **Relate the variables:**
+    Because $K \propto \frac{1}{r}$, we can write the ratio:
+    $$\frac{K_2}{K_1} = \frac{r_1}{r_2}$$
+    Substituting the known values:
+    $$\frac{5}{4} = \frac{r}{r'}$$
+
+4.  **Solve for $r'$:**
+    $$r' = \frac{4}{5}r$$
+
+### Conclusion:
+Comparing our result $r' = \frac{4}{5}r$ to the given options, it matches option (B).
+
+**Answer:** (B)
+
+###QUESTION_TYPE
+Multiple choice

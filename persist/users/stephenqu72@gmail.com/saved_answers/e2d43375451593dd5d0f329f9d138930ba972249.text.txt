@@ -1,0 +1,30 @@
+To determine which coil experiences the greatest torque, we use the formula for the torque $\tau$ on a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \sin(\theta)$$
+
+Where:
+- $n$ is the number of loops.
+- $I$ is the current.
+- $A$ is the area of the coil.
+- $B$ is the magnetic field strength.
+- $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+Since $I$ and $B$ are constant for all four options, the torque is proportional to the product of the number of loops ($n$) and the area ($A$): 
+$$\tau \propto n \times A$$
+
+We calculate the product $n \times A$ for each option:
+
+*   **A:** $1 \times 0.18 = 0.18 \text{ m}^2$
+*   **B:** $2 \times 0.045 = 0.090 \text{ m}^2$
+*   **C:** $3 \times 0.020 = 0.060 \text{ m}^2$
+*   **D:** $4 \times 0.011 = 0.044 \text{ m}^2$
+
+**Explanation:**
+The torque produced by a motor effect is dependent on the magnetic moment of the coil, defined as $m = nIA$. Because the total length of the wire is fixed, the perimeter ($P$) of each coil is constant ($P = n \times \text{circumference of one loop}$). As the number of loops ($n$) increases, the radius (and thus the area $A$) must decrease significantly. Mathematically, for a fixed length of wire $L$, $A \propto 1/n^2$. Therefore, the product $nA$ is proportional to $n(1/n^2) = 1/n$. This means that as the number of loops increases, the total magnetic moment decreases.
+
+Comparing the calculated values, option A yields the largest value.
+
+**Correct Answer:** A
+
+###QUESTION_TYPE
+Multiple choice

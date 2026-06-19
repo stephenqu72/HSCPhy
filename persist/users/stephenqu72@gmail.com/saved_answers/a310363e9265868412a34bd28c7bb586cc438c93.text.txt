@@ -1,0 +1,23 @@
+Hello! As an HSC Physics teacher, I am happy to help you break down this concept.
+
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To solve this problem, we need to understand the relationship between electric point charges and their associated equipotential surfaces.
+
+1.  **Definitions:**
+    *   **Equipotential surfaces** are regions where the electric potential $V$ is constant. In the case of a single point charge $q$, the potential is given by $V = \frac{kq}{r}$. Since the potential depends only on the distance $r$ from the charge, the equipotential surfaces around a single point charge are spheres (which appear as concentric circles in 2D diagrams).
+    *   **Identical point charges:** When you have two identical charges (e.g., both positive or both negative), the potential at any point in space is the scalar sum of the potentials from each charge: $V_{total} = V_1 + V_2 = k(\frac{q}{r_1} + \frac{q}{r_2})$.
+
+2.  **Analyzing the behavior:**
+    *   Near each individual charge, the potential is dominated by that charge, so the lines remain approximately circular.
+    *   As you move further away from the pair, the electric field lines repel each other (if both are positive) or pull together (if both are negative). The equipotential lines "stretch" and merge to encompass both charges.
+    *   Option **B** correctly illustrates this "merging" effect. The lines form a "peanut" shape that wraps around both charges, which is characteristic of the superposition of two identical point potentials.
+
+3.  **Evaluating other options:**
+    *   **A and D:** These represent **electric field lines**, not equipotential surfaces. Field lines represent the direction of force, while equipotential surfaces represent lines of equal voltage (which must be perpendicular to field lines).
+    *   **C:** This shows two independent sets of circles that do not interact. If there are two charges present, their potentials must summate, which creates the distorted shapes seen in B, not two perfectly circular, isolated systems.
+
+###QUESTION_TYPE
+Multiple choice

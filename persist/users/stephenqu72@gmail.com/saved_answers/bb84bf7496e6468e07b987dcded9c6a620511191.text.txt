@@ -1,0 +1,32 @@
+To calculate the magnitude and direction of the magnetic force acting on the wire, we use the formula for the force on a current-carrying conductor in a magnetic field:
+
+$$F = BIl\sin(\theta)$$
+
+### 1. Identify the given values:
+*   Magnetic field strength ($B$): $3.6\text{ T}$
+*   Current ($I$): $2.5\text{ A}$
+*   Angle ($\theta$): The angle between the current-carrying wire and the magnetic field lines is $48^\circ$.
+*   Length ($l$): The wire length is not given directly, but we can find it using the vertical component ($0.82\text{ m}$) and the angle. Since $\sin(48^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{0.82}{l}$, then $l = \frac{0.82}{\sin(48^\circ)}$.
+
+### 2. Calculation:
+Substituting the expression for $l$ into the force formula:
+$$F = B \cdot I \cdot \left( \frac{0.82}{\sin(48^\circ)} \right) \cdot \sin(48^\circ)$$
+
+The $\sin(48^\circ)$ terms cancel out:
+$$F = B \cdot I \cdot 0.82$$
+$$F = 3.6 \times 2.5 \times 0.82$$
+$$F = 7.38\text{ N}$$
+
+### 3. Direction:
+Using the **Right-Hand Palm Rule**:
+*   Point your fingers in the direction of the magnetic field (to the right).
+*   Point your thumb in the direction of the current (down-left along the wire).
+*   Your palm faces **out of the page**.
+
+**Final Answer:**
+The magnitude of the magnetic force is **$7.38\text{ N}$**, and the direction is **out of the page**.
+
+***
+
+###QUESTION_TYPE
+Calculation question

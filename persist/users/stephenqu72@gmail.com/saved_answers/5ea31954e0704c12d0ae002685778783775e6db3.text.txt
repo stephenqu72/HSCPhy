@@ -1,0 +1,17 @@
+To determine the correct statement, we must analyze the physics of projectile motion in the context of the diagram provided.
+
+### Analysis
+1.  **Vertical Motion:** All three balls are projected from the same height and land at the same location on the ground. In the vertical dimension, the displacement $\Delta y$ is the same for all three. Since the vertical displacement is governed by the equation $\Delta y = u_y t + \frac{1}{2} a_y t^2$, and gravity ($a_y = -g$) is constant, if the balls take different amounts of time to land (which is evident as they have different peak heights), their initial vertical velocities ($u_y$) must be different.
+2.  **Horizontal Motion:** The horizontal range $R$ is defined by $R = u_x t$. Looking at the image, all three balls land at the exact same horizontal distance from the base of the cliff. 
+3.  **Synthesizing the motion:**
+    *   The ball with the highest trajectory spends the most time in the air. Since $R = u_x t$ and $R$ is constant for all balls, the ball that spends the *most* time in the air ($t$ is largest) must have the *smallest* initial horizontal velocity ($u_x$).
+    *   Conversely, the ball with the lowest trajectory spends the least time in the air, meaning it must have the *largest* initial horizontal velocity to reach the same range $R$.
+    *   Because the balls have different initial vertical velocities and different initial horizontal velocities, their resultant initial velocities (magnitude and direction) must also be different.
+
+### Conclusion
+Since the balls have different horizontal velocities (to compensate for different air times) and different vertical velocities (resulting in different peak heights) to land at the same spot, none of the individual velocity components—nor the resultant initial velocity—are the same for the three balls.
+
+The correct statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

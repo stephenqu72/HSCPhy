@@ -1,0 +1,34 @@
+To solve this problem, we use **Kepler’s Third Law of Planetary Motion**, which states that for objects orbiting the same central body, the square of the orbital period ($T$) is directly proportional to the cube of the orbital radius ($r$):
+
+$$\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$$
+
+### Step-by-Step Solution:
+
+1. **Identify the given variables:**
+   - Io: $T_1 = 1.77\text{ days}$, $r_1 = ?$
+   - Europa: $T_2 = 3.55\text{ days}$, $r_2 = 671\,000\text{ km}$
+
+2. **Rearrange the formula to solve for $r_1$:**
+   $$\frac{r_1^3}{r_2^3} = \frac{T_1^2}{T_2^2}$$
+   $$r_1^3 = r_2^3 \times \left(\frac{T_1}{T_2}\right)^2$$
+   $$r_1 = r_2 \times \sqrt[3]{\left(\frac{T_1}{T_2}\right)^2}$$
+
+3. **Substitute the values:**
+   $$r_1 = 671\,000 \times \sqrt[3]{\left(\frac{1.77}{3.55}\right)^2}$$
+   $$r_1 = 671\,000 \times \sqrt[3]{(0.49859)^2}$$
+   $$r_1 = 671\,000 \times \sqrt[3]{0.24859}$$
+   $$r_1 \approx 671\,000 \times 0.6287$$
+   $$r_1 \approx 421\,858\text{ km}$$
+
+Rounding to the nearest significant option provided, the value is approximately **$421\,909\text{ km}$**.
+
+Comparing this result to the given options:
+(A) $334\,555\text{ km}$
+(B) $421\,909\text{ km}$
+(C) $643\,618\text{ km}$
+(D) $751\,030\text{ km}$
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+To answer this question, we apply the principles of electromagnetism concerning charged particles in magnetic fields.
+
+### Answer
+**Similarity:** Both the proton and the alpha particle will undergo uniform circular motion within the magnetic field, and both will deflect in the **same direction** (upwards) relative to their path.
+
+**Difference:** The alpha particle will have a **larger radius of curvature** than the proton. Specifically, the radius of the alpha particle's path will be twice that of the proton.
+
+---
+
+### Explanation
+To solve this, we use the relationship for the magnetic force acting as a centripetal force:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+**1. Explaining the Similarity (Direction):**
+Using the Right-Hand Rule (for positive charges):
+*   Point your fingers in the direction of the velocity ($v$).
+*   Curl them into the page (direction of the magnetic field $B$).
+*   Your thumb points in the direction of the force ($F$).
+For both particles, the force is directed upwards. Because the force is always perpendicular to velocity, they both follow a circular trajectory.
+
+**2. Explaining the Difference (Radius):**
+We compare the proton ($p$) and the alpha particle ($\alpha$). An alpha particle has a mass $m_\alpha \approx 4m_p$ and a charge $q_\alpha = 2q_p$.
+Given the speed $v$ and magnetic field $B$ are constant for both:
+*   Proton radius: $r_p = \frac{m_p v}{q_p B}$
+*   Alpha radius: $r_\alpha = \frac{m_\alpha v}{q_\alpha B} = \frac{(4m_p)v}{(2q_p)B} = 2 \left( \frac{m_p v}{q_p B} \right) = 2r_p$
+
+Thus, the alpha particle has twice the radius of the proton.
+
+###QUESTION_TYPE
+Short answer

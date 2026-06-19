@@ -1,0 +1,33 @@
+To solve this problem, we must apply the physics of orbital mechanics. For a satellite in a circular orbit around a central body:
+
+1.  **Total Mechanical Energy ($E_{total}$):**
+    $$E_{total} = K + U = -\frac{GMm}{2r}$$
+    As the orbital radius $r$ increases, the total energy becomes less negative (it increases toward zero). This matches the original provided graph, where the points trend upward from $-6$ toward $0$.
+
+2.  **Potential Energy ($U$):**
+    $$U = -\frac{GMm}{r}$$
+    This is always negative. As $r$ increases, $U$ becomes less negative (it increases toward zero).
+
+3.  **Kinetic Energy ($K$):**
+    $$K = \frac{GMm}{2r}$$
+    This is always positive. As $r$ increases, $K$ decreases (it approaches zero from above).
+
+4.  **The Relationship:**
+    Crucially, for any circular orbit:
+    $$E_{total} = K + U$$
+    Since $U = -2K$, it follows that $E_{total} = -K$. Or, put simply, **$K = -U / 2$**.
+
+### Evaluating the Graphs:
+*   **The total energy** is the sum of the positive points ($K$) and negative points ($U$) for each column.
+*   In the original graph, the first point is at $-6$. Therefore, the sum of $K$ and $U$ at the first column must equal $-6$.
+*   Let's check **Graph A**:
+    *   Column 1: $K \approx 6$, $U \approx -12$. (Sum = $-6$). This matches the total energy graph.
+    *   As we move to the right (increasing $r$), $K$ should decrease and $U$ should become less negative (move toward zero), while their sum stays on the path of the original graph.
+    *   In Graph A, the positive points (kinetic) are exactly equal in magnitude to the absolute value of the negative points (potential) divided by 2. For example, at the first point: $K = 6$, $U = -12$. $E = 6 + (-12) = -6$. This satisfies the virial theorem for circular orbits perfectly.
+
+Graph A represents the relationship where the kinetic energy is exactly half the magnitude of the potential energy, and their sum equals the total energy shown in the initial plot.
+
+**Correct Answer: A**
+
+###QUESTION_TYPE
+Multiple choice

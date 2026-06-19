@@ -1,0 +1,31 @@
+To solve this problem, we use **Kepler’s Third Law of Planetary Motion**, which states that for planets orbiting the same central body, the square of the orbital period ($T$) is directly proportional to the cube of the orbital radius ($r$):
+
+$$\frac{T_A^2}{r_A^3} = \frac{T_B^2}{r_B^3}$$
+
+### Given Data:
+*   $r_A = 2 \times 10^8 \text{ m}$
+*   $r_B = 6 \times 10^9 \text{ m}$
+*   $T_A = 15 \text{ ooshwucks}$
+*   *Note: The mass of the planet is irrelevant in Kepler’s laws for orbital mechanics as it cancels out.*
+
+### Step-by-Step Calculation:
+1.  **Rearrange the formula to solve for $T_B$:**
+    $$T_B^2 = T_A^2 \times \frac{r_B^3}{r_A^3} = T_A^2 \times \left( \frac{r_B}{r_A} \right)^3$$
+
+2.  **Calculate the ratio of the radii:**
+    $$\frac{r_B}{r_A} = \frac{6 \times 10^9}{2 \times 10^8} = 3 \times 10^1 = 30$$
+
+3.  **Substitute the values into the equation:**
+    $$T_B^2 = 15^2 \times (30)^3$$
+    $$T_B^2 = 225 \times 27000$$
+    $$T_B^2 = 6,075,000$$
+
+4.  **Take the square root to find $T_B$:**
+    $$T_B = \sqrt{6,075,000} \approx 2464.75$$
+
+Rounding to the nearest whole number provided in the options, we get **2465**.
+
+**Correct Option: b)**
+
+###QUESTION_TYPE
+Multiple choice

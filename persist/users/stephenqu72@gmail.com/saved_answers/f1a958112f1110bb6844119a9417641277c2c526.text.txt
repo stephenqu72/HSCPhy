@@ -1,0 +1,24 @@
+To find the magnitude of the force per unit length on the bottom left wire, we use the formula for the magnetic force per unit length between two parallel wires:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+where $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$, $I_1$ and $I_2$ are the currents, and $r$ is the separation distance.
+
+### 1. Identify the forces acting on the bottom left wire ($I_1 = 1.5 \, \text{A}$)
+*   **Force from top wire ($I_2 = 2.0 \, \text{A}$):**
+    Both currents flow into the page (same direction), so they attract. The force is directed toward the top wire.
+    $$\frac{F_1}{L} = \frac{(4\pi \times 10^{-7})(1.5)(2.0)}{2\pi(1.0)} = 6.0 \times 10^{-7} \, \text{N/m}$$
+*   **Force from bottom right wire ($I_3 = 2.7 \, \text{A}$):**
+    Currents flow in opposite directions (one into, one out of the page), so they repel. The force is directed away from the bottom right wire (to the left).
+    $$\frac{F_2}{L} = \frac{(4\pi \times 10^{-7})(1.5)(2.7)}{2\pi(1.0)} = 8.1 \times 10^{-7} \, \text{N/m}$$
+
+### 2. Vector addition of forces
+The triangle is equilateral, so the angle between the two forces is $120^\circ$. We use the law of cosines for vector addition:
+$$F_{net} = \sqrt{F_1^2 + F_2^2 + 2F_1 F_2 \cos(\theta)}$$
+Here $\theta = 120^\circ$ is the angle between the directions of the two force vectors.
+$$F_{net} = \sqrt{(6.0)^2 + (8.1)^2 + 2(6.0)(8.1)\cos(120^\circ)} \times 10^{-7}$$
+$$F_{net} = \sqrt{36 + 65.61 + 97.2(-0.5)} \times 10^{-7}$$
+$$F_{net} = \sqrt{101.61 - 48.6} \times 10^{-7} = \sqrt{53.01} \times 10^{-7} \approx 7.28 \times 10^{-7} \, \text{N/m}$$
+
+**Correct Answer:** D. $7.28 \times 10^{-7} \, \text{Nm}^{-1}$
+
+###QUESTION_TYPE
+Multiple choice

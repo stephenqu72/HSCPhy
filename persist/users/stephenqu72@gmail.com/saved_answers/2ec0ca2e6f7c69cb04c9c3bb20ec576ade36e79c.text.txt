@@ -1,0 +1,28 @@
+To determine the acceleration of the second proton, let's analyze the physics of a particle moving through combined electric and magnetic fields.
+
+### Analysis
+The total force (Lorentz force) acting on a proton of charge $q$ moving with velocity $\vec{v}$ in an electric field $\vec{E}$ and a magnetic field $\vec{B}$ is given by:
+$$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$
+
+**1. The first proton:**
+The problem states that the velocity of the first proton remains unchanged. This means its acceleration is zero, which implies the net force is zero:
+$$q(\vec{E} + \vec{v} \times \vec{B}) = 0 \implies \vec{E} = -\vec{v} \times \vec{B}$$
+This establishes the relationship between the electric field and the magnetic field within the chamber.
+
+**2. The second proton:**
+The second proton enters with a velocity $2\vec{v}$. The net force acting on it is:
+$$\vec{F}_{net} = q(\vec{E} + (2\vec{v}) \times \vec{B})$$
+Substitute $\vec{E} = -\vec{v} \times \vec{B}$ into the equation:
+$$\vec{F}_{net} = q(-\vec{v} \times \vec{B} + 2\vec{v} \times \vec{B})$$
+$$\vec{F}_{net} = q(\vec{v} \times \vec{B})$$
+
+**3. Determining the acceleration:**
+Since acceleration $\vec{a} = \frac{\vec{F}_{net}}{m}$:
+$$\vec{a} = \frac{q}{m}(\vec{v} \times \vec{B})$$
+Because $\vec{v}$ and $\vec{B}$ are constant vectors within the uniform fields, the cross product $\vec{v} \times \vec{B}$ is also a constant vector. Consequently, the acceleration $\vec{a}$ is constant in both magnitude and direction.
+
+### Conclusion
+The second proton experiences a constant net force, and therefore, a constant acceleration. The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

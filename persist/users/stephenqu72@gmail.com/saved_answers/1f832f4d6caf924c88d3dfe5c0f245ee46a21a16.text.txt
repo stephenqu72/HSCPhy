@@ -1,0 +1,21 @@
+To move a spacecraft from a higher stable circular orbit to a lower stable circular orbit, a two-stage retro-burn sequence is required. Here is the step-by-step physical explanation:
+
+### Answer
+1.  **First Retro-burn:** The spacecraft fires its thrusters in the direction opposite to its orbital velocity (a retro-burn). This reduces the kinetic energy of the spacecraft, causing it to drop into an elliptical "transfer orbit" (the Hohmann transfer) where the current altitude becomes the *apogee* (highest point) and the new, lower altitude will be the *perigee* (lowest point).
+2.  **Transition:** The spacecraft coasts along this elliptical path until it reaches the desired lower altitude. During this phase, it converts potential energy into kinetic energy, gaining speed as it moves closer to the central body.
+3.  **Second Retro-burn:** Upon reaching the desired lower altitude (the perigee of the transfer orbit), the spacecraft must perform a second retro-burn to reduce its velocity to the value required for a stable circular orbit at that specific radius. Without this second burn, the spacecraft would be traveling too fast for a circular orbit and would simply swing back out to the higher altitude.
+
+---
+
+### How to solve this
+When approaching "orbital maneuver" questions in the HSC:
+*   **Identify the goal:** Moving to a lower orbit requires a **decrease** in total energy ($E_{total}$). As shown in the graph, as the radius decreases, the total energy becomes more negative.
+*   **Recall the physics of orbits:** Velocity is inversely proportional to the square root of the radius ($v = \sqrt{GM/r}$). To get to a smaller $r$, you must lose velocity.
+*   **Use the "Retro-burn" terminology:** Always mention that firing rockets *opposite* to the direction of motion (retro-burn) decreases orbital energy.
+*   **Structure for marks:**
+    *   **Mark 1:** Explain the initial retro-burn to move into an elliptical transfer orbit.
+    *   **Mark 2:** Describe the coasting phase or the change in energy/velocity.
+    *   **Mark 3:** Explain the second retro-burn required to circularize the orbit at the lower altitude.
+
+###QUESTION_TYPE
+Short answer

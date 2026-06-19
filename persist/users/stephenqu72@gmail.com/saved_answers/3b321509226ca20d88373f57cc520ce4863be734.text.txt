@@ -1,0 +1,33 @@
+To derive the formula for escape velocity, we use the principle of the **Conservation of Mechanical Energy**.
+
+### Derivation
+1. **Define the condition:** Escape velocity ($v_{esc}$) is defined as the minimum velocity required for an object of mass $m$ to just escape the gravitational pull of a larger body of mass $M$ at a distance $r$. "Just escaping" implies that the object reaches an infinite distance ($r \to \infty$) with zero velocity ($v = 0$).
+
+2. **State the total energy equation:** By the conservation of energy, the total energy at the surface of the planet must equal the total energy at infinity:
+   $$E_{surface} = E_{\infty}$$
+   $$K_{surface} + U_{surface} = K_{\infty} + U_{\infty}$$
+
+3. **Substitute the values:**
+   - Kinetic Energy ($K$): $\frac{1}{2}mv_{esc}^2$
+   - Gravitational Potential Energy ($U$): $-\frac{GMm}{r}$
+   - At infinity ($r = \infty$), both kinetic and gravitational potential energy are zero.
+   
+   Substituting these into the equation:
+   $$\frac{1}{2}mv_{esc}^2 - \frac{GMm}{r} = 0 + 0$$
+
+4. **Solve for $v_{esc}$:**
+   $$\frac{1}{2}mv_{esc}^2 = \frac{GMm}{r}$$
+   Cancel $m$ from both sides:
+   $$\frac{1}{2}v_{esc}^2 = \frac{GM}{r}$$
+   $$v_{esc}^2 = \frac{2GM}{r}$$
+   $$v_{esc} = \sqrt{\frac{2GM}{r}}$$
+
+---
+
+### How to solve this for HSC exams:
+*   **Key Concept:** Always start by stating the Law of Conservation of Energy. Examiners look for the recognition that the sum of kinetic and potential energy at the surface must be zero (if the object is to "just" escape).
+*   **Sign Convention:** Remember that gravitational potential energy is defined as negative, which is why we subtract it from the kinetic energy.
+*   **Notation:** Ensure you define your variables ($G$ = Gravitational constant, $M$ = Mass of the central body, $r$ = Distance from the center of the mass).
+
+###QUESTION_TYPE
+Short answer

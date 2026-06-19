@@ -1,0 +1,30 @@
+### Answer
+
+Newton’s Third Law of Motion states that for every action, there is an equal and opposite reaction. This means that if object A exerts a force on object B, then object B exerts an equal magnitude force on object A in the opposite direction.
+
+The SI definition of the ampere is based on the force between two parallel current-carrying wires. When two long, parallel, current-carrying conductors are separated by a distance $d$, each wire creates a magnetic field that exerts a force on the other. 
+
+According to the formula for the force per unit length $l$:
+$$\frac{F}{l} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+
+The relationship is as follows:
+1. **Reciprocity of Magnetic Force:** The force exerted by wire 1 on wire 2 is exactly equal in magnitude and opposite in direction to the force exerted by wire 2 on wire 1. This is a direct manifestation of Newton’s Third Law.
+2. **Operational Definition:** Because these magnetic forces are equal and opposite, the Ampere can be defined as the constant current which, if maintained in two straight parallel conductors of infinite length and negligible circular cross-section, placed one meter apart in vacuum, would produce between these conductors a force equal to $2 \times 10^{-7}$ newtons per meter of length.
+3. **Consistency:** The stability and reproducibility of this definition rely on the fact that the electromagnetic interaction adheres to the principle of action-reaction, ensuring that the force measured on one wire is a true reflection of the current flowing through both.
+
+---
+
+### How to solve this
+To approach a "Discuss" question worth 4 marks, you must provide a balanced response that connects the two concepts clearly:
+
+*   **Define the two concepts:** Briefly define Newton’s Third Law (action-reaction) and the definition of the ampere (force between current-carrying wires).
+*   **Show the link:** Explicitly state that the magnetic force between wires is an interaction where both wires exert equal forces on each other.
+*   **Use Physics terminology:** Mention that this is an application of Newton's Third Law in the context of electromagnetism.
+*   **Structure:** Aim for 4 distinct points:
+    1. Statement of Newton's Third Law.
+    2. Description of the magnetic force between two wires.
+    3. Explanation of how this force obeys the action-reaction principle (the "link").
+    4. Concluding how this allows for the rigorous SI definition of current.
+
+###QUESTION_TYPE
+Short answer

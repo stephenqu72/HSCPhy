@@ -1,0 +1,27 @@
+To find the force experienced by a current-carrying conductor in a magnetic field, we use the formula for magnetic force:
+
+$$F = BIL \sin(\theta)$$
+
+### Step 1: Identify the given values and convert to SI units
+*   **Current ($I$):** $40\text{ mA} = 40 \times 10^{-3}\text{ A} = 0.040\text{ A}$
+*   **Magnetic field strength ($B$):** $0.50\text{ T}$
+*   **Length ($L$):** $12.0\text{ cm} = 0.120\text{ m}$
+*   **Angle ($\theta$):** $45^\circ$
+
+### Step 2: Substitute the values into the formula
+$$F = (0.50) \times (0.040) \times (0.120) \times \sin(45^\circ)$$
+
+### Step 3: Calculate the result
+1.  Calculate the product of the numerical values:
+    $$0.50 \times 0.040 \times 0.120 = 0.0024$$
+2.  Calculate $\sin(45^\circ) \approx 0.7071$
+3.  Combine them:
+    $$F = 0.0024 \times 0.7071 \approx 0.001697\text{ N}$$
+
+Rounding this to two significant figures (consistent with the provided options), we get:
+$$F \approx 1.7 \times 10^{-3}\text{ N}$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

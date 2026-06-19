@@ -1,0 +1,35 @@
+To determine the path of the alpha particle, we must first analyze the conditions under which the electron remains undeflected, then apply those conditions to the alpha particle.
+
+### Step 1: Analyze the electron's motion
+For the electron to be undeflected, the net force on it must be zero. This means the magnetic force ($F_B$) and the electric force ($F_E$) must be equal in magnitude and opposite in direction:
+$$F_E = F_B$$
+$$qE = qvB$$
+$$E = vB$$
+
+1.  **Magnetic Force:** Using the Right-Hand Rule for a negative charge (electron): Fingers point in the direction of velocity (right), curl toward the magnetic field (out of page), thumb points down. Since it is an electron, the force is in the **opposite direction (upwards)**. Thus, $F_B$ acts upwards.
+2.  **Electric Force:** To counteract the upward magnetic force, the electric force must act **downwards**. This implies the top plate is positive and the bottom plate is negative.
+
+### Step 2: Analyze the alpha particle's motion
+An alpha particle has a positive charge ($q_\alpha = +2e$). It enters the region with the same velocity $v$, electric field $E$, and magnetic field $B$.
+
+1.  **Magnetic Force:** Using the Right-Hand Rule for a positive charge: Fingers point right, curl out of the page, thumb points **upwards**. The magnetic force on the alpha particle is upwards.
+2.  **Electric Force:** Since the alpha particle is positive, it is repelled by the positive top plate and attracted to the negative bottom plate. Therefore, the electric force acts **downwards**.
+
+### Step 3: Compare magnitudes
+The magnitude of the forces are:
+- $F_{E, \alpha} = q_\alpha E = 2eE$
+- $F_{B, \alpha} = q_\alpha v B = 2e(vB)$
+
+Since we established from the electron that $E = vB$, we can substitute this:
+$$F_{E, \alpha} = 2e(vB) = 2e v B$$
+$$F_{B, \alpha} = 2e v B$$
+
+Because the magnetic force and electric force are identical in magnitude ($2evB$) but opposite in direction (one up, one down), the net force remains zero.
+
+### Conclusion
+The alpha particle experiences the exact same balanced forces as the electron and therefore will pass through **undeflected**.
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To solve this problem, we apply the principle of **Conservation of Energy**. The electrical potential energy lost by the proton as it moves through the potential difference is converted entirely into its kinetic energy.
+
+### Part (a)
+**1. Identify the given values:**
+*   Potential difference ($V$) = $2.0 \text{ kV} = 2000 \text{ V}$
+*   Charge of a proton ($q$) = $1.602 \times 10^{-19} \text{ C}$
+*   Mass of a proton ($m$) = $1.673 \times 10^{-27} \text{ kg}$
+
+**2. State the energy conservation equation:**
+The electrical work done on the proton ($W = qV$) equals its final kinetic energy ($K = \frac{1}{2}mv^2$):
+$$qV = \frac{1}{2}mv^2$$
+
+**3. Rearrange to solve for speed ($v$):**
+$$v = \sqrt{\frac{2qV}{m}}$$
+
+**4. Substitute the values:**
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19} \text{ C}) \times (2000 \text{ V})}{1.673 \times 10^{-27} \text{ kg}}}$$
+$$v = \sqrt{\frac{6.408 \times 10^{-16}}{1.673 \times 10^{-27}}}$$
+$$v = \sqrt{3.83 \times 10^{11}}$$
+$$v \approx 6.19 \times 10^5 \text{ m/s}$$
+
+**Answer:** The speed of the proton is approximately $6.19 \times 10^5 \text{ m/s}$.
+
+---
+
+### Part (b)
+The distance between the plates has no influence on the final speed because the final kinetic energy depends only on the **potential difference** across the plates and the **charge** of the particle ($K = qV$).
+
+While a larger distance would result in a weaker electric field ($E = \frac{V}{d}$), meaning the proton would experience a smaller force and take longer to reach the other side, the work done on the proton ($W = F \cdot d$) remains constant. Substituting $F = qE$ and $E = \frac{V}{d}$ gives $W = (q \cdot \frac{V}{d}) \cdot d = qV$. Since $d$ cancels out, the work done—and therefore the final speed—is independent of the plate separation.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,35 @@
+To solve this problem, we must apply the formula for the force per unit length between two parallel current-carrying conductors.
+
+### Explanation
+
+1.  **Identify the relevant physics principle:**
+    The force per unit length ($F/L$) between two long, parallel conductors separated by a distance $d$ carrying currents $I_1$ and $I_2$ is given by the formula:
+    $$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+    In this diagram, the conductors are connected in series, meaning the current $I$ is the same in both rods ($I_1 = I_2 = I$). Therefore, the force $F$ is proportional to:
+    $$F \propto \frac{I^2}{d}$$
+
+2.  **Analyze the condition:**
+    The problem states that the repulsive force $F$ is kept **constant**. We can rearrange the proportionality relationship to solve for $I$ in terms of $d$:
+    $$I^2 \propto F \cdot d$$
+    Since $F$ is a constant, we can write:
+    $$I^2 = k \cdot d$$
+    where $k$ is a constant incorporating the physical properties of the system ($\mu_0$, length $L$, and force $F$).
+
+3.  **Determine the relationship:**
+    Solving for $I$:
+    $$I = \sqrt{k \cdot d} = \sqrt{k} \cdot \sqrt{d}$$
+    This means the current $I$ is directly proportional to the square root of the distance $d$ ($I \propto \sqrt{d}$).
+
+4.  **Evaluate the graphs:**
+    *   Graph (A) represents inverse proportionality ($I \propto 1/d$).
+    *   Graph (B) represents direct linear proportionality ($I \propto d$).
+    *   Graph (C) shows an increasing curve where the slope gets steeper, which is characteristic of a function like $I \propto d^n$ where $n > 1$ (e.g., a parabola).
+    *   Graph (D) shows an increasing curve where the slope gets shallower as $d$ increases, which is characteristic of a square root function ($I \propto \sqrt{d}$).
+
+Therefore, graph **(D)** correctly represents the relationship $I \propto \sqrt{d}$.
+
+### Answer
+The correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

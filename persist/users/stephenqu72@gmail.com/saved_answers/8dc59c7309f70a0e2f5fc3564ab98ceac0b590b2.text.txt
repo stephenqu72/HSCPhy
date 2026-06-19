@@ -1,0 +1,27 @@
+To solve this problem, we must apply the principles of electrostatics and kinematics in a uniform electric field. 
+
+### Part (a): Compare the work done on $q_1$ and $q_2$
+
+**Answer:** The work done on $q_1$ and $q_2$ is the same.
+
+**Explanation:**
+The work done by an electric field on a charged particle is given by the formula $W = q\Delta V$. 
+1. In both scenarios, the particles have the same charge ($q_1 = q_2 = q$).
+2. The particles start at the same relative position (midway between the plates in Figure 1, and at the same distance from plate $X$ in Figure 2).
+3. Since the voltage $V$ is constant and the vertical displacement required to strike the plate $Y$ is the same for both particles (a distance of $d/2$ for $q_1$ and a distance of $d/2$ for $q_2$), the potential difference $\Delta V$ traversed by both particles is identical.
+4. Because $W = q\Delta V$, and both $q$ and $\Delta V$ are constant, the work done on both particles is equal.
+
+---
+
+### Part (b): Compare the horizontal distances travelled by $q_1$ and $q_2$
+
+**Answer:** Particle $q_2$ travels a larger horizontal distance than particle $q_1$.
+
+**Explanation:**
+1. **Electric Field Strength:** The electric field between parallel plates is $E = V/d$. In Figure 2, the plate separation is doubled ($2d$), so the electric field strength for $q_2$ is halved ($E_2 = V/2d = 0.5 E_1$).
+2. **Acceleration:** Using Newton's Second Law and $F = qE$, the vertical acceleration $a = qE/m$. Since $E_2 = 0.5 E_1$, the acceleration $a_2$ is half of $a_1$.
+3. **Time of Flight:** Both particles must travel the same vertical distance $y = d/2$ to hit plate $Y$. Using the kinematic equation $y = 0.5at^2$, we find $t = \sqrt{2y/a}$. Since $a_2$ is smaller than $a_1$, the time taken for $q_2$ to strike the plate is greater ($t_2 > t_1$).
+4. **Horizontal Distance:** The horizontal distance is $s = v_x t$. Since both particles enter with the same horizontal velocity $v$, and $t_2 > t_1$, it follows that $s_2 > s_1$. Thus, $q_2$ travels a larger horizontal distance.
+
+###QUESTION_TYPE
+Calculation question

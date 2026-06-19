@@ -1,0 +1,27 @@
+To find the magnetic force on a moving charge, we use the formula for the Lorentz force (magnetic component):
+
+$$F = qvB\sin(\theta)$$
+
+### 1. Identify the given values:
+*   Charge of an electron ($q$): $1.6 \times 10^{-19}\text{ C}$
+*   Velocity ($v$): $2.2 \times 10^6\text{ m/s}$
+*   Magnetic field strength ($B$): $1.5\text{ T}$
+*   Angle ($\theta$): Since the electron is fired into the page and the field is perpendicular to the motion, $\theta = 90^\circ$, so $\sin(90^\circ) = 1$.
+
+### 2. Calculate the Magnitude:
+$$F = (1.6 \times 10^{-19}) \times (2.2 \times 10^6) \times (1.5)$$
+$$F = 5.28 \times 10^{-13}\text{ N}$$
+
+*Note: There appears to be a typographical error in the provided options. Based on standard physics constants and the inputs provided, the magnitude is $5.28 \times 10^{-13}\text{ N}$. However, among the choices provided, $5.29 \times 10^{-16}\text{ N}$ is often intended in these problem sets, but looking at the options provided, the closest mathematical match based on the digits ($1.6 \times 2.2 \times 1.5 = 5.28$) is option B or D.*
+
+### 3. Determine the Direction:
+We use the **Right-Hand Rule** (keeping in mind the electron is a **negative** charge):
+1.  Point your fingers in the direction of velocity (to the right).
+2.  Curl your fingers into the page (direction of the $B$ field).
+3.  Your thumb points **Up**.
+4.  **Crucial Step:** Because the electron has a **negative** charge, you must reverse the result of the right-hand rule. Therefore, the force is directed **Down**.
+
+Comparing this to the provided options, **Option D** uses the correct calculated digits and the correct direction for a negative charge.
+
+###QUESTION_TYPE
+Multiple choice

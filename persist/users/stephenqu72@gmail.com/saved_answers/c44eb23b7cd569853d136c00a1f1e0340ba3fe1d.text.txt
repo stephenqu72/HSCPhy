@@ -1,0 +1,24 @@
+To solve this problem, we must apply **Kepler's Third Law of Planetary Motion**, which relates the orbital period ($T$) and the orbital radius ($r$) of objects orbiting the same central mass (the Sun).
+
+### The Principle
+Kepler’s Third Law states that for any objects orbiting the same central body:
+$$\frac{T^2}{r^3} = \text{constant}$$
+
+If all planets belong to the same solar system, the value of $\frac{T^2}{r^3}$ must be consistent across them. Let's calculate this ratio for each option using the provided data:
+
+1.  **Planet W (A):**
+    $$\frac{(7.6 \times 10^6)^2}{(5.791 \times 10^7)^3} \approx \frac{5.776 \times 10^{13}}{1.943 \times 10^{23}} \approx 2.97 \times 10^{-10} \, \text{s}^2/\text{m}^3$$
+2.  **Planet X (B):**
+    $$\frac{(5.94 \times 10^7)^2}{(2.2794 \times 10^8)^3} \approx \frac{3.528 \times 10^{15}}{1.184 \times 10^{25}} \approx 2.98 \times 10^{-10} \, \text{s}^2/\text{m}^3$$
+3.  **Planet W (C):**
+    $$\frac{(9.296 \times 10^8)^2}{(1.4267 \times 10^9)^3} \approx \frac{8.641 \times 10^{17}}{2.903 \times 10^{27}} \approx 2.97 \times 10^{-10} \, \text{s}^2/\text{m}^3$$
+4.  **Planet Z (D):**
+    $$\frac{(2.651 \times 10^9)^2}{(4.4983 \times 10^{10})^3} \approx \frac{7.028 \times 10^{18}}{9.102 \times 10^{31}} \approx 7.72 \times 10^{-14} \, \text{s}^2/\text{m}^3$$
+
+### Analysis
+Planets (A), (B), and (C) yield a consistent constant value (approximately $3 \times 10^{-10} \, \text{s}^2/\text{m}^3$), which corresponds to our Solar System. Planet (D) yields a significantly different value because its orbital radius is far too large for the given orbital period, indicating it is orbiting a different central mass or belongs to a different gravitational system.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,36 @@
+To solve this problem, we must apply the principles of electromagnetism (force between current-carrying wires) and Newtonian mechanics ($F=ma$).
+
+### Step-by-Step Explanation
+
+**1. Calculate the magnetic force between the wires:**
+The magnitude of the force per unit length ($F/L$) between two parallel current-carrying wires is given by the formula:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+Where:
+*   $\mu_0 = 4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$
+*   $I_1 = 25.0 \text{ A}$
+*   $I_2 = 50.0 \text{ A}$
+*   $d = 2.00 \text{ mm} = 2.00 \times 10^{-3} \text{ m}$
+*   $L = 2.00 \text{ m}$
+
+Plugging in the values:
+$$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times 25.0 \times 50.0}{2\pi \times (2.00 \times 10^{-3})}$$
+$$\frac{F}{L} = \frac{2 \times 10^{-7} \times 1250}{2.00 \times 10^{-3}}$$
+$$\frac{F}{L} = \frac{2.5 \times 10^{-4}}{2.00 \times 10^{-3}} = 0.125 \text{ N/m}$$
+
+Since the total length $L = 2.00 \text{ m}$, the total force $F$ is:
+$$F = 0.125 \text{ N/m} \times 2.00 \text{ m} = 0.250 \text{ N}$$
+
+**2. Calculate the mass of each trolley:**
+The currents in the wires flow in opposite directions (one up, one down), which creates a repulsive force between the wires. According to Newton's Second Law ($F = ma$):
+$$m = \frac{F}{a}$$
+Given $a = 0.200 \text{ m/s}^2$:
+$$m = \frac{0.250 \text{ N}}{0.200 \text{ m/s}^2}$$
+$$m = 1.25 \text{ kg}$$
+
+Comparing this result to the given options, the correct choice is **(B)**.
+
+### Answer
+The mass of each trolley is **1.25 kg**.
+
+###QUESTION_TYPE
+Multiple choice

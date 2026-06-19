@@ -1,0 +1,36 @@
+Here are the solutions to the questions based on the provided displacement-time graph.
+
+### a) State the person's displacement from their starting position after six seconds.
+
+**Answer:** $0\text{ m}$
+
+**Explanation:** To find the displacement at a specific time, locate $6\text{ s}$ on the horizontal (time) axis and look at the corresponding value on the vertical (displacement) axis. At $6\text{ s}$, the graph intersects the time axis at $0\text{ m}$. This means the person has returned to their starting point.
+
+---
+
+### b) Calculate the person's average speed for the entire journey.
+
+**Answer:** $1.33\text{ m/s}$
+
+**Explanation:** Average speed is defined as the **total distance** traveled divided by the **total time** taken. Unlike displacement, distance is a scalar and always adds up regardless of direction.
+1.  From $0\text{--}2\text{ s}$: Distance $= 5\text{ m}$
+2.  From $2\text{--}4\text{ s}$: Distance $= 0\text{ m}$
+3.  From $4\text{--}6\text{ s}$: Distance $= 5\text{ m}$ (moving from $5$ back to $0$)
+4.  From $6\text{--}8\text{ s}$: Distance $= 3\text{ m}$ (moving from $0$ to $-3$)
+5.  From $8\text{--}10\text{ s}$: Distance $= 0\text{ m}$
+6.  From $10\text{--}12\text{ s}$: Distance $= 3\text{ m}$ (moving from $-3$ to $0$)
+
+Total distance $= 5 + 0 + 5 + 3 + 0 + 3 = 16\text{ m}$.
+Total time $= 12\text{ s}$.
+Average speed $= \frac{16\text{ m}}{12\text{ s}} \approx 1.333... \text{ m/s}$. Rounded to two decimal places, this is $1.33\text{ m/s}$.
+
+---
+
+### c) Propose a reason for the negative displacement values shown in the graph.
+
+**Answer:** The person has changed their direction of motion and moved past their initial starting position.
+
+**Explanation:** In physics, displacement is a vector quantity. The positive and negative signs indicate direction relative to the reference point (the starting position, $x=0$). A negative displacement means the person has traveled in the opposite direction to their initial motion, moving behind the origin or "starting line."
+
+###QUESTION_TYPE
+Data analysis questions

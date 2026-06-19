@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of electrostatics regarding how electric fields exert forces on charged particles.
+
+### Reasoning and Explanation:
+
+1.  **Understand the Electric Field Direction:**
+    The problem states that the electric field is directed from plate $Q$ to plate $P$. By definition, the electric field vector $\vec{E}$ points in the direction that a *positive* charge would be pushed. Therefore, a positive charge would experience a force toward plate $P$, and a negative charge would experience a force toward plate $Q$.
+
+2.  **Analyze Particle $X$:**
+    *   Particle $X$ enters from the left and is deflected **downward** toward plate $Q$.
+    *   Since the force on $X$ is directed toward plate $Q$ (opposite to the direction of the electric field), $X$ must be **negatively charged**.
+
+3.  **Analyze Particle $Y$:**
+    *   Particle $Y$ enters from the right and is deflected **upward** toward plate $P$.
+    *   Since the force on $Y$ is directed toward plate $P$ (the same as the direction of the electric field), $Y$ must be **positively charged**.
+
+4.  **Conclusion:**
+    *   $X$ is negative ($-$).
+    *   $Y$ is positive ($+$).
+
+Comparing this to the given options, we find that **(B)** matches our derivation.
+
+**Correct Answer:** (B)
+
+### How to solve such problems in the HSC:
+*   **Always identify the Field Direction first:** Remember the convention that electric field lines point away from positive charges and toward negative charges. If the field is from $Q$ to $P$, then $P$ must be negative and $Q$ must be positive.
+*   **Force on Charge:** Use the formula $\vec{F} = q\vec{E}$.
+    *   If $q$ is positive, $\vec{F}$ is in the same direction as $\vec{E}$.
+    *   If $q$ is negative, $\vec{F}$ is in the opposite direction to $\vec{E}$.
+*   **Visualize the deflection:** Look at the curvature of the path. A particle is always deflected toward the plate that is *opposite* to its own charge.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,39 @@
+To calculate the total distance travelled, we need to find the total angle through which the wheel rotates and then use the relationship between linear distance and angular displacement.
+
+### 1. Identify the given information
+*   Radius of the wheel, $r = 0.3\text{ m}$
+*   Initial angular velocity, $\omega = 25.0\text{ rad s}^{-1}$
+*   Time interval at constant velocity, $\Delta t = 2.00\text{ s}$
+*   Angle rotated during deceleration, $\theta_2 = 440\text{ rad}$
+
+### 2. Calculate the total angle of rotation ($\theta_{total}$)
+The motion consists of two parts:
+
+**Part A: Constant angular velocity**
+The angle rotated ($\theta_1$) during the first $2.00\text{ seconds}$ is:
+$$\theta_1 = \omega \times \Delta t$$
+$$\theta_1 = 25.0\text{ rad s}^{-1} \times 2.00\text{ s} = 50.0\text{ rad}$$
+
+**Part B: Constant angular deceleration**
+We are given that during this phase, the wheel turns through:
+$$\theta_2 = 440\text{ rad}$$
+
+**Total angle ($\theta_{total}$):**
+$$\theta_{total} = \theta_1 + \theta_2 = 50.0\text{ rad} + 440\text{ rad} = 490\text{ rad}$$
+
+### 3. Calculate total distance ($s$)
+The relationship between the linear distance $s$ travelled by the edge of the wheel and the total angle $\theta$ is given by the formula:
+$$s = r \times \theta_{total}$$
+$$s = 0.3\text{ m} \times 490\text{ rad}$$
+$$s = 147\text{ m}$$
+
+**Final Answer:** The total distance travelled is **147 m**.
+
+---
+### Explanation of the approach
+1.  **Understand the kinematics:** The problem describes circular motion in two stages. In the first stage, the angular velocity is constant, so the displacement is simply $\omega t$. In the second stage, the angular displacement is already provided ($440\text{ rad}$).
+2.  **Sum the displacements:** Since distance is cumulative, we add the angular displacements from both phases to get the total angular displacement ($\theta$).
+3.  **Convert to linear units:** Using the conversion formula $s = r\theta$, we map the angular rotation to the linear distance covered by the circumference of the wheel.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,34 @@
+To find the torque on the current-carrying coil in a magnetic field, we use the formula for the torque $\tau$ on a coil:
+
+$$\tau = N I A B \sin(\theta)$$
+
+### 1. Identify the given values:
+*   Number of turns ($N$) = $50$
+*   Current ($I$) = $1\text{ A}$
+*   Side length of the square coil ($s$) = $10\text{ cm} = 0.1\text{ m}$
+*   Area ($A$) = $s^2 = 0.1\text{ m} \times 0.1\text{ m} = 0.01\text{ m}^2$
+*   Magnetic field strength ($B$) = $1.2\text{ T}$
+
+### 2. Determine the angle ($\theta$):
+In the torque formula, $\theta$ represents the angle between the **normal to the area of the coil** and the **magnetic field lines**. 
+*   The magnetic field lines travel from North to South (horizontally). 
+*   The "End on view" shows the coil at $60^\circ$ to the horizontal field. 
+*   The normal to the coil is perpendicular to the coil's surface. If the coil makes a $60^\circ$ angle with the horizontal, the normal makes an angle of $90^\circ - 60^\circ = 30^\circ$ with the horizontal (the direction of the magnetic field). Therefore, $\theta = 30^\circ$.
+
+### 3. Calculate the torque:
+$$\tau = 50 \times 1 \times 0.01 \times 1.2 \times \sin(30^\circ)$$
+$$\tau = 50 \times 0.01 \times 1.2 \times 0.5$$
+$$\tau = 0.5 \times 1.2 \times 0.5$$
+$$\tau = 0.6 \times 0.5$$
+$$\tau = 0.3\text{ Nm}$$
+
+Comparing this result to the given options, the correct answer is **A**.
+
+### How to solve:
+1.  **Convert units:** Always ensure all measurements are in SI units (meters, amperes, teslas).
+2.  **Calculate Area:** For a square, $A = \text{side}^2$.
+3.  **Identify the correct angle:** Remember that the torque formula uses the angle between the *normal* of the plane and the magnetic field. If the diagram gives the angle between the coil plane and the field, subtract that value from $90^\circ$.
+4.  **Plug and chug:** Substitute the values into $\tau = NIAB\sin(\theta)$ and calculate.
+
+###QUESTION_TYPE
+Multiple choice

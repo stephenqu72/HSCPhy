@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The new speed limit should be approximately $56.6 \text{ km h}^{-1}$.
+
+**Explanation:**
+The formula for centripetal acceleration ($a_c$) is:
+$$a_c = \frac{v^2}{r}$$
+We are told the centripetal acceleration remains constant, so if we compare the initial state ($1$) and the new state ($2$):
+$$\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$$
+We know that the radius is doubled, so $r_2 = 2r_1$. Substituting this in:
+$$\frac{v_1^2}{r_1} = \frac{v_2^2}{2r_1}$$
+$$v_2^2 = 2v_1^2$$
+$$v_2 = v_1 \sqrt{2}$$
+Given $v_1 = 40 \text{ km h}^{-1}$:
+$$v_2 = 40 \times 1.414 \approx 56.57 \text{ km h}^{-1}$$
+
+---
+
+#### Part (b)
+**Answer:** The required banking angle $\theta$ is approximately $12.1^\circ$.
+
+**Explanation:**
+To traverse a curve without relying on friction, the horizontal component of the normal force must provide the required centripetal force. The formula for the banking angle is:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+First, convert the speed from part (a) to SI units ($\text{m s}^{-1}$):
+$$v = 56.57 \text{ km h}^{-1} = \frac{56570}{3600} \approx 15.71 \text{ m s}^{-1}$$
+Given $r = 150 \text{ m}$ and $g = 9.8 \text{ m s}^{-2}$:
+$$\tan(\theta) = \frac{(15.71)^2}{150 \times 9.8}$$
+$$\tan(\theta) = \frac{246.8}{1470} \approx 0.1679$$
+$$\theta = \arctan(0.1679) \approx 12.1^\circ$$
+
+---
+
+### QUESTION_TYPE
+Calculation question

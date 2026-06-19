@@ -1,0 +1,32 @@
+To determine the range of the proton, we must analyze its motion under the influence of both gravitational and electric forces.
+
+### 1. Identify the forces acting on the proton
+The proton experiences two vertical forces:
+*   **Gravity ($F_g$):** Acting downwards. $F_g = mg \approx (1.67 \times 10^{-27} \, \text{kg})(9.8 \, \text{m/s}^2) \approx 1.64 \times 10^{-26} \, \text{N}$.
+*   **Electric Force ($F_e$):** Since the top plate is positive and the proton is positive, the electric force acts downwards (repulsion from the top plate).
+    $E = \frac{V}{d} = \frac{1 \times 10^{-3} \, \text{V}}{1 \, \text{m}} = 10^{-3} \, \text{V/m}$
+    $F_e = qE = (1.6 \times 10^{-19} \, \text{C})(10^{-3} \, \text{V/m}) = 1.6 \times 10^{-22} \, \text{N}$.
+
+**Note:** Since $F_e \gg F_g$, we can neglect gravity. The net downward force is $F_{net} \approx 1.6 \times 10^{-22} \, \text{N}$.
+
+### 2. Determine acceleration
+The vertical acceleration $a_y$ (downwards) is:
+$$a_y = \frac{F_e}{m_p} = \frac{1.6 \times 10^{-22} \, \text{N}}{1.67 \times 10^{-27} \, \text{kg}} \approx 9.58 \times 10^4 \, \text{m/s}^2$$
+
+### 3. Calculate components of velocity
+*   $v_x = v \cos(30^\circ) = 1 \times 0.866 = 0.866 \, \text{m/s}$
+*   $v_{y0} = v \sin(30^\circ) = 1 \times 0.5 = 0.5 \, \text{m/s}$
+
+### 4. Find time of flight
+The proton is launched upwards but accelerated downwards. It returns to the starting horizontal level when displacement $\Delta y = 0$:
+$$\Delta y = v_{y0}t - \frac{1}{2}a_y t^2 = 0$$
+$$t = \frac{2 v_{y0}}{a_y} = \frac{2(0.5)}{9.58 \times 10^4} \approx 1.04 \times 10^{-5} \, \text{s}$$
+
+### 5. Calculate range
+The range $R$ is the horizontal distance covered:
+$$R = v_x \times t = 0.866 \, \text{m/s} \times 1.04 \times 10^{-5} \, \text{s} \approx 9.0 \times 10^{-6} \, \text{m}$$
+
+**Conclusion:** The range of the proton is approximately $9.0 \times 10^{-6} \, \text{m}$ (or $9.0 \, \mu\text{m}$).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,39 @@
+To find the period of rotation required to simulate Earth's gravity in a rotating spacecraft, we use the physics of circular motion.
+
+### Solution
+
+**1. Identify the known variables:**
+*   Radius of the spacecraft ($r$) = $48.6\text{ m}$
+*   Artificial gravity (required centripetal acceleration, $a_c$) = $9.8\text{ ms}^{-2}$
+
+**2. State the relevant formulas:**
+The centripetal acceleration is given by:
+$$a_c = \frac{v^2}{r}$$
+Where $v$ is the linear velocity. Since we need the period ($T$), we substitute $v = \frac{2\pi r}{T}$:
+$$a_c = \frac{(\frac{2\pi r}{T})^2}{r} = \frac{4\pi^2 r^2}{T^2 r} = \frac{4\pi^2 r}{T^2}$$
+
+**3. Rearrange the formula to solve for $T$:**
+$$T^2 = \frac{4\pi^2 r}{a_c}$$
+$$T = \sqrt{\frac{4\pi^2 r}{a_c}} = 2\pi \sqrt{\frac{r}{a_c}}$$
+
+**4. Substitute the values:**
+$$T = 2\pi \sqrt{\frac{48.6}{9.8}}$$
+$$T = 2\pi \sqrt{4.959...}$$
+$$T = 2\pi \times 2.227...$$
+$$T \approx 13.99... \text{ s}$$
+
+Rounding to the nearest significant figure provided in the options, we get $14.0\text{ s}$.
+
+**Correct Option: (C)**
+
+---
+
+### Explanation
+To solve this, you must recognize that the "artificial gravity" experienced by the occupant is provided by the normal force of the spacecraft floor, which acts as the centripetal force required to keep the occupant moving in a circle. 
+
+1.  **Conceptual Link:** The required centripetal acceleration ($a_c$) is equivalent to the acceleration due to gravity ($g = 9.8\text{ ms}^{-2}$).
+2.  **Formula Derivation:** It is often easier to memorize the relationship $a_c = \frac{4\pi^2 r}{T^2}$ for period-related circular motion problems. This saves time during the HSC exam by bypassing the calculation of linear velocity ($v$) first.
+3.  **Calculation:** Once you plug in the radius and the acceleration, ensure your calculator is in radian mode (though it doesn't strictly matter for the $\pi$ calculation, it is good practice). The result of $13.99\text{ s}$ clearly maps to $14.0\text{ s}$.
+
+###QUESTION_TYPE
+Multiple choice

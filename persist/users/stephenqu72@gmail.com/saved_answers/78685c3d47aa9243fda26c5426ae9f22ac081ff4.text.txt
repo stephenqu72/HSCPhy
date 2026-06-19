@@ -1,0 +1,29 @@
+To find the best value for the mass of a single coin, we must look for the **greatest common divisor** (GCD) of the mass differences provided in the table. 
+
+This experiment is a direct analogy to Millikan's Oil Drop experiment, where Millikan determined the charge of a single electron by finding the greatest common factor among the total charges of various oil droplets.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the data:** Each difference in mass represents the mass of a specific number of coins (since the boxes are identical). Therefore, each difference must be an integer multiple of the mass of a single coin ($m$).
+2.  **Analyze the differences:** The differences given are:
+    *   $7.5\text{ g}$
+    *   $5.0\text{ g}$
+    *   $12.5\text{ g}$
+    *   $20.0\text{ g}$
+3.  **Find the Greatest Common Divisor:** We need to find the largest value that divides all these numbers evenly:
+    *   $7.5 = 3 \times 2.5$
+    *   $5.0 = 2 \times 2.5$
+    *   $12.5 = 5 \times 2.5$
+    *   $20.0 = 8 \times 2.5$
+4.  **Conclusion:** Since $2.5\text{ g}$ is the largest factor that produces an integer number of coins for every recorded difference, it is the most likely mass of a single coin.
+
+Comparing this to the options provided:
+A. $1.5\text{ g}$ (Does not divide $5.0$ or $12.5$ into integers)
+B. **$2.5\text{ g}$** (Correct)
+C. $5.0\text{ g}$ (Does not divide $7.5$ or $12.5$ into integers)
+D. $7.5\text{ g}$ (Does not divide $5.0$ or $12.5$ into integers)
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

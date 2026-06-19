@@ -1,0 +1,28 @@
+To solve for the magnitude of the torque ($\tau$) exerted by the person on the flagpole, we use the standard torque formula:
+
+$$\tau = r F \sin(\theta)$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the variables:**
+    *   The **pivot point** is the base of the flagpole.
+    *   The **force ($F$)** applied is the tension in the rope, which is $350\text{ N}$.
+    *   The **lever arm ($r$)** is the distance from the pivot (the base) to the point where the force is applied (the top of the flagpole). Given the height of the flagpole, $r = 5.0\text{ m}$.
+    *   The **angle ($\theta$)** must be the angle between the position vector (the flagpole) and the force vector (the rope).
+
+2.  **Determine the correct angle:**
+    *   The flagpole is vertical.
+    *   The angle between the rope and the horizontal is $39^\circ$.
+    *   The interior angle between the flagpole and the rope is given as $51^\circ$. 
+    *   Since the formula $\tau = r F \sin(\theta)$ uses the angle between the lever arm ($r$) and the force vector ($F$), we use the angle between the pole and the rope, which is $51^\circ$.
+
+3.  **Construct the final expression:**
+    *   Substituting the values into the formula:
+        $$\tau = 5.0 \times 350 \times \sin(51^\circ)\text{ Nm}$$
+
+Comparing this to the given options, this matches option **D**.
+
+**Correct Answer:** **D**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we rely on the principle of **Conservation of Energy**. 
+
+### Answer
+
+The work done on a charge by an electric field is converted entirely into the kinetic energy of the particle.
+
+1. The work done on a charge $q$ moving through a potential difference $V$ is given by:
+   $$W = qV$$
+
+2. Since the particle starts from rest, its initial kinetic energy is $0$. Therefore, the work done equals the final kinetic energy ($E_k$):
+   $$E_k = \frac{1}{2}mv^2$$
+
+3. Equating the two expressions for energy:
+   $$qV = \frac{1}{2}mv^2$$
+
+4. Now, rearrange the equation to solve for $v$:
+   $$2qV = mv^2$$
+   $$v^2 = \frac{2qV}{m}$$
+   $$v = \sqrt{\frac{2qV}{m}}$$
+
+---
+
+### How to solve it (Teacher's Tips)
+When you encounter "Show that" questions in the HSC Physics exam, follow these steps:
+*   **Identify the fundamental principle:** In this case, the conversion of electric potential energy into kinetic energy is the key concept.
+*   **State your assumptions:** Explicitly mention that energy is conserved because no external forces (like friction or gravity) are mentioned.
+*   **Show algebraic steps clearly:** Don't skip steps. Start from the basic definitions of work ($W = qV$) and kinetic energy ($E_k = \frac{1}{2}mv^2$), equate them, and show the manipulation of the variables step-by-step. This ensures you pick up all available marks for the derivation.
+
+###QUESTION_TYPE
+Calculation question

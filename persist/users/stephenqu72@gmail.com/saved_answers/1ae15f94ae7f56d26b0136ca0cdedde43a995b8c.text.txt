@@ -1,0 +1,24 @@
+To determine the correct equation, we use the standard formula for the force per unit length between two parallel, current-carrying conductors.
+
+### Explanation
+
+1.  **The Formula:** The magnetic force $F$ between two parallel wires of length $l$, separated by a distance $r$, carrying currents $I_1$ and $I_2$, is given by:
+    $$\frac{F}{l} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+2.  **Applying the Condition:** The question states that the conductors are **identical**, which implies that the current in both wires is the same. Let $I_1 = I_2 = I$. Substituting this into the formula:
+    $$\frac{F}{l} = \frac{\mu_0 I^2}{2\pi r}$$
+
+3.  **Solving for $I$:** We need to isolate $I$ to see which option matches the derivation.
+    *   Multiply both sides by $2\pi r$:
+        $$\frac{F \cdot 2\pi r}{l} = \mu_0 I^2$$
+    *   Divide by $\mu_0$:
+        $$I^2 = \frac{F \cdot 2\pi r}{l \cdot \mu_0}$$
+    *   Take the square root of both sides:
+        $$I = \sqrt{\frac{F \cdot 2\pi r}{l \cdot \mu_0}}$$
+
+Comparing this result to the given options, we can see it matches **(B)**.
+
+**Answer:** (B)
+
+###QUESTION_TYPE
+Multiple choice

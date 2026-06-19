@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **B**.
+
+---
+
+### Explanation
+To solve this problem, we use **Kepler’s Third Law of Planetary Motion**, which describes the relationship between the orbital period $T$ and the orbital radius $r$ for objects orbiting a central mass (like Saturn).
+
+1.  **Recall the formula:** Kepler’s Third Law states that the square of the orbital period $T$ is directly proportional to the cube of the average orbital radius $r$:
+    $$T^2 \propto r^3$$
+
+2.  **Rearrange for $T$:** To find the relationship for $T$ itself, take the square root of both sides:
+    $$T \propto \sqrt{r^3}$$
+    Using exponent rules, where $\sqrt{x} = x^{1/2}$:
+    $$T \propto (r^3)^{1/2}$$
+    $$T \propto r^{3/2}$$
+
+3.  **Identify $n$:** Converting the fraction to a decimal:
+    $$\frac{3}{2} = 1.5$$
+    Since the question states $T \propto r^n$, it follows that $n = 1.5$.
+
+This confirms that for any satellite orbiting a planet, the orbital period scales with the radius raised to the power of $1.5$.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To solve this problem, we must analyze the motion of charged particles in a uniform magnetic field.
+
+### Explanation
+
+1.  **The Physics Principles:** When a charged particle enters a uniform magnetic field, it experiences a magnetic force $F_B = qvB \sin(\theta)$. Since the velocity $v$ is perpendicular to the magnetic field (which points out of the page), the particle undergoes uniform circular motion. The magnetic force provides the centripetal force:
+    $$F_B = F_c \implies qvB = \frac{mv^2}{r}$$
+    Rearranging for the radius of curvature $r$:
+    $$r = \frac{mv}{qB}$$
+    Since $v$ and $B$ are constant for all particles, the radius $r$ is directly proportional to the momentum ($mv$) and inversely proportional to the charge magnitude ($q$). Specifically, the "tightness" of the turn (curvature) is determined by the ratio $\frac{q}{m}$. A smaller radius $r$ indicates a larger $\frac{q}{m}$ ratio.
+
+2.  **Analyzing the Diagram:**
+    *   **Direction of Force:** Using the Right-Hand Rule (fingers point in direction of velocity, curl fingers out of page, thumb points to the force), we can see that particles $X$ and $Y$ are deflected upwards, meaning they have the same sign of charge (let's assume positive). Particle $Z$ is deflected downwards, so it must have the opposite sign of charge.
+    *   **Radius of Curvature:** Particle $X$ has the tightest curve (smallest radius $r$), followed by $Y$, and then $Z$ (which has the largest radius).
+    *   Since $r = \frac{mv}{qB}$, a smaller $r$ corresponds to a larger $\frac{q}{m}$ ratio.
+    *   Therefore, the $\frac{q}{m}$ ratio is greatest for particle $X$ because it is deflected the most significantly within the given field.
+
+3.  **Evaluating the Options:**
+    *   **A:** Incorrect. While $X$ and $Y$ are the same sign, we don't know for certain if they are positive or negative based on the diagram alone (though they are both the same sign).
+    *   **B:** Incorrect. If $q$ is the same, $r \propto m$. Particle $X$ has a smaller $r$ than $Y$, meaning it must have *less* mass, not more.
+    *   **C:** Incorrect. If $m$ is the same, $r \propto \frac{1}{q}$. Particle $Z$ has a larger radius than $X$, implying it has *less* charge, not more.
+    *   **D:** **Correct.** As derived above, since $v$ and $B$ are constant, $r \propto \frac{m}{q}$. Particle $X$ has the smallest radius of curvature, implying it has the largest $\frac{q}{m}$ ratio.
+
+### Answer
+The correct statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

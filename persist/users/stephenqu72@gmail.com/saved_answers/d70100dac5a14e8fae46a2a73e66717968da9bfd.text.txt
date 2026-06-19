@@ -1,0 +1,31 @@
+To determine the reading on the scale, we must calculate the net magnetic force exerted on conductor $C$ by conductors $A$ and $B$.
+
+### 1. Identify the Physics Principles
+The force per unit length between two parallel conductors is given by:
+$$f = \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+- Opposite currents repel, and same-direction currents attract.
+- The scale measures the downward force (positive) or upward force (negative) exerted by the magnetic fields on conductor $C$.
+
+### 2. Calculate Forces
+**Given:** $L = 0.1\,\text{m}$, $I_A = 120\,\text{A}$ (into page), $I_B = 80\,\text{A}$ (out), $I_C = 80\,\text{A}$ (out).
+
+**Force from A on C ($F_{AC}$):**
+Currents are in opposite directions (A into, C out), so they **repel**. Since $A$ is above $C$, the repulsive force pushes $C$ **downward** (positive on the scale).
+Distance $r = \sqrt{2^2 + 2^2} = \sqrt{8} \approx 2.828\,\text{mm} = 2.828 \times 10^{-3}\,\text{m}$.
+The force vector acts along the line connecting them. We need the vertical component.
+$$\cos\theta = \frac{2}{2.828} = \frac{1}{\sqrt{2}}$$
+$$F_{AC(vertical)} = \left(\frac{\mu_0 I_A I_C L}{2\pi r}\right) \cos\theta = \frac{(4\pi \times 10^{-7})(120)(80)(0.1)}{2\pi (2.828 \times 10^{-3})} \times \frac{2}{2.828} \approx 0.48\,\text{N}$$
+
+**Force from B on C ($F_{BC}$):**
+Currents are in the same direction (B out, C out), so they **attract**. Since $B$ is above $C$, the attractive force pulls $C$ **upward** (negative on the scale).
+Distance $d = 2.0\,\text{mm} = 2.0 \times 10^{-3}\,\text{m}$.
+$$F_{BC} = \frac{\mu_0 I_B I_C L}{2\pi d} = \frac{(4\pi \times 10^{-7})(80)(80)(0.1)}{2\pi (2.0 \times 10^{-3})} = 0.64\,\text{N}$$
+
+### 3. Determine the Scale Reading
+The net vertical force $F_{net} = F_{AC(vertical)} - F_{BC} = 0.48\,\text{N} - 0.64\,\text{N} = -0.16\,\text{N}$.
+A negative force means the conductor is being pulled upward (lifting off the scale). Since the scale cannot measure negative weight (it will read zero), the scale reading is **0.000 kg**.
+
+*(Note: If the question implies the force is being measured as a mass equivalent, usually $F = mg$, but since the net force is upward, the conductor loses contact with the scale).*
+
+###QUESTION_TYPE
+Calculation question

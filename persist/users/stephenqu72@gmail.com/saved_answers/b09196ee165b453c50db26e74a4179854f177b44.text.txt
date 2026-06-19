@@ -1,0 +1,34 @@
+To solve this problem, we look at the physics of circular motion on a level track.
+
+### Physics Principles
+When a train rounds a curve, the "sideways force" mentioned in the question is the centripetal force required to keep the train moving in a circle. This force ($F_c$) is provided by the rails pushing against the wheels:
+$$F_c = \frac{mv^2}{r}$$
+
+The problem states that the speed limit is determined by the "maximum safe sideways force." This means that $F_c$ is a constant value for the track system. We can set up a relationship between the velocity $v$ and the radius $r$:
+$$F_c \propto \frac{v^2}{r}$$
+
+Since $F_c$ is constant, we can express this as:
+$$\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$$
+
+### Calculation
+1. **Identify the variables:**
+   - $v_1 = 60\text{ km h}^{-1}$
+   - $r_1 = 200\text{ m}$
+   - $v_2 = 120\text{ km h}^{-1}$
+   - $r_2 = ?$
+
+2. **Rearrange for $r_2$:**
+   $$r_2 = r_1 \times \left( \frac{v_2}{v_1} \right)^2$$
+
+3. **Substitute the values:**
+   $$r_2 = 200 \times \left( \frac{120}{60} \right)^2$$
+   $$r_2 = 200 \times (2)^2$$
+   $$r_2 = 200 \times 4$$
+   $$r_2 = 800\text{ m}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

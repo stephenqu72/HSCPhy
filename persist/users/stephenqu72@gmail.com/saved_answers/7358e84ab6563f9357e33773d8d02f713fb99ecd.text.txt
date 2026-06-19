@@ -1,0 +1,26 @@
+The correct answer is **(c)**.
+
+### Explanation
+
+To solve this, we need to apply the principles of orbital mechanics, specifically the conservation of mechanical energy and Kepler's Second Law.
+
+1.  **Gravitational Potential Energy ($U$):** 
+    The formula for gravitational potential energy is:
+    $$U = -\frac{GMm}{r}$$
+    Where $r$ is the distance between the center of the Earth and the Moon. 
+    *   At **perigee** ($r = 362,570 \text{ km}$), $r$ is at its **minimum**. Since the potential energy is negative, a smaller distance magnitude means the value is "most negative" (a minimum).
+    *   At **apogee** ($r = 405,410 \text{ km}$), $r$ is at its **maximum**. The value is "least negative" (a maximum).
+
+2.  **Kinetic Energy ($K$) and Velocity ($v$):**
+    In an elliptical orbit, the total mechanical energy ($E = K + U$) is conserved. 
+    *   Since the total energy $E$ is constant, when the Moon is at its minimum distance (perigee), its gravitational potential energy is at its minimum. To conserve energy, the **kinetic energy must be at its maximum**. 
+    *   Because $K = \frac{1}{2}mv^2$, a maximum kinetic energy corresponds to a **maximum orbital velocity**.
+
+**Analysis of the options:**
+*   (a) Incorrect: At apogee, potential energy is at its maximum, but kinetic energy is at its minimum.
+*   (b) Incorrect: Kinetic energy is at a minimum at apogee.
+*   **(c) Correct:** At perigee, the Moon is closest to Earth ($r$ is minimum), meaning $U$ is at a minimum. To conserve energy, $K$ must be at a maximum, which results in the highest orbital velocity.
+*   (d) Incorrect: At perigee, kinetic energy is at a maximum, not a minimum.
+
+###QUESTION_TYPE
+Multiple choice

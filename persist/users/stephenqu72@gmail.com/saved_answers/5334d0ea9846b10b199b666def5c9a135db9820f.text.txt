@@ -1,0 +1,33 @@
+To solve this problem, we must link the energy provided by the electric field to the circular motion caused by the magnetic field.
+
+### Part a: Calculation of the radius ($R$)
+
+**1. Determine the velocity ($v$) of the proton:**
+The proton is accelerated by a potential difference $V = 10,000 \text{ V}$. The work done by the electric field equals the kinetic energy gained by the proton:
+$$qV = \frac{1}{2}mv^2$$
+Solving for $v$:
+$$v = \sqrt{\frac{2qV}{m}}$$
+Using the constants for a proton:
+- Charge $q = 1.602 \times 10^{-19} \text{ C}$
+- Mass $m = 1.673 \times 10^{-27} \text{ kg}$
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19}) \times 10000}{1.673 \times 10^{-27}}} \approx 1.383 \times 10^6 \text{ m/s}$$
+
+**2. Determine the radius ($R$) of the path:**
+When the proton enters the magnetic field, the magnetic force acts as the centripetal force:
+$$qvB = \frac{mv^2}{R}$$
+Rearranging for $R$:
+$$R = \frac{mv}{qB}$$
+Substitute the known values ($B = 0.1 \text{ T}$):
+$$R = \frac{(1.673 \times 10^{-27}) \times (1.383 \times 10^6)}{(1.602 \times 10^{-19}) \times 0.1}$$
+$$R \approx 0.144 \text{ m} \text{ (or } 14.4 \text{ cm)}$$
+
+---
+
+### Part b: Effect of replacing the proton with an electron
+
+If an electron enters the magnetic field at the same velocity:
+1. **Direction:** Because the electron is negatively charged, the direction of the magnetic force (given by the right-hand rule) will be reversed. Instead of curving "up" as the proton does, the electron will curve "downward."
+2. **Radius:** The radius is governed by $R = \frac{mv}{qB}$. While the charge $q$ is the same magnitude, the mass of an electron ($9.11 \times 10^{-31} \text{ kg}$) is significantly smaller than the mass of a proton. Since $R \propto m$, the radius of the electron's path will be much smaller than the proton's path.
+
+###QUESTION_TYPE
+Calculation question

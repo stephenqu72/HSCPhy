@@ -1,0 +1,38 @@
+To calculate the magnitude of the charge on the particle, we treat this as a projectile motion problem where the electric force acts as the constant acceleration.
+
+### 1. Identify the given values:
+*   Mass $m = 6.0 \times 10^{-7} \, \text{kg}$
+*   Horizontal velocity $v_x = 2.5 \times 10^3 \, \text{m s}^{-1}$
+*   Electric field $E = 7.5 \times 10^4 \, \text{N C}^{-1}$
+*   Horizontal displacement $\Delta x = 0.34 \, \text{m}$
+*   Vertical displacement $\Delta y = 0.0040 \, \text{m}$
+
+### 2. Find the time of flight ($t$):
+Since there is no acceleration in the horizontal direction, the velocity remains constant:
+$$t = \frac{\Delta x}{v_x} = \frac{0.34}{2.5 \times 10^3} = 1.36 \times 10^{-4} \, \text{s}$$
+
+### 3. Find the vertical acceleration ($a_y$):
+Using the kinematic equation for vertical displacement (starting from rest vertically, $u_y = 0$):
+$$\Delta y = \frac{1}{2} a_y t^2$$
+$$0.0040 = \frac{1}{2} \times a_y \times (1.36 \times 10^{-4})^2$$
+$$a_y = \frac{0.0040 \times 2}{(1.36 \times 10^{-4})^2} \approx 432,664 \, \text{m s}^{-2}$$
+
+### 4. Calculate the charge ($q$):
+Using Newton's Second Law ($F = ma$) and the definition of the electric force ($F = qE$):
+$$qE = ma$$
+$$q = \frac{ma}{E}$$
+$$q = \frac{(6.0 \times 10^{-7}) \times 432,664}{7.5 \times 10^4}$$
+$$q \approx 3.46 \times 10^{-6} \, \text{C}$$
+
+Rounding to two significant figures (consistent with the provided data):
+**The magnitude of the charge on the particle is $3.5 \times 10^{-6} \, \text{C}$ (or $3.5 \, \mu\text{C}$).**
+
+***
+
+### Explanation of the Method
+*   **Step 1:** Recognize that the horizontal motion is independent of the vertical motion. Use the horizontal distance and velocity to determine how long the particle spends in the electric field.
+*   **Step 2:** Use the kinematic equation for uniform acceleration to find the vertical acceleration caused by the electric field.
+*   **Step 3:** Use Newton's second law to link the acceleration to the net force, then equate this to the electric force formula to solve for the unknown charge $q$.
+
+###QUESTION_TYPE
+Calculation question

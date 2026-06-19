@@ -1,0 +1,29 @@
+To determine where the electric field is zero between the two charges, we need to find a point where the magnitude of the electric field produced by charge $Q$ is equal to the magnitude of the electric field produced by charge $4Q$, and their directions are opposite.
+
+### Answer
+The correct answer is **D**. The electric field is zero at a point $4\text{ cm}$ from $Q$.
+
+### Explanation
+1.  **Understand the condition for zero electric field:**
+    The total electric field at a point is the vector sum of the fields from each charge. For the total field to be zero between two like charges, the electric fields produced by each charge must have equal magnitude and opposite directions. Since the charges are both positive, they produce outward-pointing fields. Between them, the fields naturally point in opposite directions.
+
+2.  **Set up the equation:**
+    Let $x$ be the distance from charge $Q$ to the point where the field is zero. Consequently, the distance from charge $4Q$ to that same point is $(12 - x)$.
+    Using Coulomb's law for the electric field $E = \frac{kQ}{r^2}$:
+    $$E_Q = E_{4Q}$$
+    $$\frac{kQ}{x^2} = \frac{k(4Q)}{(12 - x)^2}$$
+
+3.  **Solve for $x$:**
+    Cancel the common terms ($k$ and $Q$):
+    $$\frac{1}{x^2} = \frac{4}{(12 - x)^2}$$
+    Take the square root of both sides:
+    $$\frac{1}{x} = \frac{2}{12 - x}$$
+    Cross-multiply to solve:
+    $$12 - x = 2x$$
+    $$12 = 3x$$
+    $$x = 4\text{ cm}$$
+
+The point where the electric field is zero is $4\text{ cm}$ from charge $Q$.
+
+###QUESTION_TYPE
+Multiple choice

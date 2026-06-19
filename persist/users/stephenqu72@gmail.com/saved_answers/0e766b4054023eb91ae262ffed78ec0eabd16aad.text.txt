@@ -1,0 +1,28 @@
+To solve this problem, we need to calculate the magnetic force exerted on the current-carrying copper rod using the formula:
+$$F = BIl\sin(\theta)$$
+
+### Step 1: Calculate the current ($I$)
+First, we use Ohm's Law to find the current flowing through the circuit when the switch is closed:
+$$I = \frac{V}{R}$$
+Given $V = 12\text{ V}$ and $R = 47\text{ }\Omega$:
+$$I = \frac{12}{47} \approx 0.2553\text{ A}$$
+
+### Step 2: Determine the effective length ($l$)
+The rod is $0.40\text{ m}$ long, but only the part inside the magnetic field experiences the force. The diagram shows the magnetic field region covers a length of $0.25\text{ m}$. Thus, $l = 0.25\text{ m}$.
+
+### Step 3: Calculate the magnitude of the force ($F$)
+Since the rod is perpendicular to the magnetic field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+$$F = B \times I \times l$$
+$$F = 0.082\text{ T} \times 0.2553\text{ A} \times 0.25\text{ m}$$
+$$F \approx 0.00523\text{ N} = 5.2 \times 10^{-3}\text{ N}$$
+
+### Step 4: Determine the direction of the force
+We use the Right-Hand Rule (or Fleming's Left-Hand Rule for motors). 
+1. **Current direction:** Based on the battery symbol (long line is positive), the current flows out of the top of the battery, through the resistor, and **downward** through the copper rod.
+2. **Magnetic field ($B$):** The crosses ($\times$) indicate the field is directed **into the page**.
+3. **Applying the Right-Hand Rule:** Point your fingers in the direction of the current (down), curl them into the page (direction of $B$). Your thumb points to the **left**. 
+
+The magnitude is $5.2 \times 10^{-3}\text{ N}$ and the direction is **Left**. This corresponds to option (A).
+
+###QUESTION_TYPE
+Multiple choice

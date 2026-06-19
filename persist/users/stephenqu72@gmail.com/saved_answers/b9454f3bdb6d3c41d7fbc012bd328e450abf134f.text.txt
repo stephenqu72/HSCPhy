@@ -1,0 +1,28 @@
+To solve this problem, we need to distinguish between **average speed** (a scalar quantity) and **average velocity** (a vector quantity).
+
+### 1. Calculate Average Speed
+Average speed is defined as the total distance traveled divided by the total time taken:
+$$\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}}$$
+
+For a semicircular path, the distance is half the circumference of a circle:
+$$\text{Distance} = \pi \times r = \pi \times 200\text{ m} \approx 628.32\text{ m}$$
+$$\text{Average Speed} = \frac{628.32\text{ m}}{50\text{ s}} \approx 12.57\text{ ms}^{-1}$$
+Rounding to the nearest whole number provided in the options, we get **$13\text{ ms}^{-1}$**.
+
+### 2. Calculate Magnitude of Average Velocity
+The magnitude of average velocity is defined as the displacement divided by the total time taken:
+$$\text{Average Velocity} = \frac{\text{Displacement}}{\text{Total Time}}$$
+
+Displacement is the straight-line distance from the starting point to the ending point. For a semicircle, this is the diameter of the circle:
+$$\text{Displacement} = 2 \times r = 2 \times 200\text{ m} = 400\text{ m}$$
+$$\text{Average Velocity} = \frac{400\text{ m}}{50\text{ s}} = 8\text{ ms}^{-1}$$
+
+### Conclusion
+Comparing our results:
+*   Magnitude of average velocity: $8\text{ ms}^{-1}$
+*   Average speed: $13\text{ ms}^{-1}$
+
+This corresponds to option **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To solve this problem, we must analyze the energy transformations for the satellite in a gravitational field and the charged particle in an electric field.
+
+### 1. Satellite Analysis (Gravitational Field)
+**Qualitative:** As the satellite moves from $4r$ to $r$, it moves against the gravitational field toward the Earth. It loses gravitational potential energy ($U_g = -\frac{GMm}{r}$), which becomes more negative, meaning $U_g$ decreases. Since it is moving to a lower orbit, its kinetic energy increases to maintain circular orbit stability ($v = \sqrt{\frac{GM}{r}}$).
+
+**Quantitative:** The change in gravitational potential energy is:
+$$\Delta U_g = -\frac{GMm}{r} - \left(-\frac{GMm}{4r}\right) = -\frac{3GMm}{4r}$$
+Because the satellite is in a circular orbit, the total energy $E = -\frac{GMm}{2r}$. The change in total energy is:
+$$\Delta E = -\frac{GMm}{2r} - \left(-\frac{GMm}{8r}\right) = -\frac{3GMm}{8r}$$
+The satellite loses total energy to move from $4r$ to $r$.
+
+### 2. Charged Particle Analysis (Electric Field)
+**Qualitative:** The particle has a negative charge and is placed at the negative plate. It is repelled by the negative plate and attracted to the positive plate. As it moves to the positive plate, it gains kinetic energy at the expense of electric potential energy.
+
+**Quantitative:** The change in electric potential energy is given by $\Delta U_e = q\Delta V$.
+Given $q = -6.643 \times 10^{-19}\text{ C}$ and the potential difference $\Delta V = 4000\text{ V}$ (moving from negative to positive plate, the potential increases by $4000\text{ V}$):
+$$\Delta U_e = (-6.643 \times 10^{-19}\text{ C}) \times (4000\text{ V})$$
+$$\Delta U_e = -2.6572 \times 10^{-15}\text{ J}$$
+The negative sign indicates a decrease in electric potential energy, which is converted into kinetic energy.
+
+### Comparison
+*   **Similarities:** Both systems involve an object moving between two points in a field, resulting in a conversion between potential energy and kinetic energy. In both cases, the objects move to a state of lower potential energy.
+*   **Differences:** The satellite's motion is governed by the inverse-square law of gravity, where potential energy is negative and depends on distance from a point mass. The charged particle moves in a *uniform* electric field where the potential energy change depends linearly on the potential difference across the plates.
+
+###QUESTION_TYPE
+Calculation question

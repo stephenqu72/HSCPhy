@@ -1,0 +1,47 @@
+Hello! As an HSC Physics teacher, I’m happy to help you work through this electromagnetism problem. When dealing with charged particles in electric fields, the key is to link the work done by the field to the change in the particle's kinetic energy.
+
+### Part (a)
+**Question:** Calculate the electric field strength ($E$) between the plates.
+
+**Solution:**
+The electric field strength $E$ between parallel plates is given by the formula:
+$$E = \frac{V}{d}$$
+Given:
+- Potential difference ($V$) = $10\text{ V}$
+- Distance ($d$) = $0.04\text{ m}$
+
+$$E = \frac{10}{0.04} = 250\text{ V m}^{-1}$$
+
+---
+
+### Part (b)
+**Question:** If the electron enters the field at $3.6 \times 10^5\text{ ms}^{-1}$, calculate its velocity as it exits the field.
+
+**Solution:**
+The work done on the electron by the electric field equals the change in its kinetic energy:
+$$W = \Delta K = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2$$
+Since $W = qV$, we have:
+$$qV = \frac{1}{2}m(v_f^2 - v_i^2)$$
+
+**Constants:**
+- Charge of an electron ($q$) = $1.6 \times 10^{-19}\text{ C}$
+- Mass of an electron ($m$) = $9.11 \times 10^{-31}\text{ kg}$
+
+**Calculation:**
+1. Calculate the energy gained ($qV$):
+   $$(1.6 \times 10^{-19}) \times 10 = 1.6 \times 10^{-18}\text{ J}$$
+
+2. Rearrange to find $v_f$:
+   $$v_f^2 = v_i^2 + \frac{2qV}{m}$$
+   $$v_f^2 = (3.6 \times 10^5)^2 + \frac{2 \times 1.6 \times 10^{-18}}{9.11 \times 10^{-31}}$$
+   $$v_f^2 = 1.296 \times 10^{11} + 3.513 \times 10^{12}$$
+   $$v_f^2 \approx 3.6426 \times 10^{12}$$
+   $$v_f = \sqrt{3.6426 \times 10^{12}} \approx 1.91 \times 10^6\text{ ms}^{-1}$$
+
+---
+
+### Teacher's Tip:
+When solving these, always check if the particle is gaining or losing energy. Since an electron is negatively charged, it will be accelerated towards the positive plate. Always state your physical constants clearly, and keep your units consistent (SI units) throughout the calculation.
+
+###QUESTION_TYPE
+Calculation question

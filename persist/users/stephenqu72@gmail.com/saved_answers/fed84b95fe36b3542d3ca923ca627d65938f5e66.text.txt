@@ -1,0 +1,32 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this circular motion problem. This is a classic assessment of your understanding of centripetal acceleration and banked curves.
+
+### Part a) Compare the acceleration of cars A and B.
+
+**Answer:**
+Car A is in the inner lane, and Car B is in the outer lane. Since they travel at the same constant speed $v$, the car with the smaller radius of curvature will experience a greater centripetal acceleration. Therefore, **Car A has a greater acceleration than Car B.**
+
+**Explanation/Working:**
+The magnitude of centripetal acceleration is given by the equation:
+$$a = \frac{v^2}{r}$$
+Where:
+*   $v$ is the constant speed of the car.
+*   $r$ is the radius of the path.
+
+Since the speed $v$ is constant for both cars, the acceleration $a$ is inversely proportional to the radius $r$ ($a \propto \frac{1}{r}$). Because the radius of the inner lane ($r_A$) is smaller than the radius of the outer lane ($r_B$), Car A ($r_A < r_B$) must have a larger centripetal acceleration than Car B.
+
+---
+
+### Part b) How can the roundabout be redesigned to enable cars to travel safely at a higher speed?
+
+**Answer:**
+To increase the safe speed limit without changing the radii, the engineers should **bank the road surface** (angle the road so the outer edge is higher than the inner edge).
+
+**Explanation:**
+When a car turns on a flat, horizontal roundabout, the only force providing the centripetal force is static friction between the tires and the road ($F_{net} = F_{friction}$). The maximum safe speed is limited by the coefficient of friction.
+
+By banking the road at an angle $\theta$, the normal force exerted by the road on the car now has a horizontal component that contributes to the centripetal force:
+$$F_{net} = N \sin(\theta) + F_f \cos(\theta)$$
+Even without relying on friction, the horizontal component of the normal force ($N \sin(\theta)$) provides the necessary centripetal force. By increasing the angle of banking, the required centripetal force can be provided more effectively by the road geometry rather than solely by friction, allowing the cars to maintain a higher speed $v$ safely around the curve.
+
+###QUESTION_TYPE
+Short answer

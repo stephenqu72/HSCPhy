@@ -1,0 +1,32 @@
+### Answer
+
+To calculate the charge-to-mass ratio ($\frac{q}{m}$), we use the physics of a charged particle moving in a magnetic field.
+
+**Given:**
+*   Velocity $v = 2.50 \times 10^6\text{ m s}^{-1}$
+*   Magnetic field strength $B = 160\text{ mT} = 0.160\text{ T}$
+*   Angle $\theta = 62.0^\circ$
+*   Radius $r = 0.286\text{ m}$
+
+**Formula:**
+The radius of the helical path is determined by the component of velocity perpendicular to the magnetic field ($v_{\perp} = v \sin\theta$). The magnetic force provides the centripetal force:
+$$F_B = F_c \implies qv_{\perp}B = \frac{mv_{\perp}^2}{r}$$
+Rearranging for $\frac{q}{m}$:
+$$\frac{q}{m} = \frac{v_{\perp}}{rB} = \frac{v \sin\theta}{rB}$$
+
+**Calculation:**
+$$\frac{q}{m} = \frac{(2.50 \times 10^6) \times \sin(62.0^\circ)}{0.286 \times 0.160}$$
+$$\frac{q}{m} = \frac{2.50 \times 10^6 \times 0.8829}{0.04576}$$
+$$\frac{q}{m} \approx 4.82 \times 10^7\text{ C kg}^{-1}$$
+
+---
+
+### How to solve it
+1.  **Identify the physics principles:** When a charged particle enters a magnetic field at an angle, its velocity vector splits into two components. The component parallel to the field ($v_{\parallel} = v \cos\theta$) causes the particle to move forward, while the component perpendicular to the field ($v_{\perp} = v \sin\theta$) provides the centripetal force that causes the circular (helical) motion.
+2.  **Select the correct formula:** Since the radius $r$ relates to the perpendicular motion, use the centripetal force equation balanced by the magnetic force: $qv_{\perp}B = \frac{mv_{\perp}^2}{r}$.
+3.  **Perform unit conversions:** Ensure the magnetic field is in Tesla (T). $160\text{ mT} = 0.160\text{ T}$.
+4.  **Isolate the variable:** Rearrange the equation to solve for $\frac{q}{m}$. Ensure you use $v \sin\theta$ as the velocity, not the total velocity $v$.
+5.  **Calculate and round:** Plug in the values and provide the final answer to three significant figures, consistent with the precision of the data given.
+
+###QUESTION_TYPE
+Calculation question

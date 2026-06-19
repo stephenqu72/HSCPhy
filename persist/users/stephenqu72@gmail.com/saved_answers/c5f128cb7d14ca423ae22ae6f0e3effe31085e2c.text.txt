@@ -1,0 +1,26 @@
+To show why a leaning bike can navigate a curve at a higher speed, we must analyze the forces involved in circular motion.
+
+### Answer and Explanation
+
+**1. The Upright Rider**
+When a rider is upright, the only horizontal force available to provide centripetal force is the static friction ($f$) between the tires and the road.
+*   Vertical forces: Normal force ($N$) upwards, weight ($mg$) downwards ($N = mg$).
+*   Centripetal force equation: $f = \frac{mv^2}{r}$.
+*   Since $f \leq \mu N$ (where $\mu$ is the coefficient of friction), the maximum speed is limited by:
+    $$\frac{mv^2}{r} \leq \mu mg \implies v_{upright} \leq \sqrt{\mu rg}$$
+
+**2. The Leaning Rider**
+When a rider leans at an angle $\theta$ to the vertical, the normal force $N$ is no longer purely vertical; it now has a horizontal component providing the centripetal force.
+*   Vertical forces: $N \cos\theta = mg \implies N = \frac{mg}{\cos\theta}$
+*   Horizontal force: $N \sin\theta = \frac{mv^2}{r}$
+*   Dividing these equations: $\tan\theta = \frac{v^2}{rg} \implies v = \sqrt{rg \tan\theta}$
+
+**Why the speed is higher:**
+When leaning, the rider essentially "banks" the turn themselves. By leaning, the normal force provides a component of centripetal force. In the upright scenario, the rider relies entirely on the friction limit $\mu$. In the leaning scenario, the rider is effectively increasing the allowed centripetal force by utilizing the normal force vector, allowing for a higher $v$ before losing traction.
+
+**Free Body Diagrams (Description):**
+*   **Upright:** A point with a gravity vector ($mg$) downwards, Normal force ($N$) upwards, and a friction force ($f$) pointing toward the center of the turn.
+*   **Leaning:** A point with a gravity vector ($mg$) downwards, and a Normal force ($N$) acting at an angle $\theta$ to the vertical. The horizontal component ($N \sin\theta$) points toward the center of the turn.
+
+###QUESTION_TYPE
+Calculation question

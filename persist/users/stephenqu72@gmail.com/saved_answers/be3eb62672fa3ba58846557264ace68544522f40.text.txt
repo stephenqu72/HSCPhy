@@ -1,0 +1,26 @@
+To solve this problem, we use the fundamental constants for an electron: mass $m_e = 9.11 \times 10^{-31} \text{ kg}$ and charge $q = 1.60 \times 10^{-19} \text{ C}$.
+
+### Part a
+**1. Gravity:** $F_g = m_e g = (9.11 \times 10^{-31} \text{ kg})(9.8 \text{ m/s}^2) \approx 8.93 \times 10^{-30} \text{ N}$.
+**2. Electric force:** $F_E = qE = q\frac{V}{d} = (1.60 \times 10^{-19} \text{ C}) \frac{250 \text{ V}}{0.05 \text{ m}} = 8.00 \times 10^{-16} \text{ N}$.
+**Comparison:** The electric force is significantly larger ($F_E \gg F_g$). Since the electric force dominates, the electron travels in a straight horizontal line between the plates, as gravity is negligible.
+
+### Part b
+The work done by the electric field equals the change in kinetic energy:
+$$K = qV = (1.60 \times 10^{-19} \text{ C})(250 \text{ V}) = 4.0 \times 10^{-17} \text{ J}$$
+
+### Part c
+First, find the velocity ($v$) using $K = \frac{1}{2}m_ev^2$:
+$$v = \sqrt{\frac{2K}{m_e}} = \sqrt{\frac{2(4.0 \times 10^{-17})}{9.11 \times 10^{-31}}} \approx 9.37 \times 10^6 \text{ m/s}$$
+Then, calculate the magnetic force ($F_B$):
+$$F_B = qvB = (1.60 \times 10^{-19} \text{ C})(9.37 \times 10^6 \text{ m/s})(0.010 \text{ T}) \approx 1.50 \times 10^{-14} \text{ N}$$
+
+### Part d
+1. **Path:** The electron undergoes uniform circular motion (deflected downwards due to the right-hand rule for a negative charge).
+2. **Speed:** The speed remains constant because the magnetic force is always perpendicular to the direction of motion, doing no work on the electron.
+3. **Acceleration:** The acceleration is centripetal, calculated as $a = \frac{F_B}{m_e} = \frac{1.50 \times 10^{-14} \text{ N}}{9.11 \times 10^{-31} \text{ kg}} \approx 1.65 \times 10^{16} \text{ m/s}^2$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,35 @@
+To solve this problem, we apply **Kepler's Third Law of Planetary Motion**, which states that the square of the orbital period ($T$) is directly proportional to the cube of the average orbital radius ($r$):
+
+$$\frac{T^2}{r^3} = k$$
+
+This means that for two different orbits around the same central body, the relationship is:
+
+$$\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$$
+
+### Step-by-Step Solution:
+
+1. **Identify the knowns:**
+   - Initial radius: $r_1 = 50\,000\text{ km}$
+   - Initial period: $T_1 = 60\text{ minutes}$
+   - New radius: $r_2 = 2 \times r_1 = 100\,000\text{ km}$
+
+2. **Set up the ratio:**
+   We want to find $T_2$. Rearranging the formula:
+   $$\frac{T_2^2}{T_1^2} = \frac{r_2^3}{r_1^3}$$
+   $$\frac{T_2^2}{T_1^2} = \left( \frac{r_2}{r_1} \right)^3$$
+
+3. **Substitute the values:**
+   Since $r_2 = 2r_1$, the ratio $\frac{r_2}{r_1} = 2$.
+   $$\frac{T_2^2}{60^2} = 2^3$$
+   $$\frac{T_2^2}{3600} = 8$$
+
+4. **Calculate $T_2$:**
+   $$T_2^2 = 8 \times 3600$$
+   $$T_2^2 = 28\,800$$
+   $$T_2 = \sqrt{28\,800}$$
+   $$T_2 \approx 169.7\text{ minutes}$$
+
+Rounding to the nearest whole number gives us approximately $170\text{ minutes}$. Comparing this to the given options, **(B)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

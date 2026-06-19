@@ -1,0 +1,28 @@
+To find the magnitude of the force acting on the conductor, we use the formula for the magnetic force on a current-carrying wire:
+
+$$F = BIl\sin(\theta)$$
+
+### 1. Identify the given values:
+*   Magnetic field strength ($B$): $1.0\text{ T}$
+*   Current ($I$): $2\text{ A}$
+*   Length of the conductor ($l$): $5.0\text{ cm} = 0.05\text{ m}$
+*   Angle between the conductor and the magnetic field ($\theta$): $60^\circ$
+
+### 2. Calculate the magnitude:
+Substitute the values into the formula:
+$$F = 1.0 \times 2 \times 0.05 \times \sin(60^\circ)$$
+$$F = 0.1 \times 0.866$$
+$$F \approx 0.0866\text{ N} \approx 0.087\text{ N}$$
+
+### 3. Determine the direction:
+To find the direction, we use the **Right-Hand Palm Rule**:
+*   Point your fingers in the direction of the magnetic field (from North to South, i.e., to the right).
+*   Point your thumb in the direction of the current (the wire goes from the top `+` to the bottom `-`, so your thumb points down and to the right).
+*   Your palm pushes in the direction of the force. Alternatively, if you cross the current vector into the magnetic field vector, the force points **into the page**.
+
+Matching this with the options provided, the correct magnitude is $0.087\text{ N}$ and the direction is **into the page**.
+
+Therefore, the correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

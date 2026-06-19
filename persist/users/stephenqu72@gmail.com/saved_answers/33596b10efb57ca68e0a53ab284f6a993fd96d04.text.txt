@@ -1,0 +1,35 @@
+This is a classic projectile motion problem typical of the NSW HSC Physics curriculum. Let’s break it down step-by-step.
+
+### Answers and Explanations
+
+**(a) Calculate the ball's first launch velocity.**
+The horizontal velocity $v_x$ is constant because there is no horizontal acceleration.
+- Between $t = 0$ and $t = 0.05$ s, the ball moves $2$ grid squares horizontally.
+- Each grid square is $5\text{ cm} = 0.05\text{ m}$.
+- Horizontal distance $\Delta x = 2 \times 0.05\text{ m} = 0.10\text{ m}$.
+- $v_x = \frac{\Delta x}{\Delta t} = \frac{0.10\text{ m}}{0.05\text{ s}} = 2\text{ m s}^{-1}$.
+
+**(b) Calculate the range of the ball for a horizontal launch velocity of $3\text{ m s}^{-1}$.**
+First, determine the height of the desk ($h$). From the diagram, the ball hits the floor at $t = 0.30\text{ s}$. At this time, the vertical displacement $\Delta y$ is measured from the desk top ($y=0$) downwards. 
+- Counting the grid squares from the desk level down to the floor at $t=0.30\text{ s}$, the ball has dropped $6$ grid squares.
+- $\Delta y = 6 \times 0.05\text{ m} = 0.30\text{ m}$.
+- Using $\Delta y = u_y t + \frac{1}{2}g t^2$ where $u_y = 0$: $0.30 = \frac{1}{2}(9.8)t^2 \implies t^2 \approx 0.061 \implies t \approx 0.247\text{ s}$ (or simply use the time of flight provided by the vertical motion).
+- The range is $R = v_x \times t_{total}$. 
+- If $v_x = 3\text{ m s}^{-1}$ and the fall time is $0.30\text{ s}$:
+- $R = 3 \times 0.30 = 0.90\text{ m}$.
+
+**(c) Explain how the acceleration due to gravity could be determined.**
+To find $g$, we use the vertical displacement formula: $\Delta y = \frac{1}{2}g t^2$. 
+1. Collect data for vertical displacement ($\Delta y$) at different time intervals ($t$) from the video frames.
+2. Ensure $\Delta y$ is measured from the release point ($t=0$).
+3. Plot a graph of $\Delta y$ on the vertical axis against $t^2$ on the horizontal axis.
+4. The resulting plot should be a straight line passing through the origin.
+5. The gradient of this line is equal to $\frac{1}{2}g$. Therefore, calculate $g = 2 \times \text{gradient}$.
+
+**(d) Outline a source error.**
+A common error is **parallax error** when reading the positions of the ball against the grid, or **measurement uncertainty** due to the motion blur of the ball in the video frames, which makes it difficult to pinpoint the exact center of the ball.
+
+***
+
+###QUESTION_TYPE
+Calculation question

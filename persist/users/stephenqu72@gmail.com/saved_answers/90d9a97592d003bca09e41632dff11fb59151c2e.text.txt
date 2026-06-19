@@ -1,0 +1,16 @@
+To determine the correct graph, we must analyze the gravitational potential energy ($U$) of mass $M$ as it moves from its initial position (between the two stars) toward position $X$.
+
+### Explanation
+1.  **The Formula:** The gravitational potential energy of a mass $M$ in the field of a star of mass $m$ is given by $U = -\frac{GmM}{r}$, where $r$ is the distance from the center of the star.
+2.  **Initial Position:** At the starting point, the mass is equidistant from both stars. Let this distance be $r_0$. The total potential energy is the sum of the potential energy from both stars: $U_{initial} = 2 \times (-\frac{GmM}{r_0}) = -\frac{2GmM}{r_0}$.
+3.  **The Movement:** As the mass moves toward $X$ (the point exactly between the two stars), it is moving to a point where it is physically closer to both stars than it was at the starting point.
+4.  **Mathematical Insight:** Because the distance $r$ decreases, the magnitude of the potential energy $\frac{GmM}{r}$ increases. Since potential energy is negative, an increase in magnitude means the value becomes **more negative** (i.e., it decreases).
+5.  **Reaching the "Bottom":** As the mass moves toward the line connecting the stars, it reaches a local minimum (the most negative value) when it is at its closest point to the stars. 
+6.  **The Graph:** 
+    *   Graph C shows the potential energy starting at a value, decreasing (becoming more negative/lower on the y-axis), and then increasing again as it moves past the stars toward $X$. 
+    *   Since gravitational potential energy is defined as being zero at infinity, moving closer to massive bodies makes the potential energy more negative. Graph C correctly illustrates the mass moving into the "potential well" created by the two stars and then climbing back out as it moves toward $X$.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

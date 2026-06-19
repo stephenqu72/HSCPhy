@@ -1,0 +1,19 @@
+To determine which scenario results in no net force, we must analyze the force equations for charged particles in electric and magnetic fields.
+
+### Analysis of the Physics
+1.  **Electric Field Force ($F_E$):** The force on a charged particle in an electric field is given by $F = qE$, where $q$ is the charge and $E$ is the electric field strength. This force acts on a particle **regardless of whether it is stationary or moving**. Thus, options B and D will always experience a force.
+2.  **Magnetic Field Force ($F_B$):** The force on a charged particle in a magnetic field is given by the Lorentz force law: $F = qvB \sin(\theta)$, where $v$ is the velocity of the particle, $B$ is the magnetic field strength, and $\theta$ is the angle between the velocity vector and the magnetic field.
+    *   If the particle is **stationary**, then $v = 0$.
+    *   Substituting $v = 0$ into the equation: $F = q(0)B \sin(\theta) = 0$.
+
+### Evaluation of Options
+*   **A. A stationary charged particle placed in a magnetic field:** As shown above, because $v = 0$, the magnetic force is zero. This scenario results in no net force.
+*   **B. A stationary charged particle placed in an electric field:** The particle experiences a force of $F = qE$.
+*   **C. A moving charged particle placed in a magnetic field:** Unless the particle is moving perfectly parallel to the field lines ($\theta = 0^\circ$ or $180^\circ$), it will experience a magnetic force. Even if parallel, the question asks for a scenario that *would* result in no force; option A is definitively zero regardless of orientation.
+*   **D. A moving charged particle placed in an electric field:** The particle experiences a force of $F = qE$.
+
+### Conclusion
+The correct answer is **A**. A stationary charge does not interact with a magnetic field because magnetic forces only arise from the movement of charges.
+
+###QUESTION_TYPE
+Multiple choice

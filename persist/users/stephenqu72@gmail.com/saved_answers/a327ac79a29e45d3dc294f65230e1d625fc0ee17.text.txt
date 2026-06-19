@@ -1,0 +1,42 @@
+Hello! As your HSC teacher, I will help you break down this physics problem so you can master the concept of escape velocity for your exams.
+
+### **Answer**
+
+The correct answer is **(D)**: **The velocity needed to provide an asymptotic initial kinetic energy such that total mechanical energy is zero.**
+
+---
+
+### **Explanation**
+
+To solve a question like this, you need to move beyond the "layman's definition" and apply the principle of **Conservation of Mechanical Energy**.
+
+#### **1. Understanding the Physics Principle**
+In a gravitational field, an object has two main types of mechanical energy:
+*   **Kinetic Energy ($K$):** The energy of motion, defined as $K = \frac{1}{2}mv^2$.
+*   **Gravitational Potential Energy ($U$):** The energy due to position in a gravity field. Because gravity is an attractive force, this value is negative, defined as $U = -\frac{GMm}{r}$ (where $G$ is the gravitational constant, $M$ is the mass of the Earth, $m$ is the mass of the object, and $r$ is the distance from the center of the Earth).
+
+**Total Mechanical Energy ($E$)** is the sum of these two:
+$$E = K + U = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+
+#### **2. The Definition of "Escape"**
+To "escape" a planet's gravity, an object must be able to reach an infinite distance ($r \to \infty$) from the planet. At an infinite distance, the gravitational potential energy $U$ becomes zero. 
+
+For the object to just barely escape (the minimum required velocity), it should arrive at infinity with zero kinetic energy left. This means the total mechanical energy $E$ must be **exactly zero**.
+
+If $E < 0$, the object is in a "bound" orbit (like a satellite or the Moon).
+If $E = 0$, the object is on an escape trajectory (parabolic trajectory).
+If $E > 0$, the object escapes and retains some leftover speed (hyperbolic trajectory).
+
+Therefore, the physical definition of escape velocity is the velocity that sets the total mechanical energy to zero:
+$$\frac{1}{2}mv_{esc}^2 - \frac{GMm}{r} = 0$$
+
+#### **3. Why the other options are incorrect:**
+*   **(A) The initial speed required so that an object will safely orbit the Earth:** This describes **orbital velocity** ($v_{orb}$), not escape velocity. Orbital velocity is actually $\sqrt{\frac{GM}{r}}$, which is slower than escape velocity ($\sqrt{\frac{2GM}{r}}$).
+*   **(B) The speed required for an object to be launched and fly through space forever:** While this describes the *result* of having escape velocity, it is not a precise physical description. It's too vague for a physics definition.
+*   **(C) The speed necessary for a spacecraft to escape Earth's atmosphere:** This is incorrect because "escaping the atmosphere" only requires overcoming air resistance/drag. You can leave the atmosphere at much lower speeds (e.g., a weather balloon), but you won't escape Earth's gravity.
+
+### **Final Summary**
+When you see "escape velocity" in an HSC exam, immediately think: **Total Energy = 0**.
+
+###QUESTION_TYPE
+Multiple choice

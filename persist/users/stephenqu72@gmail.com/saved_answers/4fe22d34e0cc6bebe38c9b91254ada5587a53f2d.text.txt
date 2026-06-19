@@ -1,0 +1,30 @@
+To determine the torque acting on the wrench, we use the formula for torque:
+
+$$\tau = rF \sin(\theta)$$
+
+Where:
+*   $r$ is the distance from the pivot point (the nut) to the point where the force is applied.
+*   $F$ is the magnitude of the applied force.
+*   $\theta$ is the angle between the position vector ($r$) and the force vector ($F$).
+
+### Step-by-Step Solution:
+
+1.  **Identify the Force ($F$):**
+    The magnitude of the applied force is $17.0\text{ N}$.
+
+2.  **Identify the Distance ($r$):**
+    The distance from the nut to the handle tip is $25.0\text{ cm}$. In physics calculations, we must use standard SI units (meters). Therefore, we convert $25.0\text{ cm}$ to meters:
+    $$r = 25.0 \text{ cm} = 0.25 \text{ m}$$
+
+3.  **Identify the Angle ($\theta$):**
+    The angle provided in the diagram ($37^\circ$) is the angle between the force vector and the handle of the wrench. This is exactly the angle $\theta$ required for the torque formula $\tau = rF \sin(\theta)$.
+
+4.  **Substitute into the formula:**
+    $$\tau = 0.25 \times 17 \times \sin(37^\circ)$$
+    Rearranging this to match the format of the options:
+    $$\tau = 17 \sin(37^\circ) \times 0.25$$
+
+Comparing this result to the given options, it matches **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

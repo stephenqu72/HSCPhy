@@ -1,0 +1,18 @@
+To determine the correct answer, we look at the physics of a charged particle moving through a magnetic field. This is described by the **magnetic Lorentz force law**.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+When a charged particle (with charge $q$) moves with a velocity $v$ through a magnetic field $B$, it experiences a magnetic force $F$ given by the vector cross product:
+
+$$F = q(v \times B)$$
+
+In vector mathematics, the cross product of two vectors $v$ and $B$ results in a new vector $F$ that is **mutually perpendicular** to both of the original vectors. 
+
+1.  **Direction:** Because $F$ is defined as the cross product of $v$ and $B$, the resulting force vector must point in a direction that is perpendicular to the plane containing $v$ and $B$. Therefore, the force is perpendicular to both the direction of velocity ($v$) and the direction of the magnetic field ($B$).
+2.  **Magnitude:** The magnitude of this force is given by $F = qvB\sin(\theta)$, where $\theta$ is the angle between the velocity and the magnetic field.
+3.  **HSC Exam Tip:** Always remember the "Right-Hand Rule" for positive charges. If you point your fingers in the direction of $v$ and curl them toward $B$, your extended thumb points in the direction of the force $F$. In all cases, your thumb will be at a $90^\circ$ angle to both your fingers and the direction of the curl, confirming that the force is perpendicular to both vectors.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,84 @@
+Hello there! As an HSC teacher, I know these types of physics problems can look intimidating because of all the large exponents and scientific notation, but once you identify your variables and the correct formulas, they become much more manageable. 
+
+This question tests your understanding of **Newton's Law of Universal Gravitation** and its applications to orbital mechanics (orbital velocity, escape velocity, and gravitational potential energy).
+
+Here is the step-by-step breakdown for each part.
+
+---
+
+### **Constants and Givens**
+Since some values aren't explicitly provided in the text, we will use standard physics constants:
+*   Gravitational constant $G = 6.67 \times 10^{-11} \, \text{N m}^2\text{kg}^{-2}$
+*   Mass of Earth $M_E \approx 5.97 \times 10^{24} \, \text{kg}$
+*   Radius of Earth $R_E \approx 6370 \, \text{km} = 6.37 \times 10^6 \, \text{m}$
+
+---
+
+### **Part (a) Calculation**
+
+**The Goal:** Find the orbital velocity ($v$) of a satellite at an altitude of $980 \, \text{km}$.
+
+**1. Identify the Radius ($r$):**
+In orbital mechanics, the distance $r$ is measured from the **center** of the planet, not the surface. Therefore, we must add the Earth's radius to the altitude ($h$).
+$$r = R_E + h$$
+$$r = 6,370,000 \, \text{m} + 980,000 \, \text{m} = 7,350,000 \, \text{m} = 7.35 \times 10^6 \, \text{m}$$
+
+**2. Use the Orbital Velocity Formula:**
+To maintain a stable circular orbit, the centripetal force must be provided by gravity:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+Solving for $v$ gives us:
+$$v = \sqrt{\textstyle\frac{GM}{r}}$$
+
+**3. Substitute and Solve:**
+$$v = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{7.35 \times 10^6}}$$
+$$v = \sqrt{\frac{3.98 \times 10^{14}}{7.35 \times 10^6}} \approx \sqrt{54,149,659}$$
+$$v \approx 7358.6 \, \text{m/s} \text{ (or approx } 7.36 \, \text{km/s)}$$
+
+---
+
+### **Part (b) Calculation**
+
+**The Goal:** Find the escape velocity ($v_e$) for a rocket to leave a Mars orbit at an altitude of $10 \, \text{km}$.
+
+**1. Identify the Variables from the Table:**
+*   Mass of Mars ($M_{\text{Mars}}$) $= 6.4 \times 10^{25} \, \text{kg}$
+*   Radius of Mars ($R_{\text{Mars}}$) $= 3390 \, \text{km} = 3.39 \times 10^6 \, \text{m}$
+*   Altitude ($h$) $= 10 \, \text{km} = 1.0 \times 10^4 \, \text{m}$
+
+**2. Calculate total distance $r$ from center:**
+$$r = R_{\text{Mars}} + h = 3,390,000 + 10,000 = 3,400,000 \, \text{m} = 3.4 \times 10^6 \, \text{m}$$
+
+**3. Use the Escape Velocity Formula:**
+$$v_e = \sqrt{\textstyle\frac{2GM}{r}}$$
+
+**4. Substitute and Solve:**
+$$v_e = \sqrt{\frac{2(6.67 \times 10^{-11})(6.4 \times 10^{25})}{3.4 \times 10^6}}$$
+$$v_e = \sqrt{\frac{8.5376 \times 10^{15}}{3.4 \times 10^6}} \approx \sqrt{2,511,058,823}$$
+$$v_e \approx 50,110 \, \text{m/s} \text{ (or approx } 50.1 \, \text{km/s)}$$
+
+---
+
+### **Part (c) Calculation**
+
+**The Goal:** Calculate the gravitational potential energy ($U$) of a $1500 \, \text{kg}$ spacecraft in an Earth orbit at $800 \, \text{km}$ altitude.
+
+**1. Identify the Variables:**
+*   Mass of spacecraft ($m$) $= 1500 \, \text{kg}$
+*   Altitude ($h$) $= 800,000 \, \text{m}$
+*   Total radius $r = R_E + h = 6,370,000 + 800,000 = 7.17 \times 10^6 \, \text{m}$
+
+**2. Use the Gravitational Potential Energy Formula:**
+Note: Gravitational potential energy is technically negative because it is defined relative to zero at infinity. The magnitude of the energy is found using:
+$$U = -\frac{GMm}{r}$$
+
+**3. Substitute and Solve:**
+$$U = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(1500)}{7.17 \times 10^6}$$
+$$U = -\frac{5.97 \times 10^{17}}{7.17 \times 10^6}$$
+$$U \approx -8.33 \times 10^{10} \, \text{J}$$
+
+*(Note: If the question asks for the energy "required" to reach this orbit from the surface, you would calculate the difference in potential energy $\Delta U = U_{\text{final}} - U_{\text{initial}}$, but usually, in these contexts, they are asking for the value of $U$ at that specific distance.)*
+
+---
+
+###QUESTION_TYPE
+Calculation question

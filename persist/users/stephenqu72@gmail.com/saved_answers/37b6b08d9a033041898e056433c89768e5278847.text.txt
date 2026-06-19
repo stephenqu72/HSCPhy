@@ -1,0 +1,26 @@
+To solve this problem, we use the principle of **moments** (or torque). For the plank to be on the verge of tipping, the pivot point is the edge of the building.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the pivot:** The edge of the building acts as the fulcrum. 
+2.  **Define the forces:**
+    *   **Mass of the plank ($M$):** $200\text{ kg}$. Since the plank is uniform, its weight acts at its center of mass. The total length is $5\text{ m}$. With $2\text{ m}$ overhanging, $3\text{ m}$ is on the building. The center of mass is at $2.5\text{ m}$ from one end. Measured from the pivot (the edge of the building), the center of mass is $0.5\text{ m}$ onto the roof ($3\text{ m} - 2.5\text{ m} = 0.5\text{ m}$).
+    *   **Mass of the person ($m$):** $50\text{ kg}$. Let $x$ be the distance the person walks past the edge of the building.
+3.  **Set up the torque equilibrium:** At the point of tipping, the clockwise torque (provided by the person) must equal the counter-clockwise torque (provided by the plank's weight on the roof).
+    *   Counter-clockwise torque: $\tau_{ccw} = M \cdot g \cdot d_{plank}$
+    *   Clockwise torque: $\tau_{cw} = m \cdot g \cdot x$
+
+    Note: The acceleration due to gravity $g$ cancels out on both sides.
+
+4.  **Perform the calculation:**
+    $$200 \cdot 0.5 = 50 \cdot x$$
+    $$100 = 50x$$
+    $$x = \frac{100}{50}$$
+    $$x = 2\text{ m}$$
+
+The person can walk $2\text{ m}$ past the edge before the plank tips.
+
+**Correct Answer: (A) 2 m**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+To solve this problem, we apply **Kepler’s Third Law**, which states that for any set of satellites orbiting a central body, the ratio of the square of the orbital period ($T^2$) to the cube of the orbital radius ($r^3$) is constant:
+$$\frac{T^2}{r^3} = \frac{4\pi^2}{GM}$$
+
+#### (a) Graphing the data
+To verify the law, you must plot the data provided in the table. 
+*   **Independent variable (x-axis):** $(\text{Orbital radius})^3 \times 10^{26}\text{ m}^3$
+*   **Dependent variable (y-axis):** $(\text{Orbital period})^2 \times 10^{10}\text{ s}^2$
+
+Plot the three coordinates: $(1.2, 2.34)$, $(4.1, 9.61)$, and $(14.9, 38.4)$. You will observe that these points form a nearly straight line passing through the origin. Draw a **line of best fit** through these points.
+
+#### (b) Evidence for Kepler’s Law
+The graph provides evidence because the relationship between $(\text{Orbital period})^2$ and $(\text{Orbital radius})^3$ is **linear**. A straight-line graph passing through the origin demonstrates that $T^2 \propto r^3$, which is the fundamental requirement of Kepler’s Third Law.
+
+#### (c) Determining the mass of Jupiter
+From the law $T^2 = \frac{4\pi^2}{GM}r^3$, the gradient of your graph is equal to $\frac{4\pi^2}{GM}$.
+
+1.  **Calculate the gradient ($m$):** Choose two points on your line of best fit (not necessarily the data points) and use $m = \frac{\Delta y}{\Delta x}$. 
+    *   Example using endpoints: $m = \frac{38.4 \times 10^{10} - 2.34 \times 10^{10}}{14.9 \times 10^{26} - 1.2 \times 10^{26}} \approx 2.64 \times 10^{-16}\text{ s}^2/\text{m}^3$.
+2.  **Solve for $M$:**
+    $$M = \frac{4\pi^2}{G \cdot \text{gradient}}$$
+    Using $G = 6.67 \times 10^{-11}\text{ m}^3\text{kg}^{-1}\text{s}^{-2}$:
+    $$M = \frac{4 \cdot \pi^2}{(6.67 \times 10^{-11}) \cdot (2.64 \times 10^{-16})} \approx 2.2 \times 10^{27}\text{ kg}$$
+*(Note: Actual mass of Jupiter is $\approx 1.898 \times 10^{27}\text{ kg}$; the value may vary slightly depending on your specific line of best fit).*
+
+###QUESTION_TYPE
+Data analysis questions

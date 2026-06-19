@@ -1,0 +1,30 @@
+To determine the correct expression for the centripetal force in this scenario, we must analyze the forces acting on the mass $m$.
+
+### Explanation
+
+1.  **Identify the Forces:** There are two forces acting on the mass:
+    *   The gravitational force, $mg$, acting vertically downwards.
+    *   The normal force, $N$, acting perpendicular to the surface of the banked track.
+
+2.  **Define the Direction of Centripetal Force:** Since the object is undergoing circular motion on a horizontal track, the net centripetal force must act **horizontally** towards the center of the circular path.
+
+3.  **Resolve the Normal Force ($N$):** We can split the normal force $N$ into two perpendicular components:
+    *   The **vertical component**: $N \cos\theta$. This must balance the weight of the object ($mg$) so that the mass maintains a constant height. Thus, $N \cos\theta = mg$.
+    *   The **horizontal component**: $N \sin\theta$. This component points towards the center of the circular path. 
+
+4.  **Conclusion:** Because the horizontal component of the normal force ($N \sin\theta$) is the only horizontal force acting on the mass, it provides the required centripetal force for the circular motion.
+
+Therefore, the correct expression is $N \sin\theta$.
+
+**Correct Option: (A)**
+
+### How to solve it
+*   **Draw a Free Body Diagram (FBD):** Always draw the forces $N$ and $mg$.
+*   **Choose your axes:** Use a standard coordinate system where the x-axis is horizontal (the direction of acceleration) and the y-axis is vertical (the direction of equilibrium).
+*   **Apply Newton's Second Law:**
+    *   Vertical: $\sum F_y = N \cos\theta - mg = 0$
+    *   Horizontal: $\sum F_x = N \sin\theta = F_{centripetal} = \frac{mv^2}{r}$
+*   By projecting $N$ onto the horizontal axis, you identify that $N \sin\theta$ is the net force providing the centripetal acceleration.
+
+###QUESTION_TYPE
+Multiple choice

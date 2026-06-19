@@ -1,0 +1,30 @@
+To determine the net force per unit length acting on wire B, we must calculate the individual magnetic forces exerted by wire A and wire C on wire B and then find their vector sum.
+
+### 1. The Physics Principle
+The force per unit length $f$ between two parallel wires carrying currents $I_1$ and $I_2$ separated by a distance $r$ is given by:
+$$f = \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+Where $\mu_0 = 4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$.
+- Currents in the same direction attract.
+- Currents in opposite directions repel.
+
+### 2. Calculating Individual Forces on B
+Given: $I_A = I_B = I_C = 2 \text{ A}$.
+
+**Force from wire A on B ($f_{AB}$):**
+The distance $r_{AB} = 2 \text{ m}$. Since wire A and B carry currents in opposite directions (see arrows), they **repel**. Thus, wire A pushes wire B towards the right (towards C).
+$$f_{AB} = \frac{(4\pi \times 10^{-7})(2)(2)}{2\pi \times 2} = \frac{16\pi \times 10^{-7}}{4\pi} = 4.0 \times 10^{-7} \text{ N/m (towards C)}$$
+
+**Force from wire C on B ($f_{CB}$):**
+The distance $r_{CB} = 1 \text{ m}$. Since wire C and B carry currents in the same direction, they **attract**. Thus, wire C pulls wire B towards the right (towards C).
+$$f_{CB} = \frac{(4\pi \times 10^{-7})(2)(2)}{2\pi \times 1} = \frac{16\pi \times 10^{-7}}{2\pi} = 8.0 \times 10^{-7} \text{ N/m (towards C)}$$
+
+### 3. Net Force
+Since both forces act in the same direction (towards the right, which is the direction of wire C), we add their magnitudes:
+$$f_{net} = f_{AB} + f_{CB} = 4.0 \times 10^{-7} + 8.0 \times 10^{-7} = 12.0 \times 10^{-7} \text{ N/m}$$
+Converting to standard scientific notation:
+$$f_{net} = 1.2 \times 10^{-6} \text{ N/m towards C}$$
+
+Comparing this to the provided options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

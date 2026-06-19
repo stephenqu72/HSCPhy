@@ -1,0 +1,24 @@
+To solve this problem, we need to understand the relationship between electric potential difference, work done on a charge, and kinetic energy.
+
+### Explanation
+
+1.  **Work and Potential Difference:** The work done ($W$) on a charge $q$ moving through a potential difference $\Delta V$ is given by the formula:
+    $$W = q\Delta V$$
+    Since the particle starts from rest, the work done by the electric field equals the gain in kinetic energy.
+
+2.  **Electric Field in Figure I:** The electric field strength $E_1$ between two parallel plates is given by $E = \frac{V}{d_1}$. The force on the charge is $F = qE_1 = q\frac{V}{d_1}$. The work done over distance $d$ is:
+    $$W = F \times d = \left(q \frac{V}{d}\right) \times d = qV$$
+
+3.  **Electric Field in Figure II:** In the second scenario, the distance between the plates is doubled to $2d$. The new electric field $E_2$ is:
+    $$E_2 = \frac{V}{2d}$$
+    The force on the charge is now $F_2 = qE_2 = q \frac{V}{2d}$.
+
+4.  **Work in Figure II:** The particle travels the same distance $d$ (from $X$ to $Y$). The work done $W_2$ is:
+    $$W_2 = F_2 \times d = \left(q \frac{V}{2d}\right) \times d = \frac{qV}{2} = \frac{W}{2}$$
+
+Alternatively, you can think of it in terms of potential difference: the potential difference between two points separated by distance $x$ in a uniform field is $\Delta V = E \cdot x$. In Figure I, the potential drop across distance $d$ is $V_{total} = 1000\text{ V}$. In Figure II, the potential drop across distance $d$ is only half of the total voltage because the field is half as strong ($E_2 = 0.5 E_1$), meaning the potential difference experienced by the charge is $500\text{ V}$. Since $W = q\Delta V$, the work done is halved.
+
+**Correct Answer:** **B**
+
+###QUESTION_TYPE
+Multiple choice

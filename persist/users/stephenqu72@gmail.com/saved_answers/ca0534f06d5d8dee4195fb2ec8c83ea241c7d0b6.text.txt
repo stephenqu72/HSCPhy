@@ -1,0 +1,35 @@
+To solve this problem, we must analyze the motion of the electron using projectile motion principles adapted for an electric field.
+
+### Part (a)
+When the switch is open, there is no potential difference between the plates, meaning there is no electric field. The electron experiences no force and travels in a straight line at a constant horizontal velocity $v_x = 5 \times 10^7 \text{ m s}^{-1}$.
+
+Assuming point A is at the start of the field and point B is at the end of the field (a horizontal distance of $2 \text{ m}$), we use:
+$$t = \frac{d}{v_x} = \frac{2 \text{ m}}{5 \times 10^7 \text{ m s}^{-1}} = 4 \times 10^{-8} \text{ s}$$
+
+**Answer:** $4 \times 10^{-8} \text{ s}$
+
+---
+
+### Part (b)
+When the switch is closed, the electron undergoes vertical acceleration $a_y$ due to the electric field while maintaining constant horizontal velocity.
+
+**1. Determine the required vertical displacement ($y$):**
+The electron starts in the middle of the plates ($1 \text{ cm}$ from either plate). Point C is $0.5 \text{ cm}$ below the midline. Therefore, the vertical displacement required is $y = 0.5 \text{ cm} = 0.005 \text{ m}$.
+
+**2. Find the acceleration:**
+Using the equation of motion $y = u_y t + \frac{1}{2} a_y t^2$, where $u_y = 0$:
+$$0.005 = \frac{1}{2} a_y (4 \times 10^{-8})^2$$
+$$a_y = \frac{0.005 \times 2}{1.6 \times 10^{-15}} = 6.25 \times 10^{12} \text{ m s}^{-2}$$
+
+**3. Relate acceleration to Electric Field ($E$) and Voltage ($V$):**
+Using $F = ma$ and $F = qE$, we have $a = \frac{qE}{m}$. Since $E = \frac{V}{d_{plates}}$ (where $d_{plates} = 0.02 \text{ m}$):
+$$a = \frac{qV}{m d_{plates}} \implies V = \frac{a \cdot m \cdot d_{plates}}{q}$$
+
+Using $m_e = 9.11 \times 10^{-31} \text{ kg}$ and $q = 1.6 \times 10^{-19} \text{ C}$:
+$$V = \frac{(6.25 \times 10^{12}) \times (9.11 \times 10^{-31}) \times 0.02}{1.6 \times 10^{-19}}$$
+$$V \approx 0.71 \text{ V}$$
+
+**Answer:** The required voltage is approximately $0.71 \text{ V}$.
+
+###QUESTION_TYPE
+Calculation question

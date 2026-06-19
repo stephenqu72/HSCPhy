@@ -1,0 +1,26 @@
+To solve this problem, we rely on Newton’s Law of Universal Gravitation:
+$$F = \frac{G M_1 M_2}{d^2}$$
+
+### Part a: Plotting the graph
+To plot the graph of $F$ (y-axis) vs $1/d^2$ (x-axis), we use the data provided. Note that there is a typo in the table for the last entry ($1/d^2$ for $d=5.00 \times 10^8$ should be $0.04 \times 10^{-17}$ or simply $0.04$ if the table units are consistent).
+
+### Part b: Determining the mass of Alderaan
+**1. Understand the relationship:**
+By comparing the equation $F = (G M_1 M_2) \cdot \frac{1}{d^2}$ to the linear equation $y = mx + c$, where $y = F$ and $x = 1/d^2$, we see that the gradient ($m$) of the graph is:
+$$m = G \cdot M_{DeathStar} \cdot M_{Alderaan}$$
+
+**2. Calculate the gradient:**
+Using the first two points: $(x_1, y_1) = (10, 20 \times 10^{15})$ and $(x_2, y_2) = (2.5, 5 \times 10^{15})$.
+*(Note: Be careful with the exponents $10^{17}$ and $10^{15}$ provided in the table headers).*
+$$m = \frac{(20 - 5) \times 10^{15}}{(10 - 2.5) \times 10^{17}} = \frac{15 \times 10^{15}}{7.5 \times 10^{17}} = 2 \times 10^{-2}$$
+
+**3. Solve for $M_{Alderaan}$:**
+We know $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$ and $M_{DeathStar} = 5.0 \times 10^{17} \text{ kg}$.
+$$2 \times 10^{-2} = (6.67 \times 10^{-11}) \times (5.0 \times 10^{17}) \times M_{Alderaan}$$
+$$2 \times 10^{-2} = (33.35 \times 10^6) \times M_{Alderaan}$$
+$$M_{Alderaan} = \frac{2 \times 10^{-2}}{3.335 \times 10^7} \approx 6.0 \times 10^{-10} \text{ kg}$$
+
+*(Note: In an actual HSC exam, always check your units carefully. The small resulting mass suggests the numbers provided in this specific practice question table result in a non-planetary scale mass for Alderaan).*
+
+###QUESTION_TYPE
+Data analysis questions

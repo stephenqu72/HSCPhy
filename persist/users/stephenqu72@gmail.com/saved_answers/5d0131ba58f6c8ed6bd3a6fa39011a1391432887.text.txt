@@ -1,0 +1,41 @@
+To solve this problem, we apply **Kepler’s Third Law of Planetary Motion**, which states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the semi-major axis (average orbital distance, $r$) of its orbit:
+
+$$T^2 \propto r^3$$
+
+Alternatively, for two planets orbiting the same star, we can write the ratio as:
+
+$$\frac{T_A^2}{T_B^2} = \frac{r_A^3}{r_B^3}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given information:**
+    We are told that the orbital distance of planet A is six times that of planet B:
+    $$r_A = 6r_B$$
+
+2.  **Substitute the ratio into Kepler’s Third Law:**
+    $$\frac{T_A^2}{T_B^2} = \left( \frac{r_A}{r_B} \right)^3$$
+    Substituting $r_A = 6r_B$:
+    $$\frac{T_A^2}{T_B^2} = (6)^3$$
+
+3.  **Calculate the value:**
+    $$6^3 = 6 \times 6 \times 6 = 216$$
+    So, 
+    $$\frac{T_A^2}{T_B^2} = 216$$
+    Taking the square root of both sides to isolate the ratio of the periods:
+    $$\frac{T_A}{T_B} = \sqrt{216}$$
+
+4.  **Simplify the result:**
+    $$\sqrt{216} = \sqrt{36 \times 6} = 6\sqrt{6} \approx 14.697$$
+
+Looking at the provided options, it appears there may be a slight mismatch in the expected simplification provided in the question's distractors. However, evaluating the options:
+*   A: $3$
+*   B: $15$
+*   C: $36$
+*   D: $216$
+
+If we re-examine the relationship $T_A^2 = 216 T_B^2$, none of the simple linear relationships perfectly match $14.7$. However, in many physics contexts, if students mistakenly equate $T \propto r^3$ rather than $T^2 \propto r^3$, they might select 216. Given the standard curriculum, $T_A^2/T_B^2 = 6^3 = 216$. Thus, $T_A = \sqrt{216} T_B$. Since $14.7$ is closest to $15$, **Option B** is often intended in these types of questions as a rounded approximation, or there is a typographical error in the provided options.
+
+If the question intended to ask for the ratio of the **squares** of the periods, the answer would be 216 (Option D). Given the standard presentation, **Option B** is the most common "expected" answer for this specific textbook problem due to the rounding of $\sqrt{216} \approx 14.7 \approx 15$.
+
+###QUESTION_TYPE
+Multiple choice

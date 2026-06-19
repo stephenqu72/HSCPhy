@@ -1,0 +1,38 @@
+To solve this problem, we use the principles of electrostatics and kinematics. 
+
+### Given Data:
+*   Potential difference $\Delta V = 10\text{ V} - 0\text{ V} = 10\text{ V}$
+*   Plate separation $d = 5\text{ cm} = 0.05\text{ m}$
+*   Initial velocity $v_0 = 4 \times 10^6\text{ m/s}$ at $\theta = 30^\circ$
+*   Charge of electron $q = -1.6 \times 10^{-19}\text{ C}$
+*   Mass of electron $m = 9.11 \times 10^{-31}\text{ kg}$
+
+---
+
+### a) Find the acceleration experienced by the electron
+
+1. **Calculate the Electric Field ($E$):**
+   $$E = \frac{\Delta V}{d} = \frac{10}{0.05} = 200\text{ V/m}$$
+   The field points from the positive plate (bottom) to the negative plate (top). Since the electron is negative, the force $F = qE$ acts **downwards** (towards the bottom plate).
+
+2. **Calculate Acceleration ($a$):**
+   $$F = ma \implies a = \frac{qE}{m}$$
+   $$a = \frac{(1.6 \times 10^{-19}) \times 200}{9.11 \times 10^{-31}} \approx 3.51 \times 10^{13}\text{ m/s}^2 \text{ (downwards)}$$
+
+---
+
+### b) Determine the velocity of the electron upon impact and which plate it hits
+
+1. **Identify the Plate:**
+   The electric force is directed downwards, towards the positive plate. Since the electron's initial vertical velocity component is upwards ($v_{0y} = v_0 \sin 30^\circ > 0$), it will travel upwards, stop at some maximum height, and accelerate back down to strike the **bottom (positive) plate**.
+
+2. **Velocity upon impact:**
+   Since the electric field is conservative and the electron starts at the bottom plate ($10\text{V}$) and hits the bottom plate ($10\text{V}$), the change in electric potential energy is zero.
+   Conservation of energy: $KE_i + PE_i = KE_f + PE_f$
+   $$\frac{1}{2}mv_0^2 + qV_i = \frac{1}{2}mv_f^2 + qV_f$$
+   Because $V_i = V_f = 10\text{V}$:
+   $$\frac{1}{2}mv_0^2 = \frac{1}{2}mv_f^2 \implies v_f = v_0 = 4 \times 10^6\text{ m/s}$$
+   The velocity magnitude is $4 \times 10^6\text{ m/s}$ at an angle of $30^\circ$ **below** the horizontal.
+
+###QUESTION_TYPE
+Calculation question

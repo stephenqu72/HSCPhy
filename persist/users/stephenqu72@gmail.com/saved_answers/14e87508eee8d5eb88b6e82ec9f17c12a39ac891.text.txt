@@ -1,0 +1,32 @@
+This is a classic Physics investigation question involving the motor effect. We are using a current balance to measure the magnetic force $F_B$ exerted on a conductor of length $L$ in a magnetic field $B$ with current $I$.
+
+### Explanation and Solution
+
+The total reading on the balance ($R$) is the sum of the weight of the apparatus ($W$) and the magnetic force ($F_B$):
+$$R = W + F_B$$
+Since $F_B = BIl\sin(\theta)$, and assuming the field is perpendicular to the wire ($\sin(90^{\circ}) = 1$), the equation becomes:
+$$R = BI(l) + W$$
+This is in the form $y = mx + c$, where:
+- $y = R$ (balance reading in Newtons)
+- $x = I$ (current in Amperes)
+- $m = Bl$ (the gradient)
+- $c = W$ (the y-intercept, which is the weight of the apparatus)
+
+#### a. Graphing
+To graph this, place Current ($I$) on the x-axis and Balance Reading ($R$) on the y-axis. Plot the points: $(0, 0.30), (1.0, 1.2), (2.0, 2.0), (3.0, 3.1), (4.0, 4.2), (5.0, 5.4)$. Draw a line of best fit.
+
+#### b. Analysis of Features
+- **Agree with expectations:** The relationship is linear. According to $F = BIl$, force should be directly proportional to current. The positive gradient confirms this relationship.
+- **Disagree with expectations:** The y-intercept is $0.30\text{ N}$. In an ideal experiment with no weight on the scale, the reading should be $0$ when $I=0$. The $0.30\text{ N}$ represents the stationary weight of the bar and supporting apparatus, which is expected in a real-world setting but is an "offset" from the theoretical zero-force condition.
+
+#### c. Calculating Magnetic Field ($B$)
+1. **Find the gradient ($m$):** Using the line of best fit.
+   Taking points $(1.0, 1.2)$ and $(5.0, 5.4)$:
+   $$m = \frac{5.4 - 1.2}{5.0 - 1.0} = \frac{4.2}{4.0} = 1.05\text{ N/A}$$
+2. **Use the formula $m = Bl$:**
+   $$1.05 = B \times 2.2\text{ m}$$
+   $$B = \frac{1.05}{2.2} \approx 0.477\text{ T}$$
+*(Note: Minor variations in your answer are acceptable depending on the line of best fit drawn.)*
+
+###QUESTION_TYPE
+Data analysis questions

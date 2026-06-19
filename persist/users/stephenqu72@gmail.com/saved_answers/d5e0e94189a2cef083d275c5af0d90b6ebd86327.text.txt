@@ -1,0 +1,29 @@
+To solve this problem, we look at the physics of circular satellite motion. The orbital radius $r$ is the distance from the center of the Earth to the satellite. From the diagram, it is clear that the orbital radius of satellite A ($r_A$) is smaller than the orbital radius of satellite B ($r_B$), so $r_A < r_B$.
+
+### Physics Principles
+
+**1. Orbital Velocity ($v$):**
+Using the formula for orbital velocity, $v = \sqrt{\frac{GM}{r}}$, we can see that velocity is inversely proportional to the square root of the radius. Therefore, the satellite closer to the Earth (A) must move faster than the one further away (B).
+Result: **A is greater**.
+
+**2. Orbital Period ($T$):**
+Using Kepler's Third Law, $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$, we can see that the period is proportional to the radius ($T \propto \sqrt{r^3}$). A larger radius corresponds to a longer orbital period.
+Result: **B is greater**.
+
+**3. Centripetal Acceleration ($a_c$):**
+Using the formula for gravitational acceleration at an orbit, $a_c = \frac{GM}{r^2}$, we see that acceleration is inversely proportional to the square of the radius. The satellite closer to the Earth (A) experiences a stronger gravitational pull.
+Result: **A is greater**.
+
+### Analysis
+Comparing our results to the options:
+- Orbital velocity: A is greater
+- Orbital period: B is greater
+- Centripetal acceleration: A is greater
+
+This corresponds exactly to option (D).
+
+### Answer
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+As a top HSC teacher, here is the breakdown of how to solve this physics problem regarding the motion of a charged particle in a magnetic field.
+
+### Part a
+**Answer:** The charge $q$ is **positive**.
+
+**Explanation:** To determine the sign of the charge, we use the **Right-Hand Rule** (also known as the Right-Hand Palm Rule). 
+1. Point your fingers in the direction of the magnetic field $B$ (into the page, indicated by the crosses $\times$).
+2. Point your thumb in the direction of the velocity $v$ (to the right).
+3. The palm of your hand points in the direction of the magnetic force $F_B$ exerted on a **positive** charge.
+4. As you can see from the diagram, the particle deflects downwards. Because the Right-Hand Rule predicts a downward force for a positive charge moving into this field, the charge must be positive.
+
+---
+
+### Part b
+**Answer:** The path is an arc of a circle because the magnetic force $F_B$ always acts perpendicular to the velocity $v$ of the particle.
+
+**Explanation:** To secure both marks, your response should highlight these two points:
+1. **Direction of Force:** The magnetic force acting on a moving charge is given by the formula $F = qvB\sin(\theta)$. Since the velocity is perpendicular to the magnetic field ($\theta = 90^\circ$), the force is always perpendicular to the direction of motion.
+2. **Centripetal Motion:** A force that is constantly perpendicular to the velocity does no work (so the speed remains constant) and acts as a **centripetal force**. Since the force $F_B$ has a constant magnitude and is always directed toward the center of the arc, it forces the particle to undergo uniform circular motion (or an arc of a circle).
+
+The physics relationship is:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+Since $q, v, B,$ and $m$ are constant, the radius $r = \frac{mv}{qB}$ is also constant, confirming the path is circular.
+
+###QUESTION_TYPE
+Short answer

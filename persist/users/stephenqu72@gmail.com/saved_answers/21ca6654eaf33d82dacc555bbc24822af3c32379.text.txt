@@ -1,0 +1,19 @@
+### Answer
+
+**(a)** To have the rods move away from each other, they must experience a repulsive magnetic force. According to Ampere's Law and the right-hand rule, parallel wires carrying current in **opposite directions** repel each other. You must draw wires such that one rod is connected to the positive terminal on its left end and negative on its right, and the other rod is connected to the positive terminal on its right end and negative on its left. To ensure different currents, they can be connected in **parallel** to the battery, with different resistances (or variable length/thickness) implied for the rods.
+
+**(b)** The statement is **incorrect**.
+1. **Physics Principle:** The force between two parallel current-carrying wires is given by $F = \frac{\mu_0 I_1 I_2 L}{2\pi d}$. This formula shows that the magnitude of the magnetic force acting on rod $A$ and rod $B$ must be **equal and opposite** (Newton’s Third Law).
+2. **Evaluation:** The force experienced by rod $B$ is not dependent on which rod has the "larger" current individually, but on the product of the two currents ($I_A \times I_B$). Since the forces are equal in magnitude, the difference in displacement observed must be due to the difference in the **masses** of the rods ($F = ma$, so $a = F/m$). Since rod $B$ has a larger displacement in the same time $t$, it must have a smaller mass than rod $A$ ($a_B > a_A \implies m_B < m_A$).
+
+---
+
+### How to solve this
+1. **Part (a):** Recognize that for two rods on a table to move apart, there must be a repulsive force. Recall the rule: currents in the same direction attract, and currents in opposite directions repel. Connect the terminals of the battery to the ends of the rods so that current flows in opposite directions for the two rods.
+2. **Part (b):** 
+    *   **Identify the misconception:** The statement assumes force depends solely on one current. Apply Newton's Third Law: the force of $A$ on $B$ equals the force of $B$ on $A$.
+    *   **Use the Law of Force between wires:** Mention the formula $F \propto I_1 I_2$. Explain that because the force is mutual, the difference in motion must be kinematic.
+    *   **Apply Newton's Second Law:** Link the observed motion (displacement) to acceleration ($s = ut + 0.5at^2$). Since $u=0$ and $t$ is the same, higher displacement = higher acceleration. Since $F$ is identical for both, the difference in acceleration must be explained by the mass ($m = F/a$).
+
+###QUESTION_TYPE
+Other questions

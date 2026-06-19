@@ -1,0 +1,27 @@
+To solve these problems, we must apply the principles of experimental design used in the HSC Physics syllabus.
+
+### Question 17
+**Answer: A**
+
+**Explanation:**
+*   **Independent variable:** This is the variable the experimenter deliberately changes. The text states the students are "changing only the length of the pendulum." Therefore, **length** is the independent variable.
+*   **Dependent variable:** This is the variable that changes in response to the independent variable. The students are measuring the **time** for five oscillations. Time (and subsequently the calculated period $T$) is the dependent variable.
+*   **Controlled variables:** These are factors kept constant to ensure a fair test. The text explicitly mentions using a "constant mass and a constant amplitude of swing." Therefore, **mass and amplitude** are the controlled variables.
+
+Comparing these to the options, **Option A** is the only one that matches.
+
+---
+
+### Question 18
+**Answer: D**
+
+**Explanation:**
+*   In experimental physics, measuring a single period ($T$) of a pendulum is prone to human reaction time error. Reaction time typically adds an uncertainty of approximately $0.1$ to $0.2$ seconds to any measurement.
+*   By measuring the time for $n$ oscillations (in this case, $n=5$), the total time $t_{total} = n \times T$ is measured. The period is then calculated as $T = \frac{t_{total}}{n}$.
+*   When you divide the total measured time by the number of oscillations, the absolute uncertainty of the reaction time is also divided by that number ($n$). Therefore, measuring multiple oscillations significantly reduces the relative uncertainty in the measurement of the period.
+*   Options B and C are incorrect because the number of oscillations does not change the physical effects of air friction or the uncertainty of the length measurement (which is usually determined by a ruler/tape measure).
+
+---
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To determine the ratio of the ranges of the two particles, we analyze the motion of a charged particle in a uniform electric field.
+
+### Explanation
+
+1.  **Vertical Motion (y-axis):**
+    The force on the particle is given by $F = qE$. Since $E = \frac{V}{d}$, the acceleration is $a = \frac{qV}{md}$.
+    The displacement $y$ (distance to the plate) is constant for both particles ($y = \frac{d}{2}$). Using the kinematic equation $y = \frac{1}{2}at^2$:
+    $$t = \sqrt{\frac{2y}{a}} = \sqrt{\frac{2y \cdot md}{qV}}$$
+    This shows that the time of flight $t$ is inversely proportional to the square root of the potential difference $V$: $t \propto \frac{1}{\sqrt{V}}$.
+
+2.  **Horizontal Motion (x-axis):**
+    The horizontal velocity $v_x$ remains constant. The range $R$ is given by $R = v_x t$.
+    Since the horizontal velocity $v_x$ is unchanged, the range is directly proportional to the time of flight:
+    $$R \propto t \implies R \propto \frac{1}{\sqrt{V}}$$
+
+3.  **Determining the Ratio:**
+    Let $V_1$ be the initial potential difference and $V_2 = 4V_1$ be the new potential difference.
+    The ratio of the ranges is:
+    $$\frac{R_1}{R_2} = \frac{\frac{1}{\sqrt{V_1}}}{\frac{1}{\sqrt{4V_1}}} = \frac{\sqrt{4V_1}}{\sqrt{V_1}} = \sqrt{4} = 2$$
+
+Thus, the ratio of the range of the first particle ($R_1$) to the range of the second particle ($R_2$) is $2:1$.
+
+### Answer
+The ratio of the range of the first particle to the second particle is **2:1**.
+
+###QUESTION_TYPE
+Calculation question

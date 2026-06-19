@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation:**
+1.  **Circular Path:** When a charged particle enters a uniform magnetic field perpendicular to the field lines, the magnetic force is given by $F = qvB$. According to the right-hand rule, this force is always perpendicular to the velocity of the proton. A force that is always perpendicular to the direction of motion acts as a centripetal force, which causes the particle to move in a circular path.
+2.  **Constant Speed:** Because the magnetic force $F$ is always perpendicular to the direction of motion (velocity vector), it does no work on the proton ($W = F \cdot d \cos(90^\circ) = 0$). Since no work is done, the kinetic energy of the proton remains constant, meaning the magnitude of the velocity (speed) remains constant.
+
+#### Part (b)
+**Calculation:**
+To find the radius $r$, we equate the magnetic force to the centripetal force required to keep the proton in circular motion:
+$$qvB = \frac{mv^2}{r}$$
+Solving for $r$:
+$$r = \frac{mv}{qB}$$
+
+**Given values:**
+*   $m = 1.67 \times 10^{-27}\text{ kg}$ (mass of a proton)
+*   $v = 3.3 \times 10^6\text{ m s}^{-1}$
+*   $q = 1.60 \times 10^{-19}\text{ C}$ (charge of a proton)
+*   $B = 0.80\text{ T}$
+
+**Calculation:**
+$$r = \frac{(1.67 \times 10^{-27}) \times (3.3 \times 10^6)}{(1.60 \times 10^{-19}) \times 0.80}$$
+$$r = \frac{5.511 \times 10^{-21}}{1.28 \times 10^{-19}}$$
+$$r \approx 0.043\text{ m} \text{ (or } 4.3\text{ cm)}$$
+
+### How to solve it:
+1.  **Conceptual understanding:** Recognise that magnetic force acts as a centripetal force. Always reference that the force is perpendicular to velocity to explain both the circular path and the constant speed.
+2.  **Formula selection:** In physics problems involving charged particles in magnetic fields, the standard starting point is equating the Lorentz magnetic force $F = qvB$ with the centripetal force $F = \frac{mv^2}{r}$.
+3.  **Accuracy:** Ensure you use standard physical constants for the mass and charge of a proton, as these are often expected in HSC-level physics. Ensure your units are consistent (SI units).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,36 @@
+### Answer
+The correct answer is **(B) 1.2 N**.
+
+---
+
+### Explanation
+To calculate the magnitude of the magnetic force acting on a current-carrying wire in a uniform magnetic field, we use the formula:
+$$F = BIl \sin(\theta)$$
+
+Where:
+*   $F$ is the magnetic force (in Newtons)
+*   $B$ is the magnetic field strength ($3\text{ T}$)
+*   $I$ is the current ($4\text{ A}$)
+*   $l$ is the length of the wire in the magnetic field
+*   $\theta$ is the angle between the wire and the magnetic field ($30^\circ$)
+
+**Step 1: Determine the length of the wire ($l$)**
+From the diagram, we are given a perpendicular height $h = 10\text{ cm} = 0.1\text{ m}$. This represents the opposite side of a right-angled triangle formed by the wire and the magnetic field lines. We can find the length of the wire ($l$) using trigonometry:
+$$\sin(30^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{0.1}{l}$$
+$$l = \frac{0.1}{\sin(30^\circ)}$$
+
+**Step 2: Calculate the force**
+Substitute the values into the force formula:
+$$F = B \times I \times l \times \sin(\theta)$$
+Since $l = \frac{0.1}{\sin(30^\circ)}$, we substitute this into the equation:
+$$F = 3 \times 4 \times \left( \frac{0.1}{\sin(30^\circ)} \right) \times \sin(30^\circ)$$
+
+The $\sin(30^\circ)$ terms cancel out:
+$$F = 3 \times 4 \times 0.1$$
+$$F = 12 \times 0.1$$
+$$F = 1.2\text{ N}$$
+
+Thus, the magnetic force acting on the wire is **1.2 N**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,19 @@
+To answer this question effectively for an HSC physics exam, you must focus on the definition of "geostationary." A geostationary satellite must appear fixed at a single point in the sky when viewed from the Earth's surface. 
+
+### Answer
+For a satellite to be geostationary, it must maintain a fixed position relative to a point on the Earth's surface. This requires three conditions:
+1. **Orbital Plane (Equator):** The satellite must orbit directly above the equator. If it were in any other orbital plane, its motion relative to the ground would create a "wobbling" or "figure-eight" pattern (analemma) as seen from the surface, rather than staying stationary.
+2. **Direction (West to East):** The satellite must orbit in the same direction as the Earth's rotation (prograde), which is from west to east, to match the angular velocity of the planet.
+3. **Orbital Period (Altitude):** To remain fixed, the orbital period must match the Earth's sidereal rotation period of approximately 24 hours (23 hours, 56 minutes, 4 seconds). Using Kepler’s Third Law, $T^2 \propto r^3$, this specific period corresponds to a precise orbital radius, which results in an altitude of approximately $36,000\text{ km}$ above the Earth's surface.
+
+### How to solve it
+When you see a "3-mark" question like this, think of it as requiring three distinct points of explanation:
+
+*   **Mark 1: The Equator.** Focus on the center of the orbit. A satellite in a circular orbit must have the center of the Earth as the center of its orbit. To appear stationary from the ground, the plane of the orbit must align with the Earth’s rotation axis, meaning it must be equatorial.
+*   **Mark 2: Direction and Period.** Explicitly state that the satellite’s angular velocity must match the Earth’s angular velocity (${\omega_{sat} = \omega_{earth}}$). If they don't move in the same direction, they would be moving towards each other, making a stationary position impossible.
+*   **Mark 3: The Altitude/Radius.** Mention that the period $T$ is fixed by the Earth's rotation ($24\text{ hours}$). Since the period of an orbit is determined by its radius ($r$) via the formula:
+    $$T = 2\pi \sqrt{\frac{r^3}{GM}}$$
+    There is only one specific orbital radius that satisfies $T \approx 24\text{ hours}$. Calculating this leads to the specific altitude of $36,000\text{ km}$.
+
+###QUESTION_TYPE
+Short answer

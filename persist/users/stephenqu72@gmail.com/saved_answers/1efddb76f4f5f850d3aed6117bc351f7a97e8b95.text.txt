@@ -1,0 +1,24 @@
+### Answer
+To prove that $E = -\frac{GMm}{2r}$, we consider an object of mass $m$ in a stable circular orbit of radius $r$ around a central mass $M$.
+
+1. **Equate forces:** For a stable orbit, the gravitational force provides the centripetal force:
+   $$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+2. **Isolate kinetic energy ($K$):** Multiply both sides by $\frac{r}{2}$:
+   $$\frac{GMm}{2r} = \frac{1}{2}mv^2$$
+   Since $K = \frac{1}{2}mv^2$, we have $K = \frac{GMm}{2r}$.
+3. **Substitute into total energy ($E$):** Use the definition $E = K + U$, where the gravitational potential energy $U = -\frac{GMm}{r}$:
+   $$E = \frac{GMm}{2r} + \left( -\frac{GMm}{r} \right)$$
+4. **Simplify:**
+   $$E = \frac{GMm}{2r} - \frac{2GMm}{2r} = -\frac{GMm}{2r}$$
+
+---
+
+### How to solve this
+As an HSC Physics student, the key to this proof is recognizing that the **Total Mechanical Energy** of a satellite in orbit is the sum of its kinetic and potential energy. 
+
+*   **Step 1:** Always start with the condition for a stable orbit: **Gravitational Force = Centripetal Force**. This is the standard "gateway" to orbital mechanics problems.
+*   **Step 2:** Rearrange this equality to isolate the term for kinetic energy, which is $\frac{1}{2}mv^2$. You will find that $K$ is exactly half the magnitude of the potential energy.
+*   **Step 3:** Perform the algebraic substitution. Since $U$ is negative and $K$ is positive, adding them results in a negative total energy, confirming that the satellite is in a "bound state."
+
+###QUESTION_TYPE
+Short answer

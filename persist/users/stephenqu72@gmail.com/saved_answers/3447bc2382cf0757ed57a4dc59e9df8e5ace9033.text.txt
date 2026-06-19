@@ -1,0 +1,38 @@
+To solve this problem, we must apply the principles of static equilibrium. When the oil drop is levitated (at rest), the downward force of gravity must be exactly balanced by the upward electric force.
+
+### (a) Calculation
+
+**1. Identify the forces:**
+*   Gravitational force: $F_g = mg$
+*   Electric force: $F_e = qE$
+*   Electric field between parallel plates: $E = \frac{V}{d}$
+
+**2. Set up the equilibrium equation:**
+Since the drop is stationary, the net force is zero:
+$$F_e = F_g$$
+$$qE = mg$$
+$$q \left( \frac{V}{d} \right) = mg$$
+
+**3. Substitute the given values:**
+*   $m = 5.4 \times 10^{-15} \, \text{kg}$
+*   $g \approx 9.8 \, \text{m/s}^2$
+*   $V = 5000 \, \text{V}$
+*   $d = 3.0 \times 10^{-2} \, \text{m}$
+
+Rearranging for $q$:
+$$q = \frac{mgd}{V}$$
+$$q = \frac{(5.4 \times 10^{-15} \, \text{kg}) \times (9.8 \, \text{m/s}^2) \times (3.0 \times 10^{-2} \, \text{m})}{5000 \, \text{V}}$$
+$$q = \frac{1.5876 \times 10^{-15}}{5000} \approx 3.175 \times 10^{-19} \, \text{C}$$
+
+Rounding to two significant figures (consistent with the provided data):
+**$q \approx 3.2 \times 10^{-19} \, \text{C}$**
+
+---
+
+### (b) Explanation
+Millikan performed this experiment repeatedly on thousands of individual oil drops, varying the charge on each drop (using X-rays to ionize the air). He observed that the calculated charges were always **integer multiples** of a specific base value, approximately $1.6 \times 10^{-19} \, \text{C}$. 
+
+Because the total charge on any drop could only be represented by $q = ne$ (where $n$ is an integer), he concluded that this base value $e$ must represent the fundamental, indivisible unit of charge—the charge of a single electron.
+
+###QUESTION_TYPE
+Calculation question

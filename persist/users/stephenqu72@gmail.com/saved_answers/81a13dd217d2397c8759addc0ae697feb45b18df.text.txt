@@ -1,0 +1,34 @@
+To solve projectile motion problems, we first resolve the initial velocity into its horizontal and vertical components. 
+Given: $v_0 = 50\text{ m/s}$, $\theta = 40^\circ$, $g = 9.8\text{ m/s}^2$, $h_0 = 4.0\text{ m}$.
+
+- $v_{0x} = v_0 \cos(40^\circ) = 50 \times 0.766 = 38.30\text{ m/s}$
+- $v_{0y} = v_0 \sin(40^\circ) = 50 \times 0.643 = 32.14\text{ m/s}$
+
+### a) Determine the maximum height reached above the ground
+At maximum height, the vertical velocity $v_y = 0$. We use the formula $v_y^2 = v_{0y}^2 - 2g \Delta y$:
+$$0 = (32.14)^2 - 2(9.8)(\Delta y)$$
+$$\Delta y = \frac{1032.98}{19.6} \approx 52.70\text{ m}$$
+Total height $H = \Delta y + h_0 = 52.70 + 4.0 = \mathbf{56.70\text{ m}}$
+
+### b) What is the range of the projectile?
+First, find the total time of flight ($t$) using the vertical displacement equation, where final height $y = 0$ and initial height $y_0 = 4$:
+$$y = y_0 + v_{0y}t - \frac{1}{2}gt^2$$
+$$0 = 4 + 32.14t - 4.9t^2$$
+Rearranging into a quadratic equation: $4.9t^2 - 32.14t - 4 = 0$.
+Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$t = \frac{32.14 \pm \sqrt{(-32.14)^2 - 4(4.9)(-4)}}{9.8}$$
+$$t = \frac{32.14 \pm \sqrt{1032.98 + 78.4}}{9.8} = \frac{32.14 \pm 33.33}{9.8}$$
+Taking the positive result, $t \approx 6.68\text{ s}$.
+
+Now, calculate the range using the horizontal velocity:
+$$\text{Range} = v_{0x} \times t = 38.30 \times 6.68 \approx \mathbf{255.84\text{ m}}$$
+
+***
+
+### Explanation of the approach:
+1. **Resolution of Vectors:** Always split the initial velocity into $x$ and $y$ components immediately.
+2. **Maximum Height:** Use the vertical motion equations. Remember that the final vertical velocity is zero at the peak. Don't forget to add the initial launch height ($4\text{ m}$) to the vertical displacement.
+3. **Range:** This is determined by the total time the projectile stays in the air. Solve the quadratic displacement equation for time $t$, then multiply by the constant horizontal velocity $v_x$.
+
+###QUESTION_TYPE
+Calculation question

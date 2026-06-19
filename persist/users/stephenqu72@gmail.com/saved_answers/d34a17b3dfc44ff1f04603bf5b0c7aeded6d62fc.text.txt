@@ -1,0 +1,28 @@
+To solve this problem, we use the formula for Young's double-slit interference pattern for bright fringes (maxima):
+
+$$x_n = \frac{n \lambda L}{d}$$
+
+### 1. Identify the given variables:
+*   Wavelength ($\lambda$) = $500 \text{ nm} = 500 \times 10^{-9} \text{ m}$
+*   Distance from the slits to the screen ($L$) = $2 \text{ m}$
+*   Distance between the slits ($d$) = $0.15 \text{ mm} = 0.15 \times 10^{-3} \text{ m}$
+*   Order of the maxima ($n$) = $2$
+
+### 2. Calculate the distance:
+Substitute the values into the formula:
+$$x_2 = \frac{2 \times (500 \times 10^{-9} \text{ m}) \times (2 \text{ m})}{0.15 \times 10^{-3} \text{ m}}$$
+
+$$x_2 = \frac{2 \times 10^{-6}}{0.15 \times 10^{-3}}$$
+$$x_2 = \frac{2}{0.15} \times 10^{-3} \text{ m}$$
+$$x_2 \approx 13.33 \times 10^{-3} \text{ m}$$
+$$x_2 \approx 13.33 \text{ mm}$$
+
+**Answer:** The distance from the central maxima to the 2nd order maxima is approximately **$13.33 \text{ mm}$**.
+
+### Explanation for Students:
+When approaching these problems, the most critical step is **unit conversion**. Always ensure that all your values are in standard SI units (meters) before plugging them into the equation. In this case, converting nanometers ($10^{-9}$) and millimeters ($10^{-3}$) to meters is essential. 
+
+The formula $x_n = \frac{n \lambda L}{d}$ assumes that the distance to the screen is much larger than the slit separation, which allows us to use the small-angle approximation. Since $2 \text{ m} \gg 0.15 \text{ mm}$, this method is perfectly accurate for your HSC physics exam.
+
+###QUESTION_TYPE
+Calculation question

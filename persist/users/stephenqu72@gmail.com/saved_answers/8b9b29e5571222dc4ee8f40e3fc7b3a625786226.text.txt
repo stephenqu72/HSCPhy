@@ -1,0 +1,46 @@
+### Teacher's Solution and Explanation
+
+#### Part a. Calculation of Thrust Force
+**Explanation:** To find the thrust force, we use Newton’s Second Law: $F_{net} = ma$. The net force is the difference between the upward thrust ($F_{T}$) and the downward weight ($mg$). Therefore, $F_{T} - mg = ma$, which rearranges to $F_{T} = m(a + g)$.
+*   Mass $m = 531 \text{ tonnes} = 531,000 \text{ kg} = 5.31 \times 10^5 \text{ kg}$.
+*   Acceleration $a = 7.20 \text{ m s}^{-2}$.
+*   $g = 9.80 \text{ N kg}^{-1}$.
+
+**Calculation:**
+$$F_{T} = 5.31 \times 10^5 \times (7.20 + 9.80)$$
+$$F_{T} = 5.31 \times 10^5 \times 17.0 = 9,027,000 \text{ N}$$
+In meganewtons (MN), this is **$9.03 \text{ MN}$**.
+**Direction:** Vertically upwards.
+
+---
+
+#### Part b. Calculation of Kinetic Energy
+**Explanation:** The formula for kinetic energy is $E_k = \frac{1}{2}mv^2$. First, convert the speed from $\text{km h}^{-1}$ to $\text{m s}^{-1}$.
+*   $v = 20,000 \text{ km h}^{-1} = \frac{20,000 \times 1000}{3600} \approx 5555.56 \text{ m s}^{-1}$.
+*   $m = 1000 \text{ kg}$.
+
+**Calculation:**
+$$E_k = 0.5 \times 1000 \times (5555.56)^2 \approx 1.543 \times 10^{10} \text{ J}$$
+
+---
+
+#### Part c. Gravitational Potential Energy
+**Explanation:** The gravitational potential energy relative to the surface is the area under the $g$ vs $h$ graph from $0$ to $300 \text{ km}$. Since we are calculating $U_g = \int m g \, dh$, we calculate the area of the trapezoid formed by the line from $0$ to $300 \text{ km}$.
+*   At $h=0$, $g \approx 3.7 \text{ N kg}^{-1}$.
+*   At $h=300$, $g \approx 3.3 \text{ N kg}^{-1}$.
+*   Average $g = \frac{3.7 + 3.3}{2} = 3.5 \text{ N kg}^{-1}$.
+*   Height $h = 300 \text{ km} = 3.0 \times 10^5 \text{ m}$.
+
+**Calculation:**
+$$U_g = m \times (\text{average } g) \times \Delta h$$
+$$U_g = 1000 \times 3.5 \times 3.0 \times 10^5 = 1.05 \times 10^9 \text{ J}$$
+
+---
+
+#### Part d. Energy Transformation
+**Explanation:** As the capsule descends through the atmosphere, the reduction in mechanical energy ($E_k + U_g$) is due to the work done by non-conservative forces, specifically **atmospheric drag (air resistance)**.
+*   **Transformation:** The mechanical energy is primarily transformed into **thermal energy (heat)** due to friction between the capsule and the atmospheric gases.
+*   **Consequence:** This heat results in an increase in the internal energy of both the capsule's heat shield and the surrounding air, often leading to glowing ionization of the air (plasma) around the capsule.
+
+###QUESTION_TYPE
+Calculation question

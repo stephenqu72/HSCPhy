@@ -1,0 +1,37 @@
+To solve this problem, we must analyze the forces acting on side $BC$ of the coil and calculate the resulting torque.
+
+### 1. Identify the given information:
+*   Number of turns ($N$) = 5
+*   Magnetic field strength ($B$) = 0.2 T
+*   Current ($I$) = 10.0 A
+*   Length of side $BC$ ($L$) = 0.08 m
+*   Width of the coil (distance from the axis of rotation to side $BC$) ($r$) = 0.06 m
+
+### 2. Calculate the Force on side $BC$:
+The magnetic force on a current-carrying conductor is given by the formula $F = BIL \sin(\theta)$. Since the current in $BC$ flows vertically and the magnetic field is horizontal, $\theta = 90^\circ$, so $\sin(90^\circ) = 1$.
+For 5 turns, the force on side $BC$ is:
+$$F = N \times B \times I \times L$$
+$$F = 5 \times 0.2 \times 10.0 \times 0.08$$
+$$F = 0.8 \text{ N}$$
+
+### 3. Determine the Direction of the Force:
+Using the **Right-Hand Rule**:
+*   Fingers point in the direction of the magnetic field ($N$ to $S$, so pointing left).
+*   Thumb points in the direction of the current (looking at side $BC$, the current is flowing downwards).
+*   The palm faces into the page.
+Thus, the force on side $BC$ acts **into the page**.
+
+### 4. Calculate the Torque:
+Torque ($\tau$) is the product of the force and the perpendicular distance from the pivot (the axis of rotation, which is the vertical center of the coil).
+$$\tau = F \times r$$
+$$\tau = 0.8 \text{ N} \times 0.06 \text{ m}$$
+$$\tau = 0.048 \text{ Nm}$$
+
+### 5. Determine the Direction of Torque:
+If the force on $BC$ is into the page and the force on $AD$ (which is equal and opposite) is out of the page, the coil will experience a **clockwise torque** (when viewed from above).
+
+**Final Answer:**
+The magnitude of the torque produced by side $BC$ is **0.048 Nm** and the direction of the rotation is **clockwise**.
+
+###QUESTION_TYPE
+Calculation question

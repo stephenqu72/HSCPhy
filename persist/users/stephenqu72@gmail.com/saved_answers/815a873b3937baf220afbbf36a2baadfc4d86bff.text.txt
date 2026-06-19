@@ -1,0 +1,38 @@
+To solve this problem, we use the principles of electromagnetism concerning the force between current-carrying conductors and the magnetic field produced by long straight wires.
+
+### Part (a)
+**1. Identify the formula:** The magnitude of the force per unit length $F/L$ between two parallel wires is given by:
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi d}$$
+Where:
+*   $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$ (permeability of free space)
+*   $I_1 = 1.0 \, \text{A}$
+*   $I_2 = 3.0 \, \text{A}$
+*   $L = 1 \, \text{m}$
+*   $d = 0.15 \, \text{m}$ (converted from $15 \, \text{cm}$)
+
+**2. Calculation:**
+$$F = \frac{(4\pi \times 10^{-7}) \times 1.0 \times 3.0 \times 1}{2 \pi \times 0.15}$$
+$$F = \frac{2 \times 10^{-7} \times 3.0}{0.15} = \frac{6 \times 10^{-7}}{0.15} = 4 \times 10^{-6} \, \text{N}$$
+
+**3. Direction:** According to the right-hand grip rule and the motor effect, currents traveling in the same direction produce an **attractive force**. Therefore, both wires experience a force of $4 \times 10^{-6} \, \text{N}$ directed toward each other.
+
+---
+
+### Part (b)
+**1. Identify the formula:** The magnetic field $B$ produced by a long straight wire at a distance $r$ is:
+$$B = \frac{\mu_0 I}{2 \pi r}$$
+
+**2. Calculation:**
+Midway between the wires, $r = 7.5 \, \text{cm} = 0.075 \, \text{m}$.
+*   Field from Wire 1 ($B_1$):
+    $$B_1 = \frac{2 \times 10^{-7} \times 1.0}{0.075} \approx 2.67 \times 10^{-6} \, \text{T} \, (\text{directed into the page})$$
+*   Field from Wire 2 ($B_2$):
+    $$B_2 = \frac{2 \times 10^{-7} \times 3.0}{0.075} \approx 8.00 \times 10^{-6} \, \text{T} \, (\text{directed out of the page})$$
+
+**3. Result:**
+Since the fields are in opposite directions, we subtract them:
+$$B_{net} = B_2 - B_1 = 8.00 \times 10^{-6} - 2.67 \times 10^{-6} = 5.33 \times 10^{-6} \, \text{T}$$
+The direction is the same as the stronger field (Wire 2), which is **out of the page**.
+
+###QUESTION_TYPE
+Calculation question

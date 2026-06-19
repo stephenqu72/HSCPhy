@@ -1,0 +1,32 @@
+To solve this problem, we need to calculate the work done to move a proton in a uniform electric field.
+
+### Step-by-Step Explanation
+
+**1. Identify the given values:**
+*   Potential difference between plates ($V_{total}$) = $240\text{ V}$
+*   Distance between plates ($d_{total}$) = $102\text{ cm} = 1.02\text{ m}$
+*   Distance moved by the proton ($\Delta d$) = $0.47\text{ m}$
+*   Charge of a proton ($q$) = $1.602 \times 10^{-19}\text{ C}$
+
+**2. Calculate the Electric Field strength ($E$):**
+In a parallel plate arrangement, the electric field is uniform and given by:
+$$E = \frac{V_{total}}{d_{total}}$$
+$$E = \frac{240\text{ V}}{1.02\text{ m}} \approx 235.29\text{ V/m}$$
+
+**3. Calculate the potential difference ($\Delta V$) over the distance moved:**
+The potential difference experienced by the proton over the distance $\Delta d$ is:
+$$\Delta V = E \times \Delta d$$
+$$\Delta V = 235.29\text{ V/m} \times 0.47\text{ m} \approx 110.59\text{ V}$$
+
+**4. Calculate the work done ($W$):**
+The work done on a charge moving through a potential difference is given by:
+$$W = q \times \Delta V$$
+$$W = (1.602 \times 10^{-19}\text{ C}) \times 110.59\text{ V}$$
+$$W \approx 1.77 \times 10^{-17}\text{ J}$$
+
+Comparing this result to the given options, it matches option (C).
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

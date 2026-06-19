@@ -1,0 +1,23 @@
+To solve this HSC Physics problem, we need to analyze the energy conversion in the electric field and the circular motion in the magnetic field.
+
+### Part (a): Compare the work done on $q_1$ and $q_2$.
+**Answer:** The work done on $q_1$ and $q_2$ is equal.
+
+**Explanation:** The work done on a charged particle accelerated from rest between two parallel plates is given by $W = qV$. Since both particles have the same charge ($q_1 = q_2 = q$) and the potential difference (voltage) $V$ between the plates is the same in both scenarios, the work done on both particles is identical. The physical size of the apparatus does not affect the work done, provided the voltage remains constant.
+
+---
+
+### Part (b): Compare the vertical distances travelled by $q_1$ and $q_2$ in the magnetic field.
+**Answer:** The vertical distance travelled by $q_2$ will be $s/2$.
+
+**Explanation:**
+1. **Initial Velocity ($v$):** From the work-energy theorem, the kinetic energy gained is equal to the work done: $\frac{1}{2}mv^2 = qV$. Thus, $v = \sqrt{\frac{2qV}{m}}$. Since $q$, $V$, and $m$ are identical for both, both particles enter the magnetic field with the same velocity $v$.
+2. **Radius of Curvature ($r$):** Inside the magnetic field, the magnetic force acts as the centripetal force: $qvB = \frac{mv^2}{r}$, which simplifies to $r = \frac{mv}{qB}$. Since $m$, $v$, $q$, and $B$ are identical in both cases, the radius of curvature $r$ is the same for both particles.
+3. **Geometry:** The path of the particle is a circular arc. For small deflections (where $s \ll r$), the vertical displacement $s$ can be approximated. Using the geometry of the circular path where the particle travels a horizontal distance $x$ (which is $d$ for the first case and $2d$ for the second), and the sagitta approximation $s \approx \frac{x^2}{2r}$:
+   - For $q_1$: $s_1 \approx \frac{d^2}{2r}$
+   - For $q_2$: $s_2 \approx \frac{(2d)^2}{2r} = \frac{4d^2}{2r} = 4s_1$.
+   *Correction:* Wait, looking at the diagram, the particles are exiting the field. If $r$ is constant, and $s$ is the vertical shift after moving a horizontal distance $d$ vs $2d$:
+   Using the exact relationship $s = r - \sqrt{r^2 - x^2}$, for a fixed $r$ and $x$ increasing by a factor of 2, the particle $q_2$ undergoes a much larger deflection. However, if the question asks for the relative distance, clearly $s_2 > s_1$. Specifically, as $s \approx \frac{x^2}{2r}$, doubling the distance $d$ results in 4 times the vertical displacement. Thus, $s_2 = 4s$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,14 @@
+### Answer
+The total energy of a satellite in orbit is $E_{total} = E_k + E_p = -\frac{GMm}{2r}$. This is negative because the satellite is "bound" to the Earth. The work required to lift the satellite from the surface ($r_e$) to orbit ($r$) is the change in total energy: $W = E_{final} - E_{initial}$.
+
+This does not violate the law of conservation of energy because the energy expended by the launch vehicle (the rocket) is significantly greater than the final total energy of the satellite in orbit. Much of the chemical energy stored in the rocket's fuel is dissipated into the surroundings as thermal energy (heat), sound, and the kinetic energy of the exhaust gases. Therefore, while the satellite only gains a specific amount of mechanical energy, the total energy of the *system* (rocket + exhaust + satellite) remains constant, accounting for the energy lost to the environment.
+
+### Explanation
+To solve this, you need to apply the principle of energy transformation:
+
+1.  **Define Total Orbital Energy:** Explain that the total energy ($E_t$) of an orbiting satellite is the sum of its kinetic and gravitational potential energy, resulting in a negative value ($E_t = -\frac{GMm}{2r}$). 
+2.  **Account for Energy Input:** Identify that the "work done" refers to the energy provided by the rocket. Crucially, recognize that the rocket is not 100% efficient at converting chemical potential energy into the satellite's mechanical energy.
+3.  **Address Conservation:** Explain that the conservation of energy law applies to the *entire closed system*. The input energy from the fuel is split: some becomes the mechanical energy of the satellite, while a large portion is converted into non-mechanical forms like heat and sound due to air resistance, combustion, and the ejection of propellants. Since energy is not "lost" but merely converted into these other forms, the conservation of energy is strictly upheld.
+
+###QUESTION_TYPE
+Short answer

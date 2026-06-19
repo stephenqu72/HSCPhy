@@ -1,0 +1,33 @@
+To calculate the work done on an electron moving in a uniform electric field, we follow these steps:
+
+### 1. Identify the given information
+*   Voltage between plates ($V_{total}$): $150\text{ V}$
+*   Total distance between plates ($d_{total}$): $10\text{ cm} = 0.1\text{ m}$
+*   Displacement of the electron ($d$): $3\text{ mm} = 0.003\text{ m}$
+*   Charge of an electron ($q$): $1.6 \times 10^{-19}\text{ C}$
+
+### 2. Determine the electric field strength ($E$)
+The electric field between parallel plates is uniform and is given by the formula:
+$$E = \frac{V_{total}}{d_{total}}$$
+$$E = \frac{150\text{ V}}{0.1\text{ m}} = 1500\text{ V/m}$$
+
+### 3. Calculate the force ($F$) on the electron
+The force experienced by a charge in an electric field is:
+$$F = qE$$
+$$F = (1.6 \times 10^{-19}\text{ C}) \times (1500\text{ V/m}) = 2.4 \times 10^{-16}\text{ N}$$
+
+### 4. Calculate the work done ($W$)
+Work done is defined as force multiplied by displacement:
+$$W = F \times d$$
+$$W = (2.4 \times 10^{-16}\text{ N}) \times (0.003\text{ m})$$
+$$W = 7.2 \times 10^{-19}\text{ J}$$
+
+**Alternative Method:**
+You can also calculate this using the potential difference ($\Delta V$) over the distance moved:
+$$\Delta V = E \times d = 1500 \times 0.003 = 4.5\text{ V}$$
+$$W = q \Delta V = (1.6 \times 10^{-19}) \times 4.5 = 7.2 \times 10^{-19}\text{ J}$$
+
+Comparing this result to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

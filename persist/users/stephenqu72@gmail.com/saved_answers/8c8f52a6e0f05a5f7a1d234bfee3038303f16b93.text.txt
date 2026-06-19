@@ -1,0 +1,28 @@
+To solve this problem, we need to analyze two components: the nature of the charge and the work done by the electric field.
+
+### 1. Determining the Sign of the Charge
+The particle enters between two parallel plates. The top plate is at $120\text{ V}$ and the bottom plate is at $50\text{ V}$. This creates an electric field pointing from the higher potential to the lower potential (downwards).
+
+The particle deflects downwards toward the bottom plate ($50\text{ V}$). Since a positive charge naturally experiences a force in the direction of the electric field (from high to low potential), a positive charge would be attracted towards the $50\text{ V}$ plate. Therefore, the particle must be **Positive**.
+
+### 2. Calculating the Work Done
+The work done by an electric field on a charge moving between two points is given by the formula:
+$$W = q \Delta V$$
+where:
+- $q$ is the magnitude of the charge: $2.0 \times 10^{-4}\text{ C}$
+- $\Delta V$ is the potential difference between the starting position and the ending position.
+
+The particle starts midway between the plates. Since the plates are separated by $30\text{ cm} + 30\text{ cm} = 60\text{ cm}$, and the potential difference is $120\text{ V} - 50\text{ V} = 70\text{ V}$, we can determine the potential at the midpoint. Using the linear distribution of potential, the midpoint potential $V_{mid}$ is:
+$$V_{mid} = \frac{120\text{ V} + 50\text{ V}}{2} = 85\text{ V}$$
+
+The particle moves from the midpoint ($85\text{ V}$) to the bottom plate ($50\text{ V}$). The change in potential is:
+$$\Delta V = |85\text{ V} - 50\text{ V}| = 35\text{ V}$$
+
+Now, calculate the work done:
+$$W = (2.0 \times 10^{-4}\text{ C}) \times (35\text{ V})$$
+$$W = 7.0 \times 10^{-3}\text{ J}$$
+
+Comparing this to the given options, the charge is **Positive** and the work done is $7.0 \times 10^{-3}\text{ J}$. This corresponds to option **A**.
+
+###QUESTION_TYPE
+Multiple choice

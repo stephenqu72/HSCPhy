@@ -1,0 +1,30 @@
+To solve this problem, we need to determine the charge of the nucleus ($q$) to find the number of protons ($Z$).
+
+### 1. Find the mass ($m$) of the nucleus
+We are given the kinetic energy $E_k = 1.00 \times 10^{-24} \text{ J}$ and velocity $v = 10 \text{ m s}^{-1}$. Using the formula:
+$$E_k = \frac{1}{2}mv^2$$
+$$1.00 \times 10^{-24} = \frac{1}{2} \cdot m \cdot (10)^2$$
+$$1.00 \times 10^{-24} = 50m$$
+$$m = \frac{1.00 \times 10^{-24}}{50} = 2.00 \times 10^{-26} \text{ kg}$$
+
+### 2. Find the charge ($q$) of the nucleus
+The force experienced by the nucleus in an electric field $E$ is given by $F = qE$, and from Newton’s second law, $F = ma$. Therefore:
+$$qE = ma$$
+Given $E = 1.00 \text{ V m}^{-1}$ and $a = 4.79 \times 10^7 \text{ m s}^{-2}$:
+$$q \cdot (1.00) = (2.00 \times 10^{-26}) \cdot (4.79 \times 10^7)$$
+$$q = 9.58 \times 10^{-19} \text{ C}$$
+
+### 3. Determine the number of protons ($Z$)
+The charge of one proton is $e = 1.602 \times 10^{-19} \text{ C}$. The number of protons is:
+$$Z = \frac{q}{e} = \frac{9.58 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 5.98$$
+Rounding to the nearest whole number, $Z = 6$.
+
+Comparing this to the given options, the answer is **(A)**.
+
+### Explanation Summary:
+1. **Kinetic Energy formula:** Used to derive the mass of the particle from its velocity and energy.
+2. **Newton's Second Law & Electric Force:** Equated $F = ma$ with $F = qE$ to find the total charge of the nucleus.
+3. **Quantization of Charge:** Divided the total charge by the elementary charge $e$ to find the atomic number $Z$.
+
+###QUESTION_TYPE
+Multiple choice

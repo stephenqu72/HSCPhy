@@ -1,0 +1,31 @@
+To find the angular velocity of the dog, we follow these steps:
+
+### 1. Identify the given information
+*   Radius of the circular path ($r$) = $2.0\text{ m}$
+*   Arc length distance travelled ($s$) = $8.0\text{ m}$
+*   Time taken ($t$) = $2.0\text{ s}$
+
+### 2. Determine the linear velocity
+First, calculate the linear velocity ($v$) of the dog using the formula $v = \frac{s}{t}$:
+$$v = \frac{8.0\text{ m}}{2.0\text{ s}} = 4.0\text{ m s}^{-1}$$
+
+### 3. Calculate the angular velocity
+The relationship between linear velocity ($v$) and angular velocity ($\omega$) is given by:
+$$v = r\omega$$
+
+Rearranging the formula to solve for angular velocity ($\omega$):
+$$\omega = \frac{v}{r}$$
+
+Substitute the known values:
+$$\omega = \frac{4.0\text{ m s}^{-1}}{2.0\text{ m}}$$
+$$\omega = 2.0\text{ rad s}^{-1}$$
+
+Alternatively, you can calculate the angle swept ($\theta$) in radians first:
+$$\theta = \frac{s}{r} = \frac{8.0\text{ m}}{2.0\text{ m}} = 4.0\text{ rad}$$
+Then, use $\omega = \frac{\theta}{t}$:
+$$\omega = \frac{4.0\text{ rad}}{2.0\text{ s}} = 2.0\text{ rad s}^{-1}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

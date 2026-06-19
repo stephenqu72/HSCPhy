@@ -1,0 +1,27 @@
+To determine when a current-carrying conductor experiences no magnetic force, we refer to the formula for the magnetic force $F$ acting on a current-carrying wire of length $L$ in a uniform magnetic field $B$:
+
+$$F = BIL \sin(\theta)$$
+
+In this formula:
+*   $B$ is the magnetic field strength.
+*   $I$ is the current.
+*   $L$ is the length of the conductor within the field.
+*   $\theta$ is the angle between the direction of the current and the direction of the magnetic field.
+
+**Analysis:**
+For the force $F$ to be zero, the term $\sin(\theta)$ must be zero. This occurs when $\theta = 0^\circ$ or $\theta = 180^\circ$. Geometrically, this means the conductor must be aligned **parallel** to the magnetic field lines. 
+
+*   Option A and B involve changing or keeping current constant, which does not nullify the force as long as $I \neq 0$ and $\theta \neq 0^\circ$.
+*   Option D results in $\sin(90^\circ) = 1$, which gives the *maximum* possible force, not zero.
+*   Option C results in $\sin(0^\circ) = 0$, leading to zero force.
+
+**Correct Answer:**
+The correct choice is **C**.
+
+**How to solve it:**
+1.  Recall the mathematical relationship for the motor effect: $F = BIL \sin(\theta)$.
+2.  Understand that the force depends on the sine of the angle between the conductor and the magnetic field lines.
+3.  Identify the condition for the sine function to equal zero ($\theta = 0^\circ$ or $180^\circ$), which represents a parallel orientation.
+
+###QUESTION_TYPE
+Multiple choice

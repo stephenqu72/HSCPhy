@@ -1,0 +1,38 @@
+This question covers core HSC Physics topics regarding the motion of charged particles in magnetic fields. Here is the step-by-step breakdown:
+
+### (a) Direction of Current
+To produce a magnetic field that deflects electrons into an anticlockwise circle (as viewed from the side), we apply the right-hand grip rule. Since the magnetic field $B$ must be directed "out of" the page for an electron moving to the right to be deflected upwards (via the right-hand rule for positive charges, noting electrons are negative), the current in the front coil must flow in an **anticlockwise direction**. Consequently, the back coil must also have current flowing in an **anticlockwise direction** to maintain a uniform magnetic field between them.
+
+---
+
+### (b) Method for $q_e/m_e$
+**Method:**
+1. Turn on the power supply to the electron gun and the coils.
+2. Adjust the accelerating voltage ($V$) to a specific value and the magnetic field ($B$) until the electron beam follows a clear circular path of a known radius ($r$).
+3. Record $V$, $r$, and the current $I$ flowing through the coils. Use the Helmholtz coil formula $B = \frac{8\mu_0NI}{R\sqrt{125}}$ (where $N$ is turns, $R$ is coil radius) to determine $B$.
+4. Repeat for different values of $V$ or $I$ to collect a range of data. Plot a graph to find the slope, which relates to $q_e/m_e$.
+
+**Accuracy and Reliability:**
+* **Accuracy:** Use a parallax-reduction technique (aligning the ruler with the reflection of the beam in the glass) to measure $r$ precisely. Ensure the coils are perfectly parallel.
+* **Reliability:** Repeat measurements for each setting and calculate an average.
+* **Safety:** The apparatus uses high voltage; ensure all connections are insulated. Do not touch the glass sphere while in operation as it may become hot.
+
+---
+
+### (c) Derivation
+The electron gains kinetic energy from the accelerating voltage $V$:
+$$q_eV = \frac{1}{2}m_ev^2 \quad \Rightarrow \quad v^2 = \frac{2q_eV}{m_e} \quad \text{--- (1)}$$
+
+The magnetic force provides the centripetal force for circular motion:
+$$F_B = F_c \quad \Rightarrow \quad q_evB = \frac{m_ev^2}{r}$$
+Rearranging for $v$:
+$$v = \frac{q_eBr}{m_e} \quad \Rightarrow \quad v^2 = \frac{q_e^2B^2r^2}{m_e^2} \quad \text{--- (2)}$$
+
+Equating (1) and (2):
+$$\frac{2q_eV}{m_e} = \frac{q_e^2B^2r^2}{m_e^2}$$
+
+Solving for $\frac{q_e}{m_e}$:
+$$\frac{q_e}{m_e} = \frac{2V}{B^2r^2}$$
+
+###QUESTION_TYPE
+Experimental questions

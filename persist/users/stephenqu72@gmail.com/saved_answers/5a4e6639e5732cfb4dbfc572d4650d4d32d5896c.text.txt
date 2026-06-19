@@ -1,0 +1,23 @@
+### Answer
+
+**(a)**
+Applying the right-hand motor rule (or Fleming’s Left-Hand Rule) to the current-carrying coil in the magnetic field:
+*   On the side of the coil closest to the North pole (side $CD$), the current is flowing such that the magnetic force acts in a direction that causes the coil to rotate.
+*   Specifically, using the right-hand grip rule/motor effect, the force on side $CD$ acts upwards (out of the page) and the force on side $AB$ acts downwards (into the page).
+*   This creates a clockwise torque as viewed from the top. Consequently, the pointer will move to the **right** (towards the '+' sign on the scale).
+
+**(b)**
+The student’s suggestion is **highly effective**.
+*   When the terminals are shorted together (connected by a low-resistance wire), any movement of the coil causes it to cut through the magnetic field lines.
+*   According to Faraday’s Law and Lenz’s Law, this movement induces an electromotive force (EMF) and a subsequent current in the coil.
+*   The direction of this induced current is such that it creates a magnetic force opposing the original motion (Lenz’s Law).
+*   This results in **electromagnetic damping**, which significantly restricts the free rotation of the coil, thereby protecting the delicate pivot and suspension system from damage during transport.
+
+---
+
+### How to solve this
+1.  **Part (a):** Identify this as an application of the **Motor Effect**. Recall that a current-carrying conductor in a magnetic field experiences a force $F = BIL \sin(\theta)$. By applying Fleming’s Left-Hand Rule (or the right-hand palm rule) to the sides of the coil $AB$ and $CD$, you determine the direction of force on each side. Since the forces act in opposite directions on opposite sides, a torque is produced, driving the pointer.
+2.  **Part (b):** Connect the concept of "moving coil" to electromagnetic induction. Recognize that a closed circuit (shorted terminals) allows current to flow if the coil moves in a magnetic field. Because the induced current generates its own magnetic field that opposes the change (Lenz's Law), it acts as a "braking" force. In HSC Physics, this is a classic application of **electromagnetic damping**.
+
+###QUESTION_TYPE
+Short answer

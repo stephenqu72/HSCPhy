@@ -1,0 +1,38 @@
+To solve this problem, we use Newton’s Law of Universal Gravitation:
+
+$$F = \frac{GMm}{r^2}$$
+
+Where:
+*   $F = 1.09 \times 10^5 \text{ N}$ (gravitational force)
+*   $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$ (gravitational constant)
+*   $M = 8.5 \times 10^{24} \text{ kg}$ (mass of the planet)
+*   $m = 1 \times 10^4 \text{ kg}$ (mass of the rocket)
+*   $r$ is the distance from the center of the planet to the rocket.
+
+### Step 1: Solve for $r$
+Rearrange the formula to solve for $r$:
+$$r^2 = \frac{GMm}{F}$$
+$$r = \sqrt{\frac{GMm}{F}}$$
+
+Substitute the values:
+$$r = \sqrt{\frac{(6.67 \times 10^{-11}) \times (8.5 \times 10^{24}) \times (1 \times 10^4)}{1.09 \times 10^5}}$$
+$$r = \sqrt{\frac{5.6695 \times 10^{18}}{1.09 \times 10^5}}$$
+$$r = \sqrt{5.201 \times 10^{13}} \approx 7.212 \times 10^6 \text{ m}$$
+
+### Step 2: Convert to km
+Since the radius is given in km, convert $r$ to km:
+$$r \approx 7212 \text{ km}$$
+
+### Step 3: Find the altitude
+The distance $r$ is the sum of the planet's radius ($R$) and the altitude ($h$):
+$$r = R + h$$
+$$7212 \text{ km} = 7200 \text{ km} + h$$
+$$h = 7212 \text{ km} - 7200 \text{ km} = 12 \text{ km}$$
+
+**Correct Answer:** **(A)**
+
+### Explanation
+The most common mistake in these problems is confusing the distance from the center of the planet ($r$) with the altitude ($h$). Always remember that $r = R_{planet} + \text{altitude}$. Once you calculate the total orbital radius, subtract the planet's radius to find how high the rocket is above the surface.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,38 @@
+To solve this problem, we need to apply the formula for centripetal force and use the given information about the two rides.
+
+### 1. Identify the formula
+The centripetal force ($F_c$) acting on an object in uniform circular motion is given by:
+$$F_c = mr\omega^2$$
+where:
+- $m$ is the mass of the person.
+- $r$ is the radius (distance from the pivot point).
+- $\omega$ is the angular velocity.
+
+Since the angular velocity is related to the period ($T$) by $\omega = \frac{2\pi}{T}$, and both rides have the **same period**, the angular velocity $\omega$ is the same for both Ride A and Ride B.
+
+### 2. Set up the ratio
+We are asked for the ratio $F_A : F_B$. Using the formula $F = mr\omega^2$:
+$$\frac{F_A}{F_B} = \frac{m_A r_A \omega^2}{m_B r_B \omega^2}$$
+
+Since $\omega^2$ is common to both, it cancels out:
+$$\frac{F_A}{F_B} = \frac{m_A r_A}{m_B r_B}$$
+
+### 3. Substitute the values
+Given:
+- For Ride A: $m_A = 50\text{ kg}$, $r_A = 15\text{ m}$
+- For Ride B: $m_B = 100\text{ kg}$, $r_B = 22.5\text{ m}$
+
+Substitute these into the ratio:
+$$\frac{F_A}{F_B} = \frac{50 \times 15}{100 \times 22.5}$$
+
+Simplify the calculation:
+$$\frac{F_A}{F_B} = \frac{750}{2250}$$
+Divide both numerator and denominator by 750:
+$$\frac{F_A}{F_B} = \frac{1}{3}$$
+
+The ratio $F_A : F_B$ is $1 : 3$.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

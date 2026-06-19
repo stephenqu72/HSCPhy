@@ -1,0 +1,19 @@
+To answer this question, we must look at Newton's Law of Universal Gravitation, which states that the gravitational force $F$ between two masses $m_1$ and $m_2$ separated by a distance $r$ is given by the formula:
+
+$$F = \frac{G m_1 m_2}{r^2}$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship:** The formula shows that $F$ is inversely proportional to the square of the distance, $r$. Mathematically, this is written as $F \propto \frac{1}{r^2}$.
+2.  **Analyze the graphs:**
+    *   Graph A ($F$ vs $r$): This represents a curve (inverse-square law), not a straight line.
+    *   Graph B ($F$ vs $\frac{1}{r}$): This would result in a curve, as $F \propto (\frac{1}{r})^2$.
+    *   Graph C ($F$ vs $r^2$): This would represent an inverse relationship ($F \propto \frac{1}{r^2}$), resulting in a hyperbola-like curve approaching zero.
+    *   Graph D ($F$ vs $\frac{1}{r^2}$): Since $F$ is directly proportional to $\frac{1}{r^2}$, if we let $x = \frac{1}{r^2}$, the equation becomes $F = (G m_1 m_2)x$. This is the equation of a straight line passing through the origin ($y = mx$), where the gradient is $G m_1 m_2$.
+
+3.  **Conclusion:** Graph D correctly depicts the linear relationship between the gravitational force $F$ and the term $\frac{1}{r^2}$.
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

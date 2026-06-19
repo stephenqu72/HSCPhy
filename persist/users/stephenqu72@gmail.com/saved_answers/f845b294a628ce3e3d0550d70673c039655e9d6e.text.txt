@@ -1,0 +1,41 @@
+### Answer and Explanation
+
+#### Part (a): Free Body Diagram
+To represent a vehicle on a frictionless banked turn, you must draw two vectors originating from the center of the box:
+1.  **Weight ($mg$):** A vertical arrow pointing straight down.
+2.  **Normal Force ($F_N$):** An arrow pointing perpendicular (at $90^{\circ}$) to the surface of the banked road.
+
+Ensure these are clearly labelled. The vertical component of $F_N$ will balance $mg$, and the horizontal component will provide the centripetal force.
+
+---
+
+#### Part (b): Calculation and Assessment
+
+**1. Identify Given Data:**
+*   Radius $r = 80.0\text{ m}$
+*   Angle $\theta = 23^{\circ}$
+*   Acceleration due to gravity $g \approx 9.8\text{ m/s}^2$
+*   Government limit $v_{limit} = 55\text{ km/h} = \frac{55}{3.6} \approx 15.28\text{ m/s}$
+
+**2. Derivation:**
+For a frictionless banked turn, the horizontal component of the normal force provides the centripetal force:
+$$F_{N} \sin(\theta) = \frac{mv^2}{r}$$
+The vertical component balances the weight:
+$$F_{N} \cos(\theta) = mg$$
+Dividing the two equations:
+$$\frac{\sin(\theta)}{\cos(\theta)} = \frac{v^2}{rg} \implies \tan(\theta) = \frac{v^2}{rg}$$
+Rearranging for $v$:
+$$v = \sqrt{rg \tan(\theta)}$$
+
+**3. Calculation:**
+$$v = \sqrt{80.0 \times 9.8 \times \tan(23^{\circ})}$$
+$$v = \sqrt{784 \times 0.42447}$$
+$$v = \sqrt{332.78} \approx 18.24\text{ m/s}$$
+Convert back to $\text{km/h}$:
+$$18.24 \times 3.6 \approx 65.7\text{ km/h}$$
+
+**4. Assessment:**
+The ideal speed for this curve is approximately $66\text{ km/h}$. Since the government regulation states that motorists will travel at *no more than* $55\text{ km/h}$, and the design speed ($66\text{ km/h}$) is significantly higher than the allowed limit, the design is **inappropriate** (or potentially dangerous). A car traveling at $55\text{ km/h}$ would require inward friction to prevent sliding down the slope, whereas the design is intended to be frictionless at $66\text{ km/h}$.
+
+###QUESTION_TYPE
+Calculation question

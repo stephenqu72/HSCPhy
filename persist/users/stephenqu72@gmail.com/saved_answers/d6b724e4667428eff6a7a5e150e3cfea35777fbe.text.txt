@@ -1,0 +1,23 @@
+To solve this problem, we must understand the motion of a charged particle moving perpendicular to a uniform magnetic field.
+
+### Explanation
+When a charged particle of charge $q$ and mass $m$ moves with velocity $v$ into a magnetic field $B$ (perpendicular to its velocity), it experiences a magnetic force that acts as a centripetal force, causing it to travel in a circular path. The force is given by $F = qvB$, and the centripetal force is $F = \frac{mv^2}{r}$.
+
+Equating these two expressions:
+$$qvB = \frac{mv^2}{r}$$
+
+We can solve for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+From this formula, we can see that the radius $r$ is **inversely proportional** to the magnetic field strength $B$ ($r \propto \frac{1}{B}$), assuming mass $m$, velocity $v$, and charge $q$ remain constant.
+
+If the magnitude of the magnetic field is doubled ($B_{new} = 2B$), the new radius $r_{new}$ will be:
+$$r_{new} = \frac{mv}{q(2B)}$$
+$$r_{new} = \frac{1}{2} \times \left( \frac{mv}{qB} \right)$$
+$$r_{new} = \frac{r}{2}$$
+
+### Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

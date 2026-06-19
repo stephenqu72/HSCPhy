@@ -1,0 +1,36 @@
+To solve this problem, we need to calculate the work done on a proton as it moves through a uniform electric field created by two parallel plates.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Potential difference between plates ($V_{total}$): $240\text{ V}$
+*   Distance between plates ($d_{total}$): $102\text{ cm} = 1.02\text{ m}$
+*   Distance moved by the proton ($\Delta d$): $0.47\text{ m}$
+*   Charge of a proton ($q$): $1.602 \times 10^{-19}\text{ C}$
+
+**2. Calculate the Electric Field strength ($E$):**
+In a uniform electric field between parallel plates, the field strength is defined as:
+$$E = \frac{V_{total}}{d_{total}}$$
+$$E = \frac{240\text{ V}}{1.02\text{ m}} \approx 235.29\text{ V/m}$$
+
+**3. Calculate the Potential Difference ($\Delta V$) over the distance moved:**
+The change in potential experienced by the proton moving a distance $\Delta d$ is:
+$$\Delta V = E \times \Delta d$$
+$$\Delta V = 235.29 \times 0.47 \approx 110.59\text{ V}$$
+
+**4. Calculate the Work Done ($W$):**
+The work done to move a charge $q$ through a potential difference $\Delta V$ is given by $W = q \Delta V$:
+$$W = (1.602 \times 10^{-19}\text{ C}) \times (110.59\text{ V})$$
+$$W \approx 1.7716 \times 10^{-17}\text{ J}$$
+
+Comparing this result to the given options, it matches **(C)**.
+
+***
+
+### Explanation:
+*   First, we determine the **Electric Field intensity** ($E$) created by the capacitor plates using the relationship between voltage and distance.
+*   Next, we find the **potential difference** across the specific distance of $0.47\text{ m}$ that the proton traveled.
+*   Finally, we apply the definition of electric potential energy, where **Work** equals the charge multiplied by the potential difference. Note that option (B) is a distractor as it represents the electric field strength ($E$), not the work done.
+
+###QUESTION_TYPE
+Multiple choice

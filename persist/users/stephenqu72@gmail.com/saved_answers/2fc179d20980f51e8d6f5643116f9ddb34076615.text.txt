@@ -1,0 +1,27 @@
+To determine the charge of the particles, we use the right-hand grip rule to find the magnetic field produced by the current and the right-hand rule (or left-hand rule) for the magnetic force on a moving charge.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the Magnetic Field ($B$):**
+    Using the right-hand grip rule, point your right thumb in the direction of the current (to the left). Your fingers curl around the wire. 
+    - Above the wire, the magnetic field points **out of the page**.
+    - Below the wire, the magnetic field points **into the page**.
+
+2.  **Analyze Particle A (Above the wire):**
+    - The magnetic field is **out of the page**.
+    - The particle is moving from right to left (based on the curve). Let’s assume the velocity vector $v$ points to the left.
+    - Looking at the trajectory, the particle is deflected *upwards*, away from the wire.
+    - If it were a positive charge, the right-hand rule (fingers for $v$ to the left, curl towards $B$ out of the page) would result in a force *downwards*. Since the actual force is *upwards*, the charge must be opposite. Therefore, **Particle A is negatively charged**.
+
+3.  **Analyze Particle B (Below the wire):**
+    - The magnetic field is **into the page**.
+    - The particle is moving from left to right.
+    - Looking at the trajectory, the particle is deflected *downwards*, away from the wire.
+    - If it were a positive charge, the right-hand rule (fingers for $v$ to the right, curl towards $B$ into the page) would result in a force *upwards*. Since the actual force is *downwards*, the charge must be opposite. Therefore, **Particle B is negatively charged**.
+
+Alternatively, you can simplify this: Both particles are deflected *away* from the wire. Because the magnetic force $F = qvB\sin\theta$ acts to push them away from the source of the field regardless of their velocity direction relative to the field orientation, and both follow identical "repulsive" behaviors relative to the wire, they must share the same polarity. Both are negative.
+
+The correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

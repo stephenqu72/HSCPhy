@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of electrostatics and kinematics. First, let's identify our constants:
+- Potential difference ($V$) = $200\text{ V}$
+- Distance between plates ($d$) = $1.00\text{ cm} = 0.01\text{ m}$
+- Charge of an electron ($q$) = $1.602 \times 10^{-19}\text{ C}$
+- Mass of an electron ($m$) = $9.11 \times 10^{-31}\text{ kg}$
+
+### (a) Calculate the net force acting on the electron
+
+1. **Calculate the Electric Field ($E$):**
+   The electric field between parallel plates is uniform and given by:
+   $$E = \frac{V}{d} = \frac{200\text{ V}}{0.01\text{ m}} = 2.00 \times 10^4\text{ V/m}$$
+
+2. **Calculate the Electric Force ($F_e$):**
+   The force on the electron is $F = qE$:
+   $$F = (1.602 \times 10^{-19}\text{ C}) \times (2.00 \times 10^4\text{ V/m}) = 3.20 \times 10^{-15}\text{ N}$$
+   *(Note: The gravitational force is negligible ($F_g \approx 9 \times 10^{-30}\text{ N}$), so the net force is effectively the electric force.)*
+
+---
+
+### (b) Determine how long it takes for the electron to touch a plate
+
+1. **Calculate the acceleration ($a$):**
+   Using Newton's Second Law ($F = ma$):
+   $$a = \frac{F}{m} = \frac{3.20 \times 10^{-15}\text{ N}}{9.11 \times 10^{-31}\text{ kg}} \approx 3.51 \times 10^{15}\text{ m/s}^2$$
+
+2. **Calculate the time ($t$):**
+   The electron is placed exactly in the middle, so the distance to the plate ($s$) is half of the plate separation:
+   $$s = \frac{0.01\text{ m}}{2} = 0.005\text{ m}$$
+   Using the kinematic equation $s = ut + \frac{1}{2}at^2$, where $u = 0$:
+   $$0.005 = 0 + \frac{1}{2}(3.51 \times 10^{15})t^2$$
+   $$t^2 = \frac{0.005 \times 2}{3.51 \times 10^{15}} \approx 2.85 \times 10^{-18}$$
+   $$t = \sqrt{2.85 \times 10^{-18}} \approx 1.69 \times 10^{-9}\text{ seconds (or 1.69 ns)}$$
+
+###QUESTION_TYPE
+Calculation question

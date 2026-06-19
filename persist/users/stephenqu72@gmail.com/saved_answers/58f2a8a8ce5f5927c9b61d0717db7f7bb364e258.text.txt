@@ -1,0 +1,34 @@
+To solve this problem, we must treat the motion of the proton as a projectile motion problem, where the electric field acts as the cause of a constant vertical acceleration, analogous to gravity.
+
+### Part (a)
+
+**1. Identify the given values:**
+*   Electric field strength, $E = 2.7 \times 10^4\text{ N C}^{-1}$
+*   Horizontal length of plates, $L = 4.9 \times 10^{-2}\text{ m}$
+*   Total distance between plates = $8.4 \times 10^{-3}\text{ m}$
+*   The proton enters mid-way, so the vertical distance it can travel before hitting a plate is $y = \frac{8.4 \times 10^{-3}}{2} = 4.2 \times 10^{-3}\text{ m}$
+*   Charge of a proton, $q \approx 1.6 \times 10^{-19}\text{ C}$
+*   Mass of a proton, $m \approx 1.67 \times 10^{-27}\text{ kg}$
+
+**2. Calculate the vertical acceleration ($a$):**
+Using $F = qE$ and $F = ma$:
+$$a = \frac{qE}{m} = \frac{(1.6 \times 10^{-19})(2.7 \times 10^4)}{1.67 \times 10^{-27}} \approx 2.587 \times 10^{12}\text{ m s}^{-2}$$
+
+**3. Find the time ($t$) to travel the vertical distance ($y$):**
+Using the kinematic equation $y = \frac{1}{2}at^2$:
+$$t = \sqrt{\frac{2y}{a}} = \sqrt{\frac{2(4.2 \times 10^{-3})}{2.587 \times 10^{12}}} \approx 5.7 \times 10^{-8}\text{ s}$$
+
+**4. Calculate the horizontal speed ($v$):**
+Since horizontal velocity is constant:
+$$v = \frac{L}{t} = \frac{4.9 \times 10^{-2}}{5.7 \times 10^{-8}} \approx 8.6 \times 10^5\text{ m s}^{-1}$$
+
+### Part (b)
+
+*   **Similarities:** Both involve a constant force acting perpendicular to the initial velocity, resulting in a parabolic trajectory. Both follow the laws of projectile motion where acceleration is constant and independent of the object's mass (in a vacuum).
+*   **Differences:** 
+    *   **Force origin:** Electric fields act on charge ($qE$), while gravitational fields act on mass ($mg$).
+    *   **Directionality:** Electric forces can be attractive or repulsive (depending on charge sign), whereas gravitational forces are strictly attractive.
+    *   **Magnitude:** Electric forces are significantly stronger than gravitational forces at the subatomic level, often making gravity negligible in these calculations.
+
+###QUESTION_TYPE
+Calculation question

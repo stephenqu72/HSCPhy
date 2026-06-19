@@ -1,0 +1,36 @@
+To solve this problem, we use the following standard constants for Earth:
+- Mass of Earth, $M = 5.97 \times 10^{24}\text{ kg}$
+- Radius of Earth, $R = 6.37 \times 10^6\text{ m}$
+- Gravitational constant, $G = 6.67 \times 10^{-11}\text{ Nm}^2/\text{kg}^2$
+- Satellite mass, $m = 100\text{ kg}$
+- Altitude, $h = 300\text{ km} = 3 \times 10^5\text{ m}$
+- Orbital radius, $r = R + h = 6.67 \times 10^6\text{ m}$
+
+### (a) Calculate the predicted period of the satellite
+Use Kepler’s Third Law: $\frac{T^2}{r^3} = \frac{4\pi^2}{GM}$.
+$$T = \sqrt{\frac{4\pi^2 r^3}{GM}} = \sqrt{\frac{4\pi^2 (6.67 \times 10^6)^3}{(6.67 \times 10^{-11})(5.97 \times 10^{24})}} \approx 5430\text{ seconds} \approx 90.5\text{ minutes}$$
+
+### (b) Determine the total energy of the satellite
+The total energy $E$ in a circular orbit is given by $E = -\frac{GMm}{2r}$.
+$$E = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(100)}{2(6.67 \times 10^6)} \approx -2.98 \times 10^9\text{ J}$$
+
+### (c) Calculate the average orbital speed
+The orbital speed $v$ is given by $v = \sqrt{\frac{GM}{r}}$.
+$$v = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{6.67 \times 10^6}} \approx 7730\text{ m/s} \text{ (or } 7.73\text{ km/s)}$$
+
+### (d) Calculate the minimum energy required to lift the satellite
+The energy required is the difference between the total energy at the orbital height and the potential energy at the Earth's surface.
+Initial potential energy at surface: $U_i = -\frac{GMm}{R} = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(100)}{6.37 \times 10^6} \approx -6.25 \times 10^9\text{ J}$.
+Final total energy in orbit (from part b): $E_f = -2.98 \times 10^9\text{ J}$.
+Energy required $\Delta E = E_f - U_i = (-2.98 \times 10^9) - (-6.25 \times 10^9) \approx 3.27 \times 10^9\text{ J}$.
+
+***
+
+### Explanation of approach:
+1. **Orbital Mechanics:** Always convert altitude to orbital radius by adding the Earth's radius.
+2. **Kepler's Third Law:** Used for orbital period calculations.
+3. **Energy:** Remember that total energy is negative (bound state). Potential energy at the surface is defined relative to infinity ($U = -GMm/r$).
+4. **Energy required:** This is the difference between the final energy state (orbit) and the initial energy state (stationary on surface).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,22 @@
+To identify the correct graph for an inverse-square law, we must look at the mathematical relationship. An inverse-square law states that a physical quantity $y$ is inversely proportional to the square of the distance $x$ from the source:
+
+$$y \propto \frac{1}{x^2} \quad \text{or} \quad y = \frac{k}{x^2}$$
+
+### How to solve this:
+
+1.  **Analyze the behavior of the function:**
+    *   As $x$ (the distance) increases, $x^2$ increases rapidly.
+    *   Since $y = k/x^2$, as the denominator increases, the value of $y$ must decrease.
+    *   When $x$ is very small (close to zero), $y$ approaches infinity (the graph goes up steeply).
+    *   When $x$ is very large, $y$ approaches zero (the graph flattens out towards the horizontal axis).
+
+2.  **Evaluate the options:**
+    *   **(a)** shows an increasing curve ($y \propto x^2$), which is the opposite of an inverse relationship.
+    *   **(b)** shows a linear relationship ($y \propto x$).
+    *   **(c)** shows a root relationship ($y \propto \sqrt{x}$), which is an increasing function.
+    *   **(d)** shows a curve that starts high on the y-axis and drops rapidly as $x$ increases, eventually leveling off near the x-axis. This perfectly matches the behavior of $y = 1/x^2$.
+
+**Answer:** The correct graph is **(d)**.
+
+###QUESTION_TYPE
+Multiple choice

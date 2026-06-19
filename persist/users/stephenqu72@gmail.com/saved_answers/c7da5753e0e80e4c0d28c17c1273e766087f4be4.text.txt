@@ -1,0 +1,25 @@
+This is a classic HSC Physics question regarding Millikan’s Oil Drop Experiment. Here is the breakdown of the answers and the underlying physics.
+
+### Answers and Explanations
+
+**(a) Why was the radius of the observed oil drops measured? (1 mark)**
+**Answer:** The radius is needed to calculate the volume of the oil drop, which is used to determine its mass ($m = \rho V$). Since gravity ($F_g = mg$) acts on the drop, knowing the mass is essential to balance the forces when the drop is suspended.
+**Teacher's Tip:** In physics, we can rarely measure mass directly for microscopic objects. We measure dimensions and use the density ($\rho$) of the oil to calculate mass indirectly.
+
+**(b) Outline how Millikan determined the electric charge on the oil drops he observed. (2 marks)**
+**Answer:** Millikan adjusted the variable voltage between the plates until the electric force upward ($F_E = qE = q \frac{V}{d}$) exactly balanced the gravitational force downward ($F_g = mg$). By equating these, $q \frac{V}{d} = mg$, he could solve for the charge $q$ on a specific drop.
+**Teacher's Tip:** To earn full marks, mention the condition of **stationary suspension** (equilibrium), where the net force is zero.
+
+**(c) It was known at the time that electric charge was a quantum property of matter. How did Millikan use this assumption to determine the charge on a single electron? (3 marks)**
+**Answer:** Millikan performed the experiment for many different oil drops and recorded their calculated charges ($q_1, q_2, q_3, ...$). He observed that all these values were integer multiples of a common base value. By finding the **greatest common divisor** (or looking for the smallest interval) among these experimental results, he determined that this fundamental unit of charge was the charge of a single electron ($e \approx 1.6 \times 10^{-19} \text{ C}$).
+**Teacher's Tip:** This is a logic-based data analysis. Emphasize that he did not measure a single electron directly; he inferred it by observing the quantization of the total charge on various drops.
+
+***
+
+### How to solve such questions
+1.  **Identify the Forces:** Always recognize that this experiment relies on the balance of forces. If the drop is suspended, $qE = mg$. If it is moving, you must account for terminal velocity and drag (Stokes' Law), though the simplified equilibrium model is usually the core of the answer.
+2.  **Quantization Concept:** Remember that "quantized" means it comes in discrete "packets." If you see a list of values like $3.2, 4.8, 6.4$ (all in $\times 10^{-19} \text{ C}$), the "packet" size is clearly $1.6$.
+3.  **HSC Exam Technique:** For part (b), ensure you use the formula $E = \frac{V}{d}$ to explicitly link the voltage $V$ and plate separation $d$ to the electric field $E$.
+
+###QUESTION_TYPE
+Short answer

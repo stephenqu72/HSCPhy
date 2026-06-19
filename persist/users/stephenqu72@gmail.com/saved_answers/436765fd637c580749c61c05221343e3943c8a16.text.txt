@@ -1,0 +1,25 @@
+### Answer
+
+**(a) Explain why using a spanner made it easier to remove the nut.**
+Using a spanner increases the distance ($r$) from the pivot point (the nut) to the point where the force is applied. According to the principle of moments, the torque (or moment of force) $\tau$ is calculated by $\tau = F \cdot r \cdot \sin(\theta)$. By using a spanner, the driver significantly increases the lever arm (radial distance), which produces a larger turning effect (torque) for the same amount of applied force. This larger torque is what is required to overcome the static friction holding the nut in place.
+
+**(b) Use an example calculation to show why it is most advantageous to put your hand at the far end of the spanner from the nut.**
+Let the length of the spanner be $L = 20\text{ cm} = 0.2\text{ m}$. Assume the driver applies a constant force of $F = 100\text{ N}$.
+
+*   **Case 1: Gripping the middle (distance $r_1 = 0.1\text{ m}$)**
+    $$\tau_1 = F \times r_1 = 100\text{ N} \times 0.1\text{ m} = 10\text{ Nm}$$
+
+*   **Case 2: Gripping the far end (distance $r_2 = 0.2\text{ m}$)**
+    $$\tau_2 = F \times r_2 = 100\text{ N} \times 0.2\text{ m} = 20\text{ Nm}$$
+
+Comparing the results, applying the force at the far end of the spanner generates twice the torque ($20\text{ Nm}$ vs $10\text{ Nm}$) compared to gripping the middle. Therefore, placing the hand at the far end is more advantageous because it maximizes the turning effect for the same input effort.
+
+***
+
+### How to solve this
+1.  **Understand Torque:** Recognize that this is a classic physics problem involving the "moment of force." The key relationship to remember is $\tau = F \times r$, where $\tau$ is torque, $F$ is force, and $r$ is the perpendicular distance from the pivot.
+2.  **Part (a):** Focus on the definition of a lever. The spanner acts as a lever arm. When you apply a force further away from the pivot (the nut), you maximize the "lever arm," which makes it easier to create the required torque to turn the nut.
+3.  **Part (b):** To show the advantage mathematically, assign a consistent value to the force (e.g., $100\text{ N}$) and compare the torque produced at two different distances ($r$). Explicitly show the calculation for both positions to demonstrate that a larger $r$ results in a larger $\tau$.
+
+###QUESTION_TYPE
+Calculation question

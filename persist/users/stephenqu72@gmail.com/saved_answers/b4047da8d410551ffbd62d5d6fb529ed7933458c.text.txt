@@ -1,0 +1,30 @@
+To solve this problem, we must analyze the forces acting on the driver in both the "peak" (hill) and "trough" (valley) positions using the principles of circular motion.
+
+### 1. Identify the Forces at the Peak
+At the peak of the hill, the net force providing the centripetal acceleration is the difference between the gravitational force ($mg$) and the normal force ($F_N$):
+$$F_{net} = mg - F_{N, peak} = \frac{mv^2}{r}$$
+Given:
+*   $m = 80\text{ kg}$
+*   $g \approx 10\text{ m/s}^2$ (standard approximation for HSC Physics)
+*   $F_{N, peak} = 400\text{ N}$
+*   $mg = 80 \times 10 = 800\text{ N}$
+
+Substituting these values:
+$$800 - 400 = \frac{mv^2}{r}$$
+$$400 = \frac{mv^2}{r}$$
+
+### 2. Identify the Forces at the Trough
+At the bottom of the valley, the normal force acts upward (against gravity) to provide the centripetal acceleration. The net force is the difference between the normal force ($F_N$) and the gravitational force ($mg$):
+$$F_{net} = F_{N, valley} - mg = \frac{mv^2}{r}$$
+Since the speed ($v$) and radius ($r$) are constant, the value of $\frac{mv^2}{r}$ is the same as calculated above ($400\text{ N}$):
+$$F_{N, valley} - 800 = 400$$
+
+### 3. Solve for $F_{N, valley}$
+$$F_{N, valley} = 400 + 800 = 1200\text{ N}$$
+
+The magnitude of the normal force experienced by the driver at the bottom of the valley is **1200 N**.
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

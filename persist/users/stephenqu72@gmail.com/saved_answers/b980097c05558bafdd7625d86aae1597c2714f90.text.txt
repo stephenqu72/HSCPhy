@@ -1,0 +1,21 @@
+To determine the work done by the gravitational field, we must recall the relationship between work, force, and displacement:
+$$W = \int \vec{F} \cdot d\vec{s} = \int F \cos(\theta) \, ds$$
+where $\theta$ is the angle between the gravitational force (which always acts towards the center of the Earth) and the displacement vector (the direction of motion). If the force is perpendicular to the motion at all times ($\theta = 90^\circ$), then $\cos(90^\circ) = 0$, and the work done is zero.
+
+### Satellite A (Circular Orbit)
+Satellite $A$ is in a **circular orbit**. In a circular orbit, the velocity vector is always tangential to the path, while the gravitational force is directed toward the center of the Earth (the radius of the circle). Since the radius is always perpendicular to the tangent at any point, the gravitational force is always perpendicular to the direction of motion. Therefore, no work is done by the gravitational field as the satellite moves from $R$ to $S$.
+
+### Satellite B (Elliptical Orbit)
+Satellite $B$ is in an **elliptical orbit**. As it moves from $P$ (the perigee, or point closest to Earth) to $Q$ (a point further away), its distance from the center of the Earth increases.
+1. The gravitational potential energy of the satellite is given by $U = -\frac{GMm}{r}$. 
+2. As the satellite moves from $P$ to $Q$, $r$ increases, which means the potential energy $U$ increases.
+3. According to the work-energy theorem, the work done by the gravitational field is the negative change in potential energy ($W = -\Delta U$). Since the potential energy is changing, the work done must be **non-zero**. Alternatively, observe the velocity vectors at $P$ and $Q$: the force component is not constantly perpendicular to the path, meaning the gravitational field is doing work to change the satellite's kinetic energy and potential energy.
+
+### Conclusion
+*   **Satellite A:** Work done is **zero**.
+*   **Satellite B:** Work done is **non-zero**.
+
+Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

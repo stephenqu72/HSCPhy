@@ -1,0 +1,33 @@
+To find the altitude where the acceleration due to gravity is $4.9 \text{ m s}^{-2}$, we use Newton's Law of Universal Gravitation, which states that the gravitational field strength $g$ at a distance $r$ from the center of a planet is given by:
+
+$$g = \frac{GM}{r^2}$$
+
+### Step-by-Step Solution:
+
+1.  **Understand the Relationship:**
+    Since $G$ (gravitational constant) and $M$ (mass of the Earth) are constants, the acceleration due to gravity is inversely proportional to the square of the distance from the center: $g \propto \frac{1}{r^2}$.
+    We can write a ratio between the surface gravity ($g_1 = 9.8$) and the target gravity ($g_2 = 4.9$):
+    $$\frac{g_1}{g_2} = \frac{r_2^2}{r_1^2}$$
+
+2.  **Substitute the Known Values:**
+    Let $r_1 = 6.37 \times 10^6 \text{ m}$ (Earth's radius).
+    Let $g_1 = 9.8 \text{ m s}^{-2}$ and $g_2 = 4.9 \text{ m s}^{-2}$.
+    $$\frac{9.8}{4.9} = \frac{r_2^2}{(6.37 \times 10^6)^2}$$
+    $$2 = \frac{r_2^2}{(6.37 \times 10^6)^2}$$
+
+3.  **Solve for $r_2$ (Distance from center):**
+    $$r_2^2 = 2 \times (6.37 \times 10^6)^2$$
+    $$r_2 = \sqrt{2} \times 6.37 \times 10^6$$
+    $$r_2 \approx 1.414 \times 6.37 \times 10^6 \approx 9.01 \times 10^6 \text{ m}$$
+
+4.  **Find the Altitude:**
+    The value $r_2$ is the distance from the **center** of the Earth. The altitude $h$ is the distance from the **surface**, so $h = r_2 - R_E$:
+    $$h = 9.01 \times 10^6 - 6.37 \times 10^6$$
+    $$h \approx 2.64 \times 10^6 \text{ m}$$
+
+Comparing this result to the given options, $2.6 \times 10^6 \text{ m}$ is the correct answer.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

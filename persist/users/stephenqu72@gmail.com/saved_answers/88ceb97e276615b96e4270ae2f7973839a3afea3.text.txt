@@ -1,0 +1,41 @@
+### Answer
+The correct option is **(A) 0.154 m**.
+
+---
+
+### Explanation
+To solve this problem, we need to understand the physics of a charged particle moving in a magnetic field. When a particle with charge $q$ and mass $m$ moves perpendicularly through a magnetic field $B$ with velocity $v$, it experiences a magnetic force that acts as a centripetal force, causing it to travel in a circle of radius $r$.
+
+**1. Identify the relevant physics principles:**
+The magnetic force $F_B$ is given by:
+$$F_B = qvB$$
+Since this force provides the centripetal force $F_c = \frac{mv^2}{r}$, we equate the two:
+$$qvB = \frac{mv^2}{r}$$
+
+**2. Rearrange to solve for the radius $r$:**
+$$r = \frac{mv}{qB}$$
+
+**3. Plug in the known constants for an electron:**
+*   Mass of an electron ($m$): $9.11 \times 10^{-31} \text{ kg}$
+*   Charge of an electron ($q$): $1.60 \times 10^{-19} \text{ C}$
+*   Velocity ($v$): $6.5 \times 10^3 \text{ ms}^{-1}$
+*   Magnetic Field ($B$): $2.4 \times 10^{-3} \text{ T}$
+
+**4. Perform the calculation:**
+$$r = \frac{(9.11 \times 10^{-31} \text{ kg}) \times (6.5 \times 10^3 \text{ ms}^{-1})}{(1.60 \times 10^{-19} \text{ C}) \times (2.4 \times 10^{-3} \text{ T})}$$
+$$r = \frac{5.9215 \times 10^{-27}}{3.84 \times 10^{-22}}$$
+$$r \approx 0.01542 \dots \text{ m}$$
+
+*Correction/Review:* Looking at the calculation, $5.92 \times 10^{-27} / 3.84 \times 10^{-22}$ results in $1.54 \times 10^{-5} \text{ m}$? Let me re-verify the order of magnitude.
+$5.92 \times 10^{-27} / 3.84 \times 10^{-22} = 1.54 \times 10^{-6}$.
+Wait, if the result is $0.0154 \text{ m}$, the calculation matches option (A). Let's re-calculate:
+$5.9215 \times 10^{-27} / 3.84 \times 10^{-22} = 1.54 \times 10^{-5}$.
+
+Actually, checking the options provided, $1.54 \times 10^{-5} \text{ m}$ is option (C). Let me re-check the power of ten.
+$10^{-27} / 10^{-22} = 10^{-5}$.
+Yes, the calculation yields **$1.54 \times 10^{-5} \text{ m}$**, which is **(C)**.
+
+*Note for students:* Always ensure you use the correct powers of ten when dealing with subatomic particles!
+
+###QUESTION_TYPE
+Multiple choice

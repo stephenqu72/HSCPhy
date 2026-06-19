@@ -1,0 +1,28 @@
+### Answer
+The correct statement is **(B)**.
+
+### Explanation
+To understand the direction of the magnetic force on a moving charged particle, we refer to the Lorentz force equation for the magnetic component:
+
+$$\mathbf{F} = q(\mathbf{v} \times \mathbf{B})$$
+
+Where:
+- $\mathbf{F}$ is the magnetic force vector.
+- $q$ is the charge of the particle.
+- $\mathbf{v}$ is the velocity vector of the particle.
+- $\mathbf{B}$ is the magnetic field vector.
+
+The term $(\mathbf{v} \times \mathbf{B})$ represents the **vector cross product** of the velocity and the magnetic field. By the mathematical definition of a cross product, the resulting vector $\mathbf{F}$ must be perpendicular to both of the vectors being multiplied. 
+
+This is also commonly taught using the **Right-Hand Rule**:
+1. Point your fingers in the direction of velocity $\mathbf{v}$.
+2. Curl your fingers towards the magnetic field direction $\mathbf{B}$.
+3. Your thumb will point in the direction of the force $\mathbf{F}$ (for a positive charge).
+
+Since the thumb is perpendicular to both the fingers pointing in the velocity direction and the fingers curling toward the magnetic field direction, the force is always perpendicular to both $\mathbf{v}$ and $\mathbf{B}$.
+
+- Option (A) and (C) are incorrect because the force cannot be parallel to the magnetic field (unless the velocity is zero or parallel to the field, in which case the force is zero).
+- Option (D) is incorrect because the force is perpendicular to the velocity, not in its direction.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+To determine the speed $v$, one can adjust the electric field $E$ (using the voltage source) and the magnetic field $B$ simultaneously such that the beam passes through the apparatus undeflected ($d=0$). Under this condition, the electric force equals the magnetic force: $qE = qvB$. Thus, the velocity is $v = \frac{E}{B}$. Since $E = \frac{V}{d_{plates}}$, by knowing the voltage $V$ and plate separation, $v$ can be calculated.
+
+#### Part (b)
+The radius of curvature $r$ for a particle in a magnetic field is given by $r = \frac{mv}{qB}$, which implies $\frac{1}{r} = \frac{qB}{mv}$.
+Using the formula $r = \frac{d}{1 - \cos(2\theta)}$, we calculate $\frac{1}{r} = \frac{1 - \cos(2\theta)}{d}$.
+*Given the small angle approximation is not immediately obvious, we calculate $\frac{1}{r}$ using the provided $d$ and geometry.* However, since we are given $d$ and $w = 0.1$, $\tan\theta = \frac{d}{w}$. Thus $\theta = \arctan(\frac{d}{0.1})$.
+For $B = 1.0 \times 10^{-6}$ T, $d = 1.667 \times 10^{-3}$ m:
+$\theta = \arctan(0.01667) \approx 0.01667$ rad. $2\theta \approx 0.03334$ rad.
+$1 - \cos(0.03334) \approx 0.0005556$.
+$\frac{1}{r} = \frac{0.0005556}{1.667 \times 10^{-3}} \approx 0.333$ m$^{-1}$.
+Repeating for others:
+| $B$ ($\mu$T) | $d$ ($10^{-3}$ m) | $1/r$ (m$^{-1}$) |
+| :--- | :--- | :--- |
+| 1.0 | 1.667 | 0.333 |
+| 1.5 | 2.502 | 0.500 |
+| 3.0 | 5.013 | 1.000 |
+| 5.0 | 8.392 | 1.667 |
+
+#### Part (c)
+From the magnetic force equation $F = qvB = \frac{mv^2}{r}$, we derive $\frac{1}{r} = \left(\frac{q}{mv}\right)B$.
+This is a linear equation of the form $y = mx$, where $y = \frac{1}{r}$ and $x = B$. The gradient is $\frac{q}{mv}$.
+1. **Plot:** Plot $\frac{1}{r}$ (y-axis) vs $B$ (x-axis in Tesla).
+2. **Gradient ($m$):** Using the values (e.g., $x=5 \times 10^{-6}, y=1.667$): $m = \frac{1.667}{5 \times 10^{-6}} = 3.33 \times 10^5$ C/kg$\cdot$m/s.
+3. **Calculation:** Since $m = \frac{q}{mv}$, then $\frac{q}{m} = \text{gradient} \times v$.
+Using $v = 10^5$ m/s:
+$\frac{q}{m} = 3.33 \times 10^5 \times 10^5 = 3.33 \times 10^{10}$ C/kg.
+
+###QUESTION_TYPE
+Data analysis questions

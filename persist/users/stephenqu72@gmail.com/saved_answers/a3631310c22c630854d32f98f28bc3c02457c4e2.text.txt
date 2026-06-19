@@ -1,0 +1,34 @@
+To derive an expression for the maximum velocity ($v$) of a particle with charge $q$ and mass $m$ accelerated from rest through a distance $d$ in a uniform electric field $E$, we use the principle of **Conservation of Energy**.
+
+### The Solution
+
+1.  **Work done by the electric field:**
+    The work ($W$) done on a charge in a uniform electric field is given by the product of the electric force and the displacement:
+    $$W = F \cdot d$$
+    Since the force on a charge in an electric field is $F = qE$, the work done is:
+    $$W = qEd$$
+
+2.  **Conversion to kinetic energy:**
+    Since the particle starts from rest, all the work done by the electric field is converted into the kinetic energy ($K$) of the particle:
+    $$K = \frac{1}{2}mv^2$$
+    Therefore:
+    $$qEd = \frac{1}{2}mv^2$$
+
+3.  **Solve for $v$:**
+    Multiply both sides by 2 and divide by $m$:
+    $$v^2 = \frac{2qEd}{m}$$
+    Taking the square root of both sides:
+    $$v = \sqrt{\frac{2qEd}{m}}$$
+
+---
+
+### Teacher's Explanation
+To solve physics problems involving motion in electric fields, always look for the relationship between the **Work-Energy Theorem** and **Newton’s Second Law**. 
+
+*   **Step 1:** Recognize that the electric field does work on the particle. The energy gained by the particle equals the work done by the field ($W = F \cdot d$).
+*   **Step 2:** Relate the field strength to force ($F = qE$). This is a standard substitution in HSC Physics for uniform field problems.
+*   **Step 3:** Equate the work done to the kinetic energy formula ($\frac{1}{2}mv^2$). Since there is no potential energy change (gravity is ignored), the gain in kinetic energy must equal the total work performed by the field.
+*   **Step 4:** Rearrange the algebraic expression to isolate $v$. Always check that your final variables match the requirements of the question.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for the magnetic force experienced by a current-carrying wire in a magnetic field:
+
+$$F = BIL \sin(\theta)$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given variables and convert them to standard SI units:**
+    *   Length of the wire, $L = 2.5\text{ cm} = 0.025\text{ m}$
+    *   Current, $I = 3.6\text{ A}$
+    *   Force, $F = 27\text{ mN} = 27 \times 10^{-3}\text{ N} = 0.027\text{ N}$
+    *   Since the wire is perpendicular to the magnetic field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+2.  **Rearrange the formula to solve for the magnetic field ($B$):**
+    $$B = \frac{F}{IL}$$
+
+3.  **Substitute the values into the equation:**
+    $$B = \frac{0.027\text{ N}}{(3.6\text{ A}) \times (0.025\text{ m})}$$
+    $$B = \frac{0.027}{0.09}$$
+    $$B = 0.3\text{ T}$$
+
+Comparing this result to the provided options, the correct answer is **B**.
+
+### Explanation:
+The force on a current-carrying wire is defined by the interaction between the charge carriers moving through the magnetic field and the field itself. When the wire is perpendicular to the field, the force is maximized. By ensuring all units are converted to meters (for length) and Newtons (for force), we can directly calculate the magnetic field strength in Tesla.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+To solve this problem, we use the formula for the magnetic force per unit length between two parallel current-carrying wires:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+**1. Analyze the forces acting on Wire Z:**
+*   **Force from Wire Y ($F_{ZY}$):** Wire Z and Wire Y have currents in the same direction (both to the left). Currents in the same direction attract each other. Therefore, Wire Y exerts an **attractive** force on Wire Z (pulling it downwards).
+*   **Force from Wire X ($F_{ZX}$):** Wire Z (current to the left) and Wire X (current to the right) have currents in opposite directions. Currents in opposite directions repel each other. Therefore, Wire X exerts a **repulsive** force on Wire Z (pushing it upwards).
+
+For Wire Z to experience zero net force, the magnitude of the attractive force must equal the magnitude of the repulsive force:
+$$|F_{ZY}| = |F_{ZX}|$$
+
+**2. Set up the equation:**
+Let $I_Z = 2.0\text{ A}$, $I_Y = 5.0\text{ A}$, $I_X = 10.0\text{ A}$.
+The distance between Z and Y is $d$.
+The distance between Z and X is $d + 2.0\text{ cm} = d + 0.02\text{ m}$.
+
+$$\frac{\mu_0 I_Z I_Y}{2\pi d} = \frac{\mu_0 I_Z I_X}{2\pi (d + 0.02)}$$
+
+**3. Simplify and solve:**
+Cancel common terms ($\frac{\mu_0 I_Z}{2\pi}$):
+$$\frac{I_Y}{d} = \frac{I_X}{d + 0.02}$$
+$$\frac{5.0}{d} = \frac{10.0}{d + 0.02}$$
+
+Cross-multiply:
+$$5.0(d + 0.02) = 10.0d$$
+$$5.0d + 0.1 = 10.0d$$
+$$0.1 = 5.0d$$
+$$d = \frac{0.1}{5.0} = 0.02\text{ m}$$
+
+**Conclusion:**
+The required distance $d$ is $0.02\text{ m}$ or **$2.0\text{ cm}$**.
+
+###QUESTION_TYPE
+Calculation question

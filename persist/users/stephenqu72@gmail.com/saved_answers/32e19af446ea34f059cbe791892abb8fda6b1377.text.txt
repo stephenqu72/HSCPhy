@@ -1,0 +1,37 @@
+To solve this problem, we must apply the principles of electromagnetism, specifically the motion of charged particles in electric and magnetic fields.
+
+### Part (a) Derivation
+To find the radius $R$, we equate the magnetic force to the centripetal force required for circular motion.
+1. The magnetic force on a charge $q$ moving at velocity $v$ perpendicular to a field $B$ is:
+   $$F_B = qvB$$
+2. This force acts as the centripetal force, $F_c = \frac{mv^2}{R}$.
+3. Setting them equal:
+   $$qvB = \frac{mv^2}{R}$$
+4. Rearranging for $R$:
+   $$R = \frac{mv}{qB}$$
+
+### Part (b) Calculation
+To find the distance (which is the diameter $D = 2R$), we first need to find the velocity $v$ attained by the proton using the conservation of energy from the potential difference $V$.
+
+1. **Calculate velocity $v$:**
+   The electrical work done on the charge equals its kinetic energy:
+   $$qV = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2qV}{m}}$$
+2. **Substitute $v$ into the radius formula:**
+   $$R = \frac{m}{qB} \sqrt{\frac{2qV}{m}} = \frac{1}{B} \sqrt{\frac{2mV}{q}}$$
+3. **Constants for a proton:**
+   - $m = 1.67 \times 10^{-27} \text{ kg}$
+   - $q = 1.60 \times 10^{-19} \text{ C}$
+   - $V = 250 \text{ V}$
+   - $B = 0.16 \text{ T}$
+
+4. **Calculate $R$:**
+   $$R = \frac{1}{0.16} \sqrt{\frac{2 \times (1.67 \times 10^{-27}) \times 250}{1.60 \times 10^{-19}}}$$
+   $$R = \frac{1}{0.16} \sqrt{5.21875 \times 10^{-6}} \approx \frac{0.002284}{0.16} \approx 0.01427 \text{ m}$$
+5. **Distance (Diameter):**
+   $$D = 2R = 2 \times 0.01427 = 0.02854 \text{ m} \approx 2.85 \text{ cm}$$
+
+**Explanation:**
+To solve this, we linked the energy gained from the accelerating potential ($qV = \frac{1}{2}mv^2$) to the centripetal force provided by the magnetic field ($qvB = \frac{mv^2}{R}$). By substituting the velocity from the energy equation into the radius equation, we derived a formula that allows us to find the radius using only known constants and the given experimental parameters.
+
+###QUESTION_TYPE
+Calculation question

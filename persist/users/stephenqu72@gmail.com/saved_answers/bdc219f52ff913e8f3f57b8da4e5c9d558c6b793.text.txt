@@ -1,0 +1,35 @@
+To determine which particle is moving through the magnetic field, we must calculate its charge-to-mass ratio ($q/m$) based on its circular path.
+
+### 1. Physics Principles
+When a charged particle enters a perpendicular magnetic field, it undergoes circular motion because the magnetic force acts as the centripetal force:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging for the charge-to-mass ratio ($q/m$):
+$$\frac{q}{m} = \frac{v}{Br}$$
+
+### 2. Given Data
+*   Magnetic field strength, $B = 0.2\text{ T}$
+*   Velocity, $v = 5.74 \times 10^5\text{ m s}^{-1}$
+*   Diameter of the path, $d = 0.06\text{ m}$
+*   Radius of the path, $r = \frac{d}{2} = 0.03\text{ m}$
+
+### 3. Calculation
+Substitute the values into the formula:
+$$\frac{q}{m} = \frac{5.74 \times 10^5}{0.2 \times 0.03}$$
+$$\frac{q}{m} = \frac{5.74 \times 10^5}{0.006}$$
+$$\frac{q}{m} \approx 9.57 \times 10^7\text{ C kg}^{-1}$$
+
+### 4. Identification
+Let's compare this to known particles:
+*   **Proton:** $q/m \approx \frac{1.6 \times 10^{-19}}{1.67 \times 10^{-27}} \approx 9.58 \times 10^7\text{ C kg}^{-1}$
+*   **Electron:** $q/m \approx \frac{1.6 \times 10^{-19}}{9.11 \times 10^{-31}} \approx 1.76 \times 10^{11}\text{ C kg}^{-1}$
+*   **Alpha particle:** $q/m \approx \frac{3.2 \times 10^{-19}}{6.64 \times 10^{-27}} \approx 4.8 \times 10^7\text{ C kg}^{-1}$
+*   **Neutron:** $q = 0$, so it would not be deflected.
+
+The calculated value of $9.57 \times 10^7\text{ C kg}^{-1}$ matches the charge-to-mass ratio of a proton.
+
+**Correct Answer: A. a proton.**
+
+###QUESTION_TYPE
+Multiple choice

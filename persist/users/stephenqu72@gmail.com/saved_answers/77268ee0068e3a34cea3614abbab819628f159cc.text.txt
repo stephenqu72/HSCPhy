@@ -1,0 +1,29 @@
+To solve this problem, we use the formula for the force $F$ acting on a current-carrying conductor in a uniform magnetic field:
+
+$$F = BIl \sin(\theta)$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the variables:**
+    *   $B = 6.5\text{ T}$ (the magnetic field strength).
+    *   $I = 2.5\text{ A}$ (the current).
+    *   $\theta = 30^\circ$ (the angle between the conductor and the magnetic field lines).
+    *   The question asks for the force per unit length, which is $\frac{F}{l}$.
+
+2.  **Rearrange the formula:**
+    Since the units in the options are $\text{N m}^{-1}$, we need to calculate $\frac{F}{l}$:
+    $$\frac{F}{l} = BI \sin(\theta)$$
+
+3.  **Perform the calculation:**
+    $$\frac{F}{l} = 6.5 \times 2.5 \times \sin(30^\circ)$$
+    Knowing that $\sin(30^\circ) = 0.5$:
+    $$\frac{F}{l} = 6.5 \times 2.5 \times 0.5$$
+    $$\frac{F}{l} = 16.25 \times 0.5$$
+    $$\frac{F}{l} = 8.125\text{ N m}^{-1}$$
+
+Rounding to two significant figures, we get $8.1\text{ N m}^{-1}$.
+
+Comparing this to the given options, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

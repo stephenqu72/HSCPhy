@@ -1,0 +1,37 @@
+To solve this problem, we need to apply the physics of charged particles moving in a magnetic field. When a particle enters a magnetic field perpendicularly, it undergoes circular motion because the magnetic force acts as a centripetal force.
+
+### 1. Identify the Radius ($r$)
+The particle follows a semi-circular path. The distance between the entry point and the detector is the diameter of this path.
+Given diameter $d = 262\text{ m}$, the radius is:
+$$r = \frac{d}{2} = \frac{262}{2} = 131\text{ m}$$
+
+### 2. Physics Principle
+The magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging for the mass-to-charge ratio ($\frac{m}{q}$):
+$$\frac{m}{q} = \frac{Br}{v}$$
+
+Plug in the given values:
+- $B = 0.422\text{ mT} = 0.422 \times 10^{-3}\text{ T}$
+- $r = 131\text{ m}$
+- $v = 2.675 \times 10^6\text{ m s}^{-1}$
+
+$$\frac{m}{q} = \frac{(0.422 \times 10^{-3}) \times 131}{2.675 \times 10^6} \approx 2.0665 \times 10^{-8}\text{ kg/C}$$
+
+### 3. Evaluate the Options
+We check the ratio $\frac{m}{q}$ for the provided options:
+*   **A/B:** $\frac{2.487 \times 10^{-28}}{1.602 \times 10^{-19}} \approx 1.55 \times 10^{-9}$ (Incorrect)
+*   **C/D:** $\frac{6.644 \times 10^{-27}}{3.204 \times 10^{-19}} \approx 2.073 \times 10^{-8}$ (Matches our calculation)
+
+### 4. Determine Charge Sign
+Using the **Right-Hand Rule**:
+- The magnetic field ($\mathbf{B}$) is pointing out of the page (dots).
+- The velocity ($\mathbf{v}$) is to the right.
+- For a positive charge, the force ($\mathbf{F} = q\mathbf{v} \times \mathbf{B}$) would point **downward**.
+- In the diagram, the path curves **downward** from the entry point to reach the detector.
+- Since the particle curves in the direction dictated by the right-hand rule for a positive charge, the charge must be **positive**.
+
+Comparing with the options, **C** is the correct choice ($q = 3.204 \times 10^{-19}\text{ C}$).
+
+###QUESTION_TYPE
+Multiple choice

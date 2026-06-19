@@ -1,0 +1,42 @@
+### Explanation and Solution
+
+To solve projectile motion problems, the fundamental principle is that **horizontal velocity remains constant** throughout the flight (ignoring air resistance), while vertical velocity changes due to gravity.
+
+#### (a) At what speed, relative to the ground, did the ball leave Fred’s racket?
+
+**Physics Principle:** At the maximum height of a projectile's trajectory, the vertical component of the velocity is zero. Therefore, the resultant velocity at the peak is equal to the horizontal velocity component $v_x$.
+
+1.  Let the initial velocity be $u$. The horizontal component is $v_x = u \cos(8^\circ)$.
+2.  Since $v_x$ is constant, $u \cos(8^\circ) = 20 \text{ m/s}$.
+3.  Calculate $u$:
+    $$u = \frac{20}{\cos(8^\circ)} \approx \frac{20}{0.9903} \approx 20.197 \text{ m/s}$$
+
+**Answer:** The ball left the racket at approximately **$20.20 \text{ m/s}$**.
+
+---
+
+#### (b) At what horizontal distance from the point where the ball leaves the racket will it hit the ground?
+
+**Physics Principle:** We use the equations of motion for the vertical displacement ($y$) to find the total time of flight, then use the horizontal velocity to find the distance ($x = v_x \cdot t$).
+
+1.  **Vertical components:**
+    - Initial vertical velocity: $u_y = u \sin(8^\circ) = 20.197 \sin(8^\circ) \approx 2.810 \text{ m/s}$.
+    - Acceleration: $a_y = -9.8 \text{ m/s}^2$.
+    - Displacement: $\Delta y = -3.2 \text{ m}$ (since it hits the ground below the launch point).
+
+2.  **Solve for time ($t$):**
+    Using the displacement formula $\Delta y = u_y t + \frac{1}{2} a_y t^2$:
+    $$-3.2 = 2.810t - 4.9t^2$$
+    $$4.9t^2 - 2.810t - 3.2 = 0$$
+    Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+    $$t = \frac{2.810 \pm \sqrt{(-2.810)^2 - 4(4.9)(-3.2)}}{9.8}$$
+    $$t = \frac{2.810 \pm \sqrt{7.896 + 62.72}}{9.8} = \frac{2.810 \pm 8.403}{9.8}$$
+    Taking the positive root: $t \approx 1.144 \text{ s}$.
+
+3.  **Solve for horizontal distance ($x$):**
+    $$x = v_x \cdot t = 20 \times 1.144 = 22.88 \text{ m}$$
+
+**Answer:** The ball will hit the ground at a horizontal distance of approximately **$22.88 \text{ m}$**.
+
+###QUESTION_TYPE
+Calculation question

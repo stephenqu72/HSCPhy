@@ -1,0 +1,35 @@
+To solve this problem, we need to calculate the gravitational potential energy ($U$) of a satellite in orbit around the Earth.
+
+### 1. Identify the relevant formula
+The gravitational potential energy of an object at a distance $r$ from the center of a planet is given by the formula:
+$$U = -\frac{G M m}{r}$$
+
+Where:
+*   $G$ (Gravitational constant) $= 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+*   $M$ (Mass of Earth) $\approx 5.97 \times 10^{24} \text{ kg}$
+*   $m$ (Mass of satellite) $= 6.50 \times 10^{3} \text{ kg}$
+*   $r$ is the distance from the **center** of the Earth.
+
+### 2. Determine the variables
+*   **Mass of the satellite ($m$):** $6.50 \times 10^3 \text{ kg}$
+*   **Altitude ($h$):** $2.00 \times 10^3 \text{ km} = 2.00 \times 10^6 \text{ m}$
+*   **Radius of Earth ($R_E$):** $\approx 6.37 \times 10^6 \text{ m}$
+*   **Total distance ($r$):** $r = R_E + h = 6.37 \times 10^6 \text{ m} + 2.00 \times 10^6 \text{ m} = 8.37 \times 10^6 \text{ m}$
+
+### 3. Calculation
+Substitute these values into the formula:
+$$U = -\frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times (6.50 \times 10^3)}{8.37 \times 10^6}$$
+
+First, calculate the numerator:
+$$6.67 \times 5.97 \times 6.50 \times 10^{-11+24+3} = 258.85 \times 10^{16} = 2.5885 \times 10^{18}$$
+
+Now, divide by the denominator:
+$$U = -\frac{2.5885 \times 10^{18}}{8.37 \times 10^6} \approx -0.3092 \times 10^{12} \text{ J}$$
+$$U \approx -3.09 \times 10^{11} \text{ J}$$
+
+Comparing this result to the given options, it is closest to **$-3.11 \times 10^{11} \text{ J}$**.
+
+**Answer:** (A)
+
+###QUESTION_TYPE
+Multiple choice

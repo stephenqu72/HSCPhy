@@ -1,0 +1,42 @@
+To solve this problem, we use the principles of gravitational potential energy and the conservation of mechanical energy.
+
+### Given Data:
+*   Mass of Moon ($M$): $7.35 \times 10^{22}\text{ kg}$
+*   Radius of Moon ($R_1$): $1740\text{ km} = 1.74 \times 10^6\text{ m}$
+*   Mass of object ($m$): $20\text{ kg}$
+*   Initial velocity ($v_1$): $1200\text{ m s}^{-1}$
+*   Altitude: $500\text{ km} = 0.5 \times 10^6\text{ m}$
+*   Radius at altitude ($R_2$): $R_1 + \text{altitude} = 1.74 \times 10^6 + 0.5 \times 10^6 = 2.24 \times 10^6\text{ m}$
+*   Gravitational constant ($G$): $6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+
+---
+
+### Part (a): Showing the change in potential energy ($\Delta U$)
+The gravitational potential energy is given by $U = -\frac{GMm}{r}$. The change in potential energy is:
+$$\Delta U = U_2 - U_1 = \left( -\frac{GMm}{R_2} \right) - \left( -\frac{GMm}{R_1} \right) = GMm \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$$
+
+Plugging in the values:
+$$\Delta U = (6.67 \times 10^{-11})(7.35 \times 10^{22})(20) \times \left( \frac{1}{1.74 \times 10^6} - \frac{1}{2.24 \times 10^6} \right)$$
+$$\Delta U = 9.8049 \times 10^{13} \times (5.747 \times 10^{-7} - 4.464 \times 10^{-7})$$
+$$\Delta U = 9.8049 \times 10^{13} \times (1.283 \times 10^{-7}) \approx 1.26 \times 10^7\text{ J}$$
+This matches the required value.
+
+---
+
+### Part (b): Calculating the velocity at altitude ($v_2$)
+Using the Law of Conservation of Energy: $E_{total, \text{initial}} = E_{total, \text{final}}$
+$$\frac{1}{2}mv_1^2 - \frac{GMm}{R_1} = \frac{1}{2}mv_2^2 - \frac{GMm}{R_2}$$
+
+Divide by $m$ and rearrange for $v_2^2$:
+$$\frac{1}{2}v_2^2 = \frac{1}{2}v_1^2 - \left( \frac{GM}{R_1} - \frac{GM}{R_2} \right)$$
+$$\frac{1}{2}v_2^2 = \frac{1}{2}(1200)^2 - \frac{\Delta U}{m}$$
+Since $\Delta U = 1.26 \times 10^7\text{ J}$ and $m = 20\text{ kg}$:
+$$\frac{\Delta U}{m} = \frac{1.26 \times 10^7}{20} = 6.3 \times 10^5\text{ J kg}^{-1}$$
+$$\frac{1}{2}v_2^2 = 720000 - 630000 = 90000$$
+$$v_2^2 = 180000$$
+$$v_2 = \sqrt{180000} \approx 424.26\text{ m s}^{-1}$$
+
+The velocity of the mass at an altitude of $500\text{ km}$ is approximately **$424\text{ m s}^{-1}$**.
+
+###QUESTION_TYPE
+Calculation question

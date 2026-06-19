@@ -1,0 +1,25 @@
+To solve this problem, we need to analyze how the orbital energy of a satellite changes as it moves.
+
+### 1. Analysis of Gravitational Potential Energy (GPE)
+The gravitational potential energy $U_g$ of a satellite of mass $m$ at a distance $r$ from the center of the Earth (mass $M$) is given by:
+$$U_g = -\frac{GMm}{r}$$
+As the kinetic energy increases, it implies the satellite is moving to a lower orbit (a smaller radius, $r_2 < r_1$). Looking at the formula, as $r$ decreases, the denominator becomes smaller, making the magnitude of the fraction larger. Because the value is negative, a larger magnitude means a "more negative" value. Therefore, as $r$ decreases, the gravitational potential energy **decreases**.
+
+*(Note: If you interpreted "kinetic energy increases" as the satellite moving to a higher orbit due to external work, the GPE would increase. However, in the context of standard HSC orbital mechanics problems, a transition from $r_1$ to $r_2$ where $K$ increases indicates a transition to a smaller radius, which is a common scenario involving energy loss due to drag, leading to a decrease in GPE.)*
+
+### 2. Analysis of Total Mechanical Energy ($U$)
+The total mechanical energy $E$ of a satellite in a circular orbit is given by:
+$$E = K + U_g = \frac{1}{2}mv^2 - \frac{GMm}{r} = -\frac{GMm}{2r}$$
+Since the total energy $E$ is inversely proportional to $r$, moving to a smaller orbital radius ($r$ decreases) results in a total energy that becomes "more negative," meaning the total mechanical energy **decreases**.
+
+### Conclusion
+Since the satellite moves to a lower orbit ($r_2 < r_1$) to gain kinetic energy:
+*   **GPE decreases** (the satellite is deeper in the gravity well).
+*   **Total Mechanical Energy decreases** (energy is dissipated, typically by atmospheric drag).
+
+Comparing this to the provided options, row (D) correctly identifies that both decrease.
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To solve this problem, we apply the physics of charged particles moving in a uniform magnetic field, specifically focusing on the Lorentz force and circular motion.
+
+### Answer
+
+**Similarity:** Both the electron and the proton will undergo circular motion while in the magnetic field because the magnetic force acts as a centripetal force perpendicular to their velocity.
+
+**Difference:** The radius of the trajectory for the proton will be significantly larger than that of the electron. This is because the mass of a proton is much greater than the mass of an electron ($m_p \approx 1836 \times m_e$), and since the radius of curvature $r$ is proportional to mass ($r = \frac{mv}{qB}$), the proton’s larger mass results in a larger orbital radius. Additionally, they will deflect in opposite directions (the electron will deflect upwards, and the proton will deflect downwards) due to their opposite charges.
+
+---
+
+### Explanation
+To tackle this type of HSC physics question, follow these steps:
+
+1.  **Identify the Force:** A charged particle moving in a magnetic field experiences a magnetic force given by $F = qvB\sin\theta$. Since the particles are fired perpendicular to the field ($\theta = 90^\circ$), $\sin\theta = 1$, and the force is always perpendicular to the velocity. This constant perpendicular force acts as a **centripetal force**, causing the particles to travel in a circle. This is your **similarity**.
+
+2.  **Use the Radius Formula:** Equate the magnetic force to the centripetal force formula ($F = \frac{mv^2}{r}$):
+    $$qvB = \frac{mv^2}{r}$$
+    Rearranging for $r$ (the radius of the trajectory):
+    $$r = \frac{mv}{qB}$$
+
+3.  **Analyze the Variables:**
+    *   **Mass ($m$):** The proton is much heavier than the electron. Since $r \propto m$, the proton's trajectory will have a larger radius.
+    *   **Charge ($q$):** The electron is negative and the proton is positive. Using the Right-Hand Rule (or Left-Hand Rule for negative charges), you can determine the direction of the initial deflection. Because they have opposite charges, the magnetic force acts in opposite directions for each particle, leading them to curve in opposite directions.
+
+###QUESTION_TYPE
+Short answer

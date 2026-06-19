@@ -1,0 +1,29 @@
+To find the force on a charged particle moving through a magnetic field, we use the formula for the magnetic force on a moving charge:
+
+$$F = qvB \sin(\theta)$$
+
+### 1. Identify the given values:
+*   **Charge of a proton ($q$):** $1.6 \times 10^{-19} \, \text{C}$
+*   **Velocity of the proton ($v$):** $2 \times 10^3 \, \text{ms}^{-1}$
+*   **Magnetic field strength ($B$):** $0.2 \, \text{T}$
+*   **Angle ($\theta$):** $30^\circ$ (the angle between the velocity vector and the magnetic field lines)
+
+### 2. Calculate the magnitude of the force:
+Substitute the values into the formula:
+$$F = (1.6 \times 10^{-19}) \times (2 \times 10^3) \times (0.2) \times \sin(30^\circ)$$
+
+Since $\sin(30^\circ) = 0.5$:
+$$F = (1.6 \times 10^{-19}) \times (2 \times 10^3) \times (0.2) \times 0.5$$
+$$F = (1.6 \times 10^{-19}) \times (200)$$
+$$F = 3.2 \times 10^{-17} \, \text{N}$$
+
+### 3. Determine the direction:
+We use the **Right-Hand Rule** (specifically for positive charges):
+*   Point your **fingers** in the direction of the magnetic field (to the right).
+*   Point your **thumb** in the direction of the proton's velocity (at a $30^\circ$ angle upward).
+*   Your **palm** (or the normal vector from your palm) will push out of the page. Alternatively, curling your fingers from the velocity vector toward the B-field vector shows the direction is **out of the page**.
+
+Matching our magnitude ($3.2 \times 10^{-17} \, \text{N}$) and direction (out of the page) leads us to **Option B**.
+
+###QUESTION_TYPE
+Multiple choice

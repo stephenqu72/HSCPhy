@@ -1,0 +1,26 @@
+To determine the correct graphs, we must analyze the physics of a charged particle entering a uniform electric field.
+
+### Step-by-Step Explanation
+
+1.  **Analyze the Force:**
+    An electron is a negatively charged particle. The diagram shows the top plate is connected to the positive terminal of the battery and the bottom plate to the negative terminal. A uniform electric field $E$ is directed from the positive (top) plate to the negative (bottom) plate.
+    The electric force $F$ on a charge $q$ is given by $F = qE$. Since the electron is negative ($q = -e$), the force acts in the opposite direction to the electric field. Therefore, the electron experiences a constant force directed **upwards** (towards the positive plate).
+
+2.  **Determine Acceleration ($a_y$):**
+    According to Newton’s Second Law, $F = ma$, so $a = F/m$. Since the electric field between the parallel plates is uniform and the charge and mass of the electron are constant, the force and the resulting acceleration are constant.
+    On a graph of $a_y$ vs $t$, a constant value appears as a **horizontal straight line**.
+
+3.  **Determine Velocity ($v_y$):**
+    For a constant acceleration starting from an initial vertical velocity of zero (as it enters horizontally), the velocity is given by the kinematic equation $v_y = u_y + a_y t$. Since $u_y = 0$, $v_y = a_y t$.
+    This represents a **linear relationship** where the slope is equal to the constant acceleration. On a graph of $v_y$ vs $t$, this appears as a straight line passing through the origin with a positive gradient (since the acceleration is positive/upwards).
+
+4.  **Evaluate the Options:**
+    *   **Option B** shows a constant (horizontal) acceleration graph and a linear velocity graph starting from the origin. This matches our derivation perfectly.
+
+### Conclusion
+The acceleration in the $y$-direction is constant (a horizontal line on the graph), and the velocity in the $y$-direction increases linearly with time (a straight line with a positive slope).
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

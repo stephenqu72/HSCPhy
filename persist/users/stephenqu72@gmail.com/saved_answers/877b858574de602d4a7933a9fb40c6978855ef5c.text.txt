@@ -1,0 +1,24 @@
+To solve this problem, we must apply the principles of electromagnetism regarding the force between two parallel current-carrying conductors.
+
+### Explanation
+
+1.  **Direction of the Force:** According to the Right-Hand Grip Rule, wire $X$ creates a magnetic field around it. For a current flowing to the right, the magnetic field below wire $X$ points *into the page*. 
+2.  **Interaction:** When wire $Y$ (carrying current to the right) is placed in this magnetic field, it experiences a magnetic force. Using the Right-Hand Rule for magnetic force ($F = IlB \sin\theta$), current to the right in a field pointing into the page results in an *upward* force on wire $Y$.
+3.  **Nature of the Force:** Since currents in both wires are in the same direction, they **attract** each other. Wire $X$ pulls wire $Y$ upwards, effectively reducing the downward force (weight) exerted on the electric balance.
+4.  **Mathematical Relationship:** The magnitude of the attractive force per unit length $l$ is given by the formula:
+    $$F = \frac{\mu_0 I_1 I_2 l}{2\pi d}$$
+    where $I_1$ and $I_2$ are the currents, $d$ is the distance between them, and $\mu_0$ is the permeability of free space.
+5.  **Analyzing the Options:**
+    *   The balance measures the normal force exerted by the wire on the scale. The reading is effectively $Weight - F_{magnetic}$.
+    *   If either $I_1$ (top wire) or $I_2$ (bottom wire) increases, the attractive magnetic force ($F_{magnetic}$) increases.
+    *   Since the attractive force is pulling the wire *up* (away from the scale), an increase in this force causes the reading on the balance to **decrease**.
+    *   Conversely, if a current is **decreased**, the attractive force decreases, meaning the wire pushes *harder* down on the scale. Therefore, the reading on the balance will **increase**.
+
+Looking at the options:
+*   A, B, and C all suggest that changes in current would move the balance reading in the opposite direction of the physical reality.
+*   **D** states that if the current in the bottom conductor ($I_2$) is decreased, the attractive force decreases, so the balance reading increases. This is correct.
+
+**Correct Answer: D**
+
+###QUESTION_TYPE
+Multiple choice

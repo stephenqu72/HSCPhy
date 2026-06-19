@@ -1,0 +1,49 @@
+To solve this physics problem, we need to understand the relationship between orbital radius, gravitational potential energy, and kinetic energy in a circular orbit.
+
+### **Correct Answer: A**
+
+---
+
+### **Step-by-Step Explanation**
+
+#### **1. Identify the Orbital Radii**
+From the provided diagram, we can clearly see that satellite $A$ is orbiting at a larger distance from the center of the planet than satellite $B$. 
+Let $r_A$ be the orbital radius of satellite $A$ and $r_B$ be the orbital radius of satellite $B$.
+We established that:
+$$r_A > r_B$$
+
+#### **2. Comparing Gravitational Potential Energy ($U$)**
+The formula for gravitational potential energy between two masses (the planet $M$ and a satellite $m$) is:
+$$U = -\frac{G M m}{r}$$
+Note that the value of $U$ is **negative**. In physics, when comparing negative numbers, a number closer to zero is "greater."
+
+Since $r_A > r_B$, it follows that $\frac{1}{r_A} < \frac{1}{r_B}$. 
+When we multiply by the negative constant $-GMm$:
+$$-\frac{G M m}{r_A} > -\frac{G M m}{r_B}$$
+Therefore:
+$$U_A > U_B$$
+*(Intuitively, as you move further away from a planet, the potential energy increases because it becomes "less negative" as you approach zero at infinity.)*
+
+#### **3. Comparing Kinetic Energy ($K$)**
+For an object in a stable circular orbit, the gravitational force provides the necessary centripetal force:
+$$\frac{m v^2}{r} = \frac{G M m}{r^2}$$
+By simplifying this, we can find an expression for orbital velocity squared ($v^2$):
+$$v^2 = \frac{GM}{r}$$
+The formula for kinetic energy is $K = \frac{1}{2}mv^2$. Substituting our expression for $v^2$:
+$$K = \frac{G M m}{2r}$$
+Since the radius $r$ is in the denominator, a larger radius results in lower kinetic energy. Because $r_A > r_B$, then:
+$$\frac{G M m}{2r_A} < \frac{G M m}{2r_B}$$
+Therefore:
+$$K_A < K_B$$
+
+### **Conclusion**
+Combining our two findings:
+1.  $U_A > U_B$
+2.  $K_A < K_B$
+
+This matches exactly with **Row A** in the table.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

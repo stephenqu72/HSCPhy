@@ -1,0 +1,40 @@
+### Teacher's Explanation
+
+To solve this problem, we apply Newton’s Laws of Motion. The force on the bucket by the platform is the **normal force** ($F_N$).
+
+**Part a: Stationary Platform**
+When the platform is stationary, the bucket is in equilibrium. The net force is zero.
+1. Identify the forces: Gravity ($F_g = mg$) acts downwards, and the normal force ($F_N$) acts upwards.
+2. Equation: $\sum F = F_N - mg = 0$, so $F_N = mg$.
+3. Calculation: Use $g = 9.8\text{ m/s}^2$ (standard gravity).
+   $$F_N = 37.0\text{ kg} \times 9.8\text{ m/s}^2 = 362.6\text{ N}$$
+4. Rounding to three significant figures: **$363\text{ N}$**.
+
+**Part b: Accelerating Platform**
+i. When the system accelerates downwards, the normal force must decrease.
+ii. According to Newton’s Second Law ($\sum F = ma$), the net force acting on the bucket must be directed downwards to produce a downward acceleration.
+   - The forces on the bucket are gravity ($mg$) acting down and the normal force ($F_N$) acting up.
+   - $\sum F = mg - F_N = ma$
+   - Rearranging for the normal force: $F_N = m(g - a)$
+   - Since $a > 0$, the term $(g - a)$ is less than $g$, resulting in a smaller $F_N$ compared to the stationary state.
+
+---
+
+### Answers
+
+**a.**
+$$F = m \times g = 37.0\text{ kg} \times 9.8\text{ m/s}^2 = 362.6\text{ N}$$
+Rounding to three significant figures:
+**$363\text{ N}$**
+
+**b. i.**
+The correct answer is: **force decreases**
+
+**b. ii.**
+According to Newton's Second Law ($\sum F = ma$), for the bucket to accelerate downwards, there must be a net downward force. The forces acting on the bucket are its weight ($mg$) downwards and the normal force ($F_N$) upwards. Therefore:
+$$mg - F_N = ma$$
+$$F_N = m(g - a)$$
+Since the acceleration ($a$) is $1.5\text{ m/s}^2$ downwards, the normal force $F_N$ must be less than the gravitational force ($mg$) to allow for this net downward acceleration.
+
+###QUESTION_TYPE
+Calculation question

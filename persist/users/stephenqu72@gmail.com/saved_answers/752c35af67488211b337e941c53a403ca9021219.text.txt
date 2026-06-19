@@ -1,0 +1,25 @@
+To solve this physics problem, we need to analyze the forces acting on the particle as it moves through the electric field.
+
+### Analysis
+1.  **The Electric Field:** The electric field acts vertically downwards (from the positive plate to the negative plate).
+2.  **The Particle:** A positively charged particle is moving horizontally into this field.
+3.  **The Forces:** 
+    *   The electric force $F_E = qE$ acts on the particle in the direction of the electric field (vertically downwards).
+    *   In the **horizontal** direction (the direction of the particle's initial velocity), there are no forces acting on the particle (assuming vacuum conditions/no air resistance).
+4.  **Newton's First Law:** According to Newton's First Law, if no net force acts on an object in a specific direction, its velocity in that direction must remain constant.
+5.  **Horizontal Motion:** Since the horizontal velocity ($v_x$) is constant, the horizontal displacement ($x$) must increase linearly with time ($t$) according to the equation $x = v_x t$.
+
+### Evaluating the Graphs
+A displacement-time graph for an object moving with a constant non-zero velocity is a straight line with a non-zero constant slope.
+*   **Graph A:** Shows a constant positive slope, representing constant horizontal velocity. This matches our derivation.
+*   **Graph B:** Shows a negative slope, implying the particle is moving backward.
+*   **Graph C:** Represents non-linear motion (acceleration).
+*   **Graph D:** Represents zero velocity (the particle is stationary).
+
+Therefore, **Graph A** is the correct representation of the particle's horizontal motion.
+
+### Answer
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

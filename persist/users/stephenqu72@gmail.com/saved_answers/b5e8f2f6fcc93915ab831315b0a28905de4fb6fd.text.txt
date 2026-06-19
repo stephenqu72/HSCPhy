@@ -1,0 +1,30 @@
+To solve this problem, we apply the principle of **Conservation of Energy**. 
+
+### Explanation:
+
+1.  **Energy Transformation**: When a charged particle is released from rest in a uniform electric field, the electric potential energy ($E_p$) lost by the particle is converted into kinetic energy ($E_k$).
+2.  **Electric Potential Energy**: The work done on a charge $q$ moving through a potential difference $V$ is given by:
+    $$E_p = qV$$
+3.  **Kinetic Energy**: The kinetic energy of a particle with mass $m$ and velocity $v$ is:
+    $$E_k = \frac{1}{2}mv^2$$
+4.  **Setting them equal**: Assuming no energy is lost, we set the potential energy equal to the kinetic energy:
+    $$qV = \frac{1}{2}mv^2$$
+5.  **Rearranging for the variables**:
+    *   To isolate $v$: 
+        $$v^2 = \frac{2qV}{m} \implies v = \sqrt{\frac{2qV}{m}}$$
+    *   To isolate $m$: 
+        $$m = \frac{2qV}{v^2}$$
+
+Looking at the options provided:
+*   (A) $v = \sqrt{\frac{2q}{Vm}}$ is incorrect.
+*   (B) $q = \frac{Vm}{v^2}$ is incorrect.
+*   (C) $m = \frac{2qV}{v^2}$ matches our derived equation.
+*   (D) $V = \frac{mv}{2q}$ is incorrect (it misses the square on the velocity).
+
+The correct expression is **(C)**.
+
+###ANSWER
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

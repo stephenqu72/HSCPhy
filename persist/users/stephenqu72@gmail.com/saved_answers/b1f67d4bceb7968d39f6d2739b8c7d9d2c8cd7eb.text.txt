@@ -1,0 +1,34 @@
+To solve this problem, we must recognise that for an electron to move in a circular path, the magnetic force must provide the necessary centripetal force.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Velocity ($v$) = $3.0 \times 10^6\text{ m s}^{-1}$
+*   Radius ($r$) = $10\text{ m}$
+*   Charge of an electron ($q$) = $1.602 \times 10^{-19}\text{ C}$
+*   Mass of an electron ($m$) = $9.109 \times 10^{-31}\text{ kg}$
+
+**2. Set up the physics relationship:**
+The centripetal force required for circular motion is $F_c = \frac{mv^2}{r}$.
+The magnetic force acting on a moving charge is $F_B = qvB$ (assuming the velocity is perpendicular to the magnetic field, which is standard for a circular path).
+Equating the two:
+$$qvB = \frac{mv^2}{r}$$
+
+**3. Rearrange for Magnetic Field ($B$):**
+$$B = \frac{mv}{qr}$$
+
+**4. Substitute the values and calculate:**
+$$B = \frac{(9.109 \times 10^{-31}\text{ kg}) \times (3.0 \times 10^6\text{ m s}^{-1})}{(1.602 \times 10^{-19}\text{ C}) \times (10\text{ m})}$$
+$$B = \frac{2.7327 \times 10^{-24}}{1.602 \times 10^{-18}}$$
+$$B \approx 1.7 \times 10^{-6}\text{ T}$$
+
+**Final Answer:**
+The magnetic field required is approximately $1.7 \times 10^{-6}\text{ T}$.
+
+### Explanation of the Method:
+*   **Concepts:** You must equate the magnetic force expression ($qvB$) with the centripetal force expression ($\frac{mv^2}{r}$). This is the fundamental principle for charged particles in magnetic fields.
+*   **Constants:** Ensure you recall or look up the standard values for the mass and charge of an electron, as they are essential for this calculation.
+*   **Units:** Always ensure your units are in SI base units (meters, kilograms, Coulombs) before calculating to ensure the final unit for the magnetic field is in Tesla (T).
+
+###QUESTION_TYPE
+Calculation question

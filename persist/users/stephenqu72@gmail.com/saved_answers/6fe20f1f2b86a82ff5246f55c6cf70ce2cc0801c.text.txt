@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of circular motion in a magnetic field.
+
+### Part a) Outline the motion of the electron
+When a charged particle enters a uniform magnetic field at an angle perpendicular to the field lines, it experiences a magnetic force ($F = qvB$) that is always perpendicular to its velocity. This force acts as a centripetal force, causing the particle to undergo **uniform circular motion**.
+
+---
+
+### Part b) How many times does an electron travel around the circle in one minute?
+
+**1. Identify the constants and given values:**
+*   Magnetic flux density $B = 0.43 \text{ mT} = 0.43 \times 10^{-3} \text{ T}$
+*   Radius $r = 74 \text{ mm} = 0.074 \text{ m}$
+*   Mass of an electron $m = 9.11 \times 10^{-31} \text{ kg}$
+*   Charge of an electron $q = 1.602 \times 10^{-19} \text{ C}$
+
+**2. Use the formula for the period of circular motion:**
+The centripetal force $F_c = \frac{mv^2}{r}$ is provided by the magnetic force $F_B = qvB$.
+Setting them equal: $\frac{mv^2}{r} = qvB \implies v = \frac{qBr}{m}$
+
+The period $T$ (time for one revolution) is $T = \frac{2\pi r}{v}$. Substituting $v$:
+$$T = \frac{2\pi r \cdot m}{qBr} = \frac{2\pi m}{qB}$$
+
+**3. Calculate the period $T$:**
+$$T = \frac{2 \times \pi \times 9.11 \times 10^{-31}}{1.602 \times 10^{-19} \times 0.43 \times 10^{-3}}$$
+$$T \approx 8.336 \times 10^{-8} \text{ s}$$
+
+**4. Determine the number of revolutions in one minute:**
+Time $t = 60 \text{ seconds}$.
+Number of revolutions $n = \frac{t}{T}$:
+$$n = \frac{60}{8.336 \times 10^{-8}} \approx 7.20 \times 10^8$$
+
+The electron travels around the circle approximately **$7.2 \times 10^8$ times** in one minute.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,29 @@
+To find the correct expression for the vertical displacement $X$ of the charge $Q$, we must analyze the motion as a projectile-like problem, where the horizontal motion is constant and the vertical motion is accelerated by the electric force.
+
+### Step-by-Step Solution:
+
+1.  **Determine the horizontal motion:**
+    The charge enters with a constant horizontal velocity $v$. Since there is no horizontal force acting on the charge, the time $t$ it takes to travel the length $L$ of the plates is:
+    $$t = \frac{L}{v}$$
+
+2.  **Determine the vertical force and acceleration:**
+    The electric force $F$ acting on the charge is $F = QE$. 
+    According to Newton’s Second Law ($F = ma$), the vertical acceleration $a$ is:
+    $$a = \frac{F}{m} = \frac{QE}{m}$$
+
+3.  **Determine the vertical displacement:**
+    The vertical displacement $X$ is given by the kinematic equation for motion starting from an initial vertical velocity of zero:
+    $$X = u_y t + \frac{1}{2} a t^2$$
+    Since the initial vertical velocity $u_y = 0$, this simplifies to:
+    $$X = \frac{1}{2} a t^2$$
+
+4.  **Substitute the expressions for $a$ and $t$:**
+    Substitute $a = \frac{QE}{m}$ and $t = \frac{L}{v}$ into the equation for $X$:
+    $$X = \frac{1}{2} \left( \frac{QE}{m} \right) \left( \frac{L}{v} \right)^2$$
+    $$X = \frac{1}{2} \left( \frac{QE}{m} \right) \left( \frac{L^2}{v^2} \right)$$
+    $$X = \frac{QEL^2}{2mv^2}$$
+
+Comparing this result to the given options, it matches **Option C**.
+
+###QUESTION_TYPE
+Multiple choice

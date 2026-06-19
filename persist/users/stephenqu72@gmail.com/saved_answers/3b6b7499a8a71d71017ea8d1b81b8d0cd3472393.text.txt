@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of electromagnetism and rotational equilibrium.
+
+### Part (a)
+The magnitude of the torque ($\tau$) on a current-carrying coil in a magnetic field is given by the formula:
+$$\tau = nIAB \sin(\theta)$$
+Where:
+- $n = 40$ (number of turns)
+- $I = 0.30\text{ A}$ (current)
+- $A = \text{side}^2 = (0.10\text{ m})^2 = 0.01\text{ m}^2$ (area of the coil)
+- $B = 2.0\text{ T}$ (magnetic field strength)
+- $\theta = 90^\circ$ (since the coil is horizontal in a radial-style field, the magnetic force acts perpendicularly to the plane of the coil).
+
+Substituting the values:
+$$\tau = 40 \times 0.30 \times 0.01 \times 2.0 \times \sin(90^\circ)$$
+$$\tau = 0.24\text{ N}\cdot\text{m}$$
+
+### Part (b)
+To stop the coil from turning, the counter-torque produced by the mass $m$ must equal the magnetic torque calculated in part (a). The torque due to the weight of the mass $m$ is given by $\tau = r \times F_g$, where $r$ is the lever arm distance from the pivot (axis of rotation) to the edge of the coil.
+
+The lever arm distance $r$ is half the side length of the coil:
+$$r = \frac{0.10\text{ m}}{2} = 0.05\text{ m}$$
+The force $F_g = mg$. Setting the torques equal:
+$$\tau_{\text{magnetic}} = m \times g \times r$$
+$$0.24 = m \times 9.8 \times 0.05$$
+$$m = \frac{0.24}{0.49}$$
+$$m \approx 0.49\text{ kg}$$
+
+---
+### Explanation of Solution
+1. **Torque Formula:** Recognise that a current-carrying coil experiences a torque in a magnetic field. Ensure the area $A$ is calculated correctly from the side length ($0.10\text{ m} \times 0.10\text{ m} = 0.01\text{ m}^2$).
+2. **Static Equilibrium:** For the coil to stop moving, the net torque must be zero. The magnetic torque acts to rotate the coil one way, while the mass hung at the edge provides an opposing gravitational torque.
+3. **Lever Arm:** The pivot point is the central axis. Since the mass is hung at the right-hand side, the distance from the pivot is $0.05\text{ m}$ (half the width of the square).
+
+###QUESTION_TYPE
+Calculation question

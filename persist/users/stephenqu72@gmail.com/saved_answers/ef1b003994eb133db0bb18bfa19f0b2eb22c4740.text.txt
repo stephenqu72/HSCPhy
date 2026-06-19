@@ -1,0 +1,31 @@
+To determine the SI unit for the constant $k$, we use the principle of **dimensional consistency**. In any physically valid equation, the units on the left-hand side must equal the units on the right-hand side.
+
+### Step-by-Step Solution:
+
+1. **Identify the units of the variables:**
+   - $u$ is speed, so its SI unit is $m/s$ or $m \cdot s^{-1}$.
+   - $l$ is length, so its SI unit is $m$.
+   - $r$ is radius (a length), so its SI unit is $m$. The term $r^2$ will have the unit $m^2$.
+   - $3$ and $2$ are dimensionless constants and do not affect the units.
+
+2. **Rearrange the given equation to isolate $k$:**
+   Given the equation:
+   $$u = \frac{3kl}{2r^2}$$
+   Multiply both sides by $2r^2$ and divide by $3l$:
+   $$k = \frac{u \cdot 2r^2}{3l}$$
+
+3. **Substitute the units into the expression for $k$:**
+   Ignoring the dimensionless constants ($2$ and $3$), we look at the units:
+   $$\text{Units of } k = \frac{\text{Units of } u \cdot \text{Units of } r^2}{\text{Units of } l}$$
+   $$\text{Units of } k = \frac{(m \cdot s^{-1}) \cdot (m^2)}{m}$$
+
+4. **Simplify the units:**
+   $$\text{Units of } k = \frac{m^3 \cdot s^{-1}}{m}$$
+   $$\text{Units of } k = m^2 \cdot s^{-1}$$
+
+Comparing this result to the given options, $m^2s^{-1}$ matches option (B).
+
+**Correct Answer: (B)**
+
+###QUESTION_TYPE
+Multiple choice

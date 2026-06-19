@@ -1,0 +1,29 @@
+To solve this problem, we use the formula for the force per unit length ($F/L$) between two parallel current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+In this arrangement, all currents are magnitude $I$, and the distance between wires is $a$. Therefore, the magnitude of the force exerted by wire B on wire A, and by wire C on wire A, is the same:
+$$F_{BA} = F_{CA} = \frac{\mu_0 I^2}{2\pi a}$$
+
+**Step 1: Determine the direction of the forces on A**
+*   Wire A carries current *into* the page ($\otimes$).
+*   Wire B carries current *out of* the page ($\odot$).
+*   Since the currents are in opposite directions, the force between A and B is **repulsive**. Thus, wire B pushes wire A away along the line connecting them (up and to the right).
+*   Similarly, the current in wire C is opposite to wire A, so wire C exerts a **repulsive** force on wire A (up and to the left).
+
+**Step 2: Vector addition**
+We have two equal force vectors, each of magnitude $F_0 = \frac{\mu_0 I^2}{2\pi a}$, acting on wire A. The angle between the line connecting B-A and C-A is $60^\circ$ (equilateral triangle). By geometry, the horizontal components of these two forces are equal and opposite, so they cancel out. The vertical components both point upwards and add together.
+
+The angle each force vector makes with the vertical is $30^\circ$. The net vertical force is:
+$$F_{net} = F_{BA} \cos(30^\circ) + F_{CA} \cos(30^\circ)$$
+$$F_{net} = 2 \left( \frac{\mu_0 I^2}{2\pi a} \right) \cos(30^\circ)$$
+
+Since $\cos(30^\circ) = \frac{\sqrt{3}}{2}$:
+$$F_{net} = 2 \left( \frac{\mu_0 I^2}{2\pi a} \right) \left( \frac{\sqrt{3}}{2} \right) = \frac{\mu_0 \sqrt{3} I^2}{2\pi a}$$
+
+The direction of the net force is **upwards**.
+
+Comparing this to the given options, **Option B** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

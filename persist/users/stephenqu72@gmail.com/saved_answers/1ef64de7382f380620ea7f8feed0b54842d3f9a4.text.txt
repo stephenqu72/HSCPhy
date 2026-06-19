@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+To solve this problem, we first need to identify the horizontal and vertical components of the velocity. The problem states the velocity $v = 25.0\text{ m s}^{-1}$ is at an angle of $60^\circ$ **with the vertical**. 
+
+In projectile motion, it is standard to use the angle $\theta$ with respect to the horizontal. Since the angle with the vertical is $60^\circ$, the angle with the horizontal is $\theta = 90^\circ - 60^\circ = 30^\circ$.
+
+*   Horizontal velocity component: $v_x = v \cos(30^\circ) = 25.0 \times \frac{\sqrt{3}}{2} \approx 21.65\text{ m s}^{-1}$
+*   Vertical velocity component: $v_y = v \sin(30^\circ) = 25.0 \times 0.5 = 12.5\text{ m s}^{-1}$
+
+---
+
+#### a. Determine the minimum speed of the tennis ball while it is in flight.
+
+In projectile motion, the horizontal velocity ($v_x$) remains constant throughout the flight because there is no air resistance. The total speed is minimum at the peak of the trajectory, where the vertical velocity component ($v_y$) is zero. 
+
+Therefore, the minimum speed is equal to the horizontal velocity component:
+$$v_{\text{min}} = v_x = 21.65\text{ m s}^{-1}$$
+
+**Answer: 21.65 m s$^{-1}$**
+
+---
+
+#### b. Determine the maximum height of the tennis ball above the ground.
+
+We use the kinematic equation for vertical motion: $v_f^2 = v_i^2 + 2ay$. At the maximum height, the final vertical velocity is $v_f = 0$, the initial vertical velocity is $v_i = 12.5\text{ m s}^{-1}$, and the acceleration due to gravity is $a = -9.8\text{ m s}^{-2}$.
+
+$$0 = (12.5)^2 + 2(-9.8)h$$
+$$19.6h = 156.25$$
+$$h = \frac{156.25}{19.6} \approx 7.97\text{ m}$$
+
+**Answer: 7.97 m**
+
+---
+
+###QUESTION_TYPE
+Calculation question

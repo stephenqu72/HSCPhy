@@ -1,0 +1,23 @@
+To answer this question correctly, we must understand the physics governing the motion of a charged particle within a cyclotron.
+
+### Correct Answer:
+**B. It only accelerates while between the dees.**
+
+---
+
+### Explanation:
+
+1.  **Motion inside the dees:** Inside the hollow electrode chambers (the "dees"), the particle is shielded from the electric field. It is moving solely through a uniform magnetic field ($B$). The force acting on the particle is the magnetic Lorentz force, given by $F = qvB \sin(\theta)$. Since the velocity is perpendicular to the magnetic field, this force acts as a centripetal force, causing the particle to move in a semicircular path. Because the magnetic force is always perpendicular to the direction of motion, it changes the *direction* of the velocity but **cannot change its magnitude** (speed). Thus, the particle does not accelerate inside the dees.
+
+2.  **Motion between the dees:** In the gap between the two dees, there is an alternating electric field ($E$). When the particle crosses this gap, it experiences an electric force ($F = qE$). This force is parallel (or anti-parallel) to the direction of motion, which performs work on the particle. According to the work-energy theorem, this work results in an increase in the kinetic energy of the particle, which corresponds to an **increase in speed (acceleration)**.
+
+3.  **Why the other options are incorrect:**
+    *   **A is incorrect** because the magnetic field does no work on the particle while it is inside the dees.
+    *   **C is incorrect** because there is no electric field inside the hollow dees to cause linear acceleration.
+    *   **D is incorrect** because the particle maintains a constant speed while inside the dees, it does not slow down.
+
+### Summary
+The cyclotron design uses the gap for acceleration via an electric field and the dees for uniform circular motion via a magnetic field. Therefore, the particle only gains speed when crossing the gap.
+
+###QUESTION_TYPE
+Multiple choice

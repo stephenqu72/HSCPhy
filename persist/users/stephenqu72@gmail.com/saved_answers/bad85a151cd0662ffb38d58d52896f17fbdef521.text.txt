@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+#### Part (a)
+**Explanation:** 
+In the absence of air resistance, all objects fall under the influence of gravity with the same constant acceleration, $g$, regardless of their mass. The vertical motion is governed by the kinematic equation $s = ut + \frac{1}{2}at^2$. Assuming the particles leave the hopper with zero initial vertical velocity ($u_y = 0$), the equation becomes $h = \frac{1}{2}gt^2$. 
+
+Rearranging for time $t$:
+$$t = \sqrt{\frac{2h}{g}}$$
+Since $h$ (vertical distance) and $g$ (acceleration due to gravity) are constants for all particles, the time $t$ is independent of the mass $m$.
+
+---
+
+#### Part (b)
+**Step 1: Calculate the time of flight ($t$).**
+Using $g = 9.8\text{ m/s}^2$ and $h = 4.5\text{ m}$:
+$$t = \sqrt{\frac{2 \times 4.5}{9.8}} \approx 0.9578\text{ s}$$
+
+**Step 2: Determine the electric field strength ($E$).**
+The plates are separated by $d = 0.35\text{ m}$ with a potential difference $V = 65,000\text{ V}$:
+$$E = \frac{V}{d} = \frac{65000}{0.35} \approx 185714.29\text{ V/m}$$
+
+**Step 3: Calculate horizontal acceleration ($a_x$).**
+The force on the particle is $F = qE$, and by Newton's Second Law, $F = ma$. Therefore, $ma = qE$, which leads to $a_x = \frac{q}{m}E$.
+Given the specific charge $\frac{q}{m} = 1.2 \times 10^{-6}\text{ C/kg}$:
+$$a_x = (1.2 \times 10^{-6}) \times 185714.29 \approx 0.22286\text{ m/s}^2$$
+
+**Step 4: Calculate horizontal deflection ($x$).**
+Using the kinematic equation for horizontal motion starting from rest ($u_x = 0$):
+$$x = \frac{1}{2}a_xt^2$$
+$$x = 0.5 \times 0.22286 \times (0.9578)^2 \approx 0.102\text{ m}$$
+
+**Final Answer:** The total horizontal deflection is approximately **$0.10\text{ m}$** (or $10.2\text{ cm}$).
+
+---
+
+###QUESTION_TYPE
+Calculation question

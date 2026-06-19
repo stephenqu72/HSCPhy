@@ -1,0 +1,33 @@
+To find the magnitude and direction of the force per unit length on wire $Y$, we must consider the forces exerted by the magnetic fields of wire $X$, wire $Z$, and the Earth.
+
+### 1. Forces due to Wires $X$ and $Z$
+The force per unit length between two parallel wires is given by:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+Where $\mu_0 = 4\pi \times 10^{-7} \, \text{T m A}^{-1}$.
+
+*   **From wire $X$:** Wire $X$ has current $I_X = 1.0 \, \text{A}$ (into the page) and wire $Y$ has $I_Y = 2.0 \, \text{A}$ (out of the page). Since the currents are in opposite directions, they repel. Wire $X$ is to the west of $Y$, so the repulsive force on $Y$ acts **East**.
+    $$\frac{F_X}{L} = \frac{(4\pi \times 10^{-7})(1.0)(2.0)}{2\pi(0.30)} = \frac{4 \times 10^{-7}}{0.30} \approx 1.33 \times 10^{-6} \, \text{N m}^{-1}$$
+
+*   **From wire $Z$:** Wire $Z$ has current $I_Z = 1.0 \, \text{A}$ (out of the page). $I_Y$ and $I_Z$ are in the same direction, so they attract. Wire $Z$ is to the east of $Y$, so the attractive force on $Y$ acts **East**.
+    $$\frac{F_Z}{L} = \frac{(4\pi \times 10^{-7})(1.0)(2.0)}{2\pi(0.30)} \approx 1.33 \times 10^{-6} \, \text{N m}^{-1}$$
+
+*   **Total force from wires:** Both forces act East.
+    $$\frac{F_{wires}}{L} = 1.33 \times 10^{-6} + 1.33 \times 10^{-6} = 2.66 \times 10^{-6} \, \text{N m}^{-1} \text{ (East)}$$
+
+### 2. Force due to Earth's Magnetic Field
+The force per unit length due to an external magnetic field is $F/L = B I \sin\theta$. Here, the current $I_Y = 2.0 \, \text{A}$ flows vertically (out of the page), and the Earth's horizontal field is $2.0 \times 10^{-5} \, \text{T}$ directed towards North. Since the current and field are perpendicular, $\sin(90^\circ) = 1$.
+$$\frac{F_E}{L} = (2.0 \times 10^{-5})(2.0) = 4.0 \times 10^{-5} \, \text{N m}^{-1}$$
+Using the right-hand rule (fingers point North, thumb points out of page), the force is directed **West**.
+
+### 3. Resultant Force
+Compare the forces:
+*   $F_{wires} = 2.7 \times 10^{-6} \, \text{N m}^{-1}$ (East)
+*   $F_E = 4.0 \times 10^{-5} \, \text{N m}^{-1}$ (West)
+
+The Earth's field force is much larger and dominates the direction.
+$$F_{net} = 4.0 \times 10^{-5} - 0.27 \times 10^{-5} \approx 3.7 \times 10^{-5} \, \text{N m}^{-1} \text{ (West)}$$
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,24 @@
+To determine the effect on the object's gravitational potential energy, we use the standard formula for gravitational potential energy ($U$) of an object of mass $m$ at a distance $r$ from the centre of a large mass $M$:
+
+$$U = -\frac{GMm}{r}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the initial state:** The initial gravitational potential energy is $U_1 = -\frac{GMm}{r}$.
+2.  **Determine the new state:** The radius is quadrupled, so the new radius $r' = 4r$.
+3.  **Calculate the new potential energy ($U_2$):**
+    $$U_2 = -\frac{GMm}{r'} = -\frac{GMm}{4r}$$
+4.  **Compare $U_2$ to $U_1$:**
+    $$U_2 = \frac{1}{4} \left( -\frac{GMm}{r} \right) = \frac{1}{4} U_1$$
+
+**Interpretation:**
+Because gravitational potential energy is defined as a negative value (representing a "well"), as the object moves further away from the central mass ($r$ increases), the energy becomes *less negative*, which mathematically means it increases toward zero. However, in the context of typical HSC multiple-choice questions regarding the **magnitude** or the scaling factor of the expression, the value is being multiplied by $\frac{1}{4}$. 
+
+Looking at the provided options, option (B) states the energy is "reduced by a quarter" (meaning it is now $\frac{1}{4}$ of the original magnitude). 
+
+*Note for students:* While moving further out means the potential energy is mathematically *increasing* (getting closer to zero), in physics problems of this type, we are often comparing the magnitude of the potential. Since $U$ is inversely proportional to $r$, when $r$ is multiplied by 4, the value of the term $\frac{1}{r}$ is multiplied by $\frac{1}{4}$. Thus, the magnitude of the gravitational potential energy is reduced to a quarter of its original value.
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

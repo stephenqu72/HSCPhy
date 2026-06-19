@@ -1,0 +1,22 @@
+### Answer
+The correct answer is **A**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the fundamental principles of electrostatics regarding parallel plate capacitors:
+
+1.  **Uniform Electric Field:** In an ideal parallel plate arrangement (neglecting edge effects), the charge is distributed uniformly across the surface of the plates. This creates an electric field that is constant in both magnitude and direction at every point between the plates.
+2.  **Mathematical Relationship:** The electric field strength $E$ between two parallel plates is given by the formula:
+    $$E = \frac{V}{d}$$
+    where $V$ is the potential difference between the plates and $d$ is the perpendicular distance of separation. Since both $V$ and $d$ are constant for a given setup, $E$ remains constant regardless of the position $x$ between the plates.
+3.  **Evaluating the Graphs:** 
+    *   **Graph A:** Shows $E$ as a horizontal line, meaning $E$ is independent of $x$. This matches the theoretical definition of a uniform electric field.
+    *   **Graph B:** Shows $E$ varying with position (a curve), which would imply a non-uniform field.
+    *   **Graph C:** Shows $E$ decreasing linearly, which is incorrect for a parallel plate capacitor.
+    *   **Graph D:** Shows $E$ decreasing then increasing, which is also incorrect.
+
+Therefore, because the electric field between two parallel plates is uniform, the magnitude of $E$ does not change as you move from position X to Z. Graph **A** correctly represents this constant value.
+
+###QUESTION_TYPE
+Multiple choice

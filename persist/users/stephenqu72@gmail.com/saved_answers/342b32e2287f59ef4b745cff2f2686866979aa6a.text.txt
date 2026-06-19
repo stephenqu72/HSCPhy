@@ -1,0 +1,26 @@
+To determine the orientation of the wire that results in the maximum force, we use the formula for the magnetic force on a current-carrying wire:
+
+$$F = IlB \sin(\theta)$$
+
+where:
+*   $I$ is the current.
+*   $l$ is the length of the wire.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the direction of the current (the wire) and the direction of the magnetic field.
+
+The force $F$ is at its **maximum** when $\sin(\theta) = 1$, which occurs when $\theta = 90^{\circ}$. This means the wire must be **perpendicular** to the magnetic field lines.
+
+### Explanation:
+1.  **Analyze the field:** The Earth's magnetic field lines are angled at $30^{\circ}$ to the horizontal, pointing from South to North (dipping downwards).
+2.  **Evaluate the options:**
+    *   (A) **Vertical:** If the wire is vertical, the angle between the wire and the field lines is $90^{\circ} - 30^{\circ} = 60^{\circ}$.
+    *   (B) **Horizontal and North-South:** If the wire is horizontal and aligned North-South, the wire is at $30^{\circ}$ to the field lines.
+    *   (C) **Horizontal and East-West:** The Earth's magnetic field lines lie in the magnetic meridian plane (a vertical plane running North-South). An East-West horizontal line is perpendicular to this entire vertical plane. Therefore, a wire oriented horizontally East-West is at a $90^{\circ}$ angle to the magnetic field lines regardless of their dip angle.
+    *   (D) **Parallel:** If the wire is parallel to the field, $\theta = 0^{\circ}$, so $\sin(0) = 0$, resulting in zero force.
+
+Since option (C) places the wire at $90^{\circ}$ to the magnetic field lines, it produces the maximum force.
+
+**Correct Answer: (C)**
+
+###QUESTION_TYPE
+Multiple choice

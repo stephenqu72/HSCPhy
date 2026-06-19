@@ -1,0 +1,37 @@
+To solve this problem, we apply the principles of electromagnetism, specifically the **Motor Effect** (the force on a current-carrying conductor in a magnetic field) and **Newton’s Third Law**.
+
+### (a) Identify and explain the polarity of the magnet at pole $X$.
+
+**Answer:** Pole $X$ is the **North pole**.
+
+**Explanation:**
+1.  **The Motor Effect:** When a current $I$ flows through a wire of length $L$ in a magnetic field $B$, a force $F = BIL\sin\theta$ is exerted on the wire.
+2.  **Newton’s Third Law:** The balance reading increases because the rod exerts an equal and opposite downward reaction force on the magnet. For the balance reading to *increase*, the magnetic force on the rod must be directed **downwards**.
+3.  **Right-Hand Rule:** Align your right hand such that your thumb points in the direction of the current (from $P$ to $Q$) and your palm pushes downwards (the direction of the magnetic force $F$). Your fingers will point towards the magnetic field direction. Since the fingers point *into* the gap, the magnetic field lines originate from the top pole (Pole $X$) and go down to the bottom pole. Therefore, Pole $X$ must be the **North pole**.
+
+---
+
+### (b) Calculate the magnetic field strength between the poles of the magnet.
+
+**1. Convert units to SI:**
+*   Change in mass $\Delta m = 2.69\text{ g} = 0.00269\text{ kg}$
+*   Length $L = 3.45\text{ cm} = 0.0345\text{ m}$
+*   Current $I = 3.2\text{ A}$
+*   Acceleration due to gravity $g \approx 9.8\text{ m/s}^2$
+
+**2. Relate the increase in mass to the magnetic force:**
+The increase in the reading is due to the magnetic force $F_B$ pushing down on the magnet:
+$$F_B = \Delta m \cdot g$$
+$$F_B = 0.00269 \text{ kg} \times 9.8 \text{ m/s}^2 = 0.026362 \text{ N}$$
+
+**3. Use the formula $F = BIL$:**
+Since the rod is perpendicular to the field ($\theta = 90^\circ$, $\sin 90^\circ = 1$):
+$$B = \frac{F}{I \cdot L}$$
+$$B = \frac{0.026362}{3.2 \times 0.0345}$$
+$$B = \frac{0.026362}{0.1104}$$
+$$B \approx 0.23878... \text{ T}$$
+
+**Final Answer:** Rounded to 3 significant figures (based on the provided data), the magnetic field strength is **$0.239 \text{ T}$**.
+
+###QUESTION_TYPE
+Calculation question

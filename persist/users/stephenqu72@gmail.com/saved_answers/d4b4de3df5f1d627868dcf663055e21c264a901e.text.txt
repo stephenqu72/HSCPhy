@@ -1,0 +1,35 @@
+### Answer
+
+**(a) Account for the relative values of kinetic energy at $t_0, t_1$, and $t_2$.**
+
+*   **At $t_0$:** The object is at the launch point. It possesses a moderate amount of kinetic energy ($864\text{ J}$) as it is launched with an initial velocity.
+*   **At $t_1$:** This represents the highest point of the trajectory. At this vertical displacement, the vertical component of the velocity is zero. The kinetic energy is at its minimum ($284\text{ J}$) because the object is moving solely with its constant horizontal velocity component.
+*   **At $t_2$:** The object has returned to ground level. Due to the conservation of mechanical energy (ignoring air resistance), the gravitational potential energy lost during the fall from the cliff to the ground is converted into kinetic energy. Consequently, the object is moving faster than at the launch point, resulting in the highest kinetic energy ($1393\text{ J}$).
+
+**(b) Calculate the time of flight of the mass.**
+
+To find the time of flight, we must identify the horizontal velocity component ($v_x = 13.76\text{ ms}^{-1}$) and the total kinetic energy at the point of impact ($t_2$).
+
+1.  **Kinetic energy at $t_2$:** $KE = 1393\text{ J}$.
+2.  **Total velocity ($v$) at impact:** Using $KE = \frac{1}{2}mv^2$:
+    $$1393 = \frac{1}{2} \times 3.0 \times v^2$$
+    $$v^2 = \frac{1393 \times 2}{3} \approx 928.67$$
+    $$v \approx 30.47\text{ ms}^{-1}$$
+3.  **Vertical velocity component ($v_y$) at impact:** Using $v^2 = v_x^2 + v_y^2$:
+    $$v_y = \sqrt{v^2 - v_x^2} = \sqrt{928.67 - (13.76)^2} = \sqrt{928.67 - 189.34} \approx \sqrt{739.33} \approx 27.19\text{ ms}^{-1}$$
+    *(Note: This is the magnitude of the final vertical velocity downward).*
+4.  **Initial vertical velocity ($v_{iy}$):** Use the $KE$ at $t_0$ ($864\text{ J}$):
+    $$864 = \frac{1}{2} \times 3.0 \times v_{initial}^2 \implies v_{initial} = \sqrt{576} = 24\text{ ms}^{-1}$$
+    $$v_{iy} = \sqrt{24^2 - 13.76^2} = \sqrt{576 - 189.34} \approx 19.66\text{ ms}^{-1}$$
+5.  **Time of flight:** Using $v_{fy} = v_{iy} + a_yt$:
+    $$-27.19 = 19.66 + (-9.8)t$$
+    $$t = \frac{-27.19 - 19.66}{-9.8} \approx 4.78\text{ s}$$
+
+---
+
+### How to solve it
+1.  **Part (a):** Focus on projectile motion principles. Remember that $KE$ depends on the square of the speed. At the peak ($t_1$), the vertical velocity is zero, leaving only the horizontal component. At launch ($t_0$), there is a vertical component, and at impact ($t_2$), the object has fallen below its launch height, converting GPE into $KE$.
+2.  **Part (b):** You are given the horizontal velocity ($v_x$), which remains constant. You need to find the total velocity at $t_2$ from the $KE$ formula, then use Pythagoras to isolate the final vertical velocity. Use the kinematic equation $v_f = v_i + at$ to solve for $t$.
+
+###QUESTION_TYPE
+Calculation question

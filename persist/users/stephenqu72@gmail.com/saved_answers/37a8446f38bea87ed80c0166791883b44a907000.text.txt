@@ -1,0 +1,27 @@
+To solve this problem, we must analyze the motion of the ball as a projectile and the rotation of the disc independently, then find their relative positions at the time of impact.
+
+### 1. Calculate the time of flight for the ball
+The ball is fired vertically with an initial velocity $u = 5.72\text{ m s}^{-1}$. Ignoring air resistance, it will travel until it returns to ground level ($s = 0$). Using the displacement formula $s = ut + \frac{1}{2}at^2$:
+$$0 = 5.72t - \frac{1}{2}(9.8)t^2$$
+Dividing by $t$ (where $t > 0$):
+$$4.9t = 5.72 \implies t = \frac{5.72}{4.9} \approx 1.167\text{ s}$$
+
+### 2. Calculate the angular rotation of the disc
+The disc rotates at $3\text{ revolutions per second}$. The angular velocity $\omega$ is:
+$$\omega = 3 \times 2\pi = 6\pi\text{ rad s}^{-1}$$
+In the time $t = 1.167\text{ s}$, the angle $\theta$ the disc turns through is:
+$$\theta = \omega t = (6\pi) \times 1.167 \approx 22\text{ rad}$$
+To find the relative position, we need the displacement angle modulo $2\pi$:
+$$\theta_{\text{mod}} = (6\pi \times 1.167) \pmod{2\pi} = 7.002\pi \pmod{2\pi} \approx 1.002\pi\text{ radians}$$
+Since $1.002\pi \approx \pi$ radians, the launcher has rotated approximately $180^\circ$ (half a turn) from its original position.
+
+### 3. Determine the relative position
+*   **The ball's position:** Because it was fired vertically, it maintains its original horizontal position at $X$ (relative to the stationary ground).
+*   **The launcher's new position:** The launcher is at a radius $r = 2\text{ m}$. After rotating by $\approx \pi$ radians, it is now on the opposite side of the centre from $X$.
+*   **Distance calculation:** Since the launcher is now $2\text{ m}$ from the centre on the opposite side of the ball, the distance between the ball and the launcher is:
+$$d = 2\text{ m} + 2\text{ m} = 4\text{ m}$$
+
+**Conclusion:** At the instant the ball hits the ground, the launcher is on the opposite side of the disc. The ball is $4\text{ m}$ away from the launcher.
+
+###QUESTION_TYPE
+Calculation question

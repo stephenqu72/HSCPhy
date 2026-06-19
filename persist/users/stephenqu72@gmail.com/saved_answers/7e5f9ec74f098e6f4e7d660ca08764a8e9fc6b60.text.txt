@@ -1,0 +1,39 @@
+To solve this problem, we must apply the principle of equilibrium. For the conductor rod to "levitate," the upward magnetic force acting on it must be equal in magnitude to the downward gravitational force (its weight).
+
+### 1. Identify the given values:
+*   Length of the rod ($L$) = $10.0\text{ cm} = 0.100\text{ m}$
+*   Magnetic field strength ($B$) = $4.20\text{ T}$
+*   Current ($I$) = $2.50\text{ A}$
+*   Acceleration due to gravity ($g$) $\approx 9.8\text{ m/s}^2$ (we will use $9.8\text{ m/s}^2$ as standard)
+
+### 2. Set up the equilibrium equation:
+The magnetic force ($F_B$) on a current-carrying wire is given by:
+$$F_B = BIL \sin(\theta)$$
+Since the field is at right angles to the rod, $\sin(90^\circ) = 1$, so $F_B = BIL$.
+
+The gravitational force ($F_g$) is:
+$$F_g = mg$$
+
+For levitation, $F_B = F_g$:
+$$BIL = mg$$
+
+### 3. Calculate the mass ($m$):
+Rearrange the formula to solve for $m$:
+$$m = \frac{BIL}{g}$$
+$$m = \frac{4.20 \times 2.50 \times 0.100}{9.8}$$
+$$m = \frac{1.05}{9.8}$$
+$$m \approx 0.1071\text{ kg}$$
+
+Rounding to two significant figures (consistent with the inputs $2.50$ and $4.20$ would imply three, but looking at the options provided):
+$0.107\text{ kg}$ is approximately $0.11\text{ kg}$.
+
+Comparing this to the given options:
+(A) $0.011\text{ kg}$
+(B) $0.11\text{ kg}$
+(C) $1.1\text{ kg}$
+(D) $11\text{ kg}$
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

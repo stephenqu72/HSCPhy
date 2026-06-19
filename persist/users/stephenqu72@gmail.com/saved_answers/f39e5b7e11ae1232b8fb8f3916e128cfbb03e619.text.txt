@@ -1,0 +1,30 @@
+To solve this problem, we must equate the electrical potential energy gained by the electron to its kinetic energy. Note that the magnetic field information provided in the question is extraneous for calculating the **speed** of an electron accelerated by a voltage; the magnetic field only determines the radius of the circular path the electron would follow once it is already moving.
+
+### Step-by-Step Solution:
+
+**1. Identify the relevant physics principles:**
+When an electron (charge $q$) is accelerated from rest through a potential difference ($V$), the work done on the electron equals its kinetic energy ($K$):
+$$W = qV = \frac{1}{2}mv^2$$
+Where:
+*   $q = 1.602 \times 10^{-19} \text{ C}$ (elementary charge)
+*   $V = 3200 \text{ V}$
+*   $m = 9.109 \times 10^{-31} \text{ kg}$ (mass of an electron)
+*   $v = \text{speed of the electron}$
+
+**2. Rearrange the formula to solve for $v$:**
+$$v^2 = \frac{2qV}{m}$$
+$$v = \sqrt{\frac{2qV}{m}}$$
+
+**3. Substitute the values:**
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19} \text{ C}) \times 3200 \text{ V}}{9.109 \times 10^{-31} \text{ kg}}}$$
+$$v = \sqrt{\frac{1.02528 \times 10^{-15}}{9.109 \times 10^{-31}}}$$
+$$v = \sqrt{1.12557 \times 10^{15}}$$
+$$v \approx 3.355 \times 10^7 \text{ m/s}$$
+
+Comparing this result to the given options, we select **(c)**.
+
+### Answer:
+The correct option is **(c)**.
+
+###QUESTION_TYPE
+Multiple choice

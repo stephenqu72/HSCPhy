@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### (a) How a synchrotron accelerates particles
+A synchrotron accelerates charged particles (like protons) using two primary components:
+1.  **Electric Fields:** RF (radio frequency) cavities provide an oscillating electric field. As particles pass through, the field is synchronised to provide an electric force that accelerates the particles, increasing their kinetic energy.
+2.  **Magnetic Fields:** Large electromagnets are used to bend the path of the particles into a circular trajectory. As the particles gain energy, the magnetic field strength is increased synchronously to keep the radius of the path constant, ensuring the particles stay within the vacuum beam pipe.
+
+#### (b) Calculation of mass and velocity
+**1. Mass:** 
+In relativistic physics, "mass" usually refers to the **relativistic mass** $m = \gamma m_0$, where $m_0$ is the rest mass of a proton ($\approx 1.67 \times 10^{-27}\text{ kg}$).
+The total energy $E$ is $2,250\text{ GeV}$. Converting to Joules:
+$$E = 2250 \times 10^9 \text{ eV} \times 1.602 \times 10^{-19} \text{ J/eV} \approx 3.60 \times 10^{-7} \text{ J}$$
+Using $E = mc^2$, the relativistic mass is:
+$$m = \frac{E}{c^2} = \frac{3.60 \times 10^{-7}}{(3.00 \times 10^8)^2} \approx 4.00 \times 10^{-24} \text{ kg}$$
+
+**2. Velocity:**
+Since $E = \gamma m_0 c^2$, we have $\gamma = \frac{E}{m_0 c^2}$.
+$$E_{rest} = 1.67 \times 10^{-27} \times (3 \times 10^8)^2 \approx 1.503 \times 10^{-10} \text{ J} \approx 0.938 \text{ GeV}$$
+$$\gamma = \frac{2250}{0.938} \approx 2398.7$$
+Since $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$, then $v = c \sqrt{1 - \frac{1}{\gamma^2}}$. Because $\gamma$ is very large, $\frac{1}{\gamma^2}$ is negligible, so the velocity is effectively **extremely close to the speed of light ($c$)**, specifically $v \approx 0.9999999 c$.
+
+#### (c) Isolated quarks
+No, isolated quarks cannot be produced due to the principle of **colour confinement**. Quarks are always confined within hadrons (like protons or mesons). As you attempt to pull two quarks apart, the energy in the "gluon field" between them increases until it becomes energetically favourable to create a new quark-antiquark pair from the vacuum, resulting in two sets of bound particles (hadronisation) rather than a free quark.
+
+***
+
+### QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To find the speed of the electron when it hits the plate, we use the principle of **Conservation of Energy**. The total kinetic energy of the electron when it hits the plate is the sum of its initial kinetic energy and the work done on it by the electric field.
+
+### 1. Identify the given values:
+*   Initial velocity ($v_i$) = $5.00 \times 10^5 \text{ m s}^{-1}$
+*   Potential difference between plates ($V_{total}$) = $6.00 \text{ V}$
+*   Distance between plates ($d$) = $40.0 \text{ cm} = 0.400 \text{ m}$
+*   Mass of an electron ($m_e$) $\approx 9.11 \times 10^{-31} \text{ kg}$
+*   Charge of an electron ($q$) $\approx 1.60 \times 10^{-19} \text{ C}$
+
+### 2. Determine the potential difference acting on the electron:
+The electron starts halfway between the plates. Since the field is uniform, the potential difference it "falls" through to reach either plate is half of the total potential difference:
+$$\Delta V = \frac{6.00 \text{ V}}{2} = 3.00 \text{ V}$$
+
+### 3. Energy Conservation Equation:
+The gain in kinetic energy equals the work done by the electric field ($W = q\Delta V$):
+$$\frac{1}{2}m_ev_f^2 = \frac{1}{2}m_ev_i^2 + q\Delta V$$
+$$v_f^2 = v_i^2 + \frac{2q\Delta V}{m_e}$$
+
+### 4. Calculation:
+Substitute the values:
+$$v_f^2 = (5.00 \times 10^5)^2 + \frac{2(1.60 \times 10^{-19})(3.00)}{9.11 \times 10^{-31}}$$
+$$v_f^2 = 2.50 \times 10^{11} + \frac{9.60 \times 10^{-19}}{9.11 \times 10^{-31}}$$
+$$v_f^2 = 2.50 \times 10^{11} + 1.0538 \times 10^{12}$$
+$$v_f^2 \approx 1.3038 \times 10^{12}$$
+$$v_f = \sqrt{1.3038 \times 10^{12}} \approx 1.14 \times 10^6 \text{ m s}^{-1}$$
+
+Comparing this result to the provided options, **Option A** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

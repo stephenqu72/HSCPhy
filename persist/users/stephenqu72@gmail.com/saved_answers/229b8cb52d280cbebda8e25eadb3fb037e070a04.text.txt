@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of circular motion and magnetism. In a synchrotron, the magnetic force acts as the centripetal force keeping the proton in its circular orbit.
+
+### 1. Identify the given values
+*   Circumference of the path ($C$) = $1.2\text{ km} = 1200\text{ m}$
+*   Velocity of the proton ($v$) = $2 \times 10^8\text{ m/s}$
+*   Charge of a proton ($q$) = $1.602 \times 10^{-19}\text{ C}$
+*   Mass of a proton ($m$) = $1.673 \times 10^{-27}\text{ kg}$
+
+### 2. Determine the radius ($r$)
+Since $C = 2\pi r$:
+$$r = \frac{C}{2\pi} = \frac{1200}{2\pi} \approx 190.986\text{ m}$$
+
+### 3. Apply the force equilibrium equation
+The magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging for $B$ (the magnetic field magnitude):
+$$B = \frac{mv}{qr}$$
+
+### 4. Substitute the values
+$$B = \frac{(1.673 \times 10^{-27}\text{ kg}) \times (2 \times 10^8\text{ m/s})}{(1.602 \times 10^{-19}\text{ C}) \times (190.986\text{ m})}$$
+$$B = \frac{3.346 \times 10^{-19}}{3.0596 \times 10^{-17}}$$
+$$B \approx 0.010936\text{ T}$$
+
+Comparing this result to the given options, $0.0109\text{ T}$ is the closest value.
+
+**Correct Option: (C)**
+
+### Explanation Summary
+To solve this, recognize that for a charged particle in a uniform magnetic field, the centripetal force is provided by the Lorentz force ($F_B = qvB$). By equating $qvB = \frac{mv^2}{r}$ and solving for $B$, we find the required magnetic field. Always ensure your units are consistent (converting km to meters) before performing the calculation.
+
+###QUESTION_TYPE
+Multiple choice

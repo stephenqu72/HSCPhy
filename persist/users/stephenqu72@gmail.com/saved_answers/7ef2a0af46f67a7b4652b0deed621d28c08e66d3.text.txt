@@ -1,0 +1,16 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+Newton’s Universal Law of Gravitation, $F = \frac{GMm}{r^2}$, is derived specifically for point masses. However, in physics, we can treat spherical, non-point objects (like planets and moons) as point masses due to the **Shell Theorem**.
+
+The Shell Theorem states that a spherically symmetric body affects external objects as if all of its mass were concentrated at its geometric center. For the Earth and the Moon, this approximation is physically valid because the distance between them ($r$) is significantly larger than the radii of the bodies themselves. 
+
+Here is why the other options are incorrect:
+*   **(A) & (B):** While the Earth and Moon do have large masses and size differences, these factors do not justify the "point mass" approximation. The approximation relies solely on the symmetry of the objects and their distance from each other.
+*   **(D):** The gravitational constant $G$ is a universal physical constant. Its magnitude does not determine whether or not a mathematical model for point masses is applicable to extended bodies.
+
+When dealing with such problems in HSC Physics, always remember that the $r$ in the denominator represents the distance between the **centers of mass** of the two objects. When the objects are very far apart compared to their size, treating them as point masses concentrated at these centers is a highly accurate model.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To determine what the escape speed depends on, we must look at the physics principle behind it: the conservation of energy. 
+
+For an object to escape the gravitational pull of a planet, it must have enough kinetic energy to overcome the gravitational potential energy at the planet's surface. At the point of escape, the object's total energy is zero (it reaches "infinity" with zero velocity).
+
+The equation for energy conservation is:
+$$E_{total} = K + U = 0$$
+$$\frac{1}{2}mv_{esc}^2 - \frac{GMm}{r} = 0$$
+
+Where:
+- $m$ is the mass of the projectile (the object)
+- $M$ is the mass of the planet
+- $G$ is the universal gravitational constant
+- $r$ is the radius of the planet
+
+Solving for the escape speed $v_{esc}$:
+$$\frac{1}{2}mv_{esc}^2 = \frac{GMm}{r}$$
+
+Notice that the mass of the projectile, $m$, appears on both sides of the equation and therefore cancels out:
+$$v_{esc}^2 = \frac{2GM}{r}$$
+$$v_{esc} = \sqrt{\frac{2GM}{r}}$$
+
+As shown by the final formula, the escape speed $v_{esc}$ is independent of the mass of the object $m$ being launched. It depends only on the gravitational constant $G$, the mass of the planet $M$, and the radius of the planet $r$. Therefore, the escape speed depends on $M$ and $r$.
+
+### QUESTION_TYPE
+Multiple choice

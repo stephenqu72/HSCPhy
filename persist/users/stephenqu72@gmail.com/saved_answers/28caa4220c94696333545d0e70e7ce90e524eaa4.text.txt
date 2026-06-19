@@ -1,0 +1,29 @@
+To determine the correct graph, we must look at the physics formula for the gravitational field strength ($g$) at the surface of a planet.
+
+### Explanation
+The gravitational field strength $g$ at the surface of a planet is given by:
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $r$ is the radius of the planet.
+
+The question asks for the relationship between the mass ($M$) and the surface gravitational field ($g$) for planets with the **same radius**. This means $r$ is a constant. We can rewrite the formula as:
+$$g = \left( \frac{G}{r^2} \right) M$$
+
+Since $G$ and $r$ are both constants, the term in the parentheses is also a constant (let’s call it $k$). Therefore, the equation simplifies to:
+$$g = kM$$
+
+This is in the form of a linear equation ($y = mx$), where $g$ is directly proportional to $M$. A direct proportionality on a graph is represented by a straight line passing through the origin.
+
+Comparing this to the given options:
+*   (A) shows an inverse linear relationship.
+*   (B) shows an exponential/curved relationship.
+*   (C) shows an inverse relationship.
+*   (D) shows a **straight line passing through the origin**, which represents a direct proportionality.
+
+Therefore, the correct graph is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

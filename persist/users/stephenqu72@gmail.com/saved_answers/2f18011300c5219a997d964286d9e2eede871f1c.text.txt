@@ -1,0 +1,28 @@
+To solve this problem, we use the kinematics of projectile motion. Let the vertical displacement be $y$ and the horizontal displacement be $x$. The initial vertical velocity $u_y = 0$. The time taken to cover horizontal distance $d$ is $t = \frac{d}{v}$.
+
+### Part 1: Gravity only
+The particle falls $y = 0.2\text{ m}$. Using $y = \frac{1}{2}at^2$, where $a = g$:
+$$0.2 = \frac{1}{2}g \left( \frac{d}{v} \right)^2 \implies \frac{d^2}{v^2} = \frac{0.4}{g}$$
+
+### Part 2: Gravity + Electric Field
+The particle is now fired at $2v$ and hits the upper surface at $y' = 0.2\text{ m}$. The horizontal distance is $x' = \frac{3d}{2}$.
+The time taken is $t' = \frac{x'}{v'} = \frac{1.5d}{2v} = 0.75 \frac{d}{v}$.
+
+Let the net vertical acceleration be $a_{net}$. Since the particle moves upward, the electric force $F_E$ must be directed upwards, opposing gravity:
+$$a_{net} = \frac{F_E - mg}{m}$$
+Using the displacement equation for the new path:
+$$0.2 = \frac{1}{2} a_{net} (t')^2$$
+$$0.2 = \frac{1}{2} \left( \frac{F_E - mg}{m} \right) \left( 0.75 \frac{d}{v} \right)^2$$
+Substitute $\frac{d^2}{v^2} = \frac{0.4}{g}$ into the equation:
+$$0.2 = \frac{1}{2} \left( \frac{F_E - mg}{m} \right) (0.5625) \left( \frac{0.4}{g} \right)$$
+$$0.2 = \frac{F_E - mg}{m} (0.1125) \left( \frac{1}{g} \right)$$
+$$0.2g = 0.1125 \left( \frac{F_E - mg}{m} \right)$$
+$$\frac{0.2}{0.1125}g = \frac{F_E}{m} - g$$
+$$\frac{2000}{1125}g = \frac{F_E}{m} - g \implies \frac{16}{9}g = \frac{F_E}{m} - g$$
+$$\frac{F_E}{m} = \frac{16}{9}g + g = \frac{25}{9}g$$
+$$F_E = \frac{25mg}{9}$$
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

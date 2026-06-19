@@ -1,0 +1,23 @@
+To answer this question, we must look at Newton’s Law of Universal Gravitation and Newton’s Third Law of Motion.
+
+### Answer
+The correct answer is **(A) 1:1**.
+
+### Explanation
+To solve this, we use **Newton’s Universal Law of Gravitation**, which states that the gravitational force between two point masses is given by:
+$$F = G \frac{m_1 m_2}{r^2}$$
+where $G$ is the gravitational constant, $m_1$ and $m_2$ are the masses, and $r$ is the distance between their centres.
+
+While this formula allows us to calculate the magnitude of the force, the conceptual key here is **Newton’s Third Law of Motion**. Newton’s Third Law states that for every action, there is an equal and opposite reaction. This means that if object X exerts a gravitational force on object Y, object Y must exert a gravitational force of exactly the same magnitude on object X, but in the opposite direction.
+
+Regardless of the difference in their masses ($50\text{g}$ vs $300\text{g}$) or their radii, the force exerted by X on Y ($F_{XY}$) is identical in magnitude to the force exerted by Y on X ($F_{YX}$). 
+
+Therefore:
+$$F_{XY} = F_{YX}$$
+The ratio of these two forces is:
+$$\frac{F_{XY}}{F_{YX}} = \frac{1}{1}$$
+
+Thus, the ratio is $1:1$.
+
+###QUESTION_TYPE
+Multiple choice

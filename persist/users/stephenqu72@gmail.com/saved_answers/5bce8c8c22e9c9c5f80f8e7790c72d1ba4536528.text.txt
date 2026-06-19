@@ -1,0 +1,39 @@
+To solve this problem, we must account for the relativistic effects on the proton's momentum because its speed is $v = 0.85c$, which is a significant fraction of the speed of light.
+
+### 1. Identify the Physics Principles
+The magnetic force $F_B$ acts as the centripetal force $F_c$ to keep the proton in a circular orbit:
+$$qvB = \frac{\gamma m_0 v^2}{r}$$
+Where:
+- $q = 1.602 \times 10^{-19} \text{ C}$ (charge of a proton)
+- $v = 0.85c$ (where $c = 3.0 \times 10^8 \text{ m/s}$)
+- $r = 100 \text{ m}$
+- $m_0 = 1.67 \times 10^{-27} \text{ kg}$ (rest mass of a proton)
+- $\gamma$ is the Lorentz factor: $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+
+### 2. Step-by-Step Calculation
+
+**Step A: Calculate the Lorentz factor ($\gamma$)**
+$$\gamma = \frac{1}{\sqrt{1 - 0.85^2}} = \frac{1}{\sqrt{1 - 0.7225}} = \frac{1}{\sqrt{0.2775}} \approx 1.898$$
+
+**Step B: Rearrange the force equation for $B$**
+$$B = \frac{\gamma m_0 v}{qr}$$
+
+**Step C: Plug in the values**
+$$B = \frac{1.898 \times (1.67 \times 10^{-27} \text{ kg}) \times (0.85 \times 3.0 \times 10^8 \text{ m/s})}{(1.602 \times 10^{-19} \text{ C}) \times 100 \text{ m}}$$
+$$B = \frac{1.898 \times 1.67 \times 10^{-27} \times 2.55 \times 10^8}{1.602 \times 10^{-17}}$$
+$$B = \frac{8.085 \times 10^{-19}}{1.602 \times 10^{-17}}$$
+$$B \approx 0.05047 \text{ T}$$
+
+Rounding to two significant figures, we get $0.051 \text{ T}$.
+
+### Conclusion
+Comparing our result to the options provided:
+(A) $0.051 \text{ T}$
+(B) $0.027 \text{ T}$
+(C) $0.014 \text{ T}$
+(D) $0.039 \text{ T}$
+
+The correct option is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

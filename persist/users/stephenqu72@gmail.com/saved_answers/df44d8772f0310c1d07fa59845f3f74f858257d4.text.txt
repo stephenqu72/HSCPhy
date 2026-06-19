@@ -1,0 +1,32 @@
+### Teacher's Solution
+
+To solve this problem, we must account for relativistic effects, as the particle is travelling at $0.8c$.
+
+#### (a) Calculate the mass to charge ratio
+When a particle moves at relativistic speeds in a magnetic field, the centripetal force is provided by the Lorentz force. The relativistic mass is given by $m = \gamma m_0$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$. The balance equation is:
+$$\frac{\gamma m_0 v^2}{r} = qvB$$
+Rearranging for the mass-to-charge ratio $m/q$:
+$$\frac{m}{q} = \frac{Br}{\gamma v}$$
+
+1. **Calculate $\gamma$:**
+   Given $v = 0.8c$, then $v^2/c^2 = 0.64$.
+   $$\gamma = \frac{1}{\sqrt{1 - 0.64}} = \frac{1}{\sqrt{0.36}} = \frac{1}{0.6} = 1.666...$$
+
+2. **Calculate $m/q$:**
+   Given $B = 113.7 \times 10^{-6}\text{ T}$, $r = 20\text{ m}$, and $v = 0.8 \times 3 \times 10^8\text{ m/s} = 2.4 \times 10^8\text{ m/s}$:
+   $$\frac{m}{q} = \frac{(113.7 \times 10^{-6}) \times 20}{1.666... \times (2.4 \times 10^8)}$$
+   $$\frac{m}{q} \approx \frac{2.274 \times 10^{-3}}{4 \times 10^8} \approx 5.685 \times 10^{-12}\text{ kg/C}$$
+
+#### (b) Identify the particle and justify your conclusion
+To identify the particle, we compare the calculated mass to known fundamental particles. The elementary charge is $e \approx 1.602 \times 10^{-19}\text{ C}$.
+1. **Find mass $m$:**
+   $$m = (5.685 \times 10^{-12}\text{ kg/C}) \times (1.602 \times 10^{-19}\text{ C}) \approx 9.11 \times 10^{-31}\text{ kg}$$
+2. **Identification:**
+   This mass corresponds to the **electron**.
+3. **Justification:**
+   The calculated mass $m \approx 9.11 \times 10^{-31}\text{ kg}$ matches the accepted rest mass of an electron. As it is a "first generation fundamental particle" (a lepton), the electron is the correct identification.
+
+---
+
+###QUESTION_TYPE
+Calculation question

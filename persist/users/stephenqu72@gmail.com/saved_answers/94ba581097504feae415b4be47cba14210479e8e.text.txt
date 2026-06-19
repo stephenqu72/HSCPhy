@@ -1,0 +1,47 @@
+As a physics teacher, I will guide you through these calculations step-by-step.
+
+### Given Data:
+*   Mass of Mercury ($M$) = $3.30 \times 10^{23}\text{ kg}$
+*   Radius of Mercury ($r_1$) = $2.44 \times 10^6\text{ m}$
+*   Gravitational constant ($G$) = $6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+
+---
+
+### (a) Calculate the escape velocity at the surface of Mercury.
+
+**Formula:** The escape velocity ($v_e$) is given by:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+**Calculation:**
+$$v_e = \sqrt{\frac{2 \times (6.67 \times 10^{-11}) \times (3.30 \times 10^{23})}{2.44 \times 10^6}}$$
+$$v_e = \sqrt{\frac{4.4022 \times 10^{13}}{2.44 \times 10^6}}$$
+$$v_e = \sqrt{18,041,803.28...}$$
+$$v_e \approx 4247.56\text{ m/s} \approx 4.25 \times 10^3\text{ m/s}$$
+
+---
+
+### (b) Calculate the change in gravitational potential energy.
+
+**Formula:** The change in gravitational potential energy ($\Delta U$) is the difference between final and initial potential energy:
+$$\Delta U = U_f - U_i = \left( -\frac{GMm}{r_2} \right) - \left( -\frac{GMm}{r_1} \right) = GMm \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+
+**Given:**
+*   Mass of spacecraft ($m$) = $1.40 \times 10^3\text{ kg}$
+*   Final radius ($r_2$) = $4.94 \times 10^6\text{ m}$
+
+**Calculation:**
+$$\Delta U = (6.67 \times 10^{-11}) \times (3.30 \times 10^{23}) \times (1.40 \times 10^3) \times \left( \frac{1}{2.44 \times 10^6} - \frac{1}{4.94 \times 10^6} \right)$$
+$$\Delta U = (3.08154 \times 10^{16}) \times (4.098 \times 10^{-7} - 2.024 \times 10^{-7})$$
+$$\Delta U = (3.08154 \times 10^{16}) \times (2.074 \times 10^{-7})$$
+$$\Delta U \approx 6.39 \times 10^9\text{ J}$$
+
+---
+
+### How to solve it:
+1.  **Identify the physics principles:** Part (a) requires the definition of escape velocity (the speed needed to overcome the gravitational potential well). Part (b) requires the gravitational potential energy formula, noting that the energy is "negative" because gravity is attractive.
+2.  **Units:** Ensure all values are in SI units (kg, m, s) before calculating. 
+3.  **Accuracy:** Keep extra decimal places during intermediate steps and only round to 3 significant figures (as per the provided data) at the very final step.
+4.  **Conceptual Check:** Since the object is moving to a higher altitude, the change in potential energy ($\Delta U$) must be positive, which our result confirms.
+
+###QUESTION_TYPE
+Calculation question

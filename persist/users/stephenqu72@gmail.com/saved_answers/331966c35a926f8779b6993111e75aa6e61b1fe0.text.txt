@@ -1,0 +1,34 @@
+To find the voltage required to accelerate an electron to a specific speed, we use the principle of **Conservation of Energy**. The electrical potential energy gained by the electron as it moves through the potential difference ($V$) is converted entirely into kinetic energy ($K$).
+
+### 1. Identify the relevant formulas:
+*   **Electrical Potential Energy:** $E_p = qV$
+*   **Kinetic Energy:** $K = \frac{1}{2}mv^2$
+
+Since the electron starts from rest, we equate the two:
+$$qV = \frac{1}{2}mv^2$$
+
+### 2. Identify the constants and values:
+*   Charge of an electron ($q$): $1.6 \times 10^{-19}\text{ C}$
+*   Mass of an electron ($m$): $9.1 \times 10^{-31}\text{ kg}$
+*   Velocity ($v$): $3.2 \times 10^6\text{ m s}^{-1}$
+
+### 3. Rearrange and solve for Voltage ($V$):
+$$V = \frac{mv^2}{2q}$$
+
+Substitute the values:
+$$V = \frac{(9.1 \times 10^{-31}\text{ kg}) \times (3.2 \times 10^6\text{ m s}^{-1})^2}{2 \times (1.6 \times 10^{-19}\text{ C})}$$
+
+First, calculate the numerator:
+$$(3.2 \times 10^6)^2 = 10.24 \times 10^{12}$$
+$$9.1 \times 10^{-31} \times 10.24 \times 10^{12} = 93.184 \times 10^{-19}$$
+
+Now, divide by the denominator ($2 \times 1.6 \times 10^{-19} = 3.2 \times 10^{-19}$):
+$$V = \frac{93.184 \times 10^{-19}}{3.2 \times 10^{-19}}$$
+$$V \approx 29.12\text{ V}$$
+
+Rounding to two significant figures, we get **29 V**.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

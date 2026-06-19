@@ -1,0 +1,31 @@
+To calculate the gravitational potential energy of a satellite orbiting Earth, we use the formula:
+
+$$U = -\frac{G M m}{r}$$
+
+### 1. Identify the given values and physical constants:
+*   Mass of the satellite ($m$): $6.50 \times 10^3 \text{ kg}$
+*   Altitude of the satellite ($h$): $2.00 \times 10^3 \text{ km} = 2.00 \times 10^6 \text{ m}$
+*   Mass of the Earth ($M$): $5.97 \times 10^{24} \text{ kg}$ (standard HSC reference value)
+*   Radius of the Earth ($R_E$): $6.37 \times 10^6 \text{ m}$ (standard HSC reference value)
+*   Universal Gravitational Constant ($G$): $6.67 \times 10^{-11} \text{ N m}^2/\text{kg}^2$
+
+### 2. Determine the orbital radius ($r$):
+The orbital radius $r$ is the sum of the Earth's radius and the altitude of the satellite:
+$$r = R_E + h = (6.37 \times 10^6 \text{ m}) + (2.00 \times 10^6 \text{ m}) = 8.37 \times 10^6 \text{ m}$$
+
+### 3. Calculate the potential energy ($U$):
+Substitute the values into the formula:
+$$U = -\frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times (6.50 \times 10^3)}{8.37 \times 10^6}$$
+
+Calculating the numerator:
+$$(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times (6.50 \times 10^3) \approx 2.587 \times 10^{18}$$
+
+Now divide by the radius:
+$$U \approx -\frac{2.587 \times 10^{18}}{8.37 \times 10^6} \approx -3.09 \times 10^{11} \text{ J}$$
+
+Comparing this result to the given options, $-3.09 \times 10^{11} \text{ J}$ is closest to $-3.11 \times 10^{11} \text{ J}$.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

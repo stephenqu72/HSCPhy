@@ -1,0 +1,28 @@
+To solve this problem, we use standard physics constants for Earth:
+*   Mass of Earth ($M$): $5.97 \times 10^{24} \text{ kg}$
+*   Radius of Earth ($R$): $6.37 \times 10^{6} \text{ m}$
+*   Gravitational constant ($G$): $6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+*   Altitude ($h$): $4.00 \times 10^{2} \text{ km} = 4.00 \times 10^{5} \text{ m}$
+*   Orbital radius ($r = R + h$): $6.37 \times 10^{6} + 0.40 \times 10^{6} = 6.77 \times 10^{6} \text{ m}$
+*   Mass of ISS ($m$): $4.2 \times 10^{5} \text{ kg}$
+
+### (a) Calculate the orbital speed
+The centripetal force is provided by gravity: $\frac{mv^2}{r} = \frac{GMm}{r^2}$.
+Solving for $v$:
+$$v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.77 \times 10^{6}}} \approx 7.67 \times 10^3 \text{ m/s}$$
+
+### (b) Determine the gravitational potential energy ($U$)
+The formula for gravitational potential energy is $U = -\frac{GMm}{r}$:
+$$U = -\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 4.2 \times 10^{5}}{6.77 \times 10^{6}} \approx -2.47 \times 10^{13} \text{ J}$$
+
+### (c) Determine the total mechanical energy ($E$)
+Total mechanical energy is the sum of kinetic energy ($K$) and potential energy ($U$). For a circular orbit, $E = \frac{1}{2}U$:
+$$E = \frac{1}{2} \left(-2.47 \times 10^{13}\right) = -1.24 \times 10^{13} \text{ J}$$
+
+### (d) Work done by the satellite
+The work done is **0 Joules**.
+**Justification:** In a circular orbit, the gravitational force acts perpendicular to the direction of motion (velocity vector) at all times. Since $W = Fd \cos \theta$ and $\theta = 90^{\circ}$, $\cos(90^{\circ}) = 0$, meaning the centripetal force does no work on the satellite.
+
+---
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,51 @@
+### Answer and Explanation
+
+#### Part (a)
+**Objective:** Show that the initial velocity $v = 12\text{ m s}^{-1}$.
+
+**Strategy:** Use the principle of **Conservation of Mechanical Energy**. The elastic potential energy stored in the compressed spring is converted entirely into the kinetic energy of the ball.
+
+1.  **Identify the variables:**
+    *   Spring constant $k = 1250\text{ N m}^{-1}$
+    *   Compression distance $x = 0.15\text{ m}$
+    *   Mass of the ball $m = 0.20\text{ kg}$
+
+2.  **Set up the equation:**
+    $$E_{\text{elastic}} = E_{\text{kinetic}}$$
+    $$\frac{1}{2}kx^2 = \frac{1}{2}mv^2$$
+
+3.  **Solve for $v$:**
+    $$kx^2 = mv^2$$
+    $$v^2 = \frac{kx^2}{m}$$
+    $$v = \sqrt{\frac{1250 \times (0.15)^2}{0.20}}$$
+    $$v = \sqrt{\frac{1250 \times 0.0225}{0.20}} = \sqrt{\frac{28.125}{0.20}} = \sqrt{140.625} \approx 11.858\dots\text{ m s}^{-1}$$
+
+4.  **Conclusion:** Rounding to two significant figures, $v \approx 12\text{ m s}^{-1}$.
+
+---
+
+#### Part (b)
+**Objective:** Calculate the speed of the ball after falling $2.5\text{ m}$.
+
+**Strategy:** Use the **Conservation of Mechanical Energy** again. The total energy (initial kinetic energy + change in gravitational potential energy) equals the final kinetic energy.
+
+1.  **Identify the variables:**
+    *   Initial velocity $v_i = 11.858\dots\text{ m s}^{-1}$
+    *   Vertical displacement $h = 2.5\text{ m}$
+    *   Acceleration due to gravity $g \approx 9.8\text{ m s}^{-2}$
+
+2.  **Equation:**
+    $$\frac{1}{2}mv_i^2 + mgh = \frac{1}{2}mv_f^2$$
+    *(Mass $m$ cancels out on both sides)*
+    $$\frac{1}{2}v_i^2 + gh = \frac{1}{2}v_f^2$$
+    $$v_f = \sqrt{v_i^2 + 2gh}$$
+
+3.  **Calculate:**
+    $$v_f = \sqrt{140.625 + (2 \times 9.8 \times 2.5)}$$
+    $$v_f = \sqrt{140.625 + 49}$$
+    $$v_f = \sqrt{189.625} \approx 13.77\text{ m s}^{-1}$$
+
+Rounding to appropriate significant figures (typically 2 or 3 in HSC context), the speed is approximately **$14\text{ m s}^{-1}$**.
+
+###QUESTION_TYPE
+Calculation question

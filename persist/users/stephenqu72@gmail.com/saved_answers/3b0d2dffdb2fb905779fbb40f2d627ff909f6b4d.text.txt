@@ -1,0 +1,33 @@
+To solve this problem, you need to use data analysis skills to extract specific values from the provided graph and then perform a simple subtraction.
+
+### Step-by-Step Solution:
+
+**1. Identify the initial and final states from the question text:**
+The question asks for the change in energy when the altitude is **reduced** from $14000\text{ km}$ to $4000\text{ km}$.
+*   Initial altitude ($h_{\text{initial}}$) $= 14000\text{ km}$
+*   Final altitude ($h_{\text{final}}$) $= 4000\text{ km}$
+
+**2. Extract the corresponding energy values from the graph:**
+To find these values, locate the altitude on the horizontal $x$-axis, move vertically to reach the plotted curve, and then move horizontally to read the value on the vertical $y$-axis ($U$).
+
+*   **For $14000\text{ km}$:** Find $14000$ on the x-axis. Moving up to the curve and across to the y-axis, we can see the point lies exactly on the grid line representing:
+    $$U_{\text{initial}} \approx -3.0 \times 10^9\text{ J}$$
+*   **For $4000\text{ km}$:** Find $4000$ on the x-axis (this is one grid square to the left of the $5000$ mark). Moving up to the curve and across to the y-axis, we see the point lies at:
+    $$U_{\text{final}} \approx -5.8 \times 10^9\text{ J}$$
+
+**3. Calculate the change in gravitational potential energy ($\Delta U$):**
+The "change" in any quantity is always calculated as $\text{Final Value} - \text{Initial Value}$.
+$$\Delta U = U_{\text{final}} - U_{\text{initial}}$$
+
+Substitute the values we extracted:
+$$\Delta U = (-5.8 \times 10^9\text{ J}) - (-3.0 \times 10^9\text{ J})$$
+$$\Delta U = -5.8 \times 10^9\text{ J} + 3.0 \times 10^9\text{ J}$$
+$$\Delta U = -2.8 \times 10^9\text{ J}$$
+
+**Conclusion:**
+Since the altitude decreased, the satellite moved closer to the Earth, meaning it lost potential energy (the value became more negative). The calculated change of $-2.8 \times 10^9\text{ J}$ matches option **B**.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

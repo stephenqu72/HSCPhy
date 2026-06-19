@@ -1,0 +1,32 @@
+To find the magnetic field strength at a point equidistant between two parallel wires carrying current in the same direction, we use the right-hand grip rule and the formula for the magnetic field produced by a long straight wire:
+
+$$B = \frac{\mu_0 I}{2\pi r}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the setup:**
+    *   Current in each wire ($I$) = $2\text{ A}$.
+    *   Total distance between wires = $4\text{ cm} = 0.04\text{ m}$.
+    *   Distance from each wire to the midpoint ($r$) = $\frac{0.04\text{ m}}{2} = 0.02\text{ m}$.
+    *   Permeability of free space ($\mu_0$) = $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$.
+
+2.  **Determine the direction of the fields:**
+    *   Imagine the wires are lying on your desk, both carrying current in the same direction (e.g., "up").
+    *   Using the **right-hand grip rule**:
+        *   For the left wire, the magnetic field at the midpoint points *into* the page.
+        *   For the right wire, the magnetic field at the midpoint points *out of* the page.
+    *   Because the currents are equal and the distances are equal, the magnitudes of the fields are identical, but their directions are opposite.
+
+3.  **Calculate the net field:**
+    *   Since the vectors point in exactly opposite directions, we subtract their magnitudes:
+    $$B_{net} = B_1 - B_2$$
+    *   Since $B_1 = B_2$:
+    $$B_{net} = 0\text{ T}$$
+
+### Conclusion:
+The magnetic field from one wire cancels out the magnetic field from the other wire at the exact midpoint between them. Therefore, the total magnetic field strength is $0\text{ T}$.
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

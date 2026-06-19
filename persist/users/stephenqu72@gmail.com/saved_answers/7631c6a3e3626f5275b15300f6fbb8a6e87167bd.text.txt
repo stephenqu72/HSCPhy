@@ -1,0 +1,46 @@
+To solve this problem, we must analyze the forces acting on the metal rod in its equilibrium state.
+
+### 1. Identify the Forces
+There are three forces acting on the rod:
+1. **Weight ($W = mg$):** Acting vertically downwards.
+2. **Tension ($T$):** Acting along the wire at an angle of $15^\circ$ to the vertical.
+3. **Magnetic Force ($F_B = IlB\sin\theta$):** Since the current is horizontal and the magnetic field is vertical, the angle between them is $90^\circ$, so $F_B = IlB$. This force acts horizontally.
+
+### 2. Force Diagram
+At equilibrium, the sum of forces is zero. We can represent this with a vector triangle or by resolving components:
+*   Horizontal components: $T\sin(15^\circ) = F_B$
+*   Vertical components: $T\cos(15^\circ) = mg$
+
+### 3. Calculation
+Divide the horizontal equation by the vertical equation:
+$$\frac{T\sin(15^\circ)}{T\cos(15^\circ)} = \frac{F_B}{mg}$$
+$$\tan(15^\circ) = \frac{IlB}{mg}$$
+
+Rearranging for the magnetic field strength $B$:
+$$B = \frac{mg\tan(15^\circ)}{Il}$$
+
+**Given values:**
+*   $m = 0.5\text{ kg}$
+*   $g = 9.8\text{ m/s}^2$
+*   $I = 4.5\text{ A}$
+*   $l = 0.9\text{ m}$
+*   $\theta = 15^\circ$
+
+Substitute the values into the formula:
+$$B = \frac{0.5 \times 9.8 \times \tan(15^\circ)}{4.5 \times 0.9}$$
+$$B = \frac{4.9 \times 0.2679}{4.05}$$
+$$B \approx 0.324\text{ T}$$
+
+**Answer:** The strength of the magnetic field is approximately **$0.324\text{ T}$**.
+
+***
+
+### Force Diagram Description
+*   Draw a point representing the rod.
+*   Draw an arrow pointing straight down labeled $mg$.
+*   Draw an arrow pointing horizontally to the left (or right, depending on current direction) labeled $F_B = IlB$.
+*   Draw an arrow pointing upwards at $15^\circ$ to the vertical labeled $T$.
+*   These three vectors must form a closed triangle.
+
+###QUESTION_TYPE
+Calculation question

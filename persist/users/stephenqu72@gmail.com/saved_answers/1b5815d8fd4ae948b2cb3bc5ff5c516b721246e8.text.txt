@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying wires:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi d}$$
+Where:
+- $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$
+- $I_1$ and $I_2$ are the currents in the wires
+- $L = 1.0 \, \text{m}$ (length of the wires)
+- $d$ is the distance between the wires
+
+### Step 1: Force from the middle wire on the left wire
+- Current in left wire ($I_L$) = $I$ (downward)
+- Current in middle wire ($I_M$) = $1.0 \, \text{A}$ (downward)
+- Distance ($d_1$) = $0.1 \, \text{m}$
+- Since the currents are in the **same direction**, they attract each other. Therefore, the force on the left wire is directed **towards the right** (towards the middle wire).
+$$F_1 = \frac{(4\pi \times 10^{-7}) \times I \times 1.0 \times 1.0}{2\pi \times 0.1} = 2 \times 10^{-6} \times I \, \text{N (Right)}$$
+
+### Step 2: Force from the right wire on the left wire
+- Current in left wire ($I_L$) = $I$ (downward)
+- Current in right wire ($I_R$) = $2.0 \, \text{A}$ (upward)
+- Distance ($d_2$) = $0.2 \, \text{m}$
+- Since the currents are in **opposite directions**, they repel each other. Therefore, the force on the left wire is directed **towards the left** (away from the right wire).
+$$F_2 = \frac{(4\pi \times 10^{-7}) \times I \times 2.0 \times 1.0}{2\pi \times 0.2} = 2 \times 10^{-6} \times I \, \text{N (Left)}$$
+
+### Step 3: Calculate the net force
+The two forces act in opposite directions.
+- Net force = $|F_2 - F_1| = |(2 \times 10^{-6} \times I) - (2 \times 10^{-6} \times I)| = 0 \, \text{N}$
+
+The forces cancel each other out exactly.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

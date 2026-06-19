@@ -1,0 +1,35 @@
+To solve this HSC Physics problem, we need to apply the principles of circular motion and gravitational potential energy.
+
+### Part (a): Show that total energy ($E_{total}$) is half the gravitational potential energy ($U$)
+
+**1. Define the forces:** For a satellite of mass $m$ orbiting a planet of mass $M$ at a radius $r$, the centripetal force is provided by the gravitational force:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+By simplifying, we find the expression for kinetic energy ($K$):
+$$mv^2 = \frac{GMm}{r}$$
+$$K = \frac{1}{2}mv^2 = \frac{GMm}{2r}$$
+
+**2. Define potential energy:** The gravitational potential energy ($U$) is:
+$$U = -\frac{GMm}{r}$$
+
+**3. Calculate total energy:** The total energy is the sum of kinetic and potential energy:
+$$E_{total} = K + U$$
+$$E_{total} = \frac{GMm}{2r} - \frac{GMm}{r}$$
+$$E_{total} = -\frac{GMm}{2r}$$
+
+**Conclusion:** Comparing $E_{total} = -\frac{GMm}{2r}$ and $U = -\frac{GMm}{r}$, we can clearly see that:
+$$E_{total} = \frac{1}{2} U$$
+
+---
+
+### Part (b): Explain why the gravitational potential energy is negative
+
+Gravitational potential energy is defined as the work done by an external agent to bring an object from infinity to a point at distance $r$ from the primary mass. 
+
+1. **Reference point:** We define the potential energy at infinity ($r = \infty$) to be zero.
+2. **Attractive nature:** Gravity is an attractive force. As an object moves from infinity (where potential is zero) toward the mass, the gravitational field performs positive work, which pulls the object in.
+3. **Bound system:** Since the object is moving "downhill" into a potential well, its potential energy must decrease from zero. Therefore, it becomes negative as the distance decreases, indicating that the satellite is in a "bound state" and requires an input of energy to escape the gravitational influence of the planet.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of electromagnetism regarding force on a current-carrying conductor and the torque exerted on a current loop.
+
+### 1. Analysis of the Force ($F$)
+The force on a current-carrying wire in a magnetic field is given by the formula:
+$$F = BIL\sin(\theta)$$
+where $B$ is the magnetic field strength, $I$ is the current, $L$ is the length of the wire, and $\theta$ is the angle between the wire and the magnetic field lines.
+
+*   In **Figure I**, the wire $XY$ is perpendicular to the magnetic field lines (pointing from N to S), so $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. The force is at its maximum.
+*   In **Figure II**, the loop has been rotated. However, the side $XY$ still maintains the same orientation relative to the magnetic field (it remains perpendicular to the field lines). 
+*   Therefore, the magnitude of the force on side $XY$ remains constant: **$I = II$**.
+
+### 2. Analysis of the Torque ($\tau$)
+The torque on a current loop in a magnetic field is given by:
+$$\tau = NIAB\cos(\alpha)$$
+where $\alpha$ is the angle between the *normal to the loop* and the magnetic field. Alternatively, using the angle $\theta$ between the plane of the loop and the magnetic field:
+$$\tau = NIAB\sin(\theta)$$
+
+*   In **Figure I**, the loop is in the horizontal plane, meaning the plane of the loop is parallel to the magnetic field lines ($\theta = 0^\circ$). At this position, the torque is at its **maximum** ($\sin(0^\circ)$ would be zero if using the normal angle, but intuitively, the forces are at their maximum perpendicular distance from the pivot point). 
+*   Wait, let's use the standard definition: $\tau = \text{Force} \times \text{lever arm}$. In Figure I, the side $XY$ is at the maximum possible perpendicular distance from the axis of rotation, making the lever arm largest.
+*   In **Figure II**, the loop has been rotated to a vertical position. When the plane of the loop is perpendicular to the magnetic field lines, the forces act through the axis of rotation, resulting in a lever arm of zero. Therefore, the torque is **zero**.
+*   Comparing the two, the torque in Figure I is greater than the torque in Figure II: **$I > II$**.
+
+### Conclusion
+- Force: $I = II$
+- Torque: $I > II$
+
+This corresponds to **Option D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To find the magnitude of the torque acting on the circular loop, we use the formula for the torque on a current-carrying loop in a magnetic field:
+
+$$\tau = NIAB \sin(\theta)$$
+
+Where:
+*   $N = 1$ (single loop)
+*   $I = 0.4\text{ A}$
+*   $A = \pi R^2 = \pi \times (0.24\text{ m})^2$
+*   $B = 0.7\text{ T}$
+*   $\theta$ is the angle between the **normal to the loop's area** and the magnetic field direction.
+
+### Step-by-Step Explanation:
+
+1.  **Calculate the Area ($A$):**
+    $$A = \pi \times (0.24)^2 \approx 0.18096\text{ m}^2$$
+
+2.  **Determine the Angle ($\theta$):**
+    The diagram shows the plane of the loop makes an angle of $30^\circ$ with the horizontal (x-axis). The magnetic field points vertically downward (negative y-direction). The normal vector to the loop surface makes the same $30^\circ$ angle with the vertical axis ($y$-axis). 
+    Since the magnetic field is along the $y$-axis, the angle $\theta$ between the normal vector and the magnetic field vector is exactly $30^\circ$.
+
+3.  **Calculate the Torque ($\tau$):**
+    $$\tau = (1) \times (0.4) \times (0.18096) \times (0.7) \times \sin(30^\circ)$$
+    $$\tau = 0.0506688 \times 0.5$$
+    $$\tau \approx 0.0253\text{ Nm}$$
+
+Comparing this result to the given options, the magnitude of the torque is approximately $0.025\text{ Nm}$.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Calculation question

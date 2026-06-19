@@ -1,0 +1,43 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this circuit problem. Let's tackle it systematically.
+
+---
+
+### Part a) Calculate the total resistance in the circuit.
+
+**Solution:**
+1. First, identify the components in the top branch. The $3.0\ \Omega$ and $1.0\ \Omega$ resistors are in series. Their equivalent resistance is:
+   $$R_{top} = 3.0\ \Omega + 1.0\ \Omega = 4.0\ \Omega$$
+2. Now, treat the circuit as two parallel branches: the top branch ($4.0\ \Omega$) and the bottom branch ($2.0\ \Omega$).
+3. Use the parallel resistance formula:
+   $$\frac{1}{R_{total}} = \frac{1}{R_{top}} + \frac{1}{R_{bottom}}$$
+   $$\frac{1}{R_{total}} = \frac{1}{4.0} + \frac{1}{2.0} = 0.25 + 0.5 = 0.75\ \Omega^{-1}$$
+   $$R_{total} = \frac{1}{0.75} = 1.33\ \Omega \text{ (or } \frac{4}{3}\ \Omega\text{)}$$
+
+---
+
+### Part b) Calculate how much energy is used by the $3.0\ \Omega$ resistor every second.
+
+**Solution:**
+1. Energy used every second is Power ($P$). We need the current through the top branch.
+2. Since the top branch is in parallel with the $24\ V$ source, the voltage across the entire top branch is $24\ V$.
+3. The current through the top branch ($I_{top}$) is found using Ohm's Law ($V = IR$):
+   $$I_{top} = \frac{V}{R_{top}} = \frac{24\ V}{4.0\ \Omega} = 6.0\ A$$
+4. Power is given by $P = I^2R$:
+   $$P = (6.0\ A)^2 \times 3.0\ \Omega = 36 \times 3.0 = 108\ W$$
+Since $1\ W = 1\ J/s$, the energy used is $108\ J$ per second.
+
+---
+
+### Part c) Explain why current is conserved throughout this circuit. Justify your answer with reference to relevant laws.
+
+**Solution:**
+Current is conserved in this circuit due to **Kirchhoff’s Current Law (KCL)**, which is fundamentally based on the **Law of Conservation of Charge**.
+
+1. **Law of Conservation of Charge:** Electric charge cannot be created or destroyed within an isolated system. In a closed circuit, the total amount of charge flowing through any cross-section must be constant over time.
+2. **Kirchhoff’s Current Law (KCL):** This law states that the sum of currents entering a junction (node) must equal the sum of currents leaving that junction. 
+3. **Application:** At the junction where the circuit splits into the two parallel branches, the current flowing from the battery ($I_{total}$) splits into $I_{top}$ and $I_{bottom}$. Because charge is conserved, the total current $I_{total}$ must equal $I_{top} + I_{bottom}$. Similarly, at the junction where the branches rejoin, these currents recombine to return to the battery, ensuring no charge accumulates or disappears at any point in the circuit.
+
+---
+
+###QUESTION_TYPE
+Calculation question

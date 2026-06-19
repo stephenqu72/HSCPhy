@@ -1,0 +1,26 @@
+The correct answer is **(C)**.
+
+### Explanation
+
+To solve this, we must look at the standard formula for gravitational potential energy ($U$) between two masses:
+
+$$U = -\frac{GMm}{r}$$
+
+Where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the Earth.
+*   $m$ is the mass of the object.
+*   $r$ is the distance between the center of the Earth and the object.
+
+**Key features to consider:**
+
+1.  **Negative values:** Because gravity is an attractive force, we define the gravitational potential energy to be zero at an infinite distance from the Earth ($r = \infty$). As the object gets closer to Earth (decreasing $r$), it loses potential energy, making $U$ negative. This eliminates graphs (A) and (B), which are in the positive $U$ region.
+2.  **Inverse relationship:** The formula shows that $U$ is inversely proportional to $r$ ($U \propto -1/r$). 
+    *   As $r$ increases, the value of $-GMm/r$ becomes less negative (approaching zero from below).
+    *   As $r$ approaches the Earth's radius (small $r$), the value becomes a large negative number.
+3.  **Shape:** Graph (C) shows $U$ starting as a large negative value at small $r$ and increasing toward zero as $r$ increases. This matches the mathematical behavior of the function $U = -k/r$. Graph (D) shows the magnitude increasing as distance increases, which is incorrect.
+
+Therefore, graph **(C)** correctly represents the relationship between gravitational potential energy and distance.
+
+###QUESTION_TYPE
+Multiple choice

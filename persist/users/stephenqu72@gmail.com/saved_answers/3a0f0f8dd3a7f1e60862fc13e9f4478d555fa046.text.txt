@@ -1,0 +1,21 @@
+### Answer
+*   **Point P:** Negative charge ($-$)
+*   **Point Q:** Positive charge ($+$)
+*   **Point R:** Neutral (no net charge)
+*   **Point S:** Neutral (no net charge)
+
+### Explanation
+To solve this problem, we apply the concept of **motional electromotive force (EMF)** resulting from a conductor moving through an external magnetic field.
+
+1.  **Identify the Magnetic Field:** At the North Pole, the Earth's magnetic field lines point vertically downwards toward the ground (into the page if viewed from above).
+2.  **Apply the Right-Hand Rule (or Fleming's Right-Hand Rule):** The metal body of the plane acts as a conductor moving through the Earth's magnetic field. The force $F$ on a charge $q$ moving with velocity $v$ in a magnetic field $B$ is given by the Lorentz force law:
+    $$F = q(v \times B)$$
+    *   The **velocity ($v$)** is directed "up" the page.
+    *   The **magnetic field ($B$)** is directed "into" the page (at the North Pole).
+    *   Using the Right-Hand Rule: Point your fingers in the direction of velocity ($v$), curl them into the page (direction of $B$), and your thumb points towards the left of the plane (towards point **P**).
+3.  **Determine Charge Separation:** 
+    *   Since electrons are negatively charged, they experience a force in the opposite direction to the positive charge carriers. Therefore, electrons will accumulate at **point P** (the left wingtip), leaving **point Q** (the right wingtip) with a deficiency of electrons (making it positive).
+    *   Points **R** and **S** lie along the line of motion (the axis parallel to the velocity vector). The cross product $v \times B$ is perpendicular to the velocity, so there is no component of the magnetic force acting along the longitudinal axis of the plane. Thus, points R and S remain neutral.
+
+### QUESTION_TYPE
+Short answer

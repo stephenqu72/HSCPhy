@@ -1,0 +1,26 @@
+To solve this question, we must understand the fundamental principles governing how charged particles behave in electromagnetic fields.
+
+### Analysis of the Physics Principles
+
+1.  **Magnetic Fields:**
+    *   The force on a charged particle in a magnetic field is given by the Lorentz force formula: $\vec{F} = q(\vec{v} \times \vec{B})$.
+    *   Because this involves a cross product, the force is **always perpendicular** to both the velocity of the particle and the magnetic field.
+    *   Crucially, if the velocity $v = 0$ (the particle is stationary), the force is zero. Thus, the particle must be in motion to experience a magnetic force.
+
+2.  **Electric Fields:**
+    *   The force on a charged particle in an electric field is given by: $\vec{F} = q\vec{E}$.
+    *   This force is **parallel** (or anti-parallel) to the electric field lines.
+    *   This force depends only on the charge and the field strength; it does **not** depend on the velocity of the particle. Therefore, the particle does not need to be in motion to experience this force; it experiences it simply by existing within the field.
+
+### Evaluating the Options
+
+*   **Option A:** Incorrect. Magnetic force requires motion, and electric force does not.
+*   **Option B:** Incorrect. Magnetic force is perpendicular, not parallel.
+*   **Option C:** **Correct.** It correctly states that magnetic force requires the particle to be in motion and acts perpendicularly. It also correctly states that electric force acts on a particle regardless of motion (constantly interacting) and acts parallel to the field.
+*   **Option D:** Incorrect. Magnetic force is perpendicular, and electric force does not require motion.
+
+### Answer
+The correct option is **C**.
+
+### QUESTION_TYPE
+Multiple choice

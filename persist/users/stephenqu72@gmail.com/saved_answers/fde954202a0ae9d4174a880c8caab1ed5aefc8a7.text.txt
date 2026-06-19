@@ -1,0 +1,43 @@
+To solve this problem, we must treat the motion of the charged particle as projectile motion in an electric field, where the horizontal motion is at constant velocity and the vertical motion is subject to a constant electric force.
+
+### Given Data:
+- Mass $m = 0.01\text{ g} = 1 \times 10^{-5}\text{ kg}$
+- Charge $q = +3 \times 10^{-6}\text{ C}$
+- Voltage $V = 1000\text{ V}$
+- Plate separation $d = 0.05\text{ m}$
+- Horizontal velocity $v_x = 50\text{ m/s}$
+- Initial vertical displacement $y = 0.025\text{ m}$ (midway)
+
+### Part (a): Horizontal Distance
+1. **Find Electric Field ($E$):**
+   $$E = \frac{V}{d} = \frac{1000}{0.05} = 20,000\text{ V/m}$$
+2. **Find Vertical Acceleration ($a_y$):**
+   The force is directed away from the positive plate (downwards):
+   $$F = qE = (3 \times 10^{-6})(20,000) = 0.06\text{ N}$$
+   $$a_y = \frac{F}{m} = \frac{0.06}{1 \times 10^{-5}} = 6000\text{ m/s}^2$$
+3. **Find Time ($t$) to hit plate:**
+   Using $y = \frac{1}{2}a_y t^2$:
+   $$0.025 = \frac{1}{2}(6000)t^2 \implies t^2 = \frac{0.05}{6000} \approx 8.33 \times 10^{-6}$$
+   $$t \approx 0.002887\text{ s}$$
+4. **Calculate Horizontal Distance ($x$):**
+   $$x = v_x \times t = 50 \times 0.002887 \approx \mathbf{0.144\text{ m}}$$
+
+---
+
+### Part (b): Final Velocity
+The final velocity $v$ is the vector sum of the constant horizontal velocity and the final vertical velocity $v_y$.
+
+1. **Calculate final vertical velocity ($v_y$):**
+   $$v_y = a_y t = 6000 \times 0.002887 = 17.322\text{ m/s}$$
+2. **Calculate resultant velocity ($v$):**
+   $$v = \sqrt{v_x^2 + v_y^2} = \sqrt{50^2 + 17.322^2}$$
+   $$v = \sqrt{2500 + 300} = \sqrt{2800} \approx \mathbf{52.9\text{ m/s}}$$
+
+### Summary of Steps:
+1. **Determine the force** acting on the particle using $F = q \times (V/d)$.
+2. **Calculate acceleration** using Newton's Second Law ($a = F/m$).
+3. **Use kinematic equations** to find the time taken to traverse the vertical distance (gap to plate).
+4. **Apply uniform motion formulas** to find the horizontal displacement and the final vector velocity.
+
+###QUESTION_TYPE
+Calculation question

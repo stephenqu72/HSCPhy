@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **(C)**: perpendicular to the direction of both $v$ and $B$.
+
+---
+
+### Explanation
+To solve this question, you need to apply the physics principle regarding the magnetic force on a moving charged particle, commonly referred to as the **Lorentz force**.
+
+1.  **The Formula:** The force $F$ experienced by a charged particle $q$ moving with velocity $v$ in a magnetic field $B$ is given by the vector cross product:
+    $$F = q(v \times B)$$
+
+2.  **Vector Properties:** In vector mathematics, the result of a cross product of two vectors (in this case, $v$ and $B$) is always a third vector that is perpendicular to the plane containing the original two vectors. 
+
+3.  **Right-Hand Rule:** You can verify this using the Right-Hand Rule:
+    *   Point your fingers in the direction of velocity $v$.
+    *   Curl your fingers towards the direction of the magnetic field $B$.
+    *   Your extended thumb points in the direction of the force $F$.
+    *   Since your thumb is at a 90-degree angle to both your palm (velocity direction) and your fingers (magnetic field direction), the force must be perpendicular to both $v$ and $B$.
+
+4.  **Why other options are incorrect:**
+    *   (A) and (B) are incorrect because the force is not aligned with either the velocity or the magnetic field individually; it is orthogonal to the plane they define.
+    *   (D) is incorrect because the direction of the force is dependent on *both* the direction of $v$ and the direction of $B$, not just $v$.
+
+### QUESTION_TYPE
+Multiple choice

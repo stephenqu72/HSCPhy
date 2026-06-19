@@ -1,0 +1,32 @@
+To determine the correct trajectory, we must analyze the forces acting on the rocket and their effect on its motion using Newton’s Second Law.
+
+### Step-by-Step Explanation
+
+**1. Calculate the Weight of the Rocket:**
+The rocket is acted upon by gravity ($g \approx 9.8\text{ m s}^{-2}$).
+$$W = mg = 7800\text{ kg} \times 9.8\text{ m s}^{-2} = 76,440\text{ N}$$
+
+**2. Analyze the Net Force:**
+The engine thrust is given as $90,000\text{ N}$. Since the rocket is "on approach to the ground," the thrust is acting vertically upwards to oppose gravity. 
+The net vertical force ($F_{net}$) is:
+$$F_{net} = \text{Thrust} - W = 90,000\text{ N} - 76,440\text{ N} = +13,560\text{ N}$$
+Because the net force is positive, the rocket experiences an upward acceleration.
+
+**3. Analyze Horizontal Motion:**
+The rocket is moving horizontally at $20\text{ m s}^{-1}$. Since there are no horizontal forces mentioned (assuming negligible air resistance for this standard HSC mechanics problem), the horizontal velocity remains constant due to Newton's First Law (inertia).
+
+**4. Determine the Resultant Motion:**
+*   **Vertical:** The rocket starts with some initial vertical velocity (implied by the landing maneuver) or is brought to a hover/ascent. The upward net force will cause the rocket to accelerate upwards (or reduce downward velocity).
+*   **Horizontal:** The rocket maintains its forward horizontal motion.
+
+Looking at the options:
+*   Options A and B show the rocket descending (moving towards the ground).
+*   Options C and D show the rocket moving upwards (away from the ground).
+*   Since the thrust ($90,000\text{ N}$) is greater than the weight ($76,440\text{ N}$), the rocket will accelerate upwards.
+*   Because the horizontal velocity is constant while the vertical velocity increases upwards, the path will be a curve (parabolic) bending upwards.
+
+**Conclusion:**
+Diagram **D** shows the rocket moving forward while accelerating upwards, resulting in a curved path that gains altitude.
+
+###QUESTION_TYPE
+Multiple choice

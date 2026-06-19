@@ -1,0 +1,21 @@
+To calculate the net force on the rectangular loop, we use the formula for the force per unit length between two parallel wires:
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi r}$$
+where $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the vertical sides:** The vertical sides of the loop have currents flowing in opposite directions relative to the magnetic field gradient. By symmetry, the force on the left vertical segment is equal and opposite to the force on the right vertical segment. Thus, these forces cancel out, and the **net force from the vertical sides is zero**.
+
+2.  **Analyze the horizontal sides:** We only need to calculate the forces on the top and bottom horizontal segments of length $L = 0.04 \, \text{m}$.
+    *   **Top segment:** $I_1 = 3 \, \text{A}$, $I_2 = 2 \, \text{A}$, $r = 0.02 \, \text{m}$. The current flows in the same direction as the top wire, resulting in an **attractive force** (upward).
+        $$F_{top} = \frac{(4\pi \times 10^{-7})(3)(2)(0.04)}{2\pi(0.02)} = \frac{(2 \times 10^{-7})(6)(0.04)}{0.02} = 2.4 \times 10^{-6} \, \text{N (Upwards)}$$
+    *   **Bottom segment:** $I_1 = 3 \, \text{A}$, $I_2 = 2 \, \text{A}$, $r = 0.02 + 0.02 = 0.04 \, \text{m}$. The current flows in the opposite direction, resulting in a **repulsive force** (downward).
+        $$F_{bottom} = \frac{(4\pi \times 10^{-7})(3)(2)(0.04)}{2\pi(0.04)} = 1.2 \times 10^{-6} \, \text{N (Downwards)}$$
+
+3.  **Calculate the net force:** Since the forces act in opposite directions:
+    $$F_{net} = F_{top} - F_{bottom} = 2.4 \times 10^{-6} - 1.2 \times 10^{-6} = 1.2 \times 10^{-6} \, \text{N}$$
+
+**Final Answer:** The net force is $1.2 \times 10^{-6} \, \text{N}$ directed towards the top wire.
+
+###QUESTION_TYPE
+Calculation question

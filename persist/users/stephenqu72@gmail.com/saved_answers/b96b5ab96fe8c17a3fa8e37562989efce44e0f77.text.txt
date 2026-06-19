@@ -1,0 +1,26 @@
+To solve this problem, we need to apply two fundamental physics principles: the Right-Hand Rule for magnetic forces and the physics of circular motion in a magnetic field.
+
+### 1. Determining the direction (Right-Hand Rule)
+*   **Magnetic Field ($B$):** Directed into the page (indicated by the $\times$ symbols).
+*   **Velocity ($v$):** Directed to the right.
+*   **Right-Hand Rule:** For a **positive charge** (proton) moving right into a magnetic field directed into the page, the force is directed **upwards**. Therefore, the proton will deflect toward **Path 1 or Path 2**.
+*   **Left-Hand Rule (or Right-Hand Rule reversed):** For a **negative charge** (electron), the force is in the opposite direction. Therefore, the electron will deflect **downwards** toward **Path 3 or Path 4**.
+
+### 2. Determining the radius of curvature ($r$)
+When a charged particle moves in a magnetic field, the magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius of curvature $r$:
+$$r = \frac{mv}{qB}$$
+
+Since the problem states the particles enter with the **same velocity** ($v$) and experience the **same magnetic field** ($B$), the radius depends on the mass-to-charge ratio ($\frac{m}{q}$):
+*   The **proton** has a much larger mass than the electron, so it has a much larger $\frac{m}{q}$ ratio, resulting in a **larger radius of curvature** (a wider turn).
+*   The **electron** has a very small mass, so it has a small $\frac{m}{q}$ ratio, resulting in a **smaller radius of curvature** (a tighter turn).
+
+### 3. Conclusion
+*   **Proton (positive):** Must deflect upwards. Because it has a larger mass, its radius of curvature is larger, meaning it follows a shallower path. This corresponds to **Path 2**.
+*   **Electron (negative):** Must deflect downwards. Because it has a much smaller mass, its radius of curvature is smaller, meaning it follows a tighter path. This corresponds to **Path 4**.
+
+Comparing this to the given options, **(D)** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

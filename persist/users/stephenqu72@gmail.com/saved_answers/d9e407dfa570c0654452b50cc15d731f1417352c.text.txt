@@ -1,0 +1,17 @@
+To determine the correct statement, we apply the principles of orbital mechanics, specifically **Kepler’s Laws** and the **Law of Conservation of Energy**.
+
+### Answer
+The correct statement is **(B)**.
+
+### Explanation
+1.  **Conservation of Total Energy:** In an isolated system where an object (the comet) orbits a massive body (the Sun) under the influence of gravity alone, the total mechanical energy ($E_{total} = K + U$) is conserved. Since gravity is a conservative force, the total energy remains constant at every point in the elliptical orbit. This immediately invalidates options (A) and (D).
+2.  **Kinetic Energy and Orbital Speed:** According to Kepler's Second Law (the law of equal areas), a comet sweeps out equal areas in equal times. This means the comet must move faster when it is closer to the Sun (perihelion) and slower when it is further away (aphelion). 
+3.  **Comparing Point A and Point B:**
+    *   Point **A** is near the Sun (perihelion). Because the comet is at its closest point to the Sun, its gravitational potential energy ($U = -\frac{GMm}{r}$) is at its minimum (most negative). To keep total energy constant, its kinetic energy ($K = \frac{1}{2}mv^2$) must be at its maximum. Therefore, the comet moves fastest at A.
+    *   Point **B** is far from the Sun (aphelion). Here, the gravitational potential energy is at its maximum (least negative). Consequently, the kinetic energy must be at its minimum.
+4.  **Conclusion:** Since the comet is closer to the Sun at A than at B, its speed (and therefore its kinetic energy) is greater at A than at B.
+
+Thus, statement (B) is correct: "The kinetic energy at A is greater than the kinetic energy at B, but the total energy is constant throughout the orbit."
+
+###QUESTION_TYPE
+Multiple choice

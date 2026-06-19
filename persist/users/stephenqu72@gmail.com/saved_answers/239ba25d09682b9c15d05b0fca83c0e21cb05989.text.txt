@@ -1,0 +1,18 @@
+Hello! As an HSC Physics teacher, I'd be happy to guide you through this problem.
+
+### Answer
+The correct statement is **C**.
+
+### Explanation
+To solve this, let's look at the physics of a satellite changing orbits. 
+
+The gravitational potential energy ($U_g$) of a satellite of mass $m$ at a distance $r$ from the center of the Earth (mass $M$) is given by the formula:
+$$U_g = -\frac{GMm}{r}$$
+
+1.  **Evaluating A:** As the satellite moves to a higher orbit, $r$ increases. Because $U_g$ is negative and the denominator gets larger, the value of $U_g$ becomes *less negative* (e.g., from $-100$ to $-50$). This means the gravitational potential energy **increases**, not decreases. Statement A is incorrect.
+2.  **Evaluating B:** The formula for the change in potential energy is $\Delta U_g = U_{final} - U_{initial} = -\frac{GMm}{r_2} - (-\frac{GMm}{r_1}) = GMm(\frac{1}{r_1} - \frac{1}{r_2})$. Since the mass of the satellite ($m$) is in the formula, the change is clearly dependent on the mass. Statement B is incorrect.
+3.  **Evaluating C:** Work-Energy Theorem states that the work done on an object is equal to the change in its energy. When moving a satellite between orbits, the external work done by the satellite's thrusters equals the difference between the total energy of the two orbits. Since the change in total energy is dominated by the change in gravitational potential energy and kinetic energy, specifically, the work done corresponds to the change in the satellite's energy state. In standard HSC physics contexts, the change in energy ($\Delta E = E_{final} - E_{initial}$) is synonymous with the work required to shift the satellite between these two positions. Thus, **C is correct**.
+4.  **Evaluating D:** Total mechanical energy ($E = U_g + K$) is **not** conserved during this transition because an external force (the rocket thrusters) performs work on the satellite to move it to a higher orbit. The energy of the system increases as a result of that work. Statement D is incorrect.
+
+###QUESTION_TYPE
+Multiple choice

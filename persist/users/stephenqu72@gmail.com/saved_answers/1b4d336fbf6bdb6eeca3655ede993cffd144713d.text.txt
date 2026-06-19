@@ -1,0 +1,37 @@
+To solve this problem, we must identify the condition for a charged particle to travel through a "velocity selector" (crossed electric and magnetic fields) without being deflected.
+
+### 1. The Physics Principle
+For the electron to pass through undeflected, the net force on it must be zero. This means the magnitude of the electric force ($F_E$) must equal the magnitude of the magnetic force ($F_B$):
+$$F_E = F_B$$
+
+Using the fundamental equations for these forces:
+- Electric force: $F_E = qE$
+- Magnetic force: $F_B = qvB \sin(\theta)$
+
+Since the magnetic field is perpendicular to the velocity of the electron, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. Thus:
+$$qE = qvB$$
+$$v = \frac{E}{B}$$
+
+### 2. Finding the Electric Field ($E$)
+The electric field between two parallel plates is given by $E = \frac{V}{d}$, where $V$ is the potential difference and $d$ is the distance between the plates.
+- $V = 400\text{ V}$
+- $d = 20.0\text{ mm} = 0.020\text{ m}$
+
+$$E = \frac{400}{0.020} = 20,000\text{ V/m} = 2.0 \times 10^4\text{ V/m}$$
+
+### 3. Calculating the Speed ($v$)
+Now, substitute $E$ and the given magnetic field $B = 8.0 \times 10^{-3}\text{ T}$ into the velocity equation:
+$$v = \frac{2.0 \times 10^4}{8.0 \times 10^{-3}}$$
+$$v = 0.25 \times 10^7\text{ m/s}$$
+$$v = 2.5 \times 10^6\text{ m/s}$$
+
+Comparing this result to the given options, the correct answer is **D**.
+
+### Summary of Steps
+1. Set the electric force equal to the magnetic force: $qE = qvB$.
+2. Simplify to find $v = \frac{E}{B}$.
+3. Calculate $E$ using $E = \frac{V}{d}$.
+4. Divide $E$ by $B$ to obtain the velocity.
+
+###QUESTION_TYPE
+Multiple choice

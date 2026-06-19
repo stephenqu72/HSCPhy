@@ -1,0 +1,24 @@
+To determine the correct answer, we must use the formula for the magnetic force per unit length ($F/L$) between two long parallel wires carrying currents $I_1$ and $I_2$ separated by a distance $d$:
+
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi d}$$
+
+From this formula, we can see that the force $F$ is directly proportional to the product of the currents ($I_1 \times I_2$) and inversely proportional to the distance ($d$):
+
+$$F \propto \frac{I_1 \times I_2}{d}$$
+
+We want to find a scenario where the resultant force $F$ remains unchanged (a factor of 1). Let's evaluate the options by looking at the ratio of change:
+
+*   **A: Doubling both currents and doubling distance:**
+    Factor = $\frac{2 \times 2}{2} = 2$. The force doubles.
+*   **B: Doubling both currents and quadrupling distance:**
+    Factor = $\frac{2 \times 2}{4} = 1$. The force remains the same.
+*   **C: Quadrupling current in one wire and doubling distance:**
+    Factor = $\frac{4}{2} = 2$. The force doubles.
+*   **D: Quadrupling both currents and quadrupling distance:**
+    Factor = $\frac{4 \times 4}{4} = 4$. The force quadruples.
+
+**Conclusion:**
+Option B results in a factor of 1, meaning the force magnitude does not change.
+
+###QUESTION_TYPE
+Multiple choice

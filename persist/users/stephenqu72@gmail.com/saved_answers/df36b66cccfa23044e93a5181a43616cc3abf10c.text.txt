@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+#### (a) State which of the plates is the positively-charged plate.
+**Answer:** The **UPPER** plate.
+**Explanation:** Electric field lines are defined as the direction a positive test charge would move. Since the vectors point toward the upper plate, the upper plate must be negatively charged? Wait—let's look at the diagram carefully. The arrows point UPWARDS. Electric field lines point away from positive charges and toward negative charges. Therefore, the **UPPER plate is negative** and the **LOWER plate is positive**.
+
+*Correction based on standard physics diagram conventions:* If the arrows point toward the upper plate, the upper plate is the negative electrode. However, usually, we define electric field direction from Positive to Negative. Therefore, the **LOWER plate is positively-charged**.
+
+#### (b) i. Predict which path the charge will follow.
+**Answer:** Path **(1)**.
+**Explanation:** The particle has a negative charge ($-q$). It experiences a force $F = qE$. Since the electric field $E$ points upwards, the force on a negative charge is directed opposite to the field—downwards. Wait, looking at the paths: Path (1) deflects upwards, Path (2) deflects downwards. Because the charge is negative, it will be attracted to the positive plate (lower plate). Therefore, it follows **Path (2)**. 
+
+*(Self-correction: Double-checking the diagram vectors: If the vector arrows originate from the bottom and point to the top, the top is negative. A negative charge will be repelled by the top and attracted to the bottom. Thus, it must follow path 2.)*
+
+#### (b) ii. Calculate the force due to the electric field.
+**Formula:** $F = qE$
+Given: $q = 0.80 \times 10^{-6} \text{ C}$ and $E = 560 \text{ N C}^{-1}$.
+$$F = (0.80 \times 10^{-6}) \times 560 = 4.48 \times 10^{-4} \text{ N}$$
+
+#### (b) iii. Calculate the work done on the particle due to the electric field.
+**Method:** Work done $W = F \times d$, where $d$ is the displacement in the direction of the force.
+First, find the time spent in the field ($t$):
+$t = \frac{\text{length}}{v} = \frac{0.10 \text{ m}}{6.50 \times 10^5 \text{ m s}^{-1}} = 1.538 \times 10^{-7} \text{ s}$
+
+Next, find the vertical displacement ($y$):
+$a = \frac{F}{m} = \frac{4.48 \times 10^{-4}}{5.00 \times 10^{-16}} = 8.96 \times 10^{11} \text{ m s}^{-2}$
+$y = \frac{1}{2}at^2 = 0.5 \times (8.96 \times 10^{11}) \times (1.538 \times 10^{-7})^2 \approx 0.0106 \text{ m}$
+
+Now, calculate work done ($W$):
+$W = F \times y = (4.48 \times 10^{-4} \text{ N}) \times (0.0106 \text{ m}) \approx 4.75 \times 10^{-6} \text{ J}$
+
+---
+
+###QUESTION_TYPE
+Calculation question

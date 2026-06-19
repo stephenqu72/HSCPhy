@@ -1,0 +1,31 @@
+To determine the correct answer, we must analyze the forces acting on the charged, non-conductive ball in both scenarios.
+
+### Analysis
+
+1.  **Scenario 1: Magnetic field is off.** 
+    The ball is projected into a region with no magnetic field. The only force acting on the ball (assuming we ignore air resistance as per standard HSC physics problems) is gravity ($F_g = mg$). This results in classic projectile motion, where the vertical motion is independent of the horizontal motion, governed solely by gravity.
+
+2.  **Scenario 2: Magnetic field is on.**
+    A charged particle moving in a magnetic field experiences a magnetic force given by the Lorentz force formula: 
+    $$\vec{F}_B = q(\vec{v} \times \vec{B})$$
+    The magnitude is $F_B = qvB\sin(\theta)$, where $\theta$ is the angle between the velocity vector and the magnetic field vector. 
+    Crucially, in this problem, the magnetic field $\vec{B}$ is **downwards**. The magnetic force $\vec{F}_B$ is always perpendicular to both the velocity vector $\vec{v}$ and the magnetic field vector $\vec{B}$.
+    - Since $\vec{B}$ is vertical (downwards), the cross product $\vec{v} \times \vec{B}$ will result in a force that is strictly **horizontal**.
+    - Because the magnetic force has no vertical component, it does not affect the vertical acceleration ($g$) of the ball.
+
+### Conclusion
+
+Since the magnetic force acts only in the horizontal plane (perpendicular to the vertical magnetic field), the vertical motion of the ball is determined solely by gravity. In both scenarios, the vertical acceleration remains $a_y = -g$. Consequently, the time taken for the ball to reach the ground (the vertical displacement) depends only on its initial vertical velocity and gravity, both of which are identical in both scenarios.
+
+Therefore, the ball takes the same amount of time to fall in both cases.
+
+**Correct Answer: C**
+
+### How to solve it:
+1.  **Identify the forces:** Recognize that gravity is vertical and the magnetic force is determined by the cross product of velocity and the magnetic field.
+2.  **Analyze components:** Note that since the $B$-field is purely vertical, any magnetic force produced will be purely horizontal ($\vec{F}_B \perp \vec{B}$).
+3.  **Independence of motion:** Since no vertical force is added by the magnetic field, the vertical kinematic equations remain unchanged.
+4.  **Compare time:** As vertical displacement and vertical acceleration are unchanged, the time of flight must be the same.
+
+###QUESTION_TYPE
+Multiple choice

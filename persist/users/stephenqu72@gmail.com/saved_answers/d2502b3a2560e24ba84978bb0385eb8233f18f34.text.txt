@@ -1,0 +1,23 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this problem, we look at the formula for gravitational field strength $g$, which is given by Newton’s Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+In this formula:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet (in this case, Earth).
+*   $r$ is the distance from the center of the mass (Earth's center) to the object (the spacecraft).
+
+**Analysis of the options:**
+*   **A:** The mass of the Earth ($M$) is a constant; it does not change as the spacecraft moves.
+*   **B:** The gravitational field strength is independent of the mass of the object being acted upon (the spacecraft). It only depends on the mass of the source (Earth) and the distance.
+*   **C:** The density of the atmosphere does not determine the gravitational field strength.
+*   **D:** As the altitude of the spacecraft increases, the distance $r$ from the center of the Earth increases. Because $r$ is in the denominator and squared ($r^2$), as $r$ increases, the value of $g$ must decrease. This follows the inverse-square law.
+
+Therefore, the change in the gravitational field strength is directly caused by the change in the distance of the spacecraft from the Earth's center.
+
+### QUESTION_TYPE
+Multiple choice

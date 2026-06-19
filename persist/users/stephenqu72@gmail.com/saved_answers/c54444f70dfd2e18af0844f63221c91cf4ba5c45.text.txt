@@ -1,0 +1,27 @@
+### Answer
+
+**(a)** The force of gravity exerted by Methanos on Propedes is **equal in magnitude and opposite in direction** to the force of gravity exerted by Propedes on Methanos. This is an application of **Newton's Third Law of Motion**, which states that for every action, there is an equal and opposite reaction. Mathematically, this is expressed by Newton's Law of Universal Gravitation, where the force $F = \frac{G M_1 M_2}{r^2}$ is identical regardless of which mass is considered the source of the field.
+
+**(b)** 
+*   **Mass:** The mass of the astronaut remains constant at **$95\text{ kg}$** on both Propedes and Methanos, as mass is an intrinsic property of an object and does not change based on location.
+*   **Weight:** Weight is calculated using $W = mg$.
+    *   On Propedes: $W_P = 95\text{ kg} \times 2.2\text{ m s}^{-2} = \mathbf{209\text{ N}}$.
+    *   On Methanos: $W_M = 95\text{ kg} \times 12.8\text{ m s}^{-2} = \mathbf{1216\text{ N}}$.
+    *   Comparing the two, the astronaut weighs approximately $5.8$ times more on Methanos than on Propedes ($1216 / 209 \approx 5.8$).
+
+---
+
+### How to solve this question
+
+**Part (a):**
+To solve this, recognize that gravitational attraction is a mutual interaction between two bodies. Students often mistakenly think the larger body exerts a "stronger" force, but Newton’s Third Law confirms that forces always occur in pairs. When answering, explicitly mention "Newton's Third Law" to secure full marks.
+
+**Part (b):**
+This is a standard physics calculation requiring the distinction between mass and weight.
+1.  **Define Mass:** Always remember that mass is a scalar quantity representing the amount of matter in an object and is location-independent.
+2.  **Define Weight:** Remember that weight is the force of gravity acting on a mass ($W = mg$).
+3.  **Perform Calculation:** Use the provided gravitational field strengths ($g$) for each location. Ensure you show the substitution into the formula $W = mg$ clearly for each scenario.
+4.  **Compare:** To "quantitatively compare," provide both calculated values and optionally calculate the ratio to show the difference in magnitude.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this problem, you need to understand the relationship between gravitational force, work, and potential energy.
+
+1.  **Conservative Force:** Gravity is a **conservative force**. This means the work done by the gravitational force on an object moving between two points depends *only* on the initial and final positions, not on the path taken.
+2.  **Definition of Gravitational Potential Energy ($U_g$):** The gravitational potential energy of an object at a point in a gravitational field is defined as the work done by an external force to bring the object from infinity to that point.
+3.  **Work-Energy Theorem for Conservative Fields:** The work done by a conservative force, $W_g$, is equal to the negative of the change in potential energy:
+    $$W_g = -\Delta U_g = -(U_f - U_i) = U_i - U_f$$
+    In common physics terminology, the "work done by gravity" is numerically equivalent to the magnitude of the change in gravitational potential energy. Since moving through a potential field converts gravitational potential energy into other forms (or vice versa), the energy "gained" or "lost" by the field is exactly the change in potential energy between the two points.
+
+*   Option (B) is incorrect because the change in kinetic energy is equal to the **total** work done on the object (Work-Energy Theorem), which might include work done by engines/thrusters, not just gravity.
+*   Option (C) is incorrect because the change in total mechanical energy is only zero if *only* gravity is doing work (conservation of mechanical energy).
+*   Option (D) is incorrect because moving between different points in a gravitational field (at different radii from the center of the Earth) necessarily involves work being done by the gravitational field.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To find the direction of the force acting on the wire at point $B$, we apply the **Right-Hand Rule** for the motor effect.
+
+### 1. Identify the Direction of Current ($I$)
+Look at the circuit diagram. The battery terminal on the right is positive ($+$), and the left is negative ($-$). Current flows out of the positive terminal, travels clockwise through the circuit, and moves along the wire from point $C$ towards $B$ and then $A$. Therefore, at point $B$, the current is flowing in the direction from $C$ to $A$ (tangentially along the curve of the wire).
+
+### 2. Identify the Direction of the Magnetic Field ($B$)
+The symbols $\times$ represent a magnetic field directed **into the page**.
+
+### 3. Apply the Right-Hand Rule (Motor Effect)
+According to the Right-Hand Rule:
+*   Point your **fingers** in the direction of the current $I$ (tangent to the wire at point $B$, pointing roughly towards the "top-right").
+*   Point your **palm** in the direction of the magnetic field $B$ (into the page).
+*   Your **extended thumb** will point in the direction of the force $F$.
+
+Applying this:
+*   With the current moving along the curve at point $B$ (heading roughly "up-right") and the magnetic field pointing into the page, the force $F$ must be perpendicular to both the current and the magnetic field.
+*   The force acting on a current-carrying wire in a magnetic field is given by $F = I L B \sin(\theta)$. The direction is always perpendicular to the plane formed by the current vector and the magnetic field vector.
+*   By visualizing the orientation, the force acts radially **outward** from the center of the circle defined by the wire's curve. At point $B$, this direction corresponds to the bottom-left direction, perpendicular to the tangent of the curve at that point.
+
+Matching this to the given options, the force is directed towards the bottom-left.
+
+**Correct Answer: C**
+
+### How to solve it:
+1. **Trace the current:** Follow the path from the positive terminal of the battery. The current travels along the wire section $C \to B \to A$. At point $B$, the instantaneous velocity of the charge (or current direction) is a vector tangent to the circle at that point.
+2. **Orient your hand:** Align your right hand such that your fingers follow the current flow (tangent at $B$) and your palm faces into the page.
+3. **Determine the thumb direction:** Your thumb points in the direction of the Lorentz force acting on the charges within the wire. This force is directed radially outward from the circular loop, which points towards the bottom-left of the page.
+
+### QUESTION_TYPE
+Multiple choice

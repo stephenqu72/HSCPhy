@@ -1,0 +1,36 @@
+To solve this problem, we need to determine the mass of the nucleus using the kinetic energy formula, then use the force balance in an electric field to find the charge, and finally calculate the number of protons.
+
+### Step 1: Find the mass of the nucleus ($m$)
+We are given:
+- Kinetic energy $E_k = 1.00 \times 10^{-24} \text{ J}$
+- Velocity $v = 10 \text{ m s}^{-1}$
+
+Using the formula $E_k = \frac{1}{2}mv^2$:
+$$m = \frac{2E_k}{v^2} = \frac{2(1.00 \times 10^{-24})}{(10)^2} = \frac{2.00 \times 10^{-24}}{100} = 2.00 \times 10^{-26} \text{ kg}$$
+
+### Step 2: Find the net charge of the nucleus ($q$)
+We are given:
+- Electric field strength $E = 1.00 \text{ V m}^{-1}$
+- Acceleration $a = 4.79 \times 10^7 \text{ m s}^{-2}$
+
+The force exerted on a charge in an electric field is $F = qE$, and according to Newton's Second Law, $F = ma$. Therefore:
+$$qE = ma$$
+$$q = \frac{ma}{E} = \frac{(2.00 \times 10^{-26} \text{ kg})(4.79 \times 10^7 \text{ m s}^{-2})}{1.00 \text{ V m}^{-1}}$$
+$$q = 9.58 \times 10^{-19} \text{ C}$$
+
+### Step 3: Find the number of protons ($Z$)
+The charge of a single proton is approximately $e = 1.602 \times 10^{-19} \text{ C}$. The number of protons $Z$ is:
+$$Z = \frac{q}{e} = \frac{9.58 \times 10^{-19} \text{ C}}{1.602 \times 10^{-19} \text{ C}} \approx 5.98$$
+
+Rounding to the nearest whole number, we get $Z = 6$. This corresponds to a Carbon nucleus.
+
+Comparing this to the given options:
+(A) 6
+(B) 3
+(C) 12
+(D) 28
+
+**The correct answer is (A).**
+
+###QUESTION_TYPE
+Multiple choice

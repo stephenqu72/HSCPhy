@@ -1,0 +1,38 @@
+To solve this problem, we need to calculate the kinetic energy of the mass and identify the work done on the mass during one full revolution.
+
+### 1. Calculating Kinetic Energy ($E_k$)
+The formula for kinetic energy is:
+$$E_k = \frac{1}{2}mv^2$$
+
+First, we need to find the velocity ($v$) of the mass. The mass travels a distance equal to the circumference of the circle ($2\pi r$) in one period ($T$):
+$$v = \frac{2\pi r}{T}$$
+
+Given values:
+- $m = 0.800\text{ kg}$
+- $r = 0.25\text{ m}$
+- $T = 2.0\text{ s}$
+
+Substitute the values to find $v$:
+$$v = \frac{2 \times \pi \times 0.25}{2.0} = 0.25\pi \approx 0.7854\text{ m/s}$$
+
+Now, substitute $v$ into the kinetic energy formula:
+$$E_k = \frac{1}{2} \times 0.800 \times (0.25\pi)^2$$
+$$E_k = 0.400 \times 0.0625\pi^2$$
+$$E_k \approx 0.400 \times 0.61685$$
+$$E_k \approx 0.2467\text{ J}$$
+
+Rounding to two significant figures (as per the given data), we get **$0.25\text{ J}$**.
+
+### 2. Determining Work Done
+In uniform circular motion, the net force acting on the object (the centripetal force) is always directed toward the center of the circle, while the direction of motion (velocity) is always tangent to the circle. 
+
+Since the force is always perpendicular to the direction of motion, the work done on the mass by the centripetal force is zero ($W = F \cdot d \cdot \cos(90^\circ) = 0$). Additionally, the speed of the mass remains constant throughout the revolution; according to the Work-Energy Theorem, since there is no change in kinetic energy, the net work done on the object is zero.
+
+### Conclusion
+Comparing our results ($E_k \approx 0.25\text{ J}$ and Work Done = zero) to the options provided:
+- Row D matches these values.
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

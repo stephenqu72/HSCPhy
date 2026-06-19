@@ -1,0 +1,36 @@
+To find the net force on conductor 2, we must calculate the individual forces exerted by conductor 1 and conductor 3, and then determine their direction.
+
+### 1. Physics Principles
+The magnitude of the force $F$ between two parallel current-carrying wires of length $L$ is given by the formula:
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi d}$$
+Where:
+- $\mu_0 = 4\pi \times 10^{-7}\ \text{T}\cdot\text{m/A}$
+- $I_1 = I_2 = 2.5\ \text{A}$
+- $L = 0.500\ \text{m}$
+- $d$ is the distance between the wires.
+
+**Direction rules:**
+- Currents in the **same direction** attract.
+- Currents in **opposite directions** repel.
+
+### 2. Calculations
+**Force from Conductor 1 on Conductor 2 ($F_{1 \to 2}$):**
+The currents are in the same direction, so they **attract**. Conductor 1 pulls Conductor 2 **upward**.
+$$F_{1 \to 2} = \frac{(4\pi \times 10^{-7}) \times (2.5) \times (2.5) \times (0.500)}{2\pi \times 0.55}$$
+$$F_{1 \to 2} = \frac{2 \times 10^{-7} \times 6.25 \times 0.5}{0.55} \approx 1.136 \times 10^{-6}\ \text{N (up)}$$
+
+**Force from Conductor 3 on Conductor 2 ($F_{3 \to 2}$):**
+The currents are in opposite directions, so they **repel**. Conductor 3 pushes Conductor 2 **upward**.
+$$F_{3 \to 2} = \frac{(4\pi \times 10^{-7}) \times (2.5) \times (2.5) \times (0.500)}{2\pi \times 0.15}$$
+$$F_{3 \to 2} = \frac{2 \times 10^{-7} \times 6.25 \times 0.5}{0.15} \approx 4.167 \times 10^{-6}\ \text{N (up)}$$
+
+**Net Force:**
+Since both forces are directed upwards, we add their magnitudes:
+$$F_{\text{net}} = 1.136 \times 10^{-6} + 4.167 \times 10^{-6} = 5.303 \times 10^{-6}\ \text{N (up)}$$
+
+Rounding to two significant figures, we get $5.3 \times 10^{-6}\ \text{N up}$.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

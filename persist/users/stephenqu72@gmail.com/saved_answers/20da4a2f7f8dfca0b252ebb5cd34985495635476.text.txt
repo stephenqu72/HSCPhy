@@ -1,0 +1,32 @@
+### Answer
+The correct statement is **A**. The total energy of an orbiting satellite is the sum of its gravitational potential energy and its kinetic energy.
+
+---
+
+### Explanation
+To understand this, let's look at the mechanical energy of a satellite orbiting a central body of mass $M$ at a distance $r$.
+
+1.  **Definitions:**
+    *   **Gravitational Potential Energy ($U$):** By convention, the gravitational potential energy is given by:
+        $$U = -\frac{GMm}{r}$$
+        (Note that this value is always negative).
+    *   **Kinetic Energy ($K$):** For a satellite in a circular orbit, the gravitational force provides the centripetal force:
+        $$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+        Solving for $mv^2$, we find $mv^2 = \frac{GMm}{r}$. Since $K = \frac{1}{2}mv^2$, the kinetic energy is:
+        $$K = \frac{GMm}{2r}$$
+
+2.  **Total Mechanical Energy ($E$):**
+    The total energy of any mechanical system is defined as the sum of its kinetic and potential energy:
+    $$E = K + U$$
+    Substituting our expressions:
+    $$E = \left(\frac{GMm}{2r}\right) + \left(-\frac{GMm}{r}\right)$$
+    $$E = -\frac{GMm}{2r}$$
+
+3.  **Evaluating the Options:**
+    *   **Option A** is the definition of total mechanical energy. Regardless of the specific values of $K$ and $U$, the total energy is fundamentally the sum of these two components. 
+    *   Option B, C, and D are incorrect based on the derived mathematical relationships. For instance, $E = -K$, which shows the total energy is the negative of the kinetic energy, not a simple sum or difference that yields a different magnitude.
+
+Therefore, the statement that the total energy is the sum of its gravitational potential energy and its orbital kinetic energy is correct.
+
+###QUESTION_TYPE
+Multiple choice

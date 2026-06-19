@@ -1,0 +1,33 @@
+### Solution and Explanation
+
+#### Part (a)
+To solve this, we use the formula for the magnetic force per unit length between two parallel current-carrying wires:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi d}$$
+
+**Given data:**
+*   $L = 5\text{ m}$
+*   $d = 15.0\text{ cm} = 0.15\text{ m}$
+*   $I_1 = 25.0\text{ A}$
+*   $F = 6.65 \times 10^{11}\text{ N}$
+*   $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+**Step 1: Calculate the current in the second wire ($I_2$)**
+Rearranging the formula to solve for $I_2$:
+$$I_2 = \frac{F \cdot 2\pi d}{\mu_0 I_1 L}$$
+$$I_2 = \frac{(6.65 \times 10^{11}) \cdot 2\pi \cdot 0.15}{(4\pi \times 10^{-7}) \cdot 25.0 \cdot 5}$$
+$$I_2 = \frac{6.27 \times 10^{11}}{6.28 \times 10^{-6}} \approx 9.975 \times 10^{16}\text{ A}$$
+
+**Step 2: Calculate Power ($P$)**
+Using the power formula $P = VI$:
+$$P = 5.00\text{ V} \times 9.975 \times 10^{16}\text{ A} \approx 4.99 \times 10^{17}\text{ W}$$
+
+*(Note: While the physics principles are correctly applied, the provided force value in the question leads to an physically impossible current for standard conductive wires. In an exam, always show your working clearly as demonstrated above.)*
+
+#### Part (b)
+The force is generated through the interaction between a current and a magnetic field:
+1.  **Creation of a Magnetic Field:** The current $I_1$ flowing through the first wire generates a circular magnetic field ($B_1$) around the wire, as described by the right-hand grip rule.
+2.  **Interaction:** The second wire is located within this magnetic field. When a current $I_2$ flows through the second wire, the moving charges within that wire experience a Lorentz force ($F = ILB\sin\theta$) due to the external magnetic field $B_1$.
+3.  **Newton's Third Law:** By symmetry, the second wire also creates a magnetic field that exerts a force on the first wire; these two forces are equal in magnitude and opposite in direction. Since the force is repulsive, the currents must be flowing in opposite directions.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,32 @@
+To solve this problem, we use the formula for the gravitational field strength $g$ of a spherical body:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $g = 1.35 \text{ N kg}^{-1}$ (the gravitational field strength)
+*   $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$ (the universal gravitational constant)
+*   $M$ is the mass of Titan (what we need to find)
+*   $r = 2575 \text{ km} = 2.575 \times 10^6 \text{ m}$ (the radius in standard SI units)
+
+### Step-by-Step Calculation:
+
+1.  **Rearrange the formula to solve for $M$:**
+    $$M = \frac{g \cdot r^2}{G}$$
+
+2.  **Substitute the known values:**
+    $$M = \frac{1.35 \times (2.575 \times 10^6)^2}{6.67 \times 10^{-11}}$$
+
+3.  **Calculate $r^2$:**
+    $$(2.575 \times 10^6)^2 \approx 6.63 \times 10^{12}$$
+
+4.  **Complete the calculation:**
+    $$M = \frac{1.35 \times 6.63 \times 10^{12}}{6.67 \times 10^{-11}}$$
+    $$M = \frac{8.95 \times 10^{12}}{6.67 \times 10^{-11}}$$
+    $$M \approx 1.34 \times 10^{23} \text{ kg}$$
+
+Comparing this result to the given options, $1.34 \times 10^{23} \text{ kg}$ is closest to $1.35 \times 10^{23} \text{ kg}$.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

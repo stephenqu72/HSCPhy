@@ -1,0 +1,31 @@
+To solve these physics problems, we must apply the principles of electromagnetism, specifically the relationship between potential difference, electric fields, and the motion of charged particles in magnetic fields.
+
+### Solutions
+
+**a. Calculate the strength of the electric field ($E$):**
+The electric field between parallel plates is given by $E = \frac{V}{d}$, where $V$ is the potential difference and $d$ is the distance.
+Convert $d = 20 \text{ cm} = 0.20 \text{ m}$ and $V = 10 \text{ kV} = 10,000 \text{ V}$.
+$$E = \frac{10,000}{0.20} = 50,000 = 5.0 \times 10^4 \text{ V m}^{-1}$$
+
+**b. Calculate the speed ($v$) of the proton:**
+The kinetic energy gained by the proton equals the work done by the electric field: $qV = \frac{1}{2}mv^2$.
+Rearranging for $v$: $v = \sqrt{\frac{2qV}{m}}$
+Substitute the values: $q = 1.6 \times 10^{-19} \text{ C}$, $V = 10^4 \text{ V}$, $m = 1.7 \times 10^{-27} \text{ kg}$.
+$$v = \sqrt{\frac{2 \times (1.6 \times 10^{-19}) \times 10,000}{1.7 \times 10^{-27}}} = \sqrt{\frac{3.2 \times 10^{-15}}{1.7 \times 10^{-27}}} \approx \sqrt{1.88 \times 10^{12}} \approx 1.37 \times 10^6 \text{ m s}^{-1}$$
+
+**c. Calculate the radius ($r$) of the path:**
+When a charge moves perpendicular to a magnetic field, the magnetic force provides the centripetal force: $qvB = \frac{mv^2}{r}$.
+Rearranging for $r$: $r = \frac{mv}{qB}$
+Using $v = 1.0 \times 10^6 \text{ m s}^{-1}$ and $B = 2.0 \times 10^{-2} \text{ T}$:
+$$r = \frac{(1.7 \times 10^{-27}) \times (1.0 \times 10^6)}{(1.6 \times 10^{-19}) \times (2.0 \times 10^{-2})} = \frac{1.7 \times 10^{-21}}{3.2 \times 10^{-21}} \approx 0.53 \text{ m}$$
+
+---
+
+### How to solve it
+1. **Identify the physics:** Part (a) is a standard electrostatics problem. Part (b) involves Energy Conservation (Electrical potential energy converting to Kinetic energy). Part (c) involves Circular Motion in a Magnetic Field.
+2. **Unit Conversion:** Always convert cm to m and kV to V before performing calculations to ensure consistency with SI units.
+3. **Rearrange Formulas:** When solving for $v$ or $r$, perform the algebraic rearrangement before plugging in your numbers to minimize rounding errors.
+4. **Rounding:** Maintain at least two or three significant figures throughout your working, as provided in the data.
+
+###QUESTION_TYPE
+Calculation question

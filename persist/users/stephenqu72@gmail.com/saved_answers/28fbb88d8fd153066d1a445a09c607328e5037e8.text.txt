@@ -1,0 +1,30 @@
+To solve this problem, we must apply the physics principle of the force between two parallel current-carrying conductors, given by the formula:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+Where $F$ is the force, $r$ is the distance, and all other variables are constant. This implies that $F \propto \frac{1}{r}$.
+
+### (a) Plotting the graph
+You would plot the force values (y-axis) against distance (x-axis). Given the relationship $F \propto \frac{1}{r}$, the resulting plot will be a **curve** (hyperbola), not a straight line.
+
+### (b) Why it is inappropriate to draw a conclusion
+It is difficult to determine the precise mathematical relationship from a curve by visual inspection alone. To verify an inverse relationship ($F \propto \frac{1}{r}$), we need to linearize the data.
+
+### (c) Predict the relationship and add data
+The theory predicts $F$ is inversely proportional to $r$. To test this, we should calculate $1/r$ (or $1/distance$).
+*   $1 / 0.005 = 200$
+*   $1 / 0.010 = 100$
+*   $1 / 0.015 \approx 66.7$
+*   $1 / 0.020 = 50$
+*   $1 / 0.025 = 40$
+
+Add the label "$1/distance$ ($m^{-1}$)" to the third column and calculate these values for each row.
+
+### (d) Plotting the new data
+By plotting Force ($F$) against ($1/r$), the resulting graph will be a **straight line passing through the origin**.
+
+### (e) Evaluation
+The choice to plot $F$ against $1/r$ is effective because it linearizes the data. If the points form a straight line that passes through the origin, it provides graphical evidence that $F$ is directly proportional to $1/r$, confirming that $F$ is inversely proportional to $r$.
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

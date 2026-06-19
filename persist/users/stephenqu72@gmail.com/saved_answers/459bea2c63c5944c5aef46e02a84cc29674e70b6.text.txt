@@ -1,0 +1,38 @@
+### Answer and Explanation
+
+#### Part (a): Diagram
+To represent this system, draw two parallel horizontal plates. Since the drop is suspended (or moving at constant velocity, implying a balance of forces), the negative oil drop must be pulled upwards by an electric force ($F_E$) to counteract gravity ($F_g$).
+*   **Electric Field ($E$):** Must point downwards so that the negative charge experiences an upward force ($F = qE$).
+*   **Forces:** 
+    1.  $F_g = mg$ acting downwards.
+    2.  $F_E = qE$ acting upwards.
+*   **Note:** If the drop is falling at a **constant velocity**, this technically implies the sum of forces is zero, including air resistance ($F_D$). However, in Millikan-style problems, "suspended" usually implies $F_g = F_E$. If the question explicitly states "falling at a constant velocity," you must account for drag: $F_g = F_E + F_D$. Given the typical HSC context of this specific problem type, we assume the electrostatic force balances the gravitational force ($mg = qE$).
+
+#### Part (b): Calculation
+To find the mass, we use the condition of equilibrium: $F_g = F_E$ (assuming air resistance is negligible or the drop is effectively stationary/suspended).
+
+**1. Identify the given variables:**
+*   Number of electrons ($n$) = $7$
+*   Charge of an electron ($e$) = $1.602 \times 10^{-19} \text{ C}$
+*   Total charge ($q$) = $n \times e = 7 \times 1.602 \times 10^{-19} = 1.1214 \times 10^{-18} \text{ C}$
+*   Distance ($d$) = $3.00 \text{ cm} = 0.0300 \text{ m}$
+*   Voltage ($V$) = $9.05 \text{ V}$
+*   Gravity ($g$) = $9.8 \text{ m/s}^2$
+
+**2. Formulas:**
+*   Electric Field Strength: $E = \frac{V}{d}$
+*   Equilibrium condition: $mg = qE$
+
+**3. Solve for mass ($m$):**
+$$m = \frac{qE}{g} = \frac{q \cdot (\frac{V}{d})}{g} = \frac{qV}{gd}$$
+
+Substitute the values:
+$$m = \frac{(1.1214 \times 10^{-18} \text{ C}) \times 9.05 \text{ V}}{9.8 \text{ m/s}^2 \times 0.0300 \text{ m}}$$
+$$m = \frac{1.014867 \times 10^{-17}}{0.294}$$
+$$m \approx 3.45 \times 10^{-17} \text{ kg}$$
+
+**Explanation:**
+To solve this, recognize that for a charged object to move at a constant velocity (or remain stationary) in an electric field, the upward electric force must perfectly balance the downward gravitational force. We calculate the total charge, find the strength of the electric field using the potential difference and distance, and then rearrange Newton’s Second Law ($F_{net} = 0$) to solve for mass.
+
+###QUESTION_TYPE
+Calculation question

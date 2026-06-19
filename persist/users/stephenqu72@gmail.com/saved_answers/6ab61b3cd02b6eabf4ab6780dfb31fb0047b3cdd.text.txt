@@ -1,0 +1,23 @@
+To determine the correct answer, we must analyze the physics of a charged particle moving in a uniform magnetic field.
+
+### Analysis
+When an electron (charge $q$) moves with speed $v$ perpendicular to a uniform magnetic field $B$, it experiences a magnetic Lorentz force $F_B$ that acts as a centripetal force $F_c$, causing it to move in a circle.
+
+1.  **Force on the electron:** The magnitude of the magnetic force is given by:
+    $$F_B = qvB$$
+    If the speed $v$ is **increased** (and $q$ and $B$ remain constant), the magnetic force $F_B$ must **increase**.
+
+2.  **Radius of path:** The magnetic force provides the centripetal force $F_c = \frac{mv^2}{r}$. Setting these equal to each other:
+    $$qvB = \frac{mv^2}{r}$$
+    Solving for the radius $r$:
+    $$r = \frac{mv}{qB}$$
+    Since the mass $m$, charge $q$, and magnetic field strength $B$ are constant, we can see that $r$ is directly proportional to $v$ ($r \propto v$). Therefore, if the speed $v$ **increases**, the radius $r$ must **increase**.
+
+### Conclusion
+- The force on the electron **increases**.
+- The radius of the path **increases**.
+
+Matching this with the given options, we find that row **B** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+**Given data:**
+*   Length of spanner ($r$) = $45\text{ cm} = 0.45\text{ m}$
+*   Required torque ($\tau$) = $5.0\text{ Nm}$
+
+---
+
+#### (a) Calculate the force required
+When the force is applied perpendicular to the shaft, the angle $\theta = 90^\circ$. The formula for torque is $\tau = rF \sin(\theta)$. Since $\sin(90^\circ) = 1$:
+$$F = \frac{\tau}{r} = \frac{5.0\text{ Nm}}{0.45\text{ m}} \approx 11.11\text{ N}$$
+**Answer:** The force required is $11.1\text{ N}$.
+
+#### (b) Torque at $75^\circ$
+Using the same formula where $F = 11.11\text{ N}$ and $\theta = 75^\circ$:
+$$\tau = rF \sin(75^\circ)$$
+$$\tau = 0.45\text{ m} \times 11.11\text{ N} \times \sin(75^\circ) \approx 5.0 \times 0.9659 \approx 4.83\text{ Nm}$$
+**Answer:** The torque applied would be $4.83\text{ Nm}$.
+
+#### (c) Changes in energy to move to a higher orbit
+When a spaceship fires its engines to increase its orbital altitude:
+1.  **Potential Energy ($U$):** Increases, because the spaceship is moving further away from the Earth's gravitational potential well ($U = -\frac{GMm}{r}$).
+2.  **Kinetic Energy ($K$):** Decreases. For a stable circular orbit, $K = \frac{GMm}{2r}$. As $r$ increases, the required orbital velocity and kinetic energy decrease.
+*Note: Although work is done by the engines to increase total energy, the redistribution results in a gain in potential energy and a loss in kinetic energy.*
+
+#### (d) Distinguish between escape velocity and orbital velocity
+*   **Orbital Velocity ($v_o$):** The minimum speed required to maintain a stable circular orbit at a specific distance from the center of a planet. If an object is moving at this speed, it is in freefall around the planet.
+    $$v_o = \sqrt{\frac{GM}{r}}$$
+*   **Escape Velocity ($v_e$):** The minimum speed required for an object to break free from the gravitational influence of a massive body and never return (i.e., to reach an infinite distance with zero kinetic energy).
+    $$v_e = \sqrt{\frac{2GM}{r}}$$
+*   **Distinction:** Escape velocity is always $\sqrt{2} \approx 1.41$ times greater than the orbital velocity at the same radius.
+
+---
+
+###QUESTION_TYPE
+Calculation question

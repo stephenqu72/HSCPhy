@@ -1,0 +1,41 @@
+Hello! As an HSC physics teacher, I will guide you through this calculation and graphing task. Let’s break it down step-by-step.
+
+### Part (a): Calculation
+To find the acceleration due to gravity ($g$) at the surface of a planet, we use the formula derived from Newton’s Law of Universal Gravitation:
+$$g = \frac{GM}{r^2}$$
+
+**Given:**
+- $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+- $M = 6.4 \times 10^{23} \text{ kg}$
+- $r = 3.4 \times 10^{6} \text{ m}$
+
+**Calculation:**
+$$g = \frac{(6.67 \times 10^{-11}) \times (6.4 \times 10^{23})}{(3.4 \times 10^{6})^2}$$
+$$g = \frac{4.2688 \times 10^{13}}{1.156 \times 10^{13}}$$
+$$g \approx 3.69 \text{ m s}^{-2}$$
+
+---
+
+### Part (b): Graphing
+1. **Find Initial Potential Energy ($U_g$):**
+   At the surface, $U_g = 0$ J. At a height $h = 10$ m, the potential energy is:
+   $$U_g = mgh = 0.20 \text{ kg} \times 3.69 \text{ m s}^{-2} \times 10 \text{ m} = 7.38 \text{ J}$$
+   - **Sketching $U_g$:** Draw a straight line starting from $(0,0)$ up to $(10, 7.38)$.
+
+2. **Sketching Kinetic Energy ($E_K$):**
+   By the Law of Conservation of Energy, total mechanical energy is constant. Since the probe is "released" (starts from rest), the initial $E_K = 0$. As it falls, $E_K$ increases as $U_g$ decreases.
+   - **Sketching $E_K$:** Draw a straight line starting from $(0, 7.38)$ (at height 10m) down to $(10, 0)$ (at height 0m).
+
+**Summary for graph:**
+- Line $U_g$: Passes through $(0,0)$ and $(10, 7.38)$.
+- Line $E_K$: Passes through $(0, 7.38)$ and $(10, 0)$.
+
+---
+
+### How to solve these types of questions:
+1. **Identify the variables:** Always list your given values with units before plugging them into the formula.
+2. **Formula selection:** For gravitational fields, remember that surface gravity depends on the planet's mass and radius.
+3. **Energy principles:** When sketching energy graphs for objects in a uniform field, remember that total energy is conserved. Since $U_g = mgh$ is a linear function of $h$, the energy graphs will be straight lines with equal and opposite gradients.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,26 @@
+To determine the correct direction of the induced current, we apply **Lenz’s Law** and **Faraday’s Law of Induction**.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Magnetic Flux:** 
+    The magnetic flux $\Phi$ through the coil is given by $\Phi = BA \cos(\theta)$, where $\theta$ is the angle between the magnetic field vector and the normal to the coil's surface. Initially, the field is perpendicular to the plane, so the flux is at a maximum. 
+    As the coil begins to rotate clockwise as shown, the area of the coil "projected" perpendicular to the magnetic field decreases. Consequently, the magnetic flux through the coil is **decreasing**.
+
+2.  **Apply Lenz’s Law:** 
+    Lenz’s Law states that the induced current will create a magnetic field that opposes the *change* in flux. Since the downward flux is decreasing, the induced current must create a magnetic field pointing **downwards** (to replenish the "lost" flux).
+
+3.  **Determine Current Direction (Right-Hand Grip Rule):**
+    Using your right hand, point your thumb in the direction of the desired induced magnetic field (downward). Your fingers will curl in the direction of the induced current. 
+    Looking at the coil from above:
+    *   For the side of the coil closest to you (the right side in the diagram), the current should flow from the right towards the left.
+    *   Following the loop, this results in a **clockwise** current flow when viewed from above.
+
+4.  **Evaluate the Options:**
+    *   In diagrams (A) and (D), the arrows show a specific path.
+    *   Looking at the geometry of the rotation, the right-hand side of the coil is moving "up" out of the page, while the left side is moving "down" into the page. Applying the right-hand motor rule ($F = I L \times B$) or flux analysis shows that the current must flow to produce a field that opposes the change.
+    *   Diagram **(A)** correctly depicts the current flow that produces an additional downward magnetic field to oppose the reduction of the original field flux.
+
+**Answer:** (A)
+
+###QUESTION_TYPE
+Multiple choice

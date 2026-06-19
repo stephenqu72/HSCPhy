@@ -1,0 +1,38 @@
+### Solution
+
+**(a) Calculate the torque on the bolt.**
+
+To calculate the torque ($\tau$), we use the formula:
+$$\tau = r \cdot F \cdot \sin(\theta)$$
+
+Where:
+- $r$ is the length of the wrench (lever arm) = $20\text{ cm} = 0.2\text{ m}$
+- $F$ is the applied force = $150\text{ N}$
+- $\theta$ is the angle between the force vector and the lever arm = $40^\circ$
+
+**Calculation:**
+$$\tau = 0.2 \times 150 \times \sin(40^\circ)$$
+$$\tau = 30 \times 0.64278...$$
+$$\tau \approx 19.28\text{ Nm}$$
+
+The torque on the bolt is approximately $19.28\text{ Nm}$.
+
+---
+
+**(b) Outline two ways you could increase the torque on the bolt.**
+
+To increase the torque, you can manipulate any of the variables in the formula $\tau = r F \sin(\theta)$:
+
+1.  **Increase the length of the wrench ($r$):** Using a longer wrench increases the lever arm distance from the pivot point, which proportionally increases the torque applied to the bolt.
+2.  **Increase the angle to $90^\circ$ ($\theta$):** Torque is maximized when the force is applied perpendicular to the wrench. Adjusting the angle of the applied force to be $90^\circ$ relative to the wrench will increase $\sin(\theta)$ to its maximum value of $1$.
+3.  **Increase the applied force ($F$):** Applying a greater magnitude of force directly results in a higher torque.
+
+---
+
+### How to solve this
+1.  **Identify the variables:** Always convert units to SI units (meters, Newtons) before calculating. Here, $20\text{ cm}$ must become $0.2\text{ m}$.
+2.  **Select the correct formula:** Recognizing that torque depends on the component of force perpendicular to the wrench is key. Using $\sin(\theta)$ correctly extracts this component.
+3.  **Conceptual understanding:** For part (b), always look at the mathematical variables in the physics equation. If the variable is in the numerator, increasing it will increase the result.
+
+###QUESTION_TYPE
+Calculation question

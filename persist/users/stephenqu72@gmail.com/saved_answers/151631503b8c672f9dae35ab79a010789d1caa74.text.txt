@@ -1,0 +1,36 @@
+### Teacher's Solution and Explanation
+
+#### Part (a): Calculating the charge of the oil droplet
+To keep the droplet stationary, the upward electric force must equal the downward gravitational force:
+$$F_E = F_g \implies qE = mg$$
+Since $E = \frac{V}{d}$, we substitute to get:
+$$q\left(\frac{V}{d}\right) = mg \implies q = \frac{mgd}{V}$$
+
+**Given values:**
+*   $m = 5.0 \times 10^{-15} \text{ kg}$
+*   $g \approx 9.8 \text{ m/s}^2$
+*   $d = 20.0 \text{ mm} = 0.020 \text{ m}$
+*   $V = 2041.7 \text{ V}$
+
+**Calculation:**
+$$q = \frac{(5.0 \times 10^{-15})(9.8)(0.020)}{2041.7} \approx 4.8 \times 10^{-19} \text{ C}$$
+
+---
+
+#### Part (b): Determining the elementary charge
+To find the charge of a single electron, we look for the **Greatest Common Divisor (GCD)** of all the measured charges. Each measurement represents an integer multiple of the elementary charge ($q = n \times e$).
+
+*   Values: $19.2, 12.8, 9.6, 6.4, 38.4, 16.0, 28.8$ (all $\times 10^{-19} \text{ C}$)
+*   Observing the numbers, they are all multiples of $3.2 \times 10^{-19} \text{ C}$.
+*   However, Millikan's experiment is intended to find the elementary charge $e \approx 1.6 \times 10^{-19} \text{ C}$. 
+*   Since $3.2 = 2 \times 1.6$, the data suggests the underlying quantum of charge is $1.6 \times 10^{-19} \text{ C}$.
+
+**Justification:** The elementary charge is the smallest unit of charge that acts as a building block for all observed charges. Since all values provided are multiples of $3.2 \times 10^{-19} \text{ C}$, and $3.2 \times 10^{-19} \text{ C} = 2 \times (1.6 \times 10^{-19} \text{ C})$, we conclude the fundamental value is $1.6 \times 10^{-19} \text{ C}$.
+
+---
+
+#### Part (c): Lepton particles
+Two other leptons in the Standard Model are the **muon** ($\mu$) and the **tau** ($\tau$) (or their corresponding neutrinos: electron neutrino, muon neutrino, tau neutrino).
+
+###QUESTION_TYPE
+Calculation question

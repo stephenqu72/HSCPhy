@@ -1,0 +1,17 @@
+To determine the correct statement, we must analyze the physics of a projectile under gravity.
+
+### Answer
+The correct statement is **(C)**: "The kinetic energy will be the same at launch as at impact."
+
+---
+
+### Explanation
+To understand why (C) is correct and why the others are incorrect, let’s analyze the mechanics of the projectile:
+
+*   **(A) Incorrect:** At the peak (point $Y$), the vertical component of velocity is zero. However, the horizontal component of velocity ($v_x$) remains constant throughout the flight (assuming no air resistance). Therefore, the total velocity at $Y$ is $v_x \neq 0$, meaning the kinetic energy ($E_k = \frac{1}{2}mv^2$) is not zero.
+*   **(B) Incorrect:** Gravitational potential energy is given by $U = mgh$. Since $h$ is at its maximum at point $Y$, the potential energy is at its **maximum**, not its minimum.
+*   **(C) Correct:** According to the **Law of Conservation of Mechanical Energy**, $E_{total} = E_k + U = \text{constant}$. At both launch and impact, the height $h = 0$, so the potential energy $U = mgh = 0$. Since the total mechanical energy is conserved, the kinetic energy at launch must equal the total mechanical energy, which must also equal the kinetic energy at impact. Thus, $E_{k(launch)} = E_{k(impact)}$.
+*   **(D) Incorrect:** The kinetic energy at launch includes both horizontal and vertical components. The potential energy at $Y$ only accounts for the height reached, which corresponds to the vertical component of the launch velocity. Therefore, they are not necessarily equal unless the object is launched vertically (which contradicts the diagram).
+
+###QUESTION_TYPE
+Multiple choice

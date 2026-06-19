@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of projectile motion, specifically focusing on how velocity components behave.
+
+### Explanation
+
+1.  **Analyze the motion at maximum height:**
+    At the maximum height of a projectile's path, the vertical component of the velocity ($v_y$) is $0$. Therefore, the entire velocity of the object is horizontal. We are told this speed is $u$. Since the horizontal component of velocity ($v_x$) remains constant throughout the flight (assuming no air resistance), we know that $v_x = u$ at all times.
+
+2.  **Analyze the motion at the ground:**
+    When the projectile hits the ground, its total speed is $2u$. We know the horizontal component $v_x$ remains $u$. Let the vertical component of the velocity at impact be $v_y$. We can use the Pythagorean theorem for the resultant velocity:
+    $$v_{total}^2 = v_x^2 + v_y^2$$
+    Substituting the known values:
+    $$(2u)^2 = u^2 + v_y^2$$
+    $$4u^2 = u^2 + v_y^2$$
+    $$v_y^2 = 3u^2$$
+    $$v_y = \sqrt{3}u$$
+
+3.  **Calculate the angle of impact:**
+    The angle $\theta$ below the horizontal is found using trigonometry:
+    $$\tan(\theta) = \frac{|v_y|}{v_x}$$
+    $$\tan(\theta) = \frac{\sqrt{3}u}{u} = \sqrt{3}$$
+    Taking the inverse tangent:
+    $$\theta = \arctan(\sqrt{3}) = 60^\circ$$
+
+Therefore, the projectile hits the ground at an angle of $60^\circ$ below the horizontal.
+
+### Answer
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

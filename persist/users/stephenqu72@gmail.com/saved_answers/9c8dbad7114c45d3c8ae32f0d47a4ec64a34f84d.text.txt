@@ -1,0 +1,34 @@
+To solve this problem, we need to apply the physics of gravitation and orbital mechanics.
+
+### Part (a): Total Mechanical Energy of the Moon
+
+The total mechanical energy ($E$) of a satellite in a circular orbit is given by:
+$$E = -\frac{GMm}{2r}$$
+Alternatively, using the kinetic energy relation, $E = -\frac{1}{2} |U|$, where $U = -\frac{GMm}{r}$. 
+
+**Wait!** The question provides insufficient information to calculate the mass of the Moon ($m$) and the mass of the Earth ($M$). In an HSC physics context, if you are not provided with constants (like $G$, $M_{Earth}$, or $m_{Moon}$), you should state the formula and define the variables. If this were an exam paper where you are expected to know constants, you would use $M_{Earth} \approx 5.97 \times 10^{24} \text{ kg}$. 
+
+However, we can determine the *orbital velocity* ($v$) using the period ($T = 27.3 \text{ days} = 2.3587 \times 10^6 \text{ s}$) and radius ($r = 3.0 \times 10^8 \text{ m}$):
+$$v = \frac{2\pi r}{T} \approx 799 \text{ m/s}$$
+Since $E = -\frac{1}{2} \frac{GMm}{r}$ and $v^2 = \frac{GM}{r}$, the total energy is $E = -\frac{1}{2}mv^2$. Without the mass of the Moon, you must express the answer in terms of $m$:
+$$E = -\frac{1}{2} \times m \times (799)^2 \approx -3.19 \times 10^5 \times m \text{ Joules}$$
+
+### Part (b): Escape Velocity from the Moon
+
+The formula for escape velocity is:
+$$v_e = \sqrt{\frac{2GM}{R}}$$
+We are given the acceleration due to gravity on the Moon's surface, $g_{moon} = 1.6 \text{ m/s}^2$, and the radius of the Moon, $R = 1737 \text{ km} = 1.737 \times 10^6 \text{ m}$.
+Since $g = \frac{GM}{R^2}$, we can substitute $GM = gR^2$ into the escape velocity formula:
+$$v_e = \sqrt{\frac{2(gR^2)}{R}} = \sqrt{2gR}$$
+Now, substitute the values:
+$$v_e = \sqrt{2 \times 1.6 \times 1.737 \times 10^6}$$
+$$v_e = \sqrt{5,558,400} \approx 2357.6 \text{ m/s}$$
+Rounding to significant figures (based on the input), we get approximately $2.36 \times 10^3 \text{ m/s}$ or **$2.36 \text{ km/s}$**.
+
+---
+### Summary of steps:
+1. **Part (a):** Use the orbital energy formula $E = -GMm/2r$. Recognize that since $M$ and $m$ aren't given, provide the symbolic solution or use standard constants if allowed in your specific exam board's reference sheet.
+2. **Part (b):** Relate $GM$ to surface gravity ($g = GM/R^2$) to derive $v_e = \sqrt{2gR}$, which allows you to solve the problem using only the provided surface gravity and radius.
+
+###QUESTION_TYPE
+Calculation question

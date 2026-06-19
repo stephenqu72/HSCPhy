@@ -1,0 +1,24 @@
+To determine the direction of the force on a current-carrying wire in a magnetic field, we use the **Right-Hand Rule for Force** (also known as the Motor Rule or Fleming's Left-Hand Rule).
+
+### Answer
+The correct answer is **C. Up towards the top of the page.**
+
+### Explanation
+To solve this, we align our hand according to the Right-Hand Rule:
+
+1.  **Identify the variables:**
+    *   **Current ($I$):** The symbol $\otimes$ indicates the current is flowing **into the page**.
+    *   **Magnetic Field ($B$):** The arrows indicate the field is directed to the **right**.
+    *   **Force ($F$):** We need to determine the direction of the magnetic force on the wire.
+
+2.  **Apply the Right-Hand Rule:**
+    *   Point your **index finger** in the direction of the current ($I$). Since the current is into the page, point your index finger away from you, directly into the page.
+    *   Point your **middle finger** in the direction of the magnetic field ($B$). With your index finger still pointing into the page, rotate your hand so your middle finger points to the right.
+    *   Extend your **thumb**. Your thumb will now be pointing towards the **top of the page**.
+
+This represents the direction of the magnetic force exerted on the wire according to the formula:
+$$F = ILB \sin(\theta)$$
+where the direction is given by the cross product of the current vector and the magnetic field vector. Using the right-hand coordinate system, an "into the page" current crossed with a "right" magnetic field results in an "upward" force.
+
+###QUESTION_TYPE
+Multiple choice

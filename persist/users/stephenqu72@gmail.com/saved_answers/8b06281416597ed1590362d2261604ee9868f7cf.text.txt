@@ -1,0 +1,37 @@
+To solve this problem, we use the formula for the gravitational field strength $g$ at the surface of a planet:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $r$ is the radius of the planet.
+
+### Step-by-Step Explanation:
+
+1.  **Define the variables for Earth:**
+    Let the mass of Earth be $M_E$ and the radius of Earth be $r_E$. The gravitational field strength at Earth's surface is:
+    $$g = \frac{GM_E}{r_E^2}$$
+
+2.  **Define the variables for the new planet:**
+    We are given that the new planet has:
+    *   Mass $M_p = 2M_E$
+    *   Radius $r_p = \frac{1}{2}r_E$
+
+3.  **Calculate the new gravitational field strength ($g_p$):**
+    Substitute the new values into the formula:
+    $$g_p = \frac{G(2M_E)}{(\frac{1}{2}r_E)^2}$$
+
+4.  **Simplify the expression:**
+    $$g_p = \frac{2GM_E}{\frac{1}{4}r_E^2}$$
+    $$g_p = 2 \times 4 \times \frac{GM_E}{r_E^2}$$
+    $$g_p = 8 \times \left(\frac{GM_E}{r_E^2}\right)$$
+
+5.  **Relate it back to $g$:**
+    Since $g = \frac{GM_E}{r_E^2}$, we can see that:
+    $$g_p = 8g$$
+
+Therefore, the correct option is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

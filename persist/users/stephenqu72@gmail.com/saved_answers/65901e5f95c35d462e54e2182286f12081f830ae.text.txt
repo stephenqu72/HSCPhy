@@ -1,0 +1,30 @@
+To solve these problems, we need to apply the physics of gravitation and special relativity.
+
+### Part (a)
+**Explanation:** To move away from the Earth and not be captured, the probe must exceed the Earth's **escape velocity** ($v_e$) at its specific orbital altitude. The formula for escape velocity is:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+Where $G = 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$, $M = 5.97 \times 10^{24} \text{ kg}$ (Earth's mass), and $r$ is the distance from the center of the Earth.
+$r = R_E + h = 6.37 \times 10^6 \text{ m} + 0.559 \times 10^6 \text{ m} = 6.929 \times 10^6 \text{ m}$.
+
+**Calculation:**
+$$v_e = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.929 \times 10^6}} \approx 1.07 \times 10^4 \text{ m s}^{-1}$$
+Since the probe's velocity of $7.36 \times 10^4 \text{ m s}^{-1}$ is significantly greater than the escape velocity of $1.07 \times 10^4 \text{ m s}^{-1}$, the probe has sufficient energy to escape the Earth's gravitational field.
+
+---
+
+### Part (b)
+**Explanation:** This is a time dilation problem. The time measured by an observer on Earth ($t$) is related to the time measured by the clock on the probe ($t_0$) by the Lorentz factor: $t = \gamma t_0$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$. We are looking for the time difference $\Delta t = t - t_0$.
+
+**Calculation:**
+1. Given $v = 7.15 \times 10^4 \text{ m s}^{-1}$ and $c = 3.00 \times 10^8 \text{ m s}^{-1}$.
+2. Calculate $\frac{v}{c} = \frac{7.15 \times 10^4}{3.00 \times 10^8} \approx 2.383 \times 10^{-4}$.
+3. Using the binomial approximation for small $\frac{v}{c}$: $\gamma \approx 1 + \frac{1}{2}(\frac{v}{c})^2$.
+4. $\gamma - 1 \approx \frac{1}{2}(2.383 \times 10^{-4})^2 \approx 2.84 \times 10^{-8}$.
+5. $\Delta t = t - t_0 = t_0(\gamma - 1)$.
+6. $t_0 = 1796 \text{ days} \times 24 \times 3600 \text{ s} \approx 1.55 \times 10^8 \text{ s}$.
+7. $\Delta t = 1.55 \times 10^8 \times 2.84 \times 10^{-8} \approx 4.40 \text{ seconds}$.
+
+The clock on the probe would lag behind the Earth clock by approximately $4.4$ seconds.
+
+###QUESTION_TYPE
+Calculation question

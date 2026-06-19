@@ -1,0 +1,28 @@
+### Answer
+
+To sketch the graph of magnetic force $F$ against the angle $\theta$, we use the magnetic force formula:
+$$F = BIL \sin(\theta)$$
+where $B$ is the magnetic field strength, $I$ is the current, and $L$ is the length of the wire.
+
+**The Graph:**
+The resulting graph is a **sine wave**:
+*   At $0^\circ$: The force is $0$ N (wire is parallel to the field, $\sin(0) = 0$).
+*   At $90^\circ$: The force is at a positive maximum ($+BIL$, $\sin(90) = 1$).
+*   At $180^\circ$: The force is $0$ N ($\sin(180) = 0$).
+*   At $270^\circ$: The force is at a negative maximum ($-BIL$, $\sin(270) = -1$).
+*   At $360^\circ$: The force is $0$ N ($\sin(360) = 0$).
+
+*(Note: The graph should look like one full period of a sine wave starting at the origin, peaking at 90, crossing zero at 180, dipping to a trough at 270, and returning to zero at 360.)*
+
+### Explanation
+To solve this problem, you must apply the relationship between the orientation of a current-carrying conductor and the magnetic field.
+
+1.  **Identify the variables:** The magnitude of the force on a straight current-carrying wire in a uniform magnetic field is given by $F = BIL \sin(\theta)$, where $\theta$ is the angle between the wire and the magnetic field lines.
+2.  **Analyze the rotation:**
+    *   **$0^\circ$ to $90^\circ$:** As the wire rotates from parallel to perpendicular, the sine function increases from $0$ to $1$, so the force increases from $0$ to a maximum value.
+    *   **$90^\circ$ to $180^\circ$:** As the wire rotates back toward the field, the force decreases back to $0$.
+    *   **$180^\circ$ to $360^\circ$:** As the wire moves into the "opposite" orientation (relative to the field vector), the Right-Hand Rule dictates that the direction of the force reverses. The magnitude follows the $\sin(\theta)$ curve, passing through a negative maximum at $270^\circ$ before returning to $0$ at $360^\circ$.
+3.  **Justification:** The justification lies in the mathematical relationship $F \propto \sin(\theta)$. Since the force is defined by the cross product of the current vector and the magnetic field vector, the scalar magnitude depends on the sine of the angle between them.
+
+###QUESTION_TYPE
+Short answer

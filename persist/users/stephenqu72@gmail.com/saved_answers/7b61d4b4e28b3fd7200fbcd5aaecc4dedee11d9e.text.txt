@@ -1,0 +1,37 @@
+To solve this problem, we use the formula for escape velocity $v$:
+
+$$v = \sqrt{\frac{2GM}{R}}$$
+
+Where:
+- $G$ is the gravitational constant
+- $M$ is the mass of the planet
+- $R$ is the radius of the planet
+
+### Step-by-step Solution:
+
+1.  **Identify the relationship:**
+    We are given that for Planet $X$:
+    - $M_X = 4M_E$ (where $M_E$ is the mass of Earth)
+    - $R_X = 3R_E$ (where $R_E$ is the radius of Earth)
+    - $v_E = 11.2\text{ km s}^{-1}$
+
+2.  **Set up the ratio:**
+    The escape velocity for Planet $X$ ($v_X$) relative to Earth ($v_E$) is:
+    $$\frac{v_X}{v_E} = \frac{\sqrt{\frac{2GM_X}{R_X}}}{\sqrt{\frac{2GM_E}{R_E}}} = \sqrt{\frac{M_X}{R_X} \cdot \frac{R_E}{M_E}}$$
+
+3.  **Substitute the known ratios:**
+    $$\frac{v_X}{v_E} = \sqrt{\frac{4M_E}{3R_E} \cdot \frac{R_E}{M_E}}$$
+    The $M_E$ and $R_E$ terms cancel out:
+    $$\frac{v_X}{v_E} = \sqrt{\frac{4}{3}} = \frac{2}{\sqrt{3}}$$
+
+4.  **Calculate the value:**
+    $$v_X = v_E \times \frac{2}{\sqrt{3}}$$
+    $$v_X = 11.2 \times \frac{2}{1.732}$$
+    $$v_X \approx 11.2 \times 1.1547 \approx 12.93\text{ km s}^{-1}$$
+
+Rounding to the provided options, we get $12.9\text{ km s}^{-1}$.
+
+**Correct Answer:** **C**
+
+###QUESTION_TYPE
+Multiple choice

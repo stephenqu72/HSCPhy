@@ -1,0 +1,21 @@
+To determine the correct answer, we must apply the physics definition of work done by a force:
+$$W = F \cdot s \cdot \cos(\theta)$$
+where $W$ is the work, $F$ is the gravitational force acting towards the center of the Earth, $s$ is the displacement, and $\theta$ is the angle between the force and displacement vectors. Alternatively, by the **Work-Energy Theorem**, work is equal to the change in kinetic energy: $W = \Delta KE = \frac{1}{2}m(v_f^2 - v_i^2)$.
+
+### Analysis:
+1.  **Satellite A (Elliptical Orbit):** In an elliptical orbit, the distance of the satellite from the Earth changes as it moves from $X$ (apogee) to $Y$ (perigee). As it moves closer to Earth, gravitational potential energy decreases, and kinetic energy increases (the satellite speeds up). Because the kinetic energy changes, the work done by gravity is **non-zero**.
+2.  **Satellite B (Circular Orbit):** In a perfectly circular orbit, the satellite maintains a constant orbital speed. Because the speed (and thus kinetic energy) is constant, the change in kinetic energy is zero. Furthermore, the gravitational force (acting towards the center) is always perpendicular to the velocity vector (the direction of instantaneous displacement) in a circular orbit. Since $\theta = 90^\circ$ and $\cos(90^\circ) = 0$, the work done by gravity is **zero**.
+
+### Conclusion:
+*   Work on Satellite A: **non-zero**
+*   Work on Satellite B: **zero**
+
+Comparing this to the provided options, the correct choice is **A**.
+
+### Explanation for Students:
+When approaching orbital mechanics problems:
+*   Always look for changes in **orbital speed**. If the speed changes (as in an ellipse), gravity must be doing work on the object.
+*   Remember that for any circular motion where speed is constant, the centripetal force acts at a right angle to the displacement, resulting in zero work.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,36 @@
+To solve this problem, we apply the **Law of Conservation of Mechanical Energy**. The total mechanical energy (kinetic energy + gravitational potential energy) at the launch point must equal the total mechanical energy at the point where the velocity is at its minimum ($v = 2000 \text{ ms}^{-1}$).
+
+### 1. Identify the Physical Principles
+The total energy $E$ at any point is given by:
+$$E = K + U = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+
+Since mechanical energy is conserved:
+$$\frac{1}{2}mv_i^2 - \frac{GMm}{r_i} = \frac{1}{2}mv_f^2 - \frac{GMm}{r_f}$$
+
+For the velocity to "never fall below" a specific value as $r \to \infty$ (the point where gravitational potential energy approaches zero), we consider the limit where $r_f$ is very large and the kinetic energy remains $2000 \text{ ms}^{-1}$.
+$$ \frac{1}{2}mv_i^2 - \frac{GMm}{r_i} = \frac{1}{2}m(2000)^2 + 0 $$
+*(Note: As the object moves to infinity, the gravitational potential energy term becomes 0).*
+
+### 2. Constants and Values
+*   $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$
+*   $M = 5.97 \times 10^{24} \text{ kg}$
+*   $r_i = 6371 \text{ km} = 6.371 \times 10^6 \text{ m}$
+*   $v_f = 2000 \text{ ms}^{-1}$
+
+### 3. Calculation
+Cancel $m$ from both sides:
+$$\frac{1}{2}v_i^2 - \frac{GM}{r_i} = \frac{1}{2}(2000)^2$$
+$$v_i^2 = (2000)^2 + \frac{2GM}{r_i}$$
+
+Substitute the values:
+$$v_i^2 = (4 \times 10^6) + \frac{2 \times (6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{6.371 \times 10^6}$$
+$$v_i^2 = 4,000,000 + 125,058,075.6$$
+$$v_i^2 = 129,058,075.6$$
+$$v_i = \sqrt{129,058,075.6} \approx 11360 \text{ ms}^{-1}$$
+
+Rounding to the closest provided option, we select **C**.
+
+**Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+#### Part a) Reasons why the coil did not turn in the vertical position
+
+**Answer:**
+1. **Zero Torque at Vertical Position:** When the coil is in the vertical position, the magnetic force acts along the same line as the axis of rotation or is directed such that the lever arm is zero. Consequently, the torque ($\tau = nIAB \sin \theta$) becomes zero, as the angle $\theta$ between the normal to the coil and the magnetic field is $90^\circ$ (or the plane of the coil is parallel to the field lines).
+2. **Static Friction:** The motor may require an external "push" to start because the static frictional force at the axle exceeds the very small or non-existent initial torque produced by the magnetic field at that specific orientation.
+
+**Explanation:** 
+In DC motors, the torque is given by $\tau = nIAB \sin \theta$. When the coil is vertical, the plane of the coil is parallel to the magnetic field. In this geometry, the forces on the sides of the coil act in opposite directions but along the same line of action (or simply don't create a turning effect about the axle), resulting in zero torque. Additionally, if the motor is not perfectly balanced or there is friction in the bearings, it cannot overcome the initial resistance to rotation without a starting push.
+
+***
+
+#### Part b) Calculation of the magnetic force
+
+**Answer:**
+To find the magnetic force $F$ on a single current-carrying wire in a magnetic field, we use the formula:
+$$F = BIL \sin \theta$$
+
+Given:
+- Magnetic field strength $B = 0.53\text{ mT} = 0.53 \times 10^{-3}\text{ T}$
+- Current $I = 0.60\text{ A}$
+- Length $L = 0.15\text{ m}$
+- Angle $\theta = 90^\circ$ (since the coil is horizontal and the field is horizontal, the wire is perpendicular to the field lines), so $\sin 90^\circ = 1$.
+
+**Calculation:**
+$$F = (0.53 \times 10^{-3}\text{ T}) \times (0.60\text{ A}) \times (0.15\text{ m})$$
+$$F = 0.00053 \times 0.60 \times 0.15$$
+$$F = 0.0000477\text{ N}$$
+$$F = 4.77 \times 10^{-5}\text{ N}$$
+
+**Result:**
+$4.77 \times 10^{-5}\text{ N}$
+
+**Explanation:** 
+Use the Lorentz force law for a current-carrying conductor. Ensure you convert the units correctly: millitesla (mT) must be converted to tesla (T) by multiplying by $10^{-3}$. Since the wire $PQ$ is perpendicular to the magnetic field, the angle $\theta$ is $90^\circ$, making $\sin \theta = 1$. Multiply the values together to find the force on that specific segment of the wire.
+
+###QUESTION_TYPE
+Calculation question

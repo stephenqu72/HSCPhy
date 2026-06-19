@@ -1,0 +1,33 @@
+To solve this problem, we need to apply the physics of a charged particle moving in a magnetic field. When an electron enters a magnetic field perpendicularly, the magnetic force acts as the centripetal force, causing it to travel in a circular path.
+
+### 1. Identify the relevant formulas
+The magnetic force $F_B$ on a charged particle moving with velocity $v$ perpendicular to a magnetic field $B$ is given by:
+$$F_B = qvB$$
+
+Since this force provides the centripetal force $F_c$ for circular motion ($F_c = \frac{mv^2}{r}$), we can equate them:
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+### 2. Identify the constants and given values
+*   Mass of an electron ($m$): $9.11 \times 10^{-31} \text{ kg}$
+*   Charge of an electron ($q$): $1.602 \times 10^{-19} \text{ C}$
+*   Velocity ($v$): $6.5 \times 10^3 \text{ ms}^{-1}$
+*   Magnetic Field ($B$): $2.4 \times 10^{-3} \text{ T}$
+
+### 3. Calculation
+Substitute the values into the equation:
+$$r = \frac{(9.11 \times 10^{-31} \text{ kg}) \times (6.5 \times 10^3 \text{ ms}^{-1})}{(1.602 \times 10^{-19} \text{ C}) \times (2.4 \times 10^{-3} \text{ T})}$$
+
+$$r = \frac{5.9215 \times 10^{-27}}{3.8448 \times 10^{-22}} \text{ m}$$
+
+$$r \approx 1.54 \times 10^{-5} \text{ m}$$
+
+Comparing this result to the given options, it matches option **(C)**.
+
+### Answer
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

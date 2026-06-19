@@ -1,0 +1,22 @@
+To solve this problem, we use the principles of electrostatics and kinematics. The electron (charge $q = 1.6 \times 10^{-19} \, \text{C}$, mass $m = 9.11 \times 10^{-31} \, \text{kg}$) experiences a constant force while between the plates, leading to parabolic motion, and travels in a straight line once it exits the plates.
+
+### (a) Show that the acceleration is $2.6 \times 10^{15} \, \text{m s}^{-2}$
+The force on an electron in an electric field $E$ is $F = qE$. By Newton's second law, $F = ma$. Thus, $a = \frac{qE}{m}$.
+$$a = \frac{(1.6 \times 10^{-19} \, \text{C})(1.5 \times 10^4 \, \text{N C}^{-1})}{9.11 \times 10^{-31} \, \text{kg}}$$
+$$a \approx 2.634 \times 10^{15} \, \text{m s}^{-2} \approx 2.6 \times 10^{15} \, \text{m s}^{-2}$$
+
+### (b) Show that the vertical displacement is approximately $8.1 \times 10^{-4} \, \text{m}$ (Correction: The question implies $8.1 \times 10^{-4} \, \text{m}$ or $0.81 \, \text{mm}$)
+First, find the time $t_1$ spent between the plates: $t_1 = \frac{d}{v} = \frac{5.0 \times 10^{-3} \, \text{m}}{2.0 \times 10^6 \, \text{m s}^{-1}} = 2.5 \times 10^{-9} \, \text{s}$.
+The vertical displacement $y_1$ is given by $y_1 = \frac{1}{2}at_1^2$:
+$$y_1 = 0.5 \times (2.634 \times 10^{15}) \times (2.5 \times 10^{-9})^2 \approx 8.23 \times 10^{-3} \, \text{m}$$
+*Note: Using the provided $2.6 \times 10^{15}$ gives $y_1 = 0.5 \times 2.6 \times 10^{15} \times (2.5 \times 10^{-9})^2 = 8.125 \times 10^{-3} \, \text{m} \approx 8.1 \, \text{mm}$.*
+
+### (c) How far from point $X$ will the electron beam strike the screen?
+The total displacement $Y$ is the sum of displacement inside the plates ($y_1$) and displacement due to the vertical velocity component after exiting ($y_2$).
+1. Vertical velocity at exit: $v_y = at_1 = (2.634 \times 10^{15}) \times (2.5 \times 10^{-9}) = 6.585 \times 10^6 \, \text{m s}^{-1}$.
+2. Time to reach screen ($t_2$): $t_2 = \frac{30 \times 10^{-3} \, \text{m}}{2.0 \times 10^6 \, \text{m s}^{-1}} = 1.5 \times 10^{-8} \, \text{s}$.
+3. Displacement $y_2$: $y_2 = v_y t_2 = (6.585 \times 10^6) \times (1.5 \times 10^{-8}) = 0.098775 \, \text{m}$.
+4. Total displacement: $Y = y_1 + y_2 = 0.008125 + 0.098775 = 0.1069 \, \text{m} \approx 107 \, \text{mm}$.
+
+###QUESTION_TYPE
+Calculation question

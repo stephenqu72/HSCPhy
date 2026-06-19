@@ -1,0 +1,34 @@
+To determine the net force acting on conductor $Q$, we must calculate the individual forces exerted by conductors $P$ and $R$ and then sum them vectorially.
+
+### 1. The Physics Principle
+The force per unit length between two parallel current-carrying wires is given by:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+Given $k = \frac{\mu_0}{2\pi}$, the formula simplifies to:
+$$F = \frac{k I_1 I_2 L}{r}$$
+
+**Rules for direction:**
+*   Currents in the **same direction** attract.
+*   Currents in **opposite directions** repel.
+
+### 2. Force from $P$ on $Q$ ($F_{PQ}$)
+*   Current in $P = 2I$, Current in $Q = I$.
+*   Distance = $2d$.
+*   Since both currents are directed upwards, the force is **attractive** (pulling $Q$ toward $P$, which is **to the left**).
+$$F_{PQ} = \frac{k(2I)(I)L}{2d} = \frac{2k I^2 L}{2d} = \frac{k I^2 L}{d}$$
+
+### 3. Force from $R$ on $Q$ ($F_{RQ}$)
+*   Current in $R = I$ (downwards), Current in $Q = I$ (upwards).
+*   Distance = $d$.
+*   Since currents are in opposite directions, the force is **repulsive** (pushing $Q$ away from $R$, which is **to the left**).
+$$F_{RQ} = \frac{k(I)(I)L}{d} = \frac{k I^2 L}{d}$$
+
+### 4. Net Force
+Since both forces act to the left, we add their magnitudes:
+$$F_{net} = F_{PQ} + F_{RQ}$$
+$$F_{net} = \frac{k I^2 L}{d} + \frac{k I^2 L}{d} = \frac{2k I^2 L}{d}$$
+The direction is to the left.
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

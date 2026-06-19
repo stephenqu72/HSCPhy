@@ -1,0 +1,29 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying conductors:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+### 1. Identify the given information:
+*   Force per unit length $\frac{F}{L} = 2.5 \times 10^{-5}\text{ N/m}$
+*   Current in wire $P$, $I_P = 2.0\text{ A}$
+*   Separation distance, $r = 4.0\text{ cm} = 0.04\text{ m}$
+*   Permeability of free space, $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+### 2. Calculate the magnitude of current in wire $Q$ ($I_Q$):
+Rearranging the formula to solve for $I_Q$:
+$$I_Q = \frac{(F/L) \times 2\pi r}{\mu_0 I_P}$$
+
+Substitute the values:
+$$I_Q = \frac{(2.5 \times 10^{-5}) \times 2\pi \times 0.04}{(4\pi \times 10^{-7}) \times 2.0}$$
+
+Simplify the expression:
+$$I_Q = \frac{2.5 \times 10^{-5} \times 0.08}{4 \times 10^{-7} \times 2.0}$$
+$$I_Q = \frac{2.0 \times 10^{-6}}{8 \times 10^{-7}} = \frac{20}{8} = 2.5\text{ A}$$
+
+### 3. Determine the direction:
+According to the Right-Hand Grip Rule and the laws of electromagnetism, currents flowing in the **same direction** result in an **attractive force** between the conductors. Since the problem states the force is attractive, the current in wire $Q$ must flow in the same direction as the current in wire $P$ (which is **Up**).
+
+### Conclusion:
+The magnitude is $2.5\text{ A}$ and the direction is **Up**. This corresponds to option A (and C, which is identical).
+
+###QUESTION_TYPE
+Multiple choice

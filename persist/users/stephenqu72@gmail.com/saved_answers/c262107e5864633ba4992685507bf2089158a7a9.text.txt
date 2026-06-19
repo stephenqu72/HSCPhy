@@ -1,0 +1,37 @@
+To solve this problem, we must apply the principles of electromagnetism regarding the force between current-carrying parallel wires.
+
+### Part a: Direction of current
+**Answer:** The current in the bottom rod must be flowing from **right to left** (opposite to the top rod).
+
+**Explanation:**
+The balance reading increased from $0.50\text{ kg}$ to $0.58\text{ kg}$. An increase in the reading on the electronic balance indicates that an additional downward force (an attractive force) is being exerted on the bottom rod. According to the right-hand grip rule and the interaction of magnetic fields, parallel wires carrying current in the **same** direction attract each other, while currents in **opposite** directions repel each other. Since the observed effect is an increase in downward force (repulsion), the currents must be moving in opposite directions. Thus, if the top rod flows left to right, the bottom rod must flow right to left.
+
+---
+
+### Part b: Calculate the distance between the two rods
+**Step 1: Determine the magnetic force.**
+The extra mass registered by the balance is $\Delta m = 0.58\text{ kg} - 0.50\text{ kg} = 0.08\text{ kg}$.
+The upward force causing this reading (the repulsive force $F$) is equivalent to the weight of this additional mass:
+$$F = \Delta m \cdot g = 0.08 \cdot 9.8 = 0.784\text{ N}$$
+
+**Step 2: Use the formula for force between parallel wires.**
+The formula for the force per unit length between two parallel wires is:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+Where:
+- $F = 0.784\text{ N}$
+- $L = 2.6\text{ m}$
+- $I_1 = I_2 = 70\text{ A}$
+- $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+- $d$ is the distance we need to find.
+
+**Step 3: Rearrange and solve for $d$.**
+$$\frac{0.784}{2.6} = \frac{(4\pi \times 10^{-7}) \cdot (70)^2}{2\pi \cdot d}$$
+Simplify the constants:
+$$0.3015 \approx \frac{2 \times 10^{-7} \cdot 4900}{d}$$
+$$0.3015 = \frac{9.8 \times 10^{-4}}{d}$$
+$$d = \frac{9.8 \times 10^{-4}}{0.3015} \approx 0.00325\text{ m}$$
+
+**Final Answer:** The distance between the rods is approximately $3.25\text{ mm}$ (or $0.00325\text{ m}$).
+
+###QUESTION_TYPE
+Calculation question

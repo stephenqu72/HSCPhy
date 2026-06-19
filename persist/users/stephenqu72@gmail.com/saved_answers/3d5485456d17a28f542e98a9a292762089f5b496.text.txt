@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+#### Part a) Labeling the Forces
+To represent the forces on an F1 car traveling at **maximum speed** on a banked track:
+1.  **Weight ($mg$):** Acting vertically downwards from the center of mass.
+2.  **Normal Force ($N$):** Acting perpendicular to the surface of the track.
+3.  **Friction ($F_f$):** Since the car is at *maximum* speed, it is on the verge of sliding *up* the slope. Therefore, friction acts **down the slope**, parallel to the track surface.
+4.  **Net Force ($F_{net}$):** The horizontal resultant force directed towards the center of the circular path. This is the centripetal force ($F_c$).
+
+*(Note: On your diagram, draw $N$ perpendicular to the slope, $mg$ straight down, $F_f$ down the slope, and a dotted horizontal line pointing left towards the center of the turn.)*
+
+---
+
+#### Part b) Calculation
+Given: $m = 800\,\text{kg}$, $\theta = 30^\circ$, $r = 100\,\text{m}$, $\mu = 0.30$, $g \approx 9.8\,\text{m/s}^2$.
+
+At maximum speed, the forces must be resolved into horizontal (centripetal) and vertical (equilibrium) components:
+
+**1. Vertical Equilibrium ($\sum F_y = 0$):**
+$$N \cos \theta - F_f \sin \theta - mg = 0$$
+Since $F_f = \mu N$:
+$$N \cos \theta - \mu N \sin \theta = mg$$
+$$N (\cos 30^\circ - 0.30 \sin 30^\circ) = 800 \times 9.8$$
+$$N (0.866 - 0.15) = 7840$$
+$$N = \frac{7840}{0.716} \approx 10949.7\,\text{N}$$
+
+**2. Horizontal (Centripetal) Force ($\sum F_x = F_c$):**
+$$N \sin \theta + F_f \cos \theta = \frac{mv^2}{r}$$
+$$N \sin \theta + \mu N \cos \theta = \frac{mv^2}{r}$$
+$$N (\sin 30^\circ + 0.30 \cos 30^\circ) = \frac{800 v^2}{100}$$
+Substitute $N$:
+$$10949.7 \times (0.5 + 0.30 \times 0.866) = 8v^2$$
+$$10949.7 \times (0.5 + 0.2598) = 8v^2$$
+$$10949.7 \times 0.7598 = 8v^2$$
+$$8319.8 = 8v^2$$
+$$v^2 = 1039.975$$
+$$v \approx 32.25\,\text{m/s}$$
+
+**Final Answer:** The maximum speed is approximately **$32.3\,\text{m/s}$**.
+
+###QUESTION_TYPE
+Calculation question

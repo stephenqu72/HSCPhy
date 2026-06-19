@@ -1,0 +1,8 @@
+### Front
+How do you determine the trajectory of a rocket given its thrust and weight?
+
+### Back
+- Key idea: Determine net force ($F_{\text{net}} = T - W$) to find the direction of acceleration.
+- Formula / law / constant / figure: $F_{\text{net}} = ma$; Projectile motion (parabolic path).
+- When to use it: When comparing upward thrust against gravitational force to predict vertical acceleration.
+- Common trap: Assuming the rocket rises just because there is thrust—always compare $T$ and $W$. If $W > T$, the rocket accelerates downwards regardless of horizontal velocity.

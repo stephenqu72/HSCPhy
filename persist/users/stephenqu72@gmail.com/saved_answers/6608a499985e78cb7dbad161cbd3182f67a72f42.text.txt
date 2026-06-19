@@ -1,0 +1,27 @@
+### Answer
+
+**(a)** The sign of the charge is **positive**.
+
+**(b)** The work done in moving an identical negative charge from $X$ to $Y$ is **greater** than the work done in moving the same charge from $X$ to $Z$.
+
+---
+
+### Explanation
+
+**(a)** To determine the sign of the central charge, we observe the direction of the electric field lines. By convention, electric field lines point *away* from a positive charge and *towards* a negative charge. Since the arrows in the diagram are pointing radially outward, the central charge must be positive.
+
+**(b)** To determine the work done ($W$), we use the relationship $W = q \Delta V$, where $q$ is the charge being moved and $\Delta V$ is the change in electric potential. The electric potential around a point charge is given by the formula $V = \frac{kQ}{r}$.
+
+1.  **Analyze the potential at each point:**
+    *   Point $X$ is at a distance $r_X$ from the center.
+    *   Point $Y$ is at a distance $r_Y$ from the center, where $r_Y > r_X$.
+    *   Point $Z$ is at a distance $r_Z$ from the center, where $r_Z = r_X$ (as $Z$ lies on the same field line/equipotential boundary context, or by observing the radial symmetry). 
+
+2.  **Evaluate Work:**
+    *   **Moving from $X$ to $Y$:** Since $Y$ is further from the positive source charge than $X$, the potential at $Y$ ($V_Y$) is lower than the potential at $X$ ($V_X$). Moving a *negative* charge from a higher potential region to a lower potential region against the electric force requires work. Specifically, the negative charge is being moved further away from the positive charge it is attracted to. 
+    *   **Moving from $X$ to $Z$:** Points $X$ and $Z$ appear to be at the same radial distance from the center. Therefore, $V_X = V_Z$. The change in potential $\Delta V = V_Z - V_X = 0$. Consequently, the work done moving between two points at the same electric potential is zero.
+
+Because $V_Y < V_X$, the potential difference moving from $X$ to $Y$ is a larger magnitude than the potential difference moving from $X$ to $Z$ (which is zero). Thus, more work is required to move the charge to $Y$.
+
+###QUESTION_TYPE
+Short answer

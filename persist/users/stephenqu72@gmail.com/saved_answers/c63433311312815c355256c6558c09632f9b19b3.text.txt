@@ -1,0 +1,34 @@
+To solve this problem, we must understand the physical interaction between the two rods and how to extrapolate the given data.
+
+### 1. Understanding the Physics
+The two rods are carrying currents. When current flows through parallel conductors, they exert a magnetic force on each other. Given the setup and the trend of the graph (as current increases, the reading on the balance decreases), we can conclude that the rods are experiencing a **repulsive magnetic force**.
+
+*   **Reading on the balance:** This represents the Normal force ($F_N$) acting on Rod X. 
+*   **Force equilibrium:** The forces acting on Rod X are Gravity ($mg$) downwards, the Normal force from the balance ($F_N$) upwards, and the magnetic repulsive force ($F_B$) upwards.
+    $$mg = F_N + F_B$$
+    Rearranging this, the balance reading is: $F_N = mg - F_B$.
+
+### 2. Determining the Mass of Rod X
+The "Mass of Rod X" is the reading on the balance when there is no magnetic force. This occurs when the current in Rod Y is zero ($I = 0$). 
+Looking at the graph, we have the following points:
+*   At $I = 1\text{ A}$, $F_N = 60\text{ g}$
+*   At $I = 2\text{ A}$, $F_N = 42\text{ g}$ (approx)
+*   At $I = 3\text{ A}$, $F_N = 26\text{ g}$ (approx)
+*   At $I = 4\text{ A}$, $F_N = 9\text{ g}$ (approx)
+
+The relationship between magnetic force and current in this configuration is $F_B \propto I_X I_Y$. Since $I_X$ is constant, $F_B = kI$. 
+The change in force ($\Delta F_N$) for every $1\text{ A}$ increase is roughly $18\text{ g}, 16\text{ g}, 17\text{ g}$. Taking the average change of $\approx 17\text{ g}$ per ampere:
+*   To get back to $I = 0$, we add the force of $1\text{ A}$ ($\approx 18\text{ g}$) to the reading at $1\text{ A}$ ($60\text{ g}$): $60 + 18 = 78\text{ g}$.
+
+### 3. Predicting the Current to Lift the Rod
+The rod is "lifted" when the balance reading $F_N$ reaches $0$. 
+Using the linear trend:
+*   At $4\text{ A}$, $F_N = 9\text{ g}$.
+*   We need to remove $9\text{ g}$ of force. Since $1\text{ A}$ removes $\approx 17\text{ g}$, the additional current required is:
+    $$\Delta I = \frac{9\text{ g}}{17\text{ g/A}} \approx 0.5\text{ A}$$
+*   Total current $\approx 4 + 0.5 = 4.5\text{ A}$.
+
+Comparing our calculated mass ($78\text{ g}$) and current ($\approx 4.5\text{ A}$) with the options, **Option C** (Mass $78\text{ g}$, Current $4.4\text{ A}$) is the correct fit.
+
+###QUESTION_TYPE
+Multiple choice

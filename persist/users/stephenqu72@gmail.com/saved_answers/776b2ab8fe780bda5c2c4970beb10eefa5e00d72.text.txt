@@ -1,0 +1,32 @@
+To solve this problem, we need to relate the work done by the electric field on the electron to the change in the electron's kinetic energy.
+
+### Step-by-Step Explanation:
+
+**1. Identify given values:**
+*   Initial velocity, $u = 0 \text{ ms}^{-1}$
+*   Final velocity, $v = 6 \times 10^6 \text{ ms}^{-1}$
+*   Distance, $d = 5 \text{ cm} = 0.05 \text{ m}$
+*   Mass of an electron, $m \approx 9.11 \times 10^{-31} \text{ kg}$
+*   Charge of an electron, $q \approx 1.6 \times 10^{-19} \text{ C}$
+
+**2. Relate work done to kinetic energy:**
+The work done by the electric field ($W = Fd = qEd$) equals the change in kinetic energy ($\Delta EK = \frac{1}{2}mv^2$):
+$$qEd = \frac{1}{2}mv^2$$
+
+**3. Rearrange to solve for the electric field ($E$):**
+$$E = \frac{mv^2}{2qd}$$
+
+**4. Substitute the values:**
+$$E = \frac{(9.11 \times 10^{-31} \text{ kg}) \times (6 \times 10^6 \text{ ms}^{-1})^2}{2 \times (1.6 \times 10^{-19} \text{ C}) \times (0.05 \text{ m})}$$
+
+*   Calculate the numerator: $9.11 \times 10^{-31} \times 36 \times 10^{12} \approx 3.28 \times 10^{-17}$
+*   Calculate the denominator: $2 \times 1.6 \times 10^{-19} \times 0.05 = 0.16 \times 10^{-19} = 1.6 \times 10^{-20}$
+*   Divide: $E \approx \frac{3.28 \times 10^{-17}}{1.6 \times 10^{-20}} \approx 2.05 \times 10^3 \text{ NC}^{-1}$
+
+Rounding this to one significant figure (as per the options), we get $2 \times 10^3 \text{ NC}^{-1}$.
+
+**Conclusion:**
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

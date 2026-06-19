@@ -1,0 +1,42 @@
+To solve this conical pendulum problem, we must analyze the forces acting on the mass $m$.
+
+### Part (a): Deriving $\tan\theta = \frac{v^2}{rg}$
+
+1.  **Identify forces:** There are two forces acting on the mass:
+    *   The gravitational force acting downwards: $F_g = mg$.
+    *   The tension in the string acting at an angle $\theta$ to the vertical: $F_T$.
+2.  **Resolve the tension:** Resolve $F_T$ into components:
+    *   Vertical component: $F_{T,y} = F_T \cos\theta$
+    *   Horizontal component: $F_{T,x} = F_T \sin\theta$
+3.  **Apply Newton's Second Law:**
+    *   Since the motion is in a horizontal plane, the vertical forces must balance: $F_T \cos\theta = mg$ (Eq. 1)
+    *   The net force in the horizontal direction provides the centripetal force: $F_T \sin\theta = \frac{mv^2}{r}$ (Eq. 2)
+4.  **Divide the equations:** Divide (Eq. 2) by (Eq. 1):
+    $$\frac{F_T \sin\theta}{F_T \cos\theta} = \frac{mv^2 / r}{mg}$$
+    $$\tan\theta = \frac{v^2}{rg}$$
+
+---
+
+### Part (b): Calculating the tension
+
+**1. Convert units to SI:**
+*   $m = 50.0 \text{ g} = 0.050 \text{ kg}$
+*   $r = 20.0 \text{ cm} = 0.20 \text{ m}$
+*   Frequency $f = 40.0 \text{ rev/min} = \frac{40.0}{60} \text{ Hz} = \frac{2}{3} \text{ Hz}$
+
+**2. Calculate speed $v$:**
+$$v = 2\pi r f = 2 \times \pi \times 0.20 \times \left(\frac{2}{3}\right) \approx 0.8378 \text{ m/s}$$
+
+**3. Find angle $\theta$:**
+Using the formula from (a):
+$$\tan\theta = \frac{v^2}{rg} = \frac{(0.8378)^2}{0.20 \times 9.8} \approx \frac{0.7019}{1.96} \approx 0.3581$$
+$$\theta = \arctan(0.3581) \approx 19.7^\circ$$
+
+**4. Calculate Tension ($F_T$):**
+Using $F_T \cos\theta = mg$:
+$$F_T = \frac{mg}{\cos\theta} = \frac{0.050 \times 9.8}{\cos(19.7^\circ)} \approx \frac{0.49}{0.9415} \approx 0.520 \text{ N}$$
+
+The tension in the string is approximately **$0.520 \text{ N}$**.
+
+###QUESTION_TYPE
+Calculation question

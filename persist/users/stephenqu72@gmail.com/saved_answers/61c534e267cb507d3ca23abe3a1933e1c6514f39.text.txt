@@ -1,0 +1,19 @@
+To determine the speed of the proton as it exits the magnetic field, we must apply the physics of charged particles moving in uniform magnetic fields.
+
+### Answer
+The correct choice is **B. $1.2 \times 10^3\text{ m s}^{-1}$**.
+
+### Explanation
+When a charged particle, such as a proton, enters a uniform magnetic field, it experiences a magnetic force given by the Lorentz force law:
+$$F = qvB\sin(\theta)$$
+
+In this specific scenario:
+1.  **Direction of Force:** The magnetic force acts perpendicular to the velocity of the proton at all times. Because the force is always perpendicular to the direction of motion, it acts as a **centripetal force**.
+2.  **Work Done:** Since the magnetic force is always perpendicular to the displacement (velocity vector) of the particle, the work done by the magnetic field on the proton is zero ($W = F \cdot d \cos(90^\circ) = 0$).
+3.  **Kinetic Energy:** According to the Work-Energy Theorem, because the magnetic field does no work on the particle, there is no change in the proton's kinetic energy.
+4.  **Speed:** Since kinetic energy remains constant ($KE = \frac{1}{2}mv^2$), the speed of the proton remains constant throughout its path in the magnetic field.
+
+Because the speed does not change, the proton exits the field with the exact same speed at which it entered. Therefore, the speed remains $1.2 \times 10^3\text{ m s}^{-1}$.
+
+###QUESTION_TYPE
+Multiple choice

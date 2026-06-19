@@ -1,0 +1,34 @@
+To determine the relationship between the frequency of revolution $f$ and the radius $r$ for a charged particle moving in a uniform magnetic field, we start by equating the magnetic force to the centripetal force.
+
+### Step-by-Step Explanation
+
+1.  **Magnetic Force:** A particle with charge $q$ moving with velocity $v$ perpendicular to a magnetic field $B$ experiences a magnetic force:
+    $$F_B = qvB$$
+
+2.  **Centripetal Force:** This force provides the centripetal acceleration required for circular motion:
+    $$F_c = \frac{mv^2}{r}$$
+
+3.  **Equating the two:**
+    $$qvB = \frac{mv^2}{r}$$
+    Solving for the radius $r$:
+    $$r = \frac{mv}{qB}$$
+
+4.  **Relating Velocity to Frequency:** The velocity of a particle in circular motion is related to its period $T$ and frequency $f$ by $v = \frac{2\pi r}{T} = 2\pi rf$.
+
+5.  **Substituting into the radius equation:**
+    Substitute $v = 2\pi rf$ into the equation $r = \frac{mv}{qB}$:
+    $$r = \frac{m(2\pi rf)}{qB}$$
+
+6.  **Simplifying:**
+    Dividing both sides by $r$ (since $r \neq 0$):
+    $$1 = \frac{2\pi mf}{qB}$$
+    Rearranging to solve for frequency $f$:
+    $$f = \frac{qB}{2\pi m}$$
+
+### Conclusion
+As shown in the final expression, the frequency $f$ is independent of the radius $r$. The variables $q$, $B$, and $m$ are constants for this scenario. Therefore, regardless of how large or small the radius of the circular path is, the frequency of revolution remains constant.
+
+Comparing this to the provided options, the graph that depicts a constant value for $f$ regardless of $r$ is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

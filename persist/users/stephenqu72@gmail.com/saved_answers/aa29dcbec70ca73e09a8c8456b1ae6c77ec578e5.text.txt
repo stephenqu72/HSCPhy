@@ -1,0 +1,42 @@
+To solve this problem, we rely on the principles of mechanical energy in a gravitational field.
+
+### Part (a)
+**Objective:** Show that the change in kinetic energy ($\Delta E_k$) is $2.2 \times 10^9\text{ J}$.
+
+The kinetic energy is defined as $E_k = \frac{1}{2}mv^2$.
+1. **Calculate $E_k$ at point 1:**
+   $$E_{k1} = \frac{1}{2} \times 200 \times (5500)^2 = 3.025 \times 10^9\text{ J}$$
+2. **Calculate $E_k$ at point 2:**
+   $$E_{k2} = \frac{1}{2} \times 200 \times (2900)^2 = 0.841 \times 10^9\text{ J}$$
+3. **Calculate the change in kinetic energy:**
+   $$\Delta E_k = E_{k1} - E_{k2} = 3.025 \times 10^9 - 0.841 \times 10^9 = 2.184 \times 10^9\text{ J}$$
+   Rounding to two significant figures, we get **$2.2 \times 10^9\text{ J}$**.
+
+---
+
+### Part (b)
+**Objective:** Determine the mass $M$ of the planet using the law of conservation of energy.
+
+The total mechanical energy $E_{total} = E_k + E_p$ is conserved. Therefore, the gain in gravitational potential energy equals the loss in kinetic energy:
+$$\Delta E_p = |\Delta E_k|$$
+The gravitational potential energy is $E_p = -\frac{GMm}{R}$. Thus, the change in potential energy is:
+$$\Delta E_p = \left( -\frac{GMm}{R_2} \right) - \left( -\frac{GMm}{R_1} \right) = GMm \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$$
+Equating this to the change in kinetic energy found in (a):
+$$2.184 \times 10^9 = GMm \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$$
+Where:
+- $G = 6.67 \times 10^{-11}\text{ m}^3\text{ kg}^{-1}\text{ s}^{-2}$
+- $m = 200\text{ kg}$
+- $R_1 = 4.3 \times 10^6\text{ m}$
+- $R_2 = 2.5 \times 10^7\text{ m}$
+
+Substitute the values:
+$$2.184 \times 10^9 = (6.67 \times 10^{-11}) \times M \times 200 \times \left( \frac{1}{4.3 \times 10^6} - \frac{1}{2.5 \times 10^7} \right)$$
+$$2.184 \times 10^9 = M \times (1.334 \times 10^{-8}) \times (2.3256 \times 10^{-7} - 0.4 \times 10^{-7})$$
+$$2.184 \times 10^9 = M \times (1.334 \times 10^{-8}) \times (1.9256 \times 10^{-7})$$
+$$2.184 \times 10^9 = M \times (2.5687 \times 10^{-15})$$
+$$M = \frac{2.184 \times 10^9}{2.5687 \times 10^{-15}} \approx 8.5 \times 10^{23}\text{ kg}$$
+
+The mass of the planet is approximately **$8.5 \times 10^{23}\text{ kg}$**.
+
+###QUESTION_TYPE
+Calculation question

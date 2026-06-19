@@ -1,0 +1,42 @@
+To solve this problem, we use the physics of charged particles moving in magnetic fields.
+
+### Given Data:
+*   Radius ($r$) = $0.30\text{ m}$
+*   Magnetic field ($B$) = $1.5\text{ T}$
+*   Alpha particle charge ($q$) = $+2e = 2 \times 1.602 \times 10^{-19}\text{ C} = 3.204 \times 10^{-19}\text{ C}$
+*   Alpha particle mass ($m$) $\approx 4.0015\text{ u} = 4.0015 \times 1.661 \times 10^{-27}\text{ kg} \approx 6.645 \times 10^{-27}\text{ kg}$
+
+---
+
+### (a) Calculate the frequency required for the applied alternating voltage.
+
+In a cyclotron, the frequency of the oscillator ($f$) must match the cyclotron frequency of the particle to ensure synchronicity:
+$$f = \frac{qB}{2\pi m}$$
+
+Substitute the values:
+$$f = \frac{(3.204 \times 10^{-19}\text{ C})(1.5\text{ T})}{2\pi (6.645 \times 10^{-27}\text{ kg})}$$
+$$f \approx \frac{4.806 \times 10^{-19}}{4.175 \times 10^{-26}} \approx 1.15 \times 10^7\text{ Hz} = 11.5\text{ MHz}$$
+
+---
+
+### (b) Calculate the kinetic energy at which the alpha particles exit the cyclotron.
+
+The particles exit at the maximum radius, where the magnetic force provides the centripetal force ($qvB = \frac{mv^2}{r}$). This implies $v = \frac{qBr}{m}$.
+The kinetic energy is $K = \frac{1}{2}mv^2$:
+$$K = \frac{1}{2}m\left(\frac{qBr}{m}\right)^2 = \frac{q^2B^2r^2}{2m}$$
+
+Substitute the values:
+$$K = \frac{(3.204 \times 10^{-19})^2 (1.5)^2 (0.30)^2}{2(6.645 \times 10^{-27})}$$
+$$K = \frac{(1.026 \times 10^{-37}) (2.25) (0.09)}{1.329 \times 10^{-26}} \approx 1.56 \times 10^{-12}\text{ J}$$
+
+To convert Joules to MeV, divide by $1.602 \times 10^{-13}\text{ J/MeV}$:
+$$K \approx \frac{1.56 \times 10^{-12}}{1.602 \times 10^{-13}} \approx 9.74\text{ MeV}$$
+
+---
+
+### How to solve:
+1.  **For part (a):** Recognize that the cyclotron frequency is independent of the radius and velocity. Use the formula $f = \frac{qB}{2\pi m}$. Always ensure your mass is in kilograms and your charge is for an alpha particle ($+2e$).
+2.  **For part (b):** You can calculate the velocity $v$ first using $v = \frac{qBr}{m}$, then plug it into $K = \frac{1}{2}mv^2$. Alternatively, use the derived expression $K = \frac{q^2B^2r^2}{2m}$. Remember to convert from Joules to eV by dividing by the elementary charge, then divide by $10^6$ for MeV.
+
+###QUESTION_TYPE
+Calculation question

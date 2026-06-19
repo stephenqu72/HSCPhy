@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principles of electromagnetism, specifically the forces exerted on a moving charged particle in a region where both electric and magnetic fields are present.
+
+### Part (a)
+For a particle to pass straight through the velocity selector, the net force acting on it must be zero. This means the magnitude of the electric force ($F_E$) must equal the magnitude of the magnetic force ($F_B$).
+
+1.  **Electric Force:** The force exerted by an electric field $E$ on a charge $q$ is given by:
+    $$F_E = qE$$
+2.  **Magnetic Force:** The force exerted by a magnetic field $B$ on a charge $q$ moving with velocity $v$ perpendicular to the field is given by:
+    $$F_B = qvB$$
+3.  **Equating the forces:**
+    $$qE = qvB$$
+4.  **Derivation:** Dividing both sides by $q$ and $B$, we isolate the velocity $v$:
+    $$v = \frac{E}{B}$$
+
+This expression shows that only particles with this specific velocity will experience a net force of zero and travel in a straight line.
+
+### Part (b)
+If the particle has a negative charge ($-q$), the directions of both the electric and magnetic forces will be reversed compared to the positive charge:
+
+1.  **Electric Force:** For a positive charge, the electric force points downward (towards the negative plate). For a negative charge, the electric force is directed upward (towards the positive plate).
+2.  **Magnetic Force:** Using the Right-Hand Rule for a positive charge (velocity right, field into page), the magnetic force points upward. For a negative charge, the magnetic force is reversed and points downward.
+
+**Effect on the path:** Because both forces are reversed, they still act in opposite directions to one another. Since the magnitude of the forces remains $F_E = qE$ and $F_B = qvB$, if the particle enters with the same velocity $v = \frac{E}{B}$, the forces will still balance. Therefore, **the negatively charged particle will also pass straight through the selector.**
+
+***
+
+###QUESTION_TYPE
+Calculation question

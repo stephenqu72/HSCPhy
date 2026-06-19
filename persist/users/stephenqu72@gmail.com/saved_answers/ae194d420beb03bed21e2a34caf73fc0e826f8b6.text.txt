@@ -1,0 +1,35 @@
+To determine the correct answer, we must calculate the radius of the circular path of the ion and use the Right-Hand Rule to determine its charge.
+
+### 1. Determining the Sign of the Ion
+- The magnetic field ($\vec{B}$) is directed **out of the page**.
+- The velocity ($\vec{v}$) of the ion is **downwards**.
+- According to the right-hand rule for a **positive** charge moving in a magnetic field: point your fingers in the direction of velocity (down), curl them towards the magnetic field (out of the page), and your thumb points towards the direction of the force.
+- Following this, a positive charge would experience a force to the **left**.
+- Looking at the diagram, the particle curves to the left. Therefore, the ion must have a **positive** charge.
+
+### 2. Calculating the Radius
+When a charged particle moves perpendicularly into a magnetic field, the magnetic force acts as the centripetal force:
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+Solving for $r$:
+$$r = \frac{mv}{qB}$$
+
+**Given data:**
+- Mass ($m$) = $12.00\text{ amu} = 12.00 \times 1.66 \times 10^{-27}\text{ kg} = 1.992 \times 10^{-26}\text{ kg}$
+- Velocity ($v$) = $3.135 \times 10^6\text{ ms}^{-1}$
+- Charge ($q$) = $1.602 \times 10^{-19}\text{ C}$ (charge of one electron/proton)
+- Magnetic field ($B$) = $0.25\text{ T}$
+
+**Calculation:**
+$$r = \frac{(1.992 \times 10^{-26}) \times (3.135 \times 10^6)}{(1.602 \times 10^{-19}) \times (0.25)}$$
+$$r = \frac{6.24492 \times 10^{-20}}{0.04005 \times 10^{-19}}$$
+$$r = \frac{6.24492 \times 10^{-20}}{4.005 \times 10^{-20}} \approx 1.559\dots \approx 1.560\text{ m}$$
+
+Comparing our results to the given options:
+- The radius is $1.560\text{ m}$.
+- The charge is positive.
+
+This matches **Option D**.
+
+###QUESTION_TYPE
+Multiple choice

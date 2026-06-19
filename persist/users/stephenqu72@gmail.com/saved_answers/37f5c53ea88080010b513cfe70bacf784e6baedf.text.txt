@@ -1,0 +1,30 @@
+To solve this problem, we need to calculate the magnetic force acting on the proton and then use Newton's Second Law to determine its acceleration.
+
+### 1. Identify the given values
+*   Velocity of the proton ($v$): $1200\text{ m s}^{-1}$
+*   Magnetic field strength ($B$): $3.00\text{ T}$
+*   Charge of a proton ($q$): $1.602 \times 10^{-19}\text{ C}$
+*   Mass of a proton ($m$): $1.673 \times 10^{-27}\text{ kg}$
+
+### 2. Calculate the Magnetic Force ($F$)
+The magnetic force on a moving charge is given by $F = qvB\sin(\theta)$. Since the proton is fired perpendicularly into the field, $\theta = 90^{\circ}$ and $\sin(90^{\circ}) = 1$.
+$$F = (1.602 \times 10^{-19}\text{ C}) \times (1200\text{ m s}^{-1}) \times (3.00\text{ T})$$
+$$F = 5.7672 \times 10^{-16}\text{ N}$$
+
+### 3. Calculate the Acceleration ($a$)
+Using Newton's Second Law ($F = ma$), we rearrange to solve for $a$:
+$$a = \frac{F}{m}$$
+$$a = \frac{5.7672 \times 10^{-16}\text{ N}}{1.673 \times 10^{-27}\text{ kg}}$$
+$$a \approx 3.447 \times 10^{11}\text{ m s}^{-2}$$
+
+### 4. Determine the Direction
+Using the Right-Hand Rule:
+*   Point your fingers in the direction of the velocity (up the page).
+*   Curl your fingers in the direction of the magnetic field (out of the page/towards you).
+*   Your thumb points to the **right**.
+(Alternatively: Using the Fleming's Left-Hand Rule for a positive charge: First finger = B (out), Second finger = I/v (up), Thumb = Force (right).)
+
+The result is approximately $3.45 \times 10^{11}\text{ m s}^{-2}$ to the right. This corresponds to option **C**.
+
+###QUESTION_TYPE
+Multiple choice

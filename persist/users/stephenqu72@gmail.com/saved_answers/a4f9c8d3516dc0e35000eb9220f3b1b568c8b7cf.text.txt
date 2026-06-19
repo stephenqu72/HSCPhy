@@ -1,0 +1,47 @@
+To solve this projectile motion problem, we must treat the horizontal and vertical components of motion independently.
+
+**Given:**
+*   Horizontal velocity ($v_x$) = $4.0\text{ m s}^{-1}$
+*   Vertical displacement ($\Delta y$) = $19.6\text{ m}$
+*   Initial vertical velocity ($u_y$) = $0\text{ m s}^{-1}$
+*   Acceleration due to gravity ($g$) = $9.8\text{ m s}^{-2}$
+
+---
+
+### (a) Calculate the time to land
+The time taken to reach the water is determined solely by the vertical motion. We use the equation of motion:
+$$\Delta y = u_y t + \frac{1}{2}g t^2$$
+
+Since $u_y = 0$:
+$$19.6 = 0 + \frac{1}{2}(9.8)t^2$$
+$$19.6 = 4.9t^2$$
+$$t^2 = 4$$
+$$t = 2.0\text{ s}$$
+
+**Answer:** It will take **$2.0\text{ s}$** for the person to land.
+
+---
+
+### (b) Calculate the velocity as they enter the water
+Velocity is a vector quantity. We need the final horizontal velocity ($v_x$) and the final vertical velocity ($v_y$).
+
+1.  **Horizontal velocity ($v_x$):** Since there is no air resistance, horizontal velocity remains constant.
+    $$v_x = 4.0\text{ m s}^{-1}$$
+
+2.  **Vertical velocity ($v_y$):** Use $v_y = u_y + gt$.
+    $$v_y = 0 + (9.8)(2.0)$$
+    $$v_y = 19.6\text{ m s}^{-1} (\text{downwards})$$
+
+3.  **Resultant velocity ($v$):** Use the Pythagorean theorem.
+    $$v = \sqrt{v_x^2 + v_y^2}$$
+    $$v = \sqrt{4.0^2 + 19.6^2}$$
+    $$v = \sqrt{16 + 384.16} = \sqrt{400.16}$$
+    $$v \approx 20.0\text{ m s}^{-1}$$
+
+4.  **Direction ($\theta$):** Use $\tan(\theta) = \frac{v_y}{v_x}$.
+    $$\theta = \tan^{-1}\left(\frac{19.6}{4.0}\right) \approx 78.5^\circ \text{ below the horizontal}$$
+
+**Answer:** The velocity is **$20.0\text{ m s}^{-1}$** at an angle of **$78.5^\circ$** below the horizontal.
+
+###QUESTION_TYPE
+Calculation question

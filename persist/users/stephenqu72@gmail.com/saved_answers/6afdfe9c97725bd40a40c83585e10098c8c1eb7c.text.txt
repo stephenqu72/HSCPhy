@@ -1,0 +1,18 @@
+The correct answer is **B. Kepler's second law of planetary motion**.
+
+### Explanation
+To solve this, we need to analyze the visual information provided in the diagram:
+1.  **Equal Time Intervals:** The diagram shows a planet orbiting the Sun in an elliptical path. The label $t$ is applied to three different segments of the orbit, indicating that the planet takes the same amount of time to travel through each of these orbital arcs.
+2.  **Equal Areas:** The shaded regions represent the area swept out by a line segment connecting the planet to the Sun during those equal time intervals. The diagram explicitly labels these areas as $A$, implying that $A_1 = A_2 = A_3$.
+
+**Kepler's Second Law** states that a line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time. Mathematically, this is expressed as:
+$$\frac{dA}{dt} = \text{constant}$$
+
+This law implies that planets must move faster when they are closer to the Sun (perihelion) and slower when they are further away (aphelion) to ensure the swept area remains constant over time. 
+
+*   **Option A (First Law)** describes the shape of planetary orbits as ellipses with the Sun at one focus.
+*   **Option C (Third Law)** describes the relationship between the orbital period and the semi-major axis ($\frac{T^2}{r^3} = k$).
+*   **Option D** is incorrect because, according to Kepler’s Second Law, planets move *slower* when they are further from the Sun.
+
+### QUESTION_TYPE
+Multiple choice

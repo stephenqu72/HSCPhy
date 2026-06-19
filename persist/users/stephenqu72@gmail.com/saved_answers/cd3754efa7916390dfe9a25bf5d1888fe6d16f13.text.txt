@@ -1,0 +1,39 @@
+### Answer and Explanation
+
+This question is based on the famous **Millikan’s Oil Drop Experiment**.
+
+#### (a) Free Body Diagram
+As the oil drop falls at a **constant speed**, the net force is zero. Therefore, there are two equal and opposite forces:
+1.  **Weight ($mg$):** An arrow pointing straight down.
+2.  **Drag force ($F_d$):** An arrow of the same length pointing straight up.
+
+#### (b) Forces on the stationary drop
+When the drop is stationary between the charged plates, the net force is zero. The two forces are:
+1.  **Gravitational Force (Weight):** Acting downwards.
+2.  **Electric Force ($F_e$):** Acting upwards (since the drop is negatively charged and must be repelled by the negative bottom plate or attracted by the positive top plate).
+
+#### (c) Calculation of Charge
+To hold the drop stationary, the electric force must balance the gravitational force:
+$$F_e = F_g$$
+$$qE = mg$$
+
+Since the electric field between parallel plates is given by $E = \frac{V}{d}$, we substitute this into the equation:
+$$q \left( \frac{V}{d} \right) = mg \implies q = \frac{mgd}{V}$$
+
+**Given data:**
+- $m = 2.93 \times 10^{-15} \text{ kg}$
+- $g = 9.8 \text{ m/s}^2$
+- $d = 7.71 \text{ mm} = 7.71 \times 10^{-3} \text{ m}$
+- $V = 346 \text{ V}$
+
+**Calculation:**
+$$q = \frac{(2.93 \times 10^{-15}) \times 9.8 \times (7.71 \times 10^{-3})}{346}$$
+$$q \approx 6.40 \times 10^{-19} \text{ C}$$
+
+#### (d) Supporting the conclusion
+Millikan concluded that charge is **quantized**, meaning it exists only in discrete packets. By observing the results $9.6 \times 10^{-19}$, $12.8 \times 10^{-19}$, and $3.2 \times 10^{-19} \text{ C}$, we can see that each value is an integer multiple of $3.2 \times 10^{-19} \text{ C}$ (specifically $3e$, $4e$, and $1e$ if we consider the elementary charge). This demonstrates that all measured charges are multiples of a fundamental base unit of charge.
+
+***
+
+###QUESTION_TYPE
+Calculation question

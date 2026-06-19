@@ -1,0 +1,20 @@
+Hello! As an HSC Physics teacher, let's break down this question. This is a classic electromagnetism question that tests your understanding of **Lenz's Law** and **Eddy Currents**.
+
+### Answer
+The correct option is **A (Student A only)**.
+
+### Explanation
+
+**1. Analyzing Student A:**
+Magnetic brakes work by inducing eddy currents in a conductor moving through a magnetic field. According to Faraday's Law and Lenz's Law, the induced EMF ($\varepsilon$) is proportional to the rate of change of magnetic flux. Since the magnetic flux changes as the conductor moves, the induced current is proportional to the velocity ($v$) of the conductor. 
+The magnetic force ($F_B$) resulting from these currents (Lorentz force) is given by $F_B = BIl$. Since $I$ is proportional to $v$, the resulting braking force is directly proportional to velocity ($F \propto v$). As the velocity decreases, the braking force decreases proportionally, which results in a smooth, gradual deceleration. **Student A is correct.**
+
+**2. Analyzing Student B:**
+While it is true that magnetic fields *directly* exert forces that do no work on individual charges (the magnetic force is always perpendicular to velocity), magnetic braking is fundamentally an energy conversion process. The kinetic energy of the moving object is transformed into electrical energy (eddy currents) and subsequently dissipated as thermal energy ($Q = I^2Rt$) due to the electrical resistance of the metal. Magnetic brakes famously get very hot during operation; this is a primary limitation of the design. **Student B is incorrect.**
+
+### Summary
+*   **Student A** is correct because the proportionality $F \propto v$ ensures a smooth reduction in velocity.
+*   **Student B** is incorrect because the work done to slow the object is converted into heat (Joule heating).
+
+###QUESTION_TYPE
+Multiple choice

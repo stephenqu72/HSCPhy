@@ -1,0 +1,28 @@
+To solve this problem, we need to apply the standard projectile motion formulas for range ($R$) and maximum height ($H$):
+
+1.  **Range formula:** $R = \frac{v^2 \sin(2\theta)}{g}$
+2.  **Maximum height formula:** $H = \frac{v^2 \sin^2(\theta)}{2g}$
+
+Where $v$ is the initial velocity, $\theta$ is the launch angle, and $g$ is the acceleration due to gravity.
+
+### Analysis of the options:
+
+*   **Range ($R$):** Complementary angles (angles that add up to $90^{\circ}$) produce the same range. Since $30^{\circ} + 60^{\circ} = 90^{\circ}$, the projectiles launched at $30^{\circ}$ and $60^{\circ}$ will have the **same range**. The $45^{\circ}$ launch angle provides the maximum possible range for a given velocity.
+*   **Maximum Height ($H$):** The maximum height depends on $\sin^2(\theta)$. Since $\sin(30^{\circ}) = 0.5$ and $\sin(60^{\circ}) = \frac{\sqrt{3}}{2} \approx 0.866$, the heights will be different. Specifically, $H_{60} > H_{30}$. The height increases as the launch angle increases toward $90^{\circ}$.
+
+### Evaluating the statements:
+*   **A is incorrect:** Range and height vary with the angle.
+*   **B is correct:** As calculated above, the vertical components of velocity are different ($v \sin(30^{\circ})$ vs $v \sin(60^{\circ})$), resulting in different maximum heights.
+*   **C is incorrect:** As shown above, they have different maximum heights because the vertical velocity components are different.
+*   **D is incorrect:** While $45^{\circ}$ provides the greatest range, it does *not* provide the greatest maximum height; the $60^{\circ}$ launch will reach a greater height than the $45^{\circ}$ launch.
+
+**Correct Answer: B**
+
+### How to solve this in an exam:
+1.  **Identify the variables:** Recognize that $v$ and $g$ are constants for all three trials.
+2.  **Recall the physics principles:** Remember that for projectile motion, angles $\theta$ and $90^{\circ}-\theta$ result in the same range, but different heights.
+3.  **Test the extremes:** Since $60^{\circ}$ is a steeper launch than $30^{\circ}$, it must result in a higher trajectory. Thus, B must be true, and C must be false.
+4.  **Eliminate options:** Once you confirm B is true and D is false (because $45^{\circ}$ is not the highest point possible), you can confidently select the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,16 @@
+To determine which scenario results in no net force, we must analyze the force equations for charged particles in electric and magnetic fields.
+
+### Analysis
+*   **Electric Field ($E$):** The force on a charged particle ($q$) in an electric field is given by $F = qE$. This force is independent of the particle's velocity. Therefore, both a stationary and a moving charged particle will experience a force in an electric field (as long as $q \neq 0$ and $E \neq 0$). This eliminates options B and D.
+*   **Magnetic Field ($B$):** The force on a charged particle moving with velocity ($v$) in a magnetic field is given by the Lorentz force law: $F = qvB\sin(\theta)$. 
+    *   If the particle is **stationary**, then $v = 0$. Substituting this into the equation, we get $F = q(0)B\sin(\theta) = 0$. Thus, a stationary charged particle experiences no magnetic force.
+    *   If the particle is **moving** (provided it is not moving parallel to the field lines), it will experience a magnetic force. This eliminates option C.
+
+### Conclusion
+Option A describes a stationary charged particle in a magnetic field. Since the particle has no velocity, the magnetic force exerted on it is zero.
+
+**Correct Answer: A**
+
+---
+###QUESTION_TYPE
+Multiple choice

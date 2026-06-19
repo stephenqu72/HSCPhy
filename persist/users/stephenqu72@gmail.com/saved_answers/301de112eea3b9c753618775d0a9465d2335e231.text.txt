@@ -1,0 +1,29 @@
+To determine the length of the conductors, we use the formula for the force between two parallel current-carrying conductors:
+
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi d}$$
+
+### 1. Identify the given values:
+*   Current in both wires ($I_1 = I_2 = I$): $12\text{ A}$
+*   Separation distance ($d$): $1.5\text{ cm} = 0.015\text{ m}$
+*   Force ($F$): The scale reads $0.042\text{ g}$. We must convert this mass to a force in Newtons:
+    $$F = mg = (0.042 \times 10^{-3}\text{ kg}) \times 9.8\text{ m/s}^2 \approx 4.116 \times 10^{-4}\text{ N}$$
+*   Permeability of free space ($\mu_0$): $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+### 2. Rearrange the formula to solve for $L$:
+$$L = \frac{F \times 2\pi d}{\mu_0 I^2}$$
+
+### 3. Calculate:
+Substitute the values into the equation:
+$$L = \frac{(4.116 \times 10^{-4}) \times 2\pi \times 0.015}{(4\pi \times 10^{-7}) \times (12)^2}$$
+
+Cancel $2\pi$ from the numerator and denominator:
+$$L = \frac{4.116 \times 10^{-4} \times 0.015}{2 \times 10^{-7} \times 144}$$
+$$L = \frac{6.174 \times 10^{-6}}{2.88 \times 10^{-5}}$$
+$$L \approx 0.214\text{ m}$$
+
+Rounding to two significant figures, we get $0.21\text{ m}$, which is $2.1 \times 10^{-1}\text{ m}$.
+
+Comparing this to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

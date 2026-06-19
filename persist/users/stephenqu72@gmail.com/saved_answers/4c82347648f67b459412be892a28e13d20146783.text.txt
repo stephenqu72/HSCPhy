@@ -1,0 +1,50 @@
+As an HSC Physics teacher, I will break these questions down based on core principles of electromagnetism and mechanics.
+
+---
+
+### Part a) Differences between copper and aluminium coins
+**Observation:** The copper coin will take longer to travel from A to B compared to the aluminium coin.
+
+**Explanation:**
+1. **Lenz's Law and Eddy Currents:** As the metallic coin rolls through the non-uniform magnetic field between the poles, the changing magnetic flux induces eddy currents within the metal of the coin. 
+2. **Magnetic Braking:** These eddy currents generate their own magnetic field that opposes the change in motion (Lenz's Law), creating a retarding magnetic force (braking force).
+3. **Resistivity:** The strength of the eddy currents depends on the conductivity of the metal. Copper has a lower resistivity ($0.20\ \Omega\text{m}$) compared to aluminium ($0.40\ \Omega\text{m}$), meaning copper is more conductive.
+4. **Conclusion:** Because copper has higher conductivity, it experiences stronger eddy currents, leading to a greater retarding force and a slower descent compared to the aluminium coin.
+
+---
+
+### Part b) Electronic balance reading
+This is an application of the Motor Effect: $F = BIL\sin(\theta)$.
+
+1. **Calculate the Magnetic Force:**
+   - $B = 0.5\ \text{T}$
+   - $I = 2\ \text{A}$
+   - $L = 2\ \text{cm} = 0.02\ \text{m}$
+   - Assuming the track is perpendicular to the magnetic field ($\theta = 90^\circ$):
+   $$F = 0.5 \times 2 \times 0.02 = 0.02\ \text{N}$$
+
+2. **Convert Force to Mass:**
+   Using $W = mg$, where $g \approx 9.8\ \text{m/s}^2$:
+   $$m = \frac{F}{g} = \frac{0.02}{9.8} \approx 0.00204\ \text{kg} = 2.04\ \text{g}$$
+
+3. **New Reading:**
+   The force acts on the balance (depending on the orientation of the poles, usually downward). Assuming the force is downward:
+   $$\text{New reading} = 200\ \text{g} + 2.04\ \text{g} = 202.04\ \text{g}$$
+
+---
+
+### Part c) Difference in height
+Use the Law of Conservation of Energy, assuming no energy loss (since it's a plastic coin, no eddy currents occur).
+$$PE_{\text{initial}} = KE_{\text{final}}$$
+$$mgh = \frac{1}{2}mv^2$$
+$$h = \frac{v^2}{2g}$$
+
+1. **Convert units:** $v = 23\ \text{cm/s} = 0.23\ \text{m/s}$.
+2. **Calculate:**
+   $$h = \frac{0.23^2}{2 \times 9.8} = \frac{0.0529}{19.6} \approx 0.0027\ \text{m}$$
+3. **Result:** The height difference is $0.27\ \text{cm}$ (or $2.7\ \text{mm}$).
+
+---
+
+###QUESTION_TYPE
+Calculation question

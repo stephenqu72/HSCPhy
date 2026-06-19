@@ -1,0 +1,20 @@
+To determine which type of energy is greater at position $P$ than at position $Q$, let's analyze the physics of a planet in an elliptical orbit.
+
+### Analysis
+1.  **Conservation of Mechanical Energy:** In an orbiting system, the total mechanical energy $E_{total} = E_k + E_p$ remains constant throughout the orbit (assuming no external forces). Therefore, the total energy is the same at both $P$ and $Q$. This rules out option D.
+2.  **Gravitational Potential Energy:** Gravitational potential energy is given by the formula:
+    $$U = -\frac{GMm}{r}$$
+    where $r$ is the distance between the center of the star and the planet. At position $P$, the planet is closer to the star ($r_P < r_Q$). Because the potential energy is negative, a smaller distance $r$ means the value is "more negative" (lower). However, the question asks for the energy that is *greater*. Since $U_P < U_Q$, potential energy is smaller at $P$ than at $Q$. This rules out option C.
+3.  **Kinetic Energy:** According to Kepler's Second Law, a planet sweeps out equal areas in equal times, which implies that a planet moves faster when it is closer to the star (perihelion) and slower when it is further away (aphelion). 
+    *   At position $P$, the planet is at its closest point (perihelion).
+    *   Since velocity $v$ is highest at $P$, the kinetic energy $E_k = \frac{1}{2}mv^2$ is at its maximum at position $P$.
+    *   Therefore, kinetic energy is greater at $P$ than at $Q$.
+
+Option B (Nuclear) is irrelevant to the orbital motion of the planet.
+
+**Conclusion:** The kinetic energy is greater at $P$.
+
+**Correct Option: A**
+
+###QUESTION_TYPE
+Multiple choice

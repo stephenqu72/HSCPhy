@@ -1,0 +1,39 @@
+### Answer
+The correct answer is **(D) 800 m**.
+
+---
+
+### Explanation
+
+To solve this problem, we must understand the physics of uniform circular motion. The train experiences a centripetal force directed toward the center of the curve, which is provided by the lateral friction/force exerted by the rails. 
+
+The formula for the required centripetal force ($F_c$) is:
+$$F_c = \frac{mv^2}{r}$$
+
+The problem states that the "safe speed" is determined by the maximum force the rails can withstand before the train derails. Let this maximum force be $F_{max}$. Since $F_{max}$ is constant for the tracks:
+$$F_{max} = \frac{mv_1^2}{r_1} = \frac{mv_2^2}{r_2}$$
+
+Because the mass ($m$) of the train is constant, we can simplify this to:
+$$\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$$
+
+**Step 1: Identify the variables**
+*   Initial speed ($v_1$) = $60\text{ kmh}^{-1}$
+*   Initial radius ($r_1$) = $200\text{ m}$
+*   New speed ($v_2$) = $120\text{ kmh}^{-1}$
+*   New radius ($r_2$) = ?
+
+**Step 2: Set up the ratio**
+Since $v_2 = 2 \times v_1$, we can substitute this into our equation:
+$$\frac{v_1^2}{r_1} = \frac{(2v_1)^2}{r_2}$$
+$$\frac{v_1^2}{r_1} = \frac{4v_1^2}{r_2}$$
+
+**Step 3: Solve for $r_2$**
+By canceling $v_1^2$ from both sides, we get:
+$$\frac{1}{r_1} = \frac{4}{r_2}$$
+$$r_2 = 4 \times r_1$$
+$$r_2 = 4 \times 200\text{ m} = 800\text{ m}$$
+
+Increasing the speed by a factor of 2 requires the radius to increase by a factor of $2^2 = 4$ to maintain the same centripetal force requirements.
+
+###QUESTION_TYPE
+Multiple choice

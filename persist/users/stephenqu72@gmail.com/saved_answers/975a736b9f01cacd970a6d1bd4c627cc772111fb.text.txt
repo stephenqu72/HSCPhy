@@ -1,0 +1,28 @@
+To answer this question effectively, you must adopt a comparative approach. You are asked to "critically analyse," which means you must evaluate the interaction (or lack thereof) between a **mass** and three distinct types of fields.
+
+### Answer
+
+**1. Gravitational Fields**
+Gravitational fields interact with all matter possessing mass. According to Newton’s Law of Universal Gravitation, a mass $m$ in a gravitational field $g$ experiences a force given by $F_g = mg$. Because this force is proportional to the mass, it causes acceleration $a = g$ that is independent of the mass itself (Equivalence Principle). The motion is dictated by Newton's Second Law ($F = ma$), resulting in predictable acceleration towards the source of the field.
+
+**2. Electric Fields**
+Electric fields exert a force only on objects with a net electric charge ($q$). The force is given by $F_E = qE$. For a neutral mass (which has no net charge), the electric field has **zero effect** on its motion, regardless of the field's intensity. If the mass happens to be charged, it will undergo acceleration $a = \frac{qE}{m}$. Unlike gravity, which is always attractive, electric forces can be attractive or repulsive, significantly changing the trajectory of a charged mass.
+
+**3. Magnetic Fields**
+Magnetic fields interact with moving charges via the Lorentz force, given by $F_B = qvB\sin(\theta)$. A stationary mass, or a neutral mass, experiences no force in a magnetic field. Even for a charged mass, the force is always perpendicular to the velocity, meaning the magnetic field changes the **direction** of motion but not the speed (kinetic energy remains constant). A neutral mass will pass through a magnetic field completely undeflected, as there is no coupling mechanism between magnetic fields and mass.
+
+**Summary Comparison**
+*   **Gravitational:** Interacts with all mass; accelerates motion linearly.
+*   **Electric:** Interacts only with charge; does not affect neutral mass.
+*   **Magnetic:** Interacts only with moving charge; does not affect neutral mass and cannot change the kinetic energy of the particle.
+
+---
+
+### How to solve this
+1.  **Understand the Keyword:** "Critically analyse" requires you to look at the limitations. The most critical point here is that while gravity acts on mass, electric and magnetic fields only act on **charge**. A top-tier response must emphasize that for a *neutral* mass, only gravity matters.
+2.  **Structure:** Use a paragraph for each field. This keeps your answer organized and ensures you address all three requirements of the prompt.
+3.  **Reference Laws:** Explicitly name the laws ($F=mg$, $F=qE$, $F=qvB\sin\theta$) to justify your claims.
+4.  **The "HSC Trick":** Ensure you explicitly state that magnetic fields do no work on a charge because the force is always perpendicular to velocity. This adds the depth required for the full 8 marks.
+
+###QUESTION_TYPE
+Essay

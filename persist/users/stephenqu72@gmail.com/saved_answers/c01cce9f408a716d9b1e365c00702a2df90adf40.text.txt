@@ -1,0 +1,28 @@
+To solve this problem, we need to resolve the weight force of the car into components relative to the inclined plane.
+
+### Answer
+The component of the weight force acting parallel to the ramp is $4900\text{ N}$ (or $4.9 \times 10^3\text{ N}$) acting down the slope.
+
+### Explanation
+1.  **Identify the variables:**
+    *   Mass of the car, $m = 1000\text{ kg}$
+    *   Angle of inclination, $\theta = 30^{\circ}$
+    *   Acceleration due to gravity, $g = 9.8\text{ ms}^{-2}$
+
+2.  **Understand the physics:**
+    When an object is on an inclined plane, its weight force ($W = mg$) acts vertically downwards. We can resolve this force into two perpendicular components:
+    *   The component perpendicular to the surface of the ramp: $W_{\perp} = mg \cos(\theta)$
+    *   The component parallel to the surface of the ramp: $W_{\parallel} = mg \sin(\theta)$
+
+3.  **Perform the calculation:**
+    Using the formula for the parallel component:
+    $$W_{\parallel} = mg \sin(30^{\circ})$$
+    $$W_{\parallel} = 1000 \times 9.8 \times \sin(30^{\circ})$$
+    Since $\sin(30^{\circ}) = 0.5$:
+    $$W_{\parallel} = 1000 \times 9.8 \times 0.5$$
+    $$W_{\parallel} = 4900\text{ N}$$
+
+This component always acts directly down the slope of the ramp, independent of the car's circular motion.
+
+###QUESTION_TYPE
+Calculation question

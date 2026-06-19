@@ -1,0 +1,23 @@
+To determine where the electric field strength is zero between two positive point charges $P$ and $Q$, we must consider the vector nature of the electric field.
+
+### Answer
+The correct answer is **B. Y only**.
+
+### Explanation
+The electric field strength $E$ due to a point charge is a vector quantity defined by the formula:
+$$E = \frac{k|q|}{r^2}$$
+where $k$ is Coulomb's constant, $q$ is the magnitude of the charge, and $r$ is the distance from the charge. The direction of the electric field from a positive charge is always **away** from the charge.
+
+1.  **Region Y (between the charges):**
+    *   At any point between $P$ and $Q$, the electric field from $P$ points to the right (away from $P$).
+    *   The electric field from $Q$ points to the left (away from $Q$).
+    *   Because the two fields point in opposite directions, they can subtract from each other. There will be a specific point between the two charges where the magnitudes are equal, causing the net electric field to be **zero**.
+
+2.  **Regions X and Z (outside the charges):**
+    *   **Region X:** Both charges $P$ and $Q$ are to the right. Both electric fields point to the left. Since the vectors point in the same direction, they will always add together and can never result in a net field of zero.
+    *   **Region Z:** Both charges $P$ and $Q$ are to the left. Both electric fields point to the right. Again, the fields add together, so the net field cannot be zero.
+
+Therefore, the only location where the electric field strength can be zero is in the region between the two charges, which is denoted as point $Y$.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To find the speed of the electron, we must apply the principle of **Conservation of Energy**.
+
+### Explanation
+When an electron is accelerated through a potential difference ($V$), its electrical potential energy is converted entirely into kinetic energy ($K$). 
+
+1. **The Energy Equation:**
+   The work done on the electron is $W = qV$. This energy appears as kinetic energy:
+   $$qV = \frac{1}{2}mv^2$$
+   Where:
+   - $q = 1.602 \times 10^{-19}\text{ C}$ (charge of an electron)
+   - $V = 3200\text{ V}$ (potential difference)
+   - $m = 9.109 \times 10^{-31}\text{ kg}$ (mass of an electron)
+   - $v = \text{speed of the electron}$
+
+2. **Note on the Magnetic Field:**
+   In this scenario, the magnetic field is perpendicular to the electron's path. While a magnetic field exerts a force on a moving charge ($F = qvB\sin\theta$), this force acts perpendicular to the direction of motion. Therefore, the magnetic field **does no work** on the electron and does not change its speed; it only changes its direction (causing it to curve). We can safely ignore the magnetic field strength for this specific calculation.
+
+3. **Calculation:**
+   Rearrange the energy equation to solve for $v$:
+   $$v = \sqrt{\frac{2qV}{m}}$$
+   Substitute the known values:
+   $$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19}\text{ C}) \times (3200\text{ V})}{9.109 \times 10^{-31}\text{ kg}}}$$
+   $$v = \sqrt{\frac{1.025 \times 10^{-15}}{9.109 \times 10^{-31}}}$$
+   $$v = \sqrt{1.125 \times 10^{15}}$$
+   $$v \approx 3.35 \times 10^7\text{ m s}^{-1}$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

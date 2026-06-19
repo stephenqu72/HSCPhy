@@ -1,0 +1,31 @@
+To solve this problem, we apply the principles of electromagnetism, specifically the force exerted on a current-carrying wire in a magnetic field.
+
+### (a) Plot a graph of force versus current
+To plot this, place **Current ($I$)** in Amps on the x-axis (range $1.0$ to $4.5$) and **Force ($F$)** in Newtons on the y-axis (range $0$ to $2.5 \times 10^{-4}$). Plot the five data points provided. The line of best fit will be a straight line passing through (or very close to) the origin, indicating a linear relationship.
+
+### (b) Relationship and Assumptions
+**Relationship:** The force is directly proportional to the current ($F \propto I$).
+**Two Assumptions:**
+1. The magnetic field strength ($B$) remains constant throughout the experiment.
+2. The length of the conductor ($L$) placed within the magnetic field remains constant.
+3. The angle between the current-carrying wire and the magnetic field remains constant at $90^\circ$ (perpendicular).
+
+### (c) Calculate the gradient
+Using the formula for force on a current-carrying wire: $F = BIL\sin\theta$. Since the relationship is $F = kI$, the gradient represents the constant $k = BL\sin\theta$.
+
+**Calculation:** Pick two points far apart on your line of best fit. Using the first and last points from the table:
+$$\text{Gradient} = \frac{\Delta F}{\Delta I} = \frac{(2.19 - 0.56) \times 10^{-4} \text{ N}}{(4.3 - 1.1) \text{ A}}$$
+$$\text{Gradient} \approx \frac{1.63 \times 10^{-4}}{3.2} \approx 5.09 \times 10^{-5} \text{ N/A (or T}\cdot\text{m)}$$
+
+**What the gradient represents:** It represents the product of the magnetic field strength ($B$), the length of the rod ($L$), and the sine of the angle between them ($\sin\theta$). 
+
+---
+
+### HOW TO SOLVE THIS:
+1. **Graphing:** Always use a sharp pencil and a ruler. Ensure your axes are labelled with units and cover the full range of data.
+2. **Relationship:** When you see a linear graph through the origin, always state "directly proportional."
+3. **Physics Context:** Recall $F = BIL$. By looking at the equation, we can see that if $B, L,$ and $\theta$ are fixed, $F$ must be proportional to $I$. Therefore, the gradient of an $F$ vs $I$ graph must be $BL\sin\theta$.
+4. **Calculations:** Always use points from your *line of best fit* for the gradient calculation, not necessarily the original data points if they don't lie perfectly on the line.
+
+###QUESTION_TYPE
+Data analysis questions

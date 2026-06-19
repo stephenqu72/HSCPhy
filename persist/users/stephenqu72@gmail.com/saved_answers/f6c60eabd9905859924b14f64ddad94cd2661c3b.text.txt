@@ -1,0 +1,22 @@
+To answer this 9-mark question, you must demonstrate a deep understanding of the physics principles governing particle motion in electric and magnetic fields. Here is the structured response you would provide in an HSC exam.
+
+### Answer
+Mass spectrometry determines the abundance of isotopes like Carbon-14 by exploiting the relationship between a particle's mass and its trajectory in magnetic fields.
+
+1.  **Ionisation:** The carbon sample is vaporised and bombarded with electrons to create positive ions ($C^+$).
+2.  **Velocity Selection:** Ions pass through a velocity selector containing perpendicular electric ($E$) and magnetic ($B_v$) fields. For ions to pass undeflected, the electric force ($F_E = qE$) must equal the magnetic force ($F_B = qvB_v$). This ensures only particles with a specific velocity $v = E/B_v$ enter the spectrometer.
+3.  **Deflection:** In the spectrometer, the ions enter a uniform magnetic field ($B_s$) perpendicular to their velocity. The magnetic field exerts a centripetal force, causing the ions to move in a circular path with radius $r$. 
+4.  **Physics Relationship:** Equating the magnetic force to the centripetal force:
+    $$qvB_s = \frac{mv^2}{r} \implies r = \frac{mv}{qB_s}$$
+    Since $v$, $q$, and $B_s$ are constant for all ions in this stage, the radius of the path $r$ is directly proportional to the mass $m$ of the isotope.
+5.  **Detection and Analysis:** Carbon-14 (heavier) will follow a path with a larger radius of curvature than Carbon-12 or Carbon-13. The detector records the position and intensity of particle impacts. By comparing the number of counts at the location corresponding to the mass of Carbon-14 versus the total number of counts across all carbon isotope locations, the percentage of Carbon-14 is calculated.
+
+### How to solve it
+*   **Identify the Core Physics:** Recognise that mass spectrometry relies on the separation of isotopes based on their mass-to-charge ratio ($m/q$).
+*   **Structure the Explanation:** Use a logical, step-by-step approach. Start with ionisation, move to velocity selection (the "filter"), then the separation in the spectrometer (the "analyzer"), and finally the data interpretation.
+*   **Show the Mathematics:** HSC markers look for the link between the physics formulas and the physical outcome. Including $r = \frac{mv}{qB}$ is essential to show you understand *why* isotopes separate spatially.
+*   **Link to the Question:** Explicitly mention the isotopes (C-14 vs others) and how the "counting" at the detector provides the quantitative data required for a percentage.
+*   **Marking Strategy:** For a 9-mark question, ensure you describe both the *function* of each component and the *underlying physics principles* (forces and circular motion).
+
+###QUESTION_TYPE
+Short answer

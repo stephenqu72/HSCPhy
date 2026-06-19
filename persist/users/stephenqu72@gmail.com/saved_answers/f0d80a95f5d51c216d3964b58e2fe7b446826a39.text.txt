@@ -1,0 +1,31 @@
+To solve this problem, we must determine the recession velocity of the galaxy and then apply Hubble's Law to find its distance.
+
+### 1. Identify the Wavelengths
+*   **Rest wavelength ($\lambda$):** The $H_{\alpha}$ line is the first transition in the Balmer series, which has a known rest wavelength of approximately $656 \text{ nm}$.
+*   **Observed wavelength ($\lambda_{obs}$):** Looking at the graph, the $H_{\alpha}$ peak occurs at $805 \text{ nm}$.
+*   **Shift in wavelength ($\Delta\lambda$):** 
+    $$\Delta\lambda = \lambda_{obs} - \lambda = 805 - 656 = 149 \text{ nm}$$
+*   **Redshift ratio:**
+    $$\frac{\Delta\lambda}{\lambda} = \frac{149}{656} \approx 0.2271$$
+
+### 2. Calculate the Recession Velocity ($v$)
+Using the provided model:
+$$\frac{\Delta\lambda}{\lambda} + 1 = 0.2271 + 1 = 1.2271$$
+$$\left( \frac{\Delta\lambda}{\lambda} + 1 \right)^2 = (1.2271)^2 \approx 1.5058$$
+
+Now substitute into the velocity equation:
+$$v = c \cdot \left( \frac{1.5058 - 1}{1.5058 + 1} \right) = c \cdot \left( \frac{0.5058}{2.5058} \right) \approx 0.2018 \cdot c$$
+Using the speed of light $c \approx 3 \times 10^5 \text{ km s}^{-1}$:
+$$v \approx 0.2018 \times 300,000 \approx 60,540 \text{ km s}^{-1}$$
+
+### 3. Calculate Distance ($d$)
+Using Hubble's Law ($v = H_0 \cdot d$):
+$$d = \frac{v}{H_0} = \frac{60,540 \text{ km s}^{-1}}{70 \text{ km s}^{-1} \text{ Mpc}^{-1}} \approx 864.8 \text{ Mpc}$$
+
+Comparing this result to the provided options, **Option B (888 Mpc)** is the closest value. Small variations often occur in these problems due to the rounding of the $H_{\alpha}$ rest wavelength (e.g., using $656.3 \text{ nm}$ or slightly different reading of the graph peak) and the precision of the speed of light used.
+
+### Final Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

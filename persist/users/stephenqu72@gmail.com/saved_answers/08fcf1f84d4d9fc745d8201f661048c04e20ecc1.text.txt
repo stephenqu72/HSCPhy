@@ -1,0 +1,35 @@
+To solve this problem, we need to derive the expression for total mechanical energy $E$ of a mass $m$ in a stable circular orbit around a central mass $M$ at a radius $r$.
+
+### Step-by-Step Solution:
+
+**1. Identify the components of total energy:**
+The total energy $E$ is the sum of kinetic energy $K$ and gravitational potential energy $U$:
+$$E = K + U$$
+Where:
+- $K = \frac{1}{2}mv^2$
+- $U = -\frac{GMm}{r}$
+
+**2. Use the condition for circular orbit:**
+For a satellite to remain in a stable circular orbit, the centripetal force must be provided by the gravitational force:
+$$F_c = F_g$$
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+
+Multiplying both sides by $r$, we find an expression for $mv^2$:
+$$mv^2 = \frac{GMm}{r}$$
+
+**3. Express kinetic energy in terms of gravitational parameters:**
+Divide the expression above by 2 to get $K$:
+$$K = \frac{1}{2}mv^2 = \frac{GMm}{2r}$$
+
+**4. Combine into the total energy equation:**
+Now substitute $K$ and $U$ back into the total energy equation:
+$$E = \left(\frac{GMm}{2r}\right) + \left(-\frac{GMm}{r}\right)$$
+
+To add these, find a common denominator:
+$$E = \frac{GMm}{2r} - \frac{2GMm}{2r}$$
+$$E = -\frac{GMm}{2r}$$
+
+This confirms the required result.
+
+###QUESTION_TYPE
+Calculation question

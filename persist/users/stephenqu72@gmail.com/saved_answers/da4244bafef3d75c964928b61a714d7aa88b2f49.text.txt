@@ -1,0 +1,29 @@
+To solve this problem, we must analyze the forces acting on the system while it is in equilibrium.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Hanging Mass ($M$):**
+    Since the hanging mass $M$ is stationary, the tension $T$ in the string must be equal to the weight of the mass.
+    $$T = Mg$$
+
+2.  **Analyze the Rubber Stopper ($m$):**
+    The rubber stopper is undergoing horizontal circular motion. The force providing the centripetal acceleration ($a_c$) is the tension $T$ in the string. The formula for centripetal force is:
+    $$F_c = \frac{mv^2}{r}$$
+    Since the tension $T$ provides this centripetal force, we have:
+    $$T = \frac{mv^2}{r}$$
+
+3.  **Equate the two expressions:**
+    Because the same string provides both the weight for the hanging mass and the centripetal force for the stopper, the tension $T$ is the same in both scenarios. Therefore, we can set the two equations equal to each other:
+    $$Mg = \frac{mv^2}{r}$$
+
+4.  **Solve for $M$:**
+    To isolate $M$, divide both sides by $g$:
+    $$M = \frac{mv^2}{gr}$$
+
+Comparing this result to the given options, we can see that it matches option **A**.
+
+### Answer:
+The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To solve this problem, we need to calculate the change in the total mechanical energy of the satellite as it moves from its initial orbit to its final geostationary orbit.
+
+### Step-by-Step Explanation
+
+**1. Understand Total Mechanical Energy in Orbit**
+For a satellite of mass $m$ in a circular orbit of radius $r$ around Earth (mass $M$), the total mechanical energy $E$ is the sum of its kinetic energy and gravitational potential energy. It is given by the formula:
+$$E = -\frac{GMm}{2r}$$
+
+**2. Identify the Required Variables**
+*   Mass of the satellite, $m = 1000\text{ kg}$
+*   Radius of initial orbit, $r_1 = 6800\text{ km} = 6.8 \times 10^6\text{ m}$
+*   Radius of final orbit, $r_2 = 42\,000\text{ km} = 4.2 \times 10^7\text{ m}$
+*   Standard gravitational parameter for Earth, $GM \approx 3.98 \times 10^{14}\text{ m}^3/\text{s}^2$
+
+**3. Calculate the Energy Change**
+The energy that must be supplied is the difference between the final energy ($E_2$) and the initial energy ($E_1$):
+$$\Delta E = E_2 - E_1 = \left( -\frac{GMm}{2r_2} \right) - \left( -\frac{GMm}{2r_1} \right)$$
+$$\Delta E = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+
+**4. Perform the Calculation**
+$$\Delta E = \frac{(3.98 \times 10^{14})(1000)}{2} \left( \frac{1}{6.8 \times 10^6} - \frac{1}{4.2 \times 10^7} \right)$$
+$$\Delta E = (1.99 \times 10^{17}) \times (1.47 \times 10^{-7} - 0.238 \times 10^{-7})$$
+$$\Delta E = (1.99 \times 10^{17}) \times (1.232 \times 10^{-7})$$
+$$\Delta E \approx 2.45 \times 10^{10}\text{ J}$$
+
+Rounding to two significant figures, we get $2.5 \times 10^{10}\text{ J}$.
+
+Comparing this to the given options, the correct choice is **A**.
+
+###QUESTION_TYPE
+Multiple choice

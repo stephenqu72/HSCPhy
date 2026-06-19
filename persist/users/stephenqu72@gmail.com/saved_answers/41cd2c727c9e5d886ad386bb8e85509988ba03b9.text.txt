@@ -1,0 +1,23 @@
+To determine which particle will have the greater energy upon reaching the negative plate, we must look at the work done by the electric field on the charges.
+
+### Answer
+The correct answer is **(C) They will both have the same energy.**
+
+### Explanation
+To solve this, we use the principle of conservation of energy applied to electric fields.
+
+1.  **Work Done by the Electric Field:** When a charge $q$ is accelerated through a potential difference $V$ between two parallel plates, the work done on the particle by the electric field is given by:
+    $$W = qV$$
+
+2.  **Kinetic Energy Gain:** According to the work-energy theorem, the work done by the electric field is equal to the change in the particle's kinetic energy ($E_k$). Since both particles start from rest, the final kinetic energy is:
+    $$E_k = qV$$
+
+3.  **Analysis of variables:**
+    *   **Charge ($q$):** The problem states that both particles have an "equal charge."
+    *   **Potential Difference ($V$):** Both particles are placed within the same uniform electric field created by the same battery and parallel plates. Therefore, they are both accelerated through the same potential difference $V$.
+    *   **Mass ($m$):** While Particle 2 has four times the mass of Particle 1, mass does not appear in the equation $E_k = qV$. While mass affects the *velocity* and *acceleration* of the particles, it does not affect the *total work done* on them by the electric field.
+
+Since $q$ and $V$ are identical for both particles, the kinetic energy gained by both particles is identical. Thus, they will both have the same energy upon reaching the negative plate.
+
+### QUESTION_TYPE
+Multiple choice

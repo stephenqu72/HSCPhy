@@ -1,0 +1,33 @@
+To find the correct relationship between the charge-to-mass ratios ($q/m$) of particles $X$ and $Y$, we must analyze the two stages of their motion: electrical acceleration and magnetic deflection.
+
+### 1. Acceleration by Potential Difference $V$
+When a charged particle is accelerated from rest through a potential difference $V$, its electrical potential energy is converted into kinetic energy:
+$$qV = \frac{1}{2}mv^2$$
+Solving for velocity $v$:
+$$v = \sqrt{\frac{2qV}{m}}$$
+
+### 2. Deflection in a Magnetic Field $B$
+When the particle enters the magnetic field, it undergoes uniform circular motion. The magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius of the path $r$:
+$$r = \frac{mv}{qB}$$
+Note that the diagram shows the exit distance is the *diameter* of the path ($D = 2r$). Since $D_X = L$ and $D_Y = 2L$, the radii are $r_X = L/2$ and $r_Y = L$. Thus, the ratio of radii is:
+$$\frac{r_Y}{r_X} = \frac{L}{L/2} = 2$$
+
+### 3. Combining the Equations
+Substitute the expression for $v$ (from step 1) into the expression for $r$ (from step 2):
+$$r = \frac{m}{qB} \sqrt{\frac{2qV}{m}} = \frac{1}{B} \sqrt{\frac{2mV^2}{q^2V}} \implies r = \frac{1}{B} \sqrt{\frac{2mV}{q}}$$
+Rearranging this to solve for the charge-to-mass ratio ($q/m$):
+$$r^2 = \frac{2mV}{qB^2} \implies \frac{q}{m} = \frac{2V}{B^2r^2}$$
+Since $V$ and $B$ are constant for both particles, we see that:
+$$\frac{q}{m} \propto \frac{1}{r^2}$$
+
+### 4. Comparing X and Y
+Using the inverse square relationship:
+$$\frac{(q/m)_X}{(q/m)_Y} = \frac{r_Y^2}{r_X^2} = \left(\frac{2L}{L}\right)^2 = 2^2 = 4$$
+This means the $q/m$ ratio of **X is larger than that of Y by a factor of 4**.
+
+**Correct Answer:** (C) X is larger than that of Y by a factor of 4.
+
+###QUESTION_TYPE
+Multiple choice

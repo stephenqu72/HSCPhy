@@ -1,0 +1,34 @@
+### Answer
+The correct answer is **A) 4.0 m**.
+
+### Explanation
+To solve this problem, we apply the principles of **Conservation of Mechanical Energy** and **Circular Motion**.
+
+**1. Determine the required velocity at the top of the loop:**
+At the top of the loop, the passengers feel weightless. This occurs when the only force providing the required centripetal force is gravity. The condition for "weightlessness" is that the normal force ($F_N$) equals zero.
+The sum of forces at the top is:
+$$\Sigma F = F_N + mg = \frac{mv^2}{r}$$
+Setting $F_N = 0$:
+$$mg = \frac{mv^2}{r}$$
+$$g = \frac{v^2}{r}$$
+$$v^2 = rg$$
+Given the radius $r = 8.0\text{ m}$ and using $g \approx 9.8\text{ m/s}^2$ (or $10\text{ m/s}^2$ depending on standard curriculum expectations; here, we see the calculation is simple), let's use $g = 9.8\text{ m/s}^2$:
+$$v^2 = 8.0 \times 9.8 = 78.4 \text{ (m/s)}^2$$
+
+**2. Use Conservation of Energy:**
+The energy at the start (potential energy only, as velocity is negligible) must equal the energy at the top of the loop (potential energy + kinetic energy).
+Let the height of the top of the loop be the reference point ($h=0$). The starting position is at height $d$.
+$$PE_{start} = PE_{top} + KE_{top}$$
+$$mgd = mg(0) + \frac{1}{2}mv^2$$
+$$gd = \frac{1}{2}v^2$$
+Substitute $v^2 = rg$:
+$$gd = \frac{1}{2}(rg)$$
+$$d = \frac{r}{2}$$
+
+**3. Final Calculation:**
+$$d = \frac{8.0\text{ m}}{2} = 4.0\text{ m}$$
+
+The vertical distance $d$ required to achieve the necessary speed for weightlessness at the top of a loop of radius $r$ is always half the radius.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,21 @@
+### Answer
+The impact velocity of mass $m_1$ will be greater than the impact velocity of mass $m_2$.
+
+**Explanation:**
+By the principle of **Conservation of Mechanical Energy**, the total energy of each object remains constant as they fall from their initial positions to the planet's surface:
+$$E_{total} = K + U = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+where $K$ is kinetic energy, $U$ is gravitational potential energy, $G$ is the gravitational constant, $M$ is the planet's mass, and $r$ is the distance from the center.
+
+1.  **Mass $m_2$:** Starts from rest ($v = 0$), so its initial mechanical energy is entirely gravitational potential energy at its starting radius.
+2.  **Mass $m_1$:** Starts with an initial orbital speed, meaning it possesses both gravitational potential energy and initial kinetic energy.
+
+Because $m_1$ starts with additional kinetic energy compared to $m_2$ (while both fall through the same change in potential energy to reach the surface), $m_1$ will have a higher total mechanical energy. Consequently, $m_1$ will possess more kinetic energy at the surface, resulting in a higher impact velocity than $m_2$.
+
+### How to solve this
+*   **Identify the key physics principle:** This is a conservation of energy problem. The system is isolated, so total energy is conserved.
+*   **Establish the energy equation:** Recognize that the initial total energy $E_i = K_i + U_i$ must equal the final total energy $E_f = K_f + U_f$.
+*   **Define the initial states:** $m_2$ is stationary ($K_{i,2} = 0$), while $m_1$ has a non-zero orbital velocity ($K_{i,1} > 0$).
+*   **Compare the outcomes:** Since both objects experience the same change in gravitational potential energy ($\Delta U$) as they fall to the planet's surface, the object that starts with more kinetic energy ($m_1$) must end with more kinetic energy. Therefore, $v_{impact, 1} > v_{impact, 2}$.
+
+###QUESTION_TYPE
+Short answer

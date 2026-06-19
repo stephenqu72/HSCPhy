@@ -1,0 +1,33 @@
+To solve this problem, we need to apply the Right-Hand Rule and the formula for the radius of a charged particle's path in a uniform magnetic field.
+
+### 1. Direction of the Force
+The magnetic field (represented by dots) is pointing **out of the page**. Using the Right-Hand Rule for a positive charge moving to the right:
+*   Fingers point right (velocity $v$).
+*   Palm faces out of the page (magnetic field $B$).
+*   The thumb points **downwards**.
+
+Both particles $M_1$ and $M_2$ initially deflect downwards upon entering the field, confirming that **both must be positively charged particles**.
+
+### 2. Identifying the Particles
+Looking at the options:
+*   (A) Proton and Alpha Particle: Both positive.
+*   (B) Proton and Positron: Both positive.
+*   (C) Proton and Electron: Incorrect, as an electron (negative) would deflect upwards.
+*   (D) $H^{+}$ (Proton) and Electron: Incorrect, as an electron would deflect upwards.
+
+### 3. Comparing the Radius of Curvature
+The radius $r$ of a particle's circular path in a magnetic field is given by:
+$$r = \frac{mv}{qB}$$
+Where $m$ is mass, $v$ is velocity, $q$ is charge, and $B$ is the magnetic field strength.
+
+In the diagram, $M_2$ has a significantly **smaller radius** ($r$) than $M_1$. This means the ratio $\frac{m}{q}$ for $M_2$ must be much smaller than for $M_1$. 
+*   **Proton:** Mass $\approx 1 \text{ amu}$, Charge $= +1e$. Ratio $\approx 1$.
+*   **Alpha particle:** Mass $\approx 4 \text{ amu}$, Charge $= +2e$. Ratio $\approx 2$. (This would result in a larger radius, not smaller).
+*   **Positron:** Mass $\approx 1/1836 \text{ amu}$, Charge $= +1e$. Ratio $\approx 0.0005$. (This is much smaller, fitting the small radius).
+
+Comparing these, a positron has a much smaller mass than a proton, which accounts for the tighter (smaller) circular path observed for $M_2$. Therefore, $M_1$ is a proton and $M_2$ is a positron.
+
+**Correct Answer: (B)**
+
+###QUESTION_TYPE
+Multiple choice

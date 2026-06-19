@@ -1,0 +1,28 @@
+To solve this question, we must apply projectile motion theory and compare it with the linear empirical data provided.
+
+### Part (a): Justification of the model
+
+**Answer:**
+The student's model $t = k\theta$ is **valid within the range of the experimental data** (from $5^\circ$ to $25^\circ$), but it is not physically grounded. 
+1. **Linearity:** The data points on the graph fall approximately on a straight line passing through the origin.
+2. **Consistency:** If we test the model at $\theta = 20^\circ$, $t = 0.087 \times 20 = 1.74 \text{ s}$. Looking at the graph, the data point at $20^\circ$ is very close to $1.74 \text{ s}$. 
+3. **Conclusion:** Because the observed data follows a clear linear trend for small angles, the model provides an excellent empirical fit for this specific range.
+
+### Part (b): Accuracy of the model beyond $25^\circ$
+
+**Answer:**
+The accuracy of the linear model will **decrease significantly** as the angle increases beyond $25^\circ$. 
+
+**Justification:**
+The true physical relationship for time of flight on level ground is derived from the vertical component of motion:
+$$t = \frac{2v_0 \sin\theta}{g}$$
+The linear model $t = k\theta$ assumes $t$ is directly proportional to the angle, but the actual relationship involves the $\sin\theta$ function. For small angles, $\sin\theta \approx \theta$ (in radians), which is why the linear approximation works for small values. However, as $\theta$ increases, $\sin\theta$ increases more slowly than $\theta$ itself (the function "flattens out"). Furthermore, at $90^\circ$, the linear model would predict $t = 0.087 \times 90 = 7.83 \text{ s}$, whereas the actual time would be $t = \frac{2 \times 25 \times \sin(90^\circ)}{9.8} \approx 5.1 \text{ s}$. Thus, the linear model will increasingly overestimate the time of flight.
+
+***
+
+### Explanation of how to solve:
+1. **For Part (a):** Look for evidence of a linear relationship (a straight line of best fit through the origin). Calculate the predicted value using the provided $k$ and compare it to a specific point on the graph to demonstrate agreement.
+2. **For Part (b):** Recognise that linear models in physics are often "small-angle approximations." Recall or derive the standard kinematics formula for time of flight ($t = \frac{2v \sin\theta}{g}$). Contrast the linear growth of the student's model with the trigonometric growth of the physical model to explain the divergence.
+
+###QUESTION_TYPE
+Data analysis questions

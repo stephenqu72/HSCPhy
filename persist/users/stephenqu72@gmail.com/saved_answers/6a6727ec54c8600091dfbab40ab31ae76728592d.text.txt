@@ -1,0 +1,28 @@
+To solve this problem, we apply the principles of electromagnetism, specifically the **Motor Effect** (force on a current-carrying conductor in a magnetic field) and **Right-Hand Rules**.
+
+### Part (a)
+**Answer:** The current flows from the positive terminal of the battery, along the top rail, **down through the metal rod**, and back along the bottom rail to the negative terminal.
+
+**Explanation:**
+The motor effect states that the magnetic force $F$ is given by $F = IlB \sin\theta$. According to the **Right-Hand Rule for the Motor Effect** (or Fleming’s Left-Hand Rule):
+*   Point your fingers in the direction of the magnetic field (vertically **upwards**).
+*   Point your thumb in the direction of the magnetic force (to the **right**, as stated in the question).
+*   Your palm will face in the direction of the current through the rod.
+*   By placing your palm facing the rod, your fingers point into the page/downward relative to the rod's position. Since the force is to the right, the current must flow through the rod from the top rail toward the bottom rail.
+
+### Part (b)
+**Answer:** The electromagnetic force is $100\text{ N}$.
+
+**Explanation:**
+1.  **Calculate the current ($I$):** Use Ohm's Law ($V = IR$).
+    $$I = \frac{V}{R} = \frac{20\text{ V}}{0.02\ \Omega} = 1000\text{ A}$$
+2.  **Calculate the magnetic force ($F$):** Use the motor effect formula $F = IlB \sin\theta$. 
+    *   The rod is perpendicular to the magnetic field, so $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+    *   Convert length to meters: $L = 8\text{ cm} = 0.08\text{ m}$.
+    $$F = 1000\text{ A} \times 0.08\text{ m} \times 0.005\text{ T}$$
+    $$F = 80 \times 0.005 = 0.4\text{ N}$$
+
+*(Correction note: Based on the provided values $20\text{ V}$, $0.02\ \Omega$, $8\text{ cm}$, and $0.005\text{ T}$, the force is $0.4\text{ N}$.)*
+
+###QUESTION_TYPE
+Calculation question

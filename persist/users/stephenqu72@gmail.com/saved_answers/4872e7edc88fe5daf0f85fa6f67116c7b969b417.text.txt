@@ -1,0 +1,49 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this classic orbital mechanics problem. These questions test your ability to bridge the gap between graphical data and fundamental physics formulas.
+
+---
+
+### Part (a)
+**Question:** Determine the gravitational force acting on *Juno* by Jupiter at $r = 2.0 \times 10^8 \text{ m}$.
+
+**Solution:**
+The gravitational force $F$ is related to the gravitational field strength $g$ by the formula $F = mg$.
+1. From the graph, at $r = 2.0 \times 10^8 \text{ m}$, the gravitational field strength $g = 3 \text{ N kg}^{-1}$.
+2. The mass of *Juno* ($m$) is $1500 \text{ kg}$.
+3. $F = 1500 \times 3 = 4500 \text{ N}$.
+
+**Answer:** The gravitational force is $4.5 \times 10^3 \text{ N}$.
+
+---
+
+### Part (b)
+**Question:** Determine the change in gravitational potential energy ($\Delta U$) as *Juno* moves from $r_1 = 2.0 \times 10^8 \text{ m}$ to $r_2 = 1.0 \times 10^8 \text{ m}$.
+
+**Solution:**
+The change in gravitational potential energy is defined as the area under the force-distance graph, or $\Delta U = - \int_{r_1}^{r_2} F(r) \, dr$. Since $F = mg(r)$, we can treat the area under the $g(r)$ graph as the change in gravitational potential per unit mass ($\Delta V = \Delta U / m$).
+1. Calculate the area under the curve between $1.0$ and $2.0$ on the x-axis ($10^8 \text{ m}$). By counting squares or using integration (the curve follows $g = k/r^2$), we estimate the average $g$ or use the formula $U = -G M m / r$.
+2. $\Delta U = U_2 - U_1 = (-G M m / r_2) - (-G M m / r_1)$.
+3. Using $G = 6.67 \times 10^{-11}$, $M = 1.90 \times 10^{27}$, $m = 1500$:
+   $U_2 = -(6.67 \times 10^{-11} \times 1.90 \times 10^{27} \times 1500) / (1.0 \times 10^8) = -1.90 \times 10^{12} \text{ J}$.
+   $U_1 = -(6.67 \times 10^{-11} \times 1.90 \times 10^{27} \times 1500) / (2.0 \times 10^8) = -0.95 \times 10^{12} \text{ J}$.
+4. $\Delta U = -1.90 \times 10^{12} - (-0.95 \times 10^{12}) = -0.95 \times 10^{12} \text{ J}$.
+The magnitude is $9.5 \times 10^{11} \text{ J}$.
+
+---
+
+### Part (c)
+**Question:** Calculate the period of Europa's orbit ($r = 6.70 \times 10^8 \text{ m}$).
+
+**Solution:**
+We use Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+1. Rearrange for $T$: $T = \sqrt{\frac{4\pi^2 r^3}{GM}}$
+2. Substitute the values:
+   $T = \sqrt{\frac{4 \times \pi^2 \times (6.70 \times 10^8)^3}{6.67 \times 10^{-11} \times 1.90 \times 10^{27}}}$
+3. $T = \sqrt{\frac{39.478 \times 3.007 \times 10^{26}}{1.267 \times 10^{17}}} = \sqrt{9.37 \times 10^9} \approx 96,800 \text{ seconds}$.
+4. Converting to hours: $96800 / 3600 \approx 26.9 \text{ hours}$.
+
+**Answer:** The period is approximately $9.7 \times 10^4 \text{ s}$ (or $\approx 27 \text{ hours}$).
+
+---
+
+###QUESTION_TYPE
+Calculation question

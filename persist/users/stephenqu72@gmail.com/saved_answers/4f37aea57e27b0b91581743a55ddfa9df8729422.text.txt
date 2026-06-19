@@ -1,0 +1,26 @@
+To determine which particle will experience the greatest acceleration upwards, we must analyze the forces acting on the particle within the electric field.
+
+### 1. Direction of Force
+The electric field lines point downwards, which indicates the top plate is positive and the bottom plate is negative. An electric force $F = qE$ acts on a charge $q$ in an electric field $E$. 
+*   To experience an **upwards** force, the particle must be **negatively charged** (as it will be attracted to the positive top plate).
+*   Looking at our options:
+    *   (A) Electron: Negative charge ($-e$) $\rightarrow$ experiences an upward force.
+    *   (B) Proton: Positive charge ($+e$) $\rightarrow$ experiences a downward force.
+    *   (C) Alpha particle: Positive charge ($+2e$) $\rightarrow$ experiences a downward force.
+    *   (D) Chloride ion ($Cl^-$): Negative charge ($-e$) $\rightarrow$ experiences an upward force.
+
+### 2. Magnitude of Acceleration
+Using Newton's Second Law, $F = ma$, and the electric force equation $F = qE$, we can equate them:
+$$qE = ma$$
+$$a = \frac{qE}{m}$$
+
+To find the greatest acceleration, we look for the highest charge-to-mass ratio ($q/m$).
+*   **For the electron:** The mass is very small ($m_e \approx 9.11 \times 10^{-31} \text{ kg}$).
+*   **For the chloride ion ($Cl^-$):** Although it has the same magnitude of charge as an electron ($e$), its mass is vastly larger because it contains a nucleus with 17 protons and 18 neutrons (a mass approximately $65,000$ times greater than an electron).
+
+Since $a$ is inversely proportional to $m$, the particle with the smallest mass will have the greatest acceleration for a given charge magnitude. The electron has a significantly smaller mass than the chloride ion, therefore the electron will experience the greatest upward acceleration.
+
+**Correct Answer: (A) An electron**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+To find the answer, we use the formula for the force per unit length between two parallel current-carrying wires:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the forces on wire $Y$:**
+    Wire $Y$ experiences a force $F_X$ from wire $X$ and a force $F_Z$ from wire $Z$. The total force is the vector sum of these two forces: $F_{total} = F_X + F_Z$.
+    Based on the formula, the magnitude of the force on wire $Y$ is proportional to the product of the currents:
+    *   $F_X \propto I_X \cdot I_Y$
+    *   $F_Z \propto I_Z \cdot I_Y$
+
+2.  **Analyze the initial state:**
+    Let the initial currents be $I_X = 2A$, $I_Y = 4A$, and $I_Z = 3A$.
+    The total force $F$ is:
+    $$F = k \left( \frac{I_X \cdot I_Y}{d} + \frac{I_Z \cdot I_Y}{2d} \right)$$
+    where $k$ is a constant incorporating $\frac{\mu_0}{2\pi}$.
+
+3.  **Analyze the new state:**
+    The problem states that the currents in $X$ and $Z$ are doubled ($I'_X = 2I_X$ and $I'_Z = 2I_Z$), while $I_Y$ and the distances $d$ and $2d$ remain unchanged.
+    The new force $F'$ is:
+    $$F' = k \left( \frac{(2I_X) \cdot I_Y}{d} + \frac{(2I_Z) \cdot I_Y}{2d} \right)$$
+
+4.  **Compare $F'$ and $F$:**
+    Factor out the $2$ from the expression for $F'$:
+    $$F' = 2 \cdot k \left( \frac{I_X \cdot I_Y}{d} + \frac{I_Z \cdot I_Y}{2d} \right)$$
+    Substituting the expression for the original force $F$:
+    $$F' = 2F$$
+
+By doubling the currents in wires $X$ and $Z$ while keeping all other variables constant, the force exerted on wire $Y$ by each wire doubles, thereby doubling the total resultant force.
+
+**Correct Option: (C) It will double to $2F$.**
+
+###QUESTION_TYPE
+Multiple choice

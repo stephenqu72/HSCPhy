@@ -1,0 +1,25 @@
+### Answer
+
+**(a) Account for the pattern of this recorded data.**
+
+The oil drops exhibit quantization of charge. The data points do not fall randomly; instead, they cluster around specific values that are integer multiples of a base value. Specifically, the masses (and consequently the charges, since $q = \frac{mg}{E}$) are multiples of approximately $1.6 \times 10^{-15} \text{ kg}$. This demonstrates that the charge on the oil drops is not continuous but exists in discrete packets, providing evidence for the Millikan oil drop experiment's conclusion that electric charge is quantized.
+
+**(b) Using the data provided, estimate the electric field strength used in this experiment, stating any assumptions you make.**
+
+To find the electric field strength $E$, we use the equilibrium condition for the oil drop: $mg = qE$, where $q = ne$ (where $n$ is an integer and $e$ is the elementary charge, $1.6 \times 10^{-19} \text{ C}$).
+Rearranging for the field: $E = \frac{mg}{ne}$.
+
+1.  **Assumptions:** We assume the drops are in equilibrium (stationary) due to the electric force balancing gravity, air resistance is negligible, and gravity $g = 9.8 \text{ m/s}^2$. We also identify the smallest mass value ($1.6 \times 10^{-15} \text{ kg}$) as corresponding to the smallest unit of charge ($n=1$).
+2.  **Calculation:**
+    Using the lowest mass value $m = 1.6 \times 10^{-15} \text{ kg}$:
+    $$E = \frac{1.6 \times 10^{-15} \text{ kg} \times 9.8 \text{ m/s}^2}{1 \times 1.6 \times 10^{-19} \text{ C}}$$
+    $$E = \frac{1.568 \times 10^{-14}}{1.6 \times 10^{-19}} \approx 9.8 \times 10^4 \text{ V/m}$$
+
+---
+
+### How to solve this
+1.  **For part (a):** Look for "steps" in the data. If you divide the masses ($1.6, 3.2, 4.8, 6.4, 8.0, 9.6 \dots$) by $1.6$, you get integer results ($1, 2, 3, 4, 5, 6$). Recognizing this mathematical relationship identifies the data as experimental proof of charge quantization.
+2.  **For part (b):** Connect the physics concept of the Millikan experiment. At equilibrium, the electric force ($F_e = qE$) equals the gravitational force ($F_g = mg$). Since charge is quantized, the smallest observed "step" in mass must correspond to the smallest possible charge (the elementary charge). Calculate $E$ by plugging in these constants.
+
+###QUESTION_TYPE
+Data analysis questions

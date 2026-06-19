@@ -1,0 +1,38 @@
+To solve this problem, we must apply the principles of energy conservation in an electric field and the mechanics of circular motion in a magnetic field.
+
+### 1. Step-by-Step Solution
+
+**Step 1: Calculate the velocity of the proton exiting the electric field.**
+The work done on the proton by the electric field equals its change in kinetic energy. Since the proton starts from rest:
+$$qV = \frac{1}{2}mv^2$$
+Rearranging for velocity $v$:
+$$v = \sqrt{\frac{2qV}{m}}$$
+Using standard values for a proton ($q = 1.602 \times 10^{-19}\text{ C}$, $m = 1.673 \times 10^{-27}\text{ kg}$) and $V = 10,000\text{ V}$:
+$$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19}) \times 10,000}{1.673 \times 10^{-27}}} \approx 1.383 \times 10^6\text{ m/s}$$
+
+**Step 2: Calculate the radius of curvature in the magnetic field.**
+When the proton enters the magnetic field, the magnetic force acts as the centripetal force:
+$$F_B = F_c \implies qvB = \frac{mv^2}{r}$$
+Solving for the radius $r$:
+$$r = \frac{mv}{qB}$$
+Substitute the expression for $v$ from Step 1 into this equation:
+$$r = \frac{m}{qB} \sqrt{\frac{2qV}{m}} = \frac{1}{B} \sqrt{\frac{2mV}{q}}$$
+
+**Step 3: Calculate the final numerical value.**
+Using $B = 2.0 \times 10^{-2}\text{ T}$:
+$$r = \frac{1}{2.0 \times 10^{-2}} \sqrt{\frac{2 \times (1.673 \times 10^{-27}) \times 10,000}{1.602 \times 10^{-19}}}$$
+$$r = 50 \times \sqrt{2.088 \times 10^{-4}} \approx 50 \times 0.01445$$
+$$r \approx 0.7225\text{ m}$$
+
+Rounding to two significant figures (as per the given values):
+**The radius of curvature is $0.72\text{ m}$.**
+
+---
+
+### 2. Explanation of the Method
+*   **Energy Conservation:** We assume all electric potential energy is converted into kinetic energy because the proton starts with negligible velocity. 
+*   **Circular Motion:** Because the magnetic field is perpendicular to the velocity, the proton undergoes uniform circular motion. The magnetic force ($qvB$) provides the required centripetal force ($\frac{mv^2}{r}$).
+*   **Mathematical shortcut:** By substituting the energy equation into the radius equation, we simplify the calculation and reduce the potential for rounding errors.
+
+###QUESTION_TYPE
+Calculation question

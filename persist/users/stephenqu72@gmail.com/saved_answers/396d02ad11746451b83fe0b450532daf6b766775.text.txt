@@ -1,0 +1,20 @@
+### Answer
+Low Earth Orbit (LEO) satellites are used extensively despite their drawbacks primarily because they are much closer to the Earth's surface compared to satellites in higher orbits (such as Geostationary Earth Orbit). This proximity provides two major technical advantages:
+
+1.  **Reduced Signal Latency:** Because the distance the signal must travel is significantly shorter, the time delay (latency) for communication is minimized, making them ideal for high-speed internet and real-time telecommunications.
+2.  **Higher Resolution and Sensitivity:** Their closeness allows for higher resolution Earth observation (imaging) and more sensitive remote sensing data collection, as the signal-to-noise ratio is improved and the satellite can capture more detailed data of the Earth's surface.
+
+---
+
+### How to solve this
+To achieve full marks (2 marks) for this HSC-style physics question, you need to provide a clear causal link between the **position** of the satellite and the **benefit** provided.
+
+*   **Deconstruct the question:** You are asked to justify the *use* of LEO satellites despite the *disadvantages* (decay, lifespan, maintenance). Therefore, you must focus on the unique *advantages* that only a low orbit can provide.
+*   **Identify key concepts:** The core physics principle here is the relationship between orbital altitude ($h$) and communication/observation quality. Since $h$ is low, the distance to the Earth ($d \approx h$) is small.
+*   **Structure your answer:** 
+    *   **Point 1 (Communication):** Mention reduced signal delay (latency) due to the shorter distance. This is vital for modern telecommunications.
+    *   **Point 2 (Observation):** Mention higher image resolution or stronger signal strength for sensing. Because the satellite is closer, it can resolve smaller details on the ground and requires less power for transmission compared to a satellite in a higher orbit.
+*   **HSC Tip:** Always ensure you explicitly state *why* the low orbit leads to the benefit. Don't just list a feature; explain the connection.
+
+### QUESTION_TYPE
+Short answer

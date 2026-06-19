@@ -1,0 +1,31 @@
+To calculate the charge-to-mass ratio ($q/m$), we must use the two scenarios provided to find the electron's velocity ($v$) and then the ratio itself.
+
+### 1. Find the velocity ($v$)
+When the electrons travel in a straight line, the electric force ($F_E = qE$) is perfectly balanced by the magnetic force ($F_B = qvB$):
+$$qE = qvB \implies v = \frac{E}{B}$$
+The electric field $E$ between the plates is $E = V/d$, where $V = 100\text{ V}$ and $d = 0.050\text{ m}$.
+$$E = \frac{100}{0.050} = 2000\text{ V/m}$$
+Given $B = 4.8 \times 10^{-4}\text{ T}$:
+$$v = \frac{2000}{4.8 \times 10^{-4}} \approx 4.167 \times 10^6\text{ m/s}$$
+
+### 2. Find the charge-to-mass ratio ($q/m$)
+When the magnetic field is turned off, the electrons experience only an electric force, causing vertical acceleration. The vertical deflection angle $\theta = 30^\circ$ is given by:
+$$\tan(\theta) = \frac{v_y}{v_x}$$
+Since $v_x = v$ (constant) and $v_y = a_y t$, where $a_y = \frac{F_E}{m} = \frac{qV}{md}$ and $t = \frac{L}{v}$ (where $L = 0.028\text{ m}$ is the plate length):
+$$\tan(\theta) = \frac{(\frac{qV}{md}) \cdot (\frac{L}{v})}{v} = \frac{qVL}{mdv^2}$$
+Rearranging for $q/m$:
+$$\frac{q}{m} = \frac{dv^2 \tan(\theta)}{VL}$$
+Substitute the known values:
+$$\frac{q}{m} = \frac{0.050 \times (4.167 \times 10^6)^2 \times \tan(30^\circ)}{100 \times 0.028}$$
+$$\frac{q}{m} = \frac{0.050 \times 1.736 \times 10^{13} \times 0.577}{2.8}$$
+$$\frac{q}{m} \approx 1.79 \times 10^{11}\text{ C/kg}$$
+
+***
+
+### Explanation of the approach
+1. **Unbalanced vs. Balanced:** In the first part, the electron path is undeflected because the Lorentz force is zero ($F_{net}=0$). This allows us to isolate $v$ as a function of the known fields $E$ and $B$.
+2. **Projectile Motion:** In the second part, the electron acts like a projectile in a uniform field. The horizontal velocity remains constant, while the vertical acceleration is determined by the electric force. Using the tangent of the deflection angle allows us to relate the vertical component of the velocity to the horizontal component, effectively canceling out the time variable.
+3. **Algebraic substitution:** Finally, we substitute the $v$ derived from the first scenario into the kinematics equation of the second to solve for the target ratio $q/m$.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,25 @@
+To determine the speed of an electron passing through crossed electric and magnetic fields without deflection, we must recognize that the net force on the electron is zero. This means the magnitude of the electric force ($F_E$) must exactly balance the magnitude of the magnetic force ($F_B$).
+
+### Step-by-Step Solution:
+
+1.  **Identify the forces:**
+    *   The electric force is given by $F_E = qE$, where $q$ is the charge of the electron and $E$ is the electric field strength.
+    *   The magnetic force is given by $F_B = qvB$, where $v$ is the velocity of the electron and $B$ is the magnetic field strength.
+    *   For no deflection, $F_E = F_B$, so $qE = qvB$.
+    *   Canceling $q$ gives the condition: $v = \frac{E}{B}$.
+
+2.  **Calculate the electric field ($E$):**
+    The electric field between parallel plates is $E = \frac{V}{d}$, where $V$ is the potential difference and $d$ is the distance between plates.
+    *   $V = 400 \text{ V}$
+    *   $d = 20.0 \text{ mm} = 0.020 \text{ m}$
+    *   $E = \frac{400}{0.020} = 2.0 \times 10^4 \text{ V/m}$
+
+3.  **Calculate the velocity ($v$):**
+    Using $B = 8.0 \times 10^{-3} \text{ T}$:
+    $$v = \frac{E}{B} = \frac{2.0 \times 10^4}{8.0 \times 10^{-3}}$$
+    $$v = 0.25 \times 10^7 = 2.5 \times 10^6 \text{ m/s}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

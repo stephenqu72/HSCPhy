@@ -1,0 +1,19 @@
+To solve this problem, we must analyze the physics of projectile motion.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+When a projectile is thrown, it is subject to a constant gravitational acceleration $g$ acting downwards throughout its entire flight. 
+
+1.  **Understanding the "Highest Point":** At the very top of the trajectory, the stone is momentarily changing direction from moving upwards to moving downwards. At this specific instant, its vertical velocity $v_y$ is indeed $0 \text{ m/s}$. 
+2.  **Evaluating the Options:**
+    *   **(A) is incorrect:** The acceleration due to gravity is $9.8 \text{ m/s}^2$ downward at all times during the flight, including at the peak.
+    *   **(B) is correct:** Since the only force acting on the stone (ignoring air resistance) is its weight, the net force is $F_{net} = mg$. This force remains constant throughout the entire flight, including at the highest point. While the vertical *velocity* is zero, the vertical *acceleration* is not, and the net force is certainly not zero.
+    *   **(C) is incorrect:** While some kinetic energy has been converted, the stone still possesses kinetic energy at the highest point because it maintains its horizontal velocity component ($v_x = v \cos 25^\circ$). Therefore, not all kinetic energy is converted to potential energy.
+    *   **(D) is incorrect:** As established in (B), the gravitational force is still acting on the stone at the highest point; therefore, there is a non-zero net force.
+
+**Why the vertical velocity is zero:** The stone's vertical velocity becomes zero because the downward gravitational force continuously opposes the initial upward vertical component of the velocity, eventually bringing it to a momentary halt in the vertical plane before accelerating it back downward.
+
+### QUESTION_TYPE
+Multiple choice

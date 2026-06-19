@@ -1,0 +1,31 @@
+To solve this problem, we must identify the physics principles governing an object at the top of a vertical circular path.
+
+### Explanation
+
+When the motorcycle is at the very top of the vertical loop, two forces are acting on it:
+1.  **Gravity ($mg$)**: Pulling downward.
+2.  **Normal force ($N$)**: The contact force from the track, also acting downward.
+
+The net force acting toward the center of the circle is the centripetal force ($F_c$), given by:
+$$F_c = \frac{mv^2}{r}$$
+
+At the **minimum speed** required to maintain contact with the track, the normal force $N$ effectively drops to zero (the motorcycle is "weightless" at the peak). At this point, gravity alone provides the necessary centripetal force:
+$$mg = \frac{mv^2}{r}$$
+
+We can cancel the mass $m$ from both sides, showing that the minimum speed is independent of the mass:
+$$g = \frac{v^2}{r}$$
+
+Now, rearrange the formula to solve for velocity $v$:
+$$v = \sqrt{gr}$$
+
+Using standard gravity $g = 9.8 \, \text{m s}^{-2}$ and the given radius $r = 4.2 \, \text{m}$:
+$$v = \sqrt{9.8 \times 4.2}$$
+$$v = \sqrt{41.16}$$
+$$v \approx 6.415... \, \text{m s}^{-1}$$
+
+Comparing this to the provided options, $6.4 \, \text{m s}^{-1}$ is the correct choice.
+
+**Correct Answer:** C
+
+### QUESTION_TYPE
+Multiple choice

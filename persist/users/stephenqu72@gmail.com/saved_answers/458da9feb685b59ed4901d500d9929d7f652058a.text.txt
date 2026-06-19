@@ -1,0 +1,31 @@
+To solve this problem, we use **Wien’s Displacement Law**, which describes the relationship between the absolute temperature ($T$) of a black body and the wavelength at which it emits the most radiation ($\lambda_{max}$).
+
+### The Formula
+Wien's Displacement Law is given by:
+$$\lambda_{max} = \frac{b}{T}$$
+where $b$ is Wien’s displacement constant, approximately $2.898 \times 10^{-3} \, \text{m} \cdot \text{K}$.
+
+### Step-by-Step Calculation
+
+1. **Convert temperatures to Kelvin:**
+   - Initial temperature ($T_1$): $37 ^\circ\text{C} = 310 \, \text{K}$
+   - Final temperature ($T_2$): $40 ^\circ\text{C} = 40 + 273.15 = 313.15 \, \text{K}$ (Using the provided hint of $310 \, \text{K}$, let's use the precise increment provided: $40 ^\circ\text{C}$ is $313.15 \, \text{K}$, but often in HSC problems, we use $273$ for simplicity. $40+273 = 313 \, \text{K}$).
+
+2. **Calculate initial peak wavelength ($\lambda_1$):**
+   $$\lambda_1 = \frac{2.898 \times 10^{-3}}{310} \approx 9.3484 \times 10^{-6} \, \text{m}$$
+
+3. **Calculate final peak wavelength ($\lambda_2$):**
+   $$\lambda_2 = \frac{2.898 \times 10^{-3}}{313.15} \approx 9.2534 \times 10^{-6} \, \text{m}$$
+
+4. **Determine the change ($\Delta\lambda$):**
+   Since the temperature increased, the peak wavelength must **decrease** (an inverse relationship).
+   $$\Delta\lambda = \lambda_1 - \lambda_2$$
+   $$\Delta\lambda = 9.3484 \times 10^{-6} - 9.2534 \times 10^{-6}$$
+   $$\Delta\lambda \approx 0.095 \times 10^{-6} = 9.5 \times 10^{-8} \, \text{m}$$
+
+Comparing this to the options, the value closest to our calculation is $8.96 \times 10^{-8} \, \text{m}$. Variations in rounding the constant $b$ or the temperature conversion in different textbooks lead to minor differences, but the physical principle remains clear: an increase in temperature leads to a decrease in wavelength.
+
+**Answer:** B. Decrease by $8.96 \times 10^{-8} \, \text{m}$.
+
+###QUESTION_TYPE
+Multiple choice

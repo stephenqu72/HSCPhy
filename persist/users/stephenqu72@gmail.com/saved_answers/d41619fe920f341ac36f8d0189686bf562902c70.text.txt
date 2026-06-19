@@ -1,0 +1,29 @@
+To solve this problem, we use the formula for the magnetic force on a current-carrying conductor:
+
+$$F = BIl \sin(\theta)$$
+
+### Step 1: Identify the given values
+*   Magnetic field strength, $B = 1.0\text{ T}$
+*   Current, $I = 2\text{ A}$
+*   Length of the conductor, $l = 5.0\text{ cm} = 0.05\text{ m}$ (remember to convert to SI units)
+*   Angle, $\theta = 60^\circ$
+
+### Step 2: Calculate the magnitude of the force
+Substitute the values into the formula:
+$$F = 1.0 \times 2 \times 0.05 \times \sin(60^\circ)$$
+$$F = 0.1 \times \frac{\sqrt{3}}{2}$$
+$$F \approx 0.1 \times 0.866$$
+$$F \approx 0.0866\text{ N}$$
+
+Rounding to two significant figures, we get $0.087\text{ N}$.
+
+### Step 3: Determine the direction
+Using the Right-Hand Palm Rule:
+1.  Point your **thumb** in the direction of the conventional current ($+$ to $-$), which is down and to the right.
+2.  Point your **fingers** in the direction of the magnetic field ($N$ to $S$), which is to the right.
+3.  Your **palm** (or the resulting force vector) will face **into the page**.
+
+Matching this with the options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

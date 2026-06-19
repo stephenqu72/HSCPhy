@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### (a) Derive an equation for the orbital velocity $v$
+To find the orbital velocity, we equate the centripetal force required to keep the satellite in orbit to the gravitational force acting on it. Let $m$ be the mass of the satellite, $M$ the mass of the planet, $r$ the orbital radius, and $v$ the velocity.
+
+1. Set the forces equal:
+   $$\frac{mv^2}{r} = \frac{GmM}{r^2}$$
+2. Cancel $m$ from both sides and multiply by $r$:
+   $$v^2 = \frac{GM}{r}$$
+3. Take the square root:
+   $$v = \sqrt{\frac{GM}{r}}$$
+
+---
+
+#### (b) Show that the total energy is half the gravitational potential energy
+1. The Gravitational Potential Energy ($U$) is:
+   $$U = -\frac{GmM}{r}$$
+2. The Kinetic Energy ($K$) is:
+   $$K = \frac{1}{2}mv^2$$
+3. Substitute $v^2 = \frac{GM}{r}$ (from part a) into the kinetic energy equation:
+   $$K = \frac{1}{2}m\left(\frac{GM}{r}\right) = \frac{GmM}{2r}$$
+4. The Total Energy ($E_T$) is $K + U$:
+   $$E_T = \frac{GmM}{2r} - \frac{GmM}{r} = -\frac{GmM}{2r}$$
+5. Comparing $E_T$ to $U$:
+   $$E_T = \frac{1}{2} \left( -\frac{GmM}{r} \right) = \frac{1}{2}U$$
+
+---
+
+#### (c) Explain why gravitational potential energy is negative
+Gravitational potential energy is defined as the work done by an external agent to bring an object from infinity (where potential energy is zero) to a distance $r$ from the planet. 
+1. Since the gravitational force is attractive, the object "falls" toward the planet.
+2. Because the field does positive work as the object moves from infinity to $r$, the object loses potential energy.
+3. Starting from a reference point of zero at infinity, moving to a closer distance must therefore result in a negative value. It signifies that the object is in a "bound state," meaning energy must be added to the system to remove the satellite to infinity.
+
+###QUESTION_TYPE
+Short answer

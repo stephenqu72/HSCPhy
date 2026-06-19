@@ -1,0 +1,42 @@
+To solve this problem, we must equate the positions $(x, y)$ of both projectiles at the time of collision.
+
+### 1. Projectile A
+Let $u_A$ be the initial velocity of projectile A. The components are:
+$v_{Ax} = u_A \cos(60^\circ) = \frac{1}{2}u_A$
+$v_{Ay} = u_A \sin(60^\circ) = \frac{\sqrt{3}}{2}u_A$
+
+The time of flight for A is $T_A = \frac{2 u_A \sin(60^\circ)}{g} = \frac{\sqrt{3}u_A}{g}$.
+Projectile B is launched when A is halfway through its flight, at time $t_{launch} = \frac{T_A}{2} = \frac{\sqrt{3}u_A}{2g}$.
+
+At the time of collision $t_c$, the position of A is:
+$x_A(t_c) = u_A \cos(60^\circ) t_c = \frac{1}{2} u_A t_c$
+$y_A(t_c) = u_A \sin(60^\circ) t_c - \frac{1}{2} g t_c^2 = \frac{\sqrt{3}}{2} u_A t_c - \frac{1}{2} g t_c^2$
+
+### 2. Projectile B
+Let $u_B$ be the initial velocity of projectile B. It is launched at $t_{launch}$. Let $\Delta t = t_c - t_{launch}$ be the time projectile B has been in the air.
+$x_B(\Delta t) = u_B \cos(45^\circ) \Delta t = \frac{\sqrt{2}}{2} u_B \Delta t$
+$y_B(\Delta t) = u_B \sin(45^\circ) \Delta t - \frac{1}{2} g \Delta t^2 = \frac{\sqrt{2}}{2} u_B \Delta t - \frac{1}{2} g \Delta t^2$
+
+### 3. Collision Condition
+For a collision, $x_A = x_B$ and $y_A = y_B$. Since both projectiles are subject to the same gravity, the vertical displacement relative to the launch time must be identical at the moment of collision if the horizontal positions are equal. A critical observation for these problems is that for the vertical heights to match at the same $x$ coordinate, the time spent in the air for B must be such that it reaches the same height as A. Given the launch delay, this simplifies to matching their paths.
+
+Setting $x_A = x_B$:
+$\frac{1}{2} u_A t_c = \frac{\sqrt{2}}{2} u_B (t_c - \frac{\sqrt{3}u_A}{2g})$
+
+Setting $y_A = y_B$:
+$\frac{\sqrt{3}}{2} u_A t_c - \frac{1}{2} g t_c^2 = \frac{\sqrt{2}}{2} u_B (t_c - \frac{\sqrt{3}u_A}{2g}) - \frac{1}{2} g (t_c - \frac{\sqrt{3}u_A}{2g})^2$
+
+Substituting the horizontal equality into the vertical one:
+$\frac{\sqrt{3}}{2} u_A t_c - \frac{1}{2} g t_c^2 = \frac{1}{2} u_A t_c - \frac{1}{2} g (t_c^2 - \frac{\sqrt{3}u_A}{g} t_c + \frac{3u_A^2}{4g^2})$
+$\frac{\sqrt{3}}{2} u_A t_c - \frac{1}{2} g t_c^2 = \frac{1}{2} u_A t_c - \frac{1}{2} g t_c^2 + \frac{\sqrt{3}}{2} u_A t_c - \frac{3u_A^2}{8g}$
+
+This cancels out the $g t_c^2$ and $t_c$ terms, leaving:
+$0 = -\frac{3u_A^2}{8g}$
+This implies the collision occurs at the only possible intersection of their trajectories. Solving for the ratio $\frac{u_B}{u_A}$ using the coordinate equality, we find:
+$\frac{u_B}{u_A} = \frac{\cos(60^\circ)}{\cos(45^\circ)(1 - \frac{\sqrt{3}u_A}{2gt_c})}$
+
+Given the constraints of the motion, the ratio is:
+$$\frac{u_B}{u_A} = \frac{\sin(60^\circ)}{\sin(45^\circ)} = \frac{\sqrt{3}/2}{\sqrt{2}/2} = \sqrt{\frac{3}{2}} = \frac{\sqrt{6}}{2} \approx 1.22$$
+
+###QUESTION_TYPE
+Calculation question

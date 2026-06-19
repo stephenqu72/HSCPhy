@@ -1,0 +1,34 @@
+To solve this problem, we use the formula for the acceleration due to gravity ($g$) at the surface of a spherical body, which is derived from Newton's Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+where $G$ is the gravitational constant, $M$ is the mass of the planet, and $r$ is the radius of the planet.
+
+### Step-by-Step Solution:
+
+1.  **Define the variables for Earth:**
+    Let the mass of Earth be $M$ and the radius be $r$. The acceleration due to gravity on Earth is:
+    $$g = \frac{GM}{r^2}$$
+
+2.  **Define the variables for Planet Y:**
+    According to the problem, Planet Y has twice the mass ($M_Y = 2M$) and half the radius ($r_Y = \frac{1}{2}r$).
+
+3.  **Substitute these values into the gravity formula for Planet Y ($g_Y$):**
+    $$g_Y = \frac{G \cdot M_Y}{(r_Y)^2}$$
+    $$g_Y = \frac{G \cdot (2M)}{(\frac{1}{2}r)^2}$$
+
+4.  **Simplify the expression:**
+    $$g_Y = \frac{2GM}{\frac{1}{4}r^2}$$
+    Since dividing by $\frac{1}{4}$ is the same as multiplying by $4$:
+    $$g_Y = 4 \cdot \frac{2GM}{r^2}$$
+    $$g_Y = 8 \cdot \left( \frac{GM}{r^2} \right)$$
+
+5.  **Compare to Earth's gravity ($g$):**
+    Since $\frac{GM}{r^2} = g$, we find:
+    $$g_Y = 8g$$
+
+**Answer:**
+The magnitude of the acceleration due to gravity on Planet Y is $8g$. Therefore, the correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

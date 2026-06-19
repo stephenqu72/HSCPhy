@@ -1,0 +1,38 @@
+To solve this problem, we must analyze the forces acting on the charged sphere in equilibrium.
+
+### Step-by-Step Solution:
+
+**1. Identify the given values:**
+*   Charge $q = 2.3 \times 10^{-6}\text{ C}$
+*   Voltage $V = 62\text{ V}$
+*   Distance $d = 3.1\text{ cm} = 0.031\text{ m}$
+*   Angle $\theta = 18^\circ$
+*   Acceleration due to gravity $g \approx 9.8\text{ m/s}^2$
+
+**2. Calculate the electric field ($E$):**
+Between parallel plates, the electric field is uniform and given by:
+$$E = \frac{V}{d} = \frac{62}{0.031} = 2000\text{ N/C}$$
+
+**3. Analyze the forces:**
+The sphere is in equilibrium, so the vector sum of forces is zero. The three forces acting on it are:
+*   Weight ($mg$) acting downwards.
+*   Electric force ($F_E = qE$) acting horizontally.
+*   Tension ($T$) acting along the string at an angle of $18^\circ$ from the vertical.
+
+We can relate these forces using trigonometry:
+$$\tan(\theta) = \frac{F_E}{mg}$$
+Rearranging to solve for mass ($m$):
+$$m = \frac{F_E}{g \cdot \tan(\theta)} = \frac{qE}{g \cdot \tan(\theta)}$$
+
+**4. Perform the calculation:**
+$$m = \frac{(2.3 \times 10^{-6}) \times 2000}{9.8 \times \tan(18^\circ)}$$
+$$m = \frac{0.0046}{9.8 \times 0.3249}$$
+$$m \approx \frac{0.0046}{3.184} \approx 0.0014446\text{ kg}$$
+
+Converted to grams:
+$$m \approx 1.44\text{ g}$$
+
+**Answer:** The mass of the sphere is approximately $1.44 \times 10^{-3}\text{ kg}$ or $1.44\text{ g}$.
+
+###QUESTION_TYPE
+Calculation question

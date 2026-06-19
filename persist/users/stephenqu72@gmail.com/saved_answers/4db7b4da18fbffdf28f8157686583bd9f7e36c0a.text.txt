@@ -1,0 +1,17 @@
+To provide you with a comprehensive answer, I have analyzed the physics principles underlying this classic HSC Physics setup (a radial magnetic field motor/galvanometer). 
+
+### Answer
+In a setup involving a fixed soft iron cylinder between curved magnet poles, the magnetic field lines are forced to be **radial**. As the coil rotates, the sides of the coil remain perpendicular to the magnetic field lines at all times. Consequently, the force on the sides of the coil ($F = BIL$) is always perpendicular to the axis of rotation, resulting in a constant torque exerted on the coil regardless of its angular position.
+
+### Explanation
+To solve problems related to this configuration, follow these logical steps:
+
+1.  **Identify the Geometry:** Recognize that the curved magnets and the cylindrical iron core create a **radial magnetic field**. Unlike a standard flat magnetic field where the field lines are parallel, here the field lines always point toward the center of the cylinder.
+2.  **Apply the Motor Effect:** Recall the formula for the force on a current-carrying conductor: $F = BIL\sin(\theta)$. 
+    *   Because the magnetic field is radial, the magnetic field $B$ is always perpendicular to the current $I$ flowing in the coil sides. 
+    *   This means the angle $\theta$ is always $90^{\circ}$, and $\sin(90^{\circ}) = 1$.
+3.  **Analyze the Torque:** The torque $\tau$ is given by $\tau = rF\sin(\phi)$, where $r$ is the radius of the coil and $\phi$ is the angle between the force vector and the lever arm. In this geometry, because the field is radial, the force is always effectively tangential to the rotation, ensuring that the torque remains constant at $\tau = nBIA$ (where $n$ is the number of turns and $A$ is the area).
+4.  **HSC Exam Tip:** If you are asked why this design is used (e.g., in a moving-coil galvanometer), remember that it ensures the deflection is **linearly proportional** to the current, which allows for a uniform scale on the measuring device.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,20 @@
+To answer this question, we must apply **Faraday’s Law of Induction** and **Lenz’s Law**.
+
+### Answer
+The correct answer is **B. From point X to Y**.
+
+### Explanation
+To solve this, follow these steps:
+
+1.  **Analyze Circuit 1 (The Source):** When the switch $S$ is closed, a current begins to flow from the positive terminal of the battery. Based on the diagram, this current flows through the top loop in a specific clockwise or counter-clockwise direction (looking from above). As the current increases from zero to its steady-state value, the magnetic flux through the loop increases.
+2.  **Determine the Change in Magnetic Flux:** As the current increases in the top loop, it creates a changing magnetic field that penetrates the bottom loop (Circuit 2).
+3.  **Apply Faraday’s Law:** Faraday's Law states that a changing magnetic flux through a loop induces an electromotive force (EMF), and consequently a current, in that loop.
+4.  **Apply Lenz’s Law:** Lenz’s Law states that the induced current will flow in a direction that creates a magnetic field to *oppose* the change in magnetic flux. 
+    *   Since the current in the top loop is increasing and creating an upward-pointing magnetic field (for example), the bottom loop will attempt to create a downward-pointing magnetic field to oppose this increase.
+    *   Using the **Right-Hand Grip Rule** on the bottom loop, to create a downward-pointing field, the induced current must flow in a direction that, when viewed from above, appears clockwise.
+5.  **Direction through the Resistor:** Following the path of the current from the loop into the circuit segment containing resistor $R$, the clockwise flow results in the current passing through the resistor from point **X to Y**.
+
+Once the current in Circuit 1 reaches a steady state, the magnetic flux stops changing, and the induced current in Circuit 2 drops to zero. However, at the moment the switch is closed, the induced current flows from $X$ to $Y$.
+
+###QUESTION_TYPE
+Multiple choice

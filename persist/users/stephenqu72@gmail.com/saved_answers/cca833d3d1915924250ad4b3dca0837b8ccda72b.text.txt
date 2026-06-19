@@ -1,0 +1,26 @@
+To solve this problem, we must apply the principles of electromagnetic force between parallel current-carrying wires.
+
+### 1. Understanding the Initial State
+The force per unit length between two parallel wires is given by the formula:
+$$ \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2 \pi d} $$
+In the initial state, the currents flow in **opposite directions** (Wire $X$ to the left, Wire $Y$ to the right). Parallel wires with currents in opposite directions exert a **repulsive force** on each other. Thus, Wire $X$ pushes Wire $Y$ downwards (as shown by vector $F$), and by Newton's Third Law, Wire $Y$ pushes Wire $X$ upwards with an equal magnitude.
+
+### 2. Analyzing the Changes
+*   **Current in Wire $X$:** Remains $I$.
+*   **Current in Wire $Y$:** Doubled to $2I$ and its direction is reversed.
+*   **New Direction:** Wire $X$ current is to the left, and Wire $Y$ current is now also to the left. Since the currents are now in the **same direction**, the force becomes **attractive**.
+*   **New Magnitude:** Since the force is proportional to the product of the currents ($I_X \times I_Y$), the new force magnitude will be $I \times 2I = 2 \times (\text{initial force})$. 
+
+### 3. Determining the Direction for Wire $X$
+Because the wires now attract each other, Wire $Y$ will pull Wire $X$ **downwards**. 
+Regarding the magnitude, because the force is doubled, the arrow representing the new force on Wire $X$ must be **longer** than the original vector $F$.
+
+*   Comparing the options:
+    *   A and B show vectors of the same length as the original $F$.
+    *   C and D show vectors that are twice as long as the original $F$.
+    *   Since the force on Wire $X$ is now attractive (pulling it toward Wire $Y$), the direction is **downward**.
+
+The correct vector is **C**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+To solve this problem, we need to apply the physics of charged particles moving in a magnetic field.
+
+### Answer
+When the particles enter the magnetic field, they will both move in circular paths but in opposite directions due to their opposite charges. 
+
+1.  **The Positron (positive charge):** Using the right-hand rule (or Fleming's Left-Hand Rule for positive charges), point your fingers in the direction of velocity (right) and curl them into the page (since the dots represent a magnetic field coming *out* of the page, the force is directed perpendicular to both). Specifically: with fingers pointing right and palm facing the dots (to catch the field coming *out*), the thumb points **down**. The positron will curve **downwards** in a circular arc.
+2.  **The Electron (negative charge):** The electron has the same mass and magnitude of charge as the positron but is negatively charged. The force on a negative charge is exactly opposite to the force on a positive charge. Therefore, the electron will curve **upwards** in a circular arc of the same radius.
+
+### How to solve it
+To approach this question for full marks in an HSC exam, follow these steps:
+
+1.  **Identify the field direction:** The dots represent a magnetic field ($B$) pointing **out of the page**.
+2.  **Identify the force:** The magnetic force $F$ on a moving charge $q$ is given by the formula $F = qvB\sin(\theta)$. Since the velocity $v$ and the magnetic field $B$ are perpendicular, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$, the force is at its maximum magnitude perpendicular to both $v$ and $B$.
+3.  **Apply the Right-Hand Rule (RHR):**
+    *   For the **positron** ($q > 0$): Place your right hand so your fingers point in the direction of $v$ (right) and your palm faces the direction of $B$ (out of the page/toward you). Your thumb points down, indicating the initial direction of the centripetal force.
+    *   For the **electron** ($q < 0$): The force is reversed. Alternatively, use the Left-Hand Rule or simply negate the result of the RHR. The force points up.
+4.  **Sketch:** Draw two symmetric circular arcs starting from the entry point. The electron's path curves toward the top of the page, and the positron's path curves toward the bottom of the page. Ensure the radii of the curves are identical, as $r = \frac{mv}{qB}$ and both $m, v, q,$ and $B$ are identical for both particles.
+
+###QUESTION_TYPE
+Other questions

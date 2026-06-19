@@ -1,0 +1,26 @@
+To solve this problem, we need to analyze the trajectory of the charged particle as it enters the field region.
+
+### Analysis
+
+1.  **Identify the Field Type:** 
+    *   The arrows represent field lines pointing vertically upwards. 
+    *   If it were a **magnetic field**, we would use the Right-Hand Rule (for positive charges). If a positive charge entered a magnetic field pointing upwards, the force (given by $F = qvB\sin\theta$) would be directed out of or into the page, not causing a downward deflection in the plane of the page. Even if we consider Lorentz force dynamics, a constant magnetic field would cause a circular path (uniform circular motion), whereas the path shown is a parabola.
+    *   A **parabolic path** is the hallmark of a charged particle moving through a **uniform electric field** perpendicular to its initial velocity (similar to projectile motion under gravity). Therefore, it must be an electric field.
+
+2.  **Determine the Charge:**
+    *   The electric field lines point **upwards**.
+    *   The particle experiences a **downward** force, causing it to deflect towards the bottom of the page.
+    *   The force on a charge in an electric field is given by $F = qE$.
+    *   If the field $E$ is pointing up and the force $F$ is pointing down, the charge $q$ must be **negative**. Mathematically, if $E$ is a vector pointing in the positive $y$-direction, for $F$ to be in the negative $y$-direction, $q$ must be negative.
+
+### Conclusion
+The field is an electric field and the charge is negative. This corresponds to option **B**.
+
+### How to solve it
+*   **Step 1:** Recognise that a parabolic trajectory for a particle entering a field perpendicularly indicates a constant force acting in a single direction, which identifies the field as an **electric field**.
+*   **Step 2:** Observe the direction of the electric field lines (upward).
+*   **Step 3:** Observe the direction of the deflection (downward).
+*   **Step 4:** Apply the relationship $F = qE$. Since the force is opposite to the field direction, the charge must be negative.
+
+###QUESTION_TYPE
+Multiple choice

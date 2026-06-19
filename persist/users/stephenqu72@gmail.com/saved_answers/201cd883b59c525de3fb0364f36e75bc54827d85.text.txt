@@ -1,0 +1,33 @@
+To solve this physics problem, we need to determine both the magnitude and the direction of the magnetic force acting on a current-carrying conductor.
+
+### 1. Calculating the Magnitude
+The magnitude of the magnetic force $F$ on a straight conductor in a uniform magnetic field is given by the formula:
+$$F = BIL \sin(\theta)$$
+
+Where:
+*   $B$ is the magnetic flux density $= 0.50\text{ T}$
+*   $I$ is the current $= 3.0\text{ A}$
+*   $L$ is the length of the conductor $= 50\text{ mm} = 0.050\text{ m}$
+*   $\theta$ is the angle between the current and the magnetic field. Since the problem states they are at right angles, $\theta = 90^\circ$, and $\sin(90^\circ) = 1$.
+
+Substituting the values:
+$$F = 0.50\text{ T} \times 3.0\text{ A} \times 0.050\text{ m}$$
+$$F = 0.075\text{ N}$$
+
+### 2. Determining the Direction
+To find the direction, we use the **Right-Hand Palm Rule** (or Fleming’s Left-Hand Rule):
+*   **Fingers:** Point in the direction of the magnetic field ($B$).
+*   **Thumb:** Points in the direction of the conventional current ($I$).
+*   **Palm:** The direction the palm pushes is the direction of the force ($F$).
+
+In the diagram, the magnetic field is directed towards the right, and the current flows along the conductor (diagonally "down and right" from our perspective in the 2D plane). Applying the Right-Hand Rule:
+*   Point your fingers towards the right.
+*   Point your thumb along the direction of the current.
+*   Your palm will face **upwards**.
+
+Thus, the force is $0.075\text{ N}$ vertically upwards.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

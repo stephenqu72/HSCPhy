@@ -1,0 +1,26 @@
+To solve this problem, we use the formula for the magnetic force per unit length between two parallel current-carrying wires:
+
+$$\frac{F}{l} = \frac{\mu_0 I_1 I_2}{2\pi d}$$
+
+### 1. Determining the new magnitude
+Let the initial force per unit length be $f_1 = \frac{F}{l}$.
+According to the problem:
+*   The new currents are $I_1' = \frac{I_1}{2}$ and $I_2' = \frac{I_2}{2}$.
+*   The new distance is $d' = 2d$.
+
+Substituting these into the formula for the new force per unit length ($f_2$):
+$$f_2 = \frac{\mu_0 (\frac{I_1}{2}) (\frac{I_2}{2})}{2\pi (2d)}$$
+$$f_2 = \frac{\mu_0 I_1 I_2}{4 \cdot 2\pi d \cdot 2}$$
+$$f_2 = \frac{\mu_0 I_1 I_2}{8 \cdot 2\pi d}$$
+$$f_2 = \frac{1}{8} \left( \frac{\mu_0 I_1 I_2}{2\pi d} \right) = \frac{1}{8} \left( \frac{F}{l} \right)$$
+
+Therefore, the new magnitude is $\frac{F}{8l}$.
+
+### 2. Determining the direction
+*   **Initial state:** $I_1$ flows down and $I_2$ flows up. Since the currents are in **opposite directions**, the wires exert a repulsive force (they push away from each other).
+*   **New state:** The currents are still in opposite directions (one is halved, the other is halved, but their relative directions remain the same). Therefore, the force remains **repulsive**, meaning the wires push **away from each other**.
+
+Comparing our results to the given options, option (D) matches both the magnitude $\frac{F}{8l}$ and the direction "Away from each other."
+
+###QUESTION_TYPE
+Multiple choice

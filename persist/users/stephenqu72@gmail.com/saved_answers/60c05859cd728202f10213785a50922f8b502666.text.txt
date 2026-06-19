@@ -1,0 +1,38 @@
+### Solution and Explanation
+
+**Given Data:**
+*   Mass $m = 2.4 \times 10^{-7} \text{ kg}$
+*   Charge $q = +1.4 \times 10^{-2} \text{ C}$
+*   Velocity $v = 2.7 \times 10^2 \text{ m/s}$
+*   Magnetic field $B = 3.6 \times 10^{-2} \text{ T}$
+
+---
+
+#### (a) Determine the force acting on the particle
+When a charged particle moves through a magnetic field, it experiences a magnetic force given by $F = qvB \sin(\theta)$. Since the velocity is perpendicular to the magnetic field lines (into the page), $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+$$F = (1.4 \times 10^{-2} \text{ C}) \times (2.7 \times 10^2 \text{ m/s}) \times (3.6 \times 10^{-2} \text{ T})$$
+$$F = 0.13608 \text{ N} \approx 0.14 \text{ N}$$
+Using the Right-Hand Rule (fingers point into page, thumb points right), the force direction is **upwards**.
+
+---
+
+#### (b) Calculate the radius of the circular path
+The magnetic force provides the centripetal force required for circular motion: $F_B = F_c$.
+$$qvB = \frac{mv^2}{r}$$
+Rearranging for $r$:
+$$r = \frac{mv}{qB}$$
+$$r = \frac{(2.4 \times 10^{-7} \text{ kg}) \times (2.7 \times 10^2 \text{ m/s})}{(1.4 \times 10^{-2} \text{ C}) \times (3.6 \times 10^{-2} \text{ T})}$$
+$$r = \frac{6.48 \times 10^{-5}}{5.04 \times 10^{-4}} \approx 0.1286 \text{ m} \approx 0.13 \text{ m}$$
+
+---
+
+#### (c) Similarities and differences in motion
+*   **Similarities:** All three fields can exert a force on an object leading to acceleration. They can all be described using field intensity concepts ($E$, $B$, and $g$).
+*   **Differences:**
+    *   **Electric Fields:** Exert a force $F = qE$ on charges. If the field is uniform and the charge enters perpendicular to it, the particle follows a **parabolic** path (similar to projectile motion). The force is independent of velocity.
+    *   **Magnetic Fields:** Exert a force $F = qvB\sin(\theta)$ only on moving charges. The force is always perpendicular to velocity, resulting in **uniform circular motion** (no change in kinetic energy). 
+    *   **Gravitational Fields:** Exert a force $F = mg$ on mass. It acts on all matter (not just charged). If the field is uniform, a mass moves in a **parabolic** path (projectile motion) in a vacuum. Unlike magnetic fields, gravity performs work on objects if they move in the direction of the field.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,20 @@
+To determine the correct description of the motion of the ball, we must analyze the physics of projectile motion:
+
+### Analysis of the options:
+
+*   **(A) The velocity of the ball is a maximum just before it hits the ground:** Velocity is a vector quantity. In projectile motion, the horizontal velocity ($v_x$) remains constant (assuming no air resistance), but the vertical velocity ($v_y$) increases in magnitude due to gravity. The total velocity is given by $v = \sqrt{v_x^2 + v_y^2}$. Since $v_y$ increases as the ball falls, the magnitude of the total velocity is at its maximum at the lowest point of the trajectory, which is just before it hits the ground. **This statement is correct.**
+*   **(B) The acceleration of the ball is zero just after it leaves the table:** Once the ball leaves the table, the only force acting on it is gravity. According to Newton's Second Law ($F=ma$), there is a constant downward acceleration of $g \approx 9.8 \text{ m/s}^2$. Therefore, the acceleration is not zero.
+*   **(C) Initially, the velocity of the ball is zero:** The ball is rolling off the table, meaning it possesses an initial horizontal velocity ($v_x > 0$). If the velocity were zero, the ball would simply drop straight down rather than tracing a parabolic path.
+*   **(D) The acceleration of the ball is not constant:** In standard projectile motion problems (neglecting air resistance), the only acceleration is the acceleration due to gravity, which is constant at $9.8 \text{ m/s}^2$ downwards.
+
+### Conclusion:
+The correct answer is **(A)**.
+
+### How to solve this type of question:
+1.  **Identify the motion type:** Recognize that this is a classic "projectile motion" scenario. 
+2.  **Recall the kinematics:** In projectile motion, horizontal acceleration is zero, and vertical acceleration is constant ($g$).
+3.  **Evaluate vectors:** Remember that velocity is a vector. Since the vertical component of velocity increases over time due to gravity while the horizontal component stays the same, the resultant magnitude of the velocity vector must increase as the ball descends.
+4.  **Eliminate distractors:** Always check if the statement contradicts fundamental laws (e.g., gravity must exist, so acceleration cannot be zero).
+
+###QUESTION_TYPE
+Multiple choice

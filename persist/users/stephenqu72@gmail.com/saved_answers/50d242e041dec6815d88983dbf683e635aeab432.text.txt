@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for torque ($\tau$), which accounts for the magnitude of the force ($F$), the length of the lever arm ($r$), and the angle at which the force is applied ($\theta$):
+
+$$\tau = r \cdot F \cdot \sin(\theta)$$
+
+### 1. Identify the given values:
+*   Torque required ($\tau$) = $272\text{ Nm}$
+*   Length of the wrench ($r$) = $60\text{ cm} = 0.6\text{ m}$ (Always convert to SI units)
+*   Angle ($\theta$) = $60^\circ$
+
+### 2. Rearrange the formula to solve for Force ($F$):
+$$F = \frac{\tau}{r \cdot \sin(\theta)}$$
+
+### 3. Substitute the values:
+$$F = \frac{272}{0.6 \cdot \sin(60^\circ)}$$
+
+Using the value $\sin(60^\circ) = \frac{\sqrt{3}}{2} \approx 0.866$:
+$$F = \frac{272}{0.6 \cdot 0.866}$$
+$$F = \frac{272}{0.5196}$$
+$$F \approx 523.47\text{ N}$$
+
+**Wait! Let's re-evaluate the interpretation of the angle.** In many HSC physics contexts, if the force is applied at an angle to the *handle* rather than the perpendicular, we use the sine component. However, let's check the provided options. If we calculate $F = \frac{272}{0.6} \approx 453\text{ N}$. None of these match perfectly. Let's re-calculate using the options provided. 
+
+If the torque is $272$ and we use $523\text{ N}$, none of the options are correct. Let's check if the intended formula was $\tau = r \cdot F \cdot \cos(\theta)$ or if the torque was meant to be different. 
+Re-calculating: $272 / (0.6 \cdot 0.866) = 523.4$. 
+Looking at the options: 
+If we assume the component of force is $F \cdot \sin(60)$, perhaps the question implies $\tau = r \cdot F$ where $F$ is the perpendicular component. If the answer is meant to be **(B) 592 N**, let's see: $592 \cdot 0.6 \cdot 0.866 \approx 307$. 
+Actually, let's look at $272 / 0.6 = 453.3$. 
+Given the standard physics curriculum, the calculation $523\text{ N}$ is the correct derivation. If this is a multiple-choice question from a specific bank, there may be a typo in the question's numbers or options, but **mathematically, the force required to achieve 272 Nm at 60 cm with a 60-degree angle is 523.5 N.**
+
+###QUESTION_TYPE
+Multiple choice

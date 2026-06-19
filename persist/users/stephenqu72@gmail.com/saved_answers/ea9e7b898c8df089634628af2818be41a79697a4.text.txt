@@ -1,0 +1,39 @@
+To solve this problem, we must analyze the forces acting on the marble in the non-inertial reference frame of the car (or consider the net centripetal force required in an inertial frame).
+
+### (a) Calculation of the angle
+
+**1. Convert units to SI:**
+*   Radius $r = 20\text{ m}$
+*   Velocity $v = 30\text{ km/h} = \frac{30}{3.6} \approx 8.333\text{ m/s}$
+*   Mass $m = 50\text{ g} = 0.05\text{ kg}$
+
+**2. Identify the forces:**
+The marble experiences a downward gravitational force $mg$ and a normal force $N$ acting perpendicular to the tray. To stay in the centre of the tray, the horizontal component of the normal force must provide the required centripetal force $F_c = \frac{mv^2}{r}$.
+
+If the tray is angled at $\theta$ to the horizontal, the forces are:
+*   Vertical: $N \cos \theta = mg$
+*   Horizontal: $N \sin \theta = \frac{mv^2}{r}$
+
+**3. Solve for $\theta$:**
+Dividing the two equations:
+$$\frac{N \sin \theta}{N \cos \theta} = \frac{\frac{mv^2}{r}}{mg}$$
+$$\tan \theta = \frac{v^2}{rg}$$
+
+Substitute the values:
+$$\tan \theta = \frac{(8.333)^2}{20 \times 9.8} = \frac{69.444}{196} \approx 0.3543$$
+$$\theta = \arctan(0.3543) \approx 19.5^\circ$$
+
+**Answer:** The student needs to hold the tray at an angle of approximately **$19.5^\circ$**.
+
+---
+
+### (b) Effect of doubling the mass
+
+**Answer:** The angle would remain the **same**.
+
+**Justification:** As shown in the derivation above ($\tan \theta = \frac{v^2}{rg}$), the mass $m$ of the object cancels out. The required angle depends only on the speed of the car, the radius of the turn, and the acceleration due to gravity. Therefore, changing the mass does not change the required banking angle.
+
+---
+
+###QUESTION_TYPE
+Calculation question

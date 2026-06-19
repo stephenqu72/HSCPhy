@@ -1,0 +1,35 @@
+To calculate the radius of the proton's path in the magnetic field, we use the principle that the magnetic force acts as a centripetal force for a charged particle moving perpendicular to a magnetic field.
+
+### Solution
+
+**1. Identify the given variables:**
+*   Velocity ($v$) = $3.0 \times 10^6 \text{ ms}^{-1}$
+*   Magnetic Field ($B$) = $2.0 \text{ T}$
+*   Charge of a proton ($q$) = $1.602 \times 10^{-19} \text{ C}$
+*   Mass of a proton ($m$) = $1.673 \times 10^{-27} \text{ kg}$
+
+**2. State the relevant formulas:**
+The magnetic force is $F_B = qvB$ and the centripetal force is $F_c = \frac{mv^2}{r}$.
+Setting them equal to each other:
+$$qvB = \frac{mv^2}{r}$$
+
+**3. Rearrange to solve for $r$:**
+$$r = \frac{mv}{qB}$$
+
+**4. Substitute the values:**
+$$r = \frac{(1.673 \times 10^{-27} \text{ kg}) \times (3.0 \times 10^6 \text{ ms}^{-1})}{(1.602 \times 10^{-19} \text{ C}) \times (2.0 \text{ T})}$$
+
+$$r = \frac{5.019 \times 10^{-21}}{3.204 \times 10^{-19}}$$
+
+$$r \approx 0.01566 \text{ m}$$
+
+**Answer:** The radius of the proton's path is approximately $1.6 \times 10^{-2} \text{ m}$ (or $1.6 \text{ cm}$).
+
+### How to solve this
+1.  **Understand the Physics:** When a charged particle enters a uniform magnetic field perpendicularly, the magnetic force is always perpendicular to the velocity. This results in uniform circular motion.
+2.  **Equate the Forces:** You must set the magnetic force ($qvB$) equal to the required centripetal force ($\frac{mv^2}{r}$).
+3.  **Algebraic Manipulation:** Isolate $r$ on one side of the equation.
+4.  **Unit Consistency:** Ensure your constants (mass and charge of a proton) are in SI units (kg and C) so that the resulting radius is in meters.
+
+###QUESTION_TYPE
+Calculation question

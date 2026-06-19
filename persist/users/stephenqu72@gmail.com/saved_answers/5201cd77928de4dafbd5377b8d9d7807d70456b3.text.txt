@@ -1,0 +1,23 @@
+Hello! As an HSC physics teacher, I am happy to help you break down this projectile motion problem.
+
+### Answer
+The correct answer is **(C)**.
+
+---
+
+### Explanation
+To solve this, we need to apply the principles of projectile motion, specifically the independence of horizontal and vertical motion when air resistance is ignored.
+
+1.  **Analyze (A):** The ball rolls off the table with a horizontal velocity $v_x$. Since it is moving as it leaves the table, its initial velocity is not zero.
+2.  **Analyze (B):** Because we are ignoring air resistance, there is no horizontal force acting on the ball. According to Newton's First Law, the horizontal acceleration is zero ($a_x = 0$), not a constant non-zero value.
+3.  **Analyze (C):** The total velocity $v$ is given by the vector sum of the horizontal and vertical components: $v = \sqrt{v_x^2 + v_y^2}$. 
+    *   $v_x$ remains constant throughout the flight.
+    *   $v_y$ increases linearly due to the constant acceleration of gravity ($g$).
+    *   As the ball falls, $v_y$ increases, which means the total magnitude of velocity $v$ increases. Therefore, the velocity reaches its maximum value just before the ball hits the ground. This statement is correct.
+4.  **Analyze (D):** The vertical acceleration is caused by gravity, which is constant ($g \approx 9.8 \, \text{m/s}^2$). It does not increase as the ball approaches the ground.
+
+### Summary
+By understanding that horizontal acceleration is zero and vertical acceleration is constant, we can identify that the vertical velocity component grows over time, leading to an increasing total velocity until impact.
+
+###QUESTION_TYPE
+Multiple choice

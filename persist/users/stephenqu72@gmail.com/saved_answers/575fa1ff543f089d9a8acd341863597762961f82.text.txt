@@ -1,0 +1,28 @@
+To solve this problem, we must apply the physics of a charged particle moving through a uniform magnetic field. When an electron enters a magnetic field perpendicular to its velocity, the magnetic force acts as a centripetal force, causing the electron to move in a circular path.
+
+### 1. The Physics Principle
+The magnetic force ($F_B$) is given by $F_B = qvB$, where $q$ is the charge of the electron, $v$ is its velocity, and $B$ is the magnetic field strength.
+The centripetal force ($F_c$) required to keep an object in circular motion is $F_c = \frac{mv^2}{r}$, where $m$ is the mass of the electron and $r$ is the radius.
+
+By setting these equal:
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging to solve for the radius ($r$):
+$$r = \frac{mv}{qB}$$
+
+### 2. How to Solve
+To get the final numerical answer, you need the values for the constants and the specific variables provided in the previous parts of your exam paper (which are not visible in the screenshot provided). You would follow these steps:
+
+1.  **Identify your constants:**
+    *   Mass of an electron ($m$): $9.11 \times 10^{-31} \text{ kg}$
+    *   Charge of an electron ($q$): $1.60 \times 10^{-19} \text{ C}$
+2.  **Identify your variables from the previous parts of the question:**
+    *   Velocity ($v$): The speed of the electron before entering the field.
+    *   Magnetic field ($B$): The strength of the field in Tesla ($T$).
+3.  **Substitute and Calculate:** Plug these values into the formula:
+    $$r = \frac{(9.11 \times 10^{-31} \text{ kg}) \times v}{(1.60 \times 10^{-19} \text{ C}) \times B}$$
+
+**Teacher's Tip:** Always ensure your units are in SI units (kg, m/s, C, Tesla) before calculating. If your magnetic field is in milliTesla ($mT$), convert it to Tesla by multiplying by $10^{-3}$.
+
+###QUESTION_TYPE
+Calculation question

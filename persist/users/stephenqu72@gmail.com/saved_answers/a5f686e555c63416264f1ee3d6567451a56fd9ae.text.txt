@@ -1,0 +1,29 @@
+To determine the correct answer, we must analyze how the energy components of a satellite change as its orbital radius $r$ increases.
+
+### Explanation
+
+1.  **Gravitational Potential Energy ($U$):**
+    The gravitational potential energy is given by the formula $U = -\frac{GMm}{r}$. 
+    As the satellite moves from a low orbit to a higher orbit, $r$ increases. Since $r$ is in the denominator with a negative sign, as $r$ gets larger, the value of $U$ becomes "less negative" (closer to zero). Mathematically, this means the **gravitational potential energy increases**.
+
+2.  **Kinetic Energy ($K$):**
+    For a satellite in a circular orbit, the centripetal force is provided by gravity:
+    $$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+    Solving for $v^2$, we get $v^2 = \frac{GM}{r}$.
+    The kinetic energy is $K = \frac{1}{2}mv^2 = \frac{GMm}{2r}$.
+    As $r$ increases, the denominator increases, which means the **kinetic energy decreases**.
+
+3.  **Total Mechanical Energy ($E$):**
+    The total energy is the sum of kinetic and potential energy:
+    $$E = K + U = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r}$$
+    As $r$ increases, the value $-\frac{GMm}{2r}$ becomes "less negative," which means the **total energy increases**. (This makes physical sense because work must be done on the satellite by external thrusters to move it to a higher orbit).
+
+**Conclusion:**
+*   Total energy: **Increases**
+*   Gravitational potential energy: **Increases**
+*   Kinetic energy: **Decreases**
+
+Comparing this to the options provided, the correct choice is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

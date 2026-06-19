@@ -1,0 +1,30 @@
+### Answer
+The apparatus functions as an **accelerometer**. When the car moves at a constant velocity (constant speed in a straight line), the angle $\theta$ will be $0^\circ$ because there is no net horizontal force. If the car accelerates or moves in a circular path, the string swings to a constant angle $\theta$ relative to the vertical. The angle $\theta$ allows us to determine the horizontal acceleration ($a$) of the car.
+
+**Derivation:**
+Consider the free-body diagram of the mass $m$. Two forces act on the mass:
+1. The tension in the string, $T$.
+2. The gravitational force, $mg$, acting downwards.
+
+When the car has a horizontal acceleration $a$, the net force is $F_{net} = ma$ acting horizontally. Resolving the tension into components:
+- Vertical component: $T \cos \theta = mg$  (Equation 1)
+- Horizontal component: $T \sin \theta = ma$  (Equation 2)
+
+Dividing Equation 2 by Equation 1:
+$$\frac{T \sin \theta}{T \cos \theta} = \frac{ma}{mg}$$
+$$\tan \theta = \frac{a}{g}$$
+$$a = g \tan \theta$$
+
+Thus, the car's acceleration can be determined by measuring the angle $\theta$ and multiplying the tangent of that angle by the gravitational acceleration $g$.
+
+---
+
+### How to solve it
+1. **Identify the Physics Principles:** Recognise that this is a problem of non-inertial frames or net force in a dynamic system. Newton’s Second Law ($F_{net} = ma$) is the core principle.
+2. **Draw a Force Diagram:** Visualise the forces acting on the mass. The tension acts along the string, and gravity acts vertically. The resultant force must point in the direction of the car's horizontal acceleration.
+3. **Resolve Vectors:** Break the tension force into horizontal and vertical components. The vertical component must balance the weight ($mg$) to keep the mass at a constant height. The horizontal component provides the force required to accelerate the mass along with the car.
+4. **Relate Components:** Use trigonometry ($\tan \theta = \text{opposite} / \text{adjacent}$) to relate the ratio of the horizontal force to the weight. 
+5. **Final Expression:** Isolate the acceleration $a$ to show how the measurement ($\theta$) directly corresponds to the car's physical motion.
+
+###QUESTION_TYPE
+Calculation question

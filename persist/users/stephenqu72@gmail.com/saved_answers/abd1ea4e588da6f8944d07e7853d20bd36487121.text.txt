@@ -1,0 +1,37 @@
+To solve this problem, we first extract the given values and ensure they are in SI units:
+*   Number of turns ($N$) = $250$
+*   Dimensions of the coil = $8.0\text{ cm} \times 4.0\text{ cm} = 0.08\text{ m} \times 0.04\text{ m}$
+*   Area of the coil ($A$) = $0.08\text{ m} \times 0.04\text{ m} = 0.0032\text{ m}^2$
+*   Magnetic field strength ($B$) = $0.50\text{ T}$
+*   Current ($I$) = $9.0\text{ }\mu\text{A} = 9.0 \times 10^{-6}\text{ A}$
+
+---
+
+### (a) What is the magnitude of the maximum torque?
+
+The torque ($\tau$) on a current-carrying coil in a magnetic field is given by the formula:
+$$\tau = N I A B \sin(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field. Torque is **maximum** when $\sin(\theta) = 1$ (i.e., the plane of the coil is parallel to the magnetic field).
+
+**Calculation:**
+$$\tau_{max} = N I A B$$
+$$\tau_{max} = 250 \times (9.0 \times 10^{-6}\text{ A}) \times (0.0032\text{ m}^2) \times (0.50\text{ T})$$
+$$\tau_{max} = 3.6 \times 10^{-6}\text{ Nm}$$
+
+---
+
+### (b) What is the magnitude of the force on side $DC$ of the coil?
+
+The force ($F$) on a current-carrying wire of length $L$ in a magnetic field is given by:
+$$F = B I L \sin(\phi)$$
+where $\phi$ is the angle between the wire and the magnetic field. When the torque is at its maximum, the coil is positioned such that side $DC$ (which is $8.0\text{ cm}$ or $0.08\text{ m}$ long) is perpendicular to the magnetic field lines ($\phi = 90^\circ$, so $\sin(90^\circ) = 1$).
+
+**Calculation:**
+$$F = B I L$$
+$$F = 0.50\text{ T} \times (9.0 \times 10^{-6}\text{ A}) \times 0.08\text{ m}$$
+$$F = 3.6 \times 10^{-7}\text{ N}$$
+
+*(Note: Since the coil has 250 turns, each turn experiences this force. If the question implies the force per side of the entire coil assembly, we multiply by $N$: $F_{total} = 250 \times 3.6 \times 10^{-7} = 9.0 \times 10^{-5}\text{ N}$. Given the standard HSC context for this type of question, calculating the force on a single wire segment is usually the expected approach unless specified as the "total force on the side of the coil").*
+
+###QUESTION_TYPE
+Calculation question

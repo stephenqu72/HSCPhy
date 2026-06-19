@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principle of **velocity selection**. When a beam of charged particles passes through crossed electric ($E$) and magnetic ($B$) fields undeflected (in a straight line), the electric force must be equal in magnitude to the magnetic force acting on the particles.
+
+### Step-by-Step Solution:
+
+1.  **Identify the physics principle:**
+    For the electron beam to travel straight, the net force on the electrons must be zero.
+    $$F_{electric} = F_{magnetic}$$
+    $$qE = qvB$$
+
+2.  **Derive the formula for $B$:**
+    By cancelling the charge ($q$) from both sides, we get the relationship:
+    $$E = vB$$
+    $$B = \frac{E}{v}$$
+
+3.  **Substitute the given values:**
+    *   Electric field strength, $E = 2.57 \times 10^4 \text{ Vm}^{-1}$
+    *   Velocity, $v = 1.44 \times 10^7 \text{ ms}^{-1}$
+
+    $$B = \frac{2.57 \times 10^4}{1.44 \times 10^7}$$
+
+4.  **Calculate the result:**
+    $$B \approx 1.7847 \times 10^{-3} \text{ T}$$
+    Rounding this to two significant figures (as per the precision of the inputs), we get:
+    $$B \approx 0.0018 \text{ T}$$
+
+Comparing this result to the given options, it matches **Option B**.
+
+### Summary of logic:
+The setup describes a **velocity selector**. Because the path remains straight, the forces are balanced. By rearranging the force equilibrium equation $F = qE = qvB$, we isolate the magnetic field strength $B$ as the ratio of the electric field to the velocity.
+
+###QUESTION_TYPE
+Multiple choice

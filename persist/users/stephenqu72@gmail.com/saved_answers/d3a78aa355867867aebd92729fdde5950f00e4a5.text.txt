@@ -1,0 +1,35 @@
+To excel in this HSC-style response, you must systematically apply the laws of electromagnetism, gravitation, and dynamics.
+
+### Answer
+
+**1. Trajectory of Particle P:**
+Particle P moves in a straight horizontal line. This occurs because the downward gravitational force ($F_g = 2mg$) is exactly balanced by the upward magnetic force ($F_B = qvB$). 
+*   **Condition for straight-line motion:** $F_B = F_g \implies qvB = 2mg$. 
+*   Using the Right-Hand Rule, for a positive charge moving right with a downward gravity, the magnetic field $B$ must be directed **into the page** to produce an upward magnetic force.
+
+**2. Trajectory of Fragment R:**
+Fragment R has mass $m$ and zero charge. Because it is uncharged, the magnetic force is zero ($F_B = qvB = 0$). Only gravity acts on it. Consequently, fragment R will undergo **projectile motion**, accelerating downwards at $g$ while maintaining its constant horizontal velocity $v$ (assuming the split imparts no extra vertical velocity).
+
+**3. Trajectory of Fragment Q:**
+Fragment Q has mass $m$ and charge $+q$. Upon splitting, its trajectory is affected by three factors:
+*   **Net Force:** The forces acting on Q are $F_g = mg$ (downwards) and $F_B = qvB$ (upwards). 
+*   **The "Unbalanced" State:** Initially, $qvB = 2mg$. Since $q, v,$ and $B$ are unchanged for fragment Q, the upward magnetic force remains $qvB = 2mg$. However, the gravitational force has halved to $mg$. 
+*   **Resultant Motion:** The net force is $F_{net} = F_B - F_g = 2mg - mg = mg$ (upwards). Fragment Q will accelerate in a parabolic path **upwards**.
+
+---
+
+### How to solve this
+1.  **Identify the balance of forces:** Recognize that "straight horizontal path" is a keyword in physics problems implying equilibrium ($\Sigma F_y = 0$). Set the magnetic force equation equal to the weight equation.
+2.  **Evaluate individual components:** Analyze fragments Q and R separately.
+    *   For R (uncharged): Eliminate the magnetic component; recognize it only responds to gravity.
+    *   For Q (charged): Re-evaluate the forces. Since the mass was halved but the charge (and thus magnetic force) remained the same, the equilibrium is broken.
+3.  **Use vector logic:** Use the Right-Hand Rule to confirm field direction and Newton’s Second Law ($F_{net} = ma$) to describe the resulting acceleration of fragment Q.
+
+### Mathematical Models
+*   **Force Balance for P:** $qvB = 2mg \implies B = \frac{2mg}{qv}$
+*   **Net Force on Q:** $\Sigma F_y = F_B - F_g = qvB - mg$. Substituting $B$:
+    $$\Sigma F_y = qv\left(\frac{2mg}{qv}\right) - mg = 2mg - mg = mg$$
+    Since $F_{net} > 0$, it accelerates upward.
+
+###QUESTION_TYPE
+Short answer

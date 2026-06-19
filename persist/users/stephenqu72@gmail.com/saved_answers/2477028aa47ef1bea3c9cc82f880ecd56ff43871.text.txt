@@ -1,0 +1,23 @@
+To answer this question, let’s look at the physics behind Millikan’s Oil Drop Experiment.
+
+### Answer
+The correct option is **(C)**.
+
+### Explanation
+To solve this, we must consider the equilibrium condition for a suspended oil drop. When a drop is suspended, the downward gravitational force ($F_g = mg$) is exactly balanced by the upward electric force ($F_e = qE$). Since $E = \frac{V}{d}$, the equilibrium condition is:
+$$mg = q \frac{V}{d}$$
+
+Rearranging for the charge ($q$):
+$$q = \frac{mgd}{V}$$
+
+In Millikan's actual experiment, he could not measure the mass ($m$) of each individual drop directly. Instead, he observed that the total charge on a drop is always an integer multiple of the elementary charge ($e$), such that $q = ne$. 
+
+Because the drops might have different total charges, they required different potential differences ($V$) to remain suspended. By analyzing the changes in the potential difference required to hold drops in equilibrium (or by using the speed of the drops under gravity and electric fields to determine their mass), Millikan identified that the charge $q$ was always a multiple of a base value. Specifically, he observed that the **differences** between the charges (calculated from varying the potential differences across multiple trials or drops) always resulted in values that were integer multiples of the elementary charge ($1.6 \times 10^{-19}\text{ C}$).
+
+*   **(A)** is incorrect because, as noted, determining the mass of individual microscopic oil drops is incredibly difficult and relies on measuring terminal velocity, not simply "knowing" the mass.
+*   **(B)** and **(D)** describe measurements used to derive the mass of the drops, but they are intermediate steps to finding the force, not the final method used to determine the *quantization* of the elementary charge itself.
+
+The key to Millikan's breakthrough was observing the quantization of charge by comparing the variations in the conditions (potential difference) that maintained equilibrium for different drops.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+### ANSWER AND EXPLANATION
+
+#### Part (a)
+**Calculation:**
+1.  **Identify given values:**
+    *   Mass $m = 20 \, u = 20 \times 1.66 \times 10^{-27} \, \text{kg} = 3.32 \times 10^{-26} \, \text{kg}$
+    *   Speed $v = 1.20 \times 10^5 \, \text{m s}^{-1}$
+    *   Charge $q = 1.60 \times 10^{-19} \, \text{C}$ (singly charged positive ion)
+    *   Diameter $D = 10.8 \, \text{m}$, so radius $r = 5.4 \, \text{m}$
+
+2.  **Use the formula for circular motion in a magnetic field:**
+    The magnetic force $F = qvB$ provides the centripetal force $F = \frac{mv^2}{r}$.
+    Equating them: $qvB = \frac{mv^2}{r} \implies B = \frac{mv}{qr}$
+
+3.  **Substitute and solve:**
+    $$B = \frac{(3.32 \times 10^{-26} \, \text{kg}) \times (1.20 \times 10^5 \, \text{m s}^{-1})}{(1.60 \times 10^{-19} \, \text{C}) \times (5.4 \, \text{m})}$$
+    $$B = \frac{3.984 \times 10^{-21}}{8.64 \times 10^{-19}} \approx 0.00461 \, \text{T}$$
+    **Result:** $B \approx 4.61 \times 10^{-3} \, \text{T}$
+
+#### Part (b)
+**Explanation:**
+Since $r = \frac{mv}{qB}$, if the mass $m$ increases while $q, v,$ and $B$ remain constant, the radius $r$ must increase.
+**Sketch:** The path should be a wider semicircular arc, starting at the same point but curving with a larger radius of curvature, landing to the right of the current detector.
+
+#### Part (c)
+**Explanation:**
+To allow heavier ions ($m \uparrow$) to hit the detector at the same spot, the radius $r$ must remain constant.
+Given $r = \frac{mv}{qB}$, if $m$ increases, we must increase $B$ proportionally to maintain the same radius. Therefore, the magnetic field strength $B$ must be increased.
+
+***
+
+###QUESTION_TYPE
+Calculation question

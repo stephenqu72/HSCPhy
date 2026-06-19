@@ -1,0 +1,33 @@
+To solve this problem, we use the formula for the magnetic force $F$ acting on a charged particle moving through a magnetic field:
+$$F = qvB \sin(\theta)$$
+
+Since both particles move at right angles to the magnetic field, $\theta = 90^{\circ}$ and $\sin(90^{\circ}) = 1$, so the formula simplifies to:
+$$F = qvB$$
+
+### Step 1: Define the variables for the beta particle ($\beta$)
+- Charge $q_{\beta} = e$ (where $e$ is the elementary charge)
+- Velocity $v_{\beta} = v$
+- Magnetic field $B_{\beta} = B$
+- Force $F_{\beta} = F = evB$
+
+### Step 2: Define the variables for the alpha particle ($\alpha$)
+An alpha particle consists of two protons and two neutrons, meaning its charge is twice that of a proton.
+- Charge $q_{\alpha} = 2e$
+- Velocity $v_{\alpha} = \frac{1}{10} v = 0.1v$
+- Magnetic field $B_{\alpha} = 2B$
+
+### Step 3: Calculate the force on the alpha particle ($F_{\alpha}$)
+Substitute the variables for the alpha particle into the force formula:
+$$F_{\alpha} = q_{\alpha} \cdot v_{\alpha} \cdot B_{\alpha}$$
+$$F_{\alpha} = (2e) \cdot (0.1v) \cdot (2B)$$
+$$F_{\alpha} = (2 \times 0.1 \times 2) \cdot (evB)$$
+$$F_{\alpha} = 0.4 \cdot (evB)$$
+
+### Step 4: Express $F_{\alpha}$ in terms of $F$
+Since $F = evB$:
+$$F_{\alpha} = 0.4 F$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

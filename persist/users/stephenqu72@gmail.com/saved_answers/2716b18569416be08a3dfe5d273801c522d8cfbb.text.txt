@@ -1,0 +1,28 @@
+### Answer
+The correct answer is **B**.
+
+---
+
+### Explanation
+
+To understand why the kinetic energy increases while the gravitational potential energy decreases, we look at the physics of a satellite in orbit:
+
+1.  **Gravitational Potential Energy ($U$):** 
+    The formula for gravitational potential energy is $U = -\frac{GMm}{r}$. As the satellite experiences atmospheric drag, its orbital radius ($r$) decreases. Since $r$ is in the denominator and the value is negative, as $r$ gets smaller, the magnitude of the potential energy increases, but because it is negative, the value becomes "more negative." Therefore, the gravitational potential energy **decreases**.
+
+2.  **Total Mechanical Energy ($E$):**
+    When a satellite in orbit encounters atmospheric drag, it loses total mechanical energy to heat (work done by non-conservative frictional forces). 
+    The total energy of an orbiting satellite is given by:
+    $$E = -\frac{GMm}{2r}$$
+
+3.  **Kinetic Energy ($K$):**
+    For a stable circular orbit, the kinetic energy is related to the potential energy by the virial theorem: $K = - \frac{1}{2}U$.
+    Substituting the formula for $U$:
+    $$K = \frac{GMm}{2r}$$
+    As the atmospheric drag causes the radius ($r$) to decrease, the denominator gets smaller. This causes the total value of kinetic energy ($K$) to **increase**.
+
+**Summary:** 
+As the satellite descends, it moves faster (increased $K$) but loses a greater amount of total energy due to drag, leading to a net decrease in its distance from the Earth (decreased $U$). Note that although it loses total energy, the satellite accelerates as it "falls" deeper into the gravitational well.
+
+###QUESTION_TYPE
+Multiple choice

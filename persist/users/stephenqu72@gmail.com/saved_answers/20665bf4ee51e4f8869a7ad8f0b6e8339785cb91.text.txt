@@ -1,0 +1,39 @@
+### Teacher's Solution and Explanation
+
+To solve this problem, we must apply the principles of static equilibrium for part (a) and terminal velocity for part (b).
+
+#### Part (a)
+When the oil drop is stationary, the net force is zero. Therefore, the upward electric force must balance the downward gravitational force (weight).
+
+1.  **Identify the forces:**
+    $$F_E = mg$$
+    Where $F_E = qE = q\frac{V}{d}$ and $W = mg$.
+    Thus: $q\frac{V}{d} = mg$
+
+2.  **Convert units to SI:**
+    *   Mass ($m$) = $8.8 \times 10^{-11} \text{ g} = 8.8 \times 10^{-14} \text{ kg}$
+    *   Voltage ($V$) = $5085 \text{ V}$
+    *   Distance ($d$) = $16 \text{ mm} = 0.016 \text{ m}$
+    *   Gravity ($g$) = $9.8 \text{ m/s}^2$
+    *   Elementary charge ($e$) = $1.602 \times 10^{-19} \text{ C}$
+
+3.  **Rearrange for charge ($q$):**
+    $$q = \frac{mgd}{V} = \frac{(8.8 \times 10^{-14})(9.8)(0.016)}{5085}$$
+    $$q \approx 2.715 \times 10^{-18} \text{ C}$$
+
+4.  **Calculate the number of electrons ($n$):**
+    $$n = \frac{q}{e} = \frac{2.715 \times 10^{-18}}{1.602 \times 10^{-19}} \approx 16.95$$
+    Since the number of electrons must be an integer, we round to **17 electrons**.
+
+---
+
+#### Part (b)
+When the oil drop falls at a constant speed (terminal velocity), the acceleration is zero. According to Newton's First Law, the forces must be balanced. In the absence of an electric field, the two forces acting on the drop are:
+1.  **Weight** acting downwards.
+2.  **Drag force (air resistance)** acting upwards.
+
+**To draw the diagram:**
+Draw a central dot. Draw an arrow pointing downwards labeled "Weight" (this should be the same length as the weight vector in the original diagram). Draw an arrow of equal length pointing upwards labeled "Drag force".
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,27 @@
+To solve these problems, we use the principles of electrostatics and magnetism applied to charged particles.
+
+### a. Calculate the strength of the electric field ($E$)
+The electric field between parallel plates is given by:
+$$E = \frac{V}{d}$$
+Given $V = 10,000\text{ V}$ and $d = 0.10\text{ m}$:
+$$E = \frac{10,000}{0.10} = 100,000\text{ V/m (or N/C)}$$
+
+### b. Calculate the speed of the electrons ($v$)
+The kinetic energy gained by the electron is equal to the work done by the electric field ($W = qV$):
+$$\frac{1}{2}mv^2 = qV$$
+$$v = \sqrt{\frac{2qV}{m}}$$
+Using $q = 1.6 \times 10^{-19}\text{ C}$, $V = 10,000\text{ V}$, and $m = 9.1 \times 10^{-31}\text{ kg}$:
+$$v = \sqrt{\frac{2 \times 1.6 \times 10^{-19} \times 10,000}{9.1 \times 10^{-31}}} \approx 5.93 \times 10^7\text{ m/s}$$
+
+### c. Calculate the radius ($r$) of the path
+When an electron enters a magnetic field perpendicular to its velocity, it experiences a centripetal magnetic force ($F = qvB$):
+$$qvB = \frac{mv^2}{r} \implies r = \frac{mv}{qB}$$
+Using the values from above:
+$$r = \frac{9.1 \times 10^{-31} \times 5.93 \times 10^7}{1.6 \times 10^{-19} \times 0.020} \approx 0.0169\text{ m (or } 1.7\text{ cm)}$$
+
+### d. Explain why the paths have different shapes
+*   **Electric Field (Figure 2a):** The force on the electron ($F = qE$) is constant in both magnitude and direction (downwards). This constant perpendicular acceleration creates a **parabolic path**, similar to a projectile under gravity.
+*   **Magnetic Field (Figure 2b):** The magnetic force ($F = qvB$) is always perpendicular to the direction of velocity. As the direction of velocity changes, the direction of the force also changes, maintaining the centripetal nature of the force. This constant perpendicular force directed toward the center of a circle creates a **circular path**.
+
+###QUESTION_TYPE
+Calculation question

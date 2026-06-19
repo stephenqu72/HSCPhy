@@ -1,0 +1,41 @@
+To achieve full marks in an HSC physics investigation question, you must demonstrate a clear understanding of the **controlled variables**, the **procedure**, and the **mathematical relationship** between the variables.
+
+### (a) Method and Table
+
+**Method:**
+1. **Set up the apparatus:** Position the rectangular coil such that side $X$ is within the magnetic field of the permanent magnet and the coil is balanced on the pivot.
+2. **Zeroing:** With no current, adjust the system so the coil is perfectly horizontal (or note the equilibrium position).
+3. **Variables:**
+   - **Independent:** Current $I$ (varied using a rheostat).
+   - **Dependent:** Mass $m$ added to side $Y$ to restore balance (Force $F = mg$).
+   - **Controlled:** Length of wire $L$ in the field, Magnetic field strength $B$.
+4. **Procedure:** 
+   - Turn on the power supply. The force on side $X$ will cause the coil to rotate.
+   - Add small masses to side $Y$ until the coil returns to its original horizontal position (balance).
+   - Record the current $I$ from the ammeter and the total mass $m$.
+   - Repeat for 5–6 different current values.
+5. **Analysis:** Calculate the force $F = mg$. Since the pivot is in the middle, the torque balance is $F_{side X} \cdot d_1 = mg \cdot d_2$. As $d_1 = d_2 = 30 \text{ cm}$, the force on side $X$ is simply $F = mg$. Plot $F$ vs $I$; a linear graph passing through the origin validates $F = BIL$.
+
+**Table of Results:**
+
+| Trial | Current ($I$) (A) | Mass added ($m$) (kg) | Force on $Y$ ($F=mg$) (N) | Force on $X$ ($F_X$) (N) |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | | | | |
+| 2 | | | | |
+
+---
+
+### (b) Limitations
+
+1. **Friction at the Pivot:** The pivot introduces a frictional torque that resists motion. This means the coil might not return to the exact same position for small changes in current, introducing uncertainty in the force measurement.
+2. **Magnetic Field Non-uniformity:** The magnetic field provided by the permanent magnet is likely not perfectly uniform. As the coil rotates to balance, side $X$ moves slightly, potentially entering a region of different $B$, which violates the assumption of a constant $B$ in $F = BIL$.
+3. **Thermal Effects:** As current flows, the resistance of the wire increases due to heating (Ohmic heating). This may cause the current to drift during the measurement, requiring constant adjustment of the power supply.
+
+---
+
+### How to solve this type of question:
+- **For part (a):** Always follow the "Scientific Method" structure: define variables, explain the steps clearly so another student could replicate the experiment, and include a table that aligns with your independent and dependent variables.
+- **For part (b):** Think about "Sources of Error." Focus on the equipment limitations (pivot friction) and environmental/systemic variables (heat, non-uniform fields) that prevent the experiment from being "ideal."
+
+###QUESTION_TYPE
+Experimental questions

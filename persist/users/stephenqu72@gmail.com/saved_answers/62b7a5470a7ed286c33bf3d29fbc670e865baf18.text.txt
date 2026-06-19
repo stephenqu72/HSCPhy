@@ -1,0 +1,28 @@
+To determine whether the charged particle $Q$ experiences a magnetic force, we use the formula for the magnetic force $F$ acting on a charged particle:
+
+$$F = qvB \sin(\theta)$$
+
+where:
+*   $q$ is the charge of the particle.
+*   $v$ is the velocity of the particle.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the velocity vector and the magnetic field vector.
+
+### Analysis of the Situations:
+
+*   **(i)** The velocity is $v = 0$. Since the particle is stationary, $F = q(0)B \sin(\theta) = 0$. No magnetic force is exerted.
+*   **(ii)** The velocity $v$ is perpendicular to the magnetic field $B$ ($\theta = 90^\circ$). Since $\sin(90^\circ) = 1$, the particle experiences a maximum magnetic force $F = qvB$.
+*   **(iii)** The velocity $v$ is parallel to the magnetic field $B$ ($\theta = 0^\circ$). Since $\sin(0^\circ) = 0$, the magnetic force is $F = 0$. No magnetic force is exerted.
+*   **(iv)** The velocity $v$ is directed into the page, while the magnetic field $B$ is directed to the right. These vectors are perpendicular ($\theta = 90^\circ$). Therefore, the particle experiences a magnetic force $F = qvB$.
+
+### Conclusion:
+The particle experiences a force in situations **(ii)** and **(iv)**. Therefore, the correct option is **(C)**.
+
+### Explanation Summary:
+A magnetic force only acts on a charged particle if it is moving with a velocity component perpendicular to the magnetic field. 
+- In (i), the particle is not moving.
+- In (iii), the motion is parallel to the field lines, so no force is exerted.
+- In (ii) and (iv), the particle has a velocity component perpendicular to the field, resulting in a magnetic force.
+
+###QUESTION_TYPE
+Multiple choice

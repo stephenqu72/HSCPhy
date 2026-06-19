@@ -1,0 +1,31 @@
+To solve this problem, we use the principle of **Conservation of Mechanical Energy**.
+
+### Step 1: Identify the energies
+The total energy $E$ at any point in the gravitational field of a planet of mass $M$ and radius $R$ is given by:
+$$E = K + U = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+where $r$ is the distance from the center of the planet.
+
+*   **At the surface ($r = R$):** The launch speed is $v = \frac{3}{4}v_e$. Since the escape speed is $v_e = \sqrt{\frac{2GM}{R}}$, we have $v^2 = \frac{9}{16} \cdot \frac{2GM}{R} = \frac{9GM}{8R}$.
+    $$E_{surface} = \frac{1}{2}m\left(\frac{9GM}{8R}\right) - \frac{GMm}{R} = \frac{9GMm}{16R} - \frac{16GMm}{16R} = -\frac{7GMm}{16R}$$
+*   **At maximum height ($r = R + h$):** The velocity $v = 0$.
+    $$E_{max} = 0 - \frac{GMm}{R + h}$$
+
+### Step 2: Equate energies
+By conservation of energy, $E_{surface} = E_{max}$:
+$$-\frac{7GMm}{16R} = -\frac{GMm}{R + h}$$
+$$\frac{7}{16R} = \frac{1}{R + h}$$
+$$16R = 7(R + h)$$
+$$16R = 7R + 7h$$
+$$9R = 7h$$
+$$h = \frac{9}{7}R$$
+
+The maximum height reached from the surface is $\frac{9}{7}R$. This corresponds to option **C**.
+
+### Explanation Summary
+1. Define total mechanical energy as the sum of kinetic and gravitational potential energy.
+2. Substitute the given launch velocity ($3/4$ of escape speed) into the energy equation at the surface.
+3. Set the total energy at the surface equal to the total potential energy at the maximum height (where kinetic energy is zero).
+4. Solve the resulting algebraic equation for the height $h$.
+
+###QUESTION_TYPE
+Multiple choice

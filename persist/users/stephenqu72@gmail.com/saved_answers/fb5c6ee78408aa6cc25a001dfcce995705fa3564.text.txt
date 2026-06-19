@@ -1,0 +1,41 @@
+To solve this problem, we use the physics of circular orbital motion and gravitational escape velocity.
+
+### (a) Calculate the mass of Pax
+
+**Formula:** The orbital velocity $v$ of a satellite in a circular orbit is given by:
+$$v = \sqrt{\frac{GM}{r}}$$
+Where $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$, $M$ is the mass of the planet, and $r$ is the orbital radius.
+
+**Rearranging for $M$:**
+$$v^2 = \frac{GM}{r} \implies M = \frac{v^2 r}{G}$$
+
+**Calculation:**
+Given $v = 1400 \, \text{m s}^{-1}$ and $r = 5.5 \times 10^7 \, \text{m}$:
+$$M = \frac{(1400)^2 \times (5.5 \times 10^7)}{6.67 \times 10^{-11}}$$
+$$M = \frac{1,960,000 \times 5.5 \times 10^7}{6.67 \times 10^{-11}}$$
+$$M \approx 1.616 \times 10^{24} \, \text{kg}$$
+
+---
+
+### (b) Determine the escape velocity from Pax at the position of the satellite
+
+**Formula:** The escape velocity $v_e$ from a distance $r$ from the center of a mass $M$ is:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+**Observation:**
+We know from part (a) that $v = \sqrt{\frac{GM}{r}}$. Comparing the two formulas, we can see that:
+$$v_e = \sqrt{2} \times v$$
+
+**Calculation:**
+$$v_e = \sqrt{2} \times 1400$$
+$$v_e \approx 1.414 \times 1400$$
+$$v_e \approx 1980 \, \text{m s}^{-1}$$
+
+---
+
+### Explanation of the approach:
+1. **Part (a):** Recognise that the centripetal force required for circular motion is provided by gravity ($F_c = F_g$). Setting $\frac{mv^2}{r} = \frac{GmM}{r^2}$ leads directly to the standard orbital velocity formula. Substituting the given values allows you to solve for the planet's mass.
+2. **Part (b):** Escape velocity is defined as the velocity required for the total energy of an object (kinetic + potential) to be zero. Using the formula $v_e = \sqrt{\frac{2GM}{r}}$, you can either plug in the mass calculated in (a) or use the elegant shortcut $v_e = \sqrt{2} v$, which is a relationship frequently tested in HSC physics.
+
+###QUESTION_TYPE
+Calculation question

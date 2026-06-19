@@ -1,0 +1,71 @@
+Hello there! As your HSC physics teacher, I am happy to walk you through this problem. This is a classic mechanics question involving **gravitational potential energy** and the **law of conservation of energy**. To master these types of questions, you must understand how energy transforms between kinetic and potential forms as an object moves within a gravitational field.
+
+Here is the step-by-step solution and explanation.
+
+---
+
+### **Part (a) Solution & Explanation**
+
+**Question:** Describe the change in energy of the asteroid as it approaches the Earth. (2 marks)
+
+**Answer:**
+As the asteroid approaches Earth, its **gravitational potential energy decreases** (it becomes more negative because it is moving closer to the center of mass). Due to the law of conservation of energy, this loss in potential energy results in an **increase in the asteroid's kinetic energy**, meaning its speed increases.
+
+**Teacher's Tip:**
+To get both marks here, you must mention *both* types of energy. Don't just say "it speeds up"—explain *why* by referencing the conversion from gravitational potential energy to kinetic energy.
+
+---
+
+### **Part (b) Solution & Explanation**
+
+**Question:** Use the law of conservation of energy to calculate the asteroid's speed when it reaches Earth's surface. You may neglect the effects of Earth's atmosphere on the asteroid. (4 marks)
+
+**Step 1: Identify the Principle and Variables**
+We use the **Law of Conservation of Mechanical Energy**. Since there is no friction (neglecting atmosphere), the total energy at the start must equal the total energy at the surface.
+
+$$E_{\text{initial}} = E_{\text{final}}$$
+$$K_i + U_i = K_f + U_f$$
+
+Where:
+*   $v_i = 12 \text{ km/s} = 12,000 \text{ m/s}$ (Initial velocity)
+*   $r_i = 10 R_E$ (Initial distance from Earth's center)
+*   $r_f = R_E$ (Final distance at the surface)
+*   $m$ is the mass of the asteroid.
+*   $M$ is the mass of the Earth.
+*   $G$ is the gravitational constant.
+
+**Step 2: Set up the Equation**
+The formula for gravitational potential energy is $U = -\frac{GMm}{r}$. Let's plug our values into the conservation equation:
+
+$$\frac{1}{2}mv_i^2 - \frac{GMm}{10R_E} = \frac{1}{2}mv_f^2 - \frac{GMm}{R_E}$$
+
+Notice that the mass of the asteroid ($m$) appears in every term, so we can cancel it out. This is a key concept: the motion of a falling object in a gravitational field does not depend on its own mass.
+
+$$\frac{1}{2}v_i^2 - \frac{GM}{10R_E} = \frac{1}{2}v_f^2 - \frac{GM}{R_E}$$
+
+**Step 3: Rearrange to solve for $v_f$**
+Multiply the entire equation by $2$ to simplify:
+$$v_i^2 - \frac{2GM}{10R_E} = v_f^2 - \frac{2GM}{R_E}$$
+
+Move terms to isolate $v_f^2$:
+$$v_f^2 = v_i^2 + \frac{2GM}{R_E} - \frac{2GM}{10R_E}$$
+$$v_f^2 = v_i^2 + \frac{2GM}{R_E} (1 - 0.1)$$
+$$v_f^2 = v_i^2 + 1.8\left(\frac{GM}{R_E}\right)$$
+
+**Step 4: Substitute known values**
+To solve this without being given $G$ or $M$, we can use the relationship for surface gravity: $g = \frac{GM}{R_E^2}$, which means $\frac{GM}{R_E} = g R_E$.
+Using standard values: $g \approx 9.8 \text{ m/s}^2$ and $R_E \approx 6.37 \times 10^6 \text{ m}$.
+
+$$v_f^2 = (12,000)^2 + 1.8(9.8 \times 6.37 \times 10^6)$$
+$$v_f^2 = 144,000,000 + 112,366,800$$
+$$v_f^2 = 256,366,800$$
+$$v_f = \sqrt{256,366,800}$$
+$$v_f \approx 16,011.46 \text{ m/s}$$
+
+**Final Answer:**
+The asteroid's speed when it reaches Earth's surface is approximately **$16.0 \text{ km/s}$**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

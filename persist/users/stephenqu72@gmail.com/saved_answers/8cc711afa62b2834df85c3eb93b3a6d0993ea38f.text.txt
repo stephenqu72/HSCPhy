@@ -1,0 +1,45 @@
+To derive the expression for escape velocity, we use the principle of **Conservation of Mechanical Energy**. The escape velocity is defined as the minimum velocity required for an object to reach an infinite distance from a massive body (where its potential energy is zero) and come to a rest (where its kinetic energy is zero).
+
+### Step-by-Step Derivation
+
+1.  **State the conservation of energy principle:**
+    The total mechanical energy at the surface of the planet must equal the total mechanical energy at "infinity."
+    $$E_{\text{total, surface}} = E_{\text{total, infinity}}$$
+
+2.  **Define the energies:**
+    At the surface (distance $r = R$):
+    *   Kinetic Energy ($K$) = $\frac{1}{2}mv^2$
+    *   Gravitational Potential Energy ($U$) = $-\frac{GMm}{R}$
+    
+    At infinity (distance $r = \infty$):
+    *   Kinetic Energy = $0$
+    *   Gravitational Potential Energy = $0$
+
+3.  **Set up the equation:**
+    $$\frac{1}{2}mv^2 + \left(-\frac{GMm}{R}\right) = 0 + 0$$
+
+4.  **Solve for $v$ (the escape velocity, $v_e$):**
+    Rearrange the equation to isolate the kinetic energy term:
+    $$\frac{1}{2}mv_e^2 = \frac{GMm}{R}$$
+    
+    Cancel the mass of the projectile ($m$) from both sides:
+    $$\frac{1}{2}v_e^2 = \frac{GM}{R}$$
+    
+    Multiply by 2 and take the square root:
+    $$v_e^2 = \frac{2GM}{R}$$
+    $$v_e = \sqrt{\frac{2GM}{R}}$$
+
+**Where:**
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $R$ is the radius of the planet.
+
+***
+
+### How to solve this type of question:
+*   **Identify the physical principle:** Always look for "conservation" when dealing with movement in gravitational fields. In this case, energy is conserved because gravity is a conservative force.
+*   **Establish the boundaries:** "Escape" implies going to an infinite distance where potential energy is defined as zero.
+*   **Algebraic manipulation:** Practice rearranging the variables so that the velocity term is isolated. Being able to cancel the mass of the object ($m$) shows you understand that escape velocity is independent of the projectile's mass.
+
+###QUESTION_TYPE
+Calculation question

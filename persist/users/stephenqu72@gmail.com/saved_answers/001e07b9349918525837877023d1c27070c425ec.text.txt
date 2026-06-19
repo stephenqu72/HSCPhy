@@ -1,0 +1,40 @@
+### Solution and Explanation
+
+#### Part (a)
+**1. Deriving the ratio:**
+The acceleration due to gravity on the surface of a planet is given by:
+$$g = \frac{GM}{r^2}$$
+For two different planets (1 and 2), we have $g_1 = \frac{GM_1}{r_1^2}$ and $g_2 = \frac{GM_2}{r_2^2}$. 
+Dividing the two expressions:
+$$\frac{g_1}{g_2} = \frac{GM_1 / r_1^2}{GM_2 / r_2^2} = \frac{M_1}{r_1^2} \times \frac{r_2^2}{M_2} = \frac{M_1}{M_2} \times \left( \frac{r_2}{r_1} \right)^2$$
+
+**2. Calculating $g_2$ (on the other planet):**
+Let $M_1 = M_E$ (Earth), $r_1 = R_E = 6371\text{ km}$, and $g_1 = 9.8\text{ m/s}^2$.
+For the other planet, $M_2 = 0.1 M_E$ and $r_2 = 3300\text{ km}$ (radius is half the diameter of 6600 km).
+$$g_2 = g_1 \times \frac{M_2}{M_1} \times \left( \frac{r_1}{r_2} \right)^2 = 9.8 \times 0.1 \times \left( \frac{6371}{3300} \right)^2 \approx 0.98 \times 3.73 \approx 3.65\text{ m/s}^2$$
+To 2 significant figures, **$g_2 = 3.7\text{ m/s}^2$**.
+
+---
+
+#### Part (b)
+**1. Minimum speed for circular motion:**
+The minimum speed at the top of a circle is $v = \sqrt{gr}$. However, the problem specifies the rope breaks at $60^\circ$ to the horizontal. Since it is the *minimum speed to remain in circular motion* at the **bottom**, we find $v_{bot}$ using energy conservation. At the very top, $T=0$, so $mv_{top}^2/r = mg \implies v_{top} = \sqrt{gr}$. 
+Using conservation of energy from top to bottom ($h=4$):
+$$\frac{1}{2}mv_{top}^2 + mg(2r) = \frac{1}{2}mv_{bot}^2 \implies v_{bot} = \sqrt{5gr} = \sqrt{5 \times 3.65 \times 2} \approx 6.04\text{ m/s}$$
+**2. Velocity at point B ($60^\circ$):**
+Height of point B ($h_B$) = $r + r\sin(60^\circ) = 2 + 2(0.866) = 3.732\text{ m}$.
+Using energy: $\frac{1}{2}mv_{bot}^2 = \frac{1}{2}mv_B^2 + mgh_B$.
+$v_B^2 = v_{bot}^2 - 2gh_B = 5(3.65)(2) - 2(3.65)(3.732) = 36.5 - 27.24 = 9.26$.
+$v_B \approx 3.04\text{ m/s}$ at $60^\circ$ to the horizontal.
+
+**3. Projectile motion:**
+Vertical component: $u_y = 3.04 \sin(60^\circ) = 2.63\text{ m/s}$.
+$y = u_y t + \frac{1}{2}a t^2 \implies -3.732 = 2.63 t - 1.825 t^2$.
+Solving the quadratic $1.825t^2 - 2.63t - 3.732 = 0$ using the quadratic formula:
+$t = \frac{2.63 + \sqrt{2.63^2 - 4(1.825)(-3.732)}}{3.65} \approx 2.16\text{ s}$.
+Horizontal distance: $x = v_x t = (3.04 \cos 60^\circ) \times 2.16 = 1.52 \times 2.16 \approx 3.28\text{ m}$.
+
+The ball lands approximately **3.3 m** from the base.
+
+###QUESTION_TYPE
+Calculation question

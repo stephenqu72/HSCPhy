@@ -1,0 +1,35 @@
+To answer this question, we must apply the principles of the Lorentz force acting on charged particles moving through a magnetic field.
+
+### Explanation of the Physics
+When different types of radiation pass through a uniform magnetic field (perpendicular to the direction of motion), they behave differently based on their charge and mass:
+
+1.  **Gamma ($\gamma$) radiation:** These are high-energy photons. They have no charge, so they are not affected by the magnetic field and continue in a **straight line**.
+2.  **Alpha ($\alpha$) particles:** These are helium nuclei ($He^{2+}$). They have a positive charge and a relatively large mass. They will be deflected in a wide arc according to the right-hand rule.
+3.  **Beta ($\beta$) particles:** These are electrons ($e^-$) or positrons ($e^+$). Because they have a much smaller mass than alpha particles (despite their charge), they experience a significantly tighter deflection curve compared to alpha particles for the same momentum.
+
+### How to solve it
+To draw this diagram effectively:
+*   **Represent the field:** Draw dots ($\bullet$) across the box to represent a magnetic field directed *out of the page*.
+*   **Show the paths:** Draw three distinct paths entering from the left:
+    *   One straight line for **Gamma**.
+    *   One curved path for **Alpha** (deflected in one direction, e.g., upwards if positive).
+    *   One sharply curved path in the opposite direction for **Beta** (because they are negatively charged electrons and have a much lower mass-to-charge ratio).
+
+### Diagram Representation
+```text
+           (Alpha)
+          /
+         /
+---(Gamma)------------------------>
+         \
+          \
+           (Beta - tight curve)
+```
+
+**Key for your drawing:**
+*   **Field:** Fill the box with `$\bullet$` symbols.
+*   **Labels:** Clearly label the three paths: "Gamma (undeflected)", "Alpha (deflected)", and "Beta (strongly deflected)".
+*   **Logic:** Ensure the Beta path shows a significantly smaller radius of curvature than the Alpha path, demonstrating that the lower mass leads to a tighter trajectory in a magnetic field ($R = \frac{mv}{qB}$).
+
+###QUESTION_TYPE
+Short answer

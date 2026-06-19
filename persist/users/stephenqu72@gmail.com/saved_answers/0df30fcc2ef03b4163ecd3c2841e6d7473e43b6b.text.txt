@@ -1,0 +1,29 @@
+To determine the correct graph for the speed of a projectile, we need to analyze the velocity components of the projectile throughout its flight.
+
+### Explanation
+
+1.  **Velocity Components:**
+    A projectile launched with speed $v$ at an angle $\theta$ has two velocity components:
+    *   Horizontal velocity: $v_x = v \cos(\theta)$. Because we ignore air resistance in standard HSC physics problems, $v_x$ remains **constant** throughout the entire flight.
+    *   Vertical velocity: $v_y = v \sin(\theta) - gt$. This component changes linearly with time due to constant gravitational acceleration $g$.
+
+2.  **Defining Speed:**
+    Speed ($S$) is the magnitude of the velocity vector:
+    $$S = \sqrt{v_x^2 + v_y^2}$$
+    Substituting the expressions for $v_x$ and $v_y$:
+    $$S = \sqrt{(v \cos \theta)^2 + (v \sin \theta - gt)^2}$$
+
+3.  **Analyzing the behavior:**
+    *   **At the start ($t=0$):** The speed is $v$.
+    *   **At the peak of the flight:** The vertical velocity $v_y$ becomes $0$. The speed is at its minimum, equal to the constant horizontal velocity $v_x = v \cos(\theta)$. Since $v \cos(\theta) > 0$ (assuming $\theta \neq 90^\circ$), the speed never reaches zero.
+    *   **The shape of the curve:** The equation $S = \sqrt{C_1 + (C_2 - gt)^2}$ represents a hyperbola. As time progresses, the speed decreases until the peak, then increases again as it falls.
+
+4.  **Evaluating the Options:**
+    *   (A) and (D) are incorrect because they suggest the speed reaches zero, which only happens if the launch angle is $90^\circ$ (vertical motion).
+    *   (B) shows linear changes, but the magnitude of a vector sum of a constant and a linear function is non-linear (parabolic/hyperbolic).
+    *   (C) shows a curve that reaches a minimum value greater than zero, which correctly represents the constant horizontal component $v \cos \theta$ at the peak.
+
+**Correct Answer:** The graph that most closely represents the speed is **(C)**.
+
+### QUESTION_TYPE
+Multiple choice

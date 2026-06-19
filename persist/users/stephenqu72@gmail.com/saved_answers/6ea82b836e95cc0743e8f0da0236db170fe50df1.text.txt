@@ -1,0 +1,29 @@
+### Solution and Explanation
+
+#### Part a: Predicted Path
+The electron will follow a **parabolic path** curving downwards. Since the top plate is at $-110\text{ V}$ and the bottom is at $0\text{ V}$, the electric field points downwards (from high to low potential). An electron, being negatively charged, experiences an electric force $F = qE$ acting **upwards** (away from the negative plate). Wait—let's re-evaluate: The force on an electron is opposite to the direction of the electric field. Since the field points from $0\text{ V}$ to $-110\text{ V}$ (downwards), the force on the electron is **upwards**, toward the $0\text{ V}$ plate. However, typically, electrons in such problems are deflected *away* from the negative plate. Looking at the diagram, the electron is moving into the region. It will be accelerated by the electric field.
+
+#### Part b: Acceleration of the electron
+The electric field strength $E$ between parallel plates is given by $E = \frac{V}{d}$:
+$$E = \frac{110\text{ V}}{0.10\text{ m}} = 1100\text{ V/m}$$
+The force on the electron is $F = qE$. Using Newton's Second Law $F = ma$:
+$$a = \frac{qE}{m}$$
+Where $q = 1.6 \times 10^{-19}\text{ C}$ and $m = 9.11 \times 10^{-31}\text{ kg}$:
+$$a = \frac{(1.6 \times 10^{-19} \times 1100)}{9.11 \times 10^{-31}} \approx 1.93 \times 10^{14}\text{ ms}^{-2}$$
+The acceleration is directed **upwards** (towards the bottom plate if it is being pushed by the negative plate).
+
+#### Part c: Final Position
+To find the impact position, we use kinematics.
+1.  **Horizontal velocity:** $v_x = v \cos(70^\circ) = 4.5 \times 10^6 \times 0.342 = 1.54 \times 10^6\text{ ms}^{-1}$.
+2.  **Vertical velocity:** $v_y = v \sin(70^\circ) = 4.5 \times 10^6 \times 0.940 = 4.23 \times 10^6\text{ ms}^{-1}$.
+3.  **Time of flight:** The electron starts at the bottom plate and is pushed back into/towards it. Assuming the "aperture" is at the bottom plate, the vertical displacement $\Delta y = 0$. 
+$$y = v_{iy}t + \frac{1}{2}a_y t^2$$
+$$0 = (4.23 \times 10^6)t - \frac{1}{2}(1.93 \times 10^{14})t^2$$
+Solving for $t$ (excluding $t=0$):
+$$t = \frac{2 \times 4.23 \times 10^6}{1.93 \times 10^{14}} \approx 4.38 \times 10^{-8}\text{ s}$$
+4.  **Horizontal distance:**
+$$x = v_x t = (1.54 \times 10^6) \times (4.38 \times 10^{-8}) \approx 0.067\text{ m} = 6.7\text{ cm}$$
+The detector should be placed $6.7\text{ cm}$ horizontally from the aperture along the bottom plate.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,18 @@
+To solve this problem, we must apply the principles of electromagnetism governing an AC motor.
+
+### Explanation
+
+1.  **Force on the wire ($WX$):** The force on a current-carrying conductor in a magnetic field is given by the Motor Effect, defined by the formula $F = BIL \sin(\theta)$. In an **AC motor**, the current flowing through the coil is alternating (it changes direction periodically). Because the direction of the current $I$ reverses, the direction of the magnetic force $F$ acting on side $WX$ must also **reverse every $180^\circ$** (or every half-cycle of the AC current).
+
+2.  **Torque on the coil:** Torque ($\tau$) is the turning effect of the force, calculated by $\tau = rF \sin(\theta)$. 
+    *   In a simple DC motor, a split-ring commutator ensures the torque remains in a constant direction. 
+    *   However, in this **simple AC motor** (which lacks a commutator to rectify the current), the torque is directly proportional to the current. Since the current reverses direction every $180^\circ$ and the side of the coil has moved to the opposite side of the magnetic field, the direction of the rotation (torque) is maintained in the same sense to allow for continuous motion, or more accurately in the context of standard physics curriculum regarding AC motors: if the AC frequency is matched to the rotation, the torque direction is effectively maintained to keep the motor spinning in one direction.
+    *   Looking at the options provided, we must identify the relationship between the force reversal and the torque. Since the current reverses, the force on side $WX$ reverses. Because the coil has rotated $180^\circ$ by the time the current reverses, the side $WX$ is now in the position formerly occupied by side $YZ$, meaning the force continues to produce a torque in the **same (constant) direction**.
+
+Therefore, the force on $WX$ reverses every $180^\circ$, while the torque produced remains constant.
+
+### Answer
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

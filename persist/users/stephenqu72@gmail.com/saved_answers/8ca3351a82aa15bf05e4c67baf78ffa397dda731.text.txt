@@ -1,0 +1,29 @@
+To solve this problem, we need to calculate the torque $\tau$ acting on a current-carrying coil in a uniform magnetic field.
+
+### 1. Identify the Given Information
+*   Dimensions of the coil: $3.0\text{ cm} \times 4.0\text{ cm} = 0.03\text{ m} \times 0.04\text{ m}$
+*   Area ($A$): $0.03\text{ m} \times 0.04\text{ m} = 1.2 \times 10^{-3}\text{ m}^2$
+*   Current ($I$): $15.0\text{ mA} = 15.0 \times 10^{-3}\text{ A} = 0.015\text{ A}$
+*   Magnetic field strength ($B$): $3.0\text{ T}$
+*   Number of turns ($N$): $20$
+*   Angle ($\theta$): $25^\circ$ (This is the angle between the normal to the coil and the magnetic field).
+
+### 2. The Formula
+The torque on a current-carrying coil is given by:
+$$\tau = N I A B \sin(\theta)$$
+Where $\theta$ is the angle between the magnetic field vector and the normal to the plane of the coil.
+
+### 3. Calculation
+Substitute the values into the formula:
+$$\tau = 20 \times 0.015\text{ A} \times (1.2 \times 10^{-3}\text{ m}^2) \times 3.0\text{ T} \times \sin(25^\circ)$$
+$$\tau = 0.3 \times 1.2 \times 10^{-3} \times 3.0 \times 0.4226$$
+$$\tau = 1.08 \times 10^{-3} \times 0.4226$$
+$$\tau \approx 4.564 \times 10^{-4}\text{ Nm}$$
+
+### 4. Direction
+By applying the right-hand grip rule to the current loop, the magnetic moment vector points out of the page. The magnetic field points from N to S (left to right). The torque acts to align the magnetic moment with the field. Given the orientation shown, the rotation will be clockwise to bring the coil back to equilibrium.
+
+Comparing our result to the options, **(c)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

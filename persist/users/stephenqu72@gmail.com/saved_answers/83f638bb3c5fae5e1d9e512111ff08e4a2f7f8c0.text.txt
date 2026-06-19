@@ -1,0 +1,32 @@
+As an HSC Physics teacher, I will guide you through this classic projectile motion problem. The key principle here is the **independence of vertical and horizontal motion**.
+
+### Answer and Explanation
+
+**(a) Explain why the balls hit the ground at the same time.**
+The vertical and horizontal motions of an object are independent of each other. Both balls have an initial vertical velocity of $0\text{ ms}^{-1}$ and are subject to the same constant acceleration due to gravity ($g \approx 9.8\text{ ms}^{-2}$) acting downwards. Because their vertical displacement and acceleration are identical, their vertical motion is identical, regardless of any horizontal velocity.
+
+**(b) Calculate the time and range.**
+To find the time of flight, we use the vertical motion equation:
+$$s = ut + \frac{1}{2}at^2$$
+Since $u = 0$, $s = 2.0\text{ m}$, and $a = 9.8\text{ ms}^{-2}$:
+$$2.0 = 0(t) + \frac{1}{2}(9.8)t^2$$
+$$2.0 = 4.9t^2$$
+$$t^2 = \frac{2.0}{4.9} \approx 0.408$$
+$$t = \sqrt{0.408} \approx 0.64\text{ s}$$
+
+To find how far (horizontal range) the first ball travels, we use its constant horizontal velocity ($v_x = 4.0\text{ ms}^{-1}$):
+$$d = v_x \times t$$
+$$d = 4.0 \times 0.64 = 2.56\text{ m}$$
+
+**(c) Why do balls of different mass hit the ground at the same time?**
+While Newton's Second Law states that $F = ma$, the acceleration of an object in freefall is given by $a = \frac{F_g}{m}$. Since the gravitational force $F_g = mg$, the equation becomes $a = \frac{mg}{m}$, which simplifies to $a = g$. Therefore, the acceleration is independent of the mass of the object. Since both balls experience the same acceleration $g$, their motion remains identical.
+
+---
+
+### Strategy for Success
+1.  **Independence of Motion:** Always remember that horizontal velocity does not affect the time it takes for an object to fall vertically.
+2.  **Vertical Equations:** Use $s = ut + \frac{1}{2}at^2$ to solve for time whenever you have vertical displacement and acceleration.
+3.  **The "Mass" Trap:** In the absence of air resistance, mass cancels out in the equations of motion. Never let the mass of an object influence your time-of-flight calculations.
+
+###QUESTION_TYPE
+Calculation question

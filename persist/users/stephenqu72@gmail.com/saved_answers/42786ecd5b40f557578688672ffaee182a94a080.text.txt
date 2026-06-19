@@ -1,0 +1,17 @@
+The correct answer is **C**.
+
+### Explanation
+
+To understand why **C** is correct, we need to analyze the concept of escape velocity and how rockets operate:
+
+1.  **Defining Escape Velocity:** The escape velocity is defined as the minimum speed an object must have at a specific distance from a gravitational body to reach "infinity" (effectively escaping the gravitational influence) without any further propulsion. The formula is $v_e = \sqrt{\frac{2GM}{r}}$. This value is independent of the mass of the spacecraft, which makes option **D** incorrect.
+2.  **Continuous Propulsion:** A spacecraft does not have to reach escape velocity as an instantaneous "kick" (impulsive start). If a spacecraft has a propulsion system (rockets), it can provide continuous thrust. By constantly burning fuel, the rocket does the work against gravity, allowing it to move away from Earth at a speed much lower than the theoretical escape velocity. Effectively, the rocket is "climbing" out of the gravitational well rather than "jumping" out of it.
+3.  **Why the others are incorrect:**
+    *   **A:** If a spacecraft is in space and turns off its rockets, it does not necessarily fall back to Earth. If it has reached orbital velocity, it will continue to orbit. If it has enough energy, it may continue drifting.
+    *   **B:** As explained above, continuous thrust allows a spacecraft to travel to distant planets without ever needing to hit an instantaneous speed of $11,200\text{ m s}^{-1}$.
+    *   **D:** As shown in the formula $v_e = \sqrt{\frac{2GM}{r}}$, the mass of the spacecraft ($m$) cancels out in the energy conservation equation ($\frac{1}{2}mv^2 - \frac{GMm}{r} = 0$), so the escape velocity depends only on the mass of the central body ($M$) and the distance ($r$).
+
+Therefore, by using rockets to accelerate continuously, a spacecraft can escape Earth's gravity while maintaining a speed significantly lower than the value required for a single, unpowered launch.
+
+###QUESTION_TYPE
+Multiple choice

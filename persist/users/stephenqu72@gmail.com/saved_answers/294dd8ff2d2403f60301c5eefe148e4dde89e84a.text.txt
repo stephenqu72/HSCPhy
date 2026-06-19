@@ -1,0 +1,18 @@
+To solve this problem, we must apply the principles of electromagnetism, specifically the Lorentz force: $F = qE + q(v \times B)$.
+
+### Part (a)
+1.  **Magnetic Field ($B$):** The electron is moving to the right and experiences a force that causes it to spiral. For a charged particle to move in a circle (or spiral) due to a magnetic field, the force must be perpendicular to the velocity. Using the right-hand rule for a negative charge: if the particle enters to the right and spirals anti-clockwise (viewed from above), the magnetic force must be directed initially toward the center of the circle. To create an anti-clockwise motion for an electron (negative charge), the magnetic field must be directed **upwards**.
+2.  **Electric Field ($E$):** The electron is spiraling *upward*. This means there is a vertical force acting on the electron against the direction of the metal plates (or pulling it toward the top plate). Since the electron is negatively charged, it is attracted to positive potentials and repelled by negative potentials. To push the electron upward, the top plate must be **positively charged** and the bottom plate **negatively charged**, creating an electric field directed **downwards** (from positive to negative).
+
+**Answer:** The magnetic field is directed **upwards** and the electric field is directed **downwards**.
+
+### Part (b)
+1.  **Mass difference:** A proton is significantly more massive than an electron ($m_p \approx 1836 m_e$). The radius of curvature for a charged particle in a magnetic field is given by $r = \frac{mv}{qB}$. Because the mass of the proton is much larger, its radius of curvature will be significantly larger, meaning it will spiral much more widely than the electron.
+2.  **Charge difference:** The proton has a positive charge ($+e$) whereas the electron has a negative charge ($-e$). 
+    *   The **magnetic force** ($F_B = qv \times B$) will act in the opposite direction for the proton compared to the electron. Instead of an anti-clockwise spiral, it will spiral **clockwise**.
+    *   The **electric force** ($F_E = qE$) will also act in the opposite direction. While the electron was pushed upward by the electric field, the proton will be pushed **downward** toward the bottom plate.
+
+**Comparison:** The proton will move in a **downward spiral** in a **clockwise** direction (when viewed from above). Its path will be much wider (larger radius of curvature) than that of the electron due to its greater mass.
+
+###QUESTION_TYPE
+Short answer

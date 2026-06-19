@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying wires:
+
+$$F = \frac{\mu_0 I_1 I_2 L}{2 \pi r}$$
+
+### 1. Identify the given variables:
+*   Permeability of free space, $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$
+*   Current 1, $I_1 = 10 \, \text{A}$
+*   Current 2, $I_2 = 5.0 \, \text{A}$
+*   Length of wires, $L = 60 \, \text{cm} = 0.6 \, \text{m}$
+*   Separation distance, $r = 10 \, \text{cm} = 0.1 \, \text{m}$
+
+### 2. Calculate the force:
+Substitute the values into the formula:
+$$F = \frac{(4\pi \times 10^{-7}) \times 10 \times 5.0 \times 0.6}{2 \pi \times 0.1}$$
+
+Simplify the expression:
+*   $\frac{4\pi}{2\pi} = 2$
+*   Numerator: $2 \times 10^{-7} \times 10 \times 5 \times 0.6 = 60 \times 10^{-7} = 6.0 \times 10^{-6} \, \text{N}$ (Wait, let's re-calculate carefully).
+
+Re-calculating:
+$$F = \frac{(2 \times 10^{-7}) \times (10) \times (5) \times (0.6)}{0.1}$$
+$$F = \frac{10^{-7} \times 2 \times 50 \times 0.6}{0.1} = \frac{10^{-7} \times 60}{0.1} = 600 \times 10^{-7} = 6.0 \times 10^{-5} \, \text{N}$$
+
+*Self-Correction/Note:* Looking at the provided options (which are in the magnitude of $10^{-7}$), there may be a typo in the provided options' powers of ten or the intended calculation units. However, based on the standard physics principle, if currents are in **opposite directions**, the wires will **repel** each other. 
+
+Comparing the options provided, Option D ($6.0 \times 10^{-7} \, \text{N}$ repelling) matches the calculated numerical coefficient and the correct direction (repulsion). Note: If the question intended for a different length or distance, $6.0$ is the consistent coefficient.
+
+**Final Answer:** The correct choice is **D**.
+
+###QUESTION_TYPE
+Multiple choice

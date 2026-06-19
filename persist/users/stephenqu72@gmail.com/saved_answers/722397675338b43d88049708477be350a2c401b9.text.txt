@@ -1,0 +1,47 @@
+Hello! As an HSC physics teacher, I'm happy to walk you through this projectile motion problem. The key to these questions is separating the vertical motion from the horizontal motion.
+
+### Part a) How far below the conveyor belt is the truck?
+
+**Explanation:**
+The coal undergoes vertical motion due to gravity. The initial vertical velocity ($u_y$) is $0\text{ m/s}$ because the coal is moving horizontally off the belt. We use the kinematic equation for vertical displacement ($\Delta y$):
+
+$$\Delta y = u_y t + \frac{1}{2} g t^2$$
+
+Given:
+*   $u_y = 0\text{ m/s}$
+*   $g = 9.8\text{ m/s}^2$ (standard gravity)
+*   $t = 0.5\text{ s}$
+
+**Calculation:**
+$$\Delta y = 0(0.5) + \frac{1}{2}(9.8)(0.5)^2$$
+$$\Delta y = 4.9 \times 0.25$$
+$$\Delta y = 1.225\text{ m}$$
+
+**Answer:** The truck is **$1.23\text{ m}$** (or $1.2\text{ m}$ to 2 sig figs) below the conveyor belt.
+
+---
+
+### Part b) What is the minimum velocity of the conveyor belt if the coal falls into the truck?
+
+**Explanation:**
+Horizontally, the coal maintains a constant velocity ($v_x$) because there is no air resistance mentioned. The horizontal distance ($\Delta x$) the coal must travel to reach the truck is $2.0\text{ m}$. We use the formula:
+
+$$\Delta x = v_x t$$
+
+Rearranging to solve for velocity:
+$$v_x = \frac{\Delta x}{t}$$
+
+Given:
+*   $\Delta x = 2.0\text{ m}$
+*   $t = 0.5\text{ s}$
+
+**Calculation:**
+$$v_x = \frac{2.0}{0.5}$$
+$$v_x = 4.0\text{ m/s}$$
+
+**Answer:** The minimum velocity of the conveyor belt must be **$4.0\text{ m/s}$**.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,40 @@
+Hello! As an HSC Physics teacher, I'm here to guide you through this classic circular motion problem. First, let's list our known variables, converting them to SI units:
+*   Mass $m = 250\text{ g} = 0.25\text{ kg}$
+*   Velocity $v = 2.0\text{ m s}^{-1}$
+*   Radius $r = 50\text{ cm} = 0.5\text{ m}$
+
+---
+
+### (a) Diagram
+You should draw a vertical pole with a string attached at the top and the ball swinging in a horizontal circle.
+*   **Force vectors:** Draw a vertical arrow pointing down labeled $mg$ (gravity) and a diagonal arrow along the rope pointing towards the top of the pole labeled $T$ (tension).
+*   **Resultant:** The horizontal component of $T$ points towards the center of the circle; this is the **centripetal force** ($F_c$).
+
+### (b) Period of rotation
+The formula for period $T_p$ (time for one revolution) is:
+$$T_p = \frac{2\pi r}{v}$$
+$$T_p = \frac{2 \times \pi \times 0.5}{2.0} = \frac{\pi}{2} \approx 1.57\text{ s}$$
+
+### (c) Centripetal acceleration
+The formula for centripetal acceleration ($a_c$) is:
+$$a_c = \frac{v^2}{r}$$
+$$a_c = \frac{2.0^2}{0.5} = \frac{4}{0.5} = 8.0\text{ m s}^{-2}$$
+
+### (d) Magnitude and direction of tension
+1.  **Magnitude:** We know the vertical component of tension ($T_y$) must balance gravity: $T_y = mg = 0.25 \times 9.8 = 2.45\text{ N}$. The horizontal component ($T_x$) provides the centripetal force: $T_x = ma_c = 0.25 \times 8.0 = 2.0\text{ N}$.
+    The total tension $T$ is the vector sum:
+    $$T = \sqrt{T_x^2 + T_y^2} = \sqrt{2.0^2 + 2.45^2} = \sqrt{4 + 6.0025} \approx 3.16\text{ N}$$
+2.  **Direction:** The angle $\theta$ with the vertical can be found using:
+    $$\tan \theta = \frac{T_x}{T_y} = \frac{2.0}{2.45} \approx 0.816$$
+    $$\theta = \arctan(0.816) \approx 39.2^\circ \text{ from the vertical.}$$
+
+---
+
+### How to solve this
+*   **Part (a):** Always explicitly label the net force directed toward the center as the centripetal force.
+*   **Part (b):** Remember that circular motion kinematics link circumference ($2\pi r$) to velocity.
+*   **Part (c):** Standard application of the centripetal acceleration formula.
+*   **Part (d):** This requires resolving forces into vertical and horizontal components. Treat the vertical axis as balanced (equilibrium) and the horizontal axis as an accelerating system ($F_{net} = ma$). Use Pythagoras for magnitude and trigonometry for direction.
+
+###QUESTION_TYPE
+Calculation question

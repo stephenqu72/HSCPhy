@@ -1,0 +1,36 @@
+To solve this problem, we use the principles of electromagnetism as applied to J.J. Thomson’s experiment.
+
+### (a) Charge to mass ratio
+The charge to mass ratio for an electron is a fundamental constant found in standard physics data sheets:
+$$\frac{e}{m} = 1.76 \times 10^{11} \text{ C kg}^{-1}$$
+
+### (b) i. Direction of deflection
+Using the **Right-Hand Rule** (or Fleming's Left-Hand Rule for negative charges):
+- The cathode rays (electrons) move horizontally.
+- The magnetic field points from the North pole to the South pole (downward in the diagram).
+- For a negative charge, the force is in the direction opposite to the Right-Hand Rule. The resulting Lorentz force pushes the beam **upwards** on the fluorescent screen.
+
+### (b) ii. Calculate velocity
+When only the magnetic field acts, the magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r} \implies \frac{v}{r} = \frac{qB}{m} \implies v = \frac{q}{m} Br$$
+Substituting the given values ($e/m = 1.76 \times 10^{11}$, $B = 5.0 \times 10^{-3} \text{ T}$, $r = 6.5 \times 10^{-3} \text{ m}$):
+$$v = (1.76 \times 10^{11}) \times (5.0 \times 10^{-3}) \times (6.5 \times 10^{-3})$$
+$$v = 5.72 \times 10^6 \text{ m s}^{-1}$$
+
+### (c) Magnitude of the electric field
+For the beam to be undeflected, the electric force must balance the magnetic force:
+$$F_E = F_B \implies qE = qvB \implies E = vB$$
+Using the velocity calculated in part (b)ii:
+$$E = (5.72 \times 10^6) \times (5.0 \times 10^{-3})$$
+$$E = 2.86 \times 10^4 \text{ V m}^{-1} \text{ (or N C}^{-1})$$
+
+---
+
+### How to solve this:
+1. **Understand the Physics**: Know that cathode rays are electrons. Recognize the two states: purely magnetic deflection (circular motion) and balanced fields (velocity selection).
+2. **Standard Constants**: Always refer to your HSC data sheet for $e/m$.
+3. **Forces**: Use $F = qvB$ for magnetic force and $F = qE$ for electric force. Combine them with $F = \frac{mv^2}{r}$ for circular motion.
+4. **Directionality**: Apply the Right-Hand Rule carefully, remembering that electrons have a negative charge, which reverses the expected direction for positive particles.
+
+###QUESTION_TYPE
+Calculation question

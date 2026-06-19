@@ -1,0 +1,21 @@
+To determine the correct statement, we must look at the physics of a charged particle in a magnetic field.
+
+### Analysis
+The fundamental principle governing the force on a charge in a magnetic field is the **Lorentz Force Law**:
+$$F = qvB\sin(\theta)$$
+
+1.  **The Physics:** The force $F$ on a charge $q$ moving with velocity $v$ in a magnetic field $B$ is only non-zero if the charge is **moving** relative to the magnetic field.
+2.  **The Scenario:** The problem describes a ball hung from a fixed point. If the ball is stationary, its velocity $v = 0$. Consequently, the magnetic force $F$ is $0$.
+3.  **Evaluating the Diagram:** Because there is no force acting on the ball due to the magnetic field, the ball should hang vertically ($\theta = 0$). The diagram shows the ball deflected at an angle $\theta$, which implies an external force is pushing it. Since a stationary charge experiences no magnetic force, the diagram is fundamentally incorrect.
+
+### Evaluating the Options
+*   **A is correct.** A stationary charge does not experience a magnetic force, so it cannot be deflected by a static magnetic field.
+*   **B is incorrect.** Regardless of whether the charge is positive or negative, a stationary charge experiences no force in a magnetic field.
+*   **C is incorrect.** Since the force is zero, increasing the magnetic field strength will still result in a force of zero. The ball will remain vertical.
+*   **D is incorrect.** Since there is no force, changing the sign of the charge will not cause a deflection in the opposite direction; it will still hang vertically.
+
+### Conclusion
+The correct statement is **A**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,34 @@
+### Answer
+The correct option is **A. $R_2 > 2R_1$**.
+
+---
+
+### Explanation
+
+To solve this problem, we use the principle of moments (torques). For a system to be in rotational equilibrium, the sum of clockwise moments must equal the sum of counter-clockwise moments about the pivot.
+
+1.  **Define the variables:**
+    *   Let $m_W$ be the mass of sphere W and $m_X$ be the mass of sphere X.
+    *   We are given that $m_W = 2m_X$.
+    *   $R_1$ is the distance from the pivot to W.
+    *   $R_2$ is the distance from the pivot to X.
+
+2.  **Calculate the Torques:**
+    *   The torque exerted by W (acting counter-clockwise) is $\tau_W = m_W \cdot g \cdot R_1 = 2m_X \cdot g \cdot R_1$.
+    *   The torque exerted by X (acting clockwise) is $\tau_X = m_X \cdot g \cdot R_2$.
+
+3.  **Analyze the motion:**
+    *   When the rod is released, it is observed that X accelerates downwards. This means the clockwise torque produced by X must be greater than the counter-clockwise torque produced by W.
+    *   Therefore, the condition for this rotation is:
+        $$\tau_X > \tau_W$$
+
+4.  **Solve the inequality:**
+    *   Substitute the expressions for torque:
+        $$m_X \cdot g \cdot R_2 > 2m_X \cdot g \cdot R_1$$
+    *   Divide both sides by $m_X \cdot g$:
+        $$R_2 > 2R_1$$
+
+Since the clockwise torque is greater, the system rotates in the clockwise direction, causing X to move downwards. Thus, $R_2$ must be greater than $2R_1$.
+
+###QUESTION_TYPE
+Multiple choice

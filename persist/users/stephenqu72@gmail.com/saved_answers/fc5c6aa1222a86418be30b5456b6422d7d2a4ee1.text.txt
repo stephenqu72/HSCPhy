@@ -1,0 +1,28 @@
+To determine the direction of the force on the electron, we use the **Right-Hand Rule (RHR)** for magnetic forces, keeping in mind that the electron has a **negative charge**.
+
+### Answer
+The correct answer is **(D) Out of the page**.
+
+### Explanation
+To solve this, follow these steps using the Right-Hand Rule:
+
+1.  **Identify the variables:**
+    *   The magnetic field ($\vec{B}$) is pointing **up the page**.
+    *   The velocity of the electron ($v$) is pointing to the **left** (it is moving into the field from the right).
+    *   The charge of an electron is **negative** ($q < 0$).
+
+2.  **Apply the Right-Hand Rule (for a positive charge):**
+    *   Point your right-hand fingers in the direction of the velocity (to the **left**).
+    *   Curl your fingers toward the direction of the magnetic field ($\vec{B}$) (upward).
+    *   Your thumb now points **into the page**. This is the direction the force *would* be if the charge were positive.
+
+3.  **Adjust for the negative charge:**
+    *   Since the electron has a negative charge, the force will be in the **opposite direction** of what your right-hand thumb indicated.
+    *   Opposite to "into the page" is **out of the page**.
+
+Alternatively, you can use the left-hand rule directly for electrons (negative charges), where the thumb points to the force, the index finger to the magnetic field, and the middle finger to the velocity. 
+
+Using the Lorentz force formula $\vec{F} = q(\vec{v} \times \vec{B})$, because $q$ is negative, the direction of the cross product $\vec{v} \times \vec{B}$ is flipped. Since $\vec{v}$ (left) crossed with $\vec{B}$ (up) results in a vector pointing "into the page," multiplying by the negative charge $q$ forces the result to point **out of the page**.
+
+###QUESTION_TYPE
+Multiple choice

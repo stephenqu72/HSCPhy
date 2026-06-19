@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+**Given Data:**
+*   Wavelength ($\lambda$) = $700\text{ nm} = 700 \times 10^{-9}\text{ m}$
+*   Slit separation ($d$) = $1.50\text{ mm} = 1.50 \times 10^{-3}\text{ m}$
+*   Distance to screen ($L$) = $2.00\text{ m}$
+
+---
+
+#### (a) Fifth order maxima
+*   **Identification:** On the diagram, the central bright fringe is the 0th order. Counting outward from the center (central maximum), the fifth bright band on either side is the fifth order maximum. 
+*   **Explanation:** A bright band (maximum) occurs due to **constructive interference**. When light passes through both slits, the waves diffract and overlap. At the positions of the fifth order maxima, the path difference between the waves from the two slits is equal to an integer multiple of the wavelength ($n\lambda$), where $n=5$. This means the waves arrive "in phase" (crest meets crest, trough meets trough), resulting in an increase in amplitude and intensity.
+
+#### (b) Angle of diffraction
+To find the angle ($\theta$), we use the formula for constructive interference:
+$$d \sin(\theta) = n\lambda$$
+For the fifth order, $n=5$:
+$$\sin(\theta) = \frac{n\lambda}{d} = \frac{5 \times 700 \times 10^{-9}\text{ m}}{1.50 \times 10^{-3}\text{ m}}$$
+$$\sin(\theta) = \frac{3.5 \times 10^{-6}}{1.5 \times 10^{-3}} \approx 0.002333$$
+$$\theta = \arcsin(0.002333) \approx 0.134^\circ$$
+
+#### (c) Effect of replacing air with glass
+When the medium changes from air (refractive index $n_1 \approx 1.0$) to glass (refractive index $n_2 = 1.50$), the speed of light decreases.
+*   **Justification:** The wavelength of light in a medium is given by $\lambda_n = \frac{\lambda_{vac}}{n}$. Since the refractive index $n$ increases, the wavelength of the light inside the glass decreases.
+*   **Result:** Referring to the formula $d \sin(\theta) = n\lambda$, if $d$ and $n$ remain constant, a decrease in $\lambda$ leads to a decrease in $\sin(\theta)$. Consequently, the diffraction angle $\theta$ decreases, meaning the **fringe pattern will become more compressed** (the bands move closer together).
+
+---
+
+###QUESTION_TYPE
+Calculation question

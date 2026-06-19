@@ -1,0 +1,51 @@
+As a top HSC Physics teacher, I will guide you through the kinematics involved in this tennis problem.
+
+---
+
+### Part a)
+**Solution:**
+We use the equations of motion (SUVAT). Let the upward direction be positive.
+- Initial velocity ($u$) = ?
+- Displacement ($s$) = $1.8\text{ m}$ (at peak B)
+- Final velocity at peak ($v$) = $0\text{ m/s}$
+- Acceleration ($a$) = $-9.8\text{ m/s}^2$
+
+Using $v^2 = u^2 + 2as$:
+$$0 = u^2 + 2(-9.8)(1.8)$$
+$$u^2 = 35.28 \implies u = 5.94\text{ m/s}$$
+
+Now, find the time to reach peak B using $v = u + at$:
+$$0 = 5.94 - 9.8t_{up}$$
+$$t_{up} = 0.606\text{ s}$$
+
+Since the motion is symmetrical, the total time in the air is $t_{total} = 2 \times 0.606 \approx 1.2\text{ s}$.
+
+---
+
+### Part b)
+**Solution:**
+The ball takes $0.606\text{ s}$ to travel from A to B. The racquet head moves from C to B in this same time.
+The distance traveled by the racquet is a quarter-circle arc of radius $r = 1.8\text{ m}$.
+$$Distance = \frac{1}{4} \times (2\pi r) = \frac{1}{2} \pi (1.8) \approx 2.827\text{ m}$$
+$$Speed = \frac{Distance}{time} = \frac{2.827}{0.606} \approx 4.66\text{ m/s}$$
+
+---
+
+### Part c)
+**Solution:**
+First, find the time ($t$) it takes for the ball to reach the net ($12\text{ m}$ away) using horizontal velocity ($v_x = 24\text{ m/s}$):
+$$t = \frac{d}{v_x} = \frac{12}{24} = 0.5\text{ s}$$
+
+Next, find the vertical displacement ($s_y$) of the ball in $0.5\text{ s}$. Initial vertical velocity ($u_y$) is $0$ because it is launched horizontally:
+$$s_y = u_y t + \frac{1}{2} a t^2$$
+$$s_y = 0 + \frac{1}{2}(-9.8)(0.5)^2 = -1.225\text{ m}$$
+
+The ball was launched at a total height of $3.6\text{ m}$ ($1.8\text{ m} + 1.8\text{ m}$).
+Height above ground = $3.6 - 1.225 = 2.375\text{ m}$.
+The net is $0.90\text{ m}$ high. The clearance above the net is:
+$$2.375 - 0.90 = 1.475\text{ m} \approx 1.48\text{ m}$$
+
+---
+
+###QUESTION_TYPE
+Calculation question

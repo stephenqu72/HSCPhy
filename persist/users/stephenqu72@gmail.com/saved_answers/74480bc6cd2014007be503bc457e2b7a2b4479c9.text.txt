@@ -1,0 +1,34 @@
+To find the speed of the stone as it hits the sea, we use the **Principle of Conservation of Mechanical Energy**.
+
+### Explanation
+In the absence of air resistance, the total mechanical energy of the stone remains constant throughout its flight. The total energy at the point of release must equal the total energy at the point where it strikes the sea.
+
+1.  **Define the energy at the starting point:**
+    Let the reference height (zero potential energy) be the level of the top of the cliff.
+    *   Initial Kinetic Energy ($KE_i$): $\frac{1}{2}mv^2$
+    *   Initial Potential Energy ($PE_i$): $0$ (since we set the starting height as the reference level).
+    *   Total Energy ($E_i$): $\frac{1}{2}mv^2$
+
+2.  **Define the energy at the impact point:**
+    The stone hits the sea, which is a vertical distance $H$ below the starting point.
+    *   Final Kinetic Energy ($KE_f$): $\frac{1}{2}mv_f^2$, where $v_f$ is the speed at impact.
+    *   Final Potential Energy ($PE_f$): $-mgH$ (since it is below the reference level).
+    *   Total Energy ($E_f$): $\frac{1}{2}mv_f^2 - mgH$
+
+3.  **Equate the energies ($E_i = E_f$):**
+    $$\frac{1}{2}mv^2 = \frac{1}{2}mv_f^2 - mgH$$
+
+4.  **Solve for $v_f$:**
+    First, divide by $m$:
+    $$\frac{1}{2}v^2 = \frac{1}{2}v_f^2 - gH$$
+    Multiply by $2$:
+    $$v^2 = v_f^2 - 2gH$$
+    $$v_f^2 = v^2 + 2gH$$
+    $$v_f = \sqrt{v^2 + 2gH}$$
+
+Note: The height $h$ reached above the cliff is irrelevant to the final speed because the potential energy at the peak is converted back into kinetic energy, leaving the speed at the cliff-level return point equal to the initial speed $v$. The total energy change depends only on the net vertical displacement from start to finish ($H$).
+
+The correct expression is **D**.
+
+###QUESTION_TYPE
+Multiple choice

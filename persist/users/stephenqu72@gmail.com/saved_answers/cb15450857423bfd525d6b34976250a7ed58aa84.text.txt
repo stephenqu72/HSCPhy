@@ -1,0 +1,18 @@
+To determine the correct trajectory of the positively charged mass, we need to analyze the forces acting on it in two distinct stages.
+
+### 1. Analysis of Forces
+*   **Vertical motion:** Throughout the entire fall, the particle is subject to gravity ($F_g = mg$) acting downward. This creates a constant vertical acceleration, causing the particle to move in a parabolic path when a horizontal force is present.
+*   **Horizontal motion (Switch Closed):** The parallel plates create a uniform electric field between them. Since the mass is positively charged, it will be repelled by the positive plate and attracted to the negative plate, resulting in a constant horizontal force ($F_e = qE$). This causes a constant horizontal acceleration toward the right plate.
+*   **Horizontal motion (Switch Opened):** Once the switch is opened, the potential difference across the plates drops to zero (assuming the plates are not charged independently of the source). Consequently, the electric field disappears ($E = 0$). With no horizontal force acting on the particle, the horizontal acceleration becomes zero. According to Newton's First Law, the horizontal velocity remains constant at the value it reached at the moment the switch was opened.
+
+### 2. Evaluating the Trajectory
+*   **Top half (Switch Closed):** The particle experiences both gravity and a horizontal electric force. The path is a parabola curving toward the right.
+*   **Bottom half (Switch Opened):** The horizontal force vanishes. The particle continues to accelerate vertically due to gravity, but its horizontal velocity is now constant (no further horizontal acceleration). This means the path changes from a curve to a straight diagonal line.
+
+Looking at the options provided:
+*   **Option C** shows a parabolic curve that transitions into a straight line as the particle falls, accurately representing the transition from a state of horizontal acceleration to a state of constant horizontal velocity.
+
+**Correct Answer: C**
+
+### QUESTION_TYPE
+Multiple choice

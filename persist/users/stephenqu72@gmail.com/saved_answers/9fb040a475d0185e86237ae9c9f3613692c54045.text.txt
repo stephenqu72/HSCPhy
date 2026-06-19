@@ -1,0 +1,21 @@
+To solve this problem, we must analyze the physics of circular motion on a banked track.
+
+### Answer
+The correct statement is **A**.
+
+### Explanation
+When a cyclist moves in a circle on a banked track, they require a net **centripetal force** directed toward the center of the circular path to maintain that motion. 
+
+1.  **Physics Analysis:** The normal force ($F_N$) exerted by the track on the bicycle acts perpendicular to the surface of the incline. We can resolve this normal force into two components:
+    *   The vertical component ($F_N \cos\theta$) which balances the gravitational force ($mg$).
+    *   The horizontal component ($F_N \sin\theta$) which points toward the center of the circular track.
+2.  **Why A is correct:** It is precisely this horizontal component of the normal force that provides the necessary centripetal force to keep the cyclist turning without relying solely on friction. This prevents the cyclist from sliding outward.
+3.  **Why the others are incorrect:**
+    *   **B:** The vertical component of gravity is constant ($mg$); banking does not "reduce" gravity or stress in that manner.
+    *   **C:** Banking is designed specifically so that the cyclist *doesn't* have to rely on friction to stay on the track. If the cyclist travels at the "design speed," the track provides the necessary force without any friction at all.
+    *   **D:** This statement is vague and physically irrelevant to the dynamics of circular motion on a banked curve.
+
+By resolving forces, we see that $\sum F_c = F_N \sin\theta = \frac{mv^2}{r}$. This confirms that the track provides the center-directed (centripetal) force.
+
+###QUESTION_TYPE
+Multiple choice

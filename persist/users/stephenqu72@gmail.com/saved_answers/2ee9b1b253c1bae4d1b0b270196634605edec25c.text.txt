@@ -1,0 +1,27 @@
+### Teacher's Guide to Solving Question 28
+
+#### Part (a): Identifying Experimental Errors
+To answer this, look for factors that threaten the **validity** or **reliability** of data collection.
+
+*   **Error:** Parallax error due to the position of the ruler.
+*   **Description:** The ruler is placed on the floor, while the projectile motion occurs in the air (on the wall). Because the camera is at a distance, the scale on the ruler will appear distorted or at a different magnification compared to the actual trajectory on the wall.
+*   **Effect:** This leads to inaccurate measurement of displacements, resulting in systematic errors in calculating velocity and acceleration.
+*   **Alternative Error:** The camera is not perpendicular to the plane of motion. This leads to foreshortening of the trajectory, making displacement measurements smaller than their true values.
+
+#### Part (b): Describing Velocity and Acceleration
+To solve this, we analyze the provided graphs using kinematic principles.
+
+**1. Horizontal Motion:**
+*   **Velocity:** The "Horizontal displacement vs. time" graph is a straight line. The slope of this line represents the horizontal velocity ($v_x$). Since the slope is constant, the horizontal velocity is **constant**.
+*   **Acceleration:** Because the velocity is constant, the horizontal acceleration is **zero**.
+
+**2. Vertical Motion:**
+*   **Velocity:** The "Vertical velocity vs. time" graph is a straight line with a negative gradient. It shows the velocity decreasing from $4.0\text{ m s}^{-1}$ to approximately $-4.5\text{ m s}^{-1}$. This indicates the ball is moving upwards, slowing down, stopping momentarily at the peak ($v_y = 0$ at roughly $t = 0.4\text{ s}$), and then accelerating downwards.
+*   **Acceleration:** The acceleration is the gradient of the velocity-time graph.
+    $$\text{gradient} = \frac{\Delta v}{\Delta t} = \frac{-4.0 - 4.0}{1.2 - 0} = \frac{-8.0}{1.2} \approx -6.67\text{ m s}^{-2}$$
+    *(Note: The exact value depends on reading the grid; however, it indicates a constant, downward acceleration due to gravity, though the value is lower than $9.8\text{ m s}^{-2}$ likely due to air resistance or experimental conditions).*
+
+---
+
+### QUESTION_TYPE
+Experimental questions

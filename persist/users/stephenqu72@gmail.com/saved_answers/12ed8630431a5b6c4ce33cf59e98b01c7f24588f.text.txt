@@ -1,0 +1,29 @@
+To find the speed of the tips of the propeller, we need to calculate the linear velocity of an object moving in a circular path.
+
+### 1. Identify the given variables:
+*   Radius ($r$) = $8\text{ m}$ (the length of the blade)
+*   Period ($T$) = $0.32\text{ s}$
+
+### 2. Choose the relevant formula:
+The speed ($v$) of an object moving in a circle is the circumference ($2\pi r$) divided by the time it takes to complete one revolution (the period, $T$):
+$$v = \frac{2\pi r}{T}$$
+
+### 3. Perform the calculation:
+Substitute the values into the formula:
+$$v = \frac{2 \times \pi \times 8}{0.32}$$
+$$v = \frac{16\pi}{0.32}$$
+$$v \approx \frac{50.265}{0.32}$$
+$$v \approx 157.08\text{ m s}^{-1}$$
+
+Rounding to the appropriate number of significant figures (consistent with the provided options), we get $157\text{ m s}^{-1}$.
+
+Comparing this to the given options:
+(A) $79\text{ m s}^{-1}$
+(B) $155\text{ m s}^{-1}$
+(C) $157\text{ m s}^{-1}$
+(D) $2035\text{ m s}^{-1}$
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

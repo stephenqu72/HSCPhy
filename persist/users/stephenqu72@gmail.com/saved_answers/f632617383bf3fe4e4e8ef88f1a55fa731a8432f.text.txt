@@ -1,0 +1,31 @@
+To solve this problem, we use the principle of **Conservation of Mechanical Energy**. The total energy of the probe at the surface must equal its total energy at its maximum height $h$, where its velocity is zero.
+
+### 1. Identify the energy at the surface
+The total energy $E_{total}$ is the sum of kinetic energy ($K$) and gravitational potential energy ($U$):
+$$E_{surface} = K + U = \frac{1}{2}mv^2 - \frac{GMm}{R}$$
+
+We are told the launch speed $v$ is two-thirds of the escape speed $v_e$. The formula for escape speed is $v_e = \sqrt{\frac{2GM}{R}}$.
+Therefore, $v = \frac{2}{3} \sqrt{\frac{2GM}{R}}$.
+Substituting $v$ into the kinetic energy formula:
+$$K = \frac{1}{2}m \left( \frac{2}{3} \sqrt{\frac{2GM}{R}} \right)^2 = \frac{1}{2}m \left( \frac{4}{9} \cdot \frac{2GM}{R} \right) = \frac{4GMm}{9R}$$
+
+So, total energy at the surface is:
+$$E_{surface} = \frac{4GMm}{9R} - \frac{GMm}{R} = -\frac{5GMm}{9R}$$
+
+### 2. Identify the energy at maximum height
+At maximum height, the velocity is zero, so $K = 0$. The distance from the center of the planet is $r = R + h$.
+$$E_{max} = 0 - \frac{GMm}{R + h} = -\frac{GMm}{R + h}$$
+
+### 3. Equate energies and solve for $h$
+By conservation of energy, $E_{surface} = E_{max}$:
+$$-\frac{5GMm}{9R} = -\frac{GMm}{R + h}$$
+$$\frac{5}{9R} = \frac{1}{R + h}$$
+$$5(R + h) = 9R$$
+$$5R + 5h = 9R$$
+$$5h = 4R$$
+$$h = \frac{4}{5}R$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

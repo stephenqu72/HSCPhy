@@ -1,0 +1,33 @@
+To solve this problem, we use **Coulomb's Law**, which describes the electrostatic force between two point charges.
+
+### Step-by-Step Solution
+
+**1. Identify the given information:**
+*   Charge 1 ($q_1$): $3.0 \times 10^{-6}\text{ C}$
+*   Charge 2 ($q_2$): $-5.6 \times 10^{-16}\text{ C}$
+*   Distance ($r$): $0.10\text{ m}$
+*   Coulomb's constant ($k$): $\approx 8.99 \times 10^9\text{ N}\cdot\text{m}^2/\text{C}^2$
+
+**2. Select the formula:**
+The magnitude of the electric force is given by:
+$$F = k \frac{|q_1 q_2|}{r^2}$$
+*(Note: Since the question asks for the **magnitude**, we use the absolute values of the charges.)*
+
+**3. Substitute the values into the equation:**
+$$F = (8.99 \times 10^9) \frac{|(3.0 \times 10^{-6}) \times (-5.6 \times 10^{-16})|}{(0.10)^2}$$
+
+**4. Perform the calculation:**
+*   First, calculate the product of the charges:
+    $$|3.0 \times 10^{-6} \times -5.6 \times 10^{-16}| = 16.8 \times 10^{-22}$$
+*   Next, divide by the distance squared:
+    $$\frac{16.8 \times 10^{-22}}{0.01} = 16.8 \times 10^{-20}$$
+*   Finally, multiply by $k$:
+    $$F = 8.99 \times 10^9 \times 1.68 \times 10^{-19}$$
+    $$F \approx 15.1 \times 10^{-10} = 1.51 \times 10^{-9}\text{ N}$$
+
+Comparing this result to the given options, it matches **(B)**.
+
+**Answer:** (B) $1.5 \times 10^{-9}\text{ N}$
+
+###QUESTION_TYPE
+Multiple choice

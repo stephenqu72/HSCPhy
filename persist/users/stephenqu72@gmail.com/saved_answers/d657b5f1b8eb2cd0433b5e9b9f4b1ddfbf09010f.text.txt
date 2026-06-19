@@ -1,0 +1,34 @@
+To solve this problem, we need to determine the magnitude and direction of the magnetic force acting on a moving charge.
+
+### 1. Identify the Direction of the Magnetic Field ($B$)
+Using the **Right-Hand Grip Rule** for the current-carrying loop:
+- Point your right thumb in the direction of the current ($I$) at any point on the loop (e.g., the top wire flows to the left).
+- Curl your fingers through the center of the loop.
+- Your fingers point **out of the page** at the center of the loop. Therefore, the magnetic field $B$ is directed out of the page.
+
+### 2. Determine the Direction of the Force ($F$)
+We use the **Right-Hand Palm Rule** (or Fleming's Left-Hand Rule for negative charges) for the magnetic force on a moving charge $q$:
+- **Thumb:** Direction of velocity $v$ (to the right).
+- **Fingers:** Direction of magnetic field $B$ (out of the page).
+- **Palm:** Direction of force $F$ for a *positive* charge. 
+- For a positive charge, the palm points **up**.
+- Since the electron is a **negative** charge, we reverse the direction. Thus, the force on the electron is **down the page**.
+
+### 3. Calculate the Magnitude of the Force
+The formula for the magnetic force on a moving charge is:
+$$F = qvB\sin(\theta)$$
+Where:
+- $q = 1.602 \times 10^{-19}\text{ C}$ (charge of an electron)
+- $v = 1.5 \times 10^7\text{ m/s}$
+- $B = 30\ \mu\text{T} = 30 \times 10^{-6}\text{ T}$
+- $\theta = 90^\circ$ (since $v$ is in the plane of the page and $B$ is perpendicular to the page), so $\sin(90^\circ) = 1$.
+
+Calculation:
+$$F = (1.602 \times 10^{-19}) \times (1.5 \times 10^7) \times (30 \times 10^{-6})$$
+$$F \approx 1.6 \times 1.5 \times 30 \times 10^{-19+7-6}$$
+$$F \approx 7.2 \times 10^{-17}\text{ N}$$
+
+Combining the magnitude and direction, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

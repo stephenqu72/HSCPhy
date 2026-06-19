@@ -1,0 +1,35 @@
+To solve this problem, we must apply the formula for gravitational potential energy ($U$) of a mass $m$ at a distance $r$ from the center of a planet with mass $M$:
+
+$$U = -\frac{GMm}{r}$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Geometry:** The problem states the diagram is "drawn to scale." We need to determine the distances of $X$ and $Y$ from the center of the Earth.
+    *   Let $R$ be the radius of the Earth.
+    *   By measuring the diagram:
+        *   The distance from the center of the Earth to point $X$ is approximately $2R$.
+        *   The distance from the center of the Earth to point $Y$ is approximately $3R$.
+        *   *(Note: Using a ruler on screen, the radius of Earth is 1 unit, the distance to $X$ is 2 units, and the distance to $Y$ is 3 units.)*
+
+2.  **Set up the Ratio:**
+    We want to find the ratio $\frac{U_x}{U_y}$:
+    $$\frac{U_x}{U_y} = \frac{-\frac{GMm}{r_x}}{-\frac{GMm}{r_y}}$$
+    The constants $G$, $M$, and $m$ cancel out:
+    $$\frac{U_x}{U_y} = \frac{r_y}{r_x}$$
+
+3.  **Substitute the Values:**
+    From our scale measurement:
+    *   $r_x = 2$
+    *   $r_y = 3$
+    
+    Therefore:
+    $$\frac{U_x}{U_y} = \frac{3}{2} = 1.5$$
+
+4.  **Conclusion:**
+    The ratio of the gravitational potential energy at $X$ to that at $Y$ is $1.5$. This corresponds to option **C**.
+
+**Answer:**
+The correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

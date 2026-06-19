@@ -1,0 +1,39 @@
+To solve this problem, we need to determine the charge of the nucleus (which will reveal the number of protons) by using the given kinetic energy to find the mass, and then using the electric field information to find the charge.
+
+### Step 1: Find the mass of the nucleus
+We use the kinetic energy formula:
+$$E_k = \frac{1}{2}mv^2$$
+
+Rearranging for mass $m$:
+$$m = \frac{2E_k}{v^2}$$
+
+Given $E_k = 1.00 \times 10^{-24}\text{ J}$ and $v = 10\text{ m s}^{-1}$:
+$$m = \frac{2 \times 1.00 \times 10^{-24}}{10^2} = \frac{2 \times 10^{-24}}{100} = 2.00 \times 10^{-26}\text{ kg}$$
+
+### Step 2: Find the charge of the nucleus
+When a charged particle is in an electric field, it experiences a force $F = qE$, and according to Newton's Second Law, $F = ma$. Therefore:
+$$qE = ma$$
+
+Rearranging for charge $q$:
+$$q = \frac{ma}{E}$$
+
+Given $m = 2.00 \times 10^{-26}\text{ kg}$, $a = 4.79 \times 10^7\text{ m s}^{-2}$, and $E = 1.00\text{ V m}^{-1}$:
+$$q = \frac{(2.00 \times 10^{-26}) \times (4.79 \times 10^7)}{1.00}$$
+$$q = 9.58 \times 10^{-19}\text{ C}$$
+
+### Step 3: Determine the number of protons
+The charge of a single proton is $e \approx 1.602 \times 10^{-19}\text{ C}$. The number of protons $Z$ is:
+$$Z = \frac{q}{e} = \frac{9.58 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 5.98$$
+
+Rounding to the nearest whole number, we get $Z = 6$. Looking at the periodic table, the element with 6 protons is Carbon.
+
+Comparing our result to the options provided:
+(A) 6
+(B) 3
+(C) 12
+(D) 28
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

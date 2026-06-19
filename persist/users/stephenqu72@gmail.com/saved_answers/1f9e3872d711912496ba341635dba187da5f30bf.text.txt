@@ -1,0 +1,20 @@
+To determine the correct answer, we need to analyze the physical meaning of the area under a Force vs. distance ($F$ vs. $r$) graph.
+
+### Analysis
+The area under a graph is calculated by the integral $\int F \, dr$. In physics, when we integrate a force with respect to the displacement ($dr$) over which it acts, we are calculating the **work done** by that force.
+
+The relationship between work and energy is defined by the work-energy theorem, which states that the work done by a conservative force (like gravity) is equal to the negative change in potential energy:
+$$W = \int_{r_1}^{r_2} F \, dr = -\Delta U$$
+Alternatively, if we define the work done *against* the gravitational field to move the planet from distance $X$ to $Y$, that work is equal to the change in gravitational potential energy ($\Delta U$). Since the gravitational force is directed toward the Sun, moving away from the Sun (from $X$ to $Y$) results in the field doing negative work, which corresponds to an increase in potential energy. 
+
+1. **Impulse (A):** This is the area under a Force vs. *time* graph ($F \times \Delta t = \Delta p$). This is incorrect.
+2. **Change in gravitational potential energy (B):** Since work $W = \int F \, dr$, and the work done on the object as it moves in a gravitational field corresponds to the change in potential energy, this is the correct physical interpretation.
+3. **Kinetic energy (C):** Kinetic energy is a state variable ($ \frac{1}{2}mv^2 $), not the integral of force over distance.
+4. **Centripetal force (D):** The centripetal force is simply the value of the force $F$ at a specific $r$, not an area.
+
+**Conclusion:** The area under an $F$ vs. $r$ graph represents the work done, which corresponds to the change in gravitational potential energy.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

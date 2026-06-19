@@ -1,0 +1,27 @@
+To solve this problem, we use the principle of conservation of energy. When a charge $q$ is accelerated through a potential difference $V$, the work done by the electric field on the charge is equal to the change in its kinetic energy.
+
+### Step-by-Step Solution:
+
+1.  **Identify the relationship:**
+    The work done on a charge accelerated through a potential difference is given by:
+    $$W = qV$$
+    Since this work manifests as an increase in kinetic energy ($\Delta EK$), we have:
+    $$qV = \Delta EK$$
+
+2.  **Calculate the change in kinetic energy ($\Delta EK$):**
+    The kinetic energy increases from $2.0 \times 10^{-5}\text{ J}$ to $6.0 \times 10^{-5}\text{ J}$.
+    $$\Delta EK = EK_{final} - EK_{initial}$$
+    $$\Delta EK = 6.0 \times 10^{-5}\text{ J} - 2.0 \times 10^{-5}\text{ J} = 4.0 \times 10^{-5}\text{ J}$$
+
+3.  **Rearrange the formula to solve for the charge ($q$):**
+    $$q = \frac{\Delta EK}{V}$$
+
+4.  **Substitute the known values:**
+    Given $V = 2000\text{ V}$ and $\Delta EK = 4.0 \times 10^{-5}\text{ J}$:
+    $$q = \frac{4.0 \times 10^{-5}\text{ J}}{2000\text{ V}}$$
+    $$q = \frac{4.0 \times 10^{-5}}{2.0 \times 10^{3}} = 2.0 \times 10^{-8}\text{ C}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To solve this problem, we use the standard physical constants for Earth:
+- Mass of Earth ($M$) $\approx 5.97 \times 10^{24}\text{ kg}$
+- Gravitational constant ($G$) $\approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+
+### (a) Gravitational Potential Energy ($U$)
+The formula for gravitational potential energy is $U = -\frac{GMm}{r}$. The question asks for the **magnitude**, so we ignore the negative sign.
+$$|U| = \frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(2000)}{8.0 \times 10^6}$$
+$$|U| \approx 9.95 \times 10^{10}\text{ J}$$
+
+### (b) Orbital Velocity ($v$)
+For a circular orbit, the centripetal force is provided by gravity: $\frac{mv^2}{r} = \frac{GMm}{r^2}$. Solving for $v$:
+$$v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{8.0 \times 10^6}}$$
+$$v \approx 7054\text{ m/s} \approx 7.1 \times 10^3\text{ m/s}$$
+
+### (c) Chemical Energy of Fuel
+The energy required to change orbits is the difference in Total Mechanical Energy ($E = -\frac{GMm}{2r}$).
+- **Initial state:** $m_1 = 2000\text{ kg}$, $r_1 = 8.0 \times 10^6\text{ m}$
+  $$E_1 = -\frac{GMm_1}{2r_1} = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(2000)}{2(8.0 \times 10^6)} \approx -4.976 \times 10^{10}\text{ J}$$
+- **Final state:** $m_2 = 1000\text{ kg}$, $r_2 = 1.6 \times 10^7\text{ m}$
+  $$E_2 = -\frac{GMm_2}{2r_2} = -\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})(1000)}{2(1.6 \times 10^7)} \approx -1.244 \times 10^{10}\text{ J}$$
+- **Energy gained ($\Delta E$):**
+  $$\Delta E = E_2 - E_1 = (-1.244 \times 10^{10}) - (-4.976 \times 10^{10}) \approx 3.73 \times 10^{10}\text{ J}$$
+
+The chemical energy in the fuel must provide this increase in orbital energy. 
+*Note: In a real-world scenario, the kinetic energy of the expelled exhaust would also be considered, but in standard HSC Physics, the energy required for the satellite's transition is calculated via the change in mechanical energy.*
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,32 @@
+### Teacher's Solution and Explanation
+
+#### Part (a): Calculation
+To calculate the altitude, we use Kepler's Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$.
+
+**Step 1: Identify known values**
+*   Period of a geostationary orbit, $T = 24 \text{ hours} = 86,400 \text{ s}$
+*   Gravitational constant, $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$
+*   Mass of Earth, $M = 5.97 \times 10^{24} \text{ kg}$
+*   Radius of Earth, $R_E \approx 6.38 \times 10^6 \text{ m}$
+
+**Step 2: Solve for orbital radius ($r$)**
+$$r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$$
+$$r = \sqrt[3]{\frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times (86400)^2}{4\pi^2}}$$
+$$r \approx 4.22 \times 10^7 \text{ m}$$
+
+**Step 3: Calculate altitude ($h$)**
+The orbital radius $r$ is measured from the center of the Earth. To find the altitude $h$ above the Earth's surface:
+$$h = r - R_E$$
+$$h = 4.22 \times 10^7 \text{ m} - 6.38 \times 10^6 \text{ m} \approx 3.58 \times 10^7 \text{ m} \text{ (or } 35,800 \text{ km)}$$
+
+---
+
+#### Part (b): Justification
+A satellite in geostationary orbit remains fixed at a constant position relative to a point on the Earth's surface because its orbital period matches the Earth's rotation (24 hours). This is advantageous for communications because:
+1.  **Constant Connectivity:** Ground-based satellite dishes do not need to track the satellite; they can be pointed in a fixed direction permanently.
+2.  **Wide Coverage:** Being at a high altitude allows a single satellite to "see" and cover approximately one-third of the Earth's surface, facilitating regional or national communication networks without the need for a complex constellation of moving satellites (as required in Low Earth Orbit).
+
+---
+
+### QUESTION_TYPE
+Calculation question

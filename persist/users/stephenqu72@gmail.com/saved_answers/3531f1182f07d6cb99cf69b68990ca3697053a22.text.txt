@@ -1,0 +1,24 @@
+To determine which ball hits the ground with the highest speed, we can use the **Law of Conservation of Energy**.
+
+### The Answer
+The correct answer is **(D) All three balls will hit the ground with the same speed.**
+
+### Explanation
+To solve this problem, consider the mechanical energy of the system. Assuming air resistance is negligible, the total mechanical energy (sum of gravitational potential energy and kinetic energy) of each ball is conserved throughout its flight.
+
+1.  **Initial Energy:** All three balls are identical (same mass $m$) and are thrown from the same height ($h$) with the same initial speed ($v$). Therefore, the initial total energy $E_i$ for each ball is identical:
+    $$E_i = PE + KE = mgh + \frac{1}{2}mv^2$$
+
+2.  **Final Energy:** When the balls reach the base of the cliff, their potential energy is zero. All their initial energy has been converted into kinetic energy $KE_f$:
+    $$E_f = \frac{1}{2}mv_f^2$$
+
+3.  **Conservation:** Since $E_i = E_f$, we can set up the equation:
+    $$mgh + \frac{1}{2}mv^2 = \frac{1}{2}mv_f^2$$
+
+4.  **Result:** By cancelling the mass $m$ and rearranging for the final velocity $v_f$, we get:
+    $$v_f = \sqrt{2gh + v^2}$$
+
+Because $g$ (gravity), $h$ (height of the cliff), and $v$ (initial speed) are identical for all three balls, the final speed $v_f$ must also be identical for all three. The direction in which they are thrown affects their trajectory and the time they spend in the air, but it does not change the amount of work done by gravity or the conservation of total mechanical energy.
+
+### QUESTION_TYPE
+Multiple choice

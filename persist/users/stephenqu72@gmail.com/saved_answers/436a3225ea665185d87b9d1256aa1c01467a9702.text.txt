@@ -1,0 +1,29 @@
+To solve this problem, we must refer to the physics formula for the magnetic force per unit length ($F/L$) between two infinitely long, parallel, current-carrying conductors:
+
+$$ \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r} $$
+
+Where:
+*   $F$ is the magnitude of the force.
+*   $L$ is the length of the conductors.
+*   $\mu_0$ is the permeability of free space.
+*   $I_1$ and $I_2$ are the currents in the two conductors.
+*   $r$ is the separation distance between the conductors.
+
+### Analysis
+The relationship we are investigating is between the force $F$ and the distance $r$. Assuming the currents $I_1$ and $I_2$ are kept constant, we can see from the formula that:
+$$ F \propto \frac{1}{r} $$
+
+This is an **inverse relationship**. Mathematically, as the distance $r$ increases, the force $F$ decreases according to a reciprocal function (a hyperbola). 
+*   When $r$ is very small, $F$ is very large (approaching infinity).
+*   When $r$ is very large, $F$ is very small (approaching zero).
+
+### Evaluating the Graphs
+*   **Graph A** shows a direct linear relationship ($F \propto r$). This is incorrect.
+*   **Graph B** shows a linear decrease. This is incorrect.
+*   **Graph C** shows an exponential/power growth. This is incorrect.
+*   **Graph D** shows a curve that starts high and decreases as the x-axis increases, flattening out as it approaches the x-axis. This represents the reciprocal relationship $F \propto 1/r$.
+
+Therefore, the correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

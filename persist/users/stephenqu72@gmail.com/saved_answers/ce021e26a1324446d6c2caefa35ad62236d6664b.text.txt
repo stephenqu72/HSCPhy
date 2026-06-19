@@ -1,0 +1,32 @@
+To solve this problem, we use the principles of projectile motion. 
+
+**Given data:**
+*   Launch angle: $\theta = 25^\circ$
+*   Time interval between frames: $\Delta t = 0.1 \text{ s}$
+*   Time to reach maximum height: $t_{up} = 3.5 \text{ frames} \times 0.1 \text{ s/frame} = 0.35 \text{ s}$
+*   Acceleration due to gravity: $g \approx 9.8 \text{ m/s}^2$
+
+---
+
+### a) Calculate the maximum vertical displacement
+At maximum height, the vertical velocity $v_y = 0$. We use the formula $v_y = u_y - gt$.
+Setting $v_y = 0$: $u_y = gt = 9.8 \times 0.35 = 3.43 \text{ m/s}$.
+The displacement is $s_y = u_y t - \frac{1}{2}gt^2$:
+$$s_y = (3.43)(0.35) - 0.5(9.8)(0.35)^2 = 1.2005 - 0.60025 = 0.60 \text{ m}$$
+
+### b) Calculate the student's launch velocity
+We know the vertical component $u_y = u \sin\theta$.
+$$u = \frac{u_y}{\sin\theta} = \frac{3.43}{\sin(25^\circ)} \approx \frac{3.43}{0.4226} \approx 8.12 \text{ m/s}$$
+
+### c) Calculate the student's range
+First, find total time of flight $T$. Since the jump is symmetric (ignoring height difference between launch and landing): $T = 2 \times t_{up} = 0.7 \text{ s}$.
+Horizontal velocity $v_x = u \cos\theta = 8.12 \times \cos(25^\circ) \approx 7.36 \text{ m/s}$.
+$$Range = v_x \times T = 7.36 \times 0.7 = 5.15 \text{ m}$$
+
+### d) State ONE assumption
+One common assumption is that **air resistance is negligible** or that the **take-off and landing heights are the same** (level ground).
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,39 @@
+To solve this problem, we must apply the principles of electrostatics and kinematics. Since the region is gravity-free, the only force acting on the charged particle is the electric force provided by the parallel plates.
+
+### Part (a): Find the acceleration of the charged particle
+1. **Identify given values:**
+   - Mass $m = 5.0\text{ mg} = 5.0 \times 10^{-6}\text{ kg}$
+   - Charge $q = +2.0\text{ \mu C} = 2.0 \times 10^{-6}\text{ C}$
+   - Voltage $V = 2000\text{ V}$
+   - Distance between plates $d = 2.0\text{ m}$
+
+2. **Calculate the Electric Field ($E$):**
+   $$E = \frac{V}{d} = \frac{2000}{2.0} = 1000\text{ V/m (or N/C)}$$
+
+3. **Calculate the Electric Force ($F$):**
+   $$F = qE = (2.0 \times 10^{-6}\text{ C}) \times 1000\text{ N/C} = 2.0 \times 10^{-3}\text{ N}$$
+
+4. **Calculate Acceleration ($a$):**
+   Using Newton's Second Law, $F = ma$:
+   $$a = \frac{F}{m} = \frac{2.0 \times 10^{-3}\text{ N}}{5.0 \times 10^{-6}\text{ kg}} = 400\text{ m/s}^2$$
+   Since the particle is positively charged and moving toward the negative plate, the force acts **downward** toward the negative plate.
+
+### Part (b): How far along will the particle hit the negative plate?
+This is a projectile motion problem where the "gravity" is the electric acceleration calculated above. 
+- Initial velocity: $v_0 = 4.00\text{ m/s}$ at $30^\circ$.
+- Horizontal component: $v_x = v_0 \cos(30^\circ) = 4.00 \times \frac{\sqrt{3}}{2} \approx 3.464\text{ m/s}$.
+- Initial vertical component: $v_{0y} = v_0 \sin(30^\circ) = 4.00 \times 0.5 = 2.00\text{ m/s}$ (directed upward, away from the negative plate).
+
+1. **Find time ($t$) to hit the negative plate:**
+   The plate is $2.0\text{ m}$ away. Since the particle starts at the bottom plate and moves upward, its displacement $y = -2.0\text{ m}$ when it hits the bottom plate again.
+   Using $y = v_{0y}t + \frac{1}{2}a_yt^2$:
+   $$-2.0 = 2.00t + \frac{1}{2}(-400)t^2$$
+   $$-2.0 = 2.00t - 200t^2 \Rightarrow 200t^2 - 2.00t - 2.0 = 0 \Rightarrow 100t^2 - t - 1 = 0$$
+   Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+   $$t = \frac{1 \pm \sqrt{(-1)^2 - 4(100)(-1)}}{200} = \frac{1 \pm \sqrt{401}}{200} \approx \frac{1 + 20.025}{200} \approx 0.105\text{ s}$$
+
+2. **Calculate horizontal distance ($x$):**
+   $$x = v_x \times t = 3.464\text{ m/s} \times 0.105\text{ s} \approx 0.364\text{ m}$$
+
+###QUESTION_TYPE
+Calculation question

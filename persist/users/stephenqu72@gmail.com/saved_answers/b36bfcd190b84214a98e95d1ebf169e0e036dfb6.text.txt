@@ -1,0 +1,18 @@
+### Answer
+Newton’s 3rd law states that for every action, there is an equal and opposite reaction. In the context of two parallel current-carrying wires, this law is demonstrated by the forces they exert on each other:
+
+1.  **Field Generation:** Each current-carrying wire creates a magnetic field ($B$) in the space surrounding it, described by Ampère’s Law. Wire 1 creates a field $B_1$ at the location of Wire 2, and Wire 2 creates a field $B_2$ at the location of Wire 1.
+2.  **Force Exertion:** The force ($F$) experienced by a current-carrying wire in an external magnetic field is given by $F = IlB \sin(\theta)$. Consequently, Wire 1 experiences a force due to $B_2$, and Wire 2 experiences a force due to $B_1$.
+3.  **Action-Reaction Pair:** Because the magnitude of the magnetic field produced by a wire is proportional to its current ($B \propto I$), and the force on a wire is proportional to both the current in that wire and the external magnetic field ($F \propto I \cdot B$), both wires experience an identical magnitude of force.
+4.  **Opposite Direction:** By the right-hand grip rule and the motor effect (left-hand rule), if the currents are in the same direction, the forces are attractive; if opposite, they are repulsive. In both cases, the forces are equal in magnitude and opposite in direction, satisfying Newton’s 3rd Law.
+
+### How to solve this
+To secure full marks on this HSC physics response, follow these steps:
+
+*   **Define the physics principle:** Explicitly state what Newton’s 3rd law is (equal and opposite forces).
+*   **Link the fields:** Explain that Wire 1 produces a field that acts on Wire 2, and Wire 2 produces a field that acts on Wire 1. Mentioning the Motor Effect ($F = IlB$) is essential for linking the magnetic field strength to the resulting force.
+*   **Show equality:** Demonstrate that since the force on each wire depends on the product of the currents ($F \propto I_1 I_2$), the magnitude of the force on Wire 1 due to Wire 2 is the same as the magnitude of the force on Wire 2 due to Wire 1.
+*   **Conclude with "equal and opposite":** Explicitly link the symmetry of the interaction to the definition of the 3rd law to ensure the examiner sees the complete connection.
+
+###QUESTION_TYPE
+Short answer

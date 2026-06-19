@@ -1,0 +1,32 @@
+Hello! As an HSC Physics teacher, I will help you break down this question. This type of question tests your fundamental understanding of Kepler's Laws of Planetary Motion, specifically the relationship between orbital period and semimajor axis.
+
+### **Answers**
+
+**a) Explain how this is possible with such different eccentricities. (2 marks)**
+The orbital period ($T$) of a planet depends solely on its semimajor axis ($a$) and the mass of the central star, not on the eccentricity of the orbit. According to Kepler's Third Law, $T^2 \propto a^3$. Since the problem states that both Planet X and Planet Y have the same semimajor axis, they must have the same orbital period, regardless of how stretched (eccentric) Orbit Y is compared to the circular orbit of Planet X.
+
+**b) Describe how you can verify that Kepler’s Third Law is universal. In your answer, include the expected results. (3 marks)**
+To verify the universality of Kepler's Third Law, one could collect orbital data (period $T$ and semimajor axis $a$) from entirely different systems—for example, comparing the orbits of planets in our Solar System to the orbits of man-made satellites around the Earth. By calculating the ratio $\frac{T^2}{a^3}$ for various objects, you would expect to find that this ratio remains constant for all objects orbiting the *same* central mass. Furthermore, by including the mass of the central body ($M$) in the formula $T^2 = \frac{4\pi^2}{GM}a^3$, you would observe that the same mathematical relationship holds true across different systems (e.g., Earth-Sun vs. Earth-Satellite), proving the law is universal.
+
+***
+
+### **How to Solve This Question**
+
+**Step 1: Identify the key physical principle.**
+When you see diagrams of orbits and mentions of "semimajor axis" or "period," your mind should immediately go to **Kepler's Third Law**. The most important takeaway from this law is that the shape of the orbit (eccentricity) does not affect the time it takes to complete one revolution; only the "average" distance (semimajor axis) matters.
+
+**Step 2: Analyze Part (a).**
+*   **The Trap:** Students often think a more "stretched" orbit (high eccentricity) must take longer because it travels further from the star.
+*   **The Solution:** You must explicitly state that $T$ is independent of eccentricity ($e$) and dependent only on $a$. Use the proportional relationship $T^2 \propto a^3$ to support your logic. This earns you the marks for "explanation."
+
+**Step 3: Analyze Part (b).**
+*   **The Concept of "Universality":** In physics, universality means a law applies everywhere in the universe, not just in our solar system. 
+*   **The Method:** To "verify" something, you need to compare different sets of data. I suggested comparing planetary orbits with satellite orbits. This shows that the principle isn't unique to planets.
+*   **The Expected Result:** You must provide a measurable outcome. The expected result is that the relationship (the ratio or the formula) remains consistent/constant when applied to different scales and systems.
+
+**Step 4: Check your marking criteria.**
+*   For **(a)**, you need two points: 1) Period depends on $a$, not $e$; 2) Since $a$ is equal, $T$ must be equal.
+*   For **(b)**, you need three points: 1) A method (comparing different systems); 2) The specific variable/ratio being checked ($\frac{T^2}{a^3}$); 3) The outcome (the ratio remains constant/law holds).
+
+###QUESTION_TYPE
+Short answer

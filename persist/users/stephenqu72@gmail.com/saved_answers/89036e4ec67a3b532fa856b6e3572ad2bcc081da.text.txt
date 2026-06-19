@@ -1,0 +1,37 @@
+To solve this problem, we use the formula for the surface gravity of a planet, which is derived from Newton's Law of Universal Gravitation:
+
+$$g = \frac{GM}{r^2}$$
+
+where:
+*   $G$ is the universal gravitational constant.
+*   $M$ is the mass of the planet.
+*   $r$ is the radius of the planet.
+
+### Step-by-Step Explanation:
+
+1.  **Define the initial state:** 
+    The initial surface gravity is $g = \frac{GM}{r^2}$.
+
+2.  **Define the new state:** 
+    The problem states that both the mass and the radius are halved. Let $M'$ and $r'$ be the new mass and radius:
+    *   $M' = \frac{M}{2}$
+    *   $r' = \frac{r}{2}$
+
+3.  **Substitute into the formula:** 
+    Calculate the new surface gravity $g'$ by substituting $M'$ and $r'$ into the gravity equation:
+    $$g' = \frac{G \cdot M'}{(r')^2}$$
+    $$g' = \frac{G \cdot (\frac{M}{2})}{(\frac{r}{2})^2}$$
+
+4.  **Simplify the expression:**
+    $$g' = \frac{\frac{GM}{2}}{\frac{r^2}{4}}$$
+    $$g' = \frac{GM}{2} \cdot \frac{4}{r^2}$$
+    $$g' = 2 \cdot \frac{GM}{r^2}$$
+
+5.  **Relate back to the original gravity:**
+    Since $g = \frac{GM}{r^2}$, we can substitute $g$ into our result:
+    $$g' = 2g$$
+
+Comparing this result to the given options, the correct choice is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

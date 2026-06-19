@@ -1,0 +1,34 @@
+To find the magnitude of the force on a current-carrying conductor in a magnetic field, we use the formula:
+
+$$F = BIl \sin(\theta)$$
+
+### Given data:
+*   Magnetic field strength, $B = 2.5\text{ T}$
+*   Current, $I = 1.5\text{ A}$
+*   Length of the conductor, $l = 0.24\text{ m}$
+*   Angle between the conductor and the magnetic field lines, $\theta = 25^\circ$
+
+### Calculation:
+Substitute the values into the formula:
+
+$$F = 2.5 \times 1.5 \times 0.24 \times \sin(25^\circ)$$
+
+First, calculate the product of the constants:
+$$2.5 \times 1.5 \times 0.24 = 0.9$$
+
+Now, multiply by the sine of the angle:
+$$F = 0.9 \times \sin(25^\circ)$$
+$$F \approx 0.9 \times 0.4226$$
+$$F \approx 0.3803\text{ N}$$
+
+Comparing this result to the given options, the magnitude of the force is **0.38 N**.
+
+The correct option is **B**.
+
+### Explanation:
+1.  **Identify the physical principle**: The force exerted on a current-carrying wire in a uniform magnetic field is given by the Lorentz force law for conductors.
+2.  **Determine the angle**: The angle $\theta$ in the formula $F = BIl \sin(\theta)$ is defined as the angle between the direction of the current (the wire) and the direction of the magnetic field lines. As shown in the diagram, this is $25^\circ$.
+3.  **Perform the calculation**: Ensure your calculator is set to **degrees** mode before calculating $\sin(25^\circ)$. Multiplying the values gives the force in Newtons.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,24 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down these fundamental concepts of gravitation. These questions test your understanding of the transition from Newtonian mechanics near Earth's surface to general gravitational fields.
+
+### Answer
+
+**a. List the circumstances under which (1) is an acceptable formula to use.**
+The formula $E_p = mgh$ is an approximation that is only valid when:
+1. The object is near the surface of a planet (or a large body).
+2. The height $h$ is very small compared to the radius of the planet ($h \ll R$), meaning the gravitational field strength $g$ can be considered uniform or constant over the displacement.
+
+**b. Define gravitational potential energy as indicated by (2).**
+Gravitational potential energy is the work done by an external force to move an object of mass $m$ from infinity (where the potential energy is defined as zero) to a distance $r$ from the centre of a mass $M$. It represents the energy stored in the gravitational field due to the separation of the two masses.
+
+**c. Explain the maximum value of gravitational potential energy allowed by (2)?**
+The maximum value of gravitational potential energy is $0$. As the distance $r$ approaches infinity ($r \to \infty$), the term $-\frac{GMm}{r}$ approaches $0$. Because the energy is negative at all finite distances, $0$ is the upper limit, representing the point where the object is completely removed from the gravitational influence of the planet.
+
+---
+
+### How to solve it:
+*   **For part (a):** Recognize that $E_p = mgh$ assumes a constant gravitational field. In reality, $g$ decreases as you move away from a planet. Therefore, this formula is only valid for small, localized heights above the surface where the variation in $g$ is negligible.
+*   **For part (b):** Remember the "zero potential" convention. By defining potential energy as $0$ at an infinite distance (where the masses no longer attract each other), any work done to bring an object closer requires the release of potential energy, resulting in the negative values seen in the formula $E_p = -\frac{GMm}{r}$.
+*   **For part (c):** Since the values of $E_p$ are always negative, the "highest" (most positive) value is $0$. Mathematically, as $r$ increases, the fraction $\frac{GMm}{r}$ gets smaller (closer to zero), meaning the negative value increases toward zero.
+
+###QUESTION_TYPE
+Short answer

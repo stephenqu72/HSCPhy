@@ -1,0 +1,31 @@
+To solve this problem, we must recognise that the electron is held in a circular orbit by the electrostatic (Coulombic) force acting as the centripetal force.
+
+### Step-by-Step Solution:
+
+1.  **Identify the forces:**
+    The electrostatic force $F_e$ between the electron (charge $-e$) and the alpha particle (charge $+2e$) is given by Coulomb's Law:
+    $$F_e = \frac{1}{4\pi\varepsilon_0} \cdot \frac{|q_1 q_2|}{r^2} = \frac{1}{4\pi\varepsilon_0} \cdot \frac{e \cdot 2e}{r^2} = \frac{2e^2}{4\pi\varepsilon_0 r^2}$$
+
+2.  **Identify the motion:**
+    For an object of mass $m_e$ moving in a circle of radius $r$ at speed $v$, the centripetal force $F_c$ is:
+    $$F_c = \frac{m_e v^2}{r}$$
+
+3.  **Equate the forces:**
+    Since the electrostatic force provides the centripetal force, we set $F_e = F_c$:
+    $$\frac{2e^2}{4\pi\varepsilon_0 r^2} = \frac{m_e v^2}{r}$$
+
+4.  **Solve for $v$:**
+    Multiply both sides by $r$:
+    $$\frac{2e^2}{4\pi\varepsilon_0 r} = m_e v^2$$
+    Divide by $m_e$:
+    $$v^2 = \frac{2e^2}{4\pi\varepsilon_0 m_e r}$$
+    Take the square root of both sides:
+    $$v = \sqrt{\frac{2e^2}{4\pi\varepsilon_0 m_e r}}$$
+
+Comparing this result to the given options, it matches **(A)**.
+
+### Conclusion:
+The correct expression for the speed of the electron is found by equating the centripetal force to the electrostatic force exerted by the nucleus (alpha particle) on the electron.
+
+###QUESTION_TYPE
+Multiple choice

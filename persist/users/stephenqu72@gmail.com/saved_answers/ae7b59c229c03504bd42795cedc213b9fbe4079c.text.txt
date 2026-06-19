@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To determine the charge-to-mass ratio ($q/m$) of the electron, J.J. Thomson utilized a cathode ray tube (a velocity selector) where electrons were subjected to both an electric field ($E$) and a magnetic field ($B$) oriented perpendicular to each other and perpendicular to the direction of the electron beam's motion.
+
+1.  **Velocity Selection:** Thomson first adjusted the electric and magnetic fields so that the forces they exerted on the electrons were equal and opposite. The electric force is $F_E = qE$ and the magnetic force is $F_B = qvB$. By setting these equal, he could determine the velocity ($v$) of the electrons passing undeflected through the device:
+    $$qE = qvB \implies v = \frac{E}{B}$$
+2.  **Deflection:** Once the velocity was known, he could switch off the electric field (or measure the deflection caused by the magnetic field alone) to observe the circular path taken by the electrons. The magnetic force acts as a centripetal force:
+    $$qvB = \frac{mv^2}{r}$$
+3.  **Calculation:** By substituting the velocity obtained from the first step into the second equation, Thomson was able to isolate the ratio $q/m$:
+    $$\frac{q}{m} = \frac{v}{Br} = \frac{E}{B^2r}$$
+
+Because the experiment required the interaction of both fields to balance the forces and then determine the radius of curvature, the apparatus required **perpendicular electric and magnetic fields**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,23 @@
+To determine the correct answer, we must look at the formula for the motor effect, which describes the magnetic force exerted on a current-carrying conductor in a magnetic field:
+
+$$F = IlB \sin(\theta)$$
+
+Where:
+*   $F$ is the magnetic force (the motor effect)
+*   $I$ is the current
+*   $l$ is the length of the conductor
+*   $B$ is the magnetic field strength
+*   $\theta$ is the angle between the conductor and the magnetic field lines
+
+### Explanation:
+The question asks which variables the motor effect ($F$) relates to **proportionally**. According to the formula, $F$ is directly proportional to the current ($I$), the length of the conductor ($l$), and the magnetic field strength ($B$).
+
+*   **Option A:** $F$ is proportional to current, but not directly proportional to emf (emf relates to current via $V=IR$).
+*   **Option B:** $F$ does not involve Area.
+*   **Option C:** $F$ is proportional to current, but it is proportional to $\sin(\theta)$, not $\cos(\theta)$.
+*   **Option D:** $F$ is directly proportional to both the length ($l$) and the magnetic field strength ($B$). As $l$ or $B$ increases, the force $F$ increases linearly (assuming other factors remain constant).
+
+Therefore, Option D is the correct choice as both variables listed in that row are factors that the motor effect is directly proportional to.
+
+###QUESTION_TYPE
+Multiple choice

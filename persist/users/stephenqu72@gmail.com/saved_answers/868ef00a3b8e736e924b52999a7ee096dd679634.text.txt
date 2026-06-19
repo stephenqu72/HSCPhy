@@ -1,0 +1,34 @@
+To solve this problem, we must first understand the physics of an electron beam moving undeflected through crossed electric ($E$) and magnetic ($B$) fields.
+
+### Physics Principles
+When an electron passes through a velocity selector, the electric force ($F_E = qE$) is balanced by the magnetic force ($F_B = qvB$). For the beam to remain undeflected:
+$$qE = qvB$$
+$$E = vB$$
+$$v = \frac{E}{B}$$
+
+### Step-by-Step Solution
+
+**1. Analyze the relationship:**
+The equation $E = vB$ indicates that if we plot $B$ on the $y$-axis and $E$ on the $x$-axis, the relationship is $B = \frac{1}{v} E$. This is a linear relationship in the form $y = mx$, where the gradient $m = \frac{1}{v}$. Therefore, the velocity $v$ is the reciprocal of the gradient of the line of best fit:
+$$v = \frac{1}{\text{gradient}}$$
+
+**2. Plotting the data:**
+*   $x$-axis: Electric Field ($E$) in $\times 10^5 \text{ N C}^{-1}$
+*   $y$-axis: Magnetic Field ($B$) in mT ($10^{-3} \text{ T}$)
+
+Plot the points: $(4.8, 16)$, $(5.5, 18)$, $(7.2, 24)$, $(7.9, 26)$, $(9.1, 30)$.
+Draw a line of best fit through these points. Passing through the origin $(0,0)$, a suitable pair of points to calculate the gradient would be near $(9, 30)$ and $(3, 10)$.
+
+**3. Calculating the Gradient:**
+Using the points $(3, 10)$ and $(9, 30)$:
+$$\text{gradient} = \frac{\Delta B}{\Delta E} = \frac{(30 - 10) \times 10^{-3} \text{ T}}{(9 - 3) \times 10^5 \text{ N C}^{-1}}$$
+$$\text{gradient} = \frac{20 \times 10^{-3}}{6 \times 10^5} = 3.33 \times 10^{-9} \text{ T C N}^{-1}$$
+
+**4. Determining Velocity:**
+$$v = \frac{1}{\text{gradient}} = \frac{1}{3.33 \times 10^{-9}}$$
+$$v \approx 3.0 \times 10^8 \text{ m s}^{-1}$$
+
+*(Note: Depending on your exact line of best fit, your gradient might vary slightly, but it should result in a value close to the speed of light.)*
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,29 @@
+To solve this problem, we need to determine the centripetal force acting on the particle. 
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given values:**
+    *   Mass of the particle, $m = 0.02\text{ kg}$
+    *   Diameter of the circle, $d = 1\text{ m}$. Therefore, the radius $r = \frac{d}{2} = 0.5\text{ m}$
+    *   Angular velocity, $\omega = 3\pi\text{ rad s}^{-1}$
+
+2.  **Recall the physics principle:**
+    A particle moving in a uniform horizontal circle requires a **centripetal force**. By definition, a centripetal force is always directed **towards the centre of the circle** to maintain the circular path. This immediately eliminates options A and C.
+
+3.  **Calculate the magnitude of the force:**
+    The formula for centripetal force in terms of angular velocity is:
+    $$F = m r \omega^2$$
+
+    Substitute the known values into the equation:
+    $$F = 0.02 \times 0.5 \times (3\pi)^2$$
+    $$F = 0.01 \times (9\pi^2)$$
+    $$F = 0.09\pi^2\text{ N}$$
+
+4.  **Conclusion:**
+    The magnitude of the force is $0.09\pi^2\text{ N}$ and the direction is towards the centre of the circle. Matching this to the provided options, we select **D**.
+
+### Answer:
+The correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

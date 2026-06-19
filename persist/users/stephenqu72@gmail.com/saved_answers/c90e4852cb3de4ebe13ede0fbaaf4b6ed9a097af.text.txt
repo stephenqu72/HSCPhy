@@ -1,0 +1,28 @@
+### Solution and Explanation
+
+To solve these problems, we must apply the physics of charged particles moving through a uniform magnetic field.
+
+#### Part (a)
+**Physics Principles:**
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force $F_B = qvB$ acts as the centripetal force $F_c = \frac{mv^2}{r}$. Equating these:
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius $r$:
+$$r = \frac{mv}{qB}$$
+
+Since $v$, $q$, and $B$ are constant for both isotopes, the radius is directly proportional to the mass: $r \propto m$. Therefore, the ratio of the radii is equal to the ratio of the masses:
+$$\frac{r_1}{r_2} = \frac{m_1}{m_2}$$
+
+**Calculation:**
+Given $m_1 = 78.904\text{ amu}$ and $m_2 = 80.9163\text{ amu}$:
+$$\text{Ratio} = \frac{78.904}{80.9163} \approx 0.9751$$
+The ratio of the radii ($r_{79} : r_{81}$) is **$0.975:1$** (or $78.904 : 80.9163$).
+
+#### Part (b)
+**Explanation:**
+1. **Force Direction:** The magnetic force on a moving charge is determined by the right-hand rule (or Lorentz force law, $\vec{F} = q(\vec{v} \times \vec{B})$). This force is always perpendicular to both the velocity vector and the magnetic field vector.
+2. **Uniform Circular Motion:** Because the force is always perpendicular to the direction of motion, it does no work on the ion (speed remains constant) but acts as a centripetal force. Since the magnitude of the force ($F = qvB$) and the speed ($v$) remain constant, the particle is constrained to travel in a path with a constant radius of curvature, which is a circle.
+
+***
+
+### QUESTION_TYPE
+Calculation question

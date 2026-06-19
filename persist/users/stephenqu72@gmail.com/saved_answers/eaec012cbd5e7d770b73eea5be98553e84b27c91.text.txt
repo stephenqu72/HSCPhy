@@ -1,0 +1,45 @@
+To solve these problems, we use the physics of magnetic forces on current-carrying conductors.
+
+### Question 5: Calculation of Magnetic Field Strength
+
+**1. Identify the variables:**
+*   Number of conductors ($n$) = $7$
+*   Current per conductor ($I_{single}$) = $0.50\text{ A}$
+*   Total current ($I_{total}$) = $n \times I_{single} = 7 \times 0.50\text{ A} = 3.5\text{ A}$
+*   Length ($L$) = $0.35\text{ m}$
+*   Force ($F$) = $7.3\text{ mN} = 7.3 \times 10^{-3}\text{ N}$
+*   Angle ($\theta$) between current and magnetic field = $90^\circ$ (perpendicular), so $\sin(90^\circ) = 1$
+
+**2. Formula:**
+The force on a current-carrying wire in a magnetic field is given by:
+$$F = B I L \sin(\theta)$$
+Rearranging to solve for $B$:
+$$B = \frac{F}{I \times L}$$
+
+**3. Calculation:**
+$$B = \frac{7.3 \times 10^{-3}\text{ N}}{3.5\text{ A} \times 0.35\text{ m}}$$
+$$B = \frac{7.3 \times 10^{-3}}{1.225}$$
+$$B \approx 5.959 \times 10^{-3}\text{ T} \approx 6.0 \times 10^{-3}\text{ T}$$
+
+**Answer:** The correct option is **B**.
+
+---
+
+### Question 6: Direction of Magnetic Force
+
+**1. Identify the method:**
+To find the direction of the force, we use the **Right-Hand Palm Rule**:
+*   **Fingers:** Point in the direction of the magnetic field ($B$). Looking at the diagram, the arrows for $B$ point toward the bottom-right (between direction S and Q, but specifically toward the viewer/downwards-right).
+*   **Thumb:** Points in the direction of the current ($I$). The current is flowing toward the bottom-left (direction S).
+*   **Palm:** The force acts out of the palm.
+
+**2. Application:**
+In the diagram provided:
+*   The current flows toward direction **S**.
+*   The magnetic field enters from the top/back.
+*   By aligning your right hand, with fingers pointing into the field and thumb along the wire, your palm faces towards **P**.
+
+**Answer:** The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

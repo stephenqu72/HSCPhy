@@ -1,0 +1,38 @@
+To solve this problem, we will use the principles of energy conservation in an electric field and the dynamics of a charged particle in a magnetic field.
+
+### Part (a): Calculating the speed of the proton
+When a proton (charge $q = 1.602 \times 10^{-19} \, \text{C}$, mass $m = 1.673 \times 10^{-27} \, \text{kg}$) is accelerated by an electric field, the work done on the proton by the field equals its gain in kinetic energy.
+
+1. **Work done ($W$):** $W = qEd$, where $E = 500 \, \text{V/m}$ and $d = 0.20 \, \text{m}$.
+2. **Kinetic Energy ($K$):** $K = \frac{1}{2}mv^2$.
+3. **Equate and solve for $v$:**
+   $$qEd = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2qEd}{m}}$$
+4. **Substitution:**
+   $$v = \sqrt{\frac{2 \times (1.602 \times 10^{-19}) \times 500 \times 0.20}{1.673 \times 10^{-27}}}$$
+   $$v = \sqrt{\frac{3.204 \times 10^{-17}}{1.673 \times 10^{-27}}} \approx \sqrt{1.915 \times 10^{10}} \approx 1.384 \times 10^5 \, \text{m/s}$$
+
+**Answer (a):** The speed of the proton is approximately $1.38 \times 10^5 \, \text{m/s}$.
+
+---
+
+### Part (b): Calculating the magnetic field strength
+When the proton enters a perpendicular magnetic field, it moves in a circular path because the magnetic force acts as the centripetal force:
+$$qvB = \frac{mv^2}{r} \implies B = \frac{mv}{qr}$$
+
+1. **Given values:**
+   - $v = 1.384 \times 10^5 \, \text{m/s}$
+   - $r = 500 \, \mu\text{m} = 5 \times 10^{-4} \, \text{m}$
+2. **Calculation:**
+   $$B = \frac{(1.673 \times 10^{-27} \, \text{kg}) \times (1.384 \times 10^5 \, \text{m/s})}{(1.602 \times 10^{-19} \, \text{C}) \times (5 \times 10^{-4} \, \text{m})}$$
+   $$B = \frac{2.315 \times 10^{-22}}{8.01 \times 10^{-23}} \approx 2.89 \, \text{T}$$
+
+**Answer (b):** The magnetic field strength is approximately $2.89 \, \text{T}$.
+
+---
+
+### How to solve it
+*   **Part (a):** Recognize that electric potential energy is converted into kinetic energy. Use the work-energy theorem ($W = \Delta K$) to derive the final velocity. Ensure units are converted to SI (e.g., cm to m).
+*   **Part (b):** Apply the centripetal force formula for a charged particle in a magnetic field. Equate the magnetic force ($F_B = qvB$) to the centripetal force ($F_c = \frac{mv^2}{r}$) and rearrange the equation to isolate the unknown, $B$. Always carry the precision from part (a) to avoid rounding errors.
+
+###QUESTION_TYPE
+Calculation question

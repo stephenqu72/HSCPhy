@@ -1,0 +1,30 @@
+### Answer
+The correct answer is **B. Momentum**.
+
+---
+
+### Explanation
+To determine which quantity is different, we examine the physics of a satellite in a circular orbit around a central body of mass $M$. The gravitational force provides the centripetal force required for the orbit:
+
+$$F_g = F_c$$
+$$\frac{GMm}{r^2} = \frac{mv^2}{r}$$
+
+From this, we can derive the characteristics of the orbit:
+
+1.  **Speed ($v$):** Canceling the mass of the satellite ($m$) from both sides, we get:
+    $$v = \sqrt{\frac{GM}{r}}$$
+    Since the speed depends only on the gravitational constant ($G$), the mass of the planet ($M$), and the orbital radius ($r$), the mass of the satellite does not affect its speed. Both satellites share the same speed.
+
+2.  **Momentum ($p$):** Momentum is defined as $p = mv$. Since the two satellites have different masses ($m$ and $2m$) but the same speed ($v$), their momenta will be:
+    $$p_1 = mv$$
+    $$p_2 = (2m)v = 2mv$$
+    Clearly, $p_1 \neq p_2$. Therefore, momentum is different.
+
+3.  **Orbital period ($T$):** The period is related to speed by $T = \frac{2\pi r}{v}$. Since speed is independent of the satellite's mass, the period is also independent of the satellite's mass. Both share the same period.
+
+4.  **Centripetal acceleration ($a_c$):** The centripetal acceleration is given by $a_c = \frac{v^2}{r}$. Substituting the expression for $v^2$ from the force equation ($\frac{v^2}{r} = \frac{GM}{r^2}$), we get:
+    $$a_c = \frac{GM}{r^2}$$
+    This also depends only on the central mass and the radius, meaning both satellites experience the same acceleration regardless of their individual masses.
+
+###QUESTION_TYPE
+Multiple choice

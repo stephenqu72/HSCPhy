@@ -1,0 +1,35 @@
+### Answer
+The correct answer is **(C) $0.94c$**.
+
+---
+
+### Explanation
+This is a classic problem involving **Special Relativity**, specifically **Einstein's Velocity Addition Formula**. 
+
+In Newtonian physics, you might simply add the speeds ($0.7c + 0.7c = 1.4c$), but since the speeds are a significant fraction of the speed of light ($c$), we must use the relativistic formula to ensure the relative velocity does not exceed $c$.
+
+**1. Identify the frames of reference:**
+*   Let the observer be in Galaxy Beta ($S$).
+*   Let Galaxy Alpha move to the left at $v_1 = -0.7c$ relative to Beta.
+*   Let Galaxy Gamma move to the right at $v_2 = 0.7c$ relative to Beta.
+
+We want to find the velocity of Gamma ($u'$) as measured by an observer in Alpha. This is equivalent to finding the relative velocity between Alpha and Gamma.
+
+**2. Use the Velocity Addition Formula:**
+The formula to find the velocity $u'$ of an object (Gamma) in a frame moving at velocity $v$ relative to another frame (Beta) is:
+$$u' = \frac{v_A + v_B}{1 + \frac{v_A v_B}{c^2}}$$
+
+In this scenario, relative to Alpha, Beta is moving at $+0.7c$ and Gamma is moving away from Beta at $+0.7c$ (meaning Gamma is moving at $+0.7c$ relative to Beta). We want to find the speed of Gamma relative to Alpha.
+
+Let $v = 0.7c$ (velocity of Alpha relative to Beta) and $u = 0.7c$ (velocity of Gamma relative to Beta). To find the velocity of Gamma relative to Alpha:
+$$u' = \frac{0.7c + 0.7c}{1 + \frac{(0.7c)(0.7c)}{c^2}}$$
+
+**3. Perform the calculation:**
+$$u' = \frac{1.4c}{1 + 0.49}$$
+$$u' = \frac{1.4c}{1.49}$$
+$$u' \approx 0.9396c$$
+
+Rounding to two decimal places, we get **$0.94c$**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To find the maximum torque on the coil, we use the formula for the torque $\tau$ exerted on a current-carrying coil in a magnetic field:
+
+$$\tau = nIAB \sin(\theta)$$
+
+For the **maximum** torque, the angle between the normal to the coil and the magnetic field is $0^\circ$ (meaning the plane of the coil is parallel to the magnetic field), so $\sin(90^\circ) = 1$. The formula simplifies to:
+
+$$\tau = nIAB$$
+
+### Step-by-step Solution:
+
+**1. Identify the given variables and convert them to SI units:**
+*   Number of turns ($n$) = $10$
+*   Side length ($s$) = $4 \text{ cm} = 0.04 \text{ m}$
+*   Area ($A$) = $s^2 = (0.04 \text{ m})^2 = 0.0016 \text{ m}^2 = 1.6 \times 10^{-3} \text{ m}^2$
+*   Magnetic field strength ($B$) = $5 \times 10^{-2} \text{ T}$
+*   Current ($I$) = $20 \text{ mA} = 20 \times 10^{-3} \text{ A} = 0.02 \text{ A}$
+
+**2. Substitute the values into the formula:**
+$$\tau = 10 \times (0.02 \text{ A}) \times (1.6 \times 10^{-3} \text{ m}^2) \times (5 \times 10^{-2} \text{ T})$$
+
+**3. Perform the calculation:**
+$$\tau = 10 \times 0.02 \times 0.0016 \times 0.05$$
+$$\tau = 0.2 \times 0.00008$$
+$$\tau = 0.000016 \text{ Nm}$$
+
+Converting this to scientific notation:
+$$\tau = 1.6 \times 10^{-5} \text{ Nm}$$
+
+Comparing this result to the given options, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

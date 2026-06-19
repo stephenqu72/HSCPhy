@@ -1,0 +1,31 @@
+### Answer
+The correct answer is **A. It does not change.**
+
+---
+
+### Explanation
+To solve this problem, we use the formula for the magnetic force per unit length ($F/L$) between two parallel current-carrying wires:
+
+$$ \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d} $$
+
+Given that the currents in the two wires are equal ($I_1 = I_2 = I$), the formula simplifies to:
+
+$$ \frac{F}{L} \propto \frac{I^2}{d} $$
+
+Now, we evaluate the effect of the changes described in the problem:
+1.  **Current is doubled:** The new current becomes $I' = 2I$. Since the force is proportional to the square of the current ($I^2$), the force will change by a factor of $(2)^2 = 4$.
+2.  **Distance is increased to $4d$:** The new distance becomes $d' = 4d$. Since the force is inversely proportional to the distance ($1/d$), the force will change by a factor of $1/4$.
+
+To find the total change in the force ($F_{new}$), we combine these factors:
+
+$$ F_{new} \propto \frac{(2I)^2}{4d} = \frac{4I^2}{4d} = \frac{I^2}{d} $$
+
+Comparing this to the original force ($F_{original} \propto \frac{I^2}{d}$), we see that the magnitude of the force remains the same. 
+
+Mathematically:
+$$ \text{Factor of change} = \frac{(2)^2}{4} = \frac{4}{4} = 1 $$
+
+Therefore, the force remains unchanged.
+
+###QUESTION_TYPE
+Multiple choice

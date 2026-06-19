@@ -1,0 +1,26 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this cyclotron question. This is a classic Electromagnetism question focusing on the interaction between charged particles and fields.
+
+### Answer and Explanation
+
+#### (a) Identify the forces each component exerts on the particle
+To solve this, we apply the principles of the Lorentz force: $F = qE$ (electric) and $F = qvB\sin(\theta)$ (magnetic).
+
+1.  **Hollow Metal 'Dees':** Because the Dees create an electric field, the positively charged particle will experience an **electrostatic force**. Since the particle is positive, it will be repelled by the positively charged Dee and attracted to the negatively charged Dee. The force acts in the direction of the electric field lines (from positive to negative).
+2.  **Electromagnets:** These create a vertical magnetic field (from North to South). Since the particle is moving horizontally within this field, it experiences a **magnetic force** (Lorentz force) perpendicular to both the velocity of the particle and the magnetic field. According to the right-hand rule, this force acts centripetally, causing the particle to move in a circular path.
+
+#### (b) Outline the net motion if the magnetic field is increased and current alternates
+To analyze the motion, we must look at the cyclotron frequency formula: $f = \frac{qB}{2\pi m}$.
+
+1.  **Electric Field Alternation:** By alternating the potential difference across the Dees, the particle receives an "acceleration" every time it crosses the gap. This increases the particle's kinetic energy and velocity ($v$).
+2.  **Increased Magnetic Field ($B$):** The radius of the particle's path is given by $r = \frac{mv}{qB}$. If the magnetic field strength $B$ is increased while the particle's velocity increases, the particle will continue to spiral outward, gaining speed. 
+3.  **Net Motion:** The particle will undergo **increasingly large circular orbits** (spiralling outward). However, note that if the magnetic field strength is increased *disproportionately* to the frequency of the alternating current, the particle will eventually fall out of "resonance" with the electric field, meaning it will not receive acceleration at the correct moment when crossing the gap. Therefore, the particle exhibits a **spiralling path of increasing radius**, provided the alternating current frequency is synchronized with the cyclotron frequency for the given magnetic field.
+
+---
+
+### How to solve such questions in the HSC:
+*   **Always identify the direction of the electric field:** It always moves from positive to negative. A positive charge will always accelerate along this field.
+*   **Master the Right-Hand Rule:** Use it to determine the direction of the magnetic force ($F_B$). Remember that for a positive charge, your thumb points in the direction of velocity, fingers in the direction of the B-field, and your palm points in the direction of the force.
+*   **Key relationships:** Remember $r = \frac{mv}{qB}$. This formula is your best friend for cyclotron problems; it explains why particles spiral outward as they gain velocity ($v$).
+
+###QUESTION_TYPE
+Short answer

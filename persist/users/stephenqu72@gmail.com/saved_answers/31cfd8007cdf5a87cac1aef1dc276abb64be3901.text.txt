@@ -1,0 +1,29 @@
+To solve this problem, we must treat the motion of the tennis ball as projectile motion, separating the horizontal and vertical components.
+
+### Part (a) Calculate the horizontal velocity of the ball at D
+We are given that the time interval between images is $5.00\text{ ms} = 0.005\text{ s}$. 
+Looking at the diagram, the distance of $0.68\text{ m}$ covers the displacement from position D to position G. We count the number of intervals: D to E (1), E to F (2), and F to G (3).
+Total time $t = 3 \times 0.005\text{ s} = 0.015\text{ s}$.
+
+Since the horizontal velocity is constant:
+$$v_x = \frac{\Delta x}{\Delta t} = \frac{0.68\text{ m}}{0.015\text{ s}} \approx 45.33\text{ m/s}$$
+
+### Part (b) Will the ball clear the net?
+We need to determine the height of the ball when it reaches the net, which is $30.0\text{ m}$ away from position D.
+
+1.  **Calculate the time to reach the net:**
+    $$t = \frac{d}{v_x} = \frac{30.0\text{ m}}{45.33\text{ m/s}} \approx 0.6618\text{ s}$$
+
+2.  **Calculate the vertical displacement ($\Delta y$) during this time:**
+    The ball is projected horizontally, so the initial vertical velocity $u_y = 0$. Using the displacement formula:
+    $$\Delta y = u_y t + \frac{1}{2} a_y t^2$$
+    $$\Delta y = 0 + \frac{1}{2} (-9.8\text{ m/s}^2)(0.6618\text{ s})^2 \approx -2.148\text{ m}$$
+
+3.  **Determine the final height ($h_f$):**
+    The ball starts at $2.30\text{ m}$ above the ground.
+    $$h_f = h_i + \Delta y = 2.30\text{ m} - 2.148\text{ m} = 0.152\text{ m}$$
+
+Since the final height of the ball ($0.152\text{ m}$) is significantly less than the height of the net ($1.00\text{ m}$), **the ball will not clear the net.**
+
+###QUESTION_TYPE
+Calculation question

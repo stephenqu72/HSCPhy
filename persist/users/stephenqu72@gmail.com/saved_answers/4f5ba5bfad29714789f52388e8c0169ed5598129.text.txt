@@ -1,0 +1,26 @@
+To determine the direction of the net force on the charge $-Q$ at the top vertex, we must consider the electrostatic forces exerted by the other two charges at the base of the triangle.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the force from the $+2Q$ charge:**
+    Since the top charge is $-Q$ and the bottom-left charge is $+2Q$, they have opposite signs. Opposite charges attract. Therefore, the force exerted by $+2Q$ on $-Q$ acts along the line connecting them, directed **towards the bottom-left vertex**. Let's call this vector $\vec{F}_1$.
+
+2.  **Analyze the force from the $-2Q$ charge:**
+    The top charge is $-Q$ and the bottom-right charge is $-2Q$. They have the same sign. Like charges repel. Therefore, the force exerted by $-2Q$ on $-Q$ acts along the line connecting them, directed **away from the bottom-right vertex** (up and to the left). Let's call this vector $\vec{F}_2$.
+
+3.  **Vector Addition:**
+    *   $\vec{F}_1$ points downwards and to the left.
+    *   $\vec{F}_2$ points upwards and to the left.
+    
+    When we sum these two vectors:
+    *   The **vertical components**: Since the triangle is isosceles and the magnitudes of the charges ($2Q$ and $2Q$) are equal, the vertical components of the forces are equal in magnitude but opposite in direction (one pulls down, one pushes up relative to the axis of symmetry), meaning they cancel out.
+    *   The **horizontal components**: Both forces have a component pointing to the left. When added together, the resultant force vector points directly to the left.
+
+4.  **Conclusion:**
+    The horizontal components add together while the vertical components cancel, resulting in a net force vector directed horizontally to the left. Looking at the options provided, **Option C** represents a vector pointing to the left.
+
+### Correct Answer:
+**C**
+
+###QUESTION_TYPE
+Multiple choice

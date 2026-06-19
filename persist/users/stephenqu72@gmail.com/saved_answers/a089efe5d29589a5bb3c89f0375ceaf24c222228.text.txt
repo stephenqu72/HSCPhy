@@ -1,0 +1,26 @@
+As an HSC Physics teacher, I will guide you through this classic electromagnetism question. To succeed here, you must demonstrate your understanding of the **Lorentz force** and how charged particles behave in non-uniform magnetic fields.
+
+### Answer
+
+**(a) Explanation of the motion of a hydrogen nucleus:**
+When a charged particle (hydrogen nucleus, $q > 0$) enters the Earth's magnetic field ($B$), it experiences the Lorentz force given by $F = qvB\sin\theta$. 
+1. **Component forces:** The velocity vector of the particle can be resolved into components parallel and perpendicular to the magnetic field lines. 
+2. **Circular motion:** The component of velocity perpendicular to the magnetic field lines results in a centripetal force ($F = qv_{\perp}B$), which causes the particle to undergo uniform circular motion (spiraling).
+3. **Translational motion:** The velocity component parallel to the magnetic field remains unchanged (as $\sin 0^\circ = 0$, no force is exerted), causing the particle to drift along the field lines towards the magnetic poles.
+4. **The "Mirror" Effect:** As the particle approaches the poles, the magnetic field lines converge. This increase in $B$ exerts a force that reflects the particle, while the overall result is a helical path narrowing as it descends toward the atmosphere.
+
+**(b) Comparison for an electron:**
+An electron has a negative charge ($q < 0$) and a significantly smaller mass ($m$) compared to a hydrogen nucleus. 
+1. **Direction:** Because the charge is negative, the direction of the Lorentz force is reversed compared to the positive hydrogen nucleus, causing the electron to spiral in the opposite rotational direction (clockwise vs counter-clockwise).
+2. **Radius:** The radius of the helical path is given by $r = \frac{mv}{qB}$. Since the mass of an electron is approximately $1836$ times smaller than that of a proton (hydrogen nucleus), the radius of the electron's spiral will be significantly smaller than that of the hydrogen nucleus for a given velocity and magnetic field strength.
+
+---
+
+### How to solve this
+1. **Identify the Physics:** This is a core application of the magnetic force on a moving charge. Always start by stating the force formula: $F = qvB\sin\theta$.
+2. **Break down the motion:** Always think of velocity in two parts: parallel and perpendicular to the field. This explains why it travels forward (translation) while spinning (circular motion).
+3. **Use the Hand Rules:** Use the right-hand palm rule to determine the direction of force for positive charges. Remember that for negative charges (electrons), the force is in the opposite direction to what the rule predicts.
+4. **HSC Tip:** In part (b), always address both the **direction** (due to sign of charge) and the **size** (due to the difference in mass) to ensure you capture the full 2 marks.
+
+###QUESTION_TYPE
+Short answer

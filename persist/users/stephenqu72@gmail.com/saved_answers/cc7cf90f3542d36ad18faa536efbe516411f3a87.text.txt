@@ -1,0 +1,46 @@
+To solve this problem, we apply the principles of electromagnetism (the motor effect) and classical mechanics (kinematics and Newton's laws).
+
+### Part (a)
+**1. Magnitude of the force:**
+The magnetic force $F_B$ on a current-carrying conductor in a magnetic field is given by the formula:
+$$F_B = BIl \sin(\theta)$$
+Where:
+* $B = 0.50\text{ T}$
+* $I = 20\text{ A}$
+* $l = 0.2\text{ m}$ (the length of the slider within the field)
+* $\theta = 90^\circ$ (the current is perpendicular to the magnetic field), so $\sin(90^\circ) = 1$.
+
+$$F_B = 0.50 \times 20 \times 0.2 = 2.0\text{ N}$$
+
+**2. Direction of the force:**
+Using the Right-Hand Palm Rule:
+* Point your fingers in the direction of the magnetic field (out of the page).
+* Point your thumb in the direction of the conventional current (from the positive terminal through the slider, which is downwards in the diagram).
+* Your palm faces the direction of the force.
+* **Direction:** To the right.
+
+---
+
+### Part (b)
+To find the velocity of the slider as it leaves the rails, we first find the net force and acceleration, then use kinematics.
+
+**1. Net Force:**
+The magnetic force acts to the right, and friction acts to the left.
+$$F_{net} = F_B - F_{friction} = 2.0\text{ N} - 0.36\text{ N} = 1.64\text{ N}$$
+
+**2. Acceleration:**
+Using Newton's Second Law ($F = ma$):
+$$a = \frac{F_{net}}{m} = \frac{1.64\text{ N}}{0.040\text{ kg}} = 41\text{ m/s}^2$$
+
+**3. Kinematics:**
+The slider starts at the midpoint and travels to the end of the rails. The distance $s$ is half the total length: $s = 0.6\text{ m}$.
+Using the equation $v^2 = u^2 + 2as$:
+* $u = 0\text{ m/s}$ (starts at rest)
+* $v^2 = 0 + 2 \times 41 \times 0.6$
+* $v^2 = 49.2$
+* $v = \sqrt{49.2} \approx 7.01\text{ m/s}$
+
+The velocity of the slider as it comes off the rails is approximately $7.0\text{ m/s}$.
+
+###QUESTION_TYPE
+Calculation question

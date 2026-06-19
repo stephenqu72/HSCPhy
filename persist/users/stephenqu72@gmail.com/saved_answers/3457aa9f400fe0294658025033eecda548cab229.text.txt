@@ -1,0 +1,32 @@
+To solve this problem, we need to analyze two components of the DC motor's operation as the coil rotates through one full revolution ($360^\circ$).
+
+### 1. Magnetic Flux ($\Phi$)
+The magnetic flux through the coil is given by the formula:
+$$\Phi = BA \cos(\theta)$$
+where $\theta$ is the angle between the normal to the coil and the magnetic field lines. 
+
+*   In the starting position shown, the coil is parallel to the magnetic field lines. Therefore, the normal to the coil is at $90^\circ$ to the field. 
+*   Since $\cos(90^\circ) = 0$, the initial flux is **zero**.
+*   As the coil rotates, the flux will increase to a maximum (when the coil is perpendicular to the field), return to zero, reach a negative maximum, and return to zero. This produces a **sine wave starting at zero**.
+
+### 2. Force on wire $WX$
+The force on a current-carrying wire is given by:
+$$F = BIL \sin(\alpha)$$
+where $\alpha$ is the angle between the current and the magnetic field.
+
+*   In the starting position, the wire is perpendicular to the field, so the force is at a **maximum**.
+*   As the coil rotates, the orientation of the wire relative to the field changes. Crucially, the **split-ring commutator** reverses the direction of the current every half-turn.
+*   Because the current direction reverses at the same time the coil's angular position relative to the field effectively reverses its vector component, the **force remains in the same direction** for the entire revolution.
+*   The magnitude of the force follows the $\sin$ component of the angle between the field and the wire. Since it is at a maximum at the start, it follows a **cosine-like curve that stays on one side of the axis** (always positive or always negative).
+
+### Conclusion
+*   **Flux:** Must be a sine wave starting at $0$.
+*   **Force:** Must be a wave that stays on one side of the horizontal axis (no reversal of direction).
+
+Looking at the options:
+*   Option D shows the Flux starting at $0$ and the Force maintaining a consistent direction (with gaps occurring as the brushes pass the gap in the commutator). 
+
+The correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

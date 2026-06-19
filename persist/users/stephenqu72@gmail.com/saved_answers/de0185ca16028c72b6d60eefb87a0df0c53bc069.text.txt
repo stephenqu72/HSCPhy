@@ -1,0 +1,39 @@
+To solve this problem, we apply the principles of electromagnetism regarding a charged particle moving in a uniform magnetic field.
+
+### Part (a): Determining the Charge
+To determine the charge, we use the **Right-Hand Rule** for a positive charge or the **Left-Hand Rule** for a negative charge. 
+
+1.  **Field Direction:** The crosses ($\times$) indicate that the magnetic field ($B$) is directed **into the page**.
+2.  **Velocity Direction:** The particle enters the chamber moving upwards (as seen by the start of the dashed line).
+3.  **Deflection:** The particle curves to the **right**.
+4.  **Application:** Using the Right-Hand Rule: Point your fingers into the page ($B$) and your thumb in the direction of velocity (up). Your palm faces to the left. Since the particle actually deflects to the right, the force is opposite to the direction predicted for a positive charge. Therefore, the particle must be **negatively charged**.
+
+---
+
+### Part (b): Calculating the Mass-to-Charge Ratio
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides the centripetal force required for circular motion:
+
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+
+We want to find the mass-to-charge ratio ($\frac{m}{q}$). Rearranging the formula:
+$$\frac{m}{q} = \frac{Br}{v}$$
+
+**Given values:**
+- $B = 1.95 \times 10^{-6}\text{ T}$
+- $v = 2.50 \times 10^4\text{ m s}^{-1}$
+- $r = 5.0\text{ cm} = 0.050\text{ m}$
+
+**Calculation:**
+$$\frac{m}{q} = \frac{(1.95 \times 10^{-6}) \times (0.050)}{2.50 \times 10^4}$$
+$$\frac{m}{q} = \frac{9.75 \times 10^{-8}}{2.50 \times 10^4}$$
+$$\frac{m}{q} = 3.9 \times 10^{-12} \text{ kg C}^{-1}$$
+
+**Correction Note:** The prompt asks to show the ratio is $2.6 \times 10^{11}\text{ C kg}^{-1}$. This is the **charge-to-mass ratio** ($\frac{q}{m}$). Let's calculate the reciprocal:
+$$\frac{q}{m} = \frac{v}{Br} = \frac{2.50 \times 10^4}{(1.95 \times 10^{-6}) \times (0.050)}$$
+$$\frac{q}{m} = \frac{2.50 \times 10^4}{9.75 \times 10^{-8}} \approx 2.564 \times 10^{11} \approx 2.6 \times 10^{11} \text{ C kg}^{-1}$$
+
+Thus, the charge-to-mass ratio is indeed $2.6 \times 10^{11}\text{ C kg}^{-1}$.
+
+###QUESTION_TYPE
+Calculation question

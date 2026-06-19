@@ -1,0 +1,31 @@
+To solve this problem, we must analyze the vertical displacement of the particle under two different force conditions. In both scenarios, the horizontal velocity $v_x$ and the time of flight $t$ are identical because the horizontal distance $d$ is the same.
+
+### Step-by-Step Explanation:
+
+**1. Scenario 1: Gravity only**
+Under the influence of gravity ($a = g$), the vertical displacement $\Delta y_1$ is given by the kinematic equation $\Delta y = \frac{1}{2}at^2$:
+$$\Delta y_1 = 10\text{ cm} = \frac{1}{2}gt^2$$
+
+**2. Scenario 2: Electric field and Gravity**
+In the second scenario, the particle strikes the upper surface. Let $E$ be the magnitude of the electric field and $F_e = qE$ be the electric force. The net vertical acceleration $a_{net}$ acts upwards to move the particle $10\text{ cm}$ in the opposite direction.
+The net force is $F_{net} = qE - mg = ma_{net}$, so $a_{net} = \frac{qE}{m} - g$.
+The displacement $\Delta y_2$ is:
+$$\Delta y_2 = 10\text{ cm} = \frac{1}{2} a_{net} t^2$$
+$$\Delta y_2 = \frac{1}{2} \left( \frac{qE}{m} - g \right) t^2$$
+
+**3. Equating the two scenarios**
+Since $\Delta y_1 = \Delta y_2 = 10\text{ cm}$, we have:
+$$\frac{1}{2}gt^2 = \frac{1}{2} \left( \frac{qE}{m} - g \right) t^2$$
+Dividing both sides by $\frac{1}{2}t^2$:
+$$g = \frac{qE}{m} - g$$
+$$2g = \frac{qE}{m}$$
+Solving for $E$:
+$$E = \frac{2mg}{q}$$
+
+Comparing this result to the given options, the correct answer is **D**.
+
+### Answer:
+**D**
+
+###QUESTION_TYPE
+Calculation question

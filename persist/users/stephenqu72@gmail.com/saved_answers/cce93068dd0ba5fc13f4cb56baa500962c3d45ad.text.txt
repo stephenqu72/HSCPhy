@@ -1,0 +1,35 @@
+To solve this HSC Physics problem, we need to apply the principles of gravitational potential energy and orbital mechanics.
+
+### Part a) Show that $v_{\text{esc}} = \sqrt{2}v_{\text{orb}}$
+
+**1. Expression for orbital velocity ($v_{\text{orb}}$):**
+For a satellite in a circular orbit of radius $r$, the centripetal force is provided by the gravitational force:
+$$\frac{mv_{\text{orb}}^2}{r} = \frac{GMm}{r^2}$$
+Solving for $v_{\text{orb}}$:
+$$v_{\text{orb}} = \sqrt{\frac{GM}{r}}$$
+
+**2. Expression for escape velocity ($v_{\text{esc}}$):**
+Escape velocity is the speed required for an object to reach an infinite distance from the Earth with zero kinetic energy. Using the conservation of energy (initial energy = final energy):
+$$K_i + U_i = K_f + U_f$$
+$$\frac{1}{2}mv_{\text{esc}}^2 - \frac{GMm}{r} = 0 + 0$$
+$$\frac{1}{2}mv_{\text{esc}}^2 = \frac{GMm}{r}$$
+$$v_{\text{esc}} = \sqrt{\frac{2GM}{r}}$$
+
+**3. Comparison:**
+Substitute $v_{\text{orb}}$ into the expression for $v_{\text{esc}}$:
+$$v_{\text{esc}} = \sqrt{2} \cdot \sqrt{\frac{GM}{r}} = \sqrt{2}v_{\text{orb}}$$
+
+---
+
+### Part b) Account for the shape of the graph
+
+The graph shows the total mechanical energy $E = U + K$ of the spacecraft versus time.
+
+1. **Before the rocket is fired:** The spacecraft is in a stable circular orbit. In a circular orbit, the total mechanical energy is negative ($E = -GMm / 2r$). The graph shows a constant, low value, reflecting this stable state.
+2. **When the rocket is used:** The rocket performs work on the spacecraft, adding energy to the system. This corresponds to the steep upward slope in the graph, representing the increase in kinetic energy as the engines fire.
+3. **After the rocket is fired:** The graph flattens out at a higher total energy level (approaching zero from below). This indicates that the spacecraft has reached a higher orbit or is on an escape trajectory. The increase in $E$ indicates that the internal chemical energy of the rocket fuel has been converted into the mechanical energy (kinetic and gravitational potential) of the spacecraft.
+
+---
+
+###QUESTION_TYPE
+Calculation question

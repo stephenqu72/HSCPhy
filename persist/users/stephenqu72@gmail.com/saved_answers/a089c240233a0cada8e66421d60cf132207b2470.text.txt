@@ -1,0 +1,31 @@
+To find the work done on the electron, we use the relationship between work, charge, electric field, and distance.
+
+### Answer
+The correct answer is **(D) $1.92 \times 10^{-13}\text{ J}$**.
+
+### Explanation
+
+**1. Identify the given values:**
+*   Electric field strength ($E$) = $6 \times 10^6\text{ V m}^{-1}$
+*   Distance ($d$) = $20\text{ cm} = 0.2\text{ m}$
+*   Charge of an electron ($q$) = $1.6 \times 10^{-19}\text{ C}$ (This is a standard physical constant).
+
+**2. State the relevant formulas:**
+The work done ($W$) to move a charge in an electric field is given by:
+$$W = F \times d$$
+Since the force on a charge in an electric field is $F = qE$, we substitute this to get:
+$$W = qEd$$
+
+**3. Perform the calculation:**
+Substitute the values into the equation:
+$$W = (1.6 \times 10^{-19}\text{ C}) \times (6 \times 10^6\text{ V m}^{-1}) \times (0.2\text{ m})$$
+
+Group the numbers and the powers of 10:
+$$W = (1.6 \times 6 \times 0.2) \times 10^{-19 + 6}$$
+$$W = 1.92 \times 10^{-13}\text{ J}$$
+
+**4. Conclusion:**
+Moving the electron against the electric field requires energy equal to the change in potential energy, resulting in $1.92 \times 10^{-13}\text{ J}$ of work done.
+
+###QUESTION_TYPE
+Multiple choice

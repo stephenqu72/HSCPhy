@@ -1,0 +1,20 @@
+To determine the time at which the induced electromotive force (EMF) is at a maximum, we must apply Faraday’s Law of Induction.
+
+### The Physics Principle
+Faraday's Law states that the magnitude of the induced EMF ($\varepsilon$) in a coil is proportional to the rate of change of magnetic flux ($\Phi$) with respect to time ($t$):
+$$\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$$
+In terms of a graph of flux versus time, the rate of change of flux is represented by the **gradient (slope)** of the line. Therefore, the induced EMF is at a maximum where the absolute value of the slope of the flux-time graph is steepest.
+
+### Step-by-Step Analysis
+1.  **Point A:** The graph is a horizontal line. The gradient is zero, so the induced EMF is zero.
+2.  **Point B:** This point lies on the steep, straight-line section of the graph connecting the negative flux region to the positive flux region. This section has a constant, high positive slope. This indicates a high rate of change, meaning the induced EMF is at a high, constant value here.
+3.  **Point C:** The graph is a horizontal line at the peak of the flux. The gradient is zero, so the induced EMF is zero.
+4.  **Point D:** The graph shows a curve transitioning to a horizontal line. While the slope is changing, it is clearly less steep than the straight-line section near point B.
+
+### Conclusion
+The magnitude of the slope is greatest at the straight-line segment passing through point B. Since the induced EMF is directly proportional to the magnitude of the slope, the EMF is at a maximum at point B.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,24 @@
+To solve this problem, we must apply **Lenz’s Law** and the principles of **electromagnetic induction**.
+
+### Step-by-Step Explanation
+
+1.  **Analyze the circuit:**
+    When the switch is closed, a current flows through the bottom coil. Based on the battery polarity (positive terminal on the right), the current flows into the right side of the bottom coil. Using the right-hand grip rule, this creates a magnetic field where the top of the bottom coil acts as a **North pole** (field lines point upwards).
+
+2.  **Lenz's Law:**
+    As the current in the bottom coil increases from zero, the magnetic flux through the top coil changes (increases). According to Lenz’s Law, the top coil will induce a current that opposes this change by creating a magnetic field to repel the incoming North pole. Therefore, the bottom of the top coil must become a **North pole**.
+
+3.  **Determine the direction of current ($X$ to $Y$ or $Y$ to $X$):**
+    Looking at the top coil, for the bottom end to be a North pole, the current must flow in a specific direction. By using the right-hand grip rule on the top coil: if your thumb points up (to represent the North pole at the bottom), your fingers curl in the direction of the current. Tracing the wire shown in the diagram, this orientation means the induced current flows from **$Y$ to $X$**.
+
+4.  **Determine the movement of the pointer:**
+    The top coil (now acting as a North pole) is being repelled by the bottom coil (also a North pole). This repulsive force pushes the top coil upward. If the top coil moves **up**, the hook attached to the spring balance moves up, which causes the pointer on the spring balance to move **down** (as the scale is calibrated to measure the downward tension/weight).
+
+5.  **Conclusion:**
+    The current flows from $Y$ to $X$, and the pointer moves down. This corresponds to option **C**.
+
+### Answer
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

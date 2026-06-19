@@ -1,0 +1,32 @@
+To solve these problems, we use the principles of charged particle motion in a magnetic field.
+Given:
+- Velocity $v = 8.0 \times 10^6 \text{ m s}^{-1}$
+- Angle $\theta = 70^\circ$
+- Magnetic field $B = 0.015 \text{ T}$
+- Mass of electron $m_e = 9.11 \times 10^{-31} \text{ kg}$
+- Charge of electron $q = 1.602 \times 10^{-19} \text{ C}$
+
+### (a) Component perpendicular to the magnetic field
+The perpendicular component is $v_{\perp} = v \sin(\theta)$.
+$v_{\perp} = (8.0 \times 10^6) \sin(70^\circ) \approx 7.518 \times 10^6 \text{ m s}^{-1}$
+
+### (b) Component parallel to the magnetic field
+The parallel component is $v_{\parallel} = v \cos(\theta)$.
+$v_{\parallel} = (8.0 \times 10^6) \cos(70^\circ) \approx 2.736 \times 10^6 \text{ m s}^{-1}$
+
+### (c) Why the electron moves in a helical path
+The component of velocity parallel to the field ($v_{\parallel}$) experiences no magnetic force, so the electron continues to move forward at a constant velocity in that direction. The perpendicular component ($v_{\perp}$) experiences a magnetic force ($F = qv_{\perp}B$) that acts as a centripetal force, forcing the electron into a circular path. The combination of these two motions results in a helix.
+
+### (d) Radius of the loop
+The magnetic force equals the centripetal force: $qv_{\perp}B = \frac{m_e v_{\perp}^2}{r}$.
+Rearranging for radius:
+$$r = \frac{m_e v_{\perp}}{qB} = \frac{(9.11 \times 10^{-31})(7.518 \times 10^6)}{(1.602 \times 10^{-19})(0.015)} \approx 2.85 \times 10^{-3} \text{ m (or } 2.85 \text{ mm)}$$
+
+### (e) Distance between two adjacent loops (Pitch)
+The distance between loops (pitch) is the distance traveled parallel to the field in one period ($T$) of the circular motion.
+The period $T = \frac{2\pi r}{v_{\perp}} = \frac{2\pi m_e}{qB}$.
+$T = \frac{2 \times \pi \times 9.11 \times 10^{-31}}{1.602 \times 10^{-19} \times 0.015} \approx 2.38 \times 10^{-9} \text{ s}$
+Pitch $d = v_{\parallel} \times T = (2.736 \times 10^6) \times (2.38 \times 10^{-9}) \approx 6.51 \times 10^{-3} \text{ m (or } 6.51 \text{ mm)}$
+
+###QUESTION_TYPE
+Calculation question

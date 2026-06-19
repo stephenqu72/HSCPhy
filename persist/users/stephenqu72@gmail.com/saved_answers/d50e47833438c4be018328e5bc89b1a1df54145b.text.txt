@@ -1,0 +1,31 @@
+To solve these problems, we apply the principles of electromagnetism concerning a current-carrying conductor in a magnetic field.
+
+### Question 1: Magnitude of the force
+To find the force on a current-carrying wire in a uniform magnetic field, we use the formula:
+$$F = BIl \sin(\theta)$$
+
+**1. Identify the given values:**
+*   Magnetic field strength ($B$) = $4.0 \times 10^{-4}\text{ T}$
+*   Current ($I$) = $10\text{ A}$
+*   Length of wire in the field ($l$) = $10\text{ cm} = 0.1\text{ m}$
+*   The angle ($\theta$) between the current direction (upwards) and the magnetic field lines (from N to S, which is to the left) is $90^\circ$. Since $\sin(90^\circ) = 1$, the formula simplifies to $F = BIl$.
+
+**2. Calculate:**
+$$F = (4.0 \times 10^{-4}\text{ T}) \times (10\text{ A}) \times (0.1\text{ m})$$
+$$F = 4.0 \times 10^{-4} \times 1 = 4.0 \times 10^{-4}\text{ N}$$
+
+**Answer:** The magnitude of the force is $4.0 \times 10^{-4}\text{ N}$. The correct option is **B**.
+
+---
+
+### Question 2: Direction of the force
+To determine the direction, we use the **Right-Hand Palm Rule** (or Fleming’s Left-Hand Rule):
+
+1.  **Fingers:** Point your fingers in the direction of the magnetic field ($B$). Since the field goes from North to South, point your fingers to the **left**.
+2.  **Thumb:** Point your thumb in the direction of the conventional current ($I$). The current is directed **upwards**.
+3.  **Palm:** Your palm will naturally face **out of the page**. This is the direction of the magnetic force acting on the wire.
+
+**Answer:** The direction of the force is **out of page**. The correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

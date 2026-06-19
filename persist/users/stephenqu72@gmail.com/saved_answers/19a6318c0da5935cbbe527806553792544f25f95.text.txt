@@ -1,0 +1,36 @@
+To solve this problem, we use the formula for the magnetic force on a current-carrying wire:
+$$F = BIL \sin(\theta)$$
+
+Given that the wire is placed perpendicular to the magnetic field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. The formula simplifies to:
+$$F = (BL)I$$
+
+This matches the linear equation form $y = mx + c$, where:
+- $y = F$ (Force)
+- $x = I$ (Current)
+- $m = BL$ (the gradient/slope of the line)
+- $c = 0$ (the intercept)
+
+### Step-by-Step Solution:
+
+1.  **Plotting the Graph:**
+    *   Plot the provided points on the grid: $(0.5, 0.015), (1.0, 0.039), (1.5, 0.052), (2.0, 0.073), (2.5, 0.083)$.
+    *   Draw a "Line of Best Fit" through these points. While there is slight experimental error (the points are not perfectly collinear), a straight line passing near the origin is expected.
+
+2.  **Calculating the Gradient ($m$):**
+    Choose two points on your line of best fit (not necessarily data points). Let's use the line spanning from $x = 0$ to $x = 2.5$.
+    Using the general trend:
+    $$m = \frac{\Delta y}{\Delta x} \approx \frac{0.084 - 0}{2.5 - 0} = 0.0336 \text{ N/A}$$
+
+3.  **Determining the Magnetic Field Strength ($B$):**
+    Since $m = BL$, we can solve for $B$:
+    $$B = \frac{m}{L}$$
+    Given $L = 0.075 \text{ m}$:
+    $$B = \frac{0.0336}{0.075} \approx 0.448 \text{ T}$$
+
+*(Note: Depending on the specific line of best fit drawn by the student, the value of $B$ may vary slightly, typically falling in the range of $0.44 - 0.45 \text{ T}$.)*
+
+### Final Answer:
+By plotting the Force against Current, the gradient represents $BL$. Using the gradient $\approx 0.0336$, the magnetic field strength $B$ is calculated to be approximately **$0.45 \text{ T}$**.
+
+###QUESTION_TYPE
+Data analysis questions

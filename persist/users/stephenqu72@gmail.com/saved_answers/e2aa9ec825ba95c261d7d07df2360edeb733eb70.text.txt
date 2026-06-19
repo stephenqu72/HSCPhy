@@ -1,0 +1,29 @@
+To find the torque exerted on the disc, we use the fundamental definition of torque:
+
+$$\tau = r F \sin(\phi)$$
+
+Where:
+*   $r$ is the distance from the pivot point to the point where the force is applied (the radius).
+*   $F$ is the magnitude of the applied force.
+*   $\phi$ is the angle between the position vector $\vec{r}$ and the force vector $\vec{F}$.
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Radius $r = 100 \text{ cm} = 1.0 \text{ m}$.
+    *   Force $F = 100 \text{ N}$.
+    *   The angle $\theta$ shown in the diagram is $30^\circ$. Looking at the geometry, the angle between the radius vector $\vec{r}$ (which is along the x-axis direction at that moment) and the force vector $\vec{F}$ (which is acting vertically upward) is $90^\circ - \theta$.
+    *   Alternatively, using the perpendicular component of the force: The component of the force responsible for rotation is $F \cos(\theta)$, which is perpendicular to the radius $\vec{r}$.
+    *   $\phi = 90^\circ - 30^\circ = 60^\circ$.
+
+2.  **Calculate the torque:**
+    Using the formula $\tau = r F \sin(\phi)$:
+    $$\tau = (1.0 \text{ m}) \times (100 \text{ N}) \times \sin(60^\circ)$$
+    $$\tau = 100 \times 0.866$$
+    $$\tau = 86.6 \text{ Nm}$$
+
+**Conclusion:**
+The correct value describing the turning effect is $86.6 \text{ Nm}$. This matches option **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,39 @@
+To solve this problem, we use the formula for escape velocity $v_e$:
+
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+- $v_e$ is the escape velocity in m/s
+- $G$ is the gravitational constant ($6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$)
+- $M$ is the mass of the Moon (the value we need to find)
+- $r$ is the radius of the Moon in meters
+
+### Step 1: Convert units to SI units
+- Radius $r = 1.73 \times 10^3 \text{ km} = 1.73 \times 10^6 \text{ m}$
+- Escape velocity $v_e = 2.38 \text{ km s}^{-1} = 2.38 \times 10^3 \text{ m s}^{-1}$
+
+### Step 2: Rearrange the formula to solve for $M$
+Square both sides of the escape velocity formula:
+$$v_e^2 = \frac{2GM}{r}$$
+
+Isolate $M$:
+$$M = \frac{v_e^2 \times r}{2G}$$
+
+### Step 3: Substitute the values and calculate
+$$M = \frac{(2.38 \times 10^3)^2 \times (1.73 \times 10^6)}{2 \times (6.67 \times 10^{-11})}$$
+
+Calculate the numerator:
+$$(5.6644 \times 10^6) \times (1.73 \times 10^6) \approx 9.799 \times 10^{12}$$
+
+Calculate the denominator:
+$$2 \times 6.67 \times 10^{-11} = 1.334 \times 10^{-10}$$
+
+Calculate $M$:
+$$M = \frac{9.799 \times 10^{12}}{1.334 \times 10^{-10}} \approx 7.345 \times 10^{22} \text{ kg}$$
+
+Rounding to three significant figures, we get $7.35 \times 10^{22} \text{ kg}$.
+
+Comparing this to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

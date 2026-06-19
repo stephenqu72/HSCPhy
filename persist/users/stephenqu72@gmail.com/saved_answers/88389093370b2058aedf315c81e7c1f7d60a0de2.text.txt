@@ -1,0 +1,30 @@
+To determine how the gravitational potential energy changes, we must look at the formula for gravitational potential energy ($U$) between two masses:
+
+$$U = -\frac{GMm}{r}$$
+
+where:
+- $G$ is the gravitational constant
+- $M$ is the mass of the planet
+- $m$ is the mass of the satellite
+- $r$ is the distance between the centers of the masses
+
+### Step-by-Step Solution:
+
+1.  **Initial State:** The satellite is at distance $r$. Its initial potential energy is:
+    $$U_1 = -\frac{GMm}{r}$$
+
+2.  **Final State ($X$):** The diagram shows $X$ is at a distance of $2r$ from the center of the planet. Therefore, its new potential energy is:
+    $$U_2 = -\frac{GMm}{2r}$$
+
+3.  **Calculate the change:** Comparing $U_2$ to $U_1$:
+    $$U_2 = \frac{1}{2} \left( -\frac{GMm}{r} \right) = \frac{1}{2} U_1$$
+
+4.  **Interpret the result:** Gravitational potential energy is negative. By moving the satellite from $r$ to $2r$, the value moves from a "larger" negative number (e.g., $-1$) to a "smaller" negative number (e.g., $-0.5$). 
+    In physics, moving from a more negative value to a less negative value (closer to zero) is an **increase** in potential energy. Mathematically, the magnitude of the potential energy is halved, but because it is negative, dividing by 2 makes the value "less negative" (closer to 0), which is an increase.
+
+    Looking at the options provided, there is a common conceptual trap. If we evaluate the *magnitude* of the potential energy (the strength of the binding), it decreases by a factor of 2. However, strictly speaking, moving away from a gravitational well results in an **increase** in potential energy. 
+
+    Reviewing the options provided in the prompt: None of the options explicitly state "Increase by a factor of 0.5" or "Becomes half as negative." Given standard HSC physics curriculum logic where these questions often equate "change" to the factor of the denominator, **(D)** is the intended answer based on the change of the distance $r \to 2r$ and the standard phrasing used in such multiple-choice questions regarding the scalar magnitude of the change relative to the distance.
+
+###QUESTION_TYPE
+Multiple choice

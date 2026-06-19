@@ -1,0 +1,34 @@
+To solve this problem, we need to apply the physics of a car on a banked track. To minimize friction, the horizontal component of the normal force must provide the entire centripetal force required for circular motion.
+
+### Step-by-Step Explanation
+
+**1. Convert units to SI:**
+The speed $v$ is given as $110\text{ km h}^{-1}$. We must convert this to meters per second ($\text{m s}^{-1}$):
+$$v = \frac{110}{3.6} \approx 30.56\text{ m s}^{-1}$$
+
+**2. Physics Principle:**
+For a frictionless banked turn, the net force is purely horizontal (the centripetal force). 
+- The vertical components must balance: $N \cos\theta = mg$
+- The horizontal component provides centripetal force: $N \sin\theta = \frac{mv^2}{r}$
+
+Dividing these equations gives:
+$$\tan\theta = \frac{v^2}{rg}$$
+where $\theta = 30^\circ$ and $g \approx 9.8\text{ m s}^{-2}$.
+
+**3. Calculate the radius ($r$):**
+$$r = \frac{v^2}{g \tan\theta}$$
+$$r = \frac{(30.56)^2}{9.8 \times \tan(30^\circ)}$$
+$$r = \frac{933.91}{5.658} \approx 165.06\text{ m}$$
+
+**4. Find the distance ($d$) along the slope:**
+From the geometry of the diagram, $r$ is the horizontal radius, and $d$ is the hypotenuse of the triangle formed by the slope. The relationship is:
+$$r = d \cos\theta$$
+$$d = \frac{r}{\cos\theta}$$
+$$d = \frac{165.06}{\cos(30^\circ)}$$
+$$d = \frac{165.06}{0.866} \approx 190.6\text{ m}$$
+
+### Final Answer:
+The driver should locate the car at a distance of approximately **$191\text{ m}$** from the center of the track along the slope.
+
+###QUESTION_TYPE
+Calculation question

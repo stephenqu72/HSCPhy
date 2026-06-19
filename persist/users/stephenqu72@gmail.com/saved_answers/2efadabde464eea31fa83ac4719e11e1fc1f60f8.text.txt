@@ -1,0 +1,31 @@
+To solve this problem, we apply the principles of motion for charged particles in electromagnetic fields, specifically the velocity selector and magnetic circular motion.
+
+### Part a) Calculate the radius $R$
+
+1.  **Velocity Selection:** In Region I, particles pass undeflected when the electric force equals the magnetic force:
+    $$F_E = F_B$$
+    $$qE = qvB$$
+    $$v = \frac{E}{B}$$
+    Substituting the given values:
+    $$v = \frac{5000\text{ N/C}}{0.12\text{ T}} \approx 4.167 \times 10^4\text{ m/s}$$
+
+2.  **Circular Motion:** In Region II, only the magnetic force acts on the particle, providing the centripetal force:
+    $$F_B = F_c$$
+    $$qvB = \frac{mv^2}{R}$$
+    Rearranging for $R$:
+    $$R = \frac{mv}{qB}$$
+    Substitute $v = \frac{E}{B}$ into the radius equation:
+    $$R = \frac{m(E/B)}{qB} = \frac{mE}{qB^2}$$
+    Plugging in the numerical values:
+    $$R = \frac{(6.68 \times 10^{-26}\text{ kg})(5000\text{ N/C})}{(3.2 \times 10^{-19}\text{ C})(0.12\text{ T})^2}$$
+    $$R = \frac{3.34 \times 10^{-22}}{4.608 \times 10^{-21}} \approx 0.0725\text{ m} \text{ (or } 7.25\text{ cm)}$$
+
+### Part b) Sketch the paths
+To sketch the paths for particle Z ($q' = -q, m' = m/2$):
+*   **In Region I:** Because the charge sign is reversed, both the electric force and magnetic force directions flip. The net force remains zero, so the particle still travels straight.
+*   **In Region II:** Using the radius formula $R' = \frac{m'v}{q'B}$:
+    *   Since $m' = 0.5m$ and $|q'| = |q|$, the radius $R'$ will be **half** the original radius ($R' = 0.5R$).
+    *   Using the Right-Hand Rule: For a positive charge moving right in an 'into-the-page' field, the force is upward. For a negative charge, the force is downward. Therefore, particle Z will curve **downward** in a tighter arc compared to the upward curve of particle Y.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,35 @@
+To find the magnitude of the force $F_A$, we must use the condition for static equilibrium. Since the net force on the ring is $0\text{ N}$, the sum of the horizontal components ($\Sigma F_x$) and the sum of the vertical components ($\Sigma F_y$) must both be zero.
+
+### Step 1: Define a Coordinate System
+Let:
+*   West be the negative $x$-direction ($-x$).
+*   East be the positive $x$-direction ($+x$).
+*   South be the negative $y$-direction ($-y$).
+*   North be the positive $y$-direction ($+y$).
+
+### Step 2: Resolve Forces into Components
+*   **Force $F_A$**: Pointing West.
+    *   $F_{Ax} = -F_A$
+    *   $F_{Ay} = 0$
+*   **Force $F_B$**: Pointing South ($65\text{ N}$).
+    *   $F_{Bx} = 0$
+    *   $F_{By} = -65\text{ N}$
+*   **Force $F_C$**: Magnitude $190\text{ N}$ at $110^\circ$ to $F_B$.
+    Since $F_B$ is at $270^\circ$ (or $-90^\circ$ on a unit circle), $F_C$ is at an angle of $270^\circ - 110^\circ = 160^\circ$ from the positive $x$-axis.
+    *   $F_{Cx} = 190 \cdot \cos(160^\circ) \approx 190 \cdot (-0.9397) \approx -178.54\text{ N}$
+    *   $F_{Cy} = 190 \cdot \sin(160^\circ) \approx 190 \cdot (0.3420) \approx 64.98\text{ N}$
+
+### Step 3: Solve for $F_A$
+Using the equilibrium condition for the horizontal components ($\Sigma F_x = 0$):
+$$-F_A + F_{Bx} + F_{Cx} = 0$$
+$$-F_A + 0 + (-178.54) = 0$$
+$$F_A = -178.54\text{ N}$$
+
+The magnitude is the absolute value of this component, which is approximately $179\text{ N}$.
+
+**Note on direction:** The negative sign indicates the direction is West, as stated in the problem. The magnitude is $179\text{ N}$.
+
+The correct option is **D**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To find the period of rotation for a charged particle moving in a uniform magnetic field, we equate the magnetic force to the centripetal force required to maintain circular motion.
+
+### Step-by-Step Solution:
+
+1.  **Identify the forces:** A particle with charge $q$ moving with velocity $v$ in a magnetic field $B$ experiences a magnetic force:
+    $$F_B = qvB$$
+2.  **Set up the centripetal force equation:** Since the force acts perpendicular to the velocity, it provides the centripetal force $F_c = \frac{mv^2}{r}$. Equating these:
+    $$qvB = \frac{mv^2}{r}$$
+3.  **Solve for the radius ($r$):**
+    $$r = \frac{mv}{qB}$$
+4.  **Relate velocity to the period ($T$):** The period $T$ is the time taken for one full revolution. The circumference of the path is $2\pi r$, so the speed is:
+    $$v = \frac{2\pi r}{T}$$
+5.  **Substitute and solve for $T$:** Substitute the expression for $r$ into the velocity equation:
+    $$v = \frac{2\pi}{T} \left( \frac{mv}{qB} \right)$$
+    Dividing both sides by $v$:
+    $$1 = \frac{2\pi m}{T qB}$$
+    Rearranging for $T$:
+    $$T = \frac{2\pi m}{qB}$$
+
+Comparing this result to the given options, we find that it matches **(D)**.
+
+### Conclusion:
+The period of rotation is independent of the particle's speed and radius, depending only on the mass, charge, and magnetic field strength.
+
+###QUESTION_TYPE
+Multiple choice

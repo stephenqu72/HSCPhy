@@ -1,0 +1,33 @@
+To answer this 7-mark HSC Physics question, we must apply the principles of electromagnetism, specifically the Lorentz force acting on charged particles moving in a magnetic field.
+
+### Answer
+*   **Particle Y:** Follows a straight-line path. Since it experiences no deflection, it must be **neutral** (uncharged), meaning it is unaffected by the magnetic field.
+*   **Particle X:** Deflects upwards. Using the Right-Hand Rule (for positive charges) or Left-Hand Rule (for negative charges) in a magnetic field pointing into the page ($\times$), this particle is **positively charged**.
+*   **Particle Z:** Deflects downwards. By the same principles, this particle is **negatively charged**.
+*   **Comparison of radii:** Particle X has a smaller radius of curvature ($r$) than particle Z. Since $r = \frac{mv}{qB}$ and we are given that speed ($v$) and magnetic field ($B$) are constant, the difference in curvature must be due to the mass-to-charge ratio ($\frac{m}{q}$). Particle X has a smaller $\frac{m}{q}$ (or a larger charge-to-mass ratio) compared to particle Z.
+
+---
+
+### How to solve this
+To achieve full marks, structure your response around the following physics concepts:
+
+**1. Identify the Magnetic Force Law:**
+State the magnetic force equation: $F = qvB\sin\theta$. Since the particles move perpendicularly to the field, the force is $F = qvB$. This force acts as a centripetal force ($F_c = \frac{mv^2}{r}$), causing circular motion. Equating these:
+$$qvB = \frac{mv^2}{r} \implies r = \frac{mv}{qB}$$
+
+**2. Analyze Particle Y (The Neutral Case):**
+Observe that Particle Y does not deviate from its path. A magnetic field only exerts force on a moving *charged* particle. Therefore, $q = 0$, so $F = 0$. Particle Y is neutral.
+
+**3. Analyze Direction (Right-Hand Rule):**
+*   Point your fingers in the direction of velocity (right).
+*   Curl your fingers into the page (direction of $B$).
+*   Your thumb points in the direction of the force for a **positive** charge.
+*   For **Particle X**, the thumb points **upward**, matching the observed path. Thus, X is positive.
+*   For **Particle Z**, the path is **downward**, which is opposite to the direction predicted for a positive charge. Thus, Z is negative.
+
+**4. Analyze Curvature (Quantitative Comparison):**
+The radius of the path $r$ is inversely proportional to the curvature (smaller $r$ = tighter turn). From $r = \frac{mv}{qB}$, because $v$ and $B$ are constant, the radius is determined by $\frac{m}{q}$. 
+*   Particle X has a smaller radius of curvature than Particle Z, indicating it has a smaller mass-to-charge ratio ($\frac{m}{q}$) than particle Z.
+
+###QUESTION_TYPE
+Short answer

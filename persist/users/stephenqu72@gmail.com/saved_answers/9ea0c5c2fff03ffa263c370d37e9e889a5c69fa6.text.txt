@@ -1,0 +1,39 @@
+To solve this problem, we must apply the **Law of Conservation of Energy** for an object in a gravitational field.
+
+### Explanation and Solution
+
+In an elliptical orbit, the total mechanical energy (sum of kinetic and gravitational potential energy) is conserved at every point along the path. 
+
+**1. Identify the Energy Equations:**
+The total energy $E$ of a projectile of mass $m$ at a distance $r$ from the centre of the Earth is given by:
+$$E = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+where $G$ is the gravitational constant and $M$ is the mass of the Earth.
+
+**2. Set up the conservation equation:**
+Since energy is conserved, the energy at the launch point (distance $R$, velocity $v_0 = 8200 \text{ m/s}$) must equal the energy at the furthest point (distance $2R$, velocity $v$):
+$$\frac{1}{2}mv_0^2 - \frac{GMm}{R} = \frac{1}{2}mv^2 - \frac{GMm}{2R}$$
+
+**3. Simplify the expression:**
+We can divide the entire equation by $m$:
+$$\frac{1}{2}v_0^2 - \frac{GM}{R} = \frac{1}{2}v^2 - \frac{GM}{2R}$$
+
+**4. Use the relationship for orbital motion:**
+From the conservation of angular momentum, for a projectile at the extremes of its orbit, $r_1v_1 = r_2v_2$ is NOT directly applicable here because the velocity at the start is not necessarily perpendicular to the radius. However, we can use the standard value for Earth's surface gravity: $g = \frac{GM}{R^2}$, meaning $GM = gR^2$. Given $g \approx 9.8 \text{ m/s}^2$ and $R \approx 6.37 \times 10^6 \text{ m}$:
+$$GM \approx 3.98 \times 10^{14} \text{ m}^3/\text{s}^2$$
+
+Rearranging for $v$:
+$$\frac{1}{2}v^2 = \frac{1}{2}v_0^2 - \frac{GM}{R} + \frac{GM}{2R}$$
+$$\frac{1}{2}v^2 = \frac{1}{2}v_0^2 - \frac{GM}{2R}$$
+$$v^2 = v_0^2 - \frac{GM}{R}$$
+
+**5. Calculation:**
+Using $v_0 = 8200 \text{ m/s}$, $G \approx 6.67 \times 10^{-11}$, $M \approx 5.97 \times 10^{24} \text{ kg}$, $R \approx 6.37 \times 10^6 \text{ m}$:
+$$v^2 = (8200)^2 - \frac{3.98 \times 10^{14}}{6.37 \times 10^6}$$
+$$v^2 = 67,240,000 - 62,480,376$$
+$$v^2 \approx 4,759,624$$
+$$v \approx 2181.6 \text{ m/s}$$
+
+Rounding to two significant figures (based on the input), the speed is approximately **$2.2 \times 10^3 \text{ m/s}$**.
+
+###QUESTION_TYPE
+Calculation question

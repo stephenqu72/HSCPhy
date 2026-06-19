@@ -1,0 +1,23 @@
+To determine the direction of the deflection of the electron beam, we use the **Right-Hand Rule for Magnetic Force** (often referred to as the "Right-Hand Palm Rule" or the "Left-Hand Rule" for negative charges).
+
+### The Answer
+The correct answer is **(D) Upwards**.
+
+### Explanation
+To solve this, we apply the magnetic force formula $F = qvB \sin\theta$, where the direction is determined by the cross product. Specifically, for a charged particle, we use the following steps:
+
+1.  **Identify the Magnetic Field ($B$):** The magnetic field lines travel from the North pole ($N$) to the South pole ($S$). In this diagram, the field points from left to right.
+2.  **Identify the Velocity ($v$):** The electron beam is moving away from the viewer (into the page or towards the back of the gap between the poles).
+3.  **Apply the Right-Hand Rule:** 
+    *   Point your fingers in the direction of the magnetic field (to the right, towards the $S$ pole).
+    *   Point your thumb in the direction of the **conventional current**. Since electrons are negatively charged, conventional current flows in the *opposite* direction of the electrons. If the electrons are moving into the page, the conventional current is effectively moving out of the page (towards you).
+    *   Your palm (or the force vector) will face **upwards**.
+4.  **Alternative (Left-Hand Rule):** If you use the Left-Hand Rule specifically for negative charges:
+    *   Point your index finger in the direction of the magnetic field (right).
+    *   Point your middle finger in the direction of the electron velocity (into the page).
+    *   Your thumb will point **upwards**, indicating the direction of the magnetic force.
+
+Because the force acting on the electrons is directed upwards, the beam will be deflected upwards.
+
+###QUESTION_TYPE
+Multiple choice

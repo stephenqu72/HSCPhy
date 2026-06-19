@@ -1,0 +1,39 @@
+### Answer
+
+**a)**
+1. Calculate $r^3$:
+   $r = 2.38 \times 10^8 \text{ m}$
+   $r^3 = (2.38 \times 10^8)^3 \approx 1.35 \times 10^{25} \text{ m}^3$
+   On the graph's scale, this is $1.35$ units.
+
+2. Using the line of best fit (which passes approximately through $(0.6, 0.6)$ and $(5.4, 5.6)$):
+   Slope $m = \frac{5.6 - 0.6}{5.4 - 0.6} \approx 1.04 \times 10^{10} \text{ s}^2/\text{m}^3$.
+   $T^2 = m \times r^3 = 1.04 \times 1.35 \approx 1.40 \times 10^{10} \text{ s}^2$.
+
+3. Calculate $T$:
+   $T = \sqrt{1.40 \times 10^{10}} \approx 1.18 \times 10^5 \text{ s}$
+   Converting to hours: $\frac{1.18 \times 10^5}{3600} \approx 32.8 \text{ hours}$.
+
+**b)**
+The student's method is **invalid**. 
+- The given value for Titan is $r^3 = 1.82 \times 10^{27} \text{ m}^3$. 
+- The x-axis of the graph only extends to $6 \times 10^{25} \text{ m}^3$. 
+- The student is attempting to **extrapolate** significantly beyond the provided range of data. Extrapolation is unreliable because it assumes the relationship remains linear far outside the tested range and ignores potential orbital perturbations or external gravitational influences that could manifest at larger distances.
+
+---
+
+### How to solve this
+
+1. **For Part (a):**
+   - Identify that the graph represents Kepler’s Third Law ($T^2 \propto r^3$).
+   - You must first convert the given radius $r$ into $r^3$ to match the x-axis scale. Be careful with the units: the axis uses units of $\times 10^{25} \text{ m}^3$. 
+   - Locate your calculated $r^3$ on the horizontal axis, move vertically to the line of best fit, and read the corresponding $T^2$ value from the y-axis.
+   - Remember to take the **square root** of the y-value to find $T$.
+
+2. **For Part (b):**
+   - Look at the range of the provided graph (x-axis maxes at $6 \times 10^{25}$).
+   - Compare this to the value provided for Titan ($1.82 \times 10^{27}$).
+   - Recognize that the student is forced to extend the line of best fit outside the data range. In physics, this is called extrapolation. Mention that extrapolation is risky because it assumes the law holds true indefinitely, whereas real-world data often deviates outside established ranges.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for the magnetic force $F$ acting on a charged particle moving through a magnetic field:
+
+$$F = qvB \sin(\theta)$$
+
+### 1. Identify the given variables
+*   **Charge of an electron ($q$):** $1.602 \times 10^{-19}\text{ C}$
+*   **Velocity of the electron ($v$):** $3.5 \times 10^6\text{ m s}^{-1}$
+*   **Magnetic field strength ($B$):** $0.25\text{ T}$
+*   **Angle ($\theta$):** The angle $\theta$ in the formula represents the angle between the velocity vector and the magnetic field lines. The dots in the diagram indicate that the magnetic field points **out of the page**, while the electron is moving in the plane of the page. Because the velocity vector is in the plane of the page and the magnetic field is perpendicular to the page, the angle between them is **$90^\circ$**, regardless of the $15^\circ$ angle drawn relative to the horizontal dashed line.
+
+*Note:* The $15^\circ$ angle is a distractor. Since the magnetic field is pointing directly out of the page (perpendicular to the entire surface), any velocity vector lying in the plane of the page is at a $90^\circ$ angle to the field.
+
+### 2. Calculation
+Substitute the values into the formula:
+$$F = (1.602 \times 10^{-19}\text{ C}) \times (3.5 \times 10^6\text{ m s}^{-1}) \times (0.25\text{ T}) \times \sin(90^\circ)$$
+
+Since $\sin(90^\circ) = 1$:
+$$F = 1.602 \times 10^{-19} \times 3.5 \times 10^6 \times 0.25$$
+$$F = 1.40175 \times 10^{-13}\text{ N}$$
+
+Comparing this result to the given options, it matches **(D)**.
+
+### Answer
+The correct answer is **(D) $1.40 \times 10^{-13}\text{ N}$**.
+
+###QUESTION_TYPE
+Multiple choice

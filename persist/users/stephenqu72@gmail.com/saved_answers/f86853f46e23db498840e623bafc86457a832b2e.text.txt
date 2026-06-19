@@ -1,0 +1,13 @@
+The correct answer is **(D)**.
+
+### Explanation
+
+To solve this, we must analyse the energy transformations in a projectile motion scenario assuming no air resistance (standard HSC physics assumption).
+
+*   **Analysis of (A):** At point $Y$ (the peak of the trajectory), the vertical component of velocity is zero. However, the horizontal component of velocity ($v_x$) remains constant throughout the flight. Since kinetic energy is $E_k = \frac{1}{2}mv^2$, and $v_x \neq 0$, the kinetic energy at point $Y$ is non-zero. Thus, (A) is incorrect.
+*   **Analysis of (B):** Potential energy is defined as $U = mgh$. Since $Y$ is the highest point of the path, the height $h$ is at its maximum value. Therefore, the potential energy is at its **maximum**, not its minimum. Thus, (B) is incorrect.
+*   **Analysis of (C):** Total mechanical energy is conserved. The energy at launch is $E_{launch} = E_{k(launch)} + E_{p(launch)}$. Assuming it launches from the ground ($h=0$), $E_{launch} = E_{k(launch)}$. At point $Y$, $E_Y = E_{k(Y)} + E_{p(Y)}$. Because $E_{k(Y)} > 0$, the kinetic energy at launch must be *greater than* the potential energy at point $Y$ to account for the remaining horizontal kinetic energy. Thus, (C) is incorrect.
+*   **Analysis of (D):** According to the **Law of Conservation of Energy**, in the absence of air resistance, the total mechanical energy remains constant. Since both the launch point and the impact point are at the same height ($h = 0$), the potential energy at both points is the same ($U = 0$). To satisfy $E_{total} = E_k + E_p$, if $E_p$ is the same at both locations, the kinetic energy must also be the same. Therefore, the speed at impact is equal to the speed at launch, meaning the kinetic energy is the same. This is correct.
+
+###QUESTION_TYPE
+Multiple choice

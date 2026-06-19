@@ -1,0 +1,30 @@
+To determine which pair of current-carrying conductors has the weakest force acting between them, we use the formula for the magnetic force $F$ between two parallel wires of length $l$ carrying currents $I_1$ and $I_2$, separated by a distance $r$:
+
+$$F = \frac{\mu_0 I_1 I_2 l}{2 \pi r}$$
+
+Since $\mu_0$, $2$, $\pi$, and the direction of the current (which only determines whether the force is attractive or repulsive) do not change the *magnitude* of the comparison, we can simplify this to:
+$$F \propto \frac{I_1 I_2 l}{r}$$
+
+Let's calculate the relative proportionality factor for each option:
+
+*   **(A)** $I_1 = I$, $I_2 = 2I$, $l = l$, $r = r$:
+    Relative $F \propto \frac{I \cdot 2I \cdot l}{r} = 2 \frac{I^2 l}{r}$
+
+*   **(B)** $I_1 = I$, $I_2 = I$, $l = l$, $r = 2r$:
+    Relative $F \propto \frac{I \cdot I \cdot l}{2r} = 0.5 \frac{I^2 l}{r}$
+
+*   **(C)** $I_1 = I$, $I_2 = I$, $l = 2l$, $r = 2r$:
+    Relative $F \propto \frac{I \cdot I \cdot 2l}{2r} = 1 \frac{I^2 l}{r}$
+
+*   **(D)** $I_1 = 2I$, $I_2 = 2I$, $l = l$, $r = 2r$:
+    Relative $F \propto \frac{2I \cdot 2I \cdot l}{2r} = 2 \frac{I^2 l}{r}$
+
+Comparing the coefficients:
+(A) = 2, (B) = 0.5, (C) = 1, (D) = 2.
+
+The smallest coefficient is 0.5, which corresponds to option (B).
+
+**Answer:** (B)
+
+###QUESTION_TYPE
+Multiple choice

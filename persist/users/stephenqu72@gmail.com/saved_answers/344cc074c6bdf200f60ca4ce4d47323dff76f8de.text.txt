@@ -1,0 +1,20 @@
+To determine the direction of the force on a current-carrying wire in a magnetic field, we use the **Right-Hand Rule for Force** (also known as Fleming's Left-Hand Rule, depending on your preferred mnemonic).
+
+### The Answer
+The correct answer is **(D) Downward**.
+
+### How to solve it
+To find the force on a current-carrying wire, we use the formula for the magnetic force on a conductor:
+$$F = IlB \sin(\theta)$$
+The direction of the force is determined by the Right-Hand Rule:
+1. **Point your index finger** in the direction of the conventional current ($I$). In this diagram, the current is directed **into the page** (represented by the $\otimes$ symbol).
+2. **Point your middle finger** in the direction of the magnetic field ($B$). The arrows show the magnetic field is directed to the **right**.
+3. **Extend your thumb**. Your thumb will now be pointing **downward**.
+
+Alternatively, if you use the vector cross product rule ($F = I(\vec{L} \times \vec{B})$):
+- The current vector points into the page (negative $z$-direction).
+- The magnetic field vector points to the right (positive $x$-direction).
+- Using the right-hand coordinate system, the cross product of $(-z) \times (x)$ results in a vector pointing in the negative $y$-direction, which corresponds to **downward**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **A. 4F**.
+
+### Explanation
+To solve this problem, we look at the physics of circular motion. An object moving in a horizontal circle requires a centripetal force to maintain its path. 
+
+1.  **Identify the relationship:** For an object of mass $m$ moving in a circle of radius $r$ with an angular velocity $\omega$, the centripetal force $F_c$ is provided by the tension in the string ($F$). The formula for centripetal force is:
+    $$F = m r \omega^2$$
+
+2.  **Analyze the variables:** The problem states that the mass $m$ and the radius $r$ are kept constant. Therefore, the tension $F$ is directly proportional to the square of the angular velocity:
+    $$F \propto \omega^2$$
+
+3.  **Apply the change:** We are told that the new angular velocity $\omega'$ is double the original:
+    $$\omega' = 2\omega$$
+
+4.  **Calculate the new tension ($F'$):** Substitute the new angular velocity into the proportionality relationship:
+    $$F' \propto (\omega')^2$$
+    $$F' \propto (2\omega)^2$$
+    $$F' \propto 4\omega^2$$
+
+Since the original tension was $F = m r \omega^2$, the new tension is:
+$$F' = 4(m r \omega^2) = 4F$$
+
+Therefore, when the angular velocity is doubled, the centripetal force (tension) increases by a factor of 4.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,23 @@
+As an HSC Physics teacher, here is the breakdown and marking criteria for this investigation question.
+
+### Part (a)
+**Answer:** Two variables that must be controlled are:
+1. The **magnitude of the current** ($I$) flowing through the conductor.
+2. The **strength of the magnetic field** ($B$) or the length of the conductor ($L$) within that field.
+
+**Explanation:** The force on a current-carrying conductor is given by the formula $F = BIL\sin(\theta)$. To investigate the relationship between force ($F$) and angle ($\theta$) exclusively, all other variables in the equation ($B, I,$ and $L$) must remain constant. If these were not controlled, any observed change in force could be attributed to a change in current or magnetic field strength rather than the angle, rendering the investigation invalid.
+
+---
+
+### Part (b)
+**Answer:** The student's conclusion is **invalid**.
+
+**Explanation:**
+1. **Theoretical Inconsistency:** The physics governing this scenario is $F = BIL\sin(\theta)$. For small angles, $\sin(\theta) \approx \theta$ (in radians), which is why the graph appears linear for this limited range ($0^\circ$ to $40^\circ$). However, the true relationship is sinusoidal, not linear.
+2. **Mathematical Analysis:** A relationship is only "directly proportional" if the graph is a perfectly straight line that passes through the origin. While this graph is linear over this narrow range, if the student extended the range to $90^\circ$ or $180^\circ$, the graph would curve, demonstrating the $\sin(\theta)$ relationship.
+3. **Validity:** An investigation is only valid if it measures what it claims to measure. By only testing a small range of angles, the student has missed the actual non-linear nature of the phenomenon. Therefore, claiming direct proportionality based on a restricted, local approximation is a misinterpretation of the underlying physical law.
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

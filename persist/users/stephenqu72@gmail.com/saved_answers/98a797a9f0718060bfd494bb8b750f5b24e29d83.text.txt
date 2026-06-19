@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **(C)**.
+
+---
+
+### Explanation
+To determine whether a magnetic field is present when a charged particle moves in a straight line, we must look at the magnetic force equation:
+
+$$F = qvB \sin(\theta)$$
+
+Where:
+*   $q$ is the charge of the particle.
+*   $v$ is the velocity of the particle.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the velocity vector and the magnetic field vector.
+
+For the particle to continue moving in a **straight line**, the net magnetic force acting on it must be **zero** ($F = 0$). Looking at the equation, the force becomes zero if any of the variables ($q, v, B, \text{or } \sin(\theta)$) are zero.
+
+1.  If $B \neq 0$, the force can still be zero if $\sin(\theta) = 0$.
+2.  This happens when $\theta = 0^\circ$ or $\theta = 180^\circ$.
+3.  Geometrically, this means the magnetic field lines are **parallel** (or anti-parallel) to the direction of the particle's velocity.
+
+If the magnetic field is perpendicular to the velocity (Option B), the particle would experience a maximum magnetic force, causing it to undergo circular motion rather than moving in a straight line. Therefore, we cannot conclude that the magnetic field is zero; it is entirely possible that a magnetic field exists, provided it is aligned parallel to the path of the particle.
+
+###QUESTION_TYPE
+Multiple choice

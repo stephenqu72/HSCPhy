@@ -1,0 +1,38 @@
+To solve these problems, we use the principles of gravitational potential energy and orbital mechanics.
+
+**Given Constants:**
+- Mass of the Moon ($M$) = $7.35 \times 10^{22}\text{ kg}$
+- Radius of the Moon ($R$) = $1740\text{ km} = 1.74 \times 10^6\text{ m}$
+- Gravitational constant ($G$) = $6.67 \times 10^{-11}\text{ N}\cdot\text{m}^2\cdot\text{kg}^{-2}$
+
+---
+
+### (a) Derive escape velocity
+The condition is Kinetic Energy ($K$) = Absolute Potential Energy ($U$).
+$$ \frac{1}{2}mv^2 = \frac{GMm}{R} $$
+Cancel $m$ from both sides and solve for $v$:
+$$ \frac{1}{2}v^2 = \frac{GM}{R} \implies v^2 = \frac{2GM}{R} \implies v = \sqrt{\frac{2GM}{R}} $$
+
+### (b) Escape velocity for a 200 g golf ball
+Note that escape velocity is independent of the mass of the object.
+$$ v = \sqrt{\frac{2 \times (6.67 \times 10^{-11}) \times (7.35 \times 10^{22})}{1.74 \times 10^6}} $$
+$$ v = \sqrt{\frac{9.8049 \times 10^{12}}{1.74 \times 10^6}} \approx \sqrt{5.635 \times 10^6} \approx 2374\text{ m}\cdot\text{s}^{-1} $$
+
+### (c) Velocity at 30 km height
+Use Conservation of Energy: $E_{initial} = E_{final}$.
+$R_1 = R$, $R_2 = R + 30,000\text{ m} = 1.77 \times 10^6\text{ m}$.
+$$ \frac{1}{2}mv_1^2 - \frac{GMm}{R_1} = \frac{1}{2}mv_2^2 - \frac{GMm}{R_2} $$
+Dividing by $m$:
+$$ \frac{1}{2}(1200)^2 - \frac{(6.67 \times 10^{-11})(7.35 \times 10^{22})}{1.74 \times 10^6} = \frac{1}{2}v_2^2 - \frac{(6.67 \times 10^{-11})(7.35 \times 10^{22})}{1.77 \times 10^6} $$
+$$ 720,000 - 2,817,701 = \frac{1}{2}v_2^2 - 2,769,943 $$
+$$ -2,097,701 = \frac{1}{2}v_2^2 - 2,769,943 \implies \frac{1}{2}v_2^2 = 672,242 $$
+$$ v_2^2 = 1,344,484 \implies v_2 \approx 1159.5\text{ m}\cdot\text{s}^{-1} $$
+
+### (d) Orbital speed at 30 km
+For circular orbit, centripetal force = gravitational force:
+$$ \frac{mv^2}{r} = \frac{GMm}{r^2} \implies v = \sqrt{\frac{GM}{r}} $$
+With $r = 1.77 \times 10^6\text{ m}$:
+$$ v = \sqrt{\frac{(6.67 \times 10^{-11})(7.35 \times 10^{22})}{1.77 \times 10^6}} = \sqrt{2,769,943} \approx 1664\text{ m}\cdot\text{s}^{-1} $$
+
+###QUESTION_TYPE
+Calculation question

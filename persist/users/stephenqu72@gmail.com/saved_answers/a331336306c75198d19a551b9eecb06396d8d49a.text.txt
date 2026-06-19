@@ -1,0 +1,22 @@
+As an HSC Physics teacher, here is the breakdown of how to approach this question.
+
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To understand escape velocity, we must look at the total mechanical energy of an object in a gravitational field. The total energy ($E_{total}$) is the sum of kinetic energy ($K$) and gravitational potential energy ($U$):
+$$E_{total} = K + U$$
+$$E_{total} = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+
+1.  **Definition:** Escape velocity is defined as the minimum speed required for an object to escape the gravitational influence of a massive body (like the Earth) and reach "infinity," where the gravitational potential energy effectively becomes zero.
+2.  **Energy condition:** At the point of escaping, the object must have enough kinetic energy to overcome the gravitational potential energy. At the limit of escape, the object reaches infinity with zero velocity. Therefore, at the starting point, the total mechanical energy must be at least zero ($E_{total} = 0$).
+3.  **Evaluating the options:**
+    *   (A) describes orbital velocity, not escape velocity.
+    *   (B) is a common misconception; while an object with escape velocity will continue to move away, it will theoretically keep slowing down, approaching zero speed at an infinite distance. "Forever" is a vague term often used colloquially, but (D) is the precise physical definition.
+    *   (C) is incorrect because escaping the atmosphere is a matter of air resistance and thrust, whereas escape velocity is a gravitational concept.
+    *   (D) is the precise physical definition. When $E_{total} = 0$, we have:
+        $$\frac{1}{2}mv^2 = \frac{GMm}{r}$$
+        Solving for $v$ gives the formula for escape velocity: $v = \sqrt{\frac{2GM}{r}}$.
+
+###QUESTION_TYPE
+Multiple choice

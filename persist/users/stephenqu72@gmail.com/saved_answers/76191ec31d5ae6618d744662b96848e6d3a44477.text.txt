@@ -1,0 +1,35 @@
+This problem explores the motor effect and Newton’s Third Law. The magnetic force exerted on the wire results in an equal and opposite reaction force on the magnet, which is recorded by the balance.
+
+---
+
+### Part a)
+**Solution:**
+We use the formula for the magnetic force on a current-carrying wire:
+$$F = BIl\sin(\theta)$$
+Given: $F = 0.060\text{ N}$, $I = 4.0\text{ A}$, $l = 0.020\text{ m}$, and since the wire is perpendicular to the field, $\theta = 90^\circ$ ($\sin(90^\circ) = 1$).
+$$0.060 = B \times 4.0 \times 0.020$$
+$$0.060 = B \times 0.080$$
+$$B = \frac{0.060}{0.080} = 0.75\text{ T}$$
+
+**Justification:** According to Newton’s Third Law, the magnetic force exerted by the magnet on the wire segment is equal in magnitude and opposite in direction to the force exerted by the wire on the magnet. The increase in the balance reading represents the downward reaction force acting on the magnet.
+
+---
+
+### Part b) i)
+**Solution:**
+Sketch a straight line passing through the origin $(0,0)$ with a **shallower gradient** than the original line.
+
+**Justification:** The formula for magnetic force is $F = BIl\sin(\theta)$. If the wire is at a constant non-perpendicular angle, $\sin(\theta) < 1$. This reduces the effective magnetic field component perpendicular to the current, resulting in a smaller force for any given length $l$. Since $B, I,$ and $\sin(\theta)$ are constants, the relationship remains linear ($F = kl$), but with a smaller slope.
+
+---
+
+### Part b) ii)
+**Solution:**
+The most likely cause is that the magnetic field is **non-uniform** at the edges of the poles.
+
+**Explanation:** The theoretical model assumes a uniform magnetic field ($B$ is constant). However, as the length of the wire segment increases, the wire extends further toward the edges of the pole pieces. At these edges, the magnetic field strength $B$ typically decreases (fringing fields). Therefore, the actual force is less than the theoretical prediction for larger lengths.
+
+---
+
+###QUESTION_TYPE
+Calculation question

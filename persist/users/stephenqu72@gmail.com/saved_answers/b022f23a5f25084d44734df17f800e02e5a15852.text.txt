@@ -1,0 +1,27 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying conductors:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2 \pi r}$$
+
+### 1. Identify the given values:
+*   Current in wire 1, $I_1 = 1.37\text{ A}$
+*   Current in wire 2, $I_2 = 0.74\text{ A}$
+*   Distance between wires, $r = 2\text{ cm} = 0.02\text{ m}$
+*   Permeability of free space, $\mu_0 = 4\pi \times 10^{-7}\text{ T m A}^{-1}$
+
+### 2. Substitute the values into the formula:
+$$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times 1.37 \times 0.74}{2 \pi \times 0.02}$$
+
+Simplify the constants:
+$$\frac{F}{L} = \frac{2 \times 10^{-7} \times 1.37 \times 0.74}{0.02}$$
+$$\frac{F}{L} = \frac{10^{-7} \times 1.0138}{0.01}$$
+$$\frac{F}{L} = 1.0138 \times 10^{-5}\text{ N m}^{-1}$$
+
+Rounding to two significant figures, we get $1.0 \times 10^{-5}\text{ N m}^{-1}$.
+
+### 3. Determine the direction:
+According to the right-hand grip rule and the definition of magnetic force, parallel conductors carrying currents in the **same direction** will exert an **attractive** force on each other.
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### Part (a)
+To derive the period of rotation, we recognize that the magnetic force $F_B$ acts as the centripetal force $F_c$ keeping the charged particle in a circular path.
+
+1. Equate the magnetic force to the centripetal force:
+   $$qvB = \frac{mv^2}{r}$$
+2. Solve for the radius $r$:
+   $$r = \frac{mv}{qB}$$
+3. The period $T$ is the time taken for one full revolution. Since the distance for one circumference is $2\pi r$ and the speed is $v$:
+   $$T = \frac{2\pi r}{v}$$
+4. Substitute the expression for $r$ into the equation for $T$:
+   $$T = \frac{2\pi (\frac{mv}{qB})}{v}$$
+   $$T = \frac{2\pi m}{qB}$$
+
+#### Part (b)
+We are given an electron with mass $m = 9.11 \times 10^{-31} \text{ kg}$, charge $q = 1.60 \times 10^{-19} \text{ C}$, and magnetic field strength $B = 2.0 \times 10^{-4} \text{ T}$.
+
+Using the formula derived in part (a):
+$$T = \frac{2\pi (9.11 \times 10^{-31})}{(1.60 \times 10^{-19})(2.0 \times 10^{-4})}$$
+$$T \approx \frac{5.725 \times 10^{-30}}{3.2 \times 10^{-23}}$$
+$$T \approx 1.79 \times 10^{-7} \text{ s}$$
+
+#### Part (c)
+**Conceptual explanation:** From the formula $T = \frac{2\pi m}{qB}$, we see that the period $T$ is **independent** of the velocity $v$ and the radius $r$. It depends only on the mass, charge, and the magnetic field strength.
+
+If the magnetic field strength $B$ is halved, the radius of the path $r = \frac{mv}{qB}$ will **double**. However, the time $T$ taken to complete one full revolution remains exactly the same. Therefore, the drawing should show a circle with **double the diameter** of the original, but the particle would return to the same starting position at the same time $T$.
+
+###QUESTION_TYPE
+Calculation question

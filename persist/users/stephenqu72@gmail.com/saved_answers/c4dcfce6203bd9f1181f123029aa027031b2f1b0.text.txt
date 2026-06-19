@@ -1,0 +1,31 @@
+To solve this problem, we use the formula for the magnetic force experienced by a current-carrying conductor in a uniform magnetic field:
+
+$$F = BIl \sin(\theta)$$
+
+### 1. Identify the given variables:
+*   Force ($F$) = $8.49 \times 10^{-2} \text{ N}$
+*   Magnetic field strength ($B$) = $0.5 \text{ T}$
+*   Current ($I$) = $3 \text{ A}$
+*   Angle ($\theta$) = The angle between the conductor and the magnetic field lines. Since the magnetic field is directed into the page and the conductor is in the plane of the page, the angle between the conductor and the magnetic field is $90^\circ$. Therefore, $\sin(90^\circ) = 1$.
+
+### 2. Determine the length ($l$) of the conductor:
+The conductor A-B forms the hypotenuse of a right-angled triangle where the "Width (w)" is the side opposite to the $30^\circ$ angle. 
+Using trigonometry:
+$$\sin(30^\circ) = \frac{\text{Opposite}}{\text{Hypotenuse}} = \frac{w}{l}$$
+$$l = \frac{w}{\sin(30^\circ)}$$
+Since $\sin(30^\circ) = 0.5$:
+$$l = \frac{w}{0.5} = 2w$$
+
+### 3. Substitute into the force equation:
+$$F = B \cdot I \cdot (2w) \cdot \sin(90^\circ)$$
+$$8.49 \times 10^{-2} = 0.5 \cdot 3 \cdot 2w \cdot 1$$
+$$8.49 \times 10^{-2} = 3w$$
+
+### 4. Solve for $w$:
+$$w = \frac{8.49 \times 10^{-2}}{3}$$
+$$w = 2.83 \times 10^{-2} \text{ m}$$
+
+Comparing this result to the given options, the correct choice is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

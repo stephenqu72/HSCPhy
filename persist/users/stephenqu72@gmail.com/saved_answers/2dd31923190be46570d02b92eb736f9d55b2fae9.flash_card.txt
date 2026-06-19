@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal displacement ($x$) of an object sliding off an accelerating table of length ($d$) and height ($h$)?
+
+### Back
+- Key idea: Use the reference frame of the table. The ball accelerates due to a fictitious force ($F=ma$) until it leaves the edge, then undergoes projectile motion.
+- Formula / law / constant / figure: $x = 2\sqrt{\frac{adh}{g}}$ (derived from $t_{table} = \sqrt{2d/a}$, $v = \sqrt{2ad}$, $t_{fall} = \sqrt{2h/g}$)
+- When to use it: Problems involving an accelerating reference frame where an object loses contact with a surface.
+- Common trap: Forgetting that once the object leaves the table, it maintains a constant horizontal velocity; it does not accelerate horizontally while falling.

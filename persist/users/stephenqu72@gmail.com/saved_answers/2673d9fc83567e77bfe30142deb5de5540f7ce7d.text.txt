@@ -1,0 +1,33 @@
+To solve this problem, we use the relationship between the work done on a charge by an electric field and the change in its kinetic energy.
+
+### Explanation
+
+When a charge $q$ moves through a potential difference $V$, the work done on the charge by the electric field is given by:
+$$W = qV$$
+
+According to the Work-Energy Theorem, this work done is equal to the change in the particle's kinetic energy ($\Delta EK$):
+$$\Delta EK = qV$$
+
+**1. Calculate the change in kinetic energy ($\Delta EK$):**
+The kinetic energy increased from $2.0 \times 10^{-5}\text{ J}$ to $6.0 \times 10^{-5}\text{ J}$.
+$$\Delta EK = EK_{final} - EK_{initial}$$
+$$\Delta EK = (6.0 \times 10^{-5}\text{ J}) - (2.0 \times 10^{-5}\text{ J})$$
+$$\Delta EK = 4.0 \times 10^{-5}\text{ J}$$
+
+**2. Rearrange the formula to solve for charge ($q$):**
+$$q = \frac{\Delta EK}{V}$$
+
+**3. Substitute the given values:**
+Given $V = 500\text{ V}$:
+$$q = \frac{4.0 \times 10^{-5}\text{ J}}{500\text{ V}}$$
+$$q = \frac{4.0 \times 10^{-5}}{5.0 \times 10^2}$$
+$$q = 0.8 \times 10^{-7}\text{ C}$$
+$$q = 8.0 \times 10^{-8}\text{ C}$$
+
+Comparing this result to the given options, the correct choice is **(B)**.
+
+### Answer
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

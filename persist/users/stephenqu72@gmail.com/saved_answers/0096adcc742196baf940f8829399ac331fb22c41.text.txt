@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+To solve this problem, you need to understand the definition of **alpha decay**. 
+
+1.  **Identify the alpha particle:** An alpha particle is identical to a helium nucleus, represented as $_2^4\text{He}$. It consists of **2 protons** and **2 neutrons**.
+2.  **Understand the decay process:** When a parent nucleus ($X$) undergoes alpha decay, it ejects this alpha particle to become a daughter nucleus ($Y$).
+3.  **Apply conservation laws:** Because the alpha particle carries away 2 protons and 2 neutrons from the original nucleus, the resulting nucleus ($Y$) must have:
+    *   $2$ fewer protons (which changes the atomic number $Z$ to $Z - 2$).
+    *   $2$ fewer neutrons.
+    *   Overall, $4$ fewer nucleons (the mass number $A$ decreases by $4$).
+
+The general equation for this decay is:
+$$_Z^A X \rightarrow _{Z-2}^{A-4} Y + _2^4 \text{He}$$
+
+Looking at the options:
+*   (A) is incorrect because alpha decay results in fewer protons, not more.
+*   (B) is incorrect because it ignores the loss of neutrons.
+*   (C) is incorrect as it describes the addition of particles, not the emission.
+*   **(D)** correctly states that the nucleus of $Y$ will have 2 protons and 2 neutrons less than the nucleus of $X$.
+
+### QUESTION_TYPE
+Multiple choice

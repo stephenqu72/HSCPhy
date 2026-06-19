@@ -1,0 +1,22 @@
+### Answer and Explanation
+
+**Part (a)**
+The statement is **incorrect**. 
+Using the right-hand rule for a positive charge moving in a magnetic field ($F = qvB \sin\theta$):
+*   **For Particle $A$:** The magnetic field points into the page. Based on the counter-clockwise rotation, at the top of the path, the force must point towards the center (downward). Using the right-hand rule (fingers into page, thumb in the direction of velocity at the top pointing left), the palm points downward. This indicates Particle $A$ is **positively charged**.
+*   **For Particle $B$:** The magnetic field points out of the page. Based on the counter-clockwise rotation, at the top of the path, the force must point towards the center (downward). Using the right-hand rule (fingers out of page, thumb in the direction of velocity at the top pointing left), the palm points upward. Since the actual force is downward, the charge must be the opposite of the right-hand rule prediction, meaning Particle $B$ is **negatively charged**.
+
+**Part (b)**
+To explain how radii can be identical despite different masses, we refer to the formula for the radius of a charged particle in a magnetic field:
+$$r = \frac{mv}{qB}$$
+Where $m$ is mass, $v$ is velocity, $q$ is charge, and $B$ is magnetic field strength.
+
+If the radii ($r$) are equal, the ratio $\frac{mv}{qB}$ must be identical for both particles. Even if particle $A$ is more massive ($m_A > m_B$), the radii can remain identical if:
+1.  **Velocity adjustment:** Particle $A$ moves slower than particle $B$ ($v_A < v_B$).
+2.  **Charge adjustment:** Particle $A$ has a greater magnitude of charge than particle $B$ ($q_A > q_B$).
+3.  **Field adjustment:** If the magnetic field strengths are different, the particles could be moving such that the ratio $\frac{mv}{qB}$ is balanced.
+
+Essentially, the product of momentum ($mv$) and the inverse of the product of charge and field ($1/qB$) must be equal for both particles to maintain the same orbital radius.
+
+###QUESTION_TYPE
+Short answer

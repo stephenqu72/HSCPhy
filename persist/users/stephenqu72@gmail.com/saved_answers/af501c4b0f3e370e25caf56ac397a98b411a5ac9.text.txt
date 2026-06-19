@@ -1,0 +1,38 @@
+As an HSC physics teacher, I will guide you through this classic electromagnetism problem.
+
+### (a) Explanation of Circular Motion at Constant Speed
+
+To achieve full marks here, you must address two points: the circular path and the constant speed.
+
+1.  **Circular Path:** When a charged particle moves through a uniform magnetic field, it experiences a magnetic force given by $F = qvB\sin(\theta)$. Since the velocity is perpendicular to the magnetic field ($\theta = 90^\circ$), the force acts at $90^\circ$ to the direction of motion at all times. This force acts as a **centripetal force**, constantly pulling the proton toward the center of a circular path.
+2.  **Constant Speed:** Because the magnetic force is always perpendicular to the direction of motion (velocity), it performs **no work** on the proton ($W = Fd\cos(90^\circ) = 0$). Since the work done is zero, there is no change in kinetic energy, and therefore, the speed of the proton remains constant.
+
+---
+
+### (b) Calculation of the Radius
+
+To calculate the radius ($r$), we equate the magnetic force to the centripetal force required for circular motion:
+
+$$F_B = F_c$$
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging to solve for $r$:
+$$r = \frac{mv}{qB}$$
+
+**Given values:**
+*   Mass of a proton ($m$) $\approx 1.67 \times 10^{-27}\text{ kg}$
+*   Charge of a proton ($q$) $\approx 1.60 \times 10^{-19}\text{ C}$
+*   Velocity ($v$) = $3.3 \times 10^6\text{ m s}^{-1}$
+*   Magnetic field strength ($B$) = $0.80\text{ T}$
+
+**Calculation:**
+$$r = \frac{(1.67 \times 10^{-27}\text{ kg}) \times (3.3 \times 10^6\text{ m s}^{-1})}{(1.60 \times 10^{-19}\text{ C}) \times (0.80\text{ T})}$$
+$$r = \frac{5.511 \times 10^{-21}}{1.28 \times 10^{-19}}$$
+$$r \approx 0.043\text{ m}$$
+
+The radius of the circular path is approximately **$0.043\text{ m}$** (or $4.3\text{ cm}$).
+
+---
+
+###QUESTION_TYPE
+Calculation question

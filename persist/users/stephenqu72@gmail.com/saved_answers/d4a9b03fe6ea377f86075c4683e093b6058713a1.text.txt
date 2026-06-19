@@ -1,0 +1,41 @@
+To solve this problem, we apply the principles of electrostatics and classical mechanics (specifically Newton’s laws) to a charged particle in a uniform electric field.
+
+### Part (a): Calculation
+To keep the ion suspended, the downward force of gravity must be exactly balanced by the upward electric force.
+
+**1. Determine the mass of the ion ($m$):**
+The mass is primarily contributed by the protons and neutrons.
+$$m \approx (35 + 44) \times 1.67 \times 10^{-27}\text{ kg} = 79 \times 1.67 \times 10^{-27}\text{ kg} = 1.3193 \times 10^{-25}\text{ kg}$$
+
+**2. Set up the force balance equation:**
+$$F_g = F_e$$
+$$mg = qE$$
+Since $E = \frac{V}{d}$, we have:
+$$mg = q \frac{V}{d} \implies V = \frac{mgd}{q}$$
+
+**3. Identify variables:**
+*   $m = 1.3193 \times 10^{-25}\text{ kg}$
+*   $g = 9.8\text{ m/s}^2$
+*   $d = 15\text{ }\mu\text{m} = 15 \times 10^{-6}\text{ m}$
+*   $q = e = 1.602 \times 10^{-19}\text{ C}$ (the magnitude of the charge of one extra electron)
+
+**4. Solve for $V$:**
+$$V = \frac{(1.3193 \times 10^{-25}) \times 9.8 \times (15 \times 10^{-6})}{1.602 \times 10^{-19}}$$
+$$V \approx \frac{1.939 \times 10^{-29}}{1.602 \times 10^{-19}} \approx 1.21 \times 10^{-10}\text{ V}$$
+
+### Part (b): Conceptual Explanation
+The Bromine ion is a negative ion ($\text{Br}^-$). Gravity exerts a downward force on the ion. To achieve suspension, an upward force is required. 
+*   Electric field lines point from positive to negative.
+*   A negative charge experiences a force **opposite** to the direction of the electric field lines.
+*   By placing the positive plate on top, the electric field points downward. Consequently, the negative ion experiences an upward electrostatic force, which allows it to counteract gravity.
+
+***
+
+### How to solve this type of question:
+1.  **Identify the physical equilibrium:** Whenever you see "suspended" or "stationary," immediately write the equation $F_{net} = 0$, meaning the upward force equals the downward force.
+2.  **Calculate mass:** Always remember to sum protons and neutrons for the total mass, ignoring electron mass as it is negligible.
+3.  **Relate Fields and Voltage:** Use the relation $E = \frac{V}{d}$ to convert field strength to voltage.
+4.  **Directionality:** Always check the sign of the charge. Negative charges move toward the positive plate; positive charges move toward the negative plate.
+
+###QUESTION_TYPE
+Calculation question

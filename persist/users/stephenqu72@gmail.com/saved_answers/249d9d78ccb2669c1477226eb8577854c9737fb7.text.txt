@@ -1,0 +1,29 @@
+To find the angular velocity of the Earth orbiting the Sun, we use the relationship between angular velocity ($\omega$), the angle swept ($\Delta\theta$), and the time taken ($\Delta t$):
+
+$$\omega = \frac{\Delta\theta}{\Delta t}$$
+
+### Step-by-Step Calculation:
+
+1.  **Identify the variables:** 
+    *   One full orbit around the Sun corresponds to an angle of $2\pi$ radians.
+    *   The time taken for one full orbit (the orbital period, $T$) is approximately 1 year.
+
+2.  **Convert the period to seconds:**
+    *   $T = 1 \text{ year} \approx 365.25 \text{ days}$
+    *   $T = 365.25 \times 24 \text{ hours/day} \times 3600 \text{ seconds/hour}$
+    *   $T \approx 3.15576 \times 10^7 \text{ seconds}$
+
+3.  **Calculate angular velocity:**
+    $$\omega = \frac{2\pi}{T}$$
+    $$\omega = \frac{2 \times 3.14159}{3.15576 \times 10^7 \text{ s}}$$
+    $$\omega \approx \frac{6.28318}{3.15576 \times 10^7} \text{ rad s}^{-1}$$
+    $$\omega \approx 1.991 \times 10^{-7} \text{ rad s}^{-1}$$
+
+Rounding this result to two significant figures gives $2.0 \times 10^{-7} \text{ rad s}^{-1}$.
+
+Comparing this to the given options, **(C)** is the correct choice.
+
+*Note: Option (A) represents the angular velocity of the Earth's rotation on its own axis (one revolution per day).*
+
+###QUESTION_TYPE
+Multiple choice

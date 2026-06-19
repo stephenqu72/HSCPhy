@@ -1,0 +1,33 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this problem. This is a classic question exploring the analogy between gravitational and electric fields.
+
+### Part (a)
+**Answer:** The motion is analogous because both involve a constant velocity in the horizontal direction (no horizontal forces act in either case) and constant acceleration in the vertical direction due to a uniform field (gravitational field vs. electric field). Consequently, both follow a parabolic path.
+
+**Explanation:** In projectile motion, the object experiences gravity acting downwards, creating a parabolic trajectory. Here, the positive charge enters a region between two plates (the bottom plate is at $42\text{V}$ and the top is at $50\text{V}$, making the top plate positively charged relative to the bottom). This creates a uniform electric field pointing downward. The electric force $F = qE$ is constant, acting like the gravitational force, resulting in constant downward acceleration.
+
+---
+
+### Part (b)
+**Answer:** The velocity is $v_2 = 2u$.
+
+**Explanation:**
+To solve this, we break the motion into horizontal and vertical components. Let the vertical displacement be $y$ and the horizontal distance be $x$.
+
+1. **Vertical motion:** The time taken to hit the plate depends only on the vertical displacement $y$ and the vertical acceleration $a_y$. Since the charge starts with no initial vertical velocity:
+   $$y = \frac{1}{2} a_y t^2 \implies t = \sqrt{\frac{2y}{a_y}}$$
+   Since $q$ and $m$ are the same as the first charge, $a_y$ is constant. Thus, for any given $y$, the time $t$ to reach the bottom plate is constant.
+
+2. **Horizontal motion:** The horizontal displacement is given by $x = v_x t$.
+   - For the first charge: $d = u \cdot t$
+   - For the second charge: $2d = v_2 \cdot t$
+
+3. **Comparison:** Dividing the second equation by the first:
+   $$\frac{2d}{d} = \frac{v_2 \cdot t}{u \cdot t}$$
+   $$2 = \frac{v_2}{u}$$
+   $$v_2 = 2u$$
+
+Since the question asks for the expression in terms of $y$ and $d$, and we know $d = u \cdot \sqrt{\frac{2y}{a_y}}$, we can express the initial velocity $u$ as $\frac{d}{\sqrt{2y/a_y}}$. Therefore:
+$$v_2 = 2 \left( \frac{d}{\sqrt{2y/a_y}} \right)$$
+
+###QUESTION_TYPE
+Calculation question

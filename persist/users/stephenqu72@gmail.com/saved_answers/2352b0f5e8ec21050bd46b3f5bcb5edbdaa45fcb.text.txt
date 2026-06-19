@@ -1,0 +1,34 @@
+### Answer and Explanation
+
+#### Part (a)
+To calculate the charge-to-mass ratio ($q/m$), we must first find the velocity ($v$) of the particles using the condition where the electric and magnetic forces balance (when both fields are active, the beam is undeflected), and then use the radius of curvature ($r$) when only the magnetic field is active.
+
+**1. Given Data:**
+- Separation of plates, $d = 2.00\text{ cm} = 0.0200\text{ m}$
+- Potential difference, $V = 13.0\text{ V}$
+- Magnetic field, $B = 0.120\text{ mT} = 0.120 \times 10^{-3}\text{ T} = 1.20 \times 10^{-4}\text{ T}$
+- Radius of curvature, $r = 25.6\text{ cm} = 0.256\text{ m}$
+
+**2. Velocity ($v$):**
+When the beam is undeflected, the electric force ($F_E = qE = qV/d$) equals the magnetic force ($F_B = qvB$):
+$$q \frac{V}{d} = qvB \implies v = \frac{V}{Bd}$$
+$$v = \frac{13.0}{(1.20 \times 10^{-4})(0.0200)} = 5.4167 \times 10^6\text{ m/s}$$
+
+**3. Charge-to-mass ratio ($q/m$):**
+When only the magnetic field is acting, the magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r} \implies \frac{q}{m} = \frac{v}{Br}$$
+Substituting the values:
+$$\frac{q}{m} = \frac{5.4167 \times 10^6}{(1.20 \times 10^{-4})(0.256)}$$
+$$\frac{q}{m} \approx 1.76 \times 10^{11}\text{ C/kg}$$
+
+---
+
+#### Part (b)
+Thomson and Millikan are both foundational experiments in atomic physics:
+
+*   **Thomson’s Experiment:** Used a cathode ray tube to measure the **charge-to-mass ratio** ($q/m$) of the electron. By applying perpendicular electric and magnetic fields, he determined that cathode rays were negatively charged particles significantly lighter than any known atom, providing evidence for the electron.
+*   **Millikan’s Experiment:** Used the "oil-drop" experiment to determine the **fundamental charge** ($q$) of the electron. By balancing gravitational, electrical, and drag forces on tiny oil droplets, he showed that charge is quantized.
+*   **Comparison:** Thomson provided the ratio of charge to mass, but could not determine the specific mass or charge individually. By combining Thomson's $q/m$ value with Millikan’s value for $q$, the mass of the electron ($m$) was finally determined.
+
+###QUESTION_TYPE
+Calculation question

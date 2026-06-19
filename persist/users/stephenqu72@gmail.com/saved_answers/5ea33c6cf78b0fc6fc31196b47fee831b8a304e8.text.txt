@@ -1,0 +1,19 @@
+### Answer
+The impact velocity of $m_2$ will be greater than the impact velocity of $m_1$. 
+
+Both objects start from the same radial distance from the planet's center, meaning they possess the same initial gravitational potential energy. However, while $m_2$ starts from rest (initial kinetic energy $= 0$), $m_1$ possesses an initial non-zero horizontal velocity component (initial kinetic energy $> 0$). By the law of conservation of energy, the total energy of each system is conserved throughout the fall. Since both objects arrive at the same final potential energy at the surface of the planet, the object that began with more total energy (the one with the initial kinetic energy component) would generally have more kinetic energy; however, because $m_1$ retains its horizontal velocity component at impact, its *vertical* impact velocity is lower. Crucially, the total final kinetic energy of $m_1$ is higher than that of $m_2$, but since $m_1$ must retain its orbital (tangential) kinetic energy upon impact, its total speed at impact is governed by the vector sum of its velocity components. 
+
+Actually, the simpler, definitive comparison is: $m_1$ has both gravitational potential energy AND initial kinetic energy. $m_2$ only has gravitational potential energy. Since total energy is conserved ($E_{total} = U + K$), $m_1$ reaches the surface with a higher total kinetic energy than $m_2$. Therefore, the magnitude of the impact velocity (the speed) of $m_1$ is greater than that of $m_2$.
+
+### How to solve this
+1.  **Identify the principle:** Use the Law of Conservation of Mechanical Energy: $E_{total} = U + K = \text{constant}$.
+2.  **Analyze the initial states:** Both masses start at the same distance $r$ from the planet, so they have the same initial gravitational potential energy $U = -G\frac{Mm}{r}$.
+3.  **Compare Kinetic Energies ($K$):** 
+    *   $m_2$ starts from rest, so its initial $K_2 = 0$.
+    *   $m_1$ has a non-zero velocity to follow the path shown, so its initial $K_1 > 0$.
+    *   Thus, $E_{total, 1} > E_{total, 2}$.
+4.  **Compare final states:** At the surface of the planet, the gravitational potential energy is the same for both. Since $E_{total, 1} > E_{total, 2}$ and $U_{final, 1} = U_{final, 2}$, it follows that $K_{final, 1} > K_{final, 2}$.
+5.  **Relate to velocity:** Since $K = \frac{1}{2}mv^2$ and the masses are identical, the object with the higher final kinetic energy must have the higher final speed (impact velocity).
+
+###QUESTION_TYPE
+Short answer

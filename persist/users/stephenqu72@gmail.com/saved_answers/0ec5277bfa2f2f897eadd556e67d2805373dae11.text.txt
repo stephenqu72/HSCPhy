@@ -1,0 +1,21 @@
+To determine which change will increase the ball's maximum height, we must look at the physics of projectile motion.
+
+### The Physics Explanation
+The maximum height ($H$) of a projectile depends solely on its initial vertical velocity component ($u_y$). Using the kinematic equation $v^2 = u^2 + 2as$, where the final vertical velocity $v_y = 0$ at the peak, $a = -g$, and $s = H$:
+
+$$0 = u_y^2 - 2gH$$
+$$H = \frac{u_y^2}{2g}$$
+
+Since $u_y = u \sin(\theta)$ (where $u$ is the initial speed and $\theta$ is the angle of launch), the formula for maximum height becomes:
+$$H = \frac{(u \sin \theta)^2}{2g}$$
+
+### Evaluating the Options:
+*   **A. Increasing the horizontal component:** This affects range but has no effect on the maximum height, as $H$ is independent of $u_x$.
+*   **B. Decreasing the vertical component:** If $u_y$ decreases, $H$ will decrease.
+*   **C. Increasing the angle of launch:** As the angle $\theta$ increases (up to $90^\circ$), the value of $\sin(\theta)$ increases. Since $H$ is proportional to $\sin^2(\theta)$, increasing the angle will increase the maximum height.
+*   **D. Decreasing the angle of launch:** This would decrease the vertical component of the velocity, resulting in a lower maximum height.
+
+Therefore, **Option C** is the correct answer.
+
+###QUESTION_TYPE
+Multiple choice

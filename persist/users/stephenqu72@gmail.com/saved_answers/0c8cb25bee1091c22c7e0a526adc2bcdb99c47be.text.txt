@@ -1,0 +1,28 @@
+To solve this problem, we apply the kinematic equation for motion with constant acceleration starting from rest:
+$$y = u_y t + \frac{1}{2} a_y t^2$$
+Since the initial vertical velocity $u_y = 0$, this simplifies to $y = \frac{1}{2} a t^2$. This is in the form of a linear equation $y = mx + c$, where $y$ is vertical displacement and $x$ is $t^2$. The slope ($m$) of the graph will equal $\frac{1}{2}a$.
+
+### (a) Graphing and Calculating Acceleration
+
+1.  **Plotting:** Plot the $Time^2$ values (x-axis, $\times 10^{-18}\text{ s}^2$) against the Vertical displacement values (y-axis, $\times 10^{-8}\text{ m}$). 
+2.  **Line of Best Fit:** Draw a straight line of best fit through the points $(0,0), (1,2), (4,8), (9,17), (16,30), (25,48)$.
+3.  **Slope Calculation:** Pick two points on the line, for example, $(0, 0)$ and $(25, 48)$.
+    $$\text{Slope} = \frac{\Delta y}{\Delta x} = \frac{48 \times 10^{-8} - 0}{25 \times 10^{-18} - 0} = 1.92 \times 10^{10} \text{ m/s}^2$$
+4.  **Determine Acceleration ($a$):**
+    $$\text{Slope} = \frac{1}{2}a \implies a = 2 \times \text{Slope}$$
+    $$a = 2 \times 1.92 \times 10^{10} = 3.84 \times 10^{10} \text{ m/s}^2$$
+
+### (b) Determining Time to Hit the Top Plate
+
+The proton hits the top plate when its vertical displacement equals the separation of the plates, $y = 30 \text{ mm} = 0.03 \text{ m} = 3 \times 10^{-2} \text{ m}$.
+
+Using the relationship $y = \frac{1}{2} a t^2$:
+$$3 \times 10^{-2} = \frac{1}{2} (3.84 \times 10^{10}) t^2$$
+$$t^2 = \frac{3 \times 10^{-2} \times 2}{3.84 \times 10^{10}}$$
+$$t^2 = \frac{6 \times 10^{-2}}{3.84 \times 10^{10}} \approx 1.5625 \times 10^{-12} \text{ s}^2$$
+$$t = \sqrt{1.5625 \times 10^{-12}} = 1.25 \times 10^{-6} \text{ s}$$
+
+The proton takes $1.25 \times 10^{-6} \text{ s}$ (or $1.25 \text{ } \mu\text{s}$) to hit the top plate.
+
+###QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,29 @@
+### Answer and Explanation
+
+#### Part (a)
+To find the height of the poles, we recognize that the pole at the equator is at the height of a **geostationary satellite**. The orbital radius $r$ of a geostationary satellite is calculated using Kepler's Third Law:
+$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$
+
+Using standard Earth values ($G = 6.67 \times 10^{-11} \, \text{m}^3\text{kg}^{-1}\text{s}^{-2}$, $M = 5.97 \times 10^{24} \, \text{kg}$, $T = 86400 \, \text{s}$):
+$$r = \sqrt[3]{\frac{GM T^2}{4\pi^2}} \approx 42,164 \, \text{km}$$
+
+The height $h$ above the Earth's surface is $r - R_E$, where $R_E \approx 6,378 \, \text{km}$:
+$$h = 42,164 - 6,378 = 35,786 \, \text{km}$$
+Rounding to the nearest kilometre, the height is **$35,786 \, \text{km}$**.
+
+---
+
+#### Part (b)
+
+**1. Mass at the Equator:**
+*   **Path:** The mass will continue to orbit the Earth in a circular path at the same altitude.
+*   **Justification:** At this height, the mass already possesses the exact orbital velocity required for a geostationary orbit. Since it is released from a pole that is rotating with the Earth, it has an initial tangential velocity $v = \omega r$ that matches the velocity required for a stable orbit.
+
+**2. Mass at the South Pole:**
+*   **Path:** The mass will fall vertically (or near-vertically) towards the South Pole of the Earth.
+*   **Justification:** Unlike the equatorial mass, this mass has no tangential velocity relative to the Earth's axis of rotation (because it is located at the pole). Therefore, there is no "sideways" velocity to support an orbit. It is subject only to the Earth's gravitational field, which pulls it directly towards the centre of the Earth.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve this problem, we use the formula for the magnetic force $F$ exerted on a moving charged particle:
+
+$$F = qvB\sin(\theta)$$
+
+### Given Data:
+*   **Charge of a proton ($q$):** $1.602 \times 10^{-19}\text{ C}$
+*   **Speed of the proton ($v$):** Half the speed of light, where $c = 3.0 \times 10^8\text{ m/s}$.
+    $$v = 0.5 \times 3.0 \times 10^8\text{ m/s} = 1.5 \times 10^8\text{ m/s}$$
+*   **Magnetic field strength ($B$):** $2.0 \times 10^{-2}\text{ T}$
+*   **Angle ($\theta$):** $7.5^\circ$
+
+### Calculation:
+Plug the values into the force equation:
+
+$$F = (1.602 \times 10^{-19}) \times (1.5 \times 10^8) \times (2.0 \times 10^{-2}) \times \sin(7.5^\circ)$$
+
+1.  Calculate the product of the constants:
+    $$(1.602 \times 10^{-19}) \times (1.5 \times 10^8) \times (2.0 \times 10^{-2}) = 4.806 \times 10^{-13}$$
+2.  Calculate $\sin(7.5^\circ)$:
+    $$\sin(7.5^\circ) \approx 0.130526$$
+3.  Calculate the final force:
+    $$F = 4.806 \times 10^{-13} \times 0.130526 \approx 6.273 \times 10^{-14}\text{ N}$$
+
+Comparing this result to the given options, it matches **(B)**.
+
+***Note on Physics Concepts:*** 
+While the proton is traveling at relativistic speeds ($0.5c$), the formula for magnetic force $F = qvB\sin\theta$ remains valid for the instantaneous force. We do not need to account for relativistic mass here as the formula defines force in terms of the instantaneous velocity and charge.
+
+###QUESTION_TYPE
+Multiple choice

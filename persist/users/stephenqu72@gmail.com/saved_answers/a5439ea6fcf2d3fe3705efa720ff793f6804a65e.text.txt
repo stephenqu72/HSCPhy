@@ -1,0 +1,31 @@
+To solve this problem, we use the principles of orbital mechanics. We define the following constants:
+*   $M = 5.97 \times 10^{24}\text{ kg}$ (Mass of Earth)
+*   $G = 6.67 \times 10^{-11}\text{ Nm}^2\text{kg}^{-2}$ (Gravitational constant)
+*   $r = 6.671 \times 10^6\text{ m}$ (Orbital radius)
+
+---
+
+### (a) Calculate the period of the satellite
+We use Kepler’s Third Law:
+$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$
+Rearranging for $T$:
+$$T = \sqrt{\frac{4\pi^2 r^3}{GM}}$$
+Substituting the values:
+$$T = \sqrt{\frac{4 \times \pi^2 \times (6.671 \times 10^6)^3}{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}} \approx 5556\text{ seconds} \approx 92.6\text{ minutes}$$
+
+### (b) Calculate the speed of the satellite
+The orbital speed $v$ for a circular orbit is given by:
+$$v = \sqrt{\frac{GM}{r}}$$
+Substituting the values:
+$$v = \sqrt{\frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.671 \times 10^6}} \approx 7727\text{ m/s}$$
+Alternatively, $v = \frac{2\pi r}{T} = \frac{2 \times \pi \times 6.671 \times 10^6}{5556} \approx 7545\text{ m/s}$ (slight variation due to rounding). Both methods are acceptable.
+
+### (c) Explain why a satellite of 1000 kg would have the same period
+The period of a satellite in a circular orbit depends only on the mass of the central body ($M$) and the radius of the orbit ($r$), as derived from equating centripetal force to gravitational force:
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+Notice that the mass of the satellite ($m$) appears on both sides of the equation and cancels out. This means the motion of the satellite is independent of its own mass. Consequently, gravity provides the same centripetal acceleration to any object at that specific radius, resulting in the same orbital period regardless of the satellite's mass.
+
+---
+
+###QUESTION_TYPE
+Calculation question

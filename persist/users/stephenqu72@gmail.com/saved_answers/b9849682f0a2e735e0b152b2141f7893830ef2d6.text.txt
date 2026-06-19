@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+This question examines the **Velocity Selector** principle (Region X) and circular motion in a magnetic field (Region Y).
+
+**(a) State the direction of the magnetic field in Region X.**
+*   **Direction:** Out of the page.
+*   **Explanation:** The electric field points from the positive top plate to the negative bottom plate (downward). The force on the electron ($F_E = qE$) is upward because the electron is negative. To remain undeflected, the magnetic force must be downward. Using the Left-Hand Rule (for negative charges): thumb points down (force), fingers point right (velocity), so the palm must face the direction of the field. This indicates the field is **out of the page**.
+
+**(b) Show that the speed can be determined as $v = \frac{E}{B}$.**
+*   For the electron to travel undeflected, the magnetic force ($F_B$) must equal the electric force ($F_E$):
+    $$F_E = F_B$$
+    $$qE = qvB$$
+*   Divide both sides by $q$ and $B$:
+    $$v = \frac{E}{B}$$
+
+**(c) Calculate the speed of the undeflected electron.**
+*   Given: $E = 1.20 \times 10^5 \text{ N/C}$, $B = 0.5 \text{ T}$.
+    $$v = \frac{1.20 \times 10^5}{0.5} = 2.4 \times 10^5 \text{ m/s}$$
+
+**(d) Sketch a possible trajectory in Region Y.**
+*   The electron enters Region Y (magnetic field into the page). By the Left-Hand Rule, the magnetic force acts **upwards** initially. The electron will follow a **circular path curving upwards** (a counter-clockwise semi-circle or arc) from the entrance point.
+
+**(e) Determine the strength of the magnetic field ($B_Y$) in Region Y.**
+*   The magnetic force provides the centripetal force:
+    $$qvB_Y = \frac{mv^2}{r} \implies B_Y = \frac{mv}{qr}$$
+*   Constants: $m = 9.11 \times 10^{-31} \text{ kg}$, $q = 1.602 \times 10^{-19} \text{ C}$.
+*   Conversion: $r = 22.3 \text{ mm} = 0.0223 \text{ m}$.
+    $$B_Y = \frac{(9.11 \times 10^{-31} \text{ kg}) \times (2.4 \times 10^5 \text{ m/s})}{(1.602 \times 10^{-19} \text{ C}) \times (0.0223 \text{ m})}$$
+    $$B_Y \approx 6.12 \times 10^{-5} \text{ T}$$
+
+### QUESTION_TYPE
+Calculation question

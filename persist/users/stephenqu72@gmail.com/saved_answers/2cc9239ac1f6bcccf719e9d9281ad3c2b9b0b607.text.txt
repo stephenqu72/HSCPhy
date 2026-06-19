@@ -1,0 +1,32 @@
+To solve this projectile motion problem, we must analyze the bullet's motion in reverse (from the impact point back to the gun) or treat the impact point as the final state.
+
+### 1. Analyze the final velocity components
+The bullet enters the wall at $v = 119\text{ m s}^{-1}$ at an angle $\theta = 15.6^\circ$ above the horizontal.
+- Final horizontal velocity: $v_x = 119 \cos(15.6^\circ) \approx 114.63\text{ m s}^{-1}$
+- Final vertical velocity: $v_y = 119 \sin(15.6^\circ) \approx 31.97\text{ m s}^{-1}$
+
+### 2. Determine time of flight ($t$)
+Since there is no air resistance (standard HSC projectile assumption), the horizontal velocity is constant: $v_x = \frac{\Delta x}{t}$.
+$$t = \frac{23.5}{114.63} \approx 0.2050\text{ s}$$
+
+### 3. Determine initial vertical velocity ($u_y$)
+Using the kinematic equation for vertical motion: $v_y = u_y - gt$ (where $g = 9.8\text{ m s}^{-2}$):
+$$31.97 = u_y - (9.8 \times 0.2050)$$
+$$u_y = 31.97 + 2.009 \approx 33.98\text{ m s}^{-1}$$
+
+### 4. Determine initial velocity and angle
+The initial horizontal velocity ($u_x$) is the same as $v_x$ ($114.63\text{ m s}^{-1}$).
+- **Initial Speed ($u$):**
+$$u = \sqrt{u_x^2 + u_y^2} = \sqrt{114.63^2 + 33.98^2} \approx \sqrt{13140.0 + 1154.6} \approx \sqrt{14294.6} \approx 119.56\text{ m s}^{-1}$$
+Rounding to three significant figures, $u \approx 120\text{ m s}^{-1}$.
+
+- **Initial Angle ($\theta_i$):**
+$$\tan(\theta_i) = \frac{u_y}{u_x} = \frac{33.98}{114.63} \approx 0.2964$$
+$$\theta_i = \arctan(0.2964) \approx 16.5^\circ$$
+
+**Final Answer:** The bullet left the gun with an initial speed of approximately **$120\text{ m s}^{-1}$** at an angle of **$16.5^\circ$** above the horizontal.
+
+***
+
+###QUESTION_TYPE
+Calculation question

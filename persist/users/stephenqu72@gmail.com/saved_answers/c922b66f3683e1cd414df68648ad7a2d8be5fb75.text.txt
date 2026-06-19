@@ -1,0 +1,26 @@
+To solve this problem, we use the formula for the force per unit length between two parallel current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+### Given values:
+*   Permeability of free space, $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$
+*   Current in the first wire, $I_1 = 1 \, \text{A}$
+*   Current in the second wire, $I_2 = 1 \, \text{A}$
+*   Distance between the wires, $r = 1 \, \text{m}$
+
+### Step-by-step Calculation:
+1.  **Substitute the values into the formula:**
+    $$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times 1 \times 1}{2\pi \times 1}$$
+
+2.  **Simplify the expression:**
+    *   The $\pi$ terms cancel out.
+    *   $4 / 2 = 2$.
+    *   The result is $2 \times 10^{-7}$.
+
+3.  **Determine the units:**
+    Since the question asks for the "force per metre length," the unit is Newtons per metre, written as $\text{N/m}$ or $\text{Nm}^{-1}$.
+
+Comparing this to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

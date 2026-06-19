@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part a.
+**Answer:** The magnetic field exerts no force on the electron because it is stationary.
+**Explanation:** The magnetic force on a charged particle is given by the formula:
+$$F_B = qvB\sin(\theta)$$
+Since the electron is stationary, its velocity $v = 0$. Consequently, $F_B = q(0)B\sin(\theta) = 0$. A magnetic field can only exert a force on a *moving* charged particle.
+
+#### Part b.
+**Answer:**
+1. Calculate the electric field strength ($E$):
+$$E = \frac{V}{d} = \frac{200\text{ V}}{6.0 \times 10^{-3}\text{ m}} = 3.33 \times 10^4\text{ V/m}$$
+2. Calculate the electric force ($F_E$):
+$$F_E = qE = (1.602 \times 10^{-19}\text{ C})(3.33 \times 10^4\text{ V/m}) \approx 5.34 \times 10^{-15}\text{ N}$$
+**Direction:** Since the top plate is connected to the positive terminal, it is positively charged, and the bottom plate is negatively charged. The electric field points downward. Since the electron is negatively charged, the electric force acts in the opposite direction of the field, i.e., **upwards** (towards the top plate).
+
+**Summary Table:**
+* **Magnitude:** $5.34 \times 10^{-15}\text{ N}$
+* **Direction:** Upwards
+
+#### Part c.
+**Evaluation:** Both Ravi and Mia are **incorrect**.
+**Reasoning:**
+* Once the switch is closed, the electron experiences a constant upward electric force. Because the electron starts from rest, this force causes it to accelerate upwards.
+* As the electron gains velocity ($v$), it begins to experience a magnetic force given by $F_B = qvB\sin(\theta)$.
+* Since the electron is accelerating, its velocity $v$ is constantly increasing. Therefore, the magnetic force $F_B$ will also be **constantly increasing** in magnitude.
+* According to the right-hand rule (or Fleming's Left-Hand Rule for a negative charge), as the electron moves upwards through the magnetic field (which points out of the page), the magnetic force will act horizontally (to the left or right depending on the specific orientation). Since the velocity is increasing, the magnitude increases, but the direction remains constant relative to the velocity vector.
+* Ravi is incorrect because the force is not of constant magnitude.
+* Mia is incorrect because the magnetic force will not maintain a single constant direction if the electron's path curves; however, even if she meant the direction relative to the field, her reasoning is incomplete as she fails to address the acceleration caused by the electric field.
+
+###QUESTION_TYPE
+Calculation question

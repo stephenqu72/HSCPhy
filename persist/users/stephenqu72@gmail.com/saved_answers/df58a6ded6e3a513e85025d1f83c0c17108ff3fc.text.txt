@@ -1,0 +1,36 @@
+### Solution and Explanation
+
+To solve this problem, we apply the principles of electromagnetism concerning the force between two parallel current-carrying conductors.
+
+#### Part (a)
+**Given values:**
+- Mass ($m$) = $52.23\text{ g} = 0.05223\text{ kg}$
+- Length ($L$) = $72.0\text{ cm} = 0.720\text{ m}$
+- Current ($I_1 = I_2 = I$) = $2.40\text{ A}$
+- Magnetic permeability of free space ($\mu_0$) = $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+- Acceleration due to gravity ($g$) $\approx 9.8\text{ m/s}^2$
+
+The force of repulsion measured by the scale is equal to the weight of the force pushing the conductor down:
+$$F = mg = 0.05223 \times 9.8 = 0.511854\text{ N}$$
+
+The formula for the force between two parallel wires is:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+
+Rearranging for $r$:
+$$r = \frac{\mu_0 I^2 L}{2\pi F}$$
+$$r = \frac{(4\pi \times 10^{-7}) \times (2.40)^2 \times 0.720}{2\pi \times 0.511854}$$
+$$r = \frac{2 \times 10^{-7} \times 5.76 \times 0.720}{0.511854}$$
+$$r \approx 1.62 \times 10^{-6}\text{ m}$$
+
+*(Note: In an actual HSC exam context, check the provided scale reading carefully. If the reading represented the **change** in force from a baseline, use that delta. Based on the provided image, we treat the total reading as the force magnitude.)*
+
+---
+
+#### Part (b)
+**Explanation:**
+1. **Identify the Interaction:** According to the Right-Hand Grip Rule, each conductor creates a magnetic field. Because the currents flow in opposite directions, the resulting magnetic field interaction produces a repulsive force between the wires.
+2. **Newton's Third Law:** Newton's Third Law states that for every action, there is an equal and opposite reaction. Therefore, the force exerted by conductor A on conductor B is equal in magnitude and opposite in direction to the force exerted by conductor B on conductor A.
+3. **Direction of Movement:** Since the wires are carrying current in opposite directions, they repel each other. The top wire will experience an upward force (away from the bottom wire), and the bottom wire will experience an equal downward force. This downward force is what is registered as an increase in the reading on the digital scale.
+
+###QUESTION_TYPE
+Calculation question

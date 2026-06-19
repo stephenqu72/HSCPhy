@@ -1,0 +1,29 @@
+### Answer
+The mean orbital radius of Deimos is approximately $2.3 \times 10^4 \text{ km}$.
+
+---
+
+### Explanation
+To solve this problem, we use **Kepler's Third Law of Planetary Motion**, which states that for objects orbiting the same central body, the square of the orbital period ($T$) is directly proportional to the cube of the mean orbital radius ($r$):
+
+$$\frac{r^3}{T^2} = k \quad \text{or} \quad \frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$$
+
+**Step 1: Identify the given values.**
+*   For Phobos: $r_1 = 9.4 \times 10^3 \text{ km}$, $T_1 = 7.7 \text{ hours}$
+*   For Deimos: $T_2 = 30 \text{ hours}$, $r_2 = ?$
+
+**Step 2: Set up the equation and solve for $r_2$.**
+$$\frac{r_2^3}{T_2^2} = \frac{r_1^3}{T_1^2}$$
+$$r_2^3 = \frac{r_1^3 \times T_2^2}{T_1^2}$$
+$$r_2 = \sqrt[3]{\frac{r_1^3 \times T_2^2}{T_1^2}}$$
+
+**Step 3: Substitute the values.**
+$$r_2 = \sqrt[3]{\frac{(9.4 \times 10^3)^3 \times (30)^2}{(7.7)^2}}$$
+$$r_2 = \sqrt[3]{\frac{8.30584 \times 10^{11} \times 900}{59.29}}$$
+$$r_2 = \sqrt[3]{1.261 \times 10^{13}}$$
+$$r_2 \approx 23,277 \text{ km}$$
+
+Rounding to two significant figures (consistent with the provided data), the mean orbital radius of Deimos is $2.3 \times 10^4 \text{ km}$.
+
+###QUESTION_TYPE
+Calculation question

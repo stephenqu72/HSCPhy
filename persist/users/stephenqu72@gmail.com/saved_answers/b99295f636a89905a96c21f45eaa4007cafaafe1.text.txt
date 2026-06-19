@@ -1,0 +1,32 @@
+### Answer
+To deduce the escape velocity, we equate the total energy of an object at the Earth's surface to its total energy at an infinite distance (where velocity and gravitational potential energy are both zero).
+
+1.  **Total energy at the surface ($r = R$):**
+    $$E_{total} = K + U = \frac{1}{2}mv_e^2 - \frac{GMm}{R}$$
+    where $m$ is the mass of the object, $M$ is the mass of the Earth, $R$ is the radius of the Earth, and $v_e$ is the escape velocity.
+
+2.  **Total energy at infinity ($r = \infty$):**
+    At infinity, $U = 0$ and to define the *minimum* escape velocity, we set $K = 0$.
+    $$E_{total} = 0$$
+
+3.  **Conservation of energy:**
+    Equating the two states:
+    $$\frac{1}{2}mv_e^2 - \frac{GMm}{R} = 0$$
+
+4.  **Solving for $v_e$:**
+    $$\frac{1}{2}mv_e^2 = \frac{GMm}{R}$$
+    $$v_e^2 = \frac{2GM}{R}$$
+    $$v_e = \sqrt{\frac{2GM}{R}}$$
+
+---
+
+### How to solve it
+To earn full marks on this HSC physics question, follow these steps:
+
+*   **Define the state at the surface:** Recognise that an object on the surface has kinetic energy ($K = \frac{1}{2}mv^2$) and gravitational potential energy ($U = -\frac{GMm}{R}$).
+*   **Define the boundary condition:** The definition of "escape velocity" is the minimum speed required to reach "infinity" such that the object just comes to rest at that infinite distance. Therefore, at $r = \infty$, both $K$ and $U$ are zero.
+*   **Apply the conservation principle:** Set the initial total energy equal to the final total energy (zero).
+*   **Algebraic manipulation:** Show the steps to isolate $v_e$. Ensure you cancel out the mass of the projectile ($m$), demonstrating that escape velocity is independent of the object's mass.
+
+###QUESTION_TYPE
+Calculation question

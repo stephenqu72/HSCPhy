@@ -1,0 +1,32 @@
+To solve this problem, we apply Newton’s Third Law and the principle of the motor effect.
+
+### Explanation
+
+1.  **Understand the Physics:** The electronic balance measures the "normal force" exerted by the magnet on the balance. When current flows through the wire, a magnetic force ($F_B$) is exerted on the wire. By Newton's Third Law, an equal and opposite force is exerted on the magnet.
+    *   If the force on the magnet is directed **downward**, the balance reading increases.
+    *   If the force on the magnet is directed **upward**, the balance reading decreases.
+
+2.  **Analyze the Initial Change:**
+    *   Initial reading (no current) $= 142.0\text{ g}$.
+    *   Reading with $2.0\text{ A}$ (direction $XY$) $= 144.6\text{ g}$.
+    *   The change in mass is $144.6 - 142.0 = +2.6\text{ g}$.
+    *   This positive change means the magnetic force on the magnet is downward.
+
+3.  **Determine the Force for the New Scenario:**
+    *   The magnetic force is given by $F_B = BIl\sin\theta$. Since $B$, $l$, and $\theta$ are constant, the force is directly proportional to the current ($F_B \propto I$).
+    *   For $2.0\text{ A}$, the change in mass is $2.6\text{ g}$.
+    *   For $1.0\text{ A}$, the change in mass would be $\frac{2.6}{2.0} = 1.3\text{ g}$.
+    *   Therefore, for $3.0\text{ A}$, the magnitude of the change in mass is $3 \times 1.3\text{ g} = 3.9\text{ g}$.
+
+4.  **Account for Direction:**
+    *   The current direction is now **$YX$**, which is the exact opposite of the initial direction $XY$.
+    *   Because the current direction is reversed, the magnetic force on the magnet will also reverse.
+    *   Since the original $2.0\text{ A}$ current (in direction $XY$) caused an **increase** in the reading, the $3.0\text{ A}$ current (in direction $YX$) will cause a **decrease** in the reading relative to the initial $142.0\text{ g}$.
+
+5.  **Calculate Final Reading:**
+    *   New Reading $= 142.0\text{ g} - 3.9\text{ g} = 138.1\text{ g}$.
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

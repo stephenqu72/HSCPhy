@@ -1,0 +1,30 @@
+To solve this problem, we must apply the principles of electrostatics and kinematics for a charged particle in a uniform electric field.
+
+### Part a) Calculate the force experienced by the electron
+
+1.  **Identify the Electric Field:** The potential difference between the plates is $\Delta V = 20\text{ V}$. The separation distance $d = 0.25\text{ m}$. The magnitude of the uniform electric field $E$ is given by:
+    $$E = \frac{\Delta V}{d} = \frac{20}{0.25} = 80\text{ V m}^{-1}$$
+2.  **Calculate the Force:** The force $F$ on an electron (charge $q = 1.602 \times 10^{-19}\text{ C}$) in an electric field is $F = qE$.
+    $$F = (1.602 \times 10^{-19}\text{ C}) \times (80\text{ V m}^{-1}) = 1.28 \times 10^{-17}\text{ N}$$
+    Since the electron is negatively charged and moving between a $0\text{ V}$ plate and a $-20\text{ V}$ plate, the force acts downwards, pushing the electron back toward the $0\text{ V}$ plate.
+
+---
+
+### Part b) What is the time taken for the electron to travel from A to D?
+
+1.  **Determine Acceleration:** Using $F = ma$, the acceleration $a$ of the electron is:
+    $$a = \frac{F}{m_e} = \frac{1.28 \times 10^{-17}\text{ N}}{9.11 \times 10^{-31}\text{ kg}} \approx 1.405 \times 10^{13}\text{ m s}^{-2}$$
+    The acceleration is in the negative $y$-direction (downwards).
+2.  **Analyze Motion:** The horizontal velocity $v_x$ remains constant because there is no horizontal force:
+    $$v_x = v \cos(60^\circ) = (6.0 \times 10^6) \times 0.5 = 3.0 \times 10^6\text{ m s}^{-1}$$
+    The vertical velocity $v_y$ changes according to $v_y(t) = v_{iy} + a_y t$:
+    $$v_{iy} = v \sin(60^\circ) = (6.0 \times 10^6) \times \frac{\sqrt{3}}{2} \approx 5.196 \times 10^6\text{ m s}^{-1}$$
+3.  **Find Time of Flight:** The electron hits the detector at $D$, which is back on the same line as aperture $A$, meaning the vertical displacement $y = 0$. Using the displacement formula $y = v_{iy} t + \frac{1}{2} a_y t^2$:
+    $$0 = (5.196 \times 10^6) t - \frac{1}{2} (1.405 \times 10^{13}) t^2$$
+    Factor out $t$:
+    $$t = \frac{2 \times 5.196 \times 10^6}{1.405 \times 10^{13}} \approx 7.4 \times 10^{-7}\text{ s}$$
+
+The time taken for the electron to travel from A to D is approximately $7.4 \times 10^{-7}\text{ s}$.
+
+###QUESTION_TYPE
+Calculation question

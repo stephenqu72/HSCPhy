@@ -1,0 +1,25 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To determine what the critical speed ($v$) of a buggy on a banked circular track depends on, we examine the physics of circular motion on an incline. 
+
+For a vehicle to safely negotiate a banked turn without relying on friction, the horizontal component of the normal force must provide the necessary centripetal force:
+1. The vertical component of the normal force ($N \cos\theta$) must balance the gravitational force ($mg$), so $N \cos\theta = mg$.
+2. The horizontal component of the normal force ($N \sin\theta$) provides the centripetal force ($mv^2 / r$), so $N \sin\theta = mv^2 / r$.
+
+By dividing the two equations:
+$$\frac{N \sin\theta}{N \cos\theta} = \frac{mv^2 / r}{mg}$$
+$$\tan\theta = \frac{v^2}{rg}$$
+Solving for $v$:
+$$v = \sqrt{rg \tan\theta}$$
+
+From this formula, we can see that the ideal (critical) speed depends on:
+*   $r$: The **radius** of the circular track.
+*   $g$: The **gravitational field strength** (which is lower on the Moon than on Earth, but still a necessary factor).
+*   $\theta$: The **banking angle** of the track.
+
+The mass of the buggy cancels out, and in the case of "critical" or "design" speed, friction is not required to maintain the path. Therefore, the speed depends on the banking angle, the radius, and the local gravity.
+
+### QUESTION_TYPE
+Multiple choice

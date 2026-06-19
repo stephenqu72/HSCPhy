@@ -1,0 +1,41 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through these fundamental concepts of orbital mechanics. Let’s break these down step-by-step.
+
+### (a) Kepler’s 2nd Law and Newton’s Law
+**Answer:** Kepler’s 2nd Law (Equal areas in equal time) is a direct consequence of the **conservation of angular momentum**. Because gravity is a central force (it acts along the line joining the centers of the two bodies), there is no external torque acting on the planet. Therefore, angular momentum remains constant, which mandates that a planet must speed up as it gets closer to the Sun to sweep out the same area, inherently linking motion to the central gravitational force described by Newton.
+
+**How to solve:** To get full marks, link the kinematic observation (equal areas) to the physical principle (conservation of angular momentum) and explain how Newton’s inverse-square law provides the central force responsible for this conservation.
+
+---
+
+### (b) i. Gravitational Potential Energy
+**Answer:**
+We use the formula: $U = -\frac{GMm}{r}$
+- $G = 6.67 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$
+- $M = 2.0 \times 10^{30} \, \text{kg}$
+- $m \approx 5.97 \times 10^{24} \, \text{kg}$ (Earth's mass)
+- $r = 1.5 \times 10^{11} \, \text{m}$ (converted from 150 million km)
+
+$$U = -\frac{(6.67 \times 10^{-11})(2.0 \times 10^{30})(5.97 \times 10^{24})}{1.5 \times 10^{11}}$$
+$$U \approx -5.31 \times 10^{33} \, \text{J}$$
+
+**How to solve:** Ensure you convert kilometers to meters ($1.5 \times 10^8 \, \text{km} = 1.5 \times 10^{11} \, \text{m}$) and use the standard mass for Earth. Don't forget the negative sign!
+
+### (b) ii. Why is it negative?
+**Answer:** The negative sign indicates a **bound system**. Gravitational potential energy is defined as zero at an infinite distance from the mass. Since gravity is an attractive force, work must be done *against* the field to move the Earth to infinity. Thus, the energy is negative relative to the zero-point at infinity, representing the energy required to "escape."
+
+---
+
+### (c) Escape Speed
+**Answer:**
+To escape, the object's total mechanical energy must be at least zero. The escape velocity $v_e$ is derived from:
+$$\frac{1}{2}mv^2 - \frac{GMm}{r} = 0 \implies v_e = \sqrt{\frac{2GM}{r}}$$
+
+Using the values from before:
+$$v_e = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 2.0 \times 10^{30}}{1.5 \times 10^{11}}}$$
+$$v_e = \sqrt{\frac{2.668 \times 10^{20}}{1.5 \times 10^{11}}} \approx \sqrt{1.778 \times 10^9}$$
+$$v_e \approx 4.22 \times 10^4 \, \text{m/s} \text{ (or } 42.2 \, \text{km/s)}$$
+
+**How to solve:** Set the kinetic energy equal to the absolute value of the gravitational potential energy. Solve for $v$.
+
+###QUESTION_TYPE
+Calculation question

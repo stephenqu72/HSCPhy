@@ -1,0 +1,21 @@
+### Answer
+The correct choice is **B**. The speed of the proton remains $1.2 \times 10^3\text{ m s}^{-1}$.
+
+### Explanation
+To solve this problem, we apply the principles of electromagnetism related to charged particles moving in magnetic fields:
+
+1.  **The Nature of Magnetic Force:** The magnetic force $F_B$ acting on a charged particle moving in a magnetic field is given by the formula:
+    $$F_B = qvB\sin(\theta)$$
+    where $q$ is the charge, $v$ is velocity, $B$ is the magnetic field strength, and $\theta$ is the angle between the velocity vector and the magnetic field.
+
+2.  **Direction of Force:** According to the right-hand rule, the magnetic force is always directed **perpendicular** to the velocity vector of the particle ($F \perp v$).
+
+3.  **Work Done by the Magnetic Field:** Since the force is always perpendicular to the direction of motion (velocity), the magnetic field does **zero work** on the particle. 
+    *   Recall that work $W = Fd\cos(\phi)$, where $\phi$ is the angle between the force and displacement. Since the force is always perpendicular to the path ($\phi = 90^\circ$), $\cos(90^\circ) = 0$.
+    *   By the Work-Energy Theorem, because no work is done on the proton, there is no change in its kinetic energy.
+    *   Since kinetic energy $K = \frac{1}{2}mv^2$ remains constant, the **speed ($v$) of the particle must remain constant**.
+
+4.  **Conclusion:** As the proton moves through the magnetic field, its path is curved into a semi-circle, but its speed remains unchanged throughout the motion. Therefore, the speed as it exits the field is the same as its entry speed: $1.2 \times 10^3\text{ m s}^{-1}$.
+
+###QUESTION_TYPE
+Multiple choice

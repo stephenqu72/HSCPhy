@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+#### Part a: Completing the Table
+
+To solve this, we use the virial theorem for circular orbits, which states that for an object in a stable circular orbit:
+1. The total mechanical energy is $E_{total} = \frac{1}{2}U$ (where $U$ is gravitational potential energy).
+2. The kinetic energy is $K = -\frac{1}{2}U$.
+
+**Initial position ($U = -4E$):**
+*   $K = -\frac{1}{2}(-4E) = 2E$
+*   $E_{total} = U + K = -4E + 2E = -2E$
+
+**Final position ($U = -E$):**
+*   $K = -\frac{1}{2}(-E) = 0.5E$
+*   $E_{total} = U + K = -E + 0.5E = -0.5E$
+
+| Position | Gravitational potential energy (J) | Orbital Kinetic Energy (J) | Total Energy (J) |
+| :--- | :--- | :--- | :--- |
+| **Initial** | $-4E$ | $2E$ | $-2E$ |
+| **Final** | $-E$ | $0.5E$ | $-0.5E$ |
+
+---
+
+#### Part b: Justification and Derivation
+
+To justify why the kinetic energy changes, we equate the centripetal force required to keep the rocket in orbit to the gravitational force provided by the Earth:
+
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+
+Solving for $v^2$:
+$$v^2 = \frac{GM}{r}$$
+
+Since kinetic energy $K = \frac{1}{2}mv^2$, we substitute $v^2$ into the formula:
+$$K = \frac{GMm}{2r}$$
+
+**Justification:**
+The gravitational potential energy is defined as $U = -\frac{GMm}{r}$. 
+Comparing this to the expression for kinetic energy ($K = \frac{GMm}{2r}$), we see that $K = -\frac{1}{2}U$.
+When the rocket moves to a higher orbit, the radius $r$ increases. As $r$ increases, the magnitude of the potential energy $|U|$ decreases (it becomes less negative). Since $K$ is proportional to the inverse of the radius ($K \propto \frac{1}{r}$), increasing the radius results in a **decrease** in kinetic energy. This confirms our calculated values in part (a), where kinetic energy dropped from $2E$ to $0.5E$ as the rocket moved further away from Earth.
+
+###QUESTION_TYPE
+Calculation question

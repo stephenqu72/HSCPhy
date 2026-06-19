@@ -1,0 +1,27 @@
+To solve this problem, we must analyze the velocity components of the projectile throughout its flight.
+
+### Explanation
+
+1.  **Understand Initial Conditions:**
+    Let the initial horizontal velocity be $v_x$ and the initial vertical velocity be $v_y$. We are given that these components are equal:
+    $$v_x = v_y = v$$
+    The initial kinetic energy $E$ is given by the formula for kinetic energy $K = \frac{1}{2}mv^2$. The total initial velocity magnitude squared is $v_{total}^2 = v_x^2 + v_y^2$. Thus:
+    $$E = \frac{1}{2}m(v_x^2 + v_y^2) = \frac{1}{2}m(v^2 + v^2) = \frac{1}{2}m(2v^2) = mv^2$$
+
+2.  **Analyze the Highest Point:**
+    In projectile motion, the horizontal velocity remains constant (assuming no air resistance), so $v_{x, \text{final}} = v_x = v$. At the highest point of the motion, the vertical component of velocity becomes zero ($v_{y, \text{peak}} = 0$).
+
+3.  **Calculate Kinetic Energy at the Peak:**
+    The kinetic energy at the highest point ($E_{\text{peak}}$) depends only on the horizontal velocity component:
+    $$E_{\text{peak}} = \frac{1}{2}m(v_{x, \text{peak}})^2$$
+    Since $v_{x, \text{peak}} = v$:
+    $$E_{\text{peak}} = \frac{1}{2}mv^2$$
+
+4.  **Relate $E_{\text{peak}}$ to Initial Energy $E$:**
+    From step 1, we know $E = mv^2$. Therefore, $\frac{1}{2}mv^2$ is exactly half of $E$:
+    $$E_{\text{peak}} = \frac{1}{2}E$$
+
+Comparing this result to the given options, the correct answer is **C**.
+
+### QUESTION_TYPE
+Multiple choice

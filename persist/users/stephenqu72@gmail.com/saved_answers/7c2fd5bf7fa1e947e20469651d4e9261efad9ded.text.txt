@@ -1,0 +1,25 @@
+To solve this problem, we must apply the Right-Hand Rule for magnetic forces and understand the relationship between circular motion, magnetic force, and velocity.
+
+### 1. Determining the Charge
+The magnetic force $F_B$ on a moving charge $q$ is given by the formula $F_B = qvB\sin(\theta)$. The direction of the force is determined by the **Right-Hand Rule**:
+*   Point your fingers in the direction of the velocity $v$.
+*   Curl your fingers into the page (direction of the magnetic field $B$).
+*   Your thumb points in the direction of the force $F_B$ for a **positive charge**. If the charge is negative, the force is in the opposite direction of your thumb.
+
+For a particle moving in a circle, the magnetic force acts as the centripetal force ($F_c$), meaning it must point toward the center of the circle. By testing a point on the circle:
+*   If we assume the particle is at the rightmost edge of its path moving upward (tangent to the circle), applying the Right-Hand Rule for a positive charge results in a force to the left (towards the center).
+*   Since the motion is anti-clockwise, the force must point inward to maintain the circular path. This confirms the particle behaves as a **positive charge**.
+
+### 2. Determining the Speed
+The radius of the circular path of a charged particle in a magnetic field is given by:
+$$r = \frac{mv}{qB}$$
+From this formula, we see that the radius $r$ is directly proportional to the velocity $v$ (assuming $m, q,$ and $B$ remain constant). 
+*   The problem states the particle is "spiralling into the centre," which means the radius $r$ of the path is **decreasing**.
+*   Since $r \propto v$, as the radius decreases, the velocity $v$ must also be decreasing. Therefore, the particle is **slowing down**.
+
+**Conclusion:** The particle has a positive charge and is slowing down.
+
+**Correct Option: (A)**
+
+###QUESTION_TYPE
+Multiple choice

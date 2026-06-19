@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The ion with the **smaller charge** will move in a path with a **larger radius**.
+
+**Explanation:**
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force acts as a centripetal force. We equate the magnetic force to the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius $r$:
+$$r = \frac{mv}{qB}$$
+Given that mass $m$, velocity $v$, and magnetic field strength $B$ are constant for these ions, the radius $r$ is inversely proportional to the charge $q$ ($r \propto \frac{1}{q}$). Therefore, a smaller charge $q$ results in a larger radius $r$.
+
+---
+
+#### Part (b)
+**Answer:** The magnitude of the force per unit charge is $1.75 \times 10^5\ \text{N/C}$.
+
+**Explanation:**
+The magnetic force acting on a moving charge is given by the formula:
+$$F = qvB\sin(\theta)$$
+Since the ion enters at right angles to the field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$. The formula simplifies to:
+$$F = qvB$$
+The question asks for the "force per unit charge," which is $\frac{F}{q}$. Rearranging the formula:
+$$\frac{F}{q} = vB$$
+Substitute the given values:
+$$\frac{F}{q} = (5.0 \times 10^7\ \text{m/s}) \times (3.5 \times 10^{-3}\ \text{T})$$
+$$\frac{F}{q} = 17.5 \times 10^4 = 1.75 \times 10^5\ \text{N/C}$$
+
+---
+
+### QUESTION_TYPE
+Calculation question

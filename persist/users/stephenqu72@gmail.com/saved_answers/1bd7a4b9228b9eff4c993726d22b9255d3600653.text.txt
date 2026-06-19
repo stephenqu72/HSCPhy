@@ -1,0 +1,27 @@
+To solve this problem, we must recognise that the magnetic force acts as the centripetal force required to keep the deuteron in a circular path.
+
+### 1. Identify the given values
+*   Charge of a deuteron ($q$): Since a deuteron consists of one proton and one neutron, its charge is equal to that of a single proton: $q = 1.602 \times 10^{-19}\text{ C}$.
+*   Velocity ($v$): $9 \times 10^6\text{ m s}^{-1}$.
+*   Radius ($r$): The diameter is $1\text{ m}$, so the radius $r = 0.5\text{ m}$.
+*   Mass of a deuteron ($m$): A deuteron has approximately twice the mass of a proton ($m \approx 1.67 \times 10^{-27}\text{ kg}$ per nucleon), so $m \approx 3.34 \times 10^{-27}\text{ kg}$.
+
+### 2. The Physics Principle
+The magnetic force $F_B = qvB$ provides the centripetal force $F_c = \frac{mv^2}{r}$.
+Setting these equal:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging to solve for $B$ (the magnetic field strength):
+$$B = \frac{mv}{qr}$$
+
+### 3. Calculation
+Substitute the values into the equation:
+$$B = \frac{(3.34 \times 10^{-27}\text{ kg}) \times (9 \times 10^6\text{ m s}^{-1})}{(1.602 \times 10^{-19}\text{ C}) \times (0.5\text{ m})}$$
+$$B = \frac{3.006 \times 10^{-20}}{8.01 \times 10^{-20}}$$
+$$B \approx 0.375\text{ T}$$
+
+**Final Answer:** The magnetic field required is approximately $0.375\text{ Tesla}$.
+
+***
+
+###QUESTION_TYPE
+Calculation question

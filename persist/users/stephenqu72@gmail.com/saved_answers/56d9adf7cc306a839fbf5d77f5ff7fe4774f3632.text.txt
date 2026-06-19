@@ -1,0 +1,28 @@
+To solve this problem, we use the standard constants for Earth:
+- Mass of Earth ($M$) $\approx 5.97 \times 10^{24} \text{ kg}$
+- Radius of Earth ($R_E$) $\approx 6.37 \times 10^6 \text{ m}$
+- Gravitational constant ($G$) $\approx 6.67 \times 10^{-11} \text{ Nm}^2/\text{kg}^2$
+- Mass of ISS ($m$) = $420 \text{ tonnes} = 4.20 \times 10^5 \text{ kg}$
+
+### (A) Orbital velocity at $h_1 = 300 \text{ km}$
+The orbital radius is $r_1 = R_E + h_1 = 6.37 \times 10^6 + 0.3 \times 10^6 = 6.67 \times 10^6 \text{ m}$.
+The orbital velocity formula is $v = \sqrt{\frac{GM}{r}}$.
+$$v = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{6.67 \times 10^6}} \approx 7730 \text{ m/s} \text{ (or } 7.73 \text{ km/s)}$$
+
+### (B) Change in Gravitational Potential Energy (GPE)
+The new height is $h_2 = 550 \text{ km}$, so $r_2 = 6.37 \times 10^6 + 0.55 \times 10^6 = 6.92 \times 10^6 \text{ m}$.
+The GPE formula is $U = -\frac{GMm}{r}$.
+$$\Delta U = U_2 - U_1 = \left( -\frac{GMm}{r_2} \right) - \left( -\frac{GMm}{r_1} \right) = GMm \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+$$\Delta U = (6.67 \times 10^{-11})(5.97 \times 10^{24})(4.20 \times 10^5) \left( \frac{1}{6.67 \times 10^6} - \frac{1}{6.92 \times 10^6} \right)$$
+$$\Delta U \approx (1.67 \times 10^{20}) \times (5.415 \times 10^{-9}) \approx 9.04 \times 10^{11} \text{ J}$$
+
+### (C) Total work done
+Work done is the change in total mechanical energy ($E_{total} = KE + GPE$). Since $KE = \frac{1}{2}mv^2$ and $v^2 = \frac{GM}{r}$, $KE = \frac{GMm}{2r}$.
+$E_{total} = -\frac{GMm}{r} + \frac{GMm}{2r} = -\frac{GMm}{2r}$.
+$$\Delta E = \left( -\frac{GMm}{2r_2} \right) - \left( -\frac{GMm}{2r_1} \right) = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+Since this is exactly half of the $\Delta U$ calculated in part (B):
+$$\Delta E = 0.5 \times 9.04 \times 10^{11} = 4.52 \times 10^{11} \text{ J}$$
+
+---
+###QUESTION_TYPE
+Calculation question

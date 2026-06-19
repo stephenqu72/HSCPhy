@@ -1,0 +1,19 @@
+### Answer
+The correct statement is **B**.
+
+### Explanation
+To understand this problem, we must apply Newton's Laws of Motion to the cube undergoing circular motion.
+
+1.  **Circular Motion Requirement:** For the cube to maintain a fixed position relative to the rotating backboard, it must be undergoing uniform circular motion. This requires a **net centripetal force** directed toward the axis of rotation $X-X'$. In this setup, the normal force exerted by the backboard on the cube provides this centripetal force.
+2.  **Newton's Third Law (Action-Reaction):** The force of the backboard on the cube and the force of the cube on the backboard constitute an "action-reaction" pair. According to Newton's Third Law, if object A exerts a force on object B, then object B exerts a force on object A that is equal in magnitude and opposite in direction.
+    *   Therefore, the horizontal force exerted by the backboard on the cube is *always* equal in magnitude to the horizontal force exerted by the cube on the backboard, regardless of the state of motion.
+
+**Why the other options are incorrect:**
+*   **A:** The sum of the forces cannot be zero because the cube is accelerating toward the center of its circular path (centripetal acceleration).
+*   **C:** This is a common misconception. While the backboard *does* exert a centripetal force on the cube, the magnitude of that force must be exactly equal to the reaction force (the force of the cube on the backboard). You cannot have an "imbalance" between action-reaction pairs.
+*   **D:** Friction is generally dependent on the normal force ($F_f \le \mu N$). Since the normal force *is* the horizontal force of the backboard on the cube, the friction force is absolutely dependent on it.
+
+Thus, statement B is the only physically correct description based on Newton's Third Law.
+
+###QUESTION_TYPE
+Multiple choice

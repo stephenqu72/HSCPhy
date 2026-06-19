@@ -1,0 +1,36 @@
+To solve this problem, we must consider both the electrical force acting on the electron and the gravitational force.
+
+### (a) Calculate the net force acting on the electron
+
+1. **Calculate the Electric Field ($E$):**
+   The electric field between parallel plates is given by $E = \frac{V}{d}$.
+   $V = 200\text{ V}$, $d = 1.00\text{ cm} = 0.01\text{ m}$.
+   $$E = \frac{200}{0.01} = 2.00 \times 10^4\text{ N/C}$$
+   Since the top plate is positive, the electric field points downwards. An electron (negative charge) experiences an upward force:
+   $$F_e = qE = (1.602 \times 10^{-19}\text{ C})(2.00 \times 10^4\text{ N/C}) = 3.204 \times 10^{-15}\text{ N (upwards)}$$
+
+2. **Calculate the Gravitational Force ($F_g$):**
+   $$F_g = mg = (9.109 \times 10^{-31}\text{ kg})(9.8\text{ m/s}^2) \approx 8.93 \times 10^{-30}\text{ N (downwards)}$$
+
+3. **Net Force ($F_{net}$):**
+   Since $F_e \gg F_g$, the gravitational force is negligible.
+   $$F_{net} \approx F_e = 3.20 \times 10^{-15}\text{ N (upwards)}$$
+
+---
+
+### (b) Determine how long it takes for the electron to touch a plate
+
+1. **Calculate Acceleration ($a$):**
+   Using Newton's Second Law: $F = ma \implies a = \frac{F}{m}$.
+   $$a = \frac{3.204 \times 10^{-15}\text{ N}}{9.109 \times 10^{-31}\text{ kg}} \approx 3.517 \times 10^{15}\text{ m/s}^2$$
+
+2. **Calculate Time ($t$):**
+   The electron is midway, so the distance to travel to the top plate is $s = 0.50\text{ cm} = 0.005\text{ m}$. Using $s = ut + \frac{1}{2}at^2$ where $u = 0$:
+   $$0.005 = 0 + \frac{1}{2}(3.517 \times 10^{15})t^2$$
+   $$t^2 = \frac{0.005 \times 2}{3.517 \times 10^{15}} = 2.843 \times 10^{-18}$$
+   $$t = \sqrt{2.843 \times 10^{-18}} \approx 1.69 \times 10^{-9}\text{ s}$$
+
+**Explanation:** In HSC Physics, when dealing with electrons in fields, always compare the electrical force to the gravitational force. If the electrical force is significantly larger, gravity can be ignored to simplify calculations. Because the electric field pushes the electron toward the positive (top) plate, we calculate the acceleration using the electric force and use kinematic equations to find the time taken to travel the half-gap distance.
+
+###QUESTION_TYPE
+Calculation question

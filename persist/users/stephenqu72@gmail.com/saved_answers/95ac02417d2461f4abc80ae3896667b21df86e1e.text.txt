@@ -1,0 +1,20 @@
+To determine the correct answer, we must analyze the physics of projectile motion.
+
+### Answer
+The correct answer is **(D)**.
+
+### Explanation
+In projectile motion (assuming negligible air resistance), we treat the horizontal and vertical components of motion independently:
+
+1.  **Horizontal Acceleration ($a_x$):** Since there are no horizontal forces acting on the projectile once it has been launched (we ignore air resistance), the horizontal velocity remains constant throughout the flight. According to Newton's First Law, constant velocity implies zero acceleration. Therefore, $a_x = 0$.
+2.  **Vertical Acceleration ($a_y$):** The only force acting on the projectile during its flight is gravity, which acts downwards. By definition, the acceleration due to gravity near the Earth's surface is $g \approx 9.8\text{ m s}^{-2}$ downwards. This acceleration is constant at every point of the trajectory, including the peak ($Y$), even though the vertical velocity at that specific point is momentarily zero.
+
+**Why point $Y$ is a common distractor:**
+Students often confuse "velocity" with "acceleration." While it is true that the **vertical velocity** ($v_y$) is zero at the maximum height ($Y$), the **vertical acceleration** remains constant at $9.8\text{ m s}^{-2}$. If the acceleration were zero at point $Y$, the object would stop changing its velocity and simply float in a straight line, which contradicts the curved path of a projectile.
+
+Therefore, at point $Y$:
+*   Horizontal acceleration = $0$
+*   Vertical acceleration = $9.8\text{ m s}^{-2}$
+
+###QUESTION_TYPE
+Multiple choice

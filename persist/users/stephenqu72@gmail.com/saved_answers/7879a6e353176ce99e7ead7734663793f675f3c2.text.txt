@@ -1,0 +1,32 @@
+To solve this problem, we apply the principle of **Conservation of Energy**. The work done by the electric field on the electron is equal to the kinetic energy gained by the electron.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship:**
+    The electrical potential energy lost by an electron moving through a potential difference $V$ is converted into kinetic energy ($E_k$).
+    $$qV = \frac{1}{2}mv^2$$
+    Where:
+    *   $q$ is the charge of an electron ($1.602 \times 10^{-19}\text{ C}$)
+    *   $V$ is the potential difference in Volts (V)
+    *   $m$ is the mass of an electron ($9.109 \times 10^{-31}\text{ kg}$)
+    *   $v$ is the final velocity ($1.28 \times 10^7\text{ m s}^{-1}$)
+
+2.  **Rearrange the formula to solve for $V$:**
+    $$V = \frac{mv^2}{2q}$$
+
+3.  **Substitute the known constants and values:**
+    $$V = \frac{(9.109 \times 10^{-31}\text{ kg}) \times (1.28 \times 10^7\text{ m s}^{-1})^2}{2 \times (1.602 \times 10^{-19}\text{ C})}$$
+
+4.  **Calculate the result:**
+    *   Square the velocity: $(1.28 \times 10^7)^2 = 1.6384 \times 10^{14}$
+    *   Multiply by mass: $(9.109 \times 10^{-31}) \times (1.6384 \times 10^{14}) \approx 1.4924 \times 10^{-16}$
+    *   Divide by $2q$: $2 \times 1.602 \times 10^{-19} = 3.204 \times 10^{-19}$
+    *   $V = \frac{1.4924 \times 10^{-16}}{3.204 \times 10^{-19}} \approx 465.8\text{ V}$
+
+Rounding to three significant figures (matching the input $1.28$), the potential difference is **$466\text{ V}$**.
+
+### Answer:
+The potential difference of the plates is approximately **$466\text{ V}$**.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,23 @@
+To determine which condition exerts no force on the conducting wire, we use the formula for the magnetic force on a current-carrying conductor:
+
+$$F = IlB \sin(\theta)$$
+
+Where:
+*   $F$ is the magnitude of the force.
+*   $I$ is the current.
+*   $l$ is the length of the wire.
+*   $B$ is the magnetic field strength.
+*   $\theta$ is the angle between the direction of the current $I$ and the magnetic field $B$.
+
+The force $F$ is equal to zero when $\sin(\theta) = 0$, which occurs when the angle $\theta$ is $0^\circ$ or $180^\circ$. This means the **current must be parallel or anti-parallel to the magnetic field lines.**
+
+### Analysis of the options:
+*   **(A)** The current is at an angle to the horizontal magnetic field lines. $\sin(\theta) \neq 0$, so there is a force.
+*   **(B)** The magnetic field $B$ is directed to the right (horizontal). The current $I$ is directed "out of the page" (perpendicular to the field). Since $\theta = 90^\circ$, $\sin(90^\circ) = 1$, which results in a **maximum** force.
+*   **(C)** The magnetic field $B$ points into the page. The current $I$ is at an angle to the plane of the page. $\sin(\theta) \neq 0$, so there is a force.
+*   **(D)** The magnetic field $B$ points into the page. The current $I$ is directed "out of the page". These two vectors are anti-parallel (an angle of $180^\circ$ between them). Since $\sin(180^\circ) = 0$, the force $F = 0$.
+
+Therefore, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

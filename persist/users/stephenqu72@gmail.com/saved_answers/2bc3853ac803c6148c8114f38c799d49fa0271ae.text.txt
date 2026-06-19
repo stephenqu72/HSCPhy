@@ -1,0 +1,40 @@
+### Teacher's Guide: Solving Question 23
+
+This question combines the study of **Electrodynamics** and **Motion of Charged Particles** in fields.
+
+---
+
+### Part (a): Deriving the speed
+When an electron is accelerated through a potential difference $\Delta V$, electrical potential energy is converted into kinetic energy.
+Conservation of energy: $q\Delta V = \frac{1}{2}mv^2$
+Solving for $v$:
+$$v^2 = \frac{2q\Delta V}{m} \implies v = \sqrt{\frac{2q\Delta V}{m}}$$
+
+### Part (b): Path of the electron
+The electrons enter a magnetic field directed into the page. Using the **right-hand palm rule** (or Fleming’s Left Hand Rule for electrons, accounting for the negative charge), the force is directed upwards. Since the force is always perpendicular to the velocity, the electrons will undergo **uniform circular motion**.
+
+### Part (c): Determining the variables
+The magnetic force acts as a centripetal force: $qvB = \frac{mv^2}{r} \implies \frac{q}{m} = \frac{v}{Br}$.
+Substituting $v = \sqrt{\frac{2q\Delta V}{m}}$:
+$$\frac{q}{m} = \frac{\sqrt{2q\Delta V/m}}{Br} \implies \frac{q}{m} = \frac{2\Delta V}{B^2 r^2}$$
+Rearranging for $\Delta V$:
+$$\Delta V = \left( \frac{q}{2m} r^2 \right) B^2$$
+To obtain a straight line $y = mx$, we should plot **$\Delta V$ on the y-axis** and **$B^2$ on the x-axis**. The slope will be $\frac{qr^2}{2m}$. (Note: $r$ is constant).
+
+### Part (d): Plotting
+To plot this, you must first calculate $B^2$ for each row in the table (ensure $B$ is in Tesla, so $1 \text{ mT} = 10^{-3} \text{ T}$):
+*   $2.62 \text{ mT} \rightarrow B^2 \approx 6.86 \times 10^{-6} \text{ T}^2$
+*   ...and so on for all values.
+*   Plot your points and draw a line of best fit starting from the origin $(0,0)$.
+
+### Part (e): Calculating the ratio
+1. Calculate the gradient (slope) of your line of best fit: $k = \frac{\text{rise}}{\text{run}} = \frac{\Delta \Delta V}{\Delta B^2}$.
+2. From the derivation in part (c), the slope $k = \frac{qr^2}{2m}$.
+3. Therefore, the charge-to-mass ratio is:
+$$\frac{q}{m} = \frac{2k}{r^2}$$
+*(Note: You would need the radius $r$ of the circular path from the experimental setup, which is typically provided in the diagram or accompanying text).*
+
+---
+
+###QUESTION_TYPE
+Data analysis questions

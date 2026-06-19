@@ -1,0 +1,27 @@
+To find the angular velocity of the racing car, we use the relationship between linear velocity ($v$), angular velocity ($\omega$), and the radius ($r$) of the circular path:
+
+$$v = r\omega$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Linear velocity ($v$) = $110\text{ km h}^{-1}$
+    *   Radius ($r$) = $200.0\text{ m}$
+
+2.  **Convert units:**
+    The options provide the angular velocity in units of $\text{rad h}^{-1}$. Since the linear velocity is in $\text{km h}^{-1}$ and the radius is in meters, we must convert the radius from meters to kilometers to ensure the units are consistent.
+    *   $r = 200.0\text{ m} = 0.2000\text{ km}$
+
+3.  **Rearrange the formula to solve for $\omega$:**
+    $$\omega = \frac{v}{r}$$
+
+4.  **Perform the calculation:**
+    $$\omega = \frac{110\text{ km h}^{-1}}{0.2000\text{ km}}$$
+    $$\omega = 550\text{ rad h}^{-1}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

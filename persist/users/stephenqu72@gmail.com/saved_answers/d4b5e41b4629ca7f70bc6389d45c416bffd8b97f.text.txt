@@ -1,0 +1,31 @@
+To solve this problem, we need to combine the photoelectric effect equation with the physics of charged particles in a magnetic field.
+
+### Step 1: Find the kinetic energy of the photoelectrons
+According to Einstein's photoelectric equation, the maximum kinetic energy $K_{max}$ of a photoelectron is given by:
+$$K_{max} = E_{photon} - \phi$$
+For the initial state, $E_{photon} = 2\phi$:
+$$K_{max,1} = 2\phi - \phi = \phi$$
+
+### Step 2: Relate kinetic energy to the radius of the path
+When a charged particle moves in a uniform magnetic field $B$, the magnetic force provides the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Solving for the radius $r$:
+$$r = \frac{mv}{qB} = \frac{p}{qB}$$
+Since kinetic energy $K = \frac{p^2}{2m}$, we have $p = \sqrt{2mK}$. Substituting this into the radius formula:
+$$r = \frac{\sqrt{2mK}}{qB}$$
+This shows that $r \propto \sqrt{K}$.
+
+### Step 3: Analyze the change when photon energy is doubled
+If the photon energy is doubled, the new energy is $E_{photon, 2} = 2 \times (2\phi) = 4\phi$.
+The new maximum kinetic energy $K_{max, 2}$ is:
+$$K_{max, 2} = 4\phi - \phi = 3\phi$$
+
+Since $r \propto \sqrt{K}$, we can set up a ratio:
+$$\frac{r_2}{r_1} = \sqrt{\frac{K_{max, 2}}{K_{max, 1}}}$$
+$$\frac{r_2}{r} = \sqrt{\frac{3\phi}{\phi}} = \sqrt{3}$$
+$$r_2 = \sqrt{3}r$$
+
+Comparing this to the given options, the correct answer is **D**.
+
+###QUESTION_TYPE
+Multiple choice

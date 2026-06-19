@@ -1,0 +1,28 @@
+### Answer and Explanation
+
+#### Question 3
+**Answer: C**
+
+**Explanation:**
+When a charged particle moves through a uniform magnetic field, the magnetic force acts perpendicular to the velocity of the particle at all times. This force acts as a centripetal force, causing the particle to move in a circular path. Because the force is always perpendicular to the direction of motion, it does no work on the particle ($W = Fs \cos \theta$, where $\theta = 90^\circ$). According to the work-energy theorem, if no work is done, the kinetic energy of the particle remains constant. Since mass is constant, the speed must also remain constant. Therefore, the speed at the exit is the same as the initial speed: $1.4 \times 10^6 \text{ m s}^{-1}$.
+
+***
+
+#### Question 4
+**Answer: B**
+
+**Explanation:**
+To find the relationship between the radius ($r$) and the velocity ($v$), we equate the magnetic force to the centripetal force:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging the formula to solve for $r$:
+$$r = \frac{mv}{qB}$$
+From this equation, we can see that the radius $r$ is directly proportional to the velocity $v$ ($r \propto v$), assuming mass ($m$), charge ($q$), and magnetic field strength ($B$) remain constant.
+
+We are told the initial speed is $v_1 = 1.4 \times 10^6 \text{ m s}^{-1}$ and the new speed is $v_2 = 7.0 \times 10^5 \text{ m s}^{-1}$.
+Calculating the ratio of the speeds:
+$$\frac{v_2}{v_1} = \frac{7.0 \times 10^5}{1.4 \times 10^6} = \frac{0.7 \times 10^6}{1.4 \times 10^6} = 0.5 = \frac{1}{2}$$
+Since $r$ is directly proportional to $v$, the new radius $r_2$ will be:
+$$r_2 = \frac{1}{2}r$$
+
+###QUESTION_TYPE
+Multiple choice

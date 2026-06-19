@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principles of electrostatics and kinematics in a uniform electric field.
+
+### Explanation
+
+1.  **Direction of Force:** The electric field lines are pointing upwards. 
+    *   A positive charge ($+q$) experiences a force in the direction of the electric field (upwards).
+    *   A negative charge ($-q$) experiences a force opposite to the direction of the electric field (downwards).
+    *   Looking at the diagram, particle $Y$ curves upwards (positive), particle $X$ curves upwards more sharply (more positive), and particle $Z$ curves downwards (negative).
+
+2.  **Magnitude of Force:** The force on a charged particle in an electric field is given by $F = qE$. Since the masses ($m$) and initial velocities ($v$) are identical, the vertical displacement ($y$) is proportional to the acceleration ($a$). From Newton's Second Law:
+    $$F = ma \implies qE = ma \implies a = \frac{qE}{m}$$
+    Using the kinematic equation $y = v_0t + \frac{1}{2}at^2$, and since $v_0$ and time $t$ (to cross the field) are constant, the vertical deflection $y$ is directly proportional to the charge $q$.
+
+3.  **Analysis of the Deflections:**
+    *   **Particle $Y$:** Deflects upwards, so it is positive ($+q$).
+    *   **Particle $X$:** Deflects upwards even more than $Y$, meaning it experiences a greater upward force. Therefore, its charge must be larger than $Y$ (e.g., $+2q$).
+    *   **Particle $Z$:** Deflects downwards, so it must be negative. 
+
+Comparing this to the options provided:
+*   In option **C**, $X$ is $+q$, $Y$ is $+2q$, and $Z$ is $-2q$.
+*   In option **D**, $X$ is $+2q$, $Y$ is $+q$, and $Z$ is $-q$.
+
+Looking closely at the diagram, $X$ has a steeper curve than $Y$. If $X$ is $+2q$ and $Y$ is $+q$, the deflection of $X$ will be greater than $Y$. Therefore, $X = +2q$, $Y = +q$, and $Z = -q$ is the correct relationship.
+
+**Correct Answer:** **D**
+
+###QUESTION_TYPE
+Multiple choice

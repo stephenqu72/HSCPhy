@@ -1,0 +1,31 @@
+To show that the maximum range of a projectile on level ground occurs at $45^\circ$ regardless of $g$, we must derive the range formula and find its maximum.
+
+### Step-by-Step Explanation
+
+**1. Derive the Range Formula:**
+Let a projectile be launched with initial velocity $v$ at an angle $\theta$. We split the motion into horizontal and vertical components:
+- Horizontal velocity: $v_x = v \cos \theta$
+- Vertical velocity: $v_y = v \sin \theta$
+
+The time of flight $t$ for a projectile returning to the same level is found by setting the vertical displacement to zero:
+$$y = v \sin \theta \cdot t - \frac{1}{2}gt^2 = 0$$
+Solving for $t$ (ignoring $t=0$):
+$$t = \frac{2v \sin \theta}{g}$$
+
+The horizontal range $R$ is $v_x \cdot t$:
+$$R = (v \cos \theta) \cdot \left(\frac{2v \sin \theta}{g}\right) = \frac{v^2 (2 \sin \theta \cos \theta)}{g}$$
+
+Using the trigonometric identity $\sin(2\theta) = 2 \sin \theta \cos \theta$, we get:
+$$R = \frac{v^2 \sin(2\theta)}{g}$$
+
+**2. Find the Maximum:**
+To maximize $R$, we need to maximize the term $\sin(2\theta)$. The maximum value of the sine function is $1$, which occurs when the argument is $90^\circ$:
+$$\sin(2\theta) = 1$$
+$$2\theta = 90^\circ$$
+$$\theta = 45^\circ$$
+
+**Conclusion:**
+Because $g$ is a constant in the denominator, the value of $g$ scales the entire range but does not affect the angle at which the sine function reaches its maximum. Thus, for any value of $g$, the range is maximized when $\sin(2\theta) = 1$, which is always at $\theta = 45^\circ$.
+
+###QUESTION_TYPE
+Calculation question

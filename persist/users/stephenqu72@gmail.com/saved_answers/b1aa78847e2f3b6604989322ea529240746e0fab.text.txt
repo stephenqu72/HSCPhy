@@ -1,0 +1,33 @@
+To solve this physics problem based on the principles of Millikan’s Oil Drop Experiment, we need to analyze the relationship between the charge on the oil drops and the forces acting upon them.
+
+### Analysis of the Physics
+The problem states that the oil drops are stationary because the upward electrostatic force balances the downward weight force. The governing equation is:
+$$qE = mg$$
+
+Where:
+*   $q$ is the charge on the oil drop.
+*   $E$ is the uniform electric field strength.
+*   $m$ is the mass of the oil drop.
+*   $g$ is the acceleration due to gravity.
+
+The key insight from the Millikan experiment is that charge is **quantized**. The charge $q$ on any object must be an integer multiple of the elementary charge $e$ (the charge of a single electron). Therefore, we can write $q = n \cdot e$, where $n$ is an integer ($1, 2, 3, \dots$).
+
+Substituting this into the force balance equation:
+$$n \cdot e \cdot E = mg$$
+$$n = \frac{mg}{eE}$$
+
+### How to solve this
+1.  **Identify the variables:** For each of the 30 drops, you have a mass ($m_i$) and a charge ($q_i$).
+2.  **Calculate charges:** Rearrange the balance equation to solve for charge: $q_i = \frac{m_i g}{E}$. 
+3.  **Recognize Quantization:** Since $E$ and $g$ are constant for all drops in the setup, $q_i$ is directly proportional to $m_i$. If you were provided with a table of mass values for these 30 drops, you would calculate the charge for each.
+4.  **Find the Greatest Common Divisor (GCD):** To find the elementary charge $e$ (or a common multiple), you look for the highest value that divides all the calculated charge values ($q_1, q_2, \dots, q_{30}$) without a remainder. The elementary charge is the smallest discrete unit of charge found in the system. 
+5.  **Conclusion:** The experiment demonstrates that for every drop, the charge $q$ is always an integer multiple of the elementary charge $e$. By finding the values of $q$ for different masses, one can determine that $q_i = n_i e$, proving that electric charge is quantized.
+
+### Answer
+In an experiment like this, the goal is to show that the charge $q$ on each drop is a multiple of the elementary charge $e \approx 1.6 \times 10^{-19} \text{ C}$. To solve, one would:
+1. Determine the charge of each of the 30 drops using $q = \frac{mg}{E}$.
+2. Observe that all calculated charges are integer multiples of a common base value.
+3. Conclude that this common base value represents the fundamental unit of charge, thereby verifying that charge is quantized.
+
+###QUESTION_TYPE
+Calculation question

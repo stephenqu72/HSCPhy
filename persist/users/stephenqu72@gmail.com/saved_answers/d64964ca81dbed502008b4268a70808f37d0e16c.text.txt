@@ -1,0 +1,26 @@
+To solve this problem, we must analyze the vertical component of the projectile's motion. 
+
+### Step-by-Step Explanation
+
+1.  **Understand the Motion:** When an object is thrown horizontally, its horizontal and vertical motions are independent. The time it takes to hit the ground depends solely on its vertical displacement ($h = 10\text{ m}$) and the acceleration due to gravity ($g \approx 9.8\text{ m/s}^2$). The horizontal velocity ($8\text{ m/s}$) does not affect the time of flight.
+2.  **Identify the Variables:**
+    *   Initial vertical velocity ($u_y$): $0\text{ m/s}$ (because it is thrown horizontally).
+    *   Vertical displacement ($s_y$): $10\text{ m}$.
+    *   Acceleration ($a$): $g = 9.8\text{ m/s}^2$.
+    *   Time ($t$): ?
+3.  **Select the Equation:** Use the kinematic equation for vertical displacement:
+    $$s_y = u_y t + \frac{1}{2} a t^2$$
+4.  **Substitute and Solve:**
+    Since $u_y = 0$:
+    $$10 = 0(t) + \frac{1}{2}(9.8)t^2$$
+    $$10 = 4.9t^2$$
+    $$t^2 = \frac{10}{4.9}$$
+    $$t^2 \approx 2.0408$$
+    $$t = \sqrt{2.0408} \approx 1.428\text{ s}$$
+
+Comparing this result to the given options, $1.4\text{ s}$ is the correct value.
+
+**Answer:** (A) $1.4\text{ s}$
+
+###QUESTION_TYPE
+Multiple choice

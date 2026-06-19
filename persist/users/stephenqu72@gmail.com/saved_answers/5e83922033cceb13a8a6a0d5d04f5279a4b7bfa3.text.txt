@@ -1,0 +1,27 @@
+### Answer
+The correct answer is **B**.
+
+### Explanation
+To solve this problem, we need to apply the principles of electrostatics and the work-energy theorem.
+
+**1. Determining the direction of motion:**
+The particle has a positive charge ($q$). It is placed between two plates where the top plate is positive and the bottom plate is negative. According to the law of electrostatics, like charges repel and opposite charges attract. Therefore, the positive particle will be repelled by the positive top plate and attracted to the negative bottom plate. The particle will move toward the **bottom plate**.
+
+**2. Calculating the Kinetic Energy ($E_k$):**
+The work done by an electric field on a charge $q$ moving through a potential difference $\Delta V$ is given by the formula:
+$$W = q \Delta V$$
+When a particle starts from rest, this work is converted entirely into kinetic energy ($E_k$).
+
+In this scenario, the total potential difference between the plates is $V$. However, the particle is starting exactly at the **midway** point. 
+- The distance between the plates is $d$.
+- The distance from the center to the bottom plate is $\frac{d}{2}$.
+- Since the electric field $E$ between parallel plates is uniform ($E = \frac{V}{d}$), the potential difference ($\Delta V$) experienced by the particle as it moves through half the distance is:
+$$\Delta V = E \times \text{distance} = \left(\frac{V}{d}\right) \times \left(\frac{d}{2}\right) = \frac{V}{2}$$
+
+Substituting this into the work-energy formula:
+$$E_k = q \Delta V = q \times \frac{V}{2} = \frac{qV}{2}$$
+
+Thus, the particle moves toward the bottom plate and gains a kinetic energy of $\frac{qV}{2}$.
+
+### QUESTION_TYPE
+Multiple choice

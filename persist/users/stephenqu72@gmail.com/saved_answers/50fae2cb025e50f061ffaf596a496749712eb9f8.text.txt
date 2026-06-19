@@ -1,0 +1,35 @@
+To calculate the escape velocity of a planet, we use the principle of conservation of energy. The escape velocity is the minimum speed an object must reach to escape a planet's gravitational field, meaning its kinetic energy must be equal to the magnitude of its gravitational potential energy.
+
+### 1. Identify the Formula
+The formula for escape velocity ($v_e$) is derived from equating kinetic energy ($\frac{1}{2}mv^2$) to gravitational potential energy ($\frac{G M m}{r}$):
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+Where:
+*   $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$ (Universal gravitational constant)
+*   $M = 6.42 \times 10^{23} \, \text{kg}$ (Mass of Mars)
+*   $r = 3.40 \times 10^{6} \, \text{m}$ (Radius of Mars)
+
+### 2. Calculation
+Substitute the values into the equation:
+$$v_e = \sqrt{\frac{2 \times (6.67 \times 10^{-11}) \times (6.42 \times 10^{23})}{3.40 \times 10^{6}}}$$
+
+First, calculate the numerator:
+$$2 \times 6.67 \times 10^{-11} \times 6.42 \times 10^{23} \approx 8.567 \times 10^{13}$$
+
+Divide by the radius:
+$$\frac{8.567 \times 10^{13}}{3.40 \times 10^{6}} \approx 2.5198 \times 10^{7}$$
+
+Take the square root:
+$$v_e = \sqrt{2.5198 \times 10^{7}} \approx 5019.7 \, \text{m/s}$$
+
+Rounding to three significant figures (matching the data provided in the question):
+$$v_e \approx 5.02 \times 10^{3} \, \text{m/s} \, (\text{or } 5.02 \, \text{km/s})$$
+
+### How to solve it:
+1.  **State the formula:** Always begin by identifying the physics principle.
+2.  **Identify constants:** Ensure you have the value for the Universal Gravitational Constant ($G$).
+3.  **Substitution:** Carefully substitute the given mass and radius into the formula. Pay close attention to powers of 10.
+4.  **Significant Figures:** Ensure your final answer matches the precision of the input data (the question uses 3 significant figures, so the answer should also reflect this).
+
+###QUESTION_TYPE
+Calculation question

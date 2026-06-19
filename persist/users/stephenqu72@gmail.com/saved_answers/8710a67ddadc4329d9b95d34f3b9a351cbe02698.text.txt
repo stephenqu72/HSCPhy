@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principles of projectile motion in a vacuum (neglecting air resistance).
+
+### Analysis
+
+1.  **Velocity:**
+    *   The velocity vector is always **tangent** to the path of the projectile at any given point.
+    *   At point **X** (on the way up), the velocity is directed diagonally upwards and to the right ($\nearrow$).
+    *   At point **Y** (the peak), the vertical component of velocity is zero, so the velocity is purely horizontal, directed to the right ($\rightarrow$).
+    *   At point **Z** (on the way down), the velocity is directed diagonally downwards and to the right ($\searrow$).
+
+2.  **Acceleration:**
+    *   In projectile motion (ignoring air resistance), the **only** force acting on the object is gravity, which acts vertically downwards.
+    *   According to Newton's Second Law ($F = ma$), the acceleration is always in the direction of the net force.
+    *   Therefore, the acceleration is constant, pointing **vertically downwards** ($\downarrow$) at all points along the trajectory (including at the peak, point Y).
+
+### Conclusion
+Comparing our analysis to the provided options:
+*   **Velocity:** X ($\nearrow$), Y ($\rightarrow$), Z ($\searrow$).
+*   **Acceleration:** X ($\downarrow$), Y ($\downarrow$), Z ($\downarrow$).
+
+This matches **Option (C)**.
+
+### Explanation Summary
+*   Velocity is tangent to the path, so its direction changes throughout the flight.
+*   Acceleration is constant and always directed towards the center of the Earth (downwards) because gravity is the only force acting on the projectile. A common misconception is that acceleration is zero at the peak; however, if acceleration were zero at the peak, the object would continue to move in a straight horizontal line forever and never return to the ground.
+
+###QUESTION_TYPE
+Multiple choice

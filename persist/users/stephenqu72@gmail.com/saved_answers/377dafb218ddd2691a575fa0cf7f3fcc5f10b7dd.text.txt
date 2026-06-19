@@ -1,0 +1,28 @@
+To answer this question effectively, you need to break down the interaction into two distinct physics principles: the creation of a magnetic field by a current, and the force exerted by that field on a second current.
+
+### Answer
+The force per unit length $F/L$ between two parallel wires carrying currents $I_1$ and $I_2$ is proportional to the product $I_1 \cdot I_2$ because the interaction occurs in two stages:
+1.  **Magnetic Field Production:** The first wire carries current $I_1$, which generates a magnetic field $B_1$ in the space surrounding it. According to Ampère's Law (or the Biot-Savart Law), the strength of this magnetic field is directly proportional to the current producing it: $B_1 \propto I_1$.
+2.  **Magnetic Force Exertion:** The second wire, carrying current $I_2$, is situated within this magnetic field $B_1$. According to the motor effect formula, the force $F$ exerted on a length $L$ of this wire is $F = B_1 I_2 L \sin(\theta)$. Since the force $F$ is directly proportional to the magnetic field it is placed in ($F \propto B_1$) and the current flowing through it ($F \propto I_2$), we substitute the first relationship into the second.
+
+Consequently, since $B_1 \propto I_1$, it follows that $F \propto I_1 \cdot I_2$.
+
+---
+
+### How to solve this
+When approaching a 4-mark "Explain" question in HSC Physics, follow these steps:
+
+1.  **Identify the underlying relationship:** Recognize the formula for the force between two parallel wires:
+    $$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+2.  **Deconstruct the physics:** Don't just quote the formula. You must explain the *mechanism*. This is a "two-step" interaction:
+    *   Step A: $I_1$ creates a field $B$. State clearly that $B \propto I_1$.
+    *   Step B: $I_2$ experiences a force in that field. State clearly that $F \propto B \times I_2$.
+3.  **Synthesize:** Combine these two statements to show why the proportionality leads to the product of the two currents.
+4.  **Check the marks:** 
+    *   1 mark for identifying that $I_1$ creates a magnetic field proportional to $I_1$.
+    *   1 mark for identifying the motor effect force on the second wire ($F = BIL$).
+    *   1 mark for linking the two concepts ($F \propto B$ and $B \propto I_1$).
+    *   1 mark for the final logical conclusion that $F \propto I_1 I_2$.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,29 @@
+To solve this problem, we must analyze how the kinetic energy ($E_k$) of a projectile changes over time.
+
+### Analysis
+1. **The formula for kinetic energy:** Kinetic energy is defined as $E_k = \frac{1}{2}mv^2$. The velocity $v$ of the projectile can be broken into horizontal ($v_x$) and vertical ($v_y$) components.
+   - The horizontal velocity $v_x$ remains constant throughout the flight because there is no acceleration in the horizontal direction (ignoring air resistance).
+   - The vertical velocity $v_y$ changes linearly over time due to gravity: $v_y(t) = v_{y0} - gt$.
+
+2. **Calculating total $E_k$:**
+   Since the velocity vector is $\vec{v} = v_x\hat{i} + v_y\hat{j}$, the magnitude of the velocity squared is $v^2 = v_x^2 + v_y^2$. 
+   Substituting this into the energy equation:
+   $$E_k(t) = \frac{1}{2}m(v_x^2 + (v_{y0} - gt)^2)$$
+   
+3. **Interpreting the equation:**
+   - Expanding the term $(v_{y0} - gt)^2$ results in a quadratic expression in terms of $t$: $E_k(t) = \frac{1}{2}m(v_x^2 + v_{y0}^2 - 2v_{y0}gt + g^2t^2)$.
+   - Because the coefficient of $t^2$ is positive ($\frac{1}{2}mg^2 > 0$), the graph must be a **parabola that opens upward**.
+   - At the start ($t=0$), the ball has a high kinetic energy.
+   - At the peak of the trajectory, the vertical velocity $v_y$ is zero. Therefore, $E_k$ is at its **minimum** value (but it is not zero, because $v_x$ is still non-zero).
+   - As the ball descends, the vertical velocity magnitude increases again, causing the total kinetic energy to increase back to its initial value at the point of impact.
+
+4. **Conclusion:**
+   - Graph (A) shows an inverted parabola (maximum at the peak), which is incorrect.
+   - Graph (B) shows a parabola opening upward with a non-zero minimum, which matches our derivation.
+   - Graph (C) shows a "V" shape where $E_k$ hits zero, which would only occur if the horizontal velocity were zero (vertical toss).
+   - Graph (D) is a linear representation, which is incorrect.
+
+**Correct Answer: (B)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,23 @@
+To determine the signs of the charges for particles $X$ and $Y$, we use the Right-Hand Grip Rule and the Right-Hand Rule for the magnetic force on a moving charge.
+
+### Step-by-Step Explanation:
+
+1.  **Determine the direction of the magnetic field:** Using the Right-Hand Grip Rule, point your right thumb in the direction of the current $I$ (to the left). Your fingers will curl into the page above the wire and out of the page below the wire.
+    *   Above the wire: Magnetic field ($B$) points **into** the page ($\times$).
+    *   Below the wire: Magnetic field ($B$) points **out of** the page ($\cdot$).
+
+2.  **Analyze particle $X$:**
+    *   Particle $X$ is moving toward the wire from the top. Based on its trajectory, it is deflected away from the wire (upwards).
+    *   To get an upward force ($F$) with a magnetic field pointing into the page, we use the Right-Hand Rule (for positive charges): Point fingers into the page, point the thumb in the direction of the velocity (downwards). The palm faces to the left. If the particle were positive, it would deflect left. However, the diagram shows it deflecting away from the wire.
+    *   Let's re-evaluate: The particle is moving right-to-left. By the right-hand rule, if the particle is positive, the force is towards the wire. Since it is deflected *away* from the wire, the force is in the opposite direction to the right-hand rule prediction. Therefore, **particle $X$ must be negative**.
+
+3.  **Analyze particle $Y$:**
+    *   Particle $Y$ is moving toward the wire from the bottom, where the magnetic field points out of the page.
+    *   If particle $Y$ were positive, using the Right-Hand Rule: fingers out of the page, thumb in the direction of velocity (right-to-left), the force would point toward the wire. Since the particle is deflected *away* from the wire, the force is again in the opposite direction to the right-hand rule prediction. Therefore, **particle $Y$ must be negative**.
+
+4.  **Conclusion:** Both particles are being deflected away from the wire. For a current moving to the left, the magnetic force on a charge approaching the wire acts to repel it if the charge is negative (or opposite to the expected Lorentz force direction). Both particles experience a repulsive deflection, indicating both carry a negative charge.
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

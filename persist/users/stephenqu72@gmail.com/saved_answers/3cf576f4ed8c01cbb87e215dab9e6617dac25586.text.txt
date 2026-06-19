@@ -1,0 +1,30 @@
+To find the net force per unit length acting on wire $X$, we must consider the magnetic forces exerted on it by wire $Y$ and wire $Z$ individually.
+
+### Physics Principles
+1. **Force between parallel wires:** The magnitude of the force per unit length $f$ between two parallel wires carrying currents $I_1$ and $I_2$ separated by a distance $r$ is given by:
+   $$f = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+   Where $\mu_0 = 4\pi \times 10^{-7} \text{ T m A}^{-1}$.
+2. **Direction:** 
+   - Currents in the **same** direction attract.
+   - Currents in the **opposite** direction repel.
+
+### Calculation
+
+**1. Force from wire $Y$ on wire $X$ ($f_{YX}$):**
+- Currents are in opposite directions (repel). Wire $X$ will be pushed **up** (away from $Y$).
+- $I_X = 1.0 \text{ A}$, $I_Y = 2.0 \text{ A}$, $r = 5 \times 10^{-3} \text{ m}$.
+$$f_{YX} = \frac{(2 \times 10^{-7}) \times 1.0 \times 2.0}{5 \times 10^{-3}} = \frac{4 \times 10^{-7}}{5 \times 10^{-3}} = 0.8 \times 10^{-4} = 8 \times 10^{-5} \text{ N m}^{-1} \text{ (up)}$$
+
+**2. Force from wire $Z$ on wire $X$ ($f_{ZX}$):**
+- Currents are in the same direction (attract). Wire $X$ will be pulled **down** (towards $Z$).
+- $I_X = 1.0 \text{ A}$, $I_Z = 3.0 \text{ A}$, $r = 10 \times 10^{-3} \text{ m}$ (distance from $X$ to $Z$).
+$$f_{ZX} = \frac{(2 \times 10^{-7}) \times 1.0 \times 3.0}{10 \times 10^{-3}} = \frac{6 \times 10^{-7}}{10 \times 10^{-3}} = 0.6 \times 10^{-4} = 6 \times 10^{-5} \text{ N m}^{-1} \text{ (down)}$$
+
+**3. Net Force:**
+Since the forces are in opposite directions:
+$$f_{\text{net}} = f_{YX} - f_{ZX} = 8 \times 10^{-5} \text{ (up)} - 6 \times 10^{-5} \text{ (down)} = 2 \times 10^{-5} \text{ N m}^{-1} \text{ (up)}$$
+
+The correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

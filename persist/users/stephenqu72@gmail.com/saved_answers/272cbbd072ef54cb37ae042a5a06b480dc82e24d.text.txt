@@ -1,0 +1,30 @@
+To determine the correct statement, we must analyze the physics of horizontal projectile motion.
+
+### Analysis
+
+1.  **Initial Velocities ($u$):**
+    *   The problem states both are launched **horizontally**. This means the initial vertical velocity component for both is zero: $u_{Ay} = u_{By} = 0$.
+    *   Projectile B has twice the initial velocity of A: $u_{Bx} = 2u_{Ax}$, which can be rearranged as $u_{Ax} = \frac{1}{2}u_{Bx}$.
+
+2.  **Time of Flight ($t$):**
+    *   The time of flight for a projectile launched horizontally depends only on the vertical height ($h$) and gravity ($g$). Using the kinematic equation $h = \frac{1}{2}gt^2$, we get $t = \sqrt{\frac{2h}{g}}$.
+    *   Since both are launched from the same height and subjected to the same gravity, $t_A = t_B$.
+
+3.  **Range ($R$):**
+    *   The horizontal range is calculated as $R = u_x \times t$.
+    *   For A: $R_A = u_{Ax} \times t_A$
+    *   For B: $R_B = u_{Bx} \times t_B = (2u_{Ax}) \times t_A$
+    *   Substituting $R_A$ into the equation for $R_B$: $R_B = 2(u_{Ax} \times t_A) = 2R_A$.
+    *   Therefore, $R_A = \frac{1}{2}R_B$.
+
+### Conclusion
+Comparing these findings to the options provided:
+*   $u_{Ax} = \frac{1}{2}u_{Bx}$
+*   $u_{Ay} = u_{By} = 0$
+*   $t_A = t_B$
+*   $R_A = \frac{1}{2}R_B$
+
+These match option **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

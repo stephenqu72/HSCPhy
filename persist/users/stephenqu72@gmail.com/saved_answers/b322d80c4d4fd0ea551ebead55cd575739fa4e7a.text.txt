@@ -1,0 +1,19 @@
+To solve this problem, we must understand the fundamental principles used in the HSC Physics curriculum to analyze projectile motion.
+
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To analyze projectile motion mathematically, we simplify the real-world scenario by making specific theoretical assumptions. Let's look at the options:
+
+*   **(B) A constant acceleration due to gravity:** This is a **required assumption**. We assume the projectile is near the Earth's surface where $g \approx 9.8 \, \text{m/s}^2$ acts only in the vertical direction.
+*   **(C) Zero air resistance:** This is a **required assumption**. In basic projectile kinematics, we ignore air friction (drag), which would otherwise dissipate energy and change the trajectory of the projectile.
+*   **(D) Projectiles are point masses:** This is a **required assumption**. By treating the object as a point mass, we ignore its rotation and size, allowing us to focus purely on the displacement of its center of mass.
+*   **(A) Horizontal and vertical components are dependent on each other:** This is **NOT an assumption**; in fact, it is false. The core principle of projectile motion is the **independence of perpendicular components**. The horizontal velocity remains constant (since there is no horizontal acceleration), and the vertical motion is governed solely by gravity. Because they are independent, we can solve for $x$ and $y$ separately using kinematics equations:
+    *   Horizontal: $v_x = u_x$ (constant velocity)
+    *   Vertical: $v_y = u_y + a_yt$ (constant acceleration)
+
+Since the question asks which statement is **NOT** an assumption, and (A) is a fundamental inaccuracy regarding projectile motion principles, (A) is the correct choice.
+
+### QUESTION_TYPE
+Multiple choice

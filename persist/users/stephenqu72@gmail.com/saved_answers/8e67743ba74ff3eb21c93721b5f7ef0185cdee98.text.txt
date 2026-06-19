@@ -1,0 +1,42 @@
+To solve these questions, we apply the principles of electromagnetism concerning the force on a current-carrying conductor in a magnetic field.
+
+### Question 6: Calculation of Force Magnitude
+
+**Formula:**
+The magnitude of the force ($F$) on a straight wire of length $L$ carrying a current $I$ in a uniform magnetic field $B$ is given by:
+$$F = BIL \sin(\theta)$$
+where $\theta$ is the angle between the wire and the magnetic field lines.
+
+**Given values:**
+*   $I = 10\text{ A}$
+*   $B = 4.0 \times 10^{-4}\text{ T}$
+*   $L = 10\text{ cm} = 0.1\text{ m}$
+*   Since the magnetic field lines go from North to South (horizontally) and the wire is vertical, $\theta = 90^\circ$, so $\sin(90^\circ) = 1$.
+
+**Calculation:**
+$$F = (4.0 \times 10^{-4}\text{ T}) \times (10\text{ A}) \times (0.1\text{ m})$$
+$$F = 4.0 \times 10^{-4} \times 10^0 \times 10^{-1} = 4.0 \times 10^{-4}\text{ N}$$
+
+The correct answer is **B**.
+
+---
+
+### Question 7: Determination of Force Direction
+
+**Method:**
+We use the **Right-Hand Palm Rule** (or Fleming’s Left-Hand Rule for motors):
+1.  **Fingers:** Point your fingers in the direction of the magnetic field ($B$), which is from the North pole to the South pole (in the diagram, from right to left).
+2.  **Thumb:** Point your thumb in the direction of the conventional current ($I$), which is upward.
+3.  **Palm:** The force ($F$) pushes out from your palm.
+
+Applying this:
+*   Magnetic field ($B$) is pointing to the **left**.
+*   Current ($I$) is pointing **up**.
+*   The palm faces **into the page**.
+
+The correct answer is **B**.
+
+---
+
+###QUESTION_TYPE
+Multiple choice

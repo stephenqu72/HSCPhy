@@ -1,0 +1,30 @@
+To solve this problem, we first identify the given values:
+*   Mass $m = 120\text{ g} = 0.12\text{ kg}$
+*   Time $t = 1.9\text{ s}$
+*   Final velocity $v = 22\text{ ms}^{-1}$
+*   Initial velocity $u = 0\text{ ms}^{-1}$
+*   Moon mass $M = 7.35 \times 10^{22}\text{ kg}$
+*   Moon radius $r = 1.74 \times 10^6\text{ m}$
+
+### (a) Resultant force
+The resultant force $F_{net}$ is the sum of the thrust $T$ and the weight $W$. However, in mechanics problems of this type, unless specified otherwise, we calculate the net force using Newton's Second Law: $F_{net} = ma$.
+1. Acceleration $a = \frac{v - u}{t} = \frac{22 - 0}{1.9} \approx 11.58\text{ ms}^{-2}$.
+2. $F_{net} = 0.12\text{ kg} \times 11.58\text{ ms}^{-2} \approx 1.39\text{ N}$.
+
+### (b) Work done
+Work done is equal to the change in kinetic energy ($W = \Delta EK$):
+$EK = \frac{1}{2}mv^2 = 0.5 \times 0.12 \times 22^2 = 0.06 \times 484 = 29.04\text{ J}$.
+
+### (c) Height at 1.9 s
+Using the kinematic equation $s = ut + \frac{1}{2}at^2$:
+$s = 0 + 0.5 \times 11.58 \times (1.9)^2 \approx 0.5 \times 11.58 \times 3.61 \approx 20.90\text{ m}$.
+
+### (d) Escape velocity analysis
+To determine if the rocket escapes, we compare its current velocity to the escape velocity $v_e$ of the Moon.
+1. The escape velocity formula is: $v_e = \sqrt{\frac{2GM}{r}}$
+2. $v_e = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 7.35 \times 10^{22}}{1.74 \times 10^6}}$
+3. $v_e = \sqrt{\frac{9.80 \times 10^{12}}{1.74 \times 10^6}} \approx \sqrt{5.63 \times 10^6} \approx 2373\text{ ms}^{-1}$.
+4. **Conclusion:** Since the rocket's velocity ($22\text{ ms}^{-1}$) is significantly lower than the escape velocity ($\approx 2373\text{ ms}^{-1}$), it will not escape the Moon's gravitational field.
+
+###QUESTION_TYPE
+Calculation question

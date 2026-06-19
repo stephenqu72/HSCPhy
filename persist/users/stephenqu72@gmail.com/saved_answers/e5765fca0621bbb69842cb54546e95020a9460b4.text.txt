@@ -1,0 +1,31 @@
+### Solution and Explanation
+
+**Part (a)**
+To determine the direction of the electric force on the electron, first identify the polarity of the plates. The battery connects the top plate to the positive terminal and the bottom plate to the negative terminal. The electric field $E$ points from positive to negative (downwards). Since the electron is negatively charged, it experiences a force in the opposite direction to the electric field.
+*   **Answer:** The electric field force acts **upwards** (towards the top plate).
+
+**Part (b)**
+The magnitude of the magnetic force $F_B$ on a moving charge is given by the formula:
+$$F_B = qvB\sin(\theta)$$
+Given:
+- Charge of an electron $q = 1.6 \times 10^{-19}\text{ C}$
+- Velocity $v = 3.5 \times 10^6\text{ m/s}$
+- Magnetic field $B = 0.02\text{ T}$
+- Since the velocity is perpendicular to the magnetic field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+Calculation:
+$$F_B = (1.6 \times 10^{-19}) \times (3.5 \times 10^6) \times (0.02)$$
+$$F_B = 1.12 \times 10^{-14}\text{ N}$$
+
+**Part (c)**
+To keep the electron traveling in a straight path, the net force must be zero. This means the magnitude of the electric force $F_E$ must equal the magnitude of the magnetic force $F_B$ calculated in part (b).
+The electric force is given by $F_E = qE$, and for parallel plates, the electric field is $E = \frac{V}{d}$.
+Thus, $F_E = q\frac{V}{d}$. Setting $F_E = F_B$:
+$$q\frac{V}{d} = F_B$$
+$$V = \frac{F_B \times d}{q}$$
+Given $d = 5\text{ mm} = 0.005\text{ m}$:
+$$V = \frac{(1.12 \times 10^{-14}) \times (0.005)}{1.6 \times 10^{-19}}$$
+$$V = \frac{5.6 \times 10^{-17}}{1.6 \times 10^{-19}} = 350\text{ V}$$
+
+### QUESTION_TYPE
+Calculation question

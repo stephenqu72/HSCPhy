@@ -1,0 +1,32 @@
+To determine the gravitational acceleration on planet P-36b, we use the formula for gravitational acceleration at the surface of a spherical body:
+
+$$g = \frac{GM}{r^2}$$
+
+Where $G$ is the gravitational constant, $M$ is the mass of the planet, and $r$ is the radius of the planet.
+
+### Step-by-Step Solution:
+
+1.  **Define the variables for Earth:**
+    Let $g_E = g$, $M_E = M$, and $r_E = r$.
+    So, $g = \frac{GM}{r^2}$.
+
+2.  **Define the variables for planet P-36b:**
+    The problem states the mass is three times that of Earth ($M_P = 3M$) and the radius is half that of Earth ($r_P = 0.5r$).
+
+3.  **Calculate the new gravitational acceleration ($g_P$):**
+    Substitute the new values into the formula:
+    $$g_P = \frac{G(3M)}{(0.5r)^2}$$
+
+4.  **Simplify the expression:**
+    $$g_P = \frac{3GM}{0.25r^2}$$
+    $$g_P = \left(\frac{3}{0.25}\right) \times \left(\frac{GM}{r^2}\right)$$
+    Since $\frac{3}{0.25} = 12$ and $\frac{GM}{r^2} = g$:
+    $$g_P = 12g$$
+
+**Answer:** The correct option is **B**.
+
+### Explanation for students:
+In HSC Physics, proportionality questions are common. When solving these, always write out the original formula and substitute the "factors" given in the question (e.g., "3 times the mass" becomes $3M$). Be particularly careful with the radius: since the radius is squared in the denominator, halving the radius results in $(0.5)^2 = 0.25$ in the denominator, which effectively multiplies the final result by $4$. Combining the mass factor ($3$) and the radius factor ($4$) gives a total factor of $12$.
+
+###QUESTION_TYPE
+Multiple choice

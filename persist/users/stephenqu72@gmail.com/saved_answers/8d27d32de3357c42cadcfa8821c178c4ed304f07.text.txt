@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I am happy to guide you through this electromagnetism problem. This question tests your understanding of the forces between parallel current-carrying conductors.
+
+---
+
+### Part a)
+**Answer:** The force is directed to the **left** (towards wire $W_1$).
+**Explanation:** When two parallel wires carry current in the same direction, they attract each other. According to the right-hand grip rule, wire $W_1$ produces a magnetic field that circles around it; at the position of $W_2$, the field points *into* the page. Applying the right-hand palm rule for a current-carrying wire in an external magnetic field, the force on $W_2$ is directed towards $W_1$.
+
+---
+
+### Part b)
+**Calculation:**
+We use the formula for the force per unit length between two parallel wires:
+$$F = \frac{\mu_0 I_1 I_2 L}{2\pi r}$$
+Given:
+- $F = 6.9 \times 10^{-4}\text{ N}$
+- $L = 2.5\text{ m}$
+- $r = 5\text{ cm} = 0.05\text{ m}$
+- $\mu_0 = 4\pi \times 10^{-7}\text{ T m/A}$
+- $I_1 = I_2 = I$ (identical currents)
+
+Substituting the values:
+$$6.9 \times 10^{-4} = \frac{(4\pi \times 10^{-7}) \times I^2 \times 2.5}{2\pi \times 0.05}$$
+$$6.9 \times 10^{-4} = \frac{2 \times 10^{-7} \times I^2 \times 2.5}{0.05}$$
+$$6.9 \times 10^{-4} = 1 \times 10^{-5} \times I^2$$
+$$I^2 = \frac{6.9 \times 10^{-4}}{1 \times 10^{-5}} = 69$$
+$$I = \sqrt{69} \approx 8.31\text{ A}$$
+
+---
+
+### Part c)
+**Explanation:**
+$W_2$ experiences two attractive forces:
+1. An attractive force to the left due to the current in $W_1$.
+2. An attractive force to the right due to the current in $W_3$.
+
+Since the currents are equal, the magnitude of the force depends on the distance. Because $W_2$ is closer to $W_1$ ($5\text{ cm}$) than to $W_3$ ($8\text{ cm}$), the attractive force from $W_1$ is stronger than the attractive force from $W_3$. Therefore, the **net force on $W_2$ is directed to the left.**
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve this problem, we use the formula for the magnetic force $F$ on a current-carrying conductor:
+
+$$F = BIl \sin(\theta)$$
+
+### 1. Identify the given values:
+*   Magnetic field strength ($B$) = $0.50\text{ T}$
+*   Current ($I$) = $40\text{ mA} = 40 \times 10^{-3}\text{ A} = 0.040\text{ A}$
+*   Length of conductor ($l$) = $12.0\text{ cm} = 0.120\text{ m}$
+*   Angle ($\theta$) = $45^\circ$
+
+### 2. Substitute into the formula:
+$$F = (0.50) \times (0.040) \times (0.120) \times \sin(45^\circ)$$
+
+Calculating the components:
+*   $B \times I \times l = 0.50 \times 0.040 \times 0.120 = 0.0024\text{ N}$
+*   $\sin(45^\circ) \approx 0.7071$
+
+$$F = 0.0024 \times 0.7071$$
+$$F \approx 0.001697\text{ N}$$
+
+Converting this to scientific notation:
+$$F \approx 1.7 \times 10^{-3}\text{ N}$$
+
+Comparing this result to the given options, the correct choice is **(C)**.
+
+### Explanation:
+When solving HSC physics problems involving magnetic force, the most common trap is failing to convert units to the SI standard (meters and amperes). Always ensure your length is in meters and your current is in amperes before performing the calculation. Once the units are consistent, the formula $F = BIl \sin(\theta)$ provides a direct path to the solution.
+
+###QUESTION_TYPE
+Multiple choice

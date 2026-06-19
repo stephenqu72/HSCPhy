@@ -1,0 +1,30 @@
+### Part (a)
+**Answer:**
+The gradient of a graph is the change in the vertical axis divided by the change in the horizontal axis. 
+- Vertical axis units: $\text{J kg}^{-1}$
+- Horizontal axis units: $\text{m}$ (Note: the graph uses km, but for dimensional analysis, we use the base unit of length, $\text{m}$)
+
+The units of the gradient are:
+$$\text{Gradient units} = \frac{\text{J kg}^{-1}}{\text{m}} = \frac{\text{J}}{\text{kg} \cdot \text{m}}$$
+Since work (energy) is Force $\times$ distance ($W = Fd$), the units of Joule are $\text{N} \cdot \text{m}$. Substituting this:
+$$\frac{\text{N} \cdot \text{m}}{\text{kg} \cdot \text{m}} = \frac{\text{N}}{\text{kg}}$$
+From Newton's second law ($F = ma$), $1 \text{ N} = 1 \text{ kg} \cdot \text{m/s}^2$. Therefore, $1 \text{ N/kg} = 1 \text{ m/s}^2$. Since $\text{m/s}^2$ is the unit of acceleration, the gradient represents the acceleration due to gravity ($g$).
+
+---
+
+### Part (b)
+**Answer:**
+1. **Find the target location:** The radius of the Earth is approximately $6.4 \times 10^3 \text{ km}$. The satellite is $13.6 \times 10^3 \text{ km}$ from the *surface*, so its distance from the centre ($r$) is:
+   $$r = 6.4 \times 10^3 + 13.6 \times 10^3 = 20.0 \times 10^3 \text{ km}$$
+2. **Locate the point on the graph:** At $r = 20 \times 10^3 \text{ km}$, the value of gravitational potential per unit mass is approximately $-2.0 \times 10^7 \text{ J/kg}$.
+3. **Draw a tangent:** To find the gradient at $r = 20 \times 10^3 \text{ km}$, draw a straight line touching the curve at this point. 
+4. **Calculate the gradient:** Choose two points on your tangent line, for example:
+   - Point 1: $(10 \times 10^3 \text{ km}, -3.2 \times 10^7 \text{ J/kg})$
+   - Point 2: $(30 \times 10^3 \text{ km}, -1.3 \times 10^7 \text{ J/kg})$
+   *(Note: These values will vary slightly based on your manual drawing).*
+   Convert km to meters: $1 \text{ km} = 10^3 \text{ m}$.
+   $$\text{Gradient} = \frac{(-1.3 - (-3.2)) \times 10^7 \text{ J/kg}}{(30 - 10) \times 10^6 \text{ m}} \approx \frac{1.9 \times 10^7}{2.0 \times 10^7} \approx 0.95 \text{ m/s}^2$$
+*(Expected range: $0.9 - 1.0 \text{ m/s}^2$ depending on the accuracy of the drawn tangent).*
+
+###QUESTION_TYPE
+Data analysis questions

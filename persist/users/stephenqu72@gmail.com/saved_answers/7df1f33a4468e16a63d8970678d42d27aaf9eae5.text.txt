@@ -1,0 +1,26 @@
+To determine the correct answer, we need to recall the standard SI units for these two physical quantities.
+
+### Analysis:
+1.  **Acceleration**: Acceleration is defined as the rate of change of velocity over time. 
+    *   Velocity is measured in $\text{m s}^{-1}$.
+    *   Acceleration is $\frac{\Delta v}{\Delta t}$, which is $\frac{\text{m s}^{-1}}{\text{s}} = \text{m s}^{-2}$.
+    *   Therefore, the SI unit for acceleration is $\text{m s}^{-2}$.
+
+2.  **Gravitational Potential Energy**: Energy is defined as the capacity to do work. The SI unit for all forms of energy (including kinetic, gravitational potential, and elastic potential) is the Joule ($J$). 
+    *   One Joule is equivalent to $1\text{ kg m}^2\text{ s}^{-2}$.
+
+### Evaluating the Options:
+*   (A) Acceleration is incorrect ($\text{m s}^{-1}$ is velocity).
+*   **(B) Acceleration is $\text{m s}^{-2}$ and Energy is $J$. This matches our definitions.**
+*   (C) Acceleration is incorrect; Energy is incorrect.
+*   (D) Acceleration is correct; Energy is incorrect ($\text{m s}^{-1}$ is velocity).
+
+The correct answer is **(B)**.
+
+### How to solve it:
+When faced with a question about units, always refer back to the fundamental formulas:
+*   Look for the formula $a = \frac{v}{t}$, which immediately gives you $\text{m s}^{-2}$.
+*   Remember that any quantity representing "Energy" or "Work" will always have the standard SI unit of Joules ($J$). 
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,41 @@
+To solve this problem, we use the principles of electrostatics and circular motion in a magnetic field.
+
+**Constants for a proton:**
+- Mass ($m$) = $1.67 \times 10^{-27}\text{ kg}$
+- Charge ($q$) = $1.60 \times 10^{-19}\text{ C}$
+
+---
+
+### (a) Calculate the speed of the proton when it reaches the electrode.
+
+The proton is accelerated by an electric potential difference ($V = 50\text{ kV} = 50,000\text{ V}$). The electric potential energy gained by the proton is converted into kinetic energy:
+$$qV = \frac{1}{2}mv^2$$
+
+Rearranging to solve for $v$:
+$$v = \sqrt{\frac{2qV}{m}}$$
+$$v = \sqrt{\frac{2 \times (1.60 \times 10^{-19}\text{ C}) \times (50,000\text{ V})}{1.67 \times 10^{-27}\text{ kg}}}$$
+$$v \approx 3.09 \times 10^6\text{ m/s}$$
+
+---
+
+### (b) Calculate the radius of the cyclotron if the proton leaves it with kinetic energy of $20\text{ MeV}$.
+
+First, convert the kinetic energy ($K$) into Joules:
+$$K = 20\text{ MeV} = 20 \times 10^6 \times (1.60 \times 10^{-19}\text{ J}) = 3.2 \times 10^{-12}\text{ J}$$
+
+When a charged particle moves in a magnetic field, the magnetic force acts as the centripetal force:
+$$qvB = \frac{mv^2}{r} \implies r = \frac{mv}{qB}$$
+
+We can substitute $mv = \sqrt{2mK}$ (derived from $K = \frac{p^2}{2m} \implies p = \sqrt{2mK}$):
+$$r = \frac{\sqrt{2mK}}{qB}$$
+$$r = \frac{\sqrt{2 \times (1.67 \times 10^{-27}\text{ kg}) \times (3.2 \times 10^{-12}\text{ J})}}{(1.60 \times 10^{-19}\text{ C}) \times (2.0\text{ T})}$$
+$$r = \frac{1.034 \times 10^{-19}}{3.2 \times 10^{-19}} \approx 0.323\text{ m}$$
+
+---
+
+### Explanation of the approach:
+1.  **For part (a):** Use the Work-Energy Theorem. Because the proton starts from rest, all potential energy provided by the electric field ($qV$) becomes kinetic energy. We solve for velocity by rearranging the standard kinetic energy formula.
+2.  **For part (b):** Recognize that the maximum radius occurs at the maximum kinetic energy. By equating the magnetic force ($qvB$) to the centripetal force ($mv^2/r$), we relate the radius to the momentum ($mv$). Since we are given energy, we express momentum as $\sqrt{2mK}$ to reach the final answer.
+
+###QUESTION_TYPE
+Calculation question

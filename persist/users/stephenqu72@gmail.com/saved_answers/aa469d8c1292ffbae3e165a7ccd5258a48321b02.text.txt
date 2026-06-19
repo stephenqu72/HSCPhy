@@ -1,0 +1,25 @@
+To answer this question effectively, you need to use the principle of the **Conservation of Energy**. 
+
+### Answer
+The mass of an object does not affect its escape velocity because both the kinetic energy required to escape and the gravitational potential energy holding the object in the planet's field are directly proportional to the mass of the object. Consequently, when setting these energy values equal to each other, the mass term cancels out on both sides of the equation.
+
+---
+
+### How to solve it (Teacher's Explanation)
+
+To score full marks, you should demonstrate the derivation using physics principles:
+
+1.  **Define the condition for escape:** An object can escape a gravitational field if its total mechanical energy is at least zero. This means its initial kinetic energy ($K$) must equal the magnitude of its gravitational potential energy ($U$).
+    $$K = |U|$$
+
+2.  **Substitute the formulas:** Let $m$ be the mass of the object, $M$ be the mass of the planet, $r$ be the radius of the planet, and $v$ be the escape velocity.
+    $$\frac{1}{2}mv^2 = \frac{GMm}{r}$$
+
+3.  **Show the cancellation:** Notice that the mass of the object ($m$) appears on both sides of the equation. By dividing both sides by $m$, we eliminate the mass of the object from the calculation:
+    $$\frac{1}{2}v^2 = \frac{GM}{r}$$
+    $$v = \sqrt{\frac{2GM}{r}}$$
+
+4.  **Conclusion:** As shown in the final expression, the escape velocity $v$ depends only on the gravitational constant ($G$), the mass of the planet ($M$), and the distance from the center of the planet ($r$). The object's mass ($m$) is not present in the final formula, confirming it is not a factor.
+
+###QUESTION_TYPE
+Short answer

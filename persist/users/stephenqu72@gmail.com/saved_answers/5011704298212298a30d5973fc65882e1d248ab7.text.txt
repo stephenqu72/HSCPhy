@@ -1,0 +1,39 @@
+To solve this problem, we must identify the forces acting on the proton and equate them, as the particle is in equilibrium (hovering).
+
+### 1. Identify the given values
+*   Mass of a proton ($m_p$) $\approx 1.673 \times 10^{-27}\text{ kg}$
+*   Charge of a proton ($q_p$) $\approx 1.602 \times 10^{-19}\text{ C}$
+*   Charge of the plate ($Q$) $= -2.952 \times 10^{-21}\text{ C}$
+*   Acceleration due to gravity ($g$) $\approx 9.8\text{ m/s}^2$
+*   Coulomb's constant ($k$) $\approx 8.99 \times 10^9\text{ N}\cdot\text{m}^2/\text{C}^2$
+
+*(Note: While the prompt mentions an "electron" at the start, the final question explicitly asks for the distance at which a "proton" is hovering. We use the properties of a proton.)*
+
+### 2. Set up the equations
+For the proton to be "hovering," the upward electrostatic force ($F_e$) must equal the downward gravitational force ($F_g$):
+$$F_g = F_e$$
+$$m_p g = k \frac{|q_p Q|}{r^2}$$
+
+### 3. Solve for $r$
+Rearrange the equation to solve for $r$:
+$$r^2 = \frac{k |q_p Q|}{m_p g}$$
+$$r = \sqrt{\frac{k |q_p Q|}{m_p g}}$$
+
+Substitute the values:
+$$r = \sqrt{\frac{(8.99 \times 10^9) \times (1.602 \times 10^{-19}) \times (2.952 \times 10^{-21})}{1.673 \times 10^{-27} \times 9.8}}$$
+$$r = \sqrt{\frac{4.252 \times 10^{-30}}{1.639 \times 10^{-26}}}$$
+$$r = \sqrt{2.594 \times 10^{-4}}$$
+$$r \approx 0.0161\text{ m}$$
+
+**Answer:** The proton is hovering at a distance of approximately $1.61 \times 10^{-2}\text{ m}$ (or $1.61\text{ cm}$) above the plate.
+
+***
+
+### Explanation for Students
+1.  **Understand Equilibrium:** When an object is "hovering" or suspended, the net force is zero. This means the downward pull of gravity must be perfectly balanced by the upward push of the electric field.
+2.  **Select Formulas:** Use Newton's law of universal gravitation ($F = mg$) and Coulomb’s Law ($F = k \frac{q_1 q_2}{r^2}$). 
+3.  **Consistency:** Always ensure your units are in SI (kilograms, Coulombs, meters).
+4.  **Mathematical Accuracy:** Be careful with the powers of ten in scientific notation; using a calculator with an "EXP" or "EE" button is highly recommended to avoid entry errors.
+
+###QUESTION_TYPE
+Calculation question

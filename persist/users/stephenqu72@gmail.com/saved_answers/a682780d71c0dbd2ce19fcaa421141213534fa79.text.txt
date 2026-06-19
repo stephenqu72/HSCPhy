@@ -1,0 +1,34 @@
+To solve this problem, we must apply the principle of **Conservation of Mechanical Energy** and the principle of **Conservation of Angular Momentum**.
+
+### Step-by-Step Solution
+
+**1. Define Total Energy at Positions A and B:**
+The total energy $E$ of the planet is the sum of its kinetic energy ($K$) and gravitational potential energy ($U$):
+$$E = K + U = K - \frac{GMm}{r}$$
+Since the total energy is conserved throughout the orbit, $E_A = E_B = E$.
+Using the formula provided in the question, $E = -\frac{GMm}{r_A + r_B}$.
+
+**2. Set up the Energy Equations:**
+For position A ($r_A = r$):
+$$K_A - \frac{GMm}{r} = -\frac{GMm}{r + 3r} = -\frac{GMm}{4r}$$
+$$K_A = \frac{GMm}{r} - \frac{GMm}{4r} = \frac{3GMm}{4r}$$
+
+For position B ($r_B = 3r$):
+$$K_B - \frac{GMm}{3r} = -\frac{GMm}{r + 3r} = -\frac{GMm}{4r}$$
+$$K_B = \frac{GMm}{3r} - \frac{GMm}{4r} = \frac{4GMm - 3GMm}{12r} = \frac{GMm}{12r}$$
+
+**3. Calculate the Ratio $\frac{K_A}{K_B}$:**
+$$\frac{K_A}{K_B} = \frac{\frac{3GMm}{4r}}{\frac{GMm}{12r}}$$
+$$\frac{K_A}{K_B} = \frac{3}{4} \times \frac{12}{1} = \frac{36}{4} = 9$$
+
+**Alternative Verification (Angular Momentum):**
+In an elliptical orbit, at perihelion (A) and aphelion (B), the velocity is perpendicular to the radius. By Conservation of Angular Momentum ($L = mvr$):
+$$mv_A r_A = mv_B r_B \implies v_A r = v_B (3r) \implies v_A = 3v_B$$
+Since $K = \frac{1}{2}mv^2$:
+$$\frac{K_A}{K_B} = \frac{\frac{1}{2}mv_A^2}{\frac{1}{2}mv_B^2} = \left(\frac{v_A}{v_B}\right)^2 = (3)^2 = 9$$
+
+**Answer:**
+The ratio of the kinetic energy at position A to position B is **9**.
+
+###QUESTION_TYPE
+Calculation question

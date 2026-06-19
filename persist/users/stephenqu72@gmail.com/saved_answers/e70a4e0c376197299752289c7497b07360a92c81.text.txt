@@ -1,0 +1,35 @@
+To solve this problem, we apply **Kepler's Third Law of Planetary Motion**, which states that the square of the orbital period ($T$) of a planet is directly proportional to the cube of the average distance ($r$) from the star:
+
+$$T^2 \propto r^3 \quad \text{or} \quad \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$$
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given information:**
+    Let $r_X$ be the distance of Planet X and $r_Y$ be the distance of Planet Y. We are told that $r_X = 5r_Y$.
+    Therefore, the ratio of the distances is:
+    $$\frac{r_X}{r_Y} = 5$$
+
+2.  **Set up the ratio for the orbital periods:**
+    Using Kepler's Third Law:
+    $$\left( \frac{T_X}{T_Y} \right)^2 = \left( \frac{r_X}{r_Y} \right)^3$$
+
+3.  **Substitute the known value:**
+    Substitute $\frac{r_X}{r_Y} = 5$ into the equation:
+    $$\left( \frac{T_X}{T_Y} \right)^2 = 5^3$$
+
+4.  **Solve for the ratio of the orbital periods:**
+    Take the square root of both sides to isolate $\frac{T_X}{T_Y}$:
+    $$\frac{T_X}{T_Y} = \sqrt{5^3}$$
+    Using exponent notation, $\sqrt{5^3} = (5^3)^{\frac{1}{2}} = 5^{\frac{3}{2}}$.
+
+5.  **Match with the given options:**
+    Looking at the options, we need to express the result to match the form provided. 
+    Option D is $\sqrt{5^3}$.
+    Calculation check: 
+    $\frac{T_X}{T_Y} = (5^3)^{1/2} = 5^{3/2}$.
+    Option D matches this mathematical value exactly.
+
+**Correct Answer:** **D**
+
+###QUESTION_TYPE
+Multiple choice

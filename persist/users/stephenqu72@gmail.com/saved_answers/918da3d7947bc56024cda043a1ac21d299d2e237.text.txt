@@ -1,0 +1,44 @@
+Hello! As an HSC Physics teacher, I'm happy to walk you through this question. This is a classic "Gravity and Motion" question that tests your conceptual understanding of orbital mechanics and your ability to perform energy calculations.
+
+---
+
+### Part (a): Features and Advantages of Geostationary Orbits
+
+**Answer:**
+A geostationary orbit is located directly above the Earth's equator and has an orbital period of exactly 24 hours (matching the Earth's rotation). Consequently, the satellite remains in a fixed position relative to a point on the Earth's surface. 
+
+The main advantage for communications is that ground-based antennas (satellite dishes) do not need to track the satellite; they can remain pointed in a fixed direction. This significantly reduces the cost and complexity of the ground equipment and ensures a continuous, uninterrupted signal link.
+
+**How to solve it:**
+*   **Key concepts:** You must identify the "fixed position relative to the ground" and "24-hour period." 
+*   **Marking:** To get 2 marks, you need to state the orbital characteristics (equatorial, 24-hour period) and connect that clearly to the practical benefit (no need for tracking antennas).
+
+---
+
+### Part (b): Calculation of Total Energy
+
+**Answer:**
+To calculate the total energy ($E_{total}$) of a satellite in orbit, we use the sum of kinetic energy ($K$) and gravitational potential energy ($U$):
+$$E_{total} = K + U = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r}$$
+
+**Step 1: Identify constants and variables**
+*   $m = 750\text{ kg}$
+*   $h = 400\text{ km} = 4.0 \times 10^5\text{ m}$
+*   $R_E = 6.37 \times 10^6\text{ m}$ (Radius of Earth)
+*   $M = 5.97 \times 10^{24}\text{ kg}$ (Mass of Earth)
+*   $G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+*   $r = R_E + h = 6.77 \times 10^6\text{ m}$
+
+**Step 2: Calculate the value**
+$$E_{total} = -\frac{(6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times 750}{2 \times (6.77 \times 10^6)}$$
+$$E_{total} \approx -2.20 \times 10^{10}\text{ J}$$
+
+**How to solve it:**
+1.  **Define total energy:** Remember that the total energy of an orbiting body is negative, representing the energy required to remove the object to infinity.
+2.  **Calculate $r$:** Always ensure you add the altitude to the Earth's radius. A common error is using only the altitude.
+3.  **Use the correct formula:** The formula $E = -GMm / 2r$ is derived from circular orbit conditions ($v = \sqrt{GM/r}$).
+
+---
+
+###QUESTION_TYPE
+Calculation question

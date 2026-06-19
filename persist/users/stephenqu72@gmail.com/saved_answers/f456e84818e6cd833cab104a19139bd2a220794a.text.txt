@@ -1,0 +1,32 @@
+To solve this problem, we must apply the principles of electromagnetism (the motor effect) and torque equilibrium.
+
+### Analysis and Solutions
+
+**(a) Placement of Masses**
+Using the Right-Hand Rule (RHR) for the motor effect: The magnetic field points from N to S (left to right). The current flows "in" on the left side of the loop and "out" on the right side. Using Fleming’s Left-Hand Rule, the magnetic force on the side of the wire within the field points **upwards**. To balance this upward torque, the weight must be placed on **Disc A** (the side of the pivot opposite to where the magnetic force acts) to create a counter-clockwise torque.
+
+**(b) Graphing**
+Plot the points $(1, 2.5), (2, 5.0), (4, 7.5), (6, 15.0), (8, 20.0)$. A line of best fit should pass through the origin $(0,0)$ as $I=0$ when $m=0$. The line should be approximately linear.
+
+**(c) Scientific Method**
+Using a range of masses (independent variable) allows Wicket to determine the **mathematical relationship** (proportionality) between mass and current. Repeating the same mass only improves precision (reliability), whereas varying the mass allows for a gradient calculation to determine the physical constant $g$.
+
+**(d) Calculating the Magnetic Force**
+At equilibrium, the torque from gravity equals the torque from the magnetic force:
+$$\tau_{gravity} = \tau_{magnetic}$$
+$$mg \cdot r = F_B \cdot r$$
+$$F_B = mg$$
+For $m = 2 \text{ g} = 0.002 \text{ kg}$, assuming earth's gravity ($g \approx 9.8 \text{ m/s}^2$):
+$$F_B = 0.002 \times 9.8 = 0.0196 \text{ N}$$
+
+**(e) Calculating $g$ on Endor**
+The magnetic force is $F_B = BIl$. The torque balance is $mgx = BIlx$ (where $x$ is the lever arm distance of $0.15 \text{ m}$):
+$$mg = BIl \implies g = \frac{BIl}{m} \implies g = Bl \left( \frac{I}{m} \right)$$
+1. Find the gradient of the line: $\text{Gradient} = \frac{\Delta I}{\Delta m} = \frac{20 \text{ A}}{8 \text{ g}} = 2.5 \text{ A/g} = 2500 \text{ A/kg}$.
+2. Convert $B = 25 \text{ mT} = 0.025 \text{ T}$. The length $l = 0.15 \text{ m}$.
+3. $g = 0.025 \times 0.15 \times 2500 = 9.375 \text{ m/s}^2$.
+
+---
+
+###QUESTION_TYPE
+Calculation question

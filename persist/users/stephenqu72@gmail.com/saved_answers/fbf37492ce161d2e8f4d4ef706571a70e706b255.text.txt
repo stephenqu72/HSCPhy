@@ -1,0 +1,34 @@
+To solve this problem, we must apply the principles of circular motion in a horizontal plane.
+
+### (a) Direction of the resultant force
+Since the ball is performing uniform circular motion in a horizontal circle, the resultant force (the net force) must be the **centripetal force**. This force is directed horizontally toward the center of the circular path.
+
+### (b) Construct the weight vector
+The only two forces acting on the ball are the normal force $N$ and the weight $mg$.
+- Vertical equilibrium: The vertical component of $N$ must balance the weight $mg$. Thus, $N \sin\theta = mg$.
+- Your arrow for weight must point **vertically downwards** from the ball, with a length such that if you complete the rectangle, the normal force $N$ acts as the diagonal.
+
+### (c) Derivation
+1. **Vertical forces:** The ball is not accelerating vertically, so the vertical component of the normal force must equal the weight:
+   $$N \sin\theta = mg \implies N = \frac{mg}{\sin\theta}$$
+2. **Horizontal forces:** The horizontal component of the normal force provides the centripetal force $F$:
+   $$F = N \cos\theta$$
+3. **Substitute:** Substitute the expression for $N$ into the centripetal force equation:
+   $$F = \left(\frac{mg}{\sin\theta}\right) \cos\theta = \frac{mg}{\tan\theta}$$
+
+### Final Calculation
+The centripetal force is given by $F = \frac{mv^2}{r}$. Note: in the diagram, the radius of the circle $r$ is $R_{bowl} \cos\theta$. However, the prompt asks us to use the derived formula. Using $F = \frac{mv^2}{r_{path}}$ where $r_{path} = 8.0 \cos(22^\circ)$:
+$$\frac{mv^2}{r_{path}} = \frac{mg}{\tan\theta}$$
+$$\frac{v^2}{8.0 \cos(22^\circ)} = \frac{9.8}{\tan(22^\circ)}$$
+$$v^2 = \frac{9.8 \times 8.0 \times \cos(22^\circ)}{\tan(22^\circ)}$$
+$$v^2 = \frac{72.76}{0.404} \approx 180.1$$
+$$v \approx 13.4 \text{ m/s}$$
+
+### How to solve this:
+1. **Identify the forces:** Always draw a Free Body Diagram. Recognize that the normal force has a horizontal component (centripetal) and a vertical component (balancing weight).
+2. **Resolve into components:** Separate the motion into horizontal ($F_{net} = ma_c$) and vertical ($F_{net} = 0$) axes.
+3. **Link equations:** Use the shared variable ($N$) to connect the two axes.
+4. **Calculations:** Ensure your calculator is in degrees when calculating trigonometric functions.
+
+###QUESTION_TYPE
+Calculation question

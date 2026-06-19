@@ -1,0 +1,28 @@
+To find the surface gravity of Ganymede, we use Newton’s Law of Universal Gravitation applied to a surface:
+
+$$g = \frac{GM}{r^2}$$
+
+Where:
+*   $G$ is the universal gravitational constant, approximately $6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+*   $M$ is the mass of the moon ($1.5 \times 10^{23} \, \text{kg}$).
+*   $r$ is the radius of the moon ($2.6 \times 10^6 \, \text{m}$).
+
+### Calculation Steps:
+1.  **Substitute the known values into the equation:**
+    $$g = \frac{(6.67 \times 10^{-11}) \times (1.5 \times 10^{23})}{(2.6 \times 10^6)^2}$$
+
+2.  **Calculate the numerator:**
+    $$(6.67 \times 1.5) \times 10^{(-11 + 23)} = 10.005 \times 10^{12} \approx 1.0 \times 10^{13}$$
+
+3.  **Calculate the denominator:**
+    $$(2.6 \times 10^6)^2 = 6.76 \times 10^{12}$$
+
+4.  **Divide the numerator by the denominator:**
+    $$g \approx \frac{1.0 \times 10^{13}}{6.76 \times 10^{12}} \approx 1.48 \, \text{m s}^{-2}$$
+
+Comparing our result of $1.48 \, \text{m s}^{-2}$ to the given options, the value closest to the magnitude of Ganymede's surface gravity is $1.5 \, \text{m s}^{-2}$.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

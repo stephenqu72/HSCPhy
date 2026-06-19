@@ -1,0 +1,23 @@
+### Solution and Explanation
+
+#### Part (a)
+To find the maximum horizontal distance for a projectile launched from a height $h = 1.1\text{ m}$ at an angle of $45^\circ$, we must first determine the time of flight $t$ using the vertical motion equation:
+$$y = u_y t + \frac{1}{2} a_y t^2$$
+Taking the downward direction as negative, the initial vertical velocity is $u_y = v_0 \sin(45^\circ) = 6.5 \times \sin(45^\circ) \approx 4.596\text{ m/s}$. The displacement $y = -1.1\text{ m}$ and $a_y = -9.8\text{ m/s}^2$:
+$$-1.1 = 4.596t - 4.9t^2 \implies 4.9t^2 - 4.596t - 1.1 = 0$$
+Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$t = \frac{4.596 + \sqrt{(-4.596)^2 - 4(4.9)(-1.1)}}{9.8} \approx 1.127\text{ s}$$
+The horizontal distance $R$ is:
+$$R = u_x t = (v_0 \cos 45^\circ) \times t = (6.5 \cos 45^\circ) \times 1.127 \approx 5.18\text{ m}$$
+
+#### Part (b)
+**(i) Accuracy:** Accuracy refers to how close the experimental results are to the theoretical value. Comparing our calculated theoretical value ($\approx 5.18\text{ m}$) to the trials ($5.18, 5.11, 5.37$), the average is $\approx 5.22\text{ m}$. The results are reasonably accurate as the average is very close to the predicted theoretical value.
+
+**(ii) Reliability:** Reliability refers to the consistency of results across trials. Calculate the range: $5.37 - 5.11 = 0.26\text{ m}$. Given the small range relative to the total distance, the results show moderate to high reliability, as the values are tightly clustered.
+
+**(iii) Explanations:**
+* **Accuracy:** Potential systematic errors such as the launch angle being slightly off $45^\circ$ or air resistance acting on the projectile.
+* **Reliability:** Random errors such as variations in the internal spring tension of the launcher, slight inaccuracies in measuring the impact point on the floor, or human error in timing or releasing the trigger.
+
+### QUESTION_TYPE
+Data analysis questions

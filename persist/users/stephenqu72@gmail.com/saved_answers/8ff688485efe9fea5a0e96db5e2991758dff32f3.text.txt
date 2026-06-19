@@ -1,0 +1,35 @@
+Hello! As an HSC physics teacher, I am happy to guide you through this problem. This question tests your understanding of rotational mechanics and the factors that influence motor efficiency.
+
+### (a) Calculate the magnitude of the torque produced
+
+**The Physics:**
+Torque ($\tau$) is defined as the product of the force and the perpendicular distance from the pivot point to the line of action of the force. The formula is:
+$$\tau = F \cdot r \cdot \sin(\theta)$$
+Where:
+*   $F = 75\text{ N}$
+*   $r = 18\text{ cm} = 0.18\text{ m}$ (Always convert to SI units!)
+*   $\theta = 40^\circ$ (The angle between the lever arm and the force vector)
+
+**The Calculation:**
+$$\tau = 75 \times 0.18 \times \sin(40^\circ)$$
+$$\tau \approx 75 \times 0.18 \times 0.642787$$
+$$\tau \approx 8.68\text{ Nm}$$
+
+**Answer:** The magnitude of the torque is approximately $8.68\text{ Nm}$.
+
+---
+
+### (b) Explain TWO ways in which torque can be increased in a simple DC motor
+
+**The Physics:**
+The torque produced by a DC motor coil is given by $\tau = nIAB \sin(\theta)$, where $n$ is the number of turns, $I$ is current, $A$ is area, $B$ is magnetic field strength, and $\theta$ is the angle between the normal to the coil and the magnetic field.
+
+**Two ways to increase torque:**
+1.  **Increase the Current ($I$):** By increasing the supply voltage or reducing the resistance in the circuit, you increase the current flowing through the coil. Since $\tau \propto I$, this results in a direct proportional increase in the torque.
+2.  **Increase the Number of Turns ($n$) in the coil:** By winding more loops of wire onto the armature, you increase the total force experienced by the coil (each loop adds to the torque), which increases the total torque exerted on the motor shaft.
+*Alternative points you could also mention: Increasing the magnetic field strength ($B$) using stronger permanent magnets or an electromagnet, or increasing the surface area ($A$) of the coil.*
+
+---
+
+###QUESTION_TYPE
+Calculation question

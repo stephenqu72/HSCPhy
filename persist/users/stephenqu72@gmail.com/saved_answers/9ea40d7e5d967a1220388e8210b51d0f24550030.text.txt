@@ -1,0 +1,16 @@
+To solve this question, we must understand the definition of an **ideal transformer** and the real-world factors that differentiate it from a **practical transformer**.
+
+### Answer
+The correct answer is **(A) Thermostatic homeostasis**.
+
+### Explanation
+An **ideal transformer** is a theoretical model that assumes 100% efficiency and no internal energy losses. In a practical transformer, several physical factors prevent this efficiency:
+
+1.  **Incomplete flux linkage (B):** In an ideal model, we assume all magnetic flux produced by the primary coil passes through the secondary coil. In reality, some "leakage flux" exists that does not link the two coils, reducing efficiency. This is a limitation of the model.
+2.  **Hysteresis loss (C):** As the magnetic core is repeatedly magnetized and demagnetized by the alternating current, energy is lost as heat due to the "magnetic friction" within the core material (hysteresis). This is a limitation of the model.
+3.  **Resistive heating (D):** Also known as $I^2R$ loss or copper loss. The wires used in the windings have some electrical resistance. When current flows through them, energy is dissipated as heat. This is a limitation of the model.
+
+**Thermostatic homeostasis (A)** is a term related to biological systems—the ability of an organism to maintain a constant internal temperature. It has absolutely no physical or theoretical relevance to the operation or modeling of electromagnetic transformers. Therefore, it cannot be a "limitation" of the model, because it is not a factor involved in transformer physics at all.
+
+###QUESTION_TYPE
+Multiple choice

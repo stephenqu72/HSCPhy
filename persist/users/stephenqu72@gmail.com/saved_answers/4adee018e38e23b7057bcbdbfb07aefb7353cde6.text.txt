@@ -1,0 +1,32 @@
+To solve this problem, we need to understand the relationship between gravitational potential ($V$) and gravitational potential energy ($U$).
+
+### 1. Direction of Motion
+Gravitational potential $V$ is defined as the work done per unit mass to bring an object from infinity to a point. Near Earth, $V$ is zero at infinity and becomes increasingly negative as you get closer to the Earth's surface. 
+*   Initial potential $V_1 = -15 \text{ MJ kg}^{-1}$
+*   Final potential $V_2 = -65 \text{ MJ kg}^{-1}$
+
+Since $-65 < -15$, the satellite is moving to a region of lower gravitational potential, which corresponds to moving **closer to the Earth**.
+
+### 2. Change in Potential Energy
+The gravitational potential energy $U$ is given by the formula:
+$$U = mV$$
+where $m$ is the mass of the object and $V$ is the gravitational potential.
+
+*   Initial potential energy $U_1 = m \times V_1 = 80 \text{ kg} \times (-15 \text{ MJ kg}^{-1}) = -1200 \text{ MJ}$
+*   Final potential energy $U_2 = m \times V_2 = 80 \text{ kg} \times (-65 \text{ MJ kg}^{-1}) = -5200 \text{ MJ}$
+
+The change in potential energy ($\Delta U$) is:
+$$\Delta U = U_2 - U_1$$
+$$\Delta U = -5200 \text{ MJ} - (-1200 \text{ MJ})$$
+$$\Delta U = -5200 \text{ MJ} + 1200 \text{ MJ} = -4000 \text{ MJ}$$
+
+A change of $-4000 \text{ MJ}$ represents a **loss of $4000 \text{ MJ}$** of potential energy.
+
+Comparing this result to the given options:
+- Direction: Closer to the Earth
+- Change: Loss of $4000 \text{ MJ}$
+
+This corresponds to option **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

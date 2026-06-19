@@ -1,0 +1,35 @@
+To find the net force per unit length acting on wire $X$, we use the formula for the force per unit length between two parallel current-carrying wires:
+
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+Where:
+- $\mu_0 = 4\pi \times 10^{-7} \text{ T m A}^{-1}$
+- $r$ is the separation distance in meters.
+
+### Step 1: Force exerted by wire $Y$ on wire $X$
+- $I_X = 1.0 \text{ A}$
+- $I_Y = 2.0 \text{ A}$
+- $r = 5 \text{ mm} = 5 \times 10^{-3} \text{ m}$
+- Since currents are in **opposite** directions, the force is **repulsive** (pushing $X$ away from $Y$, i.e., **upwards**).
+
+$$\left(\frac{F}{L}\right)_{XY} = \frac{(4\pi \times 10^{-7}) \times 1.0 \times 2.0}{2\pi \times 5 \times 10^{-3}} = \frac{2 \times 10^{-7} \times 2}{5 \times 10^{-3}} = 0.8 \times 10^{-4} = 8 \times 10^{-5} \text{ N m}^{-1} \text{ (up)}$$
+
+### Step 2: Force exerted by wire $Z$ on wire $X$
+- $I_X = 1.0 \text{ A}$
+- $I_Z = 3.0 \text{ A}$
+- $r = 10 \text{ mm} = 10 \times 10^{-3} \text{ m}$ (distance from $X$ to $Z$)
+- Since currents are in the **same** direction, the force is **attractive** (pulling $X$ toward $Z$, i.e., **downwards**).
+
+$$\left(\frac{F}{L}\right)_{XZ} = \frac{(4\pi \times 10^{-7}) \times 1.0 \times 3.0}{2\pi \times 10 \times 10^{-3}} = \frac{2 \times 10^{-7} \times 3}{10 \times 10^{-3}} = 0.6 \times 10^{-4} = 6 \times 10^{-5} \text{ N m}^{-1} \text{ (down)}$$
+
+### Step 3: Calculate Net Force
+The net force is the vector sum of these two forces:
+- $F_{\text{net}} = F_{XY} (\text{up}) - F_{XZ} (\text{down})$
+- $F_{\text{net}} = 8 \times 10^{-5} - 6 \times 10^{-5} = 2 \times 10^{-5} \text{ N m}^{-1}$
+
+Since the upward force is larger, the direction is **up**.
+
+**Correct Answer:** A
+
+###QUESTION_TYPE
+Multiple choice

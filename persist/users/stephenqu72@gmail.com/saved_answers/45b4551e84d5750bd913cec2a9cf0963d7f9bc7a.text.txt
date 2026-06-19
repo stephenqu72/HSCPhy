@@ -1,0 +1,19 @@
+To determine the electron's charge-to-mass ratio ($q/m$), J.J. Thomson utilized a cathode ray tube where an electron beam was subjected to both electric and magnetic fields.
+
+### Explanation
+
+1.  **Velocity Selection:** Thomson first balanced the electric force ($F_E = qE$) and the magnetic force ($F_B = qvB$) so that the electrons passed through the apparatus undeflected. By setting these forces equal, he determined the velocity ($v$) of the electrons:
+    $$qE = qvB \implies v = \frac{E}{B}$$
+2.  **Deflection (Magnetic force as centripetal force):** Once the velocity was known, he switched off the electric field and used only the magnetic field. The magnetic force acting on the electron provided the necessary centripetal force to cause the beam to move in a circular path of radius $r$:
+    $$F_B = F_c$$
+    $$qvB = \frac{mv^2}{r}$$
+3.  **Determining $q/m$:** By rearranging the equation above, we get:
+    $$\frac{q}{m} = \frac{v}{Br}$$
+    Substituting the velocity found in step 1, we can calculate the charge-to-mass ratio.
+
+The experimental setup relies on the electron's path being dictated by the **magnetic force** (which causes the circular deflection) and the **centripetal force** (which describes the circular motion required to determine the ratio).
+
+Therefore, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

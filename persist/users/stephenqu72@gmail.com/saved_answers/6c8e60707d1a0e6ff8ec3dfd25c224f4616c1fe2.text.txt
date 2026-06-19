@@ -1,0 +1,20 @@
+To solve this physics problem, we need to analyze the forces acting on the cyclist.
+
+### Answer
+On a flat track, the centripetal force is provided solely by the frictional force between the tires and the track. However, on a banked track, the normal force ($F_N$) acts perpendicular to the surface of the track. Because the track is tilted at an angle ($\theta$), the horizontal component of this normal force points toward the center of the circular path. This horizontal component, $F_{N, horizontal} = F_N \sin(\theta)$, acts as an additional centripetal force. Therefore, the banked track allows for a larger total centripetal force, enabling the cyclist to maintain a higher speed without relying solely on friction.
+
+### Explanation
+To gain full marks for this 3-mark HSC question, you should structure your response as follows:
+
+1.  **Force Identification:** State that the normal force ($F_N$) is perpendicular to the banked surface.
+2.  **Vector Decomposition:** Explain that the normal force can be resolved into two components: a vertical component ($F_N \cos(\theta)$) that balances the cyclist's weight ($mg$), and a horizontal component ($F_N \sin(\theta)$).
+3.  **The Physics Link:** Identify that the horizontal component acts directly towards the center of the circular path, providing the necessary centripetal force ($F_c = \frac{mv^2}{r}$).
+4.  **Diagram Annotation:** On the image provided, you should draw:
+    *   An arrow perpendicular to the track surface labeled $F_N$.
+    *   A horizontal arrow pointing toward the center of the circle labeled $F_N \sin(\theta)$.
+    *   A vertical arrow pointing upwards labeled $F_N \cos(\theta)$.
+
+By "borrowing" a component of the normal force, the banked track reduces the reliance on friction to provide the centripetal force, thus allowing for safer, high-speed cornering.
+
+###QUESTION_TYPE
+Short answer

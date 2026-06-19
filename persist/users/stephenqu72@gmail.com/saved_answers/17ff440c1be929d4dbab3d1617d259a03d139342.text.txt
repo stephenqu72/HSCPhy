@@ -1,0 +1,25 @@
+### Answer
+The correct option is **(B)**.
+
+### Explanation
+To solve this, we use the standard formula for the force per unit length between two parallel, straight, current-carrying conductors.
+
+1.  **Recall the formula:** The force $F$ acting on a length $l$ of a conductor carrying current $I_2$ in the magnetic field $B_1$ produced by another conductor carrying current $I_1$ is given by:
+    $$F = \frac{\mu_0 I_1 I_2 l}{2\pi r}$$
+    where $r$ is the distance between the conductors.
+
+2.  **Simplify for identical conductors:** Since the conductors are identical, their currents are equal: $I_1 = I_2 = I$. Substituting this into the formula gives:
+    $$F = \frac{\mu_0 I^2 l}{2\pi r}$$
+
+3.  **Rearrange for current $I$:** We want to isolate $I$, so we perform the following algebraic steps:
+    *   Multiply both sides by $2\pi r$: 
+        $$F \cdot 2\pi r = \mu_0 I^2 l$$
+    *   Divide by $(\mu_0 \cdot l)$:
+        $$I^2 = \frac{F \cdot 2\pi r}{\mu_0 \cdot l}$$
+    *   Take the square root of both sides:
+        $$I = \sqrt{\frac{F \cdot 2\pi r}{l \cdot \mu_0}}$$
+
+This expression matches option **(B)**.
+
+### QUESTION_TYPE
+Multiple choice

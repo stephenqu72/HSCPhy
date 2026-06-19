@@ -1,0 +1,35 @@
+To calculate the force exerted on the dust particle, we need to determine the strength of the uniform electric field between the plates and then use the formula for electrostatic force.
+
+### 1. Identify the given values
+*   Charge of the particle ($q$): $-1.00 \times 10^{-8} \text{ C}$
+*   Potential difference ($V$): $50.0 \text{ kV} = 50.0 \times 10^3 \text{ V}$
+*   Distance between plates ($d$): $47.5 \text{ cm} = 0.475 \text{ m}$
+
+### 2. Formulas required
+*   The magnitude of the electric field ($E$) between parallel plates is: 
+    $$E = \frac{V}{d}$$
+*   The magnitude of the electrostatic force ($F$) acting on a charge is: 
+    $$F = qE$$
+    (Combining these, we get $F = \frac{qV}{d}$)
+
+### 3. Calculation
+First, calculate the electric field strength:
+$$E = \frac{50,000 \text{ V}}{0.475 \text{ m}} \approx 105,263.16 \text{ V/m}$$
+
+Next, calculate the magnitude of the force:
+$$F = |q| \times E$$
+$$F = (1.00 \times 10^{-8} \text{ C}) \times 105,263.16 \text{ V/m}$$
+$$F \approx 1.05 \times 10^{-3} \text{ N}$$
+
+**Answer:**
+The magnitude of the force exerted on the dust particle is approximately **$1.05 \times 10^{-3} \text{ N}$** directed towards the positively charged plate.
+
+***
+
+### Explanation of the approach:
+1.  **Understand the physics:** The setup describes a region of uniform electric field between two parallel plates. The potential difference across the plates creates this field.
+2.  **Units:** Ensure all units are in SI units (Volts and meters). Always convert $kV$ to $V$ and $cm$ to $m$.
+3.  **Calculation:** Use the relationship $E = V/d$ to find the field intensity, then multiply by the magnitude of the charge $q$ to find the force. Since the particle is negatively charged, it will be attracted to the positive plate.
+
+###QUESTION_TYPE
+Calculation question

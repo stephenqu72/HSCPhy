@@ -1,0 +1,37 @@
+To solve this problem, we must analyze the forces acting on a vehicle on a banked curve where no friction (sideways force) is required to maintain the circular motion.
+
+### 1. Vector Diagram
+The forces acting on the car are:
+*   **Gravity ($mg$):** Acting vertically downwards.
+*   **Normal Force ($N$):** Acting perpendicular to the surface of the banked road.
+
+The horizontal component of the normal force provides the centripetal force ($F_c = \frac{mv^2}{r}$), while the vertical component balances the weight of the car ($mg$).
+
+**Diagram description:** Draw a vector $N$ perpendicular to the bank, pointing up and inward. Draw a vector $mg$ pointing straight down. The resultant of these is the horizontal centripetal force vector $F_c$ pointing toward the center of the turn.
+
+### 2. Calculation
+**Step 1: Convert units to SI.**
+$$v = 40 \text{ km h}^{-1} = \frac{40}{3.6} \approx 11.11 \text{ m s}^{-1}$$
+$$r = 50 \text{ m}$$
+$$g \approx 9.8 \text{ m s}^{-2}$$
+
+**Step 2: Use the banking formula.**
+When no sideways friction acts, the relationship between the angle $\theta$, velocity $v$, and radius $r$ is derived from:
+$$\tan(\theta) = \frac{F_c}{mg} = \frac{\frac{mv^2}{r}}{mg} = \frac{v^2}{rg}$$
+
+**Step 3: Calculate the angle.**
+$$\tan(\theta) = \frac{(11.11)^2}{50 \times 9.8}$$
+$$\tan(\theta) = \frac{123.46}{490} \approx 0.2519$$
+$$\theta = \arctan(0.2519) \approx 14.14^\circ$$
+
+**Final Answer:** The road is banked at an angle of approximately $14.1^\circ$.
+
+---
+
+### How to solve this type of question:
+1.  **Identify the forces:** In "ideal" banking problems, only gravity and the normal force act on the car. The normal force's horizontal component provides the necessary centripetal acceleration.
+2.  **Use the correct model:** Recognize that the vertical forces must be in equilibrium ($\sum F_y = 0 \implies N\cos\theta = mg$) and the horizontal force must equal the centripetal force ($\sum F_x = ma_c \implies N\sin\theta = \frac{mv^2}{r}$).
+3.  **Divide the equations:** Dividing the horizontal equation by the vertical equation results in the standard banking formula $\tan\theta = \frac{v^2}{rg}$. This eliminates the mass and the normal force, allowing you to solve for the angle directly.
+
+###QUESTION_TYPE
+Calculation question

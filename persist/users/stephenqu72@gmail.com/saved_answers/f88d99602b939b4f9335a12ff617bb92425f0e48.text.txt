@@ -1,0 +1,43 @@
+To solve this projectile motion problem, we must treat horizontal and vertical components of motion independently. We take the launch point as the origin $(0,0)$.
+
+### Part (a)
+**1. Resolve the initial velocity:**
+- $v_{0x} = v \cos(30^\circ) = 50 \times \frac{\sqrt{3}}{2} \approx 43.30 \text{ m/s}$
+- $v_{0y} = v \sin(30^\circ) = 50 \times 0.5 = 25 \text{ m/s}$
+
+**2. Determine vertical displacement ($\Delta y$):**
+The fireworks drop from $305\text{ m}$ to $280\text{ m}$, so $\Delta y = 280 - 305 = -25\text{ m}$.
+
+**3. Find the time of flight ($t$):**
+Using the kinematic equation $\Delta y = v_{0y}t + \frac{1}{2}a_yt^2$:
+$$-25 = 25t - 4.9t^2$$
+Rearrange into a quadratic equation: $4.9t^2 - 25t - 25 = 0$.
+Using the quadratic formula $t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$:
+$$t = \frac{25 \pm \sqrt{(-25)^2 - 4(4.9)(-25)}}{9.8} = \frac{25 \pm \sqrt{625 + 490}}{9.8} = \frac{25 \pm 33.39}{9.8}$$
+Taking the positive value, $t \approx 5.96 \text{ s}$.
+
+**4. Calculate horizontal distance ($x$):**
+$$x = v_{0x} \times t = 43.30 \times 5.96 \approx 258 \text{ m}$$
+
+---
+
+### Part (b)
+**Quantitative description of changing the angle to $45^\circ$:**
+
+1. **New velocity components:**
+   - $v_{0x}' = 50 \cos(45^\circ) \approx 35.36 \text{ m/s}$ (decreased from $43.30 \text{ m/s}$)
+   - $v_{0y}' = 50 \sin(45^\circ) \approx 35.36 \text{ m/s}$ (increased from $25 \text{ m/s}$)
+
+2. **Impact on time ($t'$):**
+   Solving $-25 = 35.36t' - 4.9t'^2 \implies 4.9t'^2 - 35.36t' - 25 = 0$.
+   Using the quadratic formula: $t' \approx \frac{35.36 + \sqrt{1250 + 490}}{9.8} \approx 7.86 \text{ s}$.
+   The time of flight increases by $\approx 1.9 \text{ s}$.
+
+3. **Impact on horizontal distance ($x'$):**
+   $x' = 35.36 \times 7.86 \approx 277.9 \text{ m}$.
+   The horizontal distance increases by $\approx 20 \text{ m}$.
+
+**Conclusion:** Increasing the angle to $45^\circ$ increases the time of flight due to a higher initial vertical velocity component, which results in a greater horizontal distance despite the decrease in the horizontal velocity component.
+
+###QUESTION_TYPE
+Calculation question

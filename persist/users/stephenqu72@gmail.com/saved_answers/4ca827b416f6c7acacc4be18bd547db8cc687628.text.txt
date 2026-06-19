@@ -1,0 +1,26 @@
+To find the relationship between the horizontal range $R$ and the maximum height $H$ for an object projected at an angle $\theta = 45^\circ$, we use the standard projectile motion equations.
+
+### Step-by-Step Derivation:
+
+1.  **Identify the formulas:**
+    *   Horizontal Range: $R = \frac{v^2 \sin(2\theta)}{g}$
+    *   Maximum Height: $H = \frac{v^2 \sin^2(\theta)}{2g}$
+
+2.  **Substitute $\theta = 45^\circ$:**
+    *   For the range: $\sin(2 \times 45^\circ) = \sin(90^\circ) = 1$.
+        $$R = \frac{v^2}{g}$$
+    *   For the height: $\sin(45^\circ) = \frac{1}{\sqrt{2}}$, so $\sin^2(45^\circ) = \frac{1}{2}$.
+        $$H = \frac{v^2 \times (\frac{1}{2})}{2g} = \frac{v^2}{4g}$$
+
+3.  **Find the ratio:**
+    To express $R$ in terms of $H$, we can compare the two expressions:
+    *   Since $R = \frac{v^2}{g}$ and $H = \frac{v^2}{4g}$
+    *   We can see that $\frac{R}{H} = \frac{v^2 / g}{v^2 / 4g}$
+    *   $\frac{R}{H} = 4$
+    *   Therefore, $R = 4H$
+
+**Conclusion:**
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

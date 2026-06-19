@@ -1,0 +1,31 @@
+To solve this problem, we must first determine the velocity of the ions as they enter the drift region and then calculate the time taken for each isotope to cross the $1.54\text{ m}$ distance.
+
+### 1. Physics Principles
+The work done by the electric field equals the kinetic energy gained by the ion:
+$$qV = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2qV}{m}}$$
+The time taken to travel the drift region of length $L$ is:
+$$t = \frac{L}{v} = L \sqrt{\frac{m}{2qV}}$$
+
+### 2. Given Data
+- $V = 17500\text{ V}$
+- $L = 1.54\text{ m}$
+- $q = 1.602 \times 10^{-19}\text{ C}$ (singly ionised)
+- $1\text{ u} = 1.66 \times 10^{-27}\text{ kg}$
+- $m_{16} = 16 \times 1.66 \times 10^{-27} = 2.656 \times 10^{-26}\text{ kg}$
+- $m_{18} = 18 \times 1.66 \times 10^{-27} = 2.988 \times 10^{-26}\text{ kg}$
+
+### 3. Calculations
+For $^{16}\text{O}$:
+$$t_{16} = 1.54 \sqrt{\frac{2.656 \times 10^{-26}}{2 \times 1.602 \times 10^{-19} \times 17500}} \approx 1.54 \times 4.887 \times 10^{-7} \approx 7.526 \times 10^{-7}\text{ s} = 752.6\text{ ns}$$
+
+For $^{18}\text{O}$:
+$$t_{18} = 1.54 \sqrt{\frac{2.988 \times 10^{-26}}{2 \times 1.602 \times 10^{-19} \times 17500}} \approx 1.54 \times 5.183 \times 10^{-7} \approx 7.982 \times 10^{-7}\text{ s} = 798.2\text{ ns}$$
+
+### 4. Conclusion
+The difference in arrival time ($\Delta t$) is:
+$$\Delta t = 798.2\text{ ns} - 752.6\text{ ns} = 45.6\text{ ns}$$
+
+Since $45.6\text{ ns} < 125\text{ ns}$, the student **cannot** separate the isotopes using this specific apparatus setup.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,33 @@
+Hello there! As your HSC teacher, I am happy to help you work through this physics problem regarding Kepler's Laws of Planetary Motion. This is a classic question that tests your understanding of the relationship between orbital parameters.
+
+Here are the solutions and the logic behind them.
+
+***
+
+### **Question 23 Answers**
+
+#### **Part (a)**
+**Answer:**
+According to Kepler’s Third Law, the orbital period $T$ of a planet depends solely on the length of its semimajor axis $a$, expressed by the relationship $T^2 \propto a^3$. Because both Planet X and Planet Y have the same semimajor axis ($a$), they must have the same orbital period $T$, regardless of their orbital eccentricity.
+
+**How to solve it:**
+To solve this, you must identify which variable in Kepler's Third Law is actually responsible for determining the period. While eccentricity ($e$) defines the "stretched" shape of the orbit (how much it deviates from a circle), it does not appear in the fundamental proportionality for the period. When you see a question mentioning "same semimajor axis," immediately link that to "same period."
+
+---
+
+#### **Part (b)**
+**Answer:**
+**Investigation:** Scientists can collect orbital data (the semimajor axis $a$ and the orbital period $T$) for a wide variety of different celestial bodies, such as planets in our solar system, moons orbiting Jupiter, and even exoplanets in other star systems. To analyze this, scientists would plot a graph of $\log(T)$ on the y-axis against $\log(a)$ on the x-axis.
+
+**Expected Results:** The resulting graph should be a straight line passing through (or near) the origin. The gradient (slope) of this line should be exactly $1.5$ (or $\frac{3}{2}$), confirming that the relationship follows the power law $T^2 \propto a^3$ across different planetary systems.
+
+**How to solve it:**
+When an investigation question asks you to "verify" a law, you need three components:
+1.  **The Method (Data Collection):** State what you are measuring ($a$ and $T$) and from where (various planets/moons).
+2.  **The Analysis (Processing Data):** Mention how the data is processed. In physics, converting power laws into linear graphs using logarithms ($\log$) is the standard way to verify such relationships.
+3.  **The Expected Result:** You must explicitly state what the final graph should look like (a straight line) and what the specific numerical value of the gradient should be ($1.5$).
+
+***
+
+###QUESTION_TYPE
+Short answer

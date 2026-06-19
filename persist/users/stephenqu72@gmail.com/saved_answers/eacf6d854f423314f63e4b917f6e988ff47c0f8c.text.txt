@@ -1,0 +1,16 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this question, we must look at the limitations of a standard cyclotron compared to the design of a synchrotron.
+
+1.  **The Cyclotron Limitation:** In a cyclotron, the magnetic field $B$ is constant. The frequency at which particles orbit (the cyclotron frequency) is given by $f = \frac{qB}{2\pi m}$. As particles gain speed, their relativistic mass ($m$) increases significantly. In a standard cyclotron, this mass increase causes the particles to drift out of phase with the oscillating electric field, meaning they are no longer accelerated at the correct time. Additionally, as $v$ increases, the radius ($r = \frac{mv}{qB}$) increases, which is limited by the size of the "dees."
+2.  **The Synchrotron Advantage:** A synchrotron is designed to overcome these issues. It uses an **increasing magnetic field** to keep the particles on a fixed path of constant radius as their momentum increases. By synchronously increasing the magnetic field strength $B$ as the particle's relativistic mass and velocity increase, the machine keeps the orbital frequency stable (or adjusts it) so that the particles remain in phase with the accelerating electric field. 
+3.  **Evaluating the Options:**
+    *   **A** is a true statement about the synchrotron's operation, but it is not an *advantage* over the cyclotron; it is simply a design feature.
+    *   **B** is a general property of accelerating charges, but it is not the primary reason why synchrotrons are preferred for high-energy physics over cyclotrons.
+    *   **C** is physically incorrect; as the velocity of a particle increases in a cyclotron, the time spent in the dees does not remain the same because the relativistic mass increases, causing the drift mentioned above.
+    *   **D** correctly identifies the primary limitation of high-energy acceleration (relativistic mass increase) and how the synchrotron's variable magnetic field solves this, allowing for much higher particle energies than a cyclotron.
+
+###QUESTION_TYPE
+Multiple choice

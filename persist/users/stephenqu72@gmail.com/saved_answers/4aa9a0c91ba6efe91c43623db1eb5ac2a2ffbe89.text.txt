@@ -1,0 +1,50 @@
+Hello! As your HSC teacher, I am happy to help you work through this physics problem. This is a classic question designed to test whether you truly understand the underlying physics or if you are simply looking for numbers to plug into a formula.
+
+### The Answer
+
+The correct answer is **(A) $11209 \text{ ms}^{-1}$**.
+
+---
+
+### How to Solve It
+
+To solve this problem, follow these steps:
+
+**1. Identify the "Distractor" Information**
+In many physics problems, especially in multiple-choice formats, extra information is provided to trick you. The mass of the object ($80 \text{ kg}$) is a **distractor**. The escape velocity of a planet depends only on the planet's own properties (mass and radius), not on the mass of the object attempting to escape. Whether it is an $80 \text{ kg}$ rock or a $1,000,000 \text{ kg}$ rocket, the required speed to escape Earth's gravity remains the same.
+
+**2. Identify the Correct Formula**
+The formula for escape velocity ($v_e$) is derived from the principle of conservation of energy (setting kinetic energy equal to gravitational potential energy):
+
+$$v_e = \sqrt{\frac{2GM}{R}}$$
+
+Where:
+*   $G$ is the Universal Gravitational Constant $\approx 6.674 \times 10^{-11} \text{ N}\cdot\text{m}^2\cdot\text{kg}^{-2}$
+*   $M$ is the mass of the planet (Earth) $\approx 5.972 \times 10^{24} \text{ kg}$
+*   $R$ is the radius of the planet (Earth) $\approx 6.371 \times 10^6 \text{ m}$
+
+**3. Perform the Calculation**
+Substitute the known values for Earth into the formula:
+
+$$v_e = \sqrt{\frac{2 \cdot (6.674 \times 10^{-11}) \cdot (5.972 \times 10^{24})}{6.371 \times 10^6}}$$
+
+First, calculate the numerator:
+$$2 \cdot 6.674 \times 10^{-11} \cdot 5.972 \times 10^{24} \approx 7.97 \times 10^{14}$$
+
+Now, divide by the radius:
+$$\frac{7.97 \times 10^{14}}{6.371 \times 10^6} \approx 1.25 \times 10^8$$
+
+Finally, take the square root:
+$$v_e \approx \sqrt{1.25 \times 10^8} \approx 11180 \text{ ms}^{-1}$$
+
+**4. Match with the Options**
+In physics exams, values are often rounded slightly based on the specific constants provided in your formula sheet. The standard value for Earth's escape velocity is widely known as approximately $11.2 \text{ km/s}$ (or $11,200 \text{ ms}^{-1}$). 
+
+Looking at our options:
+(A) $11209 \text{ ms}^{-1}$ is the only value that aligns with the calculated physical constant.
+
+### Teacher's Tip for the HSC
+Always check if a variable in the question (like the $80 \text{ kg}$) actually belongs in your formula before you start calculating. This saves time and prevents errors!
+
+###QUESTION_TYPE
+Multiple choice

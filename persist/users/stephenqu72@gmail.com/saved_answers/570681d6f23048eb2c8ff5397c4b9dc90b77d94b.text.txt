@@ -1,0 +1,34 @@
+To solve this problem, we need to recognize that the proton is undergoing uniform circular motion due to a centripetal force provided by a magnetic field. This is a classic application of the Lorentz force law and circular motion dynamics.
+
+### 1. Identify the relevant physics principles
+*   **Magnetic Force:** A charge $q$ moving with velocity $v$ perpendicular to a magnetic field $B$ experiences a force $F_B = qvB$.
+*   **Centripetal Force:** For an object of mass $m$ to move in a circle of radius $r$ at velocity $v$, the required centripetal force is $F_c = \frac{mv^2}{r}$.
+*   **Equating forces:** Since the magnetic force provides the centripetal force, we set $F_B = F_c$:
+    $$qvB = \frac{mv^2}{r}$$
+
+### 2. Rearrange the formula to solve for $B$
+Divide both sides by $qv$:
+$$B = \frac{mv}{qr}$$
+
+### 3. Extract the constants and given values
+*   Mass of a proton ($m$): $1.67 \times 10^{-27}\text{ kg}$
+*   Charge of a proton ($q$): $1.60 \times 10^{-19}\text{ C}$
+*   Velocity ($v$): $2.25 \times 10^5\text{ m/s}$
+*   Radius ($r$): $102\text{ m}$
+
+### 4. Substitute the values and calculate
+$$B = \frac{(1.67 \times 10^{-27}\text{ kg}) \times (2.25 \times 10^5\text{ m/s})}{(1.60 \times 10^{-19}\text{ C}) \times (102\text{ m})}$$
+
+Calculating the numerator:
+$$1.67 \times 2.25 \times 10^{-22} \approx 3.7575 \times 10^{-22}$$
+
+Calculating the denominator:
+$$1.60 \times 102 \times 10^{-19} = 163.2 \times 10^{-19} = 1.632 \times 10^{-17}$$
+
+Dividing the two:
+$$B \approx \frac{3.7575 \times 10^{-22}}{1.632 \times 10^{-17}} \approx 2.302 \times 10^{-5}\text{ T}$$
+
+Comparing this to the given options, it matches option **(B)**.
+
+### QUESTION_TYPE
+Multiple choice

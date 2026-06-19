@@ -1,0 +1,27 @@
+### Answer and Explanation
+
+To explain the paths of particles $X$, $Y$, and $Z$, we must consider the force exerted on a charged particle by a uniform electric field, defined by $F = qE$.
+
+#### 1. Analysis of Particle $Y$
+Particle $Y$ travels in a straight line through the electric field. Since the electric field is directed downwards, a particle would only travel undeflected if the net force acting on it is zero. For a particle with charge $q \neq 0$, there must be a force counteracting the electric field. However, since no other fields are mentioned, we conclude that **particle $Y$ is neutral ($q=0$)**. As it experiences no electrostatic force, it undergoes no acceleration and maintains its constant horizontal velocity.
+
+#### 2. Analysis of Particles $X$ and $Z$
+Particles $X$ and $Z$ are deflected, meaning they are charged. The force $F = qE$ acts on them.
+*   **Particle $X$:** This particle is deflected upwards (opposite to the direction of the electric field). For a particle to move in a direction opposite to the electric field lines, it must have a **negative charge**. The upward force $F = -qE$ results in an upward acceleration $a = \frac{-qE}{m}$.
+*   **Particle $Z$:** This particle is deflected downwards (in the same direction as the electric field). This indicates that the particle has a **positive charge**. The downward force $F = qE$ results in a downward acceleration $a = \frac{qE}{m}$.
+
+#### 3. Comparing the Magnitudes of Deflection
+Since all three particles have identical masses, the deflection is governed by the magnitude of the charge $|q|$. 
+*   The deflection $y$ in a uniform field is given by $y = \frac{1}{2}at^2 = \frac{1}{2}(\frac{qE}{m})(\frac{L}{v})^2$.
+*   Observing the diagram, particle $X$ is deflected significantly more than particle $Z$ within the same horizontal distance. 
+*   Because the masses are identical and the field $E$ is uniform, the greater deflection of $X$ implies that **the magnitude of the charge on particle $X$ is greater than the magnitude of the charge on particle $Z$** ($|q_X| > |q_Z|$).
+
+### Summary Table
+| Particle | Path | Charge Sign | Magnitude of Charge |
+| :--- | :--- | :--- | :--- |
+| **X** | Upwards | Negative | Largest |
+| **Y** | Straight | Neutral (0) | Zero |
+| **Z** | Downwards | Positive | Smaller than X |
+
+###QUESTION_TYPE
+Short answer

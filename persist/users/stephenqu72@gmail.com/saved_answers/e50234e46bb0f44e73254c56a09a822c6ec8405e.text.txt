@@ -1,0 +1,30 @@
+### Answer
+
+The set speed limit of $15 \text{ km h}^{-1}$ is **suitable and safe** for the bridge. 
+
+At this speed, the normal force $N$ exerted by the road on a vehicle remains positive, meaning the vehicle maintains contact with the road surface. Since the required centripetal force at this speed is less than the gravitational force acting on the car ($mg$), the car will not lose contact with the road (i.e., it will not "take off").
+
+---
+
+### Explanation
+
+To solve this, we must compare the speed limit to the "critical speed" at which a vehicle would lose contact with the road surface at the crest of the bridge.
+
+**1. Convert units to SI:**
+The speed limit $v = 15 \text{ km h}^{-1}$. To convert to $\text{m s}^{-1}$:
+$$v = \frac{15}{3.6} \approx 4.17 \text{ m s}^{-1}$$
+The radius $r = 10.0 \text{ m}$.
+
+**2. Determine the physical condition for safety:**
+For a vehicle to maintain contact with the road at the top of a curved bridge, the net centripetal force must be provided by the difference between gravity and the normal force:
+$$mg - N = \frac{mv^2}{r}$$
+Loss of contact occurs when $N = 0$. This gives the critical speed $v_c$:
+$$mg = \frac{mv_c^2}{r} \implies v_c = \sqrt{gr}$$
+Using $g \approx 9.8 \text{ m s}^{-2}$:
+$$v_c = \sqrt{9.8 \times 10.0} = \sqrt{98} \approx 9.9 \text{ m s}^{-1}$$
+
+**3. Assessment:**
+Since the set speed ($4.17 \text{ m s}^{-1}$) is significantly lower than the critical speed ($9.9 \text{ m s}^{-1}$), the vehicle is well within the safety margin. The normal force is sufficient to keep the car on the road, making the $15 \text{ km h}^{-1}$ limit appropriate.
+
+###QUESTION_TYPE
+Calculation question

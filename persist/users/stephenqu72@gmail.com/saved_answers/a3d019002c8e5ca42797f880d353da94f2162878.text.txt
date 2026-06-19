@@ -1,0 +1,17 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this question, we must understand the scale of energy at the atomic and subatomic level.
+
+1.  **Definition of the electron-volt (eV):** An electron-volt is defined as the amount of kinetic energy gained (or lost) by a single electron accelerating through an electric potential difference of $1\text{ volt}$.
+2.  **Conversion to Joules:** The charge of an electron $e$ is approximately $1.602 \times 10^{-19}\text{ C}$. Therefore, $1\text{ eV} = 1.602 \times 10^{-19}\text{ Joules}$.
+3.  **Why use it?** In nuclear and particle physics, the energy values involved are incredibly small when expressed in the standard SI unit of Joules (e.g., the mass-energy of an electron is roughly $8.18 \times 10^{-14}\text{ J}$). Working with such small exponents is cumbersome and prone to calculation errors. By using the electron-volt, we work with more manageable numbers (e.g., $0.511\text{ MeV}$), which makes the unit a "convenient" one for quantities of energy that are extremely small.
+
+**Why the other options are incorrect:**
+*   **(B)** Potential difference is measured in Volts ($V$), not electron-volts.
+*   **(C)** An electron-volt is a unit of energy, not a count of particles.
+*   **(D)** The electron-volt simplifies *extremely small* values to make them readable, not *large* values. Large values in physics are usually handled using scientific notation or prefixes (like Mega or Giga) with standard SI units.
+
+### QUESTION_TYPE
+Multiple choice

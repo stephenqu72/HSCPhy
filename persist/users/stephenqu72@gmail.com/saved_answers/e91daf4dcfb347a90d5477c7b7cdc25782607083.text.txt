@@ -1,0 +1,37 @@
+As an HSC Physics teacher, here is how you should approach this problem.
+
+### Part (a)
+**Answer:** Newton’s Third Law states that for every action, there is an equal and opposite reaction. In the context of the definition of the ampere, the magnetic force exerted by wire 1 on wire 2 is equal in magnitude and opposite in direction to the magnetic force exerted by wire 2 on wire 1. This means the interaction is mutual, and neither wire exerts a force without the other experiencing an equivalent reciprocal force.
+
+**Explanation:** To secure both marks, you must explicitly link the "force per unit length" concept to the interaction between the two wires. You must state:
+1. That the forces are equal in magnitude.
+2. That they act in opposite directions (attraction or repulsion).
+3. That this satisfies the definition of an action-reaction pair as per Newton’s Third Law.
+
+---
+
+### Part (b)
+**Answer:** 
+To calculate the force, we use the formula for the force per unit length between two parallel wires:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+Where:
+- $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$
+- $I_1 = I_2 = 0.375 \, \text{A}$
+- $r = 13.5 \, \text{mm} = 0.0135 \, \text{m}$
+- $L = 0.65 \, \text{m}$
+
+**Step-by-step Calculation:**
+1. Find the force per unit length:
+$$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times (0.375) \times (0.375)}{2\pi \times 0.0135}$$
+$$\frac{F}{L} = \frac{2 \times 10^{-7} \times 0.140625}{0.0135} \approx 2.0833 \times 10^{-6} \, \text{N/m}$$
+
+2. Multiply by the actual length ($L = 0.65 \, \text{m}$) to find the total force $F$:
+$$F = (2.0833 \times 10^{-6} \, \text{N/m}) \times 0.65 \, \text{m}$$
+$$F \approx 1.354 \times 10^{-6} \, \text{N}$$
+
+**Rounding to appropriate significant figures:** $1.35 \times 10^{-6} \, \text{N}$
+
+**Explanation:** Always ensure your units are in standard SI form before calculating. The most common mistake is forgetting to convert millimeters ($13.5 \, \text{mm}$) into meters ($0.0135 \, \text{m}$). Once you have the force per meter, multiplying by the total length of the wire provides the final force experienced by the segment.
+
+###QUESTION_TYPE
+Calculation question

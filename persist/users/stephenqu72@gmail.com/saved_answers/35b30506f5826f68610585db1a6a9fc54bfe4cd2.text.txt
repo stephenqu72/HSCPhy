@@ -1,0 +1,29 @@
+To solve this problem, we apply the principles of electromagnetism and vector resolution.
+
+### (a) Calculation of the Magnetic Force
+The magnitude of the magnetic force $F_B$ on a current-carrying conductor in a magnetic field is given by:
+$$F_B = B I L \sin(\theta)$$
+where:
+- $B = 4.80 \times 10^{-3} \text{ T}$
+- $I = 5.0 \text{ A}$
+- $L = 2.0 \text{ m}$
+- $\theta$ is the angle between the current and the magnetic field. Since the magnetic field is vertical and the rod is horizontal, they are perpendicular, so $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+$$F_B = (4.80 \times 10^{-3}) \times 5.0 \times 2.0 = 0.048 \text{ N}$$
+The force acts horizontally (due to the right-hand rule) perpendicular to the magnetic field and the current.
+
+### (b) Procedure to find the mass
+When gravity is included, the rod is held in equilibrium on the incline by the magnetic force, the normal force from the rails, and the gravitational force ($mg$).
+
+1. **Setup:** Place the rod on the rails and connect the power source.
+2. **Method:** Adjust the current $I$ until the rod remains stationary (it is neither sliding up nor down the rails).
+3. **Physics Principle:** At equilibrium, the components of forces acting parallel to the incline must sum to zero. The magnetic force $F_B$ is horizontal. Its component parallel to the incline is $F_B \cos(30^\circ)$. The component of gravity acting parallel to the incline is $mg \sin(30^\circ)$.
+4. **Equation:**
+   $$F_B \cos(30^\circ) = mg \sin(30^\circ)$$
+   $$mg = F_B \frac{\cos(30^\circ)}{\sin(30^\circ)} = F_B \cot(30^\circ)$$
+5. **Calculation:** Since $F_B = BIL$, we have:
+   $$m = \frac{BIL \cos(30^\circ)}{g \sin(30^\circ)}$$
+   By measuring the current $I$ required to maintain equilibrium, the mass $m$ can be calculated using this formula.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+### Answer
+The correct answer is **(A) $11209\text{ m s}^{-1}$**.
+
+### Explanation
+To calculate the escape velocity of an object, we use the principle of conservation of energy. For an object to escape the gravitational pull of a planet, its initial kinetic energy must be equal to the magnitude of its gravitational potential energy.
+
+The formula for escape velocity ($v_e$) is derived as follows:
+$$\frac{1}{2}mv_e^2 = \frac{GMm}{r}$$
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+**Key takeaways for your HSC Physics exam:**
+1. **Mass independence:** Notice that the mass of the object ($m = 80\text{ kg}$) cancels out of the equation. This means the escape velocity is independent of the mass of the object being launched.
+2. **Constants required:** To solve this, you need the standard Earth constants provided in your HSC Physics data sheet:
+   - Gravitational constant ($G$) $\approx 6.674 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+   - Mass of Earth ($M$) $\approx 5.972 \times 10^{24}\text{ kg}$
+   - Radius of Earth ($r$) $\approx 6.371 \times 10^6\text{ m}$
+
+**Calculation:**
+Substitute these values into the formula:
+$$v_e = \sqrt{\frac{2 \times (6.674 \times 10^{-11}) \times (5.972 \times 10^{24})}{6.371 \times 10^6}}$$
+$$v_e = \sqrt{\frac{7.971 \times 10^{14}}{6.371 \times 10^6}}$$
+$$v_e = \sqrt{1.251 \times 10^8}$$
+$$v_e \approx 11185\text{ m s}^{-1}$$
+
+Depending on the specific values of constants used in your curriculum's data sheet (e.g., using $M = 5.98 \times 10^{24}\text{ kg}$ and $r = 6.38 \times 10^6\text{ m}$), the result will round to approximately $11.2\text{ km s}^{-1}$ or $11200\text{ m s}^{-1}$. Option (A) is the only value consistent with this physical constant.
+
+###QUESTION_TYPE
+Multiple choice

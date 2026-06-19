@@ -1,0 +1,35 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+
+To find the force on the electron, we follow these steps:
+
+**1. Identify the electric field strength ($E$):**
+In the region between two parallel plates, the electric field is uniform and can be calculated using the formula:
+$$E = \frac{V}{d}$$
+Where:
+*   $V = 2500\text{ V}$ (potential difference)
+*   $d = 10\text{ cm} = 0.1\text{ m}$ (distance between the plates)
+
+$$E = \frac{2500}{0.1} = 25,000\text{ V/m (or N/C)}$$
+
+**2. Calculate the electric force ($F$):**
+The force on a charged particle in an electric field is given by:
+$$F = qE$$
+Where:
+*   $q = 1.6 \times 10^{-19}\text{ C}$ (the magnitude of the elementary charge of an electron)
+*   $E = 25,000\text{ N/C}$
+
+$$F = (1.6 \times 10^{-19}) \times 25,000$$
+$$F = 4.0 \times 10^{-15}\text{ N}$$
+
+**3. Determine the direction:**
+*   The top plate is at $2500\text{ V}$ and the bottom plate is at $0\text{ V}$. Electric field lines point from high potential to low potential, meaning the electric field points **downwards** (from the top plate to the bottom plate).
+*   Since the electron is **negatively charged**, it experiences a force in the direction **opposite** to the electric field.
+*   Therefore, the electron is pushed **upwards towards the top plate**.
+
+Matching this with the options provided, the magnitude is $4.0 \times 10^{-15}\text{ N}$ directed towards the top plate.
+
+###QUESTION_TYPE
+Multiple choice

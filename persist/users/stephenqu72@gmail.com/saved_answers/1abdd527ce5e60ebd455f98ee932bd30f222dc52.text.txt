@@ -1,0 +1,25 @@
+To solve this problem, we need to analyze the forces acting on the car at the highest point of the curved bridge.
+
+### Explanation
+
+1.  **Identify the forces:** At the top of the circular arc, there are two vertical forces acting on the car:
+    *   The downward force of gravity, $mg$.
+    *   The upward normal force, $N$, exerted by the road on the car.
+2.  **Apply Newton's Second Law:** Since the car is moving in a circular path, there must be a net centripetal force directed toward the center of the circle (downward). The net force is given by:
+    $$F_{net} = mg - N = \frac{mv^2}{r}$$
+3.  **Determine the condition for "maximum speed":** As the car speeds up, the normal force $N$ decreases. The car remains in contact with the road as long as $N > 0$. The threshold where the car is just about to lose contact with the road occurs when the normal force becomes zero ($N = 0$).
+4.  **Solve for $v$:** Setting $N = 0$ in the equation above:
+    $$mg - 0 = \frac{mv^2}{r}$$
+    $$mg = \frac{mv^2}{r}$$
+    Canceling the mass $m$ from both sides gives:
+    $$g = \frac{v^2}{r}$$
+    $$v^2 = rg$$
+    $$v = \sqrt{rg}$$
+
+Therefore, the maximum speed at which the car remains in contact with the road is $\sqrt{rg}$. Comparing this to the given options, the correct choice is **(B)**.
+
+### Answer
+The correct expression is **(B)** $\sqrt{rg}$.
+
+###QUESTION_TYPE
+Multiple choice

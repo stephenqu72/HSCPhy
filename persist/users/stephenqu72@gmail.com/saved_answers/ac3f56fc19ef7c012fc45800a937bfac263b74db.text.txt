@@ -1,0 +1,26 @@
+To determine the relationship between $R_1$ and $R_2$, we must look at the rotational dynamics of the lever system (torque).
+
+### Answer
+The correct answer is **(A) $R_2 > 2R_1$**.
+
+### Explanation
+1. **Understanding Torque:** Torque ($\tau$) is calculated as the product of the force and the perpendicular distance from the pivot (fulcrum): $\tau = F \cdot d$. Here, the force is the weight of the masses ($W = mg$).
+   - The torque produced by the mass $2M$ is $\tau_1 = (2M)g \cdot R_1$.
+   - The torque produced by the mass $M$ is $\tau_2 = Mg \cdot R_2$.
+
+2. **Analyzing the Motion:** The problem states that when the system is released, the mass $M$ accelerates **downwards**. This means the lever is rotating in a clockwise direction.
+   - For the system to rotate clockwise, the clockwise torque must be greater than the counter-clockwise torque:
+     $$\tau_2 > \tau_1$$
+
+3. **Setting up the inequality:**
+   - Substitute the expressions for torque into the inequality:
+     $$Mg \cdot R_2 > (2M)g \cdot R_1$$
+
+4. **Simplifying:**
+   - We can cancel out the common terms $M$ and $g$ from both sides of the inequality:
+     $$R_2 > 2R_1$$
+
+This confirms that for the lighter mass side to accelerate downwards, its lever arm $R_2$ must be more than twice the length of the lever arm $R_1$ associated with the heavier mass.
+
+###QUESTION_TYPE
+Multiple choice

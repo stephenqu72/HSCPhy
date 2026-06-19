@@ -1,0 +1,39 @@
+To find the magnitude of the resultant force, we need to resolve the forces into horizontal ($x$) and vertical ($y$) components and then combine them using the Pythagorean theorem.
+
+### Step-by-Step Solution:
+
+1.  **Define a coordinate system:**
+    *   Let the positive $x$-direction be to the right and the positive $y$-direction be upwards.
+    *   $F_X = 240\text{ N}$ (positive $x$)
+    *   $F_Z = 210\text{ N}$ (negative $x$)
+    *   $F_W = 200\text{ N}$ (positive $y$)
+    *   $F_Y = 180\text{ N}$ (negative $y$)
+
+2.  **Calculate the net force in the horizontal direction ($R_x$):**
+    $$R_x = F_X - F_Z$$
+    $$R_x = 240\text{ N} - 210\text{ N} = 30\text{ N}$$
+
+3.  **Calculate the net force in the vertical direction ($R_y$):**
+    $$R_y = F_W - F_Y$$
+    $$R_y = 200\text{ N} - 180\text{ N} = 20\text{ N}$$
+
+4.  **Calculate the magnitude of the resultant force ($R$):**
+    The resultant force is the vector sum of $R_x$ and $R_y$. Since these components are perpendicular, we use the Pythagorean theorem:
+    $$R = \sqrt{R_x^2 + R_y^2}$$
+    $$R = \sqrt{30^2 + 20^2}$$
+    $$R = \sqrt{900 + 400}$$
+    $$R = \sqrt{1300}$$
+    $$R \approx 36.055\dots\text{ N}$$
+
+Rounding to one decimal place, we get **$36.1\text{ N}$**.
+
+Comparing this result to the given options:
+A. $28.3\text{ N}$
+B. $30.0\text{ N}$
+C. **$36.1\text{ N}$**
+D. $50.0\text{ N}$
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

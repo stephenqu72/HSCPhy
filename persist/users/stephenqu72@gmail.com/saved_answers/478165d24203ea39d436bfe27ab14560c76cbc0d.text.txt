@@ -1,0 +1,28 @@
+To solve this problem, we must look at the formula for gravitational potential energy ($U$) of an object at a distance ($r$) from the center of a mass ($M$):
+
+$$U = -\frac{GMm}{r}$$
+
+### Step-by-Step Explanation:
+
+1.  **Understand the relationship:** The question asks us to consider how changing the radius $r$ affects the gravitational potential energy $U$, assuming all other variables ($G$, $M$, and $m$) remain constant. From the formula, we can see that $U$ is inversely proportional to the radius:
+    $$U \propto -\frac{1}{r}$$
+
+2.  **Analyze the "gain" in energy:** Gravitational potential energy is negative because it is a "bound" state. As the object moves further away from the center of mass ($r$ increases), the value of $U$ becomes *less negative* (i.e., it increases toward zero). 
+
+3.  **Evaluate the triple relationship:** Let the initial energy be $U_1 = -\frac{k}{r_1}$ (where $k = GMm$) and the final energy be $U_2 = -\frac{k}{r_2}$.
+    If $U_2 = 3 \times U_1$, then:
+    $$-\frac{k}{r_2} = 3 \times \left(-\frac{k}{r_1}\right)$$
+    
+    By canceling $-k$ from both sides, we get:
+    $$\frac{1}{r_2} = \frac{3}{r_1}$$
+    Rearranging for $r_2$:
+    $$r_2 = \frac{r_1}{3}$$
+
+4.  **Conclusion:** To triple the potential energy (make it three times less negative, moving it closer to zero), the radius must be reduced by a factor of 3.
+
+Therefore, the correct answer is **b) Reducing the radius by a third.**
+
+*Note for HSC students: In physics, "tripling" a negative value like $-90 \text{ J}$ would technically result in $-270 \text{ J}$ (a decrease). However, in this context, the question refers to the magnitude of the potential energy or the "gain" toward zero, which mathematically necessitates moving the object closer to the source of gravity, thus reducing the radius.*
+
+###QUESTION_TYPE
+Multiple choice

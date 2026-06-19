@@ -1,0 +1,37 @@
+To solve this problem, we need to relate the additional mass added to the balance to the magnetic force exerted between the two current-carrying conductors.
+
+### 1. Identify the Physics Principles
+The magnetic force per unit length $F/L$ between two parallel wires carrying current $I$ separated by a distance $r$ is given by:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2 \pi r}$$
+Since the currents are equal ($I_1 = I_2 = I$), the formula becomes:
+$$\frac{F}{L} = \frac{\mu_0 I^2}{2 \pi r}$$
+
+### 2. Calculate the Force
+The beam was brought back to equilibrium by adding $1.0\text{ g}$ to the pan. This additional weight corresponds to the magnetic force:
+$$F = mg = (1.0 \times 10^{-3}\text{ kg}) \times (9.8\text{ m/s}^2) = 9.8 \times 10^{-3}\text{ N}$$
+
+### 3. Setup the Calculation
+Given values:
+* $F = 9.8 \times 10^{-3}\text{ N}$
+* $L = 0.40\text{ m}$
+* $r = 1.0\text{ cm} = 0.010\text{ m}$
+* $\mu_0 = 4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+Substitute these into the formula:
+$$\frac{9.8 \times 10^{-3}}{0.40} = \frac{(4\pi \times 10^{-7}) \times I^2}{2 \pi \times 0.010}$$
+
+Simplify the right side:
+$$\frac{9.8 \times 10^{-3}}{0.40} = \frac{2 \times 10^{-7} \times I^2}{0.010}$$
+$$0.0245 = (2 \times 10^{-5}) \times I^2$$
+$$I^2 = \frac{0.0245}{2 \times 10^{-5}} = 1225$$
+$$I = \sqrt{1225} = 35\text{ A}$$
+
+The current in the conducting rods is **35 A**. This matches option **B**.
+
+### Explanation Summary
+* We equate the additional weight added to the balance to the magnetic force of attraction between the two rods.
+* We use the formula for the force between two parallel conductors, rearranging it to solve for current $I$.
+* Converting units into standard SI units ($kg$, $m$, $s$) ensures the result is in Amperes.
+
+###QUESTION_TYPE
+Multiple choice

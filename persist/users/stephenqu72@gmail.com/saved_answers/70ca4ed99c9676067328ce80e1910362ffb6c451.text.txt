@@ -1,0 +1,35 @@
+To compare the magnetic forces on the two conductors, we must use the formula for the magnetic force $F$ on a current-carrying wire in a uniform magnetic field:
+$$F = BIL \sin(\theta)$$
+where:
+- $B$ is the magnetic flux density.
+- $I$ is the current.
+- $L$ is the length of the conductor within the magnetic field.
+- $\theta$ is the angle between the current direction and the magnetic field lines.
+
+### Answer
+The magnetic forces on conductors A and B are **equal**.
+
+### Explanation
+1. **Analyze Conductor B:** Conductor B is placed perpendicular to the field lines. Its length within the field is $d$. The angle between the wire and the field is $90^\circ$. Thus, the force is:
+   $$F_B = B I d \sin(90^\circ) = B I d(1) = BId$$
+
+2. **Analyze Conductor A:** Conductor A is tilted at an angle of $30^\circ$ relative to the horizontal. Since the magnetic field is vertical (pointing into the page, perpendicular to the horizontal), the angle between the conductor and the magnetic field lines remains $90^\circ$ at all points. However, we must determine the length $L_A$ of the wire segment that exists within the width $d$ of the field.
+   Using trigonometry on the right-angled triangle formed by the field width $d$ and the wire:
+   $$\sin(30^\circ) = \frac{d}{L_A} \implies L_A = \frac{d}{\sin(30^\circ)}$$
+
+3. **Calculate Force on A:**
+   Substitute $L_A$ into the force formula:
+   $$F_A = B I L_A \sin(90^\circ)$$
+   $$F_A = B I \left( \frac{d}{\sin(30^\circ)} \right) (1)$$
+   Since $\sin(30^\circ) = 0.5$:
+   $$F_A = \frac{B I d}{0.5} = 2BId$$
+
+**Wait, let's re-evaluate the geometry:**
+In physics problems of this type, the "force on the conductor" often refers to the component of the force perpendicular to the field, or the effective length within the field. If we look at the vector cross product $\vec{F} = I(\vec{L} \times \vec{B})$, the force magnitude depends on the component of length *perpendicular* to the field. 
+Actually, note that the length of the wire $L$ *in the field* is $L = d / \sin(30^\circ)$.
+The force is $F = B I L \sin(\theta)$. Here $\theta$ is the angle between the wire and the field lines. Since the field is into the page and the wire is in the plane of the page, the angle $\theta$ is always $90^\circ$.
+Therefore, $F_A = B I (d/\sin 30^\circ) \times 1 = 2BId$.
+**Correction:** Comparing the size, $F_A = 2F_B$. The force on A is twice the force on B because the length of the wire segment A inside the field is twice as long as the length of wire B.
+
+###QUESTION_TYPE
+Calculation question

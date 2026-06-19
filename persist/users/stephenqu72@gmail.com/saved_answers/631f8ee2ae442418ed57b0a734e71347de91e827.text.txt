@@ -1,0 +1,27 @@
+To solve this problem, we need to calculate the work done on a charged particle by a uniform electric field.
+
+### Explanation
+1.  **Understand the Physics:** The work done ($W$) by an electric field on a charged particle moving through a potential difference ($V$) is given by the formula:
+    $$W = qV$$
+    where $q$ is the charge of the particle and $V$ is the potential difference between the plates.
+
+2.  **Identify the variables:**
+    *   **Charge ($q$):** A deuterium nucleus consists of 1 proton and 1 neutron. Since the neutron has no charge, the total charge is that of one proton. The elementary charge is $e = 1.6 \times 10^{-19} \, \text{C}$.
+    *   **Potential Difference ($V$):** The problem states the plates have a potential difference of $100 \, \text{V}$.
+
+3.  **Perform the Calculation:**
+    $$W = (1.6 \times 10^{-19} \, \text{C}) \times (100 \, \text{V})$$
+    $$W = 1.6 \times 10^{-17} \, \text{J}$$
+
+4.  **Conclusion:** The work done by the electric field as the deuterium nucleus moves from the positive plate to the negative plate is $1.6 \times 10^{-17} \, \text{J}$. Note that the distance between the plates ($1 \, \text{mm}$) is extraneous information in this specific calculation because the work depends only on the potential difference and the charge.
+
+Comparing our result to the given options:
+(A) $1.6 \times 10^{-17} \, \text{J}$
+(B) $1.6 \times 10^{-18} \, \text{J}$
+(C) $3.2 \times 10^{-17} \, \text{J}$
+(D) $3.2 \times 10^{-18} \, \text{J}$
+
+The correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

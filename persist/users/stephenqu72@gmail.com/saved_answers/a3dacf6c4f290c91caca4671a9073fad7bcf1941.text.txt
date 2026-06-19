@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through this problem. This is a classic electromagnetism question testing your understanding of the Lorentz force and circular motion.
+
+### Solution
+
+**Part (a): Initial force on the charged particle**
+
+To find the magnetic force $F$, we use the formula:
+$$F = qvB\sin(\theta)$$
+Given:
+*   $q = +7.5 \times 10^{-6} \text{ C}$
+*   $v = 6.0 \times 10^3 \text{ m s}^{-1}$
+*   $B = 3.6 \times 10^{-4} \text{ T}$
+*   Since the particle moves perpendicular to the magnetic field (which points into the page), $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+Calculation:
+$$F = (7.5 \times 10^{-6}) \times (6.0 \times 10^3) \times (3.6 \times 10^{-4})$$
+$$F = 1.62 \times 10^{-5} \text{ N}$$
+
+Using the **Right-Hand Rule**: With your fingers pointing in the direction of $v$ (right) and curling into the page (direction of $B$), your thumb points **upwards**.
+**Initial force:** $1.62 \times 10^{-5} \text{ N}$ directed upwards.
+
+***
+
+**Part (b): Subsequent motion of the particle**
+
+Because the magnetic force is always perpendicular to the velocity, it acts as a centripetal force ($F_c$), causing the particle to undergo **uniform circular motion**. We can calculate the radius ($r$) of this path using $F_B = \frac{mv^2}{r}$:
+
+$$r = \frac{mv}{qB}$$
+$$r = \frac{(4.0 \times 10^{-15} \text{ kg}) \times (6.0 \times 10^3 \text{ m s}^{-1})}{1.62 \times 10^{-5} \text{ N}}$$
+$$r = \frac{2.4 \times 10^{-11}}{1.62 \times 10^{-5}} \approx 1.48 \times 10^{-6} \text{ m}$$
+
+**Description:** The particle will move in a circular path with a radius of approximately $1.48 \times 10^{-6} \text{ m}$. Its speed will remain constant at $6.0 \times 10^3 \text{ m s}^{-1}$ because the magnetic force does no work on the charge.
+
+***
+
+### How to solve it
+1.  **Identify the force:** Recognize that a charge moving in a magnetic field experiences a Lorentz force. Always check the angle between $v$ and $B$.
+2.  **Vector direction:** Always apply the Right-Hand Rule to determine direction. Remember that if the charge were negative, the force would be in the opposite direction.
+3.  **Link to motion:** Recall that a force perpendicular to motion creates circular motion. Equate the magnetic force formula to the centripetal force formula ($F_c = \frac{mv^2}{r}$) to derive characteristics like radius or period.
+
+###QUESTION_TYPE
+Calculation question

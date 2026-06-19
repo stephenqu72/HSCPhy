@@ -1,0 +1,22 @@
+To determine the direction of the magnetic force on the beta particle, we use the **Right-Hand Rule (RHR)** for magnetic forces, keeping in mind the charge of the particle.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the particle and its charge:** A beta particle ($\beta$) is an electron, which carries a **negative charge**.
+2.  **Determine the direction of the velocity vector ($v$):** From the diagram, the velocity vector is pointing up and to the right.
+3.  **Determine the direction of the magnetic field vector ($B$):** The magnetic field lines are pointing to the left.
+4.  **Apply the Right-Hand Rule:** 
+    *   Point your fingers in the direction of the velocity vector ($v$).
+    *   Curl your fingers toward the direction of the magnetic field vector ($B$).
+    *   Your thumb points in the direction of the magnetic force ($F$) for a **positive charge**.
+    *   For the configuration shown (fingers pointing up/right, curling toward the left), your thumb will point **out of the page**.
+5.  **Account for the negative charge:** Since a beta particle is negatively charged, the direction of the force is opposite to what the Right-Hand Rule gives for a positive charge. Therefore, the force is directed **into the page**.
+
+Alternatively, you can use the mathematical definition of the magnetic force:
+$$F = q(v \times B)$$
+Where $q$ is negative. The cross product of $v$ (up/right) and $B$ (left) results in a vector pointing out of the page. Multiplying by the negative charge $q$ flips the direction, resulting in a force pointing **into the page**.
+
+**Correct Answer:** **(C) Into the page.**
+
+###QUESTION_TYPE
+Multiple choice

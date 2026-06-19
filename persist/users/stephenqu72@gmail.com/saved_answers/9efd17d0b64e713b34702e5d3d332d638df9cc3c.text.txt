@@ -1,0 +1,28 @@
+To determine the correct answer, we must analyze the motion of the particle and the potential difference between the plates.
+
+### 1. Determining the Charge of the Particle
+*   The top plate is at $120\text{ V}$ and the bottom plate is at $50\text{ V}$. This creates an electric field pointing from the top plate (high potential) towards the bottom plate (low potential).
+*   The particle enters horizontally but is deflected **downwards** towards the bottom plate.
+*   Since the electric force on a positive charge acts in the direction of the electric field (towards the negative/lower potential plate), and the particle is being attracted to the plate at $50\text{ V}$, the particle must be **positive**.
+
+### 2. Calculating the Work Done
+The work done by an electric field on a charged particle moving between two potentials is given by the formula:
+$$W = q \cdot \Delta V$$
+Where:
+*   $q = 2.0 \times 10^{-4}\text{ C}$
+*   $\Delta V$ is the potential difference between the starting point and the ending point.
+
+The particle starts at the midline between the plates. Since the plates are at $120\text{ V}$ and $50\text{ V}$ and the total distance between them is $60\text{ cm}$ ($30\text{ cm} + 30\text{ cm}$), the potential at the midline is exactly the average of the two:
+$$V_{\text{midline}} = \frac{120\text{ V} + 50\text{ V}}{2} = 85\text{ V}$$
+
+The particle strikes the bottom plate, which is at $50\text{ V}$. Therefore, the potential difference $\Delta V$ experienced by the particle is:
+$$\Delta V = 85\text{ V} - 50\text{ V} = 35\text{ V}$$
+
+Now, substitute these values into the work formula:
+$$W = (2.0 \times 10^{-4}\text{ C}) \times (35\text{ V})$$
+$$W = 7.0 \times 10^{-3}\text{ J}$$
+
+Comparing our results (Positive charge, $7.0 \times 10^{-3}\text{ J}$), the correct option is **A**.
+
+###QUESTION_TYPE
+Multiple choice

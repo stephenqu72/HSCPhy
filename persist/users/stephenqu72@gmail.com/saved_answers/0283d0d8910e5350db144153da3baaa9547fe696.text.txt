@@ -1,0 +1,38 @@
+To solve this problem, we apply the principles of electrostatics and kinematics. Since the ink drop moves between two parallel plates, it experiences a uniform electric field.
+
+### Part (a): Show that $a = \frac{Vq}{md}$
+
+1. **Electric Field:** The electric field strength $E$ between two parallel plates separated by a distance $d$ with a potential difference $V$ is given by:
+   $$E = \frac{V}{d}$$
+2. **Electric Force:** The force $F$ on a charge $q$ in an electric field $E$ is given by:
+   $$F = qE$$
+3. **Newton's Second Law:** Substituting the expression for $E$ into the force equation:
+   $$F = q \left( \frac{V}{d} \right) = \frac{Vq}{d}$$
+   From Newton's second law, $F = ma$, therefore:
+   $$ma = \frac{Vq}{d}$$
+   Solving for acceleration $a$:
+   $$a = \frac{Vq}{md}$$
+
+---
+
+### Part (b): Find the vertical deflection
+
+First, we calculate the constant vertical acceleration $a$:
+* $V = 10\,000\text{ V}$
+* $q = 1.0 \times 10^{-13}\text{ C}$
+* $m = 2.0 \times 10^{-10}\text{ kg}$
+* $d = 5\text{ mm} = 5 \times 10^{-3}\text{ m}$
+
+$$a = \frac{(10\,000)(1.0 \times 10^{-13})}{(2.0 \times 10^{-10})(5 \times 10^{-3})} = \frac{10^{-9}}{1.0 \times 10^{-12}} = 1000\text{ m/s}^2$$
+
+Next, find the time $t$ the drop spends between the plates. The horizontal velocity $u = 20\text{ m/s}$ is constant, and the plate length $L = 20\text{ cm} = 0.2\text{ m}$:
+$$t = \frac{L}{u} = \frac{0.2}{20} = 0.01\text{ s}$$
+
+Finally, use the kinematic equation for vertical displacement $y$ (where initial vertical velocity $u_y = 0$):
+$$y = u_y t + \frac{1}{2}at^2$$
+$$y = 0 + \frac{1}{2}(1000)(0.01)^2$$
+$$y = 500 \times 0.0001 = 0.05\text{ m}$$
+The vertical deflection is **$0.05\text{ m}$ or $5\text{ cm}$**.
+
+###QUESTION_TYPE
+Calculation question

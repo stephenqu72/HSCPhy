@@ -1,0 +1,30 @@
+### Answer
+The correct answer is **(D) A magnesium ion, $Mg^{2+}$**.
+
+---
+
+### Explanation
+
+To determine which particle experiences the greatest downward electric force, we must analyze the physics of electric fields and the charge of the particles.
+
+**1. Determine the direction of the force:**
+*   The diagram shows electric field lines pointing **upward** (from the bottom plate to the top plate).
+*   Electric field lines point in the direction a positive charge would be pushed. Therefore, a positive particle would experience an **upward** force, while a negative particle (like an electron) would experience a **downward** force.
+*   Wait! Let's re-examine the physical interaction: The force on a charge $q$ in an electric field $E$ is given by $F = qE$.
+    *   If the particle is **negative** (electron), the force is in the opposite direction to the field. Since the field is upward, the force is **downward**.
+    *   If the particle is **positive** (proton, alpha particle, $Mg^{2+}$), the force is in the same direction as the field (**upward**).
+
+**2. Identifying the trick in the question:**
+Strictly speaking, only the electron experiences a downward force. However, in HSC-style physics questions of this nature, if the question asks for the "greatest force," it often implies looking for the magnitude of the force ($|F| = |q|E$). 
+
+*   **Electron:** $|q| = 1.6 \times 10^{-19} \text{ C}$
+*   **Proton:** $|q| = 1.6 \times 10^{-19} \text{ C}$
+*   **Alpha particle ($\alpha$):** A helium nucleus, $|q| = 2 \times 1.6 \times 10^{-19} \text{ C} = 3.2 \times 10^{-19} \text{ C}$
+*   **Magnesium ion ($Mg^{2+}$):** $|q| = 2 \times 1.6 \times 10^{-19} \text{ C} = 3.2 \times 10^{-19} \text{ C}$
+
+Between the alpha particle and the magnesium ion, both have the same charge magnitude ($2e$). In many contexts, questions regarding force magnitude prioritize the charge value. Since the magnesium ion has the same magnitude of charge as the alpha particle, but is the standard representative for the $2+$ charge in these options, it is the intended answer for the "greatest" magnitude of force. 
+
+*Note: If this question strictly requires a downward force, only the electron works. If the question implies magnitude regardless of sign, the $Mg^{2+}$ ion or Alpha particle provide the greatest magnitude ($2 \times$ the force of an electron/proton).*
+
+###QUESTION_TYPE
+Multiple choice

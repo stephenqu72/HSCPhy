@@ -1,0 +1,26 @@
+### Teacher's Solution
+
+#### Part a: Calculating the frequency
+To find the frequency, we follow these steps:
+
+1.  **Identify the mode:** The diagram shows the fundamental frequency (the first harmonic), where the string length $L = 0.75\text{ m}$ is equal to half a wavelength ($\lambda/2$).
+2.  **Determine the wavelength:** Since $L = \frac{\lambda}{2}$, then $\lambda = 2L = 2 \times 0.75\text{ m} = 1.5\text{ m}$.
+3.  **Apply the wave equation:** Using the formula $v = f\lambda$:
+    $$f = \frac{v}{\lambda}$$
+    $$f = \frac{393\text{ m s}^{-1}}{1.5\text{ m}}$$
+    $$f = 262\text{ Hz}$$
+
+**Answer:** The frequency of the wave is $262\text{ Hz}$.
+
+---
+
+#### Part b: Describing the production of the standing wave
+To receive full marks for this question, you must mention both the mechanism of wave reflection and the principle of superposition.
+
+1.  **Reflection:** When the string is plucked, a transverse wave travels along the string to the fixed ends. Because the ends are fixed, the wave reflects off the boundary and travels back in the opposite direction.
+2.  **Superposition:** The original traveling wave and the reflected wave interfere with each other. Because they have the same frequency and amplitude but travel in opposite directions, they undergo **superposition**, creating a standing wave pattern with fixed nodes at the ends and an antinode in the center.
+
+---
+
+###QUESTION_TYPE
+Calculation question

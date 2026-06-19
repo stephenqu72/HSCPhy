@@ -1,0 +1,20 @@
+To answer this question effectively for an HSC-level response, you must connect the physics of electromagnetic fields to the specific stages of the mass spectrometer.
+
+### Answer
+The operation of a mass spectrometer relies on the interaction between charged particles and electromagnetic fields:
+
+1.  **Acceleration:** Once ionised, positive ions are accelerated by an **electric field**. The potential difference ($V$) does work on the ion, converting electrical potential energy into kinetic energy ($E_k = qV$). This ensures all ions of a given charge reach a consistent velocity.
+2.  **Deflection:** As the ions enter the magnetic field ($B$), they experience a Lorentz force ($F = qvB \sin\theta$) perpendicular to their path. This force acts as a centripetal force ($F = \frac{mv^2}{r}$), causing the ions to travel in a circular path.
+3.  **Separation:** The radius of the path ($r$) is determined by the mass-to-charge ratio ($m/q$) of the ion, where $r = \frac{mv}{qB}$. Because particles with different masses (or charges) experience different radii of curvature in the same magnetic field, they are physically separated, allowing for detection based on their specific $m/q$ value.
+
+---
+
+### How to solve this
+To secure full marks (3 marks) in an HSC context, follow this structure:
+
+*   **Step 1: Identify the role of the Electric Field.** Note that the electric field is responsible for creating motion. You must mention the conversion of electric potential energy into kinetic energy.
+*   **Step 2: Identify the role of the Magnetic Field.** This is the "sorting" mechanism. You must explain that the magnetic field applies a force on a *moving* charge, which results in circular deflection.
+*   **Step 3: Link Physics to the Result.** Use the relationship between mass, charge, and radius. Explain that since $r \propto \frac{m}{q}$, particles with different masses deflect by different amounts, which is the fundamental principle that allows the machine to "identify" different atoms.
+
+###QUESTION_TYPE
+Short answer

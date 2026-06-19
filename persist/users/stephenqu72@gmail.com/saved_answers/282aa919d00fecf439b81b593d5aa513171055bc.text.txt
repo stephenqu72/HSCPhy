@@ -1,0 +1,25 @@
+To determine the direction of the force acting on the transmission line, we use the **Right-Hand Rule (RHR)** for a current-carrying conductor in a magnetic field.
+
+### Answer
+The correct answer is **(D) Towards the ground**.
+
+### Explanation
+The force $F$ on a current-carrying wire in a magnetic field is given by the formula:
+$$F = ILB\sin(\theta)$$
+The direction of this force is determined by the Right-Hand Rule:
+1.  **Point your fingers** in the direction of the conventional current ($I$). In this scenario, the current is flowing from **east to west**.
+2.  **Curl your fingers** toward the direction of the magnetic field ($B$). The Earth's magnetic field points **north**. 
+3.  Because the current (West) and the magnetic field (North) are perpendicular to each other on the horizontal plane, we must orient our hand correctly:
+    *   Point your right thumb (or fingers) West.
+    *   Point your fingers (or palm) North.
+4.  Your thumb points in the direction of the force. If you point your fingers west and curl them toward the north, your thumb will point **downward**, which is **towards the ground**.
+
+Visualizing the compass rose on the ground:
+*   North is "up" the page.
+*   West is to the "left" of the page.
+*   The cross product of West and North (using the right-hand coordinate system where $x=$ East, $y=$ North, $z=$ Up) results in a vector pointing down into the page (negative $z$-direction).
+
+Thus, the force acts vertically downwards toward the Earth's surface.
+
+###QUESTION_TYPE
+Multiple choice

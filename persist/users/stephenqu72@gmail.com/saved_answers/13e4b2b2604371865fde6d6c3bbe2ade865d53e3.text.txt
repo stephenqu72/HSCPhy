@@ -1,0 +1,24 @@
+### Answer
+
+**(a)** The induced EMF ($\varepsilon$) in a conductor moving through a magnetic field is given by the relationship where the velocity vector ($\vec{v}$) must have a component perpendicular to both the magnetic field ($\vec{B}$) and the length of the rod. Specifically, $\varepsilon = Blv_{\perp}$. 
+
+*   **At the ends of the swing:** The rod is momentarily stationary ($v = 0$). Since there is no motion, there is no change in magnetic flux linkage or magnetic force acting on the charge carriers, resulting in zero induced EMF.
+*   **At the vertical (mid-way) position:** The velocity of the rod is purely horizontal (parallel to the magnetic field lines). For an EMF to be induced, the conductor must cut across magnetic field lines. Because the velocity vector is parallel to the magnetic field lines ($v$ is parallel to $B$), the rod is not "cutting" any flux, meaning the component of velocity perpendicular to the magnetic field is zero. Consequently, the induced EMF is zero.
+
+**(b)** Yes, the rod will swing. When a current ($I$) flows through a conductor placed in an external magnetic field ($B$), the rod experiences a magnetic force ($F = IlB \sin \theta$). 
+Since the rod is vertical and the magnetic field is horizontal, the current is perpendicular to the magnetic field. According to the Right-Hand Rule, this interaction produces a force perpendicular to both the current and the magnetic field. This force acts horizontally on the rod, creating a torque about the axle, which will cause the rod to swing out of its vertical position.
+
+---
+
+### How to solve this
+
+1.  **Analyze (a) using Motional EMF principles:** Remember the formula $\varepsilon = Blv_{\perp}$. This formula tells you that EMF is generated only when the conductor's velocity has a component perpendicular to the magnetic field lines. 
+    *   Recognize that at the "turning points" (ends), velocity is zero.
+    *   Recognize that at the equilibrium point (vertical), the velocity is moving "along" the field lines rather than "across" them, so $v_{\perp} = 0$.
+
+2.  **Analyze (b) using the Motor Effect:** Recall that a current-carrying conductor in a magnetic field experiences a force defined by $F = IlB \sin \theta$. 
+    *   Identify that the current and magnetic field are perpendicular ($\theta = 90^\circ$), ensuring a maximum force ($F = IlB$). 
+    *   Explain the conversion of energy: the magnetic field exerts a force on the charges, which is transferred to the rod, creating torque and resulting in physical motion.
+
+### QUESTION_TYPE
+Short answer

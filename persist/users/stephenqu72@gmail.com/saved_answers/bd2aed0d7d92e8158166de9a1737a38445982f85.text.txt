@@ -1,0 +1,43 @@
+To determine the relative escape velocities of the planets, we use the formula for escape velocity ($v_e$):
+
+$$v_e = \sqrt{\frac{2GM}{R}}$$
+
+Where:
+- $G$ is the gravitational constant.
+- $M$ is the mass of the planet.
+- $R$ is the radius of the planet (where $R = \text{Diameter} / 2$).
+
+Since $2G$ is a constant, the escape velocity is proportional to $\sqrt{\frac{M}{R}}$. Let's calculate the relative values for $v_e^2$ (proportional to $M/R$) for each planet:
+
+**Planet X:**
+- $M = 3.3 \times 10^{23}$ kg
+- $R \propto 4879$ km
+- Ratio $\propto \frac{3.3 \times 10^{23}}{4879} \approx 6.76 \times 10^{19}$
+
+**Planet Y:**
+- $M = 4.87 \times 10^{24}$ kg
+- $R \propto 12104$ km
+- Ratio $\propto \frac{48.7 \times 10^{23}}{12104} \approx 4.02 \times 10^{20}$
+
+**Planet Z:**
+- $M = 6.42 \times 10^{23}$ kg
+- $R \propto 6792$ km
+- Ratio $\propto \frac{6.42 \times 10^{23}}{6792} \approx 9.45 \times 10^{19}$
+
+**Comparing the ratios:**
+- Planet Y has a magnitude of $\approx 40 \times 10^{19}$
+- Planet Z has a magnitude of $\approx 9.45 \times 10^{19}$
+- Planet X has a magnitude of $\approx 6.76 \times 10^{19}$
+
+Therefore, the order of escape velocities is $Y > Z > X$.
+
+Looking at the options, this matches choice **(B)**.
+
+### How to solve it:
+1. **Recall the formula:** Understand that $v_e \propto \sqrt{M/R}$.
+2. **Standardize units:** You don't need to convert units if you are only comparing ratios, as long as units are consistent across all planets.
+3. **Calculate the ratio $M/R$:** Divide the mass by the diameter for each row. The diameter is proportional to the radius, so using the diameter directly in the denominator works for comparison purposes.
+4. **Compare values:** Arrange the resulting values from largest to smallest to find the correct sequence.
+
+###QUESTION_TYPE
+Multiple choice

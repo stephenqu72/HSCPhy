@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this problem, we must use the universal formula for gravitational potential energy ($U$), which defines the energy of an object of mass $m$ at a distance $r$ from the center of a planet with mass $M$:
+
+$$U = -\frac{GMm}{r}$$
+
+1.  **Dependence on mass:** From the formula, we can clearly see that the gravitational potential energy is directly proportional to both the mass of the planet ($M$) and the mass of the space mission ($m$). Therefore, any option stating it is "independent" of either mass is incorrect. This eliminates (C) and (D).
+2.  **Direction of change:** Because the potential energy is negative, as the space mission moves away from the planet, $r$ increases. 
+    *   As $r \to \infty$, the fraction $\frac{GMm}{r}$ approaches $0$.
+    *   Since the value is negative, moving from a large negative value (e.g., $-1000$ J) to a smaller negative value closer to zero (e.g., $-100$ J) represents an **increase** in value.
+3.  **Conclusion:** As the object moves away, the gravitational potential energy increases towards a maximum value of zero (which is defined as the potential energy at an infinite distance from the planet).
+
+Thus, option (A) is the only statement that correctly identifies the dependence on both masses and the correct mathematical trend of the energy.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,30 @@
+To solve this problem, we need to use the formula for gravitational potential energy ($U$) of a mass $m$ at a distance $r$ from the center of a planet with mass $M$:
+
+$$U = -\frac{GMm}{r}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the variables:**
+    *   $m = 500\text{ kg}$
+    *   $r_1 = 10\,000\text{ km} = 1.0 \times 10^7\text{ m}$
+    *   $r_2 = 20\,000\text{ km} = 2.0 \times 10^7\text{ m}$
+    *   $M$ (Mass of Earth) $\approx 5.97 \times 10^{24}\text{ kg}$
+    *   $G$ (Gravitational constant) $\approx 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$
+
+2.  **Understand the Change in Potential Energy ($\Delta U$):**
+    The change in potential energy is given by:
+    $$\Delta U = U_2 - U_1 = \left( -\frac{GMm}{r_2} \right) - \left( -\frac{GMm}{r_1} \right) = GMm \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$$
+
+3.  **Perform the calculation:**
+    *   $GMm = (6.67 \times 10^{-11}) \times (5.97 \times 10^{24}) \times 500 \approx 1.99 \times 10^{17}$
+    *   $\left( \frac{1}{1.0 \times 10^7} - \frac{1}{2.0 \times 10^7} \right) = \left( 1 \times 10^{-7} - 0.5 \times 10^{-7} \right) = 0.5 \times 10^{-7} = 5.0 \times 10^{-8}$
+    *   $\Delta U = (1.99 \times 10^{17}) \times (5.0 \times 10^{-8}) \approx 9.95 \times 10^9\text{ J}$
+
+4.  **Conclusion:**
+    Rounding our result gives approximately $1.0 \times 10^{10}\text{ J}$. Looking at the provided options, this matches option **C**.
+
+### Answer:
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

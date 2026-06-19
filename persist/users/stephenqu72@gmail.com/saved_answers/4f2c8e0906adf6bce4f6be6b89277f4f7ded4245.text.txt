@@ -1,0 +1,37 @@
+To calculate the speed at which a vehicle can safely navigate a frictionless banked curve, we use the physics principle of circular motion on a banked track.
+
+### 1. The Formula
+For a vehicle moving on a banked surface with no friction, the horizontal component of the normal force provides the centripetal force required to maintain the circular path. The derivation leads to the following formula:
+$$\tan(\theta) = \frac{v^2}{rg}$$
+
+Where:
+*   $\theta = 12^\circ$ (banking angle)
+*   $r = 63\text{ m}$ (radius of the curve)
+*   $g \approx 9.8\text{ m/s}^2$ (acceleration due to gravity)
+*   $v$ is the speed in $\text{m/s}$
+
+### 2. Calculation
+Rearrange the formula to solve for $v$:
+$$v^2 = rg \tan(\theta)$$
+$$v = \sqrt{rg \tan(\theta)}$$
+
+Substitute the given values:
+$$v = \sqrt{63 \times 9.8 \times \tan(12^\circ)}$$
+
+Calculate the values:
+*   $\tan(12^\circ) \approx 0.21256$
+*   $v = \sqrt{63 \times 9.8 \times 0.21256}$
+*   $v = \sqrt{131.26}$
+*   $v \approx 11.456\text{ m/s}$
+
+Rounding to two significant figures (consistent with the provided data):
+**The maximum safe speed is approximately $11\text{ m/s}$.**
+
+### How to solve it:
+1.  **Identify the physics:** Recognize this as a "banked track" problem where the net centripetal force is supplied entirely by the horizontal component of the normal force.
+2.  **State the formula:** Write down $\tan(\theta) = \frac{v^2}{rg}$.
+3.  **Substitution:** Plug in the known radius ($63\text{ m}$), the angle ($12^\circ$), and gravity ($9.8\text{ m/s}^2$).
+4.  **Solve and conclude:** Perform the arithmetic and ensure your final answer includes the correct units ($\text{m/s}$).
+
+###QUESTION_TYPE
+Calculation question

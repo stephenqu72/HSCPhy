@@ -1,0 +1,27 @@
+To answer this HSC-style physics question, we must analyze the variables provided in the table and apply the principles of circular motion.
+
+### (a) Outline THREE different experiments
+To identify an experiment, look for sets where two variables are held constant while one is varied.
+1. **Testing the effect of radius on period:** Compare Tests 1, 2, 3, and 4. Here, Mass $A$ and Mass $B$ are constant, but the radius is varied.
+2. **Testing the effect of centripetal force on period:** Compare Tests 1, 5, 6, and 7. Here, Mass $A$ and the radius are constant, but Mass $B$ (the source of tension/force) is varied.
+3. **Testing the effect of mass on period:** Compare Tests 1, 8, 9, and 10. Here, Mass $B$ and the radius are constant, but Mass $A$ is varied.
+
+### (b) Identify variables for Tests 5, 6, and 7
+In these tests, Mass $A$ is constant ($50\text{ g}$) and the radius is constant ($0.125\text{ m}$), while Mass $B$ is changed ($75, 100, 200\text{ g}$).
+*   **Independent variable:** Mass of $B$ (the force applied).
+*   **Dependent variable:** Time for 10 rotations (which relates to the period $T$).
+*   **Controlled variables:** Mass of $A$ and Radius of the circle.
+
+### (c) Reliability of 10 vs 20 rotations
+The experiment using **20 rotations** is more reliable.
+**Justification:** Increasing the number of rotations reduces the impact of human reaction time errors. When timing a short interval, a $0.1\text{ s}$ error is significant; when spread over a longer duration (20 rotations), the percentage uncertainty in the average time per rotation decreases.
+
+### (d) Derive an equation for radius
+For mass $A$ to be in equilibrium, the tension provided by the weight of mass $B$ must equal the centripetal force required to keep mass $A$ in a circle.
+1. The force of gravity on $B$ provides the centripetal force for $A$: $F_g = F_c \implies m_B g = \frac{m_A v^2}{r}$
+2. Rearranging for $r$:
+$$r = \frac{m_A v^2}{m_B g}$$
+**Justification:** In uniform circular motion, the net force acting toward the center is the centripetal force. Since the mass $B$ is hanging stationary (balanced), its weight $m_B g$ acts as the tension force providing the centripetal acceleration $a_c = \frac{v^2}{r}$ to mass $A$.
+
+###QUESTION_TYPE
+Data analysis questions

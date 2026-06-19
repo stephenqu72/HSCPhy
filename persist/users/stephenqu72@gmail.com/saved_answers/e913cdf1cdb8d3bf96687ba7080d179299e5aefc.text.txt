@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The magnetic field lines must be drawn starting from the North (N) ring pole and terminating at the South (S) central pole, with arrows pointing inward toward the center. You should draw four evenly spaced lines crossing the gap where the coil is located.
+
+**Explanation:** By convention, magnetic field lines originate from the North pole and terminate at the South pole. In this radial magnetic field design, the field lines point radially inward from the outer ring pole to the central pole.
+
+#### Part (b)
+**Answer: F. out of the page**
+
+**Explanation:** We use the Right-Hand Rule (or Fleming's Left-Hand Rule for motor effect). 
+1. The magnetic field ($B$) points radially inward toward the central pole.
+2. The current ($I$) in the coil is clockwise. 
+3. Applying the motor effect rule ($F = I \vec{L} \times \vec{B}$), consider a segment of the wire at the top: the current is pointing to the right, and the magnetic field is pointing down toward the center. Using the right hand: fingers point in the direction of current (right), curl fingers toward the magnetic field (down), the thumb points **out of the page**. This holds true for any segment of the circular coil.
+
+#### Part (c)
+**Answer:**
+Given:
+- Number of turns $n = 20$
+- Radius $r = 5.0\text{ cm} = 0.05\text{ m}$
+- Current $I = 2.0\text{ A}$
+- Magnetic field $B = 200\text{ mT} = 0.2\text{ T}$
+
+The circumference of one turn is $L_{one} = 2\pi r$. The total length of the wire is $L = n \times 2\pi r$.
+The total force on a current-carrying wire is $F = B \times I \times L_{total} \times \sin(\theta)$. Since the current is perpendicular to the radial magnetic field, $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+
+$$L_{total} = 20 \times 2 \times \pi \times 0.05 = 2\pi \approx 6.283\text{ m}$$
+$$F = B \times I \times L_{total}$$
+$$F = 0.2 \times 2.0 \times 2\pi$$
+$$F = 0.8\pi \approx 2.51\text{ N}$$
+
+**Explanation:** To calculate the force on a coil in a radial magnetic field, we use the motor effect formula $F = BIL$. Because the entire coil is effectively perpendicular to the magnetic field lines, we multiply the magnetic field strength by the current and the total length of the wire in the field ($n \times \text{circumference}$).
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,31 @@
+### Answer and Explanation
+
+#### (a) Calculate the initial force per unit length between the wires.
+
+**Step 1: Identify the given values and convert them to SI units.**
+*   Current in each wire ($I_1 = I_2 = I$): $15.0\text{ mA} = 15.0 \times 10^{-3}\text{ A} = 0.015\text{ A}$
+*   Separation distance ($r$): $2.0\text{ cm} = 0.02\text{ m}$
+*   Permeability of free space ($\mu_0$): $4\pi \times 10^{-7}\text{ T}\cdot\text{m/A}$
+
+**Step 2: Use the formula for the force per unit length between two parallel current-carrying wires.**
+The formula is:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+
+**Step 3: Perform the calculation.**
+Since $I_1 = I_2 = I$:
+$$\frac{F}{L} = \frac{(4\pi \times 10^{-7}) \times (0.015)^2}{2\pi \times 0.02}$$
+$$\frac{F}{L} = \frac{2 \times 10^{-7} \times 0.000225}{0.02}$$
+$$\frac{F}{L} = 2.25 \times 10^{-9}\text{ N/m}$$
+
+Since the currents are in **opposite directions**, the wires exert a **repulsive force** of $2.25 \times 10^{-9}\text{ N/m}$.
+
+---
+
+#### (b) Describe the changes in the velocity and acceleration on the free wire over time.
+
+**Explanation:**
+1.  **Acceleration:** According to Newton's Second Law ($F=ma$), since there is a constant force (repulsive) acting on the free wire, it will experience an initial acceleration. As the wire moves away from the fixed wire, the separation distance $r$ increases. Because the force per unit length is inversely proportional to $r$ ($\frac{F}{L} \propto \frac{1}{r}$), the force—and consequently the **acceleration—will decrease over time** as the distance increases.
+2.  **Velocity:** The wire starts from rest and is subjected to a repulsive force, causing it to speed up. Although the acceleration is decreasing, it remains positive (in the direction of motion) as long as the current continues to flow. Therefore, the **velocity will continue to increase**, but at a decreasing rate (diminishing returns).
+
+###QUESTION_TYPE
+Calculation question

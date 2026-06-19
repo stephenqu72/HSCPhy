@@ -1,0 +1,72 @@
+Hello! As your HSC Physics teacher, I will guide you through this problem step-by-step. This question tests your understanding of orbital mechanics, specifically the relationship between gravitational potential energy ($U$), kinetic energy ($K$), and total orbital energy ($E_{total}$).
+
+### **Understanding the Fundamentals**
+
+To solve this, we must rely on two key physics principles for an object in a circular orbit:
+1.  **Gravitational Potential Energy formula:** $U = -\frac{GMm}{r}$ (Note the negative sign; it represents being "trapped" in a potential well).
+2.  **Orbital Velocity condition:** The centripetal force is provided by gravity: 
+    $$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+    From this, we can derive that $mv^2 = \frac{GMm}{r}$. Since Kinetic Energy $K = \frac{1}{2}mv^2$, we get:
+    $$K = \frac{GMm}{2r}$$
+
+By comparing these two formulas, we see a vital relationship:
+$$K = -\frac{1}{2}U$$
+And for Total Energy ($E_{total}$):
+$$E_{total} = K + U = -\frac{1}{2}U + U = \frac{1}{2}U$$
+
+---
+
+### **Solution**
+
+#### **(a) Complete the table**
+
+Using the relationships derived above, we can calculate the missing values for both positions.
+
+**For the Initial Position ($U = -4E$):**
+*   **Orbital Kinetic Energy ($K$):** $K = -\frac{1}{2}(-4E) = 2E$
+*   **Total Energy ($E_{total}$):** $E_{total} = K + U = 2E + (-4E) = -2E$
+
+**For the Final Position ($U = -E$):**
+*   **Orbital Kinetic Energy ($K$):** $K = -\frac{1}{2}(-E) = 0.5E$ (or $\frac{1}{2}E$)
+*   **Total Energy ($E_{total}$):** $E_{total} = K + U = 0.5E + (-E) = -0.5E$
+
+**Completed Table:**
+
+| | Gravitational potential energy ($J$) | Orbital kinetic energy ($J$) | Total energy ($J$) |
+| :--- | :---: | :---: | :---: |
+| **Initial position** | $-4E$ | $2E$ | $-2E$ |
+| **Final position** | $-E$ | $0.5E$ | $-0.5E$ |
+
+***
+
+#### **(b) Explanation of the "decrease" in potential energy**
+
+In physics, when we say potential energy "decreases," it can be confusing because $-1$ is mathematically *greater* than $-4$. However, the question refers to the **magnitude** of the energy (the depth of the gravity well). 
+
+As the rocket is boosted to a higher orbit, its distance $r$ from the Earth increases. As $r \to \infty$, the value of $U = -\frac{GMm}{r}$ approaches zero. Therefore, while the mathematical value of $U$ actually **increases** (becomes less negative), the **magnitude** of the binding energy $|U|$ decreases. The "decrease" mentioned in the question refers to the reduction in the strength of the gravitational bond.
+
+***
+
+#### **(c) Justification of the change in kinetic energy**
+
+To justify why $K$ decreased from $2E$ to $0.5E$, we must derive the relationship between velocity and radius.
+
+**Step 1: Set centripetal force equal to gravitational force.**
+$$\frac{mv^2}{r} = \frac{GMm}{r^2}$$
+
+**Step 2: Solve for $v$.**
+Cancel mass ($m$) from both sides and multiply by $r$:
+$$v^2 = \frac{GM}{r}$$
+$$v = \sqrt{\frac{GM}{r}}$$
+
+**Step 3: Relate to Kinetic Energy ($K$).**
+Substitute $v$ into the kinetic energy formula:
+$$K = \frac{1}{2}mv^2 = \frac{1}{2}m\left(\frac{GM}{r}\right) = \frac{GMm}{2r}$$
+
+**Conclusion:**
+The derivation shows that $K \propto \frac{1}{r}$. As the rocket is boosted to a higher orbit (increasing $r$), the orbital velocity $v$ must decrease. Consequently, the kinetic energy $K$ decreases. This matches our findings in part (a).
+
+***
+
+###QUESTION_TYPE
+Short answer

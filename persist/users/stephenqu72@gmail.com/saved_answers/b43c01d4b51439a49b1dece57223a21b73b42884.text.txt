@@ -1,0 +1,30 @@
+To find the current $I$ flowing through the wire, we use the formula for the magnetic force on a current-carrying conductor:
+
+$$F = BIl \sin(\theta)$$
+
+### 1. Identify the given values
+*   Magnetic field strength $B = 0.05\text{ T}$
+*   Force $F = 0.03\text{ N}$
+*   The vertical height of the region is $0.2\text{ m}$. Looking at the geometry of the triangle formed by the wire, the vertical side is opposite the $30^\circ$ angle. We need the length of the wire $l$ that is inside the magnetic field.
+    *   $\sin(30^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{0.2}{l}$
+    *   $l = \frac{0.2}{\sin(30^\circ)} = \frac{0.2}{0.5} = 0.4\text{ m}$
+*   The angle $\theta$ in the formula $F = BIl \sin(\theta)$ is the angle between the wire and the magnetic field lines. Since the magnetic field is directed into the page (represented by the 'X's) and the wire is in the plane of the page, the angle between them is $90^\circ$. Therefore, $\sin(90^\circ) = 1$.
+
+### 2. Rearrange the formula to solve for $I$
+$$I = \frac{F}{B \cdot l \cdot \sin(90^\circ)}$$
+
+### 3. Calculate the result
+$$I = \frac{0.03}{0.05 \cdot 0.4 \cdot 1}$$
+$$I = \frac{0.03}{0.02}$$
+$$I = 1.5\text{ A}$$
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+### How to solve it
+1.  **Identify the physics principle:** This is a magnetic force on a current-carrying wire problem. Use the formula $F = BIl \sin(\theta)$.
+2.  **Determine the length $l$:** Observe the geometry. The wire acts as the hypotenuse of a right-angled triangle where the vertical side is $0.2\text{ m}$ and the angle is $30^\circ$. Use trigonometry to find the length of the wire *within* the field.
+3.  **Determine the angle $\theta$:** Recognize that the field (into the page) and the wire (on the page) are perpendicular, meaning $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+4.  **Substitute and Solve:** Plug the known values into the rearranged equation to find the current.
+
+###QUESTION_TYPE
+Multiple choice

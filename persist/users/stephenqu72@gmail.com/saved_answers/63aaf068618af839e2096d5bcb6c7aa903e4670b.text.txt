@@ -1,0 +1,26 @@
+To determine the factors affecting the banking angle $\theta$, we must look at the forces acting on the car.
+
+### Analysis of Forces
+1.  **Gravity ($mg$):** Acts vertically downwards.
+2.  **Normal Force ($N$):** Acts perpendicular to the banked surface.
+
+For a car on a frictionless banked curve, the horizontal component of the normal force provides the centripetal force ($F_c$) required for circular motion:
+$$N \sin(\theta) = \frac{mv^2}{r}$$
+
+The vertical component of the normal force balances the weight of the car:
+$$N \cos(\theta) = mg$$
+
+### Derivation
+Dividing the first equation by the second to eliminate $N$ and $m$:
+$$\frac{N \sin(\theta)}{N \cos(\theta)} = \frac{mv^2/r}{mg}$$
+$$\tan(\theta) = \frac{v^2}{rg}$$
+
+### Conclusion
+From the final equation $\tan(\theta) = \frac{v^2}{rg}$, we can see that the angle $\theta$ depends only on the velocity ($v$), the radius of the curve ($r$), and gravity ($g$). Crucially, **mass ($m$) cancels out**, meaning it does not affect the required banking angle. Friction is assumed to be zero, so the surface material and tire shape are irrelevant.
+
+Therefore, the speed of the car is the correct factor among the choices provided.
+
+**Correct Option: (B)**
+
+###QUESTION_TYPE
+Multiple choice

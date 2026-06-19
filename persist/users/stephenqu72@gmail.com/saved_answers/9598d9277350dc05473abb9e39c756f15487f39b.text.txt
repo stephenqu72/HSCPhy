@@ -1,0 +1,30 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To find the final speed of the proton, we apply the principle of **conservation of energy**. When a charged particle is accelerated through a potential difference $V$, the electrical potential energy lost is converted entirely into kinetic energy.
+
+1.  **Electrical Potential Energy ($E_p$):**
+    The work done on a charge $e$ moving through a potential difference $V$ is given by:
+    $$E_p = eV$$
+
+2.  **Kinetic Energy ($E_k$):**
+    The kinetic energy of a mass $m$ moving at speed $v$ is given by:
+    $$E_k = \frac{1}{2}mv^2$$
+
+3.  **Equating Energy:**
+    Assuming the proton starts from rest (initial kinetic energy is zero), we equate the electrical potential energy to the final kinetic energy:
+    $$eV = \frac{1}{2}mv^2$$
+
+4.  **Solving for $v$:**
+    Multiply both sides by $2$ to isolate the $mv^2$ term:
+    $$2eV = mv^2$$
+    Divide both sides by $m$:
+    $$v^2 = \frac{2eV}{m}$$
+    Finally, take the square root of both sides to find the speed $v$:
+    $$v = \sqrt{\frac{2eV}{m}}$$
+
+This matches option **A**.
+
+###QUESTION_TYPE
+Multiple choice

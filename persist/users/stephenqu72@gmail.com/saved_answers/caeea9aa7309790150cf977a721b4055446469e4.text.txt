@@ -1,0 +1,29 @@
+To solve this problem, we must analyze the physics of projectile motion, specifically focusing on the independence of horizontal and vertical components.
+
+### 1. Analysis of the Motion
+When a ball is thrown horizontally from a height $h$, it undergoes motion in two dimensions:
+
+*   **Vertical motion:** The time it takes to reach the ground is determined solely by the vertical height and the acceleration due to gravity ($g$). Since both balls are thrown from the same building, they fall the same vertical distance $h$ starting with an initial vertical velocity of zero ($u_y = 0$).
+    Using the equation of motion $s = ut + \frac{1}{2}at^2$:
+    $$h = 0 \cdot t + \frac{1}{2}gt^2$$
+    $$t = \sqrt{\frac{2h}{g}}$$
+    Crucially, because $h$ and $g$ are constant, **the time of flight $t$ is the same for both balls.**
+
+*   **Horizontal motion:** The range $R$ is the horizontal distance traveled at a constant velocity $v$ over the time of flight $t$:
+    $$R = v \cdot t$$
+
+### 2. Comparing the Two Balls
+*   **For the first ball:**
+    $$R_1 = v \cdot t$$
+*   **For the second ball:** The velocity is doubled ($2v$), but the time of flight $t$ remains the same.
+    $$R_2 = (2v) \cdot t$$
+    $$R_2 = 2(v \cdot t)$$
+    $$R_2 = 2R$$
+
+Since the velocity is directly proportional to the range (given a constant time of flight), doubling the horizontal velocity results in doubling the range.
+
+### Conclusion
+The range of the second ball is $2R$. Therefore, the correct option is **C**.
+
+###QUESTION_TYPE
+Multiple choice

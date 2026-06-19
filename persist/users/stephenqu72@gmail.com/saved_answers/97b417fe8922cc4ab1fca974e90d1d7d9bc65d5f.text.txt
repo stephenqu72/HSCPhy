@@ -1,0 +1,30 @@
+To find the magnitude of the force on a current-carrying conductor in a uniform magnetic field, we use the formula:
+
+$$F = BIl \sin(\theta)$$
+
+### Variables provided:
+*   Magnetic field strength ($B$) = $1\text{ T}$
+*   Current ($I$) = $2\text{ A}$
+*   Length of conductor ($l$) = $0.05\text{ m}$
+*   Angle between the current and the magnetic field ($\theta$) = $30^\circ$
+
+### Calculation:
+Substitute the values into the formula:
+
+$$F = 1 \times 2 \times 0.05 \times \sin(30^\circ)$$
+
+Knowing that $\sin(30^\circ) = 0.5$:
+
+$$F = 1 \times 2 \times 0.05 \times 0.5$$
+$$F = 0.1 \times 0.5$$
+$$F = 0.05\text{ N}$$
+
+The magnitude of the force on the conductor is **$0.05\text{ N}$**.
+
+Therefore, the correct option is **B**.
+
+### Explanation:
+In physics, the magnetic force on a current-carrying wire is proportional to the component of the wire's length that is perpendicular to the magnetic field. The term $\sin(\theta)$ in the formula $F = BIl \sin(\theta)$ accounts for the angle between the current direction and the magnetic field lines. Since the wire is at an angle of $30^\circ$ to the field, only the vertical component of the wire ($l \sin 30^\circ$) contributes to the magnetic force. Plugging the values in yields $0.05\text{ N}$.
+
+###QUESTION_TYPE
+Multiple choice

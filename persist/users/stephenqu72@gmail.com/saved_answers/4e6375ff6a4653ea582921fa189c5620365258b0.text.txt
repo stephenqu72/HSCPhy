@@ -1,0 +1,23 @@
+To solve this problem, we must apply the principles of electromagnetism and Newton’s laws of motion.
+
+### Explanation
+
+1.  **Electromagnetic Force:** Two parallel conductors carrying current exert a magnetic force on each other. According to Ampere's force law, when the current in both wires flows in the **same direction**, the wires attract each other. When they flow in **opposite directions**, they repel each other. 
+    *   In this circuit, the current flows in a series loop (from the AC source, through $Y$, through the bulb, and back through $X$). Because the wires are connected in a loop, at any given instant, the current in $X$ flows in the **opposite direction** to the current in $Y$.
+    *   Therefore, the wires will experience a repulsive magnetic force at all times.
+
+2.  **Newton’s Third Law:** Newton's third law states that for every action, there is an equal and opposite reaction. The magnetic force exerted by wire $Y$ on wire $X$ is equal in magnitude and opposite in direction to the force exerted by wire $X$ on wire $Y$.
+
+3.  **Forces on the Spring Balances:**
+    *   Let $W$ be the weight of the conductors.
+    *   Let $F_m$ be the magnitude of the repulsive magnetic force between the conductors.
+    *   For wire $Y$ (the top wire), the magnetic force acts upward (away from $X$). The tension in the spring balance ($T_Y$) must balance both the weight and the magnetic force: $T_Y = W_Y - F_m$ (assuming the magnetic force is upward).
+    *   For wire $X$ (the bottom wire), the magnetic force acts downward (away from $Y$). The tension in the spring balance ($T_X$) must support both the weight and the downward magnetic force: $T_X = W_X + F_m$.
+    *   Since $F_m$ is always positive (the square of the instantaneous current, $I^2$, ensures that the force is always repulsive regardless of the AC polarity), the force measured on $X$ will always be greater than the force measured on $Y$.
+
+Even if we neglect weight, the spring balance holding $X$ is being "pushed" down by the magnetic force, while the spring balance holding $Y$ is being "pushed" up, effectively reducing the tension. Therefore, the force on $X$ is consistently greater than the force on $Y$.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+To determine the correct function for the horizontal axis, we must look at the conservation of energy principle for a charged particle accelerating through a potential difference.
+
+### Answer
+The function to be used on the horizontal axis is **$v^2$** (with units **$\text{m}^2/\text{s}^2$**).
+
+### Explanation
+1. **Derive the Physics Relationship:** When a charge $q$ is accelerated from rest through a potential difference $V_a$, the work done by the electric field equals the kinetic energy gained by the sphere:
+   $$qV_a = \frac{1}{2}mv^2$$
+2. **Rearrange for a Linear Form:** We want to create a graph where $V_a$ is on the vertical axis ($y$) and a function of $v$ is on the horizontal axis ($x$). Rearranging the equation for $V_a$:
+   $$V_a = \left( \frac{m}{2q} \right) v^2$$
+3. **Justification:** This equation is in the form of a linear equation $y = mx + c$, where:
+   - $y = V_a$
+   - $x = v^2$
+   - $m = \frac{m}{2q}$ (the gradient)
+   - $c = 0$ (the intercept)
+   Since $V_a$ is directly proportional to $v^2$, plotting $V_a$ against $v^2$ will produce a straight line passing through the origin.
+4. **Units:** Since velocity $v$ is measured in $\text{m/s}$, the square of velocity $v^2$ must have the units $(\text{m/s})^2$, which is **$\text{m}^2/\text{s}^2$**.
+
+###QUESTION_TYPE
+Calculation question

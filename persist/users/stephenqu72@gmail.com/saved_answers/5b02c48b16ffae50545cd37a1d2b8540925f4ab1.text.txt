@@ -1,0 +1,32 @@
+To solve this problem, we need to calculate the magnetic force acting on the proton and then use Newton's Second Law ($F = ma$) to find the acceleration.
+
+### 1. Identify the given values
+*   Charge of a proton ($q$): $1.602 \times 10^{-19} \text{ C}$
+*   Velocity ($v$): $1200 \text{ m s}^{-1}$
+*   Magnetic field strength ($B$): $3.00 \text{ T}$
+*   Mass of a proton ($m$): $1.67 \times 10^{-27} \text{ kg}$
+
+### 2. Calculate the Magnetic Force ($F$)
+The formula for the magnetic force on a moving charge is:
+$$F = qvB\sin(\theta)$$
+Since the proton is fired perpendicularly into the magnetic field (coming out of the page), $\theta = 90^\circ$ and $\sin(90^\circ) = 1$.
+$$F = (1.602 \times 10^{-19}) \times 1200 \times 3.00$$
+$$F = 5.7672 \times 10^{-16} \text{ N}$$
+
+### 3. Calculate the Acceleration ($a$)
+Using Newton's Second Law, $a = \frac{F}{m}$:
+$$a = \frac{5.7672 \times 10^{-16}}{1.67 \times 10^{-27}}$$
+$$a \approx 3.4534 \times 10^{11} \text{ m s}^{-2}$$
+
+### 4. Determine the direction
+We use the **Right-Hand Rule** (for positive charges):
+*   Point your fingers in the direction of the velocity ($v$): **Upwards** (towards the top of the page).
+*   Curl your fingers in the direction of the magnetic field ($B$): **Out of the page** (towards you).
+*   Your thumb points in the direction of the force ($F$): **To the right**.
+
+Comparing our results to the options provided, the magnitude is $3.45 \times 10^{11} \text{ m s}^{-2}$ and the direction is to the right.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To solve this problem, we use the physics of charged particles in a magnetic field. When a particle moves perpendicular to a magnetic field, the magnetic force acts as a centripetal force:
+
+$$qvB = \frac{mv^2}{r}$$
+
+Rearranging to solve for the charge-to-mass ratio ($\frac{q}{m}$):
+
+$$\frac{q}{m} = \frac{v}{Br}$$
+
+### (a) Evaluate the conclusion
+Given:
+- $v = 3 \times 10^5 \text{ ms}^{-1}$
+- $B = 0.8 \text{ T}$
+- $r = 0.15 \text{ m}$
+
+Calculating the charge-to-mass ratio:
+$$\frac{q}{m} = \frac{3 \times 10^5}{0.8 \times 0.15} = \frac{3 \times 10^5}{0.12} = 2.5 \times 10^6 \text{ C kg}^{-1}$$
+
+The known charge-to-mass ratio for an electron is:
+$$\frac{e}{m_e} = \frac{1.602 \times 10^{-19} \text{ C}}{9.109 \times 10^{-31} \text{ kg}} \approx 1.76 \times 10^{11} \text{ C kg}^{-1}$$
+
+**Evaluation:** The calculated value ($2.5 \times 10^6 \text{ C kg}^{-1}$) is significantly lower than the accepted value for an electron ($1.76 \times 10^{11} \text{ C kg}^{-1}$). Therefore, the scientists' conclusion is **incorrect**. The particles have a much smaller charge-to-mass ratio than electrons, suggesting they are much heavier (e.g., ions).
+
+### (b) Path after leaving the magnetic field
+Once the particle leaves the magnetic field, there is no longer a magnetic force acting on it (since $F = qvB\sin\theta$ and $B=0$). According to Newton’s First Law, the particle will continue to move in a **straight line** at a constant velocity in the direction it was travelling at the point of exit from the field.
+
+###QUESTION_TYPE
+Calculation question

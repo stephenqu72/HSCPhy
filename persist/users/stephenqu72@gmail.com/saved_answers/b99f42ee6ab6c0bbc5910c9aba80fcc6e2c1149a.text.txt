@@ -1,0 +1,38 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through these fundamental concepts of Gravity and Motion. Here is the step-by-step breakdown.
+
+### (a) Calculate the weight of this model falcon
+**Answer:**
+Weight is the force due to gravity, calculated as $W = mg$.
+First, convert mass to SI units: $m = 500\text{ g} = 0.5\text{ kg}$.
+Using $g = 9.8\text{ m/s}^2$:
+$$W = 0.5 \times 9.8 = 4.9\text{ N}$$
+
+**Explanation:** Weight is a force measured in Newtons. You must always ensure your mass is in kilograms before multiplying by the acceleration due to gravity ($g$).
+
+---
+
+### (b) Derive the expression for escape velocity
+**Answer:**
+Escape velocity ($v_e$) is the speed required for an object to have just enough kinetic energy to overcome the gravitational potential energy of a planet. At an infinite distance, the total energy of the object is zero.
+1. The total energy at the surface must equal the total energy at infinity:
+$$E_{total} = K + U = 0$$
+2. Substitute the formulas for Kinetic Energy ($K = \frac{1}{2}mv^2$) and Gravitational Potential Energy ($U = -\frac{GMm}{r}$):
+$$\frac{1}{2}mv_e^2 - \frac{GMm}{r} = 0$$
+3. Add $\frac{GMm}{r}$ to both sides and cancel the mass ($m$) of the falcon:
+$$\frac{1}{2}v_e^2 = \frac{GM}{r}$$
+4. Solve for $v_e$:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+
+**Explanation:** The key to this derivation is the **Law of Conservation of Energy**. We set the energy at the planet's surface equal to the energy at "infinity" (where potential energy is zero and the object has zero remaining velocity).
+
+---
+
+### (c) Does the toy falcon need to possess the escape velocity?
+**Answer:**
+No, the toy falcon does not need to possess escape velocity. 
+**Justification:** Escape velocity is the speed required for an object to escape a gravitational field via **projectile motion** alone (i.e., with no further propulsion). Because the falcon is a "launched" activity—presumably using an engine, rocket fuel, or a continuous thrust mechanism—it can reach space with a lower velocity by applying continuous force to overcome gravity and atmospheric drag.
+
+**Explanation:** In physics, "escape velocity" specifically refers to the minimum speed needed to escape gravity **without** further acceleration. If you have an active propulsion system (like a rocket engine), you can escape Earth at any speed, provided you continue to apply thrust.
+
+###QUESTION_TYPE
+Calculation question

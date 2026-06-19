@@ -1,0 +1,25 @@
+To solve this problem, we use the formula for gravitational field strength $g$ at a distance $r$ from the center of a planet:
+$$g = \frac{GM}{r^2}$$
+where $r = R + h$ ($R$ is the radius of the planet, $h$ is the altitude above the surface).
+
+### Part (a)
+The relationship follows an inverse-square law. To predict the value at $4500\text{ km}$, we can use the ratio method based on the center of the planet:
+1. Radius $R = 3400\text{ km}$.
+2. At $h_1 = 0\text{ km}$, $r_1 = 3400\text{ km}$, $g_1 \approx 3.75\text{ N kg}^{-1}$ (reading from the graph).
+3. At $h_2 = 4500\text{ km}$, $r_2 = 3400 + 4500 = 7900\text{ km}$.
+4. Since $g \propto \frac{1}{r^2}$:
+$$\frac{g_2}{g_1} = \left(\frac{r_1}{r_2}\right)^2 \implies g_2 = 3.75 \times \left(\frac{3400}{7900}\right)^2 \approx 0.69\text{ N kg}^{-1}$$
+
+### Part (b)
+We use the surface gravity to find the mass $M$.
+1. From the graph, at the surface ($h=0$), $g \approx 3.75\text{ N kg}^{-1}$.
+2. Use $g = \frac{GM}{R^2}$, where $G = 6.67 \times 10^{-11}\text{ N m}^2\text{ kg}^{-2}$ and $R = 3400\text{ km} = 3.4 \times 10^6\text{ m}$.
+3. Rearrange for $M$:
+$$M = \frac{gR^2}{G}$$
+$$M = \frac{3.75 \times (3.4 \times 10^6)^2}{6.67 \times 10^{-11}}$$
+$$M \approx \frac{3.75 \times 1.156 \times 10^{13}}{6.67 \times 10^{-11}} \approx 6.5 \times 10^{23}\text{ kg}$$
+
+*(Note: Depending on the precision of your reading of the graph, values between $6.4 \times 10^{23}\text{ kg}$ and $6.6 \times 10^{23}\text{ kg}$ are generally accepted.)*
+
+###QUESTION_TYPE
+Calculation question

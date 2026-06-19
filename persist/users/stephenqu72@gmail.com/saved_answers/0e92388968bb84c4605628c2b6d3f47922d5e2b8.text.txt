@@ -1,0 +1,32 @@
+As an HSC Physics teacher, here is how you should approach this 6-mark question.
+
+### Answer
+
+**(a)**
+*   **Orbital velocity ($v_o$):** This is the speed required for an object to maintain a stable, circular orbit around a central body. At this velocity, the gravitational force provides the exact centripetal force required for circular motion.
+    *   Formula: $v_o = \sqrt{\frac{GM}{r}}$
+*   **Escape velocity ($v_e$):** This is the minimum speed required for an object to break free from the gravitational influence of a central body, effectively escaping to "infinity" where its total mechanical energy becomes zero.
+    *   Formula: $v_e = \sqrt{\frac{2GM}{r}}$
+
+*(Where $G$ is the gravitational constant, $M$ is the mass of the planet, and $r$ is the distance from the center of the planet.)*
+
+**(b)**
+*   **Low-Earth Orbit (LEO):** Used for Earth observation, remote sensing, and weather monitoring, as their low altitude allows for high-resolution imaging and rapid coverage.
+*   **Geostationary Satellites:** Used for telecommunications and television broadcasting, as their fixed position relative to the Earth's surface allows ground-based antennas to remain pointed at a single spot in the sky.
+
+---
+
+### How to solve it
+
+1.  **For part (a) (4 marks):** 
+    *   **"Distinguish"** requires you to highlight the differences. Focus on the purpose: orbital velocity is for *maintaining circular motion*, whereas escape velocity is for *leaving the gravitational field entirely*. 
+    *   Ensure you write the formulae clearly. Note that $v_e = \sqrt{2} \times v_o$. Showing this relationship is a great way to demonstrate higher-level understanding.
+    *   Define your variables ($G, M, r$) to ensure you receive full marks for technical precision.
+
+2.  **For part (b) (2 marks):**
+    *   This is an **"Outline"** question, meaning you need to state the use and briefly describe *why* that orbit is suitable for that purpose. 
+    *   Key concept for LEO: Low altitude = high resolution/frequent passes.
+    *   Key concept for Geostationary: Matches Earth's rotation = fixed position relative to ground = reliable signal transmission.
+
+###QUESTION_TYPE
+Short answer

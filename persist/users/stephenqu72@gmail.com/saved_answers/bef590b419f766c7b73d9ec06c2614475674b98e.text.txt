@@ -1,0 +1,26 @@
+To solve this problem, we must consider how the acceleration due to gravity ($g$) affects the vertical and horizontal components of projectile motion. Let the initial velocity be $v$ at an angle $\theta$ to the horizontal.
+
+### Explanation:
+
+**1. Maximum Height ($H$):**
+The maximum height reached by a projectile is determined by the vertical component of the initial velocity ($v_y = v \sin\theta$) and the acceleration due to gravity. Using the kinematic equation $v_f^2 = v_i^2 + 2a\Delta y$, and knowing the vertical velocity is zero at the peak, we get:
+$$0 = (v \sin\theta)^2 - 2gH$$
+Solving for $H$:
+$$H = \frac{v^2 \sin^2\theta}{2g}$$
+If $g$ increases, the denominator increases, which means the maximum height ($H$) must **decrease**.
+
+**2. Range ($R$):**
+The range is the horizontal distance traveled before the projectile returns to the launch height. It is calculated by multiplying the horizontal velocity ($v_x = v \cos\theta$) by the total time of flight ($t$). The time of flight is found by setting the vertical displacement to zero:
+$$0 = (v \sin\theta)t - \frac{1}{2}gt^2 \implies t = \frac{2v \sin\theta}{g}$$
+Now, multiply by the horizontal velocity:
+$$R = v_x \cdot t = (v \cos\theta) \cdot \left(\frac{2v \sin\theta}{g}\right) = \frac{v^2 \sin(2\theta)}{g}$$
+If $g$ increases, the denominator increases, which means the range ($R$) must **decrease**.
+
+**Conclusion:**
+Since both the maximum height and the range are inversely proportional to $g$, increasing the value of $g$ will result in a decrease in both.
+
+**Correct Answer:**
+**A) decreased range, decreased maximum height.**
+
+###QUESTION_TYPE
+Multiple choice

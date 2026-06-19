@@ -1,0 +1,27 @@
+To solve this problem, we apply the principles of Conservation of Mechanical Energy and the properties of orbital mechanics.
+
+### (a) Analysis of Energy Changes from $P$ to $Q$
+As the satellite moves from $P$ to $Q$, it moves further away from the Earth’s centre ($r$ increases from $6.700 \times 10^6\text{ m}$ to $6.850 \times 10^6\text{ m}$). 
+1. **Potential Energy ($U$):** Since $U = -\frac{GMm}{r}$, as distance $r$ increases, the potential energy becomes less negative, meaning it **increases**.
+2. **Kinetic Energy ($K$):** Because the total mechanical energy is conserved (the engines are shut off), an increase in potential energy must be compensated by a **decrease** in kinetic energy. 
+
+### (b) Calculation for Kinetic Energy at $Q$
+**1. Find the new Total Energy after the engine burn at $P$:**
+Initial Total Energy $E_P = -1.195 \times 10^{10}\text{ J}$.
+The kinetic energy increases by $5.232 \times 10^8\text{ J}$. Since $E = U + K$, adding this energy to the total energy gives the new total energy $E_{new}$:
+$$E_{new} = -1.195 \times 10^{10} + 0.05232 \times 10^{10} = -1.14268 \times 10^{10}\text{ J}$$
+
+**2. Find the Potential Energy at $Q$ ($U_Q$):**
+Using the ratio of potential energies at two distances $r_1$ and $r_2$: $U_2 = U_1 \times \frac{r_1}{r_2}$
+$$U_Q = (-2.389 \times 10^{10}) \times \frac{6.700 \times 10^6}{6.850 \times 10^6} \approx -2.3367 \times 10^{10}\text{ J}$$
+
+**3. Find Kinetic Energy at $Q$ ($K_Q$):**
+$$E_{new} = U_Q + K_Q$$
+$$K_Q = E_{new} - U_Q = (-1.14268 \times 10^{10}) - (-2.3367 \times 10^{10})$$
+$$K_Q = 1.19402 \times 10^{10} \approx 1.194 \times 10^{10}\text{ J}$$
+
+### (c) Motion of the satellite after $Q$
+At point $Q$, the satellite is at the **apogee** (the furthest point) of its new elliptical orbit. Because gravity acts as a restoring force, the satellite will accelerate back toward the Earth, lose potential energy, and gain kinetic energy. It will continue to travel in an elliptical path, returning to point $P$ (the perigee) where it will be at its maximum velocity, and then cycle back to $Q$, maintaining a stable elliptical orbit around the Earth.
+
+### QUESTION_TYPE
+Calculation question

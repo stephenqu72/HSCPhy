@@ -1,0 +1,28 @@
+To solve this problem, we need to calculate the angular velocity and the linear speed (average speed) of the tip of the minute hand.
+
+### 1. Calculate Angular Velocity ($\omega$)
+Angular velocity is defined as the change in angle ($\Delta \theta$) divided by the change in time ($\Delta t$). 
+- The minute hand completes a full revolution ($2\pi$ radians) in $60$ minutes. 
+- Therefore, the time taken for one full revolution is $T = 60 \times 60 = 3600\text{ s}$.
+
+The formula is:
+$$\omega = \frac{2\pi}{T}$$
+$$\omega = \frac{2\pi}{3600} \approx 1.745 \times 10^{-3}\text{ rad/s}$$
+
+Rounding this to three significant figures gives $1.75 \times 10^{-3}\text{ rad/s}$.
+
+### 2. Calculate Average Speed ($v$)
+The average speed of a point at a distance $r$ from the center is given by the relationship between linear and angular velocity:
+$$v = r\omega$$
+- The length of the minute hand is $r = 5\text{ cm} = 0.05\text{ m}$.
+- Using our calculated $\omega$:
+$$v = 0.05 \times 1.745 \times 10^{-3}$$
+$$v \approx 8.726 \times 10^{-5}\text{ m/s}$$
+
+Rounding this to three significant figures gives $8.73 \times 10^{-5}\text{ m/s}$.
+
+### Conclusion
+Comparing our results ($\omega \approx 1.75 \times 10^{-3}\text{ rad/s}$ and $v \approx 8.73 \times 10^{-5}\text{ m/s}$) with the provided options, row **C** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,29 @@
+To solve this problem, we use the physics principle of the force between two parallel current-carrying wires.
+
+### 1. Identify the Relevant Formula
+The magnetic force per unit length $F/L$ between two parallel wires carrying currents $I_1$ and $I_2$ separated by distance $r$ is given by:
+$$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+From this formula, we can see that the magnitude of the force is directly proportional to the product of the currents:
+$$F \propto I_1 \times I_2$$
+
+### 2. Analyze the Change in Current
+*   **Initial state:** Force $F_1 = 4.3\text{ N}$ with currents $I_P = 4.76\text{ A}$ and $I_Q$.
+*   **Final state:** Current in P becomes $I_P' = 14.28\text{ A}$.
+*   **Reversal of direction:** Changing the direction of the current reverses the *type* of force (from attractive to repulsive), but it does **not** change the *magnitude* of the force. The force depends on the product of the magnitudes of the currents.
+
+### 3. Calculate the Scaling Factor
+We compare the new current to the old current:
+$$\text{Ratio} = \frac{14.28\text{ A}}{4.76\text{ A}} = 3$$
+The current in wire P has increased by a factor of $3$.
+
+### 4. Calculate the New Magnitude
+Since the force is proportional to the current in wire P, the new magnitude of the force $F_2$ will be:
+$$F_2 = F_1 \times 3$$
+$$F_2 = 4.3\text{ N} \times 3 = 12.9\text{ N}$$
+
+Looking at the options provided, $12.90\text{ N}$ corresponds to option B.
+
+**Answer:** B. $12.90\text{ N}$
+
+###QUESTION_TYPE
+Multiple choice

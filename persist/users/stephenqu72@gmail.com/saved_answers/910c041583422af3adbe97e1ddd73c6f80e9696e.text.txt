@@ -1,0 +1,28 @@
+To solve this physics problem, we must apply the principles of electromagnetism, specifically the **Motor Effect**.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+To understand why (B) is correct, we need to analyze the relationship between the potential difference, current, and the magnetic force acting on a conductor.
+
+1.  **Ohm's Law:** When a potential difference ($V$) is applied across a conductor of resistance ($R$) in a closed circuit, a current ($I$) flows through it according to the equation:
+    $$I = \frac{V}{R}$$
+    As the potential difference ($V$) is gradually increased, the current ($I$) flowing through the conductor also increases proportionally.
+
+2.  **The Motor Effect:** A current-carrying conductor placed in an external magnetic field ($B$) experiences a magnetic force ($F$). The magnitude of this force is given by:
+    $$F = BIL \sin(\theta)$$
+    Where:
+    *   $B$ is the magnetic field strength.
+    *   $I$ is the current.
+    *   $L$ is the length of the conductor.
+    *   $\theta$ is the angle between the conductor and the magnetic field (which is $90^\circ$ in this case, meaning $\sin(90^\circ) = 1$).
+
+3.  **Synthesis:** Since the force $F$ is directly proportional to the current $I$ ($F \propto I$), and the current $I$ is directly proportional to the potential difference $V$ ($I \propto V$), it follows that as the potential difference is increased, the current increases, leading to a **gradually increasing magnetic force** acting on the conductor.
+
+**Why the other options are incorrect:**
+*   **(A):** While the conductor will move due to the force, it will move in one direction (governed by the Right-Hand Rule), not "back and forth" unless the current direction is being alternated.
+*   **(C) and (D):** While induction can occur in dynamic situations (e.g., changing magnetic flux), the primary effect described here is the direct application of a force due to an external potential difference causing a current to flow through a magnetic field.
+
+###QUESTION_TYPE
+Multiple choice

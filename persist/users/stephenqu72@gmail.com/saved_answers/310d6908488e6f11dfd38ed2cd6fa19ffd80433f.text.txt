@@ -1,0 +1,36 @@
+To determine which expression results in the least percentage uncertainty, we calculate the percentage uncertainty for each operation.
+
+Given:
+$P = 30 \pm 1\text{ g}$
+$Q = 20 \pm 1\text{ g}$
+
+### 1. Addition ($P + Q$) and Subtraction ($P - Q$)
+When adding or subtracting, absolute uncertainties are added:
+$\Delta(P \pm Q) = \Delta P + \Delta Q = 1 + 1 = 2\text{ g}$
+
+*   **For $P + Q$:** Value $= 30 + 20 = 50\text{ g}$.
+    Percentage uncertainty $= \frac{2}{50} \times 100\% = 4\%$.
+*   **For $P - Q$:** Value $= 30 - 20 = 10\text{ g}$.
+    Percentage uncertainty $= \frac{2}{10} \times 100\% = 20\%$.
+
+### 2. Multiplication ($P \times Q$) and Division ($P/Q$)
+When multiplying or dividing, percentage uncertainties are added:
+$\text{Percentage uncertainty} = \left( \frac{\Delta P}{P} \times 100\% \right) + \left( \frac{\Delta Q}{Q} \times 100\% \right)$
+
+*   $\frac{\Delta P}{P} \times 100\% = \frac{1}{30} \times 100\% \approx 3.33\%$
+*   $\frac{\Delta Q}{Q} \times 100\% = \frac{1}{20} \times 100\% = 5\%$
+
+*   **For $P \times Q$:** Percentage uncertainty $\approx 3.33\% + 5\% = 8.33\%$.
+*   **For $P/Q$:** Percentage uncertainty $\approx 3.33\% + 5\% = 8.33\%$.
+
+### Conclusion
+Comparing the results:
+*   (A) $P + Q$: $4\%$
+*   (B) $P - Q$: $20\%$
+*   (C) $P \times Q$: $8.33\%$
+*   (D) $P/Q$: $8.33\%$
+
+The expression with the least percentage uncertainty is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

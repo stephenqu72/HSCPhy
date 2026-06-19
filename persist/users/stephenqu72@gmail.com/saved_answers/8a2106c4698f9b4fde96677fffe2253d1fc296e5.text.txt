@@ -1,0 +1,35 @@
+To solve this problem, we must apply Newton's Second Law of Motion ($F_{net} = ma$) to a mass suspended in an elevator (lift) under different acceleration conditions. Let $m$ be the mass, $T$ be the tension in the cord (the measured weight force), and $g$ be the acceleration due to gravity.
+
+### 1. Stationary ($W_S$)
+When the lift is stationary (or moving at constant velocity), the net force is zero.
+$$T - mg = 0 \implies T = mg$$
+So, $W_S = mg$.
+
+### 2. Accelerating Upwards ($W_U$)
+When the lift accelerates upwards with acceleration $a$, the net force must be upward:
+$$T - mg = ma \implies T = m(g + a)$$
+Since $a > 0$, it follows that $W_U = m(g + a) > mg$. Therefore, **$W_U > W_S$**.
+
+### 3. Accelerating Downwards ($W_D$)
+When the lift accelerates downwards with acceleration $a$, the net force must be downward:
+$$mg - T = ma \implies T = m(g - a)$$
+Since $a > 0$, it follows that $W_D = m(g - a) < mg$. Therefore, **$W_D < W_S$**.
+
+### Conclusion
+Combining these inequalities:
+$$W_D < W_S < W_U$$
+
+This corresponds to option **(A)**.
+
+---
+
+### Explanation Summary
+When you are in a lift:
+*   **Moving up:** You feel "heavier" because the floor/ceiling needs to exert extra force to accelerate you upward against gravity.
+*   **Moving down:** You feel "lighter" because gravity is already helping the downward acceleration, requiring less force to hold you up.
+*   **Stationary:** You feel your "true" weight ($mg$).
+
+Comparing these, the upward acceleration produces the highest measured weight, and downward acceleration produces the lowest.
+
+###QUESTION_TYPE
+Multiple choice

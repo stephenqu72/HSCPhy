@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To solve this problem, we must apply the fundamental relationship between electric force ($F$), electric field ($E$), and charge ($q$):
+$$F = qE$$
+
+1.  **Analyze the relationship:** If the charge $q$ were constant, the graph of $F$ versus $E$ would be a straight line passing through the origin with a gradient equal to $q$. 
+2.  **Examine the graph:** The plotted curve is **non-linear**. As the electric field ($E$) increases, the force ($F$) increases, but at a decreasing rate (the slope of the tangent to the curve is decreasing).
+3.  **Calculate the instantaneous charge:** Since the slope of the graph at any point represents the charge ($q = \frac{F}{E}$), we can test points on the graph:
+    *   At $E = 2 \text{ N C}^{-1}$, $F = 5 \times 10^{-3} \text{ N}$. Thus, $q = \frac{5 \times 10^{-3}}{2} = 2.5 \times 10^{-3} \text{ C}$.
+    *   At $E = 8 \text{ N C}^{-1}$, $F = 10 \times 10^{-3} \text{ N}$. Thus, $q = \frac{10 \times 10^{-3}}{8} = 1.25 \times 10^{-3} \text{ C}$.
+4.  **Conclusion:** As the electric field strength ($E$) increases, the calculated charge ($q$) decreases. Therefore, the particle is losing charge.
+
+*   (A) is incorrect because the charge is not constant.
+*   (B) is incorrect because the graph is not a straight line passing through the origin.
+*   (D) is incorrect because the slope is decreasing, not increasing.
+
+### QUESTION_TYPE
+Multiple choice

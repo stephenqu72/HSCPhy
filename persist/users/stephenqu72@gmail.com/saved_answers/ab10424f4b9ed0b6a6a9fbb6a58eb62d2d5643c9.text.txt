@@ -1,0 +1,23 @@
+To answer this question effectively for an HSC Physics exam, you need to link the experimental setup (the cathode ray tube) to the underlying physics principles of electromagnetism.
+
+### Answer
+
+In 1897, J.J. Thomson used a cathode ray tube (CRT) to determine the charge-to-mass ratio ($q/m$) of the electron.
+
+1.  **Experimental Setup:** Thomson directed a beam of cathode rays (electrons) through a region containing crossed electric and magnetic fields.
+2.  **Magnetic Deflection:** He first applied a magnetic field ($B$), which exerted a Lorentz force $F_B = qvB$ on the electrons, causing them to deflect.
+3.  **Electric Balancing:** He then applied an electric field ($E$) perpendicular to the magnetic field. By adjusting the field strength, he created an electric force $F_E = qE$ that acted in the opposite direction to the magnetic force.
+4.  **Determination of Velocity:** He adjusted the fields until the forces were balanced, meaning the electron beam traveled undeflected ($F_B = F_E$). By equating $qvB = qE$, he calculated the velocity of the electrons as $v = E/B$.
+5.  **Circular Motion:** With the electric field turned off, the magnetic field caused the electrons to move in a circular path with radius $r$. Using the centripetal force formula $F_B = \frac{mv^2}{r}$, he equated this to the magnetic force $qvB = \frac{mv^2}{r}$. Rearranging this yields the charge-to-mass ratio:
+$$\frac{q}{m} = \frac{v}{Br}$$
+By substituting the previously determined velocity ($v = E/B$) into this equation, Thomson was able to calculate the ratio $q/m$ for the electron.
+
+### How to solve it
+To secure the full 5 marks, follow this structure:
+*   **Identify the apparatus:** Explicitly mention the Cathode Ray Tube and the use of "crossed fields."
+*   **Explain the "null" deflection method:** Crucially, explain that the fields are balanced ($qvB = qE$) to isolate the velocity variable.
+*   **Explain the circular motion method:** Explain that once velocity is known, the radius of the path in a magnetic field allows for the determination of mass relative to charge.
+*   **Show the derivation:** Include the specific equations shown above. This demonstrates a deep understanding of the physics rather than just a descriptive summary.
+
+###QUESTION_TYPE
+Short answer

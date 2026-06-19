@@ -1,0 +1,29 @@
+To solve this problem, we must equate the gravitational force acting on the bottom wire with the magnetic force of repulsion between the two wires.
+
+### (a) Determining current and direction
+
+**1. Direction:** 
+To "levitate," the bottom wire must experience an upward magnetic force to counteract gravity (downwards). According to the right-hand grip rule and the motor effect, currents flowing in **opposite directions** produce a repulsive force. Therefore, the current in the bottom wire must flow to the **left**.
+
+**2. Calculation:**
+We are given the mass per unit length, $\mu = \frac{m}{L} = 18.5 \text{ g/m} = 0.0185 \text{ kg/m}$.
+The gravitational force per unit length is:
+$$F_g / L = \mu g = 0.0185 \times 9.8 = 0.1813 \text{ N/m}$$
+The magnetic force per unit length between two parallel wires is given by:
+$$\frac{F_m}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+Since $I_1 = I_2 = I$ and $r = 0.1 \text{ mm} = 1 \times 10^{-4} \text{ m}$:
+$$0.1813 = \frac{(4\pi \times 10^{-7}) I^2}{2\pi \times 10^{-4}}$$
+Simplifying the expression:
+$$0.1813 = \frac{2 \times 10^{-7} I^2}{10^{-4}} = 2 \times 10^{-3} I^2$$
+$$I^2 = \frac{0.1813}{2 \times 10^{-3}} = 90.65$$
+$$I = \sqrt{90.65} \approx 9.52 \text{ A}$$
+
+### (b) Newton's Law explanation
+
+According to **Newton’s Third Law**, for every action, there is an equal and opposite reaction. 
+1. The top wire exerts a magnetic force on the bottom wire to push it away (upwards). 
+2. Simultaneously, the bottom wire exerts an equal magnitude force on the top wire in the opposite direction (downwards). 
+3. In this equilibrium state, the upward magnetic force on the bottom wire equals the downward gravitational force, satisfying **Newton’s First Law**, as the net force on the bottom wire is zero, allowing it to remain stationary (levitate).
+
+###QUESTION_TYPE
+Calculation question
