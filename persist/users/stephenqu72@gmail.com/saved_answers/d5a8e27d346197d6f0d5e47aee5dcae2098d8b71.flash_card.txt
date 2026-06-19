@@ -1,8 +1,0 @@
-### Front
-What is the fundamental principle used to calculate the speed of light in Fizeau’s experiment?
-
-### Back
-- Key idea: The time taken for light to travel to a distant mirror and back must equal the time taken for the rotating toothed wheel to move by exactly one gap (blocking the light).
-- Formula / law: $c = \frac{2d}{t}$, where $t = \frac{\text{gap width}}{\text{linear speed of wheel}}$.
-- When to use it: To determine the speed of light using mechanical rotation and known path lengths.
-- Common trap: Forgetting to account for the *round trip* distance ($2 \times \text{distance to mirror}$) or confusing the wheel's angular velocity with linear tooth speed.
