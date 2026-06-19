@@ -130,6 +130,8 @@ except Exception:
             raise ValueError(f"{key_name} not set in environment or Streamlit secrets.")
         return GeminiKeySelection(key_name, api_key)
 
+from src.gemini_requests import generate_with_gemini
+
 from src.student_answers import (
     append_answer_log,
     build_answer_feedback_prompt,
@@ -1070,16 +1072,23 @@ def extract_picture_number(filename):
     return int(match.group(1)) if match else 0
 
 def call_model(prompt, image):
-    #model = genai.GenerativeModel("gemini-3.1-flash-lite-preview")
-    configure_gemini_for_current_user()
-    model = genai.GenerativeModel(selected_model)
-    return model.generate_content([prompt, image])
+    selection = configure_gemini_for_current_user()
+    return generate_with_gemini(
+        selection,
+        selected_model,
+        [prompt, image],
+        genai.GenerativeModel,
+    )
 
 
 def call_text_model(prompt):
-    configure_gemini_for_current_user()
-    model = genai.GenerativeModel(selected_model)
-    return model.generate_content(prompt)
+    selection = configure_gemini_for_current_user()
+    return generate_with_gemini(
+        selection,
+        selected_model,
+        prompt,
+        genai.GenerativeModel,
+    )
 
 
 TEXT_ANSWER_PROMPT = """
@@ -1664,11 +1673,9 @@ if st.session_state.image_files:
                         with open(img_path, "rb") as f:
                             image = Image.open(BytesIO(f.read()))
 
-                        configure_gemini_for_current_user()
-                        model = genai.GenerativeModel(selected_model)
                         with st.spinner("Gemini is thinking..."):
                             try:
-                                response = model.generate_content([user_input, image])
+                                response = call_model(user_input, image)
                                 reply = response.text
                             except Exception as e:
                                 reply = f"❌ Error: {e}"
