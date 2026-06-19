@@ -22,27 +22,47 @@ class GeminiKeyTests(unittest.TestCase):
             "GEMINI_API_KEY": "root0",
             "GEMINI_API_KEY_1": "root1",
             "GEMINI_API_KEY_2": "root2",
+            "GEMINI_API_KEY_3": "root3",
+            "GEMINI_API_KEY_4": "root4",
             "GEMINI_API_KEY_stu": "student",
         }
 
         self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=0).key_name, "GEMINI_API_KEY")
         self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=1).key_name, "GEMINI_API_KEY_1")
         self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=2).key_name, "GEMINI_API_KEY_2")
-        self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=3).key_name, "GEMINI_API_KEY")
+        self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=3).key_name, "GEMINI_API_KEY_3")
+        self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=4).key_name, "GEMINI_API_KEY_4")
+        self.assertEqual(select_gemini_key("stephenqu72@gmail.com", keys, random_index=5).key_name, "GEMINI_API_KEY")
 
     def test_missing_student_key_raises_clear_error(self):
         with self.assertRaisesRegex(ValueError, "GEMINI_API_KEY_stu"):
             select_gemini_key("student@example.com", {}, random_index=0)
 
-    def test_missing_root_key_raises_clear_error(self):
+    def test_root_skips_missing_or_blank_keys(self):
         keys = {
             "GEMINI_API_KEY": "root0",
-            "GEMINI_API_KEY_1": "root1",
+            "GEMINI_API_KEY_1": "",
+            "GEMINI_API_KEY_2": None,
+            "GEMINI_API_KEY_3": "root3",
             "GEMINI_API_KEY_stu": "student",
         }
 
-        with self.assertRaisesRegex(ValueError, "GEMINI_API_KEY_2"):
-            select_gemini_key("stephenqu72@gmail.com", keys, random_index=2)
+        self.assertEqual(
+            select_gemini_key("stephenqu72@gmail.com", keys, random_index=0).key_name,
+            "GEMINI_API_KEY",
+        )
+        self.assertEqual(
+            select_gemini_key("stephenqu72@gmail.com", keys, random_index=1).key_name,
+            "GEMINI_API_KEY_3",
+        )
+        self.assertEqual(
+            select_gemini_key("stephenqu72@gmail.com", keys, random_index=2).key_name,
+            "GEMINI_API_KEY",
+        )
+
+    def test_missing_all_root_keys_raises_clear_error(self):
+        with self.assertRaisesRegex(ValueError, "No root Gemini API key"):
+            select_gemini_key("stephenqu72@gmail.com", {}, random_index=0)
 
 
 if __name__ == "__main__":

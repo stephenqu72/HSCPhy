@@ -4,7 +4,13 @@ import random
 from src.auth_approval import is_root_user
 
 
-ROOT_GEMINI_KEY_NAMES = ["GEMINI_API_KEY", "GEMINI_API_KEY_1", "GEMINI_API_KEY_2"]
+ROOT_GEMINI_KEY_NAMES = [
+    "GEMINI_API_KEY",
+    "GEMINI_API_KEY_1",
+    "GEMINI_API_KEY_2",
+    "GEMINI_API_KEY_3",
+    "GEMINI_API_KEY_4",
+]
 STUDENT_GEMINI_KEY_NAME = "GEMINI_API_KEY_stu"
 
 
@@ -16,8 +22,17 @@ class GeminiKeySelection:
 
 def select_gemini_key(username: str, key_values: dict, random_index: int | None = None) -> GeminiKeySelection:
     if is_root_user(username):
-        selected_index = random.randrange(len(ROOT_GEMINI_KEY_NAMES)) if random_index is None else random_index
-        key_name = ROOT_GEMINI_KEY_NAMES[selected_index % len(ROOT_GEMINI_KEY_NAMES)]
+        available_keys = [
+            key_name
+            for key_name in ROOT_GEMINI_KEY_NAMES
+            if (key_values.get(key_name) or "").strip()
+        ]
+        if not available_keys:
+            raise ValueError(
+                "No root Gemini API key is set in the environment or Streamlit secrets."
+            )
+        selected_index = random.randrange(len(available_keys)) if random_index is None else random_index
+        key_name = available_keys[selected_index % len(available_keys)]
     else:
         key_name = STUDENT_GEMINI_KEY_NAME
 
