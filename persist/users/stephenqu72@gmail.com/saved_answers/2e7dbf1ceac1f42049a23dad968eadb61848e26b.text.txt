@@ -1,0 +1,41 @@
+To determine the age of the bone, we use the radioactive decay law, which relates the remaining amount of a substance to its initial amount and the number of half-lives that have elapsed.
+
+### Answer
+The age of the bone is **13,300 years** (to 3 significant figures).
+
+### Explanation
+To solve this problem, we use the following radioactive decay formula:
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+
+Where:
+*   $N(t) = 0.020\,g$ (the final amount of Carbon-14)
+*   $N_0 = 0.10\,g$ (the initial amount of Carbon-14)
+*   $T_{1/2} = 5730\,\text{years}$ (the half-life)
+*   $t$ = the age of the bone we need to calculate.
+
+**Step 1: Set up the equation**
+$$0.020 = 0.10 \times \left( 0.5 \right)^{\frac{t}{5730}}$$
+
+**Step 2: Isolate the exponential term**
+Divide both sides by $0.10$:
+$$\frac{0.020}{0.10} = 0.5^{\frac{t}{5730}}$$
+$$0.2 = 0.5^{\frac{t}{5730}}$$
+
+**Step 3: Solve for $t$ using logarithms**
+Take the natural logarithm ($\ln$) of both sides:
+$$\ln(0.2) = \ln\left( 0.5^{\frac{t}{5730}} \right)$$
+Using the log power rule ($\ln(a^b) = b \ln(a)$):
+$$\ln(0.2) = \frac{t}{5730} \times \ln(0.5)$$
+
+Rearrange to solve for $t$:
+$$t = \frac{\ln(0.2)}{\ln(0.5)} \times 5730$$
+
+**Step 4: Calculate the final value**
+Using a calculator:
+$$t \approx 2.3219 \times 5730$$
+$$t \approx 13304.5$$
+
+Rounding to 3 significant figures, we get $13,300$ years.
+
+###QUESTION_TYPE
+Calculation question

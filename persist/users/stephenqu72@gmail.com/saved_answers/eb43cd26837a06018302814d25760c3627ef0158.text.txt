@@ -1,0 +1,22 @@
+To solve this problem, we need to understand the de Broglie model of the atom. According to de Broglie, an electron orbiting a nucleus behaves as a standing wave. For a stable orbit to exist, the circumference of the orbit must be an integer multiple of the electron's de Broglie wavelength. This is expressed by the condition:
+
+$$2\pi r = n\lambda$$
+
+where:
+- $n$ is the principal quantum number (the number of whole wavelengths).
+- $\lambda$ is the wavelength.
+- $r$ is the radius of the orbit.
+
+### Step-by-Step Explanation:
+1.  **Understand the visual representation:** In the provided diagram, the dashed line represents the electron's path as a wave. A "whole wavelength" corresponds to one complete cycle of the wave (one crest and one trough).
+2.  **Count the oscillations:** If you trace the path around the circular orbit, you can count the number of "lobes" or "petals" protruding outward. Each full wavelength consists of two such lobes (one pointing outward, one pointing inward).
+3.  **Perform the count:** Looking at the diagram, there are $6$ distinct outer lobes. Since one full wavelength ($1\lambda$) creates $2$ lobes in this representation (one crest and one trough), we divide the total number of lobes by $2$:
+    $$\frac{6 \text{ lobes}}{2 \text{ lobes per wavelength}} = 3 \text{ wavelengths}$$
+4.  **Verification:** You can also simply count the number of full wave cycles around the circle. Starting from any point, you will pass through $3$ complete crests and $3$ complete troughs, confirming that $n = 3$.
+
+Therefore, the number of whole wavelengths $n$ is $3$.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

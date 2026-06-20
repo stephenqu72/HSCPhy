@@ -1,0 +1,23 @@
+To determine which transition produces the shortest wavelength of light, we must apply the principles of the Bohr model of the atom and the relationship between energy and wavelength.
+
+### Answer
+The correct answer is **B. $X$**.
+
+### Explanation
+1.  **Energy and Wavelength Relationship**: The energy ($\Delta E$) released during an electron transition is related to the wavelength ($\lambda$) of the emitted photon by the Planck-Einstein relation:
+    $$\Delta E = \frac{hc}{\lambda}$$
+    where $h$ is Planck's constant and $c$ is the speed of light. This equation shows that energy and wavelength are **inversely proportional**. Therefore, to produce the **shortest wavelength**, the transition must release the **largest amount of energy**.
+
+2.  **Analyzing the Energy Levels**: The energy of a transition is determined by the difference between the starting and ending energy levels ($n_{initial}$ to $n_{final}$). The further the drop (or the larger the gap between shells), the greater the energy emitted.
+    *   Transition $W$: From $n=2$ to $n=1$.
+    *   Transition $X$: From $n=5$ to $n=1$.
+    *   Transition $Y$: From $n=3$ to $n=2$.
+    *   Transition $Z$: From $n=4$ to $n=2$.
+
+3.  **Evaluating the Transitions**:
+    *   Transitions to the ground state ($n=1$) release significantly more energy than transitions to $n=2$. This narrows our focus to $W$ and $X$.
+    *   Transition $X$ falls from $n=5$ to $n=1$, covering a larger energy gap than transition $W$ ($n=2$ to $n=1$).
+    *   Since $X$ represents the largest energy drop among all options provided, it releases the most energetic photon. According to the inverse relationship, the highest energy corresponds to the shortest wavelength.
+
+###QUESTION_TYPE
+Multiple choice

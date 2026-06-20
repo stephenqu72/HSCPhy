@@ -1,0 +1,29 @@
+To calculate the energy of a photon emitted during an electronic transition in a hydrogen atom, we use the Bohr model energy formula:
+
+$$E_n = -\frac{13.6\text{ eV}}{n^2}$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the energy levels:**
+    *   Initial state: $n_i = 3$
+    *   Final state: $n_f = 2$
+
+2.  **Calculate the energy for each level:**
+    *   For $n = 3$: $E_3 = -\frac{13.6}{3^2} = -\frac{13.6}{9} \approx -1.511\text{ eV}$
+    *   For $n = 2$: $E_2 = -\frac{13.6}{2^2} = -\frac{13.6}{4} = -3.40\text{ eV}$
+
+3.  **Calculate the energy of the emitted photon:**
+    The energy of the emitted photon is equal to the difference between the two energy levels:
+    $$\Delta E = E_i - E_f$$
+    $$\Delta E = -1.511\text{ eV} - (-3.40\text{ eV})$$
+    $$\Delta E = -1.511 + 3.40 = 1.889\text{ eV}$$
+
+Rounding to two decimal places, we get **$1.89\text{ eV}$**.
+
+Comparing this result to the given options, the correct choice is **(A)**.
+
+### Explanation:
+When an electron moves from a higher energy level to a lower one, it must lose energy. This energy is released as a photon. By using the energy level formula derived from the Bohr model, we can find the specific energy associated with any shell in a hydrogen atom. The difference between these two values gives the exact energy of the photon required to bridge the gap between those specific orbital shells.
+
+###QUESTION_TYPE
+Multiple choice

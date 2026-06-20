@@ -1,0 +1,28 @@
+To calculate the mass defect, we must compare the sum of the individual masses of the protons and neutrons to the actual measured mass of the nucleus.
+
+### Step-by-Step Explanation
+
+1.  **Identify the masses of subatomic particles:**
+    Using standard physical constants:
+    *   Mass of a proton ($m_p$) $\approx 1.007276\text{ u}$
+    *   Mass of a neutron ($m_n$) $\approx 1.008665\text{ u}$
+
+2.  **Calculate the theoretical mass of the nucleons:**
+    Carbon-12 consists of 6 protons and 6 neutrons.
+    $$\text{Theoretical mass} = (6 \times m_p) + (6 \times m_n)$$
+    $$\text{Theoretical mass} = (6 \times 1.007276\text{ u}) + (6 \times 1.008665\text{ u})$$
+    $$\text{Theoretical mass} = 6.043656\text{ u} + 6.051990\text{ u} = 12.095646\text{ u}$$
+
+3.  **Calculate the mass defect ($\Delta m$):**
+    The mass defect is the difference between the sum of the masses of the individual nucleons and the actual mass of the atom ($12.000\text{ u}$):
+    $$\Delta m = \text{Theoretical mass} - \text{Actual mass}$$
+    $$\Delta m = 12.095646\text{ u} - 12.000\text{ u}$$
+    $$\Delta m = 0.095646\text{ u}$$
+
+**Answer:**
+The mass defect of one carbon-12 atom is approximately **$0.0956\text{ u}$**.
+
+*(Note to student: In an exam setting, ensure you use the specific values for proton and neutron masses provided in your Data Sheet, as these can slightly vary between textbooks.)*
+
+###QUESTION_TYPE
+Calculation question

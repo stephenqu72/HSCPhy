@@ -1,0 +1,30 @@
+### Answer
+
+**(a) Account for energy release in fission and fusion:**
+Energy is released in nuclear reactions when the product nuclei have a higher binding energy per nucleon than the initial nuclei. This results in a more stable configuration, where the "mass defect" (the difference in mass between the reactants and products) is released as energy according to $E=mc^2$.
+*   **Fusion:** Occurs with light nuclei (left side of the graph). When light nuclei fuse to form a heavier nucleus, the product has a significantly higher binding energy per nucleon, moving up the steep slope of the curve towards iron ($^{56}\text{Fe}$).
+*   **Fission:** Occurs with heavy nuclei (right side of the graph). When a heavy nucleus splits into lighter, intermediate-mass fragments, these fragments have a higher binding energy per nucleon than the original heavy nucleus, moving toward the peak of the curve.
+
+**(b) Calculate the energy released:**
+1.  **Reactants:**
+    *   Deuterium ($^2_1\text{H}$): Binding energy $= 2 \text{ nucleons} \times 1.1 \text{ MeV/nucleon} = 2.2 \text{ MeV}$.
+    *   Hydrogen ($^1_1\text{H}$): This is a single proton, so its binding energy is $0 \text{ MeV}$.
+    *   Total initial energy $= 2.2 \text{ MeV}$.
+2.  **Products:**
+    *   Helium-3 ($^3_2\text{He}$): Binding energy $= 3 \text{ nucleons} \times 2.6 \text{ MeV/nucleon} = 7.8 \text{ MeV}$.
+3.  **Energy released:**
+    *   $\Delta E = E_{\text{final}} - E_{\text{initial}}$
+    *   $\Delta E = 7.8 \text{ MeV} - 2.2 \text{ MeV} = 5.6 \text{ MeV}$.
+
+---
+
+### How to solve it
+
+1.  **Conceptual Part:** Always refer to the *binding energy per nucleon* curve. The key takeaway is that nature favors higher binding energy per nucleon, as it represents a more stable (lower energy) state. You must explicitly mention that fission involves moving from the right toward the center, and fusion involves moving from the left toward the center to reach the region of maximum stability (around iron).
+2.  **Calculation Part:**
+    *   Never use the "binding energy per nucleon" directly in a calculation; you must multiply it by the **mass number (A)** of the specific isotope to get the total binding energy for that nucleus.
+    *   Remember that a lone proton ($^1_1\text{H}$) has no binding energy because it has no other nucleons to bond with.
+    *   The energy released in a nuclear reaction is simply the difference between the total binding energy of the products and the total binding energy of the reactants.
+
+###QUESTION_TYPE
+Data analysis questions

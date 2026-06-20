@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+#### (a) Calculate the energy released in this decay in MeV.
+
+**Explanation:**
+Energy released ($Q$) is calculated using the mass-energy equivalence $E = \Delta m c^2$. First, find the mass defect ($\Delta m$) by subtracting the total mass of the products from the mass of the reactant:
+$$\Delta m = m_{\text{uranium}} - (m_{\text{thorium}} + m_{\text{helium}})$$
+$$\Delta m = 232.0317\text{ u} - (228.0287\text{ u} + 4.0026\text{ u})$$
+$$\Delta m = 232.0317 - 232.0313 = 0.0004\text{ u}$$
+Using the conversion factor $1\text{ u} \approx 931.5\text{ MeV}/c^2$:
+$$Q = 0.0004 \times 931.5\text{ MeV} = 0.3726\text{ MeV}$$
+
+---
+
+#### (b) Calculate the ratio of kinetic energy of the alpha particle to the kinetic energy of the thorium nucleus.
+
+**Explanation:**
+Since the initial nucleus is stationary, total momentum is conserved: $p_{\alpha} + p_{\text{Th}} = 0$, so $|p_{\alpha}| = |p_{\text{Th}}|$. The kinetic energy is related to momentum by $K = \frac{p^2}{2m}$.
+The ratio of kinetic energies is:
+$$\frac{K_{\alpha}}{K_{\text{Th}}} = \frac{\frac{p^2}{2m_{\alpha}}}{\frac{p^2}{2m_{\text{Th}}}} = \frac{m_{\text{Th}}}{m_{\alpha}}$$
+Using the atomic masses as an approximation for the ratio of the masses:
+$$\text{Ratio} = \frac{228}{4} = 57$$
+The ratio of the kinetic energy of the alpha particle to the thorium nucleus is **57:1**.
+
+---
+
+#### (c) Explain why the uranium-232 nucleus decays by emitting an alpha particle instead of 2 individual neutrons and 2 individual protons.
+
+**Explanation:**
+The alpha particle ($^4\text{He}$ nucleus) has an extremely high binding energy per nucleon compared to individual protons and neutrons. When these particles cluster together to form an alpha particle, a significant amount of mass is converted into binding energy, making the alpha particle a very stable configuration. Decaying via an alpha particle is energetically favourable because the mass of the resulting products is lower than if the nucleons were emitted separately, meaning more energy is released in the process (the system moves to a lower energy state).
+
+---
+
+###QUESTION_TYPE
+Calculation question

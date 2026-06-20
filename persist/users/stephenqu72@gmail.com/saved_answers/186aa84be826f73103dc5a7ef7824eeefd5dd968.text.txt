@@ -1,0 +1,27 @@
+To solve this problem, we must apply the physics of radioactive decay. The decay law is expressed as:
+$$N_t = N_0 e^{-\lambda t}$$
+Taking the natural logarithm of both sides gives the linear form:
+$$\ln\left(\frac{N_t}{N_0}\right) = -\lambda t$$
+This is in the form of $y = mx + c$, where $y = \ln(N_t/N_0)$, $x = t$ (time), and the gradient $m = -\lambda$.
+
+### Part (a): Plotting the results
+To plot the data, use the "Time (s)" as the x-axis and "$\ln(N_t/N_0)$" as the y-axis.
+- The x-axis should range from $0$ to at least $25$ seconds.
+- The y-axis should range from $0$ to $-1.2$.
+- Plot the coordinates: $(2, 0)$, $(7, -0.25)$, $(13, -0.55)$, $(20, -0.90)$, and $(24, -1.10)$.
+- Draw a line of best fit through these points.
+
+### Part (b): Determine the decay constant ($\lambda$)
+1. **Calculate the gradient:** Choose two points on your line of best fit, $(x_1, y_1)$ and $(x_2, y_2)$. The gradient is:
+   $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+   Using the data points $(2, 0)$ and $(24, -1.10)$:
+   $$m = \frac{-1.10 - 0}{24 - 2} = \frac{-1.10}{22} \approx -0.05 \text{ s}^{-1}$$
+2. **Relate to $\lambda$:** Since $m = -\lambda$, we have:
+   $$-\lambda = -0.05$$
+   $$\lambda = 0.05 \text{ s}^{-1}$$
+
+**Explanation:**
+The decay constant $\lambda$ represents the probability per unit time that a nucleus will decay. By transforming the exponential decay equation into a linear equation, we can determine $\lambda$ by finding the negative of the slope of the line. When plotting, ensure your scale is consistent and that your line of best fit minimizes the vertical distance between the line and the data points.
+
+###QUESTION_TYPE
+Data analysis questions

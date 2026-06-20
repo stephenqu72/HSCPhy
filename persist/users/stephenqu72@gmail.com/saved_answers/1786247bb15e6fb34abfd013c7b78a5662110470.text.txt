@@ -1,0 +1,22 @@
+To determine which electron transition emits the shortest wavelength, we must apply the principles of the Bohr model of the hydrogen atom.
+
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+1.  **Energy and Wavelength Relationship:** When an electron moves from a higher energy level ($n_{high}$) to a lower energy level ($n_{low}$), it emits a photon. The energy of this photon ($\Delta E$) is equal to the difference in energy between the two levels:
+    $$\Delta E = E_{high} - E_{low} = \frac{hc}{\lambda}$$
+    From this equation, we see that $\Delta E$ is inversely proportional to the wavelength ($\lambda$). Therefore, to get the **shortest wavelength**, we need the **largest change in energy** ($\Delta E$).
+
+2.  **Analyzing the Transitions:**
+    *   **(A)** Transition from $n=3$ to $n=2$
+    *   **(B)** Transition from $n=2$ to $n=1$
+    *   **(C)** Transition from $n=3$ to $n=1$
+    *   **(D)** Transition from $n=2$ to $n=1$ (Wait—looking closely at the diagram, (D) shows a transition between $n=2$ and $n=1$, but specifically highlights the gap between those levels. Regardless, (C) covers the largest span).
+
+3.  **Evaluating the Energy Gaps:**
+    In a hydrogen atom, the energy levels are given by $E_n = -13.6/n^2$ eV. 
+    *   The gap between $n=3$ and $n=1$ involves the greatest drop in potential energy compared to the other options. Because $\Delta E$ is the largest for the transition from $n=3$ to $n=1$, the emitted photon will have the highest frequency and, consequently, the **shortest wavelength**.
+
+###QUESTION_TYPE
+Multiple choice

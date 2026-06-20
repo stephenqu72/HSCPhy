@@ -1,0 +1,24 @@
+### Solution and Explanation
+
+**Part (a)**
+To derive Bragg's Law, consider the path difference between two waves reflecting off adjacent lattice planes. The extra distance traveled by the bottom wave is $BC + CB'$. Based on the geometry of the triangles, $BC = d \sin \theta$ and $CB' = d \sin \theta$. Thus, the total path difference is $2d \sin \theta$. For constructive interference (maximum reflectivity), this path difference must be an integer multiple of the wavelength:
+$$n\lambda = 2d \sin \theta$$
+where $n = 1, 2, 3, \dots$
+
+**Part (b)**
+Given $\lambda = 3.2 \text{ nm}$, $\theta_1 = 27^\circ$, and $\theta_2 = 43^\circ$. Since $n$ must be an integer, we test the ratio of $\sin \theta$:
+$$\frac{n_1}{n_2} = \frac{\sin 27^\circ}{\sin 43^\circ} \approx \frac{0.454}{0.682} \approx 0.665 \approx \frac{2}{3}$$
+This indicates the peaks correspond to $n=2$ and $n=3$. Using $n=2$:
+$$2(3.2 \text{ nm}) = 2d \sin 27^\circ \implies d = \frac{3.2}{\sin 27^\circ} \approx \mathbf{7.05 \text{ nm}}$$
+
+**Part (c)**
+In the Davisson-Germer experiment, the angle $\phi$ is the scattering angle, which is related to the Bragg angle $\theta$ by $\phi = 180^\circ - 2\theta$ (since the beam turns through $\phi$). Here, the glancing angle $\theta = (180^\circ - 50^\circ) / 2 = 65^\circ$.
+1. Using Bragg's Law for $n=1$: $\lambda = 2d \sin \theta = 2(0.091 \text{ nm}) \sin 65^\circ \approx 0.1648 \text{ nm}$.
+2. Using de Broglie's wavelength $\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}$:
+$$V = \frac{h^2}{2me\lambda^2} = \frac{(6.626 \times 10^{-34})^2}{2(9.11 \times 10^{-31})(1.602 \times 10^{-19})(0.1648 \times 10^{-9})^2} \approx \mathbf{56 \text{ V}}$$
+
+**Part (d)**
+The Davisson-Germer experiment provided the first experimental evidence for the de Broglie hypothesis (wave-particle duality). The Bohr model proposed that electrons occupy discrete orbits, but did not explain *why*. The experiment showed that electrons exhibit diffraction patterns characteristic of waves. This allowed physicists to justify Bohr's "quantized angular momentum" by treating the electron as a standing wave around the nucleus, where the circumference of the orbit must be an integer multiple of the wavelength ($2\pi r = n\lambda$), thereby providing a physical basis for Bohr’s postulates.
+
+###QUESTION_TYPE
+Calculation question

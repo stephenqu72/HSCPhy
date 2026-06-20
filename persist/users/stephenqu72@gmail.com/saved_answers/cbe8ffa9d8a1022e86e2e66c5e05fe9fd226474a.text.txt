@@ -1,0 +1,35 @@
+To solve this problem, we use the de Broglie wavelength formula, which relates the wavelength ($\lambda$) of a particle to its momentum ($p$):
+
+$$\lambda = \frac{h}{p}$$
+
+Since the particle is travelling at the speed of light ($c$), we use relativistic momentum $p = mc$. Thus:
+
+$$\lambda = \frac{h}{mc}$$
+
+Rearranging to solve for the mass ($m$):
+
+$$m = \frac{h}{\lambda c}$$
+
+### Calculation:
+Given:
+- Planck's constant $h \approx 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+- Speed of light $c \approx 3.00 \times 10^8 \text{ m/s}$
+- Wavelength $\lambda = 1.319 \times 10^{-15} \text{ m}$
+
+Substitute the values:
+
+$$m = \frac{6.626 \times 10^{-34}}{(1.319 \times 10^{-15})(3.00 \times 10^8)}$$
+$$m = \frac{6.626 \times 10^{-34}}{3.957 \times 10^{-7}}$$
+$$m \approx 1.674 \times 10^{-27} \text{ kg}$$
+
+### Analysis:
+We compare this mass to the known masses of the given particles:
+- **Proton:** $\approx 1.673 \times 10^{-27} \text{ kg}$
+- **Neutron:** $\approx 1.675 \times 10^{-27} \text{ kg}$
+- **Electron:** $\approx 9.11 \times 10^{-31} \text{ kg}$
+- **Helium nucleus:** $\approx 6.64 \times 10^{-27} \text{ kg}$
+
+The calculated mass is extremely close to the mass of a neutron. Therefore, the correct answer is **B. Neutron**.
+
+###QUESTION_TYPE
+Multiple choice

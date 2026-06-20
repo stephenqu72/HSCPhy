@@ -1,0 +1,26 @@
+To solve this problem, we must apply the principles of de Broglie's hypothesis and classical mechanics.
+
+### 1. Analysis of Momentum
+The de Broglie wavelength $\lambda$ is defined by the formula:
+$$\lambda = \frac{h}{p}$$
+where $h$ is Planck's constant and $p$ is the momentum of the particle ($p = mv$). 
+
+Since the problem states that both the electron and the proton have the same de Broglie wavelength ($\lambda$), and $h$ is a universal constant, it follows that their **momentum ($p$) must be the same**.
+Therefore, statement **(C)** is correct.
+
+### 2. Analysis of Speed and Kinetic Energy
+Since $p = mv$, if the momentum $p$ is the same, then:
+$$m_e v_e = m_p v_p$$
+Because the mass of a proton ($m_p$) is significantly larger than the mass of an electron ($m_e$), the velocities cannot be the same. Specifically, to maintain the same momentum, the electron must be moving much faster than the proton. Thus, statement **(A)** is incorrect.
+
+Next, consider kinetic energy ($E_k$):
+$$E_k = \frac{p^2}{2m}$$
+Since the particles have the same momentum $p$, the kinetic energy is inversely proportional to their mass ($E_k \propto \frac{1}{m}$). Because they have different masses, they will have different kinetic energies. Specifically, the electron (with the smaller mass) will have a higher kinetic energy than the proton. Thus, statement **(B)** is incorrect.
+
+### Conclusion
+Only the momentum is the same for both particles.
+
+**Correct Option: (C)**
+
+###QUESTION_TYPE
+Multiple choice

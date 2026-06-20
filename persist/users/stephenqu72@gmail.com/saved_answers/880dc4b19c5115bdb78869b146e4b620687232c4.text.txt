@@ -1,0 +1,30 @@
+To solve this problem, we must determine the half-life of the radioactive source from the provided graph and then use that to calculate the remaining mass after $7$ hours and $20$ minutes.
+
+### 1. Determine the half-life ($t_{1/2}$)
+The initial mass ($N_0$) at $t = 0$ is $120\text{ g}$.
+The half-life occurs when the mass is reduced to half of the initial value, which is:
+$$\frac{120\text{ g}}{2} = 60\text{ g}$$
+Looking at the graph, the mass is $60\text{ g}$ when the time $t = 2\text{ hours}$.
+Therefore, the half-life $t_{1/2} = 2\text{ hours}$.
+
+### 2. Calculate the number of half-lives elapsed
+We need to find the mass remaining at $7\text{ hours}$ and $20\text{ minutes}$.
+First, convert the total time into hours:
+$$7\text{ hours and } 20\text{ minutes} = 7 + \frac{20}{60}\text{ hours} = 7.333...\text{ hours} = \frac{22}{3}\text{ hours}$$
+Now, find the number of half-lives ($n$):
+$$n = \frac{\text{total time}}{t_{1/2}} = \frac{22/3}{2} = \frac{11}{3} \approx 3.6667$$
+
+### 3. Calculate the remaining mass ($N_t$)
+Using the radioactive decay formula:
+$$N_t = N_0 \times \left(\frac{1}{2}\right)^n$$
+Substitute the values:
+$$N_t = 120 \times \left(0.5\right)^{3.6667}$$
+$$N_t = 120 \times 0.078745...$$
+$$N_t \approx 9.449\text{ g}$$
+
+Rounding to two decimal places, we get **$9.45\text{ g}$**.
+
+Matching this to the given options, the correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

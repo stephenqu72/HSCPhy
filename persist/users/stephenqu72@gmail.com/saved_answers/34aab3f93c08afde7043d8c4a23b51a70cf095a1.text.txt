@@ -1,0 +1,29 @@
+### Answer
+
+**a) Determine the relativistic momentum of a colliding proton in the LHC.**
+
+To calculate the relativistic momentum, we use the formula:
+$$p = \gamma mv$$
+where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$, $m$ is the rest mass of a proton ($1.67 \times 10^{-27}\text{ kg}$), and $v = 0.999c$.
+
+1. Calculate the Lorentz factor ($\gamma$):
+$$\gamma = \frac{1}{\sqrt{1 - (0.999)^2}} = \frac{1}{\sqrt{1 - 0.998001}} = \frac{1}{\sqrt{0.001999}} \approx 22.366$$
+
+2. Calculate the relativistic momentum ($p$):
+$$p = 22.366 \times (1.67 \times 10^{-27}\text{ kg}) \times (0.999 \times 3.00 \times 10^8\text{ m/s})$$
+$$p \approx 22.366 \times 1.67 \times 10^{-27} \times 2.997 \times 10^8$$
+$$p \approx 1.119 \times 10^{-17}\text{ kg m/s}$$
+
+**b) With reference to the Standard Model, describe the composition of a proton.**
+
+According to the Standard Model, a proton is a type of hadron known as a baryon. It is composed of three valence quarks held together by the strong nuclear force, which is mediated by gluons. Specifically, a proton consists of two **up quarks** and one **down quark** ($uud$).
+
+---
+
+### How to solve this question
+
+*   **Part (a):** This is a standard relativity problem. Always remember to calculate the Lorentz factor ($\gamma$) first. Students often forget to use the constant $c = 3.00 \times 10^8\text{ m/s}$ in the velocity term, or they mistakenly use the classical momentum formula ($p=mv$). Ensure your final answer has appropriate units ($\text{kg m/s}$).
+*   **Part (b):** This requires memorization of the Standard Model classification. Remember that protons and neutrons are baryons (made of 3 quarks), while mesons are made of a quark-antiquark pair. You must specify the quark flavor combination (two up, one down) to receive full marks.
+
+###QUESTION_TYPE
+Calculation question

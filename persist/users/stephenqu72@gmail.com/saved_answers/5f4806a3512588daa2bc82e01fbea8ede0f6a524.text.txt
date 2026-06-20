@@ -1,0 +1,37 @@
+### Answer
+
+**(a) Comparison and Transmutation**
+
+*   **Alpha ($\alpha$) decay:** Consists of a helium nucleus ($^{4}_{2}\text{He}$). It is the most massive and highly ionizing, but has low penetration (stopped by paper). During transmutation, it reduces the atomic number $Z$ by 2 and the mass number $A$ by 4, creating a new element.
+*   **Beta ($\beta$) decay:** Consists of an electron ($^{0}_{-1}e$) or positron ($^{0}_{+1}e$). It has moderate ionization and penetration (stopped by thin aluminum). In $\beta^-$ decay, a neutron converts to a proton, increasing $Z$ by 1 while $A$ remains constant.
+*   **Gamma ($\gamma$) decay:** High-energy electromagnetic radiation. It has the lowest ionization but highest penetration (requires thick lead/concrete). $\gamma$ emission does not change $Z$ or $A$; it is typically released following $\alpha$ or $\beta$ decay to move the nucleus from an excited state to a lower energy state. 
+
+**Conclusion:** Alpha and beta decay cause transmutation by fundamentally changing the number of protons in the nucleus. Gamma decay does not cause transmutation but acts as a mechanism to stabilize the nucleus post-transmutation.
+
+**(b) Calculation**
+
+The formula for radioactive decay is:
+$$N = N_0 \times \left(\frac{1}{2}\right)^n$$
+Where:
+*   $N_0 = 10\text{ g}$
+*   $n = 3\text{ half-lives}$
+
+Calculation:
+$$N = 10 \times \left(\frac{1}{2}\right)^3$$
+$$N = 10 \times \frac{1}{8}$$
+$$N = 1.25\text{ g}$$
+The remaining mass is $1.25\text{ grams}$.
+
+***
+
+### How to solve this
+
+1.  **For part (a):** This is a "Discuss" and "Compare" question. You must structure your answer by defining the properties (mass, charge, penetration, and ionizing ability) of each radiation type first. Then, explicitly link these to the concept of **transmutation**—the conversion of one chemical element into another. Remember to state that $\gamma$ radiation *does not* result in transmutation.
+2.  **For part (b):** This is a standard half-life problem. You can either use the formula $N = N_0(1/2)^n$ or perform iterative division. 
+    *   Start: $10\text{ g}$
+    *   1 half-life: $5\text{ g}$
+    *   2 half-lives: $2.5\text{ g}$
+    *   3 half-lives: $1.25\text{ g}$
+
+###QUESTION_TYPE
+Short answer

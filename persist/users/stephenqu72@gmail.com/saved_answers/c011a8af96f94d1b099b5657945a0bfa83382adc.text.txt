@@ -1,0 +1,30 @@
+To find the half-life of a radioactive sample, we look for the time $t$ at which the remaining amount $N_t$ is exactly half of the initial amount $N_0$. That is, we set $N_t = \frac{1}{2} N_0$.
+
+### Step-by-step Solution:
+
+1.  **Set up the equation:**
+    Using the given formula $N_t = N_0 e^{-0.024t}$, substitute $N_t = 0.5 N_0$:
+    $$0.5 N_0 = N_0 e^{-0.024t}$$
+
+2.  **Simplify:**
+    Divide both sides by $N_0$:
+    $$0.5 = e^{-0.024t}$$
+
+3.  **Solve for $t$:**
+    Take the natural logarithm ($\ln$) of both sides to isolate the exponent:
+    $$\ln(0.5) = -0.024t$$
+
+    Since $\ln(0.5) = -\ln(2) \approx -0.693$:
+    $$-0.693 = -0.024t$$
+
+4.  **Calculate $t$:**
+    $$t = \frac{-0.693}{-0.024}$$
+    $$t \approx 28.875 \text{ hours}$$
+
+Rounding this to the nearest whole number gives **29 hours**. Comparing this to the provided options, (A) is the correct answer.
+
+### Explanation:
+The decay constant $\lambda$ in the exponential decay formula $N_t = N_0 e^{-\lambda t}$ is $0.024 \text{ h}^{-1}$. The relationship between the half-life ($T_{1/2}$) and the decay constant is derived as $T_{1/2} = \frac{\ln(2)}{\lambda}$. By substituting $\lambda = 0.024$, we arrive at the same result.
+
+###QUESTION_TYPE
+Multiple choice

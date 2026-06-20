@@ -1,0 +1,17 @@
+To determine the correct answer, we need to analyze the physics behind the decay of the Rh-106 sample and how it interacts with the provided apparatus.
+
+### Answer
+The correct answer is **A. Only $I$ changes.**
+
+### Explanation
+1.  **The Physics of the Current ($I$):**
+    The current measured by the galvanometer is caused by the flow of beta particles (electrons) emitted by the radioactive Rh-106 sample. The magnitude of this current is directly proportional to the activity of the sample, $A$. Since the activity of a radioactive source decays over time according to the formula $A = A_0 e^{-\lambda t}$, the number of beta particles emitted per second decreases as time progresses. Therefore, the measured current $I$ will decrease significantly after a few minutes.
+
+2.  **The Physics of the Stopping Voltage ($V_s$):**
+    The stopping voltage is the potential difference required to stop the most energetic beta particles from reaching the electrode. The energy of the beta particles is a property of the specific nuclear decay process of Rh-106 (it depends on the energy levels of the daughter nucleus). This energy is **independent** of the activity or the number of atoms remaining in the sample. As long as there is still some radioactive material present, the beta particles will continue to be emitted with the same maximum kinetic energy. Consequently, the minimum voltage required to stop these particles ($V_s$) remains constant.
+
+3.  **Conclusion:**
+    Since the activity (and thus $I$) decreases over time, but the characteristic energy of the beta particles (and thus $V_s$) remains constant, only the current $I$ changes.
+
+###QUESTION_TYPE
+Multiple choice

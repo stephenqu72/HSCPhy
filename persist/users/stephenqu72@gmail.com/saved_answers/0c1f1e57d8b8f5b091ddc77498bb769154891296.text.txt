@@ -1,0 +1,31 @@
+To solve this problem, we must analyze the change in the nucleon number (mass number $A$) and the atomic number ($Z$) for each step of the decay series from Thulium-149 ($^{149}_{69}\text{Tm}$) to Dysprosium-141 ($^{141}_{66}\text{Dy}$).
+
+### Step-by-Step Analysis
+
+1.  **Total Change:**
+    *   Mass number: $149 \rightarrow 141$ (A decrease of 8).
+    *   Atomic number: $69 \rightarrow 66$ (A decrease of 3).
+
+2.  **Recall Decay Properties:**
+    *   **Alpha ($\alpha$) decay:** Mass number decreases by 4, atomic number decreases by 2 ($^4_2\text{He}$).
+    *   **Beta-minus ($\beta^-$) decay:** Mass number stays the same, atomic number increases by 1 ($^0_{-1}e$).
+    *   **Beta-plus ($\beta^+$) decay:** Mass number stays the same, atomic number decreases by 1 ($^0_{+1}e$).
+
+3.  **Evaluate the path:**
+    *   We need a total mass decrease of 8. Since only $\alpha$ decay changes the mass number, and each $\alpha$ decay reduces $A$ by 4, we must have exactly **two $\alpha$ decays** ($2 \times 4 = 8$).
+    *   Let's check Option (C):
+        *   **Decay 1 ($\alpha$):** $^{149}_{69}\text{Tm} \rightarrow ^{145}_{67}\text{Ho} + \alpha$
+        *   **Decay 2 ($\alpha$):** $^{145}_{67}\text{Ho} \rightarrow ^{141}_{65}\text{Tb} + \alpha$
+        *   **Decay 3 ($\beta^+$):** $^{141}_{65}\text{Tb} \rightarrow ^{141}_{66}\text{Dy} + \beta^+$ (A $\beta^+$ decay increases $Z$ by 1, turning 65 into 66).
+
+    *   Checking the total change: 
+        *   $A: 149 - 4 - 4 = 141$ (Correct).
+        *   $Z: 69 - 2 - 2 + 1 = 66$ (Correct).
+
+Option (C) satisfies both the mass and atomic number conservation laws.
+
+### Answer
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

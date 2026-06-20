@@ -1,0 +1,28 @@
+To find the wavelength of the shortest infrared line in the hydrogen spectrum, we must use the Rydberg formula for hydrogen:
+
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+
+where $R_H \approx 1.097 \times 10^7 \, \text{m}^{-1}$ (or $1.097 \times 10^{-2} \, \text{nm}^{-1}$), $n_f$ is the final energy level, and $n_i$ is the initial energy level.
+
+### Step-by-Step Solution:
+
+1.  **Identify the Series:** The Balmer series is visible, the Lyman series is ultraviolet, and the Paschen and Brackett series (as well as higher ones like Pfund) are in the infrared region. The "shortest" wavelength in a series corresponds to the transition from the highest possible energy state ($n_i = \infty$) to the series limit ($n_f$).
+2.  **Determine the target:** We are looking for the shortest infrared line. The series with the longest wavelengths (and therefore the ones that could be "shortest" in terms of energy/highest frequency within the infrared spectrum) are the ones with higher $n_f$ values. However, "shortest wavelength" generally refers to the transition with the highest energy. Among the infrared series, the **Paschen series** ($n_f = 3$) has higher energy transitions than the Brackett series ($n_f = 4$).
+3.  **Calculate the limit:** The shortest wavelength for any series is the "limit" where $n_i \to \infty$.
+    *   For Paschen ($n_f = 3$):
+        $$\frac{1}{\lambda} = R_H \left( \frac{1}{3^2} - \frac{1}{\infty^2} \right) = \frac{R_H}{9}$$
+        $$\lambda = \frac{9}{1.097 \times 10^{-2} \, \text{nm}^{-1}} \approx 820 \, \text{nm}$$
+    *   Wait—820 nm is actually near-infrared. Let's look at the options provided. Option B ($820 \, \text{nm}$) corresponds to the Paschen limit. Since the Paschen series begins at $n_f=3$, and all subsequent transitions are at higher energy (shorter wavelength), the limit is indeed the shortest wavelength for that series.
+
+Comparing the options:
+*   A ($91 \, \text{nm}$): Lyman limit (Ultraviolet).
+*   B ($820 \, \text{nm}$): Paschen limit (Infrared).
+*   C ($1094 \, \text{nm}$): A specific transition within the Paschen series.
+*   D ($4051 \, \text{nm}$): A specific transition within the Brackett series.
+
+The shortest wavelength in the infrared spectrum of hydrogen belongs to the series limit of the Paschen series, which is $820 \, \text{nm}$.
+
+**Correct Option: B**
+
+###QUESTION_TYPE
+Multiple choice

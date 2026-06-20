@@ -1,0 +1,31 @@
+To find the velocity of an electron with a specific de Broglie wavelength, we use the de Broglie wavelength formula:
+
+$$\lambda = \frac{h}{mv}$$
+
+Where:
+*   $\lambda$ is the wavelength ($1\text{ mm} = 1 \times 10^{-3}\text{ m}$)
+*   $h$ is Planck’s constant ($6.626 \times 10^{-34}\text{ J s}$)
+*   $m$ is the mass of an electron ($9.109 \times 10^{-31}\text{ kg}$)
+*   $v$ is the velocity
+
+### Step-by-step solution:
+
+1.  **Rearrange the formula to solve for velocity ($v$):**
+    $$v = \frac{h}{m\lambda}$$
+
+2.  **Substitute the known values into the equation:**
+    $$v = \frac{6.626 \times 10^{-34}\text{ J s}}{(9.109 \times 10^{-31}\text{ kg}) \times (1 \times 10^{-3}\text{ m})}$$
+
+3.  **Perform the calculation:**
+    $$v = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-34}}$$
+    $$v \approx 0.7274\text{ ms}^{-1}$$
+
+4.  **Round the result:**
+    Rounding to two significant figures, we get $0.73\text{ ms}^{-1}$.
+
+Comparing this to the given options, it matches **(B)**.
+
+**Teacher's Tip:** Always remember to convert your units to SI units (meters, kilograms, seconds) before substituting them into the equation. A common pitfall is forgetting to convert millimeters ($1\text{ mm}$) into meters ($10^{-3}\text{ m}$).
+
+###QUESTION_TYPE
+Multiple choice

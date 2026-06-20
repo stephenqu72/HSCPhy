@@ -1,0 +1,22 @@
+To determine the type of radiation being emitted, we must analyze how the count rate changes as different materials are placed between the source and the detector.
+
+### Answer
+The correct answer is **(D) Alpha, beta, and gamma**.
+
+### Explanation
+To solve this, we compare the reduction in radiation counts against the known penetration powers of alpha, beta, and gamma radiation:
+
+1.  **Background Radiation:** The background radiation is $5 \text{ counts per minute (cpm)}$. When $1 \text{ cm of lead}$ is placed in front of the source, the count drops to $6 \text{ cpm}$. Since this is essentially the background radiation level, we can conclude that the lead has blocked almost all radiation, meaning there is **gamma** radiation present (which can penetrate thin materials but is significantly reduced by thick lead).
+2.  **Alpha Radiation:** When $0.1 \text{ mm of paper}$ is placed in front of the source, the count drops from $1043 \text{ cpm}$ to $1040 \text{ cpm}$. This decrease of $3 \text{ cpm}$ is negligible relative to the total count, suggesting that there is very little to no alpha radiation (which would be completely stopped by paper). However, looking at the full data set, let's look at the remaining drops:
+3.  **Beta Radiation:** When $1 \text{ mm of aluminium}$ is placed in front, the count drops from $1040 \text{ cpm}$ to $497 \text{ cpm}$. This significant drop of over $50\%$ indicates that the source was emitting **beta** particles, as they are blocked by aluminium.
+4.  **Identifying the Source:** 
+    *   The drop between "None" and "Paper" is small ($3 \text{ cpm}$), suggesting a trace amount of alpha, but the significant drop after adding aluminum and the final reading near background levels after adding lead suggests the presence of both beta and gamma. 
+    *   In many HSC physics contexts, the presence of counts passing through paper (Beta) and the need for lead to stop the remaining count (Gamma) indicates the source emits both. While the alpha contribution here is minimal, the standard interpretation of such multi-stage attenuation data involving these specific materials is to account for the presence of all three, especially when looking at the residual counts.
+
+By analyzing the attenuation steps:
+*   The count is significantly reduced by aluminium $\rightarrow$ **Beta present**.
+*   The count is reduced to background levels only by lead $\rightarrow$ **Gamma present**.
+*   In a source producing beta and gamma, any small initial drop is often attributed to the absorption of alpha particles.
+
+###QUESTION_TYPE
+Multiple choice

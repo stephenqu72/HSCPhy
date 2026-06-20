@@ -1,0 +1,30 @@
+To solve this problem, we must apply the de Broglie wavelength formula, which relates the wave-like property of a particle (its wavelength) to its momentum.
+
+### Answer
+The correct statement is **C: The neutron has a shorter wavelength because its mass is greater.**
+
+### Explanation
+1.  **The Formula:** The de Broglie wavelength ($\lambda$) is given by:
+    $$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+    Where:
+    - $h$ is Planck's constant (a constant value).
+    - $p$ is momentum ($p = mv$).
+    - $m$ is the mass of the particle.
+    - $v$ is the velocity (speed) of the particle.
+
+2.  **Analyze the Variables:**
+    - The problem states that both the proton and the neutron travel at the **same speed** ($v$).
+    - Planck's constant ($h$) is obviously the same for both.
+    - Therefore, the wavelength ($\lambda$) is inversely proportional to the mass ($m$):
+      $$\lambda \propto \frac{1}{m}$$
+
+3.  **Compare Masses:**
+    - A neutron is slightly more massive than a proton ($m_n > m_p$).
+
+4.  **Conclusion:**
+    - Since the neutron has a greater mass ($m$), and mass is in the denominator of the de Broglie equation, the neutron must have a smaller wavelength compared to the proton. 
+    - Conversely, the proton has a smaller mass, resulting in a longer wavelength.
+    - Looking at the options, statement **C** correctly identifies that the neutron has a shorter wavelength because its mass is greater.
+
+###QUESTION_TYPE
+Multiple choice

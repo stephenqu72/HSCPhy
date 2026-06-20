@@ -1,0 +1,29 @@
+To find the half-life and decay constant from the graph, follow these steps:
+
+### 1. Find the Half-life ($t_{1/2}$)
+The half-life is the time taken for the activity of a radioactive sample to decrease to half of its initial value.
+*   **Initial activity ($A_0$):** Looking at the graph at $t = 0\text{ s}$, the activity is $160\text{ disintegrations/s}$.
+*   **Half of the initial activity:** $\frac{160}{2} = 80\text{ disintegrations/s}$.
+*   **Determine time:** Locate $80$ on the vertical axis and move horizontally to the curve, then down to the horizontal axis. Looking at the curve, the activity is $100$ at $t = 10\text{ s}$ and $60$ at $t = 20\text{ s}$. The value of $80$ falls exactly in the middle of these points, which is approximately $13\text{ s}$ (or check the options provided, which confirm $13\text{ s}$).
+
+Thus, the **half-life is $13\text{ s}$**. This narrows our choices to A and C.
+
+### 2. Calculate the Decay Constant ($\lambda$)
+The relationship between the decay constant ($\lambda$) and the half-life ($t_{1/2}$) is given by the formula:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+
+Substitute the value $t_{1/2} = 13\text{ s}$:
+$$\lambda = \frac{0.6931}{13}$$
+$$\lambda \approx 0.0533\text{ s}^{-1}$$
+
+Rounding to match the provided options, we get $0.053\text{ s}^{-1}$.
+
+### Conclusion
+Comparing our results ($t_{1/2} = 13\text{ s}$ and $\lambda = 0.053\text{ s}^{-1}$) with the options provided:
+*   Option A: $13$ and $18.76$ (Incorrect)
+*   Option C: $13$ and $0.053$ (Correct)
+
+The correct answer is **C**.
+
+###QUESTION_TYPE
+Multiple choice

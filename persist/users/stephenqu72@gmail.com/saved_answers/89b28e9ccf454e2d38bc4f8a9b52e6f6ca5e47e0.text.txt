@@ -1,0 +1,27 @@
+To solve this problem, we apply Einstein’s mass-energy equivalence principle, $E = mc^2$.
+
+### Explanation
+1.  **Identify the particles involved:** An electron-positron annihilation involves an electron and its antiparticle, the positron.
+2.  **Determine the mass:** The rest mass of a single electron (or positron) is approximately $m_e = 9.109 \times 10^{-31} \text{ kg}$.
+3.  **Calculate the total mass being converted:** Since both particles are annihilated, the total mass $M$ involved is:
+    $$M = 2 \times m_e = 2 \times 9.109 \times 10^{-31} \text{ kg} = 1.8218 \times 10^{-30} \text{ kg}$$
+4.  **Convert mass to energy in Joules:**
+    $$E = Mc^2$$
+    $$E = (1.8218 \times 10^{-30} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+    $$E \approx 1.639 \times 10^{-13} \text{ Joules}$$
+5.  **Convert Joules to electron-volts (eV):** Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$:
+    $$E_{\text{eV}} = \frac{1.639 \times 10^{-13} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} \approx 1.022 \times 10^6 \text{ eV}$$
+    This is equivalent to **$1.02 \text{ MeV}$**.
+
+Alternatively, knowing the standard physics constants, the rest mass energy of an electron is $0.511 \text{ MeV}$. Since two particles are annihilated, the total energy released is $2 \times 0.511 \text{ MeV} = 1.022 \text{ MeV}$.
+
+Comparing this to the given options:
+(A) Incorrect units/magnitude.
+(B) This is the energy in Joules, but the unit is labeled as eV.
+(C) This is the energy of a single electron.
+(D) This is the correct total energy released.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

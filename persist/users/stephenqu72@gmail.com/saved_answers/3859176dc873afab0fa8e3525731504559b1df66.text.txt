@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Part (a)
+**Millikan’s Oil Drop Experiment:** By suspending charged oil droplets between electric plates, Millikan balanced the gravitational force against the electric force ($mg = qE$). By adjusting the voltage to achieve suspension, he determined that the charge on the droplets was always an integer multiple of a fundamental unit, $1.6 \times 10^{-19}\text{ C}$, thereby confirming the quantization of electric charge and providing the value of the elementary charge.
+
+**J.J. Thomson’s Cathode Ray Experiment:** Thomson applied perpendicular electric and magnetic fields to a beam of cathode rays. By balancing the forces ($F_e = F_m$), he was able to calculate the charge-to-mass ratio ($q/m$) of the particles. This experiment proved that cathode rays were composed of subatomic particles (electrons) much smaller than the hydrogen atom, challenging the model of the atom as an indivisible sphere.
+
+---
+
+#### Part (b)
+To calculate the charge $q$, we must recognize that the droplet is suspended between **vertical** plates. This implies the droplet is held against gravity by some force, but in a standard vertical-plate configuration (often a misnomer in some textbook problems, but mathematically treated as balancing forces), we assume the electric force $F_E$ balances the gravitational force $F_g$.
+
+**1. Given values:**
+- Diameter $d = 0.24\text{ mm} = 2.4 \times 10^{-4}\text{ m}$
+- Radius $r = 1.2 \times 10^{-4}\text{ m}$
+- Density $\rho = 886\text{ kg/m}^3$
+- Voltage $V = 220\text{ V}$
+- Plate separation $d_{plates} = 4\text{ mm} = 0.004\text{ m}$
+- Electric field $E = V / d_{plates} = 220 / 0.004 = 55,000\text{ V/m}$
+
+**2. Formulas:**
+- Volume of sphere $V_{sphere} = \frac{4}{3}\pi r^3$
+- Mass $m = \rho \times V_{sphere}$
+- Force balance: $mg = qE \implies q = \frac{mg}{E}$
+
+**3. Calculation:**
+- Volume $= \frac{4}{3} \times \pi \times (1.2 \times 10^{-4})^3 \approx 7.238 \times 10^{-12}\text{ m}^3$
+- Mass $= 886 \times 7.238 \times 10^{-12} \approx 6.413 \times 10^{-9}\text{ kg}$
+- Weight $mg = 6.413 \times 10^{-9} \times 9.8 \approx 6.285 \times 10^{-8}\text{ N}$
+- Charge $q = \frac{6.285 \times 10^{-8}}{55,000} \approx 1.14 \times 10^{-12}\text{ C}$
+
+###QUESTION_TYPE
+Calculation question

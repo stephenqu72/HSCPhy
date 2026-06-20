@@ -1,0 +1,40 @@
+### Solution and Explanation
+
+#### Part (a)
+To calculate the time taken in the frame of reference of the detectors, we use the classical formula for time, as the distance $d$ and velocity $v$ are both measured in the detectors' frame of reference.
+
+1.  **Given values:**
+    *   Distance $d = 34\text{ m}$
+    *   Velocity $v = 0.95c$, where $c \approx 3.00 \times 10^8\text{ m/s}$
+2.  **Calculation:**
+    $$t = \frac{d}{v} = \frac{34}{0.95 \times 3.00 \times 10^8}$$
+    $$t \approx \frac{34}{2.85 \times 10^8} \approx 1.193 \times 10^{-7}\text{ s} = 119.3\text{ ns}$$
+
+**Answer:** The time taken is approximately $119\text{ ns}$.
+
+---
+
+#### Part (b)
+This part involves **time dilation**. The pions are moving at $0.95c$, so the time they experience (proper time, $\Delta t_0$) is shorter than the time measured by the stationary detectors (dilated time, $\Delta t$).
+
+1.  **Calculate the Lorentz factor ($\gamma$):**
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.95^2}} = \frac{1}{\sqrt{1 - 0.9025}} = \frac{1}{\sqrt{0.0975}} \approx 3.2026$$
+
+2.  **Calculate the proper time ($\Delta t_0$) for the pion:**
+    $$\Delta t_0 = \frac{\Delta t}{\gamma} = \frac{119.3\text{ ns}}{3.2026} \approx 37.25\text{ ns}$$
+
+3.  **Calculate the number of half-lives ($n$):**
+    The half-life $T_{1/2}$ is $18\text{ ns}$.
+    $$n = \frac{\Delta t_0}{T_{1/2}} = \frac{37.25}{18} \approx 2.07\text{ half-lives}$$
+
+4.  **Calculate the fraction remaining ($N/N_0$):**
+    Using the decay formula $N = N_0(1/2)^n$:
+    $$\frac{N}{N_0} = \left(\frac{1}{2}\right)^{2.07} \approx 0.237$$
+    This means approximately $23.7\%$ of the pions remain.
+
+5.  **Calculate the percentage that decayed:**
+    $$\text{Decayed} = 100\% - 23.7\% = 76.3\%$$
+    This is approximately $75\%$, as required.
+
+###QUESTION_TYPE
+Calculation question

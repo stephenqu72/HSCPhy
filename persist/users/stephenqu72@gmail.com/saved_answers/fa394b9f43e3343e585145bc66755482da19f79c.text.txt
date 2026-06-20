@@ -1,0 +1,21 @@
+To determine the correct comparison between Star A (more massive) and Star B (less massive), we apply the principles of stellar astrophysics concerning main sequence stars.
+
+### Answer
+The correct option is **(B)**.
+
+### Explanation
+For main sequence stars, mass is the fundamental property that dictates all other characteristics. Here is how we evaluate the comparison:
+
+1.  **Luminosity ($L$):** Luminosity is strongly dependent on mass ($L \propto M^{3.5}$ for main sequence stars). Since Star A has 10 times more mass than Star B, it will have a significantly **higher luminosity**.
+2.  **Lifespan ($t$):** While Star A has more fuel, it burns through it at a vastly higher rate due to its extreme luminosity. The lifespan of a star is proportional to $\frac{M}{L} \propto \frac{M}{M^{3.5}} = M^{-2.5}$. Consequently, the more massive star consumes its fuel much faster, resulting in a **shorter lifespan**.
+3.  **Radius ($R$):** For main sequence stars, mass and radius are positively correlated ($R \propto M$ roughly). Therefore, Star A is larger, which implies Star B has a **smaller radius**.
+4.  **Surface Temperature ($T$):** According to the Stefan-Boltzmann law ($L = 4\pi R^2 \sigma T^4$), and considering the relationship between mass, luminosity, and temperature on the main sequence, more massive stars are hotter. Therefore, Star A has a higher temperature, which implies Star B has a **lower surface temperature**.
+
+Comparing these findings:
+*   Star A: Higher luminosity, Shorter lifespan.
+*   Star B: Smaller radius, Lower surface temperature.
+
+This corresponds exactly to option **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

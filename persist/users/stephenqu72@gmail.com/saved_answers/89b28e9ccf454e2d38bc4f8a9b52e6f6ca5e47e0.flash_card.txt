@@ -1,0 +1,8 @@
+### Front
+What is the total energy released during an electron-positron annihilation, and how is it calculated?
+
+### Back
+- **Key idea:** Mass-energy equivalence where total rest mass of both particles is converted into photons.
+- **Formula / law:** $E = mc^2$; Rest mass of $e^- / e^+ \approx 0.511 \text{ MeV}$.
+- **When to use it:** When calculating energy produced by matter-antimatter annihilation (Total energy = $2 \times 0.511 \text{ MeV} = 1.022 \text{ MeV}$).
+- **Common trap:** Forgetting to account for *both* particles; remember to multiply the single particle mass/energy by two.

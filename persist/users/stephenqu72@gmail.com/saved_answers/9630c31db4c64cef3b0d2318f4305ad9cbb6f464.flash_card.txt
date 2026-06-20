@@ -1,0 +1,8 @@
+### Front
+How do you verify the validity of a particle decay process in the Standard Model?
+
+### Back
+- **Key idea:** Conservation laws must hold for all interactions.
+- **Law:** Conservation of **Charge**, **Baryon Number ($B$)**, and **Lepton Family Numbers ($L_e, L_\mu, L_\tau$)**.
+- **When to use it:** To determine if a specific particle decay or interaction is physically possible.
+- **Common trap:** Forgetting that antiparticles have lepton numbers of $-1$ (e.g., an antineutrino $\overline{\nu_\tau}$ has $L_\tau = -1$). Verify each lepton family flavor individually.

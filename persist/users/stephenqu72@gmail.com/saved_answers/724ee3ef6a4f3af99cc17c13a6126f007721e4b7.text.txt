@@ -1,0 +1,25 @@
+To solve this problem, we will use the principles of radioactive decay.
+
+### (a) Determine the half-life
+The half-life ($t_{1/2}$) is the time taken for the mass of a radioactive sample to decrease by half.
+1. Looking at the graph, the initial mass at $t = 0$ is approximately $480\text{ mg}$.
+2. Half of the initial mass is $240\text{ mg}$.
+3. Locate $240\text{ mg}$ on the y-axis and move horizontally to the curve, then vertically down to the x-axis.
+4. Alternatively, use clear points: at $t = 12\text{ hours}$, the mass is $\approx 280\text{ mg}$. At $t = 24\text{ hours}$, the mass is $\approx 170\text{ mg}$. 
+5. Checking the $100\text{ mg}$ mark: at $t = 36\text{ hours}$, mass $\approx 100\text{ mg}$. At $t = 24\text{ hours}$, mass $\approx 170\text{ mg}$. If we look at the start, $480\text{ mg}$ is at $0\text{ hours}$. $240\text{ mg}$ falls between $12$ and $24$ hours. By observing the curve carefully, the mass drops from $200\text{ mg}$ at $20\text{ hours}$ to $100\text{ mg}$ at $36\text{ hours}$.
+6. **Result:** The half-life is approximately **$16$ hours**.
+
+### (b) Calculate the decay constant
+The decay constant ($\lambda$) is related to the half-life by the formula:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+1. Convert the half-life to SI units (seconds): $t_{1/2} = 16\text{ hours} \times 3600\text{ s/hour} = 57600\text{ s}$.
+2. Calculate $\lambda$:
+$$\lambda = \frac{0.693}{57600\text{ s}} \approx 1.20 \times 10^{-5}\text{ s}^{-1}$$
+
+### (c) Nuclear equation for $\beta^-$ decay
+In $\beta^-$ decay, a neutron turns into a proton, emitting an electron (beta particle) and an electron antineutrino. The atomic number $Z$ increases by 1, and the mass number $A$ remains the same. Americium has $Z = 95$.
+The equation is:
+$${}_{95}^{242}\text{Am} \rightarrow {}_{96}^{242}\text{Cm} + {}_{-1}^{0}e + {}_{0}^{0}\bar{\nu}_e$$
+
+###QUESTION_TYPE
+Data analysis questions

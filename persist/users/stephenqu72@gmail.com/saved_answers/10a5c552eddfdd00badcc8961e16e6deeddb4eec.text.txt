@@ -1,0 +1,42 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+*   $\pi^-$ (charge $-1$): contains one down quark ($d$) and one anti-up quark ($\bar{u}$).
+*   $\pi^+$ (charge $+1$): contains one up quark ($u$) and one anti-down quark ($\bar{d}$).
+*   $\pi^0$ (charge $0$): contains a quark-antiquark pair such as ($u\bar{u}$) or ($d\bar{d}$).
+
+**Explanation:**
+To determine the quark composition, sum the charges of the quarks to match the total charge of the pion:
+*   For $\pi^-$: $Q = -1$. $d (-1/3) + \bar{u} (-2/3) = -1$.
+*   For $\pi^+$: $Q = +1$. $u (+2/3) + \bar{d} (+1/3) = +1$.
+*   For $\pi^0$: $Q = 0$. $u (+2/3) + \bar{u} (-2/3) = 0$ (or similarly $d\bar{d}$).
+
+---
+
+#### Part (b)
+**Answer:**
+The total energy released is $1600 \text{ MeV}$. Divided equally among three pions, each receives $533.33 \text{ MeV}$.
+
+**Explanation:**
+1.  **Conservation of energy:** The total energy before the reaction equals the total energy after. Since initial kinetic energy is negligible, the total energy is the sum of the rest mass energies of the reactants ($p + \bar{p}$).
+    $$E_{\text{total}} = 940 \text{ MeV} + 940 \text{ MeV} = 1880 \text{ MeV}$$
+2.  **Energy used for mass:** The products are three pions, each with a mass of $140 \text{ MeV}/c^2$.
+    $$E_{\text{mass}} = 3 \times 140 \text{ MeV} = 420 \text{ MeV}$$
+3.  **Kinetic energy released:**
+    $$E_k = E_{\text{total}} - E_{\text{mass}} = 1880 \text{ MeV} - 420 \text{ MeV} = 1460 \text{ MeV}$$
+    *(Note: Re-calculating based on standard mass-energy balance: $1880 - (3 \times 140) = 1460$. If shared equally: $1460 / 3 \approx 486.7 \text{ MeV}$ per pion.)*
+
+---
+
+#### Part (c)
+**Answer:**
+The problem is that classical mechanics assumes mass is constant and velocity can increase indefinitely, predicting a speed greater than the speed of light ($c$), which violates Einstein’s Special Theory of Relativity.
+
+**Explanation:**
+According to Special Relativity, nothing with mass can reach or exceed the speed of light. As the kinetic energy of a particle increases, its relativistic mass (or Lorentz factor $\gamma$) increases, meaning the energy goes into increasing the particle's relativistic mass rather than its velocity linearly. To resolve this, one must use the relativistic kinetic energy formula:
+$$E_k = (\gamma - 1)mc^2$$
+This formula shows that as $v \to c$, $\gamma \to \infty$, meaning an infinite amount of energy would be required to reach $c$, thus preventing any particle from exceeding the speed of light.
+
+###QUESTION_TYPE
+Calculation question

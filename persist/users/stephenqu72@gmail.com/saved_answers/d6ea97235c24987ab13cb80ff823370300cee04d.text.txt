@@ -1,0 +1,29 @@
+To solve this problem, we use the de Broglie wavelength formula:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+where $h$ is Planck's constant, $m$ is the mass of the particle, and $v$ is its velocity.
+
+### Step 1: Identify the given information
+*   Let the mass of the proton be $m_p$. The mass of an alpha particle is approximately 4 times that of a proton, so $m_\alpha = 4m_p$.
+*   Let the velocity of the alpha particle be $v_\alpha$. The velocity of the proton is twice that of the alpha particle, so $v_p = 2v_\alpha$.
+*   The de Broglie wavelength of the proton is $\lambda_p = \lambda$.
+
+### Step 2: Set up the expressions
+The wavelength of the proton is:
+$$\lambda_p = \frac{h}{m_p v_p} = \lambda$$
+
+The wavelength of the alpha particle is:
+$$\lambda_\alpha = \frac{h}{m_\alpha v_\alpha}$$
+
+### Step 3: Substitute and simplify
+Substitute $m_\alpha = 4m_p$ and $v_\alpha = \frac{v_p}{2}$ into the expression for $\lambda_\alpha$:
+$$\lambda_\alpha = \frac{h}{(4m_p) \cdot (\frac{v_p}{2})}$$
+$$\lambda_\alpha = \frac{h}{2 m_p v_p}$$
+
+Since we know that $\frac{h}{m_p v_p} = \lambda$, we can rewrite the expression as:
+$$\lambda_\alpha = \frac{1}{2} \cdot \left( \frac{h}{m_p v_p} \right)$$
+$$\lambda_\alpha = \frac{\lambda}{2}$$
+
+Comparing this to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

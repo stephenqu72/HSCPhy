@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:**
+To obtain this emission spectrum, a discharge tube containing low-pressure hydrogen gas is subjected to a high-voltage electrical current. This energy excites the hydrogen electrons to higher energy levels. As the electrons spontaneously return to lower energy states (specifically the $n=2$ level for the Balmer series), they emit photons with specific, discrete wavelengths. This light is passed through a diffraction grating or prism (a spectroscope) to disperse the light into its constituent spectral lines, which are then recorded on a detector or photographic film.
+
+**How to solve:**
+1. **Identify the apparatus:** You must mention a gas discharge tube.
+2. **Explain the process:** High voltage provides the energy for electron excitation.
+3. **Describe detection:** Mention the use of a prism or diffraction grating to separate the emitted light into the spectral lines seen in the image.
+
+---
+
+#### Part (b)
+**Answer:**
+The Balmer series represents electronic transitions in a hydrogen atom where an electron falls from a higher energy level ($n > 2$) to the $n=2$ energy level.
+*   **Energy Relationship:** The energy of an emitted photon is given by $E = \frac{hc}{\lambda}$. Therefore, a shorter wavelength corresponds to a higher energy transition.
+*   **Comparison:**
+    *   **Line $Q$ ($\approx 410 \text{ nm}$):** This is the shortest wavelength, representing the highest energy transition ($n=6 \to n=2$).
+    *   **Line $R$ ($\approx 434 \text{ nm}$):** Represents the $n=5 \to n=2$ transition.
+    *   **Line $S$ ($\approx 486 \text{ nm}$):** Represents the $n=4 \to n=2$ transition.
+    *   **Line $T$ ($\approx 656 \text{ nm}$):** This is the longest wavelength, representing the lowest energy transition in this set ($n=3 \to n=2$).
+
+**How to solve:**
+1. **Identify the series:** Recognise that all Balmer lines terminate at the $n=2$ energy level.
+2. **Connect wavelength to energy:** Apply the inverse relationship: $\lambda \propto \frac{1}{E}$.
+3. **Sequence the transitions:** Note that the lines get closer together as they approach the "series limit" (the convergence at shorter wavelengths). Line $T$ is clearly the lowest energy (longest $\lambda$), while $Q$ is the highest energy (shortest $\lambda$).
+
+###QUESTION_TYPE
+Short answer

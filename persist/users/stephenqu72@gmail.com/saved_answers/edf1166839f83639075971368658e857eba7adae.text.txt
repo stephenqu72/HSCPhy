@@ -1,0 +1,28 @@
+To solve this problem, we need to understand how $\beta^-$ and $\alpha$ decay affect the nucleon number ($A$) and the proton number ($Z$) of a nucleus.
+
+### Step 1: Analyze the decay processes
+
+1.  **$\beta^-$ decay:** A neutron is converted into a proton and an electron (which is emitted). 
+    *   The nucleon number $A$ remains unchanged because one neutron is lost and one proton is gained ($A = N_{neutrons} + Z_{protons}$).
+    *   The proton number $Z$ increases by 1 ($Z \rightarrow Z + 1$).
+    *   On a graph of $A$ vs $Z$, this corresponds to a horizontal movement to the **right**.
+
+2.  **$\alpha$ decay:** The nucleus emits an alpha particle ($^4_2\text{He}$).
+    *   The nucleon number $A$ decreases by 4.
+    *   The proton number $Z$ decreases by 2.
+    *   On a graph of $A$ vs $Z$, this corresponds to a diagonal movement **down and to the left** (specifically, a slope of $\frac{\Delta A}{\Delta Z} = \frac{-4}{-2} = 2$).
+
+### Step 2: Evaluate the options
+*   The sequence is: $\beta^-$ decay (move right) followed by $\alpha$ decay (move down and left).
+*   Looking at the starting point of the arrow in the graphs:
+    *   The initial movement is horizontal to the right (representing the increase in $Z$ and constant $A$ from $\beta^-$ decay).
+    *   The subsequent movement is downward and to the left (representing the decrease in $A$ and $Z$ from $\alpha$ decay).
+
+In **Graph C**:
+*   The first arrow goes from $Z=91, A=234$ to $Z=92, A=234$ (Wait, check the sequence again). The question states the nucleus is formed by $\beta^-$ decay, so it moves right, then it decays by $\alpha$ decay.
+*   Graph C shows the starting point moving right (increase in $Z$), then moving down-left to $Z=88, A=232$. This matches the physical requirements: $Z$ increases by 1, then $Z$ decreases by 2 (net change of $-1$), and $A$ stays constant, then decreases by 4 (net change of $-4$).
+
+**Conclusion:** Graph C correctly shows a $\beta^-$ decay (horizontal right) followed by an $\alpha$ decay (diagonal down-left).
+
+###QUESTION_TYPE
+Multiple choice

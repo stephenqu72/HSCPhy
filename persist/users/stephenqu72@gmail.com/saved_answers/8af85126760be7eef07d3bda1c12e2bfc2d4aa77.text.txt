@@ -1,0 +1,36 @@
+### Solution and Explanation
+
+To solve this problem, we must first account for **background radiation** and then process the data to find the half-life.
+
+#### 1. Accounting for Background Radiation
+The first table shows the background radiation in the lab. We calculate the average:
+$$\text{Average background} = \frac{1123 + 1126 + 1128 + 1127 + 1121}{5} = 1125\text{ counts/min}$$
+The data in the second table includes this background. To find the true activity of isotope $X$, we must subtract the background from each reading:
+$A_{\text{corrected}} = A_{\text{total}} - 1125$.
+
+| Time (weeks) | Total Counts | Corrected Activity ($A_t$) |
+| :--- | :--- | :--- |
+| 0 | 11125 | $11125 - 1125 = 10000$ |
+| 2 | 7725 | $7725 - 1125 = 6600$ |
+| 4 | 5525 | $5525 - 1125 = 4400$ |
+| 6 | 4125 | $4125 - 1125 = 3000$ |
+| 8 | 3125 | $3125 - 1125 = 2000$ |
+| 10 | 2425 | $2425 - 1125 = 1300$ |
+| 12 | 2075 | $2075 - 1125 = 950$ |
+| 14 | 1625 | $1625 - 1125 = 500$ |
+
+#### (a) Plot results
+To plot this, set "Time (weeks)" on the x-axis ($0$ to $14$) and "Corrected Activity" on the y-axis ($0$ to $10000$). Plot the points derived in the table above and draw a smooth exponential decay curve of best fit.
+
+#### (b) Determine the half-life
+The half-life ($t_{1/2}$) is the time taken for the activity to drop to half its initial value.
+*   Initial Activity at $t = 0$ is $10000$.
+*   Half of the initial activity is $5000$.
+Looking at your plotted curve, identify the time coordinate corresponding to $5000$ on the y-axis. 
+Alternatively, using the data: Between week $2$ ($6600$) and week $4$ ($4400$), the activity drops to $5000$. Based on the decay constant behavior, the half-life of this specific isotope is approximately **3.5 to 3.8 weeks**.
+
+#### (c) Identify an assumption
+The scientist assumed that the **background radiation remained constant** throughout the entire 14-week duration of the experiment. If the background levels fluctuated (e.g., due to cosmic rays or other nearby sources), the calculated activity for isotope $X$ would be inaccurate.
+
+###QUESTION_TYPE
+Data analysis questions

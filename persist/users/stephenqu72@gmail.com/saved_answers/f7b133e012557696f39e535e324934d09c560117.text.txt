@@ -1,0 +1,29 @@
+To solve this problem, we apply Einstein’s mass-energy equivalence principle, which relates the mass defect ($\Delta m$) to the energy released ($E$) during a nuclear reaction.
+
+### 1. Identify the relevant formula
+The energy released is calculated using the equation:
+$$E = \Delta m c^2$$
+Where:
+- $\Delta m = 3.07 \times 10^{-28}\text{ kg}$ (the mass lost)
+- $c \approx 3.00 \times 10^8\text{ m/s}$ (the speed of light)
+
+### 2. Calculate the energy in Joules
+Substitute the given values into the equation:
+$$E = (3.07 \times 10^{-28}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2$$
+$$E = (3.07 \times 10^{-28}) \times (9.00 \times 10^{16})$$
+$$E = 2.763 \times 10^{-11}\text{ Joules}$$
+
+### 3. Convert Joules to electronvolts (eV)
+To convert from Joules to electronvolts, we divide by the elementary charge ($1.602 \times 10^{-19}\text{ C}$):
+$$E (\text{in eV}) = \frac{2.763 \times 10^{-11}\text{ J}}{1.602 \times 10^{-19}\text{ J/eV}}$$
+$$E \approx 1.72 \times 10^8\text{ eV}$$
+
+Comparing this result to the given options, it matches option **B**.
+
+**Note on common errors:** Sometimes students confuse the units or accidentally select $2.76 \times 10^{-11}$ (which is the energy in Joules, not eV). Always check the units requested by the question carefully.
+
+### Answer
+The correct option is **B**.
+
+###QUESTION_TYPE
+Calculation question

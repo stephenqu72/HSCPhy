@@ -1,0 +1,38 @@
+Hello! As an HSC Physics teacher, I will guide you through these nuclear physics problems. These concepts are fundamental to the module "From the Universe to the Atom."
+
+---
+
+### Part a) Calculating Half-Life
+
+**Solution:**
+1. **Identify the variables:** Initial activity $A_0 = 145 \text{ Bq}$, Final activity $A_t = 92.1 \text{ Bq}$, and time elapsed $t = 1 \text{ hour } 35 \text{ minutes} = 95 \text{ minutes} = 1.5833 \text{ hours}$.
+2. **Use the radioactive decay law:** $A_t = A_0 e^{-\lambda t}$
+3. **Solve for decay constant $\lambda$:**
+   $$\frac{92.1}{145} = e^{-\lambda(1.5833)}$$
+   $$\ln(0.63517) = -\lambda(1.5833)$$
+   $$-0.4538 = -\lambda(1.5833) \implies \lambda = 0.2866 \text{ h}^{-1}$$
+4. **Calculate half-life ($T_{1/2}$):**
+   $$T_{1/2} = \frac{\ln(2)}{\lambda} = \frac{0.693}{0.2866} \approx 2.42 \text{ hours}$$
+
+**Explanation:** To find the half-life, we use the exponential decay formula relating activity to time. Once we find the decay constant ($\lambda$), we use the standard relationship between $\lambda$ and half-life.
+
+---
+
+### Part b) i) Energy to take apart nuclei
+
+**Solution:**
+Yes, it requires more energy to take apart a $^{235}\text{U}$ nucleus.
+**Explanation:** Total binding energy is the product of (Binding energy per nucleon) $\times$ (Number of nucleons). For $^{235}\text{U}$, $A=235$, and for $^{16}\text{O}$, $A=16$. Even though $^{16}\text{O}$ has a higher *binding energy per nucleon* (around $8 \text{ MeV/nucleon}$ vs $\approx 7.6 \text{ MeV/nucleon}$ for Uranium), the massive number of nucleons in Uranium results in a much larger *total* binding energy required to disassemble the entire nucleus.
+
+---
+
+### Part b) ii) Early Universe and Helium formation
+
+**Solution:**
+The graph shows a very sharp rise in binding energy per nucleon for low atomic masses, with $^4\text{He}$ sitting at a local peak (a very stable configuration). 
+**Explanation:** Nucleosynthesis in the early universe favored the formation of $^4\text{He}$ because it is extremely stable compared to other light elements like $^2\text{H}$ or $^3\text{He}$. The binding energy per nucleon increases rapidly as you move towards $^4\text{He}$, meaning the fusion into Helium releases a large amount of energy, making it a highly favorable, stable state. Forming heavier elements would require overcoming the "bottleneck" where intermediate isotopes have lower binding energy, which was not possible under the rapidly cooling conditions of the early universe.
+
+---
+
+###QUESTION_TYPE
+Calculation question

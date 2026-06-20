@@ -1,0 +1,31 @@
+### Answer
+
+**(a) Justification:**
+The Balmer series consists of transitions from higher energy levels to the $n=2$ energy level. The wavelength of these transitions is given by the Rydberg formula:
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{2^2} - \frac{1}{n^2} \right)$$
+where $R_H \approx 1.097 \times 10^7 \, \text{m}^{-1}$ and $n = 3, 4, 5, \dots$.
+
+*   For $n=3$: $\lambda \approx 656 \, \text{nm}$ (Red)
+*   For $n=4$: $\lambda \approx 486 \, \text{nm}$ (Blue-green)
+*   For $n=5$: $\lambda \approx 434 \, \text{nm}$ (Violet)
+*   For $n=6$: $\lambda \approx 410 \, \text{nm}$ (Violet)
+
+Since all these calculated wavelengths fall within the visible spectrum range of $380 \, \text{nm}$ to $700 \, \text{nm}$, the human eye can detect the spectral lines of the Balmer series.
+
+**(b) Calculation:**
+The energy of a shell $n$ in a Hydrogen atom is given by $E_n = -\frac{13.6}{n^2} \, \text{eV}$.
+
+1.  **Transition $n=2 \to n=3$:**
+    $$\Delta E_{2 \to 3} = E_3 - E_2 = -13.6 \left( \frac{1}{3^2} - \frac{1}{2^2} \right) = -13.6 \left( \frac{1}{9} - \frac{1}{4} \right) = -13.6 \left( -\frac{5}{36} \right) \approx 1.89 \, \text{eV}$$
+
+2.  **Transition $n=2 \to n=7$:**
+    $$\Delta E_{2 \to 7} = E_7 - E_2 = -13.6 \left( \frac{1}{7^2} - \frac{1}{2^2} \right) = -13.6 \left( \frac{1}{49} - \frac{1}{4} \right) = -13.6 \left( -\frac{45}{196} \right) \approx 3.12 \, \text{eV}$$
+
+---
+
+### How to solve
+1.  **For part (a):** Recognize that the Balmer series corresponds to electron transitions ending at the $n=2$ energy level. Use the Rydberg equation to calculate the specific wavelengths for the first few transitions ($n=3, 4, 5, 6$). Compare these values directly to the provided range of human visibility ($380–700 \, \text{nm}$).
+2.  **For part (b):** Recall the Bohr model energy level formula $E_n = -13.6/n^2 \, \text{eV}$. Calculate the energy of the starting level ($n=2$) and the destination levels ($n=3$ and $n=7$). Find the difference ($\Delta E = E_{\text{final}} - E_{\text{initial}}$) for both cases to determine the energy input required for the excitation.
+
+###QUESTION_TYPE
+Calculation question

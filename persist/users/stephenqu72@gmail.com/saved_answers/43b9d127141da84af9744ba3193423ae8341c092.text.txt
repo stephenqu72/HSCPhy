@@ -1,0 +1,41 @@
+To solve this problem, we apply Einstein’s mass-energy equivalence principle, $E = \Delta m c^2$.
+
+### Part (a) Determine the energy released in joules
+**1. Calculate the mass defect ($\Delta m$):**
+The mass defect is the difference between the initial mass of the reactants and the final mass of the products.
+Reaction: $^2_1H + ^2_1H \rightarrow ^3_2He + ^1_0n$
+
+*   Initial mass $= 2 \times 2.0141\text{ u} = 4.0282\text{ u}$
+*   Final mass $= 3.0160\text{ u} + 1.0087\text{ u} = 4.0247\text{ u}$
+*   $\Delta m = 4.0282\text{ u} - 4.0247\text{ u} = 0.0035\text{ u}$
+
+**2. Convert mass defect to kilograms:**
+Given $1\text{ u} = 1.66 \times 10^{-27}\text{ kg}$:
+$\Delta m = 0.0035 \times 1.66 \times 10^{-27}\text{ kg} = 5.81 \times 10^{-30}\text{ kg}$
+
+**3. Calculate energy ($E$):**
+Using $c = 3.00 \times 10^8\text{ m/s}$:
+$E = \Delta m c^2 = (5.81 \times 10^{-30}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2$
+$E = 5.229 \times 10^{-13}\text{ J}$ (approximately $5.2 \times 10^{-13}\text{ J}$)
+
+---
+
+### Part (b) Calculate the total energy released
+The reaction provided involves **two** deuterium nuclei. If $1.5 \times 10^{25}$ deuterium nuclei undergo fusion, we must first find how many "reactions" occur.
+
+**1. Number of reactions:**
+Each reaction requires 2 deuterium nuclei.
+Number of reactions $= \frac{1.5 \times 10^{25}}{2} = 7.5 \times 10^{24}$ reactions.
+
+**2. Total energy:**
+Total Energy $= (\text{Number of reactions}) \times (\text{Energy per reaction})$
+Total Energy $= (7.5 \times 10^{24}) \times (5.229 \times 10^{-13}\text{ J})$
+Total Energy $\approx 3.92 \times 10^{12}\text{ J}$
+
+---
+
+### Teacher's Tip:
+When solving nuclear mass defect problems, always ensure your mass units are converted to kilograms before calculating energy in Joules. A common mistake is to forget that the reaction requires *two* reactant particles, which affects both the mass defect calculation and the scaling factor in part (b).
+
+###QUESTION_TYPE
+Calculation question

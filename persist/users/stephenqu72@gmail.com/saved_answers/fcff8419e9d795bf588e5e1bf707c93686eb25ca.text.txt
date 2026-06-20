@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The positron is antimatter. When it encounters an electron (its antiparticle) within the star, the two particles undergo **annihilation**. In this process, their combined mass is converted entirely into energy in the form of two gamma-ray photons, which equates to much more energy than the positron's initial kinetic energy.
+
+**Explanation:** In HSC Physics, you must recognise that mass-energy equivalence ($E=mc^2$) applies to matter-antimatter interactions. A positron has a rest mass energy of approximately $0.511\text{ MeV}$. When it annihilates with an electron, the total mass ($2 \times 9.11 \times 10^{-31}\text{ kg}$) is converted into radiant energy.
+
+---
+
+#### Part (b)
+**Answer:**
+1. Calculate the mass defect ($\Delta m$):
+   $$\Delta m = (\text{Mass of reactants}) - (\text{Mass of products})$$
+   $$\Delta m = (2.014102\text{ u} + 1.007276\text{ u}) - 3.016029\text{ u}$$
+   $$\Delta m = 3.021378\text{ u} - 3.016029\text{ u} = 0.005349\text{ u}$$
+
+2. Convert the mass defect to energy in MeV ($1\text{ u} \approx 931.5\text{ MeV/c}^2$):
+   $$E = 0.005349 \times 931.5\text{ MeV}$$
+   $$E \approx 4.9826\text{ MeV}$$
+
+**Explanation:** To solve this, you calculate the "missing mass" (the difference between the mass of the reactants and the product). This mass difference is converted into energy according to Einstein's mass-energy equivalence. In nuclear physics problems, it is standard practice to use the conversion factor $1\text{ u} = 931.5\text{ MeV}$ to find the energy released.
+
+---
+
+###QUESTION_TYPE
+Calculation question

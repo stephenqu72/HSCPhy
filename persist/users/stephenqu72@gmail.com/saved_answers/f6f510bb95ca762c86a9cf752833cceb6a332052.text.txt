@@ -1,0 +1,45 @@
+Hello! As your HSC physics teacher, I will guide you through this classic nuclear physics problem. Here is the step-by-step breakdown.
+
+### Part (a): Calculate the decay constant ($\lambda$)
+
+**The Concept:**
+The decay constant $\lambda$ is related to the half-life ($t_{1/2}$) by the standard formula derived from the radioactive decay law:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+
+**The Solution:**
+Given $t_{1/2} = 8$ days:
+$$\lambda = \frac{0.6931}{8 \text{ days}}$$
+$$\lambda \approx 0.0866 \text{ day}^{-1}$$
+
+*(Note: In HSC physics, unless specified, you can provide the answer in $\text{day}^{-1}$ as it matches the units provided in the question.)*
+
+---
+
+### Part (b): Determine how many nuclei remain after 76 days
+
+**The Concept:**
+We use the radioactive decay formula:
+$$N(t) = N_0 e^{-\lambda t}$$
+Where:
+- $N_0 = 1.2 \times 10^{13}$
+- $\lambda = 0.0866 \text{ day}^{-1}$
+- $t = 76 \text{ days}$
+
+**The Solution:**
+$$N(76) = (1.2 \times 10^{13}) \times e^{-(0.0866 \times 76)}$$
+First, calculate the exponent: $-0.0866 \times 76 \approx -6.5816$
+Next, calculate $e^{-6.5816} \approx 0.0013856$
+Finally, calculate the final number:
+$$N(76) = 1.2 \times 10^{13} \times 0.0013856 \approx 1.66 \times 10^{10}$$
+
+**Alternative Method (Number of Half-lives):**
+You can also calculate the number of half-lives ($n$):
+$$n = \frac{76}{8} = 9.5$$
+$$N = N_0 \times (0.5)^n$$
+$$N = (1.2 \times 10^{13}) \times (0.5)^{9.5}$$
+$$N = (1.2 \times 10^{13}) \times 0.0013856 \approx 1.66 \times 10^{10} \text{ nuclei}$$
+
+Both methods confirm that approximately $1.66 \times 10^{10}$ nuclei remain.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,35 @@
+To determine which wavelength is not part of the Balmer series, we use the Rydberg formula for the hydrogen atom:
+
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+
+For the **Balmer series**, the final energy level is always $n_f = 2$. Therefore, the formula becomes:
+
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{2^2} - \frac{1}{n_i^2} \right) = R_H \left( \frac{1}{4} - \frac{1}{n_i^2} \right)$$
+
+where $n_i = 3, 4, 5, \dots$ and $R_H \approx 1.097 \times 10^7 \, \text{m}^{-1}$.
+
+### Step-by-Step Calculation:
+
+1.  **For $n_i = 3$ (H-alpha line):**
+    $$\frac{1}{\lambda} = R_H \left( \frac{1}{4} - \frac{1}{9} \right) = R_H \left( \frac{5}{36} \right) \implies \lambda \approx 656 \, \text{nm}$$
+    This matches option D.
+
+2.  **For $n_i = 4$ (H-beta line):**
+    $$\frac{1}{\lambda} = R_H \left( \frac{1}{4} - \frac{1}{16} \right) = R_H \left( \frac{3}{16} \right) \implies \lambda \approx 486 \, \text{nm}$$
+    This matches option C.
+
+3.  **For $n_i = 5$ (H-gamma line):**
+    $$\frac{1}{\lambda} = R_H \left( \frac{1}{4} - \frac{1}{25} \right) = R_H \left( \frac{21}{100} \right) \implies \lambda \approx 434 \, \text{nm}$$
+    This matches option B.
+
+4.  **For $n_i = 6$ (H-delta line):**
+    $$\frac{1}{\lambda} = R_H \left( \frac{1}{4} - \frac{1}{36} \right) = R_H \left( \frac{8}{36} \right) \implies \lambda \approx 410 \, \text{nm}$$
+
+Comparing these results to the options provided:
+*   656 nm (D), 486 nm (C), and 434 nm (B) are clearly part of the Balmer series.
+*   **421 nm (A)** does not correspond to any transition where $n_i$ is an integer in the Balmer series.
+
+**Answer:** A
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+To find the energy released in the radioactive decay of thorium-232, we must calculate the mass defect ($\Delta m$) of the reaction and convert that mass into energy using the mass-energy equivalence principle ($E = mc^2$).
+
+### Step-by-Step Solution:
+
+**1. Calculate the mass defect ($\Delta m$):**
+The mass defect is the difference between the mass of the reactant and the sum of the masses of the products:
+$$\Delta m = \text{mass(reactants)} - \text{mass(products)}$$
+$$\Delta m = m(^{232}\text{Th}) - [m(^{228}\text{Ra}) + m(^4\text{He})]$$
+
+Using the values provided:
+$$\Delta m = 232.038055 - [228.031070 + 4.001506]$$
+$$\Delta m = 232.038055 - 232.032576$$
+$$\Delta m = 0.005479 \text{ u}$$
+
+**2. Convert mass defect to energy:**
+In nuclear physics, $1 \text{ u}$ (atomic mass unit) is equivalent to approximately $931.5 \text{ MeV}/c^2$. Therefore, to find the energy in $\text{MeV}$, we multiply the mass defect by $931.5 \text{ MeV/u}$:
+$$E = 0.005479 \text{ u} \times 931.5 \text{ MeV/u}$$
+$$E \approx 5.1036 \text{ MeV}$$
+
+Comparing this result to the given options, the energy released is approximately $5.10 \text{ MeV}$.
+
+**Correct Option: A**
+
+### Explanation for the student:
+When solving decay energy problems, always remember:
+1. **The mass of the products is always less than the mass of the parent nucleus.** This "missing" mass is converted into energy.
+2. **Use the correct conversion factor:** Since the atomic masses are given in atomic mass units (u), the easiest way to calculate the energy is to multiply the mass defect by $931.5$, which directly gives the energy in Mega-electronvolts ($\text{MeV}$).
+3. **Precision:** Keep all decimal places provided in the table until the final step to avoid rounding errors.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I'm happy to guide you through this nuclear physics problem. These questions test your ability to apply Einstein's mass-energy equivalence principle, $E=mc^2$.
+
+---
+
+### Part (a): Calculating Energy Released
+
+**Step 1: Calculate the total mass of the reactants.**
+$$\text{Mass}_{\text{reactants}} = \text{mass(U-235)} + \text{mass(neutron)}$$
+$$\text{Mass}_{\text{reactants}} = 235.04393\text{ u} + 1.008665\text{ u} = 236.052595\text{ u}$$
+
+**Step 2: Calculate the total mass of the products.**
+$$\text{Mass}_{\text{products}} = \text{mass(Ba-144)} + \text{mass(Kr-89)} + 3 \times \text{mass(neutron)}$$
+$$\text{Mass}_{\text{products}} = 143.92295\text{ u} + 88.91763\text{ u} + (3 \times 1.008665\text{ u})$$
+$$\text{Mass}_{\text{products}} = 232.84058\text{ u} + 3.025995\text{ u} = 235.866575\text{ u}$$
+
+**Step 3: Calculate the mass defect ($\Delta m$).**
+$$\Delta m = \text{Mass}_{\text{reactants}} - \text{Mass}_{\text{products}}$$
+$$\Delta m = 236.052595\text{ u} - 235.866575\text{ u} = 0.18602\text{ u}$$
+
+**Step 4: Convert mass defect to Energy.**
+*   **In MeV:** Using the conversion factor $1\text{ u} \approx 931.5\text{ MeV}/c^2$:
+    $$E = 0.18602\text{ u} \times 931.5\text{ MeV/u} \approx 173.27\text{ MeV}$$
+*   **In Joules:** Convert $1\text{ u} = 1.6605 \times 10^{-27}\text{ kg}$ and use $E = \Delta mc^2$:
+    $$\Delta m (\text{kg}) = 0.18602 \times 1.6605 \times 10^{-27} \approx 3.0889 \times 10^{-28}\text{ kg}$$
+    $$E = (3.0889 \times 10^{-28}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2 \approx 2.78 \times 10^{-11}\text{ J}$$
+
+---
+
+### Part (b): Alpha Decay of U-238
+
+Alpha decay involves the emission of a helium nucleus (${}^{4}_{2}\text{He}$). The mass number decreases by 4 and the atomic number decreases by 2.
+$${}^{238}_{92}\text{U} \rightarrow {}^{234}_{90}\text{Th} + {}^{4}_{2}\text{He}$$
+
+---
+
+### Explanatory Tips:
+1.  **Mass Defect:** Always ensure you account for all nucleons on both sides (e.g., the $3$ neutrons in the products).
+2.  **Conversion:** When calculating in Joules, convert mass to kg first, then use $c = 3.00 \times 10^8\text{ m/s}$.
+3.  **Nuclear Equations:** Always double-check that the sum of the top numbers (mass number) and bottom numbers (atomic number) are equal on both sides of the arrow.
+
+###QUESTION_TYPE
+Calculation question

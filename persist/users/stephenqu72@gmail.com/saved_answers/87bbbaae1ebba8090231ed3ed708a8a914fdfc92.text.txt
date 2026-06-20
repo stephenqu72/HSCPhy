@@ -1,0 +1,24 @@
+### Answer
+
+Rutherford’s model proposed that electrons orbit a dense, positively charged nucleus. However, it had two major limitations:
+1. **Classical Electrodynamics:** According to Maxwell’s theory, an accelerating charged particle (like an electron orbiting a nucleus) should continuously lose energy as electromagnetic radiation. This would cause the electron to spiral into the nucleus in a fraction of a second, rendering the atom unstable.
+2. **Atomic Spectra:** It could not explain why atoms emit discrete line spectra rather than a continuous spectrum of light.
+
+**Bohr’s modifications:**
+Bohr proposed that electrons exist in stable, "stationary" orbits with quantized angular momentum, where $mvr = \frac{nh}{2\pi}$. Electrons do not radiate energy while in these allowed orbits. Radiation is only emitted or absorbed when an electron transitions between energy levels, with the energy of the photon given by $\Delta E = E_f - E_i = hf$. This explained the stability of the atom and the existence of discrete spectral lines.
+
+**de Broglie’s contribution:**
+De Broglie provided a theoretical justification for Bohr’s quantization condition. He proposed that electrons exhibit wave-particle duality. For an electron to exist in a stable orbit, its circumference must be an integer multiple of its de Broglie wavelength ($\lambda = \frac{h}{p}$), satisfying the condition $2\pi r = n\lambda$. This leads directly to Bohr’s quantization of angular momentum, explaining that electrons form standing waves around the nucleus, which prevents them from spiralling inward.
+
+***
+
+### How to solve this
+To achieve full marks (4/4) in an HSC-style response, you must follow the "Discuss" command, which requires identifying both the limitations and the corresponding solutions:
+
+1.  **Identify the specific flaw in Rutherford's model:** Focus on the instability (classical electrodynamics predicting collapse) and the inability to explain line spectra.
+2.  **Explain Bohr's solution:** Connect his postulate of "quantized orbits" to the stabilization of the electron and the emission of specific spectral lines.
+3.  **Explain de Broglie's solution:** Specifically mention the "wave-particle duality" and the concept of "standing waves." You must explicitly show the link between the standing wave condition ($2\pi r = n\lambda$) and why this justifies the stability Bohr postulated.
+4.  **Structure:** Use a clear logical flow: Problem (Rutherford) $\rightarrow$ Bohr’s Postulate $\rightarrow$ Theoretical justification (de Broglie).
+
+###QUESTION_TYPE
+Short answer

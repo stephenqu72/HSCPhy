@@ -1,0 +1,32 @@
+### Answer
+
+**(a)**
+To derive the de Broglie wavelength expression:
+1. The kinetic energy ($K$) gained by an electron accelerated through a potential difference ($V$) is: 
+   $$K = qV$$
+2. Since kinetic energy is also defined as $K = \frac{1}{2}mv^2$, we can write: 
+   $$\frac{1}{2}mv^2 = qV \implies v^2 = \frac{2qV}{m} \implies v = \sqrt{\frac{2qV}{m}}$$
+3. The de Broglie wavelength is given by $\lambda = \frac{h}{p}$, where $p = mv$ (momentum).
+4. Substituting $v$: 
+   $$p = m \sqrt{\frac{2qV}{m}} = \sqrt{2mqV}$$
+5. Therefore: 
+   $$\lambda = \frac{h}{\sqrt{2mqV}}$$
+
+**(b)**
+Using the constants $h = 6.626 \times 10^{-34} \text{ J s}$, $m = 9.109 \times 10^{-31} \text{ kg}$, $q = 1.602 \times 10^{-19} \text{ C}$, and $V = 3500 \text{ V}$:
+$$\lambda = \frac{6.626 \times 10^{-34}}{\sqrt{2 \times (9.109 \times 10^{-31}) \times (1.602 \times 10^{-19}) \times 3500}}$$
+$$\lambda \approx \frac{6.626 \times 10^{-34}}{\sqrt{1.022 \times 10^{-45}}} \approx 2.07 \times 10^{-11} \text{ m} \approx 0.0207 \text{ nm}$$
+Yes, it is consistent with a wavelength of about $0.02 \text{ nm}$.
+
+**(c)**
+In the second experiment, the diffraction rings are tighter (smaller radius), indicating a smaller diffraction angle. According to Bragg’s Law ($n\lambda = 2d \sin \theta$), a smaller $\theta$ implies a smaller wavelength ($\lambda$). Since $\lambda \propto \frac{1}{\sqrt{V}}$, to decrease $\lambda$, one must **increase the accelerating voltage ($V$)**.
+
+---
+
+### How to solve it
+1. **Derivation:** Always start with the energy conservation principle ($E_{electrical} = E_{kinetic}$) and link it to the momentum definition ($p = mv$) to arrive at the de Broglie equation.
+2. **Calculation:** Ensure all units are in SI base units (volts, kg, coulombs). When given "kV", convert to "V" (e.g., $3.5 \text{ kV} = 3500 \text{ V}$).
+3. **Conceptual Analysis:** Recognize that electron diffraction follows the same principles as light diffraction. The rings represent constructive interference. If the rings move closer to the center, the diffraction angle $\theta$ has decreased, which requires a smaller wavelength, thus requiring a higher momentum/voltage.
+
+###QUESTION_TYPE
+Calculation question

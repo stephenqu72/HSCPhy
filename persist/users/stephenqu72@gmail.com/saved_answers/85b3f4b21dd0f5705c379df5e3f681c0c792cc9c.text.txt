@@ -1,0 +1,17 @@
+### Answer
+
+**(a)** Stars on the main sequence have all spectral classes (B through M) because they represent a wide range of masses. Despite this difference in mass and surface temperature, they are all in the same stage of stellar evolution: they are all currently **fusing hydrogen into helium in their cores**. This common energy-production mechanism is what defines their position along this specific band on the Hertzsprung-Russell diagram.
+
+**(b)** The luminosity ($L$) of a star is defined by the Stefan-Boltzmann law:
+$$L = 4\pi R^2 \sigma T^4$$
+where $R$ is the radius, $\sigma$ is the Stefan-Boltzmann constant, and $T$ is the surface temperature. While giant stars have a relatively low surface temperature ($T$), their luminosity is high because they possess an extremely large radius ($R$). Because luminosity is proportional to the square of the radius ($R^2$), a massive increase in the star's surface area compensates for the lower temperature, resulting in a high total energy output.
+
+***
+
+### Explanation
+
+*   **Part (a):** This question tests your understanding of stellar evolution. The "Main Sequence" is not a set of stars with identical properties, but a set of stars currently undergoing the same physical process. To gain full marks, you must link the observable spectral classes to the underlying physical cause: the fusion of hydrogen into helium.
+*   **Part (b):** This is a "quantitative" explanation, meaning you must refer to the physics of luminosity. You are expected to recall or derive the relationship between luminosity, radius, and temperature. By citing the Stefan-Boltzmann relationship ($L \propto R^2 T^4$), you demonstrate that if $T$ is small, $L$ can only be large if $R$ is significantly large. This explains why giants appear where they do on the diagram.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,21 @@
+### Answer
+
+**(a) Why was this a necessary statement to justify his theory?**
+
+Bohr’s postulate was necessary to overcome the limitations of the Rutherford model of the atom, which faced a critical "catastrophe" based on classical electromagnetic theory. According to Maxwell’s equations, a charged particle (the electron) accelerating in a circular orbit around a nucleus must continuously emit electromagnetic radiation. As the electron radiates energy, it would lose kinetic energy, causing it to spiral into the nucleus in a fraction of a second, leading to the collapse of the atom. Furthermore, classical theory predicted that such an electron would produce a continuous spectrum of light as it spiralled inward. To justify the stability of matter and the existence of discrete (line) emission spectra observed experimentally, Bohr had to propose that electrons exist in "stationary states" where they do not radiate energy, effectively ignoring classical electrodynamics to match physical reality.
+
+**(b) Describe de Broglie’s explanation.**
+
+Louis de Broglie proposed that electrons possess wave-particle duality. He suggested that an electron orbiting the nucleus acts as a standing wave. For the wave to be stable and not undergo destructive interference, the circumference of the orbit must be an integer multiple of the electron's wavelength: 
+$$2\pi r = n\lambda$$
+where $n$ is an integer. By substituting de Broglie’s wavelength equation ($\lambda = \frac{h}{mv}$), this leads to the quantization of angular momentum: $mvr = \frac{nh}{2\pi}$. This explained Bohr's "stationary states" as orbits where the electron’s wave reinforces itself, meaning the electron does not "lose" energy because it is in a resonant, stable wave state rather than a classical accelerating particle state.
+
+***
+
+### How to solve this
+1.  **Analyze the Physics Context:** This question tests your knowledge of the transition from the Rutherford model to the Bohr model and the subsequent theoretical validation by de Broglie.
+2.  **For part (a):** Focus on the conflict between the **Rutherford model** and **Classical Physics**. Key terms to include are "accelerating charge," "loss of energy," "collapse of the atom," and "continuous spectrum." You must emphasize that without this postulate, the atom cannot be stable.
+3.  **For part (b):** Link the concept of the electron as a particle to the electron as a wave. Explain the **standing wave** concept. Mention that the circumference must be a whole number of wavelengths ($2\pi r = n\lambda$) to allow for stable constructive interference. This provides the theoretical justification for why only specific energy levels (quantized orbits) are allowed.
+
+###QUESTION_TYPE
+Short answer

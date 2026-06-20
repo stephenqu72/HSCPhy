@@ -1,0 +1,21 @@
+To determine the correct reaction for gamma decay, we need to understand the physical nature of gamma radiation.
+
+### Explanation
+
+1.  **Nature of Gamma Decay**: Unlike alpha or beta decay, where a nucleus changes its identity (transmutation) by emitting a particle with mass and charge, **gamma decay** involves the emission of a high-energy photon ($\gamma$).
+2.  **Conservation Laws**: Because a gamma photon has no mass ($A=0$) and no charge ($Z=0$), its emission does not change the atomic number or the mass number of the nucleus. It simply allows an excited nucleus to transition to a lower energy state.
+3.  **Evaluating the Options**:
+    *   **A**: $\frac{235}{92}\text{U} \rightarrow \gamma + \frac{235}{92}\text{U}$. Here, the element remains Uranium-235. The mass numbers ($235 = 0 + 235$) and atomic numbers ($92 = 0 + 92$) are conserved. This correctly represents the emission of a gamma ray from an excited nucleus.
+    *   **B**: The mass number changes from $235$ to $238$, which violates the conservation of nucleons.
+    *   **C**: This represents alpha decay ($\frac{235}{92}\text{U} \rightarrow \frac{4}{2}\text{He} + \frac{231}{90}\text{Th}$), not gamma decay.
+    *   **D**: This suggests a change in atomic number without a corresponding beta particle, which is physically incorrect for standard decay processes.
+
+**Correct Answer**: **A**
+
+### How to solve this type of question:
+*   **Identify the radiation type**: Recall that alpha decay reduces the mass number by $4$ and atomic number by $2$; beta decay changes the atomic number by $\pm 1$ but keeps the mass number constant. Gamma decay involves no change in $A$ or $Z$.
+*   **Check conservation**: Always verify that the sum of the superscripts (mass numbers) and the subscripts (atomic numbers) on the left side of the arrow equals the sum of the superscripts and subscripts on the right side.
+*   **Select the match**: Choose the option where the parent and daughter nuclei are identical, as only energy is lost in the form of a photon.
+
+###QUESTION_TYPE
+Multiple choice

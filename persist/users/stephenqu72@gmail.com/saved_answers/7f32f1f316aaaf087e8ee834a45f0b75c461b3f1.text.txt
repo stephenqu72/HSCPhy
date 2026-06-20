@@ -1,0 +1,29 @@
+To solve for the energy released in this nuclear fusion process, we follow these steps based on the principle of mass-energy equivalence ($E = \Delta mc^2$).
+
+### 1. Calculate the Mass Defect ($\Delta m$)
+The mass defect is the difference between the total mass of the reactants and the total mass of the products.
+
+**Reactants:** Two $^{2}_{1}H$ nuclei
+Mass of reactants $= 2 \times 2.014102 \, \text{amu} = 4.028204 \, \text{amu}$
+
+**Products:** One $^{3}_{2}He$ nucleus and one $^{1}_{0}n$
+Mass of products $= 3.016050 \, \text{amu} + 1.008665 \, \text{amu} = 4.024715 \, \text{amu}$
+
+**Mass Defect ($\Delta m$):**
+$$\Delta m = (\text{Mass of reactants}) - (\text{Mass of products})$$
+$$\Delta m = 4.028204 - 4.024715 = 0.003489 \, \text{amu}$$
+
+### 2. Convert mass from amu to kg
+To calculate energy in Joules, we must convert the mass defect into kilograms. We use the conversion factor $1 \, \text{amu} \approx 1.6605 \times 10^{-27} \, \text{kg}$.
+$$\Delta m \, (\text{in kg}) = 0.003489 \times 1.6605 \times 10^{-27} \, \text{kg} \approx 5.7935 \times 10^{-30} \, \text{kg}$$
+
+### 3. Calculate Energy ($E$)
+Using Einstein's equation $E = \Delta mc^2$, where $c \approx 3.00 \times 10^8 \, \text{m/s}$:
+$$E = (5.7935 \times 10^{-30} \, \text{kg}) \times (3.00 \times 10^8 \, \text{m/s})^2$$
+$$E = 5.7935 \times 10^{-30} \times 9.00 \times 10^{16}$$
+$$E \approx 5.21 \times 10^{-13} \, \text{J}$$
+
+Comparing this result to the given options, the correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

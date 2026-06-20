@@ -1,0 +1,22 @@
+To find the highest energy photon in the Balmer series, we use the Bohr model of the hydrogen atom.
+
+### Answer
+The correct option is **(B) 3.40 eV**.
+
+---
+
+### Explanation
+1.  **Understand the Balmer Series:** The Balmer series corresponds to electron transitions that land on the second energy level ($n_f = 2$).
+2.  **Determine the Condition for Maximum Energy:** The energy of an emitted photon is given by $\Delta E = E_i - E_f$. To maximize $\Delta E$, we need the largest possible energy gap. This occurs when the electron falls from an infinite energy level ($n_i = \infty$) down to the target energy level ($n_f = 2$).
+3.  **Use the Energy Formula:** The energy of an electron at any level $n$ in a hydrogen atom is given by:
+    $$E_n = -\frac{13.6 \text{ eV}}{n^2}$$
+4.  **Calculate the Energy Gap:**
+    *   For $n_i = \infty$, $E_{\infty} = 0 \text{ eV}$.
+    *   For $n_f = 2$, $E_2 = -\frac{13.6}{2^2} = -\frac{13.6}{4} = -3.40 \text{ eV}$.
+5.  **Find the Difference:**
+    $$\Delta E = E_{\infty} - E_2 = 0 - (-3.40 \text{ eV}) = 3.40 \text{ eV}$$
+
+Thus, the limiting frequency (or highest energy photon) of the Balmer series is $3.40 \text{ eV}$.
+
+###QUESTION_TYPE
+Multiple choice

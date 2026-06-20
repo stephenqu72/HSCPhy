@@ -1,0 +1,28 @@
+To determine the lowest frequency of light in the Balmer series, we need to apply the Rydberg formula and the relationship between energy and frequency.
+
+### Answer
+The lowest frequency corresponds to the transition between the closest energy levels within the series, which is from $n = 3$ to $n = 2$.
+The frequency $f$ is approximately $4.57 \times 10^{14} \text{ Hz}$.
+
+### Explanation
+**1. Identify the transition:**
+The Balmer series occurs when electrons transition to the $n_f = 2$ energy level. The frequency of the emitted photon is directly proportional to the energy difference between levels. To find the *lowest* frequency, we must look for the smallest energy transition, which occurs between the two closest shells: $n_i = 3$ and $n_f = 2$.
+
+**2. Use the Rydberg formula:**
+The Rydberg formula gives the wavelength $\lambda$ of the emitted light:
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+Where $R_H \approx 1.097 \times 10^7 \text{ m}^{-1}$. Substituting our values:
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{2^2} - \frac{1}{3^2} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{4} - \frac{1}{9} \right) = 1.097 \times 10^7 \left( \frac{5}{36} \right) \approx 1.5236 \times 10^6 \text{ m}^{-1}$$
+
+**3. Convert wavelength to frequency:**
+We use the wave equation $c = f\lambda$, so $f = \frac{c}{\lambda}$:
+$$f = c \times \frac{1}{\lambda}$$
+Using $c = 3.00 \times 10^8 \text{ m/s}$:
+$$f = (3.00 \times 10^8) \times (1.5236 \times 10^6)$$
+$$f \approx 4.57 \times 10^{14} \text{ Hz}$$
+
+(Alternatively, you can calculate the energy difference $\Delta E$ using $\Delta E = 13.6 \text{ eV} \times (\frac{1}{n_f^2} - \frac{1}{n_i^2})$ and then divide by Planck's constant $h$ to reach the same result.)
+
+###QUESTION_TYPE
+Calculation question

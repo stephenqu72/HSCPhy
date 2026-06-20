@@ -1,0 +1,36 @@
+As an HSC physics teacher, I will guide you through these calculations, which test your understanding of Einstein’s mass-energy equivalence and nuclear physics.
+
+---
+
+### Part (a)
+**Answer:**
+We use Einstein’s mass-energy equivalence formula, $E = mc^2$.
+Given $E = 7145 \text{ kJ} = 7.145 \times 10^6 \text{ J}$ and $c = 3.00 \times 10^8 \text{ m/s}$:
+$$m = \frac{E}{c^2} = \frac{7.145 \times 10^6}{(3.00 \times 10^8)^2} \approx 7.94 \times 10^{-11} \text{ kg}$$
+**Mass required:** $7.94 \times 10^{-11} \text{ kg}$ (or $7.94 \times 10^{-8} \text{ g}$).
+
+**Explanation:** Combustion is a chemical reaction involving the rearrangement of electron orbitals; the mass-energy conversion is negligible. Direct mass-energy conversion (like matter-antimatter annihilation) is extremely efficient, requiring only a tiny fraction of a gram to release the same energy that requires $50.0 \text{ g}$ of hydrogen in a chemical reaction.
+
+---
+
+### Part (b)
+**Explanation:** 
+Chemical reactions (combustion) involve the breaking and forming of chemical bonds, which are electromagnetic in nature. The energy change is determined by the difference in potential energy of electrons, and the change in mass is too small to be measured (effectively zero). Nuclear processes, however, involve the conversion of mass itself into energy via the strong nuclear force, which is many orders of magnitude stronger than chemical bonds. Therefore, the "mass defect" in nuclear reactions accounts for a significant conversion of matter into energy, whereas combustion relies on chemical energy stored in molecular structures.
+
+---
+
+### Part (c)
+**Answer:**
+1. **Find mass of reactants:** $4 \times 1.00784 \text{ u} = 4.03136 \text{ u}$
+2. **Find mass of products:** $4.00260 \text{ u} + 2(0.00055 \text{ u}) = 4.00370 \text{ u}$
+3. **Calculate mass defect ($\Delta m$):** $4.03136 - 4.00370 = 0.02766 \text{ u}$
+4. **Convert to kg:** $0.02766 \times 1.6605 \times 10^{-27} \text{ kg/u} \approx 4.593 \times 10^{-29} \text{ kg}$
+5. **Calculate Energy ($E = \Delta mc^2$):**
+   $$E = (4.593 \times 10^{-29} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2 \approx 4.13 \times 10^{-12} \text{ J}$$
+
+**Explanation:** In nuclear fusion, the mass of the products is slightly less than the mass of the reactants. This "missing" mass, known as the mass defect, is released as energy in accordance with $E=mc^2$. We sum the masses of individual particles, find the difference, convert atomic mass units (u) to kilograms, and then use the speed of light squared to find the energy in Joules.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,36 @@
+To solve this problem, we need to calculate the frequency of the photon emitted when an electron transitions from a higher energy state ($n=5$) to a lower energy state ($n=3$).
+
+### 1. Identify the Energy Values
+From the provided energy level diagram for mercury:
+*   Energy at $n=5$ ($E_5$) = $-3.71 \text{ eV}$
+*   Energy at $n=3$ ($E_3$) = $-5.52 \text{ eV}$
+
+### 2. Calculate the Energy Difference ($\Delta E$)
+The energy of the emitted photon is equal to the difference between the two energy levels:
+$$\Delta E = E_5 - E_3$$
+$$\Delta E = -3.71 \text{ eV} - (-5.52 \text{ eV})$$
+$$\Delta E = 1.81 \text{ eV}$$
+
+### 3. Convert Energy from eV to Joules
+Since the standard unit for frequency calculations involves Joules, we convert the energy using the conversion factor $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$:
+$$\Delta E = 1.81 \times 1.602 \times 10^{-19} \text{ J}$$
+$$\Delta E \approx 2.90 \times 10^{-19} \text{ J}$$
+
+### 4. Calculate the Frequency ($f$)
+Using the photon energy formula $E = hf$, where $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J s}$):
+$$f = \frac{\Delta E}{h}$$
+$$f = \frac{2.90 \times 10^{-19} \text{ J}}{6.626 \times 10^{-34} \text{ J s}}$$
+$$f \approx 4.377 \times 10^{14} \text{ Hz}$$
+
+Rounding to two significant figures, we get $4.4 \times 10^{14} \text{ Hz}$.
+
+Comparing this to the given options:
+(A) $1.81 \text{ Hz}$
+(B) $4.4 \times 10^{14} \text{ Hz}$
+(C) $2.89 \times 10^{-19} \text{ Hz}$
+(D) $7.4 \times 10^{14} \text{ Hz}$
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

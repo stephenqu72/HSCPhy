@@ -1,0 +1,34 @@
+To calculate the binding energy per nucleon for an oxygen-18 ($^{18}\text{O}$) nucleus, we must determine the mass defect, convert it to energy, and divide by the total number of nucleons.
+
+### 1. Identify the components
+*   Oxygen-18 has an atomic number $Z = 8$ (8 protons) and a mass number $A = 18$.
+*   The number of neutrons $N = 18 - 8 = 10$.
+*   Note: The mass of the atom includes 8 electrons. In high-precision nuclear physics, we subtract the mass of the electrons. However, if the mass of the nucleus is not explicitly provided, we often approximate using the mass of the nucleus calculated from the atomic mass minus the electron mass: $m_{\text{nucleus}} \approx 17.99916 - (8 \times 0.0005486) \approx 17.99477\text{ amu}$. For standard HSC physics calculations, using the atomic mass provided is often accepted, but the most rigorous method is:
+    *   $m_{\text{protons}} = 8 \times 1.007276 = 8.058208\text{ amu}$
+    *   $m_{\text{neutrons}} = 10 \times 1.008664 = 10.086640\text{ amu}$
+    *   $m_{\text{theoretical}} = 18.144848\text{ amu}$
+
+### 2. Calculate the mass defect ($\Delta m$)
+$$\Delta m = (Z \times m_p + N \times m_n) - m_{\text{nucleus}}$$
+Using the atomic mass of $^{18}\text{O}$ and subtracting 8 electrons ($m_e \approx 0.0005486\text{ amu}$):
+$$\Delta m = 18.144848 - (17.99916 - 8 \times 0.0005486) = 0.150077\text{ amu}$$
+
+### 3. Convert to energy
+Using the conversion factor $1\text{ amu} = 931.5\text{ MeV}/c^2$:
+$$E_b = 0.150077 \times 931.5 \approx 139.797\text{ MeV}$$
+
+### 4. Binding energy per nucleon
+$$\frac{E_b}{A} = \frac{139.797\text{ MeV}}{18} \approx 7.766\text{ MeV/nucleon}$$
+
+**Final Answer:** The binding energy per nucleon is approximately **$7.77\text{ MeV/nucleon}$**.
+
+---
+
+### How to solve this type of problem:
+1.  **Calculate the sum of constituent parts:** Multiply the number of protons by the mass of a proton and the number of neutrons by the mass of a neutron. Sum these.
+2.  **Find the mass defect:** Subtract the actual mass of the nucleus from the sum of the constituents. *Tip:* If given atomic mass, ensure you account for the mass of electrons if the question implies high precision.
+3.  **Convert to Energy:** Multiply the mass defect (in amu) by the constant $931.5\text{ MeV/amu}$ to get total binding energy.
+4.  **Normalize:** Divide the total binding energy by the mass number $A$ to find the "per nucleon" value.
+
+###QUESTION_TYPE
+Calculation question

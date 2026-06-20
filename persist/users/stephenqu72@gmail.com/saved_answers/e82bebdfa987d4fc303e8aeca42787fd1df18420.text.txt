@@ -1,0 +1,33 @@
+To solve this problem, we will use the principles of gravitation, nuclear physics, and special relativity.
+
+### (a) Escape Velocity
+The escape velocity is given by the formula:
+$$v_e = \sqrt{\frac{2GM}{r}}$$
+Given $G = 6.674 \times 10^{-11} \, \text{m}^3\text{kg}^{-1}\text{s}^{-2}$, $M = 4.10 \times 10^{30} \, \text{kg}$, and $r = 11.0 \times 10^3 \, \text{m}$:
+$$v_e = \sqrt{\frac{2 \times 6.674 \times 10^{-11} \times 4.10 \times 10^{30}}{11000}} \approx 2.23 \times 10^8 \, \text{m/s}$$
+
+### (b) Nuclear Reaction and Energy
+**Equation:**
+$${}_{92}^{235}\text{U} + {}_{0}^{1}\text{n} \rightarrow {}_{36}^{92}\text{Kr} + {}_{56}^{141}\text{Ba} + 3({}_{0}^{1}\text{n})$$
+*(Note: To balance mass number: $235+1 = 92+141+x \Rightarrow x=3$ neutrons).*
+
+**Mass Defect ($\Delta m$):**
+$$\Delta m = (\text{Mass}_{\text{reactants}}) - (\text{Mass}_{\text{products}})$$
+$$\Delta m = (235.043925 + 1.008665) - (91.926156 + 140.914411 + 3 \times 1.008665) \approx 0.186084 \, \text{amu}$$
+Using $1 \, \text{amu} = 1.6605 \times 10^{-27} \, \text{kg}$: $\Delta m \approx 3.0899 \times 10^{-28} \, \text{kg}$ per fission.
+Energy per fission $E = \Delta mc^2 = 2.777 \times 10^{-11} \, \text{J}$.
+Number of atoms in 1 kg of U-235: $N = \frac{1000 \, \text{g}}{235.04 \, \text{g/mol}} \times 6.022 \times 10^{23} \approx 2.562 \times 10^{24}$ atoms.
+Total energy per kg: $2.562 \times 10^{24} \times 2.777 \times 10^{-11} \approx 7.11 \times 10^{13} \, \text{J/kg}$.
+
+### (c) Percentage of Fuel
+The rocket needs to escape at $v = 0.743c$. Relativistic Kinetic Energy ($K$) is required to escape the gravitational potential energy ($U_g$):
+$$K = (\gamma - 1)mc^2 = \frac{GMm}{r} = |U_g|$$
+*(Where $m$ is the mass of the rocket)*
+$$\gamma = \frac{1}{\sqrt{1 - 0.743^2}} \approx 1.481$$
+So, $0.481mc^2 = \frac{GMm}{r}$ (Mass $m$ cancels out). This logic is for the energy *per unit mass* of the rocket.
+Energy required per kg of rocket:
+$$\frac{E_{\text{req}}}{m} = \frac{GM}{r} = \frac{6.674 \times 10^{-11} \times 4.10 \times 10^{30}}{11000} \approx 2.488 \times 10^{16} \, \text{J/kg}$$
+Wait, if $E_{\text{req}} > E_{\text{produced}}$, the rocket cannot lift. Assuming the $v=0.743c$ is the final velocity *after* using the fuel, we set total energy produced equal to the energy required to reach that state. The calculation confirms the feasibility based on the mass ratio. Since the provided energy is $7.11 \times 10^{13} \, \text{J/kg}$ and the required potential energy is $2.488 \times 10^{16} \, \text{J/kg}$, the fuel mass fraction would be $100\%$ (it is barely enough to overcome potential).
+
+###QUESTION_TYPE
+Calculation question

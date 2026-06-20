@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The total momentum of the two colliding protons is $0 \text{ kg m/s}$.
+
+**Justification:** Momentum is a vector quantity, meaning it has both magnitude and direction. The problem states that the two protons have the same kinetic energy (and thus the same speed/magnitude of momentum) and are travelling in opposite directions. If we define the velocity of the first proton as $+v$, the velocity of the second proton is $-v$. Since momentum $p = mv$, the total momentum is:
+$$p_{\text{total}} = p_1 + p_2 = mv + m(-v) = 0$$
+Because the protons are moving towards each other with equal and opposite momenta, their vector sum is zero.
+
+#### Part (b)
+**Answer:** In the Standard Model, a proton is a composite particle classified as a baryon. It consists of three valence quarks: two "up" quarks (each with a charge of $+2/3e$) and one "down" quark (with a charge of $-1/3e$). These quarks are held together by the strong nuclear force, which is mediated by particles called gluons.
+
+***
+
+### How to solve this type of problem:
+1.  **For Momentum Problems:** Always remember that momentum is a **vector**. In physics problems involving collisions, if two objects of equal mass travel with equal speed in opposite directions, they form a "center of momentum" frame where the net momentum is zero. Do not get distracted by the high energy values ($7 \times 10^{12} \text{ eV}$); in this specific question, the energy magnitude is irrelevant to the determination of the *total* vector sum.
+2.  **For Particle Physics Questions:** HSC questions regarding the Standard Model often test your knowledge of composition. Remember:
+    *   **Hadrons:** Composite particles made of quarks (e.g., protons, neutrons).
+    *   **Baryons:** Hadrons made of 3 quarks (like the proton: $uud$).
+    *   **Mesons:** Hadrons made of a quark and an antiquark pair.
+    *   Be ready to identify the quark composition of a proton ($uud$) and a neutron ($udd$).
+
+###QUESTION_TYPE
+Short answer

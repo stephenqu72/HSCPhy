@@ -1,0 +1,25 @@
+To solve this problem, we need to determine how many half-lives have passed within the total time given.
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Half-life ($t_{1/2}$) = $40\text{ s}$
+    *   Total time ($T$) = $2\text{ minutes}$
+
+2.  **Ensure consistent units:**
+    Since the half-life is in seconds, convert the total time into seconds:
+    $$T = 2\text{ minutes} \times 60\text{ seconds/minute} = 120\text{ s}$$
+
+3.  **Calculate the number of half-lives ($n$):**
+    The number of half-lives that have elapsed is the total time divided by the duration of one half-life:
+    $$n = \frac{T}{t_{1/2}} = \frac{120\text{ s}}{40\text{ s}} = 3$$
+
+4.  **Calculate the remaining fraction:**
+    The fraction of a radioactive sample remaining after $n$ half-lives is given by the formula $(\frac{1}{2})^n$:
+    $$\text{Remaining fraction} = \left(\frac{1}{2}\right)^3 = \frac{1^3}{2^3} = \frac{1}{8}$$
+
+**Conclusion:**
+After three half-lives, $\frac{1}{8}$ of the original sample remains. Looking at the options provided, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

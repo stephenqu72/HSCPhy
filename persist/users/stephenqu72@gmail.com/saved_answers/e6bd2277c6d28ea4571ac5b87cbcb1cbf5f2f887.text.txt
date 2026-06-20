@@ -1,0 +1,20 @@
+To answer this question effectively, you need to explain how the process of nuclear fission scales and how human intervention (or the lack thereof) alters the outcome of the reaction.
+
+### Answer
+The diagram depicts a self-sustaining **nuclear chain reaction**, where the fission of one $^{235}\text{U}$ nucleus releases neutrons that trigger further fission events in adjacent nuclei.
+
+*   **Uncontrolled Chain Reaction:** This occurs when, on average, more than one neutron released from each fission event successfully triggers another fission event ($k > 1$). In such a scenario, the number of fissions increases exponentially, releasing a massive amount of energy in a very short time, as seen in nuclear weapons.
+*   **Controlled Chain Reaction:** This occurs in nuclear reactors where the reaction is kept stable by maintaining the reproduction constant at exactly one ($k = 1$). This is achieved using control rods (made of materials like boron or cadmium) that absorb excess neutrons, preventing the reaction from escalating while ensuring a steady, manageable release of thermal energy for electricity generation.
+
+---
+
+### How to solve this
+1.  **Identify the Mechanism:** Recognize that the image shows a multiplying population of neutrons. Acknowledge that the *multiplication* is the core concept of a "chain reaction."
+2.  **Define the Variables:** Use the concept of the neutron reproduction factor ($k$). 
+    *   If $k > 1$, the reaction grows exponentially (uncontrolled).
+    *   If $k = 1$, the reaction rate remains constant (controlled).
+3.  **Contrast the Environments:** To gain full marks, you must distinguish between the *purpose* and *mechanism* of the two. Use the example of a nuclear bomb (uncontrolled) versus a nuclear power plant (controlled).
+4.  **Explain the Control Mechanism:** Mention how control rods act as "neutron sinks" to physically remove excess neutrons from the environment, which is the specific technique used to keep the chain reaction from becoming uncontrolled.
+
+###QUESTION_TYPE
+Short answer

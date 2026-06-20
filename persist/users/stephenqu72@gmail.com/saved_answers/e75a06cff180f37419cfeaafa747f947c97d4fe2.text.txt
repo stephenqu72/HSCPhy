@@ -1,0 +1,14 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this, we must distinguish between the definitions of accuracy and precision, and understand how repeated measurements affect experimental error:
+
+1.  **Accuracy (I):** This refers to how close a measured value is to the "true" or accepted value. By repeating measurements and calculating an average, the impact of individual fluctuations (random errors) is minimized. This allows the calculated mean to be closer to the true value, thereby **improving accuracy**.
+2.  **Precision (II):** This refers to how close a set of measurements are to *each other* (consistency). Repeating measurements only twice is generally insufficient to determine if the results are precise, and the act of repeating the measurements does not inherently improve precision; rather, it allows you to *assess* the precision. Increasing precision usually requires refined equipment or better experimental techniques (e.g., reducing reaction time errors).
+3.  **Random Error (III):** Random errors are unpredictable variations in measurements. Averaging multiple trials helps to cancel out these random fluctuations, effectively reducing their impact on the final result. Therefore, repeating measurements **lowers the effect of random error**.
+
+Since repeating measurements improves both the **accuracy** of the mean and reduces the impact of **random error**, both points I and III are achieved.
+
+###QUESTION_TYPE
+Multiple choice

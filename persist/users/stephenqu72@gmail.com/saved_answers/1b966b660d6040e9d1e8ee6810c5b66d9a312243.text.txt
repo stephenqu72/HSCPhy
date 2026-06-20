@@ -1,0 +1,21 @@
+To achieve full marks on this 6-mark HSC Physics question, you must demonstrate a deep understanding of the limitation of classical physics and how quantum theory provided the necessary resolution.
+
+### Answer
+The most significant experimental anomaly that challenged classical atomic models was the **stability of the atom and the existence of discrete emission spectra (e.g., the Balmer series)**.
+
+1.  **The Classical Failure:** According to classical electrodynamics (Maxwell’s equations), an accelerating charged particle must continuously radiate energy. In the Rutherford model, an electron orbiting a nucleus is undergoing centripetal acceleration. Therefore, it should continuously lose energy, spiral into the nucleus, and result in a continuous emission spectrum. This predicts that atoms should be inherently unstable and collapse within microseconds.
+2.  **The Anomaly:** Experimental observation of hydrogen emission spectra, specifically the Balmer series, revealed distinct, sharp lines of specific wavelengths rather than a continuous spectrum. These wavelengths followed a precise mathematical pattern: $$\frac{1}{\lambda} = R_H \left( \frac{1}{2^2} - \frac{1}{n^2} \right)$$ where $n = 3, 4, 5...$. Classical physics could not explain why electrons only occupied specific energy levels.
+3.  **The Quantum Shift:** Bohr’s model addressed this by postulating "stationary states" where electrons orbit without radiating energy. This introduced quantization: angular momentum is quantized ($L = mvr = \frac{nh}{2\pi}$).
+4.  **Refinement via Schrödinger:** Schrödinger’s wave mechanics moved beyond Bohr’s "planetary" orbits by treating electrons as standing waves described by a wave function $\psi$. This provided a probabilistic framework (the electron cloud) rather than defined paths. This transition fundamentally replaced the classical deterministic view with the quantum mechanical understanding of energy levels as solutions to the Schrödinger equation, successfully explaining the stability of atoms and the origin of spectral lines as energy transitions between discrete states ($E = hf$).
+
+---
+
+### How to solve this question
+1.  **Identify the anomaly (The "What"):** Start by clearly stating the paradox—classical physics predicted atomic collapse and continuous spectra, but experiments showed stable atoms and discrete spectral lines.
+2.  **Evaluate the classical model (The "Why it failed"):** Explicitly mention Maxwell’s theory of electromagnetism regarding accelerating charges. If you don't mention why the electron *should* radiate, you lose marks for depth.
+3.  **Link to the solution (The "Paradigm Shift"):** Connect the failure of the Rutherford model to the success of Bohr’s quantization. 
+4.  **Extend to advanced theory:** Explicitly address the prompt's mention of Schrödinger. Mention the shift from "orbit" to "orbital" and the probabilistic nature of the electron's position, which resolved the conceptual issues of Bohr's semi-classical model.
+5.  **Use correct terminology:** Use terms like *stationary states*, *quantization*, *electromagnetic radiation*, *accelerating charge*, and *wave-particle duality*.
+
+###QUESTION_TYPE
+Essay

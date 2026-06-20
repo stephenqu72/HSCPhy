@@ -1,0 +1,27 @@
+To solve this problem, we need to relate the de Broglie wavelength to the kinetic energy gained by a charged particle accelerating through a potential difference.
+
+### Explanation:
+
+1.  **De Broglie wavelength formula:** The de Broglie wavelength $\lambda$ of a particle with momentum $p$ is given by:
+    $$\lambda = \frac{h}{p}$$
+    where $h$ is Planck's constant.
+
+2.  **Relating momentum to kinetic energy:** The kinetic energy $E_k$ of a particle with mass $m$ and momentum $p$ is given by:
+    $$E_k = \frac{p^2}{2m}$$
+    Rearranging for momentum, we get:
+    $$p = \sqrt{2m E_k}$$
+
+3.  **Energy gained from a potential difference:** A charge $q$ accelerated from rest through a potential difference $V_A$ gains kinetic energy equal to the work done by the electric field:
+    $$E_k = q V_A$$
+
+4.  **Substituting into the wavelength equation:** Substitute the expression for $E_k$ into the momentum equation, and then into the wavelength formula:
+    $$p = \sqrt{2m q V_A}$$
+    $$\lambda = \frac{h}{\sqrt{2m q V_A}}$$
+
+Comparing this result to the given options, it matches option (B).
+
+### Answer:
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

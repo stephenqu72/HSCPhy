@@ -1,0 +1,23 @@
+To determine the correct graph, we must look at the mathematical relationship defined by the de Broglie wavelength formula:
+
+$$\lambda = \frac{h}{p}$$
+
+Since momentum $p = mv$ (where $m$ is the mass of the particle and $v$ is its speed), the equation becomes:
+
+$$\lambda = \frac{h}{mv}$$
+
+### Step-by-Step Analysis:
+
+1.  **Analyze the Variables:** In this equation, $h$ (Planck’s constant) and $m$ (mass) are constants. Therefore, we can express the relationship as $\lambda \propto \frac{1}{v}$.
+2.  **Evaluate the Graph Axes:** 
+    *   Graphs A and B have $v$ on the horizontal axis. Based on the inverse relationship $\lambda \propto \frac{1}{v}$, these should show a reciprocal curve (a hyperbola). Graph A is linear (incorrect) and Graph B is exponential (incorrect).
+    *   Graphs C and D have $\frac{1}{v}$ on the horizontal axis. 
+3.  **Linearize the Equation:** If we let $x = \frac{1}{v}$, the equation becomes:
+    $$\lambda = \left( \frac{h}{m} \right) x$$
+    This is in the form $y = mx + c$, where the slope is $\frac{h}{m}$ and the y-intercept is $0$. This represents a straight line passing through the origin.
+4.  **Conclusion:** Graph D represents a linear relationship between $\lambda$ and $\frac{1}{v}$.
+
+Therefore, the correct graph is **D**.
+
+###QUESTION_TYPE
+Multiple choice

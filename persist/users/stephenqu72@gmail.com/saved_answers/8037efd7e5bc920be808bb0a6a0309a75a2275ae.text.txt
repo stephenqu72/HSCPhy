@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To identify elements using atomic spectra, we rely on the fact that each element emits or absorbs a unique set of specific wavelengths of light. This is known as a "fingerprint" or "barcode" for that element.
+
+Here is why **(A)** is the essential reason:
+
+1.  **Quantised Energy Levels:** According to the Bohr model of the atom, electrons exist in stable, stationary states (orbits) that have specific, discrete energy values. Because these energy levels are unique to the specific configuration of protons and electrons in an element, the differences in energy between these levels ($\Delta E$) are also unique.
+2.  **Photon Emission/Absorption:** When an electron transitions between two energy levels, it emits or absorbs a photon with an energy exactly equal to the difference between those levels: 
+    $$\Delta E = E_{final} - E_{initial} = hf$$
+    where $h$ is Planck's constant and $f$ is the frequency of the light.
+3.  **Spectral Lines:** Because the energy levels are quantised and unique to the element, the resulting frequencies (and thus wavelengths) of light are also unique. 
+
+**Why the other options are incorrect:**
+*   **(B)** While different elements have different numbers of electrons, it is the *specific energy spacing* between levels, not just the count of electrons, that defines the spectra.
+*   **(C)** This formula relates to electron shell capacity (Pauli exclusion principle), which is a property of electronic configuration but does not directly explain why specific spectral lines appear at specific frequencies.
+*   **(D)** While it is true that electrons absorb or release energy to change levels, this is a mechanism. It would not result in a unique identification if the energy levels themselves weren't quantised to specific, element-unique values.
+
+### QUESTION_TYPE
+Multiple choice

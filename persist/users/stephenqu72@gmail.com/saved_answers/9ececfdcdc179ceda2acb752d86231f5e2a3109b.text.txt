@@ -1,0 +1,33 @@
+To solve this problem, we use the radioactive decay law. Note that the initial mass of $200\text{ g}$ is extraneous information; the decay depends only on the fraction of the substance remaining.
+
+### Step-by-Step Solution:
+
+1.  **Identify the formula:**
+    The radioactive decay formula is:
+    $$N_t = N_0 \times \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+    Where:
+    *   $N_t/N_0$ is the fraction remaining ($0.15$ or $15\%$)
+    *   $t$ is the time elapsed
+    *   $T_{1/2}$ is the half-life ($16.2\text{ years}$)
+
+2.  **Set up the equation:**
+    $$0.15 = \left( 0.5 \right)^{\frac{t}{16.2}}$$
+
+3.  **Solve for $t$ using logarithms:**
+    Take the natural logarithm ($\ln$) of both sides:
+    $$\ln(0.15) = \ln\left( 0.5^{\frac{t}{16.2}} \right)$$
+    Using log laws ($\ln(a^b) = b \ln(a)$):
+    $$\ln(0.15) = \frac{t}{16.2} \times \ln(0.5)$$
+
+4.  **Isolate $t$:**
+    $$t = \frac{\ln(0.15) \times 16.2}{\ln(0.5)}$$
+
+5.  **Calculate the value:**
+    $$\ln(0.15) \approx -1.897$$
+    $$\ln(0.5) \approx -0.693$$
+    $$t \approx \frac{-1.897 \times 16.2}{-0.693} \approx 44.34\text{ years}$$
+
+**Answer:** The correct option is **B (44.34 years)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,35 @@
+To excel in your Physics HSC exams, you must be able to link mathematical derivations with conceptual justifications. Here is the breakdown for Question 24.
+
+---
+
+### Part a) Derivation
+**Goal:** Show that $r_n = \frac{nh}{2\pi mv}$. (Note: The prompt asks to show the radius is equivalent to this expression; strictly speaking, this expression represents the radius multiplied by $2\pi$, as $mvr = \frac{nh}{2\pi}$. We will derive the condition for stable orbits).
+
+1. **De Broglie’s Hypothesis:** De Broglie proposed that particles have a wavelength $\lambda = \frac{h}{mv}$.
+2. **Standing Wave Condition:** For an electron to exist in a stable orbit without radiating energy, it must form a standing wave around the nucleus. This requires the circumference of the orbit to be an integer multiple of the wavelength:
+   $$2\pi r = n\lambda$$
+3. **Substitution:** Substitute $\lambda = \frac{h}{mv}$ into the circumference equation:
+   $$2\pi r = n \left( \frac{h}{mv} \right)$$
+4. **Rearrangement:** Solve for $r$:
+   $$r = \frac{nh}{2\pi mv}$$
+   This confirms the relationship between the radius, the integer $n$, and the momentum of the electron.
+
+---
+
+### Part b) Experimental Evidence and Limitations
+**1. Experimental Evidence:**
+The primary evidence for de Broglie’s wave-particle duality is the **Davisson-Germer experiment**. By firing electrons at a nickel crystal, they observed a **diffraction pattern** characteristic of waves. Since diffraction is a wave property, this proved that electrons exhibit wave-like behavior, confirming de Broglie’s hypothesis that $\lambda = \frac{h}{mv}$.
+
+**2. Addressing Bohr's Limitation:**
+Bohr’s model of the atom was semi-empirical; he *postulated* that angular momentum is quantized ($L = \frac{nh}{2\pi}$) to explain why electrons don't spiral into the nucleus, but he could not explain *why* this quantization existed. 
+
+De Broglie provided the physical justification: the electron is not just a particle, but a **standing wave**. Because a wave can only exist in a closed loop if its circumference is an integer multiple of its wavelength (to avoid destructive interference), the quantization of angular momentum is a natural consequence of the wave nature of matter. This explained *why* only certain orbits are allowed, removing the "arbitrary" nature of Bohr’s postulates.
+
+---
+
+### How to solve questions like this:
+*   **For derivations:** Always start with the fundamental equations (in this case, $2\pi r = n\lambda$ and $\lambda = h/p$). Write down the variables clearly and show the algebraic manipulation step-by-step.
+*   **For explanations:** Use the "State-Evidence-Significance" structure. State the experiment (Davisson-Germer), explain the observed result (diffraction), and link it to the theoretical issue (Bohr's lack of a physical basis for quantization).
+
+###QUESTION_TYPE
+Short answer

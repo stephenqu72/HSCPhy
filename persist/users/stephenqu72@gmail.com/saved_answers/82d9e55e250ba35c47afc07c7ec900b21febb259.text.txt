@@ -1,0 +1,30 @@
+To solve this 8-mark HSC physics problem, we must apply the principles of special relativity, mass-energy equivalence, and relativistic dynamics.
+
+### 1. Energy-Mass Equivalence
+We use Einstein's mass-energy equivalence principle, $E = mc^2$. The total energy required must account for the mass of the resulting particles.
+*   Mass of 2 protons: $2 \times 938 \text{ MeV/c}^2 = 1876 \text{ MeV/c}^2$
+*   Mass of 1 top quark + 1 bottom quark: $173 \text{ GeV/c}^2 + 4.18 \text{ GeV/c}^2 = 173000 \text{ MeV/c}^2 + 4180 \text{ MeV/c}^2 = 177180 \text{ MeV/c}^2$
+*   Total mass-energy required ($E_{total}$): $1876 + 177180 = 179056 \text{ MeV}$
+
+### 2. Relativistic Momentum
+Particle accelerators use electromagnetic fields to accelerate protons to relativistic speeds ($v \approx c$). The total energy of a particle is given by $E = \gamma mc^2$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$. As velocity increases, the relativistic mass ($\gamma m$) increases, providing the energy necessary to create new mass upon collision.
+
+### 3. Calculation of Required Velocity
+Assuming the quarks are at rest after the collision, we set the total energy of the two colliding protons equal to the rest mass of the resulting particles.
+Total energy $E = 2 \gamma m_p c^2$, where $m_p = 938 \text{ MeV/c}^2$.
+$$2 \gamma (938) = 179056$$
+$$\gamma = \frac{179056}{1876} \approx 95.4456$$
+
+Since $\gamma = \frac{1}{\sqrt{1 - \beta^2}}$ (where $\beta = v/c$):
+$$\gamma^2 = \frac{1}{1 - \beta^2} \implies 1 - \beta^2 = \frac{1}{\gamma^2}$$
+$$\beta^2 = 1 - \frac{1}{95.4456^2} \approx 1 - 0.0001098 \approx 0.99989$$
+$$\beta \approx \sqrt{0.99989} \approx 0.999945$$
+Thus, the protons must be accelerated to approximately $0.9999 c$.
+
+### Summary Explanation
+*   **Accelerator Operation:** Particle accelerators use magnetic fields to guide protons and electric fields to accelerate them. By forcing protons to high velocities, their kinetic energy increases significantly.
+*   **Energy Conversion:** Upon collision, the immense kinetic energy of the protons is converted into matter ($E=mc^2$). Because the mass of a top quark ($173 \text{ GeV/c}^2$) is significantly higher than that of a proton ($\approx 1 \text{ GeV/c}^2$), ultra-relativistic speeds are required.
+*   **Relativity:** At these speeds, the classical kinetic energy formula ($1/2mv^2$) fails; we must use the relativistic total energy formula. The calculation shows that to create these massive quarks, protons must reach velocities very close to the speed of light to provide the necessary energy input.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,26 @@
+To solve this, let us represent the initial nuclide $X$ with mass number $A$ and atomic number $Z$. Therefore, $X = {}^{A}_{Z}X$.
+
+### Analysis of Decay Routes
+
+**Route 1:**
+1. $X$ undergoes $\alpha$ decay: An $\alpha$ particle is ${}^{4}_{2}\text{He}$. The product $P$ will have mass $A-4$ and atomic number $Z-2$.
+   $${}^{A}_{Z}X \to {}^{A-4}_{Z-2}P + {}^{4}_{2}\text{He}$$
+2. $P$ undergoes $\beta^-$ decay: A $\beta^-$ particle is ${}^{0}_{-1}e$. The product $Q$ will have mass $A-4$ and atomic number $(Z-2) - (-1) = Z-1$.
+   $${}^{A-4}_{Z-2}P \to {}^{A-4}_{Z-1}Q + {}^{0}_{-1}e$$
+
+**Route 2:**
+1. $X$ undergoes $\beta^-$ decay: The product $R$ will have mass $A$ and atomic number $Z+1$.
+   $${}^{A}_{Z}X \to {}^{A}_{Z+1}R + {}^{0}_{-1}e$$
+2. $R$ undergoes $\alpha$ decay: The product $S$ will have mass $A-4$ and atomic number $(Z+1) - 2 = Z-1$.
+   $${}^{A}_{Z+1}R \to {}^{A-4}_{Z-1}S + {}^{4}_{2}\text{He}$$
+
+### Evaluation of Options
+*   **A:** $Q$ is ${}^{A-4}_{Z-1}Q$ and $S$ is ${}^{A-4}_{Z-1}S$. They have the same atomic number and mass number. They are the same nuclide, not just different isotopes.
+*   **B:** $X$ has mass $A$ and $R$ has mass $A$. This is **correct**.
+*   **C:** $P$ is ${}^{A-4}_{Z-2}P$ and $R$ is ${}^{A}_{Z+1}R$. They have different atomic numbers ($Z-2 \neq Z+1$).
+*   **D:** $X$ is ${}^{A}_{Z}X$ and $R$ is ${}^{A}_{Z+1}R$. Isotopes must have the same atomic number but different mass numbers. Here, they have different atomic numbers, so they are different elements.
+
+The correct statement is **B**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To find the wavelength of a moving particle like an electron, we use the de Broglie wavelength formula:
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+### Given data:
+*   $h$ (Planck's constant) $\approx 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$
+*   $m$ (mass of an electron) $\approx 9.109 \times 10^{-31} \text{ kg}$
+*   $v$ (velocity) $= 0.01c = 0.01 \times (3.0 \times 10^8 \text{ m/s}) = 3.0 \times 10^6 \text{ m/s}$
+
+### Calculation steps:
+1.  **Calculate momentum ($p$):**
+    $$p = m \times v$$
+    $$p = (9.109 \times 10^{-31} \text{ kg}) \times (3.0 \times 10^6 \text{ m/s})$$
+    $$p \approx 2.7327 \times 10^{-24} \text{ kg}\cdot\text{m/s}$$
+
+2.  **Calculate wavelength ($\lambda$):**
+    $$\lambda = \frac{h}{p}$$
+    $$\lambda = \frac{6.626 \times 10^{-34}}{2.7327 \times 10^{-24}}$$
+    $$\lambda \approx 2.4247 \times 10^{-10} \text{ m}$$
+
+Comparing this result to the given options, it matches **B**.
+
+**Correct Answer: B**
+
+###QUESTION_TYPE
+Multiple choice

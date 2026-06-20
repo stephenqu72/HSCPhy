@@ -1,0 +1,33 @@
+Hello! As your HSC physics teacher, I will guide you through these questions. They test your understanding of nuclear stability and energy transformations within stars.
+
+### Part (a)
+**Answer:**
+*   **Mass defect:** This is the difference between the sum of the masses of the individual constituent nucleons (2 protons and 2 neutrons) and the actual measured mass of the intact helium-4 nucleus. It represents the "missing" mass that is converted into energy.
+*   **Binding energy:** This is the energy equivalent of the mass defect. It is the energy released when the nucleons come together to form the helium nucleus, or conversely, the amount of energy required to disassemble the nucleus into its individual protons and neutrons. It is effectively the "glue" that holds the nucleus together.
+
+**How to solve:** Define both terms clearly and explicitly link them to the constituents of a Helium-4 nucleus ($2p, 2n$).
+
+### Part (b)
+**Answer:**
+The net reaction for the proton-proton chain is:
+$$4^1_1H \rightarrow ^4_2He + 2^0_1e^+ + 2\nu_e + \text{energy}$$
+*(Note: Some contexts simplify this to $4p \rightarrow ^4He + 2e^+$, but for full accuracy, include the positrons and neutrinos shown in the diagram).*
+
+**How to solve:** Identify the inputs (4 protons) and the outputs (1 helium nucleus, 2 positrons, and energy) based on the provided diagram.
+
+### Part (c)
+**Answer:**
+1. **Find mass of reactants:** $4 \times \text{mass of proton} = 4 \times 1.007276 = 4.029104\ \text{u}$
+2. **Find mass of products:** $\text{Mass of He} + 2 \times \text{mass of positron} = 4.002602 + 2(0.00054858) = 4.00369916\ \text{u}$
+3. **Mass defect ($\Delta m$):** $4.029104 - 4.00369916 = 0.02540484\ \text{u}$
+4. **Convert to Energy ($E = mc^2$):** Since $1\ \text{u} \approx 931.5\ \text{MeV}/c^2$:
+   $$E = 0.02540484 \times 931.5 \approx 23.66\ \text{MeV}$$
+
+**How to solve:**
+*   Calculate the total mass before the reaction.
+*   Calculate the total mass after the reaction (remembering to include the two positrons).
+*   Subtract the products from the reactants to find the mass defect.
+*   Multiply the result by $931.5\ \text{MeV/u}$ to find the energy in MeV.
+
+###QUESTION_TYPE
+Calculation question

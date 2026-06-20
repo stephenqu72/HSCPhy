@@ -1,0 +1,37 @@
+As a top HSC Physics teacher, I will guide you through these questions step-by-step.
+
+### Part (a): Explanation
+**Answer:**
+Bohr’s model postulates that electrons occupy discrete, quantized energy levels (stationary states) within an atom. The emission spectrum of hydrogen consists of discrete, sharp spectral lines rather than a continuous spectrum. This provides evidence for Bohr’s model because these lines correspond to the photon energy released when an electron undergoes a transition from a higher energy level ($n_i$) to a lower energy level ($n_f$). The energy of the emitted photon is exactly equal to the difference between these levels: $\Delta E = E_i - E_f = hf$. Since only specific energy levels exist, only specific wavelengths of light are observed.
+
+**How to solve:**
+1. **Identify the postulate:** Mention the concept of "quantized energy levels" or "stationary states."
+2. **Link to evidence:** Contrast the "discrete spectral lines" observed in reality with the continuous energy a classical model (Rutherford) would predict.
+3. **Synthesize:** Explain that the photon's energy is fixed by the transition between two discrete energy states, which explains why we see distinct lines.
+
+---
+
+### Part (b): Calculation
+**Answer:**
+The Balmer series corresponds to transitions where the electron falls to the $n_f = 2$ level.
+- Longest wavelength: $n_i = 3 \rightarrow n_f = 2$
+- **Second longest wavelength:** $n_i = 4 \rightarrow n_f = 2$
+
+Using the Rydberg formula:
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+Where $R_H = 1.097 \times 10^7 \text{ m}^{-1}$.
+
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{2^2} - \frac{1}{4^2} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{4} - \frac{1}{16} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{3}{16} \right)$$
+$$\frac{1}{\lambda} = 2,056,875 \text{ m}^{-1}$$
+$$\lambda = \frac{1}{2,056,875} \approx 4.86 \times 10^{-7} \text{ m} \text{ (or } 486 \text{ nm)}$$
+
+**How to solve:**
+1. **Identify the series:** Recall that Balmer series transitions end at $n=2$.
+2. **Identify the transition:** Remember that "longest wavelength" corresponds to the "smallest energy change" (the transition closest to the final state). Therefore, the longest is $3 \rightarrow 2$, and the **second longest is $4 \rightarrow 2$**.
+3. **Apply the formula:** Substitute $n_f = 2$ and $n_i = 4$ into the Rydberg equation.
+4. **Solve for $\lambda$:** Calculate the result and ensure you include the correct units (meters or nanometers).
+
+###QUESTION_TYPE
+Calculation question

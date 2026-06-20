@@ -1,0 +1,34 @@
+To solve this problem, we need to determine the amount of radioactive isotope remaining after a specific time period and then find the percentage that has decayed.
+
+### Step-by-Step Solution:
+
+**1. Standardize the units of time**
+The decay time is given in hours, and the half-life is given in days. We must convert them to the same unit. Let’s convert the half-life ($t_{1/2}$) into hours:
+$$t_{1/2} = 2.2 \text{ days} \times 24 \text{ hours/day} = 52.8 \text{ hours}$$
+
+**2. Calculate the amount remaining**
+We use the radioactive decay formula:
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+Where:
+- $N(t)$ is the remaining amount
+- $N_0$ is the initial amount (which we can treat as $100\%$)
+- $t = 16 \text{ hours}$
+- $t_{1/2} = 52.8 \text{ hours}$
+
+$$N(t) = 100 \times (0.5)^{\frac{16}{52.8}}$$
+$$N(t) = 100 \times (0.5)^{0.30303}$$
+$$N(t) \approx 100 \times 0.8106$$
+$$N(t) \approx 81.06\%$$
+
+**3. Calculate the percentage decayed**
+The question asks for the percentage that has **decayed**, not the amount remaining. 
+$$\text{Decayed} = 100\% - \text{Remaining} \%$$
+$$\text{Decayed} = 100\% - 81.06\% = 18.94\%$$
+
+Rounding to the nearest whole number, we get **$19\%$**.
+
+**Conclusion:**
+Comparing our result to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

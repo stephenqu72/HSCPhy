@@ -1,0 +1,26 @@
+To solve this problem, we need to calculate the mass defect, determine the total energy released in the decay, and then divide that energy between the two resulting particles.
+
+### Step-by-Step Solution:
+
+**1. Calculate the Mass Defect ($\Delta m$):**
+The mass defect is the difference between the mass of the reactant and the sum of the masses of the products.
+$$\text{Mass of reactant} = 8.005305 \text{ u}$$
+$$\text{Mass of products} = 2 \times 4.002603 \text{ u} = 8.005206 \text{ u}$$
+$$\Delta m = 8.005305 \text{ u} - 8.005206 \text{ u} = 0.000099 \text{ u}$$
+
+**2. Convert Mass Defect to Energy:**
+We use the conversion factor where $1 \text{ u} = 931.5 \text{ MeV/c}^2$.
+$$E_{\text{total}} = 0.000099 \text{ u} \times 931.5 \text{ MeV/u} = 0.0922185 \text{ MeV}$$
+To convert this to keV:
+$$0.0922185 \text{ MeV} \times 1000 \text{ keV/MeV} \approx 92.2 \text{ keV}$$
+
+**3. Calculate the Kinetic Energy of ONE Alpha Particle:**
+Because the beryllium nucleus is initially at rest, the total energy released is shared equally as kinetic energy between the two identical alpha particles to conserve both energy and momentum.
+$$KE_{\text{one alpha}} = \frac{E_{\text{total}}}{2} = \frac{92.2 \text{ keV}}{2} = 46.1 \text{ keV}$$
+
+Comparing this result to the given options, $46.1 \text{ keV}$ is closest to option A ($46.2 \text{ keV}$), allowing for slight variations in the conversion factor used for atomic mass units.
+
+**Answer:** A
+
+###QUESTION_TYPE
+Multiple choice

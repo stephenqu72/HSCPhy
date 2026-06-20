@@ -1,0 +1,30 @@
+### Teacher's Solution and Explanation
+
+#### Part (a)
+To solve this, we must first equate the electrical potential energy provided by the potential difference to the kinetic energy gained by the electron, then use the de Broglie wavelength formula.
+
+**Step 1:** Calculate the kinetic energy ($E_k$) of the electron.
+$E_k = qV = (1.602 \times 10^{-19} \, \text{C}) \times 75 \, \text{V} = 1.2015 \times 10^{-17} \, \text{J}$.
+
+**Step 2:** Use the de Broglie wavelength formula: $\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE_k}}$.
+Given:
+$h = 6.626 \times 10^{-34} \, \text{J s}$
+$m = 9.109 \times 10^{-31} \, \text{kg}$
+
+$$\lambda = \frac{6.626 \times 10^{-34}}{\sqrt{2 \times (9.109 \times 10^{-31}) \times (1.2015 \times 10^{-17})}}$$
+$$\lambda = \frac{6.626 \times 10^{-34}}{\sqrt{2.189 \times 10^{-47}}} = \frac{6.626 \times 10^{-34}}{4.679 \times 10^{-24}} \approx 1.416 \times 10^{-10} \, \text{m}$$
+
+Converting to nanometers: $1.416 \times 10^{-10} \, \text{m} = 0.1416 \, \text{nm} \approx 0.142 \, \text{nm}$. (Q.E.D.)
+
+***
+
+#### Part (b)
+**Explanation:** 
+The graph shows a diffraction pattern, characterized by a central maximum and a secondary maximum. Diffraction is a wave-like property. Classically, particles would pass through the hole and be detected in a straight line. The fact that the electrons are detected at angles away from the central axis indicates they are behaving like waves.
+
+**Validation of de Broglie’s Hypothesis:**
+1. **Wave-particle duality:** The electrons exhibit diffraction when passing through an aperture comparable to their wavelength (the radius of $0.50 \, \text{nm}$ is of the same order of magnitude as the wavelength calculated in (a)).
+2. **Quantitative evidence:** The first minimum in a circular diffraction pattern occurs at $\sin(\theta) \approx 1.22 \frac{\lambda}{d}$, where $d$ is the diameter ($1.0 \, \text{nm}$). Using our calculated $\lambda = 0.142 \, \text{nm}$, we find $\sin(\theta) \approx 1.22 \times \frac{0.142}{1.0} \approx 0.173$. The angle $\theta \approx \arcsin(0.173) \approx 10^\circ$. Looking at the graph, the intensity minimum indeed occurs near $10^\circ-12^\circ$. This agreement between the theoretical wave prediction and the experimental data provides strong validation of the de Broglie hypothesis.
+
+###QUESTION_TYPE
+Calculation question

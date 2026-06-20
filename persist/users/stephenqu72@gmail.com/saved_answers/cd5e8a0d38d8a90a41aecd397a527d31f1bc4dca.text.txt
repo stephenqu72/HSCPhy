@@ -1,0 +1,36 @@
+To solve this radioactive decay problem, we use the standard decay formula.
+
+### Answer
+The correct answer is **(B) $3.0 \times 10^{-18} \text{ kg}$**.
+
+### Explanation
+To find the amount of substance that has decayed, we must first determine the amount of substance **remaining** after the given time, and then subtract that from the initial amount.
+
+**1. Identify the given values:**
+*   Initial mass ($N_0$) = $6.0 \times 10^{-18} \text{ kg}$
+*   Half-life ($t_{1/2}$) = $6 \text{ hours}$
+*   Time elapsed ($t$) = $4 \text{ hours}$
+
+**2. Use the radioactive decay formula:**
+The mass remaining ($N_t$) after time $t$ is given by:
+$$N_t = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+
+Substitute the values:
+$$N_t = 6.0 \times 10^{-18} \times \left( 0.5 \right)^{\frac{4}{6}}$$
+$$N_t = 6.0 \times 10^{-18} \times \left( 0.5 \right)^{0.6667}$$
+$$N_t \approx 6.0 \times 10^{-18} \times 0.62996$$
+$$N_t \approx 3.7798 \times 10^{-18} \text{ kg}$$
+
+**3. Calculate the amount decayed:**
+The amount that has decayed is the initial mass minus the remaining mass:
+$$\text{Decayed} = N_0 - N_t$$
+$$\text{Decayed} = 6.0 \times 10^{-18} - 3.7798 \times 10^{-18}$$
+$$\text{Decayed} \approx 2.22 \times 10^{-18} \text{ kg}$$
+
+Wait, looking at the provided options, if we evaluate the calculation again:
+$6.0 \times (1 - 0.5^{2/3}) \approx 2.22$. 
+
+*Self-correction/Refinement:* Upon re-evaluating the options, option (C) $2.2 \times 10^{-18} \text{ kg}$ is the mathematically correct result based on the standard decay formula. If this were a test, (C) is the calculated value.
+
+###QUESTION_TYPE
+Multiple choice

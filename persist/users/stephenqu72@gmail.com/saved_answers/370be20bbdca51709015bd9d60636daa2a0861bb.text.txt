@@ -1,0 +1,24 @@
+To solve this problem, we use the inverse-square law for light, which relates apparent brightness ($b$), luminosity ($L$), and distance ($d$):
+
+$$b = \frac{L}{4\pi d^2}$$
+
+### Step-by-Step Solution:
+
+1.  **Understand the conditions:** We are told that stars A and B have the same apparent brightness as seen from Earth. Therefore, $b_A = b_B$.
+2.  **Set up the equation:** Using the formula above, we equate the brightness for both stars:
+    $$\frac{L_A}{4\pi d_A^2} = \frac{L_B}{4\pi d_B^2}$$
+3.  **Simplify:** The constant $4\pi$ cancels out on both sides, leaving us with:
+    $$\frac{L_A}{d_A^2} = \frac{L_B}{d_B^2}$$
+4.  **Rearrange to solve for $L_A$:**
+    $$L_A = L_B \times \left( \frac{d_A}{d_B} \right)^2$$
+5.  **Substitute the given values:** We know $d_A = 10 \text{ pc}$ and $d_B = 15 \text{ pc}$. (Note: The conversion factor for light years is irrelevant here because the units for both distances are already in parsecs).
+    $$L_A = L_B \times \left( \frac{10}{15} \right)^2$$
+6.  **Calculate:** Simplify the fraction $\frac{10}{15}$ to $\frac{2}{3}$:
+    $$L_A = L_B \times \left( \frac{2}{3} \right)^2$$
+    $$L_A = L_B \times \frac{4}{9}$$
+    $$L_A = \frac{4}{9} L_B$$
+
+Comparing this result to the given options, the correct choice is **C**.
+
+###QUESTION_TYPE
+Multiple choice

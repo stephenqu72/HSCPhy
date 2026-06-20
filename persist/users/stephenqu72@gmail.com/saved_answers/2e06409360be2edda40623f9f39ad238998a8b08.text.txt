@@ -1,0 +1,37 @@
+### Answer
+The correct answer is **(D) 5.680 billion years**.
+
+---
+
+### Explanation
+To solve this problem, we use the radioactive decay formula:
+$$N(t) = N_0 \times \left(\frac{1}{2}\right)^n$$
+where:
+*   $N(t)$ is the remaining amount of parent isotope.
+*   $N_0$ is the initial amount.
+*   $n$ is the number of half-lives that have elapsed ($n = \frac{t}{T_{1/2}}$).
+
+**Step 1: Determine the remaining fraction of Uranium-235.**
+We are told that $99.609375\%$ of the Uranium-235 has transformed into Lead-207. Therefore, the amount of Uranium-235 remaining is:
+$$100\% - 99.609375\% = 0.390625\%$$
+As a decimal, this is $0.00390625$.
+
+**Step 2: Solve for the number of half-lives ($n$).**
+Using the decay equation:
+$$0.00390625 = \left(\frac{1}{2}\right)^n$$
+We can express $0.00390625$ as a power of $2$ or calculate it using logs:
+$$\frac{1}{0.00390625} = 2^n$$
+$$256 = 2^n$$
+Since $2^8 = 256$, we find that $n = 8$ half-lives have passed.
+
+**Step 3: Calculate the total age ($t$).**
+The total age is the number of half-lives multiplied by the duration of one half-life ($T_{1/2} = 7.10 \times 10^8$ years):
+$$t = n \times T_{1/2}$$
+$$t = 8 \times (7.10 \times 10^8 \text{ years})$$
+$$t = 56.8 \times 10^8 \text{ years}$$
+$$t = 5.680 \times 10^9 \text{ years}$$
+
+Converting to billions of years, we get **5.680 billion years**.
+
+###QUESTION_TYPE
+Multiple choice

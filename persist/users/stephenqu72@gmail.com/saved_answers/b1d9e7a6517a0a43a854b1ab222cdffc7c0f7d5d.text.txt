@@ -1,0 +1,30 @@
+To solve this problem, we use Einstein's mass-energy equivalence formula:
+$$E = mc^2$$
+
+### Step-by-Step Solution:
+
+**1. Identify the given values and constants:**
+*   Rest energy ($E$) = $126 \text{ GeV}$
+*   We need to convert this into SI units (Joules) first. 
+    *   $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$
+    *   $1 \text{ GeV} = 10^9 \text{ eV}$
+    *   So, $E = 126 \times 10^9 \times 1.602 \times 10^{-19} \text{ J} \approx 2.0185 \times 10^{-8} \text{ J}$
+*   Speed of light ($c$) $\approx 3.00 \times 10^8 \text{ m/s}$
+
+**2. Rearrange the formula to solve for mass ($m$):**
+$$m = \frac{E}{c^2}$$
+
+**3. Substitute the values:**
+$$m = \frac{2.0185 \times 10^{-8}}{(3.00 \times 10^8)^2}$$
+$$m = \frac{2.0185 \times 10^{-8}}{9.00 \times 10^{16}}$$
+$$m \approx 2.2427 \times 10^{-25} \text{ kg}$$
+
+Comparing this result to the given options, it matches option (C).
+
+**Answer:** (C)
+
+### Explanation for Students:
+When dealing with subatomic particles, we often measure energy in electron-volts (eV) or Giga-electron-volts (GeV). To find the mass in kilograms, you must always convert the energy into Joules first. Remember that $c^2$ is a very large number ($9 \times 10^{16} \text{ m}^2/\text{s}^2$), so when you divide by it, your mass result will be extremely small, which is expected for elementary particles.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,35 @@
+### Answer
+
+**(a)** The rate of energy production is controlled by adjusting the depth of the **control rods** within the reactor core. These rods are made of materials (such as boron or cadmium) that are excellent at absorbing neutrons. To slow down or stop the chain reaction, the control rods are lowered further into the core to absorb more neutrons, thereby reducing the number of neutrons available to cause further fission of $^{235}U$. To increase the rate of energy production, the rods are raised, allowing more neutrons to participate in the chain reaction.
+
+**(b)** 
+1. **Calculate the mass defect ($\Delta m$) for one fission reaction:**
+   $$\Delta m = (\text{mass of reactants}) - (\text{mass of products})$$
+   $$\Delta m = (235.04 + 1.008) - (140.91 + 91.93 + 3 \times 1.008)$$
+   $$\Delta m = 236.048 - 236.084 = -0.036 \, \text{u}$$
+   (Taking the absolute value for energy released: $0.036 \, \text{u}$)
+
+2. **Convert mass defect to energy ($E$):**
+   Using $1 \, \text{u} \approx 1.66 \times 10^{-27} \, \text{kg}$ and $E = mc^2$ (where $c = 3 \times 10^8 \, \text{m/s}$):
+   $$\Delta m = 0.036 \times 1.66 \times 10^{-27} = 5.976 \times 10^{-29} \, \text{kg}$$
+   $$E = 5.976 \times 10^{-29} \times (3 \times 10^8)^2 \approx 5.38 \times 10^{-12} \, \text{J per atom}$$
+
+3. **Calculate total energy for 1 kg ($2.55 \times 10^{24}$ atoms):**
+   $$E_{\text{total}} = 5.38 \times 10^{-12} \times 2.55 \times 10^{24} \approx 1.37 \times 10^{13} \, \text{J/kg}$$
+   Convert to MJ: $1.37 \times 10^{7} \, \text{MJ/kg}$.
+
+4. **Compare to coal ($10 \, \text{MJ/kg}$):**
+   $$\text{Ratio} = \frac{1.37 \times 10^7}{10} = 1,370,000 \, \text{times greater.}$$
+
+---
+
+### How to solve it
+*   **For part (a):** Focus on the specific function of the components. Control rods absorb neutrons. By altering their position, you change the neutron population, which directly dictates the frequency of fission events and thus the power output.
+*   **For part (b):** 
+    *   **Identify the mass balance:** Always calculate the mass of reactants vs. products. The difference is the mass defect.
+    *   **Mass to Energy:** Remember that $1 \, \text{u}$ is equivalent to $931.5 \, \text{MeV}$, or use $E = mc^2$ after converting atomic mass units to kg.
+    *   **Scaling:** Once you have the energy per single atom, multiply by the total number of atoms provided in the prompt ($2.55 \times 10^{24}$) to find the energy density per kg. 
+    *   **Final Ratio:** Ensure units are consistent (converting Joules to Megajoules) before dividing by the energy density of coal.
+
+###QUESTION_TYPE
+Calculation question

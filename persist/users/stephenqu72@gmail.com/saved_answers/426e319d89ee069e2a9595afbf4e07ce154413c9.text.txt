@@ -1,0 +1,33 @@
+To solve this problem, we need to determine how many half-lives have passed between the activity of sample $Y$ and sample $X$.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the relationship between activities:**
+    *   Activity of sample $Y$ ($A_Y$) = $18.4 \text{ counts/min}$
+    *   Activity of sample $X$ ($A_X$) = $2.3 \text{ counts/min}$
+    *   Since sample $X$ is older, it has decayed from the initial activity of $Y$. We can find the ratio of the decay:
+        $$\frac{A_Y}{A_X} = \frac{18.4}{2.3} = 8$$
+
+2.  **Relate the ratio to half-lives:**
+    *   Radioactive decay follows the relationship $A = A_0 \left(\frac{1}{2}\right)^n$, where $n$ is the number of half-lives. 
+    *   Equivalently, $\frac{A_0}{A} = 2^n$.
+    *   Setting our ratio to this equation: $2^n = 8$.
+    *   Since $8 = 2^3$, we find that $n = 3$ half-lives have passed.
+
+3.  **Calculate the time difference:**
+    *   The half-life ($t_{1/2}$) is given as $356 \text{ years}$.
+    *   Total time ($t$) = $n \times t_{1/2}$
+    *   $t = 3 \times 356 = 1068 \text{ years}$.
+
+Sample $X$ is $1068 \text{ years}$ older than sample $Y$.
+
+Comparing this result to the given options:
+(A) 25 years
+(B) 119 years
+(C) 1068 years
+(D) 15 065 years
+
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To solve this problem, we use the radioactive decay formula.
+
+### Answer
+The correct option is **(B)**.
+
+### Explanation
+To calculate the remaining amount of a radioactive substance after a certain number of half-lives, we use the following formula:
+
+$$N_t = N_0 \times \left(\frac{1}{2}\right)^n$$
+
+Where:
+*   $N_t$ is the final amount remaining.
+*   $N_0$ is the initial amount of the sample.
+*   $n$ is the number of half-lives that have elapsed.
+
+**Step-by-step calculation:**
+1.  **Identify the variables:**
+    *   $N_0 = 4.0\text{ g}$
+    *   $n = 3.5$
+2.  **Substitute the values into the formula:**
+    $$N_t = 4.0 \times \left(\frac{1}{2}\right)^{3.5}$$
+3.  **Perform the calculation:**
+    *   $\left(\frac{1}{2}\right)^{3.5} = 0.5^{3.5} \approx 0.088388$
+    *   $N_t = 4.0 \times 0.088388$
+    *   $N_t = 0.35355\dots\text{ g}$
+
+Looking at the provided options, the value $0.35355$ is closest to **$0.35\text{ g}$**. 
+
+*Teacher's Note: While $3.5$ half-lives results in approximately $0.35\text{ g}$, be careful with significant figures. If this were a written response, you would round based on the precision of the initial sample. Among the choices provided, $0.35\text{ g}$ is the intended mathematical answer.*
+
+###QUESTION_TYPE
+Multiple choice

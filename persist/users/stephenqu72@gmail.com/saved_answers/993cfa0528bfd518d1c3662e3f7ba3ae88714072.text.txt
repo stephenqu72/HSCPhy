@@ -1,0 +1,31 @@
+### Answer
+The correct answer is **(D) is too small.**
+
+---
+
+### Explanation
+To understand why matter waves (de Broglie waves) are not observable for macroscopic objects like cars, we look at the de Broglie wavelength formula:
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+Where:
+*   $\lambda$ is the de Broglie wavelength.
+*   $h$ is Planck’s constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$).
+*   $m$ is the mass of the object.
+*   $v$ is the velocity of the object.
+
+**1. Analyze the variables:**
+Planck's constant ($h$) is an incredibly small number. A car has a very large mass ($m$) compared to subatomic particles like electrons. Even at highway speeds, the product of mass and velocity ($mv$, known as momentum) is a huge value.
+
+**2. The effect of the large denominator:**
+Because the numerator ($h$) is extremely small and the denominator ($mv$) is extremely large, the resulting wavelength ($\lambda$) is infinitesimally small—far smaller than the dimensions of an atom.
+
+**3. Why it is not "obvious":**
+For wave properties (like diffraction or interference) to be observed, the wavelength must be comparable to the size of the obstacles or apertures the object is passing through. Since the wavelength of a car is effectively zero for all practical purposes, its wave-like behavior cannot be detected.
+
+*   (A) is incorrect because while the wavelength *is* dependent on mass, this is a property, not the reason why it is "not obvious."
+*   (B) is incorrect because the wavelength is actually the opposite—it is incredibly small.
+*   (C) is incorrect because the formula allows us to calculate it easily.
+
+### QUESTION_TYPE
+Multiple choice

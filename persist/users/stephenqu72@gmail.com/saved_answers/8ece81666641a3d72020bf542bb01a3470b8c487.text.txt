@@ -1,0 +1,29 @@
+To answer a 9-mark question like this, you need to structure your response around a specific investigation (e.g., investigating the relationship between the period of a pendulum and its length).
+
+### How to solve this:
+1.  **Identify the Investigation:** Choose an experiment where variables are clearly defined (e.g., Pendulum motion, Snell's Law, or Hooke's Law).
+2.  **Define Variables:** Explicitly state the Independent Variable (IV), Dependent Variable (DV), and Controlled Variables.
+3.  **Justification:** Explain *why* controlling specific variables is necessary to maintain **validity** (i.e., ensuring the test is "fair" and only measuring what you intend to measure).
+4.  **Evaluation:** Critically analyze how well you controlled these variables. Discuss limitations and how they impacted the **reliability** (consistency/repeatability) of your data.
+
+---
+
+### Example Response (Pendulum Investigation)
+
+**Investigation:** Determining the relationship between the period ($T$) of a simple pendulum and its length ($L$).
+
+**1. Identification of Variables:**
+*   **Independent Variable:** Length of the string ($L$), measured in meters ($m$).
+*   **Dependent Variable:** Time taken for 10 oscillations, used to calculate the period ($T = t/10$) in seconds ($s$).
+*   **Controlled Variables:** Mass of the bob, angle of release (amplitude), and the environment (preventing air currents).
+
+**2. Justification of Variables and Controls:**
+To ensure a **valid method**, I ensured that only the length was changed while keeping the mass of the bob and the amplitude of oscillation constant. If the mass were allowed to vary, it might introduce error due to air resistance differences. By limiting the release angle to $< 10^\circ$, I ensured the motion remained in the Simple Harmonic Motion (SHM) regime, satisfying the condition $T \approx 2\pi\sqrt{L/g}$. Controlling these factors ensures that any observed change in $T$ is exclusively due to changes in $L$, thereby validating the experimental design.
+
+**3. Evaluation for Reliability:**
+The **reliability** of the data was enhanced by conducting multiple trials ($n=3$) for each length and calculating a mean. By using a digital stopwatch and repeating measurements, I reduced the impact of human reaction time. However, a limitation was the parallax error when measuring the string length. To evaluate: while the controls were sufficient to establish a trend, the reliability could have been improved by using a photogate to measure $T$ automatically, eliminating human timing error. This demonstrates that while the method was valid, the precision of the data collection relied heavily on minimizing systematic and random errors through rigorous control and repetition.
+
+---
+
+###QUESTION_TYPE
+Experimental questions

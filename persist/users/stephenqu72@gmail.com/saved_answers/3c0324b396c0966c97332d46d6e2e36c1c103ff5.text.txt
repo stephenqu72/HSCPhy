@@ -1,0 +1,28 @@
+To determine the correct row, we must analyze the final step of the decay series shown in the graph.
+
+### 1. Identifying the Process $R$
+Look at the segment of the graph representing process $R$. This segment moves from an atomic number of $91$ and $142$ neutrons down to an atomic number of $90$ and $140$ neutrons.
+*   **Change in Atomic Number ($Z$):** $91 \rightarrow 90$. This is a decrease of $2$.
+*   **Change in Neutron Number ($N$):** $142 \rightarrow 140$. This is a decrease of $2$.
+
+When an isotope emits an $\alpha$ particle (a helium nucleus, $_2^4\text{He}$), the atomic number decreases by $2$ and the mass number ($A = Z + N$) decreases by $4$. Since both $Z$ and $N$ decreased by $2$, the total mass number decreased by $4$. This confirms that process $R$ is **$\alpha$ decay**.
+
+### 2. Identifying Product $Q$
+The point $Q$ corresponds to the coordinates:
+*   **Atomic Number ($Z$):** $90$
+*   **Neutron Number ($N$):** $140$
+
+The mass number $A$ is the sum of protons and neutrons:
+$$A = Z + N = 90 + 140 = 230$$
+
+In the periodic table, the element with atomic number $90$ is Thorium (Th). Therefore, the isotope is **Th-230**.
+
+### Conclusion
+Comparing our findings to the table:
+*   Process $R$ is $\alpha$.
+*   Product $Q$ is Th-230.
+
+This corresponds to row **C**.
+
+###QUESTION_TYPE
+Multiple choice

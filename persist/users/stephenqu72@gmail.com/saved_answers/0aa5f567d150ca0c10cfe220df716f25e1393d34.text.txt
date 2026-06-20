@@ -1,0 +1,28 @@
+To determine the correct answer, we must analyze the nuclear reaction provided:
+
+$${}_{83}^{209}\text{Bi} + {}_{24}^{54}\text{Cr} \rightarrow {}_{107}^{262}\text{Bh} + {}_{0}^{1}\text{n}$$
+
+### 1. Identify the type of nuclear reaction
+*   **Fission** involves splitting a heavy nucleus into lighter nuclei.
+*   **Fusion** involves combining two lighter nuclei to form a heavier nucleus.
+Looking at the reaction, we have two smaller nuclei (Bismuth and Chromium) combining to form a much larger nucleus (Bohrium). Therefore, this is a **fusion** reaction.
+
+### 2. Determine the energetics
+We use the "Binding Energy per Nucleon" graph to evaluate if energy is released or absorbed:
+*   Energy is **released** in a nuclear reaction if the products have a higher average binding energy per nucleon than the reactants (moving "up" the curve toward the peak, typically around Iron-56).
+*   Energy is **absorbed** if the product has a lower average binding energy per nucleon than the reactants (moving "down" the curve).
+
+In this reaction, the mass numbers are:
+*   Reactants: $209$ and $54$ (both are relatively large, moving toward the right side of the peak).
+*   Product: $262$ (even further to the right of the peak).
+
+As you move to the right of the peak on the Binding Energy per Nucleon curve, the binding energy per nucleon **decreases**. Because the product ($A=262$) has a lower binding energy per nucleon than the reactants ($A=209$ and $A=54$), the system becomes less stable. To force these two heavy nuclei to combine into an even heavier, less stable nucleus, energy must be **absorbed** (or put into the system) to overcome the electrostatic repulsion and the unfavorable energetics.
+
+Therefore, the reaction is **fusion** and energy is **absorbed**. This corresponds to option **D**.
+
+### Summary of logic:
+1.  **Reaction type:** Two light/medium nuclei combining = Fusion.
+2.  **Energetics:** Since we are moving into the region of high mass numbers where binding energy per nucleon decreases, the product is less stable than the reactants, meaning the reaction is endothermic (energy is absorbed).
+
+###QUESTION_TYPE
+Multiple choice

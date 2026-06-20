@@ -1,0 +1,38 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, $E = mc^2$.
+
+### Part (a)
+**Objective:** Calculate the mass ($m$) converted to energy per second.
+1. **Identify the constants:**
+   - Power (energy per second) $E = 3.86 \times 10^{26} \text{ J}$
+   - Speed of light $c = 3.00 \times 10^8 \text{ m/s}$
+2. **Rearrange the formula:** 
+   $$m = \frac{E}{c^2}$$
+3. **Calculation:**
+   $$m = \frac{3.86 \times 10^{26}}{(3.00 \times 10^8)^2}$$
+   $$m = \frac{3.86 \times 10^{26}}{9.00 \times 10^{16}}$$
+   $$m \approx 4.29 \times 10^9 \text{ kg}$$
+
+**Answer (a):** Approximately $4.29 \times 10^9 \text{ kg}$ of matter is converted into energy each second.
+
+---
+
+### Part (b)
+**Objective:** Determine the number of helium-4 ($He$-$4$) nuclei produced per second.
+
+*Note for students:* In the proton-proton chain reaction, mass is lost during the fusion of hydrogen into helium. Specifically, the conversion of $4 \text{ protons}$ into $1 \text{ helium nucleus}$ releases approximately $4.27 \times 10^{-12} \text{ J}$ of energy (or a mass defect of $\approx 0.0475 \text{ u}$). 
+
+1. **Energy released per $He$-$4$ nucleus:**
+   The mass defect ($\Delta m$) for one $He$-$4$ nucleus produced from 4 protons ($4 \times 1.6726 \times 10^{-27} \text{ kg} \approx 6.6904 \times 10^{-27} \text{ kg}$) is:
+   $$\Delta m = (4 \times \text{mass of proton}) - \text{mass of } He\text{-}4$$
+   $$\Delta m = (6.6904 \times 10^{-27} \text{ kg}) - (6.648 \times 10^{-27} \text{ kg}) = 4.24 \times 10^{-29} \text{ kg}$$
+   Energy released per fusion event: $E_{fusion} = \Delta m c^2$
+   $$E_{fusion} = (4.24 \times 10^{-29}) \times (3.00 \times 10^8)^2 \approx 3.816 \times 10^{-12} \text{ J}$$
+
+2. **Number of nuclei:**
+   $$\text{Number} = \frac{\text{Total Energy per second}}{\text{Energy per fusion}}$$
+   $$\text{Number} = \frac{3.86 \times 10^{26}}{3.816 \times 10^{-12}} \approx 1.01 \times 10^{38} \text{ nuclei}$$
+
+**Answer (b):** Approximately $1.01 \times 10^{38}$ helium-4 nuclei are produced per second.
+
+###QUESTION_TYPE
+Calculation question

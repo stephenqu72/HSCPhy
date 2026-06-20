@@ -1,0 +1,27 @@
+To solve this problem, we need to understand how alpha and beta-minus decay affect the number of protons and neutrons in a nucleus.
+
+### Physics Analysis
+The diagram provided is a Segrè plot (or N-Z plot), where the x-axis represents the number of protons ($Z$) and the y-axis represents the number of neutrons ($N$).
+
+1.  **Alpha ($\alpha$) decay:** An alpha particle consists of 2 protons and 2 neutrons. Therefore, when a nucleus undergoes alpha decay:
+    *   The number of protons ($Z$) decreases by 2.
+    *   The number of neutrons ($N$) decreases by 2.
+    *   On the graph, this corresponds to an arrow moving 2 units left and 2 units down. Starting from Actinium ($Z=89$, $N=138$), this points to coordinates ($87, 136$), which is the tip of arrow **W**.
+
+2.  **Beta-minus ($\beta^-$) decay:** In this process, a neutron in the nucleus is converted into a proton, emitting an electron and an antineutrino.
+    *   The number of protons ($Z$) increases by 1.
+    *   The number of neutrons ($N$) decreases by 1.
+    *   On the graph, this corresponds to an arrow moving 1 unit right and 1 unit down. Starting from Actinium ($Z=89$, $N=138$), this points to coordinates ($90, 137$), which is the tip of arrow **Y**.
+
+### Conclusion
+Alpha decay corresponds to arrow **W** and beta-minus decay corresponds to arrow **Y**. Matching this to the given options, we select **(A)**.
+
+### How to solve:
+1.  **Identify the starting point:** Locate Actinium-227 on the graph, which is at ($Z=89, N=138$).
+2.  **Apply the decay rules:**
+    *   $\alpha$ decay: $\Delta Z = -2, \Delta N = -2$. Destination: ($87, 136$).
+    *   $\beta^-$ decay: $\Delta Z = +1, \Delta N = -1$. Destination: ($90, 137$).
+3.  **Check the graph:** Identify the arrows that point to these specific coordinates. Arrow **W** ends at ($87, 136$) and arrow **Y** ends at ($90, 137$).
+
+###QUESTION_TYPE
+Multiple choice

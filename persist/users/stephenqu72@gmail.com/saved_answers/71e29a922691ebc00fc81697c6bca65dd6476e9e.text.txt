@@ -1,0 +1,34 @@
+To find the kinetic energy of an electron given its de Broglie wavelength, we follow these steps:
+
+### 1. Identify the relevant formulas
+The de Broglie wavelength $\lambda$ is related to the momentum $p$ of the particle by:
+$$\lambda = \frac{h}{p} \implies p = \frac{h}{\lambda}$$
+where $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J s}$).
+
+The kinetic energy $E_k$ is related to momentum by:
+$$E_k = \frac{p^2}{2m_e}$$
+where $m_e$ is the mass of an electron ($9.109 \times 10^{-31} \text{ kg}$).
+
+### 2. Substitute and calculate
+First, convert the wavelength to meters: $\lambda = 0.5 \text{ nm} = 0.5 \times 10^{-9} \text{ m}$.
+
+Now, substitute $p = \frac{h}{\lambda}$ into the kinetic energy equation:
+$$E_k = \frac{(h/\lambda)^2}{2m_e} = \frac{h^2}{2m_e \lambda^2}$$
+
+Plugging in the values:
+$$E_k = \frac{(6.626 \times 10^{-34})^2}{2 \times (9.109 \times 10^{-31}) \times (0.5 \times 10^{-9})^2}$$
+$$E_k = \frac{4.39 \times 10^{-67}}{4.55 \times 10^{-49}}$$
+$$E_k \approx 9.65 \times 10^{-19} \text{ J}$$
+
+### 3. Convert Joules to electronvolts (eV)
+Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$:
+$$E_k (\text{in eV}) = \frac{9.65 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 6.02 \text{ eV}$$
+
+Rounding to the nearest whole number, we get $6 \text{ eV}$.
+
+**Correct Option: C**
+
+---
+
+###QUESTION_TYPE
+Multiple choice

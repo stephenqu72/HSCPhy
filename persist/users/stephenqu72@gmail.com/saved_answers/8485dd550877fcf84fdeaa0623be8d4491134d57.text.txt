@@ -1,0 +1,28 @@
+### Teacher's Explanation
+
+To achieve full marks on this 9-mark HSC physics question, you must demonstrate a deep understanding of how experimental evidence led to the paradigm shift from classical physics to quantum theory. The question requires three distinct components: evidence from Figure I (Atomic Spectra), Figure II (Thomson’s $e/m$ experiment), and an "other" experiment (Photoelectric Effect).
+
+#### 1. Analysis of Figure I: The Hydrogen Spectrum
+Figure I shows the emission spectra of hydrogen. Classically, an electron orbiting a nucleus should emit continuous radiation and spiral into the nucleus. The observation of discrete, quantized wavelengths (lines) indicates that electrons can only occupy specific energy levels. 
+**Calculation:** Using the Balmer series transition from $n=3$ to $n=2$ ($\lambda = 656\text{ nm}$):
+$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34} \text{ J}\cdot\text{s})(3.00 \times 10^8 \text{ m/s})}{656 \times 10^{-9} \text{ m}} \approx 3.03 \times 10^{-19} \text{ J}$$
+This discrete energy change supports Bohr's model of quantized energy states.
+
+#### 2. Analysis of Figure II: Thomson’s $e/m$ Experiment
+Figure II represents the determination of the charge-to-mass ratio of the electron using crossed electric and magnetic fields. In this balanced state, the magnetic force equals the electric force ($qvB = qE$):
+$$v = \frac{E}{B} = \frac{V/d}{B} = \frac{6600 \text{ V} / 0.05 \text{ m}}{1 \text{ T}} = 1.32 \times 10^5 \text{ m/s}$$
+Then, using the kinetic energy acquired from the accelerating voltage ($qV = \frac{1}{2}mv^2$):
+$$\frac{q}{m} = \frac{2V}{v^2} = \frac{2(0.050 \text{ V})}{(1.32 \times 10^5 \text{ m/s})^2} \approx 5.73 \times 10^{-9} \text{ C/kg}$$
+*(Note: Thomson's experiment demonstrated that cathode rays were particles (electrons), a fundamental building block of matter, which eventually led to the development of quantum models).*
+
+#### 3. The "Other" Experiment: Photoelectric Effect
+You must discuss Einstein’s explanation of the Photoelectric Effect. Classically, the intensity of light should determine the kinetic energy of emitted electrons. Experimentally, however, the frequency (energy) of light is the governing factor. This provided the first definitive proof that light itself is quantized into packets called "photons" ($E = hf$), where energy is proportional to frequency, not intensity.
+
+---
+
+### Answer Strategy Summary
+*   **Synthesis:** Connect these experiments to the concept that energy is not continuous (as classical physics assumed) but quantized.
+*   **The "Why":** Explain that the stability of atoms (Figure I), the corpuscular nature of matter (Figure II), and the quantized nature of electromagnetic radiation (Photoelectric Effect) forced the abandonment of classical mechanics in favor of Quantum Mechanics.
+
+###QUESTION_TYPE
+Essay

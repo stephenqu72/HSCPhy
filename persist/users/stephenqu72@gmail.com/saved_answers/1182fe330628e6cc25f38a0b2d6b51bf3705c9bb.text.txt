@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this problem, we must apply Heisenberg’s uncertainty principle, which states that it is impossible to simultaneously know the exact position and momentum of a particle. Mathematically, for any dimension (such as the $y$-axis), this is expressed as:
+$$\Delta y \cdot \Delta p_y \ge \frac{h}{4\pi}$$
+where:
+*   $\Delta y$ is the uncertainty in the position of the particle.
+*   $\Delta p_y$ is the uncertainty in the momentum of the particle in the same direction.
+
+**Step-by-step reasoning:**
+1.  **Analyze the slit:** When the electrons pass through the narrow vertical slit, their position in the $y$-direction becomes localized (restricted) to the width of the slit. This reduction in the spatial range means the uncertainty in their $y$-position, $\Delta y$, decreases.
+2.  **Apply the principle:** According to the uncertainty principle, if $\Delta y$ becomes small, the uncertainty in the corresponding momentum, $\Delta p_y$, must increase to satisfy the inequality.
+3.  **Relate to diffraction:** The increase in $\Delta p_y$ means that the electrons acquire a range of momentum components in the $y$-direction. This is physically manifested as the electrons spreading out (diffracting) on the screen rather than continuing in a straight line along the $x$-axis.
+4.  **Evaluate the options:** 
+    *   The slit physically constrains the $y$-position, which dictates the spread of the momentum in the $y$-direction. Therefore, the uncertainty in $y$-position directly affects the uncertainty in $y$-momentum. This matches option **D**.
+
+###QUESTION_TYPE
+Multiple choice

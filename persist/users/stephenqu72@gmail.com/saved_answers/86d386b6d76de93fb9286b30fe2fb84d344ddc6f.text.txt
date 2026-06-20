@@ -1,0 +1,26 @@
+To answer this question for full marks in an HSC Physics exam, you need to connect the concepts of spectroscopy, the Doppler effect, and stellar motion.
+
+### Answer
+A star’s translational velocity (specifically its radial velocity) is deduced by observing the shift in its spectral lines compared to a stationary laboratory reference. 
+
+1.  **Absorption Spectra:** Astronomers analyze the light from a star using a spectroscope to produce an absorption spectrum. This spectrum contains specific dark lines (Fraunhofer lines) that correspond to the known electronic transitions of elements like hydrogen or helium within the star's atmosphere.
+2.  **The Doppler Effect:** If a star is moving relative to Earth, the observed wavelengths of these spectral lines will shift. 
+    *   If the star is moving away from Earth, the wavelengths stretch, resulting in a **redshift** (a shift toward the longer-wavelength end of the spectrum).
+    *   If the star is moving toward Earth, the wavelengths compress, resulting in a **blueshift** (a shift toward the shorter-wavelength end).
+3.  **Calculation:** The degree of this shift, denoted as $\Delta\lambda$, is proportional to the radial velocity $v$. Using the Doppler formula:
+    $$\frac{\Delta\lambda}{\lambda_0} = \frac{v}{c}$$
+    where $\lambda_0$ is the known rest wavelength of the spectral line, $v$ is the radial velocity, and $c$ is the speed of light. By measuring $\Delta\lambda$, the velocity $v$ can be determined.
+
+---
+
+### How to solve this
+1.  **Identify the Key Concept:** The moment you see "translational velocity" of a star, immediately link it to the **Doppler Effect** and **Spectroscopy**.
+2.  **Structure your argument:**
+    *   **Method:** Mention taking a spectrum of the star.
+    *   **Comparison:** Mention comparing it to a stationary "laboratory" spectrum (to show you know where the lines *should* be).
+    *   **Mechanism:** Explain the change in wavelength (redshift/blueshift) based on the direction of motion.
+    *   **Mathematical relation:** Explicitly mention the relationship between the shift and the velocity (the Doppler formula).
+3.  **Keywords:** Ensure you use specific scientific terminology like "spectral lines," "Doppler shift," "redshift/blueshift," and "radial velocity."
+
+###QUESTION_TYPE
+Short answer

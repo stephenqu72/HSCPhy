@@ -1,0 +1,19 @@
+To solve this question, we must understand Bohr's model of the hydrogen atom and how it relates to spectral series.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+1.  **The Balmer Series:** This series corresponds to electron transitions from higher energy levels ($n > 2$) down to the second energy level ($n = 2$).
+2.  **Wavelength and Energy:** The energy of a photon emitted during a transition is given by $\Delta E = E_f - E_i = \frac{hc}{\lambda}$. Since $\lambda = \frac{hc}{\Delta E}$, the **minimum wavelength** occurs when the energy transition ($\Delta E$) is at its **maximum**.
+3.  **The Limit:** To achieve the maximum possible energy transition, the electron must fall from the highest possible energy state ($n = \infty$) down to the target level ($n = 2$).
+4.  **Why (B) is the answer:** Bohr’s model postulates that an electron can exist in an infinite number of discrete energy levels ($n = 1, 2, 3, \dots, \infty$). The "series limit" (minimum wavelength) exists specifically because there is an infinite number of levels, meaning we can mathematically define the transition from $n = \infty$ to $n = 2$.
+5.  **Evaluating the other options:** 
+    *   (A) describes a single transition, not the limit.
+    *   (C) describes why the lines get closer together (converge), but not why the limit itself exists as a minimum wavelength.
+    *   (D) is incorrect because the principal quantum number $n$ can be any integer up to infinity.
+
+By recognizing that the series limit is defined by the transition from the highest possible orbital ($n = \infty$), we confirm that the existence of infinite orbitals is the fundamental requirement for explaining this limit.
+
+###QUESTION_TYPE
+Multiple choice

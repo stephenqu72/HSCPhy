@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+To solve this problem, we must apply the principles of mass-energy equivalence. In nuclear fusion, the "mass defect" ($\Delta m$) is the difference between the mass of the reactants and the mass of the products. Any "missing" mass is converted into energy according to Einstein’s equation, $E = \Delta m c^2$.
+
+**Constants provided/required:**
+*   $1 \text{ u} = 931.5 \text{ MeV}/c^2$
+*   $1 \text{ u} = 1.66 \times 10^{-27} \text{ kg}$
+*   $c = 3.00 \times 10^8 \text{ m/s}$
+
+#### (a) Calculate the mass defect in MeV
+
+1.  **Identify reactants and products:**
+    Reactants: $^{12}\text{C}$ and $^{1}\text{H}$
+    Products: $^{13}\text{N}$ and $\gamma$ (gamma ray, which has zero mass).
+2.  **Calculate mass of reactants:**
+    $m_{\text{reactants}} = 12.000 \text{ u} + 1.0078 \text{ u} = 13.0078 \text{ u}$
+3.  **Calculate mass defect ($\Delta m$):**
+    $\Delta m = m_{\text{reactants}} - m_{\text{products}}$
+    $\Delta m = 13.0078 \text{ u} - 13.057 \text{ u} = -0.0492 \text{ u}$
+    *(Note: In many physics contexts, "mass defect" refers to the magnitude of the difference. Here, the negative value indicates energy is absorbed or the specific nuclear reaction pathway requires energy/is endothermic based on these provided values, though typically CNO cycle reactions are exothermic. Strictly following the provided numbers:)*
+    Mass defect magnitude $= 0.0492 \text{ u}$
+4.  **Convert to MeV:**
+    $E (\text{MeV}) = 0.0492 \text{ u} \times 931.5 \text{ MeV/u} \approx 45.83 \text{ MeV}$
+
+#### (b) Calculate the energy released in Joules
+
+Using the energy calculated in part (a), we convert MeV to Joules ($1 \text{ MeV} = 1.602 \times 10^{-13} \text{ J}$):
+
+$E = 45.83 \text{ MeV} \times 1.602 \times 10^{-13} \text{ J/MeV}$
+$E \approx 7.34 \times 10^{-12} \text{ J}$
+
+***
+
+###QUESTION_TYPE
+Calculation question

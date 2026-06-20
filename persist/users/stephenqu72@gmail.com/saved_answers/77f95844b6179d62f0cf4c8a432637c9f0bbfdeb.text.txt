@@ -1,0 +1,30 @@
+To solve this problem, we use the de Broglie wavelength formula, which relates the wavelength ($\lambda$) of a particle to its momentum ($p$):
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+Where:
+*   $\lambda$ is the de Broglie wavelength (given as $1\text{ mm} = 1 \times 10^{-3}\text{ m}$)
+*   $h$ is Planck’s constant ($6.626 \times 10^{-34}\text{ J s}$)
+*   $m$ is the mass of an electron ($9.109 \times 10^{-31}\text{ kg}$)
+*   $v$ is the velocity of the electron
+
+### Step-by-step Solution:
+
+1.  **Rearrange the formula** to solve for velocity ($v$):
+    $$v = \frac{h}{m\lambda}$$
+
+2.  **Substitute the known values** into the equation:
+    $$v = \frac{6.626 \times 10^{-34}\text{ J s}}{(9.109 \times 10^{-31}\text{ kg}) \times (1 \times 10^{-3}\text{ m})}$$
+
+3.  **Perform the calculation**:
+    $$v = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-34}}$$
+    $$v \approx 0.7274\text{ m s}^{-1}$$
+
+Rounding to two significant figures, we get $0.73\text{ m s}^{-1}$.
+
+Comparing this to the provided options, the correct answer is **B**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

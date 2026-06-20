@@ -1,0 +1,16 @@
+To solve this question, we must understand the results of the famous Rutherford gold foil experiment.
+
+### Explanation
+1.  **Physics Principle:** In the Rutherford scattering experiment, a beam of alpha particles is fired at a very thin gold foil. The results showed that the vast majority of alpha particles pass straight through the foil with very little deflection (at $\theta \approx 0^\circ$).
+2.  **Scattering Pattern:** Because the positive charge and mass of the atom are concentrated in a tiny, dense nucleus, only a very small fraction of alpha particles experience strong electrostatic repulsion.
+3.  **Graph Analysis:**
+    *   As $\theta$ increases from $0^\circ$, the number of particles detected ($n$) drops off extremely rapidly.
+    *   This results in a sharp "spike" or high peak at $0^\circ$, which tails off significantly as the scattering angle increases towards $170^\circ$.
+4.  **Evaluating Options:**
+    *   **Graph (B)** correctly shows this exponential-like decay where the count is highest at $0^\circ$ and decreases rapidly as the angle increases, which is consistent with the Rutherford scattering formula $n(\theta) \propto \frac{1}{\sin^4(\theta/2)}$.
+
+### Answer
+The correct graph is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

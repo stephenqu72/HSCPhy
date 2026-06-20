@@ -1,0 +1,33 @@
+To solve this physics problem, we need to apply the principles of the Bohr model and the relationship between photon energy and wavelength.
+
+### Part a)
+**Solution:**
+1. Calculate the energy of a photon with a wavelength of $340\text{ nm}$ using the formula $E = \frac{hc}{\lambda}$.
+   Using $hc \approx 1240\text{ eV}\cdot\text{nm}$:
+   $$E = \frac{1240\text{ eV}\cdot\text{nm}}{340\text{ nm}} \approx 3.65\text{ eV}$$
+2. Compare this to the energy level transitions from the ground state ($n=1$):
+   - To excite to $n=2$: $\Delta E = 1.91 - 0 = 1.91\text{ eV}$
+   - To excite to $n=3$: $\Delta E = 3.37 - 0 = 3.37\text{ eV}$
+   - To excite to $n=4$: $\Delta E = 3.82 - 0 = 3.82\text{ eV}$
+3. **Explanation:** Since $3.37\text{ eV} < 3.65\text{ eV} < 3.82\text{ eV}$, a photon of $3.65\text{ eV}$ does not match any of the discrete energy gaps required to excite an electron from the ground state. Because absorption only occurs when the photon energy exactly matches the difference between energy levels, this light source cannot excite the electrons.
+
+### Part b)
+**Solution:**
+In absorption spectroscopy, electrons start from the ground state ($n=1$) and absorb photons to jump to higher energy levels. The possible transitions from $n=1$ are:
+- $n=1 \rightarrow n=2$ ($\Delta E = 1.91\text{ eV}$)
+- $n=1 \rightarrow n=3$ ($\Delta E = 3.37\text{ eV}$)
+- $n=1 \rightarrow n=4$ ($\Delta E = 3.82\text{ eV}$)
+- $n=1 \rightarrow n=5$ ($\Delta E = 3.89\text{ eV}$)
+
+Since the light source provides energies up to $3.89\text{ eV}$, all these transitions are possible.
+**Result:** There are $4$ possible transitions, so the detector will observe $4$ lines in the absorption spectrum.
+
+***
+
+### Explanation of Methodology
+1. **Energy-Wavelength relationship:** Always use $E = \frac{hc}{\lambda}$. In HSC physics, using $hc \approx 1240\text{ eV}\cdot\text{nm}$ is the standard shortcut to convert between wavelength and electron-volts quickly.
+2. **Absorption vs. Emission:** Remember that absorption spectroscopy specifically looks for transitions *upwards* from the ground state. Emission spectroscopy looks for transitions *downwards* between any levels.
+3. **Discrete Levels:** Electrons only absorb photons if the energy is exactly equal to the difference between two allowed energy levels ($\Delta E = E_f - E_i$).
+
+###QUESTION_TYPE
+Calculation question

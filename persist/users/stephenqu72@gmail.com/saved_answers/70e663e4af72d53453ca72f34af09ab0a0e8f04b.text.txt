@@ -1,0 +1,33 @@
+To find the wavelength of the second photon emitted, we need to trace the transitions of the electron as it relaxes from the $n=4$ state back to the $n=1$ (ground) state.
+
+### Step-by-Step Explanation:
+
+**1. Identify the transitions:**
+The problem states the atom relaxes through "each successive orbital." This means the transitions occur as follows:
+*   First transition: $n=4 \rightarrow n=3$
+*   Second transition: $n=3 \rightarrow n=2$
+*   Third transition: $n=2 \rightarrow n=1$
+
+We are looking for the wavelength of the **second photon**, which corresponds to the transition from $n=3$ to $n=2$.
+
+**2. Use the Rydberg formula:**
+To find the wavelength ($\lambda$) of a photon emitted during a transition between energy levels $n_i$ (initial) and $n_f$ (final), we use:
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+Where:
+*   $R_H \approx 1.097 \times 10^7 \, \text{m}^{-1}$
+*   $n_i = 3$
+*   $n_f = 2$
+
+**3. Perform the calculation:**
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{2^2} - \frac{1}{3^2} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{4} - \frac{1}{9} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{9-4}{36} \right) = 1.097 \times 10^7 \left( \frac{5}{36} \right)$$
+$$\frac{1}{\lambda} \approx 1,523,611 \, \text{m}^{-1}$$
+$$\lambda \approx 6.563 \times 10^{-7} \, \text{m} = 656 \, \text{nm}$$
+
+This transition corresponds to the $H-\alpha$ line of the Balmer series, which is well-known to be approximately $656 \, \text{nm}$.
+
+Comparing this to the given options, the correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

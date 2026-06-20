@@ -1,0 +1,21 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this, we must apply Heisenberg’s Uncertainty Principle, which states that it is impossible to simultaneously know the exact position ($x$) and the exact momentum ($p$) of a particle with absolute precision. The mathematical expression is:
+$$\Delta x \Delta p \ge \frac{h}{4\pi}$$
+
+In a single-slit diffraction experiment:
+1. When an electron passes through a slit of width $\Delta x$, our uncertainty in its position in the direction parallel to the slit is restricted to the size of that slit ($\Delta x$).
+2. According to the uncertainty principle, by "pinning down" the electron's position to a smaller $\Delta x$ (the width of the slit), the uncertainty in its momentum ($\Delta p$) in that direction must increase.
+3. This increase in momentum uncertainty manifests as the electron spreading out (diffracting) rather than traveling in a perfectly straight line, creating the diffraction pattern.
+
+**Why the other options are incorrect:**
+* **A:** The uncertainty principle explains the diffraction pattern; it does not dictate what size slit an experimenter must use.
+* **B:** Quantum mechanics explicitly rejects the idea that a particle's position is perfectly predictable post-slit; that is a deterministic (classical) view.
+* **D:** This directly contradicts the Uncertainty Principle, which states that knowing the momentum with high precision makes the position *less* certain, not more.
+
+Option **C** correctly identifies that the constraint imposed by the slit limits our knowledge of the electron's position to a specific range (the slit width), which directly forces an uncertainty in its transverse momentum, leading to diffraction.
+
+###QUESTION_TYPE
+Multiple choice

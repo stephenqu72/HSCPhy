@@ -1,0 +1,33 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** Particle accelerators (such as the Large Hadron Collider) accelerate subatomic particles to near-light speeds and collide them. According to $E=mc^2$, this kinetic energy is converted into mass, allowing for the creation of heavy, short-lived particles that are otherwise not observed. A prime example is the discovery of the **Higgs Boson** in 2012. By analyzing the decay products of high-energy collisions, scientists confirmed the existence of the Higgs field, which provides mass to other fundamental particles, a crucial pillar of the Standard Model.
+
+**How to solve:** To earn full marks, you must link the *process* (accelerating/colliding particles) to the *principle* ($E=mc^2$ or high-energy interactions) and provide a specific *evidence* (e.g., discovery of the Higgs Boson or Top Quark).
+
+---
+
+#### Part (b)(i)
+**Calculation:**
+Given:
+- Mass of a proton $m = 1.673 \times 10^{-27}\text{ kg}$
+- Velocity $v = 0.1c = 0.1 \times (3 \times 10^8) = 3 \times 10^7\text{ m/s}$
+- Planck's constant $h = 6.626 \times 10^{-34}\text{ J s}$
+
+Using the de Broglie wavelength formula $\lambda = \frac{h}{mv}$:
+$$\lambda = \frac{6.626 \times 10^{-34}}{(1.673 \times 10^{-27}) \times (3 \times 10^7)}$$
+$$\lambda \approx 1.32 \times 10^{-14}\text{ m}$$
+
+**How to solve:** Use the de Broglie equation. Since $0.1c$ is relatively low, relativistic mass correction is often neglected unless specified, but using the base formula is sufficient for this level.
+
+---
+
+#### Part (b)(ii)
+**Explanation:** As velocity approaches $c$, the relativistic momentum $p = \gamma mv$ increases significantly because the Lorentz factor $\gamma = \frac{1}{\sqrt{1 - (v^2/c^2)}}$ becomes much greater than 1. According to the de Broglie relation $\lambda = \frac{h}{p}$, as the momentum ($p$) of the proton increases due to relativistic effects, the wavelength ($\lambda$) becomes significantly shorter compared to the non-relativistic prediction.
+
+**How to solve:** You must explicitly mention the increase in relativistic momentum and its inverse relationship to wavelength.
+
+---
+
+### QUESTION_TYPE
+Calculation question

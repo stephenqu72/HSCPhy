@@ -1,0 +1,18 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this question, we must understand the definition of the electron-volt ($eV$) and why it is used in particle and quantum physics.
+
+1.  **Definition:** The electron-volt is defined as the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of $1\text{ volt}$.
+2.  **Mathematical Relationship:** Since the work done on a charge is $W = qV$, and the elementary charge $e \approx 1.602 \times 10^{-19}\text{ C}$, one electron-volt is:
+    $$1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$$
+3.  **Why it is used:** In the subatomic world, energy values are incredibly small when expressed in the standard SI unit of Joules (e.g., the energy of a photon or the kinetic energy of an electron is often on the order of $10^{-19}\text{ J}$). Dealing with such small numbers consistently leads to rounding errors and cumbersome notation. By using the electron-volt, we work with manageable numbers (e.g., $5\text{ eV}$ instead of $8.01 \times 10^{-19}\text{ J}$), making it a **convenient unit for quantities of energy that are extremely small**.
+
+**Why the other options are incorrect:**
+*   **(B):** The electron-volt measures energy, not the potential difference itself. Potential difference is measured in Volts ($V$).
+*   **(C):** This is a distractor; there is no such concept as an "amount of electrons in $1\text{ V}$."
+*   **(D):** It is used for *extremely small* values, not large ones. Large values of energy are typically still expressed in Joules (or kilojoules/megajoules).
+
+### QUESTION_TYPE
+Multiple choice

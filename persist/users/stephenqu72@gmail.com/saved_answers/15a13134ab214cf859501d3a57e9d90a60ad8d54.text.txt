@@ -1,0 +1,35 @@
+As your HSC Physics teacher, I will guide you through this typical nuclear physics problem.
+
+### Part (a): Calculation of Energy Released
+
+To solve this, we must determine the mass defect ($\Delta m$) of the reaction.
+
+**1. Calculate the mass of the reactants:**
+$$\text{Mass}_{\text{reactants}} = \text{mass}({}^{235}_{92}U) + \text{mass}({}^1_0n)$$
+$$\text{Mass}_{\text{reactants}} = 235.0439299 + 1.00867 = 236.0525999 \, u$$
+
+**2. Calculate the mass of the products:**
+$$\text{Mass}_{\text{products}} = \text{mass}({}^{141}_{56}Ba) + \text{mass}({}^{92}_{26}Kr) + 3 \times \text{mass}({}^1_0n)$$
+*(Note: Please ensure you use the mass values provided in the table. Note that the table lists ${}^{141}Ba$ as 91.92617 and ${}^{92}Kr$ as 140.9144—though these values in the provided image appear swapped compared to standard physics tables, we must use the numbers provided in the image.)*
+
+$$\text{Mass}_{\text{products}} = 91.92617 + 140.9144 + 3(1.00867) = 235.86658 \, u$$
+
+**3. Calculate the mass defect ($\Delta m$):**
+$$\Delta m = \text{Mass}_{\text{reactants}} - \text{Mass}_{\text{products}}$$
+$$\Delta m = 236.0525999 - 235.86658 = 0.1860199 \, u$$
+
+**4. Convert to Energy:**
+Using the conversion factor $1 \, u \approx 931.5 \, \text{MeV}$:
+$$E = 0.1860199 \times 931.5 \approx 173.27 \, \text{MeV}$$
+
+---
+
+### Part (b): Controlled vs Uncontrolled Chain Reactions
+
+To answer this, focus on the neutron economy and the role of the 3 neutrons produced in the reaction shown.
+
+*   **Controlled Chain Reaction:** This occurs in a nuclear reactor. The reaction is regulated by control rods (e.g., boron or cadmium) that absorb excess neutrons. By ensuring that, on average, exactly one neutron from each fission event goes on to induce another fission, the energy release is kept constant and stable, allowing for steady power production.
+*   **Uncontrolled Chain Reaction:** This occurs in a nuclear weapon. There is no moderation of the neutron flux. All three neutrons produced by the reaction are allowed to strike other U-235 nuclei, leading to an exponential increase in fission events. This causes an instantaneous, massive release of energy.
+
+###QUESTION_TYPE
+Calculation question

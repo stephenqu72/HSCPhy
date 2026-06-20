@@ -1,0 +1,30 @@
+To solve this problem, we must use the fundamental physics definition of radioactive activity.
+
+### Answer
+The correct answer is **(A) $\lambda_B : \lambda_A$**.
+
+### Explanation
+1.  **Understand the definition of Activity ($A$):** The activity of a radioactive sample is defined as the rate at which nuclei decay. It is mathematically given by the formula:
+    $$A = \lambda N$$
+    where:
+    *   $A$ is the activity (decays per second),
+    *   $\lambda$ is the decay constant,
+    *   $N$ is the number of radioactive nuclei present.
+
+2.  **Set up the equation based on the prompt:** The question states that the initial activities of substance $A$ and substance $B$ are equal. Therefore:
+    $$A_A = A_B$$
+    Using the definition above, we substitute the values:
+    $$\lambda_A N_A = \lambda_B N_B$$
+
+3.  **Solve for the ratio $N_A : N_B$:** We want to find the ratio $\frac{N_A}{N_B}$. By rearranging the equation $\lambda_A N_A = \lambda_B N_B$:
+    *   Divide both sides by $N_B$: 
+        $$\lambda_A \frac{N_A}{N_B} = \lambda_B$$
+    *   Divide both sides by $\lambda_A$:
+        $$\frac{N_A}{N_B} = \frac{\lambda_B}{\lambda_A}$$
+
+This means the ratio of $N_A$ to $N_B$ is $\lambda_B : \lambda_A$. 
+
+In the HSC context, this is an "inverse proportionality" relationship. Because the product of the two variables ($\lambda$ and $N$) is constant (the activity), they must be inversely proportional to each other. If substance $A$ has a larger decay constant than substance $B$, it requires fewer nuclei to produce the same level of activity.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,31 @@
+### Answer
+
+**(a)**
+To calculate the wavelength, we use the de Broglie equation:
+$$\lambda = \frac{h}{mv}$$
+
+**Values:**
+- Planck's constant ($h$) = $6.626 \times 10^{-34} \text{ J s}$
+- Mass of an electron ($m$) = $9.109 \times 10^{-31} \text{ kg}$
+- Speed of the electron ($v$) = $2.188 \times 10^6 \text{ m s}^{-1}$
+
+**Calculation:**
+$$\lambda = \frac{6.626 \times 10^{-34}}{(9.109 \times 10^{-31}) \times (2.188 \times 10^6)}$$
+$$\lambda = \frac{6.626 \times 10^{-34}}{1.993 \times 10^{-24}}$$
+$$\lambda \approx 3.32 \times 10^{-10} \text{ m}$$
+
+**(b)**
+Bohr postulated that electrons move in stable orbits but could not provide a physical reason for why only certain orbits were "allowed." De Broglie’s hypothesis that all matter exhibits wave-like properties provided the theoretical justification. 
+
+De Broglie proposed that an electron in a stable orbit behaves as a **standing wave**. For a standing wave to exist around the nucleus without interfering with itself, the circumference of the orbit must be an integer multiple of the electron's wavelength:
+$$2\pi r = n\lambda$$
+Substituting the de Broglie wavelength ($\lambda = \frac{h}{mv}$), we get $2\pi r = \frac{nh}{mv}$, which rearranges to $mvr = \frac{nh}{2\pi}$. This matches Bohr’s condition for **quantized angular momentum**. Thus, electrons are stable because they exist in resonant standing-wave patterns, preventing them from spiraling into the nucleus.
+
+---
+
+### How to solve
+1. **For (a):** Identify that you need the de Broglie wavelength formula. Ensure your units are in SI (kg for mass, m/s for velocity). Use the standard constants for the electron mass and Planck's constant. Perform the division carefully, keeping track of scientific notation exponents.
+2. **For (b):** This is a conceptual link. Focus on the transition from "arbitrary postulation" (Bohr's model) to "physical wave phenomena" (de Broglie's model). You must mention "standing waves," "quantization of angular momentum," and the condition that the circumference must be a multiple of the wavelength ($2\pi r = n\lambda$).
+
+###QUESTION_TYPE
+Calculation question

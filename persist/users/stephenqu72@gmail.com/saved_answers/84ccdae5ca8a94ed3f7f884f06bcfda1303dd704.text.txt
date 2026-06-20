@@ -1,0 +1,31 @@
+To solve this problem, we use the radioactive decay formula:
+
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+
+Where:
+*   $N_0 = 200 \text{ g}$ (initial amount)
+*   $t = 8 \text{ days}$ (time elapsed)
+*   $t_{1/2} = 3.63 \text{ days}$ (half-life)
+*   $N(t)$ is the amount **remaining** after time $t$.
+
+### Step 1: Calculate the amount remaining
+First, calculate the number of half-lives that have passed:
+$$n = \frac{8}{3.63} \approx 2.20386$$
+
+Now, calculate the remaining mass ($N(t)$):
+$$N(t) = 200 \times (0.5)^{2.20386}$$
+$$N(t) = 200 \times 0.21689... \approx 43.378 \text{ g}$$
+
+### Step 2: Calculate the amount decayed
+The question asks for the amount that has **decayed**, which is the initial amount minus the remaining amount:
+$$\text{Decayed} = N_0 - N(t)$$
+$$\text{Decayed} = 200 - 43.378 = 156.622 \text{ g}$$
+
+Rounding to one decimal place, we get $156.6 \text{ g}$.
+
+Comparing this to the given options, the correct answer is **(A)**.
+
+***
+
+###QUESTION_TYPE
+Multiple choice

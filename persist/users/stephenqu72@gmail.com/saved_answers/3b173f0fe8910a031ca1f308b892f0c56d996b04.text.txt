@@ -1,0 +1,47 @@
+Hello! As an HSC Physics teacher, I’m happy to help you break down this multi-part question. This question tests your knowledge of nuclear properties, decay equations, energy calculations, and radioactive dating.
+
+---
+
+### **Solutions**
+
+**a) Complete the table:**
+*   **Alpha ($\alpha$):** High ionising power, Low penetrating power.
+*   **Beta ($\beta$):** Medium ionising power, Medium penetrating power.
+*   **Gamma ($\gamma$):** Low ionising power, High penetrating power.
+
+**b) Explanation:**
+*   **Alpha particles:** Have a $+2$ charge and large mass, meaning they interact strongly with matter, causing many ionisations, which slows them down quickly (low penetration).
+*   **Beta particles:** Are high-speed electrons ($-1$ charge) with much smaller mass than alpha, leading to fewer interactions per unit distance.
+*   **Gamma rays:** Are high-energy electromagnetic waves with no mass or charge. They interact very weakly with matter, allowing them to pass through most materials.
+
+**c) Decay Equation:**
+$${}^{14}_{6}\text{C} \rightarrow {}^{14}_{7}\text{N} + {}^{0}_{-1}\text{e} + \bar{\nu}_e$$
+*(Note: Including the antineutrino $\bar{\nu}_e$ is standard for a "complete" equation.)*
+
+**d) Calculation of Energy:**
+1. Calculate mass defect ($\Delta m$):
+   $$\Delta m = m_{\text{reactants}} - m_{\text{products}}$$
+   $$\Delta m = 14.00421\text{u} - (14.00307\text{u} + 0.00055\text{u}) = 0.00059\text{u}$$
+2. Convert to Energy ($1\text{u} \approx 931.5\text{MeV}$):
+   $$E = 0.00059 \times 931.5 \approx 0.5496\text{MeV}$$
+
+**e) Carbon-14 Dating:**
+Use the formula $N(t) = N_0(1/2)^{t/T_{1/2}}$:
+$$1.45 = 92.8 \times (0.5)^{t/5730}$$
+$$0.015625 = (0.5)^{t/5730}$$
+Since $(0.5)^6 = 0.015625$:
+$$6 = t/5730 \implies t = 34,380\text{ years}$$
+
+---
+
+### **How to solve it**
+
+1.  **For part (a) and (b):** Remember the inverse relationship. High ionisation means the particle interacts with atoms rapidly, losing energy quickly, resulting in low penetration.
+2.  **For part (c):** Always ensure atomic number (bottom) and mass number (top) are balanced on both sides.
+3.  **For part (d):** Mass-energy equivalence is key. Always find the difference between the mass of the initial nucleus and the final products. Use the conversion factor $1\text{u} = 931.5\text{MeV}/c^2$.
+4.  **For part (e):** Identify how many half-lives have passed by looking at the ratio of final mass to initial mass. $1.45 / 92.8 = 1/64$. Since $1/64 = (1/2)^6$, exactly 6 half-lives have occurred. Multiply $6 \times 5730$.
+
+---
+
+###QUESTION_TYPE
+Calculation question

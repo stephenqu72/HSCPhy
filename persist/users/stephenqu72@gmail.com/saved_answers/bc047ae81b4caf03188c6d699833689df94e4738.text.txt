@@ -1,0 +1,39 @@
+To solve this question, we must systematically use the properties of subatomic particles to filter and identify them. We focus on three key criteria: charge (interaction with fields) and relative mass.
+
+### How to solve:
+1.  **Interaction with Electric/Magnetic Fields:** This is the most efficient first step. Charged particles (electrons and protons) are deflected by electric and magnetic fields, while neutral particles (neutrons) are not.
+2.  **Direction of Deflection:** Once identified as charged, we differentiate by the direction of deflection. Electrons ($q = -e$) and protons ($q = +e$) move in opposite directions in an electric field.
+3.  **Mass differentiation:** Use mass as a secondary confirmation. Protons are much more massive than electrons ($m_p \approx 1836 m_e$).
+
+---
+
+### Suggested Flow Chart
+
+**Step 1: Pass particles through an electric field.**
+*   **Result A:** Particle travels straight (no deflection).
+    *   **Conclusion:** **Neutron** (Neutral charge).
+*   **Result B:** Particle is deflected.
+    *   *Proceed to Step 2.*
+
+**Step 2: Determine direction of deflection in the electric field.**
+*   **Deflected towards the negative plate:**
+    *   **Conclusion:** **Proton** (Positive charge). *Mass feature: Large mass ($ \approx 1.67 \times 10^{-27} \text{ kg}$).*
+*   **Deflected towards the positive plate:**
+    *   **Conclusion:** **Electron** (Negative charge). *Mass feature: Very small mass ($ \approx 9.11 \times 10^{-31} \text{ kg}$).*
+
+**Step 3: Confirm with Magnetic Field.**
+*   Apply the Right-Hand Rule (for positive) or Left-Hand Rule (for negative). The force is $F = qvB\sin(\theta)$. Neutrons remain undeflected. Electrons and protons will deflect in opposite directions based on their opposite charges.
+
+---
+
+### Summary of Features for Marking
+To gain the full 6 marks, ensure your flow chart references these specific data points:
+
+| Particle | Charge | Mass (approx) | Field Reaction |
+| :--- | :--- | :--- | :--- |
+| **Electron** | $-1.6 \times 10^{-19} \text{ C}$ | $9.11 \times 10^{-31} \text{ kg}$ | Deflected by E/B fields |
+| **Proton** | $+1.6 \times 10^{-19} \text{ C}$ | $1.67 \times 10^{-27} \text{ kg}$ | Deflected by E/B fields |
+| **Neutron** | $0 \text{ C}$ | $1.67 \times 10^{-27} \text{ kg}$ | No deflection |
+
+###QUESTION_TYPE
+Short answer

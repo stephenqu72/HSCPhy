@@ -1,0 +1,20 @@
+To determine the correct statement, we must analyze the physics of the binding energy per nucleon curve.
+
+### Answer
+The correct statement is **B**.
+
+### Explanation
+The binding energy per nucleon curve represents the stability of an atomic nucleus. A higher binding energy per nucleon indicates a more stable nucleus.
+
+*   **Understanding the Graph:** Nuclei with a nucleon number ($A$) around $60$ (like Iron, $^{56}_{26}\text{Fe}$) are at the peak of the curve, meaning they are the most stable. 
+    *   **Fission:** Heavy nuclei ($A > 60$) move toward the peak when they undergo fission, releasing energy because the products have a higher binding energy per nucleon.
+    *   **Fusion:** Light nuclei ($A < 60$) move toward the peak when they undergo fusion, releasing energy because the products have a higher binding energy per nucleon.
+
+*   **Evaluating the options:**
+    *   **A is incorrect:** Fission releases energy when the products have higher binding energy per nucleon than the original nucleus. For nuclei with $A < 80$, undergoing fission would move the product nuclei to a *lower* part of the curve (lower binding energy per nucleon), which would require an input of energy rather than releasing it.
+    *   **B is correct:** For a nucleus with $A > 80$, the graph is sloping downwards. If such a nucleus were to undergo fusion (combining with another nucleus), the resulting heavier nucleus would have an even lower binding energy per nucleon. Since the product is *less* stable than the reactants, energy must be supplied (an endothermic process) to force this reaction.
+    *   **C is incorrect:** While $^{238}_{92}\text{U}$ is at the end of the graph, it is a radioactive isotope that initiates decay series; the *end-point* (the stable product) of these series is lead ($^{206}\text{Pb}$), which has a higher binding energy per nucleon than Uranium.
+    *   **D is incorrect:** $^{16}_{8}\text{O}$ is a very stable, abundant nucleus. Spontaneous alpha decay occurs in unstable heavy nuclei to increase their binding energy per nucleon. Emitting an alpha particle would move Oxygen to a lower point on the curve, which is not spontaneous.
+
+### QUESTION_TYPE
+Multiple choice

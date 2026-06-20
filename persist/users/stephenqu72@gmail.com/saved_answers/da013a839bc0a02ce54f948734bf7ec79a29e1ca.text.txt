@@ -1,0 +1,28 @@
+To solve this problem, we need to determine how much of the original Iodine-131 ($^{131}\text{I}$) has decayed, as the decayed portion is what transforms into Xenon-131 ($^{131}\text{Xe}$).
+
+### Step-by-Step Solution:
+
+**1. Determine the number of half-lives that have elapsed:**
+The total time elapsed is $16$ hours, and the half-life of $^{131}\text{I}$ is $8$ hours.
+$$\text{Number of half-lives} (n) = \frac{\text{Total time}}{\text{Half-life}} = \frac{16}{8} = 2$$
+
+**2. Calculate the remaining amount of Iodine-131:**
+After each half-life, the amount of the radioisotope is halved.
+- After $8$ hours ($1$ half-life): $24.0\text{ mg} \times 0.5 = 12.0\text{ mg}$
+- After $16$ hours ($2$ half-lives): $12.0\text{ mg} \times 0.5 = 6.0\text{ mg}$
+So, $6.0\text{ mg}$ of $^{131}\text{I}$ remains in the body.
+
+**3. Calculate the amount of Xenon-131 produced:**
+The Law of Conservation of Mass tells us that the amount of Xenon produced must equal the amount of Iodine that has decayed.
+$$\text{Amount decayed} = \text{Initial amount} - \text{Remaining amount}$$
+$$\text{Amount of } ^{131}\text{Xe} = 24.0\text{ mg} - 6.0\text{ mg} = 18.0\text{ mg}$$
+
+Comparing this to the given options, the correct answer is **C**.
+
+### Summary of logic:
+*   Identify the total time elapsed relative to the half-life.
+*   Calculate the quantity of the parent isotope remaining after the specified time.
+*   Subtract the remaining parent quantity from the initial quantity to find the quantity of the daughter isotope produced.
+
+###QUESTION_TYPE
+Multiple choice

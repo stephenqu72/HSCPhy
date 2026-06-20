@@ -1,0 +1,28 @@
+To find the minimum potential difference $V$ required to observe these transitions, we must determine the energy required to excite an electron from the ground state ($E_1$) to the highest energy level involved in the observed transitions ($E_3$).
+
+### Explanation
+
+1.  **Understand the transitions:**
+    *   Transition 1: From $E_3$ to $E_2$ releases a photon with $\lambda_1 = 6.22 \times 10^{-7}\text{ m}$.
+    *   Transition 2: From $E_2$ to $E_1$ releases a photon with $\lambda_2 = 1.78 \times 10^{-7}\text{ m}$.
+    *   To observe both transitions, the bombarding electrons must have enough energy to excite atoms from $E_1$ to $E_3$. This excitation energy is given by $\Delta E = E_3 - E_1$.
+
+2.  **Calculate the energy of the photons:**
+    Using the photon energy formula $E = \frac{hc}{\lambda}$, where $h = 6.626 \times 10^{-34}\text{ J s}$ and $c = 3.00 \times 10^{8}\text{ m/s}$:
+    *   $E_{3 \to 2} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^{8})}{6.22 \times 10^{-7}} \approx 3.195 \times 10^{-19}\text{ J}$
+    *   $E_{2 \to 1} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^{8})}{1.78 \times 10^{-7}} \approx 1.116 \times 10^{-18}\text{ J}$
+
+3.  **Convert to electron-volts (eV):**
+    Dividing by $1.602 \times 10^{-19}\text{ J/eV}$:
+    *   $E_{3 \to 2} \approx \frac{3.195 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 1.99\text{ eV}$
+    *   $E_{2 \to 1} \approx \frac{1.116 \times 10^{-18}}{1.602 \times 10^{-19}} \approx 6.97\text{ eV}$
+
+4.  **Find the excitation energy ($E_3 - E_1$):**
+    The total energy needed to reach level $E_3$ from $E_1$ is:
+    $$\Delta E = E_{3 \to 2} + E_{2 \to 1} \approx 1.99\text{ eV} + 6.97\text{ eV} = 8.96\text{ eV}$$
+    Rounding to the nearest appropriate value provided in the options, we get $9.00\text{ eV}$. Since the potential difference $V$ (in volts) corresponds numerically to the kinetic energy required (in electron-volts), the minimum potential difference is $9.00\text{ V}$.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

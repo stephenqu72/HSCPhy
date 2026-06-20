@@ -1,0 +1,35 @@
+To solve this problem, we need to determine the fraction of the radioactive isotope that remains after 16 hours and then calculate the percentage that has decayed.
+
+### Step-by-Step Solution:
+
+**1. Standardize units:**
+The time taken is $t = 16\text{ hours}$.
+The half-life is $T_{1/2} = 2.2\text{ days}$.
+Convert the half-life into hours:
+$T_{1/2} = 2.2 \times 24 = 52.8\text{ hours}$.
+
+**2. Calculate the amount remaining:**
+We use the radioactive decay formula:
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+Where $N(t)/N_0$ represents the fraction remaining.
+$$\frac{N(t)}{N_0} = \left( 0.5 \right)^{\frac{16}{52.8}}$$
+$$\frac{N(t)}{N_0} = \left( 0.5 \right)^{0.30303...} \approx 0.8105$$
+
+This means approximately $81.05\%$ of the isotope remains.
+
+**3. Calculate the percentage that has decayed:**
+The percentage that has decayed is the initial amount ($100\%$) minus the amount remaining:
+$$\text{Decayed \%} = 100\% - 81.05\% = 18.95\%$$
+
+Rounding to the nearest whole number, we get $19\%$.
+
+Comparing this result to the given options:
+(A) $7\%$
+(B) $13\%$
+(C) $15\%$
+(D) $19\%$
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

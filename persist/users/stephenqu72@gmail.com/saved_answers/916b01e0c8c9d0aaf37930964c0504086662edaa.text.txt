@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **B. The fringe spacing would decrease.**
+
+---
+
+### Explanation
+To solve this problem, we must apply the concept of **de Broglie matter waves** and the diffraction of particles.
+
+1.  **De Broglie Wavelength:** Any particle moving with a momentum $p$ has an associated wavelength $\lambda$ given by the equation:
+    $$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+    where $h$ is Planck's constant, $m$ is the mass of the electron, and $v$ is its speed.
+
+2.  **Relating Speed to Wavelength:** If the speed $v$ of the electrons is doubled ($v' = 2v$), the new wavelength $\lambda'$ becomes:
+    $$\lambda' = \frac{h}{m(2v)} = \frac{1}{2} \left( \frac{h}{mv} \right) = \frac{1}{2} \lambda$$
+    Therefore, doubling the speed halves the de Broglie wavelength.
+
+3.  **Diffraction and Fringe Spacing:** When particles undergo diffraction through a grid (or slit), the angular spacing $\theta$ of the interference pattern (or the fringe spacing $y$) is directly proportional to the wavelength of the waves:
+    $$\Delta y \approx \frac{\lambda L}{d}$$
+    where $L$ is the distance to the screen and $d$ is the spacing of the grid. 
+
+4.  **Conclusion:** Since the fringe spacing $\Delta y$ is directly proportional to $\lambda$, and the wavelength $\lambda$ has been halved, the fringe spacing will also decrease by a factor of two.
+
+###QUESTION_TYPE
+Multiple choice

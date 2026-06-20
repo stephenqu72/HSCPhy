@@ -1,0 +1,43 @@
+### Part (a)
+To complete the nuclear equation, we must ensure the conservation of both the mass number (top) and the atomic number (bottom) on both sides of the reaction.
+
+**1. Identify the products:**
+Uranium-235 is represented as ${}_{92}^{235}\text{U}$. A neutron is ${}_{0}^{1}\text{n}$.
+The products are Strontium-90 (${}_{38}^{90}\text{Sr}$) and Xenon-136 (${}_{54}^{136}\text{Xe}$). Let $x$ be the number of neutrons (${}_{0}^{1}\text{n}$) released.
+
+**2. Set up the conservation equations:**
+*   **Mass number:** $235 + 1 = 90 + 136 + x$
+    $236 = 226 + x \implies x = 10$
+*   **Atomic number (check):** $92 + 0 = 38 + 54 + 0(10)$
+    $92 = 92$ (The equation is balanced).
+
+**Completed Equation:**
+$${}_{92}^{235}\text{U} + {}_{0}^{1}\text{n} \rightarrow {}_{38}^{90}\text{Sr} + {}_{54}^{136}\text{Xe} + 10{}_{0}^{1}\text{n}$$
+**Number of neutrons released:** 10
+
+---
+
+### Part (b)
+To calculate the energy released, we use Einstein's mass-energy equivalence formula $E = \Delta mc^2$, where $c = 3.00 \times 10^8 \text{ m/s}$.
+
+**1. Calculate the total mass of reactants:**
+$$M_{\text{reactants}} = M_{\text{U-235}} + M_{\text{neutron}} = (390.989 + 1.675) \times 10^{-27} \text{ kg} = 392.664 \times 10^{-27} \text{ kg}$$
+
+**2. Calculate the total mass of products:**
+$$M_{\text{products}} = M_{\text{Sr-90}} + M_{\text{Xe-136}} + 10 \times M_{\text{neutron}}$$
+$$M_{\text{products}} = (149.301 + 225.687 + 10 \times 1.675) \times 10^{-27} \text{ kg}$$
+$$M_{\text{products}} = (374.988 + 16.75) \times 10^{-27} \text{ kg} = 391.738 \times 10^{-27} \text{ kg}$$
+
+**3. Calculate the mass defect ($\Delta m$):**
+$$\Delta m = M_{\text{reactants}} - M_{\text{products}}$$
+$$\Delta m = (392.664 - 391.738) \times 10^{-27} \text{ kg} = 0.926 \times 10^{-27} \text{ kg}$$
+
+**4. Calculate the energy released ($E$):**
+$$E = \Delta mc^2 = (0.926 \times 10^{-27} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+$$E = 0.926 \times 10^{-27} \times 9 \times 10^{16} \text{ J}$$
+$$E = 8.334 \times 10^{-11} \text{ J}$$
+
+The amount of energy released is $8.334 \times 10^{-11} \text{ Joules}$.
+
+###QUESTION_TYPE
+Calculation question

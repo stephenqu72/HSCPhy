@@ -1,0 +1,36 @@
+As a top HSC Physics teacher, I will break this down into the calculation required for part (a) and the conceptual explanation required for part (b).
+
+---
+
+### Part (a)
+**Answer:**
+To calculate the de Broglie wavelength ($\lambda$), we use the formula:
+$$\lambda = \frac{h}{mv}$$
+Where:
+- $h = 6.626 \times 10^{-34}\text{ J s}$ (Planck's constant)
+- $m = 1.67 \times 10^{-27}\text{ kg}$ (mass of a proton)
+- $v = 500\text{ km s}^{-1} = 5 \times 10^5\text{ m s}^{-1}$
+
+Substituting the values:
+$$\lambda = \frac{6.626 \times 10^{-34}}{(1.67 \times 10^{-27})(5 \times 10^5)}$$
+$$\lambda \approx 7.93 \times 10^{-13}\text{ m}$$
+
+**Explanation:**
+To detect wave-like properties (such as diffraction), the wavelength of the particle must be of a similar order of magnitude to the spacing of the atoms in a crystal lattice (typically $\approx 10^{-10}\text{ m}$). Since the wavelength calculated ($7.93 \times 10^{-13}\text{ m}$) is about 1000 times smaller than the spacing between atoms, the diffraction effects are too small to be measured or detected by present-day technology using standard diffraction gratings or atomic lattices.
+
+---
+
+### Part (b)
+**Answer:**
+The de Broglie hypothesis was experimentally confirmed by the **Davisson-Germer experiment**. 
+
+**Explanation:**
+1. **The setup:** Davisson and Germer fired a beam of electrons at the surface of a nickel crystal.
+2. **The observation:** They observed that the electrons were scattered at specific angles, forming an interference pattern similar to X-ray diffraction.
+3. **The significance:** Because electrons were previously thought to be particles, this result proved they exhibited wave-like behavior.
+4. **The conclusion:** By measuring the angle of the diffraction maxima, they were able to calculate the wavelength of the electrons. These experimental values matched the values predicted by the de Broglie formula $\lambda = \frac{h}{p}$, confirming his hypothesis that matter possesses wave-particle duality.
+
+---
+
+###QUESTION_TYPE
+Calculation question

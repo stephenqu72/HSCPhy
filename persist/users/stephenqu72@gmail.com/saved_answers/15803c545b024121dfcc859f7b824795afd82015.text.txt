@@ -1,0 +1,19 @@
+### Answer
+The correct answer is **(C)**.
+
+### Explanation
+To solve this problem, we must apply the **Stefan-Boltzmann Law**, which relates a star's luminosity ($L$), its radius ($r$), and its surface temperature ($T$):
+
+$$L = 4\pi r^2 \sigma T^4$$
+
+1.  **Understand the Axes**: The x-axis represents spectral class, which is a direct indicator of surface temperature ($T$). Stars on the left (O, B) are hotter, and stars on the right (M) are cooler.
+2.  **Compare Regions**: The question asks to compare stars in region **S** (White Dwarfs) to other stars of the *same* spectral class. If we pick a vertical line at a specific spectral class (e.g., class A), we see that stars in the Main Sequence (region R) have a much higher luminosity than stars in region S.
+3.  **Analyze the Physics**: Since the stars are in the same spectral class, their surface temperature ($T$) is effectively the same. According to the formula $L \propto r^2 T^4$, if the temperature ($T$) is held constant, the only remaining variable that can significantly change the luminosity ($L$) is the radius ($r$).
+4.  **Conclusion**: Because stars in region S have a significantly lower luminosity than Main Sequence stars of the same temperature, they must have a much smaller radius, and consequently, a much smaller **surface area**.
+
+*   **(A) is incorrect** because the stars are specified to be in the same spectral class, meaning they have similar surface temperatures.
+*   **(B) is incorrect** because while White Dwarfs have lower mass than massive stars, mass is not the direct factor determining luminosity in the Stefan-Boltzmann equation; surface area is.
+*   **(D) is incorrect** because luminosity is an intrinsic property of a star (absolute magnitude) and is independent of the star's distance from Earth.
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,20 @@
+To solve this physics problem, we need to apply Einstein’s mass-energy equivalence principle, $E = mc^2$.
+
+### Explanation
+1.  **Identify the particles involved:** An electron-positron annihilation involves one electron ($e^-$) and one positron ($e^+$).
+2.  **Determine the mass:** The rest mass of an electron is approximately $9.109 \times 10^{-31}\text{ kg}$. A positron has the exact same mass as an electron. Therefore, the total mass being converted into energy is:
+    $$m_{\text{total}} = 2 \times m_e = 2 \times (9.109 \times 10^{-31}\text{ kg}) = 1.8218 \times 10^{-30}\text{ kg}$$
+3.  **Relate mass to energy in electron-volts (eV):** In high-energy physics, it is a standard constant that the rest mass energy of a single electron is approximately $0.511\text{ MeV}$ (mega-electron-volts). 
+4.  **Calculate the total energy:** Since the system consists of one electron and one positron, the total energy released is the sum of their rest mass energies:
+    $$E = 0.511\text{ MeV} + 0.511\text{ MeV} = 1.022\text{ MeV}$$
+    Rounding this to two decimal places gives $1.02\text{ MeV}$.
+
+Comparing this to the provided options:
+(A) and (B) use the unit $\text{eV}$ but are incorrect in magnitude.
+(C) $0.51\text{ MeV}$ is the energy of only one particle.
+(D) $1.02\text{ MeV}$ is the total energy released by the annihilation of the electron-positron pair.
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

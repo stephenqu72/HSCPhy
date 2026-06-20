@@ -1,0 +1,35 @@
+To solve this physics problem, we need to determine how much of the original radioactive substance remains after a specific amount of time and how much daughter product has been formed.
+
+### Step-by-Step Solution:
+
+**1. Determine the number of half-lives elapsed:**
+The total time elapsed is $276$ days, and the half-life ($t_{1/2}$) of polonium-210 is $138$ days. The number of half-lives ($n$) is calculated as:
+$$n = \frac{\text{total time}}{\text{half-life}} = \frac{276}{138} = 2$$
+
+**2. Calculate the remaining amount of Polonium-210:**
+If we start with an initial amount of $N_0$ atoms:
+* After $1$ half-life, we have $\frac{1}{2}N_0$ remaining.
+* After $2$ half-lives, we have $\frac{1}{2} \times \frac{1}{2}N_0 = \frac{1}{4}N_0$ remaining.
+So, the amount of Polonium-210 remaining is $0.25N_0$.
+
+**3. Calculate the amount of Lead-206 produced:**
+Since the sample was pure Polonium-210 to start with, any atom that has decayed must have turned into Lead-206.
+$$\text{Lead-206} = \text{Initial amount} - \text{Remaining Polonium}$$
+$$\text{Lead-206} = N_0 - 0.25N_0 = 0.75N_0$$
+This is equivalent to $\frac{3}{4}N_0$.
+
+**4. Find the ratio of Polonium-210 to Lead-206:**
+$$\text{Ratio} = \frac{\text{Polonium-210}}{\text{Lead-206}} = \frac{0.25N_0}{0.75N_0} = \frac{0.25}{0.75} = \frac{1}{3}$$
+
+The ratio of polonium-210 atoms to lead-206 atoms is $1:3$.
+
+Comparing this result to the given options:
+A. $1:4$
+B. $1:3$
+C. $1:2$
+D. $1:1$
+
+The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

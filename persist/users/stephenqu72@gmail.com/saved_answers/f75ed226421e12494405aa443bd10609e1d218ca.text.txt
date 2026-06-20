@@ -1,0 +1,39 @@
+Hello! As your HSC Physics teacher, I will guide you through this typical nuclear physics problem. Here is how you solve it step-by-step.
+
+### Part (a)
+To find the energy released, we calculate the **mass defect** ($\Delta m$) of the reaction and convert it to energy using Einstein's mass-energy equivalence.
+
+1. **Calculate the mass defect:**
+   $$\Delta m = (\text{mass of reactants}) - (\text{mass of products})$$
+   $$\Delta m = 98.9077u - (98.9063u + 0.00054u)$$
+   $$\Delta m = 98.9077u - 98.90684u = 0.00086u$$
+
+2. **Convert to Energy:**
+   Using the standard conversion factor $1u = 931.5 \text{ MeV}/c^2$:
+   $$E = \Delta m \times 931.5 \text{ MeV}/u$$
+   $$E = 0.00086u \times 931.5 \text{ MeV}/u \approx 0.80109 \text{ MeV}$$
+   Rounding to four significant figures, we get $0.8011 \text{ MeV}$.
+
+---
+
+### Part (b)
+We need to find the percentage of atoms that have **decayed**. This is given by $(1 - \frac{N}{N_0}) \times 100\%$.
+
+1. **Use the radioactive decay formula:**
+   $$\frac{N}{N_0} = e^{-\lambda t} \quad \text{or} \quad \frac{N}{N_0} = 0.5^{\frac{t}{T_{1/2}}}$$
+   Using the second form is often easier:
+   $$\frac{N}{N_0} = 0.5^{\frac{5}{65.94}}$$
+   $$\frac{N}{N_0} \approx 0.5^{0.075826} \approx 0.9488$$
+
+2. **Calculate the percentage decayed:**
+   The fraction remaining is approximately $0.9488$, so the fraction decayed is:
+   $$\text{Fraction decayed} = 1 - 0.9488 = 0.0512$$
+   To express this as a percentage:
+   $$0.0512 \times 100 = 5.12\%$$
+
+Therefore, approximately **$5.12\%$** of the molybdenum-99 atoms have decayed in 5 hours.
+
+---
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,28 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, which relates the energy released ($E$) to the mass lost ($m$) during a nuclear process.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the Formula:** 
+    The relationship between energy and mass is given by the equation:
+    $$E = mc^2$$
+    Where:
+    *   $E$ is the energy in Joules ($J$)
+    *   $m$ is the mass in kilograms ($kg$)
+    *   $c$ is the speed of light, approximately $3.0 \times 10^8 \, m/s$
+
+2.  **Analyze the Data:**
+    *   The power output of the Sun is $4.0 \times 10^{26} \, W$. Since power is defined as energy per unit time ($P = E/t$), and we are asked for the mass lost *each second* ($t = 1 \, s$), the energy released per second is $E = 4.0 \times 10^{26} \, J$.
+
+3.  **Rearrange the formula to solve for mass ($m$):**
+    $$m = \frac{E}{c^2}$$
+
+4.  **Perform the calculation:**
+    $$m = \frac{4.0 \times 10^{26}}{(3.0 \times 10^8)^2}$$
+    $$m = \frac{4.0 \times 10^{26}}{9.0 \times 10^{16}}$$
+    $$m \approx 0.444 \times 10^{10} \, kg$$
+    $$m \approx 4.4 \times 10^9 \, kg$$
+
+Comparing this result to the given options, the correct answer is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

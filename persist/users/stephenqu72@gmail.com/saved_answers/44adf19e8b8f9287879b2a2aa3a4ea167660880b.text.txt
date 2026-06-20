@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **(A)**.
+
+### Explanation
+To solve this question, we must understand the core findings and the methodology of the Geiger-Marsden (Rutherford) gold foil experiment:
+
+1.  **Experimental Observation:** Rutherford's team observed that the vast majority of alpha particles passed straight through the thin gold foil with little to no deflection, indicating that the atom is mostly empty space. However, a small fraction of alpha particles were deflected at very large angles, and some even bounced directly backward. This was the key evidence that the atom contains a very small, dense, and positively charged nucleus that exerts a strong electrostatic force on the alpha particles.
+2.  **Theoretical Calculation:** To estimate the size of this nucleus (the distance of closest approach, $d$), Rutherford utilized the **Principle of Conservation of Energy**. 
+
+Specifically, he equated the initial kinetic energy ($KE$) of the alpha particle at a long distance from the nucleus to the electric potential energy ($PE$) at the point where the alpha particle momentarily stops before being repelled back:
+$$KE_{initial} = PE_{final}$$
+$$\frac{1}{2}mv^2 = \frac{k q_1 q_2}{d}$$
+
+Where:
+*   $m$ is the mass of the alpha particle.
+*   $v$ is the velocity of the alpha particle.
+*   $k$ is Coulomb's constant.
+*   $q_1$ and $q_2$ are the charges of the alpha particle and the gold nucleus, respectively.
+*   $d$ is the distance of closest approach (the estimate for the upper limit of the nuclear radius).
+
+Since option (A) correctly identifies the experimental observations and the fundamental physical principle used to estimate the size, it is the only correct choice.
+
+###QUESTION_TYPE
+Multiple choice

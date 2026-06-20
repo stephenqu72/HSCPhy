@@ -1,0 +1,29 @@
+To solve for the de Broglie wavelength of the motor car, we use the de Broglie equation:
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+Where:
+*   $h$ is Planck's constant ($\approx 6.63 \times 10^{-34} \text{ J s}$)
+*   $m$ is the mass of the object ($663 \text{ kg}$)
+*   $v$ is the velocity of the object ($10 \text{ m s}^{-1}$)
+
+### Step-by-Step Calculation:
+
+1.  **Identify the variables:**
+    *   $h = 6.63 \times 10^{-34} \text{ J s}$
+    *   $m = 663 \text{ kg} = 6.63 \times 10^2 \text{ kg}$
+    *   $v = 10 \text{ m s}^{-1} = 10^1 \text{ m s}^{-1}$
+
+2.  **Calculate the momentum ($p$):**
+    $$p = m \times v$$
+    $$p = (6.63 \times 10^2) \times (10^1) = 6.63 \times 10^3 \text{ kg m s}^{-1}$$
+
+3.  **Calculate the wavelength ($\lambda$):**
+    $$\lambda = \frac{6.63 \times 10^{-34}}{6.63 \times 10^3}$$
+    $$\lambda = \frac{6.63}{6.63} \times 10^{-34 - 3}$$
+    $$\lambda = 1 \times 10^{-37} \text{ m}$$
+
+Comparing this result to the given options, $10^{-37} \text{ m}$ is the correct answer. Therefore, **Option A** is correct.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,27 @@
+To solve this problem, we must follow two key principles of nuclear physics: the **conservation of energy** (via mass-energy equivalence) and the **conservation of momentum**.
+
+### Step 1: Calculate the total energy released ($Q$-value)
+The energy released in the decay is equivalent to the "mass defect" ($\Delta m$) of the reaction, converted using $E = mc^2$. Note that $1 \, u = 1.6605 \times 10^{-27} \, \text{kg}$ and $c = 2.998 \times 10^8 \, \text{m/s}$. Alternatively, we use the conversion $1 \, u \approx 931.5 \, \text{MeV}$.
+
+$$\Delta m = m_{\text{initial}} - m_{\text{final}}$$
+$$\Delta m = 234.0409 \, u - (230.0331 \, u + 4.0026 \, u)$$
+$$\Delta m = 234.0409 - 234.0357 = 0.0052 \, u$$
+
+Convert mass defect to Joules:
+$$E = 0.0052 \, u \times 1.6605 \times 10^{-27} \, \text{kg/u} \times (2.998 \times 10^8 \, \text{m/s})^2$$
+$$E \approx 7.747 \times 10^{-13} \, \text{J}$$
+
+### Step 2: Use the Conservation of Energy
+The total energy released is the sum of the kinetic energies of the products:
+$$E_{\text{total}} = K_{\text{Th}} + K_{\alpha}$$
+$$7.747 \times 10^{-13} \, \text{J} = 7.02 \times 10^{-15} \, \text{J} + K_{\alpha}$$
+$$K_{\alpha} = 7.747 \times 10^{-13} \, \text{J} - 0.0702 \times 10^{-13} \, \text{J}$$
+$$K_{\alpha} \approx 7.677 \times 10^{-13} \, \text{J}$$
+
+*(Note: While momentum conservation is often used in these problems, the prompt explicitly provides the kinetic energy of one product, allowing for a direct subtraction from the total energy released.)*
+
+**Final Answer:**
+The kinetic energy of the alpha particle is approximately $7.68 \times 10^{-13} \, \text{J}$.
+
+###QUESTION_TYPE
+Calculation question

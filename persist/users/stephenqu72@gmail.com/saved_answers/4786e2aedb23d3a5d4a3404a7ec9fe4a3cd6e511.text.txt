@@ -1,0 +1,34 @@
+To solve this problem, we use the radioactive decay formula:
+
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+
+Where:
+*   $N(t)$ is the remaining amount of the substance.
+*   $N_0$ is the initial amount (we can set this to $100\%$ to find the percentage remaining).
+*   $t$ is the elapsed time ($5.50$ minutes).
+*   $T_{1/2}$ is the half-life ($10.0$ minutes).
+
+### Step-by-Step Calculation:
+
+1.  **Identify the variables:**
+    $t = 5.50$
+    $T_{1/2} = 10.0$
+
+2.  **Calculate the number of half-lives elapsed ($n$):**
+    $$n = \frac{t}{T_{1/2}} = \frac{5.50}{10.0} = 0.55$$
+
+3.  **Apply the formula:**
+    $$N(t) = 100 \times (0.5)^{0.55}$$
+
+4.  **Solve the exponent:**
+    Using a calculator: $0.5^{0.55} \approx 0.6817$
+
+5.  **Convert to percentage:**
+    $$0.6817 \times 100 \approx 68.17\%$$
+
+Rounding to the nearest whole number provided in the options, we get $68\%$.
+
+**Correct Option: D**
+
+###QUESTION_TYPE
+Multiple choice

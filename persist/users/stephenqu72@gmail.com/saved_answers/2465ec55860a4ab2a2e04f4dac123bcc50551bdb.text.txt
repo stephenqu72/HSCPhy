@@ -1,0 +1,28 @@
+To solve this problem, we need to find the decay constant ($\lambda$) of a radioactive source given its half-life.
+
+### Step-by-Step Explanation:
+
+1.  **Identify the given information:**
+    *   The problem states that the activity of the source becomes one-half of its initial value after $360\text{ s}$. This means the half-life ($t_{1/2}$) of the nuclide is $360\text{ s}$.
+    *   $t_{1/2} = 360\text{ s}$.
+
+2.  **Recall the relevant formula:**
+    The relationship between the half-life ($t_{1/2}$) and the decay constant ($\lambda$) is given by:
+    $$t_{1/2} = \frac{\ln(2)}{\lambda}$$
+    Rearranging this formula to solve for $\lambda$:
+    $$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+
+3.  **Perform the calculation:**
+    Substitute the known value of $t_{1/2}$ into the equation:
+    $$\lambda = \frac{\ln(2)}{360\text{ s}}$$
+    Using the approximation $\ln(2) \approx 0.693$:
+    $$\lambda \approx \frac{0.693147}{360\text{ s}}$$
+    $$\lambda \approx 1.9254 \times 10^{-3}\text{ s}^{-1}$$
+
+4.  **Compare with the options:**
+    Rounding our result to three significant figures gives $1.93 \times 10^{-3}\text{ s}^{-1}$, which matches option **A**.
+
+**Correct Answer: A**
+
+###QUESTION_TYPE
+Multiple choice

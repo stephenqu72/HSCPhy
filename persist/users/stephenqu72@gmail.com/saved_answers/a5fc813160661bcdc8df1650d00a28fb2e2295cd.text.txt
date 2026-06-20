@@ -1,0 +1,35 @@
+To answer this question effectively, you need to combine a clear physical diagram with an explanation of the balance between electric and magnetic forces.
+
+### The Explanation
+
+J.J. Thomson used a **cathode ray tube (CRT)** to determine the charge-to-mass ratio ($q/m$) of the electron. The core of the experiment relies on firing electrons through a region where they are subjected to both an electric field ($E$) and a magnetic field ($B$).
+
+1.  **The setup:** Electrons are accelerated from a cathode towards an anode by a potential difference. A narrow beam enters a region containing parallel metal plates (providing an electric field) and Helmholtz coils (providing a uniform magnetic field perpendicular to the electric field).
+2.  **Balancing forces:** Thomson adjusted the electric and magnetic fields until the electron beam passed through undeflected. At this state, the electric force ($F_e = qE$) is equal and opposite to the magnetic force ($F_m = qvB$):
+    $$qE = qvB \implies v = \frac{E}{B}$$
+3.  **Deflection:** Once the velocity ($v$) is known, the electric field is turned off. The magnetic field alone causes the electrons to move in a circular path with radius $r$. The magnetic force provides the centripetal force:
+    $$qvB = \frac{mv^2}{r}$$
+4.  **Derivation:** By rearranging for $q/m$:
+    $$\frac{q}{m} = \frac{v}{Br} = \frac{E}{B^2r}$$
+    By measuring $E$, $B$, and the radius of curvature $r$, the ratio $q/m$ is calculated.
+
+### The Annotated Diagram (Description)
+
+*Since I am an AI, visualize the diagram as follows:*
+*   **Cathode Ray Tube:** A vacuum tube with an electron gun at one end and a fluorescent screen at the other.
+*   **Deflection Plates:** Two horizontal plates inside the tube; indicate a voltage source $V$ connected to them to create an electric field $E$ directed vertically.
+*   **Magnetic Field Region:** Indicate a magnetic field $B$ directed into/out of the page using 'x' or 'dot' symbols, covering the region between the plates.
+*   **Labels:**
+    *   **"Electron Beam"** shown travelling horizontally.
+    *   **"Electric Field ($E$)"** between plates.
+    *   **"Magnetic Field ($B$)"** perpendicular to $E$ and velocity.
+    *   **"Undeflected beam"** (straight line) when $F_e = F_m$.
+    *   **"Circular path"** (curved line) when only $B$ is present.
+
+### Tips for the HSC:
+*   **5 Marks structure:** Allocate 2 marks for a clear, labeled diagram and 3 marks for the logical physical explanation.
+*   **Notation:** Ensure you use standard symbols ($v$, $q$, $m$, $E$, $B$, $r$).
+*   **The "Crux":** Always mention that the experiment requires an **undeflected beam** first to determine velocity, followed by **magnetic deflection** to determine the radius.
+
+###QUESTION_TYPE
+Short answer

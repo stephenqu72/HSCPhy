@@ -1,0 +1,32 @@
+To solve this problem, we must determine the **mass defect** ($\Delta m$) of the Iron-56 nucleus, convert that mass into energy, and then divide by the total number of nucleons.
+
+### 1. Identify the components
+The iron nucleus ${}^{56}_{26}\text{Fe}$ consists of:
+*   Protons ($Z$) = $26$
+*   Neutrons ($N$) = $56 - 26 = 30$
+*   Mass of proton ($m_p$) = $0.997825\text{ u}$ (as provided)
+*   Mass of neutron ($m_n$) = $1.008665\text{ u}$
+*   Mass of nucleus ($M_{Fe}$) = $55.934940\text{ u}$
+
+### 2. Calculate the mass defect ($\Delta m$)
+The mass defect is the difference between the mass of the individual nucleons and the actual mass of the nucleus:
+$$\Delta m = (Z \times m_p + N \times m_n) - M_{Fe}$$
+$$\Delta m = (26 \times 0.997825 + 30 \times 1.008665) - 55.934940$$
+$$\Delta m = (25.94345 + 30.25995) - 55.934940$$
+$$\Delta m = 56.2034 - 55.934940 = 0.26846\text{ u}$$
+
+### 3. Convert to energy
+Using the conversion factor $1\text{ u} \approx 931.5\text{ MeV}/c^2$:
+$$E = 0.26846\text{ u} \times 931.5\text{ MeV/u} \approx 250.07\text{ MeV}$$
+
+### 4. Calculate binding energy per nucleon
+Divide the total binding energy by the total number of nucleons ($A = 56$):
+$$\text{Binding Energy per Nucleon} = \frac{250.07\text{ MeV}}{56} \approx 4.466\text{ MeV/nucleon}$$
+
+*(Note: While the standard mass of a proton is often cited as $1.007276\text{ u}$, in HSC physics exams, you must strictly use the values provided in the question.)*
+
+### Final Answer:
+The average binding energy per nucleon is approximately **$4.47\text{ MeV/nucleon}$**.
+
+###QUESTION_TYPE
+Calculation question

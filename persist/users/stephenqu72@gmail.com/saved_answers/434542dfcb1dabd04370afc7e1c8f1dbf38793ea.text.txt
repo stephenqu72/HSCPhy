@@ -1,0 +1,17 @@
+To determine which transition results in the emission of a photon with the most energy, we must apply the principles of atomic physics regarding energy levels.
+
+### Explanation
+1.  **Understand Transitions:** An electron emits a photon when it transitions from a higher energy level to a lower energy level.
+    *   Transition **W** is an upward arrow, representing an electron *absorbing* a photon to move to a higher state ($n=1 \rightarrow n=4$). This is not an emission process.
+    *   Transitions **X**, **Y**, and **Z** are downward arrows, which represent the *emission* of a photon.
+2.  **Energy of a Photon:** The energy of an emitted photon is equal to the difference in energy between the two levels: $\Delta E = E_{initial} - E_{final}$. 
+3.  **Analyze the Options:**
+    *   **X:** Transition from $n=4$ to $n=3$. This is a very small gap.
+    *   **Z:** Transition from $n=3$ to $n=2$. This is a larger gap than $X$.
+    *   **Y:** Transition from $n=2$ to $n=1$. In atomic models (like the Bohr model), the energy levels get further apart as they get closer to the nucleus (smaller $n$ values). Therefore, the gap between $n=2$ and $n=1$ is significantly larger than the gaps between $n=4, 3,$ and $2$.
+4.  **Conclusion:** The transition $Y$ covers the largest energy gap among the emission choices. Since $\Delta E$ is proportional to the energy of the emitted photon, transition $Y$ results in the emission of a photon with the highest energy.
+
+**Correct Answer:** **C**
+
+###QUESTION_TYPE
+Multiple choice

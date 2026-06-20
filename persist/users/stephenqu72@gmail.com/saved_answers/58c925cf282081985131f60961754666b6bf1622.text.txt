@@ -1,0 +1,38 @@
+To solve this problem, we use the de Broglie wavelength formula:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+where:
+- $\lambda$ is the wavelength
+- $h$ is Planck's constant
+- $m$ is the mass of the particle
+- $v$ is the velocity of the particle
+
+### Step-by-Step Solution:
+
+1. **State the given condition:**
+   The proton ($p$) and alpha particle ($\alpha$) have the same wavelength:
+   $$\lambda_p = \lambda_\alpha$$
+
+2. **Equate the expressions:**
+   Using the formula $\lambda = \frac{h}{mv}$:
+   $$\frac{h}{m_p v_p} = \frac{h}{m_\alpha v_\alpha}$$
+   Since $h$ is constant on both sides, we can cancel it out:
+   $$m_p v_p = m_\alpha v_\alpha$$
+
+3. **Rearrange to find the ratio of speeds:**
+   We want to find the ratio $\frac{v_\alpha}{v_p}$:
+   $$\frac{v_\alpha}{v_p} = \frac{m_p}{m_\alpha}$$
+
+4. **Identify the masses:**
+   - A proton has a mass of approximately $1 \, \text{amu}$ ($m_p \approx 1$).
+   - An alpha particle consists of two protons and two neutrons, giving it a mass of approximately $4 \, \text{amu}$ ($m_\alpha \approx 4$).
+   - Therefore, $m_\alpha \approx 4 m_p$.
+
+5. **Calculate the ratio:**
+   Substitute the mass ratio into the velocity ratio equation:
+   $$\frac{v_\alpha}{v_p} = \frac{m_p}{4 m_p} = \frac{1}{4}$$
+
+**Conclusion:**
+The ratio of the speed of the alpha particle to the speed of the proton is $1/4$. This corresponds to option **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

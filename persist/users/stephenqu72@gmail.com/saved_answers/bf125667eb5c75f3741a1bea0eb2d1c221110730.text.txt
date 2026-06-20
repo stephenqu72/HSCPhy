@@ -1,0 +1,29 @@
+To solve this problem, we must apply the principle of conservation of energy (mass-energy equivalence) and the conservation of momentum.
+
+### 1. Calculation of Total Energy Released ($Q$-value)
+First, calculate the mass defect ($\Delta m$) by subtracting the total mass of the products from the mass of the parent nucleus:
+$$\Delta m = m_{\text{Radon}} - (m_{\text{Polonium}} + m_{\text{Helium}})$$
+$$\Delta m = 197.999\,u - (193.988\,u + 4.00260\,u)$$
+$$\Delta m = 197.999 - 197.9906 = 0.0084\,u$$
+
+Convert the mass defect into energy in Joules using the conversion factor $1\,u = 1.6605 \times 10^{-27}\,\text{kg}$ and the speed of light $c = 3.00 \times 10^8\,\text{m/s}$ (or $E = \Delta m \times 931.5\,\text{MeV}/c^2$):
+$$\Delta E = 0.0084 \times 1.6605 \times 10^{-27}\,\text{kg} \times (3.00 \times 10^8\,\text{m/s})^2$$
+$$\Delta E \approx 1.254 \times 10^{-12}\,\text{J}$$
+
+### 2. Calculation of Kinetic Energy of the Alpha Particle
+The total energy released ($Q$) is shared between the kinetic energy of the Polonium atom ($K_P$) and the Alpha particle ($K_{\alpha}$):
+$$Q = K_P + K_{\alpha}$$
+$$K_{\alpha} = Q - K_P$$
+$$K_{\alpha} = 1.254 \times 10^{-12}\,\text{J} - 0.0255 \times 10^{-12}\,\text{J}$$
+*(Note: $2.55 \times 10^{-14}\,\text{J} = 0.0255 \times 10^{-12}\,\text{J}$)*
+$$K_{\alpha} \approx 1.2285 \times 10^{-12}\,\text{J}$$
+
+### 3. Explanation
+The kinetic energy is significantly greater for the alpha particle because of **conservation of momentum**. Since the initial system is at rest, the total momentum must be zero:
+$$p_P + p_{\alpha} = 0 \implies |p_P| = |p_{\alpha}|$$
+Using the relationship $K = \frac{p^2}{2m}$, we can see that:
+$$\frac{K_{\alpha}}{K_P} = \frac{m_P}{m_{\alpha}}$$
+Because the mass of the Polonium atom ($\approx 194\,u$) is much larger than the mass of the alpha particle ($4\,u$), the alpha particle must have a much higher velocity to balance the momentum. Since kinetic energy is proportional to the square of velocity ($K = \frac{1}{2}mv^2$), the lighter particle carries away the vast majority of the released energy.
+
+###QUESTION_TYPE
+Calculation question

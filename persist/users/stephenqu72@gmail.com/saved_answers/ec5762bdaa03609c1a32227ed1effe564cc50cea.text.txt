@@ -1,0 +1,20 @@
+To find the half-life of the radioactive decay model from the provided graph, follow these steps:
+
+### Answer
+The correct answer is **(C) 4 rolls**.
+
+### Explanation
+1.  **Define Half-life:** The half-life is the amount of time (or in this case, the number of rolls) required for a quantity to reduce to half of its initial value.
+2.  **Identify the initial value ($N_0$):** Look at the graph at $0$ rolls. The number of dice remaining is $80$.
+3.  **Calculate the half-value:** Half of the initial amount is:
+    $$\frac{80}{2} = 40 \text{ dice}$$
+4.  **Read the graph:** Locate $40$ on the vertical axis ("Number of Dice Remaining"). Move horizontally across to the plotted curve, then move vertically down to read the corresponding value on the horizontal axis ("Number of Rolls of the Dice").
+    *   At $40$ dice, the x-axis value is exactly $4$.
+5.  **Verify with a second point (optional but recommended):** 
+    *   Half of $40$ is $20$.
+    *   Locate $20$ on the vertical axis and move across to the curve. The corresponding value on the horizontal axis is $8$.
+    *   The time taken to go from $40$ dice to $20$ dice is $8 - 4 = 4$ rolls.
+6.  **Conclusion:** Since it takes $4$ rolls to reduce the population from $80$ to $40$, and another $4$ rolls to reduce it from $40$ to $20$, the half-life is $4$ rolls.
+
+###QUESTION_TYPE
+Multiple choice

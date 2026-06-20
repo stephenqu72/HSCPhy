@@ -1,0 +1,26 @@
+To find the half-life of a radioactive sample, we need to determine the time $t$ at which the remaining amount $N_t$ is exactly half of the initial amount $N_0$.
+
+### Step-by-Step Solution:
+
+1.  **Understand the relationship:** The definition of half-life ($t_{1/2}$) is the time taken for the activity or amount of substance to decrease to half its initial value. Therefore, we set $N_t = \frac{1}{2} N_0$.
+
+2.  **Set up the equation:** Substitute this into the given formula $N_t = N_0 e^{-0.024t}$:
+    $$\frac{1}{2} N_0 = N_0 e^{-0.024t}$$
+
+3.  **Simplify:** Divide both sides by $N_0$:
+    $$\frac{1}{2} = e^{-0.024t}$$
+
+4.  **Solve for $t$:** Take the natural logarithm ($\ln$) of both sides to isolate the exponent:
+    $$\ln(0.5) = -0.024t$$
+    $$t = \frac{\ln(0.5)}{-0.024}$$
+
+5.  **Calculate the value:** 
+    Knowing that $\ln(0.5) \approx -0.693$:
+    $$t \approx \frac{-0.693}{-0.024} \approx 28.875 \text{ hours}$$
+
+6.  **Conclusion:** Rounding $28.875$ gives approximately $29$ hours. Comparing this to the given options, it matches option (A).
+
+**Answer:** (A) 29 hours
+
+###QUESTION_TYPE
+Multiple choice

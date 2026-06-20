@@ -1,0 +1,19 @@
+The correct answer is **(a)**.
+
+### Explanation
+
+To solve this, we must evaluate the historical context and the physical shortcomings of Niels Bohr’s model of the atom:
+
+*   **(a) Correct:** Bohr's model relies on the assumption that an electron moves in a well-defined circular orbit around a single nucleus. His mathematical derivation for energy levels only accounts for the electrostatic attraction between a nucleus and a single electron. When applied to multi-electron atoms, the inter-electronic repulsions make the system far more complex than Bohr's model can predict.
+*   **(b) Incorrect:** The quantization of angular momentum was actually a **postulate** of Bohr's model. He explicitly proposed that angular momentum ($L$) is quantized as an integer multiple of $h/2\pi$, specifically $L = n(h/2\pi)$.
+*   **(c) Incorrect:** Bohr’s model was remarkably successful in calculating the energy levels of the hydrogen atom, including the ground state energy ($-13.6 \text{ eV}$), matching experimental results for hydrogen perfectly.
+*   **(d) Incorrect (and nuanced):** While it is true that Bohr did not *explicitly* incorporate wave-particle duality into his initial model, de Broglie later provided the theoretical justification for Bohr's quantization postulate using the wave nature of electrons. However, in the context of HSC Physics, choice (a) is the "classic" and most significant fundamental failure of the model, as it is strictly limited to hydrogen-like (single-electron) systems.
+
+### Summary of Bohr Model Limitations:
+1.  It only works for one-electron systems (e.g., $H$, $He^+$, $Li^{2+}$).
+2.  It cannot explain the relative intensities of spectral lines.
+3.  It does not account for the **Zeeman effect** (splitting of lines in a magnetic field) or the **Stark effect** (splitting in an electric field).
+4.  It violates the **Heisenberg Uncertainty Principle** by assigning electrons fixed orbits with defined positions and momenta.
+
+###QUESTION_TYPE
+Multiple choice

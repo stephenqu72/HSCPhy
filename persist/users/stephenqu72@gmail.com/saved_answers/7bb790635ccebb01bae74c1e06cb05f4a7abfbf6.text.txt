@@ -1,0 +1,28 @@
+To calculate the de Broglie wavelength of the proton, we use the de Broglie relation:
+
+$$\lambda = \frac{h}{p}$$
+
+Where:
+*   $\lambda$ is the de Broglie wavelength (m)
+*   $h$ is Planck's constant, approximately $6.626 \times 10^{-34} \text{ J s}$
+*   $p$ is the momentum of the particle ($5.1 \times 10^{-19} \text{ kg m s}^{-1}$)
+
+### Step-by-step Calculation:
+
+1.  **Identify the given values:**
+    *   $p = 5.1 \times 10^{-19} \text{ kg m s}^{-1}$
+    *   $h \approx 6.626 \times 10^{-34} \text{ J s}$
+
+2.  **Substitute into the formula:**
+    $$\lambda = \frac{6.626 \times 10^{-34}}{5.1 \times 10^{-19}}$$
+
+3.  **Perform the division:**
+    $$\lambda \approx 1.299 \times 10^{-15} \text{ m}$$
+
+4.  **Rounding:**
+    Rounding to two significant figures (matching the precision of the given momentum), we get $\lambda \approx 1.3 \times 10^{-15} \text{ m}$.
+
+Comparing this result to the provided options, the correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

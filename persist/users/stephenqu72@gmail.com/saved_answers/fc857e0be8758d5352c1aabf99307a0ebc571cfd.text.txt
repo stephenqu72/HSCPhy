@@ -1,0 +1,29 @@
+To solve these physics problems, we must apply the principles of nuclear mass-energy equivalence and conservation laws in nuclear decay.
+
+### Part (a)
+**Answer:**
+To calculate the binding energy, we first determine the mass defect ($\Delta m$) of the nucleus.
+1. The isotope ${^7_3Li}$ contains 3 protons and 4 neutrons ($7 - 3 = 4$).
+2. Using standard values: $m_p = 1.007276 \, u$ and $m_n = 1.008665 \, u$.
+3. Total mass of constituents $= (3 \times 1.007276) + (4 \times 1.008665) = 3.021828 + 4.034660 = 7.056488 \, u$.
+4. Mass defect $\Delta m = \text{Total mass of constituents} - \text{mass of atom}$ (note: for a neutral atom calculation using atomic mass, the electron masses cancel out):
+   $$\Delta m = 7.056488 \, u - 6.941 \, u = 0.115488 \, u$$
+5. Convert mass defect to energy using the conversion factor $1 \, u = 931.5 \, \text{MeV}/c^2$:
+   $$\text{Binding Energy} = 0.115488 \times 931.5 \approx 107.58 \, \text{MeV}$$
+
+**Explanation:**
+The binding energy is the energy required to disassemble a nucleus into its constituent protons and neutrons. We calculate the difference between the mass of the individual nucleons and the mass of the bound nucleus. This "mass defect" represents the energy released when the nucleus forms, calculated via $E = mc^2$.
+
+---
+
+### Part (b)
+**Answer:**
+In alpha decay, the nucleus emits an alpha particle ($^4_2He$). To conserve mass number ($A$) and atomic number ($Z$):
+$${^5_3Li} \rightarrow {^1_1H} + {^4_2He}$$
+*(Note: Alpha decay of ${^5_3Li}$ results in a proton and an alpha particle because the remaining nucleus is too unstable to exist as $^1_1H$ in a traditional alpha decay sense, but mathematically, the conservation holds as $5 \rightarrow 1 + 4$ and $3 \rightarrow 1 + 2$.)*
+
+**Explanation:**
+To write a nuclear equation, ensure that the sum of the top numbers (mass number) and the sum of the bottom numbers (atomic number) are equal on both sides of the arrow. An alpha particle is represented as $^4_2He$. Subtracting 4 from the mass number and 2 from the atomic number of the parent isotope gives the products.
+
+###QUESTION_TYPE
+Calculation question

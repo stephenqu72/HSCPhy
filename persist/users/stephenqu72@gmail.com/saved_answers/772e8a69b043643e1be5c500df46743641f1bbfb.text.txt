@@ -1,0 +1,21 @@
+The correct answer is **(D) Red giant region.**
+
+### Explanation
+
+To solve this problem, you need to understand the structure of the Hertzsprung-Russell (H-R) diagram, which plots stars based on their **luminosity** (vertical axis) against their **surface temperature** (horizontal axis, usually decreasing from left to right).
+
+1.  **Analyze the Physics:**
+    The Stefan-Boltzmann Law states that luminosity ($L$) is related to radius ($R$) and temperature ($T$) by the equation:
+    $$L \propto R^2 T^4$$
+    If a star has a **low temperature** (which would normally mean low luminosity), but it actually has **high luminosity**, the only way for the equation to hold is if the **radius ($R$) is extremely large**.
+
+2.  **Evaluate the H-R Diagram Regions:**
+    *   **Main Sequence:** These stars follow a standard path from hot/bright to cool/dim. A cool main sequence star (like an M-dwarf) has low luminosity.
+    *   **White Dwarf region:** These stars are very hot but have a very small radius, resulting in very low luminosity.
+    *   **Neutron star region:** These are not typically plotted on standard H-R diagrams, but they are extremely small and faint in visible light.
+    *   **Red Giant region:** These stars are "red" (low temperature) but "giant" (large radius). Because their radius is so large, they possess high luminosity despite their low surface temperature. They are located in the upper-right section of the H-R diagram.
+
+Therefore, a star with low temperature and high luminosity is found in the **Red giant region**.
+
+###QUESTION_TYPE
+Multiple choice

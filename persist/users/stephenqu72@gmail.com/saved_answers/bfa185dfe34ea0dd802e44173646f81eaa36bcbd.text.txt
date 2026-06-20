@@ -1,0 +1,21 @@
+### Answer and Explanation
+
+**Part a: Sketching the graph**
+When the slit width $d$ is decreased, the diffraction pattern becomes **wider**. The central maximum will be broader, and the secondary maxima will be further apart. In your sketch, ensure that the central peak is wider than the original graph and that the intensity distribution is spread over a larger distance on the screen.
+
+**Part b: Explanation using Heisenberg’s Uncertainty Principle**
+To receive full marks for this part, you must explicitly link the slit width to the uncertainty in position and momentum.
+
+1.  **Uncertainty in position ($\Delta x$):** By decreasing the slit width $d$, we are effectively constraining the electron to a smaller region of space as it passes through the slit. Therefore, the uncertainty in the electron's position perpendicular to the beam, $\Delta x$, decreases.
+2.  **Uncertainty in momentum ($\Delta p$):** According to Heisenberg’s uncertainty principle, $\Delta x \Delta p \geq \frac{h}{4\pi}$. If $\Delta x$ decreases, the uncertainty in the momentum of the electron in the direction perpendicular to the beam, $\Delta p_x$, must increase.
+3.  **Resulting diffraction:** The increase in $\Delta p_x$ means that when the electrons emerge from the slit, they have a wider range of possible transverse momenta. This causes the electrons to deflect more significantly from their original path, resulting in a broader (more spread out) diffraction pattern on the screen.
+
+***
+
+### Summary for Exam Success
+*   **The Concept:** This question tests your ability to bridge wave-particle duality and quantum mechanical constraints.
+*   **Key phrase to remember:** "Constraining position increases uncertainty in momentum."
+*   **Visual tip:** Always draw the central maximum of a single-slit diffraction pattern as being roughly twice as wide as the secondary maxima, and remember that "narrower slit = wider diffraction pattern."
+
+###QUESTION_TYPE
+Short answer

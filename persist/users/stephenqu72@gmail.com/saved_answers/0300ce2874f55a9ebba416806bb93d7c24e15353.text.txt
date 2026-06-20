@@ -1,0 +1,27 @@
+To find the decay constant ($\lambda$) for the radioactive sample, follow these steps:
+
+### 1. Determine the Half-life ($t_{1/2}$)
+The half-life is the time it takes for the radioactivity to reduce to half of its initial value.
+*   Initial radioactivity ($N_0$) at $t = 0$ is 100.
+*   The radioactivity reduces to 50 at $t = 2$ days.
+*   Therefore, the half-life $t_{1/2} = 2$ days.
+
+### 2. Convert Time to Seconds
+Since the options are given in units of $\text{s}^{-1}$, we must convert the half-life from days into seconds:
+*   $t_{1/2} = 2 \text{ days} \times 24 \text{ hours/day} \times 60 \text{ minutes/hour} \times 60 \text{ seconds/minute}$
+*   $t_{1/2} = 2 \times 86,400 \text{ s} = 172,800 \text{ s}$
+
+### 3. Calculate the Decay Constant ($\lambda$)
+The relationship between the decay constant and the half-life is given by the formula:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+
+Substitute the value of $t_{1/2}$ into the equation:
+$$\lambda = \frac{0.693}{172,800 \text{ s}}$$
+$$\lambda \approx 4.01 \times 10^{-6} \text{ s}^{-1}$$
+
+Comparing this result to the given options, it matches option (B).
+
+**Answer:** (B) $4 \times 10^{-6} \text{ s}^{-1}$
+
+###QUESTION_TYPE
+Multiple choice

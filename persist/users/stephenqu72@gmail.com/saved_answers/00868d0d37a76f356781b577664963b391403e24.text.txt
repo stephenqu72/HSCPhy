@@ -1,0 +1,32 @@
+### Teacher's Solution and Explanation
+
+#### (a) Explain why nuclei in a star have to be at a high temperature for fusion to take place.
+**Answer:** Nuclei are positively charged and experience an electrostatic repulsive force (Coulomb repulsion). For fusion to occur, nuclei must get close enough for the strong nuclear force to overcome this repulsion. High temperatures provide the high kinetic energy required to overcome the Coulomb barrier.
+**Explanation:** This is a conceptual physics question. You must link "positive charge" to "repulsion" and mention the "strong nuclear force" as the attractive force that acts only at extremely short ranges.
+
+#### (b) (i) Complete the nuclear equations.
+**Answers:**
+1. $^{15}_{8}\text{O} \rightarrow ^{15}_{7}\text{N} + ^{0}_{+1}e + \nu_{e}$ (The missing particle is a positron)
+2. $^{15}_{7}\text{N} + ^{1}_{1}\text{H} \rightarrow ^{12}_{6}\text{C} + ^{4}_{2}\text{He}$
+**Explanation:** Apply the laws of conservation of nucleon number (top numbers) and atomic number (bottom numbers). For the first, $15=15+0$ and $8=7+1$. For the second, $15+1=12+4$ and $7+1=6+2$.
+
+#### (b) (ii) Calculate the energy released.
+**Calculation:**
+1. **Mass of reactants:** $4 \times 1.00728 \text{ u} = 4.02912 \text{ u}$
+2. **Mass of products:** $4.00150 \text{ u} + 2(0.00055 \text{ u}) = 4.00260 \text{ u}$
+3. **Mass defect ($\Delta m$):** $4.02912 - 4.00260 = 0.02652 \text{ u}$
+4. **Energy conversion:** Using $1 \text{ u} = 931.5 \text{ MeV}$
+   $$E = 0.02652 \times 931.5 \text{ MeV} \approx 24.70 \text{ MeV}$$
+**Explanation:** Calculate the total mass of the reactants, then the total mass of the products. The difference is the mass lost, converted into energy using the mass-energy equivalence principle.
+
+#### (c) Compare the temperature of the core of red giant stars with main sequence stars.
+**Answer:** The core of a red giant star is hotter than that of a main sequence star.
+**Explanation:** Red giants are burning helium into heavier elements, which requires higher temperatures to overcome the greater electrostatic repulsion of heavier nuclei compared to the hydrogen burning in main sequence stars.
+
+#### (d) Describe the triple-alpha process in red giant stars.
+**Answer:** The triple-alpha process involves three alpha particles (helium nuclei) fusing to form a carbon-12 nucleus. 
+Equation: $^{4}_{2}\text{He} + ^{4}_{2}\text{He} \rightarrow ^{8}_{4}\text{Be}$, followed by $^{8}_{4}\text{Be} + ^{4}_{2}\text{He} \rightarrow ^{12}_{6}\text{C}$.
+**Explanation:** In red giants, after helium accumulates in the core, the star contracts until it is hot enough to fuse helium into carbon.
+
+###QUESTION_TYPE
+Calculation question

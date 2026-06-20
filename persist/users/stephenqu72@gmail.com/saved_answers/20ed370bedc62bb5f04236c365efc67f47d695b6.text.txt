@@ -1,0 +1,35 @@
+To solve this problem, we must apply the principle of **time dilation** from Einstein's Special Theory of Relativity.
+
+### Explanation
+
+When an object is moving at a velocity $v$ relative to an observer, the time interval $\Delta t$ observed by the stationary observer will be longer than the proper time interval $\Delta t_0$ (the time measured in the frame of reference where the object is at rest). This is expressed by the formula:
+
+$$\Delta t = \gamma \Delta t_0$$
+
+Where $\gamma$ (the Lorentz factor) is defined as:
+
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+**Step-by-step calculation:**
+
+1.  **Identify given values:**
+    *   Proper half-life ($\Delta t_0$) = $6.00$ days
+    *   Velocity ($v$) = $0.9c$
+
+2.  **Calculate the Lorentz factor ($\gamma$):**
+    $$\gamma = \frac{1}{\sqrt{1 - \frac{(0.9c)^2}{c^2}}} = \frac{1}{\sqrt{1 - 0.81}} = \frac{1}{\sqrt{0.19}}$$
+    $$\gamma \approx \frac{1}{0.43589} \approx 2.29416$$
+
+3.  **Calculate the observed half-life ($\Delta t$):**
+    $$\Delta t = 2.29416 \times 6.00 \text{ days}$$
+    $$\Delta t \approx 13.765 \text{ days}$$
+
+Rounding to two decimal places, we get **13.76 days**.
+
+Comparing this result to the given options, the correct answer is **C**.
+
+### ANSWER
+**C. 13.76 days.**
+
+###QUESTION_TYPE
+Multiple choice

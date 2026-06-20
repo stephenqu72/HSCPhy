@@ -1,0 +1,28 @@
+To determine which electron transition corresponds to a photon wavelength of $496\text{ nm}$, we must calculate the energy of the photon and match it to the difference between energy levels in the provided diagram.
+
+### Step 1: Calculate the energy of the photon
+The energy $E$ of a photon is given by the formula:
+$$E = \frac{hc}{\lambda}$$
+Where:
+- $h$ (Planck’s constant) $\approx 6.626 \times 10^{-34}\text{ J s}$
+- $c$ (speed of light) $\approx 3.00 \times 10^8\text{ m/s}$
+- $\lambda$ (wavelength) $= 496\text{ nm} = 496 \times 10^{-9}\text{ m}$
+
+Converting the answer to electron-volts (eV), where $1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$:
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{496 \times 10^{-9}} \approx 4.008 \times 10^{-19}\text{ J}$$
+$$E(\text{in eV}) = \frac{4.008 \times 10^{-19}}{1.602 \times 10^{-19}} \approx 2.50\text{ eV}$$
+
+### Step 2: Compare with energy level transitions
+We need to find a transition that results in an energy change of approximately $2.50\text{ eV}$. Since all options end at level 2 ($-3.4\text{ eV}$), we calculate the difference between higher levels and $-3.4\text{ eV}$:
+
+*   **A. 3 to 2:** $\Delta E = -3.4 - (-1.5) = 1.9\text{ eV}$
+*   **B. 4 to 2:** $\Delta E = -3.4 - (-0.9) = 2.5\text{ eV}$
+*   **C. 5 to 2:** $\Delta E = -3.4 - (-0.5) = 2.9\text{ eV}$
+*   **D. 6 to 2:** $\Delta E = -3.4 - (-0.4) = 3.0\text{ eV}$
+
+The transition from level 4 to level 2 results in a change of $2.5\text{ eV}$, which matches our calculated photon energy.
+
+**Answer:** The correct option is **B**.
+
+###QUESTION_TYPE
+Multiple choice

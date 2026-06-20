@@ -1,0 +1,29 @@
+To calculate the wavelength of the electron, we use the **de Broglie wavelength formula**:
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+### Given data:
+*   Speed of the electron ($v$) = $2.23 \times 10^6 \text{ m s}^{-1}$
+*   Mass of an electron ($m$) = $9.11 \times 10^{-31} \text{ kg}$ (Standard physical constant)
+*   Planck’s constant ($h$) = $6.626 \times 10^{-34} \text{ J s}$ (Standard physical constant)
+
+*(Note: The diameter provided in the question is extraneous information not required for the de Broglie calculation.)*
+
+### Calculation:
+Substitute the values into the formula:
+
+$$\lambda = \frac{6.626 \times 10^{-34} \text{ J s}}{(9.11 \times 10^{-31} \text{ kg}) \times (2.23 \times 10^6 \text{ m s}^{-1})}$$
+
+$$\lambda = \frac{6.626 \times 10^{-34}}{2.03153 \times 10^{-24}}$$
+
+$$\lambda \approx 3.26 \times 10^{-10} \text{ m}$$
+
+### How to solve it:
+1.  **Identify the physics principle:** This is a matter-wave problem. Any particle with mass and velocity has an associated de Broglie wavelength.
+2.  **Select the formula:** Use $\lambda = \frac{h}{mv}$.
+3.  **Use constants:** You must recall or retrieve the mass of an electron ($m_e$) and Planck's constant ($h$) from your data sheet. 
+4.  **Perform the calculation:** Ensure your units are in SI base units (kg, m/s) so that the resulting wavelength is in meters.
+5.  **Ignore distractors:** The question provides the diameter of the atom ($1.0 \times 10^{-10} \text{ m}$). Since the wavelength depends only on the particle's momentum, you do not need to perform any geometry or circumference calculations for this specific question.
+
+###QUESTION_TYPE
+Calculation question

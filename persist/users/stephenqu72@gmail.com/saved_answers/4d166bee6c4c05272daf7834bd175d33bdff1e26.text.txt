@@ -1,0 +1,25 @@
+### ANSWER AND EXPLANATION
+
+#### Part (a)
+**Explanation:**
+To gain full marks for this 4-mark question, you must link the state of **hydrostatic equilibrium** to the fusion process and explain how the transition occurs once the fuel is exhausted.
+
+*   **Main Sequence:** Rigel A exists in hydrostatic equilibrium, where the outward radiation pressure produced by hydrogen fusion in the core perfectly balances the inward gravitational force.
+*   **Running out of fuel:** As hydrogen is depleted, the core contracts, increasing temperature and allowing for the fusion of heavier elements (e.g., Helium into Carbon, and eventually up to Iron).
+*   **Expansion:** The increased energy production causes the outer layers of the star to expand significantly, leading to the formation of a red supergiant.
+*   **Death:** Once iron fusion begins (which is endothermic), there is no longer sufficient outward pressure to counteract gravity. The core collapses catastrophically, leading to a supernova explosion.
+
+#### Part (b)
+**Explanation:**
+To show consistency with Wien’s Law ($\lambda_{max} T = \text{constant} \approx 2.9 \times 10^{-3} \text{ m K}$), you need to select two coordinate points from the graph and verify that their product is approximately equal to the Wien constant.
+
+1.  **Select Point 1:** At $T = 5000 \text{ K}$, the graph shows $\lambda_{max} = 0.58 \times 10^{-6} \text{ m}$ (approx).
+    Calculation: $5000 \times 0.58 \times 10^{-6} = 2.9 \times 10^{-3} \text{ m K}$.
+2.  **Select Point 2:** At $T = 10000 \text{ K}$, the graph shows $\lambda_{max} = 0.29 \times 10^{-6} \text{ m}$ (approx).
+    Calculation: $10000 \times 0.29 \times 10^{-6} = 2.9 \times 10^{-3} \text{ m K}$.
+3.  **Conclusion:** Since the product $\lambda_{max} T$ remains constant (approximately $2.9 \times 10^{-3} \text{ m K}$) for different points on the curve, the graph demonstrates an inverse relationship consistent with Wien’s Law ($\lambda_{max} \propto \frac{1}{T}$).
+
+***
+
+###QUESTION_TYPE
+Data analysis questions

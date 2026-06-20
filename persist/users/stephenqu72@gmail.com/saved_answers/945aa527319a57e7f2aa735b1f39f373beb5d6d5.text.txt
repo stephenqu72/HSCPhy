@@ -1,0 +1,25 @@
+To determine the parent radionuclide of Technetium-99 ($^{99}\text{Tc}$) undergoing beta minus ($\beta^-$) decay, we must apply the laws of conservation of mass number ($A$) and atomic number ($Z$).
+
+### Step-by-Step Explanation
+
+1.  **Understand Beta Minus Decay:** In $\beta^-$ decay, a neutron in the nucleus converts into a proton and an electron (which is emitted as a beta particle).
+    *   The mass number ($A$) remains the same because the total number of nucleons (protons + neutrons) does not change.
+    *   The atomic number ($Z$) increases by 1, because a neutron has turned into a proton.
+
+2.  **Identify the Product:** The product is Technetium-99. Looking at the periodic table, Technetium has an atomic number of $Z = 43$. Therefore, the product is $^{99}_{43}\text{Tc}$.
+
+3.  **Set up the Equation:** Let the parent nucleus be $X$ with mass number $A$ and atomic number $Z$. The decay equation is:
+    $$^A_Z X \rightarrow ^{99}_{43}\text{Tc} + ^0_{-1}e$$
+
+4.  **Solve for $A$ and $Z$:**
+    *   **Mass Number ($A$):** $A = 99 + 0 = 99$.
+    *   **Atomic Number ($Z$):** $Z - 1 = 43$, which means $Z = 43 + 1 = 44$.
+
+5.  **Identify the Element:** An atomic number of $Z = 44$ corresponds to the element **Ruthenium (Ru)**. Combining this with the mass number, we get Ruthenium-99 ($^{99}\text{Ru}$).
+
+Therefore, the parent radionuclide is **ruthenium-99**.
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,32 @@
+To solve this problem, we need to determine the energy difference between two quantum states that corresponds to an absorbed photon with a wavelength of $\lambda = 122\text{ nm}$.
+
+### Step 1: Calculate the energy of the photon
+The energy $E$ of a photon is given by the formula:
+$$E = \frac{hc}{\lambda}$$
+
+Using the constants:
+- $h \approx 4.136 \times 10^{-15}\text{ eV s}$
+- $c \approx 3.00 \times 10^8\text{ m/s}$
+- $\lambda = 122 \times 10^{-9}\text{ m}$
+
+$$E = \frac{(4.136 \times 10^{-15}) \times (3.00 \times 10^8)}{122 \times 10^{-9}}$$
+$$E \approx 10.17\text{ eV}$$
+
+### Step 2: Analyze the transitions
+For a photon to be **absorbed**, the electron must move from a lower energy level to a higher energy level. This eliminates options C and D (which represent emission). 
+
+Now, let's calculate the energy differences ($\Delta E$) for the remaining options:
+
+*   **Option A (1 to 2):**
+    $$\Delta E = E_2 - E_1 = -3.4\text{ eV} - (-13.6\text{ eV}) = 10.2\text{ eV}$$
+
+*   **Option B (1 to 3):**
+    $$\Delta E = E_3 - E_1 = -1.5\text{ eV} - (-13.6\text{ eV}) = 12.1\text{ eV}$$
+
+### Conclusion
+The energy difference for the transition from state 1 to state 2 is $10.2\text{ eV}$, which matches our calculated photon energy of $10.17\text{ eV}$ (allowing for slight rounding in constants).
+
+Therefore, the correct answer is **A**.
+
+###QUESTION_TYPE
+Multiple choice

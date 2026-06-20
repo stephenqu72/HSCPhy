@@ -1,0 +1,35 @@
+To determine the correct identities of the particles, we must trace the nuclear reactions in the CNO cycle, ensuring that the mass numbers ($A$) and atomic numbers ($Z$) are conserved at each step.
+
+### Step-by-Step Analysis:
+
+1.  **Particle (iii):** 
+    Looking at the step involving $^{13}N$, it undergoes beta-plus decay ($\beta^+$), emitting a positron ($e^+$) and a neutrino ($\nu$). This transforms the nucleus into carbon-13.
+    The reaction is: $^{13}N \rightarrow ^{13}C + e^+ + \nu$.
+    Therefore, **(iii) is $^{13}C$**.
+
+2.  **Particle (i):** 
+    Look at the final step where $^{15}N$ interacts with a proton ($^{1}H$ or $p$). This reaction produces $^{12}C$ and an alpha particle ($^{4}He$). 
+    The reaction is: $^{15}N + ^{1}H \rightarrow ^{12}C + ^{4}He$.
+    Therefore, **(i) is $^{4}He$**.
+
+3.  **Particle (ii):** 
+    Looking at the step where $^{15}O$ decays, we see it emits a neutrino ($\nu$) and a positron ($e^+$) to become $^{15}N$.
+    The reaction is: $^{15}O \rightarrow ^{15}N + e^+ + \nu$.
+    Therefore, **(ii) is $e^+$**.
+
+### Conclusion:
+By checking our findings against the options:
+- i = $^{4}He$
+- ii = $e^+$
+- iii = $^{13}C$
+
+This corresponds exactly to **Option (C)**.
+
+### How to solve this:
+When solving nuclear reaction diagrams, always perform a **"Nucleon/Charge Balance Check"**:
+*   **Conservation of Mass Number ($A$):** The sum of the superscripts on the left side of the arrow must equal the sum on the right side.
+*   **Conservation of Atomic Number ($Z$):** The sum of the subscripts (or protons) on the left must equal the sum on the right.
+*   By applying these two conservation laws to the specific nodes labeled i, ii, and iii, you can deduce the missing particle even if you haven't memorized the entire CNO cycle.
+
+###QUESTION_TYPE
+Multiple choice

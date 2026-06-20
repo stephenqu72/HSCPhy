@@ -1,0 +1,37 @@
+### Answer and Explanation
+
+#### Part a.
+To identify the transition, we must calculate the energy of the photon using the formula $E = \frac{hc}{\lambda}$.
+
+**Constants:**
+- Planck's constant $h = 6.626 \times 10^{-34}\text{ J s}$
+- Speed of light $c = 3.00 \times 10^8\text{ m/s}$
+- Conversion factor: $1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$
+- Wavelength $\lambda = 565\text{ nm} = 565 \times 10^{-9}\text{ m}$
+
+**Calculation:**
+$$E = \frac{(6.626 \times 10^{-34}) \times (3.00 \times 10^8)}{565 \times 10^{-9}} \approx 3.518 \times 10^{-19}\text{ J}$$
+Convert to eV:
+$$E = \frac{3.518 \times 10^{-19}\text{ J}}{1.602 \times 10^{-19}\text{ J/eV}} \approx 2.2\text{ eV}$$
+
+Now, look for a difference between energy levels in Figure 16 equal to $2.2\text{ eV}$:
+- $8.9\text{ eV} - 6.7\text{ eV} = 2.2\text{ eV}$
+
+**Conclusion:** The transition is from the **$8.9\text{ eV}$ level to the $6.7\text{ eV}$ level**.
+
+---
+
+#### Part b.
+When an atom is in the $9.8\text{ eV}$ state, it can transition to any lower energy level. To find the total number of spectral lines, we count all unique downward transitions:
+
+1. From **$9.8\text{ eV}$**: can go to $8.9, 6.7, 4.9, 0$ ($4$ lines)
+2. From **$8.9\text{ eV}$**: can go to $6.7, 4.9, 0$ ($3$ lines)
+3. From **$6.7\text{ eV}$**: can go to $4.9, 0$ ($2$ lines)
+4. From **$4.9\text{ eV}$**: can go to $0$ ($1$ line)
+
+**Total number of lines:** $4 + 3 + 2 + 1 = 10$.
+
+*Note: Alternatively, for $n$ energy levels, the number of transitions is given by the combination formula $\binom{n}{2} = \frac{n(n-1)}{2}$. With $5$ levels ($n=5$): $\frac{5 \times 4}{2} = 10$.*
+
+###QUESTION_TYPE
+Calculation question

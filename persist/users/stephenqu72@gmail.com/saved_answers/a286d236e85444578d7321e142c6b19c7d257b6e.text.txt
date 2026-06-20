@@ -1,0 +1,26 @@
+To determine the age of the fossil, we use the principle of radioactive half-life. The half-life is the time required for half of the radioactive nuclei in a sample to decay.
+
+### Step-by-Step Solution:
+
+1.  **Understand the relationship between half-lives and remaining material:**
+    After each half-life, the amount of the original isotope is reduced by half. We can represent the remaining fraction as:
+    - 0 half-lives: $1$ (or $1/1$)
+    - 1 half-life: $1/2$
+    - 2 half-lives: $1/4$
+    - 3 half-lives: $1/8$
+    - 4 half-lives: $1/16$
+    - 5 half-lives: $1/32$
+
+2.  **Determine the number of half-lives passed:**
+    Since the fossil contains $1/32$ of its original Carbon-14, it has undergone **5 half-lives** ($2^5 = 32$).
+
+3.  **Calculate the total age:**
+    The half-life of Carbon-14 is given as $5\,730$ years. To find the total age of the fossil, we multiply the number of half-lives by the duration of one half-life:
+    $$\text{Total age} = \text{number of half-lives} \times \text{half-life duration}$$
+    $$\text{Total age} = 5 \times 5\,730 \text{ years}$$
+    $$\text{Total age} = 28\,650 \text{ years}$$
+
+Comparing this result to the given options, the correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

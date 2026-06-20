@@ -1,0 +1,31 @@
+To solve this problem, we need to consider the impact of alpha and beta decay on the nucleus.
+
+### Physics Principles:
+1.  **Alpha ($\alpha$) decay:** An alpha particle is a helium nucleus ($^4_2\text{He}$). It reduces the nucleon number ($A$) by $4$ and the proton number ($Z$) by $2$.
+2.  **Beta ($\beta^-$) decay:** A beta particle is an electron ($^0_{-1}\text{e}$). It does not change the nucleon number, but it increases the proton number by $1$ ($Z \rightarrow Z+1$).
+
+### Step-by-Step Calculation:
+Let $x$ be the number of alpha particles emitted and $y$ be the number of beta particles emitted.
+
+**1. Analyze the change in nucleon number ($A$):**
+The nucleon number decreases by $4$. Only alpha particles affect the nucleon number.
+$$-4x = -4 \implies x = 1$$
+So, $1$ alpha particle must have been emitted.
+
+**2. Analyze the change in proton number ($Z$):**
+The total change in proton number must be $0$ because the proton number is "unchanged."
+The change from $x$ alpha particles is $-2x$.
+The change from $y$ beta particles is $+1y$.
+$$(-2 \times x) + (1 \times y) = 0$$
+Substitute $x = 1$ into the equation:
+$$-2(1) + y = 0$$
+$$-2 + y = 0 \implies y = 2$$
+So, $2$ beta particles must have been emitted.
+
+**Conclusion:**
+To achieve a decrease of $4$ in the nucleon number and a net change of $0$ in the proton number, the decay process must involve **1 alpha particle and 2 beta particles**.
+
+Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

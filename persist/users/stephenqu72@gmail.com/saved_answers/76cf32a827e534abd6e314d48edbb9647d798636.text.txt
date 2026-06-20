@@ -1,0 +1,40 @@
+To solve this problem, we need to track the radioactive decay of the isotope using the provided graph.
+
+### Step-by-Step Explanation:
+
+**1. Understand the goal:**
+The scientist starts with a $4.00\text{ g}$ sample. We need to find the time it takes for this sample to decay until exactly $100\text{ mg}$ remains. Note that $4.00\text{ g} = 4000\text{ mg}$.
+
+**2. Find the half-life from the graph:**
+*   At $t = 0\text{ s}$, the mass is $6000\text{ mg}$ (as shown on the graph).
+*   The mass after one half-life is $6000 / 2 = 3000\text{ mg}$. Looking at the graph, $3000\text{ mg}$ corresponds to a time of approximately $500\text{ s}$.
+*   The mass after two half-lives is $3000 / 2 = 1500\text{ mg}$. This occurs at $1000\text{ s}$.
+*   The mass after three half-lives is $1500 / 2 = 750\text{ mg}$. This occurs at $1500\text{ s}$.
+*   The mass after four half-lives is $750 / 2 = 375\text{ mg}$. This occurs at $2000\text{ s}$.
+
+**3. Use the decay constant approach:**
+The general equation for radioactive decay is:
+$$N(t) = N_0 \times (0.5)^{\frac{t}{T_{1/2}}}$$
+Where:
+*   $N_0 = 4000\text{ mg}$ (initial amount)
+*   $N(t) = 100\text{ mg}$ (final amount)
+*   $T_{1/2} = 500\text{ s}$ (half-life determined above)
+
+Substitute the values:
+$$100 = 4000 \times (0.5)^{\frac{t}{500}}$$
+$$\frac{100}{4000} = (0.5)^{\frac{t}{500}}$$
+$$0.025 = (0.5)^{\frac{t}{500}}$$
+
+Take the logarithm ($\ln$) of both sides:
+$$\ln(0.025) = \frac{t}{500} \ln(0.5)$$
+$$\frac{\ln(0.025)}{\ln(0.5)} = \frac{t}{500}$$
+$$5.3219 \approx \frac{t}{500}$$
+$$t \approx 5.3219 \times 500 \approx 2660.97\text{ s}$$
+
+Rounding to the nearest option provided, we get $2660\text{ s}$.
+
+**Conclusion:**
+The scientist has $2660\text{ s}$ before the sample decays below the required threshold. The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

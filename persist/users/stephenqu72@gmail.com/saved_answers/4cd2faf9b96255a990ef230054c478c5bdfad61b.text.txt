@@ -1,0 +1,25 @@
+Hello! As an HSC Physics teacher, I would be happy to walk you through this question. This topic, the development of the quantum model of the atom, is a core component of the "From the Universe to the Atom" module.
+
+### Answer
+The correct answer is **C. Both statement A and statement B.**
+
+### Explanation
+
+To solve this, we need to evaluate the accuracy of each statement based on our understanding of atomic physics.
+
+**Statement A: Correct**
+In the Schrödinger model (the quantum mechanical model), the state of an electron is described by a mathematical function called a **wavefunction** ($\psi$). According to the Born interpretation, the square of the magnitude of the wavefunction, $|\psi|^2$, gives the **probability density** of finding an electron at a specific point in space. This represents a fundamental shift from the Bohr model, which assigned electrons to definite circular orbits, to the quantum model, which assigns electrons to "orbitals" or regions of probability.
+
+**Statement B: Correct**
+De Broglie’s hypothesis proposed that particles, such as electrons, exhibit wave-like properties with a wavelength of $\lambda = \frac{h}{mv}$. Bohr’s second postulate stated that the angular momentum of an electron is quantized in integer multiples of $\frac{h}{2\pi}$:
+$$mvr = \frac{nh}{2\pi}$$
+If we substitute the de Broglie wavelength into the condition for constructive interference of a standing wave around a circular orbit (where the circumference $2\pi r$ must equal an integer number of wavelengths $n\lambda$), we get:
+$$2\pi r = n\lambda = n\left(\frac{h}{mv}\right)$$
+Rearranging this yields:
+$$mvr = \frac{nh}{2\pi}$$
+This demonstrates that de Broglie’s wave hypothesis provides the physical justification for why Bohr's "allowed" orbits are quantized; the electron must form a stable standing wave to avoid destructive interference. Therefore, the statement is correct.
+
+Since both statements are factually accurate, the correct choice is **C**.
+
+###QUESTION_TYPE
+Multiple choice

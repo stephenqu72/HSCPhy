@@ -1,0 +1,28 @@
+To solve this problem, we need to determine how many half-lives have passed and calculate the remaining amount of the isotope before finding the decayed portion.
+
+### Step-by-Step Explanation:
+
+1.  **Calculate the total time in minutes:**
+    The total time is given as $3\frac{1}{2}$ hours. Since there are 60 minutes in an hour:
+    $$3.5 \text{ hours} \times 60 \text{ minutes/hour} = 210 \text{ minutes}$$
+
+2.  **Calculate the number of half-lives ($n$):**
+    The half-life of the isotope is 30 minutes.
+    $$n = \frac{\text{Total time}}{\text{Half-life}} = \frac{210}{30} = 7 \text{ half-lives}$$
+
+3.  **Calculate the remaining fraction of the isotope:**
+    The amount remaining after $n$ half-lives is given by the formula $\left(\frac{1}{2}\right)^n$:
+    $$\text{Remaining fraction} = \left(\frac{1}{2}\right)^7 = \frac{1}{128}$$
+    To express this as a percentage:
+    $$\frac{1}{128} \approx 0.0078125 = 0.78\%$$
+
+4.  **Calculate the percentage decayed:**
+    The percentage that has decayed is the total initial amount (100%) minus the remaining amount:
+    $$\text{Decayed percentage} = 100\% - 0.78\% = 99.22\%$$
+
+Looking at the options provided, **99%** (Option B) is the closest approximation to our calculated value of 99.22%.
+
+**Correct Answer:** (B) 99%
+
+###QUESTION_TYPE
+Multiple choice

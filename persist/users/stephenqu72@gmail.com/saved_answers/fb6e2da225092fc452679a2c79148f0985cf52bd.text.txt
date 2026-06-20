@@ -1,0 +1,29 @@
+### Solution and Explanation
+
+#### a) Show that the momentum of the electrons is $p = 2.7 \times 10^{-22} \text{ kg ms}^{-1}$.
+
+Since the electrons are traveling at $0.70c$, we must use the relativistic momentum formula:
+$$p = \gamma m_e v = \frac{m_e v}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+Given $v = 0.70c$:
+$$p = \frac{(9.11 \times 10^{-31} \text{ kg}) \times (0.70 \times 3.0 \times 10^8 \text{ m/s})}{\sqrt{1 - 0.70^2}}$$
+$$p = \frac{1.913 \times 10^{-22}}{\sqrt{0.51}} \approx \frac{1.913 \times 10^{-22}}{0.714} \approx 2.68 \times 10^{-22} \text{ kg ms}^{-1}$$
+Rounding to two significant figures gives $2.7 \times 10^{-22} \text{ kg ms}^{-1}$.
+
+#### b) Describe how the data from this experiment provides qualitative evidence to support this proposal.
+
+The experiment shows the formation of an interference pattern (multiple maxima and minima) when electrons pass through a double slit. Interference is a property exclusive to waves. Since electrons (which are particles) exhibit this behavior, it provides qualitative evidence that electrons possess wave-like characteristics, supporting the de Broglie hypothesis.
+
+#### c) Explain how the data from this experiment provides quantitative evidence to support this proposal.
+
+To provide quantitative evidence, we compare the de Broglie wavelength to the interference pattern measurements.
+1.  **Calculate the de Broglie wavelength:**
+    $$\lambda = \frac{h}{p} = \frac{6.626 \times 10^{-34} \text{ J s}}{2.7 \times 10^{-22} \text{ kg ms}^{-1}} \approx 2.45 \times 10^{-12} \text{ m}$$
+2.  **Use the double-slit interference formula:** $d \sin \theta = n \lambda$ (for maxima).
+    From the graph, the 3rd order maximum is at $\theta \approx 3.3 \times 10^{-5}$ radians (using the $x$-axis scale $\times 10^{-5}$). 
+    For small angles, $\sin \theta \approx \theta$.
+    Using $d = 220 \text{ nm} = 220 \times 10^{-9} \text{ m}$ and $n=3$:
+    $$\lambda = \frac{d \sin \theta}{n} = \frac{220 \times 10^{-9} \times 3.3 \times 10^{-5}}{3} \approx 2.42 \times 10^{-12} \text{ m}$$
+3.  **Conclusion:** The calculated wavelength from the interference pattern ($2.42 \times 10^{-12} \text{ m}$) matches the theoretical de Broglie wavelength ($2.45 \times 10^{-12} \text{ m}$) within experimental uncertainty, providing strong quantitative support for de Broglie’s proposal.
+
+###QUESTION_TYPE
+Calculation question

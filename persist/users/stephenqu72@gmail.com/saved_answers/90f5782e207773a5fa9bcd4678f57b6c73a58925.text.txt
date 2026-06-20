@@ -1,0 +1,29 @@
+To solve this problem, we need to analyze the semiconductor physics shown in the diagrams.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Crystal Lattice Structures (T and U):**
+    *   **Structure T:** The doping atom has 5 valence electrons (since there are 4 bonds forming the lattice and one extra electron sitting by itself). An element with 5 valence electrons (like Phosphorus) creates an **$n$-type** semiconductor because it provides an extra, mobile electron.
+    *   **Structure U:** The doping atom has 3 valence electrons (there is a "hole" or missing electron in one of the bonds). An element with 3 valence electrons (like Boron) creates a **$p$-type** semiconductor because it creates an electron deficiency, or "hole."
+
+2.  **Analyze the Band Gap Diagrams (X and Y):**
+    *   **Diagram X:** Shows a distinct gap between the valence and conduction bands. This represents a typical intrinsic or doped semiconductor where a specific amount of energy is required to jump the gap.
+    *   **Diagram Y:** Shows the valence and conduction bands overlapping. This represents a conductor or a highly doped region where the Fermi level is shifted into the conduction band (or valence band), essentially removing the effective energy gap for charge carriers. In the context of HSC physics questions, $n$-type and $p$-type semiconductors are often represented by shifting the Fermi level within the band gap (creating donor/acceptor levels). However, looking at the choices provided:
+    *   Comparing the options:
+        *   If **T** is $n$-type and **U** is $p$-type:
+            *   Choice B suggests $n$-type = T, Y
+            *   Choice C suggests $p$-type = T, Y
+        *   Let's look at standard physics representations: Often, $n$-type is associated with extra electrons (T) and $p$-type with holes (U). In this specific multiple-choice question format, we look for the consistent mapping.
+        *   Looking at choice **C**: $p$-type is listed with structure **T**. Wait, T has an extra electron (n-type).
+        *   Looking at choice **B**: $n$-type is listed with structure **T** (correct) and diagram **Y**.
+        *   Looking at choice **A**: $n$-type is listed with structure **U** (incorrect, U is $p$-type).
+
+3.  **Conclusion:**
+    *   Structure **T** is $n$-type (extra electron).
+    *   Structure **U** is $p$-type (hole/missing electron).
+    *   Matching **n-type** to **T** (as seen in choice B), we identify the correct row.
+
+The correct answer is **B**.
+
+###QUESTION_TYPE
+Multiple choice

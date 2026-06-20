@@ -1,0 +1,32 @@
+To find the approximate total binding energy for a nucleus of Tungsten-184 ($^{184}_{74}\text{W}$), follow these steps:
+
+### 1. Identify the number of nucleons
+The notation $^{184}_{74}\text{W}$ indicates that the mass number (number of nucleons, $A$) is **184**.
+
+### 2. Determine the binding energy per nucleon from the graph
+Locate $A = 184$ on the horizontal axis of the graph. Looking at the curve, we find the corresponding y-value (average binding energy per nucleon). For $A$ around 180–190, the curve is at approximately **8 MeV** per nucleon.
+
+### 3. Calculate the total binding energy in MeV
+The total binding energy ($BE_{total}$) is calculated by multiplying the number of nucleons ($A$) by the binding energy per nucleon:
+$$BE_{total} \approx 184 \times 8\text{ MeV} = 1472\text{ MeV}$$
+
+### 4. Convert the energy to Joules
+We are given that $1\text{ eV} = 1.6 \times 10^{-19}\text{ J}$. Therefore, $1\text{ MeV} = 1.6 \times 10^{-13}\text{ J}$.
+$$BE_{total} \approx 1472 \times (1.6 \times 10^{-13}\text{ J})$$
+$$BE_{total} \approx 2355.2 \times 10^{-13}\text{ J}$$
+$$BE_{total} \approx 235.5 \times 10^{-12}\text{ J}$$
+
+Since the prefix pico ($p$) is $10^{-12}$, the energy is approximately **235 pJ**.
+
+Comparing this to the provided options, **230 pJ** is the closest approximation.
+
+**Correct Option: (D)**
+
+### Explanation Summary
+*   **Step 1:** Extract the mass number $A=184$ from the isotope notation.
+*   **Step 2:** Use the provided graph to estimate the binding energy per nucleon for $A=184$, which is roughly $8\text{ MeV}$.
+*   **Step 3:** Calculate total binding energy by multiplying $A$ by the value from the graph.
+*   **Step 4:** Convert the unit from $\text{MeV}$ to Joules using the conversion factor $1\text{ MeV} = 1.6 \times 10^{-13}\text{ J}$, and then apply the prefix "p" ($10^{-12}$).
+
+###QUESTION_TYPE
+Multiple choice

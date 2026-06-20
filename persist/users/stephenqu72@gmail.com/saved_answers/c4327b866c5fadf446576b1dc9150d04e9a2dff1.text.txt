@@ -1,0 +1,35 @@
+### Answer
+
+**(a) Comparison of Half-life and Decay Constant**
+
+*   **Source X:**
+    *   Initial count rate $A_0 = 200$. Half of this is $100$.
+    *   Looking at the graph, $A = 100$ occurs at $t = 1$ year. Therefore, $t_{1/2}(X) = 1$ year.
+    *   The decay constant is calculated using $\lambda = \frac{\ln(2)}{t_{1/2}}$.
+    *   $\lambda_X = \frac{0.693}{1} \approx 0.693 \text{ year}^{-1}$.
+
+*   **Source Y:**
+    *   Initial count rate $A_0 = 160$. Half of this is $80$.
+    *   Looking at the graph, $A = 80$ occurs at $t = 2$ years. Therefore, $t_{1/2}(Y) = 2$ years.
+    *   $\lambda_Y = \frac{0.693}{2} \approx 0.347 \text{ year}^{-1}$.
+
+*   **Conclusion:** Source X has a shorter half-life ($1$ year vs $2$ years) and consequently a larger decay constant ($0.693 \text{ year}^{-1}$ vs $0.347 \text{ year}^{-1}$) compared to Source Y. This indicates that Source X decays twice as fast as Source Y.
+
+**(b) Accounting for the lack of observable mass change**
+Radioactive decay involves the transmutation of atoms, but the actual mass loss associated with the energy released via $E = \Delta m c^2$ is extremely small (on the order of $10^{-11} \text{ kg}$ per decay event). Because the mass of the nucleus is so large compared to the mass defect energy equivalent, the total mass of the sample remains essentially unchanged for the purposes of a standard laboratory scale.
+
+---
+
+### How to Solve
+
+1.  **For Part (a):**
+    *   **Identify the half-life ($t_{1/2}$):** Find the initial value ($A_0$) on the y-axis for each source. Move along the x-axis to find the time $t$ where the count rate reaches $\frac{A_0}{2}$.
+    *   **Apply the formula:** Use the relationship $\lambda = \frac{\ln(2)}{t_{1/2}}$ to calculate the decay constant. Ensure your units are consistent (years and $\text{year}^{-1}$).
+    *   **Compare:** Use comparative language (e.g., "greater than," "twice as much") to relate the two values.
+
+2.  **For Part (b):**
+    *   Recall the principle of mass-energy equivalence ($E = mc^2$).
+    *   Recognize that in radioactive decay, the energy released ($Q$-value) is massive in terms of MeV (mega electron-volts) but infinitesimal when converted into kilograms (mass defect). Even if millions of nuclei decay, the total mass lost is far below the sensitivity of standard weighing equipment.
+
+###QUESTION_TYPE
+Data analysis questions

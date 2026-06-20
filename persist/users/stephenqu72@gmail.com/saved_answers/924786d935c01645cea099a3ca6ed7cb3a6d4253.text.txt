@@ -1,0 +1,24 @@
+To solve this problem, we must derive the total energy expression for an electron in a Bohr orbit and then use the given ground state energy to find the orbital velocity.
+
+### Derivation
+For an electron of mass $m_e$ orbiting a nucleus with charge $q$ at radius $r$, the centripetal force is provided by the electrostatic (Coulomb) force:
+$$\frac{m_e v^2}{r} = \frac{q^2}{4\pi \epsilon_0 r^2}$$
+Multiplying both sides by $r$, we find the kinetic energy ($K$):
+$$m_e v^2 = \frac{q^2}{4\pi \epsilon_0 r} \implies K = \frac{1}{2} m_e v^2 = \frac{q^2}{8\pi \epsilon_0 r}$$
+The total energy $E_T$ is the sum of kinetic energy ($K$) and potential energy ($U_e$):
+$$E_T = K + U_e = \frac{q^2}{8\pi \epsilon_0 r} - \frac{q^2}{4\pi \epsilon_0 r} = -\frac{q^2}{8\pi \epsilon_0 r}$$
+From this, we see that $E_T = -K$. Therefore:
+$$E_T = -\frac{1}{2} m_e v^2 \implies |E_T| = \frac{1}{2} m_e v^2$$
+
+### Calculation
+Given $E = -13.6 \text{ eV}$, we must first convert this to Joules:
+$$13.6 \text{ eV} \times 1.602 \times 10^{-19} \text{ J/eV} \approx 2.179 \times 10^{-18} \text{ J}$$
+Using the mass of the electron $m_e \approx 9.109 \times 10^{-31} \text{ kg}$ (Note: the mass of the hydrogen atom provided in the prompt, $1.6736 \times 10^{-27} \text{ kg}$, is the mass of the nucleus/proton, but the velocity is determined by the electron's mass):
+$$2.179 \times 10^{-18} = \frac{1}{2} (9.109 \times 10^{-31}) v^2$$
+$$v^2 = \frac{2 \times 2.179 \times 10^{-18}}{9.109 \times 10^{-31}} \approx 4.784 \times 10^{12}$$
+$$v \approx \sqrt{4.784 \times 10^{12}} \approx 2.19 \times 10^6 \text{ m/s}$$
+
+*Note: The velocity of the electron in the ground state is approximately $2.19 \times 10^6 \text{ m/s}$.*
+
+###QUESTION_TYPE
+Calculation question

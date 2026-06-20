@@ -1,0 +1,25 @@
+To solve this problem, we need to determine how many half-lives have passed and apply that to the initial mass of the substance.
+
+### Step-by-Step Solution:
+
+1.  **Identify the number of half-lives:**
+    We are given the total time elapsed ($t = 90$ years) and the half-life of the substance ($T_{1/2} = 30$ years). The number of half-lives ($n$) is calculated by dividing the total time by the half-life period:
+    $$n = \frac{t}{T_{1/2}} = \frac{90}{30} = 3$$
+    This means the sample will undergo three successive halving events.
+
+2.  **Calculate the remaining mass:**
+    We start with an initial mass ($M_0 = 120$ g). We can calculate the remaining mass ($M_f$) after each half-life:
+    *   After 1st half-life (30 years): $120 \times 0.5 = 60$ g
+    *   After 2nd half-life (60 years): $60 \times 0.5 = 30$ g
+    *   After 3rd half-life (90 years): $30 \times 0.5 = 15$ g
+
+    Alternatively, using the formula $M_f = M_0 \times (0.5)^n$:
+    $$M_f = 120 \times (0.5)^3$$
+    $$M_f = 120 \times 0.125$$
+    $$M_f = 15 \text{ g}$$
+
+**Conclusion:**
+After 90 years, the mass of caesium-137 remaining is 15 g. Comparing this to the given options, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

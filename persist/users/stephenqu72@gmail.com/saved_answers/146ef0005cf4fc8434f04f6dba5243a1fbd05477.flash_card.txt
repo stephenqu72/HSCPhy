@@ -1,0 +1,8 @@
+### Front
+Why must a synchrotron’s magnetic field strength ($B$) or path radius ($r$) increase as protons are accelerated?
+
+### Back
+- **Key idea:** To maintain circular motion as velocity ($v$) increases, the centripetal force must increase proportionally.
+- **Formula / law / constant / figure:** $r = \frac{mv}{qB}$ (derived from $qvB = \frac{mv^2}{r}$).
+- **When to use it:** When explaining the design of particle accelerators (cyclotrons/synchrotrons) and how magnetic fields maintain particle confinement at high speeds.
+- **Common trap:** Forgetting that at ultra-relativistic speeds, $m$ must be replaced by relativistic mass ($m_{rel} = \gamma m_0$), requiring even greater magnetic strength than classical physics predicts.

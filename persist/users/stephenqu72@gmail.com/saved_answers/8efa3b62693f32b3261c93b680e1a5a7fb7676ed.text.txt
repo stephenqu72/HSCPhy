@@ -1,0 +1,31 @@
+To solve this problem, we must first account for the **background radiation**. The total radiation measured includes the source activity plus a constant background of $10\text{ counts min}^{-1}$. Therefore, the net activity of the sample ($A_t$) is calculated as: $A_t = \text{Total radiation} - 10$.
+
+### Part (a): Graphing the Data
+To graph this, first calculate the corrected activity:
+- $t=0: 90 - 10 = 80$
+- $t=1: 54 - 10 = 44$
+- $t=2: 35 - 10 = 25$
+- $t=3: 27 - 10 = 17$
+- $t=4: 22 - 10 = 12$
+- $t=5: 16 - 10 = 6$
+
+You would plot "Time (min)" on the x-axis and "Corrected Activity (counts min$^{-1}$)" on the y-axis, resulting in an exponential decay curve.
+
+### Part (b): Determine the decay constant ($\lambda$)
+The decay equation is $A_t = A_0 e^{-\lambda t}$. Rearranging for $\lambda$:
+$$\ln\left(\frac{A_t}{A_0}\right) = -\lambda t \implies \lambda = -\frac{\ln(A_t/A_0)}{t}$$
+Using the data point at $t=1$:
+$$\lambda = -\frac{\ln(44/80)}{1} = -\ln(0.55) \approx 0.5978\text{ min}^{-1}$$
+*(Note: Averaging $\lambda$ values across multiple time points provides a more accurate result, but $0.6\text{ min}^{-1}$ is a standard acceptable answer).*
+
+### Part (c): Estimate mass after 6 minutes
+The mass of a radioactive sample follows the same exponential decay law as its activity: $M_t = M_0 e^{-\lambda t}$.
+Given $M_0 = 10\text{ g}$, $t = 6\text{ min}$, and $\lambda \approx 0.5978\text{ min}^{-1}$:
+$$M_6 = 10 \times e^{-(0.5978)(6)}$$
+$$M_6 = 10 \times e^{-3.5868}$$
+$$M_6 \approx 10 \times 0.0277 \approx 0.277\text{ g}$$
+
+**Justification:** Since the radioactivity of the sample is directly proportional to the number of radioactive nuclei present, the mass of the radioisotope decreases exponentially with the same decay constant derived from the activity measurements.
+
+###QUESTION_TYPE
+Data analysis questions

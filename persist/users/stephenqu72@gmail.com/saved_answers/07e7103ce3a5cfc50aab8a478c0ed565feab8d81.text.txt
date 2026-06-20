@@ -1,0 +1,27 @@
+To solve this problem, we must identify the total number of arrangements of the letters in the word **"SUCCESS"** and then account for the repeated letters.
+
+### Answer
+The total number of distinct arrangements of the letters in "SUCCESS" is **420**.
+
+### Explanation
+1.  **Count the total letters:** The word "SUCCESS" has 7 letters in total ($n = 7$).
+2.  **Identify repeated letters:**
+    *   S appears 3 times.
+    *   C appears 2 times.
+    *   U appears 1 time.
+    *   E appears 1 time.
+3.  **Use the permutations formula for multisets:** When arranging items where some are identical, the number of distinct permutations is given by:
+    $$\frac{n!}{n_1! \times n_2! \times \dots \times n_k!}$$
+    Where $n$ is the total number of items, and $n_1, n_2, \dots$ are the frequencies of the identical items.
+4.  **Perform the calculation:**
+    *   Total arrangements = $\frac{7!}{3! \times 2!}$
+    *   $7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5040$
+    *   $3! = 3 \times 2 \times 1 = 6$
+    *   $2! = 2 \times 1 = 2$
+    *   Calculation = $\frac{5040}{6 \times 2} = \frac{5040}{12}$
+    *   $5040 \div 12 = 420$
+
+By dividing the total number of permutations ($7!$) by the factorials of the counts of the repeated letters ($3!$ for 'S' and $2!$ for 'C'), we eliminate the arrangements that are indistinguishable, resulting in 420 unique patterns.
+
+###QUESTION_TYPE
+Calculation question

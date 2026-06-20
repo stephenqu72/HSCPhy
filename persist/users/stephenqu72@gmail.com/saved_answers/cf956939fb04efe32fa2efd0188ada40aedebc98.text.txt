@@ -1,0 +1,40 @@
+Hello! As your HSC physics teacher, I will guide you through this classic quantum mechanics question. Here are the step-by-step solutions.
+
+### a) De Broglie’s Prediction
+**Explanation:** Louis de Broglie proposed the hypothesis of **matter waves**, stating that all matter exhibits wave-like properties. He suggested that particles with momentum $p$ have an associated wavelength $\lambda$ given by the equation:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+where $h$ is Planck's constant, $m$ is mass, and $v$ is velocity.
+
+**Evidence:** The **Davisson-Germer experiment** provides this evidence. They observed that a beam of electrons directed at a crystalline nickel target produced a diffraction pattern similar to X-ray diffraction. Since diffraction is a wave property, this confirmed that electrons behave as waves.
+
+---
+
+### b) Calculation and Explanation
+**Calculation:**
+Given:
+- Mass $m = 50\text{ g} = 0.05\text{ kg}$
+- Velocity $v = 20\text{ m/s}$
+- Planck's constant $h = 6.626 \times 10^{-34}\text{ J}\cdot\text{s}$
+
+Using the de Broglie equation:
+$$\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{0.05 \times 20}$$
+$$\lambda = \frac{6.626 \times 10^{-34}}{1} = 6.626 \times 10^{-34}\text{ m}$$
+
+**Explanation:** The wavelength is so incredibly small ($10^{-34}\text{ m}$) that it is far smaller than the diameter of an atomic nucleus. Because it is physically impossible to construct an aperture or diffraction grating fine enough to interact with a wave of that size, the wave properties of macroscopic objects are completely undetectable.
+
+---
+
+### c) Deriving Bohr’s 3rd Postulate
+**Explanation:** De Broglie suggested that an electron orbiting the nucleus behaves as a standing wave. For a stable orbit, the circumference of the orbit must be an integer multiple of the wavelength ($2\pi r = n\lambda$).
+1. Substitute the de Broglie relation $\lambda = \frac{h}{mv}$ into the condition:
+$$2\pi r = n \left(\frac{h}{mv}\right)$$
+2. Rearrange to isolate angular momentum ($mvr$):
+$$mvr = \frac{nh}{2\pi}$$
+This confirms the quantization of angular momentum.
+
+**Diagram (for $n=4$):**
+Visualize a circle representing the orbit with 4 full wave cycles wrapping around the circumference. 
+*Imagine a circle with a wavy line traced along the path, showing 4 distinct crests and troughs completing exactly one trip around the nucleus.*
+
+###QUESTION_TYPE
+Other questions

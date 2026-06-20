@@ -1,0 +1,17 @@
+### Answer
+Nuclear fission releases energy if the products of the fission reaction have a higher average binding energy per nucleon than the original nucleus.
+
+1.  **Uranium-238 ($^{238}\text{U}$):** Looking at the graph, $^{238}\text{U}$ is located on the right side of the peak (the region where mass number $A > 60$). In this region, the curve slopes downwards as $A$ increases. When a heavy nucleus like $^{238}\text{U}$ undergoes fission, it splits into smaller, lighter nuclei that have a higher position on the graph. Because these products have a higher average binding energy per nucleon, the total binding energy of the system increases, and energy is released.
+2.  **Helium-4 ($^{4}\text{He}$):** The fission of $^{4}\text{He}$ would involve splitting it into even smaller fragments (like protons and neutrons). The graph shows that these smaller fragments have a significantly lower average binding energy per nucleon than $^{4}\text{He}$. Because the average binding energy decreases, the process would require an input of energy rather than releasing it.
+
+### How to solve this
+To solve this question, you need to understand the relationship between stability and the "binding energy per nucleon" curve:
+
+*   **Understand the Y-axis:** The Y-axis represents the stability of the nucleus. A higher value means the nucleons are more tightly bound, making the nucleus more stable.
+*   **Identify the trend:** The peak of the graph is at Iron-56 ($^{56}\text{Fe}$), representing the most stable nuclei.
+*   **Analyze Fission:** Fission is the splitting of a heavy nucleus into lighter ones. Energy is released only when the system moves toward a state of higher stability (higher binding energy per nucleon).
+    *   For nuclei with $A > 60$, moving to smaller $A$ values (fission) results in an increase in average binding energy per nucleon.
+    *   For light nuclei like Helium ($A = 4$), moving to smaller $A$ values results in a dramatic decrease in average binding energy per nucleon, meaning energy must be absorbed, not released.
+
+###QUESTION_TYPE
+Data analysis questions

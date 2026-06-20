@@ -1,0 +1,29 @@
+To solve this physics problem, we must apply core principles of stellar astrophysics and nuclear fusion.
+
+### (a) (i) and (ii) The CNO Cycle
+**(i)** The CNO cycle is the dominant energy production mechanism in stars with masses greater than $\approx 1.3 \text{ solar masses}$. On the HR diagram, these stars are located on the **upper-left portion of the Main Sequence** (high temperature and high luminosity). You should draw a circle or shade this area.
+
+**(ii)** The CNO cycle is a catalytic fusion process where carbon, nitrogen, and oxygen nuclei act as catalysts to fuse four hydrogen nuclei (protons) into one helium-4 nucleus. The process involves a sequence of proton captures and beta-plus decays ($^{12}\text{C} \rightarrow ^{13}\text{N} \rightarrow ^{13}\text{C} \rightarrow ^{14}\text{N} \rightarrow ^{15}\text{O} \rightarrow ^{15}\text{N} \rightarrow ^{12}\text{C} + ^{4}\text{He}$). Because it involves overcoming the electrostatic repulsion of higher-charged nuclei, it requires higher core temperatures than the proton-proton chain.
+
+### (b) Triple-Alpha Process
+Once a star exhausts its core hydrogen, it contracts and heats up, allowing for helium fusion. The **triple-alpha process** is the primary mechanism:
+1. Two helium-4 nuclei (alpha particles) fuse to form an unstable beryllium-8 nucleus.
+2. If another alpha particle collides with the beryllium-8 before it decays, it forms a stable carbon-12 nucleus.
+This process occurs in red giants and provides the energy necessary to prevent total collapse until the helium is depleted.
+
+### (c) Energy Calculation
+To calculate the energy released, we use the mass-energy equivalence $E = \Delta mc^2$.
+1. **Identify the masses (standard values):**
+   - Mass of 4 protons ($4 \times m_p$): $4 \times 1.6726 \times 10^{-27} \text{ kg} = 6.6904 \times 10^{-27} \text{ kg}$
+   - Mass of Helium-4 nucleus ($m_{He}$): $6.6447 \times 10^{-27} \text{ kg}$
+2. **Calculate the mass defect ($\Delta m$):**
+   $$\Delta m = 6.6904 \times 10^{-27} - 6.6447 \times 10^{-27} = 4.57 \times 10^{-29} \text{ kg}$$
+3. **Calculate the energy ($E$):**
+   $$E = \Delta m c^2$$
+   $$E = (4.57 \times 10^{-29} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+   $$E \approx 4.11 \times 10^{-12} \text{ Joules}$$
+
+*(Note: Depending on the precision of the provided constants in your data sheet, your answer may vary slightly, but should be in the order of $4 \times 10^{-12} \text{ J}$.)*
+
+###QUESTION_TYPE
+Calculation question

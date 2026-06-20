@@ -1,0 +1,40 @@
+This is a classic HSC Physics problem testing nuclear fission, mass-energy equivalence, and reactor physics.
+
+### Answers and Explanations
+
+**(a) Nuclear equation:**
+We need to balance the atomic number ($Z$) and mass number ($A$).
+The reaction is: ${}_0^1n + {}_{92}^{235}U \rightarrow {}_{36}^{92}Kr + {}_{56}^{141}Ba + x({}_0^1n)$.
+Balancing mass numbers: $1 + 235 = 92 + 141 + x \implies 236 = 233 + x \implies x = 3$.
+**Equation:** ${}_0^1n + {}_{92}^{235}U \rightarrow {}_{36}^{92}Kr + {}_{56}^{141}Ba + 3({}_0^1n)$
+
+**(b) Energy calculation:**
+1. Calculate mass defect ($\Delta m$):
+   Mass reactants = $1.00867 + 234.99333 = 236.00200 \, u$
+   Mass products = $91.90645 + 140.88354 + 3(1.00867) = 235.81602 \, u$
+   $\Delta m = 236.00200 - 235.81602 = 0.18598 \, u$
+2. Convert to energy:
+   Using $1 \, u \approx 931.5 \, MeV/c^2$:
+   $E = 0.18598 \times 931.5 \approx 173.24 \, MeV \approx 173 \, MeV$.
+
+**(c) Comparison:**
+The initial neutron is "slow" (thermal, kinetic energy $\approx 0.025 \, eV$), whereas the neutrons released are "fast" (kinetic energy $\approx 2 \, MeV$).
+
+**(d) Fission process:**
+The $U-235$ nucleus captures a neutron, forming an excited intermediate state of $U-236$. This nucleus is unstable and undergoes deformation, oscillating until it splits into two smaller fission fragments, releasing binding energy and further neutrons.
+
+**(e) Role of moderator:**
+The moderator (e.g., water or graphite) slows down high-speed ("fast") neutrons released from fission through elastic collisions. Slowing them to thermal speeds increases the probability of them being captured by another $U-235$ nucleus, thus sustaining the chain reaction.
+
+**(f) Calculation:**
+1. Number of atoms in $100 \, g$:
+   $N = (\text{mass} / \text{molar mass}) \times N_A = (100 / 235) \times 6.022 \times 10^{23} \approx 2.562 \times 10^{23}$ atoms.
+2. Total energy released in Joules:
+   $1 \, MeV = 1.602 \times 10^{-13} \, J$.
+   $E_{\text{total}} = 2.562 \times 10^{23} \times 173 \times 1.602 \times 10^{-13} \approx 7.10 \times 10^{12} \, J$.
+3. Apply efficiency and conversion:
+   Useful energy = $0.55 \times 7.10 \times 10^{12} = 3.905 \times 10^{12} \, J$.
+   Energy in $MWh = 3.905 \times 10^{12} \times 2.8 \times 10^{-10} \approx 1093 \, MWh$.
+
+###QUESTION_TYPE
+Calculation question

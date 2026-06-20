@@ -1,0 +1,28 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, defined by the formula:
+
+$$E = mc^2$$
+
+Where:
+- $E$ is the energy in Joules (J).
+- $m$ is the mass lost in kilograms (kg).
+- $c$ is the speed of light in a vacuum ($3.00 \times 10^8 \text{ m/s}$).
+
+### Step-by-Step Calculation:
+
+**1. Calculate the energy in Joules:**
+Given the mass lost $m = 3.07 \times 10^{-28} \text{ kg}$, we substitute this into the equation:
+$$E = (3.07 \times 10^{-28} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+$$E = (3.07 \times 10^{-28}) \times (9.00 \times 10^{16})$$
+$$E = 2.763 \times 10^{-11} \text{ Joules}$$
+
+**2. Convert Joules to electron-volts (eV):**
+To convert Joules to eV, we divide the energy in Joules by the charge of an electron ($1.602 \times 10^{-19} \text{ J/eV}$):
+$$\text{Energy in eV} = \frac{2.763 \times 10^{-11} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}}$$
+$$\text{Energy in eV} \approx 1.7247 \times 10^8 \text{ eV}$$
+
+Comparing this result to the given options, we find it matches option **D**.
+
+**Teacher's Tip:** Always remember that Einstein's formula $E=mc^2$ outputs energy in **Joules** because the mass must be in **kg**. If a question asks for energy in **eV**, you must perform the conversion at the final step by dividing by the elementary charge ($1.602 \times 10^{-19}$).
+
+###QUESTION_TYPE
+Multiple choice

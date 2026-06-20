@@ -1,0 +1,28 @@
+To determine the correct statement, let's analyze each option based on the provided energy level diagram for hydrogen.
+
+### Analysis of Options
+
+*   **A. An electron that transitions from $n = 2$ to $n = 5$ produces a photon with $2.86 \text{ eV}$ of energy.**
+    *   Transitioning from $n = 2$ to $n = 5$ is an absorption of energy, not the production (emission) of a photon. Furthermore, the energy difference is $\Delta E = |(-0.54) - (-3.4)| = 2.86 \text{ eV}$. While the magnitude is correct, the statement describes an absorption process, not the *production* of a photon.
+*   **B. The Balmer series is the name given to spectral emission lines that result from electron transitions from higher levels down to $n = 1$.**
+    *   This is incorrect. Transitions to $n = 1$ constitute the **Lyman series**. The Balmer series involves transitions to $n = 2$.
+*   **C. An electron that transitions from $n = 4$ to $n = 2$ produces a photon with a wavelength that is longer than the wavelength of a photon produced from an electron that transitions from $n = 2$ to $n = 1$.**
+    *   Energy is related to wavelength by $E = \frac{hc}{\lambda}$. Therefore, a **smaller** energy change produces a **longer** wavelength.
+    *   Energy of $n = 4 \to n = 2$: $\Delta E_1 = |-0.85 - (-3.4)| = 2.55 \text{ eV}$.
+    *   Energy of $n = 2 \to n = 1$: $\Delta E_2 = |-3.4 - (-13.6)| = 10.2 \text{ eV}$.
+    *   Since $\Delta E_1 < \Delta E_2$, the wavelength for $n = 4 \to n = 2$ must be **longer** than the wavelength for $n = 2 \to n = 1$. This statement is **correct**.
+*   **D. The energy required to ionise a hydrogen atom when its electron is in the ground state is four times greater than the energy required to transition an electron from $n = 1$ to $n = 2$.**
+    *   Ionisation energy from ground state ($n = 1$): $13.6 \text{ eV}$.
+    *   Transition energy $n = 1 \to n = 2$: $13.6 - 3.4 = 10.2 \text{ eV}$.
+    *   $13.6 \text{ eV}$ is not $4 \times 10.2 \text{ eV}$. This is incorrect.
+
+### How to solve it
+1.  **Understand Energy Transitions:** Remember that emission occurs when electrons fall to lower levels, and absorption occurs when they move to higher levels.
+2.  **Use $\Delta E$:** Calculate the difference in energy levels by subtracting the initial state energy from the final state energy.
+3.  **Wavelength relationship:** Use the inverse relationship $E \propto \frac{1}{\lambda}$. If the energy gap is smaller, the wavelength of the emitted photon is larger.
+4.  **Verification:** Always double-check the Rydberg series definitions (Lyman = $n_f=1$, Balmer = $n_f=2$, Paschen = $n_f=3$).
+
+**Correct Answer: C**
+
+###QUESTION_TYPE
+Multiple choice

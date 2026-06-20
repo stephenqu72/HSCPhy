@@ -1,0 +1,33 @@
+To determine the age of the rock, we use the radioactive decay law:
+
+$$N(t) = N_0 e^{-\lambda t}$$
+
+Where:
+*   $N(t) = 8\text{ g}$ (the remaining mass)
+*   $N_0 = 800\text{ g}$ (the starting mass)
+*   $\lambda = 0.0054\text{ years}^{-1}$ (the decay constant)
+*   $t$ = the time (age of the rock)
+
+### Step-by-Step Solution:
+
+1.  **Rearrange the formula to solve for $t$:**
+    $$\frac{N(t)}{N_0} = e^{-\lambda t}$$
+    Take the natural logarithm ($\ln$) of both sides:
+    $$\ln\left(\frac{N(t)}{N_0}\right) = -\lambda t$$
+    $$t = \frac{\ln\left(\frac{N(t)}{N_0}\right)}{-\lambda}$$
+
+2.  **Substitute the given values:**
+    $$t = \frac{\ln\left(\frac{8}{800}\right)}{-0.0054}$$
+    $$t = \frac{\ln(0.01)}{-0.0054}$$
+
+3.  **Calculate the value:**
+    Knowing that $\ln(0.01) \approx -4.605$:
+    $$t \approx \frac{-4.605}{-0.0054}$$
+    $$t \approx 852.77\text{ years}$$
+
+Comparing our result to the options provided, the closest answer is **852 years**.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+### Answer
+The correct answer is **B. The spacing would decrease.**
+
+### Explanation
+To solve this problem, we must understand the relationship between the momentum of an electron and the diffraction pattern it creates. This involves two core physics principles:
+
+1.  **De Broglie Wavelength:** The wavelength ($\lambda$) of an electron is inversely proportional to its momentum ($p$):
+    $$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+    Where $h$ is Planck's constant, $m$ is the mass of the electron, and $v$ is its velocity (speed). If the speed $v$ is doubled, the momentum $p$ also doubles, which causes the de Broglie wavelength $\lambda$ to be halved.
+
+2.  **Diffraction Spacing:** The spacing of the diffraction pattern ($y$) is directly proportional to the wavelength ($\lambda$) of the wave passing through the grid (aperture). The relationship can be expressed by the diffraction equation for a grid or slit:
+    $$y \approx \frac{\lambda L}{d}$$
+    Where:
+    *   $L$ is the distance to the screen.
+    *   $d$ is the spacing of the grid.
+    *   $\lambda$ is the wavelength.
+
+**Logical steps:**
+*   Since the speed $v$ is doubled, the wavelength $\lambda$ becomes $\lambda' = \frac{\lambda}{2}$.
+*   Substituting this into the diffraction spacing equation: $y' \propto \frac{\lambda}{2}$.
+*   Because the wavelength is halved, the fringe spacing $y$ also decreases (specifically, it becomes half of the original spacing).
+
+Therefore, increasing the speed of the electrons results in a shorter wavelength, which leads to a more compressed (decreased) diffraction pattern.
+
+### QUESTION_TYPE
+Multiple choice

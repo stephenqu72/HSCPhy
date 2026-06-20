@@ -1,0 +1,8 @@
+### Front
+How do you calculate the absolute uncertainty of a set of measurements for HSC Physics when using the range method?
+
+### Back
+- Key idea: Half the spread of the data.
+- Formula / law: $\text{Uncertainty} = \frac{\text{Maximum} - \text{Minimum}}{2}$
+- When to use it: When you have a small set of experimental trials and need to determine the precision of the mean.
+- Common trap: Forgetting to divide the range by 2 or failing to round the mean to the same decimal place as the uncertainty.

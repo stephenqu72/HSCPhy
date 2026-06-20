@@ -1,0 +1,8 @@
+### Front
+How do you calculate the relativistic momentum of a particle, and what is the quark composition of a proton?
+
+### Back
+- Key idea: Use the Lorentz factor ($\gamma$) to adjust classical momentum for relativistic speeds; protons are baryons made of three valence quarks.
+- Formula / law / constant / figure: $p = \gamma mv$ where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$; Proton = $uud$ (2 up, 1 down).
+- When to use it: Any calculation involving particles at speeds approaching $c$ or questions identifying subatomic structures within the Standard Model.
+- Common trap: Forgetting to calculate $\gamma$ first, or using $v$ instead of $v/c$ inside the Lorentz factor calculation.

@@ -1,0 +1,21 @@
+To determine a star's translational (or radial) velocity, we utilize the **Doppler effect** as applied to electromagnetic radiation. Here is the step-by-step explanation:
+
+### Answer
+1. **Absorption Spectra Comparison:** Astronomers obtain the absorption spectrum of the star and compare the observed wavelengths of specific spectral lines (such as hydrogen Balmer lines) to their known "rest" wavelengths measured in a laboratory on Earth.
+2. **Shift Detection:** If the star is moving relative to Earth, these spectral lines will be shifted. A shift toward longer wavelengths (lower frequencies) is a **redshift** (indicating the star is moving away), while a shift toward shorter wavelengths (higher frequencies) is a **blueshift** (indicating the star is moving toward us).
+3. **Calculation:** The degree of the shift ($\Delta\lambda$) is proportional to the radial velocity ($v$) of the star. Using the Doppler formula for non-relativistic speeds:
+   $$\frac{\Delta\lambda}{\lambda_{rest}} = \frac{v}{c}$$
+   where $\Delta\lambda = |\lambda_{observed} - \lambda_{rest}|$, $c$ is the speed of light, and $\lambda_{rest}$ is the laboratory wavelength.
+4. **Result:** By rearranging this formula to $v = c \cdot \frac{\Delta\lambda}{\lambda_{rest}}$, the star’s radial velocity can be precisely calculated.
+
+---
+
+### How to solve this type of question
+For a 4-mark HSC Physics question, you must demonstrate a clear progression of scientific logic:
+*   **Mark 1:** Identify the core principle (The Doppler Effect/Spectral analysis).
+*   **Mark 2:** Describe the method (Comparing observed spectral lines to known laboratory reference lines).
+*   **Mark 3:** Explain the observation (Redshift vs. Blueshift and what they represent in terms of motion).
+*   **Mark 4:** Connect the physics to the mathematics (Mention the ratio of the shift to the rest wavelength in relation to the speed of light).
+
+###QUESTION_TYPE
+Short answer

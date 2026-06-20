@@ -1,0 +1,29 @@
+To solve this problem, we must understand the relationship between the neutron-to-proton ratio and radioactive decay modes relative to the band of stability.
+
+### Explanation
+
+1.  **Understand the Axes**: The y-axis represents the number of neutrons ($N = A - Z$), and the x-axis represents the atomic number ($Z$, or number of protons). The "band of stability" is the region where stable isotopes lie.
+2.  **Analyze the Regions**:
+    *   **Region X (Above the band of stability)**: These nuclei have **too many neutrons** compared to protons. To move toward the band of stability, they need to convert a neutron into a proton. This is achieved through **beta-minus ($\beta^-$) decay**. In this process, a neutron becomes a proton, an electron ($\beta^-$), and an antineutrino.
+        *   Equation: $^A_Z X \rightarrow ^A_{Z+1} Y + ^0_{-1} e^-$
+    *   **Region Y (Extreme neutron excess/heavy nuclei)**: While this region is also neutron-rich, in HSC physics contexts, the "Y" region often highlights decay processes that reduce mass significantly. However, looking at the options provided, the notation $Z-2$ and $A-4$ indicates **alpha ($\alpha$) decay**. Alpha decay is common for very heavy nuclei ($Z > 82$) to reduce mass and move closer to the stability band.
+        *   Equation: $^A_Z X \rightarrow ^{A-4}_{Z-2} Y + ^4_2 He^{2+}$
+    *   **Region Z (Below the band of stability)**: These nuclei have **too many protons** (or too few neutrons). To move toward the band of stability, they need to convert a proton into a neutron. This is achieved through **positron ($\beta^+$) emission** or electron capture.
+        *   Equation: $^A_Z X \rightarrow ^A_{Z-1} Y + ^0_{+1} e^+$
+
+### Matching with the Options
+Looking at the structure of the equations provided in the options:
+*   **Region X** needs $\beta^-$ decay (increasing $Z$ to $Z+1$): Matches $Z \rightarrow Z+1$.
+*   **Region Y** needs $\alpha$ decay (decreasing $A$ by 4 and $Z$ by 2): Matches $Z \rightarrow Z-2$ and $A \rightarrow A-4$.
+*   **Region Z** needs $\beta^+$ decay (decreasing $Z$ to $Z-1$): Matches $Z \rightarrow Z-1$.
+
+Comparing these requirements to the choices:
+Option (D) correctly identifies:
+*   Region X: $Z \rightarrow Z+1$ ($\beta^-$ decay)
+*   Region Y: $Z \rightarrow Z-2$ and $A \rightarrow A-4$ ($\alpha$ decay)
+*   Region Z: $Z \rightarrow Z-1$ ($\beta^+$ decay)
+
+**Correct Answer: (D)**
+
+###QUESTION_TYPE
+Multiple choice

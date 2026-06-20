@@ -1,0 +1,28 @@
+To solve this problem, we need to determine the half-life of the radioactive Iodine-131 sample using the provided graph and then use that value to calculate the remaining mass after 32 days.
+
+### Step-by-Step Explanation:
+
+1.  **Find the half-life ($t_{1/2}$):**
+    The half-life is the time required for the mass of a radioactive sample to decrease to half of its initial value.
+    *   Initial mass at $t = 0$ days is $200\text{ g}$.
+    *   Half of the initial mass is $100\text{ g}$.
+    *   Looking at the graph, find the time on the x-axis where the mass is $100\text{ g}$. This occurs at $t = 8$ days.
+    *   Therefore, the half-life of Iodine-131 in this sample is $8$ days.
+
+2.  **Calculate the number of half-lives in 32 days:**
+    $$n = \frac{\text{Total time}}{\text{Half-life}} = \frac{32\text{ days}}{8\text{ days}} = 4\text{ half-lives}$$
+
+3.  **Calculate the remaining mass:**
+    We can calculate the final mass by halving the initial mass four times:
+    *   Start: $200\text{ g}$
+    *   After 1 half-life (8 days): $200 / 2 = 100\text{ g}$
+    *   After 2 half-lives (16 days): $100 / 2 = 50\text{ g}$
+    *   After 3 half-lives (24 days): $50 / 2 = 25\text{ g}$
+    *   After 4 half-lives (32 days): $25 / 2 = 12.5\text{ g}$
+
+Rounding $12.5\text{ g}$ to the nearest option provided gives us approximately $13\text{ g}$.
+
+**Correct Answer:** **B. 13 g**
+
+###QUESTION_TYPE
+Multiple choice

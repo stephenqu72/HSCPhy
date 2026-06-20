@@ -1,0 +1,40 @@
+### Answer
+
+Louis de Broglie proposed that matter exhibits wave-like properties, with a wavelength given by $\lambda = \frac{h}{mv}$. For an electron to exist in a stable orbit around a nucleus without radiating energy, it must form a **standing wave**.
+
+For a standing wave to form in a circular orbit of radius $r$, the circumference of the orbit must be an integer multiple of the de Broglie wavelength:
+$$2\pi r = n\lambda$$
+where $n = 1, 2, 3, \dots$
+
+Substituting the de Broglie relation $\lambda = \frac{h}{mv}$ into the standing wave condition:
+$$2\pi r = n \left( \frac{h}{mv} \right)$$
+
+Rearranging the equation to solve for angular momentum ($mvr$):
+$$mvr = \frac{nh}{2\pi}$$
+
+This derivation provides a theoretical physical basis for Bohr’s empirical postulate that angular momentum is quantized.
+
+**Diagram for $n=1$:**
+*(Imagine a circle representing the orbit. Along the circumference, draw a single continuous wave cycle where the start and end points meet perfectly.)*
+```text
+      ____
+    /      \
+   |   (+)  |  <-- Nucleus
+    \      /
+      ---- 
+(The electron path shows one full wavelength: 2πr = λ)
+```
+
+---
+
+### How to solve this
+To achieve full marks (4/4), you must structure your response to connect wave mechanics to atomic structure:
+
+1.  **State the de Broglie hypothesis:** Define $\lambda = \frac{h}{mv}$.
+2.  **Explain the Standing Wave condition:** Explicitly state that for an electron to be in a stable orbit, the circumference ($2\pi r$) must accommodate an integer number ($n$) of wavelengths. If it did not, destructive interference would cause the wave to vanish.
+3.  **Perform the algebraic substitution:** Show the transition from $2\pi r = n\lambda$ to $2\pi r = n(\frac{h}{mv})$.
+4.  **Conclude with the formula:** Rearrange to show $mvr = \frac{nh}{2\pi}$.
+5.  **Diagram:** Ensure your diagram for $n=1$ clearly depicts a single wavelength completing one full circle around the nucleus.
+
+###QUESTION_TYPE
+Short answer

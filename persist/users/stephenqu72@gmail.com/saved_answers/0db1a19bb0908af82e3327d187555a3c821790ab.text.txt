@@ -1,0 +1,26 @@
+To solve this problem, we use the **Rydberg formula** for the Hydrogen atom, which calculates the wavelength of emitted light during an electronic transition:
+
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+
+Where:
+*   $\lambda = 486 \times 10^{-9} \text{ m}$
+*   $R_H \approx 1.097 \times 10^7 \text{ m}^{-1}$ (Rydberg constant)
+*   $n_f$ is the final energy level
+*   $n_i$ is the initial energy level
+
+### Step-by-step Solution:
+
+1.  **Identify the Series:** The visible spectrum of Hydrogen (the Balmer series) occurs when electrons transition to the $n_f = 2$ energy level. Looking at the options, options (A) and (D) involve transitions to level 2. 
+2.  **Test Option (D) ($4 \to 2$):**
+    $$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{2^2} - \frac{1}{4^2} \right)$$
+    $$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{1}{4} - \frac{1}{16} \right)$$
+    $$\frac{1}{\lambda} = 1.097 \times 10^7 \left( \frac{3}{16} \right)$$
+    $$\frac{1}{\lambda} \approx 2.057 \times 10^6 \text{ m}^{-1}$$
+    $$\lambda \approx \frac{1}{2.057 \times 10^6} \approx 4.86 \times 10^{-7} \text{ m} = 486 \text{ nm}$$
+
+3.  **Conclusion:** The calculated wavelength matches $486 \text{ nm}$. Therefore, the transition is from shell $4 \to 2$.
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

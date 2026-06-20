@@ -1,0 +1,26 @@
+### Answer and Explanation
+
+#### (a) Identify which of the two stars could occupy position Z. Justify your answer.
+**Answer:** Star Geralt.
+**Explanation:** Position Z on the H-R diagram is in the white dwarf region, characterized by low luminosity and high temperature (spectral type B/A). In an absorption spectrum, hotter stars display thinner hydrogen lines compared to cooler stars where ionization levels differ. Star Geralt’s spectrum shows fewer, thinner absorption lines, consistent with the high-temperature conditions of a white dwarf, whereas Star Ciri shows thick, prominent lines characteristic of cooler main-sequence stars.
+
+#### (b) Compare the diameter of a star at position W to that of a star at position X. Justify your answer.
+**Answer:** The diameter of star X is significantly larger than that of star W.
+**Explanation:** We use the Stefan-Boltzmann law relation: $L \propto R^2 T^4$. Both stars have similar luminosities (both are roughly $10^4$ solar units). However, star X is a cooler spectral type (K/M) compared to star W (B type). Since $L$ is constant, a lower temperature ($T$) must be compensated by a much larger radius ($R$) to maintain the same luminosity. Therefore, the cooler star X must be a giant/supergiant, while star W is a much smaller main-sequence star.
+
+#### (c) Identify which star(s) would have the proton-proton fusion chain reaction occurring in the core.
+**Answer:** Star W (and potentially others on the main sequence, but specifically W here).
+**Explanation:** The proton-proton chain is the primary fusion process for main-sequence stars with masses similar to or less than the Sun. Star W is located on the Main Sequence, where hydrogen burning via the proton-proton chain (or CNO cycle for hotter stars) occurs. Star X is a giant (post-main sequence), and Z is a white dwarf (no fusion).
+
+#### (d) How much mass is star W losing each second to produce this energy?
+**Answer:** $2.12 \times 10^{13} \text{ kg}$.
+**Explanation:** Using Einstein's mass-energy equivalence formula $E = mc^2$, where $E$ is energy in Joules and $c$ is the speed of light ($3 \times 10^8 \text{ m/s}$):
+$$m = \frac{E}{c^2}$$
+$$m = \frac{1.91 \times 10^{30} \text{ J}}{(3 \times 10^8 \text{ m/s})^2}$$
+$$m = \frac{1.91 \times 10^{30}}{9 \times 10^{16}}$$
+$$m \approx 2.12 \times 10^{13} \text{ kg}$$
+
+***
+
+### QUESTION_TYPE
+Data analysis questions

@@ -1,0 +1,19 @@
+To determine the correct quark composition for the $\Lambda^0$ baryon, we must use the information provided about the charges and the definition of a baryon.
+
+### Answer
+The correct answer is **(C) $uds$**.
+
+### Explanation
+1.  **Understand Baryon composition:** A baryon is a composite subatomic particle made of three quarks ($qqq$).
+2.  **Calculate the total charge:** We are told the $\Lambda^0$ baryon has a charge of $0$. We need to find which combination of three quarks (using $u = +\frac{2}{3}$, $d = -\frac{1}{3}$, $s = -\frac{1}{3}$) adds up to a sum of $0$.
+    *   (A) $udd$: $+\frac{2}{3} - \frac{1}{3} - \frac{1}{3} = 0$. (This is the neutron, not the $\Lambda^0$).
+    *   (B) $uus$: $+\frac{2}{3} + \frac{2}{3} - \frac{1}{3} = +1$.
+    *   (C) $uds$: $+\frac{2}{3} - \frac{1}{3} - \frac{1}{3} = 0$.
+    *   (D) $uud$: $+\frac{2}{3} + \frac{2}{3} - \frac{1}{3} = +1$. (This is the proton).
+3.  **Use context clues:** Both (A) and (C) result in a charge of $0$. However, the question states that the $\Lambda^0$ baryon has a "slightly greater mass than a neutron." 
+    *   The neutron consists of $u, d, d$ quarks.
+    *   The strange quark ($s$) is significantly more massive than the up ($u$) or down ($d$) quarks. 
+    *   By replacing a $d$ quark in the neutron ($udd$) with an $s$ quark ($uds$), the mass of the baryon increases. Therefore, $uds$ is the correct composition for the $\Lambda^0$ baryon, as it is electrically neutral and possesses the additional mass characteristic of the strange quark.
+
+###QUESTION_TYPE
+Multiple choice

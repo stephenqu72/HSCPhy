@@ -1,0 +1,30 @@
+To solve this nuclear fission equation, we must apply the **Law of Conservation of Nucleon Number** (mass number) and the **Law of Conservation of Atomic Number** (charge). 
+
+The reaction is:
+$${}^{239}_{94}Pu + {}^{1}_{0}n \rightarrow {}^{134}_{Z}Xe + {}^{M}_{40}Zr + 3({}^{1}_{0}n)$$
+
+### 1. Conservation of Atomic Number (bottom numbers)
+The total atomic number (number of protons) before the reaction must equal the total atomic number after the reaction:
+$$94 + 0 = Z + 40 + 3(0)$$
+$$94 = Z + 40$$
+$$Z = 94 - 40$$
+$$Z = 54$$
+
+### 2. Conservation of Mass Number (top numbers)
+The total number of nucleons (protons + neutrons) before the reaction must equal the total number of nucleons after the reaction:
+$$239 + 1 = 134 + M + 3(1)$$
+$$240 = 137 + M$$
+$$M = 240 - 137$$
+$$M = 103$$
+
+### Conclusion
+We found that $Z = 54$ and $M = 103$. Comparing this to the given options:
+(A) $Z=103, M=54$
+(B) $Z=54, M=103$
+(C) $Z=105, M=54$
+(D) $Z=54, M=105$
+
+The correct choice is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

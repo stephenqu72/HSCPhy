@@ -1,0 +1,48 @@
+To solve these problems, we use the standard equations for radioactive decay.
+
+### Part (a): Calculate the decay constant ($\lambda$)
+
+**The Theory:** The decay constant is related to the half-life ($t_{1/2}$) by the formula:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+
+**The Calculation:**
+Given $t_{1/2} = 8$ days:
+$$\lambda = \frac{0.6931}{8 \text{ days}} \approx 0.08664 \text{ days}^{-1}$$
+
+Rounding to two significant figures (consistent with the provided data):
+**$\lambda \approx 0.087 \text{ days}^{-1}$**
+
+---
+
+### Part (b): Determine the number of nuclei remaining
+
+**The Theory:** We use the radioactive decay law:
+$$N(t) = N_0 e^{-\lambda t}$$
+Alternatively, since we know the half-life, we can use the simpler form:
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$$
+
+**The Calculation:**
+Given:
+- Initial nuclei $N_0 = 1.2 \times 10^{13}$
+- Time elapsed $t = 76$ days
+- Half-life $t_{1/2} = 8$ days
+
+Number of half-lives passed $n = \frac{76}{8} = 9.5$
+
+Substitute into the formula:
+$$N = 1.2 \times 10^{13} \times (0.5)^{9.5}$$
+$$N = 1.2 \times 10^{13} \times 0.0013889$$
+$$N \approx 1.6667 \times 10^{10}$$
+
+Rounding to two significant figures:
+**$N \approx 1.7 \times 10^{10}$ nuclei**
+
+---
+
+### How to solve it:
+1. **Identify the variables:** For part (a), the only variable needed is the half-life. For part (b), recognize that you need the initial amount, the time elapsed, and the half-life.
+2. **Select the correct formula:** Remember that decay constant calculations always involve the natural log of 2 ($\ln 2$). For remaining nuclei, the power-of-two method ($N = N_0 \times 0.5^n$) is often faster and less prone to calculator errors than the exponential function $e^{-\lambda t}$.
+3. **Check units:** Ensure your units for time ($t$) and half-life ($t_{1/2}$) match so they cancel out correctly in the exponent.
+
+###QUESTION_TYPE
+Calculation question

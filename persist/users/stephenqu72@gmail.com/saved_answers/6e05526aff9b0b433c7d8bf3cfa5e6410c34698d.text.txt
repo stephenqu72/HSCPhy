@@ -1,0 +1,34 @@
+To determine the number of different wavelengths of light emitted when an electron de-excites from the $n = 5$ energy level, we need to count every possible downward transition the electron can make to reach the ground state ($n = 1$).
+
+### Explanation
+When an electron is in the $n = 5$ state, it can transition to any lower energy level ($n = 4, 3, 2, 1$). Each unique transition corresponds to a photon with a specific energy and wavelength (since $E = \frac{hc}{\lambda}$).
+
+We can map out all possible paths:
+1.  **Transitions starting from $n=5$:**
+    *   $5 \rightarrow 4$
+    *   $5 \rightarrow 3$
+    *   $5 \rightarrow 2$
+    *   $5 \rightarrow 1$
+2.  **Transitions starting from $n=4$:**
+    *   $4 \rightarrow 3$
+    *   $4 \rightarrow 2$
+    *   $4 \rightarrow 1$
+3.  **Transitions starting from $n=3$:**
+    *   $3 \rightarrow 2$
+    *   $3 \rightarrow 1$
+4.  **Transitions starting from $n=2$:**
+    *   $2 \rightarrow 1$
+
+Summing these up, we have $4 + 3 + 2 + 1 = 10$ possible transitions. 
+
+Alternatively, you can use the formula for the number of spectral lines emitted when an electron drops from level $n$ to the ground state:
+$$N = \frac{n(n-1)}{2}$$
+Substituting $n = 5$:
+$$N = \frac{5(5-1)}{2} = \frac{5 \times 4}{2} = \frac{20}{2} = 10$$
+
+Since each transition results in a unique energy change, there are 10 different wavelengths produced.
+
+**Correct Option: (A) 10**
+
+###QUESTION_TYPE
+Multiple choice

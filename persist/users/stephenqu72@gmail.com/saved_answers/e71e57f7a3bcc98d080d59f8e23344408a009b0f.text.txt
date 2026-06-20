@@ -1,0 +1,26 @@
+To determine the correct answer, we must understand the relationship between the energy of a photon emitted during an electron transition and its frequency/wavelength in the electromagnetic spectrum.
+
+### Explanation
+
+1.  **Energy and Frequency:** When an electron drops from a higher energy level ($E_{high}$) to a lower energy level ($E_{low}$), a photon is emitted with energy $\Delta E$ equal to:
+    $$\Delta E = E_{high} - E_{low} = hf = \frac{hc}{\lambda}$$
+    where $h$ is Planck's constant, $f$ is frequency, and $\lambda$ is wavelength.
+
+2.  **The Spectrum:** The electromagnetic spectrum is ordered by energy:
+    $$\text{Infrared (IR) < Visible < Ultraviolet (UV)}$$
+    This means that for a transition to result in **Ultraviolet (UV)** radiation, the energy difference ($\Delta E$) must be **significantly larger** than the energy difference that produces infrared radiation.
+
+3.  **Analyzing the Transitions:**
+    *   The question states that $E_5 \to E_2$ results in infrared radiation.
+    *   We are looking for a transition that releases more energy than $E_5 \to E_2$. Looking at the provided options:
+        *   (A) $E_4 \to E_2$: This gap is smaller than $E_5 \to E_2$.
+        *   (B) $E_4 \to E_3$: This gap is very small.
+        *   (C) $E_5 \to E_1$: This is a much larger energy jump than $E_5 \to E_2$ because it reaches the ground state ($E_1$), which is the lowest energy level. Larger energy transitions correspond to higher frequencies and shorter wavelengths (moving towards the UV end of the spectrum).
+        *   (D) $E_5 \to E_4$: This gap is very small.
+
+4.  **Conclusion:** The transition from $E_5$ to $E_1$ represents the largest energy drop among the options provided, making it the only logical candidate for producing high-energy ultraviolet radiation.
+
+The correct answer is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

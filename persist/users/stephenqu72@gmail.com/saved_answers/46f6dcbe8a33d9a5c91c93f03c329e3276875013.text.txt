@@ -1,0 +1,19 @@
+### Answer
+When a particle (or photon) passes through a slit of width $\Delta x$, its position becomes constrained to that width, creating an uncertainty in position of $\Delta x$. Due to the wave nature of the particle, it undergoes diffraction, causing the particle to spread out into a range of angles. This spreading introduces an uncertainty in the particle's momentum in the transverse direction, $\Delta p_x$. A narrower slit (smaller $\Delta x$) results in greater diffraction, which leads to a wider spread in momentum (larger $\Delta p_x$), thereby satisfying the relationship $\Delta p_x \Delta x \geq \frac{h}{4\pi}$.
+
+---
+
+### Explanation
+To solve this 2-mark question, you need to connect the wave properties of matter/light to the Heisenberg uncertainty principle:
+
+1.  **Understand the variables:** 
+    *   $\Delta x$ represents the uncertainty in position. In this experiment, by forcing the particle through a single slit of width $w$, we effectively "localize" the particle, making the uncertainty in its position roughly equal to the width of the slit ($\Delta x \approx w$).
+2.  **Relate diffraction to momentum:**
+    *   According to diffraction theory, the angle of the first diffraction minimum is given by $\sin \theta = \frac{\lambda}{w}$.
+    *   As the slit width $w$ decreases, the diffraction angle $\theta$ increases. This means the particle is more likely to be deflected by a wider range of angles, which increases the uncertainty in its transverse momentum, $\Delta p_x$.
+3.  **Synthesize:**
+    *   State clearly that the act of restricting the particle's position (the slit) inherently causes it to diffract (spread out), which is an increase in the uncertainty of its momentum. 
+    *   Because decreasing $\Delta x$ forces an increase in $\Delta p_x$, the experiment demonstrates that you cannot simultaneously reduce both uncertainties to zero, illustrating the fundamental limit defined by the Heisenberg uncertainty principle.
+
+###QUESTION_TYPE
+Short answer

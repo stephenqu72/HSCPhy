@@ -1,0 +1,33 @@
+To solve this problem, we must recognise that the diffraction patterns are the same size. According to Bragg’s Law, $n\lambda = 2d \sin \theta$, diffraction patterns of the same dimensions for the same material (aluminium) imply that the wavelengths of the electrons and X-rays are equal.
+
+### Part a: Calculate the wavelength of the electrons
+1.  **Calculate the X-ray wavelength ($\lambda$):**
+    Use the photon energy formula $E = \frac{hc}{\lambda}$, where $E = 8000 \text{ eV}$.
+    First, convert energy to Joules:
+    $E = 8000 \times 1.602 \times 10^{-19} \text{ J} = 1.2816 \times 10^{-15} \text{ J}$
+    
+    Rearrange for wavelength:
+    $$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34} \text{ J s})(3.00 \times 10^8 \text{ m/s})}{1.2816 \times 10^{-15} \text{ J}}$$
+    $$\lambda \approx 1.55 \times 10^{-10} \text{ m} = 0.155 \text{ nm}$$
+
+**Answer:** $0.155 \text{ nm}$
+
+---
+
+### Part b: Calculate the kinetic energy of the electrons in joules
+1.  **Use the de Broglie wavelength formula:** $\lambda = \frac{h}{p}$, where $p = \sqrt{2mE_k}$.
+    Combine these: $\lambda = \frac{h}{\sqrt{2mE_k}}$.
+2.  **Rearrange to solve for $E_k$:**
+    $$E_k = \frac{h^2}{2m\lambda^2}$$
+    *   $h = 6.626 \times 10^{-34} \text{ J s}$
+    *   $m = 9.109 \times 10^{-31} \text{ kg}$
+    *   $\lambda = 1.55 \times 10^{-10} \text{ m}$
+
+3.  **Calculation:**
+    $$E_k = \frac{(6.626 \times 10^{-34})^2}{2 \times (9.109 \times 10^{-31}) \times (1.55 \times 10^{-10})^2}$$
+    $$E_k = \frac{4.39 \times 10^{-67}}{4.38 \times 10^{-50}} \approx 1.00 \times 10^{-17} \text{ J}$$
+
+**Answer:** $1.00 \times 10^{-17} \text{ J}$
+
+###QUESTION_TYPE
+Calculation question

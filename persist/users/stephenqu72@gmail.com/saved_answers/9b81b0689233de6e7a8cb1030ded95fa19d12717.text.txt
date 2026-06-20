@@ -1,0 +1,27 @@
+To solve this problem, we must apply the laws of **conservation of mass number** and **conservation of atomic number** in nuclear equations.
+
+### Step-by-Step Explanation:
+
+1.  **Understand the reactants:** We are starting with Cobalt-60. Cobalt has an atomic number of 27. The notation is written as ${}_{27}^{60}\text{Co}$.
+2.  **Understand the products:** We are told the product is Nickel-60. Nickel has an atomic number of 28. The notation is ${}_{28}^{60}\text{Ni}$.
+3.  **Analyze the decay type:** Cobalt-60 undergoes beta-minus ($\beta^-$) decay to become Nickel-60. In this process, a neutron in the nucleus is converted into a proton and an electron. 
+    *   The electron emitted is a beta particle, denoted as ${}_{-1}^{0}\beta$.
+    *   To conserve lepton number, an electron antineutrino ($\bar{\nu}$) is also emitted.
+4.  **Check the conservation laws:**
+    *   **Mass Number:** The sum of the top numbers on the left must equal the sum on the right.
+        *   Left: $60$
+        *   Right: $60 + 0 = 60$ (Matches)
+    *   **Atomic Number:** The sum of the bottom numbers on the left must equal the sum on the right.
+        *   Left: $27$
+        *   Right: $28 + (-1) = 27$ (Matches)
+
+**Evaluating the options:**
+*   **(A)** ${}_{27}^{60}\text{Co} \rightarrow {}_{28}^{60}\text{Ni} + {}_{-1}^{0}\beta + \bar{\nu}$: This correctly represents $\beta^-$ decay with the emission of an electron and an antineutrino.
+*   **(B)** Incorrect mass numbers and incorrect decay particle (Alpha decay notation).
+*   **(C)** ${}_{+1}^{0}\beta$ represents a positron (beta-plus decay), which would decrease the atomic number rather than increase it.
+*   **(D)** Incorrect atomic number/charge conservation.
+
+The correct equation is **(A)**.
+
+###QUESTION_TYPE
+Multiple choice

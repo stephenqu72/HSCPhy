@@ -1,0 +1,22 @@
+To solve this problem, we must understand the definition of isotopes and the effect of radioactive decay on atomic and mass numbers.
+
+### Step-by-Step Explanation
+
+1.  **Define Isotopes:** Isotopes are atoms of the same element, meaning they must have the same atomic number ($Z$). However, they have different mass numbers ($A$) because they have different numbers of neutrons.
+2.  **Understand Decay Particles:**
+    *   An **alpha particle** ($\alpha$) is a helium nucleus: ${}_2^4\text{He}$. It reduces the atomic number by $2$ and the mass number by $4$.
+    *   A **beta-negative particle** ($\beta^-$) is an electron: ${}_{-1}^0\text{e}$. It increases the atomic number by $1$ and leaves the mass number unchanged.
+3.  **Analyze the Requirement:** We need the final atomic number of $Z$ to be the same as the initial atomic number of $Y$.
+    *   If one alpha particle is emitted, the atomic number decreases by $2$. To return to the original atomic number, we must increase it by $2$ using beta emissions. Each $\beta^-$ increases the atomic number by $1$, so we need $2 \times \beta^-$ particles.
+    *   Let's check the combination in **(B)**: One alpha ($Z_{new} = Z_{old} - 2$) followed by two beta particles ($Z_{final} = (Z_{old} - 2) + 1 + 1 = Z_{old}$). This results in a nucleus with the same atomic number as $Y$, which confirms they are isotopes.
+
+### Verification of Options
+*   (A) $Z_{final} = Z_{old} - 2 + 1 = Z_{old} - 1$ (Not the same element)
+*   (B) $Z_{final} = Z_{old} - 2 + 1 + 1 = Z_{old}$ (**Correct**)
+*   (C) $Z_{final} = Z_{old} - 4 + 1 = Z_{old} - 3$ (Not the same element)
+*   (D) $Z_{final} = Z_{old} - 4 + 1 + 1 = Z_{old} - 2$ (Not the same element)
+
+The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

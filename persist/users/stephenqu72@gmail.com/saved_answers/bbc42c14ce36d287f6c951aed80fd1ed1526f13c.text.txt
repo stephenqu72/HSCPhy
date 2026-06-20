@@ -1,0 +1,21 @@
+To determine the correct answer, let's analyze the physics of the nuclear chain reaction shown in the diagram.
+
+### Explanation
+
+1.  **Understanding the Chain Reaction:** 
+    *   At stage **(2)**, a single neutron strikes a $^{235}\text{U}$ nucleus, causing fission and releasing more neutrons.
+    *   Looking at the diagram, the neutrons released from the fission at stage **(2)** proceed to strike **two** separate $^{235}\text{U}$ nuclei at stage **(3)**.
+    *   Because one fission event leads to two subsequent fission events, the number of fissions is increasing exponentially. This is characteristic of an **uncontrolled** chain reaction (like that in an atomic bomb), as opposed to a nuclear reactor where control rods are used to maintain a steady, linear rate of fission (one neutron causes exactly one subsequent fission).
+
+2.  **Determining the Fission Ratio:**
+    *   The "fission ratio" refers to the number of fissions occurring in subsequent generations. 
+    *   In the transition from stage **(2)** to stage **(3)**, we see $1$ fission event (the single $^{235}\text{U}$ nucleus being struck) leading to $2$ fission events (the two $^{235}\text{U}$ nuclei being struck).
+    *   Therefore, the ratio of fission events from stage (2) to stage (3) is $1:2$.
+
+3.  **Conclusion:**
+    *   Combining these observations, the reaction is **uncontrolled** and the fission ratio is **1:2**. This corresponds to option **C**.
+
+**Correct Answer: C**
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,24 @@
+### Answer and Explanation
+
+**Part a) Explanation**
+According to Special Relativity, moving clocks run slower relative to a stationary observer. This phenomenon is known as **time dilation**. 
+
+The "proper time" ($t_0$) is the average decay time of a pion measured in its own rest frame. Because the pions are traveling at relativistic speeds relative to the laboratory, an observer in the laboratory sees the pion's internal "clock" (its decay process) running slower. Consequently, the dilated lifetime $t_v$ measured by the laboratory observer is longer than the proper time ($t_v = \gamma t_0$). Because the pion survives for a longer duration in the laboratory frame, it is able to cover a greater distance ($d = v \times t_v$) before it decays, compared to the distance calculated using classical physics ($d = v \times t_0$).
+
+**Part b) Calculation**
+To calculate the Lorentz factor ($\gamma$), we can use the relationship between distance and time dilation. Since $d = v \times t$, and time is dilated by the factor $\gamma$ ($t_v = \gamma t_0$), the distance observed in the laboratory ($d_{lab}$) relates to the distance the pion would travel in its own frame ($d_{proper}$) as:
+$$d_{lab} = \gamma d_{proper}$$
+
+Here, the "classical" distance ($7.6\text{ m}$) represents the distance the pion covers during its proper lifetime $t_0$, and the $250\text{ m}$ is the distance covered during the dilated lifetime $t_v$.
+
+$$\gamma = \frac{d_{lab}}{d_{proper}}$$
+$$\gamma = \frac{250}{7.6}$$
+$$\gamma \approx 32.89$$
+
+**How to solve:**
+1. **Identify the principle:** Recognise that the increase in distance travelled is directly proportional to the time dilation factor, which is the Lorentz factor $\gamma$.
+2. **Set up the ratio:** Use the two provided distances. The ratio of the relativistic distance to the classical distance is equal to $\gamma$ because the velocity $v$ remains constant for both cases in this frame of reference.
+3. **Perform the division:** Divide the observed laboratory distance by the predicted classical distance to obtain the Lorentz factor.
+
+###QUESTION_TYPE
+Calculation question

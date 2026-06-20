@@ -1,0 +1,36 @@
+### Answer and Explanation
+
+#### Part (a)
+To calculate the energy produced per second (which is equivalent to the power or luminosity of the star), we use Einstein’s mass-energy equivalence formula:
+$$E = mc^2$$
+
+Since we are looking for energy per unit time, the formula becomes:
+$$P = \frac{\Delta E}{\Delta t} = \left( \frac{\Delta m}{\Delta t} \right) c^2$$
+
+**Given:**
+*   Rate of mass loss $\frac{\Delta m}{\Delta t} = 5.6 \times 10^9 \text{ kg s}^{-1}$
+*   Speed of light $c \approx 3.00 \times 10^8 \text{ m s}^{-1}$
+
+**Calculation:**
+$$P = (5.6 \times 10^9) \times (3.00 \times 10^8)^2$$
+$$P = (5.6 \times 10^9) \times (9.00 \times 10^{16})$$
+$$P = 5.04 \times 10^{26} \text{ Watts (or Joules per second)}$$
+
+**Explanation:** In physics, the energy output of a star originates from the conversion of mass into energy during nuclear fusion. By multiplying the rate of mass loss by the square of the speed of light, we determine the power output in Watts.
+
+---
+
+#### Part (b)
+The stages of stellar evolution for a typical (low-to-medium mass) star are as follows:
+
+| Stage | Stage of stellar evolution |
+| :--- | :--- |
+| 1. | Protostar (or Nebula/Molecular Cloud) |
+| 2. | main sequence star |
+| 3. | Red Giant |
+| 4. | white dwarf |
+
+**Explanation:** A typical star begins in a nebula, collapses into a protostar, spends the majority of its life on the main sequence, expands into a red giant after exhausting hydrogen in its core, and eventually sheds its outer layers to leave behind a white dwarf.
+
+###QUESTION_TYPE
+Calculation question

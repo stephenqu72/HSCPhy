@@ -1,0 +1,29 @@
+### Answer
+
+**a.** To excite the hydrogen atom from the ground state ($n=1$) to the $n=4$ state in one step, the atom must absorb a single photon with an energy exactly equal to the difference between the two energy levels. 
+From the diagram, the energy of the $n=4$ state is $12.8\text{ eV}$ and the $n=1$ state is $0\text{ eV}$. 
+$$\Delta E = 12.8\text{ eV} - 0\text{ eV} = 12.8\text{ eV}$$
+Thus, the atom must absorb a photon with an energy of exactly $12.8\text{ eV}$.
+
+**b.** When an atom transitions from a higher energy level to a lower one, it emits a photon with energy equal to the difference in energy between those two levels. As the atom cascades from $n=4$ down to $n=2$, the possible transitions are:
+
+1.  **Direct transition from $n=4$ to $n=2$:**
+    $$E = 12.8\text{ eV} - 10.2\text{ eV} = 2.6\text{ eV}$$
+2.  **Cascade from $n=4$ to $n=3$, then $n=3$ to $n=2$:**
+    *   Transition $n=4$ to $n=3$: $E = 12.8\text{ eV} - 12.1\text{ eV} = 0.7\text{ eV}$
+    *   Transition $n=3$ to $n=2$: $E = 12.1\text{ eV} - 10.2\text{ eV} = 1.9\text{ eV}$
+
+The possible emitted photon energies are $2.6\text{ eV}$, $0.7\text{ eV}$, and $1.9\text{ eV}$.
+
+---
+
+### How to solve it
+
+*   **Part (a):** Understand the principle of **photon absorption**. An electron can only jump to a higher energy level if it absorbs a photon with energy equal to the energy gap between the initial and final states. You simply subtract the lower energy value from the higher energy value.
+*   **Part (b):** Understand the principle of **photon emission**. When an electron drops to a lower energy level, it releases energy as a photon. You must consider all possible paths:
+    *   The "direct" drop ($4 \rightarrow 2$).
+    *   The "indirect" path ($4 \rightarrow 3$ followed by $3 \rightarrow 2$). 
+    Each individual "jump" corresponds to the emission of one photon with energy equal to the change in potential energy between those specific levels.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,30 @@
+To solve this problem, we must apply the laws of **conservation of nucleon number** (mass number) and **conservation of atomic number** (charge) in nuclear decay reactions.
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Nuclear Equation:**
+    The given reaction is:
+    $${}^{30}_{15}\text{P} \rightarrow {}^{30}_{14}\text{Si} + X + Y$$
+
+2.  **Determine the properties of the emitted particles:**
+    *   **Nucleon Number ($A$):** The total nucleon number is conserved.
+        $30 = 30 + A_X + A_Y \Rightarrow A_X + A_Y = 0$. Since these are elementary particles, both must have a mass number of 0.
+    *   **Atomic Number ($Z$):** The total charge must be conserved.
+        $15 = 14 + Z_X + Z_Y \Rightarrow Z_X + Z_Y = 1$.
+
+3.  **Identify the particles:**
+    *   We can see that the atomic number has decreased from 15 (Phosphorus) to 14 (Silicon). This is characteristic of **$\beta^+$ decay** (positron emission), where a proton turns into a neutron:
+        $$p \rightarrow n + e^+ + \nu_e$$
+    *   In a positron emission ($\beta^+$ decay), the particles emitted are a **positron** ($e^+$, with $Z = +1$) and a **neutrino** ($\nu_e$, with $Z = 0$).
+    *   Checking the charges: $Z_X + Z_Y = 0 + 1 = 1$. This matches the charge conservation requirement calculated in step 2.
+
+4.  **Evaluate the options:**
+    *   $X$ must be the neutrino ($\nu_e$).
+    *   $Y$ must be the positron ($e^+$).
+
+Comparing this to the table provided, row (D) correctly identifies $X$ as a neutrino and $Y$ as a positron.
+
+**Correct Answer:** **(D)**
+
+###QUESTION_TYPE
+Multiple choice

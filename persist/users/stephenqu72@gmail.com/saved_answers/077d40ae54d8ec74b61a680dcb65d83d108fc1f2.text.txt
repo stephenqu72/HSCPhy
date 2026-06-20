@@ -1,0 +1,28 @@
+To solve this problem, we must calculate the energy released in Step $Y$ by determining the mass defect ($\Delta m$) of the reaction and converting it into energy using the mass-energy equivalence principle.
+
+### Step-by-Step Solution:
+
+**1. Calculate the mass defect ($\Delta m$) for Step $Y$:**
+The reaction is ${}^{13}\text{C} + {}^{1}\text{H} \rightarrow {}^{14}\text{N}$.
+Using the table provided:
+- Mass of reactants = $13.003\,u + 1.007\,u = 14.010\,u$
+- Mass of products = $14.003\,u$
+- $\Delta m = \text{Mass of reactants} - \text{Mass of products}$
+- $\Delta m = 14.010\,u - 14.003\,u = 0.007\,u$
+
+**2. Convert the mass defect into energy:**
+We use the standard conversion factor where $1\,u$ is approximately equivalent to $931.5\,\text{MeV}$.
+- Energy released ($E$) = $\Delta m \times 931.5\,\text{MeV/u}$
+- $E = 0.007 \times 931.5\,\text{MeV} \approx 6.52\,\text{MeV}$
+
+**3. Comparison:**
+- Energy released in Step $X$ = $1.20\,\text{MeV}$
+- Energy released in Step $Y$ = $6.52\,\text{MeV}$
+
+**Conclusion:**
+Step $Y$ releases more energy because the mass defect in Step $Y$ ($0.007\,u$) is significantly larger than the mass defect in Step $X$. Since the energy released in a nuclear reaction is directly proportional to the mass defect ($E = \Delta mc^2$), the greater loss of mass in Step $Y$ results in a larger release of energy.
+
+***
+
+###QUESTION_TYPE
+Calculation question

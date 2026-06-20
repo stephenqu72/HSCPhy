@@ -1,0 +1,37 @@
+To solve this problem, we apply the principles of Special Relativity, specifically time dilation.
+
+### Part (a) Determine the velocity $v$ of the pions
+The observed half-life $t$ is related to the proper half-life $t_0$ by the Lorentz factor $\gamma$:
+$$t = \gamma t_0 = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+Given:
+- Proper half-life $t_0 = 2.6 \times 10^{-8} \text{ s}$
+- Observed half-life $t = 4.2 \times 10^{-7} \text{ s}$
+
+Rearrange for $\gamma$:
+$$\gamma = \frac{t}{t_0} = \frac{4.2 \times 10^{-7}}{2.6 \times 10^{-8}} \approx 16.1538$$
+
+Now, solve for $v$:
+$$\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = 16.1538$$
+$$1 - \frac{v^2}{c^2} = \left(\frac{1}{16.1538}\right)^2 \approx 0.00383$$
+$$\frac{v^2}{c^2} = 1 - 0.00383 = 0.99617$$
+$$v = \sqrt{0.99617} \cdot c \approx 0.998 c$$
+Converting to meters per second: $v \approx 0.998 \times 3.00 \times 10^8 \text{ m/s} \approx 2.99 \times 10^8 \text{ m/s}$.
+
+### Part (b) Determine the average distance $d$ moved in its lifetime
+The observer in the control room measures the distance $d$ using the observed velocity $v$ and the observed half-life $t$:
+$$d = v \times t$$
+Using the values obtained:
+$$d = (0.998 \times 3.00 \times 10^8 \text{ m/s}) \times (4.2 \times 10^{-7} \text{ s})$$
+$$d \approx 125.75 \text{ m}$$
+Rounding to appropriate significant figures (two, based on the input values):
+$$d \approx 130 \text{ m}$$
+
+### How to solve this:
+1. **Identify Time Dilation:** Recognizing the change in half-life is a classic time dilation scenario. Use the formula $t = \gamma t_0$.
+2. **Calculate $\gamma$:** Divide the observed time by the proper time.
+3. **Rearrange for $v$:** Use the definition $\gamma = \frac{1}{\sqrt{1 - \beta^2}}$ to find the velocity as a fraction of $c$.
+4. **Calculate Distance:** Use the classical $d = vt$ formula from the perspective of the observer (since you have already determined the *observed* time and *observed* velocity).
+
+###QUESTION_TYPE
+Calculation question

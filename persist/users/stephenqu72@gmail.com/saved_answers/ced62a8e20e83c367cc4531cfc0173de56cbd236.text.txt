@@ -1,0 +1,19 @@
+### Answer
+The correct choice is **B**.
+
+### Explanation
+To solve this question, we must understand the physical origin of atomic emission spectra:
+
+1.  **Origin of Spectral Lines:** Atomic spectral lines are produced when electrons in an atom transition from a higher energy level ($E_{high}$) to a lower energy level ($E_{low}$). The energy of the emitted photon ($E_{photon}$) corresponds to the difference between these two levels: 
+    $$E_{photon} = E_{high} - E_{low} = hf = \frac{hc}{\lambda}$$
+2.  **Uniqueness vs. Coincidence:** While every element has a unique overall "fingerprint" because their electronic configurations and nuclear charges differ, it is entirely possible for two different elements to have transitions that emit photons of the same energy (and thus the same wavelength/frequency). 
+3.  **Evaluating the Options:**
+    *   **A is incorrect** because while spectra are unique *in their entirety*, it does not mean they cannot share any single wavelength.
+    *   **B is correct** because if two elements produce a line at the same position $G$, it means a transition in Element $X$ and a transition in Element $Y$ result in the emission of photons with the same energy value. This is a common occurrence in atomic spectroscopy.
+    *   **C is incorrect** because the energy levels of different elements are determined by their specific atomic number ($Z$) and electron-electron interactions; they are not generally the same.
+    *   **D is incorrect** because the energy levels of orbits are not simply "directly proportional" to the number of the orbit; they follow more complex mathematical relationships (e.g., for hydrogen-like atoms, $E_n \propto -Z^2/n^2$).
+
+Therefore, the presence of a line at $G$ simply indicates that both elements possess an electron transition with a matching energy value.
+
+###QUESTION_TYPE
+Multiple choice

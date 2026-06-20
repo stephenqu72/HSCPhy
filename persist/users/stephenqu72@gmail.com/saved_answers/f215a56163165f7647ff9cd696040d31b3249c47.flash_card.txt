@@ -1,0 +1,8 @@
+### Front
+Why does the energy required to accelerate a massive particle increase significantly as its velocity approaches $c$?
+
+### Back
+- Key idea: As $v \to c$, the Lorentz factor ($\gamma$) approaches infinity, meaning the particle’s total relativistic energy increases exponentially.
+- Formula / law: $E_k = (\gamma - 1)mc^2$ where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- When to use it: Relativistic dynamics problems involving high-speed particles or particle accelerators.
+- Common trap: Assuming kinetic energy increases linearly with velocity; it is actually a non-linear, asymptotic relationship.

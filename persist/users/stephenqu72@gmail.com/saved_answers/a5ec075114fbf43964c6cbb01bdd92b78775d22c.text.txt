@@ -1,0 +1,18 @@
+To answer this question effectively, you need to connect the limitations of the Bohr model (specifically why electrons were restricted to fixed orbits) with the revolutionary concept of matter waves introduced by de Broglie.
+
+### Model Answer
+Bohr’s model postulated that electrons occupy fixed, stable orbits without radiating energy, but it could not explain *why* these orbits were quantized. Louis de Broglie proposed that matter, including electrons, exhibits wave-particle duality, represented by the relationship $\lambda = \frac{h}{mv}$. 
+
+De Broglie suggested that an electron orbiting the nucleus acts as a standing wave. For a stable orbit to exist, the circumference of the electron's path must be an integer multiple of its wavelength: $2\pi r = n\lambda$. By substituting de Broglie’s wavelength into this condition, we derive $2\pi r = \frac{nh}{mv}$, which rearranges to $mvr = \frac{nh}{2\pi}$. This provides a physical, theoretical justification for Bohr’s empirical postulate that angular momentum is quantized ($L = n\hbar$). This wave nature formed the foundation for the Schrödinger equation and the quantum-mechanical model, which replaces fixed circular orbits with probabilistic "orbitals."
+
+---
+
+### How to solve this question
+1.  **Identify the Link:** Recognize that the "missing link" in the Bohr model was the physical justification for why electrons only exist in specific energy levels. 
+2.  **State the Hypothesis:** Clearly define de Broglie’s contribution: matter waves ($\lambda = \frac{h}{mv}$).
+3.  **Explain the Geometry:** Explain that for a wave to be "standing" (stable) around a nucleus, the wave must interfere constructively with itself. This happens only if the circumference ($2\pi r$) is a whole number of wavelengths ($n\lambda$).
+4.  **Synthesize:** Show how this leads to the quantization of angular momentum. Since $n\lambda = 2\pi r$ and $\lambda = \frac{h}{mv}$, it follows that $mvr = \frac{nh}{2\pi}$.
+5.  **Concluding Impact:** Briefly mention that this shift moved physics from a "planetary" model of the atom to a "wave-mechanical" model, where electrons are described by wave functions rather than defined paths.
+
+###QUESTION_TYPE
+Short answer

@@ -1,0 +1,30 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** The absorption dips occur because the cold hydrogen gas atoms absorb specific photons from the continuous spectrum of the incandescent bulb. According to the Bohr model, electrons occupy discrete energy levels ($E_n$). When a photon with energy exactly equal to the difference between two energy levels ($\Delta E = E_{upper} - E_{lower}$) passes through the gas, the electron absorbs the photon and transitions to a higher energy level. By the **law of conservation of energy**, the energy of the absorbed photon must exactly match the energy transition, preventing those specific wavelengths from passing through to the spectrometer, resulting in "dips" in the intensity curve.
+
+**How to solve:** Identify the link between photon energy ($E = hf = \frac{hc}{\lambda}$) and Bohr's postulate of discrete energy levels. Explicitly mention conservation of energy: the photon energy absorbed is equal to the change in the atom's internal energy.
+
+#### Part (b)
+**Answer:** We use Wien's Displacement Law:
+$$\lambda_{max} T = 2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$$
+From the provided graph, the peak intensity ($\lambda_{max}$) occurs at approximately $0.85 \, \mu\text{m} = 0.85 \times 10^{-6} \, \text{m}$.
+$$T = \frac{2.898 \times 10^{-3}}{0.85 \times 10^{-6}} \approx 3409 \, \text{K}$$
+*(Note: Depending on the precision of reading the peak, an answer in the range of $3300-3500 \, \text{K}$ is acceptable.)*
+
+**How to solve:** 
+1. Identify the peak wavelength ($\lambda_{max}$) from the $x$-axis of the graph.
+2. Rearrange Wien's Displacement Law to solve for temperature ($T$).
+3. Convert $\mu\text{m}$ to meters before calculating.
+
+#### Part (c)
+**Answer:** To sketch the new curve:
+1. **Shift the peak:** As temperature increases, $\lambda_{max}$ must shift to the left (shorter wavelengths).
+2. **Increase intensity:** The curve must be significantly higher than the original across all wavelengths because the total power emitted per unit area (Stefan-Boltzmann Law, $P = \sigma T^4$) increases rapidly with temperature.
+3. **Shape:** It should maintain the same general shape as a blackbody curve, starting from near zero, rising to a new, sharper peak at a shorter wavelength, and then tapering off.
+4. **Dips:** Maintain the absorption dips at the same $x$-axis positions as the original.
+
+**How to solve:** Apply the qualitative features of Planck’s Law: higher $T$ means higher peak intensity and a shift toward the ultraviolet/blue end of the spectrum (shorter $\lambda$).
+
+###QUESTION_TYPE
+Data analysis questions

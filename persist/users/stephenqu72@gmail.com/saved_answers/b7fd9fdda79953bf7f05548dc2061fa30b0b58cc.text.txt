@@ -1,0 +1,40 @@
+To solve this problem, we must apply the principles of radioactive decay, specifically the relationship between the parent isotope (Manganese-56) and the daughter isotope (Iron-56).
+
+### Part (a): Plotting the Iron-56 atoms
+The total number of atoms in the system is conserved because one Manganese-56 atom decays into one Iron-56 atom.
+Total atoms $N_{total} = 1.5 \times 10^6$.
+The number of Iron atoms at time $t$ is given by:
+$$N_{Fe}(t) = N_{total} - N_{Mn}(t)$$
+where $N_{Mn}(t) = N_0 \times (0.5)^{\frac{t}{t_{1/2}}}$.
+
+**Calculation points:**
+1. At $t = 0$: $N_{Mn} = 1.5 \times 10^6$, so $N_{Fe} = 0$.
+2. At $t = 2.6$: $N_{Mn} = 0.75 \times 10^6$, so $N_{Fe} = 0.75 \times 10^6$.
+3. At $t = 5.2$: $N_{Mn} = 0.375 \times 10^6$, so $N_{Fe} = 1.125 \times 10^6$.
+4. At $t = 7.8$: $N_{Mn} = 0.1875 \times 10^6$, so $N_{Fe} = 1.3125 \times 10^6$.
+5. At $t = 10.4$: $N_{Mn} = 0.09375 \times 10^6$, so $N_{Fe} \approx 1.406 \times 10^6$.
+
+**Graphing instruction:** You should plot these points on the provided grid. The curve starts at $(0, 0)$ and rises with a decreasing gradient (an inverse exponential growth curve) reaching approximately $1.41 \times 10^6$ by $t = 11$ hours.
+
+---
+
+### Part (b): Calculation for Manganese-56 after 6 hours
+To find the number of remaining Manganese-56 atoms ($N_t$) after $t = 6$ hours, use the radioactive decay formula:
+$$N_t = N_0 \times \left(\frac{1}{2}\right)^{\frac{t}{t_{1/2}}}$$
+
+**Given:**
+- Initial atoms $N_0 = 1.5 \times 10^6$
+- Elapsed time $t = 6$ hours
+- Half-life $t_{1/2} = 2.6$ hours
+
+**Step-by-step calculation:**
+1. Determine the number of half-lives passed: $n = \frac{6}{2.6} \approx 2.3077$
+2. Substitute into the formula:
+$$N_t = 1.5 \times 10^6 \times (0.5)^{2.3077}$$
+3. Calculate the exponent: $(0.5)^{2.3077} \approx 0.2023$
+4. Final calculation: $N_t = 1.5 \times 10^6 \times 0.2023 \approx 3.03 \times 10^5$
+
+**Result:** After 6 hours, there are approximately $3.03 \times 10^5$ atoms of Manganese-56 remaining.
+
+###QUESTION_TYPE
+Calculation question

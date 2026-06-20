@@ -1,0 +1,42 @@
+As a top HSC Physics teacher, I will guide you through these four parts, focusing on the principles of Special Relativity and the Standard Model.
+
+---
+
+### (a) Total Momentum of Two Colliding Protons
+**Answer:** The total momentum is $0\text{ kg m/s}$.
+
+**Explanation:** The problem states that the protons are traveling in opposite directions with the same energy. Since momentum $p$ is a vector quantity, and both protons have identical mass and speed (therefore equal magnitude of momentum), their momentum vectors will be equal in magnitude but opposite in direction. When you sum them ($p + (-p) = 0$), the net momentum of the system is zero.
+
+---
+
+### (b) Relativistic Momentum of a Proton
+**Answer:**
+Given: $v = 0.999999991c$, $E = mc^2 + K$. Since $K \approx 7 \times 10^{12} \text{ eV}$, and the rest mass of a proton is $\approx 938 \text{ MeV}$, the energy is almost entirely kinetic. For extreme relativistic particles, $E \approx pc$.
+$p = \frac{E}{c} = \frac{7 \times 10^{12} \text{ eV}}{c}$.
+Converting to SI units: $1 \text{ eV} = 1.6 \times 10^{-19} \text{ J}$.
+$p = \frac{7 \times 10^{12} \times 1.6 \times 10^{-19}}{3 \times 10^8} \approx 3.73 \times 10^{-15} \text{ kg m/s}$.
+
+**Explanation:** In special relativity, as $v \to c$, the formula $p = \gamma mv$ becomes cumbersome. It is easier to use the relativistic energy-momentum relation $E^2 = (pc)^2 + (mc^2)^2$. Because the kinetic energy ($7 \text{ TeV}$) is vastly greater than the rest mass energy ($0.938 \text{ GeV}$), we can simplify this to $E \approx pc$.
+
+---
+
+### (c) Angular Velocity of the Protons
+**Answer:**
+$\omega = 2\pi f$.
+Given $f = 11245 \text{ rev/s}$.
+$\omega = 2 \times \pi \times 11245 \approx 70658 \text{ rad/s}$.
+
+**Explanation:** Angular velocity ($\omega$) is defined as the rate of change of the angle. Since a full revolution is $2\pi$ radians, multiplying the frequency of revolutions per second by $2\pi$ gives the angular velocity in radians per second. The radius provided is extraneous information for this specific calculation.
+
+---
+
+### (d) Relationship Between Quarks and Protons
+**Answer:**
+In the Standard Model, a proton is a type of hadron known as a baryon. It is composed of three valence quarks: two "up" quarks and one "down" quark ($uud$). These quarks are held together by the strong nuclear force, which is mediated by particles called gluons.
+
+**Explanation:** To gain full marks, mention that the proton is a "composite particle," define its constituent quarks ($uud$), and acknowledge the strong nuclear force (gluons) that binds them, as this is central to the Standard Model of particle physics.
+
+---
+
+###QUESTION_TYPE
+Calculation question

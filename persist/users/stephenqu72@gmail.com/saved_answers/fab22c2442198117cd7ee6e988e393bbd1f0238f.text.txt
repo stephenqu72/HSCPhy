@@ -1,0 +1,41 @@
+To solve this problem, we first determine the energy released per fission and fusion reaction using the mass-energy equivalence principle, $E = \Delta m c^2$.
+
+### Part (a)
+
+**1. Calculate Energy per Reaction (in Joules and then eV):**
+*   **Fission:**
+    $\Delta m = (235.0439 + 1.0087) - (144.9217 + 87.9241 + 3.0261) = 0.1807 \text{ amu}$
+    Using $1 \text{ amu} = 1.6606 \times 10^{-27} \text{ kg}$ and $1 \text{ eV} = 1.6022 \times 10^{-19} \text{ J}$:
+    $\Delta E = (0.1807 \times 1.6606 \times 10^{-27} \text{ kg}) \times (2.9979 \times 10^8 \text{ m/s})^2 = 2.685 \times 10^{-11} \text{ J}$
+    $\Delta E \approx 1.676 \times 10^8 \text{ eV}$
+
+*   **Fusion:**
+    $\Delta m = (2.0136 + 3.0160) - (4.0015 + 1.0087) = 0.0194 \text{ amu}$
+    $\Delta E = (0.0194 \times 1.6606 \times 10^{-27} \text{ kg}) \times (2.9979 \times 10^8 \text{ m/s})^2 = 2.884 \times 10^{-12} \text{ J}$
+    $\Delta E \approx 1.800 \times 10^7 \text{ eV}$
+
+**2. Calculations for Table:**
+*   **Reactions required:** $\frac{1 \times 10^{35} \text{ eV}}{\text{Energy per reaction}}$
+*   **Initial mass:** $\text{Reactions} \times \text{Mass per reaction}$
+
+| Fuel Process | Energy per reaction (eV) | Reactions required | Initial mass (kg) |
+| :--- | :--- | :--- | :--- |
+| Combustion | 50 | $2 \times 10^{33}$ | $4 \times 10^8$ |
+| Fission | $1.676 \times 10^8$ | $5.967 \times 10^{26}$ | $0.0179$ |
+| Fusion | $1.800 \times 10^7$ | $5.556 \times 10^{27}$ | $0.0179$ |
+
+---
+
+### Part (b)
+
+**Suggested Fuel: Fusion (or Fission).**
+Justification: Conventional chemical combustion is entirely impractical for interstellar travel because it requires a massive amount of fuel ($4 \times 10^8 \text{ kg}$), creating a "tyranny of the rocket equation" where the fuel itself adds too much mass to the craft. Both nuclear processes provide an incredibly high energy density compared to chemical fuels, reducing the fuel payload requirement by roughly 10 orders of magnitude. Fusion is often preferred over fission because it produces more energy per unit mass (if considering the total system) and leaves less radioactive waste compared to the heavy elements in fission products.
+
+### How to solve this:
+1. **Understand Mass Deficit:** Calculate the mass difference between products and reactants in amu.
+2. **Convert Units:** Convert amu to kg, then use $E=mc^2$ to get energy in Joules, finally convert Joules to eV.
+3. **Apply Mission Parameters:** Divide the total mission energy by the energy per individual reaction to find the count, then multiply by the mass per reaction to find total fuel weight.
+4. **Evaluate context:** Use the calculated masses to justify why nuclear fuels are superior to chemical fuels in terms of payload efficiency for space travel.
+
+###QUESTION_TYPE
+Calculation question

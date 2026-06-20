@@ -1,0 +1,29 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, defined by the formula:
+$$E = mc^2$$
+
+Where $E$ is energy, $m$ is mass, and $c$ is the speed of light. Rearranging this to solve for mass, we get:
+$$m = \frac{E}{c^2}$$
+
+### Step-by-step Solution:
+
+1.  **Identify the given information:**
+    The energy released is $E = 0.42\text{ MeV}$.
+
+2.  **Convert MeV to Joules:**
+    In physics, $1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$. 
+    Therefore, $1\text{ MeV} = 10^6\text{ eV} = 1.602 \times 10^{-13}\text{ J}$.
+    So, $E = 0.42 \times 10^6 \times 1.602 \times 10^{-19}\text{ J}$.
+
+3.  **Calculate the mass in kg:**
+    Using the formula $m = \frac{E}{c^2}$:
+    $$m = \frac{0.42 \times 10^6 \times 1.602 \times 10^{-19}}{c^2}\text{ kg}$$
+
+4.  **Evaluate the options:**
+    *   **Option A** uses the conversion factor $931.5\text{ MeV/u}$ (the energy equivalent of 1 atomic mass unit). If we divide the energy in MeV by this factor, we get the mass in atomic mass units (u).
+        $$m = \frac{0.42\text{ MeV}}{931.5\text{ MeV/u}} = \frac{0.42}{931.5}\text{ u}$$
+    *   **Option A** represents the correct mass equivalent in atomic mass units ($u$). While option D attempts a unit conversion to kg, the powers of 10 in option D are incomplete/incorrect compared to standard SI unit conversions for MeV. Option A is the standard pedagogical way to express mass defect in nuclear physics relative to $u$.
+
+**Correct Answer:** A
+
+###QUESTION_TYPE
+Multiple choice

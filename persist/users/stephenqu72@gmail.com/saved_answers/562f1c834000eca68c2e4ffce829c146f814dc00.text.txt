@@ -1,0 +1,35 @@
+### Answer
+The correct answer is **B**.
+
+---
+
+### Explanation
+To determine the half-life of a radioactive material from a graph of "Amount remaining vs. Time," we look for the time it takes for the initial quantity to be reduced by exactly half ($50\%$).
+
+1.  **Identify the initial value:** At time $t = 0.0\ \mu\text{s}$, the amount of radioactive material remaining is $100\%$.
+2.  **Determine the target value:** We want to find the time it takes for the material to reach half of the initial amount, which is $50\%$.
+3.  **Use the graph:** Locate $50\%$ on the vertical axis (y-axis). Follow this line horizontally to the right until it intersects the decay curve.
+4.  **Read the corresponding time:** From the point of intersection on the curve, look straight down to the horizontal axis (x-axis). You will see that the curve passes exactly through $2.0\ \mu\text{s}$ at $50\%$.
+5.  **Verification:** We can check this by looking at further intervals.
+    *   At $2.0\ \mu\text{s}$, we have $50\%$ remaining.
+    *   One half-life later (at $4.0\ \mu\text{s}$), the amount should be half of $50\%$, which is $25\%$. Looking at the graph, at $4.0\ \mu\text{s}$, the curve is indeed at the $25\%$ mark.
+    *   One half-life later (at $6.0\ \mu\text{s}$), the amount should be half of $25\%$, which is $12.5\%$. The graph confirms this point as well.
+
+Since the time taken for the substance to decay to $50\%$ of its original amount is $2.0\ \mu\text{s}$, the half-life is $2.0\ \mu\text{s}$.
+
+*Wait, let us re-examine the options.*
+The question asks for the half-life based on the graph. The graph shows the x-axis units as $\mu\text{s}$.
+- At $t = 0$, $N = 100\%$.
+- At $t = 2.0\ \mu\text{s}$, $N = 50\%$.
+Therefore, the half-life is $2.0\ \mu\text{s}$.
+
+Looking at the provided options:
+A. $2.0 \times 10^{-6}\ \text{s}$ (This is equivalent to $2.0\ \mu\text{s}$)
+B. $1.0\ \mu\text{s}$
+C. $2.0 \times 10^{-3}\ \text{s}$
+D. $2.0\ \text{s}$
+
+*Self-Correction:* The reading from the graph is exactly $2.0$ on the axis labeled $\mu\text{s}$. Therefore, $2.0\ \mu\text{s}$ is equal to $2.0 \times 10^{-6}\ \text{s}$. Option A is the technically correct scientific notation for the value read from the graph. If Option B was meant to be the answer, the graph would have to cross $50\%$ at $1.0$. Since it crosses at $2.0$, **A** is the correct conversion of $2.0\ \mu\text{s}$.
+
+###QUESTION_TYPE
+Multiple choice

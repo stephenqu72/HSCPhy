@@ -1,0 +1,35 @@
+### Solution
+
+#### (a) Calculate the energy released
+To find the energy released ($Q$-value) in a nuclear decay, we calculate the mass defect ($\Delta m$) and use Einstein’s mass-energy equivalence formula, $E = \Delta m c^2$.
+
+1.  **Calculate the mass defect:**
+    $$\Delta m = (\text{Mass of products}) - (\text{Mass of reactant})$$
+    $$\Delta m = (213.99981\ u + 4.00260\ u) - 218.00087\ u$$
+    $$\Delta m = 218.00241\ u - 218.00087\ u = 0.00154\ u$$
+
+2.  **Convert mass from atomic mass units ($u$) to kilograms ($kg$):**
+    Using $1\ u = 1.6605 \times 10^{-27}\ kg$:
+    $$\Delta m = 0.00154 \times 1.6605 \times 10^{-27}\ kg \approx 2.557 \times 10^{-30}\ kg$$
+
+3.  **Calculate the energy ($E$):**
+    $$E = \Delta m c^2$$
+    $$E = (2.557 \times 10^{-30}\ kg) \times (3.00 \times 10^8\ m/s)^2$$
+    $$E \approx 2.30 \times 10^{-13}\ J$$
+
+#### (b) Binding energy per nucleon
+The parent nucleus (polonium-118) decays into a more stable daughter nucleus (lead-114). Because the decay is spontaneous and releases energy, the products must be more stable than the reactant. Therefore, lead-114 has a **higher** binding energy per nucleon than polonium-118.
+
+#### (c) Decay constant of the accelerated ion
+This question tests your understanding of time dilation in special relativity. Radioactive decay follows the law $N(t) = N_0 e^{-\lambda t}$. The decay constant $\lambda$ is the inverse of the mean lifetime. Because of time dilation, a moving clock runs slower relative to a stationary observer: $t = \gamma t_0$. 
+
+The decay rate as observed in the lab frame is slowed down by the Lorentz factor $\gamma$:
+$$\lambda_{observed} = \frac{\lambda}{\gamma}$$
+1. **Calculate $\gamma$:**
+   $$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}} = \frac{1}{\sqrt{1 - 0.99945^2}} \approx \frac{1}{\sqrt{1 - 0.99890}} \approx \frac{1}{0.03316} \approx 30.15$$
+
+2. **Calculate the new decay constant:**
+   $$\lambda_{observed} = \frac{0.2236\ min^{-1}}{30.15} \approx 0.007416\ min^{-1}$$
+
+###QUESTION_TYPE
+Calculation question

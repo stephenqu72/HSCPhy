@@ -1,0 +1,32 @@
+To solve this problem, we look at the nuclear reactions occurring in the CNO cycle.
+
+### Part (a)
+To identify the missing components, we must ensure charge and nucleon number conservation in each step.
+*   **Box Y:** The reaction involves $^{13}\text{C}$ capturing a proton ($^{1}\text{H}$). The result must be $^{14}\text{N}$, but the diagram shows a $\gamma$ ray emitted. This is the capture reaction: $^{13}\text{C} + ^{1}\text{H} \rightarrow ^{14}\text{N} + \gamma$. The box Y is effectively the product of the interaction of $^{13}\text{C}$ and $^{1}\text{H}$, which is $^{14}\text{N}$. 
+*   **Box Z:** The reaction shows $^{14}\text{N} + ^{1}\text{H} \rightarrow \text{Z} + \gamma$. By conservation of nucleons ($14+1=15$) and protons ($7+1=8$), we identify Z as $^{15}\text{O}$.
+*   **Box X:** The final step is $^{15}\text{N} + ^{1}\text{H} \rightarrow \text{X} + ^{4}\text{He}$. The diagram shows $^{15}\text{N}$ capturing a proton to produce $^{12}\text{C}$ and releasing an alpha particle ($^{4}\text{He}$). Therefore, X represents the $^{4}\text{He}$ (Helium-4).
+
+**Answer:**
+*   **X:** Helium-4 ($^{4}\text{He}$)
+*   **Y:** Nitrogen-14 ($^{14}\text{N}$)
+*   **Z:** Oxygen-15 ($^{15}\text{O}$)
+
+---
+
+### Part (b)
+To calculate the energy of the gamma ray, we calculate the mass defect ($\Delta m$) of the reaction:
+$$^{12}\text{C} + ^{1}\text{H} \rightarrow ^{13}\text{N} + \gamma$$
+
+1. **Calculate mass of reactants:**
+   $m_{\text{reactants}} = 12.010 + 1.008 = 13.018 \text{ amu}$
+2. **Calculate mass defect ($\Delta m$):**
+   $\Delta m = m_{\text{reactants}} - m_{\text{products}} = 13.018 - 13.006 = 0.012 \text{ amu}$
+3. **Convert to Energy:**
+   Using the conversion factor $1 \text{ amu} \approx 931.5 \text{ MeV/c}^2$:
+   $E = 0.012 \times 931.5 \text{ MeV}$
+   $E = 11.178 \text{ MeV}$
+
+The energy of the gamma ray produced is approximately **$11.18 \text{ MeV}$**.
+
+###QUESTION_TYPE
+Calculation question

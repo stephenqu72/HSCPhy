@@ -1,0 +1,30 @@
+Hello! As your HSC Physics teacher, I am happy to help you break down this nuclear decay problem.
+
+### Answer
+The correct answer is **C**.
+
+---
+
+### Explanation
+To solve this, we need to track the change in atomic number ($Z$) and mass number ($A$) as the nucleus decays from $^{218}_{84}\text{Po}$ to $^{214}_{84}\text{Po}$.
+
+1.  **Identify the path on the graph:**
+    *   Start at $^{218}_{84}\text{Po}$.
+    *   The first arrow goes to the left and down to $^{214}_{82}\text{Pb}$.
+    *   The second arrow goes to the right and up to $^{214}_{83}\text{Bi}$.
+    *   The third arrow goes to the right and up to $^{214}_{84}\text{Po}$.
+
+2.  **Analyze the decay types:**
+    *   **Alpha decay ($\alpha$):** Results in a loss of 4 in mass number ($A$) and 2 in atomic number ($Z$). This shows as a diagonal step down and to the left on the graph.
+        *   $^{218}_{84}\text{Po} \rightarrow ^{214}_{82}\text{Pb} + ^{4}_{2}\text{He}$ (This is an **alpha decay**).
+    *   **Beta decay ($\beta^-$):** Results in no change to the mass number ($A$) but an increase of 1 in the atomic number ($Z$). This shows as a horizontal step to the right on the graph.
+        *   $^{214}_{82}\text{Pb} \rightarrow ^{214}_{83}\text{Bi} + ^{0}_{-1}e$ (This is a **beta decay**).
+        *   $^{214}_{83}\text{Bi} \rightarrow ^{214}_{84}\text{Po} + ^{0}_{-1}e$ (This is a second **beta decay**).
+
+3.  **Conclusion:**
+    The sequence consists of one alpha decay (decreasing mass by 4 and atomic number by 2) followed by two beta decays (increasing atomic number by 1, twice, returning to the original atomic number of 84).
+
+Therefore, the order is **Alpha decay, 2 beta decays**.
+
+###QUESTION_TYPE
+Multiple choice

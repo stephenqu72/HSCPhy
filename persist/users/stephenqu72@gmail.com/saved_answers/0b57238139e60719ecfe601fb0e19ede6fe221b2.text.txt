@@ -1,0 +1,31 @@
+### Answer
+To show why the de Broglie wavelength of an everyday object is not observable, we use the de Broglie equation:
+$$\lambda = \frac{h}{mv}$$
+where:
+*   $\lambda$ is the wavelength
+*   $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J s}$)
+*   $m$ is the mass of the object
+*   $v$ is the velocity of the object
+
+**Example:**
+Consider a cricket ball with a mass of $0.16 \text{ kg}$ moving at a speed of $30 \text{ m/s}$.
+
+Substituting these values into the equation:
+$$\lambda = \frac{6.626 \times 10^{-34}}{0.16 \times 30}$$
+$$\lambda \approx 1.38 \times 10^{-34} \text{ m}$$
+
+**Conclusion:**
+This wavelength is unimaginably small—far smaller than the diameter of an atomic nucleus. Because this value is so infinitesimally small compared to the physical dimensions of the object (or any measuring device), wave properties like diffraction and interference cannot be observed. Therefore, everyday objects behave purely as particles.
+
+---
+
+### How to solve it
+To secure full marks for this 3-mark HSC-style question, you must follow these steps:
+
+1.  **State the Equation:** Explicitly write down the de Broglie wavelength formula and define the variables.
+2.  **Provide a Realistic Example:** Choose a standard macroscopic object (like a ball, car, or person) and assign realistic values for mass ($m$) and velocity ($v$). Ensure your units are in SI (kg and m/s).
+3.  **Perform the Calculation:** Plug the values in. The denominator ($mv$) will be a relatively large number, while the numerator (Planck's constant) is an extremely tiny number ($10^{-34}$). 
+4.  **Explain the Significance:** Crucially, don't just stop at the number. You must explicitly state *why* this result implies non-observability. Mention that the wavelength is negligible compared to the size of the object or that it is too small to interact with matter in a way that produces observable wave phenomena (like diffraction).
+
+###QUESTION_TYPE
+Calculation question

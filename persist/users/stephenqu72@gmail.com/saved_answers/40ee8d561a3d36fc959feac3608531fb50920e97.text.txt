@@ -1,0 +1,28 @@
+To determine the correct decay formula for Cobalt-60 ($^{60}_{27}\text{Co}$) decaying into Nickel-60 ($^{60}_{28}\text{Ni}$), we must apply the laws of conservation of mass number ($A$) and atomic number ($Z$).
+
+### Step-by-Step Explanation:
+
+1.  **Analyze the Change:**
+    *   **Mass Number ($A$):** Remains constant at $60$. This suggests a beta decay process, as the total number of nucleons does not change.
+    *   **Atomic Number ($Z$):** Increases from $27$ (Cobalt) to $28$ (Nickel). This indicates that a neutron has converted into a proton, which is the characteristic process of $\beta^-$ (beta-minus) decay.
+
+2.  **Evaluate the Requirements for $\beta^-$ Decay:**
+    *   In $\beta^-$ decay, a neutron transforms into a proton, an electron (the beta particle, denoted as $_{-1}^{0}\beta$ or $e^-$), and an electron antineutrino ($\bar{\nu}$).
+    *   The general equation is: 
+        $$^{A}_{Z}X \rightarrow ^{A}_{Z+1}Y + _{-1}^{0}\beta + \bar{\nu}$$
+
+3.  **Check the Options:**
+    *   **(A)** $^{60}_{27}\text{Co} \rightarrow ^{60}_{28}\text{Ni} + _{-1}^{0}\beta + \bar{\nu}$:
+        *   Mass balance: $60 = 60 + 0 + 0$ (Correct).
+        *   Charge balance: $27 = 28 - 1 + 0$ (Correct).
+        *   This matches the standard model for $\beta^-$ decay.
+    *   **(B)** Incorrect mass numbers for alpha decay.
+    *   **(C) and (D)** Use $_{+1}^{0}\beta$ (positron), which would decrease the atomic number (positron emission), making them incorrect for Cobalt to Nickel transformation.
+
+**Conclusion:**
+Option (A) correctly represents the beta-minus decay of Cobalt-60 into Nickel-60, conserving both mass number and atomic charge.
+
+**Correct Answer: (A)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To determine which nuclear equation is incorrect, we must verify the **Law of Conservation of Nucleon Number (Mass Number, $A$)** and the **Law of Conservation of Atomic Number (Charge, $Z$)**. For a nuclear equation to be correct, the sum of the top numbers ($A$) and the sum of the bottom numbers ($Z$) must be equal on both sides of the arrow.
+
+### Evaluation of Options:
+
+*   **A.** $^{235}_{92}\text{U} + ^{1}_{0}\text{n} \rightarrow ^{142}_{56}\text{Ba} + ^{91}_{36}\text{Kr} + 3^{1}_{0}\text{n}$
+    *   $A$: $235 + 1 = 236$ on left; $142 + 91 + (3 \times 1) = 236$ on right. (Balanced)
+    *   $Z$: $92 + 0 = 92$ on left; $56 + 36 + 0 = 92$ on right. (Balanced)
+    *   **Result: Correct.**
+
+*   **B.** $^{234}_{90}\text{Th} \rightarrow ^{234}_{91}\text{Pa} + ^{0}_{-1}\text{e}$
+    *   $A$: $234$ on left; $234 + 0 = 234$ on right. (Balanced)
+    *   $Z$: $90$ on left; $91 - 1 = 90$ on right. (Balanced)
+    *   **Result: Correct.**
+
+*   **C.** $^{4}_{2}\text{He} + ^{4}_{2}\text{He} \rightarrow ^{7}_{4}\text{Be} + ^{1}_{0}\text{n}$
+    *   $A$: $4 + 4 = 8$ on left; $7 + 1 = 8$ on right. (Balanced)
+    *   $Z$: $2 + 2 = 4$ on left; $4 + 0 = 4$ on right. (Balanced)
+    *   **Result: Correct.**
+
+*   **D.** $^{16}_{8}\text{O} + ^{16}_{8}\text{O} \rightarrow ^{28}_{14}\text{Si} + ^{4}_{2}\text{He} + 2^{1}_{0}\text{n}$
+    *   $A$: $16 + 16 = 32$ on left; $28 + 4 + (2 \times 1) = 34$ on right. (**Unbalanced**)
+    *   $Z$: $8 + 8 = 16$ on left; $14 + 2 + 0 = 16$ on right. (Balanced)
+    *   Because the mass numbers do not sum up correctly ($32 \neq 34$), this equation is invalid.
+
+**Conclusion:** Equation D is incorrect.
+
+###QUESTION_TYPE
+Multiple choice

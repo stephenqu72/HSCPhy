@@ -1,0 +1,34 @@
+### Answer and Explanation
+
+#### Part (a)
+**Answer:** Particle accelerators are essential to investigate the Standard Model because they allow scientists to reach the high energies required to probe the structure of matter at subatomic levels. According to $E=mc^2$, high-energy collisions create massive, unstable particles that existed only in the early universe. By smashing particles together at near-light speeds, we can observe the decay products and interactions of fundamental particles (like quarks, leptons, and gauge bosons), allowing us to confirm the predictions of the Standard Model, such as the existence of the Higgs boson.
+
+**How to solve:** This is a conceptual question requiring knowledge of the HSC Physics "From the Universe to the Atom" module. Focus on the relationship between energy, mass, and velocity ($E=mc^2$) and the role of high-energy collisions in recreating conditions of the Big Bang to observe fundamental particles.
+
+---
+
+#### Part (b)
+**Answer:** Protons gain kinetic energy as they pass through each stage. The magnetic force ($F_B = qvB$) provides the centripetal force ($F_C = \frac{mv^2}{r}$) required for circular motion. Equating these: $qvB = \frac{mv^2}{r}$, which simplifies to $r = \frac{mv}{qB}$. As the velocity ($v$) of the protons increases through successive stages of acceleration, the radius ($r$) of the circular path must also increase to maintain the same magnetic field strength ($B$), ensuring the particles remain within the designated track.
+
+**How to solve:** Use the circular motion formula $r = \frac{mv}{qB}$. Since the magnetic field $B$, mass $m$, and charge $q$ are constant, $r$ is directly proportional to $v$. Therefore, as the protons are accelerated to higher speeds, the radius must be larger.
+
+---
+
+#### Part (c)
+**Calculation:**
+1. **Relativistic mass:** At $v = 0.9999991c$, we must use relativistic mass:
+   $$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}} = \frac{1}{\sqrt{1 - (0.9999991)^2}} \approx 745.356$$
+   $$m_{rel} = \gamma m_0 = 745.356 \times 1.673 \times 10^{-27} \text{ kg} \approx 1.247 \times 10^{-24} \text{ kg}$$
+2. **Magnetic Field formula:** $B = \frac{mv}{qr}$
+   $$B = \frac{(1.247 \times 10^{-24} \text{ kg}) \times (0.9999991 \times 3 \times 10^8 \text{ m/s})}{(1.602 \times 10^{-19} \text{ C}) \times (13000 \text{ m})}$$
+   $$B \approx \frac{3.741 \times 10^{-16}}{2.0826 \times 10^{-15}} \approx 0.1796 \text{ T}$$
+**Direction:** By the right-hand rule, for clockwise motion of positive protons, the magnetic field must be directed **into the page**.
+
+**How to solve:**
+1. Identify that relativistic effects are significant at this speed.
+2. Calculate the Lorentz factor ($\gamma$) and the relativistic mass.
+3. Rearrange the magnetic force/centripetal force equality for $B$.
+4. Use the right-hand rule for the direction (fingers curl with motion, thumb points into the page).
+
+###QUESTION_TYPE
+Calculation question

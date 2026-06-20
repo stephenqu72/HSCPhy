@@ -1,0 +1,36 @@
+To calculate the binding energy per nucleon of Nickel-62 ($_{28}^{62}\text{Ni}$), we follow these steps:
+
+### 1. Identify the constituent particles
+Nickel-62 has an atomic number ($Z$) of 28 (protons) and a mass number ($A$) of 62.
+*   Number of protons ($Z$) = 28
+*   Number of neutrons ($N$) = $A - Z = 62 - 28 = 34$
+
+### 2. Calculate the theoretical mass
+Using standard values:
+*   Mass of a proton ($m_p$) $\approx 1.007276\text{ u}$
+*   Mass of a neutron ($m_n$) $\approx 1.008665\text{ u}$
+
+Total theoretical mass = $(28 \times 1.007276) + (34 \times 1.008665)$
+Total theoretical mass = $28.203728 + 34.29461 = 62.498338\text{ u}$
+
+### 3. Calculate the mass defect ($\Delta m$)
+Mass defect = Theoretical mass - Observed mass
+$\Delta m = 62.498338\text{ u} - 61.9283449\text{ u} = 0.5699931\text{ u}$
+
+### 4. Convert mass defect to energy
+Using the conversion factor $1\text{ u} \approx 931.5\text{ MeV/c}^2$:
+Total Binding Energy ($BE$) = $0.5699931 \times 931.5\text{ MeV} \approx 530.954\text{ MeV}$
+
+### 5. Calculate binding energy per nucleon
+$BE/\text{nucleon} = \frac{BE}{A} = \frac{530.954}{62} \approx 8.56\text{ MeV/nucleon}$
+
+***
+
+### How to solve this type of problem:
+1.  **Determine the composition:** Always identify the number of protons and neutrons first.
+2.  **Calculate the mass defect:** Find the difference between the sum of the individual parts and the actual measured nucleus mass. Ensure you use precise values for proton and neutron masses.
+3.  **Use the correct energy conversion:** Use $931.5\text{ MeV}$ per atomic mass unit.
+4.  **Normalize:** Divide the total binding energy by the mass number ($A$) to find the energy "per nucleon."
+
+###QUESTION_TYPE
+Calculation question

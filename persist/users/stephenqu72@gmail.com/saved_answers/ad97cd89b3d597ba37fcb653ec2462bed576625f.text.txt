@@ -1,0 +1,23 @@
+### Answer
+J.J. Thomson determined the charge-to-mass ratio ($q/m$) of an electron by subjecting a beam of cathode rays (electrons) to perpendicular electric ($E$) and magnetic ($B$) fields. 
+
+1.  **Balancing the fields:** Thomson first applied an electric field and magnetic field simultaneously such that the forces balanced, resulting in no deflection of the beam. At this point, the electric force ($F_e = qE$) equals the magnetic force ($F_b = qvB$). By equating these, he determined the velocity of the electrons: $v = E/B$.
+2.  **Deflection:** He then switched off the electric field, leaving only the magnetic field. The magnetic force acted as a centripetal force, causing the electrons to deflect in a circular path with radius $r$. Using the formula $F_b = mv^2/r$, he substituted the velocity $v$ to solve for the charge-to-mass ratio: 
+    $$\frac{q}{m} = \frac{v}{Br} = \frac{E}{B^2r}$$
+**Significance:** This discovery proved that cathode rays consisted of negatively charged particles (electrons) that were significantly lighter than the lightest known atom (hydrogen). This shattered the prevailing view that atoms were indivisible and provided the first evidence for subatomic particles.
+
+---
+
+### How to solve this question
+To score full marks (4/4) in an HSC-style physics response, you must break your answer into two distinct parts as requested:
+
+1.  **The Methodology (2-3 marks):**
+    *   **Keywords:** You must mention "perpendicular fields," "force balance," and "centripetal motion."
+    *   **The logic:** Explain the two-step process: First, find velocity by balancing forces ($qE = qvB \rightarrow v=E/B$). Second, use the magnetic deflection to find $r$ and substitute $v$ to isolate $q/m$.
+    *   *Tip:* Briefly stating the formulas $F_e = qE$ and $F_b = qvB$ is highly recommended for clarity and precision.
+
+2.  **The Significance (1-2 marks):**
+    *   **The conceptual shift:** Connect the result to the "indivisibility of the atom." Thomson proved the electron is a universal constituent of matter and is much smaller than an atom. This is the key "significance" required by the syllabus.
+
+### QUESTION_TYPE
+Short answer

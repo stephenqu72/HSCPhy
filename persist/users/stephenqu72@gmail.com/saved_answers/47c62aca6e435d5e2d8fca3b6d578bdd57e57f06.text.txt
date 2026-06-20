@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **C**.
+
+### Explanation
+To solve this problem, you need to understand the relationship between electron transitions and photon emission:
+
+1.  **Emission vs. Absorption:** An electron emits a photon when it transitions from a higher energy level to a lower energy level (the arrow points downwards). Transitions pointing upwards (like arrow A) represent the absorption of energy, not emission. Therefore, A is incorrect.
+2.  **Energy and Frequency/Wavelength:** The energy of an emitted photon ($E_{photon}$) is equal to the difference in energy between the two levels:
+    $$E_{photon} = |E_{final} - E_{initial}|$$
+    On an energy level diagram, the magnitude of this energy change corresponds directly to the vertical length of the arrow.
+3.  **Evaluating the options:**
+    *   **A:** Represents absorption (arrow points up), so it does not result in the emission of a photon.
+    *   **B:** Represents a small downward transition from $n=4$ to $n=3$.
+    *   **C:** Represents a large downward transition from $n=2$ to $n=1$.
+    *   **D:** There is no arrow labeled "D" present in the diagram, but even comparing B and C, the vertical drop for C is clearly larger than for B.
+
+Since the energy of the emitted photon is proportional to the energy difference between the levels, the transition with the greatest vertical downward length will emit the photon with the most energy. Comparing the downward-pointing arrows, transition **C** covers the largest energy gap.
+
+###QUESTION_TYPE
+Multiple choice

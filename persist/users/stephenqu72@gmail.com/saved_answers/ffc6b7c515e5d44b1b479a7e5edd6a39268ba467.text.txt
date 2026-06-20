@@ -1,0 +1,21 @@
+To answer an 8-mark "justify" question in Physics, you must structure your response to show a clear evolution of scientific thought. You need to identify the limitation of Bohr’s model and explain how de Broglie’s proposal provided the necessary physical explanation for those limitations.
+
+### Answer
+
+Bohr’s model of the atom was highly successful in explaining the emission spectra of hydrogen, but it was essentially a semi-classical model. Its primary limitation was that it **postulated** the quantization of angular momentum ($mvr = n\frac{h}{2\pi}$) without any fundamental physical basis; Bohr simply assumed that electrons could only exist in stable orbits where the angular momentum was an integer multiple of $\frac{h}{2\pi}$.
+
+Louis de Broglie’s contribution fundamentally changed the understanding of the atom by proposing **matter-wave duality**. He hypothesized that if light could exhibit wave-like properties, then matter—specifically electrons—could also exhibit wave-like properties, defined by the relation $\lambda = \frac{h}{p} = \frac{h}{mv}$.
+
+De Broglie’s model justified the acceptance of his ideas over Bohr’s postulation because:
+1.  **Explanation of Stable Orbits:** De Broglie proposed that an electron in a hydrogen atom acts as a standing wave orbiting the nucleus. For a standing wave to persist without destructive interference, the circumference of the orbit must be an integer multiple of the wavelength ($2\pi r = n\lambda$).
+2.  **Theoretical Foundation:** By substituting de Broglie’s relation ($\lambda = \frac{h}{mv}$) into the standing wave condition ($2\pi r = n\frac{h}{mv}$), we can rearrange the terms to obtain $mvr = \frac{nh}{2\pi}$. 
+3.  **Conclusion:** This derivation proves that Bohr’s "arbitrary" postulate regarding quantized angular momentum was actually a direct consequence of the wave nature of the electron. De Broglie’s model provided the physical "why" behind the mathematical "what" of Bohr’s model, transforming the electron from a simple orbiting particle into a quantum mechanical wave-packet, which eventually led to the development of the Schrödinger wave equation and modern quantum mechanics.
+
+### How to solve this question
+*   **Identify the "Why":** The core of this question is the shift from an *empirical* model (Bohr just observed patterns) to a *theoretical* model (de Broglie explained the underlying physical behavior).
+*   **Show the Math:** Always include the derivation $2\pi r = n\lambda \rightarrow 2\pi r = n(\frac{h}{mv}) \rightarrow mvr = \frac{nh}{2\pi}$. This is essential for full marks.
+*   **Use Terminology:** Use terms like "quantization," "standing wave," "constructive interference," and "matter-wave duality."
+*   **Structure:** Spend roughly 2 marks on Bohr's success, 2 marks on his limitations, 2 marks on de Broglie's hypothesis, and 2 marks on the synthesis (how de Broglie validated Bohr).
+
+###QUESTION_TYPE
+Essay

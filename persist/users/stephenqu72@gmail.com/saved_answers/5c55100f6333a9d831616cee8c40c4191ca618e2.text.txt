@@ -1,0 +1,32 @@
+To solve this problem, we look at the components shown in "Step 1" of the provided diagram.
+
+### (a) Balanced nuclear equation for step 1
+
+**Explanation:**
+Looking at the diagram for Step 1, two protons ($^1_1H$) combine to form one deuterium nucleus ($^2_1H$), one positron ($^0_{+1}e$), and one neutrino ($\nu_e$). To balance a nuclear equation, the sum of the atomic numbers (bottom) and the sum of the mass numbers (top) must be equal on both sides of the equation.
+
+*   Mass numbers: $1 + 1 = 2 + 0$ (Balanced)
+*   Atomic numbers: $1 + 1 = 1 + 1$ (Balanced)
+
+**Equation:**
+$$^1_1H + ^1_1H \rightarrow ^2_1H + ^0_{+1}e + \nu_e$$
+
+---
+
+### (b) Energy produced by the step 1 reaction
+
+**Explanation:**
+To calculate the energy produced, we use Einstein’s mass-energy equivalence principle, $E = \Delta m c^2$. First, find the mass defect ($\Delta m$) by subtracting the total mass of the products from the total mass of the reactants. 
+
+1.  **Mass of reactants:** $2 \times \text{mass}(^1_1H) = 2 \times 1.007825 = 2.015650 \, u$
+2.  **Mass of products:** $\text{mass}(^2_1H) + \text{mass}(^0_{+1}e) = 2.014102 + 0.0005488 = 2.0146508 \, u$
+3.  **Mass defect ($\Delta m$):** $2.015650 - 2.0146508 = 0.0009992 \, u$
+4.  **Convert to Energy:** Using the conversion factor $1 \, u = 931.5 \, \text{MeV}$:
+    $$E = 0.0009992 \, u \times 931.5 \, \text{MeV}/u \approx 0.93175 \, \text{MeV}$$
+
+**Calculation:**
+$$\Delta m = (2 \times 1.007825) - (2.014102 + 0.0005488) = 0.0009992 \, u$$
+$$E = 0.0009992 \times 931.5 = 0.9312 \, \text{MeV} \text{ (rounded to 4 significant figures)}$$
+
+###QUESTION_TYPE
+Calculation question

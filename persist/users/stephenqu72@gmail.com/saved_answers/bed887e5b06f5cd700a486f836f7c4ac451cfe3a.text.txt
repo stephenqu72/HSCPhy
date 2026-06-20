@@ -1,0 +1,27 @@
+To find the momentum of the electron, we use the **de Broglie hypothesis**, which relates the wavelength ($\lambda$) of a particle to its momentum ($p$).
+
+### The Formula
+The de Broglie wavelength is defined as:
+$$\lambda = \frac{h}{p}$$
+Where:
+*   $\lambda$ is the wavelength ($3.33 \times 10^{-10} \text{ m}$)
+*   $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J}\cdot\text{s}$)
+*   $p$ is the momentum
+
+### Step-by-Step Calculation
+1.  **Rearrange the formula** to solve for momentum ($p$):
+    $$p = \frac{h}{\lambda}$$
+
+2.  **Substitute the known values**:
+    $$p = \frac{6.626 \times 10^{-34}}{3.33 \times 10^{-10}}$$
+
+3.  **Perform the division**:
+    $$p \approx 1.98978 \times 10^{-24} \text{ kg}\cdot\text{m/s}$$
+
+4.  **Compare with the given options**:
+    Rounding our result to three significant figures gives $1.99 \times 10^{-24}$. This matches option **(B)**.
+
+**Conclusion:** The correct answer is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

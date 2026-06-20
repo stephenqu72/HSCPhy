@@ -1,0 +1,26 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, $E = mc^2$, where $E$ is the energy, $m$ is the mass, and $c$ is the speed of light ($c \approx 3.00 \times 10^8 \text{ m/s}$).
+
+### Step-by-Step Solution:
+
+**1. Calculate the total energy released in one minute:**
+The power output is given in Watts ($W = J/s$). Since there are $60$ seconds in one minute, the total energy ($E$) released in one minute is:
+$$E = P \times t$$
+$$E = (3.85 \times 10^{28} \text{ J/s}) \times (60 \text{ s})$$
+$$E = 2.31 \times 10^{30} \text{ J}$$
+
+**2. Rearrange the mass-energy equivalence formula:**
+To find the mass ($m$) lost, we rearrange $E = mc^2$ to solve for $m$:
+$$m = \frac{E}{c^2}$$
+
+**3. Substitute the values:**
+Using $c = 3.00 \times 10^8 \text{ m/s}$:
+$$m = \frac{2.31 \times 10^{30} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2}$$
+$$m = \frac{2.31 \times 10^{30}}{9.00 \times 10^{16}}$$
+$$m \approx 2.5666... \times 10^{13} \text{ kg}$$
+
+Rounding to three significant figures, we get $2.57 \times 10^{13} \text{ kg}$.
+
+Comparing this result to the given options, it matches **Option B**.
+
+###QUESTION_TYPE
+Multiple choice

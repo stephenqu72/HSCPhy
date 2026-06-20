@@ -1,0 +1,32 @@
+### Answer
+The correct answer is **A. Electron**.
+
+---
+
+### Explanation
+To solve this problem, we must apply the law of **conservation of charge** to the nuclear transformation.
+
+1.  **Calculate the charge of the initial particle ($udd$):**
+    Using the provided charges ($u = +\frac{2}{3}e$ and $d = -\frac{1}{3}e$):
+    $$Charge_{initial} = (+\frac{2}{3}) + (-\frac{1}{3}) + (-\frac{1}{3}) = 0$$
+    The particle $udd$ is a **neutron**, which has a net charge of $0$.
+
+2.  **Calculate the charge of the final particle ($uud$):**
+    $$Charge_{final\_particle} = (+\frac{2}{3}) + (+\frac{2}{3}) + (-\frac{1}{3}) = +\frac{3}{3} = +1$$
+    The particle $uud$ is a **proton**, which has a net charge of $+1$.
+
+3.  **Determine the missing product:**
+    The transformation is:
+    $$Neutron \rightarrow Proton + \text{Product}$$
+    In terms of charge:
+    $$0 = (+1) + \text{Charge of product}$$
+    Therefore, the charge of the additional product must be $-1$. Looking at the options provided:
+    *   **A. Electron:** Charge = $-1$
+    *   B. Neutron: Charge = $0$
+    *   C. Positron: Charge = $+1$
+    *   D. Proton: Charge = $+1$
+
+Since we must conserve charge, an electron (specifically a beta particle, $\beta^-$) must be produced to balance the equation. This is the fundamental process of **beta decay** ($n \rightarrow p + e^- + \bar{\nu}_e$).
+
+###QUESTION_TYPE
+Multiple choice

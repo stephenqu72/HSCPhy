@@ -1,0 +1,25 @@
+To solve this problem, we must analyze the energy balance of the nuclear reaction $W + X \rightarrow Y + Z$.
+
+### Step-by-Step Explanation:
+
+1.  **Understand Nuclear Energy Release:** A nuclear reaction is exothermic (releases energy) if the products are more tightly bound than the reactants. This means the total binding energy of the products must be greater than the total binding energy of the reactants. Conversely, if the system moves to a state with higher total binding energy, mass is converted into energy ($E=mc^2$).
+
+2.  **Analyze the Data:** 
+    *   The total binding energy of the reactants is the sum of the binding energies of $W$ and $X$:
+        $$\text{Total BE (reactants)} = 2.224566 + 8.481798 = 10.706364 \text{ MeV}$$
+    *   We are given the binding energy of $Y$ as $28.29566 \text{ MeV}$.
+
+3.  **Evaluating the Reaction:**
+    *   Even without the specific value for $Z$, notice that the binding energy of $Y$ alone ($28.29566 \text{ MeV}$) is already significantly greater than the sum of the binding energies of both reactants ($10.706364 \text{ MeV}$). 
+    *   Because $BE_Y > (BE_W + BE_X)$, the products are inherently more stable/more tightly bound than the reactants. When the binding energy of the products increases, energy is released.
+    *   Statement D correctly identifies that if the binding energy of the products is greater than the binding energy of the reactants, energy is released.
+
+4.  **Why other options are incorrect:**
+    *   **A and C:** Focus on "mass defect" in a way that suggests comparing individual values is sufficient, which ignores the total sum and the correct relationship between binding energy and energy release.
+    *   **B:** Incorrect because we have sufficient information regarding the reactant binding energies vs. product $Y$ to conclude the reaction must release energy.
+
+**Conclusion:**
+The correct statement is **D**.
+
+###QUESTION_TYPE
+Multiple choice

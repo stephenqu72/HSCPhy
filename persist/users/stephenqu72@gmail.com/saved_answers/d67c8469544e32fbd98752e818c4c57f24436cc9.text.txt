@@ -1,0 +1,31 @@
+To solve this problem, we must apply the principle of the conservation of energy in atomic transitions. When an electron transitions from a higher energy level $E_n$ to a lower energy level $E_m$, it emits a photon with energy equal to the difference between these levels:
+
+$$\Delta E = E_n - E_m = hf$$
+
+where $h$ is Planck's constant and $f$ is the frequency of the emitted photon. Therefore, the frequency of the emitted light is directly proportional to the energy gap between the levels: $f \propto \Delta E$.
+
+### Analysis of the Transitions:
+Looking at the diagram, we have five transitions:
+1. $E_5 \rightarrow E_2$ (small energy gap)
+2. $E_4 \rightarrow E_3$ (smallest energy gap)
+3. $E_3 \rightarrow E_1$ (medium-large energy gap)
+4. $E_4 \rightarrow E_1$ (larger energy gap)
+5. $E_5 \rightarrow E_1$ (largest energy gap)
+
+Let's order these transitions by their relative energy gaps ($\Delta E$):
+* **Lowest frequency:** The transition $E_4 \rightarrow E_3$ is the smallest vertical drop.
+* **Second lowest:** The transition $E_5 \rightarrow E_2$ is the next smallest vertical drop.
+* **Remaining three:** These transitions all land on $E_1$. The gaps are $E_3 - E_1$, $E_4 - E_1$, and $E_5 - E_1$. These represent the three highest frequencies, in that specific order.
+
+We are looking for a spectrum that shows two lines grouped closely together at the low-frequency end (representing the small gaps $E_4 \rightarrow E_3$ and $E_5 \rightarrow E_2$) and three lines grouped at the high-frequency end (representing $E_3 \rightarrow E_1$, $E_4 \rightarrow E_1$, and $E_5 \rightarrow E_1$).
+
+### Evaluating the Options:
+* **Option A:** Shows three lines at low frequency and two at high frequency. Incorrect.
+* **Option B:** Shows one line at low frequency and three at high frequency with a large gap. Incorrect.
+* **Option C:** Shows two lines at the low-frequency end and three lines at the high-frequency end. This matches our derivation.
+* **Option D:** Shows two lines at low frequency, but the spacing and grouping at the high end do not match the expected pattern as well as C.
+
+Therefore, the correct spectrum is **C**.
+
+###QUESTION_TYPE
+Multiple choice

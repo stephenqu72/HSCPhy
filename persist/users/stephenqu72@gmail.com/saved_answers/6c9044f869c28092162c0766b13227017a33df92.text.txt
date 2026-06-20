@@ -1,0 +1,25 @@
+To solve this problem, we need to understand the physics of $\beta^-$ (beta-minus) decay.
+
+### Explanation
+
+1.  **Understanding $\beta^-$ decay:** In $\beta^-$ decay, a neutron within the nucleus is converted into a proton and an electron (the beta particle). The electron is ejected from the nucleus.
+    *   **Proton number ($Z$):** Since a neutron turns into a proton, the atomic number increases by $1$.
+    *   **Neutron number ($N$):** Since one neutron is converted into a proton, the number of neutrons decreases by $1$.
+
+2.  **Analyzing the graph:** The axes represent the Number of neutrons ($y$-axis) and the Atomic number ($x$-axis).
+    *   If you move to the **right** on the $x$-axis, the atomic number increases.
+    *   If you move **down** on the $y$-axis, the number of neutrons decreases.
+
+3.  **Connecting the theory to the graph:** To represent $\beta^-$ decay, the product must be located at a position where the atomic number has increased by $1$ (one unit to the right) and the number of neutrons has decreased by $1$ (one unit down). 
+    *   Looking at the graph starting from point $X$:
+        *   Moving to **$Q$**: The atomic number increases by $1$, and the number of neutrons decreases by $1$. This matches the definition of $\beta^-$ decay.
+        *   Moving to **$P$**: The atomic number decreases and the number of neutrons increases (this is characteristic of $\beta^+$ decay).
+        *   Moving to **$R$**: The atomic number stays the same and the number of neutrons decreases (this is characteristic of alpha decay, though that would also change the atomic number).
+        *   Moving to **$S$**: The atomic number decreases significantly and the number of neutrons decreases (this is characteristic of alpha decay).
+
+Therefore, point $Q$ represents the correct product of the decay.
+
+**Correct Answer: B**
+
+###QUESTION_TYPE
+Multiple choice

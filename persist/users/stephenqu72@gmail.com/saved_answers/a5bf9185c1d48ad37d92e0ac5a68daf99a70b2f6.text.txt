@@ -1,0 +1,43 @@
+Here are the solutions to the questions provided.
+
+### Part (a)
+**Explanation:** The correction is made to account for **background radiation**. Detectors record background counts (from cosmic rays or natural radioactivity in the environment) in addition to the source activity. Subtracting this constant value ensures the count rate reflects only the decay of the source.
+**Deduction:** The total count rate $R$ includes the background $B$, so $R_c = R - B$. Using values from the table:
+At $t=0$: $203 - 183 = 20$
+At $t=100$: $109 - 89 = 20$
+The background radiation value is **20 counts per minute**.
+
+---
+
+### Part (b)
+To draw the line, place your ruler and draw a **line of best fit** through the plotted points $(20, 5.06), (40, 4.90), (60, 4.73), (80, 4.62), (100, 4.49)$. The line should be straight, pass as close as possible to all points, and balance the residuals on either side.
+
+---
+
+### Part (c)
+To find the gradient $G$, use the formula $G = \frac{y_2 - y_1}{x_2 - x_1}$.
+Using points from the line of best fit, for example, $(0, 5.21)$ and $(100, 4.49)$:
+$$G = \frac{4.49 - 5.21}{100 - 0} = \frac{-0.72}{100} = -0.0072 \text{ minute}^{-1}$$
+*(Note: Your value may vary slightly depending on your line of best fit, typically ranging between $-0.0070$ and $-0.0074$.)*
+
+---
+
+### Part (d)
+The decay equation is $A = A_0 e^{-\lambda t}$. Taking the natural log of both sides gives:
+$$\ln(A) = \ln(A_0) - \lambda t$$
+This is in the form $y = mx + c$, where the gradient $G = -\lambda$.
+Therefore, $\lambda = -G = 0.0072 \text{ minute}^{-1}$.
+Using the provided half-life formula:
+$$T_{1/2} = \frac{\ln(2)}{\lambda} = \frac{0.693}{0.0072} \approx 96.25 \text{ minutes}$$
+The half-life is approximately **96 minutes**.
+
+---
+
+### How to solve this type of question:
+1.  **Understand the Physics:** Recognize that radioactive decay follows an exponential model. By linearizing the equation using natural logarithms, you transform an exponential curve into a straight line, which allows for easier calculation of the decay constant ($\lambda$).
+2.  **Background Correction:** Always look for the difference between the raw measurement and the reported corrected measurement to find the systematic background error.
+3.  **Graphical Analysis:** When calculating the gradient from a line of best fit, use two points that lie **on the line itself**, not necessarily the data points themselves, to ensure high accuracy.
+4.  **Connecting the Gradient:** In physics graphing problems, always identify what your axes represent in terms of the underlying formula (here, $y = \ln(R_c)$ and $x = t$, so $slope = -\lambda$).
+
+###QUESTION_TYPE
+Data analysis questions

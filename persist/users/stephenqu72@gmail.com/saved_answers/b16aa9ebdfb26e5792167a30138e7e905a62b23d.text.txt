@@ -1,0 +1,36 @@
+To solve this problem, we use the standard physical constants for subatomic particles:
+*   Mass of a proton ($m_p$) $\approx 1.6726 \times 10^{-27}\text{ kg}$
+*   Mass of a neutron ($m_n$) $\approx 1.6749 \times 10^{-27}\text{ kg}$
+*   Mass of an electron ($m_e$) $\approx 9.1094 \times 10^{-31}\text{ kg}$
+*   Speed of light ($c$) $\approx 2.9979 \times 10^8\text{ m/s}$
+
+An iron-56 atom ($^{56}_{26}\text{Fe}$) consists of 26 protons, 30 neutrons, and 26 electrons.
+
+### (a) Calculate the theoretical mass
+The theoretical mass is the sum of the individual components of the atom:
+$$\text{Mass}_{\text{theoretical}} = 26(m_p) + 30(m_n) + 26(m_e)$$
+$$\text{Mass}_{\text{theoretical}} = 26(1.6726 \times 10^{-27}) + 30(1.6749 \times 10^{-27}) + 26(9.1094 \times 10^{-31})$$
+$$\text{Mass}_{\text{theoretical}} \approx 4.34876 \times 10^{-26} + 5.0247 \times 10^{-26} + 2.3684 \times 10^{-29}$$
+$$\text{Mass}_{\text{theoretical}} \approx 9.3758 \times 10^{-26}\text{ kg}$$
+
+### (b) Calculate the mass defect
+Mass defect ($\Delta m$) is the difference between the theoretical mass and the actual experimental mass:
+$$\Delta m = \text{Mass}_{\text{theoretical}} - \text{Mass}_{\text{experimental}}$$
+$$\Delta m = 9.3758 \times 10^{-26}\text{ kg} - 9.3634 \times 10^{-26}\text{ kg}$$
+$$\Delta m = 1.24 \times 10^{-28}\text{ kg}$$
+
+### (c) Calculate the binding energy
+Use Einstein's mass-energy equivalence formula $E = \Delta m c^2$:
+$$E = (1.24 \times 10^{-28}\text{ kg}) \times (2.9979 \times 10^8\text{ m/s})^2$$
+$$E \approx 1.1146 \times 10^{-11}\text{ J}$$
+
+---
+
+### How to solve this:
+1.  **Identify components:** Know the atomic number ($Z=26$) and mass number ($A=56$). Protons = 26, Neutrons = $56-26 = 30$, Electrons = 26.
+2.  **Theoretical Mass:** Sum the masses of all constituent parts. Remember to include electrons to get the mass of the *atom* rather than just the *nucleus*.
+3.  **Mass Defect:** Subtract the given experimental value from your calculated theoretical value.
+4.  **Binding Energy:** Apply $E=mc^2$ using the mass defect from part (b) and the speed of light constant. Ensure units remain in SI (Joules) unless asked otherwise.
+
+###QUESTION_TYPE
+Calculation question

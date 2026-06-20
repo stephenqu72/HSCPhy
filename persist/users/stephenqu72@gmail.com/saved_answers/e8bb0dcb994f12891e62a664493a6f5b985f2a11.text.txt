@@ -1,0 +1,20 @@
+### Answer
+The correct answer is **D**.
+
+### Explanation
+To solve this question, we must apply the de Broglie hypothesis and the concept of electron orbital stability as proposed by Louis de Broglie.
+
+1.  **De Broglie's Hypothesis:** De Broglie proposed that all matter exhibits wave-like properties, where the wavelength ($\lambda$) is related to the momentum ($p$) of the particle by the equation $\lambda = \frac{h}{p}$. This applies to electrons within an atom.
+2.  **Quantised Energy Levels:** Niels Bohr's original model of the atom postulated quantised orbits but could not explain *why* they were quantised. De Broglie provided the physical justification: electrons orbiting the nucleus act as **standing waves**.
+3.  **Constructive Interference:** For an electron to exist in a stable, non-radiating orbit around a nucleus, its wave must undergo constructive interference with itself. This happens only if the circumference of the orbit ($2\pi r$) is an integer multiple ($n$) of its wavelength: 
+    $$n\lambda = 2\pi r$$
+    If the wave did not close perfectly (i.e., if it weren't a standing wave), destructive interference would occur, and the electron could not exist in that state.
+4.  **Eliminating other options:**
+    *   **A** is incorrect because individual particles do not explain the discrete, quantised nature of energy levels on their own; they follow classical physics which would allow any energy level.
+    *   **B** is incorrect because energy levels are not caused by "diffraction patterns" in this context.
+    *   **C** is incorrect because it identifies the wrong particle (protons) as the ones responsible for atomic energy levels; it is the electrons that surround the nucleus.
+
+Therefore, electrons behaving as waves that form standing waves around the nucleus at particular discrete wavelengths (corresponding to specific energy levels) is the correct explanation.
+
+###QUESTION_TYPE
+Multiple choice

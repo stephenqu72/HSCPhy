@@ -1,0 +1,27 @@
+To solve this problem, we need to apply our knowledge of the **Bohr model of the atom** and the **nature of atomic spectra**.
+
+### Answer
+The correct answer is **(B)**.
+
+### Explanation
+
+**1. Identifying the Observation:**
+The student is shining monochromatic light at a sample of gas and observing it through a spectroscope. When light passes through a cool gas, the atoms in the gas will absorb photons that match the energy difference between their electron energy levels. This produces an **absorption spectrum**, which is characterized by dark lines (missing wavelengths) appearing on a continuous background of light. Therefore, the student would observe a "black line on a continuous background." This eliminates options (C) and (D).
+
+**2. Calculating the Energy Transition:**
+We must determine which electron transition corresponds to a photon with a wavelength of $\lambda = 656 \text{ nm}$. We use the Rydberg formula for the hydrogen atom:
+$$\frac{1}{\lambda} = R \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+Where $R \approx 1.097 \times 10^7 \text{ m}^{-1}$ is the Rydberg constant. 
+
+For the hydrogen Balmer series (which includes the red light at $656 \text{ nm}$), the transition ends at the $n=2$ level. We solve for the initial state $n_i$:
+$$\frac{1}{656 \times 10^{-9} \text{ m}} = 1.097 \times 10^7 \text{ m}^{-1} \left( \frac{1}{2^2} - \frac{1}{n_i^2} \right)$$
+$$1,524,390 \approx 10,970,000 \times \left( 0.25 - \frac{1}{n_i^2} \right)$$
+$$0.1389 \approx 0.25 - \frac{1}{n_i^2}$$
+$$\frac{1}{n_i^2} \approx 0.1111$$
+$$n_i^2 \approx 9 \implies n_i = 3$$
+
+**3. Conclusion:**
+The transition is from the $n=2$ level to the $n=3$ level, as the electron is *absorbing* the incoming photon to jump to a higher energy state. This matches option (B).
+
+###QUESTION_TYPE
+Multiple choice

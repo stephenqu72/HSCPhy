@@ -1,0 +1,35 @@
+To solve this problem, we use the de Broglie wavelength formula, which relates the wavelength ($\lambda$) of a particle to its momentum ($p$):
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+where:
+*   $h$ is Planck’s constant
+*   $m$ is the mass of the particle
+*   $v$ is the speed of the particle
+
+### Step-by-Step Solution:
+
+1.  **Identify the variables:**
+    *   Let $m_p$ be the mass of the proton.
+    *   Let $m_{He}$ be the mass of the helium-4 nucleus. Since a helium-4 nucleus consists of 2 protons and 2 neutrons, its mass is approximately 4 times the mass of a proton ($m_{He} \approx 4m_p$).
+    *   The problem states the de Broglie wavelengths are equal: $\lambda_p = \lambda_{He}$.
+
+2.  **Set up the equation:**
+    Since $\lambda = \frac{h}{mv}$, if $\lambda_p = \lambda_{He}$, then:
+    $$\frac{h}{m_p v_p} = \frac{h}{m_{He} v_{He}}$$
+
+3.  **Simplify:**
+    Cancel $h$ from both sides and rearrange to find the ratio of speeds $\frac{v_p}{v_{He}}$:
+    $$m_p v_p = m_{He} v_{He}$$
+    $$\frac{v_p}{v_{He}} = \frac{m_{He}}{m_p}$$
+
+4.  **Substitute the mass values:**
+    Substitute $m_{He} = 4m_p$:
+    $$\frac{v_p}{v_{He}} = \frac{4m_p}{m_p} = \frac{4}{1}$$
+
+The ratio of the speed of the proton to the speed of the helium-4 nucleus is $4:1$.
+
+**Correct Option: (D)**
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,45 @@
+To solve this problem, we use the principle of radioactive decay, where the activity of a sample halves with every passing half-life ($T_{1/2}$).
+
+### (a) Determine the half-life of the isotope.
+
+**Step 1:** Determine how many half-lives have passed.
+The activity decreases from $6400$ to $800$ counts per minute. We can track the progression:
+*   Start: $6400$
+*   After 1 half-life: $3200$
+*   After 2 half-lives: $1600$
+*   After 3 half-lives: $800$
+
+It takes $3$ half-lives for the activity to drop to $800$.
+
+**Step 2:** Calculate the duration of one half-life.
+Since $3$ half-lives occur over $12$ hours:
+$$3 \times T_{1/2} = 12 \text{ hours}$$
+$$T_{1/2} = \frac{12}{3} = 4 \text{ hours}$$
+
+**Answer:** The half-life of the isotope is $4$ hours.
+
+---
+
+### (b) How many atoms remain compared to the original number after 36 hours?
+
+**Step 1:** Determine the number of half-lives that have passed in $36$ hours.
+$$n = \frac{\text{total time}}{\text{half-life}} = \frac{36}{4} = 9 \text{ half-lives}$$
+
+**Step 2:** Calculate the remaining fraction.
+The number of remaining atoms $N$ is related to the initial number $N_0$ by the formula:
+$$N = N_0 \times \left(\frac{1}{2}\right)^n$$
+Substituting $n = 9$:
+$$N = N_0 \times \left(\frac{1}{2}\right)^9$$
+$$N = N_0 \times \frac{1}{512}$$
+
+**Answer:** After 36 hours, $\frac{1}{512}$ of the original atoms remain.
+
+---
+
+### How to solve this type of question:
+1.  **Identify the decay factor:** Recognize that each half-life divides the activity (or number of atoms) by $2$.
+2.  **Calculate the number of half-lives:** If the start and end values are given, divide by $2$ repeatedly until the end value is reached, or use the formula $A = A_0(1/2)^n$.
+3.  **Relate to time:** Once you know how many half-lives ($n$) have passed in a given duration ($t$), use $t = n \times T_{1/2}$ to find the half-life period, or use $n = t / T_{1/2}$ to find the number of cycles.
+
+###QUESTION_TYPE
+Calculation question

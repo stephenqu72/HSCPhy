@@ -1,0 +1,43 @@
+To solve this problem, we will use the properties of radioactive decay, specifically the relationship between half-life ($t_{1/2}$) and the decay constant ($\lambda$).
+
+### (a) Finding Half-Life and Decay Constant
+
+**1. Determine the half-life ($t_{1/2}$) from the graph:**
+The initial mass at $t = 0$ is $80\ \mu\text{g}$. The half-life is the time taken for the mass to reduce to half of its initial value, which is $80 / 2 = 40\ \mu\text{g}$. 
+Looking at the graph, locate $40\ \mu\text{g}$ on the y-axis and trace across to the curve, then down to the x-axis. This corresponds to a time of $16\ \text{hours}$.
+Therefore, $t_{1/2} = 16\ \text{h}$.
+
+**2. Calculate the decay constant ($\lambda$):**
+The relationship between half-life and the decay constant is given by the formula:
+$$t_{1/2} = \frac{\ln(2)}{\lambda}$$
+Rearranging to solve for $\lambda$:
+$$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+$$\lambda = \frac{0.6931...}{16\ \text{h}} \approx 0.0433\ \text{h}^{-1}$$
+Rounding to two significant figures as requested, $\lambda \approx 0.043\ \text{h}^{-1}$.
+
+---
+
+### (b) Calculating Time for 8 $\mu\text{g}$ Remaining
+
+To find the time taken to reach $8\ \mu\text{g}$ from an initial $80\ \mu\text{g}$, we use the radioactive decay formula:
+$$N(t) = N_0 e^{-\lambda t}$$
+
+Where:
+- $N(t) = 8\ \mu\text{g}$
+- $N_0 = 80\ \mu\text{g}$
+- $\lambda = 0.0433\ \text{h}^{-1}$ (using the unrounded value for accuracy)
+
+Substituting the values:
+$$8 = 80 e^{-0.0433t}$$
+$$0.1 = e^{-0.0433t}$$
+Take the natural logarithm of both sides:
+$$\ln(0.1) = -0.0433t$$
+$$t = \frac{\ln(0.1)}{-0.0433}$$
+$$t \approx \frac{-2.3026}{-0.0433} \approx 53.18\ \text{hours}$$
+
+Rounding to a reasonable precision, it takes approximately **53 hours**.
+
+*(Alternative shortcut: Since $80 \rightarrow 40 \rightarrow 20 \rightarrow 10 \rightarrow 5$, and $8$ is very close to $10$, we can estimate it is slightly more than 4 half-lives ($16 \times 4 = 64$ is too long, $3 \times 16 = 48$ is too short). Our calculated 53 hours is consistent with this logic.)*
+
+###QUESTION_TYPE
+Calculation question

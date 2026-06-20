@@ -1,0 +1,39 @@
+Here are the solutions to the HSC Physics question provided.
+
+### (a) Nuclear reaction for alpha decay
+Americium-241 has an atomic number ($Z$) of 95. An alpha particle is a helium nucleus ($^4_2\text{He}$).
+$${^{241}_{95}\text{Am}} \rightarrow {^{237}_{93}\text{Np}} + {^{4}_{2}\text{He}}$$
+
+### (b) Suggest why Americium-241 undergoes alpha decay
+Americium-241 is a heavy, unstable nucleus (transuranic element). It undergoes alpha decay to reach a more stable configuration by reducing its atomic number and mass number, thereby increasing its binding energy per nucleon and moving closer to the "band of stability."
+
+### (c) Calculate the energy released
+**1. Calculate the mass defect ($\Delta m$):**
+$$\Delta m = (\text{Mass}_{\text{Am}}) - (\text{Mass}_{\text{Np}} + \text{Mass}_{\alpha})$$
+$$\Delta m = 241.059 - (237.042 + 4.001) = 0.016\ u$$
+**2. Convert to energy ($E$):**
+Using $1\ u = 931.5\ \text{MeV}/c^2$:
+$$E = 0.016 \times 931.5 = 14.904\ \text{MeV}$$
+
+### (d) Calculate the lifetime of the smoke detector
+**1. Determine the decay constant ($\lambda$):**
+$$\lambda = \frac{\ln(2)}{t_{1/2}} = \frac{0.693}{432.2 \times 365.25 \times 24 \times 3600\ \text{s}} \approx 5.08 \times 10^{-11}\ \text{s}^{-1}$$
+**2. Use the activity formula $A = \lambda N$ to find $N$ when $A = 1.2 \times 10^{13}$:**
+$$N = \frac{A}{\lambda} = \frac{1.2 \times 10^{13}}{5.08 \times 10^{-11}} \approx 2.36 \times 10^{23}\ \text{nuclei}$$
+**3. Use the exponential decay law $N(t) = N_0 e^{-\lambda t}$:**
+$$2.36 \times 10^{23} = 2.50 \times 10^{23} \times e^{-\lambda t}$$
+$$0.944 = e^{-\lambda t} \implies \ln(0.944) = -\lambda t$$
+$$-0.0576 = -(5.08 \times 10^{-11})t \implies t \approx 1.13 \times 10^9\ \text{seconds}$$
+**4. Convert to years:**
+$$t (\text{years}) = \frac{1.13 \times 10^9}{3600 \times 24 \times 365.25} \approx 36\ \text{years}$$
+
+---
+
+### How to solve this:
+*   **Part (a):** Balance the atomic number (bottom) and mass number (top) on both sides of the equation.
+*   **Part (b):** Relate alpha decay to the nucleus size and binding energy per nucleon.
+*   **Part (c):** Find the difference in mass between the reactants and products, then apply the mass-energy equivalence conversion ($1\ u \approx 931.5\ \text{MeV}$).
+*   **Part (d):** Recognize this as an exponential decay problem. Convert the half-life into seconds first, calculate the decay constant, find the required number of nuclei for the threshold activity, and solve for $t$ using the logarithmic form of the decay equation.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,32 @@
+### Answer and Explanation
+
+#### (a) Calculate the binding energy of $^{59}_{27}\text{Co}$
+1.  **Identify components:** The nucleus has $Z=27$ protons and $A-Z = 59-27 = 32$ neutrons.
+2.  **Calculate mass defect ($\Delta m$):**
+    $$\Delta m = [Z \cdot m_p + (A-Z) \cdot m_n] - m_{\text{nucleus}}$$
+    $$\Delta m = [27(1.00728) + 32(1.00867)] - 58.93320$$
+    $$\Delta m = [27.19656 + 32.27744] - 58.93320 = 59.47400 - 58.93320 = 0.5408\text{ u}$$
+3.  **Convert to Energy:** Using $1\text{ u} = 931.5\text{ MeV/c}^2$:
+    $$BE = 0.5408 \times 931.5 \approx 503.75\text{ MeV}$$
+
+#### (b) Calculate maximum kinetic energy of $\beta^-$ particle
+The energy released ($Q = 2.52 \times 10^{-13}\text{ J}$) is shared between the $\beta$ particle, the antineutrino, and the cobalt nucleus. The "maximum" kinetic energy occurs when the antineutrino carries negligible energy. For the decay to an excited state, we subtract the excitation energy ($E_x$) from the total energy:
+$$K_{max} = Q - E_x$$
+To get the *maximum* $K$ for *any* excited state, choose the state with the lowest energy ($E_x = 1.76 \times 10^{-13}\text{ J}$):
+$$K_{max} = (2.52 - 1.76) \times 10^{-13}\text{ J} = 0.76 \times 10^{-13}\text{ J}$$
+Convert to eV ($1\text{ eV} = 1.6 \times 10^{-19}\text{ J}$):
+$$K_{max} = \frac{0.76 \times 10^{-13}}{1.6 \times 10^{-19}} = 4.75 \times 10^5\text{ eV} = 0.475\text{ MeV}$$
+
+#### (c) Maximum number of discrete wavelengths
+We have 3 excited states (let's call them $E_3, E_2, E_1$ from top to bottom) and the ground state ($E_0$).
+Transitions: $E_3 \to E_2$, $E_3 \to E_1$, $E_3 \to E_0$, $E_2 \to E_1$, $E_2 \to E_0$, $E_1 \to E_0$.
+Total = 6 unique transitions.
+
+#### (d) Longest wavelength of $\gamma$-radiation
+The longest wavelength $\lambda$ corresponds to the smallest energy transition $E = \frac{hc}{\lambda}$, which is $E_3 \to E_2$:
+$$\Delta E = (2.29 - 2.06) \times 10^{-13}\text{ J} = 0.23 \times 10^{-13}\text{ J}$$
+Using $\lambda = \frac{hc}{\Delta E}$:
+$$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{0.23 \times 10^{-13}} \approx 8.64 \times 10^{-12}\text{ m}$$
+
+###QUESTION_TYPE
+Calculation question

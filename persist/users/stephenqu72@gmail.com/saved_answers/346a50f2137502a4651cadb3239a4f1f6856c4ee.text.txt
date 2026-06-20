@@ -1,0 +1,34 @@
+To determine the daughter nuclide produced by the alpha decay of bismuth-211, we follow these steps:
+
+### 1. Identify the parent nucleus
+Bismuth (Bi) has an atomic number of 83. The mass number is given as 211. Therefore, the parent nuclide is written as:
+$$_ {83}^{211} \text{Bi}$$
+
+### 2. Understand alpha decay
+An alpha particle is a helium nucleus, consisting of 2 protons and 2 neutrons. It is represented as:
+$$_ {2}^{4} \alpha \quad \text{or} \quad _ {2}^{4} \text{He}$$
+When a nucleus undergoes alpha decay, it loses 2 protons and 2 neutrons. Consequently:
+- The **mass number** (top number) decreases by 4.
+- The **atomic number** (bottom number) decreases by 2.
+
+### 3. Calculate the daughter nuclide
+Let the daughter nuclide be $X$:
+$$_ {83}^{211} \text{Bi} \rightarrow _ {Z}^{A} X + _ {2}^{4} \text{He}$$
+
+*   **For the mass number ($A$):** $211 - 4 = 207$
+*   **For the atomic number ($Z$):** $83 - 2 = 81$
+
+The element with atomic number 81 is Thallium (Tl). Therefore, the daughter nuclide is:
+$$_ {81}^{207} \text{Tl}$$
+
+### 4. Evaluate the options
+Comparing our result ($_{81}^{207} \text{Tl}$) to the provided options:
+*   A: $_{81}^{207} \text{Tl}$ (This matches our calculation)
+*   B: $_{85}^{207} \text{Tl}$ (Incorrect atomic number)
+*   C: $_{85}^{215} \text{At}$ (This represents alpha *addition* or another process)
+*   D: $_{87}^{215} \text{Fr}$ (Incorrect numbers)
+
+**Correct Answer: A**
+
+###QUESTION_TYPE
+Multiple choice

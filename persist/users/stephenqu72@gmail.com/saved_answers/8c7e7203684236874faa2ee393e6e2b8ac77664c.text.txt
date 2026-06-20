@@ -1,0 +1,29 @@
+Hello! As an HSC teacher, I would guide you through these questions by focusing on the core physics principles of nuclear stability and energy-mass equivalence. Here are the solutions and the methodology for approaching them.
+
+### Answer and Explanation
+
+**a) Write a balanced nuclear reaction for this process.**
+
+*   **Solution:** 
+    $${}_1^2\text{H} + {}_1^3\text{H} \rightarrow {}_2^4\text{He} + {}_0^1\text{n}$$
+*   **How to solve:** To balance a nuclear equation, ensure that the sum of the atomic numbers (bottom) and the sum of the mass numbers (top) are equal on both sides of the arrow. 
+    *   Mass numbers: $2 + 3 = 5$ on the left. We have $4$ from Helium, so the missing particle must have a mass number of $1$.
+    *   Atomic numbers: $1 + 1 = 2$ on the left. We have $2$ from Helium, so the missing particle must have an atomic number of $0$.
+    *   A particle with atomic number $0$ and mass number $1$ is a neutron (${}_0^1\text{n}$).
+
+**b) Explain why extreme temperatures are required to initiate this fusion process.**
+
+*   **Solution:** Both deuterium and tritium nuclei are positively charged. According to the electrostatic principle, like charges repel each other (Coulomb repulsion). Extreme temperatures provide the kinetic energy necessary for the nuclei to overcome this strong electrostatic repulsion and get close enough for the "strong nuclear force" to take over, allowing the nuclei to fuse.
+*   **How to solve:** Always link the macroscopic temperature to the microscopic concept of kinetic energy. The higher the temperature, the faster the particles move, allowing them to overcome the "Coulomb barrier."
+
+**c) Explain how energy is released by nuclear fusion in extremely large, blue, main sequence stars.**
+
+*   **Solution:** 
+    1.  Large, hot stars primarily fuse hydrogen into helium via the **CNO cycle** (Carbon-Nitrogen-Oxygen cycle), where carbon acts as a catalyst.
+    2.  The fundamental principle for energy release is **mass defect**. The mass of the resulting nucleus is slightly less than the sum of the masses of the individual nucleons that formed it.
+    3.  This "missing" mass is converted into energy according to Einstein’s mass-energy equivalence principle, $E = mc^2$.
+    4.  Because the speed of light ($c$) is a very large number, even a tiny amount of mass loss results in a massive release of energy, which creates the outward radiation pressure necessary to support the star against gravitational collapse.
+*   **How to solve:** Structure your answer by first identifying the process (CNO cycle for massive stars), then identifying the mechanism (mass-energy equivalence), and finally linking it to the star's stability.
+
+### QUESTION_TYPE
+Short answer

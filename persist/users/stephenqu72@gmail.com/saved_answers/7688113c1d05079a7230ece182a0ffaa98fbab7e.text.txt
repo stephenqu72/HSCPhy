@@ -1,0 +1,30 @@
+To determine the remaining amount of Cobalt-60 after 1 year, we use the radioactive decay formula:
+
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+
+### Given data:
+*   Initial amount ($N_0$) = $5.00\ \mu g$
+*   Half-life ($T_{1/2}$) = $5.27\ \text{years}$
+*   Time elapsed ($t$) = $1\ \text{year}$
+
+### Step-by-step solution:
+
+1.  **Calculate the number of half-lives passed ($n$):**
+    $$n = \frac{t}{T_{1/2}} = \frac{1}{5.27} \approx 0.18975$$
+
+2.  **Calculate the remaining mass ($N$):**
+    $$N = 5.00 \times (0.5)^{0.18975}$$
+    
+    Using a calculator:
+    $$(0.5)^{0.18975} \approx 0.8766$$
+    $$N = 5.00 \times 0.8766 = 4.383\ \mu g$$
+
+Comparing this result to the given options, $4.38\ \mu g$ matches option (C).
+
+**Answer:** (C)
+
+### Explanation:
+The radioactive decay law describes how the quantity of a radioactive substance decreases over time. Since one year is a small fraction of the 5.27-year half-life, we expect the remaining amount to be slightly less than the initial $5.00\ \mu g$. Calculating the fraction remaining as $(0.5)$ raised to the power of the ratio of time elapsed to half-life provides the exact decay factor. Multiplying this factor by the initial amount gives us the final quantity.
+
+###QUESTION_TYPE
+Multiple choice

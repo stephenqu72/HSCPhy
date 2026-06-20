@@ -1,0 +1,29 @@
+To solve this problem, we use Einstein's mass-energy equivalence principle, defined by the formula:
+
+$$E = mc^2$$
+
+### Step-by-Step Solution:
+
+1.  **Identify the given energy ($E$):**
+    The question provides the energy in units of Mega electron-volts (MeV):
+    $$E = 9.0 \times 10^{26} \text{ MeV}$$
+
+2.  **Convert the energy to Joules (J):**
+    Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$, we first convert MeV to eV (where $1 \text{ MeV} = 10^6 \text{ eV}$):
+    $$E = (9.0 \times 10^{26} \times 10^6) \text{ eV} = 9.0 \times 10^{32} \text{ eV}$$
+    Now, convert eV to Joules:
+    $$E = (9.0 \times 10^{32}) \times (1.602 \times 10^{-19} \text{ J}) \approx 1.44 \times 10^{14} \text{ J}$$
+
+3.  **Rearrange the mass-energy formula to solve for mass ($m$):**
+    $$m = \frac{E}{c^2}$$
+    Where $c$ is the speed of light, $c \approx 3.0 \times 10^8 \text{ m/s}$.
+
+4.  **Perform the calculation:**
+    $$m = \frac{1.44 \times 10^{14} \text{ J}}{(3.0 \times 10^8 \text{ m/s})^2}$$
+    $$m = \frac{1.44 \times 10^{14}}{9.0 \times 10^{16}}$$
+    $$m = 0.16 \times 10^{-2} \text{ kg} = 1.6 \times 10^{-3} \text{ kg}$$
+
+Comparing our result to the options provided, the correct choice is **B**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,28 @@
+To find the decay constant ($\lambda$) for the radioactive isotope, we use the concept of **half-life** ($t_{1/2}$), which is the time required for the mass of the isotope to decrease to half of its initial value.
+
+### Step-by-Step Solution:
+
+1.  **Identify the initial mass ($N_0$):**
+    Looking at the graph, at $t = 0$, the mass is $400 \text{ g}$.
+
+2.  **Determine the half-life ($t_{1/2}$):**
+    We need to find the time it takes for the mass to reach half of $400 \text{ g}$, which is $200 \text{ g}$.
+    Locating $200 \text{ g}$ on the y-axis and moving across to the data point, we see it corresponds to $t = 100 \text{ years}$.
+    Therefore, the half-life is $t_{1/2} = 100 \text{ years}$.
+
+3.  **Calculate the decay constant ($\lambda$):**
+    The relationship between the decay constant and half-life is given by the formula:
+    $$\lambda = \frac{\ln(2)}{t_{1/2}}$$
+    Substituting the value of $t_{1/2}$:
+    $$\lambda = \frac{\ln(2)}{100}$$
+    $$\lambda \approx \frac{0.6931}{100}$$
+    $$\lambda \approx 0.00693 \text{ years}^{-1}$$
+
+Comparing this result to the given options, the correct choice is **B**.
+
+### Explanation of the approach:
+*   **Data extraction:** The graph provides discrete points representing exponential decay. By identifying the initial value and the point where the value is halved, we can easily determine the half-life.
+*   **Mathematical link:** In HSC Physics, radioactive decay follows the law $N(t) = N_0 e^{-\lambda t}$. Deriving the relationship between the decay constant and half-life is a standard requirement. Knowing that $t_{1/2} = \frac{\ln(2)}{\lambda}$ allows for a quick conversion from graphical time data to the decay constant.
+
+###QUESTION_TYPE
+Multiple choice

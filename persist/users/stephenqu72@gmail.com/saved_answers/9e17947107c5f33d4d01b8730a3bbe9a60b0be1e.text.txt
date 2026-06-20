@@ -1,0 +1,33 @@
+To solve this problem, we must track the nuclear reactions occurring in each step of the CNO cycle by balancing the atomic number ($Z$, number of protons) and the mass number ($A$, sum of protons and neutrons) for each transition.
+
+### Step-by-Step Analysis:
+
+1.  **Label (i):** The reaction is $^{15}N + ^1H \rightarrow ^{12}C + X$.
+    *   Initial state: $A = 15 + 1 = 16$, $Z = 7 + 1 = 8$.
+    *   Final state (before $X$): $^{12}C$ has $A=12$, $Z=6$.
+    *   Particle (i) must have $A = 16 - 12 = 4$ and $Z = 8 - 6 = 2$.
+    *   A particle with $A=4$ and $Z=2$ is an alpha particle, which is helium-4 ($^4He$).
+
+2.  **Label (iii):** The reaction is $^{13}N \rightarrow ^{13}C + e^+ + \nu$. (Wait, looking at the cycle flow: $^{13}N$ decays into $^{13}C$).
+    *   The diagram shows $^{13}N$ decaying (emitting $e^+$ and $\nu$), leading to label (iii).
+    *   Since the atomic number of Nitrogen is 7 and Carbon is 6, a positron decay ($^{13}N \rightarrow ^{13}C + e^+ + \nu$) results in Carbon-13. Thus, (iii) is $^{13}C$.
+
+3.  **Label (ii):** The reaction is $^{15}O \rightarrow ^{15}N + e^+ + \nu$.
+    *   The diagram shows $^{15}O$ decaying and releasing particle (ii) along with a neutrino ($\nu$).
+    *   In the beta-plus decay of Oxygen-15 to Nitrogen-15, the particle emitted is a positron ($e^+$).
+
+### Conclusion:
+*   (i) is $^4He$
+*   (ii) is $e^+$
+*   (iii) is $^{13}C$
+
+Comparing this to the given options, **(C)** matches our findings.
+
+### How to solve:
+To solve nuclear cycle questions, always perform charge and nucleon conservation checks.
+*   **Charge balance:** The sum of the subscripts (protons) on the left must equal the sum on the right.
+*   **Mass balance:** The sum of the superscripts (nucleons) on the left must equal the sum on the right.
+*   **Identify:** Once you determine the $A$ and $Z$ values, match them to the periodic table or standard nuclear particles (e.g., $^1H$ for proton, $^4He$ for alpha, $e^+$ for positron).
+
+###QUESTION_TYPE
+Multiple choice

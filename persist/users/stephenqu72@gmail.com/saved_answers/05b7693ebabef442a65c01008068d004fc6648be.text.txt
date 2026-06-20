@@ -1,0 +1,28 @@
+To answer this question effectively, you must link the wave-particle duality concept to the scale of the object.
+
+### Answer
+The de Broglie wavelength is given by the equation:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+where:
+*   $h$ is Planck's constant ($\approx 6.626 \times 10^{-34} \text{ J s}$)
+*   $m$ is the mass of the object (in kg)
+*   $v$ is the velocity of the object (in m/s)
+
+**Example calculation:**
+Consider a cricket ball with a mass $m = 0.16 \text{ kg}$ moving at a velocity $v = 30 \text{ m/s}$.
+$$\lambda = \frac{6.626 \times 10^{-34}}{0.16 \times 30}$$
+$$\lambda \approx 1.38 \times 10^{-34} \text{ m}$$
+
+**Conclusion:**
+This wavelength is unimaginably small—far smaller than the diameter of an atomic nucleus ($\approx 10^{-15} \text{ m}$). Because the wavelength is effectively zero compared to the dimensions of the object, wave properties such as diffraction or interference cannot be observed. Therefore, everyday objects behave purely according to classical mechanics.
+
+---
+
+### How to solve this
+1.  **State the Equation:** Always start by defining the de Broglie relationship ($\lambda = \frac{h}{mv}$). Identifying the variables is crucial for demonstrating your understanding.
+2.  **Provide a Quantitative Example:** You must choose a realistic everyday object (like a ball, car, or person). Assign reasonable values for its mass and velocity.
+3.  **Perform the Calculation:** Plug your values into the equation. Ensure you use SI units (kilograms for mass, meters per second for velocity).
+4.  **Explain the Significance:** The final mark comes from your reasoning. You must explicitly state that because the result is incredibly small, the wave nature of the object is negligible compared to its physical size, making the wave properties unobservable.
+
+###QUESTION_TYPE
+Calculation question

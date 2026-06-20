@@ -1,0 +1,44 @@
+As your HSC physics teacher, I will walk you through this nuclear physics problem. Here is the step-by-step breakdown.
+
+### (a) Nuclear Equation
+To write a nuclear equation, ensure both the atomic mass (top) and the atomic number (bottom) are balanced on both sides.
+- Hydrogen: $^1_1\text{H}$
+- Neutron: $^1_0\text{n}$
+- Deuterium: $^2_1\text{H}$
+- Gamma ray: $\gamma$ (mass 0, charge 0)
+
+Equation:
+$$_1^1\text{H} + _0^1\text{n} \rightarrow _1^2\text{H} + \gamma$$
+
+### (b) Protons and Neutrons Table
+- **Hydrogen ($^1_1\text{H}$):** Atomic number is 1 (1 proton). Mass number is 1, so $1 - 1 = 0$ neutrons.
+- **Deuterium ($^2_1\text{H}$):** Atomic number is 1 (1 proton). Mass number is 2, so $2 - 1 = 1$ neutron.
+
+| | Hydrogen $^1_1\text{H}$ | Deuterium $^2_1\text{H}$ |
+| :--- | :---: | :---: |
+| **Proton number** | 1 | 1 |
+| **Neutron number** | 0 | 1 |
+
+### (c) Rest mass of a neutron
+In HSC physics exams, you are provided with a datasheet containing physical constants. The standard rest mass of a neutron is:
+$$1.00867 \text{ u}$$
+
+### (d) Calculate energy of the gamma ray photon
+To find the energy released, we calculate the **mass defect** ($\Delta m$) and convert it to energy.
+
+1. **Calculate mass of reactants:**
+   $M_{\text{reactants}} = \text{mass of } ^1_1\text{H} + \text{mass of neutron}$
+   $M_{\text{reactants}} = 1.0079 \text{ u} + 1.00867 \text{ u} = 2.01657 \text{ u}$
+
+2. **Calculate mass defect ($\Delta m$):**
+   $\Delta m = M_{\text{reactants}} - M_{\text{product (deuterium)}}$
+   $\Delta m = 2.01657 \text{ u} - 2.0141 \text{ u} = 0.00247 \text{ u}$
+
+3. **Convert mass to Energy:**
+   Using the conversion factor $1 \text{ u} = 931.5 \text{ MeV}/c^2$:
+   $E = 0.00247 \text{ u} \times 931.5 \text{ MeV/u} \approx 2.30 \text{ MeV}$
+
+The energy carried by the gamma ray photon is approximately **$2.30 \text{ MeV}$**.
+
+###QUESTION_TYPE
+Calculation question

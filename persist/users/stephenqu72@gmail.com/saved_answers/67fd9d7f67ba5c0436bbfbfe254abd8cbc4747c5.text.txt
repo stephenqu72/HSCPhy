@@ -1,0 +1,32 @@
+To calculate the de Broglie wavelength of the electrons, we use the de Broglie wavelength formula:
+
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+
+### Given data:
+*   Planck's constant ($h$) $\approx 6.626 \times 10^{-34}\text{ J s}$
+*   Mass of an electron ($m$) $\approx 9.109 \times 10^{-31}\text{ kg}$
+*   Velocity of the electron ($v$) $= 2.2 \times 10^{6}\text{ m s}^{-1}$
+
+### Step-by-step calculation:
+
+1.  **Calculate the momentum ($p$):**
+    $$p = m \times v$$
+    $$p = (9.109 \times 10^{-31}\text{ kg}) \times (2.2 \times 10^{6}\text{ m s}^{-1})$$
+    $$p \approx 2.004 \times 10^{-24}\text{ kg m s}^{-1}$$
+
+2.  **Calculate the wavelength ($\lambda$):**
+    $$\lambda = \frac{6.626 \times 10^{-34}}{2.004 \times 10^{-24}}$$
+    $$\lambda \approx 3.306 \times 10^{-10}\text{ m}$$
+
+3.  **Convert to nanometers (nm):**
+    Since $1\text{ nm} = 10^{-9}\text{ m}$:
+    $$\lambda \approx 0.3306 \times 10^{-9}\text{ m}$$
+    $$\lambda \approx 0.33\text{ nm}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+### Explanation:
+The de Broglie hypothesis suggests that all matter exhibits wave-like properties. The wavelength of a particle is inversely proportional to its momentum. By substituting the standard values for the mass of an electron and Planck's constant into the equation, we can determine that an electron traveling at $2.2 \times 10^{6}\text{ m s}^{-1}$ corresponds to a wavelength of $0.33\text{ nm}$.
+
+###QUESTION_TYPE
+Multiple choice

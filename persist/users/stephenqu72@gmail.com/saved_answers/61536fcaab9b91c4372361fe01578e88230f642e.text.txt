@@ -1,0 +1,35 @@
+### Answer and Explanation
+
+#### a) Quarks in the $K^{0-}$ particle
+**Answer:** The $K^{0-}$ particle is the antiparticle of the $K^{0}$. Since the $K^{0}$ consists of a strange antiquark ($\bar{s}$) and a down quark ($d$), its antiparticle, the $K^{0-}$, consists of a **strange quark ($s$) and a down antiquark ($\bar{d}$)**.
+
+---
+
+#### b) Acceleration and Limitations
+**Explanation:** 
+*   **Acceleration:** Synchrotrons use oscillating electric fields to accelerate charged particles. The relevant equation is the work-energy theorem related to electric potential: $W = qV$, where $q$ is the charge of the particle and $V$ is the potential difference. As the kaon passes through the accelerating cavities, it gains kinetic energy equal to $q \Delta V$. 
+*   **Limitation:** A major limitation in investigating the $K^{0}$ particle is that it is **electrically neutral**. Synchrotrons rely on electromagnetic fields to steer and accelerate particles. Since the $K^{0}$ has a net charge of zero, it cannot be directly accelerated by electric fields, nor can it be easily confined or steered by magnetic fields (Lorentz force $F = qvB\sin\theta$). Therefore, it is impossible to create a beam of $K^{0}$ particles for study using standard synchrotron acceleration techniques.
+
+---
+
+#### c) Calculation of Mean Lifetime
+**Method:** To solve this, we use the time dilation formula from Special Relativity:
+$$t_v = \gamma t_0$$
+Where:
+- $t_0 = 1.238 \times 10^{-8} \text{ s}$ (proper time)
+- $v = 0.850c$
+- $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+
+**Step 1: Calculate the Lorentz factor ($\gamma$)**
+$$\gamma = \frac{1}{\sqrt{1 - (0.850)^2}} = \frac{1}{\sqrt{1 - 0.7225}} = \frac{1}{\sqrt{0.2775}} \approx 1.8983$$
+
+**Step 2: Calculate the dilated time ($t_v$)**
+$$t_v = 1.8983 \times 1.238 \times 10^{-8} \text{ s}$$
+$$t_v \approx 2.35 \times 10^{-8} \text{ s}$$
+
+**Final Answer:** The mean lifetime in the frame of the stationary observer is approximately $2.35 \times 10^{-8} \text{ s}$.
+
+---
+
+###QUESTION_TYPE
+Short answer

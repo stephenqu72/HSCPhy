@@ -1,0 +1,30 @@
+To solve this problem, we use the relationship between the decay constant ($\lambda$) and the half-life ($t_{1/2}$) of a radioactive isotope.
+
+### Solution
+
+**1. Identify the given information:**
+The decay constant $\lambda = 1.7 \times 10^{-9} \text{ s}^{-1}$.
+
+**2. State the formula:**
+The relationship between half-life and the decay constant is given by:
+$$t_{1/2} = \frac{\ln(2)}{\lambda}$$
+
+**3. Substitute the values:**
+$$t_{1/2} = \frac{0.69315...}{1.7 \times 10^{-9} \text{ s}^{-1}}$$
+$$t_{1/2} \approx 4.077 \times 10^8 \text{ s}$$
+
+**4. Convert to a more meaningful unit (optional but good practice):**
+To convert to years:
+$$t_{1/2} \approx \frac{4.077 \times 10^8}{60 \times 60 \times 24 \times 365.25} \approx 12.9 \text{ years}$$
+
+**Answer:** The half-life of the sample is approximately $4.1 \times 10^8$ seconds (or approximately 12.9 years).
+
+---
+
+### How to solve this
+1. **Recall the physics:** In HSC Physics, you should know that radioactive decay follows an exponential model. The link between the rate of decay ($\lambda$) and the time taken for half the sample to decay ($t_{1/2}$) is derived from the decay equation $N(t) = N_0 e^{-\lambda t}$ by setting $N(t) = \frac{1}{2}N_0$. This results in the standard constant $\ln(2) \approx 0.693$.
+2. **Apply the formula:** Always ensure your units match. Since $\lambda$ is in $\text{s}^{-1}$, the resulting half-life will be in seconds.
+3. **Significant figures:** The input value $1.7$ has two significant figures, so it is appropriate to provide your final answer to two or three significant figures.
+
+###QUESTION_TYPE
+Calculation question

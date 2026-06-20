@@ -1,0 +1,32 @@
+To find the frequency of the longest wavelength of light in the Balmer Series from the provided spectrum, follow these steps:
+
+### 1. Identify the longest wavelength
+Looking at the provided spectrum, the wavelengths are labeled in nanometers ($nm$) at the bottom. The wavelengths listed are $397, 410, 434, 486,$ and $656$ $nm$. The longest wavelength is clearly $656$ $nm$.
+
+### 2. Convert units to SI
+To use the wave equation, we must convert the wavelength ($\lambda$) from nanometers to meters:
+$$\lambda = 656 \text{ nm} = 656 \times 10^{-9} \text{ m}$$
+
+### 3. Use the wave equation
+The relationship between the speed of light ($c$), frequency ($f$), and wavelength ($\lambda$) is:
+$$c = f \lambda$$
+Rearranging to solve for frequency ($f$):
+$$f = \frac{c}{\lambda}$$
+
+Using the speed of light $c \approx 3.00 \times 10^8 \text{ m/s}$:
+$$f = \frac{3.00 \times 10^8}{656 \times 10^{-9}}$$
+$$f \approx 4.57 \times 10^{14} \text{ Hz}$$
+
+### 4. Conclusion
+Rounding to two significant figures to match the options provided, we get $4.6 \times 10^{14} \text{ Hz}$.
+
+Comparing this to the given options:
+(A) $4.6 \times 10^5 \text{ Hz}$
+(B) $4.6 \times 10^{14} \text{ Hz}$
+(C) $7.6 \times 10^{14} \text{ Hz}$
+(D) $9.9 \times 10^{26} \text{ Hz}$
+
+The correct option is **(B)**.
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,26 @@
+To answer this question, you need to connect the wave nature of the electron to the quantization of angular momentum in Bohr's model of the atom.
+
+### Answer
+De Broglie proposed that an electron orbiting the nucleus acts as a standing wave. For a stable, stationary orbit, the circumference of the orbit must be an integer multiple of the electron's wavelength ($\lambda$) to ensure constructive interference.
+
+1. The condition for constructive interference (a standing wave) around a circular orbit of radius $r$ is:
+   $$2\pi r = n\lambda$$
+   where $n$ is an integer ($1, 2, 3...$).
+
+2. Substituting de Broglie's hypothesis, $\lambda = \frac{h}{mv}$, into the equation above:
+   $$2\pi r = n \left( \frac{h}{mv} \right)$$
+
+3. Rearranging the equation to solve for the angular momentum ($mvr$):
+   $$mvr = \frac{nh}{2\pi}$$
+   This matches Bohr's postulate that the angular momentum of an electron in a stationary state is quantized in integer multiples of $\frac{h}{2\pi}$.
+
+---
+
+### How to solve this
+*   **Identify the Core Physics:** Recognise that Bohr's model assumed stable orbits without explaining *why* they were stable. De Broglie provided the justification by treating the electron as a wave.
+*   **Step 1: The Geometry.** Start with the condition for a circular standing wave. If an electron wave doesn't "fit" perfectly around the circumference (i.e., if it doesn't meet itself in phase), it will undergo destructive interference. Thus, $2\pi r = n\lambda$.
+*   **Step 2: Substitution.** Replace $\lambda$ with the de Broglie wavelength formula $\frac{h}{mv}$. This links the particle properties (mass and velocity) to the wave property (wavelength).
+*   **Step 3: Derivation.** Manipulate the algebra to isolate the term $mvr$. This is the mathematical definition of angular momentum. By arriving at $mvr = \frac{nh}{2\pi}$, you prove that Bohr’s postulate is a direct consequence of the wave nature of electrons.
+
+###QUESTION_TYPE
+Short answer

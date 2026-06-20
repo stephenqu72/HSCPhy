@@ -1,0 +1,39 @@
+Here are the answers and explanations for the questions provided:
+
+### a. Identify which series is responsible for producing electromagnetic radiation with wavelengths greater than visible light.
+
+**Answer:** The **Paschen series**.
+
+**Explanation:** 
+In the hydrogen atom, the energy of an emitted photon is determined by the drop in energy levels ($\Delta E$). A larger drop corresponds to higher energy, higher frequency, and shorter wavelength radiation.
+*   **Lyman series ($n_f = 1$):** Large energy drops $\rightarrow$ Ultraviolet (shorter wavelength than visible).
+*   **Balmer series ($n_f = 2$):** Moderate energy drops $\rightarrow$ Visible light.
+*   **Paschen series ($n_f = 3$):** Small energy drops $\rightarrow$ Infrared (longer wavelength than visible).
+Since wavelengths greater than visible light correspond to lower energy (infrared), the Paschen series is the correct choice.
+
+---
+
+### b. Calculate the frequency of photons emitted when electrons move from $n_i = 3$ to $n_f = 2$ orbit.
+
+**Answer:** $4.57 \times 10^{14} \text{ Hz}$
+
+**Explanation:**
+To calculate this, use the Rydberg formula for energy transitions:
+$$\Delta E = E_n = -13.6 \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right) \text{ eV}$$
+Substitute $n_i = 3$ and $n_f = 2$:
+$$\Delta E = -13.6 \left( \frac{1}{2^2} - \frac{1}{3^2} \right) = -13.6 \left( \frac{1}{4} - \frac{1}{9} \right) = -13.6 \left( \frac{5}{36} \right) \approx 1.889 \text{ eV}$$
+Convert energy to Joules ($1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$):
+$$E = 1.889 \times 1.602 \times 10^{-19} \approx 3.026 \times 10^{-19} \text{ J}$$
+Use the relationship $E = hf$, where $h = 6.626 \times 10^{-34} \text{ J s}$:
+$$f = \frac{E}{h} = \frac{3.026 \times 10^{-19}}{6.626 \times 10^{-34}} \approx 4.57 \times 10^{14} \text{ Hz}$$
+
+---
+
+### c. Describe a limitation of this model of the atom.
+
+**Answer:** The Bohr model cannot explain the spectral lines of multi-electron atoms; it only works accurately for hydrogen. Additionally, it fails to account for the relative intensities of spectral lines or the splitting of lines in magnetic fields (the Zeeman effect). It also incorrectly assumes that electrons move in precise, defined circular orbits, ignoring their wave-particle duality and the Heisenberg Uncertainty Principle.
+
+---
+
+###QUESTION_TYPE
+Calculation question

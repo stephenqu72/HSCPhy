@@ -1,0 +1,26 @@
+To solve this problem, we must apply the principle of conservation of mass-energy to the process of electron-positron annihilation.
+
+### Answer
+The correct option is **(A)**.
+
+### Explanation
+1. **Understand the Physics:** When an electron and its antiparticle, a positron, annihilate while stationary, their entire rest mass is converted into energy in the form of gamma-ray photons.
+2. **Conservation Laws:**
+   - The total initial energy is the sum of the rest energies of the electron and the positron. Since an electron and positron have the same mass ($m_e = 9.11 \times 10^{-31} \text{ kg}$), the total energy is $E_{total} = 2 \times m_e c^2$.
+   - By the principle of conservation of momentum, because the initial momentum is zero, the particles must produce at least two photons moving in opposite directions to conserve momentum.
+   - Therefore, the total rest energy is shared equally between two photons. The energy of a single photon is:
+     $$E_{photon} = \frac{2 \times m_e c^2}{2} = m_e c^2$$
+3. **Calculation:**
+   - The rest mass energy of an electron is a standard physical constant: $E = m_e c^2 \approx 0.511 \text{ MeV}$.
+   - Converting this to electron-volts (eV):
+     $$0.511 \text{ MeV} = 5.11 \times 10^5 \text{ eV}$$
+   - Comparing this to the given options, $5.12 \times 10^5 \text{ eV}$ is the correct value (slight variations occur based on the precision of the constants used, such as $9.109 \times 10^{-31} \text{ kg}$ and $2.998 \times 10^8 \text{ m/s}$).
+
+### Evaluating the Options:
+- **(A)** matches the energy equivalent of one electron mass ($0.511 \text{ MeV} \approx 5.11 \times 10^5 \text{ eV}$).
+- **(B)** $1.64 \times 10^{-13} \text{ J}$ is approximately $1.02 \text{ MeV}$ (the total energy of both photons), not the energy of a *single* gamma ray.
+- **(C)** has the wrong units/magnitude.
+- **(D)** $2.01 \text{ MeV}$ is significantly higher than the rest mass of the particles involved.
+
+###QUESTION_TYPE
+Multiple choice

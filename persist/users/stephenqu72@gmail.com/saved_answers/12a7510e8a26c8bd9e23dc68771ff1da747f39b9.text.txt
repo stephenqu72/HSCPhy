@@ -1,0 +1,39 @@
+### Solution and Explanation
+
+#### Part (a): Relationship between binding energy and mass defect
+The **mass defect** ($\Delta m$) of a nucleus is the difference between the sum of the masses of the individual nucleons (protons and neutrons) and the actual mass of the assembled nucleus. 
+
+According to Einstein’s mass-energy equivalence principle, $E = mc^2$, this "missing" mass is not lost but is converted into **binding energy** ($E_b$) when the nucleus is formed. Therefore, the binding energy is the energy released during the formation of the nucleus from its constituent nucleons, or conversely, the energy required to disassemble a nucleus into its individual nucleons. The relationship is expressed by:
+$$E_b = \Delta m c^2$$
+where $c$ is the speed of light in a vacuum.
+
+#### Part (b): Calculation of average binding energy per nucleon
+To solve this, we need standard values:
+*   Mass of proton ($m_p$) $\approx 1.00728\text{ u}$
+*   Mass of neutron ($m_n$) $\approx 1.00867\text{ u}$
+*   $1\text{ u} \approx 1.6605 \times 10^{-27}\text{ kg}$
+*   $c \approx 2.998 \times 10^8\text{ m/s}$
+
+*Note: The prompt describes a helium nucleus with two protons and two electrons bound. In physics, a helium nucleus (alpha particle) consists of **two protons and two neutrons**. I will proceed with the standard definition of a helium nucleus ($^4_2\text{He}$).*
+
+**1. Calculate the mass of individual components:**
+Nucleons = 2 protons + 2 neutrons
+$$\text{Total mass} = 2(1.00728\text{ u}) + 2(1.00867\text{ u}) = 4.03190\text{ u}$$
+
+**2. Calculate mass defect ($\Delta m$):**
+$$\Delta m = \text{Sum of nucleons} - \text{Mass of nucleus}$$
+$$\Delta m = 4.03190\text{ u} - 4.0015\text{ u} = 0.0304\text{ u}$$
+
+**3. Convert $\Delta m$ to kg:**
+$$\Delta m = 0.0304 \times 1.6605 \times 10^{-27}\text{ kg} \approx 5.0479 \times 10^{-29}\text{ kg}$$
+
+**4. Calculate total binding energy ($E_b$):**
+$$E_b = \Delta m c^2 = (5.0479 \times 10^{-29}\text{ kg}) \times (2.998 \times 10^8\text{ m/s})^2$$
+$$E_b \approx 4.537 \times 10^{-12}\text{ J}$$
+
+**5. Calculate binding energy per nucleon:**
+There are 4 nucleons in a helium nucleus.
+$$\text{BE per nucleon} = \frac{4.537 \times 10^{-12}\text{ J}}{4} \approx 1.134 \times 10^{-12}\text{ J}$$
+
+###QUESTION_TYPE
+Calculation question

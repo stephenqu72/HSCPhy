@@ -1,0 +1,40 @@
+As a top HSC teacher, here is the breakdown and step-by-step solution for your physics problem.
+
+---
+
+### Part (a): Calculate the speed of the neutrons
+**Solution:**
+We use the de Broglie wavelength formula: $\lambda = \frac{h}{mv}$, where:
+- $\lambda = 3.02 \times 10^{-10} \text{ m}$
+- $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$ (Planck's constant)
+- $m = 1.67 \times 10^{-27} \text{ kg}$
+
+Rearranging for velocity ($v$):
+$$v = \frac{h}{m\lambda}$$
+$$v = \frac{6.626 \times 10^{-34}}{(1.67 \times 10^{-27})(3.02 \times 10^{-10})}$$
+$$v \approx 1.31 \times 10^3 \text{ m/s}$$
+
+---
+
+### Part (b): Diffraction pattern justification
+**Solution:**
+Yes, a diffraction pattern would be observed. 
+**Justification:** For significant diffraction to occur, the wavelength of the wave must be of a similar order of magnitude to the size of the aperture or the interatomic spacing of the crystal. Here, the de Broglie wavelength ($3.02 \times 10^{-10} \text{ m}$) is very close to the interatomic spacing ($3.62 \times 10^{-10} \text{ m}$), satisfying the condition for observable diffraction.
+
+---
+
+### Part (c): Comparing speeds
+**Solution:**
+The **electron** will have the greater speed.
+**Justification:** From the de Broglie equation $\lambda = \frac{h}{mv}$, we can rearrange it to $v = \frac{h}{m\lambda}$. Since the wavelength ($\lambda$) and Planck’s constant ($h$) are identical for both particles, velocity is inversely proportional to mass ($v \propto \frac{1}{m}$). Because the mass of an electron ($9.11 \times 10^{-31} \text{ kg}$) is significantly smaller than the mass of a neutron ($1.67 \times 10^{-27} \text{ kg}$), the electron must have a much higher velocity to maintain the same wavelength.
+
+---
+
+### How to solve these types of problems:
+1.  **Identify the Physics:** This question tests the "Wave-Particle Duality" module. Always keep the de Broglie formula $\lambda = \frac{h}{mv}$ handy for these types of problems.
+2.  **Part (a) Strategy:** Always perform a unit check. Ensure mass is in kg, wavelength is in meters, and $h$ is in $\text{J}\cdot\text{s}$ so that your resulting velocity is in $\text{m/s}$.
+3.  **Part (b) Strategy:** Remember the "diffraction criterion." If a question asks about diffraction, immediately look at the ratio of the wavelength to the obstacle size. If they are within the same power of ten, diffraction is likely.
+4.  **Part (c) Strategy:** Use the relationship $v = \frac{h}{m\lambda}$ to argue qualitatively. Avoid re-calculating if not explicitly asked; showing the inverse relationship between mass and velocity is sufficient for full marks.
+
+###QUESTION_TYPE
+Calculation question

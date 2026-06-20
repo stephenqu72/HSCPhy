@@ -1,0 +1,27 @@
+To answer this question effectively for an HSC Physics exam, you need to demonstrate an understanding of nuclear fission, the concept of a self-sustaining chain reaction, and the engineering principles behind reactor control.
+
+### Answer
+
+**Nuclear Equation:**
+The fission of Uranium-235 by a neutron produces Barium-141, Krypton-92, and three additional neutrons:
+$${}_{0}^{1}n + {}_{92}^{235}U \rightarrow {}_{56}^{141}Ba + {}_{36}^{92}Kr + 3{}_{0}^{1}n$$
+
+**Explanation of Uncontrolled Chain Reaction:**
+An uncontrolled chain reaction occurs because each fission event releases three additional neutrons. If these neutrons strike other ${}_{92}^{235}U$ nuclei, they induce further fission events. In an uncontrolled scenario (such as in a nuclear weapon), the number of fissions increases exponentially, as each generation of fission produces significantly more neutrons than the previous one, releasing a massive amount of energy in a very short time.
+
+**Controlling the Reaction Rate:**
+In a nuclear reactor, the reaction rate is controlled by managing the neutron population:
+1.  **Control Rods:** These are made of materials that effectively absorb neutrons (e.g., cadmium or boron). They are inserted or withdrawn from the reactor core. By absorbing excess neutrons, they ensure that, on average, only one neutron from each fission event induces another fission event, keeping the reaction at a "critical" state.
+2.  **Moderators:** While not directly for "control," materials like heavy water or graphite are used to slow down the fast-moving neutrons produced by fission. Slow (thermal) neutrons are much more likely to be captured by ${}_{92}^{235}U$ to cause further fission, maintaining the chain reaction.
+
+---
+
+### How to solve this
+1.  **Write the equation accurately:** Ensure that the sum of the atomic numbers (bottom) and the mass numbers (top) are balanced on both sides.
+    *   Top: $1 + 235 = 141 + 92 + 3(1) = 236$ (Balanced)
+    *   Bottom: $0 + 92 = 56 + 36 + 3(0) = 92$ (Balanced)
+2.  **Define the chain reaction:** Clearly state that the secondary neutrons are the cause of the continuation of the process. Mention that "exponential growth" is what characterizes the *uncontrolled* nature.
+3.  **Address the "How":** Focus on the specific function of control rods. Remember that in an HSC context, the term "criticality" is key—you want the reaction to be self-sustaining but stable, not accelerating.
+
+###QUESTION_TYPE
+Short answer

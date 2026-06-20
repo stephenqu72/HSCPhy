@@ -1,0 +1,40 @@
+To solve this problem, we apply the principles of mass-energy equivalence and nuclear kinetics.
+
+### Part (a)
+
+**1. Calculate the mass defect ($\Delta m$):**
+The mass defect is the difference between the mass of the reactants and the mass of the products:
+$$\Delta m = m(\text{Pu}) - [m(\text{U}) + m(\alpha)]$$
+$$\Delta m = 238.0495u - (234.0409u + 4.0026u)$$
+$$\Delta m = 238.0495u - 238.0435u = 0.0060u$$
+
+**2. Convert mass to Joules:**
+Use the conversion $1u = 1.661 \times 10^{-27}\text{ kg}$ and $E = \Delta mc^2$ (where $c = 3.00 \times 10^8\text{ m/s}$):
+$$\Delta E = (0.0060 \times 1.661 \times 10^{-27}\text{ kg}) \times (3.00 \times 10^8\text{ m/s})^2$$
+$$\Delta E \approx 8.969 \times 10^{-13}\text{ J} \approx 9.0 \times 10^{-13}\text{ J}$$
+
+---
+
+### Part (b)
+
+**1. Calculate the number of nuclei decayed ($N_{\text{decayed}}$):**
+The number of nuclei remaining after time $t$ is $N(t) = N_0 e^{-\lambda t}$. The number decayed is $N_{\text{decayed}} = N_0 - N(t) = N_0(1 - e^{-\lambda t})$.
+- $N_0 = 9.0 \times 10^{24}$
+- Half-life $T_{1/2} = 87.7\text{ years}$
+- Decay constant $\lambda = \frac{\ln(2)}{87.7} \approx 0.007903\text{ year}^{-1}$
+- Time $t = 10\text{ years}$
+
+$$N_{\text{decayed}} = 9.0 \times 10^{24} \times (1 - e^{-(0.007903)(10)})$$
+$$N_{\text{decayed}} = 9.0 \times 10^{24} \times (1 - 0.9240) \approx 6.84 \times 10^{23}\text{ nuclei}$$
+
+**2. Calculate total energy ($E_{\text{total}}$):**
+$$E_{\text{total}} = N_{\text{decayed}} \times E_{\text{per decay}}$$
+$$E_{\text{total}} = (6.84 \times 10^{23}) \times (9.0 \times 10^{-13}\text{ J})$$
+$$E_{\text{total}} \approx 6.16 \times 10^{11}\text{ J}$$
+
+### How to solve:
+- **Part (a):** Identify that mass is lost during nuclear decay. Calculate the difference in mass and use the Einstein mass-energy equivalence formula. Ensure units are converted correctly from atomic mass units to SI units.
+- **Part (b):** Use the exponential decay law to find how many atoms have split. Multiply the number of disintegrated atoms by the energy released per single atom (calculated in part a).
+
+###QUESTION_TYPE
+Calculation question

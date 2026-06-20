@@ -1,0 +1,27 @@
+### Answer
+
+**(a)** This type of nuclear reaction is **nuclear fission**.
+
+**(b)** The nuclear equation is:
+$${^{235}_{92}\text{U} + ^{1}_{0}\text{n} \rightarrow ^{92}_{36}\text{Kr} + ^{141}_{56}\text{Ba} + 3^{1}_{0}\text{n}}$$
+*(Note: The emission of 3 neutrons is required to balance the mass numbers: $235 + 1 = 92 + 141 + x$, where $x = 3$.)*
+
+**(c)** To justify the use of a moderator:
+*   **Purpose:** Neutrons released from fission reactions are produced with high kinetic energy ("fast" neutrons).
+*   **The Problem:** Uranium-235 has a much higher probability of absorbing "slow" (thermal) neutrons to induce further fission. Fast neutrons are more likely to pass through the Uranium-235 nucleus without being captured.
+*   **The Mechanism:** The moderator (e.g., graphite) consists of light nuclei. As fast neutrons collide with the moderator atoms, they undergo elastic collisions, transferring kinetic energy to the moderator. This slows the neutrons down to thermal speeds, which significantly increases the probability (cross-section) of them causing subsequent fission events in other Uranium-235 nuclei, thereby sustaining the chain reaction.
+
+---
+
+### How to solve this
+1.  **Part (a):** Recognise the description of a heavy nucleus (Uranium) splitting into two smaller nuclei (Krypton and Barium) upon neutron absorption as the definition of **fission**.
+2.  **Part (b):** Apply the **Law of Conservation of Mass Number** ($A$) and **Atomic Number** ($Z$):
+    *   Left side total $A$: $235 + 1 = 236$. Right side: $92 + 141 = 233$. We need $236 - 233 = 3$ neutrons.
+    *   Left side total $Z$: $92 + 0 = 92$. Right side: $36 + 56 = 92$. The charge is balanced.
+3.  **Part (c):** Focus on the physics of **thermalisation**. Use the "Link-Evidence-Explain" structure:
+    *   Link: Fission chain reactions require slow neutrons.
+    *   Evidence: Fast neutrons have a low capture cross-section for U-235.
+    *   Explain: Moderators use elastic collisions to dissipate neutron kinetic energy, increasing the likelihood of sustainable fission.
+
+###QUESTION_TYPE
+Short answer

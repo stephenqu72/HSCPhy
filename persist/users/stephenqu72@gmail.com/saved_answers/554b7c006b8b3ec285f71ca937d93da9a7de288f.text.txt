@@ -1,0 +1,18 @@
+As an HSC Physics teacher, here is the breakdown of this question.
+
+### Answer
+The correct statement is **D**.
+
+---
+
+### Explanation
+To solve this, we must recall the fundamental definitions and formulas related to radioactive decay:
+
+1.  **Half-life ($t_{1/2}$)**: This is defined as the time taken for half of the radioactive nuclei in a sample to decay. It is a constant property of a specific radioactive isotope and does **not** depend on the amount of material present. This makes statement **A** and **C** incorrect.
+2.  **Activity ($A$):** The activity of a sample is defined by the formula $A = \lambda N$, where $\lambda$ is the decay constant and $N$ is the number of radioactive nuclei. Since $A$ is directly proportional to $\lambda$, statement **B** is incorrect.
+3.  **Relationship between Half-life and Decay Constant:** The derivation of the decay law leads to the relationship between the half-life and the decay constant ($\lambda$):
+    $$t_{1/2} = \frac{\ln(2)}{\lambda}$$
+    Because $\ln(2)$ is a constant ($\approx 0.693$), the equation shows that $t_{1/2}$ is inversely proportional to $\lambda$. As the decay constant increases (meaning the substance is more unstable and decays faster), the half-life decreases. Therefore, statement **D** is correct.
+
+###QUESTION_TYPE
+Multiple choice

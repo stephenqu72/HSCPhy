@@ -1,0 +1,20 @@
+The correct answer is **C. Synchrotrons**.
+
+### Explanation
+
+To understand why a synchrotron cannot accelerate particles starting from rest (zero kinetic energy), we must look at how it operates:
+
+1.  **The Synchrotron Principle:** A synchrotron uses a constant magnetic field to bend particles into a fixed circular path and an oscillating electric field (RF cavities) to increase their energy. 
+2.  **The Constraint of Magnetic Bending:** In a synchrotron, the radius of the path $r$ is kept constant. The relationship between the magnetic field $B$, momentum $p$, and radius $r$ is given by:
+    $$p = qBr$$
+    Because the radius $r$ is fixed, for a particle to enter the ring, it must already have a specific momentum $p$ corresponding to the initial magnetic field settings. If a particle has zero kinetic energy ($v = 0$, therefore $p = 0$), the magnetic field cannot "capture" or bend the particle into the required circular orbit.
+3.  **The Requirement of an Injector:** Because of this physical constraint, synchrotrons always require an "injector" (usually a linear accelerator or a smaller circular accelerator) to pre-accelerate the particles to a significant relativistic velocity before they are injected into the main synchrotron ring.
+4.  **Comparing to others:**
+    *   **Linear Accelerators (Linacs):** Can accelerate particles from rest because they use straight-line electric fields that do not rely on magnetic bending for injection.
+    *   **Cyclotrons:** While they also use magnetic fields, they are typically designed to spiral particles outward from the center. While they technically need an injection source (like an ion source at the center), the architecture allows for the acceleration to begin from essentially a static state.
+    *   **Phototrons:** This is a distractor; there is no standard particle accelerator known as a "phototron" in the HSC Physics curriculum.
+
+Therefore, among the valid accelerator types listed, the synchrotron is specifically dependent on an injection stage to handle the initial acceleration phase, as it cannot accept particles with zero kinetic energy.
+
+###QUESTION_TYPE
+Multiple choice

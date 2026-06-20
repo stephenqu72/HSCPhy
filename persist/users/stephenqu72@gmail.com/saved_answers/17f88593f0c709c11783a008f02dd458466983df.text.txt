@@ -1,0 +1,36 @@
+To calculate the energy released in a nuclear reaction, we must determine the mass defect ($\Delta m$)—the difference in mass between the reactants and the products—and convert that mass into energy using Einstein’s mass-energy equivalence principle, $E = \Delta m c^2$.
+
+### Step-by-Step Solution:
+
+**1. Identify the masses of all particles:**
+*   Mass of neutron ($n$) $\approx 1.00866 \, u$
+*   Mass of $^{235}_{92}\text{U} = 235.044 \, u$
+*   Mass of $^{141}_{56}\text{Ba} = 140.914 \, u$
+*   Mass of $^{92}_{36}\text{Kr} = 91.9263 \, u$
+
+**2. Calculate total mass of reactants and products:**
+*   **Reactants:** $1 \times m(n) + 1 \times m(\text{U}) = 1.00866 + 235.044 = 236.05266 \, u$
+*   **Products:** $1 \times m(\text{Ba}) + 1 \times m(\text{Kr}) + 3 \times m(n)$
+    *   $= 140.914 + 91.9263 + 3(1.00866)$
+    *   $= 140.914 + 91.9263 + 3.02598 = 235.86628 \, u$
+
+**3. Calculate the mass defect ($\Delta m$):**
+$$\Delta m = \text{mass}_{\text{reactants}} - \text{mass}_{\text{products}}$$
+$$\Delta m = 236.05266 - 235.86628 = 0.18638 \, u$$
+
+**4. Convert mass defect to energy:**
+In nuclear physics, we use the conversion factor $1 \, u = 931.5 \, \text{MeV}/c^2$.
+$$E = 0.18638 \, u \times 931.5 \, \text{MeV}/u$$
+$$E \approx 173.61 \, \text{MeV}$$
+
+*(Note: Depending on the specific precision of the neutron mass provided in your data booklet, the result will be approximately $173-174 \, \text{MeV}$.)*
+
+---
+
+### How to solve it:
+1.  **Sum the masses:** Always ensure you account for every particle on both sides of the arrow (including the 3 neutrons).
+2.  **Find the difference:** Subtract the total product mass from the reactant mass. A positive result indicates energy is released (exothermic).
+3.  **Conversion:** Use the standard conversion $1 \, u \approx 931.5 \, \text{MeV}$ to get your answer in the standard unit for nuclear energy.
+
+###QUESTION_TYPE
+Calculation question

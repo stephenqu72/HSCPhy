@@ -1,0 +1,30 @@
+To calculate the de Broglie wavelength of the tennis ball, we use the de Broglie equation:
+
+$$\lambda = \frac{h}{mv}$$
+
+where:
+*   $h$ is Planck's constant ($6.626 \times 10^{-34}\text{ J s}$)
+*   $m$ is the mass of the object (in kg)
+*   $v$ is the velocity of the object (in m/s)
+
+### Step-by-Step Solution:
+
+**1. Convert units to SI units:**
+*   **Mass ($m$):** The mass is given as $59.4\text{ g}$. We must convert this to kilograms:
+    $$m = 59.4\text{ g} = 0.0594\text{ kg}$$
+*   **Velocity ($v$):** The velocity is given as $170\text{ km h}^{-1}$. To convert to m/s, divide by $3.6$:
+    $$v = \frac{170}{3.6} \approx 47.222\text{ m/s}$$
+
+**2. Substitute the values into the de Broglie equation:**
+$$\lambda = \frac{6.626 \times 10^{-34}\text{ J s}}{(0.0594\text{ kg}) \times (47.222\text{ m/s})}$$
+
+**3. Perform the calculation:**
+$$\lambda = \frac{6.626 \times 10^{-34}}{2.805}$$
+$$\lambda \approx 2.362 \times 10^{-34}\text{ m}$$
+
+Comparing this result to the given options, it matches option (D).
+
+**Answer:** (D)
+
+###QUESTION_TYPE
+Multiple choice

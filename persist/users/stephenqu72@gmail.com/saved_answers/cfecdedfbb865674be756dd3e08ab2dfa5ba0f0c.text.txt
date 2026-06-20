@@ -1,0 +1,25 @@
+To determine which spectral line corresponds to the $n = 3$ to $n = 2$ transition in hydrogen, we must calculate the energy of the emitted photon using the Bohr model for hydrogen.
+
+### Explanation and Calculation
+
+1.  **Understand the Physics:** The energy of an electron in the $n$-th shell of a hydrogen atom is given by the formula:
+    $$E_n = -\frac{13.6\text{ eV}}{n^2}$$
+
+2.  **Calculate the Energy of the Transition:** The energy of the photon emitted during the transition from $n = 3$ to $n = 2$ is the difference in energy between these two levels:
+    $$\Delta E = E_3 - E_2$$
+    $$\Delta E = \left( -\frac{13.6}{3^2} \right) - \left( -\frac{13.6}{2^2} \right)$$
+    $$\Delta E = -\frac{13.6}{9} + \frac{13.6}{4}$$
+    $$\Delta E = -1.51\text{ eV} + 3.4\text{ eV} = 1.89\text{ eV}$$
+
+3.  **Analyze the Diagram:** The diagram displays a spectrum with a scale for "energy of photons (eV)" at the top. We need to look at the energy scale and find which labeled line corresponds to $1.89\text{ eV}$.
+    *   Line A is at $2.8\text{ eV}$.
+    *   Line B is at $2.6\text{ eV}$.
+    *   Line C is at $1.9\text{ eV}$ (it sits exactly between the $2.0$ and $1.8$ marks).
+    *   Line D is just below $1.8\text{ eV}$.
+
+4.  **Conclusion:** The calculated energy of $1.89\text{ eV}$ aligns with the position of line **C** on the energy scale.
+
+**Answer:** Line C.
+
+###QUESTION_TYPE
+Calculation question

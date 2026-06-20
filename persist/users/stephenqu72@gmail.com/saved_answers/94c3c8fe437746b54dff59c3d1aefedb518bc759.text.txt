@@ -1,0 +1,33 @@
+### Answer
+
+**a. Determine if Atom X is the unknown atom.**
+
+To determine if Atom X matches the unknown atom, we must calculate the wavelengths of light emitted by transitions between the energy levels of Atom X using the formula:
+$$\Delta E = \frac{hc}{\lambda} \implies \lambda = \frac{hc}{\Delta E}$$
+Where $hc \approx 1240 \text{ eV nm}$.
+
+Let's test transitions to the $-3.60 \text{ eV}$ level:
+1. Transition from $-1.22 \text{ eV}$: $\Delta E = 3.60 - 1.22 = 2.38 \text{ eV}$.
+   $\lambda = \frac{1240}{2.38} \approx 521 \text{ nm}$ (Close to $523 \text{ nm}$).
+2. Transition from $-1.07 \text{ eV}$: $\Delta E = 3.60 - 1.07 = 2.53 \text{ eV}$.
+   $\lambda = \frac{1240}{2.53} \approx 490 \text{ nm}$ (Matches $491 \text{ nm}$).
+3. Transition from $-0.65 \text{ eV}$: $\Delta E = 3.60 - 0.65 = 2.95 \text{ eV}$.
+   $\lambda = \frac{1240}{2.95} \approx 420 \text{ nm}$ (Matches $421 \text{ nm}$).
+
+**Conclusion:** The calculated wavelengths ($420 \text{ nm}, 490 \text{ nm}, 521 \text{ nm}$) closely match the observed emission spectrum ($421 \text{ nm}, 491 \text{ nm}, 523 \text{ nm}$). Therefore, **Atom X is the unknown atom**.
+
+**b. Explain how such an emission spectrum is produced.**
+
+An emission spectrum is produced when electrons in an atom, which have been excited to higher energy levels (by absorbing energy from heat or electricity), return to lower energy states. As an electron drops from a higher energy level ($E_2$) to a lower energy level ($E_1$), it must lose energy to conserve energy. This energy is released as a single photon of electromagnetic radiation with energy $E = E_2 - E_1$. Since energy levels are discrete, only specific energy differences are possible, resulting in specific wavelengths of light appearing as distinct lines in the emission spectrum.
+
+---
+
+### How to solve this
+1. **Identify the Relationship:** Understand that the energy difference between two levels corresponds to a photon's energy: $\Delta E = hf = \frac{hc}{\lambda}$.
+2. **Use Constants:** Use the convenient HSC value $hc = 1240 \text{ eV nm}$ to convert between energy (in eV) and wavelength (in nm).
+3. **Calculate:** Systematically test likely transitions. Usually, the transitions to the first excited state ($n=2$ equivalent) produce the visible spectrum.
+4. **Compare:** Evaluate if your calculated values fall within a reasonable range of the provided experimental data, accounting for rounding differences.
+5. **Conceptual explanation:** Ensure you mention "discrete energy levels," "electron de-excitation," and the "conservation of energy" principle.
+
+###QUESTION_TYPE
+Calculation question

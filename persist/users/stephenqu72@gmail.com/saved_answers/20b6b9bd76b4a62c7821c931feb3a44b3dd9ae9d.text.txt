@@ -1,0 +1,27 @@
+To solve this problem, we need to determine how many half-lives have passed and use that to calculate the remaining percentage of the radioactive sample.
+
+### Step-by-Step Solution:
+
+1.  **Identify the given values:**
+    *   Half-life ($T_{1/2}$) = $5.3\text{ years}$
+    *   Total time ($t$) = $16\text{ years}$
+
+2.  **Calculate the number of half-lives ($n$):**
+    The number of half-lives is the total time divided by the length of one half-life:
+    $$n = \frac{t}{T_{1/2}} = \frac{16}{5.3} \approx 3.018$$
+    Since $3.018$ is approximately $3$, we can determine that the sample has gone through 3 half-lives.
+
+3.  **Calculate the remaining fraction:**
+    The formula for the remaining amount of a substance is:
+    $$\text{Remaining percentage} = \left(\frac{1}{2}\right)^n \times 100\%$$
+    Substituting $n = 3$:
+    $$\text{Remaining percentage} = \left(\frac{1}{2}\right)^3 \times 100\%$$
+    $$\text{Remaining percentage} = \frac{1}{8} \times 100\% = 0.125 \times 100\% = 12.5\%$$
+
+4.  **Conclusion:**
+    After 3 half-lives, $12.5\%$ of the original sample remains. Looking at the options provided, this matches option **C**.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

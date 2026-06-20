@@ -1,0 +1,8 @@
+### Front
+Why can a synchrotron not accelerate particles starting from rest?
+
+### Back
+- Key idea: The magnetic field $B$ is used to keep particles in a *fixed* circular radius $r$; particles must enter with sufficient momentum to match this path.
+- Formula / law: $p = qBr$
+- When to use it: To explain the necessity of an "injector" (e.g., Linac) before entering a synchrotron.
+- Common trap: Assuming all circular accelerators behave like cyclotrons (which can accelerate from near-rest) rather than recognizing the fixed-radius constraint of a synchrotron.

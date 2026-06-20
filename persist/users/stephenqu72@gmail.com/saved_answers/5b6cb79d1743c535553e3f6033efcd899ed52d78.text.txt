@@ -1,0 +1,28 @@
+To find the correct expression for the binding energy per nucleon of $^3_2\text{He}$, follow these steps:
+
+### 1. Identify the components of the nucleus
+The nucleus $^3_2\text{He}$ consists of:
+*   $Z = 2$ protons (each with mass $m_p$)
+*   $A - Z = 3 - 2 = 1$ neutron (with mass $m_n$)
+*   Total number of nucleons $A = 3$
+
+### 2. Calculate the mass defect ($\Delta m$)
+The mass defect is the difference between the sum of the masses of the individual nucleons and the actual mass of the nucleus ($m$).
+$$\Delta m = (\text{total mass of nucleons}) - (\text{mass of nucleus})$$
+$$\Delta m = (2m_p + 1m_n) - m$$
+$$\Delta m = (2m_p + m_n - m)$$
+
+### 3. Convert mass defect to Binding Energy ($BE$)
+Using Einstein’s mass-energy equivalence principle, $E = \Delta mc^2$:
+$$BE = (2m_p + m_n - m)c^2$$
+
+### 4. Determine Binding Energy per nucleon
+The "binding energy per nucleon" is defined as the total binding energy divided by the number of nucleons ($A$):
+$$\text{Binding energy per nucleon} = \frac{BE}{A}$$
+Since $A = 3$:
+$$\text{Binding energy per nucleon} = \frac{(2m_p + m_n - m)c^2}{3}$$
+
+Comparing this result to the given options, we can see that **Option D** is the correct expression.
+
+###QUESTION_TYPE
+Multiple choice

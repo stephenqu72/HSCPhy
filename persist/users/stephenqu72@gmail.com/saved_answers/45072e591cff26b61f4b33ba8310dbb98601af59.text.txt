@@ -1,0 +1,28 @@
+To solve this problem, we must apply the principle of conservation of energy. The energy released in a nuclear decay ($Q$-value) is equal to the difference between the total binding energy of the products and the binding energy of the parent nucleus.
+
+### 1. Identify the reaction
+The alpha decay of Uranium-238 is represented by:
+$${}^{238}_{92}\text{U} \rightarrow {}^{234}_{90}\text{Th} + {}^{4}_{2}\text{He} + Q$$
+Where $Q = 4.27 \text{ MeV}$.
+
+### 2. Calculate total binding energies of products
+The binding energy (BE) of a nucleus is the (binding energy per nucleon) $\times$ (number of nucleons).
+*   For Thorium-234: $BE_{\text{Th}} = 7.60 \text{ MeV/nucleon} \times 234 \text{ nucleons} = 1778.4 \text{ MeV}$
+*   For Helium-4 (alpha particle): $BE_{\text{He}} = 7.07 \text{ MeV/nucleon} \times 4 \text{ nucleons} = 28.28 \text{ MeV}$
+
+### 3. Calculate binding energy of the parent (Uranium-238)
+The conservation of energy dictates:
+$$BE_{\text{U}} = (BE_{\text{Th}} + BE_{\text{He}}) - Q$$
+$$BE_{\text{U}} = (1778.4 + 28.28) - 4.27 = 1802.41 \text{ MeV}$$
+
+### 4. Calculate binding energy per nucleon of Uranium-238
+$$\text{BE per nucleon} = \frac{1802.41 \text{ MeV}}{238} \approx 7.573 \text{ MeV/nucleon}$$
+
+### 5. Convert to Joules
+To convert from MeV to Joules, use the conversion factor $1 \text{ MeV} = 1.602 \times 10^{-13} \text{ J}$:
+$$\text{BE in J} = 7.573 \times 1.602 \times 10^{-13} \text{ J} \approx 1.213 \times 10^{-12} \text{ J}$$
+
+Comparing this result to the given options, it matches **B**.
+
+###QUESTION_TYPE
+Multiple choice

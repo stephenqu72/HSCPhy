@@ -1,0 +1,34 @@
+### Solution
+
+#### (a) Finding the decay constant ($\lambda$)
+
+1.  **Identify the half-life ($t_{1/2}$):**
+    Looking at the graph, the initial count ($A_0$) at $t = 0$ is $850\text{ s}^{-1}$. We need to find the time it takes for the count to reach half of that value, which is $425\text{ s}^{-1}$.
+    Tracing $425\text{ s}^{-1}$ on the y-axis to the curve, we drop down to the x-axis. The value is approximately $4.6$ days.
+    Therefore, $t_{1/2} \approx 4.6\text{ days}$.
+
+2.  **Convert the half-life to seconds:**
+    $$t_{1/2} = 4.6 \times 24 \times 60 \times 60 = 397,440\text{ s}$$
+
+3.  **Calculate the decay constant ($\lambda$):**
+    Using the relationship $\lambda = \frac{\ln(2)}{t_{1/2}}$:
+    $$\lambda = \frac{0.693}{397,440} \approx 1.74 \times 10^{-6}\text{ s}^{-1}$$
+
+#### (b) Nuclear equation
+The isotope decays by alpha emission ($\alpha$, represented as a helium nucleus $^4_2\text{He}$) to form polonium-218 ($^{218}_{84}\text{Po}$).
+To find the parent isotope ($^A_Z\text{X}$):
+- Mass number $A = 218 + 4 = 222$
+- Atomic number $Z = 84 + 2 = 86$ (Radon, Rn)
+
+The equation is:
+$$^{222}_{86}\text{Rn} \rightarrow ^{218}_{84}\text{Po} + ^{4}_{2}\text{He}$$
+
+---
+
+### How to solve this type of problem
+1.  **Extracting data:** When given a decay curve, always look for the "half-life" first. Find where the activity drops to 50% of the initial value. This is the most reliable way to determine decay parameters.
+2.  **Unit conversion:** Pay close attention to units! The question asks for the decay constant in $\text{s}^{-1}$, but the graph is plotted in "days". Always convert your time units to seconds before calculating $\lambda$.
+3.  **Nuclear Equations:** Remember that in any nuclear equation, both the mass number (top) and the atomic number (bottom) must be conserved on both sides of the arrow. Use a periodic table or the provided daughter product to identify the parent element.
+
+###QUESTION_TYPE
+Calculation question

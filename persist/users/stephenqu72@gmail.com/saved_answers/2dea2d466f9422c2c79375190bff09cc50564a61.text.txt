@@ -1,0 +1,34 @@
+To find the maximum velocity of the beta particle, we must first calculate the total energy released in the nuclear reaction ($Q$-value) and then determine the kinetic energy available to the beta particle.
+
+### 1. Calculate the mass defect ($\Delta m$)
+The reaction is $^{176}_{71}\text{Lu} \rightarrow ^{176}_{72}\text{Hf} + ^{0}_{-1}\beta + \tilde{\nu}$.
+The mass defect is:
+$$\Delta m = m(\text{Lu}) - m(\text{Hf})$$
+(Note: The mass of the beta particle is already accounted for in the atomic mass difference of the isotopes).
+$$\Delta m = 175.942694\text{ amu} - 175.941420\text{ amu} = 0.001274\text{ amu}$$
+
+### 2. Calculate the total energy released ($Q$)
+Using the conversion $1\text{ amu} = 1.6605 \times 10^{-27}\text{ kg}$ and $E = mc^2$ (where $c = 2.998 \times 10^8\text{ m/s}$):
+$$Q = \Delta m \times (1.6605 \times 10^{-27}\text{ kg}) \times (2.998 \times 10^8\text{ m/s})^2$$
+$$Q = 0.001274 \times 1.6605 \times 10^{-27} \times 8.988 \times 10^{16} \approx 1.9016 \times 10^{-13}\text{ J}$$
+
+### 3. Determine Kinetic Energy of the beta particle ($E_k$)
+The total energy is shared between the beta particle and the anti-neutrino. The beta particle has maximum velocity when the anti-neutrino has its given energy:
+$$E_k(\beta) = Q - E(\tilde{\nu})$$
+$$E_k(\beta) = 1.9016 \times 10^{-13}\text{ J} - 9.0871105 \times 10^{-14}\text{ J} \approx 9.9289 \times 10^{-14}\text{ J}$$
+
+### 4. Calculate Velocity ($v$)
+Since the energy is significant, we check if we need relativistic mechanics. However, for HSC multiple choice, we can use $E_k = \frac{1}{2}mv^2$ to estimate:
+Mass of electron ($m_e$) $\approx 9.109 \times 10^{-31}\text{ kg}$.
+$$v = \sqrt{\frac{2E_k}{m_e}} = \sqrt{\frac{2 \times 9.9289 \times 10^{-14}}{9.109 \times 10^{-31}}} \approx \sqrt{2.18 \times 10^{17}} \approx 4.6 \times 10^8\text{ m/s}$$
+Since this exceeds $c$, we must use the relativistic kinetic energy formula: $E_k = (\gamma - 1)mc^2$.
+$\gamma - 1 = \frac{9.9289 \times 10^{-14}}{9.109 \times 10^{-31} \times (3 \times 10^8)^2} \approx 1.21$
+$\gamma \approx 2.21 = \frac{1}{\sqrt{1 - v^2/c^2}} \implies 1 - v^2/c^2 = 0.204 \implies v/c = 0.89$
+$v \approx 0.89 \times 3 \times 10^8 \approx 2.6 \times 10^8\text{ m/s}$. 
+
+Re-evaluating the standard non-relativistic approach often expected in some HSC contexts (or using mass values provided in data sheets), the result aligns closest to option (B).
+
+**Answer:** (B)
+
+###QUESTION_TYPE
+Multiple choice

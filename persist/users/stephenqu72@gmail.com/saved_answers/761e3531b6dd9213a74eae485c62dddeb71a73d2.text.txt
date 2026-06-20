@@ -1,0 +1,40 @@
+To find the age of the solar system using radioactive decay, we use the standard radioactive decay formula:
+
+$$N(t) = N_0 \cdot 2^{-\frac{t}{T_{1/2}}}$$
+
+Where:
+*   $N(t)$ is the amount of parent material remaining.
+*   $N_0$ is the initial amount of parent material.
+*   $t$ is the time elapsed (the age of the sample).
+*   $T_{1/2}$ is the half-life ($710 \times 10^6$ years, which is equivalent to $0.71 \times 10^9$ years).
+
+### Step-by-Step Solution:
+
+1.  **Determine the remaining fraction of Uranium-235:**
+    The problem states that $99.609375\%$ of the Uranium has transmuted into Lead.
+    Therefore, the remaining amount $N(t)$ is:
+    $$N(t) = 100\% - 99.609375\% = 0.390625\%$$
+    As a decimal, this is $0.00390625$.
+
+2.  **Relate the fraction to the decay equation:**
+    We want to find $t$ such that:
+    $$\frac{N(t)}{N_0} = 0.00390625$$
+    $$0.00390625 = \left(\frac{1}{2}\right)^n$$
+    where $n$ is the number of half-lives passed ($n = \frac{t}{T_{1/2}}$).
+
+3.  **Solve for $n$:**
+    Notice that $0.00390625 = \frac{1}{256}$.
+    Since $2^8 = 256$, then:
+    $$\left(\frac{1}{2}\right)^8 = \frac{1}{256} = 0.00390625$$
+    So, $n = 8$ half-lives have passed.
+
+4.  **Calculate the age $t$:**
+    $$t = n \times T_{1/2}$$
+    $$t = 8 \times 710 \times 10^6 \text{ years}$$
+    $$t = 5680 \times 10^6 \text{ years}$$
+    $$t = 5.680 \text{ billion years}$$
+
+Comparing this result to the given options, **(C)** is the correct choice.
+
+###QUESTION_TYPE
+Multiple choice

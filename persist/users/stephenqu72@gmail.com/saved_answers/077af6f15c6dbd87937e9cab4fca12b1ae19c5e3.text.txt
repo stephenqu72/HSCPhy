@@ -1,0 +1,28 @@
+To solve this problem, we must account for the background radiation separately from the radioactive source.
+
+### Step-by-Step Explanation:
+
+**1. Determine the net activity of the source at $t=0$**
+The detector measures both the source and the background. We need to isolate the activity of the source ($A_{source}$) by subtracting the background activity ($A_{background}$):
+$$A_{source(0)} = A_{total} - A_{background}$$
+$$A_{source(0)} = 260\text{ Bq} - 20\text{ Bq} = 240\text{ Bq}$$
+
+**2. Calculate the number of half-lives that have elapsed**
+The total time passed is $t = 36\text{ hours}$ and the half-life ($t_{1/2}$) is $9\text{ hours}$. The number of half-lives ($n$) is:
+$$n = \frac{t}{t_{1/2}} = \frac{36}{9} = 4\text{ half-lives}$$
+
+**3. Calculate the source activity after 4 half-lives**
+The activity of a radioactive source after $n$ half-lives is given by $A = A_0 \times (\frac{1}{2})^n$:
+$$A_{source(36)} = 240 \times \left(\frac{1}{2}\right)^4$$
+$$A_{source(36)} = 240 \times \frac{1}{16}$$
+$$A_{source(36)} = 15\text{ Bq}$$
+
+**4. Add the background activity back to the source activity**
+The detector will still detect the background radiation, which remains constant over time.
+$$A_{detected} = A_{source(36)} + A_{background}$$
+$$A_{detected} = 15\text{ Bq} + 20\text{ Bq} = 35\text{ Bq}$$
+
+Comparing this result to the given options, the correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

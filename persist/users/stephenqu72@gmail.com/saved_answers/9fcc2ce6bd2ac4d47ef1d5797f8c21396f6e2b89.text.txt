@@ -1,0 +1,20 @@
+### Answer
+
+**a.** The correct colour to circle is **red**.
+
+**b.** The visible spectrum of hydrogen consists of discrete spectral lines because the electrons in a hydrogen atom exist only in specific, quantized energy levels. When an electron transitions from a higher energy level ($n_{high}$) to a lower energy level ($n_{low}$), it emits a photon. The energy of this photon ($E_{photon}$) is exactly equal to the difference in energy between the two levels:
+$$E_{photon} = E_{high} - E_{low} = hf = \frac{hc}{\lambda}$$
+Since the energy levels are quantized (fixed values), the energy differences are also fixed. Consequently, only specific frequencies and wavelengths ($\lambda$) of light can be emitted, resulting in discrete lines on the spectrum rather than a continuous range of colours.
+
+---
+
+### How to solve this
+
+1.  **For part (a):** Look at the provided scale in Figure 19. The arrow points to a position slightly above $650\text{ nm}$. Based on the visible light spectrum, wavelengths in the $620\text{ nm}$ to $750\text{ nm}$ range correspond to the colour **red**. Therefore, the spectral line at approximately $656\text{ nm}$ (the Balmer alpha line) is red.
+2.  **For part (b):** This is a standard HSC Physics question regarding the Bohr model of the atom. To get full marks, you must include these three key points:
+    *   **Quantization:** State that electrons occupy discrete, specific energy levels (orbits).
+    *   **Energy Transition:** Explain that light is emitted when an electron "jumps" or transitions from a higher energy level to a lower one.
+    *   **Conservation of Energy:** Explain that the energy of the emitted photon is determined by the difference between these two specific levels ($\Delta E = hf$). Because the energy levels are fixed, the emitted photons can only have specific, discrete energies (and therefore specific wavelengths), producing the observed line spectrum.
+
+###QUESTION_TYPE
+Data analysis questions

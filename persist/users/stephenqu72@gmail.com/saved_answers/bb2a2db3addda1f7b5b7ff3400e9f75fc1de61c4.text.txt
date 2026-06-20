@@ -1,0 +1,31 @@
+To calculate the wavelength of the photon emitted during this transition, we use the Rydberg formula:
+
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+
+### Step-by-Step Solution:
+
+**1. Identify the variables:**
+*   Rydberg constant ($R_H$) $\approx 1.097 \times 10^7 \text{ m}^{-1}$
+*   Final energy level ($n_f$) = 3
+*   Initial energy level ($n_i$) = 5
+
+**2. Substitute the values into the formula:**
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left( \frac{1}{3^2} - \frac{1}{5^2} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left( \frac{1}{9} - \frac{1}{25} \right)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \times (0.1111 - 0.04)$$
+$$\frac{1}{\lambda} = 1.097 \times 10^7 \times 0.07111 \approx 7.801 \times 10^5 \text{ m}^{-1}$$
+
+**3. Solve for $\lambda$:**
+$$\lambda = \frac{1}{7.801 \times 10^5} \approx 1.282 \times 10^{-6} \text{ m}$$
+Converting to nanometers ($1 \text{ m} = 10^9 \text{ nm}$):
+$$\lambda \approx 1282 \text{ nm}$$
+
+**4. Predict the region of the electromagnetic spectrum:**
+Transitions in hydrogen that terminate at the $n=3$ level belong to the **Paschen series**. Since 1282 nm is greater than the visible light range (approx. 400–700 nm), this radiation falls into the **Infrared** region of the electromagnetic spectrum.
+
+### Summary:
+*   The wavelength is approximately $1.28 \times 10^{-6} \text{ m}$ (or $1282 \text{ nm}$).
+*   It belongs to the **Infrared** region.
+
+###QUESTION_TYPE
+Calculation question

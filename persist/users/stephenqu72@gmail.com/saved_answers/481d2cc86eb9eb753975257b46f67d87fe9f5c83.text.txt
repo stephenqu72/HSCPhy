@@ -1,0 +1,42 @@
+Hello! As an HSC Physics teacher, I’m happy to guide you through these astrophysics concepts. Let’s break down the answers systematically.
+
+---
+
+### Solutions and Explanations
+
+#### (a) Show that the surface temperature of Aldebaran is about 4000 K.
+**Answer:**
+Use Wien’s Displacement Law:
+$$\lambda_{\text{max}} T = 2.898 \times 10^{-3} \text{ m K}$$
+Convert $740 \text{ nm}$ to meters: $740 \times 10^{-9} \text{ m}$.
+$$T = \frac{2.898 \times 10^{-3}}{740 \times 10^{-9}} \approx 3916 \text{ K}$$
+This value is approximately $4000 \text{ K}$.
+
+**How to solve:** Wien's Law states that the peak wavelength of emitted radiation is inversely proportional to temperature. Always remember to convert nanometers ($10^{-9}$) to meters before calculating.
+
+#### (b) Outline how the light from Aldebaran gives evidence of its composition.
+**Answer:**
+The light from Aldebaran creates an absorption spectrum. When the star's continuous radiation passes through its cooler outer atmospheric gases, specific atoms absorb photons at characteristic frequencies. By analyzing the unique "fingerprint" of these dark absorption lines and comparing them to known laboratory spectra of elements, we can determine the chemical composition of the star's atmosphere.
+
+**How to solve:** This is a classic spectroscopy question. Focus on the mechanism: continuous spectrum $\rightarrow$ absorption by cooler gas $\rightarrow$ dark lines $\rightarrow$ identification.
+
+#### (c) Identify the element that is fusing in the greatest abundance in Aldebaran’s core at this stage in its evolution.
+**Answer:**
+**Helium.** 
+As a red giant, Aldebaran has already exhausted its core hydrogen. It is now in the stage where it fuses helium into carbon and oxygen via the triple-alpha process.
+
+**How to solve:** Recall stellar evolution stages. Main sequence = Hydrogen fusion; Red Giant = Helium fusion (in the core) and Hydrogen shell burning.
+
+#### (d) Predict the likely future evolution of Aldebaran.
+**Answer:**
+Because Aldebaran has a mass ($1.7 M_{\odot}$) significantly less than $8$ solar masses, it will not undergo a supernova. Instead, it will:
+1. Continue to expand and shed its outer layers, creating a **planetary nebula**.
+2. Leave behind its hot, dense core, which will collapse to become a **white dwarf**.
+3. Eventually, the white dwarf will cool over billions of years to become a **black dwarf**.
+
+**How to solve:** For "future evolution" questions, identify the star's mass relative to the Chandrasekhar limit and the threshold for supernova ($8 M_{\odot}$). Stars under $8 M_{\odot}$ always follow the Red Giant $\rightarrow$ Planetary Nebula $\rightarrow$ White Dwarf pathway.
+
+---
+
+###QUESTION_TYPE
+Calculation question

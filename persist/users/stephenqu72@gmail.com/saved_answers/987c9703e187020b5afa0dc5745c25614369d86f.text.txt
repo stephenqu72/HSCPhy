@@ -1,0 +1,26 @@
+To find the energy released in the nuclear reaction, we need to calculate the mass defect and then convert that mass into energy using the mass-energy equivalence principle.
+
+### Step 1: Calculate the mass defect ($\Delta m$)
+The mass defect is the difference between the total mass of the reactants and the total mass of the products:
+$$\Delta m = (\text{mass of reactants}) - (\text{mass of products})$$
+
+*   **Mass of reactants:** 
+    $m(^{2}H) + m(^{3}H) = 2.014102 \, u + 3.016049 \, u = 5.030151 \, u$
+*   **Mass of products:** 
+    $m(^{4}He) + m(^{1}n) = 4.002602 \, u + 1.008665 \, u = 5.011267 \, u$
+
+$$\Delta m = 5.030151 \, u - 5.011267 \, u = 0.018884 \, u$$
+
+### Step 2: Convert mass defect to energy
+We know that $1 \, u$ is equivalent to approximately $931.5 \, MeV/c^2$. Therefore, the energy released ($E$) is:
+$$E = \Delta m \times 931.5 \, MeV/u$$
+$$E = 0.018884 \, u \times 931.5 \, MeV/u$$
+$$E \approx 17.59 \, MeV$$
+
+Rounding to one decimal place, we get **$17.6 \, MeV$**.
+
+### Conclusion
+Comparing our result to the given options, option **A** matches our calculation.
+
+###QUESTION_TYPE
+Multiple choice

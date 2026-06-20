@@ -1,0 +1,41 @@
+This question assesses your knowledge of the Bohr model, which is a core component of the Physics HSC syllabus. Below are the suggested responses and the strategy for solving them.
+
+---
+
+### Part (a)
+**Answer:**
+Bohr proposed that electrons orbit the nucleus in stable, discrete circular paths called stationary states (or energy levels). While in these states, electrons do not radiate energy. Spectral lines are formed when an electron undergoes a transition between two energy levels. When an electron drops from a higher energy level ($n_{high}$) to a lower energy level ($n_{low}$), it emits a photon with energy equal to the difference between the levels: $E_{photon} = E_{high} - E_{low}$. Since energy levels are quantized, only specific photon energies are emitted, corresponding to the specific frequencies observed as spectral lines in an emission spectrum.
+
+**Strategy:** To get 4 marks, you must link two concepts: the "stationary state" assumption and the "quantized energy transition" mechanism. Use the phrase "quantized energy levels" to signal your deep understanding.
+
+---
+
+### Part (b)
+**Answer:**
+1. **Limited applicability:** The model only accurately predicts the spectral lines of hydrogen and other one-electron species (e.g., $He^+$); it fails for multi-electron atoms.
+2. **Failure to explain relative intensities:** It does not account for the varying brightness (intensity) of different spectral lines.
+*(Alternative acceptable answers: It could not explain the Zeeman effect, or it could not explain why electrons are restricted to specific orbits—the wave nature of electrons was not yet established).*
+
+**Strategy:** Select two distinct points. Avoid general statements; be specific, such as mentioning the failure for multi-electron systems.
+
+---
+
+### Part (c)
+**Answer:**
+The energy of a photon emitted during a transition in a hydrogen atom is given by:
+$$\Delta E = E_6 - E_2 = -13.6 \left( \frac{1}{6^2} - \frac{1}{2^2} \right) \text{ eV}$$
+$$\Delta E = -13.6 \left( \frac{1}{36} - \frac{9}{36} \right) = -13.6 \left( -\frac{8}{36} \right) \approx 3.022 \text{ eV}$$
+
+Convert this energy to Joules:
+$$E = 3.022 \times 1.602 \times 10^{-19} \approx 4.841 \times 10^{-19} \text{ J}$$
+
+Use the formula $E = \frac{hc}{\lambda}$ to find the wavelength $\lambda$:
+$$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34})(3 \times 10^8)}{4.841 \times 10^{-19}}$$
+$$\lambda \approx 4.10 \times 10^{-7} \text{ m} \text{ (or } 410 \text{ nm)}$$
+
+**Strategy:** Use the Rydberg formula or the energy level formula. Always convert electron volts (eV) to Joules before using the speed of light in $m/s$. Check that your answer is in the visible spectrum (violet is roughly 400-420 nm).
+
+---
+
+###QUESTION_TYPE
+Calculation question

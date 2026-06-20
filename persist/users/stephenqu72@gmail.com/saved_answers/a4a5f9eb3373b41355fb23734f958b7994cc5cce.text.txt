@@ -1,0 +1,25 @@
+To determine which electron transition emits the shortest wavelength, we must understand the relationship between photon energy and wavelength.
+
+### Explanation
+
+1.  **Energy of a Photon:** When an electron moves from a higher energy level ($n_i$) to a lower energy level ($n_f$), it emits a photon with energy equal to the difference between these levels:
+    $$\Delta E = E_i - E_f = hf$$
+    where $h$ is Planck's constant and $f$ is the frequency.
+
+2.  **Energy and Wavelength Relationship:** The energy of a photon is inversely proportional to its wavelength ($\lambda$):
+    $$E = \frac{hc}{\lambda}$$
+    This means that the **largest change in energy ($\Delta E$)** corresponds to the **shortest wavelength ($\lambda$)**.
+
+3.  **Analyzing the Transitions:**
+    *   (A) $3^{rd} \rightarrow 2^{nd}$ shell transition.
+    *   (B) $2^{nd} \rightarrow 1^{st}$ shell transition.
+    *   (C) $3^{rd} \rightarrow 1^{st}$ shell transition.
+    *   (D) $2^{nd} \rightarrow 1^{st}$ shell transition (same as B).
+
+    The energy gap between shells in a Hydrogen atom is greatest for lower shells (the spacing decreases as $n$ increases). Specifically, the gap between the $1^{st}$ and $3^{rd}$ shells is the sum of the gaps between the $1^{st}/2^{nd}$ and $2^{nd}/3^{rd}$ levels. Therefore, the transition from the $3^{rd}$ shell to the $1^{st}$ shell (Option C) represents the largest drop in energy, which results in the emission of the highest frequency, and consequently, the **shortest wavelength**.
+
+### Answer
+The correct option is **(C)**.
+
+###QUESTION_TYPE
+Multiple choice

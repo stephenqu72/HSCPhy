@@ -1,0 +1,27 @@
+### Answer
+
+**(a)**
+*   **Red Giants:** This region is located in the top right section of the Hertzsprung-Russell (H-R) diagram (above the Main Sequence, towards the cooler temperatures).
+*   **White Dwarfs:** This region is located in the bottom left section of the H-R diagram (below the Main Sequence, towards the hotter temperatures).
+
+**(b)**
+The luminosity $L$ of a star is given by the Stefan-Boltzmann law, expressed as:
+$$L = 4\pi R^2 \sigma T^4$$
+where $R$ is the radius, $\sigma$ is the Stefan-Boltzmann constant, and $T$ is the surface temperature.
+
+From the H-R diagram, Red Giants are located at cool temperatures (low $T$) but possess high luminosity (high absolute magnitude represents low values on the vertical axis, but here, top is high luminosity). Conversely, White Dwarfs are located at high temperatures (high $T$) but possess very low luminosity (low down on the vertical axis). 
+
+Since $R^2 \propto \frac{L}{T^4}$, the low temperature of a Red Giant requires a massive increase in surface area ($R^2$) to maintain its high luminosity. In contrast, the very high temperature of a White Dwarf means it can emit a significant amount of energy from a very small surface area. Thus, for a Red Giant to be as luminous as it is despite being cool, its radius $R$ must be significantly larger than that of a White Dwarf.
+
+---
+
+### How to solve it
+1.  **For part (a):** Memorize the standard H-R diagram structure. The Main Sequence is the diagonal band. The "Red Giant branch" sits above and to the right, representing stars that are cool (red) but very bright (giant). The "White Dwarf" region is in the bottom left, representing stars that are very hot but dim due to their small size.
+2.  **For part (b):** Always link luminosity, temperature, and radius using the Stefan-Boltzmann relationship. 
+    *   Step 1: State the relationship $L \propto R^2 T^4$.
+    *   Step 2: Compare the properties shown on the axes. Red Giants have low $T$ and high $L$.
+    *   Step 3: Rearrange the formula to show that $R$ must be large when $T$ is small and $L$ is large.
+    *   Step 4: Contrast this with the White Dwarf, where high $T$ and low $L$ necessitate a very small $R$.
+
+###QUESTION_TYPE
+Data analysis questions

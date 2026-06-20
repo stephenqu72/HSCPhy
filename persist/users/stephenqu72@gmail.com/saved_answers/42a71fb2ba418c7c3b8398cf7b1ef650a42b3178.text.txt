@@ -1,0 +1,31 @@
+To answer this question effectively, you must link the physical mechanics of the experiment to the theoretical conclusion that charge is quantized.
+
+### Answer
+Millikan’s oil drop experiment provided the first accurate measurement of the elementary charge ($e$). By spraying oil droplets between two charged plates, he observed their motion using a microscope.
+
+**1. The Mechanics of the Experiment:**
+As droplets fell through the hole, they acquired a negative charge due to friction or radiation. By adjusting the voltage ($V$) across the plates, Millikan created a uniform electric field ($E = V/d$) that exerted an upward force ($F_E = qE$) on the charged droplets, opposing the downward force of gravity ($F_g = mg$).
+
+When a droplet was held stationary (suspended), the forces were balanced:
+$$F_g = F_E$$
+$$mg = qE$$
+Since $E = V/d$, the charge on the drop could be calculated as:
+$$q = \frac{mgd}{V}$$
+
+**2. Interpretation and Contribution to Atomic Structure:**
+By varying the voltage and observing many droplets, Millikan found that the calculated charges ($q$) were always integer multiples of a specific base value:
+$$q = n \cdot e$$
+(where $n = 1, 2, 3, \dots$ and $e \approx 1.6 \times 10^{-19} \text{ C}$).
+
+This result proved that electric charge is **quantized** rather than continuous. This was a pivotal moment in understanding the structure of matter, as it confirmed that the electron is a fundamental subatomic particle with a discrete, indivisible unit of charge, directly supporting the particle model of the atom.
+
+---
+
+### How to solve it
+1.  **Structure:** An 8-mark HSC question requires a comprehensive, structured response. Use subheadings or clear paragraphs to separate "Experimental Method" from "Theoretical Significance."
+2.  **Physics principles:** Explicitly state the equilibrium condition. The "suspended drop" method is the standard way to explain this, though you could also mention calculating the terminal velocity of falling droplets if you want to be extra thorough.
+3.  **Equations:** Include the force balance equation ($mg = qE$) and the quantization formula ($q = ne$). HSC markers look for these specific mathematical links.
+4.  **Connecting to "Structure of Matter":** Do not stop at just describing the experiment. You must explicitly explain *why* it matters—it proves charge is not continuous, identifying the electron as a distinct building block of matter.
+
+###QUESTION_TYPE
+Essay

@@ -1,0 +1,33 @@
+To calculate the energy released in a nuclear reaction, we follow the principle of mass-energy equivalence, where the "missing" mass ($\Delta m$) is converted into energy ($E$) using Einstein’s equation, $E = \Delta mc^2$. In HSC Physics, when using atomic mass units ($u$), we use the conversion factor $1 \, u = 931.5 \, \text{MeV}$.
+
+### Step-by-Step Solution:
+
+**1. Calculate the total mass of the reactants:**
+$$\text{Mass}_{\text{reactants}} = \text{Mass}(^{12}\text{C}) + \text{Mass}(^{1}\text{H})$$
+$$\text{Mass}_{\text{reactants}} = 12.064 + 1.008 = 13.072 \, u$$
+
+**2. Calculate the total mass of the products:**
+$$\text{Mass}_{\text{products}} = \text{Mass}(^{9}\text{B}) + \text{Mass}(^{4}\text{He})$$
+$$\text{Mass}_{\text{products}} = 9.013 + 4.003 = 13.016 \, u$$
+
+**3. Calculate the mass defect ($\Delta m$):**
+The mass defect is the difference between the initial mass and the final mass:
+$$\Delta m = \text{Mass}_{\text{reactants}} - \text{Mass}_{\text{products}}$$
+$$\Delta m = 13.072 - 13.016 = 0.056 \, u$$
+
+**4. Convert the mass defect into energy:**
+Using the conversion $1 \, u = 931.5 \, \text{MeV}$:
+$$E = \Delta m \times 931.5 \, \text{MeV}/u$$
+$$E = 0.056 \times 931.5 = 52.164 \, \text{MeV}$$
+
+**Answer:** The energy released in the reaction is **$52.164 \, \text{MeV}$**.
+
+***
+
+### How to solve this type of question:
+*   **Identify the Reactants and Products:** Always sum the masses on the left side of the equation and compare them to the sum of the masses on the right side.
+*   **Find the Mass Defect:** Subtract the final mass from the initial mass. If the result is positive, energy is released (exothermic); if negative, energy is absorbed (endothermic).
+*   **Use the Conversion Factor:** In physics exams, you are expected to use the equivalence $1 \, u \approx 931.5 \, \text{MeV}$. Do not attempt to use $c^2$ in SI units unless specifically asked, as it is much more complex and prone to unit errors.
+
+###QUESTION_TYPE
+Calculation question

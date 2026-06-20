@@ -1,0 +1,37 @@
+To solve this problem, we use the radioactive decay formula:
+$$N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$$
+
+Where:
+- $N(t) = 1\text{ ng}$ (the final mass)
+- $N_0 = 15\text{ ng}$ (the initial mass)
+- $T_{1/2} = 22\text{ s}$ (the half-life)
+- $t$ is the time elapsed.
+
+### Step-by-Step Solution:
+
+**1. Set up the equation:**
+We want to find $t$ such that $1 = 15 \left( \frac{1}{2} \right)^{\frac{t}{22}}$.
+
+**2. Isolate the exponential term:**
+Divide both sides by 15:
+$$\frac{1}{15} = \left( \frac{1}{2} \right)^{\frac{t}{22}}$$
+
+**3. Take the logarithm of both sides:**
+Using the property $\ln(a^b) = b \ln(a)$:
+$$\ln\left(\frac{1}{15}\right) = \frac{t}{22} \ln\left(\frac{1}{2}\right)$$
+
+**4. Solve for $t$:**
+$$t = 22 \times \frac{\ln(1/15)}{\ln(1/2)}$$
+
+Since $\ln(1/15) \approx -2.708$ and $\ln(0.5) \approx -0.693$:
+$$t = 22 \times \frac{-2.708}{-0.693}$$
+$$t \approx 22 \times 3.907$$
+$$t \approx 85.95\text{ s}$$
+
+**5. Conclusion:**
+The time required for the sample to fall below 1 ng is approximately $86\text{ s}$. Looking at the provided options, (D) $90\text{ s}$ is the only value greater than our calculated time, meaning the mass will have certainly fallen below 1 ng by that point.
+
+The correct answer is **(D)**.
+
+###QUESTION_TYPE
+Multiple choice

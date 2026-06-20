@@ -1,0 +1,31 @@
+To find the kinetic energy of the departing alpha particles, we must follow these steps:
+
+### 1. Calculate the Mass Defect ($\Delta m$)
+The mass defect is the difference between the mass of the reactant and the sum of the masses of the products:
+$$\Delta m = m(\text{reactants}) - m(\text{products})$$
+$$\Delta m = m(^{8}\text{Be}) - 2 \times m(^{4}\text{He})$$
+$$\Delta m = 8.005305\text{ u} - 2 \times (4.002603\text{ u})$$
+$$\Delta m = 8.005305\text{ u} - 8.005206\text{ u} = 0.000099\text{ u}$$
+
+### 2. Calculate the Total Energy Released ($Q$)
+Using the mass-energy equivalence constant where $1\text{ u} \approx 931.5\text{ MeV}/c^2$:
+$$Q = \Delta m \times 931.5\text{ MeV/u}$$
+$$Q = 0.000099 \times 931.5 \approx 0.0922185\text{ MeV}$$
+
+Convert this to keV by multiplying by $1000$:
+$$Q \approx 92.22\text{ keV}$$
+
+### 3. Determine the Kinetic Energy of each Alpha Particle
+Since the Beryllium-8 atom is at rest, the total energy released ($Q$) is shared equally between the two identical alpha particles to conserve momentum.
+$$KE_{\text{each}} = \frac{Q}{2}$$
+$$KE_{\text{each}} = \frac{92.22\text{ keV}}{2} = 46.11\text{ keV}$$
+
+Comparing this result to the given options, the closest value is **46**.
+
+**Correct Answer: (D)**
+
+### Explanatory Note for Students:
+In nuclear decay problems, always ensure you calculate the mass defect accurately. Because the two product particles are identical ($^{4}\text{He}$), the energy is split equally. Common traps include forgetting to multiply the alpha mass by 2, or mixing up units (MeV vs keV).
+
+###QUESTION_TYPE
+Multiple choice

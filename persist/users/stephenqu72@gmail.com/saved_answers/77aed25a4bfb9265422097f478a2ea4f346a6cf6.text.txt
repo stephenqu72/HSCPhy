@@ -1,0 +1,45 @@
+To solve these problems, we use the principles of mass-energy equivalence, radioactive decay, and thermal physics.
+
+### (a) Rest mass of the $\beta$-particle
+**Solution:**
+The rest mass of an electron ($m_e$) is $9.109 \times 10^{-31}\text{ kg}$. Using Einstein’s equation $E = mc^2$:
+$$E = (9.109 \times 10^{-31}\text{ kg}) \times (2.998 \times 10^8\text{ m/s})^2 = 8.187 \times 10^{-14}\text{ J}$$
+Convert Joules to eV by dividing by $1.602 \times 10^{-19}\text{ J/eV}$:
+$$E = \frac{8.187 \times 10^{-14}}{1.602 \times 10^{-19}} \approx 511,000\text{ eV} = 0.511\text{ MeV}$$
+
+---
+
+### (b) Mass of Nickel-60
+**Solution:**
+The energy released ($Q$) in the decay is the sum of the kinetic energy of the $\beta$-particle ($0.31\text{ MeV}$) and the energies of the two gamma photons ($1.17\text{ MeV} + 1.33\text{ MeV}$):
+$$Q = 0.31 + 1.17 + 1.33 = 2.81\text{ MeV}$$
+In mass units (where $1\text{ u} \approx 931.5\text{ MeV}$):
+$$\Delta m = \frac{2.81\text{ MeV}}{931.5\text{ MeV/u}} \approx 0.003016\text{ u}$$
+Since $M_{Co} = M_{Ni} + \Delta m$, then $M_{Ni} = 59.919015 - 0.003016 = 59.915999\text{ u}$.
+
+---
+
+### (c) Half-life calculation
+**Solution:**
+Use the decay formula $A = A_0(0.5)^{t/t_{1/2}}$:
+$$7.0 = 18.5(0.5)^{t/5.27}$$
+$$\frac{7.0}{18.5} = 0.5^{t/5.27} \implies \ln(0.3784) = \frac{t}{5.27} \ln(0.5)$$
+$$t = \frac{\ln(0.3784)}{\ln(0.5)} \times 5.27 \approx 1.403 \times 5.27 \approx 7.40\text{ years}$$
+
+---
+
+### (d)(i) Temperature change
+**Solution:**
+1. Find total decays in 10 minutes ($600\text{ s}$): $N = A \times t = (18.5 \times 10^9\text{ Bq}) \times 600\text{ s} = 1.11 \times 10^{13}\text{ decays}$.
+2. Total energy $E = N \times Q = (1.11 \times 10^{13}) \times (2.81 \times 10^6\text{ eV}) \times (1.602 \times 10^{-19}\text{ J/eV}) \approx 4.997\text{ J}$.
+3. Using $Q = mc\Delta T$:
+$$\Delta T = \frac{Q}{mc} = \frac{4.997}{60 \times 3.5 \times 10^3} \approx 2.38 \times 10^{-5}\text{ K}$$
+
+---
+
+### (d)(ii) Assumptions
+1. **Absorption:** Assume all energy emitted by the cobalt-60 is fully absorbed by the patient's body (no radiation escapes the tissue).
+2. **Uniformity:** Assume the energy is distributed uniformly throughout the patient's $60\text{ kg}$ mass, rather than concentrated in the localized tumor area.
+
+###QUESTION_TYPE
+Calculation question

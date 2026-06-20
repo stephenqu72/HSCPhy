@@ -1,0 +1,35 @@
+This is a classic HSC Physics question regarding the Bohr model of the atom and the Balmer series of hydrogen. Here is the step-by-step solution.
+
+### (a) Show that $H_\alpha$ is the transition from $n=3$ to $n=2$.
+
+**Solution:**
+We use the Rydberg formula to calculate the wavelength of the transition from $n_i=3$ to $n_f=2$:
+$$\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right)$$
+Where $R_H \approx 1.097 \times 10^7 \, \text{m}^{-1}$.
+
+1. Substitute the values:
+   $$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left( \frac{1}{2^2} - \frac{1}{3^2} \right)$$
+   $$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left( \frac{1}{4} - \frac{1}{9} \right)$$
+   $$\frac{1}{\lambda} = 1.097 \times 10^7 \times \left( \frac{5}{36} \right) \approx 1,523,611 \, \text{m}^{-1}$$
+
+2. Solve for $\lambda$:
+   $$\lambda = \frac{1}{1,523,611} \approx 6.56 \times 10^{-7} \, \text{m}$$
+   $$\lambda = 656 \, \text{nm}$$
+
+**Conclusion:** Since the calculated wavelength $656 \, \text{nm}$ matches the value given in the diagram for $H_\alpha$, the transition must be from $n=3$ to $n=2$.
+
+---
+
+### (b) Explain how emission spectrums can be used to support and refute Bohr’s model of the atoms.
+
+**Support for Bohr's model:**
+*   **Discrete Energy Levels:** The existence of distinct spectral lines (rather than a continuous spectrum) confirms Bohr's postulate that electrons exist in quantized energy levels. 
+*   **Predictive Power:** Bohr’s model successfully predicted the wavelengths of the Balmer series for hydrogen by calculating the energy difference between levels, where $\Delta E = E_i - E_f = hf = \frac{hc}{\lambda}$. The match between calculated and observed values provided strong evidence for his model.
+
+**Refutation/Limitations of Bohr's model:**
+*   **Multi-electron Atoms:** Bohr's model could only accurately predict the emission spectra for single-electron systems (like $H$ or $He^+$). It failed to predict the spectra for atoms with more than one electron due to electron-electron interactions.
+*   **Relative Intensity:** The model did not provide a mechanism to explain why some spectral lines are brighter (more intense) than others.
+*   **Fine Structure:** Under high-resolution spectroscopy, some spectral lines were found to be composed of several closely spaced lines. Bohr’s model could not explain this "fine structure," as it assumed only principle quantum numbers ($n$). Later models, such as the Quantum Mechanical model, were required to resolve these discrepancies.
+
+###QUESTION_TYPE
+Calculation question

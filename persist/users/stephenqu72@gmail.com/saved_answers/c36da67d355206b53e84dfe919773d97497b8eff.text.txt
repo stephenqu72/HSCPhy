@@ -1,0 +1,24 @@
+### Answer
+The correct answer is **A**.
+
+### Explanation
+To determine the correct equation for $\beta^-$ (beta-minus) decay, we must understand the underlying nuclear process and verify the conservation of physical quantities:
+
+1.  **The Process:** In $\beta^-$ decay, a neutron within an unstable nucleus transforms into a proton, an electron (the beta particle), and an electron antineutrino.
+    *   The neutron turns into a proton: $n \rightarrow p$
+    *   To conserve electric charge and lepton number, an electron ($\beta^-$) and an electron antineutrino ($\bar{\nu}$) are emitted.
+
+2.  **Conservation Laws:** Nuclear equations must conserve mass number ($A$) and atomic number/charge ($Z$).
+    *   **Mass Number ($A$):** The top numbers must balance. For option A: $1 = 1 + 0 + 0$. This balances.
+    *   **Atomic Number ($Z$):** The bottom numbers must balance. For option A: $0 = 1 + (-1) + 0$. This balances.
+
+3.  **Evaluating the Options:**
+    *   **A:** Correct. It represents a neutron ($^1_0n$) decaying into a proton ($^1_1p$), a beta-minus particle ($^0_{-1}\beta$), and an electron antineutrino ($\bar{\nu}$).
+    *   **B:** Incorrect. It includes a neutrino ($\nu$) instead of an antineutrino ($\bar{\nu}$), which violates lepton number conservation.
+    *   **C and D:** Incorrect. These represent $\beta^+$ (positron) decay, where a proton turns into a neutron, releasing a positron ($^0_{+1}\beta$) and a neutrino.
+
+Therefore, the correct representation is:
+$$^1_0n \rightarrow ^1_1p + ^0_{-1}\beta + \bar{\nu}$$
+
+###QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,22 @@
+To solve this question, we must apply our knowledge of stellar evolution and nuclear astrophysics within the context of the Hertzsprung-Russell (H-R) diagram.
+
+### Answer
+
+**(a)** Star $X$ is located on the upper-left (high luminosity, blue/hot spectral class) portion of the Main Sequence. As it exhausts the hydrogen in its core, it will move off the Main Sequence and evolve into a **Red Giant** (or Supergiant).
+
+**(b)** The main contrast lies in the fusion mechanism used to convert hydrogen into helium:
+*   **Star $X$ (Massive Star):** Being a high-mass, high-temperature star, its primary fusion process is the **CNO cycle** (Carbon-Nitrogen-Oxygen cycle). In this process, carbon acts as a catalyst.
+    *   Net reaction: $4(^1_1H) \rightarrow ^4_2He + 2(^{0}_{+1}e) + 2\nu_e + \text{energy}$
+*   **Star $Z$ (Low-Mass Star):** Being a low-mass, lower-temperature star, its primary fusion process is the **Proton-Proton (p-p) chain**. This process is more efficient at lower core temperatures compared to the CNO cycle.
+    *   Net reaction: $4(^1_1H) \rightarrow ^4_2He + 2(^{0}_{+1}e) + 2\nu_e + \text{energy}$
+
+### Explanation
+
+1.  **Part (a) Strategy:** Identify Star $X$’s position on the H-R diagram. It is clearly on the hotter, more luminous end of the Main Sequence. In stellar evolution, once a star consumes its core hydrogen, it leaves the Main Sequence and expands into a giant phase.
+2.  **Part (b) Strategy:** To earn full marks, you must distinguish between the temperature dependence of fusion cycles. 
+    *   High-mass stars (like $X$, spectral class B) have core temperatures exceeding $\approx 17$ million K, where the **CNO cycle** becomes the dominant energy source due to its high temperature sensitivity. 
+    *   Lower-mass stars (like $Z$, spectral class K) have core temperatures where the **p-p chain** is the primary mechanism.
+    *   Crucially, note that the *net* result for both is the fusion of hydrogen into helium, but the *pathways* are different. Including the nuclear equations demonstrates technical proficiency required for HSC Physics.
+
+### QUESTION_TYPE
+Short answer

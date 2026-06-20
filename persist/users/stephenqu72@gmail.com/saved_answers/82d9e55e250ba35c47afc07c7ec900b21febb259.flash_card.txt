@@ -1,0 +1,8 @@
+### Front
+How do you calculate the required velocity of colliding protons to produce particles of a specific mass?
+
+### Back
+- Key idea: Total energy of incident particles ($E_{total} = 2\gamma mc^2$) must equal the rest mass-energy of the products.
+- Formula / law / constant / figure: $E = \gamma mc^2$ and $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- When to use it: Any particle physics collision problem where the mass of products exceeds the mass of projectiles.
+- Common trap: Using classical kinetic energy ($1/2mv^2$) instead of relativistic total energy ($E = \gamma mc^2$); forgetting to include the rest mass of the initial particles in the energy balance.

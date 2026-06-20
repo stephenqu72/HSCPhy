@@ -1,0 +1,32 @@
+### Answer
+
+**(a)**
+The energy of an electron in a hydrogen atom is given by $E_n = -\frac{13.6}{n^2} \text{ eV}$.
+For $n=3$: $E_3 = -\frac{13.6}{3^2} = -1.511 \text{ eV}$
+For $n=2$: $E_2 = -\frac{13.6}{2^2} = -3.4 \text{ eV}$
+The energy emitted is $\Delta E = E_3 - E_2 = -1.511 - (-3.4) = 1.889 \text{ eV}$.
+To convert to Joules: $1.889 \times 1.602 \times 10^{-19} = 3.026 \times 10^{-19} \text{ J}$.
+Using $E = \frac{hc}{\lambda}$:
+$$\lambda = \frac{hc}{E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{3.026 \times 10^{-19}} \approx 6.57 \times 10^{-7} \text{ m} \text{ (or } 657 \text{ nm)}$$
+
+**(b)**
+In the Bohr model, electrons orbit the nucleus in stable, discrete energy levels (stationary states) where they do not radiate energy. When an electron transitions from a higher energy level to a lower one, it must lose energy. According to the law of conservation of energy, this energy cannot be destroyed; it is emitted as a photon of light with energy exactly equal to the difference between the two levels ($E_{photon} = E_{initial} - E_{final}$). Conversely, to move to a higher level, the electron must absorb a photon of the exact required energy.
+
+---
+
+### How to solve it
+
+1.  **For part (a):**
+    *   Identify the energy level formula for Hydrogen: $E_n = -\frac{13.6}{n^2} \text{ eV}$.
+    *   Calculate the energy of level 3 and level 2.
+    *   Find the difference between these levels to determine the energy of the emitted photon.
+    *   Convert the energy from electron-volts (eV) to Joules (J) by multiplying by the elementary charge ($1.602 \times 10^{-19}$).
+    *   Use the Planck-Einstein relation $\lambda = \frac{hc}{E}$ to find the wavelength. Ensure you use the correct constants for Planck’s constant ($h$) and the speed of light ($c$).
+
+2.  **For part (b):**
+    *   Focus on the key feature of the Bohr model: quantization.
+    *   Explain that "stationary states" mean no energy is lost while orbiting.
+    *   Explicitly link the energy of the emitted photon to the energy "lost" by the electron during the transition to satisfy the law of conservation of energy.
+
+###QUESTION_TYPE
+Calculation question

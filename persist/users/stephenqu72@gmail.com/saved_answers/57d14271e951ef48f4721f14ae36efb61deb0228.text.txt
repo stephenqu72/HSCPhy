@@ -1,0 +1,37 @@
+To solve these questions, we apply the Bohr model of the atom, which states that the energy levels of a hydrogen-like ion are given by the formula:
+
+$$E_n = -13.6 \times \frac{Z^2}{n^2} \text{ eV}$$
+
+where $Z$ is the atomic number and $n$ is the principal quantum number.
+
+### Question 8 Solution
+For a $He^+$ ion, the atomic number $Z = 2$. Therefore, the energy levels are:
+$$E_n = -13.6 \times \frac{2^2}{n^2} = -13.6 \times \frac{4}{n^2} = -\frac{54.4}{n^2} \text{ eV}$$
+
+*   The **lowest energy** (ground state, $n=1$) is $E_1 = -54.4 \text{ eV}$.
+*   The **second lowest energy** ($n=2$) is $E_2 = -\frac{54.4}{2^2} = -\frac{54.4}{4} = -13.6 \text{ eV}$.
+
+The question asks for the **magnitude** of this energy, which is $|-13.6 \text{ eV}| = 13.6 \text{ eV}$.
+
+**Correct Option: B**
+
+---
+
+### Question 9 Solution
+1. **Calculate the energy of the emitted photon from $He^+$:**
+   For $He^+$, $Z=2$. The transition is from $n=6$ to $n=2$.
+   $$E_{photon} = |E_6 - E_2| = 54.4 \times \left( \frac{1}{2^2} - \frac{1}{6^2} \right)$$
+   $$E_{photon} = 54.4 \times \left( \frac{1}{4} - \frac{1}{36} \right) = 54.4 \times \left( \frac{9-1}{36} \right) = 54.4 \times \frac{8}{36} \approx 12.089 \text{ eV}$$
+
+2. **Check if Hydrogen atoms can absorb this photon:**
+   Hydrogen energy levels are $E_n = -13.6/n^2$. Transitions starting from $n=1$ (ground state) to $n=x$ require energy:
+   $$\Delta E = 13.6 \times \left( 1 - \frac{1}{x^2} \right)$$
+   - For $n=1 \to 2$: $\Delta E = 13.6(1 - 0.25) = 10.2 \text{ eV}$
+   - For $n=1 \to 3$: $\Delta E = 13.6(1 - 0.111) \approx 12.09 \text{ eV}$
+
+Since the photon emitted by the $He^+$ ion has approximately $12.09 \text{ eV}$, it perfectly matches the energy required for a Hydrogen atom to transition from the $n=1$ ground state to the $n=3$ excited state.
+
+**Correct Option: C**
+
+###QUESTION_TYPE
+Multiple choice

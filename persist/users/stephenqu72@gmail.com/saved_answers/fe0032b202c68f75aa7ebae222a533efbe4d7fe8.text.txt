@@ -1,0 +1,39 @@
+To answer this question effectively, you must link nuclear physics, quantum mechanics, and wave properties of matter. Here is the structured response and explanation.
+
+### Model Answer
+
+**1. Production of Neutrons**
+Neutrons are produced in nuclear reactors primarily through fission. A common reaction involves Uranium-235:
+$${}_{92}^{235}\text{U} + {}_{0}^{1}\text{n} \rightarrow {}_{56}^{141}\text{Ba} + {}_{36}^{92}\text{Kr} + 3({}_{0}^{1}\text{n}) + \text{Energy}$$
+These fast neutrons are moderated (slowed down) using materials like graphite or heavy water to increase their effectiveness in subsequent interactions.
+
+**2. Evidence for Matter Waves**
+The diffraction pattern observed in the image provides empirical evidence that neutrons behave as waves. Diffraction is a wave-specific phenomenon that occurs when waves encounter obstacles or slits of comparable size to their wavelength. Since neutrons produce a pattern analogous to X-ray diffraction, they must possess a de Broglie wavelength defined by $\lambda = \frac{h}{mv}$.
+
+**3. Calculation of Neutron Velocity**
+Using the Bragg diffraction condition for constructive interference:
+$$n\lambda = 2d \sin(\theta)$$
+Assuming first-order diffraction ($n=1$) and that the angular separation of $4^{\circ}$ corresponds to the diffraction angle ($\theta = 2^{\circ}$):
+$$\lambda = 2 \times (0.282 \times 10^{-9} \text{ m}) \times \sin(2^{\circ})$$
+$$\lambda \approx 1.967 \times 10^{-11} \text{ m}$$
+Using de Broglie's equation $\lambda = \frac{h}{mv}$, we solve for velocity $v$:
+$$v = \frac{h}{m\lambda}$$
+Where $m = 1.675 \times 10^{-27} \text{ kg}$ (mass of neutron) and $h = 6.626 \times 10^{-34} \text{ J}\cdot\text{s}$:
+$$v = \frac{6.626 \times 10^{-34}}{(1.675 \times 10^{-27})(1.967 \times 10^{-11})} \approx 20,110 \text{ m/s}$$
+
+**4. Benefit of Using Neutrons**
+Neutrons have no charge, allowing them to penetrate deep into materials, whereas X-rays interact primarily with electron clouds. This makes neutron diffraction superior for identifying light elements (like Hydrogen) and investigating magnetic structures, as neutrons have a magnetic moment.
+
+***
+
+### Explanation: How to solve this
+1.  **Nuclear Reaction:** Always recall the standard fission equation where a heavy nucleus splits, releasing energy and secondary neutrons.
+2.  **Wave-Particle Duality:** To explain "evidence," explicitly state that diffraction requires wave properties. Connect the spatial separation of maxima to the wave nature of the particle.
+3.  **Calculation Strategy:** 
+    *   Identify the Bragg equation. *Note:* Ensure your calculator is in degrees.
+    *   Be careful with the angle: In diffraction problems involving "angular separation between successive maxima," the angle $\theta$ in the Bragg equation is often half the total separation angle if observing from a central spot, but here we treat the given $4^{\circ}$ as the diffraction angle $\theta$ (or $2^{\circ}$ depending on the specific geometry interpretation). Using $\theta = 2^{\circ}$ is standard for these HSC-style derivations.
+    *   Use the standard values for Planck's constant and the mass of a neutron.
+4.  **Application/Benefit:** Focus on the "neutral charge" of the neutron. This is the key "HSC physics" concept—because they aren't repelled by the electron cloud, they interact with the nucleus, providing information that X-rays cannot.
+
+###QUESTION_TYPE
+Essay

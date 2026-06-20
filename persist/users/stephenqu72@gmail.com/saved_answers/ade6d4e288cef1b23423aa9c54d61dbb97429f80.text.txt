@@ -1,0 +1,35 @@
+To solve this problem, we use the principles of quantum mechanics relating to the wave nature of matter and light.
+
+### Part a: Showing the de Broglie wavelength of the electrons
+The de Broglie wavelength $\lambda$ is given by the formula:
+$$\lambda = \frac{h}{p} = \frac{h}{mv}$$
+Where:
+- $h = 6.626 \times 10^{-34}\text{ J s}$ (Planck's constant)
+- $m = 9.11 \times 10^{-31}\text{ kg}$ (mass of an electron)
+- $v = 5.0 \times 10^5\text{ m s}^{-1}$ (velocity of the electron)
+
+**Calculation:**
+$$\lambda = \frac{6.626 \times 10^{-34}}{(9.11 \times 10^{-31})(5.0 \times 10^5)}$$
+$$\lambda = \frac{6.626 \times 10^{-34}}{4.555 \times 10^{-25}} \approx 1.455 \times 10^{-9}\text{ m}$$
+Rounding to three significant figures, we get $\lambda \approx 1.46 \times 10^{-9}\text{ m}$.
+
+---
+
+### Part b: Calculating the diameter of the aperture
+For circular diffraction, the angular position of the first minimum (which determines the spacing of the diffraction pattern) is proportional to the ratio $\frac{\lambda}{D}$, where $D$ is the diameter of the aperture. For the patterns to have the same spacing, the ratio must be equal:
+$$\frac{\lambda_{\text{X-ray}}}{D_{\text{X-ray}}} = \frac{\lambda_{\text{electron}}}{D_{\text{electron}}}$$
+
+**Step 1: Find the wavelength of the X-ray photons ($\lambda_{\text{X-ray}}$).**
+Using $E = \frac{hc}{\lambda}$, where $E = 100\text{ eV} = 100 \times 1.602 \times 10^{-19}\text{ J} = 1.602 \times 10^{-17}\text{ J}$:
+$$\lambda_{\text{X-ray}} = \frac{hc}{E} = \frac{(6.626 \times 10^{-34})(3.0 \times 10^8)}{1.602 \times 10^{-17}} \approx 1.24 \times 10^{-8}\text{ m}$$
+
+**Step 2: Calculate $D_{\text{electron}}$.**
+Given $D_{\text{X-ray}} = 1.24 \times 10^{-6}\text{ m}$ and $\lambda_{\text{electron}} = 1.46 \times 10^{-9}\text{ m}$:
+$$D_{\text{electron}} = D_{\text{X-ray}} \times \frac{\lambda_{\text{electron}}}{\lambda_{\text{X-ray}}}$$
+$$D_{\text{electron}} = (1.24 \times 10^{-6}) \times \frac{1.46 \times 10^{-9}}{1.24 \times 10^{-8}}$$
+$$D_{\text{electron}} = 1.24 \times 10^{-6} \times 0.1177 \approx 1.46 \times 10^{-7}\text{ m}$$
+
+The required diameter is $1.46 \times 10^{-7}\text{ m}$ (or $0.146\text{ }\mu\text{m}$).
+
+###QUESTION_TYPE
+Calculation question

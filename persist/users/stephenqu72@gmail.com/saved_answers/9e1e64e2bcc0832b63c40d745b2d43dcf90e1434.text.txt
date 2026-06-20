@@ -1,0 +1,36 @@
+To solve this problem, we will use the relationship between the kinetic energy of an electron and its de Broglie wavelength.
+
+### Part a: Calculation
+**1. Identify constants and given values:**
+* Energy $E = 10.0 \text{ keV} = 10.0 \times 10^3 \text{ eV}$
+* Convert to Joules: $E = 10.0 \times 10^3 \times 1.602 \times 10^{-19} \text{ J} = 1.602 \times 10^{-15} \text{ J}$
+* Mass of an electron $m = 9.11 \times 10^{-31} \text{ kg}$
+* Planck’s constant $h = 6.626 \times 10^{-34} \text{ J s}$
+
+**2. Relate energy to momentum:**
+Since $E = \frac{p^2}{2m}$, the momentum $p$ is given by $p = \sqrt{2mE}$.
+The de Broglie wavelength formula is $\lambda = \frac{h}{p} = \frac{h}{\sqrt{2mE}}$.
+
+**3. Substitute the values:**
+$$p = \sqrt{2 \times (9.11 \times 10^{-31} \text{ kg}) \times (1.602 \times 10^{-15} \text{ J})}$$
+$$p \approx 5.40 \times 10^{-23} \text{ kg m/s}$$
+
+$$\lambda = \frac{6.626 \times 10^{-34}}{5.40 \times 10^{-23}} \approx 1.227 \times 10^{-11} \text{ m}$$
+
+**4. Convert to nanometres (nm):**
+$$1 \text{ nm} = 10^{-9} \text{ m}$$
+$$\lambda = 1.227 \times 10^{-11} \text{ m} \times \frac{1 \text{ nm}}{10^{-9} \text{ m}} = 0.0123 \text{ nm}$$
+
+**Answer:** $0.0123 \text{ nm}$
+
+---
+
+### Part b: Explanation
+Increasing the energy of the electrons increases their momentum ($p = \sqrt{2mE}$). According to the de Broglie wavelength equation, $\lambda = \frac{h}{p}$, the wavelength is **inversely proportional** to the momentum. 
+
+Since the denominator (momentum) increases, the resulting de Broglie wavelength must **decrease**. 
+
+**Justification:** Because $p$ increases as kinetic energy increases, and $p$ is in the denominator of the wavelength equation, a higher energy state leads to a smaller wavelength.
+
+###QUESTION_TYPE
+Calculation question

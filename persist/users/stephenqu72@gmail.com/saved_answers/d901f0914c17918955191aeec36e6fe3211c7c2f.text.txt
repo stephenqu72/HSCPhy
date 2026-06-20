@@ -1,0 +1,32 @@
+To solve this problem, we need to determine the de Broglie wavelength ($\lambda$) of an electron given its kinetic energy ($E_k$).
+
+### 1. Identify the relevant formulas
+The de Broglie wavelength is given by:
+$$\lambda = \frac{h}{p}$$
+where $h$ is Planck's constant ($6.626 \times 10^{-34} \text{ J s}$) and $p$ is momentum.
+
+The relationship between kinetic energy ($E_k$) and momentum ($p$) for a non-relativistic particle is:
+$$E_k = \frac{p^2}{2m} \implies p = \sqrt{2mE_k}$$
+Combining these, we get:
+$$\lambda = \frac{h}{\sqrt{2mE_k}}$$
+
+### 2. Convert units to SI
+The kinetic energy is given in electron-volts (eV). We must convert this to Joules (J):
+$$E_k = 3.4 \text{ eV} \times (1.602 \times 10^{-19} \text{ J/eV}) = 5.4468 \times 10^{-19} \text{ J}$$
+
+### 3. Substitute values
+*   Mass of an electron ($m$) $\approx 9.11 \times 10^{-31} \text{ kg}$
+*   $h \approx 6.626 \times 10^{-34} \text{ J s}$
+
+Now calculate $p$:
+$$p = \sqrt{2 \times (9.11 \times 10^{-31} \text{ kg}) \times (5.4468 \times 10^{-19} \text{ J})}$$
+$$p \approx \sqrt{9.92 \times 10^{-49}} \approx 9.96 \times 10^{-25} \text{ kg m/s}$$
+
+Now calculate $\lambda$:
+$$\lambda = \frac{6.626 \times 10^{-34} \text{ J s}}{9.96 \times 10^{-25} \text{ kg m/s}} \approx 6.65 \times 10^{-10} \text{ m}$$
+
+### Conclusion
+Comparing our result to the given options, the correct choice is **C**.
+
+###QUESTION_TYPE
+Multiple choice

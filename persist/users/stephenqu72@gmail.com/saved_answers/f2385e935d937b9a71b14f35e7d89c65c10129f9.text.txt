@@ -1,0 +1,40 @@
+As a top HSC Physics teacher, I will guide you through these fundamental concepts of atomic physics.
+
+### Part (a)
+**Experiment:** Geiger-Marsden (Gold Foil) experiment.
+*   **Diagram description:** An alpha particle source is directed at a thin gold foil inside an evacuated chamber. A movable zinc sulfide screen (or detector) tracks the scattered alpha particles.
+*   **Observations:** Most alpha particles passed straight through; some were deflected at small angles; very few were reflected back (>90 degrees).
+*   **Rutherford’s Model:** The atom consists of a tiny, dense, positively charged nucleus containing most of the mass, with electrons orbiting at a distance, leaving most of the atom as empty space.
+
+### Part (b)
+1.  **Stability of the atom:** Classical electromagnetism predicts an accelerating electron should radiate energy and spiral into the nucleus, yet atoms are stable.
+2.  **Origin of spectral lines:** Classical physics could not explain why specific discrete frequencies of light are emitted rather than a continuous spectrum.
+
+### Part (c)
+1.  Electrons exist in stationary orbits (discrete energy levels) where they do not radiate energy.
+2.  Transitions between orbits involve the absorption or emission of a photon with energy equal to the difference between the two levels: $E = hf = E_2 - E_1$.
+3.  The angular momentum of an electron is quantized in integral multiples of $h/2\pi$ ($mvr = n\hbar$).
+
+### Part (d)
+The first line of the Balmer series is $n=3 \rightarrow n=2$.
+Energy formula: $E = 13.6 \left( \frac{1}{n_f^2} - \frac{1}{n_i^2} \right) \text{ eV}$.
+$$E = 13.6 \left( \frac{1}{2^2} - \frac{1}{3^2} \right) = 13.6 \left( 0.25 - 0.111 \right) \approx 1.89 \text{ eV}$$
+Convert to Joules: $1.89 \times 1.602 \times 10^{-19} \approx 3.03 \times 10^{-19} \text{ J}$.
+
+### Part (e)
+Ionisation is $n=1 \rightarrow n=\infty$.
+$$E = 13.6 \left( \frac{1}{1^2} - \frac{1}{\infty^2} \right) = 13.6 \text{ eV}$$
+$$13.6 \times 1.602 \times 10^{-19} \approx 2.18 \times 10^{-18} \text{ J}$$
+
+### Part (f)
+De Broglie wavelength: $\lambda = \frac{h}{mv}$
+$$\lambda = \frac{6.626 \times 10^{-34}}{(9.11 \times 10^{-31}) \times (5.5 \times 10^6)} \approx 1.32 \times 10^{-10} \text{ m}$$
+
+---
+### HOW TO SOLVE THESE:
+*   **For Parts (a, b, c):** Use dot points to ensure you cover key terminology (e.g., "quantized", "electrostatic force", "stationary states").
+*   **For Parts (d, e):** Always check if the question asks for electron-volts (eV) or Joules. Use the Rydberg/Bohr energy difference formula.
+*   **For Part (f):** Ensure your units are in SI (kg, m/s). The mass of an electron $m_e = 9.11 \times 10^{-31} \text{ kg}$ is provided in the standard HSC Physics data sheet.
+
+###QUESTION_TYPE
+Calculation question

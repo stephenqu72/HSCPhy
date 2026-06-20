@@ -1,0 +1,40 @@
+### Answer and Explanation
+
+#### Part (a): Explain how mass defect and binding energy relate to atoms.
+
+**Answer:**
+Mass defect ($\Delta m$) is the difference between the mass of an atomic nucleus and the sum of the individual masses of its constituent protons and neutrons (nucleons). When nucleons come together to form a stable nucleus, a small amount of mass is converted into energy and released. This energy is known as the binding energy ($BE$). Binding energy is the energy required to completely disassemble a nucleus into its constituent nucleons, or conversely, the energy released when the nucleus is formed. The relationship between the two is defined by Einstein’s mass-energy equivalence principle, given by the equation $BE = \Delta m c^2$. A higher binding energy per nucleon indicates a more stable nucleus.
+
+**How to solve:**
+To gain full marks for a 3-mark question, you must hit these key points:
+1. Define mass defect correctly (the mass "lost").
+2. Define binding energy as the energy equivalent of that mass defect.
+3. Explicitly link them using Einstein's relation ($E=mc^2$).
+
+---
+
+#### Part (b): Calculate the binding energy for the Carbon 12 atom.
+
+**Note:** To calculate this, we use the standard values:
+- Mass of a proton ($m_p$) $\approx 1.007276 \, \text{u}$
+- Mass of a neutron ($m_n$) $\approx 1.008665 \, \text{u}$
+- Mass of a Carbon-12 atom $\approx 12.000000 \, \text{u}$
+- Conversion factor: $1 \, \text{u} \approx 931.5 \, \text{MeV}/c^2$
+
+**Step-by-step Calculation:**
+1. **Identify the constituents:** A Carbon-12 nucleus has $Z=6$ protons and $N=6$ neutrons.
+2. **Calculate expected mass:**
+   $$\text{Mass}_{\text{expected}} = (6 \times 1.007276) + (6 \times 1.008665) = 12.095646 \, \text{u}$$
+3. **Calculate mass defect ($\Delta m$):**
+   $$\Delta m = 12.095646 - 12.000000 = 0.095646 \, \text{u}$$
+4. **Calculate binding energy in MeV:**
+   $$BE = 0.095646 \, \text{u} \times 931.5 \, \text{MeV/u} \approx 89.10 \, \text{MeV}$$
+
+**How to solve:**
+1. State the number of protons and neutrons in the nucleus.
+2. Find the sum of the individual masses of these nucleons.
+3. Subtract the actual mass of the nucleus from the sum calculated in step 2 to find the mass defect.
+4. Multiply the result by the conversion factor ($931.5 \, \text{MeV}$) to convert atomic mass units into energy units.
+
+###QUESTION_TYPE
+Calculation question

@@ -1,0 +1,8 @@
+### Front
+What is the relativistic limitation on classical kinetic energy formulas ($E_k = \frac{1}{2}mv^2$) when applied to high-energy particles?
+
+### Back
+- Key idea: Classical mechanics ignores the increase in relativistic mass (Lorentz factor $\gamma$), incorrectly predicting that particles can exceed the speed of light ($c$).
+- Formula / law / constant / figure: $E_k = (\gamma - 1)mc^2$ where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- When to use it: Whenever particle speeds approach a significant fraction of $c$ (e.g., in particle accelerators).
+- Common trap: Assuming velocity increases linearly with energy; as $v \to c$, additional energy increases mass ($\gamma$), not velocity.

@@ -1,0 +1,42 @@
+Here are the solutions to the questions provided.
+
+### (a) Explanation
+**Answer:** Binding energy is the energy required to disassemble a nucleus into its constituent protons and neutrons (or the energy released when a nucleus is formed from its individual nucleons).
+
+### (b) Calculation
+**Step 1: Determine the number of protons ($Z$) and neutrons ($N$).**
+For Rf-267 ($Z=104$):
+- Protons = $104$
+- Neutrons = $267 - 104 = 163$
+
+**Step 2: Calculate the mass defect ($\Delta m$).**
+$\Delta m = (Z \times m_p + N \times m_n) - m_{\text{nucleus}}$
+$\Delta m = (104 \times 1.007276 + 163 \times 1.008664) - 267.12179$
+$\Delta m = (104.756704 + 164.412232) - 267.12179 = 2.047146 \, u$
+
+**Step 3: Convert mass defect to Energy ($E = mc^2$).**
+Using $1 \, u \approx 931.5 \, MeV/c^2$:
+Total Binding Energy $= 2.047146 \times 931.5 \approx 1907 \dots MeV$
+Binding energy per nucleon $= \frac{1907.0}{267} \approx 7.14 \, MeV/\text{nucleon}$.
+(This rounds to the $7.1 \, MeV$ requested).
+
+### (c) Explanation
+**Answer:** The binding energy per nucleon is a measure of nuclear stability. A higher binding energy per nucleon indicates a more tightly bound and stable nucleus, resulting in a longer half-life. Rf-267 has a lower binding energy per nucleon compared to more stable nuclei (like those near the "iron peak"), making it highly unstable and prone to decay, hence the very short half-life of 1.5 hours compared to the 24,110-year half-life of Pu-239.
+
+### (d) Data Analysis
+**Step 1: Identify values from the graph.**
+- Rf-267 ($A=267$) $\approx 7.1 \, MeV/\text{nucleon}$. Total energy $\approx 267 \times 7.1 = 1895.7 \, MeV$.
+- After alpha decay, the daughter is $A=263$. Looking at the graph, $263 \approx 7.2 \, MeV/\text{nucleon}$.
+- An alpha particle ($^4He$) has a binding energy of $\approx 7.07 \, MeV/\text{nucleon} \times 4 \approx 28.3 \, MeV$.
+
+**Step 2: Calculate.**
+Energy released $Q = BE_{\text{products}} - BE_{\text{reactants}}$
+$Q = (BE_{\text{daughter}} + BE_{\alpha}) - BE_{\text{parent}}$
+$Q = (263 \times 7.2 + 28.3) - (267 \times 7.1) \approx 1921.9 - 1895.7 \approx 26 \, MeV$.
+*(Note: Values may vary slightly depending on reading the specific point on the graph).*
+
+### (e) Explanation
+**Answer:** The strong nuclear force is attractive but has a very short range, only acting effectively between adjacent nucleons. The electrostatic force is repulsive between protons and has an infinite range. In large nuclei, as the number of protons increases, the repulsive electrostatic force grows faster than the strong force. Additional neutrons act as a "buffer," providing more strong force attraction without adding further electrostatic repulsion, helping to maintain nuclear stability.
+
+###QUESTION_TYPE
+Calculation question

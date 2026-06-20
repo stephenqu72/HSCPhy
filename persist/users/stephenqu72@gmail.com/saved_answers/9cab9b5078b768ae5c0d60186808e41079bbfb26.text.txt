@@ -1,0 +1,27 @@
+To calculate the binding energy associated with the mass deficiency, we follow these steps:
+
+### 1. Calculate the theoretical mass of the components
+A Helium nucleus consists of 2 protons and 2 neutrons.
+- Mass of 2 protons: $2 \times 1.673 \times 10^{-27} \text{ kg} = 3.346 \times 10^{-27} \text{ kg}$
+- Mass of 2 neutrons: $2 \times 1.675 \times 10^{-27} \text{ kg} = 3.350 \times 10^{-27} \text{ kg}$
+- Total mass of individual components: $3.346 \times 10^{-27} + 3.350 \times 10^{-27} = 6.696 \times 10^{-27} \text{ kg}$
+
+### 2. Calculate the mass defect ($\Delta m$)
+The mass defect is the difference between the sum of the individual components and the actual mass of the nucleus:
+$$\Delta m = 6.696 \times 10^{-27} \text{ kg} - 6.646 \times 10^{-27} \text{ kg} = 0.050 \times 10^{-27} \text{ kg} = 5.0 \times 10^{-29} \text{ kg}$$
+
+### 3. Calculate the energy ($E$)
+Using Einstein's mass-energy equivalence formula $E = mc^2$, where $c \approx 3.00 \times 10^8 \text{ m/s}$:
+$$E = (5.0 \times 10^{-29} \text{ kg}) \times (3.00 \times 10^8 \text{ m/s})^2$$
+$$E = 5.0 \times 10^{-29} \times 9.0 \times 10^{16} = 4.5 \times 10^{-12} \text{ Joules}$$
+
+### 4. Convert Joules to electron-volts (eV)
+Since $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$, we divide the energy in Joules by this constant:
+$$E = \frac{4.5 \times 10^{-12} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} \approx 2.809 \times 10^7 \text{ eV}$$
+Converting to Mega electron-volts (MeV):
+$$2.809 \times 10^7 \text{ eV} = 28.1 \times 10^6 \text{ eV} = 28.1 \text{ MeV}$$
+
+Comparing this result to the provided options, the correct answer is **b) 28.1 MeV**.
+
+###QUESTION_TYPE
+Multiple choice

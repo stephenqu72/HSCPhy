@@ -1,0 +1,32 @@
+To solve this problem, we must first extract the stationary (proper) half-life from the provided graph and then apply the principles of special relativity to account for time dilation.
+
+### Part a) Determining the half-life
+1. **Identify the starting point:** At $t = 1\ \mu s$, the percentage of substance remaining is $100\%$.
+2. **Define half-life:** The half-life ($t_{1/2}$) is the time taken for the substance to decay to $50\%$ of its original amount.
+3. **Find the value on the graph:** Look at the y-axis for $50\%$. Following the line across to the curve and dropping down to the x-axis, we see it intersects at $t = 2\ \mu s$.
+4. **Calculate:** The time elapsed is $2\ \mu s - 1\ \mu s = 1\ \mu s$.
+**Answer:** The half-life ($t_0$) is $1\ \mu s$.
+
+---
+
+### Part b) Relativistic calculation
+When a particle moves at a velocity $v = 0.6c$, time dilation occurs. The observed half-life ($t$) is longer than the proper half-life ($t_0$) as measured in the stationary frame.
+
+1. **Identify the formula:**
+   $$t = \gamma t_0 = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+2. **Calculate the Lorentz factor ($\gamma$):**
+   Given $v = 0.6c$:
+   $$\gamma = \frac{1}{\sqrt{1 - (0.6)^2}} = \frac{1}{\sqrt{1 - 0.36}} = \frac{1}{\sqrt{0.64}} = \frac{1}{0.8} = 1.25$$
+3. **Calculate the dilated half-life ($t$):**
+   $$t = 1.25 \times 1\ \mu s = 1.25\ \mu s$$
+
+**Answer:** The half-life of the particle moving at $0.6c$ is $1.25\ \mu s$.
+
+---
+
+### Explanation of the approach
+*   **Data Analysis:** The graph requires reading specific coordinates to determine the decay constant properties of the particle in a stationary frame. 
+*   **Physics Principles:** Since the particles are moving at a significant fraction of the speed of light, we must apply Einstein’s theory of special relativity. Specifically, we use the time dilation formula because the "lab" half-life is the *proper time* ($t_0$), and the moving particle's half-life is the *dilated time* ($t$).
+
+###QUESTION_TYPE
+Calculation question

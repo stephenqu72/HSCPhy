@@ -1,0 +1,26 @@
+To solve this problem, we must apply the laws of conservation of mass number ($A$) and atomic number ($Z$) in nuclear reactions.
+
+### Answer
+The correct answer is **C**.
+
+### Explanation
+An alpha particle is equivalent to a helium nucleus, represented as $_2^4\text{He}$. When a radioactive isotope undergoes alpha decay, it emits an alpha particle, meaning the parent nucleus loses 4 units from its mass number and 2 units from its atomic number.
+
+The general form of an alpha decay equation is:
+$$_Z^A\text{Parent} \rightarrow {_{Z-2}^{A-4}\text{Daughter}} + {_2^4\text{He}}$$
+
+For Polonium-210 ($_{84}^{210}\text{Po}$):
+1.  **Mass Number Conservation:** The mass number of the daughter product must be $210 - 4 = 206$.
+2.  **Atomic Number Conservation:** The atomic number of the daughter product must be $84 - 2 = 82$.
+
+Looking at the options provided:
+*   **A:** $214$ is incorrect (mass increased).
+*   **B:** $214$ is incorrect (mass increased).
+*   **C:** $_{82}^{206}\text{X} + {_2^4\text{He}}$. Here, $206 + 4 = 210$ (mass balance) and $82 + 2 = 84$ (charge balance). This is correct.
+*   **D:** Atomic number 86 is incorrect (charge increased).
+
+Therefore, the equation is:
+$$_{84}^{210}\text{Po} \rightarrow {_{82}^{206}\text{Pb}} + {_2^4\text{He}}$$
+
+### QUESTION_TYPE
+Multiple choice

@@ -1,0 +1,33 @@
+To determine what the bands $Q$ represent, we need to apply our understanding of the hydrogen emission spectrum and the physics of diffraction gratings.
+
+### Explanation
+
+1.  **Understand the Physics of the Diffraction Grating:**
+    The diffraction grating equation is $d \sin(\theta) = n\lambda$. For a fixed order $n$ (the first-order diffraction pattern in this case), the angle of diffraction $\theta$ is directly proportional to the wavelength $\lambda$ of the light.
+    *   Larger $\lambda$ (longer wavelength) results in a larger $\sin(\theta)$ and thus a larger displacement from the central maximum $P$.
+    *   Smaller $\lambda$ (shorter wavelength) results in a smaller displacement from $P$.
+
+2.  **Relate Energy to Wavelength:**
+    The energy of a photon emitted during an electron transition is given by $E = \frac{hc}{\lambda}$.
+    *   Higher energy transitions produce photons with shorter wavelengths.
+    *   Lower energy transitions produce photons with longer wavelengths.
+
+3.  **Analyze the Balmer Series:**
+    The Balmer series corresponds to transitions where electrons fall to the $n=2$ energy level. The "four smallest energy transitions" are:
+    *   $3 \to 2$ (Lowest energy, longest wavelength)
+    *   $4 \to 2$
+    *   $5 \to 2$
+    *   $6 \to 2$ (Highest energy, shortest wavelength)
+
+4.  **Interpret the Diagram:**
+    *   The bands closest to $P$ represent the shortest wavelengths (highest energy).
+    *   The bands furthest from $P$ represent the longest wavelengths (lowest energy).
+    *   Since $Q$ is the furthest band from the central band $P$, it corresponds to the **longest wavelength** among the four, which corresponds to the **lowest energy transition**.
+
+The transition $3 \to 2$ is the smallest energy jump in the Balmer series, resulting in the longest wavelength. Therefore, band $Q$ corresponds to the transition from $n=3$ to $n=2$.
+
+### Answer
+The correct answer is **A. The jump from 3 to 2.**
+
+###QUESTION_TYPE
+Multiple choice

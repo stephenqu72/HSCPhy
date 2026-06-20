@@ -1,0 +1,32 @@
+To calculate the energy released in the nuclear reaction:
+$${_1^2\text{H}} + {_1^1\text{H}} \rightarrow {_2^3\text{He}} + \gamma$$
+
+### 1. Identify the Binding Energy of Reactants and Products
+Binding energy ($BE$) is calculated by multiplying the binding energy per nucleon by the number of nucleons (mass number $A$).
+
+*   **Reactants:**
+    *   Deuterium (${_1^2\text{H}}$): $BE = 1.1 \text{ MeV/nucleon} \times 2 \text{ nucleons} = 2.2 \text{ MeV}$
+    *   Hydrogen (${_1^1\text{H}}$): The binding energy of a single proton is $0 \text{ MeV}$ (as there are no nucleons to "bind").
+    *   **Total $BE_{\text{reactants}} = 2.2 \text{ MeV}$**
+
+*   **Products:**
+    *   Helium-3 (${_2^3\text{He}}$): $BE = 2.6 \text{ MeV/nucleon} \times 3 \text{ nucleons} = 7.8 \text{ MeV}$
+    *   **Total $BE_{\text{products}} = 7.8 \text{ MeV}$**
+
+### 2. Calculate Energy Released ($Q$-value)
+The energy released is the difference in total binding energy:
+$$Q = BE_{\text{products}} - BE_{\text{reactants}}$$
+$$Q = 7.8 \text{ MeV} - 2.2 \text{ MeV} = 5.6 \text{ MeV}$$
+
+### 3. Convert Energy to Joules
+To convert from MeV to Joules, we use the conversion factor $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$. Therefore, $1 \text{ MeV} = 1.602 \times 10^{-13} \text{ J}$.
+
+$$Q = 5.6 \times 1.602 \times 10^{-13} \text{ J}$$
+$$Q \approx 8.9712 \times 10^{-13} \text{ J}$$
+
+Comparing this to the given options, it matches option **B**.
+
+**Correct Answer: B**
+
+###QUESTION_TYPE
+Multiple choice

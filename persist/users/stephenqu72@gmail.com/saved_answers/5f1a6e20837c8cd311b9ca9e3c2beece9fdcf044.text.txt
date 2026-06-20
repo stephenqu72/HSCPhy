@@ -1,0 +1,32 @@
+### Solution and Explanation
+
+#### Part (a)
+To solve this, we use the de Broglie wavelength formula:
+$$\lambda = \frac{h}{mv}$$
+
+**1. Identify Constants and Variables:**
+*   Planck's constant ($h$): $6.626 \times 10^{-34}\text{ J s}$
+*   Mass of a proton ($m$): $1.67 \times 10^{-27}\text{ kg}$
+*   Velocity ($v$): $500\text{ km s}^{-1} = 5 \times 10^5\text{ m s}^{-1}$
+
+**2. Calculation:**
+$$\lambda = \frac{6.626 \times 10^{-34}}{(1.67 \times 10^{-27})(5 \times 10^5)}$$
+$$\lambda \approx 7.9 \times 10^{-13}\text{ m}$$
+
+**3. Evaluation:**
+The wavelength calculated is approximately $7.9 \times 10^{-13}\text{ m}$ (or $0.79\text{ pm}$). This value is significantly smaller than the diameter of an atom (typically $10^{-10}\text{ m}$) and far beyond the resolution of even the most advanced microscopes. To detect a wave, the measuring apparatus needs a "slit" or feature size comparable to the wavelength; no current mechanical or electromagnetic grating is fine enough to diffract a wave of this scale, making it undetectable.
+
+---
+
+#### Part (b)
+The de Broglie hypothesis ($\lambda = h/p$) was confirmed by the **Davisson-Germer experiment**.
+
+*   **The Setup:** Electrons were fired at a crystalline nickel target. 
+*   **The Observation:** Davisson and Germer observed that the electrons scattered in specific directions, creating a diffraction pattern similar to X-rays scattering off crystal planes.
+*   **The Conclusion:** Since diffraction is a property unique to waves, this provided direct experimental evidence that particles (electrons) exhibit wave-like properties.
+*   **The Link:** The spacing of the atoms in the nickel crystal acted as a diffraction grating. By measuring the angle of the diffraction maxima and knowing the lattice spacing, they calculated the wavelength of the electrons, which matched the values predicted by de Broglie’s formula.
+
+---
+
+###QUESTION_TYPE
+Calculation question

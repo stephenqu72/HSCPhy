@@ -1,0 +1,21 @@
+### Answer
+
+**(a) Millikan’s Oil Drop Experiment**
+In Millikan’s experiment, oil droplets were sprayed into a chamber and became negatively charged through friction or X-ray ionization. They fell between two parallel metal plates. By adjusting the electric field ($E = V/d$) between these plates, Millikan could manipulate the electrostatic force ($F_e = qE$) acting on a droplet to exactly balance the downward gravitational force ($F_g = mg$), holding the drop stationary (or controlling its velocity). By precisely measuring the electric field required to suspend various droplets of different sizes, Millikan calculated the charge $q$ on each droplet. He consistently found that the charge was always an integer multiple of a fundamental unit: $q = ne$, where $e \approx 1.6 \times 10^{-19}$ C. This provided definitive experimental evidence for the **quantisation of electric charge** and confirmed the existence of the electron as the fundamental unit of charge.
+
+**(b) Mass Spectrometry**
+The magnetic field $B$ exerts a centripetal magnetic force $F_B = qvB$ on the moving ions, which causes them to move in a circular path with a radius of curvature $r$. Since this force acts as the centripetal force ($F_c = mv^2/r$), we set them equal:
+$$qvB = \frac{mv^2}{r}$$
+Rearranging to solve for the mass $m$:
+$$m = \frac{qBr}{v}$$
+Because the velocity $v$ and charge $q$ are kept constant (or are known) for the sample, and the magnetic field strength $B$ is uniform, the radius $r$ becomes directly proportional to the mass $m$. By observing where the ions strike the detector, the radius of the path is measured, allowing scientists to calculate the specific mass of the ions.
+
+---
+
+### How to Solve
+
+*   **For Part (a):** This is a conceptual "Outline" question. To get full marks, you must describe the mechanism (balancing forces: weight vs. electric force) and explain the significance of the result (quantisation of charge). Remember the keywords: **equilibrium**, **quantisation**, and **fundamental charge**.
+*   **For Part (b):** This is a physics derivation/explanation question. Always start with the relevant physics principle—in this case, the magnetic force acting as a centripetal force. Setting $qvB = mv^2/r$ is the "golden equation" for this topic. Once you have that, explain that since $q, B,$ and $v$ are controlled constants, the mass is proportional to the measured path radius $r$.
+
+### QUESTION_TYPE
+Essay
