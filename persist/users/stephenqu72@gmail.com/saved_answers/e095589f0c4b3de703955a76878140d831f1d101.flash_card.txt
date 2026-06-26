@@ -1,0 +1,8 @@
+### Front
+How do you calculate the velocity of an object given its proper time ($t_0$) and dilated time ($t$)?
+
+### Back
+- **Key idea:** Time dilation (Special Relativity).
+- **Formula:** $v = c \sqrt{1 - (\frac{t_0}{t})^2}$
+- **When to use it:** When an event is measured by two observers: one in the same reference frame as the event (proper time) and one moving relative to it (dilated time).
+- **Common trap:** Confusing $t$ and $t_0$. Remember: $t$ (dilated time) is *always* longer than $t_0$ (proper time) for moving objects.

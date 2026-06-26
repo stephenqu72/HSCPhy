@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the escape velocity ($v_{esc}$) of an object from a planet’s surface using the principle of conservation of energy.
+
+### Back
+- **Key idea:** Escape velocity is the minimum initial velocity required to reach infinity ($r = \infty$) where the object's kinetic energy and gravitational potential energy are both zero.
+- **Formula:** $v_{esc} = \sqrt{\frac{2GM}{R}}$
+- **When to use it:** To calculate the speed required to overcome a planet’s gravitational potential well (moving from the surface $R$ to infinity).
+- **Common trap:** Forgetting that potential energy is **negative** ($U = -GMm/r$); failing to equate total energy ($K+U$) to zero at infinity.

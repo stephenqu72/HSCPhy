@@ -1,0 +1,8 @@
+### Front
+How do you determine the time at which two objects with different constant accelerations meet?
+
+### Back
+- Key idea: Equate the displacement equations for both objects ($s_1 = s_2$).
+- Formula / law / constant / figure: $s = ut + \frac{1}{2}at^2$
+- When to use it: Whenever two objects have different initial velocities and/or accelerations and you need to find when/where they are at the same position.
+- Common trap: Assuming $t=0$ is the only solution; always divide by $t$ or factorize the quadratic to find the non-zero time.

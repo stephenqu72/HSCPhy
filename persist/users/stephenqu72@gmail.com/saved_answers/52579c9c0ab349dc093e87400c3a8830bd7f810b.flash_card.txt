@@ -1,0 +1,8 @@
+### Front
+What is the condition and required speed for a passenger to experience "weightlessness" at the top of a vertical circular loop of radius $r$?
+
+### Back
+- **Key idea:** Weightlessness occurs when the normal force ($N$) is zero; gravity provides the entire centripetal force ($F_c = F_g$).
+- **Formula / law:** $mg = \frac{mv^2}{r} \implies v = \sqrt{gr}$
+- **When to use it:** Vertical circular motion problems involving loops, roller coasters, or orbital mechanics where contact force vanishes.
+- **Common trap:** Confusing the speed at the top ($\sqrt{gr}$) with the minimum speed required at the *bottom* of the loop to successfully reach the top ($\sqrt{5gr}$ due to energy conservation).

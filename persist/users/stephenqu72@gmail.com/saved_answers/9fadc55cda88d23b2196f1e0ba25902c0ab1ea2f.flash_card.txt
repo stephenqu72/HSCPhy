@@ -1,0 +1,8 @@
+### Front
+A beam of pions travels $34\text{ m}$ at $0.95c$. How do you calculate the fraction of pions remaining after $t = 119\text{ ns}$?
+
+### Back
+- **Key idea:** Time dilation (proper time $\Delta t_0$ is shorter than dilated time $\Delta t$).
+- **Formula / law / constant / figure:** $\Delta t_0 = \frac{\Delta t}{\gamma}$ and $N = N_0(1/2)^n$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- **When to use it:** When calculating decay/survival for particles moving at relativistic speeds relative to the observer.
+- **Common trap:** Using the laboratory (dilated) time in the decay formula instead of the proper time ($\Delta t_0$) experienced by the particle.

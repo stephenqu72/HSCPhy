@@ -1,0 +1,8 @@
+### Front
+How do you determine the acceleration due to gravity ($g$) from a graph of a simple pendulum experiment?
+
+### Back
+- Key idea: The gradient ($m$) of a $T^2$ vs $l$ graph relates to $g$ via the simple pendulum formula.
+- Formula / law / constant / figure: $T^2 = (\frac{4\pi^2}{g})l \implies g = \frac{4\pi^2}{m}$
+- When to use it: Any experiment measuring the period of a simple pendulum against its length.
+- Common trap: Forgetting to square the period ($T$) or plotting $T$ vs $l$ instead of $T^2$ vs $l$, which results in a curve rather than a linear gradient.

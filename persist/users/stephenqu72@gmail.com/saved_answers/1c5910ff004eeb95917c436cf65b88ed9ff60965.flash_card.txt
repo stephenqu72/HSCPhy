@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum safe speed ($v_{max}$) for a vehicle on a banked curve considering the coefficient of static friction ($\mu$)?
+
+### Back
+- Key idea: Total centripetal force is provided by the horizontal components of both the normal force and the maximum static friction force.
+- Formula / law / constant / figure: $v_{max} = \sqrt{rg \left( \frac{\tan\theta + \mu}{1 - \mu \tan\theta} \right)}$
+- When to use it: When a vehicle is at the threshold of skidding up the bank due to high speed.
+- Common trap: Forgetting to convert units (e.g., $\text{km/h}$ to $\text{m/s}$) or using $\mu$ when the question specifies a "frictionless" surface (where $\mu=0$).

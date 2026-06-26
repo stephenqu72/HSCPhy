@@ -1,0 +1,8 @@
+### Front
+How does the pendulum period $T$ relate to length $l$ when comparing different gravitational environments?
+
+### Back
+- **Key idea:** Since $l \propto T^2$, a stronger gravitational field ($g$) requires a greater length $l$ to maintain the same period $T$.
+- **Formula:** $T = 2\pi \sqrt{\frac{l}{g}} \implies l = \left(\frac{g}{4\pi^2}\right)T^2$
+- **When to use it:** When analyzing $l$ vs $T^2$ or $l$ vs $T$ graphs to determine local gravity ($g$).
+- **Common trap:** Confusing the axes; always check if the graph plots $l$ against $T$ (parabola) or $l$ against $T^2$ (linear).

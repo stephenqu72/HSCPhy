@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque exerted on a rotating tyre when given the applied force and the tyre's diameter?
+
+### Back
+- Key idea: Torque is the product of force and the perpendicular distance (lever arm) from the pivot point.
+- Formula / law / constant: $\tau = F \times r$, where $r = \frac{d}{2}$.
+- When to use it: Whenever calculating the turning effect of a force applied to a rotating object.
+- Common trap: Using the diameter instead of the radius as the lever arm (leads to doubling the correct answer).

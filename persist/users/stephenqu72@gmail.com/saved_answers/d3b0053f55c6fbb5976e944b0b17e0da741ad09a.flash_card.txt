@@ -1,0 +1,8 @@
+### Front
+How do you calculate the number of electrons ($n$) flowing through a component given voltage ($V$), resistance ($R$), and time ($t$)?
+
+### Back
+- **Key idea:** Relate Ohm's Law to charge flow ($Q=It$) and elementary charge ($e$).
+- **Formula / law / constant / figure:** $n = \frac{It}{e}$, where $I = \frac{V}{R}$ and $e = 1.602 \times 10^{-19} \text{ C}$.
+- **When to use it:** To find the quantity of charge carriers in a circuit over a specific duration.
+- **Common trap:** Confusing "current" (flow rate) with "total charge" ($Q$); forgetting to convert time to seconds if given in minutes.

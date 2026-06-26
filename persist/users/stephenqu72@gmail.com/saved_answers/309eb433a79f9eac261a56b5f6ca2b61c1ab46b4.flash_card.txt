@@ -1,0 +1,8 @@
+### Front
+How do you analyze the motion of an object projected from a moving platform (e.g., a moving car) in 3D space?
+
+### Back
+- **Key idea:** Projectile motion consists of three independent 1D components: constant velocity in both horizontal axes (North/East) and constant acceleration ($g$) in the vertical axis.
+- **Formula / law / constant / figure:** Principle of Inertia (Newton’s First Law); $a_v = 9.8 \text{ m/s}^2$ downwards.
+- **When to use it:** When solving 3D kinematics problems where an object is launched from a moving reference frame.
+- **Common trap:** Assuming the object’s horizontal velocity changes; remember that without air resistance, horizontal velocity remains constant regardless of the vertical acceleration.

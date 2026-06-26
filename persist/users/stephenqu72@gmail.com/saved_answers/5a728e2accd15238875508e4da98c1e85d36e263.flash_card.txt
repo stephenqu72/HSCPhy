@@ -1,0 +1,8 @@
+### Front
+How do you find the point between two celestial bodies (e.g., Earth and Moon) where the net gravitational force on an object is zero?
+
+### Back
+- **Key idea:** The gravitational force from body 1 must equal the gravitational force from body 2.
+- **Formula / law / constant / figure:** Newton’s Law of Universal Gravitation: $\frac{M_1}{r_1^2} = \frac{M_2}{r_2^2}$ (where $r_1 + r_2 = R$).
+- **When to use it:** When calculating the "neutral point" or "Lagrange-like point" where gravitational pull cancels out.
+- **Common trap:** Forgetting to define one distance as $(R - d)$; failing to take the square root of both sides to simplify the algebra.

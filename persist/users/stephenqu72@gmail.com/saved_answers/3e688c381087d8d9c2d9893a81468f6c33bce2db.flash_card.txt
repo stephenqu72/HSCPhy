@@ -1,0 +1,8 @@
+### Front
+How do you calculate the instantaneous speed of a projectile at any point $(x, y)$ in its flight?
+
+### Back
+- **Key idea:** Speed is the magnitude of the velocity vector, combining horizontal and vertical components.
+- **Formula / law:** $v = \sqrt{v_x^2 + v_y^2}$, where $v_x = v_0 \cos\theta$ and $v_y^2 = (v_0 \sin\theta)^2 - 2g\Delta y$.
+- **When to use it:** When asked for speed at a specific coordinate or time. 
+- **Common trap:** Forgetting that $v_x$ is constant, but $v_y$ changes due to gravity. Ensure you use vertical displacement ($\Delta y$) for the $v_y$ calculation, not total distance.

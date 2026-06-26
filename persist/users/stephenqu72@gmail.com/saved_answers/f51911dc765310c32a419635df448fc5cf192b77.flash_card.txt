@@ -1,0 +1,8 @@
+### Front
+What is the minimum height ($h$) required for an object to successfully complete a vertical loop of radius ($r$) starting from rest?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy combined with the circular motion requirement $v^2 = gr$ at the top of the loop.
+- **Formula:** $h = 2.5r$
+- **When to use it:** When calculating the minimum release height to maintain contact with the track throughout a circular loop (where normal force at the top is effectively zero).
+- **Common trap:** Forgetting to include the potential energy at the top of the loop ($PE = mg \times 2r$) or failing to cancel mass $m$ early in the calculation.

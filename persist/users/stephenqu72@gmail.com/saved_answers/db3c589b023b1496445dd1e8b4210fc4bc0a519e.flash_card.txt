@@ -1,0 +1,8 @@
+### Front
+Explain the operation of an AC induction motor in sequential order.
+
+### Back
+- Key idea: A rotating stator field induces eddy currents in the rotor, creating a torque via Lenz's Law that drives the rotor to "chase" the field.
+- Formula / law: Faraday’s Law (EMF induced by flux change) and Lenz’s Law (opposing magnetic field).
+- When to use it: Any question asking for the "operation" or "principles" of an AC induction motor.
+- Common trap: Forgetting to mention "slip." The rotor must spin slower than the synchronous speed; otherwise, no flux change occurs, and torque drops to zero.

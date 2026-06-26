@@ -1,0 +1,8 @@
+### Front
+For an object held against a wall in a rotating cylinder (The Rotor), what are the vertical and horizontal force conditions?
+
+### Back
+- Key idea: Vertical forces are balanced (friction supports weight); the horizontal normal force provides centripetal acceleration.
+- Formula / law / constant / figure: Vertical: $f_s = mg$; Horizontal: $N = \frac{mv^2}{r}$
+- When to use it: Any problem involving vertical circular motion against a surface (e.g., Rotor ride, wall-of-death).
+- Common trap: Including "centrifugal force" in your free-body diagram; it is a non-existent pseudo-force in inertial frames.

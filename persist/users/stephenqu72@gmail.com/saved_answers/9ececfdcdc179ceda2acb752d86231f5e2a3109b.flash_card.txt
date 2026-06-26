@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time elapsed ($t$) for a radioactive sample to reach a specific fraction of its original mass?
+
+### Back
+- **Key idea:** Radioactive decay is exponential; the fraction remaining depends solely on time and half-life ($T_{1/2}$).
+- **Formula:** $N_t = N_0 \times (0.5)^{\frac{t}{T_{1/2}}}$ or $\frac{N_t}{N_0} = (0.5)^{\frac{t}{T_{1/2}}}$
+- **When to use it:** To determine decay time, half-life, or the amount of radioactive substance remaining.
+- **Common trap:** Assuming the initial mass (e.g., $200\text{ g}$) is required; it cancels out when solving for time or fraction remaining. Always use logarithms to solve for exponents.

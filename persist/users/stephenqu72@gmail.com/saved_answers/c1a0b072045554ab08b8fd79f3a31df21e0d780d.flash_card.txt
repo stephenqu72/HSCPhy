@@ -1,0 +1,8 @@
+### Front
+How do you calculate the half-life of a particle moving at a relativistic speed ($v$) given its proper half-life ($t_0$)?
+
+### Back
+- **Key idea:** Time dilation causes the observed half-life of a moving particle to be longer than its proper half-life.
+- **Formula:** $t = \gamma t_0 = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- **When to use it:** When the particle's speed is a significant fraction of the speed of light ($c$).
+- **Common trap:** Confusing proper time ($t_0$) with dilated time ($t$); remember $t$ is always greater than $t_0$ for moving objects.

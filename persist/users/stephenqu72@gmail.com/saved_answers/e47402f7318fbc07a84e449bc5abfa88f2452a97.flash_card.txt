@@ -1,0 +1,8 @@
+### Front
+How do you determine the resultant trajectory of a rocket moving horizontally while experiencing vertical thrust?
+
+### Back
+- Key idea: Superposition of constant horizontal velocity (Newton’s 1st Law) and vertical acceleration (Newton’s 2nd Law).
+- Formula / law / constant / figure: $F_{net} = \sum F = ma$ (where $F_{net} = T - mg$).
+- When to use it: To predict curved motion (parabolic path) when thrust $T \neq W$.
+- Common trap: Assuming vertical motion is at constant velocity; if $T > W$, the object must be accelerating, not just moving at a constant rate.

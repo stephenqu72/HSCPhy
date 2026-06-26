@@ -1,0 +1,8 @@
+### Front
+What is the fundamental principle regarding velocity in projectile motion (ignoring air resistance), and how is horizontal distance calculated?
+
+### Back
+- **Key idea:** Horizontal velocity ($v_x$) is constant; vertical velocity ($v_y$) changes due to gravity ($g$).
+- **Formula:** $v_x = v \cos \theta$; $x = v_x \cdot t$; $\Delta y = u_y t + \frac{1}{2} a_y t^2$
+- **When to use it:** To determine trajectory, range, or impact point of a projectile.
+- **Common trap:** Forgetting to use the quadratic formula when the landing point is at a different height than the launch point ($\Delta y \neq 0$).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of a rotating object given its linear arc length ($s$), radius ($r$), and time taken ($t$)?
+
+### Back
+- Key idea: Angular velocity is the rate of change of angular displacement ($\theta$).
+- Formula / law / constant / figure: $\omega = \frac{\theta}{t}$, where $\theta = \frac{s}{r}$. Thus, $\omega = \frac{s}{rt}$.
+- When to use it: Circular motion problems involving linear distance traveled along a circumference.
+- Common trap: Forgetting to convert the final answer from radians per second to degrees per second if required by the question units.

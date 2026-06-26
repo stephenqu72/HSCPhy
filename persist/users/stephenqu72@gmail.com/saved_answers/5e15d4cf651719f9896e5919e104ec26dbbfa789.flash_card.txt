@@ -1,0 +1,11 @@
+### Front
+What formulas are used to determine the orbital period ($T$) and speed ($v$) of a satellite, and how does the mass of the satellite affect these?
+
+### Back
+- **Key idea:** Orbital parameters depend only on the central body's mass ($M$) and orbital radius ($r$), not the satellite's mass ($m$).
+- **Formula / law / constant:** 
+  - $T = 2\pi \sqrt{\frac{r^3}{GM}}$ (Kepler's 3rd Law)
+  - $v = \sqrt{\frac{GM}{r}}$
+  - $GM = 3.986 \times 10^{14} \, \text{m}^3\text{s}^{-2}$
+- **When to use it:** For circular satellite orbits around Earth.
+- **Common trap:** Forgetting to convert altitude ($h$) to orbital radius ($r = R_E + h$) or confusing Earth's radius with the radius from the centre of the Earth.

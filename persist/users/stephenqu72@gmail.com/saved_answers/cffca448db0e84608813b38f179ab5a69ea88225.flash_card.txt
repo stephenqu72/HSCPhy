@@ -1,0 +1,8 @@
+### Front
+Under what conditions is the gravitational potential energy formula $E_p = mgh$ valid, and what is its relationship to the general formula $E_p = -\frac{GMm}{r}$?
+
+### Back
+- **Key idea:** $E_p = mgh$ is a local approximation of the general gravitational field.
+- **Formula / law:** $E_p = mgh$ (near Earth); $E_p = -\frac{GMm}{r}$ (general field).
+- **When to use it:** Use $E_p = mgh$ only when $h \ll R$ (height is negligible compared to planet radius), where $g$ is effectively constant.
+- **Common trap:** Assuming $E_p = mgh$ applies in space; it fails as $g$ decreases with distance. Always use the negative general formula for large-scale orbital or interstellar calculations.

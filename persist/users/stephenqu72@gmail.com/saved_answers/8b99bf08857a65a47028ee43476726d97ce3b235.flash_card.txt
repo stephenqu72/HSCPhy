@@ -1,0 +1,8 @@
+### Front
+How does launch height ($h > 0$) affect the optimal angle for maximum range compared to the standard $45^\circ$ assumption?
+
+### Back
+- Key idea: The optimal launch angle for maximum range is less than $45^\circ$ when the release height is above the landing surface.
+- Formula / law / constant / figure: Projectile kinematics ($y = y_0 + v_y t - \frac{1}{2}gt^2$).
+- When to use it: Whenever a projectile is launched from an elevated position (e.g., shot put, high-cliff diving).
+- Common trap: Assuming $45^\circ$ is always optimal; this only applies when launch and landing heights are equal.

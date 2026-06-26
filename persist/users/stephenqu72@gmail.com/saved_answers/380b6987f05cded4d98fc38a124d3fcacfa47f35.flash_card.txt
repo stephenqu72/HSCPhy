@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum kinetic energy ($K_{max}$) of a $\beta^-$ particle resulting from a nuclear decay to an excited state?
+
+### Back
+- **Key idea:** $K_{max}$ is the total energy released ($Q$) minus the excitation energy ($E_x$) of the daughter nucleus.
+- **Formula / law / constant / figure:** $K_{max} = Q - E_x$; $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$.
+- **When to use it:** When a decay scheme shows the nucleus transitioning to an excited state rather than the ground state.
+- **Common trap:** Forgetting to subtract the specific $E_x$ of the relevant excited state, or confusing the antineutrino's energy (which takes the "missing" energy) with the $\beta$ particle's kinetic energy.

@@ -1,0 +1,8 @@
+### Front
+How does a satellite's orbital speed change as it moves from its apoapsis to its perigee, and which physics principles explain this?
+
+### Back
+- Key idea: Orbital speed increases as distance from the central body decreases to conserve total mechanical energy.
+- Formula / law: Conservation of Mechanical Energy ($E = K + U$); Kepler’s Second Law.
+- When to use it: To determine speed variations in elliptical orbits.
+- Common trap: Forgetting that Gravitational Potential Energy ($U = -GMm/r$) is negative; as $r$ decreases, $U$ becomes more negative, requiring $K$ to increase.

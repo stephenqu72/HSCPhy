@@ -1,0 +1,8 @@
+### Front
+In uniform vertical circular motion, why does the tension in the string vary at the top and bottom of the path?
+
+### Back
+- Key idea: Tension must adjust to provide the required centripetal force while accounting for the vector direction of gravity.
+- Formula / law / constant / figure: $F_{net} = T \pm mg = \frac{mv^2}{r}$
+- When to use it: To calculate tension at specific points in a vertical circle.
+- Common trap: Forgetting that at the top, gravity *aids* centripetal force ($T = \frac{mv^2}{r} - mg$), while at the bottom, tension must *overcome* gravity ($T = \frac{mv^2}{r} + mg$).

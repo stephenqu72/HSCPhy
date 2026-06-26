@@ -1,0 +1,8 @@
+### Front
+How does a mass suspended by a string inside a decelerating bus appear to move after the string is cut, relative to an observer inside the bus?
+
+### Back
+- Key idea: In a non-inertial (accelerating) frame, a "fictitious force" acts opposite to the frame's acceleration.
+- Formula / law / constant / figure: Fictitious force $F_{fict} = -ma_{bus}$.
+- When to use it: To determine motion when the observer's frame is accelerating (non-inertial).
+- Common trap: Forgetting that the mass continues forward at its initial velocity while the bus slows down; the mass accelerates *forward* relative to the bus due to the fictitious force.

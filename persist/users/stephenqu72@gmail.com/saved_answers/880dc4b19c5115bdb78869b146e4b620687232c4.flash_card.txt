@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining mass of a radioactive sample at a specific time when given the half-life?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process where mass reduces by half every half-life ($t_{1/2}$).
+- **Formula:** $N_t = N_0 \times (0.5)^n$, where $n = \frac{\text{total time}}{t_{1/2}}$.
+- **When to use it:** To determine the remaining quantity or elapsed time in radioactive decay problems.
+- **Common trap:** Forgetting to convert units (e.g., minutes to hours) before calculating the number of half-lives ($n$).

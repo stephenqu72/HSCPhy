@@ -1,0 +1,8 @@
+### Front
+How does the required orbital velocity change when a satellite moves to a lower altitude, and why?
+
+### Back
+- Key idea: Orbital velocity $v$ is inversely proportional to $\sqrt{r}$. As radius ($r$) decreases, required stable velocity increases.
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: To calculate the change in speed ($\Delta v$) for orbital maneuvers or altitude adjustments.
+- Common trap: Thinking a lower orbit requires less energy/speed; while the satellite loses potential energy, it must burn fuel to **increase** its kinetic energy (velocity) to maintain a circular path at the lower altitude.

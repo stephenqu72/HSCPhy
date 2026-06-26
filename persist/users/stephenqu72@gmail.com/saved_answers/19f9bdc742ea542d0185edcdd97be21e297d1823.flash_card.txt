@@ -1,0 +1,10 @@
+### Front
+Differentiate between "Accuracy" and "Reliability" in the context of experimental data analysis.
+
+### Back
+- **Key idea:** Accuracy refers to proximity to the **true value**; Reliability refers to the **consistency** of repeated measurements (precision).
+- **Formula / law / constant / figure:** 
+  - Accuracy: $\text{Average} - \text{True Value}$
+  - Reliability: $\text{Range (Max} - \text{Min)}$
+- **When to use it:** When evaluating experimental validity; use Accuracy to check for systematic errors and Reliability to check for random errors.
+- **Common trap:** Confusing "reliable" with "accurate." High reliability (low spread) does not mean the data is accurate if there is a systematic error shifting the entire set away from the true value.

@@ -1,0 +1,8 @@
+### Front
+How does changing the length ($L$) and cross-sectional area ($A$) of a conductor affect its resistance ($R$)?
+
+### Back
+- Key idea: Resistance is directly proportional to length and inversely proportional to cross-sectional area.
+- Formula / law / constant / figure: $R = \rho \frac{L}{A}$ (where $\rho$ = resistivity).
+- When to use it: Whenever calculating the effect of changing the physical dimensions or material of a resistor.
+- Common trap: Forgetting that area ($A$) is often given as $\pi r^2$; halving the radius results in a resistance increase by a factor of 4, not 2.

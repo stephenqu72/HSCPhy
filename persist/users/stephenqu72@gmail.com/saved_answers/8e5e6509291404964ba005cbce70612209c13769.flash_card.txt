@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the angle $\theta$ of a conical pendulum moving in a horizontal circle with velocity $v$ and radius $r$.
+
+### Back
+- **Key idea:** The horizontal component of tension provides the centripetal force, while the vertical component balances gravity.
+- **Formula:** $\tan(\theta) = \frac{v^2}{rg}$
+- **When to use it:** When analyzing an object moving in a horizontal circular path suspended by a string (conical pendulum).
+- **Common trap:** Forgetting that $m$ (mass) cancels out, or confusing $\sin(\theta)$ and $\cos(\theta)$ components relative to the vertical vs. horizontal.

@@ -1,0 +1,8 @@
+### Front
+How can you verify that electrostatic force data follows Coulomb’s Law ($F \propto \frac{1}{r^2}$) using a graph of $F$ vs. $r$?
+
+### Back
+- Key idea: The graph must show a smooth, downward-curving inverse-square relationship.
+- Formula / law / constant / figure: $F = k\frac{q_1q_2}{r^2}$; $k \approx 8.99 \times 10^9\ N\cdot m^2/C^2$.
+- When to use it: To determine charges ($q$) or verify the nature of the force between point charges.
+- Common trap: Forgetting to convert distance ($r$) from $cm$ to $meters$ before substituting into the formula.

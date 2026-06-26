@@ -1,0 +1,8 @@
+### Front
+How do you calculate the bank angle ($\theta$) of an aircraft in a level horizontal turn?
+
+### Back
+- **Key idea:** The horizontal component of lift provides the centripetal force ($F_c$), while the vertical component balances weight ($mg$).
+- **Formula / law / constant / figure:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** Whenever an object (plane, car on a banked track) moves in a horizontal circle without vertical acceleration.
+- **Common trap:** Forgetting to use $v$ in $\text{m/s}$ or using the wrong radius (ensure $r$ is the radius of the circular path, not the arc length).

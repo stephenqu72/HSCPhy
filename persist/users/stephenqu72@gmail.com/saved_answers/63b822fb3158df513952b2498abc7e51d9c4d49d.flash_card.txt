@@ -1,0 +1,8 @@
+### Front
+How does orbital velocity ($v$) change as a satellite moves from a higher to a lower circular orbit, and why?
+
+### Back
+- **Key idea:** Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto 1/\sqrt{r}$).
+- **Formula / law:** $v = \sqrt{\frac{GM}{r}}$, derived from $F_g = F_c$ ($\frac{GMm}{r^2} = \frac{mv^2}{r}$).
+- **When to use it:** To determine the required velocity for stable circular orbits or changes in orbital altitude.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the satellite's altitude ($h$) to find the total orbital radius ($r = R_E + h$).

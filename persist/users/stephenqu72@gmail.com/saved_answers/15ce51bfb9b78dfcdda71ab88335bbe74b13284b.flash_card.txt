@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) of a satellite, and what provides the required centripetal force?
+
+### Back
+- **Key idea:** Gravity provides the centripetal force ($F_g = F_c$); no "outward" force exists.
+- **Formula:** $T = 2\pi \sqrt{\frac{r^3}{GM}}$
+- **When to use it:** To find the orbital period of an object in a stable circular orbit around a central body.
+- **Common trap:** Forgetting to add Earth's radius to the altitude to obtain the total orbital radius ($r = R_E + h$) and failing to convert units to SI (meters, seconds).

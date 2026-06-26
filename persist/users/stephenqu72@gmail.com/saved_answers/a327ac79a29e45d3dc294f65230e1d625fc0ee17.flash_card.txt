@@ -1,0 +1,8 @@
+### Front
+What is the physical definition of escape velocity in terms of mechanical energy?
+
+### Back
+- **Key idea:** The minimum velocity required for an object to reach an infinite distance from a planet with zero kinetic energy.
+- **Formula / law / constant / figure:** Conservation of Mechanical Energy: $E_{total} = K + U = 0 \rightarrow \frac{1}{2}mv^2 - \frac{GMm}{r} = 0$.
+- **When to use it:** Whenever asked to define escape velocity or calculate the velocity needed to escape a gravitational field.
+- **Common trap:** Confusing escape velocity ($v = \sqrt{\frac{2GM}{r}}$) with orbital velocity ($v = \sqrt{\frac{GM}{r}}$), or assuming it refers to leaving the Earth's atmosphere.

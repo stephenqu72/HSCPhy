@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time taken for a horizontally launched projectile to hit the ground from a height ($s_y$)?
+
+### Back
+- Key idea: Vertical and horizontal motion are independent; vertical motion is equivalent to free-fall starting from $u_y = 0$.
+- Formula / law / constant / figure: $s_y = \frac{1}{2}gt^2$ (where $g \approx 9.8\text{ m/s}^2$).
+- When to use it: To find time-of-flight when initial vertical velocity is zero.
+- Common trap: Including horizontal velocity in the vertical displacement equation or forgetting to square-root $t^2$.

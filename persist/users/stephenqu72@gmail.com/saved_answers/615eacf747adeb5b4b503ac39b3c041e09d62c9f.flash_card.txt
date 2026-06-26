@@ -1,0 +1,8 @@
+### Front
+How do you identify the time of maximum induced EMF from a magnetic flux vs. time graph?
+
+### Back
+- **Key idea:** Induced EMF is proportional to the **rate of change** of magnetic flux.
+- **Formula / law / constant / figure:** Faraday’s Law: $\varepsilon = -N \frac{\Delta \Phi}{\Delta t}$; corresponds to the **steepest gradient (slope)** on a $\Phi$ vs. $t$ graph.
+- **When to use it:** When asked to determine the timing or magnitude of induced EMF from a flux-time graph.
+- **Common trap:** Confusing maximum flux ($\Phi$) with maximum rate of change ($\frac{\Delta \Phi}{\Delta t}$). EMF is zero when flux is at a maximum (the gradient is zero).

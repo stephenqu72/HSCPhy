@@ -1,0 +1,8 @@
+### Front
+What is the formula for the escape velocity of an object from a planet, and is it dependent on the object's mass?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed needed for an object to break free from a planet's gravitational attraction (where total energy = 0).
+- **Formula:** $v_e = \sqrt{\frac{2GM}{r}}$ (Independent of the object's mass $m$).
+- **When to use it:** Whenever asked to calculate the speed required to escape a gravitational field or comparing energy states in gravitational potential.
+- **Common trap:** Forgetting to use the distance from the *center* of the planet ($r$) rather than just the altitude above the surface ($h$). If given altitude, $r = R_{planet} + h$.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of an object given arc length ($s$), radius ($r$), and time ($t$)?
+
+### Back
+- **Key idea:** Angular velocity is the rate of change of angular displacement ($\theta$).
+- **Formula / law / constant / figure:** $\omega = \frac{\theta}{t}$, where $\theta = \frac{s}{r}$. (Convert $\theta$ from radians to degrees if units require it: $\text{rad} \times \frac{180^\circ}{\pi}$).
+- **When to use it:** When solving circular motion problems involving linear distance traveled along a curved path.
+- **Common trap:** Forgetting to convert time into SI units (seconds) or failing to distinguish between radians and degrees based on the requested unit.

@@ -1,0 +1,8 @@
+### Front
+Explain the physics principle behind the separation of non-ferrous conductive metals (e.g., aluminum) from waste streams using moving magnets.
+
+### Back
+- **Key idea:** Changing magnetic flux induces eddy currents in conductive materials, creating a magnetic field that opposes the motion (drag/deflection) via Lenz’s Law.
+- **Formula / law / constant / figure:** Lenz’s Law; Faraday’s Law of Induction ($ε = -N \frac{ΔΦ}{Δt}$).
+- **When to use it:** When analyzing moving conductors in magnetic fields, electromagnetic braking, or eddy current separators.
+- **Common trap:** Forgetting that non-conductive waste (paper/plastic) experiences no eddy currents and thus no magnetic force; assuming the metal becomes permanently magnetized.

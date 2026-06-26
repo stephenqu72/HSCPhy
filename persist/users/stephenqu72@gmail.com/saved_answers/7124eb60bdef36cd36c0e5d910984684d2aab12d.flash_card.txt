@@ -1,0 +1,10 @@
+### Front
+What two fundamental conservation laws must be applied to solve nuclear decay equations?
+
+### Back
+- Key idea: Conservation of nucleon number (mass number) and atomic number (charge).
+- Formula / law: 
+  $\sum A_{\text{reactants}} = \sum A_{\text{products}}$
+  $\sum Z_{\text{reactants}} = \sum Z_{\text{products}}$
+- When to use it: Whenever a particle or nucleus undergoes radioactive decay to identify unknown products.
+- Common trap: Forgetting to include the neutrino ($\nu_e$) or antineutrino ($\bar{\nu}_e$) in $\beta$ decay equations, which are essential for conserving lepton number.

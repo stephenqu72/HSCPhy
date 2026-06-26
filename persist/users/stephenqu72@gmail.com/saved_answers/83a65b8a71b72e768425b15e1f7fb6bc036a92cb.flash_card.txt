@@ -1,0 +1,8 @@
+### Front
+How does the direction of static friction change when a cyclist travels faster than the design speed of a banked track?
+
+### Back
+- Key idea: Friction acts down the slope to provide the additional centripetal force required for high-speed cornering.
+- Formula / law / constant / figure: $F_{net, horizontal} = N \sin \theta + f \cos \theta = \frac{mv^2}{r}$
+- When to use it: When $v > v_{design}$, the cyclist has an increased tendency to slide up the bank.
+- Common trap: Assuming friction always acts up the slope; it only acts up the slope if the cyclist is moving *slower* than the design speed.

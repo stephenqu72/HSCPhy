@@ -1,0 +1,8 @@
+### Front
+How does orbital velocity ($v$) relate to orbital radius ($r$) and the mass of the central body ($M$)?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force required for circular orbit ($F_g = F_c$). Orbital velocity is inversely proportional to the square root of the radius ($v \propto 1/\sqrt{r}$).
+- **Formula:** $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** To calculate satellite speeds, determine orbital period, or compare orbital characteristics between different central masses.
+- **Common trap:** Assuming $v$ is independent of $r$ or incorrectly predicting that $v$ increases with $r$. Always remember that for a larger central mass $M$, the curve for $v$ vs $r$ sits higher on the graph.

@@ -1,0 +1,8 @@
+### Front
+How does mass ($M$) and radius ($r$) affect a planet's escape velocity ($v_e$)?
+
+### Back
+- Key idea: Escape velocity is directly proportional to $\sqrt{M/r}$. It is lowest when a planet has minimal mass and maximal radius.
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}}$ where $G \approx 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$.
+- When to use it: To compare the energy required to leave a celestial body's gravitational field.
+- Common trap: Assuming a smaller mass always means a lower escape velocity without accounting for the radius ($r$). You must consider the $M/r$ ratio.

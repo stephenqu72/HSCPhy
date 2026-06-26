@@ -1,0 +1,8 @@
+### Front
+How do you calculate the distance at which a charged particle hovers in a vertical electrostatic field?
+
+### Back
+- **Key idea:** At equilibrium (hovering), the upward electrostatic force equals the downward gravitational force ($F_e = F_g$).
+- **Formula / law:** $k \frac{|q_1 q_2|}{r^2} = mg$
+- **When to use it:** When a charged particle is suspended or stationary against gravity due to an electric point charge.
+- **Common trap:** Confusing mass/charge values for protons vs. electrons and failing to use SI units (e.g., converting cm to m).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the surface gravity ($g$) of a celestial body, and what is the primary formula used?
+
+### Back
+- Key idea: Surface gravity is the acceleration due to gravity experienced at the surface of a mass.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$; $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- When to use it: To determine the gravitational acceleration of planets, moons, or stars given their mass and radius.
+- Common trap: Forgetting to square the radius ($r^2$) in the denominator or using the diameter instead of the radius.

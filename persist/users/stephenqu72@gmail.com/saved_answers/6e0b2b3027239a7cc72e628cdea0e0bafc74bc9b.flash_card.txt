@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of a celestial body and its escape velocity using force-distance data?
+
+### Back
+- **Key idea:** Gravitational force at the surface ($F = G \frac{Mm}{r^2}$) allows us to solve for $M$; Escape velocity ($v_e = \sqrt{\frac{2GM}{r}}$) is derived from energy conservation.
+- **Formula:** $M = \frac{Fr^2}{Gm}$ and $v_e = \sqrt{\frac{2GM}{r}}$. $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** When provided with a force-distance graph or specific force values at a known orbital radius.
+- **Common trap:** Forgetting that $r$ is the distance from the **centre** of the body, not the surface. Also, remember escape velocity is independent of the projectile's mass ($m$).

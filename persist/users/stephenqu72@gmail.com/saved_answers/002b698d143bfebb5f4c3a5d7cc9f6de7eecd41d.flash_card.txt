@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating linear velocity ($v$) when given a required centripetal acceleration ($a_c$) and the radius of a circular path ($r$)?
+
+### Back
+- Key idea: Uniform circular motion requires a centripetal acceleration provided by $v^2/r$.
+- Formula: $v = \sqrt{a_c \times r}$
+- When to use it: To determine the speed required to simulate a specific gravitational field (e.g., in a rotating space station).
+- Common trap: Forgetting to convert diameter to radius ($r = d/2$) before substituting into the formula.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the gravitational field strength ($g$) at varying distances ($r$) from the centre of a planet?
+
+### Back
+- **Key idea:** Gravitational field strength follows the inverse-square law ($g \propto 1/r^2$).
+- **Formula:** $g = \frac{GM}{r^2}$
+- **When to use it:** To calculate field strength at a specific point or to extrapolate/interpolate data points on a $g$ vs $r$ graph.
+- **Common trap:** Confusing distance from the **surface** ($h$) with distance from the **centre** ($r$). Always ensure $r = R_{planet} + h$.

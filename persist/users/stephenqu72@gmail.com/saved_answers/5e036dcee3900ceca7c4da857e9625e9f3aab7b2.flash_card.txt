@@ -1,0 +1,8 @@
+### Front
+How do you determine the angle $\theta$ of a conical pendulum bob relative to the vertical?
+
+### Back
+- **Key idea:** The ratio of centripetal force to gravitational force determines the angle.
+- **Formula / law:** $\tan(\theta) = \frac{r\omega^2}{g}$ or $\frac{v^2}{rg}$
+- **When to use it:** Whenever a mass moves in a horizontal circle suspended by a string (conical pendulum).
+- **Common trap:** Forgetting that the angle $\theta$ is measured relative to the vertical, not the horizontal, and misidentifying the radius $r$ if the string length $L$ is given instead ($r = L\sin\theta$).

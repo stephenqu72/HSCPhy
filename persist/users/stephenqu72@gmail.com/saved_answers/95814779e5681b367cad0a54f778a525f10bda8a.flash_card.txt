@@ -1,0 +1,8 @@
+### Front
+How do you determine if a projectile clears a barrier at a specific horizontal distance ($x$)?
+
+### Back
+- **Key idea:** Treat horizontal and vertical motion as independent; calculate the time to reach $x$ and use it to find the vertical displacement $y$.
+- **Formula / law / constant / figure:** $t = \frac{x}{v_x}$ and $y = v_{0y}t + \frac{1}{2}a_yt^2$ (where $a_y = -9.8 \text{ m s}^{-2}$).
+- **When to use it:** When asked to determine the path, height, or clearance of a projectile at a specific horizontal position.
+- **Common trap:** Forgetting to convert all units to SI (e.g., cm to m) or failing to separate horizontal and vertical variables.

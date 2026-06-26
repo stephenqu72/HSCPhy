@@ -1,0 +1,8 @@
+### Front
+How does track banking enable a vehicle to navigate a circular bend at high speeds?
+
+### Back
+- Key idea: The horizontal component of the normal force ($N \sin\theta$) provides the necessary centripetal force, reducing reliance on lateral friction.
+- Formula / law / constant / figure: $N \sin\theta = \frac{mv^2}{r}$ and $N \cos\theta = mg$.
+- When to use it: When analyzing circular motion on inclined surfaces (e.g., velodromes, racing tracks, or roads).
+- Common trap: Assuming banking increases friction; in reality, banking is used to provide centripetal force *independent* of friction.

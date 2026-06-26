@@ -1,0 +1,8 @@
+### Front
+On what factors does the orbital speed ($v$) of a satellite depend, and how does the satellite's own mass affect it?
+
+### Back
+- Key idea: Orbital speed is independent of the satellite's mass ($m$). It depends only on the mass of the central body ($M$) and the orbital radius ($r$).
+- Formula / law / constant: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: To determine or compare the velocities of objects in circular orbits (e.g., satellites, planets).
+- Common trap: Assuming a more massive satellite must travel slower or faster; mass ($m$) always cancels out in the derivation from $F_g = F_c$.

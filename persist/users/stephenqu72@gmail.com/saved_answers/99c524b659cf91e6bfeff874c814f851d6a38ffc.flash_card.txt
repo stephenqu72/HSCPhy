@@ -1,0 +1,8 @@
+### Front
+How do you determine the time until planets with different orbital radii align?
+
+### Back
+- Key idea: Planets align when the difference in their angular displacements is an integer multiple of $2\pi$.
+- Formula: $T^2 \propto r^3$ and $\Delta \omega_{rel} \cdot t = 2\pi n$, where $\Delta \omega = |\frac{2\pi}{T_1} - \frac{2\pi}{T_2}|$.
+- When to use it: To find the synodic period or time for future alignment in multi-body orbital systems.
+- Common trap: Forgetting to use the absolute difference in angular velocities ($\omega_A - \omega_B$) or failing to solve for the lowest common integer multiple $n$ and $m$.

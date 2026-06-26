@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total time of flight ($t$) for a projectile landing at the same vertical level as its launch point?
+
+### Back
+- Key idea: Total vertical displacement is zero, and vertical acceleration is constant gravity.
+- Formula: $t = \frac{2u_y}{g} = \frac{2v\sin(\theta)}{g}$
+- When to use it: When horizontal ground is level and air resistance is negligible.
+- Common trap: Forgetting to use the vertical component ($v\sin\theta$) instead of total velocity ($v$), or incorrectly using $v\cos\theta$.

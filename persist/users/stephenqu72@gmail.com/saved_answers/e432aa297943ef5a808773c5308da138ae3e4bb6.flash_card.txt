@@ -1,0 +1,8 @@
+### Front
+How does the escape velocity ($v_e$) of an object change relative to the mass ($M$) and radius ($r$) of a planet?
+
+### Back
+- Key idea: Escape velocity is directly proportional to $\sqrt{M}$ and inversely proportional to $\sqrt{r}$.
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}}$
+- When to use it: To determine the minimum speed required to escape a gravitational field from a specific distance ($r$).
+- Common trap: Confusing $r$ (distance from center of mass) with altitude (height above surface). Always ensure $r = R_{planet} + h$.

@@ -1,0 +1,8 @@
+### Front
+How is centripetal force provided for a vehicle on a frictionless banked track, and what is the resulting formula for the banking angle $\theta$?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force.
+- Formula / law / constant / figure: $\tan(\theta) = \frac{v^2}{rg}$ or $F_c = mg \tan(\theta)$.
+- When to use it: When a vehicle is moving at a constant speed on a banked curve without relying on friction.
+- Common trap: Forgetting that the vertical component of the normal force must balance gravity ($N \cos\theta = mg$); never resolve $mg$ horizontally.

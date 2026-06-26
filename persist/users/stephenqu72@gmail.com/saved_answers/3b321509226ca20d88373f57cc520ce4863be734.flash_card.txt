@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the escape velocity ($v_{esc}$) of an object from a planet of mass $M$ and radius $r$.
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy: Total energy at the surface ($K+U$) equals total energy at infinity ($0+0$).
+- **Formula:** $v_{esc} = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** When calculating the minimum velocity required for an object to overcome a gravitational field and reach an infinite distance with zero residual velocity.
+- **Common trap:** Forgetting the negative sign for gravitational potential energy ($U = -GMm/r$) or failing to state the Law of Conservation of Energy as the starting point for the derivation.

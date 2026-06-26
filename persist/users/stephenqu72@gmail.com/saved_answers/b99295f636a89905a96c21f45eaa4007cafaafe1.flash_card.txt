@@ -1,0 +1,8 @@
+### Front
+Derive the expression for escape velocity ($v_e$) from the surface of a planet.
+
+### Back
+- **Key idea:** Conservation of energy ($E_{surface} = E_{\infty} = 0$). The kinetic energy at the surface must overcome the total gravitational potential energy.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{R}}$
+- **When to use it:** To calculate the minimum velocity required for an object to escape a gravitational field and reach infinity with zero kinetic energy.
+- **Common trap:** Forgetting the negative sign in the gravitational potential energy formula ($U = -GMm/r$) or failing to realize that $m$ (the projectile's mass) cancels out.

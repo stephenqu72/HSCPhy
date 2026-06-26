@@ -1,0 +1,8 @@
+### Front
+Where does a projectile reach its minimum speed and why?
+
+### Back
+- Key idea: Total speed is minimized at the peak (apex) of the trajectory because the vertical velocity component ($v_y$) is zero.
+- Formula / law: $v = \sqrt{v_x^2 + v_y^2}$; $v_x$ is constant, $v_y = 0$ at apex.
+- When to use it: To identify points of minimum speed or calculate velocity at the apex in projectile motion problems.
+- Common trap: Assuming speed is zero at the apex; the horizontal velocity ($v_x$) is still non-zero.

@@ -1,0 +1,8 @@
+### Front
+Define the electron-volt (eV) and state its equivalent value in Joules.
+
+### Back
+- **Key idea:** The kinetic energy gained by an electron accelerated through a potential difference of 1 volt.
+- **Formula / constant:** $1\text{ eV} = 1.602 \times 10^{-19}\text{ J}$ ($W = qV$).
+- **When to use it:** Converting between atomic-scale energy units and SI units (Joules) in quantum or nuclear physics problems.
+- **Common trap:** Confusing the charge of an electron ($1.6 \times 10^{-19}\text{ C}$) with its mass ($9.1 \times 10^{-31}\text{ kg}$).

@@ -1,0 +1,8 @@
+### Front
+How do you determine the total time of flight and launch angle for a projectile launched at an angle from an elevated position?
+
+### Back
+- **Key idea:** Decompose motion into independent vertical ($s_y, v_y, a_y$) and horizontal ($s_x, v_x$) components, linked by time ($t$).
+- **Formula / law / constant:** Kinematic equations: $v_y = u_y + a_y t$, $s_y = u_y t + \frac{1}{2}a_y t^2$, and $v_x = \frac{s_x}{t}$. Constant $g = 9.8 \text{ m/s}^2$.
+- **When to use it:** When given range, launch height, and maximum height (or angle) to find missing kinematic variables.
+- **Common trap:** Confusing total displacement with maximum height; ensure $s_y$ is the displacement from *launch point to landing point* (often negative), not just the peak height.

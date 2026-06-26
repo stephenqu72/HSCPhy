@@ -1,0 +1,8 @@
+### Front
+How is a nuclear fission chain reaction kept at a stable, self-sustaining "critical" state in a reactor?
+
+### Back
+- Key idea: Control rods (e.g., Boron/Cadmium) absorb excess neutrons to ensure exactly one neutron from each fission event induces a subsequent fission, preventing exponential growth.
+- Formula / law / constant / figure: ${}_{0}^{1}n + {}_{92}^{235}U \rightarrow {}_{56}^{141}Ba + {}_{36}^{92}Kr + 3{}_{0}^{1}n$
+- When to use it: When explaining nuclear reactor safety or the difference between a bomb (uncontrolled) and a power plant (controlled).
+- Common trap: Confusing "moderators" (which slow neutrons to increase fission probability) with "control rods" (which absorb neutrons to stop the reaction).

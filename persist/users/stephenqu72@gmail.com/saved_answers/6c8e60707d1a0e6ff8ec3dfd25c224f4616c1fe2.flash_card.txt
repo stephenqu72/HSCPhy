@@ -1,0 +1,8 @@
+### Front
+Why does banking a track allow a cyclist to travel faster around a corner compared to a flat track?
+
+### Back
+- Key idea: The horizontal component of the normal force ($F_N \sin\theta$) provides additional centripetal force, reducing reliance on friction.
+- Formula / law / constant / figure: $F_{c} = F_N \sin\theta = \frac{mv^2}{r}$
+- When to use it: Any question involving circular motion on banked surfaces (cyclists, cars, planes).
+- Common trap: Forgetting that friction is *not* entirely eliminated; it is merely supplemented by the normal force component.

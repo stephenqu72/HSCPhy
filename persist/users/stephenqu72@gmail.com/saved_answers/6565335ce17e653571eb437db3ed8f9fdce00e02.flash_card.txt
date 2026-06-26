@@ -1,0 +1,8 @@
+### Front
+Why is a planet's orbital speed independent of its own mass, and how do you calculate it?
+
+### Back
+- **Key idea:** The centripetal force required for orbit is provided by the gravitational force; the planet's mass ($m$) cancels out when equating the two.
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** When determining the velocity of an object in a circular orbit around a central mass ($M$).
+- **Common trap:** Forgetting that $M$ refers to the **mass of the central body**, not the orbiting satellite.

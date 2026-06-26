@@ -1,0 +1,8 @@
+### Front
+How do you calculate the magnetic field strength ($B$) acting on a moving charged particle?
+
+### Back
+- **Key idea:** A moving charge in a magnetic field experiences a Lorentz force perpendicular to its velocity and the field.
+- **Formula:** $B = \frac{F}{qv \sin(\theta)}$
+- **When to use it:** To find the magnetic field strength given a particle's force, charge, velocity, and angle of entry.
+- **Common trap:** Forgetting to convert the angle to radians or assuming $\sin(\theta) = 1$ when the particle is not entering perpendicular to the field.

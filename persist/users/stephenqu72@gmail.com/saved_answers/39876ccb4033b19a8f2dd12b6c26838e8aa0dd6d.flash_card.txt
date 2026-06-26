@@ -1,0 +1,8 @@
+### Front
+How do you calculate the number of photons ($n$) required to reach a specific total energy ($E_{total}$)?
+
+### Back
+- Key idea: Total energy is quantized as an integer multiple of individual photon energy.
+- Formula / law / constant / figure: $E = \frac{hc}{\lambda} \approx \frac{1240}{\lambda (\text{nm})} \text{ eV}$; $n = \frac{E_{total}}{E_{photon}}$
+- When to use it: Any problem involving photoelectricity or energy absorption from light sources.
+- Common trap: Forgetting to convert wavelength units (e.g., nm to m) if not using the $1240$ shortcut, or rounding too early.

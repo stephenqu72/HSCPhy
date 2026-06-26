@@ -1,0 +1,8 @@
+### Front
+What is the core principle and method for solving 2D projectile motion problems?
+
+### Back
+- Key idea: Horizontal and vertical motions are independent and occur simultaneously.
+- Formula / law / constant: Constant horizontal velocity ($v_x = \text{constant}$); vertical acceleration is gravity ($a_y = g = 9.8 \text{ m s}^{-2}$).
+- When to use it: Any projectile motion problem where air resistance is neglected.
+- Common trap: Forgetting that the velocity of impact is a vector (requires magnitude via Pythagoras and direction via $\tan^{-1}$).

@@ -1,0 +1,8 @@
+### Front
+How does the work done ($W$) to move a charge $q$ between two points relate to the electric potential ($V$)?
+
+### Back
+- **Key idea:** Work done is the product of the charge and the change in electric potential ($W = q\Delta V$).
+- **Formula / law / constant / figure:** $W = q(V_{final} - V_{initial})$; $V = \frac{kQ}{r}$ for a point charge.
+- **When to use it:** To calculate energy changes or work required when moving charges in an electric field.
+- **Common trap:** Assuming work is always required to move a charge; if the path is along an equipotential line ($V_{final} = V_{initial}$), the work done is zero.

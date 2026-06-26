@@ -1,0 +1,11 @@
+### Front
+How do you calculate the resultant initial velocity ($v$) of a projectile launched and landing on flat ground, given total time ($t$) and horizontal range ($R$)?
+
+### Back
+- **Key idea:** Treat horizontal and vertical components independently; horizontal velocity ($v_x$) is constant, and vertical motion is subject to constant acceleration ($g$).
+- **Formula / law / constant:** 
+  $v_x = \frac{R}{t}$
+  $v_{iy} = \frac{gt}{2}$
+  $v = \sqrt{v_x^2 + v_{iy}^2}$
+- **When to use it:** To find the initial launch velocity of a projectile on a level plane when range and time of flight are known.
+- **Common trap:** Forgetting to divide by 2 when finding $v_{iy}$ (the $t/2$ represents the time to reach maximum height).

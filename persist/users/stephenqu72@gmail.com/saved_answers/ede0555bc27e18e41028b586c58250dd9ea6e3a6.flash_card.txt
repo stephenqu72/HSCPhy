@@ -1,0 +1,8 @@
+### Front
+How do you determine the gravitational acceleration ratio between two planets with different masses ($M$) and radii ($r$)?
+
+### Back
+- Key idea: Gravitational acceleration $g$ is directly proportional to $M$ and inversely proportional to the square of the radius ($r^2$).
+- Formula / law / constant: $g = \frac{GM}{r^2}$ ($G$ is the Universal Gravitational Constant).
+- When to use it: When comparing surface gravity between two celestial bodies given relative mass and radius changes.
+- Common trap: Forgetting to square the radius factor (e.g., if radius doubles, gravity decreases by factor of 4, not 2).

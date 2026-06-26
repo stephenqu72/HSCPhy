@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the angle of a frictionless banked track for circular motion?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the necessary centripetal force.
+- **Formula:** $\tan(\theta) = \frac{v^2}{rg}$
+- **When to use it:** When an object (e.g., bike/car) travels around a curve at a constant speed without relying on friction to stay in its path.
+- **Common trap:** Forgetting to convert speed units (must be m/s) or confusing $\sin(\theta)$ and $\cos(\theta)$ components during derivation.

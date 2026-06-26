@@ -1,0 +1,8 @@
+### Front
+When a switch is closed in a primary circuit, what determines the direction of the induced current in a nearby secondary circuit?
+
+### Back
+- Key idea: Lenz’s Law states the induced current creates a magnetic field that opposes the *change* in magnetic flux.
+- Formula / law / constant / figure: Faraday’s Law ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$) and Right-Hand Grip Rule.
+- When to use it: Whenever there is a change in magnetic flux (e.g., closing a switch, moving a magnet) through a conductive loop.
+- Common trap: Forgetting that the induced current only exists while the flux is *changing*; it drops to zero once current in the primary circuit reaches a steady state.

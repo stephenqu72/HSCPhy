@@ -1,0 +1,8 @@
+### Front
+How can the mass of an exoplanet be calculated using the Radial Velocity method and the Transit method combined?
+
+### Back
+- **Key idea:** Use the Transit method to find the orbital period ($T$) and radius ($r$), then use the conservation of momentum ($Mv_{star} = m_p v_p$) to find the planet's mass.
+- **Formula / law:** Kepler’s Third Law ($r^3/T^2 = GM/4\pi^2$) and $v_p = 2\pi r/T$.
+- **When to use it:** When provided with the star's radial velocity ($v_{star}$), mass ($M$), and light curve transit data.
+- **Common trap:** Confusing the star's orbital velocity with the planet's orbital velocity; ensure $v_p$ is calculated using the orbit radius $r$.

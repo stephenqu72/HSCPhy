@@ -1,0 +1,8 @@
+### Front
+What is the condition for an object to "just" maintain contact at the top of a vertical circular loop?
+
+### Back
+- Key idea: Normal force ($F_N$) drops to zero; the object's weight provides the entirety of the required centripetal force.
+- Formula / law / constant / figure: $\Sigma F_c = mg = \frac{mv^2}{r} \implies v^2 = rg$
+- When to use it: To calculate minimum speed or height required for circular motion without falling.
+- Common trap: Assuming $v=0$ at the top; if $v=0$, the object will fall. The object must still have sufficient velocity to maintain its circular path.

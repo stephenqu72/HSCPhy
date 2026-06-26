@@ -1,0 +1,8 @@
+### Front
+What is the design speed formula for a vehicle on a frictionless banked track, and which force provides the centripetal acceleration?
+
+### Back
+- **Key idea:** The horizontal component of the normal force ($N\sin\theta$) provides the centripetal force.
+- **Formula:** $v = \sqrt{rg\tan\theta}$
+- **When to use it:** When calculating the optimal speed for a vehicle on a banked curve where no reliance on friction is required.
+- **Common trap:** Forgetting to convert the radius from km to m or confusing $\tan\theta$ with $\sin\theta$ or $\cos\theta$. Note that mass is irrelevant as it cancels out.

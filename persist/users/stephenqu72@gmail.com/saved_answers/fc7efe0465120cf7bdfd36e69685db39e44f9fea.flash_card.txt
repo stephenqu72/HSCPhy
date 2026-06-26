@@ -1,0 +1,8 @@
+### Front
+Why are step-up transformers used in electrical transmission lines?
+
+### Back
+- **Key idea:** Increasing transmission voltage decreases current, which exponentially reduces resistive power loss ($I^2R$).
+- **Formula:** $P_{loss} = I^2R$
+- **When to use it:** Whenever asked to justify high-voltage transmission or evaluate the efficiency of power grids.
+- **Common trap:** Forgetting that power loss is proportional to the **square** of the current; halving the current reduces power loss by a factor of four.

@@ -1,0 +1,8 @@
+### Front
+What determines the orbital speed of a satellite in a circular orbit?
+
+### Back
+- Key idea: Orbital speed is independent of the satellite's mass ($m$). It depends only on the mass of the central body ($M$) and the orbital radius ($r$).
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: Any problem involving satellites or planets in uniform circular motion.
+- Common trap: Assuming a heavier satellite moves faster; mass of the satellite cancels out in the derivation.

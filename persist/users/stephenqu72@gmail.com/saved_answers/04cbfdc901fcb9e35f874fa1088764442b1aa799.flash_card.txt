@@ -1,0 +1,8 @@
+### Front
+What is the formula for centripetal force ($F_c$) in terms of mass ($m$), radius ($r$), and angular velocity ($\omega$), and what is the direction of this force?
+
+### Back
+- Key idea: Net force required for uniform circular motion directed toward the centre of rotation.
+- Formula / law / constant / figure: $F_c = mr\omega^2$; direction is always radially inward.
+- When to use it: Any problem involving an object moving in a circular path at a constant angular speed.
+- Common trap: Forgetting to convert frequency (rev/min) to angular velocity ($\omega = 2\pi f$ in rad/s) before squaring it in the formula.

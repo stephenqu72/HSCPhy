@@ -1,0 +1,8 @@
+### Front
+Why does a car safely navigate a banked curve on ice, but slide off a flat one?
+
+### Back
+- **Key idea:** On a flat curve, centripetal force ($F_c$) relies solely on friction, which is absent on ice. On a banked curve, the horizontal component of the normal force ($N \sin \theta$) provides the necessary $F_c$ without needing friction.
+- **Formula / law / constant / figure:** $F_c = \frac{mv^2}{r}$; $N \sin \theta = \frac{mv^2}{r}$
+- **When to use it:** Circular motion problems involving vehicles on curves (banking vs. friction).
+- **Common trap:** Assuming the normal force is always equal to $mg$; on a banked track, the vertical component ($N \cos \theta$) balances $mg$, meaning $N > mg$.

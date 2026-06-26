@@ -1,0 +1,8 @@
+### Front
+In projectile motion with no air resistance, what is the strategy for calculating the final speed of an object at impact?
+
+### Back
+- **Key idea:** Treat horizontal and vertical motion as independent components, then combine them using vector addition.
+- **Formula / law / constant / figure:** $v = \sqrt{v_x^2 + v_y^2}$ where $v_x$ is constant and $v_y = u_y + gt$.
+- **When to use it:** When calculating the magnitude of the final velocity vector after a period of flight.
+- **Common trap:** Calculating the final speed using only the horizontal or vertical component, or neglecting that $v_x$ remains constant.

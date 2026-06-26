@@ -1,0 +1,8 @@
+### Front
+In projectile motion, how do the direction of the velocity vector and the acceleration vector change throughout the flight?
+
+### Back
+- **Key idea:** Velocity is always tangent to the path; acceleration is constant and directed downwards.
+- **Formula / law / constant / figure:** $\vec{a} = g \approx 9.8 \, \text{m/s}^2$ (downwards); $\vec{v} = \vec{v}_x + \vec{v}_y$.
+- **When to use it:** To determine the vector orientation of an object at any point in its trajectory (e.g., peak vs. descent).
+- **Common trap:** Assuming acceleration is zero at the peak (Point Y) because the vertical velocity is zero. Acceleration remains $g$ downwards at all times.

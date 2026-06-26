@@ -1,0 +1,8 @@
+### Front
+Why does a rocket not need to reach the theoretical escape velocity to leave Earth’s gravitational field?
+
+### Back
+- Key idea: Continuous thrust allows a spacecraft to "climb" out of the gravitational potential well, rather than requiring an impulsive "jump."
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}}$ (Escape velocity formula)
+- When to use it: When analyzing energy requirements for leaving a gravitational field with ongoing propulsion.
+- Common trap: Assuming escape velocity is a mandatory instantaneous speed for all spacecraft; it is only required for *unpowered* projectiles.

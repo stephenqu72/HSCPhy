@@ -1,0 +1,8 @@
+### Front
+How do you calculate magnetic field strength ($B$) given magnetic flux ($\Phi$) and area ($A$), and what is the SI unit for $B$?
+
+### Back
+- Key idea: $B$ is the magnetic flux density (flux per unit area).
+- Formula / law / constant / figure: $B = \frac{\Phi}{A}$ (Unit: Tesla, T).
+- When to use it: When calculating field strength through a surface perpendicular to the field lines.
+- Common trap: Failing to convert units—always ensure flux is in Webers (Wb) and area is in square meters ($m^2$) before calculating.

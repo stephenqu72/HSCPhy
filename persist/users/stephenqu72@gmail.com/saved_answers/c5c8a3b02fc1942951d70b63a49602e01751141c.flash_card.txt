@@ -1,0 +1,8 @@
+### Front
+What physics principles determine whether a circuit component (like a fuse or tool) will operate correctly under load?
+
+### Back
+- Key idea: Total circuit current must not exceed fuse ratings, and voltage drops across supply lines (resistive wires) must not cause the appliance voltage to fall below operating requirements.
+- Formula / law / constant / figure: $P = VI$, $V = IR$, and $R_{total} = \sum R$.
+- When to use it: To calculate circuit safety limits or actual operating voltage in circuits with significant line resistance.
+- Common trap: Forgetting that an extension cord represents a "go-and-return" path, effectively doubling the length of wire (and resistance) in the calculation.

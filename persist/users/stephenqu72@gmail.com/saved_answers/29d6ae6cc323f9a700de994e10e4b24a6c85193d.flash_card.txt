@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), how does the horizontal velocity change throughout the flight?
+
+### Back
+- Key idea: Horizontal velocity remains constant because there is no net horizontal force.
+- Formula / law / constant / figure: Newton’s First Law ($a_x = 0$).
+- When to use it: Any projectile motion problem where horizontal velocity is required at any point in the trajectory.
+- Common trap: Attempting to use vertical displacement ($y$) or gravity ($g$) to calculate horizontal velocity; these only affect vertical velocity ($v_y$).

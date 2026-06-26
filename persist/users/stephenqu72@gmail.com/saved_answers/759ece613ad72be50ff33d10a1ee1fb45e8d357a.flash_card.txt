@@ -1,0 +1,8 @@
+### Front
+Why does water remain in a bucket when swung in a vertical circle at the top of its path?
+
+### Back
+- Key idea: The bucket's centripetal acceleration ($a_c$) must be $\ge g$.
+- Formula / law / constant / figure: $F_{net} = mg + N = \frac{mv^2}{r}$. At minimum speed, $N=0$, so $v_{min} = \sqrt{gr}$.
+- When to use it: Circular motion problems involving vertical loops or swinging objects.
+- Common trap: Assuming "centrifugal force" is pushing the water out; always solve using real forces ($mg$ and $N$) in an inertial frame.

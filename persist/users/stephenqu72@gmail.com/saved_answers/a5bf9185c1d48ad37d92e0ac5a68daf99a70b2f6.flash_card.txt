@@ -1,0 +1,8 @@
+### Front
+How do you determine the decay constant ($\lambda$) and half-life ($T_{1/2}$) from a radioactive decay graph?
+
+### Back
+- **Key idea:** Linearize the exponential decay equation $A = A_0 e^{-\lambda t}$ by taking the natural log: $\ln(A) = -\lambda t + \ln(A_0)$.
+- **Formula / law / constant / figure:** Gradient $m = -\lambda$; $T_{1/2} = \frac{\ln(2)}{\lambda}$.
+- **When to use it:** When provided with decay data points or a semi-log plot to determine the half-life.
+- **Common trap:** Forgetting to subtract background radiation from the raw count rate before taking the natural log.

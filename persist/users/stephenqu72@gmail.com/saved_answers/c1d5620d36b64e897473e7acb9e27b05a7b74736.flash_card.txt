@@ -1,0 +1,8 @@
+### Front
+How do you derive the orbital speed $v$ of an electron in a circular path around a charged nucleus?
+
+### Back
+- **Key idea:** The electrostatic (Coulombic) force provides the required centripetal force.
+- **Formula:** $F_c = F_e \implies \frac{mv^2}{r} = \frac{1}{4\pi\varepsilon_0} \frac{q_1q_2}{r^2}$
+- **When to use it:** When calculating orbital velocity, kinetic energy, or total energy of a particle in a central field.
+- **Common trap:** Forgetting to square the charge magnitude or neglecting to equate the forces correctly (e.g., using $F = ma$ instead of the specific centripetal expression).

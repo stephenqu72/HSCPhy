@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force component acting parallel to an inclined plane for an object of mass $m$ at angle $\theta$?
+
+### Back
+- **Key idea:** Resolving weight force into perpendicular components.
+- **Formula:** $F_{\parallel} = mg \sin(\theta)$
+- **When to use it:** To find the gravitational force pulling an object down a slope (e.g., car on a hill, object on a ramp).
+- **Common trap:** Confusing $\sin(\theta)$ and $\cos(\theta)$. Remember $\sin(\theta)$ is parallel to the incline, and $\cos(\theta)$ is perpendicular (normal) to the incline.

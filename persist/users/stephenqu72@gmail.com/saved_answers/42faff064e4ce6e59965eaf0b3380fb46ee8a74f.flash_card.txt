@@ -1,0 +1,8 @@
+### Front
+What are the orbital characteristics of a typical Low Earth Orbit (LEO) satellite?
+
+### Back
+- **Key idea:** LEO satellites have low altitudes ($160\text{--}2,000\text{ km}$), resulting in high orbital velocities and short orbital periods (approx. 90–100 mins), meaning they orbit Earth multiple times per day.
+- **Formula:** $v = \sqrt{\frac{GM}{r}}$ (Velocity increases as orbital radius $r$ decreases).
+- **When to use it:** When analyzing satellite motion, altitude requirements, or communication latency.
+- **Common trap:** Confusing LEO with Geostationary/Geosynchronous orbits, which have a 24-hour period and much higher altitudes.

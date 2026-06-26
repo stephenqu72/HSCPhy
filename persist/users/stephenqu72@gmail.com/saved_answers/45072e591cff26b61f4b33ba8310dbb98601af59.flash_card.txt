@@ -1,0 +1,8 @@
+### Front
+How is the $Q$-value (energy released) of a nuclear decay related to the binding energy ($BE$) of the parent and daughter nuclei?
+
+### Back
+- **Key idea:** The $Q$-value represents the energy equivalent of the mass defect between the parent nucleus and the total of the product nuclei.
+- **Formula / law / constant:** $Q = \sum BE_{\text{products}} - BE_{\text{parent}}$ (Conservation of Energy).
+- **When to use it:** To calculate energy release in alpha, beta, or gamma decay when binding energies per nucleon are provided.
+- **Common trap:** Forgetting to multiply "binding energy per nucleon" by the total number of nucleons ($A$) before adding/subtracting them.

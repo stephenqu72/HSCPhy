@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity ($v$) of a projectile launched horizontally that has reached the floor?
+
+### Back
+- Key idea: Resultant velocity is the vector sum of independent horizontal and vertical components.
+- Formula / law / constant: $v = \sqrt{v_x^2 + v_{fy}^2}$, where $v_{fy} = u_y + gt$ ($g \approx 9.8$ or $10 \text{ m s}^{-2}$).
+- When to use it: To find the total speed at any time $t$ after launch.
+- Common trap: Forgetting to calculate the vertical component ($v_{fy}$) and incorrectly assuming the final speed equals the initial horizontal velocity.

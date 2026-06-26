@@ -1,0 +1,11 @@
+### Front
+What are the fundamental formulas for the period ($T$), total mechanical energy ($E$), and orbital velocity ($v$) of a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Satellite motion is determined by the balance of gravitational force and centripetal acceleration.
+- **Formulas:** 
+    1. Kepler’s Third Law: $T = 2\pi \sqrt{\frac{r^3}{GM}}$
+    2. Total Energy: $E = -\frac{GMm}{2r}$
+    3. Orbital Velocity: $v = \sqrt{\frac{GM}{r}}$ (or $v = \frac{2\pi r}{T}$)
+- **When to use it:** For any object in a stable circular orbit around a central mass (e.g., satellites, planets).
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to get the total orbital radius ($r = R_E + h$). Ensure $r$ is always in meters.

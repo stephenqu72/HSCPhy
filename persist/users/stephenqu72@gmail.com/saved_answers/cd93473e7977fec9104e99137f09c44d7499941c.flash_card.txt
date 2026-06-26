@@ -1,0 +1,8 @@
+### Front
+What is the minimum release height ($h$) required for a mass to complete a vertical loop of diameter $D$ without losing contact with the track?
+
+### Back
+- Key idea: Total mechanical energy at the start must equal potential plus kinetic energy at the top of the loop where $v = \sqrt{gR}$.
+- Formula / law / constant / figure: Conservation of Mechanical Energy: $mgh = mgD + \frac{1}{2}m(\frac{gD}{2}) \implies h = \frac{5}{4}D$.
+- When to use it: Objects moving on a circular track where gravity is the limiting force at the apex (Normal force $N=0$).
+- Common trap: Forgetting to include the kinetic energy ($\frac{1}{2}mv^2$) at the top of the loop; simply equating $mgh = mg(2R)$ is incorrect.

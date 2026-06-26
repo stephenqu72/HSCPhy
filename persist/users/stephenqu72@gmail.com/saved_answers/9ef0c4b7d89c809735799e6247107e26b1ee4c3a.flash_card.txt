@@ -1,0 +1,10 @@
+### Front
+What are the formulas for a satellite's gravitational potential energy and orbital velocity?
+
+### Back
+- **Key idea:** Satellite motion is determined by the central gravitational field.
+- **Formulas:** 
+    - $U = -\frac{GMm}{r}$
+    - $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** To determine the energy state or speed of an object in a circular orbit around a central mass.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r = R_E + h$). Ensure $h$ is converted to meters.

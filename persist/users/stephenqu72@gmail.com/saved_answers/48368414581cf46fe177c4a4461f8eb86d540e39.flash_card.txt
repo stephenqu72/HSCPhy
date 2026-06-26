@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal distance ($s$) a projectile has traveled when it reaches its maximum height?
+
+### Back
+- **Key idea:** Vertical velocity is zero at maximum height; horizontal velocity remains constant throughout the motion.
+- **Formula / law:** $s = u_x \times t_{peak}$, where $t_{peak} = \frac{u_y}{g}$.
+- **When to use it:** To find displacement at the apex of a projectile's trajectory.
+- **Common trap:** Forgetting that $t$ is only the time to reach the *peak*, not the total time of flight, and incorrectly using the full range formula.

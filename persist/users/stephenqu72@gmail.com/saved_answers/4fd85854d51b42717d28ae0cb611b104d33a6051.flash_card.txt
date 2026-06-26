@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial vertical component of a projectile's velocity ($v_y$) given an initial velocity $v$ at an angle $\theta$ above the horizontal?
+
+### Back
+- **Key idea:** Resolution of vectors into perpendicular components using trigonometry.
+- **Formula:** $v_y = v \sin \theta$
+- **When to use it:** Whenever analyzing projectile motion to determine the initial vertical velocity for vertical displacement or time-of-flight equations.
+- **Common trap:** Using $\cos$ instead of $\sin$ (remember: $\sin$ for vertical/opposite, $\cos$ for horizontal/adjacent).

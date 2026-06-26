@@ -1,0 +1,8 @@
+### Front
+How do you determine the half-life ($t_{1/2}$) of a radioisotope from an "Amount vs. Time" decay graph?
+
+### Back
+- Key idea: Half-life is the time required for the quantity of a radioactive isotope to decrease to 50% of its initial value.
+- Formula / law / constant / figure: $N(t) = N_0(1/2)^{t/t_{1/2}}$
+- When to use it: Whenever provided with an exponential decay curve of activity or count rate over time.
+- Common trap: Failing to convert units (e.g., $\mu\text{s}$ to $\text{s}$) or confusing "half-life" with the time required to reach 0% (which is theoretically infinite).

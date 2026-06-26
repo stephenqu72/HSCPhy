@@ -1,37 +1,37 @@
-### Answer and Explanation
+### Teacher's Guide: HSC Physics Depth Study
 
-#### Part (a): Risk Assessment (3 marks)
-To achieve full marks in an HSC Physics risk assessment, you must identify the **hazard**, the **risk** (how it could cause harm), and the **control measure** (how to prevent it).
+#### (a) Risk Assessment
+To gain full marks for a risk assessment, you must identify the hazard, the potential consequence, and a clear control measure.
 
-*   **Hazard:** The red laser beam.
-    *   **Risk:** Direct or reflected beam entering the eye can cause permanent retinal damage or blindness.
-    *   **Control Measure:** Never look directly into the laser beam or at specular reflections. Use the laser in a controlled environment, ensure the beam is blocked at the end of its path (e.g., using a non-reflective screen), and wear appropriate laser safety goggles if necessary.
-*   **Hazard:** Electrical equipment (laser power supply).
-    *   **Risk:** Electric shock if cords are frayed or if used near liquids.
-    *   **Control Measure:** Check cords for damage before use and ensure the workspace is dry.
-*   **Hazard:** Darkness in the laboratory (required to see the pattern).
-    *   **Risk:** Tripping or walking into furniture.
-    *   **Control Measure:** Clearly mark the path of the beam and keep the area free of obstacles/clutter.
+**Hazard:** Laser light (Class 2 or 3).
+**Risk:** Permanent eye damage or temporary retinal burning if the beam is reflected into the eyes.
+**Control:** 
+1. Never look directly into the laser beam or its reflection. 
+2. Ensure the laser is secured on a stable stand and not at eye level.
+3. Use barriers or a beam stop to prevent the beam from traveling beyond the target area.
+4. Use warning signs ("Laser in Use") to prevent others from entering the path.
 
 ---
 
-#### Part (b): Explanation of Interference (2 marks)
-To explain this, you must describe the wave nature of light and the principle of superposition.
+#### (b) Explaining Interference
+To answer this, describe the physics of superposition and path difference.
 
-**Explanation:**
-1.  **Diffraction:** As the monochromatic laser light passes through the two narrow slits, each slit acts as a new point source of light waves (Huygens' Principle).
-2.  **Superposition:** These waves overlap (superpose) as they propagate toward the screen.
-    *   **Constructive Interference:** Where the path difference between the waves from the two slits is an integer multiple of the wavelength ($n\lambda$), the waves arrive in phase, resulting in bright fringes (the red spots).
-    *   **Destructive Interference:** Where the path difference is an odd multiple of half-wavelengths ($[n + 0.5]\lambda$), the waves arrive $180^\circ$ out of phase, canceling each other out to produce dark regions.
+**The Explanation:**
+When coherent light from the laser hits the double slit, the slits act as two point sources of light (Huygens' Principle). As the light waves spread out (diffract), they overlap and undergo **superposition**.
+*   **Constructive Interference:** Where the path difference between the waves from the two slits is an integer multiple of the wavelength ($n\lambda$), the waves arrive in phase, resulting in bright fringes.
+*   **Destructive Interference:** Where the path difference is a half-integer multiple of the wavelength $((n + 0.5)\lambda)$, the waves arrive exactly out of phase (crest meets trough), canceling each other out to create dark fringes.
 
-**Diagram requirements:**
-Draw a standard double-slit diagram:
-*   Two slits separated by distance $d$.
-*   Light waves radiating from both slits as semicircular wavefronts.
-*   Lines indicating where crests meet crests (constructive interference/bright fringe) and where crests meet troughs (destructive interference/dark fringe).
-*   The path difference $\Delta L = d \sin(\theta)$.
+**The Diagram:**
+*   Draw two slits, $S_1$ and $S_2$.
+*   Draw circular wavefronts emanating from both slits.
+*   Show waves overlapping at a screen.
+*   Mark points of intersection as "constructive" (bright) and gaps as "destructive" (dark).
 
 ---
+
+### HOW TO SOLVE
+1. **Part (a):** Always use a table format (Hazard | Risk | Control) in your mind, then translate it to clear, formal prose. HSC markers look for "safety-first" practices.
+2. **Part (b):** You must mention that the light sources are **coherent** (same frequency and constant phase relationship). Without coherence, a stable interference pattern would not form. Use the term "path difference" as it is the key variable that determines the intensity of the light at any point on the screen.
 
 ###QUESTION_TYPE
 Other questions

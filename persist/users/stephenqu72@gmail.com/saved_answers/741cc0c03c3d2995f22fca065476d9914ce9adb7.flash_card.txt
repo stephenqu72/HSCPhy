@@ -1,0 +1,8 @@
+### Front
+Why is the total mechanical energy of an orbiting satellite negative, and what does this physically represent?
+
+### Back
+- **Key idea:** Gravitational potential energy ($U$) is defined as zero at infinity; since $U$ is more negative than $K$ is positive, the sum is negative. This indicates a **bound system**.
+- **Formula:** $E_{total} = K + U = -\frac{GMm}{2r}$
+- **When to use it:** To explain satellite stability, escape velocity problems, or energy transformations in orbital mechanics.
+- **Common trap:** Forgetting that $U$ is negative due to the convention $U=0$ at $r=\infty$; don't confuse this with the satellite having "no" energy—it has kinetic energy, just not enough to reach infinity.

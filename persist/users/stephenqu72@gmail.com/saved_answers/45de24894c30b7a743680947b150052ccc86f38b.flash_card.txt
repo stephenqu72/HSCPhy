@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining amount of a radioactive sample after a specific duration?
+
+### Back
+- Key idea: Radioactive decay is a geometric progression based on the number of elapsed half-lives.
+- Formula / law / constant: $N = N_0(\frac{1}{2})^n$, where $n = \frac{T}{t_{1/2}}$.
+- When to use it: To determine the remaining quantity or fraction of a radioisotope over time.
+- Common trap: Forgetting to convert units (e.g., minutes to seconds) so that total time ($T$) and half-life ($t_{1/2}$) match.

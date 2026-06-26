@@ -1,0 +1,8 @@
+### Front
+How do you calculate the escape velocity ($v_e$) of a spherical body, and what principle relates this to energy?
+
+### Back
+- **Key idea:** Escape velocity is the speed required for an object's total mechanical energy to reach zero (the minimum energy to reach infinity).
+- **Formula / law:** $v_e = \sqrt{\frac{2GM}{r}}$; derived from $E_k + E_p = 0 \rightarrow \frac{1}{2}mv^2 - \frac{GMm}{r} = 0$.
+- **When to use it:** To find the minimum launch velocity needed to escape a planet/moon's gravitational field.
+- **Common trap:** Forgetting to convert radius ($r$) from km to metres ($10^3$) or neglecting to square the radius in the gravity ($g$) formula versus not squaring it in the escape velocity formula.

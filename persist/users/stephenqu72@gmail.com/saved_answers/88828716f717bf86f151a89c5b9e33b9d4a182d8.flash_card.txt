@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the orbital speed ($v$) of a satellite in a circular orbit of radius $R$ around a mass $M$.
+
+### Back
+- Key idea: Gravitational force provides the necessary centripetal force for circular motion.
+- Formula / law / constant / figure: $\frac{GMm}{R^2} = \frac{mv^2}{R} \implies v = \sqrt{\frac{GM}{R}}$
+- When to use it: To calculate the velocity, period, or radius of a satellite in a stable circular orbit.
+- Common trap: Forgetting that $R$ must be the distance from the *centre* of the planet (i.e., radius of planet + altitude).

@@ -1,0 +1,8 @@
+### Front
+What is the formula for the gravitational potential energy ($U$) of a satellite in orbit, and how is the variable $r$ defined?
+
+### Back
+- **Key idea:** Gravitational potential energy is zero at infinity; hence, it is negative for any bound orbit.
+- **Formula:** $U = -\frac{G M m}{r}$
+- **When to use it:** To calculate the energy required to change orbits or the total energy of a satellite at a specific position.
+- **Common trap:** Confusing altitude ($h$) with the distance from the center of the planet ($r$). Remember: $r = R_{planet} + h$.

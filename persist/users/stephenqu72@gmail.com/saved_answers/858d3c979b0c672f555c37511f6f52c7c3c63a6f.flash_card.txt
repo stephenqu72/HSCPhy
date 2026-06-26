@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial velocity ($v$) of a projectile launched at an angle ($\theta$) on flat ground when the horizontal range ($R$) is known?
+
+### Back
+- **Key idea:** The horizontal range formula for projectile motion.
+- **Formula / law:** $v = \sqrt{\frac{R \cdot g}{\sin(2\theta)}}$
+- **When to use it:** When solving for launch velocity given range and angle on level ground.
+- **Common trap:** Neglecting that this is an "idealised" model; it lacks **validity** in real-world scenarios because it ignores air resistance (drag), which would require a higher initial velocity to reach the same range.

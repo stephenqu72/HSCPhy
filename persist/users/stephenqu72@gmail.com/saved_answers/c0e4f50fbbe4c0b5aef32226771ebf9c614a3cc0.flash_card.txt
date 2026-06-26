@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius of a moon when given its orbital period and the known period/radius of another moon orbiting the same planet?
+
+### Back
+- **Key idea:** Kepler’s Third Law states that $r^3/T^2$ is constant for all bodies orbiting the same central mass.
+- **Formula / law:** $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- **When to use it:** To relate orbital radius ($r$) and period ($T$) for two objects orbiting the same central body.
+- **Common trap:** Forgetting to cube the radii or square the periods; ensuring units for $T$ and $r$ are consistent on both sides of the equation.

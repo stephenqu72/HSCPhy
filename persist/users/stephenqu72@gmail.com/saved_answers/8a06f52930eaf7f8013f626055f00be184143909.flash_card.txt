@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational force ($F_g$) acting on a satellite in a stable circular orbit if only its mass, orbital radius, and period are known?
+
+### Back
+- **Key idea:** In a stable circular orbit, the gravitational force provides the required centripetal force ($F_g = F_c$).
+- **Formula:** $F = \frac{4\pi^2 mr}{T^2}$
+- **When to use it:** When given orbital period ($T$) and radius ($r$) instead of orbital velocity ($v$) or gravitational field strength ($g$).
+- **Common trap:** Forgetting to convert the orbital period ($T$) into SI units (seconds) before squaring it.

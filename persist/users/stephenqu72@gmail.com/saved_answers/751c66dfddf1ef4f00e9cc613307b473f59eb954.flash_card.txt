@@ -1,0 +1,8 @@
+### Front
+How does the vertical displacement of a horizontally projected object change relative to time?
+
+### Back
+- Key idea: Vertical displacement ($d_y$) is proportional to the square of time ($t^2$) due to constant acceleration ($g$).
+- Formula / law / constant / figure: $d_y = \frac{1}{2}gt^2$
+- When to use it: To determine vertical position or time of flight for projectiles with zero initial vertical velocity ($v_{iy} = 0$).
+- Common trap: Assuming vertical displacement is proportional to time ($t$) rather than $t^2$; always verify the time scaling factor (e.g., doubling $t$ quadruples $d_y$).

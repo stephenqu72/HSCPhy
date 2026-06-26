@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational force exerted by a moon on its planet, and what physical principle dictates its magnitude?
+
+### Back
+- **Key idea:** By Newton’s Third Law, the force of the moon on the planet equals the centripetal force required to keep the moon in orbit ($F_{moon \to planet} = F_{planet \to moon} = F_c$).
+- **Formula / law / constant / figure:** $F = \frac{mv^2}{r}$ (Newton’s Third Law).
+- **When to use it:** When calculating gravitational force in an orbital system where mass, speed, and radius are provided.
+- **Common trap:** Confusing the radius of the planet/moon with the *orbital radius* ($r$) or including extraneous data like the physical radius of the moon.

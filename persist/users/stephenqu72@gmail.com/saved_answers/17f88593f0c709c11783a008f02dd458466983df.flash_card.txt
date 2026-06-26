@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released in a nuclear fission reaction?
+
+### Back
+- **Key idea:** Energy released corresponds to the mass defect ($\Delta m$) between reactants and products, converted via Einstein's mass-energy equivalence.
+- **Formula / law / constant / figure:** $E = \Delta m c^2$ and $1 \, u \approx 931.5 \, \text{MeV}$.
+- **When to use it:** Whenever calculating the energy yield of a nuclear reaction given isotopic or particle masses.
+- **Common trap:** Forgetting to include the mass of all emitted neutrons in the products (e.g., the 3 neutrons in a standard $^{235}\text{U}$ fission).

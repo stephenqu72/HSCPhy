@@ -1,0 +1,8 @@
+### Front
+How do you determine if a vehicle will safely navigate a flat circular bend?
+
+### Back
+- **Key idea:** The available static frictional force must be greater than or equal to the required centripetal force ($F_f \ge F_c$).
+- **Formula:** $F_c = \frac{mv^2}{r}$
+- **When to use it:** To solve circular motion problems involving vehicles on flat surfaces where friction provides the centripetal force.
+- **Common trap:** Forgetting to convert speed to SI units (m/s) or assuming the vehicle can navigate the bend if $F_f < F_c$ (it will skid outwards).

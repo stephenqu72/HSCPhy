@@ -1,0 +1,8 @@
+### Front
+Describe the speed-time graph of a projectile (ignoring air resistance) launched at an angle $\theta < 90^\circ$.
+
+### Back
+- Key idea: The speed graph is a hyperbola that reaches a non-zero minimum at the peak of flight.
+- Formula / law: $S = \sqrt{(v \cos \theta)^2 + (v \sin \theta - gt)^2}$
+- When to use it: Whenever identifying the magnitude of velocity (speed) rather than individual velocity components.
+- Common trap: Assuming speed reaches zero at the peak; speed only reaches zero if the projectile is launched vertically ($\theta = 90^\circ$).

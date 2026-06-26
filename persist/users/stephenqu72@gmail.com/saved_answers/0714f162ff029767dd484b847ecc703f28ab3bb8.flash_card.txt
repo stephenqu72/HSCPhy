@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius of a geostationary satellite if you know the Moon’s orbital period and radius?
+
+### Back
+- **Key idea:** Kepler’s Third Law states the ratio $r^3/T^2$ is constant for all objects orbiting the same central body.
+- **Formula / law:** $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- **When to use it:** When comparing the orbits of two satellites/bodies around the same primary (e.g., Earth).
+- **Common trap:** Forgetting to convert all time units to seconds or failing to cube the radius/square the period correctly in the ratio.

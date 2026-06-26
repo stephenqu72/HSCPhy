@@ -1,0 +1,8 @@
+### Front
+How can you increase the torque produced by a DC motor?
+
+### Back
+- Key idea: Torque is directly proportional to the magnetic force acting on the coil loops.
+- Formula: $\tau = nIAB \sin(\theta)$
+- When to use it: To explain motor performance or efficiency adjustments in an HSC response.
+- Common trap: Forgetting to mention that $n$ (number of turns), $I$ (current), $A$ (area), or $B$ (field strength) must be increased to achieve higher torque.

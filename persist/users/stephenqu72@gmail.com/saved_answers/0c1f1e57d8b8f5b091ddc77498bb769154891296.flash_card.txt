@@ -1,0 +1,10 @@
+### Front
+How do you determine the number of $\alpha$ and $\beta$ decays in a nuclear decay series?
+
+### Back
+- Key idea: Total change in nucleon number ($A$) is caused solely by $\alpha$ decays; total change in atomic number ($Z$) is the net result of both $\alpha$ and $\beta$ decays.
+- Formula / law: 
+  $\Delta A = -4n_\alpha$
+  $\Delta Z = -2n_\alpha \pm n_\beta$ (where $+$ is $\beta^-$ and $-$ is $\beta^+$)
+- When to use it: To identify the sequence of particles emitted when a parent nucleus decays into a specific daughter isotope.
+- Common trap: Forgetting that $\beta^+$ decay increases atomic number ($Z$) by 1, whereas $\beta^-$ decreases it by 1 (relative to the neutron-to-proton ratio change).

@@ -1,0 +1,10 @@
+### Front
+How do you calculate the total horizontal distance for a multi-stage missile flight (powered phase followed by projectile motion)?
+
+### Back
+- **Key idea:** Decompose the motion into two phases: constant acceleration (powered) and constant velocity (projectile/free-fall).
+- **Formula / law:** 
+  1. Powered: $s = ut + \frac{1}{2}at^2$ and $v = u + at$
+  2. Projectile: $d = v_x \times \sqrt{\frac{2h}{g}}$
+- **When to use it:** When an object transitions from engine-powered acceleration to gravity-only projectile motion.
+- **Common trap:** Forgetting to use the final velocity ($v$) of the powered phase as the constant horizontal velocity ($v_x$) for the projectile phase.

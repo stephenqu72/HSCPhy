@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time of flight for a projectile launched horizontally?
+
+### Back
+- **Key idea:** Horizontal and vertical motions are independent; vertical motion is determined solely by gravity.
+- **Formula / law / constant:** $s_y = u_y t + \frac{1}{2} a t^2$ where $u_y = 0$ and $a = g \approx 9.8\text{ m/s}^2$.
+- **When to use it:** Whenever you need to find the time an object is in the air based on its vertical drop.
+- **Common trap:** Using the horizontal velocity in the vertical displacement formula; the horizontal velocity only affects *range*, not *time*.

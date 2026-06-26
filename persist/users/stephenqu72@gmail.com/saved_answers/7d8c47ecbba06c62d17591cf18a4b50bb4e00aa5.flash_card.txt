@@ -1,0 +1,8 @@
+### Front
+How does the maximum safe velocity ($v$) of a car negotiating a flat circular corner relate to the radius ($r$) of the turn?
+
+### Back
+- **Key idea:** Centripetal force is provided by static friction ($F_f = \mu mg = \frac{mv^2}{r}$).
+- **Formula:** $v \propto \sqrt{r}$
+- **When to use it:** To calculate safe speed limits or maximum velocities on flat curves where friction is the sole centripetal force.
+- **Common trap:** Assuming the mass of the car affects the maximum velocity; mass cancels out ($v = \sqrt{\mu gr}$), so it is independent of the car's mass.

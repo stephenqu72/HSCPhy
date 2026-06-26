@@ -1,0 +1,8 @@
+### Front
+Why is the work done by the centripetal force on an object moving in uniform circular motion always zero?
+
+### Back
+- Key idea: The centripetal force is always perpendicular to the direction of motion (displacement).
+- Formula / law / constant / figure: $W = Fd\cos(\theta)$; since $\theta = 90^\circ$, $\cos(90^\circ) = 0$.
+- When to use it: Any scenario involving circular motion where the object maintains a constant speed.
+- Common trap: Assuming that because friction is present, work must be non-zero; remember that work depends on the *component of force* in the direction of displacement.

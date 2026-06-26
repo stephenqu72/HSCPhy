@@ -1,0 +1,10 @@
+### Front
+How do launch angle $\theta$ and its complement $(90^\circ - \theta)$ compare in terms of projectile range ($R$) and maximum height ($H$)?
+
+### Back
+- **Key idea:** Complementary angles result in identical ranges, but different maximum heights.
+- **Formula / law / constant:** 
+  - $R = \frac{v^2 \sin(2\theta)}{g}$ 
+  - $H = \frac{v^2 \sin^2(\theta)}{2g}$
+- **When to use it:** When comparing trajectories launched at the same initial speed $v$.
+- **Common trap:** Assuming that because ranges are equal, heights must also be equal. Always remember that steeper angles yield higher vertical displacement.

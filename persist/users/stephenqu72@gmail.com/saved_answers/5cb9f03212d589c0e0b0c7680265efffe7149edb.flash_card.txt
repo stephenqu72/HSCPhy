@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work done to move a satellite between two circular orbits?
+
+### Back
+- **Key idea:** Work done equals the change in the total mechanical energy of the satellite system ($W = \Delta E_{total} = \Delta U + \Delta K$).
+- **Formula / law / constant / figure:** $W = U_f - U_i = -\frac{GMm}{r_f} - (-\frac{GMm}{r_i})$
+- **When to use it:** When calculating the energy change required for orbital maneuvers (orbital shifts).
+- **Common trap:** Forgetting that gravitational potential energy is negative; a decrease in $r$ makes $U$ "more negative," meaning $U$ decreases.

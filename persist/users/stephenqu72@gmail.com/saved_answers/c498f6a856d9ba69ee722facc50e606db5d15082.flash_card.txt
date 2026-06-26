@@ -1,0 +1,9 @@
+### Front
+What is the formula for the minimum speed ($v_{min}$) of a car on a banked curve considering the coefficient of static friction ($\mu_s$)?
+
+### Back
+- Key idea: At minimum speed, the car tends to slide down the slope, so static friction acts up the slope to provide the necessary centripetal force.
+- Formula: $v_{min} = \sqrt{rg \left( \frac{\tan\theta - \mu_s}{1 + \mu_s \tan\theta} \right)}$ 
+*(Note: The derivation in the saved text resulted in the formula for **maximum** speed; the minimum speed formula uses minus in the numerator and plus in the denominator).*
+- When to use it: To find the lower speed limit on a banked track where friction prevents the car from sliding inward.
+- Common trap: Confusing the signs for $v_{min}$ versus $v_{max}$. For $v_{min}$, the numerator is $(\tan\theta - \mu_s)$; for $v_{max}$, the numerator is $(\tan\theta + \mu_s)$.

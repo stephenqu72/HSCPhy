@@ -1,0 +1,8 @@
+### Front
+How do you determine if a vehicle will lose contact with a curved track (crest of a hill)?
+
+### Back
+- **Key idea:** The vehicle loses contact when the Normal force ($F_N$) drops to zero.
+- **Formula / law / constant / figure:** $mg = \frac{mv^2}{r} \implies v_{max} = \sqrt{gr}$
+- **When to use it:** Whenever a question asks for the "maximum speed" at the crest of a vertical circular path.
+- **Common trap:** Forgetting that at the *bottom* of a dip, gravity and centripetal force act in opposite directions ($F_N = mg + \frac{mv^2}{r}$), increasing the Normal force rather than decreasing it.

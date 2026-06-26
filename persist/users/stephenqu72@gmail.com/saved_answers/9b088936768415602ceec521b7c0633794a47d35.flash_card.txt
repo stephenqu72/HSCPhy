@@ -1,0 +1,8 @@
+### Front
+Distinguish between escape velocity ($v_e$) and orbital velocity ($v_o$) in terms of purpose and magnitude.
+
+### Back
+- **Key idea:** $v_e$ is the speed required to escape a gravitational field (total energy = 0); $v_o$ is the speed required to maintain a stable circular orbit.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{r}}$ and $v_o = \sqrt{\frac{GM}{r}}$. Note that $v_e = \sqrt{2} \cdot v_o$.
+- **When to use it:** Use $v_e$ for questions involving leaving a planet; use $v_o$ for satellites or circular motion in gravity.
+- **Common trap:** Confusing the two formulae. Remember that escape velocity is always $\sqrt{2}$ times larger than orbital velocity at the same radius.

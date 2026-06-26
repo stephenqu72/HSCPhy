@@ -1,0 +1,8 @@
+### Front
+When solving projectile motion problems involving an object landing at a different vertical height than its launch point, what is the fundamental principle and the primary kinematic equation used to find the time of flight?
+
+### Back
+- **Key idea:** Vertical and horizontal motion components are independent; the time of flight is determined solely by the vertical displacement.
+- **Formula / law / constant / figure:** $\Delta y = v_{0y}t + \frac{1}{2}a_yt^2$ (where $a_y = -9.8 \text{ m/s}^2$).
+- **When to use it:** Whenever you need to find the total time of flight before calculating the horizontal range ($x = v_xt$).
+- **Common trap:** Forgetting that $\Delta y$ is the *displacement* (final height minus initial height), not the maximum height reached. Always check signs (e.g., landing below launch = negative $\Delta y$).

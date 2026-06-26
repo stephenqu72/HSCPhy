@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining mass of a radioactive sample after a specific number of half-lives have elapsed?
+
+### Back
+- Key idea: Radioactive decay follows an exponential reduction based on the number of half-lives ($n$).
+- Formula / law / constant / figure: $N_t = N_0 \times (\frac{1}{2})^n$
+- When to use it: To determine the final amount ($N_t$) given an initial amount ($N_0$) and the number of half-lives ($n = \frac{\text{total time}}{\text{half-life duration}}$).
+- Common trap: Forgetting that $n$ does not have to be an integer; it is simply the ratio of elapsed time to half-life. Also, check significant figures of the initial $N_0$ for your final answer.

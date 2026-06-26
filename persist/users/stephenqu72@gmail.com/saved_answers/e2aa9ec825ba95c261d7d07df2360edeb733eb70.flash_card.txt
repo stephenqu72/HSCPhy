@@ -1,0 +1,11 @@
+### Front
+What is the formula for calculating torque ($\tau$) and what does each variable represent?
+
+### Back
+- Key idea: Torque is the turning effect of a force.
+- Formula: $\tau = rF\sin(\phi)$
+    - $r$: distance from pivot to force application point.
+    - $F$: magnitude of applied force.
+    - $\phi$: angle between position vector $\vec{r}$ and force vector $\vec{F}$.
+- When to use it: Whenever a force is applied to an object to cause rotation about a pivot.
+- Common trap: Using the angle given in a diagram without verifying if it is the angle between the **position vector** and the **force vector** (ensure you use the perpendicular component).

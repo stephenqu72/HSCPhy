@@ -1,0 +1,8 @@
+### Front
+What distinguishes a controlled nuclear chain reaction from an uncontrolled one?
+
+### Back
+- Key idea: The neutron reproduction factor ($k$) determines the reaction rate.
+- Formula / law / constant / figure: $k > 1$ (uncontrolled/exponential); $k = 1$ (controlled/stable).
+- When to use it: To explain the difference between nuclear weapons (runaway fission) and nuclear reactors (steady power generation).
+- Common trap: Forgetting that control rods (boron/cadmium) act as "neutron sinks" to maintain $k=1$, rather than stopping the reaction entirely.

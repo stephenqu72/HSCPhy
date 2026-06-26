@@ -1,0 +1,8 @@
+### Front
+What is the formula for the minimum speed ($v$) required for an object to complete a vertical circular loop of radius $r$ without losing contact?
+
+### Back
+- Key idea: At minimum speed, the normal force is zero, meaning gravity provides the entire centripetal force ($mg = mv^2/r$).
+- Formula / law / constant / figure: $v = \sqrt{gr}$
+- When to use it: Circular motion problems involving vertical loops at the "critical" or "minimum" speed point.
+- Common trap: Forgetting that mass cancels out; or confusing the minimum speed at the top with the speed required at the bottom (which involves conservation of energy).

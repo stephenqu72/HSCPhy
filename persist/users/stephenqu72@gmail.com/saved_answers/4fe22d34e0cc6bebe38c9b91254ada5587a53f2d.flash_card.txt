@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the torque ($\tau$) applied by a force at an angle to a pivot?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force (moment of force).
+- Formula / law / constant / figure: $\tau = rF \sin(\theta)$
+- When to use it: Whenever a force is applied at a distance ($r$) from a pivot point at an angle ($\theta$) to the lever arm.
+- Common trap: Forgetting to convert distance ($r$) into SI units (meters) or using the wrong angle (the angle must be between the position vector and the force vector).

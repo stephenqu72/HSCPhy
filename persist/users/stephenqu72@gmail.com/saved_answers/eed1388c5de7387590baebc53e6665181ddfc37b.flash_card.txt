@@ -1,0 +1,8 @@
+### Front
+What is the Principle of Moments and how is it used to calculate the equilibrium of a balanced beam (lever)?
+
+### Back
+- **Key idea:** For a system to be in rotational equilibrium, the sum of clockwise moments must equal the sum of counter-clockwise moments ($\sum \tau_{cw} = \sum \tau_{ccw}$).
+- **Formula:** $\tau = Fd$ (or $m_A d_A = m_B d_B$ if $g$ is constant).
+- **When to use it:** Problems involving seesaws, beams, or levers where forces act at distances from a pivot point.
+- **Common trap:** Forgetting to measure distances ($d$) strictly from the pivot point or failing to include the weight of the beam itself if it is non-uniform.

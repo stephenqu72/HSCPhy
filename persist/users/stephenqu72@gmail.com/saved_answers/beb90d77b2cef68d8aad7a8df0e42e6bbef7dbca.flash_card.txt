@@ -1,0 +1,8 @@
+### Front
+What is the formula for the minimum adhesive force ($F_{adh}$) required to keep an object of mass $m$ attached to the bottom of a vertical wheel rotating at angular velocity $\omega$ with radius $R$?
+
+### Back
+- Key idea: At the bottom, the adhesive force must overcome gravity and provide centripetal force.
+- Formula / law / constant / figure: $F_{adh} = m\omega^2R + mg$
+- When to use it: Any circular motion problem where an adhesive or tension force must counteract gravity while providing centripetal acceleration.
+- Common trap: Forgetting to add $mg$; assuming $F_{adh} = m\omega^2R$ (which is only true if gravity is absent or ignored).

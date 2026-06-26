@@ -1,0 +1,8 @@
+### Front
+How does Newton’s Law of Universal Gravitation determine the ratio of forces between objects at the same distance?
+
+### Back
+- **Key idea:** Gravitational force ($F$) is directly proportional to the product of the masses ($m_1 \times m_2$) when distance ($r$) and $G$ are constant.
+- **Formula / law / constant / figure:** $F = \frac{G m_1 m_2}{r^2}$; Gravitational constant $G$.
+- **When to use it:** To compare forces between multiple bodies in a system without calculating absolute values.
+- **Common trap:** Forgetting to square the distance ($r^2$) if the distances differ between the two scenarios.

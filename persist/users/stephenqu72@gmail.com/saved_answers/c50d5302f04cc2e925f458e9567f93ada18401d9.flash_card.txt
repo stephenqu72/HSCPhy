@@ -1,0 +1,8 @@
+### Front
+What is the most efficient method to calculate the final velocity or kinetic energy of an object in projectile motion when air resistance is ignored?
+
+### Back
+- **Key idea:** Law of Conservation of Mechanical Energy.
+- **Formula / law / constant / figure:** $E_{total, \text{initial}} = E_{total, \text{final}} \implies \frac{1}{2}mv_i^2 + mgh_i = \frac{1}{2}mv_f^2 + mgh_f$.
+- **When to use it:** Use it as a "shortcut" for energy/velocity problems to avoid complex vector kinematics.
+- **Common trap:** Forgetting to include initial kinetic energy if the object is thrown at an angle, or mistakenly assuming initial velocity is zero.

@@ -1,0 +1,8 @@
+### Front
+How does a banked track provide the necessary centripetal force for a cyclist turning at the design speed?
+
+### Back
+- Key idea: The horizontal component of the normal force ($F_N \sin\theta$) provides the centripetal force.
+- Formula / law / constant / figure: $F_N \sin\theta = \frac{mv^2}{r}$ and $F_N \cos\theta = mg$
+- When to use it: To determine the design speed for a banked curve where friction is zero.
+- Common trap: Thinking friction is required; at the design speed, the normal force alone provides the required centripetal force.

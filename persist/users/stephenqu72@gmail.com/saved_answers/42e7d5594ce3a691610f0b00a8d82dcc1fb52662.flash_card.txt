@@ -1,0 +1,8 @@
+### Front
+Which physical properties are identical for all geostationary satellites, and which are not?
+
+### Back
+- **Key idea:** All geostationary satellites share the same orbital period ($T \approx 24$h), radius ($r$), speed ($v$), and acceleration ($a$). Properties dependent on mass ($m$), such as Kinetic Energy ($K$) and Gravitational Potential Energy ($U$), vary.
+- **Formula / law:** Kepler’s Third Law ($T^2 \propto r^3$) and $v = \sqrt{\frac{GM}{r}}$.
+- **When to use it:** When comparing orbital characteristics of multiple satellites in a geostationary orbit.
+- **Common trap:** Assuming energy-related values (Kinetic or Potential) are constant. Always check if a property depends on the mass of the satellite ($m$).

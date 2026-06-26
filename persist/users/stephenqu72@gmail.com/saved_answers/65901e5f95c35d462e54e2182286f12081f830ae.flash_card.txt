@@ -1,0 +1,8 @@
+### Front
+How do you determine if a spacecraft will escape Earth’s gravitational field, and how does its high velocity affect onboard clock measurements?
+
+### Back
+- **Key idea:** Escape velocity ($v_e$) for gravitational release and Special Relativity (Time Dilation) for clock synchronization.
+- **Formula / law / constant / figure:** $v_e = \sqrt{\frac{2GM}{r}}$ and $t = \gamma t_0$ (where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$).
+- **When to use it:** Use $v_e$ when comparing kinetic energy to gravitational potential energy; use time dilation when comparing proper time ($t_0$) to coordinate time ($t$) at high relativistic speeds.
+- **Common trap:** For $v_e$, remember that $r$ is the distance from the **center of the Earth** ($R_E + h$), not just the altitude ($h$). For time dilation, remember the moving clock runs **slower** relative to an Earth-based observer.

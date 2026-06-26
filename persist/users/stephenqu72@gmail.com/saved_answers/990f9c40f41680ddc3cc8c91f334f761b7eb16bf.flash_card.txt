@@ -1,0 +1,8 @@
+### Front
+What two relativistic effects must be corrected for to maintain GPS positional accuracy, and what is the net effect on satellite clocks?
+
+### Back
+- **Key idea:** Time dilation due to satellite velocity (SR) and gravitational potential (GR).
+- **Formula / law / constant / figure:** SR: $t' = \gamma t$; GR: gravitational time dilation; Net shift $\approx +38 \mu s/day$.
+- **When to use it:** Questions regarding GPS precision, satellite timing, or practical applications of Einstein’s theories.
+- **Common trap:** Forgetting that General Relativity makes satellite clocks run *faster* (due to weaker gravity), which opposes the *slowing* effect of Special Relativity.

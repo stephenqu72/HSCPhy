@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) of a satellite at a specific altitude above Earth?
+
+### Back
+- **Key idea:** The orbital period is determined by Kepler’s Third Law, where the total orbital radius ($r$) is the sum of Earth's radius ($R_E$) and the satellite's altitude ($h$).
+- **Formula:** $T = \sqrt{\frac{4\pi^2r^3}{GM}}$, where $r = R_E + h$
+- **When to use it:** To determine the time taken for one complete orbit given an altitude or orbital radius.
+- **Common trap:** Forgetting to add Earth's radius ($R_E \approx 6.37 \times 10^6\text{ m}$) to the given altitude ($h$). Always ensure $r$ is measured from the center of the Earth.

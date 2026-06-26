@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work required to place a rocket into a stable circular orbit?
+
+### Back
+- **Key idea:** Work done equals the change in total mechanical energy ($W = \Delta E = E_f - E_i$).
+- **Formula / law / constant / figure:** $E_{total} = K + U = -\frac{GMm}{2r}$.
+- **When to use it:** Whenever calculating the energy requirements for orbital transfer or launch.
+- **Common trap:** Forgetting that in orbit, total energy is equal to *half* the gravitational potential energy ($E = \frac{1}{2}U$). Ensure you account for initial kinetic energy at the Earth's surface if specified (though often negligible).

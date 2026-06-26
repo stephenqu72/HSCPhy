@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) exerted by a force ($F$) at a distance ($r$) from a pivot point at an angle ($\theta$)?
+
+### Back
+- Key idea: Torque is the rotational analogue of force, representing the turning effect of an object.
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$
+- When to use it: To find the turning effect when a force is applied to a lever arm, where $\theta$ is the angle between the lever arm ($r$) and the force vector ($F$).
+- Common trap: Forgetting to convert units to SI (meters) or using the angle relative to the normal rather than the angle relative to the lever arm.

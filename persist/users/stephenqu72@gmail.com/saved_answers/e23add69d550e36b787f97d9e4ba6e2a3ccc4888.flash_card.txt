@@ -1,0 +1,8 @@
+### Front
+How do you determine the decay constant ($\lambda$) from a radioactive decay graph and what is the crucial unit requirement?
+
+### Back
+- Key idea: Use the half-life ($t_{1/2}$) where activity $A(t) = 0.5 A_0$.
+- Formula / law / constant / figure: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: To calculate the rate of decay when given a time-based decay curve.
+- Common trap: Failing to convert the time units from the graph (e.g., days or years) into SI units (seconds) before calculating $\lambda$.

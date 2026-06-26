@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship between the half-life ($t_{1/2}$) and the decay constant ($\lambda$) of a radioactive isotope?
+
+### Back
+- **Key idea:** Half-life is inversely proportional to the decay constant; a higher $\lambda$ signifies a faster decay rate and a shorter $t_{1/2}$.
+- **Formula:** $t_{1/2} = \frac{\ln(2)}{\lambda}$
+- **When to use it:** To calculate the half-life given the decay constant, or vice versa, in radioactive decay problems.
+- **Common trap:** Confusing "decay constant" ($\lambda$) with "decay rate/activity" ($A = \lambda N$); activity depends on the number of nuclei present ($N$), but the decay constant is an intrinsic property of the isotope.

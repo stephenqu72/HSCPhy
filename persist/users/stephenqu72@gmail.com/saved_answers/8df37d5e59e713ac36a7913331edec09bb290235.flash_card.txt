@@ -1,0 +1,8 @@
+### Front
+How do you determine the fundamental frequency ($f_1$) of a string fixed at both ends when given two consecutive resonant frequencies ($f_n$ and $f_{n+1}$)?
+
+### Back
+- Key idea: Consecutive resonant frequencies are separated by the fundamental frequency.
+- Formula / law / constant / figure: $f_1 = \Delta f = f_{n+1} - f_n$
+- When to use it: Whenever you are given a set of resonant frequencies for a string or pipe fixed at both ends.
+- Common trap: Confusing the fundamental frequency ($f_1$) with the first overtone ($f_2 = 2f_1$). Always check the harmonic number ($n$) before calculating wavelength.

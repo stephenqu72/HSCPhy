@@ -1,0 +1,8 @@
+### Front
+What factors determine the escape velocity ($v_e$) of an object from a planet, and does the rocket's mass affect it?
+
+### Back
+- **Key idea:** $v_e$ is the speed required for an object's total mechanical energy to reach zero at infinity.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{R}}$
+- **When to use it:** To calculate the minimum launch velocity needed to escape a celestial body’s gravitational field.
+- **Common trap:** The mass of the projectile (the rocket) cancels out in the derivation; therefore, the rocket's mass has **no effect** on escape velocity.

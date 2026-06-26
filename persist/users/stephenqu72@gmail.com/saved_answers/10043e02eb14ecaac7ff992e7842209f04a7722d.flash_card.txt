@@ -1,0 +1,8 @@
+### Front
+What is the physics principle and derivation for the maximum speed ($v$) of a car turning on a flat, horizontal circular track?
+
+### Back
+- **Key idea:** Static friction provides the necessary centripetal force to keep the car in a circular path.
+- **Formula / law / constant / figure:** $\mu_s mg = \frac{mv^2}{r} \implies v = \sqrt{\mu_s gr}$
+- **When to use it:** When calculating the speed limit for a vehicle on a flat curve where friction is the only horizontal force.
+- **Common trap:** Assuming the normal force equals something other than $mg$ or forgetting to convert units (e.g., $\text{m s}^{-1}$ to $\text{km h}^{-1}$).

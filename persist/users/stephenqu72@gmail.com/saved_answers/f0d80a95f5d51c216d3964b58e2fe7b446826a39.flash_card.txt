@@ -1,0 +1,8 @@
+### Front
+How do you calculate the distance to a galaxy using its spectral redshift?
+
+### Back
+- Key idea: Use the Doppler shift of a known spectral line (e.g., $H_{\alpha}$) to find recession velocity, then apply Hubble's Law.
+- Formula / law / constant / figure: $v = c \cdot \frac{(\Delta\lambda/\lambda + 1)^2 - 1}{(\Delta\lambda/\lambda + 1)^2 + 1}$ and $v = H_0d$.
+- When to use it: When given the observed and rest wavelengths of a galaxy's spectral line to find distance.
+- Common trap: Forgetting to use the relativistic Doppler formula if the velocity is a significant fraction of $c$, or using the wrong rest wavelength for the $H_{\alpha}$ line ($656\text{ nm}$).

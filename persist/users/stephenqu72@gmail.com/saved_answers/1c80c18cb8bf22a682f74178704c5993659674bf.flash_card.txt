@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant initial velocity ($u$) of a projectile given horizontal range ($R$) and total flight time ($t$)?
+
+### Back
+- Key idea: Treat horizontal and vertical motion components as independent vectors and combine them using Pythagoras.
+- Formula / law / constant / figure: $u_x = R/t$; $u_y = \frac{1}{2}gt$; $u = \sqrt{u_x^2 + u_y^2}$
+- When to use it: When calculating total initial velocity for a projectile landing at the same vertical height it was launched from.
+- Common trap: Forgetting that $u_y$ is only half of $gt$ if using the symmetry of the flight path ($0 = u_yt - \frac{1}{2}gt^2$).

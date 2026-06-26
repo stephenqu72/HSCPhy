@@ -1,0 +1,8 @@
+### Front
+For an object moving in a horizontal circle on a frictionless banked surface, what is the relationship between the angle of inclination ($\theta$), radius ($r$), and velocity ($v$)?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the required centripetal force ($F_c = N \sin\theta$).
+- **Formula:** $v = \sqrt{rg \tan\theta}$
+- **When to use it:** When calculating the design speed for a banked curve or circular path where no friction is present.
+- **Common trap:** Confusing $\tan\theta$ with $\sin\theta$ or forgetting that $r$ is the radius of the circular path, not necessarily the radius of the track or tube length.

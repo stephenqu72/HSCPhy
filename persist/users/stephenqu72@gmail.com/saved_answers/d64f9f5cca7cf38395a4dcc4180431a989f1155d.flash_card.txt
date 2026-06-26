@@ -1,0 +1,8 @@
+### Front
+How do you calculate the uncertainty of a quotient (e.g., $P = F/A$) and what does a non-zero $x$-intercept indicate in a linear pressure-depth graph?
+
+### Back
+- Key idea: Relative uncertainties add during division; a non-zero $x$-intercept indicates a systematic error (zero error).
+- Formula / law: $\frac{\Delta P}{P} = \frac{\Delta F}{F} + \frac{\Delta A}{A}$
+- When to use it: Whenever calculating derived values from experimental data or evaluating the validity of a linear hypothesis.
+- Common trap: Forgetting to convert units to SI (e.g., $\text{cm}^2$ to $\text{m}^2$) before calculating absolute uncertainty.

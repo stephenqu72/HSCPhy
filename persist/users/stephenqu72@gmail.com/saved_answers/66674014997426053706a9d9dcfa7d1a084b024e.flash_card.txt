@@ -1,0 +1,8 @@
+### Front
+When graphing $r$ (cable resistance) vs $1/i$ (inverse current) for a series circuit with a constant voltage $V$, what do the slope and y-intercept represent?
+
+### Back
+- **Key idea:** Linearizing the circuit equation $r = V(1/i) - R$ to extract load resistance.
+- **Formula / law / constant / figure:** $y = mx + c$, where slope $m = V$ and y-intercept $c = -R$.
+- **When to use it:** When determining the resistance of a globe or load ($R$) from a set of $(i, r)$ data points.
+- **Common trap:** Forgetting that the y-intercept equals $-R$ (negative load resistance), meaning the intercept will be below the x-axis.

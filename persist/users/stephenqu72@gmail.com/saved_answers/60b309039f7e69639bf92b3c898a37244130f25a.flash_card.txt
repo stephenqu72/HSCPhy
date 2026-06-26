@@ -1,0 +1,8 @@
+### Front
+Why is a linear model ($\tau = k\theta$) invalid for describing the relationship between torque and angle in a mechanical system?
+
+### Back
+- Key idea: Torque is defined by a sinusoidal function, not a linear one.
+- Formula: $\tau = rF\sin(\theta)$
+- When to use it: To determine the torque produced by an applied force at varying angles.
+- Common trap: Assuming small-angle approximations (where $\sin\theta \approx \theta$ in radians) apply to large angles, leading to overestimation as $\theta$ approaches $90^\circ$.

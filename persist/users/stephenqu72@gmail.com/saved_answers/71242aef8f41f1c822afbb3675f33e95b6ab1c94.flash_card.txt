@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital velocity of a planet assuming a circular orbit?
+
+### Back
+- Key idea: Orbital velocity is the circumference of the orbit divided by the orbital period.
+- Formula / law / constant / figure: $v = \frac{2\pi r}{T}$
+- When to use it: To determine the constant tangential speed of an object in a uniform circular orbit.
+- Common trap: Failing to convert units into SI (e.g., leaving radius in km or time in days/hours) before calculating.

@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the vertical velocity ($v_y$) of an electron traversing a uniform electric field of length $l$ with horizontal velocity $v_x$.
+
+### Back
+- Key idea: Uniform acceleration in the vertical direction while horizontal velocity remains constant.
+- Formula / law / constant / figure: $v_y = \frac{eEl}{mv_x}$ (derived from $F=ma$ and $v=u+at$).
+- When to use it: Projectile-like motion of a charged particle entering a parallel plate electric field perpendicularly.
+- Common trap: Forgetting that the time spent in the field ($t = l/v_x$) depends on the constant horizontal velocity.

@@ -1,0 +1,8 @@
+### Front
+What is the formula for the gravitational potential energy ($U$) of a satellite in a central force field, and how is the orbital radius ($r$) defined?
+
+### Back
+- Key idea: Gravitational potential energy is defined as zero at infinity; thus, it is negative for any bound system.
+- Formula: $U = -\frac{GMm}{r}$
+- When to use it: Whenever calculating the energy of an object in a gravitational field where the distance from the center of the mass is significant.
+- Common trap: Failing to add the planet's radius ($R$) to the satellite's altitude ($h$) to obtain the total orbital radius ($r$).

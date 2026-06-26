@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch angle ($\theta$) of a projectile given its horizontal ($v_x$) and initial vertical ($u_y$) velocity components?
+
+### Back
+- **Key idea:** The velocity components form a right-angled triangle where the launch angle is the angle between the resultant velocity vector and the horizontal axis.
+- **Formula:** $\tan(\theta) = \frac{u_y}{v_x} \implies \theta = \arctan\left(\frac{u_y}{v_x}\right)$
+- **When to use it:** Whenever the velocity vector components are known or can be derived from displacement/time data.
+- **Common trap:** Confusing the ratio; ensure the vertical component ($u_y$) is the numerator (opposite) and the horizontal component ($v_x$) is the denominator (adjacent).

@@ -1,0 +1,8 @@
+### Front
+Given two radioactive samples with equal activity ($A$), what is the relationship between their decay constants ($\lambda$) and the number of nuclei ($N$)?
+
+### Back
+- Key idea: Activity is the product of the decay constant and the number of radioactive nuclei.
+- Formula / law / constant / figure: $A = \lambda N$ (Inverse proportionality: $N \propto 1/\lambda$)
+- When to use it: When comparing two samples with equal activity to determine the ratio of their nuclei or decay constants.
+- Common trap: Forgetting that a higher decay constant means fewer nuclei are required to produce the same activity.

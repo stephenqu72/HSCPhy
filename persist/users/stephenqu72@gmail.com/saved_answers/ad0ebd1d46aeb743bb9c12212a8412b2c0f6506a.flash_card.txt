@@ -1,0 +1,8 @@
+### Front
+What is the formula for the optimal banking angle ($\theta$) of a curved road where no friction is required?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force required for circular motion.
+- Formula: $\tan(\theta) = \frac{v^2}{rg}$
+- When to use it: When a vehicle travels around a banked curve at a specific "design speed" where no lateral friction is needed.
+- Common trap: Forgetting to convert velocity from $\text{km/h}$ to $\text{m/s}$ (divide by 3.6) before substituting into the formula.

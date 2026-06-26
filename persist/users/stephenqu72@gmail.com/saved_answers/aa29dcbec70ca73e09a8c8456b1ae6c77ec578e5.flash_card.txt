@@ -1,0 +1,8 @@
+### Front
+How can you determine the mass ($M$) of a planet using a spacecraft's changing velocity and altitude?
+
+### Back
+- **Key idea:** Conservation of mechanical energy; the loss in kinetic energy equals the gain in gravitational potential energy.
+- **Formula:** $|\Delta E_k| = GMm \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
+- **When to use it:** When an object moves between two points in a gravitational field where only gravity does work.
+- **Common trap:** Confusing potential energy change ($\Delta E_p$) with the negative sign; ensure the change is calculated as $E_{p,final} - E_{p,initial}$ and equate to the positive magnitude of kinetic energy loss.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity of an object falling towards a planet using the Law of Conservation of Energy?
+
+### Back
+- **Key idea:** Total mechanical energy ($E = K + U$) is conserved; kinetic energy gained equals the gravitational potential energy lost.
+- **Formula:** $\frac{1}{2}mv_i^2 - \frac{GMm}{r_i} = \frac{1}{2}mv_f^2 - \frac{GMm}{r_f}$
+- **When to use it:** When calculating orbital transitions, reentry speeds, or projectile motion involving large distances where $g$ is not constant.
+- **Common trap:** Forgetting the negative sign in the gravitational potential energy formula ($U = -GMm/r$) or failing to convert km/s to m/s.

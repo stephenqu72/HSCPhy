@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship between orbital velocity ($v_{\text{orb}}$) and escape velocity ($v_{\text{esc}}$) for an object at a distance $r$ from a central mass?
+
+### Back
+- Key idea: Escape velocity is the speed required to reach infinity ($E=0$); orbital velocity maintains a circular path.
+- Formula / law / constant / figure: $v_{\text{esc}} = \sqrt{2}v_{\text{orb}} = \sqrt{\frac{2GM}{r}}$
+- When to use it: Any problem comparing the energy required to maintain orbit versus the energy required to leave a gravitational field.
+- Common trap: Forgetting the factor of $\sqrt{2}$ or confusing the total mechanical energy in orbit ($E = -GMm/2r$) with the kinetic energy required for escape.

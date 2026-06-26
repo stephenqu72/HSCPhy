@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass ($M$) of a central body given the orbital velocity ($v$) and orbital radius ($r$) of a satellite?
+
+### Back
+- Key idea: Equate gravitational force to centripetal force ($F_g = F_c$).
+- Formula: $M = \frac{v^2 r}{G}$
+- When to use it: When given orbital speed and radius to determine the mass of the primary body.
+- Common trap: Forgetting to convert velocity from $\text{km/s}$ to $\text{m/s}$ before squaring it.

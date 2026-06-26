@@ -1,0 +1,8 @@
+### Front
+How do you determine the landing position of a projectile relative to a moving target?
+
+### Back
+- **Key idea:** Calculate the final horizontal position of both the projectile and the target at the same time ($t$) relative to a common origin.
+- **Formula / law / constant / figure:** $\Delta x = v_x t$ (for horizontal constant velocity) and $\Delta y = v_{iy}t + \frac{1}{2}a_y t^2$ (to find time of flight).
+- **When to use it:** When analyzing intersection problems or relative landing positions in projectile motion.
+- **Common trap:** Forgetting to account for the initial displacement of the moving target at $t=0$.

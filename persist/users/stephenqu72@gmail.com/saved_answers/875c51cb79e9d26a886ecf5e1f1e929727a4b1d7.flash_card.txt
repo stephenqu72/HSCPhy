@@ -1,0 +1,8 @@
+### Front
+How do you calculate the number of radioactive nuclei remaining after a specific time $t$, given the initial amount $N_0$ and the half-life $t_{1/2}$?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process where the number of nuclei halves every half-life.
+- **Formula / law / constant / figure:** $N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{t_{1/2}}}$ (or $N = N_0 e^{-\lambda t}$)
+- **When to use it:** When calculating the amount of a radioactive isotope remaining after a set time period.
+- **Common trap:** Mismatching units for $t$ and $t_{1/2}$, or incorrectly calculating the number of half-lives ($n = t / t_{1/2}$) before applying the exponent.

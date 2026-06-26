@@ -1,0 +1,8 @@
+### Front
+What is the condition for destructive interference in terms of path difference ($\Delta d$)?
+
+### Back
+- Key idea: Destructive interference occurs when waves arrive in anti-phase, resulting in a node (quiet region).
+- Formula / law: $\Delta d = (n - 0.5)\lambda$, where $n = 1, 2, 3 \dots$
+- When to use it: To locate "quiet spots," "nodes," or "minimum intensity" in two-source interference patterns.
+- Common trap: Forgetting that $n$ starts at $1$ for the *first* node (so the first path difference is $0.5\lambda$, not $1\lambda$). Also, ensure the path difference is calculated as the *difference* between the two distances to the sources.

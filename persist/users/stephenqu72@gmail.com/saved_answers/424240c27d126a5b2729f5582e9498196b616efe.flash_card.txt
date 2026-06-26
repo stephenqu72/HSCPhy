@@ -1,0 +1,8 @@
+### Front
+Explain the energy transformations and deflection mechanism in a Cathode Ray Tube (CRT).
+
+### Back
+- **Key idea:** Electrical potential energy converts to kinetic energy (via voltage), then to light/thermal energy (at screen). Lorentz force ($F = qvB\sin\theta$) steers the beam for image formation.
+- **Formula / law / constant / figure:** $W = qV = \Delta E_k$; $F = qvB\sin\theta$ (Lorentz force).
+- **When to use it:** When asked about CRT electron dynamics, energy conservation, or beam manipulation.
+- **Common trap:** Forgetting that "work done by the electric field" equals the "gain in kinetic energy" ($qV = \frac{1}{2}mv^2$).

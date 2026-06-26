@@ -1,0 +1,11 @@
+### Front
+When a charged object is suspended by a string in electrostatic equilibrium, how do you determine the tension ($T$) and electrostatic force ($F_E$) using vector resolution?
+
+### Back
+- **Key idea:** The object is in static equilibrium ($\sum F = 0$); resolve the tension force into vertical ($T\cos\theta$) and horizontal ($T\sin\theta$) components.
+- **Formula / law / constant / figure:** 
+  - $T\cos\theta = mg$
+  - $T\sin\theta = F_E$
+  - $\tan\theta = \frac{F_E}{mg}$
+- **When to use it:** Whenever a charged object is suspended at an angle $\theta$ from the vertical due to an electric force.
+- **Common trap:** Forgetting to convert the angle $\theta$ if the problem provides the total angle between the two strings (the angle with the vertical is half the total angle). Also, ensure mass is in kg.

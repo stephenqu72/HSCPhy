@@ -1,0 +1,8 @@
+### Front
+Why is measuring multiple oscillations of a simple pendulum more accurate than measuring a single swing?
+
+### Back
+- Key idea: Reduces the impact of human reaction time (random error) on the period ($T$) measurement.
+- Formula / law / constant / figure: $g = \frac{4\pi^2L}{T^2}$
+- When to use it: When calculating acceleration due to gravity ($g$) in an experimental setting.
+- Common trap: Assuming "simplicity" or "ease of calculation" improves accuracy; accuracy is determined by how well you mitigate random and systematic errors.

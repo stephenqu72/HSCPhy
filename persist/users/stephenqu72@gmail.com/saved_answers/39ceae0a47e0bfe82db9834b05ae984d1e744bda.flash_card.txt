@@ -1,0 +1,8 @@
+### Front
+How do you calculate the escape velocity ($v_e$) of an object from a massive body, and what principle of physics is it based on?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed required for an object to reach an infinite distance from a mass with zero kinetic energy.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{r}}$ (Derived from the Conservation of Mechanical Energy: $E_k + U = 0$).
+- **When to use it:** When calculating the speed needed to break free from a planet's gravitational field.
+- **Common trap:** Using the distance from the Sun or a secondary body instead of the distance $r$ from the centre of the target planet.

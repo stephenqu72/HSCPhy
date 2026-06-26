@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational force acting on a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force ($F_g = F_c$).
+- **Formula:** $F = \frac{4\pi^2 mr}{T^2}$
+- **When to use it:** When given mass, orbital radius, and period for a satellite in uniform circular motion.
+- **Common trap:** Forgetting to convert the orbital period ($T$) into seconds.

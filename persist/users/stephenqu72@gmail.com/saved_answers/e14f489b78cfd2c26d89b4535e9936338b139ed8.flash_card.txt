@@ -1,0 +1,8 @@
+### Front
+How do the energy changes of a satellite in a circular orbit compare to a charged particle in a uniform electric field?
+
+### Back
+- Key idea: Both systems convert potential energy into kinetic energy as the object moves to a state of lower potential energy ($U$).
+- Formula / law / constant / figure: Satellite: $U_g = -\frac{GMm}{r}$ (Inverse-square); Electric: $\Delta U_e = q\Delta V$ (Uniform/Linear).
+- When to use it: Comparing gravitational and electric field dynamics; calculating work/energy changes in fields.
+- Common trap: Assuming $U_g$ is positive; forgetting that as a satellite moves to a lower orbit ($r$ decreases), its total energy decreases, but its kinetic energy increases.

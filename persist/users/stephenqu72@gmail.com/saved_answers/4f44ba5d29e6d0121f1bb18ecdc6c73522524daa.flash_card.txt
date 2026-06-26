@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius ($r$) for a satellite at a given altitude ($h$) above the Earth's surface?
+
+### Back
+- Key idea: Orbital radius must be measured from the center of the Earth, not the surface.
+- Formula / law / constant / figure: $r = R_E + h$ (where $R_E$ is Earth's radius).
+- When to use it: Any orbital mechanics calculation (e.g., $U = -GMm/r$, $v = \sqrt{GM/r}$, $T^2 \propto r^3$).
+- Common trap: Using only the altitude ($h$) instead of the total distance from the center ($R_E + h$).

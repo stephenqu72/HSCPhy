@@ -1,0 +1,8 @@
+### Front
+How does halving the period ($T$) of a rotating cylinder affect the normal force exerted by the wall on an object?
+
+### Back
+- **Key idea:** Centripetal force is inversely proportional to the square of the period ($F_c \propto 1/T^2$).
+- **Formula:** $F_c = \frac{4\pi^2 mr}{T^2}$
+- **When to use it:** When calculating force requirements for uniform circular motion in rotating frames (e.g., gravitron rides).
+- **Common trap:** Assuming the force is inversely proportional to $T$ rather than $T^2$; halving the period quadruples the force, it does not merely double it.

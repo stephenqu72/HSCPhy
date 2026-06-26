@@ -1,0 +1,8 @@
+### Front
+How can you determine the mass ($M$) of a planet using a graph of gravitational acceleration ($g$) vs $1/r^2$?
+
+### Back
+- **Key idea:** The relationship $g = GM(1/r^2)$ is linear; the gradient of this graph represents the product $GM$.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; Gradient $= GM$; $G = 6.67 \times 10^{-11} \text{ N m}^2\text{kg}^{-2}$.
+- **When to use it:** When given experimental data for gravity at varying distances from a celestial body.
+- **Common trap:** Forgetting to convert units (e.g., $r$ in km to m) before calculating $1/r^2$ or failing to divide the gradient by $G$ to isolate $M$.

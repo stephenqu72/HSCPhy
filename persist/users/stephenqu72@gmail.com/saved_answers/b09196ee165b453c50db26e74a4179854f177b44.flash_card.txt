@@ -1,0 +1,8 @@
+### Front
+How does the required radius of a curved track change when the speed of a train is increased, assuming a constant maximum safe sideways force?
+
+### Back
+- Key idea: For a constant centripetal force ($F_c$), the radius ($r$) is directly proportional to the square of the velocity ($v^2$).
+- Formula / law / constant / figure: $F_c = \frac{mv^2}{r} \implies r \propto v^2$. No fixed constant.
+- When to use it: When calculating safe speed limits or track design requirements where the lateral (sideways) force is limited.
+- Common trap: Forgetting to square the velocity ratio; doubling the speed requires four times the radius, not twice.

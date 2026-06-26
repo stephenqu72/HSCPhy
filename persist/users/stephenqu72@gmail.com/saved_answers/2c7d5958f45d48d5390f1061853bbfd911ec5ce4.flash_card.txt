@@ -1,0 +1,8 @@
+### Front
+State the two postulates of Einstein's special theory of relativity and the formula used to calculate length contraction.
+
+### Back
+- Key idea: (1) Laws of physics are identical in all inertial frames. (2) Speed of light ($c$) is constant for all observers.
+- Formula: $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$
+- When to use it: To determine observed length ($L$) or proper length ($L_0$) for objects moving at relativistic speeds.
+- Common trap: Forgetting that $L_0$ (proper length) is the length measured by an observer at rest relative to the object; failing to solve for $L_0$ first in multi-step problems.

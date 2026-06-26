@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial velocity required for an object to reach a specific minimum velocity at "infinity"?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy.
+- **Formula:** $\frac{1}{2}mv_i^2 - \frac{GMm}{r_i} = \frac{1}{2}mv_f^2$ (since $U_g = 0$ as $r \to \infty$).
+- **When to use it:** Problems involving projectiles leaving a gravitational field where the object retains kinetic energy at extreme distances.
+- **Common trap:** Forgetting that gravitational potential energy is negative ($U = -GMm/r$) and mistakenly setting the potential energy at infinity to something other than zero.

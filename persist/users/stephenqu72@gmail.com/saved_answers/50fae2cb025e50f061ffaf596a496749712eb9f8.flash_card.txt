@@ -1,0 +1,8 @@
+### Front
+What is the formula for the escape velocity of an object from a planet, and what physical principle is it derived from?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed required for an object to reach infinity with zero kinetic energy, effectively escaping a gravitational field.
+- **Formula / law / constant / figure:** Derived from the **Conservation of Mechanical Energy** ($E_k + E_p = 0$); $v_e = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** When calculating the minimum launch velocity required for a projectile to permanently escape a planet's gravitational influence.
+- **Common trap:** Forgetting to convert units (e.g., radius in km to m) or miscalculating powers of 10 in the calculator.

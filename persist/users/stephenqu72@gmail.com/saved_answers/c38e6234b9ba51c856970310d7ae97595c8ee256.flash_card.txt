@@ -1,0 +1,8 @@
+### Front
+Why should you measure the time for multiple oscillations (e.g., $n=5$) instead of a single period when conducting a pendulum experiment?
+
+### Back
+- Key idea: Reduction of absolute uncertainty caused by human reaction time.
+- Formula / law / constant / figure: $\Delta T = \frac{\Delta t_{reaction}}{n}$
+- When to use it: Whenever measuring time-based intervals (like oscillations) to improve experimental precision.
+- Common trap: Thinking it eliminates systematic errors like air resistance; it only reduces random errors associated with timing.

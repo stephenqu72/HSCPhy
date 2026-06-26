@@ -1,0 +1,8 @@
+### Front
+What is the minimum starting height $d$ required for a roller coaster of radius $r$ to complete a vertical loop while maintaining "weightlessness" at the top?
+
+### Back
+- Key idea: Total mechanical energy at the start must equal potential + kinetic energy at the top, where gravity provides all centripetal force.
+- Formula / law / constant / figure: $d = \frac{r}{2}$ (derived from $mgd = \frac{1}{2}m(rg)$).
+- When to use it: Problems involving frictionless vertical circular motion where the object must remain in contact with the track at the highest point.
+- Common trap: Forgetting that at the top, the velocity is not zero ($v = \sqrt{rg}$), meaning the object still possesses kinetic energy.

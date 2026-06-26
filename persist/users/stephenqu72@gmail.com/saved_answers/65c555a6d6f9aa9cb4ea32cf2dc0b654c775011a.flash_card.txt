@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity ($v$) of an object dropped from a known height ($h$) without using time?
+
+### Back
+- Key idea: Conservation of energy (GPE = KE) or time-independent kinematics.
+- Formula: $v = \sqrt{2gh}$ (derived from $v^2 = u^2 + 2as$ where $u=0$).
+- When to use it: Any vertical motion problem where displacement is known but time is unknown.
+- Common trap: Forgetting to take the square root of $2gh$ or accidentally using a non-zero initial velocity ($u$).

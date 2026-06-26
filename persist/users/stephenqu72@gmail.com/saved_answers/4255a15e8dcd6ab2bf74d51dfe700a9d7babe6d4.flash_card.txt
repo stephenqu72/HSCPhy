@@ -1,0 +1,8 @@
+### Front
+How does the length of a string ($r$) affect the angular velocity ($\omega$) of an object rotating at a constant frequency ($f$)?
+
+### Back
+- Key idea: Angular velocity is independent of the radius; it depends solely on frequency.
+- Formula / law / constant / figure: $\omega = 2\pi f$
+- When to use it: Circular motion problems where frequency is held constant despite changes in radius.
+- Common trap: Assuming $v = r\omega$ implies that changing $r$ must change $\omega$. While linear velocity ($v$) changes with $r$, $\omega$ remains constant if $f$ is constant.

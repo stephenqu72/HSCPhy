@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force acting on an object in uniform circular motion using angular velocity?
+
+### Back
+- Key idea: Centripetal force acts towards the center of the circle to maintain circular motion.
+- Formula: $F_c = mr\omega^2$
+- When to use it: When given the mass, radius, and angular velocity ($\omega$) of an object moving in a circle.
+- Common trap: Forgetting to convert diameter to radius ($r = d/2$) or failing to square the angular velocity.

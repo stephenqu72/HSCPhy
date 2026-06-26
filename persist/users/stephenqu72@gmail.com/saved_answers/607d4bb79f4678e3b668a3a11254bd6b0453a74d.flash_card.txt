@@ -1,0 +1,8 @@
+### Front
+How does increasing the launch angle from 45° affect the horizontal range of a projectile (assuming constant initial velocity and flat terrain)?
+
+### Back
+- Key idea: The horizontal range is maximized at 45°; any deviation from this angle (increasing or decreasing) decreases the total range.
+- Formula / law / constant: $R = \frac{v^2 \sin(2\theta)}{g}$
+- When to use it: Use when comparing the effects of different launch angles on projectile displacement on level ground.
+- Common trap: Assuming that higher launch angles always result in greater distances; this only applies to maximum height and time of flight.

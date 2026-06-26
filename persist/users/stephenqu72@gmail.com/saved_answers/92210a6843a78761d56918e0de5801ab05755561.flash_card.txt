@@ -1,0 +1,8 @@
+### Front
+How do you calculate the net gravitational acceleration on an object located between two massive bodies (e.g., Earth and Moon)?
+
+### Back
+- **Key idea:** Gravitational field strength is a vector; calculate the individual field strength for each body and determine their vector sum (subtracting if they act in opposite directions).
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$
+- **When to use it:** Whenever finding the net gravitational influence of multiple bodies on a point in space.
+- **Common trap:** Forgetting that $g$ is a vector. Always account for direction; the net force is rarely just the sum of two magnitudes unless they point the same way.

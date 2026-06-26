@@ -1,0 +1,8 @@
+### Front
+How do you determine the uncertainty (reading error) of an analogue measuring instrument?
+
+### Back
+- Key idea: The uncertainty is typically half of the smallest scale division.
+- Formula / law / constant / figure: $\text{Uncertainty} = \frac{1}{2} \times (\text{smallest scale division})$
+- When to use it: For analogue instruments where you must estimate the reading between the smallest marked intervals.
+- Common trap: Confusing the smallest scale division with the uncertainty itself; always remember to divide by two.

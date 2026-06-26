@@ -1,0 +1,8 @@
+### Front
+For a satellite in a circular orbit, what is the relationship between Total Energy ($E$), Kinetic Energy ($K$), and Potential Energy ($U$)?
+
+### Back
+- Key idea: Total orbital energy is the sum of kinetic and potential energies, where $E = K + U$. In circular orbits, the Virial Theorem dictates $K = -U/2$.
+- Formula / law: $E = -K = U/2$
+- When to use it: When analyzing energy graphs for orbiting bodies; confirms that as $r$ increases, $K$ decreases and $U$ becomes less negative.
+- Common trap: Forgetting that $U$ is always negative; a common error is adding magnitudes instead of using the negative sign, leading to an incorrect total energy calculation.

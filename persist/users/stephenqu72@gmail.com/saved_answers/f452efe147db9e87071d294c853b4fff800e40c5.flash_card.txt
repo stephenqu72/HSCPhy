@@ -1,0 +1,8 @@
+### Front
+What is the launch angle for maximum range of a projectile on level ground, and why is it independent of gravity ($g$)?
+
+### Back
+- Key idea: Maximum range occurs when $\sin(2\theta)$ is maximized. Since $\sin(90^\circ)=1$, the optimal angle is $45^\circ$.
+- Formula / law: $R = \frac{v^2 \sin(2\theta)}{g}$
+- When to use it: Projectile motion problems on level ground where air resistance is ignored.
+- Common trap: Assuming the $45^\circ$ rule applies when the landing point is higher or lower than the launch point (it does not).

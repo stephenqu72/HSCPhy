@@ -1,0 +1,8 @@
+### Front
+How do you determine the acceleration of an object rolling on an inclined plane?
+
+### Back
+- **Key idea:** Only the component of gravity acting parallel to the surface contributes to acceleration.
+- **Formula:** $a = g \sin(\theta)$
+- **When to use it:** When an object moves on a tilted surface; resolve velocity into components parallel and perpendicular to the slope.
+- **Common trap:** Using $\cos(\theta)$ instead of $\sin(\theta)$ for the acceleration component; remember that $\sin(\theta)$ is used for the "downhill" component.

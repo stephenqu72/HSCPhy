@@ -1,0 +1,8 @@
+### Front
+How do you determine the initial velocity vector of a projectile released from an accelerating platform?
+
+### Back
+- **Key idea:** The projectile inherits the instantaneous velocity vector of the platform at the moment of release.
+- **Formula / law / constant / figure:** $\vec{v}_{initial} = \vec{v}_{platform} = \vec{v}_{x} + \vec{v}_{y}$; Magnitude $v = \sqrt{v_x^2 + v_y^2}$.
+- **When to use it:** When an object is dropped or thrown from a vehicle, balloon, or elevator already in motion.
+- **Common trap:** Forgetting to include the platform's accumulated vertical velocity in the projectile's initial vertical component ($v_{0y}$).

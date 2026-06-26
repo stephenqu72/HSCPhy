@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) of a planet orbiting a star other than our Sun using Kepler’s Third Law?
+
+### Back
+- **Key idea:** The square of the orbital period is proportional to the cube of the radius and inversely proportional to the central mass ($T^2 \propto \frac{r^3}{M}$).
+- **Formula:** $\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} \times \frac{M_2}{M_1}$ (using ratios relative to Earth/Sun units: $T$ in years, $r$ in AU, $M$ in $M_\odot$).
+- **When to use it:** When comparing the orbital periods of planets around different central masses.
+- **Common trap:** Forgetting to account for the mass of the host star if it is not $1 M_\odot$. Ensure units are consistent throughout the ratio.

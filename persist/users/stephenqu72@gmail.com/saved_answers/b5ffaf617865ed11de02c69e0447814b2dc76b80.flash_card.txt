@@ -1,0 +1,8 @@
+### Front
+How do you calculate the electric field strength ($E$) produced by a point charge at a distance $r$?
+
+### Back
+- Key idea: Electric field is directly proportional to charge and inversely proportional to the square of the distance ($E \propto 1/r^2$).
+- Formula / law / constant / figure: $E = \frac{k|q|}{r^2}$; Coulomb’s constant $k \approx 8.99 \times 10^9 \, \text{N m}^2 \text{C}^{-2}$.
+- When to use it: When calculating the field strength at a specific radial distance from a point charge.
+- Common trap: Forgetting to square the distance ($r^2$) or failing to convert distance units (e.g., cm to m) before calculating.

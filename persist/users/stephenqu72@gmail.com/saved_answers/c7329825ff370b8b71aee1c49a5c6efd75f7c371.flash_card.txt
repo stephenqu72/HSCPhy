@@ -1,0 +1,8 @@
+### Front
+Define the requirements for a geostationary satellite and identify the formula used to calculate its orbital radius.
+
+### Back
+- **Key idea:** A geostationary satellite must orbit above the equator with a period equal to Earth’s sidereal day ($T \approx 86\,164$ s), appearing stationary from the ground.
+- **Formula / law:** Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+- **When to use it:** When calculating the altitude or orbital radius required for a satellite to maintain a fixed position relative to a point on Earth's surface.
+- **Common trap:** Using a 24-hour solar day instead of the $23.93$-hour sidereal day for the period ($T$).

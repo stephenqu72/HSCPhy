@@ -1,0 +1,8 @@
+### Front
+How do you determine if a projectile launched horizontally will clear an obstacle at a given distance?
+
+### Back
+- **Key idea:** Separate motion into independent horizontal (constant velocity) and vertical (constant acceleration) components.
+- **Formula / law / constant / figure:** $v_x = \frac{\Delta x}{\Delta t}$ and $\Delta y = u_y t + \frac{1}{2}a_y t^2$ ($g = 9.8 \text{ m/s}^2$).
+- **When to use it:** To predict the trajectory or final position of a projectile at a specific horizontal distance.
+- **Common trap:** Forgetting to calculate the time of flight based on the horizontal distance first, or failing to add the vertical displacement to the initial launch height to find the absolute height.

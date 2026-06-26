@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of a satellite orbiting a planet?
+
+### Back
+- **Key idea:** Angular velocity represents the rate of change of the angle subtended at the center of the orbit over time.
+- **Formula / law:** $\omega = \frac{2\pi}{T}$ (where $T$ is the orbital period in seconds).
+- **When to use it:** When calculating rotational motion or orbital speed given the period of revolution.
+- **Common trap:** Using the orbital radius (distance from the center or surface) as part of the calculation, even though it is often extraneous for finding $\omega$ if $T$ is already known. Always convert $T$ to SI units (seconds).

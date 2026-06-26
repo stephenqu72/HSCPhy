@@ -1,0 +1,8 @@
+### Front
+In projectile motion starting at $y_0 > 0$, how do you determine the time of flight and final impact velocity?
+
+### Back
+- Key idea: Use independent horizontal ($v_x = \text{const}$) and vertical ($v_y = v_{0y} - gt$) motion equations.
+- Formula / law: $y = y_0 + v_{0y}t - \frac{1}{2}gt^2$ to find $t$; $v = \sqrt{v_x^2 + v_y^2}$ and $\theta = \tan^{-1}(\frac{v_y}{v_x})$ for final velocity.
+- When to use it: To calculate landing time and impact magnitude/direction when the launch height is non-zero.
+- Common trap: Forgetting to include $y_0$ in the displacement equation or ignoring the negative sign for $v_y$ when calculating the final velocity angle.

@@ -1,0 +1,11 @@
+### Front
+What are the fundamental theoretical assumptions made when modeling basic projectile motion in the HSC Physics curriculum?
+
+### Back
+- **Key idea:** Projectiles are treated as point masses moving through a vacuum with gravity as the only force.
+- **Formula / law / constant / figure:** 
+    - Air resistance = 0.
+    - $g = 9.8 \, \text{m/s}^2$ (downward only).
+    - Object = point mass (ignores rotation/size).
+- **When to use it:** To justify the use of independent kinematic equations for horizontal ($v_x = \text{constant}$) and vertical ($a_y = g$) motion.
+- **Common trap:** Assuming horizontal and vertical components are dependent; they are physically independent and only linked by the scalar value of time ($t$).

@@ -1,0 +1,8 @@
+### Front
+What is the general trajectory equation for a projectile launched from the origin $(0,0)$ to reach a point $(x, y)$?
+
+### Back
+- Key idea: Combining horizontal and vertical motion equations by eliminating time ($t$).
+- Formula / law / constant / figure: $y = x \tan(\theta) - \frac{gx^2}{2v^2 \cos^2(\theta)}$
+- When to use it: When you need to find initial velocity ($v$) or launch angle ($\theta$) given a specific displacement $(x, y)$.
+- Common trap: Forgetting to square the $\cos(\theta)$ term or mixing up units/angles (ensure calculator is in degrees).

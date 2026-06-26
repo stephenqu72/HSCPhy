@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released during the alpha decay of a radioactive isotope?
+
+### Back
+- **Key idea:** Mass-energy equivalence ($E = \Delta mc^2$). The energy released corresponds to the mass defect ($\Delta m$) between reactants and products.
+- **Formula:** $E = \Delta m \times 931.5 \text{ MeV/u}$, where $\Delta m = \sum m_{\text{reactants}} - \sum m_{\text{products}}$.
+- **When to use it:** Whenever asked to find the energy yield or $Q$-value of a nuclear decay or reaction.
+- **Common trap:** Forgetting that $\Delta m$ must be the difference between the parent nucleus and the sum of all daughter products (including the alpha particle).

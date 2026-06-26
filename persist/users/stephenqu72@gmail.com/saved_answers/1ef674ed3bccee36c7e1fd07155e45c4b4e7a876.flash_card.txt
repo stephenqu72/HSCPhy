@@ -1,0 +1,10 @@
+### Front
+Derive the expression for the tension ($F_T$) in a string holding a mass $m$ undergoing vertical circular motion of radius $r$ and velocity $v$ at the top and bottom of its path.
+
+### Back
+- Key idea: Net centripetal force ($\sum F_c$) equals $\frac{mv^2}{r}$.
+- Formula / law / constant / figure: 
+  - Top: $F_T = \frac{mv^2}{r} - mg$
+  - Bottom: $F_T = \frac{mv^2}{r} + mg$
+- When to use it: Problems involving vertical circular motion where gravity acts parallel to the centripetal force.
+- Common trap: Forgetting that gravity assists the centripetal force at the top but opposes it at the bottom.

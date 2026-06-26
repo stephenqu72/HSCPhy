@@ -1,0 +1,8 @@
+### Front
+If an object rotating in a circle maintains a constant frequency of revolution, how does a change in the radius of rotation affect its angular velocity?
+
+### Back
+- Key idea: Angular velocity ($\omega$) is solely dependent on the frequency of rotation ($f$), not the radius ($r$).
+- Formula / law / constant / figure: $\omega = 2\pi f$. No fixed constant or figure.
+- When to use it: Any scenario involving circular motion where frequency is stated to be constant.
+- Common trap: Confusing angular velocity ($\omega$) with linear velocity ($v = r\omega$); changing the radius will change linear velocity, but has no effect on angular velocity.

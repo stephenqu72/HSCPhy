@@ -1,0 +1,8 @@
+### Front
+How does orbital radius ($r$) affect a satellite's total energy ($E_{total}$), and why does a Geostationary (GEO) satellite have more total energy than a Low-Earth Orbit (LEO) satellite?
+
+### Back
+- Key idea: Total energy is the sum of kinetic and potential energy; as $r$ increases, $E_{total}$ becomes less negative (increases).
+- Formula / law / constant: $E_{total} = -\frac{GMm}{2r}$
+- When to use it: To compare the energy states or work required to move satellites between orbits.
+- Common trap: Assuming higher altitude means "less" energy; since total energy is negative, a value closer to zero is mathematically larger.

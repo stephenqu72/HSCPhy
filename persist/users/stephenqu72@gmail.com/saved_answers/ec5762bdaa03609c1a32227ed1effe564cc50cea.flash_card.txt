@@ -1,0 +1,8 @@
+### Front
+How do you determine the half-life of a substance from a radioactive decay graph of "Quantity Remaining" vs "Time/Steps"?
+
+### Back
+- Key idea: Half-life ($t_{1/2}$) is the time taken for the initial quantity ($N_0$) to reduce to $N_0/2$.
+- Formula / law / constant / figure: $N(t) = N_0(1/2)^{t/t_{1/2}}$
+- When to use it: To find half-life from experimental decay curves or to predict future quantities.
+- Common trap: Forgetting to verify a second interval (e.g., from $N_0/2$ to $N_0/4$) to ensure the decay is consistent and not affected by graph anomalies.

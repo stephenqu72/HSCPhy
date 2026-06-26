@@ -1,0 +1,8 @@
+### Front
+What physical principle determines the rotation of a lever system with unequal masses, and what inequality dictates the direction of angular acceleration?
+
+### Back
+- **Key idea:** Net torque ($\sum\tau$) determines rotational acceleration.
+- **Formula / law / constant / figure:** $\tau = F_{\perp}d$; clockwise rotation occurs if $\sum\tau_{cw} > \sum\tau_{ccw}$.
+- **When to use it:** Whenever a system experiences unbalanced torques about a fixed pivot (fulcrum).
+- **Common trap:** Forgetting that mass ($M$) cancels out only when comparing gravitational torques; ensure perpendicular distances ($R$) are correctly identified relative to the pivot.

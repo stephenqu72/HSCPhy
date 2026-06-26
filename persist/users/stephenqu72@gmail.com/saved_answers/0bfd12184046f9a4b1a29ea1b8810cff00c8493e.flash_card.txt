@@ -1,0 +1,8 @@
+### Front
+How do you determine the radioactive decay constant ($\lambda$) from a half-life ($t_{1/2}$)?
+
+### Back
+- Key idea: The decay constant is the probability of decay per unit time.
+- Formula / law / constant: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: When finding the rate of decay from a half-life or extracting $\lambda$ from an activity/count-rate decay graph.
+- Common trap: Forgetting to convert the time units of $t_{1/2}$ to match the required units of $\lambda$ (e.g., converting days to seconds).

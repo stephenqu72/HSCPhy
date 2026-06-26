@@ -1,0 +1,8 @@
+### Front
+How do you calculate the binding energy of a nucleus from its mass?
+
+### Back
+- **Key idea:** Binding energy is the energy equivalent of the mass defect ($\Delta m$); the difference between the sum of individual nucleon masses and the nucleus mass.
+- **Formula / law / constant / figure:** $E = \Delta m c^2$; $1 \, u = 931.5 \, \text{MeV}/c^2$.
+- **When to use it:** When asked for the energy required to disassemble a nucleus or the energy released during its formation.
+- **Common trap:** Forgetting to calculate the total mass of constituents first or incorrectly accounting for electron masses (using atomic mass instead of nuclear mass usually cancels them out, but must be consistent).

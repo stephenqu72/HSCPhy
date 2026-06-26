@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time ($t$) required for a radioactive sample to decay to a specific mass ($N_t$) given an initial mass ($N_0$) and half-life ($T_{1/2}$)?
+
+### Back
+- Key idea: Radioactive decay follows an exponential relationship where the mass halves every $T_{1/2}$ interval.
+- Formula / law / constant / figure: $N(t) = N_0(0.5)^{\frac{t}{T_{1/2}}}$; use $\ln$ to solve for $t$: $t = T_{1/2} \times \frac{\ln(N_t/N_0)}{\ln(0.5)}$
+- When to use it: Any decay problem where mass/activity changes over time and half-life is known or can be determined from a graph.
+- Common trap: Forgetting to ensure units for $N_t$ and $N_0$ are identical (e.g., converting g to mg) before substituting into the formula.

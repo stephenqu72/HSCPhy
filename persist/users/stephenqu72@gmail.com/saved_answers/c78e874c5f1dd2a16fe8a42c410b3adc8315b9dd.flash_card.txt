@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total time of flight ($t$) for a projectile launched and landing at the same vertical height?
+
+### Back
+- Key idea: Use the vertical component of velocity ($v_{iy}$) and set vertical displacement ($\Delta y$) to zero.
+- Formula / law / constant / figure: $t = \frac{2v \sin\theta}{g}$
+- When to use it: Projectile motion problems where the landing elevation equals the launch elevation.
+- Common trap: Forgetting to resolve the velocity vector into its vertical component ($\sin\theta$) or using the full velocity ($v$) instead of $v_{iy}$.

@@ -1,0 +1,8 @@
+### Front
+Between two positive point charges $P$ and $Q$, why is the net electric field strength only zero in the region between them?
+
+### Back
+- Key idea: Electric field vectors are directional (away from positive charges). They only cancel when magnitudes are equal and vectors point in opposite directions.
+- Formula: $E = \frac{k|q|}{r^2}$
+- When to use it: To find the null point (neutral point) between two charges of the same sign.
+- Common trap: Assuming the fields can cancel outside the charges; outside the charges, both fields point in the same direction, so they sum rather than subtract.

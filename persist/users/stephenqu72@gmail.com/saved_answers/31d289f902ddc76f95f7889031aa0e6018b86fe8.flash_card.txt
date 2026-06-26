@@ -1,0 +1,8 @@
+### Front
+How do you determine the range of a variable $x$ in a geometry-based physics or math problem?
+
+### Back
+- Key idea: Use geometric constraints to define a system of inequalities and find their intersection.
+- Formula / law / figure: Triangle Inequality Theorem ($a + b > c$), side length $> 0$, angle constraints ($0^\circ < \theta < 180^\circ$).
+- When to use it: Whenever a variable $x$ represents a physical length or angle within a constrained geometric figure.
+- Common trap: Forgetting to combine all inequalities (the intersection); assuming a boundary value is included (e.g., writing $\le$ instead of $<$).

@@ -1,0 +1,8 @@
+### Front
+For a frictionless roller coaster loop of radius $r$, what minimum height $d$ above the top of the loop is required for an object to experience weightlessness at the peak?
+
+### Back
+- Key idea: To feel weightless at the top, the centripetal force must be provided solely by gravity ($v^2 = rg$).
+- Formula / law / constant / figure: Conservation of Mechanical Energy: $mgd = \frac{1}{2}mv^2$; Result: $d = \frac{r}{2}$.
+- When to use it: Circular motion problems involving loops where the object must maintain contact or feel weightless at the apex.
+- Common trap: Forgetting to add the loop's height ($2r$) if the question asks for the total starting height above the ground ($H = d + 2r$).

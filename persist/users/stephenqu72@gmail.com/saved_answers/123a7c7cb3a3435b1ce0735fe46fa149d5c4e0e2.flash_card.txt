@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total mechanical energy of a satellite in a circular orbit, and how is it used to determine the work done during an orbital change?
+
+### Back
+- Key idea: Total mechanical energy ($E$) is the sum of gravitational potential and kinetic energy; work done to change orbits equals the change in total mechanical energy ($\Delta E = E_2 - E_1$).
+- Formula / law / constant / figure: $E = -\frac{GMm}{2r}$
+- When to use it: To calculate the energy state of a satellite at a specific orbital radius or to find the work required for orbital maneuvers.
+- Common trap: Forgetting to convert orbital altitude from km to meters (m) or failing to recognize that moving to a lower orbit ($r \downarrow$) results in a "more negative" energy value, requiring a negative work (energy loss) via a retro-burn.

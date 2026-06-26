@@ -1,0 +1,8 @@
+### Front
+For a rigid body rotating at a constant angular speed ($\omega$), how do the linear velocity ($v$) and centripetal acceleration ($a$) of two points at different radial distances ($r_P$ vs $r_Q$) compare?
+
+### Back
+- Key idea: Points on a rotating rigid body share the same angular speed ($\omega$), but linear properties scale linearly ($v \propto r$) or linearly ($a \propto r$).
+- Formula / law: $v = r\omega$ and $a = r\omega^2$.
+- When to use it: Circular motion problems involving rotating disks, rods, or pulleys where multiple points are fixed to the same body.
+- Common trap: Assuming points have the same linear speed or acceleration; always remember that $\omega$ is the shared constant, not $v$.

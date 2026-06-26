@@ -1,0 +1,8 @@
+### Front
+How do you calculate the minimum escape velocity ($v$) of an electron (charge $e$) from a proton (charge $e$) at a distance $r$?
+
+### Back
+- **Key idea:** Conservation of energy; the electron escapes when its initial kinetic energy equals the magnitude of its electrostatic potential energy ($K + U_E = 0$).
+- **Formula:** $v = \sqrt{\frac{2ke^2}{mr}}$, where $k = \frac{1}{4\pi\epsilon_0}$.
+- **When to use it:** To determine if a charged particle has sufficient energy to overcome a potential well.
+- **Common trap:** Forgetting that an electron cannot physically achieve $v \ge c$ (speed of light); even if the math suggests a value, Special Relativity limits the particle's motion.

@@ -1,0 +1,8 @@
+### Front
+How does the orbital period ($T$) of a satellite change if its orbital radius ($r$) decreases?
+
+### Back
+- **Key idea:** $T$ decreases as $r$ decreases.
+- **Formula / law:** Kepler’s Third Law: $T^2 \propto r^3$.
+- **When to use it:** When comparing orbits or calculating how altitude changes impact orbital duration.
+- **Common trap:** Forgetting that "orbital radius" ($r$) must be measured from the **centre of the planet**, not the surface ($r = R_{planet} + altitude$).

@@ -1,0 +1,8 @@
+### Front
+At what point in a projectile's trajectory is its speed at a minimum, and why?
+
+### Back
+- Key idea: Total speed is minimized when the vertical velocity component ($v_y$) is zero, which occurs at the peak of the trajectory.
+- Formula / law / constant / figure: $v = \sqrt{v_x^2 + v_y^2}$; at peak, $v_y = 0$, so $v = v_x$.
+- When to use it: Any projectile motion problem (assuming no air resistance) asking for minimum speed or velocity.
+- Common trap: Assuming the speed is zero at the peak; horizontal velocity remains constant, so speed is $v_x$, not zero.

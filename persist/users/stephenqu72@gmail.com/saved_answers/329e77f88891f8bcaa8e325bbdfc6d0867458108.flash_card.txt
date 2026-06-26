@@ -1,0 +1,8 @@
+### Front
+Account for the use and limitations of geostationary satellites.
+
+### Back
+- **Key idea:** They orbit above the equator with a 24-hour period, remaining fixed relative to Earth's surface.
+- **Formula / law / constant / figure:** Orbital altitude $\approx 35\,800\text{ km}$.
+- **When to use it:** To explain why they are ideal for continuous broadcasting/weather monitoring, but unsuitable for high-speed, real-time data.
+- **Common trap:** Forgetting that their high altitude (required for a 24-hour period) is the direct cause of signal latency and poor polar coverage.

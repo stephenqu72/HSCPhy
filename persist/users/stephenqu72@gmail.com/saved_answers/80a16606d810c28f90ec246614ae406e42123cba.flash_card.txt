@@ -1,0 +1,8 @@
+### Front
+How do you determine which moons orbit the same planet using a graph of $r^3$ vs $T^2$?
+
+### Back
+- **Key idea:** Moons of the same planet follow Kepler’s Third Law ($r^3/T^2 = k$), where $k$ is constant for a specific central mass $M$.
+- **Formula / law / constant / figure:** $\frac{r^3}{T^2} = \frac{GM}{4\pi^2} = k$; graph must be a straight line through the origin $(0,0)$.
+- **When to use it:** To identify clusters of moons belonging to the same planetary system from orbital data.
+- **Common trap:** Assuming points are related just because they look collinear, without verifying they pass through the origin $(0,0)$.

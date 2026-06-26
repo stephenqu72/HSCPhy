@@ -1,0 +1,8 @@
+### Front
+Which factor does **not** affect the orbital velocity ($v$) of a satellite in circular motion, and why?
+
+### Back
+- Key idea: Orbital velocity is independent of the orbiting object's mass ($m$) because gravitational force and centripetal force both scale linearly with $m$.
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: To determine the speed required for a stable circular orbit at a specific radius ($r$).
+- Common trap: Assuming a heavier satellite requires more velocity; the mass of the satellite cancels out in the derivation.

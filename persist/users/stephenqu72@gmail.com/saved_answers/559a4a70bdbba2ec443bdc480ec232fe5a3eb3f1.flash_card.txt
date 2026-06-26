@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum height reached by a projectile launched from a cliff of height $h_0$?
+
+### Back
+- Key idea: Total height is the sum of the cliff height and the vertical displacement ($ \Delta y $) reached from the launch point.
+- Formula: $H = h_0 + \frac{u_y^2}{2g}$ (or $\Delta y = \frac{(v_y^2 - u_y^2)}{2a_y}$)
+- When to use it: To find peak altitude above a reference point (e.g., water/ground) when initial vertical velocity $u_y$ is known.
+- Common trap: Forgetting to add the initial cliff height ($h_0$) to the calculated vertical displacement ($\Delta y$) from the launch point.

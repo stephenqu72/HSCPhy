@@ -1,0 +1,8 @@
+### Front
+What is the "net force" ($F_{net}$) acting on an object undergoing uniform circular motion, and how is it defined for a car on a bridge vs. an orbiting satellite?
+
+### Back
+- **Key idea:** The net force in circular motion is the **centripetal force** ($F_c$), which always acts toward the center of the circle.
+- **Formula:** $F_{net} = \frac{mv^2}{r}$. For satellites specifically, $F_{net} = \frac{GMm}{r^2}$.
+- **When to use it:** Whenever an object moves in a circular path; equate this to the vector sum of real forces (e.g., $mg - N$ for a car, $F_g$ for a satellite).
+- **Common trap:** Confusing the *individual forces* (like gravity or normal force) with the *net force*. The net force is the *resultant* that points to the center.

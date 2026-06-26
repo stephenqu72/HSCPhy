@@ -1,0 +1,8 @@
+### Front
+How does an orbiting body’s kinetic energy change as it moves further away from a central mass in an elliptical orbit?
+
+### Back
+- Key idea: Total mechanical energy is conserved ($E_{total} = K + U$). As the distance $r$ increases, gravitational potential energy ($U$) increases (becomes less negative), forcing kinetic energy ($K$) to decrease.
+- Formula / law / constant / figure: Law of Conservation of Mechanical Energy: $E_{total} = \frac{1}{2}mv^2 - \frac{GMm}{r}$
+- When to use it: Any orbital mechanics question involving changes in distance, speed, or energy.
+- Common trap: Confusing Conservation of Energy (governs $E_{total}$) with Kepler’s Second Law (governs Conservation of Angular Momentum).

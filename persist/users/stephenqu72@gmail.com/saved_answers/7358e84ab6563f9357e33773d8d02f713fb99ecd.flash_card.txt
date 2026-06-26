@@ -1,0 +1,8 @@
+### Front
+In an elliptical orbit, how do gravitational potential energy ($U$) and kinetic energy ($K$) change as a satellite moves from apogee to perigee?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($E = K + U$ = constant). At perigee (closest point), $U$ is at a minimum, so $K$ (and velocity) must be at a maximum.
+- **Formula / law / constant / figure:** $U = -GMm/r$; $K = \frac{1}{2}mv^2$.
+- **When to use it:** Solving orbital dynamics problems involving elliptical paths and velocity changes.
+- **Common trap:** Confusing potential energy magnitude with its value; because $U$ is negative, $U$ is "most negative" (minimum) when $r$ is smallest.

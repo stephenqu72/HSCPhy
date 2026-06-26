@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational field strength ($g$) on the surface of a spherical planet, and how does scaling mass ($M$) and radius ($r$) affect $g$?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass and inversely proportional to the square of the radius.
+- Formula / law / constant: $g = \frac{GM}{r^2}$ (where $G = 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$)
+- When to use it: Comparing gravitational acceleration between planets or calculating surface gravity given mass and radius.
+- Common trap: Using the planet's **diameter** instead of the **radius** ($r = d/2$) in the formula.

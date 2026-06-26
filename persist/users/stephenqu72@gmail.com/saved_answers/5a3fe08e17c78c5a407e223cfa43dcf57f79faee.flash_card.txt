@@ -1,0 +1,8 @@
+### Front
+How do you determine the altitude ($h$) of an object above a planet's surface using Newton’s Law of Universal Gravitation?
+
+### Back
+- Key idea: The variable $r$ in the gravitational formula represents the distance from the **center** of the planet, not the surface.
+- Formula / law / constant / figure: $F = \frac{GMm}{r^2}$, where $r = R_{\text{planet}} + h$.
+- When to use it: To calculate gravitational force or orbital parameters when an altitude above the surface is provided.
+- Common trap: Forgetting to add the planet’s radius ($R$) to the altitude ($h$) when calculating $r$, or failing to subtract $R$ from the final $r$ to find the altitude.

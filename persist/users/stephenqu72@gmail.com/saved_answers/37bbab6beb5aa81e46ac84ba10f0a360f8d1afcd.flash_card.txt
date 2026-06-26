@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the Schwarzschild radius ($r_s$) starting from the principle of escape velocity.
+
+### Back
+- Key idea: Equate the escape velocity of an object to the speed of light ($c$).
+- Formula / law / constant / figure: $r_s = \frac{2GM}{c^2}$ (derived from $\frac{1}{2}mv^2 = \frac{GMm}{r}$)
+- When to use it: To determine the radius of the event horizon for a non-rotating black hole of mass $M$.
+- Common trap: Confusing the escape velocity formula ($v = \sqrt{\frac{2GM}{r}}$) with the orbital velocity formula ($v = \sqrt{\frac{GM}{r}}$).

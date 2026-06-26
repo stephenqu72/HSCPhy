@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship and graphical behavior for an inverse-square law?
+
+### Back
+- Key idea: A physical quantity is inversely proportional to the square of the distance from the source.
+- Formula / law / constant / figure: $y = \frac{k}{x^2}$ (where $k$ is a constant).
+- When to use it: For fields (gravitational, electric, magnetic) or intensity (light, radiation) where influence dissipates with distance.
+- Common trap: Confusing it with a simple inverse relationship ($y = \frac{1}{x}$) or a square-root curve ($y = \sqrt{x}$); the inverse-square curve decays much more steeply.

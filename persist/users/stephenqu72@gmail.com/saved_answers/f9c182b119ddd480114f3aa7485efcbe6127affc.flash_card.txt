@@ -1,0 +1,11 @@
+### Front
+How is the magnitude of torque ($\tau$) calculated, and what do the variables represent?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force (the turning effect).
+- Formula: $\tau = rF \sin(\theta)$
+    - $r$: distance from pivot to point of application.
+    - $F$: magnitude of applied force.
+    - $\theta$: angle between the position vector ($r$) and force vector ($F$).
+- When to use it: Whenever a force acts on an object at a distance from a pivot point.
+- Common trap: Failing to convert units (e.g., cm to m) or using the wrong angle (ensure it is the angle *between* the vectors $r$ and $F$).

@@ -1,0 +1,8 @@
+### Front
+Two objects with different masses are launched from the same height with the same initial speed $v_i$. Do they hit the ground with the same final speed $v_f$? Explain using the Conservation of Energy.
+
+### Back
+- **Key idea:** Final speed is independent of mass and direction when initial speed and height are identical.
+- **Formula / law:** Conservation of Mechanical Energy: $mgh + \frac{1}{2}mv_i^2 = \frac{1}{2}mv_f^2 \implies v_f = \sqrt{v_i^2 + 2gh}$
+- **When to use it:** Projectile motion problems where air resistance is negligible.
+- **Common trap:** Confusing "same speed" with "same kinetic energy" (KE depends on mass) or "same time of flight" (depends on launch angle).

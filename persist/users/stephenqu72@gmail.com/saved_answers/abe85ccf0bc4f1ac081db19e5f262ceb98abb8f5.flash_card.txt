@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time taken for an object in uniform circular motion to cover a specific angular displacement ($\Delta\theta$)?
+
+### Back
+- Key idea: Time taken is proportional to the fraction of the total period ($T$) covered.
+- Formula / law / constant / figure: $t = \frac{\Delta\theta}{360^{\circ}} \times T$ (or $\frac{\Delta\theta}{2\pi} \times T$ in radians)
+- When to use it: Any problem involving uniform circular motion where speed is constant.
+- Common trap: Forgetting to calculate the period ($T$) first or confusing the number of rotations with the period.

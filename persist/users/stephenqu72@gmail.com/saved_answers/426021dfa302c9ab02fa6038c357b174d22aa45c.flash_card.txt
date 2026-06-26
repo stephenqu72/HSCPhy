@@ -1,0 +1,8 @@
+### Front
+How do you determine the radioactive decay constant ($\lambda$) from a decay curve graph showing quantity ($N$) vs time ($t$)?
+
+### Back
+- Key idea: Derive the half-life ($t_{1/2}$) from the graph and apply the decay constant formula.
+- Formula / law / constant / figure: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: To find the probability of decay per unit time when given a graphical representation of isotopic disintegration.
+- Common trap: Mistaking the half-life value (the $x$-intercept at $50\%$ remaining) for the decay constant itself; ensure the final units are inverse time (e.g., $s^{-1}$).

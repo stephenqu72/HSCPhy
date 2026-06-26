@@ -1,0 +1,8 @@
+### Front
+What is the formula for the "ideal speed" ($v$) of a vehicle on a frictionless banked turn, and what forces provide the centripetal acceleration?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the required centripetal force ($F_c = F_N \sin\theta$).
+- **Formula:** $v = \sqrt{rg \tan\theta}$
+- **When to use it:** When calculating the design speed of a banked track or road where no friction is required to maintain the path.
+- **Common trap:** Forgetting to convert units (e.g., $\text{km/h}$ to $\text{m/s}$) or assuming the vertical component of the normal force equals the centripetal force (it equals the weight).

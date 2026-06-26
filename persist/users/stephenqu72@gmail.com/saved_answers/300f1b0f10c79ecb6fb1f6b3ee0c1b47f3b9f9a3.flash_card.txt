@@ -1,0 +1,8 @@
+### Front
+In a banked track, why must friction point *down* the slope when a cyclist travels faster than the design speed?
+
+### Back
+- Key idea: Increased speed requires a larger horizontal centripetal force ($F_c = \frac{mv^2}{r}$) than the normal force component alone provides.
+- Formula / law / constant / figure: $F_{c, \text{total}} = N_h + f_h$ (where $N_h$ and $f_h$ are the horizontal components of Normal force and friction).
+- When to use it: Whenever $v > v_{\text{design}}$, friction must act down the slope to contribute an additional horizontal inward component.
+- Common trap: Assuming friction acts up the slope; this only happens when the cyclist is travelling slower than the design speed and sliding inwards.

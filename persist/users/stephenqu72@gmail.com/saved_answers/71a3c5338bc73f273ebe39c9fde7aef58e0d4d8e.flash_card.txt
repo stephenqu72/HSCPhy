@@ -1,0 +1,8 @@
+### Front
+In a uniform electric field, how do you determine the distance ($d$) between two parallel plates given a graph of Voltage ($V$) vs. Electric Field Strength ($E$)?
+
+### Back
+- Key idea: The slope of a $V$ vs. $E$ graph represents the distance between plates.
+- Formula / law / constant / figure: $V = E \times d$; slope $= \Delta V / \Delta E = d$.
+- When to use it: When solving for plate separation in parallel plate capacitors or uniform field problems.
+- Common trap: Forgetting to convert units (e.g., meters to centimeters) or confusing the axes (slope is $d$, not $1/d$).

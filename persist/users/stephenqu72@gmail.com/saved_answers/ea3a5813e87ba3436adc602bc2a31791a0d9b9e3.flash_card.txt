@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work required to move an object between two points in a gravitational field?
+
+### Back
+- **Key idea:** Work done equals the change in gravitational potential energy ($\Delta U$).
+- **Formula:** $W = \Delta U = -GMm \left( \frac{1}{r_f} - \frac{1}{r_i} \right)$
+- **When to use it:** When calculating energy changes for objects moving within a radial gravitational field (e.g., spacecraft, satellites).
+- **Common trap:** Confusing the sign of the work. Moving against gravity (increasing $r$) requires positive external work, while the gravitational field itself does negative work.

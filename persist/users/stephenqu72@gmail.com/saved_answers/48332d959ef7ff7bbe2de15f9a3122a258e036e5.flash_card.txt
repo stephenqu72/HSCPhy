@@ -1,0 +1,8 @@
+### Front
+How do you calculate the projection angle ($\theta$) of a projectile given its initial velocity ($v$), horizontal range ($\Delta x$), and time of flight ($t$)?
+
+### Back
+- **Key idea:** Horizontal velocity is constant because horizontal acceleration is zero (neglecting air resistance).
+- **Formula:** $\Delta x = (v \cos \theta) \times t$, rearranged to $\theta = \arccos\left(\frac{\Delta x}{v \times t}\right)$.
+- **When to use it:** When you need to find the launch angle using only horizontal displacement and time.
+- **Common trap:** Forgetting that $v_x$ is $v \cos \theta$; confusing $v$ with the vertical component $v_y$.

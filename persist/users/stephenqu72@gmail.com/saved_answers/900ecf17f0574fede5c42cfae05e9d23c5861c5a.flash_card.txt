@@ -1,0 +1,8 @@
+### Front
+How does gravitational field strength ($g$) vary with distance ($r$) from the centre of a spherical mass?
+
+### Back
+- Key idea: Gravitational field strength is inversely proportional to the square of the distance from the centre of the mass ($g \propto 1/r^2$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ (Newton’s Law of Universal Gravitation).
+- When to use it: To calculate the change in field strength when the distance from the centre of a mass changes.
+- Common trap: Failing to add the altitude to the radius of the planet ($r = R + h$). If the distance increases by factor $n$, the field strength decreases by factor $n^2$.

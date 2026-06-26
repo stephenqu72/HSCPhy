@@ -1,0 +1,8 @@
+### Front
+What is the total mechanical energy ($E$) of a satellite in a circular orbit, and how is it derived?
+
+### Back
+- Key idea: Total energy is the sum of kinetic energy ($K$) and gravitational potential energy ($U$).
+- Formula: $E = K + U = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r}$
+- When to use it: To calculate the energy required to change orbits or the total energy of an orbiting system.
+- Common trap: Forgetting that $U$ is negative; the total energy of a bound system is always negative.

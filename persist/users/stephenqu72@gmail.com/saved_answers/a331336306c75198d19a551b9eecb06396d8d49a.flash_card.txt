@@ -1,0 +1,8 @@
+### Front
+What is the physical definition and formula for escape velocity ($v_e$)?
+
+### Back
+- **Key idea:** The minimum initial velocity required for an object to reach an infinite distance from a gravitational source, where its total mechanical energy is zero.
+- **Formula / law / constant / figure:** $v_e = \sqrt{\frac{2GM}{r}}$ (derived from $E_{total} = K + U = 0$)
+- **When to use it:** When calculating the speed needed to overcome a gravitational field regardless of atmospheric conditions or trajectory.
+- **Common trap:** Confusing it with orbital velocity ($v_o = \sqrt{\frac{GM}{r}}$); remember that escape velocity is $\sqrt{2}$ times larger than orbital velocity.

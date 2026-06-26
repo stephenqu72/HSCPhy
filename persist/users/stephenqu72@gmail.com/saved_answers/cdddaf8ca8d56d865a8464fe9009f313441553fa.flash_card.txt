@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time taken for a projectile launched from an elevated position to reach the ground?
+
+### Back
+- **Key idea:** Vertical displacement ($s_y$) is equal to the negative of the initial height ($-h_0$).
+- **Formula / law / constant / figure:** $s_y = u_y t + \frac{1}{2} a_y t^2$, where $a_y = -9.8 \text{ m s}^{-2}$.
+- **When to use it:** When the final vertical position is different from the launch position (e.g., landing on the ground from a cliff).
+- **Common trap:** Using the symmetry of the trajectory (e.g., $t_{total} = 2 \times t_{peak}$), which only applies if the projectile lands at the same height it was launched from.

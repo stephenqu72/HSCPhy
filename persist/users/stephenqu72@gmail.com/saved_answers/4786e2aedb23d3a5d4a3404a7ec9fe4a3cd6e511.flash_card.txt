@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining amount of a radioactive substance after a specific time $t$ if the half-life $T_{1/2}$ is known?
+
+### Back
+- Key idea: Radioactive decay follows an exponential decrease based on the number of half-lives elapsed.
+- Formula / law / constant / figure: $N(t) = N_0(0.5)^{t/T_{1/2}}$
+- When to use it: To determine the quantity or percentage of a radioactive sample remaining after elapsed time $t$.
+- Common trap: Forgetting to express the exponent as a decimal ($t / T_{1/2}$) before calculating the power; ensuring units for $t$ and $T_{1/2}$ match.

@@ -1,0 +1,8 @@
+### Front
+If a vehicle maintains constant centripetal acceleration while turning, how does its speed $v$ change if the radius $r$ of the curve is doubled?
+
+### Back
+- **Key idea:** Since $a_c = \frac{v^2}{r}$, if $a_c$ is constant, $v$ is proportional to $\sqrt{r}$.
+- **Formula / law:** $a_c = \frac{v^2}{r} \implies v \propto \sqrt{r}$.
+- **When to use it:** Circular motion problems involving constant centripetal acceleration or force requirements.
+- **Common trap:** Forgetting to take the square root of the scale factor (doubling $r$ increases speed by $\sqrt{2}$, not by 2).

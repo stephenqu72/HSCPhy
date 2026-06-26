@@ -1,0 +1,8 @@
+### Front
+How is the "ideal speed" for a vehicle on a banked curve determined, and why is it safety-critical?
+
+### Back
+- Key idea: Ideal speed occurs when the horizontal component of the normal force alone provides the required centripetal force, removing reliance on friction.
+- Formula / law / constant / figure: $v = \sqrt{rg \tan(\theta)}$
+- When to use it: When calculating the maximum safe speed on a banked curve under slippery/icy conditions where friction ($f \approx 0$) cannot be relied upon.
+- Common trap: Forgetting to convert the final velocity from $\text{m/s}$ to $\text{km/h}$ (multiply by 3.6), or assuming friction always assists the vehicle.

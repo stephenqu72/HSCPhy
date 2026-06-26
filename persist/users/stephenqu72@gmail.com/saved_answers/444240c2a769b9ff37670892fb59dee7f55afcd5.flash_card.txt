@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a planet given its radius and surface gravity compared to Earth?
+
+### Back
+- **Key idea:** Use gravitational field strength ratios to isolate the unknown mass.
+- **Formula:** $g = \frac{GM}{r^2} \implies \frac{g_X}{g_E} = \frac{M_X}{M_E} \left(\frac{r_E}{r_X}\right)^2$
+- **When to use it:** Solving problems comparing gravitational parameters between two spherical bodies.
+- **Common trap:** Forgetting to square the ratio of the radii; ensure $r$ is always in the denominator when calculating $g$.

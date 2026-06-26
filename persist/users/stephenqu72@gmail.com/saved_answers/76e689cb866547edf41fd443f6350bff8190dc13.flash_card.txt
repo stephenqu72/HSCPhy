@@ -1,0 +1,8 @@
+### Front
+How do you calculate centripetal acceleration ($a_c$) when given frequency ($f$) and radius ($r$)?
+
+### Back
+- Key idea: Uniform circular motion requires a centripetal acceleration directed toward the center.
+- Formula / law: $a_c = r\omega^2$ where $\omega = 2\pi f$.
+- When to use it: To find the acceleration of an object moving in a circle at a constant speed.
+- Common trap: Forgetting to convert revolutions per minute (rpm) to revolutions per second (Hz) before multiplying by $2\pi$.

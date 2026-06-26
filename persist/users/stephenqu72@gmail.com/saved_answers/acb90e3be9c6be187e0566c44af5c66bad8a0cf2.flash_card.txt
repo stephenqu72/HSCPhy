@@ -1,0 +1,8 @@
+### Front
+How does the required direction of friction on a banked track change based on a car's speed relative to the design speed?
+
+### Back
+- **Key idea:** If $v < v_{\text{design}}$, the car tends to slide down; friction acts up the slope. If $v > v_{\text{design}}$, the car tends to slide up; friction acts down the slope.
+- **Formula / law / constant / figure:** $F_c = \frac{mv^2}{r}$; No fixed constant.
+- **When to use it:** To resolve forces for circular motion on banked tracks when speed deviates from the design speed.
+- **Common trap:** Assuming friction always points down the slope; always check if the centripetal force provided by the normal force alone is greater or less than the required $mv^2/r$.

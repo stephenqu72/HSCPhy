@@ -1,0 +1,8 @@
+### Front
+In a system moving at a constant speed along an incline, what is the relationship between the parallel component of gravity and the frictional force?
+
+### Back
+- Key idea: Since velocity is constant, acceleration is zero; therefore, the net force along the slope is zero (equilibrium).
+- Formula / law / constant / figure: $\sum F = 0$ (Newton’s First Law); $F_f = mg \sin(\theta)$.
+- When to use it: To calculate friction or air resistance for an object moving at a constant velocity on a slope.
+- Common trap: Forgetting to use $\sin(\theta)$ (parallel component) instead of $\cos(\theta)$ (perpendicular component).

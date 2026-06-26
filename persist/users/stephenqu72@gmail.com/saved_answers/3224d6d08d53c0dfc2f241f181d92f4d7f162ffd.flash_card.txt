@@ -1,0 +1,8 @@
+### Front
+Why does a roller coaster cart launched into projectile motion (Design B) reach a lower peak height than one restricted to a continuous track (Design A)?
+
+### Back
+- Key idea: Total mechanical energy is conserved, but projectile motion requires the cart to retain horizontal kinetic energy at its peak.
+- Formula / law: Conservation of Mechanical Energy: $mgh_{start} = mgh_{peak} + \frac{1}{2}mv_{peak}^2$.
+- When to use it: To determine maximum height reached by objects constrained by tracks vs. those in free flight.
+- Common trap: Assuming the object reaches zero velocity at the peak of a projectile trajectory; it actually maintains a non-zero horizontal velocity component ($v_x$).

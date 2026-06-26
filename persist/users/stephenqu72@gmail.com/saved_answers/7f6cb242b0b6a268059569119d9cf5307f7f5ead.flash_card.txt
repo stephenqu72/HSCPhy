@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force ($F$) required to produce a specific torque ($\tau$) using a lever of length ($r$) at an angle ($\theta$)?
+
+### Back
+- **Key idea:** Torque is the rotational analogue of force, defined as the product of the radius, applied force, and the sine of the angle between them.
+- **Formula / law / constant / figure:** $\tau = rF\sin(\theta)$. No fixed constant.
+- **When to use it:** When calculating rotational effects or moments of force in equilibrium problems.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or confusing the angle $\theta$ (must be the angle between the lever arm and the force vector).

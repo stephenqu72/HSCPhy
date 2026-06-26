@@ -1,0 +1,8 @@
+### Front
+How does increasing orbital radius ($r$) affect a satellite's speed ($v$), period ($T$), and centripetal force ($F_c$)?
+
+### Back
+- Key idea: As $r$ increases, $v$ and $F_c$ decrease, while $T$ increases.
+- Formula / law: $v = \sqrt{\frac{GM}{r}}$, $T^2 \propto r^3$, $F_c = \frac{GMm}{r^2}$.
+- When to use it: Comparing orbits (e.g., LEO vs. GEO) or satellite manoeuvres.
+- Common trap: Confusing "altitude" with "orbital radius" ($r = R_{earth} + \text{altitude}$). Always use distance from the center of the planet.

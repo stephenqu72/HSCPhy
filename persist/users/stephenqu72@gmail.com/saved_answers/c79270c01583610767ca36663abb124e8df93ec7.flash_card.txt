@@ -1,0 +1,8 @@
+### Front
+How does the orbital velocity ($v$) of a satellite change as its orbital radius ($r$) increases?
+
+### Back
+- Key idea: Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto 1/\sqrt{r}$).
+- Formula / law / constant / figure: $v = \sqrt{GM/r}$
+- When to use it: To compare the speeds of two objects orbiting the same central mass at different radii.
+- Common trap: Forgetting the square root; assuming velocity is inversely proportional to $r$ rather than $\sqrt{r}$.

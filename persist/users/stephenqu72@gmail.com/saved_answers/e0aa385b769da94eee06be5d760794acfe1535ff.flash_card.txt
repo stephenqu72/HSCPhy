@@ -1,0 +1,8 @@
+### Front
+In circular motion on a banked track, what provides the additional centripetal force when a cyclist exceeds the "design speed"?
+
+### Back
+- **Key idea:** Static friction provides the extra horizontal centripetal force required when the normal force component is insufficient.
+- **Formula / law / constant / figure:** $F_c = \frac{mv^2}{r}$; Friction acts **down the slope**.
+- **When to use it:** When $v > v_{design}$ (the speed at which the horizontal component of $N$ provides all required $F_c$).
+- **Common trap:** Assuming friction acts *up* the slope; it only acts up when moving *slower* than design speed to prevent sliding down.

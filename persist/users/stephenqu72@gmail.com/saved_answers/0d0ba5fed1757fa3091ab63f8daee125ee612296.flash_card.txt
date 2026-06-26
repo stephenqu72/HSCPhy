@@ -1,0 +1,8 @@
+### Front
+When four point charges ($+q, -q, -q, +q$) are placed at the corners of a square, what is the electric potential along the axes passing through the center of the square?
+
+### Back
+- Key idea: Superposition of scalar potential ($V = \sum k \frac{q_i}{r_i}$) results in total cancellation due to symmetry.
+- Formula / law / constant / figure: $V = k\frac{q}{r}$ (Principle of Superposition).
+- When to use it: To determine equipotential lines or regions of zero potential in multi-charge configurations.
+- Common trap: Confusing scalar electric potential with vector electric field (which would not be zero everywhere on those axes).

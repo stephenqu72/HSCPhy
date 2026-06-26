@@ -1,0 +1,8 @@
+### Front
+How does the absolute uncertainty of a measurement $I$ change when calculating $I^2$ (where $I$ is a measured physical quantity)?
+
+### Back
+- Key idea: Squaring a value amplifies the uncertainty; the absolute uncertainty in the derived value is proportional to $2 \times I \times \Delta I$.
+- Formula / law / constant / figure: Propagation of uncertainty: $\frac{\Delta(x^n)}{x^n} = n \frac{\Delta x}{x}$
+- When to use it: Whenever a measured value with uncertainty is raised to a power in a calculation.
+- Common trap: Assuming absolute uncertainty remains constant. If $I > 0.5$, $\Delta(I^2)$ is significantly larger than $\Delta I$; always rely on the propagation formula rather than intuition.

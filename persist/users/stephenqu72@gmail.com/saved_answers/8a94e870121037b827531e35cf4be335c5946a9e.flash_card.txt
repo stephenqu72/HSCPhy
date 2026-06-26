@@ -1,0 +1,8 @@
+### Front
+How do you calculate the altitude ($h$) where gravitational acceleration ($g$) is a specific fraction of surface gravity ($g_s$)?
+
+### Back
+- **Key idea:** Gravitational field strength follows an inverse-square law: $g \propto 1/r^2$.
+- **Formula / law:** $g = \frac{GM}{r^2}$ or the ratio $\frac{g_1}{g_2} = \frac{r_2^2}{r_1^2}$.
+- **When to use it:** To determine the orbital radius or altitude of a satellite/object given a change in gravitational field strength.
+- **Common trap:** Confusing $r$ (distance from the **center** of the planet) with $h$ (altitude above the **surface**). Always subtract the Earth's radius ($R_E$) from $r$ to find $h$.

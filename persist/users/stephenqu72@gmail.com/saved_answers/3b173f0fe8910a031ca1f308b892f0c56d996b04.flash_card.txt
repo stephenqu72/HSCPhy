@@ -1,0 +1,8 @@
+### Front
+What is the relationship between ionizing power and penetrating power in nuclear radiation, and how do you calculate the age of a sample using radioactive half-life?
+
+### Back
+- **Key idea:** Ionizing power is inversely proportional to penetrating power; radioactive decay is exponential.
+- **Formula:** $N(t) = N_0(1/2)^{t/T_{1/2}}$ (where $T_{1/2}$ is the half-life).
+- **When to use it:** Use the relationship to explain radiation shielding properties; use the formula for carbon-14 dating or activity decay problems.
+- **Common trap:** Forgetting to include the antineutrino ($\bar{\nu}_e$) in beta-minus decay equations or miscalculating the number of half-lives by failing to divide $N(t)/N_0$.

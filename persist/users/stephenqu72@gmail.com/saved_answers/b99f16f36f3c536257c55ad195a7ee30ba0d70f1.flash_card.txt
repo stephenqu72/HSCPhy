@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of an object after a perfectly inelastic collision?
+
+### Back
+- Key idea: Total momentum is conserved in a closed system ($p_{\text{initial}} = p_{\text{final}}$).
+- Formula / law / constant / figure: $m_1u_1 + m_2u_2 = (m_1 + m_2)v$
+- When to use it: When two objects collide and stick together (inelastic collision).
+- Common trap: Forgetting to sum the masses $(m_1 + m_2)$ for the final velocity term.

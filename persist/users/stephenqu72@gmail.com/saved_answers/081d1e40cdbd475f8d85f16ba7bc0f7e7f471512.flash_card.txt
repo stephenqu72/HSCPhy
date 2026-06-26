@@ -1,0 +1,8 @@
+### Front
+How does the total energy of a satellite change as it moves from a Low Earth Orbit (LEO) to a geostationary orbit?
+
+### Back
+- **Key idea:** Total orbital energy ($E_{total} = E_k + E_p = -\frac{GMm}{2r}$) increases (becomes less negative) as the orbital radius $r$ increases.
+- **Formula / law / constant / figure:** $E_{total} = -\frac{GMm}{2r}$.
+- **When to use it:** When explaining energy requirements for orbit changes or launch vehicle performance comparisons.
+- **Common trap:** Thinking that because kinetic energy decreases as the satellite goes higher, the total energy decreases. The increase in gravitational potential energy significantly outweighs the loss in kinetic energy.

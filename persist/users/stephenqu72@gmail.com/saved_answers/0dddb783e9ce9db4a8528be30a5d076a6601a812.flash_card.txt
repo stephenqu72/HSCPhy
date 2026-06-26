@@ -1,0 +1,8 @@
+### Front
+Derive the total mechanical energy ($E_T$) of a satellite in a circular orbit in terms of its gravitational potential energy ($U$).
+
+### Back
+- Key idea: Total energy is the sum of kinetic ($E_K$) and potential ($U$) energy, where $E_K = -U/2$ for circular orbits.
+- Formula / law / constant / figure: $E_T = \frac{U}{2} = -\frac{GMm}{2r}$
+- When to use it: To calculate the energy required to change orbits or the total energy of a satellite at a specific orbital radius.
+- Common trap: Forgetting the negative sign in the gravitational potential energy formula, which leads to incorrect signs in the total energy.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the minimum energy required to move a satellite from the Earth’s surface to a circular orbit?
+
+### Back
+- **Key idea:** The change in total mechanical energy ($\Delta E = E_f - E_i$).
+- **Formula / law:** $E = U + K$. On surface: $E_i = -\frac{GMm}{R_E}$. In orbit: $E_f = -\frac{GMm}{2r}$.
+- **When to use it:** When calculating the work done or energy required for orbital insertion or transferring between orbits.
+- **Common trap:** Forgetting that $r$ in the denominator must be the orbital radius ($R_E + h$), not just the altitude ($h$). Also, failing to include kinetic energy in the final orbital state.

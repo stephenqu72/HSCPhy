@@ -1,0 +1,8 @@
+### Front
+What is the formula for the banking angle ($\theta$) required for an object to remain stationary on a tray while a vehicle travels around a curve of radius $r$ at velocity $v$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the necessary centripetal force, while the vertical component balances the weight.
+- **Formula:** $\tan \theta = \frac{v^2}{rg}$
+- **When to use it:** To calculate the angle of inclination for an object moving in a circle where the only forces are gravity and the normal force (no friction).
+- **Common trap:** Assuming the mass of the object affects the angle. It does not; mass cancels out in the derivation.

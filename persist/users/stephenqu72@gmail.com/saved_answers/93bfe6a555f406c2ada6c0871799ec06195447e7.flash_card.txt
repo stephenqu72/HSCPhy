@@ -1,0 +1,8 @@
+### Front
+How does the time of flight ($t$) of a vertically projected object relate to its maximum height ($h$)?
+
+### Back
+- Key idea: Time of flight is directly proportional to the square root of the maximum height ($t \propto \sqrt{h}$).
+- Formula / law / constant / figure: $t = \frac{2u_y}{g}$ and $h = \frac{u_y^2}{2g} \implies t = 2\sqrt{\frac{2h}{g}}$
+- When to use it: To determine how changing the release height or launch velocity affects the duration an object remains in the air.
+- Common trap: Assuming time is directly proportional to height ($t \propto h$) instead of the square root of height ($t \propto \sqrt{h}$).

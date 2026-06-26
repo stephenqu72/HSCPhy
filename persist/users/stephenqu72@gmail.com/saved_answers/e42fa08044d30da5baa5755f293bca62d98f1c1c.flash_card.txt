@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the velocity ($v$) of a vehicle on a frictionless banked curve, and which force provides the necessary centripetal force?
+
+### Back
+- **Key idea:** The horizontal component of the normal force ($N \sin\theta$) provides the centripetal force.
+- **Formula / law / constant / figure:** $v = \sqrt{rg \tan\theta}$; $g \approx 9.8\text{ m/s}^2$
+- **When to use it:** When a vehicle negotiates a banked curve at a specific speed where friction is negligible or ignored.
+- **Common trap:** Forgetting to convert the banking angle or misidentifying the normal force component as the vertical component.

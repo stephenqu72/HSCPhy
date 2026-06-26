@@ -1,0 +1,8 @@
+### Front
+What conditions maximize torque ($\tau$) on a rigid object?
+
+### Back
+- Key idea: Maximize both the radial distance ($r$) from the pivot and the perpendicular component of the force.
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$
+- When to use it: Whenever a force is applied to a lever, beam, or rotating object.
+- Common trap: Assuming torque is maximum when the force is largest, ignoring the angle ($\theta$) or the distance from the pivot ($r$).

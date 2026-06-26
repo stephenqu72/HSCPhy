@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work required to move a satellite from one circular orbit to another?
+
+### Back
+- **Key idea:** Work done equals the change in total mechanical energy ($W = E_{final} - E_{initial}$).
+- **Formula / law / constant / figure:** $E_{total} = -\frac{GMm}{2r}$; Kepler’s Third Law ($\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$) to find missing orbital radii.
+- **When to use it:** When calculating the energy change required for a satellite orbital maneuver.
+- **Common trap:** Forgetting that $r$ in the orbital energy formula is the **orbital radius** (distance from the centre of the Earth), not the altitude ($h$) above the surface ($r = R_E + h$).

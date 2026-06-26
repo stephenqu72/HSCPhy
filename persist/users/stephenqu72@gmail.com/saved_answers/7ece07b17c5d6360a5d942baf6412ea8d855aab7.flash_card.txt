@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass ($M$) of a celestial body given its escape velocity ($v_e$) and radius ($r$)?
+
+### Back
+- Key idea: Use the conservation of mechanical energy (kinetic energy = gravitational potential energy).
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}} \implies M = \frac{v_e^2 r}{2G}$; $G = 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$.
+- When to use it: To calculate mass when escape velocity and radius are provided.
+- Common trap: Forgetting to convert km to meters ($10^3$) and $\text{km/s}$ to $\text{m/s}$ ($10^3$) before substituting into the formula.

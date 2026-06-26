@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the banking angle ($\theta$) of a frictionless track to allow a vehicle of speed $v$ and radius $r$ to turn without relying on friction?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force.
+- Formula: $\tan\theta = \frac{v^2}{rg}$
+- When to use it: When asked to find the design speed or required banking angle for a curve where friction is negligible.
+- Common trap: Forgetting to convert $v$ from $\text{km h}^{-1}$ to $\text{m s}^{-1}$ or confusing the horizontal radius ($r$) with the distance along the slope ($d = r/\cos\theta$).

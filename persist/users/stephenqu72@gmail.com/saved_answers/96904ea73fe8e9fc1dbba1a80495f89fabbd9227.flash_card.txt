@@ -1,0 +1,8 @@
+### Front
+For a projectile launched at $45^\circ$, how does the maximum height ($H$) relate to the horizontal range ($R$)?
+
+### Back
+- Key idea: At $45^\circ$, the horizontal range is four times the maximum height ($R = 4H$).
+- Formula: $H = \frac{R \sin^2 \theta}{2 \sin 2\theta}$ (simplifies to $H = \frac{R}{4}$ when $\theta = 45^\circ$).
+- When to use it: To quickly solve for height when range is known, or vice versa, at a $45^\circ$ projection angle.
+- Common trap: Confusing the range formula ($R = \frac{v^2 \sin 2\theta}{g}$) with the height formula ($H = \frac{v^2 \sin^2 \theta}{2g}$) and forgetting to square the sine term for height.

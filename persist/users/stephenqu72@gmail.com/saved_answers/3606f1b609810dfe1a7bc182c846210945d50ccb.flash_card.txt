@@ -1,0 +1,8 @@
+### Front
+What is the formula and standard procedure for calculating the electric field strength $E$ of a point charge?
+
+### Back
+- **Key idea:** The electric field $E$ is the force per unit charge at a specific point in space.
+- **Formula / law / constant:** $E = \frac{k|q|}{r^2}$ where $k \approx 8.99 \times 10^9 \text{ N m}^2 \text{ C}^{-2}$.
+- **When to use it:** To find the field magnitude produced by a point charge at distance $r$.
+- **Common trap:** Failing to convert milli-Coulombs (mC, $10^{-3}$) or micro-Coulombs ($\mu\text{C}$, $10^{-6}$) into SI Coulombs (C) before calculating.

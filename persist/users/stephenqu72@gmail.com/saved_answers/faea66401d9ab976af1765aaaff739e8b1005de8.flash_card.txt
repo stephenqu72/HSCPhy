@@ -1,0 +1,8 @@
+### Front
+Why is the work done by centripetal force in uniform circular motion always zero?
+
+### Back
+- **Key idea:** Centripetal force acts perpendicular to the instantaneous velocity (displacement).
+- **Formula / law / constant / figure:** $W = Fs \cos(\theta)$; since $\theta = 90^\circ$, $\cos(90^\circ) = 0$.
+- **When to use it:** When analyzing energy, work, or power in circular motion problems.
+- **Common trap:** Assuming that because a force exists, work must be done; remember that work only occurs if there is a displacement component in the direction of the force.

@@ -1,0 +1,8 @@
+### Front
+When can a car successfully negotiate a flat, circular corner, and what is the formula for a frictionless banked turn?
+
+### Back
+- Key idea: The car negotiates the turn if $F_c \leq f_{max}$. For a frictionless banked turn, the horizontal component of the normal force provides the centripetal force.
+- Formula / law / constant / figure: $F_c = \frac{mv^2}{r}$ and $\tan\theta = \frac{v^2}{rg}$
+- When to use it: Use $F_c = \frac{mv^2}{r}$ for circular motion constraints; use $\tan\theta = \frac{v^2}{rg}$ when calculating the ideal banking angle for a given speed/radius.
+- Common trap: Forgetting to convert units to SI (e.g., km/h to m/s, or tonnes to kg) before performing calculations.

@@ -1,0 +1,8 @@
+### Front
+In projectile motion, how do you calculate the launch angle ($\theta$) required to reach a specific maximum height ($y_{max}$)?
+
+### Back
+- Key idea: At maximum height, vertical velocity ($v_y$) is zero, converting all initial vertical kinetic energy into gravitational potential energy.
+- Formula / law / constant: $v_y^2 = u_y^2 - 2gy \implies \sin \theta = \frac{\sqrt{2gy}}{v}$
+- When to use it: To determine launch constraints (e.g., ceiling height limits or target reach) without needing horizontal range data.
+- Common trap: Using the total initial velocity ($v$) instead of the vertical component ($v\sin\theta$) in the kinematic equation.

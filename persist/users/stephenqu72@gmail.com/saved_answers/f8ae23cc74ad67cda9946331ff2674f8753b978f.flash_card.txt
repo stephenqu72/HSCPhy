@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of escape velocities for two celestial bodies given their relative masses and radii?
+
+### Back
+- Key idea: Escape velocity $v_e$ is proportional to $\sqrt{M/R}$.
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{R}}$
+- When to use it: To compare the velocity required to reach an infinite distance from a gravitational source (e.g., planets, asteroids).
+- Common trap: Forgetting to take the square root of the ratio of the variables or confusing diameter with radius ($R = \frac{1}{2}d$).

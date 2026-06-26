@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total time of flight ($t$) for a projectile that lands at a different vertical height than its launch point?
+
+### Back
+- **Key idea:** Use vertical motion components and kinematic displacement formulas.
+- **Formula / law / constant / figure:** $\Delta y = u_y t + \frac{1}{2} a_y t^2$ (solved via the quadratic formula).
+- **When to use it:** When the final vertical displacement ($\Delta y$) is non-zero, requiring the quadratic formula to solve for time.
+- **Common trap:** Forgetting to define a sign convention; if "up" is positive, $\Delta y$ and $g$ must both be negative for a landing below the launch point.

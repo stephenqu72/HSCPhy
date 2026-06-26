@@ -1,0 +1,8 @@
+### Front
+What is the formula for torque ($\tau$) and the required SI units for calculation?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force; it measures the turning effect of a force about a pivot point.
+- Formula / law / constant: $\tau = F \cdot r \cdot \sin(\theta)$ (where units are $F$ in Newtons, $r$ in meters, and $\tau$ in Nm).
+- When to use it: To determine the magnitude of a rotational force acting at a distance from a pivot (hinge, fulcrum, etc.).
+- Common trap: Forgetting to convert distance ($r$) from cm to meters before calculating.

@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the "design speed" ($v$) of a car on a frictionless banked track of radius $r$ and angle $\theta$.
+
+### Back
+- Key idea: The horizontal component of the normal force provides the necessary centripetal force, while the vertical component balances the weight.
+- Formula / law / constant / figure: $\tan \theta = \frac{v^2}{rg} \implies v = \sqrt{rg \tan \theta}$
+- When to use it: To calculate the speed at which a vehicle can safely navigate a banked curve without relying on friction.
+- Common trap: Forgetting that if $v < \text{design speed}$, static friction must act **up** the slope to prevent sliding; if $v > \text{design speed}$, friction must act **down** the slope.

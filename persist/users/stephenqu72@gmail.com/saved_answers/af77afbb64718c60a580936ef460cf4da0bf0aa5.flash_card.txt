@@ -1,0 +1,8 @@
+### Front
+How do you calculate the linear speed ($v$) of an object undergoing uniform circular motion when given its angular velocity ($\omega$)?
+
+### Back
+- Key idea: Linear speed is the product of the radius and the angular velocity.
+- Formula: $v = r\omega$
+- When to use it: Any circular motion problem requiring a conversion from angular to linear velocity (e.g., clock hands, rotating gears).
+- Common trap: Forgetting to ensure units for radius ($r$) are consistent (e.g., converting $\text{cm}$ to $\text{m}$ if SI units are required).

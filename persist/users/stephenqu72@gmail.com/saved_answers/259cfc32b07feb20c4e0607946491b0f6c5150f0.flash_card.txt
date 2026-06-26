@@ -1,0 +1,8 @@
+### Front
+What is the formula and key constraint for calculating the orbital speed ($v$) of a satellite like the ISS?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force required for circular motion ($F_g = F_c$).
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{GM}{r}}$ where $G \approx 6.67 \times 10^{-11} \text{ N m}^2/\text{kg}^2$.
+- **When to use it:** To determine the velocity of an object in a stable circular orbit around a central body.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r = R_E + h$).

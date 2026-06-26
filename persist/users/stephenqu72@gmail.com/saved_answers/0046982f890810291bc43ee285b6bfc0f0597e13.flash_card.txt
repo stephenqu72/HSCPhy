@@ -1,0 +1,8 @@
+### Front
+What is the core strategy for solving projectile motion problems involving horizontal and vertical components?
+
+### Back
+- **Key idea:** Vertical and horizontal motions are independent; **time ($t$)** is the "bridge" connecting them.
+- **Formula / law / constant:** $s_y = u_y t + \frac{1}{2}g t^2$ and $d_x = v_x t$ ($g = 9.8 \text{ m s}^{-2}$).
+- **When to use it:** When an object moves under gravity with an initial horizontal velocity and no air resistance.
+- **Common trap:** Forgetting that horizontal velocity is constant ($a_x = 0$) while vertical velocity changes due to gravity ($a_y = g$).

@@ -1,0 +1,8 @@
+### Front
+How do you determine the maximum radius $r$ at which an object maintains circular motion on a rotating turntable before sliding?
+
+### Back
+- **Key idea:** The maximum static frictional force acts as the centripetal force ($F_f = F_c$).
+- **Formula / law / constant / figure:** $F_f = mr\omega^2$
+- **When to use it:** When solving for the threshold of slipping in uniform circular motion problems involving friction.
+- **Common trap:** Confusing angular velocity ($\omega$ in rad/s) with linear velocity ($v$ in m/s) or forgetting to square the $\omega$ term.

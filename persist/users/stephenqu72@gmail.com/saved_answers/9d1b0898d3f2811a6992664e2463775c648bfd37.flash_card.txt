@@ -1,0 +1,8 @@
+### Front
+How do you relate the orbital radii and periods of two satellites orbiting the same central body?
+
+### Back
+- Key idea: Kepler’s Third Law states the square of the period is proportional to the cube of the orbital radius ($r^3 \propto T^2$).
+- Formula / law / constant / figure: $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- When to use it: Any problem involving two orbiting bodies (e.g., planets or satellites) sharing the same primary mass.
+- Common trap: Forgetting to cube the radii or square the periods, or failing to ensure units are consistent.

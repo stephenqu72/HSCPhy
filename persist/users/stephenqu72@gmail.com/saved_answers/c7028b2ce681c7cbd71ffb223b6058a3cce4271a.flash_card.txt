@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the total energy ($E_T$) of a satellite in a circular orbit and describe the relationship between its Kinetic ($E_k$), Potential ($E_p$), and Total Energy.
+
+### Back
+- **Key idea:** Total energy in a circular orbit is the sum of gravitational potential and kinetic energy; it is always half the magnitude of the potential energy but negative.
+- **Formula:** $E_T = E_k + E_p = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r}$
+- **When to use it:** When calculating orbital energy, binding energy, or sketching energy vs. radius graphs.
+- **Common trap:** Forgetting the negative sign for $E_p$ and $E_T$, or assuming $E_T = 0$ (which only applies at escape velocity, not in a stable orbit).

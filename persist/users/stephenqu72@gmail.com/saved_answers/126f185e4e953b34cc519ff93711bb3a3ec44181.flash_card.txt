@@ -1,0 +1,8 @@
+### Front
+What is the relationship between the coefficient of static friction ($\mu_s$) and the required centripetal acceleration ($a_c$) for an object moving on a horizontal rotating platform?
+
+### Back
+- **Key idea:** The static frictional force acts as the centripetal force required to maintain circular motion.
+- **Formula:** $\mu_s = \frac{a_c}{g} = \frac{\omega^2 r}{g}$ (or $\frac{v^2}{rg}$)
+- **When to use it:** When calculating the minimum friction required to prevent an object from sliding off a rotating surface (e.g., merry-go-round, turntable).
+- **Common trap:** Forgetting that mass ($m$) cancels out and mistakenly assuming the result depends on how heavy the object is.

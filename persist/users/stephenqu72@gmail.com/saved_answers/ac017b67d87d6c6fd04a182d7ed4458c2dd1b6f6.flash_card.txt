@@ -1,0 +1,8 @@
+### Front
+How do you calculate the electric field strength ($E$) between two parallel equipotential lines?
+
+### Back
+- **Key idea:** The electric field is the rate of change of electric potential with respect to distance.
+- **Formula:** $E = \frac{\Delta V}{d}$
+- **When to use it:** In uniform electric fields (e.g., between charged parallel plates).
+- **Common trap:** Forgetting to convert distance units (e.g., cm to m) if the answer requires SI units (V/m). Note: $1\text{ V/cm} = 100\text{ V/m}$.

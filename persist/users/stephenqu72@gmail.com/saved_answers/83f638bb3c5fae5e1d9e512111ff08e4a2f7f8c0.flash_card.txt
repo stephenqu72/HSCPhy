@@ -1,0 +1,8 @@
+### Front
+Why do a dropped ball and a horizontally projected ball hit the ground at the same time?
+
+### Back
+- **Key idea:** Vertical and horizontal motions are independent; gravity acts on both equally regardless of horizontal velocity.
+- **Formula / law / constant / figure:** $s = ut + \frac{1}{2}at^2$ (where $u_y = 0$ and $a = g \approx 9.8\text{ ms}^{-2}$).
+- **When to use it:** Whenever calculating time of flight or vertical displacement for projectiles.
+- **Common trap:** Thinking that horizontal velocity (or mass) affects the time taken to fall; it only affects the horizontal displacement (range).

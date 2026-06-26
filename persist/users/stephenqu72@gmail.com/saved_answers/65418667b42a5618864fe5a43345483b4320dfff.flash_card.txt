@@ -1,0 +1,8 @@
+### Front
+How do you determine the composition of a radioactive source using attenuation materials (paper, aluminium, and lead)?
+
+### Back
+- **Key idea:** Radiation types are identified by their penetration power: Alpha is stopped by paper, Beta is stopped by aluminium, and Gamma is reduced significantly only by thick lead.
+- **Formula / law / constant / figure:** No fixed constant or figure.
+- **When to use it:** When given a table of count rates vs. barrier thickness; subtract the background radiation from each reading first, then observe which materials cause a sudden drop in counts.
+- **Common trap:** Forgetting to subtract background radiation before calculating the percentage drop, or assuming a small drop is experimental error rather than identifying weak alpha emissions.

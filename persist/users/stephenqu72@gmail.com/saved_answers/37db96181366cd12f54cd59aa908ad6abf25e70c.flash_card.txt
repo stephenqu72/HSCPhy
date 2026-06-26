@@ -1,0 +1,8 @@
+### Front
+When a vehicle corners on a flat surface, what provides the centripetal force, and how is it expressed mathematically?
+
+### Back
+- **Key idea:** The sideways frictional force between the tyres and the road surface provides the required centripetal force.
+- **Formula:** $F_f = \frac{mv^2}{r}$
+- **When to use it:** To determine maximum safe speed, radius of curvature, or the relationship between variables (mass, friction, velocity) in circular motion problems.
+- **Common trap:** Forgetting that friction is proportional to the Normal force; if the surface is banked, the horizontal component of the Normal force also contributes to the centripetal force.

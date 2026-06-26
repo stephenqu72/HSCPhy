@@ -1,0 +1,8 @@
+### Front
+How does the required radius of a horizontal curve change if a train doubles its speed while maintaining the same lateral force on the tracks?
+
+### Back
+- Key idea: Centripetal force ($F_c = mv^2/r$) must remain constant; therefore, radius is directly proportional to the square of the velocity ($r \propto v^2$).
+- Formula / law / constant / figure: $r_2 = r_1(v_2/v_1)^2$
+- When to use it: Problems involving vehicles or trains navigating curves where maximum lateral force or centripetal acceleration is the limiting factor.
+- Common trap: Forgetting to square the velocity ratio (e.g., thinking a 2x increase in speed only requires a 2x increase in radius).

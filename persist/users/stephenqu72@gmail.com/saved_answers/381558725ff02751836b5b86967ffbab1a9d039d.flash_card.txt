@@ -1,0 +1,8 @@
+### Front
+Why does a coin on a rotating disc eventually slide off, and which coin (A or B) slides off first if $r_A > r_B$?
+
+### Back
+- **Key idea:** Static friction provides the centripetal force ($F_c$); sliding occurs when $F_c$ exceeds $\mu mg$.
+- **Formula / law / constant / figure:** $F_c = mr\omega^2$ and $r\omega^2 \le \mu g$.
+- **When to use it:** Problems involving objects in horizontal circular motion held by friction.
+- **Common trap:** Forgetting that objects further from the center (larger $r$) reach the critical sliding velocity ($\omega$) first because they require more centripetal force for the same $\omega$.

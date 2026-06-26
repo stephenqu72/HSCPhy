@@ -1,0 +1,8 @@
+### Front
+What is the formula to calculate the ideal banking angle ($\theta$) for a vehicle moving at velocity $v$ around a curve of radius $r$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the required centripetal force.
+- **Formula / law / constant / figure:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** When calculating the design angle of a banked track to prevent reliance on friction for circular motion.
+- **Common trap:** Forgetting to convert velocity from $\text{km/h}$ to $\text{m/s}$ before substituting into the formula.

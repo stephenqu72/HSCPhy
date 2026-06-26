@@ -1,0 +1,8 @@
+### Front
+What is the derivation/formula for the orbital velocity ($v$) of a satellite in a stable circular orbit?
+
+### Back
+- **Key idea:** Gravitational force provides the necessary centripetal force for circular motion ($F_g = F_c$).
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{GM}{r}}$ (derived from $\frac{GMm}{r^2} = \frac{mv^2}{r}$).
+- **When to use it:** To determine the speed of a satellite at a specific orbital radius $r$ from the centre of the primary mass $M$.
+- **Common trap:** Using altitude ($h$) instead of total orbital radius ($r = R_{earth} + h$). Also, forgetting that mass $m$ of the satellite cancels out.

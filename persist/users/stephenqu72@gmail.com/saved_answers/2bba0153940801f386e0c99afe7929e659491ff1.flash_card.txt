@@ -1,0 +1,8 @@
+### Front
+What is the process for calculating the orbital period ($T$) of a satellite at a specific altitude ($h$)?
+
+### Back
+- **Key idea:** Relate centripetal force to gravitational force using Kepler’s Third Law.
+- **Formula / law / constant:** $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$ (where $r = R_E + h$).
+- **When to use it:** When calculating satellite periods, orbital radii, or checking for geostationary requirements.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E \approx 6.37 \times 10^6\text{ m}$) to the satellite's altitude to find the total orbital radius ($r$).

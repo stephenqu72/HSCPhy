@@ -1,0 +1,8 @@
+### Front
+How do orbital speed and total mechanical energy change as a satellite moves from altitude $H$ to $2H$?
+
+### Back
+- **Key idea:** As $r$ increases, orbital speed decreases and total mechanical energy increases (becomes less negative).
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{GM}{r}}$ and $E = -\frac{GMm}{2r}$.
+- **When to use it:** When calculating orbital transitions or the work required to change orbits ($W = \Delta E$).
+- **Common trap:** Confusing altitude ($H$) with orbital radius ($r = R_E + H$); always include Earth's radius unless specified otherwise.

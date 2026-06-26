@@ -1,0 +1,8 @@
+### Front
+What happens to a spacecraft's orbit if its velocity is increased at a specific point ($P$) while in a stable circular orbit?
+
+### Back
+- Key idea: The spacecraft enters an elliptical orbit where point $P$ acts as the perigee (closest point to the central body).
+- Formula / law / constant / figure: $E_{total} = KE + PE$; Conservation of Mechanical Energy.
+- When to use it: Whenever a propulsion burn (impulse) occurs in an orbit to change altitude or eccentricity.
+- Common trap: Assuming an instantaneous speed increase results in a larger circular orbit; circular orbits require a *change* in energy that is sustained or managed at both perigee and apogee to circularize.

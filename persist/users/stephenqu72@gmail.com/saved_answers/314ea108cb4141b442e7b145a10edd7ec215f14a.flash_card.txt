@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital height ($h$) of a satellite given its period ($T$)?
+
+### Back
+- **Key idea:** The orbital radius $r$ is the sum of the Earth's radius ($R_E$) and the satellite's altitude ($h$).
+- **Formula:** $r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$ where $h = r - R_E$.
+- **When to use it:** When determining altitude or orbital radius for circular orbits using Kepler’s Third Law.
+- **Common trap:** Forgetting to convert the orbital period $T$ into seconds or forgetting to subtract the Earth's radius ($R_E$) from $r$ to find the altitude $h$.

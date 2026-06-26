@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) when given a radioactive sample's half-life ($t_{1/2}$)?
+
+### Back
+- Key idea: The decay constant represents the probability per unit time that a nucleus will decay.
+- Formula / law / constant / figure: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: To find the rate of decay of a radioisotope or solve for time elapsed in radioactive dating problems.
+- Common trap: Failing to convert the time units of $t_{1/2}$ (e.g., days/years) into the units required by the question (e.g., seconds) before calculating.

@@ -1,0 +1,8 @@
+### Front
+Derive the formula for the velocity ($v$) of a car on a frictionless banked track at angle $\theta$ and radius $r$.
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force ($N \sin \theta = mv^2/r$), while the vertical component balances gravity ($N \cos \theta = mg$).
+- Formula / law / constant / figure: $v = \sqrt{rg \tan \theta}$
+- When to use it: To calculate the design speed of a banked curve where friction is negligible.
+- Common trap: Forgetting that the centripetal force is not the normal force itself, but its horizontal component. Do not confuse $\sin \theta$ and $\cos \theta$.

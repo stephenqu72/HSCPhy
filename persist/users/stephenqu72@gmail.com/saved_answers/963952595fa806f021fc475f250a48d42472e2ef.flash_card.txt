@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass ($M$) of a central body (e.g., Saturn) using a satellite's orbital data ($r$ and $T$)?
+
+### Back
+- **Key idea:** Kepler’s Third Law relates the orbital period and radius to the mass of the central body.
+- **Formula / law / constant / figure:** $M = \frac{4\pi^2 r^3}{GT^2}$ where $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** When calculating the mass of a planet or star given the orbital period and radius of one of its satellites.
+- **Common trap:** Failing to convert units to SI: $r$ must be in metres ($m$) and $T$ must be in seconds ($s$).

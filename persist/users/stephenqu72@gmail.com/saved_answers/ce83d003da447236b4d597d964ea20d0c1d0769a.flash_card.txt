@@ -1,0 +1,8 @@
+### Front
+Calculate the net force on a current-carrying rod of mass $0.1\text{ kg}$, length $1\text{ m}$, carrying $2\text{ A}$ of current in a $10\text{ T}$ magnetic field (where $F_B$ and $F_g$ act in the same direction).
+
+### Back
+- Key idea: Superposition of magnetic force ($F_B = BIL\sin\theta$) and weight ($F_g = mg$).
+- Formula: $F_{net} = BIL\sin\theta + mg$
+- When to use it: When a current-carrying conductor is subject to both a uniform magnetic field and a gravitational field.
+- Common trap: Forgetting to convert mass units (e.g., grams to kilograms) or neglecting the vector direction (ensuring $F_B$ and $F_g$ are correctly aligned).

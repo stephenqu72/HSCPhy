@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) using a radioactive decay graph?
+
+### Back
+- **Key idea:** The decay constant is inversely proportional to the half-life ($t_{1/2}$).
+- **Formula:** $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- **When to use it:** When you need to determine the rate of decay from a mass-time or activity-time graph.
+- **Common trap:** Confusing the units of time (e.g., years vs. seconds) or failing to verify the "halving" point from $t=0$ if the curve is shifted.

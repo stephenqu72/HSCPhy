@@ -1,0 +1,8 @@
+### Front
+How does the time of flight ($t$) of a projectile vary with the launch angle ($\theta$) on level ground?
+
+### Back
+- **Key idea:** Time of flight is directly proportional to the sine of the launch angle.
+- **Formula / law / constant / figure:** $t = \frac{2v \sin(\theta)}{g}$
+- **When to use it:** To determine flight duration given initial velocity and launch angle.
+- **Common trap:** Confusing the "time of flight vs. angle" graph (which increases monotonically to $90^\circ$) with the "range vs. angle" graph (which is symmetrical and peaks at $45^\circ$).

@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass ($m$) of a tether ball undergoing uniform circular motion using tension ($F_T$) and the angle to the vertical ($\theta$)?
+
+### Back
+- Key idea: Vertical equilibrium where the vertical component of tension balances the ball's weight.
+- Formula / law / constant / figure: $F_T \cos \theta = mg \implies m = \frac{F_T \cos \theta}{g}$
+- When to use it: Any conical pendulum or tethered object problem where vertical acceleration is zero.
+- Common trap: Confusing the horizontal component ($F_T \sin \theta$) with the vertical component; always check if the angle is measured from the vertical or the horizontal.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial velocity magnitude ($v$) of a projectile given its horizontal range ($\Delta x$) and total flight time ($t_{total}$)?
+
+### Back
+- **Key idea:** The initial velocity is the vector sum of constant horizontal velocity ($v_x$) and initial vertical velocity ($u_y$).
+- **Formula:** $v = \sqrt{v_x^2 + u_y^2}$, where $v_x = \frac{\Delta x}{t_{total}}$ and $u_y = \frac{1}{2}g t_{total}$ (assuming a symmetrical jump).
+- **When to use it:** When analyzing projectile motion from stroboscopic images or kinematic data.
+- **Common trap:** Using total time instead of time-to-peak when calculating $u_y$ or vertical displacement ($y_{max}$).

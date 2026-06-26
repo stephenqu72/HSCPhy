@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the total orbital energy ($E_T$) of a satellite in terms of its gravitational potential energy ($U$) and kinetic energy ($K$).
+
+### Back
+- **Key idea:** $E_T$ is the sum of $K$ and $U$, resulting in $E_T = \frac{1}{2}U = -K$.
+- **Formula / law / constant / figure:** $E_T = -\frac{GmM}{2r}$; No fixed constant or figure.
+- **When to use it:** Problems involving satellite energy conservation or orbital height transitions.
+- **Common trap:** Forgetting the negative sign for $U$ and $E_T$, which represents a "bound state."

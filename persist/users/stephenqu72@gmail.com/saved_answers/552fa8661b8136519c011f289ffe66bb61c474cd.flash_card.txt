@@ -1,0 +1,8 @@
+### Front
+How do you linearize the relationship between gravitational field strength ($g$) and distance ($r$) to determine $M$ from a graph?
+
+### Back
+- **Key idea:** Gravitational field strength $g$ follows an inverse-square law; plotting against the inverse square of the distance creates a linear relationship.
+- **Formula / law / constant / figure:** $g = (GM) \cdot (\frac{1}{r^2})$; Graph $g$ vs $\frac{1}{r^2}$ has a gradient of $GM$.
+- **When to use it:** When analyzing gravitational field data to determine the mass ($M$) of a central body.
+- **Common trap:** Confusing the distance from the center ($r$) with the altitude above the surface ($h$); the formula requires $r = R_{planet} + h$.

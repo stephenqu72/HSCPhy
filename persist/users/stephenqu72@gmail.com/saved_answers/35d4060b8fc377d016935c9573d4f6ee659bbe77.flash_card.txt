@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant gravitational force on a point mass from multiple source masses?
+
+### Back
+- Key idea: Use the principle of superposition by calculating individual force vectors and summing them component-wise ($F_{net} = \sqrt{\sum F_x^2 + \sum F_y^2}$).
+- Formula / law / constant / figure: $F = \frac{G M_1 M_2}{r^2}$ (Newton's Law of Universal Gravitation).
+- When to use it: To find the net gravitational force on a mass due to an arrangement of multiple point masses in space.
+- Common trap: Forgetting that force is a vector—you cannot simply add the magnitudes; you must resolve diagonal forces into horizontal and vertical components first.

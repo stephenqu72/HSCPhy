@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant velocity ($v$) of a projectile at impact when given its horizontal ($v_x$) and vertical ($v_y$) components?
+
+### Back
+- **Key idea:** Resultant velocity is the vector sum of independent horizontal and vertical components.
+- **Formula / law:** $v = \sqrt{v_x^2 + v_y^2}$ and $\theta = \tan^{-1}(\frac{v_y}{v_x})$.
+- **When to use it:** Whenever finding the final magnitude and direction of a projectile just before landing.
+- **Common trap:** Forgetting that $v_y$ changes due to gravity ($v_y = u_y + gt$), while $v_x$ remains constant (ignoring air resistance).

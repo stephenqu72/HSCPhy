@@ -1,0 +1,8 @@
+### Front
+Derive the formula for the "design speed" of a vehicle on a banked curve without friction.
+
+### Back
+- **Key idea:** The horizontal component of the normal force ($N\sin\theta$) provides the necessary centripetal force ($mv^2/r$) for circular motion.
+- **Formula / law / constant / figure:** $v = \sqrt{rg\tan\theta}$
+- **When to use it:** When a vehicle traverses a frictionless banked curve at the specific speed where no lateral friction is required.
+- **Common trap:** Forgetting that $N\cos\theta = mg$; students often incorrectly use $\sin\theta$ for the vertical component or ignore the angle's effect on the normal force.

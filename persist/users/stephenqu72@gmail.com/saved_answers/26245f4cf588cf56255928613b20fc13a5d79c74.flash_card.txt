@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), where does an object reach its minimum speed, and what is the value of its vertical velocity at that point?
+
+### Back
+- **Key idea:** The object is slowest at its peak because the vertical velocity component is zero.
+- **Formula / law / constant / figure:** $v_{total} = v_x = v_0 \cos(\theta)$; $a_y = -g$ (constant).
+- **When to use it:** To determine the minimum speed of any projectile on a symmetrical or asymmetrical flight path.
+- **Common trap:** Assuming the speed is zero at the peak; horizontal velocity ($v_x$) always remains constant throughout the entire flight.

@@ -1,0 +1,8 @@
+### Front
+Does the mass of a satellite affect its required orbital velocity for a circular orbit at a specific altitude?
+
+### Back
+- Key idea: Orbital velocity is independent of the satellite's mass ($m$).
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: Any question involving circular orbits around a central mass.
+- Common trap: Assuming $m$ affects $v$ or $T$ because it appears in the force balance equation ($F_g = F_c$); it cancels out on both sides.

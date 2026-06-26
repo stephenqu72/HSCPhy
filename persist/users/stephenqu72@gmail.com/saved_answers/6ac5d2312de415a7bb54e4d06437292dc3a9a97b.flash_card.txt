@@ -1,0 +1,8 @@
+### Front
+What provides the centripetal force for a cyclist on a frictionless banked track?
+
+### Back
+- **Key idea:** The horizontal component of the normal force ($N \sin \theta$) acts as the centripetal force.
+- **Formula / law / constant / figure:** $\sum F_c = \frac{mv^2}{r} = N \sin \theta$ and $N \cos \theta = mg$.
+- **When to use it:** When analyzing circular motion on inclined planes or banked curves.
+- **Common trap:** Assuming the normal force ($N$) equals the weight ($mg$); on a bank, $N$ is always greater than $mg$ because $N = \frac{mg}{\cos \theta}$.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the type of radioactive decay and the resulting isotope from an $N$ vs $Z$ graph?
+
+### Back
+- **Key idea:** Alpha ($\alpha$) decay reduces $Z$ by 2 and $N$ by 2 ($A$ by 4); Beta minus ($\beta^-$) decay increases $Z$ by 1 and decreases $N$ by 1 ($A$ remains constant).
+- **Formula / law / constant / figure:** Conservation of nucleon number ($A$) and atomic number ($Z$); $A = Z + N$.
+- **When to use it:** When identifying particles emitted during radioactive decay series or determining daughter isotope properties.
+- **Common trap:** Confusing the axes ($N$ vs $Z$) and forgetting that $\beta^-$ decay shifts the position diagonally (down-right) on the graph, while $\alpha$ decay shifts it two units left and two units down.

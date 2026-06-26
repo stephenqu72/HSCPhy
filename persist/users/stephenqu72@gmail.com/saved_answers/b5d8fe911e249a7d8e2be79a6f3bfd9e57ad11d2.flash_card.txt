@@ -1,0 +1,8 @@
+### Front
+How can you determine the distance $d$ required to produce the same torque $\tau$ as a force $F$ applied at angle $\theta$ at distance $L$ from a pivot, if the new force is applied perpendicularly?
+
+### Back
+- **Key idea:** Torque is the product of the force and the perpendicular distance from the pivot to the line of action of the force (lever arm).
+- **Formula / law:** $\tau = rF\sin(\theta) = dF \implies d = L\sin(\theta)$
+- **When to use it:** When calculating the effective lever arm to determine how distance and angle trade off to maintain a constant rotational effect.
+- **Common trap:** Forgetting that "perpendicular" means the angle $\phi = 90^\circ$ and $\sin(90^\circ) = 1$, or using $\cos(\theta)$ instead of $\sin(\theta)$ when calculating the perpendicular component.

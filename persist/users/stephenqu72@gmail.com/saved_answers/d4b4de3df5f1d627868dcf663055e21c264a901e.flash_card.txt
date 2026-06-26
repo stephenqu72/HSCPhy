@@ -1,0 +1,8 @@
+### Front
+How do you determine the time of flight for a projectile given only its kinetic energy at launch and impact, and its constant horizontal velocity?
+
+### Back
+- Key idea: Total kinetic energy ($KE$) at any point is the sum of horizontal and vertical components ($KE = \frac{1}{2}mv_x^2 + \frac{1}{2}mv_y^2$). 
+- Formula / law: $v = \sqrt{\frac{2KE}{m}}$ and $v_f = v_i + at$.
+- When to use it: When horizontal velocity is constant but the object lands at a different vertical displacement than it started.
+- Common trap: Forgetting that $v_y$ changes sign (e.g., launch is $+19.66\text{ m/s}$, impact is $-27.19\text{ m/s}$), which is critical for solving $t = \frac{\Delta v_y}{g}$.

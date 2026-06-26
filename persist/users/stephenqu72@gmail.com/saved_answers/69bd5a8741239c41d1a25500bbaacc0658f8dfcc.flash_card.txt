@@ -1,0 +1,8 @@
+### Front
+What is the minimum radius $r$ required for a roller coaster to maintain circular motion at speed $v$ while achieving "weightlessness" (zero normal force) at the peak?
+
+### Back
+- Key idea: At the peak, gravity provides the entirety of the required centripetal force ($F_g = F_c$).
+- Formula / law / constant / figure: $r = \frac{v^2}{g}$
+- When to use it: Problems involving vertical circular motion where the object loses contact with the track or feels "weightless."
+- Common trap: Forgetting to include gravity ($mg$) in the net force equation or failing to set $F_N = 0$ for the "minimum" condition.

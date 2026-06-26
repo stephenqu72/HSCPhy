@@ -1,0 +1,8 @@
+### Front
+How does a vehicle's motion on a banked track change if its velocity deviates from the "design speed"?
+
+### Back
+- **Key idea:** At design speed, $N_h$ perfectly provides $F_c$. If $v > v_{design}$, the car slides up the bank; if $v < v_{design}$, the car slides down.
+- **Formula:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** Solving for vehicle banking, circular motion, or required speed without relying on friction.
+- **Common trap:** Assuming friction is acting; "design speed" specifically refers to the condition where friction is *zero*.

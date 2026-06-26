@@ -1,0 +1,8 @@
+### Front
+Why can a car travel at a higher speed on a banked curve compared to a flat curve?
+
+### Back
+- **Key idea:** On a banked curve, the horizontal component of the normal force ($N \sin \theta$) acts as an additional inward centripetal force, reducing the reliance on friction to maintain circular motion.
+- **Formula / law:** $F_c = \frac{mv^2}{r}$; at design speed (no friction), $v = \sqrt{rg \tan \theta}$.
+- **When to use it:** When analyzing circular motion and dynamics questions involving vehicles on corners.
+- **Common trap:** Assuming the normal force is always equal to $mg$; on a banked track, $N = \frac{mg}{\cos \theta}$ (greater than $mg$).

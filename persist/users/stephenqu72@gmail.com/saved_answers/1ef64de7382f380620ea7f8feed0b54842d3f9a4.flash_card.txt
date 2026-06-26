@@ -1,0 +1,8 @@
+### Front
+How do you determine the minimum speed of a projectile in flight, and where does it occur?
+
+### Back
+- Key idea: The vertical component of velocity ($v_y$) is zero at the peak of the trajectory; only the constant horizontal velocity ($v_x$) remains.
+- Formula / law / constant: $v_{\text{min}} = v_x = v \cos(\theta)$ (where $\theta$ is the angle to the horizontal).
+- When to use it: Any projectile motion problem asking for minimum speed or speed at the maximum height.
+- Common trap: Forgetting to adjust the angle if it is provided with respect to the **vertical** instead of the horizontal.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the temperature of a black body if given its peak frequency ($f_{max}$) instead of its peak wavelength ($\lambda_{max}$)?
+
+### Back
+- Key idea: Combine Wien's Displacement Law with the universal wave equation ($c = f\lambda$).
+- Formula / law / constant / figure: $T = \frac{b \cdot f_{max}}{c}$; where $b \approx 2.898 \times 10^{-3} \, \text{m K}$ and $c \approx 3.0 \times 10^8 \, \text{m/s}$.
+- When to use it: When determining the temperature of a star or black body from a frequency-based spectral intensity graph.
+- Common trap: Using Wien's Law directly with frequency ($T \propto f$ is incorrect; $T$ is inversely proportional to $\lambda$, so $T$ is directly proportional to $f$). Always convert units to SI (Kelvin, meters, Hertz).

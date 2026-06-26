@@ -1,0 +1,8 @@
+### Front
+How do you determine the net magnetic field at a point between two parallel current-carrying wires?
+
+### Back
+- Key idea: Superposition of magnetic field vectors calculated via the Right-Hand Grip Rule.
+- Formula / law / constant / figure: $B = \frac{\mu_0 I}{2\pi r}$; Right-Hand Grip Rule.
+- When to use it: When calculating the resultant magnetic field magnitude and direction from multiple sources.
+- Common trap: Failing to consider the vector direction (in vs. out of page); if currents are in the same direction, fields cancel between the wires; if opposite, they add.

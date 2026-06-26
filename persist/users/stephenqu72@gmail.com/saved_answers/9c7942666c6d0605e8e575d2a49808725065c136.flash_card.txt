@@ -1,0 +1,8 @@
+### Front
+How does orbital altitude affect the period of a satellite, and which type of orbit (LEO or GEO) is best suited for surface mapping?
+
+### Back
+- Key idea: Orbital period increases with altitude; lower altitude allows for higher resolution imagery.
+- Formula / law / constant / figure: Kepler's Third Law ($T^2 \propto r^3$).
+- When to use it: To determine orbital height based on timing requirements or imaging needs.
+- Common trap: Confusing "geostationary" (fixed position, high altitude) with "low earth orbit" (frequent passes, low altitude).

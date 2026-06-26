@@ -1,0 +1,8 @@
+### Front
+How do you calculate the net gravitational acceleration of an object located between two massive bodies (e.g., Earth and Moon)?
+
+### Back
+- **Key idea:** Gravitational fields are vectors. The net acceleration is the vector sum (or difference if acting in opposite directions) of the individual fields.
+- **Formula:** $g = \frac{GM}{r^2}$ where $r$ is the distance from the center of the mass.
+- **When to use it:** When determining the net field strength at a specific point in space between two sources.
+- **Common trap:** Forgetting that $r$ is the distance from the center of the mass (not the surface) or failing to subtract the smaller field from the larger one when they act in opposite directions.

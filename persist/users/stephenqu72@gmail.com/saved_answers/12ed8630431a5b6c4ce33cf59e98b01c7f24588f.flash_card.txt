@@ -1,0 +1,8 @@
+### Front
+How do you calculate the linear speed ($v$) of an object moving in a circular path when given the radius ($r$) and period ($T$)?
+
+### Back
+- **Key idea:** Linear speed is the distance traveled in one revolution (circumference) divided by the time taken (period).
+- **Formula / law / constant / figure:** $v = \frac{2\pi r}{T}$
+- **When to use it:** When calculating the tangential speed of an object in uniform circular motion.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or confusing period ($T$) with frequency ($f$). Remember $T = \frac{1}{f}$.

@@ -1,0 +1,8 @@
+### Front
+In projectile motion, how does the horizontal distance ($d$) travelled by an object launched horizontally affect its vertical drop ($y$)?
+
+### Back
+- Key idea: Time of flight is directly proportional to horizontal distance; greater time allows more gravity-induced vertical acceleration.
+- Formula / law / constant / figure: $t = d/v_x$ and $y = \frac{1}{2}gt^2$.
+- When to use it: To compare impact heights of projectiles launched at the same horizontal velocity.
+- Common trap: Assuming horizontal velocity affects the rate of vertical acceleration (gravity is constant regardless of $v_x$).

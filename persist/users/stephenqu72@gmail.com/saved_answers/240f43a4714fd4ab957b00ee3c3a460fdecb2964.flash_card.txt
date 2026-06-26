@@ -1,0 +1,8 @@
+### Front
+What is the formula for the orbital speed ($v$) of a satellite, and how does orbital radius ($r$) affect its required speed?
+
+### Back
+- **Key idea:** Satellites require less speed at higher altitudes because gravitational force weakens according to the inverse-square law.
+- **Formula:** $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** When calculating the velocity required for a stable circular orbit around a central mass ($M$).
+- **Common trap:** Forgetting to add the Earth's radius ($R_e$) to the given altitude ($h$) to find the total orbital radius ($r = R_e + h$).

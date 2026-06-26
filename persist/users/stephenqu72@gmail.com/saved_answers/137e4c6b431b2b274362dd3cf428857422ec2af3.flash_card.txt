@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force required for a system in uniform circular motion?
+
+### Back
+- **Key idea:** The net force acting toward the center of the circular path.
+- **Formula / law / constant / figure:** $F_c = m r \omega^2$ or $F_c = \frac{mv^2}{r}$
+- **When to use it:** When an object or system (e.g., a carriage and passenger) maintains a constant speed along a circular path.
+- **Common trap:** Forgetting to sum all masses in the system (total mass $m = m_1 + m_2$) or failing to convert rotational frequency (RPM) to Hertz (Hz) before calculating $\omega$.

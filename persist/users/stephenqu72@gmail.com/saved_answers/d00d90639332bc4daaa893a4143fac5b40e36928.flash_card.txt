@@ -1,0 +1,8 @@
+### Front
+In a conical pendulum, why does the net force on the mass act towards the center of its circular path (point C)?
+
+### Back
+- Key idea: The vertical components of tension and weight cancel out ($T\cos\theta = mg$), leaving only the horizontal component ($T\sin\theta$) to act as the centripetal force.
+- Formula / law / constant / figure: Newton’s Second Law ($F_{net} = ma_c = \frac{mv^2}{r}$); Conical pendulum free-body diagram.
+- When to use it: To determine the resultant force direction for objects in uniform circular motion on a string.
+- Common trap: Assuming the tension is the centripetal force; the tension is the *source* of the centripetal force, but only its horizontal component acts as such.

@@ -1,0 +1,8 @@
+### Front
+In a ball rolling along a smooth vertical semi-circular wall, why is the magnitude of the net force minimal at the highest point?
+
+### Back
+- Key idea: Net force magnitude is the vector sum of gravity ($mg$) and the normal force ($N$), where $N$ provides the required centripetal force ($mv^2/r$).
+- Formula / law: $F_{net} = \sqrt{(mg)^2 + (mv^2/r)^2}$
+- When to use it: Analyzing circular motion in a vertical plane where speed varies due to gravitational potential energy changes.
+- Common trap: Assuming the net force is constant or purely perpendicular to the wall; it is the resultant of both gravity and the normal force.

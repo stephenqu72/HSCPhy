@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass ($M$) of a spherical celestial body given its gravitational field strength ($g$) and radius ($r$)?
+
+### Back
+- **Key idea:** Gravitational field strength depends on the mass and distance from the center of a body.
+- **Formula:** $g = \frac{GM}{r^2} \implies M = \frac{gr^2}{G}$
+- **When to use it:** To determine the mass of a planet or moon when $g$ and $r$ are provided.
+- **Common trap:** Forgetting to convert radius ($r$) from km to meters (SI units) before squaring it.

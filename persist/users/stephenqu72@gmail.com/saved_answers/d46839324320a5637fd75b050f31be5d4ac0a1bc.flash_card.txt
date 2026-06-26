@@ -1,0 +1,8 @@
+### Front
+How does doubling a satellite's mass affect its orbital velocity ($v$), period ($T$), and gravitational force ($F_g$) while in the same circular orbit?
+
+### Back
+- Key idea: $F_g$ is directly proportional to mass ($m$), whereas $v$ and $T$ are independent of $m$.
+- Formula / law: $F_g = \frac{GMm}{r^2}$; $v = \sqrt{\frac{GM}{r}}$; $T = 2\pi\sqrt{\frac{r^3}{GM}}$
+- When to use it: Any question comparing satellites of different masses orbiting the same central body.
+- Common trap: Incorrectly assuming that because the gravitational force is higher, the satellite must travel faster; the mass cancels out in the centripetal force derivation for $v$.

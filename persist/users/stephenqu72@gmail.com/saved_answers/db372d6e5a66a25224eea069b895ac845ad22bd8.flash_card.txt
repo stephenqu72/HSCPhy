@@ -1,0 +1,8 @@
+### Front
+What force provides the centripetal acceleration for a vehicle on a frictionless banked track?
+
+### Back
+- Key idea: The horizontal component of the normal reaction force ($R$).
+- Formula / law / constant / figure: $F_c = R\sin\theta = \frac{mv^2}{r}$ and $R\cos\theta = mg$.
+- When to use it: Any problem involving circular motion on banked surfaces where friction is negligible.
+- Common trap: Assuming the centripetal force is a distinct force acting *on* the car, rather than the *resultant* of weight and the normal force.

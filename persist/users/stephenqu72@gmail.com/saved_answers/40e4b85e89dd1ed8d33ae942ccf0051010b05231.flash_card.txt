@@ -1,0 +1,8 @@
+### Front
+State Newton’s Law of Universal Gravitation and its associated formula.
+
+### Back
+- **Key idea:** Every point mass attracts every other point mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them.
+- **Formula / law / constant:** $F = \frac{G m_1 m_2}{r^2}$ where $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** Calculating gravitational force between two point masses or spherical objects.
+- **Common trap:** Failing to convert units (e.g., cm to m) or forgetting to square the distance ($r^2$).

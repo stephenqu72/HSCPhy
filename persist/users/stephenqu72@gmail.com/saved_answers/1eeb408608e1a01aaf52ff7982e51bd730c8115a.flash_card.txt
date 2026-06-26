@@ -1,0 +1,8 @@
+### Front
+How does changing the initial horizontal velocity ($v_x$) of a projectile launched horizontally affect its range ($R$) and time of flight ($t$)?
+
+### Back
+- Key idea: Time of flight is independent of horizontal velocity; range is directly proportional to horizontal velocity.
+- Formula: $t = \sqrt{\frac{2h}{g}}$ and $R = v_x t$
+- When to use it: Any horizontal projectile motion problem where height is constant.
+- Common trap: Assuming a higher horizontal velocity increases the time of flight.

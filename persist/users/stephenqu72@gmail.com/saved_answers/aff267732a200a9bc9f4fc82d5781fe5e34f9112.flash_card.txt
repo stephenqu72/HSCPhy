@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period of a planet using Kepler’s Third Law when given the orbital radii ratio of two planets?
+
+### Back
+- **Key idea:** The ratio of the square of the orbital period to the cube of the orbital radius is constant for all bodies orbiting the same central mass.
+- **Formula:** $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$
+- **When to use it:** To compare orbital periods or distances of two planets/satellites orbiting the same star/planet.
+- **Common trap:** Forgetting to convert partial orbits into the full period $T$ (e.g., if $120^\circ$ takes 5 years, $T$ is $15$ years, not $5$). Ensure units for $T$ and $r$ are consistent.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the change in gravitational potential energy ($\Delta U$) for an object moving between two distances ($r_1$ and $r_2$) from a planet’s center?
+
+### Back
+- **Key idea:** Work done to move a mass in a gravitational field equals the change in gravitational potential energy.
+- **Formula / law / constant / figure:** $\Delta U = GMm \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$
+- **When to use it:** Whenever a mass moves radially within a non-uniform gravitational field.
+- **Common trap:** Forgetting to convert distances from km to meters (SI units) or neglecting the negative sign in the potential energy formula, which leads to incorrect $\Delta U$ signs.

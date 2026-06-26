@@ -1,0 +1,8 @@
+### Front
+What is the standard rule for determining the uncertainty of an analogue measuring instrument?
+
+### Back
+- Key idea: Uncertainty is taken as half of the smallest scale division (interpolation).
+- Formula / law / constant / figure: $\text{Uncertainty} = \frac{1}{2} \times (\text{smallest scale division})$
+- When to use it: Any analogue scale (e.g., ammeters, voltmeters, rulers) where you can estimate between markings.
+- Common trap: Using the value of the smallest scale division itself instead of half of it.

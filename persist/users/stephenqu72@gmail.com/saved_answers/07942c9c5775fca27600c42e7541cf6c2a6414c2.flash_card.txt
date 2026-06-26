@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital period ($T$) of a planet when given its orbital radius ($r$) relative to another planet?
+
+### Back
+- **Key idea:** Kepler’s Third Law states the square of the orbital period is directly proportional to the cube of the orbital radius ($T^2 \propto r^3$).
+- **Formula:** $\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$
+- **When to use it:** When comparing the orbital periods or distances of two objects orbiting the same central mass.
+- **Common trap:** Forgetting to convert partial orbits (e.g., $120^\circ$) into the full orbital period ($T$) before substituting into the formula.

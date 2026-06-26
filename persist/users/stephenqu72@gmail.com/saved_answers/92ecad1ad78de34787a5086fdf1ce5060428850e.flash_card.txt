@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) and time ($t$) required for a specific fraction of a radioactive substance to remain?
+
+### Back
+- Key idea: Radioactive decay follows an exponential function where $\lambda$ relates inversely to half-life ($t_{1/2}$).
+- Formula / law / constant / figure: $N(t) = N_0e^{-\lambda t}$ and $\lambda = \frac{\ln(2)}{t_{1/2}}$.
+- When to use it: To determine the age of a sample, remaining mass, or time elapsed given half-life data.
+- Common trap: Using the incorrect units for time (e.g., mixing hours/seconds) or failing to take the natural log ($\ln$) correctly when solving for $t$.

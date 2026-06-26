@@ -1,0 +1,8 @@
+### Front
+How do you determine the spring constant ($k$) and the elastic potential energy ($U$) from a Force vs. Extension/Compression graph?
+
+### Back
+- **Key idea:** Force-extension graphs illustrate Hooke’s Law; the gradient equals the spring constant and the area equals the energy stored.
+- **Formula:** $k = \frac{\Delta F}{\Delta x}$ (gradient); $U = \text{Area under graph} = \frac{1}{2}Fx$ (or area of trapezoid for change in energy).
+- **When to use it:** When given linear force-displacement data for springs or elastic materials.
+- **Common trap:** Forgetting to convert units (e.g., mm to m, kN to N) before calculating the gradient or area.

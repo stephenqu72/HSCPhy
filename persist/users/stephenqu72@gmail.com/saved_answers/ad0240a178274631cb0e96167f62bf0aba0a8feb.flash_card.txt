@@ -1,0 +1,8 @@
+### Front
+Which graph shows the correct linear relationship for Newton’s Law of Universal Gravitation, and what does its gradient represent?
+
+### Back
+- Key idea: Gravitational force $F$ is directly proportional to $\frac{1}{r^2}$.
+- Formula / law: $F = G \frac{m_1 m_2}{r^2}$; Graph of $F$ vs $\frac{1}{r^2}$ is a straight line with gradient $G m_1 m_2$.
+- When to use it: To linearize inverse-square law data.
+- Common trap: Confusing a graph of $F$ vs $r$ (hyperbolic) with $F$ vs $\frac{1}{r^2}$ (linear).

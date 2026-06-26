@@ -1,0 +1,8 @@
+### Front
+How does changing the horizontal launch velocity of a projectile affect its time of flight ($t$) and horizontal range ($R$)?
+
+### Back
+- Key idea: Horizontal and vertical motions are independent; $t$ is determined solely by vertical displacement ($h$) and $g$.
+- Formula / law / constant / figure: $t = \sqrt{2h/g}$ and $R = v_x t$.
+- When to use it: Any horizontal projectile motion problem (ignoring air resistance).
+- Common trap: Assuming an increase in horizontal velocity increases the time of flight.

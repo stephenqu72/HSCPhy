@@ -1,0 +1,8 @@
+### Front
+What is the most efficient way to calculate the **escape velocity** ($v_e$) of a celestial body when only surface gravity ($g$) and radius ($R$) are known?
+
+### Back
+- **Key idea:** Relate the universal gravitation constant ($G$) and mass ($M$) to surface gravity using $g = GM/R^2$.
+- **Formula:** $v_e = \sqrt{2gR}$
+- **When to use it:** Use this derivation when $M$ (the mass of the planet/moon) is not provided in the question.
+- **Common trap:** Confusing the radius of the orbit ($r$) with the radius of the planet/moon ($R$). $v_e$ requires the surface radius of the body, not the orbital distance.

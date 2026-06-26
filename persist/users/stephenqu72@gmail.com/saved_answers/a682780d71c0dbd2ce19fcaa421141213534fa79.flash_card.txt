@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of kinetic energies ($K_A/K_B$) for a planet in an elliptical orbit at perihelion ($r_A$) and aphelion ($r_B$)?
+
+### Back
+- Key idea: Conservation of Angular Momentum ($L = mvr$).
+- Formula / law: $L$ is conserved, so $v_A r_A = v_B r_B$. Therefore, $\frac{K_A}{K_B} = (\frac{r_B}{r_A})^2$.
+- When to use it: To find velocity or kinetic energy ratios at different points in an elliptical orbit.
+- Common trap: Forgetting to square the ratio of the radii when calculating the kinetic energy ratio ($K \propto v^2$).

@@ -1,0 +1,8 @@
+### Front
+What is Kepler’s Third Law of Planetary Motion and its mathematical expression?
+
+### Back
+- **Key idea:** The square of the orbital period ($T$) is directly proportional to the cube of the orbital radius ($r$) for objects orbiting the same central mass.
+- **Formula / law / constant / figure:** $\frac{T_A^2}{r_A^3} = \frac{T_B^2}{r_B^3}$
+- **When to use it:** When comparing the orbital periods and radii of two objects (planets/satellites) orbiting the same primary body.
+- **Common trap:** Forgetting to cube the radii or square the periods; assuming the mass of the orbiting body matters (it cancels out).

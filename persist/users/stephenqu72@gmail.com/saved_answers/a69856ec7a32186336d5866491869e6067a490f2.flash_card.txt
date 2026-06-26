@@ -1,0 +1,8 @@
+### Front
+How do you analyze the motion of a projectile launched at an angle?
+
+### Back
+- **Key idea:** Independence of motion (horizontal and vertical components are independent).
+- **Formula / law / constant / figure:** $v_x = v \cos\theta$, $v_y = v \sin\theta$; $a_x = 0$, $a_y = -9.8 \text{ m/s}^2$.
+- **When to use it:** Any projectile motion problem to determine displacement, velocity, or time.
+- **Common trap:** Forgetting to resolve the initial velocity into components or using the resultant velocity ($v$) for vertical calculations.

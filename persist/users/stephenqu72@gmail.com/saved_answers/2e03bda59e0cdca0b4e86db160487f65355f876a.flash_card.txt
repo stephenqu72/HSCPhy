@@ -1,0 +1,11 @@
+### Front
+What is the standard procedure for solving 2D projectile motion problems involving an object hitting a target at a known horizontal distance?
+
+### Back
+- **Key idea:** Independence of horizontal and vertical motion.
+- **Formula / Law:** 
+  - $x = u_x t$
+  - $y = u_y t + \frac{1}{2}a_y t^2$
+  - $u_x = u\cos\theta, u_y = u\sin\theta$
+- **When to use it:** Whenever an object moves under gravity with both horizontal and vertical components of velocity.
+- **Common trap:** Using the total flight time (where $y=0$) instead of the specific time ($t$) taken to reach the horizontal distance ($x$). Always solve for $t$ using the horizontal component first.

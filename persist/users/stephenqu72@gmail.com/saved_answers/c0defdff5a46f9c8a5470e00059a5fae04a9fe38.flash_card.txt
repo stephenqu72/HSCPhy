@@ -1,0 +1,8 @@
+### Front
+What is the projectile range formula, and what constraint must be met to use it?
+
+### Back
+- **Key idea:** The horizontal displacement of a projectile when the launch and landing heights are identical.
+- **Formula / law:** $R = \frac{v^2 \sin(2\theta)}{g}$
+- **When to use it:** When the landing height equals the launch height ($\Delta y = 0$).
+- **Common trap:** Forgetting to set the calculator to **Degree mode** or attempting to use this formula when there is a vertical displacement (e.g., cliff-to-ground).

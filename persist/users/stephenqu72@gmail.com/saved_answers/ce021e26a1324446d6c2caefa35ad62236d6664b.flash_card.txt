@@ -1,0 +1,8 @@
+### Front
+How do you determine the initial vertical velocity ($u_y$) of a projectile when given the time to reach maximum height ($t_{up}$)?
+
+### Back
+- **Key idea:** At maximum height, the vertical velocity is zero ($v_y = 0$).
+- **Formula / law:** $v_y = u_y - gt \implies u_y = g \times t_{up}$
+- **When to use it:** To calculate the vertical component of launch velocity or maximum height in projectile motion problems.
+- **Common trap:** Forgetting that $t$ in the displacement formula $s_y = u_y t - \frac{1}{2}gt^2$ is only the time to reach peak, not the total flight time.

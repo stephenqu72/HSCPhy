@@ -1,0 +1,8 @@
+### Front
+How can you determine the displacement of a projectile from a vertical velocity-time ($v_y-t$) graph?
+
+### Back
+- **Key idea:** The displacement $\Delta y$ is equal to the signed area under the $v_y-t$ graph.
+- **Formula / law:** $\Delta y = \int v_y \, dt$ (Area above $t$-axis is positive; area below is negative).
+- **When to use it:** When given a $v_y-t$ graph for projectile motion to find height, range, or total vertical displacement.
+- **Common trap:** Forgetting that areas below the time axis represent downward displacement; adding them as magnitudes instead of summing them algebraically (e.g., $A_{up} + A_{down} = \Delta y$).

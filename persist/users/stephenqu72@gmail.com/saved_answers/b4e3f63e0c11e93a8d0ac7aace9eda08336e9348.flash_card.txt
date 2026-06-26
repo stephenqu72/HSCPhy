@@ -1,0 +1,8 @@
+### Front
+How does the torque on a rotating system (like a bicycle pedal or generator coil) vary throughout one full revolution?
+
+### Back
+- Key idea: Torque varies sinusoidally as the effective lever arm changes with the angle of rotation.
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$
+- When to use it: Whenever a force is applied to a pivot at a changing angle or when calculating rotational mechanics.
+- Common trap: Assuming torque is constant; always remember torque is zero when the force vector is parallel to the lever arm ($\sin(0^\circ) = 0$).

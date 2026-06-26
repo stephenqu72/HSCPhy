@@ -1,0 +1,8 @@
+### Front
+How does banking a curved track assist a vehicle in maintaining circular motion?
+
+### Back
+- Key idea: The horizontal component of the normal force ($N \sin \theta$) provides the necessary centripetal force, reducing reliance on tire friction.
+- Formula / law / constant / figure: $F_{net, horizontal} = N \sin \theta = \frac{mv^2}{r}$
+- When to use it: Any scenario involving vehicles on banked turns or curves.
+- Common trap: Thinking banking changes the weight of the vehicle or the magnitude of the required centripetal force; it only changes *what provides* that force.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius of a satellite orbiting the same central body when given its period and the period/radius of a reference satellite?
+
+### Back
+- Key idea: Kepler’s Third Law states the ratio $r^3/T^2$ is constant for all bodies orbiting the same primary.
+- Formula: $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- When to use it: Comparing two objects orbiting the same central mass (e.g., moons of Jupiter).
+- Common trap: Forgetting to cube the radii or square the periods before rearranging; ensuring units for $r$ and $T$ are consistent on both sides.

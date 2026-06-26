@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) exerted on an object by a force $F$ applied at an angle $\theta$ to a lever arm of length $r$?
+
+### Back
+- **Key idea:** Torque is the rotational equivalent of force; it represents the turning effect of a force.
+- **Formula:** $\tau = rF \sin(\theta)$
+- **When to use it:** Whenever a force is applied to an object capable of rotating around a pivot point (e.g., spanners, levers, hinges).
+- **Common trap:** Forgetting to convert the radius $r$ into standard SI units (metres) or incorrectly identifying $\theta$ as the angle between the lever arm and the *vertical/horizontal* instead of the angle between the force and the lever arm itself.

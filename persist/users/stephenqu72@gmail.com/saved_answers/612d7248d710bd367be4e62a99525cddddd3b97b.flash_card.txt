@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period of a planet if its orbital radius is known in Astronomical Units (AU)?
+
+### Back
+- Key idea: Kepler’s Third Law ($T^2 \propto r^3$)
+- Formula / law / constant: $\frac{T^2}{r^3} = 1$ (where $T$ is in Earth years and $r$ is in AU)
+- When to use it: To determine the orbital period ($T$) of a planet orbiting the Sun when the orbital radius ($r$) is given.
+- Common trap: Forgetting to convert units (e.g., if $r$ is in km, convert to AU first; or remembering to convert $T$ from years to days if required by the question).

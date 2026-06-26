@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal range ($R$) of a projectile launched from and landing at the same vertical level?
+
+### Back
+- **Key idea:** The range is determined by the initial velocity, the launch angle, and gravity.
+- **Formula:** $R = \frac{v^2 \sin(2\theta)}{g}$
+- **When to use it:** When the projectile lands at the same vertical height it was launched from.
+- **Common trap:** Forgetting to convert units (e.g., km/h to m/s) or using the wrong angle (ensure you use $2\theta$ in the sine function).

@@ -1,0 +1,8 @@
+### Front
+How does banking a curve allow a vehicle to travel at higher speeds than a flat track?
+
+### Back
+- **Key idea:** The horizontal component of the normal force ($N \sin\theta$) provides the required centripetal force, reducing reliance on friction.
+- **Formula / law / constant / figure:** $F_c = N \sin\theta = \frac{mv^2}{r}$
+- **When to use it:** When analyzing circular motion on inclined surfaces or calculating the "design speed" where friction is zero.
+- **Common trap:** Assuming "centrifugal force" pulls the car outward (it is a fictitious force); always define the net force as centripetal ($F_c$) toward the center.

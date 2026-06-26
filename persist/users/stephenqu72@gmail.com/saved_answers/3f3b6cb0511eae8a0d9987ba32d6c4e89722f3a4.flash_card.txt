@@ -1,0 +1,8 @@
+### Front
+How do you determine the peak-to-peak voltage ($V_{p-p}$) and frequency ($f$) from an oscilloscope trace?
+
+### Back
+- Key idea: $V_{p-p}$ is the total vertical span (crest to trough); $T$ is the horizontal time for one full cycle.
+- Formula / law / constant / figure: $V_{p-p} = (\text{vertical divs}) \times (\text{volts/div})$; $f = \frac{1}{T}$, where $T = (\text{horizontal divs}) \times (\text{time/div})$.
+- When to use it: Any AC waveform analysis on an oscilloscope.
+- Common trap: Forgetting to convert $V_{p-p}$ to peak voltage ($V_p = V_{p-p}/2$) or RMS voltage ($V_{rms} = V_p / \sqrt{2}$) if asked.

@@ -1,0 +1,8 @@
+### Front
+How does a satellite's velocity change as it moves from apogee to perigee in an elliptical orbit, and what physical principles explain this?
+
+### Back
+- **Key idea:** Velocity increases as the satellite moves from apogee to perigee due to the conversion of gravitational potential energy into kinetic energy.
+- **Formula / law:** Conservation of Mechanical Energy ($E = K + U$) and Kepler’s Second Law (Equal areas in equal time).
+- **When to use it:** When analyzing energy, speed, or orbital position changes in non-circular (elliptical) orbits.
+- **Common trap:** Confusing potential energy with total energy; $U$ is negative, so as $r$ decreases, $U$ becomes more negative (decreases), requiring $K$ to increase to keep $E$ constant.

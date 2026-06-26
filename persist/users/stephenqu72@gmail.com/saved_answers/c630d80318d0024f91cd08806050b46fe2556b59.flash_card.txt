@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial velocity ($v_0$) of a projectile given its kinetic energy ($K_{top}$) at maximum height?
+
+### Back
+- Key idea: At maximum height, vertical velocity is zero, so $v = v_x = v_0 \cos(\theta)$.
+- Formula / law / constant / figure: $K_{top} = \frac{1}{2}m(v_0 \cos\theta)^2$; horizontal velocity is constant.
+- When to use it: Projectile motion problems where kinetic energy is provided at the peak.
+- Common trap: Forgetting that horizontal velocity remains constant throughout the flight, or incorrectly assuming $v=0$ at the peak (only $v_y=0$).

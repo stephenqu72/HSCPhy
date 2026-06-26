@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the ideal banking angle ($\theta$) of a frictionless curve and state the significance of vehicle mass.
+
+### Back
+- Key idea: The horizontal component of the Normal force provides the centripetal force required to negotiate a turn.
+- Formula: $\tan\theta = \frac{v^2}{Rg}$ (Mass is independent/cancels out).
+- When to use it: When calculating the design speed for a banked curve where no friction is required.
+- Common trap: Assuming mass matters or that friction is zero in real-world scenarios; friction is necessary for vehicles travelling at speeds other than the "ideal" design speed.

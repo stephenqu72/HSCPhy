@@ -1,0 +1,11 @@
+### Front
+What is the nuclear reaction sequence for the Neutron Transmutation Doping (NTD) of Silicon-28 into Phosphorus-31?
+
+### Back
+- **Key idea:** Silicon-28 undergoes successive neutron capture to become unstable $^{31}\text{Si}$, followed by $\beta^-$ decay to become $^{31}\text{P}$.
+- **Formula / law:** Conservation of mass number ($A$) and atomic number ($Z$):
+  1. $^{28}_{14}\text{Si} + n \rightarrow ^{29}_{14}\text{Si}$
+  2. $^{29}_{14}\text{Si} + n \rightarrow ^{31}_{14}\text{Si}$
+  3. $^{31}_{14}\text{Si} \rightarrow ^{31}_{15}\text{P} + ^{0}_{-1}e + \bar{\nu}_e$
+- **When to use it:** To explain how semiconductor doping is achieved through nuclear transmutation.
+- **Common trap:** Forgetting to include the antineutrino ($\bar{\nu}_e$) during $\beta^-$ decay or failing to balance both $A$ and $Z$ numbers in the equations.

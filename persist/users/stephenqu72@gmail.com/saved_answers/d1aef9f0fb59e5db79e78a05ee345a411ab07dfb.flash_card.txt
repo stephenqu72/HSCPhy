@@ -1,0 +1,8 @@
+### Front
+How do you derive the constant power ($P$) of an electric kettle given a linear temperature increase over time ($T = kt$)?
+
+### Back
+- Key idea: Power is the rate of energy transfer ($P = Q/t$), where $Q$ is the heat absorbed ($mc\Delta T$).
+- Formula / law / constant / figure: $P = \frac{mc\Delta T}{t}$ where $\Delta T = kt$; thus $P = mc_wk$.
+- When to use it: To determine power from temperature-time graphs where the gradient ($k$) represents the rate of heating.
+- Common trap: Forgetting that the time $t$ cancels out when the temperature increase is perfectly linear.

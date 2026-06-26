@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the magnetic force ($F$) acting on a charged particle moving through a magnetic field, and how is it rearranged to solve for magnetic field strength ($B$)?
+
+### Back
+- **Key idea:** A moving charge in a magnetic field experiences a Lorentz force perpendicular to both its velocity and the field.
+- **Formula:** $F = qvB\sin\theta$; rearranged: $B = \frac{F}{qv\sin\theta}$
+- **When to use it:** When a charged particle (e.g., electron, proton) moves through a magnetic field.
+- **Common trap:** Forgetting to convert units to SI or failing to account for $\sin\theta$ when the velocity is not perpendicular ($\theta \neq 90^\circ$).

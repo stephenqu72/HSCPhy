@@ -1,0 +1,8 @@
+### Front
+How does the tidal force exerted by a celestial body on Earth scale with its mass ($M$) and distance ($r$)?
+
+### Back
+- **Key idea:** Tidal forces are caused by the gravitational gradient across the Earth's diameter, making them proportional to the inverse cube of the distance.
+- **Formula:** $F_T \propto \frac{M}{r^3}$
+- **When to use it:** To compare the tidal influence of different celestial bodies on Earth (e.g., Moon vs. Sun or planets).
+- **Common trap:** Using the inverse-square law ($1/r^2$) for gravitational pull instead of the tidal force law ($1/r^3$). The cube of the distance dominates the result.

@@ -1,0 +1,8 @@
+### Front
+Two objects of equal mass $m$ undergo circular motion. $S_1$ moves with velocity $v$ at radius $r$. $S_2$ moves with velocity $\frac{v}{\sqrt{2}}$ at radius $2r$. Determine the ratio of the centripetal force $F_1 : F_2$.
+
+### Back
+- Key idea: Centripetal force is directly proportional to $v^2$ and inversely proportional to $r$.
+- Formula / law: $F_c = \frac{mv^2}{r}$
+- When to use it: To compare circular motion dynamics when velocity or radius variables change.
+- Common trap: Squaring the velocity fraction ($\frac{v}{\sqrt{2}})^2 = \frac{v^2}{2}$; failure to divide by the new radius ($2r$), resulting in a denominator of $4r$.

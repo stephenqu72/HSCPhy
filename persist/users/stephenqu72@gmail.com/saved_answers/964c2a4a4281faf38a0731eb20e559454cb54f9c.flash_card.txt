@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total horizontal range of a rocket that undergoes both powered constant acceleration and subsequent projectile motion?
+
+### Back
+- **Key idea:** Break the motion into two stages: (1) Powered ascent (constant acceleration/kinematics) and (2) Projectile motion (constant $a_y = -g$, $a_x = 0$).
+- **Formula / law / constant / figure:** Kinematic equations ($s = ut + \frac{1}{2}at^2$, $v = u + at$) and the quadratic formula for finding time of flight ($y = y_0 + v_y t - \frac{1}{2}gt^2$).
+- **When to use it:** When a projectile has an initial non-zero displacement or velocity resulting from a powered launch phase before falling under gravity.
+- **Common trap:** Forgetting that the "initial" position ($y_0$) and "initial" velocity ($v_y$) for the projectile phase are the *final* values from the powered stage, not zero.

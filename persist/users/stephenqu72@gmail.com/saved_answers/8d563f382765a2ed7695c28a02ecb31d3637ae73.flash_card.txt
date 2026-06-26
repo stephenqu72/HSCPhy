@@ -1,0 +1,8 @@
+### Front
+How do you determine the frequency ($f$) of a waveform from an oscilloscope trace?
+
+### Back
+- Key idea: Frequency is the inverse of the period ($T$), which is the time taken for one complete oscillation.
+- Formula / law / constant / figure: $f = \frac{1}{T}$
+- When to use it: Whenever given an oscilloscope trace with a calibrated time base to find the frequency of a signal.
+- Common trap: Failing to convert the time base units (e.g., milliseconds) into standard SI units (seconds) before calculating.

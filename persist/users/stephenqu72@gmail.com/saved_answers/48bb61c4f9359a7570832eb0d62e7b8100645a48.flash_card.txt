@@ -1,0 +1,8 @@
+### Front
+For a train to maintain safe travel on a curve without exceeding the maximum lateral force of the rails, how does speed relate to the curve's radius?
+
+### Back
+- Key idea: Centripetal force ($F_c$) is proportional to the square of the speed ($v^2$) and inversely proportional to the radius ($r$). For a constant force, $v^2 \propto r$.
+- Formula: $\frac{v_1^2}{r_1} = \frac{v_2^2}{r_2}$
+- When to use it: Circular motion problems involving safety limits or constant force requirements.
+- Common trap: Forgetting to square the speed ratio; doubling speed requires quadrupling the radius, not doubling it.

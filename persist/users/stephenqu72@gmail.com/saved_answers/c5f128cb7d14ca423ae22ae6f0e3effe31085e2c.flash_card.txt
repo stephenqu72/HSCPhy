@@ -1,0 +1,8 @@
+### Front
+Why can a cyclist navigate a curve at a higher speed when leaning compared to staying upright?
+
+### Back
+- **Key idea:** By leaning, the rider angles the Normal force ($N$), allowing its horizontal component ($N \sin\theta$) to provide the necessary centripetal force instead of relying solely on static friction.
+- **Formula:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** To explain the physics of banked turns or circular motion of non-vertical objects (bikes/planes).
+- **Common trap:** Assuming the Normal force remains equal to $mg$ when leaning; in reality, $N = \frac{mg}{\cos\theta}$, which is greater than the rider's weight.

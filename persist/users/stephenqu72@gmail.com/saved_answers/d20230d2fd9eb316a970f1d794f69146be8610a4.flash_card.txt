@@ -1,0 +1,8 @@
+### Front
+How do you calculate the magnetic field strength ($B$) acting on a moving charged particle?
+
+### Back
+- **Key idea:** The magnetic force on a charge is proportional to its charge, velocity, and the sine of the angle between its velocity and the field.
+- **Formula:** $B = \frac{F}{qv\sin(\theta)}$
+- **When to use it:** To determine the magnetic field strength when given the force, charge, velocity, and trajectory angle of a particle.
+- **Common trap:** Forgetting to ensure the velocity is in $\text{m/s}$ or failing to set $\sin(\theta) = 1$ when the particle moves perpendicularly to the field.

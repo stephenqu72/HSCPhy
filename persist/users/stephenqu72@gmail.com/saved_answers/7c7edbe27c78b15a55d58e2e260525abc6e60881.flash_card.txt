@@ -1,0 +1,8 @@
+### Front
+How do you solve 2D projectile motion problems involving horizontal and vertical components?
+
+### Back
+- **Key idea:** Vertical and horizontal motions are independent; the common variable connecting them is **time ($t$)**.
+- **Formula / law:** $x = v_xt$ (horizontal constant velocity); $y = u_yt + \frac{1}{2}gt^2$ (vertical constant acceleration).
+- **When to use it:** When an object moves in two dimensions with initial horizontal velocity and vertical gravity.
+- **Common trap:** Forgetting that horizontal acceleration is zero; using the wrong vertical velocity component (ensure $u_y = 0$ if projected horizontally).

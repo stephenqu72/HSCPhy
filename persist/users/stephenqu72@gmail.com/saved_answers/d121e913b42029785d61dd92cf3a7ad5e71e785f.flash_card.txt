@@ -1,0 +1,8 @@
+### Front
+Derive the formula for the "design speed" ($v$) of a frictionless banked track of radius ($r$) and angle ($\theta$).
+
+### Back
+- Key idea: At design speed, the horizontal component of the normal force provides the total centripetal force, and the vertical component balances gravity.
+- Formula: $v = \sqrt{rg \tan \theta}$
+- When to use it: When asked for the speed where no friction is required to maintain a circular path on a banked surface.
+- Common trap: Assuming the normal force ($N$) equals $mg$; in reality, $N = \frac{mg}{\cos \theta}$, which is greater than the weight of the object.

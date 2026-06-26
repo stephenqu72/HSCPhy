@@ -1,0 +1,8 @@
+### Front
+Comparing a uniform vs. radial gravitational field, which model predicts a greater maximum height ($h_{max}$) for a projectile, and why?
+
+### Back
+- **Key idea:** $h_{max}$ is greater in a uniform field because gravity remains constant. In a radial field, energy is required to "climb" out of the gravitational potential well, which converges toward zero, causing the projectile to lose kinetic energy faster relative to height.
+- **Formula / law / constant / figure:** Conservation of Energy: $\frac{1}{2}mv^2 = mgh$ (Uniform) vs. $\frac{1}{2}mv^2 = G M m (\frac{1}{R_E} - \frac{1}{R_E + h})$ (Radial).
+- **When to use it:** When comparing projectile motion near the Earth's surface (uniform) versus escape/orbital dynamics (radial).
+- **Common trap:** Assuming that because gravity weakens in a radial field, the projectile must travel higher. In reality, the potential energy required to gain altitude in a radial field exceeds that of a uniform field for the same initial velocity.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the period ($T$) of a projectile released from the tip of a rotating blade at the top of a tower?
+
+### Back
+- **Key idea:** Combine uniform circular motion ($v = \frac{2\pi r}{T}$) with projectile motion ($d = v_x t$).
+- **Formula:** $T = \frac{2\pi r}{v_x}$, where $t = \sqrt{\frac{2y}{g}}$ and $v_x = \frac{d}{t}$.
+- **When to use it:** When an object is released from a rotating body at its maximum height, converting tangential velocity into horizontal projectile velocity.
+- **Common trap:** Confusing the height of the launch point ($y$) with the height of the tower ($h$); always ensure $y = h + r$.

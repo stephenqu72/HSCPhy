@@ -1,0 +1,11 @@
+### Front
+How do initial launch angles affect the properties of a projectile (Height, Time of Flight, Range)?
+
+### Back
+- **Key idea:** Vertical velocity ($v \sin\theta$) determines height and time of flight; the angle closest to $45^\circ$ maximizes horizontal range.
+- **Formula / law:** 
+  - $h_{max} = \frac{(v\sin\theta)^2}{2g}$
+  - $t_{flight} = \frac{2v\sin\theta}{g}$
+  - $R = \frac{v^2\sin(2\theta)}{g}$
+- **When to use it:** Analyzing projectile motion graphs where initial velocity is constant but launch angles differ.
+- **Common trap:** Assuming a steeper angle always results in a greater range; high angles produce height but sacrifice horizontal distance.

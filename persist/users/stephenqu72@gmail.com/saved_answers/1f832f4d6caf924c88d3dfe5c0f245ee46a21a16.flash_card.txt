@@ -1,0 +1,8 @@
+### Front
+Explain the orbital maneuver sequence required to move a spacecraft from a higher stable circular orbit to a lower one.
+
+### Back
+- **Key idea:** A two-stage retro-burn sequence: an initial retro-burn to enter an elliptical transfer orbit, followed by a second retro-burn at the perigee to circularize the orbit.
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{GM}{r}}$ (Orbital velocity is inversely proportional to $\sqrt{r}$).
+- **When to use it:** Whenever asked how to change orbital altitude; always link the burn to a reduction in total orbital energy ($E_{total} = -\frac{GMm}{2r}$).
+- **Common trap:** Forgetting the second retro-burn; without it, the spacecraft will simply return to its original higher altitude (the apogee).

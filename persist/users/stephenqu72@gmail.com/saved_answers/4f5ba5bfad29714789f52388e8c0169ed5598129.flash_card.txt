@@ -1,0 +1,8 @@
+### Front
+How do you determine the direction of the net electrostatic force on a point charge in a multi-charge system?
+
+### Back
+- Key idea: Use the Principle of Superposition—calculate individual force vectors from each charge, then perform vector addition.
+- Formula / law / constant / figure: Coulomb’s Law ($F = k\frac{|q_1q_2|}{r^2}$) and vector resolution (summing $x$ and $y$ components).
+- When to use it: Whenever multiple static charges exert forces on a single target charge.
+- Common trap: Forgetting that like charges repel and opposite charges attract; failing to resolve vectors into components before summing.

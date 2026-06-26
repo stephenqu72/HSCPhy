@@ -1,0 +1,8 @@
+### Front
+How does mass affect the maximum safe speed ($v$) of a car navigating a flat, curved road with a fixed coefficient of friction?
+
+### Back
+- **Key idea:** The maximum speed is inversely proportional to the square root of the mass ($v \propto 1/\sqrt{m}$) because friction provides the centripetal force ($F_{friction} = \mu mg = mv^2/r$).
+- **Formula:** $v = \sqrt{\mu gr}$
+- **When to use it:** When calculating circular motion on a flat (unbanked) surface where friction provides the centripetal force.
+- **Common trap:** Assuming speed depends on mass; notice that in the full expression $v = \sqrt{\mu gr}$, mass cancels out. If friction is *already defined as a fixed force* ($F_{max}$), then $v$ depends on $m$. If friction is defined by the *coefficient* ($\mu$), mass is irrelevant.

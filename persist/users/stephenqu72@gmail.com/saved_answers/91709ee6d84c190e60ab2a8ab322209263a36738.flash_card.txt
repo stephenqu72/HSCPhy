@@ -1,0 +1,8 @@
+### Front
+What is the relationship between the total energy ($E_{total}$), kinetic energy ($E_K$), and gravitational potential energy ($U$) of a satellite in a stable circular orbit?
+
+### Back
+- **Key idea:** The total energy is the sum of $E_K$ and $U$, resulting in a negative value equal to the negative of its kinetic energy, or half its potential energy.
+- **Formula:** $E_{total} = E_K + U = -E_K = \frac{1}{2}U = -\frac{GMm}{2r}$
+- **When to use it:** To calculate binding energy or determine how energy changes when a satellite changes its orbital radius.
+- **Common trap:** Forgetting the negative sign; the total energy is negative, indicating a bound system. Also, confusing the ratio ($E_{total} = \frac{1}{2}U$, not $2U$).

@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch height ($h$) and initial vertical velocity ($u_y$) from a projectile motion strobe diagram?
+
+### Back
+- **Key idea:** Analyze horizontal and vertical motion separately; use strobe frequency ($f$) to determine time intervals ($\Delta t = 1/f$).
+- **Formula:** $s_y = u_y t + \frac{1}{2}at^2$ and $v_y = u_y + at$.
+- **When to use it:** When analyzing projectile position data at discrete time intervals.
+- **Common trap:** Miscounting the number of intervals (gaps) between dots versus the number of dots; forgetting that $t=0$ at the first dot.

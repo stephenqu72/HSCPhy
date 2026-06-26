@@ -1,0 +1,8 @@
+### Front
+What is the condition and minimum speed requirement for a motorbike to successfully complete a vertical loop of radius $r$?
+
+### Back
+- **Key idea:** At the top of the loop, the normal force $F_N = 0$, meaning gravity provides the entire centripetal force.
+- **Formula:** $v = \sqrt{rg}$
+- **When to use it:** When calculating the minimum (critical) speed required to maintain circular contact at the highest point of a vertical path.
+- **Common trap:** Forgetting that $m$ cancels out; incorrectly assuming the normal force must be included at the top for minimum speed.

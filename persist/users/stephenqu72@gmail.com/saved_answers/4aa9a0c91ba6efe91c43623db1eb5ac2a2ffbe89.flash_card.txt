@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the escape velocity ($v_e$) of an object from a planet, and does the object's mass affect this value?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed needed for an object to break free from a planet's gravitational field.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{R}}$
+- **When to use it:** When calculating the velocity required for an object to reach infinite distance from a celestial body where total energy is zero.
+- **Common trap:** The mass of the object being launched is irrelevant; it is a "distractor." Only the mass ($M$) and radius ($R$) of the planet matter.

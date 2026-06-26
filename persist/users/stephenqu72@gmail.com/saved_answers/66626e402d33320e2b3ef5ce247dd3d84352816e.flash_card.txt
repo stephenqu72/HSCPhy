@@ -1,0 +1,10 @@
+### Front
+What is the relationship between the radioactive decay constant ($\lambda$), the decay activity ($A$), and the half-life ($t_{1/2}$)?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process where the rate of decay is proportional to the number of nuclei present.
+- **Formula / law / constant / figure:** 
+    1. Decay Law: $A_t = A_0 e^{-\lambda t}$
+    2. Half-life: $t_{1/2} = \frac{\ln(2)}{\lambda}$
+- **When to use it:** When calculating the age of a sample, activity levels at specific times, or determining half-life from experimental decay data.
+- **Common trap:** Confusing units (e.g., mixing hours and minutes) or using the wrong log base—ensure your calculator uses natural log ($\ln$) rather than base-10 ($\log$).

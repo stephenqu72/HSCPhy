@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal force (centripetal force) acting on an object in horizontal circular motion against a vertical wall?
+
+### Back
+- **Key idea:** The normal force ($F_N$) exerted by the wall acts as the centripetal force ($F_c$).
+- **Formula:** $F_c = mr\omega^2$ where $\omega = 2\pi f$.
+- **When to use it:** When an object is held against a rotating vertical surface (e.g., a centrifuge or "rotor" amusement ride).
+- **Common trap:** Forgetting to convert frequency from revolutions per minute (rpm) to hertz (Hz) before calculating $\omega$.

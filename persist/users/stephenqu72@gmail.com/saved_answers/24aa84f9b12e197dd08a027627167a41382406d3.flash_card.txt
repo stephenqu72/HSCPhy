@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of a central star from the orbit of a planet, and can you determine the planet's mass using this method?
+
+### Back
+- **Key idea:** The planet's mass cancels out in the orbital mechanics derivation ($F_g = F_c$), meaning only the central mass ($M$) can be determined.
+- **Formula:** $M = \frac{4\pi^2 r^3}{GT^2}$ (derived from Kepler’s Third Law).
+- **When to use it:** When given the orbital radius ($r$) and period ($T$) of a satellite or planet orbiting a central body.
+- **Common trap:** Failing to convert the orbital period ($T$) into SI units (seconds).

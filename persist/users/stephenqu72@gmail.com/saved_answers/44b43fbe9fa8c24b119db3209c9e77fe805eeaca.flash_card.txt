@@ -1,0 +1,8 @@
+### Front
+How does the energy of a satellite change as it moves from perigee to apogee in an elliptical orbit?
+
+### Back
+- Key idea: Total mechanical energy is conserved ($E = U + K = \text{constant}$). As $r$ increases, potential energy ($U$) increases (becomes less negative), requiring a corresponding decrease in kinetic energy ($K$).
+- Formula / law: $E_{total} = -\frac{GMm}{2a}$ (for elliptical orbits) or $E = U + K$.
+- When to use it: Any orbital mechanics problem involving changes in altitude or energy transfer.
+- Common trap: Forgetting that potential energy is negative; an "increase" in $U$ means moving closer to zero (becoming less negative).

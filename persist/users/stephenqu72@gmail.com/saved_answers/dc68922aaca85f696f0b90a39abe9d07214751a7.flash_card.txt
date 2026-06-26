@@ -1,0 +1,8 @@
+### Front
+Explain the physics of a driver feeling "weightless" at the crest of a hump-backed bridge.
+
+### Back
+- **Key idea:** Apparent weight (normal force $N$) decreases as centripetal force requirements increase. At the critical speed, gravity alone provides the necessary centripetal force.
+- **Formula / law / constant / figure:** $N = mg - \frac{mv^2}{r}$ (Condition for weightlessness: $v = \sqrt{gr}$)
+- **When to use it:** Problems involving vertical circular motion or "apparent weight" in non-inertial frames.
+- **Common trap:** Forgetting that "weight" ($mg$) is constant, but the *normal force* (what scales measure) is what changes with speed.

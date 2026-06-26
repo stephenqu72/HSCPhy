@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a central body (e.g., Saturn) using a $T^2$ vs $R^3$ graph of orbiting satellites?
+
+### Back
+- Key idea: The gradient of the line of best fit represents the constant ratio $\frac{4\pi^2}{GM}$.
+- Formula / law / constant / figure: Kepler’s Third Law: $\frac{T^2}{R^3} = \frac{4\pi^2}{GM} \rightarrow M = \frac{4\pi^2}{G \times \text{gradient}}$
+- When to use it: Whenever orbital period ($T$) and radius ($R$) data is provided for multiple satellites of a single central body.
+- Common trap: Forgetting to include the powers of 10 (from axis labels) when calculating the gradient and neglecting to use a line of best fit instead of individual data points.

@@ -1,0 +1,8 @@
+### Front
+How does the use of step-up transformers in electricity transmission affect power loss, and what is the underlying physical justification?
+
+### Back
+- **Key idea:** Increasing voltage ($V$) proportionally decreases current ($I$) for a constant power output, which significantly reduces energy dissipation ($P_{loss}$) in transmission lines.
+- **Formula / Law:** $P_{loss} = I^2R$; Ohm’s Law ($V=IR$).
+- **When to use it:** Whenever analyzing electricity distribution, transmission efficiency, or power grid infrastructure.
+- **Common trap:** Forgetting that $P_{loss}$ is proportional to the **square** of the current ($I^2$). Halving the current reduces power loss by a factor of four, not two.

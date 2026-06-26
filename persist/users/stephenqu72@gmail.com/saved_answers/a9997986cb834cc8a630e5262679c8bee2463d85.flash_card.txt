@@ -1,0 +1,8 @@
+### Front
+What is the formula for the Total Mechanical Energy ($E$) of a satellite in a circular orbit, and how do you calculate the energy required to move between two different orbits?
+
+### Back
+- **Key idea:** The Total Mechanical Energy is the sum of gravitational potential and kinetic energy.
+- **Formula / law / constant / figure:** $E = -\frac{GMm}{2r}$. Energy required = $\Delta E = E_{final} - E_{initial}$.
+- **When to use it:** Use when calculating work done or fuel energy required for orbital maneuvers (changing altitude).
+- **Common trap:** Forgetting the factor of $2$ in the denominator of the mechanical energy formula (which differentiates it from potential energy, $U = -\frac{GMm}{r}$).

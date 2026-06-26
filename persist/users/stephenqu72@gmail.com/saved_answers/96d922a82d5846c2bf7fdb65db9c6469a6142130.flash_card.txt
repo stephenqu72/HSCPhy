@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work required to move a satellite from one circular orbit to another?
+
+### Back
+- Key idea: Work done equals the change in total mechanical energy ($\Delta E$).
+- Formula: $W = E_2 - E_1 = \left( -\frac{GMm}{2r_2} \right) - \left( -\frac{GMm}{2r_1} \right)$
+- When to use it: Whenever a satellite changes its orbital radius.
+- Common trap: Forgetting that total energy ($E$) is negative; also, ensure $r$ is the distance from the *centre* of the planet (i.e., $r = R_E + h$).

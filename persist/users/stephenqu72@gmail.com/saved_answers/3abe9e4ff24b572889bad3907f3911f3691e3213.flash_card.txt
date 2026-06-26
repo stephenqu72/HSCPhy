@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal recoil velocity of a boat after a projectile (e.g., a fish) is thrown from it?
+
+### Back
+- **Key idea:** Conservation of momentum in a closed system.
+- **Formula / law:** $\sum p_{\text{initial}} = \sum p_{\text{final}} \implies 0 = m_f v_{fx} + (m_b + m_c) v_{\text{system}}$
+- **When to use it:** When an object is projected from a stationary platform; assume zero net external horizontal forces.
+- **Common trap:** Forgetting to use only the **horizontal** component of the projectile's velocity ($v \cos \theta$) rather than its total velocity.

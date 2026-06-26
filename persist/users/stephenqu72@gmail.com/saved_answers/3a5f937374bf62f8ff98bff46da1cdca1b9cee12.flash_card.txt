@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal range ($R$) of a projectile launched at an angle when it lands at a different vertical height than its launch point?
+
+### Back
+- **Key idea:** Independent horizontal and vertical motion; horizontal velocity is constant while vertical displacement determines total time of flight.
+- **Formula / law / constant / figure:** $\Delta y = v_{0y}t + \frac{1}{2}a_y t^2$ to find total time ($T$), then $R = v_{0x} \times T$.
+- **When to use it:** When the landing height $\neq$ launch height ($y_f \neq 0$).
+- **Common trap:** Assuming the time to maximum height is half the total flight time; this only applies if the projectile returns to the **same** launch height.

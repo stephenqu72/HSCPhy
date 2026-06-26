@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital velocity ($v$) of a satellite at a specific altitude ($h$)?
+
+### Back
+- Key idea: Orbital velocity is achieved when gravitational force provides the necessary centripetal force.
+- Formula: $v = \sqrt{\frac{GM}{r}}$ where $r = R_E + h$
+- When to use it: Any satellite/circular orbit problem where the orbital radius or velocity is required.
+- Common trap: Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r$), and mistakenly including the mass of the satellite ($m$) in the calculation.

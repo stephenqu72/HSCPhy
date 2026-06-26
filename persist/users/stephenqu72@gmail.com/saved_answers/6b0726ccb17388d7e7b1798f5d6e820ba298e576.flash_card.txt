@@ -1,0 +1,8 @@
+### Front
+What is the condition for a vehicle to safely navigate a circular bend, and how is the required centripetal force calculated?
+
+### Back
+- **Key idea:** The available static friction ($F_f$) must be $\geq$ the required centripetal force ($F_c$).
+- **Formula:** $F_c = \frac{mv^2}{r}$
+- **When to use it:** To determine if a vehicle will skid on a horizontal, unbanked curve.
+- **Common trap:** Forgetting that if $F_c > F_f$, the car will deviate from its circular path (skid) because there is insufficient friction to provide the necessary centripetal acceleration.

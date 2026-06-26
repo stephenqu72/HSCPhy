@@ -1,0 +1,8 @@
+### Front
+What determines the escape velocity ($v_e$) of an object from a planetary body, and how do you compare it across different scenarios?
+
+### Back
+- **Key idea:** Escape velocity is proportional to the square root of the mass-to-radius ratio.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{r}}$ or $v_e \propto \sqrt{\frac{M}{r}}$
+- **When to use it:** When comparing the energy required to escape the gravitational influence of different planetary bodies or orbits.
+- **Common trap:** Forgetting to square root the mass-to-radius ratio or incorrectly identifying $r$ as the distance from the surface instead of the centre of the body.

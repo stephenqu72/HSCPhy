@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal release point of a projectile dropped from a moving vehicle?
+
+### Back
+- Key idea: Treat vertical and horizontal motion as independent; the time of flight ($t$) is determined solely by vertical displacement ($s_y$).
+- Formula / law / constant: $s_y = \frac{1}{2}gt^2$ and $R = v_x \times t$; $g \approx 9.8 \text{ m/s}^2$.
+- When to use it: To determine the drop position or timing for a moving object relative to a stationary target.
+- Common trap: Assuming the object’s horizontal velocity changes during flight; neglecting the initial horizontal velocity inherited from the plane.

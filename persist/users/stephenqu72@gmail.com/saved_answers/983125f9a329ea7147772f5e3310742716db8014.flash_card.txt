@@ -1,0 +1,8 @@
+### Front
+How does the normal force ($N$) compare to weight ($mg$) for a passenger at the bottom of a vertical Ferris wheel?
+
+### Back
+- Key idea: At the bottom of a vertical circle, the seat must support the passenger's weight *and* provide the upward centripetal force.
+- Formula / law: $\sum F = N - mg = \frac{mv^2}{r} \implies N = mg + F_c$
+- When to use it: Circular motion problems involving vertical planes (e.g., Ferris wheels, roller coasters).
+- Common trap: Assuming $N = mg$ (the weight); remember that $N > mg$ at the bottom to allow for upward acceleration toward the center.

@@ -1,0 +1,8 @@
+### Front
+How can you determine the mass of a central body using the orbital periods ($T$) and radii ($R$) of its satellites?
+
+### Back
+- **Key idea:** The gradient of a $T^2$ vs $R^3$ graph is proportional to the inverse of the central mass.
+- **Formula / law / constant:** Kepler’s Third Law: $\frac{T^2}{R^3} = \frac{4\pi^2}{GM}$. $G = 6.67 \times 10^{-11} \text{ m}^3 \text{ kg}^{-1} \text{ s}^{-2}$.
+- **When to use it:** When given a set of orbital data (periods and radii) to calculate the mass of the primary body.
+- **Common trap:** Forgetting to convert units to SI (e.g., $R$ in metres, $T$ in seconds) or failing to include the $10^n$ scaling factors when calculating the gradient.

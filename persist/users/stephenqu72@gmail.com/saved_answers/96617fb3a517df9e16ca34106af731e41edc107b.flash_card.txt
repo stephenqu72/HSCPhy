@@ -1,0 +1,8 @@
+### Front
+How do you calculate the acceleration due to gravity ($g$) at the surface of a planet given its mass ($M$) and radius ($r$)?
+
+### Back
+- **Key idea:** Gravitational field strength is determined by the planet's mass and the inverse-square of the distance from its centre.
+- **Formula / law / constant / figure:** Newton’s Law of Universal Gravitation: $g = \frac{GM}{r^2}$ where $G \approx 6.674 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** When calculating the gravitational acceleration of any celestial body when the mass and radius are known.
+- **Common trap:** Forgetting to convert the diameter to the radius ($r = d/2$) or failing to convert kilometres to metres before squaring.

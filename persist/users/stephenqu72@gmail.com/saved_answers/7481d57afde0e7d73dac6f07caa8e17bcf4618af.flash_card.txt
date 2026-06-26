@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating torque ($\tau$) and what factors determine its magnitude?
+
+### Back
+- Key idea: Torque is the rotational analogue of force, representing the turning effect caused by a force applied at a distance from a pivot.
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$
+- When to use it: To calculate the rotational effectiveness of a force applied at an angle to a beam or object.
+- Common trap: Using the wrong angle; $\theta$ must be the angle between the force vector and the radial lever arm (or simply use the component of force perpendicular to the lever arm).

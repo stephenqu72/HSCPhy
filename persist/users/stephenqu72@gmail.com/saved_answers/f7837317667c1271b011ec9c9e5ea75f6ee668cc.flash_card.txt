@@ -1,0 +1,8 @@
+### Front
+How do you calculate the ratio of gravitational forces between two sets of bodies using Newton’s Law of Universal Gravitation?
+
+### Back
+- Key idea: Force is proportional to the product of masses ($m_1m_2$) and inversely proportional to the square of the distance ($r^2$).
+- Formula / law / constant / figure: $F = \frac{G m_1 m_2}{r^2}$; $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{kg}^{-2}$.
+- When to use it: To compare gravitational interactions between objects with varying masses and separation distances.
+- Common trap: Forgetting to square the distance ($r^2$) or using the distance between edges instead of the distance between the **centres** of the masses.

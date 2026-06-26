@@ -1,0 +1,8 @@
+### Front
+How do you calculate the acceleration due to gravity ($g$) on a planet given the mass ($M$) and radius ($r$) of another body, and how is it related to the ratio of those parameters?
+
+### Back
+- **Key idea:** Gravitational acceleration is proportional to mass and inversely proportional to the square of the radius ($g \propto M/r^2$).
+- **Formula:** $\frac{g_1}{g_2} = \frac{M_1}{M_2} \times \left( \frac{r_2}{r_1} \right)^2$
+- **When to use it:** When comparing gravitational field strengths between two planets or celestial bodies.
+- **Common trap:** Forgetting to square the radius ratio or confusing the inverse relationship (i.e., using $r_1/r_2$ instead of $r_2/r_1$ when calculating $g_2$).

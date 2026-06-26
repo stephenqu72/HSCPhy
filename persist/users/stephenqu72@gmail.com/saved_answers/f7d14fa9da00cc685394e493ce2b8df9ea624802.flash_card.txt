@@ -1,0 +1,11 @@
+### Front
+How do you calculate the resultant displacement of a projectile at time $t$ relative to its launch point?
+
+### Back
+- **Key idea:** Projectile motion is the vector sum of independent horizontal (constant velocity) and vertical (constant acceleration) displacements.
+- **Formula / law:** 
+  1. $\Delta x = u \cos(\theta) t$
+  2. $\Delta y = u \sin(\theta) t + \frac{1}{2} a_y t^2$
+  3. $s = \sqrt{\Delta x^2 + \Delta y^2}$
+- **When to use it:** To find the straight-line distance and angle from the start position to the projectile's position at any time $t$.
+- **Common trap:** Including initial height (e.g., cliff height) in the displacement calculation; displacement relative to the *launch point* ignores the starting vertical position relative to the ground.

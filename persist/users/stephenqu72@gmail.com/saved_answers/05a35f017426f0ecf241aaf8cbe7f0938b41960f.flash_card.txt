@@ -1,0 +1,8 @@
+### Front
+How do you determine if a collision is elastic or inelastic?
+
+### Back
+- Key idea: Kinetic energy ($KE$) conservation.
+- Formula / law: $KE_{total} = \frac{1}{2}mv^2$. If $KE_{initial} \neq KE_{final}$, it is inelastic.
+- When to use it: Any collision problem where you must identify the type of impact or energy loss.
+- Common trap: Assuming momentum conservation (which holds for both) implies kinetic energy is also conserved. Momentum is conserved in all closed-system collisions; kinetic energy is only conserved in perfectly elastic ones.

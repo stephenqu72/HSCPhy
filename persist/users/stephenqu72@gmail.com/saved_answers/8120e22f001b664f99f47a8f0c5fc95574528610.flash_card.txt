@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal range of a projectile launched horizontally from a height?
+
+### Back
+- **Key idea:** Treat horizontal and vertical motions as independent. Horizontal velocity is constant ($a_x = 0$), while vertical motion is under constant gravity ($a_y = g$).
+- **Formula / law / constant / figure:** $t = \sqrt{\frac{2h}{g}}$; $d = v_x \times t$
+- **When to use it:** When given initial horizontal velocity and vertical displacement (table/cliff problems).
+- **Common trap:** Using horizontal velocity in the vertical displacement formula or failing to remember that initial vertical velocity ($u_y$) is $0$ for horizontal launches.

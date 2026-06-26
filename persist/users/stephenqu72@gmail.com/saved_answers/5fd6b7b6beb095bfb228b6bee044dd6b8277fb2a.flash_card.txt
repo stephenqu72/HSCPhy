@@ -1,0 +1,8 @@
+### Front
+How do you calculate the required angular velocity ($\omega$) for a centrifuge-based space launch system?
+
+### Back
+- Key idea: Equate the payload's tangential velocity ($v$) at the release point to the Earth's escape velocity ($v_e$).
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{R_E}}$ and $\omega = \frac{v_e}{r}$.
+- When to use it: When calculating launch requirements based on the Conservation of Energy (Kinetic Energy = Gravitational Potential Energy).
+- Common trap: Forgetting to convert units or confusing the radius of the centrifuge arm ($r$) with the radius of the Earth ($R_E$).

@@ -1,0 +1,8 @@
+### Front
+What provides the centripetal force for a car navigating a flat, horizontal circular turn?
+
+### Back
+- **Key idea:** Static friction between the tires and the road surface provides the centripetal force required for circular motion.
+- **Formula / law / constant / figure:** $\mu mg = \frac{mv^2}{r}$ (where $F_f = \mu F_N$)
+- **When to use it:** Solving for maximum safe speed, radius of turn, or coefficient of friction ($\mu$) for vehicles on non-banked curves.
+- **Common trap:** Forgetting to convert speed from $km/h$ to $m/s$ or assuming the normal force ($F_N$) equals $mg \cos\theta$ (only applicable on *banked* tracks).

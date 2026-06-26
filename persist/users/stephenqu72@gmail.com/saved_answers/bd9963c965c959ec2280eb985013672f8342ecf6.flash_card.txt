@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released in a nuclear reaction using mass defect?
+
+### Back
+- **Key idea:** Energy released ($E$) is equivalent to the mass lost ($\Delta m$) during the reaction.
+- **Formula:** $E = \Delta m \times 931.5 \text{ MeV/u}$ (where $\Delta m = \sum M_{\text{reactants}} - \sum M_{\text{products}}$).
+- **When to use it:** Whenever mass is missing (mass defect) between reactants and products in a nuclear decay or fusion/fission reaction.
+- **Common trap:** Forgetting to include the masses of all subatomic particles (e.g., the neutron) or using the wrong atomic mass units (u) conversion factor.

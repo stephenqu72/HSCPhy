@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum height $h$ reached by an object launched vertically from a planet's surface with speed $v$?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy: $E_{total} = K + U = \text{constant}$.
+- **Formula / law:** $\frac{1}{2}mv^2 - \frac{GMm}{r_i} = -\frac{GMm}{r_f}$, where $r_f = R + h$.
+- **When to use it:** When an object moves in a gravitational field where kinetic energy is converted into gravitational potential energy (or vice-versa).
+- **Common trap:** Forgetting that $r$ is the distance from the **center** of the planet ($r = R + h$), not just the height above the surface ($h$).

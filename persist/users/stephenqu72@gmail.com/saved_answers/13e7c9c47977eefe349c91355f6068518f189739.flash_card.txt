@@ -1,0 +1,8 @@
+### Front
+How do you determine which planet has the lowest escape velocity ($v_e$) given mass ($M$) and radius ($r$)?
+
+### Back
+- **Key idea:** Escape velocity is minimized by having the smallest mass and the largest radius.
+- **Formula:** $v_e = \sqrt{\frac{2GM}{r}}$ where $v_e \propto \sqrt{\frac{M}{r}}$.
+- **When to use it:** When comparing the gravitational influence or "escape requirements" of different celestial bodies.
+- **Common trap:** Confusing the relationship; remember that $v_e$ increases with mass ($M$) and decreases with radius ($r$). Always check the $M/r$ ratio.

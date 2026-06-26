@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass ($M$) of a central body using the orbital radius ($r$) and period ($T$) of a satellite?
+
+### Back
+- Key idea: Equate gravitational force ($F_g$) to centripetal force ($F_c$).
+- Formula / law / constant / figure: Kepler’s Third Law rearranged: $M = \frac{4\pi^2 r^3}{G T^2}$
+- When to use it: When calculating the mass of a planet or star based on the orbital data of a moon or planet.
+- Common trap: Failing to convert units (e.g., radius in km to meters, or period in hours/days to seconds) or forgetting to square the period $T$.

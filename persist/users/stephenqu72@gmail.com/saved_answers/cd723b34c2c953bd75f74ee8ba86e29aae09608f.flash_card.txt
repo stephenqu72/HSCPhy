@@ -1,0 +1,8 @@
+### Front
+How do you calculate the altitude ($h$) of a geostationary satellite from the Earth’s surface?
+
+### Back
+- **Key idea:** The orbital radius ($r$) is measured from the Earth's centre; altitude is the distance from the surface ($h = r - R_E$).
+- **Formula / law:** Kepler's Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+- **When to use it:** When solving for orbital height or radius given a satellite's period ($T$).
+- **Common trap:** Forgetting to subtract the Earth's radius ($R_E$) from the calculated orbital radius ($r$) to find the altitude ($h$).

@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the angular speed ($\omega$) of a rotating body, and how do you determine it for Earth’s rotation?
+
+### Back
+- **Key idea:** Angular speed is the rate of change of angular displacement over time.
+- **Formula / law / constant / figure:** $\omega = \frac{\Delta\theta}{\Delta t}$. For Earth, use $\Delta\theta = 2\pi$ rad and $\Delta t = T$ (period).
+- **When to use it:** When calculating rotational dynamics or uniform circular motion.
+- **Common trap:** Failing to convert time (e.g., hours/days) into SI base units (seconds) before calculation. Always check if the question implies a *solar day* (24h) or a *sidereal day* (~23h 56m).

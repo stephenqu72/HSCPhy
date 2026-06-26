@@ -1,0 +1,8 @@
+### Front
+How does the scale reading of an object at the equator differ from its weight at the poles, and why?
+
+### Back
+- **Key idea:** The scale measures the normal force ($F_N$), which is less than the true weight ($mg$) at the equator due to the required centripetal acceleration.
+- **Formula / law / constant / figure:** $F_N = m(g - \omega^2R)$, where $\omega = \frac{2\pi}{T}$.
+- **When to use it:** When calculating apparent weight or "scale readings" for rotating celestial bodies.
+- **Common trap:** Forgetting that $T$ must be converted into seconds (SI units) and confusing the scale reading ($F_N$) with the actual gravitational force ($mg$).

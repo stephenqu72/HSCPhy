@@ -1,0 +1,8 @@
+### Front
+How does relativistic momentum affect the de Broglie wavelength of a high-speed particle?
+
+### Back
+- **Key idea:** As velocity approaches $c$, relativistic momentum ($p = \gamma mv$) increases, causing the de Broglie wavelength ($\lambda = h/p$) to become significantly shorter than non-relativistic predictions.
+- **Formula:** $\lambda = \frac{h}{\gamma mv}$ where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$
+- **When to use it:** When calculating the wavelength of particles moving at significant fractions of the speed of light (typically $v > 0.1c$).
+- **Common trap:** Forgetting to include the Lorentz factor ($\gamma$) when the particle velocity is highly relativistic, leading to an overestimation of the wavelength.

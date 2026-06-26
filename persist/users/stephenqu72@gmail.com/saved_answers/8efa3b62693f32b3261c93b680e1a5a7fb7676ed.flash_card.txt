@@ -1,0 +1,8 @@
+### Front
+How do you determine the net activity of a radioactive sample when background radiation is present, and what is the relationship between activity and mass decay?
+
+### Back
+- **Key idea:** Net activity is the total measured radiation minus constant background; activity and mass both follow the same exponential decay law.
+- **Formula / law:** $A_t = A_{total} - A_{background}$ and $A_t = A_0e^{-\lambda t}$ (likewise for mass).
+- **When to use it:** Always subtract background radiation before performing calculations or graphing activity data.
+- **Common trap:** Forgetting to subtract the background radiation from the total counts before calculating the decay constant ($\lambda$) or half-life.

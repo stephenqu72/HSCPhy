@@ -1,0 +1,8 @@
+### Front
+How do you determine the final vertical velocity ($v_y$) of a projectile if given the horizontal velocity ($v_x$) and the impact angle ($\theta$) relative to a vertical wall?
+
+### Back
+- **Key idea:** Use the trigonometry of the velocity vector at the point of impact.
+- **Formula / law / constant / figure:** $\tan(\theta) = \frac{v_x}{|v_y|} \implies |v_y| = \frac{v_x}{\tan(\theta)}$.
+- **When to use it:** When a projectile strikes a surface at a specific angle and you need to link horizontal motion to vertical kinematic equations.
+- **Common trap:** Confusing the angle relative to the *vertical* with the angle relative to the *horizontal*. If given the angle to the vertical, $\tan$ is opposite ($v_x$) over adjacent ($v_y$).

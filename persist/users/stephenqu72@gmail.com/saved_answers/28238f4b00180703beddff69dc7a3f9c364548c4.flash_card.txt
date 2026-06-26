@@ -1,0 +1,8 @@
+### Front
+What is the effect on power loss ($P_{loss}$) if the transmission voltage is decreased while power output remains constant?
+
+### Back
+- **Key idea:** Power loss is inversely proportional to the square of the voltage ($P_{loss} \propto 1/V^2$).
+- **Formula / law / constant / figure:** $P_{loss} = I^2 R$ and $I = P/V$, therefore $P_{loss} = (\frac{P}{V})^2 R$.
+- **When to use it:** When calculating energy efficiency in transmission lines or explaining why high-voltage transmission is used.
+- **Common trap:** Forgetting that $I$ is squared; a 10x decrease in voltage leads to a 100x increase in power loss, not just a 10x increase.

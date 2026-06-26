@@ -1,0 +1,8 @@
+### Front
+Why can spherical celestial bodies (e.g., Earth and Sun) be treated as point masses in Newton's Law of Universal Gravitation?
+
+### Back
+- Key idea: The **Shell Theorem** allows a spherically symmetric body to be treated as if all its mass is concentrated at its center of mass.
+- Formula / law / constant / figure: $F = G \frac{Mm}{d^2}$
+- When to use it: When the distance ($d$) between objects is very large compared to the radii of the objects.
+- Common trap: Assuming the law only applies to "tiny" objects; it applies to large spheres as long as they are treated as point masses.

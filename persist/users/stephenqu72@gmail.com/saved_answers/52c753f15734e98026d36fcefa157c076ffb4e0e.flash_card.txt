@@ -1,0 +1,8 @@
+### Front
+How can you maximize the torque ($\tau$) produced by a constant force ($F$) acting on a lever arm ($r$)?
+
+### Back
+- **Key idea:** The force must be applied perpendicular to the lever arm.
+- **Formula / law / constant / figure:** $\tau = rF \sin(\theta)$; maximize by setting $\theta = 90^\circ$ (where $\sin(90^\circ) = 1$).
+- **When to use it:** When calculating rotational effects or determining the optimal angle to apply a force to rotate an object (e.g., using a wrench).
+- **Common trap:** Confusing the angle $\theta$ (the angle between the force and the lever arm) with the angle between the force and the horizontal/vertical axis. Always verify the vector direction relative to the pivot point.

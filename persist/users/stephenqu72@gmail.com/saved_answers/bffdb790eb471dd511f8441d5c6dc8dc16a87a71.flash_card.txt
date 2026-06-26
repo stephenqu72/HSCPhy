@@ -1,0 +1,8 @@
+### Front
+How does the kinetic energy ($E_k$) of a projectile vary over time during its flight, and what does the resulting graph look like?
+
+### Back
+- **Key idea:** $E_k$ follows a parabolic path that opens upward, reaching a non-zero minimum at the peak of the trajectory (where $v_y = 0$).
+- **Formula:** $E_k(t) = \frac{1}{2}m(v_x^2 + (v_{y0} - gt)^2)$
+- **When to use it:** When analyzing energy transformations in projectile motion graphs or kinematics problems.
+- **Common trap:** Assuming $E_k = 0$ at the peak (ignoring the constant horizontal velocity $v_x$) or assuming the graph is a downward-opening parabola (confusing $E_k$ with height/potential energy).

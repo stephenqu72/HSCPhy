@@ -1,0 +1,8 @@
+### Front
+How does the required orbital velocity of a satellite change as its orbital altitude decreases?
+
+### Back
+- Key idea: Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto \frac{1}{\sqrt{r}}$); decreasing altitude increases the required orbital speed.
+- Formula / law: $v = \sqrt{\frac{GM}{r}}$ (where $r = R_E + h$).
+- When to use it: To calculate the velocity change ($\Delta v$) required for orbital maneuvers or altitude transitions.
+- Common trap: Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) when calculating the total orbital radius ($r$).

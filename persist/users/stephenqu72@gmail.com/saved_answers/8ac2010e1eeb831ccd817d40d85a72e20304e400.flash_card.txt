@@ -1,0 +1,8 @@
+### Front
+What variables determine the maximum height ($h_{max}$) of a projectile in a vacuum?
+
+### Back
+- Key idea: Maximum height is determined by the initial vertical velocity component.
+- Formula / law / constant / figure: $h_{max} = \frac{u^2 \sin^2 \theta}{2g}$
+- When to use it: To calculate the peak vertical displacement of a projectile when air resistance is neglected.
+- Common trap: Forgetting to square the sine of the angle or confusing $u$ (total launch speed) with $u_y$ (vertical component).

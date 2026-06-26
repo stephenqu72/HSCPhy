@@ -1,0 +1,8 @@
+### Front
+How can you determine the mass ($M$) of a celestial body using a linear graph of gravitational acceleration ($g$) versus the inverse square of distance ($1/r^2$)?
+
+### Back
+- **Key idea:** The gradient of a $g$ vs $1/r^2$ graph equals the product of the Gravitational Constant and the mass ($GM$).
+- **Formula / law:** $g = GM(1/r^2)$; Gradient ($m$) = $GM \implies M = m/G$.
+- **When to use it:** When given empirical data points of $g$ at various distances from a planet or star.
+- **Common trap:** Forgetting to account for the powers of 10 in the axis labels (e.g., $10^{-13}$) when calculating the gradient or substituting $x$ values.

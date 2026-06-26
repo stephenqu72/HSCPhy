@@ -1,0 +1,8 @@
+### Front
+How does the kinetic energy ($K$) of a projectile vary over time and why does its graph have a non-zero minimum?
+
+### Back
+- **Key idea:** $K$ is proportional to $v^2$. Since $v_x$ remains constant and $v_y$ reaches zero at the peak, $K$ reaches its minimum (but not zero) at the projectile's maximum height.
+- **Formula / law / constant / figure:** $K = \frac{1}{2}m(v_x^2 + (v_{y0} - gt)^2)$; the graph is a parabola opening upward.
+- **When to use it:** When analyzing energy transformations in projectile motion without air resistance.
+- **Common trap:** Assuming $K=0$ at the peak; $K$ only equals $\frac{1}{2}mv_x^2$ at the peak.

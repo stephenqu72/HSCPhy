@@ -1,0 +1,8 @@
+### Front
+Why does a block on a rotating turntable eventually slide outward as angular velocity ($\omega$) increases?
+
+### Back
+- **Key idea:** Static friction provides the centripetal force ($F_c = mr\omega^2$). Sliding occurs when the required $F_c$ exceeds the maximum available static friction ($\mu mg$).
+- **Formula:** $F_{c(required)} = mr\omega^2$; Slipping occurs when $mr\omega^2 > \mu mg$
+- **When to use it:** Circular motion problems involving friction on rotating surfaces (e.g., car on a curve, block on a turntable).
+- **Common trap:** Forgetting that static friction is a *limiting* force, not a constant one—it only provides exactly what is needed to maintain circular motion until it hits its maximum value.

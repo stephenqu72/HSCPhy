@@ -1,0 +1,8 @@
+### Front
+How do you solve for the initial velocity ($u$) of a projectile given a specific displacement $(\Delta x, \Delta y)$ and launch angle ($\theta$)?
+
+### Back
+- Key idea: Analyze horizontal and vertical motion independently, linked by a common time ($t$).
+- Formula / law: $\Delta x = (u \cos\theta)t$ and $\Delta y = (u \sin\theta)t - \frac{1}{2}gt^2$.
+- When to use it: When you need to find initial speed or trajectory variables for an object under constant gravitational acceleration.
+- Common trap: Forgetting that $t$ is the same for both dimensions; failing to substitute $t = \frac{\Delta x}{u \cos\theta}$ into the vertical equation correctly.

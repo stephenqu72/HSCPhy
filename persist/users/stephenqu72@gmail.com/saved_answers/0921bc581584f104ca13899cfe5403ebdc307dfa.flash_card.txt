@@ -1,0 +1,8 @@
+### Front
+What is the standard procedure for determining the horizontal range ($x$) of a projectile launched horizontally from a height $H$?
+
+### Back
+- **Key idea:** Horizontal motion is constant velocity; vertical motion is free fall.
+- **Formula / law / constant / figure:** Use vertical displacement $H = \frac{1}{2}gt^2$ to find time ($t$), then use $x = v_x t$.
+- **When to use it:** When solving for the range of a projectile given initial horizontal velocity and vertical height.
+- **Common trap:** Using the final velocity magnitude ($v$) instead of the initial horizontal velocity ($v_x$) to calculate the range.

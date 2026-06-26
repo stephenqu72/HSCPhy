@@ -1,0 +1,8 @@
+### Front
+What is the standard altitude of a geostationary satellite above the Earth's surface?
+
+### Back
+- Key idea: A geostationary satellite has a period equal to the Earth’s sidereal rotation (~86,164 s).
+- Formula / law / constant / figure: $h \approx 35,930 \text{ km}$; Kepler’s Third Law ($\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$).
+- When to use it: Any calculation involving satellite orbit heights or positioning.
+- Common trap: Confusing **orbital radius** ($r$ from Earth's center, $\approx 42,200 \text{ km}$) with **altitude** ($h$ from Earth's surface, $\approx 35,900 \text{ km}$). Always subtract $R_E$ to find altitude.

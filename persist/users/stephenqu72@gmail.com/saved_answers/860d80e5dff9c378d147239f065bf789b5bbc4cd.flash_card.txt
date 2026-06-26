@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal landing position of a projectile launched at an angle when it lands below the launch height?
+
+### Back
+- **Key idea:** Energy conservation (spring to kinetic) followed by independent horizontal and vertical projectile motion analysis.
+- **Formula / law / constant / figure:** $W = \Delta KE = \frac{1}{2}mv^2$; $y = v_y t - \frac{1}{2}gt^2$; $x = v_x t$.
+- **When to use it:** When a projectile is launched from a spring mechanism to a target located at a different elevation.
+- **Common trap:** Forgetting to use the quadratic formula for vertical displacement when the landing height is not equal to the launch height (i.e., $y \neq 0$).

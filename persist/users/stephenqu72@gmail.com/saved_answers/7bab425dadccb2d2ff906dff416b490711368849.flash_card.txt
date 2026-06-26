@@ -1,0 +1,8 @@
+### Front
+What principle is used to calculate the force required for a body (like a forearm) to remain in static equilibrium?
+
+### Back
+- Key idea: The sum of clockwise moments must equal the sum of counter-clockwise moments about a pivot point.
+- Formula / law / constant / figure: $\sum \tau_{cw} = \sum \tau_{ccw}$ where $\tau = F \times d_{\perp}$.
+- When to use it: Whenever an object is stationary and acted upon by multiple forces at different distances from a pivot.
+- Common trap: Measuring the distance from the wrong point; ensure all distances are measured strictly from the chosen pivot point.

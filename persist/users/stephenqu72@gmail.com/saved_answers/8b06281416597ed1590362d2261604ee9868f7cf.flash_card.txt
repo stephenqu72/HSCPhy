@@ -1,0 +1,8 @@
+### Front
+How does the gravitational field strength $g$ change if a planet has twice the mass and half the radius of Earth?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass ($M$) and inversely proportional to the square of the radius ($r^2$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$; $g_p = 8g$ (scaling factor).
+- When to use it: Whenever comparing gravitational fields of different planets or altitudes.
+- Common trap: Forgetting to square the radius factor; $\left(\frac{1}{2}\right)^2 = \frac{1}{4}$, which becomes $\times 4$ when moved to the numerator.

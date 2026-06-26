@@ -1,0 +1,8 @@
+### Front
+In a radioactive decay experiment measuring beta particle current ($I$) and stopping voltage ($V_s$), how do these values change over time?
+
+### Back
+- Key idea: Current $I$ is proportional to activity, while stopping voltage $V_s$ depends on the energy of the particles.
+- Formula / law / constant / figure: $A = A_0 e^{-\lambda t}$; No fixed constant or figure.
+- When to use it: To distinguish between the rate of decay (activity) and the intrinsic particle energy (which is constant for a specific isotope).
+- Common trap: Assuming $V_s$ decreases because the number of particles decreases; $V_s$ is energy-dependent, not quantity-dependent.

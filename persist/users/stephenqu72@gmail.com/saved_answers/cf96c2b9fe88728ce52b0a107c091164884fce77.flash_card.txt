@@ -1,0 +1,8 @@
+### Front
+Upon what factors does the escape speed ($v_{esc}$) of a projectile depend, and how does the projectile's mass affect it?
+
+### Back
+- Key idea: Escape speed depends only on the gravitational properties of the central body (mass $M$ and radius $r$).
+- Formula / law / constant / figure: $v_{esc} = \sqrt{\frac{2GM}{r}}$; derived from $E_k + U_g = 0$.
+- When to use it: To determine the minimum initial velocity required for an object to permanently leave a gravitational field.
+- Common trap: Assuming the mass of the projectile ($m$) matters; it cancels out in the derivation.

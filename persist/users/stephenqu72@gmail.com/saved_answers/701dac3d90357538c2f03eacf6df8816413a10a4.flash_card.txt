@@ -1,0 +1,8 @@
+### Front
+How do you determine the velocity of a particle undergoing time dilation when given its proper half-life ($t_0$) and observed half-life ($t$)?
+
+### Back
+- **Key idea:** Time dilation increases the observed half-life of particles moving at relativistic speeds.
+- **Formula:** $t = \gamma t_0$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- **When to use it:** When solving problems involving subatomic particles (e.g., muons/pions) traveling at a significant fraction of the speed of light.
+- **Common trap:** Forgetting that distance $d$ in the observer's frame must be calculated using the *observed* time ($t$) and the particle's velocity ($v$), not the proper time ($t_0$).

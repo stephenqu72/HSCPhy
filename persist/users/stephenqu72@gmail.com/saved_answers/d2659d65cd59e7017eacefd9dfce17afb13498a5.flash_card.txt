@@ -1,0 +1,8 @@
+### Front
+How do you determine the direction of the frictional force for a vehicle on a banked track?
+
+### Back
+- **Key idea:** Compare the vehicle's actual velocity ($v$) to the "ideal" velocity ($v_{ideal}$) where friction is zero.
+- **Formula / law / constant / figure:** $v_{ideal} = \sqrt{rg \tan\theta}$
+- **When to use it:** If $v > v_{ideal}$, the vehicle tends to slide *up* the slope, so friction acts *down* the slope. If $v < v_{ideal}$, the vehicle tends to slide *down* the slope, so friction acts *up* the slope.
+- **Common trap:** Assuming friction always acts up the slope; direction depends entirely on whether the vehicle is traveling faster or slower than the design speed of the bank.

@@ -1,0 +1,8 @@
+### Front
+How can the torque ($\tau$) applied to a nut by a wrench be maximized?
+
+### Back
+- Key idea: Torque is directly proportional to the length of the lever arm ($r$) and the sine of the angle between the force and the arm.
+- Formula / law: $\tau = rF \sin(\theta)$
+- When to use it: To determine how to maximize rotational effect (leverage) when loosening or tightening objects.
+- Common trap: Thinking that changing the angle $\theta$ away from $90^\circ$ increases torque, when in fact $90^\circ$ (perpendicular) provides the maximum torque ($\sin 90^\circ = 1$).

@@ -1,0 +1,8 @@
+### Front
+How does the change in total mechanical energy ($\Delta E$) of a satellite relate to its change in gravitational potential energy ($\Delta U$) when moving to a higher orbit?
+
+### Back
+- **Key idea:** For a circular orbit, the total mechanical energy is half the gravitational potential energy ($E = \frac{1}{2}U$). Therefore, $\Delta E = \frac{1}{2}\Delta U$.
+- **Formula:** $\Delta E = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$
+- **When to use it:** To calculate the work required to change a satellite's orbital altitude.
+- **Common trap:** Forgetting that orbital radius ($r$) must be the distance from the *center* of the planet ($r = R_E + h$), not just the altitude ($h$).

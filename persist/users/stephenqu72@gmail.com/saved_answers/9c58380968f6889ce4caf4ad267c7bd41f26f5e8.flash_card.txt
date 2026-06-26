@@ -1,0 +1,8 @@
+### Front
+Under the assumption of negligible friction and air resistance, how does the final peak height ($H$) of a projectile compare to its starting height ($h$)?
+
+### Back
+- Key idea: Total mechanical energy is conserved in the absence of non-conservative forces.
+- Formula / law / constant / figure: Law of Conservation of Energy: $PE_i + KE_i = PE_f + KE_f \rightarrow mgh = mgH$.
+- When to use it: Any closed system where work done by friction or air resistance is zero.
+- Common trap: Assuming the object needs an initial velocity to reach the same height; if starting from rest, the heights must be equal regardless of path shape.

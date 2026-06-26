@@ -1,0 +1,8 @@
+### Front
+What is the formula for the force per unit length between two parallel, current-carrying wires and how do you determine which measurement contributes the most to experimental uncertainty?
+
+### Back
+- **Key idea:** Ampere's Force Law and relative error analysis.
+- **Formula:** $\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi r}$ and $\text{Relative Error} = \frac{\Delta x}{x} \times 100\%$.
+- **When to use it:** Calculating magnetic permeability ($\mu_0$) or assessing the precision of experimental measurements.
+- **Common trap:** Forgetting to convert all units to SI (e.g., cm to m, g to kg) or assuming the variable with the smallest absolute uncertainty has the largest relative error.

@@ -1,0 +1,8 @@
+### Front
+How does orbital speed $v$ depend on the orbital radius $r$ for a satellite in a circular orbit?
+
+### Back
+- Key idea: Orbital speed is inversely proportional to the square root of the orbital radius.
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$ (derived from $F_c = F_g$).
+- When to use it: To compare the velocities of two satellites at different orbital radii.
+- Common trap: Forgetting the square root; thinking $v \propto \frac{1}{r}$ instead of $v \propto \frac{1}{\sqrt{r}}$.

@@ -1,0 +1,8 @@
+### Front
+What are the three essential conditions for a satellite to maintain a geostationary orbit (GSO)?
+
+### Back
+- Key idea: Orbital period must match Earth's sidereal rotation ($T \approx 23$h $56$m), must be equatorial, and must be at a fixed altitude.
+- Formula / law / constant / figure: Kepler's Third Law ($T^2/r^3 = 4\pi^2/GM$), altitude $\approx 35,786$ km.
+- When to use it: To explain communication satellite positioning or calculate orbital radius/velocity.
+- Common trap: Confusing GSO with polar orbits (which scan the whole Earth) or assuming a 24-hour period (it is exactly one *sidereal* day).

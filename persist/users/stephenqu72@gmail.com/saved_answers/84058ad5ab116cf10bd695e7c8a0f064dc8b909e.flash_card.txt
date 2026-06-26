@@ -1,0 +1,8 @@
+### Front
+How do you relate the gravitational force ($F_g$), orbital period ($T$), and radius ($r$) for a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force required for circular motion.
+- **Formula:** $r = \frac{F_g T^2}{4\pi^2 m_s}$ (derived from $F_g = \frac{m_s v^2}{r}$ and $v = \frac{2\pi r}{T}$)
+- **When to use it:** When given an orbital period and the gravitational force acting on a satellite to find its orbital radius.
+- **Common trap:** Forgetting to square the orbital period ($T^2$) or neglecting to use the correct units (seconds and meters) before calculation.

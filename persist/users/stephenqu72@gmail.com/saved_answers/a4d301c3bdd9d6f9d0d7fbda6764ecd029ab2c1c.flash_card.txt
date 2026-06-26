@@ -1,0 +1,8 @@
+### Front
+How do you determine the change in distance of an unpowered rocket moving through a gravitational field?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy.
+- **Formula / law / constant / figure:** $\frac{1}{2}mv^2 - \frac{GMm}{r} = \text{constant}$
+- **When to use it:** When an object (rocket/satellite) moves between two points in a gravitational field with no external work (engine off).
+- **Common trap:** Forgetting the negative sign in the gravitational potential energy formula ($E_p = -\frac{GMm}{r}$) or failing to cancel the mass ($m$) of the rocket.

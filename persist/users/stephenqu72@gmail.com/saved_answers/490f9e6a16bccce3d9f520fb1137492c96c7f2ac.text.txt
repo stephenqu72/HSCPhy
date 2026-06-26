@@ -1,21 +1,21 @@
+Hello! As an HSC Physics teacher, I would be happy to help you break down this concept, which is fundamental to understanding Maxwell’s equations and the nature of light.
+
 ### Answer
 The correct answer is **D**.
 
 ### Explanation
-To understand how an electromagnetic (EM) wave propagates, we look to Maxwell’s equations, which describe the relationship between electric and magnetic fields.
+To understand how an electromagnetic wave propagates, we look at Maxwell’s equations, which describe the relationship between electric and magnetic fields.
 
-1.  **The Nature of EM Waves:** An electromagnetic wave consists of time-varying (oscillating) electric fields ($E$) and magnetic fields ($B$) that are coupled together.
-2.  **Maxwell-Faraday and Ampère-Maxwell Laws:** 
-    *   A changing electric field creates a changing magnetic field.
-    *   A changing magnetic field creates a changing electric field.
-    *   Because the source of the oscillation is an accelerating charge (or changing current), both the electric and magnetic fields must be **oscillating** in time and space to sustain the wave as it travels. Therefore, options suggesting "constant" fields (B and C) are incorrect.
-3.  **Orthogonality:** In an EM wave, the oscillating electric field and the oscillating magnetic field are oriented **perpendicular** to each other. Furthermore, both are perpendicular to the direction of wave propagation.
-4.  **Evaluating the Options:**
-    *   **A:** Incorrect because the fields must be perpendicular, not parallel.
-    *   **B & C:** Incorrect because the fields must be oscillating, not constant.
-    *   **D:** Correct because it states that an oscillating electric field induces an oscillating magnetic field, and these fields are perpendicular to one another.
+1.  **The Nature of the Wave:** An electromagnetic wave consists of time-varying electric and magnetic fields that are mutually perpendicular to each other and both perpendicular to the direction of wave propagation.
+2.  **Mutual Induction:** According to Maxwell-Faraday’s law, a changing magnetic field induces a changing electric field. Conversely, the Ampère-Maxwell law states that a changing electric field induces a changing magnetic field. 
+3.  **Self-Propagation:** Because these fields are oscillating (changing over time), they continuously generate one another. This "self-propagating" mechanism allows the wave to travel through a vacuum at the speed of light ($c$).
+4.  **Geometry:** These fields are always **perpendicular** (at $90^\circ$ angles) to one another. 
 
-This self-sustaining cycle of induction allows the electromagnetic wave to propagate through a vacuum at the speed of light ($c$).
+**Why the others are incorrect:**
+*   **A:** The fields must be perpendicular, not parallel.
+*   **B & C:** The fields must be oscillating (changing over time) to sustain the wave; constant fields do not propagate as an electromagnetic wave.
 
-### QUESTION_TYPE
+When answering these questions in your HSC exams, always remember the "triad" structure: the Electric field vector ($\vec{E}$), the Magnetic field vector ($\vec{B}$), and the direction of propagation ($\vec{v}$) are all mutually orthogonal (at right angles to each other).
+
+###QUESTION_TYPE
 Multiple choice

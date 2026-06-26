@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal landing position of a projectile on level ground?
+
+### Back
+- Key idea: Horizontal range ($R$) depends on initial velocity, launch angle, and gravity.
+- Formula: $R = \frac{u^2 \sin(2\theta)}{g}$
+- When to use it: Projectile motion problems where the launch and landing points are at the same vertical elevation.
+- Common trap: Forgetting to double the angle (using $\sin \theta$ instead of $\sin 2\theta$) or using degrees when the calculator is set to radians.

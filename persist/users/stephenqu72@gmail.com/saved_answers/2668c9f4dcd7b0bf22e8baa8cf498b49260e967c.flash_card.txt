@@ -1,0 +1,8 @@
+### Front
+How do you determine the decay constant ($\lambda$) from an activity-time decay graph?
+
+### Back
+- Key idea: The decay constant is inversely proportional to the half-life ($t_{1/2}$).
+- Formula / law / constant / figure: $\lambda = \frac{\ln(2)}{t_{1/2}} \approx \frac{0.693}{t_{1/2}}$
+- When to use it: To calculate the rate of decay when given a time-series graph of radioactive activity.
+- Common trap: Confusing the units of time (e.g., seconds vs. hours) or misreading the horizontal axis when finding $t_{1/2}$ from the $A_0/2$ point.

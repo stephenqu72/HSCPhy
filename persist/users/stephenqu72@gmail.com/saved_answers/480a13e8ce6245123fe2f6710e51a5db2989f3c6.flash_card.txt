@@ -1,0 +1,8 @@
+### Front
+Explain why a stationary magnetometer near a stationary charged sphere reads zero, but registers a value when moving.
+
+### Back
+- Key idea: A magnetic field is only produced by moving electric charges (currents); stationary charges produce only an electric field.
+- Formula / law / constant / figure: $B = 0$ for static charges (Oersted's discovery).
+- When to use it: When analyzing the relationship between charge, motion, and electromagnetism.
+- Common trap: Forgetting that motion is relative; if the magnetometer moves relative to the static charge, the charge effectively acts as a moving current source.

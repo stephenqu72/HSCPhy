@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum height of a projectile if the net vertical acceleration changes midway through its flight?
+
+### Back
+- **Key idea:** Segment the motion by calculating the velocity at the transition point, then treat each segment as a separate kinematic problem using $v_f^2 = u_i^2 + 2as$.
+- **Formula:** $v^2 = u^2 + 2as$ or $v = u + at$.
+- **When to use it:** When external non-gravitational forces (e.g., thrust, air resistance, or lift) alter the net acceleration at a specific coordinate or time.
+- **Common trap:** Forgetting to use the final velocity of the first segment ($v_{mid}$) as the initial velocity for the second segment.

@@ -1,0 +1,8 @@
+### Front
+How does the angle of a conical pendulum ($\theta$) change as its orbital velocity ($v$) increases?
+
+### Back
+- **Key idea:** As $v$ increases, the required centripetal force ($T\sin\theta$) increases, forcing the mass to a larger radius and higher angle to maintain equilibrium.
+- **Formula / law / constant / figure:** $\tan\theta = \frac{v^2}{rg}$ (derived from $\sum F_y = 0$ and $\sum F_x = F_c$).
+- **When to use it:** When analyzing a mass on a string rotating in a horizontal circle.
+- **Common trap:** Forgetting to resolve the tension into components; confusing $\theta$ (angle to vertical) with the angle to the horizontal.

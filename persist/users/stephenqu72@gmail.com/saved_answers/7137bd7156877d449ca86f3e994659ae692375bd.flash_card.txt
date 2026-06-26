@@ -1,0 +1,8 @@
+### Front
+What is the formula for the gravitational force between two massive point masses?
+
+### Back
+- Key idea: Newton’s Law of Universal Gravitation states that every point mass attracts every other point mass with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres.
+- Formula: $F = \frac{G m_1 m_2}{r^2}$ ($G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$)
+- When to use it: To calculate the gravitational force between any two objects with mass.
+- Common trap: Using the distance between the surfaces of objects instead of the distance between their **centres of mass** ($r$).

@@ -1,0 +1,8 @@
+### Front
+In a system where two masses $m_W$ and $m_X$ (where $m_W = 2m_X$) are on a pivot, what condition must the distances $R_1$ and $R_2$ satisfy for mass $X$ to accelerate downwards?
+
+### Back
+- **Key idea:** Rotational equilibrium is broken when the clockwise torque exceeds the counter-clockwise torque ($\sum \tau_{CW} > \sum \tau_{CCW}$).
+- **Formula / law / constant / figure:** $\tau = rF \sin\theta$; $m_X g R_2 > m_W g R_1 \implies R_2 > 2R_1$.
+- **When to use it:** Problems involving non-equilibrium rotational motion (unbalanced torques).
+- **Common trap:** Confusing acceleration with equilibrium; if the system were in equilibrium, the torque equality would hold ($R_2 = 2R_1$), but since it accelerates, an inequality is required.

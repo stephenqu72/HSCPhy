@@ -1,0 +1,8 @@
+### Front
+What is the physical significance of the area under a Force ($F$) vs. displacement ($r$) graph?
+
+### Back
+- Key idea: The area represents the work done ($W$) by the force, which is equal to the change in potential energy ($\Delta U$).
+- Formula: $W = \int_{r_1}^{r_2} F \, dr = \Delta U$
+- When to use it: To calculate energy changes in gravitational or electrostatic fields given a force-distance graph.
+- Common trap: Confusing it with a Force vs. *time* graph, where the area represents **impulse** ($\Delta p$) instead of work/energy.

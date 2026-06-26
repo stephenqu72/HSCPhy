@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity of an object moving between two altitudes in a gravitational field?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($E_k + U = \text{constant}$).
+- **Formula:** $\frac{1}{2}mv_1^2 - \frac{GMm}{r_1} = \frac{1}{2}mv_2^2 - \frac{GMm}{r_2}$
+- **When to use it:** When an object moves between two points in a gravitational field where no external work is done.
+- **Common trap:** Forgetting to add the planet's radius ($R$) to the given altitude ($h$) to get the total orbital distance ($r = R + h$).

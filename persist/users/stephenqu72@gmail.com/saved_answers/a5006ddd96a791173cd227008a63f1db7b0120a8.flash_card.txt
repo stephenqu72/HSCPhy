@@ -1,0 +1,8 @@
+### Front
+How does the surface gravity ($g$) of a planet change if its mass is doubled ($2M$) and its radius is halved ($0.5r$)?
+
+### Back
+- Key idea: Gravitational acceleration is proportional to $M$ and inversely proportional to $r^2$.
+- Formula: $g = \frac{GM}{r^2}$
+- When to use it: To compare gravitational fields of different celestial bodies using ratios.
+- Common trap: Forgetting to square the radius term ($r^2$). If $r$ is halved, the denominator becomes $(1/2)^2 = 1/4$, making the gravity 8 times stronger, not 4.

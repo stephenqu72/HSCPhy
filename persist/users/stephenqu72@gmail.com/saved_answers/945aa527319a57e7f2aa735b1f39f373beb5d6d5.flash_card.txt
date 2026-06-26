@@ -1,0 +1,8 @@
+### Front
+How do you determine the parent radionuclide of a nucleus undergoing $\beta^-$ decay?
+
+### Back
+- **Key idea:** Apply conservation laws for mass number ($A$) and atomic number ($Z$); in $\beta^-$ decay, a neutron becomes a proton, so $Z_{parent} = Z_{product} - 1$.
+- **Formula / law / constant / figure:** $\Delta A = 0$, $\Delta Z = +1$ (for product); $^{A}_{Z}X \rightarrow ^{A}_{Z+1}Y + ^{0}_{-1}e$.
+- **When to use it:** When identifying the parent isotope or balancing nuclear decay equations.
+- **Common trap:** Forgetting that the beta particle ($^{0}_{-1}e$) has an atomic number of $-1$, meaning the parent's $Z$ is actually one *less* than the daughter's.

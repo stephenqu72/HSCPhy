@@ -1,0 +1,8 @@
+### Front
+What is the velocity of a projectile at the peak of its trajectory, given an initial launch speed $v$ at an angle $\theta$?
+
+### Back
+- Key idea: At the peak, vertical velocity ($v_y$) is zero; horizontal velocity ($v_x$) remains constant.
+- Formula / law / constant / figure: $v_{peak} = v \cdot \cos(\theta)$
+- When to use it: To find resultant speed at the highest point of projectile motion.
+- Common trap: Assuming velocity is zero at the peak; remember that horizontal motion continues.

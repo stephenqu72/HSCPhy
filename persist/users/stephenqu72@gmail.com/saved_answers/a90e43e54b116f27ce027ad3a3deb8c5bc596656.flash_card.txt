@@ -1,0 +1,8 @@
+### Front
+How do you determine the experimental value of $g$ using a simple pendulum and a $T^2$ vs $L$ graph?
+
+### Back
+- Key idea: The gradient of the linearised graph $T^2 = (\frac{4\pi^2}{g})L$ is equal to $\frac{4\pi^2}{g}$.
+- Formula: $g = \frac{4\pi^2}{\text{gradient}}$
+- When to use it: To find $g$ experimentally by plotting $T^2$ on the $y$-axis and $L$ on the $x$-axis.
+- Common trap: Forgetting to displace the pendulum by a small angle ($<10^\circ$) to maintain Simple Harmonic Motion, or failing to use the average time for multiple oscillations to reduce reaction error.

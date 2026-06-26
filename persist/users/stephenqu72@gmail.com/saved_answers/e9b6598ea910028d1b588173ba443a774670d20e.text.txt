@@ -2,32 +2,31 @@ To solve this problem, we must apply **Malus's Law**, which states that the inte
 
 $$I = I_0 \cos^2(\phi)$$
 
-where $I_0$ is the intensity of the light incident on the second filter, and $\phi$ is the angle between the plane of polarisation of the incident light and the axis of the second filter.
+where:
+*   $I_0$ is the intensity of the light incident on the filter.
+*   $\phi$ is the angle between the light's initial plane of polarisation and the filter's axis.
 
 ### Step-by-Step Solution:
 
-1.  **Identify the angles:**
-    *   The first filter is parallel to the $y$-axis. Therefore, the light emerging from the first filter has a polarisation direction along the $y$-axis.
-    *   The second filter is at an angle $\theta$ with the $x$-axis. Since the $y$-axis is at $90^\circ$ to the $x$-axis, the angle $\phi$ between the incident light ($y$-axis) and the second filter axis is:
-        $$\phi = 90^\circ - \theta$$
+1.  **Identify the incident angle $\phi_1$:**
+    The first filter is parallel to the $y$-axis. Therefore, the light emerging from the first filter is polarised vertically along the $y$-axis.
 
-2.  **Determine the intensity constant:**
-    *   The question provides a reference: when $\theta = 90^\circ$, the intensity is $210\text{ lux}$.
-    *   When $\theta = 90^\circ$, the angle between the light ($y$-axis) and the filter ($90^\circ$ from $x$-axis) is $\phi = 90^\circ - 90^\circ = 0^\circ$.
-    *   Applying Malus's Law: $210 = I_0 \cos^2(0^\circ) = I_0(1)^2 \implies I_0 = 210\text{ lux}$.
+2.  **Determine the angles $\phi$ for the second filter:**
+    *   **Case 1 ($\theta = 90^\circ$):** When the second filter is at an angle of $90^\circ$ to the $x$-axis, it is parallel to the $y$-axis. The angle between the light (vertical) and the filter (vertical) is $\phi = 0^\circ$. 
+    *   *Correction/Refinement:* Wait, let's look at the geometry carefully. If the light is polarised along the $y$-axis and the second filter is at angle $\theta$ relative to the $x$-axis, the angle $\phi$ between the light (vertical) and the filter (at angle $\theta$ to the $x$-axis) is $\phi = 90^\circ - \theta$.
+    *   For $\theta = 90^\circ$, $\phi = 90^\circ - 90^\circ = 0^\circ$. Malus's Law gives $I = I_0 \cos^2(0^\circ) = I_0$. We are told this intensity is $210 \text{ lux}$. So, $I_0 = 210 \text{ lux}$.
+    *   For $\theta = 35^\circ$, the angle between the vertical light and the filter is $\phi = 90^\circ - 35^\circ = 55^\circ$.
 
 3.  **Calculate the intensity for $\theta = 35^\circ$:**
-    *   The angle between the light ($y$-axis) and the filter axis ($\theta = 35^\circ$ from $x$-axis) is:
-        $$\phi = 90^\circ - 35^\circ = 55^\circ$$
-    *   Now, calculate the final intensity $I$:
-        $$I = 210 \times \cos^2(55^\circ)$$
-        $$I = 210 \times (0.5736)^2$$
-        $$I = 210 \times 0.329$$
-        $$I \approx 69.1\text{ lux}$$
+    $$I = I_0 \cos^2(55^\circ)$$
+    $$I = 210 \times (\cos(55^\circ))^2$$
+    $$I = 210 \times (0.57357...)^2$$
+    $$I = 210 \times 0.32899... \approx 69.09 \text{ lux}$$
 
-Comparing this result to the given options, it matches option B.
+Rounding to the nearest whole number, we get $69 \text{ lux}$.
 
-**Answer:** B
+### Conclusion:
+Comparing our result to the given options, the correct answer is **B**.
 
 ###QUESTION_TYPE
 Calculation question

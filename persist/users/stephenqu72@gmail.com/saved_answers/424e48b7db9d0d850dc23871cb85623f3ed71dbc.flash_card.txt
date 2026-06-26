@@ -1,0 +1,8 @@
+### Front
+Why would a DC-based electricity grid require power stations to be located close to consumers?
+
+### Back
+- Key idea: DC cannot be easily stepped up in voltage using transformers, necessitating high currents for transmission, which causes excessive $I^2R$ energy losses over long distances.
+- Formula / law / constant / figure: $P_{\text{loss}} = I^2R$
+- When to use it: To explain the transmission efficiency advantage of AC over DC.
+- Common trap: Assuming DC appliances are inherently less efficient than AC ones; the issue is transmission loss, not appliance function.

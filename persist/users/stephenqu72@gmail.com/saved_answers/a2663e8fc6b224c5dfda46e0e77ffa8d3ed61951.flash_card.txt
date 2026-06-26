@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total mechanical energy of a satellite in a stable circular orbit?
+
+### Back
+- Key idea: Total energy is the sum of kinetic ($E_k = \frac{GMm}{2r}$) and potential ($E_p = -\frac{GMm}{r}$) energy.
+- Formula / law / constant / figure: $E_{total} = -\frac{GMm}{2r}$
+- When to use it: To calculate the energy required to place a satellite in orbit or change its orbital radius.
+- Common trap: Forgetting the negative sign; the total energy is always negative, representing a bound system.

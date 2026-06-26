@@ -1,0 +1,8 @@
+### Front
+How do you determine the weakest gravitational field strength ($g$) when given multiple mass ($M$) and distance ($r$) scenarios?
+
+### Back
+- **Key idea:** Gravitational field strength is directly proportional to mass and inversely proportional to the square of the distance.
+- **Formula:** $g = \frac{GM}{r^2}$
+- **When to use it:** When comparing $g$ at specific points relative to different celestial bodies or distances.
+- **Common trap:** Forgetting to square the distance ($r^2$) in the denominator, especially when the distance is a fraction or a multiple.

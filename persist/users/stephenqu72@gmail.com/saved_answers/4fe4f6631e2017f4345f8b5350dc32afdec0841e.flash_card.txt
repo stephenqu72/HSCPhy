@@ -1,0 +1,8 @@
+### Front
+How do you determine the impact angle of a projectile hitting the ground below its launch height?
+
+### Back
+- Key idea: The impact angle is the inverse tangent of the ratio of the final vertical velocity to the constant horizontal velocity.
+- Formula / law / constant / figure: $\phi = \tan^{-1}\left(\frac{|v_{fy}|}{v_{fx}}\right)$, where $v_{fy} = v_{iy} + a_yt$ and $v_{fx} = v \cos \theta$.
+- When to use it: To find the final trajectory direction after calculating the final velocity components ($v_x, v_y$) at the time of impact.
+- Common trap: Forgetting that $v_{fy}$ is negative; always use the magnitudes of the components inside the $\tan^{-1}$ function to avoid calculation errors.

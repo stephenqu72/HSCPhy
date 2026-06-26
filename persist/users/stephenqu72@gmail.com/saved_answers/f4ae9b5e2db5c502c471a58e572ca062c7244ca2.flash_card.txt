@@ -1,0 +1,11 @@
+### Front
+What is the general procedure for solving two-dimensional projectile motion problems where the object lands at a different vertical height than its launch point?
+
+### Back
+- **Key idea:** Treat horizontal and vertical motion as independent, linked only by time ($t$).
+- **Formula / law / constant:** 
+  - $u_x = u \cos\theta, u_y = u \sin\theta$
+  - $\Delta y = u_y t + \frac{1}{2} a_y t^2$
+  - $a_y = -9.8 \text{ m/s}^2$ (standard gravity)
+- **When to use it:** When an object follows a parabolic trajectory with constant horizontal velocity and constant vertical acceleration.
+- **Common trap:** Assuming the time of flight is simply $2 \times$ (time to max height). If the landing height $\neq$ launch height, you must solve the quadratic displacement equation for $t$.

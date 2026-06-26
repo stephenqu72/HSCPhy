@@ -1,0 +1,8 @@
+### Front
+How does the vertical velocity ($v_y$) of a projectile launched horizontally change over time, and what does its velocity-time graph look like?
+
+### Back
+- **Key idea:** Vertical velocity increases linearly over time due to constant gravitational acceleration.
+- **Formula / law / constant / figure:** $v_y = gt$ (where $g \approx 9.8 \text{ m/s}^2$). The graph is a straight line through the origin $(0,0)$ with a slope of $g$.
+- **When to use it:** Projectile motion problems where you need to determine vertical velocity at any instant $t$.
+- **Common trap:** Confusing the velocity-time graph (linear) with the displacement-time graph (parabolic). Ensure you account for sign conventions (up vs. down).

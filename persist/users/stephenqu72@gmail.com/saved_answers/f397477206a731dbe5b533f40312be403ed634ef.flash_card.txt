@@ -1,0 +1,8 @@
+### Front
+For a satellite in a stable circular orbit, what is the relationship between its Kinetic Energy ($K$), Gravitational Potential Energy ($U$), and Total Mechanical Energy ($E_{total}$)?
+
+### Back
+- Key idea: The Virial Theorem for circular orbits: $K = -\frac{1}{2}U$ and $E_{total} = \frac{1}{2}U$.
+- Formula / law / constant: $K = \frac{GMm}{2r}$, $U = -\frac{GMm}{r}$, $E_{total} = -\frac{GMm}{2r}$.
+- When to use it: Any calculation involving energy changes during orbital altitude adjustments or comparing energy states in circular orbits.
+- Common trap: Forgetting that $U$ is negative; as altitude increases, $r$ increases, making $U$ less negative (increasing) and $K$ decrease.

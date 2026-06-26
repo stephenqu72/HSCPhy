@@ -1,0 +1,8 @@
+### Front
+How do you calculate the ratio of parent isotope remaining to daughter product formed after $n$ half-lives?
+
+### Back
+- Key idea: Radioactive decay follows an exponential decrease; the amount of daughter product equals the amount of decayed parent.
+- Formula / law / constant / figure: $N_{remaining} = N_0(1/2)^n$; $N_{daughter} = N_0 - N_{remaining}$
+- When to use it: Any decay problem involving half-lives ($n = t/t_{1/2}$) to determine isotope ratios or sample age.
+- Common trap: Confusing the amount *remaining* with the amount *decayed* (daughter product). Always verify if the question asks for the ratio of parent:daughter or parent:total.

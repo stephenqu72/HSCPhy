@@ -1,0 +1,8 @@
+### Front
+How does surface gravity ($g$) relate to a planet’s radius ($r$) and density ($\rho$)?
+
+### Back
+- Key idea: Surface gravity is directly proportional to both density and radius ($g \propto \rho r$).
+- Formula: $g = \frac{4}{3}G\pi\rho r$
+- When to use it: When comparing the gravity of two planets where mass is not explicitly given, but density and radius/diameter are.
+- Common trap: Forgetting that volume depends on $r^3$; ensure you substitute the spherical volume formula correctly before simplifying.

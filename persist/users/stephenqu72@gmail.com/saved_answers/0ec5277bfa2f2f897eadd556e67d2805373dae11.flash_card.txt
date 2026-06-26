@@ -1,0 +1,8 @@
+### Front
+How does the angle of launch ($\theta$) affect the maximum height ($H$) of a projectile?
+
+### Back
+- **Key idea:** Maximum height is determined solely by the initial vertical velocity component ($u_y = u \sin \theta$).
+- **Formula / law / constant / figure:** $H = \frac{(u \sin \theta)^2}{2g}$
+- **When to use it:** Use when asked to maximize height or compare trajectories for a given initial velocity.
+- **Common trap:** Assuming horizontal velocity ($u_x$) contributes to height; it only influences the range and time of flight.

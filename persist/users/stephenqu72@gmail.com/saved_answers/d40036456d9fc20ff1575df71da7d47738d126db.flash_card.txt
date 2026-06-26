@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) from a radioactive decay graph showing mass over time?
+
+### Back
+- **Key idea:** The decay constant is inversely proportional to the half-life ($t_{1/2}$).
+- **Formula:** $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- **When to use it:** When determining the rate of decay given a graph or a specific half-life duration.
+- **Common trap:** Using the rounded value of $\lambda$ for subsequent calculations instead of the precise value stored in your calculator, leading to rounding errors.

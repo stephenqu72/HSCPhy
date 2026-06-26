@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total mechanical energy ($E_{total}$) of an object in a stable circular orbit, and what is its relationship to kinetic energy ($E_k$)?
+
+### Back
+- **Key idea:** Total energy is the sum of $E_k$ and $U$. In a stable circular orbit, $E_{total} = -E_k$.
+- **Formula / law:** $E_{total} = -\frac{GMm}{2r}$
+- **When to use it:** When calculating the binding energy or total work required to place a satellite into orbit at a specific radius $r$ (where $r = R_{earth} + h$).
+- **Common trap:** Forgetting that $U$ is negative; ensure $r$ is the distance from the center of the mass (Earth), not just the altitude ($h$).

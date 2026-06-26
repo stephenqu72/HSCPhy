@@ -1,0 +1,8 @@
+### Front
+How do you calculate the age of an organic sample using Carbon-14 dating?
+
+### Back
+- **Key idea:** Radioactive isotopes decay at a predictable rate defined by their half-life.
+- **Formula / law:** $N(t) = N_0(0.5)^{\frac{t}{T_{1/2}}}$; rearranged: $t = \frac{\ln(N/N_0)}{\ln(0.5)} \times T_{1/2}$
+- **When to use it:** To determine the time elapsed since an organism died based on remaining $C^{14}$ activity/mass.
+- **Common trap:** Forgetting to convert the log ratio correctly or confusing the initial and final amounts ($N/N_0$). Ensure $T_{1/2}$ for Carbon-14 is consistently used as 5730 years.

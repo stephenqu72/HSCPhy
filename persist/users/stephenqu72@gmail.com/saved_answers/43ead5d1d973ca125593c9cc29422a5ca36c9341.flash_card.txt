@@ -1,0 +1,8 @@
+### Front
+How does orbital velocity ($v$) change relative to the orbital radius ($r$) for satellites orbiting the same central body?
+
+### Back
+- Key idea: Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto \frac{1}{\sqrt{r}}$).
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: To compare speeds of satellites at different altitudes or to derive the velocity ratio $\frac{v_1}{v_2} = \sqrt{\frac{r_2}{r_1}}$.
+- Common trap: Forgetting to add the Earth’s radius ($R_E$) to the given altitude ($h$) when calculating $r$ (i.e., $r = R_E + h$).

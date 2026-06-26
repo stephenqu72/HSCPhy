@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal range of a projectile released at a height $h$ above the ground?
+
+### Back
+- Key idea: Decompose initial velocity into $v_x$ and $v_y$, then solve for time of flight ($t$) using vertical displacement, and range ($R$) using $R = v_x \times t$.
+- Formula / law: $s_y = u_y t + \frac{1}{2}a_y t^2$ and $R = v_x t$
+- When to use it: Projectile motion problems involving release heights other than ground level.
+- Common trap: Forgetting that $s_y$ is negative if the landing point is below the release point (e.g., $s_y = -1.2$ m).

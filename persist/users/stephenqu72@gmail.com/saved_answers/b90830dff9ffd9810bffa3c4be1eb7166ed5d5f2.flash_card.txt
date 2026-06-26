@@ -1,0 +1,11 @@
+### Front
+What is the relationship between the Total Energy ($E_T$), Gravitational Potential Energy ($U$), and Kinetic Energy ($K$) for an object in a circular orbit?
+
+### Back
+- **Key idea:** In a stable circular orbit, the Total Energy is equal to half the Potential Energy, and Kinetic Energy is the negative half of Potential Energy.
+- **Formula / law:** 
+  $E_T = K + U$
+  $K = -1/2 U$
+  $E_T = 1/2 U = -K$
+- **When to use it:** When calculating energy changes between different orbital radii ($r$) or determining satellite velocity/binding energy.
+- **Common trap:** Confusing "magnitude" with "value." As $r$ increases, $U$ becomes *less negative* (mathematically increases), even though the binding energy magnitude decreases.

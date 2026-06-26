@@ -1,0 +1,8 @@
+### Front
+What is the nature of the graph of Gravitational Potential Energy ($U$) versus distance ($r$) from a point mass?
+
+### Back
+- Key idea: $U$ is inversely proportional to $r$ ($U \propto -1/r$). As $r \to \infty$, $U \to 0$; as $r \to 0$, $U \to -\infty$.
+- Formula: $U = -\frac{GMm}{r}$
+- When to use it: To determine or sketch the gravitational potential energy of a system as objects move relative to one another.
+- Common trap: Forgetting the negative sign; $U$ is always negative for a bound system, and it approaches zero from below, never crossing into positive values.

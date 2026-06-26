@@ -1,0 +1,8 @@
+### Front
+A probe is launched vertically from a planet of mass $M$ and radius $R$ with a velocity equal to $2/3$ of the escape velocity ($v_e$). Derive its maximum height $h$ above the surface.
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($E_{surface} = E_{max}$).
+- **Formula / law / constant / figure:** $E_{total} = \frac{1}{2}mv^2 - \frac{GMm}{r}$ and $v_e = \sqrt{\frac{2GM}{R}}$.
+- **When to use it:** Problems involving vertical motion in a gravitational field where energy is conserved but kinetic energy is not constant.
+- **Common trap:** Forgetting to define potential energy relative to infinity (the negative sign) or neglecting to add the planet's radius ($r = R + h$) at the maximum height. Result: $h = 0.8R$.

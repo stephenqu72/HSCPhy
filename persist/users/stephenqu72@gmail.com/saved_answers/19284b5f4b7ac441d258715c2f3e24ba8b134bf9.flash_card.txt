@@ -1,0 +1,8 @@
+### Front
+For a conical pendulum, how do you determine the velocity $v$ of the mass in terms of the radius $r$, angle $\theta$, and gravitational acceleration $g$?
+
+### Back
+- Key idea: The horizontal component of tension provides the necessary centripetal force ($T \sin\theta = mv^2/r$) while the vertical component balances gravity ($T \cos\theta = mg$).
+- Formula / law / constant / figure: $v = \sqrt{rg \tan\theta}$
+- When to use it: Any circular motion problem involving a mass suspended by a string or rod at a fixed angle to the vertical.
+- Common trap: Confusing $\sin\theta$ and $\cos\theta$ components—always draw a clear free-body diagram to check which side is adjacent to the angle.

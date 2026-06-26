@@ -1,0 +1,8 @@
+### Front
+In projectile motion, how do you determine the initial horizontal velocity ($v_x$) and vertical velocity ($u_{0y}$) given the launch speed ($u$) and angle ($\theta$)?
+
+### Back
+- Key idea: Projectile motion components are independent; use vector resolution.
+- Formula: $v_x = u \cos(\theta)$ and $u_{0y} = u \sin(\theta)$.
+- When to use it: To break initial velocity into independent horizontal (constant speed) and vertical (constant acceleration) components.
+- Common trap: Swapping $\sin$ and $\cos$ (remember: "cos is adjacent to the angle"). Also, forgetting that $v_x$ is constant while $v_y$ changes due to gravity.

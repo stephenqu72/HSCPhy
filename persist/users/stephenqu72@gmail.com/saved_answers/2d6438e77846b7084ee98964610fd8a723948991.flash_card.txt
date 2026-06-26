@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal range of a projectile launched from a height ($h > 0$)?
+
+### Back
+- Key idea: Use independent vertical and horizontal components; time of flight is determined by the vertical displacement.
+- Formula / law / constant / figure: $y = u_y t + \frac{1}{2} a_y t^2$ to solve for $t$, then $x = u_x t$.
+- When to use it: Any projectile motion problem where the launch height is not equal to the landing height.
+- Common trap: Assuming the range formula $R = \frac{v^2 \sin(2\theta)}{g}$ works for non-zero heights; this formula is only for level ground.

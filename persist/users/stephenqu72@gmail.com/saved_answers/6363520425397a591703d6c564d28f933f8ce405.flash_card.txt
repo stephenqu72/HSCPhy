@@ -1,0 +1,11 @@
+### Front
+What is the formula for calculating torque on a lever, and what do the variables represent?
+
+### Back
+- **Key idea:** Torque ($\tau$) is the turning effect of a force applied at a distance from a pivot.
+- **Formula / law:** $\tau = rF \sin(\theta)$
+    - $r$: distance from pivot (m)
+    - $F$: magnitude of force (N)
+    - $\theta$: angle between force vector and lever arm.
+- **When to use it:** Whenever a force is applied at an angle to a pivot point to create rotation.
+- **Common trap:** Forgetting to convert distance to SI units (meters) or failing to use the correct angle (the angle between the lever and the force).

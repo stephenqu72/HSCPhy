@@ -1,0 +1,8 @@
+### Front
+How do you determine the total centripetal force ($F_c$) for a bob moving in a horizontal circle constrained by a string and a conical surface?
+
+### Back
+- Key idea: Sum the horizontal components of all forces acting toward the center of the circular path.
+- Formula / law / constant / figure: $F_c = \sum F_{horizontal} = T \sin \alpha + N \cos \beta$
+- When to use it: Circular motion problems involving multiple contact forces (e.g., tension + normal force) acting on an object.
+- Common trap: Forgetting to correctly resolve angles; ensure the angle used corresponds to the horizontal component (sine or cosine depending on whether the angle is with the vertical or horizontal).

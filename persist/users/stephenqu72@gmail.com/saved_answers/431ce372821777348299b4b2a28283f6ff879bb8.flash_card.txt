@@ -1,0 +1,8 @@
+### Front
+How do you determine the required charge to maintain equilibrium on a seesaw subjected to an electric field and radioactive mass loss?
+
+### Back
+- **Key idea:** Translational and rotational equilibrium requires the sum of torques to be zero ($\tau_{net} = 0$).
+- **Formula / law / constant / figure:** $\sum \tau = 0$; $m(t) = m_0(0.5)^{t/t_{1/2}}$; $F_E = q(V/d)$.
+- **When to use it:** When balancing non-conservative forces (like electric force) against gravitational forces for objects with time-varying mass.
+- **Common trap:** Forgetting to convert distance $d$ to SI units (meters) or failing to account for the half-life decay of mass before calculating gravitational force.

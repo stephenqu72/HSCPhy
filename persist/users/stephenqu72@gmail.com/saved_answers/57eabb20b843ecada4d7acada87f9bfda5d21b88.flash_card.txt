@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) given a radioactive decay graph?
+
+### Back
+- Key idea: Determine the half-life ($t_{1/2}$) from the graph first, then use the decay constant relationship.
+- Formula: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: When finding the rate of decay of a radioisotope from activity or count-rate data.
+- Common trap: Forgetting to convert the units of $t_{1/2}$ (e.g., hours or days) into SI base units (seconds) before calculating $\lambda$.

@@ -1,0 +1,8 @@
+### Front
+How do you determine an unknown mass $M$ in a system involving both static vertical equilibrium and uniform horizontal circular motion?
+
+### Back
+- Key idea: Equate the tension ($T$) acting on the static hanging mass to the centripetal force ($F_c$) required for the rotating mass.
+- Formula / law / constant / figure: $T = Mg$ and $T = \frac{mv^2}{r} \implies M = \frac{mv^2}{gr}$
+- When to use it: When a system is connected by a string where one mass hangs vertically and the other orbits horizontally.
+- Common trap: Confusing tension ($T$) with the mass ($M$) or forgetting to divide the centripetal force equation by gravity ($g$) when isolating $M$.

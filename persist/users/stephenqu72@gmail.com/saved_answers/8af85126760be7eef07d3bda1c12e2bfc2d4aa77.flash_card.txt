@@ -1,0 +1,8 @@
+### Front
+How do you determine the true activity of a radioactive sample when background radiation is present, and what is the primary assumption made?
+
+### Back
+- **Key idea:** Subtract the average background count from all total activity readings before performing analysis.
+- **Formula / law / constant / figure:** $A_{\text{corrected}} = A_{\text{total}} - A_{\text{background}}$
+- **When to use it:** When analyzing raw Geiger-Müller counter data to plot a decay curve or determine half-life.
+- **Common trap:** Forgetting that background radiation is additive; failing to subtract it before plotting leads to an incorrect decay curve and inaccurate half-life calculation.

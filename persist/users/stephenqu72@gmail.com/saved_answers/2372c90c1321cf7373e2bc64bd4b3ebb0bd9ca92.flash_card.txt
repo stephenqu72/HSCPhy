@@ -1,0 +1,8 @@
+### Front
+How do you determine the net torque on a balanced or unbalanced lever system?
+
+### Back
+- **Key idea:** Net torque ($\tau_{net}$) is the difference between the sum of clockwise moments and counter-clockwise moments about a fulcrum.
+- **Formula / law / constant:** $\tau = F \times d = m \times g \times d$. (If comparing systems with the same $g$, simply compare $\sum (m \times d)$).
+- **When to use it:** To determine the rotational equilibrium of a lever or to find the magnitude/direction of an unbalanced torque.
+- **Common trap:** Forgetting to multiply each mass by its specific perpendicular distance ($d$) from the fulcrum; ensure all distances are measured relative to the pivot point, not the ends of the beam.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the magnitude of torque ($\tau$) acting on a rotating object like a bicycle wheel?
+
+### Back
+- **Key idea:** Torque is the rotational equivalent of force, dependent on the magnitude of force and its perpendicular distance from the pivot (lever arm).
+- **Formula / law / constant / figure:** $\tau = rF\sin(\theta)$ or $\tau = r_{\perp}F$
+- **When to use it:** To calculate the turning effect of a force; use $\tau = rF$ when force is applied perpendicularly at maximum radius.
+- **Common trap:** Confusing the distance from the pivot ($r$) with the perpendicular distance ($r_{\perp}$); always ensure you use the component of force perpendicular to the radius.

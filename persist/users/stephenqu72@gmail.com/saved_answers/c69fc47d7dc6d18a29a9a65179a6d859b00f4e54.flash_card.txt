@@ -1,0 +1,8 @@
+### Front
+What are the factors that determine the orbital period ($T$) of a planet, and how is it derived?
+
+### Back
+- Key idea: Orbital period depends only on the central mass ($M$) and orbital radius ($r$); planet mass ($m$) is irrelevant.
+- Formula: $T = \sqrt{\frac{4\pi^2 r^3}{GM}}$ (Kepler’s Third Law).
+- When to use it: For circular orbits where gravitational force provides the centripetal force ($F_g = F_c$).
+- Common trap: Thinking the planet's mass ($m$) affects the period; it cancels out during derivation.

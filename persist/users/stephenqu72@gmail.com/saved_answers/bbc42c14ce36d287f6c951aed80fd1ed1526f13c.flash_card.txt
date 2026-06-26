@@ -1,0 +1,8 @@
+### Front
+How can you distinguish between a controlled and an uncontrolled nuclear chain reaction based on the fission ratio?
+
+### Back
+- **Key idea:** The multiplication factor ($k$) determines the reaction rate; $k=1$ (controlled), $k>1$ (uncontrolled).
+- **Formula / law / constant / figure:** Fission ratio = (fissions in generation $n+1$) / (fissions in generation $n$).
+- **When to use it:** When interpreting diagrams of neutron propagation or calculating reactor criticality.
+- **Common trap:** Confusing the number of *neutrons* produced with the number of *subsequent fissions* triggered; not all neutrons released cause further fission.

@@ -1,0 +1,8 @@
+### Front
+How do you experimentally determine the decay constant ($\lambda$) from radioactive decay data using a graph?
+
+### Back
+- **Key idea:** Transform the exponential decay law $N_t = N_0 e^{-\lambda t}$ into a linear form ($y = mx + c$).
+- **Formula / law / constant / figure:** $\ln(N_t/N_0) = -\lambda t$. Plot $\ln(N_t/N_0)$ vs. $t$; the decay constant $\lambda$ is the negative of the gradient ($m = -\lambda$).
+- **When to use it:** When given sets of time ($t$) and remaining quantity ($N_t$) data to linearise the relationship.
+- **Common trap:** Forgetting to negate the gradient; the slope of the line is $-\lambda$, not $\lambda$.

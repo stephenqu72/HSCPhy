@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total mechanical energy of an object in uniform circular motion at a specific height?
+
+### Back
+- Key idea: Total mechanical energy ($E_{total}$) is the sum of gravitational potential energy ($U_g$) and kinetic energy ($K$).
+- Formula / law / constant / figure: $E_{total} = mgh + \frac{1}{2}mv^2$ where $v = \frac{2\pi r}{T}$.
+- When to use it: To find energy in vertical circular motion (e.g., Ferris wheels) when mass, radius, and period are known.
+- Common trap: Forgetting to define the reference point ($h=0$) correctly; the height at the top of a wheel is the diameter ($2r$), not the radius ($r$).

@@ -1,0 +1,8 @@
+### Front
+Explain why an object on a rotating turntable eventually slides outward, and provide the formula for the centripetal acceleration involved.
+
+### Back
+- **Key idea:** Static friction provides the centripetal force. When $\omega$ increases, the required force ($F_c = mr\omega^2$) exceeds the maximum static friction ($\mu_s N$), causing the object to slide.
+- **Formula:** $a_c = r\omega^2$
+- **When to use it:** Problems involving objects on rotating platforms or banked curves where friction maintains the path.
+- **Common trap:** Forgetting that friction is a *limiting* force; the object doesn't fly "outward" due to centrifugal force, but due to insufficient centripetal force.

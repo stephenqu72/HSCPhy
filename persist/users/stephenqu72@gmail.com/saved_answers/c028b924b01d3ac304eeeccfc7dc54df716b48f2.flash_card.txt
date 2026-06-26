@@ -1,0 +1,8 @@
+### Front
+What physical principle explains why a planet’s orbital speed increases as it moves closer to the Sun (Kepler’s Second Law)?
+
+### Back
+- **Key idea:** Conservation of angular momentum and conservation of total mechanical energy.
+- **Formula / law / constant / figure:** $\tau = 0 \implies L = mvr \sin\theta = \text{constant}$; $E_{total} = U_g + K = \text{constant}$.
+- **When to use it:** When analyzing orbital motion, changes in velocity at perihelion/aphelion, or elliptical orbit dynamics.
+- **Common trap:** Confusing Kepler’s Second Law (equal areas/variable speed) with Kepler’s Third Law ($T^2 \propto r^3$). Remember: the planet does not maintain constant speed.

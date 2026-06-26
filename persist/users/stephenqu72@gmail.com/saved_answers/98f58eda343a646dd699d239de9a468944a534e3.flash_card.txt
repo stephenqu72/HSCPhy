@@ -1,0 +1,8 @@
+### Front
+Why do electrons follow different paths in uniform electric fields versus magnetic fields?
+
+### Back
+- **Key idea:** In an electric field, the force is constant in direction, causing constant acceleration (parabolic path). In a magnetic field, the force is always perpendicular to velocity, providing centripetal acceleration (circular path).
+- **Formula / law:** $F_E = qE$ vs $F_B = qvB\sin\theta$
+- **When to use it:** When explaining particle deflection or comparing the nature of electric vs magnetic forces on charged particles.
+- **Common trap:** Assuming the magnetic force changes the particle's speed; it only changes direction because the work done by the magnetic field is zero ($W = F \cdot d \cos90^\circ = 0$).

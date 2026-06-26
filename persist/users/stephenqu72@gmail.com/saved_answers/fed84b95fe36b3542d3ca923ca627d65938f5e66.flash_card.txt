@@ -1,0 +1,8 @@
+### Front
+Why does a car in an inner lane have a higher centripetal acceleration than a car in an outer lane traveling at the same speed, and how can road design increase safe speeds?
+
+### Back
+- Key idea: Centripetal acceleration is inversely proportional to radius ($a \propto 1/r$); banking provides a horizontal component of the normal force to assist with centripetal requirements.
+- Formula / law: $a_c = \frac{v^2}{r}$ and $F_{net, horizontal} = N \sin(\theta)$
+- When to use it: Circular motion problems involving vehicles on curves or roundabouts.
+- Common trap: Assuming speed is constant means acceleration is zero; remember that circular motion *always* involves acceleration due to the change in velocity direction.

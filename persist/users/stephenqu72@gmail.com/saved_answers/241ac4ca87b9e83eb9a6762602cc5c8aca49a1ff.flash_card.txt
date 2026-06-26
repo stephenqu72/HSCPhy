@@ -1,0 +1,8 @@
+### Front
+How do you calculate centripetal acceleration ($a_c$) when given the rotational frequency ($f$) and radius ($r$)?
+
+### Back
+- Key idea: Centripetal acceleration is proportional to the square of the angular velocity.
+- Formula / law / constant / figure: $a_c = \omega^2 r$ where $\omega = 2\pi f$.
+- When to use it: Circular motion problems involving rotation rates in Hz or rotations per second.
+- Common trap: Forgetting to convert diameter to radius, or using linear velocity ($v$) when only frequency ($f$) is provided.

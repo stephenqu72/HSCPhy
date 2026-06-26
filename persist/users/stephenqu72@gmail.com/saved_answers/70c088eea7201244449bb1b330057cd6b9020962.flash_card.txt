@@ -1,0 +1,8 @@
+### Front
+How is horizontal range ($\Delta x$) related to time of flight ($t$) for a projectile launched from ground level?
+
+### Back
+- Key idea: The range follows an inverted parabolic relationship with time as the launch angle increases from $0^\circ$ to $90^\circ$.
+- Formula / law / constant / figure: $\Delta x = \sqrt{v^2 t^2 - \frac{g^2 t^4}{4}}$; Graph: A symmetric curve starting and ending at the $t$-axis.
+- When to use it: When analyzing projectile motion graphs where the launch angle is the independent variable.
+- Common trap: Assuming range increases linearly with time; remember that as $t$ increases (higher $\theta$), the horizontal velocity component $v_x$ decreases.

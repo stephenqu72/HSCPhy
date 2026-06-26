@@ -1,0 +1,8 @@
+### Front
+What is the primary purpose of a split-ring commutator in a DC generator?
+
+### Back
+- Key idea: Rectification; it reverses the external circuit connections every half-rotation to ensure the output current flows in only one direction (DC).
+- Formula / law / constant / figure: Faraday’s Law of Induction ($\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$).
+- When to use it: Whenever a question asks how a DC generator produces a unidirectional output from an AC-inducing coil.
+- Common trap: Thinking the commutator "smooths" the current or increases the output voltage; it only rectifies the direction.

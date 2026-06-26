@@ -1,0 +1,8 @@
+### Front
+How do you determine if a small object’s circular orbit around a larger space station is caused by their mutual gravitational attraction?
+
+### Back
+- **Key idea:** Compare the required centripetal force ($F_c$) to the gravitational force ($F_g$) between the two objects.
+- **Formula / law / constant / figure:** $F_c = \frac{mv^2}{r}$ and $F_g = \frac{GMm}{r^2}$; $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** When testing the hypothesis that gravity accounts for the circular motion of two masses in close proximity.
+- **Common trap:** Assuming gravity is the primary force for circular motion in local space maneuvers; usually, the actual required $F_c$ is much larger than the tiny $F_g$, implying active propulsion is required.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum height ($h_{max}$) of a projectile launched on level ground given its initial vertical velocity ($u_y$) and time to peak ($t_{up}$)?
+
+### Back
+- **Key idea:** The maximum height occurs when vertical velocity equals zero, representing the area under the vertical velocity-time graph.
+- **Formula:** $h_{max} = \frac{u_y t_{up}}{2}$ (or $h_{max} = \frac{u_y^2}{2g}$)
+- **When to use it:** When calculating peak displacement in a symmetrical projectile motion path.
+- **Common trap:** Forgetting to use only the vertical component ($u \sin\theta$) instead of total initial velocity ($u$). If the landing site is not at the same height as the launch, $t_{up} \neq \frac{1}{2} T$.

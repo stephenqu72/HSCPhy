@@ -1,0 +1,8 @@
+### Front
+What are the three mandatory conditions for a satellite to be in a geostationary orbit?
+
+### Back
+- **Key idea:** The satellite must appear fixed above a point on the Earth's surface.
+- **Formula / law / constant / figure:** Kepler’s Third Law ($T^2 \propto r^3$) defines the specific altitude ($\approx 36,000\text{ km}$) for a $24$-hour period.
+- **When to use it:** When asked to explain the requirements for a satellite to remain stationary relative to Earth (e.g., for communications).
+- **Common trap:** Forgetting to state the orbital plane must be equatorial; if the orbit is inclined, the satellite will trace a "figure-eight" (analemma) pattern relative to the ground.

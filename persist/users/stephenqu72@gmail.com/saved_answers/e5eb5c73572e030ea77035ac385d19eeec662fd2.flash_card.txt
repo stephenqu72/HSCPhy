@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the frequency ($f$) of a conical pendulum of radius $r$ and angle $\theta$ to the vertical.
+
+### Back
+- Key idea: The vertical component of tension balances weight, and the horizontal component provides centripetal force ($T\sin\theta = mr(2\pi f)^2$).
+- Formula: $f = \frac{1}{2\pi} \sqrt{\frac{g \tan \theta}{r}}$
+- When to use it: Any uniform circular motion problem involving an object suspended by a string (conical pendulum).
+- Common trap: Confusing the angle $\theta$ with the angle to the horizontal; ensure $\tan \theta$ is derived from $T\sin\theta/T\cos\theta$ where $\theta$ is the angle to the vertical.

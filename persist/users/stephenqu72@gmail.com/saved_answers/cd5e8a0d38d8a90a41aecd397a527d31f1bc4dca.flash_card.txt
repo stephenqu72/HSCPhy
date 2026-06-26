@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of a radioactive substance that has **decayed** after a specific time $t$, given initial mass $N_0$ and half-life $t_{1/2}$?
+
+### Back
+- **Key idea:** The amount decayed is the initial mass minus the mass remaining.
+- **Formula / law / constant / figure:** $N_{decayed} = N_0 - N_0(0.5)^{\frac{t}{t_{1/2}}}$
+- **When to use it:** Whenever a question asks for the "amount decayed" rather than the "amount remaining."
+- **Common trap:** Stopping the calculation after finding the remaining mass ($N_t$) instead of subtracting it from the initial mass ($N_0$).

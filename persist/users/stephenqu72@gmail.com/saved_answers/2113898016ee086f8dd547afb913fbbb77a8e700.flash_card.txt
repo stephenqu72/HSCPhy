@@ -1,0 +1,8 @@
+### Front
+What is the formula for the "critical" or "design" speed of a vehicle on a banked circular track, and what variables does it depend on?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the required centripetal force without the need for friction.
+- Formula: $v = \sqrt{rg \tan\theta}$
+- When to use it: To calculate the speed at which a vehicle can negotiate a banked turn solely due to the track's geometry.
+- Common trap: The mass of the vehicle ($m$) cancels out and does not affect the critical speed. Friction is ignored in this specific design case.

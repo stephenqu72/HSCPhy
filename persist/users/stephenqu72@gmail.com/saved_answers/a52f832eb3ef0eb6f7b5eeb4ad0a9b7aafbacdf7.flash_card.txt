@@ -1,0 +1,8 @@
+### Front
+In a circuit where current splits into two parallel branches of $10 \, \Omega$ and $5 \, \Omega$, how does the current through each resistor compare?
+
+### Back
+- Key idea: Current in a parallel circuit is inversely proportional to resistance ($I \propto 1/R$).
+- Formula / law: Ohm's Law ($V=IR$) and Kirchhoff’s Current Law ($\sum I_{in} = \sum I_{out}$).
+- When to use it: Whenever a circuit splits into parallel branches to determine current distribution.
+- Common trap: Assuming current splits equally regardless of the resistance of the branches. Always calculate branch ratios ($I_1/I_2 = R_2/R_1$).

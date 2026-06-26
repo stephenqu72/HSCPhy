@@ -1,0 +1,8 @@
+### Front
+How can the acceleration due to gravity ($g$) be determined from a projectile motion experiment involving a ball dropped from a desk?
+
+### Back
+- Key idea: Use a position-time graph to derive $g$ from the vertical displacement equation.
+- Formula / law / constant / figure: $\Delta y = \frac{1}{2}gt^2$. Plot $\Delta y$ vs $t^2$; gradient $= \frac{1}{2}g$.
+- When to use it: Any experiment tracking vertical motion over time intervals to find acceleration.
+- Common trap: Forgetting that the gradient is equal to $\frac{1}{2}g$, not $g$ itself; failing to account for parallax error in measurements.

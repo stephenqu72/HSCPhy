@@ -1,0 +1,8 @@
+### Front
+How do you reduce the impact of human reaction time error when timing a simple pendulum?
+
+### Back
+- Key idea: Measuring multiple oscillations ($n$) and dividing the total time by $n$ minimizes the relative percentage error.
+- Formula / law / constant / figure: $T = \frac{t_{total}}{n}$ (where $T = 2\pi \sqrt{L/g}$)
+- When to use it: Any timing experiment where manual reaction time is the dominant source of random error.
+- Common trap: Assuming higher precision equipment (e.g., nanosecond stopwatch) reduces error; it does not eliminate the human reaction lag.

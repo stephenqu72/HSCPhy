@@ -1,0 +1,8 @@
+### Front
+How do you derive the expression for the acceleration due to gravity ($g$) on a planet's surface?
+
+### Back
+- **Key idea:** Equate the gravitational force ($F = \frac{GMm}{r^2}$) with the weight of an object ($F = mg$).
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; $G \approx 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$
+- **When to use it:** To calculate the gravitational field strength at a specific distance ($r$) from the center of a celestial body.
+- **Common trap:** Using the planet's **diameter** instead of the **radius** ($r$) for the calculation.

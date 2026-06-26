@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force required to produce a specific torque when applied at an angle?
+
+### Back
+- **Key idea:** Torque is the rotational equivalent of force; only the perpendicular component of the force contributes to rotation.
+- **Formula:** $\tau = rF\sin(\theta)$, rearranged to $F = \frac{\tau}{r\sin(\theta)}$
+- **When to use it:** When solving static equilibrium problems involving levers, spanners, or pivoting objects.
+- **Common trap:** Forgetting to convert distance ($r$) to SI units (metres) or confusing the angle $\theta$ (the angle between the force vector and the lever arm).

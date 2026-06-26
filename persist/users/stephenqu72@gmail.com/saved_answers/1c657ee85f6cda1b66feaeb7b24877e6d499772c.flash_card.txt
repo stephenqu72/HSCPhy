@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum height ($H$) of a projectile launched at an angle $\theta$ without knowing the time of flight?
+
+### Back
+- Key idea: At maximum height, the vertical velocity component ($v_y$) is zero.
+- Formula / law / constant: $v_y^2 = u_y^2 + 2a_y\Delta y$, where $u_y = v \sin(\theta)$ and $a_y = -9.8\text{ ms}^{-2}$.
+- When to use it: Use the "v-square" kinematic equation when displacement is required but time is unknown.
+- Common trap: Using the total initial velocity ($v$) instead of the vertical component ($u_y = v \sin\theta$) in the kinematic equation.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force required to maintain a limb in static rotational equilibrium?
+
+### Back
+- Key idea: Principle of Moments (Torque).
+- Formula / law: $\sum \tau_{\text{clockwise}} = \sum \tau_{\text{counter-clockwise}}$ where $\tau = Fd\sin\theta$.
+- When to use it: When an object is stationary and acted upon by multiple forces at varying distances from a pivot.
+- Common trap: Failing to measure all distances from the **same** pivot point or forgetting to convert all units to be consistent (e.g., mm to m).

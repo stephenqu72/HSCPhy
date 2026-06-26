@@ -1,0 +1,8 @@
+### Front
+What is the "design speed" of a banked track, and which force component provides the necessary centripetal force?
+
+### Back
+- Key idea: At design speed, the horizontal component of the normal force provides all required centripetal force, removing the need for friction.
+- Formula: $v = \sqrt{rg \tan \theta}$ (derived from $\tan \theta = \frac{v^2}{rg}$)
+- When to use it: To calculate the ideal speed for a car to corner on a banked track without relying on friction.
+- Common trap: Assuming the normal force ($N$) *is* the centripetal force; it is actually the *horizontal component* ($N \sin \theta$) that acts as the centripetal force.

@@ -1,0 +1,8 @@
+### Front
+What independent physical variables determine the horizontal range ($R$) of a projectile launched from an initial height $h > 0$?
+
+### Back
+- Key idea: Range is the product of constant horizontal velocity ($v_x$) and total time of flight ($t$), both of which are constrained by initial conditions.
+- Formula / law / constant / figure: $R = (v_0 \cos \theta) \times t$, where $t$ is derived from $-h = (v_0 \sin \theta)t - \frac{1}{2}gt^2$. No fixed constant.
+- When to use it: Any kinematics problem involving projectiles launched from an elevated position ($h > 0$).
+- Common trap: Ignoring $h$ and assuming the symmetrical range formula $R = \frac{v_0^2 \sin 2\theta}{g}$, which only applies when the launch and landing heights are identical.

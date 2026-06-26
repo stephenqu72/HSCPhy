@@ -1,0 +1,8 @@
+### Front
+For a projectile launched horizontally from height $h$, what variables must be plotted to produce a linear graph of the horizontal range $s_x$?
+
+### Back
+- Key idea: Since $s_x \propto \sqrt{h}$, squaring the range linearises the relationship against height.
+- Formula / law: $s_x^2 = \left( \frac{2u_x^2}{g} \right) h$
+- When to use it: To linearise experimental data for horizontal projectiles to determine $g$ or initial velocity $u_x$.
+- Common trap: Plotting $s_x$ vs $h$ instead of $s_x^2$ vs $h$, which results in a parabolic curve rather than a straight line.

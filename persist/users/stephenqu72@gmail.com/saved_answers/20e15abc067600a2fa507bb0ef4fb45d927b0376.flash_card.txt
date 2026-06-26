@@ -1,0 +1,8 @@
+### Front
+How can you linearize the relationship between frequency ($f$) and mass ($m$) for a mass-spring system ($f = \frac{1}{2\pi} \sqrt{\frac{k}{m}}$)?
+
+### Back
+- **Key idea:** To linearize a power-law relationship, identify the independent variable ($x$) that makes the equation take the form $y = mx$.
+- **Formula:** Plot $f$ on the $y$-axis and $\frac{1}{\sqrt{m}}$ on the $x$-axis. The gradient will be $\frac{\sqrt{k}}{2\pi}$.
+- **When to use it:** Whenever a variable is inside a square root or denominator and you need to determine a physical constant (like $k$) from a line of best fit.
+- **Common trap:** Assuming a direct plot of $f$ vs $m$ is linear; it is actually an inverse square-root relationship (a curve).

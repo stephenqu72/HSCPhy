@@ -1,0 +1,8 @@
+### Front
+How do you determine an unknown force ($F$) from a torque ($\tau$) vs. $\sin(\theta)$ graph?
+
+### Back
+- Key idea: The gradient ($m$) of a $\tau$ vs. $\sin(\theta)$ graph represents the product of the lever arm and the applied force ($rF$).
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$; Gradient $m = rF$.
+- When to use it: When given a linear plot of torque against the sine of the angle to find an unknown force or length.
+- Common trap: Forgetting to convert units (e.g., cm to m) before calculating the force from the gradient.

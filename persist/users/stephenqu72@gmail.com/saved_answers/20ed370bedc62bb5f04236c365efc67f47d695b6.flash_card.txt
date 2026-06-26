@@ -1,0 +1,8 @@
+### Front
+How does an observer moving at relativistic speeds relative to an event measure the time interval ($\Delta t$) compared to the proper time ($\Delta t_0$)?
+
+### Back
+- Key idea: Time dilation; time passes more slowly in a moving reference frame.
+- Formula / law / constant / figure: $\Delta t = \gamma \Delta t_0$, where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- When to use it: When an event occurs in a frame moving at a significant fraction of the speed of light ($v > 0.1c$).
+- Common trap: Confusing $\Delta t$ (dilated time) with $\Delta t_0$ (proper time); always ensure $\Delta t_0$ is the time measured in the frame where the start and end points of the event occur at the same location.

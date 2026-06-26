@@ -1,0 +1,8 @@
+### Front
+What condition must be met for a standing wave to form on a string fixed at both ends?
+
+### Back
+- **Key idea:** The wave frequency must be an integer multiple ($n$) of the fundamental frequency ($f_1$).
+- **Formula / law:** $f_n = n \times \frac{v}{2L}$ (where $n = 1, 2, 3...$) or $L = n\frac{\lambda}{2}$.
+- **When to use it:** To determine if a specific frequency or wavelength will result in resonance/standing waves on a fixed-boundary medium.
+- **Common trap:** Forgetting that $n$ must be an integer; a non-integer ratio (like 2.25) means the wave will not form a stable standing wave pattern.

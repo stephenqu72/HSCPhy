@@ -1,0 +1,8 @@
+### Front
+In projectile motion (no air resistance) where launch and impact heights are equal, how does the kinetic energy ($K$) at launch compare to $K$ at impact?
+
+### Back
+- Key idea: Total mechanical energy is conserved in a closed system; since potential energy ($U$) is identical at equal heights, kinetic energy must be equal.
+- Formula / law: Conservation of Mechanical Energy: $E_{total} = K + U = \text{constant}$.
+- When to use it: Any projectile motion problem where $h_{start} = h_{end}$.
+- Common trap: Assuming $K=0$ at the peak (point $Y$); the object retains horizontal velocity ($v_x$).

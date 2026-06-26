@@ -1,0 +1,8 @@
+### Front
+How does orbital radius ($r$) affect a satellite's velocity ($v$), period ($T$), and centripetal acceleration ($a_c$)?
+
+### Back
+- Key idea: Larger $r$ results in lower velocity, longer period, and lower acceleration.
+- Formula / law / constant: $v = \sqrt{\frac{GM}{r}}$, $T^2 \propto r^3$, $a_c = \frac{GM}{r^2}$.
+- When to use it: Any problem comparing two satellites orbiting the same central mass.
+- Common trap: Assuming higher altitude means higher speed; remember that gravity weakens with distance, so satellites further out must travel slower to maintain orbit.

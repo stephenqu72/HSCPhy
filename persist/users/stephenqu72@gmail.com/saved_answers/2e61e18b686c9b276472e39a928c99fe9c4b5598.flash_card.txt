@@ -1,0 +1,8 @@
+### Front
+For two objects in uniform circular motion sharing the same period ($T$), how do the ratios of their speeds ($v$) and centripetal forces ($F_c$) relate to their radii ($r$) and masses ($m$)?
+
+### Back
+- **Key idea:** With constant period $T$, angular velocity ($\omega$) is identical for both objects. Speed is directly proportional to radius, and centripetal force is proportional to the product of mass and radius.
+- **Formula / law / constant / figure:** $v = \frac{2\pi r}{T}$ and $F_c = m\omega^2r$. 
+- **When to use it:** When comparing two objects rotating on the same apparatus (e.g., a rotating rod or centrifuge) where they complete revolutions in the same time.
+- **Common trap:** Using $F_c = \frac{mv^2}{r}$ instead of $F_c = m\omega^2r$. Using $\omega^2$ makes the math much simpler when the period is fixed.

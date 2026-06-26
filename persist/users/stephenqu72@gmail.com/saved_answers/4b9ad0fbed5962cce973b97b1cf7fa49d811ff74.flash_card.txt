@@ -1,0 +1,8 @@
+### Front
+How does gravitational field strength ($g$) change as distance from the centre of a planet ($r$) increases?
+
+### Back
+- **Key idea:** Gravitational field strength follows the inverse-square law; as distance from the centre doubles, field strength drops to one-quarter.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$ (Newton’s Law of Universal Gravitation).
+- **When to use it:** To calculate the acceleration due to gravity at any point outside a spherical mass.
+- **Common trap:** Forgetting to add the planet's radius ($R$) to the altitude ($h$) to find the total distance from the centre ($r = R + h$).

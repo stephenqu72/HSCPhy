@@ -1,0 +1,8 @@
+### Front
+In a binary star system, what is the relationship between the orbital radii ($r_1, r_2$) and the masses ($M_1, M_2$) of the stars, and why is the centripetal force magnitude equal for both?
+
+### Back
+- **Key idea:** Stars orbit a common barycenter; the gravitational force is mutual (Newton’s 3rd Law).
+- **Formula / law:** $M_1 r_1 = M_2 r_2$ (derived from $F_{c1} = F_{c2} = F_g$).
+- **When to use it:** Solving binary orbital problems to find the location of the center of mass or relative orbital distances.
+- **Common trap:** Confusing the distance from the barycenter ($r$) with the total separation distance ($d = r_1 + r_2$). Always ensure units are converted to SI (metres).

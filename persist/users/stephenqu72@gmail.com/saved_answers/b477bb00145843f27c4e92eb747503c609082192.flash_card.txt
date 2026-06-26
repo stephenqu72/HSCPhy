@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial launch velocity ($v$) of a projectile given its range ($R$) and maximum height ($y_{max}$)?
+
+### Back
+- **Key idea:** Decompose motion into independent horizontal ($v_x$) and vertical ($v_{0y}$) components, then combine them using the Pythagorean theorem.
+- **Formula / law / constant:** $v_{0y} = \sqrt{2gy_{max}}$, $t_{flight} = \frac{2v_{0y}}{g}$, $v_x = \frac{R}{t_{flight}}$, $v = \sqrt{v_x^2 + v_{0y}^2}$.
+- **When to use it:** When given position data (graph/coordinates) of a symmetrical projectile flight.
+- **Common trap:** Forgetting to double the time to peak ($t_{peak}$) to get the total time of flight ($T$) before solving for $v_x$.

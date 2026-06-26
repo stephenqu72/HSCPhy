@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), what are the vertical and horizontal components of acceleration, and what is the velocity at the peak (apex) of the trajectory?
+
+### Back
+- **Key idea:** Horizontal and vertical motions are independent. Horizontal velocity ($v_x$) is constant; vertical velocity ($v_y$) changes due to gravity.
+- **Formula / law / constant / figure:** $a_x = 0$; $a_y = g \approx 9.8 \text{ m/s}^2$ (downwards). At apex, $v_y = 0$, so $v_{total} = v_x \neq 0$.
+- **When to use it:** Any projectile motion problem requiring vector analysis of velocity or acceleration at specific points in a trajectory.
+- **Common trap:** Assuming velocity is zero at the apex. While $v_y = 0$ at the peak, the projectile still maintains its constant horizontal velocity.

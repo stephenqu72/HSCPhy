@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of gravitational potential energy ($U$) between two points at different distances ($r$) from the center of a mass?
+
+### Back
+- **Key idea:** Gravitational potential energy is inversely proportional to distance: $U \propto \frac{1}{r}$.
+- **Formula / law:** $U = -\frac{GMm}{r}$
+- **When to use it:** To compare potential energy at different positions in a radial gravitational field.
+- **Common trap:** Forgetting the negative sign; since $U$ is negative, a point closer to the mass (smaller $r$) has a larger magnitude of energy but a *smaller* (more negative) value. Always check the ratio $U_x/U_y = r_y/r_x$.

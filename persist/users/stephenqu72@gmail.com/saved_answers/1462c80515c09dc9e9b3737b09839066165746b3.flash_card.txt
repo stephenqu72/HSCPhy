@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) of a force applied at an angle to a lever arm?
+
+### Back
+- **Key idea:** Only the component of force perpendicular to the lever arm creates torque.
+- **Formula:** $\tau = rF\sin(\theta)$, where $\theta$ is the angle between the radial vector $r$ and the force vector $F$.
+- **When to use it:** When a force is applied at an angle to an object pivoted at a specific axis ($O$).
+- **Common trap:** Confusing the angle $\theta$ (between $r$ and $F$) with the angle relative to the perpendicular; ensure you use $\sin(\theta)$ only if $\theta$ is the angle between the radial arm and the force vector.

@@ -1,0 +1,8 @@
+### Front
+How do you identify a wheel slowing down on an angular velocity ($\omega$) vs. time ($t$) graph?
+
+### Back
+- Key idea: The magnitude of angular velocity $| \omega |$ must be decreasing over time towards zero.
+- Formula / law / constant / figure: $\alpha = \frac{\Delta\omega}{\Delta t}$ (where $\alpha$ opposes the direction of $\omega$).
+- When to use it: When identifying rotational motion trends or deceleration from motion graphs.
+- Common trap: Mistaking a negative value for "slowing down"—a wheel speeding up in the negative direction has a negative $\omega$ value that is moving *further* from zero.

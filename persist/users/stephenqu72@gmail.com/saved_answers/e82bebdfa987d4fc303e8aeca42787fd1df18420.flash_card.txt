@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released in a nuclear fission reaction given the masses of reactants and products?
+
+### Back
+- Key idea: Mass-energy equivalence ($E = \Delta mc^2$).
+- Formula / law / constant / figure: $\Delta m = (\sum m_{\text{reactants}}) - (\sum m_{\text{products}})$; $E = \Delta mc^2$. Use $1 \text{ amu} \approx 1.66 \times 10^{-27} \text{ kg}$.
+- When to use it: Whenever calculating the energy yield of a specific nuclear reaction.
+- Common trap: Forgetting to account for all particles in the product side (e.g., forgetting the 3 neutrons produced in U-235 fission) or using the wrong unit for mass (must be converted to kg before using $c^2$).

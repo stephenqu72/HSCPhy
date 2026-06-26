@@ -1,0 +1,8 @@
+### Front
+What is the formula for the banking angle $\theta$ of a frictionless track to maintain circular motion at velocity $v$ and radius $r$?
+
+### Back
+- Key idea: The horizontal component of the Normal force provides the centripetal force ($N \sin \theta = mv^2/r$).
+- Formula / law / constant / figure: $\tan \theta = \frac{v^2}{rg}$
+- When to use it: Circular motion on a banked curve where friction is negligible or ignored.
+- Common trap: Forgetting to convert velocity from km/h to m/s (divide by 3.6) and misidentifying $r$ as the width of the track rather than the distance from the centre of the circle.

@@ -1,0 +1,8 @@
+### Front
+How does the diameter of a horizontally projected spray pattern relate to the initial exit velocity of the water?
+
+### Back
+- Key idea: The time of flight ($t$) is constant; therefore, the horizontal displacement ($d$) is directly proportional to the initial velocity ($v$).
+- Formula / law / constant / figure: $d = 2(v \cdot \sqrt{2h/g}) \Rightarrow d \propto v$
+- When to use it: When analyzing projectile motion problems where height and gravity remain constant.
+- Common trap: Forgetting that the "spray angle" is $2\theta$ (the full cone vertex angle), not just the angle $\theta$ relative to the central vertical axis.

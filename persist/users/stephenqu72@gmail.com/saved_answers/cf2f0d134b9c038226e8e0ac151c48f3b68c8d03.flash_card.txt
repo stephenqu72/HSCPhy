@@ -1,0 +1,8 @@
+### Front
+What are the three mandatory requirements for a satellite to maintain a geostationary orbit?
+
+### Back
+- Key idea: The satellite must remain fixed relative to a point on Earth's surface.
+- Formula / law / constant / figure: Orbital Period ($T$) = 24 hours (specifically 23h 56m); Orbital Plane = Equator; Direction = West to East (prograde).
+- When to use it: When identifying orbital characteristics or calculating orbital radius using $r^3/T^2 = GM/4\pi^2$.
+- Common trap: Assuming a polar orbit can be geostationary; polar orbits are useful for global scanning, not fixed-point communication.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time of flight for a projectile launched horizontally from a height ($h$)?
+
+### Back
+- Key idea: Vertical and horizontal motions are independent; initial vertical velocity ($u_y$) is zero.
+- Formula / law / constant / figure: $h = \frac{1}{2}gt^2$ (derived from $s_y = u_yt + \frac{1}{2}a_yt^2$)
+- When to use it: When given vertical displacement and asked for time in horizontal projectile motion.
+- Common trap: Using the horizontal velocity in the vertical displacement equation or forgetting that $u_y = 0$.

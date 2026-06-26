@@ -1,0 +1,9 @@
+### Front
+How do you calculate the range ($R$) of a projectile launched and landing on level ground, given initial velocity ($v$), angle ($\theta$), and gravity ($g$)?
+
+### Back
+- **Key idea:** Range is the product of constant horizontal velocity ($v_x$) and total time of flight ($T$).
+- **Formula / law / constant / figure:** 
+  $v_x = v \cos\theta$; $T = \frac{2v \sin\theta}{g}$; $R = v_x \times T$
+- **When to use it:** When the projectile lands at the same vertical height as the launch point.
+- **Common trap:** Forgetting to double the "time to maximum height" to get the total time of flight ($T$).

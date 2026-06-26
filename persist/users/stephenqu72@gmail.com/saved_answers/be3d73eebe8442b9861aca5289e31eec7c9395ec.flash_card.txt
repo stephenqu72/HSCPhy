@@ -1,0 +1,8 @@
+### Front
+How do you calculate the work done ($W$) on a point charge ($q$) moving a distance ($\Delta d$) within a uniform electric field created by parallel plates ($V_{total}$, $d_{total}$)?
+
+### Back
+- **Key idea:** Work is the energy gained/lost by a charge moving through a potential difference ($\Delta V$).
+- **Formula:** $W = q \Delta V$, where $\Delta V = E \cdot \Delta d$ and $E = \frac{V_{total}}{d_{total}}$. Combined: $W = q \cdot (\frac{V_{total}}{d_{total}}) \cdot \Delta d$.
+- **When to use it:** When calculating the energy change of a charged particle between parallel plates.
+- **Common trap:** Using the total distance between plates ($d_{total}$) in the work formula instead of the specific distance moved ($\Delta d$).

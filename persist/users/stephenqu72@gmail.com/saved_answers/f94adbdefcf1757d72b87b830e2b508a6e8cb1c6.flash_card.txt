@@ -1,0 +1,8 @@
+### Front
+How do you derive the orbital radius ($r$) of a geostationary satellite, and what is the formula for the change in its gravitational potential energy ($\Delta U$)?
+
+### Back
+- **Key idea:** Equating centripetal force to gravitational force ($F_c = F_g$) determines orbital radius; $\Delta U$ is the difference between final and initial potential energy positions.
+- **Formula:** $r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$ and $\Delta U = GMm \left( \frac{1}{r_i} - \frac{1}{r_f} \right)$
+- **When to use it:** Solving for satellite orbital mechanics or energy requirements for placing objects in orbit.
+- **Common trap:** Forgetting to convert the orbital period ($T$) into seconds ($86,400\text{ s}$) or failing to use the distance from the **centre of the Earth** rather than the altitude above the surface.

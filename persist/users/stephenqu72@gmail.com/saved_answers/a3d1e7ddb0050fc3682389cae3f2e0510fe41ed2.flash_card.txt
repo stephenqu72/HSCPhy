@@ -1,0 +1,8 @@
+### Front
+How do you relate the orbital radius ($r$) and orbital period ($T$) of two satellites orbiting the same central body?
+
+### Back
+- Key idea: Kepler’s Third Law states that the ratio $T^2/r^3$ is constant for all satellites of the same central mass.
+- Formula / law / constant / figure: $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$
+- When to use it: Whenever comparing the orbital motion of two objects (e.g., planets or satellites) around the same primary body.
+- Common trap: Forgetting to cube the radius and square the period; ensure units for $T$ and $r$ are consistent for both objects.

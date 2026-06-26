@@ -1,0 +1,8 @@
+### Front
+How does the power loss ($P_{loss}$) in a transmission line relate to the current ($I$) and what is the governing formula?
+
+### Back
+- Key idea: Power loss is directly proportional to the square of the current ($P_{loss} \propto I^2$).
+- Formula / law / constant / figure: $P_{loss} = I^2 R$ (Joule heating).
+- When to use it: To calculate energy dissipation in a wire or explain why high-voltage transmission minimizes power loss.
+- Common trap: Confusing $P = I^2R$ (power loss in the wire) with $P = VI$ (total power delivered to the load).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the linear distance ($s$) travelled by a point on the rim of a rotating object given its radius ($r$) and total angular displacement ($\theta$)?
+
+### Back
+- Key idea: Linear distance is the arc length traced by the radius through a given angle.
+- Formula: $s = r\theta$ (where $\theta$ is in radians).
+- When to use it: To convert rotational kinematics (angular displacement) into linear displacement.
+- Common trap: Forgetting to convert degrees to radians if the angle is not provided in radians.

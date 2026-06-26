@@ -1,0 +1,8 @@
+### Front
+Why must a geostationary satellite orbit directly above the Earth's equator?
+
+### Back
+- Key idea: The satellite's orbital plane must coincide with the Earth's equatorial plane so that the gravitational force (directed toward Earth's center) provides the centripetal force required to maintain a fixed position relative to the surface.
+- Formula / law / constant / figure: Law of Universal Gravitation ($F_g = \frac{GMm}{r^2}$) providing the centripetal force ($F_c = mr\omega^2$).
+- When to use it: Any question regarding satellite orbits, geostationary requirements, or orbital period/radius calculations.
+- Common trap: Confusing orbital radius ($r$) with altitude ($h$). Always remember $r = h + R_E$.

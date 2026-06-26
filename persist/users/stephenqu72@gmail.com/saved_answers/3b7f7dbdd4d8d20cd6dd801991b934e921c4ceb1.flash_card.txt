@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital radius ($r$) of a satellite when given the orbital period ($T$) and the mass of the central body ($M$)?
+
+### Back
+- Key idea: Equating gravitational force to centripetal force ($F_g = F_c$).
+- Formula: $r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$ (derived from Kepler’s Third Law).
+- When to use it: To find orbital radius or altitude when period is provided.
+- Common trap: Failing to convert the period ($T$) into seconds or forgetting to add the Earth's radius if asked for "altitude" (height above surface).

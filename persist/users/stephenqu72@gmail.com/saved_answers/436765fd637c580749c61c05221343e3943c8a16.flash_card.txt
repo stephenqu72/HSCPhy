@@ -1,0 +1,8 @@
+### Front
+How does using a spanner facilitate the removal of a tight nut in terms of torque?
+
+### Back
+- Key idea: Increasing the radial distance ($r$) from the pivot point increases the torque ($\tau$) for a constant applied force ($F$).
+- Formula / law / constant / figure: $\tau = F \cdot r \cdot \sin(\theta)$ (Principle of Moments).
+- When to use it: Any problem involving levers, pivots, or rotational effects of force.
+- Common trap: Forgetting that the force must be applied perpendicular to the spanner to achieve maximum torque ($\sin 90^\circ = 1$).

@@ -2,37 +2,42 @@
 
 **a. Maxwell's Model of Light (2 marks)**
 *   **Description:** Maxwell’s model proposes that light is an electromagnetic wave consisting of oscillating electric and magnetic fields that are perpendicular to each other and perpendicular to the direction of wave propagation.
-*   **Predictions:**
-    1.  Electromagnetic waves travel at a constant speed in a vacuum: $c \approx 3.0 \times 10^8 \text{ m/s}$.
-    2.  Light is a form of electromagnetic radiation that does not require a medium to propagate.
+*   **Predictions:** 
+    1. Electromagnetic waves travel at a constant speed, $c$, which Maxwell calculated to be $3 \times 10^8 \text{ m/s}$. 
+    2. Light is an electromagnetic wave that does not require a medium to propagate, unlike mechanical waves.
 
 **b. Einstein's Postulates (2 marks)**
-*   **Postulates:**
-    1.  The laws of physics are the same in all inertial frames of reference.
-    2.  The speed of light in a vacuum ($c$) is constant for all observers, regardless of the motion of the source or the observer.
-*   **Impact:** These postulates invalidated the concept of the "luminiferous ether" and absolute time/space, establishing that time and distance are relative to the observer's frame of reference.
+*   **Postulates:** 
+    1. The laws of physics are the same in all inertial frames of reference. 
+    2. The speed of light in a vacuum ($c$) is constant for all observers, regardless of the motion of the source or the observer.
+*   **Impact:** This overturned the Newtonian concept of absolute space and time, leading to the understanding that time and length are relative. It essentially dismantled the "aether" theory, confirming light is an independent electromagnetic field.
 
 **c. Evidence for Special Relativity (2 marks)**
-*   **Evidence:** Time dilation of subatomic particles (e.g., muons). Muons created in the upper atmosphere have a short half-life; without time dilation, they should decay before reaching the Earth's surface. However, because they travel at relativistic speeds, their "internal clock" slows down, allowing them to be detected on the ground.
-*   **Technology:** Particle accelerators (like the CERN Large Hadron Collider) or high-precision atomic clocks (used in GPS satellites to correct for relativistic time shifts).
+*   **Evidence:** Time dilation—where time passes more slowly for an object moving at relativistic speeds relative to a stationary observer. 
+*   **Technology:** GPS satellites. Because satellites move at high speeds relative to Earth, they experience time dilation (along with general relativistic effects). Engineers must program clocks on GPS satellites to account for these time differences to ensure accurate positioning data on Earth.
 
 **d. Length Contraction Calculation (2 marks)**
-*   **Formula:** $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$, where $L = 5.5 \text{ m}$ (contracted length), $v = 0.95c$, and $L_0$ is the proper length.
+*   **Method:** We must identify the "proper length" ($L_0$), which is the length measured by a passenger inside the train (in the same rest frame as the carriage). The platform observer measures the "contracted length" ($L$).
+*   **Formula:** $$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
 *   **Calculation:**
+    Given $L = 5.5 \text{ m}$ and $v = 0.95c$:
     $$5.5 = L_0 \sqrt{1 - (0.95)^2}$$
     $$5.5 = L_0 \sqrt{1 - 0.9025}$$
     $$5.5 = L_0 \sqrt{0.0975}$$
     $$5.5 = L_0 \times 0.31225$$
     $$L_0 = \frac{5.5}{0.31225} \approx 17.61 \text{ m}$$
-*   **Answer:** The proper length (as measured by a passenger onboard) is approximately $17.61 \text{ m}$.
+*   **Result:** The passenger measures the carriage to be approximately **$17.61 \text{ m}$**.
 
----
+***
 
-### How to solve:
-1.  **Part a:** Recall the key components of Maxwell's theory: orthogonality of fields and the derivation of the speed of light from constants ($\epsilon_0$ and $\mu_0$).
-2.  **Part b:** Focus on the "invariance of the speed of light." Understand that this fundamental change shifted physics from Galilean relativity to Einsteinian relativity.
-3.  **Part c:** When asked for evidence in physics, always link the theoretical concept (Time Dilation) to a concrete, verifiable experimental observation (Muon decay) and the technology that enabled it.
-4.  **Part d:** Identify which length is the "proper length" ($L_0$). The observer on the platform measures the *contracted* length ($L$), so you must rearrange the length contraction formula to solve for $L_0$.
+### Explanation of Strategy
+To succeed in this HSC Physics style question, follow these steps:
+1.  **For conceptual questions (a, b, c):** Use clear, syllabus-aligned terminology. For Maxwell, always mention the "perpendicular fields." For Einstein, ensure you explicitly state the two postulates as they are fundamental.
+2.  **For evidence (c):** Link the abstract theory to a concrete piece of technology. GPS is the standard HSC example for relativity.
+3.  **For calculations (d):** 
+    *   **Identify variables:** Always determine which length is $L$ (the contracted length seen by an observer) and which is $L_0$ (the proper length). 
+    *   **Units:** Ensure your answer is consistent with the units provided in the question.
+    *   **Check logic:** Since the passenger is on board, they measure the proper length. Since the proper length should be *longer* than the contracted length, your result ($17.61 > 5.5$) confirms the logic of the calculation.
 
 ###QUESTION_TYPE
-Other questions
+Calculation question

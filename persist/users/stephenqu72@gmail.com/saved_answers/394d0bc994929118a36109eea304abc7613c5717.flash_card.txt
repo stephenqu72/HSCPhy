@@ -1,0 +1,8 @@
+### Front
+How do you calculate the velocity of an object at the bottom of a frictionless slope given an initial height $h$?
+
+### Back
+- Key idea: Conservation of mechanical energy ($PE_{top} = KE_{bottom}$).
+- Formula / law / constant / figure: $v = \sqrt{2gh}$
+- When to use it: When an object slides or rolls down a frictionless incline starting from rest.
+- Common trap: Forgetting to cancel the mass ($m$) or failing to account for any initial velocity if the object wasn't starting from rest.

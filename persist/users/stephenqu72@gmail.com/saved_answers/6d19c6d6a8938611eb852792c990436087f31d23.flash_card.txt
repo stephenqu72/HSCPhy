@@ -1,0 +1,8 @@
+### Front
+What principle relates the work done on a rotating object to its change in angular velocity?
+
+### Back
+- Key idea: The Work-Energy Theorem for rotation.
+- Formula / law: $W = \Delta K_{rot} = \frac{1}{2}I(\omega_f^2 - \omega_i^2)$
+- When to use it: When calculating the energy required to change the rotational speed of an object with a known moment of inertia.
+- Common trap: Forgetting to convert units (e.g., cm to m) before calculating the moment of inertia ($I$), or using the wrong $I$ formula for the specific object shape.

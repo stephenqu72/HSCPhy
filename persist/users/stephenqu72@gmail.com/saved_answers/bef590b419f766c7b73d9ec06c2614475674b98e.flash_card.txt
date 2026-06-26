@@ -1,0 +1,8 @@
+### Front
+How does increasing the acceleration due to gravity ($g$) affect the maximum height ($H$) and horizontal range ($R$) of a projectile?
+
+### Back
+- Key idea: Both $H$ and $R$ are inversely proportional to $g$.
+- Formula / law: $H = \frac{v^2 \sin^2\theta}{2g}$ and $R = \frac{v^2 \sin(2\theta)}{g}$
+- When to use it: To determine the effect of changing gravitational fields (e.g., comparing projectile motion on Earth vs. the Moon).
+- Common trap: Assuming $R$ is independent of $g$ because horizontal velocity remains constant; remember that $g$ reduces the *time of flight*, which decreases the range.

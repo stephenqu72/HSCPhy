@@ -1,0 +1,10 @@
+### Front
+Describe the two-step nuclear transmutation process used to dope Silicon-30 into Phosphorus-31.
+
+### Back
+- **Key idea:** Neutron capture followed by $\beta^-$ decay increases the atomic number ($Z$) by 1, turning Silicon into Phosphorus.
+- **Formula / law / constant / figure:** 
+  1. Capture: $^{30}_{14}\text{Si} + ^{1}_{0}\text{n} \rightarrow ^{31}_{14}\text{Si}$
+  2. Decay: $^{31}_{14}\text{Si} \rightarrow ^{31}_{15}\text{P} + ^{0}_{-1}\text{e} + \bar{\nu}_e$
+- **When to use it:** When explaining semiconductor doping via neutron transmutation.
+- **Common trap:** Forgetting to include the electron antineutrino ($\bar{\nu}_e$) or failing to balance mass ($A$) and atomic ($Z$) numbers in the decay equation.

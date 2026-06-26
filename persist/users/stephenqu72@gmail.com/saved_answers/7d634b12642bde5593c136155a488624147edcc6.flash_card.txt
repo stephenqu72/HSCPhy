@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released during a nuclear reaction given the mass defect?
+
+### Back
+- **Key idea:** Mass-energy equivalence ($E=mc^2$); mass lost in a reaction is converted into kinetic energy/radiation.
+- **Formula / law / constant:** $\Delta E = (\Delta m)c^2$; $1 \text{ amu} = 931.5 \text{ MeV}$; $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$.
+- **When to use it:** Whenever a nuclear reaction (fusion/fission/decay) occurs and the masses of reactants and products are provided.
+- **Common trap:** Forgetting to calculate the "mass defect" as the absolute difference (Reactants - Products) and confusing the units (ensure amu is converted to MeV before Joules).

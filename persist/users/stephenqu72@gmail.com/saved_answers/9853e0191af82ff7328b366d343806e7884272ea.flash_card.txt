@@ -1,0 +1,8 @@
+### Front
+How do you determine the total time of flight for a projectile landing at a different vertical level than it was launched?
+
+### Back
+- Key idea: Split motion into independent horizontal and vertical components; the horizontal velocity ($v_x$) remains constant.
+- Formula / law / constant / figure: $v_y = u_y + a_y t$ and $\tan(\theta) = \frac{v_y}{v_x}$
+- When to use it: When given launch/landing angles or different vertical displacements. Solve for $u_y$ at peak, then determine the final vertical velocity ($v_{yf}$) using the landing angle.
+- Common trap: Assuming the flight time is symmetrical ($2 \times t_{peak}$) when the landing height is not equal to the launch height.

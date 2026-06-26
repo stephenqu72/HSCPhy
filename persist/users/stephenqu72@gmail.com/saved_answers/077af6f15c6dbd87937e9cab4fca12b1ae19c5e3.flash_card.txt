@@ -1,0 +1,8 @@
+### Front
+How do you account for background radiation when calculating the activity of a radioactive source over time?
+
+### Back
+- Key idea: Total measured activity is the sum of the source activity and constant background radiation.
+- Formula / law / constant / figure: $A_{detected} = (A_{0(source)} \times (\frac{1}{2})^n) + A_{background}$
+- When to use it: Whenever a detector reading includes a background count (e.g., Geiger-Müller tube experiments).
+- Common trap: Failing to subtract background radiation *before* applying the half-life decay formula, or forgetting to add it back at the end.

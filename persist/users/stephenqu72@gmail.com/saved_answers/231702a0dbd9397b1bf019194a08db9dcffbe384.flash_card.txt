@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant velocity ($\vec{v}_g$) of an aircraft moving through a crosswind?
+
+### Back
+- **Key idea:** Vector addition of the aircraft's velocity relative to air ($\vec{v}_a$) and wind velocity ($\vec{v}_w$).
+- **Formula / law:** $\vec{v}_g = \vec{v}_a + \vec{v}_w$; use Pythagoras for magnitude and $\tan(\theta)$ for direction.
+- **When to use it:** When an object experiences a velocity component perpendicular to its intended path (relative motion in 2D).
+- **Common trap:** Forgetting to define the direction relative to a cardinal axis (e.g., "East of South") or failing to use tip-to-tail vector addition.

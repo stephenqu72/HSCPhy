@@ -1,0 +1,8 @@
+### Front
+How do you derive the linear speed ($v$) of a conical pendulum (e.g., a swing ride seat)?
+
+### Back
+- Key idea: The net horizontal centripetal force is provided by the horizontal component of tension ($T\sin\theta$).
+- Formula: $v = \sqrt{rg\tan\theta}$
+- When to use it: Circular motion involving a tethered object moving at a constant angle to the vertical.
+- Common trap: Forgetting to add the swing's horizontal displacement ($L\sin\theta$) to the central axle radius ($R_{axle}$) to find the total radius $r$.

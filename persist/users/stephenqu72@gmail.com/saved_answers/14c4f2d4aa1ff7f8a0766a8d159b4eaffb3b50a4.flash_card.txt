@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of the Sun ($M$) using a graphical analysis of Kepler’s Third Law?
+
+### Back
+- **Key idea:** Plot $T^2$ (y-axis) vs $r^3$ (x-axis); the gradient ($m$) of the resulting line of best fit represents $\frac{4\pi^2}{GM}$.
+- **Formula / law / constant / figure:** $M = \frac{4\pi^2}{G \cdot \text{gradient}}$; $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{kg}^{-2}$.
+- **When to use it:** When provided with orbital data sets to find central mass while accounting for experimental error through linear regression.
+- **Common trap:** Failing to use SI units (seconds for $T$, metres for $r$) or forgetting to rearrange the gradient formula correctly to isolate $M$.

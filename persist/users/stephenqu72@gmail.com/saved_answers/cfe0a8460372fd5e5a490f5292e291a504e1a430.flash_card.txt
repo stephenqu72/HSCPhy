@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of gravitational field strengths ($g_1:g_2$) between two spherical bodies given their masses and radii?
+
+### Back
+- Key idea: Use the proportionality $g \propto \frac{M}{r^2}$.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$; ratio formula: $\frac{g_1}{g_2} = \frac{M_1}{M_2} \times (\frac{r_2}{r_1})^2$.
+- When to use it: Whenever comparing gravitational acceleration on the surface of planets or moons.
+- Common trap: Forgetting to square the radius ratio or inverting the radii ($r_2/r_1$ vs $r_1/r_2$).

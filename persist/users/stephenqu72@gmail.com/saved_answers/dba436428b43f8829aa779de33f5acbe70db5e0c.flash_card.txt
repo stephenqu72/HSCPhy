@@ -1,0 +1,8 @@
+### Front
+How do you calculate the acceleration due to gravity ($g$) at the surface of a planet given its mass ($M$) and radius ($r$)?
+
+### Back
+- **Key idea:** Gravitational field strength depends on the planet's mass and the inverse square of its radius.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; $G = 6.674 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- **When to use it:** To determine local gravity on a spherical body or compare gravitational acceleration between different planets.
+- **Common trap:** Forgetting to convert radius ($r$) from kilometers to meters ($10^3$) or neglecting to square the radius in the denominator.

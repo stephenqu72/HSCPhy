@@ -1,0 +1,8 @@
+### Front
+Why does a satellite's kinetic energy increase as its orbital radius decreases due to atmospheric drag?
+
+### Back
+- Key idea: As a satellite descends into a deeper gravitational potential, it converts gravitational potential energy into kinetic energy, resulting in a net increase in orbital speed.
+- Formula / law: $K = \frac{GMm}{2r}$ (from the Virial Theorem).
+- When to use it: To explain orbital decay/de-orbiting dynamics.
+- Common trap: Assuming that because the satellite loses *total* mechanical energy (due to friction), it must also slow down. In reality, the loss in potential energy is twice the gain in kinetic energy.

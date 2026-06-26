@@ -1,0 +1,8 @@
+### Front
+What is the formula and key constant for calculating the gravitational force between two celestial bodies?
+
+### Back
+- **Key idea:** Newton’s Law of Universal Gravitation.
+- **Formula / law / constant:** $F = \frac{G M m}{r^2}$; $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** To calculate the gravitational force between two point masses.
+- **Common trap:** Forgetting to square the distance ($r^2$) or using units other than metres for $r$.

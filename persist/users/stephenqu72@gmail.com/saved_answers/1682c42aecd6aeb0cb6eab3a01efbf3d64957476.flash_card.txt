@@ -1,0 +1,8 @@
+### Front
+If a projectile is launched with equal horizontal and vertical velocity components ($v_x = v_y$), what is its kinetic energy at the peak of its trajectory relative to its initial kinetic energy ($E$)?
+
+### Back
+- Key idea: At the peak, vertical velocity is zero, so kinetic energy is solely determined by the constant horizontal velocity component.
+- Formula / law: $E_k = \frac{1}{2}mv^2$; $v_{total}^2 = v_x^2 + v_y^2$. Since $v_x = v_y$, $E_{peak} = \frac{1}{2}E_{initial}$.
+- When to use it: Projectile motion problems involving energy conservation or transformations.
+- Common trap: Assuming kinetic energy is zero at the peak (incorrect, horizontal velocity persists).

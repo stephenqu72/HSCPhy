@@ -1,0 +1,8 @@
+### Front
+How do you relate the orbital radius ($r$) and period ($T$) of two satellites orbiting the same central body?
+
+### Back
+- **Key idea:** Kepler’s Third Law of Planetary Motion.
+- **Formula:** $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$ or $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- **When to use it:** When comparing two objects orbiting the same central mass ($M$) to find an unknown radius or period.
+- **Common trap:** Forgetting to square the period ($T^2$) or cube the radius ($r^3$) when setting up the ratio. Also, ignoring that satellite mass is irrelevant.

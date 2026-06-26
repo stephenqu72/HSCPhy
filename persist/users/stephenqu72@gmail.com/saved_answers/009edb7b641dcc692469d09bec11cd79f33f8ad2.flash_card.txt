@@ -1,0 +1,8 @@
+### Front
+How does the electric field strength ($E$) between parallel plates change as the plate separation ($d$) increases, given a constant voltage source ($V$)?
+
+### Back
+- Key idea: $E$ is inversely proportional to $d$ ($E \propto 1/d$); the relationship follows a reciprocal curve (hyperbola).
+- Formula / law / constant / figure: $E = \frac{V}{d}$; No fixed constant.
+- When to use it: When analyzing capacitors connected to a constant voltage source where plate distance is varied.
+- Common trap: Assuming a linear decrease; the relationship is non-linear (inverse).

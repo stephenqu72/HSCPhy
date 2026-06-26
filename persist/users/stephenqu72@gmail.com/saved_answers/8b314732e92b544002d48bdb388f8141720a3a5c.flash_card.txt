@@ -1,0 +1,8 @@
+### Front
+How can you use orbital data to verify Kepler’s Third Law and determine the mass of a central body?
+
+### Back
+- Key idea: The ratio $r^3/T^2$ is constant for all bodies orbiting the same central mass.
+- Formula / law / constant: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$ (where $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$).
+- When to use it: When given multiple satellite data to prove gravitational relationships or calculate a planet's mass.
+- Common trap: Forgetting to convert units to SI (e.g., periods to seconds, radii to metres) or neglecting the powers of 10 when calculating the gradient from a graph.

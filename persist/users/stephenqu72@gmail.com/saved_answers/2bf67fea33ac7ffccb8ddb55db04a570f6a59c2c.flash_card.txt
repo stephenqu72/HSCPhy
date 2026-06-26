@@ -1,0 +1,8 @@
+### Front
+How does centripetal acceleration ($a_c$) change if an object’s speed doubles and its radius is halved?
+
+### Back
+- Key idea: Acceleration is directly proportional to $v^2$ and inversely proportional to $r$. Doubling $v$ quadruples $a_c$; halving $r$ doubles $a_c$. Total factor = $4 \times 2 = 8$.
+- Formula / law / constant / figure: $a_c = \frac{v^2}{r}$
+- When to use it: Any uniform circular motion problem involving changes to velocity or orbital radius.
+- Common trap: Forgetting to square the velocity change ($2v$ becomes $4v^2$) or incorrectly handling the fraction in the denominator.

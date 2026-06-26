@@ -1,0 +1,8 @@
+### Front
+How does velocity change when mass increases for a constant centripetal force ($F_c$) on a fixed-radius turn?
+
+### Back
+- Key idea: Velocity is inversely proportional to the square root of mass ($v \propto \frac{1}{\sqrt{m}}$).
+- Formula / law / constant / figure: $F_c = \frac{mv^2}{r} \implies v = \sqrt{\frac{F_c \cdot r}{m}}$
+- When to use it: Circular motion problems where centripetal force is constrained (e.g., maximum friction or tension).
+- Common trap: Forgetting to take the square root when scaling the mass or velocity.

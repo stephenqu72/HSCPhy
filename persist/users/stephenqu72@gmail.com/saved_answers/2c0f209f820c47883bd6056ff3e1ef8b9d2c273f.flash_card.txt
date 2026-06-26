@@ -1,0 +1,8 @@
+### Front
+What is the fundamental condition required to solve a projectile collision problem in two dimensions?
+
+### Back
+- **Key idea:** Equating the spatial coordinates $(x, y)$ of both projectiles at the exact same time of collision $t_c$.
+- **Formula / law:** $x_A(t_c) = x_B(t_c)$ and $y_A(t_c) = y_B(t_c)$, using the kinematic equations $s = ut + \frac{1}{2}at^2$.
+- **When to use it:** Whenever you need to find the specific launch velocities, angles, or timing required for two projectiles to occupy the same point in space simultaneously.
+- **Common trap:** Failing to account for a "launch delay" ($\Delta t$); ensure the time variable for the second projectile is adjusted relative to its own launch time ($t_c - t_{launch}$).

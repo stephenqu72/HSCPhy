@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal range ($R$) of a projectile launched from level ground, and which two variables have the greatest impact?
+
+### Back
+- Key idea: Range is proportional to the square of initial velocity ($v^2$) and the sine of double the projection angle ($\sin 2\theta$).
+- Formula: $R = \frac{v^2 \sin(2\theta)}{g}$
+- When to use it: To compare the horizontal distances of projectiles launched at different speeds and angles on level ground.
+- Common trap: Forgetting to square the initial velocity ($v$) or confusing the range formula with those for time of flight or maximum height.

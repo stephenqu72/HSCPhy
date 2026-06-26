@@ -1,0 +1,8 @@
+### Front
+What is the formula for the Schwarzschild radius ($r_s$) and the principle behind its derivation?
+
+### Back
+- Key idea: The radius of a non-rotating black hole's event horizon where escape velocity equals the speed of light ($c$).
+- Formula / law / constant / figure: $r_s = \frac{2GM}{c^2}$ ($G \approx 6.674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$).
+- When to use it: To calculate the radius of a black hole given its mass, or to determine the required mass for a given radius.
+- Common trap: Forgetting to square the speed of light ($c^2$) in the denominator or mixing up units (ensure mass is in kg).

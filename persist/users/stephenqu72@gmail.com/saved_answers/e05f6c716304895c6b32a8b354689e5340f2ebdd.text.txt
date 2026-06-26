@@ -1,33 +1,40 @@
-To solve this problem, we use the formula for Young’s Double Slit interference pattern, which describes the fringe spacing (the distance between consecutive bright fringes):
+To solve this problem, we use the formula for Young's double-slit interference pattern, which relates the wavelength of light, the slit separation, the distance to the screen, and the fringe separation.
 
-$$\Delta y = \frac{\lambda d}{w}$$
+### Given Data:
+*   Wavelength ($\lambda$) = $540\text{ nm} = 540 \times 10^{-9}\text{ m}$
+*   Slit separation ($d_{slits}$) = $0.15\text{ mm} = 0.15 \times 10^{-3}\text{ m}$
+*   Fringe separation ($\Delta x$) = $1.5\text{ cm} = 1.5 \times 10^{-2}\text{ m}$ (The distance between the central bright band and the 1st bright band is the fringe separation).
+
+### Formula:
+The distance between adjacent bright fringes is given by:
+$$\Delta x = \frac{\lambda d}{d_{slits}}$$
 
 Where:
-*   $\Delta y$ is the distance between consecutive bright fringes (given as $1.5 \text{ cm} = 0.015 \text{ m}$)
-*   $\lambda$ is the wavelength of the light ($540 \text{ nm} = 540 \times 10^{-9} \text{ m}$)
-*   $w$ is the distance between the slits ($0.15 \text{ mm} = 0.15 \times 10^{-3} \text{ m} = 1.5 \times 10^{-4} \text{ m}$)
-*   $d$ is the distance between the slits and the screen (the value we need to find)
+*   $\Delta x$ is the fringe separation
+*   $\lambda$ is the wavelength
+*   $d$ is the distance from the slits to the screen
+*   $d_{slits}$ is the distance between the slits
 
-### Step-by-Step Calculation:
+### Calculation:
+We need to rearrange the formula to solve for $d$:
+$$d = \frac{\Delta x \cdot d_{slits}}{\lambda}$$
 
-1.  **Rearrange the formula to solve for $d$:**
-    $$d = \frac{\Delta y \cdot w}{\lambda}$$
+Substitute the values:
+$$d = \frac{(1.5 \times 10^{-2}\text{ m}) \times (0.15 \times 10^{-3}\text{ m})}{540 \times 10^{-9}\text{ m}}$$
+$$d = \frac{0.225 \times 10^{-5}}{540 \times 10^{-9}}$$
+$$d = \frac{2.25 \times 10^{-6}}{5.4 \times 10^{-7}}$$
+$$d = \frac{22.5 \times 10^{-7}}{5.4 \times 10^{-7}}$$
+$$d \approx 4.166... \text{ m}$$
 
-2.  **Substitute the known values into the equation:**
-    $$d = \frac{0.015 \text{ m} \cdot 1.5 \times 10^{-4} \text{ m}}{540 \times 10^{-9} \text{ m}}$$
+Rounding to two significant figures, we get $d = 4.2\text{ m}$.
 
-3.  **Perform the multiplication in the numerator:**
-    $$0.015 \cdot 1.5 \times 10^{-4} = 2.25 \times 10^{-6} \text{ m}^2$$
+Comparing this to the provided options:
+(A) 0.04 m
+(B) 1.2 m
+(C) 4.2 m
+(D) 417 m
 
-4.  **Perform the division:**
-    $$d = \frac{2.25 \times 10^{-6}}{540 \times 10^{-9}}$$
-    $$d = \frac{2.25}{540} \times 10^3$$
-    $$d = 0.004166... \times 10^3$$
-    $$d \approx 4.166... \text{ m}$$
-
-Rounding to two significant figures, we get $d = 4.2 \text{ m}$.
-
-Comparing this to the provided options, the correct answer is **(C)**.
+The correct answer is **(C)**.
 
 ###QUESTION_TYPE
-Calculation question
+Multiple choice

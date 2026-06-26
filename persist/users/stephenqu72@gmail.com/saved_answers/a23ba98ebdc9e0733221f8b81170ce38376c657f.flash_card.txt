@@ -1,0 +1,8 @@
+### Front
+What is the formula for the banking angle ($\theta$) of a frictionless track required for a vehicle to traverse a circular path of radius $r$ at velocity $v$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force required for circular motion.
+- **Formula:** $\tan(\theta) = \frac{v^2}{rg}$
+- **When to use it:** When analyzing circular motion on banked tracks where friction is negligible.
+- **Common trap:** Forgetting to convert velocity from $\text{km/h}$ to $\text{m/s}$ ($v \div 3.6$) before substituting into the formula.

@@ -1,0 +1,8 @@
+### Front
+How can you determine which projectile launch produces the maximum horizontal range when given $v_x$ and $v_y$ components?
+
+### Back
+- Key idea: For a fixed launch speed, the range is maximized when the product $v_x \cdot v_y$ is greatest.
+- Formula / law / constant: $R = \frac{2v_x v_y}{g}$; mathematically maximized at $45^\circ$ ($v_x = v_y$).
+- When to use it: To compare the ranges of different projectile flights without calculating the full trajectory.
+- Common trap: Assuming the launch angle must be exactly $45^\circ$ even if the components suggest a different product; always calculate $v_x \cdot v_y$ to confirm.

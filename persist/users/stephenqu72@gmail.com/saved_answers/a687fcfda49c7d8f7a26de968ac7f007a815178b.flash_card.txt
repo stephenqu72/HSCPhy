@@ -1,0 +1,8 @@
+### Front
+How do you determine the horizontal displacement ($X$) of a charged particle passing through a uniform electric field?
+
+### Back
+- **Key idea:** Treat the particle as a projectile; horizontal motion is constant velocity, while vertical motion is constant acceleration ($a = qE/m$).
+- **Formula / law / constant / figure:** $t = \sqrt{2d/a}$ (time to traverse vertical distance $d$); $X = ut$ (horizontal distance).
+- **When to use it:** When a charged particle enters an electric field perpendicular to its velocity (e.g., Cathode Ray Tube or Millikan experiment).
+- **Common trap:** Forgetting that vertical initial velocity is zero; failing to derive time $t$ from vertical motion before calculating horizontal distance.

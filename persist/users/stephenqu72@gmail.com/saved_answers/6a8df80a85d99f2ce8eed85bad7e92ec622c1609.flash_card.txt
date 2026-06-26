@@ -1,0 +1,8 @@
+### Front
+Explain why connecting a lighting system to a power source via a long extension lead results in the lights appearing dimmer.
+
+### Back
+- Key idea: Voltage drop due to internal resistance of the wiring.
+- Formula / law / constant / figure: $V_{\text{drop}} = I \times R_{\text{wire}}$ and $R = \rho \frac{L}{A}$
+- When to use it: Whenever a circuit includes a significant resistive load (wire) in series with the device.
+- Common trap: Forgetting that the total circuit resistance ($R_{\text{total}} = R_{\text{load}} + R_{\text{wire}}$) must be used to calculate the current flowing through the circuit.

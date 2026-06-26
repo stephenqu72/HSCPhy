@@ -1,0 +1,8 @@
+### Front
+How do you calculate the decay constant ($\lambda$) given a radioactive decay graph?
+
+### Back
+- Key idea: Determine $t_{1/2}$ from the graph (time taken for activity to halve), then use the decay relationship.
+- Formula / law: $\lambda = \frac{\ln(2)}{t_{1/2}}$
+- When to use it: When asked for the decay constant or the probability of decay per unit time from an activity-time graph.
+- Common trap: Forgetting to convert the time units (e.g., days or hours) into standard SI units (seconds) before calculating $\lambda$.

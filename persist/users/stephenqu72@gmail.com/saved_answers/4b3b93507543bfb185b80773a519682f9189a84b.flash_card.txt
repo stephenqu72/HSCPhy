@@ -1,0 +1,8 @@
+### Front
+How does the orbital period ($T$) of a satellite relate to its average orbital radius ($r$) according to Kepler's Third Law?
+
+### Back
+- **Key idea:** The square of the orbital period is directly proportional to the cube of the orbital radius for objects orbiting the same central mass.
+- **Formula / law / constant / figure:** $\frac{T^2}{r^3} = \frac{4\pi^2}{GM} = \text{constant}$; for comparative problems: $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$
+- **When to use it:** To compare orbital periods or radii of satellites/planets orbiting the same central body.
+- **Common trap:** Forgetting to square the period or cube the radius, or using inconsistent units (ensure both $T$ values and both $r$ values are in the same units).

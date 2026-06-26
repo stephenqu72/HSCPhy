@@ -1,0 +1,8 @@
+### Front
+How do you calculate the change in gravitational potential energy ($\Delta U$) of an object moving from the centre of the Earth to its surface, given a $g$ vs $r$ graph?
+
+### Back
+- **Key idea:** Work done equals the area under the $g$ vs $r$ graph (multiplied by mass $m$).
+- **Formula / law / constant / figure:** $\Delta U = m \times (\text{Area under } g \text{ vs } r \text{ curve}) = m \times (\frac{1}{2} \cdot g_{surface} \cdot R_E)$.
+- **When to use it:** When calculating energy changes for objects within a constant-density body ($r < R_E$).
+- **Common trap:** Forgetting to use the *average* field strength ($\frac{g_{surface}}{2}$) or assuming $g$ is constant at $9.8 \text{ N kg}^{-1}$ throughout the interior.

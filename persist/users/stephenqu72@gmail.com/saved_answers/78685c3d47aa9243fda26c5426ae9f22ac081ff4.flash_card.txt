@@ -1,0 +1,8 @@
+### Front
+How do you determine the fundamental unit of a quantity when given various integer-multiple totals (e.g., Millikan’s Oil Drop Experiment)?
+
+### Back
+- **Key idea:** Find the Greatest Common Divisor (GCD) of all measured differences.
+- **Formula / law / constant / figure:** No fixed constant or figure.
+- **When to use it:** When experimental data shows discrete, quantized values and you need to identify the base unit (e.g., charge of an electron, mass of a single object).
+- **Common trap:** Assuming the smallest measured value is the base unit; always check if the smallest value is actually a multiple of the true GCD.

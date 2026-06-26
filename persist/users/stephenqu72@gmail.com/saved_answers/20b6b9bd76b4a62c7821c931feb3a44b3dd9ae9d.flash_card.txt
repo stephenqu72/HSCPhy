@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining fraction of a radioactive sample after a specific time period?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process occurring in discrete half-life intervals.
+- **Formula:** $N_t = N_0 \left( \frac{1}{2} \right)^n$ where $n = \frac{t}{T_{1/2}}$
+- **When to use it:** To determine the remaining quantity or fraction of a radioactive isotope given total time ($t$) and half-life ($T_{1/2}$).
+- **Common trap:** Assuming $n$ must be an integer; if $n$ is a decimal, you must use the exponent $(1/2)^n$ rather than simple division.

@@ -1,0 +1,8 @@
+### Front
+What is the relationship between an object's orbital period ($T$) and its orbital radius ($r$)?
+
+### Back
+- Key idea: Kepler’s Third Law states $T^2 \propto r^3$.
+- Formula / law / constant / figure: $T \propto r^{3/2}$ (or $T \propto r^{1.5}$); No fixed constant.
+- When to use it: To compare the periods or orbital radii of two satellites orbiting the same central mass.
+- Common trap: Forgetting to take the square root of the radius cube; confusing $T^2 \propto r^3$ with $T \propto r^3$.

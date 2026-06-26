@@ -1,0 +1,8 @@
+### Front
+How does surface gravity ($g$) change if a planet’s mass ($M$) and radius ($r$) are both halved?
+
+### Back
+- Key idea: Surface gravity is proportional to mass and inversely proportional to the square of the radius ($g \propto M/r^2$).
+- Formula: $g = \frac{GM}{r^2}$
+- When to use it: Any orbital or gravitational field strength calculation involving planetary bodies.
+- Common trap: Forgetting to square the radius reduction. If $r$ becomes $1/2$, the denominator becomes $1/4$, effectively multiplying the gravity by $4$. (Final result: $g' = 2g$).

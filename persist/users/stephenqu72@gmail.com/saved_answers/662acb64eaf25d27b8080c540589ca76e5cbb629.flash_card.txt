@@ -1,0 +1,8 @@
+### Front
+Compare the orbital velocity and centripetal acceleration of a Low Earth Orbit (LEO) satellite versus a Geostationary satellite.
+
+### Back
+- **Key idea:** Satellites closer to Earth (smaller $r$) must maintain higher orbital velocities and experience greater gravitational acceleration.
+- **Formula / law:** $v = \sqrt{\frac{GM}{r}}$ and $a = \frac{GM}{r^2}$.
+- **When to use it:** When comparing orbital parameters ($T, v, a$) between satellites at different altitudes.
+- **Common trap:** Assuming a Geostationary satellite moves faster because it covers a larger distance; in reality, its angular velocity matches Earth's, necessitating a much lower linear velocity than LEO.

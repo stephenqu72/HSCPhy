@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), why does a projectile's total velocity reach its maximum value at the point of impact?
+
+### Back
+- Key idea: Total velocity is the vector sum of horizontal and vertical components ($v = \sqrt{v_x^2 + v_y^2}$). While $v_x$ is constant, $v_y$ increases linearly due to gravity.
+- Formula / law / constant / figure: $v = \sqrt{v_x^2 + v_y^2}$ and $v_y = u_y + gt$.
+- When to use it: To determine velocity magnitude at any point in a projectile's trajectory.
+- Common trap: Assuming acceleration increases as the ball falls or that horizontal velocity changes.

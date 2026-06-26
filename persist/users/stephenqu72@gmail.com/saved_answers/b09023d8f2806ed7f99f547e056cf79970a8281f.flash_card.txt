@@ -1,0 +1,8 @@
+### Front
+How do you calculate gravitational field strength ($g$) at a distance $d$ from the centre of a mass $M$, and what is the relationship between $g$ and $d$?
+
+### Back
+- **Key idea:** Gravitational field strength follows the inverse-square law ($g \propto 1/d^2$).
+- **Formula / law / constant / figure:** $g = \frac{GM}{d^2}$, where $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** To determine the acceleration due to gravity at any point in a radial gravitational field.
+- **Common trap:** Confusing "altitude" ($h$) with "distance from centre" ($d$). Always use $d = r + h$, where $r$ is the radius of the planet.

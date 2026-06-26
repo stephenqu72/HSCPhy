@@ -1,0 +1,11 @@
+### Front
+How do you calculate the resultant initial velocity ($v$) of a projectile given its range ($R$) and time of flight ($T$)?
+
+### Back
+- Key idea: Resolve motion into independent horizontal ($v_x$) and vertical ($v_y$) components using kinematics.
+- Formula / law / constant / figure: 
+  - $v_x = R/T$
+  - $v_y = |a_y| \times (T/2)$ (using time to peak)
+  - $v = \sqrt{v_x^2 + v_y^2}$ and $\theta = \tan^{-1}(v_y/v_x)$
+- When to use it: Whenever a projectile returns to its launch height (symmetrical flight).
+- Common trap: Forgetting that acceleration ($a_y = -9.8\text{ m/s}^2$) acts only on the vertical component; horizontal velocity remains constant.

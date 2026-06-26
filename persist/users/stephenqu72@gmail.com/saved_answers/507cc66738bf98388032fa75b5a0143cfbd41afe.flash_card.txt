@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) exerted on a wheel by a force ($F$) acting at the road surface?
+
+### Back
+- **Key idea:** Torque is the rotational equivalent of force, representing the turning effect acting at a distance from the pivot.
+- **Formula:** $\tau = F \times r$ (where $r$ is the perpendicular distance from the axis of rotation).
+- **When to use it:** When calculating rotational effects or moments of force in mechanical systems.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or using the diameter instead of the radius ($r = d/2$) as the lever arm distance.

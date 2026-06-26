@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass ($m$) of an object in circular motion using a force-velocity squared graph?
+
+### Back
+- **Key idea:** The gradient of an $F$ vs. $v^2$ graph represents $\frac{m}{r}$ for centripetal motion.
+- **Formula:** $F = (\frac{m}{r})v^2 \implies m = \text{gradient} \times r$
+- **When to use it:** When experimental data for centripetal force and velocity are plotted linearly.
+- **Common trap:** Forgetting to zero the force sensor (causing a non-zero $x$-intercept) or confusing the radius $r$ with diameter.

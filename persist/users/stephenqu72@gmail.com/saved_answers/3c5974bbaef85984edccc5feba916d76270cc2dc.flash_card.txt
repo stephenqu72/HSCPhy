@@ -1,0 +1,8 @@
+### Front
+How do you calculate the height difference ($h$) between two points on a frictionless track if an object starts from rest at height $h_P$ and reaches velocity $v$ at height $h_Q$?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($PE_{initial} = KE_{final}$).
+- **Formula:** $h = \frac{v^2}{2g}$
+- **When to use it:** When a system is "frictionless" and you need to relate gravitational potential energy to kinetic energy.
+- **Common trap:** Forgetting that mass ($m$) cancels out on both sides of the energy equation; do not waste time searching for the mass of the object.

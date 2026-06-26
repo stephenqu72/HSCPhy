@@ -1,0 +1,8 @@
+### Front
+What is Kepler’s Third Law of Planetary Motion and how is it used to compare the orbits of two bodies around the same central mass?
+
+### Back
+- **Key idea:** The square of an orbital period is directly proportional to the cube of the orbital radius ($T^2 \propto r^3$).
+- **Formula / law:** $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$ or $\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$.
+- **When to use it:** To determine the period or orbital distance of a satellite/planet when the properties of another object orbiting the same central body are known.
+- **Common trap:** Forgetting to square the periods or cube the distances, or failing to take the square root of the final result when isolating $T$.

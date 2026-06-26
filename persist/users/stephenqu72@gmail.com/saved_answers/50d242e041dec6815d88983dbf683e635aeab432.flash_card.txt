@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force ($F$) required to produce a specific torque ($\tau$) when the force is applied at an angle ($\theta$) to the lever arm of length ($r$)?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force; only the perpendicular component contributes to rotation.
+- Formula: $\tau = r F \sin(\theta)$ or $F = \frac{\tau}{r \sin(\theta)}$
+- When to use it: Whenever a force is applied at an angle other than $90^\circ$ to the lever arm (e.g., wrench problems).
+- Common trap: Forgetting to convert lengths to SI units (meters) or using $\cos(\theta)$ when the angle is defined relative to the handle rather than the lever arm.

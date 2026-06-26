@@ -1,0 +1,10 @@
+### Front
+How do alpha ($\alpha$) and beta ($\beta^-$) decays shift a nucleus on an $N$ vs $Z$ (or $A$ vs $Z$) stability graph?
+
+### Back
+- **Key idea:** $\alpha$ decay moves the nucleus 2 units left and 2 units down ($Z-2, N-2$). $\beta^-$ decay moves the nucleus 1 unit right and 1 unit down ($Z+1, N-1$).
+- **Formula / law:** 
+  - $\alpha$: $^A_Z X \rightarrow ^{A-4}_{Z-2} Y + ^4_2\alpha$
+  - $\beta^-$: $^A_Z X \rightarrow ^A_{Z+1} Y + ^0_{-1}\beta$
+- **When to use it:** To trace decay chains or determine the identity of daughter nuclei on a chart of nuclides.
+- **Common trap:** Confusing the axes on the graph; always check if the graph plots $Z$ vs $N$ or $A$ vs $Z$, as the slope of the decay lines will change accordingly.

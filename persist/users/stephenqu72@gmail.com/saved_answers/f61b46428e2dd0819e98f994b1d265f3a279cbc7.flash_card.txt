@@ -1,0 +1,8 @@
+### Front
+How do you determine the banking angle ($\theta$) of a track from a $v^2$ vs $r$ graph for a car cornering without friction?
+
+### Back
+- **Key idea:** The gradient of the $v^2$ vs $r$ graph equals $g \tan(\theta)$.
+- **Formula:** $\text{Gradient} = g \tan(\theta) \implies \theta = \arctan\left(\frac{\text{gradient}}{g}\right)$
+- **When to use it:** When a vehicle corners on a banked track where the normal force provides the entire centripetal force (no friction).
+- **Common trap:** Forgetting to square the velocity if the graph is plotted as $v$ vs $r$ instead of $v^2$ vs $r$, or confusing $\sin(\theta)$ with $\tan(\theta)$.

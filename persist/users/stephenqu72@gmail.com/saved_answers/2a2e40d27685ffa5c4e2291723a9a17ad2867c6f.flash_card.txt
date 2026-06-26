@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), how do the horizontal and vertical velocity components change over time?
+
+### Back
+- Key idea: Horizontal velocity is constant; vertical velocity changes due to constant gravitational acceleration ($g$).
+- Formula / law / constant: $a_x = 0$, $a_y = -g \approx 9.8 \, \text{m/s}^2$.
+- When to use it: To resolve motion into independent components for position or velocity calculations.
+- Common trap: Assuming vertical velocity is zero at the start or that horizontal velocity changes during flight.

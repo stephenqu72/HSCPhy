@@ -1,0 +1,8 @@
+### Front
+How does the gravitational force between two masses change if the distance between their centers is tripled?
+
+### Back
+- Key idea: Newton's Law of Universal Gravitation follows an inverse-square relationship.
+- Formula / law / constant / figure: $F \propto \frac{1}{r^2}$
+- When to use it: To determine how force scales when distance $r$ changes by a factor ($F' = \frac{1}{k^2} F$).
+- Common trap: Forgetting to square the scaling factor (i.e., thinking the force is $1/3$ instead of $1/9$).

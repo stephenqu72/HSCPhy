@@ -1,0 +1,8 @@
+### Front
+What is the formula for the Gravitational Potential Energy ($U$) of an object in a gravitational field, and how is the orbital radius ($r$) defined?
+
+### Back
+- **Key idea:** Gravitational potential energy is the work done to move an object from infinity to a point $r$ in a gravitational field. It is always negative for bound systems.
+- **Formula:** $U = -\frac{GMm}{r}$
+- **When to use it:** To calculate the energy state of an object (like a satellite) at a specific distance from the centre of a massive body.
+- **Common trap:** Forgetting to define $r$ as the distance from the **centre** of the planet ($r = R_{planet} + altitude$). Adding only the altitude to the calculation is a frequent error.

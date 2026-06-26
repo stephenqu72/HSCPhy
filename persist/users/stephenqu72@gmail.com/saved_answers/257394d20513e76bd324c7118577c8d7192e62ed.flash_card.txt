@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy required to move a satellite between two circular orbits of radii $r_1$ and $r_2$?
+
+### Back
+- **Key idea:** The change in energy is the difference between total mechanical energies ($E = -GMm/2r$) of the final and initial orbits.
+- **Formula:** $\Delta E = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$
+- **When to use it:** When calculating the work/energy required for orbital transfers (satellite maneuvers).
+- **Common trap:** Forgetting to convert orbital altitude to orbital radius (must add Earth's radius, $R_E$, if altitude is given) or using potential energy alone instead of total mechanical energy.

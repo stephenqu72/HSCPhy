@@ -1,0 +1,8 @@
+### Front
+How does the work done by gravity compare between a satellite in an elliptical orbit vs. a circular orbit?
+
+### Back
+- Key idea: Work is non-zero in elliptical orbits (speed changes) and zero in circular orbits (speed is constant).
+- Formula / law: $W = Fs \cos(\theta)$ or $W = \Delta KE$.
+- When to use it: To determine if a gravitational field is transferring energy to or from an orbiting body.
+- Common trap: Assuming gravity does work in a circular orbit because there is a force present; remember that if $\theta = 90^\circ$, work is always zero.

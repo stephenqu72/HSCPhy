@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining mass of a radioactive sample over time when given the half-life ($t_{1/2}$)?
+
+### Back
+- Key idea: Radioactive decay is exponential; mass halves every $t_{1/2}$ interval.
+- Formula / law / constant / figure: $N = N_0(1/2)^n$, where $n = \text{total time} / t_{1/2}$.
+- When to use it: To determine remaining quantity (mass, activity, or nuclei) after a specific duration.
+- Common trap: Confusing "number of half-lives" ($n$) with the "total time" ($t$). Always calculate $n$ first.

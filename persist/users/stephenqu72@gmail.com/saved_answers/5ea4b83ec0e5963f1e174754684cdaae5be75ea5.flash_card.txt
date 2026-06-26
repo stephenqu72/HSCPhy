@@ -1,0 +1,8 @@
+### Front
+Explain how pions traveling at relativistic speeds reach the Earth's surface despite their short half-life.
+
+### Back
+- Key idea: Time dilation; moving clocks run slower relative to a stationary observer, extending the particle's lifetime in the laboratory frame.
+- Formula / law: $t_v = \gamma t_0$ and $d_{lab} = \gamma d_{proper}$
+- When to use it: When solving problems involving relativistic particles (e.g., muons/pions) where measured distance or lifetime exceeds classical expectations.
+- Common trap: Confusing proper time ($t_0$) with dilated time ($t_v$); ensure $\gamma \ge 1$ (the dilated time/distance must be larger).

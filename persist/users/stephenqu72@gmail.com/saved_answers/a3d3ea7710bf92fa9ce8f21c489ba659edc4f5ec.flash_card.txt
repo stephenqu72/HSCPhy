@@ -1,0 +1,8 @@
+### Front
+How can you simplify the relativistic energy-momentum relation $E^2 = (pc)^2 + (mc^2)^2$ for ultra-relativistic particles like those in particle accelerators?
+
+### Back
+- **Key idea:** When kinetic energy is significantly greater than rest mass energy ($K \gg mc^2$), the rest mass term becomes negligible.
+- **Formula / law / constant / figure:** $E \approx pc$
+- **When to use it:** Use this approximation for particles traveling at extreme relativistic speeds (e.g., $v \approx c$) where $E \approx K$.
+- **Common trap:** Forgetting to convert units (eV to Joules) when calculating momentum in standard SI units ($\text{kg m/s}$).

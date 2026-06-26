@@ -1,0 +1,8 @@
+### Front
+What is the difference in tension ($T_{bottom} - T_{top}$) for an object of mass $m$ moving in a vertical circle at a constant angular velocity?
+
+### Back
+- Key idea: The net centripetal force is provided by the vector sum of tension and gravity; the difference in tension is simply twice the weight of the object.
+- Formula / law / constant: $\Delta T = 2mg$
+- When to use it: Any vertical circular motion problem where you need the tension difference between the lowest and highest points.
+- Common trap: Attempting to include the centripetal force ($mr\omega^2$) in the final calculation; it cancels out because the velocity is constant.

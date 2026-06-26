@@ -1,0 +1,8 @@
+### Front
+Derive the total mechanical energy $E$ of a satellite in a circular orbit of radius $r$ in terms of $G, M, m,$ and $r$.
+
+### Back
+- **Key idea:** The total energy $E$ is the sum of kinetic energy ($K = \frac{GMm}{2r}$) and potential energy ($U = -\frac{GMm}{r}$).
+- **Formula / law / constant / figure:** $E = K + U = -\frac{GMm}{2r}$.
+- **When to use it:** When calculating the total energy required to maintain an orbit or the energy required for escape from a bound orbit.
+- **Common trap:** Forgetting that total orbital energy is negative, which signifies that the satellite is in a bound state.

@@ -1,0 +1,8 @@
+### Front
+For a satellite in a circular orbit, what is the relationship between its Total Mechanical Energy ($E$) and its Gravitational Potential Energy ($U$)?
+
+### Back
+- Key idea: $E = \frac{1}{2}U$. The total mechanical energy is always exactly half of the potential energy.
+- Formula: $E = K + U = -\frac{GMm}{2r}$
+- When to use it: Any circular orbit problem where you need to calculate total energy, kinetic energy, or potential energy without calculating individual components.
+- Common trap: Forgetting the negative sign; $E$ is negative because the satellite is in a bound state. Also, remember that for circular orbits, $K = -E = -\frac{1}{2}U$.

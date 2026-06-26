@@ -1,0 +1,8 @@
+### Front
+Compare the orbital characteristics and applications of Geostationary (GEO) vs. Low Earth Orbit (LEO) satellites.
+
+### Back
+- **Key idea:** $T \propto r^{3/2}$ (Kepler’s Third Law). GEO has a $24$-hour period at $\sim 35,800\text{ km}$ altitude; LEO has short periods ($90\text{--}120\text{ min}$) at low altitudes ($\sim 200\text{--}2,000\text{ km}$).
+- **Formula:** $T = \sqrt{\frac{4\pi^2 r^3}{GM}}$
+- **When to use it:** When asked to justify satellite applications based on orbital physics or to compare satellite performance.
+- **Common trap:** Forgetting to convert altitude to orbital radius ($r = R_{earth} + h$) when substituting into Kepler’s Third Law.

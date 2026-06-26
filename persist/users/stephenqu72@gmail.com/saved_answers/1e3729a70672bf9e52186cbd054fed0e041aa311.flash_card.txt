@@ -1,0 +1,8 @@
+### Front
+How do you calculate the percentage decrease in gravitational acceleration ($g$) for an object at an altitude $h$ above the Earth's surface?
+
+### Back
+- **Key idea:** Gravitational acceleration follows an inverse-square relationship with distance from the Earth's center ($r$).
+- **Formula:** $\frac{g_h}{g_0} = \left( \frac{R_E}{R_E + h} \right)^2$; then calculate $(1 - \frac{g_h}{g_0}) \times 100\%$.
+- **When to use it:** When comparing gravitational field strength at different altitudes or determining orbital effects.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) when calculating the distance from the center ($r = R_E + h$).

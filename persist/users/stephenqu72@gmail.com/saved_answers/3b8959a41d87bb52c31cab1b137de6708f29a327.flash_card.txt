@@ -1,0 +1,8 @@
+### Front
+How do you relate linear velocity ($v$) to angular velocity ($\omega$) for an object moving in a circle of radius ($r$)?
+
+### Back
+- Key idea: The linear speed is the product of the radius and the angular velocity (in radians per unit time).
+- Formula: $v = r\omega$
+- When to use it: When converting between linear and rotational motion parameters in circular motion problems.
+- Common trap: Failing to ensure units are consistent (e.g., mixing metres and kilometres, or degrees and radians) before calculating.

@@ -1,0 +1,8 @@
+### Front
+Why should centripetal force ($F_c$) never be drawn as an individual vector on a free-body diagram (FBD)?
+
+### Back
+- Key idea: $F_c$ is not a "real" physical force; it is the **net (resultant) force** produced by the vector sum of existing real forces.
+- Formula / law / constant / figure: $F_{net} = \sum F = F_c = \frac{mv^2}{r}$
+- When to use it: Whenever drawing FBDs for objects in circular motion (e.g., banked tracks, conical pendulums).
+- Common trap: Drawing $F_c$ as an additional force vector, which double-counts the net effect of the actual forces (like gravity, tension, or normal force).

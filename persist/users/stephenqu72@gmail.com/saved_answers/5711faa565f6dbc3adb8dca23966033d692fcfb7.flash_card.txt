@@ -1,0 +1,8 @@
+### Front
+How do you solve a mechanics problem where a force is applied to an object over a displacement but the resulting kinetic energy is less than the total work done ($Fs$)?
+
+### Back
+- **Key idea:** Work-Energy Theorem and energy conservation. The "missing" energy represents work done against potential energy (gravity) due to vertical displacement.
+- **Formula / law / constant / figure:** $W_{total} = \Delta K + \Delta U$ (or $W_{ext} - mgh = \frac{1}{2}mv^2$).
+- **When to use it:** When an object is pushed/thrown from a starting height or at an angle where the force is not purely horizontal.
+- **Common trap:** Assuming all work done ($Fs$) is converted entirely into kinetic energy ($1/2mv^2$); always account for the work done against gravity if the object is being lifted.

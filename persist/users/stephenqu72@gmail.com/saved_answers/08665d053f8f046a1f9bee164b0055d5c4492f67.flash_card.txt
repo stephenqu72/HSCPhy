@@ -1,0 +1,8 @@
+### Front
+How do you determine the two launch angles that achieve the same horizontal range $R$ for a projectile on level ground?
+
+### Back
+- **Key idea:** Complementary angles ($\theta$ and $90^\circ - \theta$) produce the same horizontal range because $\sin(2\theta) = \sin(180^\circ - 2\theta)$.
+- **Formula:** $R = \frac{v^2 \sin(2\theta)}{g}$
+- **When to use it:** When solving projectile motion problems involving level ground to find the possible angles for a specific target range.
+- **Common trap:** Forgetting the second solution ($90^\circ - \theta$) or failing to ensure the calculator is in degree mode.

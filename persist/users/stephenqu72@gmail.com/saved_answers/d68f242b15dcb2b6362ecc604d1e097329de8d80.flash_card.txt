@@ -1,0 +1,8 @@
+### Front
+How do orbital energy principles explain the necessity of "station-keeping" for GPS satellites experiencing atmospheric drag?
+
+### Back
+- **Key idea:** Atmospheric drag removes energy ($E$), causing a decrease in orbital radius ($r$); thrusters restore velocity/kinetic energy to maintain the required altitude for precise time-of-flight measurements.
+- **Formula:** Total Energy $E = -\frac{GMm}{2r}$
+- **When to use it:** When asked to discuss the maintenance, stability, or decay of satellite orbits.
+- **Common trap:** Assuming a decrease in energy causes a satellite to speed up (in reality, satellites in lower orbits travel faster, but the *process* of losing energy through drag causes the altitude to drop).

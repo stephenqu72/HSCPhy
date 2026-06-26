@@ -1,0 +1,8 @@
+### Front
+How do you determine the initial launch angle ($\theta$) of a projectile from stroboscopic motion data?
+
+### Back
+- **Key idea:** Use the vector components of the initial velocity derived from displacement intervals.
+- **Formula / law / constant / figure:** $\theta = \tan^{-1}\left(\frac{v_{y0}}{v_x}\right)$; $v_x = \frac{\Delta x}{\Delta t}$; $y = v_{y0}t - \frac{1}{2}gt^2$.
+- **When to use it:** When provided with sequential position data (dots) from a strobe-light photograph.
+- **Common trap:** Confusing the displacement between dots with the total velocity or failing to account for the strobe frequency ($f$) to correctly calculate the time interval ($\Delta t = 1/f$).

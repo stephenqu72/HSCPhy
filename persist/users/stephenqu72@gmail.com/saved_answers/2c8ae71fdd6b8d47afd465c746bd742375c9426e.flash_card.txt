@@ -1,0 +1,8 @@
+### Front
+How do you determine if relativistic transformations (length contraction or time dilation) are required in an HSC Physics problem?
+
+### Back
+- Key idea: Determine if the observer and the object are in the same or different inertial reference frames, and check if the velocity is a significant fraction of $c$ ($v \ge 0.1c$).
+- Formula / law / constant / figure: Lorentz factor $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- When to use it: Only when the object is moving at relativistic speeds relative to the observer.
+- Common trap: Assuming relativistic effects apply just because a high-speed object is mentioned, even if the observer is in a stationary frame or the object's speed is negligible ($v \ll c$).

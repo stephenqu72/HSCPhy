@@ -1,0 +1,8 @@
+### Front
+How does changing the initial velocity ($u$) affect the horizontal range ($R$) of a projectile?
+
+### Back
+- Key idea: The range $R$ is directly proportional to the square of the initial velocity ($R \propto u^2$).
+- Formula / law / constant / figure: $R = \frac{u^2 \sin(2\theta)}{g}$
+- When to use it: To determine how scaling the launch speed impacts the total horizontal displacement.
+- Common trap: Assuming $R$ is directly proportional to $u$ (i.e., thinking doubling $u$ doubles $R$); actually, doubling $u$ quadruples $R$.

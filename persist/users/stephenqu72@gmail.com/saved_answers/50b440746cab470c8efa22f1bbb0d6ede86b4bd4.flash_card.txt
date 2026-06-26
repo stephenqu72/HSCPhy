@@ -1,0 +1,8 @@
+### Front
+How do you calculate the change in total mechanical energy ($\Delta E$) for a satellite moving between two circular orbits?
+
+### Back
+- **Key idea:** Total energy in a circular orbit is the sum of kinetic and gravitational potential energy ($E_{total} = -\frac{GMm}{2r}$).
+- **Formula:** $\Delta E = \frac{GMm}{2} \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$
+- **When to use it:** Whenever a satellite changes altitude (e.g., boosting to a higher orbit or decaying).
+- **Common trap:** Forgetting to add Earth’s radius ($R_E$) to the altitude ($h$) to find the orbital radius ($r = R_E + h$).

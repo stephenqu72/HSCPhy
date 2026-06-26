@@ -1,0 +1,8 @@
+### Front
+What is the formula for escape velocity ($v_e$), and does the mass of the escaping object affect it?
+
+### Back
+- Key idea: Escape velocity is the minimum speed needed for an object to break free from a planet's gravitational field. The mass of the projectile is irrelevant.
+- Formula: $v_e = \sqrt{\frac{2GM}{R}}$
+- When to use it: To determine the speed required to reach "infinity" with zero kinetic energy.
+- Common trap: Forgetting to convert the radius ($R$) into SI units (meters) or incorrectly thinking the mass of the satellite/shuttle matters.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of a planet orbiting the Sun given its orbital period ($T$)?
+
+### Back
+- **Key idea:** Angular velocity is the rate of change of angular displacement over time.
+- **Formula / law:** $\omega = \frac{2\pi}{T}$ (where $T$ must be in seconds).
+- **When to use it:** To determine how fast an object sweeps through its orbit (e.g., Earth's orbital $\omega \approx 2.0 \times 10^{-7} \text{ rad s}^{-1}$).
+- **Common trap:** Confusing *orbital* period (365.25 days) with *rotational* period (24 hours). Always ensure $T$ matches the specific motion being analyzed.

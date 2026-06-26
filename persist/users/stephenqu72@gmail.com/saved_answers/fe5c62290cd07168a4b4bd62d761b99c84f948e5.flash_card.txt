@@ -1,0 +1,8 @@
+### Front
+In symmetrical projectile motion, how do you determine the time taken to reach the maximum height ($t_{up}$) from the total flight time ($T$)?
+
+### Back
+- Key idea: The vertical motion is symmetrical; gravity acts equally on the ascent and descent.
+- Formula / law / constant / figure: $t_{up} = \frac{T}{2}$
+- When to use it: Whenever an object is launched and lands at the same vertical level (ignoring air resistance).
+- Common trap: Forgetting that a stroboscopic photo with $n$ images has $n-1$ time intervals. Always calculate total time $T$ as $(n-1) \times \Delta t$ before dividing by 2.

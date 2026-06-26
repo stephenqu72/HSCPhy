@@ -1,0 +1,8 @@
+### Front
+Derive the radius $r$ for a rotating mass system where a hanging mass ($m_B$) provides the centripetal force for a mass ($m_A$) moving in a horizontal circle at velocity $v$.
+
+### Back
+- Key idea: The centripetal force required for circular motion is provided entirely by the tension created by the gravitational weight of the hanging mass.
+- Formula: $r = \frac{m_A v^2}{m_B g}$ (or $r = \frac{v^2}{g}$ if $m_A = m_B$)
+- When to use it: Conical pendulum or rotating mass apparatus experiments where friction is negligible and the string is horizontal.
+- Common trap: Forgetting that the velocity $v$ is $2\pi r / T$; ensure units for mass are consistent (e.g., kg) and period $T$ is derived from the time for 10 rotations divided by 10.

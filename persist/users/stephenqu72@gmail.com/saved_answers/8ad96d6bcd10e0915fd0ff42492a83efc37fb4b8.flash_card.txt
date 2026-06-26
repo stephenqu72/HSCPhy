@@ -1,0 +1,8 @@
+### Front
+How do you calculate the launch angle ($\theta$) of a projectile when given only the initial velocity ($v$) and the maximum height relative to the launch point ($\Delta y$)?
+
+### Back
+- **Key idea:** At the peak of flight, the vertical velocity component ($v_y$) is zero.
+- **Formula / law / constant / figure:** $v_y^2 = (v \sin\theta)^2 - 2g\Delta y \implies 0 = (v \sin\theta)^2 - 2g\Delta y$.
+- **When to use it:** Use when analyzing projectile motion where the peak height is known and you need to find the launch angle or initial velocity.
+- **Common trap:** Confusing total height above ground ($H_{max}$) with height relative to launch point ($\Delta y$). Always use $\Delta y = H_{max} - h_0$.

@@ -1,0 +1,8 @@
+### Front
+How does the gravitational force $F_g$ on a satellite change if its distance from the center of the Earth is doubled?
+
+### Back
+- Key idea: Gravitational force follows an inverse-square law with respect to the distance from the center of mass.
+- Formula / law / constant / figure: $F_g \propto \frac{1}{r^2}$; therefore, $F_g$ becomes $\frac{1}{4}F_g$.
+- When to use it: Any problem involving changes in orbital radius or satellite height.
+- Common trap: Confusing "orbital radius" ($r$) with "altitude" ($h$). Remember that $r = R_E + h$; doubling altitude is NOT the same as doubling $r$.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the local acceleration due to gravity ($g$) of a planet if you know an object's weight on Earth and on that planet?
+
+### Back
+- **Key idea:** Mass ($m$) is constant regardless of location; weight ($W$) varies with the local gravitational field ($g$).
+- **Formula / law / constant / figure:** $W = mg \rightarrow g = \frac{W}{m}$
+- **When to use it:** To find the gravity of an unknown location by first determining the object's mass from its Earth weight ($m = \frac{W_{Earth}}{9.8}$).
+- **Common trap:** Assuming the object's *weight* remains constant; always solve for *mass* first as it is the invariant property.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a planet if you know its radius and its surface gravitational acceleration ($g$) relative to Earth?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass and inversely proportional to the square of the radius.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ ($G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{kg}^{-2}$)
+- When to use it: To compare gravitational properties between two celestial bodies (ratios) or calculate planetary mass.
+- Common trap: Forgetting to square the radius ($r^2$) or failing to convert radii given as multiples of Earth's radius (e.g., $(2r)^2 = 4r^2$).

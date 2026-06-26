@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time required for a device of known power to consume a specific amount of energy?
+
+### Back
+- Key idea: Energy is the product of power and time.
+- Formula / law / constant / figure: $E = Pt$ (where $t = E/P$). No fixed constant or figure.
+- When to use it: Problems involving energy consumption, electrical work, or power ratings over time.
+- Common trap: Failing to convert units (e.g., leaving energy in MJ instead of Joules, or calculating time in seconds instead of hours).

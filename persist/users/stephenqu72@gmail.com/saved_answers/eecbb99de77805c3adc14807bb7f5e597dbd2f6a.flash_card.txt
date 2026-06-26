@@ -1,0 +1,8 @@
+### Front
+What is the formula to calculate the ideal banking angle ($\theta$) for a vehicle to navigate a curve of radius $r$ at velocity $v$ without relying on friction?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the entire centripetal force required for circular motion.
+- **Formula:** $\tan(\theta) = \frac{v^2}{rg}$
+- **When to use it:** Whenever a question specifies "no friction" or "safe speed" on a banked track.
+- **Common trap:** Forgetting to convert units (e.g., velocity must be in $\text{m s}^{-1}$, radius in $\text{m}$) or using $\sin(\theta)$ instead of $\tan(\theta)$.

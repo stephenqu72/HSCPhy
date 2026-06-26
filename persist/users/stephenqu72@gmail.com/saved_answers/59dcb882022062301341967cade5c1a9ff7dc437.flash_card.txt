@@ -1,0 +1,8 @@
+### Front
+How do you linearize the projectile displacement equation $y = ut + \frac{1}{2}at^2$ to determine initial velocity ($u$) and acceleration ($a$)?
+
+### Back
+- Key idea: Transform the quadratic equation into the linear form $Y = mX + c$.
+- Formula / law / constant / figure: $\frac{y}{t} = u + (\frac{1}{2}a)t$. Plot $\frac{y}{t}$ (y-axis) vs $t$ (x-axis).
+- When to use it: When experimental displacement-time data for a projectile needs to be analyzed for initial velocity and acceleration.
+- Common trap: Forgetting that the gradient of the resulting graph equals $\frac{1}{2}a$, not $a$. Ensure units for $y$ and $t$ are consistent before dividing.

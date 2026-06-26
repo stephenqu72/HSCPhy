@@ -1,0 +1,8 @@
+### Front
+How do you calculate the displacement of a projectile that lands below its initial launch height using symmetry?
+
+### Back
+- Key idea: Use the symmetry of the parabolic path to establish the vertical velocity ($v_y$) at the release height level.
+- Formula / law / constant / figure: $v_{final} = -v_{initial}$ (at release height); $\Delta y = u_yt + \frac{1}{2}at^2$.
+- When to use it: When a projectile lands at a lower elevation than its launch point and you are given the time elapsed to return to the initial height.
+- Common trap: Forgetting to use the negative sign for initial vertical velocity when calculating the final drop below the release height.

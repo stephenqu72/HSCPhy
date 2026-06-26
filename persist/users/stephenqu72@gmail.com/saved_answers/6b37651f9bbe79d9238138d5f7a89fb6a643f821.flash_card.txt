@@ -1,0 +1,8 @@
+### Front
+How do you determine if a projectile launched from a planetary body will reach escape velocity?
+
+### Back
+- Key idea: Escape velocity is the minimum speed needed for an object to break free from a planet’s gravitational attraction without further propulsion.
+- Formula / law / constant: $v_e = \sqrt{\frac{2GM}{r}}$ where $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{kg}^{-2}$.
+- When to use it: Whenever a problem asks if an object will escape a gravitational field (Total Energy = 0).
+- Common trap: Forgetting that $v_e$ is independent of the rocket's mass; students often try to use $m$ in the calculation.

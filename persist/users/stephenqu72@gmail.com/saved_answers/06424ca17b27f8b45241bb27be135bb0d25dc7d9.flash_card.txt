@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital velocity of a satellite when the mass of the central body ($M$) is unknown?
+
+### Back
+- Key idea: Use the data from another satellite orbiting the same central body to determine the gravitational parameter ($GM$).
+- Formula / law / constant: $v = \sqrt{\frac{GM}{r}}$ rearranged to $GM = v^2r$.
+- When to use it: When given orbital data for one satellite and asked to find the velocity of another orbiting the same body.
+- Common trap: Forgetting to convert units (e.g., km to m) or failing to derive $GM$ before substituting into the velocity formula.

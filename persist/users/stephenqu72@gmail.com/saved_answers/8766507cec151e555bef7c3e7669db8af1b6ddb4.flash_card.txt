@@ -1,0 +1,8 @@
+### Front
+What is the angular velocity ($\omega$) of a clock's minute hand in rad/s?
+
+### Back
+- **Key idea:** The minute hand completes $2\pi$ radians in one hour (3600 seconds).
+- **Formula:** $\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T} = \frac{2\pi}{3600} \approx 1.745 \times 10^{-3} \text{ rad/s}$.
+- **When to use it:** Circular motion problems involving time-dependent rotational objects.
+- **Common trap:** Confusing the minute hand ($T=3600\text{s}$) with the second hand ($T=60\text{s}$) or hour hand ($T=43200\text{s}$).

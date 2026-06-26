@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of gravitational forces between three bodies (A, B, and C) with varying masses and separations?
+
+### Back
+- **Key idea:** Gravitational force is proportional to the product of masses and inversely proportional to the square of the distance between centres.
+- **Formula:** $F = \frac{G m_1 m_2}{r^2}$
+- **When to use it:** When calculating the interaction between point masses or spherical bodies.
+- **Common trap:** Forgetting to square the entire distance term $(r^2)$ or failing to account for the total separation distance between objects.

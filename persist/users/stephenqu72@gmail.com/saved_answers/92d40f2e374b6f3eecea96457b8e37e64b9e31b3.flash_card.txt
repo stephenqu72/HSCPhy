@@ -1,0 +1,8 @@
+### Front
+What happens to a satellite’s orbital path if it fires thrusters to reduce its speed at a specific point?
+
+### Back
+- Key idea: Reducing kinetic energy lowers total mechanical energy, causing the point of impulse to become the apogee (highest point) of a new elliptical orbit.
+- Formula / law / constant / figure: Conservation of mechanical energy ($E_{total} = K + U$); Kepler’s Laws.
+- When to use it: Any question involving satellite orbital maneuvers (speed changes).
+- Common trap: Assuming a decrease in speed leads to a smaller circular orbit; a single impulse cannot create a new circular orbit, only an elliptical one.

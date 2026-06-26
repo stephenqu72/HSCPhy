@@ -1,0 +1,8 @@
+### Front
+What is the SI unit for angular velocity ($\omega$), and how is it derived?
+
+### Back
+- **Key idea:** Angular velocity is the rate of change of angular displacement over time.
+- **Formula:** $\omega = \frac{\Delta\theta}{\Delta t}$ (Units: rad/s or $\text{rad s}^{-1}$)
+- **When to use it:** When calculating the rotational speed of an object in uniform circular motion.
+- **Common trap:** Confusing it with linear velocity ($\text{m s}^{-1}$) or angular displacement (rad).

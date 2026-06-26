@@ -1,0 +1,8 @@
+### Front
+How do you calculate the acceleration ($a$) of an object sliding on a frictionless inclined plane tilted at angle $\theta$?
+
+### Back
+- **Key idea:** Acceleration is the component of gravity acting parallel to the surface.
+- **Formula:** $a = g \sin(\theta)$
+- **When to use it:** Whenever an object moves on an incline and you need to resolve gravity into parallel and perpendicular components.
+- **Common trap:** Using $\cos(\theta)$ instead of $\sin(\theta)$. Remember: $\sin$ for parallel (down the slope), $\cos$ for perpendicular (normal to the surface).

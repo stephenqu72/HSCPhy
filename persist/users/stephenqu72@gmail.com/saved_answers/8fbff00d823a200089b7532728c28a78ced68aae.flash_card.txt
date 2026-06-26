@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the magnitude of torque ($\tau$) exerted by a force, and how is the angle $\theta$ defined?
+
+### Back
+- **Key idea:** Torque is the rotational effect of a force applied at a distance from a pivot point.
+- **Formula:** $\tau = r F \sin(\theta)$
+- **When to use it:** When calculating rotational moments exerted by an applied force at an angle to a lever arm.
+- **Common trap:** Using the wrong angle; $\theta$ must be the angle **between** the position vector ($r$) and the force vector ($F$), not necessarily the angle given with the horizontal or vertical.

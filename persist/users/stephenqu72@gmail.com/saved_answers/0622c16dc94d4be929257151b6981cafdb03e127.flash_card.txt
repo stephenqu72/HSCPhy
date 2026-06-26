@@ -1,0 +1,8 @@
+### Front
+How does vertical drop ($y$) relate to horizontal distance ($d$) for a projectile fired horizontally with constant initial velocity ($v$)?
+
+### Back
+- **Key idea:** Vertical drop is proportional to the square of the horizontal distance ($y \propto d^2$).
+- **Formula:** $y = \frac{1}{2}g(\frac{d}{v})^2$
+- **When to use it:** To compare how different horizontal ranges affect the vertical displacement of projectiles fired horizontally.
+- **Common trap:** Assuming linear proportionality ($y \propto d$); remember the time of flight also increases with distance, making the drop quadratic.

@@ -1,0 +1,10 @@
+### Front
+What are the two conditions required to verify if a nuclear equation is valid?
+
+### Back
+- Key idea: Conservation laws in nuclear reactions.
+- Formula / law: 
+  1. Conservation of Nucleon Number ($A_{left} = A_{right}$)
+  2. Conservation of Atomic Number ($Z_{left} = Z_{right}$)
+- When to use it: Whenever determining if a fission, fusion, or decay equation is physically possible.
+- Common trap: Forgetting to multiply the nucleon/atomic numbers by the stoichiometric coefficient (e.g., $3^{1}_{0}\text{n}$ contributes 3 to $A$).

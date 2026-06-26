@@ -1,0 +1,8 @@
+### Front
+Why does a magnet falling through a solenoid experience deceleration at both the entry and exit points?
+
+### Back
+- Key idea: Lenz’s Law dictates that induced currents create magnetic fields that always oppose the change in magnetic flux (the magnet's motion).
+- Formula / law / constant / figure: Lenz’s Law (Conservation of Energy).
+- When to use it: To explain the conversion of mechanical energy into electrical (and eventually thermal) energy in electromagnetic induction.
+- Common trap: Assuming the magnet decelerates inside the coil; the change in flux is minimal at the center, so it undergoes near free-fall acceleration until it reaches the exit.

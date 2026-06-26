@@ -1,0 +1,8 @@
+### Front
+How do you determine the length of a string ($r$) for an object swinging from a horizontal start to the bottom of its arc, given its final velocity ($v$)?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($E_{initial} = E_{final}$).
+- **Formula / law:** $mgr = \frac{1}{2}mv^2 \implies r = \frac{v^2}{2g}$
+- **When to use it:** When an object moves between two points in a gravitational field where no non-conservative work (like friction) is done.
+- **Common trap:** Forgetting that $h$ equals the radius ($r$) when starting from the horizontal position.

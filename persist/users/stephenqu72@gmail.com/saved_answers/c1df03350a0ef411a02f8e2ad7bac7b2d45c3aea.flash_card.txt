@@ -1,0 +1,8 @@
+### Front
+How do you determine the spring constant ($k$) and elastic potential energy ($U$) from a force-compression graph?
+
+### Back
+- Key idea: $k$ is the gradient of the $F$ vs $x$ graph; $U$ is the area under the graph.
+- Formula / law / constant / figure: Hooke’s Law ($F=kx$) and Elastic Potential Energy ($U = \frac{1}{2}kx^2$).
+- When to use it: Any mechanics problem involving ideal springs or linear elastic materials.
+- Common trap: Failing to convert units (e.g., kN to N) or squaring the displacement incorrectly ($x^2$).

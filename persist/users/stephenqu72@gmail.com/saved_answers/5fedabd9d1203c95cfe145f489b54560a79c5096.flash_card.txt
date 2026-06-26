@@ -1,0 +1,8 @@
+### Front
+Why does the "whirling mass" experiment using a hanging weight to provide centripetal force often have low validity?
+
+### Back
+- Key idea: The experiment assumes horizontal circular motion, but the mass $m$ actually undergoes conical pendulum motion.
+- Formula / law / constant / figure: $T \cos\theta = mg$ and $T \sin\theta = \frac{mv^2}{r}$
+- When to use it: When evaluating the experimental design of uniform circular motion experiments.
+- Common trap: Confusing "validity" (experimental design flaws) with "precision" (repeatability of measurements).

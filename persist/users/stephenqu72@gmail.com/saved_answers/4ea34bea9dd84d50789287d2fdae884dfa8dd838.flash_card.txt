@@ -1,0 +1,8 @@
+### Front
+For two satellites of different masses ($m$ and $2m$) in the same circular orbit around a planet, which quantity differs between them?
+
+### Back
+- Key idea: Orbital speed, period, and centripetal acceleration are independent of the satellite's mass. Momentum ($p = mv$) is directly proportional to mass.
+- Formula / law / constant: $v = \sqrt{\frac{GM}{r}}$, $p = mv$
+- When to use it: To compare orbital dynamics of satellites with varying masses at the same orbital radius.
+- Common trap: Assuming that because the motion (speed/period) is the same, all associated physical quantities must also be identical.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the half-life ($t_{1/2}$) of a radioisotope given its decay constant ($\lambda$)?
+
+### Back
+- Key idea: Radioactive decay follows an exponential model where $t_{1/2}$ is the time required for the activity or population to reduce by half.
+- Formula / law / constant / figure: $t_{1/2} = \frac{\ln(2)}{\lambda} \approx \frac{0.693}{\lambda}$
+- When to use it: When calculating the time for a radioactive sample to halve, given the probability of decay per unit time.
+- Common trap: Failing to match time units; if $\lambda$ is in $\text{s}^{-1}$, the result is in seconds. Ensure final answer matches the significant figures provided in the question.

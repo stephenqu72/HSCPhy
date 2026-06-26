@@ -1,0 +1,8 @@
+### Front
+How do you calculate the additional energy required for an orbiting satellite to escape the gravitational field of a planet?
+
+### Back
+- **Key idea:** The energy required is the magnitude of the satellite's current total orbital energy (the difference between $E_{final} = 0$ and $E_{orbit}$).
+- **Formula:** $W = \Delta E = 0 - (-\frac{GmM}{2r}) = \frac{GmM}{2r}$
+- **When to use it:** Whenever a question asks for the "additional energy" or "work done" to move from a stable circular orbit to infinity (escape velocity).
+- **Common trap:** Forgetting that total orbital energy is negative; students often incorrectly use the potential energy formula ($-\frac{GmM}{r}$) instead of the total mechanical energy formula ($-\frac{GmM}{2r}$).

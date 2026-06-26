@@ -1,0 +1,8 @@
+### Front
+What physics principle and formula are used to calculate the orbital radius of a stationary (areostationary) satellite given its orbital period?
+
+### Back
+- **Key idea:** A satellite in a stationary orbit has an orbital period equal to the planet's rotational period.
+- **Formula / law / constant:** Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+- **When to use it:** When determining the required altitude or radius for a satellite to remain fixed relative to a point on a planet's surface.
+- **Common trap:** Forgetting to convert the orbital period ($T$) into standard SI units (seconds) before substituting into the formula.

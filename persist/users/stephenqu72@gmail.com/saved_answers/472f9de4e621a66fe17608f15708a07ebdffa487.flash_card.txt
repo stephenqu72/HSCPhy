@@ -1,0 +1,8 @@
+### Front
+How do you calculate the percentage of a radioactive substance that has decayed after time $t$?
+
+### Back
+- Key idea: Total amount is 100%; subtract the amount remaining after decay.
+- Formula / law / constant / figure: $N(t) = N_0(0.5)^{\frac{t}{t_{1/2}}}$; Decayed $\% = 100\% - N(t)\%$.
+- When to use it: Whenever a problem asks for the amount *lost* or *decayed* rather than the amount *remaining*.
+- Common trap: Forgetting to convert units so that $t$ and $t_{1/2}$ are in the same time frame (e.g., both in hours).

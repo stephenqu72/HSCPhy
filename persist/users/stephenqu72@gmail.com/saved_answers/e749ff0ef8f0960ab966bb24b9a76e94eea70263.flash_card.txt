@@ -1,0 +1,8 @@
+### Front
+What is the formula for the tension ($T$) in a string supporting an object of mass $m$ at the **lowest point** of a vertical circle with radius $r$ and angular velocity $\omega$?
+
+### Back
+- Key idea: At the bottom of a vertical circle, the tension must overcome both gravity and provide the necessary centripetal force.
+- Formula / law / constant: $T = mg + \frac{mv^2}{r}$ or $T = m(g + r\omega^2)$.
+- When to use it: Circular motion problems involving vertical planes where the tension is at its maximum.
+- Common trap: Forgetting to add the weight component ($mg$); treating it as just centripetal force ($T = \frac{mv^2}{r}$).

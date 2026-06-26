@@ -1,0 +1,11 @@
+### Front
+What are the fundamental formulas for orbital velocity ($v$), escape velocity ($v_e$), and gravitational potential energy ($U$)?
+
+### Back
+- **Key idea:** Gravitational mechanics rely on the distance ($r$) measured from the **center of the mass**, not the surface.
+- **Formulas:** 
+    - $v = \sqrt{\frac{GM}{r}}$
+    - $v_e = \sqrt{\frac{2GM}{r}}$
+    - $U = -\frac{GMm}{r}$
+- **When to use it:** Use when calculating satellite speeds, planetary escape requirements, or energy states in a gravitational field.
+- **Common trap:** Forgetting to add altitude ($h$) to the planetary radius ($R$) to find the total orbital radius ($r = R + h$). Also, $U$ must be expressed as a negative value.

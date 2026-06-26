@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of a spherical celestial body given its gravitational field strength ($g$) and radius ($r$)?
+
+### Back
+- Key idea: Equate Newton’s Law of Universal Gravitation to the gravitational field strength formula.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2} \rightarrow M = \frac{gr^2}{G}$; $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+- When to use it: To find mass when surface gravity and radius are provided.
+- Common trap: Forgetting to convert the radius from km to meters (m) before squaring.

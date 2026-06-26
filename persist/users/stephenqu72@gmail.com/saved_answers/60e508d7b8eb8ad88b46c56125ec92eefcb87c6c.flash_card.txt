@@ -1,0 +1,8 @@
+### Front
+How do you determine the plate separation ($d$) required to suspend a charged particle of mass $m$ and charge $q$ between two parallel plates with voltage $V$?
+
+### Back
+- **Key idea:** Equilibrium exists when the upward electric force balances the downward gravitational force ($F_E = F_g$).
+- **Formula:** $d = \frac{qV}{mg}$
+- **When to use it:** Problems involving Millikan-style oil drop experiments or charged particles held stationary in a uniform electric field.
+- **Common trap:** Forgetting to convert units (e.g., leaving the answer in meters when the options are in mm) or using the wrong gravitational constant ($g = 9.8 \, \text{m/s}^2$).

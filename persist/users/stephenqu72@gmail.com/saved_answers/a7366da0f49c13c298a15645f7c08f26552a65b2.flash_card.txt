@@ -1,0 +1,8 @@
+### Front
+How do you determine the time taken for a projectile to reach a specific vertical displacement?
+
+### Back
+- **Key idea:** Solve the vertical kinematic displacement equation as a quadratic for time ($t$).
+- **Formula / law / constant:** $s_y = u_y t + \frac{1}{2} a_y t^2$ where $u_y = u \sin\theta$.
+- **When to use it:** When given vertical displacement, launch velocity, and angle.
+- **Common trap:** Confusing the two quadratic roots; usually, the smaller $t$ is the time to reach the height on the way up, and the larger $t$ is on the way down.

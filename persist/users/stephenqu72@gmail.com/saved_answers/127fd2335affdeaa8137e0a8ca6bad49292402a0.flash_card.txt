@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force ($F_c$) for a conical pendulum given mass ($m$), length ($L$), angle ($\theta$), and angular velocity ($\omega$)?
+
+### Back
+- Key idea: The centripetal force is provided by the horizontal component of the tension.
+- Formula: $F_c = mr\omega^2$, where $r = L\cos\theta$ (radius of the horizontal circle).
+- When to use it: Circular motion problems where an object moves in a horizontal plane suspended by a string.
+- Common trap: Using $\sin\theta$ instead of $\cos\theta$ for the radius; failing to convert mass to SI units (kg).

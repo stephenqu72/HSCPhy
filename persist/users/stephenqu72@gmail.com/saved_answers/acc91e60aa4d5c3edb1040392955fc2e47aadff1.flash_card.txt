@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational potential energy ($U$) of a satellite in orbit?
+
+### Back
+- Key idea: Gravitational potential energy is negative because work must be done to move an object to infinity (where $U=0$).
+- Formula / law / constant / figure: $U = -\frac{GMm}{r}$ (where $r = R_E + h$)
+- When to use it: To calculate the energy state of an object within a gravitational field.
+- Common trap: Forgetting to add the Earth's radius ($R_E$) to the satellite's altitude ($h$) to find the orbital radius ($r$).

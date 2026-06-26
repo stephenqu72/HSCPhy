@@ -1,0 +1,8 @@
+### Front
+How do you calculate the relativistic momentum of an object moving at a significant fraction of $c$?
+
+### Back
+- Key idea: Momentum increases as velocity approaches the speed of light due to the Lorentz factor.
+- Formula: $p = \gamma m_0 v$ where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+- When to use it: When an object’s velocity is relativistic (typically $v > 0.1c$).
+- Common trap: Forgetting to apply the Lorentz factor ($\gamma$) and using classical momentum ($p=mv$) instead. Remember that relativistic momentum must always be greater than classical momentum.

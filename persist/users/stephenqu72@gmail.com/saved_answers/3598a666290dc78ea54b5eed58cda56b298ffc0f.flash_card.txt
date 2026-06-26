@@ -1,0 +1,8 @@
+### Front
+How do you calculate the minimum radius required to generate artificial gravity of a specific magnitude ($a_c$) at a given rotation period ($T$)?
+
+### Back
+- **Key idea:** Artificial gravity is produced by centripetal acceleration ($a_c$) directed toward the center of rotation.
+- **Formula / law / constant / figure:** $r = \frac{a_c T^2}{4\pi^2}$ (derived from $a_c = \frac{4\pi^2 r}{T^2}$)
+- **When to use it:** When solving for spacecraft dimensions required to simulate Earth-equivalent gravity ($9.8 \text{ m s}^{-2}$) via rotation.
+- **Common trap:** Forgetting to square the period ($T^2$) or confusing the radius ($r$) with the diameter of the spacecraft.

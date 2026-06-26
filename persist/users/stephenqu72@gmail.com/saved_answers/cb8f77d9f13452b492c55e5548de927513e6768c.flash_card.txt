@@ -1,0 +1,8 @@
+### Front
+What is the condition for an object to maintain contact with a track at the top of a vertical loop?
+
+### Back
+- **Key idea:** The normal force ($N$) must be $\geq 0$.
+- **Formula / law:** $N + mg = \frac{mv^2}{r} \implies v \geq \sqrt{rg}$
+- **When to use it:** Problems involving vertical circular motion or "loop-the-loop" mechanics.
+- **Common trap:** Forgetting that both gravity and the normal force act towards the centre of the circle at the top, making the centripetal force $F_c = N + mg$.

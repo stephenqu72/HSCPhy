@@ -1,0 +1,8 @@
+### Front
+How do you determine the resultant magnetic field vector ($B_{total}$) from two perpendicular magnetic field sources ($B_1$ and $B_2$)?
+
+### Back
+- Key idea: Resultant magnetic field is the vector sum of individual fields; for perpendicular vectors, use the Pythagorean theorem.
+- Formula / law / constant / figure: $B_{total} = \sqrt{B_1^2 + B_2^2}$ and $\theta = \tan^{-1}(\frac{B_{vertical}}{B_{horizontal}})$.
+- When to use it: When calculating the magnitude and direction of a net magnetic field produced by multiple perpendicular sources at a single point.
+- Common trap: Forgetting to determine the direction (angle) in addition to the magnitude, or incorrectly identifying field direction (remember: field lines exit North and enter South).

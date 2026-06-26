@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational field strength ($g$) at the surface of a spherical body like Triton?
+
+### Back
+- Key idea: Gravitational field strength depends on the mass of the body and the square of the distance from its center.
+- Formula: $g = \frac{GM}{r^2}$
+- When to use it: To find the acceleration due to gravity on the surface of a planet or moon.
+- Common trap: Forgetting to square the radius ($r$) or using the diameter instead of the radius.

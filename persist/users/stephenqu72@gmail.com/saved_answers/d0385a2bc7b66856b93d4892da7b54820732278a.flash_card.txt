@@ -1,0 +1,8 @@
+### Front
+Why does the actual trajectory of a projectile differ from the theoretical parabolic model?
+
+### Back
+- Key idea: Air resistance (drag) acts as a non-conservative force that dissipates mechanical energy, causing $v_x$ to decrease and altering $v_y$.
+- Formula / law / constant / figure: No fixed constant or figure.
+- When to use it: Any question comparing theoretical ("vacuum") vs. real-world projectile motion.
+- Common trap: Forgetting that air resistance affects both horizontal range (due to deceleration) and vertical height/symmetry, not just the range.

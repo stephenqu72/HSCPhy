@@ -1,0 +1,8 @@
+### Front
+What is the required speed $v$ for a driver at the top of a vertical loop of radius $r$ to experience a normal force equal to their own weight?
+
+### Back
+- Key idea: Net centripetal force is the sum of gravity and normal force ($F_c = mg + N$).
+- Formula: $v = \sqrt{2gr}$ (derived from $2mg = \frac{mv^2}{r}$)
+- When to use it: When solving circular motion problems involving vertical loops with a specified apparent weight ($N$).
+- Common trap: Forgetting that gravity also acts toward the center at the top of the loop (unlike at the bottom, where it acts against the normal force).

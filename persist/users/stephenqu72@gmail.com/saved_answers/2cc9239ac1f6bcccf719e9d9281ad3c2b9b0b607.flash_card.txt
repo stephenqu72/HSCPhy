@@ -1,0 +1,8 @@
+### Front
+How do you solve a projectile motion problem when given the final impact velocity and range to find the initial launch velocity?
+
+### Back
+- **Key idea:** Vertical motion is affected by gravity ($g$), while horizontal motion is constant ($v_x = \frac{\Delta x}{t}$).
+- **Formula / law / constant / figure:** $v_y = u_y - gt$; $v_x = u_x$; $g = 9.8 \text{ m s}^{-2}$.
+- **When to use it:** When analyzing projectile trajectories in the absence of air resistance (standard HSC assumption).
+- **Common trap:** Forgetting that $v_y$ changes due to gravity while $v_x$ remains constant, or using the wrong sign for $g$ (downward acceleration).

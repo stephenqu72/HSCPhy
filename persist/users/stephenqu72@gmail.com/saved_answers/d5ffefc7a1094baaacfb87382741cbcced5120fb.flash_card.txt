@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass ($M$) of a central body using the orbital velocity ($v$) and orbital radius ($r$) of a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force required to keep a body in orbit.
+- **Formula / law / constant:** $v = \sqrt{\frac{GM}{r}} \implies M = \frac{v^2r}{G}$; $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+- **When to use it:** When given orbital speed and radius to determine the mass of the central planet or star.
+- **Common trap:** Forgetting to convert units to SI (km to m) before substituting into the formula, leading to significant magnitude errors.

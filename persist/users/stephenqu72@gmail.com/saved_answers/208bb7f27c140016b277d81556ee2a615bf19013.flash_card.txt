@@ -1,0 +1,8 @@
+### Front
+Explain the relationship between a planet's orbital eccentricity ($e$) and its orbital period ($T$), and state the law governing this.
+
+### Back
+- **Key idea:** Orbital period depends only on the semimajor axis ($a$) and the mass of the central body ($M$); it is independent of eccentricity.
+- **Formula / law:** Kepler’s Third Law: $T^2 = \frac{4\pi^2}{GM}a^3$ (or $T^2 \propto a^3$).
+- **When to use it:** When comparing orbital periods of objects around the same central mass, regardless of their orbital shape.
+- **Common trap:** Assuming a higher eccentricity (more "stretched" orbit) results in a longer orbital period.

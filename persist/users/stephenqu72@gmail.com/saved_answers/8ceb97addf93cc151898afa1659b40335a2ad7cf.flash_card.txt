@@ -1,0 +1,8 @@
+### Front
+How do you calculate the required banking angle ($\theta$) for a vehicle to traverse a circular track without relying on friction?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force, while the vertical component balances gravity.
+- Formula / law: $\tan(\theta) = \frac{v^2}{rg}$
+- When to use it: Problems involving ideal (frictionless) banked tracks or calculating the "design speed" of a corner.
+- Common trap: Forgetting to convert velocity from km/h to m/s (divide by 3.6) before squaring.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate angular velocity ($\omega$) given an arc length ($s$), radius ($r$), and time ($\Delta t$)?
+
+### Back
+- Key idea: Relate linear motion to rotational motion using arc length.
+- Formula: $\omega = \frac{\theta}{t}$ where $\theta = \frac{s}{r}$ (in radians).
+- When to use it: When converting linear distance traveled by a rotating object into angular speed.
+- Common trap: Forgetting to convert radians to degrees if the question specifies units in $^\circ\text{s}^{-1}$.

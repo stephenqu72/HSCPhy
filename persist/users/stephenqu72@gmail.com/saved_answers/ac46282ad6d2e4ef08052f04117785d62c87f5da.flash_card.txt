@@ -1,0 +1,8 @@
+### Front
+How do you determine the altitude ($h$) of an object where the gravitational field strength is a specific fraction of the surface value?
+
+### Back
+- **Key idea:** Gravitational field strength follows an inverse-square law relative to the distance from the center of the mass.
+- **Formula / law / constant:** $g = \frac{GM}{r^2}$, where $r = R_{planet} + h$.
+- **When to use it:** When calculating orbital parameters, weight changes at altitude, or relative gravitational strengths.
+- **Common trap:** Forgetting that $r$ is the distance from the **center** of the planet ($R+h$), not just the altitude ($h$) above the surface.

@@ -1,0 +1,8 @@
+### Front
+What is the formula for the ideal velocity ($v$) of a vehicle on a banked track with radius ($r$) and bank angle ($\theta$), assuming no friction?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force required for circular motion.
+- **Formula:** $v = \sqrt{rg \tan \theta}$
+- **When to use it:** When a vehicle negotiates a frictionless banked curve at a specific speed where no lateral force (friction) is required.
+- **Common trap:** Confusing $\tan \theta$ with $\sin \theta$ or forgetting that $v$ is proportional to $\sqrt{\tan \theta}$ (not linear).

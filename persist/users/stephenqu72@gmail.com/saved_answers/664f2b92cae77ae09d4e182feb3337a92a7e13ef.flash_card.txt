@@ -1,0 +1,8 @@
+### Front
+Derive the expression for $\tan\theta$ in a conical pendulum and state the force balance condition for the tension $F_T$.
+
+### Back
+- **Key idea:** The horizontal component of tension provides centripetal force ($F_T\sin\theta = \frac{mv^2}{r}$), while the vertical component balances gravity ($F_T\cos\theta = mg$).
+- **Formula:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** To relate the radius, velocity, and angle of a mass rotating in a horizontal circle suspended by a string.
+- **Common trap:** Forgetting to convert frequency ($f$) from rev/min to Hz ($s^{-1}$) before calculating velocity $v = 2\pi rf$.

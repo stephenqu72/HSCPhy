@@ -1,0 +1,8 @@
+### Front
+How do you calculate the observed frequency when a sound source is moving away from a stationary observer?
+
+### Back
+- **Key idea**: The Doppler Effect causes a perceived decrease in frequency as the source moves away, effectively increasing the observed wavelength.
+- **Formula**: $f_{obs} = f_s \left( \frac{v}{v + v_s} \right)$
+- **When to use it**: When there is relative motion along the line of sight between the source and the observer.
+- **Common trap**: Forgetting to resolve the source's velocity into the component directed specifically along the line of sight (e.g., in projectile motion, use only the vertical velocity if the observer is directly above/below).

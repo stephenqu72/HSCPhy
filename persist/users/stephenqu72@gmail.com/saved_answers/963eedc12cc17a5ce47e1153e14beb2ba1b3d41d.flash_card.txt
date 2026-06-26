@@ -1,0 +1,8 @@
+### Front
+What is the minimum release height $h$ for a particle of mass $m$ to complete a vertical loop of radius $r$, and what is the critical condition at the top of the loop?
+
+### Back
+- Key idea: Total mechanical energy is conserved; at the top, the centripetal force is provided solely by gravity (Normal force $N = 0$).
+- Formula / law: $h = 2.5r$; Condition: $v = \sqrt{gr}$ at the top.
+- When to use it: Circular motion problems involving vertical loops and conservation of energy.
+- Common trap: Forgetting to include the kinetic energy ($\frac{1}{2}mv^2$) at the top of the loop; $h$ is not just $2r$.

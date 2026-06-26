@@ -1,0 +1,8 @@
+### Front
+A projectile has horizontal velocity $u$ at its peak and total velocity $2u$ upon impact. Calculate the angle of impact below the horizontal.
+
+### Back
+- Key idea: Horizontal velocity ($v_x$) is constant; resultant velocity $v = \sqrt{v_x^2 + v_y^2}$.
+- Formula / law / constant / figure: $\tan(\theta) = \frac{v_y}{v_x}$
+- When to use it: Projectile motion problems involving speed relationships at specific points (peak vs. ground).
+- Common trap: Forgetting that $v_x$ remains $u$ throughout the entire flight path.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the age of a fossil using radioactive decay?
+
+### Back
+- **Key idea:** The age is calculated by multiplying the number of elapsed half-lives by the isotope's half-life duration.
+- **Formula:** $N(t) = N_0(1/2)^n$ where $n$ is the number of half-lives.
+- **When to use it:** When given the remaining fraction of a radioactive isotope and its half-life constant.
+- **Common trap:** Confusing the remaining fraction with the decayed fraction (e.g., if 7/8 has decayed, 1/8 remains, meaning 3 half-lives have passed).

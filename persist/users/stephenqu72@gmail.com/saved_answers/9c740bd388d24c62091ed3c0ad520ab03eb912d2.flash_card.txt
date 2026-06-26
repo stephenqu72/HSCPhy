@@ -1,0 +1,11 @@
+### Front
+How do you determine the number of $\alpha$ and $\beta^-$ particles emitted during radioactive decay given a change in mass number ($A$) and atomic number ($Z$)?
+
+### Back
+- Key idea: Conserve nucleon number ($A$) and proton number ($Z$) across the decay chain.
+- Formula / law: 
+  $\Delta A = -4x$ 
+  $\Delta Z = -2x + y$ 
+  (where $x = \alpha$ particles, $y = \beta^-$ particles).
+- When to use it: When transforming one isotope into another through a series of decay steps.
+- Common trap: Forgetting that $\beta^-$ decay increases the proton number ($Z+1$), while $\beta^+$ (positron) decay decreases it ($Z-1$).

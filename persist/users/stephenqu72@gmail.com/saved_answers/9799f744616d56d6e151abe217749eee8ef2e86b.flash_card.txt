@@ -1,0 +1,8 @@
+### Front
+When a projectile is launched with an initial downward angle, how do you correctly define the initial vertical velocity component ($v_y$) and the displacement ($y$) for projectile motion calculations?
+
+### Back
+- Key idea: Vector components and sign conventions must be consistent with the coordinate system.
+- Formula / law / constant / figure: $v_y = -v \sin\theta$; $g = -9.8 \text{ m s}^{-2}$.
+- When to use it: Whenever a projectile is launched at an angle relative to the horizontal.
+- Common trap: Forgetting that a downward launch angle makes the initial vertical velocity ($v_y$) and vertical displacement ($y$) negative relative to the launch point.

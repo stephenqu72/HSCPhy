@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force ($F_c$) for an object undergoing uniform circular motion in terms of angular velocity?
+
+### Back
+- Key idea: Centripetal force acts towards the center of a circular path to maintain constant speed.
+- Formula / law / constant: $F_c = mr\omega^2$ (where $\omega$ is angular velocity in rad/s).
+- When to use it: Any problem involving an object moving at a constant speed in a circular path.
+- Common trap: Using diameter instead of radius ($r$) or failing to convert revolutions per minute (RPM) to rad/s ($rad/s = RPM \times \frac{2\pi}{60}$).

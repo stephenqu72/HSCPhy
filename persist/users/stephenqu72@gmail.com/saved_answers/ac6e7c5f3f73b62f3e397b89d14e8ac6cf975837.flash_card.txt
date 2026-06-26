@@ -1,0 +1,8 @@
+### Front
+What are the conservation laws applied when determining the nuclear equation for $\beta^-$-decay?
+
+### Back
+- Key idea: Total nucleon number ($A$) and atomic number ($Z$) must be conserved across the equation.
+- Formula / law: $A_{parent} = A_{daughter} + A_{particle}$ and $Z_{parent} = Z_{daughter} + Z_{particle}$.
+- When to use it: To predict or verify decay products in nuclear transformation problems.
+- Common trap: Forgetting that in $\beta^-$-decay, the atomic number increases ($Z+1$) because a neutron becomes a proton; do not mistake it for alpha decay ($Z-2$).

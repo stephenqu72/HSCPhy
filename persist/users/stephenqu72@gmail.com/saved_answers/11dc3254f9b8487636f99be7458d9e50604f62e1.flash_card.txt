@@ -1,0 +1,8 @@
+### Front
+What is the formula for the speed ($v$) of an object undergoing uniform circular motion on a frictionless banked surface (or conical pendulum) at angle $\theta$ and radius $r$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force ($F_c = mv^2/r$), while the vertical component balances gravity ($mg$).
+- **Formula:** $v = \sqrt{rg \tan(\theta)}$
+- **When to use it:** When analyzing circular motion on inclined planes, conical pendulums, or banked tracks where friction is negligible.
+- **Common trap:** Confusing $\tan(\theta)$ with $\sin(\theta)$ or $\cos(\theta)$; always draw a free-body diagram to confirm the force components.

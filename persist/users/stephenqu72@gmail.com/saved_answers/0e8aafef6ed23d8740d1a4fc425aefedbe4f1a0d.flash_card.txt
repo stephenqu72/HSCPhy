@@ -1,0 +1,8 @@
+### Front
+What are the three ways to increase torque ($\tau$) on a lever/spanner?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force; maximize it by manipulating its variables.
+- Formula / law / constant: $\tau = rF \sin(\theta)$ (No fixed constant)
+- When to use it: Any problem involving rotating an object around a pivot or fulcrum.
+- Common trap: Forgetting that $\sin(\theta)$ refers to the angle between the lever arm and the force vector; torque is **not** maximized at $0^\circ$ or $180^\circ$ (where $\sin=0$).

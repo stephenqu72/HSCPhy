@@ -1,0 +1,8 @@
+### Front
+Explain the cause of altitude loss in Low Earth Orbit (LEO) and how a satellite restores its position.
+
+### Back
+- **Key idea:** Atmospheric drag causes orbital decay (loss of kinetic energy); thruster burns (station-keeping) restore altitude.
+- **Formula / law / constant / figure:** No fixed constant or figure.
+- **When to use it:** When analyzing orbital altitude-time graphs that show a gradual downward trend followed by sudden upward spikes.
+- **Common trap:** Assuming the orbit is "stable" without external intervention; LEO satellites *require* constant station-keeping to counteract drag.

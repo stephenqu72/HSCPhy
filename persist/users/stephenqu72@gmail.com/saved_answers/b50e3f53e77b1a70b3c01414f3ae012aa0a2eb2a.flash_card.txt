@@ -1,0 +1,8 @@
+### Front
+What is the formula and condition to determine the net magnetic force on a current-carrying wire placed between two other parallel current-carrying wires?
+
+### Back
+- **Key idea:** The principle of superposition; the net force is the vector sum of individual forces exerted by each wire.
+- **Formula / law / constant / figure:** $\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2 \pi d}$ (where $\mu_0 = 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}$).
+- **When to use it:** When calculating the current or position required to achieve equilibrium (net force = 0) in a system of parallel conductors.
+- **Common trap:** Confusing the direction of forces—remember that currents in the *same* direction attract, while currents in *opposite* directions repel. Always define a coordinate system (e.g., up/down) to ensure vector cancellation.

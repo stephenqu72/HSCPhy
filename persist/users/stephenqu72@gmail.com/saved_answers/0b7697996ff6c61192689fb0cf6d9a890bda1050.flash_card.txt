@@ -1,0 +1,8 @@
+### Front
+Describe the velocity-time characteristics of a projectile's speed over its flight path.
+
+### Back
+- Key idea: Total speed is the magnitude of the velocity vector; it is a concave-up function that reaches a non-zero minimum at the trajectory's peak.
+- Formula / law / constant / figure: $S(t) = \sqrt{v_x^2 + (v_y - gt)^2}$
+- When to use it: To determine projectile speed graphs where horizontal velocity remains constant and vertical velocity changes linearly.
+- Common trap: Assuming the speed reaches zero at the peak (incorrect, only $v_y = 0$) or assuming a linear speed-time graph.

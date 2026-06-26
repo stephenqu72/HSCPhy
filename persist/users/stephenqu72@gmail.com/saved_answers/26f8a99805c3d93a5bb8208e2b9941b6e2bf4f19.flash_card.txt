@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant impact speed ($v$) of a projectile?
+
+### Back
+- **Key idea:** Resultant velocity is the vector sum of independent horizontal ($v_x$) and vertical ($v_y$) components.
+- **Formula:** $v = \sqrt{v_x^2 + v_y^2}$
+- **When to use it:** To find the final speed of an object moving in two dimensions at a specific time or point.
+- **Common trap:** Forgetting to calculate the final vertical velocity ($v_y = u_y + gt$) before performing Pythagoras’ theorem.

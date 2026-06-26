@@ -1,0 +1,8 @@
+### Front
+What are the three conditions for a satellite to maintain a geostationary orbit, and how is the orbital radius calculated?
+
+### Back
+- **Key idea:** Satellite must match Earth's rotation ($T \approx 23.93$ h), orbit in the equatorial plane (west to east), and maintain a specific circular altitude.
+- **Formula:** Equate gravitational force to centripetal force: $\frac{GMm}{r^2} = \frac{mv^2}{r} \rightarrow r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$
+- **When to use it:** When calculating orbital requirements for communication satellites or when an observer on Earth sees a satellite in a fixed position.
+- **Common trap:** Using a 24-hour day instead of the sidereal day ($86\,164$ s) and forgetting to subtract the Earth's radius from the orbital radius ($r$) to find the altitude ($h$).

@@ -1,0 +1,8 @@
+### Front
+Derive the expression for escape velocity ($v_e$) from the surface of a planet.
+
+### Back
+- **Key idea:** Conservation of Energy: Total mechanical energy at the surface ($E_k + E_p$) must equal zero at an infinite distance.
+- **Formula / law / constant / figure:** $\frac{1}{2}mv_e^2 - \frac{GMm}{r} = 0 \implies v_e = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** To determine the minimum initial velocity required to escape a gravitational field via projectile motion alone.
+- **Common trap:** Assuming this velocity is required for rockets; rockets use continuous thrust and do not need to reach escape velocity instantaneously.

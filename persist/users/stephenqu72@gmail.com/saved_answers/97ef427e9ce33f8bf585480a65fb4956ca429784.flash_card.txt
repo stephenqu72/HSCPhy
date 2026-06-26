@@ -1,0 +1,8 @@
+### Front
+What is the fundamental physics principle used to derive the orbital period and velocity of a satellite, and what is the crucial distance required for the calculations?
+
+### Back
+- **Key idea:** Gravitational force provides the necessary centripetal force for circular motion ($F_g = F_c$).
+- **Formula / law / constant:** $F_g = \frac{GMm}{r^2}$ and $F_c = \frac{mv^2}{r} = mr\left(\frac{2\pi}{T}\right)^2$.
+- **When to use it:** For satellites, planets, or objects in stable circular orbits.
+- **Common trap:** Using altitude ($h$) instead of the orbital radius ($r = R_E + h$); $r$ must be the distance from the **centre** of the primary body.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the surface gravity ($g$) of a celestial body like Ganymede using Newton’s Law of Universal Gravitation?
+
+### Back
+- **Key idea:** Surface gravity depends on the body's mass and the square of its radius.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- **When to use it:** To determine the acceleration due to gravity on the surface of any moon or planet.
+- **Common trap:** Forgetting to square the radius ($r^2$) or using the diameter instead of the radius.

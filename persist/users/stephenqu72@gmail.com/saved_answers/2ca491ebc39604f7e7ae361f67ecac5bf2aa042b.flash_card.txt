@@ -1,0 +1,8 @@
+### Front
+How do you determine the gravitational field strength of a planet relative to Earth given its mass and radius ratios?
+
+### Back
+- Key idea: Gravitational field strength $g$ is proportional to $M/r^2$. Use ratio analysis to cancel constants.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$
+- When to use it: Comparative gravity problems between two planets or locations.
+- Common trap: Forgetting to square the radius ratio (e.g., if radius is halved, $g$ increases by $2^2=4$).

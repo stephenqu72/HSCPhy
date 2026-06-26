@@ -1,0 +1,8 @@
+### Front
+How does gravitational acceleration $g$ scale when a planet’s mass ($M$) and radius ($r$) are both doubled?
+
+### Back
+- Key idea: $g$ is proportional to $M$ and inversely proportional to $r^2$. Doubling $M$ increases $g$ by 2, while doubling $r$ decreases $g$ by 4 ($2^2$), resulting in a net change of $1/2$.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$
+- When to use it: Whenever comparing gravitational field strengths between different celestial bodies.
+- Common trap: Forgetting to square the radius factor (e.g., assuming doubling the radius only halves the gravity).

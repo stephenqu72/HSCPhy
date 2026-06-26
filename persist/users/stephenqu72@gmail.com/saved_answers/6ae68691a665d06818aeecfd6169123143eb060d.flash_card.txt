@@ -1,0 +1,8 @@
+### Front
+Why are transformers used to increase voltage for long-distance power transmission?
+
+### Back
+- Key idea: Increasing voltage decreases current, which significantly reduces $I^2R$ thermal energy losses in transmission lines.
+- Formula / law: $P = VI$ and $P_{\text{loss}} = I^2R$
+- When to use it: When analyzing energy efficiency in electrical power distribution systems.
+- Common trap: Assuming the resistance ($R$) of the cables changes; resistance is a fixed physical property of the wire and remains constant.

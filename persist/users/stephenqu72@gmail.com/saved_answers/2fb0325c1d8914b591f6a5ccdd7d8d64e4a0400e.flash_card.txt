@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) applied to a lever arm, and how does the angle of force affect the result?
+
+### Back
+- **Key idea:** Torque is the rotational equivalent of force, representing the turning effect of a force applied at a distance from a pivot.
+- **Formula / law / constant / figure:** $\tau = rF \sin(\theta)$ (where $\theta$ is the angle between the lever arm and force vector).
+- **When to use it:** Use when calculating turning effects on objects like spanners, seesaws, or hinges in equilibrium problems.
+- **Common trap:** Forgetting to convert lengths to SI units (meters) or incorrectly assuming $\sin(90^\circ)$ when force is applied at an angle.

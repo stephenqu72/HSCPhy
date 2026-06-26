@@ -1,0 +1,8 @@
+### Front
+How do you determine the change in gravitational force when mass and distance are varied?
+
+### Back
+- Key idea: Gravitational force is directly proportional to the product of masses ($F \propto m_1m_2$) and inversely proportional to the square of distance ($F \propto 1/r^2$).
+- Formula / law / constant / figure: $F = \frac{Gm_1m_2}{r^2}$ where $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- When to use it: Any problem involving point masses, orbital mechanics, or calculating gravitational field strength.
+- Common trap: Confusing "decreased **by** $x$" (new value $= 1-x$) with "decreased **to** $x$" (new value $= x$). Always square the scaling factor for distance.

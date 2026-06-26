@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating torque ($\tau$) on a rotating object and what does the angle $\phi$ represent?
+
+### Back
+- **Key idea:** Torque is the rotational analogue of force (the "turning effect").
+- **Formula:** $\tau = rF\sin(\phi)$
+- **When to use it:** To calculate the turning effect of a force applied at a distance $r$ from a pivot point.
+- **Common trap:** Confusing the angle $\phi$ (the angle between the position vector $\vec{r}$ and the force vector $\vec{F}$) with the angle between the force and the perpendicular to the radius (which would require $\cos\theta$). Always convert radius to SI units (meters).

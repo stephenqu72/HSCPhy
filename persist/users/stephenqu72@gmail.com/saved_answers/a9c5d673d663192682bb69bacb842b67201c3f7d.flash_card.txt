@@ -1,0 +1,8 @@
+### Front
+When a moving archer fires an arrow at a stationary target, why must they aim "behind" the bullseye to hit the center?
+
+### Back
+- Key idea: Galilean Relativity (Principle of Relative Velocity).
+- Formula / law / constant / figure: $\vec{v}_{arrow/ground} = \vec{v}_{arrow/archer} + \vec{v}_{archer/ground}$
+- When to use it: Any scenario involving projectiles launched from a moving frame of reference.
+- Common trap: Forgetting that the projectile inherits the horizontal velocity of the launcher; aiming directly at the target will cause the arrow to drift forward, missing the center.

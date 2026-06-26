@@ -1,0 +1,11 @@
+### Front
+Why can a car travel at a higher speed on a banked track compared to a flat track?
+
+### Back
+- **Key idea:** On a banked track, the horizontal component of the normal force ($N \sin \theta$) provides additional centripetal force, reducing reliance on static friction.
+- **Formula / law / constant / figure:** 
+    - Flat: $F_c = f = \frac{mv^2}{r}$
+    - Banked: $F_c = N \sin \theta = \frac{mv^2}{r}$
+    - No fixed constant.
+- **When to use it:** When comparing circular motion on horizontal vs. inclined surfaces (e.g., race tracks, velodromes).
+- **Common trap:** Assuming the normal force ($N$) always equals $mg$. On a banked track, $N \cos \theta = mg$, meaning $N > mg$.

@@ -1,0 +1,8 @@
+### Front
+Derive the SI base unit equivalence for the Farad ($F$).
+
+### Back
+- Key idea: Capacitance ($C = Q/V$) expressed in base units ($kg, m, s, A$).
+- Formula / law / constant / figure: $1 \, F = A^2 \cdot s^4 \cdot kg^{-1} \cdot m^{-2}$
+- When to use it: Dimensional analysis questions or verifying the unit consistency of electrostatic formulas.
+- Common trap: Confusing Volts ($J/C$) with Joules; remember $V = \frac{kg \cdot m^2 \cdot s^{-2}}{A \cdot s} = kg \cdot m^2 \cdot s^{-3} \cdot A^{-1}$.

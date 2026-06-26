@@ -1,0 +1,8 @@
+### Front
+How do you calculate the electrostatic force between two point charges, and what is the formula?
+
+### Back
+- **Key idea:** Coulomb's Law states that the electrostatic force between two point charges is proportional to the product of the charges and inversely proportional to the square of the distance between them.
+- **Formula / law / constant / figure:** $F = k \frac{|q_1 q_2|}{r^2}$ where $k \approx 8.99 \times 10^9\text{ N}\cdot\text{m}^2/\text{C}^2$.
+- **When to use it:** To find the magnitude of the force between static point charges.
+- **Common trap:** Forgetting to convert distance to metres (m) or neglecting to square the distance ($r^2$). When calculating *magnitude*, ignore charge signs.

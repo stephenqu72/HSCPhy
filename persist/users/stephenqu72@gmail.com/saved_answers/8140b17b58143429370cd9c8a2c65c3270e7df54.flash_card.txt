@@ -1,0 +1,8 @@
+### Front
+How do you calculate the net gravitational field strength exerted by two celestial bodies on an object between them?
+
+### Back
+- **Key idea:** Gravitational field strength is a vector quantity; the net field is the vector sum of individual fields.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2}$; $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** To find the resultant acceleration of an object in a multi-body gravitational field.
+- **Common trap:** Forgetting that $r$ is the distance from the *center* of each mass, not the surface, and failing to account for the opposite directions of the vectors (subtraction).

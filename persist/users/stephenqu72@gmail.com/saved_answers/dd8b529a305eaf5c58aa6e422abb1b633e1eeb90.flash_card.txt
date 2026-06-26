@@ -1,0 +1,8 @@
+### Front
+How do you calculate the potential difference ($V$) required to accelerate a proton between D-chambers in a cyclotron?
+
+### Back
+- Key idea: Work done by the electric field equals the change in the proton's kinetic energy.
+- Formula / law / constant / figure: $qV = \Delta E_k = \frac{1}{2}m(v_f^2 - v_i^2)$ where $v = \frac{rqB}{m}$.
+- When to use it: When finding the accelerating voltage required for a specific increase in the cyclotron path radius ($r$).
+- Common trap: Forgetting that the distance between entry and exit points in a D-chamber is the **diameter** ($2r$), not the radius ($r$).

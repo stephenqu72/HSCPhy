@@ -1,0 +1,8 @@
+### Front
+How can the mass ($M$) of a central body be determined using a graph of satellite orbital data?
+
+### Back
+- **Key idea:** The gradient of a $T^2$ vs $R^3$ graph represents the constant $\frac{4\pi^2}{GM}$.
+- **Formula:** $\text{Gradient} = \frac{4\pi^2}{GM} \implies M = \frac{4\pi^2}{G \times \text{Gradient}}$
+- **When to use it:** When given multiple orbital periods and radii for satellites orbiting the same body.
+- **Common trap:** Forgetting to convert axis units (e.g., $10^{10}$ and $10^{24}$) when calculating the numerical value of the gradient.

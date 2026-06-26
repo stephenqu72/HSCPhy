@@ -1,0 +1,8 @@
+### Front
+How do you calculate the acceleration required for a fielder to intercept a projectile at a specific horizontal distance?
+
+### Back
+- Key idea: Kinematic independence of horizontal and vertical motion.
+- Formula / law / constant / figure: $\Delta y = v_{y0}t + \frac{1}{2}a_y t^2$ and $x = v_x t$; SUVAT equations.
+- When to use it: When an object’s landing time and position are determined by gravity, and an observer must travel a set distance to reach that point.
+- Common trap: Forgetting to resolve the initial velocity into components or failing to account for the object’s starting or ending height (e.g., catching at 0.5m instead of ground level).

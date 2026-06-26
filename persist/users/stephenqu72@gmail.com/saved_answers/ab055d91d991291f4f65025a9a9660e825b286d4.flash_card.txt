@@ -1,0 +1,8 @@
+### Front
+How much work is done by a uniform electric field when a charge is moved parallel to the plates?
+
+### Back
+- Key idea: Moving a charge along an equipotential line/surface requires no work.
+- Formula / law / constant / figure: $W = Fd \cos(\theta)$; $\theta = 90^\circ \implies \cos(90^\circ) = 0$.
+- When to use it: Any scenario involving point charges or charges moving within uniform electric fields (parallel plates).
+- Common trap: Assuming work is done simply because a force (electric field) exists; remember that work only occurs with displacement *parallel* to the force vector.

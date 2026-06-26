@@ -1,0 +1,8 @@
+### Front
+What determines the escape velocity of a satellite, and how does distance from the center of a planet ($r$) affect it?
+
+### Back
+- Key idea: Escape velocity is independent of the satellite's mass and inversely proportional to the square root of the distance from the center of the planet.
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}}$
+- When to use it: To calculate or compare the minimum velocity required to escape a gravitational field from a specific orbital radius.
+- Common trap: Assuming a more massive satellite requires more energy/speed to escape (the satellite's mass cancels out).

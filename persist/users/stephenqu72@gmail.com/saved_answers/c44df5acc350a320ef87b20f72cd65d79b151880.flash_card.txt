@@ -1,0 +1,8 @@
+### Front
+How do you determine the radius of a planet if you know its mass and gravitational acceleration ($g$)?
+
+### Back
+- **Key idea:** Gravitational acceleration $g$ is proportional to $M/r^2$. Use a ratio comparison between the target planet and Earth.
+- **Formula:** $g = \frac{GM}{r^2}$
+- **When to use it:** When comparing gravitational field strengths between two celestial bodies with different masses and radii.
+- **Common trap:** Forgetting to square the radius ratio or forgetting to take the square root when solving for $r$.

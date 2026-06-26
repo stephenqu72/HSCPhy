@@ -1,0 +1,8 @@
+### Front
+How does orbital altitude determine the practical application of a satellite in LEO, MEO, and GEO?
+
+### Back
+- **Key idea:** Altitude determines orbital period and Earth coverage. Higher altitudes = longer periods and larger coverage area.
+- **Formula / law / constant / figure:** Kepler’s Third Law ($T^2 \propto r^3$). GEO altitude $\approx 35,800\text{ km}$ ($T=24\text{ h}$).
+- **When to use it:** When asked to relate orbital characteristics to specific uses (LEO: high-res/low-latency; MEO: triangulation/GPS; GEO: fixed-point broadcasting).
+- **Common trap:** Describing the orbits without explicitly linking the physical properties (period/speed/view) to the utility of the application.

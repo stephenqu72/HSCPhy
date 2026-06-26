@@ -1,0 +1,8 @@
+### Front
+What factors determine the magnitude of torque ($\tau$) and when is torque zero?
+
+### Back
+- **Key idea:** Torque is the rotational analogue of force; it is the tendency of a force to rotate an object about an axis.
+- **Formula:** $\tau = rF \sin(\theta)$
+- **When to use it:** Use when calculating rotational equilibrium or rotational motion problems.
+- **Common trap:** Torque is zero if the force is applied directly at the pivot ($r=0$) or if the force vector is parallel/collinear to the position vector ($\theta = 0^\circ$ or $180^\circ$, as $\sin(\theta)=0$).

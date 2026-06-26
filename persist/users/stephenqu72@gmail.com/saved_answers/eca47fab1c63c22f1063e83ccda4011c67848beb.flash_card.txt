@@ -1,0 +1,8 @@
+### Front
+How do you compare the orbital periods ($T$) and radii ($r$) of two satellites orbiting the same central body?
+
+### Back
+- Key idea: Kepler’s Third Law states $T^2 \propto r^3$.
+- Formula / law / constant / figure: $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$
+- When to use it: When comparing satellites or planets orbiting the same central mass (e.g., Earth or the Sun).
+- Common trap: Forgetting to square the periods or cube the radii; ensure units for $T$ and $r$ are consistent across both satellites.

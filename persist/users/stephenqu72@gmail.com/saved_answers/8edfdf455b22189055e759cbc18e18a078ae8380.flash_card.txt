@@ -1,0 +1,8 @@
+### Front
+How do you calculate gravitational field strength ($g$) at a point outside a planet when given a distance from the *surface*?
+
+### Back
+- Key idea: $g$ follows the Inverse Square Law ($g \propto 1/r^2$).
+- Formula: $g = \frac{GM}{r^2}$
+- When to use it: Whenever changing distance from a mass to determine the new gravitational field strength.
+- Common trap: Forgetting to add the planet’s radius ($R$) to the distance from the surface ($h$) to find the total distance from the centre ($r = R + h$).

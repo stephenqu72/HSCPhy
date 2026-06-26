@@ -1,0 +1,8 @@
+### Front
+How do alpha ($\alpha$) and beta-minus ($\beta^-$) decay manifest on an $N$ vs $Z$ (Segrè) plot?
+
+### Back
+- **Key idea:** Alpha decay shifts a nuclide 2 units left ($Z$) and 2 down ($N$). Beta-minus decay shifts it 1 unit right ($Z$) and 1 unit up/down depending on axis convention (always increases $Z$ by 1, decreases $N$ by 1).
+- **Formula / law / figure:** $\alpha: (Z-2, N-2)$; $\beta^-: (Z+1, N-1)$.
+- **When to use it:** Identifying decay modes from coordinates on a Segrè plot.
+- **Common trap:** Confusing the axes; check if the Y-axis is $N$ (neutrons) or $A$ (mass number). If $Y=A$, $\beta^-$ decay is a horizontal line ($A$ constant).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the number of helium nuclei produced by the Sun per second?
+
+### Back
+- Key idea: Total Power output divided by the energy released per single fusion event.
+- Formula / law / constant: $N = \frac{P}{E}$, where $E = \Delta mc^2$ (typically $4.29 \times 10^{-12} \text{ J}$ or $26.7 \text{ MeV}$).
+- When to use it: When calculating solar power output, mass-energy equivalence, or fuel consumption rates in stars.
+- Common trap: Forgetting that the energy released corresponds to the fusion of *four* hydrogen nuclei into *one* helium nucleus.

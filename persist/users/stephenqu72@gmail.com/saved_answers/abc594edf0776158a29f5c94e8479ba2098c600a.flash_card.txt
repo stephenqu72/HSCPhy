@@ -1,0 +1,8 @@
+### Front
+How does linear speed ($v$) relate to radius ($r$) for two objects with the same angular velocity ($\omega$)?
+
+### Back
+- Key idea: Linear speed is directly proportional to radius when angular velocity is constant ($v \propto r$).
+- Formula / law / constant / figure: $v = r\omega$
+- When to use it: Circular motion problems involving objects rotating about the same axis (e.g., a rotating disk or rod).
+- Common trap: Confusing $v = r\omega$ with $v = \frac{2\pi r}{T}$—if $\omega$ is constant, use the former; if period $T$ is constant, use the latter.

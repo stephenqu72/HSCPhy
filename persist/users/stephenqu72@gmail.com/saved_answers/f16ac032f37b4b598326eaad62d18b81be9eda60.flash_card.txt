@@ -1,0 +1,8 @@
+### Front
+How does the angle $\theta$ of a conical pendulum change if the radius $r$ is halved while maintaining a constant angular velocity $\omega$?
+
+### Back
+- **Key idea:** The angle $\theta$ is directly proportional to the radius $r$ (for small angles), so halving the radius halves the angle.
+- **Formula:** $\tan \theta = \frac{\omega^2 r}{g} \implies \theta \approx \frac{\omega^2 r}{g}$
+- **When to use it:** Problems involving objects in circular motion suspended by a string (conical pendulums) where you need to relate geometry ($\theta$) to dynamics ($\omega, r$).
+- **Common trap:** Forgetting to resolve tension into vertical ($T\cos\theta = mg$) and horizontal ($T\sin\theta = F_c$) components; students often incorrectly set $T = F_c$.

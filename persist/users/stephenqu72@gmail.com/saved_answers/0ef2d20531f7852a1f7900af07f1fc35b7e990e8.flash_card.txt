@@ -1,0 +1,8 @@
+### Front
+What is the formula for the maximum speed $v$ of a vehicle on a banked track with friction, and how do the bank angle $\theta$ and coefficient of friction $\mu$ affect this speed?
+
+### Back
+- **Key idea:** Increasing both $\theta$ and $\mu$ increases the centripetal force available, allowing for a higher maximum cornering speed.
+- **Formula:** $v = \sqrt{rg \left( \frac{\tan\theta + \mu}{1 - \mu\tan\theta} \right)}$
+- **When to use it:** When calculating the speed limit of a vehicle on a banked curve where both friction and banking contribute to the centripetal force.
+- **Common trap:** Forgetting that the denominator ($1 - \mu\tan\theta$) decreases as $\mu$ or $\theta$ increases, which further increases $v$ (the expression is non-linear).

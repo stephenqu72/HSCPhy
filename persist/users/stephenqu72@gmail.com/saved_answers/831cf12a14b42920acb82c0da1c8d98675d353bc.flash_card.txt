@@ -1,0 +1,8 @@
+### Front
+How can you mathematically model the orbital motion of two identical masses orbiting a common center of mass due solely to their mutual gravitational attraction?
+
+### Back
+- Key idea: Equating gravitational force to the required centripetal force.
+- Formula / law / constant / figure: $F_g = F_c \implies \frac{Gm^2}{d^2} = \frac{mv^2}{r}$ (where $d$ is separation and $r$ is orbital radius).
+- When to use it: To calculate the orbital velocity ($v$) required for a stable gravitational "tether" between two isolated masses in a vacuum.
+- Common trap: Forgetting that the distance ($d$) in Newton’s Law of Gravitation is the *total* separation between the masses ($2r$), not the orbital radius ($r$).

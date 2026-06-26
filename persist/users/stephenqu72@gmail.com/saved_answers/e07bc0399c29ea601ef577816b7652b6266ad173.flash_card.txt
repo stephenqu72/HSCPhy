@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational potential energy ($U$) of a satellite at a specific altitude ($h$) above the Earth's surface?
+
+### Back
+- **Key idea:** Gravitational potential energy is defined as the work done by an external force to bring a mass from infinity to a point in a gravitational field.
+- **Formula:** $U = -\frac{GMm}{r}$, where $r = R_E + h$.
+- **When to use it:** Whenever calculating the energy of a satellite or object within a gravitational field (noting the negative sign indicates a bound state).
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r$).

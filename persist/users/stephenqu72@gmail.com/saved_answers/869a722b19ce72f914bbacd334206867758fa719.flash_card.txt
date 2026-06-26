@@ -1,0 +1,8 @@
+### Front
+How do you determine the impulse ($J$) from a Force-time ($F-t$) graph?
+
+### Back
+- **Key idea:** Impulse is the integral of force over time, represented by the area under the $F-t$ curve.
+- **Formula:** $J = \int F \, dt$ (For constant force: $J = F \cdot \Delta t$)
+- **When to use it:** Whenever a force acts on an object over a period of time to cause a change in momentum ($\Delta p$).
+- **Common trap:** Assuming the force is constant when the graph is curved; if curved, you must calculate or approximate the area (e.g., counting squares or geometric approximation).

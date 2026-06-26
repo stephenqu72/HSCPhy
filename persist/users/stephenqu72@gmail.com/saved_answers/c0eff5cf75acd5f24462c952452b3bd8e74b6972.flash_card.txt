@@ -1,0 +1,8 @@
+### Front
+How does relativistic motion affect the observed radioactive decay constant ($\lambda$) of an unstable particle?
+
+### Back
+- Key idea: Time dilation causes moving unstable particles to decay more slowly in the observer's frame.
+- Formula / law / constant / figure: $\lambda_{observed} = \frac{\lambda}{\gamma}$, where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$.
+- When to use it: When an unstable particle is moving at relativistic speeds (near $c$) and you are asked for the decay rate observed in the lab frame.
+- Common trap: Using $t = \gamma t_0$ and forgetting that since $\lambda \propto 1/t$, the decay constant is divided by $\gamma$, not multiplied by it.

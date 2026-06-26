@@ -1,0 +1,8 @@
+### Front
+How do you determine the ratio of centripetal forces ($F_A:F_B$) for two objects in uniform circular motion with the same period $T$?
+
+### Back
+- **Key idea:** Since $\omega = \frac{2\pi}{T}$, if periods are equal, angular velocities are identical. The force ratio simplifies to the ratio of the products of mass and radius.
+- **Formula:** $F_c = mr\omega^2 \implies \frac{F_A}{F_B} = \frac{m_A r_A}{m_B r_B}$
+- **When to use it:** Problems involving comparing circular motion dynamics (e.g., amusement rides, satellites) where $T$ or $\omega$ is constant.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or incorrectly assuming $v$ is constant when $T$ is constant (use $\omega$ instead).

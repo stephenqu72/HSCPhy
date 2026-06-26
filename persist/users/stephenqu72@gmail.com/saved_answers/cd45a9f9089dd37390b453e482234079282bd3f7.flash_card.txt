@@ -1,0 +1,8 @@
+### Front
+How do you calculate the relative velocity of two objects moving at relativistic speeds (significant fractions of $c$)?
+
+### Back
+- Key idea: Velocities do not add linearly; the relative velocity must not exceed $c$.
+- Formula: $u' = \frac{v_A + v_B}{1 + \frac{v_A v_B}{c^2}}$
+- When to use it: When finding the velocity of an object as observed from a frame that is itself moving at a relativistic speed.
+- Common trap: Using Galilean addition ($v_A + v_B$), which violates the second postulate of Special Relativity.

@@ -1,0 +1,8 @@
+### Front
+In projectile motion (ignoring air resistance), how do the horizontal and vertical velocity components behave throughout the flight?
+
+### Back
+- Key idea: Horizontal velocity remains constant (no acceleration); vertical velocity changes due to gravity (constant acceleration).
+- Formula / law / constant / figure: $a_x = 0$, $a_y = g \approx 9.8 \text{ m/s}^2$ (downward).
+- When to use it: Any projectile motion problem to decouple the axes for calculations.
+- Common trap: Assuming horizontal velocity changes or that $g$ affects horizontal motion.

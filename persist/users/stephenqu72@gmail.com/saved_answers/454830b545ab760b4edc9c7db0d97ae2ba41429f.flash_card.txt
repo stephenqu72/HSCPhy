@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total mechanical energy ($E_{total}$) of a satellite of mass $m$ orbiting a planet of mass $M$ at distance $r$?
+
+### Back
+- Key idea: $E_{total}$ is the sum of kinetic ($K$) and gravitational potential ($U$) energy in a bound system.
+- Formula: $E_{total} = -\frac{GMm}{2r}$
+- When to use it: Calculating the energy required to change orbits or the total energy of a stable satellite.
+- Common trap: Forgetting the negative sign; the negative sign indicates the satellite is in a bound state (it requires energy to escape to infinity).

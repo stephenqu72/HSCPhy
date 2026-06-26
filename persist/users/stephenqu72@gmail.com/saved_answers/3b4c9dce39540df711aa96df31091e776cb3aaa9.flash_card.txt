@@ -1,0 +1,8 @@
+### Front
+How does a vehicle's motion on a frictionless banked curve change if its actual speed ($v_{actual}$) exceeds the ideal design speed ($v_{ideal}$)?
+
+### Back
+- Key idea: If $v_{actual} > v_{ideal}$, the required centripetal force exceeds the horizontal component of the normal force, causing the vehicle to slide up the bank.
+- Formula: $v = \sqrt{rg \tan(\theta)}$
+- When to use it: To determine the path of a vehicle on a banked curve without relying on friction.
+- Common trap: Assuming the vehicle maintains its path regardless of speed; always compare $v_{actual}$ to $v_{ideal}$ to determine the direction of lateral sliding.

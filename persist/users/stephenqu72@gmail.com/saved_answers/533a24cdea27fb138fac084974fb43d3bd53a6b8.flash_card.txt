@@ -1,0 +1,8 @@
+### Front
+In a gravitational potential energy-distance graph ($U$ vs $r$), how do you identify the "Total Mechanical Energy" ($E_{total}$) for an object with non-zero kinetic energy?
+
+### Back
+- **Key idea:** $E_{total} = U + K$. Since $K > 0$, the total energy must lie **above** the gravitational potential energy curve at a given $r$.
+- **Formula / law:** Conservation of Mechanical Energy: $E_{total} = -\frac{GMm}{r} + \frac{1}{2}mv^2$.
+- **When to use it:** To determine kinetic energy ($K = E_{total} - U$) or identify the object's state (e.g., at the peak of trajectory $K=0$, so $E_{total} = U$).
+- **Common trap:** Confusing points on the $U$ curve (potential energy only) with the $E_{total}$ line (potential + kinetic energy). Always ensure $E_{total} \ge U$.

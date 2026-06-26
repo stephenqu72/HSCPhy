@@ -1,0 +1,8 @@
+### Front
+How does gravitational field strength ($g$) change as the distance ($r$) from the centre of a planet doubles?
+
+### Back
+- Key idea: Inverse-square law; $g \propto 1/r^2$.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ ($G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$).
+- When to use it: To calculate gravitational field strength at varying altitudes or orbital distances.
+- Common trap: Forgetting to square the radius factor (e.g., doubling $r$ makes $g$ one-fourth, not one-half).

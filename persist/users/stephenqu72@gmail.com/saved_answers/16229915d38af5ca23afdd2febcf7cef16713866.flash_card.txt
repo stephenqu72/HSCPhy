@@ -1,0 +1,8 @@
+### Front
+What is the mathematical relationship between the gravitational force ($F$) and the separation distance ($r$) between two point masses?
+
+### Back
+- Key idea: Newton’s Law of Universal Gravitation follows an inverse-square law ($F \propto 1/r^2$).
+- Formula / law / constant / figure: $F = \frac{G m_1 m_2}{r^2}$; $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- When to use it: To calculate the attractive force between any two objects with mass.
+- Common trap: Forgetting to square the distance ($r^2$) or using the diameter instead of the radius/distance between centers.

@@ -1,0 +1,8 @@
+### Front
+How does gravitational field strength ($g$) vary with distance ($r$) inside a uniform planet, and what does this look like on a graph?
+
+### Back
+- Key idea: $g$ is directly proportional to the distance from the centre ($g \propto r$).
+- Formula: $g = \frac{GMr}{R^3}$
+- When to use it: When calculating gravitational field strength for points *inside* a planet ($r \le R$).
+- Common trap: Confusing the interior linear relationship ($g \propto r$) with the exterior inverse-square law ($g \propto 1/r^2$).

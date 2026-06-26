@@ -1,0 +1,8 @@
+### Front
+How do the total energy, potential energy, and kinetic energy of a satellite change as its orbital radius $r$ increases?
+
+### Back
+- Key idea: As $r$ increases, the satellite moves to a higher potential state, requiring work, which increases total and potential energy but decreases orbital velocity.
+- Formula: $U = -\frac{GMm}{r}$, $K = \frac{GMm}{2r}$, $E = -\frac{GMm}{2r}$
+- When to use it: Orbital mechanics problems involving satellite maneuvers or altitude changes.
+- Common trap: Assuming higher altitude means higher kinetic energy; it is the opposite—the satellite must slow down to maintain a higher circular orbit.

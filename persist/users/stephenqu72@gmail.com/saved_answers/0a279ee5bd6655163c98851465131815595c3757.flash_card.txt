@@ -1,0 +1,8 @@
+### Front
+How does the orbital velocity ($v$) of a satellite change if its orbital radius ($r$) is doubled?
+
+### Back
+- Key idea: Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto 1/\sqrt{r}$).
+- Formula: $v = \sqrt{\frac{GM}{r}}$
+- When to use it: To determine how a change in orbital altitude or distance affects the velocity required to maintain a stable circular orbit.
+- Common trap: Forgetting to take the square root of the factor change (e.g., assuming if $r$ doubles, $v$ halves; the correct factor is $1/\sqrt{2} \approx 0.707$).

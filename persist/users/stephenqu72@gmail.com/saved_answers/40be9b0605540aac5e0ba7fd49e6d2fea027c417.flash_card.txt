@@ -1,0 +1,8 @@
+### Front
+How do you relate the speeds of an object at the bottom ($v_A$) and top ($v_B$) of a vertical circle of radius $r$ using the Law of Conservation of Energy?
+
+### Back
+- Key idea: Total mechanical energy is conserved; kinetic energy at the bottom is converted to kinetic plus gravitational potential energy at the top.
+- Formula / law: $\frac{1}{2}mv_A^2 = \frac{1}{2}mv_B^2 + mg(2r)$, simplifying to $v_A^2 = v_B^2 + 4gr$.
+- When to use it: Problems involving energy transfer in circular motion where speed is not constant (unlike horizontal circular motion).
+- Common trap: Assuming speed is constant ($v_A = v_B$). In a vertical circle, gravity causes speed to vary throughout the path.

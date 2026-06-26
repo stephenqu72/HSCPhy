@@ -1,0 +1,8 @@
+### Front
+What is the velocity vector of a projectile at its maximum height (assuming negligible air resistance)?
+
+### Back
+- Key idea: Vertical velocity is zero, so the resultant velocity is purely horizontal and equal to the initial horizontal component ($v_x$).
+- Formula / law / constant / figure: $\vec{v} = v_x \hat{i}$ (where $v_y = 0$)
+- When to use it: To determine the velocity magnitude or direction at the peak of a trajectory.
+- Common trap: Assuming velocity is zero at the peak; only the vertical component is zero, while horizontal velocity remains constant.

@@ -1,0 +1,8 @@
+### Front
+How do you relate linear velocity ($v$), radius ($r$), and angular velocity ($\omega$) for an object in uniform circular motion?
+
+### Back
+- Key idea: Linear velocity is the tangential speed along the circular path, while angular velocity is the rate of change of the angle swept.
+- Formula / law / constant / figure: $v = r\omega$
+- When to use it: To convert between tangential/linear motion and rotational motion parameters.
+- Common trap: Forgetting to ensure the radius $r$ is in meters and angular velocity $\omega$ is in radians per second (rad/s) before calculating.

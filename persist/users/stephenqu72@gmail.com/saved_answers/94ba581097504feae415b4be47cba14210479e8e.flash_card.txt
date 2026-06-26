@@ -1,0 +1,8 @@
+### Front
+Calculate the escape velocity ($v_e$) and the change in gravitational potential energy ($\Delta U$) for an object moving away from a planet.
+
+### Back
+- Key idea: Escape velocity is the speed required for an object to reach infinite distance ($U=0$); $\Delta U$ represents the work done against gravity.
+- Formula: $v_e = \sqrt{\frac{2GM}{r}}$ and $\Delta U = GMm \left( \frac{1}{r_1} - \frac{1}{r_2} \right)$
+- When to use it: Use $v_e$ for launching projectiles; use $\Delta U$ for changing orbital altitudes.
+- Common trap: Forgetting that gravitational potential energy is negative; ensure $r$ is the distance from the *center* of the mass, not the surface.

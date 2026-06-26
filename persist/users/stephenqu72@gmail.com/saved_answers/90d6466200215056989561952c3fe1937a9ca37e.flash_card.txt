@@ -1,0 +1,8 @@
+### Front
+How can you mathematically maximise the torque ($\tau$) applied to an object using a wrench?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force; it is maximised when the applied force is perpendicular to the lever arm.
+- Formula: $\tau = rF\sin(\theta)$
+- When to use it: Whenever a force is applied to an object to create rotation (turning effect).
+- Common trap: Forgetting to convert units to SI (e.g., cm to m) or using $\cos(\theta)$ instead of $\sin(\theta)$ when the angle is given relative to the wrench handle.

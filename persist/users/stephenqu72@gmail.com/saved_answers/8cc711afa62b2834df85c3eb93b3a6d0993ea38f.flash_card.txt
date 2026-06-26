@@ -1,0 +1,8 @@
+### Front
+How do you derive the escape velocity ($v_e$) of an object from a planet?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy: total energy at the surface ($K+U$) equals total energy at infinity ($0+0$).
+- **Formula:** $v_e = \sqrt{\frac{2GM}{R}}$
+- **When to use it:** When calculating the minimum speed required for an object to escape a gravitational field completely.
+- **Common trap:** Forgetting that $U$ is negative at the surface ($-\frac{GMm}{R}$) or incorrectly assuming $U$ is zero at the surface. Remember that escape velocity is independent of the projectile's mass ($m$).

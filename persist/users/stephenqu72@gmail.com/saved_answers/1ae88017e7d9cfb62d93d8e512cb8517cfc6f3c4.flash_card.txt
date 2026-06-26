@@ -1,0 +1,11 @@
+### Front
+What are the fundamental formulas for calculating a planetary body's escape velocity and surface gravity?
+
+### Back
+- Key idea: Gravitational field strength and energy conservation.
+- Formula / law / constant / figure: 
+  - $v_e = \sqrt{\frac{2GM}{r}}$
+  - $g = \frac{GM}{r^2}$
+  - $G \approx 6.67 \times 10^{-11} \text{ Nm}^2\text{kg}^{-2}$
+- When to use it: When calculating orbital mechanics or projectile motion on non-Earth celestial bodies.
+- Common trap: Forgetting to convert radius ($r$) to metres or failing to square the radius in the surface gravity formula.

@@ -1,0 +1,8 @@
+### Front
+What is the formula for calculating the banking angle ($\theta$) of a frictionless track, and which forces provide the centripetal force?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force ($F_c$).
+- **Formula:** $\tan \theta = \frac{v^2}{rg}$
+- **When to use it:** When a vehicle rounds a banked corner at a specific speed such that no friction is required to maintain the path.
+- **Common trap:** Confusing $\sin\theta$ and $\tan\theta$ components, or forgetting that the normal force ($N$) is *not* equal to weight ($mg$) when the track is banked.

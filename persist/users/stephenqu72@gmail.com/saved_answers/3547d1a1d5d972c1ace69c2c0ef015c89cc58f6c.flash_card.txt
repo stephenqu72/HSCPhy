@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a central body (e.g., Jupiter) using an $r^3$ vs. $T^2$ graph?
+
+### Back
+- **Key idea:** The gradient of an $r^3$ vs $T^2$ graph equals $\frac{GM}{4\pi^2}$.
+- **Formula:** $M = \frac{4\pi^2}{G} \times \text{gradient}$, where $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- **When to use it:** When given observational orbital data (period and radius) for satellites or moons orbiting a central mass.
+- **Common trap:** Failing to convert units to SI (e.g., keeping orbital periods in days/hours instead of seconds, or distances in km instead of m) before calculating the gradient.

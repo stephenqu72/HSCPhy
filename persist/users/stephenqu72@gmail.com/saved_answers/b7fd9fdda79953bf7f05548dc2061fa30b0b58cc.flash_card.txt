@@ -1,0 +1,8 @@
+### Front
+How do you calculate the number of remaining parent radioactive nuclei ($N_t$) after a specific elapsed time ($t$)?
+
+### Back
+- Key idea: Radioactive decay follows an exponential decrease based on half-life.
+- Formula: $N_t = N_0 \left(\frac{1}{2}\right)^{\frac{t}{t_{1/2}}}$
+- When to use it: Any decay problem where the initial quantity, elapsed time, and half-life ($t_{1/2}$) are known.
+- Common trap: Confusing the number of parent atoms remaining ($N_t$) with the number of daughter atoms produced ($N_{total} - N_t$). Ensure $t$ and $t_{1/2}$ are in the same time units.

@@ -1,0 +1,8 @@
+### Front
+What is the relationship between power ($P$), torque ($\tau$), and angular velocity ($\omega$) in rotational motion, and how do you calculate angular velocity from RPM?
+
+### Back
+- **Key idea:** Power in rotational motion is the product of torque and angular velocity ($P = \tau\omega$).
+- **Formula / law:** $\omega = \text{rpm} \times \frac{2\pi}{60}$ (to convert to rad/s).
+- **When to use it:** When calculating the power output of rotating mechanical systems (e.g., engines, motors).
+- **Common trap:** Forgetting to convert RPM to radians per second; standard physics formulas require SI units (rad/s), not revolutions per minute.

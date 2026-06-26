@@ -1,0 +1,8 @@
+### Front
+Define "red shift" and state how to calculate the recession velocity of a distant galaxy given its red shift ($z$).
+
+### Back
+- **Key idea:** Red shift is the increase in wavelength of light from a receding source due to the Doppler effect or the expansion of space-time.
+- **Formula:** $z = \frac{\lambda_{obs}}{\lambda_0} - 1$ and $v \approx zc$ (for non-relativistic speeds).
+- **When to use it:** To determine the speed of distant galaxies or interpret spectral line displacements in cosmological data.
+- **Common trap:** Forgetting to subtract 1 in the $z$ formula or mixing up the observed and rest wavelengths.

@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the orbital velocity ($v$) of a satellite and explain how to determine the orbital radius ($r$) given an altitude ($h$).
+
+### Back
+- Key idea: Orbital velocity is found by equating centripetal force ($F_c$) to gravitational force ($F_g$).
+- Formula / law: $v = \sqrt{\frac{GM}{r}}$; where $r = R_E + h$.
+- When to use it: To calculate the speed of an object in a circular orbit around a central mass ($M$).
+- Common trap: Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r$).

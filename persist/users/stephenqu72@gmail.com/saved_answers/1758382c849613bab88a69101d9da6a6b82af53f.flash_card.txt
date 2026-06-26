@@ -1,0 +1,8 @@
+### Front
+How do you determine the charge $q$ of a particle accelerating within an electric field between parallel plates?
+
+### Back
+- **Key idea:** The net force is the vector sum of gravity ($F_g$) and the upward electrostatic force ($F_e$).
+- **Formula / law / constant / figure:** $F_{net} = ma$ and $F_{net} = mg - qE$ (where $E = V/d$).
+- **When to use it:** When a charged particle is moving vertically under the influence of both gravity and a uniform electric field.
+- **Common trap:** Forgetting to convert $F_{net}$ into the force balance equation ($F_e = F_g - ma$); ensure $F_g$ and $F_e$ are subtracted, not added, due to opposite directions.

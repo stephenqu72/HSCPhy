@@ -1,0 +1,8 @@
+### Front
+What is the derivation for the maximum safe speed ($v$) of a vehicle on a flat, unbanked curve?
+
+### Back
+- **Key idea:** Centripetal force is provided entirely by static friction ($F_c = F_f$).
+- **Formula / law / constant / figure:** $v = \sqrt{\mu gr}$ (derived from $\frac{mv^2}{r} = \mu mg$).
+- **When to use it:** To calculate the maximum speed on flat circular paths where no banking angle is provided.
+- **Common trap:** Forgetting to convert the final velocity from $\text{m/s}$ to $\text{km/h}$ (multiply by $3.6$) or assuming the mass of the vehicle affects the maximum speed.

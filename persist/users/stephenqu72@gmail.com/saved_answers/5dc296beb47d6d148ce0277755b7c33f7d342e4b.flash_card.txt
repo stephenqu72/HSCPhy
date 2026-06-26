@@ -1,0 +1,8 @@
+### Front
+How does the orbital velocity ($v$) of a satellite depend on the mass of the satellite and its orbital radius ($R$)?
+
+### Back
+- Key idea: Orbital velocity is independent of the satellite's mass but inversely proportional to the square root of the orbital radius.
+- Formula / law / constant / figure: $v = \sqrt{\frac{GM}{R}}$
+- When to use it: To compare velocities of satellites orbiting the same central mass at different radii.
+- Common trap: Assuming a heavier satellite requires a higher orbital velocity; the satellite's mass ($m$) cancels out in the derivation.

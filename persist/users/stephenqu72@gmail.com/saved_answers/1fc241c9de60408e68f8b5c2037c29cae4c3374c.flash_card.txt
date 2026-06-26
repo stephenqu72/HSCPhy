@@ -1,0 +1,8 @@
+### Front
+What is the standard orbital altitude of a geostationary satellite, and which law is used to calculate it?
+
+### Back
+- **Key idea:** A geostationary orbit requires an orbital period ($T$) equal to Earth's sidereal rotation period ($\approx 86\,164$ s).
+- **Formula:** Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+- **When to use it:** When solving for circular orbit parameters where the satellite must remain fixed relative to a point on Earth.
+- **Common trap:** Confusing **orbital radius** ($r$, distance from the center of Earth) with **orbital altitude** (distance from Earth's surface). Remember: Altitude = $r - R_{earth}$.

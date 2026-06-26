@@ -1,0 +1,8 @@
+### Front
+How can a rotating space station simulate Earth’s gravity, and how is the required velocity calculated for a given radius?
+
+### Back
+- **Key idea:** The normal force from the station's floor provides the centripetal acceleration required to simulate gravity ($a_c = g$).
+- **Formula:** $v = \sqrt{g \cdot r}$ or $a_c = r\omega^2$.
+- **When to use it:** Problems involving artificial gravity in rotating habitats.
+- **Common trap:** Confusing linear velocity ($v$) with angular velocity ($\omega$); ensure units are consistent (m/s vs rad/s).

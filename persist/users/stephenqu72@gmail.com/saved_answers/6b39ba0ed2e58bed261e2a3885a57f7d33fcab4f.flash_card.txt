@@ -1,0 +1,8 @@
+### Front
+Explain the variation in DC motor current when the motor is subjected to an increased mechanical load.
+
+### Back
+- Key idea: Increased mechanical load reduces motor speed, which decreases back EMF ($\varepsilon$), resulting in a higher net voltage ($V - \varepsilon$) and increased current.
+- Formula / law: $I = \frac{V - \varepsilon}{R}$ (Ohm’s Law applied to DC motors).
+- When to use it: To explain current fluctuations during motor start-up, free-running (steady state), or under heavy loading.
+- Common trap: Stating that "more load requires more current" without explicitly explaining that the **change in back EMF** is the mechanism causing the current to increase.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the required radius ($r$) for a rotating spacecraft to simulate Earth's gravity ($g$)?
+
+### Back
+- Key idea: Artificial gravity is achieved by equating centripetal acceleration ($a_c$) to $g$.
+- Formula: $r = \frac{g}{(2\pi f)^2}$ or $r = \frac{g}{\omega^2}$
+- When to use it: Circular motion problems involving rotating space stations or centrifuges where a specific acceleration is required.
+- Common trap: Forgetting to convert frequency ($f$) to angular velocity ($\omega = 2\pi f$) or failing to square the entire $\omega$ term.

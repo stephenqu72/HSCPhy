@@ -1,0 +1,8 @@
+### Front
+How do you calculate the linear speed ($v$) of an object in uniform circular motion given its radius ($r$) and period ($T$)?
+
+### Back
+- Key idea: Linear speed is the distance (circumference) per unit time.
+- Formula / law / constant / figure: $v = \frac{2\pi r}{T}$
+- When to use it: Any problem involving uniform circular motion where the time for one full revolution is provided.
+- Common trap: Forgetting to use the radius (instead of diameter) or miscalculating the period if given frequency ($T = 1/f$).

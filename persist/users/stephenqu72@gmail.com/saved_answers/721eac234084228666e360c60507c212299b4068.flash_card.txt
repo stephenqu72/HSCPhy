@@ -1,0 +1,8 @@
+### Front
+What is the relationship between the kinetic energy ($K$) gained by a charge ($q$) accelerated across a potential difference ($V$) in a uniform electric field ($E$) over distance ($d$)?
+
+### Back
+- Key idea: Work done by an electric field equals the change in kinetic energy ($W = \Delta K$).
+- Formula / law / constant / figure: $K = qV$ and $V = Ed \rightarrow K = qEd$ or $E = \frac{K}{qd}$.
+- When to use it: Solving for field strength or final velocity of charged particles between parallel plates.
+- Common trap: Forgetting that $V = Ed$ only applies to **uniform** electric fields (parallel plates); it does not apply to point charges.

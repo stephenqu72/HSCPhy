@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total energy of a satellite in a stable circular orbit, and how is it related to potential energy?
+
+### Back
+- Key idea: Total orbital energy $E$ is the sum of kinetic and gravitational potential energy. For a circular orbit, it is exactly half of the potential energy.
+- Formula / law / constant / figure: $E = -\frac{GMm}{2r}$
+- When to use it: To find the mechanical energy of a satellite at distance $r$ from the centre of the central mass.
+- Common trap: Forgetting to add Earth's radius ($R$) to the satellite's altitude ($h$) to get the orbital radius ($r = R + h$). Also, failing to recognise that the total energy is negative because the satellite is in a bound state.

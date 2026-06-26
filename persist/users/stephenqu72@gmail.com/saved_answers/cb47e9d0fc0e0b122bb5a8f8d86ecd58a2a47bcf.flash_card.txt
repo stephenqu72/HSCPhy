@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the charge-to-mass ratio ($e/m$) of an electron moving through a magnetic field based on the accelerating voltage ($V_0$) and the radius of curvature ($r$).
+
+### Back
+- **Key idea:** Equating electric potential energy to kinetic energy, then setting the Lorentz force equal to centripetal force.
+- **Formula:** $\frac{e}{m} = \frac{2V_0}{B^2r^2}$
+- **When to use it:** Solving for $e/m$ in cathode ray tubes or mass spectrometry problems where electrons are accelerated by a potential difference and deflected by a perpendicular magnetic field.
+- **Common trap:** Forgetting to convert magnetic field strength ($B$) from milli-Tesla (mT) to Tesla (T) before squaring it in the calculation.

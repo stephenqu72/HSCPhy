@@ -1,0 +1,8 @@
+### Front
+How do you determine the location between two like charges ($Q$ and $4Q$) where the net electric field is zero?
+
+### Back
+- Key idea: The point where the magnitudes of the individual electric fields are equal ($|E_1| = |E_2|$).
+- Formula / law / constant / figure: $E = \frac{kQ}{r^2}$ (Coulomb’s Law for electric field).
+- When to use it: To find neutral points between two like charges; set $\frac{kQ_1}{x^2} = \frac{kQ_2}{(d-x)^2}$.
+- Common trap: Forgetting to take the square root of both sides (or forgetting that $Q$ and $k$ cancel out), leading to unnecessary quadratic expansion.

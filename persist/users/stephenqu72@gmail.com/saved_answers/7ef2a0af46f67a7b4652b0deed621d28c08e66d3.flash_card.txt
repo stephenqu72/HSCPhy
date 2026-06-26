@@ -1,0 +1,8 @@
+### Front
+Why can spherical bodies like the Earth and Moon be treated as point masses when applying Newton’s Law of Universal Gravitation?
+
+### Back
+- Key idea: The **Shell Theorem** states that a spherically symmetric body exerts gravitational force as if all its mass were concentrated at its geometric center.
+- Formula / law / constant / figure: $F = G\frac{Mm}{r^2}$ (Newton’s Universal Law of Gravitation).
+- When to use it: When the distance ($r$) between the centers of mass of spherical objects is large compared to the radii of the objects.
+- Common trap: Mistaking $r$ for the distance between the surfaces; it must be the distance between the **centers of mass**.

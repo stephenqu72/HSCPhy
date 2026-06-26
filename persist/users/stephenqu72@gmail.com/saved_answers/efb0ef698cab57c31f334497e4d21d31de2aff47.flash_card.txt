@@ -1,0 +1,8 @@
+### Front
+When a vehicle travels over the crest of a hill of radius $r$ at speed $v$, what is the expression for the normal force $F_N$ and the condition for the vehicle to lose contact with the surface?
+
+### Back
+- **Key idea:** At the crest, the net centripetal force is provided by the difference between weight ($mg$) and normal force ($F_N$).
+- **Formula:** $F_N = mg - \frac{mv^2}{r}$. The vehicle loses contact when $F_N \leq 0$ (i.e., $v \geq \sqrt{rg}$).
+- **When to use it:** Circular motion problems involving vertical planes (crests, bridges, or roller coasters).
+- **Common trap:** Confusing the crest (top) with the bottom of a hill; at the bottom, the normal force is $F_N = mg + \frac{mv^2}{r}$ because the surface must support both gravity and the required centripetal force.

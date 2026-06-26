@@ -1,0 +1,8 @@
+### Front
+How do you determine the radius of a charged particle's path in a magnetic field given an accelerating voltage $V$?
+
+### Back
+- Key idea: Equating electric potential energy ($qV$) to kinetic energy ($\frac{1}{2}mv^2$) followed by magnetic force acting as centripetal force ($qvB = \frac{mv^2}{r}$).
+- Formula / law / constant / figure: $r = \frac{1}{B} \sqrt{\frac{2mV}{q}}$
+- When to use it: When a particle is accelerated from rest through a potential difference $V$ before entering a uniform magnetic field $B$.
+- Common trap: Forgetting that the mass $m$ and charge $q$ of the particle appear inside the square root; the radius is proportional to $\sqrt{m/q}$.

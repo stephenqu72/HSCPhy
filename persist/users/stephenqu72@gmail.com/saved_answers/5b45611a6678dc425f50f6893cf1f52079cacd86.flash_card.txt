@@ -1,0 +1,8 @@
+### Front
+How do you determine the escape velocity of an object from a planet or star, and what does it represent?
+
+### Back
+- **Key idea:** The minimum speed needed for an object to break free from the gravitational pull of a massive body without further propulsion.
+- **Formula / law / constant / figure:** $v_e = \sqrt{\frac{2GM}{R}}$, where $G = 6.67 \times 10^{-11} \, \text{N m}^2/\text{kg}^2$.
+- **When to use it:** When calculating the speed required to reach "infinity" (zero gravitational potential energy) from the surface of a celestial body.
+- **Common trap:** Confusing $R$ with the object's altitude; $R$ must be the distance from the **centre of mass** of the body.

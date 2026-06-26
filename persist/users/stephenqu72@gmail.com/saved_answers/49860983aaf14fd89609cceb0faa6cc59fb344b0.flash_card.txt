@@ -1,0 +1,8 @@
+### Front
+How do you determine the fundamental unit of charge ($e$) when given a set of experimental data points representing total charges ($Q$)?
+
+### Back
+- Key idea: Quantization of electric charge ($Q = ne$).
+- Formula / law / constant / figure: $Q = n \times e$, where $n$ is an integer.
+- When to use it: To find the elementary charge from a dataset by calculating the Greatest Common Divisor (GCD) of all given $Q$ values.
+- Common trap: Assuming the smallest value in the dataset is $e$; always check if all other values are integer multiples of that smallest value first.

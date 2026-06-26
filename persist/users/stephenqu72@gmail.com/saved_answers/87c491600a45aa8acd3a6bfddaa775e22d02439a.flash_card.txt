@@ -1,0 +1,8 @@
+### Front
+How do you calculate the horizontal range ($R$) of a projectile launched from level ground?
+
+### Back
+- **Key idea:** The horizontal displacement is determined by initial velocity, launch angle, and gravity.
+- **Formula:** $R = \frac{v^2 \sin(2\theta)}{g}$
+- **When to use it:** Only for projectiles launched and landing on level ground.
+- **Common trap:** Forgetting to double the angle (using $\sin(\theta)$ instead of $\sin(2\theta)$) or failing to ensure the calculator is in Degree mode.

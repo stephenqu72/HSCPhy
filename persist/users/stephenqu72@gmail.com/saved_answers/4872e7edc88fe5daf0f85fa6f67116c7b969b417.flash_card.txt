@@ -1,0 +1,8 @@
+### Front
+How do you determine the change in gravitational potential energy ($\Delta U$) from a gravitational field strength vs. distance ($g$ vs. $r$) graph?
+
+### Back
+- **Key idea:** The change in gravitational potential energy is the product of mass ($m$) and the area under the $g$ vs. $r$ graph.
+- **Formula / law:** $\Delta U = m \int_{r_1}^{r_2} g(r) \, dr$
+- **When to use it:** When provided with a graphical representation of the gravitational field where calculating the area (trapezoids or counting squares) is required.
+- **Common trap:** Forgetting to multiply the area (which represents $\Delta V$, the change in potential per unit mass) by the mass of the object to find $\Delta U$.

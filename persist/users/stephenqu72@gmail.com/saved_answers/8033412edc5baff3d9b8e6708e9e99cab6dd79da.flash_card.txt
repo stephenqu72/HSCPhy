@@ -1,0 +1,8 @@
+### Front
+What is the governing physics principle used to determine the distance $d$ of a satellite at the L1 Lagrange point, and how is the centripetal force provided?
+
+### Back
+- **Key idea:** The satellite orbits the Sun with the same period as the Earth ($T_E$); the net gravitational force from the Sun and Earth provides the required centripetal acceleration.
+- **Formula:** $\frac{G M_s}{(R - d)^2} - \frac{G M_E}{d^2} = \left(\frac{2\pi}{T_E}\right)^2 (R - d)$
+- **When to use it:** When calculating the position of a satellite held in a fixed relative position between two larger orbiting bodies (L1 point).
+- **Common trap:** Forgetting to subtract the Earth's gravitational pull ($\frac{GM_E}{d^2}$) from the Sun's pull, or incorrectly setting the orbital radius as $R$ instead of $(R-d)$.

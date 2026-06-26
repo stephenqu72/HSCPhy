@@ -1,0 +1,8 @@
+### Front
+How does changing launch velocity ($u$) or platform height ($h$) affect the horizontal range ($R$) of a horizontally launched projectile?
+
+### Back
+- **Key idea:** Range is directly proportional to both initial horizontal velocity and the square root of height ($R = u\sqrt{2h/g}$).
+- **Formula:** $R = u \cdot t$ where $t = \sqrt{2h/g}$.
+- **When to use it:** To determine landing position changes in projectile motion problems.
+- **Common trap:** Assuming mass affects the range (it does not, as $g$ is constant for all masses) or ignoring that changing $h$ affects the time of flight, not just vertical displacement.

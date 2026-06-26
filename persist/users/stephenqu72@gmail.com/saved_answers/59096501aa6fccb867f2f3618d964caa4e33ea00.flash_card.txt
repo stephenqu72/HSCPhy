@@ -1,0 +1,8 @@
+### Front
+How does the total mechanical energy ($E$) of a satellite change when moving from a lower orbit to a higher orbit, and what does this change represent?
+
+### Back
+- **Key idea:** Moving to a higher orbit increases total mechanical energy ($E$ becomes less negative); the work done equals $\Delta E$.
+- **Formula / law / constant / figure:** $E = -\frac{GMm}{2r}$; $W = \Delta E = \Delta U + \Delta K = \frac{1}{2}\Delta U$.
+- **When to use it:** When calculating the work required by an external force to change a satellite's orbital radius.
+- **Common trap:** Assuming work done equals only the change in Potential Energy ($\Delta U$). Remember that because the satellite slows down in a higher orbit, the change in Kinetic Energy ($\Delta K$) must also be included (specifically, $\Delta K = -\frac{1}{2}\Delta U$).

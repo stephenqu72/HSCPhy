@@ -1,0 +1,8 @@
+### Front
+How do you calculate the age of a sample using radioactive decay when given the percentage of isotope remaining?
+
+### Back
+- Key idea: Use the number of half-lives ($n$) to relate remaining parent isotope to total time elapsed ($t = n \times T_{1/2}$).
+- Formula / law / constant / figure: $N(t) = N_0(1/2)^n$, where $n = t/T_{1/2}$.
+- When to use it: For geochronology problems involving radioactive dating where decay constants or half-lives are provided.
+- Common trap: Forgetting to subtract the "decayed" percentage from 100% to find the *remaining* amount ($N(t)$) before solving for $n$.

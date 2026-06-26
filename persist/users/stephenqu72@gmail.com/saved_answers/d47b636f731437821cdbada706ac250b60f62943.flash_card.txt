@@ -1,0 +1,8 @@
+### Front
+How does orbital radius ($r$) affect a satellite's velocity ($v$), period ($T$), and centripetal acceleration ($a_c$)?
+
+### Back
+- **Key idea:** As $r$ increases, $v$ and $a_c$ decrease, while $T$ increases.
+- **Formula / law / constant:** $v = \sqrt{\frac{GM}{r}}$, $T = 2\pi\sqrt{\frac{r^3}{GM}}$, $a_c = \frac{GM}{r^2}$ (Kepler’s 3rd Law: $T^2 \propto r^3$).
+- **When to use it:** Comparing properties of satellites at different altitudes orbiting the same central mass.
+- **Common trap:** Confusing $r$ (distance from center of mass) with altitude ($h = r - R_{Earth}$). Ensure you use the distance from the *center* of the planet.

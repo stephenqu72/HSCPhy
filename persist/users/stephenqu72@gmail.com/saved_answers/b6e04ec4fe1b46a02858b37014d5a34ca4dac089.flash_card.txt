@@ -1,0 +1,8 @@
+### Front
+Derive the expression for the escape velocity ($v_e$) of an object from a planet of mass $M$ and radius $r$.
+
+### Back
+- **Key idea:** Set the total mechanical energy (Kinetic + Gravitational Potential) at the surface equal to the energy at infinity (zero).
+- **Formula:** $\frac{1}{2}mv^2 - \frac{GMm}{r} = 0 \implies v_e = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** When calculating the minimum speed to leave a gravitational field without further propulsion.
+- **Common trap:** Forgetting that the object’s mass ($m$) cancels out; escape velocity is independent of the projectile's mass.

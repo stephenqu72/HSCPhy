@@ -1,0 +1,8 @@
+### Front
+How do you convert energy in GeV to mass in kg for subatomic particles?
+
+### Back
+- Key idea: Einstein’s mass-energy equivalence ($E=mc^2$).
+- Formula / law / constant / figure: $m = E/c^2$; $1 \text{ eV} = 1.602 \times 10^{-19} \text{ J}$; $c = 3.00 \times 10^8 \text{ m/s}$.
+- When to use it: Converting subatomic particle rest energy into SI mass units.
+- Common trap: Forgetting to convert GeV or eV into Joules before dividing by $c^2$.

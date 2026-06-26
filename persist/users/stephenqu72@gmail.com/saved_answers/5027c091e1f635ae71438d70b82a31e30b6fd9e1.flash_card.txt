@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total mechanical energy of a satellite in a circular orbit, and how is the orbital radius $r$ determined?
+
+### Back
+- Key idea: The total energy is the sum of kinetic and potential energy, always negative for a bound orbit.
+- Formula / law / constant / figure: $E = -\frac{GMm}{2r}$; where $r = R_E + h$.
+- When to use it: To calculate the energy required to maintain or change a satellite's circular orbit.
+- Common trap: Forgetting to add the Earth's radius ($R_E$) to the satellite's altitude ($h$) when calculating $r$.

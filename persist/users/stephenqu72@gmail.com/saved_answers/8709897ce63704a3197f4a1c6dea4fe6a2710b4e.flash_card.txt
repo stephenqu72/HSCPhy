@@ -1,0 +1,8 @@
+### Front
+Compare the orbital characteristics of Low Earth Orbit (LEO) and Geostationary Earth Orbit (GEO) satellites.
+
+### Back
+- **Key idea:** LEO orbits close to Earth (250–2,000 km) below the Van Allen belts; GEO orbits at ~35,786 km with a 24-hour period, appearing stationary over the equator.
+- **Formula / law / constant / figure:** Kepler’s Third Law ($T^2 \propto r^3$); GEO altitude $\approx 35,786\text{ km}$.
+- **When to use it:** When determining satellite suitability for telecommunications (GEO) vs. imaging/monitoring (LEO).
+- **Common trap:** Assuming GEO satellites are "stationary" in space (they are moving at high velocity, just matched to Earth's rotation) or confusing their altitude requirements.

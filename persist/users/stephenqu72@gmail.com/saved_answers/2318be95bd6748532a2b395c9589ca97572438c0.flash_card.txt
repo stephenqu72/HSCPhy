@@ -1,0 +1,8 @@
+### Front
+How do you determine which planet has the greatest gravitational field strength ($g$) at its surface given different masses and radii?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass ($M$) and inversely proportional to the square of the radius ($r^2$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ ($G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{kg}^{-2}$)
+- When to use it: To compare surface gravity between celestial bodies or calculate the acceleration due to gravity at a specific distance.
+- Common trap: Forgetting to square the radius ($r^2$). If the radius doubles, $g$ decreases by a factor of 4, not 2.

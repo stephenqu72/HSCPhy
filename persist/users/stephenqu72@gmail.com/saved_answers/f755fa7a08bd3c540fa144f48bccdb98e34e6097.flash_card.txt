@@ -1,0 +1,8 @@
+### Front
+How do you calculate the velocity of object A relative to object B ($\vec{v}_{A/B}$)?
+
+### Back
+- **Key idea:** Relative velocity represents the velocity of one object as observed from the frame of reference of another.
+- **Formula / law:** $\vec{v}_{A/B} = \vec{v}_A - \vec{v}_B$
+- **When to use it:** When determining how an object moves from the perspective of an observer who is also in motion.
+- **Common trap:** Forgetting to define a coordinate system (positive/negative directions) and failing to perform vector subtraction correctly with signs.

@@ -1,0 +1,8 @@
+### Front
+How does the maximum speed of a car on a flat, unbanked curve depend on the forces present?
+
+### Back
+- Key idea: Centripetal force is provided entirely by static friction ($F_f = \frac{mv^2}{r}$).
+- Formula: $v = \sqrt{\frac{\mu F_N r}{m}}$ or $v = \sqrt{\mu gr}$.
+- When to use it: For any flat, horizontal circular motion where friction is the sole inward force.
+- Common trap: Forgetting that the normal force ($F_N$) equals $mg$ only on a flat road; it changes on banked tracks.

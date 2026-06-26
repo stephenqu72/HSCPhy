@@ -1,0 +1,8 @@
+### Front
+Why is the work done by a centripetal force on an object in uniform circular motion always zero?
+
+### Back
+- Key idea: Centripetal force is always perpendicular to the instantaneous velocity (displacement), resulting in a zero dot product.
+- Formula / law / constant: $W = Fd\cos(\theta)$, where $\theta = 90^\circ$. Alternatively, $\Delta KE = 0$.
+- When to use it: To determine energy changes in circular motion (e.g., satellites, charged particles in a B-field).
+- Common trap: Assuming that because there is a force and movement, work must be done. Remember work requires a component of force *parallel* to displacement.

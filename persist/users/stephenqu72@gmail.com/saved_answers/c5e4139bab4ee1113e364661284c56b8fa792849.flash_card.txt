@@ -1,0 +1,8 @@
+### Front
+How does the acceleration due to gravity ($g$) on a planet change if its mass ($M$) increases by a factor of 3 and its radius ($r$) increases by a factor of 2?
+
+### Back
+- Key idea: Gravity is directly proportional to mass and inversely proportional to the square of the radius.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ (Newton's Law of Universal Gravitation)
+- When to use it: Any calculation involving surface gravity changes on different celestial bodies.
+- Common trap: Forgetting to square the radius change (e.g., $(2r)^2 = 4r^2$, not $2r^2$).

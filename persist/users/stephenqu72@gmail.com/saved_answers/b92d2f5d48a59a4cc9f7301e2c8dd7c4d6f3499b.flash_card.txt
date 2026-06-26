@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant magnitude ($v$) of a projectile at time $t$ if the velocity vector makes an angle ($\theta$) with the horizontal?
+
+### Back
+- **Key idea:** Resultant velocity is the vector sum of independent horizontal ($v_x$) and vertical ($v_y$) components.
+- **Formula / law / constant / figure:** $v = \sqrt{v_x^2 + v_y^2}$ or $v = \frac{v_y}{\sin(\theta)}$.
+- **When to use it:** When calculating final speed at a specific point in a trajectory given the angle of the velocity vector to the horizontal.
+- **Common trap:** Forgetting that $v_x$ remains constant (if air resistance is neglected) while $v_y$ changes due to gravity ($v_y = u_y + gt$).

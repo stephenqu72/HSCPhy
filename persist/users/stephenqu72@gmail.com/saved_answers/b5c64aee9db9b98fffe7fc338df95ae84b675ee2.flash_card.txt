@@ -1,0 +1,8 @@
+### Front
+What is the general method for finding the landing distance ($d$) of a projectile when the landing height is non-zero?
+
+### Back
+- **Key idea:** Solve the vertical displacement equation for total time $t$, then calculate the total horizontal range.
+- **Formula:** $\Delta y = v_{iy}t - \frac{1}{2}gt^2$; $x = v_{ix}t$; $d = x_{total} - x_{initial}$.
+- **When to use it:** When the projectile lands at a height different from the launch height.
+- **Common trap:** Assuming the flight time is simply $2 \times t_{up}$ (which only applies for level ground). Always solve the quadratic for the specific height $y$.

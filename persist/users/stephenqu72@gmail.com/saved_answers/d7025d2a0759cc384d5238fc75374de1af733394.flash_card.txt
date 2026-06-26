@@ -1,0 +1,8 @@
+### Front
+How do you calculate the initial velocity ($u$) of a projectile given its range ($R$), time of flight ($t$), and launch angle ($\theta$)?
+
+### Back
+- **Key idea:** Horizontal velocity ($v_x$) is constant because horizontal acceleration is zero.
+- **Formula:** $u = \frac{R}{t \cdot \cos(\theta)}$
+- **When to use it:** When solving projectile motion problems where air resistance is neglected.
+- **Common trap:** Confusing the total initial velocity ($u$) with the horizontal velocity component ($v_x$). Always resolve the components using trigonometry.

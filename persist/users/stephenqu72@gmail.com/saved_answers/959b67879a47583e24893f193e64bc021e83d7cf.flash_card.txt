@@ -1,0 +1,8 @@
+### Front
+How does a satellite maintain a stable circular orbit around the Earth?
+
+### Back
+- **Key idea:** Gravitational force provides the necessary centripetal force ($F_g = F_c$).
+- **Formula / law:** $\frac{GMm}{r^2} = \frac{mv^2}{r}$
+- **When to use it:** When explaining orbital motion or calculating orbital velocity/period.
+- **Common trap:** Thinking the satellite is not accelerating; it is in a state of constant freefall, meaning it is accelerating towards the Earth's center while maintaining a constant tangential speed.

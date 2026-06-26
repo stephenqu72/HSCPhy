@@ -1,0 +1,8 @@
+### Front
+On a rotating platform, how do the angular velocity ($\omega$) and linear velocity ($v$) compare for two people at different distances from the center?
+
+### Back
+- Key idea: Angular velocity is constant for a rigid body; linear velocity increases with distance from the center.
+- Formula / law / constant / figure: $v = r\omega$
+- When to use it: Circular motion problems involving rotating platforms, carousels, or spinning discs.
+- Common trap: Assuming that because the object is moving in a circle, all points have the same linear velocity. (Points further out must travel a larger circumference in the same time, thus having higher $v$).

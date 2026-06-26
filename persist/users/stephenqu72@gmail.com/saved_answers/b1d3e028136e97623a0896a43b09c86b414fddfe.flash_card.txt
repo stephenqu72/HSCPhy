@@ -1,0 +1,8 @@
+### Front
+For multiple objects sharing the same orbital period ($T$) around a central body, how do orbital radius ($r$), centripetal force ($F_c$), and linear velocity ($v$) relate?
+
+### Back
+- **Key idea:** With constant angular velocity ($\omega = 2\pi/T$), both $F_c$ and $v$ are directly proportional to the orbital radius $r$.
+- **Formula / law / constant / figure:** $v = \omega r$ and $F_c = m\omega^2 r$.
+- **When to use it:** When comparing motion characteristics of satellites or Lagrange points sharing the same orbital period as a planet.
+- **Common trap:** Assuming $F_c$ or $v$ decreases as radius increases (this only applies to objects in *different* free-fall orbits governed by Kepler’s Third Law, where $T$ is not constant).

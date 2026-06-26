@@ -1,0 +1,8 @@
+### Front
+How do you determine the resultant electric field magnitude at a point between two point charges?
+
+### Back
+- **Key idea:** Use the Principle of Superposition: the resultant field is the vector sum of the individual electric fields ($\vec{E}_{total} = \vec{E}_1 + \vec{E}_2$).
+- **Formula:** $E = \sum \frac{k|q|}{d^2}$, where $k = \frac{1}{4\pi\epsilon_0}$.
+- **When to use it:** Whenever multiple point charges contribute to an electric field at a specific coordinate.
+- **Common trap:** Forgetting that electric field is a vector. If charges have the same sign, fields oppose each other (subtract magnitudes); if signs are opposite, fields align (add magnitudes).

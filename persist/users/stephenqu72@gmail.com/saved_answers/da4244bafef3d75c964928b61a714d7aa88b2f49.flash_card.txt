@@ -1,0 +1,8 @@
+### Front
+In a horizontal circular motion experiment involving a hanging mass ($M$) and a rotating stopper ($m$), how do you determine the tension $T$ acting on the stopper?
+
+### Back
+- Key idea: Since the hanging mass is in equilibrium, the tension in the string equals the weight of the mass ($T = Mg$), which also provides the centripetal force for the stopper ($F_c = mv^2/r$).
+- Formula / law / constant / figure: $Mg = \frac{mv^2}{r}$
+- When to use it: To relate the mass and velocity of a rotating object to a counterbalancing hanging mass.
+- Common trap: Forgetting that the velocity $v$ must be tangential; confusing the radius of the circle ($r$) with the total length of the string.

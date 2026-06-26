@@ -1,0 +1,8 @@
+### Front
+On a frictionless banked track, what provides the centripetal force required for a vehicle to undergo circular motion?
+
+### Back
+- Key idea: The horizontal component of the normal force ($F_N \sin\theta$) acts as the centripetal force.
+- Formula / law: $F_c = \frac{mv^2}{r} = F_N \sin\theta$ and $F_N \cos\theta = mg$.
+- When to use it: Whenever a vehicle turns on a banked curve without relying on friction.
+- Common trap: Thinking the centripetal force is a separate "extra" force; it is actually a component of the existing normal force.

@@ -1,0 +1,8 @@
+### Front
+How do you experimentally determine the horizontal launch speed ($v_x$) of a projectile?
+
+### Back
+- **Key idea:** Use vertical displacement ($h$) to find time of flight ($t$), then use horizontal range ($d$) to find velocity.
+- **Formula:** $v_x = \frac{d}{\sqrt{2h/g}}$
+- **When to use it:** Projectile motion experiments where the launch is perfectly horizontal ($u_y = 0$).
+- **Common trap:** Forgetting that horizontal velocity ($v_x$) is constant, while vertical velocity ($v_y$) is affected by gravity ($g$). Ensure you average multiple trials of $d$ to maintain reliability.

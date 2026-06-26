@@ -1,0 +1,8 @@
+### Front
+How do you determine the amount of a daughter isotope produced after a specific time given the initial amount and the parent isotope's half-life?
+
+### Back
+- Key idea: The amount of daughter isotope produced equals the amount of parent isotope that has decayed.
+- Formula / law / constant / figure: $N(t) = N_0(0.5)^n$, where $n = \frac{t}{t_{1/2}}$. Amount produced $= N_0 - N(t)$.
+- When to use it: Whenever a decay problem asks for the quantity of a product (daughter) rather than the remaining reactant (parent).
+- Common trap: Forgetting to subtract the remaining parent from the initial amount; many students mistakenly choose the remaining amount instead of the decayed amount.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the age difference between two radioactive samples given their activities ($A_X, A_Y$) and the half-life ($t_{1/2}$)?
+
+### Back
+- Key idea: The number of half-lives ($n$) elapsed is determined by the ratio of activities: $A_0/A = 2^n$.
+- Formula / law / constant / figure: $n = \log_2(A_0/A)$ and $t = n \times t_{1/2}$.
+- When to use it: To calculate the time elapsed between samples where $A_Y$ is the initial activity and $A_X$ is the final decayed activity.
+- Common trap: Confusing which activity is the initial ($A_0$) and which is the final ($A$); $A_0$ is always the larger, original value.

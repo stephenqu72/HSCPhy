@@ -1,0 +1,12 @@
+### Front
+What are the fundamental formulas for orbital velocity ($v_o$), gravitational potential energy ($U$), and escape velocity ($v_e$)?
+
+### Back
+- **Key idea:** Satellite dynamics are governed by equating gravitational force to centripetal force and energy conservation principles.
+- **Formula / law / constant / figure:** 
+    - $v_o = \sqrt{\frac{GM}{r}}$
+    - $U = -\frac{GMm}{r}$
+    - $v_e = \sqrt{\frac{2GM}{r}} = \sqrt{2} \cdot v_o$
+    - $r = R_{\text{planet}} + h$ (orbital altitude)
+- **When to use it:** Use these for objects in circular orbits or calculating energy requirements for orbital maneuvers.
+- **Common trap:** Forgetting to add the planet's radius ($R$) to the altitude ($h$) when calculating the total orbital radius ($r$). Also, remember that $U$ is always negative; "magnitude" requires taking the absolute value.

@@ -1,0 +1,8 @@
+### Front
+For a system of two masses on a rotating rod in a vertical circle, how do you determine the tension $T_1$ at the top of the circle?
+
+### Back
+- **Key idea:** Use Conservation of Mechanical Energy to find the velocity at the top, then apply Newton's Second Law ($\sum F_c = ma_c$).
+- **Formula / law:** $\Delta E_k + \Delta E_p = 0$; $T_1 + mg = \frac{mv^2}{r}$
+- **When to use it:** When calculating forces in non-uniform circular motion (vertical plane) where velocity changes due to gravity.
+- **Common trap:** Forgetting to account for the work done by gravity (potential energy) or incorrectly identifying the direction of the weight force at the top vs. the bottom.

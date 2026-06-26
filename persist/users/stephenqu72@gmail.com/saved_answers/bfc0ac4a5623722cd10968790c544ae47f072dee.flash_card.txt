@@ -1,0 +1,11 @@
+### Front
+What are the vertical and horizontal force components for a tether ball in uniform circular motion?
+
+### Back
+- **Key idea:** Tension ($F_T$) is the resultant force providing both the vertical equilibrium ($mg$) and the horizontal centripetal force ($F_c$).
+- **Formula / law / constant:** 
+  - $F_{T,y} = F_T \cos \theta = mg$
+  - $F_{T,x} = F_T \sin \theta = F_c = \frac{mv^2}{r}$
+  - $\tan \theta = \frac{v^2}{rg}$
+- **When to use it:** Problems involving conical pendulums, tether balls, or banked tracks.
+- **Common trap:** Confusing $\sin \theta$ and $\cos \theta$; remember that if $\theta$ is the angle with the **vertical**, the vertical component uses $\cos \theta$.

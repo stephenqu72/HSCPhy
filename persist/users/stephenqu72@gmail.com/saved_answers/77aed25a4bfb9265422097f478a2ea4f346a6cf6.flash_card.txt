@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released ($Q$) in a radioactive decay process to determine mass change or temperature increase?
+
+### Back
+- **Key idea:** Energy released ($Q$) equals the mass defect ($\Delta m$) converted into energy ($E=mc^2$), which manifests as the total kinetic energy of decay products.
+- **Formula / law / constant:** $Q = \sum E_{\text{kinetic}} = \Delta m c^2$; $1\text{ u} = 931.5\text{ MeV}$.
+- **When to use it:** When calculating the energy available for biological heating or determining the mass of a daughter nucleus.
+- **Common trap:** Forgetting to include the energy of *all* emitted particles (e.g., gamma photons, not just the $\beta$-particle/electrons).

@@ -1,0 +1,8 @@
+### Front
+How do you determine the location between two planets where a spacecraft experiences zero net gravitational force?
+
+### Back
+- **Key idea:** Set the gravitational force from Planet 1 equal to the force from Planet 2 ($F_1 = F_2$).
+- **Formula / law / constant / figure:** Newton’s Law of Universal Gravitation: $F = \frac{GMm}{r^2}$.
+- **When to use it:** When solving for equilibrium points in a gravitational field between two masses.
+- **Common trap:** Forgetting to square root both sides of the equation after setting the forces equal.

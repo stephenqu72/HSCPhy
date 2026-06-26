@@ -1,0 +1,8 @@
+### Front
+What is the condition for a vehicle to maintain contact with the road at the crest of a curved bridge?
+
+### Back
+- **Key idea:** The normal force ($N$) must be greater than zero.
+- **Formula / law / constant / figure:** $N = mg - \frac{mv^2}{r}$. Critical speed $v_c = \sqrt{gr}$ (where $N=0$).
+- **When to use it:** When calculating the maximum safe speed over a convex surface to prevent the vehicle from losing contact (taking off).
+- **Common trap:** Forgetting to convert units (km/h to m/s) or confusing the convex bridge (gravity provides the centripetal force) with a banked track.

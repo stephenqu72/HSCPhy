@@ -1,0 +1,8 @@
+### Front
+How do you calculate the linear velocity ($v$) of an object in a conical pendulum at the point of string tension $T$?
+
+### Back
+- Key idea: Resolve tension into vertical (balances $mg$) and horizontal (provides $F_c$) components.
+- Formula / law: $v = \sqrt{\frac{T L \sin^2\theta}{m}}$ where $\cos\theta = \frac{mg}{T}$.
+- When to use it: Circular motion problems involving hanging masses where the string angle is not given.
+- Common trap: Forgetting to use $T\cos\theta = mg$ to find the angle $\theta$ before solving for $v$.

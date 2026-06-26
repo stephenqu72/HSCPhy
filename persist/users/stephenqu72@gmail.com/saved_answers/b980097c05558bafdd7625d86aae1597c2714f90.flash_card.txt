@@ -1,0 +1,8 @@
+### Front
+How does the work done by Earth's gravitational field on a satellite in a circular orbit compare to one in an elliptical orbit?
+
+### Back
+- **Key idea:** Work done equals the change in gravitational potential energy ($W = -\Delta U$). In a circular orbit, gravity acts perpendicular to motion ($\theta=90^\circ$), resulting in zero work. In an elliptical orbit, the distance $r$ changes, resulting in non-zero work.
+- **Formula / law:** $W = \int \vec{F} \cdot d\vec{s} = -\Delta U$
+- **When to use it:** To determine energy changes in orbital mechanics or when evaluating forces acting on satellites.
+- **Common trap:** Assuming the force of gravity performs work in a circular orbit because there is a force acting on the object; remember that work requires a displacement component *parallel* to the force.

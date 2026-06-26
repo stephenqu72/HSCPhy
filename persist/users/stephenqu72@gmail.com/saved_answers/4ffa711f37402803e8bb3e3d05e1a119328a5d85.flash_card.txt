@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch angle ($\theta$) of a projectile given its initial velocity ($v$) and maximum height ($h$)?
+
+### Back
+- Key idea: The vertical component of velocity is zero at maximum height ($v_y = 0$).
+- Formula / law / constant / figure: $v_y^2 = v_{0y}^2 - 2gh$ and $v_{0y} = v \sin(\theta)$
+- When to use it: To find the launch angle when only initial speed and peak displacement are provided.
+- Common trap: Forgetting to resolve the initial velocity into its vertical component ($v \sin\theta$) before using the kinematic equation.

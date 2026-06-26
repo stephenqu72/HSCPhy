@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum velocity of a beta particle emitted in nuclear decay?
+
+### Back
+- Key idea: Total energy released ($Q$) is shared between the beta particle and the anti-neutrino; max velocity occurs when the anti-neutrino energy is minimal.
+- Formula / law / constant / figure: $Q = \Delta mc^2$; $E_k(\beta) = Q - E(\tilde{\nu})$; Relativistic $E_k = (\gamma - 1)mc^2$.
+- When to use it: When asked for the "maximum velocity" or "maximum kinetic energy" of a beta particle.
+- Common trap: Using classical $E_k = \frac{1}{2}mv^2$. If the result exceeds $c$ ($3 \times 10^8 \text{ m/s}$), you must use relativistic formulas.

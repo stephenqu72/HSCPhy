@@ -1,0 +1,8 @@
+### Front
+Distinguish between orbital velocity ($v_o$) and escape velocity ($v_e$), and explain the satellite application for LEO vs. Geostationary orbits.
+
+### Back
+- **Key idea:** $v_o$ maintains a stable circular orbit; $v_e$ provides sufficient kinetic energy to reach "infinity" (zero total mechanical energy). $v_e = \sqrt{2} \times v_o$.
+- **Formula:** $v_o = \sqrt{\frac{GM}{r}}$; $v_e = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** Use $v_o$ for satellites in stable orbit; use $v_e$ for interplanetary missions/launching probes. LEO is for high-res imaging; Geostationary is for telecommunications (fixed position relative to Earth).
+- **Common trap:** Forgetting that $v_e$ must result in a total mechanical energy of $\ge 0$. Also, assuming Geostationary satellites are stationary—they are moving at the same angular velocity as Earth.

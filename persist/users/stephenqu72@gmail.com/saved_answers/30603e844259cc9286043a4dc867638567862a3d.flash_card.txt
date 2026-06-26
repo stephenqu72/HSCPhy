@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of an object undergoing circular motion when given centripetal force ($F$), radius ($r$), and angular velocity ($\omega$)?
+
+### Back
+- **Key idea:** Mass is determined by rearranging the centripetal force formula.
+- **Formula / law:** $F = mr\omega^2 \implies m = \frac{F}{r\omega^2}$
+- **When to use it:** When an object follows a circular path and angular velocity is provided instead of linear velocity ($v$).
+- **Common trap:** Forgetting to convert units to SI (e.g., cm to m) or failing to square the entire angular velocity term ($\omega^2$).

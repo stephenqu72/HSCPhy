@@ -1,0 +1,8 @@
+### Front
+Why must a spacecraft be closer to the Moon than the Earth to experience zero net gravitational force?
+
+### Back
+- Key idea: Gravitational force is a mutual interaction; to balance the pull of a more massive body, you must be closer to the less massive body.
+- Formula / law: $F_g = \frac{GMm}{r^2}$ (Inverse-square law).
+- When to use it: To explain Lagrange points or equilibrium positions between two celestial bodies.
+- Common trap: Assuming the larger mass exerts a stronger force on the object; Newton’s Third Law dictates the forces between the spacecraft and each body are independent, and equilibrium is determined by $M/r^2$ ratios.

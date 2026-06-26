@@ -1,0 +1,8 @@
+### Front
+What is the speed of a projectile at its maximum height, and why?
+
+### Back
+- Key idea: At maximum height, vertical velocity ($v_y$) is 0, leaving only the constant horizontal velocity ($v_x$).
+- Formula / law: $v = v_x = v_{initial} \cdot \cos(\theta)$
+- When to use it: Any projectile motion problem asking for speed at the peak (assuming no air resistance).
+- Common trap: Assuming the speed is zero at the maximum height; only the *vertical* component is zero.

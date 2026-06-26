@@ -1,0 +1,8 @@
+### Front
+How do you determine if multiple planets orbit the same central mass given their orbital periods ($T$) and radii ($r$)?
+
+### Back
+- **Key idea:** The ratio $\frac{T^2}{r^3}$ is constant for all objects orbiting the same central mass.
+- **Formula / law / constant / figure:** Kepler’s Third Law: $\frac{T^2}{r^3} = \frac{4\pi^2}{GM}$
+- **When to use it:** To compare orbital data of planets/satellites or to identify an object orbiting a different central body.
+- **Common trap:** Forgetting to convert units (e.g., days to seconds, km to meters) before calculating the ratio.

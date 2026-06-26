@@ -1,0 +1,8 @@
+### Front
+Why is the total mechanical energy of a satellite in an elliptical orbit conserved?
+
+### Back
+- Key idea: Gravity is a **conservative force**; work done is path-independent, meaning no energy is dissipated as heat.
+- Formula / law / constant / figure: $E_{total} = K + U = \text{constant}$
+- When to use it: To explain orbital energy fluctuations where $K$ increases as $U$ decreases (moving toward perigee) and vice versa.
+- Common trap: Forgetting to mention the absence of non-conservative forces (like atmospheric drag) that would otherwise remove energy from the system.

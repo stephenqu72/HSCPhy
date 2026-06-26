@@ -1,0 +1,8 @@
+### Front
+How do you determine the relative escape velocities of different planets given their masses ($M$) and radii ($R$)?
+
+### Back
+- Key idea: Escape velocity $v_e$ is proportional to $\sqrt{M/R}$.
+- Formula: $v_e = \sqrt{\frac{2GM}{R}}$
+- When to use it: To rank planetary gravity or energy requirements for leaving a surface.
+- Common trap: Forgetting to take the square root of the final $M/R$ ratio if calculating absolute values (though not required for simple ranking), or using diameter instead of radius (though consistent use of either works for comparison).

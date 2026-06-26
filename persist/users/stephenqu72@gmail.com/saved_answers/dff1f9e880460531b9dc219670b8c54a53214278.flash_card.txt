@@ -1,0 +1,8 @@
+### Front
+What is the formula for the ideal speed ($v$) of a vehicle on a banked curve without relying on friction?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the required centripetal force.
+- Formula: $v = \sqrt{rg \tan\theta}$
+- When to use it: When a vehicle travels on a banked track at a constant speed with zero friction.
+- Common trap: Assuming the Normal force ($N$) is equal to weight ($mg$); $N$ is actually equal to $mg / \cos\theta$.

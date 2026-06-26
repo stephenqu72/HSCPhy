@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius ($r$) of a satellite if given its orbital period ($T$) and the mass of the central body ($M$)?
+
+### Back
+- **Key idea:** Gravitational force provides the necessary centripetal force for a circular orbit.
+- **Formula / law / constant / figure:** Kepler’s Third Law: $T^2 = \frac{4\pi^2 r^3}{GM} \implies r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$
+- **When to use it:** When calculating orbital parameters for satellites, moons, or planets in circular orbits.
+- **Common trap:** Failing to convert units (e.g., period $T$ must be in seconds, distance $r$ must be in meters) or using the radius of the planet instead of the orbital radius (distance from the center of mass).

@@ -1,0 +1,8 @@
+### Front
+Explain the physics behind why a heated metal object begins to glow red.
+
+### Back
+- **Key idea:** Increased thermal energy causes atomic lattice vibrations. These accelerating charges emit EM radiation; as temperature rises, Wien’s Law shifts peak intensity from infrared into the visible red spectrum.
+- **Formula / law / constant / figure:** Wien’s Displacement Law: $\lambda_{max} \propto 1/T$
+- **When to use it:** When explaining the relationship between an object's temperature, blackbody radiation spectra, and observed color changes.
+- **Common trap:** Claiming the metal emits *only* red light; it emits a spectrum, but the *peak* moves into the visible range, making red the first visible color detected.

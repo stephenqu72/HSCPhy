@@ -1,0 +1,12 @@
+### Front
+What are the fundamental formulas for gravitational force, orbital velocity, and escape velocity?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force for orbits; escape velocity is the minimum speed needed to break free from a gravitational field.
+- **Formula / law / constant / figure:**
+  - $F_g = \frac{GMm}{r^2}$
+  - $v_{orbital} = \sqrt{\frac{GM}{r}}$
+  - $v_{escape} = \sqrt{\frac{2GM}{r}}$
+  - $G = 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+- **When to use it:** Use $F_g$ for force calculations, $v_{orbital}$ for circular orbits, and $v_{escape}$ to determine if an object can move to infinity.
+- **Common trap:** Forgetting to convert distances from km to meters (SI units) or forgetting to square the radius ($r^2$) in the force formula.

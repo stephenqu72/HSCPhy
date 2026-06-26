@@ -1,0 +1,8 @@
+### Front
+How can you increase the reliability of period ($T$) measurements for a pendulum to reduce random error?
+
+### Back
+- Key idea: Timing multiple oscillations ($n$) and dividing the total time by $n$ spreads the human reaction time error over a larger total value.
+- Formula / law / constant / figure: $T = \frac{t_{total}}{n}$
+- When to use it: Whenever using a manual stopwatch to measure a periodic event.
+- Common trap: Confusing **reliability** (consistent results/reducing random error) with **validity** (correct method/controlling variables) or **accuracy** (proximity to the true value).

@@ -1,0 +1,8 @@
+### Front
+What is the formula for the maximum speed ($v$) of a car at the crest of a curved bridge of radius $r$ such that it maintains contact with the road?
+
+### Back
+- Key idea: At the threshold of losing contact, the normal force ($N$) is zero, meaning gravity provides the entire centripetal force.
+- Formula: $v = \sqrt{rg}$
+- When to use it: Circular motion in a vertical plane where the object is on the inside of the arc (top of a hill/bridge).
+- Common trap: Confusing this with the "bottom" of a dip, where the normal force must support gravity AND provide centripetal force ($N - mg = \frac{mv^2}{r}$).

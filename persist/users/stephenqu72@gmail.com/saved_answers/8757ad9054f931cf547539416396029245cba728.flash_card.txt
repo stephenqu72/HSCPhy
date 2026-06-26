@@ -1,0 +1,8 @@
+### Front
+How do you calculate the height reached by a motor lifting a mass given electrical input, efficiency, and time?
+
+### Back
+- Key idea: Conservation of energy (Electrical $P_{in} \times \text{Efficiency} = \text{Mechanical } P_{out}$).
+- Formula: $h = \frac{(\eta \times V \times I) \times t}{m \times g}$
+- When to use it: Any efficiency problem involving mechanical work (e.g., motors, pulleys, lifts).
+- Common trap: Forgetting to multiply the input power by the efficiency percentage before equating it to $\frac{mgh}{t}$.

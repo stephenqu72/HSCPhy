@@ -1,0 +1,8 @@
+### Front
+How does a satellite achieve a Hohmann transfer orbit from an inner planet to an outer planet, and how does its total mechanical energy change?
+
+### Back
+- Key idea: A prograde burn (forward thrust) increases velocity, raising the satellite to a higher elliptical orbit with higher total energy.
+- Formula / law / constant: $E_{total} = -\frac{GMm}{2r}$
+- When to use it: Whenever a spacecraft moves from a lower circular orbit to a higher one.
+- Common trap: Assuming the satellite's speed increases permanently; while kinetic energy increases initially, the satellite actually loses kinetic energy as it climbs to the higher orbit (converted to potential energy).

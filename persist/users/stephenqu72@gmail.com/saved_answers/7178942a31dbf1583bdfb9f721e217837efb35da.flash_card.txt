@@ -1,0 +1,8 @@
+### Front
+What are the fundamental characteristics of projectile motion regarding horizontal and vertical velocity?
+
+### Back
+- Key idea: Horizontal velocity is constant (no air resistance); vertical motion is under constant acceleration ($g = 9.8 \text{ ms}^{-2}$).
+- Formula / law: $v_x = u \cos(\theta)$; $s_y = u_y t + \frac{1}{2} a_y t^2$; $a_x = 0, a_y = -9.8 \text{ ms}^{-2}$.
+- When to use it: Any 2D projectile motion problem (e.g., finding range, max height, or time of flight).
+- Common trap: Forgetting that at maximum height, the *vertical* velocity is $0$, but the *total* velocity equals the horizontal component ($v_x$).

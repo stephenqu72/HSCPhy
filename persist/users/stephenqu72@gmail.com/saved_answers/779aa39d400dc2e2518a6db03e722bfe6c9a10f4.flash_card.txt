@@ -1,0 +1,8 @@
+### Front
+When plotting potential difference ($V_a$) against velocity ($v$) for a charged particle accelerating from rest, what function should be on the horizontal axis to achieve a linear graph?
+
+### Back
+- Key idea: Kinetic energy gained equals electrical work done ($qV_a = \frac{1}{2}mv^2$).
+- Formula / law / constant / figure: $V_a = (\frac{m}{2q})v^2$ (Linear form $y=mx$).
+- When to use it: When linearising data to find the charge-to-mass ratio ($q/m$) from a gradient.
+- Common trap: Plotting $v$ instead of $v^2$ will result in a parabolic curve rather than a linear relationship.

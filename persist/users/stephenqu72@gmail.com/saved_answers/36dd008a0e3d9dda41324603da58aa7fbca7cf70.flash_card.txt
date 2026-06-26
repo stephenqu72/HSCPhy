@@ -1,0 +1,8 @@
+### Front
+What is the formula to calculate the banking angle ($\theta$) for a vehicle on a frictionless curved track?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force.
+- Formula: $\tan(\theta) = \frac{v^2}{rg}$
+- When to use it: When determining the ideal banking angle for a specific velocity ($v$) and radius ($r$) to avoid reliance on friction.
+- Common trap: Forgetting to ensure units are SI (meters and m/s) or confusing $\tan(\theta)$ with $\sin(\theta)$.

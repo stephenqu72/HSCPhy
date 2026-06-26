@@ -1,0 +1,8 @@
+### Front
+How do you calculate the maximum safe speed ($v$) of a car on a banked track with friction ($\mu$)?
+
+### Back
+- **Key idea:** Centripetal force is provided by the horizontal components of both the normal force ($N$) and static friction ($f$).
+- **Formula:** $v = \sqrt{rg \left( \frac{\tan \theta + \mu}{1 - \mu \tan \theta} \right)}$
+- **When to use it:** When a vehicle is cornering at its maximum speed on a banked curve where friction prevents sliding "up" the slope.
+- **Common trap:** Confusing the direction of friction; for *maximum* speed, friction acts down the slope; for *minimum* speed, it acts up the slope. Always verify the direction of the net force towards the center of the circle.

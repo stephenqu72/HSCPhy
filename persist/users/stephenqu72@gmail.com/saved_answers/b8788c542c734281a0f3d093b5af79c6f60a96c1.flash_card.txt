@@ -1,0 +1,8 @@
+### Front
+For a stationary nucleus decaying into an alpha particle and a daughter nucleus, how do you determine the ratio of their kinetic energies?
+
+### Back
+- Key idea: Conservation of momentum results in an inverse ratio between kinetic energy and mass ($K \propto 1/m$).
+- Formula / law / constant / figure: $K = \frac{p^2}{2m} \implies \frac{K_\alpha}{K_D} = \frac{m_D}{m_\alpha}$
+- When to use it: To find energy distribution between products in alpha decay.
+- Common trap: Forgetting that the daughter nucleus carries significant recoil energy, or incorrectly flipping the ratio (putting the alpha mass in the numerator).

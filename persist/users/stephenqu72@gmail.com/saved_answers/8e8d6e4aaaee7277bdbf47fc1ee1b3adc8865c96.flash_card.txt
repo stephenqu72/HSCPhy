@@ -1,0 +1,8 @@
+### Front
+How do you determine the surface temperature of a distant star using its spectral intensity graph?
+
+### Back
+- Key idea: Wien’s Displacement Law relates the wavelength of peak emission ($\lambda_{max}$) to absolute temperature ($T$).
+- Formula / law / constant: $\lambda_{max} T = 2.898 \times 10^{-3} \text{ m K}$ (Wien's Constant).
+- When to use it: When given an intensity vs. wavelength graph to find a star's temperature.
+- Common trap: Forgetting to convert nanometers (nm) to meters (m) before substituting into the formula.

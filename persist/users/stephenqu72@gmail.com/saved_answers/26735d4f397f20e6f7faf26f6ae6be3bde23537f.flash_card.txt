@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time elapsed for a radioactive sample to decay to a specific mass?
+
+### Back
+- **Key idea:** Radioactive decay follows an exponential relationship based on the half-life period.
+- **Formula:** $N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$
+- **When to use it:** When solving for time ($t$), initial mass ($N_0$), or remaining mass ($N(t)$) given a known half-life ($T_{1/2}$).
+- **Common trap:** Forgetting to use logarithms to solve for $t$ when the ratio of $N(t)/N_0$ is not a simple power of 0.5 (e.g., $1/15$ instead of $1/16$).

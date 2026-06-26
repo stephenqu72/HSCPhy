@@ -1,0 +1,10 @@
+### Front
+How do you calculate the 3D horizontal range and initial velocity magnitude for a projectile?
+
+### Back
+- **Key idea:** Projectile motion is independent in orthogonal axes ($x, y, z$). The total range is the vector sum of horizontal components, and total velocity is the vector sum of all three components.
+- **Formula:** 
+    - Range ($R$): $\sqrt{x^2 + z^2}$
+    - Magnitude ($v$): $\sqrt{v_x^2 + v_y^2 + v_z^2}$
+- **When to use it:** When an object has horizontal displacement in two dimensions ($x$ and $z$) while experiencing vertical motion ($y$) under gravity.
+- **Common trap:** Confusing horizontal range ($R$) with the total displacement vector magnitude; ensure you only include $x$ and $z$ for the range, but include $y$ for the total velocity.

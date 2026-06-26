@@ -1,0 +1,8 @@
+### Front
+What is the condition for a rotating object to remain in rotational equilibrium, and how is torque calculated?
+
+### Back
+- **Key idea:** Net torque must equal zero ($\sum\tau = 0$) for rotational equilibrium.
+- **Formula:** $\tau = rF\sin(\theta)$, where $r$ is the distance from the pivot and $\theta$ is the angle between the force and lever arm.
+- **When to use it:** When solving for unknown forces or distances in stationary systems involving levers, pulleys, or pivots.
+- **Common trap:** Using the wrong angle ($\theta$); always ensure you use the angle between the **position vector** and the **force vector**, or simplify by finding the perpendicular distance ($d_\perp = r\sin\theta$).

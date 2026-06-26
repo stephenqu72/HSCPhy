@@ -1,0 +1,11 @@
+### Front
+What are the relationships between orbital velocity ($v_{orb}$), escape velocity ($v_{esc}$), kinetic energy ($K$), and potential energy ($U$) for a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Gravitational potential energy is negative, and kinetic energy is exactly half the magnitude of the gravitational potential energy.
+- **Formula / law / constant / figure:** 
+  1. $v_{esc} = \sqrt{2}v_{orb}$
+  2. $K = -\frac{1}{2}U$
+  3. Total Energy ($E$) = $K + U = -K = \frac{1}{2}U$
+- **When to use it:** Solving satellite orbital mechanics, total energy, or energy transition problems (e.g., changing orbits or escaping a gravitational field).
+- **Common trap:** Forgetting the negative sign in $U = -\frac{GMm}{r}$ or assuming $K = \frac{1}{2}U$ instead of $K = -\frac{1}{2}U$.

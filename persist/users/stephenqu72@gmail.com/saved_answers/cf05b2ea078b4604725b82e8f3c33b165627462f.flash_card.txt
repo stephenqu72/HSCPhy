@@ -1,0 +1,8 @@
+### Front
+For two points $X$ and $Y$ on the same rotating disc, where $X$ is twice as far from the center as $Y$ ($r_X = 2r_Y$), how do their angular velocities ($\omega$) and linear velocities ($v$) compare?
+
+### Back
+- **Key idea:** Points on a rotating rigid body share the same angular velocity, but linear velocity increases linearly with the radius.
+- **Formula / law:** $\omega_X = \omega_Y$ and $v = r\omega$; therefore $v_X = 2v_Y$.
+- **When to use it:** Problems involving circular motion of points on a rotating disc or rigid body.
+- **Common trap:** Assuming linear velocity is the same for all points on a rotating disc; remember that objects further from the center must travel a larger circumference in the same time, necessitating a higher linear velocity.

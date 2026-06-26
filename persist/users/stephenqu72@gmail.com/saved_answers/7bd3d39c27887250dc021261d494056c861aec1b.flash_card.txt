@@ -1,0 +1,8 @@
+### Front
+How do you calculate the force required to produce a specific torque at a given angle and distance from a pivot?
+
+### Back
+- Key idea: Torque ($\tau$) is the rotational equivalent of force; only the perpendicular component of force produces torque.
+- Formula / law / constant / figure: $\tau = rF\sin(\theta)$
+- When to use it: When calculating forces acting at an angle to a lever arm to achieve rotational equilibrium or motion.
+- Common trap: Forgetting to convert distance ($r$) from centimeters to meters and failing to account for the $\sin(\theta)$ component when the force is not perpendicular.

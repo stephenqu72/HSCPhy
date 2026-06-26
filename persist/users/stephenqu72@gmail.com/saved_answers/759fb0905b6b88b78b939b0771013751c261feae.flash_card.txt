@@ -1,0 +1,8 @@
+### Front
+What is the formula and physical principle used to calculate the escape velocity of a planet?
+
+### Back
+- Key idea: Total mechanical energy must be at least zero (kinetic energy compensates for gravitational potential energy).
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{R}}$; Conservation of energy.
+- When to use it: To determine the minimum initial velocity required for an object to escape a planet's gravitational field without further propulsion.
+- Common trap: Attempting to include the mass of the escaping object in the calculation; escape velocity is independent of the object's mass.

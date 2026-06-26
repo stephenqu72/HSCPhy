@@ -1,0 +1,8 @@
+### Front
+How does friction affect the maximum speed of a vehicle on a banked curve compared to a frictionless banked curve?
+
+### Back
+- Key idea: Friction provides an additional centripetal force component directed toward the center of the turn, allowing for speeds higher than the "design speed."
+- Formula / law / constant / figure: $F_{net, c} = N \sin\theta + f \cos\theta$
+- When to use it: When calculating the maximum safe speed on a banked track where friction is present.
+- Common trap: Assuming the design speed requires friction; it only requires the normal force component ($v = \sqrt{gr \tan\theta}$).

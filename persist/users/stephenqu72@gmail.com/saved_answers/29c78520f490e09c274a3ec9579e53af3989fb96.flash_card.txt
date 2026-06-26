@@ -1,0 +1,8 @@
+### Front
+What is the condition for rotational equilibrium in a system, and how is net torque calculated?
+
+### Back
+- **Key idea:** A system is in rotational equilibrium when the sum of all torques about a pivot point is zero ($\sum \tau = 0$).
+- **Formula / law:** $\tau = F_\perp d$, where $F_\perp$ is the force perpendicular to the lever arm and $d$ is the distance from the pivot.
+- **When to use it:** Use when calculating forces, masses, or positions required to balance a beam, lever, or object rotating about a fixed point.
+- **Common trap:** Forgetting to convert units to SI (e.g., cm to m) or ignoring the sign convention (counter-clockwise is positive, clockwise is negative).

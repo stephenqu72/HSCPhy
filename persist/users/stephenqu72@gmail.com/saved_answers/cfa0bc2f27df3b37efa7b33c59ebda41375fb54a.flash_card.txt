@@ -1,0 +1,8 @@
+### Front
+What provides the centripetal force for an object moving in a horizontal circle on a banked track (frictionless)?
+
+### Back
+- Key idea: The horizontal component of the normal force acts as the centripetal force.
+- Formula / law: $F_{centripetal} = N \sin\theta = \frac{mv^2}{r}$
+- When to use it: Circular motion on banked surfaces where the object maintains a constant vertical height.
+- Common trap: Incorrectly using $N \cos\theta$ as the centripetal force; remember that the centripetal force must be directed horizontally towards the center, not perpendicular to the bank.

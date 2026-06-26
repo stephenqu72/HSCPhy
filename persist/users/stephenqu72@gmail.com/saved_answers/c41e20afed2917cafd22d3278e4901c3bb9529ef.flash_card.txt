@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of the Sun using orbital data?
+
+### Back
+- **Key idea:** Equate centripetal force to gravitational force ($F_c = F_g$) to derive Kepler’s Third Law.
+- **Formula:** $M = \frac{4\pi^2 r^3}{GT^2}$
+- **When to use it:** When given an object's orbital period ($T$) and radius ($r$) to find the central mass ($M$).
+- **Common trap:** Forgetting to convert the orbital period ($T$) into SI units (seconds) or using the diameter instead of the radius ($r$).

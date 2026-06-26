@@ -1,0 +1,8 @@
+### Front
+For projectiles launched from the same height to the same horizontal distance $R$ with different flight times $t$, how do their initial horizontal velocities ($u_x$) compare?
+
+### Back
+- Key idea: Since $R = u_x t$ and $R$ is constant, $u_x$ is inversely proportional to $t$. The ball with the longest flight time must have the smallest horizontal velocity.
+- Formula: $u_x = \frac{R}{t}$
+- When to use it: To compare velocity components of projectiles sharing the same displacement.
+- Common trap: Assuming equal horizontal ranges imply equal initial velocities; they only share the same displacement, not the same motion profile.

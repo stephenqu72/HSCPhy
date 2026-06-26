@@ -1,0 +1,8 @@
+### Front
+What is the relationship between the angle ($\theta$) of a conical pendulum (or rotating swing) and the centripetal force ($F_c$)?
+
+### Back
+- **Key idea:** The horizontal component of tension provides the centripetal force, while the vertical component balances gravity.
+- **Formula:** $F_c = mg \tan\theta$
+- **When to use it:** For objects in uniform circular motion supported by a rod or string at an angle to the vertical.
+- **Common trap:** Forgetting to convert diameter to radius ($r = d/2$) or failing to ensure the calculator is in **DEG mode** when calculating $\tan\theta$.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) and linear speed ($v$) of a rotating object like a clock hand?
+
+### Back
+- Key idea: Circular motion requires converting time periods into radians and using the radius for linear displacement.
+- Formula / law / constant / figure: $\omega = \frac{2\pi}{T}$ and $v = r\omega$ (where $T$ is the period in seconds).
+- When to use it: Any uniform circular motion problem where rotation rate and radius are provided.
+- Common trap: Failing to convert the time period ($T$) into seconds (e.g., leaving minutes or hours) or forgetting to convert the radius ($r$) into SI units (meters).

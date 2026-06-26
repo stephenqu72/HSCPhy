@@ -1,0 +1,10 @@
+### Front
+What physical principles are required to predict and maintain a stable satellite orbit?
+
+### Back
+- **Key idea:** Prediction relies on Kepler’s Laws (geometry/timing), while maintenance relies on Conservation of Energy (orbital state stability).
+- **Formula / Law:** 
+  - $T^2 \propto r^3$ (Kepler's 3rd)
+  - $E = -\frac{GMm}{2r}$ (Total Energy)
+- **When to use it:** When explaining satellite orbital mechanics, station keeping, or orbital decay caused by atmospheric drag/perturbations.
+- **Common trap:** Forgetting that the negative sign in the total energy equation signifies a **bound state**; a decrease in energy (due to drag) actually results in a decrease in $r$ and an increase in orbital velocity.

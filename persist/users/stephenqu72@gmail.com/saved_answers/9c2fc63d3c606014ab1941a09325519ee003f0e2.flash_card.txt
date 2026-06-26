@@ -1,0 +1,8 @@
+### Front
+How do you calculate the turns ratio ($N_p/N_s$) of an ideal transformer when given primary voltage and secondary power/current?
+
+### Back
+- Key idea: Use the transformer equation in combination with the power formula.
+- Formula / law / constant / figure: $\frac{N_p}{N_s} = \frac{V_p}{V_s}$ and $P = VI$
+- When to use it: When you have primary voltage and secondary load requirements (power and current).
+- Common trap: Forgetting to calculate $V_s$ first using $V_s = P_s/I_s$ before plugging it into the transformer ratio formula.

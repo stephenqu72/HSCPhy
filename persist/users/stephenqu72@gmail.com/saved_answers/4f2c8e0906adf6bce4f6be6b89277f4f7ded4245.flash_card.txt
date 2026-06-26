@@ -1,0 +1,8 @@
+### Front
+What is the formula for the safe speed ($v$) of a vehicle on a frictionless banked curve, and what provides the centripetal force?
+
+### Back
+- **Key idea:** On a frictionless banked curve, the horizontal component of the Normal force ($N\sin\theta$) provides the centripetal force ($F_c$).
+- **Formula:** $v = \sqrt{rg \tan(\theta)}$
+- **When to use it:** To calculate the required speed to navigate a banked curve without relying on friction.
+- **Common trap:** Forgetting to convert the angle (ensure calculator is in Degree mode) or failing to rearrange the formula correctly to solve for $v$.

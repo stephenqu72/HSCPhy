@@ -1,0 +1,8 @@
+### Front
+What is the formula for escape velocity and why is it independent of the object's mass?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed required for an object to break free from a gravitational field (total energy = 0).
+- **Formula:** $v = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** When calculating the minimum launch speed to reach "infinity" (leaving a planet/moon).
+- **Common trap:** Students often think mass matters; however, the projectile's mass $m$ cancels out during the derivation $K = |U|$.

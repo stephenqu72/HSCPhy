@@ -1,0 +1,8 @@
+### Front
+How do you determine the altitude ($h$) of a satellite given its orbital period ($T$)?
+
+### Back
+- **Key idea:** Use Kepler’s Third Law to find the orbital radius ($r$) from the Earth's center, then subtract Earth’s radius ($R_E$).
+- **Formula / law:** $T^2 = \frac{4\pi^2 r^3}{GM} \rightarrow r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$; $h = r - R_E$.
+- **When to use it:** Whenever relating the period of a circular orbit to its height above a planetary surface.
+- **Common trap:** Forgetting to add $R_E$ back to the altitude when calculating $r$, or failing to convert the period ($T$) into seconds.

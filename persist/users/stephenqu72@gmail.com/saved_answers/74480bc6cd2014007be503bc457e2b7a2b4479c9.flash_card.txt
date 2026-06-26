@@ -1,0 +1,8 @@
+### Front
+How do you determine the final velocity of a projectile launched from a cliff, assuming no air resistance?
+
+### Back
+- Key idea: Total mechanical energy is conserved throughout the flight.
+- Formula: $v_f = \sqrt{v_i^2 + 2gH}$ (where $H$ is the vertical displacement from start to finish).
+- When to use it: When finding final speed/impact velocity in a gravitational field where energy is conserved.
+- Common trap: Including the maximum height reached above the cliff in the displacement; only the net displacement from release to impact matters.

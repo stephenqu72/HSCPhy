@@ -1,0 +1,8 @@
+### Front
+What is the formula for the total mechanical energy of a satellite in a stable circular orbit, and what does the negative sign signify?
+
+### Back
+- **Key idea:** The total energy ($E$) is the sum of kinetic and gravitational potential energy; it is constant for a stable orbit.
+- **Formula:** $E_{total} = -\frac{GMm}{2r}$
+- **When to use it:** To calculate the energy required to change orbits or the energy of a satellite at a specific orbital radius ($r$).
+- **Common trap:** Forgetting that $r$ is the **orbital radius** (Earth's radius $R_E$ + altitude $h$), not just the altitude. The negative sign signifies that the satellite is in a "bound state" and requires additional energy to escape to infinity.

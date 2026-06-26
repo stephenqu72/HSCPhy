@@ -1,0 +1,8 @@
+### Front
+In Millikan’s oil drop experiment, what is the condition for an oil drop to remain suspended between parallel plates, and what formula defines the electric field $E$ between them?
+
+### Back
+- **Key idea:** The upward electric force ($qE$) must balance the downward gravitational force ($mg$) for the drop to be in equilibrium.
+- **Formula:** $E = \frac{V}{d}$ and $q = \frac{mg}{E} = \frac{\rho V_{drop} g}{E}$
+- **When to use it:** When calculating the charge of a particle held stationary in a uniform electric field.
+- **Common trap:** Failing to convert distance $d$ from millimetres to metres (SI units) and confusing the potential difference $V$ with the volume $V_{drop}$.

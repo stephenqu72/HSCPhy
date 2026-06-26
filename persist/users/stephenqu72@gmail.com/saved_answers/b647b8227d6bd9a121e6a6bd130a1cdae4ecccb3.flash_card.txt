@@ -1,0 +1,8 @@
+### Front
+How does the radius of a planet change if its mass increases by a factor of 4, assuming gravity ($g$) remains constant?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass and inversely proportional to the square of the radius ($g \propto M/r^2$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$
+- When to use it: When comparing gravitational fields of different planets or calculating surface gravity based on planetary dimensions.
+- Common trap: Forgetting to take the square root of the radius relationship; if $M$ increases by 4, $r$ must increase by $\sqrt{4} = 2$ to keep $g$ constant.

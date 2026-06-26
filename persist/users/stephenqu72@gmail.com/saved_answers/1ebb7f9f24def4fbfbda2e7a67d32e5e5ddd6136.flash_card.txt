@@ -1,0 +1,8 @@
+### Front
+How does the launch angle of a projectile (at a constant speed) affect its time-of-flight?
+
+### Back
+- Key idea: Time-of-flight is directly proportional to the initial vertical velocity component ($u_y$). A steeper angle increases $u_y$, resulting in more time in the air.
+- Formula / law / constant / figure: $t = \frac{2u \sin(\theta)}{g}$
+- When to use it: Any projectile motion problem launched from and landing on level ground.
+- Common trap: Confusing time-of-flight with horizontal range; range is maximized at $45^\circ$, but time-of-flight is maximized as the angle approaches $90^\circ$.

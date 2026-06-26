@@ -1,0 +1,8 @@
+### Front
+Two projectiles are launched from level ground at the same speed $u$, but at different angles $\theta_1$ and $\theta_2$. Under what condition will they have the same horizontal range?
+
+### Back
+- Key idea: Complementary angles ($\theta_1 + \theta_2 = 90^\circ$) yield identical ranges because $\sin(2\theta_1) = \sin(180^\circ - 2\theta_1)$.
+- Formula / law / constant / figure: $R = \frac{u^2 \sin(2\theta)}{g}$
+- When to use it: To quickly compare ranges of projectiles without full calculation when launch speeds are equal.
+- Common trap: Assuming the same range implies the same time of flight or maximum height; higher angles always result in longer flight times.

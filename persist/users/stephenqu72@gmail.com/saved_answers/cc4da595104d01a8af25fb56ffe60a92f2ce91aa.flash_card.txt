@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational field strength ($g$) at a specific distance from the centre of a planet?
+
+### Back
+- **Key idea:** Gravitational acceleration is inversely proportional to the square of the distance from the centre of the mass.
+- **Formula / law / constant:** $g = \frac{GM}{r^2}$ where $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$.
+- **When to use it:** To find the acceleration due to gravity at any point in space, including satellites or probes.
+- **Common trap:** Failing to calculate the total orbital radius ($r$) as the sum of the planet’s radius and the altitude ($r = R_{planet} + h$). Never use altitude alone as $r$.

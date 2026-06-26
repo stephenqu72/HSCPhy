@@ -1,0 +1,8 @@
+### Front
+How can you experimentally verify Kepler’s Third Law using a dataset of various planetary orbital periods ($T$) and semimajor axes ($a$)?
+
+### Back
+- Key idea: Transform the power-law relationship $T^2 \propto a^3$ into a linear relationship using logarithms.
+- Formula / law / constant / figure: Plot $\log(T)$ vs $\log(a)$; the gradient must equal $1.5$ ($3/2$).
+- When to use it: To verify power-law relationships or confirm orbital proportionality from experimental data.
+- Common trap: Forgetting that eccentricity ($e$) does not affect the period; the period is determined solely by the semimajor axis ($a$).

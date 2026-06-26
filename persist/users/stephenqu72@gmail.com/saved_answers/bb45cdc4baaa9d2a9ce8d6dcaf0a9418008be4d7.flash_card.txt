@@ -1,0 +1,8 @@
+### Front
+What is the formula and principle for determining the gravitational acceleration ($g$) at the surface of a planet?
+
+### Back
+- **Key idea:** Gravitational field strength depends on the mass of the planet and its radius squared.
+- **Formula / law:** $g = \frac{GM}{r^2}$ (derived from Newton’s Law of Universal Gravitation).
+- **When to use it:** To calculate the acceleration due to gravity for any planet or moon where mass ($M$) and radius ($r$) are provided.
+- **Common trap:** Forgetting to square the radius ($r^2$) or failing to use SI units (meters and kilograms).

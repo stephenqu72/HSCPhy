@@ -1,0 +1,8 @@
+### Front
+How does the gravitational acceleration ($g$) of a planet change if its mass triples and its radius is halved?
+
+### Back
+- Key idea: Gravitational field strength is directly proportional to mass ($M$) and inversely proportional to the square of the radius ($r^2$).
+- Formula / law / constant: $g = \frac{GM}{r^2}$
+- When to use it: To compare gravitational fields of different celestial bodies or determine surface gravity.
+- Common trap: Forgetting to square the scaling factor of the radius (e.g., $(0.5)^2 = 0.25$, not $0.5$). Dividing by $0.25$ is equivalent to multiplying by $4$.

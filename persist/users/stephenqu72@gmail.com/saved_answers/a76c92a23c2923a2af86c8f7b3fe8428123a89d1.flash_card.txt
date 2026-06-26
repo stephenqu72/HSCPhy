@@ -1,0 +1,8 @@
+### Front
+What are the required orbital period and direction for a satellite to remain geostationary relative to an observer on Earth's equator?
+
+### Back
+- Key idea: The satellite's angular velocity must match the Earth’s rotational angular velocity exactly.
+- Formula / law / constant / figure: $T = 24\text{ hours}$ (sidereal day); Direction: West to East (Eastward).
+- When to use it: When solving problems involving geostationary or geosynchronous satellite positioning.
+- Common trap: Confusing "geostationary" (fixed above a point) with "geosynchronous" (same period, but potentially inclined orbit, causing the satellite to trace a figure-eight path).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of a rotating mirror in Michelson’s experiment to measure the speed of light?
+
+### Back
+- Key idea: The mirror must rotate by exactly one face ($1/n$ of a turn) in the time ($t$) it takes light to complete the round-trip distance ($2d$).
+- Formula / law / constant: $\omega = \frac{\theta}{t} = \frac{2\pi/n}{2d/c}$, where $n$ is the number of sides.
+- When to use it: When calculating the required rotation frequency for a mirror assembly to reflect light into an observer's eyepiece.
+- Common trap: Forgetting the total distance is $2d$ (there and back) and using $\theta$ as the angle between faces rather than the angle of rotation required for a specific face to replace the previous one.

@@ -1,0 +1,8 @@
+### Front
+How do you resolve projectile motion problems in the NSW HSC Physics course?
+
+### Back
+- Key idea: Treat horizontal and vertical motion as independent components.
+- Formula / law / constant: Horizontal: $v_x = \text{constant}$; Vertical: $v_y = u_y + at$ and $s_y = u_y t + \frac{1}{2}at^2$ (where $a = g \approx 9.8\text{ m s}^{-2}$).
+- When to use it: Any 2D motion problem involving objects moving under the influence of gravity (ignoring air resistance).
+- Common trap: Assuming the horizontal velocity changes or forgetting that the initial vertical velocity ($u_y$) is $0\text{ m s}^{-1}$ for purely horizontal launches.

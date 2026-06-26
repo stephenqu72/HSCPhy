@@ -1,0 +1,8 @@
+### Front
+Why is the mass of an object irrelevant when calculating its escape velocity from a planet?
+
+### Back
+- **Key idea:** Gravitational potential energy and kinetic energy are both directly proportional to the mass of the projectile ($m$), causing $m$ to cancel out in the energy balance equation ($K = |U|$).
+- **Formula / law / constant / figure:** Conservation of Energy: $\frac{1}{2}mv^2 = \frac{GMm}{r} \rightarrow v = \sqrt{\frac{2GM}{r}}$
+- **When to use it:** When asked to explain the factors affecting escape velocity or to derive the velocity formula.
+- **Common trap:** Assuming a heavier object requires more velocity to escape; it does not. Only the planet's mass ($M$) and radius ($r$) matter.

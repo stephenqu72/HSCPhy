@@ -1,0 +1,8 @@
+### Front
+How do you calculate angular velocity ($\omega$) given a linear arc length ($s$), radius ($r$), and time ($t$)?
+
+### Back
+- Key idea: Angular velocity is the rate of change of angular displacement ($\theta$).
+- Formula / law / constant: $\omega = \frac{\theta}{t}$ where $\theta = \frac{s}{r}$ (in radians).
+- When to use it: To convert linear motion (arc length) into rotational motion.
+- Common trap: Forgetting to convert radians to degrees if the final answer requires degrees (multiply by $180/\pi$).

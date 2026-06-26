@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass of a charge suspended in equilibrium between parallel plates given the deflection angle $\theta$?
+
+### Back
+- **Key idea:** Resolution of forces in static equilibrium where $\sum F = 0$.
+- **Formula:** $m = \frac{qV}{gd \tan(\theta)}$
+- **When to use it:** When a charged object is in equilibrium under the influence of gravity, tension, and a uniform electric field.
+- **Common trap:** Confusing $\tan(\theta)$ and $\sin(\theta)$; remember that $\tan(\theta) = \frac{\text{horizontal force}}{\text{vertical force}}$ (opposite/adjacent).

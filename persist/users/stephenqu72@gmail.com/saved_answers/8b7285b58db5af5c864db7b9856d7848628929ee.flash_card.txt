@@ -1,0 +1,8 @@
+### Front
+How can you identify if two planets orbit the same star using orbital data?
+
+### Back
+- **Key idea:** Planets orbiting the same central mass follow Kepler’s Third Law, meaning they share the same constant $k$.
+- **Formula / law:** $\frac{T^2}{r^3} = \frac{4\pi^2}{GM} = k$
+- **When to use it:** When comparing orbital periods ($T$) and radii ($r$) to determine if objects share the same central body.
+- **Common trap:** Forgetting to ensure all periods and radii are converted into consistent units before calculating the ratio.

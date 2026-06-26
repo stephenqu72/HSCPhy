@@ -1,0 +1,8 @@
+### Front
+What is the formula for the velocity ($v$) of a car on a banked track with no friction?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force.
+- Formula: $v = \sqrt{rg \tan \theta}$
+- When to use it: When calculating the "design speed" of a banked track where friction is ignored or not required.
+- Common trap: Assuming the normal force ($N$) is equal to weight ($mg$); on a banked track, $N \cos \theta = mg$, meaning $N$ is always greater than the weight.

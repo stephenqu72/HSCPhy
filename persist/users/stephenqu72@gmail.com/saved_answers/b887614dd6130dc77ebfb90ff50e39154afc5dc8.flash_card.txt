@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass ($M$) of a planet using its gravitational field strength ($g$) at a given radius ($r$)?
+
+### Back
+- **Key idea:** Gravitational field strength is proportional to mass and inversely proportional to the square of the distance from the centre.
+- **Formula / law / constant / figure:** $g = \frac{GM}{r^2} \implies M = \frac{g \cdot r^2}{G}$ ($G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$)
+- **When to use it:** When provided with experimental $g$ vs $r$ data points or a graph to calculate planetary mass.
+- **Common trap:** Using the distance from the *surface* ($h$) instead of the distance from the *centre* ($r = R_{planet} + h$).

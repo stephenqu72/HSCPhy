@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital radius ($r$) and altitude ($h$) of a geostationary satellite?
+
+### Back
+- **Key idea:** A geostationary satellite must have an orbital period ($T$) equal to Earth's sidereal rotation period (86,400 s).
+- **Formula / law / constant:** Kepler’s Third Law: $r = \sqrt[3]{\frac{GMT^2}{4\pi^2}}$; $h = r - R_E$
+- **When to use it:** When solving for the altitude required to keep an object stationary relative to a point on the Earth's equator.
+- **Common trap:** Confusing the orbital radius ($r$ from the Earth's centre) with the altitude ($h$ above the Earth's surface); always remember to subtract the Earth's radius ($R_E \approx 6,378 \, \text{km}$).

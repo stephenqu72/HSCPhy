@@ -1,0 +1,8 @@
+### Front
+How does the gravitational force between two objects change if both masses are halved and the separation distance is also halved?
+
+### Back
+- Key idea: Gravitational force is proportional to the product of masses ($m_1m_2$) and inversely proportional to the square of the distance ($r^2$).
+- Formula / law / constant / figure: $F = \frac{Gm_1m_2}{r^2}$; $G \approx 6.67 \times 10^{-11} \text{ N m}^2 \text{ kg}^{-2}$
+- When to use it: Any scenario involving point masses or spherical bodies.
+- Common trap: Forgetting to square the change in distance ($r$); here, halving $r$ increases the force by a factor of 4, which perfectly cancels the factor of $1/4$ from the masses.

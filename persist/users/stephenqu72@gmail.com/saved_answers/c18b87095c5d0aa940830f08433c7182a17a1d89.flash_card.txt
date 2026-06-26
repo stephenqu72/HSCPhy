@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch angle ($\theta$) of a projectile when given the force ($F$), displacement ($d$), and final velocity ($v$)?
+
+### Back
+- Key idea: Work-Energy Principle ($W = \Delta KE + \Delta PE$).
+- Formula / law: $F \cdot d = \frac{1}{2}mv^2 + mg(d \sin \theta)$.
+- When to use it: When an object is accelerated over a distance while being lifted against gravity.
+- Common trap: Forgetting to include the Potential Energy ($\Delta PE$) component due to the vertical displacement ($d \sin \theta$) when calculating the energy balance.

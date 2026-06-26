@@ -1,0 +1,8 @@
+### Front
+How can you conceptually model magnetic flux ($\Phi_B$) to understand its physical meaning?
+
+### Back
+- Key idea: It represents the total "flow" of magnetic field lines passing through a defined area.
+- Formula / law / constant / figure: $\Phi_B = BA\cos(\theta)$
+- When to use it: To determine how much magnetic influence passes through a loop or surface.
+- Common trap: Confusing $\theta$ as the angle between the field and the *surface*; it must be the angle between the field and the **normal** to the surface.

@@ -1,0 +1,8 @@
+### Front
+How does Special Relativity affect the operation of a circular particle accelerator as particles approach the speed of light?
+
+### Back
+- Key idea: As velocity $v \to c$, relativistic mass increases ($\gamma m$), requiring a stronger magnetic field to maintain a constant orbital radius.
+- Formula / law / constant / figure: $F = qvB = \frac{\gamma mv^2}{r}$ where $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$
+- When to use it: To explain why synchrotrons must synchronize magnetic field strength with increasing particle momentum.
+- Common trap: Assuming classical mechanics ($p=mv$) holds; failure to account for $\gamma$ leads to an underestimation of the magnetic force required.

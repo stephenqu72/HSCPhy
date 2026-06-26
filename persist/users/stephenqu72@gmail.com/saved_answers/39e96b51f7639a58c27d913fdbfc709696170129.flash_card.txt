@@ -1,0 +1,8 @@
+### Front
+How do gravitational potential ($U$) and angular velocity ($\omega$) compare for two points on Earth at different altitudes (X higher than Y)?
+
+### Back
+- **Key idea:** Gravitational potential $U$ depends on distance from the center ($r$); angular velocity $\omega$ is constant for all points on a rotating rigid body.
+- **Formula / law:** $U = -GM/r$; $\omega = 2\pi/T$.
+- **When to use it:** When analyzing satellite or ground-based position problems involving orbital mechanics or Earth’s rotation.
+- **Common trap:** Confusing constant angular velocity ($\omega$) with linear velocity ($v = \omega r$). Points at different altitudes have different linear velocities but identical angular velocities.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a central star using an orbiting planet?
+
+### Back
+- Key idea: Apply Kepler’s Third Law as derived from Newton’s Law of Universal Gravitation.
+- Formula / law / constant / figure: $M = \frac{4\pi^2 r^3}{G T^2}$ ($G = 6.67 \times 10^{-11} \text{ N m}^2/\text{kg}^2$)
+- When to use it: When given the orbital period ($T$) and semi-major axis ($r$) of a planet orbiting a central mass.
+- Common trap: Neglecting to convert units (e.g., $T$ must be in seconds, $r$ in metres) or assuming the planet's mass is significant.

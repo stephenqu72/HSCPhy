@@ -1,0 +1,8 @@
+### Front
+How does the range ($R$) of a projectile launched on level ground relate to initial velocity ($v$), launch angle ($\theta$), and gravitational acceleration ($g$)?
+
+### Back
+- Key idea: The horizontal range depends on the square of the launch velocity and the sine of double the launch angle.
+- Formula: $R = \frac{v^2 \sin(2\theta)}{g}$
+- When to use it: To determine or compare landing distances for projectiles launched on level ground (assuming negligible air resistance).
+- Common trap: Forgetting that $\sin(2\theta)$ is used (not $\sin(\theta)$) and assuming the formula applies if the landing point is not at the same vertical level as the launch point.

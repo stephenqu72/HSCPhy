@@ -1,0 +1,8 @@
+### Front
+How do you determine the location of the null point between two like-point charges?
+
+### Back
+- **Key idea:** The point where the magnitudes of the electric fields produced by each charge are equal and opposite ($E_1 = E_2$).
+- **Formula / law / constant / figure:** $E = \frac{kQ}{r^2}$ (Coulomb’s Law for Electric Fields).
+- **When to use it:** To find the position between two charges where the net electric field strength is zero.
+- **Common trap:** Forgetting to take the square root of both sides of the equation or incorrectly assigning distances relative to the specific charge ($x$ vs $d-x$).

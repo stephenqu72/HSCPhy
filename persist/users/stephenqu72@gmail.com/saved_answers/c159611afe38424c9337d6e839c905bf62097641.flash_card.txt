@@ -1,0 +1,8 @@
+### Front
+How does the maximum safe velocity ($v$) of a car turning on a flat road change if the coefficient of friction ($\mu$) is halved?
+
+### Back
+- Key idea: Since $F_c = f_{max}$, we derive $v \propto \sqrt{\mu}$. If $\mu$ is halved, $v$ decreases by a factor of $\sqrt{2}$.
+- Formula / law / constant: $\frac{mv^2}{r} = \mu mg \implies v = \sqrt{\mu rg}$
+- When to use it: Circular motion on flat surfaces where friction provides the centripetal force.
+- Common trap: Assuming $v$ is directly proportional to $\mu$ rather than the square root of $\mu$. The answer is $v' = \frac{v}{\sqrt{2}} \approx 0.707v$.

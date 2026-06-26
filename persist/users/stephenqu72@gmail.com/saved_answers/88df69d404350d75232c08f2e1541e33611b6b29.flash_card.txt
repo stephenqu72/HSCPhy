@@ -1,0 +1,8 @@
+### Front
+How do kinetic energy, potential energy, and acceleration change as a planet moves from aphelion toward periapsis?
+
+### Back
+- Key idea: As orbital radius ($r$) decreases, potential energy decreases, kinetic energy increases, and acceleration increases. Total mechanical energy remains constant.
+- Formula / law / constant / figure: Conservation of Mechanical Energy ($E = K + U$); $U = -GMm/r$; $a = GM/r^2$
+- When to use it: Any problem involving an object in an elliptical orbit changing its distance from the primary body.
+- Common trap: Forgetting that potential energy is negative; as $r$ decreases, $U$ becomes "more negative," which is a mathematical decrease.

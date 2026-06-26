@@ -1,0 +1,8 @@
+### Front
+How do you calculate the kinetic energy of individual decay products (like two identical alpha particles) starting from an initial mass defect?
+
+### Back
+- Key idea: Total energy released ($Q = \Delta mc^2$) is shared between products to satisfy conservation of energy and momentum.
+- Formula / law / constant / figure: $E = \Delta mc^2$; $1 \text{ u} \approx 931.5 \text{ MeV/c}^2$; $KE_{\text{product}} = \frac{E_{total}}{N}$ (where $N$ is the number of identical particles).
+- When to use it: When calculating kinetic energy in nuclear decay or fission reactions where reactants are initially at rest.
+- Common trap: Forgetting to divide the total energy by the number of products; using the wrong mass-to-energy conversion constant.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch angle $\theta$ of a projectile if given the initial velocity $u$ and the time to reach maximum height $t_{up}$?
+
+### Back
+- Key idea: At maximum height, the vertical velocity component $v_y$ is zero.
+- Formula / law / constant: $v_y = u \sin \theta - gt = 0 \implies \theta = \arcsin(\frac{gt}{u})$
+- When to use it: Any projectile motion problem involving initial velocity, launch angle, and time to peak.
+- Common trap: Forgetting that $u_y = u \sin \theta$ (vertical) vs $u_x = u \cos \theta$ (horizontal); ensure you use $g \approx 9.8 \text{ m/s}^2$ unless the question specifies $10 \text{ m/s}^2$.

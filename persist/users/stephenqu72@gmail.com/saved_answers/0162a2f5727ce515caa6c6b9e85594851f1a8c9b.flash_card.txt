@@ -1,0 +1,8 @@
+### Front
+In Newton’s Cannonball thought experiment, how does orbital velocity ($v_{orbit}$) compare to escape velocity ($v_{esc}$)?
+
+### Back
+- Key idea: To achieve a stable circular orbit, the projectile's horizontal speed must balance the Earth's curvature, which is lower than the speed required to break free from the Earth's gravity entirely.
+- Formula / law / constant: $v_{orbit} = \sqrt{\frac{GM}{r}}$ and $v_{esc} = \sqrt{\frac{2GM}{r}}$. Thus, $v_{esc} = \sqrt{2} \times v_{orbit}$.
+- When to use it: When determining if a projectile will orbit, return to the surface, or escape the gravitational field.
+- Common trap: Assuming that "orbital velocity" is the same as "escape velocity." Orbiting requires a closed path (balance), whereas escape requires moving to infinity.

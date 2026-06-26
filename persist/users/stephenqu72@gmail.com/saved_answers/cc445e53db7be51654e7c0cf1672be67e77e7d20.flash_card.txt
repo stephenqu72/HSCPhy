@@ -1,0 +1,8 @@
+### Front
+For two objects at the same radius ($r$) on a rotating platform with angular velocity ($\omega$), how do their centripetal accelerations ($a_c$) and centripetal forces ($F_c$) compare?
+
+### Back
+- Key idea: $a_c$ is independent of mass ($a_c = r\omega^2$), while $F_c$ is directly proportional to mass ($F_c = ma_c$).
+- Formula / law / constant / figure: $a_c = r\omega^2$; $F_c = m(r\omega^2)$. No fixed constant.
+- When to use it: Circular motion problems involving multiple objects on a single rotating system (e.g., merry-go-rounds, turntables).
+- Common trap: Assuming higher mass implies higher acceleration; acceleration remains the same if $r$ and $\omega$ are identical.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of an object moving in a circle when given its linear velocity ($v$) and radius ($r$)?
+
+### Back
+- **Key idea:** Angular velocity is the rate of change of angular displacement; it represents how fast the object rotates around the centre.
+- **Formula:** $\omega = \frac{v}{r}$ (or $\omega = \frac{\theta}{t}$)
+- **When to use it:** Whenever converting between circular path motion (linear) and rotational motion (angular).
+- **Common trap:** Forgetting that $\omega$ must be in **radians per second** (rad s⁻¹), not degrees per second.

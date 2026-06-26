@@ -1,0 +1,8 @@
+### Front
+In projectile motion (neglecting air resistance), how does the total velocity of an object change throughout its trajectory, and why is it at its maximum just before hitting the ground?
+
+### Back
+- **Key idea:** Total velocity is the vector sum of constant horizontal velocity ($v_x$) and changing vertical velocity ($v_y$). As the object falls, gravity increases $|v_y|$, thereby increasing the resultant magnitude ($v = \sqrt{v_x^2 + v_y^2}$).
+- **Formula / law / constant / figure:** $v = \sqrt{v_x^2 + v_y^2}$; $a_y = g \approx 9.8 \text{ m/s}^2$ (downward).
+- **When to use it:** To determine velocity changes or compare speeds at different points along a parabolic path.
+- **Common trap:** Assuming velocity is zero at the start (it must have initial horizontal velocity) or assuming acceleration is zero at the peak of the trajectory (it remains $g$ throughout).

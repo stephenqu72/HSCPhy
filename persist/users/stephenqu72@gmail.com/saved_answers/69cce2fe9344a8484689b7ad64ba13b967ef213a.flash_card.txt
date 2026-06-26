@@ -1,0 +1,8 @@
+### Front
+Why is the time taken for the Moon to travel from perigee to apogee equal to the time taken to travel from apogee to perigee?
+
+### Back
+- Key idea: Both paths cover exactly half the orbital ellipse’s area; by Kepler’s Second Law, equal areas are swept in equal times ($T/2$).
+- Formula / law / constant / figure: Kepler’s Second Law ($dA/dt = \text{constant}$).
+- When to use it: Any orbital motion problem involving time intervals and area swept by the radius vector.
+- Common trap: Assuming equal travel times implies constant orbital speed (the Moon’s speed actually varies; it is faster at perigee and slower at apogee).

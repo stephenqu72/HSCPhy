@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force and centripetal acceleration for an object moving in a circle, and what is the relationship between the Normal force ($N$) and weight ($mg$) on a banked track?
+
+### Back
+- Key idea: Circular motion requires a net centripetal force directed toward the center of rotation. On a banked track, the vertical component of the Normal force supports weight ($N \cos\theta = mg$).
+- Formula / law / constant / figure: $F_c = \frac{mv^2}{r}$; $a_c = \frac{v^2}{r}$; $N = \frac{mg}{\cos\theta}$
+- When to use it: For objects in uniform circular motion or vehicles navigating banked curves without relying on friction.
+- Common trap: Forgetting to convert velocity from $\text{km/h}$ to $\text{m/s}$ (divide by $3.6$) and incorrectly resolving components of the Normal force.

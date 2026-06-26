@@ -1,0 +1,8 @@
+### Front
+How does the acceleration due to gravity ($g$) change if a planet’s mass doubles and its radius is halved?
+
+### Back
+- Key idea: $g$ is proportional to $M$ and inversely proportional to $r^2$.
+- Formula / law: $g = \frac{GM}{r^2}$
+- When to use it: For calculating gravitational field strength on the surface of spherical bodies.
+- Common trap: Forgetting to square the radius change—halving the radius ($1/2$) results in a factor of $(1/2)^2 = 1/4$ in the denominator, which effectively multiplies gravity by 4.

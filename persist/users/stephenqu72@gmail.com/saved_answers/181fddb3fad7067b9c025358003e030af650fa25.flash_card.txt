@@ -1,0 +1,8 @@
+### Front
+What does the gradient of a gravitational potential ($V_g$) vs. distance ($r$) graph represent, and how is it derived?
+
+### Back
+- **Key idea:** The gradient represents the local gravitational field strength ($g$).
+- **Formula / law / constant / figure:** $g = -\frac{dV}{dr}$. Derived from $W = Fd$ and $F=ma$, where $\frac{\text{J/kg}}{\text{m}} = \text{N/kg} = \text{m/s}^2$.
+- **When to use it:** To determine the acceleration due to gravity at a specific point in a non-uniform field by calculating the slope of the potential curve.
+- **Common trap:** Forgetting to convert units (e.g., km to m) before calculating the gradient, or forgetting the negative sign (the gravitational field vector points in the direction of *decreasing* potential).

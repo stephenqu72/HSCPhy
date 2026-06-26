@@ -1,0 +1,8 @@
+### Front
+How do you determine the half-life ($t_{1/2}$) of a radioactive substance from its decay constant ($\lambda$) in the formula $N_t = N_0e^{-\lambda t}$?
+
+### Back
+- **Key idea:** Half-life is the time required for $N_t$ to reach $0.5N_0$.
+- **Formula / law / constant / figure:** $t_{1/2} = \frac{\ln(2)}{\lambda} \approx \frac{0.693}{\lambda}$
+- **When to use it:** To calculate the time taken for a radioactive sample's activity or nuclei count to halve.
+- **Common trap:** Forgetting to use the natural logarithm ($\ln$) when solving for $t$, or mixing up units of time (e.g., using $\lambda$ in $s^{-1}$ but expecting an answer in hours).

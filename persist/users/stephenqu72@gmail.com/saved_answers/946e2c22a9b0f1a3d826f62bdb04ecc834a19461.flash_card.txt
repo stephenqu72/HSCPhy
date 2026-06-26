@@ -1,0 +1,8 @@
+### Front
+How do you calculate the half-life of a radioactive isotope given its initial and final activity over a known time interval?
+
+### Back
+- **Key idea:** Use the exponential decay law to find the decay constant ($\lambda$), then relate it to the half-life.
+- **Formula / law / constant / figure:** $A_t = A_0 e^{-\lambda t}$ and $T_{1/2} = \frac{\ln(2)}{\lambda}$
+- **When to use it:** When given two activity values at different times to determine the isotope's stability/decay rate.
+- **Common trap:** Mismatching units (e.g., mixing seconds, minutes, and hours). Always ensure $t$ and $\lambda$ use the same time units before calculating $T_{1/2}$.

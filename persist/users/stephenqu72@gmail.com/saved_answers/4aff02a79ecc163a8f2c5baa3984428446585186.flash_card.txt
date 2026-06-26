@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital radius or mass of a body using Kepler’s Third Law for two objects orbiting the same central mass?
+
+### Back
+- **Key idea:** The ratio $\frac{r^3}{T^2}$ is constant for all objects orbiting the same central body.
+- **Formula:** $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2} = \frac{GM}{4\pi^2}$
+- **When to use it:** To relate orbital periods and radii of satellites/planets or to determine the mass of the central object ($M$).
+- **Common trap:** Forgetting to convert orbital periods ($T$) into SI units (seconds) before substituting into the ratio formula or calculating $M$.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant magnetic field at a point influenced by two perpendicular magnetic field sources?
+
+### Back
+- Key idea: Resultant magnetic field is the vector sum of individual fields.
+- Formula / law / constant / figure: Vector addition: $B_{net} = \sqrt{B_1^2 + B_2^2}$ and $\theta = \tan^{-1}(\frac{B_y}{B_x})$.
+- When to use it: Whenever multiple magnetic sources act at a single point (e.g., Earth's field + magnet/wire field).
+- Common trap: Forgetting that magnetic fields are vectors; simply adding magnitudes instead of performing vector addition (Pythagoras).

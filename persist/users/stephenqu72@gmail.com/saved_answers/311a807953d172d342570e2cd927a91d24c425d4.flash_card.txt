@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity ($v_f$) of a projectile launched horizontally from a height?
+
+### Back
+- **Key idea:** Final velocity is the vector sum of independent horizontal and vertical components.
+- **Formula / law / constant / figure:** $v_f = \sqrt{v_x^2 + v_y^2}$ where $v_x$ is constant and $v_y = \sqrt{2gh}$.
+- **When to use it:** When determining the speed at impact for a projectile starting from rest.
+- **Common trap:** Forgetting that $v_x$ remains constant while $v_y$ increases due to gravity; do not just add the magnitudes—you must use Pythagoras' theorem.

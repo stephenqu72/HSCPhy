@@ -1,0 +1,8 @@
+### Front
+How can gravitational potential energy change ($\Delta U$) be determined from a gravitational field strength ($g$) vs. distance ($r$) graph?
+
+### Back
+- Key idea: $\Delta U$ is equivalent to the work done, which is the area under the force-distance ($F$-$r$) graph.
+- Formula / law / constant / figure: $\Delta U = m \int g \, dr$ or $m \times (\text{Area under } g\text{-}r \text{ curve})$.
+- When to use it: When calculating the work done moving an object through a non-uniform gravitational field where the graph is provided.
+- Common trap: Forgetting to multiply the area under the $g$-$r$ graph by the mass ($m$) of the object to convert it to energy.

@@ -1,0 +1,8 @@
+### Front
+In projectile motion, how do initial horizontal velocity and gravity affect the time an object takes to fall a vertical distance $h$?
+
+### Back
+- **Key idea:** Vertical and horizontal motions are independent; time of flight depends only on initial vertical velocity ($u_y$) and vertical displacement ($h$).
+- **Formula:** $t = \sqrt{\frac{2h}{g}}$ (assuming $u_y = 0$).
+- **When to use it:** To calculate time of flight for objects launched horizontally or dropped from rest.
+- **Common trap:** Assuming horizontal velocity affects time of flight, or incorrectly thinking mass influences the rate of acceleration in a vacuum.

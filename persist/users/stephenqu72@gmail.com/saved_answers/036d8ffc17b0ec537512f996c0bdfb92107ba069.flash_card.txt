@@ -1,0 +1,8 @@
+### Front
+Why does a DC motor coil fail to rotate when its plane is perpendicular to the magnetic field?
+
+### Back
+- Key idea: The "dead position" or equilibrium point where torque is zero.
+- Formula / law / constant: $\tau = Fd \sin\theta$ (where $\theta$ is the angle between the coil normal and the B-field).
+- When to use it: To explain why a motor requires an initial nudge or a split-ring commutator to move past the vertical.
+- Common trap: Thinking that increasing current ($I$) or magnetic field ($B$) will start rotation; these increase force, but cannot create torque when the lever arm ($d$) is zero.

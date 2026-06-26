@@ -1,0 +1,10 @@
+### Front
+For two satellites at altitudes $h_E = 2R$ and $h_F = 5R$, how do their gravitational potential energies ($U$) and orbital velocities ($v$) compare?
+
+### Back
+- Key idea: Total orbital radius $r = R + h$. Potential energy $U \propto 1/r$; Orbital velocity $v \propto 1/\sqrt{r}$.
+- Formula / law: 
+  - $U = -GMm/r$
+  - $v = \sqrt{GM/r}$
+- When to use it: Circular orbit problems involving energy changes or comparisons between different orbital radii.
+- Common trap: Forgetting to add the Earth's radius ($R$) to the altitude ($h$) to find the total distance from the centre ($r$). Always use $r = R + h$.

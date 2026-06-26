@@ -1,0 +1,8 @@
+### Front
+What is the minimum possible orbital period for a satellite orbiting Earth and why?
+
+### Back
+- Key idea: The minimum period occurs at the Earth's surface ($r = R_E$), which is approximately 85 minutes.
+- Formula / law / constant / figure: $T = 2\pi \sqrt{\frac{r^3}{GM}}$; $R_E \approx 6.37 \times 10^6 \text{ m}$
+- When to use it: To determine the physical lower limit of orbital periods or to check the feasibility of an orbit.
+- Common trap: Forgetting that $r$ is the distance from the *centre* of the Earth, not altitude from the surface; if altitude $h$ is given, $r = R_E + h$.

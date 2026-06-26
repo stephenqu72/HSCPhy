@@ -1,0 +1,8 @@
+### Front
+In the "Monkey and the Hunter" projectile motion scenario, why does the dart always hit the monkey regardless of the projectile's initial velocity?
+
+### Back
+- **Key idea:** Both objects experience the same constant gravitational acceleration ($-g$), causing them to fall by the same vertical distance ($\frac{1}{2}gt^2$) below the initial line-of-sight path.
+- **Formula / law / constant / figure:** $y = y_0 + v_{0y}t - \frac{1}{2}gt^2$
+- **When to use it:** When analyzing projectile problems involving simultaneous free-fall or relative motion.
+- **Common trap:** Assuming the dart hits the monkey at the same time for different velocities; the *time* of impact changes with velocity, but the *fact* of impact remains constant.

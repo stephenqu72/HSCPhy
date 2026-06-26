@@ -1,0 +1,8 @@
+### Front
+How do you calculate the centripetal force ($F_c$) of an object in circular motion given its mass ($m$), radius ($r$), and time period ($T$)?
+
+### Back
+- Key idea: Centripetal force is the net inward force required to maintain circular motion.
+- Formula: $F_c = mr\omega^2$ where $\omega = \frac{2\pi}{T}$.
+- When to use it: When given mass, radius, and time/frequency data for uniform circular motion.
+- Common trap: Failing to convert mass to kg (e.g., g to kg) or using frequency ($f$) instead of angular velocity ($\omega$) incorrectly—ensure $T$ is in seconds.

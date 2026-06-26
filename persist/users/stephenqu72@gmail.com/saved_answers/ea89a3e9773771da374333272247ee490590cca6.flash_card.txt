@@ -1,0 +1,8 @@
+### Front
+What factors determine a planet's orbital period ($T$) and how are they mathematically related according to Kepler’s Third Law?
+
+### Back
+- Key idea: $T$ depends only on the orbital radius ($r$) and the central star’s mass ($M$).
+- Formula / law / constant / figure: $T^2 = \frac{4\pi^2 r^3}{GM}$
+- When to use it: To calculate orbital periods or compare orbits around the same central body.
+- Common trap: Assuming the mass of the orbiting planet affects its period; it cancels out and has no effect.

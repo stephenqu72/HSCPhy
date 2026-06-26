@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released in a nuclear fission or fusion reaction, and what is the primary advantage of these processes over chemical combustion for space travel?
+
+### Back
+- **Key idea:** Energy release ($\Delta E$) is derived from the mass-energy equivalence principle ($E=mc^2$), where the mass defect ($\Delta m$) is converted directly into energy.
+- **Formula / law / constant / figure:** $E = \Delta m c^2$; $1 \text{ amu} \approx 1.6606 \times 10^{-27} \text{ kg}$; $c \approx 3.00 \times 10^8 \text{ m/s}$.
+- **When to use it:** To compare energy densities of different fuel types; specifically when calculating the fuel payload required to satisfy a specific total energy mission requirement.
+- **Common trap:** Forgetting to convert the mass defect from atomic mass units (amu) to kilograms (kg) before substituting into the $E=mc^2$ equation. Also, neglecting the "tyranny of the rocket equation"—chemical fuels are inefficient due to their massive weight requirement compared to nuclear fuels.

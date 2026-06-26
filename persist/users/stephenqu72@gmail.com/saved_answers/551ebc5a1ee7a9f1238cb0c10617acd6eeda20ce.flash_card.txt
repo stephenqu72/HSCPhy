@@ -1,0 +1,8 @@
+### Front
+How do you calculate the gravitational acceleration ($a_c$) of an orbiting satellite at a given altitude ($h$)?
+
+### Back
+- **Key idea:** Gravitational acceleration equals the centripetal acceleration required to maintain a stable circular orbit.
+- **Formula / law / constant:** $a_c = \frac{GM}{r^2}$ where $r = R_E + h$.
+- **When to use it:** When determining the acceleration of an object in a circular orbit or calculating satellite orbital velocity.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total distance from the centre of the Earth ($r$). The satellite's mass ($m$) is irrelevant.

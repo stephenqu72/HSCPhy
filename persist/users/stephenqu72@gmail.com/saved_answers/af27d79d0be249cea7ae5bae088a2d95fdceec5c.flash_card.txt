@@ -1,0 +1,8 @@
+### Front
+What law relates the temperature of a black body to its peak wavelength of emission?
+
+### Back
+- **Key idea:** As temperature increases, the peak wavelength of emitted radiation shifts to shorter wavelengths (higher frequencies).
+- **Formula / law / constant:** Wien’s Displacement Law: $\lambda_{max} = \frac{b}{T}$ where $b \approx 2.898 \times 10^{-3} \, m \cdot K$.
+- **When to use it:** To calculate the peak wavelength of a black body radiator or to determine the temperature of a star based on its colour/peak spectral emission.
+- **Common trap:** Forgetting to convert temperature from Celsius to Kelvin ($T_{K} = T_{°C} + 273.15$).

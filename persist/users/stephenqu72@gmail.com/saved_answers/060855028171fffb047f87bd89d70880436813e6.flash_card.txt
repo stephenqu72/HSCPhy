@@ -1,0 +1,8 @@
+### Front
+How do you calculate the kinetic energy of a decay product when given the initial/final masses and the kinetic energy of the other product?
+
+### Back
+- Key idea: Total energy released ($Q$-value) is equal to the sum of the kinetic energies of the products.
+- Formula / law / constant: $\Delta E = \Delta mc^2$; $E_{\text{total}} = K_1 + K_2$.
+- When to use it: Radioactive decay problems involving mass defects to determine individual particle energies.
+- Common trap: Forgetting to convert the mass defect from atomic mass units ($u$) to kg (or MeV) before calculating energy, or failing to account for all decay products.

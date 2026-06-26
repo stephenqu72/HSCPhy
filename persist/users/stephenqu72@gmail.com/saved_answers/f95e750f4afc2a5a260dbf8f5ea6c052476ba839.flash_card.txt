@@ -1,0 +1,8 @@
+### Front
+Why did early DC electrical grids require power stations to be located close to consumers?
+
+### Back
+- Key idea: DC cannot be efficiently stepped up in voltage, forcing high current transmission and significant resistive heat loss ($P_{loss} = I^2R$) over long distances.
+- Formula / law / constant / figure: $P_{loss} = I^2R$
+- When to use it: To explain the limitations of DC and the efficiency of AC transmission (which uses transformers to lower $I$ by increasing $V$).
+- Common trap: Thinking DC is inherently less efficient at the point of use; it is inefficient only due to *transmission* logistics.

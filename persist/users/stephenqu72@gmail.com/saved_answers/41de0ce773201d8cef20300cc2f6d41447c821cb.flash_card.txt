@@ -1,0 +1,8 @@
+### Front
+What is the formula for the torque ($\tau$) of a force applied to a rotating object, and what are the units?
+
+### Back
+- Key idea: Torque is the rotational equivalent of force; it measures the turning effect of a force applied at a distance from a pivot.
+- Formula / law / constant / figure: $\tau = F \cdot r \cdot \sin(\theta)$; Units are Newton-meters ($\text{N m}$).
+- When to use it: Whenever calculating the turning effect of a force relative to a pivot point.
+- Common trap: Forgetting to convert distance ($r$) from cm to meters (SI units) or using the wrong angle ($\theta$ is the angle between the force vector and the lever arm).

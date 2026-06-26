@@ -1,0 +1,8 @@
+### Front
+What is the formula for the ideal banking angle ($\theta$) of a frictionless track to allow a vehicle to travel at velocity $v$ around a curve of radius $r$?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the required centripetal force.
+- Formula: $\tan \theta = \frac{v^2}{rg}$
+- When to use it: Circular motion on a banked curve where friction is negligible or ignored.
+- Common trap: Forgetting to ensure units are consistent (e.g., converting $\text{km/h}$ to $\text{m/s}$ before calculating) or mixing up $\sin$ and $\cos$ in the derivation.

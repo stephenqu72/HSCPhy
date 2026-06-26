@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining amount of a radioactive substance after a specific time interval?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process where the substance reduces by half every half-life ($T_{1/2}$).
+- **Formula:** $N(t) = N_0 \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}}$
+- **When to use it:** To determine the remaining quantity or mass of a radioactive isotope given its half-life and elapsed time.
+- **Common trap:** Using $n = t \times T_{1/2}$ instead of $n = \frac{t}{T_{1/2}}$, or failing to ensure units for $t$ and $T_{1/2}$ match.

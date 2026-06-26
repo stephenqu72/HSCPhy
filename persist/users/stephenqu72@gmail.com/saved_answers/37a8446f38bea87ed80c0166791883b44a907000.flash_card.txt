@@ -1,0 +1,8 @@
+### Front
+How do you determine the final relative position of a projectile fired from a rotating platform?
+
+### Back
+- Key idea: Analyze projectile time of flight independently from platform angular displacement, then calculate final positions relative to the centre.
+- Formula / law / constant / figure: $s = ut + \frac{1}{2}at^2$ (projectile) and $\Delta\theta = \omega t$ (circular motion).
+- When to use it: Problems involving moving platforms or rotating reference frames.
+- Common trap: Forgetting to find $\theta \pmod{2\pi}$ to determine the final coordinate and neglecting that the projectile is fired from a moving source.

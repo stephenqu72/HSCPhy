@@ -1,0 +1,11 @@
+### Front
+What are the three mandatory conditions for a satellite to be in a geostationary orbit?
+
+### Back
+- **Key idea:** The satellite must appear stationary relative to a point on Earth's surface.
+- **Conditions:** 
+    1. Orbit directly above the equator.
+    2. Orbital period equals Earth's sidereal rotation period ($T \approx 86\,164$ s).
+    3. Orbit in the same direction as Earth's rotation (west to east).
+- **When to use it:** When solving for the orbital radius of a geostationary satellite using Kepler’s Third Law ($T^2 \propto r^3$).
+- **Common trap:** Confusing the solar day ($24$ hours) with the sidereal day ($\approx 23.93$ hours); always use the sidereal period for orbital calculations.

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the escape velocity of an object from a planet, and what is the escape velocity of Earth?
+
+### Back
+- Key idea: Conservation of energy (Total Mechanical Energy = 0).
+- Formula / law / constant / figure: $v_e = \sqrt{\frac{2GM}{r}}$; $v_e \approx 1.12 \times 10^4 \text{ m/s}$ (or $11.2 \text{ km/s}$).
+- When to use it: To determine the minimum speed required for an object to escape a gravitational field.
+- Common trap: The mass of the object is irrelevant; ensure $r$ is the distance from the centre of the planet (radius + altitude).

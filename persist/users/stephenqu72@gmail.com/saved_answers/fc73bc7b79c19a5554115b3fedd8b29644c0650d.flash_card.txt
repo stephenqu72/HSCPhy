@@ -1,0 +1,8 @@
+### Front
+In a radioactive decay process, how do you calculate the mass of the stable daughter product formed after time $t$?
+
+### Back
+- Key idea: The mass of the daughter product is equal to the mass of the parent isotope lost.
+- Formula / law: Conservation of mass ($m_{daughter} = m_{initial} - m_{remaining}$), where $m_{remaining} = m_0(0.5)^n$.
+- When to use it: Whenever asked for the amount of stable decay product rather than the amount of radioactive parent remaining.
+- Common trap: Providing the remaining mass of the parent isotope ($m_{remaining}$) instead of the mass of the decayed product ($m_{initial} - m_{remaining}$).

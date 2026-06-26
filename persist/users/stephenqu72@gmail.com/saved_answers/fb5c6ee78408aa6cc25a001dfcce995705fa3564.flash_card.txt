@@ -1,0 +1,8 @@
+### Front
+How does orbital velocity ($v$) relate to escape velocity ($v_e$) for a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Escape velocity is the speed required for an object's total mechanical energy to reach zero; it is $\sqrt{2}$ times the orbital velocity at the same radius.
+- **Formula / law / constant / figure:** $v_e = \sqrt{2}v$ where $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** When asked for escape velocity from an existing circular orbit to save time by avoiding recalculating $G$ and $M$.
+- **Common trap:** Confusing the radius $r$ (distance from the centre of the planet) with the altitude above the planet's surface ($h$). Always ensure $r = R_{planet} + h$.

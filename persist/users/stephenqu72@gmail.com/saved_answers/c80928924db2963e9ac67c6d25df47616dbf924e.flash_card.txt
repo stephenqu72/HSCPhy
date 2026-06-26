@@ -1,0 +1,8 @@
+### Front
+State Kepler’s Third Law of Planetary Motion and its mathematical expression.
+
+### Back
+- **Key idea:** The square of the orbital period ($T$) is directly proportional to the cube of the average orbital radius ($r$).
+- **Formula / law / constant / figure:** $\frac{T^2}{r^3} = k$ (where $k$ is constant for all bodies orbiting the same central mass).
+- **When to use it:** Comparing orbital periods or distances of satellites/planets orbiting the same central body.
+- **Common trap:** Forgetting to square $T$ or cube $r$; ensuring units for $T$ and $r$ are consistent across both objects being compared.

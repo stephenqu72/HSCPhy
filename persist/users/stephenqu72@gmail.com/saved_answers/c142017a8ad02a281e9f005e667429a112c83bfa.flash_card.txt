@@ -1,0 +1,8 @@
+### Front
+How does the electrostatic force ($F$) change if one charge is doubled and the separation distance ($r$) is also doubled?
+
+### Back
+- Key idea: Force follows the inverse-square law; it is proportional to $q$ and inversely proportional to $r^2$.
+- Formula / law: Coulomb’s Law: $F = k \frac{|q_1 q_2|}{r^2}$
+- When to use it: To calculate the effect of changing variables on the electrostatic force between point charges.
+- Common trap: Forgetting to square the distance change. Doubling the distance decreases the force by a factor of 4, not 2. Final result: $F' = \frac{1}{2}F$.

@@ -1,0 +1,8 @@
+### Front
+To maximize the torque applied to a bolt using a spanner, what two conditions must be met regarding the force application?
+
+### Back
+- Key idea: Maximize the moment of force (torque).
+- Formula / law / constant / figure: $\tau = rF \sin(\theta)$
+- When to use it: Whenever applying a rotational force (lever arm) to pivot a point.
+- Common trap: Assuming any angle provides equal leverage; forgetting that $\sin(90^\circ)=1$ is required to use the full magnitude of the force applied.

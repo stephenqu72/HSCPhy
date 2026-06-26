@@ -1,0 +1,8 @@
+### Front
+Why is the total mechanical energy of a satellite not conserved when moving between orbital radii?
+
+### Back
+- **Key idea:** Moving between orbits requires an external force (thrusters) to perform work on the satellite, which changes its total mechanical energy ($E = U_g + K$).
+- **Formula / law / constant / figure:** Work-Energy Theorem ($W = \Delta E$). No fixed constant or figure.
+- **When to use it:** When analyzing energy changes during orbital maneuvers or rocket launches.
+- **Common trap:** Assuming energy is conserved because gravity is a conservative force; remember that the thrusters provide non-conservative work.

@@ -1,0 +1,8 @@
+### Front
+What is the formula for the escape velocity ($v$) of an object from a planet, and how is it used to compare the escape velocities of two different planets?
+
+### Back
+- **Key idea:** Escape velocity is the minimum speed needed for an object to break free from a planet's gravitational attraction.
+- **Formula / law / constant / figure:** $v = \sqrt{\frac{2GM}{R}}$; use the ratio method $\frac{v_1}{v_2} = \sqrt{\frac{M_1}{M_2} \cdot \frac{R_2}{R_1}}$.
+- **When to use it:** When calculating the speed required to reach "infinity" or comparing gravitational escape conditions between different bodies.
+- **Common trap:** Forgetting that $R$ is in the denominator; if the planet's radius increases, escape velocity decreases (assuming constant mass). Ensure consistent units.

@@ -1,0 +1,8 @@
+### Front
+What is Wien’s Displacement Law and how does it relate black body temperature to radiation wavelength?
+
+### Back
+- **Key idea:** There is an inverse relationship between a black body's absolute temperature and the wavelength at which it emits the most radiation.
+- **Formula / law / constant:** $\lambda_{max} = \frac{b}{T}$ (where $b \approx 2.898 \times 10^{-3} \, \text{m}\cdot\text{K}$).
+- **When to use it:** When calculating the peak emission wavelength for a given temperature (e.g., stellar surfaces, human body radiation).
+- **Common trap:** Forgetting to convert Celsius ($^\circ\text{C}$) to Kelvin ($\text{K}$) by adding $273.15$.

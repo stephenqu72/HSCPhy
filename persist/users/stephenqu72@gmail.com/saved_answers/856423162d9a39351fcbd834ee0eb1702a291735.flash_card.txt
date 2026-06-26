@@ -1,0 +1,8 @@
+### Front
+How do you calculate wave speed when given wavelength ($\lambda$) and the time ($t$) it takes for a point to move from a crest to equilibrium?
+
+### Back
+- Key idea: Time from crest to equilibrium is $1/4$ of the period ($T = 4t$).
+- Formula: $v = \frac{\lambda}{T} = \frac{\lambda}{4t}$
+- When to use it: When provided with partial oscillation timing data for mechanical waves.
+- Common trap: Forgetting that crest-to-equilibrium is only a quarter-cycle ($T/4$); do not mistake it for half a period ($T/2$).

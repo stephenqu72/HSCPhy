@@ -1,0 +1,8 @@
+### Front
+How should you treat data points that lie beyond the range of your plotted graph when applying Kepler's Third Law?
+
+### Back
+- **Key idea:** Avoid **extrapolation**; it assumes the linear relationship ($T^2 \propto r^3$) holds true indefinitely, ignoring potential orbital perturbations or gravitational influences at large distances.
+- **Formula / law:** Kepler’s Third Law: $\frac{T^2}{r^3} = \frac{4\pi^2}{GM}$.
+- **When to use it:** Only use lines of best fit to **interpolate** within the bounds of your provided data points.
+- **Common trap:** Assuming a relationship remains constant outside the experimental range; always check if your value exceeds the graph’s x-axis scale before reading values.

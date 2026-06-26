@@ -1,0 +1,10 @@
+### Front
+How do you derive the expression for the maximum height ($h_{max}$) of a projectile, and what is the formula for the horizontal range ($R$)?
+
+### Back
+- Key idea: Use vertical kinematic equations where $v_y = 0$ at peak height; use horizontal velocity and total time of flight for range.
+- Formula / law / constant / figure: 
+  $h_{max} = \frac{u^2 \sin^2 \theta}{2g}$
+  $R = \frac{u^2 \sin(2\theta)}{g}$
+- When to use it: $h_{max}$ for vertical displacement at peak; $R$ for horizontal distance on level ground.
+- Common trap: The range formula $R = \frac{u^2 \sin(2\theta)}{g}$ only applies when the launch and landing heights are the same; otherwise, use $d_x = v_x t$.

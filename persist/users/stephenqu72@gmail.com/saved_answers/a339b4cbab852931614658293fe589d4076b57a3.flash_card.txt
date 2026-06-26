@@ -1,0 +1,8 @@
+### Front
+What is the relationship between launch angle ($\theta$) and time of flight ($t$) for a projectile on level ground, and how is it represented graphically?
+
+### Back
+- **Key idea:** The time of flight is directly proportional to the vertical component of the initial velocity ($v_0 \sin\theta$).
+- **Formula / law / constant / figure:** $t = \frac{2v_0 \sin(\theta)}{g}$. The graph is a concave-down curve starting at $(0,0)$ and peaking at $90^\circ$.
+- **When to use it:** To determine flight duration given launch conditions on level ground.
+- **Common trap:** Assuming a linear relationship; the $\sin(\theta)$ dependence means the rate of change in flight time decreases as the angle approaches $90^\circ$.

@@ -1,0 +1,8 @@
+### Front
+How does doubling the radius of a spherical body affect its surface gravitational field strength ($g$), assuming mass remains constant?
+
+### Back
+- Key idea: Gravitational field strength follows an inverse-square relationship with distance ($g \propto 1/r^2$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$
+- When to use it: Any problem involving changes to a planet's or star's radius or mass.
+- Common trap: Forgetting to square the scaling factor (e.g., doubling the radius results in $1/2^2 = 1/4$ the field strength, not $1/2$).

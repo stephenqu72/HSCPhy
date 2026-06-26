@@ -1,0 +1,8 @@
+### Front
+How does the required speed $v$ change if the radius $r$ of a curve is doubled while maintaining a constant centripetal acceleration ($a_c$)?
+
+### Back
+- **Key idea:** Since $a_c = \frac{v^2}{r}$, if $a_c$ is constant, $v$ is directly proportional to $\sqrt{r}$.
+- **Formula:** $v_2 = v_1 \sqrt{\frac{r_2}{r_1}}$. For $r_2 = 2r_1$, then $v_2 = v_1 \sqrt{2}$.
+- **When to use it:** Problems involving uniform circular motion where centripetal force requirements are linked to changing track geometry.
+- **Common trap:** Forgetting to convert units (e.g., $\text{km h}^{-1}$ to $\text{m s}^{-1}$) before calculating banking angles or force magnitudes.

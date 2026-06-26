@@ -1,0 +1,8 @@
+### Front
+How do you determine the physical dimensions (e.g., height, range) of a projectile from a non-calibrated strobe photograph?
+
+### Back
+- **Key idea:** Use the image’s scale factor ($k$) to convert measured distances on the page to real-world values.
+- **Formula / Law:** $\text{Actual Distance} = \text{Measured Distance (cm)} \times k$ (where $k$ is the conversion factor from the provided scale or reference object).
+- **When to use it:** When analyzing projectile motion diagrams that lack direct axis labels but provide a scale bar or reference object (e.g., a person of known height).
+- **Common trap:** Assuming the distance between strobe images represents the total range; ensure you measure from the point of release to the final landing position. Always explicitly state any assumptions if the scale is derived from a reference object.

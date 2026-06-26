@@ -1,0 +1,8 @@
+### Front
+What is the fundamental strategy for solving 2D projectile motion problems?
+
+### Back
+- Key idea: Independence of horizontal and vertical motion.
+- Formula / law / constant / figure: Vertical uses kinematic equations ($v_y = u_y + at$); horizontal assumes constant velocity ($v_x = \Delta x / t$).
+- When to use it: Any projectile motion problem where air resistance is neglected.
+- Common trap: Forgetting that the time ($t$) is the **same** for both horizontal and vertical components.

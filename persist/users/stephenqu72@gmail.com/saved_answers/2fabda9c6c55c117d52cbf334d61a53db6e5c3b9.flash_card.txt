@@ -1,0 +1,8 @@
+### Front
+In a uniform circular motion experiment with a hanging mass, how do you verify the relationship between period ($T$) and mass ($m$)?
+
+### Back
+- Key idea: Plot $T^2$ versus $m$ to produce a linear graph confirming the relationship $T^2 \propto m$.
+- Formula / law / constant / figure: $T^2 = \left(\frac{4\pi^2 r}{Mg}\right)m$ (derived from $F_c = Mg = \frac{4\pi^2 mr}{T^2}$)
+- When to use it: Whenever asked to verify a theoretical relationship through experimental data; a linear plot confirms the proportional dependency.
+- Common trap: Forgetting to square the period ($T$) before plotting; a graph of $T$ vs $m$ is a curve, not a line, which makes it harder to confirm linearity.

@@ -1,0 +1,8 @@
+### Front
+How do you determine the acceleration due to gravity ($g$) from a graph of $T$ vs $l$ for a simple pendulum?
+
+### Back
+- Key idea: Linearize the data by plotting $T^2$ against $l$ to create a straight line where $m = \frac{4\pi^2}{g}$.
+- Formula / law / constant / figure: $T = 2\pi \sqrt{\frac{l}{g}} \implies T^2 = \frac{4\pi^2}{g} \cdot l$
+- When to use it: Whenever a non-linear experimental relationship needs to be converted into a linear one to find a constant (e.g., $g$).
+- Common trap: Forgetting to square the period ($T$) or failing to exclude clear experimental outliers when drawing the line of best fit.

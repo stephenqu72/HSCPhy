@@ -1,0 +1,8 @@
+### Front
+What are the conservation laws governing nuclear alpha decay?
+
+### Back
+- **Key idea:** Mass number ($A$) and atomic number ($Z$) are conserved during nuclear transformations.
+- **Formula / law:** $\sum A_{initial} = \sum A_{final}$ and $\sum Z_{initial} = \sum Z_{final}$. Alpha decay: ${}^{A}_{Z}\text{X} \rightarrow {}^{A-4}_{Z-2}\text{Y} + {}^{4}_{2}\text{He}$.
+- **When to use it:** To identify the daughter product of an alpha-emitting parent nucleus.
+- **Common trap:** Forgetting that an alpha particle carries a charge of +2 ($Z=2$), meaning the daughter nucleus’s atomic number must decrease by 2, not just the mass number by 4.

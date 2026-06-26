@@ -1,0 +1,8 @@
+### Front
+How do you determine the velocity of an object at different points in an elliptical orbit?
+
+### Back
+- **Key idea:** The Total Mechanical Energy ($E = K + U$) is constant throughout the orbit.
+- **Formula / law / constant / figure:** Law of Conservation of Energy: $\frac{1}{2}mv_1^2 - \frac{GMm}{r_1} = \frac{1}{2}mv_2^2 - \frac{GMm}{r_2}$
+- **When to use it:** When calculating orbital velocity changes between different radial distances ($r$) from the central mass.
+- **Common trap:** Forgetting to cancel the mass of the orbiting object ($m$) or failing to use the distance from the *centre* of the planet ($r = R_{earth} + h$).

@@ -1,0 +1,8 @@
+### Front
+Why is the work done on an object in uniform circular motion always zero?
+
+### Back
+- **Key idea:** The centripetal force is always perpendicular ($90^\circ$) to the instantaneous displacement (tangential velocity).
+- **Formula / law / constant / figure:** $W = Fs \cos(\theta)$; since $\theta = 90^\circ$, $\cos(90^\circ) = 0$.
+- **When to use it:** To explain why an object can have a centripetal force without any change in its kinetic energy.
+- **Common trap:** Forgetting to explicitly link the "radial" nature of the force to the "tangential" nature of the displacement.

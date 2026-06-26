@@ -1,0 +1,8 @@
+### Front
+How can you calculate the mass of a star ($M_*$) if you are given the orbital radius ($r$) and period ($T$) of an orbiting exoplanet?
+
+### Back
+- Key idea: Use Kepler’s Third Law of Planetary Motion.
+- Formula / law / constant / figure: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+- When to use it: When determining the mass of a central body based on the orbital characteristics of a satellite or planet.
+- Common trap: Failing to convert the orbital period ($T$) into SI units (seconds).

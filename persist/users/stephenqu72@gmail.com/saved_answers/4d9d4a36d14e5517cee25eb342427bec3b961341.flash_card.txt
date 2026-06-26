@@ -1,0 +1,8 @@
+### Front
+Compare Near Earth Orbits (NEO) and Geostationary Orbits (GEO) regarding orbital period and suitability for terrain mapping.
+
+### Back
+- **Key idea:** NEOs have short periods ($<2$ hrs) and high resolution due to low altitude; GEOs have a 24-hour period, appearing stationary to Earth.
+- **Formula / law / constant / figure:** Kepler’s Third Law: $T^2 \propto r^3$.
+- **When to use it:** When choosing satellite orbits for specific tasks (mapping requires proximity/NEO; continuous communication requires fixed position/GEO).
+- **Common trap:** Confusing "Geostationary" with "Geosynchronous"—only Geostationary orbits must be directly above the equator with a circular path.

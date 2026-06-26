@@ -1,0 +1,8 @@
+### Front
+How do you derive the speed ($v$) of a conical pendulum with string length $L$ and angle $\theta$ to the vertical?
+
+### Back
+- Key idea: The vertical component of tension balances gravity, while the horizontal component provides centripetal force.
+- Formula: $v = \sqrt{rg \tan(\theta)}$, where $r = L \sin(\theta)$.
+- When to use it: Circular motion involving a tethered object moving in a horizontal plane.
+- Common trap: Using the length $L$ in the velocity formula instead of the radius $r$ ($L \sin\theta$).

@@ -1,0 +1,8 @@
+### Front
+How does an object's trajectory change when it has constant horizontal velocity and constant upward vertical acceleration?
+
+### Back
+- Key idea: The path is an upward-opening parabola resulting from the combination of linear horizontal motion and vertical acceleration ($y = \frac{1}{2}a_y t^2$).
+- Formula / law / constant / figure: Newton’s Second Law ($F_{net} = ma$) and kinematic equations of motion.
+- When to use it: To analyze projectile motion where net vertical force is non-zero and upward (e.g., a thrusting object).
+- Common trap: Assuming the object follows a standard downward trajectory; if upward thrust $F_T > mg$, the vertical displacement is positive (upward).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the magnetic field strength ($B$) produced by a long, straight current-carrying wire at a distance $r$?
+
+### Back
+- **Key idea:** Ampère’s Law for a straight wire (magnetic field is directly proportional to current and inversely proportional to distance).
+- **Formula:** $B = \frac{\mu_0 I}{2\pi r}$ where $\mu_0 = 4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}$.
+- **When to use it:** To find the magnetic field at a specific point near a long, straight conductor.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or confusing the $2\pi$ relationship with circular loop formulas ($\frac{\mu_0 I}{2r}$).

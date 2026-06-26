@@ -1,0 +1,8 @@
+### Front
+How does increasing the mass of a charged particle affect its trajectory in a uniform gravitational field versus a uniform electric field?
+
+### Back
+- Key idea: Acceleration is independent of mass in a gravitational field ($a=g$), but inversely proportional to mass in an electric field ($a=qE/m$).
+- Formula / law / constant / figure: Newton’s Second Law ($F=ma$); $a_g = g$ vs $a_e = \frac{qE}{m}$.
+- When to use it: To predict landing points in projectile motion problems involving different field types when mass is varied.
+- Common trap: Assuming mass affects the gravitational trajectory (it doesn't, as $g$ is constant for all masses) or forgetting that increasing mass decreases the acceleration caused by the electric force.

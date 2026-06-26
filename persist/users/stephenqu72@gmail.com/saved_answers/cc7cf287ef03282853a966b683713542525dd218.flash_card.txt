@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) exerted on an object by a force ($F$) applied at a distance ($r$) at an angle ($\theta$)?
+
+### Back
+- **Key idea:** Torque is the rotational analogue of force, representing the turning effect of a force about a pivot point.
+- **Formula:** $\tau = rF\sin(\theta)$
+- **When to use it:** When calculating rotational equilibrium or the effectiveness of a force applied to a lever arm.
+- **Common trap:** Forgetting to convert units (e.g., cm to m) or using $\cos(\theta)$ instead of $\sin(\theta)$ for the angle relative to the lever arm.

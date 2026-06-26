@@ -1,0 +1,8 @@
+### Front
+How do you calculate the final velocity ($v_f$) of an object sliding from an initial height ($h_i$) to a height ($h_f$) on a frictionless track?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy ($PE_i = PE_f + KE_f$).
+- **Formula / law / constant / figure:** $v_f = \sqrt{2g(h_i - h_f)}$; $g \approx 9.8 \text{ m/s}^2$.
+- **When to use it:** Problems involving vertical motion on frictionless slopes or loops where energy is conserved.
+- **Common trap:** Forgetting to use the loop diameter ($2r$) as the final height ($h_f$) at the top of a loop, or including friction when it isn't specified.

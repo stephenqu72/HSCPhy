@@ -1,0 +1,8 @@
+### Front
+How can the orbital radius of a planet be calculated using only its synodic period ($S$) and Earth’s orbital period ($T_E$)?
+
+### Back
+- Key idea: Use the synodic relationship to find the sidereal period ($T_J$), then apply Kepler’s Third Law.
+- Formula / law / constant / figure: $\frac{1}{S} = \left| \frac{1}{T_E} - \frac{1}{T_P} \right|$ and $\frac{r_1^3}{T_1^2} = \frac{r_2^3}{T_2^2}$
+- When to use it: To determine orbital radii when only observation periods (synodic) are provided.
+- Common trap: Confusing synodic period ($S$) with sidereal period ($T$); always solve for sidereal period first before applying Kepler’s Third Law.

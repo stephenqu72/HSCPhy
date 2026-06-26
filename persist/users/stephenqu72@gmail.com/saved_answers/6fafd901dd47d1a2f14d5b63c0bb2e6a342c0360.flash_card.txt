@@ -1,0 +1,8 @@
+### Front
+How can you determine the acceleration due to gravity ($g$) in a projectile motion experiment without using a stopwatch?
+
+### Back
+- Key idea: Use the constant horizontal velocity and vertical displacement to eliminate time ($t$) from the kinematic equations.
+- Formula / law / constant / figure: $g = \frac{2h u_x^2}{R^2}$ (derived from $h = \frac{1}{2}gt^2$ and $R = u_x t$)
+- When to use it: When a stopwatch is unavailable and you can measure horizontal range ($R$), height ($h$), and initial horizontal velocity ($u_x$).
+- Common trap: Forgetting to ensure the launcher is perfectly horizontal (to keep $u_y = 0$) or failing to repeat trials to calculate an average $R$.

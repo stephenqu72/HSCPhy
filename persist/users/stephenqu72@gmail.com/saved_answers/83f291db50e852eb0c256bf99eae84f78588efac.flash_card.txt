@@ -1,0 +1,8 @@
+### Front
+How do you calculate the vertical displacement ($s_y$) of a projectile if it is launched with an initial horizontal velocity ($u_x$)?
+
+### Back
+- **Key idea:** Vertical motion is independent of horizontal motion; horizontal launch implies $u_y = 0$.
+- **Formula / law:** $s_y = u_y t + \frac{1}{2}at^2$ (where $u_y = 0$, simplifying to $s_y = \frac{1}{2}at^2$).
+- **When to use it:** To find how far an object falls vertically over a given time $t$ or distance $d$ (where $t = d/v_x$).
+- **Common trap:** Forgetting that $u_y = 0$ is only true if the object is projected *purely horizontally*; also, ensure acceleration due to gravity ($a$) is set to negative if using upward as the positive displacement direction.

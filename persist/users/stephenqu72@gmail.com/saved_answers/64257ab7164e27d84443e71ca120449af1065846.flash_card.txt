@@ -1,0 +1,11 @@
+### Front
+How do you calculate the tension ($T$) in a string for a mass undergoing uniform horizontal circular motion?
+
+### Back
+- **Key idea:** Resolve tension into vertical ($T_y$) and horizontal ($T_x$) components.
+- **Formula / Law:** 
+  $T_y = mg$ (vertical equilibrium)
+  $T_x = m(\frac{v^2}{r})$ (centripetal force)
+  $T = \sqrt{T_x^2 + T_y^2}$
+- **When to use it:** Whenever an object swings in a horizontal circle (conical pendulum).
+- **Common trap:** Forgetting that $T$ is the hypotenuse; students often mistakenly equate $T$ solely to $mg$ or $F_c$.

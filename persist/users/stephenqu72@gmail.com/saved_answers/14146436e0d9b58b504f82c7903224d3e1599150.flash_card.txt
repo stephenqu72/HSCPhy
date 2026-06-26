@@ -1,0 +1,11 @@
+### Front
+What are the energy relationships for a satellite in a stable circular orbit around a central mass $M$?
+
+### Back
+- Key idea: Total energy is the sum of kinetic and potential energy, governed by the Virial Theorem.
+- Formula / law: 
+  - $E_p = -2E_k$
+  - $E_{total} = -E_k$
+  - $E_{total} = -\frac{GMm}{2r}$
+- When to use it: To calculate changes in satellite energy, orbital height, or compare energy types in circular orbits.
+- Common trap: Forgetting the negative sign in gravitational potential energy ($E_p$), which results in a negative total mechanical energy.

@@ -1,0 +1,8 @@
+### Front
+Derive the formula for the maximum height ($h_{max}$) of a projectile and state the formula for its horizontal range ($R$) on level ground.
+
+### Back
+- Key idea: Conservation of energy or kinematic equations for constant acceleration.
+- Formula / law / constant / figure: $h_{max} = \frac{u^2 \sin^2\theta}{2g}$ and $R = \frac{u^2 \sin(2\theta)}{g}$.
+- When to use it: To find peak altitude or total horizontal distance for projectiles launched on level ground.
+- Common trap: Using the full velocity ($u$) instead of the vertical component ($u \sin\theta$) for height, or forgetting the $2\theta$ argument in the range formula.

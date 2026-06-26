@@ -1,0 +1,8 @@
+### Front
+How do you derive the orbital speed $v$ for two equal masses $m$ rotating around a common centre at a radius $r$ if their gravitational attraction provides the required centripetal force?
+
+### Back
+- Key idea: Equate centripetal force ($F_c = \frac{mv^2}{r}$) with the gravitational force ($F_g = \frac{Gm_1m_2}{d^2}$).
+- Formula: $v = \sqrt{\frac{Gm}{4r}}$ (where $d = 2r$ is the separation distance).
+- When to use it: Circular motion problems where gravity is the sole provider of centripetal force.
+- Common trap: Forgetting that the separation distance $d$ in the denominator of Newton's Law is $2r$, not $r$.

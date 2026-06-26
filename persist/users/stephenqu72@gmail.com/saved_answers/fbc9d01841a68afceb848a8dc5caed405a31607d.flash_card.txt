@@ -1,0 +1,8 @@
+### Front
+How do you calculate the "relativistic mass" ($m$) of a photon using the de Broglie relationship?
+
+### Back
+- **Key idea:** Treat the photon as a particle with momentum $p = mc$, where $v = c$.
+- **Formula / law:** $\lambda = \frac{h}{mc} \implies m = \frac{h}{\lambda c}$
+- **When to use it:** When a question explicitly asks to calculate the equivalent mass of a photon of a given wavelength.
+- **Common trap:** Confusing this theoretical application with physical reality; photons have **zero rest mass** ($m_0 = 0$). Only use this calculation if the question forces the de Broglie application.

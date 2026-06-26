@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque ($\tau$) exerted by a force at an angle $\theta$ relative to a lever arm of length $L$?
+
+### Back
+- Key idea: Torque is the rotational analogue of force, defined as the product of the force and the perpendicular distance from the pivot.
+- Formula / law / constant / figure: $\tau = F \cdot L \cdot \sin(\theta)$
+- When to use it: Whenever a force is applied at an angle to a lever arm to calculate the resulting turning effect.
+- Common trap: Failing to convert units (e.g., mixing km and N) or using $\cos(\theta)$ when the angle is given relative to the lever arm (always ensure you are using the perpendicular component).

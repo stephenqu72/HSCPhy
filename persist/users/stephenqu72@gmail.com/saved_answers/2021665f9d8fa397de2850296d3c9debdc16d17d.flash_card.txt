@@ -1,0 +1,8 @@
+### Front
+What is the Principle of Moments and how is it used to find an unknown mass in rotational equilibrium?
+
+### Back
+- **Key idea:** For rotational equilibrium, the sum of clockwise torques must equal the sum of counter-clockwise torques ($\sum \tau_{cw} = \sum \tau_{ccw}$).
+- **Formula:** $\tau = F \cdot r$ (or $m \cdot g \cdot r$). Note: $g$ cancels if acting on all masses.
+- **When to use it:** Whenever an object (like a beam or lever) is balanced on a pivot and you need to find an unknown force, mass, or distance.
+- **Common trap:** Forgetting to measure all distances ($r$) from the pivot point itself, or failing to sum multiple torques on the same side of the pivot.

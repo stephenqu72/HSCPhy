@@ -1,0 +1,8 @@
+### Front
+How can you determine the ratio of orbital radii for two planets orbiting the same central body if you know their orbital periods?
+
+### Back
+- Key idea: Kepler’s Third Law states the ratio $T^2/r^3$ is constant for all bodies orbiting the same mass.
+- Formula / law / constant / figure: $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$
+- When to use it: To compare the periods or orbital radii of two satellites/planets orbiting the same central mass.
+- Common trap: Forgetting to cube the radii or square the periods, or failing to use consistent units for $T$ and $r$ if calculating absolute values.

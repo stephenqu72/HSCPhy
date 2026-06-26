@@ -1,0 +1,8 @@
+### Front
+How do you design a valid experiment to determine the relationship between the number of turns ($N$) in a solenoid and magnetic field strength ($B$)?
+
+### Back
+- **Key idea:** Isolate variables by keeping all factors constant except the one being tested.
+- **Formula / law:** $B = \mu_0 \frac{N}{L} I$
+- **When to use it:** When investigating how one variable affects another; here, keep current ($I$) and length ($L$) constant to isolate $N$.
+- **Common trap:** Changing two variables (e.g., both $N$ and $I$) simultaneously, which makes it impossible to determine the cause of the change in $B$.

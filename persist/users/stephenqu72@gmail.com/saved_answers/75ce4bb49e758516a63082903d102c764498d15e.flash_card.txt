@@ -1,0 +1,8 @@
+### Front
+How do you determine the launch angle ($\theta$) of a projectile given its initial velocity components $v_x$ and $v_y$?
+
+### Back
+- Key idea: Use the inverse tangent of the velocity components to find the direction of the initial velocity vector.
+- Formula / law / constant / figure: $\theta = \tan^{-1}\left(\frac{v_y}{v_x}\right)$
+- When to use it: To calculate the angle of projection when initial horizontal and vertical velocity components are known.
+- Common trap: Forgetting to set your calculator to **degrees mode** instead of radians.

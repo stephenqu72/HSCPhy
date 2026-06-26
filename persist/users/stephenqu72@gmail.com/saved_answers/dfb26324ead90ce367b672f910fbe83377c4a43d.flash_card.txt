@@ -1,0 +1,8 @@
+### Front
+Why does an object starting with initial orbital velocity impact a planet at a higher speed than an object starting from rest at the same altitude?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy; the object starting with initial kinetic energy has a higher total energy, resulting in greater final kinetic energy.
+- **Formula / law / constant / figure:** $E_{total} = \frac{1}{2}mv^2 - \frac{GMm}{r} = \text{constant}$
+- **When to use it:** Problems involving vertical motion, satellite de-orbiting, or energy transformations in gravitational fields.
+- **Common trap:** Assuming all objects dropped from the same height have the same impact velocity, ignoring the initial kinetic energy ($K_i$) of moving objects.

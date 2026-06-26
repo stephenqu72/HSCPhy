@@ -1,0 +1,8 @@
+### Front
+How do the initial velocities of multiple projectiles compare if they have different trajectories but identical landing positions?
+
+### Back
+- Key idea: Projectiles with different flight paths (peak heights and flight times) landing at the same range must have unique horizontal and vertical initial velocity components.
+- Formula / law / constant / figure: $d_x = v_x t$ and $\Delta y = v_{iy}t + \frac{1}{2}a_y t^2$.
+- When to use it: When comparing multiple projectile trajectories that share a common displacement but vary in peak height.
+- Common trap: Assuming identical horizontal ranges imply identical initial velocities; velocity depends on both the time of flight and the required horizontal displacement.

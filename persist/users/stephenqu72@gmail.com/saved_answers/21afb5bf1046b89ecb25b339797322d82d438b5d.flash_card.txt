@@ -1,0 +1,8 @@
+### Front
+How do you determine the radius ($r$) of circular motion given orbital speed ($v$) and period ($T$)?
+
+### Back
+- **Key idea:** The relationship between linear velocity and period in uniform circular motion.
+- **Formula:** $r = \frac{vT}{2\pi}$ (derived from $v = \frac{2\pi r}{T}$)
+- **When to use it:** When calculating circular parameters from stroboscopic data or rotational frequency.
+- **Common trap:** Forgetting to convert the number of stroboscopic intervals into the full period $T$ (i.e., $T = \frac{\text{intervals}}{f_s}$).

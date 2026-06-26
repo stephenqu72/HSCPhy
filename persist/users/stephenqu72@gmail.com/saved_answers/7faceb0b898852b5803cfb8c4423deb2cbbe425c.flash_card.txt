@@ -1,0 +1,8 @@
+### Front
+How does the centripetal force change if mass is doubled, speed is tripled, and radius is halved?
+
+### Back
+- Key idea: Centripetal force $F$ is directly proportional to mass ($m$) and velocity squared ($v^2$), and inversely proportional to radius ($r$).
+- Formula: $F = \frac{mv^2}{r} \rightarrow F' = \frac{(2m)(3v)^2}{0.5r} = 36F$
+- When to use it: Circular motion problems involving scaling variables.
+- Common trap: Forgetting to square the velocity change ($3v$ becomes $9v^2$) or incorrectly handling the fraction in the denominator ($0.5r$).

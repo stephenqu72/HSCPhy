@@ -1,0 +1,8 @@
+### Front
+How do you calculate the net gravitational field strength exerted by two separate bodies on an object located between them?
+
+### Back
+- Key idea: Gravitational fields are vector quantities; calculate each field strength individually, then find the vector sum (difference if acting in opposite directions).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$; $G = 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- When to use it: When determining the resultant gravitational effect of multiple massive bodies at a single point in space.
+- Common trap: Forgetting that $g$ is a vector; adding magnitudes instead of subtracting them when the fields point in opposite directions.

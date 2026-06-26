@@ -1,0 +1,8 @@
+### Front
+How do you derive the expression for the mass ($m$) or design speed ($v$) of a vehicle on a frictionless banked track?
+
+### Back
+- Key idea: The horizontal component of the normal force provides the centripetal force ($F_c$), while the vertical component balances the weight ($mg$).
+- Formula / law / constant / figure: $\tan(\theta) = \frac{v^2}{rg} = \frac{F_c}{mg}$
+- When to use it: To find the "design speed" where no friction is required for a vehicle to negotiate a banked curve.
+- Common trap: Assuming the normal force ($N$) equals $mg$. On a banked track, $N = \frac{mg}{\cos(\theta)}$, which is always greater than $mg$.

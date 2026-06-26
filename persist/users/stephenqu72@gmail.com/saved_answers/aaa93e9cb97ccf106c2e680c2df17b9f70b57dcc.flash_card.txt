@@ -1,0 +1,8 @@
+### Front
+How do you calculate the time of flight for a projectile launched from an initial height ($y_0$) to the ground?
+
+### Back
+- **Key idea:** Vertical motion is independent of horizontal motion; set final vertical displacement ($y$) to 0.
+- **Formula / law / constant / figure:** $y = y_0 + u_y t + \frac{1}{2} a_y t^2$ (Quadratic equation).
+- **When to use it:** When the landing point is not at the same vertical level as the launch point.
+- **Common trap:** Forgetting to include the initial height ($y_0$) or using the wrong sign for acceleration ($a_y = -9.8\text{ ms}^{-2}$).

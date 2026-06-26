@@ -1,0 +1,8 @@
+### Front
+How do you calculate the upward thrust force ($F_T$) required for a rocket of mass $m$ to achieve a vertical acceleration $a$?
+
+### Back
+- Key idea: Newton’s Second Law ($F_{net} = ma$).
+- Formula / law / constant / figure: $F_T = m(a + g)$
+- When to use it: When calculating total engine thrust during vertical lift-off or ascent where both gravity and inertia must be overcome.
+- Common trap: Forgetting to add $g$ to the acceleration ($a$) before multiplying by mass, or failing to convert tonnes to kilograms ($1 \text{ t} = 1000 \text{ kg}$).

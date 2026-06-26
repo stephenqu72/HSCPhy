@@ -1,0 +1,8 @@
+### Front
+What are the relationships between a satellite's orbital radius ($r$), gravitational potential energy ($U$), and kinetic energy ($K$)?
+
+### Back
+- **Key idea:** $U$ is negative and increases toward zero as $r$ increases; $K$ is positive and decreases as $r$ increases. The magnitude relationship is $|U| = 2K$.
+- **Formula:** $U = -\frac{GMm}{r}$ and $K = \frac{GMm}{2r}$.
+- **When to use it:** To identify or sketch energy-distance graphs for satellites in circular orbits.
+- **Common trap:** Forgetting that $U$ is negative; when $r$ increases, $U$ "increases" numerically (becomes less negative), even though its magnitude decreases.

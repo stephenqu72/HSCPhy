@@ -1,0 +1,8 @@
+### Front
+Compare the centripetal force requirements for a vehicle on a horizontal flat turn versus a banked turn.
+
+### Back
+- **Key idea:** On a flat turn, $F_c$ is provided entirely by static friction ($F_f$). On a banked turn, $F_c$ is provided by the horizontal component of the normal force ($N \sin \theta$), reducing reliance on friction.
+- **Formula / law / constant / figure:** Flat: $F_c = \mu mg = \frac{mv^2}{r}$. Banked: $F_c = N \sin \theta = \frac{mv^2}{r}$ (where $N \cos \theta = mg$).
+- **When to use it:** When asked to explain why banked tracks allow higher cornering speeds or improve vehicle stability.
+- **Common trap:** Forgetting that on a banked track, the normal force $N$ is greater than $mg$ because it must support the weight *and* provide the centripetal component.

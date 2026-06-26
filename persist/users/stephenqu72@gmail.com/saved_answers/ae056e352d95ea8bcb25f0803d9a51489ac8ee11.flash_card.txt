@@ -1,0 +1,8 @@
+### Front
+How does the acceleration due to gravity ($a_g$) of a planet in a circular orbit relate to its orbital radius ($r$)?
+
+### Back
+- Key idea: Gravitational acceleration is inversely proportional to the square of the orbital radius ($a_g \propto 1/r^2$).
+- Formula / law / constant / figure: $a_g = \frac{GM}{r^2}$ (derived from Newton’s Law of Universal Gravitation and centripetal acceleration).
+- When to use it: To compare the gravitational pull on two bodies orbiting the same central mass.
+- Common trap: Confusing this with Kepler’s Third Law ($r^3/T^2 = k$), which relates radius to orbital *period*, not acceleration.

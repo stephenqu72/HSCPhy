@@ -1,0 +1,8 @@
+### Front
+How do you determine if a set of planets orbiting the same star obeys Kepler’s Third Law using orbital data?
+
+### Back
+- **Key idea:** The ratio $\frac{T^2}{r^3}$ must be identical for all objects orbiting the same central mass.
+- **Formula / law:** Kepler’s Third Law: $\frac{T^2}{r^3} = \frac{4\pi^2}{GM} = k$
+- **When to use it:** To verify if a planetary system follows Newtonian gravitational mechanics or to find an unknown period/radius.
+- **Common trap:** Forgetting to square the period ($T^2$) or cube the radius ($r^3$), or failing to ensure units are consistent across all compared objects.

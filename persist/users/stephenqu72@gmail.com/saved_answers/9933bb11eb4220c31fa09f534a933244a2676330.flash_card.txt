@@ -1,0 +1,8 @@
+### Front
+How does a satellite's required orbital velocity change when transitioning to a lower altitude orbit?
+
+### Back
+- **Key idea:** Orbital velocity is inversely proportional to the square root of the orbital radius ($v \propto 1/\sqrt{r}$). Moving to a lower orbit requires a higher velocity.
+- **Formula:** $v = \sqrt{\frac{GM}{r}}$ where $r = R_E + h$.
+- **When to use it:** When calculating orbital speed, change in velocity ($\Delta v$) for orbital decay/manoeuvres, or circular orbit stability.
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r$).

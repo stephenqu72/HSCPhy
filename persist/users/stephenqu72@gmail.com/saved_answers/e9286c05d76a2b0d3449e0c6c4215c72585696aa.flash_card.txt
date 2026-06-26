@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular velocity ($\omega$) of a wheel rolling without slipping, given its linear velocity ($v$) and diameter ($d$)?
+
+### Back
+- **Key idea:** The linear speed of a point on the rim equals the linear speed of the object's centre of mass.
+- **Formula:** $\omega = \frac{v}{r}$ (where $r = \frac{d}{2}$)
+- **When to use it:** To relate rotational motion to linear motion for rolling objects.
+- **Common trap:** Forgetting to convert linear speed to $\text{m s}^{-1}$ (divide $\text{km h}^{-1}$ by $3.6$) or using diameter instead of radius.

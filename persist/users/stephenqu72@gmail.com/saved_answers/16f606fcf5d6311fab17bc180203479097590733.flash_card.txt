@@ -1,0 +1,8 @@
+### Front
+Why does a linear model for time of flight ($t=k\theta$) fail at large launch angles?
+
+### Back
+- **Key idea:** The model relies on the small-angle approximation ($\sin\theta \approx \theta$); at large angles, the sine function curves (flattens), while the linear model continues to rise.
+- **Formula:** $t = \frac{2v_0 \sin\theta}{g}$ (Actual) vs $t = k\theta$ (Linear).
+- **When to use it:** Use when comparing an empirical linear fit to theoretical projectile motion; valid only for very small $\theta$.
+- **Common trap:** Assuming a linear relationship holds for the entire range ($0^\circ$ to $90^\circ$); the linear model will significantly overestimate $t$ at high angles.

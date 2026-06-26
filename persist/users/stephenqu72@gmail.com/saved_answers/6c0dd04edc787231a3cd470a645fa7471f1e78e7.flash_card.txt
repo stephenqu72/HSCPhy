@@ -1,0 +1,8 @@
+### Front
+How does the tidal force exerted on Earth by a celestial body scale with its mass ($M$) and distance ($r$)?
+
+### Back
+- Key idea: Tidal force is the difference in gravitational pull across the Earth's diameter, governed by an inverse-cube law of distance.
+- Formula / law / constant / figure: $F_t \propto \frac{M}{r^3}$
+- When to use it: To compare the tidal influence of two different celestial bodies on Earth.
+- Common trap: Mistaking tidal force for absolute gravitational force ($F_g \propto \frac{1}{r^2}$); always use $r^3$ for tidal calculations.

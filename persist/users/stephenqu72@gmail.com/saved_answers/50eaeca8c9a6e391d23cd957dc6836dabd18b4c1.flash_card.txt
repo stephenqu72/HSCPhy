@@ -1,0 +1,8 @@
+### Front
+What are the standard SI units for gravitational field strength ($g$), and why are they equivalent to $ms^{-2}$?
+
+### Back
+- Key idea: Gravitational field strength is force per unit mass ($Nkg^{-1}$), which is equivalent to acceleration ($ms^{-2}$).
+- Formula / law / constant: $g = \frac{F}{m} = \frac{ma}{m} = a$
+- When to use it: When calculating the acceleration of an object in a gravitational field or identifying equivalent SI units.
+- Common trap: Forgetting that $1\,Nkg^{-1} = 1\,ms^{-2}$; ensure you can derive the units from $F=ma$.

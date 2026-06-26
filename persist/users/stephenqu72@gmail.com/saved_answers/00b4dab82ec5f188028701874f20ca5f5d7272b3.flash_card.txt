@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of an unknown object ($M_2$) using a graph of Gravitational Force ($F$) versus inverse square distance ($1/d^2$)?
+
+### Back
+- **Key idea:** The gradient ($m$) of a linear $F$ vs $1/d^2$ graph equals $G \cdot M_1 \cdot M_2$.
+- **Formula / law / constant / figure:** $F = \frac{GM_1M_2}{d^2}$; $G = 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$.
+- **When to use it:** When given experimental data sets of force and distance to derive an unknown mass.
+- **Common trap:** Mismatching units (e.g., $10^{15}$ vs $10^{17}$ exponents) or forgetting to convert distance units (like km to m) before calculating $1/d^2$.

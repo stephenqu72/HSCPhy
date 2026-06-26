@@ -1,0 +1,8 @@
+### Front
+What is the formula for the minimum initial velocity $v$ required for a projectile to reach a specific coordinate $(x, y)$?
+
+### Back
+- Key idea: The minimum velocity required to hit a target $(x, y)$ accounts for both horizontal displacement and vertical height.
+- Formula / law / constant / figure: $v_{min} = \sqrt{g(y + \sqrt{x^2 + y^2})}$
+- When to use it: When asked to find the "minimum velocity" to hit a target point (x, y) where the launch angle is not fixed.
+- Common trap: Forgetting that this formula assumes a vacuum (no air resistance); in reality, a higher velocity would be required to overcome drag.

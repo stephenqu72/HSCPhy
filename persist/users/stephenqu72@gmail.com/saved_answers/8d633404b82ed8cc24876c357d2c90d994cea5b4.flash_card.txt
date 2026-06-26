@@ -1,0 +1,8 @@
+### Front
+For a conical pendulum, if a graph is plotted with $v^2$ on the $y$-axis and $r\tan(\theta)$ on the $x$-axis, how do you determine the acceleration due to gravity ($g$)?
+
+### Back
+- Key idea: The gradient of the line of best fit equals the acceleration due to gravity ($g$).
+- Formula / law / constant / figure: $v^2 = g(r\tan(\theta)) \implies m = g$
+- When to use it: To experimentally determine $g$ using conical pendulum dynamics.
+- Common trap: Forgetting to ensure the axes are correctly defined as $y = v^2$ and $x = r\tan(\theta)$; plotting the inverse will yield $1/g$ instead of $g$.

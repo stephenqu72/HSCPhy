@@ -1,0 +1,8 @@
+### Front
+How do you calculate the torque exerted by a force applied at an angle to a pivoted object?
+
+### Back
+- Key idea: Torque ($\tau$) is the rotational equivalent of force, dependent on the perpendicular component of the force.
+- Formula / law / constant / figure: $\tau = Fd\sin(\theta)$, where $\theta$ is the angle between the force vector and the lever arm.
+- When to use it: Whenever a force acts on an object at a distance from a pivot point to calculate rotational effect.
+- Common trap: If the force is parallel to the lever arm ($\theta = 0^\circ$ or $180^\circ$), the torque is zero, regardless of the force magnitude.

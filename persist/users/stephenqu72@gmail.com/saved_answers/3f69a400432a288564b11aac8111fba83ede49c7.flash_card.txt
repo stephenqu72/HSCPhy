@@ -1,0 +1,8 @@
+### Front
+How do you determine the orbital radius ($r$) required to achieve a specific gravitational field strength ($g$) at a distance from a planet?
+
+### Back
+- **Key idea:** Gravitational field strength is inversely proportional to the square of the distance from the centre of the mass.
+- **Formula:** $r = \sqrt{\frac{GM}{g}}$
+- **When to use it:** When calculating the orbital radius required to experience a specific "local" gravity (e.g., at a specific altitude or orbital position).
+- **Common trap:** Forgetting that $r$ is the distance from the **centre** of the planet, not the surface. If given altitude ($h$), remember $r = R_{planet} + h$.

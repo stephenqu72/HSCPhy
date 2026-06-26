@@ -1,0 +1,8 @@
+### Front
+How can you linearize experimental data for maximum height ($h$) versus launch speed ($u$) to determine the acceleration due to gravity ($g$)?
+
+### Back
+- Key idea: Transform the non-linear kinematic equation into a linear form ($y = mx$) to extract constants from the gradient.
+- Formula / law / constant / figure: $h = (\frac{1}{2g})u^2$. Plot $h$ (y-axis) vs $u^2$ (x-axis); Gradient $m = \frac{1}{2g}$, so $g = \frac{1}{2m}$.
+- When to use it: Any experiment measuring height vs initial velocity to verify $g$.
+- Common trap: Forgetting to convert units (e.g., $cm$ to $m$) before calculating the gradient or failing to square the velocity values.

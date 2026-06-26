@@ -1,0 +1,8 @@
+### Front
+How do you calculate the mass lost during a nuclear process if the power output and time interval are known?
+
+### Back
+- **Key idea:** Mass-energy equivalence principle ($E=mc^2$).
+- **Formula / law / constant:** $m = E/c^2$, where $c \approx 3.00 \times 10^8 \text{ m/s}$.
+- **When to use it:** To find mass defect or fuel consumption when energy output (in Joules or Watts) is provided.
+- **Common trap:** Forgetting that Power is $J/s$; if $t \neq 1s$, you must multiply Power by time ($E = P \times t$) before calculating mass.

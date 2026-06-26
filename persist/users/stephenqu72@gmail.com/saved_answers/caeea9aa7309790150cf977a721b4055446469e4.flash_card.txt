@@ -1,0 +1,8 @@
+### Front
+How does doubling the horizontal launch velocity of a projectile from a fixed height affect its range?
+
+### Back
+- Key idea: Horizontal range is directly proportional to horizontal velocity ($R = v_x \cdot t$) because time of flight is independent of horizontal velocity.
+- Formula / law / constant / figure: $R = v \cdot \sqrt{2h/g}$
+- When to use it: Any projectile motion problem where an object is launched horizontally from a height.
+- Common trap: Assuming the time of flight changes when the horizontal velocity changes. Vertical motion ($t = \sqrt{2h/g}$) is entirely independent of horizontal motion.

@@ -1,0 +1,8 @@
+### Front
+How does a satellite's velocity change when it spirals to a lower orbit due to atmospheric drag, and what is the underlying energy relationship?
+
+### Back
+- Key idea: Total mechanical energy decreases due to drag, but kinetic energy increases because the satellite enters a deeper gravitational potential well.
+- Formula / law / constant / figure: Virial Theorem: $\Delta U = 2\Delta K$ (for circular orbits).
+- When to use it: Explaining orbital decay, satellite drag, or energy conservation in non-conservative gravitational systems.
+- Common trap: Assuming drag slows the satellite down; while drag reduces total energy, the satellite accelerates as it falls into a lower, faster orbit.

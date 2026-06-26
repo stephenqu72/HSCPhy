@@ -1,0 +1,8 @@
+### Front
+How do you calculate the range of a projectile launched from an elevated position ($h_0 > 0$)?
+
+### Back
+- **Key idea:** The range depends on the total time of flight ($t$), which is determined by solving the vertical quadratic displacement equation for $y = 0$.
+- **Formula / law:** $\Delta x = v_{0x} \times t$, where $t$ is found using $y_f = y_i + v_{0y}t - \frac{1}{2}gt^2$.
+- **When to use it:** When calculating horizontal distance for any motion involving gravity, especially when launch and landing heights differ.
+- **Common trap:** Forgetting to add the initial height ($h_0$) to the vertical displacement equation or miscalculating the quadratic root.

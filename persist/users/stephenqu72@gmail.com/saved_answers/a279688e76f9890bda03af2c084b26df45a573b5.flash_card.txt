@@ -1,0 +1,8 @@
+### Front
+How do you calculate gravitational field strength ($g$) at an altitude $h$ above a planet’s surface, and what is the relationship between $g$ and the distance from the center ($r$)?
+
+### Back
+- Key idea: Gravitational field strength follows an inverse-square law relative to the distance from the center of the mass.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$, where $r = R + h$.
+- When to use it: To determine $g$ at any point above a planetary surface or to calculate the mass of a planet using surface gravity.
+- Common trap: Forgetting to add the planet's radius ($R$) to the altitude ($h$) when calculating the total distance ($r$) from the center.

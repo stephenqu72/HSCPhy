@@ -1,0 +1,8 @@
+### Front
+How do you calculate the age of a solar system sample using radioactive decay?
+
+### Back
+- **Key idea:** Determine the number of half-lives ($n$) passed by comparing the ratio of remaining parent material to the initial amount.
+- **Formula / law / constant / figure:** $N(t) = N_0 \cdot 2^{-n}$ where $n = \frac{t}{T_{1/2}}$. $T_{1/2}$ for U-235 is $0.71 \times 10^9$ years.
+- **When to use it:** When given the percentage or fraction of a radioactive isotope remaining in a sample.
+- **Common trap:** Confusing the percentage of *transmuted* material (daughter product) with the percentage of *remaining* parent material ($N(t)$). Ensure you subtract the transmuted amount from 100% first.

@@ -1,0 +1,11 @@
+### Front
+How do you calculate the gravitational field strength ($g$) and the orbital radius ($r$) for a satellite in a circular orbit?
+
+### Back
+- Key idea: Gravitational field strength depends on mass/distance-squared; Kepler’s Third Law relates orbit period to radius.
+- Formula / law / constant / figure: 
+  1. $g = \frac{GM}{r^2}$ 
+  2. $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$ 
+  3. $G = 6.674 \times 10^{-11}\ \text{m}^3\text{kg}^{-1}\text{s}^{-2}$
+- When to use it: Use $g$ for surface gravity or local field intensity. Use Kepler’s Third Law for orbital mechanics (satellites/planets).
+- Common trap: Forgetting to square the radius in $g$ calculations or forgetting to take the cube root when solving for $r$ in Kepler’s law.

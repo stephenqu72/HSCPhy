@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy released during a nuclear reaction given mass values?
+
+### Back
+- Key idea: Einstein’s mass-energy equivalence ($E = \Delta mc^2$) where energy is released due to a "mass defect."
+- Formula / law / constant: $\Delta m = \sum m_{\text{reactants}} - \sum m_{\text{products}}$; $1\text{ u} \approx 931.5\text{ MeV}/c^2$.
+- When to use it: Any nuclear fission, fusion, or decay problem where initial and final masses are provided.
+- Common trap: Forgetting to account for all particles on both sides (e.g., counting all neutrons produced) or failing to convert mass from 'u' to 'kg' when calculating energy in Joules.

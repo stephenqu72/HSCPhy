@@ -1,0 +1,8 @@
+### Front
+How do you calculate the angular speed ($\omega$) of the Earth given a 24-hour period?
+
+### Back
+- **Key idea:** Angular speed is the rate of change of angular displacement.
+- **Formula:** $\omega = \frac{\Delta\theta}{\Delta t} = \frac{2\pi}{T}$
+- **When to use it:** Converting rotational periods into SI units (rad/s) for circular motion problems.
+- **Common trap:** Using 23 hours 56 minutes (sidereal day) when the question specifies a 24-hour solar day, or failing to convert hours to seconds (86,400 s).

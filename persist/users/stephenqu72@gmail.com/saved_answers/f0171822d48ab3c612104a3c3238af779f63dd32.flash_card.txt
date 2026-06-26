@@ -1,0 +1,8 @@
+### Front
+How do you determine the age of a radioactive sample given its initial and remaining mass?
+
+### Back
+- **Key idea:** Radioactive decay follows an exponential decrease over time.
+- **Formula / law:** $N(t) = N_0 e^{-\lambda t}$ (where $\lambda = \frac{\ln 2}{t_{1/2}}$).
+- **When to use it:** To calculate the age of geological or organic samples using isotopic decay data.
+- **Common trap:** Forgetting to convert the ratio $N(t)/N_0$ into the natural log correctly, or confusing the decay constant ($\lambda$) with the half-life ($t_{1/2}$).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the percentage of power lost during electrical transmission given the total power ($P$) and voltage ($V$)?
+
+### Back
+- Key idea: Power loss is proportional to the square of the current ($I^2R$).
+- Formula / law / constant: $I = P/V$; $P_{\text{loss}} = I^2R$; $\text{Loss \%} = (P_{\text{loss}} / P_{\text{total}}) \times 100$.
+- When to use it: Whenever calculating transmission efficiency or the impact of high-voltage step-up transformers.
+- Common trap: Forgetting to use the total resistance of the transmission line (which often includes both the "there and back" wire lengths).

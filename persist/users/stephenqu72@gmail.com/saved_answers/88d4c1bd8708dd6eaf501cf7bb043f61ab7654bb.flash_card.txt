@@ -1,0 +1,8 @@
+### Front
+What is the formula for the net centripetal force ($F_{net}$) of an object moving on a frictionless banked track of angle $\theta$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force required for circular motion.
+- **Formula:** $F_{net} = mg \tan \theta$
+- **When to use it:** When calculating the force required to keep an object in circular motion on a frictionless banked surface where no friction is present.
+- **Common trap:** Confusing $\sin \theta$ and $\tan \theta$; remember that $\tan \theta$ is derived from the ratio of the horizontal and vertical components of the normal force ($N \sin \theta / N \cos \theta$).

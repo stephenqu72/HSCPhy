@@ -1,0 +1,10 @@
+### Front
+How do you determine the escape velocity of a planet given the orbital data (radius $r$, period $T$) of its satellite?
+
+### Back
+- Key idea: Use orbital mechanics to find the central mass, then apply the energy conservation principle for escape velocity.
+- Formula / law / constant: 
+  1. Kepler’s Third Law: $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$
+  2. Escape Velocity: $v_e = \sqrt{\frac{2GM}{R}}$
+- When to use it: When required to calculate planetary properties (mass or escape velocity) from satellite orbital data.
+- Common trap: Forgetting to convert units (e.g., $R$ from km to m) or confusing the orbital radius ($r$) with the planet's radius ($R$).

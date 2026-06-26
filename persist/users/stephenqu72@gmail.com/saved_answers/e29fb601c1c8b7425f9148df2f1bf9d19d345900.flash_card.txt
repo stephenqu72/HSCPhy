@@ -1,0 +1,8 @@
+### Front
+How do you verify the relationship between the period ($T$) and mass ($M$) for an ideal spring-mass system using a graph?
+
+### Back
+- **Key idea:** Linearise non-linear data to confirm a proportional relationship.
+- **Formula / law / constant / figure:** $T = 2\pi \sqrt{\frac{M}{k}} \implies T^2 = (\frac{4\pi^2}{k})M$. Plot $T^2$ (y-axis) vs $M$ (x-axis).
+- **When to use it:** When experimental data follows a power-law relationship and you need to determine the spring constant ($k$) or verify the square-root dependence.
+- **Common trap:** Plotting $T$ vs $M$ directly; this results in a curve, making it difficult to confirm the mathematical model or determine the gradient accurately.

@@ -1,0 +1,8 @@
+### Front
+At what point in a simple pendulum's swing is the restoring torque acting on the mass at its maximum, and why?
+
+### Back
+- Key idea: Torque is directly proportional to the perpendicular component of the gravitational force ($mg \sin\theta$).
+- Formula / law / constant / figure: $\tau = rF\sin\theta$; No fixed constant.
+- When to use it: To determine the magnitude of angular acceleration or restoring force at any displacement angle.
+- Common trap: Confusing torque with velocity; torque is **zero** at the center ($Y$) and **maximum** at the extremes ($X$ and $Z$), whereas speed is the opposite.

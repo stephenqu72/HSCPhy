@@ -1,0 +1,11 @@
+### Front
+What are the fundamental formulas used to determine the gravitational force, orbital velocity, and gravitational potential energy for a satellite in a circular orbit?
+
+### Back
+- **Key idea:** Gravitational force provides centripetal force; potential energy is relative to infinity ($U=0$).
+- **Formula / law:** 
+  1. $F_g = \frac{GMm}{r^2}$
+  2. $v = \sqrt{\frac{GM}{r}}$
+  3. $U = -\frac{GMm}{r}$
+- **When to use it:** Solving circular satellite motion (e.g., LEO satellites) where $r = R_E + h$.
+- **Common trap:** Forgetting to convert altitude ($h$) to total orbital radius ($r = R_E + h$) or failing to use absolute units (meters/kg).

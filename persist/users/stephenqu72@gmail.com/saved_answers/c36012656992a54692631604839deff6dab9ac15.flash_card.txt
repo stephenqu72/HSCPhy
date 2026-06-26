@@ -1,0 +1,8 @@
+### Front
+Is the horizontal range ($R$) of a projectile inversely proportional to the cosine of the launch angle ($\theta$)? Justify using the projectile range formula.
+
+### Back
+- Key idea: The range is defined by the product of $\sin\theta$ and $\cos\theta$, not a simple inverse relationship.
+- Formula / law / constant / figure: $R = \frac{v^2 \sin(2\theta)}{g} = \frac{2v^2 \sin\theta \cos\theta}{g}$
+- When to use it: To determine how launch angle affects the total horizontal displacement on level ground.
+- Common trap: Assuming an inverse relationship just because the range increases as $\cos\theta$ decreases; the actual relationship is $R \propto \sin\theta \cos\theta$.

@@ -1,0 +1,8 @@
+### Front
+What is the physical origin of Kepler’s 2nd Law, and why is gravitational potential energy ($U$) negative?
+
+### Back
+- **Key idea:** Kepler’s 2nd Law arises from the **conservation of angular momentum** due to gravity being a central force. The negative sign for $U$ indicates a **bound system** relative to zero potential at infinity.
+- **Formula:** $U = -\frac{GMm}{r}$
+- **When to use it:** Use the conservation of angular momentum to explain orbital speed variations; use $U$ to calculate the energy required to change an object's orbital position or escape the field.
+- **Common trap:** Forgetting the negative sign in $U$ or failing to convert kilometers to meters ($10^3$) when calculating orbital values.

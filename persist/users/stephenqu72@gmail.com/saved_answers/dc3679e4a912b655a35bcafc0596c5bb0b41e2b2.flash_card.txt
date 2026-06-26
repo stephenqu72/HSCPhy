@@ -1,0 +1,10 @@
+### Front
+How does the tension in a string change as an object moves through a vertical circle at a constant speed?
+
+### Back
+- Key idea: Tension is non-uniform because gravity assists or opposes the centripetal force depending on the object's position.
+- Formula / law / constant / figure: 
+  - Top: $T = \frac{mv^2}{r} - mg$ (Minimum $T$)
+  - Bottom: $T = \frac{mv^2}{r} + mg$ (Maximum $T$)
+- When to use it: Any vertical circular motion problem involving tension (e.g., a ball on a string or a rollercoaster).
+- Common trap: Assuming tension is constant throughout the rotation; always remember to include the component of gravity acting along the radius.

@@ -1,0 +1,8 @@
+### Front
+In ideal projectile motion (no air resistance), how do the horizontal and vertical velocity components change over time?
+
+### Back
+- **Key idea:** Horizontal velocity is constant; vertical velocity changes due to constant gravitational acceleration.
+- **Formula / law / constant / figure:** $a_x = 0$, $a_y = -g$ (constant).
+- **When to use it:** To analyze trajectory, range, or time of flight in projectile motion problems.
+- **Common trap:** Assuming instantaneous velocity at max height is zero (it is only the *vertical* component that is zero; horizontal velocity remains constant).

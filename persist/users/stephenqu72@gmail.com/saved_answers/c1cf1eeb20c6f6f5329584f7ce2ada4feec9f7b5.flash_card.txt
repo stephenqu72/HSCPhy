@@ -1,0 +1,8 @@
+### Front
+How do you calculate the energy required to transfer a satellite between two circular orbits around Earth?
+
+### Back
+- **Key idea:** The change in Total Mechanical Energy ($E = -\frac{GMm}{2r}$).
+- **Formula / law:** $\Delta E = E_{final} - E_{initial} = \left(-\frac{GMm}{2r_2}\right) - \left(-\frac{GMm}{2r_1}\right)$.
+- **When to use it:** When calculating the work done by thrusters to change a satellite's altitude/orbital period.
+- **Common trap:** Forgetting to convert the orbital period ($T$) to seconds or using the incorrect radius ($r$) derived from Kepler’s Third Law ($\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$).

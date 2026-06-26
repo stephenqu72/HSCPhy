@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) of a planet given its orbital radius ($r$) in AU?
+
+### Back
+- **Key idea:** Kepler’s Third Law states the square of the orbital period is proportional to the cube of the semi-major axis.
+- **Formula:** $T^2 = r^3$ (when $T$ is in Earth years and $r$ is in AU).
+- **When to use it:** To find the orbital period or distance of an object orbiting the Sun when given the other variable.
+- **Common trap:** Confusing $T^2 = r^3$ with $T = r^2$ or $T^2 = r^2$; always ensure you take the square root of the cubed radius.

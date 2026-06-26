@@ -1,0 +1,8 @@
+### Front
+Why does increasing transmission voltage reduce power loss in electrical lines?
+
+### Back
+- Key idea: Increasing voltage ($V$) for a fixed power ($P$) load inversely reduces line current ($I$). Since power loss is proportional to $I^2$, even small reductions in current cause massive decreases in heat loss.
+- Formula / law / constant / figure: $P = VI$ and $P_{loss} = I^2R$.
+- When to use it: Any calculation involving power transmission, efficiency, or the function of step-up transformers.
+- Common trap: Forgetting that the current is squared ($I^2$); students often incorrectly assume a linear relationship between current and power loss.

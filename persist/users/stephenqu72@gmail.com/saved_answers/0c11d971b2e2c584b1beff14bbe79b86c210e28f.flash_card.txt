@@ -1,0 +1,8 @@
+### Front
+How do you relate the orbital period ($T$) and orbital radius ($r$) of two objects orbiting the same central mass?
+
+### Back
+- Key idea: Kepler’s Third Law of Planetary Motion states that $T^2$ is proportional to $r^3$.
+- Formula / law / constant / figure: $\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$ or $\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$
+- When to use it: Any problem involving comparisons of orbits around the same central body (e.g., satellites around Earth, planets around the Sun).
+- Common trap: Forgetting to cube the radii or square the periods before solving; ensuring the central mass is the same for both objects.

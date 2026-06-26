@@ -1,0 +1,8 @@
+### Front
+What are the three conditions for a satellite to be in a geostationary orbit, and how is the orbital radius calculated?
+
+### Back
+- **Key idea:** Satellite must have an orbital period of one sidereal day ($T \approx 86,164$ s), orbit above the equator, and move west-to-east.
+- **Formula / law / constant:** $F_g = F_c \rightarrow r^3 = \frac{GMT^2}{4\pi^2}$.
+- **When to use it:** When solving for the radius or altitude required for a satellite to remain fixed relative to a point on Earth.
+- **Common trap:** Using a solar day (24 hours) instead of a sidereal day (23 hours, 56 minutes) and forgetting to subtract the Earth's radius ($r_E$) if the question asks for "altitude" rather than "orbital radius."

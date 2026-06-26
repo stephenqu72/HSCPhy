@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) and altitude ($h$) of a satellite given the gravitational field strength ($g$) at its orbit?
+
+### Back
+- Key idea: Orbital motion is governed by gravity providing centripetal force ($F_g = F_c$).
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$; $T = 2\pi\sqrt{\frac{r^3}{GM}}$; $h = r - R_E$.
+- When to use it: Whenever a satellite's motion or energy is linked to its orbital distance from a central body.
+- Common trap: Confusing $r$ (distance from the *center* of the planet) with $h$ (altitude above the *surface*). Always add the Earth's radius to $h$ to find $r$.

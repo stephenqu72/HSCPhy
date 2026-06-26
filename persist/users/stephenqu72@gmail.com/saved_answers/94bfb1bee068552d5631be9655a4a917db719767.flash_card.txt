@@ -1,0 +1,8 @@
+### Front
+How does the electrostatic force change if one charge is halved and the distance between the charges is also halved?
+
+### Back
+- Key idea: Force is directly proportional to charge ($Q$) and inversely proportional to the square of distance ($d^2$).
+- Formula / law / constant / figure: $F = k \frac{Q_1 Q_2}{d^2}$
+- When to use it: To calculate proportionality changes in electrostatic force when variables are modified.
+- Common trap: Forgetting to square the distance change; halving the distance increases force by a factor of 4 ($1/(1/2)^2 = 4$), not 2.

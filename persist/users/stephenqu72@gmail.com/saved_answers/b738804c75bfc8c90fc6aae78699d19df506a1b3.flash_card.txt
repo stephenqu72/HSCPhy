@@ -1,0 +1,8 @@
+### Front
+How does Special Relativity explain the magnetic force between two parallel current-carrying wires?
+
+### Back
+- Key idea: Length contraction of moving charges changes their linear charge density ($\lambda$), creating an electric field in the frame of a charge moving in the other wire.
+- Formula / law / constant / figure: $L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$ (Length contraction)
+- When to use it: To explain why stationary charges experience a force near a current-carrying wire (the "relativistic" origin of magnetism).
+- Common trap: Forgetting that length contraction only affects the charges moving relative to the observer's frame of reference, not the stationary ones.

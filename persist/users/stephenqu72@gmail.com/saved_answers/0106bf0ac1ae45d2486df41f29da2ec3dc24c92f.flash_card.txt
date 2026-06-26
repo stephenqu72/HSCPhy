@@ -1,0 +1,8 @@
+### Front
+What is the formula for the banking angle ($\theta$) of a frictionless track required to maintain a circular path at speed $v$ and radius $r$?
+
+### Back
+- **Key idea:** The horizontal component of the normal force provides the centripetal force, while the vertical component balances weight.
+- **Formula:** $\tan\theta = \frac{v^2}{rg}$
+- **When to use it:** Solving for the ideal banking angle of a circular path where no friction is present.
+- **Common trap:** Forgetting to convert speed from km/h to m/s before calculation.

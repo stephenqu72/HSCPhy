@@ -1,0 +1,8 @@
+### Front
+How do you determine the velocity of an object at different points in a frictionless circular loop?
+
+### Back
+- **Key idea:** Conservation of Mechanical Energy.
+- **Formula / law / constant / figure:** $E_{total} = KE + PE = \frac{1}{2}mv^2 + mgh$ (Constant).
+- **When to use it:** Whenever there is no friction or external work done on the system.
+- **Common trap:** Forgetting to define the reference height ($h=0$) at the lowest point or using $r$ instead of $2r$ (diameter) for the height at the top of the loop.

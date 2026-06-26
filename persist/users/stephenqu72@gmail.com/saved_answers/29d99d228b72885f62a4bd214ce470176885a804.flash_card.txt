@@ -1,0 +1,8 @@
+### Front
+What is the formula for the minimum speed $v$ required for a bicycle to navigate a banked track of radius $r$ and angle $\theta$ with a coefficient of static friction $\mu_s$?
+
+### Back
+- **Key idea:** At minimum speed, friction acts **up** the slope to prevent the bike from sliding down due to gravity.
+- **Formula:** $v_{min} = \sqrt{gr \left( \frac{\tan \theta - \mu_s}{1 + \mu_s \tan \theta} \right)}$
+- **When to use it:** When calculating the lower speed limit for a vehicle on a banked curve where friction is present.
+- **Common trap:** Confusing minimum speed (friction acts **up** the slope) with maximum speed (friction acts **down** the slope, changing signs to $\frac{\tan \theta + \mu_s}{1 - \mu_s \tan \theta}$).

@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital velocity of a satellite, and what is the critical requirement for the distance variable $r$?
+
+### Back
+- Key idea: Equating gravitational force to centripetal force ($F_g = F_c$).
+- Formula / law / constant: $v = \sqrt{\frac{GM}{r}}$ where $G \approx 6.67 \times 10^{-11} \, \text{N m}^2 \text{kg}^{-2}$.
+- When to use it: To find the velocity of an object in a stable circular orbit.
+- Common trap: Forgetting to add the planet's radius to the satellite's altitude ($r = R_{planet} + h$).

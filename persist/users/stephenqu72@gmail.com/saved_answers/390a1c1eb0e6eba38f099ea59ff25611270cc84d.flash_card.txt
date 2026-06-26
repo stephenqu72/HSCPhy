@@ -1,0 +1,9 @@
+### Front
+How do you determine the difference in tension ($T_{bottom} - T_{top}$) for a mass $m$ rotating in a vertical circle of radius $r$?
+
+### Back
+- **Key idea:** Use Conservation of Mechanical Energy to relate speeds at the top and bottom, and Newton’s Second Law for circular motion at both points.
+- **Formula / law / constant / figure:** 
+  $T_{bottom} - T_{top} = 6mg$ (derived from: $T_{bottom} = \frac{mv_b^2}{r} + mg$ and $T_{top} = \frac{mv_t^2}{r} - mg$, where $v_b^2 = v_t^2 + 4gr$).
+- **When to use it:** To find the tension difference in vertical circular motion problems.
+- **Common trap:** Forgetting that at the top of the circle, both tension and weight point towards the center (both are positive in the centripetal force equation), whereas at the bottom, they oppose each other.

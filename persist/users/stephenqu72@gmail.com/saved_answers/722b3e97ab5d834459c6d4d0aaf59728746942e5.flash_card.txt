@@ -1,0 +1,8 @@
+### Front
+How does a rotating space station simulate gravity for an astronaut?
+
+### Back
+- **Key idea:** The station provides a centripetal force via the floor; the astronaut’s inertia (resistance to acceleration) results in a normal reaction force from the floor, which is perceived as weight.
+- **Formula / law:** $a_c = r\omega^2$ and Newton’s Third Law.
+- **When to use it:** Problems involving artificial gravity or circular motion in non-inertial frames.
+- **Common trap:** Confusing diameter with radius ($r$) and failing to specify that the "gravity" felt is actually the normal contact force.

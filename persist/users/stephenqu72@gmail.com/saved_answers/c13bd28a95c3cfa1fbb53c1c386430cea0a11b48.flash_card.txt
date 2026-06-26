@@ -1,0 +1,8 @@
+### Front
+How do you experimentally determine the centripetal force ($F_c$) when measuring multiple radii ($r$) and velocities ($v$)?
+
+### Back
+- Key idea: Linearize the data by plotting $v^2$ against $r$ to find the gradient.
+- Formula / law / constant / figure: $v^2 = (\frac{F_c}{m})r \implies F_c = \text{gradient} \times m$
+- When to use it: When you have multiple experimental data points for $r$ and $v$ and need to minimize error through a line of best fit.
+- Common trap: Forgetting to convert units to SI (cm to m, g to kg) before calculating the gradient.

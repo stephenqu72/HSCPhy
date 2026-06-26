@@ -1,0 +1,8 @@
+### Front
+How do you determine the mass of a charged object held stationary between two parallel charged plates?
+
+### Back
+- **Key idea:** The object is in translational equilibrium, meaning the upward electric force balances the downward weight force ($F_E = F_g$).
+- **Formula / law / constant / figure:** $qE = mg$ where $E = V/d$; $g \approx 9.8 \text{ m s}^{-2}$.
+- **When to use it:** Whenever a charged particle is stationary or moving at a constant velocity within a uniform electric field.
+- **Common trap:** Failing to convert units to SI (e.g., mm to m, $\mu$C to C) or confusing the direction of force relative to the charge sign.

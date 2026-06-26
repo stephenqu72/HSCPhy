@@ -1,0 +1,8 @@
+### Front
+How does a satellite's orbital velocity change when transitioning to a lower circular orbit, and what formula defines this?
+
+### Back
+- **Key idea:** Satellites must increase their kinetic energy (speed) to maintain a stable circular orbit at a lower altitude, as the gravitational potential is stronger.
+- **Formula:** $v = \sqrt{\frac{GM}{r}}$
+- **When to use it:** To calculate the required change in orbital velocity ($\Delta v$) when shifting between different altitudes ($h$).
+- **Common trap:** Forgetting to add the Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r = R_E + h$).

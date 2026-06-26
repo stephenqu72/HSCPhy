@@ -1,0 +1,8 @@
+### Front
+What physical assumption must be re-evaluated when performing projectile motion calculations for altitudes above 100 km?
+
+### Back
+- Key idea: The Earth’s gravitational field strength ($g$) is not constant at high altitudes.
+- Formula / law / constant / figure: $g = \frac{GM}{r^2}$ (Newton’s Law of Universal Gravitation).
+- When to use it: Whenever the altitude is significant relative to the Earth's radius (typically $>100\text{ km}$).
+- Common trap: Assuming $g = 9.8\text{ m/s}^2$ remains constant; for large displacements, the curvature of the Earth and atmospheric drag also become non-negligible variables.

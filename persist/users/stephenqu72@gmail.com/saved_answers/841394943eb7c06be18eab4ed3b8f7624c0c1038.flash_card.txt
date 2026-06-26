@@ -1,0 +1,8 @@
+### Front
+Explain why an astronaut on a scale in orbit reads zero, despite gravity still acting on them.
+
+### Back
+- Key idea: Scales measure **normal force** ($F_N$), not gravitational force ($F_g$).
+- Formula / law / constant: Newton’s Second Law ($F_{net} = ma$) and Newton’s Third Law. In free-fall, $a = g$, so $F_N = m(g - a) = 0$.
+- When to use it: Questions regarding apparent weight, orbital motion, or free-fall.
+- Common trap: Assuming weightlessness means gravity is absent; gravity is actually the force providing the centripetal acceleration.

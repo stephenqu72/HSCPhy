@@ -1,0 +1,8 @@
+### Front
+How do you determine the relationship between the period ($T$) and mass ($M$) for a mass-spring system using experimental data?
+
+### Back
+- Key idea: $T$ is directly proportional to the square root of $M$ ($T \propto \sqrt{M}$).
+- Formula / law / constant / figure: $T = 2\pi\sqrt{\frac{M}{k}}$; linearise by plotting $T^2$ vs $M$.
+- When to use it: Any investigation or analysis involving Simple Harmonic Motion (SHM) of a mass on a spring.
+- Common trap: Plotting $T$ vs $M$ and expecting a straight line; you must square $T$ to achieve a linear graph to confirm the relationship.

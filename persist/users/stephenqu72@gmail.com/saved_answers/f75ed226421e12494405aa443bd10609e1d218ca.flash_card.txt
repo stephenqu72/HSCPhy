@@ -1,0 +1,10 @@
+### Front
+How do you calculate the energy released in a nuclear reaction and the percentage of a radioactive sample that has decayed?
+
+### Back
+- **Key idea:** Energy is released via mass-energy equivalence ($E=mc^2$); decay is an exponential process.
+- **Formula / law / constant:** 
+  - $E = (\Delta m)c^2$ (or $E = \Delta m \times 931.5 \text{ MeV/u}$)
+  - $N(t) = N_0 e^{-\lambda t}$ or $N(t) = N_0(0.5)^{\frac{t}{T_{1/2}}}$
+- **When to use it:** Use mass defect for energy released in specific reactions; use decay formulas to find remaining/decayed nuclei over time.
+- **Common trap:** For percentage decayed, ensure you calculate $(1 - \frac{N}{N_0}) \times 100\%$, not just the fraction remaining ($\frac{N}{N_0}$).

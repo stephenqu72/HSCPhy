@@ -1,0 +1,8 @@
+### Front
+Why does a comet’s speed change throughout its elliptical orbit, yet its total energy remains constant?
+
+### Back
+- **Key idea:** Gravitational potential energy ($U$) and kinetic energy ($K$) trade off to keep total mechanical energy ($E_{total} = K + U$) conserved.
+- **Formula / law / constant:** Kepler’s Second Law; $E_{total} = \frac{1}{2}mv^2 - \frac{GMm}{r}$.
+- **When to use it:** To compare orbital speeds or energy states at perihelion (closest) vs. aphelion (furthest).
+- **Common trap:** Assuming the comet accelerates because of an external force; it is actually a conversion between potential and kinetic energy due to gravity.

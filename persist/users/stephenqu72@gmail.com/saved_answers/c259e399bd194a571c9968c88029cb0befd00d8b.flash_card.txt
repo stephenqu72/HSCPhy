@@ -1,0 +1,8 @@
+### Front
+How do you calculate the remaining mass of a radioactive isotope given the elapsed time and half-life?
+
+### Back
+- **Key idea:** Radioactive decay is an exponential process where the substance mass halves every half-life ($T_{1/2}$).
+- **Formula:** $M_f = M_0 \times (0.5)^n$, where $n = \frac{t}{T_{1/2}}$
+- **When to use it:** To determine the remaining quantity or activity of a radioactive sample after a specific time interval.
+- **Common trap:** Confusing the total number of half-lives ($n$) with the total time ($t$), or forgetting that $n$ does not have to be a whole number.

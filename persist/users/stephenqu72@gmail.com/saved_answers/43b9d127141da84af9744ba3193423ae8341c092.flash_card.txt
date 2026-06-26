@@ -1,0 +1,8 @@
+### Front
+How do you calculate the total energy released from a specific number of reactant nuclei in a fusion reaction?
+
+### Back
+- **Key idea:** Energy is released due to a mass defect ($\Delta m$) converted into energy via mass-energy equivalence.
+- **Formula / law / constant:** $E = \Delta m c^2$; $1\text{ u} = 1.66 \times 10^{-27}\text{ kg}$; $c = 3.00 \times 10^8\text{ m/s}$.
+- **When to use it:** To determine the energy yield of nuclear reactions (fission or fusion) where mass is lost.
+- **Common trap:** Forgetting to divide the total number of reactant atoms by the stoichiometric coefficient (e.g., if 2 atoms are needed per reaction, divide total atoms by 2 to get the number of reactions).

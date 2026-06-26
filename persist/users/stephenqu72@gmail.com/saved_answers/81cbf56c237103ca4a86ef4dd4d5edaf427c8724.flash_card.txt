@@ -1,0 +1,8 @@
+### Front
+For two objects in uniform circular motion with the same period ($T$), how do the ratios of their linear velocities ($v$) and centripetal accelerations ($a$) relate to their radii ($r$)?
+
+### Back
+- **Key idea:** If $T$ (and thus $\omega$) is constant, both $v$ and $a$ are directly proportional to the radius $r$.
+- **Formula / law:** $v = r\omega$ and $a = r\omega^2$. Therefore, $\frac{v_B}{v_A} = \frac{r_B}{r_A}$ and $\frac{a_B}{a_A} = \frac{r_B}{r_A}$.
+- **When to use it:** Whenever a system (e.g., a rotating rod or merry-go-round) has multiple points sharing the same angular velocity.
+- **Common trap:** Assuming $v$ is constant across different radii; $v$ only depends on $r$ when $\omega$ is fixed.

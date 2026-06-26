@@ -1,0 +1,8 @@
+### Front
+How do you calculate the resultant initial velocity ($u$) of a projectile given its horizontal ($u_x$) and vertical ($u_y$) components?
+
+### Back
+- Key idea: Vector addition of perpendicular components.
+- Formula / law / constant / figure: $u = \sqrt{u_x^2 + u_y^2}$ (Pythagorean theorem).
+- When to use it: To determine the magnitude of the initial velocity vector from its component parts.
+- Common trap: Forgetting that horizontal and vertical components must be calculated or treated independently before finding the resultant.

@@ -1,0 +1,8 @@
+### Front
+How do you derive Kepler's Third Law ($T^2 = KR^3$) using Newton's Law of Universal Gravitation?
+
+### Back
+- **Key idea:** Gravitational force provides the centripetal force required for circular motion.
+- **Formula / law:** Set $F_g = F_c \rightarrow \frac{GMm}{R^2} = \frac{mv^2}{R}$. Substitute $v = \frac{2\pi R}{T}$.
+- **When to use it:** When asked to "deduce" the relationship between orbital period ($T$) and radius ($R$) for any satellite or planet.
+- **Common trap:** Forgetting to substitute the expression for orbital velocity ($v$) into the centripetal force equation before rearranging for $T$.

@@ -1,0 +1,8 @@
+### Front
+What is the net magnetic field at the midpoint between two parallel wires carrying equal currents in the same direction, and why?
+
+### Back
+- Key idea: Vector cancellation; the magnetic field vectors from each wire have equal magnitude but opposite directions.
+- Formula / law / constant / figure: $B = \frac{\mu_0 I}{2\pi r}$; Right-Hand Grip Rule.
+- When to use it: To determine magnetic superposition for parallel current-carrying conductors.
+- Common trap: Assuming currents in the *same* direction lead to constructive interference; they actually create opposing field directions between the wires.

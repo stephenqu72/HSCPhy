@@ -1,0 +1,8 @@
+### Front
+What is the projectile trajectory equation used to relate displacement $(x, y)$ to launch angle $\theta$ and initial velocity $v_0$?
+
+### Back
+- **Key idea:** Describes the parabolic path of a projectile without explicit reference to time.
+- **Formula:** $y = x \tan(\theta) - \frac{gx^2}{2v_0^2 \cos^2(\theta)}$ or $y = x \tan(\theta) - \frac{gx^2}{2v_0^2}(1 + \tan^2(\theta))$.
+- **When to use it:** When you need to find the launch velocity, landing point, or launch angle given specific $(x, y)$ coordinates.
+- **Common trap:** Confusing the launch angle $\theta$ with the slope angle of the landing surface, or forgetting that $1/\cos^2(\theta) = 1 + \tan^2(\theta)$ when solving for $\theta$ using the quadratic formula.

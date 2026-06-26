@@ -1,0 +1,8 @@
+### Front
+Why can a bead on a rotating vertical hoop not remain fixed at the horizontal position (point $C$)?
+
+### Back
+- **Key idea:** There is no vertical component of the normal force to balance the bead's weight.
+- **Formula / law / constant / figure:** $\sum F_y = N_y - mg = ma_y$. At point $C$, $N_y = 0$.
+- **When to use it:** Problems involving circular motion on a rotating frame where equilibrium is required.
+- **Common trap:** Assuming a high angular velocity ($\omega$) can provide a vertical upward force; horizontal normal force can only provide centripetal acceleration, not vertical lift.

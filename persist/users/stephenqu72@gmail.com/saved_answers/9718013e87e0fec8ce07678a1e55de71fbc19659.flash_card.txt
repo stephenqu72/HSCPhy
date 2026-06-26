@@ -1,0 +1,8 @@
+### Front
+How do you calculate the orbital period ($T$) of a satellite, and what keeps it in a stable circular orbit?
+
+### Back
+- **Key idea:** Kepler’s Third Law relates radius to period; tangential velocity maintains the orbit by matching Earth's curvature.
+- **Formula / law:** $\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$ (Kepler’s 3rd Law).
+- **When to use it:** When calculating orbital characteristics or solving problems involving gravitational central force.
+- **Common trap:** Forgetting to add Earth's radius ($R_E$) to the altitude ($h$) to find the total orbital radius ($r = R_E + h$).

@@ -1,0 +1,8 @@
+### Front
+Explain the primary mechanism for energy loss in electrical transmission lines and how this is mitigated in the NSW power grid.
+
+### Back
+- **Key idea:** Joule heating ($P_{loss} = I^2 R$) is the main loss; mitigated by using transformers to increase voltage and decrease current.
+- **Formula / law / constant / figure:** $P_{loss} = I^2 R$ and $P = VI$.
+- **When to use it:** When analysing grid efficiency, transmission losses, or justifying the use of step-up/step-down transformers.
+- **Common trap:** Stating that high voltage *eliminates* resistance. Resistance is a physical property of the conductor; high voltage only reduces the *current*, which minimizes the power lost as heat.

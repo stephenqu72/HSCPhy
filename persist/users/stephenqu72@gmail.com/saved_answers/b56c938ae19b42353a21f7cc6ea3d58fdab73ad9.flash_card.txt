@@ -1,0 +1,8 @@
+### Front
+In a banked curve, what provides the centripetal force required to keep a vehicle in circular motion?
+
+### Back
+- Key idea: The horizontal component of the normal force ($N\sin\theta$) provides the centripetal force.
+- Formula / law / constant / figure: $F_c = N\sin\theta = \frac{mv^2}{r}$
+- When to use it: To calculate the ideal speed of a vehicle on a banked track without relying on friction.
+- Common trap: Assuming the normal force ($N$) *is* the centripetal force; it is actually only a component of the normal force.

@@ -1,0 +1,8 @@
+### Front
+How can you linearize the orbital velocity formula $v = \sqrt{\frac{GM}{r}}$ to determine a straight-line relationship?
+
+### Back
+- **Key idea:** To linearize $v \propto \frac{1}{\sqrt{r}}$, square both sides to get $v^2 = \frac{GM}{r}$.
+- **Formula / law / constant / figure:** Plotting $v^2$ (y-axis) vs $1/r$ (x-axis) yields a straight line with a gradient of $GM$.
+- **When to use it:** When analyzing orbital motion graphs or experimental data to verify Kepler’s Laws or Newton's Law of Universal Gravitation.
+- **Common trap:** Confusing $v$ vs $1/r$ (which is a square-root curve) with $v^2$ vs $1/r$ (which is linear).

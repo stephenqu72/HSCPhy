@@ -1,0 +1,8 @@
+### Front
+Why should you measure the time for multiple oscillations ($N$) rather than a single oscillation when calculating the period of a pendulum?
+
+### Back
+- Key idea: Reduction of relative percentage uncertainty caused by human reaction time.
+- Formula / law / constant / figure: $T = \frac{\text{total time}}{N}$
+- When to use it: Any timing experiment involving high-frequency or rapid events where manual reaction time is a significant source of error.
+- Common trap: Thinking it reduces physical errors like air resistance or parallax error; it only minimizes the impact of human reaction time.

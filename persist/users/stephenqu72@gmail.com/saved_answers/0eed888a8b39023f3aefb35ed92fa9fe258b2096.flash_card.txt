@@ -1,0 +1,8 @@
+### Front
+In a projectile motion experiment where launch velocity ($v$) is the independent variable, why must height ($h$) and launch position ($d$) be kept constant?
+
+### Back
+- Key idea: To ensure validity, only the independent variable ($v$) should affect the dependent variable (Range, $R$).
+- Formula / law: $R = v \sqrt{\frac{2h}{g}}$
+- When to use it: When conducting a controlled experiment to isolate the relationship between horizontal velocity and projectile range.
+- Common trap: Assuming that because $h$ is not part of the *intended* variable relationship, it doesn't need to be controlled; changing $h$ alters the time of flight ($t$), which invalidates the data by introducing a confounding variable.

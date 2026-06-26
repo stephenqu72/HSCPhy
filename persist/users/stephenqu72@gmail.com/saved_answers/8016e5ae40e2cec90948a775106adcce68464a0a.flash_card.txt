@@ -1,0 +1,8 @@
+### Front
+How do you determine if a car can maintain its height on a banked track when friction is present?
+
+### Back
+- Key idea: The net force parallel to the incline must be zero; required friction ($f$) must be $\leq$ maximum static friction ($\mu N$).
+- Formula / law / constant / figure: $f_{req} = F_c \cos\theta - mg \sin\theta$; $N = mg \cos\theta + F_c \sin\theta$; $f_{max} = \mu N$.
+- When to use it: Whenever a vehicle moves in a horizontal circle on a banked track at a speed other than the "ideal" banking speed (where $v = \sqrt{gr \tan\theta}$).
+- Common trap: Forgetting that the normal force ($N$) is increased by the vertical component of the centripetal force ($F_c \sin\theta$), not just gravity.
